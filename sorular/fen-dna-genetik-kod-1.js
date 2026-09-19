@@ -550,13 +550,13 @@ II. Şemada gen olarak işaretlenen bölüm, art arda dizilmiş çok sayıda nü
 III. L kromozomunun üzerindeki gen sayısı K kromozomunun üzerindekinden azdır.
 **Buna göre yukarıdaki yargılardan hangileri kesinlikle doğrudur?**`,
   gorsel: `<svg viewBox="0 0 560 290" role="img" aria-label="Çekirdekteki üç kromozom ve bir kromozomun açılmış hâlindeki DNA, gen ve nükleotidler"><circle cx="110" cy="140" r="85" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><g fill="var(--vurgu)" stroke="currentColor" stroke-width="1.5"><rect x="70" y="85" width="16" height="56" rx="8" transform="rotate(-20 78 113)"/><rect x="115" y="100" width="16" height="56" rx="8" transform="rotate(15 123 128)"/><rect x="90" y="165" width="16" height="56" rx="8" transform="rotate(35 98 193)"/></g><g fill="currentColor" font-size="16" font-weight="bold"><text x="48" y="94">K</text><text x="146" y="108">L</text><text x="70" y="214">M</text></g><g stroke="currentColor" stroke-width="2.5"><line x1="204" y1="140" x2="244" y2="140"/><line x1="244" y1="140" x2="234" y2="134"/><line x1="244" y1="140" x2="234" y2="146"/></g><g stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="252" y1="120" x2="540" y2="120"/><line x1="252" y1="160" x2="540" y2="160"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="274" y1="120" x2="274" y2="160"/><line x1="346" y1="120" x2="346" y2="160"/><line x1="370" y1="120" x2="370" y2="160"/><line x1="394" y1="120" x2="394" y2="160"/><line x1="418" y1="120" x2="418" y2="160"/><line x1="442" y1="120" x2="442" y2="160"/><line x1="466" y1="120" x2="466" y2="160"/><line x1="502" y1="120" x2="502" y2="160"/><line x1="526" y1="120" x2="526" y2="160"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="276" cy="140" r="18"/><circle cx="312" cy="140" r="18"/></g><rect x="336" y="114" width="140" height="52" rx="8" fill="var(--vurgu)" fill-opacity="0.16" stroke="var(--vurgu)" stroke-width="2.5"/><g stroke="currentColor" stroke-width="1.5"><line x1="294" y1="196" x2="294" y2="166"/><line x1="502" y1="196" x2="502" y2="166"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="294" y="214">Proteinler</text><text x="502" y="214">Nükleotid</text><text x="110" y="256">Hücre çekirdeği</text><text x="396" y="256">Açılmış kromozom</text></g><text x="406" y="102" fill="var(--vurgu)" font-size="16" font-weight="bold" text-anchor="middle">Gen</text></svg>`,
-  secenekler: ["Yalnız I", "Yalnız II", "Yalnız III", "I ve II"],
-  dogru: 3,
+  secenekler: ["Yalnız I", "I ve II", "I ve III", "I, II ve III"],
+  dogru: 1,
   hatalar: [
     "II. yargıyı atlama: şemada gen olarak işaretlenen bölümün içinde art arda dizilmiş nükleotidler gösterilmiştir.",
-    "I. yargıyı atlama: açılan kromozomdan DNA ile proteinler birlikte çıkmıştır; K, L ve M de birer kromozom olduğuna göre üçü de aynı yapıdadır.",
-    "Şemada olmayan veriyi okunmuş sayma: kromozomların üzerindeki gen sayıları şemada gösterilmediği için III. yargı kesin olarak doğrulanamaz.",
-    null
+    null,
+    "II. yargıyı atlayıp III'ü doğru sayma: gen sayıları şemada hiç gösterilmediği için III kesin olarak doğrulanamaz; oysa II doğrudan şemadan okunur.",
+    "Şemada olmayan veriyi okunmuş sayma: üç kromozom da aynı biçimde çizilmiştir, üzerlerindeki gen sayıları gösterilmemiştir. Bilinmeyen bir karşılaştırma kesinlikle doğru sayılamaz."
   ],
   aciklama: `Kromozom, DNA'nın proteinlerle birlikte sarılıp paketlenmiş hâlidir. Şema en büyük yapıdan en küçüğe doğru ilerliyor: çekirdekteki kromozomlar, açılan kromozomdan çıkan proteinler ile DNA, DNA üzerindeki gen ve geni oluşturan nükleotidler.
 Adım 1: I. yargıyı kontrol et. Şemada yalnızca bir kromozom açılmış, içinden DNA ile proteinler çıkmıştır. K, L ve M'nin üçü de kromozom olduğuna göre üçü de aynı yapıdadır. Doğrudur.
@@ -564,7 +564,7 @@ Adım 2: II. yargıyı kontrol et. Şemada gen olarak işaretlenen bölümün i�
 Adım 3: III. yargıyı kontrol et. Şemada kromozomların üzerinde kaçar gen bulunduğu gösterilmemiştir; üç kromozom da aynı biçimde çizilmiştir. L'nin K'den az gen taşıması doğru da olabilir yanlış da. Bilinmeyen bir karşılaştırma kesinlikle doğru sayılamaz. Yanlıştır.
 Adım 4: Kesinlikle doğru olan yargılar I ve II'dir.
 Sık yapılan hata: Şemada gösterilmeyen bir karşılaştırmayı gösterilmiş gibi kabul etmek. "Kesinlikle" kökü, yalnızca verilenden çıkarılabilen yargıları ister.
-Cevap D.`
+Cevap B.`
 },
 {
   id: "fen-dn-209",
