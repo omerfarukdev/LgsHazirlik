@@ -22,12 +22,13 @@ try {
   console.log("❌ konular.js ya da manifest.js yüklenemedi: " + e.message);
   process.exit(1);
 }
-var KONU = {}; // konuId → ders
+var KONU = {}, RUTIN = {}; // konuId → ders · rutin konularda kademeli test yoktur
 (window.LGS_KONULAR || []).forEach(function (d) {
   d.uniteler.forEach(function (u) {
     u.konular.forEach(function (k) {
       if (KONU[k.id]) sorun("konular.js: konu id TEKRAR ediyor: " + k.id);
       KONU[k.id] = d;
+      if (k.rutin) RUTIN[k.id] = true;
     });
   });
 });
@@ -88,7 +89,10 @@ konular.forEach(function (konuId) {
     if ([0, 1, 2, 3].indexOf(q.kademe) === -1) sorun(kimlik + ": kademe 0-3 arası sayı olmalı");
     else {
       kademeSay[q.kademe]++;
-      if (q.id && /-\d{3}$/.test(q.id) && +q.id.slice(-3, -2) !== q.kademe) dikkat(kimlik + ": id'nin yüzler basamağı kademeyle uyuşmuyor");
+      // Rutin konularda her soru havuzdadır; eski kimlikler korunduğu için basamak uyuşmaz.
+      if (!RUTIN[konuId] && q.id && /-\d{3}$/.test(q.id) && +q.id.slice(-3, -2) !== q.kademe) {
+        dikkat(kimlik + ": id'nin yüzler basamağı kademeyle uyuşmuyor");
+      }
     }
     if ([1, 2, 3, 4].indexOf(q.zorluk) === -1) sorun(kimlik + ": zorluk 1-4 arası sayı olmalı");
     if (!q.soru) sorun(kimlik + ": soru metni eksik");

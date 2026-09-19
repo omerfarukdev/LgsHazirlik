@@ -407,6 +407,7 @@ var App = (function () {
       for (var j = 0; j < d.uniteler.length; j++) {
         var konular = d.uniteler[j].konular;
         for (var m = 0; m < konular.length; m++) {
+          if (konular[m].rutin) continue; // rutin konu "sıradaki adım" olarak önerilmez
           var durum = konuDurum(konular[m].id);
           for (var k = 1; k <= 3; k++) {
             if (!kademeSorulari(konular[m].id, k).length) continue;
@@ -427,7 +428,8 @@ var App = (function () {
     var d = dersBul(dersId);
     var html = ustCubuk('<span class="baslik-ikon ders-' + d.id + '">' + ikon(d.id) + '</span>' + esc(d.ad), "#/");
     html += '<p class="soluk aciklama-yazi">Konuyu okulda bitirip kâğıt testlerini çözdükten sonra buradaki testlere geç. ' +
-      'Her konuda üç kademe var; bir kademeyi en az %' + yuzde(AYAR.gecmeEsigi) + ' ile bitirince sonraki açılır.</p>';
+      'Her konuda üç kademe var; bir kademeyi en az %' + yuzde(AYAR.gecmeEsigi) + ' ile bitirince sonraki açılır. ' +
+      '<strong>Paragraf</strong> ise kademeye bölünmez: bitirilen bir konu değil, her gün beslenen bir beceridir.</p>';
     d.uniteler.forEach(function (u) {
       html += '<h3 class="unite-baslik">' + esc(u.ad) + '</h3><div class="konu-liste">';
       u.konular.forEach(function (konu) {
@@ -437,6 +439,13 @@ var App = (function () {
           '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cip">' + esc(konu.ay) + '</span></div>';
         if (!hazir) {
           html += '<div class="soluk kucuk">Sorular hazırlanıyor</div>';
+        } else if (konu.rutin) {
+          // Rutin konu: kademe yok, günlük havuza yönlendirir
+          var tazeSay = konu.id === PARAGRAF_KONU ? paragrafTaze() : 0;
+          html += '<div class="rutin-satir"><div><span class="soluk kucuk">Günlük rutin · havuzda ' +
+            bank(konu.id).length + ' soru' + (tazeSay ? ", " + tazeSay + " tanesi taze" : "") + '</span><br>' +
+            '<span class="soluk kucuk">Kademe yok; her gün ana sayfadan çözülür. Ne kadar çok, o kadar iyi.</span></div>' +
+            '<button class="btn birincil" onclick="App.paragrafBaslat()">' + paragrafSet() + ' soruluk tur →</button></div>';
         } else {
           html += '<div class="kademeler">';
           [1, 2, 3].forEach(function (k) {

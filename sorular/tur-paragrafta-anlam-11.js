@@ -175,7 +175,7 @@ Sık yapılan hata: Metinde geçen sözcüklerden kurulmuş her başlığı uygu
 
 Adım 1: A’nın kaynağı metindeki “kökleriyle kumu tuttukları için dalga tabanı sürekli bulandırmaz” cümlesi. B ve D’nin kaynağı tablodaki iki satır: %65 örtü–120 yavru ile %20 örtü–35 yavru.
 
-Adım 2: C’ye bak: Tabloda balık yavrusunun SAYISI var, balık TÜRLERİNİN sayısı yok. Kaç çeşit balık olduğunu ne metin ne tablo söylüyor. Üstelik “artırmaktadır” demek bir neden-sonuç iddiasıdır; gözlem iki bölgeyi karşılaştırır, nedeni tek başına kanıtlamaz.
+Adım 2: C’ye bak: Tabloda balık yavrusunun **sayısı** var, balık **türlerinin** sayısı yok. Kaç çeşit balık olduğunu ne metin ne tablo söylüyor. Üstelik “artırmaktadır” demek bir neden-sonuç iddiasıdır; gözlem iki bölgeyi karşılaştırır, nedeni tek başına kanıtlamaz.
 
 Sık yapılan hata: Tablodaki “sayı” ile “tür sayısı”nı karıştırmak. Sütun başlığını satır okumadan önce oku. Cevap C.` },
 
@@ -300,7 +300,7 @@ Adım 3: D’yi de sağlamla: Metin “Rüzgâr aynı işi kuru günlerde yapar�
 Sık yapılan hata: Sorun bölümündeki çarpıcı bir cümleyi ana düşünce sanmak. Yazarın “sonuç olarak ne demek istiyor?” sorusuna dön. Cevap B.` },
 
 { id: "tur-pa-1179", kazanim: "T.8.3.19", kademe: 0, zorluk: 4,
-  soru: `Bozulan bir kulaklık eskiden tamirciye giderdi; bugün çoğu zaman önce çekmeceye, oradan da çöpe gidiyor. Oysa çekmecede bekleyen cihazların çoğu bütünüyle bozuk değildir; çoğu kez tek bir tel kopmuş ya da tek bir düğme yerinden oynamıştır. Bunun tek nedeni tembellik de değil. Kimi ürünler, açıldığında kırılacak biçimde yapıştırılıyor; pili değiştirilemiyor, yedek parçası satılmıyor, tamir kılavuzu paylaşılmıyor. Cihazı açmayı deneyen kişi çoğu zaman elinde kırık bir kapakla kalıyor. ---- Nitekim bazı ülkelerde, bir ürünün ne kadar kolay onarılabildiğini gösteren puanın satış etiketine yazılması alıcıların seçimini değiştirdi; üreticiler de tasarımlarını bu puana göre gözden geçirmek zorunda kaldı. Bir mahalle onarım atölyesinde tutulan kayıtlarda da getirilen cihazların büyük bölümünün tek bir küçük parça yüzünden çalışmadığı görülmüş. Onarım yalnızca cüzdanı ilgilendiren bir konu değildir: Yeniden çalışan her cihaz, üretilmeyen bir cihaz ve çıkarılmayan bir madendir.
+  soru: `Kulaklığın bir kulağı susmuştu; ses yalnızca sağdan geliyordu. Bozulan bir kulaklık eskiden tamirciye giderdi; bugün çoğu zaman önce çekmeceye, oradan da çöpe gidiyor. Oysa çekmecede bekleyen cihazların çoğu bütünüyle bozuk değildir; çoğu kez tek bir tel kopmuş ya da tek bir düğme yerinden oynamıştır. Bunun tek nedeni tembellik de değil. Kimi ürünler, açıldığında kırılacak biçimde yapıştırılıyor; pili değiştirilemiyor, yedek parçası satılmıyor, tamir kılavuzu paylaşılmıyor. Cihazı açmayı deneyen kişi çoğu zaman elinde kırık bir kapakla kalıyor. ---- Nitekim bazı ülkelerde, bir ürünün ne kadar kolay onarılabildiğini gösteren puanın satış etiketine yazılması alıcıların seçimini değiştirdi; üreticiler de tasarımlarını bu puana göre gözden geçirmek zorunda kaldı. Etikete yazılan o puan, alıcıya soyut bir söz değil karşılaştırılabilir bir ölçü veriyordu. Bir mahalle onarım atölyesinde tutulan kayıtlarda da getirilen cihazların büyük bölümünün tek bir küçük parça yüzünden çalışmadığı görülmüş. Onarım yalnızca cüzdanı ilgilendiren bir konu değildir: Yeniden çalışan her cihaz, üretilmeyen bir cihaz ve çıkarılmayan bir madendir.
 
 **Bu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,

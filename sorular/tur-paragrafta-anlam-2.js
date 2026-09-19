@@ -8,7 +8,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 {
   id: "tur-pa-301",
   kazanim: "T.8.3.17",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Mutfak dolabının üstünde, kapağı çatlamış bir ekmek kızartma makinesi duruyor. Üç yıl önce bozulduğunda servise götürdüm; usta, yedek parçanın artık üretilmediğini söyledi. Oysa arızası küçüktü: kopmuş bir tel, yanmış bir düğme. Aynı çekmecede duran otuz yıllık hesap makinesi ise hâlâ çalışıyor; pili bitince kapağı iki vidayla açılıyor, pil değişiyor, iş bitiyor. O gün anladım ki bir aletin ömrünü belirleyen şey yalnızca malzemesinin dayanıklılığı değil, onarılabilecek biçimde tasarlanıp tasarlanmadığıdır. Vidayla birleştirilmiş bir gövdeyi açabilirsiniz; yapıştırılmış bir gövdeyi kırmadan açamazsınız. Bugün pek çok cihaz ikinci seçeneğe göre üretiliyor; bozulan alet onarılmıyor, yenisi alınıyor. Ben o kızartma makinesini hâlâ atmadım. Çünkü onu attığım gün yalnızca bir aleti değil, bir aleti onarma alışkanlığını da çöpe atmış olacağım.
 **Bu metnin ana fikri aşağıdakilerden hangisidir?**`,
@@ -37,7 +37,7 @@ Cevap B.`
 {
   id: "tur-pa-302",
   kazanim: "T.8.3.25",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Karanlık, gökbilimcilerin en çok ihtiyaç duyduğu malzemedir. Şehir ışıkları geceleyin havadaki toz ve nem taneciklerine çarpıp geri saçıldığında gökyüzü, üzerine ince bir tül çekilmiş gibi ağarır. Bu ağarma yıldızları söndürmez; yalnızca onları arka plandan ayırt etmeyi zorlaştırır. Bu yüzden gözlemevleri şehirlerden uzakta, yüksek ve kuru bölgelere kurulur. Ülkemizdeki amatör gözlem toplulukları da her yaz, ay ışığının en zayıf olduğu geceleri seçerek şehir dışında kamp kurar. Aşağıdaki tabloda aynı gecede dört ayrı yerde yapılan çıplak göz sayımlarının sonuçları verilmiştir.
 **Bu metne ve tabloya göre aşağıdakilerin hangisine __ulaşılamaz__?**`,
@@ -66,7 +66,7 @@ Cevap C.`
 {
   id: "tur-pa-303",
   kazanim: "T.8.3.16",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `(I) Müzelerde vitrin aydınlatması yalnızca görmeyi kolaylaştırmak için değil, eseri korumak için de tasarlanır. (II) Işığın içindeki mor ötesi ışınlar; kâğıt, kumaş ve boya gibi malzemelerin rengini yıllar içinde soldurur. (III) Bu yüzden el yazmalarının sergilendiği salonlarda ışık düşük tutulur, eserler belirli aralıklarla depoya alınıp yerlerine başkaları konur. (IV) Müzelerin giriş ücretleri öğrenciler için çoğu ülkede indirimlidir. (V) Taştan ve madenden yapılmış eserler ışığa daha dayanıklı olduğu için daha aydınlık vitrinlerde sunulabilir.
 **Bu metindeki numaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?**`,
@@ -90,7 +90,7 @@ Cevap C.`
 {
   id: "tur-pa-304",
   kazanim: "T.8.3.11",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Gece yarısını geçe trenin koridorunda tek başıma duruyordum. Camın dışında, ay ışığında gümüş rengine çalan bir ova uzanıp gidiyordu; arada bir karanlıkta yüzen turuncu bir lamba geçiyordu yanımızdan. Arkamdaki kompartımandan çıkan yaşlı bir adam geldi, yanıma dayandı. Elinde kapağı çizilmiş metal bir termos vardı. Bana bakmadan, “Bu hatta kırk yıl makasçılık yaptım.” dedi. Sonra parmağıyla camı işaret etti: “Şu yamacın ardında bir köprü var; tren oradan geçerken ray sesi değişir.” Birkaç dakika sustuk. Gerçekten de tekerleklerin altındaki tok gürültü, birden yankılı ve boş bir sese dönüştü. Adam gülümsedi, termosunu açtı, iki bardak çay koydu. O gece ben de o köprüyü ilk kez duymuş oldum.
 **Bu metnin anlatımıyla ilgili olarak aşağıdakilerden hangisi söylenebilir?**`,
@@ -119,7 +119,7 @@ Cevap A.`
 {
   id: "tur-pa-305",
   kazanim: "T.8.3.34",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Antrenman biliminde toparlanma; vücudun yüklenme sırasında tükettiği kaynakları yeniden kazanması ve dokularında oluşan küçük yırtıkları onarması sürecine verilen addır. Bu süreç, sporcunun çalıştığı dala göre biçim değiştirir: bir maraton koşucusu yarıştan sonraki üç gün boyunca yalnızca tempolu yürüyüş yapar; bir halterci ise ağır bir setin ardından üç dakika dinlenip yeniden başlar. Toparlanmanın en güçlü aracı uykudur. Üniversite takımlarında yürütülen bir izleme çalışmasında, gece uykusu yedi saatin altına inen sporcularda sakatlanma oranının iki katına çıktığı görülmüştür. Kas, salonda ağırlık kaldırırken değil yatakta dinlenirken güçlenir. Bu yüzden iyi bir antrenman programında dinlenme günleri, çalışma günleri kadar dikkatle planlanır.
 **Bu metnin yazılmasında aşağıdaki düşünceyi geliştirme yollarından hangisine __başvurulmamıştır__?**`,
@@ -149,7 +149,7 @@ Cevap D.`
 {
   id: "tur-pa-306",
   kazanim: "T.8.3.10",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Bir dökümhanede fırından çıkan baca gazının sıcaklığı 400 dereceyi aşar. Uzun yıllar bu gaz, filtrelerden geçirildikten sonra doğrudan havaya bırakıldı; çünkü onu tutmanın kolay bir yolu yoktu. Bugün pek çok tesiste bacaya bir ısı değiştirici yerleştiriliyor. Bu düzenek, kalın çeperli borulardan oluşan bir sandığa benzer; sıcak gaz boruların dışından, temiz su ise içinden geçer. Sıcak gaz, borulardaki suyu ısıtıyor; ısınan su da tesisin banyolarına ve idari binanın kaloriferine gidiyor. - - - - Fabrikanın ısınma için harcadığı doğal gaz dörtte bire iniyor. Üstelik kurulum masrafı, çoğu tesiste iki yıl içinde kendini geri ödüyor. Bacadan çıkan ısıyı yakalamak, yeni bir enerji kaynağı bulmak kadar değerli olabiliyor.
 **Bu metinde boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?**`,
@@ -178,7 +178,7 @@ Cevap A.`
 {
   id: "tur-pa-307",
   kazanim: "T.8.3.21",
-  kademe: 3,
+  kademe: 0,
   zorluk: 3,
   soru: `Bir tarım işletmesi, üç ürününde de salma sulamadan damla sulamaya geçmeyi düşünüyordu. Salma sulamada su, tarlanın başından bırakılıp toprağın üstünde yayılır; bir bölümü bitkiye ulaşmadan buharlaşır, bir bölümü de kökün altına sızıp gider. Damla sulamada ise su, borularla doğrudan kökün dibine bırakılır. İşletme, kararı vermeden önce aynı yıl içinde her ürünün tarlasını ikiye böldü; bir yarısını eski yöntemle, öbür yarısını damla sistemiyle suladı ve dönüm başına harcanan suyu ölçtü. İşletme müdürü, sonuçları değerlendirirken kurulum masrafının da hesaba katılması gerektiğini söyledi; çünkü damla sistemi her ürün için ayrı borulama istiyordu.
 **Bu metne ve grafiğe göre aşağıdakilerden hangisi __söylenemez__?**`,
@@ -207,7 +207,7 @@ Cevap D.`
 {
   id: "tur-pa-308",
   kazanim: "T.8.3.21",
-  kademe: 3,
+  kademe: 0,
   zorluk: 4,
   soru: `Dünya'dan milyonlarca kilometre uzaktaki bir araştırma aracına komut göndermek, bildiğimiz anlamda “konuşmak” değildir. Sinyal ışık hızıyla yol alsa bile aracın bulunduğu uzaklığa göre yolculuğu dakikalarca, kimi zaman saatlerce sürer. Bu yüzden yer kontrol merkezindeki ekip, gönderdiği komutun sonucunu ancak aynı süre kadar bekledikten sonra öğrenebilir. Araç bir kayaya çarpmak üzereyken “dur” demenin bir anlamı yoktur; çünkü o komut oraya vardığında iş çoktan olmuş olur.
 Ekipler bu gecikmeyi aşmak için aracı önceden hazırlar. Yolculuğun riskli bölümleri, Dünya'da kurulmuş bir benzeri üzerinde defalarca denenir; ortaya çıkan davranış kuralları tek tek yazılıp aracın belleğine yüklenir. Araç, tehlike anında kendi başına karar verir: hızını düşürür, kolunu geri çeker, bekler ve olup biteni kaydeder. Ekip saatler sonra kayıtları okuduğunda aslında geçmişi izlemiş olur.
@@ -238,7 +238,7 @@ Cevap D.`
 {
   id: "tur-pa-309",
   kazanim: "T.8.3.25",
-  kademe: 3,
+  kademe: 0,
   zorluk: 4,
   soru: `Spor hekimliğinde uzun yıllar, sakatlanmayı önlemenin yolunun antrenman öncesinde yapılan uzun esneme hareketleri olduğu düşünüldü. Son yıllarda bu görüş değişti. Bugün önerilen ısınma, kaslar soğukken uzun uzun esnemek değil; önce nabzı yavaşça yükselten hafif bir koşu, ardından oyunda kullanılacak hareketlerin yavaş çekimde tekrarıdır. Bir okulun basketbol takımında, bir sezon boyunca üç ayrı ısınma programı denendi. Programlar sırayla uygulandı, her biri sekiz hafta sürdü; bu süre içinde yaşanan sakatlanmalar ve takımın sıçrama testi ortalaması kaydedildi. Antrenör, sonuçları yorumlarken sezonun son sekiz haftasında oynanan maç sayısının diğer dönemlere göre belirgin biçimde az olduğunu da hatırlattı.
 **Bu metne ve tabloya göre aşağıdakilerden hangisi __söylenemez__?**`,
@@ -267,7 +267,7 @@ Cevap A.`
 {
   id: "tur-pa-310",
   kazanim: "T.8.3.14",
-  kademe: 3,
+  kademe: 0,
   zorluk: 4,
   soru: `Kuş halkalama; bir kuşun ayağına, üzerinde numara bulunan çok hafif bir bileziğin takılıp hayvanın yeniden doğaya bırakılmasıdır. Halka, kuşun ağırlığının binde birinden hafiftir; bu yüzden uçuşunu da beslenmesini de engellemez. Aynı kuş başka bir ülkede yeniden yakalandığında numarası okunur ve iki kayıt birleştirilir. Böylece o kuşun hangi yolu izlediği, yolculuğunun kaç gün sürdüğü ve kaç yıl yaşadığı ortaya çıkar.
 Türkiye, üç büyük göç yolunun kesiştiği bir noktada bulunduğu için halkalama çalışmalarının verimli olduğu ülkelerden biridir. Gönüllüler ilkbahar ve sonbaharda sulak alanların kıyısına ince ağlar kurar; ağa takılan kuşlar birkaç dakika içinde çözülür, ölçülür, halkalanır ve bırakılır. Çalışma gece değil gün doğarken yapılır; çünkü kuşlar en çok o saatlerde hareket eder. Uzun yıllardır bu işi yapan bir gönüllü, en zor yanın sabırla beklemek değil, eline aldığı kuşu olabildiğince çabuk bırakabilmek olduğunu söylüyor.
@@ -297,7 +297,7 @@ Cevap B.`
 {
   id: "tur-pa-311",
   kazanim: "T.8.3.23",
-  kademe: 3,
+  kademe: 0,
   zorluk: 4,
   soru: `Bir müzenin “Aynı Cümle, İki Ses” adlı küçük sergisinde, on yedinci yüzyılda yazılmış bir gezi kitabının aynı bölümü, iki ayrı çevirmenin kaleminden yan yana sergileniyor. Ziyaretçiye tek bir soru soruluyor: Bu iki metin aynı şeyi mi anlatıyor?
 **I. çeviri**
@@ -330,7 +330,7 @@ Cevap B.`
 {
   id: "tur-pa-312",
   kazanim: "T.8.3.21",
-  kademe: 3,
+  kademe: 0,
   zorluk: 4,
   soru: `Cep telefonlarında ve dizüstü bilgisayarlarda kullanılan lityum piller, her dolup boşalışta bir miktar yıpranır. Pilin içindeki maddeler, kapasitenin en üst ve en alt sınırlarında daha fazla zorlanır; bu yüzden pili her seferinde tamamen boşaltıp tepeye kadar doldurmak ömrünü kısaltır. Uzmanların önerisi, günlük kullanımda pili yüzde yirmi ile yüzde seksen arasında tutmak; tamamen doldurmayı ise uzun bir yolculuk gibi gerçekten gerektiği durumlara saklamaktır.
 Bir okulun bilişim kulübü, aynı modelden iki eski telefonu bir yıl boyunca iki ayrı alışkanlıkla kullandı. Birinci telefon her gece sıfırdan yüze kadar şarj edildi. İkinci telefon ise yüzde yirminin altına düşürülmedi ve yüzde seksende prizden çıkarıldı. Kulüp, her yüz şarj döngüsünde iki telefonun kalan kapasitesini ölçtü.

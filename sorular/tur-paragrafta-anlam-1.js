@@ -5,7 +5,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 {
   id: "tur-pa-101",
   kazanim: "T.8.3.16",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Okulumuzun kütüphanesinde kitaplar yalnızca raflarda beklemiyor. Her ayın ilk haftasında bir raf boşaltılıyor; o rafa, öğrencilerin kendi seçtiği kitaplar diziliyor. Rafın önüne küçük kâğıtlar bırakılıyor. Kitabı okuyan, o kâğıda birkaç cümlelik notunu yazıp bırakıyor. Böylece raftaki her kitap, kendisinden önce okuyanların izini taşıyor.
 **Bu metnin konusu aşağıdakilerden hangisidir?**`,
@@ -34,7 +34,7 @@ Cevap A.`
 {
   id: "tur-pa-102",
   kazanim: "T.8.3.17",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Antrenörümüz ilk derste bize şunu söyledi: “Burada kimse en hızlı koşan olmak zorunda değil; herkes dünkü hâlinden bir adım ileri gitmek zorunda.” O günden sonra defterimize her hafta kendi sürelerimizi yazdık. Kimimiz başkasını geçemedi ama hepimiz kendi sürelerimizi kısalttık. Sezon sonunda takımdaki en büyük değişim sıralama listesinde değil, o defterlerdeydi.
 **Bu metnin ana fikri aşağıdakilerden hangisidir?**`,
@@ -63,7 +63,7 @@ Cevap C.`
 {
   id: "tur-pa-103",
   kazanim: "T.8.3.19",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Balkondaki saksılara bu yıl fesleğen ektik. İlk günlerde her sabah bolca su verdim; yapraklar sarardı. Komşumuz, toprağın üstünü parmağımla yoklamamı, kuru değilse su vermememi söyledi. Öyle yaptım. Birkaç hafta sonra fesleğenler toparlandı. Meğer bu bitkiyi susuz bırakmaktan çok, fazla suya boğmak yormuş.
 **Bu metne en uygun başlık aşağıdakilerden hangisidir?**`,
@@ -92,7 +92,7 @@ Cevap B.`
 {
   id: "tur-pa-104",
   kazanim: "T.8.3.18",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Okulun karşısındaki kırtasiyede defterler boya kalemlerinin yanında değil, kâğıt cinsine göre diziliyor. Çizgili defterler bir rafta, kareli defterler yan rafta duruyor. Tezgâhın üstünde her defterin kâğıdından birer örnek var; müşteri, alacağı defterin kâğıdını bu örneklerin üzerine çizgi çekerek deniyor. Dükkân sahibi, bu yüzden hiç kimsenin aldığı defteri geri getirmediğini söylüyor.
 **Bu metinde kırtasiyeyle ilgili aşağıdakilerden hangisine __değinilmemiştir__?**`,
@@ -121,7 +121,7 @@ Cevap D.`
 {
   id: "tur-pa-105",
   kazanim: "T.8.3.11",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Tencerenin kapağını kaldırınca mutfağı ılık bir buhar kapladı. Nohutlar dipte, koyu kırmızı bir sosun içinde usul usul kabarıyordu. Kenarda duran tahta kaşığın sapında yıllardan kalma bir çentik vardı. Camlar buğulanmıştı; dışarıdaki sokak lambası bu buğunun ardında sarı bir leke gibi duruyordu.
 **Bu metnin anlatımında ağır basan anlatım biçimi aşağıdakilerden hangisidir?**`,
@@ -144,7 +144,7 @@ Cevap B.`
 {
   id: "tur-pa-106",
   kazanim: "T.8.3.34",
-  kademe: 1,
+  kademe: 0,
   zorluk: 1,
   soru: `Bir çalgıyı öğrenmek, insana sabrı da öğretir. Gitara yeni başlayan biri, ilk haftalarda parmak uçlarının acımasına katlanır. Kemana başlayan biri, aylarca yayı düzgün tutmaya uğraşır. Bağlamanın başına oturan biri, tek bir tezeneyi doğru vurabilmek için aynı hareketi yüzlerce kez tekrarlar.
 **Bu metinde düşünceyi geliştirme yollarından hangisine başvurulmuştur?**`,
@@ -168,7 +168,7 @@ Cevap C.`
 {
   id: "tur-pa-107",
   kazanim: "T.8.3.21",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `(I) Bu hafta şehrimizde sıcaklıklar mevsim normallerinin üzerinde seyredecek. (II) Çarşamba günü en yüksek sıcaklığın 28 dereceye ulaşması bekleniyor. (III) Hafta sonunda ise kuzeyden gelen serin hava dalgasıyla sıcaklıklar 6 derece kadar düşecek. (IV) Böyle ani değişimler, yılın insanı en çok yoran günlerini yaşatıyor.
 **Bu metindeki numaralanmış cümlelerin hangisinde öznel bir yargı vardır?**`,
@@ -192,7 +192,7 @@ Cevap D.`
 {
   id: "tur-pa-108",
   kazanim: "T.8.3.18",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `Sınıfımızda bu yıl “sessiz on dakika” diye bir uygulama başladı. Her sabah ilk dersin başında on dakika boyunca kimse konuşmuyor; herkes önündeki kitabı okuyor. Öğretmenimiz de kendi kitabını açıp bizimle birlikte okuyor. İlk günlerde on dakika çok uzun geldi; kimimiz sayfaları boş boş çevirdi. Üçüncü haftadan sonra süre bitince “Bitti mi?” diye soranlar çoğaldı. Şimdi sınıfta, okuduğu kitabı arkadaşına anlatan öğrenci sayısı her geçen gün artıyor.
 **Bu metinde “sessiz on dakika” uygulamasıyla ilgili aşağıdakilerden hangisine __değinilmemiştir__?**`,
@@ -222,7 +222,7 @@ Cevap A.`
 {
   id: "tur-pa-109",
   kazanim: "T.8.3.17",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `Evimizde pazar sabahları telefonlar bir sepete konur. Sepet, salondaki sehpanın altında durur; kahvaltı bitene kadar kimse ona uzanmaz. İlk pazarlarda bu bana bir ceza gibi geliyordu. Sonra fark ettim: Babamın çocukluğundaki mahalle fırınını anlattığı, annemin ilk öğretmeninden söz ettiği, kardeşimin sınıfındaki kavgayı gülerek anlattığı bütün sohbetler hep o saatlerde geçti. Sepet aslında telefonları değil, bizi bir araya topluyormuş.
 **Bu metnin ana fikri aşağıdakilerden hangisidir?**`,
@@ -252,7 +252,7 @@ Cevap C.`
 {
   id: "tur-pa-110",
   kazanim: "T.8.3.18",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `Okul kütüphanemiz, her dönemin sonunda ödünç verilen kitapların sayısını türlere göre açıklıyor. Bu dönem roman, geçen dönemde olduğu gibi yine ilk sırada. Şiir kitapları ise ilk kez bilim kitaplarının önüne geçti. Kütüphaneci bunu, mart ayında yapılan şiir okumalarına bağlıyor. Öykü kitaplarının sayısı ise iki dönemdir hiç değişmedi.
 **Bu metne ve tabloya göre aşağıdakilerden hangisi __söylenemez__?**`,
@@ -282,7 +282,7 @@ Cevap D.`
 {
   id: "tur-pa-111",
   kazanim: "T.8.3.34",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `Ekmek yapmanın iki yolu vardır. Maya ile yapılan ekmekte hamur saatlerce dinlendirilir; gözenekler yavaş yavaş oluşur, kabuk ince kalır. Kabartma tozuyla yapılan ekmekte ise bekleme yoktur; hamur fırına girer girmez kabarır ama gözenekler iri ve düzensiz olur. Birincisi zamanı, ikincisi aceleyi ister; ikisi de ekmek olur, tadı bir olmaz.
 **Bu metinde düşünceyi geliştirme yollarından hangisine başvurulmuştur?**`,
@@ -307,7 +307,7 @@ Cevap B.`
 {
   id: "tur-pa-112",
   kazanim: "T.8.3.21",
-  kademe: 1,
+  kademe: 0,
   zorluk: 2,
   soru: `Voleybol antrenmanı bittiğinde salonda yalnızca Deniz kalmıştı. Topu alıp servis çizgisine geçti; on servis attı, dokuzu ağa takıldı. Çantasını toplayıp kapıya yürüdü, sonra durdu. Geri döndü, topu yeniden aldı. Işıkları söndürmek için bekleyen Kemal Amca saatine baktı, sonra bakmaktan vazgeçti; kapının yanındaki sandalyeye oturdu.
 **Bu metinden Kemal Amca ile ilgili aşağıdakilerden hangisi çıkarılabilir?**`,
@@ -337,7 +337,7 @@ Cevap A.`
 {
   id: "tur-pa-201",
   kazanim: "T.8.3.19",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `Kalem kutumu her eylülde yeniden düzenlerim. Önce içindekileri masaya boşaltırım: kurumuş keçeli kalemler, ucu kırık kurşun kalemler, yarısı kaybolmuş silgiler. Sonra yalnızca çalışanları geri koyarım. Geçen yıl bu işi yapmadım; kasımdaki sınavda kalemim yazmayınca on dakikamı kaybettim. O günden sonra anladım ki kalem kutusunun düzeni, masanın düzeninden önce gelir. Çünkü masadaki dağınıklığı görürsün; kalem kutusundakini sınav başlayana kadar fark etmezsin.
 **Bu metne en uygun başlık aşağıdakilerden hangisidir?**`,
@@ -366,7 +366,7 @@ Cevap C.`
 {
   id: "tur-pa-202",
   kazanim: "T.8.3.16",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `(I) Okulun arka bahçesindeki küçük tarhı bu yıl 7-B sınıfı üstlendi. (II) Önce toprağı belleyip taşlardan ayıkladılar. (III) Sonra marul, maydanoz ve roka tohumlarını üç ayrı sıraya ektiler. (IV) Sınıfın nöbetçisi her sabah teneffüste sıraları suladı, kuruyan yaprakları ayıkladı. (V) 7-B'nin geçen yılki basketbol turnuvasında ikinci olduğunu da unutmamak gerekir.
 **Bu metinde anlatımın akışını bozan cümle aşağıdakilerden hangisidir?**`,
@@ -390,7 +390,7 @@ Cevap D.`
 {
   id: "tur-pa-203",
   kazanim: "T.8.3.11",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `Kapıyı açtığımda annem mutfaktan seslendi. Elimdeki poşetleri tezgâha bıraktım, ceketimi askıya astım. O sırada kardeşim odasından fırladı, poşetin içine bakmak için parmak uçlarında yükseldi. Annem gülerek onu kenara çekti, dolaptan iki tabak indirdi. Ben masayı kurarken kardeşim sandalyeleri çekti. Dışarıda yağmur başlamıştı; camın önünden geçerken perdeyi araladım, sonra hep birlikte oturduk.
 **Bu metnin anlatımında ağır basan anlatım biçimi aşağıdakilerden hangisidir?**`,
@@ -415,7 +415,7 @@ Cevap C.`
 {
   id: "tur-pa-204",
   kazanim: "T.8.3.18",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `Sınıfımızda hangi çalgıyı öğrenmek istediğimizi sorduk; yirmi sekiz kişinin yanıtını bir grafiğe döktük. Sonuç bizi şaşırtmadı: Gitar, sınıfın neredeyse yarısının tercihiydi. ---- Bağlamayı seçenler en az sayıdaydı; buna karşın okul korosunda ilk çalmaya başlayanlar onlar oldu. Demek ki bir çalgıyı seçen kişi sayısı, o çalgıyı çalmaya başlama hızını belirlemiyor.
 **Bu metinde boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
@@ -445,7 +445,7 @@ Cevap A.`
 {
   id: "tur-pa-205",
   kazanim: "T.8.3.21",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `Sınıfta her konuyu ilk anlayan ben değilim. Ama not tutarken şunu fark ettim: Öğretmenin tahtaya yazdığı üç beş sözcük, defterimdeki uzun cümlelerden daha çok işime yarıyor. Bu yüzden artık her dersin sonunda defterimin kenarına o dersin üç sözcüğünü yazıyorum. Sınavdan önce önce o sözcüklere bakıyorum; çoğu zaman gerisi kendiliğinden geliyor. Arkadaşlarım bana “Sen az yazıyorsun.” diyor. Bence ben az değil, işe yarayanı yazıyorum.
 **Bu metindeki anlatıcıyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
@@ -474,7 +474,7 @@ Cevap B.`
 {
   id: "tur-pa-206",
   kazanim: "T.8.3.21",
-  kademe: 2,
+  kademe: 0,
   zorluk: 2,
   soru: `Okulun atletizm takımı sezon boyunca dört farklı mesafede yarıştı. Antrenör, sporcuların katıldığı yarış sayısını ve bu yarışların kaçında ilk üçe girdiklerini bir çizelgeye işledi. Sezon sonunda çizelgeye bakınca şunu gördük: En çok yarışa katılan sporcu, ilk üçe en çok giren sporcu değildi. Antrenör bunu şöyle açıkladı: “Yarış sayısı tek başına bir şey söylemez; hangi mesafede yarıştığın da önemlidir.”
 **Bu metne ve çizelgeye göre aşağıdakilerden hangisi __söylenemez__?**`,
@@ -504,7 +504,7 @@ Cevap D.`
 {
   id: "tur-pa-207",
   kazanim: "T.8.3.17",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Kütüphaneye ilk girdiğimde beni rafların büyüklüğü korkutmuştu. Nereden başlayacağımı bilemeyip en yakın rafın önünde durmuş, kitapların sırtındaki adları tek tek okumuştum. Bir süre sonra kütüphaneci yanıma geldi, “Ne tür bir şey arıyorsun?” diye sordu. “Bilmiyorum.” dedim. Bana kızmadı; “O zaman aramayı bırak, bir tane seç.” dedi. Rastgele bir kitap aldım, ilk sayfasını okudum, beğenmedim; yerine koyup bir başkasını aldım. O gün dört kitap açtım, birini eve götürdüm. Eve götürdüğümü üç günde bitirdim; bıraktıklarım için hiç üzülmedim. Kütüphaneci bunu duyunca gülümsedi, “Bırakılan kitap da bir şey öğretir.” dedi. Ertesi hafta aynı şeyi yaptım, sonraki hafta yine. Bugün hâlâ aynı yöntemi kullanıyorum. ----
 **Bu parça aşağıdakilerden hangisiyle tamamlanır?**`,
@@ -534,7 +534,7 @@ Cevap A.`
 {
   id: "tur-pa-208",
   kazanim: "T.8.3.21",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Kulüpteki ilk yılımda maçlardan sonra hep aynı şeyi yapardım: Kaçırdığım topları sayardım. Kaç sayı attığımı değil, hangi pası veremediğimi hatırlardım. Antrenörümüz bunu fark etmiş olmalı ki bir akşam beni kenara çağırdı. Elinde küçük bir defter vardı; maç boyunca benim yaptığım doğru hareketleri işaretlemişti. Defterde on dört işaret vardı. Kenara, her işaretin hangi dakikada olduğunu bile yazmıştı: doğru yerde duruşum, arkadaşıma açtığım alan, geri dönüşteki koşum. “Sen bu on dördü hiç saymadın.” dedi. O akşam eve dönerken __defterdeki o işaretler__ aklımdan çıkmadı. Ertesi maçta da kaçırdığım toplar oldu; ama ilk kez, iyi yaptıklarımı da hatırlayarak çıktım salondan.
 **Bu metinde altı çizili söz öbeğiyle anlatıcının hangi eksikliğine gönderme yapılmıştır?**`,
@@ -564,7 +564,7 @@ Cevap C.`
 {
   id: "tur-pa-209",
   kazanim: "T.8.3.18",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Fen kulübü, sınıfta yetiştirdiği fasulye fidelerini dört hafta boyunca izledi. Fideler üç saksıya ekildi; hepsine aynı toprak konuldu ve her hafta aynı miktarda su verildi. Birinci saksı pencere kenarına, ikincisi sınıfın ortasındaki masaya, üçüncüsü kapalı bir dolabın içine yerleştirildi. Öğrenciler her hafta sonunda fidelerin boyunu ölçüp bir çizelgeye işledi. Ölçümler hep aynı gün ve aynı saatte, cetvelle toprak yüzeyinden gövdenin ucuna kadar yapıldı. Dördüncü haftanın sonunda dolaptaki fidenin gövdesi incecikti ve yaprakları sararmıştı; pencere kenarındaki fidenin yaprakları ise koyu yeşildi. Kulüp raporunda, fasulyenin büyümesinde ışığın belirleyici olduğu sonucuna varıldı.
 **Bu metinden ve çizelgeden hareketle aşağıdakilerden hangisine __ulaşılamaz__?**`,
@@ -594,7 +594,7 @@ Cevap B.`
 {
   id: "tur-pa-210",
   kazanim: "T.8.3.23",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Aşağıda aynı yemek kitabının iki ayrı baskısından, mercimek çorbası tarifinin bulunduğu bölümler verilmiştir.
 **Bu iki metinle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
@@ -624,7 +624,7 @@ Cevap D.`
 {
   id: "tur-pa-211",
   kazanim: "T.8.3.23",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Aşağıda aynı öykünün başlangıç bölümü, iki ayrı çevirmenin kaleminden verilmiştir.
 **Bu iki bölümle ilgili aşağıdakilerden hangisi söylenebilir?**`,
@@ -654,7 +654,7 @@ Cevap A.`
 {
   id: "tur-pa-212",
   kazanim: "T.8.3.21",
-  kademe: 2,
+  kademe: 0,
   zorluk: 3,
   soru: `Koroya girdiğim gün sesimin ince mi kalın mı olduğunu bilmiyordum. Şef, sırayla herkesi piyanonun yanına çağırdı. Benim sıram gelince iki nota çaldı, “Tekrarla.” dedi. Tekrarladım. Bir daha çaldı, bir daha tekrarladım. Sonra bana bakmadan deftere bir şey yazdı: “Tenor.” Ne demek olduğunu bilmiyordum; eve gidene kadar sormaya da utandım. O akşam sözlükten baktım; ertesi gün provaya giderken artık koroda bir yerim olduğunu biliyordum. İlk haftalarda sesler birbirini tutmuyordu, şef sabırla bekledi. Aralık ayındaki ilk konserde, sahnede yan yana dizildiğimizde kendi sesimi duyamadım. Duyamadığım için de ilk kez doğru söylediğimi anladım.
 **Bu metnin dil ve anlatımıyla ilgili aşağıdakilerden hangisi söylenebilir?**`,

@@ -79,7 +79,10 @@ window.LGS_KONULAR = [
       { ad: "Anlam ve Okuma (yıl boyu açık)", konular: [
         { id: "sozcukte-anlam", ad: "Sözcükte Anlam", ay: "Yıl boyu" },
         { id: "cumlede-anlam", ad: "Cümlede Anlam", ay: "Yıl boyu" },
-        { id: "paragrafta-anlam", ad: "Paragrafta Anlam", ay: "Yıl boyu" },
+        // rutin: kademeli konu testi yoktur; bütün sorular günlük paragraf havuzundadır.
+        // Paragraf öğrenilip bitirilen bir konu değil, her gün beslenen bir beceridir ve
+        // okuma hızı üzerinden Fen ile Matematiği de etkiler.
+        { id: "paragrafta-anlam", ad: "Paragrafta Anlam", ay: "Yıl boyu", rutin: true },
         { id: "soz-sanatlari", ad: "Söz Sanatları", ay: "Yıl boyu" },
         { id: "metin-turleri", ad: "Metin Türleri", ay: "Yıl boyu" },
         { id: "gorsel-grafik-okuma", ad: "Görsel ve Grafik Okuma", ay: "Yıl boyu" },
