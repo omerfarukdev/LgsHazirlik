@@ -19,7 +19,7 @@ window.LGS_AYAR = {
 
   // Günlük paragraf rutini. Paragraf, LGS'nin en yüksek getirili konusu ve bütün
   // derslerin okuma hızını belirleyen beceri; bu yüzden ayrı bir günlük hedefi var.
-  paragrafHedefi: 20,     // günde çözülmesi hedeflenen paragraf sorusu
+  paragrafHedefi: 50,     // günde çözülmesi hedeflenen paragraf sorusu (ekran + kâğıt toplamı)
   paragrafSetBoyutu: 10,  // bir turda kaç soru sorulur
 
   // Test süresi: her sorunun zorluk düzeyine göre verilen saniyelerin toplamı.
