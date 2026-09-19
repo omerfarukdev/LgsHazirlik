@@ -322,5 +322,163 @@ Adım 3: Güneş'e dönük yarım küre değiştikçe ışınların o yarım kü
 Adım 4: Öyleyse metinden çıkarılacak sonuç, yörüngede ilerledikçe yarım kürelerin ışınları alma açısının değiştiğidir.
 Sık yapılan hata: "Eksen sabitse hiçbir şey değişmez." diye düşünmek. Tam tersine, eksen sabit olduğu için yarım kürelerin Güneş'e göre durumu yıl boyunca değişir.
 Cevap A.`
+},
+/* ===================== KADEME 2 — PEKİŞTİRME ===================== */
+{
+  id: "fen-mv-201",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: `Fen dersinde özdeş iki karton, özdeş ışık kaynaklarından eşit uzaklığa yerleştirilmiştir. I. karton ışınlara dik, II. karton eğik durmaktadır. Kartonların üzerindeki termometrelerin başlangıçta ve 10 dakika sonra gösterdiği değerler görselde verilmiştir.
+I. I. kartonun birim yüzeyine düşen ışık enerjisi daha fazladır.
+II. Sıcaklık farkının nedeni ışığın kartona düşme açısıdır.
+III. II. kartonun ışık kaynağına uzaklığı daha fazladır.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Işınlara dik ve eğik duran iki karton ile termometre okumaları"><g stroke="currentColor" stroke-width="2" fill="none"><line x1="20" y1="210" x2="240" y2="210"/><line x1="290" y1="210" x2="510" y2="210"/></g><rect x="94" y="140" width="72" height="70" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><rect x="360" y="142" width="72" height="68" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(38 396 176)"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="130" y1="50" x2="130" y2="134"/><line x1="105" y1="50" x2="105" y2="134"/><line x1="155" y1="50" x2="155" y2="134"/></g><g stroke="var(--vurgu2)" stroke-width="2.5"><line x1="372" y1="50" x2="372" y2="140"/><line x1="400" y1="50" x2="400" y2="152"/><line x1="428" y1="50" x2="428" y2="164"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="130" y="36" font-weight="bold">I. karton</text><text x="400" y="36" font-weight="bold">II. karton</text><text x="130" y="234">Başlangıç: 22 °C</text><text x="130" y="254">10 dakika sonra: 31 °C</text><text x="400" y="234">Başlangıç: 22 °C</text><text x="400" y="254">10 dakika sonra: 26 °C</text></g></svg>`,
+  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I, II ve III"],
+  dogru: 2,
+  hatalar: [
+    "II. yargıyı atlama: iki karton arasındaki tek fark ışığa göre duruş açısıdır; sıcaklık farkının nedeni de budur.",
+    "I. yargıyı yanlış sayma: aynı sürede daha çok ısınan kartonun birim yüzeyine düşen enerji daha fazladır.",
+    null,
+    "III. yargıyı doğru sayma: kartonlar ışık kaynaklarına eşit uzaklığa yerleştirilmiştir, deneyde uzaklık değiştirilmemiştir."
+  ],
+  aciklama: `Bir deneyde yalnızca tek bir değişken değiştirilir; diğer bütün koşullar sabit tutulur. Böylece ortaya çıkan farkın nedeni kesin olarak bilinir.
+Adım 1: Deneyin koşullarını yaz. Kartonlar özdeş, ışık kaynakları özdeş, uzaklıklar eşit, süre eşit ve başlangıç sıcaklıkları eşit. Değiştirilen tek şey kartonun ışığa göre duruş açısıdır.
+Adım 2: I. yargıyı kontrol et. I. kartonun sıcaklığı 9 °C, II. kartonunki 4 °C artmıştır. Daha çok ısınan yüzeyin birim alanına daha çok enerji düşmüştür. Doğrudur.
+Adım 3: II. yargıyı kontrol et. Tek değişen duruş açısı olduğuna göre sıcaklık farkının nedeni de ışığın kartona düşme açısıdır. Dik gelen ışık dar alana toplanır, eğik gelen ışık geniş alana yayılır. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Soruda kartonların kaynaklara eşit uzaklıkta olduğu söylenmiştir. Yanlıştır.
+Adım 5: Doğru yargılar I ve II'dir.
+Sağlama: Bu düzenek, yaz ile kış arasındaki sıcaklık farkının küçük bir örneğidir: yazın ışınlar dik, kışın eğik gelir.
+Cevap C.`
+},
+{
+  id: "fen-mv-202",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: `Kuzey Yarım Küre'deki bir bahçenin güneye ve kuzeye bakan iki yamacına özdeş fideler dikilmiştir. Öğleden sonra ölçüldüğünde Güneş ışınlarının yamaçlara geliş açılarının farklı olduğu görülmüştür. Ölçüm sonuçları görselde verilmiştir.
+I. Kuzeye bakan yamacın birim yüzeyine düşen ışık enerjisi daha fazladır.
+II. Aynı büyüklükteki ışık demeti kuzeye bakan yamaçta daha geniş bir alana yayılır.
+III. Güneye bakan yamaçtaki toprak aynı sürede daha çok ısınır.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 520 250" role="img" aria-label="Güneye ve kuzeye bakan yamaçlara gelen ışınların açıları"><path d="M40 210 L260 100 L480 210 Z" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="92" y1="44" x2="128" y2="155"/><line x1="140" y1="44" x2="176" y2="131"/><line x1="188" y1="44" x2="224" y2="107"/></g><g stroke="var(--vurgu2)" stroke-width="2.5" stroke-dasharray="6 4"><line x1="300" y1="44" x2="336" y2="148"/><line x1="348" y1="44" x2="384" y2="172"/><line x1="396" y1="44" x2="432" y2="196"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="120" y="30" font-weight="bold">Güney yamaç</text><text x="380" y="30" font-weight="bold">Kuzey yamaç</text><text x="120" y="238">Işınların geliş açısı: 72°</text><text x="380" y="238">Işınların geliş açısı: 28°</text></g></svg>`,
+  secenekler: ["Yalnız II", "Yalnız III", "I ve II", "II ve III"],
+  dogru: 3,
+  hatalar: [
+    "III. yargıyı atlama: dik gelen ışınlar birim yüzeye daha çok enerji bıraktığı için toprağı daha çok ısıtır.",
+    "II. yargıyı yanlış sayma: eğik gelen ışık demeti aynı büyüklükte olsa da daha geniş bir alana yayılır.",
+    "I. yargıyı doğru sayma: ışınları 28° ile, yani daha eğik alan kuzey yamacının birim yüzeyine düşen enerji daha azdır.",
+    null
+  ],
+  aciklama: `Işık demetinin büyüklüğü aynı kalsa bile yüzeye eğik düştüğünde daha geniş bir alana yayılır; böylece birim yüzeye düşen enerji azalır.
+Adım 1: Görseldeki açıları oku. Güney yamaç ışınları 72° ile, kuzey yamaç 28° ile almaktadır. Güney yamaç ışınları daha dik alır.
+Adım 2: I. yargıyı kontrol et. Işınları daha eğik alan kuzey yamacının birim yüzeyine düşen enerji daha azdır. Yargı bunun tersini söylediği için yanlıştır.
+Adım 3: II. yargıyı kontrol et. 28° ile gelen demet, 72° ile gelen demetten daha geniş bir alana yayılır. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Birim yüzeyine daha çok enerji düşen güney yamacındaki toprak aynı sürede daha çok ısınır. Doğrudur.
+Adım 5: Doğru yargılar II ve III'tür.
+Sağlama: Kışın karın önce güneye bakan yamaçlarda erimesinin nedeni budur; o yamaçlar ışınları daha dik açıyla alır.
+Cevap D.`
+},
+{
+  id: "fen-mv-203",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: "Müzik dersinde öğrenciler, mevsimlerin oluşumunu anlatan bir şarkı için birer dize yazmıştır. Öğrencilerin yazdığı dizeler aşağıdaki tabloda verilmiştir.\n**Buna göre hangi öğrencinin dizesi bilimsel olarak __yanlıştır__?**",
+  gorsel: `<table class="tablo"><tr><th>Öğrenci</th><th>Yazdığı dize</th></tr><tr><td>Zeynep</td><td>"Güneş'e yaklaşınca yaz gelir bu dünyaya."</td></tr><tr><td>Bahar</td><td>"Eksenim eğik durur, bu yüzden mevsim olur."</td></tr><tr><td>Kerem</td><td>"Yazın ışınlar diktir, toprağım çok ısınır."</td></tr><tr><td>Ali</td><td>"Bir yanda yaz yaşanır, öbür yanda kış olur."</td></tr></table>`,
+  secenekler: ["Zeynep", "Bahar", "Kerem", "Ali"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "Eksen eğikliğinin mevsimlerin nedeni olmasını yanlış sanma: mevsimler, eğik eksenle dolanmanın birlikte sonucudur; bu dize doğrudur.",
+    "Işınların dik gelmesiyle ısınmayı ilişkilendirmeyi yanlış sanma: dik gelen ışınlarda birim yüzeye düşen enerji artar, bu dize doğrudur.",
+    "İki yarım kürede karşıt mevsim yaşanmasını yanlış sanma: eksen eğikliği nedeniyle bir yarım kürede yaz yaşanırken diğerinde kış yaşanır; bu dize doğrudur."
+  ],
+  aciklama: `Mevsimlerin oluşumunda belirleyici olan, Dünya'nın Güneş'e uzaklığı değil, Güneş ışınlarının yeryüzüne düşme açısıdır.
+Adım 1: Zeynep'in dizesini incele. "Güneş'e yaklaşınca yaz gelir." diyor. Eğer bu doğru olsaydı Dünya'nın her yerinde aynı anda yaz yaşanması gerekirdi; oysa iki yarım kürede karşıt mevsimler yaşanır. Bu dize yanlıştır.
+Adım 2: Bahar'ın dizesini incele. Eksenin eğik olması, yarım kürelerin ışınları farklı açılarla almasını sağlar; mevsimlerin nedeni budur. Doğrudur.
+Adım 3: Kerem'in dizesini incele. Işınlar dik geldiğinde aynı demet dar bir alana düşer, birim yüzeye düşen enerji artar ve yer daha çok ısınır. Doğrudur.
+Adım 4: Ali'nin dizesini incele. Eksen eğikliği nedeniyle aynı anda bir yarım kürede yaz, diğerinde kış yaşanır. Doğrudur.
+Sık yapılan hata: Yazın havanın sıcak olmasını Güneş'e yaklaşmaya bağlamak. Bu, en yaygın kavram yanılgılarından biridir.
+Cevap A.`
+},
+{
+  id: "fen-mv-204",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: "Selim'in ailesi, çatıya taktırdığı güneş panelinin eğimini yılda iki kez değiştirmektedir. Panel kışın daha dik, yazın daha yatık konuma getirilmektedir. Panelin iki mevsimdeki konumu ve Güneş ışınlarının geliş doğrultusu görselde verilmiştir.\n**Buna göre panelin eğiminin değiştirilme amacı aşağıdakilerden hangisidir?**",
+  gorsel: `<svg viewBox="0 0 520 250" role="img" aria-label="Güneş panelinin yaz ve kış konumları ile ışınların geliş doğrultusu"><g stroke="currentColor" stroke-width="2.5"><line x1="30" y1="205" x2="240" y2="205"/><line x1="290" y1="205" x2="500" y2="205"/></g><rect x="96" y="176" width="86" height="12" rx="3" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(-18 139 182)"/><rect x="356" y="170" width="86" height="12" rx="3" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(-62 399 176)"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="108" y1="46" x2="136" y2="130"/><line x1="148" y1="46" x2="176" y2="130"/></g><g stroke="var(--vurgu2)" stroke-width="2.5"><line x1="316" y1="66" x2="392" y2="128"/><line x1="326" y1="102" x2="382" y2="148"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="135" y="32" font-weight="bold">Yaz konumu</text><text x="400" y="32" font-weight="bold">Kış konumu</text><text x="135" y="232">Işınlar dik gelir.</text><text x="400" y="232">Işınlar eğik gelir.</text></g></svg>`,
+  secenekler: [
+    "Panelin üzerinde kar birikmesini önlemek",
+    "Işınların panele düşme açısını dikleştirmek",
+    "Panelin Güneş'e olan uzaklığını azaltmak",
+    "Panele düşen ışığın yayıldığı alanı büyütmek"
+  ],
+  dogru: 1,
+  hatalar: [
+    "Günlük bir gerekçeyi bilimsel nedenin yerine koyma: panel yazın da eğim değiştirir, oysa yazın kar yağmaz.",
+    null,
+    "Mevsimleri Güneş'e olan uzaklıkla açıklama: bir çatıda yapılan birkaç derecelik eğim değişikliği Güneş'e olan uzaklığı değiştirmez.",
+    "Birim yüzeye düşen enerjiyi ters yorumlama: ışık geniş bir alana yayıldıkça birim yüzeye düşen enerji azalır; amaç bunun tam tersidir."
+  ],
+  aciklama: `Bir yüzeyin ürettiği enerji, o yüzeyin birim alanına düşen ışık enerjisiyle doğru orantılıdır. Işınlar yüzeye ne kadar dik düşerse birim yüzeye düşen enerji o kadar artar.
+Adım 1: Görseli oku. Yazın Güneş ışınları yere daha dik gelmektedir; kışın ise daha eğik gelmektedir.
+Adım 2: Panelin en çok enerji üretmesi için ışınların panele dik düşmesi gerekir. Işınların geliş açısı mevsime göre değiştiğine göre panelin açısı da değişmelidir.
+Adım 3: Kışın ışınlar eğik geldiği için panel dikleştirilir; böylece ışınlar panele yeniden dik gelmiş olur. Yazın ışınlar zaten dik geldiği için panel yatırılır.
+Adım 4: Öyleyse eğim değişikliğinin amacı, ışınların panele düşme açısını dikleştirmektir.
+Sağlama: Aynı ışık demeti dik düştüğünde dar bir alana toplanır; panelin birim yüzeyine düşen enerji artar ve üretim yükselir.
+Cevap B.`
+},
+{
+  id: "fen-mv-205",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: `Bir okul kütüphanesinin güneye bakan penceresinden öğle vakti içeri giren güneş ışığının zeminde kapladığı bölge, haziran ve aralık aylarında işaretlenmiştir. Ölçüm sonuçları görselde verilmiştir.
+I. Aralıkta ışınlar zemine daha eğik açıyla ulaşmıştır.
+II. Haziranda zeminin aydınlanan bölümünün birim yüzeyine düşen enerji daha fazladır.
+III. Haziranda zeminde aydınlanan bölge daha geniştir.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 520 250" role="img" aria-label="Kütüphane penceresinden haziran ve aralık aylarında içeri giren ışığın zeminde kapladığı bölgeler"><path d="M60 40 L60 200 L470 200" fill="none" stroke="currentColor" stroke-width="3"/><rect x="48" y="52" width="24" height="76" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="62" y1="58" x2="128" y2="200"/><line x1="62" y1="86" x2="112" y2="200"/></g><g stroke="var(--vurgu2)" stroke-width="2.5" stroke-dasharray="6 4"><line x1="62" y1="58" x2="330" y2="200"/><line x1="62" y1="100" x2="292" y2="200"/></g><line x1="62" y1="208" x2="128" y2="208" stroke="var(--vurgu)" stroke-width="6"/><line x1="62" y1="222" x2="330" y2="222" stroke="var(--vurgu2)" stroke-width="6"/><g fill="currentColor" font-size="15"><text x="16" y="96" text-anchor="middle">Pencere</text><text x="142" y="213">Haziran: 0,8 m</text><text x="344" y="227">Aralık: 3,2 m</text><text x="200" y="245" font-size="14">Ölçüler, ışığın pencereden içeri girdiği uzaklığı gösterir.</text></g></svg>`,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "I, II ve III"],
+  dogru: 2,
+  hatalar: [
+    "II. yargıyı atlama: haziranda ışınlar daha dik geldiği için aynı ışık daha dar bir alana düşer, birim yüzeye düşen enerji artar.",
+    "Görseldeki ölçüleri ters okuma: haziranda aydınlanan bölge 0,8 m ile dardır; ışık odanın içine aralıkta girer.",
+    null,
+    "III. yargıyı doğru sayma: görsele göre haziranda aydınlanan bölge daha dardır, geniş olan aralık ölçümüdür."
+  ],
+  aciklama: `Güneş ışınları bir yere ne kadar dik gelirse aydınlattıkları bölge o kadar dar olur ve birim yüzeye düşen enerji o kadar artar.
+Adım 1: I. yargıyı kontrol et. Görselde aralıkta ışık odanın 3,2 m içine kadar girmiştir. Işık ancak eğik geldiğinde bu kadar içeri ulaşabilir. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Haziranda aynı pencereden giren ışık yalnızca 0,8 m'lik bir bölgeye düşmüştür. Aynı ışık dar bir alana toplandığı için birim yüzeye düşen enerji daha fazladır. Doğrudur.
+Adım 3: III. yargıyı kontrol et. Görsele göre haziranda aydınlanan bölge dar, aralıkta geniştir. Yargı bunun tersini söylediği için yanlıştır.
+Adım 4: Doğru yargılar I ve II'dir.
+Sık yapılan hata: "Yazın Güneş daha çok içeri girer." diye düşünmek. Yazın Güneş gökyüzünde daha yüksektedir; bu yüzden ışığı pencerenin hemen önüne düşer.
+Cevap C.`
+},
+{
+  id: "fen-mv-206",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 2,
+  soru: "Bir atletizm takımı, sahadaki 1,5 m yüksekliğindeki direğin gölge uzunluğunu bir yıl boyunca her ayın 21'inde, gölgenin en kısa olduğu anda ölçmüştür. Ölçümlerin bir bölümü tabloda verilmiştir.\n**Buna göre Güneş ışınlarının sahaya en dik açıyla düştüğü ay hangisidir?**",
+  gorsel: `<table class="tablo"><tr><th>Ölçüm tarihi</th><th>Gölge uzunluğu</th></tr><tr><td>21 Mart</td><td>1,3 m</td></tr><tr><td>21 Haziran</td><td>0,5 m</td></tr><tr><td>21 Eylül</td><td>1,2 m</td></tr><tr><td>21 Aralık</td><td>3,1 m</td></tr></table>`,
+  secenekler: ["Mart", "Haziran", "Eylül", "Aralık"],
+  dogru: 1,
+  hatalar: [
+    "Gölgesi kısa görünen ilk ayı seçme: martta gölge 1,3 m'dir, haziranda bundan çok daha kısadır.",
+    null,
+    "Ölçüleri karşılaştırmadan seçim yapma: eylülde gölge, hazirandakinin iki katından uzundur.",
+    "Uzun gölgeyi dik ışınlarla eşleştirme: ışınlar ne kadar eğik gelirse gölge o kadar uzar."
+  ],
+  aciklama: `Bir cismin gölgesinin uzunluğu, Güneş ışınlarının yere düşme açısına bağlıdır. Işınlar dikleştikçe gölge kısalır, eğildikçe uzar.
+Adım 1: Tablodaki gölge uzunluklarını sırala: 0,5 m (haziran), 1,2 m (eylül), 1,3 m (mart) ve 3,1 m (aralık).
+Adım 2: En kısa gölge 0,5 m ile haziranda ölçülmüştür. Gölgenin en kısa olduğu tarihte ışınlar o yere en dik açıyla düşer.
+Adım 3: En uzun gölge ise 3,1 m ile aralıktadır; o tarihte ışınlar en eğik açıyla düşmüştür.
+Sağlama: Direğin boyu 1,5 m'dir. Haziranda gölge direğin boyunun üçte birinden kısadır; aralıkta ise iki katına yakındır. Bu büyük fark, ışınların düşme açısındaki değişimden kaynaklanır.
+Sık yapılan hata: Gölgenin uzun olmasını "Güneş çok güçlü" diye yorumlamak. Uzun gölge, ışınların eğik geldiğini ve birim yüzeye düşen enerjinin az olduğunu gösterir.
+Cevap B.`
 }
 );
