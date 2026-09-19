@@ -226,6 +226,13 @@ var App = (function () {
         '<button class="btn birincil" onclick="App.git(\'#/test\')">Devam et</button></div>';
     }
 
+    var sira = aktif ? null : siradakiTest();
+    if (sira) {
+      html += '<div class="bant sira"><div><span class="soluk kucuk">SIRADAKİ TESTİN</span><br><strong>' + sira.ders.ikon + " " + esc(sira.konu.ad) +
+        '</strong> <span class="soluk">· ' + sira.k + ". kademe · " + KADEMELER[sira.k].ad + '</span></div>' +
+        '<button class="btn birincil buyuk" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
+    }
+
     html += '<div class="ozet">' +
       ozetKutu(topSoru, "çözülen soru") +
       ozetKutu(topSoru ? "%" + yuzde(topD / topSoru) : "–", "doğruluk") +
@@ -261,6 +268,24 @@ var App = (function () {
       '<button class="btn-yazi" onclick="App.yedekAl()">Yedek al</button>' +
       '<label class="btn-yazi">Yedek yükle<input type="file" accept=".json" hidden onchange="App.yedekYukle(this)"></label></footer>';
     render(html);
+  }
+  // Soruları hazır konular arasında, açık olup henüz geçilmemiş ilk kademe
+  function siradakiTest() {
+    for (var i = 0; i < DERSLER.length; i++) {
+      var d = DERSLER[i];
+      for (var j = 0; j < d.uniteler.length; j++) {
+        var konular = d.uniteler[j].konular;
+        for (var m = 0; m < konular.length; m++) {
+          var durum = konuDurum(konular[m].id);
+          for (var k = 1; k <= 3; k++) {
+            if (!kademeSorulari(konular[m].id, k).length) continue;
+            var gecti = durum.k[k] && durum.k[k].enIyi >= AYAR.gecmeEsigi;
+            if (!gecti && kademeAcik(konular[m].id, k)) return { ders: d, konu: konular[m], k: k };
+          }
+        }
+      }
+    }
+    return null;
   }
   function ozetKutu(deger, etiket) {
     return '<div class="ozet-kutu"><span class="ok-deger">' + deger + '</span><span class="ok-etiket">' + etiket + '</span></div>';

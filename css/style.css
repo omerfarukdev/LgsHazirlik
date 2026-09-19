@@ -121,6 +121,7 @@ button:disabled { cursor: not-allowed; }
   background: var(--orta-acik); border: 1px solid var(--vurgu2);
   border-radius: var(--yaricap); padding: 14px 18px; margin-bottom: 18px;
 }
+.bant.sira { background: var(--vurgu-acik); border-color: var(--vurgu); padding: 18px 20px; }
 .ozet { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 10px; }
 .ozet-kutu {
   background: var(--kart); border-radius: 12px; box-shadow: var(--golge);
