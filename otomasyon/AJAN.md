@@ -59,6 +59,16 @@ Object.keys(h.konu||{}).forEach(function(ders){
 });"
 ```
 
+### ⛔ DURDURULMUŞ DERSLER
+
+**Din Kültürü ve İngilizce için soru ÜRETİLMEZ.** Abi 19 Eylül 2026'da açıkça durdurdu: "din ve ingilizce soru yazımını durdur, ben sana ek olarak başla diyene kadar onlara soru ürettirme."
+
+- Bu iki dersin var olan soruları **silinmez, dokunulmaz**; öğrenci çözmeye devam eder.
+- Takvim kontrolünde (Kural 2) bu iki ders atlanır; eksik görünseler bile üretime alınmaz.
+- Abi açıkça "başla" diyene kadar bu geçerlidir. Kendi kendine yeniden başlatma.
+
+Kalan dört ders: **Türkçe, Matematik, Fen, İnkılap Tarihi.**
+
 ### Öncelik ve derinlik: müfredat değil, SINAV belirler
 
 Bu bir sınav hazırlığı. Okul takvimi **ne zaman** üretileceğini söyler; **ne kadar derin** üretileceğini ise LGS'deki soru ağırlığı söyler.
