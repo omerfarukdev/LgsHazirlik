@@ -136,8 +136,8 @@ Cevap B.`
 Adım 1: I. cümle: yüklem 'izledik'. "Nasıl izledik?" → sessizce. Zarf tamlayıcısı var.
 Adım 2: II. cümle: yüklem 'çıkardık'. "Nasıl çıkardık?" → dikkatle. Zarf tamlayıcısı var. ('çantadan' ise "Nereden?" sorusunun yanıtıdır, yer tamlayıcısıdır.)
 Adım 3: III. cümle: yüklem 'döndü'. "Ne zaman döndü?" → akşama doğru. Zarf tamlayıcısı var. ('yuvalarına' ise "Nereye?" sorusunun yanıtıdır.)
-Adım 4: IV. cümle: yüklem 'vardı'. "Ne vardı?" → ince bir sis (özne). "Nerede vardı?" → Bataklığın üstünde (yer tamlayıcısı). "Nasıl, ne zaman, niçin?" sorularının yanıtı yoktur. Aradığın cümle budur.
-Sağlama: Bu cümle yalnızca iki ögeyle de kurulabilir: "İnce bir sis vardı." Eklenen tek öge yer bildirir.
+Adım 4: IV. cümle: yüklem 'vardı'. "Ne vardı?" → bir leylek yuvası (özne). "Nerede vardı?" → Kulübenin çatısında (yer tamlayıcısı). "Nasıl, ne zaman, niçin?" sorularının yanıtı yoktur. Aradığın cümle budur.
+Sağlama: Bu cümle yalnızca iki ögeyle de kurulabilir: "Bir leylek yuvası vardı." Eklenen tek öge yer bildirir.
 Sık yapılan hata: '-a, -e' eki alan her sözü yer tamlayıcısı saymak. 'akşama doğru' zaman bildirdiği için zarf tamlayıcısıdır.
 Cevap D.`
 },
@@ -484,9 +484,9 @@ Cevap D.`
   kademe: 2,
   zorluk: 3,
   soru: `Bir kuş gözlem raporundan alınan dört cümle şunlardır:
-(I) Sabahleyin balıkçıllar gölün kıyısında dinlenir.
+(I) Sabahleyin su kaplumbağaları kütüğün üstünde dinlenir.
 (II) Kuş gözlemcileri dürbünlerini sessizce hazırlar.
-(III) Gün batarken sis gölün üzerini kaplar.
+(III) Alacakaranlıkta yarasalar mağaranın ağzını terk eder.
 (IV) Yaban ördekleri sazlığa akşamüstü döner.
 **Numaralanmış cümlelerin hangisi, aşağıda verilen öge dizilişine uymaktadır?**`,
   gorsel: `<svg viewBox="0 0 560 132" role="img" aria-label="Aranan öge dizilişi: özne, yer tamlayıcısı, zarf tamlayıcısı, yüklem"><text x="280" y="24" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Aranan öge dizilişi</text><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="6" y="46" width="120" height="56" rx="10"/><rect x="146" y="46" width="120" height="56" rx="10"/><rect x="286" y="46" width="120" height="56" rx="10"/><rect x="426" y="46" width="120" height="56" rx="10"/></g><g font-size="19" text-anchor="middle" fill="var(--vurgu)" font-weight="bold"><text x="136" y="81">&#8594;</text><text x="276" y="81">&#8594;</text><text x="416" y="81">&#8594;</text></g><g font-size="15" text-anchor="middle" fill="currentColor"><text x="66" y="81">özne</text><text x="206" y="72">yer</text><text x="206" y="92">tamlayıcısı</text><text x="346" y="72">zarf</text><text x="346" y="92">tamlayıcısı</text><text x="486" y="81">yüklem</text></g></svg>`,
@@ -495,15 +495,15 @@ Cevap D.`
   hatalar: [
     "Öge sırasını karıştırma: bu cümle zarf tamlayıcısıyla başlar; sıra zarf tamlayıcısı – özne – yer tamlayıcısı – yüklem biçimindedir.",
     "Nesneyi yer tamlayıcısı sanma: 'dürbünlerini' sözü 'Neyi hazırlar?' sorusunun yanıtıdır, belirtili nesnedir.",
-    "Nesneyi yer tamlayıcısı sanma: 'gölün üzerini' sözü '-i' hâl ekini almıştır ve 'Neyi kaplar?' sorusunun yanıtıdır; ayrıca bu cümle zarf tamlayıcısıyla başlar.",
+    "Nesneyi yer tamlayıcısı sanma: 'mağaranın ağzını' sözü '-ı' hâl ekini almıştır ve 'Neyi terk eder?' sorusunun yanıtıdır; ayrıca bu cümle zarf tamlayıcısıyla başlar.",
     null
   ],
   aciklama: `Görselde aranan sıra verilmiştir: özne – yer tamlayıcısı – zarf tamlayıcısı – yüklem. Her cümleyi bu sırayla karşılaştırman gerekir.
-Adım 1: I. cümle: yüklem 'dinlenir'. "Ne zaman?" → Sabahleyin (zarf tamlayıcısı). "Ne dinlenir?" → balıkçıllar (özne). "Nerede?" → gölün kıyısında (yer tamlayıcısı). Sıra: zarf – özne – yer – yüklem. Uymaz.
+Adım 1: I. cümle: yüklem 'dinlenir'. "Ne zaman?" → Sabahleyin (zarf tamlayıcısı). "Ne dinlenir?" → su kaplumbağaları (özne). "Nerede?" → kütüğün üstünde (yer tamlayıcısı). Sıra: zarf – özne – yer – yüklem. Uymaz.
 Adım 2: II. cümle: yüklem 'hazırlar'. Özne: Kuş gözlemcileri. "Neyi hazırlar?" → dürbünlerini (belirtili nesne). "Nasıl?" → sessizce. İkinci öge yer tamlayıcısı değil nesnedir. Uymaz.
-Adım 3: III. cümle: yüklem 'kaplar'. "Ne zaman?" → Gün batarken (zarf tamlayıcısı). "Ne kaplar?" → sis (özne). "Neyi kaplar?" → gölün üzerini (belirtili nesne). Uymaz.
+Adım 3: III. cümle: yüklem 'terk eder'. "Ne zaman?" → Alacakaranlıkta (zarf tamlayıcısı). "Ne terk eder?" → yarasalar (özne). "Neyi terk eder?" → mağaranın ağzını (belirtili nesne). Uymaz.
 Adım 4: IV. cümle: yüklem 'döner'. "Ne döner?" → Yaban ördekleri (özne). "Nereye döner?" → sazlığa (yer tamlayıcısı). "Ne zaman döner?" → akşamüstü (zarf tamlayıcısı). Sıra tam olarak görseldeki gibidir.
-Sağlama: III. cümlede 'gölün üzerini' sözü yer adı içeriyor diye yer tamlayıcısı sanılabilir; oysa ek '-i' belirtme hâli ekidir ve söz "Neyi?" sorusunun yanıtıdır. Ögeyi belirleyen, sözcüğün anlamı değil, yükleme sorulan sorudur.
+Sağlama: III. cümlede 'mağaranın ağzını' sözü bir yer adı içeriyor diye yer tamlayıcısı sanılabilir; oysa ek '-ı' belirtme hâli ekidir ve söz "Neyi?" sorusunun yanıtıdır. Ögeyi belirleyen, sözcüğün anlamı değil, yükleme sorulan sorudur.
 Cevap D.`
 },
 {

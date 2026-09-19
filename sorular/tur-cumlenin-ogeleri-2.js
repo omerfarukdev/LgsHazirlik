@@ -37,8 +37,8 @@ Cevap C.`
 **Bu cümlelerin hangisinde ögelerin sıralanışı diğer üçünden farklıdır?**`,
   gorsel: null,
   secenekler: [
-    "Kulübün yazılımını gönüllü bir öğrenci güncelledi.",
-    "Mahalledeki gönüllü gençler eski bilgisayarları topluyor.",
+    "Kulübün yazılımını geçen hafta gönüllü bir öğrenci güncelledi.",
+    "Mahalledeki gönüllü gençler eski bilgisayarları sabırla topluyor.",
     "Bu küçük atölye kırık ekranları ustalıkla değiştiriyor.",
     "Deneyimli eğitmen bütün eski cihazları tek tek deniyor."
   ],
@@ -50,11 +50,11 @@ Cevap C.`
     "D'de 'Deneyimli eğitmen' ile 'bütün eski cihazları' sözlerinin yerini karıştırdın: cümle özneyle başlar, nesne ondan sonra gelir."
   ],
   aciklama: `Ögelerin sıralanışını bulmak için önce yüklemi bul, sonra yükleme 'Kim/ne yapıyor?' (özne), 'Neyi/ne?' (nesne), 'Nerede, nereye, nereden?' (yer tamlayıcısı), 'Nasıl, ne zaman?' (zarf tamlayıcısı) sorularını sor.
-Adım 1: A'nın yüklemi 'güncelledi'. 'Kim güncelledi?' → 'gönüllü bir öğrenci' (özne). 'Neyi güncelledi?' → 'Kulübün yazılımını' (nesne). Sıralanış: nesne – özne – yüklem.
-Adım 2: B'nin yüklemi 'topluyor'. Özne 'Mahalledeki gönüllü gençler', nesne 'eski bilgisayarları'. Sıralanış: özne – nesne – yüklem.
+Adım 1: A'nın yüklemi 'güncelledi'. 'Kim güncelledi?' → 'gönüllü bir öğrenci' (özne). 'Neyi güncelledi?' → 'Kulübün yazılımını' (nesne). 'Ne zaman?' → 'geçen hafta' (zarf tamlayıcısı). Sıralanış: nesne – zarf tamlayıcısı – özne – yüklem.
+Adım 2: B'nin yüklemi 'topluyor'. Özne 'Mahalledeki gönüllü gençler', nesne 'eski bilgisayarları', zarf tamlayıcısı 'sabırla'. Sıralanış: özne – nesne – zarf tamlayıcısı – yüklem.
 Adım 3: C'nin yüklemi 'değiştiriyor'. Özne 'Bu küçük atölye', nesne 'kırık ekranları', zarf tamlayıcısı 'ustalıkla'. Sıralanış: özne – nesne – zarf tamlayıcısı – yüklem.
 Adım 4: D'nin yüklemi 'deniyor'. Özne 'Deneyimli eğitmen', nesne 'bütün eski cihazları', zarf tamlayıcısı 'tek tek'. Sıralanış: özne – nesne – zarf tamlayıcısı – yüklem.
-Adım 5: B, C ve D öznesiyle başlar; yalnızca A nesnesiyle başlar. Farklı olan A'dır.
+Adım 5: B, C ve D'nin sıralanışı birebir aynıdır: özne – nesne – zarf tamlayıcısı – yüklem. A'da ise cümle nesneyle başlar, özne yüklemin hemen önüne geçer. Farklı olan A'dır.
 Sık yapılan hata: Cümlenin başındaki sözü koşulsuz özne saymak. Baştaki söz '-ı, -i, -u, -ü' ekini almışsa o, nesnedir.
 Cevap A.`
 },

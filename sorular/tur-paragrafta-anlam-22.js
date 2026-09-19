@@ -161,7 +161,7 @@ En güçlü çeldirici D. “Kusur kabuğun üstünde kalmıştır” cümlesi o
 Sık yapılan hata: Yazarın vardığı sonuç yerine, sonuca giderken kullandığı bir ara cümleyi işaretlemek. Cevap B.` },
 
 { id: "tur-pa-2190", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
-  soru: `Bir kasa taze fasulyenin tarladan sofraya bozulmadan gelmesi tek bir kamyona değil, kesintisiz bir sıcaklık zincirine bağlıdır. Ürün hasattan hemen sonra ön soğutmaya alınır; tarlanın sıcağını üstünde taşıyan sebze doğrudan soğuk depoya girerse içindeki ısıyı uzun süre bırakamaz. Depodan sonra soğutmalı araç, ondan sonra da marketin reyonu gelir. Zincirin halkalarından biri ısınırsa kaybedilen tazelik sonraki halkalarda geri kazanılmaz; sıcaklık yeniden düştüğünde bozulma yavaşlar ama olan olmuştur. Bu yüzden kayıtlarda yalnızca sıcaklığa değil, her aşamada geçen süreye de bakılır. Aşağıdaki tabloda bir sevkiyat boyunca tutulan kayıtlar verilmiştir.
+  soru: `Bir kasa taze fasulyenin tarladan sofraya bozulmadan gelmesi tek bir kamyona değil, kesintisiz bir sıcaklık zincirine bağlıdır. Ürün hasattan hemen sonra ön soğutmaya alınır; tarlanın sıcağını üstünde taşıyan sebze doğrudan soğuk depoya girerse içindeki ısıyı uzun süre bırakamaz. Depodan sonra soğutmalı araç, ondan sonra da marketin reyonu gelir. Zincirin halkalarından biri ısınırsa kaybedilen tazelik sonraki halkalarda geri kazanılmaz; sıcaklık yeniden düştüğünde bozulma yavaşlar ama olan olmuştur. Bu yüzden kayıtlarda yalnızca sıcaklığa değil, her aşamada geçen süreye de bakılır; ısınma ne kadar uzun sürerse zarar o kadar büyür. Zincirin başarısı da en iyi tutulan halkayla değil, en kötü tutulan halkayla ölçülür. Aşağıdaki tabloda bir sevkiyat boyunca tutulan kayıtlar verilmiştir.
 
 **Bu parçaya ve tabloya göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
   gorsel: `<table class="tablo"><tr><th>Aşama</th><th>Sıcaklık</th><th>Süre</th></tr><tr><td>Ön soğutma</td><td>4 °C</td><td>3 saat</td></tr><tr><td>Soğuk depo</td><td>4 °C</td><td>18 saat</td></tr><tr><td>Soğutmalı araç</td><td>11 °C</td><td>5 saat</td></tr><tr><td>Market reyonu</td><td>5 °C</td><td>9 saat</td></tr></table>`,
@@ -183,7 +183,7 @@ Sık yapılan hata: Sayısal bir şıkka bakıp tabloyu okumadan “kesin bilgi 
   soru: `Aşağıdaki tabloda bir paragrafı oluşturan cümleler numaralanmış olarak verilmiştir.
 
 **Numaralanmış cümlelerden hangisi düşüncenin akışını __bozmaktadır__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Tarlada iyi bir ürün almak işin yalnızca yarısıdır; öbür yarısı taneler ambara girdikten sonra başlar.</td></tr><tr><td>II</td><td>Yeterince kurumadan ambara alınan tanelerin arasında nem birikir, yığının içindeki sıcaklık yükselir; küf ve böcek için elverişli bir ortam kendiliğinden oluşur.</td></tr><tr><td>III</td><td>Bu yüzden taneler ambara konmadan önce uygun nem oranına kadar kurutulur, ambarın havalandırması da ilk haftalarda düzenli çalıştırılır.</td></tr><tr><td>IV</td><td>Biçerdöverle yapılan hasat, tarlada geçen süreyi geçmiş yıllara göre belirgin biçimde kısaltmıştır.</td></tr><tr><td>V</td><td>Bu iki önlem alınmazsa bütün bir yıl boyunca tarlada kazanılan verim, ambarda birkaç haftada sessizce eriyip gider.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Tarlada iyi bir ürün almak işin yalnızca yarısıdır; öbür yarısı taneler ambara girdikten sonra başlar.</td></tr><tr><td>II</td><td>Yeterince kurumadan ambara alınan tanelerin arasında nem birikir, yığının içindeki sıcaklık yükselir; küf ve böcek için elverişli bir ortam kendiliğinden oluşur.</td></tr><tr><td>III</td><td>Bu yüzden taneler ambara konmadan önce uygun nem oranına kadar kurutulur, ambarın havalandırması da ilk haftalarda düzenli çalıştırılır.</td></tr><tr><td>IV</td><td>Biçerdöverle yapılan hasat, tarlada geçen süreyi geçmiş yıllara göre belirgin biçimde kısaltmıştır.</td></tr><tr><td>V</td><td>Bu iki önlem alınmazsa bütün bir yıl boyunca tarlada kazanılan verim, kimsenin gözü önünde bozulmadan, ambarda birkaç haftada sessizce eriyip gider.</td></tr></table>`,
   secenekler: ["II", "III", "IV", "V"],
   dogru: 2,
   hatalar: ["kısmen doğru: II, ambardaki tehlikenin nedenini anlatıyor; onu çıkarırsan III’teki “bu yüzden” dayanaksız kalır.", "kısmen doğru: III, II’deki tehlikeye karşı alınan iki önlemi veriyor; V’teki “bu iki önlem” ifadesi ona bağlanır.", null, "kısmen doğru: V, I’de açılan “işin öbür yarısı” düşüncesini sonuca bağlayarak parçayı tamamlıyor."],
@@ -198,25 +198,25 @@ En güçlü çeldirici D. V, “bu iki önlem” diye geriye dönüp özetlediğ
 Sık yapılan hata: Konuyla ilgili olan her cümleyi akışa uygun saymak. Ölçüt ilgi değil, zincirin halkası olup olmamasıdır. Cevap C.` },
 
 { id: "tur-pa-2192", kazanim: "T.8.3.17", kademe: 0, zorluk: 3,
-  soru: `Bir bölgede herkesin aynı çeşidi ekmesi ilk yıllarda akıllıca görünür. O çeşit en yüksek verimi veriyordur, alıcısı bellidir, tarlada ne zaman ne yapılacağı da ezberlenmiştir. Sorun, bütün tarlaların artık aynı zayıflığı paylaşmasıdır. Yeni bir hastalık ortaya çıktığında ve bu çeşit ona direnç göstermediğinde, bölgedeki tarlaların tamamı aynı anda tehlikeye girer. Oysa yan yana birkaç farklı çeşidin bulunduğu bir bölgede hastalık bir tarlayı vurur, ötekini vuramaz; üretici en azından bir şey toplar. Çeşitliliği korumak bu yüzden eskiye duyulan bir bağlılık değil, ileriye alınmış bir tedbirdir. Bugün verimsiz göründüğü için ekilmeyen bir çeşidin taşıdığı direnç, yarın karşılaşılacak bir hastalığın çaresi olabilir.
+  soru: `Bir bölgede herkesin aynı çeşidi ekmesi ilk yıllarda akıllıca görünür. O çeşit en yüksek verimi veriyordur, alıcısı bellidir, tarlada ne zaman ne yapılacağı da ezberlenmiştir. Sorun, bütün tarlaların artık aynı zayıflığı paylaşmasıdır. Yeni bir hastalık ortaya çıktığında ve bu çeşit ona direnç göstermediğinde, bölgedeki tarlaların tamamı aynı anda tehlikeye girer. Oysa yan yana birkaç farklı çeşidin bulunduğu bir bölgede hastalık bir tarlayı vurur, ötekini vuramaz; üretici en azından bir şey toplar. Aynı durum kuraklık ve geç don için de geçerlidir: erken çiçek açan bir çeşidi vuran bahar donu, geç açan komşusuna dokunmadan geçer. Çeşitliliği korumak bu yüzden eskiye duyulan bir bağlılık değil, ileriye alınmış bir tedbirdir. Bugün verimsiz göründüğü için ekilmeyen bir çeşidin taşıdığı direnç, yarın karşılaşılacak bir hastalığın çaresi olabilir.
 
 **Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Yüksek verimli çeşitler tarımda artık kullanılmamalıdır.", "Bitki hastalıkları bir bölgenin tamamını aynı anda etkiler.", "Çeşit çeşitliliği, beklenmedik tehlikelere karşı bir güvencedir.", "Yerel çeşitler yeni çeşitlerden daha yüksek verim vermektedir."],
-  dogru: 2,
-  hatalar: ["aşırı genelleme: Metin yüksek verimli çeşitleri yasaklamıyor; yanlarında başka çeşitlerin de bulunmasını istiyor.", "aşırı genelleme: Bu, yalnızca herkesin aynı çeşidi ektiği durumda geçerli; parça zaten tersini, çeşitlilik varsa hastalığın bir tarlada kalacağını söylüyor.", null, "ters yön: Metin tam tersini söylüyor; eski çeşitlerin verimi düşük olabilir, üstünlükleri taşıdıkları dirençtir."],
+  secenekler: ["Yüksek verimli çeşitler tarımda artık kullanılmamalıdır.", "Çeşit çeşitliliği, beklenmedik tehlikelere karşı bir güvencedir.", "Bitki hastalıkları bir bölgenin tamamını aynı anda etkiler.", "Yerel çeşitler yeni çeşitlerden daha yüksek verim vermektedir."],
+  dogru: 1,
+  hatalar: ["aşırı genelleme: Metin yüksek verimli çeşitleri yasaklamıyor; yanlarında başka çeşitlerin de bulunmasını istiyor.", null, "aşırı genelleme: Bu, yalnızca herkesin aynı çeşidi ektiği durumda geçerli; parça zaten tersini, çeşitlilik varsa hastalığın bir tarlada kalacağını söylüyor.", "ters yön: Metin tam tersini söylüyor; eski çeşitlerin verimi düşük olabilir, üstünlükleri taşıdıkları dirençtir."],
   aciklama: `Ana düşünce, parçanın bütün cümlelerinin desteklediği tek yargıdır.
 
 Adım 1: Parça bir riski anlatıyor: herkes aynı çeşidi ekerse bütün tarlalar aynı zayıflığı paylaşır.
 Adım 2: Karşıt durumu veriyor: farklı çeşitler varsa hastalık hepsini birden vuramaz.
 Adım 3: Yargıyı doğrudan söylüyor: “Çeşitliliği korumak… ileriye alınmış bir tedbirdir.” Son cümle de bunu geleceğe bağlıyor.
 
-En güçlü çeldirici B. Metinde “tarlaların tamamı aynı anda tehlikeye girer” cümlesi geçtiği için doğru görünür; ama o cümlenin başında bir koşul vardır: herkesin aynı çeşidi ekmiş olması. Koşulu düşürünce yargı aşırı genelleme olur.
+En güçlü çeldirici C. Metinde “tarlaların tamamı aynı anda tehlikeye girer” cümlesi geçtiği için doğru görünür; ama o cümlenin başında bir koşul vardır: herkesin aynı çeşidi ekmiş olması. Koşulu düşürünce yargı aşırı genelleme olur.
 
-Sık yapılan hata: Koşullu bir cümleyi koşulundan ayırıp genel bir kural gibi okumak. “Şu durumda şöyle olur” ile “her zaman şöyle olur” aynı şey değildir. Cevap C.` },
+Sık yapılan hata: Koşullu bir cümleyi koşulundan ayırıp genel bir kural gibi okumak. “Şu durumda şöyle olur” ile “her zaman şöyle olur” aynı şey değildir. Cevap B.` },
 
 { id: "tur-pa-2193", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
-  soru: `Evde atılan yiyeceklerin çoğu bozulduğu için atılmaz; bozulacağını düşündüğümüz için atılır. Dolabın arkasında unuttuğumuz yarım kavanoz, tarihine birkaç gün kala gözden çıkardığımız yoğurt, pişirdiğimizden fazla gelen pilav… Bunların hiçbiri çürümüş değildir. Üstelik iş yiyecekle de bitmez; onun için harcanan su, yakıt ve emek de birlikte çöpe gider. Nedenlere bakınca hep aynı birkaç alışkanlık çıkar karşımıza: liste yazmadan markete gitmek, indirimde diye üçlü paket almak, dolabı öndekini görmeden doldurmak, akşam ne pişireceğine mutfakta karar vermek. Bunların hepsi satın alınanla tüketilen arasındaki açığı büyütür. Bu yüzden mutfakta israfı azaltmanın yolu, dolabı daha sık boşaltmaktan değil, - - - - geçer.
+  soru: `Evde atılan yiyeceklerin çoğu bozulduğu için atılmaz; bozulacağını düşündüğümüz için atılır. Dolabın arkasında unuttuğumuz yarım kavanoz, tarihine birkaç gün kala gözden çıkardığımız yoğurt, pişirdiğimizden fazla gelen pilav… Bunların hiçbiri çürümüş değildir. Üstelik iş yiyecekle de bitmez; onun için harcanan su, yakıt ve emek de birlikte çöpe gider. Nedenlere bakınca hep aynı birkaç alışkanlık çıkar karşımıza: liste yazmadan markete gitmek, indirimde diye üçlü paket almak, dolabı öndekini görmeden doldurmak, akşam ne pişireceğine mutfakta karar vermek. Bunların hepsi satın alınanla tüketilen arasındaki açığı büyütür; açık büyüdükçe de dolapta unutulacak yiyecek çoğalır. Bu yüzden mutfakta israfı azaltmanın yolu, dolabı daha sık boşaltmaktan değil, - - - - geçer.
 
 **Bu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
@@ -231,5 +231,133 @@ Adım 3: Boşluktan önceki “dolabı daha sık boşaltmaktan değil” ifadesi
 
 En güçlü çeldirici A. Saklama akla ilk gelen çözümdür; ama metin zaten “bunların hiçbiri çürümüş değildir” diyor. Sorun yiyeceğin bozulması değil, fazlasının alınmasıdır.
 
-Sık yapılan hata: Boşluğa, konuyla ilgili en tanıdık öneriyi koymak. Doğru şık, metnin kurduğu nedenlere cevap verendir. Cevap D.` }
+Sık yapılan hata: Boşluğa, konuyla ilgili en tanıdık öneriyi koymak. Doğru şık, metnin kurduğu nedenlere cevap verendir. Cevap D.` },
+
+{ id: "tur-pa-2194", kazanim: "T.8.3.11", kademe: 0, zorluk: 3,
+  soru: `Hasat sabahı kapının önünde toplandık. Güneş henüz tepelerin arkasındaydı; tarlanın üstünde ince bir sis duruyordu. Dedem çuvalları arabanın arkasına attı, sonra başaklara elini sürdü, bir tanesini avucunda ezip tanelere baktı. “Kurumuş,” dedi, “bugün olur.” Biçerdöver uzaktan homurdanarak yaklaştı; tozla birlikte sıcak bir yağ kokusu geldi. Makine ilk sırayı almaya başlayınca sarı bir toz bulutu tarlanın üstüne yayıldı. Öğleye doğru gölge kalmadı; su bidonu elden ele dolaştı, bidonun ağzından gelen soğukluk bir an için hepimizi susturdu. Akşamüstü son sıra da bitti; tarlada yalnızca kısa sapların dizileri, boşalmış çuvallar ve derin tekerlek izleri kaldı. Uzaktan bakınca tarla, sabahkinden daha geniş görünüyordu. Dedem avucundaki taneleri cebine koydu; nedenini sormadım, biliyordum.
+
+**Bu parçanın anlatımında aşağıdakilerden hangileri ağır basmaktadır?**`,
+  gorsel: null,
+  secenekler: ["Öyküleme ve betimleme", "Açıklama ve tanımlama", "Tartışma ve tanık gösterme", "Betimleme ve örneklendirme"],
+  dogru: 0,
+  hatalar: [null, "metinde var ama ilgisiz: Parçada bir bilgi açıklanmıyor, bir terim tanımlanmıyor; yaşanmış bir gün olduğu gibi aktarılıyor.", "ters yön: Ortada savunulan bir görüş yok; dedenin “Kurumuş, bugün olur.” sözü de bir tanıklık değil, olayın kendi içindeki bir konuşmadır.", "kısmen doğru: Betimleme gerçekten var (sis, toz bulutu, yağ kokusu) ama örneklendirme yok; desteklenen bir düşünce olmadığı için sıralanan örnek de yoktur."],
+  aciklama: `Anlatım biçimini bulmak için iki soru sor: “Bir olay zaman içinde ilerliyor mu?” ve “Gözümün önünde bir görüntü canlanıyor mu?”
+
+Adım 1: Olaylar sırayla ilerliyor: toplanma, çuvalların atılması, başağın yoklanması, makinenin gelişi, öğle sıcağı, akşam bitişi. Bir olayın zaman sırasıyla aktarılmasına öyküleme denir.
+Adım 2: Yanı sıra duyulara seslenen ayrıntılar var: tepelerin arkasındaki güneş, ince sis, sarı toz bulutu, sıcak yağ kokusu. Bir varlığın ya da anın gözde canlandırılmasına da betimleme denir.
+Adım 3: İkisi birlikte parçanın tamamını taşıyor.
+
+En güçlü çeldirici D. Betimleme yarısı doğru olduğu için kolayca seçilir; ama ikili şıklarda iki yolun da metinde gösterilmesi gerekir, örneklendirme burada yoktur.
+
+Sık yapılan hata: İkili şıklarda tanıdık olan yarıya bakıp işaretlemek. İki yolu da metinden birer cümleyle doğrula. Cevap A.` },
+
+{ id: "tur-pa-2195", kazanim: "T.8.3.34", kademe: 0, zorluk: 3,
+  soru: `Toprağa verilen iki şeyi birbirine karıştırmamak gerekir. Kimyasal gübre, bitkinin o mevsim ihtiyaç duyduğu besini doğrudan ve çabuk verir; etkisi hızlıdır, ölçüsü kaçarsa zararı da hızlı olur. Kompost ise yavaş çalışır: mutfaktan ve bahçeden çıkan artıkların aylarca çürümesiyle oluşur, toprağa karıştığında besini damla damla bırakır. Üstelik yalnızca besin vermez; toprağın gözeneklerini açar, suyu tutmasını kolaylaştırır, içindeki küçük canlıları besler. Bu yüzden kompost verilen bir toprak, sağanaktan sonra daha az sertleşir, kuraklıkta da nemini daha uzun süre elinde tutar. Birini bitkiye verilen bir öğüne, ötekini toprağa yapılan bir tamirata benzetebilirsiniz. Öğün bir günü kurtarır, tamirat yıllarca dayanır. Bu yüzden deneyimli bahçıvan ikisinden birini seçmez; hangisinin ne zaman gerektiğini bilir.
+
+**Bu parçanın anlatımında aşağıdaki düşünceyi geliştirme yollarından hangilerine başvurulmuştur?**`,
+  gorsel: null,
+  secenekler: ["Karşılaştırma ve benzetme", "Tanımlama ve sayısal veri", "Tanık gösterme ve örneklendirme", "Benzetme ve tanık gösterme"],
+  dogru: 0,
+  hatalar: [null, "kısmen doğru: Kompostun nasıl oluştuğu anlatılıyor ama bu bir terim tanımı değil; ayrıca parçada tek bir sayı bile geçmiyor.", "metinde var ama ilgisiz: Mutfak ve bahçe artıkları sayılıyor; ancak bir uzmanın ya da kaynağın sözüne hiç başvurulmuyor.", "kısmen doğru: Benzetme doğru saptanmış (öğün–tamirat) ama tanık gösterme yok; bir şıkkın yarısının tutması yetmez."],
+  aciklama: `Düşünceyi geliştirme yolunu bulmak için “Yazar düşüncesini neyle büyüttü?” diye sor.
+
+Adım 1: Parça baştan sona iki maddeyi yan yana koyuyor: kimyasal gübre hızlı ve dar etkili, kompost yavaş ve geniş etkili. İki şeyin benzer ve farklı yönlerinin yan yana verilmesine karşılaştırma denir.
+Adım 2: “Birini bitkiye verilen bir öğüne, ötekini toprağa yapılan bir tamirata benzetebilirsiniz.” cümlesi açık bir benzetmedir; bir kavram, daha tanıdık bir şeye benzetilerek anlatılıyor.
+Adım 3: İki yol da metinde birer cümleyle gösterilebiliyor.
+
+En güçlü çeldirici D. Benzetme gerçekten var; ama yanına konan tanık gösterme yok, çünkü parçada kimsenin sözü aktarılmıyor.
+
+Sık yapılan hata: İkili şıkta bir yolu bulunca ötekini denetlemeden işaretlemek. İki yoldan biri tutmuyorsa şık yanlıştır. Cevap A.` },
+
+{ id: "tur-pa-2196", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
+  soru: `Kimi sebzeler doğrudan tarlaya ekilmez; önce kapalı bir yerde fide olarak yetiştirilir. Bunun ilk nedeni zamandır: dışarısı hâlâ soğukken tohum ısıtılan bir serada çimlenmeye başlar, mevsim açıldığında elde hazır bitki bulunur. İkinci neden seçimdir; yüzlerce fide arasından güçlü olanlar ayrılıp tarlaya götürülür, zayıflar boşuna yer kaplamaz. Fide tarlaya çıkarılmadan önce birkaç gün gündüzleri dışarıda bırakılır; içeride korunmuş bir bitkiyi tek bir sabahta rüzgâra ve güneşe teslim etmek onu ilk günden yakar. Dikim de akşamüstüne bırakılır, çünkü gündüzün sıcağında toprağa giren fide köklenmeye vakit bulamadan susuz kalır. Bütün bu uğraş, tohumdan hasada giden yolu birkaç hafta kısaltır; erken pazara yetişen bir ürünün üreticiye getirisi ise bambaşkadır.
+
+**Bu parçada fide yetiştirmeyle ilgili aşağıdakilerin hangisine __değinilmemiştir__?**`,
+  gorsel: null,
+  secenekler: ["Tohumun ısıtılan bir serada erken çimlendirildiğine", "Güçlü fidelerin seçilerek tarlaya götürüldüğüne", "Fidelerin dışarıya yavaş yavaş alıştırıldığına", "Fide köklerinin dikimden önce suda bekletildiğine"],
+  dogru: 3,
+  hatalar: ["metinde var ama ilgisiz: İkinci cümlede dışarısı soğukken tohumun ısıtılan serada çimlendiği yazıyor.", "metinde var ama ilgisiz: Üçüncü cümlede yüzlerce fide arasından güçlü olanların ayrıldığı anlatılıyor.", "metinde var ama ilgisiz: Dördüncü cümlede fidenin birkaç gün gündüzleri dışarıda bırakıldığı belirtiliyor.", null],
+  aciklama: `“Değinilmemiştir” sorusunda şıkları metinde tek tek ararsın; karşılığı olmayan şık cevaptır.
+
+Adım 1: A’yı ara: ikinci cümlede var.
+Adım 2: B’yi ara: üçüncü cümlede var.
+Adım 3: C’yi ara: dördüncü cümlede “birkaç gün gündüzleri dışarıda bırakılır” diye geçiyor; alıştırmak tam olarak budur.
+Adım 4: D’yi ara. Parça dikimin akşamüstüne bırakılmasından ve susuz kalma tehlikesinden söz ediyor; köklerin suda bekletilmesinden hiç söz etmiyor.
+
+En güçlü çeldirici C. Metin “alıştırmak” sözcüğünü hiç kullanmadığı için değinilmemiş sanılır; oysa aynı iş başka sözcüklerle anlatılmıştır.
+
+Sık yapılan hata: Şıktaki sözcüğü metinde birebir aramak. Aranan sözcük değil, bilgidir. Cevap D.` },
+
+{ id: "tur-pa-2197", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
+  soru: `Bir paketin arkasındaki içindekiler listesi rastgele dizilmez; üründe en çok bulunan madde başa, en az bulunan sona yazılır. Bu küçük kural, etiketin en çok iş gören yeridir. Adında “meyveli” yazan bir yoğurtta meyve listenin sonlarındaysa, o meyvenin üründeki payı sandığınızdan azdır. “Tam buğday” diye alınan bir ekmekte ilk sırada beyaz un görünüyorsa, tam buğday unu ürünün küçük bir bölümüdür. Şekerin tek bir ad altında değil, birkaç ayrı ad altında listeye dağıldığı da olur; ayrı ayrı yazıldıkları için hiçbiri listenin başına çıkmaz, oysa toplamları çıkardı. Ambalajın ön yüzündeki iri harfler ürünü tanıtmak için yazılmıştır; arka yüzündeki küçük satırlar ise - - - -.
+
+**Bu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
+  gorsel: null,
+  secenekler: ["üründeki maddelerin ağırlığını gram olarak tek tek verir", "ürünün gerçekte neyden ve ne kadarından oluştuğunu gösterir", "ürünün ön yüzündeki adla her zaman uyuştuğunu doğrular", "her paketli ürünün sağlıklı olup olmadığını tek başına belirler"],
+  dogru: 1,
+  hatalar: ["kısmen doğru: Liste miktar hakkında fikir verir ama gram gram değil, yalnızca çoktan aza sıralayarak; metinde tek bir ağırlık geçmiyor.", null, "ters yön: Parçanın bütün örnekleri tersini gösteriyor; “meyveli” yoğurt ve “tam buğday” ekmeği, ön yüzle arka yüzün uyuşmayabileceğinin kanıtıdır.", "aşırı genelleme: Metin etiketin ürünün içeriğini gösterdiğini söylüyor; sağlıklı olup olmadığına karar verdiğini söylemiyor."],
+  aciklama: `Boşluk bir cümlenin sonundaysa, o cümlenin ilk yarısı sana karşıtlık kurup kurmadığını söyler.
+
+Adım 1: Cümlenin ilk yarısına bak: “ön yüzdeki iri harfler ürünü tanıtmak için yazılmıştır.” Yani ön yüz bir tanıtımdır. Öyleyse arka yüz için karşıt bir işlev beklenir.
+Adım 2: Parçanın örneklerini topla. Meyvesi az olan “meyveli” yoğurt, beyaz unu çok olan “tam buğday” ekmeği, adı bölünerek gizlenen şeker… Hepsi aynı şeyi gösteriyor: arka yüz, ürünün gerçek içeriğini ve bu içeriğin miktar sırasını açık eder.
+Adım 3: Bu iki adımı birlikte karşılayan şık B’dir.
+
+En güçlü çeldirici A. Liste gerçekten miktarla ilgilidir; ama metne göre verdiği şey ağırlık değil, sıralamadır. “Gram olarak tek tek” ifadesi metnin söylemediği bir kesinlik getirir.
+
+Sık yapılan hata: Doğru düşünceyi, metinden daha kesin bir biçimde söyleyen şıkkı seçmek. Boşluk, metnin söylediği kadarını isteyen şıkla doldurulur. Cevap B.` },
+
+{ id: "tur-pa-2198", kazanim: "T.8.3.21", kademe: 0, zorluk: 4,
+  soru: `Dedemin ayaklı bir defteri vardı; her yıl aynı sayfalara aynı başlıkları yazardı: ilk yağmurun günü, ilk çiçeğin günü, hasadın başladığı hafta, kaldırılan çuval sayısı. Çocukken bunu bir biriktirme merakı sanırdım. Yıllar sonra anladım ki o defter, tarlanın hafızasıydı. Bir çiftçinin belleği tek bir yılı iyi hatırlar; hangi yıl dolu düştüğünü, hangi yıl kuraklık olduğunu karıştırmaz. Ama belleğin yapamadığı bir şey vardır: on beş yılı yan yana koymak. Defter bunu yapıyordu. Aynı tarlada ekim bir hafta geciktiğinde çuval sayısının nasıl değiştiğini, kuzey sırtın güneyden kaç gün sonra çiçek açtığını yalnızca o sayfalar söyleyebilirdi. Dedem bir çeşidi beğenmediğinde “bu olmadı” deyip geçmez, defteri açar, üç yılın satırlarını yan yana gösterirdi. Yanlış anlaşılmasın: tarlayı defter sürmüyordu, yine dedem sürüyordu; hava da fiyat da onu sık sık şaşırtıyordu. Ama şaşırdığında nereye bakacağını biliyordu. Bugün aynı kayıtlar deftere değil telefonlara giriliyor; biçimi değişti, işi aynı kaldı. Bir tarlayı iyi tanımak, onu her yıl yeniden keşfetmek değil, geçen yılların üstüne yazmaktır.
+
+**Bu parçada yazar, aşağıdakilerden hangisini anlatmak istemektedir?**`,
+  gorsel: null,
+  secenekler: ["Tutulan kayıtların biriken deneyimi karara dönüştürdüğünü", "Çiftçi belleğinin geçmiş yılları hiç hatırlayamadığını", "Tarlayla ilgili kararların artık kayıtlara bırakıldığını", "Kayıt defterlerinin yerini telefon uygulamalarının aldığını"],
+  dogru: 0,
+  hatalar: [null, "aşırı genelleme: Metin belleğin tek bir yılı iyi hatırladığını açıkça söylüyor; yapamadığı şey hatırlamak değil, yılları yan yana koymaktır.", "ters yön: Yazar “tarlayı defter sürmüyordu, yine dedem sürüyordu” diyor; karar çiftçinindir, kayıt yalnızca bakılacak yeri gösterir.", "metinde var ama ilgisiz: Kayıtların telefonlara girildiği bir kez, sondan bir önceki cümlede geçiyor; üstelik yazar bunu “biçimi değişti, işi aynı kaldı” diyerek önemsizleştiriyor."],
+  aciklama: `Örtülü anlam sorularında yazarın doğrudan yazmadığı, ama bütün örneklerinin gösterdiği yargı aranır.
+
+Adım 1: Yazarın ayırdığı iki şeyi bul. Bellek: tek bir yılı iyi hatırlar. Defter: on beş yılı yan yana koyar.
+Adım 2: Defterin ne işe yaradığını gösteren örneklere bak. Ekimin bir hafta gecikmesinin çuval sayısına etkisi, kuzey sırtın kaç gün geç çiçek açtığı, bir çeşidin üç yıllık satırları… Bunların hepsi bir karar anında kullanılıyor.
+Adım 3: Son cümle yargıyı bağlıyor: bir tarlayı tanımak, geçen yılların üstüne yazmaktır. Yani kayıt, biriken deneyimi karar verilebilir bir bilgiye çevirir.
+
+En güçlü çeldirici C. “Defter, tarlanın hafızasıydı” gibi güçlü bir cümleden sonra kararın da deftere geçtiği sanılır; oysa yazar bu yanlış anlamayı önceden görüp “Yanlış anlaşılmasın” diyerek düzeltiyor. Bir parçada böyle bir uyarı cümlesi varsa, tam da o uyarının yasakladığı yorum çeldirici olarak karşına çıkar.
+
+Sık yapılan hata: Yazarın övdüğü aracı, kararı veren özne sanmak. Cevap A.` },
+
+{ id: "tur-pa-2199", kazanim: "T.8.3.18", kademe: 0, zorluk: 4,
+  soru: `Gıda kaybı denince akla önce sofradan artan yemek gelir; oysa kayıp, ürün daha tarladan çıkarken başlar. Hasatta dalda unutulan, makineden kaçan, kasaya konurken ezilen ürünler vardır. Depoda nem ve sıcaklık gözden kaçarsa bir bölüm küflenir. Taşımada sarsıntı ve gecikme devreye girer. Market aşamasında görünüşü beğenilmeyenler, paketi zedelenenler ayrılır. Evde ise satın alınıp unutulan, fazla pişirilen, tabakta bırakılan yiyecekler sıraya eklenir. Bu aşamaların hangisinde ne kadar kayıp yaşandığı ülkeden ülkeye, üründen ürüne, hatta yıldan yıla değişir. Sert kabuklu bir ürünle sulu bir sebze aynı yolculuktan aynı biçimde geçmez; soğuk deposu olan bir üreticiyle olmayan da aynı sonucu almaz. Yağışlı geçen bir hasat mevsiminde depolama kaybı yükselirken, kuru geçen bir yılda aynı depo sorunsuz çalışabilir. Bu yüzden “şu aşamayı düzeltelim, iş biter” demek kolay ama yanıltıcıdır; bir aşamada alınan önlem çoğu zaman başka bir aşamanın yükünü artırır. Aşağıdaki tabloda bir üretici birliğinin geçen yıl kendi domates ürünü için tuttuğu kayıtlar verilmiştir.
+
+**Bu parçaya ve tabloya göre aşağıdakilerden hangisi __söylenemez__?**`,
+  gorsel: `<table class="tablo"><tr><th>Aşama</th><th>Kaybın ürüne oranı</th></tr><tr><td>Hasat ve tarlada</td><td>%9</td></tr><tr><td>Taşıma</td><td>%6</td></tr><tr><td>Depolama</td><td>%12</td></tr><tr><td>Market ve satış</td><td>%5</td></tr></table>`,
+  secenekler: ["Birliğin kayıtlarında en yüksek kayıp depolama aşamasındadır.", "Gıda kaybı yalnızca tüketicinin sofrasında görülen bir sorun değildir.", "Tablodaki oranlar bütün üreticiler ve ürünler için aynı biçimde geçerlidir.", "Kaydedilen kaybın bir bölümü ürünün görünüşünden kaynaklanmaktadır."],
+  dogru: 2,
+  hatalar: ["metinde var ama ilgisiz: Tabloda dört oran karşılaştırılınca en yükseğin %12 ile depolama olduğu görülüyor.", "metinde var ama ilgisiz: İlk cümle bunu doğrudan söylüyor; kayıp ürün daha tarladan çıkarken başlıyor.", null, "metinde var ama ilgisiz: Market aşamasında görünüşü beğenilmeyenlerin ayrıldığı metinde yazıyor; tabloda da bu aşamanın payı veriliyor."],
+  aciklama: `“Söylenemez” sorusunda metnin ve tablonun desteklemediği yargı aranır. Burada tablo tek bir birliğin tek bir ürünü için tutulmuştur; bu sınırı akılda tutmak sorunun anahtarıdır.
+
+Adım 1: A’yı sına. Oranlar %9, %6, %12 ve %5. En yükseği depolama; söylenebilir.
+Adım 2: B’yi sına. Metnin ilk cümlesi kaybın tarlada başladığını söylüyor; söylenebilir.
+Adım 3: D’yi sına. Market aşamasında görünüş nedeniyle ürün ayrılıyor ve tabloda bu aşamanın payı var; söylenebilir.
+Adım 4: C’yi sına. Metin tersini söylüyor: oranlar ülkeden ülkeye, üründen ürüne, yıldan yıla değişir. Üstelik tablo yalnızca bir birliğin domatesine aittir. Söylenemez.
+
+En güçlü çeldirici A. İçinde “en yüksek” geçtiği için ölçüsüz bir yargı sanılır; oysa tablodaki dört sayıyı karşılaştırmak bunu kanıtlamaya yeter.
+
+Sık yapılan hata: Bir tablodaki değerleri bütün örneklerin ortalaması gibi okumak. Tablonun kime, neye ve hangi yıla ait olduğu her zaman başlığında ya da metninde yazar. Cevap C.` },
+
+{ id: "tur-pa-2200", kazanim: "T.8.3.19", kademe: 0, zorluk: 4,
+  soru: `Yeni bir buğday çeşidi bir sabah laboratuvarda icat edilmez. Islahçı önce ne aradığını tarif eder: belki hastalığa dayanıklılık, belki daha kısa sap, belki yağmursuz geçen bir bahara dayanma gücü. Sonra bu özellikleri ayrı ayrı taşıyan iki çeşidi melezler. İlk kuşakta ortaya çıkan bitkiler bir karmaşadır; aranan iki özelliğin bir arada bulunduğu birkaç bitkiyi bulmak için yüzlercesini gözden geçirmek gerekir. Seçilenler ertesi yıl yeniden ekilir, yeniden ayıklanır. Bu ayıklama tek bir yılda bitmez, çünkü bir bitkinin taşıdığı özelliğin kalıcı olup olmadığı ancak birkaç kuşak sonra anlaşılır. Ardından deneme tarlaları gelir: aynı hat, farklı iklimlerde ve farklı topraklarda yıllarca denenir. Bir yıl iyi sonuç veren bir hattın ertesi yıl aynı tarlada başarısız olması sık görülür; bu yüzden denemeler tek bir yılın sonucuna göre değil, üst üste alınan sonuçlara göre değerlendirilir. Bütün bu aşamalardan geçip çiftçinin tarlasına ulaşan bir çeşidin arkasında çoğu zaman on yıla yakın bir çalışma vardır. Islahçının işi bu yüzden sabırla ölçülür; tarladaki zaman kolay kolay kısaltılamaz.
+
+**Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
+  gorsel: null,
+  secenekler: ["Buğdayın Ülkemizdeki Ekim Alanları", "Hastalığa Dayanıklı Bitkilerin Özellikleri", "Deneme Tarlalarında Kullanılan Yöntemler", "Yıllara Yayılan Bir Çeşit Arayışı"],
+  dogru: 3,
+  hatalar: ["metinde var ama ilgisiz: Buğday yalnızca örnek olarak anılıyor; parça buğdayın nerede ekildiğini değil, bir çeşidin nasıl geliştirildiğini anlatıyor.", "kısmen doğru: Hastalığa dayanıklılık ıslahçının aradığı özelliklerden biri olarak geçiyor; ancak parça o özelliği değil, arama sürecini konu ediyor.", "kısmen doğru: Deneme tarlaları son aşamalardan biridir; melezleme ve yıllar süren ayıklama bu başlığın dışında kalır.", null],
+  aciklama: `Başlık, parçanın bütününü kapsamalı ve ana düşünceyi yansıtmalıdır. Uzun parçalarda başlığı seçmeden önce metni bölümlere ayırmak işi kolaylaştırır.
+
+Adım 1: Bölümleri çıkar. Birinci bölüm: ıslahçının ne aradığını belirlemesi ve melezleme. İkinci bölüm: yıllar süren seçme ve ayıklama. Üçüncü bölüm: farklı iklim ve topraklardaki deneme tarlaları. Dördüncü bölüm: bütün bunların on yıla yakın sürmesi.
+Adım 2: Dört bölümün ortak paydasını bul: aranan özellikleri taşıyan bir çeşidi bulmak yıllar alır.
+Adım 3: Bu ortak paydayı karşılayan tek başlık D’dir; hem “arayış” hem “yıllara yayılan” bölümünü birlikte taşır.
+
+En güçlü çeldirici C. Deneme tarlaları parçanın en somut, en akılda kalan aşamasıdır; ama başlık olursa ilk yılların melezleme ve ayıklama çalışması dışarıda kalır.
+
+Sık yapılan hata: Parçanın en canlı anlatılan bölümünü başlık sanmak. Başlık bir bölümü değil, bütünü karşılamalıdır. Cevap D.` }
 );
