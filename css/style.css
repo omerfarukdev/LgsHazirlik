@@ -193,6 +193,12 @@ button:disabled { cursor: not-allowed; }
   .serit-oge:nth-child(3) { border-left: 0; padding-left: 0; }
 }
 
+.paragraf-kart {
+  margin-top: 16px; padding: 20px 24px;
+  background: linear-gradient(120deg, color-mix(in srgb, var(--vurgu) 10%, var(--kart)), var(--kart));
+  border-color: color-mix(in srgb, var(--vurgu) 40%, var(--cizgi));
+}
+.paragraf-kart .tk-ust { color: var(--vurgu); }
 .tekrar-kart {
   margin-top: 16px; padding: 20px 24px;
   background: linear-gradient(120deg, color-mix(in srgb, var(--vurgu2) 12%, var(--kart)), var(--kart));

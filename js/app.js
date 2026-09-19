@@ -313,7 +313,8 @@ var App = (function () {
     var sira = aktif ? null : siradakiTest();
     if (aktif) {
       var ak = KONU[aktif.konu];
-      html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' + (ak ? esc(ak.konu.ad) : "Tekrar testi") + '</span>' +
+      html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' +
+        (ak ? esc(ak.konu.ad) : (aktif.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi")) + '</span>' +
         '<span class="ua-alt">' + kademeAdi(aktif.kademe) + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
         '<button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button></div>';
     } else if (sira) {
@@ -322,6 +323,21 @@ var App = (function () {
         '<button class="btn gunes" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
     }
     html += '</div></section>';
+
+    // Günlük paragraf rutini: her gün açık, konu testlerinden bağımsız
+    var pIds = aktif ? [] : paragrafSorulari(PARAGRAF_ADET);
+    if (pIds.length) {
+      var pBugun = paragrafBugun(), pSeri = paragrafSeri();
+      html += '<section class="kart paragraf-kart"><div class="tk-ic">' +
+        '<div class="tk-yazi"><span class="tk-ust">Günün paragrafı' +
+        (pSeri > 1 ? ' · ' + pSeri + ' gündür aralıksız' : "") + '</span>' +
+        '<h2>' + (pBugun ? "Bugün " + pBugun + " tur bitti, devam?" : "Her gün 5 paragraf") + '</h2>' +
+        '<p class="soluk">' + (pBugun
+          ? "Bugünkü turunu yaptın. İstersen bir tur daha çözebilirsin; paragrafta fazlası hep iyidir."
+          : "Yaklaşık 10 dakika. Türkçe'nin en çok soru gelen kısmı burası, üstelik Fen ve Matematiğin uzun sorularını da hızlandırır.") +
+        '</p></div><button class="btn ' + (pBugun ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
+        (pBugun ? "Bir tur daha" : "Başla →") + '</button></div></section>';
+    }
 
     // Tekrar testi: uygulama kendisi hazırlar, zamanı gelince burada belirir
     if (tekrarIds.length >= 5) {
@@ -358,7 +374,8 @@ var App = (function () {
         var kb = KONU[g.konu];
         html += '<button class="liste-satir" onclick="App.git(\'#/sonuc/' + g.ts + '\')">' +
           '<span class="rozet ' + oranSinif(g.oran) + '">%' + yuzde(g.oran) + '</span>' +
-          '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + ' <span class="soluk">· ' + kademeAdi(g.kademe) + '</span></span>' +
+          '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : (g.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi")) +
+          ' <span class="soluk">· ' + (g.tur === "paragraf" ? "Günlük rutin" : kademeAdi(g.kademe)) + '</span></span>' +
           '<span class="soluk kucuk">' + g.d + "D " + g.y + "Y " + g.b + "B · " + fmtTarih(g.ts) + '</span></button>';
       });
       html += '</div>';
@@ -537,6 +554,53 @@ var App = (function () {
     }
     return secilen;
   }
+  // ================= Günlük paragraf =================
+  // Paragraf, bitirilen bir konu değil süreklilik isteyen bir beceridir: LGS Türkçe'nin
+  // 6-8 sorusu doğrudan buradan gelir, üstelik Fen ve Matematik'in uzun metinli soruları da
+  // aynı okuma hızına bağlıdır. Bu yüzden konu testlerinden ayrı, her gün açık bir rutindir.
+  var PARAGRAF_KONU = "paragrafta-anlam";
+  var PARAGRAF_ADET = 5;
+
+  function paragrafSorulari(adet) {
+    var havuz = bank(PARAGRAF_KONU).filter(function (q) { return q.kademe === 0; });
+    if (!havuz.length) return [];
+    var gorulen = Store.get("gorulen", {});
+    var taze = shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }));
+    if (taze.length >= adet) return taze.slice(0, adet).map(function (q) { return q.id; });
+    // Havuz tükendiyse en eski görülenlerden tamamla (rutin hiç durmasın)
+    var eski = havuz.filter(function (q) { return gorulen[q.id]; })
+      .sort(function (a, b) { return gorulen[a.id] - gorulen[b.id]; });
+    return taze.concat(eski).slice(0, adet).map(function (q) { return q.id; });
+  }
+  function paragrafBugun() {
+    var bugun = tarihKey(new Date()), say = 0;
+    Store.get("gecmis", []).forEach(function (g) {
+      if (g.tur === "paragraf" && tarihKey(new Date(g.ts)) === bugun) say++;
+    });
+    return say;
+  }
+  function paragrafSeri() {
+    var gunler = {};
+    Store.get("gecmis", []).forEach(function (g) {
+      if (g.tur === "paragraf") gunler[tarihKey(new Date(g.ts))] = true;
+    });
+    var d = new Date(), seri = 0;
+    if (!gunler[tarihKey(d)]) d.setDate(d.getDate() - 1);
+    while (gunler[tarihKey(d)]) { seri++; d.setDate(d.getDate() - 1); }
+    return seri;
+  }
+  function paragrafBaslat() {
+    var ids = paragrafSorulari(PARAGRAF_ADET);
+    if (!ids.length) return;
+    S = {
+      tur: "paragraf", ders: "turkce", konu: null, kademe: 0,
+      sorular: ids, cevap: {}, isaret: {}, sureSoru: {}, idx: 0, gecen: 0,
+      oneri: onerilenSure(ids.map(soruBul)), basla: Date.now()
+    };
+    Store.set("aktif", S);
+    git("#/test");
+  }
+
   function tekrarBaslat() {
     var ids = tekrarSorulari(10);
     if (!ids.length) return;
@@ -608,8 +672,9 @@ var App = (function () {
     var kb = KONU[S.konu], n = S.sorular.length;
     var secili = S.cevap[q.id];
     var html = '<header class="test-ust">' +
-      '<div class="tu-sol"><strong>' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + '</strong>' +
-      (kb ? '<span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span>' : '<span class="soluk"> · karışık sorular</span>') + '</div>' +
+      '<div class="tu-sol"><strong>' + (kb ? esc(kb.konu.ad) : (S.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi")) + '</strong>' +
+      (kb ? '<span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span>'
+          : '<span class="soluk"> · ' + (S.tur === "paragraf" ? "günlük rutin" : "karışık sorular") + '</span>') + '</div>' +
       '<div class="tu-sag"><span class="soluk kucuk">' + (AYAR.sureSiniri ? "Kalan süre" : "Süre") + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
       '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
@@ -741,8 +806,9 @@ var App = (function () {
     });
     Bulut.gonder("test", {
       ts: kayit.ts, tur: kayit.tur, ders: kayit.ders, konu: kayit.konu, kademe: kayit.kademe,
-      dersAd: kb ? kb.ders.ad : "Karışık", konuAd: kb ? kb.konu.ad : "Yanlışlarını tekrar",
-      kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : "Tekrar",
+      dersAd: kb ? kb.ders.ad : (kayit.tur === "paragraf" ? "Türkçe" : "Karışık"),
+      konuAd: kb ? kb.konu.ad : (kayit.tur === "paragraf" ? "Günün paragrafı" : "Yanlışlarını tekrar"),
+      kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : (kayit.tur === "paragraf" ? "Günlük rutin" : "Tekrar"),
       d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu,
       sureSoru: kayit.sureSoru, yanlislar: yanlislar
     }, "test-" + kayit.ts);
@@ -758,7 +824,7 @@ var App = (function () {
   }
   function sonucEkrani(kayit) {
     var kb = KONU[kayit.konu], n = kayit.sorular.length;
-    if (kayit.tur === "tekrar") return tekrarSonucu(kayit, n);
+    if (kayit.tur === "tekrar" || kayit.tur === "paragraf") return tekrarSonucu(kayit, n);
     var sinif = oranSinif(kayit.oran);
     var gecti = kayit.oran >= AYAR.gecmeEsigi;
     var sonrakiVar = kayit.kademe < 3 && kademeSorulari(kayit.konu, kayit.kademe + 1).length > 0;
@@ -787,18 +853,24 @@ var App = (function () {
   }
   // Tekrar testinin sonucu: konu/kademe yoktur, sorular karışık gelir
   function tekrarSonucu(kayit, n) {
+    var pg = kayit.tur === "paragraf";
     var sinif = oranSinif(kayit.oran);
-    var mesaj = sinif === "iyi" ? "Eski konular akılda kalmış. Böyle devam."
-      : sinif === "orta" ? "Fena değil. Yanlışlarının çözümünü incele, bunlar birkaç gün sonra yine karşına çıkacak."
-      : "Unutmaya başladığın konular var. Aşağıdaki çözümleri dikkatle oku; bu sorular yeniden gelecek.";
+    var mesaj = pg
+      ? (sinif === "iyi" ? "Okuduğunu iyi çözümlüyorsun. Bu rutini her gün sürdür."
+        : sinif === "orta" ? "Fena değil. Yanlışlarını okurken metnin neresini atladığına dikkat et."
+        : "Acele etmiş olabilirsin. Çözümleri okurken metne geri dön ve cevabın hangi cümlede saklı olduğunu bul.")
+      : (sinif === "iyi" ? "Eski konular akılda kalmış. Böyle devam."
+        : sinif === "orta" ? "Fena değil. Yanlışlarının çözümünü incele, bunlar birkaç gün sonra yine karşına çıkacak."
+        : "Unutmaya başladığın konular var. Aşağıdaki çözümleri dikkatle oku; bu sorular yeniden gelecek.");
     if (kayit.sureDoldu) mesaj = "Süre doldu, test kendiliğinden bitti. " + mesaj;
 
-    var html = ustCubuk("Tekrar testi", "#/");
+    var html = ustCubuk(pg ? "Günün paragrafı" : "Tekrar testi", "#/");
     html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
       '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
       ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
       ozetKutu(fmtSureYazi(kayit.sure), "süre") + '</div>' +
-      '<div class="sonuc-btn"><button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
+      '<div class="sonuc-btn">' + (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
+      '<button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
 
     html += '<div class="filtre">' + filtreBtn("hepsi", "Hepsi (" + n + ")", kayit.ts) +
       filtreBtn("yanlis", "Yanlışlar (" + kayit.y + ")", kayit.ts) +
@@ -1088,7 +1160,7 @@ var App = (function () {
     isaretle: isaretle, bitir: bitir, bitirOnay: bitirOnay, filtrele: filtrele,
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
-    tekrarBaslat: tekrarBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
+    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
     bicim: bicim, ikon: ikon
   };
 })();
