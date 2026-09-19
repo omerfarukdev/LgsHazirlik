@@ -1,0 +1,8 @@
+# MEB'in resmi belgeleri (öğretim programları, kılavuz, soru kitapçıkları) yalnızca yerel başvuru içindir;
+# depoda yeniden yayımlanmaz. Kaynak adresleri planlama/arastirma-*.md dosyalarında yazılıdır.
+planlama/kaynaklar/
+
+# Kişisel veri asla depoya girmez
+veri/
+*.yedek.json
+lgs-yedek-*.json
