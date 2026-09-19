@@ -193,6 +193,17 @@ button:disabled { cursor: not-allowed; }
   .serit-oge:nth-child(3) { border-left: 0; padding-left: 0; }
 }
 
+.tekrar-kart {
+  margin-top: 16px; padding: 20px 24px;
+  background: linear-gradient(120deg, color-mix(in srgb, var(--vurgu2) 12%, var(--kart)), var(--kart));
+  border-color: color-mix(in srgb, var(--vurgu2) 45%, var(--cizgi));
+}
+.tk-ic { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.tk-yazi { flex: 1; min-width: 240px; }
+.tk-ust { font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; font-weight: 700; color: var(--vurgu2); }
+.tk-yazi h2 { margin: 2px 0 4px; }
+.tk-yazi p { margin: 0; font-size: .9rem; }
+
 h2.bolum { margin-top: 32px; }
 .ders-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
 .ders-kart {

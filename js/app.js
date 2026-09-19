@@ -100,6 +100,13 @@ var App = (function () {
     h = h.replace(/\*\*([\s\S]+?)\*\*/g, "<strong>$1</strong>").replace(/__([\s\S]+?)__/g, "<u>$1</u>");
     return h.replace(/\n/g, "<br>");
   }
+  function shuffle(a) {
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1)), t = a[i];
+      a[i] = a[j]; a[j] = t;
+    }
+    return a;
+  }
   function pad2(n) { return String(n).padStart(2, "0"); }
   function fmtSure(sn) {
     sn = Math.max(0, Math.round(sn));
@@ -142,7 +149,16 @@ var App = (function () {
   function kademeSorulari(konuId, k) {
     return bank(konuId).filter(function (q) { return q.kademe === k; });
   }
-  var soruMap = null;
+  var soruMap = null, soruKonuMap = null;
+  function soruKonusu(id) {
+    if (!soruKonuMap) {
+      soruKonuMap = {};
+      Object.keys(window.LGS_BANK || {}).forEach(function (konuId) {
+        window.LGS_BANK[konuId].forEach(function (q) { soruKonuMap[q.id] = konuId; });
+      });
+    }
+    return soruKonuMap[id] || null;
+  }
   function soruBul(id) {
     if (!soruMap) {
       soruMap = {};
@@ -283,6 +299,8 @@ var App = (function () {
       '<span class="ufuk-sayac">' + (gun === null ? "Hedef · " + esc(AYAR.sinavTahmini || "") : "<strong>" + gun + "</strong> gün kaldı") + '</span></div>' +
       '<p class="ufuk-selam">' + selam() + '</p><h1 class="ufuk-soz">' + esc(soz) + '</h1>';
 
+    var tekrarIds = aktif ? [] : tekrarSorulari(10);
+    var yanlisSay = bekleyenYanlislar().length;
     var sira = aktif ? null : siradakiTest();
     if (aktif) {
       var ak = KONU[aktif.konu];
@@ -295,6 +313,16 @@ var App = (function () {
         '<button class="btn gunes" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
     }
     html += '</div></section>';
+
+    // Tekrar testi: uygulama kendisi hazırlar, zamanı gelince burada belirir
+    if (tekrarIds.length >= 5) {
+      html += '<section class="kart tekrar-kart"><div class="tk-ic">' +
+        '<div class="tk-yazi"><span class="tk-ust">Bugünün tekrarı</span>' +
+        '<h2>' + (yanlisSay ? "Yanlışlarını tekrar et" : "Eski konuları tazele") + '</h2>' +
+        '<p class="soluk">' + tekrarIds.length + ' soru · ' + Math.round(onerilenSure(tekrarIds.map(soruBul)) / 60) + ' dk · ' +
+        (yanlisSay ? "tekrar zamanı gelen " + yanlisSay + " yanlışın ve benzer sorular" : "daha önce işlediğin konulardan karışık sorular") +
+        '</p></div><button class="btn birincil buyuk" onclick="App.tekrarBaslat()">Tekrara başla →</button></div></section>';
+    }
 
     // Yıl çizelgesi + sayılar
     html += '<section class="kart yolculuk"><div class="yolculuk-ust"><h2>Yolculuğun</h2>' +
@@ -422,6 +450,90 @@ var App = (function () {
   }
 
   // ================= Test =================
+  // ================= Tekrar motoru =================
+  // Yanlış defteri: yanlış yapılan soru 3, 10 ve 30 gün sonra geri gelir. Art arda iki kez
+  // doğru yapılınca defterden düşer. Konular da 7, 30 ve 90 gün sonra tekrara girer.
+  var YANLIS_ARA = [3, 10, 30];
+  var KONU_ARA = [7, 30, 90];
+  var GUN = 86400000;
+
+  // Zamanı gelmiş yanlışlar (en gecikmişi başta)
+  function bekleyenYanlislar() {
+    var yanlis = Store.get("yanlis", {}), simdi = Date.now(), liste = [];
+    Object.keys(yanlis).forEach(function (id) {
+      var y = yanlis[id];
+      if (!soruBul(id)) return;
+      var ara = YANLIS_ARA[Math.min(y.seri || 0, YANLIS_ARA.length - 1)] * GUN;
+      if (simdi - y.ts >= ara) liste.push({ id: id, gecikme: simdi - y.ts - ara });
+    });
+    return liste.sort(function (a, b) { return b.gecikme - a.gecikme; });
+  }
+  // Tekrar zamanı gelmiş konular
+  function bekleyenKonular() {
+    var tum = Store.get("konuDurum", {}), simdi = Date.now(), liste = [];
+    Object.keys(tum).forEach(function (konuId) {
+      if (!KONU[konuId] || !bank(konuId).length) return;
+      var kd = tum[konuId], n = kd.tekrar || 0;
+      if (n >= KONU_ARA.length) return;
+      var son = kd.sonTekrar || kd.islendi || 0;
+      if (simdi - son >= KONU_ARA[n] * GUN) liste.push(konuId);
+    });
+    return liste;
+  }
+  // Bir kazanımdan, öğrencinin hiç görmediği sorular
+  function benzerSorular(konuId, kazanim, haric) {
+    var gorulen = Store.get("gorulen", {});
+    return bank(konuId).filter(function (q) {
+      return q.kazanim === kazanim && !gorulen[q.id] && haric.indexOf(q.id) === -1;
+    });
+  }
+  // Tekrar testini kurar: yanlışlar + benzerleri + zamanı gelen konulardan taze sorular
+  function tekrarSorulari(hedef) {
+    hedef = hedef || 10;
+    var secilen = [], eklendi = {};
+    function ekle(id) { if (id && !eklendi[id] && soruBul(id)) { eklendi[id] = 1; secilen.push(id); } }
+
+    // 1) Zamanı gelmiş yanlışlar (en çok yarısı) ve her birine bir benzer
+    var yanlislar = bekleyenYanlislar();
+    var yanlisKota = Math.max(1, Math.ceil(hedef / 2));
+    yanlislar.slice(0, yanlisKota).forEach(function (y) {
+      ekle(y.id);
+      var q = soruBul(y.id), kb = q && KONU[Store.get("yanlis", {})[y.id].konu];
+      if (!q || !kb) return;
+      var benzer = benzerSorular(Store.get("yanlis", {})[y.id].konu, q.kazanim, secilen);
+      if (benzer.length) ekle(benzer[Math.floor(Math.random() * benzer.length)].id);
+    });
+
+    // 2) Tekrar zamanı gelen konulardan görülmemiş sorular
+    shuffle(bekleyenKonular()).forEach(function (konuId) {
+      if (secilen.length >= hedef) return;
+      var gorulen = Store.get("gorulen", {});
+      var havuz = shuffle(bank(konuId).filter(function (q) { return !gorulen[q.id] && !eklendi[q.id]; }));
+      havuz.slice(0, 3).forEach(function (q) { if (secilen.length < hedef) ekle(q.id); });
+    });
+
+    // 3) Yer kalırsa: işlenmiş konulardan görülmemiş havuz soruları
+    if (secilen.length < hedef) {
+      var tum = Store.get("konuDurum", {}), gor = Store.get("gorulen", {}), aday = [];
+      Object.keys(tum).forEach(function (konuId) {
+        bank(konuId).forEach(function (q) { if (q.kademe === 0 && !gor[q.id] && !eklendi[q.id]) aday.push(q.id); });
+      });
+      shuffle(aday).slice(0, hedef - secilen.length).forEach(ekle);
+    }
+    return secilen;
+  }
+  function tekrarBaslat() {
+    var ids = tekrarSorulari(10);
+    if (!ids.length) return;
+    var sorular = ids.map(soruBul);
+    S = {
+      tur: "tekrar", ders: null, konu: null, kademe: 0,
+      sorular: ids, cevap: {}, isaret: {}, sureSoru: {}, idx: 0, gecen: 0,
+      oneri: onerilenSure(sorular), basla: Date.now()
+    };
+    Store.set("aktif", S);
+    git("#/test");
+  }
   function testBaslat(konuId, k) {
     var sorular = kademeSorulari(konuId, k);
     if (!sorular.length) return;
@@ -474,7 +586,8 @@ var App = (function () {
     var kb = KONU[S.konu], n = S.sorular.length;
     var secili = S.cevap[q.id];
     var html = '<header class="test-ust">' +
-      '<div class="tu-sol"><strong>' + esc(kb.konu.ad) + '</strong><span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span></div>' +
+      '<div class="tu-sol"><strong>' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + '</strong>' +
+      (kb ? '<span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span>' : '<span class="soluk"> · karışık sorular</span>') + '</div>' +
       '<div class="tu-sag"><span class="soluk kucuk">' + (AYAR.sureSiniri ? "Kalan süre" : "Süre") + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
       '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
@@ -548,10 +661,16 @@ var App = (function () {
       if (c === undefined) { b++; return; }
       if (c === q.dogru) {
         d++;
-        if (yanlis[id]) { yanlis[id].seri++; if (yanlis[id].seri >= 2) delete yanlis[id]; }
+        if (yanlis[id]) {
+          yanlis[id].seri++;
+          yanlis[id].ts = Date.now();
+          if (yanlis[id].seri >= 2) delete yanlis[id];
+        }
       } else {
         y++;
-        yanlis[id] = { ts: Date.now(), ders: S.ders, konu: S.konu, seri: 0, tekrar: yanlis[id] ? yanlis[id].tekrar + 1 : 0 };
+        var eski = yanlis[id];
+        yanlis[id] = { ts: Date.now(), ders: S.ders || (eski && eski.ders) || null, konu: soruKonusu(id),
+          seri: 0, tekrar: eski ? eski.tekrar + 1 : 0 };
       }
     });
     var n = S.sorular.length;
@@ -565,12 +684,28 @@ var App = (function () {
     Store.set("gecmis", gecmis);
     Store.set("yanlis", yanlis);
 
+    // Görülen sorular (tekrar testi aynı soruyu iki kez sormasın diye)
+    var gorulen = Store.get("gorulen", {});
+    S.sorular.forEach(function (id) { gorulen[id] = kayit.ts; });
+    Store.set("gorulen", gorulen);
+
     var tum = Store.get("konuDurum", {});
-    var kd = tum[S.konu] || { k: {} };
-    if (!kd.islendi) kd.islendi = kayit.ts;
-    var onceki = kd.k[S.kademe] || { enIyi: 0, deneme: 0 };
-    kd.k[S.kademe] = { enIyi: Math.max(onceki.enIyi, kayit.oran), son: kayit.oran, deneme: onceki.deneme + 1, ts: kayit.ts };
-    tum[S.konu] = kd;
+    if (S.tur === "konu") {
+      var kd = tum[S.konu] || { k: {} };
+      if (!kd.islendi) kd.islendi = kayit.ts;
+      var onceki = kd.k[S.kademe] || { enIyi: 0, deneme: 0 };
+      kd.k[S.kademe] = { enIyi: Math.max(onceki.enIyi, kayit.oran), son: kayit.oran, deneme: onceki.deneme + 1, ts: kayit.ts };
+      tum[S.konu] = kd;
+    } else {
+      // Tekrar testi: içinde geçen konuların tekrar sayacı ilerler
+      var gecen = {};
+      S.sorular.forEach(function (id) { var k = soruKonusu(id); if (k) gecen[k] = 1; });
+      Object.keys(gecen).forEach(function (k) {
+        if (!tum[k]) return;
+        tum[k].tekrar = (tum[k].tekrar || 0) + 1;
+        tum[k].sonTekrar = kayit.ts;
+      });
+    }
     Store.set("konuDurum", tum);
 
     S = null;
@@ -582,7 +717,8 @@ var App = (function () {
     });
     Bulut.gonder("test", {
       ts: kayit.ts, tur: kayit.tur, ders: kayit.ders, konu: kayit.konu, kademe: kayit.kademe,
-      dersAd: kb.ders.ad, konuAd: kb.konu.ad, kademeAd: KADEMELER[kayit.kademe].ad,
+      dersAd: kb ? kb.ders.ad : "Karışık", konuAd: kb ? kb.konu.ad : "Yanlışlarını tekrar",
+      kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : "Tekrar",
       d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu,
       sureSoru: kayit.sureSoru, yanlislar: yanlislar
     }, "test-" + kayit.ts);
@@ -598,6 +734,7 @@ var App = (function () {
   }
   function sonucEkrani(kayit) {
     var kb = KONU[kayit.konu], n = kayit.sorular.length;
+    if (kayit.tur === "tekrar") return tekrarSonucu(kayit, n);
     var sinif = oranSinif(kayit.oran);
     var gecti = kayit.oran >= AYAR.gecmeEsigi;
     var sonrakiVar = kayit.kademe < 3 && kademeSorulari(kayit.konu, kayit.kademe + 1).length > 0;
@@ -621,6 +758,27 @@ var App = (function () {
       filtreBtn("yanlis", "Yanlışlar (" + kayit.y + ")", kayit.ts) +
       filtreBtn("bos", "Boşlar (" + kayit.b + ")", kayit.ts) + '</div>';
 
+    html += '<div id="inceleme">' + incelemeHTML(kayit) + '</div>';
+    render(html);
+  }
+  // Tekrar testinin sonucu: konu/kademe yoktur, sorular karışık gelir
+  function tekrarSonucu(kayit, n) {
+    var sinif = oranSinif(kayit.oran);
+    var mesaj = sinif === "iyi" ? "Eski konular akılda kalmış. Böyle devam."
+      : sinif === "orta" ? "Fena değil. Yanlışlarının çözümünü incele, bunlar birkaç gün sonra yine karşına çıkacak."
+      : "Unutmaya başladığın konular var. Aşağıdaki çözümleri dikkatle oku; bu sorular yeniden gelecek.";
+    if (kayit.sureDoldu) mesaj = "Süre doldu, test kendiliğinden bitti. " + mesaj;
+
+    var html = ustCubuk("Tekrar testi", "#/");
+    html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
+      '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
+      ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
+      ozetKutu(fmtSureYazi(kayit.sure), "süre") + '</div>' +
+      '<div class="sonuc-btn"><button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
+
+    html += '<div class="filtre">' + filtreBtn("hepsi", "Hepsi (" + n + ")", kayit.ts) +
+      filtreBtn("yanlis", "Yanlışlar (" + kayit.y + ")", kayit.ts) +
+      filtreBtn("bos", "Boşlar (" + kayit.b + ")", kayit.ts) + '</div>';
     html += '<div id="inceleme">' + incelemeHTML(kayit) + '</div>';
     render(html);
   }
@@ -871,7 +1029,7 @@ var App = (function () {
     isaretle: isaretle, bitir: bitir, bitirOnay: bitirOnay, filtrele: filtrele,
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
-    raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
+    tekrarBaslat: tekrarBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
     bicim: bicim, ikon: ikon
   };
 })();
