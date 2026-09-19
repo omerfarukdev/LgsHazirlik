@@ -436,7 +436,9 @@ var App = (function () {
         var durum = konuDurum(konu.id);
         var hazir = bank(konu.id).length > 0;
         html += '<div class="konu-kart' + (hazir ? "" : " pasif") + '">' +
-          '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cip">' + esc(konu.ay) + '</span></div>';
+          '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cipler">' +
+          (konu.lgs ? '<span class="cip lgs-cip" title="Bu konudan LGS\'de yıllara göre gelen soru sayısı">LGS\'de ' + esc(konu.lgs) + ' soru</span>' : "") +
+          '<span class="cip">' + esc(konu.ay) + '</span></span></div>';
         if (!hazir) {
           html += '<div class="soluk kucuk">Sorular hazırlanıyor</div>';
         } else if (konu.rutin) {

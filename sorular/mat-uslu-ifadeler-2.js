@@ -7,7 +7,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "M.8.1.2.5",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir uzay aracına Dünya'daki denetim merkezinden komut gönderilir. Araç komutu alır almaz Dünya'ya bir yanıt sinyali yollar. Komutun gidişi ile yanıtın dönüşü için geçen sürelerin toplamına \"tur süresi\" denir. Aracın Dünya'ya uzaklığı ile sinyalin boşluktaki hızı aşağıda verilmiştir.\n**Buna göre bir komutun tur süresi kaç dakikadır?**",
+  soru: "Bir uzay ajansı, güneş sistemini incelemek için gönderdiği araçla radyo sinyalleri aracılığıyla haberleşmektedir. Dünya'daki denetim merkezi araca bir komut gönderir; araç komutu alır almaz merkeze bir yanıt sinyali yollar. Mühendisler, komutun gidişi ile yanıtın dönüşü için geçen sürelerin toplamına \"tur süresi\" demektedir. Güvenlik gereği, bir komutun tur süresi dolmadan yeni bir komut gönderilmemektedir. Aracın o andaki uzaklığı ile sinyalin boşluktaki hızı aşağıda verilmiştir.\n**Buna göre bir komutun tur süresi kaç dakikadır?**",
   gorsel: `<svg viewBox="0 0 540 190" role="img" aria-label="Dünya ile uzay aracı arasındaki uzaklık 450 000 000 km, sinyal hızı saniyede 300 000 km"><circle cx="70" cy="70" r="34" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2" fill="none"><rect x="424" y="50" width="48" height="40" rx="4"/><line x1="410" y1="58" x2="424" y2="70"/><line x1="410" y1="82" x2="424" y2="70"/><line x1="472" y1="70" x2="492" y2="70"/></g><g stroke="var(--vurgu)" stroke-width="2"><line x1="110" y1="132" x2="430" y2="132"/><line x1="110" y1="124" x2="110" y2="140"/><line x1="430" y1="124" x2="430" y2="140"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="70" y="128">Dünya</text><text x="448" y="112">Uzay aracı</text><text x="270" y="158">450 000 000 km</text><text x="270" y="182">Sinyal hızı: saniyede 300 000 km</text></g></svg>`,
   secenekler: ["25", "50", "1500", "3000"],
   dogru: 1,
@@ -31,7 +31,7 @@ Cevap B.`
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir okulun bilişim kulübü, ders videolarını yedeklemek için yeni bir disk almıştır. Diskin kapasitesi ile bir videonun kapladığı yer aşağıdaki etikette verilmiştir. Bilgisayarlarda 1 TB = 2^{10} GB ve 1 GB = 2^{10} MB'tır.\n**Diske bu videolardan en fazla kaç tane sığar?**",
+  soru: "Bir okulun bilişim kulübü, öğretmenlerin çektiği ders videolarını yedeklemek için yeni bir disk almıştır. Kulüp üyeleri diskteki alanın tamamını bu videolar için kullanacak ve bütün videoları aynı boyutta kaydedecektir. Diskin kapasitesi ile bir videonun kapladığı yer, kutunun üzerindeki etikette yazmaktadır. Bilgisayarlarda büyüklükler 2'nin kuvvetleriyle ölçülür: 1 TB = 2^{10} GB ve 1 GB = 2^{10} MB'tır.\n**Buna göre diske bu videolardan en fazla kaç tane sığar?**",
   gorsel: `<svg viewBox="0 0 520 170" role="img" aria-label="Disk etiketi: kapasite 2 üssü 2 TB, bir ders videosu 2 üssü 9 MB"><rect x="20" y="20" width="480" height="130" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="20" y1="60" x2="500" y2="60" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="17"><text x="40" y="48" font-weight="bold">YEDEKLEME DİSKİ</text><text x="40" y="95">Kapasite: 2<tspan font-size="14" dy="-8">2</tspan><tspan dy="8"> TB</tspan></text><text x="40" y="132">Bir ders videosu: 2<tspan font-size="14" dy="-8">9</tspan><tspan dy="8"> MB</tspan></text></g><g stroke="var(--vurgu)" stroke-width="3" fill="none"><rect x="392" y="82" width="86" height="50" rx="6"/><circle cx="435" cy="107" r="13"/></g></svg>`,
   secenekler: ["2^{31}", "2^{22}", "2^{13}", "2^{3}"],
   dogru: 2,
@@ -54,7 +54,7 @@ Cevap C.`
   kazanim: "M.8.1.2.3",
   kademe: 3,
   zorluk: 3,
-  soru: "Kargo kuryesi Sinan, elektrikli motosikletiyle yaptığı dağıtımlarda gittiği yolu ekranından takip etmektedir. Sabah ve akşam turlarında gittiği yollar ekran görüntülerinde verilmiştir.\n**Sinan'ın gün boyunca gittiği toplam yolun kilometre cinsinden çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
+  soru: "Kargo kuryesi Sinan, elektrikli motosikletiyle her gün biri sabah biri akşam olmak üzere iki tur dağıtım yapmaktadır. Motosikletin ekranı, o turda gidilen yolu kilometre cinsinden ondalık gösterimle yazmakta ve her tur başında sıfırlanmaktadır. Sinan akşam eve dönünce iki turda gittiği yolları toplayıp günlük defterine yazmakta, sonra da bu sayıyı basamak değerlerine ayırarak yeniden denetlemektedir. Sinan'ın bugünkü iki turuna ait ekran görüntüleri aşağıda verilmiştir.\n**Buna göre Sinan'ın bugün gittiği toplam yolun kilometre cinsinden çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
   gorsel: `<svg viewBox="0 0 520 150" role="img" aria-label="İki ekran: sabah turu 16,4 km, akşam turu 25,95 km"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="20" y="20" width="220" height="110" rx="10"/><rect x="280" y="20" width="220" height="110" rx="10"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="130" y="52">SABAH TURU</text><text x="390" y="52">AKŞAM TURU</text></g><g fill="var(--vurgu)" font-size="30" text-anchor="middle" font-weight="bold"><text x="130" y="100">16,4 km</text><text x="390" y="100">25,95 km</text></g></svg>`,
   secenekler: [
     "4 · 10^{1} + 2 · 10^{0} + 3 · 10^{−1} + 5 · 10^{−2}",
@@ -82,7 +82,7 @@ Cevap A.`
   kazanim: "M.8.1.2.1",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir doğa kampında kurulan su deposunun vanası yavaş yavaş tıkanmaktadır. Vanadan bir saatte akan su miktarı, her saat başında bir önceki saatin yarısına düşmektedir. Sabah 08.00'den itibaren ölçülen değerlerin bir bölümü tabloda verilmiştir.\n**Buna göre saat 14.00'te vanadan bir saatte kaç litre su akar?**",
+  soru: "Bir doğa kampında kullanılan su deposunun vanası yavaş yavaş tıkanmaktadır. Kamp sorumlusu, vanadan bir saatte akan su miktarını her saat başında ölçmekte ve bir tabloya yazmaktadır. Ölçümler, akan su miktarının her saat başında bir önceki saatin yarısına düştüğünü göstermektedir. Sorumlu, vana tamir edilene kadar bu azalmanın aynı biçimde süreceğini düşünmektedir. Sabah 08.00'den itibaren alınan ölçümlerin bir bölümü tabloda verilmiştir.\n**Buna göre saat 14.00'te vanadan bir saatte kaç litre su akar?**",
   gorsel: `<table class="tablo"><tr><th>Saat</th><th>08.00</th><th>09.00</th><th>10.00</th></tr><tr><td>Akan su (litre/saat)</td><td>2<sup>3</sup> = 8</td><td>2<sup>2</sup> = 4</td><td>2<sup>1</sup> = 2</td></tr></table>`,
   secenekler: ["−8", "0", "[[1|8]]", "[[1|4]]"],
   dogru: 2,
@@ -106,7 +106,7 @@ Cevap C.`
   kazanim: "M.8.1.2.4",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir otomobil fabrikasının üretim panosu aşağıda verilmiştir. Fabrikanın yıllık üretim sayısı, günlük üretim ile yılda çalışılan gün sayısının çarpımına eşittir. Müdür bu yıllık üretim sayısını sunumunda farklı biçimlerde göstermek istemektedir.\n**Buna göre aşağıdakilerden hangisi fabrikanın yıllık üretim sayısına eşit __değildir__?**",
+  soru: "Bir otomobil fabrikası, yılın her çalışma gününde aynı sayıda araç üretmektedir. Fabrikanın üretim panosunda günlük üretim ile yılda çalışılan gün sayısı yazmaktadır; yıllık üretim sayısı bu iki değerin çarpımına eşittir. Fabrika müdürü, yıl sonu sunumunda bu yıllık üretim sayısını 10'un farklı kuvvetlerini kullanarak birkaç değişik biçimde göstermek istemektedir. Ancak hazırladığı dört ifadeden biri yanlış yazılmıştır. Panodaki değerler aşağıda verilmiştir.\n**Buna göre aşağıdakilerden hangisi fabrikanın yıllık üretim sayısına eşit __değildir__?**",
   gorsel: `<svg viewBox="0 0 520 160" role="img" aria-label="Üretim panosu: günlük üretim 2000 araç, yılda çalışılan gün 360"><rect x="20" y="18" width="480" height="124" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="260" y1="18" x2="260" y2="142" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="16" text-anchor="middle"><text x="140" y="52">Günlük üretim</text><text x="380" y="52">Yılda çalışılan gün</text></g><g fill="var(--vurgu)" font-size="32" font-weight="bold" text-anchor="middle"><text x="140" y="108">2 000</text><text x="380" y="108">360</text></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="140" y="132">araç</text><text x="380" y="132">gün</text></g></svg>`,
   secenekler: ["0,72 · 10^{6}", "72 · 10^{4}", "720 · 10^{3}", "7200 · 10^{3}"],
   dogru: 3,
@@ -129,7 +129,7 @@ Cevap D.`
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir spor bilimi laboratuvarında sporculara koşu bandı testi uygulanmaktadır. Teste bağlanan ölçüm cihazının özellikleri aşağıda verilmiştir. Cihaz, her ölçümü ayrı bir kayıt olarak belleğe yazmaktadır.\n**Buna göre bir testin verileri bellekte toplam kaç bayt yer kaplar?**",
+  soru: "Bir spor bilimi laboratuvarında sporculara koşu bandı testi uygulanmaktadır. Test boyunca sporcuya bağlanan ölçüm cihazı, kalp atışını eşit aralıklarla ölçmekte ve her ölçümü ayrı bir kayıt olarak belleğine yazmaktadır. Bir testin bütün kayıtları, test biter bitmez tek bir dosya hâlinde bilgisayara aktarılmaktadır. Cihazın özellikleri ile testin süresi tabloda verilmiştir.\n**Buna göre bir testin verileri bellekte toplam kaç bayt yer kaplar?**",
   gorsel: `<table class="tablo"><tr><th>Özellik</th><th>Değer</th></tr><tr><td>Bir kaydın büyüklüğü</td><td>2<sup>4</sup> bayt</td></tr><tr><td>Saniyedeki ölçüm sayısı</td><td>2<sup>3</sup> ölçüm</td></tr><tr><td>Test süresi</td><td>2<sup>6</sup> saniye</td></tr></table>`,
   secenekler: ["2^{72}", "2^{13}", "2^{10}", "2^{7}"],
   dogru: 1,
@@ -151,7 +151,7 @@ Cevap B.`
   kazanim: "M.8.1.2.5",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir bilim müzesinde \"Bir Damla Suda Neler Var?\" adlı sergi açılmıştır. Serginin girişindeki panoda, sergi için getirilen göl suyuyla ilgili bilgiler yazmaktadır. Ziyaretçilerden, akvaryumdaki suda toplam kaç plankton bulunduğunu tahmin etmeleri istenmektedir.\n**Buna göre akvaryumdaki toplam plankton sayısının bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  soru: "Bir bilim müzesinde \"Bir Damla Suda Neler Var?\" adlı sergi açılmıştır. Serginin ortasında, yakındaki bir gölden getirilen suyla doldurulmuş büyük bir akvaryum bulunmaktadır. Akvaryumdaki su, gölden alındığı gibi hiç süzülmeden kullanılmıştır. Serginin girişindeki panoda bu suyla ilgili bilgiler yazmakta ve ziyaretçilerden akvaryumdaki toplam plankton sayısını tahmin etmeleri istenmektedir.\n**Buna göre akvaryumdaki toplam plankton sayısının bilimsel gösterimi aşağıdakilerden hangisidir?**",
   gorsel: `<svg viewBox="0 0 520 165" role="img" aria-label="Sergi panosu: 1 mL göl suyunda 4 çarpı 10 üssü 5 plankton, akvaryumda 2 çarpı 10 üssü 4 mL su"><rect x="18" y="16" width="484" height="132" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="18" y1="56" x2="502" y2="56" stroke="currentColor" stroke-width="2"/><text x="260" y="44" fill="var(--vurgu)" font-size="18" font-weight="bold" text-anchor="middle">SERGİ PANOSU</text><g fill="currentColor" font-size="17"><text x="42" y="92">1 mL göl suyunda ortalama 4 · 10<tspan font-size="14" dy="-8">5</tspan><tspan dy="8"> plankton bulunur.</tspan></text><text x="42" y="128">Akvaryumdaki su miktarı 2 · 10<tspan font-size="14" dy="-8">4</tspan><tspan dy="8"> mL'dir.</tspan></text></g></svg>`,
   secenekler: ["8 · 10^{1}", "2 · 10^{9}", "6 · 10^{9}", "8 · 10^{9}"],
   dogru: 3,
@@ -175,7 +175,7 @@ Cevap D.`
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir tarım kooperatifinin deposundaki bir çuval tohum, her birine eşit miktar konulacak biçimde poşetlere bölünecektir. Bir poşete konulan tohum miktarı gram cinsinden 2'nin pozitif tam sayı kuvveti olacaktır. Kooperatifin uyacağı ölçüler tabloda verilmiştir.\n**Buna göre bir poşete konulacak tohum miktarı kaç farklı değer alabilir?**",
+  soru: "Bir tarım kooperatifi, deposundaki bir çuval buğday tohumunu üreticilere dağıtmak için poşetlere bölecektir. Bütün poşetlere eşit miktarda tohum konulacak ve çuvalda hiç tohum artmayacaktır. Kooperatifin kullandığı tartı yalnızca 2'nin kuvveti olan değerleri gösterdiğinden, bir poşete konulan tohum miktarı gram cinsinden 2'nin pozitif tam sayı kuvveti olmak zorundadır. Kooperatif ayrıca hem poşetlerin çok hafif kalmaması hem de yeterli sayıda üreticiye ulaşılması için iki alt sınır belirlemiştir. Çuvaldaki tohum miktarı ve bu sınırlar tabloda verilmiştir.\n**Buna göre bir poşete konulacak tohum miktarı kaç farklı değer alabilir?**",
   gorsel: `<table class="tablo"><tr><th>Bilgi</th><th>Değer</th></tr><tr><td>Çuvaldaki tohum miktarı</td><td>2<sup>12</sup> gram</td></tr><tr><td>Bir poşetteki tohum en az</td><td>2<sup>3</sup> gram</td></tr><tr><td>Poşet sayısı en az</td><td>2<sup>4</sup></td></tr></table>`,
   secenekler: ["4", "5", "6", "7"],
   dogru: 2,
@@ -188,8 +188,8 @@ Cevap D.`
   aciklama: `Aynı tabanlı üslü sayılarda bölme yapılırken üsler çıkarılır: a^{n} ÷ a^{m} = a^{n−m}. Ayrıca tabanları 1'den büyük ve eşit olan iki üslü sayıda üssü büyük olan sayı daha büyüktür.
 Adım 1: Bilinmeyeni adlandır. Bir poşetteki tohum 2^{k} gram olsun (k pozitif tam sayı).
 Adım 2: Poşet sayısını yaz: 2^{12} ÷ 2^{k} = 2^{12−k}.
-Adım 3: Birinci koşulu uygula. Poşetteki tohum en az 2^{3} gram olacak: 2^{k} ≥ 2^{3}, yani k ≥ 3.
-Adım 4: İkinci koşulu uygula. Poşet sayısı en az 2^{4} olacak: 2^{12−k} ≥ 2^{4}, yani 12 − k ≥ 4 ve buradan k ≤ 8.
+Adım 3: Birinci koşulu uygula. Poşetteki tohum en az 2^{3} gram olacağına göre 2^{k} sayısı 2^{3}'ten küçük olamaz; tabanlar aynı olduğu için k üssü de 3'ten küçük olamaz. En küçük k değeri 3'tür.
+Adım 4: İkinci koşulu uygula. Poşet sayısı en az 2^{4} olacağına göre 12 − k üssü 4'ten küçük olamaz. Buna göre k en fazla 8 olabilir.
 Adım 5: Uygun k değerlerini yaz: 3, 4, 5, 6, 7, 8. Toplam 6 farklı değer.
 Sağlama: k = 3 için poşet 8 gram ve poşet sayısı 2^{9} = 512; k = 8 için poşet 256 gram ve poşet sayısı 2^{4} = 16. İki uç da koşulları sağlıyor.
 Sık yapılan hata: "En az" sözünü sınırı dışlayacak biçimde okumak. "En az 2^{3} gram" demek, 2^{3} gramın da uygun olduğu anlamına gelir.
@@ -200,7 +200,7 @@ Cevap C.`
   kazanim: "M.8.1.2.1",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir okulun robotik kulübü, yarışmada çektiği kamera kaydını buluta yüklemek istemektedir. Kulüp üyeleri kaydı küçültmek için bir sıkıştırma programı kullanmaktadır. Program her çalıştırıldığında dosyanın boyutunu 2^{2} kat küçültmektedir. Dosya boyutu, bulutun izin verdiği sınıra inene kadar program yeniden çalıştırılacaktır.\n**Buna göre program en az kaç kez çalıştırılmalıdır?**",
+  soru: "Bir okulun robotik kulübü, katıldığı yarışmada çektiği kamera kaydını okulun bulut hesabına yüklemek istemektedir. Kaydın ilk boyutu bulutun izin verdiği sınırdan büyük olduğundan üyeler bir sıkıştırma programı kullanmaktadır. Program her çalıştırıldığında dosyanın boyutunu 2^{2} kat küçültmekte, elde edilen yeni dosya bir sonraki çalıştırmada yeniden sıkıştırılmaktadır. Her sıkıştırma görüntü kalitesini biraz düşürdüğü için üyeler programı gereğinden fazla çalıştırmak istememektedir. Dosya sınıra uyar uymaz yükleme yapılacaktır. Kaydın boyutu, sıkıştırma oranı ve bulutun sınırı görselde verilmiştir.\n**Buna göre program en az kaç kez çalıştırılmalıdır?**",
   gorsel: `<svg viewBox="0 0 520 160" role="img" aria-label="Kayıt boyutu 2 üssü 15 MB, her sıkıştırma 2 üssü 2 kat küçültür, bulut sınırı en fazla 2 üssü 5 MB"><rect x="18" y="16" width="484" height="128" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="17"><text x="42" y="52">Kamera kaydının boyutu: 2<tspan font-size="14" dy="-8">15</tspan><tspan dy="8"> MB</tspan></text><text x="42" y="90">Bir sıkıştırmanın küçültme oranı: 2<tspan font-size="14" dy="-8">2</tspan><tspan dy="8"> kat</tspan></text><text x="42" y="128">Bulutun izin verdiği boyut: en fazla 2<tspan font-size="14" dy="-8">5</tspan><tspan dy="8"> MB</tspan></text></g><g stroke="var(--vurgu)" stroke-width="3" fill="none"><path d="M430 106 q0 -22 20 -22 q4 -18 22 -18 q20 0 22 20 q14 2 14 16 q0 14 -16 14 h-48 q-14 0 -14 -10 z"/></g></svg>`,
   secenekler: ["4", "5", "6", "10"],
   dogru: 1,

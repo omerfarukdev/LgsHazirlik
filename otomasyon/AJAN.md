@@ -59,9 +59,31 @@ Object.keys(h.konu||{}).forEach(function(ders){
 });"
 ```
 
-### Öncelik sırası
+### Öncelik ve derinlik: müfredat değil, SINAV belirler
 
-Eksik konu birden fazlaysa **katsayısı yüksek ders önce gelir**: Türkçe, Matematik, Fen (katsayı 4) → İnkılap, Din, İngilizce (katsayı 1).
+Bu bir sınav hazırlığı. Okul takvimi **ne zaman** üretileceğini söyler; **ne kadar derin** üretileceğini ise LGS'deki soru ağırlığı söyler.
+
+`js/konular.js` içinde her konunun `lgs` alanı vardır: o konudan LGS'de yıllara göre gelen soru sayısı (kaynak: `planlama/arastirma-lgs-zorluk-profili.md` bölüm 2, 2018-2026 çıkmış soru dağılımı).
+
+| `lgs` değeri | Hedef soru sayısı | Örnek |
+|---|---|---|
+| 3 ve üstü | 3 kademe × 12 + havuz 24 = **60** | Kareköklü İfadeler, Doğrusal Denklemler, Madde ve Endüstri üniteleri |
+| 2 | 3 kademe × 12 + havuz 12 = **48** | Üslü İfadeler, Eşitsizlikler, Basit Makineler |
+| 1 | 3 kademe × 10 + havuz 8 = **38** | Çarpanlar ve Katlar, Dönüşüm Geometrisi |
+| 0-1 | 2 kademe × 10 + havuz 6 = **26** | Fiilimsiler, Söz Sanatları, İnkılap 5-6-7 |
+| 6-11 (paragraf) | Sınırsız; Kural 1 geçerli | Paragrafta Anlam |
+
+Eksik konu birden fazlaysa sıra şu: **önce katsayısı 4 olan dersler** (Türkçe, Matematik, Fen), sonra katsayısı 1 olanlar (İnkılap, Din, İngilizce). Eşitlikte `lgs` değeri yüksek olan öne geçer.
+
+**Fiilimsiler okulda üç hafta işlenir ama LGS'de bazı yıllar hiç çıkmaz; Madde ve Endüstri 5 soru getirir.** Emeği buna göre dağıt. Az soru gelen konuyu da yaz — okul sınavları için gerekli — ama derinleşme orada değil, ağırlığı yüksek konularda olsun.
+
+### Sınavın kendi soru tipi
+
+Üretirken müfredat kazanımını değil, **LGS'nin o dersteki soru biçimini** taklit et (`planlama/arastirma-lgs-zorluk-profili.md` bölüm 3):
+- Matematik'te öncüllü soru yok, senaryolu ve görselli soru çok.
+- Fen'de soruların yarısı I-II-III öncüllü, deney düzeneği yorumu ağırlıkta, sayısal hesap yok denecek kadar az.
+- Türkçe'de dil bilgisi terim ezberiyle değil, numaralı cümleli metin içinde sorulur.
+- İnkılap ve Din'de kısa kaynak metin + çıkarım; ezber tarih sorusu nadir.
 
 ### Takvim kayabilir
 
