@@ -257,6 +257,26 @@ var App = (function () {
     var m = s >= 5 && s < 12 ? "Günaydın" : s >= 12 && s < 18 ? "İyi günler" : s >= 18 && s < 23 ? "İyi akşamlar" : "İyi geceler";
     return m + (AYAR.ogrenciAdi ? ", " + esc(AYAR.ogrenciAdi) : "");
   }
+  // Sayaç: bankadaki toplam soru, çözülen soru ve toplam net.
+  // Yıl boyu birikerek büyür; sınav gününe kadar ne kadar yol alındığını gösterir.
+  function bankaToplam() {
+    var n = 0;
+    Object.keys(window.LGS_BANK || {}).forEach(function (k) { n += window.LGS_BANK[k].length; });
+    return n;
+  }
+  function sayacHTML(gecmis) {
+    var d = 0, y = 0;
+    gecmis.forEach(function (g) { d += g.d; y += g.y; });
+    var cozulen = d + y;
+    var net = d - y / 3;
+    return '<div class="sayac">' +
+      '<div class="sayac-satir"><span class="sy-deger">' + bankaToplam().toLocaleString("tr-TR") + '</span>' +
+      '<span class="sy-etiket">soru bankada</span></div>' +
+      '<div class="sayac-satir"><span class="sy-deger">' + cozulen.toLocaleString("tr-TR") + '</span>' +
+      '<span class="sy-etiket">soru çözüldü</span></div>' +
+      '<div class="sayac-satir"><span class="sy-deger">' + fmtNet(net) + '</span>' +
+      '<span class="sy-etiket">net <span class="sy-dy">' + d + ' D · ' + y + ' Y</span></span></div></div>';
+  }
   function genelIlerleme() {
     var t = 0, g = 0;
     DERSLER.forEach(function (d) { var il = dersIlerleme(d); t += il.toplam; g += il.gecilen; });
@@ -305,7 +325,9 @@ var App = (function () {
     // Kahraman alan: selam, günün sözü, sıradaki adım
     var html = '<section class="ufuk">' + ufukSVG(genel.oran) + '<div class="ufuk-ic">' +
       '<div class="ufuk-ust"><span class="ufuk-marka">LGS Hazırlık</span>' +
-      '<span class="ufuk-sayac">' + (gun === null ? "Hedef · " + esc(AYAR.sinavTahmini || "") : "<strong>" + gun + "</strong> gün kaldı") + '</span></div>' +
+      '<div class="ufuk-sag"><span class="ufuk-sayac">' +
+      (gun === null ? "Hedef · " + esc(AYAR.sinavTahmini || "") : "<strong>" + gun + "</strong> gün kaldı") + '</span>' +
+      sayacHTML(gecmis) + '</div></div>' +
       '<p class="ufuk-selam">' + selam() + '</p><h1 class="ufuk-soz">' + esc(soz) + '</h1>';
 
     var tekrarIds = aktif ? [] : tekrarSorulari(10);
@@ -400,6 +422,33 @@ var App = (function () {
   function seritOge(deger, etiket) {
     return '<div class="serit-oge"><span class="so-deger">' + deger + '</span><span class="so-etiket">' + etiket + '</span></div>';
   }
+  // ================= Haftalık takvim =================
+  // Okulun bu hafta hangi konuda olduğunu js/takvim.js'ten okur. Takvim MEB yıllık
+  // planından çıkarıldı ve ikincil kaynaktır: okuldan okula 1-3 hafta kayabilir.
+  function buHafta() {
+    var t = window.LGS_TAKVIM || [], simdi = Date.now();
+    for (var i = 0; i < t.length; i++) {
+      if (new Date(t[i].bit + "T23:59:59").getTime() >= simdi) return t[i];
+    }
+    return null;
+  }
+  // Bir dersin bu haftadan itibaren sırayla işleyeceği konular (tekrarsız)
+  function takvimSirasi(dersId) {
+    var h = buHafta();
+    if (!h) return [];
+    var sira = [], gorulen = {};
+    (window.LGS_TAKVIM || []).forEach(function (x) {
+      if (x.no < h.no || x.tatil) return;
+      var k = x.konu && x.konu[dersId];
+      if (k && !gorulen[k]) { gorulen[k] = 1; sira.push(k); }
+    });
+    return sira;
+  }
+  function okuldaBuHafta(dersId) {
+    var h = buHafta();
+    return (h && h.konu && h.konu[dersId]) || null;
+  }
+
   // Soruları hazır konular arasında, açık olup henüz geçilmemiş ilk kademe
   function siradakiTest() {
     for (var i = 0; i < DERSLER.length; i++) {
@@ -435,7 +484,9 @@ var App = (function () {
       u.konular.forEach(function (konu) {
         var durum = konuDurum(konu.id);
         var hazir = bank(konu.id).length > 0;
-        html += '<div class="konu-kart' + (hazir ? "" : " pasif") + '">' +
+        var simdiki = okuldaBuHafta(d.id) === konu.id;
+        html += '<div class="konu-kart' + (hazir ? "" : " pasif") + (simdiki ? " simdiki" : "") + '">' +
+          (simdiki ? '<div class="simdiki-etiket">Okulda bu hafta</div>' : "") +
           '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cipler">' +
           (konu.lgs ? '<span class="cip lgs-cip" title="Bu konudan LGS\'de yıllara göre gelen soru sayısı">LGS\'de ' + esc(konu.lgs) + ' soru</span>' : "") +
           '<span class="cip">' + esc(konu.ay) + '</span></span></div>';
