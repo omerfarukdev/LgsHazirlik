@@ -1,0 +1,48 @@
+fen-dn-101 | F.8.2.1.1 | z1 | k1 | Fen laboratuvarında öğretmen, DNA'nın yapı birimi olan nükleotidin bölümlerini tahtaya çizip numaralandırmıştır. Buna göre şekild… | ✓Fosfat – Deoksiriboz şekeri – Organik baz
+fen-dn-102 | F.8.2.1.1 | z1 | k1 | Bir öğrenci defterine nükleotid, gen, DNA ve kromozom kavramlarını yazmıştır. Buna göre bu kavramların büyükten küçüğe doğru sıra… | ✓Kromozom – DNA – Gen – Nükleotid
+fen-dn-103 | F.8.2.1.2 | z1 | k1 | Görselde bir öğrencinin yaptığı DNA modelinin bir bölümü verilmiştir. Modelde karşılıklı gelen organik bazlar birbirine bağlanmış… | ✓X: T, Y: G
+fen-dn-104 | F.8.2.1.1 | z1 | k1 | Ayça'nın gamzeleri annesinin gamzelerine çok benzemektedir. Öğretmeni, gamze gibi her bir özelliğin ortaya çıkmasını DNA üzerinde… | ✓Gen
+fen-dn-105 | F.8.2.1.3 | z1 | k1 | Görselde bir DNA molekülünün kendini eşlerken geçirdiği ilk aşama gösterilmiştir. Buna göre bu aşamada gerçekleşen olay aşağıdaki… | ✓DNA'nın iki zinciri karşılıklı bazlarından a…
+fen-dn-106 | F.8.2.1.2 | z1 | k1 | Sude, DNA'nın yapısını sınıfta göstermek için karton ve iplerden bir model yapacaktır. Buna göre Sude'nin yapacağı model aşağıdak… | ✓İki zincirin birbirine sarıldığı sarmal biçi…
+fen-dn-107 | F.8.2.1.1 | z2 | k1 | Fen laboratuvarında öğretmen, nükleotid, gen, DNA ve kromozom arasındaki ilişkiyi görseldeki gibi iç içe kutularla göstermiştir. … | ✓I ve II
+fen-dn-108 | F.8.2.1.2 | z2 | k1 | Merve, DNA modelini iki uzun iple ve boncuklarla yapmıştır. Modelde ipler merdivenin kenarlarını, karşılıklı bağlanan boncuk çift… | ✓I ve II
+fen-dn-109 | F.8.2.1.3 | z2 | k1 | Zeynep'in kedisi Pamuk'un pençesindeki küçük yara birkaç günde kapanmıştır. Öğretmeni, yaranın kapanmasını sağlayan yeni hücreler… | ✓Yeni oluşan hücrelerin kalıtsal bilgisi ana …
+fen-dn-110 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, evinde ve çevresinde gördüğü canlıların vücut hücrelerindeki kromozom sayılarını araştırıp tabloya yazmıştır. I. Kro… | ✓Yalnız II
+fen-dn-111 | F.8.2.1.1 | z2 | k1 | Öğrenciler fen laboratuvarında mikroskopta soğan kökü hücrelerini incelemiş, bölünmekte olan bir hücrede koyu renkli, çubuk biçim… | ✓Kromozom — DNA ve proteinlerden oluşur.
+fen-dn-112 | F.8.2.1.3 | z2 | k1 | Görselde bir DNA molekülünün kendini eşlemesi basitleştirilerek gösterilmiştir. Şemanın altındaki açıklamada hangi çizginin eski,… | ✓I ve II
+fen-dn-201 | F.8.2.1.1 | z2 | k2 | Elif'in saçları annesininki gibi kıvırcık, göz rengi ise babasınınki gibi kahverengidir. Öğretmeni, her özelliğin DNA üzerindeki … | ✓I ve II
+fen-dn-202 | F.8.2.1.2 | z2 | k2 | Görselde bir DNA molekülünün küçük bir bölümü sembollerle gösterilmiştir. ▲, ■, ● ve ★ sembolleri dört farklı organik bazı temsil… | ✓■ ile ● karşılıklı olarak birbirine bağlanır.
+fen-dn-203 | F.8.2.1.3 | z2 | k2 | Fen kulübünde öğrenciler, DNA'nın kendini eşlemesini fermuarlarla canlandırmıştır. Fermuarın iki yarısı DNA'nın iki zincirini, di… | ✓I ve II
+fen-dn-204 | F.8.2.1.1 | z2 | k2 | Ali, aile albümüne bakarken burnunun dedesininkine çok benzediğini fark etmiştir. Öğretmeni, canlıların özelliklerinin DNA üzerin… | ✓II ve III
+fen-dn-205 | F.8.2.1.2 | z2 | k2 | Model yapma etkinliğinde iki öğrenci DNA modeli hazırlamıştır. Modellerde karşılıklı gelen organik bazlar görselde verilmiştir. Ö… | ✓I. model; karşılıklı bazlar A ile T, G ile C…
+fen-dn-206 | F.8.2.1.3 | z2 | k2 | Bir veteriner, ayağı kırılan köpek Karabaş'ın kemiğinin iyileşmesi için vücudunda yeni hücreler üretilmesi gerektiğini söylemişti… | ✓I, II ve III
+fen-dn-207 | F.8.2.1.2 | z3 | k2 | Bir öğrenci grubu, DNA'nın beş basamaklı bir bölümünü kartona çizip karşılıklı bazları yazmış, sonra bazı bazların üzerini kapata… | ✓4. basamaktaki üst baz C'dir.
+fen-dn-208 | F.8.2.1.1 | z3 | k2 | Bir öğrenci mikroskopta bölünmekte olan bir hücreyi incelemiş, gördüğü yapıları öğretmeninin yardımıyla şemalaştırmıştır. Şemada … | ✓I ve II
+fen-dn-209 | F.8.2.1.3 | z3 | k2 | Bir öğrenci, aynı bitkiden alınan iki hücreyi mikroskopta izlemiştir. Görselde gösterildiği gibi K hücresindeki DNA bölünmeden ön… | ✓I ve II
+fen-dn-210 | F.8.2.1.2 | z3 | k2 | Model yapma etkinliğinde dört öğrenci birer DNA modeli hazırlamış ve modellerinin özelliklerini tabloya yazmıştır. Öğretmen, DNA'… | ✓Ada'nın modeli uygundur; Bora'nın modelinde …
+fen-dn-211 | F.8.2.1.1 | z3 | k2 | Bir öğrenci, sınıftaki menekşenin kökünden ve yaprağından aldığı örnekleri mikroskopta incelemiştir. Öğretmeni, bu iki bölgedeki … | ✓I ve II
+fen-dn-212 | F.8.2.1.3 | z3 | k2 | Bir öğrenci, DNA'nın kendini eşlemesini anlatan bir şema çizmiştir. Şemada eşlenmeden önceki DNA ile eşlenme sonunda oluştuğunu d… | ✓Oluşan DNA'lardan birinin iki zinciri de yen…
+fen-dn-301 | F.8.2.1.1 | z3 | k3 | Bir dağ kazasında kaybolan kişinin kimliğinin belirlenmesi için adli tıp laboratuvarına üç örnek gönderilmiştir. Örneklerin alınd… | ✓I ve III
+fen-dn-302 | F.8.2.1.2 | z3 | k3 | 1953 yılında iki araştırmacı, X ışınlarıyla elde edilmiş bir DNA görüntüsünden ve bazların eşleşme kuralından yararlanarak DNA'nı… | ✓I ve II
+fen-dn-303 | F.8.2.1.1 | z3 | k3 | Bir tarımsal araştırma enstitüsünde, kurağa dayanıklı buğday çeşitlerini ayırt edebilmek için buğday hücreleri büyükten küçüğe do… | ✓K: Kromozom — L: DNA — M: Gen — N: Nükleotid
+fen-dn-304 | F.8.2.1.3 | z3 | k3 | Bir tohum ıslah merkezinde çimlendirilen buğday tohumunda hücreler bölünerek çoğalmaktadır. Aşağıdaki şemada, bölünmeden önce bir… | ✓Her birinde bir eski, bir yeni zincir bulunm…
+fen-dn-305 | F.8.2.1.2 | z3 | k3 | Bir müzenin bilim atölyesinde ziyaretçilere DNA maketi yaptırılmaktadır. Atölyede nükleotidin yapısındaki üç kısım için üç ayrı p… | ✓Nükleotidlerin adları, yapılarındaki kare pa…
+fen-dn-306 | F.8.2.1.1 | z3 | k3 | Bir adli tıp laboratuvarında, olay yerinde bulunan bir saç telinden elde edilen DNA ile iki kişiden alınan DNA örnekleri karşılaş… | ✓Olay yerindeki DNA, baz dizilimi aynı olduğu…
+fen-dn-307 | F.8.2.1.3 | z3 | k3 | Bir üniversitenin genetik laboratuvarında, soğanın kök ucundan alınan hücreler bölünmeden önce incelenmiştir. İncelenen bir DNA m… | ✓II ve III
+fen-dn-308 | F.8.2.1.1 | z4 | k3 | Bir arkeoloji kazısında bulunan iki tohum kalıntısından (K ve L) az miktarda DNA elde edilmiştir. Yapılan incelemede K ve L'nin D… | ✓Yalnız II
+fen-dn-309 | F.8.2.1.1 | z4 | k3 | Bir tohum bankasında, aynı buğday çeşidine ait bir bitkinin yaprak, kök ve gövdesinden birer hücre örneği ile başka bir buğday çe… | ✓I ve II
+fen-dn-310 | F.8.2.1.3 | z4 | k3 | Bir ıslah merkezinde, kurağa dayanıklı bir buğday bitkisinin kök ucundaki bir hücre bölünerek iki yeni hücre oluşturmuştur. Araşt… | ✓Yeni kurulan zincirlerden birine kural dışı …
+fen-dn-311 | F.8.2.1.2 | z4 | k3 | Bir adli tıp uzmanı, ziyarete gelen öğrencilere iki ayrı kişiden alınan DNA'ları temsil eden K ve L maketlerini göstermiştir. Mak… | ✓I ve II
+fen-dn-312 | F.8.2.1.1 | z4 | k3 | 1869 yılında bir araştırmacı, hücrelerin çekirdeklerinden o güne kadar bilinmeyen, fosfor bakımından zengin bir madde ayırmayı ba… | ✓I ve II
+fen-dn-001 | F.8.2.1.1 | z1 | k0 | DNA'nın yapı birimi aşağıdakilerden hangisidir? | ✓Nükleotid
+fen-dn-002 | F.8.2.1.2 | z1 | k0 | Bir nükleotidin yapısında aşağıdakilerden hangisi bulunmaz? | ✓Protein
+fen-dn-003 | F.8.2.1.3 | z1 | k0 | DNA'nın kendini eşlemesiyle ilgili aşağıdakilerden hangisi doğrudur? | ✓İki zincirin birbirinden ayrılmasıyla başlar.
+fen-dn-004 | F.8.2.1.1 | z2 | k0 | Bir tohum bankasında saklanan buğday çeşitlerinin etiketlerinde "kurağa dayanıklılık geni", "başak uzunluğu geni" gibi ifadeler y… | ✓DNA üzerinde bir özelliği belirleyen anlamlı…
+fen-dn-005 | F.8.2.1.2 | z2 | k0 | Aşağıdaki şemada, bir hücrede DNA'nın kendini eşlemesinin bir bölümü gösterilmiştir. Eski zincirdeki bazlar harflerle, yeni kurul… | ✓1: A — 2: C — 3: T
+fen-dn-006 | F.8.2.1.1 | z2 | k0 | Bir müzede açılan sergide, hücre bölünmesi sırasında çekirdekte belirginleşen yapıların fotoğrafları yer almaktadır. Sergi metnin… | ✓Kromozom
+fen-dn-007 | F.8.2.1.3 | z2 | k0 | Aşağıdaki tabloda, DNA'nın kendini eşlemesi sırasında gerçekleşen üç olay karışık sırayla verilmiştir. Buna göre bu olayların ger… | ✓L – K – M
+fen-dn-008 | F.8.2.1.2 | z3 | k0 | 1950'li yıllarda X ışınları kullanılarak elde edilen bir DNA görüntüsünde, molekülün burgu biçiminde olduğunu gösteren bir desen … | ✓I ve II
+fen-dn-009 | F.8.2.1.1 | z3 | k0 | Bir mağarada yapılan kazıda bulunan kemik parçasından (K) az miktarda DNA elde edilmiştir. Araştırmacılar, K'nin baz diziliminin … | ✓I ve II
+fen-dn-010 | F.8.2.1.2 | z3 | k0 | Bir bilim merkezinde DNA'nın kendini eşlemesi büyük bir maketle canlandırılmaktadır. Gösteride, eşlenme sırasında bir bazın karşı… | ✓Eşlenme sırasında hiçbir zaman hata oluşmaz.
+fen-dn-011 | F.8.2.1.1 | z4 | k0 | Bir adli tıp laboratuvarına K, L ve M olarak adlandırılan üç DNA örneği gelmiştir. Üç örnekte de aynı bölge incelenmiş ve karşıla… | ✓II ve III
+fen-dn-012 | F.8.2.1.1 | z4 | k0 | Bir ıslah merkezinde, X ve Y olarak adlandırılan iki buğday çeşidinin yaprak hücreleri incelenmiştir. İnceleme sonuçları tabloda … | ✓Yalnız I

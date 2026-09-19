@@ -1,0 +1,38 @@
+ing-u1-101 | E8.1.R1 | z1 | k1 | Yağmur and her best friend Ceren are in City Park. Which sentence describes the picture? | ✓They go for a walk in the park.
+ing-u1-102 | E8.1.SI1 | z1 | k1 | Berk: Would you like to come over on Saturday? We can play my new board game. Selin: - - - - I love board games! Which completes … | ✓Sure, that sounds fun!
+ing-u1-103 | E8.1.R1 | z1 | k1 | Emre always helps me when I have a problem. I can - - - - him. Which completes the sentence? | ✓count on
+ing-u1-104 | E8.1.SI1 | z1 | k1 | Merve: Would you like to come to my birthday party on Sunday? Can: I'm sorry, but I can't. I'm visiting my grandmother that day. … | ✓That's okay. Maybe next time.
+ing-u1-105 | E8.1.R2 | z1 | k1 | Ozan sends this message to his classmate Kerem. What is Ozan doing in his message? | ✓Making an invitation
+ing-u1-106 | E8.1.SI1 | z2 | k1 | Hazal: How about going to the cinema this Saturday? Efe: - - - - I have to study for the science exam. Hazal: No problem. Let's g… | ✓I'm sorry, but I can't.
+ing-u1-107 | E8.1.R2 | z2 | k1 | Elif and Deniz are making a plan on their phones. When will Elif and Deniz meet? | ✓On Sunday at 11.00
+ing-u1-108 | E8.1.R1 | z2 | k1 | Seda is drawing a visual dictionary for her English notebook. Which phrase goes with picture 2? | ✓share her lunch
+ing-u1-109 | E8.1.SI1 | z2 | k1 | Kaan: - - - - Bora: No, not at all. Why? Kaan: My cousin gave me two tickets for the basketball match. Would you like to come wit… | ✓Are you busy tomorrow evening?
+ing-u1-110 | E8.1.R1 | z2 | k1 | Sena: Your new classmate Mert is very quiet. Do you get on well with him? Tuna: Yes, we do. He is a bit shy, but he is very laid-… | ✓calm and relaxed
+ing-u1-201 | E8.1.SP1 | z2 | k2 | Eren: Would you like to come to the school concert on Friday evening? İpek: I'm sorry, but I can't. - - - - Eren: That's a pity. … | ✓My sister's birthday party is that evening.
+ing-u1-202 | E8.1.R2 | z2 | k2 | Yusuf writes to his classmate Arda after school. Why does Yusuf send these messages? | ✓To ask Arda for help with maths exercises
+ing-u1-203 | E8.1.SI1 | z2 | k2 | Zeynep: Would you like some more cake, Beren? Beren: - - - - I ate two big slices. Zeynep: Okay. Would you like some fruit juice,… | ✓No, thanks. I'm full.
+ing-u1-204 | E8.1.R1 | z2 | k2 | Kuzey and Ada are classmates. Ada is not happy about her science test. What does Kuzey do for Ada? | ✓He supports his sad friend.
+ing-u1-205 | E8.1.SI1 | z2 | k2 | Bade: You are twenty minutes late, Tolga. We missed the beginning of the film. Tolga: - - - - The bus broke down on the way. Bade… | ✓I'm really sorry about that.
+ing-u1-206 | E8.1.R2 | z3 | k2 | Four classmates are writing in their group chat. When can all four friends have the picnic together? | ✓On Saturday afternoon
+ing-u1-207 | E8.1.SP1 | z3 | k2 | Sinem: Hi Ece! Would you like to watch our handball matches on Sunday? My team plays at ten. Ece: I'd love to, but I can't come i… | ✓My swimming course starts at ten on Sundays.
+ing-u1-208 | E8.1.R2 | z3 | k2 | Nehir and Poyraz are writing to each other after school. According to the messages, which one is NOT true? | ✓Nehir will make a pizza for Poyraz.
+ing-u1-209 | E8.1.R1 | z3 | k2 | Alp: You look upset, Umut. What's wrong? Umut: I told Toprak my secret, and now the whole class knows it. I thought he was a true… | ✓Then you can't count on him any more.
+ing-u1-210 | E8.1.R2 | z3 | k2 | Duru is looking at the new messages on her phone. Which friend invites Duru, and which friend thanks her? | ✓Sarp – Naz
+ing-u1-301 | E8.1.R2 | z3 | k3 | Melis gives this invitation card to her classmates. According to the card, which one is NOT true? | ✓The party will be two hours long.
+ing-u1-302 | E8.1.SI1 | z3 | k3 | Ceren's plans for this week are in the table below. Efe: Hi Ceren! Would you like to come to the science museum with me on Friday… | ✓I'm sorry, but I can't. I will visit my gran…
+ing-u1-303 | E8.1.R1 | z3 | k3 | The 30 students of class 8/B answered a questionnaire about friendship. The results are in the table below. According to the resu… | ✓Eleven students chose having fun or helping …
+ing-u1-304 | E8.1.R1 | z3 | k3 | Kaan: My best friend Tuna is very laid-back. He never gets angry when I am late, and he always keeps my secrets. Selin: I can cou… | ✓Tuna is patient and Derya is helpful.
+ing-u1-305 | E8.1.R2 | z3 | k3 | From: Melis · To: Ada · Subject: My birthday picnic Hi Ada, I am going to have a picnic for my birthday on Sunday at 12 o'clock a… | ✓I'm sorry, but I can't come because I have a…
+ing-u1-306 | E8.1.R1 | z3 | k3 | Four students answered the same three questions in a class activity. Their answers are in the table below. According to the table… | ✓Cem and Defne both share their lunch with fr…
+ing-u1-307 | E8.1.R2 | z4 | k3 | Emir writes this note to Sena: "Hi Sena! Would you like to come to a basketball game with me? There are three games at the sports… | ✓On Wednesday
+ing-u1-308 | E8.1.R1 | z4 | k3 | Berk: For me, a true friend is someone who tells me the truth. I don't like people who say nice things all the time. My friend Um… | ✓A good friend should be honest with us.
+ing-u1-309 | E8.1.R1 | z4 | k3 | Mr. Emre is making a poster about healthy friendships. He is looking for a student who meets his or her best friend at least thre… | ✓Duru
+ing-u1-310 | E8.1.R2 | z4 | k3 | Nehir sends this invitation card to her three friends. Their answers: Ada: "Sure, that sounds fun! See you on Saturday." Boran: "… | ✓Ada and Ceyda will both be at the party at 1…
+ing-u1-001 | E8.1.R2 | z1 | k0 | Doruk gives this card to his classmates. According to the card, where is Doruk's party? | ✓At a café
+ing-u1-002 | E8.1.SI1 | z1 | k0 | Aylin: Would you like to come over this evening? Poyraz: - - - - I have to look after my little brother. Aylin: No problem. Maybe… | ✓I'm sorry, but I can't.
+ing-u1-003 | E8.1.R1 | z2 | k0 | The 28 students of class 8/A answered a questionnaire. The results are in the table below. According to the table, which one is t… | ✓Texting is the most popular way in the class.
+ing-u1-004 | E8.1.R1 | z2 | k0 | Ece: I don't like noisy places. I usually go for a walk with my friend Nil after school. Tarık: My friend Ali and I love football… | ✓Ece and Tarık spend time with their friends …
+ing-u1-005 | E8.1.R2 | z2 | k0 | The programme of Friendship Week at school is in the table below. Emir is free only on Tuesday afternoon. According to the progra… | ✓The photo exhibition
+ing-u1-006 | E8.1.R1 | z3 | k0 | A magazine asked 100 students a question. The answers are in the table below. According to the results, which one is NOT true? | ✓Telling at school is more popular than sendi…
+ing-u1-007 | E8.1.SI1 | z3 | k0 | Mert wants to join the tournament in the poster with a friend. His friend Ozan will be in Ankara on that day, so Mert talks to Ka… | ✓No, not at all. Why?
+ing-u1-008 | E8.1.R2 | z4 | k0 | The daily programme of a summer camp is in the table below. Selin and her best friend Irmak want to do one activity together. Sel… | ✓The board games

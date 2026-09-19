@@ -1,0 +1,48 @@
+tur-fi-101 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hepsinde "yoğurmak" fiilinden türemiş bir sözcük vardır. Bu cümlelerin hangisinde söz konusu sözcük, işin ad… | ✓Mutfakta hamur yoğurmak beni çok dinlendiriy…
+tur-fi-102 | T.8.3.9 | z1 | k1 | (I) Yeni defter almak için kırtasiyeye uğradık. (II) Raftaki kalemlerin hepsini tek tek denedim. (III) Kasada bekleyen müşteriler… | ✓III
+tur-fi-103 | T.8.3.9 | z1 | k1 | (I) Antrenör, bizden düzenli çalışmamızı istedi. (II) Sahaya ilk çıkan takım uzun uzun alkışlandı. (III) Bu maçta kazanma isteğim… | ✓IV
+tur-fi-104 | T.8.3.9 | z1 | k1 | (I) Sabaha karşı yağan kar, yolları bembeyaz yaptı. (II) Rüzgâr dinince hava biraz daha ısındı. (III) Bugün gökyüzü sabahtan beri… | ✓III
+tur-fi-105 | T.8.3.9 | z1 | k1 | Aşağıdaki seçeneklerin her birinde bir cümle ve o cümledeki fiilimsinin türü birlikte verilmiştir. Bu eşleştirmelerden hangisi ya… | ✓Sırasını bekleyen çocuklar içeri alındı. (za…
+tur-fi-106 | T.8.3.9 | z1 | k1 | Aşağıdaki tabloda bahçe işleriyle ilgili dört cümle verilmiştir. Cümlelerin her birinde bir fiilimsi vardır. Buna göre numaralanm… | ✓III
+tur-fi-107 | T.8.3.9 | z2 | k1 | Kek yapmanın en keyifli yanı, malzemeleri tek tek ölçmektir. Tarifte yazan sırayı bozmadan ilerlersen sonuç hep güzel olur. Unu e… | ✓7
+tur-fi-108 | T.8.3.9 | z2 | k1 | (I) Kardeşimin odasını toplamaması annemi çok üzdü. (II) Akşam yemeğine gelmeme sebebini kimse sormadı. (III) Bulaşıkları yıkamay… | ✓IV
+tur-fi-109 | T.8.3.9 | z2 | k1 | (I) Bu hafta sınıfça tiyatroya gideceğiz. (II) Yarın yapılacak sınav için herkes hazırlandı. (III) Öğretmenimiz haftaya anlatacak… | ✓I
+tur-fi-110 | T.8.3.9 | z2 | k1 | (I) Öğretmen sorulardan birini tahtaya yazıp açıkladı. (II) Deftere düzenli not alanlar konuyu daha iyi anlıyor. (III) Durmadan ç… | ✓IV
+tur-fi-111 | T.8.3.9 | z2 | k1 | Kütüphanede çalışmak bende ayrı bir huzur yaratıyor. Sessizlik insanın dikkatini topluyor, saatler çok çabuk geçiyor. Raflar aras… | ✓isim-fiil – zarf-fiil – sıfat-fiil
+tur-fi-112 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda Berk'in okul korosuyla ilgili kurduğu dört cümle verilmiştir. Cümlelerin her birinde bir fiilimsi vardır. Buna … | ✓I ve II
+tur-fi-201 | T.8.3.9 | z2 | k2 | (I) Sabah uyandığımda bütün camlar buğulanmıştı. (II) Yağmur başlamadan çamaşırları içeri aldık. (III) Islanan ayakkabılarımı kal… | ✓IV
+tur-fi-202 | T.8.3.9 | z2 | k2 | (I) Yarışmaya katılan öğrenciler sabah erkenden toplandı. (II) Anlamadığım soruyu öğretmenime tekrar sordum. (III) Ödevini erken … | ✓III
+tur-fi-203 | T.8.3.9 | z2 | k2 | (I) Fideleri dikerken eldiven takmayı unutmuşum. (II) Toprağı havalandırıp tohumları özenle yerleştirdik. (III) Güneş batmadan ba… | ✓I
+tur-fi-204 | T.8.3.9 | z2 | k2 | Aşağıdaki tabloda bir basketbol antrenmanıyla ilgili dört cümle verilmiştir. Buna göre numaralanmış cümlelerin hangisinde fiilims… | ✓II
+tur-fi-205 | T.8.3.9 | z2 | k2 | (I) Annemin akşama hazırladığı börek çok lezzetliydi. (II) Tencerenin kapağını kapatınca mutfak mis gibi koktu. (III) Sebzeleri d… | ✓III
+tur-fi-206 | T.8.3.9 | z2 | k2 | Kırtasiyeye girdiğimde ilk işim raflara bakmaktır. Yeni çıkan defterleri incelemek, kapak desenlerini karşılaştırmak hoşuma gider… | ✓3
+tur-fi-207 | T.8.3.9 | z3 | k2 | Deniz'in kış tatilinde tuttuğu günlükten bir cümle aşağıda verilmiştir. Cümledeki dört söz numaralandırılarak altı çizilmiştir. B… | ✓III
+tur-fi-208 | T.8.3.9 | z3 | k2 | Fiilimsiler, bir fiilden türediği hâlde cümlede ad, sıfat ya da zarf gibi kullanılan sözcüklerdir. Bir cümlede birden çok fiilims… | ✓Mutfağı toplarken radyoyu kapatmayı unuttum.
+tur-fi-209 | T.8.3.9 | z3 | k2 | Fiilimsi ekleriyle türeyen bazı sözcükler zamanla bir varlığın adı hâline gelmiştir. Bu sözcükler artık iş, oluş ya da hareket bi… | ✓Sıcaklar bastırınca dondurma satışları birde…
+tur-fi-210 | T.8.3.9 | z3 | k2 | Sena, okul kütüphanesinin tanıtım yazısındaki fiilimsileri türlerine göre saymış ve sonucu aşağıdaki tabloya yazmıştır. Ne var ki… | ✓3
+tur-fi-211 | T.8.3.9 | z3 | k2 | Aşağıda üç arkadaşın ders çalışma alışkanlıklarıyla ilgili sözleri verilmiştir. Ece: Müzik dinleyerek çalışmak dikkatimi dağıtıyo… | ✓Poyraz'ın cümlesindeki fiilimsi, 'parçalar' …
+tur-fi-212 | T.8.3.9 | z3 | k2 | Bir öğrencinin balkonundaki bitkiler için tuttuğu bahçe defterinden dört not aşağıdaki tabloda verilmiştir. Buna göre bu notların… | ✓20 Nisan
+tur-fi-301 | T.8.3.9 | z3 | k3 | Okulun gökyüzü kulübü, her yıl sonbaharda bir gözlemevi gezisi düzenler. Bu yılki gezi, ayın en karanlık gecesine denk geldi. Kul… | ✓I
+tur-fi-302 | T.8.3.9 | z3 | k3 | Bir gönüllü grubu, çöpe atılacak eski telefonlar için bir onarım atölyesi açtı. Grup, her cumartesi öğleden sonra bir okulun boş … | ✓Atölyeye gelen cihazların çoğu yalnızca küçü…
+tur-fi-303 | T.8.3.9 | z3 | k3 | Türkçe dersinde fiilimsi konusu işlendi. Öğretmen, tahtaya bir tren yolculuğuyla ilgili dört cümle yazdı ve sınıftan her cümledek… | ✓III
+tur-fi-304 | T.8.3.9 | z3 | k3 | Ayşe Teyze, köyündeki küçük serada yıl boyunca sebze yetiştiriyor. Sera, iki yıl önce ilçe tarım müdürlüğünün desteğiyle kuruldu.… | ✓Ayşe Teyze, fideleri dikerken eldiven takmay…
+tur-fi-305 | T.8.3.9 | z3 | k3 | Sekizinci sınıflar, şehirdeki bilim müzesini gezdi. Müzede uzay, fosiller ve basit deneyler için ayrı salonlar var. Öğrenciler he… | ✓I
+tur-fi-306 | T.8.3.9 | z3 | k3 | Fen kulübü, ilçedeki göl kıyısında iki günlük bir doğa gözlemi kampı düzenliyor. Programda kuş sayımı, bitki fotoğrafı ve gece gö… | ✓Ateşin çevresine dizilecek taşları sabahtan …
+tur-fi-307 | T.8.3.9 | z3 | k3 | Üniversitenin spor bilimi merkezi, uzun mesafe koşucularına ücretsiz ölçüm hizmeti veriyor. Merkeze her hafta yirmi kadar sporcu … | ✓III
+tur-fi-308 | T.8.3.9 | z4 | k3 | Türkiye'de her yıl yüz binlerce ton cam ambalaj çöpe gider. Oysa cam, sınırsız sayıda yeniden kullanıma uygun bir maddedir. Bu yü… | ✓5
+tur-fi-309 | T.8.3.9 | z4 | k3 | Bir gökbilim ekibi, arşivdeki eski fotoğraflar üzerinde yeniden çalıştı ve önemli bir sonuca ulaştı. Çalışmanın ayrıntıları geçen… | ✓I. cümledeki fiilimsi, bir varlığı nitelemek…
+tur-fi-310 | T.8.3.9 | z4 | k3 | Yarıyıl tatilinde akrabalarını ziyaret edecek olan bir grup öğrenci, sabah erkenden otogara geldi. Otogarın dijital panosunda her… | ✓Kastamonu seferlerinden biri iptal edilince …
+tur-fi-311 | T.8.3.9 | z4 | k3 | Türkçe dersinde fiilimsi konusu işlendikten sonra öğretmen kısa bir alıştırma dağıttı. Alıştırmada müze gezisiyle ilgili dört cüm… | ✓2
+tur-fi-312 | T.8.3.9 | z4 | k3 | Akıllı saatler, gün içindeki hareketleri ve uyku süresini kaydediyor. Bu veriler telefondaki uygulamaya aktarılır ve haftalık bir… | ✓I
+tur-fi-001 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde isim-fiil vardır? | ✓Gökyüzünü izlemek için balkona dürbün kurduk.
+tur-fi-002 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde fiilimsi yoktur? | ✓Gemi limandan tam saatinde ayrıldı.
+tur-fi-003 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde zarf-fiil vardır? | ✓Kaslarını iyice esnetmeden koşuya başlama.
+tur-fi-004 | T.8.3.9 | z2 | k0 | Şehir müzesinin yeni bölümü bu ay ziyarete açıldı. Aşağıda bu bölümle ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde sıf… | ✓Camekânda duran çini tabak iki yüz yıl önces…
+tur-fi-005 | T.8.3.9 | z2 | k0 | Aşağıda küçük bir ayakkabı atölyesiyle ilgili dört cümle verilmiştir. (I) Atölyede çalışan ustalar günde yüz çift ayakkabı dikiyo… | ✓I ve II
+tur-fi-006 | T.8.3.9 | z2 | k0 | Kuş gözlem kulübünün üyeleri, sabah çok erken kalkar. Aşağıdaki cümle Kerem'in böyle bir sabahını anlatmaktadır. Sabah erkenden k… | ✓4
+tur-fi-007 | T.8.3.9 | z2 | k0 | Ekim ayında zeytin hasadı başlıyor. Aşağıda bu hasatla ilgili dört cümle verilmiştir. Bu cümlelerin hangisindeki fiilimsi, tür ba… | ✓Ağaçların altına serilen filelere zeytinler …
+tur-fi-008 | T.8.3.9 | z3 | k0 | Aşağıda bir köydeki ekim hazırlıklarıyla ilgili dört cümle verilmiştir. Dört cümlede de "ekmek" sözcüğü geçmektedir. Buna göre, b… | ✓Kahvaltıda köy fırınından aldığımız ekmek ço…
+tur-fi-009 | T.8.3.9 | z3 | k0 | Tam güneş tutulması sırasında gökyüzü birkaç dakikalığına karardı. Aşağıda o günle ilgili dört cümle verilmiştir. Bu cümlelerin h… | ✓Gölge Dünya'ya ulaşınca ortalık birden karar…
+tur-fi-010 | T.8.3.9 | z3 | k0 | Aşağıda bir millî park kamp alanının girişine asılan levha verilmiştir. Buna göre, levhadaki maddelerin hangisinde sıfat-fiil kul… | ✓3. madde
+tur-fi-011 | T.8.3.9 | z4 | k0 | Bir okulun teknoloji atölyesinde üç boyutlu yazıcıyla parça üretiliyor. Aşağıda bu çalışmayla ilgili dört cümle verilmiştir. Buna… | ✓IV
+tur-fi-012 | T.8.3.9 | z4 | k0 | Bir spor bilimi merkezinde, ameliyat sonrası hastalar için su içinde egzersiz programları uygulanıyor. Aşağıda bu merkezle ilgili… | ✓Yüzmeyi yeni öğrenen çocuklar, sığ havuzda h…

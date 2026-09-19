@@ -202,6 +202,26 @@ konular.forEach(function (konuId) {
 });
 if (!kopyaBulundu) console.log("  ✅ Kopya veya aşırı benzer soru bulunamadı.");
 
+// 6) Endeks üretimi — yazar ajanlar tüm soru dosyalarını okumak yerine bu kompakt
+// envanteri okur ve daha önce ne yazıldığını görür. Banka büyüdükçe kavramsal
+// tekrarın önündeki tek pratik engel budur.
+if (hata === 0) {
+  var endeksDir = path.join(dir, "endeks");
+  if (!fs.existsSync(endeksDir)) fs.mkdirSync(endeksDir);
+  var kirp = function (s, n) {
+    s = String(s).replace(/<[^>]*>/g, " ").replace(/\*\*|__/g, "").replace(/\s+/g, " ").trim();
+    return s.length > n ? s.slice(0, n - 1) + "…" : s;
+  };
+  konular.forEach(function (konuId) {
+    var satirlar = window.LGS_BANK[konuId].map(function (q) {
+      return [q.id, q.kazanim, "z" + q.zorluk, "k" + q.kademe, kirp(q.soru, 130),
+        "✓" + kirp(q.secenekler[q.dogru], 45)].join(" | ");
+    });
+    fs.writeFileSync(path.join(endeksDir, konuId + ".txt"), satirlar.join("\n") + "\n", "utf8");
+  });
+  console.log("🗂️  Endeks güncellendi: sorular/endeks/ (" + konular.length + " konu dosyası)");
+}
+
 console.log("");
 if (hata > 0) {
   console.log("❌ " + hata + " hata" + (uyari > 0 ? ", " + uyari + " uyarı" : "") + " bulundu. Düzeltmeden yayımlama!");

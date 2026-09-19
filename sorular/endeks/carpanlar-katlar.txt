@@ -1,0 +1,48 @@
+mat-ck-101 | M.8.1.1.1 | z1 | k1 | 90 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓2 · 3^{2} · 5
+mat-ck-102 | M.8.1.1.1 | z1 | k1 | 28 sayısının pozitif tam sayı çarpanlarının sayısı kaçtır? | ✓6
+mat-ck-103 | M.8.1.1.2 | z1 | k1 | Aşağıdaki tabloda 20 ve 30 sayılarının pozitif tam sayı bölenleri verilmiştir. Buna göre EBOB(20, 30) kaçtır? | ✓10
+mat-ck-104 | M.8.1.1.2 | z1 | k1 | EKOK(8, 12) kaçtır? | ✓24
+mat-ck-105 | M.8.1.1.3 | z1 | k1 | Aşağıdaki sayı çiftlerinden hangisi aralarında asaldır? | ✓4 ve 15
+mat-ck-106 | M.8.1.1.1 | z1 | k1 | Aşağıda A sayısının çarpan ağacı verilmiştir. Ağaçta her sayı, altındaki iki sayının çarpımına eşittir. Buna göre A + B kaçtır? | ✓65
+mat-ck-107 | M.8.1.1.1 | z2 | k1 | Beden eğitimi dersinde 36 öğrenci, her sırada eşit sayıda öğrenci olacak şekilde sıralara dizilecektir. Hem sıra sayısı hem de bi… | ✓7
+mat-ck-108 | M.8.1.1.2 | z2 | k1 | Elif, uzunlukları 30 cm ve 42 cm olan iki kurdeleyi hiç artmayacak şekilde, birbirine eşit uzunlukta parçalara ayıracaktır. Parça… | ✓12
+mat-ck-109 | M.8.1.1.2 | z2 | k1 | Bir duraktan A hattının otobüsleri 12 dakikada bir, B hattının otobüsleri 18 dakikada bir kalkmaktadır. İki hattın otobüsleri saa… | ✓07.36
+mat-ck-110 | M.8.1.1.3 | z2 | k1 | Bir sınıf etkinliğinde masaya 1'den 12'ye kadar numaralanmış 12 kart dizilmiştir. Deniz, üzerindeki sayı 12 ile aralarında asal o… | ✓4
+mat-ck-111 | M.8.1.1.1 | z2 | k1 | Okul kantinine gelen 84 şişe su, her rafta eşit sayıda şişe olacak şekilde raflara dizilecektir. Kantin görevlisi, bir raftaki şi… | ✓12
+mat-ck-112 | M.8.1.1.2 | z2 | k1 | Bir ritim çalışmasında vuruşlar 1'den başlayarak sayılmaktadır. Davul, 4'ün katı olan vuruşlarda; zil, 6'nın katı olan vuruşlarda… | ✓4
+mat-ck-201 | M.8.1.1.1 | z2 | k2 | Aşağıda A sayısının asal çarpanlarına ayrılması gösterilmiştir. İşlemdeki iki sayının üzeri kapatılmıştır. Buna göre A sayısı kaç… | ✓150
+mat-ck-202 | M.8.1.1.1 | z2 | k2 | Bir marangoz, 72 cm uzunluğundaki tahta çıtayı hiç artmayacak şekilde eşit uzunlukta parçalara ayıracaktır. Çıta en az iki parçay… | ✓4
+mat-ck-203 | M.8.1.1.2 | z2 | k2 | Bir okulun satranç şenliğine 32 kız ve 48 erkek öğrenci katılmıştır. Öğrenciler; bütün gruplardaki kız sayıları birbirine eşit, e… | ✓5
+mat-ck-204 | M.8.1.1.2 | z2 | k2 | Yüzme kursuna giden Kerem 4 günde bir kulaç, 6 günde bir dalış antrenmanı yapmaktadır. Kerem bir pazartesi günü iki antrenmanı da… | ✓Cumartesi
+mat-ck-205 | M.8.1.1.2 | z2 | k2 | Bir okulun aile birliği, öğrencilere dağıtmak üzere defter ve kalem alacaktır. Defterler 6'lı, kalemler 8'li paketler hâlinde sat… | ✓7
+mat-ck-206 | M.8.1.1.3 | z2 | k2 | Bir okul sergisinde 40 fotoğraf, her satırda eşit sayıda fotoğraf olacak şekilde panoya asılmıştır. Satır sayısı ile bir satırdak… | ✓13
+mat-ck-207 | M.8.1.1.1 | z3 | k2 | Bir okul kütüphanesine bağışlanan 60 kitap, aşağıda gösterilen boş kitaplığa yerleştirilecektir. Kütüphane görevlisi Nermin Hanım… | ✓4
+mat-ck-208 | M.8.1.1.1 | z3 | k2 | Matematik dersinde "Sayıyı Bul" etkinliği yapılmaktadır. Öğretmen aklından iki basamaklı bir sayı tutmuş ve bu sayıyla ilgili üç … | ✓28
+mat-ck-209 | M.8.1.1.2 | z3 | k2 | Bir okulun dikdörtgen biçimindeki bahçesinin kenar uzunlukları görselde verilmiştir. Bahçenin uzun kenarlarından biri okul binası… | ✓18
+mat-ck-210 | M.8.1.1.2 | z3 | k2 | Bir okulun koridoruna süsleme amacıyla kırmızı ve mavi ışıklar asılmıştır. Her iki ışık da kendi içinde eşit aralıklarla yanıp sö… | ✓13
+mat-ck-211 | M.8.1.1.2 | z3 | k2 | Bir okul, 7 ve 8. sınıf öğrencileri için bilim merkezine gezi düzenlemektedir. Geziye katılacak öğrenci sayıları aşağıdaki tablod… | ✓38
+mat-ck-212 | M.8.1.1.3 | z3 | k2 | Bir okulun masa tenisi takımında her sporcunun bir forma numarası vardır. Antrenör, çiftler antrenmanı için ilginç bir kural koym… | ✓6
+mat-ck-301 | M.8.1.1.1 | z3 | k3 | Bir kargo firmasının teslimat dolaplarında her dolabın şifresi, dolap numarasından şu kuralla üretilmektedir: Dolap numarası asal… | ✓412
+mat-ck-302 | M.8.1.1.2 | z3 | k3 | Bir yer istasyonu, üzerinden geçen iki gözlem uydusunu izlemektedir. Uyduların istasyonun üzerinden art arda iki geçişi arasındak… | ✓75
+mat-ck-303 | M.8.1.1.2 | z3 | k3 | Bir pastanede bayram siparişleri için cevizli ve fıstıklı kurabiye üretilmiştir. Kurabiyelerin tamamı, her kutuda eşit sayıda ve … | ✓216
+mat-ck-304 | M.8.1.1.3 | z3 | k3 | Makinelerde birbirini döndüren iki dişli çarkın diş sayıları aralarında asal seçilirse her diş, karşı çarkın bütün dişleriyle sır… | ✓4
+mat-ck-305 | M.8.1.1.2 | z3 | k3 | Bir kodlama atölyesinde çizgi izleyen iki robot, aşağıda modellenen kapalı pistte test edilmektedir. Robotlar başlangıç çizgisind… | ✓42
+mat-ck-306 | M.8.1.1.1 | z3 | k3 | Bir okulun bilim şenliği için LED'li bir yazı panosu tasarlanmaktadır. Tasarımcının elinde 96 adet LED vardır ve LED'lerin tamamı… | ✓6
+mat-ck-307 | M.8.1.1.2 | z3 | k3 | Bir kargo aktarma merkezine gelen özdeş koliler, araçlara yüklenmeden önce üst üste istiflenmektedir. Merkezdeki sayaç arızalandı… | ✓4
+mat-ck-308 | M.8.1.1.2 | z4 | k3 | Bir belediye, gençlik festivali için dikdörtgen biçimindeki etkinlik alanının çevresine hoparlör direkleri diktirecektir. Alanın … | ✓48
+mat-ck-309 | M.8.1.1.2 | z4 | k3 | Bir robot atölyesinde iki uyarı robotu test edilmektedir. A robotu 36 saniyede bir, B robotu ise b saniyede bir ışığını yakmaktad… | ✓5
+mat-ck-310 | M.8.1.1.1 | z4 | k3 | Bir kodlama atölyesinde öğrenciler "Asal Avcısı" adlı bir oyun programlamıştır. Oyunun kuralları şöyledir: • Oyun, ekrana yazılan… | ✓768
+mat-ck-311 | M.8.1.1.2 | z4 | k3 | Bir serada iki damla sulama vanası zaman ayarlı çalışmaktadır. A vanası 45 dakikada bir, B vanası 60 dakikada bir açılmakta ve he… | ✓29
+mat-ck-312 | M.8.1.1.3 | z4 | k3 | Bir dosya indirme programı, indirme sürerken ilerlemeyi ekranda kesir olarak göstermektedir. Program, payı indirilen dosya sayısı… | ✓7
+mat-ck-001 | M.8.1.1.1 | z1 | k0 | 126 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓2 · 3^{2} · 7
+mat-ck-002 | M.8.1.1.3 | z1 | k0 | Aşağıdaki sayı çiftlerinden hangisi aralarında asaldır? | ✓8 ve 15
+mat-ck-003 | M.8.1.1.2 | z1 | k0 | 12 ile 18 sayılarının en küçük ortak katı (EKOK) kaçtır? | ✓36
+mat-ck-004 | M.8.1.1.2 | z2 | k0 | Bir robot atölyesindeki 96 kablo ve 72 sensörün tamamı, özdeş deney setlerine paylaştırılacaktır. Her sette eşit sayıda kablo ve … | ✓7
+mat-ck-005 | M.8.1.1.2 | z2 | k0 | Bir limanın girişindeki iki deniz fenerinden biri 45 saniyede bir, diğeri 60 saniyede bir ışık çakmaktadır. Bir gemi kaptanı, iki… | ✓3
+mat-ck-006 | M.8.1.1.1 | z2 | k0 | Aşağıdaki çarpan ağacında her kutudaki sayı, o kutunun altındaki iki kutuda yazan sayıların çarpımına eşittir. En alttaki kutular… | ✓245
+mat-ck-007 | M.8.1.1.3 | z2 | k0 | Mert, 20'den büyük ve 30'dan küçük doğal sayıların her birini ayrı bir karta yazmıştır. Ardından üzerinde 15 ile aralarında asal … | ✓5
+mat-ck-008 | M.8.1.1.2 | z3 | k0 | Veteriner hekim, Zeynep'in kedisi Pamuk için iki ayrı ilaç yazmıştır. İlaçların verilme sıklığı aşağıdaki tabloda gösterilmiştir.… | ✓Perşembe
+mat-ck-009 | M.8.1.1.1 | z3 | k0 | Bir simit fabrikasında sabah üretilen simitlerin sayısı, üretim programının ekranında asal çarpanlarına ayrılmış biçimde 2^{3} · … | ✓48
+mat-ck-010 | M.8.1.1.3 | z3 | k0 | Ekranların en-boy oranı, genişlik ve yükseklikteki piksel sayıları sadeleştirilerek a : b biçiminde yazılır; burada a ile b arala… | ✓13
+mat-ck-011 | M.8.1.1.2 | z4 | k0 | Bir kodlama atölyesinde Defne, girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplayı… | ✓65
+mat-ck-012 | M.8.1.1.3 | z3 | k0 | Bora, bisiklet kilidinin iki basamaklı kodunu unutmamak için defterine şu iki ipucunu yazmıştır: • Kod, bir asal sayı değildir. •… | ✓91

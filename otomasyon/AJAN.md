@@ -129,14 +129,53 @@ Bir çalışmada toplam **200-300 sorudan fazlasını üretme**; kalite düşer.
 
 ---
 
+## Kural 0: Yazmadan önce ne yazıldığını oku
+
+**Bu, bankanın uzun vadede çürümesini önleyen tek mekanizmadır.** Proje Haziran 2027'ye kadar sürecek ve binlerce soru üretilecek; yazan ajanın hafızası yok, her parti sıfırdan başlıyor. Önlem alınmazsa aynı numara farklı bağlamla defalarca sorulur ve banka şişer ama zenginleşmez.
+
+Soru yazmadan önce **o konunun endeksini oku**: `sorular/endeks/<konu-id>.txt`. Her satır bir soruyu özetler:
+
+```
+tur-pa-9002 | T.8.3.17 | z2 | k0 | Eski ustalar, bir işi öğrenmenin yolunun… | ✓Gözlemle öğrenilen bilgi kalıcı olur.
+```
+
+Endeks `node dogrula.js` her çalıştığında kendiliğinden tazelenir. Tam dosyaları okumaktan çok ucuzdur.
+
+Endekse bakarken şunları ara ve **tekrar etme**:
+- Aynı kurgu (aynı nesne, aynı senaryo, aynı sayı örüntüsü). Yalnızca sayıları değiştirilmiş soru kopyadır.
+- Aynı doğru cevap yargısı. Paragrafta özellikle: "✓" sütununda aynı tez tekrar tekrar geçiyorsa yeni metinler başka tezler işlesin.
+- Aynı kazanım + aynı zorluk + aynı soru kökü üçlüsü. Bu üçlü bir konuda 4'ten fazla varsa çeşitlendir.
+
 ## Doğrulama (atlanamaz)
 
 Hiçbir soru bu adımlar geçilmeden yayımlanmaz.
 
-1. **Kör doğrulama:** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret. Ayrı bir ajan (`general-purpose`) bu JSON'u çözsün ve `sorular/` klasörünü **açmasın**. Aranacak kusurlar: birden fazla savunulabilir doğru, doğru şıkkın olmaması, belirsiz ifade, zayıf çeldirici (okumadan elenebilen şık), müfredat dışı bilgi, dil hatası, zorluk uyumsuzluğu.
-2. Bulunan kusurlar düzeltilir, düzeltilen sorular **yeniden** kör doğrulamadan geçirilir.
-3. `node dogrula.js` — hata ve uyarı sıfır olmalı.
-4. Yeni dosya `sorular/manifest.js` listesine eklenir.
+1. **Kör doğrulama (soru bazında):** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret. Ayrı bir ajan (`general-purpose`) bu JSON'u çözsün ve `sorular/` klasörünü **açmasın**. Aranacak kusurlar: birden fazla savunulabilir doğru, doğru şıkkın olmaması, belirsiz ifade, zayıf çeldirici (okumadan elenebilen şık), görsel-metin çelişkisi, müfredat dışı bilgi, olgu hatası, dil hatası, zorluk uyumsuzluğu.
+
+2. **Set eleştirmeni (parti bazında) — ATLANMAZ.** Tek tek kusursuz sorulardan kusurlu bir set çıkabilir. Bunu yakalamak şansa bırakılmaz; her parti için ayrı bir ajan **yalnızca set geneline** bakar ve tek tek soruları çözmez. Girdisi: partinin bütün kör kopyaları + o konunun endeksi. Arayacakları:
+   - **Retorik tekdüzelik:** metinler aynı kalıpta mı? Doğru şık hep aynı tür yargı mı? (Örnek: bir partide 20 metnin hepsi "görünen kısım asıl iş değildir" tezini işlemişti; öğrenci metni okumadan o şıkkı işaretlemeye başlar.)
+   - **Anahtar örüntüsü:** doğru cevabın konumu, uzunluğu ya da biçimi tahmin edilebilir mi? Aynı soru tipinde doğru cevap hep aynı harfte mi?
+   - **Şık kümesi sızıntısı:** öncüllü sorularda bir öncül yalnızca tek başına geçiyorsa yük taşımıyordur; öğrenci onu hiç değerlendirmeden cevaba varır.
+   - **Bağlam tekrarı:** parti içinde ve endekse göre daha önceki partilerle.
+   - **Zorluk kaldıracının tek boyutlu olması:** zorluk yalnızca metni uzatarak mı sağlanmış? Gerçek zorluk adım sayısından ve çıkarım derinliğinden gelmeli.
+   - **Kazanım etiketi dağılımı:** bir kazanım "çöp kutusu" gibi kullanılmış mı?
+
+3. Bulunan kusurlar düzeltilir, düzeltilen sorular **yeniden** kör doğrulamadan geçirilir.
+4. `node dogrula.js` — hata ve uyarı sıfır olmalı; endeks tazelenir ve commit'e dahil edilir.
+5. Yeni dosya `sorular/manifest.js` listesine eklenir.
+
+## Kural 4: Gerçek veriyle kalibre et (öğrenci çözmeye başladıktan sonra)
+
+Yukarıdaki her şey **tahmindir**. Bir sorunun gerçekten iyi olup olmadığını yalnızca veri söyler. Panelden çekilen `lgs_gecmis` yeterli hacme ulaşınca (bir soru en az 3 kez görülmüşse) şunları hesapla ve raporla:
+
+| Ölçüt | Nasıl hesaplanır | Ne anlama gelir |
+|---|---|---|
+| **p (güçlük)** | doğru / (doğru + yanlış) | Etiketli zorluk ile tutuyor mu? Tutmuyorsa etiketi veriye göre düzelt. |
+| **Ölü çeldirici** | Hiç seçilmemiş yanlış şık | O şık soruyu kolaylaştırıyor; değiştirilmeli. |
+| **Ölü soru** | p ≈ 1 (herkes doğru yapıyor) | Ölçmüyor; havuzdan çıkarılabilir ya da zorlaştırılır. |
+| **Şüpheli soru** | p çok düşük **ve** belirli bir çeldirici baskın | Ya soru bozuk ya da gerçek bir kavram yanılgısı var. İkisini ayırmak için soruyu yeniden kör doğrulamaya gönder. |
+
+Bu ölçütler zorluk etiketlerinin yıl boyunca gerçeğe yaklaşmasını sağlar ve üretimdeki sistematik hataları görünür kılar. **Öğrencinin kişisel verisi bu hesap için belleğe alınır, diske ve depoya yazılmaz.**
 
 ## Yayımlama
 

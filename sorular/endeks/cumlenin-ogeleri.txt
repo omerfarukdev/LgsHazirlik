@@ -1,0 +1,36 @@
+tur-og-101 | T.8.4.18 | z1 | k1 | Sınıfımızın kitap kutusunu geçen hafta yeniden düzenledik. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓düzenledik
+tur-og-102 | T.8.4.18 | z1 | k1 | İki küçük baykuş dün akşam bahçedeki ceviz ağacına kondu. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓İki küçük baykuş
+tur-og-103 | T.8.4.18 | z1 | k1 | (I) Kitap fuarında yeni çıkan romanları inceledik. (II) Ablam bu yıl beş kitap okudu. (III) Standın önündeki kuyruk gittikçe uzuy… | ✓III
+tur-og-104 | T.8.4.18 | z1 | k1 | Aşağıda bir yolculuğu anlatan dört cümle verilmiştir. Bu cümlelerin hangisinde yer tamlayıcısı (dolaylı tümleç) vardır? | ✓II
+tur-og-105 | T.8.4.18 | z1 | k1 | (I) Göl kıyısındaki kuşları sessizce izledik. (II) Dürbünümüzü çantadan dikkatle çıkardık. (III) Balıkçıllar akşama doğru yuvalar… | ✓IV
+tur-og-106 | T.8.4.18 | z2 | k1 | Aşağıda bir öğrencinin beden eğitimi dersiyle ilgili notlarından alınan cümleler verilmiştir. (I) Beden eğitimi öğretmenimiz bugü… | ✓II
+tur-og-107 | T.8.4.18 | z2 | k1 | (I) Dedem her akşam uzun masallar anlatırdı. (II) Bu masalları küçük bir deftere yazdım. (III) Defterin kapağını mavi kalemle süs… | ✓I
+tur-og-108 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda bir vapur yolculuğunu anlatan dört cümle verilmiştir. Bu cümlelerin her birinde "-den" ekini almış bir söz bulu… | ✓III
+tur-og-109 | T.8.4.18 | z2 | k1 | Türkçede bir cümlede en çok vurgulanan öge, yükleme en yakın olan, yani yüklemden hemen önce gelen ögedir. Okulun fen panosunda ş… | ✓yer tamlayıcısı
+tur-og-110 | T.8.4.18 | z2 | k1 | Ara söz, cümlede kendinden önce gelen bir sözü açıklamak için iki virgül arasına alınan sözdür. Sınıf kitaplığının ödünç defterin… | ✓belirtili nesneyi
+tur-og-201 | T.8.4.18 | z2 | k2 | Aşağıdaki tabloda bir tren yolculuğunu anlatan dört cümle verilmiştir. Bu cümlelerin hangisi üç ögeden oluşmaktadır? | ✓I
+tur-og-202 | T.8.4.18 | z2 | k2 | Bir doğa gözlem defterinden alınan aşağıdaki cümle ögelerine ayrılmıştır. Aşağıdaki cümlelerin hangisinin ögeleri de bu cümledeki… | ✓Dün sabah çalıların arasında bir tilki dolaş…
+tur-og-203 | T.8.4.18 | z2 | k2 | "Okul kütüphanecisi yeni gelen kitapları cuma günü raflara yerleştirdi." cümlesindeki bazı sözler ve bu sözlere verilen öge adlar… | ✓III
+tur-og-204 | T.8.4.18 | z2 | k2 | (I) Yaz tatilinde ailecek Kaz Dağları'na gittik. (II) Konakladığımız köy çam ormanının hemen eteğindeydi. (III) Sabahları patikal… | ✓II
+tur-og-205 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir okulun pano çalışmalarını anlatmaktadır. Bu cümlelerin hangisinin ögeleri diğerlerinden farklı sıralanmışt… | ✓Kulüp üyeleri dün akşam afişleri hazırladı.
+tur-og-206 | T.8.4.18 | z3 | k2 | Okulumuzun kitap kulübü her ay bir yazarı konuk ediyor. Aşağıda bu ayın söyleşisiyle ilgili dört cümle verilmiştir. Numaralanmış … | ✓I
+tur-og-207 | T.8.4.18 | z3 | k2 | Deniz, yaz tatilinde çektiği fotoğrafları sınıf panosuna asmıştır. Arkadaşları fotoğrafların altına sorular yazmış, Deniz de bu s… | ✓Kapadokya'da bu fotoğrafı geçen yaz çektim.
+tur-og-208 | T.8.4.18 | z3 | k2 | Bir kuş gözlem raporundan alınan dört cümle şunlardır: (I) Sabahleyin su kaplumbağaları kütüğün üstünde dinlenir. (II) Kuş gözlem… | ✓IV
+tur-og-209 | T.8.4.18 | z3 | k2 | Aşağıdaki tabloda sınıf kitaplığıyla ilgili dört cümle ve bu cümlelerdeki ara sözler verilmiştir. Ara söz, kendinden önce gelen ö… | ✓III
+tur-og-210 | T.8.4.18 | z3 | k2 | Aşağıdaki tabloda bir okul gezisini anlatan dört cümle verilmiştir. Bu cümlelerin hangisinde hem nesne hem yer tamlayıcısı kullan… | ✓II
+tur-og-301 | T.8.4.18 | z3 | k3 | Şehrin eski çarşısındaki küçük bir çini atölyesi, hafta sonları ücretsiz kurs açıyor. Kursa gelenler önce desen çizmeyi, sonra bo… | ✓III
+tur-og-302 | T.8.4.18 | z3 | k3 | Bir okulda kurulan onarım kulübü, çöpe atılmak üzere olan elektronik eşyaları ücretsiz tamir ediyor. Kulüp, topladığı cihazları ö… | ✓Kulübün yazılımını geçen hafta gönüllü bir ö…
+tur-og-303 | T.8.4.18 | z3 | k3 | Bir sahil kentinde yıllar önce kaldırılan tramvay hattı yeniden çalışmaya başladı. Tek vagonlu kırmızı tramvay, sabahtan akşama s… | ✓IV
+tur-og-304 | T.8.4.18 | z3 | k3 | Okulun basketbol takımı, ilçe turnuvasının yarı finaline kaldı. Türkçe öğretmeni, maçla ilgili dört cümleyi tahtaya yazmış; bir ö… | ✓II
+tur-og-305 | T.8.4.18 | z3 | k3 | Bir şehirde açılan el sanatları sergisinde hem ustalar hem de kursiyerler eserlerini tanıtıyor. Bir cümlede, bir ögeden hemen son… | ✓Atölyenin en eski ustası, Rıfat Usta, bakır …
+tur-og-306 | T.8.4.18 | z3 | k3 | Okulun kodlama kulübü, yıl boyunca hazırladığı işleri tanıtmak için küçük bir gösteri düzenledi. Gösteride öğrenciler hem robotla… | ✓Kodlama kulübü, yeni robotunu geçen hafta ta…
+tur-og-307 | T.8.4.18 | z4 | k3 | Bir mahallenin yıllardır bakımsız duran çocuk parkı bu yaz elden geçti. Belediye ekipleri ile mahalleliler işi birlikte yürüttü; … | ✓I ve IV
+tur-og-308 | T.8.4.18 | z4 | k3 | Bir belediye, boş duran eski bir binayı el sanatları merkezine çevirdi. Binanın her katında başka bir atölye var: heykel, ahşap o… | ✓Fırının içinde küçük seramik kâseler yavaşça…
+tur-og-309 | T.8.4.18 | z4 | k3 | Okulun yüzme takımı, il birinciliğine hazırlanıyor. Takım, hafta içi her sabah derse girmeden önce bir saat çalışıyor. Aşağıda bi… | ✓I
+tur-og-310 | T.8.4.18 | z4 | k3 | Türkçe dersinde cümlenin ögeleri konusu işlendi. Öğretmen, okulun bahar şenliğiyle ilgili dört cümleyi tahtaya yazdı ve her cümle… | ✓Bütün mahalle, bahçe kapısına asılan afişi m…
+tur-og-001 | T.8.4.18 | z2 | k0 | Kültür merkezinde bir ahşap oymacılığı sergisi açık. Sergide ustaların yıllardır kullandığı eski aletler de yer alıyor. Buna göre… | ✓Ziyaretçiler, ustanın oyma tekniğini merakla…
+tur-og-002 | T.8.4.18 | z2 | k0 | Bir okulun bisiklet kulübü, bahar şenliği için mahalle turu düzenledi. Tura yüzden fazla öğrenci katıldı. Buna göre, aşağıdaki cü… | ✓Genç sporcular, bitiş çizgisine birlikte ula…
+tur-og-003 | T.8.4.18 | z3 | k0 | Şehrin en kalabalık meydanı, akşam saatlerinde bambaşka bir görünüm alıyor. Aşağıda bu meydanla ilgili dört cümle numaralandırıla… | ✓I
+tur-og-004 | T.8.4.18 | z3 | k0 | Bir okulun tiyatro topluluğu, yıl sonu oyununa hazırlanıyor. Dekor, kostüm ve ışık işlerini öğrenciler kendileri yapıyor. Buna gö… | ✓Kulüp üyeleri, sahnenin arkasına büyük bir p…
+tur-og-005 | T.8.4.18 | z4 | k0 | Bir ilçenin amatör futbol takımı, uzun bir aradan sonra şampiyon oldu. Kutlamalar bütün hafta sürdü, ilçedeki okullar da kutlamal… | ✓Yeni formaları oyunculara kulüp başkanı dağı…
+tur-og-006 | T.8.4.18 | z4 | k0 | Bir çarşının en eski dükkânlarından birinde yıllardır saat onarımı yapılıyor. Aşağıdaki cümle, bu dükkânın sahibini anlatmaktadır… | ✓Eski saatleri onaran usta / bu küçük dükkând…

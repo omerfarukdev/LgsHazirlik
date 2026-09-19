@@ -2,6 +2,9 @@
 # depoda yeniden yayımlanmaz. Kaynak adresleri planlama/arastirma-*.md dosyalarında yazılıdır.
 planlama/kaynaklar/
 
+# Endeks dogrula.js tarafindan uretilir ama DEPOYA GIRER: yazan ajanlar
+# daha once ne yazildigini oradan okur, kavramsal tekrarin onundeki tek engel budur.
+
 # ÖĞRENCİNİN KİŞİSEL VERİSİ ASLA DEPOYA GİRMEZ.
 # Üretim ajanı buluttan ilerleme çekip diske yazabilir; bu kalıplar onu depoya sızmaktan korur.
 veri/

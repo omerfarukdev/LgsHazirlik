@@ -1,0 +1,48 @@
+mat-kk-101 | M.8.1.3.1 | z1 | k1 | Bir matematik dersinde öğretmen, öğrencilerinden tam kare doğal sayıları ayırt etmelerini istemiştir. Buna göre aşağıdaki sayılar… | ✓64
+mat-kk-102 | M.8.1.3.1 | z1 | k1 | Aşağıda kare biçiminde bir halı deseni ve bu desenin alanı verilmiştir. Buna göre bu desenin bir kenar uzunluğu kaç birimdir? | ✓14
+mat-kk-103 | M.8.1.3.2 | z1 | k1 | √{90} sayısı aşağıdaki hangi iki ardışık doğal sayı arasındadır? | ✓9 ile 10
+mat-kk-104 | M.8.1.3.3 | z1 | k1 | Bir sınıf panosuna asılan kartın üzerinde 3√{5} ifadesi yazılıdır. Buna göre bu ifadenin katsayısı kök içine alınmış biçimi aşağı… | ✓√{45}
+mat-kk-105 | M.8.1.3.5 | z1 | k1 | 3√{7} + 5√{7} işleminin sonucu aşağıdakilerden hangisidir? | ✓8√{7}
+mat-kk-106 | M.8.1.3.7 | z1 | k1 | Bir öğrenci defterine √{1,44} işlemini yazmıştır. Buna göre bu işlemin sonucu kaçtır? | ✓1,2
+mat-kk-107 | M.8.1.3.1 | z2 | k1 | Bir okulun bahçesindeki çiçek tarhı kare biçiminde olup alanı 121 m²'dir. Okul yönetimi, tarhın çevresini boydan boya alçak bir t… | ✓44
+mat-kk-108 | M.8.1.3.6 | z2 | k1 | Bir öğrenci, √{12} sayısını aşağıdaki dört sayıdan biriyle çarparak sonucun bir doğal sayı olmasını istemektedir. Buna göre öğren… | ✓√{27}
+mat-kk-109 | M.8.1.3.2 | z2 | k1 | Aşağıdaki sayı doğrusu üzerinde K, L, M ve N noktaları işaretlenmiştir. Buna göre √{40} sayısı bu noktalardan hangisine karşılık … | ✓M noktasına
+mat-kk-110 | M.8.1.3.4 | z2 | k1 | Bir sınıf panosuna asılacak kartın boyutları aşağıdaki şekilde verilmiştir. Buna göre bu kartın alanı kaç cm²'dir? | ✓3√{10}
+mat-kk-111 | M.8.1.3.5 | z2 | k1 | Bir çerçeve atölyesinde uzunluğu √{50} cm olan bir ahşap çıtadan, uzunluğu √{18} cm olan bir parça kesilip ayrılmıştır. Buna göre… | ✓2√{2}
+mat-kk-112 | M.8.1.3.8 | z2 | k1 | Bir okulun matematik panosuna, üzerinde birer sayı yazılı dört kart asılmıştır. Kartlar aşağıdaki tabloda verilmiştir. Buna göre … | ✓N kartındaki sayı
+mat-kk-201 | M.8.1.3.3 | z2 | k2 | Bir döşeme ustası, kare biçimindeki fayanslarla çalışmaktadır. Kullandığı bir fayansın alanı aşağıdaki şekilde verilmiştir. Buna … | ✓4√{3}
+mat-kk-202 | M.8.1.3.4 | z2 | k2 | Bir okulun bahçesinde kare biçiminde bir sebze parseli ayrılmıştır. Parselin bir kenarının uzunluğu 3√{5} metredir. Buna göre bu … | ✓45
+mat-kk-203 | M.8.1.3.5 | z2 | k2 | Bir sınıfta öğretmen tahtaya aşağıdaki işlemi yazmış ve öğrencilerden sonucu en sade biçimde yazmalarını istemiştir. √{75} + √{27… | ✓6√{3}
+mat-kk-204 | M.8.1.3.4 | z2 | k2 | Bir spor salonundaki jimnastik minderi dikdörtgen biçimindedir. Minderin alanı ve kısa kenarının uzunluğu aşağıdaki şekilde veril… | ✓6
+mat-kk-205 | M.8.1.3.7 | z2 | k2 | Bir okul bahçesinin duvarına, kare biçiminde iki mozaik levha yan yana ve kenarları aynı doğru üzerinde olacak biçimde yerleştiri… | ✓1,1
+mat-kk-206 | M.8.1.3.2 | z2 | k2 | Bir çiftçi, tarlasının kare biçimindeki bir bölümünü domates için ayırmıştır. Bu bölümün alanı 50 m²'dir. Çiftçi, bölümün bir ken… | ✓7 ile 8 metre arasındadır ve 7 metreye daha …
+mat-kk-207 | M.8.1.3.7 | z3 | k2 | Bir dokuma atölyesinde kare biçiminde kilimler üretilmektedir. Üretilen bir kilimin alanı aşağıdaki şekilde verilmiştir. Kilimin … | ✓360
+mat-kk-208 | M.8.1.3.3 | z3 | k2 | Bir okulda düzenlenen "Sayılar Şenliği"nde dört sınıf, panosuna üzerinde birer sayı yazılı kart asmıştır. Kartlar aşağıdaki tablo… | ✓2√{19}
+mat-kk-209 | M.8.1.3.1 | z3 | k2 | Bir okulun bahçesi kare biçiminde olup alanı 1 600 m²'dir. Bahçenin bir köşesine, kenar uzunluğu bahçenin kenar uzunluğunun [[1|4… | ✓1 500
+mat-kk-210 | M.8.1.3.8 | z3 | k2 | Bir sınıfta "Gerçek Sayılar" panosu hazırlanmaktadır. Dört öğrenci birer karta birer ifade yazmış ve kartları panoya asmıştır. Ka… | ✓2
+mat-kk-211 | M.8.1.3.6 | z3 | k2 | Bir sergi salonunun zemini dikdörtgen biçimindedir ve uzun kenarının uzunluğu √{75} metredir. Salonun kısa kenarı için depodaki d… | ✓N bordürü
+mat-kk-212 | M.8.1.3.5 | z3 | k2 | Bir el sanatları atölyesinde kare biçiminde üç kilim parçası dokunmuştur. Parçaların alanları aşağıdaki şekilde verilmiştir. Parç… | ✓52√{3}
+mat-kk-301 | M.8.1.3.1 | z3 | k3 | Bir alışveriş merkezinin girişine, özdeş kare LED panellerin yan yana ve üst üste dizilmesiyle kare biçiminde büyük bir ekran kur… | ✓16
+mat-kk-302 | M.8.1.3.2 | z3 | k3 | Bir gök gözlem kulübü, kamp alanında kare biçiminde bir gözlem sahası ayırmıştır. Sahanın alanı şekilde verilmiştir. Kulüp, sahan… | ✓108
+mat-kk-303 | M.8.1.3.4 | z3 | k3 | Bir peyzaj mimarı, bir sitenin avlusuna dikdörtgen biçiminde bir çiçek tarhı tasarlamıştır. Tarhın kenar uzunlukları şekilde veri… | ✓4
+mat-kk-304 | M.8.1.3.6 | z3 | k3 | Bir ambalaj atölyesinde kutuların üzerine yapıştırılan dikdörtgen etiketler kesilmektedir. Etiketin bir kenarı şekilde verildiği … | ✓√{2} cm
+mat-kk-305 | M.8.1.3.7 | z3 | k3 | Bir teknoloji mağazasında akıllı saatlerin kare biçimli ekranlarının kenarlarına koruyucu bant çekilmektedir. Bir saatin ekran al… | ✓7
+mat-kk-306 | M.8.1.3.8 | z3 | k3 | Bir bilim müzesinin "Sayıların Dünyası" sergisinde etkileşimli bir pano bulunmaktadır. Panonun üzerinde "Rasyonel" ve "İrrasyonel… | ✓N
+mat-kk-307 | M.8.1.3.5 | z3 | k3 | Bir baskı atölyesinde afişlerin alt kenarına renkli şeritler yapıştırılmaktadır. Aşağıdaki afişin alt kenarı ile yapıştırılan iki… | ✓4√{2}
+mat-kk-308 | M.8.1.3.2 | z4 | k3 | Bir planetaryumun salonunda koltuklar 1'den 200'e kadar numaralandırılmıştır. Gösteri başlamadan önce koltukların altındaki lamba… | ✓5
+mat-kk-309 | M.8.1.3.6 | z4 | k3 | Bir seramik atölyesinde dikdörtgen biçimli duvar karoları üretilmektedir. Karonun uzun kenarı şekilde görüldüğü gibi √{108} cm, k… | ✓5
+mat-kk-310 | M.8.1.3.2 | z4 | k3 | Bir müzenin giriş holüne kare biçiminde bir mozaik pano yapılacaktır. Pano, kenar uzunluğu 1 desimetre olan kare fayanslarla, hiç… | ✓10
+mat-kk-311 | M.8.1.3.3 | z4 | k3 | Bir grafik tasarım programında kare biçimli çerçeveler çizilmektedir. Program, çizdiği her karenin kenar uzunluğunu √{n} birim bi… | ✓9
+mat-kk-312 | M.8.1.3.7 | z4 | k3 | Bir ambalaj atölyesinde kare biçimli kartonlardan kare biçimli etiketler kesilmektedir. Bir kartonun ve bir etiketin alanı aşağıd… | ✓14
+mat-kk-001 | M.8.1.3.1 | z1 | k0 | Aşağıdaki doğal sayılardan hangisi tam kare bir sayıdır? | ✓49
+mat-kk-002 | M.8.1.3.2 | z1 | k0 | √{55} sayısı hangi iki ardışık doğal sayı arasındadır? | ✓7 ile 8
+mat-kk-003 | M.8.1.3.3 | z1 | k0 | 3√{5} ifadesinin katsayısı kök içine alınırsa aşağıdakilerden hangisi elde edilir? | ✓√{45}
+mat-kk-004 | M.8.1.3.4 | z2 | k0 | Bir ambalaj atölyesinde kutuların yan yüzüne yapıştırılan dikdörtgen etiketler kesilmektedir. Bir etiketin kenar uzunlukları şeki… | ✓6
+mat-kk-005 | M.8.1.3.5 | z2 | k0 | Bir tasarım atölyesinde afişin alt kenarına iki renkli şerit uç uca, aralarında boşluk kalmayacak biçimde yapıştırılmıştır. Şerit… | ✓7√{3}
+mat-kk-006 | M.8.1.3.7 | z2 | k0 | Bir cep telefonunun ekranındaki kare biçimli uygulama simgelerinden birinin alanı şekilde verilmiştir. Buna göre, bu simgenin bir… | ✓1,6
+mat-kk-007 | M.8.1.3.8 | z2 | k0 | Bir gözlemevinin sergi panosunda dört sayı yazılıdır. Rehber, ziyaretçilerden bu sayılardan iki tam sayının oranı biçiminde yazıl… | ✓√{2}
+mat-kk-008 | M.8.1.3.6 | z3 | k0 | Bir müzenin restorasyon atölyesinde vitrinler için dikdörtgen cam levhalar kesilmektedir. Bir levhanın bir kenarı şekilde görüldü… | ✓√{5} cm
+mat-kk-009 | M.8.1.3.3 | z3 | k0 | Bir uzay kampında dört takım su roketi maketi hazırlamıştır. Maketlerin ulaştığı en yüksek noktalar metre cinsinden aşağıdaki tab… | ✓2
+mat-kk-010 | M.8.1.3.5 | z3 | k0 | Bir sitenin bahçesinde kare biçiminde iki oyun alanı vardır. Alanların ölçüleri aşağıdaki şekilde verilmiştir. İki alanın da çevr… | ✓40√{2}
+mat-kk-011 | M.8.1.3.1 | z4 | k0 | Bir fabrikada kare biçimli tablet ekranları üretilmektedir. Üretilen her ekranın santimetrekare cinsinden alanı bir doğal sayıdır… | ✓97
+mat-kk-012 | M.8.1.3.6 | z4 | k0 | Bir ambalaj atölyesinde dikdörtgen biçimli kutu kapakları kesilmektedir. Kapağın bir kenarı şekilde görüldüğü gibi √{24} cm'dir. … | ✓24

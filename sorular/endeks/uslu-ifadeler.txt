@@ -1,0 +1,48 @@
+mat-ui-101 | M.8.1.2.1 | z1 | k1 | Bir sınıf etkinliğinde tahtaya (−3)^{2} üslü ifadesi yazılmıştır. Buna göre bu ifadenin değeri kaçtır? | ✓9
+mat-ui-102 | M.8.1.2.1 | z1 | k1 | Kerem, matematik defterine 2^{-3} üslü ifadesini yazmıştır. Buna göre bu ifadenin değeri aşağıdakilerden hangisidir? | ✓[[1|8]]
+mat-ui-103 | M.8.1.2.2 | z1 | k1 | Bir çalışma kâğıdında aşağıdaki işlem verilmiştir. (−7)^{0} + 5^{1} işleminin sonucu kaçtır? | ✓6
+mat-ui-104 | M.8.1.2.3 | z1 | k1 | Sınıfta yapılan bir ölçümde bir sözlüğün kalınlığı 4,07 santimetre bulunmuştur. Bu sayının basamakları aşağıdaki tabloda gösteril… | ✓4 · 10^{0} + 7 · 10^{-2}
+mat-ui-105 | M.8.1.2.5 | z1 | k1 | Bir şehir kütüphanesindeki kitap sayısı 48 000'dir. Buna göre bu sayının bilimsel gösterimi aşağıdakilerden hangisidir? | ✓4,8 · 10^{4}
+mat-ui-106 | M.8.1.2.4 | z1 | k1 | Bir müzik dinletisinin yapılacağı salonda 3200 koltuk vardır. Görevli bu sayıyı, n bir tam sayı olmak üzere 32 · 10^{n} biçiminde… | ✓2
+mat-ui-107 | M.8.1.2.1 | z2 | k1 | Deniz, kırtasiyeden aldığı bir kâğıdı üst üste katlamaktadır. Her katlamada kâğıdın kat sayısı bir önceki kat sayısının 2 katına … | ✓64
+mat-ui-108 | M.8.1.2.2 | z2 | k1 | Matematik dersinde öğretmen tahtaya üslü ifadelerle ilgili dört eşitlik yazmış ve bunlardan yalnızca birinin yanlış olduğunu söyl… | ✓(3^{2})^{4} = 3^{6}
+mat-ui-109 | M.8.1.2.3 | z2 | k1 | Bir hava durumu uygulamasının dünkü rapor ekranı aşağıda verilmiştir. Buna göre ekranda yazan yağış miktarının 10'un tam sayı kuv… | ✓2 · 10^{1} + 6 · 10^{0} + 4 · 10^{-1} + 5 · …
+mat-ui-110 | M.8.1.2.4 | z2 | k1 | Okul bahçesine ekilecek çim tohumunun paketinde 3,6 · 10^{5} tohum bulunduğu yazmaktadır. Bahçıvan Selim Bey aynı sayıyı defterin… | ✓7
+mat-ui-111 | M.8.1.2.5 | z2 | k1 | Bir spor sitesinde dört spor kulübünün sosyal medya hesaplarındaki takipçi sayıları bilimsel gösterimle verilmiştir. Buna göre ku… | ✓M, N, K, L
+mat-ui-112 | M.8.1.2.1 | z2 | k1 | Okulun matematik kulübünde bir puan oyunu oynanmaktadır. Her oyuncu üç kart çeker; puanı, birinci ve ikinci karttaki sayıların to… | ✓−8
+mat-ui-201 | M.8.1.2.2 | z2 | k2 | Matematik öğretmeni tahtaya 2^{6} sayısını yazmış ve öğrencilerden bu sayıya denk üslü ifadeler yazmalarını istemiştir. Tahtaya y… | ✓(2^{2})^{4}
+mat-ui-202 | M.8.1.2.1 | z2 | k2 | Bir okulun bahçesindeki damla sulama düzeneğinin şeması aşağıda verilmiştir. Ana borudan çıkan su önce kollara, her kol hortumlar… | ✓27
+mat-ui-203 | M.8.1.2.3 | z2 | k2 | Bir kek tarifinde kullanılacak kabartma tozu mutfak terazisinde tartılmıştır. Terazinin ekranında kütle, 10'un tam sayı kuvvetler… | ✓7,502
+mat-ui-204 | M.8.1.2.4 | z2 | k2 | Bir okulun bahçesinde yağmur suyu toplayan iki depo bulunmaktadır. Yağışlı bir haftanın sonunda birinci depoda 2,4 · 10^{4} litre… | ✓3 · 10^{4}
+mat-ui-205 | M.8.1.2.5 | z2 | k2 | Mutfakta kullanılan haşhaş tohumlarının her birinin kütlesi yaklaşık 0,00025 gramdır. Buna göre bir haşhaş tohumunun kütlesinin b… | ✓2,5 · 10^{-4}
+mat-ui-206 | M.8.1.2.2 | z2 | k2 | Ece, matematik defterine üslü ifadelerle bir bölme işlemi yazmıştır: 2^{-3} sayısı 2^{-5} sayısına bölünecektir. Buna göre bu böl… | ✓4
+mat-ui-207 | M.8.1.2.5 | z3 | k2 | Bir sağlık sitesinde, düzenli spor yapan bir kişinin bir yıl içinde gerçekleşen kalp atışı sayısı ile bir yılda attığı adım sayıs… | ✓8
+mat-ui-208 | M.8.1.2.1 | z3 | k2 | Okulun müzik kulübü, hazırladığı tanıtım videosunu pazartesi günü paylaşmıştır. Videonun ilk üç gündeki izlenme sayıları aşağıdak… | ✓405
+mat-ui-209 | M.8.1.2.3 | z3 | k2 | Bir kırtasiyede bir defterin fiyatı 38,64 TL'dir. Öğretmen bu fiyatın 10'un tam sayı kuvvetleriyle çözümlenmiş biçimini tahtaya y… | ✓8,04
+mat-ui-210 | M.8.1.2.4 | z3 | k2 | Bir ailenin evinde bir yıl boyunca kullandığı elektrik enerjisi 5,4 · 10^{6} vatsaattir. Matematik ödevinde dört öğrenciden bu sa… | ✓Ada
+mat-ui-211 | M.8.1.2.2 | z3 | k2 | Matematik öğretmeni tahtaya aşağıdaki şemayı çizmiştir. Şemada her kutudaki sayı, hemen altındaki iki kutuda yazan sayıların çarp… | ✓2^{5}
+mat-ui-212 | M.8.1.2.5 | z3 | k2 | Bir okul kütüphanesine alınan hava temizleme cihazının filtresi, çapı 2,5 · 10^{-6} metreden büyük olan bütün tanecikleri tutmakt… | ✓2
+mat-ui-301 | M.8.1.2.5 | z3 | k3 | Bir uzay ajansı, güneş sistemini incelemek için gönderdiği araçla radyo sinyalleri aracılığıyla haberleşmektedir. Dünya'daki dene… | ✓50
+mat-ui-302 | M.8.1.2.2 | z3 | k3 | Bir okulun bilişim kulübü, öğretmenlerin çektiği ders videolarını yedeklemek için yeni bir disk almıştır. Kulüp üyeleri diskteki … | ✓2^{13}
+mat-ui-303 | M.8.1.2.3 | z3 | k3 | Kargo kuryesi Sinan, elektrikli motosikletiyle her gün biri sabah biri akşam olmak üzere iki tur dağıtım yapmaktadır. Motosikleti… | ✓4 · 10^{1} + 2 · 10^{0} + 3 · 10^{−1} + 5 · …
+mat-ui-304 | M.8.1.2.1 | z3 | k3 | Bir doğa kampında kullanılan su deposunun vanası yavaş yavaş tıkanmaktadır. Kamp sorumlusu, vanadan bir saatte akan su miktarını … | ✓[[1|8]]
+mat-ui-305 | M.8.1.2.4 | z3 | k3 | Bir otomobil fabrikası, yılın her çalışma gününde aynı sayıda araç üretmektedir. Fabrikanın üretim panosunda günlük üretim ile yı… | ✓7200 · 10^{3}
+mat-ui-306 | M.8.1.2.2 | z3 | k3 | Bir spor bilimi laboratuvarında sporculara koşu bandı testi uygulanmaktadır. Test boyunca sporcuya bağlanan ölçüm cihazı, sporcun… | ✓2^{13}
+mat-ui-307 | M.8.1.2.5 | z3 | k3 | Bir bilim müzesinde "Bir Damla Suda Neler Var?" adlı sergi açılmıştır. Serginin ortasında, yakındaki bir gölden getirilen suyla d… | ✓8 · 10^{9}
+mat-ui-308 | M.8.1.2.2 | z4 | k3 | Bir tarım kooperatifi, deposundaki bir çuval buğday tohumunu üreticilere dağıtmak için poşetlere bölecektir. Bütün poşetlere eşit… | ✓6
+mat-ui-309 | M.8.1.2.1 | z4 | k3 | Bir okulun robotik kulübü, katıldığı yarışmada çektiği kamera kaydını okulun bulut hesabına yüklemek istemektedir. Kaydın ilk boy… | ✓5
+mat-ui-310 | M.8.1.2.4 | z4 | k3 | Bir okulun gök bilimi kulübü, gece gözlemlerinde incelediği bir yıldızın Dünya'ya uzaklığını hesaplamıştır. Üyeler bunun için, yı… | ✓8040 · 10^{9}
+mat-ui-311 | M.8.1.2.2 | z4 | k3 | Bir konserve fabrikasında koliler bant üzerinde ilerlerken bir makine tarafından etiketlenmektedir. Makine hiç durmadan hep aynı … | ✓9
+mat-ui-312 | M.8.1.2.5 | z4 | k3 | Bir spor bilimi laboratuvarında, sporcuların bir antrenman boyunca terle kaybettiği magnezyum miktarı ölçülmektedir. Laboratuvarı… | ✓5
+mat-ui-001 | M.8.1.2.1 | z1 | k0 | (−3)^{3} işleminin sonucu kaçtır? | ✓−27
+mat-ui-002 | M.8.1.2.2 | z1 | k0 | 5^{7} ÷ 5^{4} işleminin sonucu aşağıdakilerden hangisine eşittir? | ✓5^{3}
+mat-ui-003 | M.8.1.2.5 | z1 | k0 | Bir mikroskop lamının kalınlığı 0,00046 metredir. Buna göre bu kalınlığın bilimsel gösterimi aşağıdakilerden hangisidir? | ✓4,6 · 10^{−4}
+mat-ui-004 | M.8.1.2.3 | z2 | k0 | Şehirler arası çalışan bir otobüsün sürücüsü, her yolculuk bitiminde gidilen yolu deftere yazmaktadır. Son yolculukta gösterge ek… | ✓2 · 10^{2} + 8 · 10^{0} + 5 · 10^{−1}
+mat-ui-005 | M.8.1.2.2 | z2 | k0 | Bir gök bilimi yazılımı, teleskoptan gelen görüntüleri işlerken bir yıldızın parlaklık değerini (2^{3})^{4} ÷ 2^{5} işlemiyle hes… | ✓2^{7}
+mat-ui-006 | M.8.1.2.4 | z2 | k0 | Bir vida fabrikası her gün 8 · 10^{4} vida üretmektedir ve haftada 6 gün çalışmaktadır. Fabrikanın üretim raporunda bütün sayılar… | ✓480
+mat-ui-007 | M.8.1.2.1 | z2 | k0 | Bir spor hekimi, bir sporcunun içtiği bir bardak maden suyundan aldığı demir miktarını 10^{−5} gram olarak ölçmüştür. Sporcunun g… | ✓10^{−2}
+mat-ui-008 | M.8.1.2.5 | z3 | k0 | Adalar arasında çalışan bir feribot şirketi, geçen yılın sonunda bir bilgilendirme tablosu yayımlamıştır. Tabloda şirketin bir yı… | ✓3 · 10^{8}
+mat-ui-009 | M.8.1.2.2 | z3 | k0 | Bir doğa kampında bütün çadırlar aynı sayıda kişi almakta ve kamptaki her katılımcıya günde eşit miktarda içme suyu verilmektedir… | ✓3^{4}
+mat-ui-010 | M.8.1.2.3 | z3 | k0 | Bir müzenin madeni paralar bölümünde her paranın kütlesi, vitrin etiketine çözümlenmiş biçimde yazılmaktadır. Müze bu yazımı, ziy… | ✓28,503
+mat-ui-011 | M.8.1.2.2 | z4 | k0 | Bir güvenlik kamerası, kaydettiği görüntüleri belleğine eşit büyüklükte bloklar hâlinde yazmaktadır. Belleğin yarısı kameranın ke… | ✓2^{11}
+mat-ui-012 | M.8.1.2.5 | z4 | k0 | Bir tarım araştırma merkezinde, tek bir gübre granülünü tartmak çok zor olduğundan granül kütleleri paketler üzerinden hesaplanma… | ✓5 · 10^{3}

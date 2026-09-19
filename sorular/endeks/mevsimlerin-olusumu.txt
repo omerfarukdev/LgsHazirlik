@@ -1,0 +1,48 @@
+fen-mv-101 | F.8.1.1.1 | z1 | k1 | Aşağıda Dünya'nın dönme ekseni ile Güneş çevresindeki dolanma düzlemi şematik olarak gösterilmiştir. Buna göre Dünya'nın dönme ek… | ✓Dolanma düzlemine dik doğrultudan sapmış, eğ…
+fen-mv-102 | F.8.1.1.1 | z1 | k1 | Elif, özdeş iki el fenerini aynı yükseklikten bir kâğıda tutmuştur. Fenerlerin kâğıtla yaptığı açılar ve oluşan aydınlık bölgeler… | ✓I. fenerin ışığı daha dar alana düşmüş, biri…
+fen-mv-103 | F.8.1.1.1 | z1 | k1 | Mevsimlerin birbiri ardına yaşanması, aşağıdaki hareketlerden hangisinin bir kez tamamlanmasıyla gerçekleşir? | ✓Dünya'nın Güneş çevresinde dolanması
+fen-mv-104 | F.8.1.1.1 | z1 | k1 | Görselde Dünya'nın Güneş çevresindeki yörüngesinde bulunduğu dört konum gösterilmiştir. K konumunda Güneş ışınları Kuzey Yarım Kü… | ✓Yaz
+fen-mv-105 | F.8.1.1.1 | z1 | k1 | Elif, ocak ayında Kuzey Yarım Küre'deki evlerine kar yağarken Güney Yarım Küre'de yaşayan halasıyla görüntülü konuşmuş ve halasın… | ✓Güneş ışınlarını daha dik açıyla aldığı için…
+fen-mv-106 | F.8.1.1.1 | z1 | k1 | Dünya'nın dönme ekseni dolanma düzlemine dik olsaydı aşağıdakilerden hangisi gerçekleşirdi? | ✓Bir yerde yıl boyunca aynı mevsim yaşanırdı.
+fen-mv-107 | F.8.1.1.1 | z2 | k1 | Deniz, kırtasiyeden aldığı kareli kâğıdın üzerine masa lambasının ışığını iki farklı biçimde düşürmüştür. Lambanın yüksekliği ve … | ✓II ve III
+fen-mv-108 | F.8.1.1.1 | z2 | k1 | Bahar, bahçeyi sularken hortumun başlığını değiştirdiğinde aynı sürede akan su miktarının değişmediğini, ancak suyun ıslattığı al… | ✓Işınların yüzeye dik düşmesine; birim yüzeye…
+fen-mv-109 | F.8.1.1.1 | z2 | k1 | Ömer, bir hava durumu uygulamasında Güney Yarım Küre'deki bir şehri seçerek dört tarihin gündüz sürelerini not etmiştir. Notları … | ✓21 Aralık
+fen-mv-110 | F.8.1.1.1 | z2 | k1 | Elif'in annesi her yıl aynı tarifle güneşte domates kurutmaktadır. Özdeş tepsilere serilen eşit miktarda domates, evin balkonunda… | ✓I ve II
+fen-mv-111 | F.8.1.1.1 | z2 | k1 | Görselde Dünya'nın yörüngesinde birbirinin karşısında bulunan iki konumu gösterilmiştir. K konumunda Güneş ışınları Güney Yarım K… | ✓I ve II
+fen-mv-112 | F.8.1.1.1 | z2 | k1 | Elif, kütüphaneden aldığı gök bilimi kitabında şu cümleyi okumuştur: "Dünya, Güneş çevresinde dolanırken dönme ekseni uzayda hep … | ✓Dünya yörüngede ilerledikçe yarım kürelerin …
+fen-mv-201 | F.8.1.1.1 | z2 | k2 | Fen dersinde özdeş iki karton, özdeş ışık kaynaklarından eşit uzaklığa yerleştirilmiştir. I. karton ışınlara dik, II. karton eğik… | ✓I ve II
+fen-mv-202 | F.8.1.1.1 | z2 | k2 | Kuzey Yarım Küre'deki bir bahçenin güneye ve kuzeye bakan iki yamacına özdeş fideler dikilmiştir. Öğleden sonra ölçüldüğünde Güne… | ✓II ve III
+fen-mv-203 | F.8.1.1.1 | z2 | k2 | Müzik dersinde öğrenciler, mevsimlerin oluşumunu anlatan bir şarkı için birer dize yazmıştır. Öğrencilerin yazdığı dizeler aşağıd… | ✓Zeynep
+fen-mv-204 | F.8.1.1.1 | z2 | k2 | Selim'in ailesi, çatıya taktırdığı güneş panelinin eğimini yılda iki kez değiştirmektedir. Panel kışın daha dik, yazın daha yatık… | ✓Işınların panele düşme açısını dikleştirmek
+fen-mv-205 | F.8.1.1.1 | z2 | k2 | Bir okul kütüphanesinin güneye bakan penceresinden öğle vakti içeri giren güneş ışığının zeminde kapladığı bölge, haziran ve aral… | ✓I ve II
+fen-mv-206 | F.8.1.1.1 | z2 | k2 | Bir atletizm takımı, sahadaki 1,5 m yüksekliğindeki direğin gölge uzunluğunu bir yıl boyunca her ayın 21'inde, gölgenin en kısa o… | ✓Haziran
+fen-mv-207 | F.8.1.1.1 | z3 | k2 | Bir haber sitesinde aynı güne ait iki haber yan yana yayımlanmıştır. Kuzey Yarım Küre'deki K şehrinde kar yağışı okulları tatil e… | ✓I ve III
+fen-mv-208 | F.8.1.1.1 | z3 | k2 | Bir öğrenci, mevsimlerin oluşumunda eksen eğikliğinin rolünü göstermek için iki düzenek kurmuştur. Düzeneklerde özdeş küreler, öz… | ✓I ve II
+fen-mv-209 | F.8.1.1.1 | z3 | k2 | Bir yüzme kulübü, açık havuzunun suyunu güneş enerjisiyle ısıtmaktadır. Kulüp, dört ayrı tarihte bulutsuz havada, saat 10.00 ile … | ✓I ve II
+fen-mv-210 | F.8.1.1.1 | z3 | k2 | Elif, kırtasiyeden aldığı güneş ışığında rengi koyulaşan boncuklarla bir çalışma yapmıştır. Aynı boncukları dört ayrı tarihte, bu… | ✓I, II ve III
+fen-mv-211 | F.8.1.1.1 | z3 | k2 | Fen dersinde bir öğrenci, "Mevsimler, Dünya'nın Güneş'e olan uzaklığının yıl içinde değişmesiyle oluşur." görüşünü savunmuştur. Ö… | ✓Görüşü çürütür; Güneş'e en yakın konumda bir…
+fen-mv-212 | F.8.1.1.1 | z3 | k2 | Elif, aynı gün içinde iki farklı şehirde yaşayan akrabalarıyla mesajlaşmıştır. Mesajların bir bölümü tabloda verilmiştir. I. K ve… | ✓I ve II
+fen-mv-301 | F.8.1.1.1 | z3 | k3 | Bir okulun teknoloji atölyesinde öğrenciler, özdeş iki güneş pilini aynı ışık kaynağından çıkan eşit genişlikte birer ışık demeti… | ✓I ve II
+fen-mv-302 | F.8.1.1.1 | z3 | k3 | Bir bilim merkezinin planetaryum gösterisinde Dünya'nın Güneş çevresindeki dolanması canlandırılmaktadır. Gösteride Dünya'nın dön… | ✓K – Yaz
+fen-mv-303 | F.8.1.1.1 | z3 | k3 | Bir havayolu şirketinin uçuş dergisinde, aynı gün iki ayrı şehre yapılan seferler tanıtılmıştır. Yazıda, 21 Aralık günü İstanbul'… | ✓I ve II
+fen-mv-304 | F.8.1.1.1 | z3 | k3 | Bir doğa gözlem kulübü, aynı kamp alanına ocak ve temmuz aylarında birer kez gitmiştir. Kulüp üyeleri her iki kampta da öğle vakt… | ✓I, II ve III
+fen-mv-305 | F.8.1.1.1 | z3 | k3 | Bir market zinciri, yıl boyunca taze meyve bulundurabilmek için hem Türkiye'den hem de Güney Yarım Küre'deki Şili'den alım yapmak… | ✓Dünya'nın dönme ekseninin dolanma düzlemine …
+fen-mv-306 | F.8.1.1.1 | z3 | k3 | Bir spor bilimleri merkezi, açık hava antrenmanlarını planlamak için sporcuların kullandığı sahada yılın dört gününde ölçüm yapmı… | ✓I ve III
+fen-mv-307 | F.8.1.1.1 | z3 | k3 | Bir müzenin gök bilim salonunda, Dünya'nın Güneş çevresindeki yolculuğunu gösteren bir animasyon ekranı bulunmaktadır. Ziyaretçil… | ✓Dünya yörüngenin karşı tarafına geçtiğinde e…
+fen-mv-308 | F.8.1.1.1 | z4 | k3 | Bir fabrikanın çatısına, güneş panellerinin eğimini yıl boyunca kendiliğinden değiştiren bir sistem kurulmuştur. Sistem, öğle vak… | ✓I ve II
+fen-mv-309 | F.8.1.1.1 | z4 | k3 | Cem, mevsimlerin nedenini araştırmak için bir model kurmuştur. Modelde sabit duran bir lamba Güneş'i, üzerine ışık sensörü yapışt… | ✓I ve II
+fen-mv-310 | F.8.1.1.1 | z4 | k3 | Bir gök bilim dergisinde, Güneş'e benzeyen bir yıldızın çevresinde dolanan üç gezegen tanıtılmıştır. Üç gezegenin de dolanma düzl… | ✓S gezegeninde eksenin eğikliği, gezegenin yı…
+fen-mv-311 | F.8.1.1.1 | z4 | k3 | Bir otobüs firması, dinlenme tesisinin otoparkına araçları yazın serin tutacak bir gölgelik yaptırmak istemektedir. Mimar, gölgel… | ✓I ve II
+fen-mv-312 | F.8.1.1.1 | z4 | k3 | Bir tarım araştırma istasyonunu gezen öğrencilere şu soru yöneltilmiştir: "Dünya'nın dönme ekseninin eğiklik açısı bugünkünden da… | ✓Deniz ve Ege
+fen-mv-001 | F.8.1.1.1 | z1 | k0 | Dünya'da mevsimlerin oluşmasının temel nedeni aşağıdakilerden hangisidir? | ✓Dünya'nın dönme ekseninin dolanma düzlemine …
+fen-mv-002 | F.8.1.1.1 | z1 | k0 | Aşağıda Dünya'nın dönme ekseni ile Güneş çevresindeki dolanma düzlemi arasındaki açı α ile gösterilmiştir. Buna göre α açısı kaç … | ✓66,5°
+fen-mv-003 | F.8.1.1.1 | z1 | k0 | Bir kamp rehberi, kampçılara "Aynı yerde dikili duran bir ağacın öğle vakti gölgesi yazın kısa, kışın uzundur." demiştir. Buna gö… | ✓Yazın Güneş ışınlarının yere daha dik düşmesi
+fen-mv-004 | F.8.1.1.1 | z2 | k0 | Kerem, el fenerini bir duvara önce tam karşıdan (dik), sonra yana doğru eğerek tutmuştur. Fenerin verdiği ışık iki durumda da ayn… | ✓Duvarın birim yüzeyine düşen ışık enerjisi a…
+fen-mv-005 | F.8.1.1.1 | z2 | k0 | Bir öğrenci değişim programıyla temmuz ayında Türkiye'den Avustralya'ya gitmiştir. Bavuluna yazlık kıyafetler koyan öğrenci, indi… | ✓Avustralya Güney Yarım Küre'de olduğu için ı…
+fen-mv-006 | F.8.1.1.1 | z2 | k0 | Aşağıda Dünya'nın Güneş çevresindeki yörüngesi üzerindeki iki konumu gösterilmiştir. Şekilde dönme ekseni çizilmiş, kuzey kutupla… | ✓Kış – Daha eğik
+fen-mv-007 | F.8.1.1.1 | z2 | k0 | Bir çiftçi, aynı tohumu ektiği tarlasının iki bölümünde ürünlerin farklı zamanlarda olgunlaştığını fark etmiştir. Güneye bakan eğ… | ✓Eğimli bölümde ışınlar yüzeye daha dik düştü…
+fen-mv-008 | F.8.1.1.1 | z3 | k0 | Bir fabrikanın çatısına yerleştirilen güneş panellerinin ürettiği elektrik enerjisi yıl boyunca kaydedilmiştir. Paneller kurulduğ… | ✓I ve III
+fen-mv-009 | F.8.1.1.1 | z3 | k0 | Spor bilimleri dersinde öğrenciler, sentetik saha zemininin yaz aylarında neden aşırı ısındığını araştırmıştır. Özdeş iki zemin ö… | ✓I ve II
+fen-mv-010 | F.8.1.1.1 | z3 | k0 | Bir bilim müzesinin "Mevsimler" köşesinde ziyaretçiler, bir kolu çevirerek yer kürenin dönme ekseninin eğiklik açısını değiştireb… | ✓I ve III
+fen-mv-011 | F.8.1.1.1 | z4 | k0 | Bir okulun teknoloji kulübü, binanın çatısına yerleştirdiği ölçerle yılın altı ayında, her ayın 21'inde öğle vakti bir metrekarel… | ✓I ve II
+fen-mv-012 | F.8.1.1.1 | z4 | k0 | Bir şirketin iki fabrikası vardır: K fabrikası Kuzey Yarım Küre'de, L fabrikası Güney Yarım Küre'dedir. İki fabrikanın çatısında … | ✓I ve II
