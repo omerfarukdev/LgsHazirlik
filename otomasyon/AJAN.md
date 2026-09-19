@@ -1,19 +1,75 @@
-# Otomatik soru üretim ajanı
+# Otomatik soru üretim ajanları
 
-Bu dosya, düzenli aralıklarla kendiliğinden çalışan ajanın görev tanımıdır. Amaç: abinin her seferinde "yanlışlarına göre test üret" demesine gerek kalmaması.
+Bu dosya, düzenli aralıklarla kendiliğinden çalışan üretim ajanlarının görev tanımıdır. Amaç: abinin her seferinde "şu konunun sorularını yaz" demesine gerek kalmaması.
 
 ## İş bölümü
 
 | Katman | Ne yapar | Ne zaman |
 |---|---|---|
-| **Uygulama** (`js/app.js`) | Yanlış yapılan soruyu ve benzerlerini kendiliğinden geri getirir, "Bugünün tekrarı" testini hazırlar | Anında, her test bitiminde |
-| **Bu ajan** | Zayıf kalınan kazanımlara **yeni sorular yazar**, takvimdeki konuları önceden hazırlar | Zamanlanmış (haftada 2-3 kez) |
+| **Uygulama** (`js/app.js`) | Yanlış yapılan soruyu ve benzerlerini kendiliğinden geri getirir, günlük tekrarı ve paragraf rutinini hazırlar | Anında, her test bitiminde |
+| **Paragraf ajanı** | Paragraf havuzuna sürekli yeni soru ekler | **Her çalışmada, istisnasız** |
+| **Ders ajanları** (6 adet) | Kendi dersinde takvimin 2 konu ilerisini hazır tutar | Her çalışmada, sırayla |
 
-Uygulama var olan soruları yeniden düzenler; ajan havuzu büyütür. Havuz büyümezse tekrar testleri aynı soruları döndürmeye başlar — ajanın asıl işi budur.
+Uygulama var olan soruları yeniden düzenler; ajanlar havuzu büyütür. Havuz büyümezse tekrar ve rutin aynı soruları döndürmeye başlar.
 
-## Her çalışmada izlenecek adımlar
+---
 
-### 1. Durumu oku
+## Kural 1: Paragraf hiç durmaz
+
+Paragraf, LGS'nin en yüksek getirili konusu (Türkçe'nin 20 sorusunun 6-8'i) ve bütün derslerin okuma hızını belirleyen beceri. Öğrencinin günlük hedefi **50 soru**, yani havuz hızlı tükeniyor.
+
+**Her ajan çalışmasında paragraf üretimi yapılır.** Başka hiçbir iş bunun önüne geçmez. Diğer dersler bir hafta bekleyebilir, paragraf bekleyemez.
+
+- Parti başına **10 ajan × 20 soru = 200 soru** hedeflenir.
+- Her ajana farklı bir **metin alanı** verilir ki metinler çeşitlensin: doğa, bilim, sanat, spor, teknoloji, tarih, şehir, deneme, çevre, yolculuk. Bu liste zamanla genişletilmeli (mağara ekosistemleri, gelgit havuzları, tohum bankaları, meslekler, müzik, mutfak kültürü, denizcilik, meteoroloji, hukuk ve haklar, istatistik okuryazarlığı…).
+- Dosya: `sorular/tur-paragrafta-anlam-<N>.js`, N kaldığı yerden devam eder.
+- Kimlik aralığı: dört haneli, çakışmayacak şekilde ilerler (`tur-pa-1001`, `tur-pa-2001`, `tur-pa-3001` …).
+- Hepsi `kademe: 0`. Paragraf `rutin` bir konudur, kademeli testi yoktur.
+
+Kalite kuralları `CLAUDE.md` içindeki "Paragraf havuzu" bölümünde.
+
+---
+
+## Kural 2: Takvimin daima 2 konu ilerisinde ol
+
+Okul o hafta hangi konuyu işliyorsa, **ondan sonraki iki konunun soruları hazır beklemeli.** Öğrenci okulda konuyu bitirdiği gün teste girebilsin, üretim beklemesin.
+
+### Nasıl yapılır
+
+1. `js/takvim.js` dosyasını oku. Hafta hafta hangi derste hangi konunun işlendiği orada yazılı.
+2. Bugünün tarihine göre **bu haftayı** bul.
+3. Her ders için, bu haftadan itibaren takvimde geçen konuları sırayla listele.
+4. Sıradaki **iki** konunun soruları tamam mı diye bak. "Tamam" demek: kademe 1, 2 ve 3'te 12'şer soru **ve** havuzda 12 soru.
+5. Eksik olan ilk konudan başla, tamamla.
+
+```
+node -e "global.window={};require('./js/konular.js');require('./js/takvim.js');
+var fs=require('fs');var m=JSON.parse(fs.readFileSync('sorular/manifest.js','utf8').replace(/^[\s\S]*?\[/,'[').replace(/\];[\s\S]*$/,']'));
+m.forEach(function(f){try{require('./sorular/'+f)}catch(e){}});
+var bugun=new Date();var h=window.LGS_TAKVIM.filter(function(x){return new Date(x.bit+'T23:59')>=bugun})[0];
+console.log('Bu hafta: '+(h?h.no:'?'));
+Object.keys(h.konu||{}).forEach(function(ders){
+  var sira=[],gor={};
+  window.LGS_TAKVIM.forEach(function(x){var k=x.konu&&x.konu[ders];if(k&&!gor[k]&&x.no>=h.no){gor[k]=1;sira.push(k)}});
+  sira.slice(0,3).forEach(function(k,i){
+    var a=(window.LGS_BANK&&window.LGS_BANK[k])||[];
+    var s={0:0,1:0,2:0,3:0};a.forEach(function(q){s[q.kademe]++});
+    console.log('  '+ders+' +'+i+': '+k+'  ['+s[1]+'/'+s[2]+'/'+s[3]+' havuz '+s[0]+']'+(a.length<48?'  <-- EKSIK':''));
+  });
+});"
+```
+
+### Öncelik sırası
+
+Eksik konu birden fazlaysa **katsayısı yüksek ders önce gelir**: Türkçe, Matematik, Fen (katsayı 4) → İnkılap, Din, İngilizce (katsayı 1).
+
+### Takvim kayabilir
+
+Yıllık plan ikincil kaynaktır; okuldan okula 1-3 hafta sapar. Öğrenci bir konunun testini çözdüyse o konu okulda işlenmiş demektir. `lgs_konuDurum` içindeki `islendi` damgası takvimden **daha güvenilirdir**; ikisi çelişirse öğrencinin gerçek ilerlemesini esas al.
+
+---
+
+## Kural 3: Öğrencinin zayıf noktalarına dön
 
 Panel bağlantısı kuruluysa (`rapor/KURULUM.md`), Apps Script adresinden ilerlemeyi çek:
 
@@ -21,61 +77,60 @@ Panel bağlantısı kuruluysa (`rapor/KURULUM.md`), Apps Script adresinden ilerl
 curl -s "<APPS_SCRIPT_URL>?islem=yedek"
 ```
 
-Dönen JSON'daki `veri` alanı öğrencinin localStorage kopyasıdır. İşine yarayanlar:
+Dönen JSON'daki `veri` alanı öğrencinin localStorage kopyasıdır:
 - `lgs_gecmis`: çözülen testler (`sorular`, `cevap`, `sureSoru`, `neden`, `oran`, `kademe`)
 - `lgs_yanlis`: yanlış defteri (soru id → `{ts, konu, seri, tekrar}`)
-- `lgs_konuDurum`: konu → kademe → `{enIyi, son, deneme}`
+- `lgs_konuDurum`: konu → kademe → `{enIyi, son, deneme}`, ayrıca `islendi` damgası
 - `lgs_gorulen`: öğrencinin gördüğü soru id'leri
 
-Adres henüz yoksa ya da çekilemezse **2A'yı atla, doğrudan 2B'ye geç** ve raporda belirt.
+**Veriyi proje klasörüne YAZMA.** Yalnızca bellekte işle. `git add -A` ile herkese açık depoya öğrencinin kişisel verisini göndermek kabul edilemez. Apps Script adresini de hiçbir dosyaya, commit mesajına ya da rapora yazma.
 
-**Veriyi proje klasörüne YAZMA.** Çektiğin ilerlemeyi yalnızca bellekte işle; dosyaya yazman gerekiyorsa
-geçici klasörü kullan. `git add -A` ile herkese açık depoya öğrencinin kişisel verisini göndermek
-kabul edilemez. Apps Script adresini de hiçbir dosyaya, commit mesajına ya da rapora yazma.
-
-### 2A. Zayıf noktaları çıkar (veri varsa)
-
-Her yanlış cevabı sorunun `kazanim` ve `hatalar[secilen]` alanıyla eşleştir. Şunları sırala:
+Veriden çıkaracakların:
 - **Zayıf kazanımlar:** aynı kazanımda 2+ yanlış, ya da kademe başarısı < %70.
-- **Tekrarlayan hata yolları:** `hatalar` metinlerinde öne çıkan örüntü (EBOB↔EKOK karıştırma, son adımı atlama, sınırı dahil etme, birim çevirmeme…).
-- **Tükenen havuzlar:** `lgs_gorulen` o konudaki soruların %70'inden fazlasını kapsıyorsa havuz tükeniyordur.
+- **Tekrarlayan hata yolları:** `hatalar` metinlerinde öne çıkan örüntü (EBOB↔EKOK karıştırma, son adımı atlama, sınırı dahil etme, ısı↔sıcaklık, metinde var ama ilgisiz…).
+- **Tükenen havuzlar:** `lgs_gorulen` o konudaki soruların %70'inden fazlasını kapsıyorsa.
 - **Süre sorunu:** `sureSoru` değerleri `ayar.js`'teki `sureSoruBasi` değerinin iki katını aşan sorular.
 
-**Üretim önceliği:** zayıf kazanımlar → tükenen havuzlar → takvimdeki sıradaki konu.
+Zayıf bir kazanım bulduysan, o kazanımdan **öğrencinin düştüğü hata yolunu çeldirici olarak kuran** sorular yaz. Önce kolay (düzey 1-2) bir basamak koy, sonra düzeyi yükselt.
 
-### 2B. Veri yoksa: takvime göre üret
+Adres yoksa ya da çekilemezse bu adımı atla ve raporda belirt; Kural 1 ve 2 yine de uygulanır.
 
-`planlama/PLAN.md` bölüm 10'daki ay-konu haritasına bak. Okulun **2-3 hafta önünden** git: o ay işlenen ve bir sonraki konunun soruları hazır olmalı. Hazır olmayan ilk konuyu seç.
+---
 
-### 3. Soruları yaz
+## Her çalışmanın akışı
 
-- `CLAUDE.md`'deki format, müfredat sınırları ve kalite kurallarına **birebir** uy.
-- Bir çalışmada **12-24 soru**. Az ve doğru, çok ve şüpheliden iyidir.
-- Zayıf kazanım için üretiyorsan: aynı kazanımdan, **öğrencinin düştüğü hata yolunu çeldirici olarak kuran** sorular yaz. Önce kolay (düzey 1-2) bir basamak koy, sonra düzeyi yükselt.
-- Yeni konu için üretiyorsan kademe dağılımına uy (Kavrama 12, Pekiştirme 12, LGS Ayarı 12, havuz 12).
-- `id` çakışmasını önlemek için mevcut dosyadaki en büyük numaradan devam et.
-- **Var olan soruları değiştirme, silme.** Yalnızca yeni dosya ekle ya da mevcut dosyanın sonuna ekle.
+1. **Paragraf partisi** (Kural 1) — her zaman.
+2. **Takvim kontrolü** (Kural 2) — eksik varsa en öncelikli dersten başla.
+3. **Zayıf nokta üretimi** (Kural 3) — veri varsa.
 
-### 4. Doğrula (atlanamaz)
+Bir çalışmada toplam **200-300 sorudan fazlasını üretme**; kalite düşer.
 
-1. **Kör doğrulama:** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret; ayrı bir ajan (`general-purpose`) bu JSON'u çözsün, `sorular/` klasörünü açmasın. Tutmayan soruyu düzelt ya da at.
-2. `node dogrula.js` — hata ve uyarı sıfır olmalı.
-3. Yeni dosyayı `sorular/manifest.js` listesine ekle.
+---
 
-### 5. Yayımla
+## Doğrulama (atlanamaz)
+
+Hiçbir soru bu adımlar geçilmeden yayımlanmaz.
+
+1. **Kör doğrulama:** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret. Ayrı bir ajan (`general-purpose`) bu JSON'u çözsün ve `sorular/` klasörünü **açmasın**. Aranacak kusurlar: birden fazla savunulabilir doğru, doğru şıkkın olmaması, belirsiz ifade, zayıf çeldirici (okumadan elenebilen şık), müfredat dışı bilgi, dil hatası, zorluk uyumsuzluğu.
+2. Bulunan kusurlar düzeltilir, düzeltilen sorular **yeniden** kör doğrulamadan geçirilir.
+3. `node dogrula.js` — hata ve uyarı sıfır olmalı.
+4. Yeni dosya `sorular/manifest.js` listesine eklenir.
+
+## Yayımlama
 
 ```
 git add -A && git commit -m "<konu>: N yeni soru (otomatik)" && git push
 ```
 
-Çekirdek dosyalara dokunmadıysan `?v=` damgasını değiştirme.
+Çekirdek dosyalara (`index.html`, `js/app.js`, `css/style.css`, `panel.html`) dokunmadıysan `?v=` damgasını değiştirme.
 
-### 6. Raporla
+## Rapor
 
-Kısa tut: kaç soru, hangi konu ve kazanımlar, hangi zayıflığa karşılık, doğrulamada ne elendi. Veri okunamadıysa bunu ilk satırda söyle.
+Kısa tut: kaç soru, hangi konu ve kazanımlar, hangi zayıflığa karşılık, doğrulamada ne elendi, havuzun son durumu (özellikle paragrafta kaç taze soru kaldı). Veri okunamadıysa bunu ilk satırda söyle.
 
 ## Sınırlar
 
-- Öğrencinin kişisel verisini (sonuçlar, yedek) **depoya yazma**.
-- Emin olmadığın bilgiyi soruya çevirme; kaynağı `planlama/kaynaklar/` altındaki resmi programdır.
-- Bir çalışmada 24 sorudan fazlasını üretme; kalite düşer.
+- Yayımlanmış soru `id`'lerini ve konu `id`'lerini **değiştirme**; öğrencinin ilerlemesi bunlara bağlı.
+- Yayımlanmış soruyu silme; hatalıysa düzelt.
+- Emin olmadığın bilgiyi soruya çevirme; kaynak `planlama/kaynaklar/` altındaki resmi programdır.
+- Paragraf metinleri **tamamen özgün** yazılır; alıntı ya da tanınmış bir metnin yeniden yazımı kabul edilmez.

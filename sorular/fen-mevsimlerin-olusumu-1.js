@@ -8,7 +8,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   kademe: 1,
   zorluk: 1,
   soru: "Aşağıda Dünya'nın dönme ekseni ile Güneş çevresindeki dolanma düzlemi şematik olarak gösterilmiştir.\n**Buna göre Dünya'nın dönme ekseni için aşağıdakilerden hangisi doğrudur?**",
-  gorsel: `<svg viewBox="0 0 480 280" role="img" aria-label="Dünya'nın dönme ekseni, dolanma düzlemi ve düzleme dik doğrultu"><ellipse cx="240" cy="190" rx="180" ry="44" fill="none" stroke="currentColor" stroke-width="2"/><line x1="240" y1="58" x2="240" y2="262" stroke="currentColor" stroke-width="1.5" stroke-dasharray="7 5"/><line x1="285" y1="56" x2="195" y2="264" stroke="var(--vurgu)" stroke-width="3"/><circle cx="240" cy="160" r="32" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><path d="M240 96 A 44 44 0 0 1 259 100" fill="none" stroke="var(--vurgu2)" stroke-width="2.5"/><g fill="currentColor" font-size="15"><text x="300" y="50" fill="var(--vurgu)" font-weight="bold">Dönme ekseni</text><text x="10" y="50">Dolanma düzlemine</text><text x="10" y="70">dik doğrultu</text><text x="330" y="252">Dolanma düzlemi</text><text x="266" y="112" fill="var(--vurgu2)" font-weight="bold">23°27'</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 480 280" role="img" aria-label="Dünya'nın dönme ekseni, dolanma düzlemi ve düzleme dik doğrultu"><ellipse cx="240" cy="190" rx="180" ry="44" fill="none" stroke="currentColor" stroke-width="2"/><line x1="240" y1="58" x2="240" y2="262" stroke="currentColor" stroke-width="1.5" stroke-dasharray="7 5"/><line x1="285" y1="56" x2="195" y2="264" stroke="var(--vurgu)" stroke-width="3"/><circle cx="240" cy="160" r="32" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><path d="M240 96 A 64 64 0 0 1 259 100" fill="none" stroke="var(--vurgu2)" stroke-width="2.5"/><g fill="currentColor" font-size="15"><text x="300" y="50" fill="var(--vurgu)" font-weight="bold">Dönme ekseni</text><text x="10" y="50">Dolanma düzlemine</text><text x="10" y="70">dik doğrultu</text><text x="330" y="252">Dolanma düzlemi</text><text x="266" y="112" fill="var(--vurgu2)" font-weight="bold">23°27'</text></g></svg>`,
   secenekler: [
     "Dolanma düzlemine dik doğrultudan sapmış, eğik durumdadır.",
     "Dolanma düzlemine dik doğrultuyla tam olarak çakışmaktadır.",
@@ -36,7 +36,7 @@ Cevap A.`
   kademe: 1,
   zorluk: 1,
   soru: "Elif, özdeş iki el fenerini aynı yükseklikten bir kâğıda tutmuştur. Fenerlerin kâğıtla yaptığı açılar ve oluşan aydınlık bölgelerin genişliği görselde verilmiştir.\n**Buna göre aşağıdakilerden hangisi doğrudur?**",
-  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Kâğıda dik ve eğik tutulan iki el fenerinin oluşturduğu aydınlık bölgeler"><g stroke="currentColor" stroke-width="2.5"><line x1="20" y1="200" x2="240" y2="200"/><line x1="290" y1="200" x2="510" y2="200"/></g><path d="M112 58 L86 200 L164 200 L138 58 Z" fill="var(--vurgu)" opacity="0.3"/><rect x="108" y="32" width="34" height="26" rx="4" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="86" y1="200" x2="164" y2="200" stroke="var(--vurgu)" stroke-width="6"/><path d="M366 46 L316 200 L490 200 L392 66 Z" fill="var(--vurgu2)" opacity="0.3"/><rect x="352" y="24" width="34" height="26" rx="4" fill="var(--dolgu)" stroke="currentColor" stroke-width="2" transform="rotate(32 369 37)"/><line x1="316" y1="200" x2="490" y2="200" stroke="var(--vurgu2)" stroke-width="6"/><g fill="currentColor" font-size="15" text-anchor="middle"><text x="125" y="24" font-weight="bold">I. fener</text><text x="369" y="18" font-weight="bold">II. fener</text><text x="125" y="228">Açı: 90°</text><text x="403" y="228">Açı: 35°</text><text x="125" y="250">Aydınlık: 6 cm</text><text x="403" y="250">Aydınlık: 15 cm</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Kâğıda dik ve eğik tutulan iki el fenerinin oluşturduğu aydınlık bölgeler"><g stroke="currentColor" stroke-width="2.5"><line x1="20" y1="200" x2="240" y2="200"/><line x1="290" y1="200" x2="510" y2="200"/></g><path d="M112 58 L86 200 L164 200 L138 58 Z" fill="var(--vurgu)" opacity="0.3"/><rect x="108" y="32" width="34" height="26" rx="4" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="86" y1="200" x2="164" y2="200" stroke="var(--vurgu)" stroke-width="6"/><path d="M366 46 L316 200 L490 200 L392 66 Z" fill="var(--vurgu2)" opacity="0.3"/><rect x="352" y="24" width="34" height="26" rx="4" fill="var(--dolgu)" stroke="currentColor" stroke-width="2" transform="rotate(32 369 37)"/><line x1="316" y1="200" x2="490" y2="200" stroke="var(--vurgu2)" stroke-width="6"/><g fill="currentColor" font-size="15" text-anchor="middle"><text x="125" y="24" font-weight="bold">I. fener</text><text x="369" y="18" font-weight="bold">II. fener</text><text x="125" y="228">Açı: 90°</text><text x="403" y="228">Açı: 35°</text><text x="125" y="250">Aydınlık: 6 cm</text><text x="403" y="250">Aydınlık: 12 cm</text></g></svg>`,
   secenekler: [
     "I. fenerin ışığı daha geniş alana düşmüş, birim yüzeye düşen enerji artmıştır.",
     "II. fenerin ışığı daha dar alana düşmüş, birim yüzeye düşen enerji artmıştır.",
@@ -52,7 +52,7 @@ Cevap A.`
   ],
   aciklama: `Birim yüzeye düşen ışık enerjisi, yüzeyin her bir biriminin (örneğin her santimetrekaresinin) aldığı enerji miktarıdır.
 Adım 1: İki fener özdeş ve aynı yükseklikte olduğuna göre kâğıda gönderdikleri ışık enerjisi eşittir. Değişen tek şey ışığın kâğıtla yaptığı açıdır.
-Adım 2: Görseldeki ölçüleri oku. I. fener 90° ile, yani dik tutulmuştur ve aydınlık bölge 6 cm'dir. II. fener 35° ile eğik tutulmuştur ve aydınlık bölge 15 cm'dir.
+Adım 2: Görseldeki ölçüleri oku. I. fener 90° ile, yani dik tutulmuştur ve aydınlık bölge 6 cm'dir. II. fener 35° ile eğik tutulmuştur ve aydınlık bölge 12 cm'dir.
 Adım 3: Aynı enerji, I. fenerde dar bir bölgeye toplanmıştır. Dar alana toplanan ışıkta birim yüzeye düşen enerji artar; bu yüzden o bölge daha parlak görünür ve daha çok ısınır.
 Sağlama: Aynı miktarda boyayı küçük bir kâğıda sürersen renk koyu, büyük bir kâğıda yayarsan açık çıkar. Işık da böyledir.
 Cevap C.`
@@ -479,6 +479,171 @@ Adım 2: En kısa gölge 0,5 m ile haziranda ölçülmüştür. Gölgenin en kı
 Adım 3: En uzun gölge ise 3,1 m ile aralıktadır; o tarihte ışınlar en eğik açıyla düşmüştür.
 Sağlama: Direğin boyu 1,5 m'dir. Haziranda gölge direğin boyunun üçte birinden kısadır; aralıkta ise iki katına yakındır. Bu büyük fark, ışınların düşme açısındaki değişimden kaynaklanır.
 Sık yapılan hata: Gölgenin uzun olmasını "Güneş çok güçlü" diye yorumlamak. Uzun gölge, ışınların eğik geldiğini ve birim yüzeye düşen enerjinin az olduğunu gösterir.
+Cevap B.`
+},
+{
+  id: "fen-mv-207",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: `Bir haber sitesinde aynı güne ait iki haber yan yana yayımlanmıştır. Kuzey Yarım Küre'deki K şehrinde kar yağışı okulları tatil ettirmiş, Güney Yarım Küre'deki L şehrinde ise insanlar denize girmiştir. Haberlerde verilen bilgiler tabloda gösterilmiştir.
+I. Bu tarihte iki şehirde farklı mevsimler yaşanmaktadır.
+II. Bu durumun nedeni L şehrinin Güneş'e K şehrinden daha yakın olmasıdır.
+III. Bu tarihte Güneş ışınları L şehrine, K şehrindekinden daha dik açıyla düşmektedir.
+**Buna göre yukarıdaki yargılardan hangileri kesinlikle doğrudur?**`,
+  gorsel: `<table class="tablo"><tr><th>Bilgi</th><th>K şehri</th><th>L şehri</th></tr><tr><td>Bulunduğu yarım küre</td><td>Kuzey</td><td>Güney</td></tr><tr><td>Hava olayı</td><td>Kar yağışlı</td><td>Güneşli</td></tr><tr><td>Saat 14.00 sıcaklığı</td><td>−2 °C</td><td>31 °C</td></tr><tr><td>Gündüz süresi</td><td>9 saat 20 dakika</td><td>14 saat 10 dakika</td></tr></table>`,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "I ve III"],
+  dogru: 3,
+  hatalar: [
+    "III. yargıyı atlama: gündüzü uzun olan, yani yaz yaşanan yarım küre ışınları daha dik açıyla alır.",
+    "I. yargıyı yanlış sayma: birinde kar yağarken diğerinde denize giriliyorsa bu iki şehirde aynı mevsim yaşanamaz.",
+    "Mevsimleri Güneş'e olan uzaklıkla açıklama: aynı anda iki şehrin Güneş'e uzaklığı neredeyse aynıdır; belirleyici olan ışınların düşme açısıdır.",
+    null
+  ],
+  aciklama: `"Kesinlikle doğrudur" diye soran sorularda yalnızca verilenlerden çıkarılabilen yargılar işaretlenir; fazladan varsayım gerektiren yargı doğru sayılmaz.
+Adım 1: I. yargıyı kontrol et. K şehrinde kar yağıyor, sıcaklık −2 °C ve gündüz 9 saat 20 dakika. L şehrinde hava güneşli, sıcaklık 31 °C ve gündüz 14 saat 10 dakika. Biri kış, diğeri yaz koşullarındadır. Aynı tarihte farklı mevsimler yaşandığı kesindir.
+Adım 2: II. yargıyı kontrol et. İki şehir de aynı gezegenin üzerindedir; Güneş'e uzaklıkları arasında mevsim oluşturacak bir fark yoktur. Uzaklık belirleyici olsaydı iki şehirde aynı mevsimin yaşanması gerekirdi. Yanlıştır.
+Adım 3: III. yargıyı kontrol et. L şehrinde gündüz 12 saatten uzun, K şehrinde kısadır. Gündüzü uzun olan yarım küre Güneş'e dönük olan yarım küredir; ışınları daha dik açıyla alır ve bu yüzden birim yüzeyine düşen enerji fazladır. Doğrudur.
+Adım 4: Kesinlikle doğru olan yargılar I ve III'tür.
+Sık yapılan hata: Sıcaklık farkını Güneş'e uzaklığa bağlamak. Mevsimleri oluşturan, eksen eğikliği nedeniyle değişen düşme açısıdır.
+Cevap D.`
+},
+{
+  id: "fen-mv-208",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: `Bir öğrenci, mevsimlerin oluşumunda eksen eğikliğinin rolünü göstermek için iki düzenek kurmuştur. Düzeneklerde özdeş küreler, özdeş ışık kaynaklarından eşit uzaklığa yerleştirilmiştir. I. düzenekte kürenin ekseni dik, II. düzenekte eğiktir. Öğrenci her iki küreyi de ışık kaynağının çevresinde dolaştırıp kürelerin kuzey yarısına düşen ışığı karşılaştırmıştır.
+I. Bu deneyde değiştirilen değişken kürenin ekseninin eğikliğidir.
+II. Kürelerin ışık kaynağına uzaklığı sabit tutulmuştur.
+III. I. düzenekte küre dolandıkça kuzey yarısına düşen ışığın açısı değişir.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 520 250" role="img" aria-label="Dik eksenli ve eğik eksenli iki küre ile özdeş ışık kaynakları"><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"><circle cx="150" cy="130" r="40"/><circle cx="420" cy="130" r="40"/></g><line x1="150" y1="78" x2="150" y2="182" stroke="var(--vurgu2)" stroke-width="3"/><line x1="440" y1="82" x2="400" y2="178" stroke="var(--vurgu2)" stroke-width="3"/><g fill="var(--vurgu)" stroke="currentColor" stroke-width="2"><circle cx="40" cy="130" r="20"/><circle cx="310" cy="130" r="20"/></g><g stroke="var(--vurgu)" stroke-width="2"><line x1="62" y1="118" x2="106" y2="112"/><line x1="62" y1="142" x2="106" y2="148"/><line x1="332" y1="118" x2="376" y2="112"/><line x1="332" y1="142" x2="376" y2="148"/></g><g stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"><line x1="62" y1="130" x2="106" y2="130"/><line x1="332" y1="130" x2="376" y2="130"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="150" y="36" font-weight="bold">I. düzenek</text><text x="420" y="36" font-weight="bold">II. düzenek</text><text x="150" y="212">Eksen dik</text><text x="420" y="212">Eksen eğik</text><text x="84" y="240" font-size="14">Uzaklık: 30 cm</text><text x="354" y="240" font-size="14">Uzaklık: 30 cm</text></g></svg>`,
+  secenekler: ["I ve II", "I ve III", "II ve III", "I, II ve III"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "II. yargıyı yanlış sayma: küreler kaynaklara 30 cm'lik eşit uzaklığa konulmuştur, yani uzaklık sabit tutulmuştur.",
+    "I. yargıyı yanlış sayma: iki düzenek arasındaki tek fark eksenin eğikliğidir; deneyde bilerek değiştirilen değişken budur.",
+    "III. yargıyı doğru sayma: eksen dik olduğunda küre kaynağın çevresinde dolansa da ışığın kuzey yarısına düşme açısı değişmez."
+  ],
+  aciklama: `Bir deneyde bilerek değiştirilen büyüklüğe değiştirilen (bağımsız) değişken, aynı tutulan büyüklüklere ise sabit tutulan (kontrol) değişkenler denir.
+Adım 1: I. yargıyı kontrol et. Küreler özdeş, kaynaklar özdeş, uzaklıklar eşit. Öğrencinin bilerek farklılaştırdığı tek şey eksenin eğikliğidir. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Görselde iki kürenin de kaynağa uzaklığı 30 cm'dir. Bu büyüklük sabit tutulmuştur. Doğrudur.
+Adım 3: III. yargıyı kontrol et. I. düzenekte eksen diktir. Küre kaynağın çevresinde dolansa da kuzey yarısı ışığı hep aynı açıyla alır; hiçbir konumda bir yarı diğerinden daha dönük duruma gelmez. Bu yüzden açı değişmez ve o kürede mevsim oluşmaz. Yanlıştır.
+Adım 4: Doğru yargılar I ve II'dir.
+Sağlama: Zaten deneyin amacı budur: dik eksenli kürede mevsim benzeri bir değişim görülmezken eğik eksenli kürede görülür. Bu da mevsimlerin nedeninin eksen eğikliği olduğunu gösterir.
+Cevap A.`
+},
+{
+  id: "fen-mv-209",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: `Bir yüzme kulübü, açık havuzunun suyunu güneş enerjisiyle ısıtmaktadır. Kulüp, dört ayrı tarihte bulutsuz havada, saat 10.00 ile 14.00 arasında su sıcaklığındaki artışı ölçmüştür. Ölçümler grafikte verilmiştir.
+I. Sıcaklık artışının en büyük olduğu tarihte Güneş ışınları havuza en dik açıyla düşmüştür.
+II. 21 Aralık ölçümünde havuzun birim yüzeyine düşen ışık enerjisi en azdır.
+III. Ölçümler arasındaki farkın nedeni, Güneş'in yaydığı enerjinin mevsimlere göre değişmesidir.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 520 280" role="img" aria-label="Dört tarihte ölçülen su sıcaklığı artışı sütun grafiği"><g stroke="currentColor" stroke-width="2"><line x1="70" y1="30" x2="70" y2="215"/><line x1="70" y1="215" x2="500" y2="215"/></g><g stroke="currentColor" stroke-width="1" opacity="0.35"><line x1="70" y1="178" x2="500" y2="178"/><line x1="70" y1="141" x2="500" y2="141"/><line x1="70" y1="104" x2="500" y2="104"/><line x1="70" y1="67" x2="500" y2="67"/></g><g fill="var(--vurgu)"><rect x="106" y="126" width="56" height="89"/><rect x="206" y="48" width="56" height="167"/><rect x="306" y="119" width="56" height="96"/><rect x="406" y="182" width="56" height="33"/></g><g fill="currentColor" font-size="14" text-anchor="end"><text x="62" y="220">0</text><text x="62" y="183">1</text><text x="62" y="146">2</text><text x="62" y="109">3</text><text x="62" y="72">4</text><text x="62" y="35">5</text></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="134" y="236">21 Mart</text><text x="234" y="236">21 Haziran</text><text x="334" y="236">23 Eylül</text><text x="434" y="236">21 Aralık</text><text x="134" y="118">2,4</text><text x="234" y="40">4,5</text><text x="334" y="111">2,6</text><text x="434" y="174">0,9</text></g><text x="285" y="262" fill="currentColor" font-size="15" text-anchor="middle" font-weight="bold">Grafik: Dört saatte su sıcaklığındaki artış (°C)</text></svg>`,
+  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
+  dogru: 2,
+  hatalar: [
+    "II. yargıyı atlama: en az ısınmanın olduğu tarihte havuzun birim yüzeyine düşen enerji de en azdır.",
+    "I. yargıyı yanlış sayma: suyun en çok ısındığı tarihte ışınlar havuza en dik açıyla düşmüştür.",
+    null,
+    "Güneş'in yaydığı enerjinin mevsimlere göre değiştiğini sanma: Güneş'in yaydığı enerji değişmez; değişen, ışınların yere düşme açısıdır."
+  ],
+  aciklama: `Bir yüzeyin ısınma miktarı, o yüzeyin birim alanına düşen ışık enerjisiyle doğru orantılıdır.
+Adım 1: Grafiği oku. Dört saatteki sıcaklık artışları sırasıyla 2,4 °C, 4,5 °C, 2,6 °C ve 0,9 °C'dir. En büyük artış 21 Haziran'da, en küçük artış 21 Aralık'tadır.
+Adım 2: I. yargıyı kontrol et. En çok ısınmanın olduğu tarihte havuzun birim yüzeyine en çok enerji düşmüştür; bu da ışınların en dik açıyla geldiği anlamına gelir. Doğrudur.
+Adım 3: II. yargıyı kontrol et. 21 Aralık'ta artış yalnızca 0,9 °C'dir. En az ısınma, birim yüzeye düşen enerjinin en az olduğunu gösterir. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Güneş'in yaydığı enerji mevsimlere göre değişmez. Değişen, Dünya'nın eksen eğikliği nedeniyle ışınların yere düşme açısıdır. Yanlıştır.
+Adım 5: Doğru yargılar I ve II'dir.
+Sık yapılan hata: Sıcaklık farkını "Güneş kışın daha az ısıtır." diye açıklamak. Güneş her mevsim aynı enerjiyi yayar; fark, o enerjinin yeryüzünde ne kadar geniş bir alana yayıldığındadır.
+Cevap C.`
+},
+{
+  id: "fen-mv-210",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: `Elif, kırtasiyeden aldığı güneş ışığında rengi koyulaşan boncuklarla bir çalışma yapmıştır. Aynı boncukları dört ayrı tarihte, bulutsuz havada ve gölgenin en kısa olduğu anda 5 dakika balkona bırakmış, sonra renk koyuluğunu 1 (en açık) ile 5 (en koyu) arasında puanlamıştır. Sonuçlar tabloda verilmiştir.
+I. Boncukların en koyu renk aldığı tarihte ışınlar balkona en dik açıyla düşmüştür.
+II. 21 Aralık ölçümünde balkonun birim yüzeyine düşen ışık enerjisi en azdır.
+III. Bu çalışmada boncukların rengi, birim yüzeye düşen ışık enerjisinin göstergesi olarak kullanılmıştır.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<table class="tablo"><tr><th>Ölçüm tarihi</th><th>Renk koyuluğu puanı</th></tr><tr><td>21 Mart</td><td>3</td></tr><tr><td>21 Haziran</td><td>5</td></tr><tr><td>23 Eylül</td><td>3</td></tr><tr><td>21 Aralık</td><td>1</td></tr></table>`,
+  secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
+  dogru: 3,
+  hatalar: [
+    "II ve III'ü değerlendirmeme: en az koyulaşmanın olduğu tarihte birim yüzeye düşen enerji de en azdır ve boncuklar tam olarak bu enerjiyi ölçmek için kullanılmıştır.",
+    "III. yargıyı yanlış sayma: Elif ışığın enerjisini doğrudan ölçemediği için boncukların rengini gösterge olarak kullanmıştır.",
+    "I. yargıyı yanlış sayma: en koyu renk, ışınların en dik açıyla geldiği tarihte elde edilmiştir.",
+    null
+  ],
+  aciklama: `Doğrudan ölçemediğimiz bir büyüklüğü, ona bağlı olarak değişen başka bir büyüklükle izleyebiliriz. Buna gösterge denir.
+Adım 1: Tabloyu oku. Renk koyuluğu puanları 3, 5, 3 ve 1'dir. En koyu renk 21 Haziran'da, en açık renk 21 Aralık'ta elde edilmiştir.
+Adım 2: I. yargıyı kontrol et. Boncuklar daha çok ışık enerjisi aldıkça daha çok koyulaşır. En koyu rengin görüldüğü 21 Haziran'da balkona düşen enerji en fazladır; bu da ışınların o tarihte en dik açıyla düştüğünü gösterir. Doğrudur.
+Adım 3: II. yargıyı kontrol et. 21 Aralık'ta puan 1'dir, yani boncuklar en az koyulaşmıştır. Öyleyse balkonun birim yüzeyine düşen enerji de en azdır. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Süre, hava durumu ve boncuklar her ölçümde aynı tutulmuştur; değişen tek şey tarihtir. Elif, gözle göremediği enerji farkını renk değişimiyle izlemiştir. Yani renk bir göstergedir. Doğrudur.
+Adım 5: Üç yargı da doğrudur.
+Sağlama: Aynı boncuklar aynı sürede farklı renkler aldıysa balkona düşen enerji tarihten tarihe değişmiş demektir. Bunu değiştiren de ışınların düşme açısıdır.
+Cevap D.`
+},
+{
+  id: "fen-mv-211",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: "Fen dersinde bir öğrenci, \"Mevsimler, Dünya'nın Güneş'e olan uzaklığının yıl içinde değişmesiyle oluşur.\" görüşünü savunmuştur. Öğretmeni sınıfa görseldeki bilgileri vermiştir: Dünya ocak başında Güneş'e en yakın, temmuz başında en uzak konumdadır. Ayrıca ocak ayında Kuzey Yarım Küre'de kış, Güney Yarım Küre'de yaz yaşanmaktadır.\n**Buna göre bu bilgiler öğrencinin görüşü hakkında ne gösterir?**",
+  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Dünya'nın ocak ve temmuz başındaki konumları ile Güneş'e uzaklıkları"><ellipse cx="260" cy="130" rx="205" ry="96" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8 6"/><circle cx="260" cy="130" r="26" fill="var(--vurgu)"/><text x="260" y="176" fill="currentColor" font-size="15" text-anchor="middle" font-weight="bold">Güneş</text><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="55" cy="130" r="22"/><circle cx="465" cy="130" r="22"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="77" y1="130" x2="234" y2="130"/><line x1="286" y1="130" x2="443" y2="130"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="55" y="42" font-weight="bold">Ocak başı</text><text x="465" y="42" font-weight="bold">Temmuz başı</text><text x="155" y="122">147 milyon km</text><text x="365" y="122">152 milyon km</text><text x="55" y="196" font-size="14">Kuzeyde kış,</text><text x="55" y="214" font-size="14">güneyde yaz</text><text x="465" y="196" font-size="14">Kuzeyde yaz,</text><text x="465" y="214" font-size="14">güneyde kış</text></g></svg>`,
+  secenekler: [
+    "Görüşü doğrular; Güneş'e yaklaşıldığında yaz yaşanmaktadır.",
+    "Görüşü çürütür; Güneş'e en yakın konumda bir yarım kürede kış yaşanmaktadır.",
+    "Görüşü doğrular; uzaklık farkı iki yarım kürede de aynı mevsimi oluşturmaktadır.",
+    "Görüş hakkında bir şey göstermez; uzaklık ile mevsim arasında bağ kurulamaz."
+  ],
+  dogru: 1,
+  hatalar: [
+    "Görseldeki veriyi okumadan yanılgıyı sürdürme: Güneş'e en yakın olunan ocak başında Kuzey Yarım Küre'de kış yaşanmaktadır.",
+    null,
+    "İki yarım kürede aynı mevsimin yaşandığını sanma: görselde aynı tarihte biri yaz, diğeri kış yaşarken ikisinin de Güneş'e uzaklığı aynıdır.",
+    "Verinin bir sonuca götürmediğini sanma: aynı uzaklıkta farklı mevsimlerin yaşanması, uzaklığın belirleyici olmadığını açıkça gösterir."
+  ],
+  aciklama: `Bir görüşü sınamanın yolu, o görüş doğru olsaydı ne beklememiz gerektiğini düşünüp veriyle karşılaştırmaktır.
+Adım 1: Öğrencinin görüşü doğru olsaydı ne beklerdik? Güneş'e yaklaşıldığında her yerde yaz, uzaklaşıldığında her yerde kış yaşanmasını beklerdik.
+Adım 2: Görseldeki veriye bak. Dünya ocak başında Güneş'e en yakın konumdadır (147 milyon km). Oysa o tarihte Kuzey Yarım Küre'de kış yaşanır. Beklenen ile gözlenen uyuşmuyor.
+Adım 3: Üstelik aynı tarihte iki yarım kürenin Güneş'e uzaklığı aynı olduğu hâlde birinde kış, diğerinde yaz yaşanmaktadır. Aynı uzaklık iki farklı mevsim üretiyorsa mevsimi belirleyen şey uzaklık olamaz.
+Adım 4: Öyleyse bu bilgiler öğrencinin görüşünü çürütmektedir. Mevsimleri belirleyen, eksen eğikliği nedeniyle değişen ışınların düşme açısıdır.
+Sık yapılan hata: Uzaklıktaki 5 milyon kilometrelik farkı büyük sanmak. Bu fark, toplam uzaklığın yüzde dördünden azdır ve mevsim oluşturmaya yetmez.
+Cevap B.`
+},
+{
+  id: "fen-mv-212",
+  kazanim: "F.8.1.1.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: `Elif, aynı gün içinde iki farklı şehirde yaşayan akrabalarıyla mesajlaşmıştır. Mesajların bir bölümü tabloda verilmiştir.
+I. K ve L şehirleri farklı yarım kürelerde bulunmaktadır.
+II. K şehrinde birim yüzeye düşen ışık enerjisi günden güne azalmaktadır.
+III. L şehrinde bu tarihte kesinlikle yaz mevsimi yaşanmaktadır.
+**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  gorsel: `<table class="tablo"><tr><th>Mesajı gönderen</th><th>Mesaj</th></tr><tr><td>K şehrindeki teyzesi</td><td>"Burada gündüzler her geçen gün kısalıyor; okul çıkışında hava kararmaya başladı."</td></tr><tr><td>L şehrindeki dayısı</td><td>"Burada gündüzler her geçen gün uzuyor; akşam antrenmanını artık aydınlıkta bitiriyoruz."</td></tr></table>`,
+  secenekler: ["Yalnız I", "I ve II", "I ve III", "II ve III"],
+  dogru: 1,
+  hatalar: [
+    "II. yargıyı atlama: gündüzler kısalırken Güneş ışınlarının düşme açısı da küçülür, birim yüzeye düşen enerji azalır.",
+    null,
+    "Gündüzlerin uzamasını doğrudan yaz mevsimine eşitleme: gündüzler kış ortasından yaz başına kadar uzar; bu tarihte ilkbahar da yaşanıyor olabilir.",
+    "I. yargıyı yanlış sayma: aynı tarihte bir yerde gündüzler kısalıp başka bir yerde uzuyorsa bu iki yer farklı yarım kürelerdedir."
+  ],
+  aciklama: `Aynı yarım kürenin her yerinde gündüz süresi aynı yönde değişir: ya birlikte uzar ya birlikte kısalır. İki yerde ters yönde değişiyorsa bu yerler farklı yarım kürelerdedir.
+Adım 1: I. yargıyı kontrol et. Aynı tarihte K'de gündüzler kısalıyor, L'de uzuyor. Bu ancak iki şehir farklı yarım kürelerdeyse olur. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Gündüz süresi kısalırken Güneş ışınlarının o şehre düşme açısı da küçülür. Açı küçüldükçe aynı ışık demeti daha geniş bir alana yayılır ve birim yüzeye düşen enerji azalır. Doğrudur.
+Adım 3: III. yargıyı kontrol et. Gündüzler kışın ortasından yazın başına kadar, yani aylarca uzamayı sürdürür. Dayısının mesajı kış sonunda da ilkbaharda da gönderilmiş olabilir. "Kesinlikle yaz" demek fazladan bir varsayımdır. Yanlıştır.
+Adım 4: Doğru yargılar I ve II'dir.
+Sık yapılan hata: Verinin söylediğinden fazlasını çıkarmak. Mesajlar yalnızca gündüzlerin hangi yönde değiştiğini söylüyor; hangi mevsimin yaşandığını tam olarak söylemiyor.
 Cevap B.`
 }
 );

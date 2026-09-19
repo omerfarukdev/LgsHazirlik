@@ -147,16 +147,20 @@ Sık yapılan hata: Yalnızca önceki cümleye bakıp seçmek. Ortadaki boşluğ
 { id: "tur-pa-1050", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
   soru: "Küçük bir ilçenin kültür merkezinde dört ay boyunca dört ayrı sergi açıldı. Sergileri düzenleyen ekip, ziyaretçi sayısını artırmak için her serginin yanına o sanatla ilgili bir atölye koymayı denedi; ancak atölye yalnızca iki sergide açılabildi. Ekibin merak ettiği şey, atölyenin ziyaretçi sayısına gerçekten dokunup dokunmadığıydı. Dönem sonunda hazırladıkları çizelgeye baktıklarında, atölye açılan iki sergide ziyaretçi sayısının belirgin biçimde yüksek olduğunu gördüler. Yine de ekipten biri, fotoğraf sergisinin okulların yarıyıl tatiline denk geldiğini hatırlattı. Sayılar bir şeyi gösteriyordu; ama neyin neye yol açtığını söylemek için tek başına yeterli değildi. Ekip, aynı denemeyi gelecek yıl tatil dışındaki aylarda yinelemeye karar verdi. Bir denemeyi tek seferde okuyup sonuca varmak, çoğu zaman yanıltıcıdır.\n\n**Bu parçaya ve çizelgeye göre aşağıdakilerden hangisi __söylenemez__?**",
   gorsel: `<table class="tablo"><tr><th>Sergi</th><th>Atölye</th><th>Ziyaretçi sayısı</th></tr><tr><td>Minyatür</td><td>Yok</td><td>260</td></tr><tr><td>Karikatür</td><td>Var</td><td>540</td></tr><tr><td>Fotoğraf</td><td>Var</td><td>610</td></tr><tr><td>Heykel</td><td>Yok</td><td>300</td></tr></table>`,
-  secenekler: ["Atölye açılan sergiler, açılmayanlardan daha çok ziyaretçi çekmiştir.", "En az ziyaretçi çeken sergide atölye düzenlenmemiştir.", "Ziyaretçi artışının tek nedeninin atölyeler olduğu kesindir.", "Ekip, ziyaretçi sayısını artırmak için planlı bir deneme yapmıştır."],
+  secenekler: ["Atölye açılan sergiler, atölye açılmayanlardan daha çok ziyaretçi çekmiştir.", "Ziyaretçi sayısı en az olan sergide atölye çalışması düzenlenmemiştir.", "Ziyaretçi sayısındaki artışı sergilerin yanındaki atölyeler sağlamıştır.", "Ekip, sayıları yeterli görmediği için denemeyi yinelemeye karar vermiştir."],
   dogru: 2,
-  hatalar: ["Metinde var ama ilgisiz: çizelgede 540 ve 610, atölyesiz sergilerin 260 ve 300'ünün üstünde.", "Metinde var ama ilgisiz: en düşük sayı 260; minyatür sergisinde atölye yok.", null, "Metinde var ama ilgisiz: ikinci cümle ekibin atölyeyi ziyaretçi artırmak için koyduğunu söylüyor."],
+  hatalar: ["Çizelgede var: atölyeli sergilerin 540 ve 610'u, atölyesizlerin 260 ve 300'ünün üstünde; bu yargı söylenebilir.", "Çizelgede var: en düşük sayı 260 ve minyatür sergisinde atölye yok; bu yargı söylenebilir.", null, "Metinde var: sayıları tek başına yeterli bulmayan ekip, denemeyi yinelemeye karar veriyor; bu yargı söylenebilir."],
   aciklama: `Bu soruda üç şık metne ya da çizelgeye dayanır, biri dayanmaz. Dayanmayanı bul.
 
-Adım 1: A ve B doğrudan çizelgeden okunuyor. Atölyeli sergiler 540 ve 610; atölyesizler 260 ve 300. En düşük sayı olan 260, atölyesiz minyatür sergisine ait.
+Adım 1: A ile B'yi çizelgeden oku. Atölyeli sergiler 540 ve 610; atölyesizler 260 ve 300, yani A söylenebilir. En düşük sayı olan 260 atölyesiz minyatür sergisine ait, yani B de söylenebilir.
 
-Adım 2: D, ikinci cümlede var: ekip atölyeyi ziyaretçi sayısını artırmak için koymuş.
+Adım 2: Geriye iki "neden" cümlesi kalıyor: C ile D. İkisi de bir şeyi bir şeye bağlıyor; hangisinin bağını metnin kendisi kuruyor, ona bak.
 
-Adım 3: C'yi metinle karşılaştır. Metin tam tersini söylüyor: "Sayılar bir şeyi gösteriyordu; ama neyin neye yol açtığını söylemek için tek başına yeterli değildi." Üstelik fotoğraf sergisinin yarıyıl tatiline denk gelmesi, başka bir nedenin de işin içinde olabileceğini gösteriyor. "Tek neden" ve "kesindir" sözleri metni aşan bir genellemedir.
+Adım 3: D'nin bağı metinde yazıyor: "Sayılar bir şeyi gösteriyordu; ama neyin neye yol açtığını söylemek için tek başına yeterli değildi." cümlesinin hemen ardından ekip denemeyi yinelemeye karar veriyor. D söylenebilir.
+
+Adım 4: C'nin bağını ise metin kurmuyor, tersine reddediyor. Sayılar birlikte yükseliyor, ama metin neyin neye yol açtığının bu sayılarla anlaşılamayacağını söylüyor; üstelik fotoğraf sergisinin yarıyıl tatiline denk gelmesi başka bir nedenin de işin içinde olabileceğini gösteriyor.
+
+En güçlü çeldirici D: o da bir neden cümlesi kurduğu için C'ye benziyor. İkisini ayıran şey şudur: D'nin nedenini metin söylüyor, C'nin nedenini okur sayılara bakıp kendi ekliyor.
 
 Sık yapılan hata: İki sayı birlikte yükseliyor diye hemen "demek ki neden bu" demek. Birlikte artan iki şey, birbirinin nedeni olmak zorunda değildir. Cevap C.` },
 
@@ -194,17 +198,19 @@ Sık yapılan hata: Yazarın değer verdiği şeyi "en zor / en değerli" diye a
 
 { id: "tur-pa-1053", kazanim: "T.8.3.19", kademe: 0, zorluk: 3,
   soru: "Aşağıda heykel sanatıyla ilgili numaralanmış cümleler verilmiştir.\n\n**Bu cümlelerden hangisi düşüncenin akışını __bozmaktadır__?**",
-  gorsel: `<table class="tablo"><tr><th>Sıra</th><th>Cümle</th></tr><tr><td>I</td><td>Heykeltıraş taşla çalışırken bir şey eklemez; yalnızca eksiltir.</td></tr><tr><td>II</td><td>Bu yüzden taşta atılan her adım, geri dönüşü olmayan bir karardır.</td></tr><tr><td>III</td><td>Kilden çalışan sanatçı ise yanlış gördüğü yeri koparıp yeniden biçimlendirebilir.</td></tr><tr><td>IV</td><td>Taş yontmakta kullanılan keskiler, çelik kalitelerine göre farklı fiyatlarla satılır.</td></tr><tr><td>V</td><td>Malzemeler arasındaki bu fark, sanatçının çalışma hızını da cesaretini de değiştirir.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>Sıra</th><th>Cümle</th></tr><tr><td>I</td><td>Heykeltıraş taşla çalışırken bir şey eklemez; yalnızca eksiltir.</td></tr><tr><td>II</td><td>Bu yüzden taşta atılan her adım, geri dönüşü olmayan bir karardır.</td></tr><tr><td>III</td><td>Mermer, yüzyıllardır heykelde en çok kullanılan taşlardan biridir.</td></tr><tr><td>IV</td><td>Kilden çalışan sanatçı ise yanlış gördüğü yeri koparıp yeniden biçimlendirebilir.</td></tr><tr><td>V</td><td>Malzemeler arasındaki bu fark, sanatçının çalışma hızını da cesaretini de değiştirir.</td></tr></table>`,
   secenekler: ["II", "III", "IV", "V"],
-  dogru: 2,
-  hatalar: ["Metinde var ama akışı bozmuyor: II, I'deki \"yalnızca eksiltir\" bilgisinin doğrudan sonucudur.", "Kısmen doğru: III yeni bir malzemeye geçiyor, ama V'teki karşılaştırmayı mümkün kılan cümle odur.", null, "Metinde var ama akışı bozmuyor: V, I ile III arasındaki karşıtlığı sonuca bağlıyor."],
-  aciklama: `Adım 1: Düşünce çizgisini çıkar. Taş eksilterek işlenir (I) → bu yüzden hata geri alınamaz (II) → kil ise geri alınabilir (III) → malzemeler arasındaki bu fark sanatçıyı etkiler (V). I-II-III-V dizisi kusursuz akıyor.
+  dogru: 1,
+  hatalar: ["Metinde var ama akışı bozmuyor: II, I'deki \"yalnızca eksiltir\" bilgisinin doğrudan sonucudur.", null, "Kısmen doğru: IV yeni bir malzemeye geçiyor, ama V'teki karşılaştırmayı mümkün kılan cümle odur.", "Metinde var ama akışı bozmuyor: V, taş ile kil arasındaki karşıtlığı sonuca bağlıyor."],
+  aciklama: `Adım 1: Düşünce çizgisini çıkar. Taş eksilterek işlenir (I) → bu yüzden taşta hata geri alınamaz (II) → kil ise geri alınabilir (IV) → malzemeler arasındaki bu fark sanatçıyı etkiler (V). I-II-IV-V dizisi kusursuz akıyor.
 
-Adım 2: IV'e bak. IV, malzemenin sanatçı üzerindeki etkisinden değil, aletin fiyatından söz ediyor. Konu yine heykel; ama akış "geri alınabilirlik" üzerine kurulmuş ve IV bu çizgiye hiçbir şey eklemiyor.
+Adım 2: III'ü yerine koy. III de taştan söz ediyor, bu yüzden ilk bakışta akışın içindeymiş gibi durur. Oysa söylediği şey mermerin ne kadar sık kullanıldığı, yani bir tercih bilgisi. Paragrafın çizgisi ise "yapılan hata geri alınabilir mi?" sorusu üzerine kurulu; mermerin yaygınlığı bu soruya hiçbir şey eklemiyor.
 
-En güçlü çeldirici B (III): III, taştan kile geçtiği için "konu değişti" hissi verir. Oysa III olmadan V'teki "malzemeler arasındaki bu fark" ifadesi boşta kalır; III akışın zorunlu parçasıdır.
+Adım 3: Sağlamasını yap. III'ü çıkarıp parçayı yeniden oku: II'deki taş ile IV'teki kil yan yana gelince karşıtlık daha da netleşiyor. Çıkarınca hiçbir şey eksilmiyorsa o cümle akışın dışındadır.
 
-Sık yapılan hata: Konuyu değiştiren cümle yerine, örneği değiştiren cümleyi seçmek. Bir cümleyi çıkarıp parçayı yeniden oku: çıkarınca bir şey eksiliyorsa o cümle akışın içindedir. Cevap C.` },
+En güçlü çeldirici C (IV): IV, taştan kile geçtiği için "konu değişti" hissi verir. Oysa IV olmadan V'teki "malzemeler arasındaki bu fark" ifadesi boşta kalır; IV akışın zorunlu parçasıdır.
+
+Sık yapılan hata: Aynı konudan söz eden her cümleyi akışın içinde saymak. Aynı konudan söz etmek, aynı düşünceyi sürdürmek demek değildir. Cevap B.` },
 
 { id: "tur-pa-1054", kazanim: "T.8.3.34", kademe: 0, zorluk: 3,
   soru: "Bir romanı okurken kahramanın yüzünü siz kurarsınız. Yazar \"uzun boylu, yorgun bakışlı bir adam\" der; gerisini zihniniz tamamlar. Bu yüzden aynı romanı okuyan iki kişi, aslında birbirine hiç benzemeyen iki yüz görmüştür. Filmde ise durum tersine döner: kahramanın yüzü, sesi ve yürüyüşü perdede hazır beklemektedir. Seyirci onu kurmaz, kabul eder. Romanda zaman da okurun elindedir; bir cümlede durup geri dönebilir, bir bölümü ikinci kez okuyabilirsiniz. Film ise kendi saatiyle akar, sizi beklemez. Biri sizi ortak yapar, öbürü konuk eder; ikisi de değerlidir, ama sizden istedikleri aynı şey değildir. Romandan çıkarken kendi kurduğunuz yüzü, filmden çıkarken başkasının kurduğu yüzü yanınızda taşırsınız; fark tam da buradadır.\n\n**Bu parçanın anlatımında aşağıdaki düşünceyi geliştirme yollarından hangisine başvurulmuştur?**",
