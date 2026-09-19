@@ -29,6 +29,10 @@ Dönen JSON'daki `veri` alanı öğrencinin localStorage kopyasıdır. İşine y
 
 Adres henüz yoksa ya da çekilemezse **2A'yı atla, doğrudan 2B'ye geç** ve raporda belirt.
 
+**Veriyi proje klasörüne YAZMA.** Çektiğin ilerlemeyi yalnızca bellekte işle; dosyaya yazman gerekiyorsa
+geçici klasörü kullan. `git add -A` ile herkese açık depoya öğrencinin kişisel verisini göndermek
+kabul edilemez. Apps Script adresini de hiçbir dosyaya, commit mesajına ya da rapora yazma.
+
 ### 2A. Zayıf noktaları çıkar (veri varsa)
 
 Her yanlış cevabı sorunun `kazanim` ve `hatalar[secilen]` alanıyla eşleştir. Şunları sırala:

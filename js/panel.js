@@ -54,7 +54,13 @@ var Panel = (function () {
   // ================= Veri =================
   function adres() {
     var u = new URLSearchParams(location.search).get("u");
-    if (u) { try { localStorage.setItem("lgs_panelUrl", u); } catch (e) {} return u; }
+    if (u) {
+      u = u.trim().replace(/[?#].*$/, "").replace(/\/+$/, ""); // kendi sorgusu olan adresi temizle
+      try { localStorage.setItem("lgs_panelUrl", u); } catch (e) {}
+      // Adres kaydedildi; adres çubuğunda durmasın (telefon geçmişine ve paylaşımlara sızmasın).
+      try { history.replaceState(null, "", location.pathname); } catch (e) {}
+      return u;
+    }
     try { return localStorage.getItem("lgs_panelUrl") || ""; } catch (e) { return ""; }
   }
   function coz(kopya) {
@@ -131,20 +137,25 @@ var Panel = (function () {
 
     // Ders tablosu
     if (g.length) {
+      // Tekrar testlerinde ders yoktur (karışık sorular); ayrı bir satırda gösterilir ki
+      // tablo toplamı üstteki özet kutularıyla tutsun.
       var ders = {};
       g.forEach(function (t) {
-        var x = ders[t.ders] = ders[t.ders] || { test: 0, d: 0, y: 0, b: 0, net: 0 };
+        var anahtar = t.ders || "_tekrar";
+        var x = ders[anahtar] = ders[anahtar] || { test: 0, d: 0, y: 0, b: 0, net: 0 };
         x.test++; x.d += t.d; x.y += t.y; x.b += t.b; x.net += t.net;
       });
       html += '<h2>Ders ders</h2><div class="kart tablo-sar"><table class="tablo genis"><tr><th>Ders</th><th>Test</th><th>D</th><th>Y</th><th>B</th><th>Net</th><th>Doğruluk</th></tr>';
-      DERSLER.forEach(function (d) {
-        var x = ders[d.id];
-        if (!x) return;
+      function dersSatiri(x, sinifAdi, etiket) {
         var or = x.d / (x.d + x.y + x.b);
-        html += '<tr class="ders-' + d.id + '"><td style="text-align:left">' + App.ikon(d.id) + esc(d.ad) + '</td><td>' + x.test + '</td><td>' + x.d + '</td><td>' + x.y +
+        html += '<tr class="' + sinifAdi + '"><td style="text-align:left">' + etiket + '</td><td>' + x.test + '</td><td>' + x.d + '</td><td>' + x.y +
           '</td><td>' + x.b + '</td><td>' + (Math.round(x.net * 100) / 100).toLocaleString("tr-TR") +
           '</td><td><span class="rozet ' + sinif(or) + '">%' + yuzde(or) + '</span></td></tr>';
+      }
+      DERSLER.forEach(function (d) {
+        if (ders[d.id]) dersSatiri(ders[d.id], "ders-" + d.id, App.ikon(d.id) + esc(d.ad));
       });
+      if (ders._tekrar) dersSatiri(ders._tekrar, "", "Tekrar testleri <span class='soluk kucuk'>(karışık)</span>");
       html += '</table></div>';
     }
 
@@ -240,7 +251,7 @@ var Panel = (function () {
     g.slice().reverse().forEach(function (t) {
       var kb = KONU[t.konu];
       html += '<details class="kart test-detay"><summary><span class="rozet ' + sinif(t.oran) + '">%' + yuzde(t.oran) + '</span>' +
-        '<span class="ls-ad">' + esc(kb ? kb.konu.ad : t.konu) + ' <span class="soluk">· ' + (KADEME_AD[t.kademe] || "") + '</span></span>' +
+        '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + ' <span class="soluk">· ' + (KADEME_AD[t.kademe] || "karışık sorular") + '</span></span>' +
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +
         (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) + (t.sureDoldu ? " · süre doldu" : "") + '</p>';

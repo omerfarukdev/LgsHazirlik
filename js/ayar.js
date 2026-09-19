@@ -26,6 +26,8 @@ window.LGS_AYAR = {
   // Süre bitimine bu kadar saniye kala sayaç kırmızıya döner.
   sureUyari: 120,
 
-  // Rapor altyapısı (Google Apps Script web uygulaması adresi). Boşken veri yalnızca tarayıcıda kalır.
+  // Rapor altyapısı. BURAYI DOLDURMA — bu dosya herkese açık depoda tutuluyor ve Apps Script
+  // adresi bir anahtardır. Adres, uygulamadaki "Panel bağlantısı" penceresinden girilir ve
+  // yalnızca o tarayıcıya kaydedilir. Alan yalnızca geriye dönük uyumluluk için duruyor.
   raporUrl: ""
 };

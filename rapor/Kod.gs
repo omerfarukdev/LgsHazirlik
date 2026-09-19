@@ -55,7 +55,11 @@ function doPost(e) {
     kilit.waitLock(20000);
     var g = JSON.parse(e.postData.contents);
     if (g.tip === "ping") {
-      // yalnızca bağlantı denemesi; aşağıda { ok: true } döner
+      // Bağlantı denemesi. Sayfalar yoksa kurulum() çalıştırılmamıştır; "çalışıyor" deyip
+      // sonra kayıtları sessizce kaybetmemek için burada hata döndürülür.
+      var tablo = SpreadsheetApp.getActiveSpreadsheet();
+      var eksik = Object.keys(SAYFALAR).filter(function (ad) { return !tablo.getSheetByName(ad); });
+      if (eksik.length) return cevap({ ok: false, hata: "Kurulum tamamlanmamış: " + eksik.join(", ") + " sayfası yok. Apps Script'te kurulum() işlevini çalıştır." });
     } else if (g.tip === "test") {
       testYaz(g);
     } else if (g.tip === "neden") {
@@ -66,7 +70,8 @@ function doPost(e) {
           "<p><b>Soru:</b> " + temizle(g.veri.soru) + "</p><p><b>Not:</b> " + temizle(g.veri.not || "(not yazılmadı)") + "</p>");
       }
     } else if (g.tip === "yedek") {
-      yedekYaz(JSON.stringify(g.veri));
+      var sonuc = yedekYaz(g.veri);
+      if (!sonuc.ok) return cevap(sonuc);
     }
     return cevap({ ok: true });
   } catch (hata) {
@@ -78,11 +83,17 @@ function doPost(e) {
 
 function doGet(e) {
   if (e && e.parameter && e.parameter.islem === "yedek") {
-    var s = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Yedek");
-    var n = s ? s.getLastRow() - 1 : 0;
-    if (n < 1) return cevap({ ok: false, hata: "Yedek yok" });
-    var metin = s.getRange(2, 1, n, 1).getValues().map(function (r) { return r[0]; }).join("");
-    return cevap({ ok: true, yedek: JSON.parse(metin) });
+    var kilit = LockService.getScriptLock();
+    try {
+      kilit.waitLock(20000); // yedek yazılırken okumayı önler
+      var y = yedekOku();
+      if (!y) return cevap({ ok: false, hata: "Yedek yok" });
+      return cevap({ ok: true, yedek: y });
+    } catch (hata) {
+      return cevap({ ok: false, hata: String(hata) });
+    } finally {
+      try { kilit.releaseLock(); } catch (h) {}
+    }
   }
   return cevap({ ok: true, mesaj: "LGS rapor sistemi çalışıyor." });
 }
@@ -112,12 +123,47 @@ function testYaz(g) {
   ]);
 }
 
-function yedekYaz(metin) {
+// Yedek okuma. Parçaların başındaki ' işareti, Sheets'in "=" ile başlayan bir parçayı
+// formüle çevirmesini önlemek için konur; burada sökülür.
+function yedekOku() {
   var s = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Yedek");
-  if (s.getLastRow() > 1) s.getRange(2, 1, s.getLastRow() - 1, 1).clearContent();
+  var n = s ? s.getLastRow() - 1 : 0;
+  if (n < 1) return null;
+  var metin = s.getRange(2, 1, n, 1).getValues().map(function (r) {
+    var p = String(r[0]);
+    return p.charAt(0) === "'" ? p.slice(1) : p;
+  }).join("");
+  try { return JSON.parse(metin); } catch (h) { return null; }
+}
+
+// Yedek yazma. TEK geri yüklenebilir kopya budur; üstüne yazmadan önce korunur:
+// boş bir kopya ya da mevcuttan eski bir kopya reddedilir.
+function yedekYaz(yeni) {
+  if (!yeni || !yeni.veri || !Object.keys(yeni.veri).length) {
+    return { ok: false, hata: "Boş yedek reddedildi: buluttaki kopya korundu." };
+  }
+  var s = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Yedek");
+  if (!s) return { ok: false, hata: "Yedek sayfası yok; kurulum() çalıştırılmamış." };
+
+  var eski = yedekOku();
+  if (eski) {
+    if (Number(yeni.ts) < Number(eski.ts)) {
+      return { ok: false, hata: "Daha eski yedek reddedildi: buluttaki kopya korundu." };
+    }
+    // Kayıt sayısı azalıyorsa (başka bir cihazdan gelen eksik kopya) üstüne yazma.
+    var sayi = function (y) { try { return (JSON.parse(y.veri.lgs_gecmis) || []).length; } catch (h) { return 0; } };
+    var yeniSayi = sayi(yeni), eskiSayi = sayi(eski);
+    if (yeniSayi < eskiSayi) {
+      return { ok: false, hata: "Daha az kayıt içeren yedek reddedildi (" + yeniSayi + " < " + eskiSayi + "): buluttaki kopya korundu." };
+    }
+  }
+
+  var metin = JSON.stringify(yeni);
   var parcalar = [];
-  for (var i = 0; i < metin.length; i += 40000) parcalar.push([metin.substr(i, 40000)]);
-  if (parcalar.length) s.getRange(2, 1, parcalar.length, 1).setValues(parcalar);
+  for (var i = 0; i < metin.length; i += 40000) parcalar.push(["'" + metin.substr(i, 40000)]);
+  if (s.getLastRow() > 1) s.getRange(2, 1, s.getLastRow() - 1, 1).clearContent();
+  s.getRange(2, 1, parcalar.length, 1).setValues(parcalar);
+  return { ok: true };
 }
 
 // ---------------- Raporlar ----------------

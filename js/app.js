@@ -11,6 +11,8 @@ var App = (function () {
     2: { ad: "Pekiştirme", alt: "Orta düzey" },
     3: { ad: "LGS Ayarı", alt: "Yeni nesil sorular" }
   };
+  // Tekrar testlerinin kademesi 0'dır; KADEMELER'de karşılığı yoktur.
+  function kademeAdi(k) { return KADEMELER[k] ? KADEMELER[k].ad : "Tekrar"; }
   var NEDENLER = [
     { k: "bilgi", ad: "Bilmiyordum" },
     { k: "okuma", ad: "Yanlış okudum" },
@@ -53,8 +55,8 @@ var App = (function () {
       Store.set("kuyruk", k.slice(-500));
       Bulut.bosalt();
     },
-    istek: function (govde) {
-      return fetch(Bulut.url(), {
+    istek: function (govde, url) {
+      return fetch(url || Bulut.url(), {
         method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(govde)
       }).then(function (r) { return r.json(); }).then(function (c) {
         if (!c || !c.ok) throw new Error((c && c.hata) || "ret");
@@ -73,15 +75,22 @@ var App = (function () {
       var k = Store.get("kuyruk", []);
       for (var i = 0; i < k.length; i++) {
         if (k[i].kimlik !== kimlik) continue;
-        if (basarili || ++k[i].deneme >= 8) k.splice(i, 1);
+        // Kayıt YALNIZCA başarıda kuyruktan düşer. Deneme sayısı yalnızca ana sayfadaki
+        // uyarı için sayılır; sessizce atılmaz, yoksa çözülen test hiç ulaşmadan kaybolur.
+        if (basarili) k.splice(i, 1); else k[i].deneme++;
         break;
       }
       Store.set("kuyruk", k);
       Bulut.mesgul = false;
       if (!basarili) return; // bağlantı sorunu: sonraki test bitiminde ya da açılışta yeniden denenir
       if (k.length) Bulut.bosalt();
-      else Bulut.istek({ tip: "yedek", veri: Bulut.kopya() }).catch(function () {});
-    }
+      else {
+        var kopya = Bulut.kopya();
+        if (Object.keys(kopya.veri).length) Bulut.istek({ tip: "yedek", veri: kopya }).catch(function () {});
+      }
+    },
+    // Gönderilemeyen kayıt sayısı (ana sayfada uyarı için)
+    bekleyen: function () { return Store.get("kuyruk", []).length; }
   };
 
   // ================= Yardımcılar =================
@@ -304,8 +313,8 @@ var App = (function () {
     var sira = aktif ? null : siradakiTest();
     if (aktif) {
       var ak = KONU[aktif.konu];
-      html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' + esc(ak ? ak.konu.ad : "") + '</span>' +
-        '<span class="ua-alt">' + KADEMELER[aktif.kademe].ad + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
+      html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' + (ak ? esc(ak.konu.ad) : "Tekrar testi") + '</span>' +
+        '<span class="ua-alt">' + kademeAdi(aktif.kademe) + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
         '<button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button></div>';
     } else if (sira) {
       html += '<div class="ufuk-adim"><div><span class="ua-ust">Sıradaki adımın</span><span class="ua-ad">' + esc(sira.konu.ad) + '</span>' +
@@ -349,10 +358,16 @@ var App = (function () {
         var kb = KONU[g.konu];
         html += '<button class="liste-satir" onclick="App.git(\'#/sonuc/' + g.ts + '\')">' +
           '<span class="rozet ' + oranSinif(g.oran) + '">%' + yuzde(g.oran) + '</span>' +
-          '<span class="ls-ad">' + esc(kb ? kb.konu.ad : g.konu) + ' <span class="soluk">· ' + KADEMELER[g.kademe].ad + '</span></span>' +
+          '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + ' <span class="soluk">· ' + kademeAdi(g.kademe) + '</span></span>' +
           '<span class="soluk kucuk">' + g.d + "D " + g.y + "Y " + g.b + "B · " + fmtTarih(g.ts) + '</span></button>';
       });
       html += '</div>';
+    }
+
+    // Buluta ulaşamayan kayıtlar birikiyorsa sessiz kalma
+    if (Bulut.url() && Bulut.bekleyen() >= 2) {
+      html += '<p class="kucuk orta" style="color:var(--orta);margin-top:18px">' + Bulut.bekleyen() +
+        ' kayıt panele gönderilemedi. İnternete bağlanınca kendiliğinden gidecek.</p>';
     }
 
     html += '<footer class="alt"><button class="btn-yazi" onclick="App.raporAyar()">' + (Bulut.url() ? "Panele bağlı ✓" : "Panel bağlantısı") + '</button>' +
@@ -582,6 +597,13 @@ var App = (function () {
     zamanlayiciBaslat();
   }
   function testCiz() {
+    // Bankadan kalkmış soru varsa testi çökertme; temizleyip devam et
+    if (S.sorular.some(function (id) { return !soruBul(id); })) {
+      S.sorular = S.sorular.filter(function (id) { return !!soruBul(id); });
+      if (!S.sorular.length) { S = null; Store.set("aktif", null); return git("#/"); }
+      S.idx = Math.min(S.idx, S.sorular.length - 1);
+      Store.set("aktif", S);
+    }
     var q = soruBul(S.sorular[S.idx]);
     var kb = KONU[S.konu], n = S.sorular.length;
     var secili = S.cevap[q.id];
@@ -656,6 +678,8 @@ var App = (function () {
     zamanlayiciDurdur();
     var d = 0, y = 0, b = 0;
     var yanlis = Store.get("yanlis", {});
+    // Soru bankadan kalkmışsa (dosya yeniden adlandırılmış vb.) testi düşürmeden atla
+    S.sorular = S.sorular.filter(function (id) { return !!soruBul(id); });
     S.sorular.forEach(function (id) {
       var q = soruBul(id), c = S.cevap[id];
       if (c === undefined) { b++; return; }
@@ -940,7 +964,9 @@ var App = (function () {
       (bekleyen ? " Gönderilmeyi bekleyen kayıt: " + bekleyen + "." : "") + '</p>' +
       '<div id="panel-adres"></div>' +
       '<div class="modal-btn"><button class="btn" onclick="App.modalKapat()">Kapat</button>' +
-      (url ? '<button class="btn" onclick="App.bulutYedekYukle()">Buluttaki yedeği yükle</button>' : "") +
+      // Kurtarma düğmesi her zaman görünür: veri silinmiş bir bilgisayarda kayıtlı adres
+      // olmaz, ama kullanıcı adresi kutuya yapıştırıp doğrudan buradan geri yükleyebilmeli.
+      '<button class="btn" onclick="App.bulutYedekYukle()">Buluttaki yedeği yükle</button>' +
       '<button class="btn birincil" onclick="App.raporKaydet()">Kaydet ve dene</button></div>');
     if (url) panelAdresGoster();
   }
@@ -955,32 +981,65 @@ var App = (function () {
       '<input type="text" readonly value="' + esc(adres) + '" onclick="this.select()">' +
       (location.protocol === "file:" ? '<p class="kucuk soluk" style="margin-top:6px">Not: Uygulama şu an bu bilgisayardaki dosyadan açık. Panelin telefonda açılabilmesi için sitenin internette yayımlanmış olması gerekir.</p>' : "");
   }
-  function raporKaydet() {
-    var url = (($("#rapor-url") || {}).value || "").trim();
-    if (url && !/^https:\/\/script\.google\.com\/.+\/exec$/.test(url)) {
-      return raporDurum("Adres https://script.google.com/… ile başlamalı ve /exec ile bitmeli.", "kotu");
+  // Kutudaki adresi okur ve doğrular; geçersizse durum satırına yazıp "" döndürür.
+  function girilenUrl() {
+    var url = (($("#rapor-url") || {}).value || "").trim().replace(/[?#].*$/, "");
+    if (!url) return "";
+    if (!/^https:\/\/script\.google\.com\/[^\s]*\/exec$/.test(url)) {
+      raporDurum("Adres https://script.google.com/… ile başlamalı ve /exec ile bitmeli.", "kotu");
+      return "";
     }
-    Store.set("raporUrl", url);
-    if (!url) return raporDurum("Adres silindi. Veriler yalnızca bu bilgisayarda kalacak.");
+    return url;
+  }
+  function raporKaydet() {
+    var ham = (($("#rapor-url") || {}).value || "").trim();
+    if (!ham) {
+      Store.set("raporUrl", "");
+      return raporDurum("Adres silindi. Veriler yalnızca bu bilgisayarda kalacak.");
+    }
+    var url = girilenUrl();
+    if (!url) return;
     raporDurum("Bağlantı deneniyor…");
-    Bulut.istek({ tip: "ping" }).then(function () {
+    // Adres, bağlantı DOĞRULANDIKTAN sonra kaydedilir; yoksa ana sayfa çalışmayan bir
+    // bağlantı için "Panele bağlı" der.
+    Bulut.istek({ tip: "ping" }, url).then(function () {
+      Store.set("raporUrl", url);
       raporDurum("✓ Bağlantı çalışıyor. Bekleyen kayıtlar gönderiliyor.", "iyi-yazi");
       panelAdresGoster();
-      if (Store.get("kuyruk", []).length) Bulut.bosalt();
-      else Bulut.istek({ tip: "yedek", veri: Bulut.kopya() }).catch(function () {});
-    }, function () {
-      raporDurum("✗ Bağlanılamadı. Adresi, internet bağlantısını ve dağıtımda “Erişimi olanlar: Herkes” seçildiğini kontrol et.", "kotu");
+      if (Store.get("kuyruk", []).length) return Bulut.bosalt();
+      // Boş bir kopya buluttaki yedeğin üstüne yazılmamalı; sunucu da reddeder ama
+      // gereksiz isteği hiç göndermiyoruz.
+      var k = Bulut.kopya();
+      if (Object.keys(k.veri).length) Bulut.istek({ tip: "yedek", veri: k }).catch(function () {});
+    }, function (e) {
+      var m = String((e && e.message) || "");
+      raporDurum(m.indexOf("Kurulum tamamlanmamış") === 0
+        ? "✗ " + m
+        : "✗ Bağlanılamadı. Adresi, internet bağlantısını ve dağıtımda “Erişimi olanlar: Herkes” seçildiğini kontrol et.", "kotu");
     });
   }
   function bulutYedekYukle() {
+    // Kutuya yeni yapıştırılmış adres de kabul edilir: veri silinmiş bir bilgisayarda
+    // kayıtlı adres yoktur ve kurtarmanın ilk adımı bu olmalıdır.
+    var url = girilenUrl() || Bulut.url();
+    if (!url) return raporDurum("Önce Apps Script adresini yapıştır.", "kotu");
     raporDurum("Buluttaki yedek okunuyor…");
-    fetch(Bulut.url() + "?islem=yedek").then(function (r) { return r.json(); }).then(function (c) {
-      if (!c.ok || !c.yedek || !c.yedek.veri) throw new Error("yok");
-      var y = c.yedek;
-      modal('<h3>Buluttaki yedek yüklensin mi?</h3><p>' + fmtTarih(y.ts) + ' tarihli yedek bulundu. <strong>Bu bilgisayardaki ilerleme bunun üzerine yazılır.</strong></p>' +
+    fetch(url + "?islem=yedek").then(function (r) { return r.json(); }).then(function (c) {
+      var y = c && c.yedek;
+      if (!c.ok || !y || !y.veri || !Object.keys(y.veri).length) throw new Error("yok");
+      var yerel = Bulut.kopya();
+      var say = function (v) { try { return (JSON.parse(v.lgs_gecmis) || []).length; } catch (h) { return 0; } };
+      var bulutSay = say(y.veri), yerelSay = say(yerel.veri);
+      var uyari = yerelSay > bulutSay
+        ? '<p class="kotu"><strong>Dikkat:</strong> bu bilgisayarda ' + yerelSay + ' test kayıtlı, buluttaki yedekte ' + bulutSay +
+          ' test var. Yüklersen aradaki ' + (yerelSay - bulutSay) + ' test kaybolur.</p>'
+        : "";
+      modal('<h3>Buluttaki yedek yüklensin mi?</h3><p>' + fmtTarih(y.ts) + ' tarihli, ' + bulutSay + ' testlik yedek bulundu. ' +
+        '<strong>Bu bilgisayardaki ilerleme bunun üzerine yazılır.</strong></p>' + uyari +
         '<div class="modal-btn"><button class="btn" onclick="App.modalKapat()">Vazgeç</button><button class="btn birincil" id="yedek-onay">Yükle</button></div>');
       $("#yedek-onay").onclick = function () {
         Object.keys(y.veri).forEach(function (k) { if (k.indexOf("lgs_") === 0 && !YEDEK_DISI[k]) localStorage.setItem(k, y.veri[k]); });
+        Store.set("raporUrl", url);
         location.hash = "#/";
         location.reload();
       };

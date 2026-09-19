@@ -22,7 +22,14 @@ Nasıl çalışır: kardeşin bir test bitirince uygulama sonucu senin Google E-
 1. Düzenleyicinin üstündeki işlev listesinden **kurulum**'u seç, **Çalıştır**'a bas.
 2. İzin penceresi açılır: **İzinleri incele** → hesabını seç.
 3. "Google bu uygulamayı doğrulamadı" uyarısı çıkar. Bu normaldir, çünkü uygulamayı yazan sensin. **Gelişmiş → LGS Rapor'a git (güvenli değil)** → **İzin ver**.
-   - İstenen izinler: bu tabloyu düzenleme ve senin adına mail gönderme. Mail izni, isteğe bağlı mail raporu içindir; sen açmadıkça mail gönderilmez.
+
+   İzin listesinde dört madde göreceksin. Ürkütücü görünürler, ne işe yaradıkları şöyle:
+   - *Google E-Tablolar dosyalarınızı görüntüleme, düzenleme, oluşturma ve silme*: betik sonuçları bu tabloya yazacak.
+   - *Google hesabınızla e-posta gönderme*: yalnızca isteğe bağlı mail raporu için. `MAIL_RAPORU = false` olduğu sürece tek bir mail bile gönderilmez.
+   - *Harici bir hizmete bağlanma*: Apps Script'in web uygulaması olarak çalışabilmesi için standart bir izindir.
+   - *Siz yokken bu uygulamayı çalıştırma*: zamanlanmış rapor içindir. Betiğin, sen tarayıcıyı kapattıktan sonra da uygulamadan gelen kayıtları alabilmesi bu izne bağlıdır.
+
+   Bu izinler yalnızca bu betiğe ve bu tabloya aittir. Gmail'ini okuyamaz, başka dosyalarına dokunamaz.
 4. Tabloya dön: **Testler, Nedenler, Bildirimler, Yedek** adlı dört sayfa oluşmuş olmalı.
 
 ## 4. Web uygulaması olarak dağıt
@@ -39,7 +46,7 @@ Nasıl çalışır: kardeşin bir test bitirince uygulama sonucu senin Google E-
 
 ## 5. Uygulamaya bağla (kardeşinin bilgisayarında)
 
-1. LGS uygulamasını aç. Ana sayfanın en altındaki **Panel bağlantısı**'na tıkla.
+1. Tarayıcıda **https://omerfarukdev.github.io/LgsHazirlik/** adresini aç. Sayfanın **en altına** in; orada "Panel bağlantısı", "Yedek al" ve "Yedek yükle" yazıları var. **Panel bağlantısı**'na tıkla.
 2. Kopyaladığın adresi yapıştır → **Kaydet ve dene**.
 3. "✓ Bağlantı çalışıyor" yazısını görmelisin. Altında **Panel adresi** belirir.
 
@@ -51,7 +58,9 @@ Bağlantıdan önce çözülmüş testler varsa onlar da o anda gönderilir; kay
 2. Tarayıcı menüsünden **Ana ekrana ekle** dersen uygulama gibi tek dokunuşla açılır.
 3. Panelde en güncel veriyi görmek için **↻ Yenile**'ye bas.
 
-Panelin telefonda açılabilmesi için sitenin internette yayımlanmış olması gerekir (GitHub Pages). Site yalnızca kardeşinin bilgisayarındaki dosyadan açılıyorsa panel adresi telefonda çalışmaz; o durumda ilerlemeyi Google E-Tablolar uygulamasından **LGS İlerleme** tablosunu açarak görebilirsin.
+Panel adresi bir kez açıldığında telefonun tarayıcısında saklanır ve adres çubuğundan silinir; sonraki açılışlarda sade adres yeter.
+
+Dilersen ilerlemeyi Google E-Tablolar uygulamasından **LGS İlerleme** tablosunu açarak da görebilirsin. Panel aynı verinin grafikli ve düzenli hali.
 
 ## Panelde neler var
 
@@ -66,6 +75,10 @@ Panelin telefonda açılabilmesi için sitenin internette yayımlanmış olması
 ## Sık karşılaşılanlar
 
 - **"✗ Bağlanılamadı" diyor:** 4. adımda "Erişimi olanlar: Herkes" seçilmemiş olabilir ya da adres `/exec` ile bitmiyordur (`/dev` ile biten deneme adresi çalışmaz).
+- **"Kurulum tamamlanmamış" diyor:** 3. adımdaki `kurulum` işlevi çalıştırılmamış ya da yarıda kalmıştır. Apps Script'te yeniden çalıştır.
+- **Adresi kaybettim:** Tabloyu aç → **Uzantılar → Apps Komut Dosyası** → sağ üstten **Dağıt → Dağıtımları yönet**. Mevcut dağıtımın altında aynı adres yazılıdır.
 - **Betiği sonradan güncellemek:** Kod.gs'nin yeni halini yapıştır → **Dağıt → Dağıtımları yönet → kalem simgesi → Sürüm: Yeni sürüm → Dağıt**. Böylece adres değişmez. "Yeni dağıtım" yaparsan adres değişir ve 5. adımı yinelemen gerekir.
-- **Kardeşinin bilgisayarında veriler silindi:** Uygulamada **Panel bağlantısı → adresi yeniden yapıştır → Buluttaki yedeği yükle**.
+- **Kardeşinin bilgisayarında veriler silindi:** Uygulamada **Panel bağlantısı**'nı aç, adresi kutuya yapıştır ve **önce "Buluttaki yedeği yükle"ye bas** (bu düğme adres kaydedilmeden de çalışır). İlerleme geri geldikten sonra istersen "Kaydet ve dene" ile bağlantıyı yeniden kur.
+
+  Buluttaki yedek korumalıdır: daha az kayıt içeren ya da boş bir kopya, var olanın üstüne yazılmaz. Yine de kurtarmada sıraya dikkat et.
 - **Mail de gelsin istersen:** Kod.gs'nin başındaki `MAIL_RAPORU = false` satırını `true` yap, kaydet, **kurulum** işlevini yeniden çalıştır. Her Pazar 20.00'de haftalık, her ayın 1'inde 09.00'da aylık rapor gelir. Hemen denemek için **raporuSimdiDene** işlevini çalıştır.

@@ -2,7 +2,17 @@
 # depoda yeniden yayımlanmaz. Kaynak adresleri planlama/arastirma-*.md dosyalarında yazılıdır.
 planlama/kaynaklar/
 
-# Kişisel veri asla depoya girmez
+# ÖĞRENCİNİN KİŞİSEL VERİSİ ASLA DEPOYA GİRMEZ.
+# Üretim ajanı buluttan ilerleme çekip diske yazabilir; bu kalıplar onu depoya sızmaktan korur.
 veri/
+otomasyon/veri/
+otomasyon/*.json
 *.yedek.json
 lgs-yedek-*.json
+ilerleme*.json
+yedek*.json
+
+# Apps Script web uygulaması adresi bir anahtardır; depoya girmemeli.
+# (Uygulamada bu adres yalnızca tarayıcıya kaydedilir, js/ayar.js içindeki alan boş bırakılır.)
+*.exec-url
+rapor/adres.txt
