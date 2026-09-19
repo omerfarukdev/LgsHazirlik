@@ -54,7 +54,23 @@ window.LGS_BANK = window.LGS_BANK || {};
 | `hatalar` | 4 elemanlı dizi. Doğru şık için `null`; her yanlış şık için **o şıkka götüren hatanın adı ve kısa açıklaması**. Öğrenci o şıkkı seçince "büyük olasılıkla şu hatayı yaptın" diye gösterilir |
 | `aciklama` | Adım adım öğretici çözüm (aşağıda) |
 
-Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorular **dosyadaki sırayla** gösterilir; her kademeyi kolaydan zora sırala. Kademe başına 12 soru, konu başına ayrıca 12 havuz sorusu hedeflenir.
+Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorular **dosyadaki sırayla** gösterilir; her kademeyi kolaydan zora sırala.
+
+### Test boyutu
+
+| Bölüm | Soru sayısı |
+|---|---|
+| Kademe 1 (Kavrama) | **25** |
+| Kademe 2 (Pekiştirme) | **25** |
+| Kademe 3 (LGS Ayarı) | **25** |
+| Havuz (kademe 0) | **15** |
+| **Konu başına toplam** | **90** |
+
+25 alt sınırdır; 30'a kadar çıkılabilir. **12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
+
+Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplamı), yani 25 soruluk Kavrama testi yaklaşık 25 dakika, LGS Ayarı testi yaklaşık 50 dakika sürer.
+
+Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden devam eder** (ör. `mat-ck-113` … `mat-ck-125`); yayımlanmış kimlikler değişmez.
 
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)
 
@@ -86,7 +102,14 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 | 3 | LGS ortalaması | 3-4 adım, 60-110 sözcük günlük hayat senaryosu, veri kısmen görselde, şıklar birbirine yakın |
 | 4 | LGS ayırt edici (en zor %15-20) | 4-6 adım, iki kazanım birleşir, "en az / en fazla / olamaz / kaç farklı değer" kökü, sınır durumu kritik, 100-170 sözcük |
 
-Kademe karması: **Kademe 1** → düzey 1 ve 2 (yarı yarıya). **Kademe 2** → düzey 2 ve 3. **Kademe 3** → düzey 3 ve 4 (en az 4 soru düzey 4). **Havuz** → 3 / 4 / 3 / 2 (düzey 1 / 2 / 3 / 4).
+Kademe karması (25 soruluk test için):
+
+| Kademe | Düzey 1 | Düzey 2 | Düzey 3 | Düzey 4 |
+|---|---|---|---|---|
+| 1 · Kavrama | 12 | 13 | – | – |
+| 2 · Pekiştirme | – | 13 | 12 | – |
+| 3 · LGS Ayarı | – | – | 15 | 10 |
+| 0 · Havuz (15) | 3 | 5 | 4 | 3 |
 
 Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de metin uzunlukları, sözcük bütçeleri, konu kotaları): `planlama/arastirma-lgs-zorluk-profili.md` bölüm 3 ve 7. Yeni bir derse soru yazmadan önce o bölümleri oku. Özet:
 - **Matematik:** öncüllü (I-II-III) soru YOK. Soruların çoğu günlük hayat senaryolu ve görselli. Hesap makinesiz çözülebilir sayılar.

@@ -75,12 +75,14 @@ Bu bir sınav hazırlığı. Okul takvimi **ne zaman** üretileceğini söyler; 
 
 `js/konular.js` içinde her konunun `lgs` alanı vardır: o konudan LGS'de yıllara göre gelen soru sayısı (kaynak: `planlama/arastirma-lgs-zorluk-profili.md` bölüm 2, 2018-2026 çıkmış soru dağılımı).
 
-| `lgs` değeri | Hedef soru sayısı | Örnek |
+**Her konu testi 25 soru.** 12 soruluk test, test değildir: öğrenci tempo kuramaz ve sonuç yüzdesi güvenilmez olur. Taban boyut her konu için aynıdır; `lgs` ağırlığı **havuzun** ve fazladan test kademesinin boyutunu belirler.
+
+| `lgs` değeri | Hedef | Örnek |
 |---|---|---|
-| 3 ve üstü | 3 kademe × 12 + havuz 24 = **60** | Kareköklü İfadeler, Doğrusal Denklemler, Madde ve Endüstri üniteleri |
-| 2 | 3 kademe × 12 + havuz 12 = **48** | Üslü İfadeler, Eşitsizlikler, Basit Makineler |
-| 1 | 3 kademe × 10 + havuz 8 = **38** | Çarpanlar ve Katlar, Dönüşüm Geometrisi |
-| 0-1 | 2 kademe × 10 + havuz 6 = **26** | Fiilimsiler, Söz Sanatları, İnkılap 5-6-7 |
+| 3 ve üstü | 3 × 25 + havuz **30** = **105** | Kareköklü İfadeler, Doğrusal Denklemler, Görsel Okuma, Sözel Mantık |
+| 2 | 3 × 25 + havuz **20** = **95** | Üslü İfadeler, Eşitsizlikler, Basit Makineler |
+| 1 | 3 × 25 + havuz **15** = **90** | Çarpanlar ve Katlar, Dönüşüm Geometrisi |
+| 0-1 | 3 × 25 + havuz **10** = **85** | Fiilimsiler, Söz Sanatları, İnkılap 5-6-7 |
 | 6-11 (paragraf) | Sınırsız; Kural 1 geçerli | Paragrafta Anlam |
 
 Eksik konu birden fazlaysa sıra şu: **önce katsayısı 4 olan dersler** (Türkçe, Matematik, Fen), sonra katsayısı 1 olanlar (İnkılap, Din, İngilizce). Eşitlikte `lgs` değeri yüksek olan öne geçer.
