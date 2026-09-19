@@ -91,6 +91,17 @@ Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de meti
 - **Matematik:** öncüllü (I-II-III) soru YOK. Soruların çoğu günlük hayat senaryolu ve görselli. Hesap makinesiz çözülebilir sayılar.
 - **Fen:** soruların yaklaşık yarısı I-II-III öncüllü; deney düzeneği, tablo, grafik yorumu; "kesinlikle" kökü; sayısal hesap yok denecek kadar az.
 - **Türkçe:** dil bilgisi numaralı cümleli metin içinde sorulur, terim ezberi sorulmaz. Metinler özgün yazılır, telifli metin kopyalanmaz.
+
+### Paragraf havuzu (özel kural)
+
+`paragrafta-anlam` konusu diğerleri gibi "bitirilen" bir konu değildir; **günlük rutindir**. Ana sayfadaki "Günün paragrafı" kartı her gün bu konunun `kademe: 0` sorularından 5 tanesini çeker. Bu yüzden:
+
+- Paragraf havuzu **sürekli büyütülür**; hedef 48 soru değil, birkaç yüzdür. Havuz tükenirse uygulama en eski görülenleri geri döndürür — bu kabul edilebilir ama istenmeyen durumdur.
+- Yeni paragraf partileri `sorular/tur-paragrafta-anlam-<N>.js` dosyalarına yazılır; id aralığı `tur-pa-1001`'den başlayıp partiler arasında çakışmayacak şekilde ilerler (dörder haneli).
+- **Her sorunun kendi metni olur.** Bir metne birden fazla soru bağlanmaz; amaç okuma hacmini artırmaktır.
+- Metinler **tamamen özgün** yazılır. Alıntı, ders kitabı metni, tanınmış bir eserin yeniden yazımı kabul edilmez. Gerçek bir kişi metnin öznesi yapılmaz. Metindeki her olgusal bilgi doğru olmalıdır.
+- Metin uzunluğu zorluğa bağlıdır: düzey 1 → 40-60 sözcük, 2 → 60-100, 3 → 100-160, 4 → 150-200 (ya da iki metin/metin+tablo).
+- Çeldiriciler dört tipten gelir ve `hatalar` içinde adlandırılır: *metinde var ama ilgisiz*, *aşırı genelleme*, *kısmen doğru*, *ters yön*. Dört şık aynı uzunluk ve biçimde olur.
 - **İnkılap, Din:** kısa kaynak metin + çıkarım; ezber tarih sorusu nadir.
 
 ## Kalite standartları
