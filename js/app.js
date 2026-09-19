@@ -297,29 +297,11 @@ var App = (function () {
       '<path d="M0 366c250-30 500 5 760-15s290-10 440 6v43H0z" fill="#121d3a"/>' +
       '<path d="M690 400c50-22 100-30 134-50s38-30 48-46" fill="none" stroke="#ffe2b0" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 15" opacity=".9"/><path d="M872 303v-24" stroke="#ffe2b0" stroke-width="2.5" stroke-linecap="round"/><path d="M873 279l17 5.5-17 5.5z" fill="#ffb14a"/></svg>';
   }
-  // Eylül'den sınava uzanan yıl çizelgesi
-  function yolHTML() {
-    var bas = new Date((AYAR.yilBasi || "2026-09-14") + "T00:00:00").getTime();
-    var bit = new Date((AYAR.sinavTarihi || AYAR.sinavTahminiTarih || "2027-06-13") + "T00:00:00").getTime();
-    function yer(t) { return Math.max(0, Math.min(100, (t - bas) / (bit - bas) * 100)); }
-    var bugun = yer(Date.now());
-    var aylar = [[2026, 9, "Eki"], [2026, 10, "Kas"], [2026, 11, "Ara"], [2027, 0, "Oca"], [2027, 1, "Şub"], [2027, 2, "Mar"], [2027, 3, "Nis"], [2027, 4, "May"], [2027, 5, "Haz"]];
-    var html = '<div class="yol"><div class="yol-cizgi"><span class="yol-dolu" style="width:' + bugun.toFixed(1) + '%"></span>' +
-      '<span class="yol-bugun" style="left:' + bugun.toFixed(1) + '%"><em>Bugün</em></span>' +
-      '<span class="yol-hedef"><em>LGS</em></span></div><div class="yol-aylar">';
-    aylar.forEach(function (a) {
-      html += '<span style="left:' + yer(new Date(a[0], a[1], 1).getTime()).toFixed(1) + '%">' + a[2] + '</span>';
-    });
-    return html + '</div></div>';
-  }
   function anaSayfa() {
     var gecmis = Store.get("gecmis", []);
     var aktif = Store.get("aktif", null);
     var gun = kalanGun();
-    var topD = 0, topSoru = 0;
-    gecmis.forEach(function (g) { topD += g.d; topSoru += g.d + g.y; });
-    var seri = seriHesapla(gecmis);
-    var genel = genelIlerleme();
+    var genel = genelIlerleme(); // güneşin yüksekliği geçilen kademe oranına bağlı
     var soz = GUNUN_SOZU[Math.floor(Date.now() / 86400000) % GUNUN_SOZU.length];
 
     // Kahraman alan: selam, günün sözü, sıradaki adım
@@ -376,13 +358,6 @@ var App = (function () {
         '</p></div><button class="btn birincil buyuk" onclick="App.tekrarBaslat()">Tekrara başla →</button></div></section>';
     }
 
-    // Yıl çizelgesi + sayılar
-    html += '<section class="kart yolculuk"><div class="yolculuk-ust"><h2>Yolculuğun</h2>' +
-      '<span class="soluk kucuk">' + genel.gecilen + " / " + genel.toplam + ' kademe geçildi · her kademe güneşi biraz daha yükseltir</span></div>' + yolHTML() +
-      '<div class="serit">' +
-      seritOge(topSoru, "çözülen soru") + seritOge(topSoru ? "%" + yuzde(topD / topSoru) : "–", "doğruluk") +
-      seritOge(gecmis.length, "test") + seritOge(seri, "günlük seri") + '</div></section>';
-
     html += '<h2 class="bolum">Dersler</h2><div class="ders-grid">';
     DERSLER.forEach(function (d) {
       var il = dersIlerleme(d);
@@ -419,9 +394,7 @@ var App = (function () {
       '<label class="btn-yazi">Yedek yükle<input type="file" accept=".json" hidden onchange="App.yedekYukle(this)"></label></footer>';
     render(html);
   }
-  function seritOge(deger, etiket) {
-    return '<div class="serit-oge"><span class="so-deger">' + deger + '</span><span class="so-etiket">' + etiket + '</span></div>';
-  }
+
   // ================= Haftalık takvim =================
   // Okulun bu hafta hangi konuda olduğunu js/takvim.js'ten okur. Takvim MEB yıllık
   // planından çıkarıldı ve ikincil kaynaktır: okuldan okula 1-3 hafta kayabilir.
@@ -777,7 +750,7 @@ var App = (function () {
       (S.idx === n - 1
         ? '<button class="btn birincil" onclick="App.bitir()">Testi bitir</button>'
         : '<button class="btn birincil" onclick="App.ileri(1)">Sonraki →</button>') +
-      '</div><p class="soluk kucuk orta">Klavye: A-D şık seçer, ← → sorular arasında gezinir. Seçili şıkka tekrar tıklarsan soru boş kalır.</p>';
+      '</div><p class="soluk kucuk orta test-ipucu">Klavye: A-D şık seçer, ← → sorular arasında gezinir. Seçili şıkka tekrar tıklarsan soru boş kalır.</p>';
 
     $("#app").innerHTML = html;
   }

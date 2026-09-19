@@ -53,7 +53,10 @@ body {
   color: var(--yazi);
   font: 16px/1.55 var(--govde);
 }
-#app { max-width: 960px; margin: 0 auto; padding: 20px 16px 64px; }
+/* Ekranın tamamı kullanılır. Yalnızca okuma gerektiren yerler (soru metni, çözüm,
+   ayar pencereleri) satır uzunluğu göz için makul kalsın diye ayrıca sınırlanır —
+   200 karakterlik satırda göz satır başını kaybeder, okuma yavaşlar. */
+#app { max-width: 1800px; margin: 0 auto; padding: 20px clamp(16px, 3vw, 40px) 64px; }
 h1, h2, h3 { font-family: var(--baslik); letter-spacing: -.015em; }
 h1 { font-size: 1.6rem; margin: 0; }
 h2 { font-size: 1.2rem; margin: 28px 0 12px; }
@@ -319,6 +322,9 @@ button.liste-satir:hover { border-color: var(--vurgu); }
 .ipucu li { margin-bottom: 4px; }
 
 /* ================= Test ================= */
+/* Soru ekranı okunabilir genişlikte kalır; ana sayfa gibi ekrana yayılmaz. */
+.test-ust, .palet, .soru-kart, .test-alt, .test-ipucu,
+.sonuc-kart, .filtre, #inceleme { max-width: 980px; margin-left: auto; margin-right: auto; }
 .test-ust {
   position: sticky; top: 0; z-index: 5;
   display: flex; justify-content: space-between; align-items: center; gap: 12px;

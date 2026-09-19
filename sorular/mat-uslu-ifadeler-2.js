@@ -418,13 +418,13 @@ Cevap A.`
   zorluk: 2,
   soru: "Bir vida fabrikasının bir haftalık üretimi 3,6 · 10^{5} adettir. Fabrikanın üretim raporunda bütün sayılar 10^{3} adet, yani \"bin adet\" birimiyle yazılmaktadır.\n**Buna göre bu haftanın üretimi rapora hangi sayı ile yazılır?**",
   gorsel: null,
-  secenekler: ["36", "360", "3600", "360 000"],
-  dogru: 1,
+  secenekler: ["360", "3600", "36 000", "360 000"],
+  dogru: 0,
   hatalar: [
-    "Baştaki sayıyı 10 kat eksik büyütme: 36 sayısı 36 · 10^{4} yazımına karşılık gelir, rapor birimi ise 10^{3}'tür.",
     null,
     "Baştaki sayıyı 10 kat fazla büyütme: 3600 · 10^{3} = 3 600 000 eder.",
-    "Rapor birimini gözden kaçırıp sayının tamamını yazma: 360 000 rakamı 10^{3} biriminde değil, adet olarak yazılmıştır."
+    "Baştaki sayıyı 100 kat fazla büyütme: 36 000 · 10^{3} = 36 000 000 eder.",
+    "Rapor birimini gözden kaçırıp sayının tamamını yazma: 360 000 sayısı 10^{3} biriminde değil, doğrudan adet olarak yazılmıştır."
   ],
   aciklama: `Bir sayı, 10'un farklı tam sayı kuvvetleri kullanılarak birçok biçimde yazılabilir. Baştaki sayı 10 kat büyütülürse 10'un üssü 1 azalmalıdır; böylece sayının değeri korunur.
 Adım 1: Üretimi açık yaz: 3,6 · 10^{5} = 360 000 adet.
@@ -432,7 +432,7 @@ Adım 2: Rapor birimini uygula. Sayı 10^{3} ile çarpılmış biçimde yazılac
 Adım 3: Rapora baştaki sayı yazılır: 360.
 Sağlama: 360 · 10^{3} = 360 000 = 3,6 · 10^{5}. Üç gösterim de aynı sayıdır.
 Sık yapılan hata: Baştaki sayıyı büyütürken üssü de aynı oranda azaltmamak. 3,6 sayısı 100 kat büyüyüp 360 olduysa üs 2 azalıp 10^{3} olmalıdır.
-Cevap B.`
+Cevap A.`
 },
 {
   id: "mat-ui-007",
@@ -534,13 +534,13 @@ Cevap B.`
   zorluk: 4,
   soru: "Bir güvenlik kamerası, kaydettiği görüntüleri belleğine eşit büyüklükte bloklar hâlinde yazmaktadır. Belleğin yarısı kameranın kendi sistem yazılımına ayrılmıştır ve bu bölüme hiçbir görüntü yazılamaz. Kalan boş alanın tamamı görüntü bloklarıyla doldurulacak, bellek dolduğunda kamera yöneticiyi uyaracaktır. Yönetici belleği boşaltmadıkça eski bloklar silinmemekte, bir bloğa sığmayan artık görüntü ise hiç kaydedilmemektedir. Belleğin büyüklüğü ile bir görüntü bloğunun büyüklüğü, kullanma kılavuzunda 4'ün kuvvetleri biçiminde yazılmıştır; bu değerler tabloda verilmiştir.\n**Buna göre bellekte en fazla kaç blok görüntü saklanabilir?**",
   gorsel: `<table class="tablo"><tr><th>Bilgi</th><th>Değer</th></tr><tr><td>Belleğin büyüklüğü</td><td>4<sup>10</sup> KB</td></tr><tr><td>Sistem yazılımına ayrılan bölüm</td><td>Belleğin yarısı</td></tr><tr><td>Bir görüntü bloğu</td><td>4<sup>4</sup> KB</td></tr></table>`,
-  secenekler: ["2^{11}", "2^{12}", "2^{15}", "2^{27}"],
-  dogru: 0,
+  secenekler: ["2^{27}", "2^{15}", "2^{12}", "2^{11}"],
+  dogru: 3,
   hatalar: [
-    null,
-    "Sistem yazılımına ayrılan yarıyı hesaba katmama: belleğin tamamı boş sanılıp 2^{20} ÷ 2^{8} = 2^{12} bulunmuş.",
+    "Bölmede üsleri toplama: 19 + 8 = 27 alınmış; oysa bölmede üsler çıkarılır.",
     "Tabanı 2 yaparken üssü olduğu gibi bırakma: 4^{4} = (2^{2})^{4} = 2^{8} yerine 4^{4} = 2^{4} sanılmış.",
-    "Bölmede üsleri toplama: 19 + 8 = 27 alınmış; oysa bölmede üsler çıkarılır."
+    "Sistem yazılımına ayrılan yarıyı hesaba katmama: belleğin tamamı boş sanılıp 2^{20} ÷ 2^{8} = 2^{12} bulunmuş.",
+    null
   ],
   aciklama: `Tabanı farklı üslü sayıları karşılaştırmak için önce hepsini aynı tabana çevirmek gerekir. Bunun için (a^{n})^{m} = a^{n·m} kuralı kullanılır.
 Adım 1: Belleğin büyüklüğünü 2 tabanında yaz: 4^{10} = (2^{2})^{10} = 2^{2·10} = 2^{20} KB.
@@ -549,7 +549,7 @@ Adım 3: Bir bloğun büyüklüğünü 2 tabanında yaz: 4^{4} = (2^{2})^{4} = 2
 Adım 4: Blok sayısını bul: 2^{19} ÷ 2^{8} = 2^{19−8} = 2^{11}.
 Sağlama: 2^{11} = 2048 blok. Her blok 2^{8} = 256 KB olduğuna göre 2048 · 256 = 524 288 KB yer kaplar ve bu, 2^{19} KB'ın tam karşılığıdır.
 Sık yapılan hata: 4^{10} ifadesini 2^{10} sanmak. Taban 4'ten 2'ye inerken üs iki katına çıkar, çünkü 4 = 2^{2}'dir.
-Cevap A.`
+Cevap D.`
 },
 {
   id: "mat-ui-012",
@@ -558,13 +558,13 @@ Cevap A.`
   zorluk: 4,
   soru: "Bir tarım araştırma merkezinde, tek bir tohumu tartmak çok zor olduğundan tohum kütleleri paketler üzerinden hesaplanmaktadır. İncelenen türün bütün tohumları eşit kütlededir ve paketlerin ambalaj kütlesi göz ardı edilmektedir. Merkezdeki A paketinin içindeki tohumlar tek tek sayılmış, paketin toplam kütlesi de hassas terazide ölçülmüştür. B paketi ise yalnızca tartılmış, içindeki tohumlar sayılmamıştır. İki paketle ilgili bilgiler tabloda verilmiştir.\n**Buna göre B paketinde en fazla kaç tohum bulunabilir?**",
   gorsel: `<table class="tablo"><tr><th>Paket</th><th>Tohum sayısı</th><th>Toplam kütle</th></tr><tr><td>A</td><td>2 · 10<sup>3</sup></td><td>6 · 10<sup>−1</sup> gram</td></tr><tr><td>B</td><td>?</td><td>1,5 gram</td></tr></table>`,
-  secenekler: ["5 · 10^{−5}", "5 · 10^{−3}", "5 · 10^{2}", "5 · 10^{3}"],
-  dogru: 3,
+  secenekler: ["5 · 10^{2}", "5 · 10^{3}", "2 · 10^{4}", "5 · 10^{4}"],
+  dogru: 1,
   hatalar: [
-    "İkinci bölmede üsleri toplama: 1,5 sayısı 1,5 · 10^{0} olduğundan 0 − (−4) = 4 olmalıyken 0 + (−4) = −4 alınmış.",
-    "Birinci bölmede üsleri toplama: (−1) + 3 = 2 alınıp bir tohumun kütlesi 3 · 10^{2} gram bulunmuş.",
     "Birinci bölmede üsleri çıkarırken bir birim şaşırma: bir tohumun kütlesi 3 · 10^{−4} yerine 3 · 10^{−3} gram bulunmuş.",
-    null
+    null,
+    "İkinci bölmede baştaki sayıları ters bölme: 1,5 ÷ 3 = 0,5 yerine 3 ÷ 1,5 = 2 alınmış.",
+    "Baştaki sayıyı 0,5'ten 5'e büyütürken 10'un üssünü 1 azaltmayı unutma: 0,5 · 10^{4} yerine 5 · 10^{4} yazılmış."
   ],
   aciklama: `Bilimsel gösterimdeki sayılar bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde üsler çıkarılır: (a · 10^{n}) ÷ (b · 10^{m}) = (a ÷ b) · 10^{n−m}.
 Adım 1: Bir tohumun kütlesini A paketinden bul: (6 · 10^{−1}) ÷ (2 · 10^{3}) işleminde 6 ÷ 2 = 3 ve (−1) − 3 = −4'tür. Bir tohum 3 · 10^{−4} gramdır.
@@ -572,7 +572,7 @@ Adım 2: B paketinin kütlesini bilimsel gösterime hazırla: 1,5 gram = 1,5 · 
 Adım 3: Tohum sayısını bul: (1,5 · 10^{0}) ÷ (3 · 10^{−4}) işleminde 1,5 ÷ 3 = 0,5 ve 0 − (−4) = 4'tür. Sonuç 0,5 · 10^{4}'tür.
 Adım 4: Bilimsel gösterime çevir: baştaki sayı 10 kat büyütülüp 5 yapılırsa üs 1 azalır: 0,5 · 10^{4} = 5 · 10^{3} = 5000 tohum.
 Sağlama: 5000 tohum · 0,0003 gram = 1,5 gram. A paketi için de kontrol et: 2000 · 0,0003 = 0,6 gram = 6 · 10^{−1} gram.
-Sık yapılan hata: Negatif üslü bir sayıya bölerken üssü çıkarmak yerine toplamak. Bir sayıyı 10^{−4} ile bölmek, onu 10^{4} ile çarpmakla aynıdır.
-Cevap D.`
+Sık yapılan hata: Sonucu bilimsel gösterime çevirirken baştaki sayıyı büyütüp üssü olduğu gibi bırakmak. 0,5 sayısı 10 kat büyütülüp 5 yapıldıysa üs 1 azalmalı ve 10^{3} olmalıdır.
+Cevap B.`
 }
 );
