@@ -97,7 +97,7 @@ Cevap D.`
   zorluk: 3,
   soru: `Bir tohum ıslah merkezinde çimlendirilen buğday tohumunda hücreler bölünerek çoğalmaktadır. Aşağıdaki şemada, bölünmeden önce bir hücredeki DNA'nın kendini eşlemesi gösterilmiştir. Şemada düz çizgiler eski zincirleri, kesik çizgiler ise yeni kurulan zincirleri göstermektedir.
 **Buna göre eşlenme sonunda oluşan iki DNA molekülü için aşağıdakilerden hangisi söylenebilir?**`,
-  gorsel: `<svg viewBox="0 0 540 230" role="img" aria-label="Bir DNA molekülünün eşlenerek iki DNA oluşturması"><line x1="30" y1="88" x2="150" y2="88" stroke="currentColor" stroke-width="3.5"/><line x1="30" y1="140" x2="150" y2="140" stroke="currentColor" stroke-width="3.5"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="48" y1="88" x2="48" y2="140"/><line x1="73" y1="88" x2="73" y2="140"/><line x1="98" y1="88" x2="98" y2="140"/><line x1="123" y1="88" x2="123" y2="140"/></g><text x="90" y="176" fill="currentColor" font-size="15" text-anchor="middle">Eşlenmeden önce</text><g stroke="currentColor" stroke-width="2"><line x1="168" y1="114" x2="208" y2="114"/><polygon points="218,114 204,108 204,120" fill="currentColor" stroke="none"/></g><line x1="240" y1="34" x2="400" y2="34" stroke="currentColor" stroke-width="3.5"/><line x1="240" y1="80" x2="400" y2="80" stroke="var(--vurgu)" stroke-width="3.5" stroke-dasharray="9 6"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="262" y1="34" x2="262" y2="80"/><line x1="292" y1="34" x2="292" y2="80"/><line x1="322" y1="34" x2="322" y2="80"/><line x1="352" y1="34" x2="352" y2="80"/><line x1="382" y1="34" x2="382" y2="80"/></g><line x1="240" y1="150" x2="400" y2="150" stroke="var(--vurgu)" stroke-width="3.5" stroke-dasharray="9 6"/><line x1="240" y1="196" x2="400" y2="196" stroke="currentColor" stroke-width="3.5"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="262" y1="150" x2="262" y2="196"/><line x1="292" y1="150" x2="292" y2="196"/><line x1="322" y1="150" x2="322" y2="196"/><line x1="352" y1="150" x2="352" y2="196"/><line x1="382" y1="150" x2="382" y2="196"/></g><g fill="currentColor" font-size="15"><text x="410" y="60">1. DNA</text><text x="410" y="178">2. DNA</text><text x="240" y="222">Eşlenmeden sonra</text></g><g font-size="14" fill="currentColor"><text x="30" y="212">— eski zincir</text></g><text x="150" y="212" fill="var(--vurgu)" font-size="14">- - - yeni zincir</text></svg>`,
+  gorsel: `<svg viewBox="0 0 540 230" role="img" aria-label="Bir DNA molekülünün eşlenerek iki DNA oluşturması"><line x1="30" y1="88" x2="150" y2="88" stroke="currentColor" stroke-width="3.5"/><line x1="30" y1="140" x2="150" y2="140" stroke="currentColor" stroke-width="3.5"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="42" y1="88" x2="42" y2="140"/><line x1="66" y1="88" x2="66" y2="140"/><line x1="90" y1="88" x2="90" y2="140"/><line x1="114" y1="88" x2="114" y2="140"/><line x1="138" y1="88" x2="138" y2="140"/></g><text x="90" y="176" fill="currentColor" font-size="15" text-anchor="middle">Eşlenmeden önce</text><g stroke="currentColor" stroke-width="2"><line x1="168" y1="114" x2="208" y2="114"/><polygon points="218,114 204,108 204,120" fill="currentColor" stroke="none"/></g><line x1="240" y1="34" x2="400" y2="34" stroke="currentColor" stroke-width="3.5"/><line x1="240" y1="80" x2="400" y2="80" stroke="var(--vurgu)" stroke-width="3.5" stroke-dasharray="9 6"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="262" y1="34" x2="262" y2="80"/><line x1="292" y1="34" x2="292" y2="80"/><line x1="322" y1="34" x2="322" y2="80"/><line x1="352" y1="34" x2="352" y2="80"/><line x1="382" y1="34" x2="382" y2="80"/></g><line x1="240" y1="150" x2="400" y2="150" stroke="var(--vurgu)" stroke-width="3.5" stroke-dasharray="9 6"/><line x1="240" y1="196" x2="400" y2="196" stroke="currentColor" stroke-width="3.5"/><g stroke="var(--vurgu2)" stroke-width="2"><line x1="262" y1="150" x2="262" y2="196"/><line x1="292" y1="150" x2="292" y2="196"/><line x1="322" y1="150" x2="322" y2="196"/><line x1="352" y1="150" x2="352" y2="196"/><line x1="382" y1="150" x2="382" y2="196"/></g><g fill="currentColor" font-size="15"><text x="410" y="60">1. DNA</text><text x="410" y="178">2. DNA</text><text x="240" y="222">Eşlenmeden sonra</text></g><g font-size="14" fill="currentColor"><text x="30" y="212">— eski zincir</text></g><text x="150" y="212" fill="var(--vurgu)" font-size="14">- - - yeni zincir</text></svg>`,
   secenekler: [
     "Her ikisi de yalnızca yeni zincirlerden oluşmuştur.",
     "Her birinde bir eski, bir yeni zincir bulunmaktadır.",
@@ -116,7 +116,7 @@ Adım 1: Eşlenme, DNA'nın iki zincirinin fermuar gibi birbirinden ayrılmasıy
 Adım 2: Ayrılan her zincir bir kalıp gibi davranır. Karşısına, eşleşme kuralına uyan nükleotidler dizilir: A karşısına T, G karşısına C gelir.
 Adım 3: Şemadaki çizgileri oku. Eşlenmeden sonraki 1. DNA'da bir düz (eski) zincir ve bir kesik (yeni) zincir vardır. 2. DNA'da da durum aynıdır.
 Adım 4: Öyleyse oluşan iki DNA'nın her birinde bir eski, bir yeni zincir bulunur.
-Sağlama: Eski zincirler kalıp olduğu için yeni DNA'ların baz sırası eskisiyle aynı olur. Bu sayede bölünmeyle oluşan yeni hücreler aynı kalıtsal bilgiyi alır.
+Sağlama: Eski zincirler kalıp olduğu için yeni DNA'ların baz sırası eskisiyle aynı olur; şemada üç molekülde de basamak sayısının eşit olması bunu gösterir. Bu sayede bölünmeyle oluşan yeni hücreler aynı kalıtsal bilgiyi alır.
 Sık yapılan hata: "Eşlenmede eski DNA korunur, yanına yepyeni bir DNA yapılır." demek. Şemadaki kesik ve düz çizgiler bunun böyle olmadığını gösterir.
 Cevap B.`
 },
@@ -184,28 +184,29 @@ Cevap A.`
   kazanim: "F.8.2.1.3",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir tarımsal araştırma merkezinde, kurağa dayanıklı bir buğday çeşidinin kök ucundan alınan hücreler incelenmiştir. İnceleme sonunda bu hücrelerin bölünerek çoğaldığı, bölünmeden önce ise DNA'ların kendini eşlediği belirlenmiştir.
-Buna göre;
-I. Eşlenme sırasında DNA'nın iki zinciri birbirinden ayrılır.
-II. Yeni zincirler kurulurken adenin bazının karşısına guanin bazı gelir.
-III. Eşlenme, hücre bölünmesinden önce gerçekleşir.
+  soru: `Bir üniversitenin genetik laboratuvarında, soğanın kök ucundan alınan hücreler bölünmeden önce incelenmiştir. İncelenen bir DNA molekülünün küçük bir bölümünde iki zincirin birbirinden ayrıldığı görülmüş ve ayrılan zincirlerdeki baz dizilimleri tabloya yazılmıştır.
+Buna göre bu bölümün eşlenmesiyle ilgili;
+I. 1. zincirin karşısına kurulan yeni zincirin baz dizilimi A – G – T – C – A olur.
+II. 2. zincirin karşısına kurulan yeni zincir, 1. zincirle aynı baz dizilimini taşır.
+III. Eşlenme sonunda oluşan iki DNA'nın bu bölümdeki baz dizilimi birbirinin aynısı olur.
 **yargılarından hangileri doğrudur?**`,
-  gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "I ve III"],
+  gorsel: `<table class="tablo"><tr><th>Ayrılan zincir</th><th>Baz dizilimi</th></tr><tr><td>1. zincir</td><td>A – G – T – C – A</td></tr><tr><td>2. zincir</td><td>T – C – A – G – T</td></tr></table>`,
+  secenekler: ["Yalnız II", "Yalnız III", "I ve III", "II ve III"],
   dogru: 3,
   hatalar: [
-    "III. yargıyı atlama: metinde de belirtildiği gibi eşlenme, bölünmeden önce gerçekleşir.",
-    "I. yargıyı atlama: eşlenme, iki zincirin fermuar gibi birbirinden ayrılmasıyla başlar.",
-    "Eşleşme kuralını karıştırma: adenin karşısına timin, guanin karşısına sitozin gelir. II yanlıştır.",
+    "III. yargıyı atlama: oluşan iki DNA da aynı iki zincirden kurulur; bu yüzden bu bölümdeki dizilimleri birbirinin aynısıdır.",
+    "II. yargıyı atlama: 2. zincirdeki T – C – A – G – T dizilişinin karşısına eşleşme kuralına göre A – G – T – C – A gelir; bu da 1. zincirin dizilişidir.",
+    "I. yargıyı doğru sayma: yeni zincir kalıbın kopyası değil karşılığıdır; 1. zincirin karşısına A – G – T – C – A değil T – C – A – G – T dizilir.",
     null
   ],
-  aciklama: `DNA'nın kendini eşlemesi, kalıtsal bilginin kopyalanmasıdır ve hücre bölünmesinden önce gerçekleşir.
-Adım 1: I. yargıyı incele. Eşlenme, DNA'nın iki zincirinin fermuar gibi açılıp birbirinden ayrılmasıyla başlar. I doğrudur.
-Adım 2: II. yargıyı incele. Eşleşme kuralına göre adenin (A) karşısına timin (T), guanin (G) karşısına sitozin (C) gelir. Adenin karşısına guanin gelmez. II yanlıştır.
-Adım 3: III. yargıyı incele. Bölünmeyle oluşacak yeni hücrelerin tam bir DNA alabilmesi için bilgi önceden kopyalanmalıdır. Bu yüzden eşlenme bölünmeden önce olur. III doğrudur.
-Adım 4: Doğru yargılar I ve III'tür.
-Sağlama: Eşlenme bölünmeden sonra olsaydı yeni hücrelerin birinde eksik kalıtsal bilgi bulunurdu.
-Sık yapılan hata: A – T ve G – C eşleşmesini karıştırmak. Harfleri hatırlamak için "düz olanlar düz, yuvarlak olanlar yuvarlak" gibi kendi kısa yolunu kur: A ile T, G ile C.
+  aciklama: `Eşlenmede ayrılan her zincir bir kalıp gibi davranır; karşısına eşleşme kuralına uyan nükleotidler dizilir: A karşısına T, G karşısına C.
+Adım 1: Tabloyu oku. Ayrılan zincirler A – G – T – C – A ve T – C – A – G – T'dir. Karşılıklı bazları sırayla kontrol edersen (A–T, G–C, T–A, C–G, A–T) bu ikisinin eşlenmeden önce yan yana duran zincirler olduğunu görürsün.
+Adım 2: I. yargıyı incele. 1. zincirdeki her bazın karşısına eşi gelir: A'nın karşısına T, G'nin karşısına C, T'nin karşısına A, C'nin karşısına G, A'nın karşısına T. Yeni zincir T – C – A – G – T olur; A – G – T – C – A değildir. I yanlıştır.
+Adım 3: II. yargıyı incele. Aynı kuralı 2. zincire uygula: T – C – A – G – T dizilişinin karşısına A – G – T – C – A gelir. Bu da 1. zincirin dizilişidir. II doğrudur.
+Adım 4: III. yargıyı incele. Oluşan DNA'ların biri 1. zincir ile yeni kurulan T – C – A – G – T zincirinden, diğeri 2. zincir ile yeni kurulan A – G – T – C – A zincirinden oluşur. İkisi de aynı iki dizilişi taşır. III doğrudur.
+Adım 5: Doğru yargılar II ve III'tür.
+Sağlama: Kurduğun yeni zincirleri kalıplarının karşısına yazıp her çifti denetle; hepsinde A – T ve G – C kuralı tutmalıdır.
+Sık yapılan hata: Yeni zinciri kalıbın kopyası sanmak. Karşılıklı zincirler birbirinin aynısı değil, eşidir; kopyalanan, DNA'nın tamamıdır.
 Cevap D.`
 },
 {
@@ -273,29 +274,29 @@ Cevap C.`
   kazanim: "F.8.2.1.3",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir ıslah merkezinde, kurağa dayanıklı bir buğday bitkisinin kök ucundaki bir hücre bölünerek iki yeni hücre oluşturmuştur. Araştırmacılar ana hücreden ve iki yeni hücreden alınan örneklerde aynı gen bölgesini incelemiş ve elde ettikleri baz dizilimlerini tabloya yazmıştır.
-**Buna göre yeni hücrelerdeki baz diziliminin ana hücredekiyle aynı olmasının nedeni aşağıdakilerden hangisidir?**`,
-  gorsel: `<table class="tablo"><tr><th>Hücre</th><th>İncelenen gen bölgesindeki baz dizilimi</th></tr><tr><td>Ana hücre</td><td>T – A – C – G – G – A</td></tr><tr><td>1. yeni hücre</td><td>T – A – C – G – G – A</td></tr><tr><td>2. yeni hücre</td><td>T – A – C – G – G – A</td></tr></table>`,
+  soru: `Bir ıslah merkezinde, kurağa dayanıklı bir buğday bitkisinin kök ucundaki bir hücre bölünerek iki yeni hücre oluşturmuştur. Araştırmacılar ana hücrede ve iki yeni hücrede aynı gen bölgesini inceleyip elde ettikleri baz dizilimlerini tabloya yazmıştır. Eşlenme sırasında bir bazın karşısına kural dışı bir baz yerleşebildiği, hücrenin bu hataları çoğunlukla onardığı, onarılmayan hatanın ise yeni hücreye olduğu gibi aktarıldığı bilinmektedir.
+**Buna göre tablodaki sonuçlarla ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  gorsel: `<table class="tablo"><tr><th>Hücre</th><th>İncelenen gen bölgesindeki baz dizilimi</th></tr><tr><td>Ana hücre</td><td>T – A – C – G – G – A</td></tr><tr><td>1. yeni hücre</td><td>T – A – C – G – G – A</td></tr><tr><td>2. yeni hücre</td><td>T – A – C – G – C – A</td></tr></table>`,
   secenekler: [
-    "Bölünmeden önce DNA'nın kendini eşleyerek aynı bilgiyi kopyalaması",
-    "Bölünme sırasında hücrenin kromozom sayısını iki katına çıkarması",
-    "Yeni hücrelerin kendilerine ait yeni genler oluşturması",
-    "Bölünmeden sonra bazların yeniden sıraya dizilmesi"
+    "Yeni kurulan zincirlerden birine kural dışı bir baz yerleşmiş ve bu hata onarılmamıştır.",
+    "Ana hücrenin DNA'sı eşlenmeden ikiye ayrılıp yeni hücrelere yarı yarıya paylaştırılmıştır.",
+    "İki yeni hücrede de eşleşme kuralı uygulanmadığı için diziliş ana hücredekinden farklı olmuştur.",
+    "Eşlenme sırasında oluşan hata onarıldığı için 2. yeni hücrenin dizilişi değişmiştir."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "Eşlenmeyi kromozom sayısının kalıcı olarak artmasıyla karıştırma: bölünme sonunda yeni hücrelerin kromozom sayısı ana hücreyle aynıdır; kopyalanan DNA iki hücreye paylaştırılır.",
-    "Hücrelerin kendi genlerini oluşturduğunu sanma: yeni hücreler gen üretmez, ana hücrenin DNA'sının kopyasını alır.",
-    "Sıralamanın bölünmeden sonra yapıldığını sanma: baz sırası kopyalama sırasında, yani bölünmeden önce belirlenir."
+    "Eşlenmeyi DNA'nın paylaştırılması sanma: bölünmeden önce DNA kopyalanır. Tabloda iki yeni hücrede de bölgenin altı bazının tamamı okunmuştur, yarısı değil.",
+    "Tabloyu karşılaştırmadan karar verme: 1. yeni hücrenin dizilişi ana hücreyle harf harf aynıdır; kural yalnızca tek bir bazda çiğnenmiştir.",
+    "Onarımın sonucunu ters anlama: hata onarılsaydı kural dışı bazın yerine doğrusu konur ve diziliş ana hücredekiyle aynı kalırdı."
   ],
-  aciklama: `Bir hücre bölündüğünde oluşan yeni hücrelerin kalıtsal bilgisi ana hücreyle aynıdır. Bunun nedeni, bölünmeden önce DNA'nın kendini eşlemesidir.
-Adım 1: Tabloyu oku. Ana hücre ile iki yeni hücrenin baz dizilimi harf harf aynıdır: T – A – C – G – G – A.
-Adım 2: Bu aynılığın nedenini düşün. Bölünmeden önce DNA'nın iki zinciri ayrılır ve her zincir kalıp görevi görerek karşısına yeni bir zincir kurdurur.
-Adım 3: Eşleşme kuralı sabit olduğu için (A karşısına T, G karşısına C) oluşan iki DNA'nın baz sırası eskisiyle aynıdır.
-Adım 4: Bölünme sırasında bu iki DNA, iki yeni hücreye birer birer dağıtılır. Böylece her yeni hücre ana hücreyle aynı dizilimi almış olur.
-Sağlama: Kopyalama olmasaydı DNA ikiye bölünüp paylaştırılırdı ve her yeni hücrede bilginin yalnızca yarısı bulunurdu; oysa tabloda diziliş eksiksiz aynıdır.
-Sık yapılan hata: Eşlenmeyi hücre bölünmesinden sonra gerçekleşen bir olay sanmak. Sıra şudur: önce eşlenme, sonra bölünme.
+  aciklama: `Hücre bölünmeden önce DNA kendini eşler; böylece her yeni hücre ana hücreyle aynı kalıtsal bilgiyi alır. Eşlenmede bir bazın karşısına kural dışı bir baz yerleşirse hücre bu hatayı çoğunlukla onarır.
+Adım 1: Tabloyu karşılaştır. 1. yeni hücrenin dizilişi ana hücreyle harf harf aynıdır: T – A – C – G – G – A. 2. yeni hücrede ise beşinci sırada G yerine C vardır. Fark tek bir bazdadır.
+Adım 2: Bu fark nereden çıkmış olabilir? Yeni hücrelerin DNA'ları, eşlenmede eski zincirler kalıp alınarak kurulur. Kalıp değişmediğine göre fark, yeni kurulan zincire bir bazın kurala aykırı yerleşmesinden gelir.
+Adım 3: Kök metne dön. Hücre bu hatayı onarsaydı kural dışı bazın yerine doğrusu konur ve diziliş ana hücredekiyle aynı kalırdı. Diziliş değiştiğine göre hata onarılmamış, yeni hücreye olduğu gibi aktarılmıştır.
+Adım 4: Diğer seçenekleri ele. DNA ikiye ayrılıp paylaştırılsaydı yeni hücrelerde bölgenin yalnızca bir bölümü bulunurdu; oysa iki hücrede de altı bazın tamamı okunmuştur. Kural iki hücrede birden çiğnenseydi 1. yeni hücrenin dizilişi de ana hücreden farklı olurdu.
+Sağlama: Değişen tek bir bazdır. Bu da kopyalamanın çalıştığını, yalnızca bir noktada hata yapıldığını gösterir.
+Sık yapılan hata: Onarımı, dizilişi değiştiren bir olay sanmak. Onarım dizilişi değiştirmez; bozulan yeri eski hâline döndürür.
 Cevap A.`
 },
 {
@@ -332,28 +333,28 @@ Cevap B.`
   kazanim: "F.8.2.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `1869 yılında bir araştırmacı, hücrelerin çekirdeklerinden o güne kadar bilinmeyen, fosfor bakımından zengin bir madde ayırmayı başarmıştır. Araştırmacı bu maddeye, çekirdek anlamına gelen sözcükten yola çıkarak "nüklein" adını vermiştir. Bu maddenin kalıtsal bilgiyi taşıyan DNA olduğu ise ancak yıllar sonra anlaşılmıştır.
-Buna göre yalnızca bu bilgiyle;
-I. Araştırmacının incelediği hücrelerde çekirdek bulunmaktadır.
-II. Ayrılan maddenin yapısında fosfor elementi bulunmaktadır.
-III. Araştırmacı, ayırdığı maddenin kalıtsal bilgiyi taşıdığını kendi döneminde belirlemiştir.
-**yargılarından hangileri kesinlikle doğrudur?**`,
+  soru: `1869 yılında bir araştırmacı, hücrelerin çekirdeklerinden o güne kadar bilinmeyen, fosfor bakımından zengin bir madde ayırmayı başarmıştır. Bu maddeye ulaşmak için önce hücrelerin çekirdeklerini geri kalan kısımlarından ayırmış, sonra çekirdeklerin içeriğini incelemiştir. Araştırmacı bulduğu maddeye, çekirdek anlamına gelen sözcükten yola çıkarak "nüklein" adını vermiştir. Bu maddenin kalıtsal bilgiyi taşıyan DNA olduğu ise ancak yıllar sonra anlaşılmıştır.
+Buna göre;
+I. Araştırmacının incelediği hücrelerde kalıtsal bilgiyi taşıyan molekül çekirdekte bulunmaktadır.
+II. Ayrılan maddenin fosfor bakımından zengin olması, bu maddenin yapı birimindeki üç kısımdan biriyle açıklanabilir.
+III. Maddeye verilen ad, maddenin hücredeki görevine göre belirlenmiştir.
+**yargılarından hangileri doğrudur?**`,
   gorsel: null,
   secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I, II ve III"],
   dogru: 2,
   hatalar: [
-    "II. yargıyı atlama: metinde maddenin fosfor bakımından zengin olduğu açıkça yazmaktadır.",
-    "I. yargıyı atlama: madde çekirdeklerden ayrıldığına göre incelenen hücrelerin çekirdeği vardır.",
+    "II. yargıyı atlama: DNA'nın yapı birimi nükleotiddir ve nükleotidin üç kısmından biri fosfattır; maddedeki fosfor buradan gelir.",
+    "I. yargıyı atlama: madde hücrelerin çekirdeklerinden ayrılmıştır ve metinde bu maddenin kalıtsal bilgiyi taşıyan DNA olduğu belirtilmiştir.",
     null,
-    "III. yargıyı doğru sayma: metinde bu maddenin DNA olduğunun \"yıllar sonra\" anlaşıldığı belirtilmiştir; araştırmacı bunu kendi döneminde bilmiyordu."
+    "III. yargıyı doğru sayma: ad, maddenin görevinden değil ayrıldığı yerden, yani çekirdek anlamına gelen sözcükten türetilmiştir."
   ],
-  aciklama: `Bu soruda metinde açıkça verilen ya da metinden zorunlu olarak çıkan yargılar aranıyor. Metnin söylemediğini eklemek "fazla varsayım" hatasıdır.
-Adım 1: I. yargıyı incele. Madde, hücrelerin çekirdeklerinden ayrılmıştır. Çekirdeği olmayan bir hücreden çekirdek maddesi ayrılamaz. Öyleyse incelenen hücrelerin çekirdeği vardır. I doğrudur.
-Adım 2: II. yargıyı incele. Metinde maddenin "fosfor bakımından zengin" olduğu yazılıdır. Bu doğrudan verilmiş bir bilgidir. II doğrudur.
-Adım 3: III. yargıyı incele. Metin, maddenin DNA olduğunun yıllar sonra anlaşıldığını söylüyor. Yani araştırmacı bunu kendi döneminde belirlememiştir. III yanlıştır.
-Adım 4: Kesinlikle doğru olanlar I ve II'dir.
-Sağlama: III'ün yanlışlığını metindeki "ancak yıllar sonra anlaşılmıştır" ifadesinden doğrudan görebilirsin.
-Sık yapılan hata: Bir bilim insanının bulduğu şeyin anlamını da hemen bildiğini varsaymak. Bilimde çoğu zaman önce madde bulunur, görevi sonra anlaşılır.
+  aciklama: `Bu soruda metinde verilenleri, DNA hakkında öğrendiklerinle birleştirmen isteniyor. DNA'nın yapı birimi nükleotiddir; her nükleotid fosfat, şeker ve organik baz olmak üzere üç kısımdan oluşur.
+Adım 1: I. yargıyı incele. Metne göre madde hücrelerin çekirdeklerinden ayrılmıştır; yıllar sonra da bu maddenin kalıtsal bilgiyi taşıyan DNA olduğu anlaşılmıştır. İki bilgiyi birleştir: incelenen hücrelerde kalıtsal bilgiyi taşıyan molekül çekirdektedir. I doğrudur.
+Adım 2: II. yargıyı incele. Maddenin fosfor bakımından zengin olması rastlantı değildir. Nükleotidin üç kısmından biri fosfattır ve fosfat adını fosfor elementinden alır. Öyleyse bu zenginlik, yapı birimindeki fosfat kısmıyla açıklanabilir. II doğrudur.
+Adım 3: III. yargıyı incele. Araştırmacı, maddeye verdiği adı onu ayırdığı yerden yola çıkarak, yani çekirdek anlamına gelen sözcükten türeterek belirlemiştir. Maddenin görevi o dönemde bilinmiyordu; kalıtsal bilgiyi taşıdığı yıllar sonra anlaşılmıştır. Bilinmeyen bir göreve göre ad konamaz. III yanlıştır.
+Adım 4: Doğru yargılar I ve II'dir.
+Sağlama: III'ün yanlışlığını metindeki "çekirdek anlamına gelen sözcükten yola çıkarak" ifadesinden doğrudan görebilirsin.
+Sık yapılan hata: Bir maddenin adının her zaman görevini anlattığını sanmak. Bilimde çoğu ad, maddenin ilk bulunduğu yeri anlatır; görevi sonradan öğrenilir.
 Cevap C.`
 }
 );

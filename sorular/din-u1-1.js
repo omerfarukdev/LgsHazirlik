@@ -230,7 +230,7 @@ Cevap D.`
   kazanim: "8.1.3",
   kademe: 1,
   zorluk: 2,
-  soru: `Ninesinin doksanıncı yaş gününü kutlayan Ceren, "Nineannem çok uzun yaşamış." demiştir. Annesi ona, ömür ile ecel kavramlarının birbirinden farklı şeyleri anlattığını söylemiştir.
+  soru: `Ninesinin doksanıncı yaş gününü kutlayan Ceren, "Ninem çok uzun yaşamış." demiştir. Annesi ona, ömür ile ecel kavramlarının birbirinden farklı şeyleri anlattığını söylemiştir.
 **Buna göre bu iki kavramla ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
   secenekler: [
@@ -259,7 +259,7 @@ Cevap A.`
   kazanim: "8.1.4",
   kademe: 1,
   zorluk: 2,
-  soru: `Bir inşaatta çalışan Rıza Usta, yukarıdan düşen bir tuğla nedeniyle başından yaralanmıştır. İş yerinde kaza günü alınmış olan güvenlik tedbirleri tabloda verilmiştir. Kazadan sonra şantiye sorumlusu, "Kaderinde varmış, elden ne gelirdi?" demiştir.
+  soru: `Bir inşaatta çalışan Rıza Usta, yukarıdan düşen bir tuğla nedeniyle başından yaralanmıştır. İş yerinde kaza günü güvenlik tedbirlerinin durumu tabloda verilmiştir. Kazadan sonra şantiye sorumlusu, "Kaderinde varmış, elden ne gelirdi?" demiştir.
 **Buna göre şantiye sorumlusunun sözüyle ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: `<table class="tablo"><tr><th>Güvenlik tedbiri</th><th>Durumu</th></tr><tr><td>Baret takılması</td><td>Alınmamış</td></tr><tr><td>Güvenlik ağı kurulması</td><td>Alınmamış</td></tr><tr><td>Uyarı levhası konulması</td><td>Alınmış</td></tr><tr><td>Çalışma alanının şeritle kapatılması</td><td>Alınmamış</td></tr></table>`,
   secenekler: [
@@ -279,7 +279,8 @@ Cevap A.`
 Adım 1: Tabloyu oku. Dört tedbirden üçü alınmamıştır: baret, güvenlik ağı ve çalışma alanının şeritle kapatılması.
 Adım 2: Düşen bir tuğlanın baş yaralamasına yol açmasını engelleyebilecek tedbirler, tam da alınmayanlardır. Yani kaza ihmalle doğrudan ilişkilidir.
 Adım 3: Şantiye sorumlusu ise "Elden ne gelirdi?" diyerek kendi sorumluluğunu yok sayıyor ve sonucu kadere bağlıyor.
-Adım 4: Öyleyse bu söz, alınmayan güvenlik tedbirlerinin sorumluluğunu kadere yüklemektedir.
+Adım 4: Seçenekleri tabloyla karşılaştır. Tabloda yalnızca uyarı levhası "Alınmış" yazdığı için "bütün tedbirler alındığı hâlde" diyen seçenek elenir. Tedbirini almadan sonucu kadere bağlamak da kader ile irade arasında doğru bir bağ kurmak değildir.
+Adım 5: Öyleyse bu söz, alınmayan güvenlik tedbirlerinin sorumluluğunu kadere yüklemektedir.
 Sık yapılan hata: Her olumsuz sonucu "kader" diye adlandırmak. İnsan önce üzerine düşeni yapmalı, sonra sonucu Allah'a bırakmalıdır.
 Cevap B.`
 },
@@ -375,9 +376,9 @@ Cevap A.`
   kazanim: "8.1.4",
   kademe: 2,
   zorluk: 2,
-  soru: `İş görüşmesinden olumsuz haberle dönen teyzesi ile babaannesinin akşam yaptığı konuşmadan bir bölüm tabloda verilmiştir.
+  soru: `Elif'in iş görüşmesinden olumsuz haberle dönen teyzesi ile babaannesinin akşam yaptığı konuşmadan bir bölüm tabloda verilmiştir.
 **Buna göre babaannesinin sözü, teyzesinin sözünden hangi yönüyle ayrılır?**`,
-  gorsel: `<table class="tablo"><tr><th>Konuşan</th><th>Söylediği söz</th></tr><tr><td>Teyzesi</td><td>"Bahtım kara; ne yapsam olmuyor, boşuna uğraşıyorum."</td></tr><tr><td>Babaannesi</td><td>"Kader, Allah'ın koyduğu ölçüdür. Sen üzerine düşeni yap, gerisine güven."</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>Konuşan</th><th>Söylediği söz</th></tr><tr><td>Teyzesi</td><td>"Kısmetimde yokmuş, alın yazısı bu; artık başvurmayı da bırakacağım."</td></tr><tr><td>Babaannesi</td><td>"Kader, Allah'ın koyduğu ölçüdür. Sen üzerine düşeni yap, gerisine güven."</td></tr></table>`,
   secenekler: [
     "Görüşmenin sonucunu tümüyle kişinin kendi gücüne bağlaması",
     "Sonucu değişmez bir talihe değil, çabaya ve tevekküle bağlaması",
@@ -391,12 +392,13 @@ Cevap A.`
     "Tabloda olmayan bir yargı üretme: babaannesinin sözünde başka insanların tutumundan hiç söz edilmemektedir.",
     "İki sözü birbirine karıştırma: çabanın sonucu değiştirmediğini ima eden söz teyzesine aittir."
   ],
-  aciklama: `"Baht", "kara talih", "kısmetsizlik" gibi sözler insanın hiçbir şeyi değiştiremeyeceğini ima eder. Kader inancı ise insanın çabasını ve sorumluluğunu ortadan kaldırmaz.
-Adım 1: Teyzesinin sözünü çözümle. "Ne yapsam olmuyor, boşuna uğraşıyorum." cümlesi sonucu değişmez bir talihe bağlıyor ve çabayı gereksiz sayıyor.
+  aciklama: `"Alın yazısı", "kara talih", "baht", "kısmetsizlik" gibi kalıp sözler insanın hiçbir şeyi değiştiremeyeceğini ima eder. Kader inancı ise insanın çabasını ve sorumluluğunu ortadan kaldırmaz.
+Adım 1: Teyzesinin sözünü çözümle. "Kısmetimde yokmuş, alın yazısı bu." cümlesi sonucu değişmez bir yazgıya bağlıyor; "artık başvurmayı da bırakacağım." cümlesi ise çabayı büsbütün bırakıyor.
 Adım 2: Babaannesinin sözünü çözümle. Önce "Sen üzerine düşeni yap." diyerek çabayı istiyor, sonra "gerisine güven." diyerek tevekkülü hatırlatıyor.
-Adım 3: İki sözü karşılaştır. Aradaki temel fark, sonucun neye bağlandığıdır: teyzesi değişmez bir talihe, babaannesi ise çabaya ve ardından Allah'a güvenmeye bağlıyor.
-Adım 4: Öyleyse babaannesinin sözü, sonucu değişmez bir talihe değil çabaya ve tevekküle bağlamasıyla ayrılır.
-Sağlama: Babaannesinin sözü iki parçalıdır: önce tedbir, sonra teslimiyet. Tevekkülün tanımı da tam olarak budur.
+Adım 3: İki sözü karşılaştır. Aradaki temel fark, sonucun neye bağlandığıdır: teyzesi değişmez bir yazgıya, babaannesi ise çabaya ve ardından Allah'a güvenmeye bağlıyor.
+Adım 4: En yakın çeldiriciyi ele. Babaannesi sonucu "tümüyle kişinin kendi gücüne" bağlamıyor; öyle olsaydı "gerisine güven." demezdi. Sözün ikinci yarısı tam da sonucu Allah'a bırakmayı anlatır.
+Adım 5: Öyleyse babaannesinin sözü, sonucu değişmez bir talihe değil çabaya ve tevekküle bağlamasıyla ayrılır.
+Sık yapılan hata: Bu kalıp sözleri kader inancının bir parçası sanmak. "Alın yazısı" ve "kısmet" gibi sözler çabayı gereksiz gösterir; kader inancı ise insanın çabasını ve sorumluluğunu sürdürür.
 Cevap B.`
 },
 {
@@ -458,7 +460,7 @@ Cevap B.`
   id: "din-u1-207",
   kazanim: "8.1.3",
   kademe: 2,
-  zorluk: 3,
+  zorluk: 2,
   soru: `Hafta sonu kamp yapan bir aile, çadırı kurduktan sonra iplerini gerdirip kazıklarını iyice çakmıştır. Küçük kardeş, "Allah korusun deyip bıraksak olmaz mıydı?" diye sormuştur. Babası ona şu olayı anlatmıştır:
 Bir kişi Peygamberimize, "Devemi bağlayıp mı tevekkül edeyim, salıverip mi?" diye sormuş; Peygamberimiz, "Önce bağla, sonra tevekkül et." buyurmuştur. (Tirmizî)
 I. Tedbir almadan beklemek de tevekkül sayılır.
@@ -487,28 +489,28 @@ Cevap D.`
   kazanim: "8.1.4",
   kademe: 2,
   zorluk: 3,
-  soru: `Şeker hastası olan dedesi, hekiminin verdiği beslenme listesine temmuz ayından sonra uymayı bırakmış ve "Hastalık Allah'tan; ne yapsam sonuç değişmez." demiştir. Torunu Zeynep, dedesinin altı aylık açlık kan şekeri ölçümlerini bir grafiğe dökmüştür.
+  soru: `Zeynep'in şeker hastası olan dedesi, hekiminin verdiği beslenme listesine temmuz ayından sonra uymayı bırakmış ve "Hastalık Allah'tan; ne yapsam sonuç değişmez." demiştir. Zeynep, dedesinin altı aylık açlık kan şekeri ölçümlerini bir grafiğe dökmüştür.
 I. Beslenme düzenindeki değişiklik ölçümlere yansımıştır.
 II. Hastalığın seyrinde insanın tercihlerinin payı vardır.
-III. Grafik, hastalığın tedbirle tamamen önlenebileceğini kanıtlamaktadır.
+III. Ölçümlerdeki en büyük artış ağustos ile eylül arasında yaşanmıştır.
 **Buna göre yukarıdaki yargılardan hangileri söylenebilir?**`,
   gorsel: `<svg viewBox="0 0 540 330" role="img" aria-label="Dedenin nisan ile eylül arasındaki açlık kan şekeri ölçümlerini gösteren sütun grafiği"><text x="270" y="20" fill="currentColor" font-size="15" text-anchor="middle" font-weight="bold">Grafik: Açlık kan şekeri ölçümleri (mg/dL)</text><g stroke="currentColor" stroke-width="2" fill="none"><line x1="62" y1="60" x2="62" y2="270"/><line x1="62" y1="270" x2="520" y2="270"/></g><g stroke="currentColor" stroke-width="1" opacity="0.35"><line x1="62" y1="223" x2="520" y2="223"/><line x1="62" y1="175" x2="520" y2="175"/><line x1="62" y1="128" x2="520" y2="128"/><line x1="62" y1="80" x2="520" y2="80"/></g><g fill="currentColor" font-size="14" text-anchor="end"><text x="54" y="275">0</text><text x="54" y="228">50</text><text x="54" y="180">100</text><text x="54" y="133">150</text><text x="54" y="85">200</text></g><g fill="var(--vurgu)"><rect x="78" y="148" width="44" height="122"/><rect x="151" y="152" width="44" height="118"/><rect x="224" y="146" width="44" height="124"/><rect x="297" y="144" width="44" height="126"/><rect x="370" y="101" width="44" height="169"/><rect x="443" y="76" width="44" height="194"/></g><line x1="356" y1="62" x2="356" y2="272" stroke="var(--vurgu2)" stroke-width="2.5" stroke-dasharray="7 5"/><text x="438" y="50" fill="var(--vurgu2)" font-size="14" text-anchor="middle" font-weight="bold">Beslenme listesi bırakıldı</text><g fill="currentColor" font-size="14" text-anchor="middle"><text x="100" y="142">128</text><text x="173" y="146">124</text><text x="246" y="140">130</text><text x="319" y="138">133</text><text x="392" y="95">178</text><text x="465" y="70">204</text></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="100" y="292">Nisan</text><text x="173" y="292">Mayıs</text><text x="246" y="292">Haziran</text><text x="319" y="292">Temmuz</text><text x="392" y="292">Ağustos</text><text x="465" y="292">Eylül</text></g></svg>`,
-  secenekler: ["I ve II", "I ve III", "II ve III", "I, II ve III"],
-  dogru: 0,
+  secenekler: ["Yalnız I", "I ve II", "I ve III", "I, II ve III"],
+  dogru: 1,
   hatalar: [
+    "II. yargıyı yanlış sayma: dede listeye uyarken ölçümler 124-133 mg/dL arasındayken listeyi bıraktıktan sonra 204 mg/dL'ye çıkmıştır; bu, hastalığın seyrinde insanın tercihlerinin payı olduğunu gösterir.",
     null,
-    "III. yargıyı doğru sayma: grafik yalnızca ölçümlerin nasıl değiştiğini gösterir, hastalığın tamamen önlenebileceğini kanıtlamaz.",
-    "I. yargıyı atlayıp III'ü doğru sayma: artışın tam da temmuzdan sonra başlaması I. yargıyı doğrulamaktadır.",
-    "Üç yargıyı da doğru sayma: tedbir hastalığın seyrini iyileştirebilir, ancak grafik hastalığın tamamen önlenebileceğini göstermez."
+    "En yüksek sütunu en büyük artış sanma: eylül sütunu en yüksek olsa da artış ağustos ile eylül arasında 26, temmuz ile ağustos arasında 45 mg/dL'dir.",
+    "III. yargıyı grafikle karşılaştırmadan doğru sayma: en büyük artış, beslenme listesinin bırakıldığı temmuz ile ağustos arasında yaşanmıştır."
   ],
   aciklama: `Sağlık ve hastalık, kaderle ilgili kavramlardandır. Hastalığa yakalanmak insanın elinde olmayabilir; ancak korunmak ve tedaviye uymak insanın sorumluluğundadır.
-Adım 1: Grafiği oku. Nisan-temmuz aralığında ölçümler 124 ile 133 mg/dL arasında dalgalanıyor. Ağustosta 178, eylülde 204 mg/dL'ye çıkıyor.
-Adım 2: I. yargıyı kontrol et. Artış tam da beslenme listesinin bırakıldığı temmuzdan sonra başlamıştır. Değişiklik ölçümlere yansımıştır. Doğrudur.
+Adım 1: Grafiği oku. Ölçümler sırasıyla 128, 124, 130, 133, 178 ve 204 mg/dL'dir. Kesikli çizgi, beslenme listesinin temmuzdan sonra bırakıldığını gösterir.
+Adım 2: I. yargıyı kontrol et. Ölçümler temmuza kadar 124 ile 133 arasında dalgalanırken listenin bırakılmasından sonra hızla yükselmiştir. Değişiklik ölçümlere yansımıştır. Doğrudur.
 Adım 3: II. yargıyı kontrol et. Hastalık aynı hastalık; değişen tek şey dedenin tercihidir ve sonuç değişmiştir. Demek ki hastalığın seyrinde insanın tercihlerinin payı vardır. Doğrudur.
-Adım 4: III. yargıyı kontrol et. Grafik, tedbirin seyri iyileştirdiğini gösterir; hastalığın büsbütün önlenebileceğini göstermez. Zaten dede listeye uyduğu aylarda da hastaydı. Yanlıştır.
+Adım 4: III. yargıyı kontrol et. Artışları çıkararak bul: temmuz ile ağustos arasında 178 − 133 = 45, ağustos ile eylül arasında 204 − 178 = 26 mg/dL. En büyük artış temmuz ile ağustos arasındadır. Yanlıştır.
 Adım 5: Söylenebilecek yargılar I ve II'dir.
-Sık yapılan hata: "Hastalık Allah'tan, tedbirin faydası yok." demek. Şifayı veren Allah'tır; tedaviye uymak ise insanın üzerine düşen tedbirdir.
-Cevap A.`
+Sık yapılan hata: En yüksek sütunun bulunduğu yeri "en büyük artış" sanmak. Sütunun yüksekliği o ayın değerini, iki sütun arasındaki fark ise artışı gösterir. Bir diğer yaygın hata da "Hastalık Allah'tan, tedbirin faydası yok." demektir; şifayı veren Allah'tır, tedaviye uymak ise insanın üzerine düşen tedbirdir.
+Cevap B.`
 },
 {
   id: "din-u1-209",

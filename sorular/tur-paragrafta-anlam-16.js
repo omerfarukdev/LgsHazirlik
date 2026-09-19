@@ -115,7 +115,7 @@ Sık yapılan hata: Metnin söylediğini biraz büyüterek okumak. “Bazı bakt
 { id: "tur-pa-2065", kazanim: "T.8.3.19", kademe: 0, zorluk: 3,
   soru: `Hamuru yoğurmak işin yarısıdır; asıl iş bekleme sırasında olur. Un suyla buluşup yoğrulduğunda içindeki proteinler birbirine tutunarak ağ gibi bir yapı kurar. Hamuru esnek yapan, açıldığında yırtılmadan incelmesini sağlayan bu ağdır. Ne var ki yoğurma biter bitmez hamur gergindir; oklavayla açmaya çalışırsanız her seferinde büzülüp eski hâline döner.
 İşte bu yüzden hamurun üzeri örtülür ve bir süre dinlenmeye bırakılır. Bekleme sırasında gergin ağ gevşer, hamur yumuşar ve oklavanın altında geri çekilmeden yayılır. Aynı hamur, dinlenmeden zorla açıldığında hem yırtılır hem de pişince sert olur.
-Mutfakta çoğu işin sırrı yapılan hareketlerde aranır: nasıl yoğurulduğu, ne kadar un serpildiği, hamurun kaç kez katlandığı. Oysa burada belirleyici olan, hiçbir şey yapılmayan o yarım saattir.
+Mutfakta çoğu işin sırrı yapılan hareketlerde aranır: nasıl yoğrulduğu, ne kadar un serpildiği, hamurun kaç kez katlandığı. Oysa burada belirleyici olan, hiçbir şey yapılmayan o yarım saattir.
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
   gorsel: null,
@@ -235,7 +235,7 @@ En güçlü çeldirici V. “Demek ki” ile başladığı için fazladan eklenm
 Sık yapılan hata: Cümlenin konuyla ilgili olup olmadığına bakmak. Doğru ölçüt şudur: cümleyi çıkardığında önceki ve sonraki cümle birbirine bağlanıyor mu? III'ü çıkar, II ile IV kusursuz bağlanır. Cevap B.` },
 
 { id: "tur-pa-2070", kazanim: "T.8.3.21", kademe: 0, zorluk: 4,
-  soru: `Mutfak defterimi doldurmaya bir yaz tutuldum. Ninem tarif söylerken hiç ölçü vermezdi: “Un, alacağı kadar,” derdi; “hamur kulak memesi kıvamına gelene dek.” Ben de yanına oturup her söylediğini yazdım, bardakla ölçtüm, dakikayla tuttum. Defter dolduğunda kendimi tarifleri kurtarmış saydım.
+  soru: `Bir yaz, mutfak defterimi doldurmaya koyuldum. Ninem tarif söylerken hiç ölçü vermezdi: “Un, alacağı kadar,” derdi; “hamur kulak memesi kıvamına gelene dek.” Ben de yanına oturup her söylediğini yazdım, bardakla ölçtüm, dakikayla tuttum. Defter dolduğunda kendimi tarifleri kurtarmış saydım.
 Kışın aynı böreği tek başıma yaptım. Defterdeki her satırı harfiyen uyguladım; yine de hamur benim elimde başka çıktı. Sonra anladım: defter, unun o gün ne kadar nemli olduğunu yazmıyordu. Ninemin hamura bakıp “bu un bugün su içer” demesini de yazmıyordu. Ölçüyü yazmıştım, kararı yazamamıştım. O kararın nereden geldiğini aslında biliyordum: ninem yıllar boyunca aynı unu, aynı tepsiyi, aynı fırını denemişti.
 Yine de defteri kapatıp bir kenara atmadım. Çünkü o satırlar olmasa ikinci denemede nereye bakacağımı bile bilemezdim. Defter bana böreği yapmayı öğretmedi; nereye dikkat edeceğimi öğretti. Ölçüler bir başlangıç noktasıydı, hepsi o kadar.
 Şimdi tarifleri hâlâ yazıyorum. Ama artık her tarifin altına o gün ne olduğunu da not ediyorum: hamur neden sertleşti, fırın neden erken kızarttı. Defterim böylece bir ölçü listesi olmaktan çıktı, bir deneme kaydına dönüştü.

@@ -181,25 +181,26 @@ Cevap C.`
 **Bu mektuba göre Selanik ile ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
   secenekler: [
-    "Halkın tamamı Avrupa'daki okullarda öğrenim görmektedir.",
+    "Toplulukların birbirinden ayrı mahallelerde yaşadığı bir şehirdir.",
     "Farklı kültürlerin ve yeni fikirlerin buluştuğu bir şehirdir.",
-    "Tarım dışında ekonomik etkinliğin bulunmadığı bir kasabadır.",
-    "Dış dünyayla bağlantısı bulunmayan, kapalı bir liman kentidir."
+    "Ticaretin Avrupalı tüccarlarca yürütüldüğü bir liman şehridir.",
+    "Gençlerin öğrenim için Avrupa'ya gönderildiği bir şehirdir."
   ],
   dogru: 1,
   hatalar: [
-    "Mektupta Avrupa usulü derslerin Selanik'teki mekteplerde verildiği yazıyor; herkesin Avrupa'da okuduğu yazmıyor. Aşırı genelleme yaptın.",
+    "Ters yön: mektupta diller çarşıda, aynı anda konuşuluyor; bu, toplulukların ayrı değil iç içe yaşadığını gösterir. Mahalle düzeniyle ilgili bir bilgi de verilmemiştir.",
     null,
-    "Mektupta liman, vapur, çarşı ve kahvehanelerden söz ediliyor; tarımla ilgili tek bir bilgi bile yok.",
-    "Mektubun söylediğinin tam tersini seçtin: her hafta Avrupa'dan vapur gelen ve Fransızca gazete okunan bir şehir kapalı olamaz."
+    "Metinde olmayan ayrıntı: mektup limana Avrupa'dan vapur geldiğini söylüyor, ticareti kimin yürüttüğünü söylemiyor. Şehrin dışa açık olmasıyla ticaretin kimin elinde olduğunu karıştırdın.",
+    "Yer değiştirme: Avrupa usulü dersler Selanik'teki yeni mekteplerde veriliyor; gençlerin öğrenim için Avrupa'ya gönderildiği yazmıyor."
   ],
   aciklama: `Bir kişinin yetiştiği şehrin özellikleri, onun düşünce dünyasını doğrudan etkiler. Mustafa Kemal de çocukluğunu ve ilk öğrenim yıllarını Selanik'te geçirmiştir.
 Adım 1: Mektuptaki bilgileri ayıkla. Birincisi, şehir Avrupa ile vapurlar aracılığıyla sürekli bağlantı hâlindedir.
-Adım 2: İkincisi, çarşıda birden çok dil konuşulmaktadır; yani şehirde farklı topluluklar bir arada yaşamaktadır.
-Adım 3: Üçüncüsü, Fransızca gazeteler okunmakta ve yeni usul mekteplerde Avrupa usulü dersler verilmektedir; yani yeni fikirler şehre kolayca ulaşmaktadır.
+Adım 2: İkincisi, çarşıda Türkçe, Rumca ve Bulgarca aynı anda konuşulmaktadır; yani farklı topluluklar aynı yerde, iç içe yaşamaktadır.
+Adım 3: Üçüncüsü, kahvehanelerde Fransızca gazeteler dolaşmakta ve yeni açılan mekteplerde Avrupa usulü dersler verilmektedir; yani yeni fikirler şehre kolayca ulaşmaktadır.
 Adım 4: Bu üç bilginin ortak sonucu şudur: Selanik, farklı kültürlerin ve yeni fikirlerin buluştuğu bir şehirdir.
+Adım 5: En çok karıştırılan seçenek, toplulukların ayrı mahallelerde yaşadığını söyleyendir. Oysa mektup dillerin "aynı anda" ve aynı çarşıda konuşulduğunu yazıyor; bu, ayrılığı değil bir aradalığı anlatır.
 Sağlama: Mektubun son cümlesi bu sonucu özetler: "Bu şehirde konuşulmayan fikir, okunmayan kitap yok gibi."
-Sık yapılan hata: Metinden çıkarılabilecek yargı ile metnin ima ettiğini aşan yargıyı ayırt edememek. "Bazı çocuklar Avrupa usulü ders görüyor" ile "herkes Avrupa'da okuyor" aynı şey değildir.
+Sık yapılan hata: Metinde geçen bir ayrıntıyı, metnin söylemediği bir sonuca bağlamak. Limana Avrupa'dan vapur gelmesi şehrin dışa açık olduğunu gösterir; ticaretin kimin elinde olduğunu göstermez.
 Cevap B.`
 },
 {
@@ -268,7 +269,7 @@ Cevap A.`
   kademe: 1,
   zorluk: 2,
   soru: `Aşağıda, 1912 yılında Trablusgarp'tan yazıldığı varsayılan kurgusal bir mektuptan bölüm verilmiştir:
-"Buraya sayımız pek az geldik; ne top getirebildik ne de yeterli cephane. Lakin çöl kasabalarındaki halk develeriyle su ve erzak taşıyor, gençleri gönüllü yazılıyor. Subaylarımız onlara silah kullanmayı öğretiyor, küçük gruplar hâlinde düşmanın yollarını kesiyoruz. Denizden yardım beklemiyoruz; buranın insanı olmasa tutunmamız mümkün değildi."
+"Buraya geldiğimizde sayımız pek azdı; ne top getirebildik ne de yeterli cephane. Lakin çöl kasabalarındaki halk develeriyle su ve erzak taşıyor, gençleri gönüllü yazılıyor. Subaylarımız onlara silah kullanmayı öğretiyor, küçük gruplar hâlinde düşmanın yollarını kesiyoruz. Denizden yardım beklemiyoruz; buranın insanı olmasa tutunmamız mümkün değildi."
 Bu mektuba göre,
 I. Direnişte yerli halkın desteği belirleyici olmuştur.
 II. Bölgeye yeterli askerî malzeme ulaştırılamamıştır.
@@ -285,7 +286,7 @@ III. Denizden düzenli olarak takviye kuvvet gönderilmiştir.
   ],
   aciklama: `Trablusgarp Savaşı'nda Osmanlı Devleti bölgeye ne karadan ne de denizden yeterli kuvvet gönderebilmiştir. Bu yüzden savaş, gönüllü subaylar ile yerli halkın birlikte yürüttüğü bir direniş biçiminde geçmiştir.
 Adım 1: I. yargıyı dene. Mektupta halkın su ve erzak taşıdığı, gençlerin gönüllü yazıldığı ve "buranın insanı olmasa tutunmamız mümkün değildi" cümlesi yer alıyor. I doğrudur.
-Adım 2: II. yargıyı dene. "Ne top getirebildik ne de yeterli cephane" ifadesi askerî malzemenin ulaştırılamadığını gösterir. II doğrudur.
+Adım 2: II. yargıyı dene. "…ne top getirebildik ne de yeterli cephane." ifadesi askerî malzemenin ulaştırılamadığını gösterir. II doğrudur.
 Adım 3: III. yargıyı dene. Mektupta denizden yardım beklenmediği yazıyor. Yani takviye gelmemektedir. III yanlıştır.
 Adım 4: Doğru olanlar I ve II'dir.
 Sık yapılan hata: Bir öncülün metinde geçen sözcükleri taşıması onu doğru yapmaz. III'te de "denizden" sözcüğü geçiyor ama metin bunun tersini söylüyor; öncülün anlamını bütün olarak kontrol et.
@@ -473,7 +474,7 @@ Mustafa Kemal de aynı yıllarda bu okulda öğrenim görmüştür.
 **Bu mektupta anlatılan öğrenim ortamının Mustafa Kemal üzerindeki etkileri arasında aşağıdakilerden hangisi __gösterilemez__?**`,
   gorsel: null,
   secenekler: [
-    "Denizcilik alanında ileri düzeyde uzmanlık kazanması",
+    "Şehirdeki toplulukların dillerini öğrenmeye yönelmesi",
     "Tarihe ve milletlerin gelişimine ilgi duyması",
     "Edebiyata ve etkili konuşma sanatına yönelmesi",
     "Balkanlardaki milliyetçilik hareketlerini gözlemlemesi"
@@ -485,13 +486,13 @@ Mustafa Kemal de aynı yıllarda bu okulda öğrenim görmüştür.
     "Mektupta şiir tartışan ve yüksek sesle konuşma alıştırması yapan öğrencilerden söz ediliyor; bu bilgi edebiyat ve hitabetle ilgilidir.",
     "Mektupta şehirdeki Sırp, Bulgar ve Rum cemiyetlerinden ve gazetelerinden söz ediliyor; bunlar milliyetçilik hareketlerinin göstergesidir."
   ],
-  aciklama: `Soru kökünde "gösterilemez" yazıyor. Yani üç seçenek mektupla desteklenecek, biri desteklenmeyecek. Desteklenmeyeni bulman gerekir.
-Adım 1: B seçeneğini sına. Mektupta tarih hocasının "milletlerin nasıl güçlenip nasıl zayıfladığını" anlattığı yazıyor. Bu, tarihe ve milletlerin gelişimine ilgiyi besleyen bir ortamdır. Desteklenir.
-Adım 2: C seçeneğini sına. Şiir tartışan ve konuşma alıştırması yapan arkadaşlar, edebiyata ve hitabete yönelmeyi açıklar. Desteklenir.
-Adım 3: D seçeneğini sına. Şehirdeki Sırp, Bulgar ve Rum cemiyetleri ile onların gazeteleri, Balkanlardaki milliyetçilik hareketlerinin doğrudan görülmesini sağlar. Desteklenir.
-Adım 4: A seçeneğini sına. Mektupta denizle, gemiyle ya da denizcilik eğitimiyle ilgili tek bir bilgi bile yok. Manastır Askerî İdadisi bir kara ordusu okuludur. Bu seçenek gösterilemez.
-Sağlama: Mustafa Kemal Manastır'dan sonra İstanbul'da Harp Okuluna gitmiş ve kara ordusunda yetişmiştir.
-Sık yapılan hata: Olumsuz köklü sorularda ilk doğru seçeneği görünce işaretlemek. "Gösterilemez" sorularında desteklenen üç seçeneği eleyerek ilerle.
+  aciklama: `Soru kökünde "gösterilemez" yazıyor. Dört seçeneğin de mektupta bir dayanağı varmış gibi görünür; senin işin, mektubun gerçekten söylediğiyle söylemediğini ayırmaktır.
+Adım 1: B seçeneğini sına. Mektupta tarih hocasının "milletlerin nasıl güçlenip nasıl zayıfladığını" anlattığı yazıyor. Bu, tarihe ve milletlerin gelişimine ilgiyi besleyen bir ortamdır. Gösterilebilir.
+Adım 2: C seçeneğini sına. Bir köşede toplanıp şiir tartışan ve yüksek sesle konuşma alıştırması yapan arkadaşlar, edebiyata ve hitabete yönelmeyi açıklar. Gösterilebilir.
+Adım 3: D seçeneğini sına. Şehirdeki Sırp, Bulgar ve Rum cemiyetleri ile çarşıda görülen gazeteler, Balkanlardaki milliyetçilik hareketlerinin yakından izlenmesini sağlar. Koğuşta "Bu topraklar elimizden gider mi?" diye konuşulması da bu gözlemin sonucudur. Gösterilebilir.
+Adım 4: A seçeneğini sına. Mektup o gazeteler için yalnızca "görmek mümkün" diyor; onların okunduğunu ya da Sırpça, Bulgarca, Rumca öğrenildiğini söylemiyor. Metinde dil öğrenmeyle ilgili tek bir bilgi bile yok. Bu seçenek gösterilemez.
+Sağlama: A ile D aynı cümleye dayanıyor gibi durur; ama o cümle gazetelerin şehirde bulunduğunu söyler, okunduğunu değil. Bir şeyin çevrende bulunması, onu öğrendiğin anlamına gelmez.
+Sık yapılan hata: Olumsuz köklü sorularda metinde geçen bir sözcüğü görüp seçeneği hemen desteklenmiş saymak. "Gazete" ayrıntısı iki seçenekte de kullanılıyor; ayrım, mektubun o gazeteler için ne söylediğindedir.
 Cevap A.`
 },
 {

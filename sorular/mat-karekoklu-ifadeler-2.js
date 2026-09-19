@@ -35,7 +35,7 @@ Cevap B.`
   soru: `Bir gök gözlem kulübü, kamp alanında kare biçiminde bir gözlem sahası ayırmıştır. Sahanın alanı şekilde verilmiştir. Kulüp, sahanın dört kenarını ip ile çevreleyecektir.
 İpler yalnızca tam metre uzunluğunda kesilebilmektedir ve her kenar için tek parça ip kullanılacaktır. Bir kenarı tamamen çevrelemeyen ip kabul edilmemektedir.
 **Buna göre, sahanın çevrelenmesi için en az kaç metre ip kesilmelidir?**`,
-  gorsel: `<svg viewBox="0 0 420 250" role="img" aria-label="Kare biçimli gözlem sahasının alanı 700 metrekaredir; her kenar için tam metre uzunluğunda tek parça ip kesilecektir."><rect x="70" y="35" width="280" height="180" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="210" y="120" font-size="16" text-anchor="middle" fill="currentColor">Gözlem sahası (kare)</text><text x="210" y="148" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 700 m²</text><line x1="70" y1="25" x2="350" y2="25" stroke="var(--vurgu)" stroke-width="4"/><text x="210" y="18" font-size="15" text-anchor="middle" fill="currentColor">Bir kenar için bir ip</text><text x="210" y="238" font-size="15" text-anchor="middle" fill="currentColor">İpler tam metre uzunluğunda kesilir.</text></svg>`,
+  gorsel: `<svg viewBox="0 0 420 260" role="img" aria-label="Kare biçimli gözlem sahasının alanı 700 metrekaredir; her kenar için tam metre uzunluğunda tek parça ip kesilecektir."><rect x="115" y="40" width="190" height="190" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="210" y="128" font-size="16" text-anchor="middle" fill="currentColor">Gözlem sahası (kare)</text><text x="210" y="156" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 700 m²</text><line x1="115" y1="30" x2="305" y2="30" stroke="var(--vurgu)" stroke-width="4"/><text x="210" y="20" font-size="15" text-anchor="middle" fill="currentColor">Bir kenar için bir ip</text><text x="210" y="250" font-size="15" text-anchor="middle" fill="currentColor">İpler tam metre uzunluğunda kesilir.</text></svg>`,
   secenekler: ["100", "104", "108", "112"],
   dogru: 2,
   hatalar: [
@@ -112,7 +112,7 @@ Cevap A.`
   soru: `Bir teknoloji mağazasında akıllı saatlerin kare biçimli ekranlarının kenarlarına koruyucu bant çekilmektedir. Bir saatin ekran alanı şekilde verilmiştir.
 Koruyucu bant, 1 metre uzunluğunda rulolar hâlinde satılmaktadır. Bir ekranın bandı tek parça çekilmekte, eksik kalan bant kabul edilmemektedir.
 **Buna göre, bir rulo bant ile en fazla kaç saatin ekranı çevrelenebilir?**`,
-  gorsel: `<svg viewBox="0 0 400 210" role="img" aria-label="Akıllı saatin kare ekranının alanı 12,25 santimetrekaredir; ekranın dört kenarına koruyucu bant çekilecektir."><rect x="120" y="30" width="160" height="150" rx="26" fill="none" stroke="currentColor" stroke-width="3"/><rect x="142" y="52" width="116" height="106" rx="10" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4"/><text x="200" y="100" font-size="15" text-anchor="middle" fill="currentColor">Kare ekran</text><text x="200" y="124" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">12,25 cm²</text><text x="200" y="20" font-size="15" text-anchor="middle" fill="currentColor">Bant, ekranın dört kenarına çekilir.</text><text x="200" y="202" font-size="15" text-anchor="middle" fill="currentColor">Bir rulo bant: 1 m</text></svg>`,
+  gorsel: `<svg viewBox="0 0 400 210" role="img" aria-label="Akıllı saatin kare ekranının alanı 12,25 santimetrekaredir; ekranın dört kenarına koruyucu bant çekilecektir."><rect x="120" y="30" width="160" height="150" rx="26" fill="none" stroke="currentColor" stroke-width="3"/><rect x="145" y="50" width="110" height="110" rx="10" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4"/><text x="200" y="100" font-size="15" text-anchor="middle" fill="currentColor">Kare ekran</text><text x="200" y="124" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">12,25 cm²</text><text x="200" y="20" font-size="15" text-anchor="middle" fill="currentColor">Bant, ekranın dört kenarına çekilir.</text><text x="200" y="202" font-size="15" text-anchor="middle" fill="currentColor">Bir rulo bant: 1 m</text></svg>`,
   secenekler: ["7", "8", "28", "29"],
   dogru: 0,
   hatalar: [
@@ -213,26 +213,26 @@ Cevap A.`
   kazanim: "M.8.1.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir seramik atölyesinde dikdörtgen biçimli duvar karoları üretilmektedir. Karonun bir kenarı şekilde görüldüğü gibi √{75} cm, diğer kenarı ise √{k} cm'dir. Burada k, 100'den küçük bir doğal sayıdır.
+  soru: `Bir seramik atölyesinde dikdörtgen biçimli duvar karoları üretilmektedir. Karonun uzun kenarı şekilde görüldüğü gibi √{108} cm, kısa kenarı ise √{k} cm'dir. Burada k, 100'den küçük bir sayma sayısıdır (k = 1, 2, 3, …).
 Atölye, üretim planını yapabilmek için karonun santimetrekare cinsinden alanının bir doğal sayı olmasını istemektedir.
 **Buna göre, k kaç farklı değer alabilir?**`,
-  gorsel: `<svg viewBox="0 0 400 190" role="img" aria-label="Dikdörtgen karonun bir kenarı kök 75 santimetre, diğer kenarı kök k santimetredir; k 100'den küçük bir doğal sayıdır."><rect x="70" y="40" width="240" height="95" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="190" y="94" font-size="15" text-anchor="middle" fill="currentColor">Duvar karosu</text><text x="190" y="158" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">√75 cm</text><text x="46" y="92" font-size="18" text-anchor="middle" fill="var(--vurgu)" font-weight="bold" transform="rotate(-90 46 92)">√k cm</text><text x="190" y="26" font-size="14" text-anchor="middle" fill="currentColor">k &lt; 100 ve k bir doğal sayıdır.</text></svg>`,
-  secenekler: ["3", "4", "5", "9"],
-  dogru: 2,
+  gorsel: `<svg viewBox="0 0 400 200" role="img" aria-label="Dikdörtgen duvar karosunun uzun kenarı kök 108 santimetre, kısa kenarı kök k santimetredir; k 100'den küçük bir sayma sayısıdır."><rect x="90" y="38" width="200" height="125" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="190" y="106" font-size="15" text-anchor="middle" fill="currentColor">Duvar karosu</text><text x="190" y="186" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">√108 cm</text><text x="66" y="100" font-size="18" text-anchor="middle" fill="var(--vurgu)" font-weight="bold" transform="rotate(-90 66 100)">√k cm</text><text x="190" y="24" font-size="14" text-anchor="middle" fill="currentColor">k, 100'den küçük bir sayma sayısıdır.</text></svg>`,
+  secenekler: ["3", "5", "6", "9"],
+  dogru: 1,
   hatalar: [
     "Yalnızca 3, 12 ve 27'yi bulup durdun. k = 3 · m² biçimindeki değerleri m = 4 ve m = 5 için de yazmalısın: 48 ve 75 de 100'den küçüktür.",
-    "k = 75 değerini atladın. İki kenarın da √{75} olması karoyu kare yapar ama soru bunu yasaklamıyor; 75 · 75 = 5625 = 75² olduğundan alan 75 cm²'dir.",
     null,
-    "k'nin kendisinin tam kare olması gerektiğini sandın ve 1, 4, 9, 16, 25, 36, 49, 64, 81 sayılarını saydın. Örneğin k = 4 için 75 · 4 = 300 tam kare değildir."
+    "m = 6 için çıkan k = 108'i de listene kattın; oysa 108, 100'den küçük değildir. (k = 0 da listeye giremez: 0 bir sayma sayısı değildir.)",
+    "k'nin kendisinin tam kare olması gerektiğini sandın ve 1, 4, 9, 16, 25, 36, 49, 64, 81 sayılarını saydın. Örneğin k = 4 için 108 · 4 = 432 tam kare değildir."
   ],
-  aciklama: `Karonun alanı √{75} · √{k} = √{75 · k} olur. Alanın doğal sayı olması için 75 · k çarpımı tam kare olmalıdır.
-Adım 1: 75'i asal çarpanlarına ayır: 75 = 3 · 5². Burada 5'in üssü çift, 3'ün üssü tektir.
+  aciklama: `Karonun alanı √{108} · √{k} = √{108 · k} olur. Alanın doğal sayı olması için 108 · k çarpımı tam kare olmalıdır.
+Adım 1: 108'i asal çarpanlarına ayır: 108 = 2^{2} · 3^{3}. Burada 2'nin üssü çift, 3'ün üssü tektir.
 Adım 2: Bir sayının tam kare olması için asal çarpanlarının üsleri çift olmalıdır. Öyleyse eksik kalan 3 çarpanını k getirmelidir; ayrıca k'nin geri kalan kısmı da tam kare olmalıdır. Yani k = 3 · m² biçimindedir.
-Adım 3: m'ye sırayla değer ver ve k < 100 koşulunu uygula: m = 1 → k = 3, m = 2 → k = 12, m = 3 → k = 27, m = 4 → k = 48, m = 5 → k = 75. m = 6 için k = 108 olur ve 100'den büyüktür.
-Adım 4: k, beş farklı değer alabilir.
-Sağlama: 75 · 3 = 225 = 15², 75 · 12 = 900 = 30², 75 · 27 = 2025 = 45², 75 · 48 = 3600 = 60², 75 · 75 = 5625 = 75². Beşinde de alan doğal sayıdır.
-Sık yapılan hata: k'nin tam kare olması gerektiğini sanmak. Tam kare olması gereken, k değil 75 · k çarpımıdır.
-Cevap C.`
+Adım 3: m'ye sırayla değer ver ve k < 100 koşulunu uygula: m = 1 → k = 3, m = 2 → k = 12, m = 3 → k = 27, m = 4 → k = 48, m = 5 → k = 75. m = 6 için k = 108 olur ve 100'den küçük değildir.
+Adım 4: k, beş farklı değer alabilir: 3, 12, 27, 48 ve 75.
+Sağlama: 108 · 3 = 324 = 18², 108 · 12 = 1296 = 36², 108 · 27 = 2916 = 54², 108 · 48 = 5184 = 72², 108 · 75 = 8100 = 90². Beşinde de alan doğal sayıdır.
+Sık yapılan hata: k'nin tam kare olması gerektiğini sanmak. Tam kare olması gereken, k değil 108 · k çarpımıdır.
+Cevap B.`
 },
 {
   id: "mat-kk-310",
@@ -439,7 +439,7 @@ Cevap C.`
   zorluk: 2,
   soru: `Bir cep telefonunun ekranındaki kare biçimli uygulama simgelerinden birinin alanı şekilde verilmiştir.
 **Buna göre, bu simgenin bir kenarının uzunluğu kaç santimetredir?**`,
-  gorsel: `<svg viewBox="0 0 400 180" role="img" aria-label="Kare biçimli uygulama simgesinin alanı 2,56 santimetrekaredir."><rect x="110" y="25" width="180" height="130" rx="16" fill="none" stroke="currentColor" stroke-width="3"/><rect x="145" y="50" width="110" height="80" rx="14" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4"/><text x="200" y="86" font-size="15" text-anchor="middle" fill="currentColor">Simge (kare)</text><text x="200" y="110" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">2,56 cm²</text><text x="200" y="174" font-size="15" text-anchor="middle" fill="currentColor">Bir kenar = ?</text></svg>`,
+  gorsel: `<svg viewBox="0 0 340 250" role="img" aria-label="Telefon ekranındaki kare biçimli uygulama simgesinin alanı 2,56 santimetrekaredir."><rect x="85" y="20" width="170" height="200" rx="20" fill="none" stroke="currentColor" stroke-width="3"/><rect x="115" y="65" width="110" height="110" rx="14" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4"/><text x="170" y="112" font-size="15" text-anchor="middle" fill="currentColor">Simge (kare)</text><text x="170" y="138" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">2,56 cm²</text><text x="170" y="242" font-size="15" text-anchor="middle" fill="currentColor">Bir kenar = ?</text></svg>`,
   secenekler: ["16", "1,6", "1,28", "0,16"],
   dogru: 1,
   hatalar: [

@@ -149,7 +149,7 @@ Cevap D.`
   soru: `Aşağıda bir öğrencinin beden eğitimi dersiyle ilgili notlarından alınan cümleler verilmiştir.
 (I) Beden eğitimi öğretmenimiz bugün yeni bir oyun öğretti.
 (II) Oyunun kurallarını tahtaya tek tek yazdı.
-(III) Bütün sınıf kuralları dikkatle dinledi.
+(III) Bütün öğrenciler bu kuralları dikkatle dinledi.
 (IV) İlk düdükte iki takım sahaya koştu.
 **Numaralanmış cümlelerin hangisinde özne, sözcük olarak söylenmemiştir (gizli öznedir)?**`,
   gorsel: null,
@@ -158,13 +158,13 @@ Cevap D.`
   hatalar: [
     "Özneyi bulamama: 'Beden eğitimi öğretmenimiz' sözü 'Kim öğretti?' sorusunun yanıtıdır; bu cümlede özne açıkça söylenmiştir.",
     null,
-    "'Bütün sınıf' sözünü gözden kaçırma: 'Kim dinledi?' sorusunun yanıtı cümlede vardır; özne gizli değildir.",
+    "'Bütün öğrenciler' sözünü gözden kaçırma: 'Kim dinledi?' sorusunun yanıtı cümlede vardır; özne gizli değildir.",
     "'iki takım' sözünü nesne sanma: koşma işini yapan odur, yani cümlenin öznesidir ve açıkça söylenmiştir."
   ],
   aciklama: `Özne cümlede sözcük olarak bulunmuyor, yalnızca yüklemdeki kişi ekinden anlaşılıyorsa buna gizli özne denir. Gizli özne bulmak için yüklemin kişi ekine bakılır ve "Bu işi kim yaptı?" sorusu sorulur.
 Adım 1: I. cümle: yüklem 'öğretti'. "Kim öğretti?" → Beden eğitimi öğretmenimiz. Özne cümlede yazılıdır.
 Adım 2: II. cümle: yüklem 'yazdı'. "Kim yazdı?" diye sorduğunda cümlede bir yanıt bulamazsın. Yüklemin kişi eki üçüncü tekil kişiyi gösterir; yani yazan 'o'dur. 'Oyunun kurallarını' nesnedir, 'tahtaya' yer tamlayıcısıdır, 'tek tek' zarf tamlayıcısıdır. Aradığın cümle budur.
-Adım 3: III. cümle: yüklem 'dinledi'. "Kim dinledi?" → Bütün sınıf. Özne yazılıdır.
+Adım 3: III. cümle: yüklem 'dinledi'. "Kim dinledi?" → Bütün öğrenciler. Özne yazılıdır. En güçlü çeldirici budur: yüklem üçüncü tekil kişi ekiyle çekimlendiği için özne gizli sanılabilir; oysa işi yapan cümlede sözcük olarak yazılıdır.
 Adım 4: IV. cümle: yüklem 'koştu'. "Kim koştu?" → iki takım. Özne yazılıdır.
 Sağlama: II. cümlenin başına özneyi kendin ekle: "O, oyunun kurallarını tahtaya tek tek yazdı." Cümle bozulmuyor; demek ki özne vardı ama söylenmemişti.
 Sık yapılan hata: "Öznesi olmayan cümle" demek. Her yüklemli cümlenin öznesi vardır; kimi zaman söylenmez, yalnızca ekten anlaşılır.
@@ -203,24 +203,25 @@ Cevap A.`
   kazanim: "T.8.4.18",
   kademe: 1,
   zorluk: 2,
-  soru: `Aşağıdaki tabloda bir vapur yolculuğunu anlatan dört cümle ile her cümlede "-de" ekini almış söz verilmiştir.
+  soru: `Aşağıdaki tabloda bir vapur yolculuğunu anlatan dört cümle verilmiştir. Bu cümlelerin her birinde "-den" ekini almış bir söz bulunmaktadır.
 **Bu sözlerden hangisi yer tamlayıcısıdır?**`,
-  gorsel: `<table class="tablo"><tr><th>Cümle</th><th>"-de" ekini almış söz</th></tr><tr><td>I. Vapur tam dokuzda hareket etti.</td><td>tam dokuzda</td></tr><tr><td>II. Bütün yolculuk yirmi dakikada bitti.</td><td>yirmi dakikada</td></tr><tr><td>III. Yolcular güvertede fotoğraf çekiyordu.</td><td>güvertede</td></tr><tr><td>IV. Martılar bir anda etrafımızı sardı.</td><td>bir anda</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>Cümle</th></tr><tr><td>I. Yorgunluktan gözlerimiz yavaş yavaş kapanıyordu.</td></tr><tr><td>II. Vapur biletlerimizi akşamdan almıştık.</td></tr><tr><td>III. Kaptanımız cebinden küçük bir düdük çıkardı.</td></tr><tr><td>IV. Sisten karşı kıyı hiç görünmüyordu.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
   hatalar: [
-    "'tam dokuzda' sözü 'Ne zaman hareket etti?' sorusunun yanıtıdır; zarf tamlayıcısıdır.",
-    "'yirmi dakikada' sözü 'Ne kadar zamanda bitti?' sorusunun yanıtıdır; zarf tamlayıcısıdır.",
+    "'Yorgunluktan' sözü 'Gözlerimiz niçin kapanıyordu?' sorusunun yanıtıdır; sebep bildirdiği için zarf tamlayıcısıdır.",
+    "'akşamdan' sözü 'Biletlerimizi ne zaman almıştık?' sorusunun yanıtıdır; zaman bildirdiği için zarf tamlayıcısıdır.",
     null,
-    "'bir anda' sözü 'Ne zaman sardı?' sorusunun yanıtıdır; zarf tamlayıcısıdır."
+    "'Sisten' sözü 'Karşı kıyı niçin görünmüyordu?' sorusunun yanıtıdır; sebep bildirdiği için zarf tamlayıcısıdır."
   ],
-  aciklama: `Bir sözün hangi öge olduğunu aldığı ek değil, yükleme sorulan soru belirler. "-de" eki almış bir söz "nerede" sorusunun yanıtıysa yer tamlayıcısı, "ne zaman" ya da "ne kadar" sorusunun yanıtıysa zarf tamlayıcısıdır.
-Adım 1: I. cümlede yükleme sor: "Vapur ne zaman hareket etti?" → tam dokuzda. Zaman bildiriyor, zarf tamlayıcısıdır.
-Adım 2: II. cümlede sor: "Yolculuk ne kadar zamanda bitti?" → yirmi dakikada. Süre bildiriyor, zarf tamlayıcısıdır.
-Adım 3: III. cümlede sor: "Yolcular nerede fotoğraf çekiyordu?" → güvertede. Yer bildiriyor; aradığın öge budur.
-Adım 4: IV. cümlede sor: "Martılar ne zaman sardı?" → bir anda. Zarf tamlayıcısıdır.
-Sağlama: Yalnızca 'güvertede' sözünün yerine bir yer adı koyabilirsin: "Yolcular iskelede fotoğraf çekiyordu." Öbürlerinin yerine yer adı koyarsan cümle anlamsızlaşır.
-Sık yapılan hata: "-de eki varsa dolaylı tümleçtir" diye ezberlemek. Ek aynı olsa da görev değişir.
+  aciklama: `Bir sözün hangi öge olduğunu aldığı ek değil, yükleme sorulan soru belirler. "-den" eki almış bir söz "nereden" sorusunun yanıtıysa yer tamlayıcısı, "niçin" ya da "ne zaman" sorusunun yanıtıysa zarf tamlayıcısıdır.
+Adım 1: I. cümlede yüklem 'kapanıyordu'. "Gözlerimiz nereden kapanıyordu?" diye sorulamaz; yanıtı olan soru "Niçin kapanıyordu?" sorusudur → Yorgunluktan. Sebep bildiriyor, zarf tamlayıcısıdır.
+Adım 2: II. cümlede yüklem 'almıştık'. "Biletlerimizi nereden almıştık?" sorusunun yanıtı cümlede yoktur; "Ne zaman almıştık?" → akşamdan. Zaman bildiriyor, zarf tamlayıcısıdır.
+Adım 3: III. cümlede yüklem 'çıkardı'. "Kaptanımız düdüğü nereden çıkardı?" → cebinden. Yer bildiriyor; aradığın öge budur.
+Adım 4: IV. cümlede yüklem 'görünmüyordu'. "Karşı kıyı nereden görünmüyordu?" sorusu anlamsızdır; "Niçin görünmüyordu?" → Sisten. Sebep bildiriyor, zarf tamlayıcısıdır.
+En güçlü çeldirici IV'tür: sis gözle görülen bir varlık olduğu için 'Sisten' sözü yer bildiriyormuş gibi durur. Oysa kıyı sisin içinden çıkmış ya da uzaklaşmış değildir; sis, kıyının görünmemesinin sebebidir.
+Sağlama: Yalnızca 'cebinden' sözünün yerine yer bildiren başka bir söz koyabilirsin: "Kaptanımız çantasından küçük bir düdük çıkardı." Öbür sözlerin yerine yer bildiren bir söz koyarsan cümle anlamsızlaşır.
+Sık yapılan hata: "-den eki varsa dolaylı tümleçtir" diye ezberlemek. Aynı ek sebep ve zaman da bildirir; ögeyi belirleyen ek değil, yükleme sorulan sorudur.
 Cevap C.`
 },
 {

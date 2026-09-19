@@ -212,7 +212,7 @@ Cevap A.`
   zorluk: 4,
   soru: `Aşağıdaki kronoloji şeridinde Mustafa Kemal'in Birinci Dünya Savaşı öncesindeki bazı görevleri verilmiştir.
 I. Meşrutiyet yönetimine karşı çıkan bir ayaklanmanın bastırılmasında görev almıştır.
-II. Trablusgarp'taki göreviyle Balkan Savaşları'ndaki görevi arasında iki yıldan kısa bir süre vardır.
+II. Trablusgarp'taki göreve başladığı yıl ile Balkan Savaşları'ndaki göreve başladığı yıl arasında iki yıldan kısa bir süre vardır.
 III. Balkan Savaşları'ndan sonra askerlik mesleğinden ayrılarak sivil bir göreve geçmiştir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<svg viewBox="0 0 560 300" role="img" aria-label="Mustafa Kemal'in 1905-1913 arasındaki görevlerini gösteren dikey kronoloji şeridi"><line x1="120" y1="26" x2="120" y2="268" stroke="currentColor" stroke-width="3"/><g fill="var(--vurgu)" stroke="currentColor" stroke-width="2"><circle cx="120" cy="40" r="8"/><circle cx="120" cy="86" r="8"/><circle cx="120" cy="132" r="8"/><circle cx="120" cy="178" r="8"/><circle cx="120" cy="220" r="8"/><circle cx="120" cy="262" r="8"/></g><g fill="currentColor" font-size="15" font-weight="bold" text-anchor="end"><text x="104" y="45">1905</text><text x="104" y="91">1907</text><text x="104" y="137">1909</text><text x="104" y="183">1911</text><text x="104" y="219">1912-</text><text x="104" y="236">1913</text><text x="104" y="267">1913</text></g><g fill="currentColor" font-size="14"><text x="138" y="45">Şam'da 5. Ordu'da göreve başladı.</text><text x="138" y="91">Selanik'te 3. Ordu'ya atandı.</text><text x="138" y="130">31 Mart Olayı'nı bastıran Hareket</text><text x="138" y="147">Ordusu'nda görev aldı.</text><text x="138" y="183">Trablusgarp'ta Derne ve Tobruk'ta savaştı.</text><text x="138" y="225">Balkan Savaşları'nda Bolayır'da görev yaptı.</text><text x="138" y="256">Sofya'da ataşemiliter (elçilikteki askerî</text><text x="138" y="273">görevli) oldu.</text></g></svg>`,
@@ -226,7 +226,7 @@ III. Balkan Savaşları'ndan sonra askerlik mesleğinden ayrılarak sivil bir g�
   ],
   aciklama: `Kronoloji şeridinden çıkarım yaparken iki şeye bakılır: şeritte yazılı bilgi ve o bilginin anlamını açan kavram bilgisi.
 Adım 1: I. yargıyı kontrol et. Şeritte 1909'da 31 Mart Olayı'nı bastıran Hareket Ordusu'nda görev aldığı yazılıdır. 31 Mart Olayı, 1908'de ilan edilen II. Meşrutiyet yönetimine karşı çıkan bir ayaklanmadır. Öyleyse yargı doğrudur.
-Adım 2: II. yargıyı kontrol et. Trablusgarp görevi 1911, Balkan Savaşları'ndaki görevi 1912-1913'tür. Aradaki süre iki yıldan kısadır. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Şeride göre Trablusgarp'taki göreve 1911'de, Balkan Savaşları'ndaki göreve 1912'de başlamıştır. İki başlangıç yılı arasındaki süre bir yıldır, yani iki yıldan kısadır. Doğrudur.
 Adım 3: III. yargıyı kontrol et. Şeritte 1913'te Sofya'da ataşemiliter olduğu yazılı ve parantez içinde bunun elçilikteki askerî görevli anlamına geldiği belirtilmiştir. Askerî bir görev, sivil göreve geçiş değildir. Yanlıştır.
 Adım 4: Doğru yargılar I ve II'dir.
 Sağlama: Şeritteki bütün görevler ordu içindedir; hiçbirinde ordudan ayrılma bilgisi yoktur.
@@ -268,26 +268,26 @@ Cevap D.`
   kademe: 3,
   zorluk: 4,
   soru: `Aşağıdaki kronoloji şeridinde Osmanlı Devleti'nden ayrılarak bağımsızlığını kazanan bazı devletler ve tarihleri gösterilmiştir.
-I. Fransız İhtilali'nin yaydığı milliyetçilik düşüncesi Osmanlı Devleti'nin toprak bütünlüğünü olumsuz etkilemiştir.
+I. Şeritte gösterilen tarihler arasındaki aralıklar giderek kısalmıştır.
 II. Ayrılmaların yaşanmasında Osmanlı Devleti'nin çok uluslu yapısı etkili olmuştur.
-III. Osmanlı Devleti'nden ayrılmalar on dokuzuncu yüzyılla sınırlı kalmıştır.
+III. Şeritte gösterilen ayrılmaların yarısından çoğu aynı yıl içinde gerçekleşmiştir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<svg viewBox="0 0 560 210" role="img" aria-label="1830 Yunanistan, 1878 Sırbistan Karadağ Romanya, 1908 Bulgaristan ve 1912 Arnavutluk bağımsızlıklarını gösteren kronoloji şeridi"><line x1="20" y1="80" x2="535" y2="80" stroke="currentColor" stroke-width="3"/><g fill="var(--vurgu)" stroke="currentColor" stroke-width="2"><circle cx="68" cy="80" r="9"/><circle cx="205" cy="80" r="9"/><circle cx="345" cy="80" r="9"/><circle cx="480" cy="80" r="9"/></g><g fill="currentColor" font-size="17" font-weight="bold" text-anchor="middle"><text x="68" y="54">1830</text><text x="205" y="54">1878</text><text x="345" y="54">1908</text><text x="480" y="54">1912</text></g><g fill="var(--vurgu2)" font-size="15" text-anchor="middle"><text x="68" y="116">Yunanistan</text><text x="205" y="116">Sırbistan</text><text x="205" y="136">Karadağ</text><text x="205" y="156">Romanya</text><text x="345" y="116">Bulgaristan</text><text x="480" y="116">Arnavutluk</text></g><text x="277" y="196" fill="currentColor" font-size="14" text-anchor="middle">Şeritteki devletler Osmanlı Devleti'nden ayrılarak bağımsız olmuştur.</text></svg>`,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I ve III"],
   dogru: 2,
   hatalar: [
     "II. yargıyı atlama: şeritte birbirinden farklı milletlerin birbiri ardına ayrıldığı görülüyor; bu, devletin çok uluslu yapısıyla doğrudan ilgilidir.",
-    "I. yargıyı atlama: Fransız İhtilali'nin yaydığı milliyetçilik düşüncesi, çok uluslu devletlerde ayrılma hareketlerini güçlendirmiştir.",
+    "I. yargıyı hesaplamadan eleme: şeritteki tarihler arasındaki aralıklar 48, 30 ve 4 yıldır; aralık her seferinde kısalmıştır.",
     null,
-    "III. yargıyı doğru sayma: şeritteki 1908 ve 1912 tarihleri yirminci yüzyıla aittir; ayrılmalar on dokuzuncu yüzyılla sınırlı kalmamıştır."
+    "III'ü doğru, II'yi yanlış sayma: 1878'deki üç ayrılma, şeritteki altı ayrılmanın tam yarısıdır, yarısından çoğu değildir; ayrıca çok uluslu yapı ayrılmaların temel nedenidir."
   ],
-  aciklama: `Milliyetçilik, aynı dili konuşan ve aynı tarihi paylaşan insanların kendi devletlerini kurma isteğidir. Bu düşünce Fransız İhtilali'nden sonra hızla yayılmış ve içinde birçok milleti barındıran devletleri sarsmıştır.
-Adım 1: Şeridi oku. Yunanistan, Sırbistan, Karadağ, Romanya, Bulgaristan ve Arnavutluk birbirinden farklı milletlerdir ve hepsi Osmanlı Devleti'nden ayrılmıştır.
-Adım 2: I. yargıyı kontrol et. Bu ayrılmaların tamamı 1789'dan sonradır ve her biri devletin toprak kaybetmesi demektir. Milliyetçilik düşüncesinin toprak bütünlüğünü olumsuz etkilediği sonucuna varılır. Doğrudur.
-Adım 3: II. yargıyı kontrol et. Tek bir milletten oluşan bir devlette böyle art arda ayrılmalar yaşanmazdı. Ayrılmaların yaşanabilmesi, devletin çok uluslu yapısıyla ilgilidir. Doğrudur.
-Adım 4: III. yargıyı kontrol et. Şeritte 1908 ve 1912 tarihleri vardır; bunlar yirminci yüzyıla aittir. Öyleyse ayrılmalar on dokuzuncu yüzyılla sınırlı kalmamıştır. Yanlıştır.
-Adım 5: Doğru yargılar I ve II'dir.
-Sık yapılan hata: "Tamamı, yalnızca, hiçbiri, sınırlı kalmıştır" gibi kesin sözcükler içeren yargıları kontrol etmeden doğru saymak. Böyle bir yargıyı çürütmek için tek bir karşı örnek yeter; burada 1908 ve 1912 bu örneği veriyor.
+  aciklama: `Kronoloji şeridiyle gelen yargılarda üç ayrı denetim yapılır: tarihler arasındaki aralığı hesapla, sayıların oranını say, olayın nedenini kavram bilgisiyle sına.
+Adım 1: I. yargıyı hesapla. Şeritteki tarihler 1830, 1878, 1908 ve 1912'dir. Aralıklar sırasıyla 1878 − 1830 = 48, 1908 − 1878 = 30 ve 1912 − 1908 = 4 yıldır. Her aralık bir öncekinden kısadır. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Milliyetçilik, aynı dili konuşan ve aynı tarihi paylaşan insanların kendi devletlerini kurma isteğidir. Şeritte Yunan, Sırp, Karadağlı, Romen, Bulgar ve Arnavut gibi birbirinden farklı milletler birbiri ardına ayrılmıştır. Tek bir milletten oluşan bir devlette böyle art arda ayrılmalar yaşanmazdı. Doğrudur.
+Adım 3: III. yargıyı say. Şeritte altı ayrılma vardır: Yunanistan, Sırbistan, Karadağ, Romanya, Bulgaristan, Arnavutluk. Bunların üçü (Sırbistan, Karadağ, Romanya) 1878'dedir. Üç, altının tam yarısıdır; "yarısından çoğu" demek için yarıyı geçmesi gerekirdi. Yanlıştır.
+Adım 4: Doğru yargılar I ve II'dir.
+Sağlama: Şeritteki her adı tek tek işaretleyip say; aynı yıla düşenleri bir kenara yaz. Üç, altının yarısıdır.
+Sık yapılan hata: "Yarısından çoğu" gibi oran bildiren yargıları göz kararıyla onaylamak. Aynı yılda üç ad görmek çoğunluk anlamına gelmez; say ve yarıyla karşılaştır.
 Cevap C.`
 },
 /* ===================== HAVUZ (KADEME 0) ===================== */
@@ -380,23 +380,25 @@ Cevap B.`
 **Buna göre Balkan Savaşları ile ilgili aşağıdakilerden hangisine ulaşılabilir?**`,
   gorsel: null,
   secenekler: [
-    "Savaşlar boyunca Osmanlı Devleti hiç toprak kaybetmemiştir.",
-    "Savaşlar yalnızca askerleri etkilemiş, halk yerinde kalmıştır.",
+    "Edirne, savaşlar boyunca Osmanlı Devleti'nin elinde kalmıştır.",
+    "Bölge halkı, çarpışmalar sırasında yaşadığı yerde kalabilmiştir.",
     "Kaybedilen topraklardan bir bölümü sonradan geri alınabilmiştir.",
-    "Savaşların sonunda Osmanlı Devleti'nin Rumeli sınırı değişmemiştir."
+    "Şehre geri dönüş, savaşın kazanılmasının ardından gerçekleşmiştir."
   ],
   dogru: 2,
   hatalar: [
-    "Geri dönüşü \"hiç kayıp yaşanmadı\" diye okuma: anıda önce Edirne'den çekilindiği, yani şehrin bir süre elden çıktığı anlatılmaktadır.",
-    "Anıdaki göç görüntüsünü atlama: yollar kağnısıyla yürüyen ailelerle dolmuştur; savaş halkı da etkilemiştir.",
+    "Çekilme ayrıntısını atlama: anı, önce Edirne'den çekilindiğini, yani şehrin bir süre elden çıktığını anlatıyor.",
+    "Yollardaki göç görüntüsünü gözden kaçırma: kağnısına yorganını yükleyip yürüyen aileler, halkın yaşadığı yerde kalmadığını gösterir.",
     null,
-    "Sınırın hiç değişmediğini sanma: anı, Edirne'nin önce bırakılıp sonra geri alındığını, yani sınırın değiştiğini gösterir."
+    "Bir şehrin geri alınmasını savaşın kazanılması sayma: anıda savaşın nasıl sonuçlandığına ilişkin tek bir bilgi yoktur."
   ],
   aciklama: `Anı metinlerinde olayların sırası çıkarımın anahtarıdır. Önce ne olmuş, sonra ne olmuş, bunu ayır.
-Adım 1: Metnin ilk cümlesini oku. Asker Edirne'den çekilmektedir; halk da göç etmektedir. Demek ki şehir elden çıkmıştır.
+Adım 1: Metnin ilk cümlesini oku. Asker Edirne'den çekilmektedir; yollar göç eden ailelerle doludur. Demek ki şehir elden çıkmıştır ve halk yaşadığı yerde kalmamıştır.
 Adım 2: İkinci cümleyi oku. Yaklaşık bir yıl sonra aynı yoldan geri dönülmüş ve şehre girilmiştir. Demek ki şehir geri alınmıştır.
-Adım 3: Bu ikisini birleştir: kaybedilen topraklardan bir bölümü sonradan geri alınabilmiştir.
-Sağlama: I. Balkan Savaşı'nda kaybedilen Edirne ve Kırklareli, II. Balkan Savaşı sırasında geri alınmıştır. Ancak Selanik ve Manastır gibi yerler geri alınamamıştır; bu yüzden seçenekte "bir bölümü" denmiştir.
+Adım 3: Bu ikisini birleştir: kaybedilen topraklardan bir bölümü sonradan geri alınabilmiştir. Anının doğrudan gösterdiği sonuç budur.
+Adım 4: En çok kandıran seçeneği ele. Geri dönüşü savaşın kazanılmasına bağlayan seçenek, anıda yazmayan bir sonucu metne ekler; anı yalnızca bir şehre geri dönüldüğünü söyler, savaşın nasıl bittiğini söylemez.
+Sağlama: I. Balkan Savaşı'nda kaybedilen Edirne ve Kırklareli, II. Balkan Savaşı sırasında geri alınmıştır. Selanik ve Manastır gibi yerler ise geri alınamamıştır; bu yüzden seçenekte "bir bölümü" denmiştir.
+Sık yapılan hata: Bir şehrin geri alınmasını savaşın tümünün kazanılması saymak. Metinde yazmayan bir sonucu seçeneğe taşıma.
 Cevap C.`
 },
 {
@@ -432,7 +434,7 @@ Cevap A.`
   id: "ink-u1-006",
   kazanim: "İTA.8.1.1",
   kademe: 0,
-  zorluk: 3,
+  zorluk: 2,
   soru: `Aşağıdaki tabloda Osmanlı Devleti'nin son döneminde etkili olan dört fikir akımı ve temel düşünceleri verilmiştir.
 Bir yazar 1912'de şunları yazmıştır:
 "Okullarımızda okutulacak kitapları kendi dilimizin ölçüleriyle yazmalı, çocuklarımıza önce kendi tarihimizi öğretmeliyiz. Bir milleti ayakta tutan, dilinin ve geçmişinin ortaklığıdır."
@@ -484,11 +486,11 @@ Cevap B.`
 },
 {
   id: "ink-u1-008",
-  kazanim: "İTA.8.1.2",
+  kazanim: "İTA.8.1.4",
   kademe: 0,
   zorluk: 4,
-  soru: "Aşağıda farklı yıllara ve farklı kurumlara ait iki belgeden alınan bölümler verilmiştir.\n**Buna göre bu iki belgenin ortaklaştığı noktalardan hareketle aşağıdakilerden hangisine __ulaşılamaz__?**",
-  gorsel: `<table class="tablo"><tr><th>Belge</th><th>Belgeden alınan bölüm</th></tr><tr><td>I<br>Bir okul yönetiminin<br>1898 tarihli notu</td><td>Öğrenci, matematik ve tarih derslerinde sınıfın önünde gelmektedir. Ders dışındaki saatlerde arkadaşlarına konuşma provası yaptırdığı, idarece uyarılmasına karşın bu toplantıları sürdürdüğü görülmüştür.</td></tr><tr><td>II<br>Bir komutanın<br>1912 tarihli raporu</td><td>Yüzbaşı, kendisine verilen bölgede yalnızca çarpışmakla yetinmemiş, çevre köylerin ileri gelenlerini toplayarak onları da düzene katmayı başarmıştır. Verdiği kararları uygulamadan önce yazıyla gerekçelendirmesi dikkat çekicidir.</td></tr></table>`,
+  soru: "Aşağıda Mustafa Kemal ile ilgili, farklı yıllara ve farklı kurumlara ait iki belgeden alınan bölümler verilmiştir.\n**Buna göre Mustafa Kemal'in kişilik özellikleriyle ilgili aşağıdakilerden hangisine __ulaşılamaz__?**",
+  gorsel: `<table class="tablo"><tr><th>Belge</th><th>Belgeden alınan bölüm</th></tr><tr><td>I<br>Bir okul yönetiminin<br>1898 tarihli notu</td><td>Öğrenci, matematik ve tarih derslerinde sınıfın önünde gelmektedir. Ders dışındaki saatlerde arkadaşlarına konuşma provası yaptırdığı, idarece uyarılmasına karşın bu toplantıları sürdürdüğü görülmüştür.</td></tr><tr><td>II<br>Bir komutanın<br>1912 tarihli raporu</td><td>Kendisine verilen bölgede yalnızca çarpışmakla yetinmemiş, çevre köylerin ileri gelenlerini toplayarak onları da düzene katmayı başarmıştır. Verdiği kararları uygulamadan önce yazıyla gerekçelendirmesi dikkat çekicidir.</td></tr></table>`,
   secenekler: [
     "Düşüncelerini başkalarına anlatmaya önem verdiğine",
     "Aldığı kararları bir gerekçeye dayandırdığına",
@@ -499,16 +501,16 @@ Cevap B.`
   hatalar: [
     "Belge I'deki konuşma provalarını atlama: arkadaşlarına konuşma provası yaptırması, düşüncelerini anlatmaya önem verdiğini gösterir; bu bilgiye ulaşılabilir.",
     "Belge II'nin son cümlesini gözden kaçırma: kararlarını uygulamadan önce yazıyla gerekçelendirdiği belirtilmiştir; bu bilgiye ulaşılabilir.",
-    "İki belgedeki ortak davranışı atlama: okulda arkadaşlarını, cephede köylerin ileri gelenlerini bir araya getirmiştir; bu bilgiye ulaşılabilir.",
+    "Belgelerdeki toplama davranışını atlama: okulda arkadaşlarını, cephede köylerin ileri gelenlerini bir araya getirmiştir; bu bilgiye ulaşılabilir.",
     null
   ],
-  aciklama: `İki belgeli "ulaşılamaz" sorularında her seçeneği iki belgede birden ara. Karşılığını bulduğun seçenekleri ele; karşılığı olmayan seçenek cevaptır.
-Adım 1: Birinci seçeneği ara. Belge I'de arkadaşlarına konuşma provası yaptırdığı yazılıdır. Düşüncelerini anlatmaya önem verdiğine ulaşılır; elenir.
-Adım 2: İkinci seçeneği ara. Belge II'de kararlarını uygulamadan önce yazıyla gerekçelendirdiği yazılıdır. Bu bilgiye ulaşılır; elenir.
-Adım 3: Üçüncü seçeneği ara. Belge I'de arkadaşlarını toplantılarda, Belge II'de köylerin ileri gelenlerini bir düzen çevresinde topladığı yazılıdır. İnsanları ortak bir amaç etrafında topladığına ulaşılır; elenir.
-Adım 4: Dördüncü seçeneği ara. Belge I bir okul notu, Belge II bir komutan raporudur; ikisinde de görev yerini kendisinin seçtiğine ilişkin tek bir söz yoktur. Hatta Belge II "kendisine verilen bölge" demektedir. Ulaşılamayan yargı budur.
+  aciklama: `"Ulaşılamaz" kökü olan sorularda dört seçenek tek tek belgelerde aranır. Bir seçeneğin karşılığı belgelerden birinde bile yazıyorsa o seçeneğe ulaşılır ve elenir; karşılığı hiçbir belgede bulunmayan seçenek cevaptır.
+Adım 1: Birinci seçeneği ara. Belge I'de ders dışındaki saatlerde arkadaşlarına konuşma provası yaptırdığı yazılıdır. Düşüncelerini başkalarına anlatmaya önem verdiğine ulaşılır; elenir.
+Adım 2: İkinci seçeneği ara. Belge II'de kararlarını uygulamadan önce yazıyla gerekçelendirdiği yazılıdır. Aldığı kararları bir gerekçeye dayandırdığına ulaşılır; elenir.
+Adım 3: Üçüncü seçeneği ara. Belge I'de arkadaşlarını toplantılarda bir araya getirdiği, Belge II'de köylerin ileri gelenlerini toplayıp düzene kattığı yazılıdır. İnsanları ortak bir amaç etrafında topladığına ulaşılır; elenir.
+Adım 4: Dördüncü seçeneği ara. Belge I bir okul notu, Belge II bir komutan raporudur; ikisinde de görev yerini kendisinin seçtiğine ilişkin tek bir söz yoktur. Üstelik Belge II "kendisine verilen bölge" demektedir; yeri başkası belirlemiştir. Ulaşılamayan yargı budur.
 Sağlama: Her seçeneğin yanına dayandığı cümleyi yaz. Cümle yazamadığın tek seçenek cevaptır.
-Sık yapılan hata: Kişi hakkında genel olarak doğru bildiğin bir özelliği, belgede yazmasa da işaretlemek. Bu soru tipinde ölçüt yalnızca belgelerde yazanlardır.
+Sık yapılan hata: Bir özelliğin iki belgede birden geçmesini şart sanmak. Soru, belgelerden çıkarılabilen yargıyı sorar; bir belgede yazması yeterlidir. Bu yüzden yalnızca Belge II'de geçen gerekçelendirme de ulaşılabilen bir bilgidir.
 Cevap D.`
 }
 );

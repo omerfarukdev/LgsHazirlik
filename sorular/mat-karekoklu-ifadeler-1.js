@@ -7,7 +7,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "M.8.1.3.1",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir matematik dersinde öğretmen tahtaya dört doğal sayı yazmıştır.\n**Buna göre tahtadaki sayılardan hangisi bir tam kare doğal sayıdır?**",
+  soru: "Bir matematik dersinde öğretmen, öğrencilerinden tam kare doğal sayıları ayırt etmelerini istemiştir.\n**Buna göre aşağıdaki sayılardan hangisi bir tam kare doğal sayıdır?**",
   gorsel: null,
   secenekler: ["64", "72", "80", "96"],
   dogru: 0,
@@ -20,7 +20,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   aciklama: `Bir doğal sayı, bir doğal sayının karesi olarak yazılabiliyorsa o sayıya tam kare doğal sayı denir. İlk tam kareler: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100…
 Adım 1: Karelerin listesini yaz: 8^{2} = 64 ve 9^{2} = 81'dir.
 Adım 2: Şıkları bu listeyle karşılaştır. 64 listede vardır; 72, 80 ve 96 ise 64 ile 81 arasında kalır, listede yoktur.
-Adım 3: Öyleyse tam kare olan sayı 64'tür ve √{64} = 8'dir.
+Adım 3: En çok kandıran şık 72'dir. 72 = 8 · 9 biçiminde yazılabilir ama 8 ile 9 farklı sayılardır; tam kare olmak için çarpanların **eşit** olması gerekir. Öyleyse tam kare olan sayı 64'tür ve √{64} = 8'dir.
 Sağlama: 8 · 8 = 64.
 Sık yapılan hata: Bir sayıyı iki çarpanın çarpımı olarak yazabilmek onu tam kare yapmaz; çarpanların eşit olması gerekir.
 Cevap A.`
@@ -146,7 +146,7 @@ Cevap C.`
   kademe: 1,
   zorluk: 2,
   soru: "Bir okulun bahçesindeki çiçek tarhı kare biçiminde olup alanı 121 m²'dir. Okul yönetimi, tarhın çevresini boydan boya alçak bir tel çitle çevirmek istemektedir.\n**Buna göre bu iş için kaç metre tel çit gerekir?**",
-  gorsel: `<svg viewBox="0 0 400 230" role="img" aria-label="Kare biçiminde çiçek tarhı; alanı 121 metrekare, çevresine tel çit çekilecek."><rect x="95" y="25" width="180" height="180" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4" stroke-dasharray="9 5"/><text x="185" y="105" font-size="16" text-anchor="middle" fill="currentColor">Çiçek tarhı</text><text x="185" y="132" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 121 m²</text><text x="185" y="158" font-size="15" text-anchor="middle" fill="currentColor">(kare biçiminde)</text><text x="185" y="16" font-size="15" text-anchor="middle" fill="var(--vurgu)">tel çit</text><line x1="60" y1="25" x2="60" y2="205" stroke="var(--vurgu2)" stroke-width="2"/><text x="40" y="120" font-size="15" text-anchor="middle" fill="var(--vurgu2)">?</text></svg>`,
+  gorsel: `<svg viewBox="0 0 400 248" role="img" aria-label="Kare biçiminde çiçek tarhı; alanı 121 metrekare. Kesikli çerçeve, tarhın dört kenarı boyunca çekilecek tel çiti gösteriyor; gereken tel çit uzunluğu soruluyor."><text x="185" y="21" font-size="15" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">tel çit (dört kenar boyunca)</text><rect x="95" y="32" width="180" height="180" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="4" stroke-dasharray="9 5"/><text x="185" y="112" font-size="16" text-anchor="middle" fill="currentColor">Çiçek tarhı</text><text x="185" y="139" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 121 m²</text><text x="185" y="165" font-size="15" text-anchor="middle" fill="currentColor">(kare biçiminde)</text><text x="185" y="240" font-size="16" text-anchor="middle" fill="var(--vurgu2)" font-weight="bold">Gereken tel çit: ? m</text></svg>`,
   secenekler: ["11", "22", "44", "121"],
   dogru: 2,
   hatalar: [
@@ -157,7 +157,9 @@ Cevap C.`
   ],
   aciklama: `Karenin alanı kenarın kendisiyle çarpımı, çevresi ise kenarın 4 katıdır.
 Adım 1: Kenar uzunluğunu bul. Kenar a ise a · a = 121 olmalıdır; 11 · 11 = 121 olduğundan a = √{121} = 11 m'dir.
-Adım 2: Çevreyi hesapla: 4 · 11 = 44 m.
+Adım 2: Şekildeki kesikli çerçeve tarhın dört kenarını birden sarar; yani gereken tel çit, tarhın çevresi kadardır.
+Adım 3: Çevreyi hesapla: 4 · 11 = 44 m.
+En güçlü çeldirici 11'dir: doğru bulunmuş bir kenar uzunluğudur ama yalnızca tek bir kenarı çevirmeye yeter, tarhın tamamını değil.
 Sağlama: Kenarı 11 m olan karenin alanı 11 · 11 = 121 m², çevresi 11 + 11 + 11 + 11 = 44 m'dir. İkisi de tutuyor.
 Sık yapılan hata: Kenarı bulunca durmak. Soru kökünün ne istediğini (kenar mı, çevre mi, alan mı) her zaman son kez oku.
 Cevap C.`

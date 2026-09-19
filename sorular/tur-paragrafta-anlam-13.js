@@ -3,7 +3,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
 
 { id: "tur-pa-2001", kazanim: "T.8.3.16", kademe: 0, zorluk: 1,
-  soru: "Mağaranın tavanından aşağı doğru uzayan ince, sivri oluşumlara sarkıt denir. Tabandan yukarı doğru büyüyen, ucu küt ve daha kalın olanlara ise dikit. İkisi de aynı damlanın eseridir: damla tavanda asılıyken bıraktığı kireç sarkıtı, yere düştükten sonra bıraktığı kireç dikiti büyütür. Yıllar içinde uzayan bu iki oluşum birbirine değerse artık sütun adını alır.\n\n**Bu parçanın konusu aşağıdakilerden hangisidir?**",
+  soru: "Mağaranın tavanından aşağı doğru uzayan ince, sivri oluşumlara sarkıt denir. Tabandan yukarı doğru büyüyen, ucu küt ve daha kalın olanlara ise dikit. İkisi de aynı damlanın eseridir: damla, tavanda asılıyken bıraktığı kireçle sarkıtı; yere düştükten sonra bıraktığı kireçle dikiti büyütür. Yıllar içinde uzayan bu iki oluşum birbirine değerse artık sütun adını alır.\n\n**Bu parçanın konusu aşağıdakilerden hangisidir?**",
   gorsel: null,
   secenekler: ["Sarkıtla dikitin oluşumu ve aralarındaki fark", "Sarkıtla dikitin ayrı kaynaklardan doğması", "Tavandan düşen damlaların birbirini izleme sıklığı", "Birleşen iki oluşuma sütun denmesinin nedeni"],
   dogru: 0,

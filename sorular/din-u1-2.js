@@ -9,8 +9,8 @@ window.LGS_BANK = window.LGS_BANK || {};
   kademe: 3,
   zorluk: 3,
   soru: `Bir ayette, "Kararını verdiğin zaman artık Allah'a tevekkül et. Şüphesiz Allah, kendisine tevekkül edenleri sever." (Âl-i İmrân suresi, 159. ayet) buyrulmaktadır. Aşağıdaki tabloda, uzun bir bisiklet turuna çıkan dört arkadaşın yola çıkmadan önce yaptıkları verilmiştir.
-**Buna göre hangi öğrencinin davranışı ayette anlatılan tevekküle uygundur?**`,
-  gorsel: `<table class="tablo"><tr><th>Öğrenci</th><th>Yola çıkmadan önce yaptığı</th></tr><tr><td>Sinem</td><td>Frenleri ve lastikleri denedi, kaskını taktı; "Üzerime düşeni yaptım, gerisi Allah'a emanet." dedi.</td></tr><tr><td>Kuzey</td><td>"Kaderimde ne varsa o olur." deyip bisikletini hiç kontrol etmeden yola çıktı.</td></tr><tr><td>Efe</td><td>Bütün kontrolleri yaptı; "Bu kadar hazırlıktan sonra bana hiçbir şey olamaz." dedi.</td></tr><tr><td>Doğa</td><td>Kontrol yapmak yerine uğur getirdiğine inandığı anahtarlığı çantasına taktı.</td></tr></table>`,
+**Buna göre hangi arkadaşın davranışı ayette anlatılan tevekküle uygundur?**`,
+  gorsel: `<table class="tablo"><tr><th>Arkadaş</th><th>Yola çıkmadan önce yaptığı</th></tr><tr><td>Sinem</td><td>Frenleri ve lastikleri denedi, kaskını taktı; "Üzerime düşeni yaptım, gerisi Allah'a emanet." dedi.</td></tr><tr><td>Kuzey</td><td>"Kaderimde ne varsa o olur." deyip bisikletini hiç kontrol etmeden yola çıktı.</td></tr><tr><td>Efe</td><td>Bütün kontrolleri yaptı; "Bu kadar hazırlıktan sonra bana hiçbir şey olamaz." dedi.</td></tr><tr><td>Doğa</td><td>Kontrol yapmak yerine uğur getirdiğine inandığı anahtarlığı çantasına taktı.</td></tr></table>`,
   secenekler: ["Sinem", "Kuzey", "Efe", "Doğa"],
   dogru: 0,
   hatalar: [
@@ -24,7 +24,7 @@ Adım 1: Ayetin istediği iki adımı yaz. Birinci adım, insanın üzerine dü�
 Adım 2: Tabloyu bu iki adıma göre oku. Sinem hem frenleri ve lastikleri kontrol etmiş hem de sonucu Allah'a bırakmıştır. İki adım da vardır.
 Adım 3: Kuzey birinci adımı atlamıştır; hiç kontrol yapmadan yola çıkmak tevekkül değil, tembelliktir.
 Adım 4: Efe birinci adımı yapmış ama "bana hiçbir şey olamaz" diyerek sonucu yalnızca kendi hazırlığına bağlamıştır. Doğa ise tedbirin yerine uğur inancını koymuştur.
-Adım 5: İki adımı birlikte taşıyan tek öğrenci Sinem'dir.
+Adım 5: İki adımı birlikte taşıyan tek arkadaş Sinem'dir.
 Sık yapılan hata: Tevekkülü "hiçbir şey yapmadan bekleme" sanmak. Hz. Peygamber, devesini bağlamadan "tevekkül ettim" diyen kişiye "Önce deveni bağla, sonra tevekkül et." buyurmuştur.
 Cevap A.`
 },
@@ -67,24 +67,24 @@ Cevap B.`
 **Buna göre Hz. Musa'nın annesinin davranışı aşağıdakilerden hangisine örnektir?**`,
   gorsel: null,
   secenekler: [
-    "Hiçbir tedbir almadan sonucun kendiliğinden gelmesini beklemesine",
-    "Sonucun yalnızca kendi gücüne ve aklına bağlı olduğunu sanmasına",
-    "Başına gelenleri değiştirilemez bir kötü talihin sonucu saymasına",
+    "Kendisine bildirilen söze güvenip tedbir almaya gerek duymamasına",
+    "Elinden geleni yaptıktan sonra sonucu kendi gücüne bağlamasına",
+    "Çocuğunu suya bıraktıktan sonra onu büsbütün gözden çıkarmasına",
     "Gereken tedbirleri aldıktan sonra sonucu Allah'a bırakmasına"
   ],
   dogru: 3,
   hatalar: [
-    "Metindeki davranışları gözden kaçırma: anne sandık hazırlamış, bebeği suya bırakmış ve kızını arkasından göndermiştir; bunların hepsi birer tedbirdir.",
-    "Tevekkülü yok sayma: anne yalnızca kendi gücüne güvenseydi \"korkma, üzülme\" sözüne dayanarak bebeğini suya bırakamazdı.",
-    "Kaderi kötü talih sanma: annenin davranışında umutsuzluk değil, güven ve hareket vardır.",
+    "Metindeki tedbirleri gözden kaçırma: anne bebeğini bir sandığa koymuş, suya bırakmış ve kızını arkasından göndermiştir; bunların hepsi birer tedbirdir.",
+    "Annenin dayandığı sözü atlama: \"Korkma, üzülme; biz onu sana geri döndüreceğiz.\" sözüne güvenen bir kimse sonucu yalnızca kendi gücüne bağlamış sayılmaz.",
+    "\"Onu takip et.\" cümlesini gözden kaçırma: anne kızını bebeğin arkasından göndererek onu gözden çıkarmadığını göstermiştir.",
     null
   ],
   aciklama: `Tevekkül, gerekli tedbirleri aldıktan sonra sonucu Allah'a bırakmaktır. Tedbirsiz bekleyiş tevekkül değildir.
 Adım 1: Annenin yaptıklarını sırala. Bebeğini emzirmiş, bir sandık hazırlamış, sandığı suya bırakmış, sonra kızını "Onu takip et." diyerek göndermiştir. Bunların hepsi düşünülmüş birer tedbirdir.
 Adım 2: Annenin dayandığı güvene bak. "Korkma, üzülme; biz onu sana geri döndüreceğiz." sözüne inanmıştır. Yani sonucu Allah'a bırakmıştır.
 Adım 3: Bu iki şeyin bir arada olması tevekküldür: önce elinden geleni yapmak, sonra Allah'a güvenmek.
-Adım 4: Diğer seçenekler bu davranışı karşılamaz. Anne tedbirsiz beklememiş, sonucu yalnızca kendi gücüne bağlamamış ve olanları kötü bir talihe yormamıştır.
-Sağlama: Kızını bebeğin arkasından göndermesi, tedbirin son ana kadar sürdüğünü gösterir. Tevekkül, çabanın bitiminde başlar.
+Adım 4: Diğer seçenekleri metinle karşılaştır. Anne tedbir almadan durmamıştır; sandık da suya bırakma da kızını göndermek de birer tedbirdir. Sonucu yalnızca kendi gücüne de bağlamamıştır; dayandığı şey "Korkma, üzülme; biz onu sana geri döndüreceğiz." sözüdür. Çocuğunu gözden çıkarmadığı ise "Onu takip et." demesinden bellidir.
+Sık yapılan hata: Kıssalarda yalnızca sonuca bakıp ona giden adımları atlamak. Burada güvenin yanında hazırlık, hazırlığın yanında da güven vardır; biri olmadan öteki tevekkül olmaz.
 Cevap D.`
 },
 {
@@ -127,24 +127,24 @@ Cevap A.`
 **Buna göre bu iki ayette ortak olarak vurgulanan husus aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: [
-    "İnsanın yaptığı her işin kendi iradesi dışında belirlenmiş olması",
+    "İnsanın hangi yolu seçtiğinin, varacağı sonuç bakımından bir fark doğurmaması",
     "İnsanın seçim yapma özgürlüğüne ve bu seçimin sorumluluğuna sahip olması",
-    "İnsanın gücünün sınırsız olduğunun ve her şeye yeteceğinin bildirilmesi",
-    "İnsanın doğru yolu yalnızca kendi aklıyla bulabilecek olması"
+    "İnsanın doğru yolu, kendisine gösterilmeden önce kendi çabasıyla bulması",
+    "İnsanın gösterilen yolu kabul etmekten başka bir seçeneğinin bulunmaması"
   ],
   dogru: 1,
   hatalar: [
-    "Cüz'î iradeyi yok sayma: iki ayet de \"dileyen\", \"ister\" sözleriyle insanın kendi seçimini açıkça vurgular.",
+    "\"İster şükreden olsun ister nankör\" ifadesini kayıtsızlık sanma: ayet seçimi insana bırakır, seçimin sonuç doğurmayacağını söylemez.",
     null,
-    "Cüz'î iradeyi küllî irade sanma: insanın seçme özgürlüğü vardır, ancak gücü sınırlıdır; yaratma Allah'a aittir.",
-    "Ayetlerin \"biz ona doğru yolu gösterdik\" kısmını atlama: doğru yolu bildiren Allah'tır, insana düşen seçim yapmaktır."
+    "\"Biz ona doğru yolu gösterdik.\" cümlesini atlama: doğru yolu bildiren Allah'tır; insan o yolu kendi başına keşfetmiş değildir.",
+    "\"Dileyen iman etsin, dileyen inkâr etsin.\" ifadesini atlama: ayet insanın önüne birden çok yol koyar, tek yol bırakmaz."
   ],
   aciklama: `Külli irade, Allah'ın sınırsız iradesidir. Cüz'î irade ise Allah'ın insana verdiği sınırlı seçme gücüdür. İnsanın sorumlu tutulmasının sebebi, bu seçme gücüne sahip olmasıdır.
 Adım 1: Birinci ayette geçen "dileyen iman etsin, dileyen inkâr etsin" ifadesine bak. Burada insanın önüne iki yol konmuş ve seçim ona bırakılmıştır.
 Adım 2: İkinci ayette geçen "ister şükreden olsun ister nankör" ifadesi de aynı şeyi söyler: yol gösterilmiştir, tercih insanındır.
 Adım 3: İki ayetin ortak noktası, insanın seçim yapma özgürlüğüdür. Seçim özgürlüğü olan kişi, seçiminden de sorumludur.
-Adım 4: Diğer seçenekleri ele. Ayetler insanın iradesini yok saymaz, insana sınırsız bir güç de vermez; ayrıca doğru yolu gösterenin Allah olduğunu bildirir.
-Sağlama: Sorumluluk ancak seçme imkânı olan kişiye yüklenir. Bu yüzden cüz'î irade ile sorumluluk birbirinden ayrılmaz.
+Adım 4: Diğer seçenekleri ayetlerin sözleriyle karşılaştır. "İster şükreden olsun ister nankör" ifadesi seçimi insana bırakır; bu ifade, seçimin sonuçsuz kalacağını söylemez. "Biz ona doğru yolu gösterdik." cümlesi, yolu insanın kendi başına bulduğunu değil, kendisine gösterildiğini bildirir. "Dileyen iman etsin, dileyen inkâr etsin." ifadesi ise insanın önüne tek bir yol koymaz.
+Sık yapılan hata: "İster… ister…" kalıbını "fark etmez" diye okumak. Bu kalıp seçimi serbest bırakır, sonucu önemsiz saymaz; nitekim sorumluluk da buradan doğar.
 Cevap B.`
 },
 {
@@ -153,25 +153,26 @@ Cevap B.`
   kademe: 3,
   zorluk: 3,
   soru: `Bir ayette, "Hiçbir kimse Allah'ın izni olmadıkça ölmez. Ölüm belirli bir süreye göre yazılmıştır." (Âl-i İmrân suresi, 145. ayet) buyrulmaktadır.
-I. Ömür, insanın doğumu ile ölümü arasında geçen süredir.
-II. Ecel, her canlı için belirlenmiş olan ölüm vaktidir.
-III. Ecelin vakti belli olduğu için sağlık tedbirlerini almak gereksizdir.
+Bu ayeti okuyan Mert, "Madem ölümün vakti yazılmış, o hâlde insanın ne yaptığının bir önemi kalmaz." demiştir.
+I. Ömür, ecelin gelmesiyle sona eren bir süredir.
+II. Ayetteki "belirli bir süre" ifadesi, bu sürenin insanlarca önceden bilinebileceğini göstermez.
+III. Mert'in sözü, kader inancının insana yüklediği sorumlulukla bağdaşmaktadır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I, II ve III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I ve III"],
   dogru: 2,
   hatalar: [
-    "II. yargıyı yanlış sayma: ayetteki \"belirli bir süre\" ifadesi ecelin her canlı için belirlenmiş olduğunu bildirir.",
-    "I. yargıyı yanlış sayma: ömür, doğumla ölüm arasında geçen süredir; ecel ise bu sürenin sona erdiği andır.",
+    "II. yargıyı yanlış sayma: bir vaktin belirlenmiş olması, o vaktin insanlarca bilindiği anlamına gelmez; ecelin vaktini yalnızca Allah bilir.",
+    "I. yargıyı yanlış sayma: ömür doğumla ölüm arasındaki süredir; bu sürenin bittiği an ecel olduğuna göre ömür, ecelin gelmesiyle sona erer.",
     null,
-    "III. yargıyı doğru sayma: ecelin vaktini bilmemek tedbiri gereksiz kılmaz; sağlığı korumak insanın sorumluluğudur."
+    "III. yargıyı doğru sayma: kadere iman, insanın yaptıklarından sorumlu tutulmasını ortadan kaldırmaz; Mert'in sözü bu sorumlulukla bağdaşmaz."
   ],
-  aciklama: `Ömür ile ecel birbirine karıştırılan iki kavramdır. Ömür bir süredir; ecel ise o sürenin bittiği andır. İkisini de belirleyen Allah'tır.
-Adım 1: I. yargıyı kontrol et. Ömür, insanın doğumuyla ölümü arasında geçen süredir. Tanım doğrudur.
-Adım 2: II. yargıyı kontrol et. Ecel, her canlı için belirlenmiş olan ölüm vaktidir. Ayetteki "belirli bir süreye göre yazılmıştır" ifadesi de bunu anlatır. Doğrudur.
-Adım 3: III. yargıyı kontrol et. Ecelin vaktini yalnızca Allah bilir; insan bilmediği bir şeye dayanarak sorumluluğunu bırakamaz. Sağlıklı beslenmek, kemer takmak, tedavi olmak insanın görevidir. Bu yargı yanlıştır.
+  aciklama: `Ömür ile ecel birbirine karıştırılan iki kavramdır. Ömür bir süredir; ecel ise o sürenin sona erdiği andır. İkisini de belirleyen Allah'tır.
+Adım 1: I. yargıyı kontrol et. Ömür doğumla başlar, ölümle biter; ölümün geldiği an ise eceldir. Öyleyse ömür, ecelin gelmesiyle sona eren süredir. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Ayet, ölümün "belirli bir süreye göre" yazıldığını söyler. Bir şeyin Allah katında belirlenmiş olması, insanların onu bilmesi demek değildir; ecelin vaktini yalnızca Allah bilir. Doğrudur.
+Adım 3: III. yargıyı kontrol et. Mert, ölüm vaktinin yazılı olmasından "insanın ne yaptığı önemsizdir" sonucunu çıkarıyor. Oysa kader inancı insana irade ve sorumluluk yükler; bu yüzden Mert'in sözü kader inancıyla bağdaşmaz. Yanlıştır.
 Adım 4: Doğru yargılar I ve II'dir.
-Sık yapılan hata: "Nasılsa eceli gelen ölür." diyerek tedbiri bırakmak. Tedbir almak eceli değiştirme çabası değil, Allah'ın koyduğu sebepler yasasına uymaktır.
+Sık yapılan hata: "Belirlenmiş" ile "bilinen"i aynı şey sanmak. Ecelin vakti Allah katında bellidir, fakat insana bildirilmemiştir; bu yüzden insan tedbirini alır ve tercihlerinin sorumluluğunu taşır.
 Cevap C.`
 },
 {
@@ -180,7 +181,7 @@ Cevap C.`
   kademe: 3,
   zorluk: 4,
   soru: `Bir öğretmen dersinde şunları anlatmıştır:
-"Allah evrendeki her şeyi belli bir ölçüye ve yasaya göre yaratmıştır. Sınırsız olan bu iradeye küllî irade denir. İnsana ise sınırlı bir seçme gücü, yani cüz'î irade verilmiştir. Kalemi eline almak ya da almamak, doğruyu söylemek ya da susmak insanın tercihidir; bu yüzden insan yaptıklarından hesaba çekilir. Ancak insanın tercih ettiği davranışı meydana getiren güç yine Allah'a aittir. Nitekim bir ayette, 'De ki: Allah her şeyin yaratıcısıdır.' (Ra'd suresi, 16. ayet) buyrulur."
+"Allah evrendeki her şeyi belli bir ölçüye ve yasaya göre yaratmıştır. Allah'ın her şeyi kuşatan sınırsız iradesine küllî irade denir. İnsana ise sınırlı bir seçme gücü, yani cüz'î irade verilmiştir. Kalemi eline almak ya da almamak, doğruyu söylemek ya da susmak insanın tercihidir; bu yüzden insan yaptıklarından hesaba çekilir. Ancak insanın tercih ettiği davranışı meydana getiren güç yine Allah'a aittir. Nitekim bir ayette, 'De ki: Allah her şeyin yaratıcısıdır.' (Ra'd suresi, 16. ayet) buyrulur."
 **Buna göre bu metinden aşağıdakilerin hangisine __ulaşılamaz__?**`,
   gorsel: null,
   secenekler: [
@@ -197,7 +198,7 @@ Cevap C.`
     "Metnin ilk cümlesini atlama: evrendeki ölçü ve yasaları Allah'ın belirlediği metinde bildirilmiştir."
   ],
   aciklama: `Bu soruda metinde söylenenler ile söylenmeyenleri ayırman isteniyor. Önce metnin verdiği bilgileri madde madde çıkar.
-Adım 1: Metin, evrendeki ölçü ve yasaları Allah'ın belirlediğini söylüyor. Demek ki D seçeneğine ulaşılır.
+Adım 1: Metin, evrendeki her şeyi belli bir ölçüye göre yaratanın Allah olduğunu ve bu sınırsız iradenin Allah'a ait olduğunu söylüyor. Demek ki D seçeneğine ulaşılır.
 Adım 2: Metin, insana "sınırlı bir seçme gücü" verildiğini söylüyor. Demek ki B seçeneğine ulaşılır.
 Adım 3: Metin, "bu yüzden insan yaptıklarından hesaba çekilir" diyor. Yani tercih ile sorumluluk arasında bağ kuruyor; C seçeneğine de ulaşılır.
 Adım 4: A seçeneğine bak. Metin, insanın tercih ettiği davranışı meydana getiren gücün Allah'a ait olduğunu söylüyor ve bunu "Allah her şeyin yaratıcısıdır." ayetiyle destekliyor. A seçeneği metnin tam tersini söylediği için bu yargıya ulaşılamaz.
@@ -238,21 +239,21 @@ Cevap D.`
   zorluk: 4,
   soru: `Aynı hastalığın teşhisi konulan üç kişinin doktor muayenesinden sonraki tutumları aşağıdaki tabloda verilmiştir.
 I. Yasin'in tutumunda tedbire başvurmak ile şifayı Allah'tan bilmek bir aradadır.
-II. Melike ile Kerem, gerekçeleri farklı olsa da sebeplere başvurmaktan vazgeçmiştir.
+II. Melike ile Kerem, gerekçeleri farklı olsa da şifa için sebeplere sarılmamıştır.
 III. Bir hastalık için tedavi aramak, kadere razı olmamak anlamına gelir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<table class="tablo"><tr><th>Kişi</th><th>Teşhisten sonraki tutumu</th></tr><tr><td>Yasin</td><td>Verilen tedaviyi aksatmadan uyguladı; "Şifayı veren Allah'tır, bana düşen sebeplere sarılmaktır." dedi.</td></tr><tr><td>Melike</td><td>"Bu hastalık kaderimde varmış, ilaç kullansam da değişmez." diyerek ilaçlarını bıraktı.</td></tr><tr><td>Kerem</td><td>"Doktora gitmeme gerek yok, dua etmem yeter." diyerek tedaviye hiç başlamadı.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>Kişi</th><th>Teşhisten sonraki tutumu</th></tr><tr><td>Yasin</td><td>Verilen tedaviyi aksatmadan uyguladı; "Şifayı veren Allah'tır, bana düşen sebeplere sarılmaktır." dedi.</td></tr><tr><td>Melike</td><td>"Bu hastalık kaderimde varmış, ilaç kullansam da değişmez." diyerek ilaçlarını bıraktı.</td></tr><tr><td>Kerem</td><td>"İlaç kullanmama gerek yok, dua etmem yeter." diyerek reçetedeki ilaçları hiç kullanmadı.</td></tr></table>`,
   secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
   dogru: 2,
   hatalar: [
-    "II. yargıyı atlama: Melike ilaçlarını bırakmış, Kerem ise hiç başlamamıştır; ikisi de sebeplere başvurmaktan vazgeçmiştir.",
+    "II. yargıyı atlama: Melike ilaçlarını bırakmış, Kerem ise hiç kullanmamıştır; ikisi de şifa için sebeplere sarılmamıştır.",
     "I. yargıyı yanlış sayma: Yasin hem tedaviyi sürdürmüş hem şifayı Allah'tan bilmiştir; bu, tedbir ile tevekkülün birlikteliğidir.",
     null,
     "III. yargıyı doğru sayma: tedavi aramak kadere razı olmamak değildir; Hz. Peygamber \"Ey Allah'ın kulları, tedavi olun.\" buyurmuştur."
   ],
   aciklama: `Sağlık ve hastalık, kaderle ilgili kavramlardandır. İslam'a göre şifayı veren Allah'tır; ancak insandan tedaviye başvurması, yani sebeplere sarılması istenir.
 Adım 1: I. yargıyı kontrol et. Yasin tedaviyi aksatmadan uygulamış, aynı zamanda şifayı Allah'tan bilmiştir. Tedbir ile tevekkül onda bir aradadır. Doğrudur.
-Adım 2: II. yargıyı kontrol et. Melike "kaderimde varmış" diyerek, Kerem ise "dua etmem yeter" diyerek tedaviyi bırakmıştır. Gerekçeleri farklıdır, fakat ikisi de aynı sonuca varmış ve sebeplere başvurmayı terk etmiştir. Doğrudur.
+Adım 2: II. yargıyı kontrol et. Melike "kaderimde varmış" diyerek ilaçlarını bırakmış, Kerem ise "dua etmem yeter" diyerek ilaçları hiç kullanmamıştır. Gerekçeleri farklıdır, fakat ikisi de aynı yere varmış ve şifa için sebeplere sarılmamıştır. Doğrudur.
 Adım 3: III. yargıyı kontrol et. Tedavi olmak kadere karşı gelmek değildir; Allah her hastalık için bir şifa sebebi yaratmıştır ve insandan bu sebepleri aramasını ister. Bu yargı yanlıştır.
 Adım 4: Doğru yargılar I ve II'dir.
 Sık yapılan hata: Duayı tedbirin yerine koymak. Dua ile tedavi birbirinin alternatifi değildir; birlikte yapılır.

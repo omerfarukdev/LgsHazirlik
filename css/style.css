@@ -426,6 +426,21 @@ sup, sub { font-size: .72em; line-height: 0; }
 }
 .neden { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; margin-top: 14px; }
 .neden-soru { font-size: .88rem; font-weight: 600; margin-right: 4px; }
+/* Yanlış ve boş sorularda çözüm katlanmaz: asıl öğrenme burada olur. */
+.ogren {
+  margin-top: 14px; padding: 14px 16px; border-radius: 12px;
+  background: var(--iyi-acik); border-left: 4px solid var(--iyi);
+}
+.ogren-ust { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.ogren-baslik { font-weight: 700; color: var(--iyi); }
+.ogren-tekrar {
+  font-size: .76rem; font-weight: 700; padding: 3px 10px; border-radius: 99px;
+  background: var(--orta-acik); color: var(--orta); border: 1px solid var(--orta);
+}
+.ogren-tekrar.kizil { background: var(--zayif-acik); color: var(--zayif); border-color: var(--zayif); }
+.ogren .cozum-ic { margin-top: 0; }
+.ogren-not { margin: 12px 0 0; font-size: .9rem; color: var(--soluk); border-top: 1px solid color-mix(in srgb, var(--iyi) 25%, transparent); padding-top: 10px; }
+
 .cozum { margin-top: 14px; border-top: 1px solid var(--cizgi); padding-top: 12px; }
 .cozum summary { cursor: pointer; font-weight: 700; color: var(--vurgu); }
 .cozum-ic { margin-top: 10px; font-size: .98rem; line-height: 1.7; }

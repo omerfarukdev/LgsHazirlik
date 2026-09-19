@@ -1091,14 +1091,39 @@ var App = (function () {
       if (durum === "yanlis" && q.hatalar && q.hatalar[c]) {
         html += '<div class="hata-kutu"><strong>Bu şıkka götüren olası hata:</strong> ' + bicim(q.hatalar[c]) + '</div>';
       }
+
+      // Yanlış ve boş sorularda çözüm KATLANMAZ; açık bir öğretim bloğu olarak durur.
+      // Doğru yapılanlarda katlanır — öğrenci isterse açar, listeyi şişirmez.
+      if (durum === "dogru") {
+        html += '<details class="cozum"><summary>Adım adım çözüm</summary>' +
+          '<div class="cozum-ic">' + bicim(q.aciklama) + '</div></details>';
+      } else {
+        var kacinci = yanlisKacinci(id);
+        html += '<div class="ogren">' +
+          '<div class="ogren-ust"><span class="ogren-baslik">Doğru cevap ' + HARFLER[q.dogru] + ' · nasıl bulunur</span>' +
+          (kacinci >= 2 ? '<span class="ogren-tekrar' + (kacinci >= 3 ? " kizil" : "") + '">Bu soruyu ' + kacinci + '. kez yanlış yaptın</span>' : "") +
+          '</div>' +
+          '<div class="cozum-ic">' + bicim(q.aciklama) + '</div>' +
+          (kacinci >= 3
+            ? '<p class="ogren-not">Bu soru seni ' + kacinci + '. kez yakaladı. Çözümü bu sefer sesli oku; ezberlemen gereken şey cevabın kendisi değil, <strong>onu bulduran kural</strong>.</p>'
+            : kacinci === 2
+              ? '<p class="ogren-not">Bu soruyu daha önce de yanlış yapmıştın. Bu sefer çözümü sonuna kadar oku; birkaç gün sonra yine karşına çıkacak.</p>'
+              : '') +
+          '</div>';
+      }
+
       if (durum === "yanlis") {
         html += '<div class="neden" id="neden-' + id + '">' + nedenHTML(kayit, id) + '</div>';
       }
-      html += '<details class="cozum"' + (durum === "dogru" ? "" : " open") + '><summary>Adım adım çözüm</summary>' +
-        '<div class="cozum-ic">' + bicim(q.aciklama) + '</div></details>' +
-        '<button class="btn-yazi kucuk" onclick="App.hataBildir(\'' + id + '\')">Bu soruda bir hata mı var?</button></div>';
+      html += '<button class="btn-yazi kucuk" onclick="App.hataBildir(\'' + id + '\')">Bu soruda bir hata mı var?</button></div>';
     });
     return html || '<p class="soluk orta">Bu filtrede gösterilecek soru yok.</p>';
+  }
+  // Bu soru şimdiye kadar kaçıncı kez yanlış yapıldı? (yanlış defterindeki sayaçtan)
+  // Aynı hataya üçüncü kez düşmek, tek tek yanlışlardan daha önemli bir sinyaldir.
+  function yanlisKacinci(id) {
+    var y = Store.get("yanlis", {})[id];
+    return y ? (y.tekrar || 0) + 1 : 1;
   }
   function nedenHTML(kayit, id) {
     var secili = (kayit.neden || {})[id];

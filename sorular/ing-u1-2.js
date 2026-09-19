@@ -147,24 +147,25 @@ Ada
 **Which one completes Ada's e-mail best?**`,
   gorsel: null,
   secenekler: [
-    "Sure, that sounds fun, and I will be at the park at twelve.",
-    "Yes, I'd love to come, so I will bring my guitar with me.",
-    "I am not busy on Sunday, so I will see you at the picnic.",
+    "Sure, that sounds fun, and I will be at Green Park at twelve.",
+    "Yes, I'd love to come, and I will bring my cousin's guitar.",
+    "I'm sorry, but I can't come because I have a match on Saturday.",
     "I'm sorry, but I can't come because I have a dance show."
   ],
   dogru: 3,
   hatalar: [
-    "Son cümledeki ipucunu atlama: \"Maybe we can celebrate your birthday next week.\" diyen biri pazar günkü pikniğe gelmiyor demektir.",
-    "Ayrıntıyı yanlış kişiye bağlama: gitarı Melis'in kuzeni getirecektir; ayrıca bu yanıt daveti kabul eder ve son cümleyle çelişir.",
-    "\"Not busy\" ile mazereti karıştırma: boş olduğunu söyleyen biri ertesi hafta kutlama önermez.",
+    "Son cümledeki ipucunu atlama: \"Maybe we can celebrate your birthday next week.\" diyen biri pazar günkü pikniğe gelmiyor demektir, bu yüzden bir kabul cümlesi boşluğa uymaz.",
+    "Ayrıntıyı yanlış kişiye bağlama: gitarı Ada değil, Melis'in kuzeni getirecektir; ayrıca bu yanıt daveti kabul eder ve son cümleyle çelişir.",
+    "Gerekçenin gününü davetin günüyle karşılaştırmama: piknik pazar günüdür, cumartesi günkü bir maç pazar günü gelememenin gerekçesi olamaz.",
     null
   ],
-  aciklama: `Davet e-postalarına verilen yanıtlarda kalıp şudur: teşekkür → kabul ya da özür + gerekçe → iyi dilek. Boşluğun hangisi olduğunu, çevresindeki cümleler söyler.
-Adım 1: Boşluktan önceki cümleye bak: "Thank you for the invitation." Bu, teşekkür bölümüdür; hem kabulde hem rette kullanılır, tek başına ipucu vermez.
-Adım 2: Boşluktan sonraki cümleye bak: "Maybe we can celebrate your birthday next week." Ada başka bir hafta öneriyor. Demek ki pazar günü gelemiyor. Boşluğa bir ret ve gerekçe gelmelidir.
-Adım 3: A, B ve C seçeneklerinin üçü de daveti kabul eder ("I will be at the park", "I'd love to come", "I will see you at the picnic"). Üçü de son cümleyle çelişir.
-Adım 4: D seçeneği "I'm sorry, but I can't come because …" kalıbıyla hem özür diler hem gerekçe verir: dans gösterisi vardır. Metnin akışına uyan tek seçenek budur.
-Sağlama: B seçeneğindeki gitar bilgisi de yanlıştır; e-postada gitarı Melis'in kuzeni getirecektir.
+  aciklama: `Davet e-postalarına verilen yanıtlarda kalıp şudur: teşekkür → kabul ya da özür + gerekçe. Gerekçenin davetin gününe uyması gerekir; başka bir gün için bildirilen engel gerekçe sayılmaz.
+Adım 1: Melis'in e-postasındaki bilgileri çıkar: piknik pazar günü saat 12.00'de Green Park'tadır ve gitarı Melis'in kuzeni getirecektir.
+Adım 2: Boşluktan önceki cümleye bak: "Thank you for the invitation." Bu, teşekkür bölümüdür; hem kabulde hem rette kullanılır, tek başına ipucu vermez.
+Adım 3: Boşluktan sonraki cümleye bak: "Maybe we can celebrate your birthday next week." Ada başka bir hafta öneriyor, yani pazar günü gelemiyor. Öyleyse boşluğa özür + gerekçe gelmelidir; daveti kabul eden A ve B elenir. B ayrıca ayrıntıyı ters kurar: gitarı Ada değil, Melis'in kuzeni getirecektir.
+Adım 4: Geriye iki ret seçeneği kalır ve ikisi de aynı kibar kalıptadır ("I'm sorry, but I can't come because …"). O hâlde ayrımı gerekçe yapar. C'nin gerekçesi cumartesi günü olan bir maçtır; oysa piknik pazar günüdür. Cumartesi meşgul olmak, pazar günkü pikniğe gelememeyi açıklamaz; C elenir.
+Adım 5: D'de gerekçe ayrı bir güne bağlanmadan verilir ("I have a dance show."), yani davetin günü olan pazar için geçerlidir. Hem özür hem gerekçe vardır, hem de "next week" önerisiyle uyumludur. Akışa uyan tek seçenek D'dir.
+Sık yapılan hata: Kibar bir ret kalıbı görür görmez işaretlemek. İki seçenek de "I'm sorry, but I can't come because …" ile başlıyorsa gerekçedeki günü davetin günüyle karşılaştırmalısın.
 Cevap D.`
 },
 {

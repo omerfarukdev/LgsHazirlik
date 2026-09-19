@@ -111,8 +111,7 @@ Cevap B.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir cümlede, bir ögeden hemen sonra gelip onu açıklayan ve iki virgül arasına alınan söze ara söz denir. Aşağıdaki şemada buna bir örnek verilmiştir.
-Bir şehirde açılan el sanatları sergisinde hem ustalar hem de kursiyerler eserlerini tanıtıyor.
+  soru: `Bir şehirde açılan el sanatları sergisinde hem ustalar hem de kursiyerler eserlerini tanıtıyor. Bir cümlede, bir ögeden hemen sonra gelip onu açıklayan ve iki virgül arasına alınan söze ara söz denir. Aşağıdaki şemada buna bir örnek verilmiştir.
 **Buna göre, aşağıdaki cümlelerin hangisinde ara söz, cümlenin öznesini açıklamaktadır?**`,
   gorsel: `<svg viewBox="0 0 560 190" role="img" aria-label="Örnek cümle: Duvardaki tabloyu, o büyük manzarayı, herkes izledi. Nesne olan 'Duvardaki tabloyu' sözünü, ara söz olan 'o büyük manzarayı' sözü açıklıyor."><path d="M247 60 C 247 22, 95 22, 95 58" fill="none" stroke="var(--vurgu)" stroke-width="2.5"/><polygon points="89,50 101,50 95,62" fill="var(--vurgu)"/><text x="171" y="18" font-size="15" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">açıklıyor</text><rect x="20" y="64" width="150" height="38" rx="6" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="176" y="64" width="150" height="38" rx="6" fill="none" stroke="var(--vurgu)" stroke-width="2.5"/><g font-size="15" fill="currentColor"><text x="95" y="89" text-anchor="middle">Duvardaki tabloyu,</text><text x="251" y="89" text-anchor="middle">o büyük manzarayı,</text><text x="338" y="89">herkes izledi.</text></g><g font-size="15" text-anchor="middle" font-weight="bold"><text x="95" y="128" fill="currentColor">nesne</text><text x="251" y="128" fill="var(--vurgu)">ara söz</text></g><text x="280" y="168" font-size="15" text-anchor="middle" fill="currentColor">Ara söz, kendinden önce gelen ögeyi açıklar.</text></svg>`,
   secenekler: [
@@ -134,6 +133,7 @@ Adım 2: B → Yüklem 'izledi'. 'Kim izledi?' → 'herkes' (özne). Ara sözün
 Adım 3: C → 'Nereye girmiyor?' → 'atölyenin arka odasına'. Ara söz burada bir yer tamlayıcısını açıklar.
 Adım 4: D → 'Nasıl sürdürüyor?' → 'aynı sabırla'. Ara söz burada bir zarf tamlayıcısını açıklar.
 Sağlama: A'da 'Atölyenin en eski ustası' ile 'Rıfat Usta' sözlerinin ikisi de aynı kişiyi, yani işi yapanı gösterir. İkisi birlikte cümlenin öznesini kurar.
+Sık yapılan hata: Ara sözün kendinden sonra gelen ögeyi açıkladığını sanmak. Ara söz her zaman kendinden önceki ögeyi açıklar ve o ögeyle aynı eki alır.
 Cevap A.`
 },
 {
@@ -248,24 +248,29 @@ Cevap A.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe dersinde ögeler konusu işlendi. Bir öğrenci, robotik atölyesiyle ilgili aşağıdaki cümleyi bölümlere ayırmış ve her bölümün altına o bölümün hangi öge olduğunu yazmıştır.
-**Buna göre, öğrencinin ögesini yanlış yazdığı bölüm hangisidir?**`,
-  gorsel: `<svg viewBox="0 0 560 195" role="img" aria-label="Öğrencinin bölümlere ayırdığı cümle ve yazdığı ögeler: I. bölüm 'Robotik atölyesine yeni katılan öğrenciler' özne, II. bölüm 'tasarladıkları küçük aracı' nesne, III. bölüm 'okulun bahçesinde' yer tamlayıcısı, IV. bölüm 'önümüzdeki hafta' yer tamlayıcısı, V. bölüm 'deneyecek' yüklem."><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="10" y="12" width="322" height="36" rx="6"/><rect x="340" y="12" width="205" height="36" rx="6"/><rect x="20" y="102" width="150" height="36" rx="6"/><rect x="180" y="102" width="150" height="36" rx="6"/><rect x="340" y="102" width="120" height="36" rx="6"/></g><g font-size="15" text-anchor="middle" fill="currentColor"><text x="171" y="36">Robotik atölyesine yeni katılan öğrenciler,</text><text x="442" y="36">tasarladıkları küçük aracı</text><text x="95" y="126">okulun bahçesinde</text><text x="255" y="126">önümüzdeki hafta</text><text x="400" y="126">deneyecek.</text></g><g font-size="15" text-anchor="middle" font-weight="bold" fill="var(--vurgu)"><text x="171" y="70">I · özne</text><text x="442" y="70">II · nesne</text><text x="95" y="160">III · yer tamlayıcısı</text><text x="255" y="160">IV · yer tamlayıcısı</text><text x="400" y="160">V · yüklem</text></g></svg>`,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `Türkçe dersinde cümlenin ögeleri konusu işlendi. Öğretmen, okulun bahar şenliğiyle ilgili dört cümleyi tahtaya yazdı ve her cümlede bir söz öbeğini koyu renkle işaretledi. Sonra öğrencilerden bu öbeklerin cümlenin hangi ögesi olduğunu tek tek bulmalarını istedi.
+**Buna göre, aşağıdaki cümlelerin hangisinde koyu yazılmış söz, cümlenin bir ögesi __değildir__?**`,
+  gorsel: null,
+  secenekler: [
+    "Şenliğe yeni katılan öğrenciler, **koridordaki masaları** sabah erkenden taşıdı.",
+    "Kermesi düzenleyen veliler, **okulun spor salonunda** iki gün boyunca çalıştı.",
+    "Görevli, kapıda bekleyen konukları **büyük bir nezaketle** karşıladı.",
+    "Bütün mahalle, **bahçe kapısına** asılan afişi merakla okudu."
+  ],
   dogru: 3,
   hatalar: [
-    "I. bölümdeki 'Robotik atölyesine' sözünü ayrı bir yer tamlayıcısı sandın. Bu söz, 'öğrenciler'i niteleyen 'yeni katılan' sıfat-fiiline bağlıdır; bölümün tamamı 'Kim deneyecek?' sorusunun karşılığıdır, yani öznedir.",
-    "II. bölümdeki 'tasarladıkları küçük aracı' sözünü, içinde fiilimsi bulunduğu için özne sandın. Bu söz 'Neyi deneyecek?' sorusunun karşılığıdır; öğrencinin yazdığı gibi nesnedir.",
-    "III. bölümdeki 'okulun bahçesinde' sözünü zarf tamlayıcısı sandın. 'Nerede deneyecek?' sorusunun karşılığı olduğu için yer tamlayıcısıdır; öğrencinin yazdığı doğrudur.",
+    "A'da 'koridordaki masaları' öbeğini, içindeki '-daki' ekine bakıp bölünmüş saydın. '-daki' eki burada 'masalar'ı niteleyen bir sıfat yapmıştır; öbeğin tamamı 'Neyi taşıdı?' sorusunun karşılığıdır, yani cümlenin nesnesidir.",
+    "B'de 'okulun spor salonunda' sözünü, bir isim tamlaması olduğu için öznenin parçası sandın. Bu söz 'Nerede çalıştı?' sorusunun karşılığıdır; cümlenin yer tamlayıcısıdır.",
+    "C'de 'büyük bir nezaketle' sözünü, yanındaki 'bekleyen' fiilimsisine bağlı sandın. Bu söz öbeğin dışında kalır ve 'Nasıl karşıladı?' sorusuyla doğrudan yükleme bağlanır; cümlenin zarf tamlayıcısıdır.",
     null
   ],
-  aciklama: `Ögeyi belirlerken sözcüğün aldığı eke değil, yükleme sorduğun soruya bakarsın. '-de' ekli bir söz yer bildiriyorsa yer tamlayıcısı, zaman bildiriyorsa zarf tamlayıcısıdır.
-Adım 1: Yüklemi bul: 'deneyecek'.
-Adım 2: 'Kim deneyecek?' → 'Robotik atölyesine yeni katılan öğrenciler'. Bu bölümün tamamı öznedir. İçindeki 'Robotik atölyesine' sözü cümlenin değil, 'katılan' sıfat-fiilinin tamamlayıcısıdır; öznenin içinde kalır. I. bölüm doğru yazılmış.
-Adım 3: 'Neyi deneyecek?' → 'tasarladıkları küçük aracı'. Nesne. II. bölüm doğru.
-Adım 4: 'Nerede deneyecek?' → 'okulun bahçesinde'. Yer tamlayıcısı. III. bölüm doğru.
-Adım 5: IV. bölüme bak: 'önümüzdeki hafta'. Bu söze 'Nerede?' diye sorulmaz, 'Ne zaman deneyecek?' diye sorulur. Öyleyse yer tamlayıcısı değil, zarf tamlayıcısıdır. Öğrenci yalnızca burada yanılmıştır.
-Sağlama: Yer tamlayıcısı '-e, -de, -den' eklerinden birini almak zorundadır. 'önümüzdeki hafta' sözü bu eklerden hiçbirini almamıştır; zaten bu yüzden yer tamlayıcısı olamaz.
+  aciklama: `Bir sözün cümlenin ögesi sayılabilmesi için cümlenin yüklemine sorulan bir sorunun karşılığı olması gerekir. Bir söz yükleme değil de yanındaki fiilimsiye bağlanıyorsa ayrı bir öge olmaz; içinde bulunduğu söz öbeğinin parçası olarak kalır.
+Adım 1: A → Yüklem 'taşıdı'. 'Neyi taşıdı?' → 'koridordaki masaları'. Koyu söz cümlenin nesnesidir. (Bu cümlede öbek içinde kalan söz 'Şenliğe'dir; o, 'katılan' fiilimsisine bağlıdır.)
+Adım 2: B → Yüklem 'çalıştı'. 'Nerede çalıştı?' → 'okulun spor salonunda'. Koyu söz cümlenin yer tamlayıcısıdır.
+Adım 3: C → Yüklem 'karşıladı'. 'Nasıl karşıladı?' → 'büyük bir nezaketle'. Koyu söz cümlenin zarf tamlayıcısıdır. Burada öbek içinde kalan söz 'kapıda'dır; o, 'bekleyen' fiilimsisine bağlıdır.
+Adım 4: D → Yüklem 'okudu'. 'Neyi okudu?' → 'bahçe kapısına asılan afişi'. Koyu yazılan 'bahçe kapısına' sözü bu öbeğin içindedir: afiş bahçe kapısına asılmıştır. Yükleme 'Nereye okudu?' diye sorulamaz; öyleyse bu söz cümlenin ögesi değildir.
+En güçlü çeldirici C'dir: orada da koyu söz bir fiilimsi öbeğinin yanındadır, ama öbeğin dışında kalır ve doğrudan yükleme bağlanır.
+Sık yapılan hata: '-e, -de, -den' ekli her sözü yer tamlayıcısı saymak. Soruyu önce yükleme sor; soru yükleme sorulamıyorsa o söz bir öbeğin içinde kalmış demektir.
 Cevap D.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */

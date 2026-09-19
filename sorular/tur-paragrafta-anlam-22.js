@@ -144,7 +144,7 @@ En güçlü çeldirici D. Tohum satın almak son derece somut bir ayrıntı oldu
 Sık yapılan hata: Metinde geçen bir sözcüğü (kavun, tohum almak) başlıkta görünce doğru sanmak. Başlık sözcük değil, bütün arar. Cevap B.` },
 
 { id: "tur-pa-2189", kazanim: "T.8.3.21", kademe: 0, zorluk: 2,
-  soru: `Pazarda elma seçerken hepimiz aynı şeyi yaparız: en pürüzsüzünü, en düzgün yuvarlağını alırız. Tezgâhtaki satıcı bunu bildiği için çarpık, benekli ya da ikiz büyümüş olanları arkaya koyar; kimi zaman hiç getirmez. Oysa o elmaların tadı ötekilerden geri değildir; kusur denen şey kabuğun üstünde kalmıştır. Yine de çoğu alıcı bulamadığı için depoda bekler, bir bölümü de dalından hiç koparılmaz. Aslında tezgâhta eksik olan elma değil, bizim gözümüzün alışkanlığıdır.
+  soru: `Pazarda elma seçerken hepimiz aynı şeyi yaparız: en pürüzsüzünü, en düzgün yuvarlağını alırız. Tezgâhtaki satıcı bunu bildiği için çarpık, benekli ya da ikiz büyümüş olanları arkaya koyar; kimi zaman hiç getirmez. Oysa o elmaların tadı ötekilerden geri değildir; kusur denen şey kabuğun üstünde kalmıştır. Yine de çoğu, alıcı bulamadığı için depoda bekler; bir bölümü de dalından hiç koparılmaz. Aslında tezgâhta eksik olan elma değil, bizim gözümüzün alışkanlığıdır.
 
 **Bu parçada yazar, aşağıdakilerden hangisini anlatmak istemektedir?**`,
   gorsel: null,
@@ -202,18 +202,19 @@ Sık yapılan hata: Konuyla ilgili olan her cümleyi akışa uygun saymak. Ölç
 
 **Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Yüksek verimli çeşitler tarımda artık kullanılmamalıdır.", "Çeşit çeşitliliği, beklenmedik tehlikelere karşı bir güvencedir.", "Bitki hastalıkları bir bölgenin tamamını aynı anda etkiler.", "Yerel çeşitler yeni çeşitlerden daha yüksek verim vermektedir."],
+  secenekler: ["Erken çiçek açan çeşitler bahar donundan daha çok zarar görmektedir.", "Çeşitliliği korumak, beklenmedik tehlikelere karşı bir güvencedir.", "Farklı çeşitler ekmek, hastalığın tarladan tarlaya geçmesini engeller.", "Bir bölgede en yüksek verimi veren çeşidi ekmek uzun vadede kazandırır."],
   dogru: 1,
-  hatalar: ["aşırı genelleme: Metin yüksek verimli çeşitleri yasaklamıyor; yanlarında başka çeşitlerin de bulunmasını istiyor.", null, "aşırı genelleme: Bu, yalnızca herkesin aynı çeşidi ektiği durumda geçerli; parça zaten tersini, çeşitlilik varsa hastalığın bir tarlada kalacağını söylüyor.", "ters yön: Metin tam tersini söylüyor; eski çeşitlerin verimi düşük olabilir, üstünlükleri taşıdıkları dirençtir."],
-  aciklama: `Ana düşünce, parçanın bütün cümlelerinin desteklediği tek yargıdır.
+  hatalar: ["metinde var ama ilgisiz: Erken açan çeşidi vuran bahar donu metinde gerçekten geçiyor; ama bu, çeşitliliğin yararını göstermek için verilmiş tek bir örnektir.", null, "kısmen doğru: Hastalığın bir tarlayı vurup ötekini vuramaması metinde var; ancak parça yalnızca hastalığı değil, kuraklığı, geç donu ve ileride çıkacak tehlikeleri de kapsıyor.", "ters yön: Parça tam tersini söylüyor; herkesin tek bir verimli çeşide yönelmesi bütün tarlaları aynı zayıflıkta buluşturur."],
+  aciklama: `Ana düşünce, parçanın bütün cümlelerinin desteklediği tek yargıdır; bir ayrıntıyı değil, metnin tamamını karşılar.
 
 Adım 1: Parça bir riski anlatıyor: herkes aynı çeşidi ekerse bütün tarlalar aynı zayıflığı paylaşır.
-Adım 2: Karşıt durumu veriyor: farklı çeşitler varsa hastalık hepsini birden vuramaz.
-Adım 3: Yargıyı doğrudan söylüyor: “Çeşitliliği korumak… ileriye alınmış bir tedbirdir.” Son cümle de bunu geleceğe bağlıyor.
+Adım 2: Karşıt durumu veriyor: farklı çeşitler varsa hastalık hepsini birden vuramaz. Aynı şeyi kuraklık ve geç don için de yineliyor.
+Adım 3: Yargıyı doğrudan söylüyor: “Çeşitliliği korumak… ileriye alınmış bir tedbirdir.” Son cümle bunu geleceğe bağlıyor: bugün ekilmeyen bir çeşidin direnci yarın bir hastalığın çaresi olabilir.
+Adım 4: Demek ki çeşitlilik, adı bugünden bilinmeyen tehlikelere karşı alınmış bir güvencedir.
 
-En güçlü çeldirici C. Metinde “tarlaların tamamı aynı anda tehlikeye girer” cümlesi geçtiği için doğru görünür; ama o cümlenin başında bir koşul vardır: herkesin aynı çeşidi ekmiş olması. Koşulu düşürünce yargı aşırı genelleme olur.
+En güçlü çeldirici C. Hastalığın bir tarlada kalması parçada gerçekten yazıyor ve şık çeşitliliği savunuyor; ama o cümle, çeşitliliğin yararlarından yalnızca hastalıkla ilgili olanını verir. Metin onun yanına kuraklığı, geç donu ve ileride çıkacak bir hastalığı da ekler; ana düşünce bunların hepsini birden kapsamalıdır.
 
-Sık yapılan hata: Koşullu bir cümleyi koşulundan ayırıp genel bir kural gibi okumak. “Şu durumda şöyle olur” ile “her zaman şöyle olur” aynı şey değildir. Cevap B.` },
+Sık yapılan hata: Parçadaki bir örneği ana düşünce sanmak. Örnek tek bir tehlikeyi, ana düşünce bütün tehlikeleri anlatır. Cevap B.` },
 
 { id: "tur-pa-2193", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
   soru: `Evde atılan yiyeceklerin çoğu bozulduğu için atılmaz; bozulacağını düşündüğümüz için atılır. Dolabın arkasında unuttuğumuz yarım kavanoz, tarihine birkaç gün kala gözden çıkardığımız yoğurt, pişirdiğimizden fazla gelen pilav… Bunların hiçbiri çürümüş değildir. Üstelik iş yiyecekle de bitmez; onun için harcanan su, yakıt ve emek de birlikte çöpe gider. Nedenlere bakınca hep aynı birkaç alışkanlık çıkar karşımıza: liste yazmadan markete gitmek, indirimde diye üçlü paket almak, dolabı öndekini görmeden doldurmak, akşam ne pişireceğine mutfakta karar vermek. Bunların hepsi satın alınanla tüketilen arasındaki açığı büyütür; açık büyüdükçe de dolapta unutulacak yiyecek çoğalır. Bu yüzden mutfakta israfı azaltmanın yolu, dolabı daha sık boşaltmaktan değil, - - - - geçer.
@@ -307,7 +308,7 @@ En güçlü çeldirici A. Liste gerçekten miktarla ilgilidir; ama metne göre v
 Sık yapılan hata: Doğru düşünceyi, metinden daha kesin bir biçimde söyleyen şıkkı seçmek. Boşluk, metnin söylediği kadarını isteyen şıkla doldurulur. Cevap B.` },
 
 { id: "tur-pa-2198", kazanim: "T.8.3.21", kademe: 0, zorluk: 4,
-  soru: `Dedemin ayaklı bir defteri vardı; her yıl aynı sayfalara aynı başlıkları yazardı: ilk yağmurun günü, ilk çiçeğin günü, hasadın başladığı hafta, kaldırılan çuval sayısı. Çocukken bunu bir biriktirme merakı sanırdım. Yıllar sonra anladım ki o defter, tarlanın hafızasıydı. Bir çiftçinin belleği tek bir yılı iyi hatırlar; hangi yıl dolu düştüğünü, hangi yıl kuraklık olduğunu karıştırmaz. Ama belleğin yapamadığı bir şey vardır: on beş yılı yan yana koymak. Defter bunu yapıyordu. Aynı tarlada ekim bir hafta geciktiğinde çuval sayısının nasıl değiştiğini, kuzey sırtın güneyden kaç gün sonra çiçek açtığını yalnızca o sayfalar söyleyebilirdi. Dedem bir çeşidi beğenmediğinde “bu olmadı” deyip geçmez, defteri açar, üç yılın satırlarını yan yana gösterirdi. Yanlış anlaşılmasın: tarlayı defter sürmüyordu, yine dedem sürüyordu; hava da fiyat da onu sık sık şaşırtıyordu. Ama şaşırdığında nereye bakacağını biliyordu. Bugün aynı kayıtlar deftere değil telefonlara giriliyor; biçimi değişti, işi aynı kaldı. Bir tarlayı iyi tanımak, onu her yıl yeniden keşfetmek değil, geçen yılların üstüne yazmaktır.
+  soru: `Dedemin kalın, bez ciltli bir defteri vardı; her yıl aynı sayfalara aynı başlıkları yazardı: ilk yağmurun günü, ilk çiçeğin günü, hasadın başladığı hafta, kaldırılan çuval sayısı. Çocukken bunu bir biriktirme merakı sanırdım. Yıllar sonra anladım ki o defter, tarlanın hafızasıydı. Bir çiftçinin belleği tek bir yılı iyi hatırlar; hangi yıl dolu düştüğünü, hangi yıl kuraklık olduğunu karıştırmaz. Ama belleğin yapamadığı bir şey vardır: on beş yılı yan yana koymak. Defter bunu yapıyordu. Aynı tarlada ekim bir hafta geciktiğinde çuval sayısının nasıl değiştiğini, kuzey sırtın güneyden kaç gün sonra çiçek açtığını yalnızca o sayfalar söyleyebilirdi. Dedem bir çeşidi beğenmediğinde “bu olmadı” deyip geçmez, defteri açar, üç yılın satırlarını yan yana gösterirdi. Yanlış anlaşılmasın: tarlayı defter sürmüyordu, yine dedem sürüyordu; hava da fiyat da onu sık sık şaşırtıyordu. Ama şaşırdığında nereye bakacağını biliyordu. Bugün aynı kayıtlar deftere değil telefonlara giriliyor; biçimi değişti, işi aynı kaldı. Bir tarlayı iyi tanımak, onu her yıl yeniden keşfetmek değil, geçen yılların üstüne yazmaktır.
 
 **Bu parçada yazar, aşağıdakilerden hangisini anlatmak istemektedir?**`,
   gorsel: null,
@@ -348,16 +349,16 @@ Sık yapılan hata: Bir tablodaki değerleri bütün örneklerin ortalaması gib
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Buğdayın Ülkemizdeki Ekim Alanları", "Hastalığa Dayanıklı Bitkilerin Özellikleri", "Deneme Tarlalarında Kullanılan Yöntemler", "Yıllara Yayılan Bir Çeşit Arayışı"],
+  secenekler: ["Melezlemenin İlk Kuşağındaki Karmaşa", "Islahçının Aradığı Bitki Özellikleri", "Deneme Tarlalarında Geçen Yıllar", "Yıllara Yayılan Bir Çeşit Arayışı"],
   dogru: 3,
-  hatalar: ["metinde var ama ilgisiz: Buğday yalnızca örnek olarak anılıyor; parça buğdayın nerede ekildiğini değil, bir çeşidin nasıl geliştirildiğini anlatıyor.", "kısmen doğru: Hastalığa dayanıklılık ıslahçının aradığı özelliklerden biri olarak geçiyor; ancak parça o özelliği değil, arama sürecini konu ediyor.", "kısmen doğru: Deneme tarlaları son aşamalardan biridir; melezleme ve yıllar süren ayıklama bu başlığın dışında kalır.", null],
-  aciklama: `Başlık, parçanın bütününü kapsamalı ve ana düşünceyi yansıtmalıdır. Uzun parçalarda başlığı seçmeden önce metni bölümlere ayırmak işi kolaylaştırır.
+  hatalar: ["kısmen doğru: İlk kuşaktaki karmaşa parçada anlatılıyor; ama bu, sürecin tek bir adımıdır ve başlık ondan sonra gelen yılları dışarıda bırakır.", "metinde var ama ilgisiz: Aranan özellikler ilk aşamada sayılıyor; ancak parça o özellikleri tanıtmıyor, onları bir arada taşıyan çeşidin nasıl bulunduğunu anlatıyor.", "kısmen doğru: Deneme tarlaları son aşamalardan biridir; melezleme ve kuşak kuşak süren ayıklama bu başlığın dışında kalır.", null],
+  aciklama: `Başlık, parçanın bütününü kapsamalı ve ana düşünceyi yansıtmalıdır. Kapsamı dar bir başlık, doğru bir bilgi verse bile yanlıştır.
 
-Adım 1: Bölümleri çıkar. Birinci bölüm: ıslahçının ne aradığını belirlemesi ve melezleme. İkinci bölüm: yıllar süren seçme ve ayıklama. Üçüncü bölüm: farklı iklim ve topraklardaki deneme tarlaları. Dördüncü bölüm: bütün bunların on yıla yakın sürmesi.
-Adım 2: Dört bölümün ortak paydasını bul: aranan özellikleri taşıyan bir çeşidi bulmak yıllar alır.
-Adım 3: Bu ortak paydayı karşılayan tek başlık D’dir; hem “arayış” hem “yıllara yayılan” bölümünü birlikte taşır.
+Adım 1: Bölümleri çıkar. Birinci bölüm: ıslahçının ne aradığını belirlemesi ve melezleme. İkinci bölüm: ilk kuşaktaki karmaşa ve kuşak kuşak süren ayıklama. Üçüncü bölüm: farklı iklim ve topraklardaki deneme tarlaları. Dördüncü bölüm: bütün bunların on yıla yakın sürmesi.
+Adım 2: Şıkları bu dört bölümle karşılaştır. A yalnızca ikinci bölümün başını, B yalnızca birinci bölümün bir cümlesini, C yalnızca üçüncü bölümü karşılıyor. Üçü de parçada yazılıdır, üçü de tek bir bölümde kalır.
+Adım 3: Dört bölümün ortak paydasını bul: aranan özellikleri taşıyan bir çeşidi bulmak yıllar alır. Bunu karşılayan tek başlık D’dir; hem “arayış” hem “yıllara yayılan” bölümünü birlikte taşır.
 
-En güçlü çeldirici C. Deneme tarlaları parçanın en somut, en akılda kalan aşamasıdır; ama başlık olursa ilk yılların melezleme ve ayıklama çalışması dışarıda kalır.
+En güçlü çeldirici C. Deneme tarlaları parçanın en somut aşamasıdır ve “yıllarca denenir” sözü yüzünden bu başlıktaki “yıllar” sözcüğü tanıdık gelir; ama başlık deneme tarlalarına bağlanırsa melezleme ve ondan sonraki ayıklama yılları dışarıda kalır.
 
-Sık yapılan hata: Parçanın en canlı anlatılan bölümünü başlık sanmak. Başlık bir bölümü değil, bütünü karşılamalıdır. Cevap D.` }
+Sık yapılan hata: Parçanın bir bölümünü doğru anlatan başlığı seçmek. Başlık bir bölümü değil, bütünü karşılamalıdır. Cevap D.` }
 );
