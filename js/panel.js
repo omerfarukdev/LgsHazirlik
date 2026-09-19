@@ -254,7 +254,8 @@ var Panel = (function () {
         '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + ' <span class="soluk">· ' + (KADEME_AD[t.kademe] || "karışık sorular") + '</span></span>' +
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +
-        (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) + (t.sureDoldu ? " · süre doldu" : "") + '</p>';
+        (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) +
+        (t.asim ? ' · <span class="kotu">' + dk(t.asim) + ' süre aşımı</span>' : t.sureDoldu ? " · süre doldu" : "") + '</p>';
       t.sorular.forEach(function (id, i) {
         var q = soruBul(id), c = t.cevap[id];
         if (!q || c === q.dogru) return;

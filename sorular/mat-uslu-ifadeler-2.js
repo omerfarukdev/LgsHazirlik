@@ -129,7 +129,7 @@ Cevap D.`
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir spor bilimi laboratuvarında sporculara koşu bandı testi uygulanmaktadır. Test boyunca sporcuya bağlanan ölçüm cihazı, kalp atışını eşit aralıklarla ölçmekte ve her ölçümü ayrı bir kayıt olarak belleğine yazmaktadır. Bir testin bütün kayıtları, test biter bitmez tek bir dosya hâlinde bilgisayara aktarılmaktadır. Cihazın özellikleri ile testin süresi tabloda verilmiştir.\n**Buna göre bir testin verileri bellekte toplam kaç bayt yer kaplar?**",
+  soru: "Bir spor bilimi laboratuvarında sporculara koşu bandı testi uygulanmaktadır. Test boyunca sporcuya bağlanan ölçüm cihazı, sporcunun tükettiği oksijen miktarını eşit aralıklarla ölçmekte ve her ölçümü ayrı bir kayıt olarak belleğine yazmaktadır. Bir testin bütün kayıtları, test biter bitmez tek bir dosya hâlinde bilgisayara aktarılmaktadır. Cihazın özellikleri ile testin süresi tabloda verilmiştir.\n**Buna göre bir testin verileri bellekte toplam kaç bayt yer kaplar?**",
   gorsel: `<table class="tablo"><tr><th>Özellik</th><th>Değer</th></tr><tr><td>Bir kaydın büyüklüğü</td><td>2<sup>4</sup> bayt</td></tr><tr><td>Saniyedeki ölçüm sayısı</td><td>2<sup>3</sup> ölçüm</td></tr><tr><td>Test süresi</td><td>2<sup>6</sup> saniye</td></tr></table>`,
   secenekler: ["2^{72}", "2^{13}", "2^{10}", "2^{7}"],
   dogru: 1,
@@ -416,22 +416,23 @@ Cevap A.`
   kazanim: "M.8.1.2.4",
   kademe: 0,
   zorluk: 2,
-  soru: "Bir vida fabrikasının bir haftalık üretimi 3,6 · 10^{5} adettir. Fabrikanın üretim raporunda bütün sayılar 10^{3} adet, yani \"bin adet\" birimiyle yazılmaktadır.\n**Buna göre bu haftanın üretimi rapora hangi sayı ile yazılır?**",
+  soru: "Bir vida fabrikası her gün 8 · 10^{4} vida üretmektedir ve haftada 6 gün çalışmaktadır. Fabrikanın üretim raporunda bütün sayılar 10^{3} adet, yani \"bin adet\" birimiyle yazılmaktadır.\n**Buna göre bir haftalık üretim rapora hangi sayı ile yazılır?**",
   gorsel: null,
-  secenekler: ["360", "3600", "36 000", "360 000"],
+  secenekler: ["480", "4800", "48 000", "480 000"],
   dogru: 0,
   hatalar: [
     null,
-    "Baştaki sayıyı 10 kat fazla büyütme: 3600 · 10^{3} = 3 600 000 eder.",
-    "Baştaki sayıyı 100 kat fazla büyütme: 36 000 · 10^{3} = 36 000 000 eder.",
-    "Rapor birimini gözden kaçırıp sayının tamamını yazma: 360 000 sayısı 10^{3} biriminde değil, doğrudan adet olarak yazılmıştır."
+    "Baştaki sayıyı 10 kat fazla büyütme: 4800 · 10^{3} = 4 800 000 eder.",
+    "Baştaki sayıyı 100 kat fazla büyütme: 48 000 · 10^{3} = 48 000 000 eder.",
+    "Rapor birimini gözden kaçırıp üretimin tamamını yazma: 480 000 sayısı 10^{3} biriminde değil, doğrudan adet olarak yazılmıştır."
   ],
   aciklama: `Bir sayı, 10'un farklı tam sayı kuvvetleri kullanılarak birçok biçimde yazılabilir. Baştaki sayı 10 kat büyütülürse 10'un üssü 1 azalmalıdır; böylece sayının değeri korunur.
-Adım 1: Üretimi açık yaz: 3,6 · 10^{5} = 360 000 adet.
-Adım 2: Rapor birimini uygula. Sayı 10^{3} ile çarpılmış biçimde yazılacaktır: 360 000 = 360 · 1000 = 360 · 10^{3}.
-Adım 3: Rapora baştaki sayı yazılır: 360.
-Sağlama: 360 · 10^{3} = 360 000 = 3,6 · 10^{5}. Üç gösterim de aynı sayıdır.
-Sık yapılan hata: Baştaki sayıyı büyütürken üssü de aynı oranda azaltmamak. 3,6 sayısı 100 kat büyüyüp 360 olduysa üs 2 azalıp 10^{3} olmalıdır.
+Adım 1: Haftalık üretimi bul: (8 · 10^{4}) · 6 = 48 · 10^{4} adet.
+Adım 2: Sayıyı açık yaz: 48 · 10^{4} = 48 · 10 000 = 480 000 adet.
+Adım 3: Rapor birimini uygula. Sayı 10^{3} ile çarpılmış biçimde yazılacaktır: 480 000 = 480 · 1000 = 480 · 10^{3}.
+Adım 4: Rapora baştaki sayı yazılır: 480.
+Sağlama: 480 · 10^{3} = 480 000 = 4,8 · 10^{5}. Üç gösterim de aynı sayıdır.
+Sık yapılan hata: Baştaki sayıyı büyütürken üssü de aynı oranda azaltmamak. 48 sayısı 10 kat büyüyüp 480 olduysa üs 1 azalıp 10^{3} olmalıdır.
 Cevap A.`
 },
 {
@@ -556,8 +557,8 @@ Cevap D.`
   kazanim: "M.8.1.2.5",
   kademe: 0,
   zorluk: 4,
-  soru: "Bir tarım araştırma merkezinde, tek bir tohumu tartmak çok zor olduğundan tohum kütleleri paketler üzerinden hesaplanmaktadır. İncelenen türün bütün tohumları eşit kütlededir ve paketlerin ambalaj kütlesi göz ardı edilmektedir. Merkezdeki A paketinin içindeki tohumlar tek tek sayılmış, paketin toplam kütlesi de hassas terazide ölçülmüştür. B paketi ise yalnızca tartılmış, içindeki tohumlar sayılmamıştır. İki paketle ilgili bilgiler tabloda verilmiştir.\n**Buna göre B paketinde en fazla kaç tohum bulunabilir?**",
-  gorsel: `<table class="tablo"><tr><th>Paket</th><th>Tohum sayısı</th><th>Toplam kütle</th></tr><tr><td>A</td><td>2 · 10<sup>3</sup></td><td>6 · 10<sup>−1</sup> gram</td></tr><tr><td>B</td><td>?</td><td>1,5 gram</td></tr></table>`,
+  soru: "Bir tarım araştırma merkezinde, tek bir gübre granülünü tartmak çok zor olduğundan granül kütleleri paketler üzerinden hesaplanmaktadır. İncelenen gübrenin bütün granülleri eşit kütlededir ve paketlerin ambalaj kütlesi göz ardı edilmektedir. Merkezdeki A paketinin içindeki granüller tek tek sayılmış, paketin toplam kütlesi de hassas terazide ölçülmüştür. B paketi ise yalnızca tartılmış, içindeki granüller sayılmamıştır. İki paketle ilgili bilgiler tabloda verilmiştir.\n**Buna göre B paketinde en fazla kaç granül bulunabilir?**",
+  gorsel: `<table class="tablo"><tr><th>Paket</th><th>Granül sayısı</th><th>Toplam kütle</th></tr><tr><td>A</td><td>2 · 10<sup>3</sup></td><td>6 · 10<sup>−1</sup> gram</td></tr><tr><td>B</td><td>?</td><td>1,5 gram</td></tr></table>`,
   secenekler: ["5 · 10^{2}", "5 · 10^{3}", "2 · 10^{4}", "5 · 10^{4}"],
   dogru: 1,
   hatalar: [
@@ -567,11 +568,11 @@ Cevap D.`
     "Baştaki sayıyı 0,5'ten 5'e büyütürken 10'un üssünü 1 azaltmayı unutma: 0,5 · 10^{4} yerine 5 · 10^{4} yazılmış."
   ],
   aciklama: `Bilimsel gösterimdeki sayılar bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde üsler çıkarılır: (a · 10^{n}) ÷ (b · 10^{m}) = (a ÷ b) · 10^{n−m}.
-Adım 1: Bir tohumun kütlesini A paketinden bul: (6 · 10^{−1}) ÷ (2 · 10^{3}) işleminde 6 ÷ 2 = 3 ve (−1) − 3 = −4'tür. Bir tohum 3 · 10^{−4} gramdır.
+Adım 1: Bir granülün kütlesini A paketinden bul: (6 · 10^{−1}) ÷ (2 · 10^{3}) işleminde 6 ÷ 2 = 3 ve (−1) − 3 = −4'tür. Bir granül 3 · 10^{−4} gramdır.
 Adım 2: B paketinin kütlesini bilimsel gösterime hazırla: 1,5 gram = 1,5 · 10^{0} gram.
-Adım 3: Tohum sayısını bul: (1,5 · 10^{0}) ÷ (3 · 10^{−4}) işleminde 1,5 ÷ 3 = 0,5 ve 0 − (−4) = 4'tür. Sonuç 0,5 · 10^{4}'tür.
-Adım 4: Bilimsel gösterime çevir: baştaki sayı 10 kat büyütülüp 5 yapılırsa üs 1 azalır: 0,5 · 10^{4} = 5 · 10^{3} = 5000 tohum.
-Sağlama: 5000 tohum · 0,0003 gram = 1,5 gram. A paketi için de kontrol et: 2000 · 0,0003 = 0,6 gram = 6 · 10^{−1} gram.
+Adım 3: Granül sayısını bul: (1,5 · 10^{0}) ÷ (3 · 10^{−4}) işleminde 1,5 ÷ 3 = 0,5 ve 0 − (−4) = 4'tür. Sonuç 0,5 · 10^{4}'tür.
+Adım 4: Bilimsel gösterime çevir: baştaki sayı 10 kat büyütülüp 5 yapılırsa üs 1 azalır: 0,5 · 10^{4} = 5 · 10^{3} = 5000 granül.
+Sağlama: 5000 granül · 0,0003 gram = 1,5 gram. A paketi için de kontrol et: 2000 · 0,0003 = 0,6 gram = 6 · 10^{−1} gram.
 Sık yapılan hata: Sonucu bilimsel gösterime çevirirken baştaki sayıyı büyütüp üssü olduğu gibi bırakmak. 0,5 sayısı 10 kat büyütülüp 5 yapıldıysa üs 1 azalmalı ve 10^{3} olmalıdır.
 Cevap B.`
 }

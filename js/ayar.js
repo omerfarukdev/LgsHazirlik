@@ -19,15 +19,19 @@ window.LGS_AYAR = {
 
   // Günlük paragraf rutini. Paragraf, LGS'nin en yüksek getirili konusu ve bütün
   // derslerin okuma hızını belirleyen beceri; bu yüzden ayrı bir günlük hedefi var.
-  paragrafHedefi: 50,     // günde çözülmesi hedeflenen paragraf sorusu (ekran + kâğıt toplamı)
-  paragrafSetBoyutu: 10,  // bir turda kaç soru sorulur
+  paragrafHedefi: 50,     // günde çözülmesi hedeflenen paragraf sorusu
+  paragrafSetBoyutu: 50,  // bir turda kaç soru sorulur (gerçek LGS sözel oturumu da 50 soru / 75 dk)
 
   // Test süresi: her sorunun zorluk düzeyine göre verilen saniyelerin toplamı.
-  // (Gerçek LGS'de sayısal bölümde soru başına ortalama 120 sn düşer; sınav yaklaştıkça bu değerler kısılabilir.)
-  sureSoruBasi: { 1: 60, 2: 100, 3: 150, 4: 210 },
-  // true: süre geri sayar, dolunca test kendiliğinden biter (gerçek sınav gibi).
-  // false: süre yalnızca ileri sayar, sınır yoktur.
+  // Gerçek LGS temposu: sözel 50 soru / 75 dk = 90 sn, sayısal 40 soru / 80 dk = 120 sn.
+  // Aşağıdaki değerler bu tempoyu tutturur; sınav yaklaştıkça kısılabilir.
+  sureSoruBasi: { 1: 45, 2: 75, 3: 110, 4: 150 },
+  // true: süre geri sayar. false: yalnızca ileri sayar, hedef süre gösterilmez.
   sureSiniri: true,
+  // true: süre dolunca test KENDİLİĞİNDEN BİTER (gerçek sınav gibi).
+  // false: süre dolunca test sürer, sayaç aşıma geçer ve fazladan harcanan süre kaydedilir.
+  //   Yıl başında öğrenciyi kesmemek için false; sınav yaklaşınca true yapılır.
+  sureBitinceKes: false,
   // Süre bitimine bu kadar saniye kala sayaç kırmızıya döner.
   sureUyari: 120,
 

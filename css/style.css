@@ -334,6 +334,11 @@ button.liste-satir:hover { border-color: var(--vurgu); }
 .sure { font-family: var(--baslik); font-variant-numeric: tabular-nums; font-weight: 700; font-size: 1.15rem; }
 .sure.asildi { color: var(--orta); }
 .sure.az { color: var(--zayif); animation: nabiz 1s ease-in-out infinite; }
+/* Hedef süre aşıldı: test kesilmez, sayaç ileri sayar. Uyarı rengi ama nabız yok —
+   amaç baskı kurmak değil, tempoyu görünür kılmak. */
+.sure.asim { color: var(--orta); }
+.ozet-kutu.asim-kutu { border-color: var(--orta); background: var(--orta-acik); }
+.ozet-kutu.asim-kutu .ok-deger { color: var(--orta); }
 @keyframes nabiz { 50% { opacity: .55; } }
 .palet { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
 .p {

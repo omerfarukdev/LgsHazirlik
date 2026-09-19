@@ -683,21 +683,35 @@ var App = (function () {
       if (el) {
         el.textContent = sureYazi();
         el.className = sureSinif();
+        var et = $("#sure-etiket");
+        if (et) et.textContent = sureEtiketi();
       }
       if (S.gecen % 5 === 0) Store.set("aktif", S);
-      if (AYAR.sureSiniri && S.gecen >= S.oneri) {
+      if (AYAR.sureSiniri && S.gecen >= S.oneri && !S.sureDoldu) {
         S.sureDoldu = true;
-        bitirOnay();
+        // Süre bitti: ya testi kes (gerçek sınav gibi) ya da aşıma geçip devam et.
+        // Aşım süresi kaydedilir ve sonuçta gösterilir; amaç öğrenciyi kesmeden
+        // tempoyu görünür kılmak.
+        if (AYAR.sureBitinceKes) return bitirOnay();
+        testCiz(); // başlık "Aşım" moduna geçsin
       }
     }, 1000);
   }
+  function sureAsim() { return Math.max(0, S.gecen - S.oneri); }
   function sureYazi() {
-    return fmtSure(AYAR.sureSiniri ? S.oneri - S.gecen : S.gecen);
+    if (!AYAR.sureSiniri) return fmtSure(S.gecen);
+    var kalan = S.oneri - S.gecen;
+    return kalan >= 0 ? fmtSure(kalan) : "+" + fmtSure(-kalan);
   }
   function sureSinif() {
     var kalan = S.oneri - S.gecen;
-    if (!AYAR.sureSiniri) return "sure" + (kalan < 0 ? " asildi" : "");
+    if (!AYAR.sureSiniri) return "sure";
+    if (kalan < 0) return "sure asim";
     return "sure" + (kalan <= (AYAR.sureUyari || 120) ? " az" : "");
+  }
+  function sureEtiketi() {
+    if (!AYAR.sureSiniri) return "Süre";
+    return S.gecen >= S.oneri ? "Süreyi aştın" : "Kalan süre";
   }
   function zamanlayiciDurdur() {
     if (sayac) { clearInterval(sayac); sayac = null; }
@@ -722,7 +736,7 @@ var App = (function () {
       '<div class="tu-sol"><strong>' + (kb ? esc(kb.konu.ad) : (S.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi")) + '</strong>' +
       (kb ? '<span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span>'
           : '<span class="soluk"> · ' + (S.tur === "paragraf" ? "günlük rutin" : "karışık sorular") + '</span>') + '</div>' +
-      '<div class="tu-sag"><span class="soluk kucuk">' + (AYAR.sureSiniri ? "Kalan süre" : "Süre") + '</span>' +
+      '<div class="tu-sag"><span id="sure-etiket" class="soluk kucuk">' + sureEtiketi() + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
       '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
       '<button class="btn" onclick="App.bitir()">Testi bitir</button></div></header>';
@@ -812,7 +826,7 @@ var App = (function () {
     var n = S.sorular.length;
     var kayit = {
       ts: Date.now(), tur: S.tur, ders: S.ders, konu: S.konu, kademe: S.kademe,
-      d: d, y: y, b: b, net: d - y / 3, oran: d / n, sure: S.gecen, sureDoldu: !!S.sureDoldu,
+      d: d, y: y, b: b, net: d - y / 3, oran: d / n, sure: S.gecen, sureDoldu: !!S.sureDoldu, asim: Math.max(0, S.gecen - S.oneri), hedefSure: S.oneri,
       sorular: S.sorular, cevap: S.cevap, sureSoru: S.sureSoru, neden: {}
     };
     var gecmis = Store.get("gecmis", []);
@@ -856,7 +870,7 @@ var App = (function () {
       dersAd: kb ? kb.ders.ad : (kayit.tur === "paragraf" ? "Türkçe" : "Karışık"),
       konuAd: kb ? kb.konu.ad : (kayit.tur === "paragraf" ? "Günün paragrafı" : "Yanlışlarını tekrar"),
       kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : (kayit.tur === "paragraf" ? "Günlük rutin" : "Tekrar"),
-      d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu,
+      d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu, asim: kayit.asim, hedefSure: kayit.hedefSure,
       sureSoru: kayit.sureSoru, yanlislar: yanlislar
     }, "test-" + kayit.ts);
     incFiltre = "hepsi";
@@ -878,13 +892,17 @@ var App = (function () {
     var mesaj = sinif === "iyi" ? "Harika! Bu kademe sağlam."
       : gecti ? "Geçtin. Yanlışlarının çözümünü inceledikten sonra devam et."
       : "Bu kademeyi tekrar çözmelisin. Önce aşağıdaki çözümleri dikkatle incele.";
-    if (kayit.sureDoldu) mesaj = "Süre doldu, test kendiliğinden bitti. " + mesaj;
+    if (kayit.sureDoldu) {
+      mesaj = (kayit.asim
+        ? "Hedef süreyi " + fmtSureYazi(kayit.asim) + " aştın. Sorun değil, tempo zamanla oturur. "
+        : "Süre doldu, test kendiliğinden bitti. ") + mesaj;
+    }
 
     var html = ustCubuk(esc(kb.konu.ad) + ' <span class="soluk">· ' + KADEMELER[kayit.kademe].ad + '</span>', "#/ders/" + kb.ders.id);
     html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
       '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
       ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
-      ozetKutu(fmtNet(kayit.net), "net") + ozetKutu(fmtSureYazi(kayit.sure), "süre") + '</div>' +
+      ozetKutu(fmtNet(kayit.net), "net") + ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
       '<div class="sonuc-btn">' +
       (gecti && sonrakiVar ? '<button class="btn birincil" onclick="App.git(\'#/hazir/' + kayit.konu + "/" + (kayit.kademe + 1) + '\')">Sonraki kademe →</button>' : "") +
       '<button class="btn' + (gecti ? "" : " birincil") + '" onclick="App.git(\'#/hazir/' + kayit.konu + "/" + kayit.kademe + '\')">Tekrar çöz</button>' +
@@ -909,13 +927,17 @@ var App = (function () {
       : (sinif === "iyi" ? "Eski konular akılda kalmış. Böyle devam."
         : sinif === "orta" ? "Fena değil. Yanlışlarının çözümünü incele, bunlar birkaç gün sonra yine karşına çıkacak."
         : "Unutmaya başladığın konular var. Aşağıdaki çözümleri dikkatle oku; bu sorular yeniden gelecek.");
-    if (kayit.sureDoldu) mesaj = "Süre doldu, test kendiliğinden bitti. " + mesaj;
+    if (kayit.sureDoldu) {
+      mesaj = (kayit.asim
+        ? "Hedef süreyi " + fmtSureYazi(kayit.asim) + " aştın. Sorun değil, tempo zamanla oturur. "
+        : "Süre doldu, test kendiliğinden bitti. ") + mesaj;
+    }
 
     var html = ustCubuk(pg ? "Günün paragrafı" : "Tekrar testi", "#/");
     html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
       '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
       ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
-      ozetKutu(fmtSureYazi(kayit.sure), "süre") + '</div>' +
+      ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
       '<div class="sonuc-btn">' + (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
       '<button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
 
@@ -924,6 +946,12 @@ var App = (function () {
       filtreBtn("bos", "Boşlar (" + kayit.b + ")", kayit.ts) + '</div>';
     html += '<div id="inceleme">' + incelemeHTML(kayit) + '</div>';
     render(html);
+  }
+  // Hedef süre aşıldıysa ne kadar aşıldığını gösterir; aşım yoksa hiç görünmez.
+  function asimKutusu(kayit) {
+    if (!kayit.asim) return "";
+    return '<div class="ozet-kutu asim-kutu"><span class="ok-deger">+' + fmtSureYazi(kayit.asim) +
+      '</span><span class="ok-etiket">süre aşımı</span></div>';
   }
   function halka(oran, sinif) {
     var r = 52, c = 2 * Math.PI * r;
