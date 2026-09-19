@@ -103,6 +103,19 @@ Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de meti
 - Metinler **tamamen özgün** yazılır. Alıntı, ders kitabı metni, tanınmış bir eserin yeniden yazımı kabul edilmez. Gerçek bir kişi metnin öznesi yapılmaz. Metindeki her olgusal bilgi doğru olmalıdır.
 - Metin uzunluğu zorluğa bağlıdır: düzey 1 → 40-60 sözcük, 2 → 60-100, 3 → 100-160, 4 → 150-200 (ya da iki metin/metin+tablo).
 - Çeldiriciler dört tipten gelir ve `hatalar` içinde adlandırılır: *metinde var ama ilgisiz*, *aşırı genelleme*, *kısmen doğru*, *ters yön*. Dört şık aynı uzunluk ve biçimde olur.
+
+**Retorik çeşitlilik (doğrulamanın yakaladığı sistematik kusur).** Bir partideki metinler aynı kalıpta yazılırsa öğrenci metni okumadan doğruyu bulmaya başlar. Örneğin bir partide 20 metnin neredeyse hepsi "görünen kısım asıl iş değildir, asıl iş görünmeyen hazırlıktır" tezini işlemişti; bu durumda "gizli emek" diyen şık her seferinde doğru çıkıyordu. Bir partide şunları karıştır:
+
+| Değişken | Seçenekler |
+|---|---|
+| Anlatıcı | birinci tekil · üçüncü tekil · anlatıcısız bilgilendirici |
+| Yapı | tez-örnek · sorun-çözüm · tek olaya dayalı anlatı · karşılaştırma · süreç anlatımı |
+| Tez yönü | "görünen kısım aldatıcıdır" kadar "görünen kısım gerçekten asıl kısımdır" da olsun |
+| Kapanış | özdeyiş benzeri cümle her metinde olmasın |
+
+Aynı soru tipi (örneğin "akışı bozan cümle") bir partide 3'ten fazla kullanılacaksa, bozucu cümlenin türü de değişsin: bazen konu dışı bilgi, bazen konuya yakın ama mantık zincirinin dışında, bazen doğru bir genellemenin yanlış yere konmuş hâli.
+
+**Kazanım etiketi doğru olsun.** `T.8.3.19` başlık belirleme kazanımıdır; paragraf tamamlama ve akışı bozan cümle soruları için kullanılmaz. Tablo/grafik yorumlama soruları `T.8.3.32` alır. Yanlış etiket, kazanım bazlı raporlamayı ve ajanın "zayıf kazanım" tespitini bozar.
 - **İnkılap, Din:** kısa kaynak metin + çıkarım; ezber tarih sorusu nadir.
 
 ## Kalite standartları
