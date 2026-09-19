@@ -324,19 +324,24 @@ var App = (function () {
     }
     html += '</div></section>';
 
-    // Günlük paragraf rutini: her gün açık, konu testlerinden bağımsız
-    var pIds = aktif ? [] : paragrafSorulari(PARAGRAF_ADET);
+    // Günlük paragraf rutini: her gün açık, konu testlerinden bağımsız, hedefe kadar tur tur
+    var pIds = aktif ? [] : paragrafSorulari(paragrafSet());
     if (pIds.length) {
-      var pBugun = paragrafBugun(), pSeri = paragrafSeri();
+      var pBugun = paragrafBugun(), pHedef = paragrafHedef(), pSeri = paragrafSeri(), pTaze = paragrafTaze();
+      var bitti = pBugun >= pHedef;
+      var pct = Math.min(100, Math.round(pBugun / pHedef * 100));
       html += '<section class="kart paragraf-kart"><div class="tk-ic">' +
         '<div class="tk-yazi"><span class="tk-ust">Günün paragrafı' +
         (pSeri > 1 ? ' · ' + pSeri + ' gündür aralıksız' : "") + '</span>' +
-        '<h2>' + (pBugun ? "Bugün " + pBugun + " tur bitti, devam?" : "Her gün 5 paragraf") + '</h2>' +
-        '<p class="soluk">' + (pBugun
-          ? "Bugünkü turunu yaptın. İstersen bir tur daha çözebilirsin; paragrafta fazlası hep iyidir."
-          : "Yaklaşık 10 dakika. Türkçe'nin en çok soru gelen kısmı burası, üstelik Fen ve Matematiğin uzun sorularını da hızlandırır.") +
-        '</p></div><button class="btn ' + (pBugun ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
-        (pBugun ? "Bir tur daha" : "Başla →") + '</button></div></section>';
+        '<h2>' + (bitti ? "Bugünün hedefi tamam ✓" : "Bugün " + pBugun + " / " + pHedef + " paragraf") + '</h2>' +
+        '<div class="p-cubuk"><span style="width:' + pct + '%"></span></div>' +
+        '<p class="soluk">' + (bitti
+          ? "Hedefi tutturdun. İstersen devam edebilirsin; paragrafta fazlası hep iyidir."
+          : paragrafSet() + " soruluk turlar hâlinde, her tur yaklaşık " + Math.round(paragrafSet() * 1.5) + " dakika. " +
+            "Türkçe'nin en çok soru gelen kısmı burası, üstelik Fen ve Matematiğin uzun sorularını da hızlandırır.") +
+        (pTaze < pHedef ? ' <span class="kotu">Havuzda ' + pTaze + ' taze soru kaldı; sonrasında eski sorular döner.</span>' : "") +
+        '</p></div><button class="btn ' + (bitti ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
+        (bitti ? "Devam et" : pBugun ? "Sonraki tur →" : "Başla →") + '</button></div></section>';
     }
 
     // Tekrar testi: uygulama kendisi hazırlar, zamanı gelince burada belirir
@@ -559,7 +564,8 @@ var App = (function () {
   // 6-8 sorusu doğrudan buradan gelir, üstelik Fen ve Matematik'in uzun metinli soruları da
   // aynı okuma hızına bağlıdır. Bu yüzden konu testlerinden ayrı, her gün açık bir rutindir.
   var PARAGRAF_KONU = "paragrafta-anlam";
-  var PARAGRAF_ADET = 5;
+  function paragrafHedef() { return AYAR.paragrafHedefi || 20; }
+  function paragrafSet() { return AYAR.paragrafSetBoyutu || 10; }
 
   function paragrafSorulari(adet) {
     var havuz = bank(PARAGRAF_KONU).filter(function (q) { return q.kademe === 0; });
@@ -572,12 +578,18 @@ var App = (function () {
       .sort(function (a, b) { return gorulen[a.id] - gorulen[b.id]; });
     return taze.concat(eski).slice(0, adet).map(function (q) { return q.id; });
   }
+  // Bugün çözülen paragraf SORUSU sayısı (tur sayısı değil)
   function paragrafBugun() {
     var bugun = tarihKey(new Date()), say = 0;
     Store.get("gecmis", []).forEach(function (g) {
-      if (g.tur === "paragraf" && tarihKey(new Date(g.ts)) === bugun) say++;
+      if (g.tur === "paragraf" && tarihKey(new Date(g.ts)) === bugun) say += g.sorular.length;
     });
     return say;
+  }
+  // Havuzda öğrencinin hiç görmediği kaç paragraf sorusu kaldı
+  function paragrafTaze() {
+    var gorulen = Store.get("gorulen", {});
+    return bank(PARAGRAF_KONU).filter(function (q) { return q.kademe === 0 && !gorulen[q.id]; }).length;
   }
   function paragrafSeri() {
     var gunler = {};
@@ -590,7 +602,7 @@ var App = (function () {
     return seri;
   }
   function paragrafBaslat() {
-    var ids = paragrafSorulari(PARAGRAF_ADET);
+    var ids = paragrafSorulari(paragrafSet());
     if (!ids.length) return;
     S = {
       tur: "paragraf", ders: "turkce", konu: null, kademe: 0,

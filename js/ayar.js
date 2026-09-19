@@ -17,6 +17,11 @@ window.LGS_AYAR = {
   // Bu oranın üstü "sağlam" (yeşil), altı "zayıf" (sarı) sayılır.
   saglamEsigi: 0.8,
 
+  // Günlük paragraf rutini. Paragraf, LGS'nin en yüksek getirili konusu ve bütün
+  // derslerin okuma hızını belirleyen beceri; bu yüzden ayrı bir günlük hedefi var.
+  paragrafHedefi: 20,     // günde çözülmesi hedeflenen paragraf sorusu
+  paragrafSetBoyutu: 10,  // bir turda kaç soru sorulur
+
   // Test süresi: her sorunun zorluk düzeyine göre verilen saniyelerin toplamı.
   // (Gerçek LGS'de sayısal bölümde soru başına ortalama 120 sn düşer; sınav yaklaştıkça bu değerler kısılabilir.)
   sureSoruBasi: { 1: 60, 2: 100, 3: 150, 4: 210 },

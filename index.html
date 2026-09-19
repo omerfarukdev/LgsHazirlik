@@ -10,14 +10,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400..700&display=swap">
-<link rel="stylesheet" href="css/style.css?v=20260919g">
+<link rel="stylesheet" href="css/style.css?v=20260919h">
 </head>
 <body>
 <div id="app"><div class="yukleniyor">Sorular yükleniyor…</div></div>
-<script src="js/ayar.js?v=20260919g"></script>
-<script src="js/konular.js?v=20260919g"></script>
-<script src="sorular/manifest.js?v=20260919g"></script>
-<script src="js/app.js?v=20260919g"></script>
+<script src="js/ayar.js?v=20260919h"></script>
+<script src="js/konular.js?v=20260919h"></script>
+<script src="sorular/manifest.js?v=20260919h"></script>
+<script src="js/app.js?v=20260919h"></script>
 <script>
 (function () {
   var files = window.LGS_MANIFEST || [];
@@ -25,7 +25,7 @@
   if (!kalan) { App.init(); return; }
   files.forEach(function (f) {
     var s = document.createElement("script");
-    s.src = "sorular/" + f + "?v=20260919g";
+    s.src = "sorular/" + f + "?v=20260919h";
     s.async = false; // dosyalar manifest sırasıyla çalışsın (soru sırası buna bağlı)
     s.onload = s.onerror = function () { if (--kalan === 0) App.init(); };
     document.head.appendChild(s);

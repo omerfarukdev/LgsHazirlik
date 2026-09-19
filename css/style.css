@@ -199,6 +199,8 @@ button:disabled { cursor: not-allowed; }
   border-color: color-mix(in srgb, var(--vurgu) 40%, var(--cizgi));
 }
 .paragraf-kart .tk-ust { color: var(--vurgu); }
+.p-cubuk { height: 8px; border-radius: 99px; background: var(--cizgi); overflow: hidden; margin: 8px 0 10px; max-width: 320px; }
+.p-cubuk > span { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--vurgu), var(--vurgu2)); transition: width .3s; }
 .tekrar-kart {
   margin-top: 16px; padding: 20px 24px;
   background: linear-gradient(120deg, color-mix(in srgb, var(--vurgu2) 12%, var(--kart)), var(--kart));
