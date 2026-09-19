@@ -7,5 +7,9 @@ window.LGS_MANIFEST = [
   "tur-paragrafta-anlam-2.js",
   "tur-fiilimsiler-1.js",
   "tur-fiilimsiler-2.js",
-  "tur-paragrafta-anlam-11.js"
+  "tur-paragrafta-anlam-11.js",
+  "tur-paragrafta-anlam-6.js",
+  "tur-paragrafta-anlam-3.js",
+  "tur-paragrafta-anlam-7.js",
+  "tur-paragrafta-anlam-9.js"
 ];

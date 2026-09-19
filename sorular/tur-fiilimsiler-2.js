@@ -8,7 +8,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Aşağıda bir öğrencinin gözlemevi gezisiyle ilgili kulüp notları verilmiştir.
+  soru: `Okulun gökyüzü kulübü, her yıl sonbaharda bir gözlemevi gezisi düzenler. Bu yılki gezi, ayın en karanlık gecesine denk geldi. Kulüp üyeleri geziden sonra defterlerine birer sayfa not tutar. Aşağıda bu defterdeki dört not sırayla verilmiştir.
 **Buna göre, numaralanmış cümlelerin hangisinde fiilimsi __kullanılmamıştır__?**`,
   gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Okulumuzun gökyüzü kulübü, hafta sonu şehir dışındaki küçük gözlemevine bir gezi düzenledi.</td></tr><tr><td>II</td><td>Gözlemevi, yıldızları rahatça izlemek için ışık kirliliğinden uzak bir tepeye kurulmuş.</td></tr><tr><td>III</td><td>Kubbenin altındaki teleskobun başına geçen öğrenciler, Satürn'ün halkalarını ilk kez gördü.</td></tr><tr><td>IV</td><td>Rehber öğretmen, gezegenlerin yerini gösterirken sesini hiç yükseltmedi.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
@@ -32,13 +32,13 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir gönüllü grubu, çöpe atılacak eski telefonlar için bir onarım atölyesi açtı. Aşağıda bu atölyeyle ilgili dört cümle verilmiştir.
+  soru: `Bir gönüllü grubu, çöpe atılacak eski telefonlar için bir onarım atölyesi açtı. Grup, her cumartesi öğleden sonra bir okulun boş sınıfında toplanıyor. Bu yıl iki yüzden fazla telefon yeniden kullanıma kazandırıldı. Aşağıda bu atölyeyle ilgili dört cümle verilmiştir.
 **Bu cümlelerin hangisindeki fiilimsi, tür bakımından diğer üçünden farklıdır?**`,
   gorsel: null,
   secenekler: [
     "Eski cihazları onarmak, hem parayı hem de doğayı korur.",
     "Lehim makinesinin çalışması, kapının önünden bile duyuluyor.",
-    "Kartların temizlenmesi, işin en uzun süren bölümüdür.",
+    "Kartların temizlenmesi, işin en uzun ve en sıkıcı bölümüdür.",
     "Atölyeye gelen cihazların çoğu yalnızca küçük bir arıza taşıyor."
   ],
   dogru: 3,
@@ -51,7 +51,7 @@ Cevap A.`
   aciklama: `Fiilimsinin türünü ek değil, sözcüğün cümledeki görevi belirler: işin adını bildiriyorsa isim-fiil, bir varlığı niteliyorsa sıfat-fiil, işin nasıl-ne zaman yapıldığını bildiriyorsa zarf-fiildir.
 Adım 1: A'daki 'onarmak' → 'ne korur?' sorusunun karşılığıdır, bir işin adıdır: isim-fiil.
 Adım 2: B'deki 'çalışması' → 'ne duyuluyor?' sorusunun karşılığıdır, yine bir işin adıdır: isim-fiil.
-Adım 3: C'deki 'temizlenmesi' → 'en uzun süren bölüm nedir?' sorusunun karşılığıdır: isim-fiil.
+Adım 3: C'deki 'temizlenmesi' → 'en uzun bölüm nedir?' sorusunun karşılığıdır: isim-fiil.
 Adım 4: D'deki 'gelen' → 'hangi cihazlar?' sorusuna cevap verir; 'cihazlar' adını niteler. Bu bir sıfat-fiildir ve diğer üçünden farklıdır.
 Sağlama: A, B ve C'deki fiilimsileri cümleden çıkarırsan cümle 'neyi/nesi' sorusunun karşılığını kaybeder; D'dekini çıkarırsan 'cihazlar' adı niteliksiz kalır.
 Cevap D.`
@@ -61,7 +61,7 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir öğrenci, tren yolculuğuyla ilgili dört cümledeki fiilimsileri bulmuş ve türlerini tabloya yazmıştır.
+  soru: `Türkçe dersinde fiilimsi konusu işlendi. Öğretmen, tahtaya bir tren yolculuğuyla ilgili dört cümle yazdı ve sınıftan her cümledeki fiilimsiyi bulmasını istedi. Bir öğrenci, bulduğu fiilimsilerin türlerini aşağıdaki tabloya yazmıştır.
 **Buna göre, öğrenci hangi cümledeki fiilimsinin türünü yanlış yazmıştır?**`,
   gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Öğrencinin yazdığı tür</th></tr><tr><td>I</td><td>Trenin kalkması on beş dakika ertelendi.</td><td>isim-fiil</td></tr><tr><td>II</td><td>Peronda bekleyen yolcular anonsu sabırla dinledi.</td><td>sıfat-fiil</td></tr><tr><td>III</td><td>Vagonun penceresinden görünen tarlalar sarıya boyanmıştı.</td><td>zarf-fiil</td></tr><tr><td>IV</td><td>Görevli, biletleri kontrol ederken herkese gülümsedi.</td><td>zarf-fiil</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
@@ -85,7 +85,7 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Ayşe Teyze, köyündeki küçük serada yıl boyunca sebze yetiştiriyor. Aşağıda onun bir gününden dört cümle verilmiştir.
+  soru: `Ayşe Teyze, köyündeki küçük serada yıl boyunca sebze yetiştiriyor. Sera, iki yıl önce ilçe tarım müdürlüğünün desteğiyle kuruldu. Ayşe Teyze sabah altıda seraya gider, akşama kadar orada kalır. Ürünlerini de pazartesi günleri ilçe pazarına götürür. Aşağıda onun bir gününden dört cümle verilmiştir.
 **Bu cümlelerin hangisinde birden fazla fiilimsi vardır?**`,
   gorsel: null,
   secenekler: [
@@ -114,7 +114,7 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Sekizinci sınıflar, şehirdeki bilim müzesini gezdi. Aşağıda bir öğrencinin gezi defterinden dört cümle verilmiştir.
+  soru: `Sekizinci sınıflar, şehirdeki bilim müzesini gezdi. Müzede uzay, fosiller ve basit deneyler için ayrı salonlar var. Öğrenciler her salonda yirmişer dakika kaldı, sonunda da birer gezi notu yazdı. Aşağıda bir öğrencinin defterinden dört cümle verilmiştir.
 (I) Uzay bölümüne girmek, ziyaretin en heyecanlı anıydı.
 (II) Müzenin ilk salonundaki dev pusula, çocukların en çok ilgisini çekiyor.
 (III) Vitrindeki fosilleri inceleyen ziyaretçiler, rehberi soru yağmuruna tuttu.
@@ -142,7 +142,7 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Fen kulübü, ilçedeki göl kıyısında iki günlük bir doğa gözlemi kampı düzenliyor. Öğrenciler hazırlıklarını akşamdan tamamladı. Aşağıda kamp defterindeki cümlelerden dördü verilmiştir.
+  soru: `Fen kulübü, ilçedeki göl kıyısında iki günlük bir doğa gözlemi kampı düzenliyor. Programda kuş sayımı, bitki fotoğrafı ve gece gökyüzü gözlemi için ayrı saatler var. Herkes kendi çadırından ve çöpünden sorumlu. Grup cumartesi sabahı okuldan yola çıkacak; öğrenciler hazırlıklarını akşamdan tamamladı. Aşağıda kamp defterindeki cümlelerden dördü verilmiştir.
 **Bu cümlelerin hangisinde fiilimsi vardır?**`,
   gorsel: null,
   secenekler: [
@@ -171,7 +171,7 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Aşağıda bir spor bilimi merkezinin çalışmasıyla ilgili dört cümle verilmiştir.
+  soru: `Üniversitenin spor bilimi merkezi, uzun mesafe koşucularına ücretsiz ölçüm hizmeti veriyor. Merkeze her hafta yirmi kadar sporcu geliyor. Ölçümler bir saat sürüyor ve sonuçlar aynı gün sporcuya ulaşıyor. Aşağıda bu merkezin çalışmasıyla ilgili dört cümle verilmiştir.
 **Buna göre, numaralanmış cümlelerin hangisinde zarf-fiil kullanılmıştır?**`,
   gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Merkezde, koşucuların dakikadaki soluk sayısını ölçmek için özel bir maske kullanılıyor.</td></tr><tr><td>II</td><td>Bantta koşan sporcuların kalp ritmi ekrandan anlık izleniyor.</td></tr><tr><td>III</td><td>Uzman, ölçüm bitince sporcuya iki sayfalık ayrıntılı bir rapor veriyor.</td></tr><tr><td>IV</td><td>Bu raporlar, antrenmanın yoğunluğunu belirlemede antrenöre yol gösteriyor.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
@@ -195,7 +195,7 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Aşağıda bir cam geri dönüşüm fabrikasıyla ilgili beş cümle verilmiştir.
+  soru: `Türkiye'de her yıl yüz binlerce ton cam ambalaj çöpe gider. Oysa cam, sınırsız sayıda yeniden kullanıma uygun bir maddedir. Bu yüzden ülkenin birçok ilinde geri dönüşüm tesisi var. Aşağıda bu tesislerden biriyle ilgili beş cümle sırayla verilmiştir.
 **Buna göre, bu beş cümlede toplam kaç fiilimsi kullanılmıştır?**`,
   gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Şehrin kıyısındaki fabrikada her gün binlerce cam şişe yeniden işleniyor.</td></tr><tr><td>II</td><td>Kamyonlardan boşaltılan şişeler, renklerine göre üç bantta ayrılıyor.</td></tr><tr><td>III</td><td>Bantta ilerleyen şişeleri temizlemek için sıcak su kullanılıyor.</td></tr><tr><td>IV</td><td>Kırılan parçalar eritilerek yeni şişelere dönüştürülüyor.</td></tr><tr><td>V</td><td>Fabrika müdürü, bu yıl üretimi yüzde yirmi artıracak.</td></tr></table>`,
   secenekler: ["3", "4", "5", "6"],
@@ -221,7 +221,7 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir gökbilim ekibi, yıllar önce çekilmiş fotoğraflar üzerinde yeniden çalıştı ve beklenmedik bir sonuca ulaştı. Aşağıda bu çalışmayla ilgili dört cümle verilmiştir.
+  soru: `Bir gökbilim ekibi, arşivdeki eski fotoğraflar üzerinde yeniden çalıştı ve önemli bir sonuca ulaştı. Çalışmanın ayrıntıları geçen ay uluslararası bir dergide yayımlandı. Aşağıda bu çalışmayla ilgili dört cümle verilmiştir.
 (I) Gökbilimciler, eski fotoğrafları yeniden incelerken şaşırtıcı bir iz fark etti.
 (II) Bu izi doğrulamak, ekibin o günden sonraki en büyük hedefi oldu.
 (III) Aylarca süren gözlemler sonunda ekibi haklı çıkardı.
@@ -255,7 +255,7 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir otogarın dijital panosunda bugünkü seferler aşağıdaki gibi görünmektedir.
+  soru: `Yarıyıl tatilinde akrabalarını ziyaret edecek olan bir grup öğrenci, sabah erkenden otogara geldi. Otogarın dijital panosunda her seferin saati, güzergâhı, yolculuk süresi ve durumu yazılıdır. Bugünkü seferler panoda aşağıdaki gibi görünmektedir.
 **Buna göre, aşağıdaki cümlelerin hangisi hem panodaki bilgiye uyar hem de bir zarf-fiil içerir?**`,
   gorsel: `<table class="tablo"><tr><th>Saat</th><th>Güzergâh</th><th>Yolculuk süresi</th><th>Durum</th></tr><tr><td>07.10</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>Kalktı</td></tr><tr><td>09.45</td><td>Sinop</td><td>4 sa</td><td>Doldu</td></tr><tr><td>12.30</td><td>Amasya</td><td>2 sa 50 dk</td><td>Boş koltuk var</td></tr><tr><td>16.15</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>İptal</td></tr></table>`,
   secenekler: [
@@ -284,7 +284,7 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, müze gezisiyle ilgili dört cümlede fiilimsi aramış; bulduğu sözcüğü ve türünü tabloya yazmıştır.
+  soru: `Türkçe dersinde fiilimsi konusu işlendikten sonra öğretmen kısa bir alıştırma dağıttı. Alıştırmada müze gezisiyle ilgili dört cümle ve boş bir tablo vardı. Öğrencilerden her cümledeki fiilimsiyi bulup türünü yazmaları istendi. Bir öğrenci tabloyu aşağıdaki gibi doldurmuştur.
 **Buna göre, öğrenci bu dört satırın kaçında hata yapmıştır?**`,
   gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Seçilen sözcük</th><th>Yazılan tür</th></tr><tr><td>I</td><td>Sergiyi gezen öğrenciler, panolardaki yazıları ilgiyle okudu.</td><td>gezen</td><td>sıfat-fiil</td></tr><tr><td>II</td><td>Müze görevlisi, vitrinleri silerken ince bir eldiven takıyor.</td><td>silerken</td><td>isim-fiil</td></tr><tr><td>III</td><td>Eski duvar saatlerini onarmak, büyük sabır ister.</td><td>onarmak</td><td>isim-fiil</td></tr><tr><td>IV</td><td>Bahçedeki heykel, geçen yıl baştan aşağı temizlenmiş.</td><td>temizlenmiş</td><td>sıfat-fiil</td></tr></table>`,
   secenekler: ["1", "2", "3", "4"],
@@ -309,7 +309,7 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Akıllı saatler, gün içindeki hareketleri ve uyku süresini kaydediyor. Aşağıda bu cihazlarla ilgili dört cümle verilmiştir.
+  soru: `Akıllı saatler, gün içindeki hareketleri ve uyku süresini kaydediyor. Bu veriler telefondaki uygulamaya aktarılır ve haftalık bir özet hâline gelir. Sporcular, antrenman yoğunluğunu bu özete göre ayarlar. Son yıllarda cihazlar sağlık araştırmalarında da kullanılıyor. Aşağıda bu cihazlarla ilgili dört cümle verilmiştir.
 (I) Sabah koşusuna çıkan Deniz, saatini şarj etmeyi akşamdan unutmuş.
 (II) Akıllı saat, adım sayısını ölçmek ve uykuyu izlemek için iki algılayıcı kullanır.
 (III) Ekrandaki uyarıyı görünce sporcular hemen su içiyor.

@@ -200,7 +200,7 @@ Cevap D.`
   secenekler: [
     "Uygulamanın okuldaki başka sınıflara da yayıldığına",
     "Öğretmenin de öğrencilerle birlikte okuduğuna",
-    "Öğrencilerin başlangıçta zorlandığına",
+    "Öğrencilerin uygulamaya ilk başta zorlandığına",
     "Öğrencilerin okuduklarını arkadaşlarına anlattığına"
   ],
   dogru: 0,
@@ -436,7 +436,7 @@ Cevap C.`
   aciklama: `Boşluk doldurma sorularında getirilecek cümle iki koşulu birden sağlamalıdır: verilerle çelişmemeli ve boşluktan önceki ile sonraki cümleyi birbirine bağlamalıdır.
 Adım 1: Boşluktan önceki cümleyi oku: gitar, sınıfın neredeyse yarısının tercihi. Grafikte gitar 12, sınıf 28 kişi; 12, 28'in yarısına yakındır. Uyuyor.
 Adım 2: Boşluktan sonraki cümleye bak: en az seçilen çalgıdan söz ediyor. Öyleyse boşluktaki cümle, en çok seçilenden en az seçilene doğru giden akışı sürdürmelidir.
-Adım 3: Şıkları grafikle sına. A: gitar 12; piyano + keman = 7 + 5 = 12. Eşit, doğru. B: piyano 7, keman 5; piyano daha azda değildir, yanlış. C: en kalabalık grup gitardır, yanlış. D: 12 + 7 + 5 + 4 = 28; herkes bir çalgı seçmiştir, yanlış.
+Adım 3: Şıkları grafikle sına. A: gitar 12; piyano + keman = 7 + 5 = 12. İki değer eşit, doğru. B: piyano 7, keman 5; piyano daha az değil daha çoktur, yanlış. C: en kalabalık grup 12 kişiyle gitardır, yanlış. D: 12 + 7 + 5 + 4 = 28; herkes bir çalgı seçmiştir, yanlış.
 Adım 4: Hem verilere uyan hem akışı sürdüren tek cümle A'dır.
 Sağlama: A'yı boşluğa koyup metni baştan oku; gitardan başlayıp piyano ve kemana, oradan bağlamaya inen düzgün bir sıra oluşuyor.
 Sık yapılan hata: Grafiğe bakmadan yalnızca kulağa uygun gelen cümleyi seçmek. Veri verilmişse şıklar önce veriyle sınanır.
@@ -480,10 +480,10 @@ Cevap B.`
 **Bu metne ve çizelgeye göre aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: `<table class="tablo"><tr><th>Sporcu</th><th>Katıldığı yarış sayısı</th><th>İlk üçe girdiği yarış sayısı</th></tr><tr><td>Aylin</td><td>8</td><td>3</td></tr><tr><td>Berk</td><td>6</td><td>5</td></tr><tr><td>Ceren</td><td>9</td><td>4</td></tr><tr><td>Doruk</td><td>5</td><td>2</td></tr></table>`,
   secenekler: [
-    "En çok yarışa katılan sporcu Ceren'dir.",
-    "İlk üçe en çok giren sporcu Berk'tir.",
+    "Yarışlara en çok katılan sporcu Ceren olmuştur.",
+    "İlk üçe girme sayısı en yüksek sporcu Berk'tir.",
     "Doruk, katıldığı yarışların ikisinde ilk üçe girmiştir.",
-    "Aylin, katıldığı yarışların yarısından çoğunda ilk üçe girmiştir."
+    "Aylin, yarışlarının yarısından çoğunda ilk üçe girmiştir."
   ],
   dogru: 3,
   hatalar: [
@@ -506,13 +506,13 @@ Cevap D.`
   kazanim: "T.8.3.17",
   kademe: 2,
   zorluk: 3,
-  soru: `Kütüphaneye ilk girdiğimde beni rafların büyüklüğü korkutmuştu. Nereden başlayacağımı bilemeyip en yakın rafın önünde durmuş, kitapların sırtındaki adları tek tek okumuştum. Bir süre sonra kütüphaneci yanıma geldi, “Ne tür bir şey arıyorsun?” diye sordu. “Bilmiyorum.” dedim. Bana kızmadı; “O zaman aramayı bırak, bir tane seç.” dedi. Rastgele bir kitap aldım, ilk sayfasını okudum, beğenmedim; yerine koyup bir başkasını aldım. O gün dört kitap açtım, birini eve götürdüm. Ertesi hafta aynı şeyi yaptım, sonraki hafta yine. Bugün hâlâ aynı yöntemi kullanıyorum. ----
+  soru: `Kütüphaneye ilk girdiğimde beni rafların büyüklüğü korkutmuştu. Nereden başlayacağımı bilemeyip en yakın rafın önünde durmuş, kitapların sırtındaki adları tek tek okumuştum. Bir süre sonra kütüphaneci yanıma geldi, “Ne tür bir şey arıyorsun?” diye sordu. “Bilmiyorum.” dedim. Bana kızmadı; “O zaman aramayı bırak, bir tane seç.” dedi. Rastgele bir kitap aldım, ilk sayfasını okudum, beğenmedim; yerine koyup bir başkasını aldım. O gün dört kitap açtım, birini eve götürdüm. Eve götürdüğümü üç günde bitirdim; bıraktıklarım için hiç üzülmedim. Kütüphaneci bunu duyunca gülümsedi, “Bırakılan kitap da bir şey öğretir.” dedi. Ertesi hafta aynı şeyi yaptım, sonraki hafta yine. Bugün hâlâ aynı yöntemi kullanıyorum. ----
 **Bu parça aşağıdakilerden hangisiyle tamamlanır?**`,
   gorsel: null,
   secenekler: [
-    "Çünkü bana uygun kitabı bulmanın yolu, açıp bakmadan karar vermemekten geçiyor.",
-    "Bu yüzden kütüphanelerde kitapların raflara göre dizilmesi gerekiyor.",
-    "Oysa kütüphaneciler öğrencilere kitap seçmeyi hiç öğretmiyor.",
+    "Çünkü bana uygun kitabı ancak açıp bakarak bulabiliyorum.",
+    "Bu yüzden kütüphanelerde kitaplar raflara göre dizilmelidir.",
+    "Oysa kütüphaneciler öğrencilere kitap seçmeyi öğretmiyor.",
     "Ne yazık ki o günden sonra kütüphaneye bir daha gidemedim."
   ],
   dogru: 0,
@@ -526,7 +526,7 @@ Cevap D.`
 Adım 1: Metnin akışını çıkar: korku ve kararsızlık → kütüphanecinin önerisi → deneyerek seçme → alışkanlığa dönüşme.
 Adım 2: Boşluktan önceki cümleye bak: “Bugün hâlâ aynı yöntemi kullanıyorum.” Bundan sonra gelecek cümle, bu yöntemin neden sürdüğünü açıklamalıdır.
 Adım 3: Şıkları sına. B rafların dizilişine geçiyor; metnin konusu bu değil. C, kütüphanecinin yaptığıyla çelişiyor. D, “hâlâ kullanıyorum” cümlesiyle doğrudan çelişiyor.
-Adım 4: A, yöntemin ne olduğunu ve neden sürdürüldüğünü söylüyor: açıp bakmadan karar vermemek. Metni tamamlayan cümle budur.
+Adım 4: A, yöntemin ne olduğunu ve neden sürdürüldüğünü söylüyor: kitabı açıp bakmadan karar vermemek. Metni tamamlayan cümle budur.
 Sağlama: A'yı sonuna ekleyip metni bir kerede oku; “çünkü” bağlacı bir önceki cümlenin gerekçesini veriyor, akış kopmuyor.
 Sık yapılan hata: Duygusal ya da çarpıcı görünen cümleyi (D gibi) seçmek. Tamamlayıcı cümle, metnin söyledikleriyle çelişemez.
 Cevap A.`
@@ -536,7 +536,7 @@ Cevap A.`
   kazanim: "T.8.3.21",
   kademe: 2,
   zorluk: 3,
-  soru: `Kulüpteki ilk yılımda maçlardan sonra hep aynı şeyi yapardım: Kaçırdığım topları sayardım. Kaç sayı attığımı değil, hangi pası veremediğimi hatırlardım. Antrenörümüz bunu fark etmiş olmalı ki bir akşam beni kenara çağırdı. Elinde küçük bir defter vardı; maç boyunca benim yaptığım doğru hareketleri işaretlemişti. Defterde on dört işaret vardı. “Sen bu on dördü hiç saymadın.” dedi. O akşam eve dönerken __defterdeki o işaretler__ aklımdan çıkmadı. Ertesi maçta da kaçırdığım toplar oldu; ama ilk kez, iyi yaptıklarımı da hatırlayarak çıktım salondan.
+  soru: `Kulüpteki ilk yılımda maçlardan sonra hep aynı şeyi yapardım: Kaçırdığım topları sayardım. Kaç sayı attığımı değil, hangi pası veremediğimi hatırlardım. Antrenörümüz bunu fark etmiş olmalı ki bir akşam beni kenara çağırdı. Elinde küçük bir defter vardı; maç boyunca benim yaptığım doğru hareketleri işaretlemişti. Defterde on dört işaret vardı. Kenara, her işaretin hangi dakikada olduğunu bile yazmıştı: doğru yerde duruşum, arkadaşıma açtığım alan, geri dönüşteki koşum. “Sen bu on dördü hiç saymadın.” dedi. O akşam eve dönerken __defterdeki o işaretler__ aklımdan çıkmadı. Ertesi maçta da kaçırdığım toplar oldu; ama ilk kez, iyi yaptıklarımı da hatırlayarak çıktım salondan.
 **Bu metinde altı çizili söz öbeğiyle anlatıcının hangi eksikliğine gönderme yapılmıştır?**`,
   gorsel: null,
   secenekler: [
@@ -566,7 +566,7 @@ Cevap C.`
   kazanim: "T.8.3.18",
   kademe: 2,
   zorluk: 3,
-  soru: `Fen kulübü, sınıfta yetiştirdiği fasulye fidelerini dört hafta boyunca izledi. Fideler üç saksıya ekildi; hepsine aynı toprak konuldu ve her hafta aynı miktarda su verildi. Birinci saksı pencere kenarına, ikincisi sınıfın ortasındaki masaya, üçüncüsü kapalı bir dolabın içine yerleştirildi. Öğrenciler her hafta sonunda fidelerin boyunu ölçüp bir çizelgeye işledi. Dördüncü haftanın sonunda dolaptaki fidenin gövdesi incecikti ve yaprakları sararmıştı; pencere kenarındaki fidenin yaprakları ise koyu yeşildi. Kulüp raporunda, fasulyenin büyümesinde ışığın belirleyici olduğu sonucuna varıldı.
+  soru: `Fen kulübü, sınıfta yetiştirdiği fasulye fidelerini dört hafta boyunca izledi. Fideler üç saksıya ekildi; hepsine aynı toprak konuldu ve her hafta aynı miktarda su verildi. Birinci saksı pencere kenarına, ikincisi sınıfın ortasındaki masaya, üçüncüsü kapalı bir dolabın içine yerleştirildi. Öğrenciler her hafta sonunda fidelerin boyunu ölçüp bir çizelgeye işledi. Ölçümler hep aynı gün ve aynı saatte, cetvelle toprak yüzeyinden gövdenin ucuna kadar yapıldı. Dördüncü haftanın sonunda dolaptaki fidenin gövdesi incecikti ve yaprakları sararmıştı; pencere kenarındaki fidenin yaprakları ise koyu yeşildi. Kulüp raporunda, fasulyenin büyümesinde ışığın belirleyici olduğu sonucuna varıldı.
 **Bu metinden ve çizelgeden hareketle aşağıdakilerden hangisine __ulaşılamaz__?**`,
   gorsel: `<table class="tablo"><tr><th>Fide boyu (cm)</th><th>Pencere kenarı</th><th>Masa</th><th>Dolap içi</th></tr><tr><td>1. hafta</td><td>4</td><td>3</td><td>2</td></tr><tr><td>2. hafta</td><td>9</td><td>6</td><td>4</td></tr><tr><td>3. hafta</td><td>15</td><td>10</td><td>6</td></tr><tr><td>4. hafta</td><td>22</td><td>14</td><td>7</td></tr></table>`,
   secenekler: [
@@ -661,9 +661,9 @@ Cevap A.`
   gorsel: null,
   secenekler: [
     "Olaylar, başkasından dinlenmiş gibi aktarılmıştır.",
-    "Anlatıcı, kendi yaşadıklarını geriye dönerek anlatmaktadır.",
+    "Anlatıcı, kendi yaşadıklarını geriye dönerek anlatır.",
     "Kişiler ve mekân ayrıntılı biçimde betimlenmiştir.",
-    "Okuyucuya öğüt veren bir dil kullanılmıştır."
+    "Okuyucuya seslenen, öğüt veren bir dil kullanılmıştır."
   ],
   dogru: 1,
   hatalar: [

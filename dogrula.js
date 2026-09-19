@@ -177,7 +177,10 @@ function benzerlik(a, b) {
 var kopyaBulundu = false;
 konular.forEach(function (konuId) {
   var kayitlar = window.LGS_BANK[konuId].map(function (q) {
-    var tamMetin = (q.soru || "") + " " + (Array.isArray(q.secenekler) ? q.secenekler.join(" ") : "");
+    // Görsel de karşılaştırmaya girer: numaralı cümleli sorularda asıl metin orada durur,
+    // soru kökü ise ("hangisi akışı bozmaktadır?") sorudan soruya aynıdır.
+    var tamMetin = (q.soru || "") + " " + (q.gorsel || "") + " " +
+      (Array.isArray(q.secenekler) ? q.secenekler.join(" ") : "");
     return { id: q.id, norm: normallestir(tamMetin), set: kelimeSeti(tamMetin) };
   });
   for (var i = 0; i < kayitlar.length; i++) {

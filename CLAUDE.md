@@ -67,6 +67,7 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 | `√{48}`, `3√{2}` | karekök (üstü çizgili) |
 | `[[3\|4]]` (yani `[[pay\|payda]]`, arada dikey çizgi) | kesir |
 | satır sonu | yeni satır (uzun metinlerde backtick `` ` `` ile çok satırlı string kullan) |
+| `- - - -` | boşluk doldurma sorularında boşluk (gerçek LGS kitapçığındaki gösterim). **`___` kullanma** — `__` altı çizili demektir, çakışır |
 
 Çarpma işareti `·` ya da `×`, eksi işareti `−`, ondalık ayırıcı virgül.
 

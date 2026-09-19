@@ -155,7 +155,7 @@ Cevap D.`
 **Bu metinde boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
   secenekler: [
-    "Başka bir deyişle, bir zamanlar atık sayılan sıcaklık tesisin içinde ikinci bir işe koşulur.",
+    "Başka bir deyişle, bir zamanlar atık sayılan sıcaklık tesisin içinde ikinci bir işe koşuluyor.",
     "Oysaki bu yöntem yalnızca kış aylarında işe yaradığından yazın bacaya hiç dokunulmaz.",
     "Kısaca, dökümhanelerde baca filtrelerinin bakımı her yıl düzenli olarak yenilenmelidir.",
     "Böylece tesiste çalışan işçi sayısı azalır ve üretimin birim maliyeti aşağı çekilebilir."
@@ -165,12 +165,12 @@ Cevap D.`
     null,
     "Akışı tersine çeviren bağlantı ifadesini seçme: “oysaki” karşıtlık kurar; oysa boşluktan sonra gelen cümle, önceki düşünceyi sürdürüp sonucunu verir.",
     "Konu dışı bir ayrıntıyı özet sanma: filtre bakımı metinde geçmez; “kısaca” ile başlayan cümlenin kendinden önceki düşünceyi özetlemesi gerekir.",
-    "Neden–sonuç yönünü kaydırma: metin ısıtma giderinden söz ediyor; işçi sayısıyla ilgili bir veri ya da yargı yok. Ayrıca sonraki cümle de “böylece” ile kurulan sonucu zaten taşıyor."
+    "Metinde dayanağı olmayan bir sonuç ekleme: parça ısınma giderinden söz ediyor; işçi sayısı ya da birim maliyetle ilgili tek bir veri yok."
   ],
   aciklama: `Boşluğa gelecek cümle, kendinden önceki cümleye de sonraki cümleye de bağlanmalıdır. Bu yüzden iki yönlü kontrol yapılır.
 Adım 1: Boşluktan önceki cümleyi oku: sıcak gaz suyu ısıtıyor, ısınan su banyolara ve kalorifere gidiyor.
 Adım 2: Boşluktan sonraki cümleyi oku: fabrikanın ısınma için harcadığı doğal gaz dörtte bire iniyor. Bu, önceki düşüncenin sonucudur; demek ki boşluktaki cümle de aynı yönde ilerlemeli, düşünceyi özetlemelidir.
-Adım 3: Bağlantı ifadelerine bak. “Oysaki” karşıtlık kurar, akışı ters çevirir; B elenir. “Kısaca” ile başlayan C, metinde hiç geçmeyen filtre bakımını özet diye sunar; elenir. D, sonraki cümledeki “böylece” sonucuyla çakışır ve metinde dayanağı olmayan bir sonuç ekler.
+Adım 3: Bağlantı ifadelerine bak. “Oysaki” karşıtlık kurar, akışı ters çevirir; B elenir. “Kısaca” ile başlayan C, metinde hiç geçmeyen filtre bakımını özet diye sunar; elenir. D ise metinde hiç sözü edilmeyen işçi sayısına ve birim maliyete geçer.
 Adım 4: A, “başka bir deyişle” diyerek önceki cümleyi yeniden söyler ve sonraki cümledeki tasarruf sonucuna zemin hazırlar.
 Sağlama: A'yı yerine koyup üç cümleyi arka arkaya oku; ısı → ikinci iş → yakıt tasarrufu zinciri kopmadan ilerliyor.
 Cevap A.`
@@ -191,7 +191,7 @@ Cevap A.`
   ],
   dogru: 3,
   hatalar: [
-    "Grafikteki karşılaştırmayı atlama: her üründe mor sütun mavi sütundan düşüktür (540→320, 460→300, 300→240).",
+    "Grafikteki karşılaştırmayı atlama: her üründe damla sulama sütunu salma sulama sütunundan düşüktür (540→320, 460→300, 300→240).",
     "Farkları hesaplamadan eleme: pancarda 220 m³, mısırda 160 m³, ayçiçeğinde 60 m³ tasarruf var; en büyüğü pancarda.",
     "Metinde açıkça verilen bilgiyi atlama: müdür, kurulum masrafının da hesaba katılması gerektiğini söylüyor.",
     null
@@ -303,7 +303,7 @@ Cevap B.`
 **I. çeviri**
 Şehrin kapısından girdiğimizde akşam olmuştu. Çarşı henüz kapanmamıştı. Tezgâhların üzerinde kuru yemişler, ipekler ve bakır kaplar duruyordu. Halk bize baktı, kimse bir şey sormadı.
 **II. çeviri**
-Surun altındaki kapıdan içeri süzüldüğümüzde gün çoktan çekilmiş, çarşının kandilleri yeni yakılmıştı. Tezgâhlarda kuru yemişin tatlı kokusu, ipeğin parıltısı, bakırın ağır ışığı birbirine karışıyordu. Şehirli, sessizce süzdü bizi.
+Surun altındaki kapıdan içeri süzüldüğümüzde akşam inmiş, çarşının kandilleri yeni yakılmıştı. Tezgâhlarda kuru yemişin tatlı kokusu, ipeğin parıltısı, bakırın ağır ışığı birbirine karışıyordu. Şehirli, sessizce süzdü bizi.
 **Bu iki çeviriyle ilgili olarak aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
   secenekler: [
@@ -322,7 +322,7 @@ Surun altındaki kapıdan içeri süzüldüğümüzde gün çoktan çekilmiş, �
   aciklama: `Aynı metnin iki çevirisini karşılaştırırken sorulacak soru şudur: Anlatılan olay mı değişmiş, yoksa olayın anlatılış biçimi mi?
 Adım 1: Olay sırasını karşılaştır. İkisinde de önce kapıdan giriş, sonra çarşının durumu, sonra tezgâhlar, en sonda halkın tepkisi var. Sıra aynı; A yanlıştır.
 Adım 2: Anlatıcıya bak. “Girdiğimizde” ve “süzüldüğümüzde” sözcükleri, iki çeviride de anlatıcının olayı yaşayan kişi olduğunu gösterir; C yanlıştır.
-Adım 3: Zamana bak. Birincide “akşam olmuştu”, ikincide “gün çoktan çekilmiş, kandiller yeni yakılmıştı”. İkisi de aynı saati anlatır; değişen zaman değil, zamanın verilme biçimidir. D'nin yarısı yanlış olduğu için tamamı yanlıştır.
+Adım 3: Zamana bak. Birincide “akşam olmuştu”, ikincide “akşam inmiş, kandiller yeni yakılmıştı”. İkisi de aynı saati anlatır; değişen zaman değil, zamanın verilme biçimidir. D bu yüzden yanlıştır.
 Adım 4: Ayrıntılara bak. İkinci çeviride koku (“kuru yemişin tatlı kokusu”), görüntü (“ipeğin parıltısı”, “bakırın ağır ışığı”) gibi duyulara seslenen ayrıntılar eklenmiş. Aynı olay, daha geniş ve daha yoğun anlatılmış.
 Sık yapılan hata: Bir çeviri daha uzun diye “farklı bir olay anlatılıyor” sanmak. Çeviriler arasındaki fark çoğu zaman olayda değil, sözcük seçiminde ve ayrıntı yoğunluğundadır.
 Cevap B.`
@@ -595,19 +595,19 @@ Cevap C.`
   secenekler: [
     "Deniz otobüsüyle taşınan yolcu sayısı en yüksek değerine ağustosta ulaşmıştır.",
     "Deniz otobüsünü kullanan yolcuların tamamı daha önce karayolunu kullanıyordu.",
-    "Karayoluyla taşınan yolcu sayısı dört ay boyunca düzenli olarak azalmıştır.",
+    "Karayoluyla taşınan yolcu sayısı her ay bir önceki aya göre azalmıştır.",
     "Yeni hat, aynı yolculuğu karayoluna göre daha kısa sürede tamamlamaktadır."
   ],
   dogru: 1,
   hatalar: [
     "Grafikteki en yüksek noktayı bulamama: kesik çizgi ağustosta 1.400 ile tepe yapıyor, eylülde 1.100'e iniyor.",
     null,
-    "Grafikteki düz çizgiyi izlememe: 3.200 → 3.000 → 2.800 → 2.700; dört ay boyunca azalma var.",
+    "Grafikteki düz çizgiyi izlememe: 3.200 → 3.000 → 2.800 → 2.700; her ay bir öncekinden düşük.",
     "Metinde açıkça verilen bilgiyi atlama: kırk dakikalık yolculuk on iki dakikaya iniyor."
   ],
   aciklama: `Bu soruda grafiği okumak yetmez; metindeki bir cümle, grafikten çıkarılabilecek yorumu sınırlandırıyor.
 Adım 1: A'yı grafikte sına. Deniz otobüsü 400 → 900 → 1.400 → 1.100. En yüksek değer ağustosta; söylenebilir.
-Adım 2: C'yi grafikte sına. Karayolu 3.200 → 3.000 → 2.800 → 2.700; her ay azalmış. Söylenebilir.
+Adım 2: C'yi grafikte sına. Karayolu 3.200 → 3.000 → 2.800 → 2.700; her ay bir önceki aydan düşük. (Azalma miktarı her ay aynı değil ama şık “her ay azalmıştır” diyor, “eşit azalmıştır” demiyor.) Söylenebilir.
 Adım 3: D'yi metinde sına. Kırk dakikalık yolculuk on iki dakikaya inmiş. Söylenebilir.
 Adım 4: B'yi sına. Müdür, karayolundaki azalmanın deniz otobüsündeki artıştan küçük kaldığını söylüyor: karayolu 500 yolcu kaybetmiş, deniz otobüsü 700 yolcu kazanmış. Demek ki yeni hattın yolcularının bir bölümü karayolundan gelmiyor.
 Sık yapılan hata: Bir yol yolcu kazanırken öbürü kaybediyorsa, kazancın tamamının oradan geldiğini sanmak. Sayılar eşit değilse bu sonuca varılamaz.
