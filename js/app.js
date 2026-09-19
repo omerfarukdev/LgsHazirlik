@@ -203,6 +203,70 @@ var App = (function () {
   var incFiltre = "hepsi"; // sonuç ekranı filtresi
 
   // ================= Ana sayfa =================
+  // Ders ikonları (24×24, çizgi). Emoji yerine her yerde bunlar kullanılır.
+  var IKON = {
+    matematik: '<path d="M4.5 7h5M7 4.5v5M14.5 7h5M5.2 15.2l3.6 3.6M8.8 15.2l-3.6 3.6M14.5 17h5"/><circle cx="17" cy="14.4" r=".7" fill="currentColor" stroke="none"/><circle cx="17" cy="19.6" r=".7" fill="currentColor" stroke="none"/>',
+    fen: '<path d="M9 3h6M10 3v6l-5.2 9a2 2 0 0 0 1.7 3h11a2 2 0 0 0 1.7-3L14 9V3M7.6 15h8.8"/>',
+    turkce: '<path d="M12 6.2C10 4.7 7 4.2 4 4.2v14c3 0 6 .5 8 2 2-1.5 5-2 8-2v-14c-3 0-6 .5-8 2zM12 6.2v14"/>',
+    inkilap: '<path d="M6 21V4M6 5h11.5L15 9l2.5 4H6"/>',
+    din: '<path d="M19.5 14.6A8.3 8.3 0 1 1 9.4 4.5a6.4 6.4 0 0 0 10.1 10.1z"/><path d="M17.2 4.6l.7 1.5 1.5.7-1.5.7-.7 1.5-.7-1.5-1.5-.7 1.5-.7z" fill="currentColor" stroke="none"/>',
+    ingilizce: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/>'
+  };
+  function ikon(dersId) {
+    return '<svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (IKON[dersId] || "") + '</svg>';
+  }
+  var GUNUN_SOZU = [
+    "Ufuk, yürüdükçe genişler.",
+    "Bugünün on sorusu, haziranın bir neti.",
+    "Yanlışın, bir sonraki doğrunun adresidir.",
+    "Her gün biraz, arada bir çoktan iyidir.",
+    "Anlamadığın yer, büyüdüğün yerdir.",
+    "Hız sonradan gelir; önce doğru adım.",
+    "Dün çözemediğini bugün çözmek: ilerleme budur.",
+    "Küçük adımlar uzun yolları bitirir.",
+    "Zor soru, henüz tanışmadığın kolay sorudur.",
+    "Merak ettiğin sürece öğrenirsin."
+  ];
+  function selam() {
+    var s = new Date().getHours();
+    var m = s >= 5 && s < 12 ? "Günaydın" : s >= 12 && s < 18 ? "İyi günler" : s >= 18 && s < 23 ? "İyi akşamlar" : "İyi geceler";
+    return m + (AYAR.ogrenciAdi ? ", " + esc(AYAR.ogrenciAdi) : "");
+  }
+  function genelIlerleme() {
+    var t = 0, g = 0;
+    DERSLER.forEach(function (d) { var il = dersIlerleme(d); t += il.toplam; g += il.gecilen; });
+    return { toplam: t, gecilen: g, oran: t ? g / t : 0 };
+  }
+  // Şafak manzarası: geçilen kademe oranı arttıkça güneş yükselir.
+  function ufukSVG(oran) {
+    var cy = Math.round(318 - 120 * oran);
+    var yildiz = [[90, 40, 1.4], [210, 95, 1], [330, 30, 1.2], [470, 70, 1], [610, 28, 1.5], [720, 110, 1], [1010, 48, 1.3], [1120, 120, 1], [1160, 30, 1.1], [540, 140, .9]]
+      .map(function (y) { return '<circle cx="' + y[0] + '" cy="' + y[1] + '" r="' + y[2] + '"/>'; }).join("");
+    return '<svg class="ufuk-svg" viewBox="0 0 1200 400" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">' +
+      '<defs><linearGradient id="gok" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1430"/><stop offset=".5" stop-color="#1c3361"/><stop offset=".8" stop-color="#c9774f"/><stop offset="1" stop-color="#ffc47a"/></linearGradient>' +
+      '<radialGradient id="hale"><stop offset="0" stop-color="#ffd58a" stop-opacity=".85"/><stop offset=".45" stop-color="#ff9d4d" stop-opacity=".3"/><stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/></radialGradient></defs>' +
+      '<rect width="1200" height="400" fill="url(#gok)"/><g fill="#fff" opacity=".7">' + yildiz + '</g>' +
+      '<circle cx="880" cy="' + cy + '" r="190" fill="url(#hale)"/><circle cx="880" cy="' + cy + '" r="44" fill="#ffd9a0"/>' +
+      '<path d="M0 306C150 262 300 282 450 294S750 246 900 284s200-24 300-4v124H0z" fill="#3c568c"/>' +
+      '<path d="M0 336c200-40 380-10 560-20s320-30 640 8v76H0z" fill="#24396a"/>' +
+      '<path d="M0 366c250-30 500 5 760-15s290-10 440 6v43H0z" fill="#121d3a"/>' +
+      '<path d="M690 400c50-22 100-30 134-50s38-30 48-46" fill="none" stroke="#ffe2b0" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 15" opacity=".9"/><path d="M872 303v-24" stroke="#ffe2b0" stroke-width="2.5" stroke-linecap="round"/><path d="M873 279l17 5.5-17 5.5z" fill="#ffb14a"/></svg>';
+  }
+  // Eylül'den sınava uzanan yıl çizelgesi
+  function yolHTML() {
+    var bas = new Date((AYAR.yilBasi || "2026-09-14") + "T00:00:00").getTime();
+    var bit = new Date((AYAR.sinavTarihi || AYAR.sinavTahminiTarih || "2027-06-13") + "T00:00:00").getTime();
+    function yer(t) { return Math.max(0, Math.min(100, (t - bas) / (bit - bas) * 100)); }
+    var bugun = yer(Date.now());
+    var aylar = [[2026, 9, "Eki"], [2026, 10, "Kas"], [2026, 11, "Ara"], [2027, 0, "Oca"], [2027, 1, "Şub"], [2027, 2, "Mar"], [2027, 3, "Nis"], [2027, 4, "May"], [2027, 5, "Haz"]];
+    var html = '<div class="yol"><div class="yol-cizgi"><span class="yol-dolu" style="width:' + bugun.toFixed(1) + '%"></span>' +
+      '<span class="yol-bugun" style="left:' + bugun.toFixed(1) + '%"><em>Bugün</em></span>' +
+      '<span class="yol-hedef"><em>LGS</em></span></div><div class="yol-aylar">';
+    aylar.forEach(function (a) {
+      html += '<span style="left:' + yer(new Date(a[0], a[1], 1).getTime()).toFixed(1) + '%">' + a[2] + '</span>';
+    });
+    return html + '</div></div>';
+  }
   function anaSayfa() {
     var gecmis = Store.get("gecmis", []);
     var aktif = Store.get("aktif", null);
@@ -210,64 +274,66 @@ var App = (function () {
     var topD = 0, topSoru = 0;
     gecmis.forEach(function (g) { topD += g.d; topSoru += g.d + g.y; });
     var seri = seriHesapla(gecmis);
+    var genel = genelIlerleme();
+    var soz = GUNUN_SOZU[Math.floor(Date.now() / 86400000) % GUNUN_SOZU.length];
 
-    var html = '<header class="ust">' +
-      '<div><h1>LGS Hazırlık</h1><p class="soluk">' +
-      (AYAR.ogrenciAdi ? "Merhaba " + esc(AYAR.ogrenciAdi) + "! " : "") + 'Bugün hangi konuyu sağlamlaştırıyoruz?</p></div>' +
-      '<div class="geri-sayim"><span class="gs-sayi">' + (gun === null ? "🎯" : gun) + '</span>' +
-      '<span class="gs-yazi">' + (gun === null ? "LGS: " + esc(AYAR.sinavTahmini || "") : "gün kaldı") + '</span></div>' +
-      '</header>';
-
-    if (aktif) {
-      var ak = KONU[aktif.konu];
-      html += '<div class="bant">' +
-        '<div><strong>Yarım kalan testin var</strong><br><span class="soluk">' + esc(ak ? ak.konu.ad : "") + " · " +
-        KADEMELER[aktif.kademe].ad + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
-        '<button class="btn birincil" onclick="App.git(\'#/test\')">Devam et</button></div>';
-    }
+    // Kahraman alan: selam, günün sözü, sıradaki adım
+    var html = '<section class="ufuk">' + ufukSVG(genel.oran) + '<div class="ufuk-ic">' +
+      '<div class="ufuk-ust"><span class="ufuk-marka">LGS Hazırlık</span>' +
+      '<span class="ufuk-sayac">' + (gun === null ? "Hedef · " + esc(AYAR.sinavTahmini || "") : "<strong>" + gun + "</strong> gün kaldı") + '</span></div>' +
+      '<p class="ufuk-selam">' + selam() + '</p><h1 class="ufuk-soz">' + esc(soz) + '</h1>';
 
     var sira = aktif ? null : siradakiTest();
-    if (sira) {
-      html += '<div class="bant sira"><div><span class="soluk kucuk">SIRADAKİ TESTİN</span><br><strong>' + sira.ders.ikon + " " + esc(sira.konu.ad) +
-        '</strong> <span class="soluk">· ' + sira.k + ". kademe · " + KADEMELER[sira.k].ad + '</span></div>' +
-        '<button class="btn birincil buyuk" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
+    if (aktif) {
+      var ak = KONU[aktif.konu];
+      html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' + esc(ak ? ak.konu.ad : "") + '</span>' +
+        '<span class="ua-alt">' + KADEMELER[aktif.kademe].ad + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
+        '<button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button></div>';
+    } else if (sira) {
+      html += '<div class="ufuk-adim"><div><span class="ua-ust">Sıradaki adımın</span><span class="ua-ad">' + esc(sira.konu.ad) + '</span>' +
+        '<span class="ua-alt">' + esc(sira.ders.ad) + " · " + sira.k + ". kademe · " + KADEMELER[sira.k].ad + '</span></div>' +
+        '<button class="btn gunes" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
     }
+    html += '</div></section>';
 
-    html += '<div class="ozet">' +
-      ozetKutu(topSoru, "çözülen soru") +
-      ozetKutu(topSoru ? "%" + yuzde(topD / topSoru) : "–", "doğruluk") +
-      ozetKutu(gecmis.length, "test") +
-      ozetKutu(seri + " gün", "çalışma serisi") + '</div>';
+    // Yıl çizelgesi + sayılar
+    html += '<section class="kart yolculuk"><div class="yolculuk-ust"><h2>Yolculuğun</h2>' +
+      '<span class="soluk kucuk">' + genel.gecilen + " / " + genel.toplam + ' kademe geçildi · her kademe güneşi biraz daha yükseltir</span></div>' + yolHTML() +
+      '<div class="serit">' +
+      seritOge(topSoru, "çözülen soru") + seritOge(topSoru ? "%" + yuzde(topD / topSoru) : "–", "doğruluk") +
+      seritOge(gecmis.length, "test") + seritOge(seri, "günlük seri") + '</div></section>';
 
-    html += '<h2>Dersler</h2><div class="ders-grid">';
+    html += '<h2 class="bolum">Dersler</h2><div class="ders-grid">';
     DERSLER.forEach(function (d) {
       var il = dersIlerleme(d);
       var pct = il.toplam ? yuzde(il.gecilen / il.toplam) : 0;
-      html += '<button class="ders-kart ders-' + d.id + '" onclick="App.git(\'#/ders/' + d.id + '\')">' +
-        '<span class="ders-ikon">' + d.ikon + '</span>' +
+      html += '<button class="ders-kart ders-' + d.id + (il.hazirKonu ? "" : " bekliyor") + '" onclick="App.git(\'#/ders/' + d.id + '\')">' +
+        '<span class="ders-ust"><span class="ders-ikon">' + ikon(d.id) + '</span><span class="ders-bilgi">' + d.soru + " soru · katsayı " + d.katsayi + '</span></span>' +
         '<span class="ders-ad">' + esc(d.ad) + '</span>' +
-        '<span class="ders-alt">' + (il.hazirKonu ? il.hazirKonu + " konu hazır · " + il.gecilen + "/" + il.toplam + " test geçildi" : "Sorular yakında") + '</span>' +
-        '<span class="cubuk"><span style="width:' + pct + '%"></span></span>' +
-        '</button>';
+        '<span class="ders-alt">' + (il.hazirKonu ? il.hazirKonu + " konu hazır · " + il.gecilen + "/" + il.toplam + " kademe" : "Sorular hazırlanıyor") + '</span>' +
+        '<span class="cubuk"><span style="width:' + pct + '%"></span></span></button>';
     });
     html += '</div>';
 
     if (gecmis.length) {
-      html += '<h2>Son testler</h2><div class="liste">';
+      html += '<h2 class="bolum">Son testler</h2><div class="liste">';
       gecmis.slice(-6).reverse().forEach(function (g) {
         var kb = KONU[g.konu];
         html += '<button class="liste-satir" onclick="App.git(\'#/sonuc/' + g.ts + '\')">' +
           '<span class="rozet ' + oranSinif(g.oran) + '">%' + yuzde(g.oran) + '</span>' +
           '<span class="ls-ad">' + esc(kb ? kb.konu.ad : g.konu) + ' <span class="soluk">· ' + KADEMELER[g.kademe].ad + '</span></span>' +
-          '<span class="soluk">' + g.d + "D " + g.y + "Y " + g.b + "B · " + fmtTarih(g.ts) + '</span></button>';
+          '<span class="soluk kucuk">' + g.d + "D " + g.y + "Y " + g.b + "B · " + fmtTarih(g.ts) + '</span></button>';
       });
       html += '</div>';
     }
 
-    html += '<footer class="alt"><button class="btn-yazi" onclick="App.raporAyar()">' + (Bulut.url() ? "☁ Panele bağlı" : "Panel bağlantısı") + '</button>' +
+    html += '<footer class="alt"><button class="btn-yazi" onclick="App.raporAyar()">' + (Bulut.url() ? "Panele bağlı ✓" : "Panel bağlantısı") + '</button>' +
       '<button class="btn-yazi" onclick="App.yedekAl()">Yedek al</button>' +
       '<label class="btn-yazi">Yedek yükle<input type="file" accept=".json" hidden onchange="App.yedekYukle(this)"></label></footer>';
     render(html);
+  }
+  function seritOge(deger, etiket) {
+    return '<div class="serit-oge"><span class="so-deger">' + deger + '</span><span class="so-etiket">' + etiket + '</span></div>';
   }
   // Soruları hazır konular arasında, açık olup henüz geçilmemiş ilk kademe
   function siradakiTest() {
@@ -294,7 +360,7 @@ var App = (function () {
   // ================= Ders ekranı =================
   function dersEkrani(dersId) {
     var d = dersBul(dersId);
-    var html = ustCubuk(d.ikon + " " + d.ad, "#/");
+    var html = ustCubuk('<span class="baslik-ikon ders-' + d.id + '">' + ikon(d.id) + '</span>' + esc(d.ad), "#/");
     html += '<p class="soluk aciklama-yazi">Konuyu okulda bitirip kâğıt testlerini çözdükten sonra buradaki testlere geç. ' +
       'Her konuda üç kademe var; bir kademeyi en az %' + yuzde(AYAR.gecmeEsigi) + ' ile bitirince sonraki açılır.</p>';
     d.uniteler.forEach(function (u) {
@@ -314,7 +380,7 @@ var App = (function () {
             var acik = kademeAcik(konu.id, k), kd = durum.k[k];
             var sinif = "kademe-btn" + (!acik ? " kilitli" : kd ? " " + oranSinif(kd.enIyi) : "");
             html += '<button class="' + sinif + '"' + (acik ? ' onclick="App.git(\'#/hazir/' + konu.id + "/" + k + '\')"' : " disabled") + '>' +
-              '<span class="kb-ust">' + (acik ? "" : "🔒 ") + k + ". " + KADEMELER[k].ad + '</span>' +
+              '<span class="kb-ust">' + (acik ? "" : '<svg class="kilit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>') + k + ". " + KADEMELER[k].ad + '</span>' +
               '<span class="kb-alt">' + (kd ? "En iyi %" + yuzde(kd.enIyi) : acik ? adet + " soru" : "Önceki kademeyi geç") + '</span></button>';
           });
           html += '</div>';
@@ -342,7 +408,7 @@ var App = (function () {
     var kd = konuDurum(konuId).k[k];
     var html = ustCubuk(esc(kb.konu.ad), "#/ders/" + kb.ders.id) +
       '<div class="kart orta-kart">' +
-      '<div class="buyuk-ikon">' + kb.ders.ikon + '</div>' +
+      '<div class="buyuk-ikon ders-' + kb.ders.id + '">' + ikon(kb.ders.id) + '</div>' +
       '<h2>' + k + ". Kademe · " + KADEMELER[k].ad + '</h2><p class="soluk">' + KADEMELER[k].alt + '</p>' +
       '<div class="ozet">' + ozetKutu(sorular.length, "soru") +
       ozetKutu(Math.round(onerilenSure(sorular) / 60) + " dk", AYAR.sureSiniri ? "süre" : "önerilen süre") +
@@ -411,7 +477,7 @@ var App = (function () {
       '<div class="tu-sol"><strong>' + esc(kb.konu.ad) + '</strong><span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span></div>' +
       '<div class="tu-sag"><span class="soluk kucuk">' + (AYAR.sureSiniri ? "Kalan süre" : "Süre") + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
-      '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">⏸ Ara ver</button>' +
+      '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
       '<button class="btn" onclick="App.bitir()">Testi bitir</button></div></header>';
 
     html += '<div class="palet">';
@@ -535,10 +601,10 @@ var App = (function () {
     var sinif = oranSinif(kayit.oran);
     var gecti = kayit.oran >= AYAR.gecmeEsigi;
     var sonrakiVar = kayit.kademe < 3 && kademeSorulari(kayit.konu, kayit.kademe + 1).length > 0;
-    var mesaj = sinif === "iyi" ? "Harika! Bu kademe sağlam. 💪"
+    var mesaj = sinif === "iyi" ? "Harika! Bu kademe sağlam."
       : gecti ? "Geçtin. Yanlışlarının çözümünü inceledikten sonra devam et."
       : "Bu kademeyi tekrar çözmelisin. Önce aşağıdaki çözümleri dikkatle incele.";
-    if (kayit.sureDoldu) mesaj = "⏰ Süre doldu, test kendiliğinden bitti. " + mesaj;
+    if (kayit.sureDoldu) mesaj = "Süre doldu, test kendiliğinden bitti. " + mesaj;
 
     var html = ustCubuk(esc(kb.konu.ad) + ' <span class="soluk">· ' + KADEMELER[kayit.kademe].ad + '</span>', "#/ders/" + kb.ders.id);
     html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
@@ -806,6 +872,6 @@ var App = (function () {
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
     raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
-    bicim: bicim
+    bicim: bicim, ikon: ikon
   };
 })();

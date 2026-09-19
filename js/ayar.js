@@ -8,6 +8,9 @@ window.LGS_AYAR = {
   // boşken ana sayfada "Haziran 2027" görünür.
   sinavTarihi: "",
   sinavTahmini: "Haziran 2027",
+  // Ana sayfadaki yıl çizelgesinin uçları: okulların açılışı ve (tarih açıklanana kadar) tahmini sınav günü.
+  yilBasi: "2026-09-14",
+  sinavTahminiTarih: "2027-06-13",
 
   // Bir kademede bu oranın altında kalınırsa sonraki kademe açılmaz.
   gecmeEsigi: 0.6,

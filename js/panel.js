@@ -124,7 +124,7 @@ var Panel = (function () {
       kutu(Object.keys(gunler).length + (donem ? "/" + donem : ""), "çalışılan gün") + kutu(dk(o.sure), "toplam süre") + '</div>';
 
     if (!g.length) {
-      html += '<div class="kart" style="margin-top:16px"><strong>⚠️ Bu dönemde hiç test çözülmedi.</strong></div>';
+      html += '<div class="kart" style="margin-top:16px"><strong>Bu dönemde hiç test çözülmedi.</strong></div>';
     }
 
     html += '<h2>Günlük çalışma (son 14 gün)</h2><div class="kart">' + gunlukGrafik(tum) + '</div>';
@@ -141,7 +141,7 @@ var Panel = (function () {
         var x = ders[d.id];
         if (!x) return;
         var or = x.d / (x.d + x.y + x.b);
-        html += '<tr><td style="text-align:left">' + d.ikon + " " + esc(d.ad) + '</td><td>' + x.test + '</td><td>' + x.d + '</td><td>' + x.y +
+        html += '<tr class="ders-' + d.id + '"><td style="text-align:left">' + App.ikon(d.id) + esc(d.ad) + '</td><td>' + x.test + '</td><td>' + x.d + '</td><td>' + x.y +
           '</td><td>' + x.b + '</td><td>' + (Math.round(x.net * 100) / 100).toLocaleString("tr-TR") +
           '</td><td><span class="rozet ' + sinif(or) + '">%' + yuzde(or) + '</span></td></tr>';
       });
@@ -229,7 +229,7 @@ var Panel = (function () {
           }).join("") + '</span></div>';
         });
       });
-      if (satirlar) html += '<h3 class="unite-baslik">' + d.ikon + " " + esc(d.ad) + '</h3><div class="kart">' + satirlar + '</div>';
+      if (satirlar) html += '<h3 class="unite-baslik ders-' + d.id + '">' + App.ikon(d.id) + esc(d.ad) + '</h3><div class="kart">' + satirlar + '</div>';
     });
     return html ? '<h2>Konu haritası <span class="soluk kucuk">(her kademedeki en iyi sonuç)</span></h2>' + html : "";
   }
@@ -243,7 +243,7 @@ var Panel = (function () {
         '<span class="ls-ad">' + esc(kb ? kb.konu.ad : t.konu) + ' <span class="soluk">· ' + (KADEME_AD[t.kademe] || "") + '</span></span>' +
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +
-        (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) + (t.sureDoldu ? " ⏰ süre doldu" : "") + '</p>';
+        (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) + (t.sureDoldu ? " · süre doldu" : "") + '</p>';
       t.sorular.forEach(function (id, i) {
         var q = soruBul(id), c = t.cevap[id];
         if (!q || c === q.dogru) return;
