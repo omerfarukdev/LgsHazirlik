@@ -282,20 +282,114 @@ var App = (function () {
     DERSLER.forEach(function (d) { var il = dersIlerleme(d); t += il.toplam; g += il.gecilen; });
     return { toplam: t, gecilen: g, oran: t ? g / t : 0 };
   }
-  // Şafak manzarası: geçilen kademe oranı arttıkça güneş yükselir.
+  // Şafak manzarası. Geçilen kademe oranı arttıkça güneş ufkun üstüne yükselir.
+  //
+  // Gerçekçilik için: gökyüzünde gerçek bir tan vakti renk dizisi (lacivert → mor →
+  // gül → turuncu → soluk altın), ufukta yayılan sıcak parlaklık, atmosferik perspektif
+  // (uzak sırtlar gökyüzü rengine yaklaşıp soluklaşır), vadilere oturan sis şeritleri,
+  // gün doğumunda ışığı alttan yakalayan ince bulut çizgileri, yakın sırtlarda ışık
+  // gören kenar, ve hepsinin üstünde çok hafif bir kumlanma (düz vektör görüntüsünü kırar).
   function ufukSVG(oran) {
-    var cy = Math.round(318 - 120 * oran);
-    var yildiz = [[90, 40, 1.4], [210, 95, 1], [330, 30, 1.2], [470, 70, 1], [610, 28, 1.5], [720, 110, 1], [1010, 48, 1.3], [1120, 120, 1], [1160, 30, 1.1], [540, 140, .9]]
-      .map(function (y) { return '<circle cx="' + y[0] + '" cy="' + y[1] + '" r="' + y[2] + '"/>'; }).join("");
+    var cy = Math.round(322 - 150 * oran);   // güneş merkezi: tepelerin ardından yükselir
+    var cx = 838;
+    var ufukY = 300;                          // ışığın yayıldığı bant
+
+    // Yıldızlar yalnızca üst yarıda; ufka yaklaştıkça sönerler.
+    var yildizlar = [
+      [72, 34, 1.3, .75], [148, 88, .9, .45], [236, 46, 1.1, .6], [318, 112, .8, .35],
+      [392, 28, 1.4, .8], [455, 74, .9, .45], [524, 132, .8, .3], [598, 40, 1.2, .65],
+      [668, 96, .9, .4], [742, 58, 1, .5], [806, 124, .8, .28], [902, 36, 1.3, .7],
+      [978, 82, .9, .42], [1046, 52, 1.1, .58], [1112, 108, .8, .32], [1168, 30, 1.2, .66],
+      [188, 156, .7, .22], [640, 168, .7, .2], [1010, 148, .7, .24]
+    ].map(function (y) {
+      return '<circle cx="' + y[0] + '" cy="' + y[1] + '" r="' + y[2] + '" opacity="' + y[3] + '"/>';
+    }).join("");
+
+    // Alttan ışık alan ince bulut çizgileri — tan vaktinin en tanıdık işareti.
+    var bulutlar = [
+      [430, 196, 300, 5, .30], [620, 214, 380, 6, .26], [250, 232, 240, 4, .22],
+      [830, 186, 260, 4, .24], [980, 226, 300, 5, .20], [140, 208, 180, 3.5, .18],
+      [700, 246, 420, 5, .16], [1060, 200, 200, 4, .18]
+    ].map(function (b) {
+      return '<ellipse cx="' + b[0] + '" cy="' + b[1] + '" rx="' + b[2] + '" ry="' + b[3] +
+        '" fill="#ffc98e" opacity="' + b[4] + '"/>';
+    }).join("");
+
+    // Sırt çizgileri: düzgün dalga değil, kırıklı gerçek siluet.
+    var uzakSirt = "M0 286 L34 279 L58 258 L86 271 L118 267 L141 240 L166 254 L191 249 L214 231 " +
+      "L243 247 L272 244 L295 262 L331 256 L358 268 L394 261 L417 236 L441 250 L470 226 L497 243 " +
+      "L521 239 L548 259 L583 253 L608 266 L642 260 L667 234 L690 248 L719 229 L744 246 L771 242 " +
+      "L799 263 L834 257 L861 268 L893 262 L917 238 L942 252 L973 232 L998 249 L1024 245 L1051 264 " +
+      "L1086 258 L1112 269 L1145 263 L1170 245 L1200 254 V400 H0 Z";
+    var ortaSirt = "M0 324 C38 320 64 306 96 303 C128 300 148 314 182 316 C214 318 236 298 272 295 " +
+      "C308 292 330 312 364 315 C392 317 408 309 428 306 C462 301 486 285 522 288 C556 291 574 309 606 313 " +
+      "C640 317 662 302 696 299 C730 296 752 313 788 316 C818 318 834 310 856 306 C892 300 916 287 950 291 " +
+      "C984 295 1004 312 1038 315 C1072 318 1096 304 1130 301 C1160 298 1182 308 1200 311 V400 H0 Z";
+    var yakinSirt = "M0 358 C52 352 88 344 140 346 C196 348 228 362 284 360 C336 358 362 342 416 340 " +
+      "C472 338 502 354 558 353 C610 352 638 338 692 337 C748 336 778 351 834 350 C884 349 910 335 962 334 " +
+      "C1018 333 1050 348 1106 347 C1152 346 1176 338 1200 335 V400 H0 Z";
+
     return '<svg class="ufuk-svg" viewBox="0 0 1200 400" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">' +
-      '<defs><linearGradient id="gok" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c1430"/><stop offset=".5" stop-color="#1c3361"/><stop offset=".8" stop-color="#c9774f"/><stop offset="1" stop-color="#ffc47a"/></linearGradient>' +
-      '<radialGradient id="hale"><stop offset="0" stop-color="#ffd58a" stop-opacity=".85"/><stop offset=".45" stop-color="#ff9d4d" stop-opacity=".3"/><stop offset="1" stop-color="#ff9d4d" stop-opacity="0"/></radialGradient></defs>' +
-      '<rect width="1200" height="400" fill="url(#gok)"/><g fill="#fff" opacity=".7">' + yildiz + '</g>' +
-      '<circle cx="880" cy="' + cy + '" r="190" fill="url(#hale)"/><circle cx="880" cy="' + cy + '" r="44" fill="#ffd9a0"/>' +
-      '<path d="M0 306C150 262 300 282 450 294S750 246 900 284s200-24 300-4v124H0z" fill="#3c568c"/>' +
-      '<path d="M0 336c200-40 380-10 560-20s320-30 640 8v76H0z" fill="#24396a"/>' +
-      '<path d="M0 366c250-30 500 5 760-15s290-10 440 6v43H0z" fill="#121d3a"/>' +
-      '<path d="M690 400c50-22 100-30 134-50s38-30 48-46" fill="none" stroke="#ffe2b0" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 15" opacity=".9"/><path d="M872 303v-24" stroke="#ffe2b0" stroke-width="2.5" stroke-linecap="round"/><path d="M873 279l17 5.5-17 5.5z" fill="#ffb14a"/></svg>';
+      '<defs>' +
+        // Tan vakti gökyüzü: tepede gece, ufukta sıcak altın
+        '<linearGradient id="u-gok" x1="0" y1="0" x2="0" y2="1">' +
+          '<stop offset="0" stop-color="#070b1c"/><stop offset=".22" stop-color="#101a3c"/>' +
+          '<stop offset=".42" stop-color="#262c56"/><stop offset=".58" stop-color="#4a3a63"/>' +
+          '<stop offset=".70" stop-color="#7d4f60"/><stop offset=".80" stop-color="#b86a4e"/>' +
+          '<stop offset=".88" stop-color="#e09155"/><stop offset=".95" stop-color="#f7c27e"/>' +
+          '<stop offset="1" stop-color="#ffdca6"/>' +
+        '</linearGradient>' +
+        // Güneşin çevresindeki saçılma
+        '<radialGradient id="u-hale">' +
+          '<stop offset="0" stop-color="#fff0c4" stop-opacity=".95"/>' +
+          '<stop offset=".18" stop-color="#ffd089" stop-opacity=".55"/>' +
+          '<stop offset=".48" stop-color="#ff9e52" stop-opacity=".22"/>' +
+          '<stop offset="1" stop-color="#ff8c3c" stop-opacity="0"/>' +
+        '</radialGradient>' +
+        // Ufuk boyunca yayılan geniş ve basık parlaklık
+        '<radialGradient id="u-ufuk">' +
+          '<stop offset="0" stop-color="#ffcf92" stop-opacity=".60"/>' +
+          '<stop offset=".55" stop-color="#ffa860" stop-opacity=".18"/>' +
+          '<stop offset="1" stop-color="#ff9a4e" stop-opacity="0"/>' +
+        '</radialGradient>' +
+        // Vadilere oturan sis
+        '<linearGradient id="u-sis" x1="0" y1="0" x2="0" y2="1">' +
+          '<stop offset="0" stop-color="#ffd7a8" stop-opacity="0"/>' +
+          '<stop offset=".45" stop-color="#ffcfa0" stop-opacity=".34"/>' +
+          '<stop offset="1" stop-color="#e8b489" stop-opacity="0"/>' +
+        '</linearGradient>' +
+        '<filter id="u-bulanik" x="-25%" y="-160%" width="150%" height="420%">' +
+          '<feGaussianBlur stdDeviation="9"/></filter>' +
+        '<filter id="u-yumusak" x="-30%" y="-30%" width="160%" height="160%">' +
+          '<feGaussianBlur stdDeviation="3"/></filter>' +
+        // Çok hafif kumlanma: düz vektör görüntüsünü kırar
+        '<filter id="u-kum" x="0" y="0" width="100%" height="100%">' +
+          '<feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="3" stitchTiles="stitch"/>' +
+          '<feColorMatrix type="saturate" values="0"/></filter>' +
+      '</defs>' +
+
+      '<rect width="1200" height="400" fill="url(#u-gok)"/>' +
+      '<g fill="#eef2ff">' + yildizlar + '</g>' +
+      // Ufuk parlaklığı tepelerin ARKASINDA durur
+      '<ellipse cx="' + cx + '" cy="' + ufukY + '" rx="620" ry="150" fill="url(#u-ufuk)"/>' +
+      '<g filter="url(#u-bulanik)">' + bulutlar + '</g>' +
+      // Güneş: hale + disk. Ufka yakınken atmosfer onu hafifçe basıklaştırır.
+      '<circle cx="' + cx + '" cy="' + cy + '" r="290" fill="url(#u-hale)"/>' +
+      '<ellipse cx="' + cx + '" cy="' + cy + '" rx="52" ry="' + (cy > 290 ? 42 : 50) +
+        '" fill="#ffe7b8" filter="url(#u-yumusak)"/>' +
+
+      // Uzak sırt: atmosferik perspektif — gökyüzü rengine en yakın, en soluk
+      '<path d="' + uzakSirt + '" fill="#6f6f92" opacity=".72"/>' +
+      '<rect x="0" y="252" width="1200" height="62" fill="url(#u-sis)"/>' +
+      // Orta sırt
+      '<path d="' + ortaSirt + '" fill="#3f4269" opacity=".95"/>' +
+      '<rect x="0" y="300" width="1200" height="56" fill="url(#u-sis)" opacity=".8"/>' +
+      // Yakın sırt: en koyu, üst kenarında ışık gören ince bir çizgi
+      '<path d="' + yakinSirt + '" fill="#1b1e35"/>' +
+      '<path d="' + yakinSirt.replace(/ V400 H0 Z$/, "") + '" fill="none" stroke="#ffc48c" stroke-width="1.4" opacity=".46"/>' +
+
+      '<rect width="1200" height="400" filter="url(#u-kum)" opacity=".05"/>' +
+      '</svg>';
   }
   function anaSayfa() {
     var gecmis = Store.get("gecmis", []);
@@ -1236,6 +1330,6 @@ var App = (function () {
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
     tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
-    bicim: bicim, ikon: ikon
+    bicim: bicim, ikon: ikon, _ufuk: ufukSVG
   };
 })();

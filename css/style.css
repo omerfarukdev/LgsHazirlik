@@ -159,9 +159,13 @@ button:disabled { cursor: not-allowed; }
 .sy-deger { font-family: var(--baslik); font-weight: 700; font-size: 1rem; font-variant-numeric: tabular-nums; }
 .sy-etiket { opacity: .78; }
 .sy-dy { opacity: .72; font-size: .92em; }
-@media (max-width: 560px) {
-  .ufuk-ust { align-items: flex-start; }
-  .sayac { font-size: .76rem; }
+@media (max-width: 620px) {
+  /* Dar ekranda marka, geri sayım ve sayaç yan yana sığmaz; alt alta dizilir
+     ve sayaç sola yaslanır. Yoksa sayfa yatay kayar. */
+  .ufuk-ust { flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 20px; }
+  .ufuk-sag { align-items: flex-start; width: 100%; }
+  .sayac { text-align: left; font-size: .8rem; width: 100%; }
+  .sayac-satir { justify-content: flex-start; }
 }
 .ufuk-selam { margin: 0 0 6px; font-size: .95rem; color: #ffd9a0; font-weight: 600; letter-spacing: .02em; }
 .ufuk-soz {
