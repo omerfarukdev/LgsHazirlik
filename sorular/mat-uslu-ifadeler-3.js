@@ -1,150 +1,141 @@
-// Matematik — Üslü İfadeler: testleri 25 soruya tamamlayan ek parti (kademe 1-2-3) ve havuz eki
+// Matematik — Üslü İfadeler: 25 soruluk teste tamamlama (Kademe 1/2/3 ek soruları + havuz)
 window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["uslu-ifadeler"] = window.LGS_BANK["uslu-ifadeler"] || []).push(
-/* ===================== KADEME 1 — KAVRAMA (113-125) ===================== */
+/* ===================== KADEME 1 — KAVRAMA (ek) ===================== */
 {
   id: "mat-ui-113",
   kazanim: "M.8.1.2.1",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir bilim şenliğinde çok küçük sayıları tanıtan panoda 10^{-3} üslü ifadesi yer almaktadır.\n**Buna göre bu ifadenin ondalık gösterimi aşağıdakilerden hangisidir?**",
+  soru: "Bir fen dersinde ölçülen kalınlık, defterlere 10^{-2} metre olarak yazılmıştır.\n**Buna göre bu ölçümün ondalık gösterimi aşağıdakilerden hangisidir?**",
   gorsel: null,
-  secenekler: ["−1000", "0,0001", "0,001", "0,01"],
-  dogru: 2,
+  secenekler: ["0,001", "0,01", "0,1", "100"],
+  dogru: 1,
   hatalar: [
-    "Negatif üssü sayının işareti sanma: 10^{-3} ifadesi −1000 demek değildir. Negatif üs sayıyı 1'den küçük yapar, işaretini değiştirmez.",
-    "Virgülü bir basamak fazla kaydırma: 0,0001 sayısı 10^{-4} ifadesinin değeridir.",
+    "0,001: Üssü bir fazla sayma. 0,001 sayısı 10^{-3}'tür; virgülden sonra 3 basamak vardır.",
     null,
-    "Virgülü bir basamak eksik kaydırma: 0,01 sayısı 10^{-2} ifadesinin değeridir."
+    "0,1: Üssü bir eksik sayma. 0,1 sayısı 10^{-1}'dir.",
+    "100: Negatif üssü görmezden gelme. 10^{-2} ile 10^{2} aynı değildir; eksi üs sayıyı 1'den küçük yapar."
   ],
-  aciklama: `Negatif üs, sayının çarpmaya göre tersini gösterir: a^{-n} = [[1|a^{n}]]. Üssün negatif olması sayıyı eksi yapmaz, 1'den küçük yapar.
-Adım 1: İfadeyi kesir biçiminde yaz: 10^{-3} = [[1|10^{3}]].
-Adım 2: Paydayı hesapla: 10^{3} = 10 · 10 · 10 = 1000.
-Adım 3: Kesri ondalık gösterime çevir: [[1|1000]] = 0,001.
-Sağlama: 0,001 · 1000 = 1 olduğundan 0,001 gerçekten 1000'in çarpmaya göre tersidir.
-Sık yapılan hata: Üsteki sıfır sayısı ile virgülden sonraki basamak sayısını karıştırmak. 10'un üssündeki 3 sayısı, virgülden sonra üç basamak olacağını söyler: 0,001.
-Cevap C.`
+  aciklama: `10'un negatif kuvveti, 1'in 10'un o kuvvetine bölümüdür: 10^{-n} = [[1|10^{n}]]. Üssün mutlak değeri, virgülden sonraki basamak sayısını verir.
+Adım 1: Kuralı uygula: 10^{-2} = [[1|10^{2}]] = [[1|100]].
+Adım 2: Kesri ondalık gösterime çevir: [[1|100]] = 0,01.
+Sağlama: 0,01 · 100 = 1 olduğuna göre 0,01 gerçekten 1'in yüzde biridir.
+Sık yapılan hata: Negatif üssü sayının işareti sanmak. 10^{-2} negatif bir sayı değildir; 0 ile 1 arasında pozitif bir sayıdır.
+Cevap B.`
 },
 {
   id: "mat-ui-114",
   kazanim: "M.8.1.2.2",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir matematik kulübü toplantısında üyelere 3^{4} · 3^{2} işlemi sorulmuştur.\n**Buna göre bu işlemin sonucu aşağıdakilerden hangisine eşittir?**",
+  soru: "**3^{4} · 3^{2} işleminin sonucu aşağıdakilerden hangisine eşittir?**",
   gorsel: null,
-  secenekler: ["3^{6}", "3^{8}", "9^{6}", "9^{8}"],
-  dogru: 0,
+  secenekler: ["9^{6}", "3^{8}", "3^{6}", "3^{2}"],
+  dogru: 2,
   hatalar: [
+    "9^{6}: Üslerle birlikte tabanları da çarpma. Aynı tabanlı çarpımda taban değişmez.",
+    "3^{8}: Çarpmada üsleri çarpma: 4 · 2 = 8 alınmış. Üsler yalnızca üssün üssü alınırken çarpılır.",
     null,
-    "Çarpmada üsleri çarpma: 4 · 2 = 8 alınmış. Aynı tabanlı çarpmada üsler toplanır, çarpılmaz.",
-    "Tabanları da çarpma: 3 · 3 = 9 yazılmış. Kural uygulanırken taban aynı kalır.",
-    "İki hata birden: hem tabanlar çarpılmış hem de üsler çarpılmış."
+    "3^{2}: Çarpmada üsleri çıkarma: 4 − 2 = 2 alınmış. Çıkarma yalnızca bölmede yapılır."
   ],
-  aciklama: `Aynı tabanlı üslü sayılar çarpılırken taban aynı kalır, üsler toplanır: a^{n} · a^{m} = a^{n+m}.
-Adım 1: Tabanların aynı olduğunu gör: iki ifadenin de tabanı 3'tür.
+  aciklama: `Tabanları aynı olan iki üslü sayı çarpılırken taban aynen yazılır, üsler toplanır: a^{n} · a^{m} = a^{n+m}.
+Adım 1: Tabanların aynı olduğunu gör: ikisi de 3'tür.
 Adım 2: Üsleri topla: 4 + 2 = 6.
-Adım 3: Sonucu yaz: 3^{4} · 3^{2} = 3^{6}.
-Sağlama: 3^{4} = 81 ve 3^{2} = 9'dur. 81 · 9 = 729 eder. 3^{6} = 729 olduğundan sonuç doğrudur.
-Sık yapılan hata: Tabanları da çarpıp 9^{6} yazmak. 9^{6} sayısı 3^{12}'ye eşittir, yani çok daha büyüktür.
-Cevap A.`
+Adım 3: Sonucu yaz: 3^{6}.
+Sağlama: İfadeyi açık yaz: (3 · 3 · 3 · 3) · (3 · 3). Toplam 6 tane 3 çarpılıyor, yani 3^{6}.
+Sık yapılan hata: Tabanları da çarpıp 9^{6} yazmak. Taban, kaç kez çarpıldığını değil hangi sayının çarpıldığını gösterir; bu yüzden değişmez.
+Cevap C.`
 },
 {
   id: "mat-ui-115",
-  kazanim: "M.8.1.2.5",
+  kazanim: "M.8.1.2.3",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir doğa dergisinde bir kar tanesini oluşturan buz kristalinin kütlesi 74 · 10^{-7} gram olarak verilmiştir.\n**Buna göre bu kütlenin bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  soru: "**3 · 10^{1} + 4 · 10^{-1} ifadesinin ondalık gösterimi aşağıdakilerden hangisidir?**",
   gorsel: null,
-  secenekler: ["74 · 10^{-6}", "7,4 · 10^{-6}", "7,4 · 10^{-7}", "7,4 · 10^{-8}"],
-  dogru: 1,
+  secenekler: ["3,04", "3,4", "30,4", "34"],
+  dogru: 2,
   hatalar: [
-    "Baştaki sayıyı 1 ile 10 arasına getirmeden üssü değiştirme: 74 sayısı 10'dan büyük olduğu için bu bir bilimsel gösterim değildir; üstelik değeri verilen kütlenin 10 katıdır.",
+    "3,04: Her iki terimi de bir basamak sağa kaydırma. Bu, 3 · 10^{0} + 4 · 10^{-2} çözümlemesinin sonucudur.",
+    "3,4: 10^{1} çarpanını 10^{0} sanma. 3 rakamı onlar basamağındadır, birler basamağında değil.",
     null,
-    "Üssü değiştirmeyi unutma: 74 yerine 7,4 yazılınca sayı 10 kat küçüldüğü için üs de 1 artmalıdır.",
-    "Üssü ters yönde değiştirme: baştaki sayı 10 kat küçültülürken üs 1 artar, azalmaz."
+    "34: Negatif üssü yok sayma. 4 · 10^{-1} = 0,4'tür; 4 · 10^{0} = 4 değildir."
   ],
-  aciklama: `Bilimsel gösterim a · 10^{n} biçimindedir; burada a, 1 ≤ a < 10 koşulunu sağlar. Bir sayı zaten 10'un bir kuvvetiyle yazılmışsa baştaki sayıyı bu aralığa çekmek yeter: baştaki sayı 10 kat küçülürse üs 1 artar, 10 kat büyürse üs 1 azalır.
-Adım 1: Baştaki sayıya bak: 74 sayısı 10'dan büyüktür, demek ki gösterim bilimsel değildir.
-Adım 2: 74'ü 1 ile 10 arasına çek: 74 ÷ 10 = 7,4. Sayıyı 10 kat küçülttün.
-Adım 3: Dengeyi koru: küçülttüğün kadar üssü büyüt. Üs −7 iken 1 artar ve −6 olur.
-Adım 4: Yaz: 74 · 10^{-7} = 7,4 · 10^{-6}.
-Sağlama: 74 · 10^{-7} = 0,0000074 ve 7,4 · 10^{-6} = 0,0000074. İki gösterim de aynı sayıyı verir.
-Sık yapılan hata: Negatif üslerde "büyütme" yönünü şaşırmak. −7'nin 1 artmış hâli −6'dır; −8 değildir.
-Cevap B.`
+  aciklama: `Çözümlenmiş bir ifadede her terim, bir rakam ile o rakamın basamak değerinin çarpımıdır. Terimleri tek tek hesaplayıp toplamak yeterlidir.
+Adım 1: Birinci terimi hesapla: 3 · 10^{1} = 3 · 10 = 30.
+Adım 2: İkinci terimi hesapla: 4 · 10^{-1} = 4 · 0,1 = 0,4.
+Adım 3: Topla: 30 + 0,4 = 30,4.
+Sağlama: 30,4 sayısında 3 onlar, 0 birler, 4 onda birler basamağındadır. Çözümlemede birler terimi yazılmamış, çünkü o basamakta 0 vardır.
+Sık yapılan hata: 10^{1} ile 10^{-1} çarpanlarını aynı yöne kaydırmak. Üs pozitifse basamak virgülün solunda, negatifse sağındadır.
+Cevap C.`
 },
 {
   id: "mat-ui-116",
   kazanim: "M.8.1.2.4",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir kuyumcu atölyesinde bir yüzüğe yapılan altın kaplamanın kalınlığı 0,0007 santimetredir. Usta bu sayıyı, n bir tam sayı olmak üzere 7 · 10^{n} biçiminde yazmıştır.\n**Buna göre n yerine hangi sayı gelmelidir?**",
+  soru: "**7 · 10^{4} sayısı aşağıdakilerden hangisine eşittir?**",
   gorsel: null,
-  secenekler: ["−4", "−3", "3", "4"],
-  dogru: 0,
+  secenekler: ["0,7 · 10^{3}", "7 · 10^{3}", "70 · 10^{3}", "700 · 10^{3}"],
+  dogru: 2,
   hatalar: [
+    "0,7 · 10^{3} = 700: Baştaki sayıyı küçültürken üssü de küçültme. Baştaki sayı 10'a bölünürse üs 1 artmalıdır.",
+    "7 · 10^{3} = 7000: Yalnızca üssü değiştirip baştaki sayıyı olduğu gibi bırakma. Bu, sayının onda biridir.",
     null,
-    "Yalnızca sıfırları sayma: virgülden sonra üç sıfır görülüp −3 yazılmış; oysa 7 rakamının durduğu basamak da sayılmalıdır. 7 · 10^{-3} = 0,007'dir.",
-    "Üssün işaretini yazmayı unutma: 7 · 10^{3} = 7000 eder. 1'den küçük sayılarda 10'un üssü negatiftir.",
-    "Hem işareti hem basamak sayısını yanlış yazma: 7 · 10^{4} = 70 000 eder."
+    "700 · 10^{3} = 700 000: Baştaki sayıyı 100 katına çıkarırken üssü yalnızca 1 azaltma. Bu, sayının 10 katıdır."
   ],
-  aciklama: `Bir sayı 10'un tam sayı kuvvetleriyle yazılırken üs, virgülün kaç basamak kaydığını söyler. Sayı 1'den küçükse üs negatiftir.
-Adım 1: 0,0007 sayısında 7 rakamının hangi basamakta olduğunu bul. Virgülden sonra sırasıyla onda birler, yüzde birler, binde birler, on binde birler gelir. 7 rakamı dördüncü sırada, yani on binde birler basamağındadır.
-Adım 2: On binde birler basamağının değeri [[1|10 000]] = 10^{-4}'tür.
-Adım 3: Öyleyse 0,0007 = 7 · 10^{-4} olur ve n = −4'tür.
-Sağlama: 7 · 10^{-4} = 7 · 0,0001 = 0,0007.
-Sık yapılan hata: Virgülden sonraki sıfırları sayıp üssü −3 yazmak. Sayılması gereken, 7 rakamının kendi basamağı dâhil virgülden sonraki basamak sayısıdır.
-Cevap A.`
+  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılabilir. Baştaki sayı 10 katına çıkarsa üs 1 azalır, baştaki sayı 10'a bölünürse üs 1 artar; böylece sayının değeri korunur.
+Adım 1: Sayıyı aç: 7 · 10^{4} = 7 · 10 000 = 70 000.
+Adım 2: İstenen biçimde üs 10^{3} olacaksa baştaki sayı 10 katına çıkmalıdır: 7 → 70.
+Adım 3: Yaz: 70 · 10^{3} = 70 · 1000 = 70 000.
+Sağlama: 7 · 10^{4} = 70 · 10^{3} = 700 · 10^{2}. Her adımda baştaki sayı 10 katına çıkarken üs 1 azaldı.
+Sık yapılan hata: Baştaki sayıyı büyütürken üssü azaltmayı unutmak; bu, sayının değerini değiştirir.
+Cevap C.`
 },
 {
   id: "mat-ui-117",
-  kazanim: "M.8.1.2.3",
+  kazanim: "M.8.1.2.5",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir teknoloji sitesinde tanıtılan cep telefonunun kalınlığı 0,86 santimetredir. Bu sayının basamakları aşağıdaki tabloda gösterilmiştir.\n**Buna göre 0,86 sayısının 10'un tam sayı kuvvetleriyle çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Basamak</th><th>Birler</th><th>Onda birler</th><th>Yüzde birler</th></tr><tr><td>Rakam</td><td>0</td><td>8</td><td>6</td></tr></table>`,
-  secenekler: [
-    "8 · 10^{-2} + 6 · 10^{-3}",
-    "8 · 10^{-1} + 6 · 10^{-2}",
-    "8 · 10^{0} + 6 · 10^{-1}",
-    "8 · 10^{1} + 6 · 10^{0}"
-  ],
+  soru: "**Aşağıdaki gösterimlerden hangisi bilimsel gösterimdir?**",
+  gorsel: null,
+  secenekler: ["0,9 · 10^{5}", "6,3 · 10^{4}", "12 · 10^{3}", "45 · 10^{-2}"],
   dogru: 1,
   hatalar: [
-    "Bir basamak fazla kaydırma: 8 rakamı yüzde birler basamağında sanılmış. Bu çözümleme 0,086 sayısına aittir.",
+    "0,9 · 10^{5}: Baştaki sayı 1'den küçük. Bilimsel gösterimde baştaki sayı 1 ile 10 arasında olmalıdır; 1 de bu aralığa dâhildir.",
     null,
-    "Baştaki sıfırı da bir rakam sayıp çözümlemeye birler basamağından başlama: bu çözümleme 8,6 sayısına aittir.",
-    "Virgülü hiç dikkate almama: bu çözümleme 86 sayısına aittir."
+    "12 · 10^{3}: Baştaki sayı 10'dan büyük. Değeri doğru yazılabilir ama gösterim bilimsel değildir.",
+    "45 · 10^{-2}: Baştaki sayı 10'dan büyük. Üssün negatif olması gösterimi bilimsel yapmaz."
   ],
-  aciklama: `Bir ondalık gösterimi çözümlemek, her rakamı kendi basamağının değeriyle çarpıp bu çarpımları toplamaktır. Virgülden sonraki basamaklar sırasıyla 10^{-1}, 10^{-2}, 10^{-3}… değerlerini alır.
-Adım 1: Tam kısma bak: 0,86 sayısının birler basamağındaki rakam 0'dır. 0 · 10^{0} = 0 ettiği için bu terim yazılmaz.
-Adım 2: 8 rakamı onda birler basamağındadır: 8 · 10^{-1} = 0,8.
-Adım 3: 6 rakamı yüzde birler basamağındadır: 6 · 10^{-2} = 0,06.
-Adım 4: Terimleri topla ve yaz: 8 · 10^{-1} + 6 · 10^{-2}.
-Sağlama: 0,8 + 0,06 = 0,86.
-Sık yapılan hata: Tam kısmı 0 olan sayılarda çözümlemeye birler basamağından başlamak. Sayının ilk anlamlı rakamı virgülden sonraysa çözümleme negatif üslerle başlar.
+  aciklama: `Bilimsel gösterim a · 10^{n} biçimindedir. Burada a sayısı 1'den küçük olmayan ve 10'dan küçük bir sayıdır (1 ≤ a < 10); n ise bir tam sayıdır. Üssün işareti serbesttir, asıl koşul baştaki sayıyla ilgilidir.
+Adım 1: Baştaki sayıları tek tek denetle: 0,9 < 1 olduğu için uygun değildir.
+Adım 2: 6,3 sayısı 1 ile 10 arasındadır; bu gösterim koşulu sağlar.
+Adım 3: 12 ve 45 sayıları 10'dan büyüktür; ikisi de uygun değildir.
+Sağlama: Uygun olmayanları düzelt: 0,9 · 10^{5} = 9 · 10^{4}; 12 · 10^{3} = 1,2 · 10^{4}; 45 · 10^{-2} = 4,5 · 10^{-1}.
+Sık yapılan hata: Üs negatifse gösterimin bilimsel olamayacağını sanmak. Koşul yalnızca baştaki sayıyla ilgilidir.
 Cevap B.`
 },
 {
   id: "mat-ui-118",
-  kazanim: "M.8.1.2.2",
+  kazanim: "M.8.1.2.5",
   kademe: 1,
   zorluk: 1,
-  soru: "Bir matematik uygulamasının alıştırma ekranında 2^{-4} · 2^{6} işlemi çıkmıştır.\n**Buna göre bu işlemin sonucu aşağıdakilerden hangisine eşittir?**",
+  soru: "Bir haber sitesinde bir videonun izlenme sayısı 5 · 10^{6} olarak verilmiştir.\n**Buna göre bu video kaç kez izlenmiştir?**",
   gorsel: null,
-  secenekler: ["2^{-24}", "2^{-10}", "2^{2}", "2^{10}"],
+  secenekler: ["50 000", "500 000", "5 000 000", "50 000 000"],
   dogru: 2,
   hatalar: [
-    "Çarpmada üsleri çarpma: (−4) · 6 = −24 alınmış. Aynı tabanlı çarpmada üsler toplanır.",
-    "Üsleri toplarken işareti yanlış kullanma: −4 − 6 = −10 alınmış; oysa üsler toplanır, −4 + 6 = 2 olur.",
+    "50 000: Üssü 4 sanma. 10^{6} sayısında 6 tane sıfır vardır.",
+    "500 000: Bir sıfırı eksik yazma. 5 · 10^{5} = 500 000'dir.",
     null,
-    "Negatif üssü pozitif sayma: 4 + 6 = 10 alınmış. Üssün eksi işareti toplama girerken korunmalıdır."
+    "50 000 000: Bir sıfırı fazla yazma. 5 · 10^{7} = 50 000 000'dir."
   ],
-  aciklama: `Aynı tabanlı üslü sayılar çarpılırken üsler toplanır: a^{n} · a^{m} = a^{n+m}. Üslerden biri negatifse toplama işlemi yine aynı kuralla yapılır; eksi işareti yok sayılmaz.
-Adım 1: Tabanlar aynı: ikisi de 2.
-Adım 2: Üsleri topla: (−4) + 6 = 2.
-Adım 3: Sonucu yaz: 2^{-4} · 2^{6} = 2^{2}.
-Sağlama: 2^{-4} = [[1|16]] ve 2^{6} = 64'tür. [[1|16]] · 64 = [[64|16]] = 4 eder; 2^{2} = 4 olduğundan sonuç doğrudur.
-Sık yapılan hata: Negatif üsleri toplarken işlemi çıkarmaya çevirip −10 bulmak. (−4) + 6 işleminde büyük olan 6 pozitif olduğu için sonuç pozitiftir.
+  aciklama: `Bilimsel gösterimle yazılmış bir sayıyı açmak için baştaki sayı, 10'un o kuvvetiyle çarpılır. 10'un pozitif kuvvetleri 1'in yanına üs kadar sıfır yazılarak bulunur.
+Adım 1: 10'un kuvvetini aç: 10^{6} = 1 000 000.
+Adım 2: Baştaki sayıyla çarp: 5 · 1 000 000 = 5 000 000.
+Sağlama: Virgülü sağa kaydırarak da bulabilirsin: 5,0 sayısında virgülü 6 basamak sağa kaydırınca 5 000 000 elde edilir.
+Sık yapılan hata: Sıfırları sayarken şaşırmak. Üs kaçsa, baştaki sayının arkasına o kadar sıfır gelir.
 Cevap C.`
 },
 {
@@ -152,191 +143,190 @@ Cevap C.`
   kazanim: "M.8.1.2.1",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir müzik atölyesinde gitar akordu anlatılırken bir notanın frekansının her oktav yükselişte 2 katına çıktığı söylenmiştir. Atölyedeki tabloda başlangıç notasının frekansı ile bu notanın birinci ve ikinci oktavdaki frekansları verilmiştir.\n**Buna göre başlangıç notasının 4 oktav yukarısındaki notanın frekansı kaç hertzdir?**",
-  gorsel: `<table class="tablo"><tr><th>Oktav</th><th>Başlangıç</th><th>1. oktav</th><th>2. oktav</th></tr><tr><td>Frekans (Hz)</td><td>55</td><td>110</td><td>220</td></tr></table>`,
-  secenekler: ["220", "440", "880", "1760"],
-  dogru: 2,
+  soru: "Bir bulmaca dergisinin \"Zihin Jimnastiği\" sayfasında aşağıdaki işlem verilmiştir.\n**Buna göre bu işlemin sonucu kaçtır?**",
+  gorsel: `<svg viewBox="0 0 440 130" role="img" aria-label="Dergi sayfasında yazan işlem: eksi 2'nin 4. kuvveti eksi, eksi 2'nin 3. kuvveti"><rect x="14" y="14" width="412" height="102" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="34" y="46" font-size="16" fill="currentColor">ZİHİN JİMNASTİĞİ</text><text x="220" y="94" font-size="28" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">(−2)<tspan font-size="18" dy="-12">4</tspan><tspan dy="12"> − (−2)</tspan><tspan font-size="18" dy="-12">3</tspan></text></svg>`,
+  secenekler: ["−8", "−2", "8", "24"],
+  dogru: 3,
   hatalar: [
-    "Tablodaki son değeri cevap sanma: 220 Hz, 2. oktavın frekansıdır; iki oktav daha yükselmek gerekir.",
-    "Bir oktavı eksik sayma: 440 Hz, 3. oktavın frekansıdır (55 · 2^{3}).",
-    null,
-    "Bir oktavı fazla sayma: 1760 Hz, 5. oktavın frekansıdır (55 · 2^{5})."
+    "−8: Tek kuvvette negatif tabanın işaretini kaybetme. (−2)^{4} = −16 sanılıp −16 − (−8) = −8 bulunmuş.",
+    "−2: Üs almak yerine tabanı üsle çarpma: (−2) · 4 = −8 ve (−2) · 3 = −6 alınıp −8 − (−6) = −2 bulunmuş.",
+    "8: Negatif bir sayıyı çıkarırken işaret değişimini atlama: 16 − 8 = 8 alınmış. Oysa −(−8) = +8'dir.",
+    null
   ],
-  aciklama: `Bir büyüklük her adımda aynı sayıyla çarpılıyorsa toplam değişim üslü ifadeyle yazılır: kaç adım varsa üs o kadardır.
-Adım 1: Tablodaki örüntüyü oku. 55 → 110 → 220 giderken her seferinde 2 ile çarpılıyor. Demek ki k. oktavdaki frekans 55 · 2^{k}'dir.
-Adım 2: Kuralı sağla: 2. oktav için 55 · 2^{2} = 55 · 4 = 220. Tablodaki değerle uyuşuyor.
-Adım 3: 4. oktav için kuralı uygula: 55 · 2^{4} = 55 · 16.
-Adım 4: Çarpımı yap: 55 · 16 = 880 Hz.
-Sağlama: 220'den itibaren iki kez ikiye katla: 220 → 440 → 880.
-Sık yapılan hata: Tabloda "2. oktav" 220 yazdığı için iki katlama daha gerektiğini fark etmeyip 440'ta durmak.
-Cevap C.`
+  aciklama: `Taban negatifse üssün tek mi çift mi olduğuna bakılır: çift kuvvette sonuç pozitif, tek kuvvette negatif olur. Ayrıca bir sayıdan negatif bir sayı çıkarmak, o sayıyı toplamak demektir.
+Adım 1: Birinci ifadeyi hesapla: (−2)^{4} = (−2) · (−2) · (−2) · (−2) = 16. Üs çift olduğu için sonuç pozitiftir.
+Adım 2: İkinci ifadeyi hesapla: (−2)^{3} = (−2) · (−2) · (−2) = −8. Üs tek olduğu için sonuç negatiftir.
+Adım 3: Çıkarmayı yap: 16 − (−8) = 16 + 8 = 24.
+Sağlama: Aynı tabanın çift kuvveti pozitif, tek kuvveti negatiftir; pozitif bir sayıdan negatif bir sayı çıkarıldığında sonuç ikisinin de büyüğünden büyük çıkar. 24 > 16 olması bunu doğruluyor.
+Sık yapılan hata: İkinci terimin başındaki eksi ile ifadenin kendi eksisini tek eksi sayıp 16 − 8 = 8 demek.
+Cevap D.`
 },
 {
   id: "mat-ui-120",
   kazanim: "M.8.1.2.2",
   kademe: 1,
   zorluk: 2,
-  soru: "Okul gazetesinin bulmaca köşesinde her hafta üslü ifadelerle bir işlem yayımlanmakta, sonucu doğru bulan öğrencilere kitap verilmektedir. Bu haftanın işlemi aşağıdaki kutuda verilmiştir.\n**Buna göre bu işlemin sonucu aşağıdakilerden hangisine eşittir?**",
-  gorsel: `<svg viewBox="0 0 460 130" role="img" aria-label="Bulmaca kutusu: 2 üssü 3 çarpı 2 üssü 5, bölü 2 üssü 6"><rect x="20" y="20" width="420" height="90" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="16"><text x="40" y="46">BU HAFTANIN İŞLEMİ</text></g><g fill="var(--vurgu)" font-size="28" font-weight="bold" text-anchor="middle"><text x="230" y="90">(2<tspan font-size="18" dy="-10">3</tspan><tspan dy="10"> · 2</tspan><tspan font-size="18" dy="-10">5</tspan><tspan dy="10">) ÷ 2</tspan><tspan font-size="18" dy="-10">6</tspan></text></g></svg>`,
-  secenekler: ["2^{2}", "2^{9}", "2^{14}", "2^{15}"],
-  dogru: 0,
+  soru: "Bir hava kalitesi ölçüm cihazı her saniyede 10^{5} ölçüm yapmakta ve yaptığı her ölçümü 10^{-8} saniyede işlemektedir.\n**Buna göre cihazın bir saniyede yaptığı ölçümleri işlemesi kaç saniye sürer?**",
+  gorsel: null,
+  secenekler: ["10^{-13}", "10^{-3}", "10^{3}", "10^{13}"],
+  dogru: 1,
   hatalar: [
+    "10^{-13}: İki üssü de negatif alıp toplama: (−5) + (−8) = −13 bulunmuş. Ölçüm sayısındaki üs pozitiftir.",
     null,
-    "Çarpmada üsleri çarpma: 3 · 5 = 15 alınıp 15 − 6 = 9 bulunmuş. Çarpmada üsler toplanır.",
-    "Bölmede de üsleri toplama: 3 + 5 + 6 = 14 alınmış. Toplama yalnızca çarpmada yapılır.",
-    "Hem çarpmada üsleri çarpma hem de bölme adımını atlama: yalnızca 3 · 5 = 15 hesaplanmış."
+    "10^{3}: Üsleri toplarken işaretleri karıştırma: 8 − 5 = 3 alınmış. Doğrusu 5 + (−8) = −3'tür.",
+    "10^{13}: Çarpmada üsleri çıkarma: 5 − (−8) = 13 alınmış. Çıkarma yalnızca bölmede yapılır."
   ],
-  aciklama: `İki kural gerekir: aynı tabanlı çarpmada üsler toplanır (a^{n} · a^{m} = a^{n+m}), aynı tabanlı bölmede paydaki üsten paydadaki üs çıkarılır (a^{n} ÷ a^{m} = a^{n−m}).
-Adım 1: Parantez içini sadeleştir: 2^{3} · 2^{5} = 2^{3+5} = 2^{8}.
-Adım 2: Bölmeyi yap: 2^{8} ÷ 2^{6} = 2^{8−6} = 2^{2}.
-Sağlama: Sayılarla dene. 2^{3} = 8, 2^{5} = 32; 8 · 32 = 256. 2^{6} = 64 olduğundan 256 ÷ 64 = 4 = 2^{2}.
-Sık yapılan hata: Çarpma ile bölmenin kurallarını karıştırmak. Çarpmada üsler toplanır, bölmede çıkarılır; hiçbirinde üsler çarpılmaz.
-Cevap A.`
+  aciklama: `Tabanları aynı olan iki üslü sayı çarpılırken taban aynı kalır, üsler toplanır: a^{n} · a^{m} = a^{n+m}. Bu kural üslerden biri ya da ikisi negatifken de geçerlidir.
+Adım 1: İşlemi kur. Cihaz 10^{5} ölçüm yapıyor ve her biri 10^{-8} saniye sürüyorsa toplam süre 10^{5} · 10^{-8} olur.
+Adım 2: Üsleri topla: 5 + (−8) = −3.
+Adım 3: Sonucu yaz: 10^{-3} saniye, yani 0,001 saniye.
+Sağlama: 10^{5} = 100 000 ölçüm ve her biri 0,000 000 01 saniye sürer; 100 000 · 0,000 000 01 = 0,001 saniyedir.
+Sık yapılan hata: Çarpmada üsleri çıkarmak ya da negatif üssü toplamaya dâhil ederken işareti düşürmek.
+Cevap B.`
 },
 {
   id: "mat-ui-121",
   kazanim: "M.8.1.2.3",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir eczanede hassas terazi kullanılarak bir vitamin tabletinin kütlesi ölçülmüştür. Eczacı, ekranda gördüğü sayıyı basamak değerlerine ayırıp kayıt defterine yazacaktır. Terazinin ekran görüntüsü aşağıda verilmiştir.\n**Buna göre ekrandaki sayının 10'un tam sayı kuvvetleriyle çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
-  gorsel: `<svg viewBox="0 0 440 150" role="img" aria-label="Hassas terazi ekranında 0,375 gram yazıyor"><rect x="30" y="18" width="380" height="80" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="60" y="110" width="320" height="20" rx="6" fill="none" stroke="currentColor" stroke-width="2"/><text x="220" y="70" fill="var(--vurgu)" font-size="40" font-weight="bold" text-anchor="middle">0,375 g</text><text x="220" y="146" fill="currentColor" font-size="15" text-anchor="middle">Hassas terazi</text></svg>`,
+  soru: "Bir akaryakıt istasyonunda pompanın ekranı, doldurulan yakıt miktarını litre cinsinden göstermektedir. Bir aracın deposu dolduğunda ekranda görünen değer aşağıda verilmiştir.\n**Buna göre bu değerin 10'un tam sayı kuvvetleriyle çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
+  gorsel: `<svg viewBox="0 0 400 150" role="img" aria-label="Akaryakıt pompası ekranı: 47,05 litre"><rect x="16" y="16" width="368" height="118" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="16" y1="56" x2="384" y2="56" stroke="currentColor" stroke-width="2"/><text x="200" y="44" font-size="16" fill="currentColor" text-anchor="middle">DOLDURULAN MİKTAR</text><text x="200" y="108" font-size="34" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">47,05 L</text></svg>`,
   secenekler: [
-    "3 · 10^{-2} + 7 · 10^{-3} + 5 · 10^{-4}",
-    "3 · 10^{-1} + 7 · 10^{-2} + 5 · 10^{-3}",
-    "5 · 10^{-1} + 7 · 10^{-2} + 3 · 10^{-3}",
-    "3 · 10^{0} + 7 · 10^{-1} + 5 · 10^{-2}"
+    "4 · 10^{1} + 7 · 10^{0} + 5 · 10^{-1}",
+    "4 · 10^{2} + 7 · 10^{1} + 5 · 10^{-2}",
+    "4 · 10^{1} + 7 · 10^{0} + 5 · 10^{-3}",
+    "4 · 10^{1} + 7 · 10^{0} + 5 · 10^{-2}"
   ],
-  dogru: 1,
+  dogru: 3,
   hatalar: [
-    "Bütün basamakları bir sıra sağa kaydırma: bu çözümleme 0,0375 sayısına aittir.",
-    null,
-    "Rakamları ters sırada eşleştirme: soldan sağa 3, 7, 5 sırası korunmalıdır. Bu çözümleme 0,573 sayısına aittir.",
-    "Tam kısmı 0 olan sayıda çözümlemeye birler basamağından başlama: bu çözümleme 3,75 sayısına aittir."
+    "Virgülden sonraki sıfırı saymayıp 5'i onda birler basamağına koyma: bu çözümleme 47,5 sayısına aittir.",
+    "Virgülden önceki basamak kuvvetlerini birer artırma: onlar basamağının kuvveti 10^{1}, birler basamağının kuvveti 10^{0}'dır. Bu çözümleme 470,05 eder.",
+    "Virgülden sonraki basamağı bir fazla kaydırma: bu çözümleme 47,005 sayısına aittir. 5 rakamı binde birler değil yüzde birler basamağındadır.",
+    null
   ],
-  aciklama: `Virgülden sonraki basamakların değerleri sırasıyla 10^{-1} (onda birler), 10^{-2} (yüzde birler), 10^{-3} (binde birler) biçiminde gider. Çözümlemede her rakam kendi basamağının değeriyle çarpılır.
-Adım 1: Ekrandaki sayı 0,375'tir. Birler basamağı 0 olduğu için çözümlemede yer almaz.
-Adım 2: Rakamları basamaklarıyla eşle: 3 → onda birler, 7 → yüzde birler, 5 → binde birler.
-Adım 3: Terimleri yaz: 3 · 10^{-1} + 7 · 10^{-2} + 5 · 10^{-3}.
-Sağlama: 0,3 + 0,07 + 0,005 = 0,375.
-Sık yapılan hata: Rakamların sırasını bozmak. Çözümlemede rakamlar soldan sağa okundukları sırayla, basamak değerleri ise küçülerek yazılır.
-Cevap B.`
+  aciklama: `Bir ondalık gösterimi çözümlerken her rakam, bulunduğu basamağın değeriyle çarpılır. Virgülden önceki basamaklar 10^{0}, 10^{1}, 10^{2}…; virgülden sonrakiler 10^{-1}, 10^{-2}… değerini alır.
+Adım 1: Ekrandaki sayının basamaklarını adlandır: 4 onlar, 7 birler, 0 onda birler, 5 yüzde birler basamağındadır.
+Adım 2: Her rakamı basamak değeriyle çarp: 4 · 10^{1} + 7 · 10^{0} + 0 · 10^{-1} + 5 · 10^{-2}.
+Adım 3: Değeri 0 olan terim toplamı değiştirmediği için yazılmayabilir: 4 · 10^{1} + 7 · 10^{0} + 5 · 10^{-2}.
+Sağlama: 40 + 7 + 0,05 = 47,05.
+Sık yapılan hata: Virgülden sonraki sıfırı atlayıp 5 rakamını onda birler basamağına kaydırmak; o zaman 47,5 elde edilir ve bu, ekrandaki değerin yaklaşık 10 katıdır.
+Cevap D.`
 },
 {
   id: "mat-ui-122",
   kazanim: "M.8.1.2.4",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir doğa dergisinde, bir arı kovanındaki arıların bir mevsim boyunca yaptığı çiçek ziyareti sayısı 4 · 10^{5} olarak verilmiştir. Derginin editörü aynı sayıyı, yazının başlığında kullanmak için 10'un farklı bir kuvvetiyle yeniden yazmak istemektedir.\n**Buna göre aşağıdakilerden hangisi bu sayıya eşittir?**",
+  soru: "Bir gıda analiz laboratuvarında bütün kütleler, forma 10^{-6} gram (mikrogram) biriminde yazılmaktadır. Bir numunedeki katkı maddesinin kütlesi terazide 0,00042 gram ölçülmüştür.\n**Buna göre bu kütle forma hangi sayı ile yazılır?**",
   gorsel: null,
-  secenekler: ["0,04 · 10^{6}", "0,4 · 10^{6}", "4 · 10^{6}", "40 · 10^{6}"],
-  dogru: 1,
+  secenekler: ["420", "42", "4,2", "0,42"],
+  dogru: 0,
   hatalar: [
-    "Baştaki sayıyı 100 kat küçültüp üssü yalnızca 1 artırma: 0,04 · 10^{6} = 40 000 eder, verilen sayının onda biridir.",
     null,
-    "Üssü 1 artırırken baştaki sayıyı küçültmeyi unutma: 4 · 10^{6} = 4 000 000 eder, verilen sayının 10 katıdır.",
-    "Hem baştaki sayıyı 10 kat büyütme hem de üssü 1 artırma: 40 · 10^{6} = 40 000 000 eder."
+    "42: Virgülü bir basamak eksik kaydırma. 42 · 10^{-6} = 0,000042 gram eder; bu, ölçülen kütlenin onda biridir.",
+    "4,2: Virgülü iki basamak eksik kaydırma. 4,2 · 10^{-6} = 0,0000042 gram eder.",
+    "0,42: Virgülü üç basamak eksik kaydırma. 0,42 · 10^{-6} = 0,000 000 42 gram eder."
   ],
-  aciklama: `Bir sayı 10'un farklı kuvvetleriyle birçok biçimde yazılabilir; yeter ki değeri korunsun. Kural şudur: baştaki sayı 10 kat küçülürse 10'un üssü 1 artar, baştaki sayı 10 kat büyürse üs 1 azalır.
-Adım 1: Verilen sayının değerini bul: 4 · 10^{5} = 4 · 100 000 = 400 000.
-Adım 2: Üssü 6 yapmak istiyorsun; üs 1 arttığı için baştaki sayı 10 kat küçülmelidir: 4 ÷ 10 = 0,4.
-Adım 3: Yaz: 400 000 = 0,4 · 10^{6}.
-Sağlama: 0,4 · 1 000 000 = 400 000. Değer korunmuştur.
-Sık yapılan hata: Üssü büyütürken baştaki sayıyı olduğu gibi bırakmak. Bu, sayıyı 10 kat büyütür.
-Cevap B.`
+  aciklama: `Bir sayıyı 10'un belirli bir kuvveti cinsinden yazmak, baştaki sayı ile üssü birbirini dengeleyecek biçimde değiştirmek demektir: üs 1 azalırsa baştaki sayı 10 katına çıkar.
+Adım 1: Kütleyi bilimsel gösterime çevir: 0,00042 = 4,2 · 10^{-4} gram.
+Adım 2: İstenen birim 10^{-6}'dır. Üs −4'ten −6'ya inerken 2 azaldığına göre baştaki sayı 100 katına çıkmalıdır: 4,2 → 420.
+Adım 3: Yaz: 0,00042 = 420 · 10^{-6} gram. Forma 420 yazılır.
+Sağlama: 420 · 0,000001 = 0,00042. Sayı değişmedi, yalnızca yazılışı değişti.
+Sık yapılan hata: Üs küçülürken baştaki sayıyı da küçültmek. Üs azalıyorsa baştaki sayı büyümelidir; ikisi ters yönde değişir.
+Cevap A.`
 },
 {
   id: "mat-ui-123",
   kazanim: "M.8.1.2.5",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir tekstil laboratuvarında dört ipliğin çapı ölçülmüş ve sonuçlar bilimsel gösterimle tabloya yazılmıştır. Laboratuvar sorumlusu, çapı en küçük olan ipliği seçip mikroskopta inceleyecektir.\n**Buna göre sorumlunun seçeceği iplik hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>İplik</th><th>K</th><th>L</th><th>M</th><th>N</th></tr><tr><td>Çap (m)</td><td>6,2 · 10<sup>−5</sup></td><td>2,3 · 10<sup>−4</sup></td><td>9,5 · 10<sup>−4</sup></td><td>8,1 · 10<sup>−6</sup></td></tr></table>`,
-  secenekler: ["K", "L", "M", "N"],
-  dogru: 3,
+  soru: "Bir meteoroloji çalışmasında bir kar tanesinin kütlesi ortalama 3,5 · 10^{-3} gram olarak alınmaktadır.\n**Buna göre 100 kar tanesinin toplam kütlesinin bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: ["3,5 · 10^{-5}", "3,5 · 10^{-2}", "3,5 · 10^{-1}", "3,5 · 10^{5}"],
+  dogru: 2,
   hatalar: [
-    "Üsleri yanlış sıralama: −5 üssü −6'dan küçük sanılıp baştaki sayısı küçük olan iplik seçilmiş.",
-    "Yalnızca baştaki sayılara bakma: 2,3 en küçük baştaki sayıdır ama üssü −4 olduğu için bu iplik en kalın ipliklerden biridir.",
-    "Soru kökünü ters okuma: 9,5 · 10^{-4} tablodaki en büyük çaptır; soruda en küçük çap istenmiştir.",
-    null
+    "3,5 · 10^{-5}: Çarpmada üsleri çıkarma: (−3) − 2 = −5 alınmış. Çarpmada üsler toplanır.",
+    "3,5 · 10^{-2}: 100 sayısını 10 sanma. 100 = 10^{2}'dir, bu yüzden üs 1 değil 2 artar.",
+    null,
+    "3,5 · 10^{5}: Üssün negatifliğini yok sayma: 3 + 2 = 5 alınmış. Doğrusu (−3) + 2 = −1'dir."
   ],
-  aciklama: `Bilimsel gösterimle yazılmış sayılar karşılaştırılırken önce 10'un üslerine bakılır. Üssü küçük olan sayı daha küçüktür. Üsler eşitse baştaki sayılar karşılaştırılır. Negatif üslerde −6 sayısı −5'ten, −5 sayısı da −4'ten küçüktür.
-Adım 1: Üsleri sırala: −6 < −5 < −4. En küçük üs N ipliğindedir.
-Adım 2: En küçük üs tek bir iplikte bulunduğu için baştaki sayıları karşılaştırmaya gerek kalmaz: en küçük çap N ipliğine aittir.
-Adım 3: İstersen ondalık gösterimle doğrula: K = 0,000062 m; L = 0,00023 m; M = 0,00095 m; N = 0,0000081 m.
-Sağlama: N ipliğinin çapı K ipliğinin çapından bile küçüktür, çünkü 0,0000081 < 0,000062.
-Sık yapılan hata: Negatif üsleri sıralarken sayının mutlak değerine bakmak. 10^{-6}, 10^{-5}'ten küçüktür; üssün mutlak değeri büyüdükçe sayı küçülür.
-Cevap D.`
+  aciklama: `Bilimsel gösterimle yazılmış bir sayı 10'un bir kuvvetiyle çarpılırken baştaki sayı değişmez, yalnızca üsler toplanır: (a · 10^{n}) · 10^{m} = a · 10^{n+m}.
+Adım 1: İşlemi kur: (3,5 · 10^{-3}) · 100.
+Adım 2: 100 sayısını 10'un kuvveti olarak yaz: 100 = 10^{2}.
+Adım 3: Üsleri topla: (−3) + 2 = −1. Sonuç 3,5 · 10^{-1} gramdır.
+Adım 4: Baştaki sayının 1 ile 10 arasında olduğunu denetle: 3,5 uygundur, gösterim bilimseldir.
+Sağlama: Bir tane 0,0035 gram, 100 tanesi 0,35 gramdır ve 3,5 · 10^{-1} = 0,35'tir.
+Sık yapılan hata: 100 ile çarparken üssü 1 artırmak. Üs, çarpanın 10'un kaçıncı kuvveti olduğu kadar artar.
+Cevap C.`
 },
 {
   id: "mat-ui-124",
   kazanim: "M.8.1.2.1",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir okul kulübünün malzeme dolabında dört göstergeli bir şifre kilidi vardır. Her gösterge aşağıda verilen beş simgeden birini gösterebilmekte ve aynı simge birden çok göstergede kullanılabilmektedir.\n**Buna göre bu kilit için kaç farklı şifre oluşturulabilir?**",
-  gorsel: `<svg viewBox="0 0 500 190" role="img" aria-label="Dört göstergeli şifre kilidi ve kullanılabilen beş simge"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="60" y="20" width="70" height="70" rx="8"/><rect x="150" y="20" width="70" height="70" rx="8"/><rect x="240" y="20" width="70" height="70" rx="8"/><rect x="330" y="20" width="70" height="70" rx="8"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="95" y="63">?</text><text x="185" y="63">?</text><text x="275" y="63">?</text><text x="365" y="63">?</text><text x="230" y="120">4 gösterge</text><text x="230" y="180">Kullanılabilen 5 simge</text></g><g stroke="var(--vurgu)" stroke-width="2" fill="none"><circle cx="110" cy="150" r="12"/><rect x="158" y="138" width="24" height="24"/><polygon points="230,138 242,162 218,162"/><path d="M278 138 v24 M266 150 h24"/><polygon points="326,136 330,148 342,148 332,156 336,168 326,160 316,168 320,156 310,148 322,148"/></g></svg>`,
-  secenekler: ["20", "120", "625", "1024"],
-  dogru: 2,
+  soru: "Bir okulun kitap okuma etkinliğinde 8-A sınıfı bir ayda 4^{3} sayfa, 8-B sınıfı ise aynı ayda 3^{4} sayfa okumuştur.\n**Buna göre iki sınıfın okuduğu sayfa sayıları arasındaki fark kaçtır?**",
+  gorsel: null,
+  secenekler: ["0", "17", "37", "145"],
+  dogru: 1,
   hatalar: [
-    "Seçenekleri çarpmak yerine toplama mantığıyla ilerleme: 4 · 5 = 20 alınmış. Her göstergedeki seçim ayrı yapıldığı için seçenek sayıları çarpılır.",
-    "Simgelerin tekrar edilemeyeceğini sanma: 5 · 4 · 3 · 2 = 120 alınmış. Soruda aynı simgenin birden çok göstergede kullanılabileceği belirtilmiştir.",
+    "0: Üs almak yerine tabanı üsle çarpma: 4 · 3 = 12 ve 3 · 4 = 12 alınıp iki sınıf eşit sanılmış.",
     null,
-    "Taban ile üssü yer değiştirme: 4^{5} = 1024 alınmış. Tekrar tekrar çarpılan sayı (5) taban, kaç kez çarpıldığı (4) ise üstür."
+    "37: 3^{4} yerine 3^{3} = 27 hesaplama; 64 − 27 = 37 bulunmuş.",
+    "145: Fark yerine toplam alma: 64 + 81 = 145."
   ],
-  aciklama: `Aynı sayı kendisiyle tekrar tekrar çarpılıyorsa sonuç üslü ifadeyle yazılır: tekrar eden sayı taban, tekrar sayısı üstür.
-Adım 1: Birinci göstergeyi düşün: 5 farklı simgeden biri seçilebilir.
-Adım 2: Her gösterge için seçim bağımsızdır ve simgeler tekrar edebilir. Öyleyse toplam şifre sayısı 5 · 5 · 5 · 5 olur.
-Adım 3: Üslü biçimde yaz: 5^{4}.
-Adım 4: Hesapla: 5^{2} = 25 olduğundan 5^{4} = 25 · 25 = 625.
-Sağlama: Kilit üç göstergeli olsaydı 5^{3} = 125 şifre olurdu; dördüncü gösterge eklenince bu sayı 5 katına çıkar: 125 · 5 = 625.
-Sık yapılan hata: 4^{5} yazmak. Kaç kez çarpıldığını gösterge sayısı belirler; bu yüzden üs 4, taban 5'tir.
-Cevap C.`
+  aciklama: `Üslü bir ifadede taban, üs kadar kez kendisiyle çarpılır. Taban ile üs yer değiştirirse sonuç genellikle değişir; bu yüzden ikisini karıştırmamak gerekir.
+Adım 1: 8-A'nın okuduğunu hesapla: 4^{3} = 4 · 4 · 4 = 64 sayfa.
+Adım 2: 8-B'nin okuduğunu hesapla: 3^{4} = 3 · 3 · 3 · 3 = 81 sayfa.
+Adım 3: Farkı bul: 81 − 64 = 17 sayfa.
+Sağlama: 4^{3} = 64 ve 3^{4} = 81 olduğuna göre daha çok okuyan sınıf 8-B'dir; aradaki fark 17 sayfadır.
+Sık yapılan hata: Tabanı üsle çarpmak. 4^{3} ifadesi 4 · 3 = 12 değil, 4'ün üç kez çarpımıdır.
+Cevap B.`
 },
 {
   id: "mat-ui-125",
   kazanim: "M.8.1.2.2",
   kademe: 1,
   zorluk: 2,
-  soru: "Bir matematik yarışmasının hızlı tur bölümünde yarışmacılara ekranda bir üslü ifade gösterilmekte ve bu ifadenin değeri sorulmaktadır. Yarışmanın son sorusunda ekrana gelen ifade aşağıda verilmiştir.\n**Buna göre ekrandaki ifadenin değeri kaçtır?**",
-  gorsel: `<svg viewBox="0 0 420 140" role="img" aria-label="Yarışma ekranında 3 üssü eksi 2 ifadesinin eksi 1. kuvveti gösteriliyor"><rect x="20" y="16" width="380" height="88" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="210" y="72" fill="var(--vurgu)" font-size="34" font-weight="bold" text-anchor="middle">(3<tspan font-size="22" dy="-12">−2</tspan><tspan dy="12">)</tspan><tspan font-size="22" dy="-12">−1</tspan></text><text x="210" y="128" fill="currentColor" font-size="15" text-anchor="middle">Son soru</text></svg>`,
-  secenekler: ["[[1|9]]", "[[1|6]]", "6", "9"],
-  dogru: 3,
+  soru: "Bir matematik yazılımında sayılar, aşağıdaki işlem şeridinden geçirilmektedir. Şeride giren sayı önce ikinci kuvvetine yükseltilmekte, sonra 3^{5} sayısına bölünmektedir.\n**Şeride 3^{4} sayısı girdiğine göre şeritten çıkan sayı aşağıdakilerden hangisidir?**",
+  gorsel: `<svg viewBox="0 0 520 130" role="img" aria-label="İşlem şeridi: giren sayı 3 üssü 4, birinci kutu karesini al, ikinci kutu 3 üssü 5'e böl, çıkan sayı soru işareti"><g stroke="currentColor" stroke-width="2" fill="none"><line x1="92" y1="64" x2="132" y2="64"/><line x1="252" y1="64" x2="292" y2="64"/><line x1="412" y1="64" x2="452" y2="64"/><path d="M124 56 l10 8 l-10 8"/><path d="M284 56 l10 8 l-10 8"/><path d="M444 56 l10 8 l-10 8"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="132" y="36" width="120" height="56" rx="8"/><rect x="292" y="36" width="120" height="56" rx="8"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="192" y="70">Karesini al</text><text x="352" y="70">3<tspan font-size="13" dy="-8">5</tspan><tspan dy="8">'e böl</tspan></text></g><text x="48" y="70" font-size="20" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">3<tspan font-size="14" dy="-9">4</tspan></text><text x="484" y="70" font-size="24" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">?</text></svg>`,
+  secenekler: ["3^{13}", "3^{8}", "3^{3}", "3^{1}"],
+  dogru: 2,
   hatalar: [
-    "Dıştaki üssü hesaba katmama: yalnızca 3^{-2} = [[1|9]] hesaplanıp orada durulmuş.",
-    "Tabanla üssü çarpıp üssün negatifliğini koruma: 3 · 2 = 6 alınıp 6^{-1} = [[1|6]] yazılmış.",
-    "Tabanı üsle çarpma: 3 · 2 = 6 alınmış. Üslü ifadede taban, üs kadar kez kendisiyle çarpılır; üsle çarpılmaz.",
-    null
+    "3^{13}: Bölmede üsleri toplama: 8 + 5 = 13 alınmış. Bölmede üsler çıkarılır.",
+    "3^{8}: Son adımı atlama. 3^{8} yalnızca karesi alınmış hâldir; bölme işlemi yapılmamış.",
+    null,
+    "3^{1}: Kare alırken üsleri toplama: (3^{4})^{2} = 3^{6} sanılıp 6 − 5 = 1 bulunmuş. Üssün üssünde üsler çarpılır."
   ],
-  aciklama: `Üssün üssü alınırken üsler çarpılır: (a^{n})^{m} = a^{n·m}. İki üs de negatifse çarpımları pozitif olur.
-Adım 1: Üsleri çarp: (−2) · (−1) = 2.
-Adım 2: Yeni ifadeyi yaz: (3^{-2})^{-1} = 3^{2}.
-Adım 3: Değeri hesapla: 3^{2} = 9.
-Sağlama: Adım adım da gidebilirsin. 3^{-2} = [[1|9]]'dur. Bir sayının −1. kuvveti, o sayının çarpmaya göre tersidir; [[1|9]] sayısının çarpmaya göre tersi 9'dur.
-Sık yapılan hata: İki negatif üssün çarpımını negatif sanmak. Eksi ile eksinin çarpımı artıdır; bu yüzden sonuç 1'den küçük değil, 9'dur.
-Cevap D.`
+  aciklama: `İki kural gerekir: üssün üssü alınırken üsler çarpılır, (a^{n})^{m} = a^{n·m}; aynı tabanlı sayılar bölünürken üsler çıkarılır, a^{n} ÷ a^{m} = a^{n-m}.
+Adım 1: Birinci kutuyu uygula: (3^{4})^{2} = 3^{4·2} = 3^{8}.
+Adım 2: İkinci kutuyu uygula: 3^{8} ÷ 3^{5} = 3^{8-5} = 3^{3}.
+Adım 3: Şeritten çıkan sayı 3^{3}, yani 27'dir.
+Sağlama: 3^{3} · 3^{5} = 3^{8} olmalıdır; gerçekten de 27 · 243 = 6561 = 3^{8}'dir.
+Sık yapılan hata: Kare alırken üssü 2 ile toplamak. Kare almak, ifadeyi kendisiyle çarpmaktır: 3^{4} · 3^{4} = 3^{8}.
+Cevap C.`
 },
-/* ===================== KADEME 2 — PEKİŞTİRME (213-225) ===================== */
+/* ===================== KADEME 2 — PEKİŞTİRME (ek) ===================== */
 {
   id: "mat-ui-213",
   kazanim: "M.8.1.2.1",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir kargo deposunda özdeş koliler küp biçiminde bir yığın oluşturacak şekilde istiflenmiştir. Yığının eni, derinliği ve yüksekliği boyunca 4'er koli vardır. Depo görevlisi yığındaki koli sayısını sayarak değil hesaplayarak bulacaktır.\n**Buna göre yığında toplam kaç koli vardır?**",
-  gorsel: `<svg viewBox="0 0 480 220" role="img" aria-label="Küp biçiminde koli yığını: en, derinlik ve yükseklik boyunca 4'er koli"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="90" y="70" width="200" height="120"/><polygon points="90,70 150,30 350,30 290,70"/><polygon points="290,70 350,30 350,150 290,190"/></g><g stroke="currentColor" stroke-width="1" opacity="0.55"><line x1="140" y1="70" x2="140" y2="190"/><line x1="190" y1="70" x2="190" y2="190"/><line x1="240" y1="70" x2="240" y2="190"/><line x1="90" y1="100" x2="290" y2="100"/><line x1="90" y1="130" x2="290" y2="130"/><line x1="90" y1="160" x2="290" y2="160"/></g><g stroke="var(--vurgu)" stroke-width="2"><line x1="90" y1="204" x2="290" y2="204"/><line x1="64" y1="70" x2="64" y2="190"/><line x1="300" y1="62" x2="358" y2="24"/></g><g fill="currentColor" font-size="16"><text x="150" y="220">4 koli</text><text x="10" y="136">4 koli</text><text x="330" y="16">4 koli</text></g></svg>`,
-  secenekler: ["12", "48", "64", "81"],
+  soru: "Bir masa oyununda oyuncunun n. turda aldığı puan, (−1)^{n} · n^{2} kuralıyla hesaplanmaktadır. Oyuncunun toplam puanı, turlarda aldığı puanların toplamına eşittir.\n**Buna göre bir oyuncunun yalnızca 3. ve 4. turlarda aldığı puanların toplamı kaçtır?**",
+  gorsel: null,
+  secenekler: ["−25", "−7", "7", "25"],
   dogru: 2,
   hatalar: [
-    "Çarpma yerine toplama mantığı: 4 · 3 = 12 alınmış. Üç yönün her birinde 4 koli varsa sayılar çarpılır.",
-    "Bir yöndeki koli sayısını 3 sanma: 4 · 4 · 3 = 48 alınmış. Yığın küp biçiminde olduğu için üç yönde de 4 koli vardır.",
+    "−25: İki turun puanını da negatif alma: −9 + (−16) = −25 bulunmuş. 4 çift sayı olduğu için 4. turun puanı pozitiftir.",
+    "−7: İki turun işaretini ters alma: 9 + (−16) = −7 bulunmuş. 3 tek, 4 çift sayıdır.",
     null,
-    "Taban ile üssü yer değiştirme: 3^{4} = 81 alınmış. Tekrar eden sayı 4, tekrar sayısı 3'tür."
+    "25: İki turun puanını da pozitif alma: 9 + 16 = 25 bulunmuş. 3 tek sayı olduğu için 3. turun puanı negatiftir."
   ],
-  aciklama: `Bir çarpımda aynı sayı birkaç kez tekrar ediyorsa çarpım üslü ifadeyle yazılır: tekrar eden sayı taban, kaç kez tekrar ettiği üstür.
-Adım 1: Bir katta kaç koli olduğunu bul: en ve derinlik boyunca 4'er koli var, yani 4 · 4 = 16 koli.
-Adım 2: Kaç kat olduğunu bul: yükseklik boyunca 4 koli var, yani 4 kat.
-Adım 3: Toplamı yaz: 16 · 4 = 4 · 4 · 4 = 4^{3}.
-Adım 4: Hesapla: 4^{3} = 64 koli.
-Sağlama: Yığın 3 katlı olsaydı 16 · 3 = 48 koli olurdu; dördüncü kat eklenince 48 + 16 = 64 olur.
-Sık yapılan hata: 3^{4} = 81 yazmak. Üs, tekrar sayısını gösterir; burada 4 sayısı üç kez tekrar ettiği için üs 3'tür.
+  aciklama: `Tabanı −1 olan bir kuvvette sonuç yalnızca üssün tek mi çift mi olduğuna bağlıdır: (−1)^{tek} = −1, (−1)^{çift} = 1.
+Adım 1: 3. turun puanını bul: (−1)^{3} · 3^{2} = (−1) · 9 = −9. Üs tek olduğu için işaret eksidir.
+Adım 2: 4. turun puanını bul: (−1)^{4} · 4^{2} = 1 · 16 = 16. Üs çift olduğu için işaret artıdır.
+Adım 3: Topla: −9 + 16 = 7.
+Sağlama: İlk turlardaki puanları yazarak kuralı görebilirsin: −1, 4, −9, 16, −25… Tek turlarda puan eksi, çift turlarda artıdır.
+Sık yapılan hata: (−1)^{n} çarpanını sonucun işareti yerine bir sayı gibi görmezden gelmek. Bu çarpan yalnızca puanın işaretini belirler, büyüklüğünü değiştirmez.
 Cevap C.`
 },
 {
@@ -344,22 +334,22 @@ Cevap C.`
   kazanim: "M.8.1.2.2",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir müzede kullanılan sesli rehber cihazının teknik kartında, cihazın saniyede 8^{3} ses örneği aldığı yazmaktadır. Teknisyen, cihazın belgelerindeki yazıma uysun diye bu sayıyı 2'nin bir kuvveti biçiminde yeniden yazacaktır.\n**Buna göre teknisyenin yazacağı ifade aşağıdakilerden hangisidir?**",
-  gorsel: null,
-  secenekler: ["2^{6}", "2^{9}", "2^{12}", "2^{27}"],
+  soru: "Bir matematik etkinliğinde kefeleri dengede duran bir terazinin iki kefesine üslü ifadeler yerleştirilmiştir. Sol kefedeki ifadelerden birinin üssü silinmiş ve yerine bir soru işareti konulmuştur.\n**Terazi dengede olduğuna göre silinen üs kaçtır?**",
+  gorsel: `<svg viewBox="0 0 520 190" role="img" aria-label="Dengede terazi: sol kefede 3 üssü soru işareti çarpı 3 üssü 4, sağ kefede 3 üssü 12"><g stroke="currentColor" stroke-width="2" fill="none"><line x1="260" y1="40" x2="260" y2="150"/><line x1="120" y1="40" x2="400" y2="40"/><line x1="120" y1="40" x2="120" y2="70"/><line x1="400" y1="40" x2="400" y2="70"/><path d="M226 150 h68 l16 20 h-100 z"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="30" y="70" width="180" height="56" rx="8"/><rect x="310" y="70" width="180" height="56" rx="8"/></g><g fill="currentColor" font-size="22" font-weight="bold" text-anchor="middle"><text x="120" y="106">3<tspan font-size="15" dy="-10" fill="var(--vurgu)">?</tspan><tspan dy="10"> · 3</tspan><tspan font-size="15" dy="-10">4</tspan></text><text x="400" y="106">3<tspan font-size="15" dy="-10">12</tspan></text></g></svg>`,
+  secenekler: ["3", "8", "16", "48"],
   dogru: 1,
   hatalar: [
-    "Üssün üssünde üsleri toplama: 8 = 2^{3} yazıldıktan sonra 3 + 3 = 6 alınmış. Üssün üssünde üsler çarpılır.",
+    "3: Üsleri bölme: 12 ÷ 4 = 3 alınmış. Bölme işlemi üslerde değil, tabanlarda anlam taşır.",
     null,
-    "Tabanı yanlış çevirme: 8 sayısı 2^{4} sanılmış; oysa 2^{4} = 16'dır, 8 = 2^{3}'tür.",
-    "Üssü kendi kuvvetiyle karıştırma: 3^{3} = 27 alınmış. Burada yapılması gereken 3 ile 3'ü çarpmaktır."
+    "16: Üsleri toplama: 12 + 4 = 16 alınmış. Çarpımın üssü zaten toplam olduğuna göre bilinmeyen üs için çıkarma yapılır.",
+    "48: Üsleri çarpma: 12 · 4 = 48 alınmış. Çarpma yalnızca üssün üssü alınırken yapılır."
   ],
-  aciklama: `Üssün üssü alınırken üsler çarpılır: (a^{n})^{m} = a^{n·m}. Bir sayıyı başka bir tabanın kuvveti olarak yazmak için önce tabanı çevirmek gerekir.
-Adım 1: Tabanı çevir: 8 = 2 · 2 · 2 = 2^{3}.
-Adım 2: İfadeyi yerine yaz: 8^{3} = (2^{3})^{3}.
-Adım 3: Üsleri çarp: 3 · 3 = 9. Sonuç 2^{9}'dur.
-Sağlama: 8^{3} = 8 · 8 · 8 = 512 eder. 2^{9} = 512 olduğundan iki ifade eşittir.
-Sık yapılan hata: (2^{3})^{3} ifadesinde üsleri toplayıp 2^{6} = 64 bulmak. Toplama, aynı tabanlı çarpmada yapılır; üssün üssünde üsler çarpılır.
+  aciklama: `Aynı tabanlı üslü sayılar çarpılırken üsler toplanır: a^{n} · a^{m} = a^{n+m}. Terazi dengede olduğuna göre iki kefedeki ifadeler eşittir.
+Adım 1: Sol kefedeki çarpımı kurala göre yaz: 3^{?} · 3^{4} = 3^{? + 4}.
+Adım 2: İki kefeyi eşitle. Tabanlar aynı olduğu için üsler de eşit olmalıdır: ? + 4 = 12.
+Adım 3: Bilinmeyen üssü bul: ? = 12 − 4 = 8.
+Sağlama: 3^{8} · 3^{4} = 3^{8+4} = 3^{12}. İki kefe gerçekten eşit.
+Sık yapılan hata: Üslerin toplandığı yerde bilinmeyeni bulmak için de toplama yapmak. Toplamın bir parçası aranıyorsa çıkarma yapılır.
 Cevap B.`
 },
 {
@@ -367,22 +357,22 @@ Cevap B.`
   kazanim: "M.8.1.2.3",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir fen laboratuvarında öğrenciler tarttıkları taşın kütlesini çözümlenmiş biçimde tahtaya yazmıştır. Ancak terimleri basamak sırasına göre değil, akıllarına geldikleri sırayla yazmışlardır. Tahtadaki yazım aşağıda verilmiştir.\n**Buna göre taşın kütlesi kaç gramdır?**",
-  gorsel: `<svg viewBox="0 0 480 130" role="img" aria-label="Tahtada yazan çözümleme: 3 çarpı 10 üssü eksi 2, artı 6 çarpı 10 üssü 1, artı 4 çarpı 10 üssü 0"><rect x="16" y="14" width="448" height="100" rx="6" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="240" y="76" fill="var(--vurgu)" font-size="26" font-weight="bold" text-anchor="middle">3 · 10<tspan font-size="17" dy="-11">−2</tspan><tspan dy="11"> + 6 · 10</tspan><tspan font-size="17" dy="-11">1</tspan><tspan dy="11"> + 4 · 10</tspan><tspan font-size="17" dy="-11">0</tspan></text></svg>`,
-  secenekler: ["6,43", "46,03", "64,03", "64,3"],
+  soru: "Bir okulun geri dönüşüm panosunda sınıfların bir haftada topladığı kâğıdın kütlesi, basamak değerleri görünsün diye çözümlenmiş biçimde yazılmaktadır. Panonun bu haftaki görüntüsü aşağıda verilmiştir.\n**Buna göre iki sınıfın topladığı kâğıdın toplam kütlesi kaç kilogramdır?**",
+  gorsel: `<table class="tablo"><tr><th>Sınıf</th><th>Toplanan kâğıt (kg)</th></tr><tr><td>8-A</td><td>1 · 10<sup>1</sup> + 5 · 10<sup>0</sup> + 4 · 10<sup>−1</sup></td></tr><tr><td>8-B</td><td>2 · 10<sup>1</sup> + 8 · 10<sup>−1</sup></td></tr></table>`,
+  secenekler: ["35,2", "36,12", "36,2", "362"],
   dogru: 2,
   hatalar: [
-    "Terimleri yazıldıkları sırayla okuyup rakamları sırayla dizme: 3, 6, 4 rakamları 6,43 biçiminde yerleştirilmiş; oysa basamağı belirleyen şey 10'un üssüdür.",
-    "Onlar ve birler basamağındaki rakamları yer değiştirme: 6 · 10^{1} terimi onlar, 4 · 10^{0} terimi birler basamağına aittir.",
+    "35,2: Onda birlerden gelen eliyi atlama. 0,4 + 0,8 = 1,2 olduğu için birler basamağına 1 devreder.",
+    "36,12: Onda birleri tam sayı gibi yan yana yazma: 4 + 8 = 12 sonucunu doğrudan virgülden sonraya koyma.",
     null,
-    "10^{-2} terimini onda birler sanma: 3 rakamı yüzde birler basamağındadır, bu yüzden sayı 64,3 değil 64,03'tür."
+    "362: Virgülü hiç yazmama. Negatif üslü terimler virgülden sonraki basamakları gösterir."
   ],
-  aciklama: `Çözümlenmiş bir ifadeden sayıya dönerken her terimin değeri hesaplanıp toplanır. Terimlerin yazılış sırası önemli değildir; rakamın basamağını 10'un üssü belirler.
-Adım 1: Terimleri tek tek hesapla: 3 · 10^{-2} = 0,03 ; 6 · 10^{1} = 60 ; 4 · 10^{0} = 4.
-Adım 2: Basamakları yerleştir: 60 onlar, 4 birler, 0,03 yüzde birler basamağına düşer. Onda birler basamağında terim yoktur, oraya 0 yazılır.
-Adım 3: Topla: 60 + 4 + 0,03 = 64,03.
-Sağlama: 64,03 sayısını yeniden çözümle: 6 · 10^{1} + 4 · 10^{0} + 0 · 10^{-1} + 3 · 10^{-2}. Tahtadaki terimlerle aynıdır.
-Sık yapılan hata: Terimleri yazıldıkları sırayla okuyup rakamları o sırada dizmek. Sıralamayı 10'un üsleri belirler: büyük üs solda, küçük üs sağda yer alır.
+  aciklama: `Çözümlenmiş bir ifadeyi ondalık gösterime çevirmek için her terim hesaplanıp toplanır. Sonra iki sayı, virgüller alt alta gelecek biçimde toplanır.
+Adım 1: 8-A'nın kütlesini bul: 10 + 5 + 0,4 = 15,4 kg.
+Adım 2: 8-B'nin kütlesini bul: 20 + 0,8 = 20,8 kg. Birler terimi yazılmadığına göre birler basamağında 0 vardır.
+Adım 3: İki kütleyi topla: 15,4 + 20,8 = 36,2 kg. Onda birler toplamı 0,4 + 0,8 = 1,2 olduğu için birler basamağına 1 devreder.
+Sağlama: 36,2 − 20,8 = 15,4. Toplam doğru.
+Sık yapılan hata: Virgülden sonraki rakamları ayrı bir sayı gibi toplayıp 36,12 yazmak. Onda birler toplamı 10'u geçerse elde devreder.
 Cevap C.`
 },
 {
@@ -390,407 +380,402 @@ Cevap C.`
   kazanim: "M.8.1.2.4",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir kargo şirketinin sayım raporunda iki depodaki koli sayıları farklı biçimlerde yazılmıştır. A deposu için 45 · 10^{3} koli, B deposu için 4,5 · 10^{4} koli yazılıdır. Şirket müdürü iki depoyu karşılaştırmak istemektedir.\n**Buna göre B deposundaki koli sayısı için aşağıdakilerden hangisi doğrudur?**",
+  soru: "Bir mobil oyunun indirilme sayısı, yayımcının sitesinde 6,4 · 10^{5} olarak duyurulmuştur. Yayımcı aynı sayıyı basın bültenlerinde 10'un farklı kuvvetlerini kullanarak da yazmaktadır.\n**Buna göre aşağıdakilerden hangisi bu indirilme sayısına eşittir?**",
   gorsel: null,
-  secenekler: [
-    "A deposundakinin binde biri kadardır.",
-    "A deposundakinin yüzde biri kadardır.",
-    "A deposundakinin onda biri kadardır.",
-    "A deposundakine eşittir."
-  ],
-  dogru: 3,
+  secenekler: ["640 · 10^{3}", "6400 · 10^{3}", "0,64 · 10^{5}", "64 · 10^{6}"],
+  dogru: 0,
   hatalar: [
-    "Üs farkını 3 sanma: 10^{4} ile 10^{3} arasındaki fark 3 basamak değil 1 basamaktır.",
-    "Baştaki sayıdaki ve üsteki değişimi aynı yönde sayıp çarpma: 10 · 10 = 100 alınmış.",
-    "Yalnızca baştaki sayılara bakma: 4,5 sayısı 45'in onda biridir ama B'nin üssü de 1 büyüktür; bu iki fark birbirini götürür.",
-    null
+    null,
+    "6400 · 10^{3} = 6 400 000: Baştaki sayıyı 1000 katına çıkarıp üssü yalnızca 2 azaltma. Baştaki sayı 1000 katına çıkarsa üs 3 azalmalıdır.",
+    "0,64 · 10^{5} = 64 000: Baştaki sayıyı 10'a bölerken üssü artırmayı unutma.",
+    "64 · 10^{6} = 64 000 000: Baştaki sayıyı 10 katına çıkarırken üssü azaltacak yerde 1 artırma."
   ],
-  aciklama: `Bir sayı 10'un farklı kuvvetleriyle yazılabilir: baştaki sayı 10 kat küçülürken üs 1 artarsa sayının değeri değişmez. İki gösterimi karşılaştırmak için en güvenli yol ikisini de düz sayıya çevirmektir.
-Adım 1: A deposunu çöz: 45 · 10^{3} = 45 · 1000 = 45 000 koli.
-Adım 2: B deposunu çöz: 4,5 · 10^{4} = 4,5 · 10 000 = 45 000 koli.
-Adım 3: Karşılaştır: iki depodaki koli sayısı birbirine eşittir.
-Sağlama: 45 · 10^{3} ifadesinde baştaki sayıyı 10 kat küçültüp 4,5 yaparsan üssü 1 artırman gerekir: 4,5 · 10^{4}. İki yazım aynı sayıyı gösterir.
-Sık yapılan hata: Yalnızca 10'un üssüne bakıp "üssü büyük olan daha çoktur" demek. Baştaki sayılar farklıysa bu karşılaştırma yanlış sonuç verir.
-Cevap D.`
+  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılırken baştaki sayı ile üs birbirini dengeler: baştaki sayı 10 katına çıkarsa üs 1 azalır, 10'a bölünürse üs 1 artar.
+Adım 1: Sayıyı aç: 6,4 · 10^{5} = 640 000.
+Adım 2: Şıkları tek tek hesapla: 640 · 10^{3} = 640 · 1000 = 640 000. Eşittir.
+Adım 3: Kalanları denetle: 6400 · 10^{3} = 6 400 000; 0,64 · 10^{5} = 64 000; 64 · 10^{6} = 64 000 000. Hiçbiri 640 000 değildir.
+Sağlama: 6,4 sayısından 640 sayısına geçerken baştaki sayı 100 katına çıktı, öyleyse üs 2 azalarak 10^{5}'ten 10^{3}'e indi. Denge korunmuş.
+Sık yapılan hata: Baştaki sayı ile üssü aynı yönde değiştirmek. İkisi her zaman ters yönde değişir.
+Cevap A.`
 },
 {
   id: "mat-ui-217",
   kazanim: "M.8.1.2.5",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir köprünün girişindeki dijital panoda, köprünün açılışından bu yana geçen araç sayısı gösterilmektedir. Belediye, panodaki bu sayıyı yıl sonu raporuna bilimsel gösterimle yazacaktır. Panodaki görüntü aşağıda verilmiştir.\n**Buna göre rapora yazılacak gösterim aşağıdakilerden hangisidir?**",
-  gorsel: `<svg viewBox="0 0 480 150" role="img" aria-label="Köprü panosunda 92 milyon araç yazıyor"><rect x="24" y="16" width="432" height="96" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="24" y1="52" x2="456" y2="52" stroke="currentColor" stroke-width="2"/><text x="240" y="44" fill="currentColor" font-size="16" text-anchor="middle">KÖPRÜDEN GEÇEN TOPLAM ARAÇ</text><text x="240" y="96" fill="var(--vurgu)" font-size="34" font-weight="bold" text-anchor="middle">92 milyon</text><g stroke="currentColor" stroke-width="2"><line x1="60" y1="112" x2="60" y2="140"/><line x1="420" y1="112" x2="420" y2="140"/></g></svg>`,
-  secenekler: ["9,2 · 10^{5}", "9,2 · 10^{6}", "9,2 · 10^{7}", "9,2 · 10^{8}"],
-  dogru: 2,
+  soru: "Bir doğa belgeselinde, bir örümcek ağını oluşturan ipliğin kalınlığının 3,2 · 10^{-6} metre olduğu söylenmiştir. Bir öğrenci bu kalınlığı ödevinde milimetre cinsinden yazacaktır. (1 metre = 10^{3} milimetre)\n**Buna göre ipliğin kalınlığının milimetre cinsinden bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: ["3,2 · 10^{-18}", "3,2 · 10^{-9}", "3,2 · 10^{-4}", "3,2 · 10^{-3}"],
+  dogru: 3,
   hatalar: [
-    "Bir milyonu yüz bin sanma: 9,2 · 10^{5} = 920 000 eder.",
-    "92 sayısını 9,2 yaparken üssü 1 artırmayı unutma: 9,2 · 10^{6} = 9 200 000 eder, yani panodaki sayının onda biridir.",
-    null,
-    "Üssü bir fazla artırma: 9,2 · 10^{8} = 920 000 000 eder, yani panodaki sayının 10 katıdır."
+    "3,2 · 10^{-18}: Çarpmada üsleri çarpma: (−6) · 3 = −18 alınmış. Çarpmada üsler toplanır.",
+    "3,2 · 10^{-9}: 10^{3} ile çarpmak yerine bölme: (−6) − 3 = −9 alınmış. Metreden milimetreye geçilirken sayı büyür.",
+    "3,2 · 10^{-4}: 1 metreyi 100 milimetre sanma (santimetre ile karıştırma). Bir metrede 1000 milimetre vardır.",
+    null
   ],
-  aciklama: `Bilimsel gösterimde baştaki sayı 1 ile 10 arasında olmalıdır. Bir milyon 1 000 000, yani 10^{6}'dır.
-Adım 1: Panodaki sayıyı rakamlarla yaz: 92 milyon = 92 · 10^{6} = 92 000 000.
-Adım 2: Baştaki sayıyı 1 ile 10 arasına çek: 92 ÷ 10 = 9,2. Sayıyı 10 kat küçülttüğün için üssü 1 artırmalısın: 6 + 1 = 7.
-Adım 3: Yaz: 92 000 000 = 9,2 · 10^{7}.
-Sağlama: Virgülü sayarak da bulabilirsin. 92 000 000 sayısında virgülü 9'un hemen sağına taşırsan 7 basamak sola kaymış olur; bu yüzden üs 7'dir.
-Sık yapılan hata: "Milyon" sözcüğünü görünce doğrudan 10^{6} yazıp baştaki 92'yi değiştirmemek ya da değiştirip üssü sabit bırakmak.
-Cevap C.`
+  aciklama: `Küçük bir uzunluğu daha küçük bir birimle yazarken sayı büyür. Metreden milimetreye geçmek için sayı 10^{3} ile çarpılır; aynı tabanlı çarpmada üsler toplanır.
+Adım 1: İşlemi kur: (3,2 · 10^{-6}) · 10^{3}.
+Adım 2: Üsleri topla: (−6) + 3 = −3.
+Adım 3: Sonucu yaz: 3,2 · 10^{-3} mm. Baştaki sayı 1 ile 10 arasında olduğu için gösterim bilimseldir.
+Sağlama: 3,2 · 10^{-6} m = 0,0000032 m'dir. Bunu 1000 ile çarpınca 0,0032 mm elde edilir ve 3,2 · 10^{-3} = 0,0032'dir.
+Sık yapılan hata: Birim küçülünce sayının da küçüleceğini sanmak. Birim küçüldükçe aynı uzunluğu anlatan sayı büyür.
+Cevap D.`
 },
 {
   id: "mat-ui-218",
-  kazanim: "M.8.1.2.1",
+  kazanim: "M.8.1.2.3",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir bilim merkezindeki ışık panosunda lambaların durumu (−1) sayısının kuvvetleriyle gösterilmektedir. Pano her saniye (−1)^{n} değerini hesaplar; burada n geçen saniye sayısıdır. Değer 1 ise lamba yanar, −1 ise söner.\n**Buna göre (−1)^{15} + (−1)^{20} işleminin sonucu kaçtır?**",
-  gorsel: null,
-  secenekler: ["−2", "−1", "0", "2"],
-  dogru: 2,
-  hatalar: [
-    "Çift üslü terimi de negatif sanma: (−1)^{20} = 1'dir, çünkü üs çifttir.",
-    "Terimleri toplamak yerine çarpma: (−1)^{15} · (−1)^{20} = (−1)^{35} = −1 bulunmuş. İşlem toplamadır.",
-    null,
-    "Tek üslü terimi de pozitif sanma: (−1)^{15} = −1'dir, çünkü üs tektir."
-  ],
-  aciklama: `Negatif bir sayının çift kuvveti pozitif, tek kuvveti negatiftir. Çünkü çift sayıda eksi işareti ikişer ikişer eşleşip birbirini götürür; tek sayıda eksi işaretinde ise bir tane açıkta kalır.
-Adım 1: Birinci terimi bul: 15 tek sayıdır, öyleyse (−1)^{15} = −1.
-Adım 2: İkinci terimi bul: 20 çift sayıdır, öyleyse (−1)^{20} = 1.
-Adım 3: Topla: (−1) + 1 = 0.
-Sağlama: Küçük üslerle dene: (−1)^{3} = −1 ve (−1)^{4} = 1'dir; toplamları yine 0 eder.
-Sık yapılan hata: Üssün büyüklüğüne takılmak. Sonucu belirleyen üssün büyüklüğü değil, tek mi çift mi olduğudur.
-Cevap C.`
-},
-{
-  id: "mat-ui-219",
-  kazanim: "M.8.1.2.4",
-  kademe: 2,
-  zorluk: 2,
-  soru: "Bir okul kantininde satılan meyve suyu kutusunun üzerinde hacim 0,25 · 10^{3} mL biçiminde yazmaktadır. Kantin görevlisi fiyat listesini hazırlarken bu hacmi, 10'un kuvveti kullanmadan düz bir sayı olarak yazacaktır.\n**Buna göre listeye yazılacak sayı kaçtır?**",
-  gorsel: null,
-  secenekler: ["250", "25", "2,5", "0,25"],
-  dogru: 0,
-  hatalar: [
-    null,
-    "Virgülü yalnızca iki basamak kaydırma: 0,25 · 10^{2} = 25 eder; oysa kutudaki üs 3'tür.",
-    "Virgülü yalnızca bir basamak kaydırma: 0,25 · 10^{1} = 2,5 eder.",
-    "10'un kuvvetini büsbütün yok sayma: kutudaki sayının baştaki kısmı olduğu gibi yazılmış."
-  ],
-  aciklama: `Bir sayı 10^{n} ile çarpılırken virgül n basamak sağa kaydırılır. Basamak yetmezse sağa sıfır eklenir.
-Adım 1: Üssü oku: 10^{3} = 1000.
-Adım 2: Çarpımı yap: 0,25 · 1000 = 250.
-Adım 3: Virgül kaydırmayla sağla: 0,25 sayısında virgülü üç basamak sağa kaydır: 0,25 → 2,5 → 25 → 250.
-Sağlama: 250 mL, yarım litrenin yarısıdır; 4 kutu meyve suyu 1000 mL, yani 1 litre eder.
-Sık yapılan hata: Virgülü üssün söylediği kadar kaydırmamak. Üs 3 ise virgül tam üç basamak sağa gider.
-Cevap A.`
-},
-{
-  id: "mat-ui-220",
-  kazanim: "M.8.1.2.5",
-  kademe: 2,
-  zorluk: 3,
-  soru: "Bir kâğıt fabrikasında üretilen yazıcı kâğıtlarının kalınlığı mikrometre ile ölçülmekte ve kataloğa bilimsel gösterimle yazılmaktadır. Fabrikada bu kâğıtlar 500'erli paketler hâlinde kutulanmaktadır. Paketlerin yüksekliği, kâğıtlar arasında boşluk kalmadığı varsayılarak hesaplanmaktadır. Katalogdaki bilgiler aşağıda verilmiştir.\n**Buna göre bir paketin yüksekliği kaç santimetredir? (1 m = 100 cm)**",
-  gorsel: `<svg viewBox="0 0 500 170" role="img" aria-label="Katalog bilgisi: bir yaprağın kalınlığı 1,2 çarpı 10 üssü eksi 4 metre, bir pakette 500 yaprak"><rect x="20" y="16" width="300" height="130" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="20" y1="54" x2="320" y2="54" stroke="currentColor" stroke-width="2"/><text x="40" y="42" fill="currentColor" font-size="16" font-weight="bold">KATALOG BİLGİSİ</text><g fill="currentColor" font-size="17"><text x="40" y="88">Bir yaprak: 1,2 · 10<tspan font-size="13" dy="-8">−4</tspan><tspan dy="8"> m</tspan></text><text x="40" y="126">Bir paket: 500 yaprak</text></g><g stroke="var(--vurgu)" stroke-width="2" fill="none"><rect x="356" y="46" width="110" height="80"/><line x1="356" y1="66" x2="466" y2="66"/><line x1="356" y1="86" x2="466" y2="86"/><line x1="356" y1="106" x2="466" y2="106"/></g><text x="411" y="146" fill="currentColor" font-size="15" text-anchor="middle">1 paket</text></svg>`,
-  secenekler: ["0,006", "0,06", "0,6", "6"],
-  dogru: 3,
-  hatalar: [
-    "Çarpmada bir basamak kaybetme: 500 · 1,2 çarpımı 60 sanılıp 60 · 10^{-4} = 0,006 m bulunmuş. Doğru çarpım 600'dür.",
-    "Birimi çevirmeyi unutma: 0,06 sayısı paketin metre cinsinden yüksekliğidir, santimetre cinsinden değil.",
-    "Metreyi santimetreye çevirirken 10 ile çarpma: 0,06 m sayısı 100 ile çarpılmalıdır, 10 ile değil.",
-    null
-  ],
-  aciklama: `Bilimsel gösterimle yazılmış bir sayı bir tam sayıyla çarpılırken baştaki sayılar çarpılır, 10'un kuvveti gerekirse yeniden düzenlenir.
-Adım 1: Paketin metre cinsinden yüksekliğini bul: 500 · (1,2 · 10^{-4}).
-Adım 2: Baştaki sayıları çarp: 500 · 1,2 = 600. Şimdi elde 600 · 10^{-4} var.
-Adım 3: Sadeleştir: 600 · 10^{-4} = 6 · 10^{2} · 10^{-4} = 6 · 10^{2−4} = 6 · 10^{-2} = 0,06 m.
-Adım 4: Santimetreye çevir: 1 m = 100 cm olduğundan 0,06 · 100 = 6 cm.
-Sağlama: Bir yaprak 0,00012 m, yani 0,012 cm'dir. 500 · 0,012 = 6 cm.
-Sık yapılan hata: Metre cinsinden bulunan 0,06 değerini cevap sanmak. Soruda santimetre istendiği için bir çevirme adımı daha gerekir.
-Cevap D.`
-},
-{
-  id: "mat-ui-221",
-  kazanim: "M.8.1.2.2",
-  kademe: 2,
-  zorluk: 3,
-  soru: "Bir su kalitesi laboratuvarında yoğun bir numune ölçüm cihazına verilmeden önce seyreltilmektedir. Her seyreltme adımında numunedeki madde derişimi bir önceki adımın onda birine iner. Laboratuvar görevlisi, derişimi 2 · 10^{-2} gram/litre olan numuneye üç seyreltme adımı uygulamıştır.\n**Buna göre son numunenin derişimi kaç gram/litredir?**",
-  gorsel: `<svg viewBox="0 0 520 150" role="img" aria-label="Üç seyreltme adımı: her adımda derişim onda birine iner"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="24" y="40" width="70" height="70" rx="6"/><rect x="168" y="40" width="70" height="70" rx="6"/><rect x="312" y="40" width="70" height="70" rx="6"/><rect x="440" y="40" width="70" height="70" rx="6"/></g><g stroke="var(--vurgu)" stroke-width="2" fill="none"><path d="M98 75 h62 M148 66 l14 9 -14 9"/><path d="M242 75 h62 M292 66 l14 9 -14 9"/><path d="M386 75 h46 M420 66 l14 9 -14 9"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="59" y="80">2 · 10<tspan font-size="12" dy="-7">−2</tspan></text><text x="203" y="80">?</text><text x="347" y="80">?</text><text x="475" y="80">?</text><text x="129" y="112">÷ 10</text><text x="273" y="112">÷ 10</text><text x="409" y="112">÷ 10</text><text x="59" y="132">başlangıç</text><text x="475" y="132">3. adım</text></g></svg>`,
-  secenekler: ["2 · 10^{-6}", "2 · 10^{-5}", "2 · 10^{-4}", "2 · 10^{1}"],
+  soru: "Bir baharatçıda kullanılan hassas terazi, tartılan ürünün kütlesini gram cinsinden ondalık gösterimle yazmaktadır. Bir müşteriye tartılan safranın kütlesi ekranda aşağıdaki gibi görünmektedir.\n**Buna göre ekrandaki sayının soldaki 3 rakamının basamak değeri, sağdaki 3 rakamının basamak değerinin kaç katıdır?**",
+  gorsel: `<svg viewBox="0 0 380 140" role="img" aria-label="Hassas terazi ekranı: 3,63 gram"><rect x="14" y="14" width="352" height="112" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="14" y1="52" x2="366" y2="52" stroke="currentColor" stroke-width="2"/><text x="190" y="42" font-size="15" fill="currentColor" text-anchor="middle">HASSAS TERAZİ</text><text x="190" y="102" font-size="34" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">3,63 g</text></svg>`,
+  secenekler: ["10", "100", "1000", "10 000"],
   dogru: 1,
   hatalar: [
-    "Üsleri çarpma: (−2) · 3 = −6 alınmış. Onda bire inme her adımda 10'a bölmektir; bölmede üsler çıkarılır.",
+    "10: Basamak değerleri arasında yalnızca bir basamak fark olduğunu sanma. Birler ile yüzde birler basamağı arasında iki basamak vardır.",
     null,
-    "Bir seyreltme adımını eksik sayma: 2 · 10^{-4} değeri ikinci adımın sonucudur.",
-    "Bölmede üsleri toplama: −2 + 3 = 1 alınmış. Bölmede üsteki üsten alttaki üs çıkarılır."
+    "1000: Bir basamak fazla sayma. Soldaki 3 birler, sağdaki 3 yüzde birler basamağındadır; aradaki fark üç basamak değil iki basamaktır.",
+    "10 000: Sağdaki 3 rakamını on binde birler basamağında sanma. Ekrandaki sayıda virgülden sonra yalnızca iki basamak vardır."
   ],
-  aciklama: `Bir sayı 10'a bölündüğünde 10'un üssü 1 azalır, çünkü aynı tabanlı bölmede üsler çıkarılır: a^{n} ÷ a^{m} = a^{n−m}.
-Adım 1: Bir adımı yaz: (2 · 10^{-2}) ÷ 10 = 2 · 10^{-2−1} = 2 · 10^{-3}.
-Adım 2: Üç adımı birleştir: her adımda üs 1 azaldığı için toplam 3 azalır: −2 − 3 = −5.
-Adım 3: Sonucu yaz: 2 · 10^{-5} gram/litre.
-Sağlama: Ondalık gösterimle takip et: 0,02 → 0,002 → 0,0002 → 0,00002. Son değer 2 · 10^{-5}'tir.
-Sık yapılan hata: Negatif üste bölme yapılırken üssü artırmak. Sayı küçüldüğü için üs de küçülmelidir.
+  aciklama: `Bir rakamın basamak değeri, o rakam ile bulunduğu basamağın değerinin çarpımıdır. Basamak değerleri sağa doğru her adımda 10'a bölünür.
+Adım 1: Soldaki 3'ün basamağını bul: birler basamağındadır, basamak değeri 3 · 10^{0} = 3'tür.
+Adım 2: Sağdaki 3'ün basamağını bul: yüzde birler basamağındadır, basamak değeri 3 · 10^{-2} = 0,03'tür.
+Adım 3: Oranı hesapla: 3 ÷ 0,03 = 100.
+Sağlama: Üslerle de yapabilirsin: (3 · 10^{0}) ÷ (3 · 10^{-2}) = 10^{0-(−2)} = 10^{2} = 100.
+Sık yapılan hata: Aynı rakamın her yerde aynı değeri taşıdığını sanmak. Rakam aynı olsa da basamak değeri bulunduğu yere göre değişir.
 Cevap B.`
 },
 {
-  id: "mat-ui-222",
+  id: "mat-ui-219",
   kazanim: "M.8.1.2.1",
   kademe: 2,
-  zorluk: 3,
-  soru: "Bir okullar arası bilgi yarışması eleme usulüyle oynanmaktadır. Her turda takımlar üçerli gruplara ayrılmakta ve her gruptan yalnızca bir takım bir sonraki tura çıkmaktadır; yani her turdan sonra kalan takım sayısı bir önceki turun üçte birine iner. Yarışma, 5. turun sonunda tek bir takım kalınca bitmektedir.\n**Buna göre yarışmaya başlangıçta kaç takım katılmıştır?**",
-  gorsel: `<table class="tablo"><tr><th>Tur</th><th>1. tur</th><th>2. tur</th><th>3. tur</th></tr><tr><td>Tur sonunda kalan takım sayısı</td><td>başlangıcın 3'te 1'i</td><td>başlangıcın 9'da 1'i</td><td>başlangıcın 27'de 1'i</td></tr></table>`,
-  secenekler: ["9", "15", "27", "243"],
-  dogru: 3,
+  zorluk: 2,
+  soru: "Bir sınav sonrası öğretmen, iki öğrencinin aynı soruyu farklı okuduğunu görmüştür. Ceren ifadeyi (−4)^{2} biçiminde, Barış ise −4^{2} biçiminde yazıp hesaplamıştır.\n**Buna göre iki öğrencinin bulduğu sonuçların toplamı kaçtır?**",
+  gorsel: null,
+  secenekler: ["32", "16", "0", "−32"],
+  dogru: 2,
   hatalar: [
-    "Tur sayısını yanlış kullanma: 9 = 3^{2} değeri yalnızca iki tur oynansaydı geçerli olurdu.",
-    "Çarpma ile üs almayı karıştırma: 5 · 3 = 15 alınmış. Her turda takım sayısı 3'e bölündüğü için üslü ifade kullanılmalıdır.",
-    "Bir turu eksik sayma: 27 = 3^{3} değeri dört turluk bir yarışmaya aittir.",
-    null
+    "32: İki sonucu da pozitif alma: 16 + 16 = 32 bulunmuş. Parantez yokken üs yalnızca 4'e uygulanır, eksi işareti dışarıda kalır.",
+    "16: Yalnızca bir öğrencinin sonucunu yazma ya da iki sonucu eşit sanıp birini toplamaya katmama.",
+    null,
+    "−32: İki sonucu da negatif alma: (−16) + (−16) = −32 bulunmuş. Parantez varken eksi işareti de kuvvet aldığı için Ceren'in sonucu pozitiftir."
   ],
-  aciklama: `Bir büyüklük her adımda aynı sayıya bölünüyorsa, adım sayısı kadar kez bölünmüş olur. Başa dönmek için aynı sayıyla o kadar kez çarpmak gerekir.
-Adım 1: Tablodaki örüntüyü oku: 1. tur sonunda başlangıcın [[1|3]]'ü, 2. tur sonunda [[1|9]]'u, yani 3^{2}'de biri kalıyor. Demek ki k. tur sonunda başlangıcın 3^{k}'da biri kalır.
-Adım 2: Yarışma 5. turun sonunda bitiyor: kalan takım sayısı başlangıcın 3^{5}'te biridir.
-Adım 3: Sonunda 1 takım kaldığına göre başlangıçtaki takım sayısı 3^{5}'tir.
-Adım 4: Hesapla: 3^{5} = 3 · 3 · 3 · 3 · 3 = 243 takım.
-Sağlama: Geriye doğru git: 1 → 3 → 9 → 27 → 81 → 243. Beş tur geriye gidildiğinde 243 bulunur.
-Sık yapılan hata: Tur sayısını bir eksik saymak. Son turda da bir bölme yapıldığı için üs, tur sayısına eşittir.
-Cevap D.`
+  aciklama: `Parantez, üssün hangi sayıya uygulanacağını belirler. (−a)^{n} ifadesinde eksi işareti de tabana dâhildir; −a^{n} ifadesinde ise üs yalnızca a'ya uygulanır, eksi işareti sonuçta kalır.
+Adım 1: Ceren'in sonucunu bul: (−4)^{2} = (−4) · (−4) = 16.
+Adım 2: Barış'ın sonucunu bul: −4^{2} = −(4 · 4) = −16.
+Adım 3: Topla: 16 + (−16) = 0.
+Sağlama: İki sayı birbirinin ters işaretlisi olduğu için toplamları 0'dır.
+Sık yapılan hata: Parantezli ve parantezsiz yazımı aynı sanmak. Tek fark parantez olsa da sonuçlar birbirinin ters işaretlisidir.
+Cevap C.`
 },
 {
-  id: "mat-ui-223",
+  id: "mat-ui-220",
   kazanim: "M.8.1.2.3",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir okul bahçesine dikilen fidanın boyu, büyümesini izlemek için iki kez ölçülmüştür. Öğrenciler ilkbahar ve sonbahar ölçümleri arasındaki farkı hesaplayıp bu farkı basamak değerleriyle çözümleyerek gözlem defterine yazacaktır. Ölçüm sonuçları aşağıda verilmiştir.\n**Buna göre iki ölçüm arasındaki farkın metre cinsinden çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
-  gorsel: `<svg viewBox="0 0 460 210" role="img" aria-label="İlkbaharda fidan boyu 1,24 metre, sonbaharda 1,70 metre"><g stroke="currentColor" stroke-width="2"><line x1="40" y1="180" x2="420" y2="180"/><line x1="130" y1="180" x2="130" y2="96"/><line x1="320" y1="180" x2="320" y2="56"/></g><g stroke="var(--vurgu)" stroke-width="3" fill="none"><path d="M130 96 q-26 -18 -34 -40 M130 96 q26 -18 34 -40"/><path d="M320 56 q-30 -20 -40 -46 M320 56 q30 -20 40 -46"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="130" y="202">İlkbahar</text><text x="320" y="202">Sonbahar</text><text x="130" y="142">1,24 m</text><text x="320" y="142">1,70 m</text></g></svg>`,
-  secenekler: [
-    "4 · 10^{1} + 6 · 10^{0}",
-    "5 · 10^{-1} + 4 · 10^{-2}",
-    "4 · 10^{-1} + 6 · 10^{-2}",
-    "4 · 10^{-2} + 6 · 10^{-3}"
+  soru: "Bir kuyumcuda tartılan takıların kütlesi, müşteri basamakları görebilsin diye fişe çözümlenmiş biçimde yazılmaktadır. Bir gümüş zincirin fişi aşağıda verilmiştir. Kuyumcu bu zinciri eşit uzunlukta 5 parçaya ayıracak, ayırma sırasında hiç kayıp olmayacaktır.\n**Buna göre bir parçanın kütlesi kaç gramdır?**",
+  gorsel: `<svg viewBox="0 0 520 140" role="img" aria-label="Kuyumcu fişi: gümüş zincirin kütlesi 3 çarpı 10 üssü 1 artı 4 çarpı 10 üssü 0 artı 2 çarpı 10 üssü eksi 1 artı 5 çarpı 10 üssü eksi 2 gram"><rect x="16" y="14" width="488" height="112" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="16" y1="52" x2="504" y2="52" stroke="currentColor" stroke-width="2"/><text x="260" y="40" font-size="16" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">GÜMÜŞ ZİNCİR — TARTIM FİŞİ</text><text x="36" y="96" font-size="17" fill="currentColor">Kütle: 3 · 10<tspan font-size="13" dy="-8">1</tspan><tspan dy="8"> + 4 · 10</tspan><tspan font-size="13" dy="-8">0</tspan><tspan dy="8"> + 2 · 10</tspan><tspan font-size="13" dy="-8">−1</tspan><tspan dy="8"> + 5 · 10</tspan><tspan font-size="13" dy="-8">−2</tspan><tspan dy="8"> g</tspan></text></svg>`,
+  secenekler: ["34,25", "6,85", "6,84", "6,05"],
+  dogru: 1,
+  hatalar: [
+    "34,25: Son adımı atlama. 34,25 gram zincirin tamamının kütlesidir; soru bir parçayı istiyor.",
+    null,
+    "6,84: Yüzde birler terimini atlama: 34,2 ÷ 5 = 6,84 bulunmuş. Fişteki 5 · 10^{-2} terimi hesaba katılmamış.",
+    "6,05: Birler terimini atlama: 30,25 ÷ 5 = 6,05 bulunmuş. Fişteki 4 · 10^{0} terimi hesaba katılmamış."
   ],
+  aciklama: `Çözümlenmiş bir ifadeyi ondalık gösterime çevirmek için her terimin değeri bulunup toplanır; sonra istenen işlem yapılır.
+Adım 1: Terimleri hesapla: 3 · 10^{1} = 30; 4 · 10^{0} = 4; 2 · 10^{-1} = 0,2; 5 · 10^{-2} = 0,05.
+Adım 2: Topla: 30 + 4 + 0,2 + 0,05 = 34,25 gram. Zincirin tamamı bu kadardır.
+Adım 3: Beş eşit parçaya ayır: 34,25 ÷ 5 = 6,85 gram.
+Sağlama: 6,85 · 5 = 34,25. Parçaların toplamı zincirin kütlesine eşit.
+Sık yapılan hata: Toplam kütleyi bulunca durmak. Soru bir parçanın kütlesini istiyor, bu yüzden bir bölme daha gerekir.
+Cevap B.`
+},
+{
+  id: "mat-ui-221",
+  kazanim: "M.8.1.2.4",
+  kademe: 2,
+  zorluk: 3,
+  soru: "Bir okulun yardım kampanyasında toplanan tutar 7,2 · 10^{5} TL'dir. Kampanya panosunu hazırlayan görevli bu tutarı yazarken virgülü atlamış ve panoya 72 · 10^{5} TL yazmıştır. Öğrenciler panodaki yazımın yanlış olduğunu fark etmiştir.\n**Buna göre panoda yazan tutar, gerçek tutarın kaç katıdır?**",
+  gorsel: null,
+  secenekler: ["0,1", "1", "10", "100"],
   dogru: 2,
   hatalar: [
-    "Virgülü yok sayıp farkı tam sayı gibi çözümleme: bu çözümleme 46 sayısına aittir.",
-    "Çıkarmada basamakları ters yönde işletme: 0 − 4 yerine 4 − 0 yapılıp fark 0,54 bulunmuş.",
+    "0,1: Kat ilişkisini ters kurma. Gerçek tutar panodakine bölünmüş; oysa panodaki tutarın gerçeğin kaç katı olduğu soruluyor.",
+    "1: Baştaki sayı değişince 10'un üssünün de kendiliğinden değiştiğini sanıp iki yazımı eşit kabul etme.",
     null,
-    "Bütün basamakları bir sıra sağa kaydırma: bu çözümleme 0,046 sayısına aittir."
+    "100: 7,2 ile 72 arasındaki farkı 100 kat sanma. 72 sayısı 7,2'nin 10 katıdır."
   ],
-  aciklama: `Ondalık gösterimlerde çıkarma yapılırken virgüller alt alta gelecek biçimde yazılır ve eksik basamaklar sıfırla tamamlanır. Çözümlemede ise her rakam kendi basamağının değeriyle çarpılır.
-Adım 1: Farkı hesapla. Virgülleri hizala ve 1,70 − 1,24 işlemini yap. Yüzde birler basamağında 0'dan 4 çıkmadığı için onda birlerden ödünç alınır: 10 − 4 = 6. Onda birlerde 6 kalır, ondan 2 çıkar: 4. Tam kısımda 1 − 1 = 0. Fark 0,46 metredir.
-Adım 2: Basamakları adlandır: 4 rakamı onda birler, 6 rakamı yüzde birler basamağındadır. Tam kısım 0 olduğu için çözümlemede yazılmaz.
-Adım 3: Çözümlemeyi yaz: 4 · 10^{-1} + 6 · 10^{-2}.
-Sağlama: 0,4 + 0,06 = 0,46. Ayrıca 1,24 + 0,46 = 1,70 olduğundan fark doğrudur.
-Sık yapılan hata: Çıkarmada küçük rakamdan büyük rakamı çıkarmak yerine ters çevirip 0,54 bulmak. Ödünç alma adımı atlanmamalıdır.
+  aciklama: `Bir sayı 10'un kuvvetleriyle yazılırken baştaki sayı 10 katına çıkarsa üs 1 azalmalıdır. Üs olduğu gibi bırakılırsa sayının değeri de 10 katına çıkar.
+Adım 1: Gerçek tutarı aç: 7,2 · 10^{5} = 720 000 TL.
+Adım 2: Panodaki tutarı aç: 72 · 10^{5} = 7 200 000 TL.
+Adım 3: Oranı bul: 7 200 000 ÷ 720 000 = 10. Panodaki tutar gerçeğin 10 katıdır.
+Sağlama: Doğru yazım 72 · 10^{4} olurdu; baştaki sayı 10 katına çıktığı için üs 5'ten 4'e inmeliydi.
+Sık yapılan hata: Baştaki sayıyı değiştirip üssü olduğu gibi bırakmak. Bu tek başına sayının değerini 10 katına çıkarır.
+Cevap C.`
+},
+{
+  id: "mat-ui-222",
+  kazanim: "M.8.1.2.5",
+  kademe: 2,
+  zorluk: 3,
+  soru: "Bir barajın su miktarı her ayın başında ölçülüp bir tabloya yazılmaktadır. Nisan ve mayıs aylarının başındaki ölçümler aşağıda verilmiştir.\n**Buna göre baraja nisan ayı boyunca giren su miktarının bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  gorsel: `<table class="tablo"><tr><th>Ölçüm zamanı</th><th>Barajdaki su (m³)</th></tr><tr><td>1 Nisan</td><td>8 · 10<sup>4</sup></td></tr><tr><td>1 Mayıs</td><td>3 · 10<sup>5</sup></td></tr></table>`,
+  secenekler: ["2,2 · 10^{4}", "2,2 · 10^{5}", "2,8 · 10^{5}", "2,92 · 10^{5}"],
+  dogru: 1,
+  hatalar: [
+    "2,2 · 10^{4}: Başkatsayıyı doğru bulup üssü yanlış yazma. 300 000 − 80 000 = 220 000 sayısı 2,2 · 10^{5}'tir; 2,2 · 10^{4} = 22 000 eder.",
+    null,
+    "2,8 · 10^{5}: 8 · 10^{4} sayısını 0,2 · 10^{5} sanma. Doğrusu 8 · 10^{4} = 0,8 · 10^{5}'tir.",
+    "2,92 · 10^{5}: 8 · 10^{4} sayısını 0,08 · 10^{5} sanma. Üsleri eşitlerken virgül bir basamak fazla kaydırılmış."
+  ],
+  aciklama: `Bilimsel gösterimle yazılmış iki sayı çıkarılırken önce ikisi de 10'un aynı kuvveti cinsinden yazılır; sonra başkatsayılar çıkarılır.
+Adım 1: Neyin sorulduğunu belirle. Nisan boyunca giren su, ay sonundaki miktardan ay başındaki miktarın çıkarılmasıyla bulunur: (3 · 10^{5}) − (8 · 10^{4}).
+Adım 2: Küçük üslü sayıyı büyüğün kuvvetine çevir: 8 · 10^{4} = 0,8 · 10^{5}. Başkatsayı 10'a bölündü, bu yüzden üs 1 arttı.
+Adım 3: Başkatsayıları çıkar: 3 − 0,8 = 2,2. Sonuç 2,2 · 10^{5} m³'tür.
+Adım 4: Bilimsel gösterime uygunluğu denetle: 2,2 sayısı 1 ile 10 arasındadır.
+Sağlama: 300 000 − 80 000 = 220 000 = 2,2 · 10^{5}.
+Sık yapılan hata: Kuvvetleri eşitlemeden başkatsayıları çıkarmak. 3 − 8 işlemi negatif çıkar ve barajda su azalmış gibi görünür.
+Cevap B.`
+},
+{
+  id: "mat-ui-223",
+  kazanim: "M.8.1.2.1",
+  kademe: 2,
+  zorluk: 3,
+  soru: "Bir sınıfın matematik panosunda her hafta bir işlem asılmakta ve doğru sonucu bulan öğrencilerin adı panoya yazılmaktadır. Bu haftanın işlemi aşağıda verilmiştir.\n**Buna göre panodaki işlemin sonucu kaçtır?**",
+  gorsel: `<svg viewBox="0 0 480 140" role="img" aria-label="Pano: eksi 3'ün karesi çarpı eksi 2'nin küpü bölü eksi 6'nın karesi"><rect x="14" y="14" width="452" height="112" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="240" y="46" font-size="16" fill="currentColor" text-anchor="middle">HAFTANIN İŞLEMİ</text><text x="240" y="100" font-size="26" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">(−3)<tspan font-size="17" dy="-11">2</tspan><tspan dy="11"> · (−2)</tspan><tspan font-size="17" dy="-11">3</tspan><tspan dy="11"> ÷ (−6)</tspan><tspan font-size="17" dy="-11">2</tspan></text></svg>`,
+  secenekler: ["−72", "−3", "−2", "2"],
+  dogru: 2,
+  hatalar: [
+    "−72: Son adımı atlama. −72 sayısı yalnızca ilk iki çarpanın çarpımıdır; bölme işlemi yapılmamış.",
+    "−3: Üs almak yerine tabanı üsle çarpma: (−3) · 2 = −6, (−2) · 3 = −6 ve (−6) · 2 = −12 alınıp 36 ÷ (−12) = −3 bulunmuş.",
+    null,
+    "2: (−2)^{3} sonucunu pozitif alma. Taban negatif ve üs tek olduğu için sonuç negatiftir; işaret düşünce 9 · 8 ÷ 36 = 2 bulunur."
+  ],
+  aciklama: `Taban negatifse üssün tek mi çift mi olduğuna bakılır: çift kuvvette sonuç pozitif, tek kuvvette negatiftir. İşlem sırasında çarpma ve bölme soldan sağa yapılır.
+Adım 1: Kuvvetleri tek tek hesapla: (−3)^{2} = 9 (üs çift, pozitif); (−2)^{3} = −8 (üs tek, negatif); (−6)^{2} = 36 (üs çift, pozitif).
+Adım 2: Çarpmayı yap: 9 · (−8) = −72.
+Adım 3: Bölmeyi yap: −72 ÷ 36 = −2. Farklı işaretli sayıların bölümü negatiftir.
+Sağlama: −2 · 36 = −72; bölme doğru yapılmış.
+Sık yapılan hata: Bütün parantezlerdeki eksi işaretlerini aynı sayıp sonucu pozitif bırakmak. İşareti belirleyen, üssün tek ya da çift olmasıdır.
 Cevap C.`
 },
 {
   id: "mat-ui-224",
-  kazanim: "M.8.1.2.4",
+  kazanim: "M.8.1.2.2",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir belediye üç yıl süren fidan dikim kampanyasının sonuçlarını açıklamıştır. Her yılın sayısı basın bülteninde 10'un farklı bir kuvvetiyle yazılmıştır. Basın sözcüsü, üç yılın toplamını bilimsel gösterimle tek bir sayı hâlinde açıklayacaktır. Yıllara göre dikilen fidan sayıları aşağıdaki tabloda verilmiştir.\n**Buna göre üç yılda dikilen toplam fidan sayısının bilimsel gösterimi aşağıdakilerden hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Yıl</th><th>1. yıl</th><th>2. yıl</th><th>3. yıl</th></tr><tr><td>Dikilen fidan sayısı</td><td>12 · 10<sup>4</sup></td><td>0,9 · 10<sup>6</sup></td><td>8 · 10<sup>5</sup></td></tr></table>`,
-  secenekler: ["1,01 · 10^{6}", "1,82 · 10^{6}", "2,9 · 10^{6}", "2,09 · 10^{7}"],
+  soru: "Bir seramik atölyesinde sır karışımı hazırlanmaktadır. Karışım için A bileşeninden 2^{5} mL, B bileşeninden 2^{3} mL alınıp iyice karıştırılmakta, elde edilen karışımın tamamı 2^{2} eşit kaba paylaştırılmaktadır.\n**Buna göre bir kaba kaç mililitre karışım konulur?**",
+  gorsel: null,
+  secenekler: ["8", "10", "40", "64"],
   dogru: 1,
   hatalar: [
-    "Baştaki sayısı 1'den küçük olan terimi yanlış okuma: 0,9 · 10^{6} sayısı 90 000 sanılmış; oysa değeri 900 000'dir. Bu hatayla toplam 1 010 000 bulunur.",
+    "8: Yalnızca A bileşenini paylaştırma: 32 ÷ 4 = 8 bulunmuş. B bileşeni karışıma katılmamış.",
     null,
-    "Birinci yılın üssünü yanlış yönde düzenleme: 12 · 10^{4} sayısı 1,2 · 10^{6} sanılmış; doğrusu 1,2 · 10^{5}'tir.",
-    "Üsleri eşitlemeden baştaki sayıları toplama: 12 + 0,9 + 8 = 20,9 alınıp 20,9 · 10^{6} yazılmış."
+    "40: Son adımı atlama. 40 mL karışımın tamamıdır; kaplara paylaştırma yapılmamış.",
+    "64: Toplamada üsleri toplama: 2^{5} + 2^{3} = 2^{8} sanılıp 2^{8} ÷ 2^{2} = 2^{6} = 64 bulunmuş. Üsler yalnızca çarpmada toplanır."
   ],
-  aciklama: `Farklı kuvvetlerle yazılmış sayılar doğrudan toplanamaz. Önce hepsi aynı biçime (en kolayı düz sayıya) çevrilir, sonra toplanır.
-Adım 1: Her yılı düz sayıya çevir: 12 · 10^{4} = 120 000 ; 0,9 · 10^{6} = 900 000 ; 8 · 10^{5} = 800 000.
-Adım 2: Topla: 120 000 + 900 000 + 800 000 = 1 820 000 fidan.
-Adım 3: Bilimsel gösterime çevir: virgülü soldan ilk rakamın arkasına al, 1,82 elde et; virgül 6 basamak kaydığı için üs 6'dır. Sonuç 1,82 · 10^{6}'dır.
-Sağlama: 1,82 · 1 000 000 = 1 820 000.
-Sık yapılan hata: 10'un üsleri farklıyken baştaki sayıları doğrudan toplamak. Toplama yapabilmek için önce kuvvetler eşitlenmelidir.
+  aciklama: `Üslü ifadelerde toplama ile çarpma karıştırılmamalıdır: a^{n} · a^{m} = a^{n+m} kuralı yalnızca çarpma içindir. Toplama yapılacaksa üslü sayıların değerleri bulunup toplanır.
+Adım 1: Bileşenlerin hacimlerini hesapla: 2^{5} = 32 mL ve 2^{3} = 8 mL.
+Adım 2: Karışımın tamamını bul: 32 + 8 = 40 mL.
+Adım 3: Kap sayısını bul: 2^{2} = 4 kap.
+Adım 4: Paylaştır: 40 ÷ 4 = 10 mL.
+Sağlama: 4 kap · 10 mL = 40 mL; karışımın tamamı kaplara dağılmış.
+Sık yapılan hata: 2^{5} + 2^{3} toplamını 2^{8} sanmak. 2^{8} = 256'dır, oysa toplam 40'tır.
 Cevap B.`
 },
 {
   id: "mat-ui-225",
-  kazanim: "M.8.1.2.1",
+  kazanim: "M.8.1.2.4",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir tarım lisesinin serasında mantar kültürü yetiştirilmektedir. Öğretmen, ortam koşulları sabit tutulduğunda mantar sayısının her 2 günde bir 4 katına çıktığını söylemiştir. Öğrenciler bir kap mantarı seraya koymuş ve 8 gün sonra kaptaki mantar sayısını 4^{5} olarak saymıştır.\n**Buna göre öğrenciler seraya başlangıçta kaç mantar koymuştur?**",
-  gorsel: `<table class="tablo"><tr><th>Geçen gün</th><th>0. gün</th><th>2. gün</th><th>4. gün</th></tr><tr><td>Mantar sayısı</td><td>başlangıç</td><td>başlangıcın 4 katı</td><td>başlangıcın 4<sup>2</sup> katı</td></tr></table>`,
-  secenekler: ["4", "16", "64", "256"],
+  soru: "Bir belediyenin yıllık raporunda bütün tutarlar, sayfalar sade görünsün diye 10^{9} TL (milyar TL) biriminde yazılmaktadır. Bu yıl bir parkın yenilenmesine ayrılan tutar 3,2 · 10^{6} TL'dir.\n**Buna göre parka ayrılan tutar rapora hangi sayı ile yazılır?**",
+  gorsel: null,
+  secenekler: ["0,0032", "0,032", "32", "3200"],
   dogru: 0,
   hatalar: [
     null,
-    "Katlanma sayısını 3 sanma: 8 günde 8 ÷ 2 = 4 katlanma olur. Üç katlanmayla 4^{5} ÷ 4^{3} = 4^{2} = 16 bulunur.",
-    "Katlanma sayısını 2 sanma: 4^{5} ÷ 4^{2} = 4^{3} = 64 bulunmuş.",
-    "Katlanma sayısını 1 sanma: 8 günün tamamı tek bir katlanma sayılıp 4^{5} ÷ 4^{1} = 4^{4} = 256 bulunmuş."
+    "0,032: Üs farkını 2 sanma. 10^{6}'dan 10^{9}'a geçerken üs 3 artar, bu yüzden baştaki sayı 1000'e bölünür.",
+    "32: Kaydırma yönünü ters alma: 3,2 · 10^{6} = 32 · 10^{5} yazılıp durulmuş. Üs büyüyünce baştaki sayı küçülmelidir.",
+    "3200: 10^{9} yerine 10^{3} (bin) birimini kullanma. 3200 · 10^{3} = 3 200 000'dir."
   ],
-  aciklama: `Bir büyüklük her adımda aynı sayıyla çarpılıyorsa, sonuç başlangıç değerinin o sayının kuvvetiyle çarpımıdır. Başlangıcı bulmak için bölme yapılır; aynı tabanlı bölmede üsler çıkarılır.
-Adım 1: Kaç katlanma olduğunu bul: katlanma her 2 günde bir olduğuna göre 8 günde 8 ÷ 2 = 4 katlanma olur.
-Adım 2: İlişkiyi kur: başlangıç sayısı b ise 8 gün sonra b · 4^{4} mantar olur.
-Adım 3: Eşitliği kullan: b · 4^{4} = 4^{5} olduğundan b = 4^{5} ÷ 4^{4} = 4^{5−4} = 4^{1} = 4.
-Sağlama: Baştan ilerle: 4 → 16 → 64 → 256 → 1024. Dört katlanma sonunda 1024 olur ve 4^{5} = 1024'tür.
-Sık yapılan hata: Gün sayısını doğrudan üs sanmak. Katlanma iki günde bir olduğu için üs, gün sayısının yarısıdır.
+  aciklama: `Bir sayıyı 10'un belirli bir kuvveti cinsinden yazarken baştaki sayı ile üs ters yönde değişir: üs artarsa baştaki sayı aynı oranda küçülür.
+Adım 1: Tutarı aç: 3,2 · 10^{6} = 3 200 000 TL.
+Adım 2: İstenen birim 10^{9}'dur. Üs 6'dan 9'a çıkarken 3 arttığına göre baştaki sayı 1000'e bölünmelidir: 3,2 ÷ 1000 = 0,0032.
+Adım 3: Yaz: 3 200 000 = 0,0032 · 10^{9} TL. Rapora 0,0032 yazılır.
+Sağlama: 0,0032 · 1 000 000 000 = 3 200 000. Sayı değişmedi, yalnızca birimi değişti.
+Sık yapılan hata: Üs büyürken baştaki sayıyı da büyütmek. Bu durumda tutar gerçekte olduğundan çok daha büyük görünür.
 Cevap A.`
 },
-/* ===================== KADEME 3 — LGS AYARI (313-325) ===================== */
+/* ===================== KADEME 3 — LGS AYARI (ek) ===================== */
 {
   id: "mat-ui-313",
-  kazanim: "M.8.1.2.5",
+  kazanim: "M.8.1.2.1",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir hidroelektrik barajının türbinlerinden bir günde geçen su miktarı ile aynı vadideki sulama kanalının bir günde taşıdığı su miktarı ölçülmüştür. Bölge müdürlüğü hazırladığı bilgilendirme afişine, türbinlerden geçen suyun kanaldan geçen suyun kaç katı olduğunu yazacaktır. Ölçüm sonuçları aşağıda verilmiştir.\n**Buna göre afişe yazılacak sayı aşağıdakilerden hangisidir?**",
-  gorsel: `<svg viewBox="0 0 520 170" role="img" aria-label="Türbinlerden günde 8,4 çarpı 10 üssü 8 litre, kanaldan günde 2,1 çarpı 10 üssü 5 litre su geçiyor"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="26" y="26" width="220" height="54" rx="6"/><rect x="26" y="98" width="220" height="54" rx="6"/></g><g fill="currentColor" font-size="16"><text x="44" y="50">Türbinler</text><text x="44" y="122">Sulama kanalı</text></g><g fill="var(--vurgu)" font-size="18" font-weight="bold"><text x="270" y="58">8,4 · 10<tspan font-size="14" dy="-8">8</tspan><tspan dy="8"> litre/gün</tspan></text><text x="270" y="130">2,1 · 10<tspan font-size="14" dy="-8">5</tspan><tspan dy="8"> litre/gün</tspan></text></g><g stroke="var(--vurgu2)" stroke-width="2"><line x1="250" y1="53" x2="264" y2="53"/><line x1="250" y1="125" x2="264" y2="125"/></g></svg>`,
-  secenekler: ["4 · 10^{13}", "6,3 · 10^{3}", "4 · 10^{3}", "2,5 · 10^{-4}"],
-  dogru: 2,
+  soru: "Bir metal atölyesinde geniş bir alüminyum levha, bir makineyle turlar hâlinde küçültülmektedir. Makine her turda elindeki bütün parçaları 3 eşit parçaya böler; bölme sırasında hiç fire verilmez. İlk üç turun sonunda elde edilen parça sayısı tabloda verilmiştir. Makine, parça sayısı 243 olunca durdurulmuştur.\n**Buna göre makine kaç tur çalışmıştır?**",
+  gorsel: `<table class="tablo"><tr><th>Tur</th><th>1</th><th>2</th><th>3</th></tr><tr><td>Parça sayısı</td><td>3</td><td>9</td><td>27</td></tr></table>`,
+  secenekler: ["4", "5", "6", "81"],
+  dogru: 1,
   hatalar: [
-    "Bölmede üsleri toplama: 8 + 5 = 13 alınmış. Aynı tabanlı bölmede üsler çıkarılır.",
-    "Bölme yerine çıkarma yapma: 8,4 − 2,1 = 6,3 alınmış. \"Kaç katıdır\" sorusu bölme gerektirir.",
+    "4: Bir turu eksik sayma. 4 tur sonunda parça sayısı 3^{4} = 81 olur, 243 değil.",
     null,
-    "Böleni ve böleneni ters alma: 2,1 ÷ 8,4 = 0,25 ve 10^{5−8} = 10^{-3} alınıp 2,5 · 10^{-4} bulunmuş."
+    "6: Başlangıçtaki bütün levhayı da bir tur sayma. Levha bölünmeden önce henüz hiçbir tur yapılmamıştır.",
+    "81: Son turdan bir önceki parça sayısını cevap sanma: 243 ÷ 3 = 81 bulunup durulmuş. Soru parça sayısını değil tur sayısını istiyor."
   ],
-  aciklama: `Bilimsel gösterimle yazılmış iki sayı bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde ise üsler çıkarılır: (a · 10^{n}) ÷ (b · 10^{m}) = (a ÷ b) · 10^{n−m}.
-Adım 1: Baştaki sayıları böl: 8,4 ÷ 2,1 = 4.
-Adım 2: Üsleri çıkar: 10^{8} ÷ 10^{5} = 10^{8−5} = 10^{3}.
-Adım 3: Sonucu birleştir: 4 · 10^{3}. Yani türbinlerden geçen su, kanaldan geçen suyun 4000 katıdır.
-Sağlama: Ters yönde dene: 2,1 · 10^{5} · 4 · 10^{3} = 8,4 · 10^{5+3} = 8,4 · 10^{8}. Başlangıçtaki değere ulaşıldı.
-Sık yapılan hata: "Kaç katıdır" sorusunda çıkarma yapmak. Kat sorusu her zaman bölme ile çözülür.
-Cevap C.`
+  aciklama: `Her adımda aynı sayıyla çarpılan bir sayma işinde sonuç üslü ifadeyle yazılır. Tekrar tekrar çarpılan sayı taban, kaç kez çarpıldığı ise üstür.
+Adım 1: Tablodaki örüntüyü oku: 1. tur 3 = 3^{1}, 2. tur 9 = 3^{2}, 3. tur 27 = 3^{3} parça. Demek ki tur sayısı üs, 3 ise tabandır.
+Adım 2: Durma koşulunu yaz: 3^{tur} = 243 olmalıdır.
+Adım 3: 3'ün kuvvetlerini sırayla yaz: 3^{1} = 3, 3^{2} = 9, 3^{3} = 27, 3^{4} = 81, 3^{5} = 243. Öyleyse tur sayısı 5'tir.
+Sağlama: 3^{5} = 3^{3} · 3^{2} = 27 · 9 = 243. Sayı tutuyor.
+Sık yapılan hata: Üslü ifadenin değerini cevap yazmak. Burada aranan, üssün değeri olan tur sayısıdır.
+Cevap B.`
 },
 {
   id: "mat-ui-314",
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir eğitsel bilgisayar oyununda oyuncunun puanı her seviye atlayışında 9 katına çıkmaktadır. Oyunun puan tablosunda bütün puanlar 3'ün bir kuvveti biçiminde gösterilmektedir. Oyuna 3^{2} puanla başlayan bir oyuncu, hiç puan kaybetmeden 4 seviye atlamıştır. Tablonun ilk satırları aşağıda verilmiştir.\n**Buna göre oyuncunun 4 seviye sonundaki puanı aşağıdakilerden hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Atlanan seviye</th><th>0</th><th>1</th><th>2</th></tr><tr><td>Puan</td><td>3<sup>2</sup></td><td>3<sup>2</sup> · 9</td><td>3<sup>2</sup> · 9<sup>2</sup></td></tr></table>`,
-  secenekler: ["3^{16}", "3^{10}", "3^{8}", "3^{6}"],
-  dogru: 1,
+  soru: "Bir çevrim içi oyunda karakterlerin güç değerleri, oyuncular karşılaştırma yapabilsin diye üslü ifadelerle gösterilmektedir. İki karakterin güç kartı aşağıda verilmiştir. Bu iki karakterin gücü birbirine eşittir.\n**Buna göre k kaçtır?**",
+  gorsel: `<svg viewBox="0 0 460 170" role="img" aria-label="İki güç kartı: Ada karakterinin gücü 4 üssü 9, Kaya karakterinin gücü 8 üssü k"><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="24" y="24" width="180" height="120" rx="10"/><rect x="256" y="24" width="180" height="120" rx="10"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="114" y="54">ADA</text><text x="346" y="54">KAYA</text><text x="114" y="132">Güç</text><text x="346" y="132">Güç</text></g><g fill="var(--vurgu)" font-size="32" font-weight="bold" text-anchor="middle"><text x="114" y="104">4<tspan font-size="20" dy="-14">9</tspan></text><text x="346" y="104">8<tspan font-size="20" dy="-14">k</tspan></text></g></svg>`,
+  secenekler: ["18", "9", "6", "3"],
+  dogru: 2,
   hatalar: [
-    "Çarpmada üsleri çarpma: 2 · 8 = 16 alınmış. Aynı tabanlı çarpmada üsler toplanır.",
+    "18: Ortak tabana çevirdikten sonra bulunan üssü doğrudan cevap sanma. 4^{9} = 2^{18}'dir ama soruda taban 8'dir, 2 değil.",
+    "9: Tabanı değiştirirken üssü olduğu gibi bırakma. 4 ile 8 farklı sayılar olduğu için 4^{9} ile 8^{9} eşit olamaz.",
     null,
-    "Başlangıç puanını hesaba katmama: yalnızca 9^{4} = 3^{8} hesaplanmış.",
-    "Tabanı çevirirken üssü değiştirmeme: 9^{4} ifadesi 3^{4} sanılmış; oysa 9 = 3^{2} olduğundan 9^{4} = 3^{8}'dir."
+    "3: Üssü tabanların üs farkına bölme: 9 ÷ 3 = 3 alınmış. Doğru yol iki ifadeyi de aynı tabanda yazmaktır."
   ],
-  aciklama: `Farklı tabanlı üslü ifadeler ancak ortak bir tabana çevrildikten sonra birleştirilebilir. Tabanı çevirirken üssün üssü kuralı kullanılır: (a^{n})^{m} = a^{n·m}.
-Adım 1: Tabloyu oku. 4 seviye sonunda puan 3^{2} · 9^{4} olur.
-Adım 2: 9 sayısını 3'ün kuvveti olarak yaz: 9 = 3^{2}.
-Adım 3: Üssün üssünü al: 9^{4} = (3^{2})^{4} = 3^{2·4} = 3^{8}.
-Adım 4: Aynı tabanlı çarpımı yap: 3^{2} · 3^{8} = 3^{2+8} = 3^{10}.
-Sağlama: Sayılarla dene. 3^{2} = 9 puanla başlanır; her seviyede 9 ile çarpılır: 9 · 9 · 9 · 9 · 9 = 59 049. 3^{10} = 59 049'dur.
-Sık yapılan hata: 9^{4} ifadesini 3^{4} sanmak. Taban 3 kat büyümez, karesi alınır; bu yüzden üs iki katına çıkar.
-Cevap B.`
+  aciklama: `Tabanları farklı iki üslü sayıyı karşılaştırmak için ikisi de ortak bir tabanda yazılır. Bunun için (a^{n})^{m} = a^{n·m} kuralı kullanılır. 4 ve 8 sayılarının ikisi de 2'nin kuvvetidir.
+Adım 1: Ada'nın gücünü 2 tabanında yaz: 4^{9} = (2^{2})^{9} = 2^{2·9} = 2^{18}.
+Adım 2: Kaya'nın gücünü 2 tabanında yaz: 8^{k} = (2^{3})^{k} = 2^{3k}.
+Adım 3: Güçler eşit olduğuna göre tabanlar aynıyken üsler de eşittir: 3k = 18.
+Adım 4: k değerini bul: k = 18 ÷ 3 = 6.
+Sağlama: 4^{9} = 262 144 ve 8^{6} = 262 144. İki güç gerçekten eşit.
+Sık yapılan hata: Tabanı büyütürken üssü aynı bırakmak. Taban 2'den 8'e çıkarken üs 3 kat küçülmelidir, çünkü 8 = 2^{3}'tür.
+Cevap C.`
 },
 {
   id: "mat-ui-315",
   kazanim: "M.8.1.2.3",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir terzi atölyesinde kumaş toplarının uzunlukları etiketlere, 10'un tam sayı kuvvetleriyle çözümlenmiş biçimde yazılmaktadır. Usta, perde siparişi için elindeki dört toptan en uzun olanını seçecektir. Toplara ait etiketler aşağıdaki tabloda verilmiştir.\n**Buna göre ustanın seçeceği top hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Top</th><th>Etikette yazan uzunluk (m)</th></tr><tr><td>K</td><td>5 · 10<sup>0</sup> + 2 · 10<sup>−2</sup></td></tr><tr><td>L</td><td>4 · 10<sup>0</sup> + 9 · 10<sup>−1</sup> + 8 · 10<sup>−2</sup></td></tr><tr><td>M</td><td>5 · 10<sup>0</sup> + 9 · 10<sup>−3</sup></td></tr><tr><td>N</td><td>5 · 10<sup>0</sup> + 1 · 10<sup>−1</sup></td></tr></table>`,
-  secenekler: ["K", "L", "M", "N"],
-  dogru: 3,
+  soru: "Bir fen laboratuvarında dört öğrenci, aynı maddeden hazırladıkları örnekleri ayrı ayrı tartmıştır. Öğretmen, basamak değerlerini fark etmeleri için sonuçları çözümlenmiş biçimde yazmalarını istemiştir. Öğrencilerin yazdıkları aşağıdaki tabloda verilmiştir.\n**Buna göre en ağır örneği hangi öğrenci tartmıştır?**",
+  gorsel: `<table class="tablo"><tr><th>Öğrenci</th><th>Örneğin kütlesi (g)</th></tr><tr><td>Bora</td><td>4 · 10<sup>0</sup> + 1 · 10<sup>−1</sup></td></tr><tr><td>Ceren</td><td>4 · 10<sup>0</sup> + 9 · 10<sup>−2</sup></td></tr><tr><td>Deniz</td><td>4 · 10<sup>0</sup> + 8 · 10<sup>−2</sup> + 5 · 10<sup>−3</sup></td></tr><tr><td>Emir</td><td>3 · 10<sup>0</sup> + 9 · 10<sup>−1</sup> + 9 · 10<sup>−2</sup></td></tr></table>`,
+  secenekler: ["Bora", "Ceren", "Deniz", "Emir"],
+  dogru: 0,
   hatalar: [
-    "İkinci terimin rakamına bakıp karar verme: K topunda 2 · 10^{-2} = 0,02'dir; N topundaki 1 · 10^{-1} = 0,1 bundan büyüktür.",
-    "Terim sayısı çok olanı uzun sanma: L topunun uzunluğu 4,98 m'dir ve 5 m'yi bile geçmez.",
-    "Büyük rakamı büyük değer sanma: M topundaki 9 · 10^{-3} = 0,009'dur, yani çok küçük bir eklemedir.",
-    null
+    null,
+    "Ceren: 9 rakamını görüp büyük sanma. Ceren'in örneği 4,09 gramdır; 9 rakamı yüzde birler basamağındadır ve 0,09 değerini taşır. Bora'nın 0,1 grama karşılık gelen terimi bundan büyüktür.",
+    "Deniz: Terim sayısı en çok olanı en ağır sanma. Deniz'in örneği 4,085 gramdır; terim sayısı büyüklük anlamına gelmez.",
+    "Emir: Virgülden sonraki rakamlara bakıp seçme. Emir'in örneği 3,99 gramdır; birler basamağı 3 olduğu için hepsinden hafiftir."
   ],
-  aciklama: `Çözümlenmiş biçimde yazılmış sayılar karşılaştırılırken önce her biri ondalık gösterime çevrilir. Bir terimin büyüklüğünü rakam değil, 10'un üssü belirler: 10^{-1} > 10^{-2} > 10^{-3}'tür.
-Adım 1: K topunu çöz: 5 + 0,02 = 5,02 m.
-Adım 2: L topunu çöz: 4 + 0,9 + 0,08 = 4,98 m.
-Adım 3: M topunu çöz: 5 + 0,009 = 5,009 m.
-Adım 4: N topunu çöz: 5 + 0,1 = 5,1 m.
-Adım 5: Karşılaştır: 4,98 < 5,009 < 5,02 < 5,1. En uzun top N'dir.
-Sağlama: Dört sayıyı da yüzde birler basamağına kadar yaz: 4,98 ; 5,00 ; 5,02 ; 5,10. En büyük olan 5,10'dur.
-Sık yapılan hata: M topundaki 9 rakamını görüp onu en uzun sanmak. 9 rakamı binde birler basamağındadır, yani yalnızca 0,009 değerindedir.
-Cevap D.`
+  aciklama: `Çözümlenmiş ifadeleri karşılaştırmak için önce her birini ondalık gösterime çevirmek gerekir. Karşılaştırmada en soldaki basamaktan başlanır; basamak değerleri sağa doğru küçülür.
+Adım 1: Kütleleri hesapla. Bora: 4 + 0,1 = 4,1 g. Ceren: 4 + 0,09 = 4,09 g. Deniz: 4 + 0,08 + 0,005 = 4,085 g. Emir: 3 + 0,9 + 0,09 = 3,99 g.
+Adım 2: Birler basamağına bak. Emir'in örneğinde 3, diğerlerinde 4 vardır; öyleyse en hafif örnek Emir'indir.
+Adım 3: Kalan üç örnekte onda birler basamağına bak: Bora'da 1, Ceren'de 0, Deniz'de 0. En büyük onda birler basamağı Bora'dadır.
+Adım 4: En ağır örnek 4,1 gramla Bora'nındır.
+Sağlama: Basamak sayılarını eşitleyerek karşılaştır: 4,100 > 4,090 > 4,085 > 3,990.
+Sık yapılan hata: Virgülden sonraki rakamları bir tam sayı gibi okuyup 9'u 1'den büyük sanmak. Karşılaştırma basamak basamak yapılır.
+Cevap A.`
 },
 {
   id: "mat-ui-316",
   kazanim: "M.8.1.2.4",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir gıda fabrikasında ürünler önce kutulanmakta, kutular kolilere, koliler de tırlara yüklenmektedir. Bir kutuda 24 paket, bir kolide 10^{2} kutu, bir tırda ise 10^{3} koli bulunmaktadır. Bütün kutular, koliler ve tırlar tam dolu olarak yüklenmektedir. Sevkiyat sorumlusu bir tırdaki paket sayısını bilimsel gösterimle rapora yazacaktır.\n**Buna göre rapora yazılacak gösterim aşağıdakilerden hangisidir?**",
-  gorsel: `<svg viewBox="0 0 540 130" role="img" aria-label="Bir kutuda 24 paket, bir kolide 10 üssü 2 kutu, bir tırda 10 üssü 3 koli"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><rect x="24" y="34" width="100" height="58" rx="6"/><rect x="204" y="34" width="100" height="58" rx="6"/><rect x="384" y="34" width="110" height="58" rx="6"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="74" y="60">KUTU</text><text x="254" y="60">KOLİ</text><text x="439" y="60">TIR</text><text x="74" y="84">24 paket</text><text x="254" y="84">10<tspan font-size="13" dy="-7">2</tspan><tspan dy="7"> kutu</tspan></text><text x="439" y="84">10<tspan font-size="13" dy="-7">3</tspan><tspan dy="7"> koli</tspan></text></g><g stroke="var(--vurgu)" stroke-width="2" fill="none"><path d="M132 63 h62 M182 54 l14 9 -14 9"/><path d="M312 63 h62 M362 54 l14 9 -14 9"/></g></svg>`,
-  secenekler: ["2,4 · 10^{3}", "2,4 · 10^{5}", "2,4 · 10^{6}", "24 · 10^{6}"],
-  dogru: 2,
+  soru: "Bir kargo şirketinin dört şubesi, bir yılda işlem gören gönderi sayısını giriş panolarına yazmıştır. Şubeler bu sayıları yazarken 10'un farklı tam sayı kuvvetlerini kullanmıştır. Panolarda yazan değerler aşağıdaki tabloda verilmiştir.\n**Buna göre bir yılda en çok gönderi hangi şubede işlem görmüştür?**",
+  gorsel: `<table class="tablo"><tr><th>Şube</th><th>Gönderi sayısı</th></tr><tr><td>K</td><td>0,04 · 10<sup>7</sup></td></tr><tr><td>L</td><td>0,5 · 10<sup>6</sup></td></tr><tr><td>M</td><td>49 · 10<sup>4</sup></td></tr><tr><td>N</td><td>4500 · 10<sup>2</sup></td></tr></table>`,
+  secenekler: ["K şubesi", "L şubesi", "M şubesi", "N şubesi"],
+  dogru: 1,
   hatalar: [
-    "Bir adımı atlama: yalnızca 24 · 10^{2} = 2400 hesaplanıp bir tırdaki koli sayısı hesaba katılmamış.",
-    "24 · 10^{5} ifadesinde baştaki sayıyı 2,4 yaparken üssü 1 artırmayı unutma: doğrusu 2,4 · 10^{6}'dır.",
+    "K şubesi: 10'un üssü en büyük olanı seçme. K şubesinde 0,04 · 10^{7} = 400 000 gönderi vardır; baştaki sayı 1'den küçük olduğu için sayı beklenenden küçük çıkar.",
     null,
-    "Baştaki sayıyı 1 ile 10 arasına çekmeme: 24 sayısı 10'dan büyük olduğu için bu bir bilimsel gösterim değildir; üstelik değeri 10 kat büyüktür."
+    "M şubesi: Sayıları açmadan baştaki sayıların büyüklüğüne bakma. M şubesinde 49 · 10^{4} = 490 000 gönderi vardır; bu, L şubesindeki 500 000'den azdır.",
+    "N şubesi: Baştaki sayısı en büyük olanı seçme. N şubesinde 4500 · 10^{2} = 450 000 gönderi vardır."
   ],
-  aciklama: `Zincirleme sayma problemlerinde her basamaktaki sayı çarpılır. 10'un kuvvetleri çarpılırken üsler toplanır.
-Adım 1: Bir kolideki paket sayısını bul: 24 · 10^{2} = 2400 paket.
-Adım 2: Bir tırdaki paket sayısını bul: 2400 · 10^{3} = 24 · 10^{2} · 10^{3} = 24 · 10^{2+3} = 24 · 10^{5}.
-Adım 3: Bilimsel gösterime çevir: baştaki sayı 1 ile 10 arasında olmalıdır. 24 sayısını 10 kat küçültüp 2,4 yaz, karşılığında üssü 1 artır: 24 · 10^{5} = 2,4 · 10^{6}.
-Sağlama: 2,4 · 10^{6} = 2 400 000. Doğrudan da hesaplayabilirsin: 24 · 100 · 1000 = 2 400 000.
-Sık yapılan hata: 24 · 10^{5} ifadesini bilimsel gösterim sanmak. Bilimsel gösterimde baştaki sayı 1 ile 10 arasında olmak zorundadır.
-Cevap C.`
+  aciklama: `10'un farklı kuvvetleriyle yazılmış sayılar, baştaki sayı ile üs birlikte değerlendirilmeden karşılaştırılamaz. En güvenli yol, hepsini açıp aynı biçimde yazmaktır.
+Adım 1: K şubesini aç: 0,04 · 10^{7} = 0,04 · 10 000 000 = 400 000.
+Adım 2: L şubesini aç: 0,5 · 10^{6} = 0,5 · 1 000 000 = 500 000.
+Adım 3: M ve N şubelerini aç: 49 · 10^{4} = 490 000 ve 4500 · 10^{2} = 450 000.
+Adım 4: Sayıları karşılaştır: 500 000 > 490 000 > 450 000 > 400 000. En çok gönderi L şubesindedir.
+Sağlama: Hepsini bilimsel gösterimle yaz: K = 4 · 10^{5}, L = 5 · 10^{5}, M = 4,9 · 10^{5}, N = 4,5 · 10^{5}. Üsler eşit olunca karşılaştırma baştaki sayılarla yapılır ve 5 en büyüğüdür.
+Sık yapılan hata: Yalnızca 10'un üssüne ya da yalnızca baştaki sayıya bakmak. Sayının değerini ikisi birlikte belirler.
+Cevap B.`
 },
 {
   id: "mat-ui-317",
-  kazanim: "M.8.1.2.1",
+  kazanim: "M.8.1.2.5",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir soğuk hava deposunun kapısında üst üste asılan yalıtım perdeleri kullanılmaktadır. Her perde, kendisine ulaşan ısı kaybını üçte birine düşürmektedir. Depo sorumlusu kapıya 4 perde asmıştır. Perdelerin ısı kaybına etkisi aşağıdaki tabloda verilmiştir.\n**Buna göre 4 perde asıldığında ısı kaybı, hiç perde yokkenki kaybın kaçta kaçına iner?**",
-  gorsel: `<table class="tablo"><tr><th>Asılan perde sayısı</th><th>1</th><th>2</th><th>3</th></tr><tr><td>Kalan ısı kaybı</td><td>ilk kaybın 3'te 1'i</td><td>ilk kaybın 9'da 1'i</td><td>ilk kaybın 27'de 1'i</td></tr></table>`,
-  secenekler: ["[[1|81]]", "[[1|27]]", "[[1|12]]", "[[1|9]]"],
+  soru: "Bir matbaada kullanılan baskı kâğıdı paketlerinin her birinde 5 · 10^{2} yaprak bulunmaktadır ve bir paketin kalınlığı 5 · 10^{1} milimetredir. Paketteki bütün yaprakların kalınlığı birbirine eşittir ve yapraklar arasında boşluk yoktur.\n**Buna göre bir yaprağın kalınlığı kaç metredir? (1 milimetre = 10^{-3} metre)**",
+  gorsel: `<svg viewBox="0 0 480 170" role="img" aria-label="Kâğıt paketi: 5 çarpı 10 üssü 2 yaprak, paketin kalınlığı 5 çarpı 10 üssü 1 milimetre"><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="40" y="46" width="200" height="86" rx="4"/></g><g stroke="currentColor" stroke-width="1"><line x1="40" y1="60" x2="240" y2="60"/><line x1="40" y1="74" x2="240" y2="74"/><line x1="40" y1="88" x2="240" y2="88"/><line x1="40" y1="102" x2="240" y2="102"/><line x1="40" y1="116" x2="240" y2="116"/></g><g stroke="var(--vurgu)" stroke-width="2"><line x1="264" y1="46" x2="264" y2="132"/><line x1="256" y1="46" x2="272" y2="46"/><line x1="256" y1="132" x2="272" y2="132"/></g><g fill="currentColor" font-size="16"><text x="284" y="84">Paketin kalınlığı:</text><text x="284" y="106">5 · 10<tspan font-size="13" dy="-8">1</tspan><tspan dy="8"> mm</tspan></text><text x="40" y="158">Paketteki yaprak sayısı: 5 · 10<tspan font-size="13" dy="-8">2</tspan></text></g></svg>`,
+  secenekler: ["10^{-4}", "10^{-3}", "10^{-2}", "10^{-1}"],
   dogru: 0,
   hatalar: [
     null,
-    "Bir perdeyi eksik sayma: 27 = 3^{3}'tür, yani bu değer 3 perdeye aittir.",
-    "Üs almak yerine çarpma yapma: 3 · 4 = 12 alınmış. Her perdede üçe bölme yeniden yapıldığı için üslü ifade kullanılır.",
-    "İki perdeyi eksik sayma: 9 = 3^{2}'dir, yani bu değer 2 perdeye aittir."
+    "10^{-3}: Bölmeyi atlayıp bir yaprağı 1 mm sanma. 1 mm = 10^{-3} m'dir ama bir yaprak 1 mm'den incedir.",
+    "10^{-2}: 1 milimetreyi 10^{-2} metre sanma (santimetre ile karıştırma). Bir metrede 1000 milimetre vardır.",
+    "10^{-1}: Birim çevirmeyi atlama. 10^{-1} sayısı bir yaprağın milimetre cinsinden kalınlığıdır, metre cinsinden değil."
   ],
-  aciklama: `Bir büyüklük her adımda aynı sayıya bölünüyorsa, adım sayısı kadar kez bölünmüş olur. Bu durum negatif üsle de yazılabilir: üçte bire inme, 3^{-1} ile çarpma demektir.
-Adım 1: Tablodaki örüntüyü oku: 1 perdede 3^{1}'de 1, 2 perdede 3^{2}'de 1, 3 perdede 3^{3}'te 1 kalıyor. Demek ki perde sayısı üssü veriyor.
-Adım 2: Kuralı 4 perdeye uygula: kalan kayıp, ilk kaybın 3^{4}'te 1'idir.
-Adım 3: Hesapla: 3^{4} = 81. Yani kayıp, ilk kaybın [[1|81]]'ine iner.
-Sağlama: Adım adım git: ilk kayıp 81 birim olsaydı perdelerden sonra sırasıyla 27, 9, 3 ve 1 birim kalırdı. Son değer başlangıcın [[1|81]]'idir.
-Sık yapılan hata: Perde sayısını üs yerine çarpan sanıp 3 · 4 = 12 yazmak. Tekrarlanan bölme, çarpma ile değil üs ile gösterilir.
+  aciklama: `Bilimsel gösterimdeki sayılar bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde üsler çıkarılır: (a · 10^{n}) ÷ (b · 10^{m}) = (a ÷ b) · 10^{n-m}.
+Adım 1: Bir yaprağın milimetre cinsinden kalınlığını bul: (5 · 10^{1}) ÷ (5 · 10^{2}). Baştaki sayılar: 5 ÷ 5 = 1. Üsler: 1 − 2 = −1. Sonuç 10^{-1} mm'dir.
+Adım 2: Birimi çevir. 1 mm = 10^{-3} m olduğuna göre 10^{-1} mm = 10^{-1} · 10^{-3} m.
+Adım 3: Üsleri topla: (−1) + (−3) = −4. Bir yaprak 10^{-4} metre kalınlığındadır.
+Sağlama: 10^{-4} m = 0,0001 m = 0,1 mm'dir. 500 yaprak · 0,1 mm = 50 mm ve bu, paketin kalınlığıdır.
+Sık yapılan hata: Milimetre cinsinden bulunan sonucu metre sanıp durmak. Birim çevrilmezse sonuç 1000 kat büyük kalır.
 Cevap A.`
 },
 {
   id: "mat-ui-318",
-  kazanim: "M.8.1.2.2",
+  kazanim: "M.8.1.2.3",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir bilim olimpiyatında takımların puanları duyuru panosunda üslü ifadelerle ilan edilmektedir. Panoda A takımının puanı 4^{6}, B takımının puanı ise 2^{11} olarak yazılıdır. Öğrenciler tabanları farklı olan bu iki puanı karşılaştırmak istemektedir.\n**Buna göre A takımının puanı B takımının puanının kaç katıdır?**",
-  gorsel: `<svg viewBox="0 0 460 140" role="img" aria-label="Duyuru panosu: A takımı 4 üssü 6 puan, B takımı 2 üssü 11 puan"><rect x="20" y="18" width="420" height="104" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="230" y1="18" x2="230" y2="122" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="17" text-anchor="middle"><text x="125" y="48">A TAKIMI</text><text x="335" y="48">B TAKIMI</text></g><g fill="var(--vurgu)" font-size="30" font-weight="bold" text-anchor="middle"><text x="125" y="96">4<tspan font-size="20" dy="-12">6</tspan></text><text x="335" y="96">2<tspan font-size="20" dy="-12">11</tspan></text></g></svg>`,
-  secenekler: ["[[1|2]]", "1", "2", "4"],
-  dogru: 2,
-  hatalar: [
-    "Karşılaştırmayı ters yönde yapma: 2^{11} ÷ 2^{12} = 2^{-1} = [[1|2]] bulunmuş. Soruda A'nın B'ye oranı istenmektedir.",
-    "Üsler arasındaki 1 farkını \"fark yok\" diye okuma: 2^{12} ÷ 2^{11} = 2^{1} = 2'dir, 1 değil.",
-    null,
-    "Üsler arasındaki farkı 2 sanma: 12 − 11 = 1 olduğundan oran 2^{1}'dir, 2^{2} değil."
+  soru: "Bir öğrenci, ödevinde bir tartım sonucu olan 205,07 sayısını 10'un tam sayı kuvvetleriyle çözümlemiştir. Öğrencinin defterine yazdığı çözümleme aşağıda verilmiştir. Öğretmen, çözümlemede yalnızca bir terimin yanlış yazıldığını, diğerlerinin doğru olduğunu söylemiştir.\n**Buna göre öğrenci hangi düzeltmeyi yapmalıdır?**",
+  gorsel: `<svg viewBox="0 0 520 140" role="img" aria-label="Defterde yazan çözümleme: 205,07 eşittir 2 çarpı 10 üssü 2 artı 5 çarpı 10 üssü 0 artı 7 çarpı 10 üssü eksi 1"><rect x="16" y="16" width="488" height="108" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="56" y1="16" x2="56" y2="124" stroke="var(--vurgu)" stroke-width="2"/><text x="80" y="60" font-size="16" fill="currentColor">Ödev — çözümleme</text><text x="80" y="102" font-size="20" fill="currentColor">205,07 = 2 · 10<tspan font-size="14" dy="-9">2</tspan><tspan dy="9"> + 5 · 10</tspan><tspan font-size="14" dy="-9">0</tspan><tspan dy="9"> + 7 · 10</tspan><tspan font-size="14" dy="-9">−1</tspan></text></svg>`,
+  secenekler: [
+    "2 · 10^{2} yerine 2 · 10^{3} yazmalı",
+    "5 · 10^{0} yerine 5 · 10^{1} yazmalı",
+    "7 · 10^{-1} yerine 7 · 10^{-3} yazmalı",
+    "7 · 10^{-1} yerine 7 · 10^{-2} yazmalı"
   ],
-  aciklama: `Tabanları farklı iki üslü ifade karşılaştırılırken ikisi de aynı tabana çevrilir. Burada 4 sayısı 2'nin kuvveti olarak yazılabilir: 4 = 2^{2}.
-Adım 1: A takımının puanını 2 tabanına çevir: 4^{6} = (2^{2})^{6} = 2^{2·6} = 2^{12}.
-Adım 2: Oranı yaz: 2^{12} ÷ 2^{11}.
-Adım 3: Aynı tabanlı bölmede üsleri çıkar: 2^{12−11} = 2^{1} = 2.
-Sağlama: Küçük sayılarla dene. 4^{2} = 16 ve 2^{3} = 8'dir; 16 ÷ 8 = 2 eder. Aynı ilişki büyük üslerde de geçerlidir.
-Sık yapılan hata: 4^{6} ifadesini 2^{6} ya da 2^{8} sanmak. Taban 4'ten 2'ye inerken üs iki katına çıkar, çünkü 4 = 2^{2}'dir.
-Cevap C.`
+  dogru: 3,
+  hatalar: [
+    "2 rakamını binler basamağında sanma. 205,07 sayısı üç basamaklı bir tam kısma sahiptir; 2 rakamı yüzler basamağındadır ve terimi 2 · 10^{2}'dir.",
+    "Tam kısımdaki 0 rakamını atlayıp 5'i onlar basamağında sanma. 205 sayısında onlar basamağı 0, birler basamağı 5'tir.",
+    "Virgülden sonraki basamağı bir fazla kaydırma. 7 rakamı binde birler değil yüzde birler basamağındadır.",
+    null
+  ],
+  aciklama: `Bir ondalık gösterimi çözümlerken her rakam, bulunduğu basamağın değeriyle çarpılır. Virgülden sonraki ilk basamak 10^{-1}, ikinci basamak 10^{-2} değerini taşır.
+Adım 1: Sayının basamaklarını adlandır: 2 yüzler, 0 onlar, 5 birler, 0 onda birler, 7 yüzde birler basamağındadır.
+Adım 2: Doğru çözümlemeyi yaz: 2 · 10^{2} + 5 · 10^{0} + 7 · 10^{-2}. Değeri 0 olan terimler yazılmayabilir.
+Adım 3: Öğrencinin yazdıklarıyla karşılaştır. İlk iki terim doğrudur; son terim 7 · 10^{-1} yazılmış, oysa 7 · 10^{-2} olmalıydı.
+Sağlama: Öğrencinin yazdığı çözümlemenin değeri 200 + 5 + 0,7 = 205,7'dir; doğrusu 200 + 5 + 0,07 = 205,07 olmalıdır.
+Sık yapılan hata: Virgülden sonraki 0'ı atlayıp 7 rakamını onda birler basamağına kaydırmak.
+Cevap D.`
 },
 {
   id: "mat-ui-319",
   kazanim: "M.8.1.2.5",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir gıda laboratuvarında maya hücrelerinin kütlesi incelenmektedir. Ölçümlerde tek bir maya hücresinin kütlesi 2,5 · 10^{-12} gram bulunmuştur. Araştırmacı, hazırladığı kültürde 8 · 10^{7} maya hücresi olduğunu belirlemiştir. Rapora, kültürdeki hücrelerin toplam kütlesi bilimsel gösterimle yazılacaktır.\n**Buna göre rapora yazılacak gösterim aşağıdakilerden hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Ölçülen büyüklük</th><th>Değer</th></tr><tr><td>Bir maya hücresinin kütlesi</td><td>2,5 · 10<sup>−12</sup> g</td></tr><tr><td>Kültürdeki hücre sayısı</td><td>8 · 10<sup>7</sup></td></tr></table>`,
-  secenekler: ["2 · 10^{-19}", "2 · 10^{-6}", "2 · 10^{-5}", "2 · 10^{-4}"],
+  soru: "Bir müzik atölyesinde gitar tellerinin kalınlığı, tellerin geldiği kutulara farklı birimlerle yazılmıştır. Atölyedeki dört telin kutusunda yazan değerler aşağıdaki tabloda verilmiştir.\n**Buna göre bu tellerden hangisi en kalındır? (1 cm = 10 mm, 1 m = 1000 mm)**",
+  gorsel: `<table class="tablo"><tr><th>Tel</th><th>Kalınlık</th></tr><tr><td>Mi</td><td>3 · 10<sup>−1</sup> mm</td></tr><tr><td>Re</td><td>2 · 10<sup>−4</sup> m</td></tr><tr><td>Sol</td><td>9 · 10<sup>−3</sup> cm</td></tr><tr><td>La</td><td>4 · 10<sup>−2</sup> cm</td></tr></table>`,
+  secenekler: ["Mi teli", "Re teli", "Sol teli", "La teli"],
   dogru: 3,
   hatalar: [
-    "Üsleri toplarken ikinci üssü de negatif sayma: (−12) + 7 = −5'tir; (−12) + (−7) = −19 alınmış.",
-    "20 · 10^{-5} ifadesini düzeltirken üssü ters yönde değiştirme: baştaki sayı 10 kat küçültülünce üs 1 artar, azalmaz.",
-    "20 · 10^{-5} ifadesinde baştaki sayıyı 2 yapıp üssü değiştirmeyi unutma.",
+    "Mi teli: Birimleri eşitlemeden 10'un üssü en büyük olanı (−1) seçme. Mi teli 0,3 mm kalınlığındadır.",
+    "Re teli: Metre en büyük birim olduğu için o satırdaki telin en kalın olduğunu sanma. Re teli 0,2 mm kalınlığındadır.",
+    "Sol teli: Baştaki sayısı en büyük olanı (9) seçme. Sol teli 0,09 mm ile en ince teldir.",
     null
   ],
-  aciklama: `Bilimsel gösterimle yazılmış sayılar çarpılırken baştaki sayılar çarpılır, 10'un kuvvetlerinde üsler toplanır. Sonuçta baştaki sayı 1 ile 10 arasında değilse gösterim yeniden düzenlenir.
-Adım 1: Baştaki sayıları çarp: 2,5 · 8 = 20.
-Adım 2: Üsleri topla: 10^{-12} · 10^{7} = 10^{-12+7} = 10^{-5}.
-Adım 3: Ara sonucu yaz: 20 · 10^{-5}. Baştaki sayı 10'dan büyük olduğu için bu henüz bilimsel gösterim değildir.
-Adım 4: Düzenle: 20 sayısını 10 kat küçültüp 2 yap, karşılığında üssü 1 artır: 20 · 10^{-5} = 2 · 10^{-4}.
-Sağlama: 2 · 10^{-4} = 0,0002 gramdır. Hücre başına 0,0000000000025 g düşer ve 80 000 000 hücre için 0,0002 g bulunur.
-Sık yapılan hata: Negatif üsle pozitif üs toplanırken işaretleri karıştırmak. (−12) + 7 işleminde büyük olan 12 negatif olduğu için sonuç negatiftir: −5.
+  aciklama: `Farklı birimlerle yazılmış büyüklükler karşılaştırılmadan önce hepsi aynı birime çevrilir. Birim çevirmek, sayıyı 10'un bir kuvvetiyle çarpmak demektir.
+Adım 1: Mi telini yaz: 3 · 10^{-1} mm = 0,3 mm. Zaten milimetre cinsindendir.
+Adım 2: Re telini çevir: 1 m = 1000 mm olduğundan 2 · 10^{-4} m = 2 · 10^{-4} · 10^{3} mm = 2 · 10^{-1} mm = 0,2 mm.
+Adım 3: Sol ve La tellerini çevir: 1 cm = 10 mm olduğundan 9 · 10^{-3} cm = 9 · 10^{-2} mm = 0,09 mm ve 4 · 10^{-2} cm = 4 · 10^{-1} mm = 0,4 mm.
+Adım 4: Karşılaştır: 0,4 > 0,3 > 0,2 > 0,09. En kalın tel La telidir.
+Sağlama: Hepsini milimetre cinsinden sırala: La 0,4; Mi 0,3; Re 0,2; Sol 0,09. Dört değer de gerçek gitar tellerinin kalınlığına yakındır.
+Sık yapılan hata: Birimlere bakmadan yalnızca baştaki sayıları ya da yalnızca üsleri karşılaştırmak.
 Cevap D.`
 },
 {
@@ -798,145 +783,349 @@ Cevap D.`
   kazanim: "M.8.1.2.5",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir doğa kulübünün üyeleri gözlemledikleri dört böceğin kanat uzunluklarını not defterine yazmıştır. Ancak her üye kendi alışkanlığına göre yazdığı için uzunluklar farklı biçimlerde kaydedilmiştir. Kulüp danışmanı notları düzenlerken kanadı en uzun olan böceği belirlemek istemektedir. Defterdeki kayıtlar aşağıdaki tabloda verilmiştir.\n**Buna göre kanadı en uzun olan böcek hangisidir?**",
-  gorsel: `<table class="tablo"><tr><th>Böcek</th><th>K</th><th>L</th><th>M</th><th>N</th></tr><tr><td>Kanat uzunluğu (m)</td><td>0,004</td><td>3,5 · 10<sup>−3</sup></td><td>0,0038</td><td>45 · 10<sup>−4</sup></td></tr></table>`,
-  secenekler: ["K", "L", "M", "N"],
-  dogru: 3,
+  soru: "Bir tıbbi malzeme fabrikası her gün aynı sayıda, günde 2,5 · 10^{4} maske üretmektedir. Fabrikaya 3 · 10^{5} maskelik tek bir sipariş gelmiştir. Fabrika bu süre boyunca yalnızca bu siparişi üretecek ve hiç ara vermeyecektir.\n**Buna göre sipariş kaç günde tamamlanır?**",
+  gorsel: null,
+  secenekler: ["1,2", "12", "75", "120"],
+  dogru: 1,
   hatalar: [
-    "Yalnızca düz yazılmış sayıları karşılaştırma: 0,004 m, N böceğindeki 45 · 10^{-4} = 0,0045 m'den küçüktür.",
-    "Baştaki sayıya bakıp karar verme: 3,5 · 10^{-3} = 0,0035 m'dir ve dört kayıt içinde en küçüğüdür.",
-    "Virgülden sonraki basamak sayısı çok olanı büyük sanma: 0,0038 m, 0,0045 m'den küçüktür.",
-    null
+    "1,2: 10'un kuvvetlerini bölmeyi atlama. Yalnızca 3 ÷ 2,5 = 1,2 işlemi yapılmış, üsler hesaba katılmamış.",
+    null,
+    "75: Bölme yerine çarpma: 2,5 · 3 = 7,5 bulunup 10'un kuvvetleriyle 75 yazılmış. Sipariş sayısı günlük üretime bölünmelidir.",
+    "120: Üsleri çıkarırken hata yapma: 10^{5} ÷ 10^{4} = 10^{1}'dir, 10^{2} değildir."
   ],
-  aciklama: `Farklı biçimlerde yazılmış sayılar ancak ortak bir biçime çevrildikten sonra karşılaştırılabilir. En güvenli yol hepsini ondalık gösterime çevirmektir.
-Adım 1: K kaydı zaten ondalıktır: 0,004 m.
-Adım 2: L kaydını çevir: 3,5 · 10^{-3} = 0,0035 m.
-Adım 3: M kaydı zaten ondalıktır: 0,0038 m.
-Adım 4: N kaydını çevir: 45 · 10^{-4} = 45 ÷ 10 000 = 0,0045 m.
-Adım 5: Sırala: 0,0035 < 0,0038 < 0,004 < 0,0045. En uzun kanat N böceğine aittir.
-Sağlama: Dört sayıyı da on binde birler basamağına kadar yaz: 0,0040 ; 0,0035 ; 0,0038 ; 0,0045. En büyüğü 0,0045'tir.
-Sık yapılan hata: 45 · 10^{-4} gösterimindeki 45 sayısını küçük bir değer sanmak ya da doğrudan 45 diye büyük görmek. Gösterimin değeri ancak 10'un kuvveti uygulandıktan sonra anlaşılır.
-Cevap D.`
+  aciklama: `Bilimsel gösterimle yazılmış sayılar bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde üsler çıkarılır.
+Adım 1: İşlemi kur: gün sayısı = toplam sipariş ÷ günlük üretim = (3 · 10^{5}) ÷ (2,5 · 10^{4}).
+Adım 2: Baştaki sayıları böl: 3 ÷ 2,5 = 30 ÷ 25 = 1,2.
+Adım 3: 10'un kuvvetlerini böl: 10^{5} ÷ 10^{4} = 10^{5-4} = 10^{1} = 10.
+Adım 4: Sonuçları çarp: 1,2 · 10 = 12 gün.
+Sağlama: Sayıları aç: 300 000 ÷ 25 000 = 12. Ayrıca 12 gün · 25 000 maske = 300 000 maske eder.
+Sık yapılan hata: Yalnızca baştaki sayıları bölüp 1,2 demek. Bu sonuç, siparişin bir günden kısa sürede biteceği anlamına gelirdi; oysa sipariş günlük üretimin 12 katıdır.
+Cevap B.`
 },
 {
   id: "mat-ui-321",
-  kazanim: "M.8.1.2.5",
-  kademe: 3,
-  zorluk: 3,
-  soru: "Bir ilaç fabrikasında hazırlanan sıvı ilaç, depodan alınıp küçük şişelere doldurulmaktadır. Depoda bulunan ilacın tamamı şişelenecek, doldurulan şişeler 250'şerli kolilere yerleştirilecektir. Şişeleme sonunda bütün koliler tam dolmaktadır. Depodaki ilaç miktarı ile bir şişenin aldığı ilaç miktarı aşağıda verilmiştir.\n**Buna göre bu ilaçtan kaç koli elde edilir?**",
-  gorsel: `<svg viewBox="0 0 520 160" role="img" aria-label="Depoda 1,2 çarpı 10 üssü 3 litre ilaç, bir şişe 4 çarpı 10 üssü eksi 2 litre, bir koli 250 şişe"><g stroke="currentColor" stroke-width="2" fill="var(--dolgu)"><path d="M30 40 h96 v88 h-96 z"/><path d="M212 48 h34 v80 h-34 z"/><path d="M222 32 h14 v16 h-14 z"/><rect x="330" y="48" width="86" height="80" rx="5"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="78" y="150">Depo</text><text x="229" y="150">Şişe</text><text x="373" y="150">Koli</text></g><g fill="var(--vurgu)" font-size="16" font-weight="bold" text-anchor="middle"><text x="78" y="92">1,2 · 10<tspan font-size="13" dy="-8">3</tspan><tspan dy="8"> L</tspan></text><text x="229" y="98">4 · 10<tspan font-size="13" dy="-8">−2</tspan><tspan dy="8"> L</tspan></text><text x="373" y="94">250 şişe</text></g></svg>`,
-  secenekler: ["12", "120", "1200", "30 000"],
-  dogru: 1,
-  hatalar: [
-    "Baştaki sayıları bölerken virgülü fazladan kaydırma: 1,2 ÷ 4 = 0,3'tür, 0,03 değil. Bu hatayla 3000 şişe, yani 12 koli bulunur.",
-    null,
-    "Baştaki sayıları bölerken sonucu 3 sanma: 1,2 ÷ 4 işleminin sonucu 0,3'tür. Bu hatayla 300 000 şişe, yani 1200 koli bulunur.",
-    "Ara sonucu cevap sanma: 30 000 sayısı şişe sayısıdır; soruda koli sayısı istenmektedir."
-  ],
-  aciklama: `Bilimsel gösterimle yazılmış sayılar bölünürken baştaki sayılar bölünür, üsler çıkarılır. Üslerden biri negatifse çıkarma işleminde işaret dikkatle kullanılır.
-Adım 1: Şişe sayısını bul: (1,2 · 10^{3}) ÷ (4 · 10^{-2}).
-Adım 2: Baştaki sayıları böl: 1,2 ÷ 4 = 0,3.
-Adım 3: Üsleri çıkar: 3 − (−2) = 3 + 2 = 5. Yani 10^{5}.
-Adım 4: Ara sonucu düzenle: 0,3 · 10^{5} = 30 000 şişe.
-Adım 5: Koli sayısını bul: 30 000 ÷ 250 = 120 koli.
-Sağlama: 120 koli · 250 şişe = 30 000 şişe; 30 000 · 0,04 L = 1200 L. Bu, depodaki 1,2 · 10^{3} L ilaca eşittir.
-Sık yapılan hata: Şişe sayısını bulunca durmak. Soruda koli sayısı istendiği için bir bölme adımı daha gerekir.
-Cevap B.`
-},
-{
-  id: "mat-ui-322",
   kazanim: "M.8.1.2.1",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir matematik etkinliğinde öğrencilere (−2)^{n} üslü ifadesi verilmiştir. Öğrencilerden n yerine sırasıyla −2, −1, 0, 1, 2 ve 3 tam sayılarını yazmaları ve elde ettikleri altı sonucu bir tabloya işlemeleri istenmiştir. Öğretmen, tablo tamamlandıktan sonra sonuçların bir kısmının tam sayı, bir kısmının ise kesir olduğunu söylemiştir. Öğrencilerden sonuçları bu ölçüte göre ayırmaları beklenmektedir.\n**Buna göre elde edilen altı sonuçtan kaç tanesi tam sayıdır?**",
-  gorsel: `<table class="tablo"><tr><th>n</th><td>−2</td><td>−1</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><th>(−2)<sup>n</sup></th><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td></tr></table>`,
-  secenekler: ["2", "3", "4", "6"],
-  dogru: 2,
-  hatalar: [
-    "Yalnızca pozitif sonuçları sayma: 1 ve 4 tam sayıdır ama −2 ile −8 de tam sayıdır.",
-    "(−2)^{0} sonucunu 0 sanıp saymama: sıfırdan farklı her sayının sıfırıncı kuvveti 1'dir.",
-    null,
-    "Negatif üslü sonuçları da tam sayı sanma: (−2)^{-1} = −[[1|2]] ve (−2)^{-2} = [[1|4]] değerleri tam sayı değildir."
-  ],
-  aciklama: `Üç kural bir arada gerekir: negatif bir sayının tek kuvveti negatif, çift kuvveti pozitiftir; sıfırdan farklı her sayının sıfırıncı kuvveti 1'dir; negatif üs ise sayının çarpmaya göre tersini verir (a^{-n} = [[1|a^{n}]]).
-Adım 1: n = −2 için hesapla: (−2)^{-2} = [[1|(−2)^{2}]] = [[1|4]]. Kesirdir.
-Adım 2: n = −1 için hesapla: (−2)^{-1} = [[1|−2]] = −[[1|2]]. Kesirdir.
-Adım 3: n = 0 için hesapla: (−2)^{0} = 1. Tam sayıdır.
-Adım 4: n = 1, 2 ve 3 için hesapla: (−2)^{1} = −2 ; (−2)^{2} = 4 ; (−2)^{3} = −8. Üçü de tam sayıdır.
-Adım 5: Say: 1, −2, 4 ve −8 olmak üzere 4 sonuç tam sayıdır.
-Sağlama: Negatif sayılar da tam sayıdır; bu yüzden −2 ve −8 sayıları listeye girer. Kesir olanlar yalnızca üssü negatif olan iki sonuçtur.
-Sık yapılan hata: Tam sayı denince yalnızca pozitif sayıları düşünmek ya da (−2)^{0} sonucunu 0 sanmak.
-Cevap C.`
-},
-{
-  id: "mat-ui-323",
-  kazanim: "M.8.1.2.5",
-  kademe: 3,
-  zorluk: 4,
-  soru: "Bir optik atölyesinde mercek yüzeylerine ince bir koruyucu film kaplanmaktadır. Kaplamanın kabul edilebilmesi için kalınlığının 3,2 · 10^{-4} metre ile 5,8 · 10^{-4} metre arasında olması gerekmekte, bu iki sınır değerin kendisi de kabul edilmektedir. Kalite kontrol görevlisi gelen dört merceğin kaplama kalınlığını ölçmüş, değerleri alışkanlığına göre kimi zaman ondalık gösterimle kimi zaman 10'un kuvvetiyle not etmiştir. Ölçümlerden yalnızca biri kabul sınırlarının dışında kalmaktadır.\n**Buna göre aşağıdaki ölçümlerden hangisi __kabul edilemez__?**",
-  gorsel: `<svg viewBox="0 0 520 130" role="img" aria-label="Kabul aralığı: 3,2 çarpı 10 üssü eksi 4 metre ile 5,8 çarpı 10 üssü eksi 4 metre arası"><line x1="40" y1="70" x2="480" y2="70" stroke="currentColor" stroke-width="2"/><rect x="150" y="56" width="220" height="28" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="2"/><g stroke="currentColor" stroke-width="2"><line x1="150" y1="50" x2="150" y2="90"/><line x1="370" y1="50" x2="370" y2="90"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="150" y="40">3,2 · 10<tspan font-size="12" dy="-7">−4</tspan><tspan dy="7"> m</tspan></text><text x="370" y="40">5,8 · 10<tspan font-size="12" dy="-7">−4</tspan><tspan dy="7"> m</tspan></text><text x="260" y="112">kabul edilen kalınlık aralığı</text></g></svg>`,
-  secenekler: ["3,9 · 10^{-4}", "0,00048", "5,4 · 10^{-4}", "62 · 10^{-5}"],
+  soru: "Bir şifre üretme programı, her adımda bir önceki adımda ürettiği sayıyı 3 ile çarpmaktadır. Program 3 sayısıyla başladığı için n. adımda 3^{n} sayısını üretir. Ekran küçük olduğundan programda yalnızca üretilen sayının birler basamağındaki rakam görünür; sayının kalanı ekrana yazılmaz. İlk altı adımın sonucu tabloda verilmiştir.\n**Buna göre 26. adımda ekranda hangi rakam görünür?**",
+  gorsel: `<table class="tablo"><tr><th>Adım</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr><tr><td>Üretilen sayı</td><td>3</td><td>9</td><td>27</td><td>81</td><td>243</td><td>729</td></tr><tr><td>Ekranda görünen</td><td>3</td><td>9</td><td>7</td><td>1</td><td>3</td><td>9</td></tr></table>`,
+  secenekler: ["1", "3", "7", "9"],
   dogru: 3,
   hatalar: [
-    "Baştaki sayıyı alt sınırın baştaki sayısıyla karşılaştırırken yanılma: 3,9 sayısı 3,2'den büyüktür, yani bu ölçüm aralığın içindedir.",
-    "Ondalık gösterimi çevirmeden eleme: 0,00048 = 4,8 · 10^{-4}'tür ve aralığın tam ortasına yakındır.",
-    "Üst sınıra yakın değeri sınır dışı sanma: 5,4 · 10^{-4} ölçümü, üst sınır olan 5,8 · 10^{-4}'ten küçüktür.",
+    "1: 26 sayısını 4'e tam bölünüyor sanma. Tam bölünseydi örüntünün dördüncü rakamı olan 1 görünürdü.",
+    "3: Kalanı 1 sanma. Kalan 1 olsaydı örüntünün birinci rakamı olan 3 görünürdü.",
+    "7: Kalanı 3 sanma. 26 ÷ 4 işleminde bölüm 6, kalan 2'dir; kalan 3 olsaydı 7 görünürdü.",
     null
   ],
-  aciklama: `Farklı biçimlerde yazılmış sayıları bir aralıkla karşılaştırmadan önce hepsini aynı gösterime çevirmek gerekir. Burada en kolayı hepsini "… · 10^{-4}" biçimine getirmektir.
-Adım 1: Sınırları yaz: alt sınır 3,2 · 10^{-4}, üst sınır 5,8 · 10^{-4}.
-Adım 2: Ölçümleri tek tek çevir. 3,9 · 10^{-4} zaten bu biçimdedir. 0,00048 = 4,8 · 10^{-4}'tür. 5,4 · 10^{-4} zaten bu biçimdedir. 62 · 10^{-5} ifadesinde baştaki sayıyı 10 kat küçültüp üssü 1 artır: 6,2 · 10^{-4}.
-Adım 3: Karşılaştır: 3,9 ; 4,8 ve 5,4 sayıları 3,2 ile 5,8 arasındadır. 6,2 sayısı ise 5,8'den büyüktür.
-Adım 4: Öyleyse kabul edilemeyen ölçüm 62 · 10^{-5}'tir.
-Sağlama: Ondalık gösterimle de bak: 0,00039 ; 0,00048 ; 0,00054 kabul aralığı olan 0,00032 – 0,00058 içindedir; 0,00062 ise dışarıdadır.
-Sık yapılan hata: 62 · 10^{-5} gösterimini 6,2 · 10^{-5} sanıp çok küçük bir değer olarak görmek. Baştaki sayı küçültülürken üs artırılmalıdır.
+  aciklama: `Bir sayının kuvvetlerinde birler basamağı belirli bir uzunlukta tekrar eden bir örüntü oluşturur. Örüntünün uzunluğu bulunursa istenen adımdaki rakam, bölme kalanı yardımıyla belirlenir.
+Adım 1: Tablodaki ekran satırını oku: 3, 9, 7, 1, 3, 9… Rakamlar dörder dörder tekrar ediyor; örüntünün uzunluğu 4'tür.
+Adım 2: Örüntüdeki sırayı yaz: 1. sıra 3, 2. sıra 9, 3. sıra 7, 4. sıra 1.
+Adım 3: 26. adımın örüntüdeki yerini bul: 26 ÷ 4 = 6 kalan 2. Demek ki 26. adım, örüntünün 2. sırasındaki rakamı gösterir.
+Adım 4: Örüntünün 2. sırasındaki rakam 9'dur.
+Sağlama: Tabloda 2., 6. adımlarda ekranda 9 görünüyor. Bu adımların 4'e bölümünden kalan da 2'dir; örüntü tutarlı.
+Sık yapılan hata: Kalan 0 çıktığında örüntünün birinci rakamını yazmak. Kalan 0 ise örüntünün son rakamı (burada 1) görünür.
 Cevap D.`
 },
 {
-  id: "mat-ui-324",
+  id: "mat-ui-322",
   kazanim: "M.8.1.2.2",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir belediyenin arşiv biriminde eski belgeler taranarak dijital ortama aktarılmaktadır. Taranan her belge bellekte 5^{3} kilobayt yer kaplamaktadır. Birimde kullanılan taşınabilir belleklerin her birinde 5^{6} kilobayt boş yer bulunmaktadır. Bu hafta 2100 belge taranacak; belgeler belleklere sırayla, bir bellek tamamen dolduktan sonra diğerine geçilerek kaydedilecektir. Son belleğin tamamen dolması gerekmemektedir.\n**Buna göre bu haftaki belgelerin tamamının kaydedilebilmesi için en az kaç taşınabilir bellek gerekir?**",
-  gorsel: `<table class="tablo"><tr><th>Büyüklük</th><th>Değer</th></tr><tr><td>Bir belgenin kapladığı yer</td><td>5<sup>3</sup> kilobayt</td></tr><tr><td>Bir belleğin boş yeri</td><td>5<sup>6</sup> kilobayt</td></tr><tr><td>Taranacak belge sayısı</td><td>2100</td></tr></table>`,
-  secenekler: ["16", "17", "21", "84"],
-  dogru: 1,
-  hatalar: [
-    "Kalanı göz ardı etme: 16 bellek 16 · 125 = 2000 belge alır; geriye kalan 100 belge için bir bellek daha gerekir.",
-    null,
-    "Bir belleğe sığan belge sayısını 100 sanma: 5^{3} = 125'tir, 100 değil.",
-    "Bölmede üsleri yanlış çıkarma: 6 − 3 = 3'tür. Üs 2 alınırsa bir belleğe 25 belge sığdığı sanılır ve 2100 ÷ 25 = 84 bulunur."
-  ],
-  aciklama: `Aynı tabanlı bölmede üsler çıkarılır: a^{n} ÷ a^{m} = a^{n−m}. "En az kaç" soruları, bölmede kalan varsa sonucun bir artırılmasını gerektirir.
-Adım 1: Bir belleğe kaç belge sığdığını bul: 5^{6} ÷ 5^{3} = 5^{6−3} = 5^{3} = 125 belge.
-Adım 2: Gereken bellek sayısını hesapla: 2100 ÷ 125 işlemini yap. 125 · 16 = 2000 olduğundan 16 bellek dolar, geriye 2100 − 2000 = 100 belge kalır.
-Adım 3: Kalan 100 belge de kaydedilmek zorunda olduğu için bir bellek daha gerekir: 16 + 1 = 17 bellek.
-Sağlama: 17 bellek 17 · 125 = 2125 belge alabilir; bu, 2100 belgeyi karşılar. 16 bellek ise yalnızca 2000 belge alır ve yetmez.
-Sık yapılan hata: Bölme sonucunun tam çıkmadığı durumlarda kalanı yok sayıp aşağı yuvarlamak. "En az kaç" sorularında kalan varsa sonuç bir artırılır.
-Cevap B.`
-},
-{
-  id: "mat-ui-325",
-  kazanim: "M.8.1.2.5",
-  kademe: 3,
-  zorluk: 4,
-  soru: "Bir kargo uçağının kalkışta taşıyabileceği toplam yük 4,86 · 10^{4} kilogramı geçemez. Bu toplam yükün içinde uçağın yakıtı da sayılmaktadır ve uçağa 8 · 10^{3} kilogram yakıt alınmıştır. Uçağa yüklenecek kutuların her biri 2,5 · 10^{2} kilogram gelmekte, kutular bölünememekte ve kısmen yüklenememektedir. Yükleme görevlisi, yakıt alındıktan sonra kalan kapasiteyi aşmadan kutuları yükleyecektir.\n**Buna göre uçağa en fazla kaç kutu yüklenebilir?**",
-  gorsel: `<svg viewBox="0 0 520 160" role="img" aria-label="Uçağın toplam yük sınırı 4,86 çarpı 10 üssü 4 kilogram, yakıt 8 çarpı 10 üssü 3 kilogram, bir kutu 2,5 çarpı 10 üssü 2 kilogram"><rect x="24" y="24" width="300" height="112" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="24" y1="62" x2="324" y2="62" stroke="currentColor" stroke-width="2"/><text x="44" y="50" fill="currentColor" font-size="16" font-weight="bold">YÜKLEME KARTI</text><g fill="currentColor" font-size="16"><text x="44" y="92">Toplam sınır: 4,86 · 10<tspan font-size="13" dy="-8">4</tspan><tspan dy="8"> kg</tspan></text><text x="44" y="124">Yakıt: 8 · 10<tspan font-size="13" dy="-8">3</tspan><tspan dy="8"> kg</tspan></text></g><g stroke="var(--vurgu)" stroke-width="2" fill="none"><rect x="368" y="54" width="120" height="56" rx="5"/><line x1="368" y1="82" x2="488" y2="82"/></g><text x="428" y="46" fill="currentColor" font-size="15" text-anchor="middle">Bir kutu</text><text x="428" y="132" fill="var(--vurgu)" font-size="16" font-weight="bold" text-anchor="middle">2,5 · 10<tspan font-size="13" dy="-8">2</tspan><tspan dy="8"> kg</tspan></text></svg>`,
-  secenekler: ["162", "163", "194", "1624"],
+  soru: "Bir bilim şenliğinde üç takım, etkinlikler boyunca puan toplamıştır. Şenlik sonunda takımların puanları, tabelaya üslü ifadelerle yazılmıştır. Tabelada K takımının puanı 2^{30}, L takımının puanı 3^{20}, M takımının puanı 6^{10} olarak görünmektedir. Takımlar puanlarına göre sıraya dizilecektir.\n**Buna göre takımların puanları azdan çoğa doğru nasıl sıralanır?**",
+  gorsel: null,
+  secenekler: ["M, K, L", "K, L, M", "M, L, K", "L, K, M"],
   dogru: 0,
   hatalar: [
     null,
-    "Sınırı aşacak biçimde yukarı yuvarlama: 163 kutu 163 · 250 = 40 750 kg eder ve kalan 40 600 kg'lık kapasiteyi aşar.",
-    "Yakıtı hesaba katmama: 48 600 ÷ 250 = 194,4 alınıp 194 bulunmuş; oysa yakıt da toplam yüke dâhildir.",
-    "Kutu kütlesini 25 kg sanma: 2,5 · 10^{2} = 250'dir. 40 600 ÷ 25 işlemiyle 1624 bulunur."
+    "K, L, M: Yalnızca tabanlara bakma. 2 < 3 < 6 olduğu için puanların da bu sırada olduğu sanılmış; oysa üsler birbirinden farklıdır.",
+    "M, L, K: Yalnızca üslere bakma. 10 < 20 < 30 olduğu için puanların bu sırada olduğu sanılmış; oysa tabanlar da farklıdır.",
+    "L, K, M: Karşılaştırmayı doğru yapıp sıralamayı ters yazma. Bu sıralama çoktan aza doğrudur, soru azdan çoğa istiyor."
   ],
-  aciklama: `Bilimsel gösterimle verilen büyüklükler bir arada kullanılacaksa önce düz sayıya çevrilir. "En fazla kaç" sorularında bölme tam çıkmazsa sonuç aşağı yuvarlanır, çünkü sınır aşılamaz.
-Adım 1: Değerleri çevir: toplam sınır 4,86 · 10^{4} = 48 600 kg; yakıt 8 · 10^{3} = 8000 kg; bir kutu 2,5 · 10^{2} = 250 kg.
-Adım 2: Kutular için kalan kapasiteyi bul: 48 600 − 8000 = 40 600 kg.
-Adım 3: Kutu sayısını hesapla: 40 600 ÷ 250 işlemini yap. 250 · 160 = 40 000 ve 250 · 2 = 500 olduğundan 162 kutu 40 500 kg eder; geriye 100 kg kalır ve bu bir kutuya yetmez.
-Adım 4: Kutular bölünemediği için en fazla 162 kutu yüklenebilir.
-Sağlama: 162 kutu ile toplam yük 40 500 + 8000 = 48 500 kg olur ve 48 600 kg sınırının altındadır. 163 kutu olsaydı toplam 40 750 + 8000 = 48 750 kg olur ve sınır aşılırdı.
-Sık yapılan hata: "En fazla" sorularında kalanı görünce sonucu yukarı yuvarlamak. Sınır aşılamayacağı için bu tür sorularda aşağı yuvarlanır.
+  aciklama: `Tabanları ve üsleri farklı olan üslü sayıları karşılaştırmanın en kolay yolu, hepsini aynı üsle yazmaktır. Bunun için (a^{n})^{m} = a^{n·m} kuralı kullanılır. Üsleri eşit olan sayılarda tabanı büyük olan sayı büyüktür.
+Adım 1: Üslerin ortak böleni 10'dur. Her puanı 10 üssüyle yaz.
+Adım 2: K takımı: 2^{30} = (2^{3})^{10} = 8^{10}.
+Adım 3: L takımı: 3^{20} = (3^{2})^{10} = 9^{10}.
+Adım 4: M takımı zaten 6^{10}'dur. Üsler eşit olduğuna göre tabanları karşılaştır: 6 < 8 < 9. Öyleyse M < K < L olur.
+Sağlama: Sayıları aç: 6^{10} ≈ 60 milyon, 2^{30} ≈ 1,07 milyar, 3^{20} ≈ 3,49 milyar. Sıralama doğrulanıyor.
+Sık yapılan hata: Üssü en büyük olanı en büyük sayı sanmak. 2^{30} sayısı, üssü daha küçük olan 3^{20} sayısından küçüktür.
 Cevap A.`
+},
+{
+  id: "mat-ui-323",
+  kazanim: "M.8.1.2.3",
+  kademe: 3,
+  zorluk: 4,
+  soru: "Bir kargo firmasında paketler tartıldığında terazinin ekranında kütle, çözümlenmiş biçimde görünmektedir. Firmanın kuralına göre bir koliye konulan paketlerin toplam kütlesi 25 kilogramı __geçemez__; 25 kilogram olması ise uygundur. Bir koliye ikişer paket konulacaktır. Dört paketin ekranda görünen kütleleri tabloda verilmiştir.\n**Buna göre aşağıdaki paket çiftlerinden hangisi aynı koliye konulabilir?**",
+  gorsel: `<table class="tablo"><tr><th>Paket</th><th>Ekranda görünen kütle (kg)</th></tr><tr><td>K</td><td>1 · 10<sup>1</sup> + 1 · 10<sup>0</sup> + 4 · 10<sup>−1</sup></td></tr><tr><td>L</td><td>1 · 10<sup>1</sup> + 3 · 10<sup>0</sup> + 5 · 10<sup>−1</sup></td></tr><tr><td>M</td><td>1 · 10<sup>1</sup> + 3 · 10<sup>0</sup> + 8 · 10<sup>−1</sup></td></tr><tr><td>N</td><td>1 · 10<sup>1</sup> + 4 · 10<sup>0</sup> + 2 · 10<sup>−1</sup></td></tr></table>`,
+  secenekler: ["K ve L", "K ve M", "K ve N", "M ve N"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "K ve M: Onda birler basamağını atlayıp kütleleri 11 ve 13 kilogram okuma; toplam 24 sanılmış. Gerçek toplam 11,4 + 13,8 = 25,2 kilogramdır ve sınırı aşar.",
+    "K ve N: N paketinin çözümlemesindeki 4 · 10^{0} terimini 4 · 10^{-1} sanıp kütleyi 10,6 kilogram okuma. Gerçek toplam 11,4 + 14,2 = 25,6 kilogramdır.",
+    "M ve N: Çözümlemedeki 1 · 10^{1} terimini birler basamağı sanıp kütleleri 4,8 ve 5,2 kilogram okuma. Gerçek toplam 13,8 + 14,2 = 28 kilogramdır."
+  ],
+  aciklama: `Çözümlenmiş kütleler önce ondalık gösterime çevrilir, sonra ikişerli toplamlar sınırla karşılaştırılır. "Geçemez" ifadesi sınır değerin kendisini dışarıda bırakmaz: 25 kilogram uygundur.
+Adım 1: Kütleleri hesapla: K = 10 + 1 + 0,4 = 11,4 kg; L = 10 + 3 + 0,5 = 13,5 kg; M = 10 + 3 + 0,8 = 13,8 kg; N = 10 + 4 + 0,2 = 14,2 kg.
+Adım 2: Seçeneklerdeki çiftleri topla: K + L = 24,9 kg; K + M = 25,2 kg; K + N = 25,6 kg; M + N = 28 kg.
+Adım 3: Sınırla karşılaştır: yalnızca 24,9 kilogram 25 kilogramı geçmez. Öteki üç çift sınırı aşar.
+Adım 4: Aynı koliye K ve L paketleri konulabilir.
+Sağlama: En hafif iki paket K (11,4 kg) ve L (13,5 kg) paketleridir; toplamları bile sınıra yalnızca 0,1 kilogram kalmıştır. Bu yüzden başka hiçbir çift uygun olamaz.
+Sık yapılan hata: Onda birler basamağını yuvarlayıp atmak. 0,4 ile 0,8 küçük görünür ama toplamları sınırı aştırmaya yeter.
+Cevap A.`
+},
+{
+  id: "mat-ui-324",
+  kazanim: "M.8.1.2.4",
+  kademe: 3,
+  zorluk: 4,
+  soru: "Bir su arıtma tesisi her gün aynı miktarda, günde 4,8 · 10^{5} litre suyu arıtmaktadır. Arıtılan su, tesisin yanındaki 6 · 10^{2} metreküp hacimli depolara doldurulmakta ve yalnızca tamamen dolan depolar şehre gönderilmektedir; yarım kalan depo beklemeye alınır. Tesis bir hafta boyunca 7 gün çalışmıştır. (1 metreküp = 10^{3} litre)\n**Buna göre bir haftada arıtılan su, bu depolardan kaç tanesini tamamen doldurur?**",
+  gorsel: `<svg viewBox="0 0 520 165" role="img" aria-label="Arıtma tesisi bilgileri: günlük arıtılan su 4,8 çarpı 10 üssü 5 litre, bir deponun hacmi 6 çarpı 10 üssü 2 metreküp"><rect x="16" y="14" width="300" height="136" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="16" y1="52" x2="316" y2="52" stroke="currentColor" stroke-width="2"/><text x="166" y="40" font-size="16" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">ARITMA TESİSİ</text><g fill="currentColor" font-size="16"><text x="36" y="86">Günlük arıtılan su:</text><text x="36" y="112">4,8 · 10<tspan font-size="13" dy="-8">5</tspan><tspan dy="8"> litre</tspan></text><text x="36" y="140">Çalışma: haftada 7 gün</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="356" y="46" width="120" height="76" rx="6"/></g><line x1="356" y1="86" x2="476" y2="86" stroke="var(--vurgu)" stroke-width="2"/><g fill="currentColor" font-size="15" text-anchor="middle"><text x="416" y="36">Bir depo</text><text x="416" y="76">6 · 10<tspan font-size="12" dy="-7">2</tspan><tspan dy="7"> m³</tspan></text><text x="416" y="142">Depo hacmi</text></g></svg>`,
+  secenekler: ["5", "5,6", "6", "56"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "5,6: \"Tamamen dolan depo\" koşulunu atlama. 5,6 sayısı bulunan bölümdür; altıncı deponun yalnızca bir bölümü dolar, o depo gönderilmez.",
+    "6: Bölümü yukarı yuvarlama. Altıncı depo tamamen dolmadığı için sayılmaz.",
+    "56: 6 · 10^{2} sayısını 60 sanma. Bir deponun hacmi 600 metreküptür."
+  ],
+  aciklama: `Farklı birimlerle verilen büyüklükler önce aynı birime çevrilir. Litreden metreküpe geçerken sayı 10^{3}'e bölünür; bölmede 10'un üsleri çıkarılır.
+Adım 1: Günlük arıtılan suyu metreküpe çevir: (4,8 · 10^{5}) ÷ 10^{3} = 4,8 · 10^{5-3} = 4,8 · 10^{2} = 480 m³.
+Adım 2: Haftalık miktarı bul: 480 · 7 = 3360 m³.
+Adım 3: Bir deponun hacmini yaz: 6 · 10^{2} = 600 m³.
+Adım 4: Depo sayısını bul: 3360 ÷ 600 = 5,6.
+Adım 5: Koşulu uygula. Yalnızca tamamen dolan depolar gönderildiğine göre 5 depo tamamen dolar; kalan 360 metreküp altıncı depoyu tam dolduramaz.
+Sağlama: 5 depo · 600 m³ = 3000 m³ ve 3360 − 3000 = 360 m³ artar. 360 < 600 olduğu için altıncı depo yarım kalır.
+Sık yapılan hata: Bölme sonucunu doğrudan cevap yazmak ya da yukarı yuvarlamak. "Tamamen dolan" koşulu, sonucun aşağı yuvarlanmasını gerektirir.
+Cevap A.`
+},
+{
+  id: "mat-ui-325",
+  kazanim: "M.8.1.2.1",
+  kademe: 3,
+  zorluk: 4,
+  soru: "Bir matematik kulübünün duvarına dört ifade kartı asılmıştır. Kartlar, üzerlerindeki ifadelerin değerine göre soldan sağa küçükten büyüğe doğru yeniden dizilecektir.\n**Buna göre kartların soldan sağa doğru sıralanışı aşağıdakilerden hangisidir?**",
+  gorsel: `<svg viewBox="0 0 520 150" role="img" aria-label="Dört kart: eksi 2'nin 3. kuvveti, 2'nin eksi 3. kuvveti, eksi 2'nin eksi 2. kuvveti, 2'nin 0. kuvveti"><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="16" y="34" width="108" height="86" rx="8"/><rect x="148" y="34" width="108" height="86" rx="8"/><rect x="280" y="34" width="108" height="86" rx="8"/><rect x="412" y="34" width="92" height="86" rx="8"/></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="70" y="26">1. kart</text><text x="202" y="26">2. kart</text><text x="334" y="26">3. kart</text><text x="458" y="26">4. kart</text></g><g fill="var(--vurgu)" font-size="24" font-weight="bold" text-anchor="middle"><text x="70" y="86">(−2)<tspan font-size="16" dy="-11">3</tspan></text><text x="202" y="86">2<tspan font-size="16" dy="-11">−3</tspan></text><text x="334" y="86">(−2)<tspan font-size="16" dy="-11">−2</tspan></text><text x="458" y="86">2<tspan font-size="16" dy="-11">0</tspan></text></g></svg>`,
+  secenekler: [
+    "2^{0}, (−2)^{-2}, 2^{-3}, (−2)^{3}",
+    "(−2)^{3}, (−2)^{-2}, 2^{-3}, 2^{0}",
+    "2^{-3}, (−2)^{-2}, 2^{0}, (−2)^{3}",
+    "(−2)^{3}, 2^{-3}, (−2)^{-2}, 2^{0}"
+  ],
+  dogru: 3,
+  hatalar: [
+    "Sıralamayı ters yönde yapma: bu dizilim büyükten küçüğe doğrudur, soru küçükten büyüğe istiyor.",
+    "Paydası büyük olan kesri büyük sanma: [[1|8]] < [[1|4]] olduğu hâlde 2^{-3} sayısı (−2)^{-2} sayısından büyük sanılmış.",
+    "(−2)^{3} ifadesini pozitif sanma: taban negatif ve üs tek olduğu için sonuç −8'dir ve bütün kartlardan küçüktür.",
+    null
+  ],
+  aciklama: `Negatif üs, sayının çarpmaya göre tersini gösterir: a^{-n} = [[1|a^{n}]]. Taban negatifse önce kuvvetin işareti belirlenir: üs çiftse sonuç pozitif, tekse negatiftir. Ayrıca sıfırdan farklı her sayının sıfırıncı kuvveti 1'dir.
+Adım 1: 1. kartı hesapla: (−2)^{3} = (−2) · (−2) · (−2) = −8. Tek üs olduğu için sonuç negatiftir.
+Adım 2: 2. kartı hesapla: 2^{-3} = [[1|2^{3}]] = [[1|8]] = 0,125.
+Adım 3: 3. kartı hesapla: (−2)^{-2} = [[1|(−2)^{2}]] = [[1|4]] = 0,25. Üs çift olduğu için payda pozitiftir.
+Adım 4: 4. kartı hesapla: 2^{0} = 1.
+Adım 5: Değerleri sırala: −8 < 0,125 < 0,25 < 1. Öyleyse dizilim (−2)^{3}, 2^{-3}, (−2)^{-2}, 2^{0} olur.
+Sağlama: Kesirleri karşılaştırmak için paydaları eşitle: [[1|8]] ile [[2|8]]. İkincisi büyüktür, yani (−2)^{-2} > 2^{-3}'tür.
+Sık yapılan hata: Negatif üslü ifadeleri negatif sayı sanmak. Negatif üs sayıyı işaretçe değiştirmez, yalnızca 1'den küçük yapar.
+Cevap D.`
+},
+/* ===================== HAVUZ (kademe 0, ek) ===================== */
+{
+  id: "mat-ui-013",
+  kazanim: "M.8.1.2.4",
+  kademe: 0,
+  zorluk: 1,
+  soru: "Bir yayınevi, yeni çıkan kitabından 5 · 10^{3} adet bastığını duyurmuştur.\n**Buna göre aşağıdakilerden hangisi basılan kitap sayısına eşittir?**",
+  gorsel: null,
+  secenekler: ["50 · 10^{2}", "500 · 10^{2}", "50 · 10^{4}", "5000 · 10^{3}"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "500 · 10^{2} = 50 000: Baştaki sayıyı 100 katına çıkarıp üssü yalnızca 1 azaltma.",
+    "50 · 10^{4} = 500 000: Baştaki sayıyı 10 katına çıkarırken üssü azaltacak yerde 1 artırma.",
+    "5000 · 10^{3} = 5 000 000: Baştaki sayıyı büyütüp üssü olduğu gibi bırakma."
+  ],
+  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılabilir. Baştaki sayı 10 katına çıkarsa üs 1 azalır; böylece sayının değeri korunur.
+Adım 1: Kitap sayısını aç: 5 · 10^{3} = 5 · 1000 = 5000.
+Adım 2: Şıkları hesapla: 50 · 10^{2} = 50 · 100 = 5000. Eşittir.
+Adım 3: Denge kuralını gör: baştaki sayı 5'ten 50'ye çıkarken 10 katına çıktı, bu yüzden üs 3'ten 2'ye indi.
+Sağlama: 5 · 10^{3} = 50 · 10^{2} = 500 · 10^{1} = 5000. Üç yazım da aynı sayıyı gösterir.
+Sık yapılan hata: Baştaki sayıyı büyütürken üssü de büyütmek. Bu, sayının değerini artırır.
+Cevap A.`
+},
+{
+  id: "mat-ui-014",
+  kazanim: "M.8.1.2.1",
+  kademe: 0,
+  zorluk: 2,
+  soru: "**(−2)^{4} · (−1)^{7} işleminin sonucu kaçtır?**",
+  gorsel: null,
+  secenekler: ["16", "8", "−8", "−16"],
+  dogru: 3,
+  hatalar: [
+    "16: (−1)^{7} ifadesini 1 sanma. 7 tek sayı olduğu için (−1)^{7} = −1'dir.",
+    "8: Tabanı üsle çarpma: (−2) · 4 = −8 alınıp (−1) ile çarpılmış.",
+    "−8: Tabanı üsle çarpıp işareti düşürme: (−2)^{4} yerine 2 · 4 = 8 alınıp (−1) ile çarpılmış.",
+    null
+  ],
+  aciklama: `Taban negatifse sonucun işaretini üssün tek mi çift mi olduğu belirler: çift kuvvette sonuç pozitif, tek kuvvette negatiftir.
+Adım 1: Birinci çarpanı hesapla: (−2)^{4} = (−2) · (−2) · (−2) · (−2) = 16. Üs çift olduğu için sonuç pozitiftir.
+Adım 2: İkinci çarpanı hesapla: (−1)^{7} = −1. Üs tek olduğu için sonuç negatiftir.
+Adım 3: Çarp: 16 · (−1) = −16.
+Sağlama: −1 ile çarpmak sayının yalnızca işaretini değiştirir; büyüklüğü 16 olarak kalmalıdır.
+Sık yapılan hata: (−1)^{7} ifadesini 1 sanmak. Eksi işareti 7 kez çarpılır ve tek sayıda eksi negatif verir.
+Cevap D.`
+},
+{
+  id: "mat-ui-015",
+  kazanim: "M.8.1.2.3",
+  kademe: 0,
+  zorluk: 2,
+  soru: "Bir teknik resim dersinde çizilen bir parçanın kalınlığı 0,507 metre ölçülmüştür.\n**Buna göre bu sayının 10'un tam sayı kuvvetleriyle çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: [
+    "5 · 10^{-1} + 7 · 10^{-3}",
+    "5 · 10^{-1} + 7 · 10^{-2}",
+    "5 · 10^{0} + 7 · 10^{-2}",
+    "5 · 10^{-2} + 7 · 10^{-3}"
+  ],
+  dogru: 0,
+  hatalar: [
+    null,
+    "Boş basamağı atlayıp 7'yi yüzde birler basamağına kaydırma: bu çözümleme 0,57 sayısına aittir.",
+    "5 rakamını birler basamağında sanma: bu çözümleme 5,07 sayısına aittir.",
+    "Bütün rakamları bir basamak sağa kaydırma: bu çözümleme 0,057 sayısına aittir."
+  ],
+  aciklama: `Bir ondalık gösterimi çözümlerken her rakam, bulunduğu basamağın değeriyle çarpılır. Virgülden sonraki basamaklar sırasıyla 10^{-1}, 10^{-2}, 10^{-3} değerini taşır.
+Adım 1: Basamakları adlandır: 0 birler, 5 onda birler, 0 yüzde birler, 7 binde birler basamağındadır.
+Adım 2: Her rakamı basamak değeriyle çarp: 5 · 10^{-1} + 0 · 10^{-2} + 7 · 10^{-3}.
+Adım 3: Değeri 0 olan terimi yazma: 5 · 10^{-1} + 7 · 10^{-3}.
+Sağlama: 0,5 + 0,007 = 0,507.
+Sık yapılan hata: Yüzde birler basamağındaki 0'ı atlayıp 7'yi bir basamak sola kaydırmak; o zaman 0,57 elde edilir.
+Cevap A.`
+},
+{
+  id: "mat-ui-016",
+  kazanim: "M.8.1.2.5",
+  kademe: 0,
+  zorluk: 2,
+  soru: "Bir çalışmada bir kum tanesinin kütlesi 8 · 10^{-3} gram olarak alınmıştır.\n**Buna göre bir kum tanesinin kütlesinin ondalık gösterimi aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: ["8000", "0,8", "0,08", "0,008"],
+  dogru: 3,
+  hatalar: [
+    "8000: Negatif üssü görmezden gelme. 8 · 10^{3} = 8000'dir; negatif üs sayıyı büyütmez, küçültür.",
+    "0,8: Üssü 1 sanma. 8 · 10^{-1} = 0,8'dir.",
+    "0,08: Üssü 2 sanma. 8 · 10^{-2} = 0,08'dir; virgül bir basamak eksik kaydırılmış.",
+    null
+  ],
+  aciklama: `Negatif üslü bir bilimsel gösterimi açmak için baştaki sayının virgülü, üssün mutlak değeri kadar basamak sola kaydırılır.
+Adım 1: Üssü oku: −3. Öyleyse virgül 3 basamak sola kayacaktır.
+Adım 2: Kaydırmayı yap: 8,0 → 0,8 → 0,08 → 0,008.
+Adım 3: Sonucu yaz: 8 · 10^{-3} = 0,008 gram.
+Sağlama: 0,008 · 1000 = 8 olduğuna göre 0,008 gerçekten 8'in binde biridir.
+Sık yapılan hata: Kaydırma sayısını yanlış saymak. Üssün mutlak değeri kaçsa virgül o kadar basamak kayar.
+Cevap D.`
+},
+{
+  id: "mat-ui-017",
+  kazanim: "M.8.1.2.2",
+  kademe: 0,
+  zorluk: 3,
+  soru: "Bir bilgisayar oyununda karakterin bölüm sonundaki gücü, üç aşamadaki değerler kullanılarak 2^{5} · 2^{-3} ÷ 2^{-2} işlemiyle hesaplanmaktadır.\n**Buna göre karakterin bölüm sonundaki gücü aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: ["2^{0}", "2^{4}", "2^{6}", "2^{10}"],
+  dogru: 1,
+  hatalar: [
+    "2^{0}: Bölmede üsleri toplama: 5 + (−3) + (−2) = 0 alınmış. Bölmede üsler çıkarılır.",
+    null,
+    "2^{6}: Çarpmadaki negatif üssü pozitif alma: 5 + 3 − 2 = 6 bulunmuş.",
+    "2^{10}: Bütün üsleri pozitif alıp toplama: 5 + 3 + 2 = 10 bulunmuş."
+  ],
+  aciklama: `Aynı tabanlı üslü sayılar çarpılırken üsler toplanır (a^{n} · a^{m} = a^{n+m}), bölünürken üsler çıkarılır (a^{n} ÷ a^{m} = a^{n-m}). Negatif üsler bu işlemlere olduğu gibi katılır.
+Adım 1: Çarpmayı yap: 2^{5} · 2^{-3} = 2^{5+(−3)} = 2^{2}.
+Adım 2: Bölmeyi yap: 2^{2} ÷ 2^{-2} = 2^{2−(−2)} = 2^{2+2} = 2^{4}.
+Adım 3: Sonucu yaz: 2^{4} = 16.
+Sağlama: Değerlerle dene: 2^{5} = 32, 2^{-3} = [[1|8]] ve 2^{-2} = [[1|4]]. 32 · [[1|8]] = 4 ve 4 ÷ [[1|4]] = 16 = 2^{4}.
+Sık yapılan hata: Negatif bir üs çıkarılırken işaret değişimini atlamak. Negatif bir sayıyı çıkarmak onu toplamak demektir.
+Cevap B.`
+},
+{
+  id: "mat-ui-018",
+  kazanim: "M.8.1.2.5",
+  kademe: 0,
+  zorluk: 3,
+  soru: "Bir nakliye firmasının kamyonu en fazla 2,4 · 10^{4} kilogram yük taşıyabilmektedir. Taşınacak kolilerin hepsi aynı olup her biri 8 · 10^{1} kilogramdır. Kamyona yalnızca bu kolilerden yüklenecek ve taşıma sınırı aşılmayacaktır.\n**Buna göre kamyona en fazla kaç koli yüklenebilir?**",
+  gorsel: `<table class="tablo"><tr><th>Bilgi</th><th>Değer</th></tr><tr><td>Kamyonun taşıma sınırı</td><td>2,4 · 10<sup>4</sup> kg</td></tr><tr><td>Bir kolinin kütlesi</td><td>8 · 10<sup>1</sup> kg</td></tr></table>`,
+  secenekler: ["0,3", "30", "300", "30 000"],
+  dogru: 2,
+  hatalar: [
+    "0,3: 10'un kuvvetlerini bölmeyi atlama. Yalnızca 2,4 ÷ 8 = 0,3 işlemi yapılmış.",
+    "30: Bölümü bilimsel gösterime çevirirken üssü yanlış ayarlama: 0,3 · 10^{3} sayısı 3 · 10^{1} sanılmış, oysa 3 · 10^{2}'dir.",
+    null,
+    "30 000: Bölmede üsleri toplama: 4 + 1 = 5 alınıp 0,3 · 10^{5} bulunmuş."
+  ],
+  aciklama: `Bilimsel gösterimdeki sayılar bölünürken baştaki sayılar kendi aralarında bölünür, 10'un kuvvetlerinde üsler çıkarılır: (a · 10^{n}) ÷ (b · 10^{m}) = (a ÷ b) · 10^{n-m}.
+Adım 1: İşlemi kur: koli sayısı = taşıma sınırı ÷ bir kolinin kütlesi = (2,4 · 10^{4}) ÷ (8 · 10^{1}).
+Adım 2: Baştaki sayıları böl: 2,4 ÷ 8 = 0,3.
+Adım 3: 10'un kuvvetlerini böl: 10^{4} ÷ 10^{1} = 10^{4−1} = 10^{3}.
+Adım 4: Sonucu birleştir ve düzenle: 0,3 · 10^{3} = 0,3 · 1000 = 300 koli.
+Sağlama: 300 koli · 80 kg = 24 000 kg ve bu, kamyonun taşıma sınırı olan 2,4 · 10^{4} kg'a tam olarak eşittir.
+Sık yapılan hata: 0,3 · 10^{3} ifadesini 30 sanmak. Baştaki sayı 0,3'ten 3'e çıkarken üs 3'ten 2'ye iner ve sonuç 3 · 10^{2} = 300 olur.
+Cevap C.`
+},
+{
+  id: "mat-ui-019",
+  kazanim: "M.8.1.2.2",
+  kademe: 0,
+  zorluk: 4,
+  soru: "Bir matematik yarışmasında öğrencilerden, 3^{a} · 9^{b} çarpımının 3^{10} sayısına eşit olmasını sağlayan a ve b pozitif tam sayılarını bulmaları istenmiştir. Yarışmada her farklı ikili ayrı bir çözüm sayılmaktadır.\n**Buna göre bu koşulu sağlayan kaç farklı (a, b) ikilisi vardır?**",
+  gorsel: null,
+  secenekler: ["4", "5", "6", "9"],
+  dogru: 0,
+  hatalar: [
+    null,
+    "5: a = 0 durumunu da sayma. b = 5 alınırsa a = 0 olur; oysa a pozitif bir tam sayı olmalıdır.",
+    "6: Hem a = 0 hem b = 0 durumlarını sayma. b = 0 alınırsa 9^{0} = 1 olur ve ikinci çarpan yok sayılmış olur.",
+    "9: 9^{b} ifadesini 3^{b} sanma. Bu durumda a + b = 10 bulunur ve 9 ikili sayılır; oysa 9 = 3^{2} olduğu için üs iki katına çıkar."
+  ],
+  aciklama: `Tabanları farklı üslü sayılarla çalışırken önce ortak taban seçilir. 9 = 3^{2} olduğundan (a^{n})^{m} = a^{n·m} kuralıyla ifade tek tabanda yazılabilir.
+Adım 1: İkinci çarpanı 3 tabanında yaz: 9^{b} = (3^{2})^{b} = 3^{2b}.
+Adım 2: Çarpımı yaz: 3^{a} · 3^{2b} = 3^{a+2b}.
+Adım 3: Tabanlar eşit olduğuna göre üsler de eşittir: a + 2b = 10.
+Adım 4: b değerlerini sırayla dene. b = 1 ise a = 8; b = 2 ise a = 6; b = 3 ise a = 4; b = 4 ise a = 2. b = 5 alınırsa a = 0 olur ve a'nın pozitif olma koşulu bozulur.
+Adım 5: Uygun ikilileri say: (8, 1), (6, 2), (4, 3), (2, 4). Toplam 4 farklı ikili vardır.
+Sağlama: (6, 2) ikilisini dene: 3^{6} · 9^{2} = 729 · 81 = 59 049 ve 3^{10} = 59 049. Eşitlik sağlanıyor.
+Sık yapılan hata: 9^{b} ifadesini 3^{b} sanmak. Taban 9'dan 3'e inerken üs iki katına çıkar.
+Cevap A.`
+},
+{
+  id: "mat-ui-020",
+  kazanim: "M.8.1.2.3",
+  kademe: 0,
+  zorluk: 4,
+  soru: "Bir laboratuvar cihazı ölçtüğü değeri, basamaklar görünsün diye çözümlenmiş biçimde kaydetmektedir. Cihazın kaydettiği değer 4 · 10^{1} + 7 · 10^{-1} + 2 · 10^{-2} birimdir. Cihaz, ekrana yazarken bu değeri her zaman 10 katına çıkarmakta ve sonucu yine çözümlenmiş biçimde göstermektedir.\n**Buna göre ekranda görünen çözümleme aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: [
+    "4 · 10^{1} + 7 · 10^{0} + 2 · 10^{-1}",
+    "4 · 10^{2} + 7 · 10^{-1} + 2 · 10^{-2}",
+    "4 · 10^{2} + 7 · 10^{1} + 2 · 10^{0}",
+    "4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}"
+  ],
+  dogru: 3,
+  hatalar: [
+    "Yalnızca virgülden sonraki terimleri kaydırma: bu çözümleme 47,2 sayısına aittir. 10 ile çarpınca bütün basamaklar bir sola kayar.",
+    "Yalnızca en soldaki terimi 10 ile çarpma: bu çözümleme 400,72 sayısına aittir.",
+    "Boş basamağı atlayıp rakamları yan yana kaydırma: bu çözümleme 472 sayısına aittir; oysa 40,72 sayısında onlar basamağının sağında 0 vardır.",
+    null
+  ],
+  aciklama: `Bir sayı 10 ile çarpıldığında bütün rakamlar bir basamak sola kayar; başka bir deyişle çözümlemedeki her terimin 10 kuvveti 1 artar.
+Adım 1: Kaydedilen değeri ondalık gösterime çevir: 40 + 0,7 + 0,02 = 40,72.
+Adım 2: 10 ile çarp: 40,72 · 10 = 407,2.
+Adım 3: Yeni sayının basamaklarını adlandır: 4 yüzler, 0 onlar, 7 birler, 2 onda birler basamağındadır.
+Adım 4: Çözümlemeyi yaz: 4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}. Onlar basamağındaki 0 için terim yazılmaz.
+Sağlama: Terimleri topla: 400 + 7 + 0,2 = 407,2. Ayrıca her terimin üssünün 1 arttığına dikkat et: 10^{1} → 10^{2}, 10^{-1} → 10^{0}, 10^{-2} → 10^{-1}.
+Sık yapılan hata: 10 ile çarparken yalnızca bir terimi kaydırmak. Çarpma bütün basamakları birlikte etkiler.
+Cevap D.`
 }
 );

@@ -648,7 +648,7 @@ Cevap A.`
   dogru: 0,
   hatalar: [
     null,
-    "Bir borudaki kesim sayısını parça sayısına eşitleme: 3 + 5 = 8; oysa her iki boruda da kesim sayısı parça sayısından 1 eksiktir.",
+    "İkinci boruda kesim sayısı yerine parça sayısını yazma: 3 + 5 = 8; oysa 5 parça elde etmek için 4 kesim yeter.",
     "Kesim sayısı yerine parça sayısını bulma: 4 + 5 = 9 parça oluşur ama 7 kesim yapılır.",
     "Ara sonucu cevap sanma: 36 cm, bir parçanın uzunluğudur (EBOB)."
   ],
@@ -714,22 +714,22 @@ Cevap A.`
   kademe: 3,
   zorluk: 3,
   soru: "Bir okul kermesinde çekiliş yapılacaktır. Her bilete iki basamaklı bir numara verilmiştir ve hiçbir numara tekrar etmemektedir. Kermes komitesi, ikramiye kazanacak numaraları aşağıdaki panoya yazdığı iki koşulla belirlemiştir.\n**Buna göre kaç bilet ikramiye kazanır?**",
-  gorsel: `<svg viewBox="0 0 500 160" role="img" aria-label="Kermes panosu: kazanan numaranın rakamları toplamı 11 olmalı ve numara 90 ile aralarında asal olmalıdır"><rect x="14" y="12" width="472" height="136" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><line x1="14" y1="52" x2="486" y2="52" stroke="currentColor" stroke-width="2"/><text x="250" y="39" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">KAZANAN NUMARANIN KOŞULLARI</text><g fill="currentColor" font-size="17"><text x="40" y="86">1. Rakamlarının toplamı 11'dir.</text><text x="40" y="124">2. 90 sayısı ile aralarında asaldır.</text></g><g fill="var(--vurgu)"><circle cx="28" cy="81" r="5"/><circle cx="28" cy="119" r="5"/></g></svg>`,
+  gorsel: `<svg viewBox="0 0 500 160" role="img" aria-label="Kermes panosu: kazanan numaranın rakamları toplamı 11 olmalı ve numara 70 ile aralarında asal olmalıdır"><rect x="14" y="12" width="472" height="136" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><line x1="14" y1="52" x2="486" y2="52" stroke="currentColor" stroke-width="2"/><text x="250" y="39" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">KAZANAN NUMARANIN KOŞULLARI</text><g fill="currentColor" font-size="17"><text x="40" y="86">1. Rakamlarının toplamı 11'dir.</text><text x="40" y="124">2. 70 sayısı ile aralarında asaldır.</text></g><g fill="var(--vurgu)"><circle cx="28" cy="81" r="5"/><circle cx="28" cy="119" r="5"/></g></svg>`,
   secenekler: ["2", "3", "4", "8"],
   dogru: 1,
   hatalar: [
     "Rakamları toplamı 11 olan iki basamaklı sayıları eksik listeleme: 83 atlanmış.",
     null,
-    "5'e bölünenleri elemeyi unutma: 65 = 5 · 13 ve 90 da 5'e bölünür; ikisinin ortak böleni 5'tir.",
+    "5'e bölünenleri elemeyi unutma: 65 = 5 · 13 ve 70 de 5'e bölünür; ikisinin ortak böleni 5'tir.",
     "İkinci koşulu hiç uygulamama: rakamları toplamı 11 olan iki basamaklı sayılar 8 tanedir."
   ],
   aciklama: `Önce birinci koşulu sağlayan bütün sayıları listele, sonra ikinci koşulla ele. İki sayının 1'den başka ortak pozitif böleni yoksa aralarında asaldırlar.
 Adım 1: Rakamları toplamı 11 olan iki basamaklı sayıları sırayla yaz: 29, 38, 47, 56, 65, 74, 83, 92. Toplam 8 sayı.
-Adım 2: İkinci koşul için 90'ı ayır: 90 = 2 · 3^{2} · 5. Kazanan numara ne 2'ye, ne 3'e, ne de 5'e bölünmelidir.
+Adım 2: İkinci koşul için 70'i ayır: 70 = 2 · 5 · 7. Kazanan numara ne 2'ye, ne 5'e, ne de 7'ye bölünmelidir.
 Adım 3: Çift olanları ele: 38, 56, 74, 92 çıkar. Geriye 29, 47, 65, 83 kalır.
-Adım 4: 3'e bölüneni ara. Rakamları toplamı 11 olduğu ve 11 sayısı 3'e bölünmediği için hiçbiri 3'e bölünmez. 5'e bölüneni ara: 65 çıkar.
-Adım 5: Geriye 29, 47 ve 83 kalır: 3 bilet kazanır.
-Sık yapılan hata: Yalnızca asal sayıları aramak. Burada üç kazanan sayının da asal olması rastlantıdır; örneğin 91 = 7 · 13 asal olmadığı hâlde 90 ile aralarında asaldır.
+Adım 4: 5'e bölüneni ele: 65 = 5 · 13 çıkar. Geriye 29, 47 ve 83 kalır.
+Adım 5: 7'ye bölüneni ara. 7 · 4 = 28, 7 · 7 = 49, 7 · 12 = 84 olduğundan 29, 47 ve 83 sayılarının hiçbiri 7'ye bölünmez. Üçü de iki koşulu birden sağlar: 3 bilet kazanır.
+Sık yapılan hata: Yalnızca asal sayıları aramak. Burada üç kazanan sayının da asal olması rastlantıdır; örneğin 33 = 3 · 11 asal olmadığı hâlde 70 ile aralarında asaldır.
 Cevap B.`
 },
 {
@@ -793,7 +793,7 @@ Cevap D.`
     null,
     "Deniz'in gelişinden önceki ortak dağıtımı da sayma: 10.48'de Deniz henüz fuarda değildir.",
     "Fuarın açılışından itibaren bütün ortak anları sayma: 10.00, 10.48, 11.36 ve 12.24.",
-    "Deniz'in ayrılışından sonraki ortak dağıtımı da sayma: 13.12'de Deniz fuardan ayrılmıştır."
+    "Fuarın açılışından kapanışına kadarki bütün ortak anları sayma: 10.00, 10.48, 11.36, 12.24 ve 13.12; oysa Deniz bunlardan yalnızca ikisini görmüştür."
   ],
   aciklama: `İki standın aynı anda hediye dağıttığı anlar, açılıştan sonra hem 16'nın hem 24'ün katı kadar dakika geçen anlardır; yani EKOK'un katlarıdır.
 Adım 1: 16 = 2^{4} ve 24 = 2^{3} · 3. EKOK için her asal çarpanın en büyük üslüsünü al: EKOK(16, 24) = 2^{4} · 3 = 48 dakika.
@@ -925,5 +925,80 @@ Adım 5: Farkı al: 12 − 11 = 1.
 Sağlama: Ardışık iki doğal sayı her zaman aralarında asaldır; bu yüzden 11 ile 12'nin EKOK'u doğrudan çarpımlarına eşittir.
 Sık yapılan hata: Yalnızca toplam koşuluna bakıp ilk akla gelen çifti seçmek. İki koşulu birden sağlayan çift tektir.
 Cevap A.`
+},
+/* ===================== HAVUZ (kademe 0) ===================== */
+{
+  id: "mat-ck-013",
+  kazanim: "M.8.1.1.2",
+  kademe: 0,
+  zorluk: 2,
+  soru: "Bir arıcı, hasat ettiği balı kavanozlara doldurmuş ve şu an elinde 98 kavanoz bal birikmiştir. Arıcının kullandığı iki koli türü aşağıda gösterilmiştir. Arıcı, kavanozların tamamını yalnızca küçük kolilerle de yalnızca büyük kolilerle de hiç kavanoz artmadan paketleyebilmek istemektedir.\n**Buna göre arıcının __en az__ kaç kavanoz bal daha üretmesi gerekir?**",
+  gorsel: `<svg viewBox="0 0 520 175" role="img" aria-label="Arıcının kullandığı iki koli türü: 6 kavanozluk küçük koli ve 10 kavanozluk büyük koli"><g stroke="currentColor" stroke-width="2.5" fill="var(--dolgu)"><rect x="25" y="22" width="200" height="92" rx="8"/><rect x="280" y="22" width="228" height="92" rx="8"/></g><g fill="var(--vurgu)"><circle cx="75" cy="52" r="13"/><circle cx="125" cy="52" r="13"/><circle cx="175" cy="52" r="13"/><circle cx="75" cy="88" r="13"/><circle cx="125" cy="88" r="13"/><circle cx="175" cy="88" r="13"/></g><g fill="var(--vurgu2)"><circle cx="306" cy="52" r="11"/><circle cx="350" cy="52" r="11"/><circle cx="394" cy="52" r="11"/><circle cx="438" cy="52" r="11"/><circle cx="482" cy="52" r="11"/><circle cx="306" cy="88" r="11"/><circle cx="350" cy="88" r="11"/><circle cx="394" cy="88" r="11"/><circle cx="438" cy="88" r="11"/><circle cx="482" cy="88" r="11"/></g><g fill="currentColor" font-size="16" text-anchor="middle" font-weight="bold"><text x="125" y="142">Küçük koli: 6 kavanoz</text><text x="394" y="142">Büyük koli: 10 kavanoz</text></g></svg>`,
+  secenekler: ["2", "4", "22", "30"],
+  dogru: 2,
+  hatalar: [
+    "Yalnızca büyük koliye göre tamamlama: 98 + 2 = 100 sayısı 10'a bölünür ama 6'ya bölünmez.",
+    "Yalnızca küçük koliye göre tamamlama: 98 + 4 = 102 sayısı 6'ya bölünür ama 10'a bölünmez.",
+    null,
+    "EKOK'u cevap sanma: 30, toplam kavanoz sayısının bölünmesi gereken sayıdır; eklenecek kavanoz sayısı değildir."
+  ],
+  aciklama: `Kavanozların tamamı hem 6'lı hem 10'lu kolilere artmadan yerleşecekse toplam kavanoz sayısı hem 6'ya hem 10'a kalansız bölünmelidir; yani 6 ile 10'un ortak katı olmalıdır.
+Adım 1: 6 = 2 · 3 ve 10 = 2 · 5. EKOK için her asal çarpanın en büyük üslüsünü al: EKOK(6, 10) = 2 · 3 · 5 = 30. Toplam kavanoz sayısı 30'un katı olmalıdır.
+Adım 2: 30'un katlarını sırayla yaz: 30, 60, 90, 120…
+Adım 3: Elde 98 kavanoz olduğuna göre 98'den küçük olmayan ilk katı seç. 90 sayısı 98'den küçüktür, işe yaramaz; aranan sayı 120'dir.
+Adım 4: Farkı al: 120 − 98 = 22 kavanoz.
+Sağlama: 120 ÷ 6 = 20 küçük koli, 120 ÷ 10 = 12 büyük koli; iki durumda da hiç kavanoz artmaz.
+Sık yapılan hata: Koli türlerinden yalnızca birine bakıp tamamlamak. İki koşulun da sağlanması isteniyorsa ortak kata, yani EKOK'un katlarına gitmelisin.
+Cevap C.`
+},
+{
+  id: "mat-ck-014",
+  kazanim: "M.8.1.1.2",
+  kademe: 0,
+  zorluk: 4,
+  soru: "Bir çiçekçinin deposunda, sabah halden aldığı laleler durmaktadır. Çiçekçi bu lalelerin tamamını buketler hâlinde bağlayıp vitrine dizecektir. Bütün buketlerde eşit sayıda lale bulunacak, bir buket yapmaya yetmeyen laleler ise vazoya konulacaktır. Çiçekçi iki farklı buket büyüklüğünü denemiş ve her denemede vazoya kalan lale sayısını aşağıdaki tabloya yazmıştır. Çiçekçi lalelerini saymamıştır; ancak deposunda 100'den çok, 200'den az lale bulunduğunu bilmektedir.\n**Buna göre çiçekçinin deposundaki lale sayısı kaç farklı değer alabilir?**",
+  gorsel: `<table class="tablo"><tr><th>Bir bukete konulan lale sayısı</th><th>Vazoya kalan lale sayısı</th></tr><tr><td>8</td><td>5</td></tr><tr><td>12</td><td>9</td></tr></table>`,
+  secenekler: ["3", "4", "5", "8"],
+  dogru: 1,
+  hatalar: [
+    "Listeyi aralığın başındaki ilk değerden başlatmama: 117 sayısı da 100'den büyüktür ve iki koşulu da sağlar.",
+    null,
+    "Üst sınırı dâhil etme: 213 sayısı iki koşulu da sağlar ama 200'den az değildir.",
+    "Yalnızca tablonun ikinci satırını kullanma: 12'ye bölündüğünde 9 kalanını veren sayılar aralıkta 8 tanedir (105, 117, 129, …, 189); ancak bunların hepsi 8'e bölündüğünde 5 kalanını vermez."
+  ],
+  aciklama: `Bir sayı 8'e bölündüğünde 5, 12'ye bölündüğünde 9 kalanını veriyorsa her iki bölmede de tam dolmaya 3 birim kalmış demektir: 8 − 5 = 3 ve 12 − 9 = 3. Bu ortak eksik, sorunun anahtarıdır.
+Adım 1: Lale sayısına 3 eklersen her iki bölme de kalansız olur. Yani (lale sayısı + 3) hem 8'e hem 12'ye bölünmelidir.
+Adım 2: 8 = 2^{3} ve 12 = 2^{2} · 3. EKOK için her asal çarpanın en büyük üslüsünü al: EKOK(8, 12) = 2^{3} · 3 = 24. Öyleyse (lale sayısı + 3) sayısı 24'ün katıdır.
+Adım 3: 24'ün katlarını yaz ve her birinden 3 çıkararak olası lale sayılarını bul: 24 → 21, 48 → 45, 72 → 69, 96 → 93, 120 → 117, 144 → 141, 168 → 165, 192 → 189, 216 → 213.
+Adım 4: Aralık koşulunu uygula: lale sayısı 100'den çok, 200'den az olacak. Listeden 117, 141, 165 ve 189 uyar; 93 küçük, 213 ise büyüktür.
+Adım 5: Lale sayısı 4 farklı değer alabilir.
+Sağlama: 189 ÷ 8 = 23, kalan 5; 189 ÷ 12 = 15, kalan 9. İki koşul da sağlanıyor.
+Sık yapılan hata: Kalanları doğrudan EKOK'un katlarına eklemek. Burada kalanlar birbirine eşit değildir; eşit olan, tam dolmaya kalan 3 birimlik eksiktir. Böyle sorularda önce kalanların mı yoksa eksiklerin mi ortak olduğuna bak.
+Cevap B.`
+},
+{
+  id: "mat-ck-015",
+  kazanim: "M.8.1.1.1",
+  kademe: 0,
+  zorluk: 4,
+  soru: "Bir yazılım ekibi, uzun süredir üzerinde çalıştığı mobil oyunu yayımlamaya hazırlanmaktadır. Oyunun toplam 180 bölümü vardır ve bu bölümler oyuncuya dünyalar hâlinde sunulacaktır. Ekip, bölümleri dünyalara ayırırken aşağıdaki kurallara uyacaktır:\n• Her dünyada eşit sayıda bölüm bulunacak, hiçbir bölüm dünyaların dışında kalmayacaktır.\n• Oyunda birden çok dünya olacaktır.\n• Bir dünyadaki bölüm sayısı, dünya sayısından çok olacaktır.\n• Dünya sayısı ile bir dünyadaki bölüm sayısı **aralarında asal** olacaktır.\n**Buna göre oyunda __en çok__ kaç dünya olabilir?**",
+  gorsel: null,
+  secenekler: ["5", "9", "12", "20"],
+  dogru: 1,
+  hatalar: [
+    "Uygun ilk çiftte durma: 5 dünya ve 36 bölüm bütün kurallara uyar ama 9 dünyalı çift de uygundur ve dünya sayısı daha çoktur.",
+    null,
+    "Aralarında asal olma kuralını denetlememe: 12 dünya ve 15 bölüm çiftinde iki sayı da 3'e bölünür.",
+    "Dünya sayısı ile bir dünyadaki bölüm sayısını yer değiştirme: 20 ile 9 aralarında asaldır ama bu kez bir dünyadaki bölüm sayısı dünya sayısından az olur."
+  ],
+  aciklama: `Dünya sayısı ile bir dünyadaki bölüm sayısının çarpımı 180'dir; yani bu iki sayı 180'in bir çarpan çiftidir. Kurallar, bu çiftler arasından seçim yapmanı istiyor.
+Adım 1: 180'i asal çarpanlarına ayır: 180 = 2^{2} · 3^{2} · 5.
+Adım 2: Çarpan çiftlerini, küçük sayı başta olacak biçimde eksiksiz yaz: 1 · 180, 2 · 90, 3 · 60, 4 · 45, 5 · 36, 6 · 30, 9 · 20, 10 · 18, 12 · 15.
+Adım 3: Birden çok dünya olacağı için 1 · 180 çifti elenir. Bir dünyadaki bölüm sayısı dünya sayısından çok olacağına göre her çiftte küçük sayı dünya sayısıdır; bu yüzden liste bu hâliyle kullanılabilir.
+Adım 4: Kalan çiftlerde aralarında asallığı tek tek denetle. 2 ile 90: ikisi de 2'ye bölünür, olmaz. 3 ile 60: ikisi de 3'e bölünür, olmaz. 4 ile 45: ortak bölenleri yoktur, uygun. 5 ile 36: uygun. 6 ile 30: ikisi de 6'ya bölünür, olmaz. 9 ile 20: uygun. 10 ile 18: ikisi de 2'ye bölünür, olmaz. 12 ile 15: ikisi de 3'e bölünür, olmaz.
+Adım 5: Kurallara uyan çiftler 4 · 45, 5 · 36 ve 9 · 20'dir. Bunlar arasında dünya sayısının en çoğu 9'dur.
+Sağlama: 9 · 20 = 180'dir, 20 sayısı 9'dan çoktur ve EBOB(9, 20) = 1 olduğundan iki sayı aralarında asaldır.
+Sık yapılan hata: Bulunan ilk uygun çiftte durmak. En çok diye soran sorularda bütün çarpan çiftlerini sonuna kadar yazıp kuralları hepsine ayrı ayrı uygulamalısın.
+Cevap B.`
 }
 );

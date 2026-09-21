@@ -162,7 +162,9 @@ Endekse bakarken şunları ara ve **tekrar etme**:
 
 Hiçbir soru bu adımlar geçilmeden yayımlanmaz.
 
-1. **Kör doğrulama (soru bazında):** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret. Ayrı bir ajan (`general-purpose`) bu JSON'u çözsün ve `sorular/` klasörünü **açmasın**. Aranacak kusurlar: birden fazla savunulabilir doğru, doğru şıkkın olmaması, belirsiz ifade, zayıf çeldirici (okumadan elenebilen şık), görsel-metin çelişkisi, müfredat dışı bilgi, olgu hatası, dil hatası, zorluk uyumsuzluğu.
+1. **Kör doğrulama (soru bazında):** `node otomasyon/kor.js <dosya> <çıktı.json>` ile cevapsız kopya üret. Ayrı bir ajan (`general-purpose`) bu JSON'u çözsün ve `sorular/` klasörünü **açmasın**.
+
+   ⚠️ **Kör kopyayı yazan ajana bırakma.** 21 Eylül 2026'daki partide 13 dosyanın 8'inde yazar ajan bu komutu çalıştırmadı; doğrulayıcı dosyayı bulamayınca sessizce "0 soru çözüldü" döndürdü ve sorular doğrulanmadan yayına girdi. Kör kopyalar **doğrulama ajanı başlatılmadan önce, dışarıdan** üretilmeli. Ayrıca doğrulayıcının döndürdüğü `cozulen` sayısı dosyadaki soru sayısıyla tutmuyorsa **doğrulama başarısız sayılır**, sonuç kabul edilmez. Aranacak kusurlar: birden fazla savunulabilir doğru, doğru şıkkın olmaması, belirsiz ifade, zayıf çeldirici (okumadan elenebilen şık), görsel-metin çelişkisi, müfredat dışı bilgi, olgu hatası, dil hatası, zorluk uyumsuzluğu.
 
 2. **Set eleştirmeni (parti bazında) — ATLANMAZ.** Tek tek kusursuz sorulardan kusurlu bir set çıkabilir. Bunu yakalamak şansa bırakılmaz; her parti için ayrı bir ajan **yalnızca set geneline** bakar ve tek tek soruları çözmez. Girdisi: partinin bütün kör kopyaları + o konunun endeksi. Arayacakları:
    - **Retorik tekdüzelik:** metinler aynı kalıpta mı? Doğru şık hep aynı tür yargı mı? (Örnek: bir partide 20 metnin hepsi "görünen kısım asıl iş değildir" tezini işlemişti; öğrenci metni okumadan o şıkkı işaretlemeye başlar.)

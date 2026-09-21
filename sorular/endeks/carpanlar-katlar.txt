@@ -85,3 +85,6 @@ mat-ck-322 | M.8.1.1.2 | z4 | k3 | Bir bilim şenliğine iki okul katılmaktadı
 mat-ck-323 | M.8.1.1.3 | z4 | k3 | Bir animasyon programında iki hareket döngüsü aynı anda başlatılıp sürekli tekrar ettirilmektedir. Birinci döngü 45 kare, ikinci … | ✓47
 mat-ck-324 | M.8.1.1.1 | z4 | k3 | Bir okulun geri dönüşüm kulübü topladığı plastik kapakları sayamamış, ancak elindeki kayıtlardan aşağıdaki panoda yazan üç bilgiy… | ✓108
 mat-ck-325 | M.8.1.1.3 | z4 | k3 | Bir yazılım dersinde Deniz, girilen iki doğal sayının en küçük ortak katını (EKOK) ekrana yazan bir program hazırlamıştır. Ders s… | ✓1
+mat-ck-013 | M.8.1.1.2 | z2 | k0 | Bir arıcı, hasat ettiği balı kavanozlara doldurmuş ve şu an elinde 98 kavanoz bal birikmiştir. Arıcının kullandığı iki koli türü … | ✓22
+mat-ck-014 | M.8.1.1.2 | z4 | k0 | Bir çiçekçinin deposunda, sabah halden aldığı laleler durmaktadır. Çiçekçi bu lalelerin tamamını buketler hâlinde bağlayıp vitrin… | ✓4
+mat-ck-015 | M.8.1.1.1 | z4 | k0 | Bir yazılım ekibi, uzun süredir üzerinde çalıştığı mobil oyunu yayımlamaya hazırlanmaktadır. Oyunun toplam 180 bölümü vardır ve b… | ✓9

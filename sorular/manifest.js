@@ -2,6 +2,7 @@
 window.LGS_MANIFEST = [
   "mat-carpanlar-katlar-1.js",
   "mat-carpanlar-katlar-2.js",
+  "mat-carpanlar-katlar-3.js",
   "tur-paragrafta-anlam-0.js",
   "tur-paragrafta-anlam-1.js",
   "tur-paragrafta-anlam-2.js",
@@ -35,6 +36,7 @@ window.LGS_MANIFEST = [
   "ink-u1-3.js",
   "mat-karekoklu-ifadeler-1.js",
   "mat-karekoklu-ifadeler-2.js",
+  "mat-karekoklu-ifadeler-3.js",
   "tur-cumlenin-ogeleri-1.js",
   "tur-cumlenin-ogeleri-2.js",
   "tur-cumlenin-ogeleri-3.js",
@@ -53,6 +55,5 @@ window.LGS_MANIFEST = [
   "tur-paragrafta-anlam-26.js",
   "tur-paragrafta-anlam-25.js",
   "tur-paragrafta-anlam-24.js",
-  "mat-carpanlar-katlar-3.js",
   "mat-uslu-ifadeler-3.js"
 ];

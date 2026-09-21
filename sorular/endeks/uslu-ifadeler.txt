@@ -46,42 +46,50 @@ mat-ui-009 | M.8.1.2.2 | z3 | k0 | Bir doğa kampında bütün çadırlar aynı 
 mat-ui-010 | M.8.1.2.3 | z3 | k0 | Bir müzenin madeni paralar bölümünde her paranın kütlesi, vitrin etiketine çözümlenmiş biçimde yazılmaktadır. Müze bu yazımı, ziy… | ✓28,503
 mat-ui-011 | M.8.1.2.2 | z4 | k0 | Bir güvenlik kamerası, kaydettiği görüntüleri belleğine eşit büyüklükte bloklar hâlinde yazmaktadır. Belleğin yarısı kameranın ke… | ✓2^{11}
 mat-ui-012 | M.8.1.2.5 | z4 | k0 | Bir tarım araştırma merkezinde, tek bir gübre granülünü tartmak çok zor olduğundan granül kütleleri paketler üzerinden hesaplanma… | ✓5 · 10^{3}
-mat-ui-113 | M.8.1.2.1 | z1 | k1 | Bir bilim şenliğinde çok küçük sayıları tanıtan panoda 10^{-3} üslü ifadesi yer almaktadır. Buna göre bu ifadenin ondalık gösteri… | ✓0,001
-mat-ui-114 | M.8.1.2.2 | z1 | k1 | Bir matematik kulübü toplantısında üyelere 3^{4} · 3^{2} işlemi sorulmuştur. Buna göre bu işlemin sonucu aşağıdakilerden hangisin… | ✓3^{6}
-mat-ui-115 | M.8.1.2.5 | z1 | k1 | Bir doğa dergisinde bir kar tanesini oluşturan buz kristalinin kütlesi 74 · 10^{-7} gram olarak verilmiştir. Buna göre bu kütleni… | ✓7,4 · 10^{-6}
-mat-ui-116 | M.8.1.2.4 | z1 | k1 | Bir kuyumcu atölyesinde bir yüzüğe yapılan altın kaplamanın kalınlığı 0,0007 santimetredir. Usta bu sayıyı, n bir tam sayı olmak … | ✓−4
-mat-ui-117 | M.8.1.2.3 | z1 | k1 | Bir teknoloji sitesinde tanıtılan cep telefonunun kalınlığı 0,86 santimetredir. Bu sayının basamakları aşağıdaki tabloda gösteril… | ✓8 · 10^{-1} + 6 · 10^{-2}
-mat-ui-118 | M.8.1.2.2 | z1 | k1 | Bir matematik uygulamasının alıştırma ekranında 2^{-4} · 2^{6} işlemi çıkmıştır. Buna göre bu işlemin sonucu aşağıdakilerden hang… | ✓2^{2}
-mat-ui-119 | M.8.1.2.1 | z2 | k1 | Bir müzik atölyesinde gitar akordu anlatılırken bir notanın frekansının her oktav yükselişte 2 katına çıktığı söylenmiştir. Atöly… | ✓880
-mat-ui-120 | M.8.1.2.2 | z2 | k1 | Okul gazetesinin bulmaca köşesinde her hafta üslü ifadelerle bir işlem yayımlanmakta, sonucu doğru bulan öğrencilere kitap verilm… | ✓2^{2}
-mat-ui-121 | M.8.1.2.3 | z2 | k1 | Bir eczanede hassas terazi kullanılarak bir vitamin tabletinin kütlesi ölçülmüştür. Eczacı, ekranda gördüğü sayıyı basamak değerl… | ✓3 · 10^{-1} + 7 · 10^{-2} + 5 · 10^{-3}
-mat-ui-122 | M.8.1.2.4 | z2 | k1 | Bir doğa dergisinde, bir arı kovanındaki arıların bir mevsim boyunca yaptığı çiçek ziyareti sayısı 4 · 10^{5} olarak verilmiştir.… | ✓0,4 · 10^{6}
-mat-ui-123 | M.8.1.2.5 | z2 | k1 | Bir tekstil laboratuvarında dört ipliğin çapı ölçülmüş ve sonuçlar bilimsel gösterimle tabloya yazılmıştır. Laboratuvar sorumlusu… | ✓N
-mat-ui-124 | M.8.1.2.1 | z2 | k1 | Bir okul kulübünün malzeme dolabında dört göstergeli bir şifre kilidi vardır. Her gösterge aşağıda verilen beş simgeden birini gö… | ✓625
-mat-ui-125 | M.8.1.2.2 | z2 | k1 | Bir matematik yarışmasının hızlı tur bölümünde yarışmacılara ekranda bir üslü ifade gösterilmekte ve bu ifadenin değeri sorulmakt… | ✓9
-mat-ui-213 | M.8.1.2.1 | z2 | k2 | Bir kargo deposunda özdeş koliler küp biçiminde bir yığın oluşturacak şekilde istiflenmiştir. Yığının eni, derinliği ve yüksekliğ… | ✓64
-mat-ui-214 | M.8.1.2.2 | z2 | k2 | Bir müzede kullanılan sesli rehber cihazının teknik kartında, cihazın saniyede 8^{3} ses örneği aldığı yazmaktadır. Teknisyen, ci… | ✓2^{9}
-mat-ui-215 | M.8.1.2.3 | z2 | k2 | Bir fen laboratuvarında öğrenciler tarttıkları taşın kütlesini çözümlenmiş biçimde tahtaya yazmıştır. Ancak terimleri basamak sır… | ✓64,03
-mat-ui-216 | M.8.1.2.4 | z2 | k2 | Bir kargo şirketinin sayım raporunda iki depodaki koli sayıları farklı biçimlerde yazılmıştır. A deposu için 45 · 10^{3} koli, B … | ✓A deposundakine eşittir.
-mat-ui-217 | M.8.1.2.5 | z2 | k2 | Bir köprünün girişindeki dijital panoda, köprünün açılışından bu yana geçen araç sayısı gösterilmektedir. Belediye, panodaki bu s… | ✓9,2 · 10^{7}
-mat-ui-218 | M.8.1.2.1 | z2 | k2 | Bir bilim merkezindeki ışık panosunda lambaların durumu (−1) sayısının kuvvetleriyle gösterilmektedir. Pano her saniye (−1)^{n} d… | ✓0
-mat-ui-219 | M.8.1.2.4 | z2 | k2 | Bir okul kantininde satılan meyve suyu kutusunun üzerinde hacim 0,25 · 10^{3} mL biçiminde yazmaktadır. Kantin görevlisi fiyat li… | ✓250
-mat-ui-220 | M.8.1.2.5 | z3 | k2 | Bir kâğıt fabrikasında üretilen yazıcı kâğıtlarının kalınlığı mikrometre ile ölçülmekte ve kataloğa bilimsel gösterimle yazılmakt… | ✓6
-mat-ui-221 | M.8.1.2.2 | z3 | k2 | Bir su kalitesi laboratuvarında yoğun bir numune ölçüm cihazına verilmeden önce seyreltilmektedir. Her seyreltme adımında numuned… | ✓2 · 10^{-5}
-mat-ui-222 | M.8.1.2.1 | z3 | k2 | Bir okullar arası bilgi yarışması eleme usulüyle oynanmaktadır. Her turda takımlar üçerli gruplara ayrılmakta ve her gruptan yaln… | ✓243
-mat-ui-223 | M.8.1.2.3 | z3 | k2 | Bir okul bahçesine dikilen fidanın boyu, büyümesini izlemek için iki kez ölçülmüştür. Öğrenciler ilkbahar ve sonbahar ölçümleri a… | ✓4 · 10^{-1} + 6 · 10^{-2}
-mat-ui-224 | M.8.1.2.4 | z3 | k2 | Bir belediye üç yıl süren fidan dikim kampanyasının sonuçlarını açıklamıştır. Her yılın sayısı basın bülteninde 10'un farklı bir … | ✓1,82 · 10^{6}
-mat-ui-225 | M.8.1.2.1 | z3 | k2 | Bir tarım lisesinin serasında mantar kültürü yetiştirilmektedir. Öğretmen, ortam koşulları sabit tutulduğunda mantar sayısının he… | ✓4
-mat-ui-313 | M.8.1.2.5 | z3 | k3 | Bir hidroelektrik barajının türbinlerinden bir günde geçen su miktarı ile aynı vadideki sulama kanalının bir günde taşıdığı su mi… | ✓4 · 10^{3}
-mat-ui-314 | M.8.1.2.2 | z3 | k3 | Bir eğitsel bilgisayar oyununda oyuncunun puanı her seviye atlayışında 9 katına çıkmaktadır. Oyunun puan tablosunda bütün puanlar… | ✓3^{10}
-mat-ui-315 | M.8.1.2.3 | z3 | k3 | Bir terzi atölyesinde kumaş toplarının uzunlukları etiketlere, 10'un tam sayı kuvvetleriyle çözümlenmiş biçimde yazılmaktadır. Us… | ✓N
-mat-ui-316 | M.8.1.2.4 | z3 | k3 | Bir gıda fabrikasında ürünler önce kutulanmakta, kutular kolilere, koliler de tırlara yüklenmektedir. Bir kutuda 24 paket, bir ko… | ✓2,4 · 10^{6}
-mat-ui-317 | M.8.1.2.1 | z3 | k3 | Bir soğuk hava deposunun kapısında üst üste asılan yalıtım perdeleri kullanılmaktadır. Her perde, kendisine ulaşan ısı kaybını üç… | ✓[[1|81]]
-mat-ui-318 | M.8.1.2.2 | z3 | k3 | Bir bilim olimpiyatında takımların puanları duyuru panosunda üslü ifadelerle ilan edilmektedir. Panoda A takımının puanı 4^{6}, B… | ✓2
-mat-ui-319 | M.8.1.2.5 | z3 | k3 | Bir gıda laboratuvarında maya hücrelerinin kütlesi incelenmektedir. Ölçümlerde tek bir maya hücresinin kütlesi 2,5 · 10^{-12} gra… | ✓2 · 10^{-4}
-mat-ui-320 | M.8.1.2.5 | z3 | k3 | Bir doğa kulübünün üyeleri gözlemledikleri dört böceğin kanat uzunluklarını not defterine yazmıştır. Ancak her üye kendi alışkanl… | ✓N
-mat-ui-321 | M.8.1.2.5 | z3 | k3 | Bir ilaç fabrikasında hazırlanan sıvı ilaç, depodan alınıp küçük şişelere doldurulmaktadır. Depoda bulunan ilacın tamamı şişelene… | ✓120
-mat-ui-322 | M.8.1.2.1 | z4 | k3 | Bir matematik etkinliğinde öğrencilere (−2)^{n} üslü ifadesi verilmiştir. Öğrencilerden n yerine sırasıyla −2, −1, 0, 1, 2 ve 3 t… | ✓4
-mat-ui-323 | M.8.1.2.5 | z4 | k3 | Bir optik atölyesinde mercek yüzeylerine ince bir koruyucu film kaplanmaktadır. Kaplamanın kabul edilebilmesi için kalınlığının 3… | ✓62 · 10^{-5}
-mat-ui-324 | M.8.1.2.2 | z4 | k3 | Bir belediyenin arşiv biriminde eski belgeler taranarak dijital ortama aktarılmaktadır. Taranan her belge bellekte 5^{3} kilobayt… | ✓17
-mat-ui-325 | M.8.1.2.5 | z4 | k3 | Bir kargo uçağının kalkışta taşıyabileceği toplam yük 4,86 · 10^{4} kilogramı geçemez. Bu toplam yükün içinde uçağın yakıtı da sa… | ✓162
+mat-ui-113 | M.8.1.2.1 | z1 | k1 | Bir fen dersinde ölçülen kalınlık, defterlere 10^{-2} metre olarak yazılmıştır. Buna göre bu ölçümün ondalık gösterimi aşağıdakil… | ✓0,01
+mat-ui-114 | M.8.1.2.2 | z1 | k1 | 3^{4} · 3^{2} işleminin sonucu aşağıdakilerden hangisine eşittir? | ✓3^{6}
+mat-ui-115 | M.8.1.2.3 | z1 | k1 | 3 · 10^{1} + 4 · 10^{-1} ifadesinin ondalık gösterimi aşağıdakilerden hangisidir? | ✓30,4
+mat-ui-116 | M.8.1.2.4 | z1 | k1 | 7 · 10^{4} sayısı aşağıdakilerden hangisine eşittir? | ✓70 · 10^{3}
+mat-ui-117 | M.8.1.2.5 | z1 | k1 | Aşağıdaki gösterimlerden hangisi bilimsel gösterimdir? | ✓6,3 · 10^{4}
+mat-ui-118 | M.8.1.2.5 | z1 | k1 | Bir haber sitesinde bir videonun izlenme sayısı 5 · 10^{6} olarak verilmiştir. Buna göre bu video kaç kez izlenmiştir? | ✓5 000 000
+mat-ui-119 | M.8.1.2.1 | z2 | k1 | Bir bulmaca dergisinin "Zihin Jimnastiği" sayfasında aşağıdaki işlem verilmiştir. Buna göre bu işlemin sonucu kaçtır? | ✓24
+mat-ui-120 | M.8.1.2.2 | z2 | k1 | Bir hava kalitesi ölçüm cihazı her saniyede 10^{5} ölçüm yapmakta ve yaptığı her ölçümü 10^{-8} saniyede işlemektedir. Buna göre … | ✓10^{-3}
+mat-ui-121 | M.8.1.2.3 | z2 | k1 | Bir akaryakıt istasyonunda pompanın ekranı, doldurulan yakıt miktarını litre cinsinden göstermektedir. Bir aracın deposu dolduğun… | ✓4 · 10^{1} + 7 · 10^{0} + 5 · 10^{-2}
+mat-ui-122 | M.8.1.2.4 | z2 | k1 | Bir gıda analiz laboratuvarında bütün kütleler, forma 10^{-6} gram (mikrogram) biriminde yazılmaktadır. Bir numunedeki katkı madd… | ✓420
+mat-ui-123 | M.8.1.2.5 | z2 | k1 | Bir meteoroloji çalışmasında bir kar tanesinin kütlesi ortalama 3,5 · 10^{-3} gram olarak alınmaktadır. Buna göre 100 kar tanesin… | ✓3,5 · 10^{-1}
+mat-ui-124 | M.8.1.2.1 | z2 | k1 | Bir okulun kitap okuma etkinliğinde 8-A sınıfı bir ayda 4^{3} sayfa, 8-B sınıfı ise aynı ayda 3^{4} sayfa okumuştur. Buna göre ik… | ✓17
+mat-ui-125 | M.8.1.2.2 | z2 | k1 | Bir matematik yazılımında sayılar, aşağıdaki işlem şeridinden geçirilmektedir. Şeride giren sayı önce ikinci kuvvetine yükseltilm… | ✓3^{3}
+mat-ui-213 | M.8.1.2.1 | z2 | k2 | Bir masa oyununda oyuncunun n. turda aldığı puan, (−1)^{n} · n^{2} kuralıyla hesaplanmaktadır. Oyuncunun toplam puanı, turlarda a… | ✓7
+mat-ui-214 | M.8.1.2.2 | z2 | k2 | Bir matematik etkinliğinde kefeleri dengede duran bir terazinin iki kefesine üslü ifadeler yerleştirilmiştir. Sol kefedeki ifadel… | ✓8
+mat-ui-215 | M.8.1.2.3 | z2 | k2 | Bir okulun geri dönüşüm panosunda sınıfların bir haftada topladığı kâğıdın kütlesi, basamak değerleri görünsün diye çözümlenmiş b… | ✓36,2
+mat-ui-216 | M.8.1.2.4 | z2 | k2 | Bir mobil oyunun indirilme sayısı, yayımcının sitesinde 6,4 · 10^{5} olarak duyurulmuştur. Yayımcı aynı sayıyı basın bültenlerind… | ✓640 · 10^{3}
+mat-ui-217 | M.8.1.2.5 | z2 | k2 | Bir doğa belgeselinde, bir örümcek ağını oluşturan ipliğin kalınlığının 3,2 · 10^{-6} metre olduğu söylenmiştir. Bir öğrenci bu k… | ✓3,2 · 10^{-3}
+mat-ui-218 | M.8.1.2.3 | z2 | k2 | Bir baharatçıda kullanılan hassas terazi, tartılan ürünün kütlesini gram cinsinden ondalık gösterimle yazmaktadır. Bir müşteriye … | ✓100
+mat-ui-219 | M.8.1.2.1 | z2 | k2 | Bir sınav sonrası öğretmen, iki öğrencinin aynı soruyu farklı okuduğunu görmüştür. Ceren ifadeyi (−4)^{2} biçiminde, Barış ise −4… | ✓0
+mat-ui-220 | M.8.1.2.3 | z3 | k2 | Bir kuyumcuda tartılan takıların kütlesi, müşteri basamakları görebilsin diye fişe çözümlenmiş biçimde yazılmaktadır. Bir gümüş z… | ✓6,85
+mat-ui-221 | M.8.1.2.4 | z3 | k2 | Bir okulun yardım kampanyasında toplanan tutar 7,2 · 10^{5} TL'dir. Kampanya panosunu hazırlayan görevli bu tutarı yazarken virgü… | ✓10
+mat-ui-222 | M.8.1.2.5 | z3 | k2 | Bir barajın su miktarı her ayın başında ölçülüp bir tabloya yazılmaktadır. Nisan ve mayıs aylarının başındaki ölçümler aşağıda ve… | ✓2,2 · 10^{5}
+mat-ui-223 | M.8.1.2.1 | z3 | k2 | Bir sınıfın matematik panosunda her hafta bir işlem asılmakta ve doğru sonucu bulan öğrencilerin adı panoya yazılmaktadır. Bu haf… | ✓−2
+mat-ui-224 | M.8.1.2.2 | z3 | k2 | Bir seramik atölyesinde sır karışımı hazırlanmaktadır. Karışım için A bileşeninden 2^{5} mL, B bileşeninden 2^{3} mL alınıp iyice… | ✓10
+mat-ui-225 | M.8.1.2.4 | z3 | k2 | Bir belediyenin yıllık raporunda bütün tutarlar, sayfalar sade görünsün diye 10^{9} TL (milyar TL) biriminde yazılmaktadır. Bu yı… | ✓0,0032
+mat-ui-313 | M.8.1.2.1 | z3 | k3 | Bir metal atölyesinde geniş bir alüminyum levha, bir makineyle turlar hâlinde küçültülmektedir. Makine her turda elindeki bütün p… | ✓5
+mat-ui-314 | M.8.1.2.2 | z3 | k3 | Bir çevrim içi oyunda karakterlerin güç değerleri, oyuncular karşılaştırma yapabilsin diye üslü ifadelerle gösterilmektedir. İki … | ✓6
+mat-ui-315 | M.8.1.2.3 | z3 | k3 | Bir fen laboratuvarında dört öğrenci, aynı maddeden hazırladıkları örnekleri ayrı ayrı tartmıştır. Öğretmen, basamak değerlerini … | ✓Bora
+mat-ui-316 | M.8.1.2.4 | z3 | k3 | Bir kargo şirketinin dört şubesi, bir yılda işlem gören gönderi sayısını giriş panolarına yazmıştır. Şubeler bu sayıları yazarken… | ✓L şubesi
+mat-ui-317 | M.8.1.2.5 | z3 | k3 | Bir matbaada kullanılan baskı kâğıdı paketlerinin her birinde 5 · 10^{2} yaprak bulunmaktadır ve bir paketin kalınlığı 5 · 10^{1}… | ✓10^{-4}
+mat-ui-318 | M.8.1.2.3 | z3 | k3 | Bir öğrenci, ödevinde bir tartım sonucu olan 205,07 sayısını 10'un tam sayı kuvvetleriyle çözümlemiştir. Öğrencinin defterine yaz… | ✓7 · 10^{-1} yerine 7 · 10^{-2} yazmalı
+mat-ui-319 | M.8.1.2.5 | z3 | k3 | Bir müzik atölyesinde gitar tellerinin kalınlığı, tellerin geldiği kutulara farklı birimlerle yazılmıştır. Atölyedeki dört telin … | ✓La teli
+mat-ui-320 | M.8.1.2.5 | z3 | k3 | Bir tıbbi malzeme fabrikası her gün aynı sayıda, günde 2,5 · 10^{4} maske üretmektedir. Fabrikaya 3 · 10^{5} maskelik tek bir sip… | ✓12
+mat-ui-321 | M.8.1.2.1 | z4 | k3 | Bir şifre üretme programı, her adımda bir önceki adımda ürettiği sayıyı 3 ile çarpmaktadır. Program 3 sayısıyla başladığı için n.… | ✓9
+mat-ui-322 | M.8.1.2.2 | z4 | k3 | Bir bilim şenliğinde üç takım, etkinlikler boyunca puan toplamıştır. Şenlik sonunda takımların puanları, tabelaya üslü ifadelerle… | ✓M, K, L
+mat-ui-323 | M.8.1.2.3 | z4 | k3 | Bir kargo firmasında paketler tartıldığında terazinin ekranında kütle, çözümlenmiş biçimde görünmektedir. Firmanın kuralına göre … | ✓K ve L
+mat-ui-324 | M.8.1.2.4 | z4 | k3 | Bir su arıtma tesisi her gün aynı miktarda, günde 4,8 · 10^{5} litre suyu arıtmaktadır. Arıtılan su, tesisin yanındaki 6 · 10^{2}… | ✓5
+mat-ui-325 | M.8.1.2.1 | z4 | k3 | Bir matematik kulübünün duvarına dört ifade kartı asılmıştır. Kartlar, üzerlerindeki ifadelerin değerine göre soldan sağa küçükte… | ✓(−2)^{3}, 2^{-3}, (−2)^{-2}, 2^{0}
+mat-ui-013 | M.8.1.2.4 | z1 | k0 | Bir yayınevi, yeni çıkan kitabından 5 · 10^{3} adet bastığını duyurmuştur. Buna göre aşağıdakilerden hangisi basılan kitap sayısı… | ✓50 · 10^{2}
+mat-ui-014 | M.8.1.2.1 | z2 | k0 | (−2)^{4} · (−1)^{7} işleminin sonucu kaçtır? | ✓−16
+mat-ui-015 | M.8.1.2.3 | z2 | k0 | Bir teknik resim dersinde çizilen bir parçanın kalınlığı 0,507 metre ölçülmüştür. Buna göre bu sayının 10'un tam sayı kuvvetleriy… | ✓5 · 10^{-1} + 7 · 10^{-3}
+mat-ui-016 | M.8.1.2.5 | z2 | k0 | Bir çalışmada bir kum tanesinin kütlesi 8 · 10^{-3} gram olarak alınmıştır. Buna göre bir kum tanesinin kütlesinin ondalık göster… | ✓0,008
+mat-ui-017 | M.8.1.2.2 | z3 | k0 | Bir bilgisayar oyununda karakterin bölüm sonundaki gücü, üç aşamadaki değerler kullanılarak 2^{5} · 2^{-3} ÷ 2^{-2} işlemiyle hes… | ✓2^{4}
+mat-ui-018 | M.8.1.2.5 | z3 | k0 | Bir nakliye firmasının kamyonu en fazla 2,4 · 10^{4} kilogram yük taşıyabilmektedir. Taşınacak kolilerin hepsi aynı olup her biri… | ✓300
+mat-ui-019 | M.8.1.2.2 | z4 | k0 | Bir matematik yarışmasında öğrencilerden, 3^{a} · 9^{b} çarpımının 3^{10} sayısına eşit olmasını sağlayan a ve b pozitif tam sayı… | ✓4
+mat-ui-020 | M.8.1.2.3 | z4 | k0 | Bir laboratuvar cihazı ölçtüğü değeri, basamaklar görünsün diye çözümlenmiş biçimde kaydetmektedir. Cihazın kaydettiği değer 4 · … | ✓4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}

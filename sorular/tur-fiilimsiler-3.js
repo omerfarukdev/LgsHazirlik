@@ -62,12 +62,9 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 1,
   zorluk: 1,
-  soru: `(I) Arıcı, kovanları kamyonetle yaylaya taşıdı.
-(II) Kovanların üstüne akşamları kalın bir örtü seriliyor.
-(III) Petekten süzülen bal kavanozlara dolduruldu.
-(IV) Kavanozların kapağına küçük bir çıkartma yapıştırdık.
+  soru: `Bir arıcının gününden dört cümle aşağıdaki tabloda verilmiştir.
 **Numaralanmış cümlelerin hangisinde fiilimsi kullanılmıştır?**`,
-  gorsel: null,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Arıcı, kovanları kamyonetle yaylaya taşıdı.</td></tr><tr><td>II</td><td>Kovanların üstüne akşamları kalın bir örtü seriliyor.</td></tr><tr><td>III</td><td>Petekten süzülen bal kavanozlara dolduruldu.</td></tr><tr><td>IV</td><td>Kavanozların kapağına küçük bir çıkartma yapıştırdık.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
   hatalar: [
@@ -339,12 +336,9 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 1,
   zorluk: 2,
-  soru: `(I) Kuledeki gözcü, dürbünüyle ormanı tarıyor.
-(II) Uzaktaki dumanı fark edince telsizle merkeze haber verdi.
-(III) Yangına ilk ulaşan ekip alevleri kısa sürede söndürdü.
-(IV) Gözcünün görevi, en küçük dumanı bile zamanında görmektir.
+  soru: `Bir orman yangını gözetleme kulesiyle ilgili dört cümle aşağıdaki tabloda verilmiştir.
 **Numaralanmış cümlelerin hangisinde fiilimsi __yoktur__?**`,
-  gorsel: null,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Kuledeki gözcü, dürbünüyle ormanı tarıyor.</td></tr><tr><td>II</td><td>Uzaktaki dumanı fark edince telsizle merkeze haber verdi.</td></tr><tr><td>III</td><td>Yangına ilk ulaşan ekip alevleri kısa sürede söndürdü.</td></tr><tr><td>IV</td><td>Gözcünün görevi, en küçük dumanı bile zamanında görmektir.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 0,
   hatalar: [
@@ -367,12 +361,9 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 2,
   zorluk: 2,
-  soru: `(I) Kargoyu zamanında ulaştırmak bizim için çok önemli.
-(II) Adresi yanlış yazmamaya bu kez daha çok dikkat ettim.
-(III) Paketi taşıyan görevli kapıda imza istedi.
-(IV) Kutuyu bantlayınca üzerine etiketi yapıştırdım.
+  soru: `Bir kargo gönderimiyle ilgili dört cümle aşağıdaki tabloda verilmiştir.
 **Numaralanmış cümlelerin hangisinde fiilimsi, olumsuzluk ekiyle birlikte kullanılmıştır?**`,
-  gorsel: null,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Kargoyu zamanında ulaştırmak bizim için çok önemli.</td></tr><tr><td>II</td><td>Adresi yanlış yazmamaya bu kez daha çok dikkat ettim.</td></tr><tr><td>III</td><td>Paketi taşıyan görevli kapıda imza istedi.</td></tr><tr><td>IV</td><td>Kutuyu bantlayınca üzerine etiketi yapıştırdım.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 1,
   hatalar: [
@@ -588,9 +579,9 @@ Sıla, cümlede iki fiilimsi bulunduğunu söylüyor. Umut ise üç fiilimsi old
 **Buna göre, bu cümleyle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
   secenekler: [
-    "Sıla haklıdır; cümlede biri sıfat-fiil, biri zarf-fiil olmak üzere iki fiilimsi vardır.",
-    "Umut haklıdır; 'elindeki' sözcüğü de bir fiilimsidir.",
-    "Umut haklıdır; 'gitti' sözcüğü de bir fiilimsidir.",
+    "Sıla haklıdır; cümlede bir sıfat-fiil ve bir zarf-fiil vardır.",
+    "Umut haklıdır; 'elindeki' sözcüğü de bir fiilimsi sayılır.",
+    "Umut haklıdır; 'gitti' sözcüğü de bir fiilimsi sayılır.",
     "İkisi de yanılmıştır; cümlede yalnızca bir fiilimsi vardır."
   ],
   dogru: 0,
@@ -811,18 +802,14 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Karadeniz kıyısındaki küçük bir fenerde otuz yıl bekçilik yapmış bir adamla konuştuk. Anlattığına göre lambayı her akşam kendisi yakar, sabah olunca söndürürmüş. Fener on yıl önce otomatik sisteme geçmiş; bekçilik görevi de böylece sona ermiş. Aşağıda onun anlattıklarından dört cümle verilmiştir.
-(I) Akşam karardıkça lambanın ışığı daha uzaktan görünürdü.
-(II) Fenerin camlarını silmek haftanın en yorucu işiydi.
-(III) Kıyıya vuran dalgaların sesine zamanla alıştım.
-(IV) Şimdi fenerde kimse kalmıyor, her şey kendiliğinden çalışıyor.
+  soru: `Karadeniz kıyısındaki küçük bir fenerde otuz yıl bekçilik yapmış bir adamla konuştuk. Anlattığına göre lambayı her akşam kendisi yakar, sabah olunca söndürürmüş. Fener on yıl önce otomatik sisteme geçmiş; bekçilik görevi de böylece sona ermiş. Anlattıklarından dört cümle aşağıdaki tabloda verilmiştir.
 **Buna göre, bu cümlelerle ilgili aşağıdakilerden hangisi doğrudur?**`,
-  gorsel: null,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Fener bekçisinin cümlesi</th></tr><tr><td>I</td><td>Akşam karardıkça lambanın ışığı daha uzaktan görünürdü.</td></tr><tr><td>II</td><td>Fenerin camlarını silmek haftanın en yorucu işiydi.</td></tr><tr><td>III</td><td>Kıyıya vuran dalgaların sesine zamanla alıştım.</td></tr><tr><td>IV</td><td>Şimdi fenerde kimse kalmıyor, her şey kendiliğinden çalışıyor.</td></tr></table>`,
   secenekler: [
     "I. cümledeki fiilimsi, bir varlığı nitelemektedir.",
-    "II. cümledeki fiilimsi, eylemin ne zaman yapıldığını bildirmektedir.",
+    "II. cümledeki fiilimsi, eylemin zamanını bildirmektedir.",
     "III. cümlede iki fiilimsi bir arada kullanılmıştır.",
-    "IV. cümlede hiç fiilimsi kullanılmamıştır."
+    "IV. cümlede herhangi bir fiilimsi kullanılmamıştır."
   ],
   dogru: 3,
   hatalar: [
@@ -904,14 +891,9 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `İlçedeki iki yüz yıllık taş köprünün onarımıyla ilgili beş cümle aşağıda sırayla verilmiştir.
-(I) Köprü, iki yüz yıldır aynı derenin üzerinde duruyor.
-(II) Sel sularının aşındırdığı korkuluklar bu kış yıkıldı.
-(III) Ustalar, dereden çıkardıkları taşları tek tek numaraladı.
-(IV) Harç kuruyunca üstüne yeni korkuluklar takıldı.
-(V) Köprü mayıs ayında yeniden yayalara açıldı.
+  soru: `İlçedeki iki yüz yıllık taş köprünün onarımıyla ilgili beş cümle aşağıdaki tabloda sırayla verilmiştir.
 **Buna göre, bu beş cümlenin kaçında fiilimsi __kullanılmamıştır__?**`,
-  gorsel: null,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Köprü, iki yüz yıldır aynı derenin üzerinde duruyor.</td></tr><tr><td>II</td><td>Sel sularının aşındırdığı korkuluklar bu kış yıkıldı.</td></tr><tr><td>III</td><td>Ustalar, dereden çıkardıkları taşları tek tek numaraladı.</td></tr><tr><td>IV</td><td>Harç kuruyunca üstüne yeni korkuluklar takıldı.</td></tr><tr><td>V</td><td>Köprü mayıs ayında yeniden yayalara açıldı.</td></tr></table>`,
   secenekler: ["1", "2", "3", "4"],
   dogru: 1,
   hatalar: [

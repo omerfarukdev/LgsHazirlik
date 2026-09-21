@@ -160,6 +160,8 @@ Aynı soru tipi (örneğin "akışı bozan cümle") bir partide 3'ten fazla kull
 5. Dosya adını `sorular/manifest.js` listesine ekle.
 6. `node dogrula.js` çalıştır; hata ve uyarı sıfır olana kadar düzelt.
 
+**Soru yazan ajan `sorular/manifest.js` dosyasına DOKUNMAZ.** Manifesti üretimi başlatan taraf, bütün dosyalar geldikten ve doğrulandıktan sonra tek seferde günceller. (21 Eylül 2026'daki partide yazar ajanlar bu kuralı çiğneyip kendileri ekleme yaptı; zararsızdı ama doğrulanmamış dosyanın yayına girmesine yol açabilirdi.)
+
 ## DOKUNMA kuralları
 
 1. Yayımlanmış soru `id`'lerini ve `js/konular.js` içindeki konu `id`'lerini **değiştirme** (öğrencinin ilerlemesi bunlara bağlı).
