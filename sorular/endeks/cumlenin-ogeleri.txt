@@ -34,3 +34,52 @@ tur-og-003 | T.8.4.18 | z3 | k0 | Şehrin en kalabalık meydanı, akşam saatler
 tur-og-004 | T.8.4.18 | z3 | k0 | Bir okulun tiyatro topluluğu, yıl sonu oyununa hazırlanıyor. Dekor, kostüm ve ışık işlerini öğrenciler kendileri yapıyor. Buna gö… | ✓Kulüp üyeleri, sahnenin arkasına büyük bir p…
 tur-og-005 | T.8.4.18 | z4 | k0 | Bir ilçenin amatör futbol takımı, uzun bir aradan sonra şampiyon oldu. Kutlamalar bütün hafta sürdü, ilçedeki okullar da kutlamal… | ✓Yeni formaları oyunculara kulüp başkanı dağı…
 tur-og-006 | T.8.4.18 | z4 | k0 | Bir çarşının en eski dükkânlarından birinde yıllardır saat onarımı yapılıyor. Aşağıdaki cümle, bu dükkânın sahibini anlatmaktadır… | ✓Eski saatleri onaran usta / bu küçük dükkând…
+tur-og-111 | T.8.4.18 | z1 | k1 | Aşağıdaki tabloda bir mahalle fırınının sabahı dört cümleyle anlatılmıştır. Bu cümlelerin hangisinde yüklem, cümlenin ilk sözüdür? | ✓II
+tur-og-112 | T.8.4.18 | z1 | k1 | Sabahleyin kıyıdaki eski fener birden söndü. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓kıyıdaki eski fener
+tur-og-113 | T.8.4.18 | z1 | k1 | Aşağıdaki tabloda bir hayvan barınağında geçen bir gün anlatılmaktadır. Bu cümlelerin hangisinde nesne kullanılmıştır? | ✓IV
+tur-og-114 | T.8.4.18 | z1 | k1 | Genç çoban sürüsünü akşamüstü sakince otlattı. Bu cümlede aşağıdaki ögelerden hangisi kullanılmamıştır? | ✓yer tamlayıcısı
+tur-og-115 | T.8.4.18 | z1 | k1 | Küçük yelkenliler sabahleyin limandan sessizce ayrıldı. Bu cümle kaç ögeden oluşmaktadır? | ✓Beş
+tur-og-116 | T.8.4.18 | z1 | k1 | Postacı komşumuza kargoyu öğleden sonra teslim etti. Bu cümlenin yer tamlayıcısı (dolaylı tümleci) aşağıdakilerden hangisidir? | ✓komşumuza
+tur-og-117 | T.8.4.18 | z1 | k1 | Bahçıvan fideleri serada dikkatle suladı. Bu cümlenin zarf tamlayıcısı aşağıdakilerden hangisidir? | ✓dikkatle
+tur-og-118 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda karlı bir kış günü dört cümleyle anlatılmıştır. Bu cümlelerin hangisinin yüklemi bir fiil değildir? | ✓I
+tur-og-119 | T.8.4.18 | z2 | k1 | Sahilde düzenlenen uçurtma şenliğine bu yıl yüzlerce çocuk katıldı. Aşağıdaki cümlede bir söz boş bırakılmıştır: Rüzgâr, çocuklar… | ✓birden
+tur-og-120 | T.8.4.18 | z2 | k1 | Bir dağın eteğindeki meteoroloji istasyonunda iki görevli çalışıyor. Görevliler kar kalınlığını, rüzgâr hızını ve sıcaklığı her g… | ✓Küçük rüzgâr gülü direğin tepesinde döndü.
+tur-og-121 | T.8.4.18 | z2 | k1 | Okulumuzun aylık gazetesini bu yıl yedi öğrenci hazırlıyor. Ara söz, cümlede kendinden önce gelen bir sözü açıklamak için iki vir… | ✓Gazetenin kapak haberini, okul bahçesindeki …
+tur-og-122 | T.8.4.18 | z2 | k1 | Dedemin bahçesinde on beş kayısı ağacı var. Her temmuzda bütün aile hasat için köye gider. Aşağıdaki cümlelerin hangisinde iki ay… | ✓Dedem kayısıları ağaçtan sepete tek tek topl…
+tur-og-123 | T.8.4.18 | z2 | k1 | Mahallemizin terzisi, yırtılan giysileri onarıp yeniden kullanılır hâle getiriyor. Aşağıdaki cümle onun bir gününden alınmıştır: … | ✓özne – nesne – zarf tamlayıcısı – yüklem
+tur-og-124 | T.8.4.18 | z2 | k1 | Bir öğrenci, zeytin hasadıyla ilgili bir cümleyi ögelerine ayırıp aşağıdaki şemayı çizmiştir. Buna göre şemada hangi ögenin adı y… | ✓file üstüne – zarf tamlayıcısı
+tur-og-125 | T.8.4.18 | z2 | k1 | Köyümüzdeki küçük mandırada peyniri hâlâ elde yapıyoruz. Aşağıdaki cümle, mandırada tutulan günlük defterinden alınmıştır: Sabah … | ✓biz
+tur-og-211 | T.8.4.18 | z2 | k2 | Aşağıdaki tabloda bir semt pazarını anlatan dört cümle verilmiştir. Bu cümlelerin her birinde bir yer tamlayıcısı bulunmaktadır. … | ✓IV
+tur-og-212 | T.8.4.18 | z2 | k2 | Yaz aylarında orman yangınlarını erken fark etmek için tepelerdeki gözetleme kuleleri gece gündüz çalışır. Zarf tamlayıcısı; işin… | ✓Nöbetçi, yorgunluktan gözlerini bir an kapad…
+tur-og-213 | T.8.4.18 | z2 | k2 | Okulumuzun bahçesinde küçük bir kompost kutusu var; çay posalarını ve meyve kabuklarını bu kutuda toprağa dönüştürüyoruz. Aşağıda… | ✓her öğle arasında
+tur-og-214 | T.8.4.18 | z2 | k2 | Okulun bilim kulübü, ayda bir gece gözlem etkinliği düzenliyor. Türkçede vurgulanan öge, yükleme en yakın olan ögedir. Aşağıdaki … | ✓Kuyruklu yıldızı kulüp üyeleri çatıda gözled…
+tur-og-215 | T.8.4.18 | z2 | k2 | Okulumuzda dün sabah bir yangın tatbikatı yaptık. Aşağıdaki tabloda o sabahtan dört cümle verilmiş, her cümlede bir söz koyu yazı… | ✓IV
+tur-og-216 | T.8.4.18 | z2 | k2 | Okulumuzda üç gün süren bir satranç turnuvası düzenledik. Aşağıdaki cümlelerin hangisinde öge sayısı en azdır? | ✓Son maçı kazanan takım şampiyon oldu.
+tur-og-217 | T.8.4.18 | z2 | k2 | Kasabamıza iki yıl önce küçük bir kayak merkezi açıldı. Türkçede yüklem çoğunlukla sonda bulunur; yüklem başa ya da ortaya alındı… | ✓Sabahın ilk saatinde kiraladık kayakları.
+tur-og-218 | T.8.4.18 | z2 | k2 | Bir arkeolojik kazı alanında çalışan ekip, bulduğu parçaları her akşam kayıt altına alıyor. Aşağıdaki tabloda dört cümle, bu cüml… | ✓II
+tur-og-219 | T.8.4.18 | z3 | k2 | Okulumuz, ilçedeki çıplak bir tepeye fidan dikmek için gönüllü aradı. Cumartesi sabahı kırk öğrenci otobüslerle tepeye çıktı; öğl… | ✓Üç
+tur-og-220 | T.8.4.18 | z3 | k2 | Dağ köyünde arıcılık yapan bir aileyi ziyaret ettik. Dedeleri kovanları hâlâ kendi elleriyle onarıyormuş. Aşağıdaki cümle o günde… | ✓Dört
+tur-og-221 | T.8.4.18 | z3 | k2 | Akdeniz kıyısındaki bir kumsalda yaz boyunca deniz kaplumbağası yuvaları korunuyor. Gönüllüler her sabah kumsalı geziyor, yeni yu… | ✓I ve III
+tur-og-222 | T.8.4.18 | z3 | k2 | Kasabanın deresi üstündeki taş değirmen, uzun bir aradan sonra yeniden un öğütüyor. Bir öğrenci, değirmenle ilgili dört cümleyi i… | ✓III
+tur-og-223 | T.8.4.18 | z3 | k2 | Okulumuzda her yıl bir münazara yarışması yapılır; iki takım aynı konuyu karşıt görüşlerle savunur. Yer tamlayıcısı yalnızca bir … | ✓Öğretmenimiz, son sözü rakip takımın sözcüsü…
+tur-og-224 | T.8.4.18 | z3 | k2 | Bir öğrenci, havalimanında çalışan bir görevliyle ilgili cümlenin ögelerini bulmak için yükleme sorular sormuş ve aşağıdaki şemay… | ✓Ne zaman?
+tur-og-225 | T.8.4.18 | z3 | k2 | Kış akşamlarında köşe başındaki tezgâhtan bütün sokağa kestane kokusu yayılır. Aşağıdaki cümlede bir söz boş bırakılmıştır: Satıc… | ✓zarf tamlayıcısı
+tur-og-311 | T.8.4.18 | z3 | k3 | Türkçe dersinde cümlenin ögeleri işlenirken öğretmen şöyle bir ödev verdi: "Okul mutfağında geçen bir anı anlatan bir cümle kurun… | ✓Yemek kokusu, sabahleyin bütün koridora yayı…
+tur-og-312 | T.8.4.18 | z3 | k3 | Göller yöresindeki bir köyde temmuz ayında lavanta hasadı başlar. Bir öğrenci, hasatla ilgili dört cümlede vurgulanan ögeyi bulup… | ✓III
+tur-og-313 | T.8.4.18 | z3 | k3 | İlçe meydanındaki tarihî çeşme, uzun yıllar sonra yeniden onarıldı. Ara söz, kendinden önce gelen ögeyi açıklamak için iki virgül… | ✓I. cümle – belirtili nesne
+tur-og-314 | T.8.4.18 | z3 | k3 | Bir kentin boş duvarlarını renklendirmek için başlatılan projede gençler dev resimler yapıyor. Aşağıdaki cümlede iki söz boş bıra… | ✓zarf tamlayıcısı – yer tamlayıcısı
+tur-og-315 | T.8.4.18 | z3 | k3 | Tuz gölünün kıyısındaki sığ havuzlarda yazın tuz hasadı yapılır. Havuzlara alınan su güneşte buharlaşır, dipte beyaz bir tabaka k… | ✓III
+tur-og-316 | T.8.4.18 | z3 | k3 | El yapımı kâğıt üreten küçük bir atölyede eski kâğıtlar liflerine ayrılıyor, sonra yeniden kâğıda dönüşüyor. Aşağıdaki cümle dört… | ✓Elenen lifler, ince bir tülbentten yavaşça s…
+tur-og-317 | T.8.4.18 | z3 | k3 | Kentin yeni açılan buz pateni sahasında hafta sonları ücretsiz kurs veriliyor. Bir öğrenci, sahayla ilgili dört cümlenin öge sayı… | ✓II
+tur-og-318 | T.8.4.18 | z3 | k3 | Yaz gelince dağ köylerinde göç hazırlığı başlar; sürüler, çadırlar ve kap kacak yaylaya taşınır. Aşağıdaki cümlenin ögeleri sıras… | ✓Kadınlar, çadırları dere kenarına kurdu.
+tur-og-319 | T.8.4.18 | z3 | k3 | Bir köyde yıllar sonra yeniden ipek böceği yetiştirilmeye başlandı. Böcekler dut yaprağıyla besleniyor, sonra koza örüyor. Nesne,… | ✓Köyün kadınları dut yaprağı toplar.
+tur-og-320 | T.8.4.18 | z4 | k3 | Bir ilçede kurulan gıda bankası, fazla gelen ürünleri ihtiyaç sahiplerine ulaştırıyor. Depoda çalışan gönüllüler kolileri hazırlı… | ✓I ve II
+tur-og-321 | T.8.4.18 | z4 | k3 | Şehir ormanındaki koşu parkuru, sabahın erken saatlerinde kalabalık oluyor. Aşağıdaki cümlelerin her birinde "koşuculara" sözü ge… | ✓Koşuculara ayrılan şerit, bisikletlilere kap…
+tur-og-322 | T.8.4.18 | z4 | k3 | Türkçe öğretmeni, okul bandosuyla ilgili bir cümle kurmalarını istedi ve üç koşul verdi: cümlenin öznesi gizli olacak, cümlede be… | ✓Yeni davulları dün sabah depodan çıkardık.
+tur-og-323 | T.8.4.18 | z4 | k3 | Bir kasabada her yıl tohum takas şenliği yapılıyor; köylüler kendi sakladıkları tohumları birbirleriyle değiştiriyor. Aşağıdaki c… | ✓Kuraklığa dayanıklı tohumları / köyün yaşlıl…
+tur-og-324 | T.8.4.18 | z4 | k3 | Bir dağ köyünde, sel sularının yıktığı taş köprü imece usulüyle onarıldı. Köylüler taşları kendileri taşıdı, ustalar harcı gönüll… | ✓IV
+tur-og-325 | T.8.4.18 | z4 | k3 | Karla kaplanan dağ köylerinde kış hazırlığı eylülde başlar: odun yarılır, turşu kurulur, sobalar bacalarıyla birlikte elden geçir… | ✓Dedem, soğuk akşamlarda sobaya kuru çam odun…
+tur-og-007 | T.8.4.18 | z1 | k0 | Kasabanın en eski çınarını, şu kalın gövdeli ağacı, belediye koruma altına aldı. Bu cümledeki ara söz, aşağıdaki sözlerden hangis… | ✓Kasabanın en eski çınarını
+tur-og-008 | T.8.4.18 | z1 | k0 | Gemi, ilk yolcularını sisli bir sabahta limandan aldı. Bu cümlede "limandan" sözü cümlenin hangi ögesidir? | ✓yer tamlayıcısı
+tur-og-009 | T.8.4.18 | z2 | k0 | Çarşıdaki küçük kuyumcu, bozulan saatleri de onarıyor. Aşağıdaki cümle beş ögeden oluşmaktadır: Kuyumcu, tamir ettiği saatleri he… | ✓vitrine
+tur-og-010 | T.8.4.18 | z3 | k0 | Şehrin eski garında yıllardır bekleyen bir lokomotif, geçen yıl küçük bir müzeye dönüştürüldü. Ziyaretçiler hem kabine çıkabiliyo… | ✓Rehber, çocukları makinist kabinine tek tek …

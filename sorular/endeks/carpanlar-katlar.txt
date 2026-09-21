@@ -46,3 +46,42 @@ mat-ck-009 | M.8.1.1.1 | z3 | k0 | Bir simit fabrikasında sabah üretilen simit
 mat-ck-010 | M.8.1.1.3 | z3 | k0 | Ekranların en-boy oranı, genişlik ve yükseklikteki piksel sayıları sadeleştirilerek a : b biçiminde yazılır; burada a ile b arala… | ✓13
 mat-ck-011 | M.8.1.1.2 | z4 | k0 | Bir kodlama atölyesinde Defne, girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplayı… | ✓65
 mat-ck-012 | M.8.1.1.3 | z3 | k0 | Bora, bisiklet kilidinin iki basamaklı kodunu unutmamak için defterine şu iki ipucunu yazmıştır: • Kod, bir asal sayı değildir. •… | ✓91
+mat-ck-113 | M.8.1.1.1 | z1 | k1 | Aşağıdaki sayılardan hangisi 48'in pozitif tam sayı çarpanı değildir? | ✓18
+mat-ck-114 | M.8.1.1.1 | z1 | k1 | 2^{3} · 5 çarpımının değeri aşağıdakilerden hangisidir? | ✓40
+mat-ck-115 | M.8.1.1.2 | z1 | k1 | 36 ve 60 sayılarının asal çarpanlarına ayrılmış biçimleri aşağıda verilmiştir. 36 = 2^{2} · 3^{2} 60 = 2^{2} · 3 · 5 Buna göre EB… | ✓12
+mat-ck-116 | M.8.1.1.2 | z1 | k1 | Ada 6'şar 6'şar, Bora 10'ar 10'ar sayarken durdukları sayıları aşağıdaki sayı doğrusunda işaretlemiştir. İkisi de 0'dan başlamışt… | ✓30
+mat-ck-117 | M.8.1.1.3 | z1 | k1 | Aşağıdaki sayılardan hangisi 21 ile aralarında asaldır? | ✓20
+mat-ck-118 | M.8.1.1.1 | z1 | k1 | 180 sayısının kaç farklı asal çarpanı vardır? | ✓3
+mat-ck-119 | M.8.1.1.1 | z2 | k1 | Bir kodlama etkinliğinde öğrenciler 1'den 30'a kadar olan doğal sayıları aşağıdaki tabloya yazdıran bir program hazırlamıştır. Pr… | ✓10
+mat-ck-120 | M.8.1.1.1 | z2 | k1 | Bir matematik dergisindeki bulmacada bir sayının asal çarpanlarına ayrılmış biçimi yazılmış, çarpanlardan biri koyu bir kutuyla g… | ✓3^{2}
+mat-ck-121 | M.8.1.1.3 | z2 | k1 | Bir matematik öğretmeni tahtaya 24 ve 36 sayılarını yazmış ve öğrencilerden şunu istemiştir: "Bu iki sayıyı aynı doğal sayıya böl… | ✓12
+mat-ck-122 | M.8.1.1.2 | z2 | k1 | Bir hediyelik eşya mağazasının deposunda yüksekliği 12 cm olan kutularla yüksekliği 18 cm olan kutular bulunmaktadır. Vitrine, ya… | ✓5
+mat-ck-123 | M.8.1.1.2 | z2 | k1 | Bir okulun kermesinde 63 bardak limonata ve 84 adet sandviç ziyaretçilere ikram edilecektir. Her ziyaretçiye eşit sayıda limonata… | ✓21
+mat-ck-124 | M.8.1.1.2 | z2 | k1 | Ada ile Bora, kumsalda aynı noktadan aynı yöne doğru düz bir çizgide yürümeye başlamıştır. Ada'nın bir adımı 36 cm, Bora'nın bir … | ✓144
+mat-ck-125 | M.8.1.1.3 | z2 | k1 | Bir sınıf etkinliğinde üzerinde 6, 10, 21 ve 25 yazan dört taş vardır. Oyunun kuralına göre iki taş, ancak üzerlerindeki sayılar … | ✓3
+mat-ck-213 | M.8.1.1.1 | z2 | k2 | Ada bir sayı tutmuş ve arkadaşlarına ipucu olarak bu sayının asal çarpanlarına ayrılmış biçimini söylemiştir: 2^{2} · 3 · 5. Buna… | ✓6
+mat-ck-214 | M.8.1.1.1 | z2 | k2 | Bir matematik kulübü, çalıştığı sayıları aşağıdaki tabloya işlemektedir. Tabloda her sayının yanına asal çarpanlarına ayrılmış bi… | ✓200
+mat-ck-215 | M.8.1.1.2 | z2 | k2 | Bir parkın 100 metre uzunluğundaki düz yürüyüş yolunun kenarına, başlangıç noktasından itibaren her 6 metrede bir aydınlatma dire… | ✓5
+mat-ck-216 | M.8.1.1.2 | z2 | k2 | Bir atölyede üretilen 90 mavi ve 150 beyaz düğme, birbirinin aynısı kartonlara dikilecektir. Her kartonda eşit sayıda mavi, eşit … | ✓2
+mat-ck-217 | M.8.1.1.3 | z2 | k2 | Bir matematik yarışmasının hızlı turunda yarışmacılara şu soru sorulmuştur: "42 ile aralarında asal olan iki basamaklı doğal sayı… | ✓97
+mat-ck-218 | M.8.1.1.1 | z2 | k2 | Bir bilim merkezinde ziyaretçilere giriş numarası verilmektedir. Sistem, her ziyaretçinin gideceği salonu şu kuralla belirlemekte… | ✓11
+mat-ck-219 | M.8.1.1.2 | z2 | k2 | Aşağıdaki şemada A ve B doğal sayılarının asal çarpanları gösterilmiştir. Ortadaki bölgede yazan çarpanlar iki sayıda da bulunmak… | ✓420
+mat-ck-220 | M.8.1.1.1 | z3 | k2 | Bir televizyon yarışmasının "Çarpanlara Ayır" bölümünde yarışmacıya bir sayı verilir. Yarışmacı bu sayıyı, ikisi de 1'den büyük i… | ✓20
+mat-ck-221 | M.8.1.1.1 | z3 | k2 | Bir takı atölyesinde 300 boncuk vardır. Boncukların tamamı, her dizide eşit sayıda boncuk bulunacak ve hiç boncuk artmayacak biçi… | ✓75
+mat-ck-222 | M.8.1.1.2 | z3 | k2 | Bir kırtasiye deposundaki kalemler ve silgiler, her kutuda eşit sayıda kalem ve eşit sayıda silgi bulunacak biçimde kutulanmıştır… | ✓12
+mat-ck-223 | M.8.1.1.2 | z3 | k2 | Bir bisiklet tekerleğinin çemberine, jant tellerinin geçirileceği 72 delik eşit aralıklarla açılmış ve delikler 1'den 72'ye kadar… | ✓12
+mat-ck-224 | M.8.1.1.3 | z3 | k2 | Bir çerçeveci, çevresi 36 cm olan dikdörtgen biçiminde bir çerçeve yapacaktır. Çerçevenin kenar uzunlukları santimetre cinsinden … | ✓13
+mat-ck-225 | M.8.1.1.2 | z3 | k2 | Bir yazılım dersinde öğrenciler, girilen iki doğal sayının bütün ortak pozitif bölenlerini ekrana alt alta yazan bir program hazı… | ✓8
+mat-ck-313 | M.8.1.1.1 | z3 | k3 | Bir çiftlikte bir günde toplanan 252 yumurtanın tamamı viyollere yerleştirilecektir. Her viyole eşit sayıda yumurta konulacak ve … | ✓9
+mat-ck-314 | M.8.1.1.2 | z3 | k3 | Bir tesisatçı, uzunlukları görselde verilen iki plastik boruyu hiç artmayacak biçimde eşit uzunlukta parçalara ayıracaktır. Parça… | ✓7
+mat-ck-315 | M.8.1.1.2 | z3 | k3 | Bir anaokulunda 15 çocuk vardır. Öğretmen, elindeki 60 elma ile 72 mandalinayı çocuklara dağıtacaktır. Her çocuğa eşit sayıda elm… | ✓3
+mat-ck-316 | M.8.1.1.1 | z3 | k3 | Bir tiyatro salonundaki 128 koltuk, eşit sayıda koltuk içeren bloklara ayrılmıştır. Salonun krokisi aşağıda verilmiştir. Bir blok… | ✓8
+mat-ck-317 | M.8.1.1.3 | z3 | k3 | Bir okul kermesinde çekiliş yapılacaktır. Her bilete iki basamaklı bir numara verilmiştir ve hiçbir numara tekrar etmemektedir. K… | ✓3
+mat-ck-318 | M.8.1.1.2 | z3 | k3 | Bir hırdavatçıda vidalar ve dübeller yalnızca kutu hâlinde satılmaktadır. Kutulardaki ürün sayıları aşağıdaki tabloda verilmiştir… | ✓216
+mat-ck-319 | M.8.1.1.1 | z3 | k3 | Bir okul korosunda 187 şarkıcı vardır. Şarkıcılar, her sırada eşit sayıda olacak biçimde sıralar hâlinde sahneye çıkacaktır. Koro… | ✓17
+mat-ck-320 | M.8.1.1.2 | z3 | k3 | Bir kitap fuarında A yayınevinin standı 16 dakikada bir, B yayınevinin standı 24 dakikada bir okurlara hediye dağıtmaktadır. Fuar… | ✓2
+mat-ck-321 | M.8.1.1.2 | z4 | k3 | Bir okulun kitap bağışı kampanyasında 8. sınıflar 168, 7. sınıflar 252 kitap toplamıştır. Kitaplar kolilenirken şu kurallara uyul… | ✓14
+mat-ck-322 | M.8.1.1.2 | z4 | k3 | Bir bilim şenliğine iki okul katılmaktadır. A okulundan 84 öğrenci gelmiştir; B okulundan gelen öğrenci sayısı ise 100'den çok, 1… | ✓112
+mat-ck-323 | M.8.1.1.3 | z4 | k3 | Bir animasyon programında iki hareket döngüsü aynı anda başlatılıp sürekli tekrar ettirilmektedir. Birinci döngü 45 kare, ikinci … | ✓47
+mat-ck-324 | M.8.1.1.1 | z4 | k3 | Bir okulun geri dönüşüm kulübü topladığı plastik kapakları sayamamış, ancak elindeki kayıtlardan aşağıdaki panoda yazan üç bilgiy… | ✓108
+mat-ck-325 | M.8.1.1.3 | z4 | k3 | Bir yazılım dersinde Deniz, girilen iki doğal sayının en küçük ortak katını (EKOK) ekrana yazan bir program hazırlamıştır. Ders s… | ✓1
