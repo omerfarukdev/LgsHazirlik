@@ -696,16 +696,58 @@ var App = (function () {
   function paragrafHedef() { return AYAR.paragrafHedefi || 20; }
   function paragrafSet() { return AYAR.paragrafSetBoyutu || 10; }
 
+  // Paragraf turunun zorluk karması, öğrencinin son paragraf sorularındaki başarısına göre
+  // ayarlanır. Havuzun yarısından fazlası zor (düzey 3-4) olduğu için rastgele çekiş,
+  // yeni başlayan öğrenciyi ilk turda art arda en zor sorulara çarptırıyordu
+  // (20 Eylül: ilk turda 3 tane düzey 4, hiç düzey 1, sonuç %30, ertesi gün gelmedi).
+  function paragrafKarma() {
+    var sonuclar = [], gecmis = Store.get("gecmis", []);
+    for (var i = gecmis.length - 1; i >= 0 && sonuclar.length < 40; i--) {
+      var g = gecmis[i];
+      if (g.tur !== "paragraf") continue;
+      g.sorular.forEach(function (id) {
+        var q = soruBul(id);
+        if (q) sonuclar.push(g.cevap[id] === q.dogru ? 1 : 0);
+      });
+    }
+    // Yeterli veri yoksa ya da başarı düşükse ısınma karması
+    var oran = sonuclar.length >= 10 ? sonuclar.reduce(function (a, b) { return a + b; }, 0) / sonuclar.length : null;
+    if (oran === null || oran < 0.4) return { 1: .30, 2: .45, 3: .20, 4: .05 };
+    if (oran < 0.6) return { 1: .10, 2: .40, 3: .35, 4: .15 };
+    if (oran < 0.75) return { 1: .05, 2: .25, 3: .45, 4: .25 };
+    return { 1: 0, 2: .15, 3: .45, 4: .40 };
+  }
   function paragrafSorulari(adet) {
     var havuz = bank(PARAGRAF_KONU).filter(function (q) { return q.kademe === 0; });
     if (!havuz.length) return [];
     var gorulen = Store.get("gorulen", {});
-    var taze = shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }));
-    if (taze.length >= adet) return taze.slice(0, adet).map(function (q) { return q.id; });
-    // Havuz tükendiyse en eski görülenlerden tamamla (rutin hiç durmasın)
-    var eski = havuz.filter(function (q) { return gorulen[q.id]; })
-      .sort(function (a, b) { return gorulen[a.id] - gorulen[b.id]; });
-    return taze.concat(eski).slice(0, adet).map(function (q) { return q.id; });
+    var karma = paragrafKarma();
+
+    // Görülmemiş soruları zorluk kovalarına ayır
+    var kova = { 1: [], 2: [], 3: [], 4: [] };
+    shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }))
+      .forEach(function (q) { (kova[q.zorluk] || kova[2]).push(q); });
+
+    // Hedef adetler (yuvarlama farkı orta düzeye)
+    var hedef = {}, toplam = 0;
+    [1, 2, 3, 4].forEach(function (z) { hedef[z] = Math.round(adet * karma[z]); toplam += hedef[z]; });
+    hedef[2] = Math.max(0, hedef[2] + adet - toplam);
+
+    var secilen = [];
+    [1, 2, 3, 4].forEach(function (z) { secilen = secilen.concat(kova[z].splice(0, hedef[z])); });
+    // Bir düzey tükendiyse kolaya yakın düzeylerden tamamla
+    [2, 1, 3, 4].forEach(function (z) {
+      if (secilen.length < adet) secilen = secilen.concat(kova[z].splice(0, adet - secilen.length));
+    });
+    // Taze soru tükendiyse en eski görülenlerden tamamla (rutin hiç durmasın)
+    if (secilen.length < adet) {
+      var eski = havuz.filter(function (q) { return gorulen[q.id]; })
+        .sort(function (a, b) { return gorulen[a.id] - gorulen[b.id]; });
+      secilen = secilen.concat(eski.slice(0, adet - secilen.length));
+    }
+    // Tur kolaydan zora ilerler
+    secilen.sort(function (a, b) { return a.zorluk - b.zorluk; });
+    return secilen.map(function (q) { return q.id; });
   }
   // Bugün çözülen paragraf SORUSU sayısı (tur sayısı değil)
   function paragrafBugun() {
@@ -1010,14 +1052,52 @@ var App = (function () {
     html += '<div id="inceleme">' + incelemeHTML(kayit) + '</div>';
     render(html);
   }
+  // Paragraf tuzakları: çeldiriciler dört tipten üretilir (CLAUDE.md). Öğrenci aynı tuzağa
+  // bir turda birden çok kez düştüyse tek tek sorulardan daha değerli bir ders vardır;
+  // tur sonunda toplu gösterilir ve nasıl kaçınılacağı söylenir.
+  var TUZAK = [
+    { ara: /ilgisiz/, ad: "Metinde geçiyor ama soruya cevap vermiyor",
+      ipucu: "Bir şık metinde geçiyor diye doğru değildir. Önce sorunun ne istediğini bul: ana düşünce mi, değinilmeyen mi, başlık mı? Sonra şıkkın <strong>tam o soruya</strong> cevap verip vermediğine bak." },
+    { ara: /ters|yön/, ad: "Neden ile sonucu ters çevirme",
+      ipucu: "Şıkta <strong>çünkü, bu yüzden, sayesinde, sonucunda</strong> gibi bir bağ varsa metne dön ve okun hangi yöne gittiğine bak: A mı B'ye yol açıyor, B mi A'ya?" },
+    { ara: /genelleme/, ad: "Aşırı genelleme",
+      ipucu: "Metin \"bazen\" diyorsa şık \"her zaman\" diyemez. Şıkta <strong>her, hiç, yalnızca, en, kesinlikle</strong> gibi sözcükler gördüğünde metinde karşılığını ara." },
+    { ara: /kısmen/, ad: "Kısmen doğru şık",
+      ipucu: "Şıkkın yarısı metne uyabilir; ama cümlenin <strong>tamamı</strong> uymalı. Şıkkı virgüllerden bölüp her parçayı ayrı ayrı metinde doğrula." }
+  ];
+  function tuzakOzeti(kayit) {
+    var say = {};
+    kayit.sorular.forEach(function (id) {
+      var q = soruBul(id), c = kayit.cevap[id];
+      if (!q || c === undefined || c === q.dogru || !q.hatalar || !q.hatalar[c]) return;
+      var etiket = q.hatalar[c].split(":")[0].replace(/\*\*/g, "").toLocaleLowerCase("tr-TR");
+      for (var i = 0; i < TUZAK.length; i++) {
+        if (TUZAK[i].ara.test(etiket)) { say[i] = (say[i] || 0) + 1; break; }
+      }
+    });
+    var liste = Object.keys(say).filter(function (i) { return say[i] >= 2; })
+      .sort(function (a, b) { return say[b] - say[a]; });
+    if (!liste.length) return "";
+    return '<div class="kart tuzak-kart"><h3>Bu turda en çok düştüğün tuzak' + (liste.length > 1 ? "lar" : "") + '</h3>' +
+      liste.map(function (i) {
+        return '<div class="tuzak"><div class="tuzak-ust"><strong>' + TUZAK[i].ad + '</strong>' +
+          '<span class="tuzak-say">' + say[i] + ' kez</span></div><p>' + TUZAK[i].ipucu + '</p></div>';
+      }).join("") + '</div>';
+  }
+
   // Tekrar testinin sonucu: konu/kademe yoktur, sorular karışık gelir
   function tekrarSonucu(kayit, n) {
     var pg = kayit.tur === "paragraf";
     var sinif = oranSinif(kayit.oran);
+    // Düşük sonuçta "acele ettin" demeden önce süreye bak: öğrenci hedef süreyi büyük ölçüde
+    // kullandıysa sorun hız değildir, yanlış teşhis haksızlık olur.
+    var aceleEtti = kayit.hedefSure ? kayit.sure < kayit.hedefSure * 0.6 : false;
     var mesaj = pg
       ? (sinif === "iyi" ? "Okuduğunu iyi çözümlüyorsun. Bu rutini her gün sürdür."
         : sinif === "orta" ? "Fena değil. Yanlışlarını okurken metnin neresini atladığına dikkat et."
-        : "Acele etmiş olabilirsin. Çözümleri okurken metne geri dön ve cevabın hangi cümlede saklı olduğunu bul.")
+        : aceleEtti
+          ? "Acele etmiş olabilirsin. Çözümleri okurken metne geri dön ve cevabın hangi cümlede saklı olduğunu bul."
+          : "Zorlandığın bir tur oldu, sorun değil. Paragraf, tuzakları tanıdıkça hızla gelişen bir beceri. Aşağıda en çok düştüğün tuzaklara bak.")
       : (sinif === "iyi" ? "Eski konular akılda kalmış. Böyle devam."
         : sinif === "orta" ? "Fena değil. Yanlışlarının çözümünü incele, bunlar birkaç gün sonra yine karşına çıkacak."
         : "Unutmaya başladığın konular var. Aşağıdaki çözümleri dikkatle oku; bu sorular yeniden gelecek.");
@@ -1034,6 +1114,8 @@ var App = (function () {
       ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
       '<div class="sonuc-btn">' + (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
       '<button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
+
+    if (pg) html += tuzakOzeti(kayit);
 
     html += '<div class="filtre">' + filtreBtn("hepsi", "Hepsi (" + n + ")", kayit.ts) +
       filtreBtn("yanlis", "Yanlışlar (" + kayit.y + ")", kayit.ts) +
@@ -1355,6 +1437,6 @@ var App = (function () {
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
     tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
-    bicim: bicim, ikon: ikon, _ufuk: ufukSVG
+    bicim: bicim, ikon: ikon, _ufuk: ufukSVG, _paragrafSorulari: paragrafSorulari
   };
 })();

@@ -406,6 +406,16 @@ sup, sub { font-size: .72em; line-height: 0; }
 .halka.zayif { color: var(--zayif); }
 @media (max-width: 600px) { .sonuc-kart { flex-direction: column; } }
 
+.tuzak-kart {
+  max-width: 980px; margin: 0 auto 18px; padding: 18px 22px;
+  border-left: 5px solid var(--vurgu2); background: color-mix(in srgb, var(--vurgu2) 7%, var(--kart));
+}
+.tuzak-kart h3 { margin-bottom: 12px; }
+.tuzak + .tuzak { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--cizgi); }
+.tuzak-ust { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 6px; }
+.tuzak-say { font-size: .78rem; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: var(--orta-acik); color: var(--orta); white-space: nowrap; }
+.tuzak p { margin: 0; line-height: 1.6; }
+
 .filtre { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
 .inceleme { border-left: 5px solid var(--cizgi); }
 .inceleme.dogru { border-left-color: var(--iyi); }
