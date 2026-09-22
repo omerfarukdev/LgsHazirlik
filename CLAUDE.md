@@ -14,6 +14,7 @@
 - Yarım kalan test (`lgs_aktif`) de bulut yedeğine girer ve panelde "Yarım kalan test" olarak görünür. Öğrenci "Testi bitir"e basmadan çıkabilir; çözdükleri kaybolmamalı, panelden görünmelidir.
 - `dogrula.js`: `node dogrula.js` şema, id çakışması, kopya ve şık dengesi kontrolü yapar.
 - Öğrencinin verisi tarayıcıda (localStorage, `lgs_` öneki) durur; depoda kişisel veri YOKTUR.
+- **Cevaplanmayan soru tüketilmez.** `lgs_gorulen` defterine yalnızca öğrencinin gerçekten işaretlediği sorular yazılır; boş geçtiği ya da hiç açmadığı soru havuzda taze kalır ve ileride yine karşısına çıkar.
 - `planlama/`: plan, araştırma raporları ve resmi kaynaklar (`kaynaklar/` altında MEB öğretim programları, 2026 kılavuzu ve 2026 soru kitapçıkları). `kaynaklar/` yalnızca yereldir, depoya girmez (.gitignore); klasör yoksa belgeler `arastirma-mufredat.md` içindeki MEB adreslerinden yeniden indirilir.
 
 ## Müfredat kuralları (kritik)

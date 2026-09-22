@@ -1033,7 +1033,8 @@ var App = (function () {
     var bos = S.sorular.length - Object.keys(S.cevap).length;
     var isaretli = Object.keys(S.isaret).length;
     var mesaj = bos
-      ? "<strong>" + bos + " soru boş.</strong> Boş bırakmak yanlış yapmaktan iyidir, ama önce bir daha bakmak ister misin?"
+      ? "<strong>" + bos + " soru boş.</strong> Boş bırakmak yanlış yapmaktan iyidir, ama önce bir daha bakmak ister misin?" +
+        " Cevaplamadığın sorular havuzda kalır, ileride yine karşına çıkar."
       : "Bütün soruları işaretledin.";
     if (isaretli) mesaj += "<br>“Sonra bak” dediğin " + isaretli + " soru var.";
     modal('<h3>Test bitirilsin mi?</h3><p>' + mesaj + '</p><div class="modal-btn">' +
@@ -1085,10 +1086,9 @@ var App = (function () {
 
     // Görülen sorular (tekrar testi aynı soruyu iki kez sormasın diye)
     var gorulen = Store.get("gorulen", {});
-    // Yarıda bırakılan testte hiç açılmamış soru "görüldü" sayılmaz; havuza geri döner
-    S.sorular.forEach(function (id) {
-      if (!yarim || S.cevap[id] !== undefined || S.sureSoru[id]) gorulen[id] = kayit.ts;
-    });
+    // YALNIZCA cevaplanan soru "görüldü" sayılır. İşaretlemeden geçtiği ya da hiç açmadığı soru
+    // havuzda taze kalır ve ileride yine karşısına çıkar; yoksa okumadığı sorular sessizce tükenirdi.
+    S.sorular.forEach(function (id) { if (S.cevap[id] !== undefined) gorulen[id] = kayit.ts; });
     Store.set("gorulen", gorulen);
 
     var tum = Store.get("konuDurum", {});
@@ -1581,7 +1581,22 @@ var App = (function () {
     if (e.key === "ArrowRight") ileri(1);
     if (e.key === "ArrowLeft") ileri(-1);
   }
+  // Göç (22 Eylül 2026): "görüldü" defteri eskiden testteki BÜTÜN soruları işaretliyordu; öğrencinin
+  // hiç açmadığı ya da boş geçtiği sorular da tükenmiş sayılıyor, havuza bir daha dönmüyordu.
+  // Defteri geçmişten yeniden kuruyoruz: yalnızca gerçekten cevaplanan sorular görülmüş sayılır.
+  function gorulenGoc() {
+    if (Store.get("gorulenSurum", 1) >= 2) return;
+    var yeni = {};
+    Store.get("gecmis", []).forEach(function (g) {
+      (g.sorular || []).forEach(function (id) {
+        if (g.cevap && g.cevap[id] !== undefined) yeni[id] = Math.max(yeni[id] || 0, g.ts);
+      });
+    });
+    Store.set("gorulen", yeni);
+    Store.set("gorulenSurum", 2);
+  }
   function init() {
+    gorulenGoc();
     window.addEventListener("hashchange", yonlendir);
     document.addEventListener("keydown", klavye);
     window.addEventListener("beforeunload", zamanlayiciDurdur);
