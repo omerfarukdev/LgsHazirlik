@@ -69,13 +69,13 @@ mat-ui-219 | M.8.1.2.1 | z2 | k2 | Bir sınav sonrası öğretmen, iki öğrenci
 mat-ui-220 | M.8.1.2.3 | z3 | k2 | Bir kuyumcuda tartılan takıların kütlesi, müşteri basamakları görebilsin diye fişe çözümlenmiş biçimde yazılmaktadır. Bir gümüş z… | ✓6,85
 mat-ui-221 | M.8.1.2.4 | z3 | k2 | Bir okulun yardım kampanyasında toplanan tutar 7,2 · 10^{5} TL'dir. Kampanya panosunu hazırlayan görevli bu tutarı yazarken virgü… | ✓10
 mat-ui-222 | M.8.1.2.5 | z3 | k2 | Bir barajın su miktarı her ayın başında ölçülüp bir tabloya yazılmaktadır. Nisan ve mayıs aylarının başındaki ölçümler aşağıda ve… | ✓2,2 · 10^{5}
-mat-ui-223 | M.8.1.2.1 | z3 | k2 | Bir sınıfın matematik panosunda her hafta bir işlem asılmakta ve doğru sonucu bulan öğrencilerin adı panoya yazılmaktadır. Bu haf… | ✓−2
+mat-ui-223 | M.8.1.2.1 | z3 | k2 | Bir okulun matematik kulübü, koridorda küçük bir kaçış oyunu kurmuştur. Oyunda kilitli kutuyu açmak için kutunun kapağına yazılan… | ✓−36
 mat-ui-224 | M.8.1.2.2 | z3 | k2 | Bir seramik atölyesinde sır karışımı hazırlanmaktadır. Karışım için A bileşeninden 2^{5} mL, B bileşeninden 2^{3} mL alınıp iyice… | ✓10
-mat-ui-225 | M.8.1.2.4 | z3 | k2 | Bir belediyenin yıllık raporunda bütün tutarlar, sayfalar sade görünsün diye 10^{9} TL (milyar TL) biriminde yazılmaktadır. Bu yı… | ✓0,0032
+mat-ui-225 | M.8.1.2.4 | z3 | k2 | Bir arıcılık araştırmasında güçlü bir arı kolonisinin bir mevsim boyunca ziyaret ettiği çiçek sayısı 7,5 · 10^{7} olarak hesaplan… | ✓7500 · 10^{3}
 mat-ui-313 | M.8.1.2.1 | z3 | k3 | Bir metal atölyesinde geniş bir alüminyum levha, bir makineyle turlar hâlinde küçültülmektedir. Makine her turda elindeki bütün p… | ✓5
 mat-ui-314 | M.8.1.2.2 | z3 | k3 | Bir çevrim içi oyunda karakterlerin güç değerleri, oyuncular karşılaştırma yapabilsin diye üslü ifadelerle gösterilmektedir. İki … | ✓6
 mat-ui-315 | M.8.1.2.3 | z3 | k3 | Bir fen laboratuvarında dört öğrenci, aynı maddeden hazırladıkları örnekleri ayrı ayrı tartmıştır. Öğretmen, basamak değerlerini … | ✓Bora
-mat-ui-316 | M.8.1.2.4 | z3 | k3 | Bir kargo şirketinin dört şubesi, bir yılda işlem gören gönderi sayısını giriş panolarına yazmıştır. Şubeler bu sayıları yazarken… | ✓L şubesi
+mat-ui-316 | M.8.1.2.4 | z3 | k3 | Bir kitap fuarını açılış günü 3,2 · 10^{4} kişi ziyaret etmiştir. On gün açık kalan fuarın tamamında gelen ziyaretçi sayısı, açıl… | ✓3
 mat-ui-317 | M.8.1.2.5 | z3 | k3 | Bir matbaada kullanılan baskı kâğıdı paketlerinin her birinde 5 · 10^{2} yaprak bulunmaktadır ve bir paketin kalınlığı 5 · 10^{1}… | ✓10^{-4}
 mat-ui-318 | M.8.1.2.3 | z3 | k3 | Bir öğrenci, ödevinde bir tartım sonucu olan 205,07 sayısını 10'un tam sayı kuvvetleriyle çözümlemiştir. Öğrencinin defterine yaz… | ✓7 · 10^{-1} yerine 7 · 10^{-2} yazmalı
 mat-ui-319 | M.8.1.2.5 | z3 | k3 | Bir müzik atölyesinde gitar tellerinin kalınlığı, tellerin geldiği kutulara farklı birimlerle yazılmıştır. Atölyedeki dört telin … | ✓La teli
@@ -85,11 +85,11 @@ mat-ui-322 | M.8.1.2.2 | z4 | k3 | Bir bilim şenliğinde üç takım, etkinlikl
 mat-ui-323 | M.8.1.2.3 | z4 | k3 | Bir kargo firmasında paketler tartıldığında terazinin ekranında kütle, çözümlenmiş biçimde görünmektedir. Firmanın kuralına göre … | ✓K ve L
 mat-ui-324 | M.8.1.2.4 | z4 | k3 | Bir su arıtma tesisi her gün aynı miktarda, günde 4,8 · 10^{5} litre suyu arıtmaktadır. Arıtılan su, tesisin yanındaki 6 · 10^{2}… | ✓5
 mat-ui-325 | M.8.1.2.1 | z4 | k3 | Bir matematik kulübünün duvarına dört ifade kartı asılmıştır. Kartlar, üzerlerindeki ifadelerin değerine göre soldan sağa küçükte… | ✓(−2)^{3}, 2^{-3}, (−2)^{-2}, 2^{0}
-mat-ui-013 | M.8.1.2.4 | z1 | k0 | Bir yayınevi, yeni çıkan kitabından 5 · 10^{3} adet bastığını duyurmuştur. Buna göre aşağıdakilerden hangisi basılan kitap sayısı… | ✓50 · 10^{2}
+mat-ui-013 | M.8.1.2.4 | z1 | k0 | 6 · 10^{5} = - - - - · 10^{3} eşitliğinde boş bırakılan yere aşağıdakilerden hangisi yazılmalıdır? | ✓600
 mat-ui-014 | M.8.1.2.1 | z2 | k0 | (−2)^{4} · (−1)^{7} işleminin sonucu kaçtır? | ✓−16
 mat-ui-015 | M.8.1.2.3 | z2 | k0 | Bir teknik resim dersinde çizilen bir parçanın kalınlığı 0,507 metre ölçülmüştür. Buna göre bu sayının 10'un tam sayı kuvvetleriy… | ✓5 · 10^{-1} + 7 · 10^{-3}
 mat-ui-016 | M.8.1.2.5 | z2 | k0 | Bir çalışmada bir kum tanesinin kütlesi 8 · 10^{-3} gram olarak alınmıştır. Buna göre bir kum tanesinin kütlesinin ondalık göster… | ✓0,008
-mat-ui-017 | M.8.1.2.2 | z3 | k0 | Bir bilgisayar oyununda karakterin bölüm sonundaki gücü, üç aşamadaki değerler kullanılarak 2^{5} · 2^{-3} ÷ 2^{-2} işlemiyle hes… | ✓2^{4}
+mat-ui-017 | M.8.1.2.2 | z3 | k0 | Bir fotoğraf kulübünde gece çekimleri yapılmaktadır. Kulüp üyesi Eda, birinci çekimde makinesinin poz süresini 2^{5} saniye olara… | ✓2^{4}
 mat-ui-018 | M.8.1.2.5 | z3 | k0 | Bir nakliye firmasının kamyonu en fazla 2,4 · 10^{4} kilogram yük taşıyabilmektedir. Taşınacak kolilerin hepsi aynı olup her biri… | ✓300
 mat-ui-019 | M.8.1.2.2 | z4 | k0 | Bir matematik yarışmasında öğrencilerden, 3^{a} · 9^{b} çarpımının 3^{10} sayısına eşit olmasını sağlayan a ve b pozitif tam sayı… | ✓4
-mat-ui-020 | M.8.1.2.3 | z4 | k0 | Bir laboratuvar cihazı ölçtüğü değeri, basamaklar görünsün diye çözümlenmiş biçimde kaydetmektedir. Cihazın kaydettiği değer 4 · … | ✓4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}
+mat-ui-020 | M.8.1.2.3 | z4 | k0 | Bir yüzme kulübünde sporcuların 50 metre serbest stil dereceleri, elektronik saatle saniyenin yüzde biri hassasiyetinde ölçülmekt… | ✓2 · 10^{1} + 9 · 10^{0} + 5 · 10^{-2}

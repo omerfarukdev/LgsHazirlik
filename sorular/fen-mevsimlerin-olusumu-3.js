@@ -36,7 +36,7 @@ Cevap B.`
   kademe: 1,
   zorluk: 1,
   soru: "Aşağıdaki şemada 21 Mart tarihinde Güneş ışınlarının Dünya'ya düşme durumu gösterilmiştir.\n**Buna göre bu tarih için aşağıdakilerden hangisi doğrudur?**",
-  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="21 Mart'ta Güneş ışınları Ekvator'a dik düşerken Dünya'nın aydınlık ve karanlık yarısı"><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="30" y1="80" x2="278" y2="80"/><line x1="30" y1="130" x2="278" y2="130"/><line x1="30" y1="180" x2="278" y2="180"/></g><g fill="var(--vurgu)"><polygon points="278,80 266,74 266,86"/><polygon points="278,130 266,124 266,136"/><polygon points="278,180 266,174 266,186"/></g><circle cx="368" cy="130" r="72" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><path d="M368 58 A 72 72 0 0 1 368 202 Z" fill="currentColor" opacity="0.22"/><line x1="368" y1="52" x2="368" y2="208" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/><line x1="296" y1="130" x2="440" y2="130" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/><line x1="397" y1="63" x2="339" y2="197" stroke="var(--vurgu2)" stroke-width="3"/><g fill="currentColor" font-size="15"><text x="30" y="40" font-weight="bold">Güneş ışınları</text><text x="36" y="212">21 Mart</text><text x="446" y="76">Kuzey</text><text x="446" y="96">Yarım Küre</text><text x="446" y="136">Ekvator</text><text x="446" y="178">Güney</text><text x="446" y="198">Yarım Küre</text><text x="318" y="238" text-anchor="middle">Aydınlık yarı</text><text x="418" y="238" text-anchor="middle">Karanlık yarı</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 540 260" role="img" aria-label="21 Mart'ta Güneş ışınları Ekvator'a dik düşerken dönme ekseni aydınlık ile karanlık yarının sınırı üzerinde"><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="30" y1="80" x2="278" y2="80"/><line x1="30" y1="130" x2="278" y2="130"/><line x1="30" y1="180" x2="278" y2="180"/></g><g fill="var(--vurgu)"><polygon points="278,80 266,74 266,86"/><polygon points="278,130 266,124 266,136"/><polygon points="278,180 266,174 266,186"/></g><circle cx="368" cy="130" r="72" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><path d="M368 58 A 72 72 0 0 1 368 202 Z" fill="currentColor" opacity="0.22"/><line x1="296" y1="130" x2="440" y2="130" stroke="currentColor" stroke-width="2" stroke-dasharray="6 4"/><line x1="368" y1="46" x2="368" y2="214" stroke="var(--vurgu2)" stroke-width="3"/><g fill="currentColor" font-size="15"><text x="30" y="40" font-weight="bold">Güneş ışınları</text><text x="368" y="36" text-anchor="middle">Dönme ekseni</text><text x="36" y="212">21 Mart</text><text x="446" y="76">Kuzey</text><text x="446" y="96">Yarım Küre</text><text x="446" y="136">Ekvator</text><text x="446" y="178">Güney</text><text x="446" y="198">Yarım Küre</text><text x="318" y="238" text-anchor="middle">Aydınlık yarı</text><text x="418" y="238" text-anchor="middle">Karanlık yarı</text></g></svg>`,
   secenekler: [
     "Kuzey Yarım Küre ışınları daha dik alır, orada yaz mevsimi başlar.",
     "Güney Yarım Küre ışınları daha dik alır, orada yaz mevsimi başlar.",
@@ -45,17 +45,18 @@ Cevap B.`
   ],
   dogru: 2,
   hatalar: [
-    "Mart ayını doğrudan Kuzey Yarım Küre'nin yazıyla eşleştirme: şemada ışınlar bir yarım küreye değil, tam Ekvator'a dik düşüyor.",
-    "Şemayı ters okuma: ışınların dik geldiği çizgi Ekvator'dur; bu tarihte hiçbir yarım küre diğerinden daha dik ışın almaz.",
+    "Mart ayını doğrudan Kuzey Yarım Küre'nin yazıyla eşleştirme: şemada eksenin kuzey ucu Güneş'e doğru eğik değildir, ışınlar tam Ekvator'a dik düşüyor.",
+    "Ekseni bir yarım küre lehine eğik sanma: şemada eksen aydınlık ile karanlık yarının sınırı üzerindedir; hiçbir kutup Güneş'e doğru ya da Güneş'ten uzağa eğik değildir.",
     null,
     "Eşit açıyı \"her yerde yaz\" diye yorumlama: ışınların bir yarım küreye en dik geldiği tarihler 21 Haziran ve 21 Aralık'tır, 21 Mart değildir."
   ],
-  aciklama: `Bir yarım kürede yaz yaşanması için o yarım kürenin ışınları diğerinden daha dik açıyla alması gerekir.
+  aciklama: `Bir yarım kürede yaz yaşanması için o yarım kürenin ışınları diğerinden daha dik açıyla alması gerekir. Bu da ancak o yarım kürenin kutbu Güneş'e doğru eğikken olur.
 Adım 1: Şemadaki ışın oklarına bak. Oklar Ekvator'a dik gelmektedir; yani en dik ışınları alan yer Ekvator'dur.
-Adım 2: Ekvator ortada olduğuna göre Kuzey ve Güney Yarım Küre ışınları tam olarak aynı açıyla alır. Hiçbiri diğerinden avantajlı değildir.
-Adım 3: Kesikli çizgiyle ayrılan aydınlık ve karanlık yarılara bak. Bu çizgi iki kutuptan da geçtiği için her iki yarım kürenin yarısı aydınlık, yarısı karanlıktır. Bu da gece ile gündüzün eşit olması demektir.
-Adım 4: Öyleyse 21 Mart'ta iki yarım küre ışınları eşit açıyla alır ve gece ile gündüz eşit olur.
-Sağlama: 23 Eylül'de de aynı durum yaşanır. Bu iki tarih, yaz ile kış arasındaki geçiş noktalarıdır.
+Adım 2: Dönme eksenine bak. Eksen, aydınlık yarı ile karanlık yarıyı ayıran sınırın tam üzerindedir. Eksen yine eğiktir, ama bu tarihte ne Güneş'e doğru ne de Güneş'ten uzağa eğilir; eğiklik yana doğrudur. Bu yüzden şemada dik bir çizgi gibi görünür.
+Adım 3: Hiçbir kutup Güneş'e dönük olmadığı için Kuzey ve Güney Yarım Küre ışınları aynı açıyla alır. Aydınlık ile karanlığın sınırı iki kutuptan da geçtiği için her yerin yarısı aydınlık, yarısı karanlıktır. Bu da gece ile gündüzün eşit olması demektir.
+Adım 4: En güçlü çeldirici A şıkkıdır: "Mart geldi, kuzeyde yaz başlıyor." diye düşünmek kolaydır. Oysa kuzeyde 21 Mart'ta yaz değil, ilkbahar başlar; yaz, eksenin kuzey ucu Güneş'e dönük olduğu 21 Haziran'da başlar.
+Adım 5: Öyleyse 21 Mart'ta iki yarım küre ışınları eşit açıyla alır ve gece ile gündüz eşit olur.
+Sık yapılan hata: Eksenin eğikliğinin 21 Mart'ta ortadan kalktığını sanmak. Eğiklik hiç değişmez; değişen, eksenin Güneş'e göre hangi yöne baktığıdır. 23 Eylül'de de aynı durum yaşanır.
 Cevap C.`
 },
 {
@@ -176,25 +177,26 @@ Cevap C.`
   kademe: 1,
   zorluk: 2,
   soru: `Bir öğrenci, yurt dışındaki bir okulla yaptığı yazışmada iki ülkenin okul takvimini karşılaştırmış ve yaz tatili aylarını aşağıdaki tabloya yazmıştır.
-I. Yeni Zelanda'da yaz tatili aralıkta başladığına göre orada aralık ayı kış mevsimidir.
+I. Türkiye'de okullar yaz tatilindeyken Yeni Zelanda'da gündüzler gecelerden uzundur.
 II. Aynı tarihte iki ülkede karşıt mevsimler yaşanmaktadır.
 III. Temmuzda Türkiye'ye düşen Güneş ışınlarının açısı, Yeni Zelanda'ya düşenlerden daha diktir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<table class="tablo"><tr><th>Ülke</th><th>Bulunduğu yarım küre</th><th>Okulların yaz tatili</th></tr><tr><td>Türkiye</td><td>Kuzey</td><td>Haziran – Ağustos</td></tr><tr><td>Yeni Zelanda</td><td>Güney</td><td>Aralık – Şubat</td></tr></table>`,
-  secenekler: ["Yalnız I", "I ve II", "I ve III", "II ve III"],
+  secenekler: ["Yalnız II", "Yalnız III", "I ve II", "II ve III"],
   dogru: 3,
   hatalar: [
-    "I. yargıyı doğru sayma: yaz tatili yaz mevsiminde yapılır; Yeni Zelanda'da aralık ayı kış değil, yazdır.",
-    "I. yargıyı doğru sayıp III'ü atlama: aralık ayının kış olduğu ülke Türkiye'dir, Yeni Zelanda değildir.",
-    "II. yargıyı atlayıp I'i doğru sayma: tablodaki tek fark, aynı aylarda karşıt mevsimlerin yaşanmasıdır.",
+    "III. yargıyı yanlış sayma: temmuzda yaz yaşayan ülke Türkiye'dir; yaz yaşanan yerde ışınlar daha dik düşer.",
+    "II. yargıyı yanlış sayma: Türkiye'nin yaz tatilindeki aylarda Yeni Zelanda kıştadır; aynı tarihte iki ülkede karşıt mevsimler yaşanır.",
+    "I. yargıyı doğru sayıp III'ü atlama: haziran–ağustosta Yeni Zelanda'da kış yaşanır; kışın gündüzler gecelerden kısadır.",
     null
   ],
-  aciklama: `Okulların yaz tatili, adından da anlaşılacağı gibi o ülkede yaz mevsiminin yaşandığı aylarda yapılır.
-Adım 1: I. yargıyı kontrol et. Tabloya göre Yeni Zelanda'da yaz tatili aralıkta başlar. Öyleyse orada aralık ayı yazdır, kış değildir. I. yargı yanlıştır.
-Adım 2: II. yargıyı kontrol et. Türkiye haziran–ağustosta, Yeni Zelanda aralık–şubatta yaz yaşıyor. Aynı ayda biri yaz, öteki kış mevsimindedir; yani mevsimler karşıttır. Doğrudur.
-Adım 3: III. yargıyı kontrol et. Temmuzda yaz yaşayan ülke Türkiye'dir. Yaz, ışınların en dik geldiği mevsimdir. Öyleyse temmuzda Türkiye'ye düşen ışınlar daha diktir. Doğrudur.
-Adım 4: Doğru yargılar II ve III'tür.
-Sağlama: Eksen eğikliği nedeniyle bir yarım küre Güneş'e dönükken diğeri ondan uzaklaşmıştır; bu yüzden iki yarım kürede hiçbir zaman aynı mevsim yaşanmaz.
+  aciklama: `Okulların yaz tatili, adından da anlaşılacağı gibi o ülkede yaz mevsiminin yaşandığı aylarda yapılır. Bir yerde yaz yaşanırken gündüzler gecelerden uzun, kış yaşanırken kısadır.
+Adım 1: Tabloyu oku. Türkiye'de yaz haziran–ağustos, Yeni Zelanda'da aralık–şubat aylarındadır.
+Adım 2: I. yargıyı kontrol et. Türkiye'de okullar haziran–ağustosta tatildedir. Bu aylarda Yeni Zelanda'da yaz değil kış yaşanır; kışın gündüzler gecelerden kısadır. Yanlıştır.
+Adım 3: II. yargıyı kontrol et. Aynı ayda biri yaz, öteki kış mevsimindedir; yani mevsimler karşıttır. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Temmuzda yaz yaşayan ülke Türkiye'dir. Yaz, ışınların en dik geldiği mevsimdir. Öyleyse temmuzda Türkiye'ye düşen ışınlar daha diktir. Doğrudur.
+Adım 5: Doğru yargılar II ve III'tür. En güçlü çeldirici "I ve II" şıkkıdır: I. yargıdaki "yaz tatili" sözcüğü, öğrenciyi Yeni Zelanda'da da yaz yaşandığını düşünmeye iter. Oysa tatil Türkiye'nin tatilidir; o aylarda Yeni Zelanda kıştadır.
+Sık yapılan hata: Bir ülkenin takvimini öteki ülkeye taşımak. Eksen eğikliği nedeniyle bir yarım küre Güneş'e dönükken diğeri ondan uzaktadır; iki yarım kürede hiçbir zaman aynı mevsim yaşanmaz.
 Cevap D.`
 },
 {
@@ -233,14 +235,14 @@ Cevap B.`
   soru: `Kuzey Yarım Küre'deki bir kasabada sokak lambaları, hava kararınca kendiliğinden yanıp aydınlanınca sönmektedir. Belediye, lambaların dört ayda bir gecede yanık kaldığı ortalama süreyi tabloya kaydetmiştir.
 I. Ocakta bu kasabada gündüz süresi temmuzdakinden kısadır.
 II. Temmuzda Güneş ışınları kasabaya, tablodaki aylar içinde en dik açıyla düşer.
-III. Nisan ile ekimde gündüz süreleri birbirine yakındır.
+III. Nisanda gündüz süresi ekimdekinden uzundur.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<table class="tablo"><tr><th>Ay</th><th>Lambaların bir gecede yanık kaldığı süre</th></tr><tr><td>Ocak</td><td>14 saat 30 dakika</td></tr><tr><td>Nisan</td><td>11 saat 20 dakika</td></tr><tr><td>Temmuz</td><td>9 saat 10 dakika</td></tr><tr><td>Ekim</td><td>12 saat 10 dakika</td></tr></table>`,
   secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
   dogru: 3,
   hatalar: [
-    "II ve III'ü atlama: en kısa gece temmuzdadır, bu da ışınların o ay en dik geldiğini gösterir.",
-    "III. yargıyı yanlış sayma: nisan 11 saat 20 dakika, ekim 12 saat 10 dakika; aradaki fark bir saatin altındadır.",
+    "II ve III'ü atlama: en kısa gece temmuzdadır, bu da ışınların o ay en dik geldiğini gösterir; nisanın gecesi de ekiminkinden kısadır.",
+    "Lamba süresini gündüz süresi sanma: lambalar ekimde daha uzun yandığına göre ekimde uzun olan gecedir; gündüzü uzun olan ay nisandır.",
     "I. yargıyı yanlış sayma: ocakta lambalar 14 saat 30 dakika yanmıştır; gece en uzun, gündüz en kısadır.",
     null
   ],
@@ -248,9 +250,9 @@ III. Nisan ile ekimde gündüz süreleri birbirine yakındır.
 Adım 1: Tabloyu gündüz süresine çevir. Ocak: 24 − 14 saat 30 dakika = 9 saat 30 dakika. Nisan: 12 saat 40 dakika. Temmuz: 14 saat 50 dakika. Ekim: 11 saat 50 dakika.
 Adım 2: I. yargıyı kontrol et. Ocakta gündüz 9 saat 30 dakika, temmuzda 14 saat 50 dakikadır. Ocaktaki gündüz daha kısadır. Doğrudur.
 Adım 3: II. yargıyı kontrol et. Tablodaki aylar içinde gündüzün en uzun olduğu ay temmuzdur. Gündüz uzadıkça ışınların düşme açısı da büyür. Öyleyse bu aylar içinde ışınlar en dik açıyla temmuzda düşer. Doğrudur.
-Adım 4: III. yargıyı kontrol et. Nisanda gündüz 12 saat 40 dakika, ekimde 11 saat 50 dakikadır. Aradaki fark 50 dakikadır; süreler birbirine yakındır. Doğrudur.
-Adım 5: Üç yargı da doğrudur.
-Sağlama: Nisan ile ekim, 21 Haziran ile 21 Aralık arasındaki geçiş aylarıdır; bu yüzden değerleri birbirine yakın çıkar.
+Adım 4: III. yargıyı kontrol et. Nisanda gündüz 12 saat 40 dakika, ekimde 11 saat 50 dakikadır. Nisandaki gündüz 50 dakika daha uzundur. Doğrudur.
+Adım 5: Üç yargı da doğrudur. En güçlü çeldirici "I ve II" şıkkıdır: tabloda ekimin sayısı (12 saat 10 dakika) nisanınkinden (11 saat 20 dakika) büyük olduğu için ekimin gündüzü daha uzun sanılabilir. Oysa bu sayılar gecenin süresidir; gecesi kısa olan nisanın gündüzü daha uzundur.
+Sık yapılan hata: Tablodaki süreleri doğrudan gündüz süresi sanmak. Lambalar karanlıkta yandığı için tablo gecenin süresini verir; gündüzü bulmak için 24 saatten çıkarman gerekir.
 Cevap D.`
 },
 {
@@ -455,26 +457,26 @@ Cevap D.`
   kademe: 2,
   zorluk: 2,
   soru: `Bir araç, açık bir otoparkta gün boyunca hep aynı yerde güneş altında bırakılmıştır. Aracın camları kapalıyken öğle vakti iç sıcaklığı iki ayrı ayda, bulutsuz günlerde ölçülmüş ve sonuçlar tabloya yazılmıştır.
-I. Haziranda aracın camlarına düşen ışınlar daha dik açıyla gelmiştir.
-II. Haziranda aracın birim yüzeyine düşen ışık enerjisi daha fazladır.
+I. Haziranda aracın tavanına düşen ışınlar daha dik açıyla gelmiştir.
+II. Haziranda aracın tavanında birim yüzeye düşen ışık enerjisi daha fazladır.
 III. Aralıkta aracın az ısınmasının nedeni Dünya'nın o ay Güneş'ten uzaklaşmasıdır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<table class="tablo"><tr><th>Ölçüm ayı</th><th>Dış hava sıcaklığı</th><th>Araç içi sıcaklığı</th></tr><tr><td>Haziran</td><td>30 °C</td><td>58 °C</td></tr><tr><td>Aralık</td><td>8 °C</td><td>19 °C</td></tr></table>`,
   secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
   dogru: 2,
   hatalar: [
-    "II. yargıyı atlama: ışınlar dik geldiğinde aynı demet dar bir alana toplanır ve birim yüzeye düşen enerji artar.",
-    "III. yargıyı doğru sayma: aynı tarihte Güney Yarım Küre'de araçlar aşırı ısınmaktadır; oysa Dünya'nın Güneş'e uzaklığı iki yer için de aynıdır.",
+    "II. yargıyı atlama: ışınlar tavana dik geldiğinde aynı demet dar bir alana toplanır ve birim yüzeye düşen enerji artar.",
+    "III. yargıyı doğru sayma: aralıkta Güney Yarım Küre'de araçlar aşırı ısınmaktadır; oysa Dünya'nın Güneş'e uzaklığı iki yer için de aynıdır.",
     null,
-    "I. yargıyı yanlış sayıp III'ü doğru sayma: aracı ısıtan enerjinin artmasının nedeni, ışınların camlara daha dik gelmesidir."
+    "I. yargıyı yanlış sayıp III'ü doğru sayma: yazın Güneş öğle vakti yüksekte olduğu için yatay tavana ışınlar daha dik gelir; farkı yaratan uzaklık değil, bu açıdır."
   ],
-  aciklama: `Camlardan içeri giren ışık enerjisi araç içindeki yüzeylerce soğurulur ve aracın içi ısınır. Giren enerji arttıkça iç sıcaklık da artar.
-Adım 1: Tabloyu oku. Haziranda araç içi dış havadan 28 °C, aralıkta yalnızca 11 °C daha sıcaktır. Yani haziranda araca çok daha fazla enerji girmiştir.
-Adım 2: I. yargıyı kontrol et. Araç hep aynı yerdedir; değişen, Güneş ışınlarının geliş açısıdır. Haziran yaz ayı olduğundan ışınlar daha dik gelmiştir. Doğrudur.
-Adım 3: II. yargıyı kontrol et. Dik gelen ışık demeti dar bir alana toplanır; böylece her bir metrekareye düşen enerji artar. Doğrudur.
-Adım 4: III. yargıyı kontrol et. Mevsimler Dünya'nın Güneş'e uzaklığıyla açıklanamaz. Aralıkta Güney Yarım Küre'de araçlar aşırı ısınmaktadır; uzaklık ikisi için de aynı olduğuna göre bu yargı yanlıştır.
-Adım 5: Doğru yargılar I ve II'dir.
-Sağlama: Aynı araç aralıkta gölgeye çekilseydi iç sıcaklık dış havaya çok yakın çıkardı. Isıtan şey, içeri giren ışık enerjisidir.
+  aciklama: `Araca düşen ışık enerjisi aracın gövdesi ve içindeki yüzeylerce soğurulur; araç ısınır. Birim yüzeye düşen enerji arttıkça araç daha çok ısınır.
+Adım 1: Tabloyu oku. Haziranda araç içi dış havadan 28 °C, aralıkta yalnızca 11 °C daha sıcaktır. Yani haziranda araç çok daha fazla enerji almıştır.
+Adım 2: I. yargıyı kontrol et. Aracın tavanı yere paralel, yatay bir yüzeydir. Araç hep aynı yerdedir; değişen, Güneş ışınlarının geliş açısıdır. Haziranda Güneş öğle vakti gökyüzünde yüksektedir, bu yüzden ışınlar yatay tavana daha dik gelir. Doğrudur.
+Adım 3: II. yargıyı kontrol et. Dik gelen ışık demeti dar bir alana toplanır; böylece tavanın her bir metrekaresine düşen enerji artar. Doğrudur.
+Adım 4: III. yargıyı kontrol et. Mevsimler Dünya'nın Güneş'e uzaklığıyla açıklanamaz. Aralıkta Güney Yarım Küre'de araçlar aşırı ısınmaktadır; uzaklık iki yarım küre için de aynı olduğuna göre bu yargı yanlıştır.
+Adım 5: Doğru yargılar I ve II'dir. En güçlü çeldirici "II ve III" şıkkıdır: kışın havanın soğuk olmasını Güneş'ten uzaklaşmaya bağlamak çok yaygın bir düşüncedir, ama tabloyu açıklayan şey ışınların açısıdır.
+Sık yapılan hata: "Kışın Dünya Güneş'ten uzaklaşır." sanmak. Dünya, Güneş'e en yakın konumuna ocak başında gelir; yani aralıkta Güneş'ten uzaklaşmaz, tersine yakınlaşır.
 Cevap C.`
 },
 {
@@ -650,10 +652,10 @@ Cevap D.`
   kademe: 2,
   zorluk: 3,
   soru: `Bir kültür dergisinde şu bilgi yer almaktadır:
-"Anadolu'da 21 Mart, baharın başlangıcı sayılır ve yüzyıllardır bayram olarak kutlanır. Bu tarihte gece ile gündüz birbirine eşitlenir; ertesi günden başlayarak gündüzler gecelerden uzun olmaya başlar."
+"Anadolu'da 21 Mart, baharın başlangıcı sayılır ve yüzyıllardır bayram olarak kutlanır. Bu tarihte gece ile gündüz birbirine eşitlenir, doğa da kış uykusundan uyanmaya başlar."
 I. Bu tarihte Güneş ışınları Ekvator'a dik düşer.
 II. Bu tarihte Güney Yarım Küre'de de bahar mevsimi başlar.
-III. Bu tarihten sonra Kuzey Yarım Küre'de gündüz süresi kısalmaya başlar.
+III. Bu tarihten bir ay sonra Güney Yarım Küre'deki Buenos Aires şehrinde gündüzler gecelerden uzun olur.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
   secenekler: ["Yalnız I", "I ve II", "I ve III", "II ve III"],
@@ -661,15 +663,15 @@ III. Bu tarihten sonra Kuzey Yarım Küre'de gündüz süresi kısalmaya başlar
   hatalar: [
     null,
     "II. yargıyı doğru sayma: iki yarım kürede aynı anda aynı mevsim yaşanmaz; kuzeyde bahar başlarken güneyde sonbahar başlar.",
-    "III. yargıyı doğru sayma: metin, ertesi günden başlayarak gündüzlerin uzadığını söylüyor.",
-    "I. yargıyı atlayıp iki yanlış yargıyı seçme: gece ile gündüzün eşitlenmesi, ışınların Ekvator'a dik düşmesinin sonucudur."
+    "III. yargıyı doğru sayma: 21 Mart'tan sonra Dünya yörüngede ilerledikçe Kuzey Yarım Küre Güneş'e dönük hâle gelir; güneyde sonbahar yaşanır ve gündüzler gecelerden kısa olur.",
+    "Mevsimleri her yerde aynı sanıp I'i atlama: güneyde de bahar başladığını düşünen, bir ay sonra orada gündüzün uzun olacağını da sanır; oysa güneyde sonbahar yaşanır ve I. yargı doğrudur."
   ],
   aciklama: `Gece ile gündüzün her yerde eşitlendiği tarihlerde Güneş ışınları Ekvator'a dik düşer; aydınlık ile karanlığı ayıran çizgi iki kutuptan da geçer.
 Adım 1: I. yargıyı kontrol et. Metin 21 Mart'ta gece ile gündüzün eşitlendiğini söylüyor. Bu ancak ışınlar Ekvator'a dik düştüğünde olur. Doğrudur.
 Adım 2: II. yargıyı kontrol et. Eksen eğikliği nedeniyle yarım kürelerde her zaman karşıt mevsimler yaşanır. Kuzeyde bahar başlarken güneyde sonbahar başlar. Yanlıştır.
-Adım 3: III. yargıyı kontrol et. Metin, 21 Mart'tan sonra gündüzlerin gecelerden uzun olmaya başladığını söylüyor. Yani gündüz kısalmaz, uzar. Yanlıştır.
-Adım 4: Yalnız I doğrudur.
-Sık yapılan hata: "Bahar her yerde marttadır." sanmak. Güney Yarım Küre'de bahar eylülde başlar.
+Adım 3: III. yargıyı kontrol et. 21 Mart'tan sonra Dünya yörüngede ilerledikçe eksenin kuzey ucu Güneş'e dönük hâle gelir; Kuzey Yarım Küre yaza, Güney Yarım Küre kışa doğru ilerler. Kışa giden yarım kürede gündüzler kısalır ve gecelerden kısa olur. Bir ay sonra Buenos Aires'te gündüz geceden kısadır. Yanlıştır.
+Adım 4: Yalnız I doğrudur. En güçlü çeldirici "II ve III" şıkkıdır: "21 Mart her yerde baharın başlangıcıdır" diye düşünen öğrenci, güneyde de gündüzlerin uzayacağını sanır ve iki yanlış yargıyı birlikte seçer.
+Sık yapılan hata: "Bahar her yerde marttadır." sanmak. Güney Yarım Küre'de 21 Mart'ta sonbahar başlar, bahar ise 23 Eylül'de gelir.
 Cevap A.`
 },
 {
@@ -734,7 +736,7 @@ Cevap C.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir kuş gözlem derneği, ayağına halka takılan bir göçmen kuş türünün yıl içinde bulunduğu bölgeleri kaydetmiştir. Kayıtların bir bölümü tabloda verilmiştir.
+  soru: `Bir kuş gözlem derneği, ayağına halka takılan bir göçmen kuşun yıl içinde bulunduğu bölgeleri kaydetmiştir. Kayıtların bir bölümü tabloda verilmiştir.
 I. Kuş, yılın her iki döneminde de yaz mevsiminin yaşandığı bir bölgede bulunmaktadır.
 II. Aralık ayında Güney Afrika'ya düşen Güneş ışınları, Kuzey Avrupa'ya düşenlerden daha eğiktir.
 III. Kuşun yer değiştirmesi, Dünya'nın Güneş'e uzaklığının yıl içinde değişmesiyle açıklanır.
@@ -753,8 +755,9 @@ Adım 1: Tablodaki gündüz sürelerini oku. Haziran–ağustos döneminde Kuzey
 Adım 2: I. yargıyı kontrol et. İki değer de 12 saatten uzundur. Kuş haziranda kuzeyde, aralıkta güneyde yaz yaşayan bölgelerde bulunmaktadır. Doğrudur.
 Adım 3: II. yargıyı kontrol et. Aralıkta Güney Afrika'da yaz, Kuzey Avrupa'da kış yaşanır. Yaz yaşanan yerde ışınlar daha eğik değil, daha diktir. Yanlıştır.
 Adım 4: III. yargıyı kontrol et. Kuş yer değiştirdiğinde Dünya'nın Güneş'e uzaklığı değişmez; zaten bu uzaklık iki bölge için de her an aynıdır. Kuşu yönlendiren, eksen eğikliği nedeniyle yarım kürelerde karşıt mevsimlerin yaşanmasıdır. Yanlıştır.
-Adım 5: Yalnız I doğrudur.
+Adım 5: Yalnız I doğrudur. En güçlü çeldirici "I ve III" şıkkıdır: kuşun uzun yolculuğu, "Dünya Güneş'e yaklaşıp uzaklaştığı için yer değiştiriyor" düşüncesini çağrıştırır. Oysa kuşu yönlendiren, yarım kürelerde karşıt mevsimlerin yaşanmasıdır.
 Sağlama: Kuş, altı ayda bir yarım küre değiştirerek yılın tamamını yaz koşullarında geçirmektedir. Bu ancak mevsimlerin karşıt olmasıyla mümkündür.
+Sık yapılan hata: Aralıkta her yerde kış yaşandığını sanıp II. yargıyı doğru saymak. Aralıkta kış yalnızca Kuzey Yarım Küre'dedir; Güney Afrika'da yaz yaşanır.
 Cevap A.`
 },
 {
@@ -790,8 +793,8 @@ Cevap C.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `İnsan derisi, üzerine düşen güneş ışığının etkisiyle D vitamini üretir. Kuzey Yarım Küre'deki bir şehrin hastanesi, bir yıl boyunca yapılan D vitamini ölçümlerinin aylık ortalamalarını grafikte yayımlamıştır.
-I. Ortalamanın en yüksek olduğu ayda şehre düşen ışınlar en dik açıyla gelmiştir.
+  soru: `İnsan derisi, üzerine düşen güneş ışığının etkisiyle D vitamini üretir. Kuzey Yarım Küre'deki bir şehrin hastanesi, yıl içindeki dört aya ait D vitamini ölçümlerinin aylık ortalamalarını grafikte yayımlamıştır.
+I. Grafikteki aylar içinde ortalamanın en yüksek olduğu ayda şehre düşen ışınlar en dik açıyla gelmiştir.
 II. Ocakta şehrin birim yüzeyine düşen ışık enerjisi, temmuzdakinden azdır.
 III. Aynı ölçüm Güney Yarım Küre'deki bir şehirde yapılsaydı en yüksek ortalama yine temmuzda bulunurdu.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
@@ -799,18 +802,19 @@ III. Aynı ölçüm Güney Yarım Küre'deki bir şehirde yapılsaydı en yükse
   secenekler: ["Yalnız II", "I ve II", "I ve III", "II ve III"],
   dogru: 1,
   hatalar: [
-    "I. yargıyı yanlış sayma: deride D vitamini üretimi güneş ışığıyla olur; en yüksek ortalama, ışınların en dik geldiği ayda beklenir.",
+    "I. yargıyı yanlış sayma: yargı yılın tamamını değil, grafikteki dört ayı karşılaştırıyor; bu aylar içinde ışınlar Kuzey Yarım Küre'de en dik temmuzda gelir.",
     null,
-    "III. yargıyı doğru sayma: Güney Yarım Küre'de temmuz kış ayıdır; orada en yüksek değer aralık–ocak aylarında bulunurdu.",
-    "I. yargıyı yanlış sayıp III'ü doğru sayma: grafikteki en yüksek sütun temmuza aittir ve o ay ışınlar en dik gelir."
+    "III. yargıyı doğru sayma: Güney Yarım Küre'de temmuz kış ayıdır; aynı dört ay içinde orada en yüksek değer ocakta bulunurdu.",
+    "I. yargıyı yanlış sayıp III'ü doğru sayma: grafikteki en yüksek sütun temmuza aittir; temmuz yalnızca kuzeyde yaz ayıdır, güneyde kıştır."
   ],
   aciklama: `Deride D vitamini üretimi, deriye düşen ışık enerjisiyle gerçekleşir. Birim yüzeye düşen enerji arttıkça üretim de artar.
-Adım 1: Grafikteki değerleri oku: ocak 14, nisan 20, temmuz 32, ekim 24 ng/mL. En yüksek değer temmuzdadır.
-Adım 2: I. yargıyı kontrol et. Şehir Kuzey Yarım Küre'dedir; temmuz yaz ayıdır. Yazın ışınlar en dik açıyla gelir, birim yüzeye düşen enerji en fazladır. En yüksek ortalamanın o ayda çıkması bununla uyumludur. Doğrudur.
+Adım 1: Grafikteki değerleri oku: ocak 14, nisan 20, temmuz 32, ekim 24 ng/mL. Dört ay içinde en yüksek değer temmuzdadır.
+Adım 2: I. yargıyı kontrol et. Yargı yalnızca grafikteki dört ayı (ocak, nisan, temmuz, ekim) karşılaştırıyor. Şehir Kuzey Yarım Küre'dedir; ışınların en dik geldiği 21 Haziran'a bu dört ay içinde en yakın olan ay temmuzdur. Öyleyse bu aylar içinde ışınlar en dik temmuzda gelir. Doğrudur.
 Adım 3: II. yargıyı kontrol et. Ocak kış ayıdır; ışınlar eğik geldiği için birim yüzeye düşen enerji temmuzdakinden azdır. Grafikte ocak sütununun en kısa olması da bunu destekler. Doğrudur.
-Adım 4: III. yargıyı kontrol et. Güney Yarım Küre'de temmuz kış ayıdır. Orada en yüksek değer aralık–ocak aylarında beklenir. Yanlıştır.
-Adım 5: Doğru yargılar I ve II'dir.
-Sık yapılan hata: Grafiği "temmuzda insanlar daha sağlıklı" diye yorumlamak. Grafiğin gösterdiği tek şey, güneş ışığının o ay daha etkili olduğudur.
+Adım 4: III. yargıyı kontrol et. Güney Yarım Küre'de temmuz kış, ocak yaz ayıdır. Aynı dört ay içinde orada en yüksek değer ocakta beklenir. Yanlıştır.
+Adım 5: Doğru yargılar I ve II'dir. En güçlü çeldirici "Yalnız II" şıkkıdır: "Işınlar en dik 21 Haziran'da gelir, temmuzda değil." diye düşünüp I'i eleyebilirsin. Ama haziran grafikte yoktur; yargı yalnızca gösterilen dört ayı karşılaştırır.
+Not: Ekim değerinin nisandan yüksek çıkması, yaz boyunca üretilen D vitamininin vücutta bir süre kalmasındandır. Yargıların hiçbiri bu farka dayanmaz.
+Sık yapılan hata: Bir yargıdaki karşılaştırmanın hangi aylar arasında yapıldığına bakmadan karar vermek. "Grafikteki aylar içinde" ifadesi, karşılaştırmayı gösterilen dört ayla sınırlar.
 Cevap B.`
 },
 {
@@ -873,26 +877,26 @@ Cevap A.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir bilim şenliğinde öğrenciler, özdeş üç kaba eşit miktarda su koyup kapları aynı ışık kaynağından eşit uzaklığa, farklı açılarla yerleştirmiştir. Suların başlangıç sıcaklığı 20 °C'dir ve 15 dakika sonra ölçülen değerler şekilde verilmiştir.
+  soru: `Bir bilim şenliğinde öğrenciler, ağzı kapalı, yassı ve özdeş üç kaba eşit miktarda su doldurup kapları aynı ışık kaynağından eşit uzaklığa, farklı açılarla yerleştirmiştir. Suların başlangıç sıcaklığı 20 °C'dir ve 15 dakika sonra ölçülen değerler şekilde verilmiştir.
 I. Işınların kaba düşme açısı büyüdükçe sıcaklık artışı da büyümüştür.
 II. Bu düzenek, yaz ile kış arasındaki sıcaklık farkının nedenini modellemektedir.
 III. Deneyde kapların ışık kaynağına uzaklıkları değiştirilerek sonuçlar karşılaştırılmıştır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Işık kaynağına eşit uzaklıkta, farklı açılarla yerleştirilmiş üç su kabı ve ölçülen sıcaklıklar"><g stroke="currentColor" stroke-width="2"><line x1="20" y1="180" x2="500" y2="180"/></g><rect x="68" y="140" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><rect x="228" y="140" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(-35 261 160)"/><rect x="388" y="140" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(-65 421 160)"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="84" y1="50" x2="84" y2="134"/><line x1="101" y1="50" x2="101" y2="134"/><line x1="118" y1="50" x2="118" y2="134"/><line x1="244" y1="50" x2="244" y2="128"/><line x1="261" y1="50" x2="261" y2="140"/><line x1="278" y1="50" x2="278" y2="152"/><line x1="404" y1="50" x2="404" y2="120"/><line x1="421" y1="50" x2="421" y2="146"/><line x1="438" y1="50" x2="438" y2="172"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="101" y="38" font-weight="bold">I. kap</text><text x="261" y="38" font-weight="bold">II. kap</text><text x="421" y="38" font-weight="bold">III. kap</text><text x="101" y="204">Açı: 90°</text><text x="261" y="204">Açı: 55°</text><text x="421" y="204">Açı: 25°</text><text x="101" y="226">15 dk sonra: 34 °C</text><text x="261" y="226">15 dk sonra: 29 °C</text><text x="421" y="226">15 dk sonra: 25 °C</text><text x="260" y="252">Kaplar ışık kaynağına eşit uzaklıktadır; başlangıç sıcaklığı 20 °C'dir.</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Işık kaynağına eşit uzaklıkta, farklı açılarla yerleştirilmiş ağzı kapalı üç su kabı, kaplara düşen eşit aralıklı ışınlar ve ölçülen sıcaklıklar"><g stroke="currentColor" stroke-width="2"><line x1="20" y1="180" x2="500" y2="180"/></g><rect x="68" y="140" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><rect x="228" y="128" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(35 261 128)"/><rect x="388" y="133" width="66" height="40" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5" transform="rotate(65 421 133)"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="75" y1="50" x2="75" y2="140"/><line x1="88" y1="50" x2="88" y2="140"/><line x1="101" y1="50" x2="101" y2="140"/><line x1="114" y1="50" x2="114" y2="140"/><line x1="127" y1="50" x2="127" y2="140"/><line x1="241" y1="50" x2="241" y2="114"/><line x1="254" y1="50" x2="254" y2="123.1"/><line x1="267" y1="50" x2="267" y2="132.2"/><line x1="280" y1="50" x2="280" y2="141.3"/><line x1="415" y1="50" x2="415" y2="120.1"/><line x1="428" y1="50" x2="428" y2="148"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="101" y="38" font-weight="bold">I. kap</text><text x="261" y="38" font-weight="bold">II. kap</text><text x="421" y="38" font-weight="bold">III. kap</text><text x="101" y="204">Düşme açısı: 90°</text><text x="261" y="204">Düşme açısı: 55°</text><text x="421" y="204">Düşme açısı: 25°</text><text x="101" y="226">15 dk sonra: 34 °C</text><text x="261" y="226">15 dk sonra: 29 °C</text><text x="421" y="226">15 dk sonra: 25 °C</text><text x="260" y="252">Kaplar ışık kaynağına eşit uzaklıktadır. Başlangıç: 20 °C</text></g></svg>`,
   secenekler: ["Yalnız II", "Yalnız III", "I ve II", "I ve III"],
   dogru: 2,
   hatalar: [
     "I. yargıyı atlama: 90°, 55° ve 25°'ye karşılık gelen artışlar 14 °C, 9 °C ve 5 °C'dir; açı büyüdükçe artış da büyümüştür.",
     "III. yargıyı doğru sayma: şekilde kapların ışık kaynağına eşit uzaklıkta olduğu yazılıdır; uzaklık değiştirilmemiştir.",
     null,
-    "II. yargıyı atlayıp III'ü doğru sayma: deneyde değiştirilen tek şey açıdır, uzaklık değildir."
+    "II. yargıyı atlayıp III'ü doğru sayma: deneyde değiştirilen tek şey açıdır, uzaklık değildir; düzenek de yaz ile kış arasındaki farkı modellemektedir."
   ],
   aciklama: `Bir deneyde yalnızca bir değişken değiştirilir; böylece ortaya çıkan farkın nedeni kesin olarak bilinir.
 Adım 1: Sıcaklık artışlarını hesapla. I. kap: 34 − 20 = 14 °C. II. kap: 29 − 20 = 9 °C. III. kap: 25 − 20 = 5 °C.
-Adım 2: I. yargıyı kontrol et. Açılar 90°, 55° ve 25°; artışlar sırasıyla 14 °C, 9 °C ve 5 °C'dir. Açı büyüdükçe artış da büyümüştür. Doğrudur.
-Adım 3: II. yargıyı kontrol et. Yaz ile kış arasındaki fark da ışınların yere düşme açısından doğar; açı büyüdüğünde birim yüzeye düşen enerji artar. Düzenek tam olarak bunu göstermektedir. Doğrudur.
+Adım 2: I. yargıyı kontrol et. Düşme açıları 90°, 55° ve 25°; artışlar sırasıyla 14 °C, 9 °C ve 5 °C'dir. Açı büyüdükçe artış da büyümüştür. Doğrudur.
+Adım 3: II. yargıyı kontrol et. Şekildeki eşit aralıklı ışınları say: düz duran I. kaba 5, II. kaba 4, en eğik III. kaba yalnızca 2 ışın düşüyor. Kapların üst yüzeyleri eşit olduğuna göre eğik kabın birim yüzeyine daha az enerji düşer. Yaz ile kış arasındaki fark da ışınların yere düşme açısından doğar. Düzenek tam olarak bunu modellemektedir. Doğrudur.
 Adım 4: III. yargıyı kontrol et. Şekilde kapların ışık kaynağına eşit uzaklıkta olduğu belirtilmiştir. Değiştirilen tek değişken açıdır. Yanlıştır.
-Adım 5: Doğru yargılar I ve II'dir.
+Adım 5: Doğru yargılar I ve II'dir. En güçlü çeldirici "I ve III" şıkkıdır: eğik kapların bir ucu ışık kaynağına daha yakın, bir ucu daha uzak göründüğü için uzaklığın değiştirildiği sanılabilir. Oysa soruda ve şekilde kapların kaynağa eşit uzaklıkta olduğu açıkça yazılıdır.
 Sık yapılan hata: Sıcaklık farkını uzaklığa bağlamak. Uzaklık sabit tutulduğu için farkın tek olası nedeni açıdır.
 Cevap C.`
 },
@@ -930,19 +934,19 @@ Cevap B.`
   kademe: 3,
   zorluk: 3,
   soru: "Bir okulda bilim şenliği için hazırlanan afişte, Dünya'nın Güneş çevresindeki yörüngesinde aralarında üçer ay bulunan dört konumu çizilmiştir. Öğrenciler her konumda Dünya'yı bir daireyle, dönme eksenini ise daireyi kesen kalın bir çizgiyle göstermiştir. Afişi inceleyen fen öğretmeni, konumlardan birinde eksenin yanlış çizildiğini, bu hâliyle afişin mevsimlerin oluşumunu yanlış anlattığını söylemiştir.\n**Buna göre afişte ekseni __yanlış__ çizilen konum hangisidir?**",
-  gorsel: `<svg viewBox="0 0 520 300" role="img" aria-label="Yörüngedeki dört konumda Dünya'nın dönme ekseninin yönü"><ellipse cx="260" cy="150" rx="210" ry="110" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8 6"/><circle cx="260" cy="150" r="26" fill="var(--vurgu)"/><text x="260" y="192" fill="currentColor" font-size="15" text-anchor="middle" font-weight="bold">Güneş</text><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="50" cy="150" r="26"/><circle cx="260" cy="40" r="26"/><circle cx="470" cy="150" r="26"/><circle cx="260" cy="260" r="26"/></g><g stroke="var(--vurgu2)" stroke-width="3"><line x1="32" y1="186" x2="68" y2="114"/><line x1="242" y1="76" x2="278" y2="4"/><line x1="452" y1="186" x2="488" y2="114"/><line x1="278" y1="296" x2="242" y2="224"/></g><g fill="currentColor" font-size="16" font-weight="bold" text-anchor="middle"><text x="50" y="210">K</text><text x="306" y="46">L</text><text x="470" y="210">M</text><text x="306" y="266">N</text></g><text x="20" y="292" fill="currentColor" font-size="14">Kalın çizgiler dönme eksenini göstermektedir.</text></svg>`,
+  gorsel: `<svg viewBox="0 0 520 330" role="img" aria-label="Yörüngedeki dört konumda Dünya'nın dönme ekseninin yönü"><ellipse cx="260" cy="150" rx="210" ry="110" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="8 6"/><circle cx="260" cy="150" r="26" fill="var(--vurgu)"/><text x="260" y="192" fill="currentColor" font-size="15" text-anchor="middle" font-weight="bold">Güneş</text><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="50" cy="150" r="26"/><circle cx="260" cy="40" r="26"/><circle cx="470" cy="150" r="26"/><circle cx="260" cy="260" r="26"/></g><g stroke="var(--vurgu2)" stroke-width="3"><line x1="32" y1="186" x2="68" y2="114"/><line x1="242" y1="76" x2="278" y2="4"/><line x1="452" y1="186" x2="488" y2="114"/><line x1="278" y1="296" x2="242" y2="224"/></g><g fill="currentColor" font-size="16" font-weight="bold" text-anchor="middle"><text x="50" y="210">K</text><text x="306" y="46">L</text><text x="470" y="210">M</text><text x="306" y="266">N</text></g><text x="20" y="322" fill="currentColor" font-size="14">Kalın çizgiler dönme eksenini göstermektedir.</text></svg>`,
   secenekler: ["K", "L", "M", "N"],
   dogru: 3,
   hatalar: [
     "K konumunu yanlış sayma: bu konumdaki eksen, L ve M'dekilerle aynı yöne bakmaktadır; çizim doğrudur.",
     "L konumunu yanlış sayma: bu konumdaki eksen de diğerleriyle aynı doğrultudadır; çizim doğrudur.",
-    "M konumunu yanlış sayma: eksenin K ve L'dekiyle aynı yöne bakması beklenen durumdur; çizim doğrudur.",
+    "M konumunu yanlış sayma: eksenin üst ucunun Güneş'ten uzağa bakması hata değildir; eksen K ve L'dekiyle aynı yöndedir ve bu, Kuzey Yarım Küre'de kışın yaşandığı konumdur.",
     null
   ],
   aciklama: `Dünya, Güneş çevresinde dolanırken dönme ekseni uzayda hep aynı yöne bakar ve eğikliği değişmez. Buna eksenin paralelliği denir.
 Adım 1: Afişteki eksenleri karşılaştır. K, L ve M konumlarında eksenin üst ucu sağa doğru eğiktir; üç çizgi birbirine paraleldir.
 Adım 2: N konumundaki eksene bak. Bu çizgide üst uç sola doğru eğiktir, yani diğer üçünün tersi yöne bakmaktadır.
-Adım 3: Eksen yörünge boyunca yön değiştiremeyeceğine göre yanlış çizilen konum N'dir.
+Adım 3: Eksen yörünge boyunca yön değiştiremeyeceğine göre yanlış çizilen konum N'dir. En güçlü çeldirici M'dir: orada eksenin üst ucu Güneş'ten uzağa baktığı için yanlış çizildiği sanılabilir. Oysa M'deki eksen öteki ikisiyle paraleldir; bu konum, Kuzey Yarım Küre'de kışın yaşandığı konumdur.
 Adım 4: Bu çizim neden önemlidir? Eksen hep aynı yöne baktığı için Dünya yörüngenin bir ucundayken kuzey yarım küre Güneş'e dönük, karşı ucundayken uzaktır. Mevsimleri doğuran da budur. Eksen her konumda Güneş'e dönseydi yarım küreler hep aynı açıyla ışık alır ve mevsimler oluşmazdı.
 Sık yapılan hata: Eksenin Güneş'i takip ettiğini düşünmek. Eksen sabittir; değişen, Dünya'nın yörüngedeki yeridir.
 Cevap D.`

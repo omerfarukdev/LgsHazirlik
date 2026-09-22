@@ -518,7 +518,7 @@ Cevap C.`
   kazanim: "M.8.1.2.5",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir barajın su miktarı her ayın başında ölçülüp bir tabloya yazılmaktadır. Nisan ve mayıs aylarının başındaki ölçümler aşağıda verilmiştir.\n**Buna göre baraja nisan ayı boyunca giren su miktarının bilimsel gösterimi aşağıdakilerden hangisidir?**",
+  soru: "Bir barajın su miktarı her ayın başında ölçülüp bir tabloya yazılmaktadır. Nisan ve mayıs aylarının başındaki ölçümler aşağıda verilmiştir.\n**Buna göre barajdaki su miktarında nisan ayı boyunca gerçekleşen artışın bilimsel gösterimi aşağıdakilerden hangisidir?**",
   gorsel: `<table class="tablo"><tr><th>Ölçüm zamanı</th><th>Barajdaki su (m³)</th></tr><tr><td>1 Nisan</td><td>8 · 10<sup>4</sup></td></tr><tr><td>1 Mayıs</td><td>3 · 10<sup>5</sup></td></tr></table>`,
   secenekler: ["2,2 · 10^{4}", "2,2 · 10^{5}", "2,8 · 10^{5}", "2,92 · 10^{5}"],
   dogru: 1,
@@ -529,7 +529,7 @@ Cevap C.`
     "2,92 · 10^{5}: 8 · 10^{4} sayısını 0,08 · 10^{5} sanma. Üsleri eşitlerken virgül bir basamak fazla kaydırılmış."
   ],
   aciklama: `Bilimsel gösterimle yazılmış iki sayı çıkarılırken önce ikisi de 10'un aynı kuvveti cinsinden yazılır; sonra başkatsayılar çıkarılır.
-Adım 1: Neyin sorulduğunu belirle. Nisan boyunca giren su, ay sonundaki miktardan ay başındaki miktarın çıkarılmasıyla bulunur: (3 · 10^{5}) − (8 · 10^{4}).
+Adım 1: Neyin sorulduğunu belirle. 1 Mayıs ölçümü nisan ayının sonundaki su miktarını gösterir; artış, bu miktardan ay başındaki miktarın çıkarılmasıyla bulunur: (3 · 10^{5}) − (8 · 10^{4}).
 Adım 2: Küçük üslü sayıyı büyüğün kuvvetine çevir: 8 · 10^{4} = 0,8 · 10^{5}. Başkatsayı 10'a bölündü, bu yüzden üs 1 arttı.
 Adım 3: Başkatsayıları çıkar: 3 − 0,8 = 2,2. Sonuç 2,2 · 10^{5} m³'tür.
 Adım 4: Bilimsel gösterime uygunluğu denetle: 2,2 sayısı 1 ile 10 arasındadır.
@@ -542,23 +542,24 @@ Cevap B.`
   kazanim: "M.8.1.2.1",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir sınıfın matematik panosunda her hafta bir işlem asılmakta ve doğru sonucu bulan öğrencilerin adı panoya yazılmaktadır. Bu haftanın işlemi aşağıda verilmiştir.\n**Buna göre panodaki işlemin sonucu kaçtır?**",
-  gorsel: `<svg viewBox="0 0 480 140" role="img" aria-label="Pano: eksi 3'ün karesi çarpı eksi 2'nin küpü bölü eksi 6'nın karesi"><rect x="14" y="14" width="452" height="112" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="240" y="46" font-size="16" fill="currentColor" text-anchor="middle">HAFTANIN İŞLEMİ</text><text x="240" y="100" font-size="26" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">(−3)<tspan font-size="17" dy="-11">2</tspan><tspan dy="11"> · (−2)</tspan><tspan font-size="17" dy="-11">3</tspan><tspan dy="11"> ÷ (−6)</tspan><tspan font-size="17" dy="-11">2</tspan></text></svg>`,
-  secenekler: ["−72", "−3", "−2", "2"],
-  dogru: 2,
+  soru: "Bir okulun matematik kulübü, koridorda küçük bir kaçış oyunu kurmuştur. Oyunda kilitli kutuyu açmak için kutunun kapağına yazılan iki işlemin sonuçları ayrı ayrı bulunmakta, sonra bu iki sonuç çarpılmaktadır. Çarpımdan elde edilen sayı kutunun şifresidir. Kapaktaki işlemler (−4)^{3} ÷ (−4)^{2} ve (−3)^{2} · (−1)^{4} biçimindedir.\n**Buna göre kutuyu açan sayı kaçtır?**",
+  gorsel: null,
+  secenekler: ["−36", "5", "9", "36"],
+  dogru: 0,
   hatalar: [
-    "−72: Son adımı atlama. −72 sayısı yalnızca ilk iki çarpanın çarpımıdır; bölme işlemi yapılmamış.",
-    "−3: Üs almak yerine tabanı üsle çarpma: (−3) · 2 = −6, (−2) · 3 = −6 ve (−6) · 2 = −12 alınıp 36 ÷ (−12) = −3 bulunmuş.",
     null,
-    "2: (−2)^{3} sonucunu pozitif alma. Taban negatif ve üs tek olduğu için sonuç negatiftir; işaret düşünce 9 · 8 ÷ 36 = 2 bulunur."
+    "5: İki sonucu çarpacak yerde toplama: (−4) + 9 = 5 bulunmuş. Kutuyu açan sayı iki sonucun çarpımıdır.",
+    "9: Son adımı atlama. 9 yalnızca ikinci işlemin sonucudur; iki sonuç henüz çarpılmamış.",
+    "36: Tek üslü negatif kuvvette işareti düşürme: (−4)^{3} = 64 sanılıp birinci işlemin sonucu 4 bulunmuş ve 4 · 9 = 36 yazılmış."
   ],
-  aciklama: `Taban negatifse üssün tek mi çift mi olduğuna bakılır: çift kuvvette sonuç pozitif, tek kuvvette negatiftir. İşlem sırasında çarpma ve bölme soldan sağa yapılır.
-Adım 1: Kuvvetleri tek tek hesapla: (−3)^{2} = 9 (üs çift, pozitif); (−2)^{3} = −8 (üs tek, negatif); (−6)^{2} = 36 (üs çift, pozitif).
-Adım 2: Çarpmayı yap: 9 · (−8) = −72.
-Adım 3: Bölmeyi yap: −72 ÷ 36 = −2. Farklı işaretli sayıların bölümü negatiftir.
-Sağlama: −2 · 36 = −72; bölme doğru yapılmış.
-Sık yapılan hata: Bütün parantezlerdeki eksi işaretlerini aynı sayıp sonucu pozitif bırakmak. İşareti belirleyen, üssün tek ya da çift olmasıdır.
-Cevap C.`
+  aciklama: `Taban negatifse sonucun işaretini üssün tek mi çift mi olduğu belirler: çift kuvvette sonuç pozitif, tek kuvvette negatiftir. Aynı işaret kuralı, bulunan sayıların bölünmesinde ve çarpılmasında da geçerlidir.
+Adım 1: Birinci işlemin kuvvetlerini hesapla: (−4)^{3} = (−4) · (−4) · (−4) = −64 (üs tek, sonuç negatif); (−4)^{2} = (−4) · (−4) = 16 (üs çift, sonuç pozitif).
+Adım 2: Bölmeyi yap: (−64) ÷ 16 = −4. Farklı işaretli iki sayının bölümü negatiftir.
+Adım 3: İkinci işlemi hesapla: (−3)^{2} = 9 ve (−1)^{4} = 1 olduğuna göre 9 · 1 = 9.
+Adım 4: İki sonucu çarp: (−4) · 9 = −36. Kutuyu açan sayı −36'dır.
+Sağlama: −36 ÷ 9 = −4 olduğuna göre çarpma doğru yapılmış. En güçlü çeldirici olan 36, (−4)^{3} kuvvetinin işaretini düşürmekten çıkar; oysa taban negatif ve üs tekken sonuç negatif olmak zorundadır.
+Sık yapılan hata: Bir işlemin sonucunu bulunca durmak. Kutuyu açan sayı iki sonucun çarpımıdır, tek bir işlemin sonucu değildir.
+Cevap A.`
 },
 {
   id: "mat-ui-224",
@@ -589,22 +590,23 @@ Cevap B.`
   kazanim: "M.8.1.2.4",
   kademe: 2,
   zorluk: 3,
-  soru: "Bir belediyenin yıllık raporunda bütün tutarlar, sayfalar sade görünsün diye 10^{9} TL (milyar TL) biriminde yazılmaktadır. Bu yıl bir parkın yenilenmesine ayrılan tutar 3,2 · 10^{6} TL'dir.\n**Buna göre parka ayrılan tutar rapora hangi sayı ile yazılır?**",
+  soru: "Bir arıcılık araştırmasında güçlü bir arı kolonisinin bir mevsim boyunca ziyaret ettiği çiçek sayısı 7,5 · 10^{7} olarak hesaplanmıştır. Araştırmayı yürüten ekip, raporun farklı bölümlerinde bu sayıyı 10'un farklı tam sayı kuvvetlerini kullanarak yazmıştır. Ekip, bölümlerden birinde baştaki sayı ile üssü birlikte ayarlamayı atladığı için o bölümde yazan sayı gerçek değerden farklı çıkmıştır.\n**Buna göre rapordaki yazımlardan hangisi koloninin ziyaret ettiği çiçek sayısına __eşit değildir__?**",
   gorsel: null,
-  secenekler: ["0,0032", "0,032", "32", "3200"],
+  secenekler: ["7500 · 10^{3}", "750 · 10^{5}", "75 · 10^{6}", "0,75 · 10^{8}"],
   dogru: 0,
   hatalar: [
     null,
-    "0,032: Üs farkını 2 sanma. 10^{6}'dan 10^{9}'a geçerken üs 3 artar, bu yüzden baştaki sayı 1000'e bölünür.",
-    "32: Kaydırma yönünü ters alma: 3,2 · 10^{6} = 32 · 10^{5} yazılıp durulmuş. Üs büyüyünce baştaki sayı küçülmelidir.",
-    "3200: 10^{9} yerine 10^{3} (bin) birimini kullanma. 3200 · 10^{3} = 3 200 000'dir."
+    "750 · 10^{5}: Baştaki sayıdaki sıfırları sayarken şaşırma. 750 · 10^{5} = 75 000 000'dir; baştaki sayı 7,5'ten 750'ye çıkarken 100 katına çıktığı için üs 7'den 5'e inmiştir.",
+    "75 · 10^{6}: Virgülü kaldırmanın sayının değerini değiştirdiğini sanma. 75 · 10^{6} = 75 000 000'dir; baştaki sayı 10 katına çıkarken üs 1 azalmıştır.",
+    "0,75 · 10^{8}: Baştaki sayı 1'den küçük olduğu için yazımı yanlış sanma. 0,75 · 10^{8} = 75 000 000'dir; baştaki sayının 1'den küçük olması gösterimi bilimsel olmaktan çıkarır, değerini değiştirmez."
   ],
-  aciklama: `Bir sayıyı 10'un belirli bir kuvveti cinsinden yazarken baştaki sayı ile üs ters yönde değişir: üs artarsa baştaki sayı aynı oranda küçülür.
-Adım 1: Tutarı aç: 3,2 · 10^{6} = 3 200 000 TL.
-Adım 2: İstenen birim 10^{9}'dur. Üs 6'dan 9'a çıkarken 3 arttığına göre baştaki sayı 1000'e bölünmelidir: 3,2 ÷ 1000 = 0,0032.
-Adım 3: Yaz: 3 200 000 = 0,0032 · 10^{9} TL. Rapora 0,0032 yazılır.
-Sağlama: 0,0032 · 1 000 000 000 = 3 200 000. Sayı değişmedi, yalnızca birimi değişti.
-Sık yapılan hata: Üs büyürken baştaki sayıyı da büyütmek. Bu durumda tutar gerçekte olduğundan çok daha büyük görünür.
+  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılırken baştaki sayı ile üs birbirini dengeler: baştaki sayı 10 katına çıkarsa üs 1 azalır, 10'a bölünürse üs 1 artar. Denge bozulursa yazılan sayının değeri de değişir.
+Adım 1: Gerçek değeri aç: 7,5 · 10^{7} = 75 000 000 çiçek.
+Adım 2: Yazımları tek tek hesapla: 7500 · 10^{3} = 7 500 000; 750 · 10^{5} = 75 000 000; 75 · 10^{6} = 75 000 000; 0,75 · 10^{8} = 75 000 000.
+Adım 3: Karşılaştır: üç yazım 75 000 000 sayısını verir, yalnızca 7500 · 10^{3} vermez. Bu yazım gerçek değerin onda biri kadardır.
+Adım 4: Hatanın nerede olduğunu gör: baştaki sayı 750'den 7500'e çıkarken 10 katına çıkmış ama üs 10^{5}'ten 10^{3}'e inerek 2 azalmıştır; oysa 1 azalmalıydı.
+Sağlama: Doğru yazım 7500 · 10^{4} olurdu: 7500 · 10 000 = 75 000 000.
+Sık yapılan hata: En güçlü çeldirici olan 0,75 · 10^{8} yazımını, baştaki sayısı 1'den küçük diye yanlış saymak. Bir yazımın doğruluğu biçimine değil, açıldığında verdiği sayıya bakılarak anlaşılır.
 Cevap A.`
 },
 /* ===================== KADEME 3 — LGS AYARI (ek) ===================== */
@@ -684,23 +686,23 @@ Cevap A.`
   kazanim: "M.8.1.2.4",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir kargo şirketinin dört şubesi, bir yılda işlem gören gönderi sayısını giriş panolarına yazmıştır. Şubeler bu sayıları yazarken 10'un farklı tam sayı kuvvetlerini kullanmıştır. Panolarda yazan değerler aşağıdaki tabloda verilmiştir.\n**Buna göre bir yılda en çok gönderi hangi şubede işlem görmüştür?**",
-  gorsel: `<table class="tablo"><tr><th>Şube</th><th>Gönderi sayısı</th></tr><tr><td>K</td><td>0,04 · 10<sup>7</sup></td></tr><tr><td>L</td><td>0,5 · 10<sup>6</sup></td></tr><tr><td>M</td><td>49 · 10<sup>4</sup></td></tr><tr><td>N</td><td>4500 · 10<sup>2</sup></td></tr></table>`,
-  secenekler: ["K şubesi", "L şubesi", "M şubesi", "N şubesi"],
+  soru: "Bir kitap fuarını açılış günü 3,2 · 10^{4} kişi ziyaret etmiştir. On gün açık kalan fuarın tamamında gelen ziyaretçi sayısı, açılış günündeki ziyaretçi sayısının 4 katı olmuştur. Fuarın kapanış duyurusunda toplam ziyaretçi sayısı, n bir tam sayı olmak üzere 128 · 10^{n} kişi biçiminde yazılmıştır.\n**Buna göre n kaçtır?**",
+  gorsel: null,
+  secenekler: ["2", "3", "4", "5"],
   dogru: 1,
   hatalar: [
-    "K şubesi: 10'un üssü en büyük olanı seçme. K şubesinde 0,04 · 10^{7} = 400 000 gönderi vardır; baştaki sayı 1'den küçük olduğu için sayı beklenenden küçük çıkar.",
+    "2: Çarparken 10'un kuvvetini de küçültme: 3,2 · 10^{4} sayısı 4 ile çarpılınca 12,8 · 10^{3} sanılmış. Çarpmada yalnızca baştaki sayı 4 ile çarpılır, üs değişmez.",
     null,
-    "M şubesi: Sayıları açmadan baştaki sayıların büyüklüğüne bakma. M şubesinde 49 · 10^{4} = 490 000 gönderi vardır; bu, L şubesindeki 500 000'den azdır.",
-    "N şubesi: Baştaki sayısı en büyük olanı seçme. N şubesinde 4500 · 10^{2} = 450 000 gönderi vardır."
+    "4: Baştaki sayıyı 12,8'den 128'e çıkarırken üssü olduğu gibi bırakma. 128 · 10^{4} = 1 280 000 eder; oysa toplam 128 000'dir.",
+    "5: Üssü yanlış yönde değiştirme. Baştaki sayı 10 katına çıkarken üs artırılmış; oysa baştaki sayı büyüyünce üs azalır."
   ],
-  aciklama: `10'un farklı kuvvetleriyle yazılmış sayılar, baştaki sayı ile üs birlikte değerlendirilmeden karşılaştırılamaz. En güvenli yol, hepsini açıp aynı biçimde yazmaktır.
-Adım 1: K şubesini aç: 0,04 · 10^{7} = 0,04 · 10 000 000 = 400 000.
-Adım 2: L şubesini aç: 0,5 · 10^{6} = 0,5 · 1 000 000 = 500 000.
-Adım 3: M ve N şubelerini aç: 49 · 10^{4} = 490 000 ve 4500 · 10^{2} = 450 000.
-Adım 4: Sayıları karşılaştır: 500 000 > 490 000 > 450 000 > 400 000. En çok gönderi L şubesindedir.
-Sağlama: Hepsini bilimsel gösterimle yaz: K = 4 · 10^{5}, L = 5 · 10^{5}, M = 4,9 · 10^{5}, N = 4,5 · 10^{5}. Üsler eşit olunca karşılaştırma baştaki sayılarla yapılır ve 5 en büyüğüdür.
-Sık yapılan hata: Yalnızca 10'un üssüne ya da yalnızca baştaki sayıya bakmak. Sayının değerini ikisi birlikte belirler.
+  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılırken baştaki sayı ile üs ters yönde değişir: baştaki sayı 10 katına çıkarsa üs 1 azalır.
+Adım 1: Açılış günündeki ziyaretçi sayısını aç: 3,2 · 10^{4} = 32 000 kişi.
+Adım 2: Toplam ziyaretçi sayısını bul: 32 000 · 4 = 128 000 kişi. Üslü biçimde de yazabilirsin: 3,2 · 4 = 12,8 olduğuna göre toplam 12,8 · 10^{4}'tür.
+Adım 3: İstenen yazıma geç: baştaki sayı 12,8'den 128'e çıkarken 10 katına çıkar, öyleyse üs 1 azalır: 12,8 · 10^{4} = 128 · 10^{3}.
+Adım 4: Öyleyse n = 3'tür.
+Sağlama: 128 · 10^{3} = 128 · 1000 = 128 000. Duyurudaki sayı, bulunan toplamla aynı.
+Sık yapılan hata: En güçlü çeldirici olan 4'te olduğu gibi, baştaki sayıyı büyütürken üssü olduğu gibi bırakmak. O zaman duyuru 1 280 000 kişiyi, yani gerçek ziyaretçi sayısının 10 katını gösterirdi.
 Cevap B.`
 },
 {
@@ -879,13 +881,13 @@ Cevap A.`
   kazanim: "M.8.1.2.4",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir su arıtma tesisi her gün aynı miktarda, günde 4,8 · 10^{5} litre suyu arıtmaktadır. Arıtılan su, tesisin yanındaki 6 · 10^{2} metreküp hacimli depolara doldurulmakta ve yalnızca tamamen dolan depolar şehre gönderilmektedir; yarım kalan depo beklemeye alınır. Tesis bir hafta boyunca 7 gün çalışmıştır. (1 metreküp = 10^{3} litre)\n**Buna göre bir haftada arıtılan su, bu depolardan kaç tanesini tamamen doldurur?**",
+  soru: "Bir su arıtma tesisi her gün aynı miktarda, günde 4,8 · 10^{5} litre suyu arıtmaktadır. Arıtılan su, tesisin yanındaki 6 · 10^{2} metreküp hacimli depolara doldurulmakta ve yalnızca tamamen dolan depoların suyu şehre gönderilmektedir; dolmayan deponun suyu beklemeye alınır. Tesis bir hafta boyunca 7 gün çalışmıştır. (1 metreküp = 10^{3} litre)\n**Buna göre bir haftada arıtılan su, bu depolardan kaç tanesini tamamen doldurur?**",
   gorsel: `<svg viewBox="0 0 520 165" role="img" aria-label="Arıtma tesisi bilgileri: günlük arıtılan su 4,8 çarpı 10 üssü 5 litre, bir deponun hacmi 6 çarpı 10 üssü 2 metreküp"><rect x="16" y="14" width="300" height="136" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><line x1="16" y1="52" x2="316" y2="52" stroke="currentColor" stroke-width="2"/><text x="166" y="40" font-size="16" font-weight="bold" fill="var(--vurgu)" text-anchor="middle">ARITMA TESİSİ</text><g fill="currentColor" font-size="16"><text x="36" y="86">Günlük arıtılan su:</text><text x="36" y="112">4,8 · 10<tspan font-size="13" dy="-8">5</tspan><tspan dy="8"> litre</tspan></text><text x="36" y="140">Çalışma: haftada 7 gün</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="356" y="46" width="120" height="76" rx="6"/></g><line x1="356" y1="86" x2="476" y2="86" stroke="var(--vurgu)" stroke-width="2"/><g fill="currentColor" font-size="15" text-anchor="middle"><text x="416" y="36">Bir depo</text><text x="416" y="76">6 · 10<tspan font-size="12" dy="-7">2</tspan><tspan dy="7"> m³</tspan></text><text x="416" y="142">Depo hacmi</text></g></svg>`,
   secenekler: ["5", "5,6", "6", "56"],
   dogru: 0,
   hatalar: [
     null,
-    "5,6: \"Tamamen dolan depo\" koşulunu atlama. 5,6 sayısı bulunan bölümdür; altıncı deponun yalnızca bir bölümü dolar, o depo gönderilmez.",
+    "5,6: \"Tamamen dolan depo\" koşulunu atlama. 5,6 sayısı bulunan bölümdür; altıncı deponun yalnızca bir bölümü dolar, o deponun suyu gönderilmez.",
     "6: Bölümü yukarı yuvarlama. Altıncı depo tamamen dolmadığı için sayılmaz.",
     "56: 6 · 10^{2} sayısını 60 sanma. Bir deponun hacmi 600 metreküptür."
   ],
@@ -894,7 +896,7 @@ Adım 1: Günlük arıtılan suyu metreküpe çevir: (4,8 · 10^{5}) ÷ 10^{3} =
 Adım 2: Haftalık miktarı bul: 480 · 7 = 3360 m³.
 Adım 3: Bir deponun hacmini yaz: 6 · 10^{2} = 600 m³.
 Adım 4: Depo sayısını bul: 3360 ÷ 600 = 5,6.
-Adım 5: Koşulu uygula. Yalnızca tamamen dolan depolar gönderildiğine göre 5 depo tamamen dolar; kalan 360 metreküp altıncı depoyu tam dolduramaz.
+Adım 5: Koşulu uygula. Yalnızca tamamen dolan depoların suyu gönderildiğine göre 5 depo tamamen dolar; kalan 360 metreküp altıncı depoyu tam dolduramaz.
 Sağlama: 5 depo · 600 m³ = 3000 m³ ve 3360 − 3000 = 360 m³ artar. 360 < 600 olduğu için altıncı depo yarım kalır.
 Sık yapılan hata: Bölme sonucunu doğrudan cevap yazmak ya da yukarı yuvarlamak. "Tamamen dolan" koşulu, sonucun aşağı yuvarlanmasını gerektirir.
 Cevap A.`
@@ -935,23 +937,23 @@ Cevap D.`
   kazanim: "M.8.1.2.4",
   kademe: 0,
   zorluk: 1,
-  soru: "Bir yayınevi, yeni çıkan kitabından 5 · 10^{3} adet bastığını duyurmuştur.\n**Buna göre aşağıdakilerden hangisi basılan kitap sayısına eşittir?**",
+  soru: "**6 · 10^{5} = - - - - · 10^{3} eşitliğinde boş bırakılan yere aşağıdakilerden hangisi yazılmalıdır?**",
   gorsel: null,
-  secenekler: ["50 · 10^{2}", "500 · 10^{2}", "50 · 10^{4}", "5000 · 10^{3}"],
-  dogru: 0,
+  secenekler: ["6", "60", "600", "6000"],
+  dogru: 2,
   hatalar: [
+    "6: Yalnızca üssü değiştirip baştaki sayıyı olduğu gibi bırakma. 6 · 10^{3} = 6000 eder; oysa eşitliğin solu 600 000'dir.",
+    "60: Üs 2 azalırken baştaki sayıyı yalnızca 10 katına çıkarma. 60 · 10^{3} = 60 000 eder.",
     null,
-    "500 · 10^{2} = 50 000: Baştaki sayıyı 100 katına çıkarıp üssü yalnızca 1 azaltma.",
-    "50 · 10^{4} = 500 000: Baştaki sayıyı 10 katına çıkarırken üssü azaltacak yerde 1 artırma.",
-    "5000 · 10^{3} = 5 000 000: Baştaki sayıyı büyütüp üssü olduğu gibi bırakma."
+    "6000: Baştaki sayıyı gereğinden çok büyütme. 6000 · 10^{3} = 6 000 000 eder; bu, aranan sayının 10 katıdır."
   ],
-  aciklama: `Bir sayı 10'un farklı tam sayı kuvvetleriyle yazılabilir. Baştaki sayı 10 katına çıkarsa üs 1 azalır; böylece sayının değeri korunur.
-Adım 1: Kitap sayısını aç: 5 · 10^{3} = 5 · 1000 = 5000.
-Adım 2: Şıkları hesapla: 50 · 10^{2} = 50 · 100 = 5000. Eşittir.
-Adım 3: Denge kuralını gör: baştaki sayı 5'ten 50'ye çıkarken 10 katına çıktı, bu yüzden üs 3'ten 2'ye indi.
-Sağlama: 5 · 10^{3} = 50 · 10^{2} = 500 · 10^{1} = 5000. Üç yazım da aynı sayıyı gösterir.
-Sık yapılan hata: Baştaki sayıyı büyütürken üssü de büyütmek. Bu, sayının değerini artırır.
-Cevap A.`
+  aciklama: `Bir sayının değeri korunarak 10'un farklı kuvvetleriyle yazılabilmesi için baştaki sayı ile üs ters yönde değişir: üs 1 azalırsa baştaki sayı 10 katına çıkar.
+Adım 1: Eşitliğin solundaki sayıyı aç: 6 · 10^{5} = 600 000.
+Adım 2: Sağ tarafta üs 5'ten 3'e inmiş, yani 2 azalmıştır. Öyleyse baştaki sayı 100 katına çıkmalıdır: 6 → 600.
+Adım 3: Boşluğa 600 yazılır: 600 · 10^{3} = 600 · 1000 = 600 000. İki taraf eşittir.
+Sağlama: 6 · 10^{5} = 60 · 10^{4} = 600 · 10^{3}. Her adımda baştaki sayı 10 katına çıkarken üs 1 azaldı.
+Sık yapılan hata: En güçlü çeldirici olan 60'ta olduğu gibi, üs 2 azalırken baştaki sayıyı yalnızca 10 katına çıkarmak. Üs kaç azalırsa baştaki sayı 10'un o kuvveti kadar büyümelidir.
+Cevap C.`
 },
 {
   id: "mat-ui-014",
@@ -1032,22 +1034,22 @@ Cevap D.`
   kazanim: "M.8.1.2.2",
   kademe: 0,
   zorluk: 3,
-  soru: "Bir bilgisayar oyununda karakterin bölüm sonundaki gücü, üç aşamadaki değerler kullanılarak 2^{5} · 2^{-3} ÷ 2^{-2} işlemiyle hesaplanmaktadır.\n**Buna göre karakterin bölüm sonundaki gücü aşağıdakilerden hangisidir?**",
+  soru: "Bir fotoğraf kulübünde gece çekimleri yapılmaktadır. Kulüp üyesi Eda, birinci çekimde makinesinin poz süresini 2^{5} saniye olarak ayarlamıştır. İkinci çekimde bu süreyi 2^{3} kat kısaltmış, üçüncü çekimde ise ikinci çekimin süresini 2^{2} kat uzatmıştır.\n**Buna göre üçüncü çekimin poz süresi kaç saniyedir?**",
   gorsel: null,
   secenekler: ["2^{0}", "2^{4}", "2^{6}", "2^{10}"],
   dogru: 1,
   hatalar: [
-    "2^{0}: Bölmede üsleri toplama: 5 + (−3) + (−2) = 0 alınmış. Bölmede üsler çıkarılır.",
+    "2^{0}: Uzatmayı da kısaltma sanma: 5 − 3 − 2 = 0 alınmış. Üçüncü çekimde süre uzadığı için o adımda üs eklenir.",
     null,
-    "2^{6}: Çarpmadaki negatif üssü pozitif alma: 5 + 3 − 2 = 6 bulunmuş.",
-    "2^{10}: Bütün üsleri pozitif alıp toplama: 5 + 3 + 2 = 10 bulunmuş."
+    "2^{6}: İki adımı ters yönde uygulama: 5 + 3 − 2 = 6 alınmış. Kısaltmada üs çıkarılır, uzatmada eklenir.",
+    "2^{10}: Bütün üsleri toplama: 5 + 3 + 2 = 10 alınmış. Kısaltmak bölmek demektir ve bölmede üsler çıkarılır."
   ],
-  aciklama: `Aynı tabanlı üslü sayılar çarpılırken üsler toplanır (a^{n} · a^{m} = a^{n+m}), bölünürken üsler çıkarılır (a^{n} ÷ a^{m} = a^{n-m}). Negatif üsler bu işlemlere olduğu gibi katılır.
-Adım 1: Çarpmayı yap: 2^{5} · 2^{-3} = 2^{5+(−3)} = 2^{2}.
-Adım 2: Bölmeyi yap: 2^{2} ÷ 2^{-2} = 2^{2−(−2)} = 2^{2+2} = 2^{4}.
-Adım 3: Sonucu yaz: 2^{4} = 16.
-Sağlama: Değerlerle dene: 2^{5} = 32, 2^{-3} = [[1|8]] ve 2^{-2} = [[1|4]]. 32 · [[1|8]] = 4 ve 4 ÷ [[1|4]] = 16 = 2^{4}.
-Sık yapılan hata: Negatif bir üs çıkarılırken işaret değişimini atlamak. Negatif bir sayıyı çıkarmak onu toplamak demektir.
+  aciklama: `Aynı tabanlı üslü sayılar çarpılırken üsler toplanır (a^{n} · a^{m} = a^{n+m}), bölünürken üsler çıkarılır (a^{n} ÷ a^{m} = a^{n-m}). Bir süreyi "kaç kat kısaltmak" bölme, "kaç kat uzatmak" çarpma demektir.
+Adım 1: İkinci çekimin süresini bul: süre 2^{3} kat kısaldığına göre 2^{5} ÷ 2^{3} = 2^{5-3} = 2^{2} saniyedir.
+Adım 2: Üçüncü çekimin süresini bul: süre 2^{2} kat uzadığına göre 2^{2} · 2^{2} = 2^{2+2} = 2^{4} saniyedir.
+Adım 3: Sonucu aç: 2^{4} = 16 saniye.
+Sağlama: Değerlerle dene: birinci çekim 32 saniye, ikinci çekim 32 ÷ 8 = 4 saniye, üçüncü çekim 4 · 4 = 16 saniyedir ve 16 = 2^{4}'tür.
+Sık yapılan hata: En güçlü çeldirici olan 2^{6}'da olduğu gibi kısaltma ile uzatmayı ters yönde uygulamak. Kısaltma üssü azaltır, uzatma üssü artırır.
 Cevap B.`
 },
 {
@@ -1104,28 +1106,29 @@ Cevap A.`
   kazanim: "M.8.1.2.3",
   kademe: 0,
   zorluk: 4,
-  soru: "Bir laboratuvar cihazı ölçtüğü değeri, basamaklar görünsün diye çözümlenmiş biçimde kaydetmektedir. Cihazın kaydettiği değer 4 · 10^{1} + 7 · 10^{-1} + 2 · 10^{-2} birimdir. Cihaz, ekrana yazarken bu değeri her zaman 10 katına çıkarmakta ve sonucu yine çözümlenmiş biçimde göstermektedir.\n**Buna göre ekranda görünen çözümleme aşağıdakilerden hangisidir?**",
+  soru: "Bir yüzme kulübünde sporcuların 50 metre serbest stil dereceleri, elektronik saatle saniyenin yüzde biri hassasiyetinde ölçülmektedir. Kulübe yeni katılan Nehir'in yaş grubundaki kulüp rekoru 29,30 saniyedir. Nehir bu hafta 50 metreyi 30,05 saniyede yüzmüştür. Antrenörü, Nehir'in derecesini sonraki her hafta bir önceki haftaya göre saniyenin dörtte biri kadar kısaltmasını hedeflemiş ve bu planı bir çizelgeye yazmıştır. Çizelgede Nehir'in kulüp rekorunu ilk kez geçeceği hafta işaretlenmiştir. Yüzmede rekoru geçmek, rekordan daha kısa sürede yüzmek demektir.\n**Nehir her hafta hedefe tam olarak ulaşırsa çizelgede işaretlenen haftadaki derecesinin 10'un tam sayı kuvvetleriyle çözümlenmiş biçimi aşağıdakilerden hangisidir?**",
   gorsel: null,
   secenekler: [
-    "4 · 10^{1} + 7 · 10^{0} + 2 · 10^{-1}",
-    "4 · 10^{2} + 7 · 10^{-1} + 2 · 10^{-2}",
-    "4 · 10^{2} + 7 · 10^{1} + 2 · 10^{0}",
-    "4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}"
+    "2 · 10^{2} + 9 · 10^{1} + 5 · 10^{-2}",
+    "2 · 10^{1} + 9 · 10^{0} + 5 · 10^{-1}",
+    "2 · 10^{1} + 9 · 10^{0} + 3 · 10^{-1}",
+    "2 · 10^{1} + 9 · 10^{0} + 5 · 10^{-2}"
   ],
   dogru: 3,
   hatalar: [
-    "Yalnızca virgülden sonraki terimleri kaydırma: bu çözümleme 47,2 sayısına aittir. 10 ile çarpınca bütün basamaklar bir sola kayar.",
-    "Yalnızca en soldaki terimi 10 ile çarpma: bu çözümleme 400,72 sayısına aittir.",
-    "Boş basamağı atlayıp rakamları yan yana kaydırma: bu çözümleme 472 sayısına aittir; oysa 40,72 sayısında onlar basamağının sağında 0 vardır.",
+    "Birler basamağına 10^{1} verme: basamaklar 1'den başlatılarak numaralandırılmış. Bu çözümleme 290,05 sayısına aittir; birler basamağının değeri 10^{0} = 1'dir.",
+    "Sıfır olan basamağı atlayıp rakamı kaydırma: bu çözümleme 29,5 sayısına aittir. 29,05 sayısında onda birler basamağında 0, yüzde birler basamağında 5 vardır.",
+    "Rekoru eşitlemeyi geçmek sanma: bu çözümleme 3. haftadaki 29,30 saniyeye aittir. Bu derece rekorla aynıdır; rekoru geçmek için daha kısa sürede yüzmek gerekir.",
     null
   ],
-  aciklama: `Bir sayı 10 ile çarpıldığında bütün rakamlar bir basamak sola kayar; başka bir deyişle çözümlemedeki her terimin 10 kuvveti 1 artar.
-Adım 1: Kaydedilen değeri ondalık gösterime çevir: 40 + 0,7 + 0,02 = 40,72.
-Adım 2: 10 ile çarp: 40,72 · 10 = 407,2.
-Adım 3: Yeni sayının basamaklarını adlandır: 4 yüzler, 0 onlar, 7 birler, 2 onda birler basamağındadır.
-Adım 4: Çözümlemeyi yaz: 4 · 10^{2} + 7 · 10^{0} + 2 · 10^{-1}. Onlar basamağındaki 0 için terim yazılmaz.
-Sağlama: Terimleri topla: 400 + 7 + 0,2 = 407,2. Ayrıca her terimin üssünün 1 arttığına dikkat et: 10^{1} → 10^{2}, 10^{-1} → 10^{0}, 10^{-2} → 10^{-1}.
-Sık yapılan hata: 10 ile çarparken yalnızca bir terimi kaydırmak. Çarpma bütün basamakları birlikte etkiler.
+  aciklama: `Bir ondalık sayıyı 10'un tam sayı kuvvetleriyle çözümlemek, her rakamı kendi basamak değeriyle çarpıp toplam olarak yazmaktır: onlar basamağı 10^{1}, birler 10^{0}, onda birler 10^{-1}, yüzde birler 10^{-2} ile gösterilir.
+Adım 1: Haftalık kısaltmayı ondalık gösterimle yaz: saniyenin dörtte biri [[1|4]] saniye, yani 0,25 saniyedir.
+Adım 2: Haftalık dereceleri sırayla bul: bu hafta 30,05; 1. hafta 30,05 − 0,25 = 29,80; 2. hafta 29,55; 3. hafta 29,30; 4. hafta 29,05 saniye.
+Adım 3: Rekorla karşılaştır: 3. haftadaki 29,30 saniye rekorla aynıdır; rekoru eşitler ama geçmez. 4. haftadaki 29,05 saniye rekordan kısadır. Öyleyse çizelgede 4. hafta işaretlenmiştir ve o haftanın derecesi 29,05 saniyedir.
+Adım 4: 29,05 sayısının basamaklarını ayır: 2 onlar, 9 birler, 0 onda birler, 5 yüzde birler basamağındadır.
+Adım 5: Çözümlemeyi yaz: 2 · 10^{1} + 9 · 10^{0} + 5 · 10^{-2}. Onda birler basamağındaki 0 için terim yazılmaz ama 5 yine yüzde birler basamağında kalır.
+Sağlama: Terimleri topla: 20 + 9 + 0,05 = 29,05. En güçlü çeldirici olan 2 · 10^{1} + 9 · 10^{0} + 3 · 10^{-1}, 29,30 sayısının çözümlemesidir; bu derece rekoru yalnızca eşitler, çünkü rekoru geçmek rekordan daha kısa sürede yüzmek demektir.
+Sık yapılan hata: 29,05 sayısındaki 0'ı görmezden gelip 5'i onda birler basamağına yazmak. O zaman çözümleme 29,05 sayısını değil, 29,5 sayısını gösterir.
 Cevap D.`
 }
 );

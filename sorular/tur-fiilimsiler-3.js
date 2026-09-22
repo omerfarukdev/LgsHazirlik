@@ -516,22 +516,22 @@ Cevap D.`
   kademe: 2,
   zorluk: 2,
   soru: `Köydeki dokuma atölyesinde her yaştan kadın çalışıyor. Tezgâha oturan usta, ipleri tek tek sayarak yerleştiriyor. Desenleri ezberden dokumak, babadan kalan bir ustalık istiyor. Bitmiş halılar akşamüstü depoya kaldırılıyor.
-**Bu parçada geçen aşağıdaki fiilimsilerden hangisi, diğer üçünden farklı bir soruya cevap vermektedir?**`,
+**Bu parçada geçen aşağıdaki fiilimsilerden hangisi, bir varlığı __nitelememektedir__?**`,
   gorsel: null,
   secenekler: ["oturan", "kalan", "bitmiş", "sayarak"],
   dogru: 3,
   hatalar: [
-    "'Oturan' sözcüğünü zarf-fiil sanma: bu söz 'Hangi usta?' sorusunun karşılığıdır, 'usta' adını niteler.",
-    "'Kalan' sözcüğünü zarf-fiil sanma: bu söz 'Hangi ustalık?' sorusunun karşılığıdır, 'ustalık' adını niteler.",
-    "'Bitmiş' sözcüğünü çekimli fiil sanma: burada '-miş' eki 'halılar' adını niteleyen bir sıfat-fiil kurar.",
+    "Niteleyen fiilimsiyi atlama: 'oturan' sözü 'Hangi usta?' sorusunun karşılığıdır; hemen arkasındaki 'usta' adını niteler.",
+    "Niteleyen fiilimsiyi atlama: 'kalan' sözü 'Nasıl bir ustalık?' sorusunun karşılığıdır; 'ustalık' adını niteler.",
+    "'-miş' ekini zaman eki sanma: 'bitmiş' burada cümleyi bitiren bir fiil değil, 'halılar' adını niteleyen bir sıfat-fiildir.",
     null
   ],
-  aciklama: `Bir fiilimsinin türünü, hangi sorunun karşılığı olduğuna bakarak bulursun. Dördünü de sınayıp diğerlerinden ayrılanı seçeceksin.
-Adım 1: "Oturan" → "Hangi usta? Tezgâha oturan usta." Arkasındaki adı niteliyor: sıfat-fiil.
-Adım 2: "Kalan" → "Hangi ustalık? Babadan kalan bir ustalık." Yine arkasındaki adı niteliyor: sıfat-fiil.
-Adım 3: "Bitmiş" → "Hangi halılar? Bitmiş halılar." Bu da bir adı niteliyor: sıfat-fiil. Buradaki '-miş' eki zaman eki değildir, çünkü sözcük cümleyi bitirmiyor; cümlenin fiili "kaldırılıyor"dur.
-Adım 4: "Sayarak" → "Nasıl yerleştiriyor? İpleri tek tek sayarak." Bu söz bir adı nitelemez, eylemin nasıl yapıldığını bildirir: zarf-fiil.
-Sağlama: Üç sözcük "Hangi?" sorusuna, biri "Nasıl?" sorusuna cevap veriyor. Farklı olan "sayarak"tır.
+  aciklama: `Bir fiilimsi bir varlığı niteliyorsa hemen arkasında nitelediği ad bulunur ve "Hangi? Nasıl bir?" sorusunun karşılığı olur. Dört sözcüğü de bu ölçütle sına.
+Adım 1: "Oturan" → arkasında "usta" adı duruyor: "Hangi usta? Tezgâha oturan usta." Bir varlığı niteliyor.
+Adım 2: "Kalan" → arkasında "ustalık" adı duruyor: "Nasıl bir ustalık? Babadan kalan bir ustalık." Bu da niteliyor.
+Adım 3: "Bitmiş" → arkasında "halılar" adı duruyor: "Hangi halılar? Bitmiş halılar." Bu da niteliyor. En çok yanıltan seçenek budur: buradaki '-miş' eki duyulan geçmiş zaman eki değildir, çünkü sözcük cümleyi bitirmiyor; cümlenin çekimli fiili "kaldırılıyor"dur.
+Adım 4: "Sayarak" → arkasında nitelediği bir ad yok: "Nasıl yerleştiriyor? İpleri tek tek sayarak." Bu söz bir varlığı değil, eylemin yapılış biçimini gösterir. Aranan sözcük budur.
+Sık yapılan hata: '-mış' ekli her sözcüğü çekimli fiil sanmak. Sözcük cümleyi bitirmiyor ve arkasındaki adı niteliyorsa o bir sıfat-fiildir.
 Cevap D.`
 },
 {
@@ -579,25 +579,25 @@ Sıla, cümlede iki fiilimsi bulunduğunu söylüyor. Umut ise üç fiilimsi old
 **Buna göre, bu cümleyle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
   secenekler: [
-    "Sıla haklıdır; cümlede bir sıfat-fiil ve bir zarf-fiil vardır.",
-    "Umut haklıdır; 'elindeki' sözcüğü de bir fiilimsi sayılır.",
-    "Umut haklıdır; 'gitti' sözcüğü de bir fiilimsi sayılır.",
-    "İkisi de yanılmıştır; cümlede yalnızca bir fiilimsi vardır."
+    "Sıla haklıdır; biri sıfat-fiil, biri zarf-fiildir.",
+    "Umut haklıdır; ikisi sıfat-fiil, biri zarf-fiildir.",
+    "Umut haklıdır; 'gitti' de bir fiilimsi sayılır.",
+    "İkisi de yanılmıştır; cümlede bir fiilimsi vardır."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "'-ki' ekini fiilimsi eki sanma: 'elindeki' sözcüğü 'el' adına gelen '-ki' ekiyle kurulmuştur, fiilden türememiştir.",
+    "'-ki' ekli sözcüğü sıfat-fiil sanma: 'elindeki' sözcüğü 'Hangi sepeti?' sorusuna cevap verse de 'el' adına gelen '-ki' ekiyle kurulmuştur, fiilden türememiştir.",
     "Çekimli fiili fiilimsi sanma: 'gitti' görülen geçmiş zaman ve kişi eki almıştır, cümleyi bitiren yargı odur.",
     "'Uzatıp' sözcüğünü gözden kaçırma: '-ıp' eki iki eylemi birbirine bağlayan bir zarf-fiil ekidir."
   ],
   aciklama: `Böyle sorularda kendi sayımını yapıp iki iddiayı da denetlemelisin. Önce cümlenin çekimli fiilini bul, sonra kalan sözcüklerin fiilden türeyip türemediğine bak.
-Adım 1: Cümlenin yargısını "gitti" kuruyor. Görülen geçmiş zaman ve üçüncü tekil kişi eki almıştır; çekimli fiildir, fiilimsi olamaz.
+Adım 1: Cümlenin yargısını "gitti" kuruyor. Görülen geçmiş zaman ve üçüncü tekil kişi eki almıştır; çekimli fiildir, fiilimsi olamaz. Bu yüzden C elenir.
 Adım 2: "Çalan" sözcüğüne bak: "Hangi komşumuz? Kapıyı çalan komşumuz." Arkasındaki adı niteliyor; sıfat-fiildir. (1)
-Adım 3: "Elindeki" sözcüğüne bak: el + i + n + de + ki. Ek '-ki'dir ve bir ada gelmiştir. Sözcük fiilden türememiştir; fiilimsi değildir.
-Adım 4: "Uzatıp" sözcüğüne bak: "uzattı ve hemen gitti" anlamındadır; iki eylemi birbirine bağlar. Zarf-fiildir. (2)
-Adım 5: Cümlede tam iki fiilimsi vardır ve bunlar farklı türdendir. Sıla haklıdır.
-Sık yapılan hata: '-ki' ekini fiilimsi eki sanmak. Bu ek ada gelir ve "hangi" sorusuna cevap verse bile fiilden türeme değildir.
+Adım 3: "Uzatıp" sözcüğüne bak: "uzattı ve hemen gitti" anlamındadır; iki eylemi birbirine bağlar. Zarf-fiildir. (2) Bu sözcüğü gözden kaçıran öğrenci cümlede tek fiilimsi bulur ve D'yi işaretler.
+Adım 4: Geriye en güçlü çeldirici olan B kalır. B, "elindeki" sözünü ikinci bir sıfat-fiil sayar. Oysa bu sözcük el + i + n + de + ki biçiminde kurulmuştur; kökü "el" adıdır, bir fiil değildir. "Hangi sepeti?" sorusuna cevap verse bile fiilimsi olamaz.
+Adım 5: Cümlede tam iki fiilimsi vardır ve bunlar farklı türdendir: bir sıfat-fiil, bir zarf-fiil. Sıla haklıdır.
+Sık yapılan hata: '-ki' ekini fiilimsi eki sanmak. Bu ek ada gelir; fiilden türemeyen bir sözcük hiçbir zaman fiilimsi sayılmaz.
 Cevap A.`
 },
 {
@@ -721,27 +721,28 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Her ilkbaharda mahalle bahçesinde bir tohum takas şenliği düzenleniyor. Katılanlar, kendi yetiştirdikleri sebzelerden ayırdıkları tohumları küçük zarflara koyup uzun bir masaya bırakıyor. Karşılığında başkasının bıraktığı zarflardan diledikleri kadar alabiliyorlar. Amaç, yerel sebze çeşitlerinin kaybolmasını önlemek. Aşağıda bu yılki şenlikle ilgili dört cümle verilmiştir.
-(I) Şenliğe gelen herkes yanında en az bir zarf tohum getirdi.
-(II) Tohumları zarflara ayırmak bir hafta önceden başlamıştı.
-(III) Masaya yaklaşınca zarfların üstündeki adları tek tek okuduk.
-(IV) Bu yıl domates çeşitleri her zamankinden fazlaydı.
-**Buna göre, numaralanmış cümlelerin hangisinde fiilimsi, kendisinden sonra gelen adı nitelemektedir?**`,
+  soru: `Her ilkbaharda mahalle bahçesinde bir tohum takas şenliği düzenleniyor. Mahalleli, kendi yetiştirdiği sebzelerden ayırdığı tohumları küçük zarflara koyup uzun bir masaya bırakıyor. Karşılığında başka zarflardan dilediği kadar alabiliyor. Amaç, yerel sebze çeşitlerinin kaybolmasını önlemek.
+**Bu şenlikle ilgili aşağıdaki cümlelerin hangisinde sıfat-fiil, nitelediği ad cümleden düştüğü için o adın yerini tutmaktadır?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: [
+    "Masaya erken ulaşanlar, nadir çeşitlerin zarflarını hemen aldı.",
+    "Tohumları zarflara ayıran gönüllüler sabahtan beri çalışıyordu.",
+    "Katılımcılar zarflarını uzun masanın üstüne sırayla bıraktı.",
+    "Eski tohumları korumaya bu yıl daha çok kişi destek verdi."
+  ],
   dogru: 0,
   hatalar: [
     null,
-    "İsim-fiili sıfat-fiil sanma: 'ayırmak' sözcüğünden sonra nitelediği bir ad gelmez, bu söz işin adını bildirir.",
-    "Zarf-fiili sıfat-fiil sanma: 'yaklaşınca' bir adı nitelemez, okuma işinin ne zaman yapıldığını bildirir.",
-    "Fiilimsisi olmayan cümleyi seçme: bu cümlede fiilden türemiş hiçbir sözcük yoktur, 'fazlaydı' sözü ada gelen ek fiille kurulmuştur."
+    "Adı yerinde duran sıfat-fiili seçme: 'ayıran' sözcüğünün hemen arkasında nitelediği 'gönüllüler' adı var; sıfat-fiil adı niteliyor, onun yerini tutmuyor.",
+    "Kalıcı adı adlaşmış sıfat-fiil sanma: 'katılımcılar' yapım ekleriyle kurulmuş bir addır; bu cümlede hiç fiilimsi yoktur.",
+    "Hâl eki alan isim-fiili adlaşmış sıfat-fiil sanma: 'korumaya' bir kişinin ya da nesnenin yerini tutmaz, yapılan işin adını bildirir."
   ],
-  aciklama: `Bir adı niteleyen fiilimsi sıfat-fiildir; nitelediği adın hemen önünde durur ve "Hangi?" sorusunun karşılığı olur. Cümleleri tek tek denetle.
-Adım 1: I. cümlenin çekimli fiili "getirdi". Geriye "gelen" kalır ve hemen arkasında "herkes" sözcüğü duruyor: "Kim getirdi? Şenliğe gelen herkes." Sözcük arkasındaki adı niteliyor. Aranan cümle budur.
-Adım 2: II. cümlenin çekimli fiili "başlamıştı". Geriye "ayırmak" kalır: "Ne başlamıştı? Tohumları zarflara ayırmak." Bu bir işin adıdır, arkasından nitelediği bir ad gelmez.
-Adım 3: III. cümlenin çekimli fiili "okuduk". Geriye "yaklaşınca" kalır: "Ne zaman okuduk? Masaya yaklaşınca." Zarf-fiildir; kendisinden sonra gelen "zarfların" sözcüğünü nitelemez, çünkü "yaklaşınca zarf" diye bir tamlama kurulmaz.
-Adım 4: IV. cümledeki "her zamankinden" sözü '-ki' ekiyle kurulmuştur; "fazlaydı" ise "fazla" sözcüğüne ek fiil gelmesiyle oluşmuştur. Cümlede fiilimsi yoktur.
-Sağlama: I. cümleden "gelen" sözcüğünü at: "Şenliğe herkes yanında en az bir zarf tohum getirdi." Cümle ayakta kalır, yalnızca "herkes" sözünün sınırı kaybolur. Sıfatlar böyle davranır.
+  aciklama: `Sıfat-fiil normalde bir adın önünde durur ve onu niteler: "yarışı kazanan öğrenciler". Nitelenen ad cümleden düşerse sıfat-fiil o adın yerini tutar ve adın alacağı çoğul ya da hâl eklerini kendisi alır: "yarışı kazananlar". Buna adlaşma denir. Dört cümleyi bu ölçütle sına.
+Adım 1: A → çekimli fiil "aldı". Geriye "ulaşanlar" kalır. Arkasında nitelediği bir ad yoktur; sözcük "masaya erken ulaşan kişiler" demektir. Düşen adı geri koyabiliyorsun, demek ki sıfat-fiil adın yerini tutuyor. Aranan cümle budur.
+Adım 2: B → çekimli fiil "çalışıyordu". Geriye "ayıran" kalır ve hemen arkasında "gönüllüler" adı duruyor: "Hangi gönüllüler? Tohumları zarflara ayıran gönüllüler." Sözcük bir sıfat-fiildir ama adı niteliyor, onun yerini tutmuyor; ad cümlede yerinde duruyor. En çok yanıltan seçenek budur, çünkü sıfat-fiil gerçekten vardır.
+Adım 3: C → çekimli fiil "bıraktı". "Katılımcılar" sözcüğü de kişileri adlandırır; ama yapım ekleriyle kurulmuş kalıcı bir addır, fiilimsi değildir. Cümlede fiilimsi yoktur.
+Adım 4: D → çekimli fiil "verdi". Geriye "korumaya" kalır. Bu sözcük de ek almıştır; ama bir kişinin ya da nesnenin yerini tutmaz: "Neye destek verdi? Tohumları koruma işine." Bu bir isim-fiildir.
+Sık yapılan hata: Çoğul ya da hâl eki almış her fiil kökenli sözcüğü adlaşmış sıfat-fiil sanmak. Önce sözcüğün sıfat-fiil olup olmadığına, sonra yerine "… kişiler" ya da "… şeyler" diyebilip diyemediğine bak.
 Cevap A.`
 },
 {
@@ -751,23 +752,23 @@ Cevap A.`
   zorluk: 3,
   soru: `Şehirde bu yıl on bisiklet paylaşım istasyonu açıldı. Kullanıcılar telefonlarındaki uygulamadan bisikletin kilidini açıyor, yolculuk bitince bisikleti başka bir istasyona bırakabiliyor. İstasyonları işleten ekip her akşam kısa notlar tutuyor. Aşağıda bu notlardan dördü verilmiştir.
 **Buna göre, bu notların hangi ikisinde sıfat-fiil kullanılmıştır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Akşam notu</th></tr><tr><td>I</td><td>Sabah bırakılan iki bisikletin zinciri paslanmıştı.</td></tr><tr><td>II</td><td>Kullanıcılar, kilidi açmak için uygulamayı güncellemeli.</td></tr><tr><td>III</td><td>Hava kararınca istasyondaki lambalar kendiliğinden yanıyor.</td></tr><tr><td>IV</td><td>Onarımdan çıkan bisikletleri yarın sabah dağıtacağız.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Akşam notu</th></tr><tr><td>I</td><td>Kullanıcılar, kilidi açmak için uygulamayı güncellemeli.</td></tr><tr><td>II</td><td>Sabah bırakılan iki bisikletin zinciri paslanmıştı.</td></tr><tr><td>III</td><td>Onarımdan çıkan bisikletleri yarın sabah dağıtacağız.</td></tr><tr><td>IV</td><td>Hava kararınca istasyondaki lambalar kendiliğinden yanıyor.</td></tr></table>`,
   secenekler: ["I ve II", "I ve IV", "II ve III", "III ve IV"],
-  dogru: 1,
+  dogru: 2,
   hatalar: [
-    "İsim-fiili sıfat-fiil sanma: II. nottaki 'açmak' bir adı nitelemez, işin adını bildirir.",
+    "İsim-fiili sıfat-fiil sanma: I. nottaki 'açmak' bir adı nitelemez, 'Ne için?' sorusunun karşılığıdır ve işin adını bildirir.",
+    "İki notun türünü birden karıştırma: I. nottaki 'açmak' isim-fiil, IV. nottaki 'kararınca' ise zarf-fiildir; ikisi de bir adı nitelemez.",
     null,
-    "İki notun da türünü karıştırma: II. nottaki 'açmak' isim-fiil, III. nottaki 'kararınca' ise zarf-fiildir.",
-    "Zarf-fiili sıfat-fiil sanma: III. nottaki 'kararınca' lambaların ne zaman yandığını bildirir, bir adı nitelemez."
+    "Zarf-fiili sıfat-fiil sanma: IV. nottaki 'kararınca' lambaların ne zaman yandığını bildirir; 'istasyondaki' sözcüğü ise ada gelen '-ki' ekiyle kurulmuştur."
   ],
-  aciklama: `Dört notun her birindeki fiilimsiyi bulup türünü yaz; sonra sıfat-fiil taşıyan ikiliyi seç.
-Adım 1: I. not → çekimli fiil "paslanmıştı". Geriye "bırakılan" kalır ve arkasında "bisiklet" adı var: "Hangi bisikletler? Sabah bırakılan bisikletler." Sıfat-fiil.
-Adım 2: II. not → çekimli fiil "güncellemeli". Geriye "açmak" kalır: "Ne için güncellemeli? Kilidi açmak için." İşin adını bildirir: isim-fiil.
-Adım 3: III. not → çekimli fiil "yanıyor". Geriye "kararınca" kalır: "Ne zaman yanıyor? Hava kararınca." Zarf-fiil. ("İstasyondaki" sözcüğü '-ki' ekiyle kurulmuştur, fiilimsi değildir.)
-Adım 4: IV. not → çekimli fiil "dağıtacağız". Geriye "çıkan" kalır ve arkasında "bisikletler" adı var: "Hangi bisikletler? Onarımdan çıkan bisikletler." Sıfat-fiil.
-Adım 5: Sıfat-fiil yalnızca I ve IV. notlarda vardır.
-Sık yapılan hata: IV. nottaki "dağıtacağız" sözcüğünü sıfat-fiil sanmak. Sözcük kişi eki almış ve cümleyi bitiriyorsa '-acak' eki gelecek zaman ekidir.
-Cevap B.`
+  aciklama: `Dört notun her birindeki fiilimsiyi bulup türünü yaz; sonra sıfat-fiil taşıyan ikiliyi seç. Sıfat-fiil, bir adın hemen önünde durup onu niteleyen fiilimsidir.
+Adım 1: I. not → çekimli fiil "güncellemeli". Geriye "açmak" kalır: "Ne için güncellemeli? Kilidi açmak için." İşin adını bildirir: isim-fiil.
+Adım 2: II. not → çekimli fiil "paslanmıştı". Geriye "bırakılan" kalır ve arkasında "bisiklet" adı var: "Hangi bisikletler? Sabah bırakılan bisikletler." Sıfat-fiil.
+Adım 3: III. not → çekimli fiil "dağıtacağız". Geriye "çıkan" kalır ve arkasında "bisikletler" adı var: "Hangi bisikletler? Onarımdan çıkan bisikletler." Sıfat-fiil.
+Adım 4: IV. not → çekimli fiil "yanıyor". Geriye "kararınca" kalır: "Ne zaman yanıyor? Hava kararınca." Zarf-fiil. En güçlü çeldirici D'dir, çünkü "istasyondaki lambalar" sözü de "Hangi lambalar?" sorusuna cevap verir. Ama "istasyondaki" sözcüğü "istasyon" adına gelen '-ki' ekiyle kurulmuştur; fiilden türemediği için fiilimsi değildir.
+Adım 5: Sıfat-fiil yalnızca II ve III. notlarda vardır.
+Sık yapılan hata: III. nottaki "dağıtacağız" sözcüğünü sıfat-fiil sanmak. Sözcük kişi eki almış ve cümleyi bitiriyorsa '-acak' eki gelecek zaman ekidir.
+Cevap C.`
 },
 {
   id: "tur-fi-315",
@@ -802,9 +803,9 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Karadeniz kıyısındaki küçük bir fenerde otuz yıl bekçilik yapmış bir adamla konuştuk. Anlattığına göre lambayı her akşam kendisi yakar, sabah olunca söndürürmüş. Fener on yıl önce otomatik sisteme geçmiş; bekçilik görevi de böylece sona ermiş. Anlattıklarından dört cümle aşağıdaki tabloda verilmiştir.
+  soru: `Köyümüzün dere kenarındaki eski su değirmeninde otuz yıl değirmencilik yapmış bir amcayla konuştuk. Anlattığına göre değirmenin su yolunu her sabah kendisi açar, akşam olunca kaparmış. Değirmen on yıl önce durmuş; köylüler artık unu hazır alıyormuş. Anlattıklarından dört cümle aşağıdaki tabloda verilmiştir.
 **Buna göre, bu cümlelerle ilgili aşağıdakilerden hangisi doğrudur?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Fener bekçisinin cümlesi</th></tr><tr><td>I</td><td>Akşam karardıkça lambanın ışığı daha uzaktan görünürdü.</td></tr><tr><td>II</td><td>Fenerin camlarını silmek haftanın en yorucu işiydi.</td></tr><tr><td>III</td><td>Kıyıya vuran dalgaların sesine zamanla alıştım.</td></tr><tr><td>IV</td><td>Şimdi fenerde kimse kalmıyor, her şey kendiliğinden çalışıyor.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Değirmencinin cümlesi</th></tr><tr><td>I</td><td>Dere coştukça değirmen taşlarının sesi bütün köyden duyulurdu.</td></tr><tr><td>II</td><td>Un çuvallarını sırtta taşımak günün en zor işiydi.</td></tr><tr><td>III</td><td>Değirmene buğday getiren köylüler sıralarını sabırla beklerdi.</td></tr><tr><td>IV</td><td>Şimdi değirmende kimse çalışmıyor, çark da artık dönmüyor.</td></tr></table>`,
   secenekler: [
     "I. cümledeki fiilimsi, bir varlığı nitelemektedir.",
     "II. cümledeki fiilimsi, eylemin zamanını bildirmektedir.",
@@ -813,16 +814,16 @@ Cevap C.`
   ],
   dogru: 3,
   hatalar: [
-    "Zarf-fiili sıfat-fiil sanma: 'karardıkça' bir varlığı nitelemez, ışığın ne zaman daha uzaktan göründüğünü bildirir.",
-    "İsim-fiili zarf-fiil sanma: 'silmek' bir zaman bildirmez, yorucu olan işin adını bildirir.",
-    "Çekimli fiili ikinci bir fiilimsi sanma: III. cümlede yalnızca 'vuran' fiilimsidir, 'alıştım' ise çekimli fiildir.",
+    "Zarf-fiili sıfat-fiil sanma: 'coştukça' bir varlığı nitelemez, taşların sesinin ne zaman bütün köyden duyulduğunu bildirir.",
+    "İsim-fiili zarf-fiil sanma: 'taşımak' bir zaman bildirmez, günün en zor işinin adını bildirir.",
+    "Çekimli fiili ikinci bir fiilimsi sanma: III. cümlede yalnızca 'getiren' fiilimsidir; 'beklerdi' ise cümleyi bitiren çekimli fiildir.",
     null
   ],
-  aciklama: `Her cümlenin fiilimsisini bulup görevini adlandır; sonra dört yargıyı bu listeyle karşılaştır.
-Adım 1: I → çekimli fiil "görünürdü". Geriye "karardıkça" kalır: "Ne zaman daha uzaktan görünürdü? Akşam karardıkça." Zarf-fiildir, bir varlığı nitelemez. A yanlıştır.
-Adım 2: II → yargıyı "işiydi" sözü kurar. Geriye "silmek" kalır: "En yorucu iş neydi? Camları silmek." İşin adını bildiren isim-fiildir, zaman bildirmez. B yanlıştır.
-Adım 3: III → çekimli fiil "alıştım". Geriye yalnızca "vuran" kalır: "Hangi dalgalar? Kıyıya vuran dalgalar." Tek fiilimsi vardır. C yanlıştır.
-Adım 4: IV → cümlede iki yargı var: "kalmıyor" ve "çalışıyor". İkisi de şimdiki zaman ekiyle çekimlenmiştir. "Kendiliğinden" sözcüğü ise fiilden türememiştir. Cümlede fiilimsi yoktur. D doğrudur.
+  aciklama: `Her cümlenin fiilimsisini bulup görevini adlandır; sonra dört yargıyı bu listeyle karşılaştır. Fiilimsi, fiilden türeyip kip ve kişi eki almadan ad, sıfat ya da zarf gibi kullanılan sözcüktür.
+Adım 1: I → çekimli fiil "duyulurdu". Geriye "coştukça" kalır: "Ne zaman bütün köyden duyulurdu? Dere coştukça." Zarf-fiildir. Arkasından "değirmen" sözcüğü gelse de onu nitelemez, çünkü "coştukça değirmen" diye bir tamlama kurulmaz. A yanlıştır.
+Adım 2: II → yargıyı "işiydi" sözü kurar. Geriye "taşımak" kalır: "Günün en zor işi neydi? Çuvalları sırtta taşımak." İşin adını bildiren isim-fiildir, zaman bildirmez. B yanlıştır.
+Adım 3: III → çekimli fiil "beklerdi". Geriye yalnızca "getiren" kalır: "Hangi köylüler? Değirmene buğday getiren köylüler." Tek fiilimsi vardır. En güçlü çeldirici C'dir: "beklerdi" sözcüğünü de fiilimsi sayan öğrenci iki fiilimsi bulur. Oysa bu sözcük geniş zaman ve hikâye eki almış, cümlenin yargısını kuran çekimli fiildir. C yanlıştır.
+Adım 4: IV → cümlede iki yargı var: "çalışmıyor" ve "dönmüyor". İkisi de şimdiki zaman ekiyle çekimlenmiştir. Bu iki fiil dışında fiilden türeyip ad, sıfat ya da zarf gibi kullanılan bir sözcük yoktur. Cümlede fiilimsi yoktur. D doğrudur.
 Sık yapılan hata: Her cümlede mutlaka bir fiilimsi bulunduğunu sanmak. Bir cümle yalnızca çekimli fiillerden de kurulabilir.
 Cevap D.`
 },
@@ -831,27 +832,34 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Okulun dergi kulübü, hazırladığı dört tanıtım yazısını fiilimsi kullanımı bakımından incelemiş ve her yazıdaki fiilimsi sayısını aşağıdaki grafiğe aktarmıştır. Bu yazılardan biri şudur:
+  soru: `Okulun dergi kulübü, bahçedeki yeni gözlem kulesi için kısa bir tanıtım yazısı hazırlamıştır:
 
 Okulumuzun arka bahçesine kurulan gözlem kulesini bu hafta kullanmaya başladık. Kuşları uzaktan izlemek için pencereler küçük tutulmuş. Kuleye çıkınca bütün bahçeyi aynı anda görebiliyorsun.
 
-**Buna göre, yukarıdaki yazı grafikteki hangi yazıdır?**`,
-  gorsel: `<svg viewBox="0 0 420 280" role="img" aria-label="Grafik: yazılardaki fiilimsi sayıları; birinci yazı 2, ikinci yazı 3, üçüncü yazı 4, dördüncü yazı 7"><g fill="currentColor" font-size="15"><text x="8" y="14">Grafik: Yazılardaki fiilimsi sayıları</text><text x="38" y="225">0</text><text x="38" y="175">2</text><text x="38" y="125">4</text><text x="38" y="75">6</text><text x="38" y="25">8</text><text x="82" y="248">I. yazı</text><text x="162" y="248">II. yazı</text><text x="242" y="248">III. yazı</text><text x="326" y="248">IV. yazı</text></g><g stroke="currentColor" stroke-width="2" fill="none"><path d="M60 20 V220 H400"/></g><g stroke="currentColor" stroke-width="1" fill="none" opacity="0.4"><path d="M60 170 H400"/><path d="M60 120 H400"/><path d="M60 70 H400"/><path d="M60 20 H400"/></g><g fill="var(--vurgu)" stroke="currentColor" stroke-width="2"><rect x="78" y="170" width="50" height="50"/><rect x="160" y="145" width="50" height="75"/><rect x="242" y="120" width="50" height="100"/><rect x="324" y="45" width="50" height="175"/></g></svg>`,
-  secenekler: ["I. yazı", "II. yazı", "III. yazı", "IV. yazı"],
-  dogru: 2,
-  hatalar: [
-    "İki fiilimsiyi atlama: yalnızca 'kurulan' ile 'izlemek' sözcüklerini sayarsan 2 bulursun; 'kullanmaya' ve 'çıkınca' da birer fiilimsidir.",
-    "Bir fiilimsiyi atlama: 'kullanmaya' sözcüğünü saymazsan 3 bulursun; bu söz de bir isim-fiildir.",
-    null,
-    "Çekimli fiilleri de sayma: 'başladık', 'tutulmuş' ve 'görebiliyorsun' kip eki almış fiillerdir; onları da katarsan 7'ye ulaşırsın."
+Kulüp, yazının sonuna bir cümle daha ekleyecektir. Bu cümle eklendiğinde yazıda isim-fiil, sıfat-fiil ve zarf-fiil türlerinin her birinden tam ikişer tane bulunması istenmektedir.
+**Buna göre, yazının sonuna aşağıdaki cümlelerden hangisi eklenmelidir?**`,
+  gorsel: null,
+  secenekler: [
+    "Kuleye tırmanan ziyaretçiler, kuşları sessizce oturarak bekliyor.",
+    "Sabah gelen gruplar, dürbünleri paylaşıp kuşları saymayı seviyor.",
+    "Kuşları ürkütmemek, kuleye çıkan her kişi için çok önemlidir.",
+    "Dürbünle bakarken pencereden dışarıya doğru fazla eğilmemelisin."
   ],
-  aciklama: `Grafikten okunan sayılar sırasıyla 2, 3, 4 ve 7'dir. Sen yazıdaki fiilimsileri sayıp hangi sütuna uyduğunu bulacaksın.
-Adım 1: Birinci cümlenin çekimli fiili "başladık". Geriye iki sözcük kalır: "kurulan" ("Hangi kule? Bahçeye kurulan kule." → sıfat-fiil) ve "kullanmaya" ("Neye başladık? Kullanma işine." → isim-fiil). 2 fiilimsi.
-Adım 2: İkinci cümlenin çekimli fiili "tutulmuş". Geriye "izlemek" kalır ("Ne için küçük tutulmuş?" → isim-fiil). Toplam 3.
-Adım 3: Üçüncü cümlenin çekimli fiili "görebiliyorsun". Geriye "çıkınca" kalır ("Ne zaman görebiliyorsun?" → zarf-fiil). Toplam 4.
-Adım 4: Yazıda 4 fiilimsi vardır. Grafikte 4 değerine ulaşan sütun III. yazıya aittir.
-Sağlama: Bulunan fiilimsiler kurulan, kullanmaya, izlemek ve çıkınca. Dört tane; üstelik üç türün üçü de bu yazıda bulunuyor.
-Cevap C.`
+  dogru: 0,
+  hatalar: [
+    null,
+    "'Kullanmaya' sözcüğünü gözden kaçırma: yazıda bir değil iki isim-fiil vardır; üç türden birer tane getiren bu cümle eklenirse isim-fiil sayısı üçe çıkar.",
+    "'İzlemek için' sözünü zarf-fiil sanma: 'izlemek' işin adını bildiren bir isim-fiildir; bu cümle eklenirse isim-fiil üçe çıkar, zarf-fiil birde kalır.",
+    "Eksiği yarım tamamlama: bu cümle yalnızca bir zarf-fiil ('bakarken') getirir; yazıdaki tek sıfat-fiil 'kurulan' olduğu için sıfat-fiil sayısı birde kalır."
+  ],
+  aciklama: `Önce yazıdaki fiilimsileri türlerine göre say, sonra hangi türden kaç tane eksik olduğunu bul; en son eksiği tam olarak kapatan cümleyi seç.
+Adım 1: Birinci cümlenin çekimli fiili "başladık". Geriye iki sözcük kalır: "kurulan" ("Hangi kule? Bahçeye kurulan kule." → sıfat-fiil) ve "kullanmaya" ("Neye başladık? Kullanma işine." → isim-fiil).
+Adım 2: İkinci cümlenin çekimli fiili "tutulmuş". Geriye "izlemek" kalır: "Ne için küçük tutulmuş? Kuşları izlemek için." Bu söz işin adını bildirir: isim-fiil. Arkasından "için" gelmesi onu zarf-fiil yapmaz.
+Adım 3: Üçüncü cümlenin çekimli fiili "görebiliyorsun". Geriye "çıkınca" kalır: "Ne zaman görebiliyorsun? Kuleye çıkınca." Zarf-fiil. Yazının dökümü: 2 isim-fiil, 1 sıfat-fiil, 1 zarf-fiil. Demek ki eklenecek cümlede 1 sıfat-fiil ve 1 zarf-fiil bulunmalı, isim-fiil hiç bulunmamalı.
+Adım 4: Seçenekleri denetle. A → "tırmanan" ("Hangi ziyaretçiler?" → sıfat-fiil) ve "oturarak" ("Nasıl bekliyor?" → zarf-fiil). Tam aranan ikili; döküm 2-2-2 olur. C → "ürkütmemek" (isim-fiil) ve "çıkan" (sıfat-fiil): isim-fiil üçe çıkar, zarf-fiil birde kalır. D → yalnızca "bakarken" (zarf-fiil): sıfat-fiil birde kalır.
+Adım 5: En güçlü çeldirici B'dir, çünkü "gelen" (sıfat-fiil), "paylaşıp" (zarf-fiil) ve "saymayı" (isim-fiil) ile üç türden birer tane getirir ve dengeli görünür. Ama yazıda zaten iki isim-fiil vardır; B eklenirse döküm 3 isim-fiil, 2 sıfat-fiil, 2 zarf-fiil olur.
+Sık yapılan hata: "kullanmaya" gibi ek almış isim-fiilleri gözden kaçırmak. Sözcük ek alsa da bir işi adlandırıyorsa isim-fiildir.
+Cevap A.`
 },
 {
   id: "tur-fi-318",
@@ -1013,13 +1021,18 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe öğretmeni, sahil temizliği etkinliğini anlatan ve aşağıdaki üç koşulu birden sağlayan bir cümle yazmalarını istemiştir:
+  soru: `Okulun çevre kulübü, sahil temizliği etkinliğinden bir fotoğrafı okul panosuna asacak ve altına tek cümlelik bir açıklama yazacaktır. Kulüp başkanı, bu açıklama cümlesinin aşağıdaki üç koşulu birden sağlamasını istemektedir:
 · Cümlede iki fiilimsi bulunacak.
 · Bu iki fiilimsiden yalnızca biri bir varlığı niteleyecek.
 · Cümlede olumsuzluk eki almış bir fiilimsi bulunmayacak.
-**Buna göre, hangi öğrencinin yazdığı cümle bu koşulların üçünü de sağlar?**`,
-  gorsel: `<table class="tablo"><tr><th>Öğrenci</th><th>Yazdığı cümle</th></tr><tr><td>Aylin</td><td>Kumsalı temizlemek bütün günümüzü aldı.</td></tr><tr><td>Berk</td><td>Denize dökülen atıkları toplayan gönüllüler alkışlandı.</td></tr><tr><td>Ceren</td><td>Sahilde topladığımız çöpleri ayırmak iki saatimizi aldı.</td></tr><tr><td>Deniz</td><td>Poşet kullanmamaya karar veren herkesi kutluyorum.</td></tr></table>`,
-  secenekler: ["Aylin", "Berk", "Ceren", "Deniz"],
+**Buna göre, aşağıdaki cümlelerden hangisi fotoğrafın altına yazılabilir?**`,
+  gorsel: null,
+  secenekler: [
+    "Kumsalı baştan sona temizlemek bütün günümüzü aldı.",
+    "Denize dökülen atıkları toplayan gençler alkışlandı.",
+    "Sahilde topladığımız çöpleri ayırmak iki saatimizi aldı.",
+    "Poşet kullanmamaya söz veren gönüllüler bez torbayla geldi."
+  ],
   dogru: 2,
   hatalar: [
     "Birinci koşulu denetlememe: bu cümlede tek fiilimsi vardır ('temizlemek'), oysa iki fiilimsi isteniyordu.",
@@ -1028,11 +1041,11 @@ Cevap D.`
     "Üçüncü koşulu denetlememe: 'kullanmamaya' sözcüğü olumsuzluk eki almış bir isim-fiildir; bu koşul açıkça dışarıda bırakılmıştı."
   ],
   aciklama: `Üç koşul var; bir cümleyi seçmeden önce üçünü de tek tek denetlemelisin. Bir koşulu bile sağlamayan cümle elenir.
-Adım 1: Aylin → çekimli fiil "aldı". Geriye yalnızca "temizlemek" kalır: tek fiilimsi. Birinci koşul sağlanmaz, elenir.
-Adım 2: Berk → çekimli fiil "alkışlandı". Geriye "dökülen" ("Hangi atıklar?") ve "toplayan" ("Hangi gönüllüler?") kalır. İki fiilimsi var ama ikisi de bir varlığı niteliyor. İkinci koşul sağlanmaz, elenir.
-Adım 3: Deniz → çekimli fiil "kutluyorum". Geriye "kullanmamaya" (kullan + ma olumsuzluk + ma isim-fiil + ya) ve "veren" ("Hangi herkes?" → sıfat-fiil) kalır. İki fiilimsi var, yalnızca biri niteliyor; ama "kullanmamaya" olumsuzluk eki almış bir fiilimsidir. Üçüncü koşul sağlanmaz, elenir.
-Adım 4: Ceren → çekimli fiil "aldı". Geriye "topladığımız" ("Hangi çöpler? Sahilde topladığımız çöpler." → sıfat-fiil, niteliyor) ve "ayırmak" ("İki saat alan nedir?" → isim-fiil, nitelemiyor) kalır. İki fiilimsi var, yalnızca biri niteliyor, ikisinde de olumsuzluk eki yok. Üç koşul da sağlanır.
-Sık yapılan hata: İlk koşulu sağlayan cümleyi görünce diğer koşulları denetlemeden işaretlemek. Berk ve Deniz'in cümleleri de iki fiilimsi taşır; onları eleyen ikinci ve üçüncü koşullardır.
+Adım 1: A → çekimli fiil "aldı". Geriye yalnızca "temizlemek" kalır: tek fiilimsi. Birinci koşul sağlanmaz, elenir.
+Adım 2: B → çekimli fiil "alkışlandı". Geriye "dökülen" ("Hangi atıklar?") ve "toplayan" ("Hangi gençler?") kalır. İki fiilimsi var ama ikisi de bir varlığı niteliyor. İkinci koşul sağlanmaz, elenir.
+Adım 3: D → çekimli fiil "geldi". Geriye "kullanmamaya" (kullan + ma olumsuzluk + ma isim-fiil + ya) ve "veren" ("Hangi gönüllüler?" → sıfat-fiil) kalır. İki fiilimsi var ve yalnızca biri niteliyor; ilk iki koşulu sağladığı için en güçlü çeldirici budur. Ama "kullanmamaya" olumsuzluk eki almış bir fiilimsidir. Üçüncü koşul sağlanmaz, elenir.
+Adım 4: C → çekimli fiil "aldı". Geriye "topladığımız" ("Hangi çöpler? Sahilde topladığımız çöpler." → sıfat-fiil, niteliyor) ve "ayırmak" ("İki saat alan nedir?" → isim-fiil, nitelemiyor) kalır. İki fiilimsi var, yalnızca biri niteliyor, ikisinde de olumsuzluk eki yok. Üç koşul da sağlanır.
+Sık yapılan hata: İlk koşulu sağlayan cümleyi görünce diğer koşulları denetlemeden işaretlemek. B ve D'deki cümleler de iki fiilimsi taşır; onları eleyen ikinci ve üçüncü koşullardır.
 Cevap C.`
 },
 {

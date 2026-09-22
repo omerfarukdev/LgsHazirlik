@@ -72,12 +72,12 @@ fen-mv-222 | F.8.1.1.1 | z3 | k2 | Kuzey Kutup Dairesi'nin içinde kurulmuş bir
 fen-mv-223 | F.8.1.1.1 | z3 | k2 | Bir kültür dergisinde şu bilgi yer almaktadır: "Anadolu'da 21 Mart, baharın başlangıcı sayılır ve yüzyıllardır bayram olarak kutl… | ✓Yalnız I
 fen-mv-224 | F.8.1.1.1 | z3 | k2 | Mektup arkadaşı olan iki öğrenci, 21 Haziran günü bulundukları şehirlerde Güneş'in doğuş ve batış saatlerini not edip birbirlerin… | ✓I ve II
 fen-mv-225 | F.8.1.1.1 | z3 | k2 | Bir açık hava sineması, gösterilerini hava tam karardıktan sonra başlatmaktadır. İşletme, aynı şehirde dört ayda uyguladığı başla… | ✓I ve II
-fen-mv-313 | F.8.1.1.1 | z3 | k3 | Bir kuş gözlem derneği, ayağına halka takılan bir göçmen kuş türünün yıl içinde bulunduğu bölgeleri kaydetmiştir. Kayıtların bir … | ✓Yalnız I
+fen-mv-313 | F.8.1.1.1 | z3 | k3 | Bir kuş gözlem derneği, ayağına halka takılan bir göçmen kuşun yıl içinde bulunduğu bölgeleri kaydetmiştir. Kayıtların bir bölümü… | ✓Yalnız I
 fen-mv-314 | F.8.1.1.1 | z3 | k3 | Uluslararası bir yelken federasyonu, açık deniz yarışlarını her ülkede o ülkenin yaz aylarında düzenlemektedir. Federasyonun yayı… | ✓I ve II
-fen-mv-315 | F.8.1.1.1 | z3 | k3 | İnsan derisi, üzerine düşen güneş ışığının etkisiyle D vitamini üretir. Kuzey Yarım Küre'deki bir şehrin hastanesi, bir yıl boyun… | ✓I ve II
+fen-mv-315 | F.8.1.1.1 | z3 | k3 | İnsan derisi, üzerine düşen güneş ışığının etkisiyle D vitamini üretir. Kuzey Yarım Küre'deki bir şehrin hastanesi, yıl içindeki … | ✓I ve II
 fen-mv-316 | F.8.1.1.1 | z3 | k3 | Bir araştırma teknesi, 21 Aralık günü Ekvator'dan başlayıp güneye doğru ilerlemiş ve uğradığı üç limanda o günkü gündüz süresini … | ✓I, II ve III
 fen-mv-317 | F.8.1.1.1 | z3 | k3 | Kuzey Yarım Küre'deki bir tarihî yapının güney duvarında dar bir pencere bulunmaktadır. Pencereden giren güneş ışığı, yalnızca 21… | ✓Işığın taşa ulaşması için Güneş'in öğle vakt…
-fen-mv-318 | F.8.1.1.1 | z3 | k3 | Bir bilim şenliğinde öğrenciler, özdeş üç kaba eşit miktarda su koyup kapları aynı ışık kaynağından eşit uzaklığa, farklı açılarl… | ✓I ve II
+fen-mv-318 | F.8.1.1.1 | z3 | k3 | Bir bilim şenliğinde öğrenciler, ağzı kapalı, yassı ve özdeş üç kaba eşit miktarda su doldurup kapları aynı ışık kaynağından eşit… | ✓I ve II
 fen-mv-319 | F.8.1.1.1 | z3 | k3 | Bir gök bilim uygulaması, seçilen şehirlerde Güneş'in yerel saatle öğle vaktindeki durumunu göstermektedir. Uygulamanın 21 Aralık… | ✓I ve II
 fen-mv-320 | F.8.1.1.1 | z3 | k3 | Bir okulda bilim şenliği için hazırlanan afişte, Dünya'nın Güneş çevresindeki yörüngesinde aralarında üçer ay bulunan dört konumu… | ✓N
 fen-mv-321 | F.8.1.1.1 | z4 | k3 | Bir fen dersinde öğretmen tahtaya şunu yazmıştır: "Dünya'nın dönme ekseninin dolanma düzlemiyle yaptığı açı 90° olsaydı, yani eks… | ✓I ve III

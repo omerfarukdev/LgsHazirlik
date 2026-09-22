@@ -115,31 +115,6 @@ Sık yapılan hata: 'sürüsünü' sözündeki iyelik ekine bakıp bu sözü öz
 Cevap C.`
 },
 {
-  id: "tur-og-115",
-  kazanim: "T.8.4.18",
-  kademe: 1,
-  zorluk: 1,
-  soru: `Küçük yelkenliler sabahleyin limandan sessizce ayrıldı.
-**Bu cümle kaç ögeden oluşmaktadır?**`,
-  gorsel: null,
-  secenekler: ["İki", "Üç", "Dört", "Beş"],
-  dogru: 3,
-  hatalar: [
-    "Yalnızca özne ile yüklemi saydın: 'sabahleyin', 'limandan' ve 'sessizce' sözlerinin her biri ayrı birer ögedir.",
-    "Üç ögeyi bulup birini atladın: cümlede biri yer, ikisi zarf olmak üzere yüklem ve özne dışında üç öge daha vardır.",
-    "'sabahleyin' ile 'sessizce' sözlerinden birini yüklemin ya da öznenin parçası saydın; ikisi de ayrı birer zarf tamlayıcısıdır.",
-    null
-  ],
-  aciklama: `Öge sayısını bulmak için önce yüklemi işaretle, sonra kalan söz öbeklerine tek tek soru sor. Sözcük değil, öge sayılır: bir sıfat, nitelediği adla birlikte tek öge olur.
-Adım 1: Yüklem 'ayrıldı'. (1)
-Adım 2: "Ne ayrıldı?" → Küçük yelkenliler. Özne. (2) 'Küçük' sözü ayrı bir öge değildir; yelkenlileri niteler.
-Adım 3: "Ne zaman ayrıldı?" → sabahleyin. Zarf tamlayıcısı. (3)
-Adım 4: "Nereden ayrıldı?" → limandan. Yer tamlayıcısı. (4)
-Adım 5: "Nasıl ayrıldı?" → sessizce. Zarf tamlayıcısı. (5)
-Sağlama: Bir cümlede aynı türden birden çok öge bulunabilir; burada iki ayrı zarf tamlayıcısı vardır ve her biri ayrı sayılır.
-Cevap D.`
-},
-{
   id: "tur-og-116",
   kazanim: "T.8.4.18",
   kademe: 1,
@@ -198,27 +173,55 @@ Sık yapılan hata: '-de' ekli 'serada' sözünü zarf sanmak. O söz yer bildir
 Cevap D.`
 },
 {
+  id: "tur-og-115",
+  kazanim: "T.8.4.18",
+  kademe: 1,
+  zorluk: 2,
+  soru: `Küçük yelkenliler sabahleyin limandan sessizce ayrıldı.
+**Bu cümle kaç ögeden oluşmaktadır?**`,
+  gorsel: null,
+  secenekler: ["İki", "Üç", "Dört", "Beş"],
+  dogru: 3,
+  hatalar: [
+    "Yalnızca özne ile yüklemi saydın: 'sabahleyin', 'limandan' ve 'sessizce' sözlerinin her biri ayrı birer ögedir.",
+    "Üç ögeyi bulup birini atladın: cümlede biri yer, ikisi zarf olmak üzere yüklem ve özne dışında üç öge daha vardır.",
+    "'sabahleyin' ile 'sessizce' sözlerinden birini yüklemin ya da öznenin parçası saydın; ikisi de ayrı birer zarf tamlayıcısıdır.",
+    null
+  ],
+  aciklama: `Öge sayısını bulmak için önce yüklemi işaretle, sonra kalan söz öbeklerine tek tek soru sor. Sözcük değil, öge sayılır: bir sıfat, nitelediği adla birlikte tek öge olur.
+Adım 1: Yüklem 'ayrıldı'. (1)
+Adım 2: "Ne ayrıldı?" → Küçük yelkenliler. Özne. (2) 'Küçük' sözü ayrı bir öge değildir; yelkenlileri niteler.
+Adım 3: "Ne zaman ayrıldı?" → sabahleyin. Zarf tamlayıcısı. (3)
+Adım 4: "Nereden ayrıldı?" → limandan. Yer tamlayıcısı. (4)
+Adım 5: "Nasıl ayrıldı?" → sessizce. Zarf tamlayıcısı. (5)
+Sağlama: Bir cümlede aynı türden birden çok öge bulunabilir; burada iki ayrı zarf tamlayıcısı vardır ve her biri ayrı sayılır.
+Cevap D.`
+},
+{
   id: "tur-og-118",
   kazanim: "T.8.4.18",
   kademe: 1,
   zorluk: 2,
-  soru: `Aşağıdaki tabloda karlı bir kış günü dört cümleyle anlatılmıştır.
-**Bu cümlelerin hangisinin yüklemi bir fiil __değildir__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Köy yolu dünden beri kapalıydı.</td></tr><tr><td>II</td><td>Çocuklar bahçede kardan adam yaptı.</td></tr><tr><td>III</td><td>Kar akşama kadar hiç dinmedi.</td></tr><tr><td>IV</td><td>Traktör dar yolu güçlükle açtı.</td></tr></table>`,
+  soru: `Aşağıdaki tabloda bir köyde geçen kış tatilinden dört cümle verilmiştir.
+**Bu cümlelerin hangisinde özne tek bir sözcükten oluşmaktadır?**`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Çocuklar bahçede kocaman bir kardan adam yaptı.</td></tr><tr><td>II</td><td>Kış tatili bu yıl erken başladı.</td></tr><tr><td>III</td><td>Çatıdaki buzlar öğleye doğru eridi.</td></tr><tr><td>IV</td><td>Karla örtülü tepeler güneşte parıldadı.</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 0,
   hatalar: [
     null,
-    "II'de yüklem 'yaptı' sözüdür; çekimlenmiş bir fiildir. 'kardan adam' ise hâl eki almamış nesnedir.",
-    "III'te yüklem 'dinmedi' sözüdür; olumsuz da olsa çekimlenmiş bir fiildir.",
-    "IV'te yüklem 'açtı' sözüdür; çekimlenmiş bir fiildir. 'güçlükle' ise zarf tamlayıcısıdır."
+    "Zaman bildiren sözü özneden ayırma: 'Kış' sözü burada yükleme değil, 'tatili' sözüne bağlıdır. 'Ne başladı?' sorusunun karşılığı 'Kış tatili' öbeğinin tamamıdır; özne iki sözcüktür.",
+    "'-deki' ekli sözü yer tamlayıcısı sanma: 'Çatıdaki' sözü 'buzlar' adını niteler, yükleme bağlanmaz. 'Ne eridi?' sorusunun karşılığı 'Çatıdaki buzlar' öbeğinin tamamıdır.",
+    "'-la' ekli sözü zarf tamlayıcısı sanma: 'Karla' sözü 'örtülü' sözüne bağlıdır ve öznenin içinde kalır. 'Ne parıldadı?' sorusunun karşılığı 'Karla örtülü tepeler' öbeğinin tamamıdır."
   ],
-  aciklama: `Yüklem her zaman fiil olmak zorunda değildir. Bir ad ya da sıfat, ek fiil (-dır, -dı, -mış, -sa) alarak da yüklem olabilir. Önemli olan sözün yargı bildirmesidir.
-Adım 1: II, III ve IV. cümlelerin sonundaki sözlere bak: 'yaptı', 'dinmedi', 'açtı'. Üçü de iş bildiren, çekimlenmiş fiillerdir.
-Adım 2: I. cümlenin sonundaki söz 'kapalıydı'dır. Bu sözün kökü 'kapalı'dır ve bir sıfattır; sonundaki '-ydı' ek fiildir. Yani yüklem bir fiil değil, ek fiil almış bir sözdür. Aradığın cümle budur.
-Adım 3: I. cümlenin öbür ögelerini de bul: "Ne kapalıydı?" → Köy yolu (özne). "Ne zamandan beri?" → dünden beri (zarf tamlayıcısı).
-Sağlama: 'kapalı' sözünü tek başına söyle; bir yargı bildirmez, yalnızca bir durumu anlatır. Ek fiil eklenince ("kapalıydı") yargı bildiren bir yüklem olur.
-Sık yapılan hata: "Yüklem varsa mutlaka fiildir." diye ezberlemek. Ad ve sıfatlar da ek fiil alarak yüklem olur.
+  aciklama: `Özne, yüklemin bildirdiği işi yapan ya da olan ögedir. Özne tek bir sözcük olabileceği gibi bir söz öbeği de olabilir: bir adı niteleyen ya da tamlayan sözler, o adla birlikte tek öge sayılır.
+Adım 1: Her cümlede önce yüklemi bul, sonra yükleme "kim" ya da "ne" diye sor.
+Adım 2: I → Yüklem 'yaptı'. "Kim yaptı?" → Çocuklar. Özne tek sözcüktür. ('bahçede' yer tamlayıcısı, 'kocaman bir kardan adam' nesnedir.) Aradığın cümle budur.
+Adım 3: II → Yüklem 'başladı'. "Ne başladı?" → Kış tatili. Özne iki sözcüktür.
+Adım 4: III → Yüklem 'eridi'. "Ne eridi?" → Çatıdaki buzlar. 'Çatıdaki' sözü hangi buzların eridiğini söyler; özne iki sözcüktür.
+Adım 5: IV → Yüklem 'parıldadı'. "Ne parıldadı?" → Karla örtülü tepeler. 'Karla örtülü' sözü tepeleri niteler; özne üç sözcüktür.
+En güçlü çeldirici II'dir: 'Kış' bir zaman adı olduğu için "Ne zaman başladı?" sorusunun karşılığı sanılabilir. Ama bu sorunun karşılığı 'bu yıl' ve 'erken' sözleridir; 'Kış' ise 'tatili' sözüyle birlikte tek bir ad öbeği kurar.
+Sağlama: Özneden ayırdığın sözü yükleme bağlamayı dene. "Çatıdaki eridi" denemez; '-ki' ekli söz ancak bir adın önünde kullanılır. 'Karla' sözü de yalnız başına değil, 'örtülü' sözüyle birlikte anlam kurar ve tepelerin nasıl tepeler olduğunu söyler. Demek ki ikisi de öznenin parçasıdır.
+Sık yapılan hata: Özneyi yalnızca adın kendisi sanıp onu niteleyen ya da tamlayan sözleri ayrı öge saymak.
 Cevap A.`
 },
 {
@@ -729,23 +732,25 @@ Cevap B.`
   kazanim: "T.8.4.18",
   kademe: 2,
   zorluk: 3,
-  soru: `Kasabanın deresi üstündeki taş değirmen, uzun bir aradan sonra yeniden un öğütüyor. Bir öğrenci, değirmenle ilgili dört cümleyi inceleyip her cümlede bulunmayan bir ögeyi tabloya yazmıştır.
-**Buna göre öğrenci, hangi cümle için yazdığı ögede yanılmıştır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Öğrenciye göre bu cümlede bulunmayan öge</th></tr><tr><td>I</td><td>Su, çarkı bütün gün döndürdü.</td><td>yer tamlayıcısı</td></tr><tr><td>II</td><td>Değirmenci, unu çuvallara doldurdu.</td><td>zarf tamlayıcısı</td></tr><tr><td>III</td><td>Köylüler, değirmenin önünde sabırla bekledi.</td><td>özne</td></tr><tr><td>IV</td><td>Un kokusu, bütün kasabaya sabahleyin yayıldı.</td><td>nesne</td></tr></table>`,
+  soru: `Küçük bir sahil kasabasında balıkçılar, fırtınada yırtılan ağlarını kış aylarında kıyıda onarır. Balıkçılardan biri, defterine yazdığı dört cümleyi kısaltmak için her cümleden bir söz silmiştir. Aşağıdaki tabloda cümleler ve silinen sözler verilmiştir.
+**Buna göre hangi cümleden silinen söz, o cümlenin zarf tamlayıcısıdır?**`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Silinen söz</th></tr><tr><td>I</td><td>Yaşlı balıkçı, yırtık ağları kulübede onardı.</td><td>yırtık</td></tr><tr><td>II</td><td>Genç balıkçı, şafağı iskelede bekledi.</td><td>şafağı</td></tr><tr><td>III</td><td>Tekneler, fırtınadan önce barınağa sığındı.</td><td>fırtınadan önce</td></tr><tr><td>IV</td><td>Martılar, boş kasaların üstünden havalandı.</td><td>boş kasaların üstünden</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
   hatalar: [
-    "I. cümlede '-e, -de, -den' ekli hiçbir söz yoktur; öğrencinin yazdığı gibi yer tamlayıcısı gerçekten bulunmaz.",
-    "II. cümlede 'nasıl, ne zaman, niçin, ne kadar' sorularının karşılığı yoktur; öğrencinin yazdığı gibi zarf tamlayıcısı gerçekten bulunmaz.",
+    "Sıfatı zarf tamlayıcısı sanma: 'yırtık' sözü işin nasıl yapıldığını değil, ağların nasıl olduğunu bildirir. 'ağları' sözüne bağlıdır ve nesnenin içinde kalır; tek başına öge değildir.",
+    "Zaman bildiren adı zarf tamlayıcısı sanma: 'şafağı' sözü '-ı' ekini almıştır ve 'Neyi bekledi?' sorusunun karşılığıdır; bu cümlenin nesnesidir.",
     null,
-    "IV. cümlede 'Neyi yayıldı?' diye sorulamaz; öğrencinin yazdığı gibi nesne gerçekten bulunmaz."
+    "Yer tamlayıcısını zarf tamlayıcısı sanma: 'boş kasaların üstünden' sözü 'Nereden havalandı?' sorusunun karşılığıdır; işin başladığı yeri bildirir."
   ],
-  aciklama: `Her satırda, yazılan ögenin o cümlede gerçekten bulunmadığını denetlemen gerekir. Bunun için cümleyi ögelerine ayırıp listedekini ara.
-Adım 1: I → Yüklem 'döndürdü'. Özne 'Su', nesne 'çarkı', zarf tamlayıcısı 'bütün gün'. Yer tamlayıcısı yok; satır doğru.
-Adım 2: II → Yüklem 'doldurdu'. Özne 'Değirmenci', nesne 'unu', yer tamlayıcısı 'çuvallara'. Zarf tamlayıcısı yok; satır doğru.
-Adım 3: III → Yüklem 'bekledi'. "Kim bekledi?" → Köylüler. Özne cümlede vardır! Bu cümlede bulunmayan öge nesnedir; öğrenci yanılmıştır. Aradığın satır budur.
-Adım 4: IV → Yüklem 'yayıldı'. Özne 'Un kokusu', yer tamlayıcısı 'bütün kasabaya', zarf tamlayıcısı 'sabahleyin'. Nesne yok; satır doğru.
-Sık yapılan hata: Cümlenin başındaki sözü, virgülle ayrıldığı için ayrı bir açıklama sanmak. III. cümlede 'Köylüler' sözü cümlenin öznesidir.
+  aciklama: `Zarf tamlayıcısı, yükleme sorulan "nasıl, ne zaman, niçin, ne kadar" sorularının karşılığıdır. Silinen sözün hangi öge olduğunu anlamak için onu cümlenin yüklemine bağlayıp hangi sorunun karşılığı olduğuna bakarsın.
+Adım 1: I → Yüklem 'onardı'. 'yırtık' sözü yükleme değil, 'ağları' sözüne bağlıdır ve ağların nasıl olduğunu söyler; yani bir sıfattır. Nesne 'yırtık ağları' öbeğinin tamamıdır; 'yırtık' tek başına öge değildir.
+Adım 2: II → Yüklem 'bekledi'. "Neyi bekledi?" → şafağı. Zaman bildiren bir ad olsa da '-ı' ekini almıştır ve işten etkilenen ögedir: nesne.
+Adım 3: III → Yüklem 'sığındı'. "Ne zaman sığındı?" → fırtınadan önce. Zarf tamlayıcısıdır. Aradığın cümle budur.
+Adım 4: IV → Yüklem 'havalandı'. "Nereden havalandı?" → boş kasaların üstünden. Yer tamlayıcısıdır.
+En güçlü çeldirici II'dir: 'şafak' bir zaman adıdır. Ama yükleme "Ne zaman bekledi?" diye sorunca 'şafağı' cevabı gelmez; bu söz "Neyi bekledi?" sorusunun cevabıdır.
+Sağlama: III'te silinen sözün yerine 'akşamüstü' koy: "Tekneler, akşamüstü barınağa sığındı." Cümlenin yapısı değişmez; demek ki silinen söz de zaman bildiren bir zarf tamlayıcısıydı.
+Sık yapılan hata: Zaman bildiren her sözü zarf tamlayıcısı, '-den' ekli her sözü yer tamlayıcısı saymak. Ögeyi ek ya da anlam değil, yükleme sorulan soru belirler.
 Cevap C.`
 },
 {
@@ -783,15 +788,16 @@ Cevap C.`
   kazanim: "T.8.4.18",
   kademe: 2,
   zorluk: 3,
-  soru: `Bir öğrenci, havalimanında çalışan bir görevliyle ilgili cümlenin ögelerini bulmak için yükleme sorular sormuş ve aşağıdaki şemayı çizmiştir.
+  soru: `Bir öğrenci, havalimanında çalışan bir görevliyi anlatan aşağıdaki cümlenin ögelerini bulmak için yükleme sorular sormuş ve bir şema çizmiştir:
+Görevli, gecikmeli uçağın yolcularını bekleme salonuna sabırla yönlendirdi.
 **Buna göre şemada sorulan sorulardan hangisi, karşısındaki söze uymamaktadır?**`,
-  gorsel: `<svg viewBox="0 0 560 250" role="img" aria-label="Şema: yüklem yönlendirdi; Kim? Görevli, Kimi? gecikmeli uçağın yolcularını, Nereye? bekleme salonuna, Ne zaman? sabırla"><text x="280" y="20" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Cümle: Görevli, gecikmeli uçağın yolcularını bekleme salonuna sabırla yönlendirdi.</text><rect x="8" y="90" width="120" height="60" rx="10" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="2.5"/><text x="68" y="114" font-size="15" text-anchor="middle" fill="currentColor">yüklem</text><text x="68" y="136" font-size="15" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">yönlendirdi</text><g stroke="currentColor" stroke-width="2" fill="none"><path d="M128 100 L 196 54"/><path d="M128 112 L 196 100"/><path d="M128 128 L 196 146"/><path d="M128 140 L 196 192"/></g><g font-size="14" fill="var(--vurgu2)" font-weight="bold"><text x="150" y="60">Kim?</text><text x="150" y="96">Kimi?</text><text x="150" y="160">Nereye?</text><text x="150" y="206">Ne zaman?</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="200" y="34" width="330" height="34" rx="8"/><rect x="200" y="82" width="330" height="34" rx="8"/><rect x="200" y="128" width="330" height="34" rx="8"/><rect x="200" y="176" width="330" height="34" rx="8"/></g><g font-size="15" fill="currentColor"><text x="214" y="56">Görevli</text><text x="214" y="104">gecikmeli uçağın yolcularını</text><text x="214" y="150">bekleme salonuna</text><text x="214" y="198">sabırla</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 560 222" role="img" aria-label="Öğrencinin şeması: 'yönlendirdi' yüklem kutusundan dört ok çıkıyor. Kim? oku 'Görevli', Kimi? oku 'gecikmeli uçağın yolcularını', Nereye? oku 'bekleme salonuna', Ne zaman? oku 'sabırla' kutusuna gidiyor."><text x="280" y="20" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Öğrencinin şeması</text><rect x="8" y="34" width="120" height="176" rx="10" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="2.5"/><text x="68" y="114" font-size="15" text-anchor="middle" fill="currentColor">yüklem</text><text x="68" y="138" font-size="15" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">yönlendirdi</text><g stroke="currentColor" stroke-width="2"><line x1="128" y1="51" x2="240" y2="51"/><line x1="128" y1="99" x2="240" y2="99"/><line x1="128" y1="145" x2="240" y2="145"/><line x1="128" y1="193" x2="240" y2="193"/></g><g fill="currentColor"><polygon points="249,51 238,46 238,56"/><polygon points="249,99 238,94 238,104"/><polygon points="249,145 238,140 238,150"/><polygon points="249,193 238,188 238,198"/></g><g font-size="14" fill="var(--vurgu2)" font-weight="bold" text-anchor="middle"><text x="186" y="44">Kim?</text><text x="186" y="92">Kimi?</text><text x="186" y="138">Nereye?</text><text x="186" y="186">Ne zaman?</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="250" y="34" width="300" height="34" rx="8"/><rect x="250" y="82" width="300" height="34" rx="8"/><rect x="250" y="128" width="300" height="34" rx="8"/><rect x="250" y="176" width="300" height="34" rx="8"/></g><g font-size="15" fill="currentColor"><text x="264" y="56">Görevli</text><text x="264" y="104">gecikmeli uçağın yolcularını</text><text x="264" y="150">bekleme salonuna</text><text x="264" y="198">sabırla</text></g></svg>`,
   secenekler: ["Kim?", "Kimi?", "Nereye?", "Ne zaman?"],
   dogru: 3,
   hatalar: [
-    "'Kim yönlendirdi?' sorusunun karşılığı gerçekten 'Görevli' sözüdür; bu ok doğrudur.",
-    "'Kimi yönlendirdi?' sorusunun karşılığı gerçekten 'gecikmeli uçağın yolcularını' sözüdür; bu ok doğrudur.",
-    "'Nereye yönlendirdi?' sorusunun karşılığı gerçekten 'bekleme salonuna' sözüdür; bu ok doğrudur.",
+    "Özne sorusunu yanlış sanma: 'Kim yönlendirdi?' sorusunun karşılığı gerçekten 'Görevli' sözüdür; bu ok doğrudur.",
+    "Nesnenin sorusunu yalnızca 'Neyi?' sanma: nesne bir insansa 'Kimi?' diye sorulur. 'Kimi yönlendirdi?' sorusunun karşılığı gerçekten 'gecikmeli uçağın yolcularını' sözüdür; bu ok doğrudur.",
+    "'-e' ekli sözün sorusunu karıştırma: 'Nereye yönlendirdi?' sorusunun karşılığı gerçekten 'bekleme salonuna' sözüdür; bu ok doğrudur.",
     null
   ],
   aciklama: `Ögeleri bulurken yükleme doğru soruyu sormak zorundasın. Yanlış soru, doğru sözü bulsan bile ögeye yanlış ad vermene yol açar.
@@ -800,7 +806,9 @@ Adım 2: "Kim yönlendirdi?" → Görevli. Özne; ok doğru.
 Adım 3: "Kimi yönlendirdi?" → gecikmeli uçağın yolcularını. Belirtili nesne; ok doğru.
 Adım 4: "Nereye yönlendirdi?" → bekleme salonuna. Yer tamlayıcısı; ok doğru.
 Adım 5: 'sabırla' sözüne bak. "Ne zaman yönlendirdi?" sorusu zaman ister; oysa 'sabırla' bir zaman bildirmez. Bu sözün karşılık verdiği soru "Nasıl yönlendirdi?" sorusudur. Uymayan soru budur.
+En güçlü çeldirici 'Kimi?' sorusudur: nesneye her zaman "Neyi?" diye sorulacağını sanan öğrenci bu oku yanlış bulur. Oysa nesne bir insansa soru "Kimi?" olur.
 Sağlama: 'sabırla' sözü yine de bir zarf tamlayıcısıdır; ama zaman değil, durum bildirir. Zarf tamlayıcısının dört ayrı sorusu olduğunu unutma: nasıl, ne zaman, niçin, ne kadar.
+Sık yapılan hata: Sözün hangi öge olduğunu doğru bilip sorusunu denetlememek. 'sabırla' zarf tamlayıcısıdır ama sorusu "Ne zaman?" değil, "Nasıl?"tır.
 Cevap D.`
 },
 {
@@ -870,23 +878,25 @@ Cevap D.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 3,
-  soru: `Göller yöresindeki bir köyde temmuz ayında lavanta hasadı başlar. Bir öğrenci, hasatla ilgili dört cümlede vurgulanan ögeyi bulup tabloya yazmıştır. Türkçede vurgulanan öge, yükleme en yakın olan ögedir.
-**Buna göre öğrenci, hangi cümlede vurgulanan ögeyi yanlış belirlemiştir?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Öğrenciye göre vurgulanan öge</th></tr><tr><td>I</td><td>Köylüler lavantaları sabah erkenden biçer.</td><td>zarf tamlayıcısı</td></tr><tr><td>II</td><td>Demetleri köyün meydanında kurutur.</td><td>yer tamlayıcısı</td></tr><tr><td>III</td><td>Kurumuş çiçekleri kamyonlara kadınlar yükler.</td><td>nesne</td></tr><tr><td>IV</td><td>Alıcılar lavanta yağını bu köyden alır.</td><td>yer tamlayıcısı</td></tr></table>`,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `Göller yöresindeki bir köyde temmuz ayında lavanta hasadı başlar. Mor tarlalar biçilir, demetler kurutulur, çiçeklerden yağ elde edilir. Aşağıda bu hasatla ilgili dört cümle numaralandırılarak verilmiştir.
+**Buna göre numaralanmış cümlelerin hangi ikisinde vurgulanan öge aynı türdendir?**`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Biçilen demetleri kadınlar köyün meydanında kurutur.</td></tr><tr><td>II</td><td>Köylüler lavantaları temmuzun ilk haftasında biçer.</td></tr><tr><td>III</td><td>Kurumuş çiçekleri kamyonlara gençler yükler.</td></tr><tr><td>IV</td><td>Lavanta yağını küçük şişelere ustalar özenle doldurur.</td></tr></table>`,
+  secenekler: ["I ve II", "I ve III", "II ve IV", "III ve IV"],
   dogru: 2,
   hatalar: [
-    "I'de yüklemden hemen önceki söz 'sabah erkenden'dir ve 'Ne zaman biçer?' sorusunun karşılığıdır; öğrencinin yazdığı 'zarf tamlayıcısı' doğrudur.",
-    "II'de yüklemden hemen önceki söz 'köyün meydanında'dır ve 'Nerede kurutur?' sorusunun karşılığıdır; öğrencinin yazdığı doğrudur.",
+    "Eke bakarak karar verme: 'köyün meydanında' ile 'temmuzun ilk haftasında' sözleri aynı '-da' ekini almıştır ama biri yer, öbürü zaman bildirir. I'de vurgulanan öge yer tamlayıcısı, II'de zarf tamlayıcısıdır.",
+    "Özneyi vurgulanamaz sanma: III'te yükleme en yakın öge 'gençler'dir ve öznedir. 'kamyonlara' ondan önce geldiği için vurgulanan öge değildir.",
     null,
-    "IV'te yüklemden hemen önceki söz 'bu köyden'dir ve 'Nereden alır?' sorusunun karşılığıdır; öğrencinin yazdığı doğrudur."
+    "Kısa zarfı atlama: IV'te yükleme en yakın öge 'ustalar' değil, 'özenle' sözüdür. Bu söz 'Nasıl doldurur?' sorusunun karşılığı olan bir zarf tamlayıcısıdır."
   ],
-  aciklama: `Vurgulanan ögeyi bulmak iki adımlıdır: önce yüklemden hemen önceki sözü bulursun, sonra o sözün hangi öge olduğunu yükleme soru sorarak belirlersin.
-Adım 1: I → Yüklem 'biçer'. Hemen önceki söz 'sabah erkenden'. "Ne zaman?" → zarf tamlayıcısı. Satır doğru.
-Adım 2: II → Yüklem 'kurutur'. Hemen önceki söz 'köyün meydanında'. "Nerede?" → yer tamlayıcısı. Satır doğru. (Bu cümlenin öznesi gizlidir: onlar.)
-Adım 3: III → Yüklem 'yükler'. Hemen önceki söz 'kadınlar'. "Kim yükler?" → kadınlar. Bu söz nesne değil, öznedir. Öğrenci burada yanılmıştır. Cümlenin nesnesi 'Kurumuş çiçekleri' sözüdür ama o, yüklemden uzaktadır.
-Adım 4: IV → Yüklem 'alır'. Hemen önceki söz 'bu köyden'. "Nereden?" → yer tamlayıcısı. Satır doğru.
-Sık yapılan hata: Cümlede nesne görünce vurgunun ona ait olduğunu sanmak. Vurgu, ögenin türüne değil yüklemle arasındaki uzaklığa bağlıdır.
+  aciklama: `Türkçede konuşan kişi öne çıkarmak istediği ögeyi yükleme yaklaştırır; bu yüzden vurgulanan öge, yüklemden hemen önce gelen ögedir. Her cümlede iki iş yaparsın: yüklemden hemen önceki ögeyi bulursun, sonra o ögenin türünü yükleme soru sorarak belirlersin.
+Adım 1: I → Yüklem 'kurutur'. Hemen önceki öge 'köyün meydanında'. "Nerede kurutur?" → yer tamlayıcısı.
+Adım 2: II → Yüklem 'biçer'. Hemen önceki öge 'temmuzun ilk haftasında'. "Ne zaman biçer?" → zarf tamlayıcısı.
+Adım 3: III → Yüklem 'yükler'. Hemen önceki öge 'gençler'. "Kim yükler?" → özne.
+Adım 4: IV → Yüklem 'doldurur'. Hemen önceki öge 'özenle'. "Nasıl doldurur?" → zarf tamlayıcısı.
+Adım 5: Vurgulanan ögesi aynı türden olan cümleler II ve IV'tür; ikisinde de zarf tamlayıcısı vurgulanmıştır.
+En güçlü çeldirici "I ve II" seçeneğidir: iki cümlede de vurgulanan söz '-da' ekini almıştır. Ama ek ögeyi belirlemez; 'köyün meydanında' yer, 'temmuzun ilk haftasında' zaman bildirir.
+Sık yapılan hata: Yüklemden önceki ilk adı vurgulanan öge sanıp aradaki kısa zarfı atlamak. IV'te 'özenle' tek sözcük olsa da ayrı bir ögedir ve yükleme en yakın öge odur.
 Cevap C.`
 },
 {
@@ -1010,21 +1020,23 @@ Cevap D.`
   zorluk: 3,
   soru: `Kentin yeni açılan buz pateni sahasında hafta sonları ücretsiz kurs veriliyor. Bir öğrenci, sahayla ilgili dört cümlenin öge sayısını defterine yazmıştır.
 **Buna göre öğrenci, hangi cümlenin öge sayısını yanlış yazmıştır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Öğrencinin yazdığı öge sayısı</th></tr><tr><td>I</td><td>Eğitmen, yeni gelenlere dengeyi sabırla öğretiyor.</td><td>5</td></tr><tr><td>II</td><td>Buz üstünde kayan çocuklar hiç yorulmuyor.</td><td>4</td></tr><tr><td>III</td><td>Saha, her sabah sekizde açılıyor.</td><td>3</td></tr><tr><td>IV</td><td>Görevliler, paten ayakkabılarını dolaplara diziyor.</td><td>4</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Öğrencinin yazdığı öge sayısı</th></tr><tr><td>I</td><td>Eğitmen, yeni gelenlere dengeyi sabırla öğretiyor.</td><td>5</td></tr><tr><td>II</td><td>Buz üstünde kayan çocuklar hiç yorulmuyor.</td><td>4</td></tr><tr><td>III</td><td>Saha, her sabah açılıyor.</td><td>3</td></tr><tr><td>IV</td><td>Görevliler, paten ayakkabılarını dolaplara diziyor.</td><td>4</td></tr></table>`,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 1,
   hatalar: [
     "I. cümlede özne ('Eğitmen'), yer tamlayıcısı ('yeni gelenlere'), nesne ('dengeyi'), zarf tamlayıcısı ('sabırla') ve yüklem vardır; öğrencinin yazdığı 5 sayısı doğrudur.",
     null,
-    "III. cümlede özne ('Saha'), zarf tamlayıcısı ('her sabah sekizde') ve yüklem vardır; öğrencinin yazdığı 3 sayısı doğrudur.",
+    "III. cümlede özne ('Saha'), zarf tamlayıcısı ('her sabah') ve yüklem vardır; öğrencinin yazdığı 3 sayısı doğrudur.",
     "IV. cümlede özne, nesne ('paten ayakkabılarını'), yer tamlayıcısı ('dolaplara') ve yüklem vardır; öğrencinin yazdığı 4 sayısı doğrudur."
   ],
   aciklama: `Öge sayarken en sık yapılan yanlış, bir söz öbeğinin içinde kalan sözü ayrı bir öge sanmaktır. Bir söz, cümlenin yüklemine sorulan bir sorunun karşılığı değilse ayrı öge sayılmaz.
 Adım 1: I → Yüklem 'öğretiyor'. "Kim?" → Eğitmen. "Kime?" → yeni gelenlere. "Neyi?" → dengeyi. "Nasıl?" → sabırla. Yüklemle birlikte 5 öge. Doğru.
 Adım 2: II → Yüklem 'yorulmuyor'. "Kim yorulmuyor?" → Buz üstünde kayan çocuklar. Bu öbeğin tamamı öznedir; içindeki 'Buz üstünde' sözü cümlenin yüklemine değil, 'kayan' sözüne bağlıdır. "Ne kadar?" → hiç. Yüklemle birlikte 3 öge. Öğrenci 4 yazmış, yanılmıştır.
-Adım 3: III → Yüklem 'açılıyor'. Özne 'Saha', zarf tamlayıcısı 'her sabah sekizde'. 3 öge. Doğru.
-Adım 4: IV → Yüklem 'diziyor'. Özne, nesne ve yer tamlayıcısıyla birlikte 4 öge. Doğru.
+Adım 3: III → Yüklem 'açılıyor'. "Ne açılıyor?" → Saha (özne). "Ne zaman açılıyor?" → her sabah (zarf tamlayıcısı). 3 öge. Doğru.
+Adım 4: IV → Yüklem 'diziyor'. Özne 'Görevliler', nesne 'paten ayakkabılarını', yer tamlayıcısı 'dolaplara'. Yüklemle birlikte 4 öge. Doğru.
+En güçlü çeldirici I'dir: 'yeni gelenlere' sözü bir yer değil kişi bildirdiği için öge sayılmayabilir. Ama '-e' ekli bu söz "Kime öğretiyor?" sorusunun karşılığıdır ve ayrı bir yer tamlayıcısıdır; sayı gerçekten 5'tir.
 Sağlama: II. cümleye "Nerede yorulmuyor?" diye sor. Karşılık alamazsın; çünkü 'Buz üstünde' sözü çocukları niteleyen öbeğin içindedir.
+Sık yapılan hata: Öznenin içinde kalan yer bildiren sözü ('Buz üstünde') yükleme bağlı bir yer tamlayıcısı sanıp ayrı saymak.
 Cevap B.`
 },
 {
@@ -1230,8 +1242,8 @@ Cevap D.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Karla kaplanan dağ köylerinde kış hazırlığı eylülde başlar: odun yarılır, turşu kurulur, sobalar bacalarıyla birlikte elden geçirilir. Türkçede vurgulanan öge, yükleme en yakın olan ögedir.
-**Buna göre aşağıdaki cümlelerin hangisinde vurgulanan öge, aynı zamanda cümlenin belirtisiz nesnesidir?**`,
+  soru: `Karla kaplanan dağ köylerinde kış hazırlığı eylülde başlar: odun yarılır, turşu kurulur, sobalar bacalarıyla birlikte elden geçirilir. Aşağıdaki cümleler bu hazırlığı anlatmaktadır.
+**Bu cümlelerin hangisinde vurgulanan öge, aynı zamanda cümlenin belirtisiz nesnesidir?**`,
   gorsel: null,
   secenekler: [
     "Ninem, turşuları eylül ayında kurdu.",
@@ -1246,11 +1258,12 @@ Cevap D.`
     "Bu cümlede yükleme en yakın öge 'usta'dır; 'Kim temizledi?' sorusunun karşılığı olduğu için öznedir. Nesne ('Sobanın eğri borusunu') belirtilidir ve cümlenin başındadır.",
     null
   ],
-  aciklama: `Bu soruda iki bilgiyi birleştirmen gerekir: vurgulanan öge yüklemden hemen önce gelir; belirtisiz nesne ise hiçbir hâl eki almamış nesnedir.
+  aciklama: `Bu soruda iki bilgiyi birleştirmen gerekir. Birincisi, soruda verilmeyen ama bilmen gereken kural: Türkçede vurgulanan öge, yükleme en yakın olan, yani yüklemden hemen önce gelen ögedir. İkincisi: belirtisiz nesne, hiçbir hâl eki almamış nesnedir.
 Adım 1: A → Yüklem 'kurdu'. Hemen önceki öge 'eylül ayında': zarf tamlayıcısı. Koşul sağlanmadı.
 Adım 2: B → Yüklem 'taşıdı'. Hemen önceki öge 'ambara': yer tamlayıcısı. Koşul sağlanmadı.
 Adım 3: C → Yüklem 'temizledi'. Hemen önceki öge 'usta': özne. Koşul sağlanmadı.
 Adım 4: D → Yüklem 'atar'. Hemen önceki öge 'kuru çam odunu'. "Ne atar?" sorusunun karşılığıdır ve hiçbir hâl eki almamıştır: belirtisiz nesne. Hem vurgulanan öge hem belirtisiz nesne koşulu sağlanmıştır.
+En güçlü çeldirici C'dir: cümle nesneyle başladığı için vurgunun nesnede olduğu sanılabilir. Ama vurgu cümlenin başındaki ögede değil, yükleme en yakın ögededir; orada da özne ('usta') vardır. Üstelik C'deki nesne '-u' ekini aldığı için belirtilidir.
 Sağlama: D'deki nesneyi belirtili yap ve yerini değiştir: "Dedem, kuru çam odununu soğuk akşamlarda sobaya atar." Bu kez vurgulanan öge yer tamlayıcısı ('sobaya') olur; demek ki vurgu sözün yerine bağlıdır.
 Sık yapılan hata: Cümlede belirtili bir nesne görünce onun vurgulandığını sanmak. Vurguyu ögenin türü değil, yükleme olan uzaklığı belirler.
 Cevap D.`

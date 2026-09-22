@@ -67,14 +67,14 @@ mat-kk-217 | M.8.1.3.7 | z2 | k2 | Bir atölyede kare biçiminde pencere camlar�
 mat-kk-218 | M.8.1.3.8 | z2 | k2 | Bir öğrenci, sayı kümeleri arasındaki ilişkileri anlatan dört cümle yazmıştır. Buna göre öğrencinin yazdığı cümlelerden hangisi y… | ✓Her gerçek sayı aynı zamanda bir rasyonel sa…
 mat-kk-219 | M.8.1.3.2 | z2 | k2 | √{30} sayısı aşağıdaki ondalık gösterimlerden hangisine en yakındır? | ✓5,5
 mat-kk-220 | M.8.1.3.4 | z3 | k2 | Bir lojistik deposunun zemini dikdörtgen biçimindedir. Zeminin alanı ve kısa kenarının uzunluğu aşağıdaki şekilde verilmiştir. Bu… | ✓6√{2}
-mat-kk-221 | M.8.1.3.1 | z3 | k2 | Bir okulun 150 öğrencisi, tören alanında sıra sayısı ile her sıradaki öğrenci sayısı eşit olacak biçimde kare düzende dizilecekti… | ✓6
+mat-kk-221 | M.8.1.3.1 | z3 | k2 | Deniz pul biriktirmektedir ve koleksiyonunda aynı boyutta, kare biçimli 150 pul vardır. Deniz, pullarının hepsini kare biçimli bi… | ✓19
 mat-kk-222 | M.8.1.3.7 | z3 | k2 | Bir sitede kare biçiminde bir çocuk havuzu vardır. Havuzun alanı aşağıdaki şekilde verilmiştir. Site yönetimi, havuzun dört kenar… | ✓6
 mat-kk-223 | M.8.1.3.5 | z3 | k2 | Bir bahçenin ön yüzü, uzunluğu 20√{3} metre olan bir çit hattıyla kapatılacaktır. Hattın bir bölümü, uzunlukları aşağıdaki şekild… | ✓8√{3}
 mat-kk-224 | M.8.1.3.6 | z3 | k2 | Bir bulmaca uygulamasının ekranında √{60} sayısı görünmektedir. Oyuncu, ekranın altındaki dört düğmeden birine basar ve ekrandaki… | ✓√{15}
 mat-kk-225 | M.8.1.3.2 | z3 | k2 | Bir kent bahçesinde, kare biçiminde bir kompost alanı ayrılacaktır. Alanın bir kenarı 7 metreden uzun, 8 metreden kısa olacaktır.… | ✓63
 mat-kk-313 | M.8.1.3.4 | z3 | k3 | Bir parkta dikdörtgen biçiminde bir yürüyüş yolu yapılmıştır. Yolun alanı ve genişliği aşağıdaki şekilde verilmiştir. Yolun bir k… | ✓7
 mat-kk-314 | M.8.1.3.1 | z3 | k3 | Bir kampüste kare biçiminde bir dinlenme terası bulunmaktadır. Terasın alanı 900 m²'dir. Öğrenci sayısı arttığı için teras, kare … | ✓1 225
-mat-kk-315 | M.8.1.3.7 | z3 | k3 | Bir spor salonunda kare biçiminde bir trambolin kullanılmaktadır. Trambolinin zıplama yüzeyinin alanı aşağıdaki şekilde verilmişt… | ✓32
+mat-kk-315 | M.8.1.3.7 | z3 | k3 | Bir kitap kafenin girişine kare biçimli bir tabela asılacaktır. Tabelanın ön yüzünün alanı aşağıdaki şekilde verilmiştir. Kafe sa… | ✓28
 mat-kk-316 | M.8.1.3.3 | z3 | k3 | Bir okçuluk kulübünde üç sporcunun bir atışta oku gönderdiği uzaklıklar ölçülmüş ve aşağıdaki tabloya metre cinsinden yazılmıştır… | ✓K < M < L
 mat-kk-317 | M.8.1.3.5 | z3 | k3 | Bir anaokulunun bahçesinde dikdörtgen biçiminde bir kum havuzu vardır. Havuzun kenar uzunlukları aşağıdaki şekilde verilmiştir. H… | ✓20√{2}
 mat-kk-318 | M.8.1.3.8 | z3 | k3 | Bir cam atölyesinde kare biçiminde dört levha üretilmiştir. Levhaların alanları aşağıdaki tabloda verilmiştir. Atölye, kenar uzun… | ✓N levhası
@@ -82,9 +82,9 @@ mat-kk-319 | M.8.1.3.4 | z3 | k3 | Bir takı atölyesinde, bir kenarı √{45} c
 mat-kk-320 | M.8.1.3.2 | z3 | k3 | Bir tarım işletmesi, kare biçimli bir parselin alanını 5 000 m² olarak kaydetmiştir. İşletme, parselin bir kenarının uzunluğunu e… | ✓71
 mat-kk-321 | M.8.1.3.6 | z4 | k3 | Bir kodlama atölyesinde öğrenciler küçük bir program yazmıştır. Program, kullanıcının girdiği k doğal sayısı için √{50 · k} ifade… | ✓7
 mat-kk-322 | M.8.1.3.2 | z4 | k3 | Bir belediye, sahil yolu boyunca kare biçiminde dinlenme platformları yaptıracaktır. Her platformun alanı 20 m²'den büyük, 300 m²… | ✓13
-mat-kk-323 | M.8.1.3.4 | z4 | k3 | Bir vitray atölyesinde, bir kenarı 6√{2} cm olan kare biçimli bir cam levha bulunmaktadır. Ustaya, bu levhadan kesilebilecek en b… | ✓8
-mat-kk-324 | M.8.1.3.6 | z4 | k3 | Bir ahşap atölyesinde dikdörtgen biçimli kutu tabanları kesilmektedir. Bir tabanın kenar uzunlukları √{18} cm ve √{k} cm'dir; bur… | ✓4
-mat-kk-325 | M.8.1.3.8 | z4 | k3 | Bir atölyede kare biçiminde dört ayna kesilmiştir. Aynaların metrekare cinsinden alanları aşağıdaki tabloda verilmiştir. Atölye s… | ✓K aynası
+mat-kk-323 | M.8.1.3.4 | z4 | k3 | Bir vitray atölyesinde, bir kenarı 6√{2} cm olan kare biçimli bir cam levha bulunmaktadır. Ustadan, bu levhadan kesilebilecek en … | ✓8
+mat-kk-324 | M.8.1.3.6 | z4 | k3 | Bir ortaokulun bahar şenliği için ikizkenar üçgen biçiminde kumaş flamalar dikilecektir. Her flamanın direğe tutturulan kenarı √{… | ✓6√{3}
+mat-kk-325 | M.8.1.3.8 | z4 | k3 | Selin ile Mert, "Kökü Yakala" adını verdikleri bir sayı oyunu oynamaktadır. Her turda Selin, 0 ile 1 arasında olan ve virgülden s… | ✓0,81
 mat-kk-013 | M.8.1.3.5 | z1 | k0 | 7√{10} − 4√{10} işleminin sonucu aşağıdakilerden hangisidir? | ✓3√{10}
 mat-kk-014 | M.8.1.3.4 | z1 | k0 | √{5} · √{5} işleminin sonucu aşağıdakilerden hangisidir? | ✓5
 mat-kk-015 | M.8.1.3.3 | z1 | k0 | √{50} ifadesinin en sade biçimi aşağıdakilerden hangisidir? | ✓5√{2}
@@ -93,7 +93,7 @@ mat-kk-017 | M.8.1.3.5 | z2 | k0 | √{27} − √{12} + √{3} işleminin sonuc
 mat-kk-018 | M.8.1.3.7 | z2 | k0 | Bir fotoğrafçı, kare biçiminde fotoğraf baskıları yapmaktadır. Bir baskının alanı aşağıdaki şekilde verilmiştir. Buna göre bu bas… | ✓4,4
 mat-kk-019 | M.8.1.3.2 | z2 | k0 | Bir doğal sayının karekökü 12 ile 13 arasındadır. Buna göre bu sayı en az kaç olabilir? | ✓145
 mat-kk-020 | M.8.1.3.4 | z2 | k0 | Bir terzi, dikdörtgen biçiminde bir kumaş parçasıyla çalışmaktadır. Parçanın alanı √{96} m², bir kenarının uzunluğu ise √{6} m'di… | ✓4
-mat-kk-021 | M.8.1.3.8 | z2 | k0 | √{2} sayısı ile ilgili aşağıdaki ifadelerden hangisi doğrudur? | ✓1 ile 2 arasında yer alan irrasyonel bir say…
+mat-kk-021 | M.8.1.3.8 | z2 | k0 | Ece, hesap makinesiyle √{2} sayısını hesaplamış ve ekranda 1,414213562 sonucunu görmüştür. Ece, "Bu sayı virgülden sonra 9 basama… | ✓Ekrandaki sayı √{2}'nin yaklaşık değeridir v…
 mat-kk-022 | M.8.1.3.3 | z3 | k0 | Aşağıdaki ifadelerden hangisinin değeri 7 ile 8 arasındadır? | ✓3√{6}
 mat-kk-023 | M.8.1.3.1 | z3 | k0 | Bir sitenin bahçesinde kare biçiminde iki oyun alanı yapılacaktır. Birinci alanın alanı aşağıdaki şekilde verilmiştir. İkinci ala… | ✓256
 mat-kk-024 | M.8.1.3.7 | z3 | k0 | Bir biyoloji laboratuvarında mikroskopla incelenen kare biçimli bir doku kesitinin alanı 0,0025 mm² olarak ölçülmüştür. Buna göre… | ✓0,05

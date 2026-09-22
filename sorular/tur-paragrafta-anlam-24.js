@@ -1,24 +1,24 @@
-// Türkçe — Paragrafta Anlam | Havuz partisi 24 (tur-pa-3021…3040) | Alan: orman ve ağaçlar
+// Türkçe — Paragrafta Anlam | Havuz partisi 24 (tur-pa-3021…3040) | Alan: ağırlıkla orman ve ağaçlar (3021, 3032, 3035, 3039 başka alanlardan)
 window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
 
 { id: "tur-pa-3021", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
-  soru: `Yanmış bir kızılçam ormanına ilk bakışta yalnızca kömürleşmiş gövdeler görünür. Oysa ateşin yaptığı tek iş yakmak değildir. Kızılçamın kimi kozalakları yıllarca dallarda kapalı bekler; onları açan şey, yangının kısa süreli yüksek sıcaklığıdır. Kozalak açılınca tohumlar küle karışmış toprağa düşer. Üstteki gölge ortadan kalktığı için ışık artık doğrudan zemine ulaşır. Böylece ormanın en yıkıcı görünen olayı, aynı zamanda yeni bir kuşağın başlangıcı olur.
+  soru: `Bu sabah kahvaltı sofrasını kurarken elim yine dört tabağa uzandı; birini sessizce dolaba geri koydum. Ablam üç gün önce üniversite için başka bir şehre gitti. Odasının kapısı aralık duruyor, masasında birlikte başladığımız yapboz yarım bekliyor. Parçalarına dokunmuyorum; tatilde gelince beraber bitiririz diye. Dün akşam telefonda sesi çok neşeliydi, yurttaki yeni arkadaşlarını anlattı; onun adına sevindim. Telefonu kapattıktan sonra da uzun süre onun boş sandalyesine baktım.
 
-**Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
+**Bu parçada ağır basan duygu aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Kızılçam kozalakları dallarda yıllarca kapalı kalabilir.", "Yangın, kızılçam ormanı için aynı zamanda bir başlangıçtır.", "Orman yangınları doğal döngünün vazgeçilmez parçasıdır.", "Küle karışan toprakta tohumlar çimlenme gücünü yitirir."],
+  secenekler: ["Ablasının neşesine duyulan sevinç", "Ablasının yokluğundan duyulan özlem", "Evdeki düzenin bozulmasından duyulan öfke", "Ablasının onu unutacağından duyulan kaygı"],
   dogru: 1,
-  hatalar: ["metinde var ama ilgisiz: Kozalakların yıllarca kapalı beklemesi metinde geçiyor; ama bu, yazarın kabul ettirmek istediği yargı değil, o yargının dayanağıdır.", null, "aşırı genelleme: Metin tek bir türden, kızılçamdan söz ediyor. Bütün yangınların doğal döngü için vazgeçilmez olduğu sonucu parçanın sınırını aşar.", "ters yön: Parça tam tersini söylüyor; tohumlar küle karışmış toprağa düşer ve yeni kuşağı başlatır."],
-  aciklama: `Ana düşünce, yazarın parçayı yazma amacıdır: “Beni neye inandırmak istiyor?” sorusunun karşılığı.
+  hatalar: ["kısmen doğru: Anlatıcı “onun adına sevindim” diyor; bu duygu metinde gerçekten var. Ama tek bir cümlede geçip kapanıyor; tabak, yapboz ve son cümledeki boş sandalye hep başka bir duyguya dönüyor.", null, "ters yön: Anlatıcı fazla tabağı sessizce kaldırıyor, yapboza dokunmadan bekliyor; davranışları öfkeyi değil, özeni ve bekleyişi gösteriyor.", "aşırı genelleme: Metinde ablanın onu unutacağına dair tek ipucu yok; tam tersine anlatıcı, tatilde yapbozu birlikte bitirmeyi bekliyor. Özlemi bir korkuya dönüştürmek metnin sınırını aşar."],
+  aciklama: `Ana duygu, anlatıcının metin boyunca sezdirdiği baskın duygudur. Çoğu zaman adı konmaz; davranışlardan ve ayrıntılardan çıkarılır.
 
-Adım 1: İlk iki cümle bir yanılgı kurar. Yanmış ormanda yalnızca kömürleşmiş gövdeler görünür, ateş sanki sadece yakar.
-Adım 2: Ortadaki cümleler bu yanılgıyı düzeltir: sıcaklık kozalakları açar, tohum toprağa düşer, gölge kalkınca ışık zemine ulaşır.
-Adım 3: Son cümle iki yanı tek yargıda birleştirir: yıkıcı görünen olay aynı zamanda bir başlangıçtır.
+Adım 1: Duyguyu taşıyan ayrıntıları topla. El alışkanlıkla dört tabağa uzanıyor; yarım yapboza “gelince beraber bitiririz” diye dokunulmuyor; telefon kapanınca gözler boş sandalyede kalıyor.
+Adım 2: Bu ayrıntıların ortak noktasını bul. Üçü de evde artık bulunmayan birine bağlanıyor. Yokluğunu hissettiğin birini beklemenin adı özlemdir.
+Adım 3: Adı açıkça geçen duyguyu ölç. “Sevindim” bir kez geçiyor; hemen ardından gelen son cümle yine boş sandalyeye dönüyor. Parçayı kapatan duygu sevinç değil, özlemdir.
 
-En güçlü çeldirici C. Parçayı okuyan öğrenci “demek ki yangın iyi bir şeymiş” diye genelleyebilir. Oysa metin bütün yangınlar için değil, kızılçamın kendine özgü kozalakları için konuşuyor.
+En güçlü çeldirici A. Sevinç, metinde adı açıkça konan tek duygu olduğu için hemen göze çarpar. Ama tek bir cümlede kalır; tabak, yapboz ve sandalye ise hep aynı duyguyu, özlemi taşır.
 
-Sık yapılan hata: Ana düşünceyi metnin bir cümlesinden çıkarmak. A şıkkı metinde neredeyse birebir var, ama tek bir cümleyi karşılıyor; ana düşünce bütünü kapsamalıdır. Cevap B.` },
+Sık yapılan hata: Ana duyguyu, metinde adı geçen duygu sanmak. Adı hiç geçmese de ayrıntıların hepsinin taşıdığı duygu ağır basandır. Cevap B.` },
 
 { id: "tur-pa-3022", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
   soru: `Bir restoratör, eski bir konağın çatısındaki kirişin ne zaman kesildiğini öğrenmek istediğinde ağacın yaşını saymakla yetinemez. Kesitte iç içe duran halkalar, ağacın kaç yıl yaşadığını söyler; hangi yıllarda yaşadığını söylemez. Bunun için halkaların kalınlığına bakılır. Yağışlı yıllarda ağaç geniş, kurak yıllarda dar bir halka üretir. Aynı bölgedeki ağaçlar aynı yılları birlikte geçirdiği için hepsinin halka dizisi benzer bir ritim taşır. Uzmanlar, bugün kesilen ağaçlardan başlayıp geriye doğru uzanan bir karşılaştırma cetveli hazırlar. Kirişteki dizi bu cetvelde bir yere oturduğunda, en dıştaki halkanın hangi yıla denk geldiği ortaya çıkar. Yöntem yalnızca yaşı değil, yapının hangi yıllarda onarıldığını da açığa çıkarabilir; aynı çatıda farklı yıllara ait kirişler bulunması, orada sonradan bir müdahale yapıldığını gösterir.
@@ -62,7 +62,7 @@ Sık yapılan hata: Boşluğa metinde geçen herhangi bir bilgiyi yerleştirmek.
 
 **Bu parçada aşağıdakilerin hangisine __değinilmemiştir__?**`,
   gorsel: null,
-  secenekler: ["Yolların yangına müdahaleyi kolaylaştırdığına", "Yol yapımının orman işletmesine getirdiği parasal yüke", "Yol açılan yamaçlarda toprağın aşınabildiğine", "Gereksiz hâle gelen yolların kapatılabildiğine"],
+  secenekler: ["Yolların yangına müdahaleyi kolaylaştırdığına", "Yol kıyısındaki ağaçların rüzgârla devrildiğine", "Yol açılan yamaçlarda toprağın aşınabildiğine", "Gereksiz hâle gelen yolların kapatılabildiğine"],
   dogru: 1,
   hatalar: ["metinde var ama ilgisiz: İkinci cümlede arazözün ancak bir yol varsa ateşin yanına kadar gidebildiği yazılı.", null, "metinde var ama ilgisiz: “Üstü sıyrılan toprak, yağmurlu günlerde yamaçtan akan suyla birlikte gider” cümlesi aşınmanın metindeki karşılığıdır.", "metinde var ama ilgisiz: Sondan bir önceki cümlede gereksiz yolların kapatılıp ormana bırakıldığı sıralanıyor."],
   aciklama: `“Değinilmemiştir” sorusunda iş sırayla yürür: her şıkkı metinde ara, karşılığını bulamadığın şıkta dur.
@@ -70,18 +70,18 @@ Sık yapılan hata: Boşluğa metinde geçen herhangi bir bilgiyi yerleştirmek.
 Adım 1: A’yı ara. Yangın ve arazöz ikinci cümlede.
 Adım 2: C’yi ara. Toprağın suyla birlikte gitmesi, aşınmanın anlatımıdır; şıkkın sözcükleri farklı ama yargı aynıdır.
 Adım 3: D’yi ara. Gereksiz yolların kapatılması son sıralamada var.
-Adım 4: B’yi ara. Parça kereste taşımaktan, eğimden, şev bitkilendirmesinden söz ediyor; ama bunların ne kadara mal olduğuna hiç girmiyor.
+Adım 4: B’yi ara. Parça yolun ormanda bıraktığı boşluktan, yamaçtan akan topraktan ve hayvanlar için oluşan sınırdan söz ediyor. Yol kıyısındaki ağaçlardan, rüzgârdan ya da devrilmeden hiç söz etmiyor.
 
-En güçlü çeldirici C. “Aşınma” sözcüğü metinde hiç geçmediği için yokmuş gibi görünür. Metin aynı olayı başka sözcüklerle anlatmıştır.
+En güçlü çeldirici C. “Aşınma” sözcüğü metinde hiç geçmediği için yokmuş gibi görünür. Metin aynı olayı başka sözcüklerle anlatmıştır. B’nin tuzağı ise tam tersidir: yolun “kalıcı bir boşluk” bıraktığı yazılı olduğu için, o boşluğun kenarındaki ağaçların devrildiği de söylenmiş sanılır. Ama metin boşluktan sonra toprağa ve hayvanlara geçer; rüzgâr bir kez bile anılmaz.
 
-Sık yapılan hata: Şıkkın sözcüklerini metinde birebir aramak. Aranacak olan sözcük değil, anlamdır. Cevap B.` },
+Sık yapılan hata: Şıkkın sözcüklerini metinde birebir aramak ya da metnin çağrıştırdığı bir sonucu “değinilmiş” saymak. Aranacak olan sözcük ya da çağrışım değil, metnin gerçekten verdiği bilgidir. Cevap B.` },
 
 { id: "tur-pa-3025", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
   soru: `Bir ormanı düzenli göstermek isteyenler önce kurumuş ağaçları keser; dikili duran kuru gövde çirkin görünür, işe yaramaz sayılır. Oysa ağaçkakanlar yuvalarını yalnızca yumuşamış odunda açabilir, sert ve diri bir gövdede oyuk kazmak onlar için çok güçtür. Ağaçkakanın bir mevsim kullanıp bıraktığı oyuğa ertesi yıl baştankaralar, sığırcıklar, kimi yarasalar ve yaban arıları yerleşir. Yani tek bir kuru gövde, yıllar içinde birbiri ardına birçok canlıya ev olur. Bugün ormancılık planlarında, devrilme tehlikesi taşımayan kuru ağaçların bir bölümünün ayakta bırakılması öngörülüyor.
 
 **Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Ağaçkakanların açtığı oyuklar bir mevsim sonra boş kalır.", "Ağaçkakanlar yuvalarını yalnızca yumuşamış odunda açabilir.", "Düzenli görünen ormanlar en iyi bakılmış ormanlardır.", "Ayakta bırakılan kuru gövdeler ormanda barınmayı sürdürür."],
+  secenekler: ["Ağaçkakanların açtığı oyuklar bir mevsim sonra boş kalır.", "Ağaçkakanlar yuvalarını yalnızca yumuşamış odunda açabilir.", "Düzenli görünen ormanlar en iyi bakılmış ormanlardır.", "Ayakta bırakılan kuru gövde, yıllarca birçok canlıya ev olur."],
   dogru: 3,
   hatalar: ["ters yön: Metin bunun tersini söylüyor; ağaçkakanın bıraktığı oyuk boş kalmaz, ertesi yıl başka canlılar yerleşir.", "metinde var ama ilgisiz: Bu bilgi ikinci cümlede birebir geçiyor; ancak ana düşünce değil, kuru gövdenin neden gerekli olduğunu açıklayan bir dayanaktır.", "aşırı genelleme: Parça, düzenli görünmenin iyi bakımın ölçüsü olmadığını ima ediyor; bakımın niteliği üzerine böyle kesin bir yargı metinde yok.", null],
   aciklama: `Ana düşünceyi bulmak için parçanın hangi yanlışı düzeltmeye çalıştığına bak.
@@ -89,9 +89,10 @@ Sık yapılan hata: Şıkkın sözcüklerini metinde birebir aramak. Aranacak ol
 Adım 1: İlk cümle yaygın kanıyı veriyor: kuru gövde çirkindir, işe yaramaz.
 Adım 2: İkinci ve üçüncü cümleler kanıtı sıralıyor: ağaçkakan ancak yumuşamış odunda oyuk açabiliyor, bıraktığı oyuğa sonra başka canlılar yerleşiyor.
 Adım 3: Dördüncü cümle bu kanıtları toparlıyor: tek bir kuru gövde yıllarca birçok canlıya ev oluyor.
-Adım 4: Son cümle bunun bugün bir uygulamaya dönüştüğünü gösteriyor.
+Adım 4: Son cümle bunun bugün bir uygulamaya dönüştüğünü gösteriyor: kuru ağaçların bir bölümü ayakta bırakılıyor.
+Adım 5: Kanıtları ve uygulamayı birleştir. D şıkkı ikisini birden taşıyor: kuru gövde kesilmeyip ayakta bırakıldığında yıllarca birçok canlıya ev olur.
 
-En güçlü çeldirici B. Cümle metinde aynen geçtiği için doğru sanılır; oysa o, ana düşünceyi taşımaz, yalnızca hazırlar.
+En güçlü çeldirici B. Cümle metinde aynen geçtiği için doğru sanılır; oysa o, ana düşünceyi taşımaz, yalnızca hazırlar. Ağaçkakan yalnızca ilk kiracıdır; metin onun ardından gelen baştankaraları, sığırcıkları, yarasaları ve yaban arılarını da sayar.
 
 Sık yapılan hata: Metinde birebir bulunan bir cümleyi ana düşünce saymak. Ana düşünce çoğu zaman cümlelerin buluştuğu yerdedir; tek bir cümlede değil. Cevap D.` },
 
@@ -208,41 +209,44 @@ En güçlü çeldirici A’nın kendisidir; çünkü “büyük ihtimalle böyle
 Sağlama: Tek bir ölçümden mevsimlik ya da yıllık sonuç çıkaran şık, tablo sorularında neredeyse her zaman cevaptır. Cevap A.` },
 
 { id: "tur-pa-3032", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
-  soru: `Ormanda patikanın birkaç adım dışına çıkmak zararsız görünür. Oysa üstüne basılan toprak sıkışır; sıkışan toprakta hava boşlukları kapanır, su içeri süzülmek yerine yüzeyden akar. Ağaç kökleri en ince emici uçlarıyla tam o üst tabakada çalışır. Aynı yerden geçen yüz kişi, zamanla kendiliğinden ikinci bir patika açar; ikinci patika üçüncüsünü çağırır. İşaretli yolda kalmak bu yüzden yürüyüşçünün ormana bırakabileceği en küçük izdir.
+  soru: `Bir ortaokulun bahçesinde, spor salonu ile kantin arasındaki çimenliğin ortasından her yıl çıplak bir iz geçiyordu. İz, iki kapıyı birleştiren en kısa çizgiydi. Okul yönetimi önce izin iki ucuna “Çimlere basmayınız” levhası koydu, ardından alçak bir çit çekti. Öğrenciler çitte bir aralık bulup aynı yerden geçmeyi sürdürdü. Sonunda bahçıvanın önerisiyle izin tam üstüne taş döşeli bir yol yapıldı. O günden sonra çimenliğe basan olmadı; çimen de yolun iki yanında yeniden gürleşti.
 
-**Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
+**Bu parçadan çıkarılabilecek en kapsamlı yargı aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Ormanda yürüyüş yapmak toprağa her durumda zarar verir.", "Sıkışan toprakta suyun yüzeyden akması kaçınılmaz olur.", "İşaretli patikada kalmak ormana verilen zararı en aza indirir.", "Ağaç köklerinin emici uçları toprağın üst tabakasında bulunur."],
+  secenekler: ["Uyulmayan yasaklar, daha sert önlemlerle desteklenmek zorundadır.", "Taş yol yapılınca çimen yolun iki yanında yeniden gürleşmiştir.", "İnsanların gerçek davranışını esas alan düzenleme işe yarar.", "Öğrenciler, okulda kendilerine konan kurallara çoğu zaman uymaz."],
   dogru: 2,
-  hatalar: ["aşırı genelleme: Parça yürüyüşü değil, patikadan çıkmayı eleştiriyor; “her durumda” sözü metnin söylediğini aşar.", "kısmen doğru: Sıkışan toprakta suyun yüzeyden aktığı metinde yazılı; ancak bu, ana düşünce değil, zararın nasıl oluştuğunu gösteren bir ara adımdır.", null, "metinde var ama ilgisiz: Emici uçların üst tabakada bulunduğu doğrudur ve metinde geçer; fakat bu bilgi, sıkışmanın neden önemli olduğunu açıklamak için verilmiştir."],
-  aciklama: `Ana düşünce, parçanın okurdan istediği şeydir. Metin bir davranışı tartışıyorsa, ana düşünce çoğu zaman o davranışa ilişkin yargıdır.
+  hatalar: ["ters yön: Parçada levhanın ardından daha sert bir önlem olan çit denendi ve o da işe yaramadı. Sorunu çözen şey sertlik değil, yolun izin üstüne yapılması oldu.", "metinde var ama ilgisiz: Çimenin yeniden gürleşmesi son cümlede yazılı; ama bu, çözümün sonuçlarından yalnızca biridir. Tek bir ayrıntıyı söyleyen şık en kapsamlı yargı olamaz.", null, "aşırı genelleme: Parça tek bir okulda tek bir izi anlatıyor; öğrencilerin kurallara çoğu zaman uymadığı sonucu metnin sınırını aşar. Üstelik yol yapılınca çimene basan kalmamıştır."],
+  aciklama: `En kapsamlı yargı, parçanın bütününden çıkan ve bütün ayrıntıları içine alan düşüncedir; yani parçanın ana fikridir.
 
-Adım 1: Yanılgıyı bul. “Patikanın birkaç adım dışına çıkmak zararsız görünür.”
-Adım 2: Zararın nasıl oluştuğunu izle: toprak sıkışır, boşluklar kapanır, su süzülmez, kökler bundan etkilenir, yeni patikalar açılır.
-Adım 3: Son cümledeki sonucu al: işaretli yolda kalmak, ormana bırakılabilecek en küçük izdir.
+Adım 1: Sorunu belirle. Öğrenciler çimenliğin ortasından geçiyor; çünkü iz, iki kapı arasındaki en kısa çizgi.
+Adım 2: Denenen çözümleri sırala. Levha işe yaramadı, çit de işe yaramadı. İkisi de insanları alıştıkları yoldan vazgeçirmeye çalışıyordu.
+Adım 3: İşe yarayan çözüme bak. Yol, öğrencilerin zaten yürüdüğü yere yapıldı ve sorun bitti.
+Adım 4: Üç adımı tek yargıda birleştir: İnsanların gerçek davranışını esas alan düzenleme işe yarar. Metin bunu hiçbir cümlede açıkça söylemiyor; olayların sırasından sen çıkarıyorsun.
 
-En güçlü çeldirici A. Parçadaki uyarıyı bir adım ileri götürüp yürüyüşün kendisini suçlu gösteriyor. Oysa metin yürüyüşe karşı değil; nasıl yürüneceğini söylüyor.
+En güçlü çeldirici B. Metinde neredeyse birebir yazdığı için doğru görünür, doğrudur da; ama yalnızca sonucun bir parçasını söyler. Levhanın, çitin ve yolun hikâyesini açıklamaz. Soru ise “en kapsamlı” yargıyı istiyor.
 
-Sık yapılan hata: Bir metnin uyarısını, konunun tamamını reddeden bir yargıya çevirmek. Metin nereye kadar gidiyorsa şık da oraya kadar gitmelidir. Cevap C.` },
+Sık yapılan hata: “Metinde yazıyor” diye bir ayrıntıyı işaretlemek. En kapsamlı yargı, olayların hepsini birden açıklayan cümledir. Cevap C.` },
 
 { id: "tur-pa-3033", kazanim: "T.8.3.11", kademe: 0, zorluk: 3,
   soru: `Ormanda yan yana duran iki ağaç, kışı bambaşka yollarla geçirir. Kayın, sonbaharda yapraklarını tek tek bırakır ve kışı çıplak dallarla geçirir. Geniş yaprak yazın bol ışık toplar; ama soğukta içindeki suyu tutamaz, üstelik üzerinde biriken kar dalları kırabilecek bir yüke dönüşür. Ladin ise yapraklarını dökmez. İğne biçimindeki yaprağın yüzeyi dardır, üstü mumsu bir tabakayla kaplıdır; bu yüzden sudan az kaybeder. Dalları aşağı doğru eğimli olduğu için kar üstünde durmaz, kayıp gider. Kayın baharda sıfırdan başlar, ilk sıcak günlerde yeni yaprak üretmeye enerji harcar. Ladin ise ışık görür görmez, hazır bekleyen yapraklarıyla işe koyulur. İkisi de kazanır; yalnızca kazandıkları yer, zaman ve yol birbirinden farklıdır.
 
 **Bu parçanın anlatımında aşağıdakilerden hangisine başvurulmuştur?**`,
   gorsel: null,
-  secenekler: ["Öyküleyici anlatım kullanılmış, olaylar oluş sırasına göre sıralanmıştır.", "Betimleyici anlatım kullanılmış, bir görünüm okurun gözünde canlandırılmıştır.", "Açıklayıcı anlatım kullanılmış, iki ağacın özellikleri bilgi verilerek anlatılmıştır.", "Tartışmacı anlatım kullanılmış, karşıt bir görüş örneklerle çürütülmüştür."],
+  secenekler: ["Öyküleyici anlatım kullanılmış, iki ağacın başından geçen bir kış olay sırasıyla aktarılmıştır.", "Betimleyici anlatım kullanılmış, iki ağacın kıştaki görünümü okurun gözünde canlandırılmıştır.", "Açıklayıcı anlatım kullanılmış, iki ağacın kışa uyum yolları bilgi verilerek anlatılmıştır.", "Tartışmacı anlatım kullanılmış, iki ağaçtan birinin daha üstün olduğu kanıtlarla savunulmuştur."],
   dogru: 2,
-  hatalar: ["ters yön: Öykülemede birbirini izleyen olaylar ve bir zaman akışı bulunur. Bu parçada olay değil, her yıl tekrarlanan sürekli özellikler anlatılıyor.", "kısmen doğru: Mumsu tabaka ve aşağı eğimli dallar gibi ayrıntılar göz önünde bir görüntü oluşturur; ama bunlar bir manzara çizmek için değil, bir nedeni açıklamak için kullanılmıştır.", null, "metinde var ama ilgisiz: Parçada iki ağaç karşılaştırılıyor; ancak çürütülen bir görüş yoktur, son cümle ikisini de haklı bulur."],
-  aciklama: `Anlatım biçimi, yazarın metni hangi amaçla kurduğunu gösterir. Dört biçim vardır: açıklayıcı (bilgi verir), öyküleyici (olay anlatır), betimleyici (görüntü çizer), tartışmacı (bir görüşü çürütüp kendi görüşünü savunur).
+  hatalar: ["metinde var ama ilgisiz: Metinde sonbahar, kış ve bahar sırası gerçekten geçiyor; ama bu sıra tek bir kışın başından geçenler değil, her yıl tekrarlanan özelliklerdir. Öykülemede belli bir zamanda yaşanan, birbirini izleyen olaylar bulunur.", "kısmen doğru: Mumsu tabaka ve aşağı eğimli dallar gibi ayrıntılar göz önünde bir görüntü oluşturur; ama bunlar kıştaki görünümü canlandırmak için değil, bir nedeni açıklamak için kullanılmıştır.", null, "ters yön: Parçada iki ağaç karşılaştırılıyor, ancak biri ötekinden üstün tutulmuyor; son cümle “İkisi de kazanır” diyerek bu şıkkın tam tersini söylüyor."],
+  aciklama: `Anlatım biçimi, yazarın metni hangi amaçla kurduğunu gösterir. Dört biçim vardır: açıklayıcı (bilgi verir), öyküleyici (olay anlatır), betimleyici (görüntü çizer), tartışmacı (bir görüşü savunur, karşıt görüşü çürütmeye çalışır).
 
-Adım 1: Metinde bir olay var mı? Yok. Belli bir günde başlayıp biten hiçbir şey anlatılmıyor; her kış ve her bahar tekrarlanan durumlar var. Öyleyse öyküleme değil.
-Adım 2: Amaç bir manzara çizmek mi? Değil. Görüntü veren ifadeler var ama hepsi bir nedene bağlanıyor: dar yüzey su kaybını, eğimli dal karın kaymasını açıklıyor. Betimleme burada araçtır, amaç değildir.
-Adım 3: Karşı çıkılan bir görüş var mı? Yok. Metin kimseyle tartışmıyor, son cümlede “ikisi de kazanır” diyor. Öyleyse tartışmacı da değil.
-Adım 4: Geriye açıklayıcı anlatım kalıyor. Metin baştan sona “neden böyledir” sorusunu yanıtlıyor.
+Bu soruda dört şık da iki ağaçtan söz ediyor. Bu yüzden karar, ağaçların adına bakılarak değil, metnin onları hangi amaçla anlattığına bakılarak verilir.
 
-En güçlü çeldirici B. Parçadaki görsel ayrıntılar öğrenciyi yanıltır. Ölçüt şudur: ayrıntı okuru bir yere götürmek için mi, bir nedeni açıklamak için mi konmuş?
+Adım 1: Metinde bir olay var mı? Yok. Belli bir kışta başlayıp biten hiçbir şey anlatılmıyor; her sonbahar, her kış ve her bahar tekrarlanan durumlar var. Öyleyse A olamaz.
+Adım 2: Amaç kıştaki görünümü canlandırmak mı? Değil. Görüntü veren ifadeler var ama hepsi bir nedene bağlanıyor: dar yüzey su kaybını, eğimli dal karın kaymasını açıklıyor. Betimleme burada araçtır, amaç değildir. Öyleyse B de olamaz.
+Adım 3: Ağaçlardan biri üstün tutuluyor mu? Hayır. Son cümle “İkisi de kazanır” diyor. Öyleyse D de olamaz.
+Adım 4: Geriye C kalıyor. Metin baştan sona iki ağacın kışı nasıl karşıladığını, “neden böyledir” sorusunu yanıtlayarak anlatıyor.
 
-Sık yapılan hata: Karşılaştırmayı bir anlatım biçimi sanmak. Karşılaştırma bir düşünceyi geliştirme yoludur; anlatım biçimi dörtten biridir. Cevap C.` },
+En güçlü çeldirici B. Parçadaki görsel ayrıntılar öğrenciyi yanıltır. Ölçüt şudur: ayrıntı bir görüntüyü canlandırmak için mi, bir nedeni açıklamak için mi konmuş?
+
+Sık yapılan hata: Karşılaştırma gördüğü için tartışmacı anlatımı işaretlemek. Karşılaştırma bir düşünceyi geliştirme yoludur; iki şeyin karşılaştırılması, birinin savunulduğu anlamına gelmez. Cevap C.` },
 
 { id: "tur-pa-3034", kazanim: "T.8.3.19", kademe: 0, zorluk: 2,
   soru: `Bahçesine ceviz diken biri, birkaç yıl sonra ağacın altındaki sebzelerin cılız kaldığını fark eder. Gölge ilk akla gelen açıklamadır ama tek açıklama değildir. Cevizin kökleri, yaprakları ve meyvenin yeşil kabuğu toprağa bir madde bırakır; bu madde kimi bitkilerin köklerinin gelişmesini engeller. Domates ve biber bundan en çok etkilenenler arasındadır. Buna karşılık kimi bitkiler aynı toprakta hiç rahatsız olmadan yetişir. Ceviz altına ne ekileceği bu yüzden yalnızca gölgeye değil, bu görünmez sınıra da bakılarak seçilir.
@@ -263,23 +267,23 @@ En güçlü çeldirici C. Parçada sebzelerin cılız kaldığı yazılı olduğ
 Sık yapılan hata: Başlığı, metinde geçen en dikkat çekici sözcükten kurmak. Başlık, sözcüğün değil düşüncenin başlığıdır. Cevap A.` },
 
 { id: "tur-pa-3035", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
-  soru: `Ormanın bittiği, çayırın başladığı şeridi çoğu kişi bir sınır çizgisi sanır. Oysa orası ne tam orman ne tam çayırdır; ikisinin özelliklerini birden taşıyan ayrı bir kuşaktır. Işık, orman içine düşenden çok daha fazla oraya ulaşır; buna karşılık ağaçların gölgesi öğle saatlerinde şeridin bir bölümünü serin tutar. Böyle bir yerde hem gölge seven hem güneş isteyen bitkiler yan yana yetişebilir. Böcekler iki ortamdan da beslenir; kuşların bir bölümü ormanın içinde yuva yapıp açıklıkta avlanır. Bu yüzden orman kenarında sayılan tür sayısı, çoğu zaman ne ormanın ne de çayırın iç kesimlerinde görülür. Kenar, iki ortamın arasında kalmış bir eksiklik değil, - - - -.
+  soru: `Metro istasyonlarında, kaldırımlarda ve yaya geçitlerinin başında zemine döşenmiş kabartmalı şeritler görürsün. Bu şeritler, görme engelli yayaların bastonlarının ucuyla ya da ayak tabanlarıyla okudukları bir yol dilidir. Kabartmalar iki biçimde yapılır. Yürüme yönünde uzanan paralel çizgiler, izlenecek güzergâhı gösterir; baston bu çizgiler boyunca kaydıkça yolcu doğru yönde ilerlediğini anlar. Yuvarlak kabarcıklar ise - - - -. Bu nedenle kabarcıklı bölümler merdivenlerin başında, peronların kenarında ve araç yoluna açılan geçitlerin önünde bulunur. Şeritlerin çoğunlukla sarı yapılması da rastlantı değildir: az gören biri için zeminden ayrışan parlak bir renk, kabartma kadar yol gösterir. Şeridin üstüne bırakılan bir bisiklet ya da koli, bu dili okuyan biri için yolun ortasında beliren bir engeldir.
 
 **Bu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: ["ikisinin sunduklarını bir arada barındıran ayrı bir zenginliktir", "ormanın çayıra doğru genişlemesini durduran doğal bir engeldir", "çayırın zamanla ormana dönüşeceğini gösteren geçici bir aşamadır", "gölge seven bitkilerin güneşten korunduğu dar bir sığınaktır"],
+  secenekler: ["önde bir tehlike bulunduğunu, orada durup dikkat etmek gerektiğini bildirir", "yolun engelsiz sürdüğünü, adımların rahatça hızlandırılabileceğini bildirir", "zeminin kaygan olduğunu, yağmurlu havada yavaş yürümek gerektiğini bildirir", "bastonla izlenecek güzergâhı, yolcunun hangi yönde yürüyeceğini bildirir"],
   dogru: 0,
-  hatalar: [null, "ters yön: Metin kenarı bir engel olarak değil, iki ortamın buluştuğu yaşam alanı olarak anlatıyor; genişlemeyi durdurmaktan hiç söz edilmez.", "metinde var ama ilgisiz: Parça kenarın geçici mi kalıcı mı olduğunu tartışmıyor; anlattığı şey oranın şu anki zenginliğidir.", "kısmen doğru: Gölge seven bitkilerin orada yetiştiği doğrudur; ama bu, kenarın taşıdığı özelliklerden yalnızca biridir, boşluk ise bütününü ister."],
-  aciklama: `Boşluk yine “değil, …” kalıbıyla geliyor. Reddedilen şeyin karşıtı boşluğa gelecek.
+  hatalar: [null, "ters yön: Kabarcıklar merdiven başı, peron kenarı gibi yerlerde bulunuyor; buralar adımların hızlandırılacağı değil, yavaşlanıp durulacağı yerlerdir. Şık, metnin gösterdiği işlevin tam tersini söylüyor.", "kısmen doğru: Dikkatli yürümek gerektiği fikri doğru yöndedir, ama gerekçe yanlış. Metin kayganlıktan hiç söz etmiyor; boşluktan sonraki cümlede sayılan yerler de kaygan oldukları için değil, tehlikeli oldukları için seçilmiştir.", "metinde var ama ilgisiz: Güzergâhı ve yönü göstermek metinde geçiyor; ama bu, paralel çizgilerin işidir. Boşluğun başındaki “ise”, kabarcıkların çizgilerden farklı bir iş gördüğünü haber veriyor."],
+  aciklama: `Paragrafın ortasındaki bir boşluğu doldururken hem önceki hem sonraki cümleye bakarsın: önceki cümle boşluğun neyle karşılaştırıldığını, sonraki cümle ise boşluğun neyi açıklaması gerektiğini gösterir.
 
-Adım 1: Neyin reddedildiğini oku: “iki ortamın arasında kalmış bir eksiklik değil”. Öyleyse boşluk, kenarın bir eksik değil bir fazla olduğunu söylemeli.
-Adım 2: Metnin verdiği kanıtları topla. Işık ormandakinden fazla, gölge çayırdakinden fazla; hem gölge seven hem güneş isteyen bitkiler orada; böcekler iki ortamdan besleniyor; kuşlar ormanda yuva yapıp açıklıkta avlanıyor.
-Adım 3: Ortak noktayı adlandır. Her örnekte iki ortamın sunduğu şey bir arada bulunuyor. Sondan bir önceki cümle bunun sonucunu veriyor: tür sayısı iç kesimlerden fazla.
-Adım 4: A şıkkı tam olarak bunu söylüyor.
+Adım 1: Önceki cümleye bak. Paralel çizgiler güzergâhı gösteriyor. Boşluk “Yuvarlak kabarcıklar ise” diye başlıyor; “ise” karşılaştırma bildirir, yani kabarcıklar çizgilerden farklı bir iş görüyor.
+Adım 2: Sonraki cümleye bak. “Bu nedenle” kabarcıklı bölümler merdiven başında, peron kenarında ve araç yoluna açılan geçitlerin önünde. Boşluktaki bilgi, kabarcıkların neden tam bu yerlerde olduğunu açıklamalı.
+Adım 3: Bu üç yerin ortak özelliğini bul. Üçünde de fazladan atılan bir adım düşmeye ya da araç yoluna çıkmaya yol açar. Yani bunlar durulması gereken tehlikeli noktalardır.
+Adım 4: Şıkları bu iki ölçüte vur. A hem çizgilerden farklı bir iş söylüyor hem de o üç yeri açıklıyor. C de “dikkat” fikrine yaklaşıyor ama kayganlık, merdiven başını ya da peron kenarını açıklamaz.
 
-En güçlü çeldirici D. Gölge seven bitkiler metinde geçtiği için tanıdık gelir. Ama o, “bir arada bulunma”nın yalnızca yarısıdır; güneş isteyenleri dışarıda bırakır. Boşluk ise bütünü ister.
+En güçlü çeldirici D. Metinde geçen bir bilgiyi taşıdığı için tanıdık gelir; ama o bilgi çizgilere aittir. “Ise” sözcüğünü atlayan öğrenci bu şıkka düşer.
 
-Sık yapılan hata: Boşluğu, metinden alınan tek bir örnekle doldurmak. “Değil, …” kalıbında boşluk, metnin tamamının vardığı yargıyı taşır. Cevap A.` },
+Sık yapılan hata: Ortadaki bir boşluğu yalnızca önceki cümleye bakarak doldurmak. Boşluktan sonra gelen “Bu nedenle” cümlesi, boşluktaki bilginin sonucunu verir; doğru şık o sonucu açıklayabilmelidir. Cevap A.` },
 
 { id: "tur-pa-3036", kazanim: "T.8.3.34", kademe: 0, zorluk: 3,
   soru: `Meşe her yıl aynı miktarda palamut vermez. Bir ormanda on yıl boyunca tutulan sayımlar bunu açıkça gösteriyor: kimi yıl bir ağacın altına düşen palamut yüzü bulmuyor, kimi yıl aynı ağacın altı binlercesiyle kaplanıyor. Üstelik bu bolluk tek bir ağaca özgü değil; aynı bölgedeki meşeler bol yılı da kıt yılı da birlikte yaşıyor. Bunun bir açıklaması şu: kıt yıllarda palamutla beslenen hayvanların sayısı düşüyor, bol yılda ortaya çıkan milyonlarca palamudun hepsi yenemiyor, arta kalanlar filizlenme şansı buluyor. Her yıl eşit miktarda ürün veren bir meşe ormanında ise bu şans doğmuyor; beslenen hayvan sayısı da sabit kalıyor ve düşen palamutların neredeyse tamamı tüketiliyor.
@@ -343,29 +347,27 @@ En güçlü çeldirici B. Metnin ilk paragrafında birebir yazılıdır ve doğr
 Sık yapılan hata: Uzun metinlerde ilk paragrafta bulunan doğru bir cümleyi ana yargı sanmak. Yazının yönünü görmek için son paragrafın neyi özetlediğine bak. Cevap C.` },
 
 { id: "tur-pa-3039", kazanim: "T.8.3.17", kademe: 0, zorluk: 4,
-  soru: `Köy meydanındaki çınarın gövdesinde, bir çocuğun rahatça girebileceği büyüklükte bir boşluk var. Kasabaya ilk gelenler onu görünce “bu ağaç ölmüş” diyor. Oysa çınar her bahar yaprak açıyor, her yaz meydana geniş bir gölge veriyor.
+  soru: `**I. Metin**
+Mani, halk şiirimizin en kısa türlerinden biridir. Çoğunlukla yedi heceli dört dizeden oluşur; birinci, ikinci ve dördüncü dizeler uyaklıdır, üçüncü dize serbest kalır. Dize uzarsa ölçü bozulur, sözcük çoğalırsa uyak kaçar. Söylenmek istenen bir duyguyu, bir öğüdü ya da bir şakayı bu dar kalıba sığdırmak kolay değildir. Uzun bir açıklamaya yer olmadığı için söyleyen, sıradan sözü bırakıp tek bir benzetmeye, beklenmedik bir çağrışıma başvurur. Manilerde bizi gülümseten şaşırtıcı söyleyişlerin çoğu, sözün dört dizeye sığdırılma çabasından doğar.
 
-Bir ağacın gövdesinde suyu yukarı taşıyan boru demetleri, kabuğun hemen altındaki ince bir kuşakta bulunur. Gövdenin ortasındaki kalın odun ise yıllar önce bu görevi bırakmış, sertleşip yalnızca bir dayanak hâline gelmiştir. Mantarlar çoğu zaman ağacın önce bu ortadaki ölü bölümünü çürütür. Orası yavaş yavaş boşalırken dıştaki ince kuşak işini sürdürür; su da besin de akmaya devam eder.
+**II. Metin**
+Okulumuzun robot kulübünde bu yıl yarışma kuralı değişti: her takıma yalnızca iki motor verildi. İlk hafta hepimiz söylendik; geçen yıl altı motorlu, her kolu ayrı dönen bir robot yapmıştık. Kepçeyi kaldırmak için ayrı bir motor kalmayınca çözümü başka yerde aramak zorunda kaldık. Sonra ekipten biri, tek motorun dişliler yardımıyla hem tekerleklerden birini hem de kepçeyi döndürebileceğini fark etti. Robotumuz hafifledi, dönüşleri hızlandı; üstelik yarışma boyunca bir kez bile bozulmadı. Yarışma günü salonda en çok ilgi gören robotlar, en az parçayla en çok işi yapanlardı.
 
-Üstelik içi boşalan bir gövde, sanıldığı kadar çabuk devrilmez. Boru biçimindeki bir yapı, aynı maddeden yapılmış dolu bir çubuğun eğilmeye karşı gücünün büyük bölümünü korur; bisiklet kadrosunun ve çadır direğinin içi boş borulardan yapılması da bundandır.
-
-Elbette boşluk büyüdükçe risk artar; böyle ağaçlar düzenli olarak denetlenir, gerekirse dalları hafifletilir. Ama meydandaki çınara bakıp “içi boş, demek ki bitmiş” demek, ağacın nerede yaşadığını bilmemektir.
-
-**Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
+**Bu iki metinde ortak olarak vurgulanan düşünce aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["İçi boşalan ağaçların devrilme tehlikesi düzenli denetimle azaltılır.", "Bir ağacın yaşaması gövdenin ortasına değil, dıştaki ince kuşağa bağlıdır.", "Gövdesinde boşluk bulunan ağaçlar dolu gövdeli ağaçlardan daha sağlamdır.", "Ağaç gövdesindeki çürümenin nedeni, oraya yerleşen mantarların çoğalmasıdır."],
+  secenekler: ["Kısa bir şiirde her sözcüğün yükü uzun bir şiirdekinden fazladır.", "Sınırlı imkânlar insanı daha özgün çözümler bulmaya yöneltir.", "Az parçayla çok iş gören makineler yarışmalarda daha çok ilgi görür.", "Kuralların sıkılaşması, ortaya çıkan işi kendiliğinden güzelleştirir."],
   dogru: 1,
-  hatalar: ["metinde var ama ilgisiz: Denetim son paragrafta geçen bir önlemdir; yazarın kabul ettirmek istediği yargı değil, o yargıya eklenmiş bir uyarıdır.", null, "aşırı genelleme: Metin, içi boş gövdenin sanıldığı kadar çabuk devrilmediğini söylüyor; dolu gövdeden daha sağlam olduğunu değil.", "kısmen doğru: Mantarların ortadaki ölü odunu çürüttüğü metinde yazılı; ancak bu bilgi, ağacın neden yaşamayı sürdürdüğünü açıklamak için verilmiştir."],
-  aciklama: `Ana düşünceyi bulmak için metnin hangi yanlış inancı düzeltmek üzere yazıldığına bak.
+  hatalar: ["kısmen doğru: Bu yargı yalnızca I. metnin konusuna, şiire aittir; II. metinde şiirle ilgili tek bir bilgi yok. Üstelik I. metin bile sözcüğün “yükünü” değil, dar kalıbın söyleyeni nasıl yeni söyleyişlere ittiğini anlatıyor.", null, "metinde var ama ilgisiz: II. metnin son cümlesi bunu söylüyor; ama I. metinde makine de yarışma da yok. İki metnin ortak düşüncesi, yalnızca birinde geçen bir ayrıntı olamaz.", "aşırı genelleme: İki metinde de güzel sonuç kendiliğinden gelmiyor; I. metinde söyleyenin “sığdırılma çabasından”, II. metinde ekipten birinin fark ettiği bir çözümden doğuyor. Kural bu çabayı yalnızca başlatır."],
+  aciklama: `İki metnin ortak düşüncesini bulmak için önce her metnin ana düşüncesini tek cümleyle yaz, sonra iki cümlenin kesiştiği yeri ara. Ortak düşünce, iki metne birden uyan yargıdır; yalnızca birine uyan şık ne kadar doğru olursa olsun elenir.
 
-Adım 1: Yanlış inancı bul. “Bu ağaç ölmüş.” Metin daha ilk paragrafta bunu çürütüyor: çınar yaprak açıyor, gölge veriyor.
-Adım 2: Açıklamayı izle. Suyu taşıyan boru demetleri kabuğun hemen altındaki ince kuşaktadır; ortadaki kalın odun zaten yıllar önce bu görevi bırakmıştır. Çürüyen yer, çalışmayan yerdir.
-Adım 3: İkinci kanıtı al. İçi boş bir gövde çabuk devrilmez; boru biçimindeki yapı gücünün büyük bölümünü korur.
-Adım 4: Son cümleyi oku. “Ağacın nerede yaşadığını bilmemektir.” Bu, bütün metni tek bir yargıda toplar: ağaç ortada değil, dışta yaşar.
+Adım 1: I. metnin ana düşüncesi: Maninin dar kalıbı, söyleyeni sıradan sözün dışına çıkmaya zorlar; şaşırtıcı söyleyişler bu darlıktan doğar.
+Adım 2: II. metnin ana düşüncesi: İki motor sınırı, ekibi dişlilerle tek motordan iki iş çıkarmaya yöneltti; sonuç daha hafif ve daha sağlam bir robot oldu.
+Adım 3: Kesişimi bul. İkisinde de bir sınır var (dört dize, iki motor); ikisinde de bu sınır alışılmışın dışında bir çözüme götürüyor (beklenmedik çağrışım, dişli düzeneği).
+Adım 4: Şıkları ölç. A yalnızca I. metne, C yalnızca II. metne ait. D ortak düşünceyi abartıyor: güzelliği kuralın kendisine bağlıyor. B iki metne birden uyuyor.
 
-En güçlü çeldirici C. Üçüncü paragraftaki boru örneği, “demek ki boş gövde daha sağlammış” diye okunabilir. Oysa metin “sanıldığı kadar çabuk devrilmez” diyor; bu, bir üstünlük değil, bir beklentinin düzeltilmesidir.
+En güçlü çeldirici D. Ortak düşünceye çok yakın durur; ama “kendiliğinden” sözcüğü iki metinle de çelişir. I. metinde şaşırtıcı söyleyiş bir çabadan, II. metinde çözüm ekipten birinin buluşundan doğar. Sınır yalnızca yolu daraltır; yeni yolu bulan insandır.
 
-Sık yapılan hata: Bir kanıtı ana düşünce yerine koymak. A, C ve D’nin üçü de metnin birer kanıtıdır; ana düşünce ise bu kanıtların ortaklaşa götürdüğü yargıdır. Cevap B.` },
+Sık yapılan hata: İki metinli sorularda yalnızca birinci ya da yalnızca ikinci metinde geçen bir bilgiyi ortak düşünce sanmak. Her şıkka “Bu, iki metne de uyuyor mu?” diye sor. Cevap B.` },
 
 { id: "tur-pa-3040", kazanim: "T.8.3.19", kademe: 0, zorluk: 1,
   soru: `Yazın ilk sıcaklarıyla birlikte tepedeki kule doluyor. İçerideki gözcü gün boyu ufku tarıyor; aradığı alev değil, ağaçların üstünde beliren ince bir duman. Duman görülür görülmez telsizle yeri bildiriliyor. Yangına ilk dakikalarda ulaşmak, saatler sonra ulaşmaktan çok daha kolay olduğu için bu sessiz bekleyiş boşa geçmiş sayılmıyor.

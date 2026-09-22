@@ -270,24 +270,24 @@ Cevap B.`
   zorluk: 2,
   soru: `Aşağıda, 1913 yılında gönderildiği varsayılan kurgusal telgraflar verilmiştir.
 Bu telgraflara göre,
-I. Balkan devletleri kendi aralarında anlaşmazlığa düşmüştür.
-II. Osmanlı Devleti bu anlaşmazlıktan yararlanarak bir yeri geri almıştır.
-III. Edirne, Avrupa devletlerinin arabuluculuğuyla geri alınmıştır.
+I. Balkan devletleri, aldıkları toprakları paylaşırken kendi aralarında anlaşmazlığa düşmüştür.
+II. Edirne, Avrupa devletlerinin arabuluculuğuyla geri alınmıştır.
+III. Osmanlı Devleti, Balkan devletleri arasındaki çatışmadan yararlanarak Edirne'yi geri almıştır.
 **yargılarından hangilerine ulaşılabilir?**`,
-  gorsel: `<svg viewBox="0 0 560 250" role="img" aria-label="Üç telgraf kartı: Haziran 1913 Balkan devletleri paylaşımda anlaşamadı; Temmuz 1913 Bulgar kuvvetleri batıya kaydı, Edirne yönünde ilerleme emri verildi; Temmuz 1913 Edirne'ye girildi."><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="12" y="10" width="536" height="70" rx="4"/><rect x="12" y="90" width="536" height="70" rx="4"/><rect x="12" y="170" width="536" height="70" rx="4"/></g><g font-size="15" font-weight="bold" fill="var(--vurgu)"><text x="30" y="34">TELGRAF — 30 Haziran 1913</text><text x="30" y="114">TELGRAF — 12 Temmuz 1913</text><text x="30" y="194">TELGRAF — 23 Temmuz 1913</text></g><g font-size="14" fill="currentColor"><text x="30" y="58">Balkan devletleri, aldıkları toprakların paylaşımında</text><text x="30" y="74">anlaşamamış; aralarında çatışma başlamıştır.</text><text x="30" y="138">Bulgar kuvvetlerinin batıya kaydığı anlaşılmıştır.</text><text x="30" y="154">Edirne yönünde ilerleme emri verilmiştir.</text><text x="30" y="218">Edirne'ye girilmiştir. Kolordu kurmay heyeti şehirde</text><text x="30" y="234">düzenin sağlanmasıyla görevlendirilmiştir.</text></g></svg>`,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
+  gorsel: `<svg viewBox="0 0 560 250" role="img" aria-label="Üç telgraf kartı: Haziran 1913 Balkan devletleri paylaşımda anlaşamadı; Temmuz 1913 Bulgar kuvvetleri batıya kaydı, mart ayında kaybedilen Edirne yönünde ilerleme emri verildi; Temmuz 1913 Edirne'ye girildi."><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="12" y="10" width="536" height="70" rx="4"/><rect x="12" y="90" width="536" height="70" rx="4"/><rect x="12" y="170" width="536" height="70" rx="4"/></g><g font-size="15" font-weight="bold" fill="var(--vurgu)"><text x="30" y="34">TELGRAF — 30 Haziran 1913</text><text x="30" y="114">TELGRAF — 12 Temmuz 1913</text><text x="30" y="194">TELGRAF — 23 Temmuz 1913</text></g><g font-size="14" fill="currentColor"><text x="30" y="58">Balkan devletleri, aldıkları toprakların paylaşımında</text><text x="30" y="74">anlaşamamış; aralarında çatışma başlamıştır.</text><text x="30" y="138">Bulgar kuvvetlerinin batıya kaydığı anlaşılmıştır; mart ayında</text><text x="30" y="154">kaybedilen Edirne yönünde ilerleme emri verilmiştir.</text><text x="30" y="218">Edirne'ye girilmiştir. Kolordu kurmay heyeti şehirde</text><text x="30" y="234">düzenin sağlanmasıyla görevlendirilmiştir.</text></g></svg>`,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve III", "I, II ve III"],
   dogru: 2,
   hatalar: [
-    "II'yi atladın: son telgrafta Edirne'ye girildiği yazılı; bu, kaybedilen bir yerin geri alındığını gösterir.",
-    "III'ü doğru saydın; oysa telgraflarda arabuluculuk yapan bir devletten hiç söz edilmiyor.",
+    "III'ü atladın: ikinci telgrafta mart ayında kaybedilen Edirne yönünde ilerleme emri verildiği, üçüncü telgrafta şehre girildiği yazılıdır; bu, Edirne'nin geri alındığını gösterir.",
+    "I'i atladın: ilk telgrafta Balkan devletlerinin aldıkları toprakları paylaşamadığı ve aralarında çatışma başladığı açıkça yazılıdır.",
     null,
-    "III'ü de doğru saydın. Telgraflarda Edirne'ye girilmesini sağlayan şey Balkan devletleri arasındaki çatışmadır, bir arabuluculuk değildir."
+    "II'yi de doğru saydın; oysa telgrafların hiçbirinde Avrupa devletlerinden ya da arabuluculuktan söz edilmiyor. Edirne'ye girilmesini sağlayan, Balkan devletleri arasındaki çatışmadır."
   ],
   aciklama: `Öncüllü sorularda her yargıyı ayrı ayrı belgeyle eşleştirmelisin. Belgede karşılığı olmayan yargı, doğru bilgi bile olsa kullanılamaz.
-Adım 1: I. yargıyı sına. İlk telgrafta Balkan devletlerinin paylaşımda anlaşamadığı ve aralarında çatışma başladığı yazıyor. I doğrudur.
-Adım 2: II. yargıyı sına. İkinci telgrafta Bulgar kuvvetlerinin batıya kayması üzerine Edirne yönünde ilerleme emri veriliyor; üçüncü telgrafta şehre girildiği bildiriliyor. Yani Osmanlı Devleti bu durumdan yararlanmıştır. II doğrudur.
-Adım 3: III. yargıyı sına. Telgrafların hiçbirinde Avrupa devletlerinden ya da arabuluculuktan söz edilmiyor. III çıkarılamaz.
-Adım 4: Doğru olanlar I ve II'dir.
+Adım 1: I. yargıyı sına. İlk telgrafta Balkan devletlerinin aldıkları toprakların paylaşımında anlaşamadığı ve aralarında çatışma başladığı yazıyor. I doğrudur.
+Adım 2: II. yargıyı sına. Telgrafların hiçbirinde Avrupa devletlerinden ya da arabuluculuktan söz edilmiyor. II çıkarılamaz. En güçlü çeldirici "I, II ve III" bu yüzden yanlıştır.
+Adım 3: III. yargıyı sına. İkinci telgrafta Bulgar kuvvetlerinin batıya kaydığı anlaşılınca mart ayında kaybedilen Edirne yönünde ilerleme emri veriliyor; üçüncü telgrafta şehre girildiği bildiriliyor. Osmanlı Devleti, Balkan devletleri arasındaki çatışmadan yararlanarak Edirne'yi geri almıştır. III doğrudur.
+Adım 4: Doğru olanlar I ve III'tür.
 Sağlama: Telgrafların tarihleri de sırayı doğruluyor: önce anlaşmazlık, sonra ilerleme emri, sonra şehre giriş.
 Sık yapılan hata: Bir kazanımı gördüğünde onu hemen dış bir desteğe bağlamak. Belgeler yalnız kendi söylediklerine dayanak olur.
 Cevap C.`
@@ -359,29 +359,29 @@ Cevap D.`
   kazanim: "İTA.8.1.4",
   kademe: 1,
   zorluk: 2,
-  soru: `Mustafa Kemal 1913 yılında Sofya'ya askerî ataşe olarak atandı. Bu görevi sırasında Bulgar ordusunu ve Avrupa'daki siyasi gelişmeleri yakından izledi, gözlemlerini düzenli raporlarla İstanbul'a bildirdi.
+  soru: `Mustafa Kemal 1913 yılında Sofya'daki Osmanlı elçiliğine askerî ataşe olarak atandı. Bu görevi sırasında Bulgar ordusunu ve Avrupa'daki siyasi gelişmeleri yakından izledi, gözlemlerini düzenli raporlarla İstanbul'a bildirdi.
 Buna göre,
-I. Yurt dışında diplomatik nitelikli bir görev üstlenmiştir.
-II. Bulunduğu ülkenin askerî gücü hakkında bilgi toplamıştır.
-III. Bu görevi sırasında bir cephede çarpışmaya katılmıştır.
+I. Bu görevi sırasında bir cephede çarpışmaya katılmıştır.
+II. Yurt dışında diplomatik nitelikli bir görev üstlenmiştir.
+III. Bulunduğu ülkenin askerî gücü hakkında bilgi toplamıştır.
 **yargılarından hangilerine ulaşılabilir?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
-  dogru: 2,
+  secenekler: ["Yalnız II", "Yalnız III", "I ve III", "II ve III"],
+  dogru: 3,
   hatalar: [
-    "II'yi atladın: metinde Bulgar ordusunu yakından izlediği ve raporladığı yazılı.",
-    "III'ü doğru saydın; oysa metinde çarpışmadan değil, gözlem ve rapordan söz ediliyor.",
-    null,
-    "III'ü de doğru saydın. Askerî ataşelik bir cephe görevi değil, yurt dışında bilgi toplama görevidir."
+    "III'ü atladın: metinde Bulgar ordusunu yakından izlediği ve gözlemlerini düzenli raporlarla İstanbul'a bildirdiği yazılıdır.",
+    "II'yi atladın: Sofya yurt dışıdır ve askerî ataşe bir elçilikte görev yapan subaydır; bu, diplomatik nitelikli bir görevdir.",
+    "I'i doğru saydın; oysa metinde cephe ya da çarpışmadan değil, gözlem ve rapordan söz ediliyor. Ayrıca elçilikteki görevin diplomatik niteliğini (II) atladın.",
+    null
   ],
   aciklama: `Askerî ataşe, bir devletin başka bir ülkedeki elçiliğinde görev yapan ve o ülkenin ordusuyla ilgili gelişmeleri izleyen subaydır.
-Adım 1: I. yargıyı sına. Atama yurt dışınadır ve elçilik görevidir; yani diplomatik niteliklidir. I doğrudur.
-Adım 2: II. yargıyı sına. Metinde Bulgar ordusunu yakından izlediği ve raporlar gönderdiği yazılıdır. II doğrudur.
-Adım 3: III. yargıyı sına. Metinde cephe, çarpışma ya da harekât geçmiyor. III çıkarılamaz.
-Adım 4: Doğru olanlar I ve II'dir.
+Adım 1: I. yargıyı sına. Metinde cephe, çarpışma ya da harekât geçmiyor; anlatılan, izleme ve raporlamadır. I çıkarılamaz. Bu yüzden I'i içeren "I ve III" seçeneği elenir.
+Adım 2: II. yargıyı sına. Atama yurt dışındaki bir elçiliğedir; yani görev diplomatik niteliklidir. II doğrudur.
+Adım 3: III. yargıyı sına. Metinde Bulgar ordusunu yakından izlediği ve raporlar gönderdiği yazılıdır. III doğrudur.
+Adım 4: Doğru olanlar II ve III'tür.
 Sağlama: Bu görev Mustafa Kemal'in Birinci Dünya Savaşı öncesindeki hizmetlerindendir; Avrupa siyasetini yakından tanımasını sağlamıştır.
 Sık yapılan hata: Subay sözcüğünü görünce her görevi savaşla ilişkilendirmek. Askerlik hayatı cephe dışındaki görevleri de kapsar.
-Cevap C.`
+Cevap D.`
 },
 {
   id: "ink-u1-124",
@@ -756,7 +756,7 @@ Cevap C.`
   zorluk: 3,
   soru: `Aşağıdaki kavram haritasında Osmanlı Devleti'nin son döneminde ileri sürülen fikir akımları gösterilmiştir.
 **Bu haritaya göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
-  gorsel: `<svg viewBox="0 0 560 300" role="img" aria-label="Kavram haritası: Devlet nasıl kurtulur sorusundan Osmanlıcılık, İslamcılık, Türkçülük ve Batıcılık dallanıyor"><rect x="170" y="8" width="220" height="44" rx="6" fill="var(--vurgu)" stroke="currentColor" stroke-width="2" opacity="0.25"/><rect x="170" y="8" width="220" height="44" rx="6" fill="none" stroke="currentColor" stroke-width="2"/><text x="280" y="36" font-size="16" font-weight="bold" text-anchor="middle" fill="currentColor">Devlet nasıl kurtulur?</text><g stroke="var(--vurgu2)" stroke-width="3" fill="none"><path d="M240 52 L130 96"/><path d="M320 52 L430 96"/><path d="M240 52 L130 192"/><path d="M320 52 L430 192"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="12" y="96" width="256" height="82" rx="5"/><rect x="292" y="96" width="256" height="82" rx="5"/><rect x="12" y="192" width="256" height="82" rx="5"/><rect x="292" y="192" width="256" height="82" rx="5"/></g><g font-size="15" font-weight="bold" fill="var(--vurgu)"><text x="28" y="120">Osmanlıcılık</text><text x="308" y="120">İslamcılık</text><text x="28" y="216">Türkçülük</text><text x="308" y="216">Batıcılık</text></g><g font-size="14" fill="currentColor"><text x="28" y="142">Bütün tebaayı din ve dil farkı</text><text x="28" y="162">gözetmeden eşit sayıp bir arada tut.</text><text x="308" y="142">Dünyadaki bütün Müslümanları</text><text x="308" y="162">halife çevresinde birleştir.</text><text x="28" y="238">Ortak dil ve kültüre sahip</text><text x="28" y="258">Türkleri birleştir.</text><text x="308" y="238">Avrupa'nın bilimini, tekniğini</text><text x="308" y="258">ve kurumlarını al.</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 560 286" role="img" aria-label="Kavram haritası: ortadaki Devlet nasıl kurtulur? sorusundan dört fikir akımına dal çıkıyor; üstte Osmanlıcılık ve İslamcılık, altta Türkçülük ve Batıcılık"><g stroke="var(--vurgu2)" stroke-width="3" fill="none"><path d="M230 120 L140 90"/><path d="M330 120 L420 90"/><path d="M230 164 L140 194"/><path d="M330 164 L420 194"/></g><rect x="170" y="120" width="220" height="44" rx="6" fill="var(--vurgu)" stroke="currentColor" stroke-width="2" opacity="0.25"/><rect x="170" y="120" width="220" height="44" rx="6" fill="none" stroke="currentColor" stroke-width="2"/><text x="280" y="148" font-size="16" font-weight="bold" text-anchor="middle" fill="currentColor">Devlet nasıl kurtulur?</text><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="12" y="8" width="256" height="82" rx="5"/><rect x="292" y="8" width="256" height="82" rx="5"/><rect x="12" y="194" width="256" height="82" rx="5"/><rect x="292" y="194" width="256" height="82" rx="5"/></g><g font-size="15" font-weight="bold" fill="var(--vurgu)"><text x="28" y="32">Osmanlıcılık</text><text x="308" y="32">İslamcılık</text><text x="28" y="218">Türkçülük</text><text x="308" y="218">Batıcılık</text></g><g font-size="14" fill="currentColor"><text x="28" y="54">Bütün tebaayı din ve dil farkı</text><text x="28" y="74">gözetmeden eşit sayıp bir arada tut.</text><text x="308" y="54">Dünyadaki bütün Müslümanları</text><text x="308" y="74">halife çevresinde birleştir.</text><text x="28" y="240">Ortak dil ve kültüre sahip</text><text x="28" y="260">Türkleri birleştir.</text><text x="308" y="240">Avrupa'nın bilimini, tekniğini</text><text x="308" y="260">ve kurumlarını al.</text></g></svg>`,
   secenekler: [
     "Akımların dördü de devleti kurtarma sorusundan yola çıkmıştır.",
     "Akımlar aynı dönemde sırayla uygulanarak denenmiştir.",
@@ -771,7 +771,7 @@ Cevap C.`
     "Batıcılık kutusunda birleştirme değil, Avrupa'nın bilimini ve kurumlarını alma önerisi var. Bu yargıya ulaşılabilir."
   ],
   aciklama: `Soru kökünde "ulaşılamaz" yazıyor. Böyle sorularda üç seçeneğin haritada karşılığı bulunur; senin işin karşılığı olmayanı bulmaktır.
-Adım 1: A seçeneğini sına. Haritanın merkezinde "Devlet nasıl kurtulur?" sorusu duruyor ve dört kutu da bu soruya bağlanıyor. Ulaşılabilir.
+Adım 1: A seçeneğini sına. Haritanın ortasında "Devlet nasıl kurtulur?" sorusu duruyor ve dört kutu da çizgilerle bu soruya bağlanıyor. Ulaşılabilir.
 Adım 2: C seçeneğini sına. Osmanlıcılık tebaayı, İslamcılık dini, Türkçülük dil ve kültürü ölçüt alıyor. Ölçütler farklıdır. Ulaşılabilir.
 Adım 3: D seçeneğini sına. Batıcılık kutusu bir topluluğu birleştirmeyi değil, Avrupa'nın bilim ve kurumlarını almayı öneriyor. Ulaşılabilir.
 Adım 4: B seçeneğini sına. Haritada hiçbir sıra, tarih ya da uygulama bilgisi yok; yalnız öneriler yazılı. Akımların sırayla uygulandığı bilgisine ulaşılamaz.
@@ -823,23 +823,23 @@ Cevap A.`
 **Bu deftere göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
   gorsel: null,
   secenekler: [
-    "Subaylara bölgede güvenlikle ilgili görevler verilmiştir.",
-    "Bölgede eğitim ve ulaşım imkânları yetersizdir.",
-    "Genç subayların ilgisi askerî görevlerin çerçevesi dışına çıkmamıştır.",
-    "Vergi toplama işi askerî birliklerin eşliğinde yürütülmüştür."
+    "Subaylara bölgede asayişle ilgili görevler verilmiştir.",
+    "Bölgede eğitim ve ulaşım imkânları yeterli değildir.",
+    "Subaylar askerî olmayan sorunlarla ilgilenmemiştir.",
+    "Vergi toplayan memura askerlerce eşlik edilmiştir."
   ],
   dogru: 2,
   hatalar: [
-    "Defterde asayişi sağlama görevi açıkça yazılı; bu yargıya ulaşılabilir. Olumsuz kökü gözden kaçırmış olabilirsin.",
-    "Defterde köylerde ne mektep ne de doğru dürüst yol bulunduğu yazılı; bu yargıya ulaşılabilir.",
+    "Defterde çöl köylerinde asayişi sağlama görevi açıkça yazılı; bu yargıya ulaşılabilir. Olumsuz kökü gözden kaçırmış olabilirsin.",
+    "Defterde köylerde ne mektep ne de doğru dürüst yol bulunduğu yazılı; bu yargıya ulaşılabilir. Seçeneğin olumsuz cümle olması onu yanlış yapmaz.",
     null,
-    "Defterde vergi toplayan memura eşlik etme görevi yazılı; bu yargıya ulaşılabilir."
+    "Defterde subaylara vergi toplayan memura eşlik etme görevi verildiği yazılı; bu yargıya ulaşılabilir."
   ],
-  aciklama: `Soru kökünde "ulaşılamaz" yazıyor. Üç seçeneğin defterde bir dayanağı vardır; dayanağı olmayanı ya da metnin tersini söyleyeni bulmalısın.
-Adım 1: A seçeneğini sına. "Çöl köylerinde asayişi sağlamak" ifadesi güvenlik görevini doğrudan gösterir. Ulaşılabilir.
-Adım 2: B seçeneğini sına. "Ne mektep vardı ne de doğru dürüst yol" cümlesi eğitim ve ulaşım yetersizliğini gösterir. Ulaşılabilir.
-Adım 3: D seçeneğini sına. "Vergi toplayan memura eşlik etmek" ifadesi bu yargıyı karşılar. Ulaşılabilir.
-Adım 4: C seçeneğini sına. Defterin son cümlesi tam tersini söylüyor: memleketin derdinin yalnız düşmanla olmadığı, mektepsizlik ve yolsuzlukla da uğraşmayı gerektirdiği belirtiliyor. Bu yargıya ulaşılamaz.
+  aciklama: `Soru kökünde "ulaşılamaz" yazıyor. Üç seçeneğin defterde bir dayanağı vardır; dayanağı olmayanı ya da metnin tersini söyleyeni bulmalısın. Bir seçeneğin olumlu ya da olumsuz cümle olması tek başına ipucu değildir; her birini metinle karşılaştır.
+Adım 1: A seçeneğini sına. "Çöl köylerinde asayişi sağlamak" ifadesi subaylara verilen asayiş görevini doğrudan gösterir. Ulaşılabilir.
+Adım 2: B seçeneğini sına. "Ne mektep vardı ne de doğru dürüst yol" cümlesi eğitim ve ulaşım imkânlarının yeterli olmadığını gösterir. Olumsuz cümle olduğu hâlde ulaşılabilir; en güçlü çeldirici budur.
+Adım 3: D seçeneğini sına. Subaylara verilen iş "vergi toplayan memura eşlik etmek"tir; yani memura askerler eşlik etmiştir. Ulaşılabilir.
+Adım 4: C seçeneğini sına. Defter, köylerde karşılaşılan şeyin isyan değil yokluk olduğunu söylüyor; son cümlede de memleketin derdinin mektepsizlik ve yolsuzlukla da uğraşmayı gerektirdiği belirtiliyor. Subaylar askerî olmayan sorunları fark edip konuşmuştur. Bu yargıya ulaşılamaz.
 Sağlama: Anlatılan görev bir cephe görevi değil, bölgenin sorunlarını yerinde gören bir asayiş görevidir; metindeki gözlemler de askerî olmayan sorunlarla ilgilidir.
 Sık yapılan hata: "Subay" sözcüğünü görüp metni yalnız askerî bir çerçevede okumak. Metnin vurgusu, askerî olmayan sorunların fark edilmesindedir.
 Cevap C.`
@@ -1003,24 +1003,24 @@ Cevap B.`
 "Vilayetimizde Müslüman, Rum, Ermeni ve Yahudi cemaatleri bir arada yaşamaktadır; her cemaatin kendi mektebi ve kendi vakfı vardır. Son beş yılda Balkanlardan gelen muhacirler için yeni mahalleler kurulmuş, bunların iskânı vilayet bütçesine yük olmuştur. Kasabalarda el tezgâhları azalmış, gençlerin bir bölümü iş aramak için liman şehirlerine gitmiştir."
 Bu rapora göre,
 I. Farklı topluluklar kendi kurumlarıyla birlikte yaşamaktadır.
-II. Göç hareketleri vilayetin giderlerini artırmıştır.
-III. Liman şehirlerinde iş gücü ihtiyacı artmıştır.
+II. Liman şehirlerinde iş gücü ihtiyacı artmıştır.
+III. Göç hareketleri vilayetin giderlerini artırmıştır.
 **yargılarından hangilerine ulaşılabilir?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
+  secenekler: ["Yalnız III", "I ve II", "I ve III", "II ve III"],
   dogru: 2,
   hatalar: [
-    "II'yi atladın: raporda muhacirlerin iskânının vilayet bütçesine yük olduğu açıkça yazılıdır.",
-    "III'ü doğru saydın; oysa raporda gençlerin iş aramaya gittiği yazıyor, liman şehirlerinde iş gücü ihtiyacının arttığı yazmıyor.",
+    "I'i atladın: raporda dört cemaatin bir arada yaşadığı ve her birinin kendi mektebi ile vakfı olduğu açıkça yazılıdır.",
+    "II'yi doğru sayıp III'ü atladın: raporda gençlerin iş aramaya gittiği yazıyor, liman şehirlerinde iş gücü ihtiyacının arttığı yazmıyor; muhacirlerin iskânının bütçeye yük olduğu ise açıkça belirtiliyor.",
     null,
-    "III'ü doğru saydın. Bir yere iş aramak için gitmek, orada iş gücüne ihtiyaç duyulduğunu göstermez."
+    "II'yi doğru sayıp I'i atladın. Bir yere iş aramak için gitmek, orada iş gücüne ihtiyaç duyulduğunu göstermez; cemaatlerin kendi mektep ve vakıfları ise raporda yazılıdır."
   ],
   aciklama: `Raporlardan çıkarım yaparken metnin söylediği ile metnin ima ettiği sanılan şeyi ayırmak gerekir.
-Adım 1: I. yargıyı sına. Raporda dört cemaatin bir arada yaşadığı ve her birinin kendi mektebi ile vakfı olduğu yazılıdır. I doğrudur.
-Adım 2: II. yargıyı sına. Muhacirler için yeni mahalleler kurulmuş ve iskânın vilayet bütçesine yük olduğu belirtilmiştir. II doğrudur.
-Adım 3: III. yargıyı sına. Rapor yalnız gençlerin iş aramak için liman şehirlerine gittiğini söylüyor. Oralarda iş bulup bulmadıkları ya da iş gücü ihtiyacının artıp artmadığı yazılı değildir. III çıkarılamaz.
-Adım 4: Doğru olanlar I ve II'dir.
-Sağlama: Rapor üç ayrı konudan söz ediyor: cemaat yapısı, göç ve el tezgâhlarının azalması. Üçüncü öncül, üçüncü konunun sonucunu metnin söylemediği bir yöne taşıyor.
+Adım 1: I. yargıyı sına. Raporda dört cemaatin bir arada yaşadığı ve her birinin kendi mektebi ile vakfı olduğu yazılıdır. Mektep ve vakıf, topluluğun kendi kurumlarıdır. I doğrudur.
+Adım 2: II. yargıyı sına. Rapor yalnız gençlerin iş aramak için liman şehirlerine gittiğini söylüyor. Oralarda iş bulup bulmadıkları ya da iş gücü ihtiyacının artıp artmadığı yazılı değildir. II çıkarılamaz. II'yi içeren "I ve II" ile "II ve III" seçenekleri bu yüzden elenir.
+Adım 3: III. yargıyı sına. Muhacirler için yeni mahalleler kurulmuş ve iskânın vilayet bütçesine yük olduğu belirtilmiştir. Muhacir, göç eden kişidir; bütçeye yük olmak da giderin artması demektir. III doğrudur.
+Adım 4: Doğru olanlar I ve III'tür.
+Sağlama: Rapor üç ayrı konudan söz ediyor: cemaat yapısı, göç ve el tezgâhlarının azalması. II. öncül, üçüncü konunun sonucunu metnin söylemediği bir yöne taşıyor.
 Sık yapılan hata: Bir hareketin nedenini sonucuyla karıştırmak. Gençler iş aramak için gitmiştir; bu, gidilen yerde iş olduğunu kanıtlamaz.
 Cevap C.`
 },
@@ -1034,25 +1034,25 @@ Cevap C.`
 **Bu tanıtım yazısına göre kitapla ilgili aşağıdakilerden hangisine ulaşılabilir?**`,
   gorsel: null,
   secenekler: [
-    "Anlatılanların yalnız bir kişinin yaşadıklarıyla sınırlı olmadığına",
-    "Kitabın yalnız Manastır yıllarını konu edindiğine",
-    "Kitapta yabancı dil öğrenimine yer verilmediğine",
-    "Kitabın bir askerî eğitim programını tanıttığına"
+    "Kitabın bir kuşağın ortak deneyimini yansıttığına",
+    "Kitabın Avrupalı düşünürlerin hayatlarını anlattığına",
+    "Kitabın Şam'daki askerî harekâtları ayrıntılı anlattığına",
+    "Kitabın yalnız Manastır yıllarını konu edindiğine"
   ],
   dogru: 0,
   hatalar: [
     null,
-    "Yazıda Manastır'ın yanı sıra Şam ve Balkanlar da geçiyor; kitap tek bir döneme sınırlı değildir.",
-    "Yazının tersi: Fransızca ilerledikçe Avrupa'nın düşünürlerinin okunduğu belirtiliyor.",
-    "Yazıda bir eğitim programı tanıtımı yok; anlatılan, bir düşünce dünyasının kuruluşudur."
+    "Metinde var ama çarpıtılmış: yazıda Avrupalı düşünürlerin okunduğu söyleniyor; kitabın onların hayatlarını anlattığına dair bir bilgi yok.",
+    "Metinde var ama çarpıtılmış: yazıda Şam'ın çöl köylerinde görülen yokluktan söz ediliyor; askerî harekâtlardan hiç söz edilmiyor.",
+    "Ters yön: yazıda Manastır'ın yanı sıra Şam ve Balkanlar da geçiyor; kitap tek bir döneme sınırlı değildir."
   ],
-  aciklama: `Tanıtım yazılarında asıl yargı çoğu zaman son cümlede toplanır; ama diğer cümleler de seçenekleri elemeye yarar.
-Adım 1: Son cümleyi oku. "Tek bir kişinin değil, aynı yıllarda yetişen bir kuşağın da hikâyesi" deniyor. Demek ki anlatılanlar tek kişiyle sınırlı değildir.
-Adım 2: B seçeneğini ele. Yazıda Manastır'dan sonra Şam ve Balkanlar da geçiyor; kitap tek bir yerle sınırlı değildir.
-Adım 3: C seçeneğini ele. "Fransızca ilerledikçe Avrupa'nın düşünürleri masaya geliyor" cümlesi yabancı dilin kitapta yer aldığını gösterir.
-Adım 4: D seçeneğini ele. Yazıda ders programı, sınav ya da öğretim düzeniyle ilgili hiçbir bilgi yoktur.
-Sağlama: Aranan yargının dayanağı, yazının doğrudan söylediği bir cümledir; diğer üçü ya metnin tersidir ya da metinde yoktur.
-Sık yapılan hata: Metinde en çok geçen yer adını (Manastır) konu sanmak. Yer adları örnektir; yazının konusu düşünce dünyasının kuruluşudur.
+  aciklama: `Tanıtım yazılarında asıl yargı çoğu zaman son cümlede toplanır; ama her seçeneği metnin ilgili cümlesiyle ayrıca karşılaştırmalısın.
+Adım 1: Son cümleyi oku. "Tek bir kişinin değil, aynı yıllarda yetişen bir kuşağın da hikâyesi" deniyor. Demek ki kitap, bir kuşağın ortak deneyimini de yansıtıyor. A seçeneğine ulaşılır.
+Adım 2: B seçeneğini sına. Yazıda "Fransızca ilerledikçe Avrupa'nın düşünürleri masaya geliyor" deniyor; yani bu düşünürler okunuyor. Kitabın onların hayatlarını anlattığına dair bir bilgi yoktur.
+Adım 3: C seçeneğini sına. Şam'la ilgili tek bilgi, çöl köylerinde görülen yokluğun kitaplardan öğrenilenin yanına konmasıdır. Askerî harekâttan hiç söz edilmiyor. En güçlü çeldirici budur; çünkü Şam gerçekten metinde geçer.
+Adım 4: D seçeneğini sına. Yazıda Manastır'ın yanı sıra Şam ve Balkanlar da geçiyor; kitap tek bir dönemle sınırlı değildir.
+Sağlama: B ve C, metinde geçen bir adı (düşünürler, Şam) alıp metnin söylemediği bir iddiaya bağlıyor. Doğru seçenek ise yazının doğrudan söylediği bir cümleye dayanıyor.
+Sık yapılan hata: Metinde geçen bir yer ya da kişi adını seçenekte görünce seçeneği hemen doğru saymak. Adın geçmesi yetmez; iddianın da metinde karşılığı olmalı.
 Cevap A.`
 },
 {
@@ -1093,29 +1093,29 @@ Cevap B.`
   soru: `Aşağıda, bir okulda yapılan kurgusal münazaradan bölüm verilmiştir:
 "Birinci konuşmacı: Devletin başındaki kişi bütün kararları tek başına verirse işler hızlı yürür; ama bir yanlış yapıldığında onu düzeltecek bir yol kalmaz.
 İkinci konuşmacı: Bir anayasa ve meclis varsa kararlar yavaşlar; buna karşılık yanlışı düzeltecek yol açık kalır.
-Üçüncü konuşmacı: Osmanlı Devleti'nde bu yol 1876'da açıldı, 1878'de kapandı, 1908'de yeniden açıldı."
+Üçüncü konuşmacı: Yalnız anayasanın yazılmış olması da her şeyi çözmez. 1876'da kabul edilen Kanun-ı Esasi, meclisi kapatma yetkisini yine padişaha bırakmıştı; yani o yol, onu kapatabilecek kişinin elindeydi."
 Bu münazaraya göre,
-I. Tek kişinin karar verdiği düzende yapılan yanlışı düzeltecek bir yol bulunmamaktadır.
-II. Anayasa ve meclisin bulunduğu düzende kararlar denetlenebilmektedir.
-III. Osmanlı Devleti'nde anayasalı yönetim kesintisiz sürmüştür.
+I. Tek kişinin karar verdiği düzende yapılan yanlışı düzeltmek kolaydır.
+II. Anayasa ve meclisin bulunduğu düzende kararlar daha hızlı alınır.
+III. Kanun-ı Esasi'nin kabul edilmesi, meclisin açık kalmasını tek başına güvence altına almamıştır.
 **yargılarından hangilerine ulaşılabilir?**`,
   gorsel: null,
-  secenekler: ["I ve II", "I ve III", "II ve III", "I, II ve III"],
-  dogru: 0,
+  secenekler: ["Yalnız I", "Yalnız II", "Yalnız III", "II ve III"],
+  dogru: 2,
   hatalar: [
+    "I'i doğru sayıp III'ü atladın: birinci konuşmacı, tek kişinin karar verdiği düzende yanlışı düzeltecek bir yol kalmadığını söylüyor; üçüncü konuşmacı ise meclisi kapatma yetkisinin padişahta kaldığını belirtiyor.",
+    "II'yi doğru sayıp III'ü atladın: ikinci konuşmacıya göre anayasa ve meclis varsa kararlar hızlanmaz, yavaşlar.",
     null,
-    "II'yi atlayıp III'ü doğru saydın: ikinci konuşmacı yanlışı düzeltecek yolun açık kaldığını söylüyor, üçüncü konuşmacı ise 1878'de kapanan bir dönemden söz ediyor.",
-    "I'i atlayıp III'ü doğru saydın: birinci konuşmacı, tek kişinin karar verdiği düzende yanlışı düzeltecek yol kalmadığını açıkça söylüyor.",
-    "III'ü de doğru saydın; oysa üçüncü konuşmacıya göre bu yol 1876'da açılmış, 1878'de kapanmış, 1908'de yeniden açılmıştır."
+    "II'yi de doğru saydın. İkinci konuşmacı, anayasa ve meclisin bulunduğu düzende kararların yavaşladığını söylüyor; hızlandığını değil."
   ],
-  aciklama: `Münazara metinlerinde her yargıyı bir konuşmacının söylediğiyle eşleştirmek gerekir.
-Adım 1: I. yargıyı sına. Birinci konuşmacı, tek kişinin karar verdiği düzende işlerin hızlı yürüdüğünü ama bir yanlış yapıldığında onu düzeltecek bir yol kalmadığını söylüyor. I doğrudur.
-Adım 2: II. yargıyı sına. İkinci konuşmacı, anayasa ve meclis varsa kararların yavaşladığını, buna karşılık yanlışı düzeltecek yolun açık kaldığını söylüyor. Bu, kararların denetlenebilmesidir. II doğrudur.
-Adım 3: III. yargıyı sına. Üçüncü konuşmacı bu yolun 1876'da açıldığını, 1878'de kapandığını, 1908'de yeniden açıldığını söylüyor. Yani kesinti vardır. III yanlıştır.
-Adım 4: Doğru olanlar I ve II'dir.
-Sağlama: Meşrutiyet, hükümdarın yanında halkın seçtiği temsilcilerden oluşan bir meclisin de yönetimde yer aldığı düzendir; denetim imkânı buradan doğar.
-Sık yapılan hata: "Kararlar hızlı alınır" ifadesini "kararlar doğru alınır" diye okumak. Hız ile isabet ayrı şeylerdir.
-Cevap A.`
+  aciklama: `Kanun-ı Esasi, 1876'da kabul edilen ilk Osmanlı anayasasıdır. Münazara metinlerinde her yargıyı bir konuşmacının söylediğiyle eşleştirmek gerekir.
+Adım 1: I. yargıyı sına. Birinci konuşmacı, tek kişinin karar verdiği düzende işlerin hızlı yürüdüğünü ama bir yanlış yapıldığında onu düzeltecek bir yol kalmadığını söylüyor. Yanlışı düzeltmek kolay değil, tersine imkânsızdır. I yanlıştır.
+Adım 2: II. yargıyı sına. İkinci konuşmacı, anayasa ve meclis varsa kararların yavaşladığını söylüyor. II bu sözün tersidir; yanlıştır. En güçlü çeldirici "II ve III" bu yüzden elenir.
+Adım 3: III. yargıyı sına. Üçüncü konuşmacıya göre Kanun-ı Esasi, meclisi kapatma yetkisini padişaha bırakmıştır. Anayasa varken bile meclis padişahın kararıyla kapatılabiliyorsa anayasanın kabulü, meclisin açık kalmasını tek başına güvence altına almamıştır. III doğrudur.
+Adım 4: Doğru olan yalnız III'tür.
+Sağlama: Üçüncü konuşmacı, ikinci konuşmacının "yol açık kalır" sözünü sınırlandırıyor: yol ancak onu kapatma yetkisi başkasının elinde değilse açık kalır.
+Sık yapılan hata: "Anayasa kabul edildi" bilgisini "meclis artık kapatılamaz" diye okumak. Bir anayasanın hangi yetkiyi kime bıraktığına da bakmak gerekir.
+Cevap C.`
 },
 {
   id: "ink-u1-318",
@@ -1157,26 +1157,26 @@ Cevap B.`
 "Fransız İhtilali'nden sonra yayılan milliyetçilik düşüncesi Avrupa'da iki yönlü sonuç doğurdu. Bir yanda dağınık hâlde yaşayan aynı milletten topluluklar birleşerek yeni devletler kurdu: İtalya 1870'te, Almanya 1871'de siyasi birliğini tamamladı. Öte yanda birden çok milleti barındıran imparatorluklarda ayrılma istekleri güçlendi. Yeni kurulan devletler kısa sürede sanayileşti ve sömürge yarışına katıldı; ancak paylaşılacak toprakların çoğu çoktan ele geçirilmişti."
 Bu bilgi kutusuna göre,
 I. Milliyetçilik, birleşme ve ayrılma biçiminde iki farklı sonuç doğurmuştur.
-II. Siyasi birliğini geç kuran devletler sömürge yarışına sonradan katılmıştır.
+II. Siyasi birliğini geç kuran devletler, sömürge yarışında geniş topraklar elde etmiştir.
 III. Sömürge yarışı, Avrupa devletleri arasındaki rekabeti azaltmıştır.
 **yargılarından hangilerine ulaşılabilir?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
-  dogru: 2,
+  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I ve III"],
+  dogru: 0,
   hatalar: [
-    "II'yi atladın: kutuda yeni kurulan devletlerin sömürge yarışına sonradan katıldığı yazılıdır.",
-    "III'ü doğru saydın; oysa kutuda rekabetin azaldığına dair bir bilgi yok, tersine paylaşılacak toprağın kalmadığı belirtiliyor.",
     null,
-    "III'ü doğru saydın. Paylaşılacak toprakların çoğunun ele geçirilmiş olması, rekabetin azaldığını değil, arttığını düşündürür."
+    "I'i atlayıp II'yi doğru saydın: kutu milliyetçiliğin iki yönlü sonucunu açıkça sayıyor; geç kuran devletler içinse paylaşılacak toprakların çoğunun çoktan ele geçirildiğini belirtiyor.",
+    "II'yi doğru saydın; oysa kutuya göre yeni kurulan devletler yarışa katıldığında paylaşılacak toprakların çoğu çoktan ele geçirilmişti. Geniş topraklar elde ettiklerine ulaşılamaz.",
+    "III'ü doğru saydın; kutuda rekabetin azaldığına dair bir bilgi yok. Paylaşılacak toprağın azalması, rekabetin azaldığını değil, arttığını düşündürür."
   ],
-  aciklama: `Bilgi kutusu gibi yoğun metinlerde her öncülü metnin bir cümlesiyle eşleştirmek gerekir.
+  aciklama: `Bilgi kutusu gibi yoğun metinlerde her öncülü metnin bir cümlesiyle eşleştirmek gerekir. Kaç öncülün doğru çıkacağına önceden karar verme; yalnız biri de doğru olabilir.
 Adım 1: I. yargıyı sına. Metin "iki yönlü sonuç" diyor ve ikisini de sayıyor: yeni devletlerin kurulması ile imparatorluklarda ayrılma isteklerinin güçlenmesi. I doğrudur.
-Adım 2: II. yargıyı sına. İtalya 1870'te, Almanya 1871'de birliğini kurmuş; "yeni kurulan devletler kısa sürede sanayileşti ve sömürge yarışına katıldı" denmiştir. Yani yarışa sonradan katılmışlardır. II doğrudur.
+Adım 2: II. yargıyı sına. İtalya 1870'te, Almanya 1871'de birliğini kurmuş, kısa sürede sömürge yarışına katılmıştır. Ancak metin hemen ardından "paylaşılacak toprakların çoğu çoktan ele geçirilmişti" diyor. "Ancak" bağlacı bir sınırlama getirir: geç gelen devletlere geniş topraklar kalmamıştır. II yanlıştır. En güçlü çeldirici "I ve II" bu yüzden elenir.
 Adım 3: III. yargıyı sına. Metin rekabetten söz etmiyor; yalnız paylaşılacak toprakların çoğunun ele geçirilmiş olduğunu söylüyor. Bu bilgi rekabetin azaldığını göstermez. III çıkarılamaz.
-Adım 4: Doğru olanlar I ve II'dir.
+Adım 4: Doğru olan yalnız I'dir.
 Sağlama: İtalya'nın 1911'de Trablusgarp'a saldırması, geç kalan bir devletin geriye kalan topraklara yönelmesinin örneğidir.
-Sık yapılan hata: Metinde verilmeyen bir sonucu (rekabetin azalması) kendi yorumunla eklemek. Çıkarım, metnin sınırları içinde kalır.
-Cevap C.`
+Sık yapılan hata: Metinde verilmeyen bir sonucu (geniş topraklar, rekabetin azalması) kendi yorumunla eklemek. Çıkarım, metnin sınırları içinde kalır.
+Cevap A.`
 },
 {
   id: "ink-u1-320",
@@ -1189,26 +1189,27 @@ II. görüş: Ortak dil ve kültüre dayalı birlik
 III. görüş: Avrupa'nın bilim ve kurumlarının alınması
 Balkan Savaşları'nda Osmanlı Devleti Rumeli topraklarının büyük bölümünü kaybetmiş; savaşta karşı tarafta bulunan topluluklar daha önce aynı devletin tebaası olmuştur.
 **Bu grafiğe ve bilgiye göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
-  gorsel: `<svg viewBox="0 0 560 330" role="img" aria-label="Çubuk grafik: I. görüş 1909-1911 döneminde 24, 1913-1914 döneminde 7 yazı; II. görüş 9 ve 31 yazı; III. görüş 15 ve 14 yazı"><g font-size="14" fill="currentColor"><rect x="150" y="10" width="18" height="14" fill="var(--vurgu)" stroke="currentColor"/><text x="176" y="23">1909-1911</text><rect x="290" y="10" width="18" height="14" fill="var(--vurgu2)" stroke="currentColor"/><text x="316" y="23">1913-1914</text></g><g stroke="currentColor" stroke-width="1" opacity="0.45"><line x1="40" y1="200" x2="545" y2="200"/><line x1="40" y1="140" x2="545" y2="140"/><line x1="40" y1="80" x2="545" y2="80"/></g><g font-size="14" fill="currentColor" text-anchor="end"><text x="34" y="265">0</text><text x="34" y="205">10</text><text x="34" y="145">20</text><text x="34" y="85">30</text></g><line x1="40" y1="260" x2="545" y2="260" stroke="currentColor" stroke-width="2"/><line x1="40" y1="50" x2="40" y2="260" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2"><rect x="95" y="116" width="40" height="144" fill="var(--vurgu)"/><rect x="145" y="218" width="40" height="42" fill="var(--vurgu2)"/><rect x="255" y="206" width="40" height="54" fill="var(--vurgu)"/><rect x="305" y="74" width="40" height="186" fill="var(--vurgu2)"/><rect x="415" y="170" width="40" height="90" fill="var(--vurgu)"/><rect x="465" y="176" width="40" height="84" fill="var(--vurgu2)"/></g><g font-size="14" font-weight="bold" fill="currentColor" text-anchor="middle"><text x="115" y="110">24</text><text x="165" y="212">7</text><text x="275" y="200">9</text><text x="325" y="68">31</text><text x="435" y="164">15</text><text x="485" y="170">14</text></g><g font-size="15" fill="currentColor" text-anchor="middle"><text x="140" y="284">I. görüş</text><text x="300" y="284">II. görüş</text><text x="460" y="284">III. görüş</text></g><text x="292" y="315" font-size="14" fill="currentColor" text-anchor="middle">Grafik: Dönemlere göre yayımlanan yazı sayısı</text></svg>`,
+  gorsel: `<svg viewBox="0 0 560 330" role="img" aria-label="Çubuk grafik: I. görüş 1909-1911 döneminde 24, 1913-1914 döneminde 7 yazı; II. görüş 9 ve 31 yazı; III. görüş 15 ve 15 yazı"><g font-size="14" fill="currentColor"><rect x="150" y="10" width="18" height="14" fill="var(--vurgu)" stroke="currentColor"/><text x="176" y="23">1909-1911</text><rect x="290" y="10" width="18" height="14" fill="var(--vurgu2)" stroke="currentColor"/><text x="316" y="23">1913-1914</text></g><g stroke="currentColor" stroke-width="1" opacity="0.45"><line x1="40" y1="200" x2="545" y2="200"/><line x1="40" y1="140" x2="545" y2="140"/><line x1="40" y1="80" x2="545" y2="80"/></g><g font-size="14" fill="currentColor" text-anchor="end"><text x="34" y="265">0</text><text x="34" y="205">10</text><text x="34" y="145">20</text><text x="34" y="85">30</text></g><line x1="40" y1="260" x2="545" y2="260" stroke="currentColor" stroke-width="2"/><line x1="40" y1="50" x2="40" y2="260" stroke="currentColor" stroke-width="2"/><g stroke="currentColor" stroke-width="2"><rect x="95" y="116" width="40" height="144" fill="var(--vurgu)"/><rect x="145" y="218" width="40" height="42" fill="var(--vurgu2)"/><rect x="255" y="206" width="40" height="54" fill="var(--vurgu)"/><rect x="305" y="74" width="40" height="186" fill="var(--vurgu2)"/><rect x="415" y="170" width="40" height="90" fill="var(--vurgu)"/><rect x="465" y="170" width="40" height="90" fill="var(--vurgu2)"/></g><g font-size="14" font-weight="bold" fill="currentColor" text-anchor="middle"><text x="115" y="110">24</text><text x="165" y="212">7</text><text x="275" y="200">9</text><text x="325" y="68">31</text><text x="435" y="164">15</text><text x="485" y="164">15</text></g><g font-size="15" fill="currentColor" text-anchor="middle"><text x="140" y="284">I. görüş</text><text x="300" y="284">II. görüş</text><text x="460" y="284">III. görüş</text></g><text x="292" y="315" font-size="14" fill="currentColor" text-anchor="middle">Grafik: Dönemlere göre yayımlanan yazı sayısı</text></svg>`,
   secenekler: [
     "Savaştan sonra ortak dil ve kültüre dayalı birlik düşüncesi öne çıkmıştır.",
-    "Bütün tebaanın eşitliğine dayalı birlik düşüncesi eski ağırlığını yitirmiştir.",
-    "Avrupa'nın bilim ve kurumlarının alınmasını savunan yazıların sayısı korunmuştur.",
+    "Bütün tebaanın eşitliğine dayalı birlik düşüncesi savaştan önceki ağırlığını koruyamamıştır.",
+    "Avrupa'nın bilim ve kurumlarının alınmasını savunan yazıların sayısı değişmemiştir.",
     "Ortak dil ve kültüre dayalı birlik düşüncesi savaştan önce savunulmamıştır."
   ],
   dogru: 3,
   hatalar: [
-    "Grafikte II. görüşü savunan yazı sayısı 9'dan 31'e çıkmıştır; bu yargıya ulaşılabilir. Olumsuz kökü gözden kaçırmış olabilirsin.",
-    "Grafikte I. görüşü savunan yazı sayısı 24'ten 7'ye düşmüştür; bu yargıya ulaşılabilir.",
-    "Grafikte III. görüşü savunan yazı sayısı 15'ten 14'e inmiştir; bu, sayının korunduğunu gösterir ve bu yargıya ulaşılabilir.",
+    "Grafikte II. görüşü savunan yazı sayısı 9'dan 31'e çıkmış, savaştan sonraki en yüksek değer olmuştur; bu yargıya ulaşılabilir. Olumsuz kökü gözden kaçırmış olabilirsin.",
+    "Grafikte I. görüşü savunan yazı sayısı savaştan önce 24 iken savaştan sonra 7'ye düşmüştür; önceki ağırlık korunamamıştır, bu yargıya ulaşılabilir.",
+    "Grafikte III. görüşü savunan yazı sayısı iki dönemde de 15'tir; sayı değişmemiştir, bu yargıya ulaşılabilir. Seçeneğin olumsuz cümle olması onu yanlış yapmaz.",
     null
   ],
   aciklama: `Grafik sorularında "hiç yok" ile "az" arasındaki farkı ayırt etmek zorundasın. Bir değerin küçük olması, o değerin sıfır olduğu anlamına gelmez.
-Adım 1: I. görüşü oku. 24 yazıdan 7 yazıya düşmüştür. Demek ki eski ağırlığını yitirmiştir; B seçeneğine ulaşılır.
-Adım 2: II. görüşü oku. 9 yazıdan 31 yazıya çıkmıştır. Demek ki savaştan sonra öne çıkmıştır; A seçeneğine ulaşılır.
-Adım 3: III. görüşü oku. 15 yazıdan 14 yazıya inmiştir; bu neredeyse aynı sayıdır. Demek ki korunmuştur; C seçeneğine ulaşılır.
-Adım 4: D seçeneğini sına. Savaştan önceki dönemde II. görüşü savunan yazı sayısı 9'dur. Bu sayı diğerlerinin yanında küçüktür ama sıfır değildir; yani bu görüş savaştan önce de savunulmuştur. "Savunulmamıştır" yargısına ulaşılamaz.
-Sağlama: Sütunların hiçbiri sıfır değildir. Grafikte sıfır olan bir değer olsaydı sütun çizilmezdi.
+Adım 1: Dönemleri eşleştir. Balkan Savaşları 1912-1913'te yapıldığı için 1909-1911 "savaştan önce", 1913-1914 "savaştan sonra" demektir.
+Adım 2: I. görüşü oku. Savaştan önce 24 olan yazı sayısı savaştan sonra 7'ye düşmüştür. Önceki ağırlığını koruyamamıştır; B seçeneğine ulaşılır.
+Adım 3: II. görüşü oku. 9 yazıdan 31 yazıya çıkmış ve savaştan sonraki en yüksek değer olmuştur; A seçeneğine ulaşılır.
+Adım 4: III. görüşü oku. İki dönemde de 15 yazı vardır; sayı değişmemiştir. C seçeneğine ulaşılır. Olumsuz cümleyle kurulmuş B ve C seçeneklerinin ikisi de grafikle doğrulanıyor; yani olumsuz cümle tek başına ipucu değildir.
+Adım 5: D seçeneğini sına. Savaştan önceki dönemde II. görüşü savunan yazı sayısı 9'dur. Bu sayı diğerlerinin yanında küçüktür ama sıfır değildir; yani bu görüş savaştan önce de savunulmuştur. "Savunulmamıştır" yargısına ulaşılamaz.
+Sağlama: Bilgi notuna göre savaşta karşı tarafta bulunan topluluklar daha önce aynı devletin tebaasıydı. I. görüşün düşüşü ile II. görüşün yükselişi, bu bilginin düşündürdüğü değişimle uyumludur.
 Sık yapılan hata: Bir sütunu diğerlerinin yanında kısa görünce o değeri yok saymak. 9 sayısı küçüktür ama sıfır değildir.
 Cevap D.`
 },
@@ -1430,57 +1431,57 @@ Cevap B.`
   zorluk: 3,
   soru: `Aşağıda, yirminci yüzyılın başında bir Osmanlı askerî okulunda uygulandığı varsayılan kurgusal ders çizelgesi verilmiştir. Mustafa Kemal de bu yıllarda benzer bir programla öğrenim görmüştür.
 Bu çizelgeye göre,
-I. Subay adaylarının arazide harita okuyabilmesi hedeflenmiştir.
+I. Öğrencilerin yurt dışında öğrenim görmesi zorunlu tutulmuştur.
 II. Yabancı dil, mesleki bilgiye ulaşmanın aracı sayılmıştır.
-III. Öğrencilerin yurt dışında öğrenim görmesi zorunlu tutulmuştur.
+III. Tarih dersinde olayların tarihlerinin ezberlenmesine ağırlık verilmiştir.
 **yargılarından hangilerine ulaşılabilir?**`,
   gorsel: `<table class="tablo"><tr><th>Ders</th><th>Çizelgedeki açıklama</th></tr><tr><td>Harita bilgisi</td><td>Arazi okuma ve kroki çizme çalışmaları yapılır.</td></tr><tr><td>Fransızca</td><td>Yabancı askerî kaynakların izlenebilmesi amaçlanır.</td></tr><tr><td>Topçuluk</td><td>Yeni tip topların kullanımı öğretilir.</td></tr><tr><td>Tarih</td><td>Savaşların nedenleri ve sonuçları incelenir.</td></tr></table>`,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
-  dogru: 2,
+  secenekler: ["Yalnız II", "Yalnız III", "I ve II", "II ve III"],
+  dogru: 0,
   hatalar: [
-    "II'yi atladın: Fransızca satırında dersin amacı yabancı askerî kaynakların izlenmesi olarak yazılmıştır.",
-    "III'ü doğru saydın; oysa çizelgede yurt dışında öğrenimle ilgili hiçbir bilgi yoktur.",
     null,
-    "III'ü de doğru saydın. Yabancı kaynakları izlemek ile yurt dışında öğrenim görmek ayrı şeylerdir."
+    "III'ü doğru sayıp II'yi atladın: tarih satırında savaşların nedenlerinin ve sonuçlarının incelendiği yazılıdır; Fransızca satırında ise dersin amacı yabancı askerî kaynakların izlenmesidir.",
+    "I'i de doğru saydın; oysa çizelgede yurt dışında öğrenimle ilgili hiçbir bilgi yoktur. Yabancı kaynakları izlemek ile yurt dışında öğrenim görmek ayrı şeylerdir.",
+    "III'ü de doğru saydın; oysa tarih satırında tarih ezberinden değil, savaşların nedenlerinin ve sonuçlarının incelenmesinden söz ediliyor."
   ],
-  aciklama: `Ders çizelgesi gibi kaynaklarda her öncül bir satırla eşleştirilir; eşleşmeyen öncül kullanılamaz.
-Adım 1: I. yargıyı sına. Harita bilgisi satırında arazi okuma ve kroki çizme çalışmaları yazılıdır. I doğrudur.
+  aciklama: `Ders çizelgesi gibi kaynaklarda her öncül bir satırla eşleştirilir; eşleşmeyen öncül kullanılamaz. Kaç öncülün doğru çıkacağına önceden karar verme; yalnız biri de doğru olabilir.
+Adım 1: I. yargıyı sına. Çizelgede yurt dışında öğrenimle ilgili bir satır ya da açıklama yoktur. Fransızca satırındaki "yabancı askerî kaynaklar" ifadesi, yurt dışına gitmekten değil, yabancı dilde yazılmış kaynakları okumaktan söz eder. I çıkarılamaz. En güçlü çeldirici "I ve II" bu yüzden elenir.
 Adım 2: II. yargıyı sına. Fransızca satırında dersin amacı, yabancı askerî kaynakların izlenebilmesi olarak verilmiştir. Yani dil, mesleki bilgiye ulaşmanın aracıdır. II doğrudur.
-Adım 3: III. yargıyı sına. Çizelgede yurt dışında öğrenimle ilgili bir satır ya da açıklama yoktur. III çıkarılamaz.
-Adım 4: Doğru olanlar I ve II'dir.
-Sağlama: Çizelgedeki dört ders de meslekle doğrudan bağlantılıdır; hiçbiri yurt dışı öğrenimine gönderme yapmaz.
+Adım 3: III. yargıyı sına. Tarih satırında "savaşların nedenleri ve sonuçları incelenir" yazıyor. Neden ve sonuç incelemek, tarih ezberlemekle aynı şey değildir; çizelgede ezbere ağırlık verildiğine dair bir bilgi yoktur. III çıkarılamaz.
+Adım 4: Doğru olan yalnız II'dir.
+Sağlama: Çizelgedeki dört ders de meslekle doğrudan bağlantılıdır; hiçbiri yurt dışı öğrenimine ya da ezbere gönderme yapmaz.
 Sık yapılan hata: "Yabancı" sözcüğünü görüp öncülü hemen yurt dışıyla ilişkilendirmek. Sözcük değil, anlam eşleşmelidir.
-Cevap C.`
+Cevap A.`
 },
 {
   id: "ink-u1-012",
   kazanim: "İTA.8.1.3",
   kademe: 0,
   zorluk: 3,
-  soru: `Aşağıda, bir tarihçinin öğrencilere verdiği kurgusal konferanstan bölüm verilmiştir:
-"Genç bir subayın düşünce dünyası yalnız okuduğu kitaplarla kurulmaz. Okuduğu şiirlerdeki vatan sözcüğü, Balkanlarda kaybedilen kasabaların adını öğrendiğinde başka bir anlam kazandı. Kitaplardan öğrendiği millet kavramı, karşısında dün aynı devletin tebaası olan orduları görünce somutlaştı. Onun düşünce dünyası ne yalnız kitapta ne yalnız cephede kuruldu; ikisinin birbirini açıklamasıyla kuruldu."
-**Bu konferansa göre sözü edilen subayın fikir hayatıyla ilgili aşağıdakilerden hangisine ulaşılabilir?**`,
+  soru: `Aşağıda, Mustafa Kemal ile Harp Akademisinden aynı yıl mezun olan bir subayın kurgusal anı defterinden bölüm verilmiştir:
+"1905'in ocak ayında kurmay yüzbaşı olarak mezun olduk. O günlerde birkaç arkadaş kiraladığımız bir evde toplanır, memleketin hâlini, açıkça konuşulamayan konuları konuşurduk. Bu toplantılar duyulunca tutuklandık. Hapiste geçen günlerde onun yakındığını hiç duymadım; bu konuşmaların neden yasak olduğunu sorup dururdu. Serbest bırakıldıktan sonra Şam'daki orduya atandı. Birkaç ay sonra ondan aldığım mektupta, orada da memleketin hâlini konuşabileceği arkadaşlar bulduğunu yazıyordu."
+**Bu anılara göre yaşanan tutuklanma olayının ardından Mustafa Kemal'in tutumuyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
   secenekler: [
-    "Cephede edindiği deneyimin okumalarının yerini aldığına",
-    "Düşüncelerini askerî konularla sınırladığına",
-    "Okuduğu eserlerin görev yerlerinin seçiminde belirleyici olduğuna",
-    "Kitaplardan edindiği kavramların yaşadığı olaylarla anlam kazandığına"
+    "Tutuklanmasının ardından askerlik mesleğinden ayrılmayı düşündüğü",
+    "Yasakların gerekçesini sorgulamadan onları olduğu gibi kabullendiği",
+    "Şam'a atanmasıyla birlikte memleket sorunlarıyla ilgilenmeyi bıraktığı",
+    "Yaşadığı baskıya rağmen memleket sorunlarını tartışmayı sürdürdüğü"
   ],
   dogru: 3,
   hatalar: [
-    "Metnin tersi: son cümlede düşünce dünyasının ne yalnız kitapta ne yalnız cephede kurulduğu belirtiliyor.",
-    "Metinde vatan, millet gibi kavramlardan söz ediliyor; bunlar yalnız askerî konular değildir.",
-    "Metinde görev yerlerinin nasıl belirlendiğine dair hiçbir bilgi yok.",
+    "Metinde olmayan bilgi: serbest bırakıldıktan sonra Şam'daki orduya atandığı yazılıdır; meslekten ayrılmayı düşündüğüne dair bir ifade yoktur.",
+    "Ters yön: hapisteyken bu konuşmaların neden yasak olduğunu sorup durduğu anlatılıyor; yasakları sorgulamadan kabullenmemiştir.",
+    "Kısmen doğru: Şam'a atandığı doğrudur; ancak mektubunda orada da memleketin hâlini konuşabileceği arkadaşlar bulduğunu yazmıştır.",
     null
   ],
-  aciklama: `Konferans metinlerinde asıl yargı çoğu zaman sonuç cümlesindedir; önceki cümleler o sonucun örnekleridir.
-Adım 1: Birinci örneği oku. Şiirlerdeki "vatan" sözcüğü, kaybedilen kasabalar öğrenildiğinde başka bir anlam kazanmıştır.
-Adım 2: İkinci örneği oku. Kitaptan öğrenilen "millet" kavramı, karşıda eski tebaadan kurulu ordular görülünce somutlaşmıştır.
-Adım 3: Sonuç cümlesini oku. Düşünce dünyası ne yalnız kitapta ne yalnız cephede kurulmuştur; ikisi birbirini açıklamıştır.
-Adım 4: Bu üçünün karşılığı, kitaplardan edinilen kavramların yaşanan olaylarla anlam kazanmasıdır.
-Sağlama: Metin iki yönlü bir ilişki kuruyor. "Biri diğerinin yerini aldı" diyen seçenek bu ilişkiyi tek yönlü hâle getirdiği için yanlıştır.
-Sık yapılan hata: "Cephe" sözcüğünü görüp metni yalnız savaş üzerinden okumak. Metnin konusu kavramların nasıl anlam kazandığıdır.
+  aciklama: `Bir olayın bir kişinin fikir hayatına etkisi, o kişinin olay sırasındaki ve olaydan sonraki davranışına bakılarak anlaşılır. Baskı gören biri ya düşüncelerinden vazgeçer ya da onları sürdürür; metnin hangisini anlattığına bak.
+Adım 1: Olayı belirle. 1905'te mezun olan genç subaylar, memleketin durumunu konuştukları toplantılar yüzünden tutuklanmıştır.
+Adım 2: Tutukluluk sırasındaki tutumuna bak. Yakınmıyor; bu konuşmaların neden yasak olduğunu sorup duruyor. Yani yasağı sorgusuz kabullenmiyor. B seçeneği elenir.
+Adım 3: Olaydan sonraki davranışına bak. Şam'daki orduya atanıyor; yani meslekten ayrılmıyor (A elenir). Mektubunda orada da memleketin hâlini konuşabileceği arkadaşlar bulduğunu yazıyor; yani bu konulardan uzaklaşmıyor. En güçlü çeldirici C bu yüzden elenir.
+Adım 4: İki gözlemi birleştir. Yaşadığı baskıya rağmen memleket sorunlarını tartışmayı sürdürmüştür.
+Sağlama: Mustafa Kemal Şam'da görev yaparken arkadaşlarıyla birlikte Vatan adlı gizli bir cemiyet kurmuştur; bu, anıdaki tutumla uyumludur.
+Sık yapılan hata: Şam'a atanmayı "uzağa gönderildi, demek ki ilgisi de azaldı" diye okumak. Yer değiştirmek, düşüncenin değiştiği anlamına gelmez; mektup bunun tersini gösteriyor.
 Cevap D.`
 },
 {
@@ -1518,37 +1519,36 @@ Cevap C.`
   kazanim: "İTA.8.1.4",
   kademe: 0,
   zorluk: 4,
-  soru: `Aşağıda, Mustafa Kemal'in Birinci Dünya Savaşı öncesindeki iki göreviyle ilgili kurgusal belgelerden bölümler verilmiştir:
-Belge I (1910) — Görevlendirme yazısından: "Fransa'da yapılacak manevraları izlemek ve gözlemlerini rapor hâlinde sunmak üzere görevlendirilmiştir."
-Belge II (1913) — Atama yazısından: "Sofya'da askerî ataşe olarak görevlendirilmiş; bulunduğu ülkenin ordusu ve siyasi gelişmeler hakkında düzenli bilgi göndermesi istenmiştir."
-Bu belgelere göre,
-I. İki görevde de bir birliğin komutanlığı üstlenilmiştir.
-II. İki görev de yurt dışında yürütülmüştür.
-III. İki görevde de edinilen bilginin merkeze iletilmesi istenmiştir.
+  soru: `Aşağıdaki tabloda Mustafa Kemal'in Selanik'te görev yaptığı yıllarda yayımlanan iki eseri tanıtılmıştır. Ayrıca onunla aynı yıllarda görev yapan bir subayın kurgusal anı defterinden bir bölüm verilmiştir. Anı defterinde sözü edilen kişi Mustafa Kemal'dir:
+"Tatbikat günlerinde akşam olunca herkes çadırına çekilirdi; o ise gün boyu tuttuğu notları ve çizdiği krokileri lamba ışığında temize çekerdi. Bir akşam bunları kimin için yazdığını sordum. Cevap vermek yerine çadırın önünden geçen genç teğmenleri gösterdi."
+Bu kaynaklara göre,
+I. Mustafa Kemal, meslek bilgisi edinirken yabancı dilde yazılmış bir kaynaktan da yararlanmıştır.
+II. Anı defterinde sözü edilen notlar, Cumalı Ordugâhı adlı eserin kaynağıdır.
+III. Mustafa Kemal, edindiği bilgiyi genç subaylarla paylaşmayı önemsemiştir.
 **yargılarından hangileri kesinlikle doğrudur?**`,
-  gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
-  dogru: 3,
+  gorsel: `<table class="tablo"><tr><th>Eser</th><th>Yayım yeri ve yılı</th><th>Katalog notu</th></tr><tr><td>Takımın Muharebe Talimi</td><td>Selanik, 1908</td><td>Almancadan çevrilmiştir. Takım düzeyindeki birliklerin savaş eğitimini konu alır.</td></tr><tr><td>Cumalı Ordugâhı</td><td>Selanik, 1909</td><td>Süvari tatbikatları sırasında her gün tutulan gözlem notlarından ve krokilerden oluşur.</td></tr></table>`,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve III", "II ve III"],
+  dogru: 2,
   hatalar: [
-    "I'i kesin saydın; oysa belgelerde komutanlıktan değil, gözlem yapıp bilgi göndermekten söz ediliyor.",
-    "III'ü atladın: Belge I raporla, Belge II düzenli bilgi göndermekle görevlendirme yapıyor.",
-    "I'i kesin saydın. Belgelerin hiçbirinde bir birliğin başına geçmekten söz edilmiyor.",
-    null
+    "III'ü atladın: anı defterine göre notlarını kimin için yazdığı sorulunca genç teğmenleri göstermiştir; iki eserin yayımlanması da bilginin paylaşıldığını gösterir.",
+    "I'i atladın: Takımın Muharebe Talimi Almancadan çevrilmiştir; bir eseri çevirebilmek için onu okuyup anlamak gerekir.",
+    null,
+    "II'yi kesin saydın ve I'i atladın. Anı defteri notların hangi tatbikatta ve hangi yıl tutulduğunu söylemiyor; bu notların Cumalı Ordugâhı'nın kaynağı olması yalnızca bir olasılıktır."
   ],
-  aciklama: `İki belgenin ortak yönünü ararken her belgenin yalnız kendi söylediğine bakmalısın.
-Adım 1: II. yargıyı sına. Belge I Fransa'da, Belge II Sofya'da görev veriyor. İkisi de yurt dışıdır. II kesinlikle doğrudur.
-Adım 2: III. yargıyı sına. Belge I gözlemlerin rapor hâlinde sunulmasını, Belge II düzenli bilgi gönderilmesini istiyor. İkisinde de edinilen bilgi merkeze iletilecektir. III kesinlikle doğrudur.
-Adım 3: I. yargıyı sına. Belgelerde bir birliğin komutanlığını üstlenmekten hiç söz edilmiyor; görevler izleme, rapor ve bilgi gönderme üzerinedir. I kesin değildir.
-Adım 4: Kesin olanlar II ve III'tür.
-Sağlama: Askerî ataşelik ve manevra gözlemciliği, bir birliği yönetmeyi değil bilgi toplamayı gerektiren görevlerdir.
-Sık yapılan hata: "Subay" ve "ordu" sözcüklerini görünce her görevi komutanlık saymak. Görevin içeriği belgede yazılıdır.
-Cevap D.`
+  aciklama: `"Kesinlikle doğrudur" köklü sorularda yalnız kaynakların doğrudan gösterdiği yargılar kabul edilir. İki kaynağı birbirine bağlamak için bir varsayım gerekiyorsa o yargı kesin değildir.
+Adım 1: I. yargıyı sına. Tablonun ilk satırına göre Takımın Muharebe Talimi Almancadan çevrilmiştir. Bir eseri çevirebilmek için onu okuyup anlamak gerekir; yani Mustafa Kemal meslek bilgisi edinirken yabancı dilde yazılmış bir askerî kaynaktan da yararlanmıştır. I kesinlikle doğrudur.
+Adım 2: III. yargıyı sına. Anı defterine göre notlarını kimin için yazdığı sorulunca genç teğmenleri göstermiştir. Tablo da bu tür çalışmaların eser hâline getirilip yayımlandığını gösteriyor. Bilgisini genç subaylarla paylaşmayı önemsediği kesindir. III kesinlikle doğrudur.
+Adım 3: II. yargıyı sına. Tablodaki ikinci eser tatbikatlarda tutulan notlardan oluşuyor; anı defterinde de tatbikat günlerinde tutulan notlardan söz ediliyor. Ancak anı defteri bu notların hangi tatbikatta ve hangi yıl tutulduğunu söylemiyor. İkisini aynı notlar saymak bir varsayımdır. II kesin değildir; en güçlü çeldirici "II ve III" bu yüzden yanlıştır.
+Adım 4: Kesin olanlar I ve III'tür.
+Sağlama: Bir subay görev yılları boyunca birçok tatbikata katılır. Anıdaki notlar Cumalı'daki tatbikata da ait olabilir, başka bir tatbikata da. "Olabilir" ile "kesinlikle" aynı şey değildir.
+Sık yapılan hata: Birbirine benzeyen iki bilgiyi (tatbikat notları) görünce ikisinin aynı olaya ait olduğunu varsaymak.
+Cevap C.`
 },
 {
   id: "ink-u1-015",
   kazanim: "İTA.8.1.4",
   kademe: 0,
-  zorluk: 4,
+  zorluk: 3,
   soru: `Aşağıdaki tabloda Mustafa Kemal'in Birinci Dünya Savaşı öncesindeki bazı görevleri ve bu görevlerin gerektirdikleri verilmiştir.
 **Bu tabloya göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
   gorsel: `<table class="tablo"><tr><th>Görev</th><th>Görevin gerektirdiği</th></tr><tr><td>Şam, 5. Ordu (1905)</td><td>Bölgede asayişi sağlamak, halkın durumunu gözlemlemek</td></tr><tr><td>Hareket Ordusu kurmay heyeti (1909)</td><td>Başkentteki ayaklanmaya karşı harekâtı planlamak</td></tr><tr><td>Trablusgarp (1911)</td><td>Düzenli birlik olmadan yerli halkla direnişi örgütlemek</td></tr><tr><td>Sofya askerî ataşeliği (1913)</td><td>Yabancı bir ülkenin ordusunu ve siyasetini izlemek</td></tr></table>`,

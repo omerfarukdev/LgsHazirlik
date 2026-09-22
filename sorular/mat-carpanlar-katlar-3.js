@@ -263,22 +263,22 @@ Cevap B.`
   kazanim: "M.8.1.1.2",
   kademe: 1,
   zorluk: 2,
-  soru: "Ada ile Bora, kumsalda aynı noktadan aynı yöne doğru düz bir çizgide yürümeye başlamıştır. Ada'nın bir adımı 36 cm, Bora'nın bir adımı 48 cm'dir ve ikisi de her adımını eşit uzunlukta atmaktadır. Başlangıçtaki ayak izleri aynı noktadadır.\n**Buna göre başlangıç noktasından sonra ikisinin ayak izi ilk kez kaç santimetre ileride yeniden çakışır?**",
-  gorsel: `<svg viewBox="0 0 560 190" role="img" aria-label="Aynı noktadan başlayan iki yürüyüşçünün ayak izleri: Ada'nın adımı 36 cm, Bora'nın adımı 48 cm"><g stroke="currentColor" stroke-width="2"><line x1="40" y1="20" x2="40" y2="170" stroke-dasharray="6 5"/></g><g fill="var(--vurgu)"><ellipse cx="40" cy="55" rx="9" ry="13"/><ellipse cx="139" cy="55" rx="9" ry="13"/><ellipse cx="238" cy="55" rx="9" ry="13"/><ellipse cx="337" cy="55" rx="9" ry="13"/><ellipse cx="436" cy="55" rx="9" ry="13"/></g><g fill="var(--vurgu2)"><ellipse cx="40" cy="135" rx="9" ry="13"/><ellipse cx="172" cy="135" rx="9" ry="13"/><ellipse cx="304" cy="135" rx="9" ry="13"/><ellipse cx="436" cy="135" rx="9" ry="13"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="40" y1="78" x2="139" y2="78"/><line x1="40" y1="72" x2="40" y2="84"/><line x1="139" y1="72" x2="139" y2="84"/><line x1="40" y1="158" x2="172" y2="158"/><line x1="40" y1="152" x2="40" y2="164"/><line x1="172" y1="152" x2="172" y2="164"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="90" y="98">36 cm</text><text x="106" y="178">48 cm</text></g><g fill="currentColor" font-size="15" font-weight="bold"><text x="470" y="60">Ada</text><text x="470" y="140">Bora</text></g><text x="40" y="14" font-size="14" text-anchor="middle" fill="currentColor">Başlangıç</text></svg>`,
-  secenekler: ["12", "84", "144", "1728"],
+  soru: "Bir kafe, açılış gününde müşterilerine aşağıdaki afişte yazan ikram kampanyasını uygulamıştır. O gün kafeye gelen müşteriler, geliş sırasına göre 1'den başlayarak numaralandırılmıştır.\n**Buna göre o gün hem kurabiye hem limonata ikramı alan ilk müşteri kaçıncı müşteridir?**",
+  gorsel: `<svg viewBox="0 0 460 170" role="img" aria-label="Kafe afişi: her 25. müşteriye bir kurabiye, her 40. müşteriye bir limonata ikram edilir"><rect x="12" y="12" width="436" height="146" rx="12" fill="var(--dolgu)" stroke="currentColor" stroke-width="2.5"/><line x1="12" y1="54" x2="448" y2="54" stroke="currentColor" stroke-width="2"/><text x="230" y="41" font-size="19" text-anchor="middle" font-weight="bold" fill="currentColor">AÇILIŞ GÜNÜ KAMPANYASI</text><g fill="var(--vurgu)"><circle cx="40" cy="89" r="6"/><circle cx="40" cy="129" r="6"/></g><g fill="currentColor" font-size="18"><text x="58" y="95">Her 25. müşteriye bir kurabiye ikram!</text><text x="58" y="135">Her 40. müşteriye bir limonata ikram!</text></g></svg>`,
+  secenekler: ["5", "65", "200", "1000"],
   dogru: 2,
   hatalar: [
-    "EBOB ile EKOK'u karıştırma: EBOB(36, 48) = 12'dir; 12 cm'de ne Ada'nın ne Bora'nın ayak izi vardır.",
-    "Adım uzunluklarını toplama: 36 + 48 = 84; 84 ne 36'nın ne 48'in katıdır.",
+    "EBOB ile EKOK'u karıştırma: EBOB(25, 40) = 5'tir; 5. müşteri ne 25'in ne de 40'ın katıdır, hiç ikram almaz.",
+    "Sayıları toplama: 25 + 40 = 65; 65 ne 25'in ne de 40'ın katıdır.",
     null,
-    "36 · 48 = 1728'i en küçük ortak kat sanma: burada da izler çakışır ama ilk kez değil."
+    "25 · 40 = 1000'i en küçük ortak kat sanma: 1000. müşteri de iki ikramı alır ama iki ikramı alan ilk müşteri değildir."
   ],
-  aciklama: `Ada'nın ayak izleri 36'nın katı, Bora'nınkiler 48'in katı olan uzaklıklardadır. İzlerin çakıştığı yerler ortak katlardır; ilk çakışma için EKOK aranır.
-Adım 1: 36 = 2^{2} · 3^{2} ve 48 = 2^{4} · 3.
-Adım 2: EKOK için her asal çarpanın en büyük üslüsünü al: 2^{4} · 3^{2} = 16 · 9 = 144.
-Adım 3: Başlangıçtan 144 cm sonra izler ilk kez yeniden çakışır.
-Sağlama: 144 ÷ 36 = 4, yani Ada 4 adım atar; 144 ÷ 48 = 3, yani Bora 3 adım atar. İkisi de tam adım sayısıyla o noktaya varır.
-Sık yapılan hata: Ortak kat ararken EBOB'u kullanmak. EBOB ortak bölendir ve sayıların ikisinden de küçüktür; ortak kat ise ikisinden de küçük olamaz.
+  aciklama: `Kurabiye alan müşterilerin numaraları 25'in katlarıdır (25, 50, 75, …); limonata alanlarınki ise 40'ın katlarıdır (40, 80, 120, …). İki ikramı birden alanlar ortak katlardır; bunların ilki en küçük ortak kat, yani EKOK'tur.
+Adım 1: Sayıları asal çarpanlarına ayır: 25 = 5^{2} ve 40 = 2^{3} · 5.
+Adım 2: EKOK için her asal çarpanın en büyük üslüsünü al: EKOK(25, 40) = 2^{3} · 5^{2} = 8 · 25 = 200. İki ikramı birden alan ilk müşteri 200. müşteridir.
+Sağlama: 200 ÷ 25 = 8 ve 200 ÷ 40 = 5; ikisi de kalansız. Daha önce ortak kat yoktur: 40, 80, 120 ve 160 sayılarının hiçbiri 25'e kalansız bölünmez.
+1000 neden olmaz? 25 · 40 = 1000 de bir ortak kattır, yani 1000. müşteri de iki ikramı alır. Ama iki sayının ortak çarpanı olan 5, çarpımda iki kez yer aldığı için 1000 en küçük ortak kat değildir.
+Sık yapılan hata: Ortak kat ararken EBOB'u kullanmak. EBOB iki sayıyı da bölen sayıdır ve ikisinden de küçüktür; ortak kat ise iki sayıdan da küçük olamaz.
 Cevap C.`
 },
 {
@@ -426,24 +426,24 @@ Cevap B.`
   kazanim: "M.8.1.1.1",
   kademe: 2,
   zorluk: 2,
-  soru: "Bir bilim merkezinde ziyaretçilere giriş numarası verilmektedir. Sistem, her ziyaretçinin gideceği salonu şu kuralla belirlemektedir: Giriş numarası asal çarpanlarına ayrılır ve **en büyük** asal çarpan salon numarası olur. Bazı ziyaretçilerin bilgileri aşağıdaki tabloda verilmiştir. Kaan'ın giriş numarası 154'tür.\n**Buna göre Kaan kaç numaralı salona gider?**",
-  gorsel: `<table class="tablo"><tr><th>Giriş numarası</th><th>Asal çarpanlarına ayrılmış biçimi</th><th>Salon</th></tr><tr><td>60</td><td>2<sup>2</sup> · 3 · 5</td><td>5</td></tr><tr><td>63</td><td>3<sup>2</sup> · 7</td><td>7</td></tr><tr><td>154</td><td>?</td><td>?</td></tr></table>`,
-  secenekler: ["7", "11", "14", "77"],
-  dogru: 1,
+  soru: "Bir ilçedeki okullar arası voleybol turnuvasına 96 takım katılmıştır. Eleme turlarında takımlar ikişerli eşleşmekte ve her maçı kaybeden takım turnuvadan elenmektedir. Bir turun sonunda kalan takım sayısı tek sayı olursa eleme turları sona ermekte, kalan takımlar final grubunda karşılaşmaktadır.\n**Buna göre final grubunda kaç takım yer alır?**",
+  gorsel: null,
+  secenekler: ["3", "5", "6", "32"],
+  dogru: 0,
   hatalar: [
-    "Ayırmayı tamamlamadan durma: 154 = 2 · 7 · 11 yazılışında 7 bir asal çarpandır ama en büyüğü değildir.",
     null,
-    "14'ü asal sanma: 14 = 2 · 7 olduğundan asal değildir.",
-    "77'yi asal sanma: 154 = 2 · 77 yazılıp orada durulmuş; oysa 77 = 7 · 11'dir."
+    "Ara sonucu cevap sanma: 5, oynanan eleme turu sayısıdır; yani 96'nın asal çarpanlarına ayrılmış biçimindeki 2'nin üssüdür.",
+    "Son turu atlama: 6 takım kaldığında eleme turlarının bittiği sanılmış; oysa 6 çift sayıdır ve bir tur daha oynanır.",
+    "Üslü çarpanı cevap sanma: 96 = 2^{5} · 3 yazılışındaki 2^{5} = 32 cevap sanılmış; final grubu, 2'ler ayrıldıktan sonra geriye kalan çarpandır."
   ],
-  aciklama: `Asal çarpanlara ayırmada bölme, 1'e ulaşana kadar sürdürülür; ancak o zaman bütün çarpanların asal olduğundan emin olabilirsin.
-Adım 1: 154 çift olduğu için 2'ye böl: 154 ÷ 2 = 77.
-Adım 2: 77 sayısı 2'ye, 3'e ve 5'e bölünmez; 7'ye bölünür: 77 ÷ 7 = 11.
-Adım 3: 11 asaldır: 11 ÷ 11 = 1. Bölme bitti: 154 = 2 · 7 · 11.
-Adım 4: Asal çarpanlar 2, 7 ve 11'dir; en büyüğü 11'dir. Kaan 11 numaralı salona gider.
-Sağlama: 2 · 7 · 11 = 154.
-Sık yapılan hata: Bölme sonucunda kalan sayıyı asal sanıp durmak. 77 iki basamaklı ve tek olduğu için asal görünür, ama 7'ye bölünür.
-Cevap B.`
+  aciklama: `Her eleme turunda takımlar ikişerli eşleşip yarısı elendiği için takım sayısı 2'ye bölünür. Bu bölme ancak sayı çift olduğu sürece yapılabilir; bu yüzden tur sayısını da final grubunu da 96'nın asal çarpanları belirler.
+Adım 1: 96'yı asal çarpanlarına ayır: 96 ÷ 2 = 48, 48 ÷ 2 = 24, 24 ÷ 2 = 12, 12 ÷ 2 = 6, 6 ÷ 2 = 3, 3 ÷ 3 = 1. Yani 96 = 2^{5} · 3.
+Adım 2: 2 çarpanı 5 kez geçtiği için 5 eleme turu oynanır: 96 → 48 → 24 → 12 → 6 → 3.
+Adım 3: 2 çarpanları bitince geriye tek sayı olan 3 kalır. Final grubunda 3 takım yer alır.
+Sağlama: 3 · 2^{5} = 3 · 32 = 96.
+6 neden olmaz? 6 takım kaldığında sayı hâlâ çifttir; takımlar 3 maç yapar ve 3 takım kalır. Eleme turları ancak takım sayısı tek olunca biter.
+Sık yapılan hata: Asal çarpanlara ayrılmış biçimdeki 2^{5} çarpanını ya da üssü olan 5'i cevap sanmak. Soru, 2'ler ayrıldıktan sonra geriye kalan çarpanı soruyor.
+Cevap A.`
 },
 {
   id: "mat-ck-219",
@@ -761,24 +761,26 @@ Cevap C.`
   kazanim: "M.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: "Bir okul korosunda 187 şarkıcı vardır. Şarkıcılar, her sırada eşit sayıda olacak biçimde sıralar hâlinde sahneye çıkacaktır. Koro şefi, sıra sayısının da bir sıradaki şarkıcı sayısının da 1'den büyük olmasını; ayrıca bir sıradaki şarkıcı sayısının sıra sayısından fazla olmasını istemektedir.\n**Buna göre bir sırada kaç şarkıcı bulunur?**",
-  gorsel: null,
-  secenekler: ["7", "11", "13", "17"],
-  dogru: 3,
+  soru: "Mert ile Ela, dört zarla oynanan bir tahmin oyunu oynamaktadır. Zarların yüzlerinde 1'den 6'ya kadar sayılar vardır. Sırası gelen oyuncu dört zarı birlikte atar; zarları arkadaşına göstermeden üst yüzlerdeki sayıların çarpımını ve bir ipucunu söyler. Arkadaşı da bu bilgilerle zarlardaki sayıları bulmaya çalışır. Mert'in son atışında söylediği bilgiler aşağıdaki kartta yazılıdır.\n**Buna göre Mert'in attığı dört zarın üst yüzlerindeki sayıların toplamı kaçtır?**",
+  gorsel: `<svg viewBox="0 0 520 210" role="img" aria-label="Üst yüzleri gizlenmiş dört zar ve bilgi kartı: çarpım 180; ipucu: dört sayının hepsi birbirinden farklıdır"><g stroke="currentColor" stroke-width="2.5" fill="var(--dolgu)"><rect x="85" y="18" width="70" height="70" rx="12"/><rect x="175" y="18" width="70" height="70" rx="12"/><rect x="265" y="18" width="70" height="70" rx="12"/><rect x="355" y="18" width="70" height="70" rx="12"/></g><g fill="var(--vurgu)" font-size="32" font-weight="bold" text-anchor="middle"><text x="120" y="65">?</text><text x="210" y="65">?</text><text x="300" y="65">?</text><text x="390" y="65">?</text></g><rect x="20" y="108" width="480" height="90" rx="10" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="17"><text x="44" y="142" font-weight="bold">Çarpım: 180</text><text x="44" y="178">İpucu: Dört sayının hepsi birbirinden farklıdır.</text></g></svg>`,
+  secenekler: ["18", "16", "15", "11"],
+  dogru: 1,
   hatalar: [
-    "Bölünebilmeyi kontrol etmeme: 7 · 26 = 182 ve 7 · 27 = 189 olduğundan 187, 7'ye kalansız bölünmez.",
-    "Sıra sayısı ile bir sıradaki şarkıcı sayısını karıştırma: koroda 11 sıra vardır.",
-    "Bölünebilmeyi kontrol etmeme: 13 · 14 = 182 ve 13 · 15 = 195 olduğundan 187, 13'e kalansız bölünmez.",
-    null
+    "İpucunu denetlememe: 1 · 5 · 6 · 6 = 180 eder ama iki zarda aynı sayı (6) vardır.",
+    null,
+    "İpucunu denetlememe: 3 · 3 · 4 · 5 = 180 eder ama iki zarda aynı sayı (3) vardır.",
+    "Son adımı eksik bırakma: kalan üç zar 2, 3, 6 bulunmuş ama 5 gösteren zar toplama katılmamış: 2 + 3 + 6 = 11."
   ],
-  aciklama: `Sıra sayısı ile bir sıradaki şarkıcı sayısının çarpımı 187'dir; yani bu iki sayı 187'nin bir çarpan çiftidir.
-Adım 1: 187'yi asal çarpanlarına ayırmayı dene. Çift değildir, rakamları toplamı 16 olduğu için 3'e bölünmez, 0 ya da 5 ile bitmediği için 5'e bölünmez.
-Adım 2: 7 ile dene: 7 · 26 = 182, kalan 5 → bölmez. 11 ile dene: 11 · 17 = 187 → böler.
-Adım 3: 17 asal olduğuna göre ayırma bitti: 187 = 11 · 17. Çarpan çiftleri 1 · 187 ve 11 · 17'dir.
-Adım 4: Koşulu uygula. İki sayı da 1'den büyük olacağı için 1 · 187 çifti elenir. Geriye 11 ve 17 kalır; bir sıradaki şarkıcı sayısı daha büyük olduğuna göre 17'dir.
-Sağlama: 11 sıra · 17 şarkıcı = 187.
-Sık yapılan hata: Bir sayının asal olup olmadığını göz kararı söylemek. 187 tek ve iki basamaklı bölenlerle sınanmadan asal görünür; 11'e böldüğünde durum değişir.
-Cevap D.`
+  aciklama: `Dört zarın üst yüzlerindeki sayıların çarpımı 180 ise her zar 180'in bir çarpanıdır; üstelik bir zarda 6'dan büyük sayı olamaz.
+Adım 1: 180'i asal çarpanlarına ayır: 180 = 2^{2} · 3^{2} · 5.
+Adım 2: 5 asal çarpanı, 1 ile 6 arasındaki sayılardan yalnızca 5'te bulunur. Öyleyse zarlardan biri 5'tir ve kalan üç zarın çarpımı 180 ÷ 5 = 36'dır.
+Adım 3: Çarpımı 36 olan ve her biri 6'dan büyük olmayan üç sayıyı bul: 1 · 6 · 6, 2 · 3 · 6 ve 3 · 3 · 4. Başka üçlü yoktur; örneğin 1 · 4 · 9 yazılışındaki 9 bir zar yüzü olamaz.
+Adım 4: İpucunu uygula. 1, 6, 6 ve 3, 3, 4 üçlülerinde aynı sayı iki kez geçer; bu yüzden elenirler. Zarlar 2, 3, 5 ve 6'dır.
+Adım 5: Topla: 2 + 3 + 5 + 6 = 16.
+Sağlama: 2 · 3 · 5 · 6 = 180 ve dört sayı birbirinden farklıdır.
+18 ve 15 neden olmaz? 1, 5, 6, 6 ile 3, 3, 4, 5 dizilerinin çarpımı da 180'dir; ama ikisinde de aynı sayı iki kez geçtiği için ipucuna uymazlar.
+Sık yapılan hata: Çarpımı tutan ilk diziyi bulunca durmak. Önce bütün olasılıkları yaz, sonra ipucunu her birine ayrı ayrı uygula.
+Cevap B.`
 },
 {
   id: "mat-ck-320",
@@ -834,23 +836,24 @@ Cevap D.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir bilim şenliğine iki okul katılmaktadır. A okulundan 84 öğrenci gelmiştir; B okulundan gelen öğrenci sayısı ise 100'den çok, 130'dan azdır. Öğrenciler çalışma masalarına şu kurallarla yerleştirilecektir: Her masada eşit sayıda öğrenci bulunacak, bir masada yalnızca tek bir okulun öğrencileri oturacak ve hiçbir öğrenci açıkta kalmayacaktır. Düzenleme ekibi bir masaya olabildiğince çok öğrenci oturtmuş ve bu sayının 28 olduğunu görmüştür.\n**Buna göre B okulundan kaç öğrenci gelmiştir?**",
-  gorsel: null,
-  secenekler: ["105", "112", "126", "140"],
+  soru: "Selin, 60 gün süren bir yaz kampına katılmıştır. Kampın günleri 1'den 60'a kadar numaralanmıştır ve kamp programı 60. gün de eksiksiz uygulanmaktadır. Kampta her katılımcı iki ayrı görev üstlenmektedir. Selin'in görevleri, bu görevleri hangi sıklıkla yaptığı ve her birini ilk kez hangi gün yaptığı aşağıdaki tabloda verilmiştir. Selin, iki görevini de kamp boyunca tablodaki sıklığa tam olarak uyarak sürdürmüştür.\nKamp sorumlusu, Selin'in iki görevi aynı günde yapması gereken her gün için ona yardım edecek bir arkadaşını görevlendirmiştir.\n**Buna göre kamp sorumlusu, kamp süresince kaç gün yardımcı görevlendirmiştir?**",
+  gorsel: `<table class="tablo"><tr><th>Görev</th><th>Sıklık</th><th>İlk kez yapıldığı gün</th></tr><tr><td>Bulaşık nöbeti</td><td>6 günde bir</td><td>6. gün</td></tr><tr><td>Bahçe sulama</td><td>8 günde bir</td><td>4. gün</td></tr></table>`,
+  secenekler: ["2", "3", "4", "5"],
   dogru: 1,
   hatalar: [
-    "28'in katı olma koşulunu atlama: 105 sayısı 28'e bölünmez ve EBOB(84, 105) = 21'dir.",
+    "İki görevin kampın başında birlikte başladığını varsayma: ortak günler 24'ün katları (24 ve 48) sanılmış; oysa bahçe sulama 4. günden başladığı için 24. ve 48. günlerde yapılmaz. 60. günü saymamak da aynı sonuca götürür.",
     null,
-    "Ortak böleni hesaplamadan seçme: 126 = 2 · 3^{2} · 7 olduğundan EBOB(84, 126) = 42'dir, 28 değil.",
-    "Aralık koşulunu gözden kaçırma: EBOB(84, 140) = 28'dir ama 140, 130'dan büyüktür."
+    "Sıklıkları toplama: ilk ortak gün 12 bulunduktan sonra görevlerin 6 + 8 = 14 günde bir çakıştığı sanılmış (12, 26, 40, 54).",
+    "İlk ortak günü tekrar süresi sanma: 12. günden sonra her 12 günde bir çakışma olacağı düşünülmüş (12, 24, 36, 48, 60); oysa tekrar süresi EKOK(6, 8) = 24'tür."
   ],
-  aciklama: `Bir masadaki öğrenci sayısı hem 84'ü hem de B okulunun öğrenci sayısını kalansız bölmelidir. "Olabildiğince çok" dendiğine göre bu sayı iki sayının EBOB'udur; yani EBOB(84, B) = 28'dir.
-Adım 1: 84'ü ve 28'i ayır: 84 = 2^{2} · 3 · 7 ve 28 = 2^{2} · 7.
-Adım 2: EBOB 28 olduğuna göre B sayısı 28'in katı olmalıdır. 100 ile 130 arasındaki 28 katları: 28 · 4 = 112. (28 · 3 = 84 küçük, 28 · 5 = 140 büyüktür.)
-Adım 3: Tek aday olan 112'yi sına: 112 = 2^{4} · 7. EBOB(84, 112) için ortak asal çarpanların küçük üslülerini al: 2^{2} · 7 = 28. Koşul sağlanıyor.
-Adım 4: Öyleyse B okulundan 112 öğrenci gelmiştir.
-Sağlama: 84 ÷ 28 = 3 masa ve 112 ÷ 28 = 4 masa; toplam 7 masada 28'er öğrenci oturur.
-Sık yapılan hata: EBOB'u 28 çıkması için yalnızca "28'e bölünüyor mu?" diye bakmak yetmez; bölümlerin de ortak çarpanı kalmamalıdır. Örneğin 84 ile 168 sayılarının ikisi de 28'e bölünür ama EBOB'ları 84'tür.
+  aciklama: `Bir görevi 6 günde bir yapmak, iki görev günü arasında 6 gün olması demektir. İki görev bir kez aynı güne denk geldikten sonra, yeniden aynı güne denk gelmeleri için geçen gün sayısı hem 6'nın hem 8'in katı olmalıdır; bu sürenin en küçüğü EKOK'tur.
+Adım 1: Görev günlerini yaz. Bulaşık nöbeti: 6, 12, 18, 24, 30, 36, … Bahçe sulama: 4, 12, 20, 28, 36, 44, …
+Adım 2: İki listede de bulunan ilk gün 12. gündür.
+Adım 3: Tekrar süresini bul: 6 = 2 · 3 ve 8 = 2^{3}. EKOK için her asal çarpanın en büyük üslüsünü al: EKOK(6, 8) = 2^{3} · 3 = 24. Ortak günler 12. günden başlayarak 24 günde bir gelir: 12, 36, 60, 84, …
+Adım 4: Kamp 60. gün de sürdüğü için 12, 36 ve 60. günler sayılır; 84. günde kamp bitmiş olur. Yardımcı 3 gün görevlendirilir.
+Sağlama: 60. gün için 60 ÷ 6 = 10 kalansızdır, bulaşık nöbeti vardır; 60 − 4 = 56 ve 56 ÷ 8 = 7 kalansızdır, bahçe sulama da vardır.
+2 neden olmaz? Görevler 1. günden birlikte başlasaydı ortak günler 24'ün katları (24 ve 48) olurdu. Oysa bahçe sulama 4, 12, 20, 28, … günlerinde yapılır; 24. ve 48. günler bu listede yoktur.
+Sık yapılan hata: Farklı günlerde başlayan iki olayın ortak günlerini doğrudan EKOK'un katları sanmak. Önce ilk ortak günü listeleyerek bul, sonra ona EKOK'u ekleyerek ilerle.
 Cevap B.`
 },
 {
@@ -858,22 +861,23 @@ Cevap B.`
   kazanim: "M.8.1.1.3",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir animasyon programında iki hareket döngüsü aynı anda başlatılıp sürekli tekrar ettirilmektedir. Birinci döngü 45 kare, ikinci döngü 60 karedir. Tasarımcı, iki döngünün başlangıçlarının olabildiğince seyrek üst üste gelmesi için döngü uzunluklarının **aralarında asal** olmasını istemektedir. Programda yalnızca birinci döngünün kare sayısı artırılabilmekte, ikinci döngüye dokunulamamaktadır. Tasarımcı en az artışı yapacaktır.\n**Buna göre birinci döngünün kare sayısı kaç olmalıdır?**",
+  soru: "Bir animasyon programında iki hareket döngüsü aynı anda başlatılıp sürekli tekrar ettirilmektedir. Birinci döngü 45 kare, ikinci döngü 60 karedir. Programın tasarım kılavuzu, iki döngünün kare sayılarının **aralarında asal** olmasını zorunlu kılmaktadır. Programda yalnızca birinci döngünün kare sayısı artırılabilmekte, ikinci döngüye dokunulamamaktadır. Tasarımcı, kılavuza uyan seçenekler arasından en az artışı yapacaktır.\n**Buna göre birinci döngünün yeni kare sayısı kaç olmalıdır?**",
   gorsel: null,
   secenekler: ["49", "48", "47", "46"],
   dogru: 2,
   hatalar: [
-    "47'nin de koşulu sağladığını fark etmeyip aramayı sürdürme: 49 = 7^{2} sayısı 60 ile aralarında asaldır ama en az artış değildir.",
+    "En az artış koşulunu atlama: 49 = 7^{2} sayısı da 60 ile aralarında asaldır ama 4 karelik artış ister; 47 ise kılavuza 2 karelik artışla uyar.",
     "Yalnızca 5'i kontrol etme: 48 = 2^{4} · 3 sayısı hem 2'ye hem 3'e bölünür, 60 da öyle.",
     null,
     "Yalnızca 3 ve 5'i kontrol edip 2'yi unutma: 46 = 2 · 23 çifttir, 60 da çifttir; ortak bölenleri 2'dir."
   ],
-  aciklama: `İki sayının aralarında asal olması, 1'den başka ortak pozitif bölenlerinin bulunmaması demektir.
+  aciklama: `İki sayının aralarında asal olması, 1'den başka ortak pozitif bölenlerinin bulunmaması demektir. Kılavuz yalnızca bu koşulu istiyor; tasarımcı da koşulu sağlayan sayılar arasından artışı en az olanı seçecek.
 Adım 1: Değiştirilemeyen sayıyı ayır: 60 = 2^{2} · 3 · 5. Yeni kare sayısı ne 2'ye, ne 3'e, ne de 5'e bölünmelidir.
-Adım 2: 45 sayısından başlayarak birer birer yukarı çık. 45 = 3^{2} · 5 → 3'e ve 5'e bölünür, zaten uygun değil.
-Adım 3: 46 = 2 · 23 → çifttir, olmaz. 47 → tektir; rakamları toplamı 11 olduğundan 3'e bölünmez; 7 ya da 5 ile bitmediğinden 5'e bölünmez. Uygundur.
-Adım 4: En az artış 45'ten 47'ye, yani 2 karedir. Birinci döngü 47 kare olmalıdır.
-Sağlama: 47 asal bir sayıdır ve 60'ı bölmez; bu yüzden EBOB(47, 60) = 1'dir. Bu durumda iki döngünün başlangıçları ancak 47 · 60 = 2820 karede bir üst üste gelir.
+Adım 2: 45'ten başlayarak birer birer yukarı çık. 45 = 3^{2} · 5 → 3'e ve 5'e bölünür, zaten uygun değil.
+Adım 3: 46 = 2 · 23 → çifttir, olmaz. 47 → tektir; rakamları toplamı 11 olduğundan 3'e bölünmez; 0 ya da 5 ile bitmediğinden 5'e bölünmez. Uygundur.
+Adım 4: Kılavuza uyan ilk sayı 47'dir; artış 2 karedir. Birinci döngü 47 kare olmalıdır.
+Sağlama: 47 asal bir sayıdır ve 60'ı bölmez; bu yüzden EBOB(47, 60) = 1'dir.
+49 neden olmaz? 49 = 7^{2} de 60 ile aralarında asaldır, yani kılavuza uyar. Ama 49'a çıkmak 4 karelik artış ister; 47 aynı koşulu 2 karelik artışla sağladığı için en az artış 47'dedir.
 Sık yapılan hata: Yalnızca tek sayı olmasına ya da yalnızca asal olmasına bakmak. 60'ın üç asal çarpanının (2, 3, 5) hepsini tek tek elemelisin.
 Cevap C.`
 },
@@ -906,25 +910,25 @@ Cevap D.`
   kazanim: "M.8.1.1.3",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir yazılım dersinde Deniz, girilen iki doğal sayının en küçük ortak katını (EKOK) ekrana yazan bir program hazırlamıştır. Ders sonunda Deniz programa iki doğal sayı girmiş; sayıları arkadaşlarına söylememiş, yalnızca şu iki bilgiyi paylaşmıştır:\n• Girdiğim iki sayının toplamı 23'tür.\n• Program ekrana 132 yazdı.\nArkadaşı Bora, iki sayının **aralarında asal** olması durumunda EKOK'un sayıların çarpımına eşit olacağını hatırlayarak sayıları bulmuştur.\n**Buna göre Deniz'in girdiği iki sayının farkı kaçtır?**",
-  gorsel: null,
-  secenekler: ["1", "3", "9", "11"],
-  dogru: 0,
+  soru: "Nehir'in dedesinden kalma ahşap bir akıl oyununda 3 satır ve 4 sütundan oluşan bir ızgara vardır. Her satırın ve her sütunun başındaki yuvaya birer sayı etiketi takılmaktadır. Oyunun kuralı şudur: Bir kutunun satır başındaki sayı ile sütun başındaki sayı **aralarında asal** ise o kutuya bir pul konulur; değilse kutu boş bırakılır.\nNehir etiketleri takıp pulları kurala uygun biçimde yerleştirmiş ve tahtada toplam 6 pul bulunduğunu defterine not etmiştir. Ertesi gün son sütunun etiketinin kaybolduğunu fark etmiştir; etiketteki sayının iki basamaklı olduğunu hatırlamaktadır. Tahtanın, pullar toplandıktan sonraki hâli aşağıda verilmiştir.\n**Buna göre kaybolan etiketteki sayı aşağıdakilerden hangisi olabilir?**",
+  gorsel: `<svg viewBox="0 0 480 230" role="img" aria-label="3 satır ve 4 sütunluk boş ızgara; satır başlarında 6, 10 ve 15; sütun başlarında 7, 9, 14 ve kaybolan etiketin yerinde soru işareti"><g stroke="currentColor" stroke-width="2"><g fill="var(--dolgu)"><rect x="105" y="15" width="90" height="50"/><rect x="195" y="15" width="90" height="50"/><rect x="285" y="15" width="90" height="50"/><rect x="375" y="15" width="90" height="50"/><rect x="15" y="65" width="90" height="50"/><rect x="15" y="115" width="90" height="50"/><rect x="15" y="165" width="90" height="50"/></g><g fill="none"><rect x="105" y="65" width="90" height="50"/><rect x="195" y="65" width="90" height="50"/><rect x="285" y="65" width="90" height="50"/><rect x="375" y="65" width="90" height="50"/><rect x="105" y="115" width="90" height="50"/><rect x="195" y="115" width="90" height="50"/><rect x="285" y="115" width="90" height="50"/><rect x="375" y="115" width="90" height="50"/><rect x="105" y="165" width="90" height="50"/><rect x="195" y="165" width="90" height="50"/><rect x="285" y="165" width="90" height="50"/><rect x="375" y="165" width="90" height="50"/></g></g><g fill="currentColor" font-size="20" font-weight="bold" text-anchor="middle"><text x="150" y="47">7</text><text x="240" y="47">9</text><text x="330" y="47">14</text><text x="60" y="97">6</text><text x="60" y="147">10</text><text x="60" y="197">15</text></g><text x="420" y="48" font-size="24" font-weight="bold" text-anchor="middle" fill="var(--vurgu)">?</text></svg>`,
+  secenekler: ["11", "18", "20", "21"],
+  dogru: 3,
   hatalar: [
-    null,
-    "Toplamı 23 olan bir çifti EKOK'u denetlemeden seçme: 10 ile 13 seçilmiş, oysa EKOK(10, 13) = 130'dur.",
-    "Toplamı 23 olan bir çifti EKOK'u denetlemeden seçme: 7 ile 16 seçilmiş, oysa EKOK(7, 16) = 112'dir.",
-    "Sayıları doğru bulup soruyu yanlış okuma: 11 ile 12 bulunmuş ama farkları yerine küçük sayı yazılmış."
+    "İkisi de asal olmayan sayıların aralarında asal olamayacağını sanma: 10 ile 9'un ve 15 ile 14'ün kutuları boş sayılınca bilinen sütunlarda yalnızca 3 pul bulunur; eksik 3 pul için son sütunun tamamen dolması gerektiği düşünülüp asal sayı olan 11 seçilmiş. Oysa 11 ile toplam 8 pul olur.",
+    "Ayırmayı yarım bırakma: 18 = 2 · 9 yazılıp 9'un 3^{2} olduğu gözden kaçmış ve 18 ile 15 aralarında asal sanılmış; oysa ikisi de 3'e bölünür. 18'in sütununa hiç pul konmaz, toplam 5 pul olur.",
+    "5 ortak çarpanını gözden kaçırma: 20 ile 15 aralarında asal sanılmış; oysa ikisi de 5'e bölünür. 20'nin sütununa hiç pul konmaz, toplam 5 pul olur.",
+    null
   ],
-  aciklama: `Toplamı 23 olan iki doğal sayının biri tek biri çift olmak zorundadır; bu da ortak bölen olarak 2'yi eler. Asıl ipucu ise EKOK'tur.
-Adım 1: İki sayı aralarında asal olduğunda ortak asal çarpanları bulunmaz; bu durumda EKOK, sayıların çarpımına eşit olur. Öyleyse sayıların çarpımı 132'dir.
-Adım 2: Çarpımı 132 olan doğal sayı çiftlerini yaz: 1 · 132, 2 · 66, 3 · 44, 4 · 33, 6 · 22, 11 · 12.
-Adım 3: Toplamı 23 olanı ara: 1 + 132 = 133, 2 + 66 = 68, 3 + 44 = 47, 4 + 33 = 37, 6 + 22 = 28, 11 + 12 = 23. Aranan çift 11 ve 12'dir.
-Adım 4: Aralarında asallığı doğrula: 11 asaldır ve 12'yi bölmez, yani EBOB(11, 12) = 1. Gerçekten de EKOK(11, 12) = 132'dir.
-Adım 5: Farkı al: 12 − 11 = 1.
-Sağlama: Ardışık iki doğal sayı her zaman aralarında asaldır; bu yüzden 11 ile 12'nin EKOK'u doğrudan çarpımlarına eşittir.
-Sık yapılan hata: Yalnızca toplam koşuluna bakıp ilk akla gelen çifti seçmek. İki koşulu birden sağlayan çift tektir.
-Cevap A.`
+  aciklama: `İki sayının 1'den başka ortak pozitif böleni yoksa bu sayılar aralarında asaldır. Sayıların kendilerinin asal olması gerekmez; örneğin 9 ile 10 aralarında asaldır.
+Adım 1: Satır başlarını asal çarpanlarına ayır: 6 = 2 · 3, 10 = 2 · 5, 15 = 3 · 5.
+Adım 2: Bilinen sütunlardaki pulları say. 7 asaldır ve 6, 10, 15'in hiçbirini bölmez → 3 pul. 9 = 3^{2}: 6 ve 15 ile ortak böleni 3'tür, 10 ile ortak böleni yoktur → 1 pul. 14 = 2 · 7: 6 ve 10 ile ortak böleni 2'dir, 15 ile ortak böleni yoktur → 1 pul. Bilinen sütunlarda 3 + 1 + 1 = 5 pul vardır.
+Adım 3: Toplam 6 pul olduğuna göre son sütunda tam 1 pul bulunmalıdır. Yani kaybolan sayı, 6, 10 ve 15'ten yalnızca biriyle aralarında asal olmalıdır.
+Adım 4: Şıkları denetle. 11 asaldır ve üç satır sayısının hiçbirini bölmez → 3 pul (toplam 8). 18 = 2 · 3^{2}: 6, 10 ve 15'in her biriyle 1'den başka ortak böleni vardır (sırasıyla 6, 2 ve 3) → 0 pul (toplam 5). 20 = 2^{2} · 5: yine üçüyle de ortak böleni vardır (sırasıyla 2, 10 ve 5) → 0 pul (toplam 5). 21 = 3 · 7: 6 ve 15 ile ortak böleni 3'tür, 10 ile ortak böleni yoktur → 1 pul (toplam 6).
+Sağlama: EBOB(10, 21) = 1, EBOB(6, 21) = 3 ve EBOB(15, 21) = 3. Son sütunda yalnızca 10'un satırına pul konur: 5 + 1 = 6.
+11 neden olmaz? 11 ile son sütunun üç kutusuna da pul konur ve toplam 8 olur. Bu şıkka genellikle 10 ile 9'un ve 15 ile 14'ün kutularını boş bırakan öğrenci ulaşır.
+Sık yapılan hata: İkisi de asal olmayan iki sayının aralarında asal olamayacağını sanmak. 9 ile 10 da, 14 ile 15 de asal değildir ama ortak bölenleri yalnızca 1'dir; bu yüzden aralarında asaldırlar.
+Cevap D.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */
 {

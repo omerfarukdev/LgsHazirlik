@@ -3,32 +3,32 @@ window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
 
 { id: "tur-pa-3061", kazanim: "T.8.3.16", kademe: 0, zorluk: 1,
-  soru: `Bilye oyunu, avuçtaki renkli camlarla değil, yere çizilen bir çizgiyle başlar. Çizgi; atışın nereden yapılacağını, hangi vuruşun sayılacağını ve sıranın kime geçeceğini belirler. Silinirse bilyeler yerinde durur ama oyun durur. Oyuna yeni katılan çocuk da önce bu çizgiyi öğrenir, sonra torbasını açar. Çünkü bir oyunu ayakta tutan şey malzemesi değil, üzerinde anlaşılmış sınırıdır.
+  soru: `Bilye oyunu, avuçtaki renkli camlarla değil, yere çizilen bir çizgiyle başlar. Oyunu ayakta tutan da bilyeler değil, o çizgi üzerinde varılan anlaşmadır. Çizgi; atışın nereden yapılacağını, hangi vuruşun sayılacağını ve sıranın kime geçeceğini belirler. Silinirse bilyeler yerinde durur ama oyun durur. Bu yüzden mahalleye yeni gelen bir çocuk, torbasını açmadan önce çizginin nereden geçtiğini sorar.
 
 **Bu parçanın konusu aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: [
-    "Bilye oyununa yeni katılan her çocuğun izlemesi gereken sıra",
-    "Bir oyunu var eden şeyin üzerinde anlaşılmış sınır olması",
+    "Yeni gelen çocuğun oyuna katılmadan önce soru sorması",
+    "Bir oyunun, malzemesiyle değil ortak anlaşmayla sürmesi",
     "Yere çizilen çizginin bilyeleri yerinde durdurması",
-    "Bütün çocuk oyunlarının yere çizilen bir çizgiyle başlaması"
+    "Bütün çocuk oyunlarının yere çizilen çizgiyle başlaması"
   ],
   dogru: 1,
   hatalar: [
-    "**Metinde var ama ilgisiz**: Yeni katılan çocuğun önce çizgiyi öğrendiği dördüncü cümlede yazıyor; ama bu, parçanın anlattığı şey değil, sınırın gücünü gösteren bir ayrıntıdır.",
+    "**Metinde var ama ilgisiz**: Yeni gelen çocuğun çizgiyi sorması son cümlede geçiyor; ama bu, parçanın anlattığı şey değil, çizginin önemini gösteren bir sonuçtur. Son cümlede duruyor diye konu sanılmamalı.",
     null,
-    "**Ters yön**: Metin çizginin bilyeleri durdurduğunu söylemiyor; tam tersine “bilyeler yerinde durur ama oyun durur” diyerek çizginin durdurduğu şeyin oyun olduğunu belirtiyor.",
-    "**Aşırı genelleme**: Parça yalnızca bilye oyunundan ve genel olarak anlaşılmış sınırdan söz ediyor; bütün çocuk oyunlarının çizgiyle başladığını söylemiyor."
+    "**Ters yön**: Metin çizginin bilyeleri durdurduğunu söylemiyor; tam tersine “bilyeler yerinde durur ama oyun durur” diyerek çizgi silinince duran şeyin oyun olduğunu belirtiyor.",
+    "**Aşırı genelleme**: Parça yalnızca bilye oyununu anlatıyor; bütün çocuk oyunlarının çizgiyle başladığını söylemiyor."
   ],
   aciklama: `Konu, “Bu parçada ne anlatılıyor?” sorusunun karşılığıdır; bütün cümlelerin buluştuğu ortak noktadır.
 
-Adım 1: Cümleleri tek tek oku. Birinci cümle oyunu başlatanın çizgi olduğunu, ikinci cümle çizginin neleri belirlediğini, üçüncü cümle çizgi silinince ne olduğunu, dördüncü cümle yeni gelenin önce onu öğrendiğini söylüyor.
-Adım 2: Son cümle hepsini toplar: Oyunu ayakta tutan şey, üzerinde anlaşılmış sınırdır.
-Adım 3: Öyleyse parçanın ortak paydası malzeme değil, anlaşılmış sınırdır.
+Adım 1: Cümleleri tek tek oku. Birinci cümle oyunu başlatanın çizgi olduğunu, ikinci cümle oyunu ayakta tutanın bilyeler değil çizgi üzerindeki anlaşma olduğunu söylüyor.
+Adım 2: Üçüncü ve dördüncü cümleler bunu gösteriyor: Çizgi atışı, vuruşu ve sırayı belirler; silinince bilyeler kalır ama oyun durur.
+Adım 3: Son cümle bu düşüncenin bir sonucunu veriyor: Yeni gelen çocuk önce çizgiyi sorar. Bütün cümlelerin ortak paydası, oyunun malzemeyle değil ortak anlaşmayla sürmesidir. Bu da B’dir.
 
-En güçlü çeldirici A. Yeni katılan çocuk gerçekten metinde geçiyor; ama bir cümlede geçmek, konu olmak demek değildir. Konu bir cümlenin değil, bütün cümlelerin ortak paydasıdır.
+En güçlü çeldirici A. Yeni gelen çocuk son cümlede geçtiği için akılda kalır; ama o cümle yalnızca bir sonuçtur. Konu bir cümlenin değil, bütün cümlelerin ortak paydasıdır. Bu parçada asıl düşünce sonda değil, ikinci cümlede söylenmiştir.
 
-Sık yapılan hata: Metinde gördüğü ilk somut ayrıntıyı konu sanmak. Konuyu bulmak için “Bu cümlelerin hepsi neyin çevresinde dönüyor?” diye sor. Cevap B.` },
+Sık yapılan hata: Konuyu yalnızca son cümleden çıkarmak. Asıl düşünce paragrafın başında ya da ortasında da durabilir; “Bu cümlelerin hepsi neyin çevresinde dönüyor?” diye sor. Cevap B.` },
 
 { id: "tur-pa-3062", kazanim: "T.8.3.17", kademe: 0, zorluk: 1,
   soru: `Yeğenime doğum gününde tahtadan bir kamyon aldım. Ne ışığı vardı ne sesi; beğenmeyecek diye epeyce korktum. Oysa o, motor sesini kendi çıkardı, kasasına taş doldurdu, evin koridorunu şantiye yoluna çevirdi. Oyuncak hiçbir şey yapmıyordu, bütün işi çocuk yaptı. İyi oyuncak, çocuğa yapacak iş bırakandır.
@@ -39,7 +39,7 @@ Sık yapılan hata: Metinde gördüğü ilk somut ayrıntıyı konu sanmak. Konu
     "Çocuklar kendilerine alınan hediyeleri çoğu zaman beğenmez.",
     "Sesli ve ışıklı oyuncaklar çocuğun ilgisini daha uzun tutar.",
     "Çocuk, oyun kurarken evin koridorunu bile kullanabilir.",
-    "İyi bir oyuncak, çocuğa yapacak iş bırakan oyuncaktır."
+    "Çocuğu kendi oyununu kurmaya yönelten oyuncak iyi oyuncaktır."
   ],
   dogru: 3,
   hatalar: [
@@ -48,15 +48,15 @@ Sık yapılan hata: Metinde gördüğü ilk somut ayrıntıyı konu sanmak. Konu
     "**Metinde var ama ilgisiz**: Koridorun şantiye yoluna çevrilmesi üçüncü cümlede geçiyor; ama bu, yazarın kabul ettirmek istediği yargı değil, yargıyı destekleyen bir örnektir.",
     null
   ],
-  aciklama: `Ana düşünce, yazarın okura kabul ettirmek istediği asıl yargıdır. Kısa parçalarda çoğu zaman son cümlede durur.
+  aciklama: `Ana düşünce, yazarın okura kabul ettirmek istediği asıl yargıdır. Kısa parçalarda çoğu zaman son cümlede durur; ama doğru şık bu yargıyı çoğu kez başka sözcüklerle söyler.
 
 Adım 1: Olayı çıkar. Sessiz, ışıksız bir tahta kamyon alınıyor; anlatıcı beğenilmeyeceğinden korkuyor; çocuk sesi de oyunu da kendi kuruyor.
-Adım 2: Son cümleye bak: “İyi oyuncak, çocuğa yapacak iş bırakandır.” Yargı burada açıkça yazılı.
-Adım 3: Öteki cümlelerin hepsi bu yargıya çıkan basamaklar.
+Adım 2: Son cümleye bak: “İyi oyuncak, çocuğa yapacak iş bırakandır.” Çocuğa kalan iş nedir? Motor sesini çıkarmak, kasayı doldurmak, koridoru şantiye yoluna çevirmek; yani oyunu kendisi kurmak.
+Adım 3: Şıklarda bu yargıyı başka sözcüklerle ara. D, “yapacak iş bırakmak” yerine “kendi oyununu kurmaya yöneltmek” diyor; anlam aynıdır.
 
-En güçlü çeldirici C. Koridorun yola çevrilmesi doğrudur, metinde de vardır; ama o bir örnektir. Örnek “nasıl anlatıldığı”, ana düşünce “ne anlatıldığı” sorusunun cevabıdır.
+En güçlü çeldirici C. Koridorun yola çevrilmesi doğrudur, metinde de vardır; ama o bir örnektir. Örnek yargının nasıl gösterildiğini, ana düşünce ise yargının kendisini verir.
 
-Sık yapılan hata: Ana düşünce yerine onu destekleyen örneği seçmek. Örnek tek bir anı anlatır; ana düşünce parçanın tamamını kapsar. Cevap D.` },
+Sık yapılan hata: Son cümledeki sözcükleri şıklarda birebir aramak ya da ana düşünce yerine onu destekleyen örneği seçmek. Önce yargıyı kendi sözlerinle söyle, sonra aynı anlamı taşıyan şıkkı bul. Cevap D.` },
 
 { id: "tur-pa-3063", kazanim: "T.8.3.18", kademe: 0, zorluk: 2,
   soru: `Oyuncak kutularının üzerindeki “3 yaşından küçük çocuklar için uygun değildir” uyarısı çoğu zaman “bu oyuncak zordur” anlamında okunur. Oysa bu uyarı bir beceri ölçüsü değil, bir güvenlik kuralıdır. Küçük çocuklar eline aldığı her şeyi ağzına götürür; kopabilecek küçük parçalar bu yaşta soluk borusunu tıkayabilir. Bu yüzden üreticiler parçaların boyutunu ve dayanıklılığını denetler, çıkan sonuca göre yaş uyarısını kutuya basar. Uyarıyı “benim çocuğum zaten dikkatli” diyerek geçen bir büyük, aslında zorluk sınırını değil güvenlik sınırını aşmış olur.
@@ -224,33 +224,33 @@ En güçlü çeldirici B. “Kapağı kaldırınca” ve “önce toz kokusu gel
 Sık yapılan hata: Metinde tek bir hareket görünce öyküleme demek. Öykülemede olaylar birbirini doğurur; betimlemede zaman durur. Cevap A.` },
 
 { id: "tur-pa-3069", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
-  soru: `Yalnızca beceriye dayanan bir oyunda güçlü oyuncu hemen hemen her el kazanır; zayıf oyuncu birkaç elden sonra masadan kalkar. Oyuna bir zar eklendiğinde durum değişir. Zar, iyi oyuncunun üstünlüğünü ortadan kaldırmaz; yalnızca sonucu her seferinde kesin olmaktan çıkarır. Deneyimsiz oyuncu da kazanma ihtimali taşıdığı için oynamayı sürdürür. Aile masasında büyüklerle çocukların aynı oyunu saatlerce oynayabilmesini sağlayan şey çoğu zaman bu küçük belirsizliktir.
+  soru: `Yalnızca beceriye dayanan bir oyunda güçlü oyuncu hemen hemen her el kazanır; zayıf oyuncu birkaç elden sonra masadan kalkar. Oyuna bir zar eklendiğinde durum değişir. Zar, iyi oyuncunun üstünlüğünü ortadan kaldırmaz; yalnızca sonucu her seferinde kesin olmaktan çıkarır. Deneyimsiz oyuncu da kazanma ihtimali taşıdığı için oynamayı sürdürür. Ailece oynanan masa oyunlarının pek çoğunda da bir zar, bir çark ya da karıştırılmış bir deste bulunur. Dedesine art arda yenilen torun, iyi gelen tek bir zarla kazandığı elin ardından yeniden masaya oturmak ister.
 
 **Bu parçanın ana düşüncesi aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: [
     "Zar kullanılan oyunlarda oyuncunun becerisi işe yaramaz.",
     "Oyundaki şans payı, farklı düzeydeki oyuncuları bir arada tutar.",
-    "Aile masasında oynanan oyunlar çocuklar için daha eğlencelidir.",
+    "Ailece oynanan masa oyunları çocuklar için daha eğlencelidir.",
     "Bir oyunun uzun sürmesi oyuncuların deneyimine bağlıdır."
   ],
   dogru: 1,
   hatalar: [
     "**Ters yön**: Metin bunun tam tersini söylüyor: Zar, iyi oyuncunun üstünlüğünü ortadan kaldırmaz, yalnızca sonucu kesin olmaktan çıkarır.",
     null,
-    "**Metinde var ama ilgisiz**: Aile masası son cümlede örnek olarak geçiyor; parçanın savunduğu yargı bu örnek değil, örneğin dayandığı kuraldır.",
-    "**Aşırı genelleme**: Parçaya göre oyunu uzatan şey deneyim değil, sonucun kestirilemez olmasıdır. Deneyimli oyuncunun sürekli kazandığı oyun kısa sürer."
+    "**Metinde var ama ilgisiz**: Ailece oynanan masa oyunları beşinci cümlede geçiyor; ama metin onların daha eğlenceli olduğunu söylemiyor, yalnızca çoğunda şans payı bulunduğunu belirtiyor.",
+    "**Kısmen doğru**: Deneyim farkı metinde gerçekten önemlidir; zarsız oyunda deneyimsiz oyuncu birkaç elden sonra masadan kalkar. Ama parçaya göre oyuncuları masada tutan şey deneyim değil, zarın getirdiği belirsizliktir."
   ],
-  aciklama: `Ana düşünce, yazarın parçayı yazma nedenidir; bütün cümleler onu desteklemek için kurulur.
+  aciklama: `Ana düşünce, yazarın parçayı yazma nedenidir; bütün cümleler onu desteklemek için kurulur. Bu parçada ana düşünce hiçbir cümlede açıkça yazmıyor; onu cümlelerden çıkarman gerekiyor.
 
 Adım 1: Karşıtlığı gör. Birinci cümle zarsız oyunu anlatıyor: Güçlü hep kazanıyor, zayıf masadan kalkıyor.
 Adım 2: İkinci ve üçüncü cümleler zarın ne yaptığını söylüyor: Üstünlüğü silmiyor, sonucu kesin olmaktan çıkarıyor.
-Adım 3: Dördüncü ve beşinci cümleler sonucu veriyor: Deneyimsiz oyuncu oynamayı sürdürüyor, büyüklerle çocuklar aynı masada kalabiliyor.
-Adım 4: Bu zinciri tek cümlede topla: Şans payı, farklı düzeydeki oyuncuları bir arada tutar.
+Adım 3: Dördüncü cümle sonucu veriyor: Deneyimsiz oyuncu da oynamayı sürdürüyor. Son iki cümle bunu örneklendiriyor: Ailece oynanan oyunların çoğunda şans payı var; dedesine yenilen torun, tek bir iyi zarla yeniden masaya dönüyor.
+Adım 4: Bu zinciri tek cümlede topla: Güçlü de zayıf da masada kalabiliyorsa, şans payı farklı düzeydeki oyuncuları bir arada tutuyor demektir.
 
 En güçlü çeldirici A. Parçayı hızlı okuyan biri “zar var, öyleyse beceri önemsiz” diye düşünür. Oysa metin bunu açıkça reddeder; “ortadan kaldırmaz” ifadesi tam olarak bu yanlış anlamayı önlemek için konmuştur.
 
-Sık yapılan hata: Metnin bir şeyi sınırlamasını, tümden reddetmesi sanmak. “Yalnızca”, “tamamen”, “hiç” gibi sözler taşıyan şıklarda metni yeniden kontrol et. Cevap B.` },
+Sık yapılan hata: Ana düşünceyi hep son cümlede aramak. Bu parçanın son cümlesi bir örnektir; ana düşünce, cümlelerin birlikte vardığı sonuçtur. “İşe yaramaz”, “tamamen”, “hiç” gibi kesin sözler taşıyan şıklarda da metni yeniden kontrol et. Cevap B.` },
 
 { id: "tur-pa-3070", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
   soru: `Saklambaçta ebe duvara döner, gözlerini kapatır ve saymaya başlar. O sırada arkasında ne olup bittiğini görmemesi beklenir; oysa isteseydi parmaklarının arasından bakabilir, kimin nereye saklandığını öğrenebilirdi. Bunu denetleyen bir hakem, kayda geçen bir kural yoktur. Oyunun sürmesi tümüyle ebenin bakmamayı kendi kendine seçmesine bağlıdır. Bir kez bakıldığı anlaşıldığında ceza da verilmez; yalnızca oyun dağılır, çocuklar başka bir şey oynamaya gider. Mahallede söylenen “bu oyunu artık onunla oynamayız” cümlesi, herhangi bir cezadan çok daha ağır bir yaptırımdır. Sayının yüksek sesle yapılması bile tek başına yetmez; arkadaki çocuklar sesin kesilmediğini duyar ama gözün kapalı kaldığını göremez. Çocuk, saymaya başladığında aslında oyunun en zor işini üstlenir: Kendi kendini denetlemeyi.
@@ -284,31 +284,31 @@ Sık yapılan hata: Şıkkın sözcüklerini metinde birebir aramak. Metin aynı
 { id: "tur-pa-3071", kazanim: "T.8.3.32", kademe: 0, zorluk: 3,
   soru: `Sekizinci sınıflar, bağlı oldukları ilkokulun bahçesinde teneffüslerde hangi oyunların oynandığını merak etti. Bir hafta boyunca her teneffüste bahçeyi gözlediler; oynanan oyunları ve her oyuna katılan öğrenci sayısını deftere yazdılar. Gözlemi beş öğrenci sırayla yürüttü, bahçenin her köşesi her teneffüs tarandı. Sayım yapılırken aynı öğrenci farklı teneffüslerde aynı oyuna katıldıysa her seferinde yeniden sayıldı. Aynı teneffüste iki oyun birden oynandığında ikisi de ayrı ayrı kaydedildi; hiçbir öğrenci aynı teneffüste iki oyunda birden sayılmadı. Hafta sonunda bu sayıları oyun oyun topladılar. Ekip, katılım sayısının oyunun ne kadar sürdüğünü göstermediğini raporunda ayrıca belirtti; çünkü kimi oyunlarda sıra beklemek, oynamaktan uzun sürüyordu.
 
-**Bu grafikten hareketle aşağıdaki yargılardan hangisine varılabilir?**`,
-  gorsel: `<svg viewBox="0 0 560 285" role="img" aria-label="Oyunlara katılan toplam öğrenci sayısını gösteren sütun grafiği"><text x="8" y="20" font-size="15" fill="currentColor">Grafik: Bir hafta boyunca oyunlara katılan toplam öğrenci sayısı</text><line x1="40" y1="230" x2="548" y2="230" stroke="currentColor" stroke-width="2"/><line x1="40" y1="40" x2="40" y2="230" stroke="currentColor" stroke-width="2"/><rect x="60" y="146" width="56" height="84" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="156" y="62" width="56" height="168" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="252" y="177" width="56" height="53" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="348" y="83" width="56" height="147" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="444" y="104" width="56" height="126" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="88" y="138" font-size="15" text-anchor="middle" fill="currentColor">48</text><text x="184" y="54" font-size="15" text-anchor="middle" fill="currentColor">96</text><text x="280" y="169" font-size="15" text-anchor="middle" fill="currentColor">30</text><text x="376" y="75" font-size="15" text-anchor="middle" fill="currentColor">84</text><text x="472" y="96" font-size="15" text-anchor="middle" fill="currentColor">72</text><text x="88" y="252" font-size="14" text-anchor="middle" fill="currentColor">Sek sek</text><text x="184" y="252" font-size="14" text-anchor="middle" fill="currentColor">Yakan top</text><text x="280" y="252" font-size="14" text-anchor="middle" fill="currentColor">Bilye</text><text x="376" y="252" font-size="14" text-anchor="middle" fill="currentColor">İp atlama</text><text x="472" y="252" font-size="14" text-anchor="middle" fill="currentColor">Saklambaç</text><text x="8" y="276" font-size="14" fill="currentColor">Sayılar, bir haftalık gözlemin toplamıdır.</text></svg>`,
+**Bu parça ve grafikten hareketle aşağıdaki yargılardan hangisine varılabilir?**`,
+  gorsel: `<svg viewBox="0 0 560 285" role="img" aria-label="Bir hafta boyunca oyunlara toplam katılım sayısını gösteren sütun grafiği"><text x="8" y="20" font-size="15" fill="currentColor">Grafik: Bir hafta boyunca oyunlara toplam katılım sayısı</text><line x1="40" y1="230" x2="548" y2="230" stroke="currentColor" stroke-width="2"/><line x1="40" y1="40" x2="40" y2="230" stroke="currentColor" stroke-width="2"/><rect x="60" y="146" width="56" height="84" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="156" y="62" width="56" height="168" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="252" y="177" width="56" height="53" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="348" y="83" width="56" height="147" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="444" y="104" width="56" height="126" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="88" y="138" font-size="15" text-anchor="middle" fill="currentColor">48</text><text x="184" y="54" font-size="15" text-anchor="middle" fill="currentColor">96</text><text x="280" y="169" font-size="15" text-anchor="middle" fill="currentColor">30</text><text x="376" y="75" font-size="15" text-anchor="middle" fill="currentColor">84</text><text x="472" y="96" font-size="15" text-anchor="middle" fill="currentColor">72</text><text x="88" y="252" font-size="14" text-anchor="middle" fill="currentColor">Sek sek</text><text x="184" y="252" font-size="14" text-anchor="middle" fill="currentColor">Yakan top</text><text x="280" y="252" font-size="14" text-anchor="middle" fill="currentColor">Bilye</text><text x="376" y="252" font-size="14" text-anchor="middle" fill="currentColor">İp atlama</text><text x="472" y="252" font-size="14" text-anchor="middle" fill="currentColor">Saklambaç</text><text x="8" y="276" font-size="14" fill="currentColor">Sayılar, bir haftalık gözlemdeki katılımların toplamıdır.</text></svg>`,
   secenekler: [
-    "Hafta boyunca en yüksek katılım sayısı yakan topta görülmüştür.",
-    "Hafta boyunca en düşük katılım sayısı sek sek oyununda görülmüştür.",
-    "Saklambaç, her teneffüste en uzun süre oynanan oyun olmuştur.",
+    "Sek sek ile bilyenin toplam katılım sayısı, yakan topunkinden azdır.",
+    "Hafta boyunca en çok sayıda farklı öğrenci yakan topu oynamıştır.",
+    "Sek sek, hafta boyunca bilyeden daha uzun süre oynanmıştır.",
     "Yakan top, haftanın her gününde en çok katılım alan oyun olmuştur."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "**Kısmen doğru**: Sek sek gerçekten az katılım almış (48); ama en düşük sütun onun değil, 30 ile bilyenindir.",
-    "**Metinde var ama ilgisiz**: Grafikte süre değil katılım sayısı var. Üstelik metin, katılım sayısının oyunun ne kadar sürdüğünü göstermediğini özellikle belirtiyor.",
+    "**Kısmen doğru**: Yakan top gerçekten en yüksek katılımı almıştır (96); ama parçaya göre aynı öğrenci farklı teneffüslerde her seferinde yeniden sayılmıştır. 96 katılım, 96 farklı öğrenci demek değildir; kaç farklı öğrencinin oynadığı bilinemez.",
+    "**Metinde var ama ilgisiz**: Sek sekin katılımı bilyeninkinden fazladır (48 ve 30); ama grafik süreyi değil katılımı gösterir. Ekip de raporunda katılım sayısının oyunun ne kadar sürdüğünü göstermediğini özellikle belirtmiştir.",
     "**Aşırı genelleme**: Grafik haftanın toplamını verir, günlere dağılımını vermez. Toplamda önde olan bir oyun, tek tek günlerde geride kalmış olabilir."
   ],
-  aciklama: `Grafik sorularında önce grafiğin neyi ölçtüğünü oku, sonra şıkları tek tek sütunlarla karşılaştır.
+  aciklama: `Grafikli parça sorularında önce grafiğin neyi ölçtüğünü, sonra parçanın bu ölçümle ilgili ne söylediğini oku. Grafikteki sayı ile parçadaki sayım kuralı birlikte yorumlanır.
 
-Adım 1: Başlığı oku: Bir hafta boyunca oyunlara katılan toplam öğrenci sayısı. Ölçülen şey katılım sayısıdır; süre değil, gün değil.
-Adım 2: Sütunları büyükten küçüğe diz: Yakan top 96, ip atlama 84, saklambaç 72, sek sek 48, bilye 30. En yüksek sütun yakan toptur; A doğrudur.
-Adım 3: B’yi sına: En düşük sütun 30 ile bilyedir, sek sek değil.
-Adım 4: C ve D’yi sına: Grafikte süre bilgisi de günlere dağılım da yoktur.
+Adım 1: Başlığı oku: Bir hafta boyunca oyunlara toplam katılım sayısı. Ölçülen şey katılımdır; farklı öğrenci sayısı, süre ya da gün değil.
+Adım 2: Parçadaki sayım kuralını bul: Aynı öğrenci farklı teneffüslerde aynı oyuna katıldıysa her seferinde yeniden sayılmış. Demek ki bir sütundaki sayı, o oyunu kaç farklı öğrencinin oynadığını vermez.
+Adım 3: A’yı sına: Sek sek 48, bilye 30; toplam 48 + 30 = 78. Yakan top 96. 78, 96’dan küçük olduğu için A doğrudur.
+Adım 4: Öteki şıkları ele. B, katılım sayısını farklı öğrenci sayısı sanıyor; C, grafikte olmayan süreden söz ediyor; D, haftalık toplamı günlere yayıyor.
 
-En güçlü çeldirici D. Toplamda en yüksek sütuna bakan öğrenci, bunu kolayca “her gün de en yüksekti” diye genişletir. Oysa 96 sayısı bir haftanın toplamıdır; bir gün çok kalabalık, öteki günler bomboş olsa yine aynı toplam çıkabilirdi.
+En güçlü çeldirici B. En yüksek sütunun yakan topta olduğunu gören öğrenci, bunu “en çok öğrenci yakan topu oynadı” diye okur. Oysa parça aynı öğrencinin her teneffüste yeniden sayıldığını söylüyor. Örneğin yalnızca 16 öğrenci yakan topu altışar kez oynasa sütun yine 96 olurdu.
 
-Sağlama: Bir şık, grafikte ölçülmeyen bir şeyden (süre, gün, yaş, sıklık) söz ediyorsa o şık elenir. Cevap A.` },
+Sık yapılan hata: Katılım sayısını kişi sayısıyla karıştırmak. Bir grafiği yorumlamadan önce “Burada sayılan şey tam olarak ne?” diye sor; cevap çoğu zaman grafiğin yanındaki metindedir. Cevap A.` },
 
 { id: "tur-pa-3072", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
   soru: `Bir ilçede kapanmak üzere olan küçük bir oyuncakçı, geçen yıl vitrinine yeni bir yazı astı: “Kırık oyuncağını getir, birlikte bakalım.” Dükkân sahibi tezgâhın üstüne bir tornavida takımı ve küçük bir yedek parça kutusu koydu. Kolu kopmuş bir robot, tekerleği düşmüş bir kamyon, sesi kısılmış bir oyuncak telefon; hepsi sırayla tezgâha çıktı. Onarım için para alınmıyordu; buna karşılık çocuk tezgâhın başında durmak ve son vidayı kendi sıkmak zorundaydı. Bir yılın sonunda dükkânın sattığı oyuncak sayısı artmadı; ancak dükkâna uğrayan çocuk sayısı ikiye katlandı. Dükkân sahibi şimdi cumartesi sabahları iki çocuğu birden tezgâha alıyor, onarımı onlara yaptırıyor.
@@ -376,50 +376,50 @@ Sık yapılan hata: Geçmişi anlatan her metni “eskiyi övüyor” diye okuma
     "Kavram, sınırları çizilerek tanımlanmıştır.",
     "Anlatılan durum başka bir duruma benzetilmiştir.",
     "Konunun uzmanı olan birinin sözü aktarılmıştır.",
-    "Yaygın bir düşünce önce verilip sonra çürütülmüştür."
+    "Karşıt iki durum, sonuçlarıyla karşılaştırılmıştır."
   ],
   dogru: 3,
   hatalar: [
-    "**Aşırı genelleme**: Parçada tanımlanan bir kavram yok; yazar bir sözcüğün sınırlarını çizmiyor, bir inancı sınıyor.",
-    "**Ters yön**: Benzetmede bilinmeyen bir şey bilinen bir şeye yaklaştırılır. Burada iki durum yan yana konuyor ama biri ötekine benzetilmiyor; biri ötekini yanlışlıyor.",
-    "**Kısmen doğru**: Bir öğretmenin denemesinden söz ediliyor; ancak tanık göstermek, o kişinin sözünü aktarmaktır. Burada hiç kimsenin sözü aktarılmamış, yalnızca gözlediği sonuç anlatılmıştır.",
+    "**Aşırı genelleme**: Parçada tanımlanan bir kavram yok. “Seçeneğin çokluğu oyuna başlamayı kolaylaştırır…” cümlesi bir tanım değil, denemeden çıkarılan genel bir yargıdır.",
+    "**Ters yön**: Benzetmede bir şey, ona benzeyen başka bir şey üzerinden anlatılır. Burada dolu sepet ile az oyuncaklı sepet birbirine benzetilmiyor; tam tersine aralarındaki fark ortaya konuyor.",
+    "**Kısmen doğru**: Bir öğretmenin denemesinden söz ediliyor; ancak tanık göstermek, o kişinin sözünü aktarmaktır. Burada hiç kimsenin sözü aktarılmamış, yalnızca yapılan deneme ve görülen sonuç anlatılmıştır.",
     null
   ],
-  aciklama: `Düşünceyi geliştirme yolunu bulmak için parçanın iskeletine bak: Yazar düşüncesini neyin üstüne kuruyor?
+  aciklama: `Düşünceyi geliştirme yolları, yazarın düşüncesini inandırıcı kılmak için kullandığı araçlardır: tanımlama, örneklendirme, karşılaştırma, benzetme, tanık gösterme, sayısal verilerden yararlanma. Karşılaştırma, iki durumun benzer ya da farklı yanlarını yan yana koyarak düşünceyi açıklamaktır.
 
-Adım 1: İlk iki cümleyi oku. Bunlar yazarın kendi görüşü değil, herkesin söylediği yaygın görüştür: Çok oyuncak, uzun oyun.
-Adım 2: Üçüncü cümledeki “Oysa” sözüne dikkat et. Bu bağlayıcı, az önce verilen görüşün çürütüleceğini haber verir.
-Adım 3: Kalan cümleler çürütmeyi yapıyor: Dolu sepette çabuk sıkılma, az oyuncakla uzun oyun, sonra da nedeni. Bir düşünceyi, önce karşıtını söyleyip sonra onu yanlışlayarak geliştirmeye karşıt düşünceden yararlanma denir.
+Adım 1: Parçanın planını gör. İlk iki cümle yaygın bir düşünceyi veriyor: Çok oyuncak, uzun oyun. Üçüncü cümledeki “Oysa” bu düşüncenin yanlışlanacağını haber veriyor.
+Adım 2: Yazarın bu düşünceyi neyle yanlışladığına bak. Dördüncü cümle iki durumu yan yana koyuyor: Sepet ağzına kadar doluyken çocuklar kısa sürede sıkılıyor; sepette birkaç oyuncak kalınca aynı çocuklar tek bir kamyonla uzun süre oynuyor. Son iki cümle de aynı karşıtlığı sürdürüyor: Çok seçenek kurulan oyunu bozar, az oyuncak hayal gücünü çalıştırır. Bu, karşılaştırmadır.
+Adım 3: Öteki şıkları ele. Tanımlanan bir kavram yok; iki durum birbirine benzetilmiyor, aksine farkları gösteriliyor; kimsenin sözü aktarılmıyor.
 
-En güçlü çeldirici C. Metinde bir öğretmen geçtiği için birçok öğrenci “tanık gösterme” der. Ama tanık göstermede o kişinin sözü tırnak içinde ya da dolaylı olarak aktarılır; burada öğretmenin tek bir cümlesi bile yoktur, yalnızca gözlediği sonuç anlatılmıştır.
+En güçlü çeldirici C. Metinde bir öğretmen geçtiği için birçok öğrenci “tanık gösterme” der. Ama tanık göstermede o kişinin sözü tırnak içinde ya da dolaylı olarak aktarılır; burada öğretmenin tek bir cümlesi bile yoktur, yalnızca yaptığı deneme anlatılır. Bir kişinin yaptığı işi anlatmak, onun sözünü aktarmak değildir.
 
 Sık yapılan hata: Metinde bir insan adı ya da mesleği görünce hemen tanık gösterme demek. “Bu kişi ne dedi?” diye sor; cevabı yoksa tanık gösterme de yoktur. Cevap D.` },
 
 { id: "tur-pa-3075", kazanim: "T.8.3.16", kademe: 0, zorluk: 3,
-  soru: `Aşağıdaki tabloda, eski bir sokak oyununu anlatan paragrafın cümleleri numaralandırılmıştır.
+  soru: `(I) Çember çevirmek, telden ya da demirden yapılmış bir halkayı ucu çatallı bir sopayla iterek sokak boyunca yuvarlamaya dayanan eski bir çocuk oyunudur. (II) Halka bir kez hız kazandığında kendi dengesini bulur; oyuncuya da sopayı bırakıp halkanın arkasından yürümek kalır. (III) Halka yavaşladığı anda yana devrildiği için oyuncu, sopayı düzenli aralıklarla dokundurarak bütün yol boyunca koşmayı hiç kesmeden sürdürmek zorundadır. (IV) Bu yüzden oyun, elin dengesiyle ayağın temposunu aynı anda ayarlamayı gerektirir; ikisinden biri bir an şaşınca halka sallanır ve yere yatar. (V) Yokuş aşağı inildiğinde bile sopa elden bırakılmaz; bu kez halkayı itmek için değil, kendiliğinden artan hızını dizginlemek için kullanılır.
 
-**Numaralanmış cümlelerden hangisi düşüncenin akışını __bozmaktadır__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Çember çevirmek, telden ya da demirden yapılmış bir halkayı ucu çatallı bir sopayla iterek yuvarlamaya dayanan eski bir sokak oyunudur.</td></tr><tr><td>II</td><td>Tel işçiliği, Anadolu’daki bakır ve pirinç atölyelerinin yüzyıllardır sürdürdüğü el uğraşlarının başında gelir.</td></tr><tr><td>III</td><td>Halka yavaşladığı anda yana devrildiği için oyuncu, sopayı düzenli aralıklarla dokundurarak koşmayı hiç kesmeden sürdürmek zorundadır.</td></tr><tr><td>IV</td><td>Bu yüzden oyun, elin dengesiyle ayağın temposunu aynı anda ayarlamayı gerektirir; ikisinden biri şaşınca halka yere yatar.</td></tr><tr><td>V</td><td>Yokuş aşağı inildiğinde bile sopa, halkayı itmek için değil, kendiliğinden artan hızını dizginlemek için kullanılır.</td></tr></table>`,
+**Bu parçada numaralanmış cümlelerden hangisi düşüncenin akışını __bozmaktadır__?**`,
+  gorsel: null,
   secenekler: ["II", "III", "IV", "V"],
   dogru: 0,
   hatalar: [
     null,
-    "**Kısmen doğru**: III, oyunun neden koşmayı gerektirdiğini açıklıyor; onu çıkarırsan IV’teki “bu yüzden” dayanaksız kalır.",
-    "**Kısmen doğru**: IV, III’te anlatılan zorunluluğun sonucunu veriyor ve oyunun istediği iki beceriyi adlandırıyor.",
-    "**Metinde var ama ilgisiz**: V, ilk bakışta fazladan bir ayrıntı gibi durur; oysa IV’te söylenen denge işini bir örnekle sürdürür, konudan ayrılmaz."
+    "**Kısmen doğru**: III, II ile çeliştiği için bozan cümle sanılabilir. Ama III’ü çıkarırsan IV’teki “bu yüzden” dayanaksız kalır, V de yine II ile çelişmeyi sürdürür. III, zincirin taşıyıcı halkasıdır.",
+    "**Kısmen doğru**: IV, III’te anlatılan zorunluluğun sonucunu veriyor ve oyunun istediği iki beceriyi adlandırıyor; “bu yüzden” bağlayıcısıyla III’e sıkıca bağlıdır.",
+    "**Ters yön**: V, II’deki “sopayı bırakmak” düşüncesine karşı çıktığı için bozucu sanılabilir. Oysa V, III ve IV’teki “halka kendi başına bırakılmaz” düşüncesini yokuş örneğiyle sürdürür; zincire ters düşen V değil, II’dir."
   ],
-  aciklama: `Akışı bozan cümleyi bulmanın yolu, paragrafın zincirini çıkarıp her halkayı bir öncekine bağlamaktır.
+  aciklama: `Akışı bozan cümle her zaman konu dışı bir cümle değildir. Bazen konuyla ilgilidir ama paragrafın düşüncesine ters düşer. Bu tür cümleyi bulmak için paragrafın zincirini çıkarıp her halkayı bir öncekine bağla.
 
-Adım 1: Zinciri kur. I: Oyun nedir? III: Neden koşmak gerekir? IV: Öyleyse oyun hangi iki beceriyi ister? V: Yokuş aşağıda bile sopanın işi nedir? Dördü de oyunun nasıl oynandığını anlatır.
-Adım 2: II’ye bak. Tel işçiliğinin atölye tarihi, doğru bir bilgidir; üstelik I’de geçen “tel” sözcüğü yüzünden konuyla ilgili görünür. Ama oyunun nasıl oynandığına dair hiçbir şey söylemez.
-Adım 3: II’yi çıkarıp paragrafı oku. I’den III’e geçişte hiçbir boşluk oluşmuyor; demek ki akışı bozan cümle odur.
+Adım 1: Zinciri kur. I: Oyun, halkayı sopayla iterek yuvarlamaktır. III: Halka yavaşlayınca devrildiği için oyuncu durmadan koşup sopayı dokundurur. IV: Bu yüzden el ve ayak aynı anda ayarlanır. V: Yokuş aşağı bile sopa bırakılmaz, bu kez hızı dizginler. Dördü aynı düşünceyi taşır: Halka hiçbir an kendi başına bırakılmaz.
+Adım 2: II’ye bak. II, halkanın hız kazanınca kendi dengesini bulduğunu ve oyuncunun sopayı bırakabileceğini söylüyor. Bu, III’e, IV’e ve V’e birden ters düşüyor.
+Adım 3: II’yi çıkarıp paragrafı oku. I’den III’e geçiş pürüzsüzdür, çelişki de ortadan kalkar. Demek ki akışı bozan cümle II’dir.
 
-En güçlü çeldirici D. V, “bu yüzden” gibi bir bağlayıcı taşımadığı için zincirin dışında sanılır. Oysa V, IV’te söylenen denge fikrini somut bir durumla sürdürür.
+En güçlü çeldirici D. V, II ile açıkça çeliştiği için “bozan cümle bu” diye düşünülebilir. İki cümle çelişiyorsa hangisinin atılacağına karar vermek için öteki cümlelere bak: III ve IV, V’in yanında durur; II ise tek başına kalır.
 
-Sık yapılan hata: Akışı bozan cümleyi konuyla tümüyle ilgisiz sanmak. Bozucu cümle çoğu zaman metindeki bir sözcüğe tutunur; onu ele veren, düşünce zincirine bağlanmamasıdır. Cevap A.` },
+Sık yapılan hata: Akışı bozan cümleyi yalnızca konu dışı bir bilgide aramak. Konuyla ilgili görünen ama paragrafın düşüncesine ters düşen bir cümle de akışı bozar. Cevap A.` },
 
 { id: "tur-pa-3076", kazanim: "T.8.3.19", kademe: 0, zorluk: 3,
-  soru: `Bir kitabı okur, rafa geri koyarız; bir oyuncağı ise çocuk birkaç ay oynar, sonra dolabın köşesinde unutur. Oyuncağın dayandığı süre, ilgi çektiği süreden çok daha uzundur. Bazı belediyeler ve okullar bu yüzden oyuncak kütüphaneleri kuruyor. Aileler kullanılmayan sağlam oyuncakları getiriyor; isteyen çocuk bunlardan birini birkaç haftalığına alıp evine götürüyor, süresi dolunca geri bırakıyor. Kayıt için istenen tek şey, çocuğun adının yazılı olduğu küçük bir karttır. Böylece tek bir dolapta bekleyecek bir oyuncak, sırayla onlarca çocuğa ulaşıyor. Kütüphaneyi işleten görevliler geri gelen her oyuncağı denetliyor; kırık ya da eksik olan onarılmadan yeniden verilmiyor. Süresi dolan oyuncağı geri götürmek, çocuklara sıranın nasıl işlediğini de öğretiyor.
+  soru: `Bir kitabı okur, rafa geri koyarız; bir oyuncakla ise çocuk birkaç ay oynar, sonra onu dolabın köşesinde unutur. Oyuncağın dayandığı süre, ilgi çektiği süreden çok daha uzundur. Bazı belediyeler ve okullar bu yüzden oyuncak kütüphaneleri kuruyor. Aileler kullanılmayan sağlam oyuncakları getiriyor; isteyen çocuk bunlardan birini birkaç haftalığına alıp evine götürüyor, süresi dolunca geri bırakıyor. Kayıt için istenen tek şey, çocuğun adının yazılı olduğu küçük bir karttır. Böylece tek bir dolapta bekleyecek bir oyuncak, sırayla onlarca çocuğa ulaşıyor. Kütüphaneyi işleten görevliler geri gelen her oyuncağı denetliyor; kırık ya da eksik olan onarılmadan yeniden verilmiyor. Süresi dolan oyuncağı geri götürmek, çocuklara sıranın nasıl işlediğini de öğretiyor.
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
   gorsel: null,
@@ -432,7 +432,7 @@ Sık yapılan hata: Akışı bozan cümleyi konuyla tümüyle ilgisiz sanmak. Bo
   dogru: 2,
   hatalar: [
     "**Kısmen doğru**: İlk iki cümlenin konusu gerçekten budur; ama o cümleler parçanın girişidir, kendisi değil. Başlık girişi değil bütünü karşılar.",
-    "**Metinde var ama ilgisiz**: Görevlilerin denetimi altıncı cümlede geçen bir ayrıntıdır; parçanın tamamı onların çalışmasını anlatmaz.",
+    "**Metinde var ama ilgisiz**: Görevlilerin denetimi yedinci cümlede geçen bir ayrıntıdır; parçanın tamamı onların çalışmasını anlatmaz.",
     null,
     "**Ters yön**: Parça tam tersini anlatıyor: Bir oyuncağın tek bir dolapta beklemesini değil, sırayla onlarca çocuğa ulaşmasını konu ediniyor."
   ],
@@ -444,10 +444,12 @@ Adım 3: Bu düzeni tek ifadede topla: Ödünç alınıp geri verilen oyuncaklar
 
 En güçlü çeldirici A. Parçanın ilk iki cümlesi gerçekten ilginin kısa sürmesinden söz eder ve akılda kalır. Ama o cümleler sorunu kuran giriştir; parçanın geri kalanı çözümü anlatır. Başlığı girişe göre seçersen metnin yarısı başlığın dışında kalır.
 
-Sağlama: Seçtiğin başlığı test etmek için “Hangi cümle bu başlığın dışında kalıyor?” diye sor. C’de dışarıda kalan cümle yoktur. Cevap C.` },
+Sağlama: Seçtiğin başlığı test etmek için “Hangi cümle bu başlığın dışında kalıyor?” diye sor. C’de dışarıda kalan cümle yoktur.
+
+Sık yapılan hata: Başlığı parçanın ilk cümlelerinden seçmek. Giriş cümleleri çoğu zaman yalnızca sorunu kurar; başlık, parçanın asıl anlattığı düzeni karşılamalıdır. Cevap C.` },
 
 { id: "tur-pa-3077", kazanim: "T.8.3.11", kademe: 0, zorluk: 3,
-  soru: `Mangala, karşılıklı iki sıra hâlinde dizilmiş kuyulardan ve her oyuncunun kendi tarafındaki bir hazineden oluşan bir tahtada oynanır. Oyuncu sırası geldiğinde kendi tarafındaki kuyulardan birini seçer, içindeki taşları avucuna alır ve ilerledikçe her kuyuya birer taş bırakır. Yolu üzerinde kendi hazinesine uğrarsa oraya da bir taş koyar; rakibin hazinesini ise atlar, oraya taş bırakmaz. Son taşın hangi kuyuya düştüğü, o hamlede kaç taş kazanılacağını belirler. Oyun, taraflardan birinin kuyuları boşalınca sona erer; hazinesinde daha çok taş bulunan oyuncu kazanır. Görüldüğü gibi oyunda zar yoktur; her hamlenin sonucu, oyuncunun önceden sayarak yaptığı seçime bağlıdır.
+  soru: `Mangala, karşılıklı iki sıra hâlinde dizilmiş kuyulardan ve her oyuncunun kendi tarafındaki bir hazineden oluşan bir tahtada oynanır. Oyuncu sırası geldiğinde kendi tarafındaki kuyulardan birini seçer, içindeki taşların tamamını avucuna alır; bir taşı aldığı kuyuya bırakır, kalanları saatin tersi yönünde ilerleyerek her kuyuya birer birer dağıtır. Yolu üzerinde kendi hazinesine uğrarsa oraya da bir taş koyar; rakibin hazinesini ise atlar, oraya taş bırakmaz. Son taşın hangi kuyuya düştüğü, o hamlede kaç taş kazanılacağını belirler. Oyun, taraflardan birinin kuyuları boşalınca sona erer; hazinesinde daha çok taş bulunan oyuncu kazanır. Görüldüğü gibi oyunda zar yoktur; her hamlenin sonucu, oyuncunun önceden sayarak yaptığı seçime bağlıdır.
 
 **Bu parçanın anlatımıyla ilgili olarak aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
@@ -466,11 +468,11 @@ Sağlama: Seçtiğin başlığı test etmek için “Hangi cümle bu başlığı
   ],
   aciklama: `Anlatım biçimini bulmak için metnin amacını sor: Yazar olay mı anlatıyor, görüntü mü çiziyor, bilgi mi veriyor, görüş mü savunuyor?
 
-Adım 1: Yüklemlere bak: “oynanır”, “seçer”, “bırakır”, “koyar”, “belirler”, “sona erer”. Hepsi geniş zaman. Geniş zaman, bir kez olan bir olayı değil, her seferinde olanı anlatır.
-Adım 2: Cümlelerin sırasına bak: Tahta tanıtılıyor, hamle anlatılıyor, hazine kuralı veriliyor, oyunun bitişi ve kazananı söyleniyor. Bilinmeyen bir konu, işleyişi basamak basamak öğretilerek tanıtılıyor. Buna açıklayıcı anlatım denir.
+Adım 1: Yüklemlere bak: “oynanır”, “seçer”, “alır”, “bırakır”, “dağıtır”, “koyar”, “belirler”, “sona erer”. Hepsi geniş zaman. Geniş zaman, bir kez olan bir olayı değil, her seferinde olanı anlatır.
+Adım 2: Cümlelerin sırasına bak: Tahta tanıtılıyor, hamle basamak basamak anlatılıyor (taşları al, birini aynı kuyuya bırak, kalanları dağıt), hazine kuralı veriliyor, oyunun bitişi ve kazananı söyleniyor. Bilinmeyen bir konu, işleyişi basamak basamak öğretilerek tanıtılıyor. Buna açıklayıcı anlatım denir.
 Adım 3: Öteki biçimleri ele. Bir kez yaşanmış olay yok, görüntü çizilmiyor, görüş savunulmuyor.
 
-En güçlü çeldirici A. “Sırası geldiğinde”, “ilerledikçe”, “sona erer” gibi sözler bir olayın akıp gittiği izlenimi verir. Ama öykülemede olaylar bir defaya özgüdür ve geçmiş zamanla anlatılır; burada anlatılan, her oyunda yeniden yaşanan kurallardır.
+En güçlü çeldirici A. “Sırası geldiğinde”, “ilerleyerek”, “sona erer” gibi sözler bir olayın akıp gittiği izlenimi verir. Ama öykülemede olaylar bir defaya özgüdür ve geçmiş zamanla anlatılır; burada anlatılan, her oyunda yeniden yaşanan kurallardır.
 
 Sık yapılan hata: Metinde sıralama gördüğünde öyküleme demek. “Bu bir kez mi oldu, her seferinde mi oluyor?” diye sor. Cevap B.` },
 
@@ -539,7 +541,7 @@ Sık yapılan hata: Metnin giriş bölümündeki olayı, metnin sonucu sanmak. S
 { id: "tur-pa-3080", kazanim: "T.8.3.18", kademe: 0, zorluk: 4,
   soru: `Kazılarda ortaya çıkarılan küçük buluntular arasında pişmiş topraktan yapılmış hayvan biçimli figürler, içi boş ve içine taş doldurulmuş çıngıraklar, altına tekerlek takılmış küçük arabalar vardır. Bunların bir bölümü adak ya da süs eşyası olarak yapılmış olabilir; ancak yüzeylerindeki aşınma izleri, birçoğunun uzun süre elden ele dolaştığını düşündürür.
 
-Oyuncak müzelerinde bu buluntuların yanına çok daha yeni örnekler konur: Bez bebekler, teneke trenler, tahta atlar, plastik askerler, pilli robotlar. Vitrin boyunca yürüyen kişi önce malzemenin değiştiğini fark eder; toprak yerini bez ve tahtaya, tahta da teneke ve plastiğe bırakmıştır. Daha dikkatli bakan biri ise ikinci bir şeyi görür: Bu nesnelerin yaptığı iş değişmemiştir. Her biri ya bir sesi ya bir hareketi ya da bir canlıyı küçültüp çocuğun avucuna verir. Tekerlekli toprak arabayla pilli robot arasındaki mesafe yüzyıllarla ölçülür; buna karşılık ikisinin de çocuğun elinde gördüğü iş aynıdır. Müze rehberleri bu yüzden çocuklara önce en eski vitrini gösterir; oradaki çıngırağın ne işe yaradığını kimsenin açıklamasına gerek kalmaz.
+Oyuncak müzelerinde bu buluntuların yanına çok daha yeni örnekler konur: Kamış düdükler, ipli tahta kuklalar, kurmalı teneke kuşlar, plastik hayvan figürleri, uzaktan kumandalı arabalar. Vitrin boyunca yürüyen kişi önce malzemenin değiştiğini fark eder; toprağın yerini önce kamış ve tahta, sonra teneke, en sonunda da plastik alır. Daha dikkatli bakan biri ise ikinci bir şeyi görür: Bu nesnelerin yaptığı iş değişmemiştir. Her biri ya bir sesi ya bir hareketi ya da bir canlıyı küçültüp çocuğun avucuna verir. Tekerlekli toprak arabayla uzaktan kumandalı araba arasındaki mesafe yüzyıllarla ölçülür; buna karşılık ikisinin de çocuğun elinde gördüğü iş aynıdır. Müze rehberleri bu yüzden çocuklara önce en eski vitrini gösterir; oradaki çıngırağın ne işe yaradığını kimsenin açıklamasına gerek kalmaz.
 
 **Bu parçada aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
@@ -552,14 +554,14 @@ Oyuncak müzelerinde bu buluntuların yanına çok daha yeni örnekler konur: Be
   dogru: 3,
   hatalar: [
     "**Metinde var ama ilgisiz**: Birinci paragrafta “adak ya da süs eşyası olarak yapılmış olabilir” deniyor; bu da oyuncak dışı bir amaçtır.",
-    "**Metinde var ama ilgisiz**: İkinci paragrafta malzemenin sırası veriliyor: Toprak, bez ve tahtaya; tahta da teneke ve plastiğe bırakmıştır.",
+    "**Metinde var ama ilgisiz**: İkinci paragrafta malzemenin sırası veriliyor: Toprağın yerini önce kamış ve tahta, sonra teneke, en sonunda da plastik alır.",
     "**Kısmen doğru**: Aşınma izleri birinci paragrafta geçiyor ve metin bunu temkinli bir dille (“düşündürür”) veriyor; şık da aynı temkinli sınırın içinde kalıyor.",
     null
   ],
   aciklama: `“Söylenemez” sorularında üç şık metinden desteklenir, biri desteklenmez ya da metne aykırıdır. Her şıkkın karşılığını paragraflarda ara.
 
 Adım 1: A’yı ara. Birinci paragraf, buluntuların bir bölümünün adak ya da süs eşyası olabileceğini söylüyor. Söylenebilir.
-Adım 2: B’yi ara. İkinci paragrafta malzeme zinciri veriliyor. Söylenebilir.
+Adım 2: B’yi ara. İkinci paragrafta malzeme zinciri veriliyor: toprak, kamış ve tahta, teneke, plastik. Söylenebilir.
 Adım 3: C’yi ara. Aşınma izleri ve “uzun süre elden ele dolaştığını düşündürür” ifadesi birinci paragrafta var. Söylenebilir.
 Adım 4: D’yi ara. Son cümle tam tersini söylüyor: Rehberler en eski vitrini önce gösterir, sona bırakmaz.
 

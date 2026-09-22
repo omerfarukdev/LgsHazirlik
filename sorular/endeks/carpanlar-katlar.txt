@@ -57,14 +57,14 @@ mat-ck-120 | M.8.1.1.1 | z2 | k1 | Bir matematik dergisindeki bulmacada bir say�
 mat-ck-121 | M.8.1.1.3 | z2 | k1 | Bir matematik öğretmeni tahtaya 24 ve 36 sayılarını yazmış ve öğrencilerden şunu istemiştir: "Bu iki sayıyı aynı doğal sayıya böl… | ✓12
 mat-ck-122 | M.8.1.1.2 | z2 | k1 | Bir hediyelik eşya mağazasının deposunda yüksekliği 12 cm olan kutularla yüksekliği 18 cm olan kutular bulunmaktadır. Vitrine, ya… | ✓5
 mat-ck-123 | M.8.1.1.2 | z2 | k1 | Bir okulun kermesinde 63 bardak limonata ve 84 adet sandviç ziyaretçilere ikram edilecektir. Her ziyaretçiye eşit sayıda limonata… | ✓21
-mat-ck-124 | M.8.1.1.2 | z2 | k1 | Ada ile Bora, kumsalda aynı noktadan aynı yöne doğru düz bir çizgide yürümeye başlamıştır. Ada'nın bir adımı 36 cm, Bora'nın bir … | ✓144
+mat-ck-124 | M.8.1.1.2 | z2 | k1 | Bir kafe, açılış gününde müşterilerine aşağıdaki afişte yazan ikram kampanyasını uygulamıştır. O gün kafeye gelen müşteriler, gel… | ✓200
 mat-ck-125 | M.8.1.1.3 | z2 | k1 | Bir sınıf etkinliğinde üzerinde 6, 10, 21 ve 25 yazan dört taş vardır. Oyunun kuralına göre iki taş, ancak üzerlerindeki sayılar … | ✓3
 mat-ck-213 | M.8.1.1.1 | z2 | k2 | Ada bir sayı tutmuş ve arkadaşlarına ipucu olarak bu sayının asal çarpanlarına ayrılmış biçimini söylemiştir: 2^{2} · 3 · 5. Buna… | ✓6
 mat-ck-214 | M.8.1.1.1 | z2 | k2 | Bir matematik kulübü, çalıştığı sayıları aşağıdaki tabloya işlemektedir. Tabloda her sayının yanına asal çarpanlarına ayrılmış bi… | ✓200
 mat-ck-215 | M.8.1.1.2 | z2 | k2 | Bir parkın 100 metre uzunluğundaki düz yürüyüş yolunun kenarına, başlangıç noktasından itibaren her 6 metrede bir aydınlatma dire… | ✓5
 mat-ck-216 | M.8.1.1.2 | z2 | k2 | Bir atölyede üretilen 90 mavi ve 150 beyaz düğme, birbirinin aynısı kartonlara dikilecektir. Her kartonda eşit sayıda mavi, eşit … | ✓2
 mat-ck-217 | M.8.1.1.3 | z2 | k2 | Bir matematik yarışmasının hızlı turunda yarışmacılara şu soru sorulmuştur: "42 ile aralarında asal olan iki basamaklı doğal sayı… | ✓97
-mat-ck-218 | M.8.1.1.1 | z2 | k2 | Bir bilim merkezinde ziyaretçilere giriş numarası verilmektedir. Sistem, her ziyaretçinin gideceği salonu şu kuralla belirlemekte… | ✓11
+mat-ck-218 | M.8.1.1.1 | z2 | k2 | Bir ilçedeki okullar arası voleybol turnuvasına 96 takım katılmıştır. Eleme turlarında takımlar ikişerli eşleşmekte ve her maçı k… | ✓3
 mat-ck-219 | M.8.1.1.2 | z2 | k2 | Aşağıdaki şemada A ve B doğal sayılarının asal çarpanları gösterilmiştir. Ortadaki bölgede yazan çarpanlar iki sayıda da bulunmak… | ✓420
 mat-ck-220 | M.8.1.1.1 | z3 | k2 | Bir televizyon yarışmasının "Çarpanlara Ayır" bölümünde yarışmacıya bir sayı verilir. Yarışmacı bu sayıyı, ikisi de 1'den büyük i… | ✓20
 mat-ck-221 | M.8.1.1.1 | z3 | k2 | Bir takı atölyesinde 300 boncuk vardır. Boncukların tamamı, her dizide eşit sayıda boncuk bulunacak ve hiç boncuk artmayacak biçi… | ✓75
@@ -78,13 +78,13 @@ mat-ck-315 | M.8.1.1.2 | z3 | k3 | Bir anaokulunda 15 çocuk vardır. Öğretmen
 mat-ck-316 | M.8.1.1.1 | z3 | k3 | Bir tiyatro salonundaki 128 koltuk, eşit sayıda koltuk içeren bloklara ayrılmıştır. Salonun krokisi aşağıda verilmiştir. Bir blok… | ✓8
 mat-ck-317 | M.8.1.1.3 | z3 | k3 | Bir okul kermesinde çekiliş yapılacaktır. Her bilete iki basamaklı bir numara verilmiştir ve hiçbir numara tekrar etmemektedir. K… | ✓3
 mat-ck-318 | M.8.1.1.2 | z3 | k3 | Bir hırdavatçıda vidalar ve dübeller yalnızca kutu hâlinde satılmaktadır. Kutulardaki ürün sayıları aşağıdaki tabloda verilmiştir… | ✓216
-mat-ck-319 | M.8.1.1.1 | z3 | k3 | Bir okul korosunda 187 şarkıcı vardır. Şarkıcılar, her sırada eşit sayıda olacak biçimde sıralar hâlinde sahneye çıkacaktır. Koro… | ✓17
+mat-ck-319 | M.8.1.1.1 | z3 | k3 | Mert ile Ela, dört zarla oynanan bir tahmin oyunu oynamaktadır. Zarların yüzlerinde 1'den 6'ya kadar sayılar vardır. Sırası gelen… | ✓16
 mat-ck-320 | M.8.1.1.2 | z3 | k3 | Bir kitap fuarında A yayınevinin standı 16 dakikada bir, B yayınevinin standı 24 dakikada bir okurlara hediye dağıtmaktadır. Fuar… | ✓2
 mat-ck-321 | M.8.1.1.2 | z4 | k3 | Bir okulun kitap bağışı kampanyasında 8. sınıflar 168, 7. sınıflar 252 kitap toplamıştır. Kitaplar kolilenirken şu kurallara uyul… | ✓14
-mat-ck-322 | M.8.1.1.2 | z4 | k3 | Bir bilim şenliğine iki okul katılmaktadır. A okulundan 84 öğrenci gelmiştir; B okulundan gelen öğrenci sayısı ise 100'den çok, 1… | ✓112
+mat-ck-322 | M.8.1.1.2 | z4 | k3 | Selin, 60 gün süren bir yaz kampına katılmıştır. Kampın günleri 1'den 60'a kadar numaralanmıştır ve kamp programı 60. gün de eksi… | ✓3
 mat-ck-323 | M.8.1.1.3 | z4 | k3 | Bir animasyon programında iki hareket döngüsü aynı anda başlatılıp sürekli tekrar ettirilmektedir. Birinci döngü 45 kare, ikinci … | ✓47
 mat-ck-324 | M.8.1.1.1 | z4 | k3 | Bir okulun geri dönüşüm kulübü topladığı plastik kapakları sayamamış, ancak elindeki kayıtlardan aşağıdaki panoda yazan üç bilgiy… | ✓108
-mat-ck-325 | M.8.1.1.3 | z4 | k3 | Bir yazılım dersinde Deniz, girilen iki doğal sayının en küçük ortak katını (EKOK) ekrana yazan bir program hazırlamıştır. Ders s… | ✓1
+mat-ck-325 | M.8.1.1.3 | z4 | k3 | Nehir'in dedesinden kalma ahşap bir akıl oyununda 3 satır ve 4 sütundan oluşan bir ızgara vardır. Her satırın ve her sütunun başı… | ✓21
 mat-ck-013 | M.8.1.1.2 | z2 | k0 | Bir arıcı, hasat ettiği balı kavanozlara doldurmuş ve şu an elinde 98 kavanoz bal birikmiştir. Arıcının kullandığı iki koli türü … | ✓22
 mat-ck-014 | M.8.1.1.2 | z4 | k0 | Bir çiçekçinin deposunda, sabah halden aldığı laleler durmaktadır. Çiçekçi bu lalelerin tamamını buketler hâlinde bağlayıp vitrin… | ✓4
 mat-ck-015 | M.8.1.1.1 | z4 | k0 | Bir yazılım ekibi, uzun süredir üzerinde çalıştığı mobil oyunu yayımlamaya hazırlanmaktadır. Oyunun toplam 180 bölümü vardır ve b… | ✓9

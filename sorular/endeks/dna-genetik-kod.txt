@@ -52,7 +52,7 @@ fen-dn-115 | F.8.2.1.2 | z1 | k1 | Görselde bir DNA modelinin düzleştirilerek
 fen-dn-116 | F.8.2.1.3 | z1 | k1 | Fen dersinde öğretmen, bir hücrede DNA'nın kendini eşlemesinin ne zaman gerekli olduğunu sormuştur. Buna göre DNA'nın kendini eşl… | ✓Hücre bölünmeye hazırlanırken
 fen-dn-117 | F.8.2.1.1 | z1 | k1 | Bir öğrenci mikroskopta incelediği hayvan hücresini defterine çizmiş ve kalıtsal bilgiyi taşıyan molekülün hücrenin neresinde bul… | ✓Çekirdekte
 fen-dn-118 | F.8.2.1.2 | z1 | k1 | Aşağıda DNA'nın yapısıyla ilgili dört ifade verilmiştir. Buna göre bu ifadelerden hangisi yanlıştır? | ✓Bütün basamaklarında aynı çeşit organik baz …
-fen-dn-119 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, hücredeki kalıtsal yapıları okul kütüphanesindeki kitaplara benzeterek tablodaki eşleştirmeyi yapmıştır. Tabloda bir… | ✓Gen
+fen-dn-119 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, hücredeki kalıtsal yapıları okul kütüphanesindeki bir hikâye kitabına benzeterek tablodaki eşleştirmeyi yapmıştır. B… | ✓X: DNA — Y: Gen
 fen-dn-120 | F.8.2.1.3 | z2 | k1 | Görselde, kendini eşlemekte olan bir DNA molekülünün açılmış bölümü verilmiştir. Açıkta kalan eski zincirdeki bazların karşısına,… | ✓Yeni zincire gelecek nükleotidlerin sırasını…
 fen-dn-121 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, DNA'nın yapı birimlerini tanıtmak için görseldeki dört kartı hazırlamıştır. Kartların hepsinde aynı biçimde birer fo… | ✓I ve II
 fen-dn-122 | F.8.2.1.1 | z2 | k1 | Görselde bir süs bitkisinin DNA molekülünün bir bölümü ile bu bölüm üzerinde yer alan üç gen ve bu genlerin belirlediği özellikle… | ✓I ve III
@@ -72,19 +72,19 @@ fen-dn-222 | F.8.2.1.3 | z3 | k2 | Bir öğrenci, DNA'nın kendini eşlemesini d
 fen-dn-223 | F.8.2.1.3 | z3 | k2 | Bir tarım laboratuvarında, bir muz bitkisinin gövdesinden alınan küçük bir doku parçası görseldeki gibi özel besin ortamına konul… | ✓II ve III
 fen-dn-224 | F.8.2.1.3 | z3 | k2 | Bir araştırmacı, bölünmeye hazırlanan bir hücrede DNA miktarının zamana göre nasıl değiştiğini ölçmüş ve grafiği çizmiştir. Buna … | ✓I ve II
 fen-dn-225 | F.8.2.1.3 | z3 | k2 | Bir hücrede DNA'nın kendini eşlemesi tamamlanmış, ancak hücre henüz bölünmemiştir. Buna göre bu hücreyle ilgili aşağıdakilerden h… | ✓Hücredeki kalıtsal bilginin iki kopyası bulu…
-fen-dn-313 | F.8.2.1.3 | z3 | k3 | Bir doktor, hastasına kemik iliğinde her gün milyonlarca yeni kan hücresi üretildiğini, bu üretimin var olan hücrelerin art arda … | ✓II ve III
-fen-dn-314 | F.8.2.1.3 | z3 | k3 | Bir balık çiftliğinde döllenmiş alabalık yumurtaları özel havuzlarda tutulmaktadır. Çiftlik görevlisi, yumurtanın içindeki tek hü… | ✓Yalnız I
+fen-dn-313 | F.8.2.1.3 | z3 | k3 | Fen dersinde DNA'nın kendini eşlemesi kartlarla canlandırılmaktadır. Tahtaya, birbirinden ayrılmış iki eski zincir görseldeki gib… | ✓I ve III
+fen-dn-314 | F.8.2.1.3 | z3 | k3 | Bir balık çiftliğinde, döllenmiş alabalık yumurtalarındaki tek hücrenin art arda bölünmesiyle gelişen yavrular büyütülmektedir. B… | ✓Yavrunun bütün hücreleri, eşlenen aynı DNA'n…
 fen-dn-315 | F.8.2.1.3 | z3 | k3 | Bir öğrenci, ılık şekerli suya ekmek mayası ekleyip karışımdan belirli aralıklarla örnek almış ve mikroskopta saydığı maya hücres… | ✓I, II ve III
 fen-dn-316 | F.8.2.1.2 | z3 | k3 | Bir okulun bilim şenliğinde görseldeki DNA maketi sergilenmiştir. Maketi inceleyen üç öğrenci şu yorumları yapmıştır: I. Maketin … | ✓I ve III
 fen-dn-317 | F.8.2.1.2 | z3 | k3 | Bir laboratuvarda, içinde DNA bulunan bir çözelti yavaş yavaş ısıtılmış, sonra yeniden yavaşça soğutulmuştur. Bu sırada yapılan g… | ✓I ve III
-fen-dn-318 | F.8.2.1.1 | z3 | k3 | Üç öğrenci, bir nükleotidin bölümlerinin nasıl bağlandığını göstermek için görseldeki şemaları çizmiştir. Şemalarda kutuların içi… | ✓Yalnız K
+fen-dn-318 | F.8.2.1.1 | z3 | k3 | Dört öğrenci, DNA'nın yapı birimi olan nükleotidi tanıtmak için görseldeki şemaları çizmiştir. Şemalarda kutuların içine bölümler… | ✓K
 fen-dn-319 | F.8.2.1.3 | z3 | k3 | Bir araştırmacı, bir fasulye bitkisinin kök ucundan aldığı hücreleri iki eşit gruba ayırmıştır. K grubundaki hücreleri bölünmeyi … | ✓I ve II
-fen-dn-320 | F.8.2.1.2 | z3 | k3 | Bir öğrenci, üç DNA örneğinin (K, L, M) karşılıklı zincirlerindeki bazları tabloya yazmıştır. Öğretmeni, örneklerden yalnızca bir… | ✓Yalnız L
+fen-dn-320 | F.8.2.1.2 | z3 | k3 | Bir öğrenci, üç DNA bölümünün (K, L, M) karşılıklı zincirlerindeki bazları tabloya yazmıştır. Tabloda iki zincirde aynı sırada ya… | ✓Yalnız L
 fen-dn-321 | F.8.2.1.3 | z4 | k3 | Bir öğrenci, DNA'nın kendini eşlemesini şöyle anlatmıştır: "Eşlenme, bir fotokopi makinesinin kitabı çoğaltmasına benzer. Makiney… | ✓Eşlenme sonunda oluşan iki DNA'nın her birin…
 fen-dn-322 | F.8.2.1.3 | z4 | k3 | Bir araştırmacı, hücre bölünmesini incelediği çalışmasında DNA eşlenmesini engelleyen bir madde kullanmıştır. Bu maddenin verildi… | ✓I ve III
 fen-dn-323 | F.8.2.1.3 | z4 | k3 | Görselde bir DNA molekülünün kendini eşlemesi verilmiştir. Eşlenmeden önceki molekülün zincirleri 1 ve 2 numaralarıyla, eşlenme s… | ✓I ve II
 fen-dn-324 | F.8.2.1.1 | z4 | k3 | Bir çam fidanının tomurcuğundaki bir hücre bölünerek iki yeni hücre oluşturmuştur. Bir araştırmacı, oluşan hücrelerden birinin çe… | ✓I ve II
 fen-dn-325 | F.8.2.1.2 | z4 | k3 | Bir öğrenci, dört basamaklı bir DNA bölümünü çizmeye başlamış ama bazı bazları henüz yazmamıştır. Öğrencinin çizimindeki yazılmış… | ✓1. basamakta adeninin karşısında sitozin bul…
 fen-dn-013 | F.8.2.1.2 | z2 | k0 | Bir DNA molekülünün iki zinciri, aralarında basamaklar oluşturacak biçimde karşı karşıya durur. Buna göre bu iki zinciri bir arad… | ✓Karşılıklı gelen organik bazların eşleşmesi
-fen-dn-014 | F.8.2.1.1 | z3 | k0 | Bir hücrenin çekirdeğinden alınan bir DNA molekülü incelenmektedir. Buna göre bu molekülle ilgili; I. Üzerinde çok sayıda gen bul… | ✓I, II ve III
+fen-dn-014 | F.8.2.1.1 | z3 | k0 | Bir öğrenci, pazarda sarı ve mor taneli mısır koçanları görmüş, tane renginin genlerle belirlendiğini öğrenmiştir. Konuyu araştır… | ✓I ve III
 fen-dn-015 | F.8.2.1.1 | z4 | k0 | Bir araştırmacı, bir canlının iki ayrı hücresinden aldığı DNA örneklerini incelemiş ve bazların dizilim sırasının iki örnekte de … | ✓Taşıdıkları genler birbirinin aynısıdır.

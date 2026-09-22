@@ -2,19 +2,19 @@
 window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
 { id: "tur-pa-3001", kazanim: "T.8.3.16", kademe: 0, zorluk: 1,
-  soru: `Müzeye giren her eşyaya, daha rafa yerleşmeden bir numara verilir. Bu numara eşyanın hangi yıl, hangi yolla geldiğini ve kaçıncı sırada kaydedildiğini gösterir. Aynı numara hem eserin üzerine zarar vermeyecek bir yöntemle yazılır hem de deftere işlenir. Böylece binlerce parça arasında aranan eser, adı unutulsa bile numarasıyla bulunur.
+  soru: `Müzeye giren her esere, daha rafa yerleştirilmeden bir numara verilir. Bu numara eserin hangi yıl, hangi yolla geldiğini ve kaçıncı sırada kaydedildiğini gösterir. Aynı numara hem eserin üzerine zarar vermeyecek bir yöntemle yazılır hem de deftere işlenir. Böylece binlerce eser arasında aranan bir tanesi, adı unutulsa bile numarasıyla bulunur.
 
 **Bu parçanın konusu aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: ["Müze deposunda rafların düzenlenmesi", "Müzeye giren esere numara verilmesi", "Eser üzerine yazı yazmanın sakıncaları", "Müzedeki eser sayısının hızla artması"],
   dogru: 1,
-  hatalar: ["metinde var ama ilgisiz: “Raf” sözcüğü ilk cümlede geçiyor; ama parça rafların düzeninden değil, numaralamadan söz ediyor.", null, "ters yön: Metin yazmanın sakıncasını değil, yönteminin nasıl seçildiğini anlatıyor; numara zarar vermeyecek biçimde yazılıyor.", "metinde var ama ilgisiz: “Binlerce parça” sözü müzedeki çokluğu göstermek için kullanılmış; parçada eser sayısının arttığı söylenmiyor."],
+  hatalar: ["metinde var ama ilgisiz: “Raf” sözcüğü ilk cümlede geçiyor; ama parça rafların düzeninden değil, numaralamadan söz ediyor.", null, "ters yön: Metin yazmanın sakıncasını değil, yönteminin nasıl seçildiğini anlatıyor; numara zarar vermeyecek biçimde yazılıyor.", "metinde var ama ilgisiz: “Binlerce eser” sözü müzedeki çokluğu göstermek için kullanılmış; parçada eser sayısının arttığı söylenmiyor."],
   aciklama: `Konu, “Bu parçada ne anlatılıyor?” sorusunun karşılığıdır. Bütün cümlelerin ortak paydasıdır.
 
 Adım 1: Cümleleri tek tek çıkar. Birinci cümle numaranın ne zaman verildiğini, ikinci cümle neyi gösterdiğini, üçüncü cümle nereye yazıldığını, dördüncü cümle ne işe yaradığını söylüyor.
-Adım 2: Dört cümlenin de öznesi aynı: müzeye giren esere verilen numara.
+Adım 2: Dört cümlenin de etrafında döndüğü şey aynı: müzeye giren esere verilen numara. B bu ortak noktayı tam olarak karşılıyor.
 
-En güçlü çeldirici A. “Raf” sözcüğü metnin ilk cümlesinde gerçekten geçer; ama orada anlatılan şey rafların düzeni değildir.
+En güçlü çeldirici A. “Raf” sözcüğü metnin ilk cümlesinde gerçekten geçer; ama yalnızca numaranın ne zaman verildiğini göstermek için anılır, rafların nasıl düzenlendiği anlatılmaz.
 
 Sık yapılan hata: Metinde geçen bir sözcüğü görüp o sözcüğün bulunduğu şıkkı işaretlemek. Konu, tek bir sözcüğün değil, bütün cümlelerin buluştuğu yerdir. Cevap B.` },
 
@@ -36,21 +36,21 @@ En güçlü çeldirici D. Dokunmanın bir şeyi ortaya çıkardığı doğrudur;
 Sık yapılan hata: Ana düşünce ile onu destekleyen örneği karıştırmak. Örnek “neyle anlatıldığı”, ana düşünce “ne anlatıldığı” sorusunun cevabıdır. Cevap C.` },
 
 { id: "tur-pa-3003", kazanim: "T.8.3.18", kademe: 0, zorluk: 2,
-  soru: `Bir müze, koleksiyonundaki eseri başka bir şehirdeki sergiye ödünç verirken yolculuk daha başlamadan bir rapor hazırlanır. Raporda eserin o günkü durumu, çatlağı, lekesi, en küçük çiziği fotoğraflarla yazılır. Eser, kendi ölçüsüne göre yapılmış bir sandığa, titreşimi emen dolgularla yerleştirilir. Sandığın içine, yolculuk boyunca sıcaklığı ve nemi kaydeden küçük bir aygıt konur. Gideceği yere varınca aynı rapor yeniden doldurulur; iki rapor arasındaki fark, yolda bir şey olup olmadığını gösterir.
+  soru: `Bir müze, koleksiyonundaki eseri başka bir şehirdeki sergiye ödünç verirken yolculuk daha başlamadan bir rapor hazırlanır. Raporda eserin o günkü durumu, varsa çatlakları, lekeleri ve en küçük çizikleri fotoğraflarla birlikte kaydedilir. Eser, kendi ölçüsüne göre yapılmış bir sandığa, titreşimi emen dolgularla yerleştirilir. Sandığın içine, yolculuk boyunca sıcaklığı ve nemi kaydeden küçük bir aygıt konur. Gideceği yere varınca aynı rapor yeniden doldurulur; iki rapor arasındaki fark, yolda bir şey olup olmadığını gösterir.
 
 **Bu parçada aşağıdakilerden hangisine __değinilmemiştir__?**`,
   gorsel: null,
-  secenekler: ["Yola çıkmadan önce eserin durumunun kayda geçirildiğine", "Eser için ölçüsüne uygun bir sandık hazırlandığına", "Yol boyunca sıcaklık ve nemin kaydedilip izlendiğine", "Taşıma masrafının ödünç alan müzece karşılandığına"],
+  secenekler: ["Yola çıkmadan önce eserin durumunun kayda geçirildiğine", "Eser için ölçüsüne uygun bir sandık hazırlandığına", "Yol boyunca sıcaklık ve nemin kaydedildiğine", "Taşıma masrafının ödünç alan müzece karşılandığına"],
   dogru: 3,
   hatalar: ["metinde var ama ilgisiz: İlk iki cümle, yolculuk başlamadan durum raporunun hazırlandığını açıkça söylüyor.", "metinde var ama ilgisiz: Üçüncü cümlede sandığın eserin kendi ölçüsüne göre yapıldığı yazıyor.", "metinde var ama ilgisiz: Dördüncü cümlede sandığa sıcaklığı ve nemi kaydeden bir aygıt konduğu belirtiliyor.", null],
   aciklama: `“Değinilmemiştir” sorusunda yöntem tektir: her şıkkı metinde tek tek ara, bulamadığın şık cevaptır.
 
-Adım 1: A’yı ara. Birinci ve ikinci cümlede var: yolculuk başlamadan rapor hazırlanıyor.
-Adım 2: B’yi ara. Üçüncü cümlede var: sandık eserin ölçüsüne göre yapılmış.
-Adım 3: C’yi ara. Dördüncü cümlede var: sıcaklık ve nem kaydediliyor.
-Adım 4: D’yi ara. Parça paradan, masraftan, ödemeden hiç söz etmiyor.
+Adım 1: A’yı ara. Birinci ve ikinci cümlede var: yolculuk başlamadan rapor hazırlanıyor ve eserin durumu fotoğraflarla birlikte kaydediliyor.
+Adım 2: B’yi ara. Üçüncü cümlede var: sandık eserin kendi ölçüsüne göre yapılmış.
+Adım 3: C’yi ara. Dördüncü cümlede var: sandığa, yolculuk boyunca sıcaklığı ve nemi kaydeden bir aygıt konuyor.
+Adım 4: D’yi ara. Parça paradan, masraftan, ödemeden hiç söz etmiyor. Değinilmeyen tek şık budur.
 
-En güçlü çeldirici C. “İzlenmesi” sözcüğü metinde birebir geçmediği için yokmuş gibi görünebilir; oysa “kaydeden bir aygıt” tam olarak bunu anlatır.
+En güçlü çeldirici B. “Hazırlandığı” sözcüğü metinde geçmediği için yokmuş gibi görünebilir; oysa “kendi ölçüsüne göre yapılmış bir sandık” aynı bilgiyi başka sözcüklerle verir.
 
 Sık yapılan hata: Şıkkın sözcüklerini metinde birebir aramak. Metin aynı bilgiyi başka sözcüklerle vermiş olabilir. Cevap D.` },
 
@@ -312,24 +312,23 @@ En güçlü çeldirici B. Aynı kıyıya iki kez gitmeseydi karşılaştıracak 
 Sık yapılan hata: Bir sonuç için gerekli olan her koşulu “sağlayan şey” sanmak. Soru, sonucu ortaya çıkaran adımı istiyor; metin o adımı açıkça söylemişse cevap odur. Cevap A.` },
 
 { id: "tur-pa-3016", kazanim: "T.8.3.16", kademe: 0, zorluk: 3,
-  soru: `Aşağıdaki tabloda bir paragrafı oluşturan cümleler numaralanmış olarak verilmiştir.
+  soru: `(I) Kurutulup kalın kartonlara tutturulmuş bitkilerin saklandığı herbaryumlarda en sinsi tehlikelerden biri, kurumuş yaprakları kemirerek toza çeviren küçük böceklerdir. (II) Bu yüzden pek çok herbaryumda, dışarıdan gelen her karton dolabına konmadan önce birkaç gün dondurucuda bekletilir. (III) Ancak dondurmak tek başına yetmez; dolapların sıkı kapanması ve düzenli aralıklarla açılıp denetlenmesi de gerekir. (IV) Herbaryum, yalnızca kurutulmuş bitkilerin korunduğu bir depo değil, aynı zamanda bir başvuru kitaplığıdır. (V) Arazide adını bilemediği bir bitkiyle karşılaşan araştırmacı, topladığı dalı buraya getirip dolaplardaki örneklerle yan yana koyar. (VI) Bir kitaptaki çizim bitkinin tek bir görünüşünü verir; dolaptaki onlarca örnek ise aynı türün farklı yerlerde ve mevsimlerde aldığı biçimleri gösterir. (VII) Araştırmacı, elindeki dalın bu biçimlerden hangisine uyduğuna bakarak bitkinin türünü belirler.
 
-**Numaralanmış cümlelerden hangisi düşüncenin akışını __bozmaktadır__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Bir müzenin koleksiyonunu çevrim içi yayımlaması, eserlerin fotoğrafını siteye koymakla bitmez.</td></tr><tr><td>II</td><td>Her eserin ölçüsü, malzemesi ve dönemi aynı biçimde yazılmazsa arama kutusu doğru sonuç vermez.</td></tr><tr><td>III</td><td>Müze binalarının çoğu, yapıldıkları dönemin mimari anlayışını yansıtan birer eser sayılır.</td></tr><tr><td>IV</td><td>Bu yüzden fotoğraf çekimi başlamadan önce bütün kayıtlar tek bir yazım düzenine göre gözden geçirilir.</td></tr><tr><td>V</td><td>Düzen kurulduğunda, yıllardır depoda bekleyen bir eser bile birkaç saniyede bulunur hâle gelir.</td></tr></table>`,
-  secenekler: ["II", "III", "IV", "V"],
+**Bu metin iki paragrafa ayrılmak istenirse ikinci paragraf hangi cümleyle başlar?**`,
+  gorsel: null,
+  secenekler: ["III", "IV", "V", "VI"],
   dogru: 1,
-  hatalar: ["kısmen doğru: II, I’deki savın gerekçesidir; kayıtlar aynı biçimde yazılmazsa aramanın işlemeyeceğini söyler.", null, "kısmen doğru: IV, II’deki gerekçeden çıkan işi anlatır; “bu yüzden” bağlayıcısı doğrudan II’ye bağlanır.", "kısmen doğru: V, IV’teki işin sonucunu verir ve paragrafı kapatır."],
-  aciklama: `Akışı bozan cümleyi bulurken cümleleri tek tek değil, aralarındaki bağlarla birlikte oku.
+  hatalar: ["kısmen doğru: “Ancak” sözü düşüncenin yön değiştirdiğini gösterir; ama III yalnızca II’deki önlemin yetmediğini söyler, konu hâlâ bitkileri böceklerden korumaktır.", null, "kısmen doğru: Araştırmacının bitkiyi karşılaştırdığı ilk somut sahne V’te başlar; ama bu sahne IV’teki “başvuru kitaplığı” yargısının örneğidir, “buraya” sözü de V’i IV’e bağlar.", "kısmen doğru: Kitaptaki çizimle dolaptaki örneklerin karşılaştırılması yeni bir düşünce gibi görünür; ama VI, V’teki karşılaştırmanın neden işe yaradığını açıklar, VII de ona “bu biçimler” diye bağlanır."],
+  aciklama: `Bir metni iki paragrafa ayırmak, konunun değiştiği yeri bulmaktır. İkinci paragraf, yeni konuyu ilk kez ortaya koyan cümleyle başlar; ondan sonraki cümleler o konuyu açar.
 
-Adım 1: I savı koyuyor: çevrim içi yayım, fotoğraf koymakla bitmez.
-Adım 2: II gerekçeyi veriyor: kayıtlar aynı biçimde yazılmazsa arama işlemez.
-Adım 3: IV bu gerekçeden çıkan işi söylüyor: kayıtlar tek düzene göre gözden geçirilir. “Bu yüzden” doğrudan II’ye bağlanıyor.
-Adım 4: V sonucu veriyor: depodaki eser birkaç saniyede bulunur.
-Adım 5: III ise müze binalarının kendisinin de eser sayıldığını söylüyor. Doğru bir bilgidir ve müzeyle ilgilidir; ama kayıt düzeni–arama zincirinin dışındadır.
+Adım 1: Birinci cümlenin konusunu belirle: herbaryumdaki kurutulmuş bitkileri böceklerden korumak.
+Adım 2: II ve III’ü bu konuya bağla. II, “Bu yüzden” diyerek I’deki tehlikeye karşı alınan önlemi veriyor. III, “Ancak” diyerek bu önlemin tek başına yetmediğini söylüyor; konu yine koruma.
+Adım 3: IV’te konu değişiyor. Artık bitkilerin nasıl korunduğu değil, herbaryumun ne işe yaradığı anlatılıyor: Herbaryum bir başvuru kitaplığıdır. “Yalnızca bir depo değil” sözü de önceki konudan yeni konuya geçildiğini gösteriyor.
+Adım 4: V, VI ve VII bu yeni konuyu açıyor. V araştırmacının bitkiyi buraya getirdiğini, VI dolaptaki örneklerin neden işe yaradığını, VII de türün nasıl belirlendiğini söylüyor. Üçü de IV’e bağlıdır.
 
-En güçlü çeldirici A. II’de “arama kutusu” gibi somut bir ayrıntı geçtiği için fazladan bir cümle sanılabilir; oysa II çıkarılırsa IV’teki “bu yüzden” havada kalır.
+En güçlü çeldirici C. Araştırmacının göründüğü ilk somut sahne V’te başladığı için yeni paragraf orada açılıyor sanılabilir. Oysa IV’ü birinci paragrafa bırakırsan o paragraf hem böceklerden korunmayı hem başvuru kitaplığını anlatan iki konulu bir paragraf olur.
 
-Sık yapılan hata: Bozan cümleyi konudan tümüyle kopuk sanmak. Burada III de müzeyi anlatıyor; onu ele veren, paragrafın kurduğu neden–sonuç zincirine hiç girmemesidir. Cevap B.` },
+Sık yapılan hata: “Ancak” gibi bir karşıtlık sözü görünce yeni paragrafın orada başladığını sanmak. Karşıtlık sözü düşüncenin yönünü aynı konu içinde değiştirebilir; yeni paragrafı, konunun kendisinin değiştiği cümle açar. Cevap B.` },
 
 { id: "tur-pa-3017", kazanim: "T.8.3.34", kademe: 0, zorluk: 3,
   soru: `Bir yığınla bir koleksiyonu ayıran şey, parçaların çokluğu değildir. Koleksiyon, aralarında bir ölçüt bulunan ve bu ölçüte göre bir arada tutulan nesneler bütünüdür. Çekmecenin dibindeki bir avuç düğme bir yığındır; aynı düğmeler “yalnızca metal olanlar” ölçütüyle seçildiğinde koleksiyon olmaya başlar. Ölçüt bir dönem de olabilir, bir malzeme de, bir yöre de. Ölçüt değiştiğinde aynı nesneler bambaşka bir bütüne dönüşür; metal olanların yerini bir anda kemikten yapılmış olanlar alabilir. Nitekim bir müzenin kendi koleksiyonunu tanıtırken ilk söylediği şey kaç parçası olduğu değil, neyi topladığıdır. Bu yüzden bir koleksiyoncunun ilk işi toplamak değil, neyi topladığına karar vermektir. Ölçütü olmayan bir birikim büyüdükçe kullanılamaz hâle gelirken, ölçütü olan bir koleksiyon büyüdükçe daha çok şey anlatır.
@@ -384,14 +383,14 @@ Sık yapılan hata: Parçadaki en somut olayı amaç sanmak. Anlatıcının amac
 
 **Bu parçadan aşağıdakilerin hangisi __çıkarılamaz__?**`,
   gorsel: null,
-  secenekler: ["Belge zincirindeki bir boşluk, tek başına eserin sahte olduğunu göstermez.", "Üç yöntem içinde en güvenilir sonucu malzeme incelemesi vermektedir.", "Sonradan yapılan bir onarım, boya incelemesinin sonucunu etkileyebilir.", "Müze, emin olamadığı bir tarihi künyeye yazmamayı yeğlemektedir."],
+  secenekler: ["Belge zincirindeki bir boşluk, tek başına eserin sahte olduğunu göstermez.", "Üç yöntem içinde en güvenilir sonucu malzeme incelemesi vermektedir.", "Sonradan yapılan bir onarım, boya incelemesinin sonucunu etkileyebilir.", "Müze, eserin tarihiyle ilgili tartışmayı ziyaretçiyle de paylaşmaktadır."],
   dogru: 1,
-  hatalar: ["metinde var ama ilgisiz: Birinci bölümün son cümlesi bunu açıkça söylüyor: kopukluk tek başına sahtelik kanıtı sayılmaz.", null, "metinde var ama ilgisiz: İkinci bölümde uyumsuz boyanın iki olası açıklaması sıralanıyor; bunlardan biri sonradan yapılan onarımdır.", "metinde var ama ilgisiz: Son bölümde, yönler ayrılınca kesin tarih yerine “tarihi tartışmalı” notunun düşüldüğü yazıyor."],
+  hatalar: ["metinde var ama ilgisiz: Birinci bölümün son cümlesi bunu açıkça söylüyor: kopukluk tek başına sahtelik kanıtı sayılmaz.", null, "metinde var ama ilgisiz: İkinci bölümde uyumsuz boyanın iki olası açıklaması sıralanıyor; bunlardan biri sonradan yapılan onarımdır.", "metinde var ama ilgisiz: Son bölümde “tarihi tartışmalı” notunun tabloyla birlikte sergilendiği, ziyaretçinin de tartışmadan böylece haberdar olduğu yazıyor; bu yargı metinden çıkar."],
   aciklama: `“Çıkarılamaz” sorusunda üç şık metinde vardır ya da metinden zorunlu olarak çıkar; biri ise metnin söylemediği bir yargıdır.
 
 Adım 1: A’yı sına. Birinci bölümün son cümlesi bunu birebir söylüyor. Çıkar.
 Adım 2: C’yi sına. İkinci bölümde, uyumsuz boyanın nedeni olarak sonradan yapılan onarım gösteriliyor. Demek ki onarım, boya incelemesinin sonucunu etkileyebiliyor. Çıkar.
-Adım 3: D’yi sına. Son bölümde müze, yönler ayrıldığında kesin tarih yazmıyor. Çıkar.
+Adım 3: D’yi sına. Son bölümün son cümlesi, “tarihi tartışmalı” notunun tabloyla birlikte sergilendiğini ve ziyaretçinin tartışmadan böylece haberdar olduğunu söylüyor. Demek ki müze tartışmayı gizlemiyor, ziyaretçiyle paylaşıyor. Çıkar.
 Adım 4: B’yi sına. Parça üç yolu sırayla anlatıyor, ama hiçbirini ötekinden üstün tutmuyor. Tersine son bölümde üç yolun birlikte değerlendirildiğini söylüyor. Bu yargı metinde yok.
 
 En güçlü çeldirici C. “Etkileyebilir” sözü metinde geçmediği için uydurma sanılabilir; oysa boyanın tarihiyle tablonun tarihi tutmadığında onarımın olası bir açıklama olarak sayılması tam olarak bunu anlatır.

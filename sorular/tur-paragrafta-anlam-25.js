@@ -90,18 +90,20 @@ Sağlama: Şıklardaki her adı metinde tek tek ara. Aradığını bulamıyorsan
 Sık yapılan hata: Somut örnekleri görüp yalnızca “örneklendirme” demek ve baştaki tanımı atlamak. Soru “hangilerine” diye sorduğu için iki yolu birden bulman gerekir. Cevap B.` },
 
 { id: "tur-pa-3046", kazanim: "T.8.3.19", kademe: 0, zorluk: 2,
-  soru: `Haber güvercini, kendisine gönderildiği yere değil, büyüdüğü kümese uçar. Bu yüzden güvercinci, kuşu haber gelmesini istediği noktaya sepet içinde götürür; kuş oradan bırakıldığında yuvasına, yani güvercincinin yanına döner. Yolculuk tek yönlüdür. Karşılıklı yazışmak isteyen iki taraf, birbirlerinin kümesinde büyümüş kuşları önceden değiş tokuş etmek zorundadır. Güvercinci bu yüzden kümesini yalnızca beslemez; hangi kuşun nerede büyüdüğünü de bilir. Kanadın hızı kadar, bu hazırlık da işin bir parçasıdır.
+  soru: `Haber güvercini, istenen her yere değil, yalnızca büyüdüğü kümese uçar. Bu yüzden güvercinci, kuşu haber gelmesini istediği noktaya sepet içinde götürür; kuş oradan bırakıldığında yuvasına, yani güvercincinin yanına döner. Yolculuk tek yönlüdür. Karşılıklı yazışmak isteyen iki taraf, birbirlerinin kümesinde büyümüş kuşları önceden değiş tokuş etmek zorundadır. Güvercinci bu yüzden kuşlarını yalnızca beslemez; hangi kuşun nerede büyüdüğünü de bilir. Kanadın hızı kadar, bu hazırlık da işin bir parçasıdır.
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: ["Güvercin Kümesinde Günlük Bakım Düzeni", "En Hızlı Kanadı Bulmak İçin Yapılan Yarış", "Haberi İki Yönde Taşıyabilen Kuşlar", "Tek Yöne Uçan Haberin Hazırlığı"],
   dogru: 3,
-  hatalar: ["metinde var ama ilgisiz: Kümes ve besleme son cümlelerde geçiyor; ama parça bakım işini değil, haberin niçin tek yönlü olduğunu anlatıyor.", "metinde var ama ilgisiz: “Kanadın hızı” son cümlede geçiyor; oysa metin hız yarışından değil, hızın tek başına yetmediğinden söz ediyor.", "ters yön: Metin tam tersini söylüyor; kuşun yolculuğu tek yönlüdür, iki yön ancak kuş değiş tokuşuyla sağlanır.", null],
+  hatalar: ["metinde var ama ilgisiz: Kümes ilk cümlede, kuşların beslenmesi beşinci cümlede geçiyor; ama parça bakım işini değil, haberin niçin tek yönlü olduğunu ve bunun gerektirdiği hazırlığı anlatıyor.", "metinde var ama ilgisiz: “Kanadın hızı” son cümlede geçiyor; oysa metin hız yarışından değil, hızın tek başına yetmediğinden söz ediyor.", "ters yön: Metin tam tersini söylüyor; kuşun yolculuğu tek yönlüdür, iki yön ancak kuş değiş tokuşuyla sağlanır.", null],
   aciklama: `Başlık, parçanın tamamını kapsamalı ve konuyu en kısa yoldan söylemelidir. Metinde geçen bir ayrıntıyı başlık yapmak yanlıştır.
 
 Adım 1: Parçanın iskeletini çıkar. (1) Güvercin yalnızca yuvasına uçar. (2) Bu yüzden kuş, haberin çıkacağı noktaya önceden götürülür. (3) Yolculuk tek yönlüdür. (4) Karşılıklı haberleşme için kuşların önceden değiş tokuş edilmesi gerekir.
 Adım 2: Ortak noktayı adlandır. Hepsi “tek yönlülük” ile “bunun gerektirdiği hazırlık” çevresinde dönüyor.
-Adım 3: Şıkları ele. A yalnızca son cümlelere, B tek bir söze dayanıyor; C ise metnin söylediğinin tersi.
+Adım 3: Şıkları ele. A yalnızca kümes ve besleme ayrıntısına, B tek bir söze dayanıyor; C ise metnin söylediğinin tersi.
+
+En güçlü çeldirici C. Metinde “karşılıklı yazışmak” geçtiği için iki yönlü haberleşme anlatılıyor sanılabilir. Oysa metin, kuşun kendisinin yalnızca tek yöne uçtuğunu, iki yönün ancak kuşlar önceden değiş tokuş edilirse sağlandığını söylüyor.
 
 Sağlama: D’yi metnin yerine koy. “Tek Yöne Uçan Haberin Hazırlığı” hem üçüncü cümleyi hem dördüncü cümleyi karşılıyor.
 
@@ -143,23 +145,23 @@ Sağlama: Süreleri küçükten büyüğe diz: 2 (tebligat, 150), 3 (taahhütlü
 Sık yapılan hata: “En çok” ile “en uzun”u aynı satırda varsaymak. Tabloda iki üstünlük aynı satıra düşebilir de düşmeyebilir de; her birini ayrı ayrı bulman gerekir. Cevap C.` },
 
 { id: "tur-pa-3049", kazanim: "T.8.3.18", kademe: 0, zorluk: 2,
-  soru: `On dokuzuncu yüzyılın ikinci yarısında kimi büyük kentlerin altına ince borular döşendi. Mektuplar silindir biçimli kapsüllere konuyor, kapsül basınçlı havayla borunun içinde itiliyordu. Posta merkezleri, borsa salonları ve gazete binaları bu ağa bağlıydı; birkaç kilometrelik yol dakikalarla ölçülüyordu. Kentin sokakları ne kadar sıkışırsa sıkışsın boru aynı hızda çalışıyordu. Telefonun yayılması ve borulardaki bakım yükü artınca bu hatlar yirminci yüzyıl içinde birer birer kapandı.
+  soru: `Sınıfımız bu yıl başka bir ildeki bir ortaokulla mektup arkadaşlığı başlattı. Her birimize oradan bir arkadaş eşleştirildi. Mektuplar tek tek postalanmıyor; öğretmenimiz ayın son haftasında hepsini büyük bir zarfa koyup birlikte yolluyor. Böylece hem posta ücreti azalıyor hem de bütün mektuplar karşı okula aynı gün ulaşıyor. Tek bir kuralımız var: gelen mektuptaki sorulara cevap vermeden yeni bir konu açmamak. Öğretmenimize göre bir yazışmayı sürdüren şey, karşı tarafın sorduklarının cevapsız kalmamasıdır.
 
-**Bu parçada boru hattıyla ilgili aşağıdakilerden hangisine __değinilmemiştir__?**`,
+**Bu parçada mektup arkadaşlığıyla ilgili aşağıdakilerden hangisi söylenmiştir?**`,
   gorsel: null,
-  secenekler: ["Kapsüllerin boru içinde neyle ilerlediğine", "Hangi kurumların bu hatta bağlı olduğuna", "Hatların kapanmasına yol açan nedenlere", "Boruların ilk kez hangi kentte döşendiğine"],
+  secenekler: ["Öğrenciler mektuplarını istedikleri gün ayrı ayrı postalamaktadır.", "Mektuplarda yeni bir konu açılmasına izin verilmemektedir.", "Mektup arkadaşlığı, bütün okullarda aynı kurallarla yürütülür.", "Mektupların birlikte yollanması, posta ücretini azaltmaktadır."],
   dogru: 3,
-  hatalar: ["metinde var ama ilgisiz: İkinci cümle, kapsülün basınçlı havayla itildiğini söylüyor.", "metinde var ama ilgisiz: Üçüncü cümlede posta merkezleri, borsa salonları ve gazete binaları sayılıyor.", "metinde var ama ilgisiz: Son cümle iki neden veriyor: telefonun yayılması ve bakım yükünün artması.", null],
-  aciklama: `Bu tür sorularda şıkları metinde tek tek aramak en güvenli yoldur. Bulduğun şıkkı ele, elde kalan cevaptır.
+  hatalar: ["ters yön: Metin bunun tersini söylüyor; mektuplar tek tek postalanmıyor, öğretmen ayın son haftasında hepsini tek bir zarfta yolluyor.", "kısmen doğru: Kural gerçekten yeni konuyla ilgili; ama bir yasak değil, bir sıra koyuyor. Gelen sorular cevaplandıktan sonra yeni konu açılabilir.", "aşırı genelleme: Metin yalnızca bu sınıfın uygulamasını anlatıyor; başka okulların hangi kurallarla yazıştığı hakkında hiçbir şey söylemiyor.", null],
+  aciklama: `Yardımcı düşünceler, parçanın ana düşüncesini destekleyen ayrıntılardır. Bu tür soruda her şıkkı metindeki cümleyle birebir karşılaştırırsın; metnin söylediğinden fazlasını ya da tersini söyleyen şık elenir.
 
-Adım 1: A’yı ara. “kapsül basınçlı havayla borunun içinde itiliyordu.” Var.
-Adım 2: B’yi ara. “Posta merkezleri, borsa salonları ve gazete binaları bu ağa bağlıydı.” Var.
-Adım 3: C’yi ara. “Telefonun yayılması ve borulardaki bakım yükü artınca… kapandı.” Var.
-Adım 4: D’yi ara. Metinde “kimi büyük kentlerin altına” deniyor; hangi kentin ilk olduğu hiç söylenmiyor. Yok.
+Adım 1: D’yi ara. Dördüncü cümle: “Böylece hem posta ücreti azalıyor…” Buradaki “böylece”, bu yararın mektupların tek zarfta birlikte yollanmasından doğduğunu gösteriyor. D metinde var.
+Adım 2: A’yı sına. Üçüncü cümle “Mektuplar tek tek postalanmıyor” diyor. A bunun tam tersi.
+Adım 3: B’yi sına. Kural, “sorulara cevap vermeden yeni bir konu açmamak”tır. Yani yeni konu yasak değildir; yalnızca sıraya bağlanmıştır: önce cevap, sonra yeni konu.
+Adım 4: C’yi sına. Metin yalnızca bu sınıfın uygulamasını anlatıyor; öteki okullara dair tek söz yok.
 
-Sağlama: Metin bir zaman aralığı (on dokuzuncu yüzyılın ikinci yarısı) veriyor ama ilk uygulamanın yerini vermiyor. Zaman bilgisi ile yer bilgisini birbirine karıştırma.
+En güçlü çeldirici B. Kuralın içinde “yeni bir konu açmamak” sözleri gerçekten geçiyor; ama baştaki “sorulara cevap vermeden” koşulu atlanınca kural, hiç olmayan bir yasağa dönüşüyor.
 
-Sık yapılan hata: “On dokuzuncu yüzyıl” ve “büyük kentler” sözlerini görüp “demek ki kent de söylenmiş” diye düşünmek. Belirsiz bir çoğul (kimi kentler), belirli bir ada karşılık gelmez. Cevap D.` },
+Sık yapılan hata: Bir cümlenin yalnızca son kısmını okuyup koşulu gözden kaçırmak. “-meden, -madıkça, ancak” gibi sözler, yargının hangi durumda geçerli olduğunu gösterir. Cevap D.` },
 
 { id: "tur-pa-3050", kazanim: "T.8.3.16", kademe: 0, zorluk: 3,
   soru: `(I) Mors alfabesinde her harf, kısa ve uzun işaretlerin belli bir dizilişiyle gösterilir; bu işaretler telgraf hattında kısa ya da uzun süren birer vuruş olarak karşı tarafa gider. (II) İşaret dizilişleri harflere rastgele dağıtılmamıştır: bir dilde en sık geçen harflere en kısa karşılıklar, seyrek geçenlere daha uzun karşılıklar verilmiştir; amaç, en çok yazılan harfin en az zaman almasıdır. (III) Telgraf hatlarının direkleri, kar ve rüzgâr yükünü taşıyabilmeleri için belirli aralıklarla ve belirli bir derinliğe dikilirdi. (IV) Böylece sık kullanılan harfler az sayıda vuruşla yollanır; aynı uzunluktaki bir metin daha kısa sürede karşıya ulaşır ve hat başındaki görevli aynı vardiyada daha çok mesaj aktarabilir.
@@ -180,22 +182,22 @@ Sağlama: Bir cümleyi çıkardığında parça bozulmuyorsa, akışı bozan cü
 Sık yapılan hata: “Konusu aynı, öyleyse akışa uyar” diye düşünmek. Aynı konudan söz etmek yetmez; cümlenin, parçanın yürüttüğü düşünceye katkı vermesi gerekir. Cevap C.` },
 
 { id: "tur-pa-3051", kazanim: "T.8.3.17", kademe: 0, zorluk: 3,
-  soru: `Pul biriktirmeye başladığımda güzel resimli olanları seçiyordum. Albümü rengine göre dizmek hoşuma gidiyordu. Bir süre sonra takas ettiğim bir arkadaşım bana iki pul gösterdi: ikisi de aynı baskıydı, aynı resmi taşıyordu. Birinin üstü tertemizdi, hiç kullanılmamıştı. Ötekinin köşesinde silik bir damga, kenarında zarftan kesilirken kalmış ince bir kâğıt payı vardı. “Benim için değerli olan bu.” dedi ikincisini göstererek. Önce anlamadım. Sonra damgadaki tarihe baktım; o pul, bir yerden bir yere gerçekten gitmişti. Arkadaşım o gün başka bir şey söylemedi; söylemesine gerek de kalmadı. Şimdi albümümde iki bölüm var. Birinde resimleri güzel bulduklarım duruyor. Ötekinde, üstünde damga izi taşıyanlar. İkinci bölümü daha sık açıyorum.
+  soru: `Selin, arkadaşı Ece’ye “Yarın kütüphanede birlikte çalışalım mı?” diye yazdı. Birkaç dakika sonra cevap geldi: “Tamam.” Selin telefonuna uzun uzun baktı. Cümlenin sonundaki nokta ona soğuk geldi; Ece’nin istemeye istemeye kabul ettiğini düşündü. Ertesi gün Ece kütüphaneye güler yüzle geldi; ortada hiçbir kırgınlık yoktu. Selin mesajı gösterince Ece şaşırdı: “Ben yalnızca kısa yazdım, aklımdan başka bir şey geçmedi.” Aslında ikisi de kendi açısından haklıydı. Yüz yüze konuşurken bir “tamam”ın neyi anlattığını ses tonu, yüz ifadesi, bir gülümseme söyler. Yazılı mesajda bunların hiçbiri yoktur; geriye birkaç harfle bir noktalama işareti kalır. Okuyan kişi, eksik kalan bilgiyi kendi tahminiyle tamamlar. Bu yüzden kısa bir mesaj, yazanın hiç düşünmediği bir anlamı karşı tarafa taşıyabilir.
 
-**Bu parçada yazar, okura asıl neyi anlatmak istemektedir?**`,
+**Bu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Bir pulu değerli kılan şeyin, taşıdığı kullanım izi olduğunu", "Pul albümlerinin resim ve renklere göre düzenlenmesi gerektiğini", "Üstünde damga bulunmayan pulların koleksiyonda hiç tutulmadığını", "Pul biriktirmenin arkadaş çevresini genişleten bir uğraş olduğunu"],
+  secenekler: ["Ses ve yüz ifadesi taşımayan yazılı mesajlar, kastedilmeyen biçimde anlaşılabilir.", "Mesajın sonuna konan nokta, yazanın karşısındakine soğuk davrandığını gösterir.", "Arkadaşlar arasındaki önemli konular, yalnızca yüz yüze konuşularak çözülmelidir.", "Kütüphanede yapılan buluşma, iki arkadaş arasındaki kırgınlığı gidermiştir."],
   dogru: 0,
-  hatalar: [null, "metinde var ama ilgisiz: Albümü renge göre dizmek ikinci cümlede geçiyor; ama bu, yazarın sonradan vazgeçtiği eski alışkanlığıdır, savunduğu düşünce değildir.", "ters yön: Yazar temiz pulları atmıyor; albümde onlara ayrılmış bir bölüm hâlâ duruyor. Metin bir üstünlük söylüyor, bir yok sayma değil.", "kısmen doğru: Takas eden bir arkadaş gerçekten var; ancak arkadaşlık, parçanın konusu değil, düşünceyi değiştiren olayın kahramanıdır."],
-  aciklama: `“Yazar asıl neyi anlatmak istiyor?” sorusu ana düşünceyi sorar. Bir düşünce değişimi anlatan metinlerde ana düşünce, değişimin vardığı noktadadır.
+  hatalar: [null, "ters yön: Noktayı soğukluk sayan, Selin’in tahminidir; Ece’nin böyle bir niyeti yoktu. Metin, işaretin yazanın niyetini göstermediğini, okurun onu kendi tahminiyle yorumladığını anlatıyor.", "aşırı genelleme: Metin yüz yüze konuşmada tonun kolayca anlaşıldığını söylüyor; ama önemli her konunun yalnızca yüz yüze konuşulması gerektiği gibi bir öğüt vermiyor.", "metinde var ama ilgisiz: Kütüphanedeki buluşma metinde geçiyor; ama ortada giderilecek bir kırgınlık yoktu. Buluşma, yalnızca yanlış anlamanın ortaya çıktığı andır."],
+  aciklama: `Ana düşünce, yazarın bir olayı anlatarak okura ulaştırmak istediği genel yargıdır. Olay anlatan bir parçada ana düşünce, çoğu zaman olayın ardından gelen genelleme cümlelerinde bulunur.
 
-Adım 1: Başlangıcı belirle. Yazar önce “güzel resimli” pulları seçiyor, albümü renge göre diziyor.
-Adım 2: Dönüm noktasını bul. Arkadaşı, aynı baskıdan iki pul gösteriyor; değerli bulduğu, damgalı ve kenarı kesilmiş olanı.
-Adım 3: Varılan yere bak. “O pul, bir yerden bir yere gerçekten gitmişti.” Ve son cümle: yazar artık damga izi taşıyan bölümü daha sık açıyor. Demek ki pulu değerli kılan, resmi değil üzerindeki kullanım izidir.
+Adım 1: Olayı özetle. Ece kısa bir “Tamam.” yazıyor; Selin cümlenin sonundaki noktayı soğukluk sanıyor; ertesi gün Ece’nin böyle bir niyeti olmadığı anlaşılıyor.
+Adım 2: Olaydan sonra gelen genellemeyi bul. “Yazılı mesajda bunların hiçbiri yoktur”, “Okuyan kişi, eksik kalan bilgiyi kendi tahminiyle tamamlar”, “kısa bir mesaj, yazanın hiç düşünmediği bir anlamı karşı tarafa taşıyabilir.” Yazarın asıl söylemek istediği budur: ses ve yüz ifadesi olmayınca yazılı mesaj yanlış anlaşılabilir. A bunu karşılıyor.
+Adım 3: Ötekileri ele. C, metinde olmayan bir öğüdü bütün konulara yayıyor. D’deki kırgınlık hiç yaşanmamış.
 
-En güçlü çeldirici C. Yazar damgalı pulları daha çok seviyor; ama temiz pulları da albümde tutmayı sürdürüyor. “Daha değerli” ile “hiç tutulmaz” aynı şey değildir.
+En güçlü çeldirici B. Nokta metinde gerçekten soğuk bulunuyor; ama bu yalnızca Selin’in tahmini. Ece’nin sözü, noktanın böyle bir anlam taşımadığını gösteriyor. Yazar noktayı suçlamıyor, okurun eksik bilgiyi tahminle tamamladığını anlatıyor.
 
-Sık yapılan hata: Yazarın vazgeçtiği ilk alışkanlığı ana düşünce sanmak ya da bir tercihi mutlak bir ret hâline getirmek. Cevap A.` },
+Sık yapılan hata: Bir kahramanın olay sırasındaki düşüncesini yazarın vardığı sonuç sanmak. Kahramanın sonradan yanıldığı anlaşılan bir düşünce, ana düşünce olamaz. Cevap A.` },
 
 { id: "tur-pa-3052", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
   soru: `Her posta şubesinde sahibine ulaşamamış küçük bir yığın vardır: adresi eksik yazılmış, taşınmış birine gönderilmiş ya da üstündeki yazı yağmurda okunamaz hâle gelmiş zarflar. Bunlar çöpe atılmaz. Görevli önce zarfın arkasına bakar; gönderenin adresi oradaysa mektup geri yollanır. Değilse zarf, bu iş için ayrılmış bir birime gider. Bu birimde her zarf en az iki kez elden geçer. Orada çalışanlar okunabilen her ipucunu değerlendirir: yarım bir sokak adı, silik bir posta kodu, damgadaki şube adı. Kimi zaman tek bir harf, zarfın hangi ilçeden çıktığını söyler. Ama görevlilerin gönderenlere yıllardır tekrarladığı öneri bu kadar ince değildir: - - - - Bu küçük alışkanlık, yığındaki zarfların çoğunu eritir.
@@ -234,26 +236,27 @@ Sağlama: D’yi doğru kabul edersen üçüncü cümledeki “devrederdi” sö
 Sık yapılan hata: Yalnızca atların değiştiğini fark edip binicilerin de değiştiğini gözden kaçırmak. Parçadaki “ya da” bağlacı iki ayrı olasılık sunar. Cevap D.` },
 
 { id: "tur-pa-3054", kazanim: "T.8.3.32", kademe: 0, zorluk: 3,
-  soru: `Bir ilçenin posta şubesi, beş yıl boyunca kabul ettiği gönderileri iki başlıkta kaydetti: mektup ve koli. Kayıtlar, şubede çalışan kişi sayısı hiç değişmeden tutuldu; şube bu beş yıl boyunca aynı binada, aynı çalışma saatleriyle hizmet verdi. Bu yüzden sayılardaki değişim, şubenin kendi düzeninden değil gelen gönderilerden kaynaklanıyor. Müdür, sayılara bakarak yeni yılda hangi işe kaç kişi ayıracağını planlayacak. Ancak bir türdeki sayının azalması, işin de o oranda azalması demek değildir; bir koli bir mektuptan daha uzun sürede kabul edilir, daha çok yer kaplar, teslimi daha çok zaman alır. Müdürün asıl üzerinde durduğu soru şudur: iki çizginin yönü birbirinden ayrıldığına göre önümüzdeki yıl hangi işe daha çok kişi gerekecek? Aşağıdaki grafikte beş yılın kayıtları verilmiştir.
+  soru: `Bir ortaokulda düzenlenen bilim şenliği öğrencilere dört ayrı yoldan duyuruldu: koridordaki panoya afiş asıldı, okulun internet sitesine haber kondu, sınıf öğretmenleri derste duyuru yaptı, teneffüslerde okul radyosundan anons okundu. Şenlikten bir hafta sonra 5. ve 8. sınıflardan 120’şer öğrenciye tek bir soru soruldu: “Şenliği ilk kez nereden duydun?” Her öğrenci yalnızca bir yol işaretleyebildi; duyuruyu birkaç yerden görenler, ilk karşılaştıkları yolu seçti. Soruyu boş bırakan olmadı. Aşağıdaki grafikte iki sınıf düzeyinin cevapları verilmiştir.
 
-**Bu parçaya ve grafiğe göre aşağıdakilerden hangisi söylenebilir?**`,
-  gorsel: `<svg viewBox="0 0 560 360" role="img" aria-label="Grafik: Bir posta şubesinde yıllara göre kabul edilen mektup ve koli sayısı"><text x="8" y="20" font-size="16" font-weight="bold" fill="currentColor">Grafik: Yıllara göre kabul edilen gönderi sayısı</text><g><rect x="150" y="30" width="16" height="14" fill="var(--vurgu)"/><text x="172" y="42" font-size="14" fill="currentColor">Mektup</text><rect x="290" y="30" width="16" height="14" fill="var(--vurgu2)"/><text x="312" y="42" font-size="14" fill="currentColor">Koli</text></g><g stroke="currentColor" stroke-width="1" opacity="0.35"><line x1="70" y1="233" x2="530" y2="233"/><line x1="70" y1="175" x2="530" y2="175"/><line x1="70" y1="118" x2="530" y2="118"/><line x1="70" y1="60" x2="530" y2="60"/></g><g stroke="currentColor" stroke-width="2" fill="none"><line x1="70" y1="55" x2="70" y2="290"/><line x1="70" y1="290" x2="530" y2="290"/></g><g font-size="14" fill="currentColor" text-anchor="end"><text x="64" y="295">0</text><text x="64" y="238">3.000</text><text x="64" y="180">6.000</text><text x="64" y="123">9.000</text><text x="64" y="65">12.000</text></g><g font-size="15" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="110" y="312">2019</text><text x="205" y="312">2020</text><text x="300" y="312">2021</text><text x="395" y="312">2022</text><text x="490" y="312">2023</text></g><polyline points="110,60 205,91 300,121 395,137 490,167" fill="none" stroke="var(--vurgu)" stroke-width="3"/><polyline points="110,233 205,210 300,175 395,160 490,114" fill="none" stroke="var(--vurgu2)" stroke-width="3" stroke-dasharray="8 5"/><g fill="var(--vurgu)"><circle cx="110" cy="60" r="4"/><circle cx="205" cy="91" r="4"/><circle cx="300" cy="121" r="4"/><circle cx="395" cy="137" r="4"/><circle cx="490" cy="167" r="4"/></g><g fill="var(--vurgu2)"><circle cx="110" cy="233" r="4"/><circle cx="205" cy="210" r="4"/><circle cx="300" cy="175" r="4"/><circle cx="395" cy="160" r="4"/><circle cx="490" cy="114" r="4"/></g><g font-size="14" fill="currentColor" text-anchor="middle"><text x="110" y="52">12.000</text><text x="205" y="83">10.400</text><text x="300" y="113">8.800</text><text x="395" y="129">8.000</text><text x="490" y="159">6.400</text></g><g font-size="14" fill="currentColor" text-anchor="middle"><text x="110" y="251">3.000</text><text x="205" y="228">4.200</text><text x="300" y="193">6.000</text><text x="395" y="178">6.800</text><text x="490" y="136">9.200</text></g><text x="300" y="338" font-size="14" fill="currentColor" text-anchor="middle">Yıl</text></svg>`,
-  secenekler: ["Şubenin kabul ettiği toplam gönderi sayısı her yıl azalmıştır.", "Koli sayısı, mektup sayısını ilk kez son yılda geçmiştir.", "Mektup sayısındaki düşüş, şubedeki iş yükünün azaldığını gösterir.", "Koli sayısı her yıl bir önceki yılın iki katına çıkmıştır."],
+**Bu parçadaki ve grafikteki bilgilere göre aşağıdakilerden hangisi doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 560 345" role="img" aria-label="Sütun grafiği: Bilim şenliğini ilk kez duydukları yola göre 5. ve 8. sınıf öğrenci sayıları"><text x="8" y="20" font-size="16" font-weight="bold" fill="currentColor">Grafik: Şenliği ilk kez duydukları yola göre öğrenci sayısı</text><g><rect x="150" y="32" width="16" height="14" fill="var(--vurgu)"/><text x="172" y="44" font-size="14" fill="currentColor">5. sınıf</text><rect x="290" y="32" width="16" height="14" fill="var(--vurgu2)"/><text x="312" y="44" font-size="14" fill="currentColor">8. sınıf</text></g><g stroke="currentColor" stroke-width="1" opacity="0.35"><line x1="70" y1="220" x2="540" y2="220"/><line x1="70" y1="150" x2="540" y2="150"/><line x1="70" y1="80" x2="540" y2="80"/></g><g stroke="currentColor" stroke-width="2" fill="none"><line x1="70" y1="75" x2="70" y2="290"/><line x1="70" y1="290" x2="540" y2="290"/></g><g font-size="14" fill="currentColor" text-anchor="end"><text x="62" y="295">0</text><text x="62" y="225">20</text><text x="62" y="155">40</text><text x="62" y="85">60</text></g><g fill="var(--vurgu)"><rect x="90" y="185" width="36" height="105"/><rect x="207" y="248" width="36" height="42"/><rect x="324" y="101" width="36" height="189"/><rect x="441" y="206" width="36" height="84"/></g><g fill="var(--vurgu2)"><rect x="130" y="227" width="36" height="63"/><rect x="247" y="122" width="36" height="168"/><rect x="364" y="164" width="36" height="126"/><rect x="481" y="227" width="36" height="63"/></g><g font-size="14" fill="currentColor" text-anchor="middle"><text x="108" y="179">30</text><text x="225" y="242">12</text><text x="342" y="95">54</text><text x="459" y="200">24</text><text x="148" y="221">18</text><text x="265" y="116">48</text><text x="382" y="158">36</text><text x="499" y="221">18</text></g><g font-size="14" fill="currentColor" text-anchor="middle"><text x="128" y="312">Pano</text><text x="245" y="312">İnternet</text><text x="245" y="330">sitesi</text><text x="362" y="312">Öğretmen</text><text x="362" y="330">duyurusu</text><text x="479" y="312">Okul</text><text x="479" y="330">radyosu</text></g></svg>`,
+  secenekler: ["İki sınıf düzeyinde de en çok öğrenciye ulaşan yol, öğretmen duyurusudur.", "5. sınıflarda en az öğrenciye ulaşan yol, 8. sınıflarda en çok öğrenciye ulaşmıştır.", "Okul radyosu, 8. sınıflarda 5. sınıflardakinden daha çok öğrenciye ulaşmıştır.", "8. sınıf öğrencilerinin yarısından fazlası, şenliği internet sitesinden duymuştur."],
   dogru: 1,
-  hatalar: ["kısmen doğru: Mektup sayısı gerçekten her yıl azalmış; ama toplam öyle değil. 2020’de 14.600 olan toplam 2021’de 14.800’e, 2023’te 15.600’e çıkmıştır.", null, "ters yön: Parça bu çıkarımı açıkça uyarıyla engelliyor; bir kolinin kabulü ve teslimi mektuptan daha çok zaman aldığı için sayının azalması iş yükünün azalması anlamına gelmez.", "aşırı genelleme: Hiçbir yılda iki kat artış yok. 3.000’den 4.200’e, 4.200’den 6.000’e çıkış iki katın çok altındadır."],
-  aciklama: `Grafik sorularında önce eksenleri, sonra iki çizginin birbirine göre durumunu okumak gerekir. Bu grafikte mektup düzenli olarak azalıyor, koli düzenli olarak artıyor.
+  hatalar: ["kısmen doğru: 5. sınıflar için doğru (54 öğrenci); ama 8. sınıflarda en çok öğrenciye internet sitesi ulaşmış (48), öğretmen duyurusu 36’da kalmış.", null, "ters yön: Karşılaştırma ters kurulmuş. Okul radyosu 5. sınıflarda 24, 8. sınıflarda 18 öğrenciye ulaşmış; yani 5. sınıflarda daha çok öğrenciye ulaşmıştır.", "aşırı genelleme: İnternet sitesi 8. sınıflarda en çok öğrenciye ulaşan yoldur; ama 120 öğrencinin 48’i, yarısı olan 60’ın altında kalır. “En çok” olmak, “yarıdan fazla” olmak demek değildir."],
+  aciklama: `Grafik sorularında önce neyin sayıldığını bul, sonra her şıkkı grafikteki sayılarla tek tek sına. Metindeki bilgileri de unutma; bazı şıklar ancak metinle birlikte çözülür.
 
-Adım 1: B’yi sına. Her yılda iki değeri karşılaştır: 2019’da 12.000 > 3.000; 2020’de 10.400 > 4.200; 2021’de 8.800 > 6.000; 2022’de 8.000 > 6.800; 2023’te 6.400 < 9.200. Koli, mektubu yalnızca son yılda geçiyor. B doğru.
-Adım 2: A’yı sına. Toplamları hesapla: 15.000 — 14.600 — 14.800 — 14.800 — 15.600. Toplam önce düşüyor, sonra yükseliyor; “her yıl azalmıştır” yanlış.
-Adım 3: C’yi sına. Bu bir grafik okuma değil, yorum. Parçanın dördüncü cümlesi tam bu yorumu çürütüyor.
-Adım 4: D’yi sına. 3.000’in iki katı 6.000’dir, ama 2020’de koli 4.200. Yanlış.
+Adım 1: Grafiği oku. 5. sınıf: pano 30, internet sitesi 12, öğretmen duyurusu 54, okul radyosu 24. 8. sınıf: pano 18, internet sitesi 48, öğretmen duyurusu 36, okul radyosu 18. Metne göre her sınıf düzeyinden 120 öğrenci cevap vermiş; gerçekten de 30 + 12 + 54 + 24 = 120 ve 18 + 48 + 36 + 18 = 120.
+Adım 2: B’yi sına. 5. sınıflarda en küçük sayı 12, yani internet sitesi. 8. sınıflarda en büyük sayı 48, yine internet sitesi. B doğru.
+Adım 3: A’yı sına. 8. sınıflarda öğretmen duyurusu 36, internet sitesi 48. A yalnızca 5. sınıflar için geçerli.
+Adım 4: C’yi sına. Okul radyosu 5. sınıfta 24, 8. sınıfta 18 öğrenciye ulaşmış. Yön ters.
+Adım 5: D’yi sına. 120’nin yarısı 60’tır; 48 bunun altında kalıyor.
 
-Sağlama: İki çizginin kesiştiği yer 2022 ile 2023 arasıdır; bu yüzden “ilk kez son yılda” ifadesi grafikle birebir uyuşur.
+En güçlü çeldirici D. İnternet sitesinin sütunu 8. sınıflarda gerçekten en uzun sütun; bu yüzden “yarısından fazlası” demek kolay görünüyor. Ama toplamı metin veriyor: 120 öğrencinin 48’i, yüzde kırktır.
 
-Sık yapılan hata: Bir çizginin düştüğünü görüp toplamın da düştüğünü sanmak. İki seri varsa toplam ayrıca hesaplanır. Cevap B.` },
+Sık yapılan hata: “En çok” ile “yarıdan fazla”yı aynı sanmak. Bir yol en büyük payı alabilir ama yine de yarıya ulaşmayabilir. Cevap B.` },
 
 { id: "tur-pa-3055", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
-  soru: `Denizde iki gemi birbirinin dilini bilmek zorunda değildir. Direğe çekilen renkli bezlerin her biri bir harfe karşılık gelir ve bu karşılıklar uluslararası olarak kabul edilmiştir. Kimi bayraklar tek başına çekildiğinde de belirli bir anlam taşır; hangi bayrağın neyi bildirdiği önceden kararlaştırılmıştır. Bir liman girişinde, bir tatbikatta ya da açık denizde yardım gerektiğinde aynı bezler aynı şeyi söyler; bakan kişinin hangi ülkeden olduğu sonucu değiştirmez. Bayrak takımı gemide telsizin yanında değil, onun yerine geçebilecek bir yerde saklanır. Nitekim karşıdaki gemide bayrağı gören kişi bir çözümleme yapmaz; baktığı şey doğrudan mesajın kendisidir. - - - - Sisin bastığı, telsizin sustuğu bir anda bile bir bez parçası, kilometrelerce öteye tek bir cümle taşıyabilir.
+  soru: `Denizde iki gemi birbirinin dilini bilmek zorunda değildir. Direğe çekilen renkli bezler harfleri ve rakamları gösterir; bu karşılıklar uluslararası olarak kabul edilmiştir. Kimi bayraklar tek başına çekildiğinde de belirli bir anlam taşır; hangi bayrağın neyi bildirdiği önceden kararlaştırılmıştır. Bir liman girişinde, bir tatbikatta ya da açık denizde yardım gerektiğinde aynı bezler aynı şeyi söyler; bakan kişinin hangi ülkeden olduğu sonucu değiştirmez. Nitekim karşıdaki gemide bayrağı gören kişinin bir şifre çözmesi gerekmez; her bayrağın anlamı, gemilerin elindeki ortak bir listede yazılıdır. - - - - Telsizin sustuğu, dillerin anlaşamadığı bir anda bile, hava açık olduğu sürece bir bez parçası uzaktaki bir gemiye tek bir cümle taşıyabilir.
 
 **Bu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
@@ -262,10 +265,12 @@ Sık yapılan hata: Bir çizginin düştüğünü görüp toplamın da düştü�
   hatalar: [null, "ters yön: Metin bunun tam tersini söylüyor; karşılıklar uluslararası olarak kabul edilmiştir, gemiye göre değişmez.", "aşırı genelleme: Metin yalnızca “kimi bayraklar tek başına çekildiğinde belirli bir anlam taşır” diyor; her sorunun tek bayrakla bildirildiğini söylemiyor.", "metinde var ama ilgisiz: Bayrakların renkli olduğu ikinci cümlede geçiyor; ama rengin neye göre seçildiği konusunda metinde hiçbir bilgi yok."],
   aciklama: `Boşluğa gelecek cümle, kendinden önceki düşünceyi toparlamalı ve kendinden sonraki cümleye köprü kurmalıdır.
 
-Adım 1: Boşluğun önündeki cümleyi oku. “…bayrağı gören kişi bir çözümleme yapmaz; baktığı şey doğrudan mesajın kendisidir.” Burada vurgulanan şey, anlamın saklı olmamasıdır.
-Adım 2: Boşluğun arkasındaki cümleyi oku. Sis ve telsiz sessizliği içinde bile bir bez parçasının mesaj taşıyabildiği söyleniyor; yani sistemin dayanıklılığı övülüyor.
+Adım 1: Boşluğun önündeki cümleyi oku. “…bayrağı gören kişinin bir şifre çözmesi gerekmez; her bayrağın anlamı, gemilerin elindeki ortak bir listede yazılıdır.” Burada vurgulanan şey, anlamın saklı olmaması, herkesin bilebileceği bir yerde durmasıdır.
+Adım 2: Boşluğun arkasındaki cümleyi oku. Telsiz sustuğunda ve diller anlaşamadığında bile, hava açıksa bir bez parçasının mesaj taşıyabildiği söyleniyor; yani sistemin gücü övülüyor.
 Adım 3: İkisini birleştir. Aradaki cümle, “anlamın açıkta durması” ile “sistemin gücü” arasında bağ kurmalıdır. A tam bunu yapıyor.
 Adım 4: Ötekileri ele. B metnin tersini söylüyor, C metnin söylediğini abartıyor, D ise metinde hiç geçmeyen bir ölçüt uyduruyor.
+
+En güçlü çeldirici C. Metin gerçekten “kimi bayraklar tek başına çekildiğinde de belirli bir anlam taşır” diyor. Ama “kimi” sözcüğü, bunun her bayrak ve her sorun için geçerli olmadığını gösterir; C, bu sınırlı bilgiyi “her sorun”a yayıyor. Üstelik C, boşluktan sonra gelen “sistemin gücü” düşüncesine köprü de kurmuyor.
 
 Sık yapılan hata: Boşluğa, konuyla ilgili doğru görünen herhangi bir cümleyi koymak. Doğru olmak yetmez; cümlenin önceki ve sonraki cümleyle birlikte tek bir düşünceyi sürdürmesi gerekir. Cevap A.` },
 
@@ -345,26 +350,26 @@ Sağlama: Tabloda dört sütun var: nokta, bırakılan sayı, dönen kart, en uz
 Sık yapılan hata: Metinde “tarih” sözcüğünü görünce mevsim bilgisinin de bulunduğunu sanmak. Bir bilginin kaydedildiğini söylemek, o bilgiyi vermek değildir. Cevap A.` },
 
 { id: "tur-pa-3060", kazanim: "T.8.3.25", kademe: 0, zorluk: 4,
-  soru: `Bir haberi çok uzağa hızla ulaştırmanın en eski yollarından biri ateşti. Görüş hattı üzerindeki tepelere sırayla gözcüler yerleştirilir, ilk tepede yakılan ateşi gören ikinci tepe kendi ateşini yakar, böylece işaret tepeden tepeye atlardı. Tepeler, hava açıkken birbirini görebilecek uzaklıkta seçilirdi. Yüzlerce kilometrelik bir hat, yazılı bir haberin günlerce süren yolculuğuna karşılık birkaç saat içinde aşılabilirdi.
+  soru: `Kalabalık bir salonda maç sürerken antrenörün sesi sahaya pek ulaşmaz; tribünün uğultusu, top sesleri ve ayakkabıların gıcırtısı her şeyi bastırır. Bu yüzden basketbol takımları, antrenmanda çalıştıkları oyunların her birine bir el işareti verir: yumruk yapılmış bir el bir oyunu, havaya kaldırılmış iki parmak bir başkasını bildirir. Oyun kurucu kenara bir kez bakar, işareti görür, arkadaşlarına iletir; takım, oyunu durdurmadan yeni düzene geçer.
 
-Ne var ki bu hız bedelsiz değildi. Yanan bir ateşin söyleyebileceği tek şey, önceden üzerinde anlaşılmış bir cümleydi: “Beklediğimiz oldu.” Kaç kişiydiler, ne zaman geldiler, ne istiyorlardı? Bunların hiçbiri aleve sığmazdı. Ateş, haberin kendisini değil yalnızca başladığını duyurabilirdi; ayrıntı isteyen taraf yine yazılı bir haber beklemek zorundaydı. Üstelik zincir dış koşullara açıktı; bir tepede sis çökerse ya da gözcü uzaktaki başka bir ışığı işaret sanırsa haber ya hiç ulaşmaz ya da olmayan bir olayı bildirirdi.
+Ama el işareti ancak önceden bilinen bir şeyi çağırabilir. Rakibin savunmasındaki bir boşluğu anlatmak, bir oyuncuya nerede geç kaldığını göstermek ya da hiç çalışılmamış bir çözüm önermek parmaklara sığmaz. Bunun için antrenörün mola alması gerekir. Molanın da bir sınırı vardır: bir maçta alınabilecek mola sayısı kurallarla belirlenmiştir; üstelik her mola oyunu durdurur ve takımın yakaladığı ritmi kesebilir.
 
-Bu yüzden ateş hattı, yazılı haberin yerini almadı. İkisi yan yana kullanıldı: ateş “bir şey oldu” demek için, yazı ne olduğunu anlatmak için.
+Deneyimli antrenörler bu yüzden işi paylaştırır: bilineni işaretle çağırır, molayı işaretin söyleyemeyeceği şeylere saklar. Böylece maç boyunca kenardan çok sayıda işaret gider, mola ise ancak birkaç kez alınır; ama her molada oyunculara hiçbir işaretin taşıyamayacağı bir şey söylenir.
 
-**Bu parçadan hareketle ateşle haberleşmeyle ilgili aşağıdaki çıkarımlardan hangisi yapılabilir?**`,
+**Bu parçaya göre aşağıdaki durumların hangisinde antrenörün mola alması beklenir?**`,
   gorsel: null,
-  secenekler: ["Tepelerdeki gözcüler nöbetlerini belirli saatlerde birbirlerine devrederdi.", "İşaretin yanlış iletilmesinin tek nedeni gözcünün dikkatsiz davranmasıdır.", "Ateş hattının kazandırdığı hız, taşınabilen bilginin azlığıyla ödenmiştir.", "Ateş hattı kurulan bölgelerde yazılı habere gerek kalmamıştır."],
+  secenekler: ["Takımın, antrenmanda çalışılmış oyunlardan birine geçmesi gerekiyorsa", "Takım iyi bir ritim yakalamış, hücumlar art arda sayıyla bitiyorsa", "Rakip, takımın daha önce hiç çalışmadığı bir savunma düzeni kurmuşsa", "Maçın son dakikalarında antrenörün hiç mola hakkı kalmamışsa"],
   dogru: 2,
-  hatalar: ["metinde var ama ilgisiz: Tepelere gözcü yerleştirildiği söyleniyor; ama nöbetin nasıl ve hangi saatlerde devredildiğine ilişkin hiçbir bilgi verilmiyor.", "aşırı genelleme: Metin iki neden sayıyor. Sis de zinciri bozabiliyor; “tek neden” demek, metnin verdiği ikinci nedeni yok saymaktır.", null, "ters yön: Parçanın son bölümü tam tersini söylüyor; ateş hattı yazılı haberin yerini almamış, ikisi yan yana kullanılmıştır."],
-  aciklama: `Çıkarım, metinde kelimesi kelimesine yazmayan ama söylenenlerden zorunlu olarak doğan yargıdır. Uydurma olmamalı, metne eklenen varsayıma dayanmamalıdır.
+  hatalar: ["ters yön: Metne göre çalışılmış oyunlar tam da el işaretiyle çağrılır; bunun için mola harcamak, metnin anlattığı iş bölümünün tersidir.", "metinde var ama ilgisiz: Ritim metinde geçiyor; ama molanın gerekçesi olarak değil, molanın bozabileceği bir şey olarak. İyi giden bir oyunda işaretin söyleyemeyeceği bir sorun yoktur.", null, "kısmen doğru: Maçın son dakikaları önemli bir an olabilir; ama metne göre bir maçta alınabilecek mola sayısı kurallarla belirlenmiştir. Hakkı kalmamış bir antrenör mola alamaz."],
+  aciklama: `Bu bir çıkarım sorusudur: metindeki ölçütü yeni bir duruma uygulaman istenir. Önce metnin kurduğu ölçütü bul, sonra her durumu o ölçütle sına.
 
-Adım 1: Parçanın iki yanını çıkar. Kazanç: yüzlerce kilometre birkaç saatte aşılıyor. Kayıp: ateş yalnızca önceden kararlaştırılmış tek bir cümleyi taşıyabiliyor, ayrıntı için yine yazı gerekiyor.
-Adım 2: İkisini birleştir. Hız var ama taşınan bilgi çok az. Yani hız, bilginin azlığıyla ödenmiş oluyor. C tam bu bileşimdir.
-Adım 3: D’yi sına. “Bu yüzden ateş hattı, yazılı haberin yerini almadı.” Metin bunu doğrudan yadsıyor.
-Adım 4: B’yi sına. Metin iki bozucu etken sayıyor: sis ve gözcünün yanılması. “Tek neden” ifadesi bunlardan birini siler.
-Adım 5: A’yı sına. Gözcülerin varlığı söyleniyor, nöbet düzeni hakkında tek bir sözcük bile yok.
+Adım 1: Ölçütü çıkar. Son paragraf açıkça söylüyor: bilinen şey işaretle çağrılır, mola ise “işaretin söyleyemeyeceği şeylere” saklanır. İkinci paragraf işaretin söyleyemediklerini sayıyor: rakibin savunmasındaki boşluğu anlatmak, hiç çalışılmamış bir çözüm önermek…
+Adım 2: C’yi sına. Rakip, takımın hiç çalışmadığı bir savunma kurmuşsa ona karşı hazır bir işaret de yoktur; yeni bir çözümün anlatılması gerekir. Bu, parmaklara sığmayan şeydir. Mola beklenir.
+Adım 3: A’yı sına. Çalışılmış bir oyun, işaretin tam olarak işe yaradığı durumdur. Mola gerekmez.
+Adım 4: B’yi sına. Oyun iyi gidiyor; metne göre mola bu ritmi kesebilir. Mola için bir gerekçe yok.
+Adım 5: D’yi sına. Metin, bir maçta alınabilecek mola sayısının kurallarla belirlendiğini söylüyor. Hakkı kalmamış antrenör mola alamaz.
 
-Sağlama: C’yi metne geri koy. “Hız bedelsiz değildi.” cümlesi bu çıkarımın tam karşılığıdır.
+En güçlü çeldirici D. “Son dakikalar” sözü kritik bir anı çağrıştırdığı için mola için en uygun an gibi görünür. Ama sınır durumuna bak: hak bitmişse mola alınamaz, yani ondan beklenecek bir şey de kalmaz.
 
-Sık yapılan hata: Metinde adı geçen bir öğeyle (gözcü) ilgili her ayrıntıyı metinden çıkarılabilir sanmak. Bir şeyin varlığını bilmek, işleyişini bilmek değildir. Cevap C.` }
+Sık yapılan hata: Duruma metnin ölçütüyle değil, kendi maç deneyiminle karar vermek. Soru “bu parçaya göre” diyor; ölçüt, parçanın son paragrafındaki iş bölümüdür. Cevap C.` }
 );

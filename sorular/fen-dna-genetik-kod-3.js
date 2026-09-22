@@ -184,24 +184,29 @@ Cevap D.`
   kazanim: "F.8.2.1.1",
   kademe: 1,
   zorluk: 2,
-  soru: `Bir öğrenci, hücredeki kalıtsal yapıları okul kütüphanesindeki kitaplara benzeterek tablodaki eşleştirmeyi yapmıştır. Tabloda bir eşleştirme boş bırakılmıştır.
-**Buna göre boş bırakılan yere aşağıdakilerden hangisi yazılmalıdır?**`,
-  gorsel: `<table class="tablo"><tr><th>Kütüphanedeki karşılığı</th><th>Hücredeki yapı</th></tr><tr><td>Rafta duran bir kitap</td><td>Kromozom</td></tr><tr><td>Kitaptaki bir hikâye</td><td>- - - -</td></tr><tr><td>Hikâyedeki bir harf</td><td>Nükleotid</td></tr></table>`,
-  secenekler: ["DNA", "Gen", "Nükleotid", "Organik baz"],
+  soru: `Bir öğrenci, hücredeki kalıtsal yapıları okul kütüphanesindeki bir hikâye kitabına benzeterek tablodaki eşleştirmeyi yapmıştır. Bu kitapta her biri farklı bir olayı anlatan çok sayıda hikâye bulunmaktadır. Tabloda iki eşleştirme boş bırakılıp X ve Y ile gösterilmiştir.
+**Buna göre X ve Y yerine yazılması gereken yapılar aşağıdakilerin hangisinde doğru verilmiştir?**`,
+  gorsel: `<table class="tablo"><tr><th>Kütüphanedeki karşılığı</th><th>Hücredeki yapı</th></tr><tr><td>Kapağı ve cildiyle rafta duran kitap</td><td>Kromozom</td></tr><tr><td>Kitabın sayfalarındaki yazının tamamı</td><td>X</td></tr><tr><td>Kitaptaki hikâyelerden biri</td><td>Y</td></tr><tr><td>Hikâyedeki bir harf</td><td>Nükleotid</td></tr></table>`,
+  secenekler: [
+    "X: Gen — Y: DNA",
+    "X: DNA — Y: Gen",
+    "X: DNA — Y: Organik baz",
+    "X: Gen — Y: Nükleotid"
+  ],
   dogru: 1,
   hatalar: [
-    "Geni DNA sanma: DNA kitaptaki yazının tamamına benzer; bir hikâye ise yazının anlamlı bir bölümüdür.",
+    "Büyüklük sırasını ters kurma: hikâye, yazının tamamının bir parçasıdır; gen de DNA'nın bir bölümüdür. Parça olan hikâyeye DNA, bütün olan yazıya gen denemez.",
     null,
-    "Tablodaki eşleştirmeyi tekrar etme: nükleotid zaten harfin karşılığı olarak verilmiştir; bir hikâye tek bir harften oluşmaz.",
-    "Bazı yapı birimi sanma: organik baz nükleotidin bir parçasıdır, yani harften bile küçüktür."
+    "Hikâyeyi harften küçük sanma: organik baz, nükleotidin yalnızca bir parçasıdır, yani harften bile küçüktür; oysa bir hikâye çok sayıda harften oluşur.",
+    "Eşleştirmeleri bir basamak aşağı kaydırma: nükleotid zaten harfin karşılığıdır; yazının tamamı ise tek bir gen değil, bütün genleri taşıyan DNA'dır."
   ],
-  aciklama: `Bu benzetmede büyükten küçüğe doğru bir sıralama vardır: kitap, hikâye, harf.
-Adım 1: Rafta duran bir kitap kromozoma benzetilmiş. Kromozom, kalıtsal bilginin paketlenmiş hâlidir; kitap da çok sayıda yazıyı bir arada tutar.
-Adım 2: Hikâyedeki bir harf ise nükleotide benzetilmiş. Nükleotid DNA'nın en küçük yapı birimidir; harf de yazının en küçük parçasıdır.
-Adım 3: Aradaki basamağa bak. Bir hikâye, çok sayıda harften oluşan ve kendi başına anlam taşıyan bir bölümdür.
-Adım 4: Hücrede bunun karşılığı gendir. Gen, çok sayıda nükleotidden oluşan ve bir özelliğin ortaya çıkmasını sağlayan anlamlı DNA bölümüdür.
-Sağlama: Sıralamayı kontrol et: kitap > hikâye > harf, yani kromozom > gen > nükleotid. Sıralama uyuyor.
-Sık yapılan hata: Boşluğa DNA yazmak. DNA, kitabın içindeki yazının tamamına karşılık gelir; tek bir hikâyeye değil.
+  aciklama: `Bu benzetmede büyükten küçüğe doğru bir sıralama vardır: kitap, yazının tamamı, hikâye, harf. Hücredeki yapılar da büyükten küçüğe kromozom, DNA, gen, nükleotid diye sıralanır.
+Adım 1: Verilen eşleştirmelere bak. Kitap kromozoma, harf ise DNA'nın en küçük yapı birimi olan nükleotide benzetilmiş.
+Adım 2: X'i bul. Sayfalardaki yazının tamamı, kitabın taşıdığı bütün bilgidir. Kromozomun içinde bütün kalıtsal bilgiyi taşıyan molekül DNA'dır. Öyleyse X: DNA.
+Adım 3: Y'yi bul. Hikâye, yazının tamamının bir bölümüdür ve kitapta her biri farklı bir olayı anlatan çok sayıda hikâye vardır. Gen de DNA üzerinde bir özelliğin ortaya çıkmasını sağlayan anlamlı bölümdür ve bir DNA üzerinde çok sayıda gen bulunur. Öyleyse Y: Gen.
+Adım 4: En güçlü çeldirici, X ile Y'nin yer değiştirdiği şıktır. Orada hikâye DNA'ya, yazının tamamı gene benzetilmiş. Oysa parça bütünden büyük olamaz: gen DNA'nın içindedir, DNA genin içinde değildir.
+Sağlama: Sıralamayı denetle: kitap > yazının tamamı > hikâye > harf, yani kromozom > DNA > gen > nükleotid. Her basamak bir öncekinin içinde yer alıyor.
+Sık yapılan hata: Gen ile DNA'yı aynı şey sanmak. DNA yazının tamamıdır; gen ise o yazının içindeki hikâyelerden yalnızca biridir.
 Cevap B.`
 },
 {
@@ -753,56 +758,60 @@ Cevap D.`
   kazanim: "F.8.2.1.3",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir doktor, hastasına kemik iliğinde her gün milyonlarca yeni kan hücresi üretildiğini, bu üretimin var olan hücrelerin art arda bölünmesiyle gerçekleştiğini anlatmıştır.
+  soru: `Fen dersinde DNA'nın kendini eşlemesi kartlarla canlandırılmaktadır. Tahtaya, birbirinden ayrılmış iki eski zincir görseldeki gibi asılmıştır. Öğrenciler, masadaki kutudan aldıkları yeni nükleotid kartlarını eski zincirlerdeki bazların karşısına eşleşme kuralına göre yerleştirecektir. Kutuda yeterince adenin, guanin ve sitozin kartı bulunmakta, ancak hiç timin kartı kalmamıştır.
 Buna göre;
-I. Yeni üretilen kan hücrelerinde, bölündükleri hücredekinden daha az sayıda gen bulunur.
-II. Üretimin sürebilmesi için hücrelerde DNA eşlenmesinin tekrarlanması gerekir.
-III. Yeni kan hücrelerinin kalıtsal bilgisi, bölündükleri hücrelerinkiyle aynıdır.
-**yargılarından hangileri kesinlikle doğrudur?**`,
-  gorsel: null,
-  secenekler: ["Yalnız II", "I ve II", "I ve III", "II ve III"],
-  dogru: 3,
+I. 1. zincirin karşısına kurulacak yeni zincir tamamlanamaz.
+II. 2. zincirdeki timin bazlarının karşısına kart yerleştirilemez.
+III. 1. zincirdeki guanin ve sitozin bazlarının karşısına kart yerleştirilebilir.
+**yargılarından hangileri doğrudur?**`,
+  gorsel: `<svg viewBox="0 0 560 300" role="img" aria-label="Kartlarla eşlenme canlandırması: birbirinden ayrılmış iki eski zincir ve yeni kartların yerleştirileceği boş yerler"><g stroke="currentColor" stroke-width="5" stroke-linecap="round"><line x1="100" y1="36" x2="480" y2="36"/><line x1="100" y1="258" x2="480" y2="258"/></g><g stroke="currentColor" stroke-width="2"><line x1="150" y1="36" x2="150" y2="48"/><line x1="220" y1="36" x2="220" y2="48"/><line x1="290" y1="36" x2="290" y2="48"/><line x1="360" y1="36" x2="360" y2="48"/><line x1="430" y1="36" x2="430" y2="48"/><line x1="150" y1="246" x2="150" y2="258"/><line x1="220" y1="246" x2="220" y2="258"/><line x1="290" y1="246" x2="290" y2="258"/><line x1="360" y1="246" x2="360" y2="258"/><line x1="430" y1="246" x2="430" y2="258"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="1.5"><rect x="130" y="48" width="40" height="32" rx="5"/><rect x="200" y="48" width="40" height="32" rx="5"/><rect x="270" y="48" width="40" height="32" rx="5"/><rect x="340" y="48" width="40" height="32" rx="5"/><rect x="410" y="48" width="40" height="32" rx="5"/><rect x="130" y="214" width="40" height="32" rx="5"/><rect x="200" y="214" width="40" height="32" rx="5"/><rect x="270" y="214" width="40" height="32" rx="5"/><rect x="340" y="214" width="40" height="32" rx="5"/><rect x="410" y="214" width="40" height="32" rx="5"/></g><g fill="currentColor" font-size="18" font-weight="bold" text-anchor="middle"><text x="150" y="70">G</text><text x="220" y="70">A</text><text x="290" y="70">C</text><text x="360" y="70">A</text><text x="430" y="70">G</text><text x="150" y="236">C</text><text x="220" y="236">T</text><text x="290" y="236">G</text><text x="360" y="236">T</text><text x="430" y="236">C</text></g><g fill="none" stroke="var(--vurgu)" stroke-width="2" stroke-dasharray="5 4"><rect x="130" y="92" width="40" height="32" rx="5"/><rect x="200" y="92" width="40" height="32" rx="5"/><rect x="270" y="92" width="40" height="32" rx="5"/><rect x="340" y="92" width="40" height="32" rx="5"/><rect x="410" y="92" width="40" height="32" rx="5"/><rect x="130" y="170" width="40" height="32" rx="5"/><rect x="200" y="170" width="40" height="32" rx="5"/><rect x="270" y="170" width="40" height="32" rx="5"/><rect x="340" y="170" width="40" height="32" rx="5"/><rect x="410" y="170" width="40" height="32" rx="5"/></g><text x="290" y="153" fill="var(--vurgu)" font-size="15" text-anchor="middle">yeni kartların yerleştirileceği yerler</text><g fill="currentColor" font-size="15"><text x="12" y="41">1. zincir</text><text x="12" y="263">2. zincir</text></g><text x="290" y="292" fill="currentColor" font-size="15" text-anchor="middle">Kutudaki kartlar: A, G, C (T kartı yok)</text></svg>`,
+  secenekler: ["I ve II", "I ve III", "II ve III", "I, II ve III"],
+  dogru: 1,
   hatalar: [
-    "III'ü atlama: eşlenmede eski zincirler kalıp olduğu için yeni hücrelerin kalıtsal bilgisi bölündükleri hücreyle aynıdır.",
-    "I'i doğru sayma: bölünmeyle gen sayısı azalmaz; her yeni hücre genlerin tamamını alır.",
-    "Hem I'i doğru sayma hem II'yi atlama: gen sayısı azalmaz ve her bölünme kendi öncesinde bir eşlenme gerektirir.",
-    null
+    "Timin eksikliğini her yere yayma: 2. zincirdeki timinlerin karşısına adenin kartı konur; 1. zincirdeki guanin ve sitozinlerin karşısına da kart konabilir. Eksik kart yalnızca adeninlerin karşısını boş bırakır.",
+    null,
+    "Yeni zincire eski bazın aynısını koymaya çalışma: yeni zincire eski bazın eşi konur. Bu yüzden boş kalan yerler timinlerin değil adeninlerin karşısıdır; tamamlanamayan da 1. zincirin karşısındaki yeni zincirdir.",
+    "II'yi doğru sayma: timin kartı eski zincirdeki adeninlerin karşısı için gerekir. 2. zincirdeki timinlerin karşısına ise kutuda bulunan adenin kartları konur."
   ],
-  aciklama: `Kemik iliğindeki üretim, hücrelerin art arda bölünmesiyle sürer. Her bölünmenin kendi hazırlığı vardır.
-Adım 1: I. yargıyı incele. Bölünmeden önce DNA kendini eşler, sonra kopyalar iki hücreye paylaştırılır. Bu yüzden yeni hücreler genlerin tamamını alır; gen sayısı azalmaz. I yanlıştır.
-Adım 2: II. yargıyı incele. Bölünme her tekrarlandığında hücrede yeniden tek kopya kalır. Üretimin sürmesi için eşlenmenin de her seferinde tekrarlanması gerekir. II doğrudur.
-Adım 3: III. yargıyı incele. Eşlenmede eski zincirler kalıp görevi gördüğü için oluşan DNA'ların baz sırası aynıdır. Yeni hücrelerin kalıtsal bilgisi de aynı olur. III doğrudur.
-Adım 4: Kesinlikle doğru olan yargılar II ve III'tür.
-Sağlama: Gen sayısı her bölünmede azalsaydı, birkaç gün içinde kan üretimi durur ve hücreler görevlerini yapamaz hâle gelirdi.
-Cevap D.`
+  aciklama: `Eşlenmede eski zincirler kalıp görevi görür: her bazın karşısına onun eşi olan nükleotid yerleşir. A karşısına T, T karşısına A, G karşısına C, C karşısına G gelir.
+Adım 1: Eksik kartın nerede gerektiğini bul. Timin kartı yalnızca eski zincirdeki adeninlerin karşısına konur. Öyleyse timin kartının eksikliği, adenin bulunan basamakları boş bırakır.
+Adım 2: I. yargıyı incele. 1. zincirde G – A – C – A – G bazları vardır. İki adeninin karşısına timin kartı gerekir ama kutuda timin kartı yoktur. Bu yeni zincir tamamlanamaz. I doğrudur.
+Adım 3: II. yargıyı incele. 2. zincirde C – T – G – T – C bazları vardır. Timinlerin karşısına adenin kartı konur ve kutuda adenin kartı vardır. II yanlıştır.
+Adım 4: III. yargıyı incele. 1. zincirdeki G'lerin karşısına sitozin, C'nin karşısına guanin kartı konur; bu kartlar kutuda vardır. Yeni zincir tamamlanamasa da bu bazların karşısına kart yerleştirilebilir. III doğrudur.
+Adım 5: Doğru yargılar I ve III'tür.
+En güçlü çeldirici II'yi doğru sayan şıklardır. "Timin kartı yok, öyleyse timinlerin karşısı boş kalır." diye düşünmek kolaydır; oysa timinin karşısına timin değil adenin gelir.
+Sık yapılan hata: Yeni zincire, eski zincirdeki bazın aynısının geldiğini sanmak. Yeni zincire her zaman bazın eşi gelir; bu yüzden eksik bir kart, kendi eşi olan bazın bulunduğu basamakları etkiler.
+Cevap B.`
 },
 {
   id: "fen-dn-314",
   kazanim: "F.8.2.1.3",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir balık çiftliğinde döllenmiş alabalık yumurtaları özel havuzlarda tutulmaktadır. Çiftlik görevlisi, yumurtanın içindeki tek hücrenin art arda bölünerek binlerce hücreye ulaştığını ve zamanla yavru balığın oluştuğunu anlatmıştır.
-Buna göre;
-I. Yavru balığı oluşturan hücrelerin hepsi aynı kalıtsal bilgiyi taşır.
-II. Bu bölünmelerde DNA eşlenmesi yalnızca ilk bölünmeden önce gerçekleşmiştir.
-III. Hücre sayısı arttıkça her hücredeki kromozom sayısı azalmıştır.
-**yargılarından hangileri doğrudur?**`,
+  soru: `Bir balık çiftliğinde, döllenmiş alabalık yumurtalarındaki tek hücrenin art arda bölünmesiyle gelişen yavrular büyütülmektedir. Bir araştırmacı, yavruların kalıtsal özelliklerini incelemek için her yavrunun kuyruk yüzgecinin ucundan küçük bir parça kesmiş; yavruya zarar vermemek için göz, kalp ya da solungaçtan örnek almamıştır. Kesilen yüzgeç ucu zamanla yeniden uzamıştır. Araştırmacı, yüzgeçten alınan bu küçük örneğin yavrunun bütün hücrelerindeki kalıtsal bilgiyi gösterdiğini söylemiştir.
+**Buna göre araştırmacının bu yargısı aşağıdaki bilgilerden hangisine dayanmaktadır?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
-  dogru: 0,
-  hatalar: [
-    null,
-    "I'i atlayıp II'yi doğru sayma: eşlenme her bölünmeden önce yeniden yapılır ve bütün hücreler aynı bilgiyi taşır.",
-    "III'ü doğru sayma: eşlenme sayesinde her yeni hücrede kromozom sayısı korunur.",
-    "İki yanlış yargıyı seçme: eşlenme tekrarlanır ve kromozom sayısı azalmaz."
+  secenekler: [
+    "Yüzgeç hücreleri, yavrunun diğer hücrelerinden daha çok gen taşır.",
+    "Kesilen yüzgeçteki hücreler bölünerek yeni hücreler oluşturur.",
+    "DNA'nın iki zinciri, karşılıklı bazların eşleşmesiyle bir arada durur.",
+    "Yavrunun bütün hücreleri, eşlenen aynı DNA'nın kopyalarını taşır."
   ],
-  aciklama: `Bir yumurtadaki tek hücreden binlerce hücrenin oluşması, art arda gerçekleşen bölünmelerle mümkün olur.
-Adım 1: I. yargıyı incele. Bütün hücreler aynı hücrenin bölünmesiyle oluşmuştur ve her bölünmeden önce DNA kendini eşlemiştir. Bu yüzden hepsi aynı kalıtsal bilgiyi taşır. I doğrudur.
-Adım 2: II. yargıyı incele. İlk bölünmeden sonra her hücrede yine tek kopya kalır. İkinci bölünmenin de kendi eşlenmesine ihtiyacı vardır. Yani eşlenme yalnızca bir kez değil, her bölünmeden önce yapılır. II yanlıştır.
-Adım 3: III. yargıyı incele. Eşlenme sayesinde kalıtsal bilgi önce iki katına çıkar, sonra paylaştırılır. Böylece her hücrede kromozom sayısı korunur, azalmaz. III yanlıştır.
-Adım 4: Doğru olan yalnızca I. yargıdır.
-Sağlama: Kromozom sayısı her bölünmede yarıya inseydi yavru balık oluşamadan hücrelerin kalıtsal bilgisi tükenirdi.
-Cevap A.`
+  dogru: 3,
+  hatalar: [
+    "Hücreler arasında gen farkı olduğunu sanma: aynı canlının vücut hücrelerinin hepsi aynı genleri taşır; yüzgeç hücresinin fazladan geni yoktur.",
+    "Metinde geçen ama yargıyı açıklamayan bilgiyi seçme: yüzgecin yeniden uzaması yalnızca yüzgeçteki hücrelerin bölündüğünü gösterir; yüzgeç hücresinin göz ya da kalp hücresiyle aynı bilgiyi taşıdığını açıklamaz.",
+    "Doğru ama soruyla ilgisiz bilgiyi seçme: bu bilgi DNA'nın yapısını anlatır; farklı organlardaki hücrelerin neden aynı bilgiyi taşıdığını açıklamaz.",
+    null
+  ],
+  aciklama: `Araştırmacının yargısı şudur: yüzgeçten alınan küçük bir örnek, yavrunun bütün hücrelerindeki kalıtsal bilgiyi gösterir. Bu yargının doğru olması için yüzgeç hücresinin göz, kalp ya da solungaç hücresiyle aynı DNA'yı taşıması gerekir.
+Adım 1: Yavrunun nasıl oluştuğuna bak. Bütün hücreleri, döllenmiş yumurtadaki tek hücrenin art arda bölünmesiyle oluşmuştur.
+Adım 2: Her bölünmeden önce DNA kendini eşler. Eşlenmede eski zincirler kalıp olduğu için kopyaların baz dizilimi birbirinin aynısıdır.
+Adım 3: Öyleyse yüzgeçteki hücre de gözdeki ya da kalpteki hücre de aynı DNA'nın kopyalarını taşır. Araştırmacının yargısı bu bilgiye dayanır.
+Adım 4: En güçlü çeldirici, yüzgecin yeniden uzamasıyla ilgili şıktır. Bu bilgi metinde geçer ve doğrudur; ama yalnızca yüzgeçteki hücrelerin bölündüğünü gösterir. Yüzgeç hücresinin kalp hücresiyle aynı bilgiyi taşıdığını açıklamaz.
+Adım 5: Yüzgeç hücrelerinin daha çok gen taşıdığı bilgisi yanlıştır; aynı canlının vücut hücrelerinde aynı genler bulunur. DNA'nın iki zincirinin bazlarla bir arada durması ise doğrudur ama bu yargıyla ilgisizdir.
+Sık yapılan hata: Metinde geçen doğru bir bilgiyi, sorulan yargının dayanağı sanmak. Dayanak, yargıyı açıklayan bilgidir; yalnızca doğru olması yetmez.
+Cevap D.`
 },
 {
   id: "fen-dn-315",
@@ -892,23 +901,25 @@ Cevap B.`
   kazanim: "F.8.2.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Üç öğrenci, bir nükleotidin bölümlerinin nasıl bağlandığını göstermek için görseldeki şemaları çizmiştir. Şemalarda kutuların içine bölümlerin adları yazılmıştır.
-**Buna göre nükleotidin yapısını doğru gösteren şema ya da şemalar hangileridir?**`,
-  gorsel: `<svg viewBox="0 0 540 260" role="img" aria-label="Üç öğrencinin çizdiği nükleotid şemaları"><g fill="var(--vurgu)" font-size="17" font-weight="bold"><text x="14" y="52">K</text><text x="14" y="140">L</text><text x="14" y="228">M</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="50" y="22" width="130" height="40" rx="6"/><rect x="210" y="22" width="130" height="40" rx="6"/><rect x="370" y="22" width="130" height="40" rx="6"/><rect x="50" y="110" width="130" height="40" rx="6"/><rect x="210" y="110" width="130" height="40" rx="6"/><rect x="370" y="110" width="130" height="40" rx="6"/><rect x="50" y="198" width="130" height="40" rx="6"/><rect x="210" y="198" width="130" height="40" rx="6"/><rect x="370" y="198" width="130" height="40" rx="6"/></g><g stroke="currentColor" stroke-width="2.5"><line x1="180" y1="42" x2="210" y2="42"/><line x1="340" y1="42" x2="370" y2="42"/><line x1="180" y1="130" x2="210" y2="130"/><line x1="340" y1="130" x2="370" y2="130"/><line x1="180" y1="218" x2="210" y2="218"/><line x1="340" y1="218" x2="370" y2="218"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="115" y="48">Fosfat</text><text x="275" y="48">Şeker</text><text x="435" y="48">Organik baz</text><text x="115" y="136">Şeker</text><text x="275" y="136">Fosfat</text><text x="435" y="136">Organik baz</text><text x="115" y="224">Fosfat</text><text x="275" y="224">Organik baz</text><text x="435" y="224">Şeker</text></g></svg>`,
-  secenekler: ["Yalnız K", "Yalnız L", "K ve M", "L ve M"],
+  soru: `Dört öğrenci, DNA'nın yapı birimi olan nükleotidi tanıtmak için görseldeki şemaları çizmiştir. Şemalarda kutuların içine bölümlerin adları yazılmış, birbirine bağlanan bölümler çizgiyle birleştirilmiştir. Öğretmen, doğru bir şemanın hem nükleotidi oluşturan bölümleri hem de bu bölümlerin birbirine bağlanma sırasını doğru göstermesi gerektiğini söylemiştir.
+**Buna göre nükleotidin yapısını doğru gösteren şema hangisidir?**`,
+  gorsel: `<svg viewBox="0 0 540 320" role="img" aria-label="Dört öğrencinin çizdiği nükleotid şemaları"><g fill="var(--vurgu)" font-size="17" font-weight="bold"><text x="14" y="50">K</text><text x="14" y="130">L</text><text x="14" y="210">M</text><text x="14" y="290">N</text></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="50" y="20" width="130" height="40" rx="6"/><rect x="210" y="20" width="130" height="40" rx="6"/><rect x="370" y="20" width="130" height="40" rx="6"/><rect x="50" y="100" width="130" height="40" rx="6"/><rect x="210" y="100" width="130" height="40" rx="6"/><rect x="370" y="100" width="130" height="40" rx="6"/><rect x="50" y="180" width="130" height="40" rx="6"/><rect x="210" y="180" width="130" height="40" rx="6"/><rect x="370" y="180" width="130" height="40" rx="6"/><rect x="50" y="260" width="130" height="40" rx="6"/><rect x="210" y="260" width="130" height="40" rx="6"/><rect x="370" y="260" width="130" height="40" rx="6"/></g><g stroke="currentColor" stroke-width="2.5"><line x1="180" y1="40" x2="210" y2="40"/><line x1="340" y1="40" x2="370" y2="40"/><line x1="180" y1="120" x2="210" y2="120"/><line x1="340" y1="120" x2="370" y2="120"/><line x1="180" y1="200" x2="210" y2="200"/><line x1="340" y1="200" x2="370" y2="200"/><line x1="180" y1="280" x2="210" y2="280"/><line x1="340" y1="280" x2="370" y2="280"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="115" y="46">Fosfat</text><text x="275" y="46">Şeker</text><text x="435" y="46">Organik baz</text><text x="115" y="126">Şeker</text><text x="275" y="126">Fosfat</text><text x="435" y="126">Organik baz</text><text x="115" y="206">Fosfat</text><text x="275" y="206">Organik baz</text><text x="435" y="206">Şeker</text><text x="115" y="286">Protein</text><text x="275" y="286">Şeker</text><text x="435" y="286">Organik baz</text></g></svg>`,
+  secenekler: ["K", "L", "M", "N"],
   dogru: 0,
   hatalar: [
     null,
-    "L şemasını doğru sanma: L'de fosfat ortaya konulmuş; oysa ortadaki bölüm şekerdir, fosfat uçta bulunur.",
-    "M şemasını da doğru sayma: M'de baz ile şekerin yeri değişmiştir; baz en uçtadır, şeker ortadadır.",
-    "İki yanlış şemayı seçme: nükleotidde şeker ortadadır; fosfat bir uçta, organik baz diğer uçta bulunur."
+    "Fosfatı ortaya koyma: nükleotidde fosfat ile organik baz birbirine doğrudan bağlanmaz; ikisi de ortadaki şekere bağlanır.",
+    "Organik bazı ortaya koyma: baz, şekere bağlı olarak uçta durur ve karşı zincirdeki eşiyle bu uçtan buluşur; ortada şeker bulunur.",
+    "Nükleotidin bölümlerini karıştırma: N'nin sıralaması K'ninkine benzese de nükleotidde protein bulunmaz; şekerin öbür yanına bağlanan bölüm fosfattır."
   ],
-  aciklama: `Bir nükleotidde deoksiriboz şekeri ortada durur; bir yanına fosfat, öbür yanına organik baz bağlanır.
-Adım 1: K şemasına bak: Fosfat – Şeker – Organik baz. Şeker ortadadır, fosfat bir uçta, baz diğer uçtadır. Bu doğru sıradır.
-Adım 2: L şemasına bak: Şeker – Fosfat – Organik baz. Burada ortaya fosfat konulmuş. Oysa fosfat, zincirin dış kenarında yer alan uç bölümdür. L yanlıştır.
-Adım 3: M şemasına bak: Fosfat – Organik baz – Şeker. Burada baz ortaya konulmuş. Oysa baz, karşı zincirdeki eşiyle buluşmak için en uçta bulunmalıdır. M yanlıştır.
-Adım 4: Öyleyse yalnızca K şeması doğrudur.
-Sağlama: DNA'da fosfat ve şekerler kenarı oluşturur, bazlar ise içeri doğru uzanıp eşleşir. Yalnızca K şeması bu görünümle uyumludur.
+  aciklama: `Nükleotid, DNA'nın yapı birimidir ve üç bölümden oluşur: fosfat, deoksiriboz şekeri ve organik baz. Bu bölümlerden şeker ortada durur; fosfat bir yanına, organik baz öbür yanına bağlanır.
+Adım 1: Önce bölümleri denetle. K, L ve M şemalarında fosfat, şeker ve organik baz vardır. N şemasında ise fosfatın yerine protein yazılmıştır. Protein nükleotidin bir bölümü değildir. N yanlıştır.
+Adım 2: Şimdi sıralamayı denetle. K şemasında sıra Fosfat – Şeker – Organik baz'dır; şeker ortadadır. K doğrudur.
+Adım 3: L şemasında ortaya fosfat konulmuştur. Oysa fosfat ile baz doğrudan bağlanmaz. L yanlıştır.
+Adım 4: M şemasında ortaya organik baz konulmuştur. Oysa baz uçta durur ve karşı zincirdeki eşiyle bu uçtan buluşur. M yanlıştır.
+Adım 5: En güçlü çeldirici N şemasıdır. Sıralaması K'ninkine benzediği için yalnızca sıraya bakan öğrenci onu da doğru sanabilir; ama bölümlerinden biri yanlıştır.
+Sağlama: DNA'da fosfat ve şekerler art arda dizilerek zincirin kenarını oluşturur, bazlar ise içeri uzanıp eşleşir. Bu görünüm, şekerin ortada durduğu K şemasıyla uyuşur.
+Sık yapılan hata: Yalnızca sıralamaya bakıp bölümleri denetlememek. Bir şemanın doğru olması için hem bölümleri hem de sırası doğru olmalıdır.
 Cevap A.`
 },
 {
@@ -944,23 +955,24 @@ Cevap A.`
   kazanim: "F.8.2.1.2",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir öğrenci, üç DNA örneğinin (K, L, M) karşılıklı zincirlerindeki bazları tabloya yazmıştır. Öğretmeni, örneklerden yalnızca birinde bütün eşleşmelerin DNA'nın yapısına uygun olduğunu söylemiştir.
-**Buna göre bu örnek aşağıdakilerden hangisidir?**`,
-  gorsel: `<table class="tablo"><tr><th>Örnek</th><th>1. zincir</th><th>2. zincir</th></tr><tr><td>K</td><td>A – G – C – T – A</td><td>T – C – G – A – G</td></tr><tr><td>L</td><td>G – T – A – C – G</td><td>C – A – T – G – C</td></tr><tr><td>M</td><td>T – C – G – A – T</td><td>A – G – C – T – G</td></tr></table>`,
-  secenekler: ["Yalnız K", "Yalnız L", "K ve M", "L ve M"],
+  soru: `Bir öğrenci, üç DNA bölümünün (K, L, M) karşılıklı zincirlerindeki bazları tabloya yazmıştır. Tabloda iki zincirde aynı sırada yazılan bazlar, aynı basamakta karşı karşıya gelen bazlardır. Öğretmeni, bu bölümlerden hangilerinin gerçek bir DNA molekülünde bulunabileceğini anlamak için her basamaktaki karşılıklı bazları tek tek denetlemesini istemiştir.
+**Buna göre bütün basamaklarındaki eşleşmeler DNA'nın yapısına uygun olan bölümler hangileridir?**`,
+  gorsel: `<table class="tablo"><tr><th>DNA bölümü</th><th>1. zincir</th><th>2. zincir</th></tr><tr><td>K</td><td>A – T – G – C – A</td><td>G – C – A – T – G</td></tr><tr><td>L</td><td>G – T – A – A – C</td><td>C – A – T – T – G</td></tr><tr><td>M</td><td>T – C – G – A – T</td><td>A – G – C – T – T</td></tr></table>`,
+  secenekler: ["Yalnız K", "Yalnız L", "K ve L", "L ve M"],
   dogru: 1,
   hatalar: [
-    "K'nin son basamağını atlama: K'de son çift A – G'dir; adeninin eşi guanin değil timindir.",
+    "Eşleşme kuralını A–G ve T–C sanma: K'deki bütün çiftler bu yanlış kurala uyar; DNA'da ise adenin timinle, guanin sitozinle eşleşir.",
     null,
-    "İki örneği birden uygun sayma: K'nin son basamağındaki A – G ve M'nin son basamağındaki T – G eşleşmeleri kurala aykırıdır.",
-    "M'yi uygun sayma: M'nin son basamağında T – G vardır; timinin eşi guanin değil adenindir."
+    "Karşılıklı bazların yalnızca farklı olmasını yeterli sanma: K'deki A–G ve T–C gibi çiftlerde bazlar birbirinden farklıdır ama DNA'daki eşleşme kuralına uymaz.",
+    "Denetimi son basamağa kadar sürdürmeme: M'nin ilk dört basamağı uygundur ama 5. basamakta timinin karşısında yine timin vardır."
   ],
-  aciklama: `Her örnekteki basamakları soldan sağa tek tek denetle. Kural: A karşısına T, G karşısına C.
-Adım 1: K örneğini denetle: A–T ✔, G–C ✔, C–G ✔, T–A ✔, A–G ✘. Son basamakta adeninin karşısına guanin yazılmış. K uygun değildir.
-Adım 2: L örneğini denetle: G–C ✔, T–A ✔, A–T ✔, C–G ✔, G–C ✔. Beş basamağın hepsi kurala uygundur. L uygundur.
-Adım 3: M örneğini denetle: T–A ✔, C–G ✔, G–C ✔, A–T ✔, T–G ✘. Son basamakta timinin karşısına guanin yazılmış. M uygun değildir.
-Adım 4: Öyleyse bütün eşleşmeleri uygun olan örnek yalnızca L'dir.
-Sık yapılan hata: İlk birkaç basamak doğru çıkınca örneğin tamamını uygun saymak. Son basamağa kadar denetlemelisin.
+  aciklama: `DNA'da karşılıklı bazlar yalnızca iki biçimde eşleşir: adenin ile timin (A–T), guanin ile sitozin (G–C). Bazın hangi zincirde durduğu önemli değildir; T–A ve C–G de uygun çiftlerdir.
+Adım 1: K'yi denetle: A–G ✘, T–C ✘, G–A ✘, C–T ✘, A–G ✘. K'deki çiftlerin hiçbiri kurala uymaz. K uygun değildir.
+Adım 2: L'yi denetle: G–C ✔, T–A ✔, A–T ✔, A–T ✔, C–G ✔. Beş basamağın hepsi uygundur. 1. zincirde art arda iki A bulunması da sorun değildir; kural yalnızca karşı karşıya gelen bazlar içindir. L uygundur.
+Adım 3: M'yi denetle: T–A ✔, C–G ✔, G–C ✔, A–T ✔, T–T ✘. Son basamakta timinin karşısında yine timin vardır. M uygun değildir.
+Adım 4: Öyleyse bütün eşleşmeleri uygun olan bölüm yalnızca L'dir.
+En güçlü çeldirici "L ve M" şıkkıdır: M'nin ilk dört basamağı kusursuz olduğu için denetimi erken bitiren öğrenci M'yi de uygun sayar. Oysa tek bir uygunsuz basamak bile o bölümü geçersiz kılar.
+Sık yapılan hata: Eşleşme kuralını A–G ve T–C diye karıştırmak. Bu yanlış kuralla bakan biri K'yi uygun, L'yi uygunsuz bulur; oysa durum tam tersidir.
 Cevap B.`
 }
 ,
@@ -1147,28 +1159,29 @@ Cevap C.`
   kazanim: "F.8.2.1.1",
   kademe: 0,
   zorluk: 3,
-  soru: `Bir hücrenin çekirdeğinden alınan bir DNA molekülü incelenmektedir.
-Buna göre bu molekülle ilgili;
-I. Üzerinde çok sayıda gen bulunur.
-II. Yapı birimi nükleotiddir.
-III. Proteinlerle birlikte paketlenerek kromozomu oluşturur.
+  soru: `Bir öğrenci, pazarda sarı ve mor taneli mısır koçanları görmüş, tane renginin genlerle belirlendiğini öğrenmiştir. Konuyu araştırırken mısırın vücut hücrelerinin her birinde 20 kromozom bulunduğunu da not etmiştir. Ardından mısırla ilgili üç yargı yazmıştır.
+Buna göre öğrencinin yazdığı;
+I. Yaprak hücresinde 20'den fazla gen bulunur.
+II. Farklı özellikleri belirleyen genler, farklı çeşit nükleotidlerden oluşur.
+III. Kök hücresinde de tane rengini belirleyen genler bulunur.
 **yargılarından hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
-  dogru: 3,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve III", "I, II ve III"],
+  dogru: 2,
   hatalar: [
-    "II ve III'ü atlama: DNA'nın yapı birimi nükleotiddir ve DNA, proteinlerle paketlenerek kromozomu oluşturur.",
-    "III'ü atlama: kromozom, DNA'nın proteinlerle birlikte sarılmış hâlidir.",
-    "I'i atlama: bir DNA molekülü üzerinde binlerce gen bulunabilir; gen, DNA'nın anlamlı bir bölümüdür.",
-    null
+    "III'ü atlama: bir hücre yalnızca kendi işine yarayan genleri taşımaz; mısırın kök hücresi de yaprak hücresi de bitkinin bütün genlerini taşır.",
+    "Bir kromozomu tek bir gen sanma: her kromozomun üzerinde çok sayıda gen bulunur; 20 kromozomlu bir hücrede 20'den çok daha fazla gen vardır.",
+    null,
+    "II'yi doğru sayma: bütün genler aynı dört çeşit nükleotidden oluşur; genleri birbirinden ayıran, nükleotidlerin diziliş sırasıdır."
   ],
-  aciklama: `DNA'yı üç yönden düşün: neyden yapılmıştır, üzerinde ne taşır, hücrede hangi yapıyı oluşturur.
-Adım 1: I. yargıyı incele. Gen, DNA üzerinde bir özelliğin ortaya çıkmasını sağlayan anlamlı bölümdür. Bir DNA molekülü üzerinde binlerce gen bulunur. I doğrudur.
-Adım 2: II. yargıyı incele. DNA'nın yapı birimi nükleotiddir; her nükleotid bir fosfat, bir deoksiriboz şekeri ve bir organik bazdan oluşur. II doğrudur.
-Adım 3: III. yargıyı incele. DNA, proteinlerle birlikte sıkıca sarılıp paketlendiğinde kromozomu oluşturur. III doğrudur.
-Adım 4: Üç yargı da doğrudur.
-Sağlama: Büyükten küçüğe sıralama kromozom > DNA > gen > nükleotid biçimindedir; üç yargı da bu sıralamayla uyumludur.
-Cevap D.`
+  aciklama: `Gen, DNA üzerinde bir özelliğin ortaya çıkmasını sağlayan ve çok sayıda nükleotidden oluşan anlamlı bölümdür. Bu soruda bu tanımı kromozom sayısına ve bir bitkinin farklı hücrelerine uygulaman gerekiyor.
+Adım 1: I. yargıyı incele. Mısırın her vücut hücresinde 20 kromozom vardır ve her kromozomun üzerinde tek bir gen değil, çok sayıda gen bulunur. Öyleyse yaprak hücresinde 20'den fazla gen vardır. I doğrudur.
+Adım 2: II. yargıyı incele. DNA'da yalnızca dört çeşit nükleotid bulunur: adenin, timin, guanin ve sitozin nükleotidleri. Bütün genler bu dört çeşitten oluşur. Tane rengini belirleyen gen ile başka bir özelliği belirleyen gen, nükleotidlerinin çeşidiyle değil diziliş sırasıyla ayrılır. II yanlıştır.
+Adım 3: III. yargıyı incele. Bir bitkinin bütün vücut hücreleri aynı DNA'yı taşır. Kökte tane oluşmasa da kök hücresi tane rengini belirleyen genleri taşır. III doğrudur.
+Adım 4: Doğru yargılar I ve III'tür.
+En güçlü çeldirici III'ü eleyen şıktır: "Kökte tane yok, öyleyse tane rengi geni de yoktur." diye düşünmek kolaydır. Oysa bir hücrenin bir geni taşıması, o özelliği o hücrede göstermesi anlamına gelmez.
+Sık yapılan hata: Kromozom sayısını gen sayısı sanmak. Tek bir kromozomun üzerinde çok sayıda gen sıralanır; bu yüzden bir hücredeki gen sayısı kromozom sayısından çok daha büyüktür.
+Cevap C.`
 },
 {
   id: "fen-dn-015",

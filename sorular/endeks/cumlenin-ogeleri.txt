@@ -38,10 +38,10 @@ tur-og-111 | T.8.4.18 | z1 | k1 | Aşağıdaki tabloda bir mahalle fırınının
 tur-og-112 | T.8.4.18 | z1 | k1 | Sabahleyin kıyıdaki eski fener birden söndü. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓kıyıdaki eski fener
 tur-og-113 | T.8.4.18 | z1 | k1 | Aşağıdaki tabloda bir hayvan barınağında geçen bir gün anlatılmaktadır. Bu cümlelerin hangisinde nesne kullanılmıştır? | ✓IV
 tur-og-114 | T.8.4.18 | z1 | k1 | Genç çoban sürüsünü akşamüstü sakince otlattı. Bu cümlede aşağıdaki ögelerden hangisi kullanılmamıştır? | ✓yer tamlayıcısı
-tur-og-115 | T.8.4.18 | z1 | k1 | Küçük yelkenliler sabahleyin limandan sessizce ayrıldı. Bu cümle kaç ögeden oluşmaktadır? | ✓Beş
 tur-og-116 | T.8.4.18 | z1 | k1 | Postacı komşumuza kargoyu öğleden sonra teslim etti. Bu cümlenin yer tamlayıcısı (dolaylı tümleci) aşağıdakilerden hangisidir? | ✓komşumuza
 tur-og-117 | T.8.4.18 | z1 | k1 | Bahçıvan fideleri serada dikkatle suladı. Bu cümlenin zarf tamlayıcısı aşağıdakilerden hangisidir? | ✓dikkatle
-tur-og-118 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda karlı bir kış günü dört cümleyle anlatılmıştır. Bu cümlelerin hangisinin yüklemi bir fiil değildir? | ✓I
+tur-og-115 | T.8.4.18 | z2 | k1 | Küçük yelkenliler sabahleyin limandan sessizce ayrıldı. Bu cümle kaç ögeden oluşmaktadır? | ✓Beş
+tur-og-118 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda bir köyde geçen kış tatilinden dört cümle verilmiştir. Bu cümlelerin hangisinde özne tek bir sözcükten oluşmakt… | ✓I
 tur-og-119 | T.8.4.18 | z2 | k1 | Sahilde düzenlenen uçurtma şenliğine bu yıl yüzlerce çocuk katıldı. Aşağıdaki cümlede bir söz boş bırakılmıştır: Rüzgâr, çocuklar… | ✓birden
 tur-og-120 | T.8.4.18 | z2 | k1 | Bir dağın eteğindeki meteoroloji istasyonunda iki görevli çalışıyor. Görevliler kar kalınlığını, rüzgâr hızını ve sıcaklığı her g… | ✓Küçük rüzgâr gülü direğin tepesinde döndü.
 tur-og-121 | T.8.4.18 | z2 | k1 | Okulumuzun aylık gazetesini bu yıl yedi öğrenci hazırlıyor. Ara söz, cümlede kendinden önce gelen bir sözü açıklamak için iki vir… | ✓Gazetenin kapak haberini, okul bahçesindeki …
@@ -60,12 +60,12 @@ tur-og-218 | T.8.4.18 | z2 | k2 | Bir arkeolojik kazı alanında çalışan ekip
 tur-og-219 | T.8.4.18 | z3 | k2 | Okulumuz, ilçedeki çıplak bir tepeye fidan dikmek için gönüllü aradı. Cumartesi sabahı kırk öğrenci otobüslerle tepeye çıktı; öğl… | ✓Üç
 tur-og-220 | T.8.4.18 | z3 | k2 | Dağ köyünde arıcılık yapan bir aileyi ziyaret ettik. Dedeleri kovanları hâlâ kendi elleriyle onarıyormuş. Aşağıdaki cümle o günde… | ✓Dört
 tur-og-221 | T.8.4.18 | z3 | k2 | Akdeniz kıyısındaki bir kumsalda yaz boyunca deniz kaplumbağası yuvaları korunuyor. Gönüllüler her sabah kumsalı geziyor, yeni yu… | ✓I ve III
-tur-og-222 | T.8.4.18 | z3 | k2 | Kasabanın deresi üstündeki taş değirmen, uzun bir aradan sonra yeniden un öğütüyor. Bir öğrenci, değirmenle ilgili dört cümleyi i… | ✓III
+tur-og-222 | T.8.4.18 | z3 | k2 | Küçük bir sahil kasabasında balıkçılar, fırtınada yırtılan ağlarını kış aylarında kıyıda onarır. Balıkçılardan biri, defterine ya… | ✓III
 tur-og-223 | T.8.4.18 | z3 | k2 | Okulumuzda her yıl bir münazara yarışması yapılır; iki takım aynı konuyu karşıt görüşlerle savunur. Yer tamlayıcısı yalnızca bir … | ✓Öğretmenimiz, son sözü rakip takımın sözcüsü…
-tur-og-224 | T.8.4.18 | z3 | k2 | Bir öğrenci, havalimanında çalışan bir görevliyle ilgili cümlenin ögelerini bulmak için yükleme sorular sormuş ve aşağıdaki şemay… | ✓Ne zaman?
+tur-og-224 | T.8.4.18 | z3 | k2 | Bir öğrenci, havalimanında çalışan bir görevliyi anlatan aşağıdaki cümlenin ögelerini bulmak için yükleme sorular sormuş ve bir ş… | ✓Ne zaman?
 tur-og-225 | T.8.4.18 | z3 | k2 | Kış akşamlarında köşe başındaki tezgâhtan bütün sokağa kestane kokusu yayılır. Aşağıdaki cümlede bir söz boş bırakılmıştır: Satıc… | ✓zarf tamlayıcısı
 tur-og-311 | T.8.4.18 | z3 | k3 | Türkçe dersinde cümlenin ögeleri işlenirken öğretmen şöyle bir ödev verdi: "Okul mutfağında geçen bir anı anlatan bir cümle kurun… | ✓Yemek kokusu, sabahleyin bütün koridora yayı…
-tur-og-312 | T.8.4.18 | z3 | k3 | Göller yöresindeki bir köyde temmuz ayında lavanta hasadı başlar. Bir öğrenci, hasatla ilgili dört cümlede vurgulanan ögeyi bulup… | ✓III
+tur-og-312 | T.8.4.18 | z3 | k3 | Göller yöresindeki bir köyde temmuz ayında lavanta hasadı başlar. Mor tarlalar biçilir, demetler kurutulur, çiçeklerden yağ elde … | ✓II ve IV
 tur-og-313 | T.8.4.18 | z3 | k3 | İlçe meydanındaki tarihî çeşme, uzun yıllar sonra yeniden onarıldı. Ara söz, kendinden önce gelen ögeyi açıklamak için iki virgül… | ✓I. cümle – belirtili nesne
 tur-og-314 | T.8.4.18 | z3 | k3 | Bir kentin boş duvarlarını renklendirmek için başlatılan projede gençler dev resimler yapıyor. Aşağıdaki cümlede iki söz boş bıra… | ✓zarf tamlayıcısı – yer tamlayıcısı
 tur-og-315 | T.8.4.18 | z3 | k3 | Tuz gölünün kıyısındaki sığ havuzlarda yazın tuz hasadı yapılır. Havuzlara alınan su güneşte buharlaşır, dipte beyaz bir tabaka k… | ✓III

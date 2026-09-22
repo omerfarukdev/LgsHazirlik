@@ -289,7 +289,7 @@ Cevap B.`
   kademe: 1,
   zorluk: 2,
   soru: "Bir öğrenci, defterine dört kareköklü ifadeyi sadeleştirerek yazmıştır. Öğrencinin yazdıkları aşağıdaki tabloda verilmiştir.\n**Buna göre öğrencinin hangi satırdaki sadeleştirmesi __yanlıştır__?**",
-  gorsel: `<table class="tablo"><tr><th>Satır</th><th>K</th><th>L</th><th>M</th><th>N</th></tr><tr><td>Öğrencinin yazdığı</td><td>√18 = 3√2</td><td>√40 = 4√10</td><td>√63 = 3√7</td><td>√75 = 5√3</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th>Satır</th><th>Öğrencinin yazdığı</th></tr><tr><td>K</td><td>√18 = 3√2</td></tr><tr><td>L</td><td>√40 = 4√10</td></tr><tr><td>M</td><td>√63 = 3√7</td></tr><tr><td>N</td><td>√75 = 5√3</td></tr></table>`,
   secenekler: ["K satırı", "L satırı", "M satırı", "N satırı"],
   dogru: 1,
   hatalar: [
@@ -504,24 +504,25 @@ Cevap A.`
   kazanim: "M.8.1.3.1",
   kademe: 2,
   zorluk: 3,
-  soru: `Bir okulun 150 öğrencisi, tören alanında sıra sayısı ile her sıradaki öğrenci sayısı eşit olacak biçimde kare düzende dizilecektir. Öğretmen, kare düzeni bozmadan en çok sayıda öğrenciyi dizmek, kalanları ise alanın kenarında bekletmek istemektedir.
-**Buna göre kaç öğrenci kenarda bekler?**`,
-  gorsel: `<svg viewBox="0 0 480 210" role="img" aria-label="150 öğrenci kare düzende dizilecektir; kare düzene girmeyen öğrenciler kenarda bekleyecektir."><rect x="45" y="40" width="170" height="130" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><g fill="currentColor"><circle cx="80" cy="75" r="6"/><circle cx="115" cy="75" r="6"/><circle cx="150" cy="75" r="6"/><circle cx="185" cy="75" r="6"/><circle cx="80" cy="110" r="6"/><circle cx="115" cy="110" r="6"/><circle cx="150" cy="110" r="6"/><circle cx="185" cy="110" r="6"/><circle cx="80" cy="145" r="6"/><circle cx="115" cy="145" r="6"/><circle cx="150" cy="145" r="6"/><circle cx="185" cy="145" r="6"/></g><text x="130" y="30" font-size="15" text-anchor="middle" fill="var(--vurgu)">kare düzen</text><g fill="var(--vurgu2)"><circle cx="290" cy="110" r="6"/><circle cx="315" cy="110" r="6"/><circle cx="340" cy="110" r="6"/></g><text x="315" y="90" font-size="15" text-anchor="middle" fill="var(--vurgu2)">kenarda bekleyenler</text><text x="380" y="60" font-size="16" fill="currentColor" font-weight="bold">Toplam: 150 öğrenci</text><text x="380" y="150" font-size="15" fill="currentColor">Sıra sayısı = bir sıradaki</text><text x="380" y="172" font-size="15" fill="currentColor">öğrenci sayısı</text></svg>`,
-  secenekler: ["6", "19", "29", "75"],
-  dogru: 0,
+  soru: `Deniz pul biriktirmektedir ve koleksiyonunda aynı boyutta, kare biçimli 150 pul vardır. Deniz, pullarının __hepsini__ kare biçimli bir sergi çerçevesine yerleştirmek istemektedir. Pullar çerçeveye yan yana ve alt alta, aralarında boşluk kalmadan dizilecek ve çerçevede hiç boş yer kalmayacaktır. Deniz çerçeveyi istediği boyutta yaptırabilmekte, gerekirse koleksiyonuna yeni pul eklemektedir.
+**Buna göre Deniz en az kaç pul daha almalıdır?**`,
+  gorsel: `<svg viewBox="0 0 480 230" role="img" aria-label="Kare sergi çerçevesine aynı boyuttaki kare pullar yan yana ve alt alta boşluksuz dizilecektir; Deniz'in 150 pulu vardır, eklenecek pul sayısı soruluyor."><rect x="30" y="20" width="190" height="190" fill="none" stroke="currentColor" stroke-width="6"/><g fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="2"><rect x="42" y="32" width="34" height="34"/><rect x="82" y="32" width="34" height="34"/><rect x="122" y="32" width="34" height="34"/><rect x="42" y="72" width="34" height="34"/><rect x="82" y="72" width="34" height="34"/><rect x="122" y="72" width="34" height="34"/><rect x="42" y="112" width="34" height="34"/><rect x="82" y="112" width="34" height="34"/><rect x="122" y="112" width="34" height="34"/></g><text x="186" y="96" font-size="22" text-anchor="middle" fill="currentColor">…</text><text x="99" y="186" font-size="22" text-anchor="middle" fill="currentColor">⋮</text><text x="245" y="55" font-size="16" fill="currentColor" font-weight="bold">Deniz'in pulları: 150</text><text x="245" y="88" font-size="15" fill="currentColor">Pulların hepsi kullanılacak.</text><text x="245" y="112" font-size="15" fill="currentColor">Çerçevede boş yer</text><text x="245" y="134" font-size="15" fill="currentColor">kalmayacak.</text><text x="245" y="172" font-size="16" fill="var(--vurgu2)" font-weight="bold">Eklenecek pul: ?</text><text x="125" y="226" font-size="14" text-anchor="middle" fill="currentColor">(pullar şematik çizilmiştir)</text></svg>`,
+  secenekler: ["6", "13", "19", "25"],
+  dogru: 2,
   hatalar: [
+    "150'yi geçmeyen en büyük tam kareyi (144) alıp artan pulları buldun: 150 − 144 = 6. Oysa Deniz pullarının hepsini kullanmak istiyor; 12 · 12 = 144 pulluk bir çerçeveye 150 pul sığmaz.",
+    "Yeni kare düzenin bir satırındaki pul sayısını (13) cevap sandın. Soru, bir satırdaki pul sayısını değil, kaç pul daha alınması gerektiğini soruyor.",
     null,
-    "13 sıra kurmaya çalıştın: 13^{2} = 169 > 150 olduğundan 13 sıra için öğrenci yetmez. 169 − 150 = 19 eksik olan öğrenci sayısıdır, artan değil.",
-    "11 sırada durdun: 11^{2} = 121 ve 150 − 121 = 29. Oysa 12^{2} = 144 ≤ 150 olduğundan 12 sıra daha kurulabilir; en çok öğrencinin dizilmesi isteniyor.",
-    "150'yi ikiye böldün. Kare düzende dizilen öğrenci sayısı toplamın yarısı değil, toplamı geçmeyen en büyük tam karedir."
+    "İki komşu tam karenin farkını aldın: 169 − 144 = 25. Deniz'in elinde 144 değil 150 pul var; eksik olan 169 − 150 kadardır."
   ],
-  aciklama: `Kare düzende dizilen öğrenci sayısı bir tam kare olmalıdır. "En çok öğrenci dizilsin" istendiğine göre 150'yi geçmeyen en büyük tam kareyi bulman gerekir.
-Adım 1: 150'ye komşu tam kareleri yaz: 12^{2} = 144 ve 13^{2} = 169.
-Adım 2: 144 ≤ 150 < 169 olduğundan en çok 12 sıra ve her sırada 12 öğrenci, yani 144 öğrenci dizilebilir. (Bu, √{150} sayısının 12 ile 13 arasında olması demektir.)
-Adım 3: Kenarda bekleyenleri bul: 150 − 144 = 6 öğrenci.
-Sağlama: 13 sıra kurulsaydı 169 öğrenci gerekirdi; 19 öğrenci eksik kalırdı. Demek ki 12 sıra doğru seçimdir.
-Sık yapılan hata: Karekökü yukarıya yuvarlamak. Eldeki sayıyı __aşmayan__ tam kare arandığında aşağıdaki tam kare alınır.
-Cevap A.`
+  aciklama: `Aynı boyuttaki kare pullar kare bir çerçeveyi boşluksuz dolduruyorsa satır sayısı ile bir satırdaki pul sayısı eşittir. Bu yüzden çerçevedeki toplam pul sayısı bir tam kare olmalıdır.
+Adım 1: 150'ye komşu tam kareleri bul: 12^{2} = 144 ve 13^{2} = 169. Yani 150 bir tam kare değildir ve 12 < √{150} < 13'tür.
+Adım 2: Deniz pulların hepsini kullanacağına göre çerçevedeki pul sayısı 150'den az olamaz. 144 pulluk çerçeve yetmez; 150'den büyük ilk tam kare 169'dur (13 satır, her satırda 13 pul).
+Adım 3: Eklenecek pul sayısını bul: 169 − 150 = 19.
+Sağlama: 150 + 19 = 169 = 13 · 13 olduğundan çerçeve tam dolar. 18 pul eklenseydi 168 pul olurdu; 168 tam kare değildir.
+En güçlü çeldirici 6'dır: 144 pulluk bir çerçeve kurulursa 6 pul dışarıda kalır. Ama soru pulların hepsinin kullanılmasını istiyor; bu yüzden alttaki değil üstteki tam kareye bakılır.
+Sık yapılan hata: "Artan" ile "eksik" durumlarını karıştırmak. Hepsi kullanılacaksa üstteki tam kareye, olabildiğince çok nesne dizilecek ve kalanı dışarıda bırakılacaksa alttaki tam kareye bakılır.
+Cevap C.`
 },
 {
   id: "mat-kk-222",
@@ -630,7 +631,7 @@ Cevap C.`
   soru: `Bir parkta dikdörtgen biçiminde bir yürüyüş yolu yapılmıştır. Yolun alanı ve genişliği aşağıdaki şekilde verilmiştir.
 Yolun bir kenarı boyunca, iki uçta da birer tane bulunacak ve aralarındaki uzaklık 2 metre olacak biçimde aydınlatma direkleri dikilecektir.
 **Buna göre bu kenara kaç direk dikilir?**`,
-  gorsel: `<svg viewBox="0 0 500 215" role="img" aria-label="Dikdörtgen yürüyüş yolunun alanı kök 720 metrekare, genişliği kök 5 metredir; bir kenarına 2 metre aralıklarla direk dikilecektir."><rect x="60" y="70" width="380" height="60" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="250" y="96" font-size="16" text-anchor="middle" fill="currentColor">Yürüyüş yolu</text><text x="250" y="120" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: √720 m²</text><line x1="41" y1="70" x2="41" y2="130" stroke="var(--vurgu)" stroke-width="2"/><text x="24" y="104" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√5 m</text><g fill="var(--vurgu2)"><circle cx="60" cy="55" r="6"/><circle cx="123" cy="55" r="6"/><circle cx="186" cy="55" r="6"/><circle cx="250" cy="55" r="6"/><circle cx="313" cy="55" r="6"/><circle cx="376" cy="55" r="6"/><circle cx="440" cy="55" r="6"/></g><text x="250" y="33" font-size="15" text-anchor="middle" fill="var(--vurgu2)">direkler: aralarında 2 m, iki uçta da direk var</text><line x1="60" y1="152" x2="440" y2="152" stroke="var(--vurgu)" stroke-width="2"/><text x="250" y="174" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">? m</text><text x="250" y="200" font-size="15" text-anchor="middle" fill="currentColor">Direkler bu kenar boyunca dikilecektir.</text></svg>`,
+  gorsel: `<svg viewBox="0 0 500 215" role="img" aria-label="Dikdörtgen yürüyüş yolunun alanı kök 720 metrekare, genişliği kök 5 metredir; bir kenarına 2 metre aralıklarla direk dikilecektir."><rect x="60" y="70" width="380" height="60" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="250" y="96" font-size="16" text-anchor="middle" fill="currentColor">Yürüyüş yolu</text><text x="250" y="120" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: √720 m²</text><line x1="41" y1="70" x2="41" y2="130" stroke="var(--vurgu)" stroke-width="2"/><text x="24" y="104" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√5 m</text><g fill="var(--vurgu2)"><circle cx="60" cy="58" r="6"/><circle cx="123" cy="58" r="6"/><circle cx="186" cy="58" r="6"/><circle cx="440" cy="58" r="6"/></g><text x="300" y="65" font-size="20" text-anchor="middle" fill="var(--vurgu2)">…</text><line x1="60" y1="44" x2="123" y2="44" stroke="var(--vurgu2)" stroke-width="2"/><text x="91" y="38" font-size="14" text-anchor="middle" fill="var(--vurgu2)">2 m</text><text x="270" y="22" font-size="15" text-anchor="middle" fill="var(--vurgu2)">direkler şematiktir: iki uçta da direk vardır</text><line x1="60" y1="152" x2="440" y2="152" stroke="var(--vurgu)" stroke-width="2"/><text x="250" y="174" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">? m</text><text x="250" y="200" font-size="15" text-anchor="middle" fill="currentColor">Direkler bu kenar boyunca dikilecektir.</text></svg>`,
   secenekler: ["6", "7", "12", "24"],
   dogru: 1,
   hatalar: [
@@ -676,25 +677,27 @@ Cevap D.`
   kazanim: "M.8.1.3.7",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir spor salonunda kare biçiminde bir trambolin kullanılmaktadır. Trambolinin zıplama yüzeyinin alanı aşağıdaki şekilde verilmiştir.
-Yüzeyin dört kenarı boyunca, aralarındaki uzaklık 0,3 metre olacak biçimde yaylar takılmaktadır. Yaylar kenarlar boyunca kesintisiz olarak dizilmekte ve köşelerde üst üste gelmemektedir.
-**Buna göre bu trambolinde kaç yay vardır?**`,
-  gorsel: `<svg viewBox="0 0 460 235" role="img" aria-label="Kare trambolin yüzeyinin alanı 5,76 metrekaredir; dört kenar boyunca 0,3 metre aralıklarla yay takılmaktadır."><rect x="95" y="30" width="185" height="185" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><g stroke="var(--vurgu)" stroke-width="3"><line x1="110" y1="30" x2="110" y2="48"/><line x1="140" y1="30" x2="140" y2="48"/><line x1="170" y1="30" x2="170" y2="48"/><line x1="200" y1="30" x2="200" y2="48"/><line x1="230" y1="30" x2="230" y2="48"/><line x1="260" y1="30" x2="260" y2="48"/></g><text x="187" y="120" font-size="16" text-anchor="middle" fill="currentColor">Zıplama yüzeyi (kare)</text><text x="187" y="148" font-size="18" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 5,76 m²</text><text x="187" y="22" font-size="15" text-anchor="middle" fill="var(--vurgu)">yaylar: arada 0,3 m</text><text x="300" y="90" font-size="15" fill="currentColor">Yaylar dört kenar</text><text x="300" y="112" font-size="15" fill="currentColor">boyunca dizilir.</text><text x="300" y="144" font-size="15" fill="currentColor">Toplam yay: ?</text></svg>`,
-  secenekler: ["8", "19", "32", "96"],
-  dogru: 2,
+  soru: `Bir kitap kafenin girişine kare biçimli bir tabela asılacaktır. Tabelanın ön yüzünün alanı aşağıdaki şekilde verilmiştir.
+Kafe sahibi, tabelanın akşamları da fark edilmesi için ön yüzün dört kenarı boyunca küçük lambalar taktıracaktır. Her köşeye birer lamba gelecek ve kenarlar boyunca komşu iki lamba arasındaki uzaklık 0,2 metre olacaktır.
+**Buna göre tabelaya toplam kaç lamba takılır?**`,
+  gorsel: `<svg viewBox="0 0 480 250" role="img" aria-label="Kare tabelanın ön yüzünün alanı 1,96 metrekaredir; dört kenarı boyunca, her köşede bir lamba olacak biçimde 0,2 metre aralıklarla lamba takılacaktır. Lambalar şematik çizilmiştir."><rect x="60" y="45" width="180" height="180" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><g fill="var(--vurgu)"><circle cx="60" cy="45" r="6"/><circle cx="240" cy="45" r="6"/><circle cx="60" cy="225" r="6"/><circle cx="240" cy="225" r="6"/><circle cx="86" cy="45" r="6"/><circle cx="112" cy="45" r="6"/><circle cx="60" cy="71" r="6"/><circle cx="60" cy="97" r="6"/></g><text x="172" y="38" font-size="20" text-anchor="middle" fill="var(--vurgu)">…</text><text x="42" y="168" font-size="20" text-anchor="middle" fill="var(--vurgu)">⋮</text><line x1="60" y1="26" x2="86" y2="26" stroke="currentColor" stroke-width="2"/><text x="73" y="19" font-size="14" text-anchor="middle" fill="currentColor">0,2 m</text><text x="150" y="128" font-size="16" text-anchor="middle" fill="currentColor">Tabela (kare)</text><text x="150" y="156" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">Alan: 1,96 m²</text><text x="265" y="80" font-size="15" fill="currentColor">Her köşede bir lamba var.</text><text x="265" y="112" font-size="15" fill="currentColor">Komşu iki lamba arası:</text><text x="265" y="134" font-size="15" fill="currentColor" font-weight="bold">0,2 m</text><text x="265" y="170" font-size="15" fill="currentColor">Lambalar şematiktir.</text><text x="265" y="205" font-size="16" fill="var(--vurgu2)" font-weight="bold">Toplam lamba: ?</text></svg>`,
+  secenekler: ["7", "28", "29", "32"],
+  dogru: 1,
   hatalar: [
-    "Yalnızca bir kenarı hesapladın: 2,4 : 0,3 = 8. Yaylar dört kenar boyunca dizilmektedir.",
-    "Karekök almadan alanı aralığa böldün: 5,76 : 0,3 = 19,2. Bölünmesi gereken alan değil, çevre uzunluğudur.",
+    "Yalnızca bir kenardaki aralık sayısını buldun: 1,4 : 0,2 = 7. Lambalar dört kenar boyunca takılmaktadır.",
     null,
-    "9,6 : 0,3 bölmesinde virgülü yanlış kaydırıp 9,6 : 0,1 işlemini yaptın. Doğru bölüm 96 : 3 = 32'dir."
+    "Kapalı bir çevreyi, iki ucu olan düz bir çizgi gibi düşünüp aralık sayısına 1 ekledin. Çevre boyunca dönünce son aralık ilk lambada biter; bu yüzden lamba sayısı aralık sayısına eşittir.",
+    "Her kenarda köşeler dâhil 8 lamba sayıp 4 ile çarptın. Böylece her köşe lambasını iki kenarda da saymış oldun; 4 lamba fazladan sayıldı."
   ],
-  aciklama: `Kare yüzeyin kenar uzunluğu alanının kareköküdür; yayların dizildiği toplam uzunluk ise çevredir.
-Adım 1: Kenar uzunluğunu bul: 5,76 = [[576|100]] olduğundan √{5,76} = [[24|10]] = 2,4 m.
-Adım 2: Çevreyi hesapla: 4 · 2,4 = 9,6 m.
-Adım 3: Yay sayısını bul: 9,6 : 0,3 işlemini yaparken iki sayıyı da 10 ile çarp: 96 : 3 = 32.
-Sağlama: Bir kenarda 2,4 : 0,3 = 8 yay vardır; dört kenarda 4 · 8 = 32 yay eder. Aynı sonuç.
-Sık yapılan hata: Ondalık bölmede virgülü tek sayıda kaydırmak. 9,6 : 0,3 işleminde iki sayı da aynı oranda büyütülmelidir.
-Cevap C.`
+  aciklama: `Kare tabelanın kenar uzunluğu alanının kareköküdür. Ondalık gösterimin karekökü, sayı kesre çevrilerek bulunur.
+Adım 1: Kenarı bul: 1,96 = [[196|100]] ve 14^{2} = 196 olduğundan √{1,96} = [[14|10]] = 1,4 m.
+Adım 2: Çevreyi hesapla: 4 · 1,4 = 5,6 m.
+Adım 3: Aralık sayısını bul: 5,6 : 0,2 işleminde iki sayıyı da 10 ile çarp: 56 : 2 = 28 aralık.
+Adım 4: Lambalar kapalı bir çizgi boyunca dizildiği için her aralığın başında bir lamba vardır ve son aralık ilk lambada biter. Lamba sayısı aralık sayısına eşittir: 28 lamba.
+Sağlama: Bir kenarda 1,4 : 0,2 = 7 aralık, köşeler dâhil 8 lamba vardır. 4 · 8 = 32 eder ama dört köşe lambası ikişer kez sayılmıştır: 32 − 4 = 28.
+En güçlü çeldirici 32'dir: kenar kenar sayarken köşedeki lamba iki kenara birden ait olduğu için kolayca iki kez sayılır.
+Sık yapılan hata: Düz bir kenar ile kapalı bir çevreyi karıştırmak. İki ucu olan düz bir kenarda lamba sayısı aralık sayısından 1 fazladır; kapalı bir çevrede ise ikisi eşittir.
+Cevap B.`
 },
 {
   id: "mat-kk-316",
@@ -779,7 +782,7 @@ Cevap D.`
   zorluk: 3,
   soru: `Bir takı atölyesinde, bir kenarı √{45} cm olan kare biçimli gümüş levha kesilecektir. Levha, hiç artmayacak biçimde, bir kenarı √{5} cm olan kare parçalara ayrılacaktır.
 **Buna göre bu levhadan kaç parça elde edilir?**`,
-  gorsel: `<svg viewBox="0 0 470 225" role="img" aria-label="Bir kenarı kök 45 santimetre olan kare gümüş levha, bir kenarı kök 5 santimetre olan kare parçalara ayrılacaktır."><rect x="50" y="35" width="165" height="165" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="1"><line x1="105" y1="35" x2="105" y2="200"/><line x1="160" y1="35" x2="160" y2="200"/><line x1="50" y1="90" x2="215" y2="90"/><line x1="50" y1="145" x2="215" y2="145"/></g><line x1="50" y1="214" x2="215" y2="214" stroke="var(--vurgu)" stroke-width="2"/><text x="132" y="228" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√45 cm</text><text x="132" y="25" font-size="15" text-anchor="middle" fill="currentColor">Gümüş levha (kare)</text><rect x="300" y="80" width="55" height="55" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><text x="327" y="70" font-size="15" text-anchor="middle" fill="currentColor">Bir parça</text><text x="327" y="155" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√5 cm</text><text x="380" y="112" font-size="15" fill="currentColor">Kaç parça?</text></svg>`,
+  gorsel: `<svg viewBox="0 0 470 225" role="img" aria-label="Bir kenarı kök 45 santimetre olan kare gümüş levha, bir kenarı kök 5 santimetre olan kare parçalara ayrılacaktır."><rect x="50" y="35" width="165" height="165" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><line x1="50" y1="214" x2="215" y2="214" stroke="var(--vurgu)" stroke-width="2"/><text x="132" y="228" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√45 cm</text><text x="132" y="25" font-size="15" text-anchor="middle" fill="currentColor">Gümüş levha (kare)</text><rect x="300" y="80" width="55" height="55" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><text x="327" y="70" font-size="15" text-anchor="middle" fill="currentColor">Bir parça</text><text x="327" y="155" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">√5 cm</text><text x="380" y="112" font-size="15" fill="currentColor">Kaç parça?</text></svg>`,
   secenekler: ["3", "9", "15", "40"],
   dogru: 1,
   hatalar: [
@@ -826,16 +829,16 @@ Cevap C.`
   kademe: 3,
   zorluk: 4,
   soru: `Bir kodlama atölyesinde öğrenciler küçük bir program yazmıştır. Program, kullanıcının girdiği k doğal sayısı için √{50 · k} ifadesinin değerini hesaplar. Sonuç bir doğal sayı olduğunda ekrana "TAM" yazısı gelmektedir.
-Kullanıcı yalnızca 100'den küçük doğal sayıları girebilmektedir.
+Kullanıcı yalnızca 1'den 99'a kadar olan doğal sayıları girebilmektedir.
 **Buna göre ekrana "TAM" yazısını getiren kaç farklı k değeri vardır?**`,
-  gorsel: `<svg viewBox="0 0 460 220" role="img" aria-label="Program, girilen k sayısı için kök 50 çarpı k değerini hesaplar ve sonuç doğal sayı olduğunda TAM yazısı gösterir."><rect x="40" y="70" width="110" height="60" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="95" y="96" font-size="15" text-anchor="middle" fill="var(--vurgu2)">girilen sayı</text><text x="95" y="120" font-size="20" text-anchor="middle" fill="currentColor" font-weight="bold">k</text><text x="170" y="106" font-size="24" fill="var(--vurgu)">→</text><rect x="195" y="60" width="140" height="80" rx="8" fill="none" stroke="var(--vurgu)" stroke-width="3"/><text x="265" y="88" font-size="15" text-anchor="middle" fill="var(--vurgu2)">hesaplanan</text><text x="265" y="118" font-size="21" text-anchor="middle" fill="currentColor" font-weight="bold">√(50 · k)</text><text x="352" y="106" font-size="24" fill="var(--vurgu)">→</text><rect x="375" y="70" width="70" height="60" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="410" y="107" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">TAM</text><text x="230" y="30" font-size="15" text-anchor="middle" fill="currentColor">k, 100'den küçük bir doğal sayıdır.</text><text x="230" y="180" font-size="15" text-anchor="middle" fill="currentColor">Sonuç doğal sayı olduğunda TAM yazısı gelir.</text></svg>`,
+  gorsel: `<svg viewBox="0 0 460 220" role="img" aria-label="Program, girilen k sayısı için kök 50 çarpı k değerini hesaplar ve sonuç doğal sayı olduğunda TAM yazısı gösterir."><rect x="40" y="70" width="110" height="60" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="95" y="96" font-size="15" text-anchor="middle" fill="var(--vurgu2)">girilen sayı</text><text x="95" y="120" font-size="20" text-anchor="middle" fill="currentColor" font-weight="bold">k</text><text x="170" y="106" font-size="24" fill="var(--vurgu)">→</text><rect x="195" y="60" width="140" height="80" rx="8" fill="none" stroke="var(--vurgu)" stroke-width="3"/><text x="265" y="88" font-size="15" text-anchor="middle" fill="var(--vurgu2)">hesaplanan</text><text x="265" y="118" font-size="21" text-anchor="middle" fill="currentColor" font-weight="bold">√(50 · k)</text><text x="352" y="106" font-size="24" fill="var(--vurgu)">→</text><rect x="375" y="70" width="70" height="60" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="410" y="107" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">TAM</text><text x="230" y="30" font-size="15" text-anchor="middle" fill="currentColor">k, 1'den 99'a kadar olan bir doğal sayıdır.</text><text x="230" y="180" font-size="15" text-anchor="middle" fill="currentColor">Sonuç doğal sayı olduğunda TAM yazısı gelir.</text></svg>`,
   secenekler: ["5", "6", "7", "8"],
   dogru: 2,
   hatalar: [
-    "k = 2, 8, 18, 32 ve 50 değerlerini bulup durdun. 72 ve 98 de 100'den küçüktür ve koşulu sağlar.",
-    "98'i listeye almadın. 98 < 100 olduğundan girilebilir ve 50 · 98 = 4 900 = 70^{2}'dir.",
+    "k = 2, 8, 18, 32 ve 50 değerlerini bulup durdun. 72 ve 98 de girilebilen sayılardır ve koşulu sağlar.",
+    "98'i listeye almadın. 98 sayısı 99'dan büyük olmadığı için girilebilir ve 50 · 98 = 4 900 = 70^{2}'dir.",
     null,
-    "128'i de saydın. 50 · 128 = 6 400 = 80^{2} olsa bile 128 sayısı 100'den küçük değildir; girilemez."
+    "Listeye girilemeyen bir sayı ekledin. 50 · 0 = 0 ve 50 · 128 = 6 400 = 80^{2} olsa bile ne 0 ne de 128 girilebilir; giriş yalnızca 1 ile 99 arasındadır."
   ],
   aciklama: `Bir karekökün doğal sayı olması için kök içindeki sayının tam kare, yani asal çarpanlarının üslerinin hepsinin çift olması gerekir.
 Adım 1: 50'yi asal çarpanlarına ayır: 50 = 2 · 5^{2}. Burada 5'in üssü çift, 2'nin üssü tektir. Çarpımın tam kare olması için k sayısı, eksik kalan 2'yi tamamlamalıdır.
@@ -876,7 +879,7 @@ Cevap B.`
   kazanim: "M.8.1.3.4",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir vitray atölyesinde, bir kenarı 6√{2} cm olan kare biçimli bir cam levha bulunmaktadır. Ustaya, bu levhadan kesilebilecek en büyük kare parça istenmiştir. Kesilecek parçanın bir kenar uzunluğu santimetre cinsinden tam sayı olmalıdır.
+  soru: `Bir vitray atölyesinde, bir kenarı 6√{2} cm olan kare biçimli bir cam levha bulunmaktadır. Ustadan, bu levhadan kesilebilecek en büyük kare parçayı kesmesi istenmiştir. Kesilecek parçanın bir kenar uzunluğu santimetre cinsinden tam sayı olmalıdır.
 **Buna göre kesim sonunda levhadan geriye kaç cm² cam kalır?**`,
   gorsel: `<svg viewBox="0 0 450 235" role="img" aria-label="Bir kenarı 6 kök 2 santimetre olan kare cam levhadan, kenarı tam sayı olan en büyük kare parça kesilecektir."><rect x="70" y="30" width="190" height="190" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><rect x="70" y="50" width="170" height="170" fill="none" stroke="var(--vurgu)" stroke-width="3" stroke-dasharray="8 5"/><text x="155" y="20" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">6√2 cm</text><line x1="70" y1="26" x2="260" y2="26" stroke="currentColor" stroke-width="2"/><text x="290" y="70" font-size="15" fill="var(--vurgu)" font-weight="bold">kesilecek kare parça</text><text x="290" y="96" font-size="15" fill="currentColor">(kenarı tam sayı cm,</text><text x="290" y="118" font-size="15" fill="currentColor">en büyük olacak)</text><text x="290" y="156" font-size="15" fill="currentColor">Kalan alan: ? cm²</text></svg>`,
   secenekler: ["8", "23", "64", "72"],
@@ -901,51 +904,52 @@ Cevap A.`
   kazanim: "M.8.1.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir ahşap atölyesinde dikdörtgen biçimli kutu tabanları kesilmektedir. Bir tabanın kenar uzunlukları √{18} cm ve √{k} cm'dir; burada k bir doğal sayıdır.
-Atölyenin kuralına göre tabanın santimetrekare cinsinden alanı hem bir doğal sayı olmalı hem de 30'dan küçük olmalıdır.
-**Buna göre k kaç farklı değer alabilir?**`,
-  gorsel: null,
-  secenekler: ["3", "4", "5", "6"],
-  dogru: 1,
+  soru: `Bir ortaokulun bahar şenliği için ikizkenar üçgen biçiminde kumaş flamalar dikilecektir. Her flamanın direğe tutturulan kenarı √{27} dm uzunluğundadır. Flamanın bu kenara ait yüksekliği ise k bir doğal sayı olmak üzere √{k} dm olacaktır.
+Flamaları dikecek terzi, kumaş hesabını kolaylaştırmak için her flamanın alanının dm² cinsinden bir doğal sayı olmasını istemektedir. Şenlik komitesi ise flamaların uzaktan fark edilmesi için alanın 18 dm²'den büyük olmasını şart koşmuştur.
+**Buna göre bir flamanın yüksekliği en az kaç dm olabilir?**`,
+  gorsel: `<svg viewBox="0 0 480 240" role="img" aria-label="İkizkenar üçgen biçimli flama bir direğe tutturulmuştur; direk üzerindeki kenarı kök 27 desimetre, bu kenara ait yüksekliği kök k desimetredir. Alan doğal sayı ve 18 desimetrekareden büyük olmalıdır."><line x1="100" y1="12" x2="100" y2="232" stroke="currentColor" stroke-width="5"/><polygon points="100,35 100,165 330,100" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><line x1="100" y1="100" x2="330" y2="100" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><polyline points="100,88 112,88 112,100" fill="none" stroke="currentColor" stroke-width="2"/><text x="215" y="92" font-size="17" text-anchor="middle" fill="currentColor" font-weight="bold">√k dm</text><line x1="82" y1="35" x2="82" y2="165" stroke="var(--vurgu2)" stroke-width="2"/><text x="74" y="106" font-size="17" text-anchor="end" fill="var(--vurgu2)" font-weight="bold">√27 dm</text><text x="112" y="226" font-size="14" fill="currentColor">direk</text><text x="345" y="70" font-size="15" fill="currentColor">Alan (dm²):</text><text x="345" y="94" font-size="15" fill="currentColor">• doğal sayı</text><text x="345" y="118" font-size="15" fill="currentColor">• 18'den büyük</text><text x="345" y="160" font-size="16" fill="var(--vurgu2)" font-weight="bold">√k en az kaç?</text></svg>`,
+  secenekler: ["3√{3}", "4√{3}", "5√{3}", "6√{3}"],
+  dogru: 3,
   hatalar: [
-    "k = 32 değerini atladın. 18 · 32 = 576 = 24^{2} olduğundan alan 24 cm²'dir ve 30'dan küçüktür; bu değer de uygundur.",
-    null,
-    "k = 50'yi de saydın. 18 · 50 = 900 olduğundan alan tam 30 cm² olur; oysa alanın 30'dan __küçük__ olması isteniyor.",
-    "Hem k = 50'yi hem k = 72'yi saydın. Bunların alanları 30 cm² ve 36 cm²'dir; ikisi de 30'dan küçük değildir."
+    "Üçgenin alanını hesaplarken 2'ye bölmeyi unuttun. √{27} · 3√{3} = 27'dir ama alan bunun yarısı, yani 13,5 dm²'dir; bu hem doğal sayı değildir hem de 18'den küçüktür.",
+    "Sınırı dâhil ettin. Yükseklik 4√{3} dm iken alan (3√{3} · 4√{3}) : 2 = 36 : 2 = 18 dm² olur; oysa alanın 18 dm²'den __büyük__ olması isteniyor.",
+    "Alanın doğal sayı olma koşulunu atladın. Yükseklik 5√{3} dm iken alan (3√{3} · 5√{3}) : 2 = 45 : 2 = 22,5 dm²'dir; 18'den büyüktür ama doğal sayı değildir.",
+    null
   ],
-  aciklama: `Alan √{18} · √{k} = √{18 · k} olur. Bu alanın doğal sayı olması için 18 · k çarpımının tam kare olması gerekir.
-Adım 1: 18'i asal çarpanlarına ayır: 18 = 2 · 3^{2}. Eksik kalan çarpan 2'dir; öyleyse k = 2 · (bir tam kare) biçiminde olmalıdır.
-Adım 2: Olası k değerlerini ve alanları yaz: k = 2 → alan √{36} = 6; k = 8 → alan √{144} = 12; k = 18 → alan √{324} = 18; k = 32 → alan √{576} = 24; k = 50 → alan √{900} = 30.
-Adım 3: Alan 30'dan küçük olmalıdır. k = 50 için alan tam 30'dur ve koşulu sağlamaz; daha büyük k değerleri de sağlamaz.
-Adım 4: Uygun değerler 2, 8, 18 ve 32'dir; yani k 4 farklı değer alabilir.
-Sağlama: Alanlar 6, 12, 18, 24 biçiminde altışar artıyor. Bunun nedeni k = 2m^{2} için alanın √{36m^{2}} = 6m olmasıdır; 6m < 30 koşulu m < 5 demektir, yani m = 1, 2, 3, 4.
-Sık yapılan hata: "30'dan küçük" ile "30'a kadar" ifadelerini aynı saymak. Sınır değeri (30) aralığa dâhil değildir.
-Cevap B.`
+  aciklama: `Üçgenin alanı, bir kenarı ile o kenara ait yüksekliğin çarpımının yarısıdır. İki kareköklü sayının çarpımı, ancak kök içlerinin çarpımı tam kare olduğunda doğal sayı olur.
+Adım 1: Direkteki kenarı sadeleştir: 27 = 9 · 3 olduğundan √{27} = 3√{3} dm.
+Adım 2: √{27} · √{k} = √{27 · k} çarpımının doğal sayı olması için 27 · k tam kare olmalıdır. 27 = 3^{3} olduğundan eksik olan bir tane 3'tür. Öyleyse k = 3 · (bir tam kare) biçimindedir; yani yükseklik √{3}, 2√{3}, 3√{3}, … biçiminde yazılır.
+Adım 3: Yüksekliklere karşılık gelen alanları sırayla yaz. Yükseklik a√{3} ise alan (3√{3} · a√{3}) : 2 = (9 · a) : 2'dir: √{3} → 4,5; 2√{3} → 9; 3√{3} → 13,5; 4√{3} → 18; 5√{3} → 22,5; 6√{3} → 27.
+Adım 4: Hem doğal sayı hem de 18'den büyük olan ilk alan 27 dm²'dir. Buna karşılık gelen en kısa yükseklik 6√{3} dm'dir.
+Sağlama: 3√{3} · 6√{3} = 18 · 3 = 54 ve 54 : 2 = 27. Alan doğal sayıdır ve 18'den büyüktür.
+En güçlü çeldirici 5√{3}'tür: alanı 18'den büyük yapan ilk yüksekliktir ama alan 22,5 dm² çıkar ve doğal sayı değildir.
+Sık yapılan hata: Üçgenin alanında 2'ye bölmeyi unutmak ya da iki koşuldan yalnızca birini denetlemek. Her şıkta hem "doğal sayı mı?" hem de "18'den büyük mü?" sorusunu sor.
+Cevap D.`
 },
 {
   id: "mat-kk-325",
   kazanim: "M.8.1.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir atölyede kare biçiminde dört ayna kesilmiştir. Aynaların metrekare cinsinden alanları aşağıdaki tabloda verilmiştir.
-Atölye sahibi, kenar uzunluğunun sayı değeri alanının sayı değerinden büyük olan aynayı vitrine koyacaktır.
-**Buna göre vitrine hangi ayna konur?**`,
-  gorsel: `<table class="tablo"><tr><th>Ayna</th><th>K</th><th>L</th><th>M</th><th>N</th></tr><tr><td>Alan (m²)</td><td>0,64</td><td>1,21</td><td>2,89</td><td>4</td></tr></table>`,
-  secenekler: ["K aynası", "L aynası", "M aynası", "N aynası"],
+  soru: `Selin ile Mert, "Kökü Yakala" adını verdikleri bir sayı oyunu oynamaktadır. Her turda Selin, 0 ile 1 arasında olan ve virgülden sonra en fazla iki basamağı bulunan bir sayı söyler (örneğin 0,7 ya da 0,35). Mert de bu sayının karekökünü bulur.
+Bulunan karekök rasyonel bir sayıysa, yani iki tam sayının oranı biçiminde yazılabiliyorsa, turu Selin kazanır. Selin bir sonraki turda, kendisine turu kazandıran sayılar arasından en büyüğünü söylemek istemektedir.
+**Buna göre Selin hangi sayıyı söylemelidir?**`,
+  gorsel: null,
+  secenekler: ["0,81", "0,9", "0,99", "1"],
   dogru: 0,
   hatalar: [
     null,
-    "L aynasında kenar √{1,21} = 1,1 m'dir ve 1,1 < 1,21'dir. 1'den büyük sayılarda karekök, sayıyı küçültür.",
-    "M aynasında kenar √{2,89} = 1,7 m'dir ve 1,7 < 2,89'dur. Aradaki fark büyüdükçe bu daha da belirginleşir.",
-    "N aynasında kenar √{4} = 2 m'dir ve 2 < 4'tür. En büyük alanın kenarı da alanından küçüktür."
+    "0,9'un karekökünü 0,3 sandın. Oysa 0,3 · 0,3 = 0,09'dur. 0,9 = [[90|100]] ve 90 tam kare olmadığından √{0,9} rasyonel değildir; Selin bu sayıyla turu kaybeder.",
+    "Kurala uyan en büyük sayıyı seçtin ama karekökünün rasyonel olup olmadığını denetlemedin. 0,99 = [[99|100]] ve 99 tam kare değildir; √{0,99} irrasyoneldir.",
+    "Sınırı dâhil ettin. √{1} = 1 rasyoneldir ama Selin 0 ile 1 __arasında__ bir sayı söylemelidir; 1 bu aralığın ucudur, içinde değildir."
   ],
-  aciklama: `Kare aynanın kenar uzunluğu alanının kareköküdür. Bir sayı ile karekökünü karşılaştırırken sayının 1'den büyük mü küçük mü olduğuna bakılır.
-Adım 1: Kenarları bul: √{0,64} = 0,8 · √{1,21} = 1,1 · √{2,89} = 1,7 · √{4} = 2.
-Adım 2: Her aynada kenarı alanla karşılaştır: 0,8 > 0,64 · 1,1 < 1,21 · 1,7 < 2,89 · 2 < 4.
-Adım 3: Yalnızca K aynasında kenar uzunluğunun sayı değeri alanının sayı değerinden büyüktür.
-Adım 4: Nedenini anla: 0 ile 1 arasındaki bir sayının karekökü kendisinden __büyüktür__ (0,8 · 0,8 = 0,64 olduğuna göre 0,64'ü büyütmek için karekök almak gerekir). 1'den büyük sayılarda ise karekök sayıyı küçültür.
-Sağlama: 0,5 sayısını dene: √{0,5} ≈ 0,71 > 0,5. Kural tutuyor. 9 sayısını dene: √{9} = 3 < 9. Bu da tutuyor.
-Sık yapılan hata: "Karekök her zaman küçültür" diye ezberlemek. Bu, yalnızca 1'den büyük sayılar için doğrudur.
+  aciklama: `Rasyonel sayı, iki tam sayının oranı biçiminde yazılabilen sayıdır. Tam kare olmayan bir doğal sayının karekökü rasyonel değildir, irrasyoneldir.
+Adım 1: Selin'in söyleyebileceği her sayıyı paydası 100 olan bir kesir olarak yaz: 0,35 = [[35|100]], 0,7 = 0,70 = [[70|100]]. Genel olarak sayı [[n|100]] biçimindedir; burada n, 1 ile 99 arasında bir doğal sayıdır.
+Adım 2: Karekökü al: √{[[n|100]]} = [[√{n}|10]]. n tam kare ise √{n} bir doğal sayıdır ve karekök rasyoneldir. n tam kare değilse √{n} irrasyoneldir; onu 10'a bölmek bu durumu değiştirmez.
+Adım 3: 99'u geçmeyen en büyük tam kareyi bul: 9^{2} = 81 ve 10^{2} = 100 > 99. Öyleyse n = 81'dir ve Selin'in söylemesi gereken sayı 0,81'dir.
+Adım 4: Denetle: √{0,81} = √{[[81|100]]} = [[9|10]] = 0,9. Bu bir rasyonel sayıdır.
+En güçlü çeldirici 0,9'dur: 9 tam kare olduğu için √{0,9} = 0,3 sanılır. Oysa 0,3 · 0,3 = 0,09'dur. 0,9 = [[90|100]] ve 90 tam kare olmadığından √{0,9} irrasyoneldir. 1 ise 0 ile 1 arasında değildir.
+Sık yapılan hata: Virgülü görmezden gelip yalnızca rakamlara bakmak. Ondalık gösterimi önce paydası 100 olan bir kesre çevir (0,9 = [[90|100]]), sonra payın tam kare olup olmadığına bak.
 Cevap A.`
 },
 /* ===================== HAVUZ (013…030) ===================== */
@@ -1137,28 +1141,29 @@ Cevap A.`
   kazanim: "M.8.1.3.8",
   kademe: 0,
   zorluk: 2,
-  soru: "**√{2} sayısı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?**",
+  soru: `Ece, hesap makinesiyle √{2} sayısını hesaplamış ve ekranda 1,414213562 sonucunu görmüştür. Ece, "Bu sayı virgülden sonra 9 basamakta bittiğine göre √{2} rasyonel bir sayıdır." demiştir.
+**Buna göre öğretmenin Ece'ye vereceği doğru açıklama aşağıdakilerden hangisidir?**`,
   gorsel: null,
   secenekler: [
-    "Bir tam kare sayının karekökü olduğu için doğal sayıdır.",
-    "İki tam sayının oranı biçiminde yazılabilen rasyonel bir sayıdır.",
-    "Ondalık gösterimi 1,41'de sona eren rasyonel bir sayıdır.",
-    "1 ile 2 arasında yer alan irrasyonel bir sayıdır."
+    "Ekrandaki sayı √{2}'nin tam değeridir ve √{2} rasyonel bir sayıdır.",
+    "Ekrandaki sayı √{2}'nin yaklaşık değeridir ve √{2} irrasyonel bir sayıdır.",
+    "Ekrandaki sayı √{2}'nin tam değeridir ve √{2} irrasyonel bir sayıdır.",
+    "Ekrandaki sayı √{2}'nin yaklaşık değeridir ve √{2} rasyonel bir sayıdır."
   ],
-  dogru: 3,
+  dogru: 1,
   hatalar: [
-    "2 sayısını tam kare sandın. Tam kareler 1, 4, 9, 16… biçiminde gider; 2 bunların arasında yoktur.",
-    "√{2} sayısını rasyonel saydın. Tam kare olmayan bir doğal sayının karekökü iki tam sayının oranı biçiminde yazılamaz.",
-    "1,41 değerini √{2}'nin kendisi sandın. 1,41 · 1,41 = 1,9881'dir, 2 değildir; 1,41 yalnızca bir yaklaşık değerdir.",
-    null
+    "Ece'nin yanılgısını paylaştın. Hesap makinesi yalnızca ilk basamakları gösterir; 1,414213562 sayısının karesi tam olarak 2 etmez. √{2}'nin ondalık gösterimi ne sona erer ne de tekrar eder.",
+    null,
+    "√{2}'nin irrasyonel olduğunu doğru bildin ama ekrandaki sayıyı tam değer sandın. Virgülden sonra 9 basamakta biten 1,414213562 iki tam sayının oranıdır; √{2}'ye eşit olsaydı √{2} de rasyonel olurdu.",
+    "Ekrandaki sayının yaklaşık olduğunu doğru gördün ama √{2}'yi rasyonel saydın. 2 tam kare olmadığından √{2} iki tam sayının oranı biçiminde yazılamaz."
   ],
-  aciklama: `Tam kare olmayan bir doğal sayının karekökü iki tam sayının oranı biçiminde yazılamaz; böyle sayılara irrasyonel sayı denir.
-Adım 1: 2 sayısının tam kare olup olmadığına bak: 1^{2} = 1 ve 2^{2} = 4'tür. 2 bu iki tam karenin arasındadır, yani tam kare __değildir__.
-Adım 2: Öyleyse √{2} bir doğal sayı da rasyonel sayı da değildir; irrasyoneldir.
-Adım 3: Değerini kestir: 1 < 2 < 4 olduğundan 1 < √{2} < 2'dir. √{2} sayısı 1 ile 2 arasındadır (yaklaşık 1,414…).
-Sağlama: 1,41^{2} = 1,9881 ve 1,42^{2} = 2,0164'tür. Demek ki √{2} bu iki sayının arasındadır ve ondalık gösterimi bitmez.
-Sık yapılan hata: Yaklaşık değeri sayının kendisi sanmak. 1,41 ve 1,414 gibi değerler √{2}'ye yakındır ama ona eşit değildir.
-Cevap D.`
+  aciklama: `Rasyonel sayı, iki tam sayının oranı biçiminde yazılabilen sayıdır. Tam kare olmayan bir doğal sayının karekökü böyle yazılamaz; bu tür sayılara irrasyonel sayı denir.
+Adım 1: √{2}'nin türünü belirle: 1^{2} = 1 ve 2^{2} = 4 olduğundan 2 tam kare değildir. Öyleyse √{2} irrasyoneldir; ondalık gösterimi ne sona erer ne de tekrar eder.
+Adım 2: Ekrandaki sayıyı değerlendir: Hesap makinesinin ekranı sınırlı sayıda basamak gösterir. 1,414213562 sayısı √{2}'nin ilk basamaklarıdır, yani yaklaşık değeridir.
+Sağlama: Son basamağı 2 olan bir sayının karesinin son basamağı 4'tür. Bu yüzden 1,414213562'nin karesi virgülden sonra 4 ile biten bir sayıdır ve tam olarak 2 olamaz.
+En güçlü çeldirici C şıkkıdır: √{2}'nin irrasyonel olduğunu bilen biri ekrandaki sayıyı yine de tam değer sanabilir. Oysa sona eren her ondalık gösterim rasyoneldir (1,414213562 = [[1414213562|1000000000]]); bu sayı √{2}'ye eşit olsaydı √{2} rasyonel olurdu.
+Sık yapılan hata: Ekranda görülen sayıyı sayının kendisi sanmak. Ekran basamakları keser; irrasyonel bir sayının bütün basamaklarını hiçbir ekran gösteremez.
+Cevap B.`
 },
 {
   id: "mat-kk-022",
@@ -1261,7 +1266,7 @@ Cevap A.`
   soru: `Bir matbaada kare biçimli bir karton levhadan, kare biçimli etiketler kesilmektedir. Levhanın alanı ve bir etiketin kenar uzunluğu aşağıdaki şekilde verilmiştir.
 Kesim sırasında hiç artık bırakılmamaktadır.
 **Buna göre bir levhadan kaç etiket kesilir?**`,
-  gorsel: `<svg viewBox="0 0 470 220" role="img" aria-label="Kare karton levhanın alanı 0,36 metrekaredir; kesilecek kare etiketin bir kenarı 0,15 metredir."><rect x="45" y="30" width="180" height="180" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="1"><line x1="90" y1="30" x2="90" y2="210"/><line x1="135" y1="30" x2="135" y2="210"/><line x1="180" y1="30" x2="180" y2="210"/><line x1="45" y1="75" x2="225" y2="75"/><line x1="45" y1="120" x2="225" y2="120"/><line x1="45" y1="165" x2="225" y2="165"/></g><text x="135" y="22" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Levha: 0,36 m²</text><rect x="300" y="75" width="60" height="60" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><text x="330" y="65" font-size="15" text-anchor="middle" fill="currentColor">Bir etiket</text><text x="330" y="155" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">0,15 m</text><text x="330" y="190" font-size="15" text-anchor="middle" fill="currentColor">Kaç etiket?</text></svg>`,
+  gorsel: `<svg viewBox="0 0 470 220" role="img" aria-label="Kare karton levhanın alanı 0,36 metrekaredir; kesilecek kare etiketin bir kenarı 0,15 metredir."><rect x="45" y="30" width="180" height="180" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><text x="135" y="22" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Levha: 0,36 m²</text><rect x="300" y="75" width="60" height="60" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><text x="330" y="65" font-size="15" text-anchor="middle" fill="currentColor">Bir etiket</text><text x="330" y="155" font-size="16" text-anchor="middle" fill="var(--vurgu)" font-weight="bold">0,15 m</text><text x="330" y="190" font-size="15" text-anchor="middle" fill="currentColor">Kaç etiket?</text></svg>`,
   secenekler: ["4", "6", "16", "24"],
   dogru: 2,
   hatalar: [
