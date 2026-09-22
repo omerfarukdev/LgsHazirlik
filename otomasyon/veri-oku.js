@@ -93,6 +93,18 @@ getir(adres + "?islem=yedek", 5, function (hata, durum, govde) {
   console.log("Çalışılan gün     : " + Object.keys(gunler).length + "   (ilk: " + tarih(gecmis[0].ts) + ", son: " + tarih(gecmis[gecmis.length - 1].ts) + ")");
   console.log("Toplam süre       : " + Math.round(sure / 60) + " dk" + (asim ? "   (hedef süre aşımı toplamı: " + Math.round(asim / 60) + " dk)" : ""));
   console.log("Yanlış defteri    : " + Object.keys(yanlis).length + " soru");
+  var aktif = al(v, "aktif", null);
+  if (aktif && aktif.cevap && Object.keys(aktif.cevap).length) {
+    var ad = 0, ay = 0;
+    Object.keys(aktif.cevap).forEach(function (id) { var q = SORU[id]; if (q) { if (aktif.cevap[id] === q.dogru) ad++; else ay++; } });
+    console.log("YARIM KALAN TEST  : " + (aktif.tur === "paragraf" ? "Günün paragrafı" : (KONU_AD[aktif.konu] || aktif.tur)) +
+      "   " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + " işaretli   D/Y " + ad + "/" + ay +
+      "   " + Math.round((aktif.gecen || 0) / 60) + " dk   başladı " + tarih(aktif.basla));
+  }
+  var hap = al(v, "hap", {});
+  Object.keys(hap).forEach(function (k) {
+    console.log("Konu özeti        : " + (KONU_AD[k] || k) + "   " + hap[k].kez + " kez, son okuma " + Math.round((hap[k].sure || 0) / 60) + " dk (" + tarih(hap[k].son) + ")");
+  });
 
   console.log("\n=== TEST TÜRÜ VE KONU BAZINDA ===");
   var grup = {};

@@ -37,9 +37,12 @@ var App = (function () {
   // Rapor altyapısı (rapor/Kod.gs). Kayıtlar önce kuyruğa girer; bağlantı yoksa ya da adres henüz
   // girilmemişse bekler, sonraki fırsatta gönderilir. Her gönderimin ardından ilerlemenin tam kopyası da
   // yollanır: ilerleme paneli (panel.html) ve yedekten geri yükleme bu kopyayı kullanır.
-  var YEDEK_DISI = { lgs_kuyruk: 1, lgs_raporUrl: 1, lgs_aktif: 1 };
+  // lgs_aktif (yarım kalan test) yedeğe GİRER: öğrenci "Testi bitir"e basmadan çıkarsa çözdükleri
+  // ancak böyle panele ulaşır (22 Eylül 2026: 30 soru çözülüp "Ara ver" ile kapatılmış, panel hiçbirini görmemişti).
+  var YEDEK_DISI = { lgs_kuyruk: 1, lgs_raporUrl: 1 };
   var Bulut = {
     mesgul: false,
+    sonYedek: 0,
     url: function () { return Store.get("raporUrl", "") || AYAR.raporUrl || ""; },
     kopya: function () {
       var veri = {};
@@ -55,9 +58,12 @@ var App = (function () {
       Store.set("kuyruk", k.slice(-500));
       Bulut.bosalt();
     },
-    istek: function (govde, url) {
+    istek: function (govde, url, keepalive) {
+      var metin = JSON.stringify(govde);
       return fetch(url || Bulut.url(), {
-        method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(govde)
+        method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: metin,
+        // keepalive, sayfa kapanırken de isteğin gitmesini sağlar; tarayıcı 64 KB üstünü reddeder
+        keepalive: !!keepalive && metin.length < 60000
       }).then(function (r) { return r.json(); }).then(function (c) {
         if (!c || !c.ok) throw new Error((c && c.hata) || "ret");
         return c;
@@ -88,6 +94,16 @@ var App = (function () {
         var kopya = Bulut.kopya();
         if (Object.keys(kopya.veri).length) Bulut.istek({ tip: "yedek", veri: kopya }).catch(function () {});
       }
+    },
+    // Ara kopya: test sürerken de ilerleme panele ulaşsın. Cevap verdikçe en fazla 2 dakikada bir,
+    // "Ara ver"de, sayfa gizlenirken (kapak kapanırken) ve açılışta yarım test varsa gönderilir.
+    yedekle: function (zorla, keepalive) {
+      if (!Bulut.url() || !window.fetch) return;
+      if (!zorla && Date.now() - Bulut.sonYedek < 120000) return;
+      var kopya = Bulut.kopya();
+      if (!Object.keys(kopya.veri).length) return;
+      Bulut.sonYedek = Date.now();
+      Bulut.istek({ tip: "yedek", veri: kopya }, null, keepalive).catch(function () {});
     },
     // Gönderilemeyen kayıt sayısı (ana sayfada uyarı için)
     bekleyen: function () { return Store.get("kuyruk", []).length; }
@@ -438,7 +454,8 @@ var App = (function () {
           : paragrafSet() + " soruluk turlar hâlinde, her tur yaklaşık " + Math.round(paragrafSet() * 1.5) + " dakika. " +
             "Türkçe'nin en çok soru gelen kısmı burası, üstelik Fen ve Matematiğin uzun sorularını da hızlandırır.") +
         (pTaze < pHedef ? ' <span class="kotu">Havuzda ' + pTaze + ' taze soru kaldı; sonrasında eski sorular döner.</span>' : "") +
-        '</p></div><button class="btn ' + (bitti ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
+        '</p>' + (hapVar(PARAGRAF_KONU) ? '<button class="btn-yazi hap-link" onclick="App.git(\'#/hap/' + PARAGRAF_KONU + '\')">Paragraf rehberi: soru tipleri ve tuzaklar</button>' : "") +
+        '</div><button class="btn ' + (bitti ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
         (bitti ? "Devam et" : pBugun ? "Sonraki tur →" : "Başla →") + '</button></div></section>';
     }
 
@@ -556,7 +573,9 @@ var App = (function () {
           (simdiki ? '<div class="simdiki-etiket">Okulda bu hafta</div>' : "") +
           '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cipler">' +
           (konu.lgs ? '<span class="cip lgs-cip" title="Bu konudan LGS\'de yıllara göre gelen soru sayısı">LGS\'de ' + esc(konu.lgs) + ' soru</span>' : "") +
-          '<span class="cip">' + esc(konu.ay) + '</span></span></div>';
+          '<span class="cip">' + esc(konu.ay) + '</span>' +
+          (hapVar(konu.id) ? '<button class="cip-btn hap-cip" onclick="App.git(\'#/hap/' + konu.id + '\')">Konu özeti' + (hapOkuma(konu.id) ? " ✓" : "") + '</button>' : "") +
+          '</span></div>';
         if (!hazir) {
           html += '<div class="soluk kucuk">Sorular hazırlanıyor</div>';
         } else if (konu.rutin) {
@@ -599,6 +618,8 @@ var App = (function () {
   function hazirEkrani(konuId, k) {
     var kb = KONU[konuId], sorular = kademeSorulari(konuId, k);
     if (!sorular.length || !kademeAcik(konuId, k)) return git("#/ders/" + kb.ders.id);
+    // Konunun özeti hiç okunmadıysa (ya da üstünden uzun zaman geçtiyse) test özetten sonra gelir
+    if (hapGerekli(konuId)) return location.replace("#/hap/" + konuId + "/" + k);
     var kd = konuDurum(konuId).k[k];
     var html = ustCubuk(esc(kb.konu.ad), "#/ders/" + kb.ders.id) +
       '<div class="kart orta-kart">' +
@@ -608,11 +629,88 @@ var App = (function () {
       ozetKutu(Math.round(onerilenSure(sorular) / 60) + " dk", AYAR.sureSiniri ? "süre" : "önerilen süre") +
       (kd ? ozetKutu("%" + yuzde(kd.enIyi), "en iyi sonucun") : "") + '</div>' +
       '<ul class="ipucu"><li>Kâğıt kalem hazırla, işlemleri kâğıtta yap.</li>' +
-      (AYAR.sureSiniri ? '<li>Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi. Mecbur kalırsan “Ara ver” ile çıkabilirsin; süre durur, kaldığın yerden devam edersin.</li>' : "") +
+      (AYAR.sureSiniri ? '<li>' + (AYAR.sureBitinceKes
+        ? "Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi."
+        : "Süre geri sayar. Dolunca test bitmez, çözmeye devam edersin; aştığın süre ayrıca kaydedilir.") +
+        ' Mecbur kalırsan “Ara ver” ile çıkabilirsin; süre durur, kaldığın yerden devam edersin.</li>' : "") +
       '<li>Emin olmadığın soruyu boş bırakabilirsin; 3 yanlış 1 doğruyu götürür.</li>' +
       '<li>Test bitince her sorunun adım adım çözümünü göreceksin.</li></ul>' +
-      '<button class="btn birincil buyuk" onclick="App.testBaslat(\'' + konuId + "'," + k + ')">Teste başla</button></div>';
+      '<button class="btn birincil buyuk" onclick="App.testBaslat(\'' + konuId + "'," + k + ')">Teste başla</button>' +
+      (hapVar(konuId) ? '<p class="hap-link"><button class="btn-yazi" onclick="App.git(\'#/hap/' + konuId + "/" + k + '\')">Konu özetini tekrar oku</button></p>' : "") +
+      '</div>';
     render(html);
+  }
+
+  // ================= Konu özeti (hap bilgi) =================
+  // hap/<konu-id>.js dosyalarından gelir. Konunun testine ilk kez girilirken, test ekranından önce
+  // kendiliğinden açılır; son okumanın üstünden HAP_TAZE gün geçtiyse yeniden açılır. Okuma kaydı
+  // (lgs_hap: ilk, son, kez, sure, toplam) bulut yedeğine girer; panel kimin ne kadar okuduğunu gösterir.
+  var HAP_TAZE = 14;
+  var hapAcilis = null;
+  function hapVar(konuId) { return !!(window.LGS_HAP && window.LGS_HAP[konuId]); }
+  function hapOkuma(konuId) { return Store.get("hap", {})[konuId] || null; }
+  function hapGerekli(konuId) {
+    if (!hapVar(konuId)) return false;
+    var o = hapOkuma(konuId);
+    return !o || Date.now() - o.son > HAP_TAZE * GUN;
+  }
+  function hapListe(dizi, sinif) {
+    if (!dizi || !dizi.length) return "";
+    return '<ul' + (sinif ? ' class="' + sinif + '"' : "") + '>' +
+      dizi.map(function (m) { return "<li>" + bicim(m) + "</li>"; }).join("") + "</ul>";
+  }
+  function hapSozcuk(h) {
+    var m = [h.giris].concat(h.lgs || []);
+    (h.bolumler || []).forEach(function (b) {
+      m = m.concat(b.maddeler || [], b.ornekler || [], b.dikkat || []);
+      if (b.tablo) m.push(b.tablo.replace(/<[^>]+>/g, " "));
+    });
+    (h.yokla || []).forEach(function (y) { m.push(y.soru, y.cevap); });
+    return m.join(" ").split(/\s+/).filter(Boolean).length;
+  }
+  // devam: özetten sonra ne açılacak — kademe numarası (o kademenin test ekranı) ya da "p" (paragraf turu)
+  function hapEkrani(konuId, devam) {
+    var kb = KONU[konuId], h = window.LGS_HAP && window.LGS_HAP[konuId];
+    if (!kb || !h) return git("#/");
+    hapAcilis = { konu: konuId, ts: Date.now() };
+    var o = hapOkuma(konuId);
+    var okumaDk = Math.max(3, Math.round(hapSozcuk(h) / 120));
+    var html = ustCubuk(esc(kb.konu.ad) + ' <span class="soluk">· Konu özeti</span>', kb.konu.rutin ? "#/" : "#/ders/" + kb.ders.id);
+    html += '<div class="hap"><div class="kart hap-giris ders-' + kb.ders.id + '">' +
+      '<span class="hap-ust">' + (devam && !o ? "Teste başlamadan önce" : "Hap bilgi") + " · yaklaşık " + okumaDk + " dakikalık okuma</span>" +
+      "<p>" + bicim(h.giris) + "</p>" +
+      (o ? '<p class="soluk kucuk">Bu özeti daha önce ' + o.kez + " kez okudun, en son " + fmtTarih(o.son) + ".</p>" : "") + "</div>";
+    (h.bolumler || []).forEach(function (b, i) {
+      html += '<section class="hap-bolum"><h2><span class="hap-no">' + (i + 1) + "</span>" + bicim(b.baslik) + "</h2>" +
+        hapListe(b.maddeler, "hap-madde") +
+        (b.tablo ? '<div class="hap-tablo">' + b.tablo + "</div>" : "") +
+        (b.ornekler && b.ornekler.length ? '<div class="hap-kutu hap-ornek"><strong>Örnek</strong>' + hapListe(b.ornekler) + "</div>" : "") +
+        (b.dikkat && b.dikkat.length ? '<div class="hap-kutu hap-dikkat"><strong>Dikkat</strong>' + hapListe(b.dikkat) + "</div>" : "") +
+        "</section>";
+    });
+    if (h.lgs && h.lgs.length) {
+      html += '<section class="hap-bolum hap-lgs"><h2>Sınavda karşına böyle çıkar</h2>' + hapListe(h.lgs, "hap-madde") + "</section>";
+    }
+    if (h.yokla && h.yokla.length) {
+      html += '<section class="hap-bolum"><h2>Kendini yokla</h2><p class="soluk kucuk">Önce cevabı kafanda söyle, sonra tıklayıp kontrol et.</p>' +
+        h.yokla.map(function (y) {
+          return '<details class="yokla"><summary>' + bicim(y.soru) + "</summary><div>" + bicim(y.cevap) + "</div></details>";
+        }).join("") + "</section>";
+    }
+    html += '<div class="hap-son"><button class="btn birincil buyuk" onclick="App.hapBitti(\'' + konuId + "','" + (devam || "") + '\')">' +
+      (devam === "p" ? "Okudum, tura başla →" : devam ? "Okudum, teste geç →" : "Okudum ✓") + "</button></div></div>";
+    render(html);
+  }
+  function hapBitti(konuId, devam) {
+    var t = Store.get("hap", {}), x = t[konuId] || { ilk: Date.now(), kez: 0, toplam: 0 };
+    var sure = hapAcilis && hapAcilis.konu === konuId ? Math.min(3600, Math.round((Date.now() - hapAcilis.ts) / 1000)) : 0;
+    x.son = Date.now(); x.kez++; x.sure = sure; x.toplam = (x.toplam || 0) + sure;
+    t[konuId] = x;
+    Store.set("hap", t);
+    hapAcilis = null;
+    var kb = KONU[konuId];
+    if (devam === "p") return paragrafBaslat();
+    git(devam ? "#/hazir/" + konuId + "/" + devam : kb.konu.rutin ? "#/" : "#/ders/" + kb.ders.id);
   }
 
   // ================= Test =================
@@ -753,7 +851,7 @@ var App = (function () {
   function paragrafBugun() {
     var bugun = tarihKey(new Date()), say = 0;
     Store.get("gecmis", []).forEach(function (g) {
-      if (g.tur === "paragraf" && tarihKey(new Date(g.ts)) === bugun) say += g.sorular.length;
+      if (g.tur === "paragraf" && tarihKey(new Date(g.ts)) === bugun) say += g.yarim ? Object.keys(g.cevap).length : g.sorular.length;
     });
     return say;
   }
@@ -773,6 +871,9 @@ var App = (function () {
     return seri;
   }
   function paragrafBaslat() {
+    // Paragraf rehberi ilk turdan önce bir kez okunur; rutin konuda sonradan yeniden açılmaz.
+    if (hapVar(PARAGRAF_KONU) && !hapOkuma(PARAGRAF_KONU)) return git("#/hap/" + PARAGRAF_KONU + "/p");
+    if (yarimSor(paragrafBaslat)) return;
     var ids = paragrafSorulari(paragrafSet());
     if (!ids.length) return;
     S = {
@@ -785,6 +886,7 @@ var App = (function () {
   }
 
   function tekrarBaslat() {
+    if (yarimSor(tekrarBaslat)) return;
     var ids = tekrarSorulari(10);
     if (!ids.length) return;
     var sorular = ids.map(soruBul);
@@ -797,6 +899,7 @@ var App = (function () {
     git("#/test");
   }
   function testBaslat(konuId, k) {
+    if (yarimSor(function () { testBaslat(konuId, k); })) return;
     var sorular = kademeSorulari(konuId, k);
     if (!sorular.length) return;
     S = {
@@ -874,7 +977,7 @@ var App = (function () {
           : '<span class="soluk"> · ' + (S.tur === "paragraf" ? "günlük rutin" : "karışık sorular") + '</span>') + '</div>' +
       '<div class="tu-sag"><span id="sure-etiket" class="soluk kucuk">' + sureEtiketi() + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
-      '<button class="btn" onclick="App.git(\'#/\')" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
+      '<button class="btn" onclick="App.araVer()" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
       '<button class="btn" onclick="App.bitir()">Testi bitir</button></div></header>';
 
     html += '<div class="palet">';
@@ -907,7 +1010,9 @@ var App = (function () {
   function sec(i) {
     var qid = S.sorular[S.idx];
     if (S.cevap[qid] === i) delete S.cevap[qid]; else S.cevap[qid] = i;
+    S.son = Date.now();
     Store.set("aktif", S);
+    Bulut.yedekle(false); // en fazla 2 dakikada bir
     testCiz();
   }
   function ileri(delta) { gitNo(S.idx + delta); }
@@ -938,6 +1043,13 @@ var App = (function () {
   function bitirOnay() {
     modalKapat();
     zamanlayiciDurdur();
+    var kayit = testKaydet(false);
+    incFiltre = "hepsi";
+    location.replace("#/sonuc/" + kayit.ts);
+  }
+  // Aktif testi (S) sonuçlandırıp geçmişe yazar ve buluta yollar. yarim: öğrenci "Testi bitir"e
+  // basmadan yeni bir teste geçmek istedi; boşlar boş sayılır, kayıt "yarıda bırakıldı" diye işaretlenir.
+  function testKaydet(yarim) {
     var d = 0, y = 0, b = 0;
     var yanlis = Store.get("yanlis", {});
     // Soru bankadan kalkmışsa (dosya yeniden adlandırılmış vb.) testi düşürmeden atla
@@ -965,6 +1077,7 @@ var App = (function () {
       d: d, y: y, b: b, net: d - y / 3, oran: d / n, sure: S.gecen, sureDoldu: !!S.sureDoldu, asim: Math.max(0, S.gecen - S.oneri), hedefSure: S.oneri,
       sorular: S.sorular, cevap: S.cevap, sureSoru: S.sureSoru, neden: {}
     };
+    if (yarim) kayit.yarim = true;
     var gecmis = Store.get("gecmis", []);
     gecmis.push(kayit);
     Store.set("gecmis", gecmis);
@@ -972,7 +1085,10 @@ var App = (function () {
 
     // Görülen sorular (tekrar testi aynı soruyu iki kez sormasın diye)
     var gorulen = Store.get("gorulen", {});
-    S.sorular.forEach(function (id) { gorulen[id] = kayit.ts; });
+    // Yarıda bırakılan testte hiç açılmamış soru "görüldü" sayılmaz; havuza geri döner
+    S.sorular.forEach(function (id) {
+      if (!yarim || S.cevap[id] !== undefined || S.sureSoru[id]) gorulen[id] = kayit.ts;
+    });
     Store.set("gorulen", gorulen);
 
     var tum = Store.get("konuDurum", {});
@@ -1009,8 +1125,47 @@ var App = (function () {
       d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu, asim: kayit.asim, hedefSure: kayit.hedefSure,
       sureSoru: kayit.sureSoru, yanlislar: yanlislar
     }, "test-" + kayit.ts);
-    incFiltre = "hepsi";
-    location.replace("#/sonuc/" + kayit.ts);
+    return kayit;
+  }
+
+  // Yarım kalan test varken yenisi başlatılırsa eskisi sessizce silinmesin (eskiden aktif test
+  // üzerine yazılıyor, çözülen sorular hiçbir yere kaydedilmeden kayboluyordu). Öğrenciye sorulur.
+  var bekleyenBaslat = null;
+  function yarimTest() {
+    var a = S || Store.get("aktif", null);
+    return a && a.cevap && Object.keys(a.cevap).length ? a : null;
+  }
+  function yarimSor(baslat) {
+    var a = yarimTest();
+    if (!a) return false;
+    bekleyenBaslat = baslat;
+    var kb = KONU[a.konu];
+    modal('<h3>Yarım kalan bir testin var</h3><p><strong>' +
+      (kb ? esc(kb.konu.ad) + " · " + kademeAdi(a.kademe) : a.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi") +
+      "</strong> testinde " + Object.keys(a.cevap).length + " / " + a.sorular.length + " soruyu işaretledin. " +
+      "Yenisine geçersen o test burada biter ve çözdüklerin kaydedilir.</p>" +
+      '<div class="modal-btn"><button class="btn" onclick="App.yarimDon()">Yarım testime dön</button>' +
+      '<button class="btn birincil" onclick="App.yarimBitir()">Onu bitir, yenisine geç</button></div>');
+    return true;
+  }
+  function yarimDon() {
+    modalKapat();
+    bekleyenBaslat = null;
+    S = S || Store.get("aktif", null);
+    git("#/test");
+  }
+  function yarimBitir() {
+    modalKapat();
+    S = S || Store.get("aktif", null);
+    if (S) testKaydet(true);
+    var f = bekleyenBaslat;
+    bekleyenBaslat = null;
+    if (f) f();
+  }
+  function araVer() {
+    zamanlayiciDurdur();
+    Bulut.yedekle(true); // "Testi bitir"e basılmadı: çözülenler en azından panelde görünsün
+    git("#/");
   }
 
   // ================= Sonuç ve inceleme =================
@@ -1027,7 +1182,8 @@ var App = (function () {
     var sonrakiVar = kayit.kademe < 3 && kademeSorulari(kayit.konu, kayit.kademe + 1).length > 0;
     var mesaj = sinif === "iyi" ? "Harika! Bu kademe sağlam."
       : gecti ? "Geçtin. Yanlışlarının çözümünü inceledikten sonra devam et."
-      : "Bu kademeyi tekrar çözmelisin. Önce aşağıdaki çözümleri dikkatle incele.";
+      : "Bu kademeyi tekrar çözmelisin. Önce aşağıdaki çözümleri dikkatle incele" +
+        (hapVar(kayit.konu) ? ", sonra konu özetini bir kez daha oku." : ".");
     if (kayit.sureDoldu) {
       mesaj = (kayit.asim
         ? "Hedef süreyi " + fmtSureYazi(kayit.asim) + " aştın. Sorun değil, tempo zamanla oturur. "
@@ -1041,7 +1197,8 @@ var App = (function () {
       ozetKutu(fmtNet(kayit.net), "net") + ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
       '<div class="sonuc-btn">' +
       (gecti && sonrakiVar ? '<button class="btn birincil" onclick="App.git(\'#/hazir/' + kayit.konu + "/" + (kayit.kademe + 1) + '\')">Sonraki kademe →</button>' : "") +
-      '<button class="btn' + (gecti ? "" : " birincil") + '" onclick="App.git(\'#/hazir/' + kayit.konu + "/" + kayit.kademe + '\')">Tekrar çöz</button>' +
+      (!gecti && hapVar(kayit.konu) ? '<button class="btn birincil" onclick="App.git(\'#/hap/' + kayit.konu + "/" + kayit.kademe + '\')">Özeti oku, sonra tekrar çöz →</button>' : "") +
+      '<button class="btn' + (gecti || hapVar(kayit.konu) ? "" : " birincil") + '" onclick="App.git(\'#/hazir/' + kayit.konu + "/" + kayit.kademe + '\')">Tekrar çöz</button>' +
       '<button class="btn" onclick="App.git(\'#/ders/' + kb.ders.id + '\')">Konulara dön</button></div></div></div>';
 
     html += '<div class="filtre">' +
@@ -1404,6 +1561,7 @@ var App = (function () {
     modalKapat();
     if (p[0] === "ders" && dersBul(p[1])) return dersEkrani(p[1]);
     if (p[0] === "hazir" && KONU[p[1]]) return hazirEkrani(p[1], +p[2]);
+    if (p[0] === "hap" && KONU[p[1]]) return hapEkrani(p[1], p[2] === "p" ? "p" : +p[2] || 0);
     if (p[0] === "test") {
       S = S || Store.get("aktif", null);
       if (S && soruBul(S.sorular[S.idx])) return testEkrani();
@@ -1427,8 +1585,15 @@ var App = (function () {
     window.addEventListener("hashchange", yonlendir);
     document.addEventListener("keydown", klavye);
     window.addEventListener("beforeunload", zamanlayiciDurdur);
+    // Kapak kapanırken / sekme gizlenirken yarım testin son hâli panele gitsin
+    document.addEventListener("visibilitychange", function () {
+      if (document.visibilityState !== "hidden" || !yarimTest()) return;
+      if (S) Store.set("aktif", S);
+      if (Date.now() - Bulut.sonYedek > 15000) Bulut.yedekle(true, true);
+    });
     yonlendir();
     Bulut.bosalt();
+    if (yarimTest()) Bulut.yedekle(true); // önceki oturumdan kalan yarım test panele ulaşsın
   }
 
   return {
@@ -1436,7 +1601,8 @@ var App = (function () {
     isaretle: isaretle, bitir: bitir, bitirOnay: bitirOnay, filtrele: filtrele,
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
-    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
+    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti,
+    araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
     bicim: bicim, ikon: ikon, _ufuk: ufukSVG, _paragrafSorulari: paragrafSorulari
   };
 })();

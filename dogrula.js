@@ -202,6 +202,66 @@ konular.forEach(function (konuId) {
 });
 if (!kopyaBulundu) console.log("  ✅ Kopya veya aşırı benzer soru bulunamadı.");
 
+// 5b) Konu özetleri (hap/): liste, şema, biçimlendirme, uzunluk
+console.log("\nKonu özetleri kontrol ediliyor…");
+var hapDir = path.join(__dirname, "hap");
+var hapListe = [];
+if (fs.existsSync(path.join(hapDir, "liste.js"))) {
+  try { require(path.join(hapDir, "liste.js")); hapListe = window.LGS_HAP_LISTE || []; }
+  catch (e) { sorun("hap/liste.js yüklenemedi: " + e.message); }
+  fs.readdirSync(hapDir).forEach(function (f) {
+    if (f.slice(-3) === ".js" && f !== "liste.js" && hapListe.indexOf(f) === -1) {
+      dikkat("hap/" + f + " klasörde var ama hap/liste.js listesine eklenmemiş (program bu özeti görmez).");
+    }
+  });
+}
+function hapMetin(yer, s) {
+  if (typeof s !== "string" || !s.trim()) { sorun(yer + ": boş ya da metin değil"); return ""; }
+  if (/___/.test(s)) sorun(yer + ": '___' kullanılmış ('__' altı çizili demektir; boşluk için '- - - -')");
+  if ((s.match(/\*\*/g) || []).length % 2) sorun(yer + ": kapanmamış '**'");
+  if (/<\s*[a-z]/i.test(s)) dikkat(yer + ": HTML etiketi var; metin alanlarında HTML görünmez, düz yazı olarak basılır");
+  return s;
+}
+hapListe.forEach(function (f) {
+  var p = path.join(hapDir, f);
+  if (!fs.existsSync(p)) { sorun("hap/liste.js'te var ama dosya yok: " + f); return; }
+  var once = Object.keys(window.LGS_HAP || {});
+  try { require(p); } catch (e) { sorun("hap/" + f + " yüklenemedi: " + e.message); return; }
+  var yeni = Object.keys(window.LGS_HAP || {}).filter(function (k) { return once.indexOf(k) === -1; });
+  if (yeni.length !== 1) { sorun("hap/" + f + ": tam bir konu özeti tanımlamalı (" + yeni.length + " tanımlıyor)"); return; }
+  var id = yeni[0], h = window.LGS_HAP[id], yer = "hap/" + f, sozcuk = [];
+  if (!KONU[id]) sorun(yer + ": konu id konular.js'te yok: " + id);
+  if (f !== id + ".js") dikkat(yer + ": dosya adı konu id'siyle aynı olmalı (" + id + ".js)");
+  if (!Array.isArray(h.kazanimlar) || !h.kazanimlar.length) sorun(yer + ": kazanimlar boş");
+  sozcuk.push(hapMetin(yer + " giris", h.giris));
+  if (!Array.isArray(h.bolumler) || h.bolumler.length < 3) sorun(yer + ": en az 3 bölüm olmalı");
+  (h.bolumler || []).forEach(function (b, i) {
+    var by = yer + " bölüm " + (i + 1);
+    hapMetin(by + " başlık", b.baslik);
+    if (!Array.isArray(b.maddeler) || !b.maddeler.length) sorun(by + ": maddeler boş");
+    ["maddeler", "ornekler", "dikkat"].forEach(function (alan) {
+      if (b[alan] !== undefined && !Array.isArray(b[alan])) sorun(by + ": " + alan + " dizi olmalı");
+      (b[alan] || []).forEach(function (m, j) { sozcuk.push(hapMetin(by + " " + alan + "[" + j + "]", m)); });
+    });
+    if (b.tablo !== undefined && b.tablo !== null) {
+      if (!/^<table class="tablo">/.test(b.tablo)) sorun(by + ": tablo '<table class=\"tablo\">' ile başlamalı");
+      if (/<script|on[a-z]+=/i.test(b.tablo)) sorun(by + ": tabloda betik ya da olay özniteliği var");
+      sozcuk.push(b.tablo.replace(/<[^>]+>/g, " "));
+    }
+  });
+  if (!Array.isArray(h.lgs) || h.lgs.length < 2) sorun(yer + ": 'lgs' (sınavda nasıl sorulur) en az 2 madde olmalı");
+  (h.lgs || []).forEach(function (m, j) { sozcuk.push(hapMetin(yer + " lgs[" + j + "]", m)); });
+  if (!Array.isArray(h.yokla) || h.yokla.length < 3) sorun(yer + ": 'yokla' en az 3 soru olmalı");
+  (h.yokla || []).forEach(function (y, j) {
+    sozcuk.push(hapMetin(yer + " yokla[" + j + "].soru", y && y.soru), hapMetin(yer + " yokla[" + j + "].cevap", y && y.cevap));
+  });
+  var n = sozcuk.join(" ").split(/\s+/).filter(Boolean).length;
+  if (n < 400 || n > 1800) dikkat(yer + ": " + n + " sözcük (hedef 600-1400; okuma 5-10 dakika)");
+  console.log("  " + yer + ": " + (h.bolumler || []).length + " bölüm, " + n + " sözcük");
+});
+var ozetsiz = konular.filter(function (k) { return !(window.LGS_HAP || {})[k]; });
+if (ozetsiz.length) console.log("  ℹ️  Özeti olmayan konular: " + ozetsiz.join(", "));
+
 // 6) Endeks üretimi — yazar ajanlar tüm soru dosyalarını okumak yerine bu kompakt
 // envanteri okur ve daha önce ne yazıldığını görür. Banka büyüdükçe kavramsal
 // tekrarın önündeki tek pratik engel budur.

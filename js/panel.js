@@ -65,7 +65,10 @@ var Panel = (function () {
   }
   function coz(kopya) {
     function al(k, def) { try { return JSON.parse(kopya.veri["lgs_" + k]) || def; } catch (e) { return def; } }
-    return { ts: kopya.ts, gecmis: al("gecmis", []), konuDurum: al("konuDurum", {}), bildirim: al("bildirim", []) };
+    return {
+      ts: kopya.ts, gecmis: al("gecmis", []), konuDurum: al("konuDurum", {}), bildirim: al("bildirim", []),
+      aktif: al("aktif", null), hap: al("hap", {})
+    };
   }
   function yukle() {
     var yerel = new URLSearchParams(location.search).get("yerel");
@@ -116,6 +119,8 @@ var Panel = (function () {
       (son ? "Son test: <strong>" + once(son.ts) + "</strong>" : "Henüz test çözülmedi") +
       ' · veri: ' + tarihSaat(veri.ts) + '</p></div>' +
       '<button class="btn" onclick="Panel.yukle()">↻ Yenile</button></header>';
+
+    html += yarimKart();
 
     html += '<div class="filtre">' + DONEMLER.map(function (d) {
       return '<button class="cip-btn' + (donem === d.k ? " aktif" : "") + '" onclick="Panel.donemSec(' + d.k + ')">' + d.ad + '</button>';
@@ -169,6 +174,28 @@ var Panel = (function () {
       }).join("") + '</div>';
     }
     $("#app").innerHTML = html;
+  }
+
+  // "Testi bitir"e basılmadan bırakılan test. Sonuçları henüz geçmişe (ve toplamlara) girmedi;
+  // öğrenci testi bitirince ya da yeni bir teste geçince girer.
+  function yarimKart() {
+    var a = veri.aktif;
+    if (!a || !a.sorular || !a.cevap || !Object.keys(a.cevap).length) return "";
+    var d = 0, y = 0, isaretli = 0;
+    a.sorular.forEach(function (id) {
+      var q = soruBul(id), c = a.cevap[id];
+      if (!q || c === undefined) return;
+      isaretli++;
+      if (c === q.dogru) d++; else y++;
+    });
+    var kb = KONU[a.konu];
+    var ad = kb ? esc(kb.konu.ad) + " · " + (KADEME_AD[a.kademe] || "") : a.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi";
+    return '<div class="kart yarim-kart"><h3>Yarım kalan test</h3>' +
+      '<p><strong>' + ad + '</strong> · başladı ' + tarihSaat(a.basla) + (a.son ? " · son cevap " + once(a.son) : "") + '</p>' +
+      '<div class="ozet">' + kutu(isaretli + " / " + a.sorular.length, "işaretli soru") + kutu(d, "doğru") + kutu(y, "yanlış") +
+      kutu((Math.round((d - y / 3) * 100) / 100).toLocaleString("tr-TR"), "net") + kutu(dk(a.gecen || 0), "süre") + '</div>' +
+      '<p class="soluk kucuk" style="margin:10px 0 0">“Testi bitir”e basılmadığı için bu sonuçlar aşağıdaki toplamlara henüz eklenmedi. ' +
+      'Test bitince ya da yeni bir teste geçilince eklenir.</p></div>';
   }
 
   function gunlukGrafik(tum) {
@@ -231,13 +258,16 @@ var Panel = (function () {
       var satirlar = "";
       d.uniteler.forEach(function (u) {
         u.konular.forEach(function (k) {
-          var kd = veri.konuDurum[k.id];
-          if (!kd) return;
-          satirlar += '<div class="kh-satir"><span class="kh-ad">' + esc(k.ad) + '</span><span class="kh-cipler">' + [1, 2, 3].map(function (n) {
+          var kd = veri.konuDurum[k.id], hp = veri.hap[k.id];
+          if (!kd && !hp) return;
+          // Konu özeti (hap bilgi) okuma kaydı: kaç kez, son okumada kaç dakika
+          var ozetCip = hp ? '<span class="cip" title="Konu özetini ' + hp.kez + ' kez okudu, en son ' + tarihSaat(hp.son) + '">Özet · ' +
+            (hp.sure ? dk(hp.sure) : "okundu") + (hp.kez > 1 ? " · " + hp.kez + " kez" : "") + '</span>' : "";
+          satirlar += '<div class="kh-satir"><span class="kh-ad">' + esc(k.ad) + '</span><span class="kh-cipler">' + ozetCip + (kd ? [1, 2, 3].map(function (n) {
             var x = kd.k[n];
             return '<span class="rozet ' + (x ? sinif(x.enIyi) : "bos") + '" title="' + KADEME_AD[n] + (x ? " · " + x.deneme + " deneme" : "") + '">' +
               n + (x ? " · %" + yuzde(x.enIyi) : " · –") + '</span>';
-          }).join("") + '</span></div>';
+          }).join("") : "") + '</span></div>';
         });
       });
       if (satirlar) html += '<h3 class="unite-baslik ders-' + d.id + '">' + App.ikon(d.id) + esc(d.ad) + '</h3><div class="kart">' + satirlar + '</div>';
@@ -251,7 +281,9 @@ var Panel = (function () {
     g.slice().reverse().forEach(function (t) {
       var kb = KONU[t.konu];
       html += '<details class="kart test-detay"><summary><span class="rozet ' + sinif(t.oran) + '">%' + yuzde(t.oran) + '</span>' +
-        '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : "Tekrar testi") + ' <span class="soluk">· ' + (KADEME_AD[t.kademe] || "karışık sorular") + '</span></span>' +
+        '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : t.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi") + ' <span class="soluk">· ' +
+        (KADEME_AD[t.kademe] || (t.tur === "paragraf" ? "günlük rutin" : "karışık sorular")) + '</span>' +
+        (t.yarim ? ' <span class="cip">yarıda bırakıldı</span>' : "") + '</span>' +
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +
         (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) +

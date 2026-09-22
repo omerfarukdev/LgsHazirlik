@@ -9,7 +9,9 @@
 - `js/konular.js`: ders → ünite → konu ağacı (`window.LGS_KONULAR`). Konu `id`'leri sabittir.
 - `sorular/*.js`: sorular, `window.LGS_BANK["<konu-id>"]` dizisine push edilir. Konu başına bir ya da birkaç dosya (`…-1.js`, `…-2.js`).
 - `sorular/manifest.js`: yüklenecek soru dosyalarının listesi. Burada olmayan dosya görünmez.
-- `panel.html` + `js/panel.js`: abinin ilerleme paneli. Veriyi `rapor/Kod.gs` (abinin Google hesabındaki Apps Script + E-Tablo) üzerinden okur. Apps Script adresi depoya YAZILMAZ; uygulamadaki "Panel bağlantısı" ile tarayıcıya kaydedilir. `js/app.js` içindeki kayıt yapısını (`gecmis`, `konuDurum`, `bildirim`) değiştirirsen paneli de güncelle.
+- `hap/<konu-id>.js`: konu özetleri (hap bilgi), `window.LGS_HAP["<konu-id>"]`. `hap/liste.js` yüklenecek özetlerin listesidir. Öğrenci bir konunun testine ilk kez girerken özet test ekranından önce kendiliğinden açılır (aşağıda "Konu özeti").
+- `panel.html` + `js/panel.js`: abinin ilerleme paneli. Veriyi `rapor/Kod.gs` (abinin Google hesabındaki Apps Script + E-Tablo) üzerinden okur. Apps Script adresi depoya YAZILMAZ; uygulamadaki "Panel bağlantısı" ile tarayıcıya kaydedilir. `js/app.js` içindeki kayıt yapısını (`gecmis`, `konuDurum`, `bildirim`, `aktif`, `hap`) değiştirirsen paneli de güncelle.
+- Yarım kalan test (`lgs_aktif`) de bulut yedeğine girer ve panelde "Yarım kalan test" olarak görünür. Öğrenci "Testi bitir"e basmadan çıkabilir; çözdükleri kaybolmamalı, panelden görünmelidir.
 - `dogrula.js`: `node dogrula.js` şema, id çakışması, kopya ve şık dengesi kontrolü yapar.
 - Öğrencinin verisi tarayıcıda (localStorage, `lgs_` öneki) durur; depoda kişisel veri YOKTUR.
 - `planlama/`: plan, araştırma raporları ve resmi kaynaklar (`kaynaklar/` altında MEB öğretim programları, 2026 kılavuzu ve 2026 soru kitapçıkları). `kaynaklar/` yalnızca yereldir, depoya girmez (.gitignore); klasör yoksa belgeler `arastirma-mufredat.md` içindeki MEB adreslerinden yeniden indirilir.
@@ -161,6 +163,47 @@ Aynı soru tipi (örneğin "akışı bozan cümle") bir partide 3'ten fazla kull
 6. `node dogrula.js` çalıştır; hata ve uyarı sıfır olana kadar düzelt.
 
 **Soru yazan ajan `sorular/manifest.js` dosyasına DOKUNMAZ.** Manifesti üretimi başlatan taraf, bütün dosyalar geldikten ve doğrulandıktan sonra tek seferde günceller. (21 Eylül 2026'daki partide yazar ajanlar bu kuralı çiğneyip kendileri ekleme yaptı; zararsızdı ama doğrulanmamış dosyanın yayına girmesine yol açabilirdi.)
+
+## Konu özeti (hap bilgi)
+
+Öğrenci konuyu okulda işler, kâğıt testlerini çözer, sonra bu sisteme gelir. Testten önce **konu özetini** okur: konunun tamamını 5-10 dakikada hatırlatan hap bilgiler. Özet konunun testine ilk kez girerken kendiliğinden açılır. Son okumanın üstünden 14 gün geçtiyse yeniden açılır. Kademeyi geçemeyen öğrenciye "Özeti oku, sonra tekrar çöz" önerilir. Okuma süresi panelde görünür.
+
+**Her konu özetle birlikte yayımlanır.** Bir konuya soru üretirken özeti de yaz. Özeti olmayan konu eksiktir (`node dogrula.js` listeler).
+
+```js
+window.LGS_HAP = window.LGS_HAP || {};
+window.LGS_HAP["fiilimsiler"] = {
+  kazanimlar: ["T.8.3.9"],
+  giris: "1-3 cümle: bu konu ne, sınavda ne istenir, özeti okuyunca ne yapabileceksin.",
+  bolumler: [
+    {
+      baslik: "Fiilimsi nedir?",
+      maddeler: ["Hap bilgi — tek fikir, 1-2 cümle.", "…"],
+      tablo: "<table class=\"tablo\">…</table>",   // isteğe bağlı; karşılaştırma için
+      ornekler: ["…"],                             // isteğe bağlı
+      dikkat: ["Sık yapılan hata ve nasıl kaçınılacağı."]  // isteğe bağlı
+    }
+  ],
+  lgs: ["Sınavda bu konu nasıl sorulur: soru tipi, tipik çeldirici."],
+  yokla: [{ soru: "Kısa hatırlama sorusu", cevap: "Cevap ve bir cümlelik gerekçe" }]
+};
+```
+
+Örnek ve ölçü: [hap/fiilimsiler.js](hap/fiilimsiler.js).
+
+| Kural | Açıklama |
+|---|---|
+| Kapsam | Testte sorulan **her** kavram özette olmalı. Özeti okuyan öğrenci konunun 90 sorusundan hiçbirinde "bunu hiç duymadım" dememeli. Yazmadan önce konunun endeksini (`sorular/endeks/<konu-id>.txt`) ve soru dosyalarının `hatalar` alanlarını oku. |
+| Sınır | Yalnızca öğrencinin programındaki kazanımlar (2018, Türkçe 2019). Program "girilmez" diyorsa özete de girmez. Okulda daha sonra işlenecek konunun bilgisi yok. |
+| Doğruluk | Her kural, tanım, formül ve olgu doğru olmalı. Emin olmadığın istisnayı yazma. Soru bankasıyla çelişme (ör. bankada adlaşmış sıfat-fiil "sıfat-fiil" sayılıyorsa özet de öyle der). |
+| "Dikkat" kutuları | Bankadaki `hatalar` alanlarında en sık geçen hatalardan gelir. Her biri hatayı adlandırır ve bir karşılaştırmalı örnekle nasıl ayırt edileceğini gösterir. |
+| Ezber değil işlev | Program "ezberletilmez" diyorsa (ör. fiilimsi ekleri) listeyi "tanıma ipucu" olarak ver, asıl ölçütü (görev, anlam, neden) öne çıkar. |
+| Örnekler | Özgün ve kısa. Soru bankasındaki cümleleri, bağlamları ve sayıları kullanma; özet testin cevap anahtarı olmamalı. |
+| Uzunluk | 600-1400 sözcük (5-10 dakika okuma), 4-7 bölüm, 3-6 "Kendini yokla" sorusu, 2-4 "Sınavda karşına böyle çıkar" maddesi. Matematikte formül ve bir çözümlü mini örnek, Fen'de kavram çiftleri tablosu, İnkılap'ta olay → neden → sonuç zinciri işe yarar. |
+| Dil | Öğrenciye "sen" diye hitap et. Sade, kısa cümleler. Yazım ve noktalama kusursuz. |
+| Biçim | Metin alanlarında soru biçimlendirmesi geçerlidir (`**kalın**`, `2^{3}`, `√{2}`, `[[3\|4]]`). HTML yalnızca `tablo` alanında olur. |
+
+**Prosedür:** özeti yazan ajandan ayrı bir ajan özeti soru bankasıyla birlikte okur ve şunları bildirir: yanlış ya da eksik bilgi, müfredat dışı içerik, bankada sorulup özette olmayan kavram, bankadaki soruyla birebir örtüşen örnek, yazım hatası. Düzeltilen özet `node dogrula.js`'ten geçer. **Özeti yazan ajan `hap/liste.js` dosyasına DOKUNMAZ**; listeyi üretimi başlatan taraf günceller.
 
 ## DOKUNMA kuralları
 
