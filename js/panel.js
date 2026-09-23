@@ -9,6 +9,9 @@ var Panel = (function () {
   var DERSLER = window.LGS_KONULAR || [];
   var HARFLER = ["A", "B", "C", "D"];
   var KADEME_AD = { 1: "Kavrama", 2: "Pekiştirme", 3: "LGS Ayarı" };
+  var TUR_AD = { paragraf: "Günün paragrafı", tekrar: "Tekrar testi", unite: "Ünite denemesi", aylik: "Aylık değerlendirme" };
+  var UNITE = {};
+  DERSLER.forEach(function (d) { d.uniteler.forEach(function (u) { UNITE[u.id] = d.ad + " · " + u.ad; }); });
   var NEDEN_AD = { bilgi: "Bilmiyordum", okuma: "Yanlış okudum", islem: "İşlem hatası", sure: "Aceleye geldi", tahmin: "Tahmin ettim" };
   var DONEMLER = [{ k: 7, ad: "Son 7 gün" }, { k: 30, ad: "Son 30 gün" }, { k: 0, ad: "Tümü" }];
 
@@ -160,7 +163,7 @@ var Panel = (function () {
       DERSLER.forEach(function (d) {
         if (ders[d.id]) dersSatiri(ders[d.id], "ders-" + d.id, App.ikon(d.id) + esc(d.ad));
       });
-      if (ders._tekrar) dersSatiri(ders._tekrar, "", "Tekrar testleri <span class='soluk kucuk'>(karışık)</span>");
+      if (ders._tekrar) dersSatiri(ders._tekrar, "", "Karışık testler <span class='soluk kucuk'>(tekrar · ünite denemesi · aylık)</span>");
       html += '</table></div>';
     }
 
@@ -189,7 +192,7 @@ var Panel = (function () {
       if (c === q.dogru) d++; else y++;
     });
     var kb = KONU[a.konu];
-    var ad = kb ? esc(kb.konu.ad) + " · " + (KADEME_AD[a.kademe] || "") : a.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi";
+    var ad = kb ? esc(kb.konu.ad) + " · " + (KADEME_AD[a.kademe] || "") : (TUR_AD[a.tur] || "Test");
     return '<div class="kart yarim-kart"><h3>Yarım kalan test</h3>' +
       '<p><strong>' + ad + '</strong> · başladı ' + tarihSaat(a.basla) + (a.son ? " · son cevap " + once(a.son) : "") + '</p>' +
       '<div class="ozet">' + kutu(isaretli + " / " + a.sorular.length, "işaretli soru") + kutu(d, "doğru") + kutu(y, "yanlış") +

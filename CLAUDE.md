@@ -75,6 +75,18 @@ Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplam�
 
 Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden devam eder** (ör. `mat-ck-113` … `mat-ck-125`); yayımlanmış kimlikler değişmez.
 
+### Test türleri (uygulamada)
+
+| Tür | Nereden çıkar | İçeriği | Kaydı |
+|---|---|---|---|
+| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 soruları, dosya sırasıyla | `tur: "konu"`, kademe ilerletir |
+| Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
+| Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
+| Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
+| Aylık değerlendirme | 28 günde bir | İşlenmiş bütün konulardan, LGS'deki soru sayıları oranında 30 soru | `tur: "aylik"` |
+
+Ünite denemesi ve aylık değerlendirme kademe ilerletmez; sonuç ekranında konu konu (aylıkta ders ders) dağılım ve en zayıf konuya götüren düğme çıkar. Ünite kimlikleri `js/konular.js` içinde (`mat-u1`, `fen-u3`…) ve konu kimlikleri gibi SABİTTİR.
+
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)
 
 | Yazım | Görünüm |

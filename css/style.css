@@ -555,3 +555,13 @@ sup, sub { font-size: .72em; line-height: 0; }
 .yarim-kart { border-color: color-mix(in srgb, var(--orta) 55%, var(--cizgi)); background: linear-gradient(120deg, var(--orta-acik), var(--kart) 70%); margin: 0 0 18px; }
 .yarim-kart h3 { color: var(--orta); }
 .yarim-kart .ozet { margin-top: 12px; }
+
+/* ================= Ünite denemesi / aylık değerlendirme ================= */
+.deneme-kart { margin-top: 16px; border-color: color-mix(in srgb, var(--vurgu) 40%, var(--cizgi)); }
+.deneme-kart .tk-ust { color: var(--vurgu); }
+.aylik-kart { border-color: color-mix(in srgb, var(--vurgu2) 45%, var(--cizgi)); }
+.aylik-kart .tk-ust { color: var(--vurgu2); }
+.unite-btn { margin-left: 10px; vertical-align: 2px; color: var(--vurgu); border-color: color-mix(in srgb, var(--vurgu) 40%, var(--cizgi)); }
+.dagilim-kart { max-width: 980px; margin: 0 auto 18px; }
+.dagilim-kart .tablo { width: 100%; margin-top: 10px; }
+.dagilim-kart .tablo th, .dagilim-kart .tablo td { padding: 7px 10px; }
