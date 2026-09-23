@@ -110,6 +110,7 @@ getir(adres + "?islem=yedek", 5, function (hata, durum, govde) {
   var grup = {};
   gecmis.forEach(function (g) {
     var k = g.tur === "paragraf" ? "Günün paragrafı" : g.tur === "tekrar" ? "Tekrar testi" :
+      g.tur === "unite" ? "Ünite denemesi · " + (g.unite || "") : g.tur === "aylik" ? "Aylık değerlendirme" :
       (KONU_AD[g.konu] || g.konu) + " · kademe " + g.kademe;
     var x = grup[k] = grup[k] || { n: 0, d: 0, y: 0, b: 0 };
     x.n++; x.d += g.d; x.y += g.y; x.b += g.b;
