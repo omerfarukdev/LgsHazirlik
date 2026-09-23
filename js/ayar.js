@@ -19,8 +19,15 @@ window.LGS_AYAR = {
 
   // Günlük paragraf rutini. Paragraf, LGS'nin en yüksek getirili konusu ve bütün
   // derslerin okuma hızını belirleyen beceri; bu yüzden ayrı bir günlük hedefi var.
-  paragrafHedefi: 50,     // günde çözülmesi hedeflenen paragraf sorusu
-  paragrafSetBoyutu: 50,  // bir turda kaç soru sorulur (gerçek LGS sözel oturumu da 50 soru / 75 dk)
+  paragrafHedefi: 50,     // günde çözülmesi hedeflenen paragraf sorusu (turlara bölünür)
+  paragrafSetBoyutu: 25,  // bir turun taban boyu. 50'lik turların üçünü de yarıda bıraktığı için
+                          // 23 Eylül 2026'da 25'e indirildi: bitirme duygusu tempodan önce gelir.
+  // Tur boyu ABİ SÖYLEYENE KADAR 25'te sabit kalır (23 Eylül 2026 talimatı).
+  // true yapılırsa tur boyu kendiliğinden büyür: arka arkaya tamamlanan her tur boyu bir adım
+  // artırır, bir tur yarım kalırsa tabana döner. Hedef, gerçek LGS sözel oturumu olan 50 soru.
+  paragrafSetBuyur: false,
+  paragrafSetAdim: 5,
+  paragrafSetTavan: 50,
 
   // Test süresi: her sorunun zorluk düzeyine göre verilen saniyelerin toplamı.
   // Gerçek LGS temposu: sözel 50 soru / 75 dk = 90 sn, sayısal 40 soru / 80 dk = 120 sn.

@@ -430,7 +430,9 @@ var App = (function () {
       html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' +
         (ak ? esc(ak.konu.ad) : (aktif.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi")) + '</span>' +
         '<span class="ua-alt">' + kademeAdi(aktif.kademe) + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
-        '<button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button></div>';
+        '<div class="ua-btn"><button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button>' +
+        (Object.keys(aktif.cevap).length ? '<button class="btn-yazi" onclick="App.yarimKapat()">Testi burada bitir</button>' : "") +
+        '</div></div>';
     } else if (sira) {
       html += '<div class="ufuk-adim"><div><span class="ua-ust">Sıradaki adımın</span><span class="ua-ad">' + esc(sira.konu.ad) + '</span>' +
         '<span class="ua-alt">' + esc(sira.ders.ad) + " · " + sira.k + ". kademe · " + KADEMELER[sira.k].ad + '</span></div>' +
@@ -452,6 +454,10 @@ var App = (function () {
         '<p class="soluk">' + (bitti
           ? "Hedefi tutturdun. İstersen devam edebilirsin; paragrafta fazlası hep iyidir."
           : paragrafSet() + " soruluk turlar hâlinde, her tur yaklaşık " + Math.round(paragrafSet() * 1.5) + " dakika. " +
+            (AYAR.paragrafSetBuyur && paragrafSet() < (AYAR.paragrafSetTavan || 50)
+              ? (paragrafSeriBoyu() ? "Turları bitirdikçe tur boyun büyüyor; şu an " + paragrafSet() + " soru. "
+                                    : "Bir turu baştan sona bitirirsen sonraki tur " + (paragrafSet() + (AYAR.paragrafSetAdim || 5)) + " soru olur. ")
+              : "") +
             "Türkçe'nin en çok soru gelen kısmı burası, üstelik Fen ve Matematiğin uzun sorularını da hızlandırır.") +
         (pTaze < pHedef ? ' <span class="kotu">Havuzda ' + pTaze + ' taze soru kaldı; sonrasında eski sorular döner.</span>' : "") +
         '</p>' + (hapVar(PARAGRAF_KONU) ? '<button class="btn-yazi hap-link" onclick="App.git(\'#/hap/' + PARAGRAF_KONU + '\')">Paragraf rehberi: soru tipleri ve tuzaklar</button>' : "") +
@@ -792,7 +798,25 @@ var App = (function () {
   // aynı okuma hızına bağlıdır. Bu yüzden konu testlerinden ayrı, her gün açık bir rutindir.
   var PARAGRAF_KONU = "paragrafta-anlam";
   function paragrafHedef() { return AYAR.paragrafHedefi || 20; }
-  function paragrafSet() { return AYAR.paragrafSetBoyutu || 10; }
+  // Tur boyu: taban değerden başlar, öğrenci turu bitirdikçe adım adım büyür, bir turu yarıda
+  // bırakırsa tabana döner. Amaç, önce bitirme duygusunu kurup temposunu sonra uzatmak.
+  function paragrafSeriBoyu() {
+    var gecmis = Store.get("gecmis", []), seri = 0;
+    for (var i = gecmis.length - 1; i >= 0; i--) {
+      var g = gecmis[i];
+      if (g.tur !== "paragraf") continue;
+      var n = g.sorular.length;
+      if (!n || (n - g.b) < n * 0.9) break; // turun en az %90'ını işaretlediyse "bitirdi" sayılır
+      seri++;
+    }
+    return seri;
+  }
+  function paragrafSet() {
+    var taban = AYAR.paragrafSetBoyutu || 25;
+    if (!AYAR.paragrafSetBuyur) return taban;
+    var tavan = AYAR.paragrafSetTavan || taban, adim = AYAR.paragrafSetAdim || 5;
+    return Math.min(tavan, taban + paragrafSeriBoyu() * adim);
+  }
 
   // Paragraf turunun zorluk karması, öğrencinin son paragraf sorularındaki başarısına göre
   // ayarlanır. Havuzun yarısından fazlası zor (düzey 3-4) olduğu için rastgele çekiş,
@@ -1161,6 +1185,25 @@ var App = (function () {
     var f = bekleyenBaslat;
     bekleyenBaslat = null;
     if (f) f();
+  }
+  // Ana sayfadaki yarım test kartından: testi burada bitir (işaretlenenler kaydedilir).
+  function yarimKapat() {
+    var a = S || Store.get("aktif", null);
+    if (!a) return git("#/");
+    var say = Object.keys(a.cevap || {}).length;
+    if (!say) { S = null; Store.set("aktif", null); return git("#/"); } // hiç işaretlenmemiş: kaydedecek bir şey yok
+    modal("<h3>Test burada bitsin mi?</h3><p>İşaretlediğin <strong>" + say + " soru</strong> kaydedilir, " +
+      "geri kalanı boş sayılır. Cevaplamadığın sorular havuzda kalır, ileride yine karşına çıkar.</p>" +
+      '<div class="modal-btn"><button class="btn" onclick="App.modalKapat()">Vazgeç</button>' +
+      '<button class="btn birincil" onclick="App.yarimKapatOnay()">Bitir ve sonucu gör</button></div>');
+  }
+  function yarimKapatOnay() {
+    modalKapat();
+    S = S || Store.get("aktif", null);
+    if (!S) return git("#/");
+    var kayit = testKaydet(true);
+    incFiltre = "hepsi";
+    location.replace("#/sonuc/" + kayit.ts);
   }
   function araVer() {
     zamanlayiciDurdur();
@@ -1617,7 +1660,8 @@ var App = (function () {
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
     tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti,
-    araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
+    araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, yarimKapat: yarimKapat, yarimKapatOnay: yarimKapatOnay,
+    raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
     bicim: bicim, ikon: ikon, _ufuk: ufukSVG, _paragrafSorulari: paragrafSorulari
   };
 })();
