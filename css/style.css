@@ -565,3 +565,16 @@ sup, sub { font-size: .72em; line-height: 0; }
 .dagilim-kart { max-width: 980px; margin: 0 auto 18px; }
 .dagilim-kart .tablo { width: 100%; margin-top: 10px; }
 .dagilim-kart .tablo th, .dagilim-kart .tablo td { padding: 7px 10px; }
+
+/* ================= Yanlış defteri ekranı ================= */
+.yanlis-liste { display: grid; gap: 10px; margin-bottom: 8px; }
+.yanlis-kayit { padding: 0; }
+.yanlis-kayit > summary { cursor: pointer; padding: 14px 18px; display: grid; gap: 4px; }
+.yanlis-kayit > summary::-webkit-details-marker { display: none; }
+.yk-ust { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: .82rem; font-weight: 700; color: var(--vurgu); }
+.yk-ust .soluk { font-weight: 400; margin-left: auto; }
+.yk-metin { color: var(--yazi); line-height: 1.5; }
+.yanlis-kayit[open] > summary { border-bottom: 1px solid var(--cizgi); }
+.yk-ic { padding: 16px 18px 18px; }
+.yk-ic .soru-metin { margin-bottom: 12px; }
+.bolum .cip-btn { margin-left: 10px; vertical-align: 3px; font-weight: 600; }

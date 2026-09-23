@@ -147,6 +147,25 @@ getir(adres + "?islem=yedek", 5, function (hata, durum, govde) {
       "   soru başı ort. " + Math.round(k.sure / k.g) + " sn");
   });
 
+  // Kazanım bazlı durum: üretim ajanı "hangi kazanıma soru yazayım" sorusunu buradan yanıtlar
+  console.log("\n=== KAZANIM BAZINDA (en az 3 soru işaretlenmiş) ===");
+  var kaz = {};
+  Object.keys(ist).forEach(function (id) {
+    var q = SORU[id], s = ist[id];
+    if (!q.kazanim) return;
+    var x = kaz[q.kazanim] = kaz[q.kazanim] || { gor: 0, isaret: 0, d: 0, konu: q.konu };
+    x.gor += s.gorulme; x.d += s.dogru;
+    x.isaret += s.secim.reduce(function (a, b) { return a + b; }, 0);
+  });
+  Object.keys(kaz).filter(function (k) { return kaz[k].isaret >= 3; })
+    .sort(function (a, b) { return kaz[a].d / kaz[a].isaret - kaz[b].d / kaz[b].isaret; })
+    .slice(0, 12)
+    .forEach(function (k) {
+      var x = kaz[k];
+      console.log("  " + k.padEnd(12) + String(x.gor).padStart(3) + " görüldü, " + String(x.isaret).padStart(3) +
+        " işaretlendi   işaretlediğinde doğruluk " + yuzde(x.d, x.isaret).padStart(4) + "   " + (KONU_AD[x.konu] || x.konu));
+    });
+
   console.log("\n=== EN ÇOK DÜŞÜLEN HATA YOLLARI ===");
   var hata = {};
   Object.keys(ist).forEach(function (id) {

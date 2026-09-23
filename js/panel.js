@@ -22,15 +22,18 @@ var Panel = (function () {
   DERSLER.forEach(function (d) {
     d.uniteler.forEach(function (u) { u.konular.forEach(function (k) { KONU[k.id] = { konu: k, ders: d }; }); });
   });
+  var soruKonuMap = null;
   function soruBul(id) {
     if (!soruMap) {
       soruMap = {};
+      soruKonuMap = {};
       Object.keys(window.LGS_BANK || {}).forEach(function (k) {
-        window.LGS_BANK[k].forEach(function (q) { soruMap[q.id] = q; });
+        window.LGS_BANK[k].forEach(function (q) { soruMap[q.id] = q; soruKonuMap[q.id] = k; });
       });
     }
     return soruMap[id] || null;
   }
+  function soruKonusu(id) { soruBul(id); return soruKonuMap ? soruKonuMap[id] : null; }
 
   function $(s) { return document.querySelector(s); }
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
@@ -168,6 +171,7 @@ var Panel = (function () {
     }
 
     html += hataAnalizi(g);
+    html += kazanimAnalizi(g);
     html += konuHaritasi();
     html += testListesi(g);
 
@@ -251,6 +255,46 @@ var Panel = (function () {
       html += '<h3' + (nedenTop ? ' style="margin-top:18px"' : "") + '>Düştüğü tuzaklar</h3><ul class="duz-liste">' + liste.map(function (h) {
         return '<li>' + bicim(h) + (hatalar[h] > 1 ? ' <strong>(' + hatalar[h] + ' kez)</strong>' : "") + '</li>';
       }).join("") + '</ul>';
+    }
+    return html + '</div>';
+  }
+
+  // Kazanım bazlı zayıflık: hangi kazanımda kaç soru görülmüş, kaçı doğru. Konu ortalaması
+  // "iyi" görünürken tek bir kazanımın dibe vurması sık olur; üretim de buraya göre yönlendirilir.
+  function kazanimAnalizi(g) {
+    var k = {};
+    g.forEach(function (t) {
+      t.sorular.forEach(function (id) {
+        var q = soruBul(id);
+        if (!q || !q.kazanim) return;
+        var x = k[q.kazanim] = k[q.kazanim] || { gor: 0, d: 0, bos: 0, konu: soruKonusu(id) };
+        x.gor++;
+        var c = t.cevap[id];
+        if (c === undefined) x.bos++; else if (c === q.dogru) x.d++;
+      });
+    });
+    var liste = Object.keys(k).filter(function (kod) { return k[kod].gor >= 3; })
+      .map(function (kod) { return { kod: kod, gor: k[kod].gor, d: k[kod].d, bos: k[kod].bos, konu: k[kod].konu, oran: k[kod].d / k[kod].gor }; })
+      .sort(function (a, b) { return a.oran - b.oran || b.gor - a.gor; });
+    if (!liste.length) return "";
+    var zayif = liste.filter(function (x) { return x.oran < (AYAR.gecmeEsigi || 0.6); }).slice(0, 8);
+    var saglam = liste.filter(function (x) { return x.oran >= (AYAR.saglamEsigi || 0.8); }).slice(-4).reverse();
+    var satir = function (x) {
+      var kb = KONU[x.konu];
+      return '<tr><td style="text-align:left"><strong>' + esc(x.kod) + '</strong><br><span class="soluk kucuk">' +
+        (kb ? esc(kb.ders.ad) + " · " + esc(kb.konu.ad) : "") + '</span></td><td>' + x.gor + '</td><td>' + x.d +
+        '</td><td>' + (x.gor - x.d - x.bos) + '</td><td>' + x.bos + '</td><td><span class="rozet ' + sinif(x.oran) + '">%' + yuzde(x.oran) + '</span></td></tr>';
+    };
+    var html = '<h2>Kazanım bazlı durum <span class="soluk kucuk">(en az 3 soru görülen kazanımlar)</span></h2><div class="kart tablo-sar">';
+    if (zayif.length) {
+      html += '<h3>Zayıf kazanımlar</h3><table class="tablo genis"><tr><th>Kazanım</th><th>Soru</th><th>D</th><th>Y</th><th>B</th><th>Başarı</th></tr>' +
+        zayif.map(satir).join("") + '</table>';
+    } else {
+      html += '<h3>Zayıf kazanım yok</h3><p class="soluk">Üç ve daha fazla soru görülen kazanımların hepsinde geçme eşiğinin üstünde.</p>';
+    }
+    if (saglam.length) {
+      html += '<h3 style="margin-top:18px">Sağlam kazanımlar</h3><table class="tablo genis"><tr><th>Kazanım</th><th>Soru</th><th>D</th><th>Y</th><th>B</th><th>Başarı</th></tr>' +
+        saglam.map(satir).join("") + '</table>';
     }
     return html + '</div>';
   }

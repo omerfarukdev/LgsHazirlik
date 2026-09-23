@@ -508,7 +508,10 @@ var App = (function () {
     html += '</div>';
 
     if (gecmis.length) {
-      html += '<h2 class="bolum">Son testler</h2><div class="liste">';
+      var defter = Object.keys(Store.get("yanlis", {})).filter(function (id) { return !!soruBul(id); }).length;
+      html += '<h2 class="bolum">Son testler' +
+        (defter ? ' <button class="cip-btn" onclick="App.git(\'#/yanlislar\')">Yanlış defterim · ' + defter + ' soru</button>' : "") +
+        '</h2><div class="liste">';
       gecmis.slice(-6).reverse().forEach(function (g) {
         var kb = KONU[g.konu];
         html += '<button class="liste-satir" onclick="App.git(\'#/sonuc/' + g.ts + '\')">' +
@@ -1819,6 +1822,77 @@ var App = (function () {
     }).catch(function () { raporDurum("✗ Bulutta yedek bulunamadı ya da bağlanılamadı.", "kotu"); });
   }
 
+  // ================= Yanlış defteri ekranı =================
+  // Öğrencinin yanlış yaptığı sorular tekrar motorunda zaten geri geliyor; bu ekran onları
+  // istediği zaman açıp gözden geçirmesi için. Konu konu gruplanır, en çok yanılan başta.
+  function yanlisSonCevaplar() {
+    var son = {};
+    Store.get("gecmis", []).forEach(function (g) {
+      (g.sorular || []).forEach(function (id) {
+        var c = (g.cevap || {})[id];
+        if (c !== undefined && (!son[id] || g.ts > son[id].ts)) son[id] = { c: c, ts: g.ts };
+      });
+    });
+    return son;
+  }
+  function yanlisKartHTML(id, secilen, kacinci, gun) {
+    var q = soruBul(id);
+    if (!q) return "";
+    var ozet = String(q.soru).replace(/\*\*|__|`/g, "").replace(/\s+/g, " ").trim();
+    return '<details class="kart yanlis-kayit"><summary>' +
+      '<span class="yk-ust">' + esc(q.kazanim || "") +
+      (kacinci >= 2 ? ' <span class="ogren-tekrar' + (kacinci >= 3 ? " kizil" : "") + '">' + kacinci + ' kez</span>' : "") +
+      '<span class="soluk kucuk">' + (gun > 0 ? gun + " gün sonra tekrar gelecek" : "tekrar zamanı geldi") + '</span></span>' +
+      '<span class="yk-metin">' + esc(ozet.length > 110 ? ozet.slice(0, 109) + "…" : ozet) + '</span></summary>' +
+      '<div class="yk-ic"><div class="soru-metin">' + bicim(q.soru) + '</div>' +
+      (q.gorsel ? '<div class="gorsel">' + q.gorsel + '</div>' : "") + '<div class="secenekler">' +
+      q.secenekler.map(function (s, j) {
+        return '<div class="secenek sabit' + (j === q.dogru ? " dogru-sik" : "") + (j === secilen && secilen !== q.dogru ? " yanlis-sik" : "") + '">' +
+          '<span class="harf">' + HARFLER[j] + '</span><span class="sec-metin">' + bicim(s) + '</span>' +
+          (j === secilen ? '<span class="senin">senin cevabın</span>' : "") + '</div>';
+      }).join("") + '</div>' +
+      (secilen !== undefined && q.hatalar && q.hatalar[secilen] && secilen !== q.dogru
+        ? '<div class="hata-kutu"><strong>Bu şıkka götüren olası hata:</strong> ' + bicim(q.hatalar[secilen]) + '</div>' : "") +
+      '<div class="ogren"><div class="ogren-ust"><span class="ogren-baslik">Doğru cevap ' + HARFLER[q.dogru] + ' · nasıl bulunur</span></div>' +
+      '<div class="cozum-ic">' + bicim(q.aciklama) + '</div></div></div></details>';
+  }
+  function yanlislarEkrani() {
+    var yanlis = Store.get("yanlis", {}), son = yanlisSonCevaplar(), simdi = Date.now();
+    var grup = {}, sira = [], toplam = 0;
+    Object.keys(yanlis).forEach(function (id) {
+      if (!soruBul(id)) return;
+      var konuId = soruKonusu(id), kb = KONU[konuId];
+      if (!kb) return;
+      toplam++;
+      if (!grup[konuId]) { grup[konuId] = { ad: kb.konu.ad, ders: kb.ders, liste: [] }; sira.push(konuId); }
+      var y = yanlis[id], tekrar = (y.tekrar || 0) + 1;
+      var hedef = y.ts + (YANLIS_ARA[Math.min(y.seri || 0, YANLIS_ARA.length - 1)] || 30) * GUN;
+      grup[konuId].liste.push({ id: id, tekrar: tekrar, gun: Math.ceil((hedef - simdi) / GUN), ts: y.ts });
+    });
+    var bekleyen = bekleyenYanlislar().length;
+    var html = ustCubuk("Yanlış defterim", "#/");
+    if (!toplam) {
+      html += '<div class="kart orta-kart"><h2>Defterin tertemiz</h2><p class="soluk">Yanlış yaptığın sorular burada birikir ve ' +
+        'birkaç gün sonra tekrar karşına çıkar. Şu an bekleyen soru yok.</p>' +
+        '<button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div>';
+      return render(html);
+    }
+    html += '<p class="soluk aciklama-yazi">Defterde <strong>' + toplam + ' soru</strong> var' +
+      (bekleyen ? ', <strong>' + bekleyen + '</strong> tanesinin tekrar zamanı geldi' : "") +
+      '. Bir soruyu art arda iki kez doğru yaparsan defterden düşer.' +
+      (bekleyen >= 5 ? ' <button class="btn-yazi" onclick="App.tekrarBaslat()">Tekrar testine başla</button>' : "") + '</p>';
+    sira.sort(function (a, b) { return grup[b].liste.length - grup[a].liste.length; });
+    sira.forEach(function (konuId) {
+      var g = grup[konuId];
+      g.liste.sort(function (a, b) { return b.tekrar - a.tekrar || a.gun - b.gun; });
+      html += '<h3 class="unite-baslik">' + esc(g.ad) + ' <span class="soluk kucuk">· ' + g.liste.length + ' soru</span>' +
+        (hapVar(konuId) ? ' <button class="cip-btn unite-btn" onclick="App.git(\'#/hap/' + konuId + '\')">Konu özeti</button>' : "") + '</h3>' +
+        '<div class="yanlis-liste">' +
+        g.liste.map(function (x) { return yanlisKartHTML(x.id, (son[x.id] || {}).c, x.tekrar, x.gun); }).join("") + '</div>';
+    });
+    render(html);
+  }
+
   // ================= Yönlendirme =================
   function git(hash) {
     if (location.hash === hash) yonlendir(); else location.hash = hash;
@@ -1830,6 +1904,7 @@ var App = (function () {
     if (p[0] === "ders" && dersBul(p[1])) return dersEkrani(p[1]);
     if (p[0] === "hazir" && KONU[p[1]]) return hazirEkrani(p[1], +p[2]);
     if (p[0] === "hap" && KONU[p[1]]) return hapEkrani(p[1], p[2] === "p" ? "p" : +p[2] || 0);
+    if (p[0] === "yanlislar") return yanlislarEkrani();
     if (p[0] === "test") {
       S = S || Store.get("aktif", null);
       if (S && soruBul(S.sorular[S.idx])) return testEkrani();
