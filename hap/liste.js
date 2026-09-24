@@ -12,5 +12,7 @@ window.LGS_HAP_LISTE = [
   "ink-1-kahraman.js",
   "iklim-hava-hareketleri.js",
   "ink-2-milli-uyanis.js",
-  "kalitim.js"
+  "kalitim.js",
+  "sozcukte-anlam.js",
+  "cumlede-anlam.js"
 ];

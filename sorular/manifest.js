@@ -63,5 +63,9 @@ window.LGS_MANIFEST = [
   "tur-paragrafta-anlam-28.js",
   "fen-kalitim-1.js",
   "fen-kalitim-2.js",
-  "tur-paragrafta-anlam-29.js"
+  "tur-paragrafta-anlam-29.js",
+  "tur-sozcukte-anlam-1.js",
+  "tur-sozcukte-anlam-2.js",
+  "tur-cumlede-anlam-1.js",
+  "tur-cumlede-anlam-2.js"
 ];

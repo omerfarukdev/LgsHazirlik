@@ -1,0 +1,90 @@
+tur-sa-101 | T.8.3.5 | z1 | k1 | "Kalp" sözcüğü aşağıdaki cümlelerin hangisinde gerçek anlamıyla kullanılmıştır? | ✓Koşudan sonra kalbim hızlı hızlı atıyordu.
+tur-sa-102 | T.8.3.5 | z1 | k1 | "Soğuk" sözcüğü aşağıdaki cümlelerin hangisinde mecaz anlamıyla kullanılmıştır? | ✓Sınıfa yeni gelen öğrenci bize soğuk davrand…
+tur-sa-103 | T.8.3.5 | z1 | k1 | "Açı" sözcüğü aşağıdaki cümlelerin hangisinde bir bilim dalına özgü terim anlamıyla kullanılmıştır? | ✓Bir üçgenin iç açılarının ölçüleri toplamı 1…
+tur-sa-104 | T.8.3.5 | z1 | k1 | Aşağıdaki cümlelerin hangisinde eş anlamlı iki sözcük birlikte kullanılmıştır? | ✓Kentin eski sokaklarını gezmek bana bu şehri…
+tur-sa-105 | T.8.3.5 | z1 | k1 | "Yaz" sözcüğü aşağıdaki cümlelerin hangisinde ötekilerden farklı bir anlamda kullanılmıştır? | ✓Adını defterin kapağına büyük harflerle yaz.
+tur-sa-106 | T.8.3.5 | z1 | k1 | Dedem, onca ödül almasına rağmen başarılarından söz etmeyen, mütevazı bir insandı. Bu cümlede altı çizili sözcüğün anlamı aşağıda… | ✓alçak gönüllü
+tur-sa-107 | T.8.3.6 | z1 | k1 | Kardeşim, aylardır beklediği bisikletin kapıya geldiğini görünce etekleri zil çaldı. Bu cümlede altı çizili deyimle anlatılmak is… | ✓çok sevinmek
+tur-sa-108 | T.8.3.6 | z1 | k1 | "Damlaya damlaya göl olur." atasözüyle anlatılmak istenen aşağıdakilerden hangisidir? | ✓Küçük birikimler zamanla büyük bir sonuç doğ…
+tur-sa-109 | T.8.3.5 | z1 | k1 | Komşumuz geçen kış ağır bir hastalık geçirdiği için bahçesiyle ilgilenemedi. Bu cümlede altı çizili sözcük hangi anlamda kullanıl… | ✓ciddi, tehlikeli
+tur-sa-110 | T.8.3.6 | z1 | k1 | Aşağıdaki cümlelerin hangisinde bir deyim kullanılmıştır? | ✓Kardeşim sürpriz partiyi yanlışlıkla ağzında…
+tur-sa-111 | T.8.3.5 | z1 | k1 | Aşağıdaki cümlelerin hangisinde zıt anlamlı iki sözcük bir arada kullanılmıştır? | ✓Mahalle şenliğine yaşlı genç herkes katıldı.
+tur-sa-112 | T.8.3.5 | z1 | k1 | Annem, fincanları taşınmadan önce gazeteye sardı, aralarına pamuk koydu ve kutuya büyük bir itinayla yerleştirdi. Bu cümlede altı… | ✓özen
+tur-sa-113 | T.8.3.5 | z2 | k1 | Mutfağa girdiğimde annem beni sıcak bir gülümsemeyle karşıladı. Tezgâhta taze ekmekler duruyordu. Kahvaltıdan sonra kalın ceketim… | ✓sıcak
+tur-sa-114 | T.8.3.5 | z2 | k1 | Bahçenin köşesinde, babamla eski tahtalar ve paslı çivilerle yaptığımız derme çatma bir kulübe vardı. Her yağmurdan sonra çatısı … | ✓eldeki malzemeyle özensizce yapılmış
+tur-sa-115 | T.8.3.5 | z2 | k1 | Kasabamızın eski kütüphanesi yıllarca kapalı kaldı. Geçen ay yapılan onarımla duvarlar boyandı, raflar yenilendi. Açılış günü gel… | ✓konuklara
+tur-sa-116 | T.8.3.6 | z2 | k1 | Antrenör, maçtan önce hepimize tek bir hatanın oyunun sonucunu belirlemeyeceğini söyledi. Ama ilk yarıda kaçırdığı penaltıyı - - … | ✓kafasına takan
+tur-sa-117 | T.8.3.6 | z2 | k1 | Babaannem, eskiyen giysilerin düğmelerini söküp bir kavanozda biriktirirdi. Biz de bu alışkanlığına gülerdik. Geçen hafta okul gö… | ✓Sakla samanı, gelir zamanı.
+tur-sa-118 | T.8.3.5 | z2 | k1 | "Çıkmak" sözcüğü aşağıdaki cümlelerin hangisinde "görünür hâle gelmek, belirmek" anlamında kullanılmıştır? | ✓Yağmur dinince gökyüzünde renkli bir gökkuşa…
+tur-sa-119 | T.8.3.5 | z2 | k1 | Fen dersinde sınıfta derin bir sessizlik vardı. Öğretmenimiz berrak suyla dolu bir bardağa bir kaşık şeker ekleyip karıştırdı. Şe… | ✓çözelti
+tur-sa-120 | T.8.3.5 | z2 | k1 | (I) Otobüs öyle doluydu ki ayakta duracak yer bulamadık. (II) Kütüphanenin rafları yeni gelen kitaplarla doluydu. (III) Kardeşimi… | ✓IV
+tur-sa-121 | T.8.3.6 | z2 | k1 | Taşınma günü Emre'den kolileri taşımamıza yardım etmesini istedik. Önce ödevi olduğunu söyledi, sonra dizinin ağrıdığını, en sonu… | ✓Bahaneler öne sürerek isteneni yapmamak
+tur-sa-122 | T.8.3.6 | z2 | k1 | Ödevlerini hep son geceye bırakan biri, yorgunluktan en basit soruda bile hata yapar. Oysa her gün biraz çalışan öğrenci, teslimd… | ✓Savunduğu düşünceyi güçlendirmek
+tur-sa-123 | T.8.3.6 | z2 | k1 | Öğretmen: "Bilim şenliğine iki hafta kaldı. Projelerinizi yetiştirmek istiyorsanız artık kolları sıvamalısınız." Deniz: "Haklısın… | ✓Bir işe girişmek için hazırlanmak
+tur-sa-124 | T.8.3.5 | z2 | k1 | Dedemin çocukluğunun geçtiği köy evini yıllar sonra ziyaret ettik. Evin harap olduğunu görünce çok üzüldük: Çatısı çökmüş, pencer… | ✓yıkık dökük
+tur-sa-125 | T.8.3.6 | z2 | k1 | Aşağıdaki durumların hangisi "Sütten ağzı yanan yoğurdu üfleyerek yer." atasözüyle anlatılabilir? | ✓Geçen yıl bisikletten düşüp kolunu kıran Can…
+tur-sa-201 | T.8.3.5 | z2 | k2 | (I) Rüzgârla savrulan bir kum tanesi gözüme kaçtı. (II) Gösteri başlayınca salondaki herkesin gözü sahnedeydi. (III) Kalemlerimi … | ✓III
+tur-sa-202 | T.8.3.6 | z2 | k2 | Takım kaptanı, antrenmanlara üst üste geç kalınca arkadaşlarının gözünden düştü. Artık kimse onun sözlerini eskisi kadar önemsemi… | ✓itibarını yitirdi
+tur-sa-203 | T.8.3.6 | z2 | k2 | Bir öğrenci, "Birlikte çalışmanın gücü" konulu afişi için atasözleri topladı. Ancak listesine, bu konuya uymayan bir atasözü de k… | ✓Üzüm üzüme baka baka kararır.
+tur-sa-204 | T.8.3.5 | z2 | k2 | (I) Uzun süre ekrana bakınca başım ağrımaya başladı. (II) Ayın başında kütüphaneye yeni kitaplar geldi. (III) Takımın başına dene… | ✓II
+tur-sa-205 | T.8.3.6 | z2 | k2 | Elif: "Kalemimi ödünç alan Mert, onu bir gün geri getirmeyi unuttu diye artık onunla konuşmuyorum. Bence bu, güveni sarsan bir da… | ✓pireyi deve yapıyorsun
+tur-sa-206 | T.8.3.6 | z2 | k2 | Okulumuzun kütüphane duvarında bir yazarın şu sözü asılı: "Soru sormaktan utanan, öğrenmekten de geri kalır." Aşağıdaki durumlard… | ✓Çekindiği için soru soramayan Efe, sınavda o…
+tur-sa-207 | T.8.3.5 | z2 | k2 | (I) Pazardan aldığımız karpuz çok tatlı çıktı. (II) Kuzenim, tatlı bir sesle ninni söyleyerek bebeği uyuttu. (III) Ağabeyim, iste… | ✓I
+tur-sa-208 | T.8.3.5 | z2 | k2 | Bir öğrenci, yazısında aynı sözcükleri tekrar etmemek için bazı sözcüklerin yerine eş anlamlılarını kullanmak istiyor. Aşağıdaki … | ✓Saatçi, onardığı saati özenle paketledi. (se…
+tur-sa-209 | T.8.3.6 | z2 | k2 | Aşağıdaki cümlelerin hangisinde altı çizili deyim, anlamına uygun biçimde kullanılmamıştır? | ✓Arda, konuyu hiç merak etmediği için kulak k…
+tur-sa-210 | T.8.3.5 | z2 | k2 | Gün boyu kalabalık olan sahil, akşam olunca bambaşka bir hâl alırdı. Satıcılar tezgâhlarını toplar, çocuk sesleri kesilir, yalnız… | ✓sessizlik ve dinginlik
+tur-sa-211 | T.8.3.6 | z2 | k2 | "Ak akçe kara gün içindir." atasözü, kazanılan paranın bir bölümünün zor günler için saklanması gerektiğini öğütler. Aşağıdaki da… | ✓Aras, harçlığının bir kısmını beklenmedik ih…
+tur-sa-212 | T.8.3.5 | z2 | k2 | (I) Kapı açık kalınca içeriye soğuk hava doldu. (II) Odamın duvarlarını açık maviye boyadık. (III) Öğretmenimiz konuyu çok açık b… | ✓II
+tur-sa-213 | T.8.3.5 | z2 | k2 | (I) Balıkçılar, sabah erkenden ağlarını denize bıraktı. (II) Örümcek, pencerenin köşesine büyük bir ağ örmüştü. (III) Dolandırıcı… | ✓IV
+tur-sa-214 | T.8.3.5 | z3 | k2 | Barınağa ilk gittiğimiz gün, köşedeki kafeste sessizce yatan küçük bir köpek gördüm. Görevli, onun sahibi tarafından bırakıldığın… | ✓boynu bükük, hüzünlü
+tur-sa-215 | T.8.3.6 | z3 | k2 | Mahallemizin futbol takımı sezonun ilk dört maçını kaybedince herkes takımın dağılacağını düşündü. Kaptanımız Yiğit ise ne antren… | ✓Kaptanın zorluklara rağmen gösterdiği çabayı…
+tur-sa-216 | T.8.3.5 | z3 | k2 | Yeni taşındığımız apartmanın yöneticisi Sevim Hanım, ilk tanıştığımızda bana biraz sert görünmüştü. Kısa cümlelerle konuşuyor, hi… | ✓sıcak: ısısı yüksek olan
+tur-sa-217 | T.8.3.6 | z3 | k2 | Sınıf başkanlığı seçiminde Kaan; sınıfa kitaplık kuracağını, gezi düzenleyeceğini, panoyu her hafta yenileyeceğini anlatan uzun b… | ✓Ayinesi iştir kişinin, lafa bakılmaz.
+tur-sa-218 | T.8.3.6 | z3 | k2 | Deyimler sözlüğü hazırlayan bir öğrenci, aşağıdaki tabloya dört deyimin anlamını ve bu deyimlerle kurduğu birer örnek cümleyi yaz… | ✓dil dökmek
+tur-sa-219 | T.8.3.5 | z3 | k2 | Evimize (I) yüz metre uzaklıktaki göle gitmeden önce soğuk suyla (II) yüzümü yıkadım. Göle vardığımızda kuzenim, kıyıdaki eski ma… | ✓II ve III
+tur-sa-220 | T.8.3.6 | z3 | k2 | Proje sunumundan bir gün önce danışman öğretmenime slaytlarımı gösterdim. Öğretmenim o gün çok yoğundu; ayrıntılara girmeden slay… | ✓göz attı
+tur-sa-221 | T.8.3.6 | z3 | k2 | Büyüklerimiz "Ağaç yaşken eğilir." der ve bir şeyi öğrenmenin en iyi zamanının çocukluk olduğunu anlatır. Bu sözde doğruluk payı … | ✓Kısmen katılmadığı bir düşünceyi tanıtmak
+tur-sa-222 | T.8.3.5 | z3 | k2 | Hafta sonu kardeşimle bahçeye bir kuş evi yaptık. Tahtaları kesip zımparalamak öğleden sonramızın tamamını (I) tuttu. Kardeşim çi… | ✓I
+tur-sa-223 | T.8.3.5 | z3 | k2 | Dedem her sabah yürüyüşe çıkar. Dizleri eskisi kadar güçlü olmadığı için yokuşları ağır adımlarla çıkar, sık sık durup soluklanır… | ✓çabuk
+tur-sa-224 | T.8.3.6 | z3 | k2 | Sınıfımızda bir tartışma çıkmıştı: Yıl sonu gezisi müzeye mi yapılacaktı, lunaparka mı? Ece, müzeyi isteyen Zeynep'in yanında "Ta… | ✓nabzına göre şerbet vermek
+tur-sa-225 | T.8.3.5 | z3 | k2 | Fen kulübü, okul bahçesine küçük bir sera kurmaya karar verdi. Öğretmenimiz, bitkilerin güneş ışığını kullanarak kendi besinlerin… | ✓Atasözü
+tur-sa-301 | T.8.3.5 | z3 | k3 | Bir öğrenci, hafta sonu katıldığı gönüllü çalışmayı şöyle anlatıyor: (I) Sabah ayazında kütüphanenin demir kapısının kolu çok soğ… | ✓II
+tur-sa-302 | T.8.3.5 | z3 | k3 | Kermesin sonunda sınıf başkanı Defne, kasadaki parayı saydı. Satılan kurabiyelerin listesiyle kasadaki para bir türlü tutmuyordu.… | ✓Tanığın anlattıkları, kameradaki görüntülerl…
+tur-sa-303 | T.8.3.6 | z3 | k3 | Bilim şenliği için hazırladığımız su arıtma düzeneği ilk denemede bulanık su verdi. Üç gün boyunca kafa patlattık; filtre katmanl… | ✓Sorunun çözümü için uzun süre yoğun biçimde …
+tur-sa-304 | T.8.3.5 | z3 | k3 | Mahalledeki eski kırtasiyenin en sadık müdavimi Selim Amca'dır. Otuz yıldır her sabah aynı saatte dükkâna uğrar, gazetesini alır,… | ✓Bir yere sürekli ve alışkanlıkla giden kişi
+tur-sa-305 | T.8.3.6 | z3 | k3 | Efe, gökyüzünü yakından görebileceği bir teleskop almak istiyordu ama teleskopun fiyatı harçlığının çok üstündeydi. Her hafta har… | ✓Damlaya damlaya göl olur.
+tur-sa-306 | T.8.3.5 | z3 | k3 | Okulun tiyatro kulübünde yaşanan bir aksaklık şöyle anlatılmış: (I) Oyunun ikinci perdesinde salondaki ışıklar birden söndü. (II)… | ✓I
+tur-sa-307 | T.8.3.5 | z3 | k3 | Kasabamızın (I) dar sokaklarından birinde küçük bir saatçi dükkânı var. Dükkânın sahibi, (II) yaşlı ama elleri hâlâ titremeyen bi… | ✓IV
+tur-sa-308 | T.8.3.6 | z3 | k3 | Ekibimizde herkes proje takvimine uyarken Kaan, kendisine düşen posteri bir türlü hazırlamıyordu. Ona üç kez hatırlattık; her sef… | ✓işi yokuşa sürdü
+tur-sa-309 | T.8.3.5 | z3 | k3 | Resim dersinde gökyüzünü boyuyorduk. Öğretmenimiz, ufka yaklaştıkça mavinin daha açık bir tonunu kullanmamızı istedi. Böylece uza… | ✓Kışlık montum için koyu lacivert bir kumaş s…
+tur-sa-310 | T.8.3.5 | z3 | k3 | Türkçede bazı sözcükler çok anlamlıdır: Sözcük, temel anlamından türeyen yan anlamlar kazanır ve bu anlamlar arasında bir bağ kur… | ✓Kütüphaneden aldığım kitabın yüz sayfasını b…
+tur-sa-311 | T.8.3.6 | z3 | k3 | Satranç kulübündeki Zeynep, kaybettiği her oyunu eve dönünce defterine hamle hamle yazar. Sonra tahtayı kurar ve oyunu baştan oyn… | ✓Her yenilgi, dikkatle bakana bir ders bırakı…
+tur-sa-312 | T.8.3.5 | z3 | k3 | Okul panosuna asılan duyuru aşağıda verilmiştir. Duyurudaki altı çizili sözcük, aşağıdakilerin hangisinde aynı anlamda kullanılmı… | ✓Kulüp, cumartesi günkü antrenmanı saha bakım…
+tur-sa-313 | T.8.3.6 | z3 | k3 | Bir futbolcu, takımının sezondaki ilk galibiyetini şöyle anlatıyor: (I) Maç başlamadan önce iki takımın kaptanları orta sahada el… | ✓IV
+tur-sa-314 | T.8.3.5 | z3 | k3 | Akşam ödevimi yaparken bütün mahallenin elektriği birden kesildi. Oda zifirî karanlığa gömüldü; göz gözü görmüyordu. Masanın kena… | ✓Görmeden, yalnızca elleriyle yoklayarak
+tur-sa-315 | T.8.3.6 | z3 | k3 | Sınıfta dört kişilik bir grup, "Mahallemizin Tarihi" sunumunu hazırlıyor. Toplantıda Burak, bütün araştırmayı tek başına yapmayı … | ✓Bu işin ancak birlikte çalışılarak başarılab…
+tur-sa-316 | T.8.3.5 | z4 | k3 | Bir öğrenci, katıldığı öykü yarışmasının ödül töreninde yaşadıklarını anlatıyor: (I) Sonuçlar açıklanmadan önce heyecandan yerimd… | ✓II
+tur-sa-317 | T.8.3.5 | z4 | k3 | Mahallemizin parkındaki çeşme yıllardır kuru duruyordu. Geçen ay belediye, çeşmenin paslanmış borularını yeniledi. Suyun verilece… | ✓Yazılışı aynı, anlamı ilgisiz iki sözcüğe
+tur-sa-318 | T.8.3.5 | z4 | k3 | Yaz tatilinde ilk kez annemin doğduğu köye gittik. Otobüsten indiğimizde köy meydanında bizi bekleyen kalabalığı görünce şaşırdım… | ✓Muhabir, bölgedeki selle ilgili sıcak bilgil…
+tur-sa-319 | T.8.3.6 | z4 | k3 | Müzik kulübümüzün yıl sonu konseri için haftalarca hazırlandık. Konserden bir gün önce ses sistemi bozulunca herkes umudunu yitir… | ✓kolları sıvadı / dili tutuldu
+tur-sa-320 | T.8.3.5 | z4 | k3 | Dedem, köyde herkesin saygı duyduğu (I) vakur bir adamdı; yüksek sesle konuştuğunu, gereksiz yere güldüğünü kimse görmemişti. Ama… | ✓tereddüt etmek: korkudan titremek
+tur-sa-321 | T.8.3.6 | z4 | k3 | I. Metin: Halı dokuyan Hatice Hanım, bir halıyı bitirmek için aylarca tezgâhın başından kalkmaz. Desenin bir yerinde yanlış bir i… | ✓Sabrın sonu selamettir.
+tur-sa-322 | T.8.3.5 | z4 | k3 | Bir öğrencinin günlüğünden alınan cümleler aşağıda numaralandırılmıştır: (I) Matematik sınavındaki düşük notların kökünde dikkats… | ✓IV
+tur-sa-323 | T.8.3.6 | z4 | k3 | Okulumuzun geri dönüşüm kampanyası ilk hafta pek ilgi görmedi. Kampanya sorumlusu Elif, kampanyanın neden ilgi görmediğini (I) in… | ✓III
+tur-sa-324 | T.8.3.5 | z4 | k3 | Bir öğrenci, "çekirdek" sözcüğünün geçtiği cümleleri, sözcüğün gerçek, mecaz ya da terim anlamında kullanılmasına göre aşağıdaki … | ✓I
+tur-sa-325 | T.8.3.6 | z4 | k3 | Mahalle kütüphanemizin girişinde, kütüphaneyi kuran öğretmenin kendi sözünü yazdırdığı bir tabela durur: (I) "Kitap, kapısını çal… | ✓II. söz, habere büyük ilgi gösterildiğini an…
+tur-sa-001 | T.8.3.5 | z1 | k0 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamda kullanılmıştır? | ✓Bu acı haber bütün sınıfı üzdü.
+tur-sa-002 | T.8.3.6 | z1 | k0 | Aşağıdaki deyimlerden hangisi "çok sevinmek" anlamındadır? | ✓etekleri zil çalmak
+tur-sa-003 | T.8.3.5 | z1 | k0 | Öğretmenin sorusuna verdiği yanıt herkesi şaşırttı. Bu cümlede altı çizili sözcüğün eş anlamlısı aşağıdakilerden hangisidir? | ✓cevap
+tur-sa-004 | T.8.3.5 | z2 | k0 | Taşınma günü evde herkes bir işe koşuldu. Babam kitapları kolilerden çıkarıp raflara dizdi, annem mutfak eşyalarını yerleştirdi. … | ✓Dolap ya da çekmecedeki bölme
+tur-sa-005 | T.8.3.6 | z2 | k0 | Geçen yıl annem, taşınmadan kalan boş karton kutuları atmayıp çatı arasına kaldırmıştı. Bu hafta fen dersi için bir güneş sistemi… | ✓Gereksiz görünen şeyler bir gün işe yarayabi…
+tur-sa-006 | T.8.3.5 | z2 | k0 | Pazartesi sabahı erken kalktım. Kahvaltımı yapıp çantamı hazırladım. Durakta beklerken otobüsün yirmi dakika geç kalacağını öğren… | ✓erken – geç
+tur-sa-007 | T.8.3.5 | z2 | k0 | Okul bahçesindeki su borusu patlayınca bahçe kısa sürede göle döndü. Müdür yardımcımız hemen belediyeyi arayıp ivedi yardım isted… | ✓Acele ve gecikmeden yapılan
+tur-sa-008 | T.8.3.6 | z2 | k0 | Bilgi yarışmasının sonuçları ekrana yansıtılırken salondaki hiç kimse konuşmuyordu. Hepimiz - - - - , gözlerimizi ekrandan ayırma… | ✓nefesimizi tutmuş
+tur-sa-009 | T.8.3.5 | z3 | k0 | Mahallemizdeki eski fırın hakkında yazılmış bir metinden alınan cümleler aşağıda numaralandırılmıştır: (I) Fırıncı, hamuru yoğurm… | ✓I
+tur-sa-010 | T.8.3.6 | z3 | k0 | Proje ödevini son gece hazırlayan Can, konuyu yeterince araştırmamıştı. Posterdeki bilgilerin eksik olduğunu bildiği için posteri… | ✓Eksik içeriği süsle örtmeye çalıştığı
+tur-sa-011 | T.8.3.5 | z3 | k0 | Bayram sofrasında kuzenlerim, hangi takımın daha iyi olduğu konusunda tartışmaya başladı. Sesler yükselince dedem çayından bir yu… | ✓Toplantıda müdürümüz, kütüphane konusunu açt…
+tur-sa-012 | T.8.3.5 | z3 | k0 | Müzedeki restorasyon atölyesinde, çok eski bir tablonun çatlaklarını onaran uzmanı camın arkasından izledik. Uzman, ince fırçasın… | ✓Bütün dikkatini vererek
+tur-sa-013 | T.8.3.6 | z4 | k0 | Türkçe dersinde öğrencilerden, yaşadıkları ya da tanık oldukları bir durumu anlatıp bu duruma uyan bir atasözü söylemeleri istenm… | ✓Deniz
+tur-sa-014 | T.8.3.5 | z4 | k0 | Bir öğrenci, sınıfıyla birlikte katıldığı doğa yürüyüşünü günlüğüne yazmıştır. Günlükten alınan cümleler aşağıda numaralandırılmı… | ✓I
+tur-sa-015 | T.8.3.6 | z4 | k0 | Emre, aylardır ilçedeki bisiklet yarışına hazırlanıyordu. Yarıştan üç gün önce antrenmanda bisikletinin zinciri koptu. İlçedeki t… | ✓yarışa katılamayacağını kabullenmişti
