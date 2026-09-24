@@ -161,7 +161,11 @@ Aynı soru tipi (örneğin "akışı bozan cümle") bir partide 3'ten fazla kull
 - **Tek savunulabilir doğru cevap.** Her soruyu yazdıktan sonra baştan çöz; cevabın şıklarda tam bir kez geçtiğini ve `dogru` indeksinin onu gösterdiğini doğrula.
 - **Çeldiriciler gerçek hatalardan üretilir**: son adımı atlama, ara sonucu cevap sanma, EBOB ile EKOK'u karıştırma, birimi çevirmeme, sınırı dahil etme, ısı ile sıcaklığı karıştırma… Rastgele sayı çeldirici olmaz. Her yanlış şıkkın `hatalar` girdisi o hatayı adlandırır.
 - **"Hediye" soru yasak:** doğru şık diğerlerinden biçimce ayrışmamalı (en uzun şık, tek farklı kategori, tek "makul" sayı). Kolay soru, çeldiriciyi zayıflatarak değil bilgiyi tanıdık tutarak kolaylaştırılır.
-- Doğru cevabın konumu dengeli dağıtılır (bir dosyada her şık yaklaşık %25; art arda 3'ten fazla aynı harf olmaz).
+- Doğru cevabın konumu dengeli dağıtılır (bir dosyada her şık yaklaşık %25; art arda 3'ten fazla aynı harf olmaz). Doğru cevap dizisinde görünür bir döngü (A-B-C-D, A-B-D-C…) olmaz.
+- **Set düzeyinde örüntü yasağı.** Tek tek doğru sorular, bütün hâlinde okunduğunda öğrenciye soruyu okumadan cevap bulma yolu veriyorsa test ölçmez. Bir dosya bitince şu üç şeyi say:
+  1. **Mutlak ifade dengesi.** "yalnızca, bütün, hiç, her zaman, kesinlikle, tamamen" gibi sözcükler yanlış şıklarda yığılmamalı. Bir dosyada bu sözcüklerden birini taşıyan şıkların **en az beşte biri doğru cevap** olmalı (veriyle desteklendiği sorularda) ve çeldiricilerin bir bölümü mutlak sözcük kullanmadan kurulmalı ("doğru ama metinde yok", "yarım doğru", "ters yön").
+  2. **Öncül doğruluk deseni.** I. öncül her soruda doğru olmamalı: öncüllü soruların en az üçte birinde I yanlış olmalı; "Yalnız II", "Yalnız III" ve "II ve III" en az birer kez doğru cevap olmalı. III öncülü hep "kötü öğrenci ifadesi" rolüne düşmemeli.
+  3. **Aynı testte içerik çakışması.** Bir kaynak metin, tablo ya da olay aynı kademede en fazla iki sorunun omurgası olabilir. Hiçbir sorunun kökü ya da görseli, aynı testteki başka bir sorunun cevabını vermemelidir.
 - Bağlamlar **özgün, gerçekçi ve 13-14 yaşa uygun**; ders kitabı ve yayın kalıplarını tekrar etme; aynı dosyada aynı kurguyu (ör. "zil çalan iki saat") iki kez kullanma. Yalnızca sayıları değiştirilmiş soru kopyadır.
 - **Açıklama** öğreticidir: "Adım 1…, Adım 2…" biçiminde ilerler; soru bir kavramı yokluyorsa kavramın bir cümlelik tanımını içerir; sonunda "Sağlama:" ya da "Sık yapılan hata:" notu bulunur; son cümle "Cevap X." olur. Öğrenci konuyu hiç bilmese bile açıklamadan öğrenebilmeli. Dil sade, 8. sınıf öğrencisine hitap eder, "sen" diye konuşur.
 - Türkçe yazım ve noktalama kusursuz olmalı (öğrenci Türkçe sınavına da hazırlanıyor).
@@ -174,6 +178,8 @@ Aynı soru tipi (örneğin "akışı bozan cümle") bir partide 3'ten fazla kull
 4. **Bağımsız doğrulama (zorunlu):** soruları yazan ajandan ayrı bir ajan, `dogru` ve `aciklama` alanlarını görmeden her soruyu sıfırdan çözer ve şunları bildirir: bulduğu cevap, birden fazla savunulabilir şık var mı, müfredat dışı bilgi gerekiyor mu, görsel ile metin tutarlı mı. Tutmayan soru düzeltilir ya da atılır; düzeltilen soru yeniden doğrulanır.
 5. Dosya adını `sorular/manifest.js` listesine ekle.
 6. `node dogrula.js` çalıştır; hata ve uyarı sıfır olana kadar düzelt.
+
+**Bir parti en fazla iki kalite turu görür.** Tur = yaz → kör doğrula → düzelt → değişenleri yeniden kör doğrula. Set düzeyindeki kontroller (örüntü, tekdüzelik, içerik çakışması) ilk turun doğrulama adımına dâhildir; ayrı bir tur açmak için beklenmez. İkinci turdan sonra kalan biçimsel kusurlar yayını GECİKTİRMEZ: bir sonraki partinin yazım talimatına kural olarak eklenir. Öğrencinin okulda işlediği konuda soru olmaması, üslup kusurundan daha büyük bir zarardır.
 
 **Soru yazan ajan `sorular/manifest.js` dosyasına DOKUNMAZ.** Manifesti üretimi başlatan taraf, bütün dosyalar geldikten ve doğrulandıktan sonra tek seferde günceller. (21 Eylül 2026'daki partide yazar ajanlar bu kuralı çiğneyip kendileri ekleme yaptı; zararsızdı ama doğrulanmamış dosyanın yayına girmesine yol açabilirdi.)
 
