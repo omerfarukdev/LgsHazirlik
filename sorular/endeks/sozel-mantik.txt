@@ -1,0 +1,90 @@
+tur-sm-101 | T.8.3.25 | z1 | k1 | Pencere önüne yan yana dört saksı konmuştur. Saksılara fesleğen, nane, maydanoz ve biberiye dikilecektir. • Fesleğen 1 numaralı s… | ✓Maydanoz
+tur-sm-102 | T.8.3.32 | z1 | k1 | Okulun kulüp panosuna, etkinliğin tarihini, yerini ve saatini birlikte gösteren afişler asılabilmektedir. Tabloda dört afişte han… | ✓Doğa yürüyüşü afişi
+tur-sm-103 | T.8.3.32 | z1 | k1 | Aylin, Batu ve Cemal'in her biri farklı bir çalgı çalmaktadır: keman, gitar ve flüt. Tabloda ✗ işareti, o kişinin o çalgıyı çalma… | ✓Cemal keman çalar.
+tur-sm-104 | T.8.3.25 | z1 | k1 | Bir gençlik merkezinde pazartesiden perşembeye kadar her gün tek bir kurs yapılmaktadır: resim, müzik, satranç ve dans. Görselde … | ✓Müzik
+tur-sm-105 | T.8.3.32 | z1 | k1 | Bir okulun geri dönüşüm köşesindeki kutular ve bu kutulara atılacak atıklar birinci tabloda, dört öğrencinin attığı atıklar ikinc… | ✓Onur
+tur-sm-106 | T.8.3.25 | z1 | k1 | Bir fırının önünde Ada, Berk, Cansu ve Doruk sıraya girmiştir. • Sıranın en önünde Ada vardır. • Berk, Ada'nın hemen arkasındadır… | ✓Doruk
+tur-sm-107 | T.8.3.32 | z1 | k1 | Bir yüzme havuzunun derin bölümüne girebilmek için iki koşulun birlikte sağlanması gerekir: ileri seviye yüzücülere verilen mavi … | ✓Mira
+tur-sm-108 | T.8.3.25 | z1 | k1 | Dört katlı bir apartmanın her katında bir aile oturmaktadır: Kaya, Öz, Aras ve Er aileleri. • Kaya ailesi en üst katta oturur. • … | ✓Er ailesi
+tur-sm-109 | T.8.3.25 | z1 | k1 | Bir kart oyununda kartlar soldan sağa yan yana dizilir. Oyunun kuralı şudur: Bir kartın hemen sağına ancak onunla aynı renkte ya … | ✓Mavi daire
+tur-sm-110 | T.8.3.32 | z1 | k1 | Bir sınıfın haftalık nöbet çizelgesi aşağıda verilmiştir. Sınıfın kuralına göre nöbetçi öğrenci o gün okula gelmezse nöbeti, çize… | ✓Deniz
+tur-sm-111 | T.8.3.25 | z1 | k1 | Üç kardeşin yaşları birbirinden farklıdır. Nil, Umut'tan büyüktür. Umut da Tuna'dan büyüktür. Buna göre aşağıdakilerden hangisi k… | ✓Nil, kardeşlerin en büyüğüdür.
+tur-sm-112 | T.8.3.25 | z1 | k1 | Beş arkadaş bir sözcük zinciri oyunu oynamaktadır. Kurala göre her oyuncu, bir önceki oyuncunun söylediği sözcüğün son harfiyle b… | ✓Efe
+tur-sm-113 | T.8.3.25 | z2 | k1 | Bir rafa roman, şiir, öykü ve deneme kitapları yan yana dizilecektir. Görselde deneme kitabının yeri gösterilmiştir. Diğer kitapl… | ✓Roman 4 numaralı yerdedir.
+tur-sm-114 | T.8.3.32 | z2 | k1 | Aslı, Bulut, Ceren ve Deniz'in her biri farklı bir kulübe katılmıştır: satranç, tiyatro, robotik ve fotoğraf. Tabloda robotik kul… | ✓Aslı
+tur-sm-115 | T.8.3.32 | z2 | k1 | Bir halka atma oyununda her oyuncu üç atış yapar. Halka kırmızı kazığa geçerse 3, mavi kazığa geçerse 2, sarı kazığa geçerse 1 pu… | ✓Kerem
+tur-sm-116 | T.8.3.25 | z2 | k1 | Zeynep, Arda, Mina ve Kaan bir koşuya katılmıştır; iki kişi aynı anda bitiş çizgisine varmamıştır. Zeynep, Arda'dan önce; Arda da… | ✓Kaan'ın kaçıncı olduğu
+tur-sm-117 | T.8.3.32 | z2 | k1 | Bir okul kütüphanesinde her kitabın sırtına iki harfli bir kod yapıştırılır. Kodun ilk harfi kitabın türünü, ikinci harfi yazarın… | ✓Rüzgâr Defteri
+tur-sm-118 | T.8.3.25 | z2 | k1 | Ece, Fırat, Gül ve Harun'un her birinin farklı bir evcil hayvanı vardır: kedi, köpek, balık ve muhabbet kuşu. Ece'nin hayvanı sud… | ✓Fırat'ın muhabbet kuşu vardır.
+tur-sm-119 | T.8.3.25 | z2 | k1 | Okul radyosunda pazartesiden perşembeye kadar her gün tek bir yayın yapılacaktır: haber, şiir, müzik ve bilmece. Görselde şiir ya… | ✓4
+tur-sm-120 | T.8.3.25 | z2 | k1 | Bir robot, görseldeki tahtada şu komutlarla hareket etmektedir: İ: Baktığı yöne doğru bir kare ilerler. S: Olduğu yerde sağa döne… | ✓Kiraz
+tur-sm-121 | T.8.3.25 | z2 | k1 | Nehir, Onur, Pınar ve Rüzgâr sinemada yan yana dört koltuğa oturmuştur. Görselde Rüzgâr'ın koltuğu gösterilmiştir. • Nehir ile On… | ✓Onur 3 numaralı koltukta oturmuştur.
+tur-sm-122 | T.8.3.32 | z2 | k1 | Bir okul, bahar şenliğinin yerini hava durumuna göre şu kurallarla belirleyecektir: • Yağış varsa şenlik spor salonunda yapılır. … | ✓Perşembe
+tur-sm-123 | T.8.3.32 | z2 | k1 | Sena, Taylan, Umay ve Veli okula farklı yollarla gelmektedir: yürüyerek, bisikletle, servisle ve otobüsle. Tabloda ✗ işareti, öğr… | ✓Umay
+tur-sm-124 | T.8.3.25 | z2 | k1 | Bir kulübün üyeleri gizli mesajlarını iki adımda şifrelemektedir: 1. adım: Sözcüğün harfleri sondan başa doğru yazılır. 2. adım: … | ✓M2L1K
+tur-sm-125 | T.8.3.25 | z2 | k1 | Ayla, Çınar, Sarp ve Berfin okul gezisinde dört farklı yerden birini seçecektir: deniz müzesi, oyuncak müzesi, bilim merkezi ve f… | ✓Sarp bilim merkezini seçecektir.
+tur-sm-201 | T.8.3.32 | z2 | k2 | Bir okuma yarışmasında öğrenciler okudukları kitaplar için yıldız toplamaktadır: • Her kitap 1 yıldız kazandırır. • 200 sayfadan … | ✓Pelin
+tur-sm-202 | T.8.3.25 | z2 | k2 | Kırmızı, mavi, yeşil ve sarı renkli dört kutu üst üste konmuştur. Kutuların yerleri aşağıdan yukarıya 1'den 4'e kadar numaralıdır… | ✓Mavi
+tur-sm-203 | T.8.3.25 | z2 | k2 | Ilgın, Kuzey ve Lara'nın her biri farklı bir spor yapar (yüzme, tenis, voleybol) ve haftanın farklı bir gününde antrenmana gider … | ✓Lara perşembe günü yüzmeye gider.
+tur-sm-204 | T.8.3.25 | z2 | k2 | Bir kutu oyununda piyon, zarda gelen sayı kadar ileri gider. Piyon kırmızı kareye gelirse 3 kare geri, yeşil kareye gelirse 2 kar… | ✓8
+tur-sm-205 | T.8.3.32 | z2 | k2 | Bir doğa parkındaki yürüyüş yolları görselde gösterilmiştir. Yollar tek yönlüdür; yalnızca okların gösterdiği yönde yürünebilir. … | ✓Giriş – Kule – Göl – Şelale – Çıkış
+tur-sm-206 | T.8.3.25 | z2 | k2 | Dört kardeş Oya, Eda, Ela ve Tan fotoğraf çektirmek için yan yana dizilecektir. • En büyük kardeş Oya, sıranın iki ucundan birind… | ✓8
+tur-sm-207 | T.8.3.25 | z2 | k2 | Barış, Defne, Emir ve Ferda sınıfta sırayla sunum yapacaktır. • Defne, Emir'den önce sunum yapacaktır. • İlk sunumu Barış yapmaya… | ✓Defne ikinci sunumu yapar.
+tur-sm-208 | T.8.3.25 | z2 | k2 | Aras, Beren, Can ve Duru'nun spor salonundaki dolapları yan yanadır. • Aras'ın dolabı, Duru'nun dolabının hemen solundadır. • Ber… | ✓Can
+tur-sm-209 | T.8.3.25 | z2 | k2 | Bir sözcük oyununda oyuncular, görseldeki harf kartlarını kullanarak sözcük türetmektedir. Oyunun kuralları şunlardır: • Her kart… | ✓KALEM
+tur-sm-210 | T.8.3.25 | z2 | k2 | Nil, Ozan, Pelin ve Rıza birer şemsiye almıştır. Şemsiyelerin renkleri sarı, mor, turuncu ve gridir; her birinin şemsiyesi farklı… | ✓Gri
+tur-sm-211 | T.8.3.32 | z2 | k2 | Okul kantininde "dengeli tepsi" rozeti, şu iki koşulu birlikte sağlayan tepsilere verilmektedir: • Tepside bir içecek, bir ana yi… | ✓Ceyda
+tur-sm-212 | T.8.3.25 | z2 | k2 | Mert, Nur, Oya ve Pars kütüphaneye farklı saatlerde gelmiştir. • Oya, Mert'ten önce gelmiştir. • Mert, Nur'dan önce gelmiştir. • … | ✓Pars ile Nur art arda gelmiştir.
+tur-sm-213 | T.8.3.32 | z2 | k2 | Okulun bilgisayar sınıfında kullanılacak parolalar, tablodaki kuralların hepsine uymalıdır. Buna göre aşağıdaki parolalardan hang… | ✓Martı4Kuş
+tur-sm-214 | T.8.3.25 | z3 | k2 | Okul korosundaki Alp, Bade, Cenk, Derya ve Ege, gösteri gecesinde sahneye birer birer çıkacaktır. Görselde Derya'nın sahneye çıkı… | ✓Bade sahneye en son çıkar.
+tur-sm-215 | T.8.3.25 | z3 | k2 | Bir sokakta yan yana beş ev vardır. Evlerin her birinde farklı bir evcil hayvan beslenmektedir: kedi, köpek, kuş, balık ve tavşan… | ✓Tavşan
+tur-sm-216 | T.8.3.32 | z3 | k2 | Bir bisiklet parkurunda rüzgârın hızına göre bayrak asılmakta ve parkurlar buna göre açılıp kapatılmaktadır. Tablo 1'de bayrak ku… | ✓15.00–19.00 arasında kısa parkurda sürecek o…
+tur-sm-217 | T.8.3.25 | z3 | k2 | Sınıftaki akvaryumun balıklarına bu sabah yem verilmiştir. Asya, Barış, Cemre ve Demir'den yalnızca biri yem vermiştir. Öğretmen … | ✓Cemre
+tur-sm-218 | T.8.3.25 | z3 | k2 | Bir halk kütüphanesi pazartesiden cumaya kadar her gün bir atölye düzenleyecektir: masal, çizgi roman, origami, şiir ve bilim. Gö… | ✓Çizgi roman atölyesi salı günü yapılır.
+tur-sm-219 | T.8.3.32 | z3 | k2 | Gaye, Hakan, İpek ve Kemal'in her biri farklı bir çalgı kursuna (bağlama, keman, piyano, davul) yazılmıştır. Kurslar pazartesiden… | ✓Kemal piyano kursuna yazılmıştır.
+tur-sm-220 | T.8.3.32 | z3 | k2 | Bir okul futbol turnuvasında Kartal, Martı, Şahin ve Turna takımları birbiriyle birer maç yapmıştır. Galibiyet 3, beraberlik 1, y… | ✓Martı
+tur-sm-221 | T.8.3.25 | z3 | k2 | Lale, Mert, Nail, Oya ve Poyraz, görseldeki trenin beş vagonundan farklı birer vagona binmiştir. Vagonlar önden arkaya 1'den 5'e … | ✓Lale, Nail'in hemen arkasındaki vagondadır.
+tur-sm-222 | T.8.3.32 | z3 | k2 | Bir sınav salonunda beş öğrenci yan yana beş sıraya oturtulacaktır. Sıralar soldan sağa 1'den 5'e kadar numaralıdır. Öğrencilerin… | ✓Cem – Ali – Ece – Dilan – Berk
+tur-sm-223 | T.8.3.32 | z3 | k2 | Eylül, Ferit, Gonca, Haluk ve İlkim'in her biri farklı bir dersin projesini hazırlamıştır: fen, tarih, müzik, resim ve matematik.… | ✓Gonca
+tur-sm-224 | T.8.3.25 | z3 | k2 | Ece, Fuat, Rana, Selim ve Tolga bir koşu yarışına katılmış ve yarışı farklı sıralarda bitirmiştir. • Tolga, Ece'den önce bitirmiş… | ✓3
+tur-sm-225 | T.8.3.32 | z3 | k2 | Bir seradaki otomatik sulama sistemi, toprağın nem oranına göre ön vanayı, arka vanayı ve fanı açıp kapatmaktadır. Tablo 1'de sis… | ✓19.00
+tur-sm-301 | T.8.3.25 | z3 | k3 | Okul kermesinde kitap standına Arda, Belis, Cem, Defne ve Emir birer saat nöbet tutacaktır. Belis'in nöbet saati çizelgeye yazılm… | ✓Emir
+tur-sm-302 | T.8.3.32 | z3 | k3 | Nehir, Onur, Pelin ve Sarp; okulun satranç, fotoğraf, tiyatro ve robotik kulüplerinden birer tanesine yazılmıştır. Her kulübe bu … | ✓Pelin fotoğraf kulübündedir.
+tur-sm-303 | T.8.3.32 | z3 | k3 | Bir kayak merkezinde yüksek hat, alçak hat ve çocuklar için teleski olmak üzere üç taşıma hattı vardır. Kayakçıların güvenliği iç… | ✓09.00: Yüksek hat durur, alçak hat çalışır, …
+tur-sm-304 | T.8.3.25 | z3 | k3 | Ela, oyuncak dolabının rafına kırmızı, mavi, yeşil, sarı ve mor renkli beş kutuyu yan yana dizecektir. Mor kutuyu görseldeki gibi… | ✓Mavi
+tur-sm-305 | T.8.3.25 | z3 | k3 | Bir ortaokulda düzenlenen kulüp haftasında pazartesiden cumaya kadar her gün bir etkinlik yapılacaktır. Etkinlikler resim, satran… | ✓Koro perşembe günü yapılır.
+tur-sm-306 | T.8.3.25 | z3 | k3 | Bir kutu oyununda piyon "Başla" karesinden yola çıkar. Oyuncu her turda bir kart açar: Kırmızı kart piyonu 2 kare ileri, yeşil ka… | ✓9
+tur-sm-307 | T.8.3.25 | z3 | k3 | Tuna, Umay ve Yiğit'in birer evcil hayvanı vardır: Biri kedi, biri muhabbet kuşu, biri de balık beslemektedir. Üçü okula farklı r… | ✓Tuna – lacivert
+tur-sm-308 | T.8.3.25 | z3 | k3 | Bir otobüs hattında Çarşı, Hastane, Kütüphane, Park ve Stadyum olmak üzere beş durak vardır. Görselde durakların sırası numaralan… | ✓Stadyum dördüncü duraktır.
+tur-sm-309 | T.8.3.32 | z3 | k3 | Bir halk kütüphanesinin ödünç verme kuralları şunlardır: 1. Bir okurun elinde aynı anda en fazla üç kitap bulunabilir. 2. İade sü… | ✓Cansu
+tur-sm-310 | T.8.3.25 | z3 | k3 | Beden eğitimi öğretmeni Ece, Kaan, Mert, Selin ve Tolga'yı boy sırasına dizmek istiyor. Öğrencilerin boyları birbirinden farklıdı… | ✓Ece en uzun öğrencidir.
+tur-sm-311 | T.8.3.25 | z3 | k3 | Bir okulun çevrim içi ödev sistemine üye olan öğrenciler, kayıt ekranında gösterilen kurallara uygun bir şifre belirlemek zorunda… | ✓Deniz5k8
+tur-sm-312 | T.8.3.25 | z3 | k3 | Beş katlı bir apartmanın her katında bir aile oturmaktadır: Aksoy, Bulut, Çelik, Doğan ve Erdem aileleri. Katlar görseldeki gibi … | ✓Erdem
+tur-sm-313 | T.8.3.32 | z3 | k3 | Bir hayvan barınağında pazartesiden perşembeye kadar her gün bir gönüllü çalışacaktır. Gizem, Hakan, İpek ve Kerem'in her biri bu… | ✓Gizem
+tur-sm-314 | T.8.3.32 | z3 | k3 | Okullar arası bilgi yarışmasında dört takım 10'ar soru cevaplamıştır. Yarışmanın puanlama kuralları şunlardır: • Her doğru cevap … | ✓Martı
+tur-sm-315 | T.8.3.25 | z3 | k3 | Okul servisinin arka bölümünde iki sıra hâlinde altı koltuk vardır. Ön sıradaki her koltuğun hemen arkasında, arka sıradan bir ko… | ✓Alp'in sol taraftaki pencere kenarında oturd…
+tur-sm-316 | T.8.3.25 | z4 | k3 | Sınıf panosuna bilim, doğa, kitap, müzik, spor ve tarih konulu altı afiş, soldan sağa 1'den 6'ya kadar numaralandırılmış yerlere … | ✓4
+tur-sm-317 | T.8.3.25 | z4 | k3 | Okulun yıl sonu gösterisinde koro, keman, piyano, drama ve halk oyunları gösterileri birer kez sahnelenecektir. Sunucu, gösterile… | ✓Drama
+tur-sm-318 | T.8.3.32 | z4 | k3 | Arın, Bora, Cansu ve Dila; yüzme, tenis, basketbol ve voleybol sporlarından farklı birini yapmaktadır. Her biri pazartesiden perş… | ✓Arın perşembe günü antrenman yapar.
+tur-sm-319 | T.8.3.32 | z4 | k3 | Bir okul serasında çatı penceresi, sisleme sistemi ve fan, sıcaklık ile nem ölçümlerine göre kendiliğinden çalışmaktadır. Sistemi… | ✓14.00: Pencere tam açık, sisleme durur, fan …
+tur-sm-320 | T.8.3.25 | z4 | k3 | Teneffüste kantin önünde Ada, Berk, Can, Dora, Efe ve Fulya tek sıra hâlinde kuyruğa girmiştir. Kuyruğun en önündeki kişi 1., en … | ✓Dora ikinci sıradadır.
+tur-sm-321 | T.8.3.25 | z4 | k3 | Bir yaz kampında pazartesiden cumartesiye kadar her gün bir etkinlik yapılacaktır. Etkinlikler kano, tırmanış, okçuluk, bisiklet,… | ✓Tırmanış cumartesi günü yapılır.
+tur-sm-322 | T.8.3.25 | z4 | k3 | Bir sınıfta Ege, Figen, Gökay, Hira ve Ilgaz'a birer sınıf görevi verilecektir. Görevler kitaplığı düzenlemek, panoyu düzenlemek,… | ✓Gökay'ın bitkileri suladığı
+tur-sm-323 | T.8.3.25 | z4 | k3 | Resim öğretmeni sınıf dolabına boya, kil, makas, kâğıt, yapıştırıcı ve ip kutularını yerleştirecektir. Dolapta görseldeki gibi üs… | ✓İp kutusu makas kutusuyla aynı raftadır.
+tur-sm-324 | T.8.3.25 | z4 | k3 | Okulda yapılacak bir yazar söyleşisi için beş iş yapılacaktır: afişi tasarlamak, afişi bastırmak, salonu ayırtmak, davetiyeleri g… | ✓5
+tur-sm-325 | T.8.3.25 | z4 | k3 | Robotik kulübünde, 4 × 4 karelik bir zeminde hareket eden bir robot programlanmaktadır. Robot başlangıçta A1 karesinde, görseldek… | ✓B4
+tur-sm-001 | T.8.3.25 | z1 | k0 | Sabah okula Zeki, Irmak'tan önce; Irmak, Oya'dan önce; Oya da Selim'den önce gelmiştir. Buna göre okula en son kim gelmiştir? | ✓Selim
+tur-sm-002 | T.8.3.32 | z1 | k0 | Bir oyun parkındaki kaydırağın girişinde şu kural yazılıdır: "Boyu 120 cm'den kısa olan çocuk, yanında bir yetişkin olmadan kaydı… | ✓Ozan
+tur-sm-003 | T.8.3.25 | z1 | k0 | Kitap kulübü bu hafta bir kez toplanacaktır. Toplantı pazartesiden sonra, çarşambadan önceki bir gün yapılacaktır. Buna göre kulü… | ✓Salı
+tur-sm-004 | T.8.3.25 | z2 | k0 | Dört arkadaş sınıf fotoğrafı için yan yana dizilmiştir. Cemre en soldadır. Deniz, Bade'nin hemen sağında durmaktadır. Egemen ise … | ✓Egemen
+tur-sm-005 | T.8.3.25 | z2 | k0 | Ozan, Pınar ve Rana'nın her biri elma, armut ve kirazdan farklı birini en çok sevmektedir. Pınar'ın en sevdiği meyve ne armut ne … | ✓Rana en çok armudu sever.
+tur-sm-006 | T.8.3.32 | z2 | k0 | Bir bilim müzesinin bilet kuralları şunlardır: • Hafta içi günlerde öğrenci kartı olan ziyaretçiler indirimli bilet alır. • Hafta… | ✓Cihan
+tur-sm-007 | T.8.3.25 | z2 | k0 | Lale, Mina, Nazlı ve Tarık okul koşusunda yarışmıştır; bitiş çizgisine aynı anda varan olmamıştır. Mina, Nazlı'dan önce; Nazlı da… | ✓Mina birinci olmuştur.
+tur-sm-008 | T.8.3.32 | z2 | k0 | Aras, Beril, Çınar, Damla ve Eylül, sınıftaki çiçekleri pazartesiden cumaya kadar her gün biri olmak üzere sulayacaktır. Her öğre… | ✓Çınar
+tur-sm-009 | T.8.3.25 | z3 | k0 | Bir sokakta yan yana beş dükkân vardır: fırın, eczane, kırtasiye, manav ve çiçekçi. Görselde dükkânların yerleri soldan sağa numa… | ✓Manav
+tur-sm-010 | T.8.3.32 | z3 | k0 | Bir havayolu şirketi, kabine alınacak çantalar için şu kuralları uygulamaktadır: • Çantanın ağırlığı en fazla 8 kg olmalıdır. • Ç… | ✓Aylin
+tur-sm-011 | T.8.3.25 | z3 | k0 | Kaya, Lina, Mete ve Nur okul orkestrasında flüt, gitar, keman ve davuldan farklı birini çalmaktadır. Orkestra öğretmeninin not de… | ✓Kaya flüt çalar.
+tur-sm-012 | T.8.3.25 | z3 | k0 | Oya, Pars, Rüya, Sıla ve Toprak sinemada yan yana beş koltuğa oturmuştur. Koltuklar soldan sağa 1'den 5'e kadar numaralıdır ve Sı… | ✓Pars ikinci koltukta oturur.
+tur-sm-013 | T.8.3.25 | z4 | k0 | Okulun 5 × 100 metre bayrak yarışı takımında Atlas, Bera, Ceyda, Doğa ve Ekin koşacaktır. Her koşucu bir kez koşacak; bayrağı 1. … | ✓6
+tur-sm-014 | T.8.3.25 | z4 | k0 | Ayla, Berk, Cem ve Dilan bir doğa kampında kırmızı, mavi, yeşil ve sarı renkli dört çadırın her birinde ayrı ayrı kalmaktadır. He… | ✓Berk – temizlik yapmak
+tur-sm-015 | T.8.3.25 | z4 | k0 | Eda, Fatih, Gonca ve Harun bir proje gününde uzay, deniz, orman ve çöl konularından farklı birini sunacaktır. Sunumlar art arda y… | ✓Gonca ilk sunumu yapar.
