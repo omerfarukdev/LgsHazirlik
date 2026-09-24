@@ -11,5 +11,6 @@ window.LGS_HAP_LISTE = [
   "cumlenin-ogeleri.js",
   "ink-1-kahraman.js",
   "iklim-hava-hareketleri.js",
-  "ink-2-milli-uyanis.js"
+  "ink-2-milli-uyanis.js",
+  "kalitim.js"
 ];

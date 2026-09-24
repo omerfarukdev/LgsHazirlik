@@ -1,0 +1,90 @@
+fen-kl-101 | F.8.2.2.1 | z1 | k1 | Bir canlıda genlerin etkisiyle ortaya çıkan; çiçek rengi, tohum şekli, boy uzunluğu gibi gözlenebilen özelliklerin tümüne ne ad v… | ✓Fenotip
+fen-kl-102 | F.8.2.2.1 | z1 | k1 | Bir bezelye bitkisinin tohum rengi için taşıdığı gen çifti Ss harfleriyle gösterilmiştir. Buna göre Ss gösterimi bu bitkinin aşağ… | ✓Genotipini
+fen-kl-103 | F.8.2.2.1 | z1 | k1 | Bezelyede yuvarlak tohum geni Y, buruşuk tohum geni y harfiyle gösterilmektedir. Buna göre aşağıdakilerin hangisinde verilen iki … | ✓YY ve yy
+fen-kl-104 | F.8.2.2.1 | z1 | k1 | Mor çiçekli melez bir bezelye bitkisi, beyaz çiçek genini taşıdığı hâlde mor çiçek açar. Bu bitkide çiçeklerin mor renkte olmasın… | ✓Baskın gen
+fen-kl-105 | F.8.2.2.1 | z1 | k1 | Bezelyede buruşuk tohum şekli çekinik bir özelliktir. Bir bezelye bitkisinin tohumlarının buruşuk olması için bu karakteri belirl… | ✓Gen çifti tamamen çekinik genlerden oluşmalı…
+fen-kl-106 | F.8.2.2.2 | z1 | k1 | İnsanda doğacak çocuğun kız ya da erkek olmasını aşağıdakilerden hangisi belirler? | ✓Babadan gelen eşey kromozomu
+fen-kl-107 | F.8.2.2.2 | z1 | k1 | Mendel, kalıtımla ilgili deneylerinde bezelye bitkisini kullanmıştır. Aşağıdakilerden hangisi Mendel'in bezelyeyi seçmesinin nede… | ✓Karakterlerinin çok sayıda ara biçim gösterm…
+fen-kl-108 | F.8.2.2.2 | z1 | k1 | Mendel, bezelyelerde karakterlerin atalardan yavrulara nasıl aktarıldığını incelemiştir. Mendel'in bu çalışmalarından elde edilen… | ✓Karakterlerin aktarımı insan ve hayvanlarda …
+fen-kl-109 | F.8.2.2.1 | z1 | k1 | Bezelyede uzun boy geni (U), kısa boy genine (u) baskındır. Buna göre genotipi Uu olan bir bezelye bitkisinin fenotipi aşağıdakil… | ✓Uzun boylu
+fen-kl-110 | F.8.2.2.2 | z1 | k1 | Bezelyede sarı tohum geni (S), yeşil tohum genine (s) baskındır. Genotipi SS olan bir bitki, genotipi ss olan bir bitkiyle çapraz… | ✓Ss – sarı
+fen-kl-111 | F.8.2.2.2 | z1 | k1 | İnsanda anneden çocuğa aktarılan eşey kromozomuyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Çocuk kız da olsa erkek de olsa her zaman X …
+fen-kl-112 | F.8.2.2.3 | z1 | k1 | Akraba evliliklerinden doğan çocuklarda bazı kalıtsal hastalıkların görülme olasılığı daha yüksektir. Bu durumun temel nedeni aşa… | ✓Akraba eşlerin aynı çekinik geni taşıma olas…
+fen-kl-113 | F.8.2.2.2 | z2 | k1 | Bezelyede mor çiçek geni (M), beyaz çiçek genine (m) baskındır. Genotipi Mm olan iki bezelye bitkisi çaprazlanmıştır. Buna göre o… | ✓[[1|4]]
+fen-kl-114 | F.8.2.2.2 | z2 | k1 | Bezelyede yuvarlak tohum geni (Y), buruşuk tohum genine (y) baskındır. Saf döl yuvarlak tohumlu bir bitki, melez yuvarlak tohumlu… | ✓%100
+fen-kl-115 | F.8.2.2.1 | z2 | k1 | Bezelyede sarı tohum geni (S), yeşil tohum genine (s) baskındır. Emre'nin bahçesinde sarı tohumlu bir bezelye bitkisi vardır; bit… | ✓Yalnız III
+fen-kl-116 | F.8.2.2.2 | z2 | k1 | İnsanda erkeklerin vücut hücrelerinde XY eşey kromozomları bulunur. Bir erkeğin ürettiği çok sayıda sperm hücresi incelenmiştir. … | ✓%50
+fen-kl-117 | F.8.2.2.2 | z2 | k1 | Bezelyede mor çiçek geni M, beyaz çiçek geni m harfiyle gösterilir. Genotipi Mm olan bir bezelye bitkisi üreme hücreleri oluşturm… | ✓Üreme hücrelerinin yarısı M, yarısı m geni t…
+fen-kl-118 | F.8.2.2.2 | z2 | k1 | Bezelyede uzun boy geni U, kısa boy geni u ile gösterilir. Bir öğrenci, genotipi Uu olan bir bitkiyle genotipi uu olan bir bitkin… | ✓1: Uu, 2: uu
+fen-kl-119 | F.8.2.2.2 | z2 | k1 | Fen dersinde öğretmen, insanda üreme hücrelerinin taşıdığı eşey kromozomlarını anlatmıştır. Ders sonunda Kerem defterine şu cümle… | ✓Yalnız II
+fen-kl-120 | F.8.2.2.2 | z2 | k1 | Bezelyede yuvarlak tohum geni (Y), buruşuk tohum genine (y) baskındır. Bir bahçıvan iki bezelye bitkisini çaprazlamış ve elde ett… | ✓Yy × Yy
+fen-kl-121 | F.8.2.2.3 | z2 | k1 | Çekinik genlerle aktarılan bazı kalıtsal hastalıklar, akraba evliliklerinden doğan çocuklarda, akraba olmayan eşlerin çocuklarına… | ✓Akraba olmayan eşlerin çocuklarında da bu ha…
+fen-kl-122 | F.8.2.2.2 | z2 | k1 | Bezelyede mor çiçek geni (M), beyaz çiçek genine (m) baskındır. Bir öğrenci mor çiçekli bir bitkiyi beyaz çiçekli bir bitkiyle ça… | ✓II ve III
+fen-kl-123 | F.8.2.2.2 | z2 | k1 | Bezelyede sarı tohum geni (S), yeşil tohum genine (s) baskındır. Melez sarı tohumlu iki bezelye bitkisi çaprazlanmıştır. Buna gör… | ✓3 genotip – 2 fenotip
+fen-kl-124 | F.8.2.2.1 | z2 | k1 | Bezelyede çiçeklerin gövdenin yan tarafında bulunmasını sağlayan gen (K), çiçeklerin gövdenin ucunda bulunmasını sağlayan gene (k… | ✓I ve II
+fen-kl-125 | F.8.2.2.2 | z2 | k1 | Bir araştırmacı, bakla şekli bakımından saf döl olan şişkin baklalı bir bezelyeyi saf döl olan boğumlu baklalı bir bezelyeyle çap… | ✓Şişkin bakla geni baskın, boğumlu bakla geni…
+fen-kl-201 | F.8.2.2.2 | z2 | k2 | Bezelyede şişkin bakla geni (A), boğumlu bakla genine (a) baskındır. Melez şişkin baklalı bir bitki, boğumlu baklalı bir bitkiyle… | ✓300
+fen-kl-202 | F.8.2.2.1 | z2 | k2 | Bezelyede çiçeklerin gövdenin yan tarafında olmasını sağlayan gen (K), çiçeklerin uçta olmasını sağlayan gene (k) baskındır. Tabl… | ✓1. ve 2. bitki
+fen-kl-203 | F.8.2.2.2 | z2 | k2 | Bezelyede uzun boy geni (U), kısa boy genine (u) baskındır. Saf döl uzun boylu bir bitki ile kısa boylu bir bitki çaprazlanarak b… | ✓II ve III
+fen-kl-204 | F.8.2.2.2 | z2 | k2 | Bir ailede anne, baba, kız ve erkek çocuk, eşey kromozomlarıyla ilgili birer cümle söylemiştir. Buna göre hangi aile üyesinin söy… | ✓Baba: Oğlumdaki Y kromozomu benden geldi.
+fen-kl-205 | F.8.2.2.2 | z2 | k2 | Bezelyede yuvarlak tohum geni (Y), buruşuk tohum genine (y) baskındır. Genotipi Yy olan iki bitki çaprazlanmış ve 400 yeni bitki … | ✓200
+fen-kl-206 | F.8.2.2.3 | z2 | k2 | Bazı kalıtsal hastalıklar çekinik genlerle aktarılır. Böyle bir hastalığın geninden yalnız birini taşıyan kişi hasta olmaz ama bu… | ✓I ve II
+fen-kl-207 | F.8.2.2.2 | z2 | k2 | Bezelyede bakla rengi için saf döl yeşil baklalı bir bitki ile saf döl sarı baklalı bir bitki çaprazlanmıştır. Buna göre oluşan b… | ✓Tamamı yeşil baklalı olur.
+fen-kl-208 | F.8.2.2.2 | z2 | k2 | İnsanda bir kadının vücut hücrelerinde 44 vücut kromozomu ile XX eşey kromozomları bulunur. Üreme hücreleri oluşurken kromozom sa… | ✓22 + X
+fen-kl-209 | F.8.2.2.1 | z2 | k2 | Ece, bezelyelerde kalıtım konusunu tekrar ederken aşağıdaki yargıları yazmıştır. I. Çekinik özelliği gösteren bir bitki saf döldü… | ✓I ve III
+fen-kl-210 | F.8.2.2.2 | z2 | k2 | Bir öğrenci tohum rengi için yaptığı çaprazlamanın sonuçlarını tabloya yazmış ama ata bitkilerin üreme hücrelerini gösteren kutul… | ✓Ss × ss
+fen-kl-211 | F.8.2.2.2 | z2 | k2 | Bezelyede yuvarlak tohum geni (Y), buruşuk tohum genine (y) baskındır. Bir araştırmacı yuvarlak tohumlu bir bezelye bitkisini bir… | ✓YY – saf döl
+fen-kl-212 | F.8.2.2.2 | z2 | k2 | Bezelyede uzun boy geni (U), kısa boy genine (u) baskındır. Bir öğrenci kısa boylu bir bezelye bitkisi için aşağıdaki yargıları y… | ✓Yalnız III
+fen-kl-213 | F.8.2.2.2 | z2 | k2 | Mendel'in bezelyelerde gözlediği karakter aktarımı, insanlarda ve hayvanlarda da benzer biçimde gerçekleşir. Örneğin bir koyun sü… | ✓Genlerden biri anneden, diğeri babadan gelir.
+fen-kl-214 | F.8.2.2.2 | z3 | k2 | Bezelyede uzun boy geni (U), kısa boy genine (u) baskındır. Bir bahçıvanın uzun boylu bir bezelye bitkisi vardır ve bahçıvan bu b… | ✓Bitkiyi saf döl uzun boylu bir bitkiyle çapr…
+fen-kl-215 | F.8.2.2.2 | z3 | k2 | Bir öğrenci çiçek rengi bakımından farklı bezelye bitkileriyle üç çaprazlama yapmış ve oluşan bitkileri saymıştır. Öğrenci, çiçek… | ✓I, II ve III
+fen-kl-216 | F.8.2.2.2 | z3 | k2 | Bezelyede sarı tohum geni (S), yeşil tohum genine (s) baskındır. Bir bahçıvanın elinde genotipi SS, Ss ve ss olan üç tür bezelye … | ✓Ss × ss
+fen-kl-217 | F.8.2.2.3 | z3 | k2 | Deniz ile Can kuzendir ve ikisi de sağlıklıdır. Ortak büyükbabalarında, çekinik bir genle aktarılan kalıtsal bir hastalık görülmü… | ✓I ve II
+fen-kl-218 | F.8.2.2.2 | z3 | k2 | Bezelyede çiçeklerin gövdenin yan tarafında olmasını sağlayan gen (K), çiçeklerin uçta olmasını sağlayan gene (k) baskındır. Seli… | ✓[[1|4]]
+fen-kl-219 | F.8.2.2.2 | z3 | k2 | Bir ailenin dört çocuğunun dördü de kızdır ve aile beşinci çocuğunu beklemektedir. Komşuları, bu ailede hep kız çocuk doğduğu içi… | ✓Yalnız III
+fen-kl-220 | F.8.2.2.2 | z3 | k2 | Bezelyede şişkin bakla geni (A), boğumlu bakla genine (a) baskındır. Bir çiftçi genotipi Aa olan iki bitkiyi çaprazlamış ve oluşa… | ✓Boğumlu baklalı bitkilerin tamamı
+fen-kl-221 | F.8.2.2.2 | z3 | k2 | Bezelyede sarı tohum geni (S), yeşil tohum genine (s) baskındır. Aslı, genotipi Ss olan bir bezelye bitkisinin kendi kendine tozl… | ✓II ve III
+fen-kl-222 | F.8.2.2.2 | z3 | k2 | Bezelyede yuvarlak tohum geni (Y), buruşuk tohum genine (y) baskındır. Bir araştırmacı tohum şekli bakımından dört çaprazlama yap… | ✓K
+fen-kl-223 | F.8.2.2.2 | z3 | k2 | Fen dersinde öğrenciler bir model etkinliği yapmıştır. İki torbanın her birine 20 tane M yazılı ve 20 tane m yazılı kart konmuştu… | ✓Yalnız II
+fen-kl-224 | F.8.2.2.2 | z3 | k2 | Bir tohum şirketi, çiçek rengi bakımından satacağı bezelye tohumlarının tamamının melez döl olmasını istemektedir. Şirketin seral… | ✓MM × mm
+fen-kl-225 | F.8.2.2.2 | z3 | k2 | Bir öğrenci, bezelyede bakla şekli karakterinin aktarımını şemadaki gibi modellemiştir. Modelde dolu daire şişkin bakla genini, b… | ✓Yalnız I
+fen-kl-301 | F.8.2.2.2 | z3 | k3 | Bir tarım lisesindeki öğrenciler, tohum şekli bakımından saf döl yuvarlak tohumlu bir bezelye ile buruşuk tohumlu bir bezelyeyi ç… | ✓400
+fen-kl-302 | F.8.2.2.2 | z3 | k3 | Bezelyede mor çiçek rengi, beyaz çiçek rengine baskındır. Bir araştırmacı, bezelye bitkileriyle üç ayrı çaprazlama yapmış ve her … | ✓I ve II
+fen-kl-303 | F.8.2.2.1 | z3 | k3 | Bezelyede sarı tohum rengi, yeşil tohum rengine baskındır. Bir öğrenci, tohum rengi bakımından melez döl olan sarı tohumlu bir be… | ✓Hem sarı hem de yeşil tohum rengi genini bir…
+fen-kl-304 | F.8.2.2.2 | z3 | k3 | Bezelyede sarı tohum rengi, yeşil tohum rengine baskındır. Okul bahçesinde yetiştirilen sarı tohumlu iki bezelye bitkisi birbiriy… | ✓Yalnız II
+fen-kl-305 | F.8.2.2.2 | z3 | k3 | Bezelyede uzun boy geni T, kısa boy geni t ile gösterilmektedir ve uzun boy baskındır. Bir fidancı, yapacağı çaprazlamadan elde e… | ✓TT × tt
+fen-kl-306 | F.8.2.2.2 | z3 | k3 | Bezelyede çiçeklerin gövdenin yanında bulunması, gövdenin ucunda bulunmasına baskındır. Bir öğrenci, çiçekleri gövdenin yanında o… | ✓I, II ve III
+fen-kl-307 | F.8.2.2.1 | z3 | k3 | Bezelyede yuvarlak tohum şekli, buruşuk tohum şekline baskındır. Bir araştırmacı, görünüşleri birbirinin aynısı olan yuvarlak toh… | ✓Fenotipi aynı olan bireylerin genotipleri fa…
+fen-kl-308 | F.8.2.2.2 | z3 | k3 | Bezelyede bakla (meyve) rengi bakımından yeşil bakla, sarı baklaya baskındır. Bir tohum firması, bahçelere süs bitkisi olarak sat… | ✓Sarı baklalı iki bitkiyi birbiriyle çaprazla…
+fen-kl-309 | F.8.2.2.2 | z3 | k3 | Bezelyenin boy karakterinde hangi özelliğin baskın olduğunu bilmeyen bir öğrenci iki aşamalı bir deney yapmıştır. 1. aşamada saf … | ✓Yalnız II
+fen-kl-310 | F.8.2.2.2 | z3 | k3 | Bezelyede mor çiçek geni M, beyaz çiçek geni m ile gösterilir ve mor çiçek baskındır. Bir öğrenci, genotipi bilinen bitkilerle ya… | ✓4. çaprazlama
+fen-kl-311 | F.8.2.2.2 | z3 | k3 | Bezelyede şişkin bakla şekli, boğumlu bakla şekline baskındır. Bir çiftçi, tarlasındaki boğumlu baklalı iki bezelye bitkisini çap… | ✓II ve III
+fen-kl-312 | F.8.2.2.2 | z3 | k3 | Bezelyede sarı tohum geni S, yeşil tohum geni s ile gösterilir ve sarı tohum baskındır. Bir öğrenci, genotipi Ss olan 1. bitki il… | ✓Yalnız 1
+fen-kl-313 | F.8.2.2.2 | z3 | k3 | Bezelyede bakla rengi bakımından yeşil bakla, sarı baklaya baskındır. Bir tohum paketinin üzerinde şu bilgi yazmaktadır: "Bu pake… | ✓I ve III
+fen-kl-314 | F.8.2.2.2 | z3 | k3 | Bezelyede mor çiçek geni M, beyaz çiçek geni m ile gösterilir ve mor çiçek baskındır. Bir bahçıvan, çiçek rengi bakımından melez … | ✓Üreme hücrelerinin yaklaşık yarısı M, yarısı…
+fen-kl-315 | F.8.2.2.1 | z3 | k3 | Bezelyede yuvarlak tohum geni Y, buruşuk tohum geni y ile gösterilir ve yuvarlak tohum baskındır. Bir araştırma bahçesindeki K, L… | ✓Yalnız III
+fen-kl-316 | F.8.2.2.2 | z4 | k3 | Bezelyede mor çiçek geni M, beyaz çiçek geni m ile gösterilir ve mor çiçek baskındır. Bir botanik bahçesinde, etiketleri kaybolmu… | ✓2
+fen-kl-317 | F.8.2.2.2 | z4 | k3 | Bezelyede şişkin bakla şekli, boğumlu bakla şekline baskındır. Bir araştırmacı, saf döl şişkin baklalı bir bitki ile boğumlu bakl… | ✓II ve III
+fen-kl-318 | F.8.2.2.3 | z4 | k3 | Birbirinin kuzeni olan Ayla ile Kaan, evlenmeden önce bir genetik danışmanlık merkezine başvurmuştur. Yapılan testlerde ikisinin … | ✓Çiftin ikinci çocuğu kesinlikle sağlıklı olu…
+fen-kl-319 | F.8.2.2.2 | z4 | k3 | Fen dersinde kalıtım bir modelle canlandırılmaktadır. Her torba, bezelye bitkisinin tohum rengi bakımından bir ebeveynini temsil … | ✓I ve III
+fen-kl-320 | F.8.2.2.2 | z4 | k3 | Bezelyede uzun boy, kısa boya baskındır. Bir araştırmacı K, L, M ve N bitkileriyle üç çaprazlama yapmıştır. K, L ve N bitkileri u… | ✓M ve N
+fen-kl-321 | F.8.2.2.2 | z4 | k3 | Ece'nin ailesinde iki erkek kardeş vardır ve annesi üçüncü çocuğa hamiledir. Ece, fen dersinde insanda eşey kromozomlarını öğrend… | ✓Yalnız I
+fen-kl-322 | F.8.2.2.2 | z4 | k3 | Bezelyede çiçeklerin gövdenin yanında bulunması, uçta bulunmasına baskındır. Bir tohum firması, çiçek konumu bakımından melez döl… | ✓100
+fen-kl-323 | F.8.2.2.1 | z4 | k3 | Görselde bir bezelye bitkisinin vücut hücresindeki bir kromozom çifti gösterilmiştir. Kromozomlardan biri polenden, diğeri yumurt… | ✓I ve II
+fen-kl-324 | F.8.2.2.2 | z4 | k3 | Bezelyede yuvarlak tohum şekli, buruşuk tohum şekline baskındır. Bir araştırmacı, farklı tohum paketlerinden yetiştirdiği yuvarla… | ✓Yavruların tamamı yuvarlak tohumlu ve melez …
+fen-kl-325 | F.8.2.2.3 | z4 | k3 | Bir sağlık araştırmasında, birbirine yakın iki bölgede akraba evliliği oranları ve çekinik bir genle aktarılan kalıtsal bir hasta… | ✓Yalnız II
+fen-kl-001 | F.8.2.2.1 | z1 | k0 | Bir bezelye bitkisi, tohum şekli karakteri için iki yuvarlak tohum geni (YY) taşımaktadır. Bir karakter bakımından aynı iki geni … | ✓Saf döl
+fen-kl-002 | F.8.2.2.1 | z1 | k0 | Bir öğrenci, bahçedeki bir bezelye bitkisiyle ilgili dört bilgi yazmıştır. Bu bilgilerden hangisi bitkinin bir fenotipini ifade e… | ✓Bitkinin çiçekleri mor renklidir.
+fen-kl-003 | F.8.2.2.1 | z1 | k0 | Melez döl uzun boylu bir bezelye bitkisi hem uzun boy hem de kısa boy geni taşır, ancak bitki uzun boyludur. Melez bir bireyde et… | ✓Baskın gen
+fen-kl-004 | F.8.2.2.2 | z2 | k0 | Bezelyede mor çiçek geni M, beyaz çiçek geni m ile gösterilir ve mor çiçek baskındır. Bir öğrenci, Mm genotipli bir bitkiyi mm ge… | ✓[[1|2]]
+fen-kl-005 | F.8.2.2.2 | z2 | k0 | Bezelyede bakla (meyve) rengi bakımından yeşil bakla, sarı baklaya baskındır. Bir çiftçi, bakla rengi bakımından saf döl yeşil ba… | ✓Tamamı yeşil baklalı olur.
+fen-kl-006 | F.8.2.2.3 | z2 | k0 | Bir kalıtsal hastalık çekinik bir genle aktarılmaktadır. Aşağıda dört çift hakkında bilgi verilmiştir; bu çiftlerde anne ve babal… | ✓Anne ve babanın ikisinin de hastalık genini …
+fen-kl-007 | F.8.2.2.1 | z2 | k0 | Bezelyede yuvarlak tohum geni Y, buruşuk tohum geni y ile gösterilir ve yuvarlak tohum baskındır. Bir bitkinin tohum şekli genoti… | ✓II ve III
+fen-kl-008 | F.8.2.2.2 | z2 | k0 | Bezelyede çiçeklerin gövdenin yanında bulunması, uçta bulunmasına baskındır. Bir öğrenci, çiçekleri gövdenin ucunda bulunan bir b… | ✓Yavruların tamamında çiçekler uçta olur.
+fen-kl-009 | F.8.2.2.2 | z3 | k0 | Bezelyede yuvarlak tohum şekli, buruşuk tohum şekline baskındır. Bir öğrenci, yuvarlak tohumlu bir bezelye bitkisini kendi kendin… | ✓Melez döldür ve yuvarlak tohumludur.
+fen-kl-010 | F.8.2.2.2 | z3 | k0 | Bir fen öğretmeni, insanda cinsiyetin belirlenmesini anlatırken kadınların vücut hücrelerinde XX, erkeklerin vücut hücrelerinde X… | ✓Yalnız III
+fen-kl-011 | F.8.2.2.2 | z3 | k0 | Bezelyede mor çiçek rengi, beyaz çiçek rengine baskındır. Bir bahçıvanın elinde mor çiçekli çok sayıda bezelye bitkisi vardır; bu… | ✓Her mor çiçekli bitkiyi beyaz çiçekli bir bi…
+fen-kl-012 | F.8.2.2.2 | z3 | k0 | Bezelyede şişkin bakla şekli, boğumlu bakla şekline baskındır. Bir öğrenci okul serasında şişkin baklalı bir bitkiyi boğumlu bakl… | ✓I, II ve III
+fen-kl-013 | F.8.2.2.2 | z4 | k0 | Bezelyede sarı tohum geni S, yeşil tohum geni s ile gösterilir ve sarı tohum baskındır. Bir öğrenci, sarı tohumlu bir bezelye bit… | ✓3
+fen-kl-014 | F.8.2.2.3 | z4 | k0 | Dağlık bir bölgedeki küçük bir köyde, dışarıyla ulaşım yüzyıllar boyunca zor olduğu için evlilikler çoğunlukla köyün kendi içinde… | ✓II ve III
+fen-kl-015 | F.8.2.2.2 | z4 | k0 | Bezelyede sarı tohum rengi, yeşil tohum rengine baskındır. Bir araştırmacı iki çaprazlama yapmıştır. 1. çaprazlamada genotipleri … | ✓K bitkisi tohum rengi bakımından melez döldü…

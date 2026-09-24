@@ -60,5 +60,8 @@ window.LGS_MANIFEST = [
   "fen-iklim-hava-hareketleri-2.js",
   "ink-u2-1.js",
   "ink-u2-2.js",
-  "tur-paragrafta-anlam-28.js"
+  "tur-paragrafta-anlam-28.js",
+  "fen-kalitim-1.js",
+  "fen-kalitim-2.js",
+  "tur-paragrafta-anlam-29.js"
 ];
