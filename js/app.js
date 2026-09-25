@@ -408,6 +408,7 @@ var App = (function () {
       '</svg>';
   }
   function anaSayfa() {
+    guncellemeKontrol(); // yeni sürüm yayındaysa ana sayfaya dönüşte sessizce yüklenir
     var gecmis = Store.get("gecmis", []);
     var aktif = Store.get("aktif", null);
     var gun = kalanGun();
@@ -1938,14 +1939,50 @@ var App = (function () {
     Store.set("gorulen", yeni);
     Store.set("gorulenSurum", 2);
   }
+  // ================= Kendi kendini güncelleme =================
+  // Öğrenci sekmeyi günlerce kapatmıyor; bilgisayar uyuyup uyanınca sayfa yeniden yüklenmiyor ve
+  // bellekteki eski sürüm çalışmaya devam ediyor (24-25 Eylül 2026: yeni sorular ve 25'lik tur ona
+  // hiç ulaşmadı). Sekme her görünür olduğunda ve ana sayfa her açıldığında sunucudaki index.html'in
+  // sürüm damgasına bakılır; yeni sürüm varsa YALNIZCA ana sayfadayken ve test sürmüyorken yenilenir.
+  var SURUM = (function () {
+    var s = document.querySelector && document.querySelector('script[src*="js/app.js"]');
+    var m = s && /[?&]v=([^&"']+)/.exec(s.getAttribute("src") || "");
+    return m ? m[1] : null;
+  })();
+  var sonGuncellemeKontrolu = 0, bekleyenSurum = null;
+  function anaSayfadaMi() { return location.hash.replace(/^#\/?/, "") === ""; }
+  function guncellemeKontrol() {
+    if (bekleyenSurum && anaSayfadaMi() && !sayac) return yenidenYukle(bekleyenSurum);
+    if (!SURUM || !window.fetch || location.protocol.indexOf("http") !== 0) return;
+    if (Date.now() - sonGuncellemeKontrolu < 5 * 60000) return;
+    sonGuncellemeKontrolu = Date.now();
+    fetch("index.html?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.text(); }).then(function (h) {
+      var m = /js\/app\.js\?v=([^"'&]+)/.exec(h);
+      if (!m || m[1] === SURUM) return;
+      bekleyenSurum = m[1];
+      if (anaSayfadaMi() && !sayac) yenidenYukle(m[1]);
+    }).catch(function () {});
+  }
+  function yenidenYukle(surum) {
+    // Aynı sürüm için tek deneme: önbellek eski dosyayı verirse sonsuz döngüye girme
+    try {
+      if (sessionStorage.getItem("lgs_yenilendi") === surum) return;
+      sessionStorage.setItem("lgs_yenilendi", surum);
+    } catch (e) {}
+    if (S) Store.set("aktif", S);
+    location.reload();
+  }
+
   function init() {
     gorulenGoc();
     window.addEventListener("hashchange", yonlendir);
     document.addEventListener("keydown", klavye);
     window.addEventListener("beforeunload", zamanlayiciDurdur);
-    // Kapak kapanırken / sekme gizlenirken yarım testin son hâli panele gitsin
+    // Kapak kapanırken / sekme gizlenirken yarım testin son hâli panele gitsin;
+    // sekme yeniden görünür olunca yeni sürüm var mı bakılsın
     document.addEventListener("visibilitychange", function () {
-      if (document.visibilityState !== "hidden" || !yarimTest()) return;
+      if (document.visibilityState === "visible") return guncellemeKontrol();
+      if (!yarimTest()) return;
       if (S) Store.set("aktif", S);
       if (Date.now() - Bulut.sonYedek > 15000) Bulut.yedekle(true, true);
     });
