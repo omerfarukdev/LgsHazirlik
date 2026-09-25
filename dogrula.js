@@ -97,6 +97,11 @@ konular.forEach(function (konuId) {
     if ([1, 2, 3, 4].indexOf(q.zorluk) === -1) sorun(kimlik + ": zorluk 1-4 arası sayı olmalı");
     if (!q.soru) sorun(kimlik + ": soru metni eksik");
     else if (q.soru.indexOf("**") === -1) dikkat(kimlik + ": soru kökü **kalın** yazılmamış");
+    // Görsel ham HTML olarak basılır; içindeki **, __, ^{…}, √{…}, [[…|…]] işaretleri ekranda düz yazı görünür.
+    // (25 Eylül 2026: bir sorunun kökü görselin içine yazılmış, öğrenci yıldızlarıyla görecekti.)
+    if (q.gorsel && /\*\*|__[^_]|\^\{|√\{|\[\[/.test(String(q.gorsel).replace(/<[^>]+>/g, " "))) {
+      sorun(kimlik + ": görselin içinde soru biçim işareti var (**, __, ^{}, √{}, [[ ]]); görsel ham HTML basılır, bu işaretler düz yazı görünür. Kök ve metin 'soru' alanına yazılmalı.");
+    }
     if (!Array.isArray(q.secenekler) || q.secenekler.length !== 4) sorun(kimlik + ": tam 4 şık olmalı");
     else {
       if (q.secenekler.some(function (s) { return !s || typeof s !== "string"; })) sorun(kimlik + ": boş ya da metin olmayan şık var");

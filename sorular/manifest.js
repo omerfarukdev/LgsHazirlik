@@ -71,5 +71,10 @@ window.LGS_MANIFEST = [
   "tur-sozel-mantik-1.js",
   "tur-sozel-mantik-2.js",
   "tur-gorsel-grafik-okuma-1.js",
-  "tur-gorsel-grafik-okuma-2.js"
+  "tur-gorsel-grafik-okuma-2.js",
+  "tur-yazim-kurallari-1.js",
+  "tur-yazim-kurallari-2.js",
+  "tur-noktalama-1.js",
+  "tur-noktalama-2.js",
+  "tur-paragrafta-anlam-30.js"
 ];

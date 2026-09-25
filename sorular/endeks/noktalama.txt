@@ -1,0 +1,90 @@
+tur-nk-101 | T.8.4.16 | z1 | k1 | Tamam( ) sergi afişlerini bu akşam ben asarım. Bu cümlede yay ayraçla ( ) gösterilen yere aşağıdakilerden hangisi getirilmelidir? | ✓(,)
+tur-nk-102 | T.8.4.16 | z1 | k1 | Okul bahçesine dikilen fidanları bu hafta kimin sulayacağını öğrendin mi( ) Bu cümlenin sonuna aşağıdakilerden hangisi getirilmel… | ✓(?)
+tur-nk-103 | T.8.4.16 | z1 | k1 | Eyvah, otobüsün kalkmasına yalnızca iki dakika kalmış( ) Bu cümlenin sonuna aşağıdakilerden hangisi getirilmelidir? | ✓(!)
+tur-nk-104 | T.8.4.16 | z1 | k1 | Aşağıdaki cümlelerin hangisinde nokta, sıra bildirmek için kullanılmıştır? | ✓Mahallemizdeki 4. Sokak yeniden asfaltlandı.
+tur-nk-105 | T.8.4.16 | z1 | k1 | Aşağıdaki cümlelerin hangisinde kesme işaretinin kullanımı yanlıştır? | ✓Geçen ay Çınar Gönüllüleri Derneği’ne üye ol…
+tur-nk-106 | T.8.4.16 | z1 | k1 | Doğa yürüyüşü için çantama şunları koydum( ) su, şapka, harita ve el feneri. Bu cümlede yay ayraçla ( ) gösterilen yere aşağıdaki… | ✓(:)
+tur-nk-107 | T.8.4.16 | z1 | k1 | Aşağıdaki cümlelerin hangisinde tırnak işareti, başkasının sözünü olduğu gibi aktarmak için kullanılmıştır? | ✓Öğretmenimiz “Deneyden önce gözlüklerinizi t…
+tur-nk-108 | T.8.4.16 | z1 | k1 | Pazardan domates, biber, patlıcan ve kabak aldık. Bu cümlede virgül hangi görevde kullanılmıştır? | ✓Eş görevli sözcükleri ayırma
+tur-nk-109 | T.8.4.16 | z1 | k1 | Yeni açılan Ankara( )Eskişehir hızlı tren hattında her gün altı sefer yapılıyor. Bu cümlede yay ayraçla ( ) gösterilen yere aşağı… | ✓(-)
+tur-nk-110 | T.8.4.16 | z1 | k1 | ( ) Kütüphane cumartesi günü açık mı? ( ) Evet, öğlene kadar açık. Bu karşılıklı konuşmada satır başlarına aşağıdakilerden hangis… | ✓(—)
+tur-nk-111 | T.8.4.16 | z1 | k1 | Zarfın üstüne adresi şöyle yazdım: Kırlangıç Sokağı No.: 8( )2 Merkez / Bolu Bu adreste yay ayraçla ( ) gösterilen yere aşağıdaki… | ✓(/)
+tur-nk-112 | T.8.4.16 | z1 | k1 | Aşağıdakilerin hangisinde yay ayraç, cümlenin anlamını tamamlayan ek bir bilgiyi göstermek için kullanılmıştır? | ✓Babaannemin köyü (Giresun’a bağlı küçük bir …
+tur-nk-113 | T.8.4.16 | z2 | k1 | Okulumuzun bahar şenliği için sınıfça iş bölümü yaptık. Sınıfın bir grubu afiş, broşür, davetiye( ) öbür grubu ise sahne, ışık, m… | ✓(;)
+tur-nk-114 | T.8.4.16 | z2 | k1 | Aşağıdaki cümlelerin hangisinde virgül, sıralı cümleleri birbirinden ayırmak için kullanılmıştır? | ✓Ders zili çaldı, öğrenciler bahçeye koştu.
+tur-nk-115 | T.8.4.16 | z2 | k1 | Aşağıdakilerin hangisinin sonuna soru işareti konmaz? | ✓Güneş battı mı kuşlar ağaçlara dönerdi
+tur-nk-116 | T.8.4.16 | z2 | k1 | Aşağıdaki cümlelerin hangisinde virgülün kullanımı yanlıştır? | ✓Hava güzel olursa, hafta sonu pikniğe gideri…
+tur-nk-117 | T.8.4.16 | z2 | k1 | Aşağıdaki cümlelerin hangisinde kesme işaretinin kullanımı yanlıştır? | ✓Kardeşim her yıl Nisan’da doğum gününü kutla…
+tur-nk-118 | T.8.4.16 | z2 | k1 | Fen dersinin başında öğretmenimiz tahtaya şu soruyu yazdı( ) Bir ağacın yaşını nasıl anlarız( ) Bu cümlede yay ayraçla ( ) göster… | ✓(:) (?)
+tur-nk-119 | T.8.4.16 | z2 | k1 | Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır? | ✓Komşumuz “Kapınızın önüne bir paket bıraktım…
+tur-nk-120 | T.8.4.16 | z2 | k1 | Kardeşim odasını çok güzel (!) topladığını söyledi. Yatağın altından üç tek çorap, iki boş kutu ve bir yarım elma çıktı. Bu metin… | ✓Söze alaycı bir anlam katmak
+tur-nk-121 | T.8.4.16 | z2 | k1 | Yaşlı balıkçı denize uzun uzun baktı ve kendi kendine mırıldandı: “Bu dalgalar bana bir şey anlatıyor ama…” Bu metinde üç noktanı… | ✓Anlatımı tamamlanmamış cümlenin sonunda bulu…
+tur-nk-122 | T.8.4.16 | z2 | k1 | Kasabanın tek sineması -yıllar önce bir un deposuymuş- geçen ay yeniden açıldı. Bu cümlede kısa çizgilerin görevi aşağıdakilerden… | ✓Ara sözü cümleden ayırmak
+tur-nk-123 | T.8.4.16 | z2 | k1 | Bu, dedemin gençken çaldığı kemandır. Bu cümledeki virgül, aşağıdakilerin hangisindeki virgülle aynı görevde kullanılmıştır? | ✓O, sınıfın en sessiz ama en dikkatli öğrenci…
+tur-nk-124 | T.8.4.16 | z2 | k1 | Aşağıdaki cümlelerin hangisinde noktanın kullanımı yanlıştır? | ✓Kayıtlar 3. Eylül 2027’de sona eriyor.
+tur-nk-125 | T.8.4.16 | z2 | k1 | Bir öğrenci, yazdığı şiirin iki dizesini okul dergisinde yer kazanmak için tek satırda yazmak istiyor: Sabah olur, kuşlar öter da… | ✓(/)
+tur-nk-201 | T.8.4.16 | z2 | k2 | Bu yaz yapacağımız gezinin listesinde üç şehir var( ) Sivas, Tokat ve Amasya( ) Sen hangisini daha çok merak ediyorsun( ) Bu meti… | ✓(:) (.) (?)
+tur-nk-202 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde noktalı virgülün kullanımı yanlıştır? | ✓Kardeşim; bu sabah okula yine geç kaldı.
+tur-nk-203 | T.8.4.16 | z2 | k2 | (I) Gezimizi sınıf öğretmenimiz Aylin Hanım’la birlikte planlamıştık. (II) Otobüsümüz sabah erkenden yola çıktı ve öğleye doğru N… | ✓IV
+tur-nk-204 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde kısa çizginin kullanımı yanlıştır? | ✓Mahalledeki parka üç-beş çocuk gelmişti.
+tur-nk-205 | T.8.4.16 | z2 | k2 | Akşam balkonda oturuyorduk. “Ne kadar güzel bir gün batımı( )” dedi annem. Sonra bana dönüp sordu: “Fotoğrafını çekmek ister misi… | ✓(!) (?)
+tur-nk-206 | T.8.4.16 | z2 | k2 | Geçen yaz arkadaşlarım denize girerken ben hep kıyıda oturdum. Bu yıl kararımı verdim: Bu yaz yüzme öğreneceğim. Bu metinde iki n… | ✓Kendisinden sonra açıklama yapılacağını göst…
+tur-nk-207 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde virgülün kullanımı yanlıştır? | ✓Kapıyı açınca, içeriye serin bir rüzgâr dold…
+tur-nk-208 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır? | ✓Sınıfça “Yıldızların Sırrı”’nı izlemeye kara…
+tur-nk-209 | T.8.4.16 | z2 | k2 | Müzede sergilenen el yazması kitabın 1640 ( ) yılında yazıldığı düşünülüyor. Kitabın hiçbir sayfasında tarih bulunmadığı için uzm… | ✓(?)
+tur-nk-210 | T.8.4.16 | z2 | k2 | Aşağıdakilerin hangisinde noktalama yanlışı vardır? | ✓“— Yarın erken kalkmamız gerekiyor.” dedi ba…
+tur-nk-211 | T.8.4.16 | z2 | k2 | Çocuklar, bu hafta sonu mahallede kitap, oyuncak ve kıyafet toplayacağız. Bu cümlede kullanılan virgüllerin görevleri sırasıyla a… | ✓Hitap sözünden sonra gelme / Eş görevli sözc…
+tur-nk-212 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde kesme işaretinin kullanımı yanlıştır? | ✓Sınıfımızda üç Ankara’lı öğrenci var.
+tur-nk-213 | T.8.4.16 | z2 | k2 | Aşağıdaki cümlelerin hangisinde soru işaretinin kullanımı yanlıştır? | ✓Arkadaşının neden gelmediğini merak ediyorum?
+tur-nk-214 | T.8.4.16 | z3 | k2 | Bilim kulübünün panoya astığı duyuru şöyledir: (I) Okulumuzun bilim kulübü bu yıl ilk kez bir gökyüzü gözlem gecesi düzenliyor. (… | ✓III
+tur-nk-215 | T.8.4.16 | z3 | k2 | Kasabamızda her sabah aynı düzen sürer( ) fırıncı dükkânını açar, balıkçılar teknelerini suya iter, çocuklar okul yoluna dökülür.… | ✓(:) (:) (?) (,)
+tur-nk-216 | T.8.4.16 | z3 | k2 | Sevgili Defne, Mektubunda yeni mahallemizi merak ettiğini yazmıştın. (I) Taşındığımız evin bahçesinde elma, armut ve ayva ağaçlar… | ✓II
+tur-nk-217 | T.8.4.16 | z3 | k2 | Tiyatro kulübünün ilk toplantısında öğretmenimiz bize geçen yılki gösteride yaşadığımız olayı hatırlattı. O akşam perdenin açılma… | ✓Alıntı yapılan bir sözden atlanan bölümü gös…
+tur-nk-218 | T.8.4.16 | z3 | k2 | Mahallemizin en eski dükkânı saatçi Nuri Bey’inkidir (dedemin anlattığına göre dükkân 1950’lerde açılmış). Nuri Bey vitrindeki sa… | ✓Tırnak işareti, bir sözü özel olarak vurgula…
+tur-nk-219 | T.8.4.16 | z3 | k2 | (I) Kütüphanede bulduğum eski defterin sayfalarını çevirdim mi aralarından kurumuş yapraklar dökülürdü? (II) İlk sayfada kurşun k… | ✓I
+tur-nk-220 | T.8.4.16 | z3 | k2 | Okul panosundaki duyuru: Bilim Günleri 3( )5 Mayıs tarihlerinde okulumuzun spor salonunda yapılacak. İlk gün robotik, kodlama, uz… | ✓(-) (;) (:) (.)
+tur-nk-221 | T.8.4.16 | z3 | k2 | Durakta beklerken yaşlı bir adam yanıma yaklaştı: (I) — Evladım, Saat Kulesi’ne giden otobüs buradan geçer mi? (II) — Evet, on da… | ✓II
+tur-nk-222 | T.8.4.16 | z3 | k2 | (I) Kasaba müzemizin en kalabalık salonu yöremizin ilk kadın ressamı Leyla Aras’a ayrılmış. (II) Girişteki levhada ressamın doğdu… | ✓III
+tur-nk-223 | T.8.4.16 | z3 | k2 | Dedemin bahçesindeki kuyu -köyde hâlâ su veren tek kuyu- bu yaz yeniden onarıldı. Bu cümlede kısa çizgiler bir sözü iki yanından … | ✓Okulumuzun en yaşlı ağacı, bahçenin köşesind…
+tur-nk-224 | T.8.4.16 | z3 | k2 | Okul gazetemizde çıkan habere göre kitap kampanyamız sona erdi: (I) Kampanyaya en çok kitabı bu yıl da 6.’ncı sınıflar getirdi. (… | ✓I
+tur-nk-225 | T.8.4.16 | z3 | k2 | Geçen hafta sonu ailecek göl kıyısında kamp yaptık. (I) Sabah erkenden yola çıktık, öğlene doğru göle vardık. (II) Babam çadırı, … | ✓II
+tur-nk-301 | T.8.4.16 | z3 | k3 | Okulun gezi kulübü başkanı, kulübün mesaj grubuna şu notu yazdı: (I) Arkadaşlar, cuma günkü toplantımızı bir hafta sonraya ertele… | ✓III
+tur-nk-302 | T.8.4.16 | z3 | k3 | Deniz, arkadaşının bir sinema teklifine şöyle cevap verdi: "Hayır, bu akşam dışarı çıkmayacağız." Öğretmen, bu cümledeki virgülün… | ✓Tamam, afişleri okul panosuna ben asarım.
+tur-nk-303 | T.8.4.16 | z3 | k3 | Otobüs durağında yanımda bekleyen yaşlı adam önce saatine, sonra yolun sonuna baktı( ) otobüs hâlâ görünmüyordu. Kendi kendine sö… | ✓(;) (…) (:)
+tur-nk-304 | T.8.4.16 | z3 | k3 | Bir ilçenin kitap şenliği afişinde şu metin yer alıyor: KİTAP ŞENLİĞİ BAŞLIYOR Yeşilvadi Belediyesinin (I) düzenlediği kitap şenl… | ✓II
+tur-nk-305 | T.8.4.16 | z3 | k3 | İzci grubunun rehber öğretmeni, hafta sonu kampı için velilere şu notu gönderdi: Kampa gelirken çocuklarınızın yanında şunlar ols… | ✓(:) (;) (.)
+tur-nk-306 | T.8.4.16 | z3 | k3 | Selin, ödevi için ilçe kütüphanesini aradı. Görevliyle yaptığı kısa konuşmayı defterine şöyle yazdı: (I) — Kütüphane akşam kaçta … | ✓IV
+tur-nk-307 | T.8.4.16 | z3 | k3 | Okuma kulübünün bu ayki toplantısından sonra kulüp defterine şu cümleler yazıldı: (I) Kulübümüz bu ay “Rüzgârın Getirdiği Mektup”… | ✓I
+tur-nk-308 | T.8.4.16 | z3 | k3 | Bir gazete haberinde şu cümle geçiyor: "İzmir-Ankara seferi, sisli hava yüzünden iki saat gecikmeyle yola çıktı." Aşağıdaki cümle… | ✓Ablam 2019-2023 yıllarında bu okulda okudu.
+tur-nk-309 | T.8.4.16 | z3 | k3 | Türkçe öğretmeni tahtaya dört cümle yazdı ve öğrencilerden cümlelerin sonundaki işaretleri kontrol etmelerini istedi: (I) Güneş b… | ✓I
+tur-nk-310 | T.8.4.16 | z3 | k3 | Bir öğrenci, noktalı virgül çalışırken defterine şu cümleleri yazdı: (I) Bahçede elma, armut, ayva; tarlada buğday, arpa, mısır y… | ✓IV
+tur-nk-311 | T.8.4.16 | z3 | k3 | Bir okulun panosunda şu afiş asılı: SATRANÇ TURNUVASI (I) Akçay'da satranç heyecanı bu yıl 3'üncü kez yaşanıyor. (II) Tarih: 18/0… | ✓III
+tur-nk-312 | T.8.4.16 | z3 | k3 | Bir öğrenci, günlüğünün bir sayfasını şöyle doldurdu: (I) Hava kararınca köyün yolları, bahçeleri, avluları sessizliğe gömüldü. (… | ✓II
+tur-nk-313 | T.8.4.16 | z3 | k3 | Yay ayraç yalnızca açıklama eklemek için kullanılmaz; içine konan bir işaretle cümleye yeni bir anlam da katabilir. Örneğin yazar… | ✓Bütün gün uyuyan kedimiz çok çalışkan (!) bi…
+tur-nk-314 | T.8.4.16 | z3 | k3 | Bir öğrenci, yaz tatilinde katıldığı gönüllü çalışmayı anlatan yazısında şu cümleleri kullandı: (I) Bu yaz Türkçe'yi yabancılara … | ✓I
+tur-nk-315 | T.8.4.16 | z3 | k3 | Okulun edebiyat kulübü panoya şu duyuruyu astı: Kulübümüzün şiir dinletisi 12/(I)03/2027 tarihinde yapılacak. Dinleti, kulüp üyem… | ✓IV – bina ve daire numarasını ayırma
+tur-nk-316 | T.8.4.16 | z4 | k3 | Dedemin çiftliğine vardığımızda güneş batmak üzereydi( ) Uzun yolculuktan sonra hepimizin yüzünde yorgunluk vardı ama çiftliğin k… | ✓(.) (:) (?) (,)
+tur-nk-317 | T.8.4.16 | z4 | k3 | Okul gazetesinin son sayısında şu yazı yer aldı: Sevgili okurlar,(I) bu sayımızda size küçük bir kasabanın büyük hikâyesini anlat… | ✓I ve IV
+tur-nk-318 | T.8.4.16 | z4 | k3 | Kardeşim odasını topladığını söyleyince kontrol etmeye gittim. Kapıyı açtığımda gördüğüm manzarayı kısaca anlatayım( ) Yatağın üs… | ✓(:) (.) (,) (?)
+tur-nk-319 | T.8.4.16 | z4 | k3 | Türkçe dersinde öğretmenimiz derse “Denizi Seven Çocuk”(I) adlı öyküyle başladı. Öyküyü okuduktan sonra kitabı masaya bıraktı ve … | ✓I ve IV
+tur-nk-320 | T.8.4.16 | z4 | k3 | Otobüs terminalinde bilet kuyruğu uzadıkça uzuyordu. Sıra bize geldiğinde görevli başını ekrandan kaldırdı. — Kaç kişisiniz( ) Ba… | ✓(?) (,) (,) (?)
+tur-nk-321 | T.8.4.16 | z4 | k3 | Bir öğrenci, dedesinin köyündeki eski çeşmeyi anlattığı yazısını arkadaşına okuttu. Arkadaşı, yazıdaki dört cümlenin altını çizip… | ✓IV
+tur-nk-322 | T.8.4.16 | z4 | k3 | Sevgili Defne, Tatilde okumak için üç kitap seçmiştim( ) bir macera romanı, bir gezi kitabı ve bir şiir kitabı. Macera romanını, … | ✓(:) (;) (…) (?)
+tur-nk-323 | T.8.4.16 | z4 | k3 | Kış tatilinde Kars-(I)Erzurum demir yolu hattında yolculuk yaptık. Tren yola çıktığında istasyondaki termometre -(II)12 °C göster… | ✓I ve IV
+tur-nk-324 | T.8.4.16 | z4 | k3 | Sınıf başkanı, sınıfın mesaj grubuna şu duyuruyu yazdı: Sevgili arkadaşlar( ) bu cumartesi sınıfça okulun arka bahçesine fidan di… | ✓(,) (!) (;) (?)
+tur-nk-325 | T.8.4.16 | z4 | k3 | Bilim kulübü öğretmeni, kulüp üyelerine şu e-postayı gönderdi: Merhaba,(I) Bu yılki bilim gezimiz 22-(II)24 Nisan tarihlerinde ya… | ✓III
+tur-nk-001 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinin sonuna soru işareti konmalıdır? | ✓Bu kitabı daha önce okudun mu
+tur-nk-002 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır? | ✓Sınıfımızdaki Ankaralı'lar öne geçti.
+tur-nk-003 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinde virgül yanlış kullanılmıştır? | ✓Hava güzel olursa, pikniğe gideriz.
+tur-nk-004 | T.8.4.16 | z2 | k0 | Sınava girecek öğrencilere şu hatırlatma yapıldı: "Sınav salonuna girmeden önce şunları yanınıza almayı unutmayın( ) kimlik kartı… | ✓(:) (.)
+tur-nk-005 | T.8.4.16 | z2 | k0 | Tırnak işareti bir cümlede farklı amaçlarla kullanılabilir: başkasının sözünü aktarmak, bir sözü vurgulamak ya da bir eserin adın… | ✓Bu yaz “Kayıp Deniz Feneri” adlı romanı okud…
+tur-nk-006 | T.8.4.16 | z2 | k0 | Nokta yalnızca cümle sonunda kullanılmaz; kısaltmalarda, tarihlerde, saatlerde ve sıra bildiren sayılarda da karşımıza çıkar. Aşa… | ✓Resim yarışmasında 2. olan takım madalya ald…
+tur-nk-007 | T.8.4.16 | z2 | k0 | Noktalı virgül, içinde virgül bulunan sıralı cümleleri ya da virgülle ayrılmış grupları birbirinden ayırmak için kullanılır. Aşağ… | ✓Dedem çayı, simidi, peyniri sever; ninem ise…
+tur-nk-008 | T.8.4.16 | z2 | k0 | Evden çıkıp kapıyı çektikten sonra ceplerimi yokladım ve bir anda durdum: "Eyvah( ) Anahtarı içeride unuttum( )" Bu sözde yay ayr… | ✓(!) (.)
+tur-nk-009 | T.8.4.16 | z3 | k0 | Bir öğrenci, ailesini tanıttığı kompozisyonunda şu cümleleri yazdı: (I) Kardeşim 2021'de ilkokula başladı ve şimdi okumayı çok se… | ✓II
+tur-nk-010 | T.8.4.16 | z3 | k0 | Hafta sonu alışverişinden dönünce mutfakta küçük bir sorunla karşılaştık. Annem pazardan sebze, meyve, peynir almış( ) babam ise … | ✓(;) (.) (:)
+tur-nk-011 | T.8.4.16 | z3 | k0 | Bazen bir cümlenin ortasına, cümlede anlatılan kişi ya da şey hakkında ek bilgi veren bir söz eklenir. Bu söz çıkarıldığında cüml… | ✓Komşumuz, emekli bir öğretmen, her sabah çoc…
+tur-nk-012 | T.8.4.16 | z3 | k0 | Yıllar sonra teyzesini ziyarete giden bir öğrenci, o günü günlüğüne şöyle anlattı: (I) Kapıyı açan teyzem beni görünce şaşırdı: “… | ✓IV
+tur-nk-013 | T.8.4.16 | z4 | k0 | Mahalle kütüphanesinin kapısına küçük bir not asılmıştı( ) “Ödünç aldığınız kitapları geri getirdiniz mi( )” Notun altına biri ku… | ✓(:) (?) (:) (,)
+tur-nk-014 | T.8.4.16 | z4 | k0 | Geçen yaz ailecek Van'a(I) gittik. Gölün kıyısında 1970'lerde(II) yapılmış küçük bir otelde kaldık. Otelin sahibi, binanın bir dö… | ✓II ve IV
+tur-nk-015 | T.8.4.16 | z4 | k0 | Sınıfça bir bilim fuarı hazırlayan öğrenciler, fuardan sonra okul gazetesine bir yazı gönderdi. Gazetenin editörü yazıdaki dört c… | ✓II
