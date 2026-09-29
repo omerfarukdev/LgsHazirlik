@@ -578,3 +578,16 @@ sup, sub { font-size: .72em; line-height: 0; }
 .yk-ic { padding: 16px 18px 18px; }
 .yk-ic .soru-metin { margin-bottom: 12px; }
 .bolum .cip-btn { margin-left: 10px; vertical-align: 3px; font-weight: 600; }
+
+/* ================= Günün iki işi: paragraf + konu testi ================= */
+.gunun-isleri { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 16px; margin-top: 16px; }
+.gunun-isleri > .kart { margin-top: 0; }
+.gunun-isleri .tk-ic { height: 100%; }
+.konu-gun-kart {
+  padding: 20px 24px;
+  background: linear-gradient(120deg, color-mix(in srgb, var(--ders, var(--vurgu)) 12%, var(--kart)), var(--kart));
+  border-color: color-mix(in srgb, var(--ders, var(--vurgu)) 45%, var(--cizgi));
+}
+.konu-gun-kart .tk-ust { color: var(--ders, var(--vurgu)); }
+.konu-gun-kart.tamam { background: var(--kart); }
+@media (max-width: 620px) { .gunun-isleri { grid-template-columns: 1fr; } }

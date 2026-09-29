@@ -426,6 +426,11 @@ var App = (function () {
     var tekrarIds = aktif ? [] : tekrarSorulari(10);
     var yanlisSay = bekleyenYanlislar().length;
     var sira = aktif ? null : siradakiTest();
+    // Bugünün konu testi paragraf kartının yanında ayrı kart olarak durur; o gün konu testi çözüldüyse
+    // kart "tamam" der ve üstteki alan eskisi gibi sıradaki adımı gösterir.
+    var gkt = aktif ? null : gununKonuTesti();
+    var bugunKonu = bugunKonuTestleri();
+    if (gkt && !bugunKonu.length) sira = null;
     if (aktif) {
       var ak = KONU[aktif.konu];
       html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' +
@@ -440,6 +445,9 @@ var App = (function () {
         '<button class="btn gunes" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
     }
     html += '</div></section>';
+
+    // Günün iki işi yan yana: paragraf turu ve konu testi
+    html += '<div class="gunun-isleri">';
 
     // Günlük paragraf rutini: her gün açık, konu testlerinden bağımsız, hedefe kadar tur tur
     var pIds = aktif ? [] : paragrafSorulari(paragrafSet());
@@ -465,6 +473,23 @@ var App = (function () {
         '</div><button class="btn ' + (bitti ? "" : "gunes") + '" onclick="App.paragrafBaslat()">' +
         (bitti ? "Devam et" : pBugun ? "Sonraki tur →" : "Başla →") + '</button></div></section>';
     }
+
+    // Bugünün konu testi
+    if (gkt) {
+      var gktSoru = kademeSorulari(gkt.konu.id, gkt.k);
+      var gktTamam = bugunKonu.length > 0;
+      html += '<section class="kart konu-gun-kart ders-' + gkt.ders.id + (gktTamam ? " tamam" : "") + '"><div class="tk-ic">' +
+        '<div class="tk-yazi"><span class="tk-ust">Bugünün konu testi</span>' +
+        (gktTamam
+          ? '<h2>Bugün ' + bugunKonu.length + ' konu testi çözdün ✓</h2><p class="soluk">Sıradaki: ' + esc(gkt.konu.ad) + " · " + KADEMELER[gkt.k].ad +
+            '. İstersen devam edebilirsin; yarına da bırakabilirsin.</p>'
+          : '<h2>' + esc(gkt.konu.ad) + '</h2><p class="soluk">' + esc(gkt.ders.ad) + " · " + gkt.k + ". kademe · " + KADEMELER[gkt.k].ad + " · " +
+            gktSoru.length + " soru · yaklaşık " + Math.round(onerilenSure(gktSoru) / 60) + " dk. " +
+            "Okulda işlediğin bir konu. Paragraf turundan sonra bunu çöz; paragraf okumayı, konu testi dersleri güçlendirir.</p>") +
+        '</div><button class="btn ' + (gktTamam ? "" : "gunes") + '" onclick="App.git(\'#/hazir/' + gkt.konu.id + "/" + gkt.k + '\')">' +
+        (gktTamam ? "Devam et" : "Başla →") + '</button></div></section>';
+    }
+    html += '</div>';
 
     // Tekrar testi: uygulama kendisi hazırlar, zamanı gelince burada belirir
     if (tekrarIds.length >= 5) {
@@ -561,6 +586,60 @@ var App = (function () {
   function okuldaBuHafta(dersId) {
     var h = buHafta();
     return (h && h.konu && h.konu[dersId]) || null;
+  }
+
+  // ================= Bugünün konu testi =================
+  // Öğrenci her gün paragraf turunu çözüp konu testlerine hiç geçmiyordu (20-29 Eylül 2026: 9 testin
+  // 9'u paragraf). Ana sayfada paragraf kartının yanında ve paragraf/tekrar sonucunda "bugünün konu testi"
+  // gösterilir: okulda işlenmiş konulardan, en uzun süredir konu testi çözülmemiş dersin sıradaki kademesi.
+  // Böylece dersler sırayla döner; her gün aynı ders gelmez.
+  function okuldaIslenen() {
+    var h = buHafta(), liste = [], gor = {};
+    if (!h) return liste;
+    (window.LGS_TAKVIM || []).forEach(function (x) {
+      if (x.no > h.no || x.tatil || !x.konu) return;
+      Object.keys(x.konu).forEach(function (d) {
+        var k = x.konu[d];
+        if (k && !gor[k]) { gor[k] = 1; liste.push(k); }
+      });
+    });
+    return liste;
+  }
+  // Günlük konu testi sırası LGS'de ağırlığı yüksek dersler arasında döner (Din ve İngilizce üretimi
+  // abinin talimatıyla durduruldu, katsayıları da 1; o dersler ders ekranından çözülmeye devam eder).
+  var GUNLUK_DERSLER = ["turkce", "matematik", "fen", "inkilap"];
+  function acikKademe(konuId) {
+    var durum = konuDurum(konuId);
+    for (var k = 1; k <= 3; k++) {
+      if (!kademeSorulari(konuId, k).length) continue;
+      var gecti = durum.k[k] && durum.k[k].enIyi >= AYAR.gecmeEsigi;
+      if (!gecti && kademeAcik(konuId, k)) return k;
+    }
+    return 0;
+  }
+  function gununKonuTesti() {
+    var son = {};
+    Store.get("gecmis", []).forEach(function (g) { if (g.tur === "konu" && g.ders) son[g.ders] = Math.max(son[g.ders] || 0, g.ts); });
+    var aday = [], dersAlindi = {};
+    okuldaIslenen().forEach(function (konuId, sira) {
+      var kb = KONU[konuId];
+      if (!kb || kb.konu.rutin || !bank(konuId).length || dersAlindi[kb.ders.id]) return;
+      if (GUNLUK_DERSLER.indexOf(kb.ders.id) === -1) return; // Din/İngilizce günlük sıraya girmez; ders ekranından çözülür
+      var k = acikKademe(konuId);
+      if (!k) return;
+      dersAlindi[kb.ders.id] = 1; // her dersten takvimde en eski açık konu
+      aday.push({ ders: kb.ders, konu: kb.konu, k: k, son: son[kb.ders.id] || 0, sira: sira });
+    });
+    aday.sort(function (a, b) { return a.son - b.son || a.sira - b.sira; });
+    return aday[0] || siradakiTest();
+  }
+  function bugunKonuTestleri() {
+    var bugun = tarihKey(new Date());
+    return Store.get("gecmis", []).filter(function (g) { return g.tur === "konu" && tarihKey(new Date(g.ts)) === bugun; });
+  }
+  function konuTestiDugmesi(t, birincil) {
+    return '<button class="btn' + (birincil ? " birincil" : "") + '" onclick="App.git(\'#/hazir/' + t.konu.id + "/" + t.k + '\')">' +
+      "Sıradaki: " + esc(t.konu.ad) + " · " + KADEMELER[t.k].ad + " →</button>";
   }
 
   // Soruları hazır konular arasında, açık olup henüz geçilmemiş ilk kademe
@@ -1500,6 +1579,8 @@ var App = (function () {
   // Tekrar testinin sonucu: konu/kademe yoktur, sorular karışık gelir
   function tekrarSonucu(kayit, n) {
     var pg = kayit.tur === "paragraf";
+    // Paragraf ve tekrar turundan sonra, o gün konu testi çözülmediyse asıl düğme sıradaki konu testidir
+    var sonrakiKonu = (pg || kayit.tur === "tekrar") && !bugunKonuTestleri().length ? gununKonuTesti() : null;
     var sinif = oranSinif(kayit.oran);
     // Düşük sonuçta "acele ettin" demeden önce süreye bak: öğrenci hedef süreyi büyük ölçüde
     // kullandıysa sorun hız değildir, yanlış teşhis haksızlık olur.
@@ -1529,9 +1610,10 @@ var App = (function () {
       '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
       ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
       ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
-      '<div class="sonuc-btn">' + (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
+      '<div class="sonuc-btn">' + (sonrakiKonu ? konuTestiDugmesi(sonrakiKonu, true) : "") +
+      (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
       zayifButon(kayit) +
-      '<button class="btn birincil" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
+      '<button class="btn' + (sonrakiKonu ? "" : " birincil") + '" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
 
     if (pg) html += tuzakOzeti(kayit);
     if (kayit.tur === "unite" || kayit.tur === "aylik" || kayit.tur === "tekrar") html += dagilimTablosu(kayit);
