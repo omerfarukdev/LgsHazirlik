@@ -18,5 +18,7 @@ window.LGS_HAP_LISTE = [
   "sozel-mantik.js",
   "gorsel-grafik-okuma.js",
   "yazim-kurallari.js",
-  "noktalama.js"
+  "noktalama.js",
+  "mutasyon-modifikasyon.js",
+  "veri-analizi.js"
 ];

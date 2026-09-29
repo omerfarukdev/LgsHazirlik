@@ -76,5 +76,10 @@ window.LGS_MANIFEST = [
   "tur-yazim-kurallari-2.js",
   "tur-noktalama-1.js",
   "tur-noktalama-2.js",
-  "tur-paragrafta-anlam-30.js"
+  "tur-paragrafta-anlam-30.js",
+  "fen-mutasyon-modifikasyon-1.js",
+  "fen-mutasyon-modifikasyon-2.js",
+  "mat-veri-analizi-1.js",
+  "mat-veri-analizi-2.js",
+  "tur-paragrafta-anlam-31.js"
 ];
