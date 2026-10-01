@@ -5,7 +5,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 /* ===================== KADEME 1 — KAVRAMA ===================== */
 {
   id: "din-u1-101",
-  kazanim: "8.1.1",
+  kazanim: "DKAB.8.1.1",
   kademe: 1,
   zorluk: 1,
   soru: `Fen dersinde suyun deniz seviyesinde her zaman 100 °C'de kaynadığını öğrenen Yusuf, din dersinde bu değişmez düzenin bir kavramla açıklandığını görmüştür.
@@ -28,7 +28,7 @@ Cevap A.`
 },
 {
   id: "din-u1-102",
-  kazanim: "8.1.1",
+  kazanim: "DKAB.8.1.1",
   kademe: 1,
   zorluk: 1,
   soru: `Din dersinde öğretmen tahtaya "kader" ve "kaza" sözcüklerini yazmış, öğrencilerden aralarındaki farkı açıklamalarını istemiştir.
@@ -57,7 +57,7 @@ Cevap C.`
 },
 {
   id: "din-u1-103",
-  kazanim: "8.1.2",
+  kazanim: "DKAB.8.1.2",
   kademe: 1,
   zorluk: 1,
   soru: `Din dersinde öğretmen, insanın kendi seçimine bırakılan durumlarla bırakılmayan durumları ayırt etmelerini istemiştir.
@@ -85,7 +85,7 @@ Cevap B.`
 },
 {
   id: "din-u1-104",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 1,
   zorluk: 1,
   soru: `Sınavı yaklaşan Bilge, arkadaşlarına "Ben tevekkül ediyorum." demiştir.
@@ -114,7 +114,7 @@ Cevap D.`
 },
 {
   id: "din-u1-105",
-  kazanim: "8.1.4",
+  kazanim: "DKAB.8.1.4",
   kademe: 1,
   zorluk: 1,
   soru: `Sınav sonucu açıklandığında hedeflediği puana ulaşamayan Kaan, arkadaşlarına bir şeyler söylemiştir.
@@ -143,7 +143,7 @@ Cevap A.`
 },
 {
   id: "din-u1-106",
-  kazanim: "8.1.1",
+  kazanim: "DKAB.8.1.1",
   kademe: 1,
   zorluk: 2,
   soru: `Din dersinde öğretmen, "Allah'ın evrene koyduğu değişmez yasalara sünnetullah denir." demiş ve öğrencilerden günlük hayattan örnek vermelerini istemiştir. Öğrencilerin verdiği örnekler tabloda gösterilmiştir.
@@ -167,7 +167,7 @@ Cevap B.`
 },
 {
   id: "din-u1-107",
-  kazanim: "8.1.2",
+  kazanim: "DKAB.8.1.2",
   kademe: 1,
   zorluk: 2,
   soru: `Akşam sofrasında Emir babasına, "Her şeyi Allah yarattığına göre benim yaptıklarımda benim payım ne?" diye sormuştur. Babası şöyle cevap vermiştir:
@@ -197,7 +197,7 @@ Cevap C.`
 },
 {
   id: "din-u1-108",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 1,
   zorluk: 2,
   soru: `Dedesiyle pazara giden Mert, sabahın erken saatinde tezgâh kurup mallarını dizen satıcıları izlemiştir. Dedesi ona şu hadis mealini okumuştur:
@@ -227,7 +227,7 @@ Cevap D.`
 },
 {
   id: "din-u1-109",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 1,
   zorluk: 2,
   soru: `Ninesinin doksanıncı yaş gününü kutlayan Ceren, "Ninem çok uzun yaşamış." demiştir. Annesi ona, ömür ile ecel kavramlarının birbirinden farklı şeyleri anlattığını söylemiştir.
@@ -256,7 +256,7 @@ Cevap A.`
 },
 {
   id: "din-u1-110",
-  kazanim: "8.1.4",
+  kazanim: "DKAB.8.1.4",
   kademe: 1,
   zorluk: 2,
   soru: `Bir inşaatta çalışan Rıza Usta, yukarıdan düşen bir tuğla nedeniyle başından yaralanmıştır. İş yerinde kaza günü güvenlik tedbirlerinin durumu tabloda verilmiştir. Kazadan sonra şantiye sorumlusu, "Kaderinde varmış, elden ne gelirdi?" demiştir.
@@ -287,7 +287,7 @@ Cevap B.`
 /* ===================== KADEME 2 — PEKİŞTİRME ===================== */
 {
   id: "din-u1-201",
-  kazanim: "8.1.1",
+  kazanim: "DKAB.8.1.1",
   kademe: 2,
   zorluk: 2,
   soru: `Din dersinde öğretmen, sınıf panosuna aşağıdaki ayet meallerini asmıştır.
@@ -316,7 +316,7 @@ Cevap D.`
 },
 {
   id: "din-u1-202",
-  kazanim: "8.1.2",
+  kazanim: "DKAB.8.1.2",
   kademe: 2,
   zorluk: 2,
   soru: `Din dersinde öğretmen, insanın sorumluluğunu anlatırken şu ayet mealini okumuştur:
@@ -344,7 +344,7 @@ Cevap C.`
 },
 {
   id: "din-u1-203",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 2,
   zorluk: 2,
   soru: `Okulun basketbol takımına seçilme denemesinde Doruk takıma alınmamış, arkadaşı Eren alınmıştır. Doruk, "Benim şansım hiç yaver gitmiyor." demiştir. Antrenörü ise ona iki oyuncunun son dört haftadaki antrenman sürelerini gösteren grafiği göstermiştir.
@@ -373,7 +373,7 @@ Cevap A.`
 },
 {
   id: "din-u1-204",
-  kazanim: "8.1.4",
+  kazanim: "DKAB.8.1.4",
   kademe: 2,
   zorluk: 2,
   soru: `Elif'in iş görüşmesinden olumsuz haberle dönen teyzesi ile babaannesinin akşam yaptığı konuşmadan bir bölüm tabloda verilmiştir.
@@ -403,7 +403,7 @@ Cevap B.`
 },
 {
   id: "din-u1-205",
-  kazanim: "8.1.6",
+  kazanim: "DKAB.8.1.6",
   kademe: 2,
   zorluk: 2,
   soru: `Yatmadan önce Ayet el-Kürsi'yi okuyan ninesine Selin, "Bu ayette ne anlatılıyor?" diye sormuştur. Ninesi ayetin mealinden şu bölümü okumuştur:
@@ -433,7 +433,7 @@ Cevap C.`
 },
 {
   id: "din-u1-206",
-  kazanim: "8.1.2",
+  kazanim: "DKAB.8.1.2",
   kademe: 2,
   zorluk: 3,
   soru: `8-B sınıfında "Yaptıklarımızdan neden sorumluyuz?" sorusu tartışılmıştır. Öğrencilerin söyledikleri tabloda verilmiştir.
@@ -458,7 +458,7 @@ Cevap B.`
 },
 {
   id: "din-u1-207",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 2,
   zorluk: 2,
   soru: `Hafta sonu kamp yapan bir aile, çadırı kurduktan sonra iplerini gerdirip kazıklarını iyice çakmıştır. Küçük kardeş, "Allah korusun deyip bıraksak olmaz mıydı?" diye sormuştur. Babası ona şu olayı anlatmıştır:
@@ -486,7 +486,7 @@ Cevap D.`
 },
 {
   id: "din-u1-208",
-  kazanim: "8.1.4",
+  kazanim: "DKAB.8.1.4",
   kademe: 2,
   zorluk: 3,
   soru: `Zeynep'in şeker hastası olan dedesi, hekiminin verdiği beslenme listesine temmuz ayından sonra uymayı bırakmış ve "Hastalık Allah'tan; ne yapsam sonuç değişmez." demiştir. Zeynep, dedesinin altı aylık açlık kan şekeri ölçümlerini bir grafiğe dökmüştür.
@@ -514,7 +514,7 @@ Cevap B.`
 },
 {
   id: "din-u1-209",
-  kazanim: "8.1.2",
+  kazanim: "DKAB.8.1.2",
   kademe: 2,
   zorluk: 3,
   soru: `Din dersinde bir öğrenci, "Allah olacakları önceden biliyorsa ben nasıl özgür olabilirim?" diye sormuştur. Öğretmeni şöyle cevap vermiştir:
@@ -544,7 +544,7 @@ Cevap D.`
 },
 {
   id: "din-u1-210",
-  kazanim: "8.1.3",
+  kazanim: "DKAB.8.1.3",
   kademe: 2,
   zorluk: 3,
   soru: `Yaz tatilinde amcasının manavında çalışan Yiğit, kazandığı parayla kendine bir bisiklet almıştır. Akşam yemeğinde amcası ona şöyle demiştir:

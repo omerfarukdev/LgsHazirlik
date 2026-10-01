@@ -605,9 +605,9 @@ var App = (function () {
     });
     return liste;
   }
-  // Günlük konu testi sırası LGS'de ağırlığı yüksek dersler arasında döner (Din ve İngilizce üretimi
-  // abinin talimatıyla durduruldu, katsayıları da 1; o dersler ders ekranından çözülmeye devam eder).
-  var GUNLUK_DERSLER = ["turkce", "matematik", "fen", "inkilap"];
+  // Günlük konu testi sırası bu dersler arasında döner. İngilizce üretimi abinin talimatıyla durduruldu;
+  // ders ekranından çözülmeye devam eder. Din 1 Ekim 2026'da yeniden açıldı ve sıraya girdi.
+  var GUNLUK_DERSLER = ["turkce", "matematik", "fen", "inkilap", "din"];
   function acikKademe(konuId) {
     var durum = konuDurum(konuId);
     for (var k = 1; k <= 3; k++) {
@@ -624,7 +624,7 @@ var App = (function () {
     okuldaIslenen().forEach(function (konuId, sira) {
       var kb = KONU[konuId];
       if (!kb || kb.konu.rutin || !bank(konuId).length || dersAlindi[kb.ders.id]) return;
-      if (GUNLUK_DERSLER.indexOf(kb.ders.id) === -1) return; // Din/İngilizce günlük sıraya girmez; ders ekranından çözülür
+      if (GUNLUK_DERSLER.indexOf(kb.ders.id) === -1) return; // İngilizce günlük sıraya girmez; ders ekranından çözülür
       var k = acikKademe(konuId);
       if (!k) return;
       dersAlindi[kb.ders.id] = 1; // her dersten takvimde en eski açık konu
