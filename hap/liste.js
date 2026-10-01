@@ -21,5 +21,6 @@ window.LGS_HAP_LISTE = [
   "noktalama.js",
   "mutasyon-modifikasyon.js",
   "veri-analizi.js",
-  "kati-basinci.js"
+  "kati-basinci.js",
+  "biyoteknoloji.js"
 ];
