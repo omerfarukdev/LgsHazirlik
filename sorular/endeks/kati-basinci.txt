@@ -1,0 +1,90 @@
+fen-kb-101 | F.8.3.1.1 | z1 | k1 | Basıncın birimi aşağıdakilerden hangisidir? | ✓Pascal
+fen-kb-102 | F.8.3.1.1 | z1 | k1 | Katı bir cismin bulunduğu yüzeye uyguladığı basıncı etkileyen iki değişken aşağıdakilerin hangisinde birlikte verilmiştir? | ✓Cismin ağırlığı ve temas alanı
+fen-kb-103 | F.8.3.1.3 | z1 | k1 | Karlı dağlarda yürüyüş yapanlar, botlarının altına geniş ve yassı kar ayakkabıları takar. Kar ayakkabısı takmanın amacı aşağıdaki… | ✓Temas alanını artırarak kara uygulanan basın…
+fen-kb-104 | F.8.3.1.3 | z1 | k1 | Aşağıdakilerin hangisinde basınç, temas alanı küçültülerek artırılmıştır? | ✓Dikiş iğnelerinin uçlarının sivri yapılması
+fen-kb-105 | F.8.3.1.1 | z1 | k1 | Özdeş üç tuğla, kum havuzuna görseldeki gibi farklı yüzeyleri üzerine konmuştur. Tuğlaların kuma değen yüzeylerinin alanları görs… | ✓M tuğlasının
+fen-kb-106 | F.8.3.1.1 | z1 | k1 | Bir yüzeyin birim alanına dik olarak etki eden kuvvete ne ad verilir? | ✓Basınç
+fen-kb-107 | F.8.3.1.1 | z1 | k1 | Mert, aynı plastik kovayı önce boşken, sonra taşla doldurarak kum havuzundaki aynı zemine koymuştur. Kovanın kumda bıraktığı izle… | ✓Ağırlık arttığı için basınç artmıştır.
+fen-kb-108 | F.8.3.1.3 | z1 | k1 | Keskin bir bıçak zamanla körelir. Körelmiş bir bıçakla domates kesmek, keskinken kesmekten daha zordur. Bunun nedeni aşağıdakiler… | ✓Bıçak körelince ağzı domatese daha geniş değ…
+fen-kb-109 | F.8.3.1.3 | z1 | k1 | Aynı çimenlikte ince topuklu ayakkabı giyen Selin'in topukları toprağa batarken, düz tabanlı ayakkabı giyen Nil'in ayakkabıları b… | ✓İnce topuğun temas alanı küçük olduğundan ba…
+fen-kb-110 | F.8.3.1.1 | z1 | k1 | Fen dersinde kum, un ve oyun hamuru gibi yumuşak zeminlerde cisimlerin bıraktığı izlerin derinliği ölçülür. Bu ölçümle aşağıdakil… | ✓Zemine uygulanan basınç
+fen-kb-111 | F.8.3.1.3 | z1 | k1 | Aynı ağırlıktaki iki sırt çantasından ince askılı olanı omuzları acıtırken geniş askılı olanı acıtmamaktadır. I. Geniş askı, omza… | ✓I, II ve III
+fen-kb-112 | F.8.3.1.1 | z1 | k1 | Ece, masanın üzerinde yatay duran kitabının masaya uyguladığı basıncı artırmak istemektedir. Ece aşağıdakilerden hangisini yapmal… | ✓Kitabın üzerine özdeş bir kitap daha koymalı…
+fen-kb-113 | F.8.3.1.3 | z2 | k1 | Ali, başparmağıyla bastırarak bir raptiyeyi mantar panoya batırmıştır. Raptiyenin geniş başı parmağına, sivri ucu panoya değmekte… | ✓I ve III
+fen-kb-114 | F.8.3.1.1 | z2 | k1 | Arda, katı bir cismin yüzeye temas alanının, cismin yüzeye uyguladığı basıncı etkileyip etkilemediğini test etmek istemektedir. A… | ✓Özdeş iki tuğladan birini geniş, diğerini da…
+fen-kb-115 | F.8.3.1.1 | z2 | k1 | Zeynep, özdeş üç tahta bloğu aynı yüzeyleri üzerine biri kuru kuma, biri una, biri ıslak kuma koymuş ve blokların bu zeminlerde b… | ✓Zeminin türü – İz derinliği – Blokların ağır…
+fen-kb-116 | F.8.3.1.1 | z2 | k1 | Deniz kenarındaki ıslak kumda duran Defne, önce iki ayağı üzerinde, sonra tek ayağı üzerinde durmuştur. Tek ayağı üzerinde dururk… | ✓I ve II
+fen-kb-117 | F.8.3.1.1 | z2 | k1 | Ela, karla kaplı düz bir bahçede kızağının üzerine tek başına oturmuş, kalktığında kızağın karda bıraktığı izlere bakmıştır. Sonr… | ✓Yalnız II
+fen-kb-118 | F.8.3.1.3 | z2 | k1 | Çiftçi Hasan, yağmurdan sonra yumuşayan tarlasında traktörünün arka tekerleklerinin yanına özdeş birer tekerlek daha takarak teke… | ✓Yalnız II
+fen-kb-119 | F.8.3.1.1 | z2 | k1 | Bir öğrenci, katı basıncının ağırlığa bağlı olup olmadığını test etmek için tablodaki cisimlerden ikisini aynı kum zemine koyacak… | ✓L ve N
+fen-kb-120 | F.8.3.1.3 | z2 | k1 | Canlıların vücut yapıları, yaşadıkları ortamda basınçtan yararlanmalarını ya da basıncın zararından korunmalarını sağlayabilir. I… | ✓II ve III
+fen-kb-121 | F.8.3.1.3 | z2 | k1 | Duvara çivi çakan Kerem, çekiçle aynı çivinin başına önce hafif, sonra daha güçlü vurmuştur. Güçlü vuruşta çivi duvara daha derin… | ✓Uç alanı değişmez, basınç artar.
+fen-kb-122 | F.8.3.1.1 | z2 | k1 | K ve L cisimleri aynı kum zemine konduğunda kumda eşit derinlikte iz bırakmıştır. Cisimlerin kuma değen yüzeylerinin alanları gör… | ✓K'nın ağırlığı L'ninkinden büyüktür.
+fen-kb-123 | F.8.3.1.3 | z2 | k1 | Buz tutmuş bir gölde buz kırılıp suya düşen birine yardım eden kurtarıcılar, buzun üzerinde yürümek yerine yüzüstü yatarak sürünü… | ✓I ve III
+fen-kb-124 | F.8.3.1.3 | z2 | k1 | Bir fabrikada aynı ağır makine, K düzeninde 4 özdeş metal ayak, L düzeninde 8 özdeş metal ayak üzerine aynı zemine yerleştirilmiş… | ✓L düzeninde makinenin zemine uyguladığı bası…
+fen-kb-125 | F.8.3.1.3 | z2 | k1 | Futbolcuların çim sahada giydiği kramponlu ayakkabıların tabanında çok sayıda kısa diş bulunur. Oyuncu bastığında bu dişler çime … | ✓Yalnız I
+fen-kb-201 | F.8.3.1.1 | z2 | k2 | Ağırlıkları eşit K, L ve M kutuları aynı oyun hamuru zemine konmuştur. Kutuların hamurda bıraktığı izlerin derinlikleri tabloda v… | ✓M'nin alanı en büyüktür; çünkü en küçük bası…
+fen-kb-202 | F.8.3.1.3 | z2 | k2 | Demir yolu rayları doğrudan toprağa döşenmez. Rayların altına, görselde üstten görünüşü verildiği gibi enine yerleştirilmiş geniş… | ✓I, II ve III
+fen-kb-203 | F.8.3.1.1 | z2 | k2 | Bir öğrenci, süngerin üzerine farklı cisimler koyarak süngerdeki çökmeyi gözlemlemiş ve sonuçları tabloya yazmıştır. I. 1. ve 2. … | ✓I ve II
+fen-kb-204 | F.8.3.1.3 | z2 | k2 | Uzun süre yatakta kalan hastaların vücudunda, yatağa değen küçük bölgelerde yaralar oluşabilir. Bu nedenle hastanelerde, üzerine … | ✓Vücudun yatağa değen alanını büyüterek basın…
+fen-kb-205 | F.8.3.1.3 | z2 | k2 | Bahçedeki sert toprağı kazmakta zorlanan Yusuf, kazmasının körelmiş ucunu eğeyle bileyip inceltmiştir. Bilemeden sonra aynı kuvve… | ✓II ve III
+fen-kb-206 | F.8.3.1.1 | z2 | k2 | Kumun üzerinde duran dikdörtgen prizma biçimli bir tuğla, görseldeki kesikli çizgi boyunca dikey olarak iki eş parçaya kesilmiş v… | ✓Ağırlığı ve temas alanı yarıya iner; basınç …
+fen-kb-207 | F.8.3.1.3 | z2 | k2 | Aşı iğnelerinin ucu çok sivri ve eğik kesilmiş biçimde üretilir. Bu sayede iğne cilde kolayca girer ve aşı daha az acıyla yapılır… | ✓Yalnız III
+fen-kb-208 | F.8.3.1.1 | z2 | k2 | Özdeş tahta küplerle kurulan K, L, M ve N düzenekleri aynı oyun hamuru zemine görseldeki gibi yerleştirilmiştir. Buna göre hangi … | ✓K ve M
+fen-kb-209 | F.8.3.1.3 | z2 | k2 | Karla kaplı bölgelerde kullanılan kar motorlarının altında, arkada geniş bir palet, önde de kayak biçiminde iki uzun parça bulunu… | ✓II ve III
+fen-kb-210 | F.8.3.1.1 | z2 | k2 | Dört ayaklı bir sehpa, halının üzerine önce ayakları üzerinde, sonra ters çevrilip tablası üzerinde konmuştur. İki durumda halıda… | ✓Ters çevrilince temas alanı büyüdüğü için ba…
+fen-kb-211 | F.8.3.1.3 | z2 | k2 | Buz pateninin altında ince bir metal bıçak bulunur; bu bıçak buzda ince bir iz açarak ilerler. Kayakların altı ise uzun ve genişt… | ✓Patende temas alanı küçültülerek basınç artı…
+fen-kb-212 | F.8.3.1.3 | z2 | k2 | Parke zeminli bir odaya yerleştirilen ağır bir dolabın ince ayaklarının altına, ayaklardan daha geniş keçe pedler yapıştırılmıştı… | ✓Yalnız I
+fen-kb-213 | F.8.3.1.1 | z2 | k2 | Can, özdeş K ve L takozlarını duvara asılı mantar panoya görseldeki gibi eşit büyüklükte kuvvetlerle bastırmıştır. K takozunun da… | ✓K'nın panoya uyguladığı basınç, L'ninkinden …
+fen-kb-214 | F.8.3.1.1 | z3 | k2 | Yağmurdan sonra çamur olan bir köy yolundan sırayla paletli bir iş makinesi, bir otomobil ve yüklü bir bisiklet geçmiştir. Araçla… | ✓I ve II
+fen-kb-215 | F.8.3.1.1 | z3 | k2 | Selin, içinde ne olduğunu bilmediği, kapalı K ve L kutularını aynı kum zeminin üzerine koymuştur. Kutuları kaldırdığında K'nın ku… | ✓II ve III
+fen-kb-216 | F.8.3.1.1 | z3 | k2 | Melis, özdeş iki tuğladan birini geniş yüzeyi üzerine kuma, diğerini dar yüzeyi üzerine una koymuştur. Tuğlaların batma derinlikl… | ✓Zemin türü de değiştiği için fark yalnızca t…
+fen-kb-217 | F.8.3.1.1 | z3 | k2 | Ahmet, kum havuzunda görseldeki adımları sırayla uygulamıştır. Başlangıçta bir tuğla geniş yüzeyi üzerinde durmaktadır. 1. adım: … | ✓I ve III
+fen-kb-218 | F.8.3.1.1 | z3 | k2 | Ece, "Ağır bir cisim yumuşak bir zemine, hafif bir cisimden her zaman daha çok batar." demiştir. Arkadaşı Kaan, farklı ağırlıklar… | ✓Tabanı geniş ağır bir kutunun, tabanı dar ha…
+fen-kb-219 | F.8.3.1.1 | z3 | k2 | Bir tahta blok önce P yüzeyi, sonra R yüzeyi üzerine aynı kum zemine konmuştur. Her iki durumda da bloğun üzerine özdeş ağırlıkla… | ✓II ve III
+fen-kb-220 | F.8.3.1.3 | z3 | k2 | Bir araştırma ekibi, bataklık bir alanda çalışacak bir araç için dört tasarım hazırlamıştır. Aracın çamura olabildiğince az batma… | ✓K tasarımını
+fen-kb-221 | F.8.3.1.3 | z3 | k2 | Bir çöl gezisinde rehber, aynı kum yolda yürüyen bir deve ile bir atın izlerini karşılaştırmıştır. Devenin ağırlığı atınkinden fa… | ✓I, II ve III
+fen-kb-222 | F.8.3.1.1 | z3 | k2 | Karlı bir yamaçta mola veren bir dağcı sırasıyla üç farklı biçimde durmuştur: 1. durum: Sırt çantası yokken iki ayağı üzerinde du… | ✓3 > 2 > 1
+fen-kb-223 | F.8.3.1.1 | z3 | k2 | Emir, özdeş K ve L kutularından K'nın içini kumla doldurmuş, L'yi boş bırakmıştır. Sonra K'yı dar yüzeyi, L'yi geniş yüzeyi üzeri… | ✓I ve III
+fen-kb-224 | F.8.3.1.3 | z3 | k2 | Ay'a inecek bir keşif aracının iniş ayaklarının uçlarına geniş, tabak biçimli parçalar takılmıştır. Mühendisler bu tasarımı, arac… | ✓I ve III
+fen-kb-225 | F.8.3.1.1 | z3 | k2 | Mina, dolu ve kapalı bir meyve suyu kutusunu üç farklı yüzeyi üzerine sırayla aynı süngerin üstüne koymuş, her seferinde süngerde… | ✓1. yorum düzeltilmelidir: kutunun ağırlığı d…
+fen-kb-301 | F.8.3.1.3 | z3 | k3 | Doğa fotoğrafçısı Ela, üç ayaklı fotoğraf sehpasının ayak uçlarına iki tür başlık takabilmektedir: geniş kauçuk pabuçlar ve sivri… | ✓I ve III
+fen-kb-302 | F.8.3.1.3 | z3 | k3 | Yol kenarında lastiği patlayan bir sürücü, aracını kaldırmak için krikoyu yumuşak toprağa yerleştirmiştir. Kriko toprağa gömülmey… | ✓Bütün durumlarda kuvvet eşit, en büyük basın…
+fen-kb-303 | F.8.3.1.1 | z3 | k3 | Deniz, katı basıncını incelemek için spor salonundaki özdeş üç yumuşak minderi yan yana dizmiştir. Minderlerin üzerine, aynı büyü… | ✓II ve III
+fen-kb-304 | F.8.3.1.3 | z3 | k3 | Büyük kargo uçaklarının iniş takımlarında çok sayıda tekerlek bulunur. Bir havalimanı mühendisi, havalimanını ziyaret eden öğrenc… | ✓Yalnız II
+fen-kb-305 | F.8.3.1.3 | z3 | k3 | Bir mühendislik ekibi, yumuşak ve gevşek bir toprak üzerine yapılacak spor salonu için görseldeki iki temel tasarımını karşılaştı… | ✓Geniş plaka, binanın toprağa uyguladığı bası…
+fen-kb-306 | F.8.3.1.1 | z3 | k3 | Zeynep, içini kumla doldurup kapattığı bir karton kutuyu, düzlenmiş un dolu bir tepsinin üzerine üç farklı yüzeyi üzerinde sırayl… | ✓I, II ve III
+fen-kb-307 | F.8.3.1.3 | z3 | k3 | Bir veteriner hekim, köpeklerin ağzının ön kısmındaki sivri köpek dişleriyle eti delip tuttuğunu, arka kısımdaki azı dişleriyle i… | ✓I ve III
+fen-kb-308 | F.8.3.1.1 | z3 | k3 | Kamp malzemesi satan bir mağazada, aynı müşteri üç farklı kamp sandalyesine sırayla oturarak sandalyeleri kumsalda denemiştir. Sa… | ✓K > M > L
+fen-kb-309 | F.8.3.1.1 | z3 | k3 | Bir bavul firması, aynı modelde iki bavul üretmiştir. İki bavul arasındaki tek fark, K bavulunun tutma sapının 1 cm, L bavulununk… | ✓Yalnız III
+fen-kb-310 | F.8.3.1.3 | z3 | k3 | Pastacılık kursuna giden Elif, açtığı kurabiye hamurunu iki farklı kalıpla kesmeye çalışmıştır. Metal kalıbın kesen kenarı çok in… | ✓I ve III
+fen-kb-311 | F.8.3.1.1 | z3 | k3 | Bir inşaat alanında çalışan paletli bir kepçe, sabah kepçesi boşken çamurlu bir zeminden geçmiştir. Öğleden sonra kepçesine iri t… | ✓Artmış – Değişmemiş – Artmış
+fen-kb-312 | F.8.3.1.1 | z3 | k3 | Bade, "Bir cismin zemine temas eden yüzey alanı küçüldükçe zemine uyguladığı basınç artar." hipotezini sınamak istemiştir. Özdeş … | ✓Kutular kuma aynı biçimde bırakılmamıştır.
+fen-kb-313 | F.8.3.1.3 | z3 | k3 | Eski bir binanın çatısını onaran ustalar, kırılgan çatı levhalarının üzerine doğrudan basmak yerine levhaların üzerine uzun ve ge… | ✓I ve II
+fen-kb-314 | F.8.3.1.3 | z3 | k3 | Bahçede sert toprağı kazan Berk ile dedesi, ağırlıkları birbirine eşit ama uçlarının biçimi farklı iki kürek kullanmaktadır. İkis… | ✓Dedenin küreğinin toprağa değen ucu, Berk'in…
+fen-kb-315 | F.8.3.1.1 | z3 | k3 | Bir robotik takımı, kumlu bir yarışma parkurunda kullanacağı gezgin robot için tekerlek seçmektedir. Takım, robotu sırayla dar, o… | ✓II ve III
+fen-kb-316 | F.8.3.1.1 | z4 | k3 | Bir halterci, salonun yumuşak zemin kaplaması üzerinde antrenman yapmaktadır. Antrenör, sporcunun zemine uyguladığı kuvvet ve bas… | ✓I ve III
+fen-kb-317 | F.8.3.1.1 | z4 | k3 | Emine, katı basıncını etkileyen değişkenleri incelemek için özdeş ahşap bloklarla beş düzenek kurmuştur. Her düzenekte blokları ı… | ✓P ve R
+fen-kb-318 | F.8.3.1.1 | z4 | k3 | Irmak, katı basıncını incelemek için gövdeleri özdeş oyuncak figürler kullanmıştır. Figürlerin ayaklarına küçük ya da büyük plast… | ✓2., 3. ve 4. denemeler karşılaştırıldığında …
+fen-kb-319 | F.8.3.1.3 | z4 | k3 | Ahşap oymacılığı yapan Usta Cemil, keskinin geniş ve düz sapının ucuna tahta bir tokmakla vurarak keskinin ince ağzını tahtaya ba… | ✓I ve II
+fen-kb-320 | F.8.3.1.3 | z4 | k3 | Bir bilim merkezinde, sivri uçları yukarı bakan binlerce çividen oluşan bir "çivi yatağı" sergilenmektedir. Çivilerin boyları eşi… | ✓II ve III
+fen-kb-321 | F.8.3.1.1 | z4 | k3 | Mobil vinçler, yük kaldırırken devrilmemek için yanlara açılan destek ayaklarına basar. Bir şantiyede, destek ayaklarının altına … | ✓I ve II
+fen-kb-322 | F.8.3.1.1 | z4 | k3 | Kaybolan bir yürüyüşçüyü arayan bir iz takip ekibi, ormanda iki ayrı noktada aynı numara ve aynı taban desenine sahip bot izleri … | ✓Bir ekip üyesini aynı model botlarla çamurda…
+fen-kb-323 | F.8.3.1.1 | z4 | k3 | Can, kum havuzunda iki etkinlik yapmış ve sonuçları aşağıdaki tabloya yazmıştır. Şişelerin kapakları tabanlarından çok daha küçük… | ✓Yalnız II
+fen-kb-324 | F.8.3.1.3 | z4 | k3 | Bir kayak merkezinde pistleri düzleştiren kar ezme aracının altında, kara değen geniş paletler vardır. Merkez yönetimi, gece çalı… | ✓Paletlerin kara değen yüzeyi büyütülmelidir.
+fen-kb-325 | F.8.3.1.1 | z4 | k3 | Bir malzeme laboratuvarında aynı boyutlarda, farklı malzemelerden yapılmış iki blok (X ve Y) incelenmiştir. İki blok da dikdörtge… | ✓Yalnız II
+fen-kb-001 | F.8.3.1.1 | z1 | k0 | Düz bir balkon zemininde duran bir saksı için aşağıdaki değişiklikler düşünülmüştür. Bu değişikliklerden hangisi yapılırsa saksın… | ✓Saksının aynı tabanıyla başka köşeye taşınma…
+fen-kb-002 | F.8.3.1.3 | z1 | k0 | Aşağıdaki uygulamalardan hangisi amacıyla doğru eşleştirilmiştir? | ✓Kazığın ucunu sivriltmek – basıncı artırmak
+fen-kb-003 | F.8.3.1.3 | z1 | k0 | Kutup ayılarının pençeleri çok geniştir. Bu özellik, karla kaplı zeminde yürürken onlara yarar sağlar. Buna göre geniş pençelerin… | ✓Kara uyguladığı basıncı azaltarak batmasını …
+fen-kb-004 | F.8.3.1.1 | z2 | k0 | Kumsalda yürüyüş yapan Aras, önce sırtında hiçbir yük olmadan, sonra içi dolu ağır bir sırt çantası takarak aynı kumda yürümüştür… | ✓Çanta, Aras'ın kuma uyguladığı kuvveti artır…
+fen-kb-005 | F.8.3.1.3 | z2 | k0 | Teknoloji ve tasarım dersinde öğrenciler, günlük eşyalarda yapılabilecek değişiklikleri ve bu değişikliklerin basıncı nasıl etkil… | ✓Valizin tekerleklerini inceltmek – zemine uy…
+fen-kb-006 | F.8.3.1.3 | z2 | k0 | Mangal hazırlayan Ahmet Bey, et parçalarını şişe geçirirken ucu sivri metal şişin, ucu küt olan tahta çubuğa göre etlere çok daha… | ✓I ve III
+fen-kb-007 | F.8.3.1.1 | z2 | k0 | Selin, özdeş ve dolu iki süt kutusundan birini ıslak kuma en geniş yüzeyi üzerine yatırarak, diğerini aynı kuma en dar yüzeyi üze… | ✓Kutuların kuma değen yüzey alanı
+fen-kb-008 | F.8.3.1.3 | z2 | k0 | Kaan, dar ve sert oturaklı bir tabureye uzun süre oturduğunda rahatsız olmuş, aynı sertlikte ama geniş oturaklı bir sandalyeye ge… | ✓Yalnız III
+fen-kb-009 | F.8.3.1.1 | z3 | k0 | Bir bahçıvan, yumuşak toprağın üzerine koyduğu tahta bir sandığın içine özdeş saksıları birer birer yerleştirmiştir. Her saksı ek… | ✓I ve III
+fen-kb-010 | F.8.3.1.3 | z3 | k0 | Bir sahil kasabasında bisiklet kiralayan Nazlı Hanım, kumlu yollar için müşterilerine kalın lastikli bisikletleri önermektedir. B… | ✓I ve II
+fen-kb-011 | F.8.3.1.1 | z3 | k0 | Bir mühendislik öğrencisi, üç farklı cismin (K, L ve M) yatay bir zemine uyguladığı kuvvetleri ve basınçları ikişer ikişer karşıl… | ✓M'nin zemine temas eden yüzeyi K'ninkinden k…
+fen-kb-012 | F.8.3.1.3 | z3 | k0 | Bir peynir dükkânında, büyük kaşar tekerleklerini kesmek için bıçak yerine iki ucu tutamaklı, ince bir çelik tel kullanılmaktadır… | ✓I, II ve III
+fen-kb-013 | F.8.3.1.1 | z4 | k0 | Arda, oyun hamurunun üzerine dikdörtgenler prizması biçiminde bir tahta kutu koymuştur. Kutunun hamura uyguladığı basıncı değişti… | ✓I ve II
+fen-kb-014 | F.8.3.1.1 | z4 | k0 | Sude, katı basıncının hem ağırlığa hem de temas yüzeyine bağlı olduğunu sınıfta göstermek için özdeş karton kutular ve ıslak kum … | ✓Tek kutu, dar yüzeyi üzerinde, ıslak kumda
+fen-kb-015 | F.8.3.1.1 | z4 | k0 | Kerem, özdeş plastik kasaları ıslak kumun üzerine koyup içlerine özdeş un paketleri yerleştirerek dört deneme yapmıştır. Her dene… | ✓2. ve 4. denemeler, ağırlık arttıkça basıncı…

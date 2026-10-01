@@ -81,5 +81,8 @@ window.LGS_MANIFEST = [
   "fen-mutasyon-modifikasyon-2.js",
   "mat-veri-analizi-1.js",
   "mat-veri-analizi-2.js",
-  "tur-paragrafta-anlam-31.js"
+  "tur-paragrafta-anlam-31.js",
+  "fen-kati-basinci-1.js",
+  "fen-kati-basinci-2.js",
+  "tur-paragrafta-anlam-32.js"
 ];

@@ -61,13 +61,17 @@ Object.keys(h.konu||{}).forEach(function(ders){
 
 ### ⛔ DURDURULMUŞ DERSLER
 
-**Din Kültürü ve İngilizce için soru ÜRETİLMEZ.** Abi 19 Eylül 2026'da açıkça durdurdu: "din ve ingilizce soru yazımını durdur, ben sana ek olarak başla diyene kadar onlara soru ürettirme."
+**İngilizce için soru ÜRETİLMEZ.** Abi 19 Eylül 2026'da açıkça durdurdu: "ben sana ek olarak başla diyene kadar onlara soru ürettirme."
 
-- Bu iki dersin var olan soruları **silinmez, dokunulmaz**; öğrenci çözmeye devam eder.
-- Takvim kontrolünde (Kural 2) bu iki ders atlanır; eksik görünseler bile üretime alınmaz.
+- Var olan soruları **silinmez, dokunulmaz**; öğrenci çözmeye devam eder.
+- Takvim kontrolünde (Kural 2) İngilizce atlanır; eksik görünse bile üretime alınmaz.
 - Abi açıkça "başla" diyene kadar bu geçerlidir. Kendi kendine yeniden başlatma.
 
-Kalan dört ders: **Türkçe, Matematik, Fen, İnkılap Tarihi.**
+**Din Kültürü 1 Ekim 2026'da yeniden açıldı.** Abinin talimatı: "dine konu anlatımı eklet, orayı canlandır, oranına göre soru ekle." Din, öteki dersler gibi konu başına 90 soru + konu özeti alır; LGS ağırlığı (10 soru, katsayı 1) İnkılap'la aynıdır.
+
+Üretilen beş ders: **Türkçe, Matematik, Fen, İnkılap Tarihi, Din Kültürü.**
+
+**İki paralel kol (1 Ekim 2026):** konu kolu ve paragraf kolu aynı anda çalışır. Paragraf partisi 50 sorudur; bir parti bitince bekletmeden sonrakine geçilir.
 
 ### Öncelik ve derinlik: müfredat değil, SINAV belirler
 
