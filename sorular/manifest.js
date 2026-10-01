@@ -86,5 +86,7 @@ window.LGS_MANIFEST = [
   "fen-kati-basinci-2.js",
   "tur-paragrafta-anlam-32.js",
   "fen-biyoteknoloji-1.js",
-  "fen-biyoteknoloji-2.js"
+  "fen-biyoteknoloji-2.js",
+  "tur-paragrafta-anlam-33.js",
+  "tur-paragrafta-anlam-34.js"
 ];
