@@ -1,0 +1,90 @@
+fen-sg-101 | F.8.3.1.2 | z1 | k1 | Bir kaptaki durgun sıvının kabın tabanına uyguladığı basınç, aşağıdakilerin hangisinde verilen iki değişkene bağlıdır? | ✓Sıvının derinliği ve sıvının cinsi
+fen-sg-102 | F.8.3.1.2 | z1 | k1 | Bir kabın yan yüzeyinde K, L, M ve N delikleri vardır. Delikler kapalıyken kap, görseldeki düzeye kadar suyla doldurulmuştur. Del… | ✓N
+fen-sg-103 | F.8.3.1.3 | z1 | k1 | Pascal prensibine göre kapalı bir kaptaki sıvıya bir piston yardımıyla uygulanan basınç nasıl iletilir? | ✓Sıvının her noktasına aynen iletilir.
+fen-sg-104 | F.8.3.1.2 | z1 | k1 | Bir dağcı, deniz kıyısından yola çıkıp yüksek bir dağın zirvesine tırmanmıştır. Dağcı yükseldikçe bulunduğu yerdeki açık hava bas… | ✓Azalır; üstte kalan hava tabakası inceldiği …
+fen-sg-105 | F.8.3.1.3 | z1 | k1 | Barajların duvarları, görseldeki gibi üst kısımda ince, tabana doğru gittikçe kalın yapılır. Baraj duvarının bu biçimde yapılması… | ✓Suyun duvara uyguladığı basınç derinlik artt…
+fen-sg-106 | F.8.3.1.3 | z1 | k1 | Aşağıdakilerin hangisi açık hava basıncının etkisiyle gerçekleşir? | ✓Vantuzun düz bir fayansa yapışması
+fen-sg-107 | F.8.3.1.2 | z1 | k1 | Biçimleri farklı K, L ve M kaplarına aynı sudan, görseldeki gibi 20 cm yüksekliğe kadar su konmuştur. Buna göre kapların tabanlar… | ✓Üçünde de eşittir.
+fen-sg-108 | F.8.3.1.2 | z1 | k1 | Bir kaptaki durgun sıvı, kabın hangi yüzeylerine basınç uygular? | ✓Kabın tabanına ve bütün yan yüzeylerine
+fen-sg-109 | F.8.3.1.3 | z1 | k1 | Aşağıdakilerden hangisi Pascal prensibinin bir uygulamasıdır? | ✓Berber koltuğu
+fen-sg-110 | F.8.3.1.2 | z1 | k1 | Özdeş iki kaptan birine tatlı su, diğerine tuzlu su konmuştur. İki kapta da sıvının yüksekliği 15 cm'dir. Tuzlu suyun yoğunluğu t… | ✓Tuzlu suyunki büyüktür; çünkü yoğunluğu daha…
+fen-sg-111 | F.8.3.1.3 | z1 | k1 | Görseldeki cam düzenekte biçimleri farklı dört kol, alttan birbirine bağlıdır. Kollardan birinden düzeneğe su dökülmüş ve su durg… | ✓Bütün kollarda aynı yüksekliktedir.
+fen-sg-112 | F.8.3.1.2 | z1 | k1 | Bir balon şişirildiğinde her yöne doğru genişler. Bir bisiklet lastiği şişirildiğinde de lastiğin yalnızca bir bölümü değil, her … | ✓Gazlar, bulundukları kabın bütün iç yüzeyler…
+fen-sg-113 | F.8.3.1.2 | z2 | k1 | Ayşe, plastik bir şişenin yan yüzeyine, tabandan aynı yükseklikte ve farklı yönlere bakan üç delik açmıştır. Delikleri kapatıp şi… | ✓II ve III
+fen-sg-114 | F.8.3.1.2 | z2 | k1 | Bir akvaryumdaki suyun yüksekliği 40 cm'dir. Akvaryumdaki X, Y ve Z noktalarının akvaryumun tabanından yükseklikleri görselde ver… | ✓X < Y = Z
+fen-sg-115 | F.8.3.1.3 | z2 | k1 | Görselde bir hidrolik krikonun basit çizimi verilmiştir. Kapalı sistemdeki yağ, dar pistonu geniş pistona bağlamaktadır. Dar pist… | ✓Basınç eşit, kuvvet daha büyük
+fen-sg-116 | F.8.3.1.2 | z2 | k1 | Deniz kıyısındaki bir marketten alınan ağzı kapalı bir cips paketi, arabayla yüksek bir yaylaya çıkıldığında şişkinleşmiştir. Pak… | ✓I ve II
+fen-sg-117 | F.8.3.1.2 | z2 | k1 | Bir dalgıç denizde görseldeki yolu izlemiştir. Önce 1. noktadan 2. noktaya dikey olarak inmiş, sonra 2. noktadan 3. noktaya aynı … | ✓Artmış, değişmemiş, azalmış
+fen-sg-118 | F.8.3.1.2 | z2 | k1 | Ece, sıvı basıncının sıvının cinsine bağlı olup olmadığını test etmek istemektedir. Bunun için kapların tabanındaki sıvı basıncın… | ✓Su ve zeytinyağını özdeş iki kaba aynı yükse…
+fen-sg-119 | F.8.3.1.3 | z2 | k1 | Otomobillerin hidrolik fren sisteminde sürücü fren pedalına bastığında, pedala bağlı küçük bir piston borulardaki fren yağını ite… | ✓I ve III
+fen-sg-120 | F.8.3.1.3 | z2 | k1 | Görseldeki çaydanlığın gövdesi ile emziği alttan birbirine bağlıdır. Çaydanlığın tabanından gövdenin ağzına kadar olan yükseklik … | ✓18 cm
+fen-sg-121 | F.8.3.1.3 | z2 | k1 | Hastanelerde serum torbası, bir hortumla hastanın koluna bağlanır ve koldan yüksekte bir askıya asılır. Hemşire, serumun daha hız… | ✓Torba ile kol arasındaki yükseklik farkı art…
+fen-sg-122 | F.8.3.1.3 | z2 | k1 | Su dolu, kapalı bir kabın sol yüzeyinde P pistonu vardır. Kabın üst yüzeyinde X, sağ yüzeyinde Y, alt yüzeyinde Z pistonu bulunma… | ✓X, Y ve Z
+fen-sg-123 | F.8.3.1.3 | z2 | k1 | Bir mahallenin suyu, tepedeki bir su kulesinden borularla evlere dağıtılmaktadır. Görselde kuledeki su seviyesinin ve bir apartma… | ✓Yalnız II
+fen-sg-124 | F.8.3.1.2 | z2 | k1 | Geniş bir leğene 10 cm, ince uzun bir vazoya 25 cm yüksekliğinde su konmuştur. Leğendeki su, vazodaki sudan çok daha fazladır. Bu… | ✓Yalnız III
+fen-sg-125 | F.8.3.1.2 | z2 | k1 | Mert, bir ucuna ince lastik zar gerilmiş cam boruyu, zarlı ucu aşağıda olacak biçimde su dolu bir akvaryuma sırasıyla 5 cm, 10 cm… | ✓Daldırma derinliği / Zarın çökme miktarı / S…
+fen-sg-201 | F.8.3.1.2 | z2 | k2 | Genişlikleri farklı K, L ve M kaplarına görseldeki sıvılar, görseldeki yüksekliklerde konmuştur. Zeytinyağının yoğunluğu suyun yo… | ✓K > M > L
+fen-sg-202 | F.8.3.1.3 | z2 | k2 | Hidrolik berber koltuğunda berber, ayağıyla pedala bastıkça pedala bağlı dar bir piston yağı iter. Yağ, koltuğu taşıyan geniş pis… | ✓Yalnız I
+fen-sg-203 | F.8.3.1.2 | z2 | k2 | Kamp alanlarında kullanılan, ağzı açık ve tabanına yakın bir yerde musluğu bulunan bir su bidonu ağzına kadar doldurulmuştur. Mus… | ✓II ve III
+fen-sg-204 | F.8.3.1.2 | z2 | k2 | Ağzına kadar su dolu bir bardağın ağzı ince bir kartonla kapatılmıştır. Karton elle tutularak bardak ters çevrilmiş, sonra el kar… | ✓Açık hava basıncının kartonu aşağıdan yukarı…
+fen-sg-205 | F.8.3.1.3 | z2 | k2 | Görseldeki kapalı düzenek yağ ile doludur. Düzenekte yüzey alanları farklı K, L ve M pistonları aynı yüksekliktedir. K pistonuna … | ✓Yalnız II
+fen-sg-206 | F.8.3.1.3 | z2 | k2 | Bir usta, odanın karşılıklı iki duvarında aynı yükseklikte birer işaret yapmak istemektedir. Bunun için içi su dolu, şeffaf ve uz… | ✓Alttan birbirine bağlı kaplarda durgun suyun…
+fen-sg-207 | F.8.3.1.3 | z2 | k2 | Damlalıkla ilaç çekilirken önce damlalığın lastik başı sıkılır ve içindeki havanın bir kısmı dışarı çıkarılır. Sonra damlalığın u… | ✓I ve II
+fen-sg-208 | F.8.3.1.2 | z2 | k2 | Vakumlu saklama kaplarının kapağında küçük bir pompa bulunur. Kapak kapatıldıktan sonra pompayla kabın içindeki havanın bir kısmı… | ✓Kapağı dışarıdan bastıran açık hava basıncın…
+fen-sg-209 | F.8.3.1.3 | z2 | k2 | Hidrolik kriko, berber koltuğu ve hidrolik fren Pascal prensibine dayanır. Pascal prensibi, bilimsel bilgi türlerinden ilkeye (pr… | ✓İlkeler, birçok deneyle doğrulanmış genellem…
+fen-sg-210 | F.8.3.1.3 | z2 | k2 | Ali'nin kol saatinin kutusunda "50 m derinliğe kadar su geçirmez" yazmaktadır. Saatin camı, kasası, arka kapağı ve contaları bu d… | ✓Yalnız III
+fen-sg-211 | F.8.3.1.2 | z2 | k2 | Kaan, "Sıvı basıncı sıvının cinsine bağlı değildir." hipotezini test etmek istemiştir. Özdeş iki kaptan birine su, diğerine ayçiç… | ✓Desteklenmemiştir; çünkü yalnızca sıvının ci…
+fen-sg-212 | F.8.3.1.2 | z2 | k2 | Bir araştırma ekibi, yükseltileri farklı dört istasyonda aynı gün açık hava basıncını ölçmüştür. Ölçüm sonuçlarından üçü tabloda … | ✓815 hPa
+fen-sg-213 | F.8.3.1.2 | z2 | k2 | Selin, uzun bir plastik şişenin yan yüzeyine farklı yüksekliklerde üç delik açmış, şişeyi suyla doldurup delikleri açmıştır. Dene… | ✓Deliklerin su yüzeyinden derinliklerinin den…
+fen-sg-214 | F.8.3.1.2 | z3 | k2 | Bir öğrenci, sıvı basıncının kabın genişliğine bağlı olup olmadığını araştırmak için görseldeki dört kabı hazırlamıştır. Kapların… | ✓M ve N
+fen-sg-215 | F.8.3.1.3 | z3 | k2 | Görseldeki P ve R hidrolik düzeneklerinin dar pistonları özdeştir. R düzeneğinin geniş pistonu, P düzeneğinin geniş pistonundan d… | ✓I ve II
+fen-sg-216 | F.8.3.1.2 | z3 | k2 | Silindir biçimli bir su deposunun tabanına bir basınç algılayıcısı yerleştirilmiştir. Depoya gün içinde bazı zaman aralıklarında … | ✓II ve III
+fen-sg-217 | F.8.3.1.2 | z3 | k2 | Bir öğrenci, ağzına ince lastik zar gerilmiş bir huniyi hortumla bir U borusuna bağlamıştır. Zara etki eden sıvı basıncı arttıkça… | ✓I ve III
+fen-sg-218 | F.8.3.1.2 | z3 | k2 | Bir öğrenci, sıvı basıncını etkileyen değişkenleri incelemek için dört ölçüm yapmış ve sonuçları tabloya yazmıştır. Her ölçümde b… | ✓II ve III
+fen-sg-219 | F.8.3.1.3 | z3 | k2 | Bir otomobilin bakımında ustalar, hidrolik fren sistemindeki yağın içine hava kabarcıkları karıştığını fark etmiştir. Sürücü, bu … | ✓Hava kolayca sıkışabildiği için pedala basıl…
+fen-sg-220 | F.8.3.1.3 | z3 | k2 | Bir alışveriş merkezine iki akvaryum yapılacaktır. Birinci akvaryumun uzunluğu 2 m, ikinci akvaryumun uzunluğu 8 m'dir. İki akvar… | ✓I ve III
+fen-sg-221 | F.8.3.1.2 | z3 | k2 | Defne, ağzı kapalı bir karton meyve suyu kutusunun üst kısmına pipetini sıkıca geçirmiş ve meyve suyunu içmeye başlamıştır. Pipet… | ✓I, II ve III
+fen-sg-222 | F.8.3.1.2 | z3 | k2 | Taban alanları eşit olan K ve L kaplarına aynı sudan eşit miktarda konmuştur. K kabı yukarı doğru genişleyen, L kabı ise yukarı d… | ✓II ve III
+fen-sg-223 | F.8.3.1.3 | z3 | k2 | Su dolu kapalı bir kabın üst kısmında, kabın boynunda sürtünmesiz hareket edebilen bir piston vardır. Kabın içindeki K noktası pi… | ✓I ve II
+fen-sg-224 | F.8.3.1.2 | z3 | k2 | Ada, "Sıvı basıncı kabın biçimine bağlıdır." yargısını test etmek için biçimleri farklı iki kap kullanmıştır. Silindir biçimli ka… | ✓Kaplardaki suyun yükseklikleri farklıdır; ik…
+fen-sg-225 | F.8.3.1.2 | z3 | k2 | Fen dersinde üç öğrenci, basınçla ilgili gözlemlerini şöyle açıklamıştır: I. Zeynep: "Babam arabamızı hidrolik krikoyla kaldırdı.… | ✓Yalnız I
+fen-sg-301 | F.8.3.1.2 | z3 | k3 | Pınar, boş bir pet şişenin yan yüzüne aynı dikey hizada K, L ve M deliklerini açmış, deliklerin üstüne bant yapıştırmıştır. Şişey… | ✓I ve III
+fen-sg-302 | F.8.3.1.3 | z3 | k3 | Birbirine yakın iki vadide X ve Y barajları yapılacaktır. İki baraj gölü de tatlı sudan oluşacaktır. X barajının gölü çok uzun ve… | ✓Sıvı basıncı derinlik arttıkça artar; göldek…
+fen-sg-303 | F.8.3.1.2 | z3 | k3 | Efe, dalış eğitiminin ilk gününde denizde 4 metre derinliğe inince kulaklarında hafif bir baskı hissetmiştir. Eğitmeni ona şunlar… | ✓Sıvı basıncı aynı derinlikte her yönde eşitt…
+fen-sg-304 | F.8.3.1.2 | z3 | k3 | Okul laboratuvarında şekilleri farklı K, L ve M kapları yatay bir masaya konmuş ve hepsine aynı yüksekliğe (h) kadar su doldurulm… | ✓Yalnız I
+fen-sg-305 | F.8.3.1.3 | z3 | k3 | Bir oto servisinde kullanılan hidrolik lift şekilde basitçe gösterilmiştir. Kapalı sistemin içi yağla doludur. Usta, küçük piston… | ✓Basınç büyük pistona aynen iletilir; büyük p…
+fen-sg-306 | F.8.3.1.2 | z3 | k3 | Deniz kenarındaki bir kasabada yaşayan Defne, ailesiyle 2000 metre yükseklikteki bir yaylaya gitmiştir. Kasabadan aldığı kapalı c… | ✓I ve II
+fen-sg-307 | F.8.3.1.3 | z3 | k3 | Usta Hakan, bir bahçe duvarının iki ucuna aynı yükseklikte birer işaret koymak istemektedir. Bunun için iki ucu açık, uzun ve şef… | ✓Birbirine bağlı açık kollarda durgun suyun y…
+fen-sg-308 | F.8.3.1.2 | z3 | k3 | Bir dalış kulübü, üyelerine hem yüzme havuzunda hem de denizde eğitim vermektedir. Havuzdaki su tatlı sudur; deniz suyu ise tuzlu… | ✓II ve III
+fen-sg-309 | F.8.3.1.2 | z3 | k3 | Arda, ağzı lastik zarla kapatılmış bir huniyi hortumla, içinde renkli su bulunan bir U borusuna bağlamıştır. Borunun kolları aras… | ✓Yalnız II
+fen-sg-310 | F.8.3.1.3 | z3 | k3 | Otomobillerde kullanılan hidrolik fren sisteminde sürücü pedala bastığında, ana silindirdeki piston borulardaki fren yağına basın… | ✓Dört tekerleğe iletilir ve her tekerleğin pi…
+fen-sg-311 | F.8.3.1.3 | z3 | k3 | Bir köyde, tepedeki su deposundan K, L ve M evlerine borularla su verilmektedir. Evlerin konumları ve depodaki su yüzeyinin hizas… | ✓M evi; çünkü depodaki su yüzeyinin hizasında…
+fen-sg-312 | F.8.3.1.2 | z3 | k3 | Zeytinyağının yoğunluğu suyun yoğunluğundan küçüktür. Şekildeki K ve M kaplarında su, L kabında zeytinyağı vardır. K ve L kapları… | ✓I ve III
+fen-sg-313 | F.8.3.1.3 | z3 | k3 | Şekildeki kabın K, L ve M kolları alttan birbirine bağlıdır ve kolların ağızları açıktır. Kaba su konmuş ve su durgun hâle gelmiş… | ✓Yalnız III
+fen-sg-314 | F.8.3.1.3 | z3 | k3 | Selin, plastik bir topun her yanına iğneyle eşit büyüklükte delikler açmış ve topu su dolu bir şırınganın ucuna takmıştır. Şırıng… | ✓II ve III
+fen-sg-315 | F.8.3.1.2 | z3 | k3 | Şekildeki kabın sol tarafında yukarı doğru uzanan, ağzı açık dar bir boyun vardır. Kap tamamen suyla doludur ve suyun yüzeyi boyn… | ✓Yalnız II
+fen-sg-316 | F.8.3.1.2 | z4 | k3 | Bir öğrenci, sıvı basıncının sıvının cinsine bağlı olup olmadığını test etmek istemektedir. Tuzlu suyun yoğunluğu suyunkinden büy… | ✓K ve N
+fen-sg-317 | F.8.3.1.2 | z4 | k3 | Ali, sıvı basıncının kabın taban alanına bağlı olup olmadığını araştırmak istemektedir. Taban alanı büyük olan P kabına ve taban … | ✓Suyun derinliği de değişmiştir; iki kaba su …
+fen-sg-318 | F.8.3.1.2 | z4 | k3 | Şekildeki cam kap, ortasındaki bir bölmeyle iki parçaya ayrılmıştır. Bölmenin alt kısmında bir delik vardır ve bu delik esnek bir… | ✓II ve III
+fen-sg-319 | F.8.3.1.2 | z4 | k3 | Mert, kapağı sıkıca kapalı ve yarısına kadar su dolu bir cam şişeyi önce tabanı üzerinde (Durum 1), sonra ters çevirip kapağı üze… | ✓Masaya etki eden basınç artar; alttaki iç yü…
+fen-sg-320 | F.8.3.1.3 | z4 | k3 | Şekildeki kapalı kap sıvıyla doludur. Kabın K, L ve M kollarındaki pistonlar aynı yüksekliktedir; pistonların ağırlıkları ve sürt… | ✓I ve II
+fen-sg-321 | F.8.3.1.2 | z4 | k3 | Bir öğrenci X, Y ve Z sıvılarını ayrı kaplara koymuş ve her sıvıda farklı derinliklerde sıvı basıncını ölçmüştür. Ölçüm sonuçları… | ✓Yalnız II
+fen-sg-322 | F.8.3.1.2 | z4 | k3 | Bir okulun bilim kulübü, dijital bir basınç sensörünü su dolu tanklara daldırarak dört deneme yapmıştır. Bütün denemelerde tankla… | ✓I ve III
+fen-sg-323 | F.8.3.1.3 | z4 | k3 | Bir çiftlikte, tabanları aynı düzeyde olan K ve L su depoları alttan bir boruyla birbirine bağlanmıştır. Boru üzerindeki musluk k… | ✓I ve II
+fen-sg-324 | F.8.3.1.3 | z4 | k3 | Şekildeki silindir biçimli kap tamamen suyla doludur ve üstü, kaba sıkıca oturan ağırlıksız bir pistonla kapatılmıştır. K noktası… | ✓Yalnız II
+fen-sg-325 | F.8.3.1.2 | z4 | k3 | Bir öğrenci, X sıvısıyla dolu bir kaba ve Y sıvısıyla dolu başka bir kaba özdeş basınç sensörleri daldırmıştır. X'teki sensör sıv… | ✓I, II ve III
+fen-sg-001 | F.8.3.1.2 | z1 | k0 | Bir su deposunun tabanına etki eden sıvı basıncı aşağıdakilerden hangisine bağlıdır? | ✓Depodaki suyun derinliğine
+fen-sg-002 | F.8.3.1.3 | z1 | k0 | Aşağıdakilerden hangisi Pascal prensibinin bir uygulamasıdır? | ✓Hidrolik kriko
+fen-sg-003 | F.8.3.1.2 | z1 | k0 | Deniz kenarından yüksek bir dağın tepesine doğru çıkıldıkça açık hava basıncı nasıl değişir? | ✓Azalır
+fen-sg-004 | F.8.3.1.2 | z2 | k0 | Aşağıda günlük yaşamdan bazı olaylar verilmiştir: I. Pipetle meyve suyu içilmesi II. Vantuzlu askının düz bir fayansa yapışıp kal… | ✓I ve II
+fen-sg-005 | F.8.3.1.2 | z2 | k0 | Şekildeki su dolu kovanın sol yüzünde K deliği, sağ yüzünde L ve M delikleri vardır. K ve L delikleri su yüzeyinden 10 cm, M deli… | ✓K = L < M
+fen-sg-006 | F.8.3.1.3 | z2 | k0 | Okyanusun derinliklerinde çalışan araştırma denizaltılarının gövdeleri, kıyıya yakın sığ sularda turist gezdiren denizaltılarınki… | ✓Derinlik arttıkça sıvı basıncı artar.
+fen-sg-007 | F.8.3.1.3 | z2 | k0 | Damperli kamyonların kasası, kasanın altındaki kapalı silindire yağ basılarak kaldırılır. Silindirdeki yağa küçük bir pompayla ba… | ✓Kapalı kaptaki sıvıya uygulanan basınç, her …
+fen-sg-008 | F.8.3.1.2 | z2 | k0 | Özdeş iki akvaryumdan birine tatlı su, diğerine aynı derinliğe kadar tuzlu su konmuştur. Tuzlu suyun yoğunluğu tatlı suyunkinden … | ✓Tuzlu sulu akvaryumda büyüktür, çünkü sıvını…
+fen-sg-009 | F.8.3.1.3 | z3 | k0 | Ayşe, yeni aldıkları çaydanlığı musluğun altında doldururken suyun belli bir yükseklikten sonra emzikten taşmaya başladığını fark… | ✓II ve III
+fen-sg-010 | F.8.3.1.2 | z3 | k0 | Şekilde bir yüzme havuzunun kesiti görülmektedir. Havuzun sığ kısmı 1 m, derin kısmı 3 m derinliktedir. P noktası sığ kısmın taba… | ✓P = R < S
+fen-sg-011 | F.8.3.1.2 | z3 | k0 | Bir dalgıç, deniz seviyesindeki bir gölde kolundaki basınç ölçerle ölçümler yapmıştır. Bu ölçer, dalgıca etki eden toplam basıncı… | ✓I ve III
+fen-sg-012 | F.8.3.1.3 | z3 | k0 | Hastanede bir hastaya serum takan hemşire, serum şişesini askıya, hastanın kolunun yaklaşık bir metre yukarısına asmıştır. Şişede… | ✓Serum yüzeyinin iğneye göre yüksekliği artar…
+fen-sg-013 | F.8.3.1.2 | z4 | k0 | K, L, M ve N kaplarına X ya da Y sıvısı konmuştur. X sıvısının yoğunluğu Y sıvısınınkinden büyüktür. Kapların şekilleri ve taban … | ✓I ve III
+fen-sg-014 | F.8.3.1.2 | z4 | k0 | Kerem, okul laboratuvarındaki iki uzun cam kaptan birine zeytinyağı, diğerine su koymuştur. Zeytinyağının yoğunluğu suyun yoğunlu… | ✓II ve III
+fen-sg-015 | F.8.3.1.3 | z4 | k0 | Ece, bahçedeki yağmur suyu bidonunun alt kısmındaki musluğa uzun bir hortum takmıştır. Bidonun üstü açıktır. Ece, basamaklı bir r… | ✓II ve III

@@ -24,5 +24,7 @@ window.LGS_HAP_LISTE = [
   "kati-basinci.js",
   "biyoteknoloji.js",
   "din-1-kader.js",
-  "din-2-zekat-sadaka.js"
+  "din-2-zekat-sadaka.js",
+  "sivi-gaz-basinci.js",
+  "ink-3-milli-destan.js"
 ];
