@@ -1,0 +1,90 @@
+mat-ol-101 | M.8.5.1.1 | z1 | k1 | Bir torbada aşağıda gösterilen yeşil, beyaz ve sarı toplar vardır. Bu torbadan rastgele bir top çekilecektir. Bu olaya ait olası … | ✓12
+mat-ol-102 | M.8.5.1.3 | z1 | k1 | Aşağıdaki çark 5 eş dilime ayrılmıştır. Çark çevrildiğinde ok dilimlerden birini gösterecektir. Buna göre okun 4 numaralı dilimi … | ✓[[1|5]]
+mat-ol-103 | M.8.5.1.4 | z1 | k1 | Hilesiz bir zar bir kez atılacaktır. Buna göre aşağıdaki olaylardan hangisinin olma olasılığı 0'dır? | ✓6'dan büyük bir sayı gelmesi
+mat-ol-104 | M.8.5.1.5 | z1 | k1 | Bir sepetteki meyvelerin türlere göre sayısı aşağıdaki tabloda verilmiştir. Bu sepetten rastgele alınan bir meyvenin armut olma o… | ✓[[3|10]]
+mat-ol-105 | M.8.5.1.5 | z1 | k1 | Hilesiz bir zar bir kez atılacaktır. Zarın üst yüzüne 3'ün katı olan bir sayı gelme olasılığı kaçtır? | ✓[[1|3]]
+mat-ol-106 | M.8.5.1.4 | z1 | k1 | Ece, dört farklı olay için olma olasılığını hesaplamış ve dört sonuç bulmuştur. Ece'nin bulduğu sonuçlardan hangisi bir olasılık … | ✓[[8|5]]
+mat-ol-107 | M.8.5.1.2 | z1 | k1 | Dört torbadaki topların renklerine göre sayısı aşağıdaki tabloda verilmiştir. Hangi torbadan rastgele çekilen bir topun mavi olma… | ✓3. torba
+mat-ol-108 | M.8.5.1.4 | z1 | k1 | Bir kutuda üzerinde aşağıdaki sayılar yazılı olan 6 kart vardır. Kutudan rastgele bir kart çekilecektir. Buna göre aşağıdaki olay… | ✓Kartta çift sayı yazması
+mat-ol-109 | M.8.5.1.5 | z1 | k1 | Bir duvardaki 12 eş kare karonun bazıları aşağıdaki gibi boyanmıştır. Bu karolardan rastgele seçilen birinin boyalı olma olasılığ… | ✓[[5|12]]
+mat-ol-110 | M.8.5.1.3 | z1 | k1 | 28 kişilik bir sınıfta öğretmen, öğrencilerin isimlerini özdeş kâğıtlara yazıp bir kutuya atmıştır. Kutudan rastgele bir kâğıt çe… | ✓[[1|28]]
+mat-ol-111 | M.8.5.1.4 | z1 | k1 | Bir çekilişte Arda'nın hediye kazanma olasılığı [[2|9]] olarak hesaplanmıştır. Buna göre Arda'nın hediye kazanamama olasılığı kaç… | ✓[[7|9]]
+mat-ol-112 | M.8.5.1.5 | z1 | k1 | Aşağıdaki çark 8 eş dilime ayrılmıştır. Dilimlerdeki harfler dilimlerin rengini göstermektedir. Çark çevrildiğinde okun kırmızı b… | ✓[[1|4]]
+mat-ol-113 | M.8.5.1.3 | z2 | k1 | Aşağıda K, M ve S harfleriyle gösterilen üç renkten oluşan dört çark verilmiştir. I, III ve IV. çarklar eş dilimlere ayrılmıştır.… | ✓I. çark
+mat-ol-114 | M.8.5.1.5 | z2 | k1 | Bir okul kütüphanesinin "yeni gelenler" rafındaki kitapların türlere göre sayısı aşağıdaki tabloda verilmiştir. Kütüphane görevli… | ✓[[4|15]]
+mat-ol-115 | M.8.5.1.5 | z2 | k1 | Ela, bir oyun için hilesiz bir zarın yüzlerindeki noktaları kapatmış ve altı yüzüne aşağıdaki sayıları yazmıştır. Bu zar bir kez … | ✓[[1|2]]
+mat-ol-116 | M.8.5.1.5 | z2 | k1 | Bir torbada yalnızca mavi ve turuncu renkte toplam 15 top vardır. Bu torbadan rastgele çekilen bir topun mavi olma olasılığı [[2|… | ✓9
+mat-ol-117 | M.8.5.1.1 | z2 | k1 | Okul şenliğinde satılan çekiliş biletleri 25'ten 60'a kadar (25 ve 60 dâhil) ardışık sayılarla numaralandırılmıştır. Her numarada… | ✓36
+mat-ol-118 | M.8.5.1.3 | z2 | k1 | Aşağıda dört deney verilmiştir. Her deneyde bir kez deneme yapılıp sonuca bakılacaktır. Buna göre hangi deneyde ortaya çıkabilece… | ✓2 yeşil ve 5 beyaz bilyenin bulunduğu torbad…
+mat-ol-119 | M.8.5.1.5 | z2 | k1 | Bir sınıf oyununda "BİLGİSAYAR" sözcüğünün her harfi aynı büyüklükteki kartlara birer birer yazılmış, kartlar ters çevrilip karış… | ✓[[2|5]]
+mat-ol-120 | M.8.5.1.5 | z2 | k1 | Bir bilgi yarışmasında sorular, 1'den 20'ye kadar numaralandırılmış 20 zarfa konmuştur. Sunucu zarflardan birini rastgele seçecek… | ✓[[2|5]]
+mat-ol-121 | M.8.5.1.4 | z2 | k1 | Bir sınıftan rastgele seçilen bir öğrencinin gözlük kullanan bir öğrenci olma olasılığı [[2|7]] olarak hesaplanmıştır. Bu sınıfta… | ✓28
+mat-ol-122 | M.8.5.1.5 | z2 | k1 | Bir mağazanın çekiliş çarkı mavi, kırmızı ve sarı olmak üzere üç dilimden oluşmaktadır. Dilimlerin merkez açılarının ölçüleri şek… | ✓[[1|4]]
+mat-ol-123 | M.8.5.1.5 | z2 | k1 | Aşağıdaki torbada yalnızca sarı toplar vardır. Bu torbaya bir miktar mavi top eklenecektir. Torbadan rastgele çekilen bir topun s… | ✓3
+mat-ol-124 | M.8.5.1.5 | z2 | k1 | Bir okulun satranç kulübü, Ekim 2026'daki günlerden birini rastgele seçip o gün turnuva düzenleyecektir. Bu ayın takvimi aşağıda … | ✓[[4|31]]
+mat-ol-125 | M.8.5.1.3 | z2 | k1 | Bir kitap fuarındaki çekilişte tek bir ödül vardır. Çekilişe katılan herkesin adı bir kez yazılmış ve her katılımcının ödülü kaza… | ✓[[1|44]]
+mat-ol-201 | M.8.5.1.3 | z2 | k2 | Bir bilgi yarışmasında sorular özdeş kartlara yazılmıştır. Sunucu kartlardan birini rastgele çekecektir ve her kartın çekilme ola… | ✓[[1|3]]
+mat-ol-202 | M.8.5.1.5 | z2 | k2 | Bir spor salonunda 1'den 50'ye kadar numaralandırılmış 50 dolap vardır. Numarası 7'nin katı olan dolapların kapıları kırmızı, diğ… | ✓[[7|50]]
+mat-ol-203 | M.8.5.1.5 | z2 | k2 | Bir yaz kampındaki öğrencilerin katıldıkları atölyeler aşağıdaki tabloda verilmiştir. Her öğrenci yalnızca bir atölyeye katılmakt… | ✓[[1|5]]
+mat-ol-204 | M.8.5.1.4 | z2 | k2 | Bir masa oyununda sırası gelen oyuncu, aşağıdaki torbadan rastgele bir top çeker. Mavi top çeken oyuncu bir tur bekler; diğer ren… | ✓[[2|3]]
+mat-ol-205 | M.8.5.1.5 | z2 | k2 | Bir fidanlıkta satışa hazır fidanların türlere göre sayısı aşağıdaki sütun grafiğinde verilmiştir. Fidanlık, bir okulun bahçesine… | ✓[[3|14]]
+mat-ol-206 | M.8.5.1.5 | z2 | k2 | Aşağıdaki çark, üzerinde 1'den 12'ye kadar sayılar yazılı 12 eş dilime ayrılmıştır. Çark bir kez çevrilecektir. Buna göre okun gö… | ✓[[7|12]]
+mat-ol-207 | M.8.5.1.2 | z2 | k2 | Aşağıdaki torbada kırmızı, mavi ve sarı toplar vardır. Torbadaki toplarla ilgili bir değişiklik yapılacaktır. Hangi değişiklik ya… | ✓Torbaya 2 mavi top eklenirse
+mat-ol-208 | M.8.5.1.3 | z2 | k2 | 24 kişilik bir sınıfta sınıf temsilcisi kurayla seçilecektir. Her öğrenci adını bir kâğıda yazıp kutuya atmıştır. Ancak Mert, adı… | ✓[[2|25]]
+mat-ol-209 | M.8.5.1.4 | z2 | k2 | Bir kargo deposundaki 250 koliden rastgele seçilen bir kolinin hasarsız olma olasılığı 0,96 olarak belirlenmiştir. Depo görevlisi… | ✓10
+mat-ol-210 | M.8.5.1.5 | z2 | k2 | Bir otoparktaki araçların renklerine göre dağılımı aşağıdaki daire grafiğinde verilmiştir. Otopark görevlisi bu araçlardan birini… | ✓[[5|24]]
+mat-ol-211 | M.8.5.1.3 | z2 | k2 | Dört arkadaşın sınıflarında okul gezisi için birer öğrenci kurayla seçilecektir. Her sınıfta kuraya o gün okulda olan bütün öğren… | ✓Ada
+mat-ol-212 | M.8.5.1.5 | z2 | k2 | Bir kırtasiyedeki dört kutuda bulunan kırmızı ve mavi kalemlerin sayısı aşağıdaki tabloda verilmiştir. Ali, kutulardan birini seç… | ✓4. kutu
+mat-ol-213 | M.8.5.1.5 | z2 | k2 | Bir akvaryumdaki balıkların türlere göre sayısı aşağıdaki tabloda verilmiştir. Akvaryumdaki moli balıklarından bir kısmı başka bi… | ✓5
+mat-ol-214 | M.8.5.1.5 | z3 | k2 | Melis, bisikletinin dört haneli şifreli kilidinin ilk üç rakamını şekildeki gibi hatırlamakta ama son rakamını unutmuştur. Kilidi… | ✓[[1|2]]
+mat-ol-215 | M.8.5.1.5 | z3 | k2 | Bir sınıftaki öğrencilerin kardeş sayılarına göre dağılımı aşağıdaki tabloda verilmiştir. Tablodaki her sütun, o kadar kardeşi ol… | ✓[[12|25]]
+mat-ol-216 | M.8.5.1.5 | z3 | k2 | Bir alışveriş merkezinin otopark katının krokisi aşağıda verilmiştir. Krokide dolu park yerleri koyu renkle, boş park yerleri içi… | ✓[[7|18]]
+mat-ol-217 | M.8.5.1.5 | z3 | k2 | Bir okul şenliği için öğrenci meclisinin topladığı bağışlarla 1'den 40'a kadar numaralandırılmış 40 hediye kutusu hazırlanmıştır.… | ✓[[3|40]]
+mat-ol-218 | M.8.5.1.5 | z3 | k2 | Matematik kulübünün başkanı Selin, bir oyun için 8 kartın her birine bir kareköklü ifade yazmıştır. Aşağıdaki kartlar ters çevril… | ✓[[1|2]]
+mat-ol-219 | M.8.5.1.4 | z3 | k2 | Bir kutuda 1'den 12'ye kadar numaralandırılmış 12 özdeş kart vardır. Kutudan rastgele bir kart çekilecektir. Bu deneyle ilgili dö… | ✓K, L, N, M
+mat-ol-220 | M.8.5.1.2 | z3 | k2 | Bir sınıf etkinliğinde kullanılan aşağıdaki çark 10 eş dilime ayrılmıştır; dilimlerin 3'ü mavi, 7'si beyazdır. Öğretmen, çark çev… | ✓3
+mat-ol-221 | M.8.5.1.5 | z3 | k2 | Defne'nin elindeki çikolata tableti, aşağıdaki gibi 24 eş kare parçadan oluşmaktadır. Bazı parçaların içinde fındık vardır; fındı… | ✓[[3|8]]
+mat-ol-222 | M.8.5.1.5 | z3 | k2 | Ece, bir kutu oyunu için yüzleri boş olan bir zar hazırlayacaktır. Zarın altı yüzüne, 1'den 9'a kadar olan sayılardan birbirinden… | ✓2, 4, 5, 6, 8, 9
+mat-ol-223 | M.8.5.1.5 | z3 | k2 | Bir oyuncakçıdaki kutuda yalnızca kırmızı ve beyaz renkli, aynı büyüklükte toplar vardır. Kutunun etiketindeki toplam top sayısı … | ✓8
+mat-ol-224 | M.8.5.1.5 | z3 | k2 | Elif, bilye koleksiyonunu bir torbada saklamaktadır. Torbada yalnızca kırmızı ve mavi bilyeler vardır ve torbadan rastgele çekile… | ✓24
+mat-ol-225 | M.8.5.1.3 | z3 | k2 | Aşağıdaki çark 12 eş dilime ayrılmıştır; dilimlerin 5'i kırmızı (K), 4'ü mavi (M), 3'ü sarı (S) renktedir. Ayşe, sarı dilimlerin … | ✓[[11|24]]
+mat-ol-301 | M.8.5.1.2 | z3 | k3 | Bir ortaokulda bilim, drama ve satranç kulüplerine kayıtlı öğrencilerin sayıları aşağıdaki tabloda verilmiştir. Her öğrenci yalnı… | ✓Seçilen öğrencinin bilim kulübünden olma ola…
+mat-ol-302 | M.8.5.1.5 | z3 | k3 | Bir alışveriş merkezindeki çocuk etkinliğinde dört kutu vardır. Her kutuda ödüllü ve boş toplar bulunur; bütün topların büyüklüğü… | ✓3. kutu
+mat-ol-303 | M.8.5.1.5 | z3 | k3 | Bir gençlik merkezi, takvimi aşağıda verilen 30 günlük ayın günlerinden birini kurayla seçip o gün bir robotik atölyesi düzenleye… | ✓[[11|15]]
+mat-ol-304 | M.8.5.1.4 | z3 | k3 | Bir çiçekçi, tezgâhındaki saksılardan birini rastgele seçip ayın müşterisine hediye edecektir. Tezgâhta yalnızca aşağıdaki tablod… | ✓[[1|10]]
+mat-ol-305 | M.8.5.1.5 | z3 | k3 | Bir okulun bilgi yarışmasında sorular, bilgisayardaki bir soru havuzundan rastgele seçilmektedir. Havuzdaki soruların konulara gö… | ✓[[3|5]]
+mat-ol-306 | M.8.5.1.5 | z3 | k3 | Bir lunaparktaki puan çarkı aşağıda gösterilmiştir. Çarkın dilimleri farklı büyüklüktedir; her dilime kazanılacak puan ve dilimin… | ✓[[5|12]]
+mat-ol-307 | M.8.5.1.4 | z3 | k3 | Selin, üzerinde 21, 27, 33, 39, 45 ve 51 sayıları yazan altı kartı ters çevirip karıştırıyor. Kardeşi Can bu kartlardan birini ra… | ✓Seçilen karttaki sayının asal sayı olması
+mat-ol-308 | M.8.5.1.5 | z3 | k3 | Bir bilim merkezini cumartesi günü ziyaret edenlerin yaş gruplarına göre dağılımı aşağıdaki daire grafiğinde gösterilmiştir. Graf… | ✓[[1|3]]
+mat-ol-309 | M.8.5.1.5 | z3 | k3 | Ela, 36 sayısının bütün pozitif bölenlerini ayrı ayrı toplara yazıyor; her bölen yalnızca bir topa yazılıyor. Topları bir torbaya… | ✓[[4|9]]
+mat-ol-310 | M.8.5.1.5 | z3 | k3 | Bir kavanozda 5 çilekli ve 3 naneli şeker vardır. Kavanoza bir miktar karamelli şeker eklendikten sonra, kavanozdan rastgele alın… | ✓[[3|5]]
+mat-ol-311 | M.8.5.1.5 | z3 | k3 | Bir sinema salonunun oturma planı aşağıda verilmiştir. Satılmış koltuklar çarpı işaretiyle gösterilmiştir. Gişe görevlisi, son da… | ✓[[3|20]]
+mat-ol-312 | M.8.5.1.1 | z3 | k3 | Bir apartmanda kapı numaraları 1'den 30'a kadar olan 30 daire vardır. Apartman yönetimi, bu yılki bahar temizliğini hangi daireni… | ✓20
+mat-ol-313 | M.8.5.1.5 | z3 | k3 | Bir kutu oyununda piyon, zar atıldığında üst yüze gelen sayı kadar kare ileri götürülür. Bu oyunda kullanılan hilesiz zar özeldir… | ✓[[2|3]]
+mat-ol-314 | M.8.5.1.3 | z3 | k3 | Bir sınıfta söz alacak grubu belirlemek için 12 eş dilimli bir çark kullanılmaktadır. Çarkın dilimleri kırmızı (K), mavi (M) ve y… | ✓3
+mat-ol-315 | M.8.5.1.3 | z3 | k3 | Olasılık dersinde öğretmen, rastgele yapılacak dört deneyi ve her deneyde kaydedilecek sonucu tahtaya yazmıştır. Öğrencilerden, k… | ✓1'den 20'ye kadar numaralı kartlardan biri ç…
+mat-ol-316 | M.8.5.1.5 | z4 | k3 | Ece, kardeşiyle oynayacağı bir şans oyunu için bir torbadaki topları yeniden düzenlemektedir. Torbadaki kırmızı, mavi, sarı ve ye… | ✓7
+mat-ol-317 | M.8.5.1.5 | z4 | k3 | Bir pastanede 20 gün boyunca her akşam satılmadan kalan pasta dilimi sayıları kaydedilmiş ve aşağıdaki sütun grafiğinde gösterilm… | ✓[[11|20]]
+mat-ol-318 | M.8.5.1.5 | z4 | k3 | Bir kırtasiyenin hazırladığı hediye kutusunda yalnızca kırmızı, mavi ve sarı kalemler vardır. Kutuda toplam 30 kalem bulunmaktadı… | ✓2
+mat-ol-319 | M.8.5.1.5 | z4 | k3 | Bir okulun 8-A ve 8-B şubelerindeki öğrencilerin okula geliş biçimleri aşağıdaki sütun grafiğinde gösterilmiştir. Her öğrenci oku… | ✓Seçim 8-A'dan yapılırsa toplu taşımayla gele…
+mat-ol-320 | M.8.5.1.2 | z4 | k3 | Zeynep'in telefonundaki çalma listesinde bulunan parçaların türlere göre sayıları aşağıdaki tabloda verilmiştir. Zeynep listeyi k… | ✓6
+mat-ol-321 | M.8.5.1.5 | z4 | k3 | Bir mağaza, açılış gününde müşterilerine torbadan top çektirerek hediye vermektedir. Torbada yalnızca kırmızı, mavi ve beyaz topl… | ✓5
+mat-ol-322 | M.8.5.1.5 | z4 | k3 | Bir mahalle festivalinde kullanılan çark aşağıda gösterilmiştir. Çarkın 7 diliminden biri "Ödül", diğerleri "Pas" dilimidir; her … | ✓2
+mat-ol-323 | M.8.5.1.5 | z4 | k3 | Matematik kulübünün hazırladığı bir oyunda torbadaki toplar 1'den başlayarak sırayla numaralandırılmıştır; her topta farklı bir n… | ✓20
+mat-ol-324 | M.8.5.1.5 | z4 | k3 | Bir oyuncakçıdaki sürpriz makinesinde yalnızca kırmızı ve mavi kapsüller vardır. Makine, her kullanımda içindeki kapsüllerden bir… | ✓[[7|17]]
+mat-ol-325 | M.8.5.1.5 | z4 | k3 | Okul kermesinde her stantta, yapılan her alışveriş için bir çekiliş bileti verilmiştir. Kitap, pasta ve oyun stantlarında verilen… | ✓[[1|4]]
+mat-ol-001 | M.8.5.1.4 | z1 | k0 | Aşağıdakilerden hangisi bir olayın olma olasılığı olamaz? | ✓[[5|4]]
+mat-ol-002 | M.8.5.1.5 | z1 | k0 | Hilesiz bir oyun zarı bir kez atılıyor. Zarın üst yüzüne 4'ten büyük bir sayı gelme olasılığı kaçtır? | ✓[[1|3]]
+mat-ol-003 | M.8.5.1.1 | z1 | k0 | Bir kutuda 4 sarı, 7 turuncu ve 3 beyaz kurdele vardır. Kutudan bakmadan bir kurdele alınıyor. Bu olaya ait olası durumların sayı… | ✓14
+mat-ol-004 | M.8.5.1.5 | z2 | k0 | Bir doğum günü partisinde 1'den 40'a kadar numaralandırılmış 40 balon asılıdır. Bir kutudan rastgele bir numara çekilecek ve o nu… | ✓[[3|20]]
+mat-ol-005 | M.8.5.1.5 | z2 | k0 | Bir sınıftaki öğrencilerin gözlük kullanma durumları aşağıdaki tabloda verilmiştir. Sınıftan rastgele bir öğrenci seçilecektir. S… | ✓[[1|6]]
+mat-ol-006 | M.8.5.1.2 | z2 | k0 | Bir okul kütüphanesindeki kitapların türlere göre sayıları aşağıdaki tabloda verilmiştir. Kütüphaneci, ayın kitabını belirlemek i… | ✓Seçilen kitabın şiir kitabı olma olasılığı, …
+mat-ol-007 | M.8.5.1.3 | z2 | k0 | Bir kutuda 1'den 12'ye kadar numaralandırılmış, büyüklükleri ve renkleri aynı 12 kart vardır. Kutudan rastgele bir kart çekilecek… | ✓Kartların her birinin çekilme olasılığı [[1|…
+mat-ol-008 | M.8.5.1.4 | z2 | k0 | Bir dikiş kutusunda aynı büyüklükte 6 mavi, 9 sarı ve 5 beyaz düğme vardır. Kutudan bakmadan bir düğme alınıyor. Alınan düğmenin … | ✓[[11|20]]
+mat-ol-009 | M.8.5.1.5 | z3 | k0 | Bir sınıftaki öğrencilerin kardeş sayılarına göre dağılımı aşağıdaki sütun grafiğinde verilmiştir. Dönem ortasında sınıfa 2 yeni … | ✓[[5|13]]
+mat-ol-010 | M.8.5.1.5 | z3 | k0 | Bir matematik oyununda kullanılan sekiz kartın üzerinde şu sayılar yazılıdır: √{2}, √{8}, √{12}, √{18}, √{20}, √{27}, √{32}, √{50… | ✓[[5|8]]
+mat-ol-011 | M.8.5.1.5 | z3 | k0 | Bir futbol okulunda 48 öğrenci vardır ve her öğrenci yalnızca bir mevkide oynamaktadır. Antrenör, öğrencilerden birini rastgele s… | ✓[[1|6]]
+mat-ol-012 | M.8.5.1.4 | z3 | k0 | Bir kafe, müşterilerine indirim çarkı çevirtmektedir. Çark kırmızı, mavi, sarı ve yeşil olmak üzere dört bölgeye ayrılmıştır. Çar… | ✓75
+mat-ol-013 | M.8.5.1.3 | z4 | k0 | Bir kitap fuarındaki yayınevi standında kullanılacak çarkın bölgeleri aşağıda gösterilmiştir. Kırmızı bölgenin merkez açısı 120°,… | ✓[[1|9]]
+mat-ol-014 | M.8.5.1.5 | z4 | k0 | Bir bisiklet kiralama istasyonunda 10 gün boyunca her gün kiralanan bisiklet sayıları aşağıdaki çizgi grafiğinde gösterilmiştir. … | ✓[[4|9]]
+mat-ol-015 | M.8.5.1.5 | z4 | k0 | Bir okul kantinindeki buzdolabında 8 elmalı, 12 portakallı ve 4 vişneli meyve suyu vardır. Kantin görevlisi buzdolabına bir mikta… | ✓16

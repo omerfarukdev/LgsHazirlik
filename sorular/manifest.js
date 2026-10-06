@@ -97,5 +97,11 @@ window.LGS_MANIFEST = [
   "fen-sivi-gaz-basinci-1.js",
   "fen-sivi-gaz-basinci-2.js",
   "ink-u3-1.js",
-  "ink-u3-2.js"
+  "ink-u3-2.js",
+  "fen-periyodik-sistem-1.js",
+  "fen-periyodik-sistem-2.js",
+  "mat-olasilik-1.js",
+  "mat-olasilik-2.js",
+  "tur-paragrafta-anlam-37.js",
+  "tur-paragrafta-anlam-38.js"
 ];
