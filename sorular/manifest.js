@@ -109,5 +109,7 @@ window.LGS_MANIFEST = [
   "fen-fiziksel-kimyasal-degisim-1.js",
   "fen-fiziksel-kimyasal-degisim-2.js",
   "tur-paragrafta-anlam-39.js",
-  "tur-paragrafta-anlam-40.js"
+  "tur-paragrafta-anlam-40.js",
+  "tur-paragrafta-anlam-41.js",
+  "tur-paragrafta-anlam-42.js"
 ];
