@@ -115,5 +115,7 @@ window.LGS_MANIFEST = [
   "fen-kimyasal-tepkimeler-1.js",
   "fen-kimyasal-tepkimeler-2.js",
   "din-u3-1.js",
-  "din-u3-2.js"
+  "din-u3-2.js",
+  "tur-paragrafta-anlam-43.js",
+  "tur-paragrafta-anlam-44.js"
 ];
