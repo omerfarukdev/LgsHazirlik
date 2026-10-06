@@ -107,5 +107,7 @@ window.LGS_MANIFEST = [
   "tur-cumle-turleri-1.js",
   "tur-cumle-turleri-2.js",
   "fen-fiziksel-kimyasal-degisim-1.js",
-  "fen-fiziksel-kimyasal-degisim-2.js"
+  "fen-fiziksel-kimyasal-degisim-2.js",
+  "tur-paragrafta-anlam-39.js",
+  "tur-paragrafta-anlam-40.js"
 ];
