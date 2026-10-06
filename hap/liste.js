@@ -28,5 +28,7 @@ window.LGS_HAP_LISTE = [
   "sivi-gaz-basinci.js",
   "ink-3-milli-destan.js",
   "periyodik-sistem.js",
-  "olasilik.js"
+  "olasilik.js",
+  "cumle-turleri.js",
+  "fiziksel-kimyasal-degisim.js"
 ];
