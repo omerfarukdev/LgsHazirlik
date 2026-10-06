@@ -30,5 +30,7 @@ window.LGS_HAP_LISTE = [
   "periyodik-sistem.js",
   "olasilik.js",
   "cumle-turleri.js",
-  "fiziksel-kimyasal-degisim.js"
+  "fiziksel-kimyasal-degisim.js",
+  "kimyasal-tepkimeler.js",
+  "din-3-din-hayat.js"
 ];
