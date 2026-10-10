@@ -83,9 +83,19 @@ Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden dev
 | Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
 | Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
 | Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
-| Aylık değerlendirme | 28 günde bir | İşlenmiş bütün konulardan, LGS'deki soru sayıları oranında 30 soru | `tur: "aylik"` |
+| Aylık değerlendirme | 28 günde bir (aylık deneme açıkken ya da son 28 günde çözüldüyse çıkmaz) | İşlenmiş bütün konulardan, LGS'deki soru sayıları oranında 30 soru | `tur: "aylik"` |
+| Aylık deneme | Bilgi dosyasındaki açılış gününden itibaren ana sayfada | Gerçek LGS düzeni: sözel oturum (Türkçe 20, İnkılap 10, Din 10, İngilizce 10; 75 dk) + sayısal oturum (Matematik 20, Fen 20; 80 dk). Süre dolunca oturum biter, net = D − Y/3, karne ağırlıklı neti (270 üzerinden) gösterir | `tur: "deneme"`, `deneme: "<id>"`, `oturum: 0/1` |
 
 Ünite denemesi ve aylık değerlendirme kademe ilerletmez; sonuç ekranında konu konu (aylıkta ders ders) dağılım ve en zayıf konuya götüren düğme çıkar. Ünite kimlikleri `js/konular.js` içinde (`mat-u1`, `fen-u3`…) ve konu kimlikleri gibi SABİTTİR.
+
+### Aylık deneme dosyaları
+
+Her ay okulda o tarihe kadar işlenen konulardan bir deneme yazılır (1. deneme: 17 Ekim 2026, 14 Eylül – 16 Ekim konuları).
+- `sorular/deneme-N.js`: bilgi. `window.LGS_DENEME_BILGI["deneme-N"] = { ad, acilis: "YYYY-AA-GG", kapsam, bankadan: [id…] }`. `bankadan`, konu bankasından denemeye alınan sorulardır (İngilizce üretimi durdurulduğu için İngilizce bölümü buradan gelir; öğrencinin görmediği sorular seçilir).
+- `sorular/deneme-N-<ders>.js`: yeni sorular, `window.LGS_DENEME["deneme-N"]` dizisine push edilir. Konu bankası biçiminin aynısı; farkı: `kademe` alanı yok, `ders` (konular.js ders id'si) ve `konu` (konu id'si) alanları zorunlu. id: `dnN-<ders kısaltması>-<2 haneli sıra>` (`dn1-tur-01`, `dn1-mat-20`). Yayımlanmış deneme id'si de değişmez.
+- Deneme soruları konu havuzlarına KARIŞMAZ; yalnızca denemede, sonuç incelemesinde ve yanlış defterinde görünür. Sorular TAMAMEN YENİ yazılır: `node dogrula.js` deneme sorularını aynı konunun bankasıyla karşılaştırır ve benzerini uyarır.
+- Zorluk gerçek LGS karması: 20 soruluk derste 5 düzey 2 + 10 düzey 3 + 5 düzey 4; 10 soruluk derste 2/5/3. Okulda henüz işlenmemiş konu sorulmaz (`js/takvim.js`).
+- Deneme dosyaları da üretim prosedüründen geçer (kör doğrulama, düzeltme, ana kontrol) ve `sorular/manifest.js`'e ancak doğrulandıktan sonra, açılış gününden önce eklenir.
 
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)
 

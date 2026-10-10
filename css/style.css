@@ -561,6 +561,10 @@ sup, sub { font-size: .72em; line-height: 0; }
 .deneme-kart .tk-ust { color: var(--vurgu); }
 .aylik-kart { border-color: color-mix(in srgb, var(--vurgu2) 45%, var(--cizgi)); }
 .aylik-kart .tk-ust { color: var(--vurgu2); }
+/* Aylık deneme: iki oturum düğmesi alt alta; dar ekranda kartın tamamını kaplar */
+.deneme-oturumlar { display: flex; flex-direction: column; gap: 8px; min-width: 240px; }
+.deneme-oturumlar .btn { text-align: left; }
+@media (max-width: 620px) { .deneme-oturumlar { width: 100%; min-width: 0; } }
 .unite-btn { margin-left: 10px; vertical-align: 2px; color: var(--vurgu); border-color: color-mix(in srgb, var(--vurgu) 40%, var(--cizgi)); }
 .dagilim-kart { max-width: 980px; margin: 0 auto 18px; }
 .dagilim-kart .tablo { width: 100%; margin-top: 10px; }

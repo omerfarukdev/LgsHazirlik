@@ -9,7 +9,9 @@ var Panel = (function () {
   var DERSLER = window.LGS_KONULAR || [];
   var HARFLER = ["A", "B", "C", "D"];
   var KADEME_AD = { 1: "Kavrama", 2: "Pekiştirme", 3: "LGS Ayarı" };
-  var TUR_AD = { paragraf: "Günün paragrafı", tekrar: "Tekrar testi", unite: "Ünite denemesi", aylik: "Aylık değerlendirme" };
+  var TUR_AD = { paragraf: "Günün paragrafı", tekrar: "Tekrar testi", unite: "Ünite denemesi", aylik: "Aylık değerlendirme", deneme: "Aylık deneme" };
+  var OTURUM_AD = ["Sözel oturum", "Sayısal oturum"];
+  var KATSAYI = { turkce: 4, matematik: 4, fen: 4, inkilap: 1, din: 1, ingilizce: 1 };
   var UNITE = {};
   DERSLER.forEach(function (d) { d.uniteler.forEach(function (u) { UNITE[u.id] = d.ad + " · " + u.ad; }); });
   var NEDEN_AD = { bilgi: "Bilmiyordum", okuma: "Yanlış okudum", islem: "İşlem hatası", sure: "Aceleye geldi", tahmin: "Tahmin ettim" };
@@ -30,8 +32,44 @@ var Panel = (function () {
       Object.keys(window.LGS_BANK || {}).forEach(function (k) {
         window.LGS_BANK[k].forEach(function (q) { soruMap[q.id] = q; soruKonuMap[q.id] = k; });
       });
+      // Aylık deneme soruları ayrı tabloda durur; konuları q.konu alanındadır
+      Object.keys(window.LGS_DENEME || {}).forEach(function (k) {
+        window.LGS_DENEME[k].forEach(function (q) { soruMap[q.id] = q; soruKonuMap[q.id] = q.konu || null; });
+      });
     }
     return soruMap[id] || null;
+  }
+  function soruDersi(id) {
+    var q = soruBul(id);
+    if (q && q.ders) return q.ders;
+    var kb = KONU[soruKonusu(id)];
+    return kb ? kb.ders.id : null;
+  }
+  function testAdi(t) {
+    var kb = KONU[t.konu];
+    if (kb) return esc(kb.konu.ad);
+    if (t.tur === "deneme") {
+      var b = (window.LGS_DENEME_BILGI || {})[t.deneme];
+      return esc(b ? b.ad : "Aylık deneme");
+    }
+    return TUR_AD[t.tur] || "Test";
+  }
+  function testAltAdi(t) {
+    if (KADEME_AD[t.kademe] && KONU[t.konu]) return KADEME_AD[t.kademe];
+    if (t.tur === "deneme") return OTURUM_AD[t.oturum] || "";
+    return t.tur === "paragraf" ? "günlük rutin" : "karışık sorular";
+  }
+  // Deneme kayıtlarını ders ders D/Y/B'ye böler (tek kayıtta altı ders bulunur)
+  function dersDagit(t) {
+    var sonuc = {};
+    t.sorular.forEach(function (id) {
+      var q = soruBul(id), d = soruDersi(id);
+      if (!q || !d) return;
+      var x = sonuc[d] = sonuc[d] || { d: 0, y: 0, b: 0 };
+      var c = t.cevap[id];
+      if (c === undefined) x.b++; else if (c === q.dogru) x.d++; else x.y++;
+    });
+    return sonuc;
   }
   function soruKonusu(id) { soruBul(id); return soruKonuMap ? soruKonuMap[id] : null; }
 
@@ -152,6 +190,15 @@ var Panel = (function () {
       // tablo toplamı üstteki özet kutularıyla tutsun.
       var ders = {};
       g.forEach(function (t) {
+        // Deneme altı dersi birden içerir: sonuçları ait oldukları derslerin satırına dağıtılır
+        if (t.tur === "deneme") {
+          var dag = dersDagit(t);
+          Object.keys(dag).forEach(function (d) {
+            var z = ders[d] = ders[d] || { test: 0, d: 0, y: 0, b: 0, net: 0 };
+            z.test++; z.d += dag[d].d; z.y += dag[d].y; z.b += dag[d].b; z.net += dag[d].d - dag[d].y / 3;
+          });
+          return;
+        }
         var anahtar = t.ders || "_tekrar";
         var x = ders[anahtar] = ders[anahtar] || { test: 0, d: 0, y: 0, b: 0, net: 0 };
         x.test++; x.d += t.d; x.y += t.y; x.b += t.b; x.net += t.net;
@@ -167,9 +214,10 @@ var Panel = (function () {
         if (ders[d.id]) dersSatiri(ders[d.id], "ders-" + d.id, App.ikon(d.id) + esc(d.ad));
       });
       if (ders._tekrar) dersSatiri(ders._tekrar, "", "Karışık testler <span class='soluk kucuk'>(tekrar · ünite denemesi · aylık)</span>");
-      html += '</table></div>';
+      html += '</table><p class="soluk kucuk" style="margin:8px 0 0">Aylık deneme sonuçları ait oldukları derslerin satırına dağıtılır.</p></div>';
     }
 
+    html += denemeKarneleri(tum);
     html += hataAnalizi(g);
     html += kazanimAnalizi(g);
     html += konuHaritasi();
@@ -195,8 +243,7 @@ var Panel = (function () {
       isaretli++;
       if (c === q.dogru) d++; else y++;
     });
-    var kb = KONU[a.konu];
-    var ad = kb ? esc(kb.konu.ad) + " · " + (KADEME_AD[a.kademe] || "") : (TUR_AD[a.tur] || "Test");
+    var ad = testAdi(a) + " · " + testAltAdi(a);
     return '<div class="kart yarim-kart"><h3>Yarım kalan test</h3>' +
       '<p><strong>' + ad + '</strong> · başladı ' + tarihSaat(a.basla) + (a.son ? " · son cevap " + once(a.son) : "") + '</p>' +
       '<div class="ozet">' + kutu(isaretli + " / " + a.sorular.length, "işaretli soru") + kutu(d, "doğru") + kutu(y, "yanlış") +
@@ -322,14 +369,51 @@ var Panel = (function () {
     return html ? '<h2>Konu haritası <span class="soluk kucuk">(her kademedeki en iyi sonuç)</span></h2>' + html : "";
   }
 
+  // Aylık denemeler: her deneme için ders ders net, toplam net ve LGS katsayılarıyla ağırlıklı net.
+  // Dönem filtresinden bağımsızdır (denemeler ayda bir olduğu için hepsi gösterilir, en yenisi üstte).
+  function denemeKarneleri(tum) {
+    var gruplar = {}, sira = [];
+    tum.forEach(function (t) {
+      if (t.tur !== "deneme") return;
+      if (!gruplar[t.deneme]) { gruplar[t.deneme] = []; sira.push(t.deneme); }
+      gruplar[t.deneme].push(t);
+    });
+    if (!sira.length) return "";
+    var html = '<h2>Aylık denemeler</h2>';
+    sira.reverse().forEach(function (id) {
+      var kayitlar = gruplar[id], ders = {}, topNet = 0, agirlik = 0;
+      kayitlar.forEach(function (t) {
+        var dag = dersDagit(t);
+        Object.keys(dag).forEach(function (d) {
+          var x = ders[d] = ders[d] || { d: 0, y: 0, b: 0 };
+          x.d += dag[d].d; x.y += dag[d].y; x.b += dag[d].b;
+        });
+      });
+      var oturumlar = kayitlar.map(function (t) { return OTURUM_AD[t.oturum]; }).join(" + ");
+      html += '<div class="kart tablo-sar"><h3 style="margin:0 0 4px">' + testAdi(kayitlar[0]) + '</h3><p class="soluk kucuk" style="margin:0 0 10px">' +
+        oturumlar + (kayitlar.length < 2 ? " · diğer oturum henüz çözülmedi" : "") + " · " + tarihSaat(kayitlar[kayitlar.length - 1].ts) + '</p>' +
+        '<table class="tablo genis"><tr><th>Ders</th><th>Soru</th><th>D</th><th>Y</th><th>B</th><th>Net</th></tr>';
+      DERSLER.forEach(function (d) {
+        var x = ders[d.id];
+        if (!x) return;
+        var net = x.d - x.y / 3;
+        topNet += net; agirlik += net * (KATSAYI[d.id] || 1);
+        html += '<tr class="ders-' + d.id + '"><td style="text-align:left">' + App.ikon(d.id) + esc(d.ad) + '</td><td>' + (x.d + x.y + x.b) + '</td><td>' + x.d + '</td><td>' + x.y +
+          '</td><td>' + x.b + '</td><td><strong>' + (Math.round(net * 100) / 100).toLocaleString("tr-TR") + '</strong></td></tr>';
+      });
+      html += '</table><p class="soluk kucuk" style="margin:10px 0 0">Toplam net <strong>' + (Math.round(topNet * 100) / 100).toLocaleString("tr-TR") + '</strong>' +
+        (kayitlar.length >= 2 ? ' · ağırlıklı net <strong>' + (Math.round(agirlik * 100) / 100).toLocaleString("tr-TR") + '</strong> / 270' : "") +
+        ' · 3 yanlış 1 doğruyu götürür.</p></div>';
+    });
+    return html;
+  }
+
   function testListesi(g) {
     if (!g.length) return "";
     var html = '<h2>Çözülen testler</h2>';
     g.slice().reverse().forEach(function (t) {
-      var kb = KONU[t.konu];
       html += '<details class="kart test-detay"><summary><span class="rozet ' + sinif(t.oran) + '">%' + yuzde(t.oran) + '</span>' +
-        '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : t.tur === "paragraf" ? "Günün paragrafı" : "Tekrar testi") + ' <span class="soluk">· ' +
-        (KADEME_AD[t.kademe] || (t.tur === "paragraf" ? "günlük rutin" : "karışık sorular")) + '</span>' +
+        '<span class="ls-ad">' + testAdi(t) + ' <span class="soluk">· ' + testAltAdi(t) + '</span>' +
         (t.yarim ? ' <span class="cip">yarıda bırakıldı</span>' : "") + '</span>' +
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +

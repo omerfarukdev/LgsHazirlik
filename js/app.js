@@ -175,22 +175,23 @@ var App = (function () {
     return bank(konuId).filter(function (q) { return q.kademe === k; });
   }
   var soruMap = null, soruKonuMap = null;
+  // Deneme soruları (sorular/deneme-*.js) LGS_DENEME'de durur ve konu havuzlarına karışmaz; ama
+  // sonuç, inceleme ve yanlış defteri onları da bulabilsin diye haritaya eklenir. Konuları q.konu'dadır.
+  function soruHaritasiKur() {
+    soruMap = {}; soruKonuMap = {};
+    Object.keys(window.LGS_BANK || {}).forEach(function (konuId) {
+      window.LGS_BANK[konuId].forEach(function (q) { soruMap[q.id] = q; soruKonuMap[q.id] = konuId; });
+    });
+    Object.keys(window.LGS_DENEME || {}).forEach(function (denemeId) {
+      window.LGS_DENEME[denemeId].forEach(function (q) { soruMap[q.id] = q; soruKonuMap[q.id] = q.konu || null; });
+    });
+  }
   function soruKonusu(id) {
-    if (!soruKonuMap) {
-      soruKonuMap = {};
-      Object.keys(window.LGS_BANK || {}).forEach(function (konuId) {
-        window.LGS_BANK[konuId].forEach(function (q) { soruKonuMap[q.id] = konuId; });
-      });
-    }
+    if (!soruKonuMap) soruHaritasiKur();
     return soruKonuMap[id] || null;
   }
   function soruBul(id) {
-    if (!soruMap) {
-      soruMap = {};
-      Object.keys(window.LGS_BANK || {}).forEach(function (konuId) {
-        window.LGS_BANK[konuId].forEach(function (q) { soruMap[q.id] = q; });
-      });
-    }
+    if (!soruMap) soruHaritasiKur();
     return soruMap[id] || null;
   }
 
@@ -432,10 +433,9 @@ var App = (function () {
     var bugunKonu = bugunKonuTestleri();
     if (gkt && !bugunKonu.length) sira = null;
     if (aktif) {
-      var ak = KONU[aktif.konu];
       html += '<div class="ufuk-adim"><div><span class="ua-ust">Yarım kalan testin</span><span class="ua-ad">' +
-        (ak ? esc(ak.konu.ad) : (TUR_AD[aktif.tur] || "Test")) + '</span>' +
-        '<span class="ua-alt">' + kademeAdi(aktif.kademe) + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
+        esc(testAdi(aktif)) + '</span>' +
+        '<span class="ua-alt">' + testAltAdi(aktif) + " · " + Object.keys(aktif.cevap).length + "/" + aktif.sorular.length + ' soru işaretli</span></div>' +
         '<div class="ua-btn"><button class="btn gunes" onclick="App.git(\'#/test\')">Devam et →</button>' +
         (Object.keys(aktif.cevap).length ? '<button class="btn-yazi" onclick="App.yarimKapat()">Testi burada bitir</button>' : "") +
         '</div></div>';
@@ -445,6 +445,9 @@ var App = (function () {
         '<button class="btn gunes" onclick="App.git(\'#/hazir/' + sira.konu.id + "/" + sira.k + '\')">Başla →</button></div>';
     }
     html += '</div></section>';
+
+    // Aylık deneme: açılış gününden itibaren iki oturumu bitene kadar en üstte durur
+    html += denemeKarti();
 
     // Günün iki işi yan yana: paragraf turu ve konu testi
     html += '<div class="gunun-isleri">';
@@ -539,11 +542,10 @@ var App = (function () {
         (defter ? ' <button class="cip-btn" onclick="App.git(\'#/yanlislar\')">Yanlış defterim · ' + defter + ' soru</button>' : "") +
         '</h2><div class="liste">';
       gecmis.slice(-6).reverse().forEach(function (g) {
-        var kb = KONU[g.konu];
         html += '<button class="liste-satir" onclick="App.git(\'#/sonuc/' + g.ts + '\')">' +
           '<span class="rozet ' + oranSinif(g.oran) + '">%' + yuzde(g.oran) + '</span>' +
-          '<span class="ls-ad">' + (kb ? esc(kb.konu.ad) : (TUR_AD[g.tur] || "Test")) +
-          ' <span class="soluk">· ' + (g.tur === "paragraf" ? "Günlük rutin" : kademeAdi(g.kademe)) + '</span></span>' +
+          '<span class="ls-ad">' + esc(testAdi(g)) +
+          ' <span class="soluk">· ' + testAltAdi(g) + '</span></span>' +
           '<span class="soluk kucuk">' + g.d + "D " + g.y + "Y " + g.b + "B · " + fmtTarih(g.ts) + '</span></button>';
       });
       html += '</div>';
@@ -748,7 +750,7 @@ var App = (function () {
         ? "Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi."
         : "Süre geri sayar. Dolunca test bitmez, çözmeye devam edersin; aştığın süre ayrıca kaydedilir.") +
         ' Mecbur kalırsan “Ara ver” ile çıkabilirsin; süre durur, kaldığın yerden devam edersin.</li>' : "") +
-      '<li>Emin olmadığın soruyu boş bırakabilirsin; 3 yanlış 1 doğruyu götürür.</li>' +
+      '<li>Soru boş kalmasın: kademeyi geçmek doğru sayına bağlı, yanlış senden bir şey götürmez. Emin olmadığın soruda şıkları eleyip işaretle; yanlış çıksa da çözümünü görüp öğrenirsin.</li>' +
       '<li>Test bitince her sorunun adım adım çözümünü göreceksin.</li></ul>' +
       '<button class="btn birincil buyuk" onclick="App.testBaslat(\'' + konuId + "'," + k + ')">Teste başla</button>' +
       (hapVar(konuId) ? '<p class="hap-link"><button class="btn-yazi" onclick="App.git(\'#/hap/' + konuId + "/" + k + '\')">Konu özetini tekrar oku</button></p>' : "") +
@@ -1112,9 +1114,11 @@ var App = (function () {
     return liste;
   }
   function aylikGerekli() {
+    // Aylık deneme açıksa ya da son 28 günde çözüldüyse kısa değerlendirme gerekmez; deneme onun yerini tutar
+    if (acikDeneme()) return false;
     var gecmis = Store.get("gecmis", []);
     for (var i = gecmis.length - 1; i >= 0; i--) {
-      if (gecmis[i].tur === "aylik") return Date.now() - gecmis[i].ts > AYLIK_ARA * GUN;
+      if (gecmis[i].tur === "aylik" || gecmis[i].tur === "deneme") return Date.now() - gecmis[i].ts > AYLIK_ARA * GUN;
     }
     return islenmisKonular().length >= 3;
   }
@@ -1148,6 +1152,180 @@ var App = (function () {
     };
     Store.set("aktif", S);
     git("#/test");
+  }
+
+  // ================= Aylık deneme =================
+  // Gerçek LGS düzeni: sözel oturum (Türkçe 20, İnkılap 10, Din 10, İngilizce 10; 75 dk) ve sayısal
+  // oturum (Matematik 20, Fen 20; 80 dk). Süre dolunca oturum biter; net = D − Y/3. Her deneme yalnızca
+  // okulda o tarihe kadar işlenen konuları kapsar ve sorular konu havuzlarından ayrı, yeni yazılmıştır.
+  // Bilgi: sorular/deneme-N.js (LGS_DENEME_BILGI), sorular: sorular/deneme-N-<ders>.js (LGS_DENEME).
+  var OTURUMLAR = [
+    { ad: "Sözel oturum", sure: 75, dersler: ["turkce", "inkilap", "din", "ingilizce"] },
+    { ad: "Sayısal oturum", sure: 80, dersler: ["matematik", "fen"] }
+  ];
+  function denemeBilgi(id) { return (window.LGS_DENEME_BILGI || {})[id] || null; }
+  function soruDersi(q) {
+    if (q.ders) return q.ders;
+    var kb = KONU[soruKonusu(q.id)];
+    return kb ? kb.ders.id : null;
+  }
+  // Oturumun soruları ders sırasıyla: önce denemeye özel yazılanlar, sonra bilgi dosyasında
+  // bankadan seçilenler (İngilizce üretimi durdurulduğu için İngilizce soruları bankadan gelir)
+  function denemeOturumSorulari(id, o) {
+    var bilgi = denemeBilgi(id);
+    if (!bilgi || !OTURUMLAR[o]) return [];
+    var hepsi = ((window.LGS_DENEME || {})[id] || []).concat((bilgi.bankadan || []).map(soruBul).filter(Boolean));
+    var liste = [];
+    OTURUMLAR[o].dersler.forEach(function (d) {
+      hepsi.forEach(function (q) { if (soruDersi(q) === d) liste.push(q); });
+    });
+    return liste;
+  }
+  function denemeKaydi(id, o) {
+    var gecmis = Store.get("gecmis", []);
+    for (var i = gecmis.length - 1; i >= 0; i--) {
+      if (gecmis[i].tur === "deneme" && gecmis[i].deneme === id && gecmis[i].oturum === o) return gecmis[i];
+    }
+    return null;
+  }
+  function denemeBitti(id) { return !!(denemeKaydi(id, 0) && denemeKaydi(id, 1)); }
+  // Açılış günü gelmiş, iki oturumu bitmemiş ilk deneme
+  function acikDeneme() {
+    var bugun = tarihKey(new Date());
+    var ids = Object.keys(window.LGS_DENEME_BILGI || {}).sort();
+    for (var i = 0; i < ids.length; i++) {
+      var b = denemeBilgi(ids[i]);
+      if (b.acilis <= bugun && !denemeBitti(ids[i]) && denemeOturumSorulari(ids[i], 0).length) return ids[i];
+    }
+    return null;
+  }
+  // Önümüzdeki 7 gün içinde açılacak deneme (ana sayfada önceden haber vermek için)
+  function yaklasanDeneme() {
+    var bugun = tarihKey(new Date()), sinir = tarihKey(new Date(Date.now() + 7 * GUN));
+    var ids = Object.keys(window.LGS_DENEME_BILGI || {}).sort();
+    for (var i = 0; i < ids.length; i++) {
+      var b = denemeBilgi(ids[i]);
+      if (b.acilis > bugun && b.acilis <= sinir) return ids[i];
+    }
+    return null;
+  }
+  function acilisYazi(acilis) {
+    var p = acilis.split("-");
+    return new Date(+p[0], +p[1] - 1, +p[2]).toLocaleDateString("tr-TR", { day: "numeric", month: "long", weekday: "long" });
+  }
+  function denemeKarti() {
+    var id = acikDeneme();
+    if (!id) {
+      var y = yaklasanDeneme();
+      if (!y) return "";
+      return '<section class="kart deneme-kart aylik-kart"><div class="tk-ic"><div class="tk-yazi">' +
+        '<span class="tk-ust">Yaklaşan deneme</span><h2>' + esc(denemeBilgi(y).ad) + '</h2>' +
+        '<p class="soluk">' + esc(acilisYazi(denemeBilgi(y).acilis)) + ' açılıyor. Gerçek LGS gibi iki oturum: sözel 50 soru (75 dk), sayısal 40 soru (80 dk). ' +
+        esc(denemeBilgi(y).kapsam || "") + '</p></div></div></section>';
+    }
+    var b = denemeBilgi(id);
+    var html = '<section class="kart deneme-kart aylik-kart"><div class="tk-ic"><div class="tk-yazi">' +
+      '<span class="tk-ust">Bu haftanın sınavı</span><h2>' + esc(b.ad) + '</h2>' +
+      '<p class="soluk">' + esc(b.kapsam || "") + ' Gerçek LGS gibi: süre dolunca oturum biter, 3 yanlış 1 doğruyu götürür. ' +
+      'İki oturumu aynı gün ya da ayrı günlerde çözebilirsin.</p></div><div class="deneme-oturumlar">';
+    OTURUMLAR.forEach(function (o, i) {
+      var k = denemeKaydi(id, i), n = denemeOturumSorulari(id, i).length;
+      html += k
+        ? '<button class="btn" onclick="App.git(\'#/sonuc/' + k.ts + '\')">' + o.ad + ' ✓ · ' + fmtNet(k.net) + ' net</button>'
+        : '<button class="btn birincil" onclick="App.git(\'#/deneme/' + id + "/" + i + '\')">' + o.ad + ' · ' + n + ' soru · ' + o.sure + ' dk →</button>';
+    });
+    return html + '</div></div></section>';
+  }
+  function denemeEkrani(id, o) {
+    var b = denemeBilgi(id), sorular = denemeOturumSorulari(id, o);
+    if (!b || !sorular.length) return git("#/");
+    var k = denemeKaydi(id, o);
+    if (k) return location.replace("#/sonuc/" + k.ts);
+    if (b.acilis > tarihKey(new Date())) {
+      return render(ustCubuk(esc(b.ad), "#/") + '<div class="kart orta-kart"><h2>' + esc(acilisYazi(b.acilis)) + ' açılacak</h2>' +
+        '<p class="soluk">Deneme o gün sabahtan itibaren burada olacak.</p></div>');
+    }
+    var say = {};
+    sorular.forEach(function (q) { var d = soruDersi(q); say[d] = (say[d] || 0) + 1; });
+    var html = ustCubuk(esc(b.ad) + ' <span class="soluk">· ' + OTURUMLAR[o].ad + '</span>', "#/") +
+      '<div class="kart orta-kart"><h2>' + OTURUMLAR[o].ad + '</h2><p class="soluk">' + esc(b.kapsam || "") + '</p>' +
+      '<div class="ozet">' + ozetKutu(sorular.length, "soru") + ozetKutu(OTURUMLAR[o].sure + " dk", "süre") + '</div>' +
+      '<p class="soluk">' + OTURUMLAR[o].dersler.filter(function (d) { return say[d]; })
+        .map(function (d) { return esc(dersBul(d).ad) + " " + say[d]; }).join(" · ") + '</p>' +
+      '<ul class="ipucu"><li>Gerçek sınav gibi otur: masada yalnızca kâğıt, kalem ve su olsun; telefonu başka odaya bırak.</li>' +
+      '<li>Süre geri sayar ve dolunca oturum kendiliğinden biter.</li>' +
+      '<li>3 yanlış 1 doğruyu götürür. İki şıkkı eleyebildiğin soruyu işaretle; hiç fikrin olmayan soruyu boş bırakabilirsin.</li>' +
+      '<li>Bir soruya takılırsan “Sonra bak” ile işaretle, sona sakla. Önce bildiklerini topla.</li>' +
+      '<li>Bitince ders ders netini ve her sorunun çözümünü göreceksin.</li></ul>' +
+      '<button class="btn birincil buyuk" onclick="App.denemeBaslat(\'' + id + "'," + o + ')">Oturumu başlat</button></div>';
+    render(html);
+  }
+  function denemeBaslat(id, o) {
+    if (yarimSor(function () { denemeBaslat(id, o); })) return;
+    var sorular = denemeOturumSorulari(id, o);
+    if (!sorular.length || denemeKaydi(id, o)) return git("#/");
+    S = {
+      tur: "deneme", deneme: id, oturum: o, ders: null, konu: null, kademe: 0,
+      sorular: sorular.map(function (q) { return q.id; }),
+      cevap: {}, isaret: {}, sureSoru: {}, idx: 0, gecen: 0,
+      oneri: OTURUMLAR[o].sure * 60, basla: Date.now()
+    };
+    Store.set("aktif", S);
+    git("#/test");
+  }
+  // Ders ders net tablosu: bir oturumun ya da iki oturum bitince bütün denemenin
+  var KATSAYI = { turkce: 4, matematik: 4, fen: 4, inkilap: 1, din: 1, ingilizce: 1 };
+  function denemeKarnesi(id, kayitlar) {
+    var ders = {}, sira = [];
+    kayitlar.forEach(function (k) {
+      k.sorular.forEach(function (qid) {
+        var q = soruBul(qid);
+        if (!q) return;
+        var d = soruDersi(q);
+        if (!ders[d]) { ders[d] = { d: 0, y: 0, b: 0 }; sira.push(d); }
+        var c = k.cevap[qid];
+        if (c === undefined) ders[d].b++; else if (c === q.dogru) ders[d].d++; else ders[d].y++;
+      });
+    });
+    var topNet = 0, agirlik = 0;
+    var html = '<table class="tablo genis"><tr><th>Ders</th><th>Soru</th><th>D</th><th>Y</th><th>B</th><th>Net</th></tr>';
+    sira.forEach(function (d) {
+      var x = ders[d], net = x.d - x.y / 3;
+      topNet += net;
+      agirlik += net * (KATSAYI[d] || 1);
+      html += '<tr><td style="text-align:left">' + esc(dersBul(d) ? dersBul(d).ad : d) + '</td><td>' + (x.d + x.y + x.b) + '</td><td>' + x.d +
+        '</td><td>' + x.y + '</td><td>' + x.b + '</td><td><strong>' + fmtNet(net) + '</strong></td></tr>';
+    });
+    html += '</table>';
+    return { html: html, net: topNet, agirlik: agirlik };
+  }
+  function denemeSonucKarti(kayit) {
+    var id = kayit.deneme, b = denemeBilgi(id);
+    var tum = denemeBitti(id);
+    var kayitlar = tum ? [denemeKaydi(id, 0), denemeKaydi(id, 1)] : [kayit];
+    var karne = denemeKarnesi(id, kayitlar);
+    var html = '<div class="kart dagilim-kart"><h3>' + (tum ? esc(b ? b.ad : "Deneme") + " · karne" : OTURUMLAR[kayit.oturum].ad + " · ders ders net") + '</h3>' + karne.html +
+      '<p class="soluk kucuk" style="margin:10px 0 0">Toplam net <strong>' + fmtNet(karne.net) + '</strong>' +
+      (tum ? ' · ağırlıklı net <strong>' + fmtNet(karne.agirlik) + '</strong> / 270 (LGS katsayıları: Türkçe, Matematik ve Fen 4; İnkılap, Din ve İngilizce 1)' : "") +
+      '. Net = doğru − yanlış ÷ 3.</p>';
+    var diger = 1 - kayit.oturum;
+    if (!tum && !denemeKaydi(id, diger)) {
+      html += '<p style="margin:12px 0 0"><button class="btn birincil" onclick="App.git(\'#/deneme/' + id + "/" + diger + '\')">' +
+        OTURUMLAR[diger].ad + 'a geç →</button></p>';
+    }
+    return html + '</div>';
+  }
+  // Test başlığı ve listelerde kullanılan ad: konu adı ya da test türü (denemede deneme adı)
+  function testAdi(t) {
+    var kb = KONU[t.konu];
+    if (kb) return kb.konu.ad;
+    if (t.tur === "deneme") { var b = denemeBilgi(t.deneme); return b ? b.ad : "Deneme"; }
+    return TUR_AD[t.tur] || "Test";
+  }
+  function testAltAdi(t) {
+    if (t.tur === "deneme") return OTURUMLAR[t.oturum] ? OTURUMLAR[t.oturum].ad : "Deneme";
+    if (t.tur === "paragraf") return "Günlük rutin";
+    return kademeAdi(t.kademe);
   }
 
   function tekrarBaslat() {
@@ -1191,30 +1369,32 @@ var App = (function () {
         if (et) et.textContent = sureEtiketi();
       }
       if (S.gecen % 5 === 0) Store.set("aktif", S);
-      if (AYAR.sureSiniri && S.gecen >= S.oneri && !S.sureDoldu) {
+      if (sinirli() && S.gecen >= S.oneri && !S.sureDoldu) {
         S.sureDoldu = true;
         // Süre bitti: ya testi kes (gerçek sınav gibi) ya da aşıma geçip devam et.
         // Aşım süresi kaydedilir ve sonuçta gösterilir; amaç öğrenciyi kesmeden
-        // tempoyu görünür kılmak.
-        if (AYAR.sureBitinceKes) return bitirOnay();
+        // tempoyu görünür kılmak. Deneme her zaman kesilir.
+        if (AYAR.sureBitinceKes || S.tur === "deneme") return bitirOnay();
         testCiz(); // başlık "Aşım" moduna geçsin
       }
     }, 1000);
   }
+  // Süre geri sayar mı? Ayar açıksa her testte, denemede her zaman.
+  function sinirli() { return !!AYAR.sureSiniri || !!(S && S.tur === "deneme"); }
   function sureAsim() { return Math.max(0, S.gecen - S.oneri); }
   function sureYazi() {
-    if (!AYAR.sureSiniri) return fmtSure(S.gecen);
+    if (!sinirli()) return fmtSure(S.gecen);
     var kalan = S.oneri - S.gecen;
     return kalan >= 0 ? fmtSure(kalan) : "+" + fmtSure(-kalan);
   }
   function sureSinif() {
     var kalan = S.oneri - S.gecen;
-    if (!AYAR.sureSiniri) return "sure";
+    if (!sinirli()) return "sure";
     if (kalan < 0) return "sure asim";
     return "sure" + (kalan <= (AYAR.sureUyari || 120) ? " az" : "");
   }
   function sureEtiketi() {
-    if (!AYAR.sureSiniri) return "Süre";
+    if (!sinirli()) return "Süre";
     return S.gecen >= S.oneri ? "Süreyi aştın" : "Kalan süre";
   }
   function zamanlayiciDurdur() {
@@ -1237,9 +1417,9 @@ var App = (function () {
     var kb = KONU[S.konu], n = S.sorular.length;
     var secili = S.cevap[q.id];
     var html = '<header class="test-ust">' +
-      '<div class="tu-sol"><strong>' + (kb ? esc(kb.konu.ad) : (TUR_AD[S.tur] || "Test")) + '</strong>' +
+      '<div class="tu-sol"><strong>' + esc(testAdi(S)) + '</strong>' +
       (kb ? '<span class="soluk"> · ' + KADEMELER[S.kademe].ad + '</span>'
-          : '<span class="soluk"> · ' + (S.tur === "paragraf" ? "günlük rutin" : S.tur === "unite" ? "ünite denemesi" : S.tur === "aylik" ? "aylık değerlendirme" : "karışık sorular") + '</span>') + '</div>' +
+          : '<span class="soluk"> · ' + (S.tur === "paragraf" ? "günlük rutin" : S.tur === "unite" ? "ünite denemesi" : S.tur === "aylik" ? "aylık değerlendirme" : S.tur === "deneme" ? testAltAdi(S).toLocaleLowerCase("tr-TR") : "karışık sorular") + '</span>') + '</div>' +
       '<div class="tu-sag"><span id="sure-etiket" class="soluk kucuk">' + sureEtiketi() + '</span>' +
       '<span id="sure" class="' + sureSinif() + '">' + sureYazi() + '</span>' +
       '<button class="btn" onclick="App.araVer()" title="Süre durur, ana sayfadan devam edebilirsin">❙❙ Ara ver</button>' +
@@ -1252,7 +1432,8 @@ var App = (function () {
     });
     html += '</div>';
 
-    html += '<div class="kart soru-kart"><div class="soru-no">Soru ' + (S.idx + 1) + ' / ' + n + '</div>' +
+    var dersYazi = S.tur === "deneme" && dersBul(soruDersi(q)) ? " · " + esc(dersBul(soruDersi(q)).ad) : "";
+    html += '<div class="kart soru-kart"><div class="soru-no">Soru ' + (S.idx + 1) + ' / ' + n + dersYazi + '</div>' +
       '<div class="soru-metin">' + bicim(q.soru) + '</div>' +
       (q.gorsel ? '<div class="gorsel">' + q.gorsel + '</div>' : "") +
       '<div class="secenekler">';
@@ -1297,10 +1478,14 @@ var App = (function () {
   function bitir() {
     var bos = S.sorular.length - Object.keys(S.cevap).length;
     var isaretli = Object.keys(S.isaret).length;
-    var mesaj = bos
-      ? "<strong>" + bos + " soru boş.</strong> Boş bırakmak yanlış yapmaktan iyidir, ama önce bir daha bakmak ister misin?" +
-        " Cevaplamadığın sorular havuzda kalır, ileride yine karşına çıkar."
-      : "Bütün soruları işaretledin.";
+    // Konu testinde geçme doğru sayısına bağlıdır, yanlış bir şey götürmez: boş bırakmak hiçbir zaman
+    // kazandırmaz. Denemede ise 3 yanlış 1 doğruyu götürür (10 Ekim 2026: öğrenci konu testinde
+    // gördüğü 25 sorunun 8'ini boş bırakıp %48'de kaldı; eski metin "boş bırakmak daha iyi" diyordu).
+    var mesaj = !bos ? "Bütün soruları işaretledin."
+      : S.tur === "deneme"
+        ? "<strong>" + bos + " soru boş.</strong> Denemede 3 yanlış 1 doğruyu götürür; iki şıkkı eleyebildiğin bir soru varsa işaretlemek yine de kârlıdır. Bir daha bakmak ister misin?"
+        : "<strong>" + bos + " soru boş.</strong> Bu testte yanlış senden bir şey götürmez; boş bıraktığın soru ise doğru sayılmaz. " +
+          "Şıkları eleyip bir tahminde bulunmak her zaman daha iyi. Bir daha bakmak ister misin?";
     if (isaretli) mesaj += "<br>“Sonra bak” dediğin " + isaretli + " soru var.";
     modal('<h3>Test bitirilsin mi?</h3><p>' + mesaj + '</p><div class="modal-btn">' +
       '<button class="btn" onclick="App.modalKapat()">Teste dön</button>' +
@@ -1344,6 +1529,7 @@ var App = (function () {
       sorular: S.sorular, cevap: S.cevap, sureSoru: S.sureSoru, neden: {}
     };
     if (yarim) kayit.yarim = true;
+    if (S.tur === "deneme") { kayit.deneme = S.deneme; kayit.oturum = S.oturum; }
     var gecmis = Store.get("gecmis", []);
     gecmis.push(kayit);
     Store.set("gecmis", gecmis);
@@ -1384,9 +1570,10 @@ var App = (function () {
     });
     Bulut.gonder("test", {
       ts: kayit.ts, tur: kayit.tur, ders: kayit.ders, konu: kayit.konu, kademe: kayit.kademe,
-      dersAd: kb ? kb.ders.ad : (kayit.tur === "paragraf" ? "Türkçe" : "Karışık"),
-      konuAd: kb ? kb.konu.ad : (kayit.tur === "paragraf" ? "Günün paragrafı" : "Yanlışlarını tekrar"),
-      kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : (kayit.tur === "paragraf" ? "Günlük rutin" : "Tekrar"),
+      deneme: kayit.deneme || null, oturum: kayit.oturum === undefined ? null : kayit.oturum,
+      dersAd: kb ? kb.ders.ad : (kayit.tur === "paragraf" ? "Türkçe" : kayit.tur === "deneme" ? "Deneme" : "Karışık"),
+      konuAd: kb ? kb.konu.ad : (kayit.tur === "paragraf" ? "Günün paragrafı" : kayit.tur === "deneme" ? testAdi(kayit) : "Yanlışlarını tekrar"),
+      kademeAd: KADEMELER[kayit.kademe] ? KADEMELER[kayit.kademe].ad : (kayit.tur === "paragraf" ? "Günlük rutin" : kayit.tur === "deneme" ? testAltAdi(kayit) : "Tekrar"),
       d: d, y: y, b: b, net: kayit.net, oran: kayit.oran, sure: kayit.sure, sureDoldu: kayit.sureDoldu, asim: kayit.asim, hedefSure: kayit.hedefSure,
       sureSoru: kayit.sureSoru, yanlislar: yanlislar
     }, "test-" + kayit.ts);
@@ -1406,7 +1593,7 @@ var App = (function () {
     bekleyenBaslat = baslat;
     var kb = KONU[a.konu];
     modal('<h3>Yarım kalan bir testin var</h3><p><strong>' +
-      (kb ? esc(kb.konu.ad) + " · " + kademeAdi(a.kademe) : (TUR_AD[a.tur] || "Test")) +
+      (kb || a.tur === "deneme" ? esc(testAdi(a)) + " · " + testAltAdi(a) : (TUR_AD[a.tur] || "Test")) +
       "</strong> testinde " + Object.keys(a.cevap).length + " / " + a.sorular.length + " soruyu işaretledin. " +
       "Yenisine geçersen o test burada biter ve çözdüklerin kaydedilir.</p>" +
       '<div class="modal-btn"><button class="btn" onclick="App.yarimDon()">Yarım testime dön</button>' +
@@ -1557,7 +1744,7 @@ var App = (function () {
       '</strong>. Önce oranın çözümlerini oku.</p></div>';
     return html;
   }
-  var TUR_AD = { paragraf: "Günün paragrafı", tekrar: "Tekrar testi", unite: "Ünite denemesi", aylik: "Aylık değerlendirme" };
+  var TUR_AD = { paragraf: "Günün paragrafı", tekrar: "Tekrar testi", unite: "Ünite denemesi", aylik: "Aylık değerlendirme", deneme: "Aylık deneme" };
   // Karma testte en düşük başarıyla çıkılan konu (en az 3 soru gelmişse ve sağlam değilse)
   function enZayifKonu(kayit) {
     var grup = {}, en = null;
@@ -1585,7 +1772,12 @@ var App = (function () {
     // Düşük sonuçta "acele ettin" demeden önce süreye bak: öğrenci hedef süreyi büyük ölçüde
     // kullandıysa sorun hız değildir, yanlış teşhis haksızlık olur.
     var aceleEtti = kayit.hedefSure ? kayit.sure < kayit.hedefSure * 0.6 : false;
-    var mesaj = pg
+    var dn = kayit.tur === "deneme";
+    var mesaj = dn
+      ? (sinif === "iyi" ? "Çok iyi bir oturum. Gerçek sınav düzeninde de bildiklerini topluyorsun."
+        : sinif === "orta" ? "İyi bir başlangıç. Aşağıdaki tabloda netin en düşük olduğu dersin yanlışlarını incele."
+        : "İlk denemeler hep zor geçer; amaç yerini görmek. Aşağıdaki tabloda en düşük netli dersten başla, yanlışlarının çözümünü oku.")
+      : pg
       ? (sinif === "iyi" ? "Okuduğunu iyi çözümlüyorsun. Bu rutini her gün sürdür."
         : sinif === "orta" ? "Fena değil. Yanlışlarını okurken metnin neresini atladığına dikkat et."
         : aceleEtti
@@ -1605,17 +1797,20 @@ var App = (function () {
     }
 
     var ub = kayit.unite ? uniteBul(kayit.unite) : null;
-    var html = ustCubuk((TUR_AD[kayit.tur] || "Test") + (ub ? ' <span class="soluk">· ' + esc(ub.ders.ad) + " " + esc(ub.unite.ad) + "</span>" : ""), "#/");
+    var html = ustCubuk(dn ? esc(testAdi(kayit)) + ' <span class="soluk">· ' + testAltAdi(kayit) + '</span>'
+      : (TUR_AD[kayit.tur] || "Test") + (ub ? ' <span class="soluk">· ' + esc(ub.ders.ad) + " " + esc(ub.unite.ad) + "</span>" : ""), "#/");
     html += '<div class="kart sonuc-kart">' + halka(kayit.oran, sinif) +
       '<div class="sonuc-sag"><p class="sonuc-mesaj">' + mesaj + '</p><div class="ozet">' +
       ozetKutu(kayit.d, "doğru") + ozetKutu(kayit.y, "yanlış") + ozetKutu(kayit.b, "boş") +
-      ozetKutu(fmtSureYazi(kayit.sure), "süre") + asimKutusu(kayit) + '</div>' +
+      (dn ? ozetKutu(fmtNet(kayit.net), "net") : "") +
+      ozetKutu(fmtSureYazi(kayit.sure), "süre") + (dn ? "" : asimKutusu(kayit)) + '</div>' +
       '<div class="sonuc-btn">' + (sonrakiKonu ? konuTestiDugmesi(sonrakiKonu, true) : "") +
       (pg ? '<button class="btn" onclick="App.paragrafBaslat()">Bir tur daha</button>' : "") +
       zayifButon(kayit) +
       '<button class="btn' + (sonrakiKonu ? "" : " birincil") + '" onclick="App.git(\'#/\')">Ana sayfaya dön</button></div></div></div>';
 
     if (pg) html += tuzakOzeti(kayit);
+    if (dn) html += denemeSonucKarti(kayit);
     if (kayit.tur === "unite" || kayit.tur === "aylik" || kayit.tur === "tekrar") html += dagilimTablosu(kayit);
 
     html += '<div class="filtre">' + filtreBtn("hepsi", "Hepsi (" + n + ")", kayit.ts) +
@@ -1626,7 +1821,7 @@ var App = (function () {
   }
   // Karma testten sonra en zayıf konuya götüren düğme: önce özet, özeti yoksa konunun kademeleri
   function zayifButon(kayit) {
-    if (kayit.tur !== "unite" && kayit.tur !== "aylik") return "";
+    if (kayit.tur !== "unite" && kayit.tur !== "aylik" && kayit.tur !== "deneme") return "";
     var k = enZayifKonu(kayit);
     if (!k) return "";
     var kb = KONU[k];
@@ -1988,6 +2183,7 @@ var App = (function () {
     if (p[0] === "hazir" && KONU[p[1]]) return hazirEkrani(p[1], +p[2]);
     if (p[0] === "hap" && KONU[p[1]]) return hapEkrani(p[1], p[2] === "p" ? "p" : +p[2] || 0);
     if (p[0] === "yanlislar") return yanlislarEkrani();
+    if (p[0] === "deneme" && denemeBilgi(p[1])) return denemeEkrani(p[1], +p[2] || 0);
     if (p[0] === "test") {
       S = S || Store.get("aktif", null);
       if (S && soruBul(S.sorular[S.idx])) return testEkrani();
@@ -2079,7 +2275,7 @@ var App = (function () {
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
     tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti,
-    uniteBaslat: uniteBaslat, aylikBaslat: aylikBaslat,
+    uniteBaslat: uniteBaslat, aylikBaslat: aylikBaslat, denemeBaslat: denemeBaslat,
     araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, yarimKapat: yarimKapat, yarimKapatOnay: yarimKapatOnay,
     raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
     bicim: bicim, ikon: ikon, _ufuk: ufukSVG, _paragrafSorulari: paragrafSorulari

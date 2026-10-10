@@ -123,5 +123,7 @@ window.LGS_MANIFEST = [
   "mat-cebirsel-ifadeler-1.js",
   "mat-cebirsel-ifadeler-2.js",
   "fen-asitler-bazlar-1.js",
-  "fen-asitler-bazlar-2.js"
+  "fen-asitler-bazlar-2.js",
+  "tur-paragrafta-anlam-47.js",
+  "tur-paragrafta-anlam-48.js"
 ];
