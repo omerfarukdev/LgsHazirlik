@@ -117,5 +117,7 @@ window.LGS_MANIFEST = [
   "din-u3-1.js",
   "din-u3-2.js",
   "tur-paragrafta-anlam-43.js",
-  "tur-paragrafta-anlam-44.js"
+  "tur-paragrafta-anlam-44.js",
+  "tur-paragrafta-anlam-45.js",
+  "tur-paragrafta-anlam-46.js"
 ];
