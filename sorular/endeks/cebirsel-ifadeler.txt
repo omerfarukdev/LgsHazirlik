@@ -1,0 +1,90 @@
+mat-ci-101 | M.8.2.1.1 | z1 | k1 | 3x^{2} − 5x + 7 cebirsel ifadesinde x^{2} içeren terimin katsayısı kaçtır? | ✓3
+mat-ci-102 | M.8.2.1.1 | z1 | k1 | 5a + 2b − 3 cebirsel ifadesinin sabit terimi aşağıdakilerden hangisidir? | ✓−3
+mat-ci-103 | M.8.2.1.1 | z1 | k1 | Bir kırtasiyede defterin fiyatı x TL, kalemin fiyatı y TL'dir. Ece, bu kırtasiyeden 4 defter ve 3 kalem almıştır. Ece'nin ödediği… | ✓4x + 3y
+mat-ci-104 | M.8.2.1.1 | z1 | k1 | Kenar uzunlukları a cm ve b cm olan dikdörtgen biçimli bir resim, şekildeki gibi çerçevelenecektir. Resmin çevresini gösteren ifa… | ✓2a + 2b
+mat-ci-105 | M.8.2.1.1 | z1 | k1 | Şekilde bir cebir karoları takımı verilmiştir. Büyük kare x^{2}, uzun dikdörtgen x ve küçük kare 1 birimi göstermektedir. Bu karo… | ✓2x^{2} + 3x + 4
+mat-ci-106 | M.8.2.1.2 | z1 | k1 | x(x + 6) çarpımının eşiti aşağıdakilerden hangisidir? | ✓x^{2} + 6x
+mat-ci-107 | M.8.2.1.2 | z1 | k1 | 2y(3y − 1) çarpımının eşiti aşağıdakilerden hangisidir? | ✓6y^{2} − 2y
+mat-ci-108 | M.8.2.1.3 | z1 | k1 | (x + 3)^{2} ifadesinin açılımı aşağıdakilerden hangisidir? | ✓x^{2} + 6x + 9
+mat-ci-109 | M.8.2.1.3 | z1 | k1 | (a − 5)(a + 5) çarpımının eşiti aşağıdakilerden hangisidir? | ✓a^{2} − 25
+mat-ci-110 | M.8.2.1.4 | z1 | k1 | 4x + 8 ifadesinin ortak çarpan parantezine alınmış biçimi aşağıdakilerden hangisidir? | ✓4(x + 2)
+mat-ci-111 | M.8.2.1.4 | z1 | k1 | x^{2} − 49 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓(x − 7)(x + 7)
+mat-ci-112 | M.8.2.1.4 | z1 | k1 | x^{2} + 10x + 25 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓(x + 5)^{2}
+mat-ci-113 | M.8.2.1.1 | z2 | k1 | Dikdörtgen biçimli bir bahçenin kısa kenarı x metredir. Uzun kenarı, kısa kenarından 3 metre fazladır. Bahçenin çevresini metre c… | ✓4x + 6
+mat-ci-114 | M.8.2.1.2 | z2 | k1 | (x + 2)(x + 5) çarpımı aşağıdakilerden hangisine eşittir? | ✓x^{2} + 7x + 10
+mat-ci-115 | M.8.2.1.2 | z2 | k1 | Şekildeki dikdörtgen, bölmelerle dört parçaya ayrılmıştır. Uzunluklar cm cinsinden verilmiştir. Dikdörtgenin alanını gösteren ifa… | ✓2x^{2} + 7x + 3
+mat-ci-116 | M.8.2.1.2 | z2 | k1 | 3x(x + 2) + x ifadesinin en sade biçimi aşağıdakilerden hangisidir? | ✓3x^{2} + 7x
+mat-ci-117 | M.8.2.1.2 | z2 | k1 | Bir kurye, (x + 4) gün boyunca her gün (3x − 2) paket dağıtmıştır. Kuryenin dağıttığı toplam paket sayısını gösteren ifade aşağıd… | ✓3x^{2} + 10x − 8
+mat-ci-118 | M.8.2.1.3 | z2 | k1 | (2x + 3)^{2} ifadesinin açılımı aşağıdakilerden hangisidir? | ✓4x^{2} + 12x + 9
+mat-ci-119 | M.8.2.1.3 | z2 | k1 | (3a − 4b)^{2} ifadesinin açılımı aşağıdakilerden hangisidir? | ✓9a^{2} − 24ab + 16b^{2}
+mat-ci-120 | M.8.2.1.3 | z2 | k1 | Kenar uzunluğu x cm olan kare biçimli bir kartonun her kenarı, şekildeki gibi 3 cm uzatılarak daha büyük bir kare elde ediliyor. … | ✓6x + 9
+mat-ci-121 | M.8.2.1.3 | z2 | k1 | Mert, 75^{2} − 25^{2} işlemini hesap makinesi kullanmadan yapmak için iki kare farkı özdeşliğinden yararlanıyor. Bu işlemin sonuc… | ✓5000
+mat-ci-122 | M.8.2.1.4 | z2 | k1 | Bir kafenin günlük geliri 6x^{2} + 9x TL ifadesiyle hesaplanıyor. Muhasebeci, hesabı kolaylaştırmak için bu ifadeyi ortak çarpan … | ✓3x(2x + 3)
+mat-ci-123 | M.8.2.1.4 | z2 | k1 | 16a^{2} − 25 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓(4a − 5)(4a + 5)
+mat-ci-124 | M.8.2.1.4 | z2 | k1 | 4x^{2} + 20x + 25 ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓(2x + 5)^{2}
+mat-ci-125 | M.8.2.1.4 | z2 | k1 | Kenar uzunluğu x cm olan kare biçimli bir kartonun köşesinden, kenarı 3 cm olan bir kare şekildeki gibi kesilip atılmıştır. Kalan… | ✓(x − 3)(x + 3)
+mat-ci-201 | M.8.2.1.1 | z2 | k2 | 4x^{2} − 7x + 9 cebirsel ifadesindeki bütün terimlerin katsayılarının toplamı kaçtır? | ✓6
+mat-ci-202 | M.8.2.1.1 | z2 | k2 | Bir atölyede n tane ürün üretmenin maliyeti n^{2} − 4n + 20 TL olarak hesaplanmaktadır. 6 ürün üretmenin maliyeti kaç TL'dir? | ✓32
+mat-ci-203 | M.8.2.1.1 | z2 | k2 | Ayşe'nin yaşı a'dır. Annesinin yaşı, Ayşe'nin yaşının 3 katından 4 fazladır. Babası da annesinden 5 yaş büyüktür. Üçünün yaşları … | ✓7a + 13
+mat-ci-204 | M.8.2.1.1 | z2 | k2 | Kenar uzunlukları şekilde verilen dikdörtgen biçimli bir panonun etrafına kenarlık takılacaktır. Uzunluklar cm cinsindendir. Pano… | ✓6x + 2
+mat-ci-205 | M.8.2.1.2 | z2 | k2 | Bir bisikletli, (x + 6) km/sa sabit hızla (x − 3) saat pedal çevirmiştir. Bisikletlinin aldığı yolu km cinsinden gösteren ifade a… | ✓x^{2} + 3x − 18
+mat-ci-206 | M.8.2.1.2 | z2 | k2 | (−2a)(3a − 5) çarpımı aşağıdakilerden hangisine eşittir? | ✓−6a^{2} + 10a
+mat-ci-207 | M.8.2.1.2 | z2 | k2 | Bir kitapçıda her kitabın fiyatı (x + 4) TL'dir. Bir gün içinde (2x − 3) kitap satılmıştır. O günkü kitap satışından elde edilen … | ✓2x^{2} + 5x − 12
+mat-ci-208 | M.8.2.1.3 | z2 | k2 | Selin, 103^{2} işlemini hesap makinesi kullanmadan yapmak için 103 sayısını 100 + 3 biçiminde yazıp tam kare özdeşliğinden yararl… | ✓10609
+mat-ci-209 | M.8.2.1.3 | z2 | k2 | Kenarı x cm olan kare biçimli bir fotoğrafın dört yanına, şekildeki gibi 2 cm genişliğinde bir çerçeve yapılacaktır. Çerçevenin k… | ✓8x + 16
+mat-ci-210 | M.8.2.1.3 | z2 | k2 | Aşağıdaki eşitliklerden hangisi yanlıştır? | ✓(2a + 1)^{2} = 4a^{2} + 1
+mat-ci-211 | M.8.2.1.4 | z2 | k2 | 10a + 15b ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓5(2a + 3b)
+mat-ci-212 | M.8.2.1.4 | z2 | k2 | 49 − 9m^{2} ifadesinin çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓(7 − 3m)(7 + 3m)
+mat-ci-213 | M.8.2.1.4 | z2 | k2 | Alanı x^{2} + 12x + 36 cm^{2} olan kare biçimli bir bahçenin çevresine tel çekilecektir. Bahçenin çevresini gösteren ifade aşağıd… | ✓4x + 24
+mat-ci-214 | M.8.2.1.2 | z3 | k2 | Dikdörtgen biçimli bir bahçenin kısa kenarı (x + 3) metre, uzun kenarı (2x + 5) metredir. Bahçenin bir köşesine, kenarı x metre o… | ✓x^{2} + 11x + 15
+mat-ci-215 | M.8.2.1.2 | z3 | k2 | Bir okulun konferans salonunda (x + 3) sıra vardır ve her sırada (2x − 1) koltuk bulunmaktadır. Bir etkinlikte 4 koltuk teknik ek… | ✓2x^{2} + 5x − 7
+mat-ci-216 | M.8.2.1.2 | z3 | k2 | Şekilde bir köşesi dikdörtgen biçiminde kesilmiş, L biçimli bir tarlanın ölçüleri metre cinsinden verilmiştir. Büyük dikdörtgenin… | ✓2x^{2} + 9x + 12
+mat-ci-217 | M.8.2.1.2 | z3 | k2 | Bir sitede iki dikdörtgen biçimli bahçe vardır. Birinci bahçenin kenarları (x + 2) m ve (x + 5) m, ikinci bahçenin kenarları (x +… | ✓2
+mat-ci-218 | M.8.2.1.3 | z3 | k2 | Kenarı (x + 6) metre olan kare biçimli bir bahçenin bir kenarı 3 metre kısaltılıp komşu kenarı 3 metre uzatılarak dikdörtgen biçi… | ✓Alan 9 m^{2} azalmıştır.
+mat-ci-219 | M.8.2.1.3 | z3 | k2 | İki kare biçimli seramiğin kenar uzunlukları a cm ve b cm'dir. Kenar uzunluklarının toplamı 9 cm, kenar uzunluklarının çarpımı 14… | ✓53
+mat-ci-220 | M.8.2.1.3 | z3 | k2 | İki kare biçimli bahçenin kenar uzunlukları (2a + 3) m ve (2a − 3) m'dir. Bu bahçelerin alanları farkını gösteren en sade ifade a… | ✓24a
+mat-ci-221 | M.8.2.1.3 | z3 | k2 | Kenarı (x + 5) cm olan kare biçimli bir kartonun bir köşesinden, kenarı 5 cm olan kare şekildeki gibi kesilip atılıyor. Kalan L b… | ✓4x + 20
+mat-ci-222 | M.8.2.1.4 | z3 | k2 | Dikdörtgen biçimli bir panonun alanı x^{2} − 81 cm^{2}, bir kenarının uzunluğu (x − 9) cm'dir. Panonun çevresine kenarlık takılac… | ✓4x
+mat-ci-223 | M.8.2.1.4 | z3 | k2 | Alanı 2x^{2} − 18 cm^{2} olan dikdörtgen biçimli bir kartonun bir kenarının uzunluğu 2(x − 3) cm'dir. Kartonun diğer kenarının uz… | ✓x + 3
+mat-ci-224 | M.8.2.1.4 | z3 | k2 | Zeynep, x = 97 için x^{2} + 6x + 9 ifadesinin değerini hesap makinesi kullanmadan bulmak istiyor. İfadeyi önce çarpanlarına ayırı… | ✓10000
+mat-ci-225 | M.8.2.1.4 | z3 | k2 | Bir atölyede kenarı 53 cm olan kare biçimli 2 metal levha ile kenarı 47 cm olan kare biçimli 2 metal levha vardır. Mehmet, iki gr… | ✓1200
+mat-ci-301 | M.8.2.1.1 | z3 | k3 | Bir kafede masa başına 5 TL servis ücreti alınmakta, ayrıca sipariş edilen her ürün için tablodaki birim fiyatlar ödenmektedir. B… | ✓İfade üç terimlidir ve a = 2, b = 3 için değ…
+mat-ci-302 | M.8.2.1.2 | z3 | k3 | Dikdörtgen biçimli bir bahçenin kısa kenarı (x + 2) metre, uzun kenarı (3x − 1) metredir. Bahçenin bir köşesine kenarı x metre ol… | ✓2x^{2} + 5x − 2
+mat-ci-303 | M.8.2.1.3 | z3 | k3 | Bir okulun kare biçimli ilan panosunun kenarı 2x santimetredir. Pano büyütülürken iki komşu kenarına 5 cm genişliğinde şeritler e… | ✓20x + 25
+mat-ci-304 | M.8.2.1.4 | z3 | k3 | Alanı 12x^{2} + 18x metrekare olan dikdörtgen biçimli bir seranın bir kenarı 6x metredir. Serinin diğer kenarının uzunluğu, alan … | ✓16x + 6
+mat-ci-305 | M.8.2.1.1 | z3 | k3 | Bir manavda 1 kg elmanın fiyatı x TL, 1 kg armudun fiyatı y TL'dir. Deniz ile Kaan'ın bu manavdan aldıkları meyveler tabloda veri… | ✓−x + 3y
+mat-ci-306 | M.8.2.1.2 | z3 | k3 | Aşağıdaki şekilde uzunluğu (2x + 3) birim, genişliği (x + 2) birim olan dikdörtgen, gösterilen cebir karolarıyla tamamen kaplanac… | ✓2 x^{2} karosu, 7 x karosu, 6 birim karo
+mat-ci-307 | M.8.2.1.3 | z3 | k3 | Bir belediye, kare biçimli bir parkın alanını metrekare cinsinden 46^{2} − 2 · 46 · 9 + 9^{2} işlemiyle göstermiştir. Parkın dört… | ✓148
+mat-ci-308 | M.8.2.1.4 | z3 | k3 | Kare biçimli bir oyun alanının zeminine yapılan kaplamanın alanı 4x^{2} + 12x + 9 metrekaredir. Belediye, oyun alanının dört kena… | ✓8x + 12
+mat-ci-309 | M.8.2.1.3 | z3 | k3 | Bir okulun matematik kulübünde dört üye, kenar uzunlukları x'e bağlı olan birer bahçenin alanını açarak tabloya yazmıştır. Kulüp … | ✓Derya'nın
+mat-ci-310 | M.8.2.1.3 | z3 | k3 | Kenarı x santimetre olan kare biçimli bir kartonun bir köşesinden, kenarı 7 cm olan kare kesilip atılıyor (x > 7). Kalan L biçiml… | ✓4x
+mat-ci-311 | M.8.2.1.2 | z3 | k3 | Kenar uzunlukları (3x − 2) birim ve (2x − 5) birim olan bir dikdörtgenin alanı ax^{2} + bx + c biçiminde yazılmıştır. Burada x, k… | ✓−3
+mat-ci-312 | M.8.2.1.3 | z3 | k3 | Kenarı 102 metre olan kare biçimli bir bahçenin tam ortasına, kenarları bahçenin kenarlarına paralel olan ve kenarı 98 metre olan… | ✓4 800
+mat-ci-313 | M.8.2.1.2 | z3 | k3 | Boyutları (x + 4) cm ve (x + 2) cm olan dikdörtgen bir fotoğrafın dört kenarına, her yanda 1 cm kalınlığında bir çerçeve çekilece… | ✓4x + 16
+mat-ci-314 | M.8.2.1.3 | z3 | k3 | Bir halı mağazasında kenarı (x + 3) metre olan kare biçimli bir halı ile kenarı (x − 3) metre olan kare biçimli bir halı satılmak… | ✓12x
+mat-ci-315 | M.8.2.1.1 | z3 | k3 | Bir kırtasiyede kalem kutusunun fiyatı (3x − 1) TL, defterin fiyatı (x − 4) TL'dir. Bir okul 2 kalem kutusu ve 3 defter satın alı… | ✓9x − 9
+mat-ci-316 | M.8.2.1.4 | z4 | k3 | Bir atölyede üretilen bir ürünün x. partideki maliyeti 2x^{2} − 12x + 18 TL formülüyle hesaplanıyor. Atölyenin muhasebecisi, 53. … | ✓5 000
+mat-ci-317 | M.8.2.1.4 | z4 | k3 | Bir atölyede kenar uzunluğu (2x + 3) cm olan kare biçimli bir pleksi levhanın bir köşesinden, kenarı (x + 1) cm olan kare parça k… | ✓(x + 2)(3x + 4)
+mat-ci-318 | M.8.2.1.4 | z4 | k3 | Bir okulun kermesinde x. gün satılan ürün adedi (x − 4) tanedir ve o gün elde edilen gelir 3x^{2} − 48 TL'dir (x > 4). O gün satı… | ✓3x + 12
+mat-ci-319 | M.8.2.1.3 | z4 | k3 | Kenarları a metre ve b metre olan dikdörtgen biçimli bir çiçekliğin çevresi 28 metredir. Aynı a ve b uzunlukları birer kenar kabu… | ✓48
+mat-ci-320 | M.8.2.1.2 | z4 | k3 | Bir okul, kenar uzunlukları (2x − 6) santimetre ve (x + 1) santimetre olan dikdörtgen biçimli panolar üretmektedir (x, kenarları … | ✓2
+mat-ci-321 | M.8.2.1.3 | z4 | k3 | Kenarı (a + b) metre olan kare biçimli bir bahçe, şekildeki gibi iki kare ve iki eş dikdörtgen bölüme ayrılmıştır. Kare bölümleri… | ✓144
+mat-ci-322 | M.8.2.1.2 | z4 | k3 | Dikdörtgen biçimli bir panonun uzunluğu (2a + 3b) desimetre, genişliği (a − 2b) desimetredir. Panonun alan ifadesi çarpılıp benze… | ✓3 terimli, katsayılar toplamı −5
+mat-ci-323 | M.8.2.1.4 | z4 | k3 | Alanı 18x^{2} − 50 santimetrekare olan dikdörtgen biçimli bir sticker kâğıdının kenar uzunlukları, katsayıları tam sayı olan sade… | ✓(3x − 5) cm ve (6x + 10) cm
+mat-ci-324 | M.8.2.1.2 | z4 | k3 | Kenar uzunluğu (x + 3) metre olan kare biçimli bir bahçenin bir yöndeki kenarları 2 m kısaltılıyor, diğer yöndeki kenarları 2 m u… | ✓4 m² azalır.
+mat-ci-325 | M.8.2.1.4 | z4 | k3 | Boyutları (4x + 6) cm ve (3x + 2) cm olan dikdörtgen biçimli bir kartonun dört köşesinden, kenarı x cm olan birer kare kesilip at… | ✓2(4x^{2} + 13x + 6)
+mat-ci-001 | M.8.2.1.1 | z1 | k0 | 4x^{2} + 9x − 5 ifadesinde x^{2} teriminin katsayısı kaçtır? | ✓4
+mat-ci-002 | M.8.2.1.2 | z1 | k0 | y(y + 4) çarpımı aşağıdakilerden hangisine eşittir? | ✓y^{2} + 4y
+mat-ci-003 | M.8.2.1.3 | z1 | k0 | (x − 4)^{2} ifadesinin açılımı aşağıdakilerden hangisidir? | ✓x^{2} − 8x + 16
+mat-ci-004 | M.8.2.1.4 | z2 | k0 | Alanı 8x + 20 metrekare olan dikdörtgen biçimli bir bahçenin bir kenarı 4 metredir. Buna göre bahçenin diğer kenarı kaç metredir? | ✓2x + 5
+mat-ci-005 | M.8.2.1.2 | z2 | k0 | Dikdörtgen biçimli bir odanın uzunluğu (2x + 1) metre, genişliği (x + 4) metredir. Odanın zeminine parke döşenecektir. Buna göre … | ✓2x^{2} + 9x + 4
+mat-ci-006 | M.8.2.1.3 | z2 | k0 | Dikdörtgen biçimli bir kartonun kenar uzunlukları (x + 7) cm ve (x − 7) cm'dir. Buna göre kartonun alanı kaç santimetrekaredir? | ✓x^{2} − 49
+mat-ci-007 | M.8.2.1.1 | z2 | k0 | Bir deney düzeneğinde ortam sıcaklığı x °C iken cihazın gösterdiği değer 3x^{2} − 2x + 5 ifadesiyle hesaplanmaktadır. Buna göre s… | ✓21
+mat-ci-008 | M.8.2.1.4 | z2 | k0 | Kare biçimli bir fotoğrafın alanı (x^{2} − 12x + 36) santimetrekaredir (x > 6). Buna göre bu fotoğrafın bir kenar uzunluğunu göst… | ✓x − 6
+mat-ci-009 | M.8.2.1.2 | z3 | k0 | Bir belediye parkında, kenarı (x + 2) metre olan kare biçimli bir çocuk oyun alanı ile kenarları (x + 5) metre ve (x − 1) metre o… | ✓2x^{2} + 8x − 1
+mat-ci-010 | M.8.2.1.3 | z3 | k0 | Kare biçimli bir tarlanın kenarı 53 metredir. Ali, tarlanın alanını hesap makinesi olmadan bulmak için 53 = 50 + 3 yazıp (a + b)^… | ✓2 809
+mat-ci-011 | M.8.2.1.4 | z3 | k0 | Alanı 4a^{2} − 36 metrekare olan dikdörtgen biçimli bir perdenin kenarlarından biri (2a − 6) metredir. Perdenin diğer kenarı, ala… | ✓2a + 6
+mat-ci-012 | M.8.2.1.1 | z3 | k0 | Bir ailenin iki cep telefonu hattı vardır. Hatların tarifeleri tabloda verilmiştir. Bir ay içinde her iki hatta da aynı süre (m d… | ✓7m + 4s + 40
+mat-ci-013 | M.8.2.1.3 | z4 | k0 | Bir atölyede kare biçimli iki levha kesilmiştir. Büyük levhanın kenarı a desimetre, küçük levhanın kenarı b desimetredir ve kenar… | ✓89
+mat-ci-014 | M.8.2.1.4 | z4 | k0 | Alanı 5x^{2} − 20 metrekare olan dikdörtgen biçimli bir bahçenin kenar uzunlukları (m), katsayıları tam sayı olan birer cebirsel … | ✓x + 4
+mat-ci-015 | M.8.2.1.2 | z4 | k0 | Kenar uzunlukları (3x + 2) cm ve (x + 5) cm olan dikdörtgen biçimli bir kartonun bir köşesinden, kenarı 2 cm olan kare kesilip at… | ✓3x^{2} + 17x + 6

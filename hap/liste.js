@@ -32,5 +32,7 @@ window.LGS_HAP_LISTE = [
   "cumle-turleri.js",
   "fiziksel-kimyasal-degisim.js",
   "kimyasal-tepkimeler.js",
-  "din-3-din-hayat.js"
+  "din-3-din-hayat.js",
+  "cebirsel-ifadeler.js",
+  "asitler-bazlar.js"
 ];

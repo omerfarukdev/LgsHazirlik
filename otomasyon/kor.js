@@ -7,11 +7,15 @@ var dosya = process.argv[2], cikti = process.argv[3];
 if (!dosya || !cikti) { console.log("Kullanım: node otomasyon/kor.js <soru dosyası> <çıktı.json>"); process.exit(1); }
 require(path.resolve(dosya));
 var out = [];
-Object.keys(window.LGS_BANK).forEach(function (k) {
-  window.LGS_BANK[k].forEach(function (q) {
-    out.push({
-      id: q.id, kazanim: q.kazanim, zorluk: q.zorluk, soru: q.soru, gorsel: q.gorsel,
-      secenekler: { A: q.secenekler[0], B: q.secenekler[1], C: q.secenekler[2], D: q.secenekler[3] }
+// Konu soruları LGS_BANK'a, deneme soruları LGS_DENEME'ye yazılır; ikisi de aynı biçimde körleştirilir.
+var kaynak = [window.LGS_BANK || {}, window.LGS_DENEME || {}];
+kaynak.forEach(function (tablo) {
+  Object.keys(tablo).forEach(function (k) {
+    tablo[k].forEach(function (q) {
+      out.push({
+        id: q.id, kazanim: q.kazanim, zorluk: q.zorluk, soru: q.soru, gorsel: q.gorsel,
+        secenekler: { A: q.secenekler[0], B: q.secenekler[1], C: q.secenekler[2], D: q.secenekler[3] }
+      });
     });
   });
 });
