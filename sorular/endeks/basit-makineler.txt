@@ -1,0 +1,90 @@
+fen-bm-101 | F.8.5.1.1 | z1 | k1 | Basit makineler ile ilgili aşağıdakilerden hangisi doğrudur? | ✓İşi yapmayı kolaylaştırırlar
+fen-bm-102 | F.8.5.1.1 | z1 | k1 | Sabit makaranın temel işlevi aşağıdakilerden hangisidir? | ✓Kuvvetin yönünü değiştirmek
+fen-bm-103 | F.8.5.1.1 | z1 | k1 | Aşağıdakilerden hangisi kaldıraç olarak çalışır? | ✓Tahterevalli
+fen-bm-104 | F.8.5.1.1 | z1 | k1 | Tekerlekli sandalyedeki birinin kaldırıma çıkması için yapılan eğimli yol hangi basit makineye örnektir? | ✓Eğik düzlem
+fen-bm-105 | F.8.5.1.1 | z1 | k1 | Hareketli makara ile ilgili aşağıdakilerden hangisi doğrudur? | ✓Kuvvetten kazanç sağlar
+fen-bm-106 | F.8.5.1.1 | z1 | k1 | Kolu çevrilerek kova ipinin bir silindire sarıldığı kuyu düzeneği hangi basit makinedir? | ✓Çıkrık
+fen-bm-107 | F.8.5.1.1 | z1 | k1 | Basit makinelerle aşağıdakilerden hangisi sağlanamaz? | ✓Yapılan işi azaltma
+fen-bm-108 | F.8.5.1.1 | z1 | k1 | Palanga hangi makaraların birlikte kullanılmasıyla oluşur? | ✓Sabit ve hareketli makaralar
+fen-bm-109 | F.8.5.1.1 | z1 | k1 | Aşağıdakilerden hangisi basit makine olarak kabul edilir? | ✓Vida
+fen-bm-110 | F.8.5.1.1 | z1 | k1 | Bir kaldıraçta, çubuğun üzerinde dönmesini sağlayan sabit noktaya ne denir? | ✓Destek noktası
+fen-bm-111 | F.8.5.1.1 | z1 | k1 | Bir sandığı kamyonun kasasına rampa ile çıkaran kişi, sandığı doğrudan kaldıran kişiye göre neden daha rahat eder? | ✓Daha az kuvvet uygular
+fen-bm-112 | F.8.5.1.1 | z1 | k1 | Cımbız, pense ve makas hangi basit makine grubuna girer? | ✓Kaldıraç
+fen-bm-113 | F.8.5.1.1 | z2 | k1 | Şekildeki düzenekte sürtünmeler ve makaranın ağırlığı önemsizdir. Yük sabit hızla yukarı çekilirken aşağıdakilerden hangisi doğru… | ✓Uygulanan kuvvet yükün ağırlığına eşittir; k…
+fen-bm-114 | F.8.5.1.1 | z2 | k1 | Sinem, kuyunun üstüne bağladığı hareketli makara düzeneğiyle bir kovayı yukarı çekiyor. Sürtünmeler ve makara ağırlığı önemsizdir… | ✓Daha uzundur
+fen-bm-115 | F.8.5.1.1 | z2 | k1 | Köydeki bir kuyuda, kolu çevrilerek ip silindire sarılan bir çıkrık kullanılıyor. Köylüler kolu uzattıklarında kovayı çekmenin da… | ✓Kuvvet azalır, yol artar
+fen-bm-116 | F.8.5.1.1 | z2 | k1 | Hatice Öğretmen tahtaya şu araçları yazıyor: I. Elektrik motoru II. Vida III. Dişli çark Bu araçlardan hangileri basit makine ola… | ✓II ve III
+fen-bm-117 | F.8.5.1.1 | z2 | k1 | Ali ve Berk, aynı koliyi 1,5 m yüksekliğindeki bir kamyon kasasına şekildeki rampalarla sabit hızla çıkarıyor. Sürtünmeler önemsi… | ✓Yalnız I
+fen-bm-118 | F.8.5.1.1 | z2 | k1 | Fen Bilimleri dersinde hareketli makara inceleniyor. Öğretmen aşağıdaki ifadeleri tahtaya yazıyor: I. Kuvvetten kazanç sağlar. II… | ✓I ve III
+fen-bm-119 | F.8.5.1.1 | z2 | k1 | Bir nakliye firması, ağır eşyaları araca eğik düzlemle yüklüyor. Sürtünmeler önemsizdir. Eğik düzlemle ilgili aşağıdaki ifadelerd… | ✓Yalnız II
+fen-bm-120 | F.8.5.1.1 | z2 | k1 | Şekildeki kaldıraçta F kuvveti uygulanarak çubuk yatay dengede tutulmaktadır. Destek noktası, yükün konumu ve F kuvvetinin uygula… | ✓Azalır
+fen-bm-121 | F.8.5.1.1 | z2 | k1 | Bir inşaatta ağır malzemeler palanga ile yukarı çıkarılıyor. Sürtünmeler önemsizdir. Palanga için aşağıdaki ifadelerden hangileri… | ✓I ve II
+fen-bm-122 | F.8.5.1.1 | z2 | k1 | Fen kulübünde basit makineler tartışılıyor. Üyelerin söyledikleri şunlardır: I. Bütün basit makineler kuvvetten kazanç sağlar. II… | ✓Yalnız III
+fen-bm-123 | F.8.5.1.1 | z2 | k1 | Bir işçi, ağır bir kayayı kaldıraç kullanarak yerinden oynatıyor ve kayayı doğrudan kaldırmaya göre çok daha az kuvvet uyguluyor.… | ✓Kuvvetin uygulandığı yol uzar
+fen-bm-124 | F.8.5.1.1 | z2 | k1 | Seher, günlük hayatta kullandığı araçları basit makine türleriyle eşleştiriyor. Aşağıdaki eşleştirmelerden hangisi yanlıştır? | ✓Rampa – çıkrık
+fen-bm-125 | F.8.5.1.2 | z2 | k1 | Bir inşaat ustası, ağır bir kovayı hareketli makara yardımıyla yukarı çekiyor. Ancak ipi yukarı doğru çekmek onu çok yoruyor ve i… | ✓Sabit makara
+fen-bm-201 | F.8.5.1.1 | z2 | k2 | Bir inşaat işçisi el arabasıyla kum taşıyor. Arabanın tekerleği önde, tutma kolları arkadadır. Kum, tekerlek ile kollar arasındak… | ✓Yük ortadadır; destek ve kuvvet uçlardadır
+fen-bm-202 | F.8.5.1.1 | z2 | k2 | Atölyede aynı sandık, boyları eşit (4 m) olan K ve L rampalarından sürtünmesiz biçimde sabit hızla kamyon kasasına çıkarılıyor. K… | ✓II ve III
+fen-bm-203 | F.8.5.1.1 | z2 | k2 | Tuğba, kalın bir kartonu makasla keserken kartonun makasın ağzının ucunda değil, makasın iki kolunun birleştiği noktaya yakın yer… | ✓Yük kolu kısalır, gereken kuvvet azalır
+fen-bm-204 | F.8.5.1.1 | z2 | k2 | Usta Kemal, ağır bir çuvalı önce doğrudan elleriyle, sonra bir palanga yardımıyla aynı yüksekliğe çıkarıyor. Sürtünmeler ve makar… | ✓Aynıdır; çünkü kazanılan kuvvet kadar yol ka…
+fen-bm-205 | F.8.5.1.1 | z2 | k2 | Sürtünmelerin önemsiz olduğu bir ortamda makaralarla ilgili şu ifadeler veriliyor: I. Sabit makara yalnızca kuvvetin yönünü değiş… | ✓I ve III
+fen-bm-206 | F.8.5.1.1 | z2 | k2 | Öğrenciler, bisikletteki dişliler ile bir saatin içindeki dişli çarklar ve bir şişe kapağındaki vida dişlerini inceliyor. Dişli ç… | ✓Basit makinedirler; işten kazanç sağlamazlar
+fen-bm-207 | F.8.5.1.1 | z2 | k2 | Mina, günlük hayatta işi kolaylaştıran bazı düzenekleri not alıyor: I. Bayrak direğinde sabit makara kullanmak II. Kuyudan su çek… | ✓I, II ve III
+fen-bm-208 | F.8.5.1.1 | z2 | k2 | Bahçıvan Orhan, yerinden oynatamadığı büyük bir kayanın altına uzun bir demir çubuğun ucunu sokuyor. Çubuğun altına, kayaya yakın… | ✓Kaldıraç
+fen-bm-209 | F.8.5.1.1 | z2 | k2 | Bir kaldıraçla ilgili şu ifadeler veriliyor: I. Destek noktası yüke yaklaştırılırsa aynı yükü dengelemek için gereken kuvvet azal… | ✓Yalnız I
+fen-bm-210 | F.8.5.1.1 | z2 | k2 | Selin, ağır bir koliyi rampa kullanarak kamyona çıkarıyor. Selin "Rampa sayesinde işim kolaylaştı." diyor. Kaan ise "Rampa kullan… | ✓Yalnız Selin'in söylediği doğrudur
+fen-bm-211 | F.8.5.1.1 | z2 | k2 | Bir fen kitabında basit makinelerle ilgili şu ifadeler yer alıyor: I. Kuvvetten kazanç sağlayan her basit makinede yoldan da kaza… | ✓II ve III
+fen-bm-212 | F.8.5.1.1 | z2 | k2 | Yüksek dağlara çıkan yollar çoğunlukla düz değil, kıvrıla kıvrıla yükselen virajlı yollar olarak yapılır. Bu yolların virajlı yap… | ✓Eğimi azaltarak gereken kuvveti azaltmak
+fen-bm-213 | F.8.5.1.1 | z2 | k2 | Aşağıdaki günlük hayat örneklerinden hangisinde basit makine, yalnızca kuvvetin yönünü değiştirmek amacıyla kullanılmıştır? | ✓Bayrak direğinin tepesindeki makara
+fen-bm-214 | F.8.5.1.1 | z3 | k2 | Hatice Teyze, Nuri Amca ve Kamil'in bahçelerindeki kuyularda birer çıkrık bulunuyor. Üçü de aynı dolulukta, aynı kovayı kuyudan 4… | ✓En az kuvvet Nuri Amca'da gerekir; kolun ucu…
+fen-bm-215 | F.8.5.1.1 | z3 | k2 | Şekilde K, L ve M düzenekleriyle eşit ağırlıktaki yükler sabit hızla yukarı çıkarılmaktadır. Sürtünmeler ve makara ağırlıkları ön… | ✓Yalnız II
+fen-bm-216 | F.8.5.1.1 | z3 | k2 | Barış, depoda aynı ağır koliyi 1 m yüksekliğindeki kamyon kasasına çıkarmak için farklı uzunlukta üç tahtayı rampa olarak kullana… | ✓I ve III
+fen-bm-217 | F.8.5.1.1 | z3 | k2 | Şekilde aynı boydaki üç çubuktan oluşan K, L, M kaldıraçları gösterilmiştir. Her çubuğun sol ucuna yük asılmış, sağ ucundan F kuv… | ✓I ve II
+fen-bm-218 | F.8.5.1.2 | z3 | k2 | Çiftçi Murat, ambarın üst kat penceresinden içeri almak istediği ağır un çuvallarını elle kaldırmakta zorlanıyor. Elindeki makara… | ✓Pencereye sabit, çuvala hareketli makara tak…
+fen-bm-219 | F.8.5.1.1 | z3 | k2 | Berna, kapağı çok sıkı kapatılmış bir boya tenekesini açmak için uzun saplı bir tornavidanın ucunu kapağın altına sokuyor. Tornav… | ✓I ve II
+fen-bm-220 | F.8.5.1.1 | z3 | k2 | Murat, bir sandığı aynı yüksekliğe iki farklı makara düzeneğiyle çıkarıyor. K düzeneğinde bir sabit ve bir hareketli makara, L dü… | ✓L'de kuvvetten kazanç daha fazladır; ip ucu …
+fen-bm-221 | F.8.5.1.1 | z3 | k2 | Aşağıdaki durumların hangilerinde basit makine, kuvvetten kazanç sağlar? (Sürtünmeler önemsizdir.) I. Eğimi azaltılmış bir rampad… | ✓I ve III
+fen-bm-222 | F.8.5.1.1 | z3 | k2 | Merve, parmağına batan küçük bir kıymığı cımbızla çıkarıyor. Cımbızın iki kolu bir uçtan birleşiktir; Merve kolları orta bölgesin… | ✓Kuvvet ortadadır; kuvvetten kazanç sağlamaz
+fen-bm-223 | F.8.5.1.2 | z3 | k2 | Elif, çatı katındaki odunları aşağıdan çekebilmek için çatı kirişine bir makara bağlayıp ipi bu makaradan geçiriyor. Makara yerin… | ✓Yalnız III
+fen-bm-224 | F.8.5.1.1 | z3 | k2 | Ceren, tavana asılı bir sabit makaradan geçirdiği ipi çekerek bir sepeti h kadar yükseltiyor (K düzeneği). Deniz ise sepetin bağl… | ✓L'de ip ucunun aldığı yol, K'dekinden fazlad…
+fen-bm-225 | F.8.5.1.1 | z3 | k2 | Bir atölyede aynı boydaki üç çubuk, aynı ağırlıktaki yükü yatay dengede tutacak biçimde P, R ve S kaldıraçları olarak kuruluyor. … | ✓F_{P} < F_{R} < F_{S}
+fen-bm-301 | F.8.5.1.1 | z3 | k3 | Okul bahçesindeki bayrak direğinin tepesinde sabit bir makara vardır. Nöbetçi öğrenci ipi aşağı doğru çekerek bayrağı yukarı çıka… | ✓I ve II
+fen-bm-302 | F.8.5.1.1 | z3 | k3 | Bir inşaatta usta, harç kovasını aynı yüksekliğe iki ayrı düzenekle çıkarıyor. K düzeneğinde kova sabit bir makaradan geçen ipe, … | ✓Uygulanan kuvvet azalır, ip ucunun aldığı yo…
+fen-bm-303 | F.8.5.1.1 | z3 | k3 | Terzi Nuray, kalın bir kumaşı makasla keserken iki gözlem yapıyor. Makasın destek noktası, iki kolu birleştiren menteşedir. Birin… | ✓Kumaşın desteğe yaklaşması gereken kuvveti a…
+fen-bm-304 | F.8.5.1.1 | z3 | k3 | Aynı kutu, aynı h yüksekliğine sürtünmesiz iki ayrı rampadan çıkarılıyor. K rampası kısa ve diktir, L rampası ise daha uzun ve da… | ✓Yalnız II
+fen-bm-305 | F.8.5.1.1 | z3 | k3 | Köy meydanındaki üç kuyunun derinliği aynıdır. Her kuyudan eşit kütleli bir kova, K, L ve M çıkrıklarından biriyle çıkarılıyor. K… | ✓Gereken kuvvet, K çıkrığında hem L hem de M …
+fen-bm-306 | F.8.5.1.1 | z3 | k3 | Kemal, bahçede ağır bir kum çuvalını tek tekerlekli el arabasıyla taşıyor. El arabasında destek noktası, tekerleğin yere değdiği … | ✓I ve III
+fen-bm-307 | F.8.5.1.1 | z3 | k3 | Bir tiyatro sahnesinde aynı dekor panosu, aynı yüksekliğe iki ayrı düzenekle çıkarılıyor. K düzeneğinde tek bir hareketli makara,… | ✓Yükü yükseltmek için gereken kuvvet daha azd…
+fen-bm-308 | F.8.5.1.2 | z3 | k3 | Bahçıvan Murat, ağır bir toprak çuvalını 1 metre yüksekliğindeki kamyon kasasına yüklemek istiyor. Elinde 1,5 metrelik kısa bir t… | ✓4 metrelik tahtayı rampa yapıp çuvalı tahta …
+fen-bm-309 | F.8.5.1.1 | z3 | k3 | Şekilde K ve L düzeneklerinde özdeş yükler, aynı uzunlukta özdeş çubuklarla kaldırılıyor. Çubukların sağ ucuna aşağı doğru kuvvet… | ✓II ve III
+fen-bm-310 | F.8.5.1.2 | z3 | k3 | Ayşe'nin köyündeki kuyudan su çekmek için, bir sabit makaradan geçen ip kullanılıyor. Ayşe, kovayı çıkarırken daha az kuvvet uygu… | ✓Kovayı hareketli bir makaraya bağlayıp ipin …
+fen-bm-311 | F.8.5.1.1 | z3 | k3 | Bir dağ evinin bahçesindeki iki kuyunun derinliği aynıdır. K kuyusunda eşit kütleli kova, kuyunun üstündeki sabit bir makaradan g… | ✓Yalnız II
+fen-bm-312 | F.8.5.1.1 | z3 | k3 | Bir bisiklet tamircisi, çırağına bisikletin parçalarını gösteriyor: pedalı çeviren dişli çark, gidonu gövdeye sabitleyen vida ve … | ✓Tamirci haklıdır, çırak yanılmaktadır; basit…
+fen-bm-313 | F.8.5.1.1 | z3 | k3 | Fen öğretmeni, öğrencilerden bazı basit makinelerin özelliklerini bir tabloda göstermesini istiyor. Öğrenci aşağıdaki tabloyu haz… | ✓Çıkrık
+fen-bm-314 | F.8.5.1.1 | z3 | k3 | Bir öğrenci, aynı yükü aynı yüksekliğe çıkarmak için dört farklı düzenek kuruyor. Her düzenekte dinamometreyle kuvveti, cetvelle … | ✓Kuvvet azaldıkça ucun aldığı yol artmıştır; …
+fen-bm-315 | F.8.5.1.1 | z3 | k3 | Bir yelkenli teknede ağır bir ana yelkeni çekmek için palanga kullanılıyor. Palanga, sabit ve hareketli makaralardan oluşur ve yü… | ✓Yalnız III
+fen-bm-316 | F.8.5.1.1 | z4 | k3 | Bir mucit, aynı yükü kaldırmak için özdeş, 8 bölmeli üç çubuktan K, L ve M kaldıraçlarını hazırlıyor. Her kaldıraçta yük ile kuvv… | ✓K'de kuvvet yükün ağırlığından azdır, ucu yü…
+fen-bm-317 | F.8.5.1.1 | z4 | k3 | Şekildeki düzenekte işçi, bir kutuyu rampa boyunca yukarı çıkarmak için ipi rampanın tepesindeki sabit bir makaradan geçirip aşağ… | ✓Sabit makara yalnızca ipin çekilme yönünü de…
+fen-bm-318 | F.8.5.1.2 | z4 | k3 | Bilim şenliğinde dört öğrenci, tasarımlarıyla ilgili iddialarını anlatıyor. Sürtünmeler ile ip ve makara ağırlıkları önemsizdir. … | ✓Duru: Uzun bir levye kullanırsam yükü hem da…
+fen-bm-319 | F.8.5.1.1 | z4 | k3 | Şekilde, aynı yükü kaldırmak için kullanılan özdeş çubuklardan oluşan K, L ve M kaldıraçları verilmiştir. Yük çubukların sol ucun… | ✓M ve K
+fen-bm-320 | F.8.5.1.1 | z4 | k3 | Esra, basit makineleri anlatan bir sunum hazırlıyor ve slayta şu cümleleri yazıyor: I. Kuvvetten kazanç sağlayan basit makinelerd… | ✓II ve III
+fen-bm-321 | F.8.5.1.2 | z4 | k3 | Bir tamirci, tavandaki kancalara bağlayabileceği makaralarla ağır bir fıçıyı yukarı çıkaracaktır. Tamirci ipi aşağı doğru çekmek … | ✓N düzeneği
+fen-bm-322 | F.8.5.1.1 | z4 | k3 | Şekildeki K, L ve M rampaları sürtünmesizdir ve aynı h yüksekliğine çıkmaktadır. K ve L rampaları özdeştir; L rampasının tepesind… | ✓Yalnız I
+fen-bm-323 | F.8.5.1.2 | z4 | k3 | Belediye, parka bir tahterevalli kuruyor. Tahtanın sol ucuna ağır olan baba, sağ ucuna ise babadan çok daha hafif olan çocuğu otu… | ✓K noktasına; çocuğun ucu, babanın ucundan da…
+fen-bm-324 | F.8.5.1.2 | z4 | k3 | Kerem, eğik düzlemin boyunun kutuyu masaya çıkarmak için gereken kuvveti nasıl etkilediğini araştırıyor. Masanın yüksekliği sabit… | ✓Kutuyu, diğer denemelerde kullandığından dah…
+fen-bm-325 | F.8.5.1.2 | z4 | k3 | Zeynep, elleri kirli olduğunda kullanabilmek için pedallı bir çöp kutusu tasarlıyor. Pedal, bir destek noktası etrafında dönen çu… | ✓Ayağın bastığı noktayı destek noktasından uz…
+fen-bm-001 | F.8.5.1.1 | z1 | k0 | Aşağıdakilerden hangisi yalnızca kuvvetin yönünü değiştirir? | ✓Sabit makara
+fen-bm-002 | F.8.5.1.1 | z1 | k0 | Basit makinelerle ilgili aşağıdakilerden hangisi doğrudur? | ✓Hiçbir basit makine işten kazanç sağlamaz.
+fen-bm-003 | F.8.5.1.1 | z1 | k0 | Makas günlük hayatta hangi basit makine türüne örnektir? | ✓Kaldıraç
+fen-bm-004 | F.8.5.1.1 | z2 | k0 | Ceren, su dolu bir kovayı tek hareketli makara kullanarak çıkarıyor. Sürtünmeler ile ip ve makara ağırlıkları önemsizdir. Buna gö… | ✓Kova ağırlığından daha az kuvvetle çıkarılır.
+fen-bm-005 | F.8.5.1.1 | z2 | k0 | Sedat, aynı varili aynı yüksekliğe çıkarmak için iki tahta rampa hazırlıyor. K rampası kısa ve dik, L rampası uzun ve az eğimlidi… | ✓L rampasında varili çıkarmak için gereken ku…
+fen-bm-006 | F.8.5.1.1 | z2 | k0 | Aşağıdaki düzeneklerden hangileri kuvvetten kazanç sağlar? I. Bayrak direğinin tepesindeki sabit makara II. Engelli rampası III. … | ✓II ve III
+fen-bm-007 | F.8.5.1.1 | z2 | k0 | Bir atölyede palanga kullanılıyor. Usta, yükü taşıyan ip parçası sayısını artırıyor. Sürtünmeler ile ip ve makara ağırlıkları öne… | ✓Gereken kuvvet azalır, çekilen ip boyu artar.
+fen-bm-008 | F.8.5.1.1 | z2 | k0 | Eşit derinlikteki iki kuyudan, tamburları özdeş iki çıkrıkla eşit kütleli kovalar çıkarılıyor. K çıkrığının kolu uzun, L çıkrığın… | ✓K çıkrığında kolu çevirmek için gereken kuvv…
+fen-bm-009 | F.8.5.1.1 | z3 | k0 | Şekildeki kaldıraçta destek noktası sabittir ve yük çubuğun sağ ucuna asılıdır. Yükü kaldırmak için çubuğun K, L, M ya da N nokta… | ✓K noktasından
+fen-bm-010 | F.8.5.1.2 | z3 | k0 | Bir marangoz, ağır bir kapının kolunu (kulpunu) menteşeden mümkün olduğunca uzağa takıyor. Kapının menteşesi destek noktası gibi … | ✓Kapıyı açmak için gereken kuvveti azaltmayı
+fen-bm-011 | F.8.5.1.1 | z3 | k0 | Bir öğrenci, bir kaldıraçta yük sabitken destek noktasını yüke yaklaştırarak yükü kaldırmak için gereken kuvveti dinamometreyle ö… | ✓Azalır.
+fen-bm-012 | F.8.5.1.1 | z3 | k0 | Murat, sıkı bir vidayı ince saplı tornavidayla sökemiyor; babası kalın saplı bir tornavida verince vida kolayca çıkıyor. Tornavid… | ✓Sap kalınlaştıkça gereken kuvvet azalır, sap…
+fen-bm-013 | F.8.5.1.1 | z4 | k0 | Aynı yük, dört farklı düzenekle 1 metre yükseltiliyor. Her düzenekte kuvvetin uygulandığı ucun aldığı yol tabloda verilmiştir. Sü… | ✓L ve M düzeneklerinde gereken kuvvet eşittir…
+fen-bm-014 | F.8.5.1.1 | z4 | k0 | Mutfakta Ali Usta, sert kabuklu cevizleri bir ceviz kıskacıyla kırıyor. Kıskacın iki kolu bir uçtan birleşiktir; birleşim yeri de… | ✓I ve III
+fen-bm-015 | F.8.5.1.1 | z4 | k0 | Fen dersinde dört öğrenci, basit makineler hakkında hazırladıkları konuşmada aşağıdaki cümleleri söylüyor. Sürtünmeler ile ip ve … | ✓Hira: Sabit makaradan geçen ipi aşağı çekers…
