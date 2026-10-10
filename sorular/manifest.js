@@ -149,5 +149,7 @@ window.LGS_MANIFEST = [
   "tur-fiilde-cati-1.js",
   "tur-fiilde-cati-2.js",
   "fen-kimya-endustrisi-1.js",
-  "fen-kimya-endustrisi-2.js"
+  "fen-kimya-endustrisi-2.js",
+  "tur-paragrafta-anlam-55.js",
+  "tur-paragrafta-anlam-56.js"
 ];
