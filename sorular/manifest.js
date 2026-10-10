@@ -143,5 +143,7 @@ window.LGS_MANIFEST = [
   "fen-basit-makineler-1.js",
   "fen-basit-makineler-2.js",
   "ink-u4-1.js",
-  "ink-u4-2.js"
+  "ink-u4-2.js",
+  "tur-paragrafta-anlam-53.js",
+  "tur-paragrafta-anlam-54.js"
 ];
