@@ -737,9 +737,55 @@ var App = (function () {
     sorular.forEach(function (q) { t += (AYAR.sureSoruBasi || {})[q.zorluk] || 90; });
     return t;
   }
+  // ================= Kademe tekrarı =================
+  // Kademeyi geçemeyen öğrenci testi yeniden açınca aynı soruları hatırlayarak geçmesin: son
+  // denemede yanlış ya da boş bıraktığı sorular kalır, doğru yaptıklarının yerine konunun hiç
+  // cevaplamadığı sorular gelir (aynı kademeye sonradan eklenenler ve havuz). Yedek, kademenin
+  // zorluk aralığından ve zorluğu en yakın olandan seçilir; yetmezse eski soru kalır.
+  var KADEME_ZORLUK = { 1: [1, 2], 2: [2, 3], 3: [3, 4] };
+  function sonKademeKaydi(konuId, k) {
+    var g = Store.get("gecmis", []);
+    for (var i = g.length - 1; i >= 0; i--) {
+      var r = g[i];
+      if (r.tur === "konu" && r.konu === konuId && r.kademe === k) return r;
+    }
+    return null;
+  }
+  function tekrarSeti(konuId, k) {
+    var kd = konuDurum(konuId).k[k];
+    if (kd && kd.enIyi >= AYAR.gecmeEsigi) return null;
+    var once = sonKademeKaydi(konuId, k);
+    if (!once || !once.sorular || !once.cevap) return null;
+    var onceki = once.sorular.map(soruBul).filter(Boolean);
+    if (!onceki.length) return null;
+    var gorulen = Store.get("gorulen", {}), listede = {};
+    onceki.forEach(function (q) { listede[q.id] = true; });
+    var ar = KADEME_ZORLUK[k] || [1, 4];
+    var yedek = kademeSorulari(konuId, k).concat(bank(konuId).filter(function (q) { return q.kademe === 0; }))
+      .filter(function (q) { return !gorulen[q.id] && !listede[q.id] && q.zorluk >= ar[0] && q.zorluk <= ar[1]; });
+    var yeni = 0;
+    var liste = onceki.map(function (q) {
+      if (once.cevap[q.id] !== q.dogru) return q; // yanlış ya da boş: yine gelsin
+      var en = -1;
+      for (var i = 0; i < yedek.length; i++) {
+        if (en < 0 || Math.abs(yedek[i].zorluk - q.zorluk) < Math.abs(yedek[en].zorluk - q.zorluk)) en = i;
+      }
+      if (en < 0) return q;
+      yeni++;
+      return yedek.splice(en, 1)[0];
+    });
+    if (!yeni) return null;
+    liste = liste.map(function (q, i) { return { q: q, i: i }; })
+      .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
+      .map(function (x) { return x.q; });
+    return { sorular: liste, yeni: yeni };
+  }
+
   function hazirEkrani(konuId, k) {
     var kb = KONU[konuId], sorular = kademeSorulari(konuId, k);
     if (!sorular.length || !kademeAcik(konuId, k)) return git("#/ders/" + kb.ders.id);
+    var tk = tekrarSeti(konuId, k);
+    if (tk) sorular = tk.sorular;
     // Konunun özeti hiç okunmadıysa (ya da üstünden uzun zaman geçtiyse) test özetten sonra gelir
     if (hapGerekli(konuId)) return location.replace("#/hap/" + konuId + "/" + k);
     var kd = konuDurum(konuId).k[k];
@@ -750,7 +796,9 @@ var App = (function () {
       '<div class="ozet">' + ozetKutu(sorular.length, "soru") +
       ozetKutu(Math.round(onerilenSure(sorular) / 60) + " dk", AYAR.sureSiniri ? "süre" : "önerilen süre") +
       (kd ? ozetKutu("%" + yuzde(kd.enIyi), "en iyi sonucun") : "") + '</div>' +
-      '<ul class="ipucu"><li>Kâğıt kalem hazırla, işlemleri kâğıtta yap.</li>' +
+      '<ul class="ipucu">' +
+      (tk ? '<li><b>Bu bir tekrar denemesi.</b> Geçen sefer doğru yaptığın ' + tk.yeni + ' sorunun yerine yeni sorular geldi; yanlış ve boş bıraktığın sorular yine karşına çıkacak.</li>' : "") +
+      '<li>Kâğıt kalem hazırla, işlemleri kâğıtta yap.</li>' +
       (AYAR.sureSiniri ? '<li>' + (AYAR.sureBitinceKes
         ? "Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi."
         : "Süre geri sayar. Dolunca test bitmez, çözmeye devam edersin; aştığın süre ayrıca kaydedilir.") +
@@ -1348,7 +1396,8 @@ var App = (function () {
   }
   function testBaslat(konuId, k) {
     if (yarimSor(function () { testBaslat(konuId, k); })) return;
-    var sorular = kademeSorulari(konuId, k);
+    var tk = tekrarSeti(konuId, k);
+    var sorular = tk ? tk.sorular : kademeSorulari(konuId, k);
     if (!sorular.length) return;
     S = {
       tur: "konu", ders: KONU[konuId].ders.id, konu: konuId, kademe: k,

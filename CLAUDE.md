@@ -69,7 +69,7 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 | Havuz (kademe 0) | **15** |
 | **Konu başına toplam** | **90** |
 
-25 alt sınırdır; 30'a kadar çıkılabilir. **12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
+25 alt sınırdır; 30'a kadar çıkılabilir. Konular bittikten sonra kademelere eklenen sorular kademe tekrarının yedeğini de büyütür (geçemeyen öğrenci ikinci denemede aynı soruları ezberden çözmez). **12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
 
 Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplamı), yani 25 soruluk Kavrama testi yaklaşık 25 dakika, LGS Ayarı testi yaklaşık 50 dakika sürer.
 
@@ -79,7 +79,7 @@ Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden dev
 
 | Tür | Nereden çıkar | İçeriği | Kaydı |
 |---|---|---|---|
-| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 soruları, dosya sırasıyla | `tur: "konu"`, kademe ilerletir |
+| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 soruları, kolaydan zora (eşit zorlukta dosya sırasıyla). **Kademe tekrarı:** geçemeden yeniden açılırsa son denemede yanlış ve boş bırakılan sorular kalır, doğru yapılanların yerine hiç cevaplanmamış sorular gelir (aynı kademeye sonradan eklenenler ve havuz; Kavrama düzey 1-2, Pekiştirme 2-3, LGS Ayarı 3-4) | `tur: "konu"`, kademe ilerletir |
 | Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
 | Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
 | Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
