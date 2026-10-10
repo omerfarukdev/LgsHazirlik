@@ -739,25 +739,24 @@ var App = (function () {
     return t;
   }
   // ================= Kademe tekrarı =================
-  // Bir kademede 25 ana soru (sıra 01-25) ve yedek sorular (sıra 26-75) bulunur. İlk denemede ana
-  // 25 soru gelir. Kademeyi geçemeyen öğrenci testi yeniden açınca son denemesinde yanlış ya da boş
-  // bıraktığı sorular yine gelir, doğru yaptıklarının yerine hiç cevaplamadığı sorular konur: önce o
-  // kademenin yedeği, o bitince havuz (kademenin zorluk aralığında). Geçene kadar her denemede böyle
-  // sürer; 4. ve 5. deneme de olabilir. Yedek tükenirse eski doğru soru kalır.
+  // Bir kademede 25 ana soru (sıra 01-25) ve yedek sorular (sıra 26-75) bulunur.
+  //  1. deneme: ana 25 soru.
+  //  2. deneme (1. denemeyi bitirip geçemediyse): 25 sorunun hepsi yeni. Yanlışların çözümünü az
+  //     önce okudu; aynı soruları hemen sormak puanı hatırlamayla şişirirdi.
+  //  3. deneme ve sonrası: son denemenin yanlış ve boşları kalır, doğruların yerine yeni soru gelir.
+  // Yeni soru önce kademenin yedeğinden, o bitince havuzdan (kademenin zorluk aralığında) ve çıkan
+  // sorunun zorluğuna en yakın olandan seçilir. Yeni soru yetmezse önce doğrular yenilenir, eskiler kalır.
   var KADEME_ZORLUK = { 1: [1, 2], 2: [2, 3], 3: [3, 4] };
-  function sonKademeKaydi(konuId, k) {
-    var g = Store.get("gecmis", []);
-    for (var i = g.length - 1; i >= 0; i--) {
-      var r = g[i];
-      if (r.tur === "konu" && r.konu === konuId && r.kademe === k) return r;
-    }
-    return null;
+  function kademeKayitlari(konuId, k) {
+    return Store.get("gecmis", []).filter(function (r) { return r.tur === "konu" && r.konu === konuId && r.kademe === k; });
   }
   function tekrarSeti(konuId, k) {
     var kd = konuDurum(konuId).k[k];
     if (kd && kd.enIyi >= AYAR.gecmeEsigi) return null;
-    var once = sonKademeKaydi(konuId, k);
+    var kayitlar = kademeKayitlari(konuId, k), once = kayitlar[kayitlar.length - 1];
     if (!once || !once.sorular || !once.cevap) return null;
+    // Yalnızca bitirilmiş tek deneme varsa (yarım bırakılanlar sayılmaz) ikinci deneme tamamen yeni olur
+    var hepsi = !once.yarim && kayitlar.filter(function (r) { return !r.yarim; }).length === 1;
     var onceki = once.sorular.map(soruBul).filter(Boolean);
     if (!onceki.length) return null;
     var gorulen = Store.get("gorulen", {}), listede = {};
@@ -771,19 +770,23 @@ var App = (function () {
       for (var i = 0; i < dizi.length; i++) if (e < 0 || Math.abs(dizi[i].zorluk - z) < Math.abs(dizi[e].zorluk - z)) e = i;
       return e < 0 ? null : dizi.splice(e, 1)[0];
     }
-    var yeni = 0, kalan = 0;
-    var liste = onceki.map(function (q) {
-      if (once.cevap[q.id] !== q.dogru) { kalan++; return q; } // yanlış ya da boş: yine gelsin
-      var y = en(yedek, q.zorluk) || en(havuz, q.zorluk);
-      if (!y) return q;
-      yeni++;
-      return y;
+    var liste = onceki.slice(), yeni = 0;
+    function dogru(q) { return once.cevap[q.id] === q.dogru; }
+    // Önce doğrular yenilenir; ikinci denemede sonra yanlış ve boşlar da (yeni soru yettiğince)
+    var sira = [];
+    liste.forEach(function (q, i) { if (dogru(q)) sira.push(i); });
+    if (hepsi) liste.forEach(function (q, i) { if (!dogru(q)) sira.push(i); });
+    sira.forEach(function (i) {
+      var y = en(yedek, liste[i].zorluk) || en(havuz, liste[i].zorluk);
+      if (y) { liste[i] = y; yeni++; }
     });
-    // Yedek ve havuz tükendiyse son deneme aynen gelir (yanlışlar listeden düşmesin)
+    // Yanlış ya da boş bırakıp bu denemede yine karşısına çıkan soru sayısı
+    var kalan = liste.filter(function (q) { return listede[q.id] && !dogru(q); }).length;
+    // Yeni soru hiç kalmadıysa son deneme aynen gelir (yanlışlar listeden düşmesin)
     liste = liste.map(function (q, i) { return { q: q, i: i }; })
       .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
       .map(function (x) { return x.q; });
-    return { sorular: liste, yeni: yeni, kalan: kalan };
+    return { sorular: liste, yeni: yeni, kalan: kalan, deneme: kayitlar.filter(function (r) { return !r.yarim; }).length + 1 };
   }
   function kademeTesti(konuId, k) {
     var tk = tekrarSeti(konuId, k);
@@ -806,7 +809,9 @@ var App = (function () {
       ozetKutu(Math.round(onerilenSure(sorular) / 60) + " dk", AYAR.sureSiniri ? "süre" : "önerilen süre") +
       (kd ? ozetKutu("%" + yuzde(kd.enIyi), "en iyi sonucun") : "") + '</div>' +
       '<ul class="ipucu">' +
-      (tk.yeni ? '<li><b>Bu bir tekrar denemesi.</b> Geçen sefer yanlış ya da boş bıraktığın ' + tk.kalan + ' soru yine geliyor; doğru yaptığın ' + tk.yeni + ' sorunun yerine yeni sorular geldi.</li>' : "") +
+      (!tk.yeni ? "" : tk.yeni === tk.sorular.length
+        ? '<li><b>Bu, ' + tk.deneme + '. denemen: ' + tk.yeni + ' sorunun hepsi yeni.</b> Önceki yanlışların ayrıca tekrar testinde karşına çıkacak.</li>'
+        : '<li><b>Bu, ' + tk.deneme + '. denemen.</b> ' + tk.yeni + ' soru yeni' + (tk.kalan ? '; geçen sefer yanlış ya da boş bıraktığın ' + tk.kalan + ' soru yine karşına çıkacak' : '') + '.</li>') +
       '<li>Kâğıt kalem hazırla, işlemleri kâğıtta yap.</li>' +
       (AYAR.sureSiniri ? '<li>' + (AYAR.sureBitinceKes
         ? "Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi."

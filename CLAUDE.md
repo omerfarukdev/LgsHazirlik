@@ -69,7 +69,7 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 | Havuz (kademe 0) | **75** | `001`–`075` |
 | **Konu başına toplam** | **300** | |
 
-**Kademe yedeği (10 Ekim 2026 kararı).** Bir test her zaman 25 sorudur. İlk denemede kademenin **ana** 25 sorusu (kimlikte sıra 01-25) gelir. Kademeyi geçemeyen öğrenci testi yeniden açınca **son denemesinde yanlış ya da boş bıraktığı sorular yine gelir**, doğru yaptıklarının yerine hiç görmediği sorular konur: önce o kademenin **yedeği** (sıra 26-75), o bitince havuz (kademenin zorluk aralığında). Örnek: 1. denemede 11 yanlış → 2. deneme 11 yanlış + 14 yeni; 2. denemede yine 11 yanlış → 3. deneme o 11 yanlış + 14 yeni. Geçene kadar 4., 5. deneme de böyle sürer. Yedek ayrı bir test değildir, ana testin eksilen yerlerini doldurur; uygulama yedekten, çıkan doğru sorunun zorluğuna en yakın olanı seçer. Bu yüzden yedek soru yazarken:
+**Kademe yedeği (10 Ekim 2026 kararı).** Bir test her zaman 25 sorudur. **1. deneme:** kademenin ana 25 sorusu (kimlikte sıra 01-25). **2. deneme** (1. denemeyi bitirip geçemediyse): 25 sorunun hepsi yeni, kademenin **yedeğinden** (sıra 26-75); öğrenci yanlışlarının çözümünü az önce okuduğu için aynı soruları hemen sormak puanı hatırlamayla şişirirdi. **3. deneme ve sonrası:** son denemenin yanlış ve boşları yine gelir, doğruların yerine hiç görmediği sorular konur (önce yedek, o bitince havuz; kademenin zorluk aralığında). Örnek: 2. denemede 11 yanlış → 3. deneme o 11 yanlış + 14 yeni. Geçene kadar 4., 5. deneme de böyle sürer. Uygulama yeni soruyu, çıkan sorunun zorluğuna en yakın olandan seçer. Bu yüzden yedek soru yazarken:
 - Yedek, kademenin zorluk karmasını korur (Kavrama düzey 1-2, Pekiştirme 2-3, LGS Ayarı 3-4; aşağıdaki tablodaki oranlarla) ve ana sorularla aynı kazanımları **farklı kurgularla** yoklar. Ana sorunun sayıları değiştirilmiş hâli yedek olamaz.
 - Yedek sorular birbirinden bağımsız durmalıdır: hangi ikisinin aynı teste düşeceği bilinmez, bu yüzden hiçbir yedek soru başka bir sorunun cevabını vermemeli ve iki yedek aynı kaynak metni paylaşmamalı.
 - Dosya içindeki sıra ve şık dengesi kuralları yedek için de geçerlidir (art arda 3'ten fazla aynı harf yok, her şık ~%25).
@@ -86,7 +86,7 @@ Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden dev
 
 | Tür | Nereden çıkar | İçeriği | Kaydı |
 |---|---|---|---|
-| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 ana 25 sorusu, kolaydan zora. **Kademe tekrarı:** geçemeden yeniden açılırsa son denemenin yanlış ve boşları kalır, doğruların yerine kademe yedeğinden (sonra havuzdan) taze sorular gelir ("Test boyutu" bölümü) | `tur: "konu"`, kademe ilerletir |
+| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 ana 25 sorusu, kolaydan zora. **Kademe tekrarı:** geçemeden yeniden açılırsa 2. deneme tamamen yeni 25 soru (kademe yedeği), 3. denemeden itibaren son denemenin yanlışları + yeni sorular ("Test boyutu" bölümü) | `tur: "konu"`, kademe ilerletir |
 | Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
 | Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
 | Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
