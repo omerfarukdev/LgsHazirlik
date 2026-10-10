@@ -31,6 +31,11 @@ window.LGS_MANIFEST = [
   "fen-dna-genetik-kod-3.js",
   "ing-u1-1.js",
   "ing-u1-2.js",
+  "ing-u1-3.js",
+  "ing-u2-1.js",
+  "ing-u2-2.js",
+  "ing-u3-1.js",
+  "ing-u3-2.js",
   "ink-u1-1.js",
   "ink-u1-2.js",
   "ink-u1-3.js",
@@ -151,5 +156,7 @@ window.LGS_MANIFEST = [
   "fen-kimya-endustrisi-1.js",
   "fen-kimya-endustrisi-2.js",
   "tur-paragrafta-anlam-55.js",
-  "tur-paragrafta-anlam-56.js"
+  "tur-paragrafta-anlam-56.js",
+  "mat-esitsizlikler-1.js",
+  "mat-esitsizlikler-2.js"
 ];

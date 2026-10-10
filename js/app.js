@@ -171,8 +171,13 @@ var App = (function () {
   function bank(konuId) {
     return (window.LGS_BANK && window.LGS_BANK[konuId]) || [];
   }
+  // Kademe içinde kolaydan zora. Sonradan tamamlanan konularda yeni dosyanın soruları
+  // eskilerin arkasına eklenir; eşit zorlukta dosya sırası korunur.
   function kademeSorulari(konuId, k) {
-    return bank(konuId).filter(function (q) { return q.kademe === k; });
+    return bank(konuId).filter(function (q) { return q.kademe === k; })
+      .map(function (q, i) { return { q: q, i: i }; })
+      .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
+      .map(function (x) { return x.q; });
   }
   var soruMap = null, soruKonuMap = null;
   // Deneme soruları (sorular/deneme-*.js) LGS_DENEME'de durur ve konu havuzlarına karışmaz; ama

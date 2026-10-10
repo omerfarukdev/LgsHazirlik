@@ -1,0 +1,90 @@
+ing-u3-101 | E8.3.R1 | z1 | k1 | Ayşe is cutting the onions into small pieces with a knife. She is - - - - them. Which completes the sentence? | ✓chopping
+ing-u3-102 | E8.3.SI1 | z1 | k1 | Tom: Do you prefer tea or coffee? I have both. Lara: - - - - Coffee is too strong for me. Which completes the dialogue? | ✓I prefer tea, thanks.
+ing-u3-103 | E8.3.W1 | z1 | k1 | First, wash the tomatoes. - - - -, slice them. Finally, put them on the salad. Which completes the sentence? | ✓Then
+ing-u3-104 | E8.3.R1 | z1 | k1 | Dad cuts the bread with a - - - -. Which completes the sentence? | ✓knife
+ing-u3-105 | E8.3.R1 | z1 | k1 | I put too much salt in the soup. It is very - - - -. Which completes the sentence? | ✓salty
+ing-u3-106 | E8.3.R1 | z1 | k1 | Lemons are very - - - -. Nobody can eat them without sugar. Which completes the sentences? | ✓sour
+ing-u3-107 | E8.3.SI1 | z1 | k1 | Zeynep: What should I use to fry the eggs? Mother: Use a - - - - and a little oil. Which completes the dialogue? | ✓pan
+ing-u3-108 | E8.3.R1 | z1 | k1 | Mum: Can you - - - - the milk into the glass, Ali? Which completes the sentence? | ✓pour
+ing-u3-109 | E8.3.SI1 | z1 | k1 | Mia: Do I use two or three eggs for the cake? Chef: - - - - Which completes the dialogue? | ✓Use three, please.
+ing-u3-110 | E8.3.R1 | z1 | k1 | My grandmother - - - - the potatoes in hot oil. Which completes the sentence? | ✓fries
+ing-u3-111 | E8.3.W1 | z1 | k1 | Mum: First, - - - - the onions. Then, fry them in oil. Which completes the sentences? | ✓peel
+ing-u3-112 | E8.3.R1 | z1 | k1 | Mix the eggs and the flour in a - - - -. Which completes the sentence? | ✓bowl
+ing-u3-113 | E8.3.R1 | z2 | k1 | Deniz is making a sandwich. First, he slices the cheese. Then, he puts the cheese on the bread. After that, he puts tomatoes on t… | ✓He puts tomatoes on it.
+ing-u3-114 | E8.3.R1 | z2 | k1 | Elif is at a restaurant. She says, "I don't like spicy or salty food. I prefer sweet dishes to sour ones." Which dish will Elif c… | ✓Rice pudding
+ing-u3-115 | E8.3.SI1 | z2 | k1 | Ece: Do you prefer baking cakes or frying potatoes? Kerem: - - - - Fried food is too oily for me. Which completes the dialogue? | ✓I prefer baking cakes.
+ing-u3-116 | E8.3.W1 | z2 | k1 | Here is how to make lemonade. - - - -, squeeze two lemons. - - - -, add some water and sugar. Finally, mix everything. Which pair… | ✓First – Then
+ing-u3-117 | E8.3.R1 | z2 | k1 | Hi Sam! I'm making fruit salad for the party at 6 o'clock. There are a lot of apples and bananas, and I have to slice all of them… | ✓She wants Sam to come at 5.
+ing-u3-118 | E8.3.R1 | z2 | k1 | Recipe for a simple salad: 1. Wash the tomatoes. 2. Chop them. 3. Add oil and salt. 4. Mix everything. Which one is NOT a step in… | ✓Peel the tomatoes.
+ing-u3-119 | E8.3.R2 | z2 | k1 | The soup was so bitter that Alp could not finish it. Then he added some sugar, and it became better. What does "bitter" mean? | ✓having a sharp, unpleasant taste
+ing-u3-120 | E8.3.SI1 | z2 | k1 | Gizem: How much flour do I need for the bread? Chef: - - - - Which completes the dialogue? | ✓Two cups, please.
+ing-u3-121 | E8.3.R1 | z2 | k1 | To make tea, first boil some water. Then put a tea bag into a cup. After that, pour the hot water into the cup. Finally, wait for… | ✓Wait for three minutes.
+ing-u3-122 | E8.3.SI1 | z2 | k1 | Lale: Do you prefer cooking at home or eating out? Mert: I - - - - cook at home. I eat out every day. Which completes the dialogu… | ✓never
+ing-u3-123 | E8.3.W1 | z2 | k1 | Dora writes the steps of a fruit salad in the wrong order. I. Pour some orange juice on it. II. Slice the fruit. III. Wash the fr… | ✓III – II – IV – I
+ing-u3-124 | E8.3.R1 | z2 | k1 | Dear Aunt Sevgi, I tried your pasta recipe yesterday. My family loved it. It was a bit salty, so next time I will use less salt. … | ✓He will put less salt in it.
+ing-u3-125 | E8.3.R1 | z2 | k1 | Ayla wants to make a cake. Look at the recipe and the things at her home. What does Ayla need to buy? | ✓more flour
+ing-u3-201 | E8.3.SI1 | z2 | k2 | Zeynep: - - - - Mother: Use the big pan on the left. Which completes the dialogue? | ✓What can I use to cook soup?
+ing-u3-202 | E8.3.R2 | z2 | k2 | Burcu is peeling an orange. She takes off the skin and eats the juicy part inside. What does "peel" mean? | ✓to take the skin off
+ing-u3-203 | E8.3.R1 | z2 | k2 | The students of Class 8A are voting for the lunch menu. Twelve students choose pizza, nine choose pasta, six choose burgers and t… | ✓Pizza is the most popular meal.
+ing-u3-204 | E8.3.SI1 | z2 | k2 | Cem: I'm making pasta tonight. Do you want to help me? Ada: - - - - Which completes the dialogue? | ✓Sure! Can I chop the onions?
+ing-u3-205 | E8.3.R1 | z2 | k2 | Nur puts the chicken into the oven at 200 degrees for one hour. She wants to - - - - it. Which completes the sentence? | ✓bake
+ing-u3-206 | E8.3.R1 | z2 | k2 | Cheese toast Ingredients: 2 slices of bread, 50 g of cheese Method: Put the cheese between the bread slices. Cook the toast in a … | ✓Four minutes
+ing-u3-207 | E8.3.R1 | z2 | k2 | Hi Burak, I'm out shopping. There is some soup in the fridge. Heat it in a pan for five minutes. Don't use the microwave, it's br… | ✓The microwave works well.
+ing-u3-208 | E8.3.SI1 | z2 | k2 | Dad: Is the omelette OK, Derya? Derya: It is not salty enough. Can you pass me the - - - -? Which completes the dialogue? | ✓salt
+ing-u3-209 | E8.3.R2 | z2 | k2 | This cake is delicious. Which sentence has a similar meaning? | ✓This cake is tasty.
+ing-u3-210 | E8.3.R1 | z2 | k2 | My name is Tuna. I love cooking with my grandmother. Last Sunday, we made dumplings. First, she made the dough. Then we cut it in… | ✓He put meat into the squares.
+ing-u3-211 | E8.3.R1 | z2 | k2 | A cake recipe needs these - - - -: flour, eggs, sugar and milk. Which completes the sentence? | ✓ingredients
+ing-u3-212 | E8.3.R1 | z2 | k2 | Ferhat does not eat meat or fish. Which dish is suitable for him? | ✓Tomato soup with bread
+ing-u3-213 | E8.3.R1 | z2 | k2 | Our school canteen serves a hot - - - - at noon: meatballs, rice and yogurt. Which completes the sentence? | ✓meal
+ing-u3-214 | E8.3.R1 | z3 | k2 | Look at the recipe. Selin will make pancakes for eight people. How many glasses of milk does she need? | ✓6 glasses
+ing-u3-215 | E8.3.SI1 | z3 | k2 | Ceyda: I want to cook dinner for my family tonight. Do you have an idea? Mr. Ak: Do they prefer meat or fish? Ceyda: My mother lo… | ✓you should cook chicken for dinner
+ing-u3-216 | E8.3.R1 | z3 | k2 | Zeynep sees this poster at school. What will the students do before Saturday? | ✓They will choose the meal.
+ing-u3-217 | E8.3.R1 | z3 | k2 | How to cook rice Wash the rice in cold water two or three times. Put it in a pan with hot water and a little oil. Add some salt. … | ✓Fry the rice before adding water.
+ing-u3-218 | E8.3.R2 | z3 | k2 | Maya found the dish too bland, so she added some salt and pepper. Her brother tasted it and said, "Now it's perfect!" What does "… | ✓without much taste
+ing-u3-219 | E8.3.R1 | z3 | k2 | Hi Gül, here is how I make my special lemon cake. First, I mix butter and sugar. After that, I add three eggs, one by one. Next, … | ✓Adding flour and lemon juice.
+ing-u3-220 | E8.3.R1 | z3 | k2 | Emre goes to a weekend cooking course on Saturday. He arrives at school at 11:15 because of the traffic. Which class does he miss… | ✓the soup class
+ing-u3-221 | E8.3.SI1 | z3 | k2 | Dilek: Do you prefer something sweet or sour? Tuna: I prefer something sweet, but not chocolate. I had it at lunch. Dilek: Then w… | ✓Good idea! I love it.
+ing-u3-222 | E8.3.R1 | z3 | k2 | Ali wanted to make soup for his mother. He chopped carrots, onions and potatoes and put them in a pan with water. Then he turned … | ✓He left the pan on the heat too long.
+ing-u3-223 | E8.3.R1 | z3 | k2 | The chef says to the new cooks: "Wash your hands before you start. Never use the same knife for raw meat and vegetables. Use a cl… | ✓Using different knives for meat and vegetabl…
+ing-u3-224 | E8.3.R1 | z3 | k2 | Class 8B answers the question "Do you prefer cooking or washing up?" Which sentence is true? | ✓Most boys prefer washing up.
+ing-u3-225 | E8.3.SI1 | z3 | k2 | Teacher: Today we are making pancakes. Please follow the steps on the board. Student: Excuse me, sir. - - - - Teacher: Two spoons… | ✓How much sugar do I add?
+ing-u3-301 | E8.3.W1 | z3 | k3 | Mert is telling his sister how to cook pasta. Mert: First, boil the water in a big pan. Then, - - - -. After that, pour the water… | ✓put the pasta into the hot water
+ing-u3-302 | E8.3.R1 | z3 | k3 | Here is the menu of a small café. According to the menu, which one is NOT true? | ✓Two ayrans cost more than a tomato soup.
+ing-u3-303 | E8.3.SI1 | z3 | k3 | Sinem is asking Deniz about food. Deniz's opinions are in the table. Sinem: Do you prefer pizza or pasta? Deniz: - - - - Which on… | ✓I usually prefer pasta because pizza is too …
+ing-u3-304 | E8.3.R2 | z3 | k3 | Read the text about Ayça's father. My father is making soup today. He peels the potatoes and carrots first. Then he dices them. T… | ✓cuts into small cubes
+ing-u3-305 | E8.3.R1 | z3 | k3 | Selin finds this note on the kitchen table. Dear Selin, I'm at work. Please start dinner for us. First, boil the rice. Then chop … | ✓Selin will chop the vegetables after the ric…
+ing-u3-306 | E8.3.SI1 | z3 | k3 | Ece is going to bake a cake. Dad has the recipe card below. Ece: Dad, how many eggs and how much flour should I use for the cake?… | ✓You should use three eggs and 200 grams of f…
+ing-u3-307 | E8.3.W1 | z3 | k3 | Nehir is explaining how to make an omelette, but her sentences are mixed up. 1. Next, pour the mixture into a hot pan. 2. Finally… | ✓3 - 4 - 1 - 2
+ing-u3-308 | E8.3.R1 | z3 | k3 | The 24 students of class 8/C answered this question: "Which meal do you like the most?" The results are in the table. According t… | ✓Pasta and soup together are as popular as pi…
+ing-u3-309 | E8.3.SI1 | z3 | k3 | Hakan and Lale are talking about cooking. Hakan: Do you prefer baking cakes or frying potatoes? Lale: - - - -. I love the smell o… | ✓I usually prefer baking cakes
+ing-u3-310 | E8.3.R2 | z3 | k3 | Kerem's mother made a new dish for dinner. Kerem took a big bite and his face turned red. He couldn't speak for a moment. He quic… | ✓spicy
+ing-u3-311 | E8.3.R1 | z3 | k3 | Read Lale's blog post. Yesterday I baked a cake for my brother's birthday. I mixed the eggs, sugar and milk and poured the mixtur… | ✓Lale left one ingredient out of the mixture.
+ing-u3-312 | E8.3.R1 | z3 | k3 | Cem has 90 TL. He wants to buy one soup, one main dish and one drink from the menu below. Which meal can Cem buy? | ✓Chicken soup, pasta and lemonade
+ing-u3-313 | E8.3.SI1 | z3 | k3 | Aylin wants to peel some potatoes. The list below shows the things inside the kitchen drawers. Aylin: What can I use to peel the … | ✓Use a knife. It is in the second drawer.
+ing-u3-314 | E8.3.R1 | z3 | k3 | Look at the poster in Ümit's kitchen. According to the poster, which one is true? | ✓If the tea is too strong, you add hot water …
+ing-u3-315 | E8.3.R1 | z3 | k3 | Read the e-mail from Mia to Lara. Hi Lara, I'm making pancakes tonight. I have milk and sugar, but I don't have any eggs or flour… | ✓eggs, flour and a pan
+ing-u3-316 | E8.3.W1 | z4 | k3 | Deniz's grandmother wrote a recipe for a cheese pie, but step 3 is missing. Which one is the missing step? | ✓Pour the mixture into a baking tray.
+ing-u3-317 | E8.3.R1 | z4 | k3 | Defne wants to make cookies for 8 people. The recipe is for 4 people. The table shows the recipe and what Defne has at home. What… | ✓only 100 grams of flour
+ing-u3-318 | E8.3.R1 | z4 | k3 | Dilan is cooking at home. The table shows how long each food boils. Dilan wants to take the eggs out of the water at 18.30. She w… | ✓18.10
+ing-u3-319 | E8.3.W1 | z4 | k3 | Batu is writing how to make French fries. His sentences are mixed up. 1. Finally, put them on a plate. 2. First, peel the potatoe… | ✓2 - 4 - 3 - 5 - 1
+ing-u3-320 | E8.3.R1 | z4 | k3 | Ahmet's aunt is choosing a dish for dinner. Ahmet can't eat eggs and he doesn't like spicy food. The table shows the dishes. Whic… | ✓Lentil soup, because it has no egg and it is…
+ing-u3-321 | E8.3.R1 | z4 | k3 | Read the text about Irmak's grandfather. My grandfather makes bread every Sunday. First, he mixes flour, water and yeast. Then he… | ✓115 minutes
+ing-u3-322 | E8.3.R1 | z4 | k3 | Hasan's parents are not at home. He wants to bake a pizza. This poster is on the kitchen wall. According to the poster, which one… | ✓Hasan should never use the oven without aski…
+ing-u3-323 | E8.3.R1 | z4 | k3 | Nilay and Tolga describe how they make an omelette. Nilay: First, I mix two eggs in a bowl. Then I add salt and cheese. Finally, … | ✓They add salt before frying.
+ing-u3-324 | E8.3.R1 | z4 | k3 | This is the schedule of a cooking class. Each activity ends when the next one starts. According to the schedule, which one is tru… | ✓Boiling the soup takes twenty minutes.
+ing-u3-325 | E8.3.SI1 | z4 | k3 | Gül and Okan are talking about boiled eggs. Gül: Do you prefer boiling or frying eggs? Okan: I prefer boiling. Look at my cards. … | ✓Finally – First – Then
+ing-u3-001 | E8.3.R2 | z1 | k0 | Dad wants to - - - - a cake in the oven. | ✓bake
+ing-u3-002 | E8.3.SI1 | z1 | k0 | Ela: Do you prefer tea or coffee? Aziz: - - - - Which one completes the dialogue? | ✓I usually prefer tea.
+ing-u3-003 | E8.3.R2 | z1 | k0 | Lemons are very - - - -. I make a face when I eat one. | ✓sour
+ing-u3-004 | E8.3.SI1 | z2 | k0 | The recipe says: 3 eggs and 1 glass of milk. Ali: Do I use two or three eggs? Mum: - - - - Which one completes the dialogue? | ✓Use three eggs, please.
+ing-u3-005 | E8.3.W1 | z2 | k0 | First, wash the tomatoes. - - - -, cut them into pieces. Finally, put them in a bowl. | ✓Then
+ing-u3-006 | E8.3.R1 | z2 | k0 | Read the note. Dear Ali, There is some soup in the fridge. Heat it in a pan. Don't use the oven, please. Mum What should Ali do? | ✓Heat the soup in a pan.
+ing-u3-007 | E8.3.R1 | z2 | k0 | Eda has 60 TL. She wants to eat a pizza. The price list is below. Which one can she buy? | ✓a pizza and an ayran
+ing-u3-008 | E8.3.R2 | z2 | k0 | Read the sentences. Mum gave me a banana. I peeled it and ate the soft fruit inside. What does "peeled" mean? | ✓took off the skin
+ing-u3-009 | E8.3.SI1 | z3 | k0 | Gizem is talking to her father on the phone. Gizem: Dad, we have tomatoes and cucumbers for the salad, but we don't have any lett… | ✓lettuce and olives
+ing-u3-010 | E8.3.SI1 | z3 | k0 | Bora: Do you prefer cooking alone or with friends? Selma: I prefer cooking with friends. - - - - Which one completes Selma's answ… | ✓We chop, mix and laugh together.
+ing-u3-011 | E8.3.R1 | z3 | k0 | Read the text. Ayşe's mother made strawberry jam. First, she washed the strawberries. Then she put them into a pot with sugar and… | ✓After the jam became cool.
+ing-u3-012 | E8.3.R1 | z3 | k0 | This is a pancake recipe. According to the recipe, which one is NOT true? | ✓You fry each side for four minutes.
+ing-u3-013 | E8.3.R1 | z4 | k0 | Selen wants to make soup. She has 4 potatoes, 2 onions and 2 carrots at home. She doesn't have any tomatoes. The table shows two … | ✓Only Soup A
+ing-u3-014 | E8.3.W1 | z4 | k0 | Here is a recipe for orange juice, but step 3 is missing. Which one is the missing step? | ✓Squeeze the halves into a jug.
+ing-u3-015 | E8.3.R1 | z4 | k0 | Read the conversation. Arda: Do you prefer baking or frying? Lena: Baking. I bake bread every Sunday. Arda: I prefer frying. I fr… | ✓Lena never fries food.

@@ -1,0 +1,90 @@
+ing-u2-101 | E8.2.R1 | z1 | k1 | Which word means "a young person between 13 and 19 years old"? | ✓teenager
+ing-u2-102 | E8.2.SI1 | z1 | k1 | Selin: Do you like shopping? Defne: - - - - Which one is the best answer? | ✓Yes, I do.
+ing-u2-103 | E8.2.R1 | z1 | k1 | Which word means "not at any time"? | ✓never
+ing-u2-104 | E8.2.SP1 | z1 | k1 | Gökhan: I can't stand spicy food. What does Gökhan mean? | ✓He hates spicy food.
+ing-u2-105 | E8.2.R1 | z1 | k1 | Which one is a type of music? | ✓hip-hop
+ing-u2-106 | E8.2.SP1 | z1 | k1 | Berk: Do you prefer tea or coffee? Selin: - - - - Which one is the best answer? | ✓I prefer tea.
+ing-u2-107 | E8.2.R1 | z1 | k1 | The noise in the street was unbearable, so I couldn't sleep. What does "unbearable" mean? | ✓so bad that you can't accept it
+ing-u2-108 | E8.2.R1 | z1 | k1 | Hi Ali, I'm at the café now. I love their hot chocolate, but I can't stand the music here. Come quickly! Mert What can't Mert sta… | ✓the music in the café
+ing-u2-109 | E8.2.SP2 | z1 | k1 | Zeynep brushes her teeth every morning and every evening. She - - - - brushes her teeth. Which word completes the sentence? | ✓always
+ing-u2-110 | E8.2.SP1 | z1 | k1 | Lena: How was the concert last night? Tuna: It was terrific! What does Tuna think about the concert? | ✓It was very good.
+ing-u2-111 | E8.2.SP2 | z1 | k1 | Gizem: What do you do in the evenings? Bora: - - - - Which one is the best answer? | ✓I usually do my homework.
+ing-u2-112 | E8.2.R1 | z1 | k1 | Selma's jacket is trendy. What does "trendy" mean? | ✓It is in fashion.
+ing-u2-113 | E8.2.R1 | z2 | k1 | Eda is a teenager. She goes to school on weekdays. On Saturdays, she usually meets her friends at the shopping mall, but she rare… | ✓On Saturdays.
+ing-u2-114 | E8.2.SI1 | z2 | k1 | Burak: What do you do in the evenings? Lale: I usually watch TV, but I also play volleyball with my cousin. Burak: So, do you lik… | ✓Yes, I do. I love volleyball.
+ing-u2-115 | E8.2.R1 | z2 | k1 | Class 8-A made a poll. Look at the results. Which type of music do most students prefer? | ✓rock
+ing-u2-116 | E8.2.R1 | z2 | k1 | Okan loves football and basketball. He doesn't like swimming very much. He can't stand running. Which sport does Okan hate most? | ✓running
+ing-u2-117 | E8.2.R1 | z2 | k1 | This table shows Mina's weekly activities. ✓ means she does it on that day. Which sentence is true? | ✓She always practises the guitar.
+ing-u2-118 | E8.2.R1 | z2 | k1 | Everybody at school says Kerem is a snob. Which sentence describes a snob? | ✓He thinks he is better than others.
+ing-u2-119 | E8.2.SP2 | z2 | k1 | Ahmet: What do you do after school? Ceren: I usually - - - - my homework, and then I - - - - the guitar. Which option completes t… | ✓do – play
+ing-u2-120 | E8.2.R1 | z2 | k1 | I'm Ömer, and I'm 14. I'm keen on photography, so I take my camera to school every day. My friends say my photos are impressive. … | ✓He takes photos of birds in the park.
+ing-u2-121 | E8.2.R1 | z2 | k1 | Gül and Aslı are best friends. They never argue. Which sentence has the same meaning? | ✓They don't have angry talks with each other.
+ing-u2-122 | E8.2.R1 | z2 | k1 | Meltem is going to a picnic. She is wearing jeans and a T-shirt, not a dress. Which word describes her clothes? | ✓casual
+ing-u2-123 | E8.2.L1 | z2 | k1 | Nil: Are you coming to the concert on Friday? Tuna: I'd love to, but I have a basketball match. Nil: Oh. Do you prefer basketball… | ✓He has a basketball match.
+ing-u2-124 | E8.2.SP2 | z2 | k1 | Merve lives in a small town. There is only one theater, and tickets are expensive, so she - - - - goes there. Maybe once a year. … | ✓rarely
+ing-u2-125 | E8.2.W1 | z2 | k1 | Hi Ece, There is a dance show at the youth centre on Saturday. I know you are fond of dancing. - - - - Orhan Which sentence compl… | ✓Would you like to go with me?
+ing-u2-201 | E8.2.SI1 | z2 | k2 | Kaan: What do you usually do on Sundays? Sude: I usually visit my grandparents, but I sometimes go cycling. Kaan: Do you often go… | ✓No, I don't. Only sometimes.
+ing-u2-202 | E8.2.R1 | z2 | k2 | Dear diary, Today was a bad day. I argued with my best friend about a ridiculous thing: the colour of a T-shirt! Now I feel sad. … | ✓It was silly.
+ing-u2-203 | E8.2.SI1 | z2 | k2 | Zeynep: - - - - Efe: I usually play computer games, but sometimes I read comics. Which question completes the dialogue? | ✓What do you do in your free time?
+ing-u2-204 | E8.2.R1 | z2 | k2 | Teen Talk magazine asked 100 teenagers about their weekends. Most of them sleep late on Saturdays. Many of them meet friends in c… | ✓Few teenagers go to the theater at weekends.
+ing-u2-205 | E8.2.W1 | z2 | k2 | Hi Sevgi, Thanks for your invitation to the picnic. I'm keen on picnics, but I have a violin lesson at four. - - - - Yağmur Which… | ✓Can I join you after my lesson?
+ing-u2-206 | E8.2.SI1 | z2 | k2 | Hasan: Do you go to concerts? Mira: Yes, I do, but not often. Hasan: How often do you go? Mira: - - - - Which one is the best ans… | ✓About twice a year.
+ing-u2-207 | E8.2.R1 | z2 | k2 | Hi Sena, Thanks for your e-mail. I'm new in İzmir. At my new school, everybody wears casual clothes: jeans and T-shirts. In my ol… | ✓Students don't wear uniforms.
+ing-u2-208 | E8.2.R1 | z2 | k2 | Bahar reads magazines about clothes and always follows the latest styles. She is very interested in - - - - . Which word complete… | ✓fashion
+ing-u2-209 | E8.2.R1 | z2 | k2 | Mert checks social media every morning, every afternoon and every night. His mother checks hers only on Sundays. Which one is NOT… | ✓Mert's mother checks hers every night.
+ing-u2-210 | E8.2.SP1 | z2 | k2 | Yiğit: This song is terrific! Dila: Really? I think it's unbearable. Yiğit: Don't you like rock? Dila: I do, but not this song. W… | ✓Dila likes rock but not this song.
+ing-u2-211 | E8.2.SP2 | z2 | k2 | This table shows Kerem's Saturday. What does Kerem do right after playing football? | ✓He does his homework.
+ing-u2-212 | E8.2.R1 | z2 | k2 | Look at the poster. Which sentence is true according to the poster? | ✓Visitors can hear pop and rock.
+ing-u2-213 | E8.2.R1 | z2 | k2 | Cem: Why aren't you laughing, Deniz? Deniz: Because it isn't funny. It's a serious problem. What does "serious" mean here? | ✓important and worrying
+ing-u2-214 | E8.2.SI1 | z3 | k2 | Ceyda, Barış and Ela are planning Saturday. Where will they go? | ✓To the cinema.
+ing-u2-215 | E8.2.R1 | z3 | k2 | Defne and Emre answered a teen questionnaire. Which sentence is true? | ✓Defne enjoys social media, but Emre can't st…
+ing-u2-216 | E8.2.R1 | z3 | k2 | I'm Pelin and I'm fourteen. My friends think I'm a bit of a snob because I wear only trendy clothes, but that isn't true. I just … | ✓She goes to the cinema every Saturday.
+ing-u2-217 | E8.2.SP1 | z3 | k2 | Three students talk about reading the news. Aylin: I prefer reading the news online. Newspapers are old-fashioned. Burak: I like … | ✓Aylin and Cansu
+ing-u2-218 | E8.2.SI1 | z3 | k2 | Hakan loves music and can't stand photography. He thinks chess is boring. He has a football match on Saturday at 10.00. Which act… | ✓the band concert
+ing-u2-219 | E8.2.R1 | z3 | k2 | Last night I watched a talent show on TV. A twelve-year-old boy played the violin, and the judges stood up and clapped. His perfo… | ✓impressive
+ing-u2-220 | E8.2.SP1 | z3 | k2 | Nur: Look at my new sneakers! Aren't they trendy? Kaan: To be honest, I think they're ridiculous. Pink with yellow stars? Nur: Hm… | ✓He doesn't like Nur's sneakers.
+ing-u2-221 | E8.2.W1 | z3 | k2 | (1) I'm fond of hip-hop. (2) I listen to it every evening after my homework. (3) My brother rarely listens to music; he prefers w… | ✓Sentence 3
+ing-u2-222 | E8.2.R1 | z3 | k2 | Teacher asked 25 students in class 8-C how often they do these activities. What can we understand from the table? | ✓Most students never play chess.
+ing-u2-223 | E8.2.R1 | z3 | k2 | Mina: I'm keen on camping. I go camping twice a year with my dad. I love sleeping in a tent. Selim: I can't stand camping. Tents … | ✓Selim and Mina have different opinions.
+ing-u2-224 | E8.2.SI1 | z3 | k2 | 1. "I rarely watch it. I prefer sports." 2. "Do you like watching TV?" 3. "What do you do in your free time, then?" 4. "I usually… | ✓2-1-3-4
+ing-u2-225 | E8.2.R1 | z3 | k2 | Teen Talk Radio — Call-in Show Thursday 19.00 Topic: "Is fashion important for teenagers?" Guests: Deniz (a fashion designer) and… | ✓Teenagers can phone in and talk about fashio…
+ing-u2-301 | E8.2.R1 | z3 | k3 | This table shows how often Deniz does some activities in her free time. According to the table, which one is NOT true? | ✓Deniz sometimes plays computer games.
+ing-u2-302 | E8.2.SI1 | z3 | k3 | Aylin: Do you like shopping with your parents? Mert: - - - - I prefer staying at home. Aylin: I see. I'm not keen on it, either. … | ✓No, I don't. I find it boring.
+ing-u2-303 | E8.2.R1 | z3 | k3 | Emre's blog I'm a big fan of K-pop. I listen to it every day on my way to school. My brother thinks it is ridiculous. He prefers … | ✓Emre's brother never listens to K-pop.
+ing-u2-304 | E8.2.R1 | z3 | k3 | Sibel is thirteen. She reads fashion magazines and watches fashion videos every day. She always follows the latest fashion, and s… | ✓trendy
+ing-u2-305 | E8.2.SP1 | z3 | k3 | Ali: Which do you prefer, going to a rock concert or watching a film at home? Duru: - - - - Crowded places are unbearable for me.… | ✓I prefer the film. I can watch it at home.
+ing-u2-306 | E8.2.R1 | z3 | k3 | Mehmet sees this poster in his town. According to the poster, which one is NOT true? | ✓Guests may use their phones on the dance flo…
+ing-u2-307 | E8.2.SI1 | z3 | k3 | Ceren: What do you do in the evenings, Tuna? Tuna: I usually do my homework first. - - - - Ceren: Me neither! TV is so boring for… | ✓Then I never turn on the TV.
+ing-u2-308 | E8.2.R1 | z3 | k3 | Last Saturday, I went to a concert in a small hall. There were too many people, the music was too loud and it was very hot. I cou… | ✓terrible
+ing-u2-309 | E8.2.R1 | z3 | k3 | Four students answered a questionnaire about their free-time activities. The table shows which activities they like (✔) and disli… | ✓Ece and Tan both like concerts.
+ing-u2-310 | E8.2.SI1 | z3 | k3 | Dilara: Are you coming to the shopping centre on Saturday? Kerem: I can't. I hate shopping with my sister! Dilara: Why? Is she bo… | ✓His sister always argues with shop assistant…
+ing-u2-311 | E8.2.SP2 | z3 | k3 | Teacher: How often do you go to the cinema? Student: - - - - Teacher: Oh, that is not very often! Which one completes the dialogu… | ✓Seldom, about twice a year.
+ing-u2-312 | E8.2.R1 | z3 | k3 | Dear Diary, Today we had a basketball match. I usually get home at four, but today I came home at six. We lost the game 40 – 52, … | ✓The writer still likes playing after a loss.
+ing-u2-313 | E8.2.R1 | z3 | k3 | The Teen Club in Sevgi's town has a weekly timetable. Which one is true according to the timetable? | ✓Film night is in the evening.
+ing-u2-314 | E8.2.R1 | z3 | k3 | This table shows what Berk did in the last four weeks (28 days). Which one is true according to the table? | ✓Berk never goes to the cinema.
+ing-u2-315 | E8.2.R1 | z3 | k3 | From: Ceylin Hi Jake, You asked about my free time. I don't have much, because I have a lot of homework. At weekends, I usually m… | ✓Ceylin's friends rarely buy things at the ma…
+ing-u2-316 | E8.2.R1 | z4 | k3 | Nil writes a message to the school magazine: "I am organising a Teen Day. I usually go to concerts, I sometimes go shopping and I… | ✓Defne
+ing-u2-317 | E8.2.R1 | z4 | k3 | Zeynep asked 40 students in her school about their favourite type of music. The results are in the table. According to the table,… | ✓Rock and classical together are less popular…
+ing-u2-318 | E8.2.SP2 | z4 | k3 | Ayşe: I usually get up at 7.00, but on Sundays I sometimes sleep until 10.00. I rarely eat breakfast at home on school days becau… | ✓Bora gets up earlier than Cansu at weekends.
+ing-u2-319 | E8.2.R1 | z4 | k3 | The table shows the programme of the Teen Festival. Melek: "I can't stand hip-hop. I'm free on Saturday and Sunday." Tolga: "I'm … | ✓The rock concert
+ing-u2-320 | E8.2.R1 | z4 | k3 | A magazine asked 200 teenagers about their weekends. The results show that 60% of them usually meet friends, 25% stay at home and… | ✓Most teenagers stay at home at weekends.
+ing-u2-321 | E8.2.SP1 | z4 | k3 | Lale: Do you listen to pop music, Murat? Murat: Pop music? - - - - Lale: Really? I'm the opposite! I find it unbearable. Which on… | ✓I'm fond of it, so I listen to it every day.
+ing-u2-322 | E8.2.R1 | z4 | k3 | Hi Mia, You asked about my family. I'm Gizem, and I have a brother, Kaan. We are very different! I never go camping because I can… | ✓Gizem and Kaan have different interests.
+ing-u2-323 | E8.2.R1 | z4 | k3 | A school asked 100 students: "How often do you use social media?" The results are in the table. According to the table, which one… | ✓Fewer than half of the students use social m…
+ing-u2-324 | E8.2.R1 | z4 | k3 | Four students talk about their weekends. Hakan: I hate wasting time. I do my homework first, then I go to bed early. Irem: I'm ke… | ✓Irem
+ing-u2-325 | E8.2.SP1 | z4 | k3 | Elif wants to go to a concert with her friends. Elif: "I can't stand rock music. I prefer to go on a weekend, and I have only 200… | ✓Classical Night
+ing-u2-001 | E8.2.R1 | z1 | k0 | The table shows what Sena likes and dislikes. According to the table, which one is true? | ✓She is fond of concerts.
+ing-u2-002 | E8.2.SP2 | z1 | k0 | Kaan goes jogging on Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday. So he - - - - goes jogging. Which one com… | ✓always
+ing-u2-003 | E8.2.SI1 | z1 | k0 | Sude: Do you like hip-hop? Ece: - - - - I listen to it every day. Which one completes the dialogue best? | ✓Yes, I'm fond of it.
+ing-u2-004 | E8.2.R1 | z2 | k0 | This is the weekly poster of a teen club. Which one is true according to the poster? | ✓There is no activity on Wednesday.
+ing-u2-005 | E8.2.R1 | z2 | k0 | Ayşe and her brother often - - - - because both of them want to use the computer. Their mother is not happy about it. Which word … | ✓argue
+ing-u2-006 | E8.2.SP1 | z2 | k0 | Tuna: Which do you prefer, shopping or going to a concert? Ela: - - - - I can't stand crowded shops. Tuna: OK, then let's buy the… | ✓I prefer the concert.
+ing-u2-007 | E8.2.R1 | z2 | k0 | Thirty teenagers answered the question "What is your favourite free-time activity?" The results are in the table. According to th… | ✓Twenty-one chose music or social media.
+ing-u2-008 | E8.2.R1 | z2 | k0 | My uncle wore a pink hat with a huge feather to the school ceremony. Everybody laughed. I thought it looked ridiculous. Which wor… | ✓silly
+ing-u2-009 | E8.2.SI1 | z3 | k0 | Yaren: Do you want to come to my place and watch the match tonight? It starts at 20.00. Ozan: I'd love to, but I always do my hom… | ✓Ozan will arrive before the match starts.
+ing-u2-010 | E8.2.R1 | z3 | k0 | The table shows how often three students do some activities. According to the table, which one is true? | ✓Mia and Orhan often go shopping.
+ing-u2-011 | E8.2.R1 | z3 | k0 | Dear Can, I am at work until 7. There is pizza in the fridge. Please don't play video games all evening. Do your homework first! … | ✓Do his homework before playing video games.
+ing-u2-012 | E8.2.SP2 | z3 | k0 | Ece: What do you do in your free time, Arda? Arda: I'm keen on camping. I go camping with my family in summer. Ece: Do you go in … | ✓No, I seldom do.
+ing-u2-013 | E8.2.R1 | z4 | k0 | Elif: I always do my homework on Fridays. At weekends, I usually go to the cinema with my cousins, and sometimes we have pizza af… | ✓They go to the cinema at weekends.
+ing-u2-014 | E8.2.R1 | z4 | k0 | Many adults think teenagers are always on their phones and never talk to their families. That is not true for me. I usually have … | ✓Not every teenager ignores his or her family.
+ing-u2-015 | E8.2.R1 | z4 | k0 | Mr. Polat wants to choose one activity for the Teen Day. He has two rules: 1) At least 10 students from each class must like the … | ✓The camping trip
