@@ -38,5 +38,7 @@ window.LGS_HAP_LISTE = [
   "dogrusal-denklemler.js",
   "isi-madde.js",
   "basit-makineler.js",
-  "ink-4-ataturkculuk.js"
+  "ink-4-ataturkculuk.js",
+  "fiilde-cati.js",
+  "kimya-endustrisi.js"
 ];

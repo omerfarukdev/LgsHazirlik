@@ -145,5 +145,9 @@ window.LGS_MANIFEST = [
   "ink-u4-1.js",
   "ink-u4-2.js",
   "tur-paragrafta-anlam-53.js",
-  "tur-paragrafta-anlam-54.js"
+  "tur-paragrafta-anlam-54.js",
+  "tur-fiilde-cati-1.js",
+  "tur-fiilde-cati-2.js",
+  "fen-kimya-endustrisi-1.js",
+  "fen-kimya-endustrisi-2.js"
 ];

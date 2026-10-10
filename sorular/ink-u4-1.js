@@ -486,7 +486,7 @@ Cevap B.`
   kazanim: "İTA.8.4.5",
   kademe: 1,
   zorluk: 2,
-  soru: `Atatürk Dönemi'nde Türk kadınına tanınan siyasi haklarla ilgili aşağıdakilerden hangileri doğrudur?
+  soru: `**Atatürk Dönemi'nde Türk kadınına tanınan siyasi haklarla ilgili aşağıdakilerden hangileri doğrudur?**
 I. Kadınlara ilk siyasi hak olarak milletvekili seçme ve seçilme hakkı verilmiştir.
 II. 1930'da kadınlar belediye seçimlerine katılma hakkını kazanmıştır.
 III. 1934'te kadınlara milletvekili seçme ve seçilme hakkı tanınmıştır.`,
@@ -572,7 +572,7 @@ Cevap C.`
   kazanim: "İTA.8.4.5",
   kademe: 1,
   zorluk: 2,
-  soru: `Atatürk Dönemi'nde takvim, saat ve ölçülerde yapılan düzenlemelerle ilgili aşağıdakilerden hangileri doğrudur?
+  soru: `**Atatürk Dönemi'nde takvim, saat ve ölçülerde yapılan düzenlemelerle ilgili aşağıdakilerden hangileri doğrudur?**
 I. Hicrî ve Rumî takvimlerin yerine Miladî takvim kabul edilmiştir.
 II. Gün batımına göre ayarlanan alaturka saat uygulaması benimsenmiştir.
 III. Ölçülerde metre ve kilogram gibi uluslararası birimlere geçilmiştir.`,
@@ -658,7 +658,7 @@ Cevap D.`
   kazanim: "İTA.8.4.8",
   kademe: 1,
   zorluk: 2,
-  soru: `Atatürk'ün Cumhuriyet'in kazanımlarını anlattığı konuşmalarla ilgili aşağıdakilerden hangileri doğrudur?
+  soru: `**Atatürk'ün Cumhuriyet'in kazanımlarını anlattığı konuşmalarla ilgili aşağıdakilerden hangileri doğrudur?**
 I. Büyük Nutuk, 1927'de Cumhuriyet Halk Fırkası'nın ikinci büyük kongresinde okunmuştur.
 II. Onuncu Yıl Nutku'nda Cumhuriyet'in on yılda elde ettiği başarılar dile getirilmiştir.
 III. Onuncu Yıl Nutku, Büyük Nutuk'un bir bölümüdür.`,

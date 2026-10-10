@@ -1,0 +1,90 @@
+fen-ke-101 | F.8.4.6.1 | z1 | k1 | Kimya endüstrisi aşağıdakilerden hangisi gibi tanımlanır? | ✓Hammaddeleri kimyasal işlemlerle başka ürünl…
+fen-ke-102 | F.8.4.6.1 | z1 | k1 | Aşağıdakilerden hangisi kimya endüstrisinin ürünlerinden biridir? | ✓Yüzey boyası
+fen-ke-103 | F.8.4.6.2 | z1 | k1 | Aşağıdaki meslek-görev eşleştirmelerinden hangisi doğrudur? | ✓Kimya mühendisi – Üretim sürecini tasarlar
+fen-ke-104 | F.8.4.6.1 | z1 | k1 | Ürünlerin standartlara uygunluğunu denetleyen ve belgeleyen kuruluş aşağıdakilerden hangisidir? | ✓Türk Standartları Enstitüsü (TSE)
+fen-ke-105 | F.8.4.6.1 | z1 | k1 | Türkiye'de üretilen bir boyanın başka bir ülkeye satılması aşağıdakilerden hangisidir? | ✓İhracat
+fen-ke-106 | F.8.4.6.2 | z1 | k1 | Kullanılmış plastik şişelerin toplanıp işlenerek yeni ürünlerin üretiminde kullanılması hangi kavramla ifade edilir? | ✓Geri dönüşüm
+fen-ke-107 | F.8.4.6.1 | z1 | k1 | Bir firmanın yeni bir deterjan formülü geliştirmek için laboratuvarda yürüttüğü araştırma çalışmalarına ne ad verilir? | ✓Ar-Ge
+fen-ke-108 | F.8.4.6.1 | z1 | k1 | Gübre, hangi amaçla kullanılan bir kimya ürünüdür? | ✓Bitkilerin gelişimini ve verimini artırmak
+fen-ke-109 | F.8.4.6.2 | z1 | k1 | Laboratuvarda maddelerin bileşimini ve özelliklerini bilimsel olarak inceleyip yeni maddeler araştıran uzman hangi mesleğin mensu… | ✓Kimyager
+fen-ke-110 | F.8.4.6.1 | z1 | k1 | Plastik üretiminde kullanılan hammaddelerin büyük bölümü hangi kaynaktan sağlanır? | ✓Petrol ve doğal gaz
+fen-ke-111 | F.8.4.6.2 | z1 | k1 | Üretimde çevreye daha az zarar veren madde ve yöntemlerin geliştirilmesini amaçlayan yaklaşım hangisidir? | ✓Yeşil kimya
+fen-ke-112 | F.8.4.6.2 | z1 | k1 | Bitkisel hammaddelerden üretilen plastiğe ne ad verilir? | ✓Biyoplastik
+fen-ke-113 | F.8.4.6.1 | z2 | k1 | Aşağıdakilerden hangileri kimya endüstrisinin ürün gruplarındandır? I. Pamuklu kumaş II. İlaç III. Gübre | ✓II ve III
+fen-ke-114 | F.8.4.6.1 | z2 | k1 | Bir ülke, petrolden elde edilen hammaddeyi yurt dışından satın alıp işleyerek boya üretiyor ve bu boyayı başka ülkelere satıyor. … | ✓Hammadde ithal ediyor, boya ihraç ediyor.
+fen-ke-115 | F.8.4.6.2 | z2 | k1 | Bir boya fabrikası atık suyunu doğrudan dereye bırakmakta, derede balık ölümleri görülmektedir. Fabrika yönetimi, atık suyun arıt… | ✓Çevre mühendisi
+fen-ke-116 | F.8.4.6.1 | z2 | k1 | Aşağıdakilerden hangileri Türkiye'de kimya endüstrisinin gelişimine katkı sağlayan çalışmalardandır? I. Üniversitelerde yeni ürün… | ✓I ve II
+fen-ke-117 | F.8.4.6.1 | z2 | k1 | Aşağıdaki tablo, kurgusal bir ülkenin bir yıl içindeki kimyasal ürün dış ticaretini göstermektedir. Tabloya göre hangi ürün için … | ✓Boya
+fen-ke-118 | F.8.4.6.1 | z2 | k1 | Bir kimya firması, yeni bir temizlik ürünü geliştirmek için üniversitedeki bir araştırma grubuyla ortak çalışmaktadır. Bu çalışma… | ✓Ürün ve üretim yöntemlerinin geliştirilmesi
+fen-ke-119 | F.8.4.6.2 | z2 | k1 | Aşağıdaki ifadelerden hangileri doğrudur? I. Kimya mühendisleri yalnızca ilaç üretiminde çalışabilir. II. Metalurji ve malzeme mü… | ✓Yalnız II
+fen-ke-120 | F.8.4.6.2 | z2 | k1 | Bir belediye, kullanılmış cam ve plastik atıkları ayrı toplayıp bir tesise göndermektedir. Tesis bu atıkları işleyerek yeniden ür… | ✓Hammadde ihtiyacının ve atık miktarının azal…
+fen-ke-121 | F.8.4.6.2 | z2 | k1 | Aşağıdaki tabloda bazı mesleklerin görevleri verilmiştir. Tabloda hangi meslek için verilen görev yanlıştır? | ✓Çevre mühendisi
+fen-ke-122 | F.8.4.6.2 | z2 | k1 | Aşağıdakilerden hangileri çevre dostu kimya anlayışıyla örtüşür? I. Zararlı atığı azaltan üretim yöntemleri geliştirmek II. Kulla… | ✓I ve II
+fen-ke-123 | F.8.4.6.1 | z2 | k1 | Bir üniversitede görev yapan araştırmacılar, yeni bir boya türü geliştirmek için bir proje hazırlamıştır. Projenin yürütülmesi iç… | ✓TÜBİTAK
+fen-ke-124 | F.8.4.6.1 | z2 | k1 | Doğal kaynakları sınırlı bir ülke, kimya sanayisini geliştirmek istiyor. Bu ülke için hangi yol daha uygundur? | ✓Hammaddeyi ithal edip işleyerek ürüne dönüşt…
+fen-ke-125 | F.8.4.6.1 | z2 | k1 | Türkiye'de kimya endüstrisi için aşağıdakilerden hangileri doğrudur? I. Kimyasal ürünler yalnızca ithal edilir. II. Bazı kimyasal… | ✓II ve III
+fen-ke-201 | F.8.4.6.1 | z2 | k2 | Bir fabrikada kum, soda ve kireç taşı yüksek sıcaklıkta eritilerek şişe, bardak ve pencere camı üretilmektedir. Bu üretim kimya e… | ✓Cam ve seramik
+fen-ke-202 | F.8.4.6.1 | z2 | k2 | Aşağıdakilerden hangileri petrol ve doğal gazdan elde edilen hammaddelerin işlenmesiyle üretilen petrokimya ürünleridir? I. Plast… | ✓I ve III
+fen-ke-203 | F.8.4.6.1 | z2 | k2 | Aşağıdaki çizgi grafik, kurgusal bir ülkenin dört yıl boyunca kimyasal ürün ihracatını ve ithalatını göstermektedir. Bu ülkede ki… | ✓2022
+fen-ke-204 | F.8.4.6.1 | z2 | k2 | Bir ilaç firması, yeni bir etken madde geliştirmek için bir üniversitenin araştırma grubuyla ortak proje yürütmektedir. Bu iş bir… | ✓Bilimsel bilginin yeni ürüne dönüşmesi
+fen-ke-205 | F.8.4.6.2 | z2 | k2 | Bir şirket, ürettiği meyve suyunun raf ömrünü uzatmak ve güvenliğini sağlamak için bir uzman istihdam etmek istiyor. Bu iş için e… | ✓Gıda mühendisi
+fen-ke-206 | F.8.4.6.2 | z2 | k2 | Bir geri dönüşüm tesisine cam, plastik ve metal atıklar karışık biçimde gelmektedir. Atıkların işlenmeden önce türlerine göre ayr… | ✓Yalnız III
+fen-ke-207 | F.8.4.6.1 | z2 | k2 | Bir ülke, ilaç üretimi için gereken hammaddenin büyük bölümünü dışarıdan almaktadır. Bu durum dış ticarette ithalatı ihracattan f… | ✓Yerli hammadde üretimine yönelik Ar-Ge'yi de…
+fen-ke-208 | F.8.4.6.2 | z2 | k2 | Bir kimya öğretmeni, kimya endüstrisinin gelişimine dolaylı olarak katkı sağlamaktadır. Bu katkıyı nasıl sağladığı aşağıdakilerde… | ✓Öğrencilere kimya bilgisi ve bilimsel beceri…
+fen-ke-209 | F.8.4.6.2 | z2 | k2 | Bir öğrenci, kimya endüstrisinde gelecekte önem kazanabilecek bir alan seçip proje hazırlayacaktır. Projesi, bitki atıklarından a… | ✓Biyoplastik
+fen-ke-210 | F.8.4.6.1 | z2 | k2 | Türkiye'de kimya endüstrisinin gelişimine katkı sağlayan kuruluşlar için aşağıdakilerden hangileri doğrudur? I. TSE, kimyasal ürü… | ✓Yalnız II
+fen-ke-211 | F.8.4.6.1 | z2 | k2 | Bir marketten alınan temizlik ürününün etiketinde TSE işareti bulunmaktadır. Bu işaret neyi gösterir? | ✓Ürünün standartlara bütünüyle uygun olduğunu
+fen-ke-212 | F.8.4.6.1 | z2 | k2 | Ham petrolün fiyatı yükselmiştir. Petrol türevlerinden üretilen hangi ürünün maliyetinin artması beklenir? | ✓Plastik şişe
+fen-ke-213 | F.8.4.6.1 | z2 | k2 | Kimya endüstrisiyle ilgili aşağıdakilerden hangisi doğrudur? | ✓Hiçbir ülke tüm hammaddesini kendi içinde ür…
+fen-ke-214 | F.8.4.6.1 | z3 | k2 | Bir ekonomi öğretmeni, kurgusal bir ülkenin kimyasal ürün dış ticaretini sınıfta inceleyecektir. Ülkenin dış ticaret açığı, bir ü… | ✓İlaç hammaddesi
+fen-ke-215 | F.8.4.6.2 | z3 | k2 | Bir şehirde plastik atıkların çevreye yayılması büyük bir sorun hâline gelmiştir. Belediye, kimya alanında çalışan uzmanlardan çö… | ✓II ve III
+fen-ke-216 | F.8.4.6.2 | z3 | k2 | Bir boya fabrikasında üç kişi görev yapmaktadır: Ayşe: "Yeni bir boyanın formülünü laboratuvarda geliştiriyorum." Burak: "Fabrika… | ✓Kimyager – Çevre mühendisi – Laboratuvar tek…
+fen-ke-217 | F.8.4.6.2 | z3 | k2 | Bir boya fabrikası, ürünlerinin çevreye etkisini azaltmak için yeni uygulamalar planlamaktadır. Yönetim, atık oluşumunu azaltmayı… | ✓Atıkları arıtmadan akarsuya bırakmak
+fen-ke-218 | F.8.4.6.1 | z3 | k2 | Bir ülke, gübre üretiminde kullandığı hammaddenin büyük bölümünü yurt dışından satın almakta ve ürettiği gübrenin bir kısmını baş… | ✓Gübre üretim maliyeti artar.
+fen-ke-219 | F.8.4.6.1 | z3 | k2 | Bir ülkenin kimya ürünleri toplam ihracatı, toplam ithalatından fazladır. Buna göre aşağıdakilerden hangileri kesinlikle doğrudur… | ✓Yalnız I
+fen-ke-220 | F.8.4.6.2 | z3 | k2 | Bir öğrenci, kimya endüstrisinin gelecekteki alanlarından biri olan nanomalzemelerle ilgili aşağıdaki notları almıştır. Bu notlar… | ✓I ve III
+fen-ke-221 | F.8.4.6.1 | z3 | k2 | Bir bölgede çiftçiler verimi artırmak için gübre kullanımını artırmıştır. Bir süre sonra aşırı gübrenin yer altı sularını kirlett… | ✓Toprak analizi yaptırıp ihtiyaca göre gübre …
+fen-ke-222 | F.8.4.6.1 | z3 | k2 | Bir petrokimya tesisi, ham petrolden elde ettiği plastik granülleri başka fabrikalara satmaktadır. Bu fabrikalar granülleri işley… | ✓Bir tesisin ürünü, başka bir tesisin hammadd…
+fen-ke-223 | F.8.4.6.1 | z3 | k2 | Kimya sektöründe çalışan dört yapının faaliyetleri aşağıda verilmiştir. K: Sektördeki uzmanların gönüllü olarak kurduğu; üyelerin… | ✓K
+fen-ke-224 | F.8.4.6.1 | z3 | k2 | Aşağıdaki grafik, kurgusal bir ülkenin üç ürün grubundaki ithalat ve ihracat miktarlarını göstermektedir. Grafiğe göre aşağıdaki … | ✓Yalnız III
+fen-ke-225 | F.8.4.6.1 | z3 | k2 | Bir firma ürettiği temizlik ürünlerini başka bir ülkeye satmak istiyor. Hedef ülke, ürünlerin kalite ve güvenlik açısından kendi … | ✓Hedef ülkenin bütün standart şartlarını öğre…
+fen-ke-301 | F.8.4.6.2 | z3 | k3 | Bir kimya fabrikasının meslek tanıtım gününde çalışanlar, görevlerini öğrencilere şöyle anlatmıştır. I. Kimya mühendisi: Hammadde… | ✓I ve III
+fen-ke-302 | F.8.4.6.1 | z3 | k3 | Bir ülkedeki fabrika, yurt dışından aldığı hammaddeyi işleyerek ürün hâline getirmekte ve bu ürünü yurt dışına satmaktadır. Bu du… | ✓Yalnız II
+fen-ke-303 | F.8.4.6.1 | z3 | k3 | Kurgusal bir ülkede bir plastik ham maddesinin son üç yıldaki yerli üretim ve ithalat miktarları aşağıdaki tabloda verilmiştir (v… | ✓Yerli üretim arttıkça ithalat azalmış, topla…
+fen-ke-304 | F.8.4.6.1 | z3 | k3 | Bir kozmetik firması yeni bir şampuanı satışa sunmadan önce bir üniversiteyle ortak çalışma yapmış ve ürününü bağımsız bir standa… | ✓Yalnız III
+fen-ke-305 | F.8.4.6.1 | z3 | k3 | Bir üniversitenin kimya bölümü ile bir boya firması, suya dayanıklı yeni bir boya geliştirmek için ortak proje yürütmektedir. Fir… | ✓Yerli ürün çeşidinin artması ve ithal ürüne …
+fen-ke-306 | F.8.4.6.2 | z3 | k3 | Yeşil kimya, zararlı madde kullanımını ve atık oluşumunu azaltmayı hedefleyen üretim yaklaşımıdır. Bir temizlik ürünleri firması … | ✓I ve II
+fen-ke-307 | F.8.4.6.1 | z3 | k3 | Kurgusal bir ülkenin dört kimyasal ürün grubundaki yıllık dış ticaret miktarları aşağıdaki tabloda verilmiştir (veriler kurgusald… | ✓Boya ve deterjanda ihracat, her iki üründe d…
+fen-ke-308 | F.8.4.6.1 | z3 | k3 | Bir belediye, ilçedeki plastik atıkların çöp alanlarında birikmesini azaltmak istemektedir. Belediye, bunu yaparken havaya ve top… | ✓II ve III
+fen-ke-309 | F.8.4.6.2 | z3 | k3 | Bir deterjan fabrikasının atık suyunun akarsuya karışmadan önce arıtılması, atık sudaki madde miktarının ölçülmesi ve sonuçların … | ✓Çevre mühendisi
+fen-ke-310 | F.8.4.6.1 | z3 | k3 | Bir sanayi bölgesinde rafineri, plastik fabrikası ve boya fabrikası yan yana kurulmuştur. Petrol ve doğal gazdan elde edilen petr… | ✓I, II ve III
+fen-ke-311 | F.8.4.6.2 | z3 | k3 | Kurgusal bir kimya sanayi sitesindeki beş meslekte çalışan kişi sayıları aşağıdaki grafikte verilmiştir (veriler kurgusaldır). I.… | ✓Yalnız I
+fen-ke-312 | F.8.4.6.1 | z3 | k3 | Bir ildeki kimya firmaları, kâr amacı gütmeyen bir sektör derneği kurmuştur. Dernek, sivil toplum kuruluşu olarak sektörün gelişi… | ✓Gümrükte ithal edilen kimyasal ürünlerden ve…
+fen-ke-313 | F.8.4.6.2 | z3 | k3 | Rehber öğretmen, kimya alanında çalışmak isteyen öğrencilere bazı meslekleri tanıtmıştır. Öğrenciler tanıtımdan aşağıdaki yargıla… | ✓I ve III
+fen-ke-314 | F.8.4.6.1 | z3 | k3 | Bir çiftçi kooperatifi, yıllardır gereğinden fazla gübre kullandığını; bu yüzden toprağın ve yeraltı suyunun zarar gördüğünü fark… | ✓Gübreyi yalnızca analizin gösterdiği ihtiyaç…
+fen-ke-315 | F.8.4.6.2 | z3 | k3 | Bir firma, kullanılmış plastik şişeleri toplayıp parçalayarak kumaş yapımında kullanılan ipliğe dönüştürmektedir. Bu uygulama, ge… | ✓Petrol kaynaklı hammadde ihtiyacı ve atık mi…
+fen-ke-316 | F.8.4.6.2 | z4 | k3 | Bir şirket, yeşil kimya kapsamında üç birim kurmuştur: A biriminde plastik atıklar yeniden hammaddeye dönüştürülür, B biriminde b… | ✓Yalnız II
+fen-ke-317 | F.8.4.6.1 | z4 | k3 | Kurgusal bir ülkede dört kimyasal ürünün bir yıllık yerli üretim ve iç tüketim miktarları tabloda verilmiştir. Yıl içinde stok de… | ✓Plastikte ithalat, ihracattan 60 bin ton faz…
+fen-ke-318 | F.8.4.6.1 | z4 | k3 | Kurgusal bir ülkenin plastik ve ilaç ürünlerindeki dış ticareti üç yıl boyunca izlenmiş ve tablo hazırlanmıştır (milyon birim; ve… | ✓Yalnız III
+fen-ke-319 | F.8.4.6.2 | z4 | k3 | Bir şirket, tarım atıklarından biyoplastik üretecek bir tesis kurmaktadır. Tesiste üç iş yapılacaktır: üretim sürecinin tasarlanm… | ✓Süreç tasarımı: kimya mühendisi · Analiz: ki…
+fen-ke-320 | F.8.4.6.1 | z4 | k3 | Kurgusal bir ülkede beş kimyasal ürün grubunun yıllık ihracat değerleri aşağıdaki grafikte verilmiştir (milyon birim; veriler kur… | ✓I ve III
+fen-ke-321 | F.8.4.6.2 | z4 | k3 | Kurgusal bir kimya sanayi sitesinde üç alanda çalışan kişi sayıları üç yıl boyunca izlenmiş ve tabloda verilmiştir (veriler kurgu… | ✓Nanomalzeme laboratuvarındaki çalışan sayısı…
+fen-ke-322 | F.8.4.6.2 | z4 | k3 | Bir firma, gıdaların saklanacağı seramik kaplı kaplar geliştirmek istemektedir. Rehber öğretmen, bu tür bir projede rol alabilece… | ✓II ve III
+fen-ke-323 | F.8.4.6.2 | z4 | k3 | Bir sanayi bölgesinde Deniz, Arda ve Melis; çevre mühendisi, eczacı ve metalurji ve malzeme mühendisi olarak çalışmaktadır (her b… | ✓Melis, seramik fabrikasında çalışan metalurj…
+fen-ke-324 | F.8.4.6.1 | z4 | k3 | Bir ilçede plastik atık sorunu büyümüştür. Sorunu azaltmak için dört kurum, kendi görev alanına uygun birer çalışma yürütmektedir… | ✓Belediye: 2 · Üniversite: 3 · Firma: 1 · Der…
+fen-ke-325 | F.8.4.6.1 | z4 | k3 | Kurgusal dört kimya firmasının Ar-Ge çalışanı sayısı, geliştirdikleri yeni ürün sayısı ve ihracat tutarı tabloda verilmiştir (ver… | ✓Ar-Ge çalışanı eşit iki firmadan yeni ürünü …
+fen-ke-001 | F.8.4.6.1 | z1 | k0 | Bitkilerin besin ihtiyacını karşılamak için toprağa verilen ve tarımda verimi artıran ürünler, kimya endüstrisinin hangi koluna a… | ✓Gübre
+fen-ke-002 | F.8.4.6.2 | z1 | k0 | İlaçları hazırlayan ve ilaç kullanımı konusunda danışmanlık yapan meslek mensubu aşağıdakilerden hangisidir? | ✓Eczacı
+fen-ke-003 | F.8.4.6.1 | z1 | k0 | Plastik, boya ve sentetik elyaf gibi ürünlerin hammaddesini sağlayan petrokimya sanayisi aşağıdaki maddelerden hangilerini işler? | ✓Ham petrol ve doğal gaz
+fen-ke-004 | F.8.4.6.2 | z2 | k0 | Bir fabrikada üretilen deterjanın içeriğini laboratuvarda ölçüp analiz eden kişi, kimya temelli mesleklerden hangisini yapmaktadı… | ✓Kimyager
+fen-ke-005 | F.8.4.6.1 | z2 | k0 | Bir ülkenin boya, plastik ve gübre gibi kimyasal ürünleri yurt dışına satması, ülke ekonomisine aşağıdakilerden hangisini sağlar? | ✓Döviz girişi
+fen-ke-006 | F.8.4.6.2 | z2 | k0 | Kimya bilgisini öğrencilere aktarıp gelecekte bu alanda çalışacak kişileri yetiştiren meslek aşağıdakilerden hangisidir? | ✓Kimya öğretmeni
+fen-ke-007 | F.8.4.6.1 | z2 | k0 | Kimya ürünleri satışa çıkmadan önce kalite ve güvenlik ölçütlerine uygunluk bakımından bir standart kuruluşunca belgelendirilebil… | ✓Tüketiciye güvenli ve kaliteli ürün sunmak
+fen-ke-008 | F.8.4.6.2 | z2 | k0 | Plastik poşetler uzun süre doğada kaldığı için çevreye zarar vermektedir. Bu soruna çözüm için aşağıdakilerden hangisi önerilebil… | ✓Doğada daha kolay ayrışan malzemelerden poşe…
+fen-ke-009 | F.8.4.6.1 | z3 | k0 | Kurgusal bir firmanın dört ürününün hammaddesinin yurt içinden karşılanan payı tabloda verilmiştir (veriler kurgusaldır). Dünya p… | ✓İlaç
+fen-ke-010 | F.8.4.6.2 | z3 | k0 | Kimya endüstrisinde çalışan bazı meslek mensuplarının görevleri aşağıda verilmiştir. I. Metalurji ve malzeme mühendisi: Metal ve … | ✓Yalnız I
+fen-ke-011 | F.8.4.6.1 | z3 | k0 | Bir ülke, tarımda kullandığı gübrenin hammaddesini ithal etmektedir. Hammadde fiyatı artınca gübre pahalanmış, çiftçinin maliyeti… | ✓Yerli hammadde kaynaklarının kullanımına yön…
+fen-ke-012 | F.8.4.6.1 | z3 | k0 | Bir deterjan firması yeni bir ürünü satışa sunmadan önce dört aşamayı uygulamaktadır. Bu aşamalar kimya endüstrisindeki işleyişe … | ✓Formül geliştirme – kalite ve güvenlik testl…
+fen-ke-013 | F.8.4.6.1 | z4 | k0 | Bir ilaç firması hakkında şunlar bilinmektedir: Firma, etken maddeyi yurt dışından satın almakta, tablet hâline getirmekte ve üre… | ✓I ve II
+fen-ke-014 | F.8.4.6.1 | z4 | k0 | Kurgusal bir ülkenin dört yıl boyunca boya ihracatı ile boya hammaddesi ithalatı tabloda verilmiştir (bin ton; veriler kurgusaldı… | ✓İthalat ile ihracat arasındaki fark azalmış …
+fen-ke-015 | F.8.4.6.2 | z4 | k0 | Bir cam ve seramik fabrikasında şu bilgiler verilmiştir: • Metalurji ve malzeme mühendisi yeni bir seramik karışımı geliştirirse … | ✓Testten önce bir deneme numunesini laboratuv…

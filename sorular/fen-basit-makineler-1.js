@@ -1267,7 +1267,7 @@ Cevap B.`
   kazanim: "F.8.5.1.1",
   kademe: 2,
   zorluk: 3,
-  soru: `Aşağıdaki durumların hangilerinde basit makine, kuvvetten kazanç sağlar? (Sürtünmeler önemsizdir.)
+  soru: `**Aşağıdaki durumların hangilerinde basit makine, kuvvetten kazanç sağlar?** (Sürtünmeler önemsizdir.)
 I. Eğimi azaltılmış bir rampadan sandık çıkarmak
 II. Bayrak direğindeki sabit makaradan ip çekmek
 III. Kolu uzatılmış bir çıkrıkla kova çekmek`,

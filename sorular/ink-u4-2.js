@@ -763,26 +763,26 @@ Cevap A.`
   kazanim: "İTA.8.4.2",
   kademe: 0,
   zorluk: 1,
-  soru: `**Aşağıdakilerden hangisi Cumhuriyet'in ilan edildiği gün (29 Ekim 1923) gerçekleşmiştir?**`,
+  soru: `**Aşağıdaki gelişmelerden hangisi Cumhuriyet'in ilanından (29 Ekim 1923) önce gerçekleşmiştir?**`,
   gorsel: null,
   secenekler: [
     "Halifeliğin kaldırılması",
-    "Ankara'nın başkent olması",
-    "Mustafa Kemal'in ilk Cumhurbaşkanı seçilmesi",
-    "Saltanatın kaldırılması"
+    "Tevhid-i Tedrisat Kanunu'nun kabulü",
+    "Saltanatın kaldırılması",
+    "1924 Anayasası'nın kabulü"
   ],
   dogru: 2,
   hatalar: [
-    "Tarih hatası: halifelik 3 Mart 1924'te, Cumhuriyet'ten sonra kaldırılmıştır.",
-    "Tarih hatası: Ankara 13 Ekim 1923'te, Cumhuriyet'ten birkaç gün önce başkent olmuştur.",
+    "Tarih hatası: halifelik 3 Mart 1924'te, yani Cumhuriyet'ten yaklaşık dört ay sonra kaldırılmıştır.",
+    "Tarih hatası: Tevhid-i Tedrisat Kanunu halifelikle aynı gün, 3 Mart 1924'te kabul edilmiştir.",
     null,
-    "Tarih hatası: saltanat 1 Kasım 1922'de, Cumhuriyet'ten bir yıl önce kaldırılmıştır."
+    "Tarih hatası: adındaki yıl ipucudur; 1924 Anayasası 20 Nisan 1924'te, Cumhuriyet'ten sonra kabul edilmiştir."
   ],
-  aciklama: `Cumhuriyet, devlet başkanının seçimle belirlendiği yönetim biçimidir.
-Adım 1: Olayları sırala. Saltanat (1 Kasım 1922), Ankara'nın başkent oluşu (13 Ekim 1923), Cumhuriyet (29 Ekim 1923), halifelik (3 Mart 1924).
-Adım 2: Cumhuriyet'in ilan edildiği gün ne olduğunu bul. Cumhuriyet ilan edilince Mustafa Kemal ilk Cumhurbaşkanı seçilmiştir. C doğrudur.
-Sağlama: Cumhuriyet, bir yönetim biçimidir; bu biçimin başı da cumhurbaşkanı olur.
-Sık yapılan hata: Halifeliği Cumhuriyet'le birlikte kalkmış sanmak. Halifelik yaklaşık beş ay sonra kaldırılmıştır.
+  aciklama: `Bu tür sorularda olayları tarih sırasına dizip verilen tarihle karşılaştırırsın.
+Adım 1: Tarihleri yaz. Saltanatın kaldırılması 1 Kasım 1922; Cumhuriyet'in ilanı 29 Ekim 1923; halifeliğin kaldırılması ve Tevhid-i Tedrisat 3 Mart 1924; 1924 Anayasası 20 Nisan 1924.
+Adım 2: 29 Ekim 1923'ten önceki tek olay saltanatın kaldırılmasıdır. Önce padişahlık sona erdi, yaklaşık bir yıl sonra Cumhuriyet ilan edildi.
+Sağlama: Saltanat kalkmadan Cumhuriyet ilan edilemezdi; çünkü Cumhuriyet'te devletin başı seçimle gelir, padişahlık ise babadan oğula geçer.
+Sık yapılan hata: Saltanat ile halifeliği aynı anda kalkmış sanmak. Saltanat 1922'de, halifelik 1924'te kaldırılmıştır.
 Cevap C.`
 },
 {

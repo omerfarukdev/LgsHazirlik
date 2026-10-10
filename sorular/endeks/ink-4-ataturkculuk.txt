@@ -73,7 +73,7 @@ ink-u4-322 | İTA.8.4.7 | z3 | k3 | 1920'de kurulan Sağlık ve Sosyal Yardım V
 ink-u4-323 | İTA.8.4.8 | z4 | k3 | Aşağıdaki tabloda Atatürk'ün iki önemli konuşması hakkında bilgi verilmiştir. Bu tabloya göre, I. Gençliğe Hitabe, Onuncu Yıl Nut… | ✓I ve III
 ink-u4-324 | İTA.8.4.8 | z4 | k3 | Aşağıda iki kaynak verilmiştir. Kaynak 1: "Ey Türk gençliği! Birinci vazifen, Türk istiklalini, Türk cumhuriyetini, ilelebet muha… | ✓Gençliği tehdit eden tehlikeleri yalnızca dı…
 ink-u4-325 | İTA.8.4.9 | z4 | k3 | Aşağıdaki tabloda Atatürk ilke ve inkılaplarını oluşturan bazı temel esaslar ile bu esaslara dayanan birer gelişme eşleştirilmişt… | ✓Millî kültürün geliştirilmesi
-ink-u4-001 | İTA.8.4.2 | z1 | k0 | Aşağıdakilerden hangisi Cumhuriyet'in ilan edildiği gün (29 Ekim 1923) gerçekleşmiştir? | ✓Mustafa Kemal'in ilk Cumhurbaşkanı seçilmesi
+ink-u4-001 | İTA.8.4.2 | z1 | k0 | Aşağıdaki gelişmelerden hangisi Cumhuriyet'in ilanından (29 Ekim 1923) önce gerçekleşmiştir? | ✓Saltanatın kaldırılması
 ink-u4-002 | İTA.8.4.4 | z1 | k0 | Latin esaslı yeni Türk harflerinin kabul edilmesinin temel amacı aşağıdakilerden hangisidir? | ✓Okuma yazmayı kolaylaştırıp yaygınlaştırmak
 ink-u4-003 | İTA.8.4.1 | z1 | k0 | "Kanun önünde herkes eşittir; toplumda ayrıcalıklı sınıf yoktur." anlayışını ifade eden Atatürk ilkesi aşağıdakilerden hangisidir? | ✓Halkçılık
 ink-u4-004 | İTA.8.4.5 | z2 | k0 | Bir öğrenci, Türk kadınına siyasi hakların tanınmasıyla ilgili şu üç gelişmeyi araştırdı: I. Belediye seçimlerinde seçme ve seçil… | ✓I – II – III
