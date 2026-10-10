@@ -125,5 +125,11 @@ window.LGS_MANIFEST = [
   "fen-asitler-bazlar-1.js",
   "fen-asitler-bazlar-2.js",
   "tur-paragrafta-anlam-47.js",
-  "tur-paragrafta-anlam-48.js"
+  "tur-paragrafta-anlam-48.js",
+  "deneme-1.js",
+  "deneme-1-turkce.js",
+  "deneme-1-matematik.js",
+  "deneme-1-fen.js",
+  "deneme-1-inkilap.js",
+  "deneme-1-din.js"
 ];
