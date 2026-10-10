@@ -55,7 +55,8 @@ var Panel = (function () {
     return TUR_AD[t.tur] || "Test";
   }
   function testAltAdi(t) {
-    if (KADEME_AD[t.kademe] && KONU[t.konu]) return KADEME_AD[t.kademe];
+    if (KADEME_AD[t.kademe] && KONU[t.konu]) return KADEME_AD[t.kademe] +
+      (t.tekrar ? " · tekrar" : "");
     if (t.tur === "deneme") return OTURUM_AD[t.oturum] || "";
     return t.tur === "paragraf" ? "günlük rutin" : "karışık sorular";
   }

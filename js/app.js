@@ -171,10 +171,11 @@ var App = (function () {
   function bank(konuId) {
     return (window.LGS_BANK && window.LGS_BANK[konuId]) || [];
   }
-  // Kademe içinde kolaydan zora. Sonradan tamamlanan konularda yeni dosyanın soruları
-  // eskilerin arkasına eklenir; eşit zorlukta dosya sırası korunur.
-  function kademeSorulari(konuId, k) {
-    return bank(konuId).filter(function (q) { return q.kademe === k; })
+  // Kademenin 25 ana sorusu (kimlikte sıra 01-25), kolaydan zora; eşit zorlukta dosya sırası korunur.
+  // yedekMi: sıra 26-75 olan yedek sorular (yalnızca kademe tekrarında kullanılır).
+  function anaSoru(q) { var m = /-\d(\d\d)$/.exec(q.id); return !m || +m[1] <= 25; }
+  function kademeSorulari(konuId, k, yedekMi) {
+    return bank(konuId).filter(function (q) { return q.kademe === k && anaSoru(q) === !yedekMi; })
       .map(function (q, i) { return { q: q, i: i }; })
       .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
       .map(function (x) { return x.q; });
@@ -484,7 +485,7 @@ var App = (function () {
 
     // Bugünün konu testi
     if (gkt) {
-      var gktSoru = kademeSorulari(gkt.konu.id, gkt.k);
+      var gktSoru = kademeTesti(gkt.konu.id, gkt.k).sorular;
       var gktTamam = bugunKonu.length > 0;
       html += '<section class="kart konu-gun-kart ders-' + gkt.ders.id + (gktTamam ? " tamam" : "") + '"><div class="tk-ic">' +
         '<div class="tk-yazi"><span class="tk-ust">Bugünün konu testi</span>' +
@@ -710,7 +711,7 @@ var App = (function () {
         } else {
           html += '<div class="kademeler">';
           [1, 2, 3].forEach(function (k) {
-            var adet = kademeSorulari(konu.id, k).length;
+            var adet = kademeTesti(konu.id, k).sorular.length;
             if (!adet) return;
             var acik = kademeAcik(konu.id, k), kd = durum.k[k];
             var sinif = "kademe-btn" + (!acik ? " kilitli" : kd ? " " + oranSinif(kd.enIyi) : "");
@@ -738,10 +739,11 @@ var App = (function () {
     return t;
   }
   // ================= Kademe tekrarı =================
-  // Kademeyi geçemeyen öğrenci testi yeniden açınca aynı soruları hatırlayarak geçmesin: son
-  // denemede yanlış ya da boş bıraktığı sorular kalır, doğru yaptıklarının yerine konunun hiç
-  // cevaplamadığı sorular gelir (aynı kademeye sonradan eklenenler ve havuz). Yedek, kademenin
-  // zorluk aralığından ve zorluğu en yakın olandan seçilir; yetmezse eski soru kalır.
+  // Bir kademede 25 ana soru (sıra 01-25) ve yedek sorular (sıra 26-75) bulunur. İlk denemede ana
+  // 25 soru gelir. Kademeyi geçemeyen öğrenci testi yeniden açınca son denemesinde yanlış ya da boş
+  // bıraktığı sorular yine gelir, doğru yaptıklarının yerine hiç cevaplamadığı sorular konur: önce o
+  // kademenin yedeği, o bitince havuz (kademenin zorluk aralığında). Geçene kadar her denemede böyle
+  // sürer; 4. ve 5. deneme de olabilir. Yedek tükenirse eski doğru soru kalır.
   var KADEME_ZORLUK = { 1: [1, 2], 2: [2, 3], 3: [3, 4] };
   function sonKademeKaydi(konuId, k) {
     var g = Store.get("gecmis", []);
@@ -761,31 +763,38 @@ var App = (function () {
     var gorulen = Store.get("gorulen", {}), listede = {};
     onceki.forEach(function (q) { listede[q.id] = true; });
     var ar = KADEME_ZORLUK[k] || [1, 4];
-    var yedek = kademeSorulari(konuId, k).concat(bank(konuId).filter(function (q) { return q.kademe === 0; }))
-      .filter(function (q) { return !gorulen[q.id] && !listede[q.id] && q.zorluk >= ar[0] && q.zorluk <= ar[1]; });
-    var yeni = 0;
+    function taze(q) { return !gorulen[q.id] && !listede[q.id]; }
+    var yedek = kademeSorulari(konuId, k, true).filter(taze);
+    var havuz = bank(konuId).filter(function (q) { return q.kademe === 0 && taze(q) && q.zorluk >= ar[0] && q.zorluk <= ar[1]; });
+    function en(dizi, z) {
+      var e = -1;
+      for (var i = 0; i < dizi.length; i++) if (e < 0 || Math.abs(dizi[i].zorluk - z) < Math.abs(dizi[e].zorluk - z)) e = i;
+      return e < 0 ? null : dizi.splice(e, 1)[0];
+    }
+    var yeni = 0, kalan = 0;
     var liste = onceki.map(function (q) {
-      if (once.cevap[q.id] !== q.dogru) return q; // yanlış ya da boş: yine gelsin
-      var en = -1;
-      for (var i = 0; i < yedek.length; i++) {
-        if (en < 0 || Math.abs(yedek[i].zorluk - q.zorluk) < Math.abs(yedek[en].zorluk - q.zorluk)) en = i;
-      }
-      if (en < 0) return q;
+      if (once.cevap[q.id] !== q.dogru) { kalan++; return q; } // yanlış ya da boş: yine gelsin
+      var y = en(yedek, q.zorluk) || en(havuz, q.zorluk);
+      if (!y) return q;
       yeni++;
-      return yedek.splice(en, 1)[0];
+      return y;
     });
-    if (!yeni) return null;
+    // Yedek ve havuz tükendiyse son deneme aynen gelir (yanlışlar listeden düşmesin)
     liste = liste.map(function (q, i) { return { q: q, i: i }; })
       .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
       .map(function (x) { return x.q; });
-    return { sorular: liste, yeni: yeni };
+    return { sorular: liste, yeni: yeni, kalan: kalan };
+  }
+  function kademeTesti(konuId, k) {
+    var tk = tekrarSeti(konuId, k);
+    return tk || { sorular: kademeSorulari(konuId, k), yeni: 0, kalan: 0 };
   }
 
   function hazirEkrani(konuId, k) {
     var kb = KONU[konuId], sorular = kademeSorulari(konuId, k);
     if (!sorular.length || !kademeAcik(konuId, k)) return git("#/ders/" + kb.ders.id);
-    var tk = tekrarSeti(konuId, k);
-    if (tk) sorular = tk.sorular;
+    var tk = kademeTesti(konuId, k);
+    sorular = tk.sorular;
     // Konunun özeti hiç okunmadıysa (ya da üstünden uzun zaman geçtiyse) test özetten sonra gelir
     if (hapGerekli(konuId)) return location.replace("#/hap/" + konuId + "/" + k);
     var kd = konuDurum(konuId).k[k];
@@ -797,7 +806,7 @@ var App = (function () {
       ozetKutu(Math.round(onerilenSure(sorular) / 60) + " dk", AYAR.sureSiniri ? "süre" : "önerilen süre") +
       (kd ? ozetKutu("%" + yuzde(kd.enIyi), "en iyi sonucun") : "") + '</div>' +
       '<ul class="ipucu">' +
-      (tk ? '<li><b>Bu bir tekrar denemesi.</b> Geçen sefer doğru yaptığın ' + tk.yeni + ' sorunun yerine yeni sorular geldi; yanlış ve boş bıraktığın sorular yine karşına çıkacak.</li>' : "") +
+      (tk.yeni ? '<li><b>Bu bir tekrar denemesi.</b> Geçen sefer yanlış ya da boş bıraktığın ' + tk.kalan + ' soru yine geliyor; doğru yaptığın ' + tk.yeni + ' sorunun yerine yeni sorular geldi.</li>' : "") +
       '<li>Kâğıt kalem hazırla, işlemleri kâğıtta yap.</li>' +
       (AYAR.sureSiniri ? '<li>' + (AYAR.sureBitinceKes
         ? "Süre geri sayar ve dolunca test kendiliğinden biter; tıpkı gerçek sınavdaki gibi."
@@ -917,9 +926,12 @@ var App = (function () {
   // Bir kazanımdan, öğrencinin hiç görmediği sorular
   function benzerSorular(konuId, kazanim, haric) {
     var gorulen = Store.get("gorulen", {});
-    return bank(konuId).filter(function (q) {
+    var aday = bank(konuId).filter(function (q) {
       return q.kazanim === kazanim && !gorulen[q.id] && haric.indexOf(q.id) === -1;
     });
+    // Önce havuz: kademe setlerinin taze soruları geçemeyen öğrencinin sonraki denemesine kalsın
+    var havuz = aday.filter(function (q) { return q.kademe === 0; });
+    return havuz.length ? havuz : aday;
   }
   // Tekrar testini kurar: yanlışlar + benzerleri + zamanı gelen konulardan taze sorular
   function tekrarSorulari(hedef) {
@@ -942,7 +954,8 @@ var App = (function () {
     shuffle(bekleyenKonular()).forEach(function (konuId) {
       if (secilen.length >= hedef) return;
       var gorulen = Store.get("gorulen", {});
-      var havuz = shuffle(bank(konuId).filter(function (q) { return !gorulen[q.id] && !eklendi[q.id]; }));
+      var havuz = shuffle(bank(konuId).filter(function (q) { return !gorulen[q.id] && !eklendi[q.id]; }))
+        .sort(function (a, b) { return (a.kademe === 0 ? 0 : 1) - (b.kademe === 0 ? 0 : 1); }); // önce havuz
       havuz.slice(0, 3).forEach(function (q) { if (secilen.length < hedef) ekle(q.id); });
     });
 
@@ -1105,7 +1118,8 @@ var App = (function () {
     var gorulen = Store.get("gorulen", {}), kova = {}, secilen = [];
     konuIdler.forEach(function (id) {
       var havuz = bank(id).filter(function (q) { return hepsiKademe ? true : q.kademe === 0; });
-      var taze = shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }));
+      var taze = shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }))
+        .sort(function (a, b) { return (a.kademe === 0 ? 0 : 1) - (b.kademe === 0 ? 0 : 1); }); // önce havuz
       var eski = havuz.filter(function (q) { return gorulen[q.id]; })
         .sort(function (a, b) { return gorulen[a.id] - gorulen[b.id]; });
       kova[id] = taze.concat(eski);
@@ -1396,11 +1410,11 @@ var App = (function () {
   }
   function testBaslat(konuId, k) {
     if (yarimSor(function () { testBaslat(konuId, k); })) return;
-    var tk = tekrarSeti(konuId, k);
-    var sorular = tk ? tk.sorular : kademeSorulari(konuId, k);
+    var tk = kademeTesti(konuId, k);
+    var sorular = tk.sorular;
     if (!sorular.length) return;
     S = {
-      tur: "konu", ders: KONU[konuId].ders.id, konu: konuId, kademe: k,
+      tur: "konu", ders: KONU[konuId].ders.id, konu: konuId, kademe: k, tekrar: tk.yeni || 0,
       sorular: sorular.map(function (q) { return q.id; }),
       cevap: {}, isaret: {}, sureSoru: {}, idx: 0, gecen: 0,
       oneri: onerilenSure(sorular), basla: Date.now()
@@ -1578,7 +1592,7 @@ var App = (function () {
     });
     var n = S.sorular.length;
     var kayit = {
-      ts: Date.now(), tur: S.tur, ders: S.ders, konu: S.konu, unite: S.unite || null, kademe: S.kademe,
+      ts: Date.now(), tur: S.tur, ders: S.ders, konu: S.konu, unite: S.unite || null, kademe: S.kademe, tekrar: S.tekrar || 0,
       d: d, y: y, b: b, net: d - y / 3, oran: d / n, sure: S.gecen, sureDoldu: !!S.sureDoldu, asim: Math.max(0, S.gecen - S.oneri), hedefSure: S.oneri,
       sorular: S.sorular, cevap: S.cevap, sureSoru: S.sureSoru, neden: {}
     };

@@ -126,7 +126,7 @@ konular.forEach(function (konuId) {
   if (!ders) sorun('"' + konuId + '" js/konular.js içinde tanımlı bir konu id\'si değil');
   var a = window.LGS_BANK[konuId];
   toplam += a.length;
-  var kademeSay = { 0: 0, 1: 0, 2: 0, 3: 0 };
+  var kademeSay = { 0: 0, 1: 0, 2: 0, 3: 0 }, setSay = {};
 
   a.forEach(function (q, i) {
     var kimlik = konuId + "[" + i + "]" + (q && q.id ? " (" + q.id + ")" : "");
@@ -146,11 +146,20 @@ konular.forEach(function (konuId) {
         dikkat(kimlik + ": id'nin yüzler basamağı kademeyle uyuşmuyor");
       }
     }
+    // Kademe: sıra 01-25 ana test, 26-75 yedek (kademe tekrarı). Sıra 75'i geçmez.
+    if (q.kademe > 0 && q.id && /-\d{3}$/.test(q.id)) {
+      var sira = +q.id.slice(-2), tur = q.kademe + (sira > 25 ? ".yedek" : ".ana");
+      if (sira > 75) sorun(kimlik + ": kademe sorusunun sırası 75'i geçemez");
+      setSay[tur] = (setSay[tur] || 0) + 1;
+    }
     ortakDenetim(q, kimlik);
+  });
+  [1, 2, 3].forEach(function (k) {
+    if (setSay[k + ".yedek"] && (setSay[k + ".ana"] || 0) < 25) dikkat(konuId + ": kademe " + k + " ana testinde " + (setSay[k + ".ana"] || 0) + " soru var ama yedek yazılmış (önce ana 25 tamamlanır)");
   });
 
   console.log("  📚 " + konuId + ": " + a.length + " soru  (kademe 1/2/3: " +
-    kademeSay[1] + "/" + kademeSay[2] + "/" + kademeSay[3] + ", havuz: " + kademeSay[0] + ")");
+    kademeSay[1] + "/" + kademeSay[2] + "/" + kademeSay[3] + ", havuz: " + kademeSay[0] + ")" + ([1, 2, 3].some(function (k) { return setSay[k + ".yedek"]; }) ? "  yedek 1/2/3: " + [1, 2, 3].map(function (k) { return setSay[k + ".yedek"] || 0; }).join("/") : ""));
 });
 
 // 3b) Aylık deneme soruları (sorular/deneme-N-*.js → LGS_DENEME, bilgi: deneme-N.js → LGS_DENEME_BILGI).

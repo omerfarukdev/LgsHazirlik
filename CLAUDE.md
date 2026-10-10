@@ -61,15 +61,22 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 
 ### Test boyutu
 
-| Bölüm | Soru sayısı |
-|---|---|
-| Kademe 1 (Kavrama) | **25** |
-| Kademe 2 (Pekiştirme) | **25** |
-| Kademe 3 (LGS Ayarı) | **25** |
-| Havuz (kademe 0) | **15** |
-| **Konu başına toplam** | **90** |
+| Bölüm | Soru sayısı | Kimlikler |
+|---|---|---|
+| Kademe 1 (Kavrama) | **25 ana + 50 yedek = 75** | ana `…-101`–`125`, yedek `126`–`175` |
+| Kademe 2 (Pekiştirme) | **25 ana + 50 yedek = 75** | ana `201`–`225`, yedek `226`–`275` |
+| Kademe 3 (LGS Ayarı) | **25 ana + 50 yedek = 75** | ana `301`–`325`, yedek `326`–`375` |
+| Havuz (kademe 0) | **75** | `001`–`075` |
+| **Konu başına toplam** | **300** | |
 
-25 alt sınırdır; 30'a kadar çıkılabilir. Konular bittikten sonra kademelere eklenen sorular kademe tekrarının yedeğini de büyütür (geçemeyen öğrenci ikinci denemede aynı soruları ezberden çözmez). **12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
+**Kademe yedeği (10 Ekim 2026 kararı).** Bir test her zaman 25 sorudur. İlk denemede kademenin **ana** 25 sorusu (kimlikte sıra 01-25) gelir. Kademeyi geçemeyen öğrenci testi yeniden açınca **son denemesinde yanlış ya da boş bıraktığı sorular yine gelir**, doğru yaptıklarının yerine hiç görmediği sorular konur: önce o kademenin **yedeği** (sıra 26-75), o bitince havuz (kademenin zorluk aralığında). Örnek: 1. denemede 11 yanlış → 2. deneme 11 yanlış + 14 yeni; 2. denemede yine 11 yanlış → 3. deneme o 11 yanlış + 14 yeni. Geçene kadar 4., 5. deneme de böyle sürer. Yedek ayrı bir test değildir, ana testin eksilen yerlerini doldurur; uygulama yedekten, çıkan doğru sorunun zorluğuna en yakın olanı seçer. Bu yüzden yedek soru yazarken:
+- Yedek, kademenin zorluk karmasını korur (Kavrama düzey 1-2, Pekiştirme 2-3, LGS Ayarı 3-4; aşağıdaki tablodaki oranlarla) ve ana sorularla aynı kazanımları **farklı kurgularla** yoklar. Ana sorunun sayıları değiştirilmiş hâli yedek olamaz.
+- Yedek sorular birbirinden bağımsız durmalıdır: hangi ikisinin aynı teste düşeceği bilinmez, bu yüzden hiçbir yedek soru başka bir sorunun cevabını vermemeli ve iki yedek aynı kaynak metni paylaşmamalı.
+- Dosya içindeki sıra ve şık dengesi kuralları yedek için de geçerlidir (art arda 3'ten fazla aynı harf yok, her şık ~%25).
+
+Havuz 75 soruya çıkar (karma 15/25/20/15); ünite denemesi, aylık değerlendirme ve tekrar testi önce havuzdan çeker, kademe yedeğine dokunmaz. Var olan konular sırayla bu boyuta tamamlanır; tamamlama dosyaları konunun sıradaki dosya numarasını alır (ör. `-3.js` kademe 1-2 yedeği, `-4.js` kademe 3 yedeği + havuz eki).
+
+**12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
 
 Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplamı), yani 25 soruluk Kavrama testi yaklaşık 25 dakika, LGS Ayarı testi yaklaşık 50 dakika sürer.
 
@@ -79,7 +86,7 @@ Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden dev
 
 | Tür | Nereden çıkar | İçeriği | Kaydı |
 |---|---|---|---|
-| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 soruları, kolaydan zora (eşit zorlukta dosya sırasıyla). **Kademe tekrarı:** geçemeden yeniden açılırsa son denemede yanlış ve boş bırakılan sorular kalır, doğru yapılanların yerine hiç cevaplanmamış sorular gelir (aynı kademeye sonradan eklenenler ve havuz; Kavrama düzey 1-2, Pekiştirme 2-3, LGS Ayarı 3-4) | `tur: "konu"`, kademe ilerletir |
+| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 ana 25 sorusu, kolaydan zora. **Kademe tekrarı:** geçemeden yeniden açılırsa son denemenin yanlış ve boşları kalır, doğruların yerine kademe yedeğinden (sonra havuzdan) taze sorular gelir ("Test boyutu" bölümü) | `tur: "konu"`, kademe ilerletir |
 | Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
 | Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
 | Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
@@ -134,7 +141,7 @@ Kademe karması (25 soruluk test için):
 | 1 · Kavrama | 12 | 13 | – | – |
 | 2 · Pekiştirme | – | 13 | 12 | – |
 | 3 · LGS Ayarı | – | – | 15 | 10 |
-| 0 · Havuz (15) | 3 | 5 | 4 | 3 |
+| 0 · Havuz (15'lik her dilim; 75'te 15/25/20/15) | 3 | 5 | 4 | 3 |
 
 Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de metin uzunlukları, sözcük bütçeleri, konu kotaları): `planlama/arastirma-lgs-zorluk-profili.md` bölüm 3 ve 7. Yeni bir derse soru yazmadan önce o bölümleri oku. Özet:
 - **Matematik:** öncüllü (I-II-III) soru YOK. Soruların çoğu günlük hayat senaryolu ve görselli. Hesap makinesiz çözülebilir sayılar.
