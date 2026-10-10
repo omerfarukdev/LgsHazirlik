@@ -1,0 +1,90 @@
+mat-dd-101 | M.8.2.2.1 | z1 | k1 | 3x + 7 = 22 denkleminin çözümü olan x değeri kaçtır? | ✓5
+mat-dd-102 | M.8.2.2.1 | z1 | k1 | [[x|4]] − 2 = 3 denkleminin çözümü olan x değeri kaçtır? | ✓20
+mat-dd-103 | M.8.2.2.2 | z1 | k1 | Aşağıdaki koordinat düzleminde A, B, C ve D noktaları işaretlenmiştir. Bu noktalardan hangisi ikinci bölgede yer alır? | ✓C noktası
+mat-dd-104 | M.8.2.2.2 | z1 | k1 | Bir robot, koordinat düzleminde orijinden P(5, −2) noktasına gidecektir. Robotun yapması gereken hareket aşağıdakilerden hangisid… | ✓5 birim sağa, 2 birim aşağı
+mat-dd-105 | M.8.2.2.3 | z1 | k1 | Bir sayı dizisinde x değerleri ile y değerleri arasındaki ilişki tabloda verilmiştir. Bu ilişkiyi gösteren denklem aşağıdakilerde… | ✓y = 3x + 2
+mat-dd-106 | M.8.2.2.3 | z1 | k1 | Bir otoparkta her park saati için 6 TL alınmaktadır. Mert, park süresi ile ödenecek ücret arasındaki ilişkiyi inceliyor. Bu ilişk… | ✓Ödenecek ücret
+mat-dd-107 | M.8.2.2.4 | z1 | k1 | Koordinat düzleminde denklemi y = 4 olan doğru çizilmiştir. Bu doğru için aşağıdakilerden hangisi doğrudur? | ✓x eksenine paraleldir.
+mat-dd-108 | M.8.2.2.4 | z1 | k1 | Denklemi 2x + y = 6 olan doğru, x eksenini hangi noktada keser? | ✓(3, 0)
+mat-dd-109 | M.8.2.2.5 | z1 | k1 | Bir taksinin açılış ücreti 5 TL, her kilometre için ücreti 3 TL'dir. Bu taksiyle 4 km yol giden bir yolcu kaç TL öder? | ✓17
+mat-dd-110 | M.8.2.2.5 | z1 | k1 | Sabit hızla giden bir bisikletlinin yol-zaman grafiği şekilde verilmiştir. Doğru orijinden geçmektedir. Bisikletli 5 dakikada kaç… | ✓2
+mat-dd-111 | M.8.2.2.6 | z1 | k1 | Bir okulun girişine yapılan rampanın dikey yüksekliği 3 m, yatay uzunluğu 12 m'dir. Bu rampanın eğimi kaçtır? | ✓[[1|4]]
+mat-dd-112 | M.8.2.2.6 | z1 | k1 | Denklemi y = 3x − 1 olan doğrunun eğimi kaçtır? | ✓3
+mat-dd-113 | M.8.2.2.1 | z2 | k1 | 5x − 3 = 2x + 9 denkleminin çözümü olan x değeri kaçtır? | ✓4
+mat-dd-114 | M.8.2.2.1 | z2 | k1 | [[2x|3]] + 1 = 13 denkleminin çözümü olan x değeri kaçtır? | ✓18
+mat-dd-115 | M.8.2.2.1 | z2 | k1 | [[x|2]] + [[x|3]] = 10 denkleminin çözümü olan x değeri kaçtır? | ✓12
+mat-dd-116 | M.8.2.2.1 | z2 | k1 | 2(x − 3) = x + 4 denkleminin çözümü olan x değeri kaçtır? | ✓10
+mat-dd-117 | M.8.2.2.2 | z2 | k1 | Bir mahallenin haritası koordinat düzlemine yerleştirilmiştir; her kare 1 km'dir. Haritada kütüphane K, park P, market M harfleri… | ✓(2, −3)
+mat-dd-118 | M.8.2.2.2 | z2 | k1 | Koordinat düzleminde bir ABCD dikdörtgeninin üç köşesi A(1, 1), B(5, 1) ve C(5, 4) noktalarıdır. Dikdörtgenin D köşesinin koordin… | ✓(1, 4)
+mat-dd-119 | M.8.2.2.3 | z2 | k1 | Bir kantinde kutu sayısı (x) ile toplam bardak sayısı (y) arasında doğrusal bir ilişki vardır. Tabloda bazı değerler verilmiştir.… | ✓27
+mat-dd-120 | M.8.2.2.3 | z2 | k1 | y = 2x − 1 denklemini sağlayan (4, a) ve (b, 9) sıralı ikilileri veriliyor. a + b toplamı kaçtır? | ✓12
+mat-dd-121 | M.8.2.2.4 | z2 | k1 | Denklemi 3x + 2y = 12 olan bir doğru çizilecektir. Bu doğrunun x eksenini ve y eksenini kestiği noktalar sırasıyla aşağıdakilerde… | ✓(4, 0) ve (0, 6)
+mat-dd-122 | M.8.2.2.6 | z2 | k1 | Koordinat düzleminde grafiği verilen doğru, eksenleri (−2, 0) ve (0, 4) noktalarında kesmektedir. Bu doğrunun denklemi aşağıdakil… | ✓y = 2x + 4
+mat-dd-123 | M.8.2.2.5 | z2 | k1 | Bir spor salonunda üyelik için bir defaya özgü 150 TL kayıt ücreti ve her ay 90 TL aidat alınmaktadır. Yeni üye olan bir kişi, 6 … | ✓690
+mat-dd-124 | M.8.2.2.5 | z2 | k1 | Başlangıçta 20 litre su bulunan bir depo, bir musluk yardımıyla dakikada 5 litre su eklenerek dolduruluyor. Depodaki su miktarını… | ✓6
+mat-dd-125 | M.8.2.2.6 | z2 | k1 | Şekilde koordinat düzleminde A(−1, 1) ve B(3, 7) noktalarından geçen bir doğru çizilmiştir. Bu doğrunun eğimi kaçtır? | ✓[[3|2]]
+mat-dd-201 | M.8.2.2.1 | z2 | k2 | 3(2x − 1) = 4x + 7 denkleminin çözümü olan x değeri kaçtır? | ✓5
+mat-dd-202 | M.8.2.2.1 | z2 | k2 | [[x + 1|2]] = [[x − 2|3]] denkleminin çözümü olan x değeri kaçtır? | ✓−7
+mat-dd-203 | M.8.2.2.1 | z2 | k2 | [[x|2]] − [[x − 3|4]] = 2 denkleminin çözümü olan x değeri kaçtır? | ✓5
+mat-dd-204 | M.8.2.2.2 | z2 | k2 | Bir sınıfın oturma planı koordinat düzlemine yerleştirilmiştir. Öğretmen masası orijindedir, her kare bir sıra aralığıdır ve arka… | ✓(5, 7)
+mat-dd-205 | M.8.2.2.2 | z2 | k2 | Bir okul bahçesindeki dikdörtgen biçimli çiçeklik, koordinat düzleminde köşeleri A(−2, 1), B(4, 1), C(4, −3) ve D(−2, −3) olacak … | ✓24
+mat-dd-206 | M.8.2.2.3 | z2 | k2 | Bir mumun boyu, yanma süresine göre doğrusal olarak kısalmaktadır. Tabloda ilk 30 dakikanın ölçümleri verilmiştir. Mumun boyu kaç… | ✓40
+mat-dd-207 | M.8.2.2.3 | z2 | k2 | Tabloda x ve y değişkenleri arasındaki doğrusal ilişkiye ait sıralı ikililer verilmiştir. Aşağıdaki sıralı ikililerden hangisi ay… | ✓(8, 17)
+mat-dd-208 | M.8.2.2.4 | z2 | k2 | Koordinat düzleminde denklemleri x = −3 ve y = 2 olan iki doğru çizilmiştir. Bu iki doğrunun kesiştiği nokta aşağıdakilerden hang… | ✓(−3, 2)
+mat-dd-209 | M.8.2.2.4 | z2 | k2 | Aşağıdaki noktalardan hangisi denklemi 2x − y = 4 olan doğrunun üzerindedir? | ✓(2, 0)
+mat-dd-210 | M.8.2.2.5 | z2 | k2 | Bir kargo firmasının paket ağırlığına göre aldığı ücret, grafikte gösterilmiştir. Grafik doğrusaldır ve (0, 8) ile (4, 20) noktal… | ✓38
+mat-dd-211 | M.8.2.2.5 | z2 | k2 | Bir telefonun pil seviyesi, kullanım süresine göre doğrusal olarak azalmaktadır. Ölçümler tabloda verilmiştir. Pil seviyesi kaç s… | ✓12
+mat-dd-212 | M.8.2.2.6 | z2 | k2 | Bir bahçe merdiveninin her basamağının yüksekliği 15 cm, genişliği 25 cm'dir. Bu merdivenin eğimi kaçtır? | ✓[[3|5]]
+mat-dd-213 | M.8.2.2.6 | z2 | k2 | Bir doğrunun eğiminin büyüklüğü (işaretine bakılmaksızın değeri) ne kadar fazlaysa doğru o kadar diktir. Aşağıdaki denklemlerle v… | ✓y = −4x + 1
+mat-dd-214 | M.8.2.2.1 | z3 | k2 | Tuğba ile Ahmet, kumbaralarındaki paraları birleştirerek bir masa oyunu almak istiyor. Tuğba'nın kumbarasında x TL vardır. Ahmet'… | ✓190
+mat-dd-215 | M.8.2.2.1 | z3 | k2 | Defne, defterindeki aşağıdaki denklemi paydaları eşitleyerek çözecektir. [[2x − 1|3]] − [[x + 2|4]] = [[5|4]] Bu denklemin çözümü… | ✓5
+mat-dd-216 | M.8.2.2.5 | z3 | k2 | Ela, 120 sayfalık bir romanı her gün 15 sayfa okuyarak bitirmeyi planlıyor. Okumaya başladıktan x gün sonra kitapta kalan sayfa s… | ✓Grafik, x eksenini (8, 0) noktasında keser.
+mat-dd-217 | M.8.2.2.2 | z3 | k2 | Bir mahalledeki üçgen biçimli park, koordinat düzleminde köşeleri A(−3, −1), B(5, −1) ve C(1, 4) olacak şekilde gösterilmiştir. D… | ✓20
+mat-dd-218 | M.8.2.2.3 | z3 | k2 | Bir fotoğraf stüdyosu, kiralama süresine göre doğrusal bir ücret tarifesi uygulamaktadır. Tabloda iki farklı kiralama süresi için… | ✓31
+mat-dd-219 | M.8.2.2.2 | z3 | k2 | Bir şehrin haritası koordinat düzlemine yerleştirilmiştir; her kare kenarı 100 m'dir. Ev (E), okul (O) ve market (M) şekildeki ko… | ✓1000
+mat-dd-220 | M.8.2.2.5 | z3 | k2 | Bir dijital kitap platformunda iki abonelik planı vardır. A planında bir defaya özgü 90 TL kurulum ücreti ve her ay 30 TL; B plan… | ✓6
+mat-dd-221 | M.8.2.2.4 | z3 | k2 | Aşağıdaki koordinat düzleminde eksenleri (−4, 0) ve (0, 3) noktalarında kesen bir doğru çizilmiştir. Bu doğrunun denklemi aşağıda… | ✓3x − 4y = −12
+mat-dd-222 | M.8.2.2.4 | z3 | k2 | Bir öğrenci, denklemi 4x − 3y = 12 olan doğrunun grafiğini çizmiştir. Doğru, koordinat eksenleriyle bir dik üçgen oluşturmaktadır… | ✓6
+mat-dd-223 | M.8.2.2.6 | z3 | k2 | Şekilde koordinat düzleminde A(−1, −3) ve B(2, 3) noktalarından geçen bir doğru çizilmiştir. Bu doğrunun denklemi aşağıdakilerden… | ✓y = 2x − 1
+mat-dd-224 | M.8.2.2.6 | z3 | k2 | Bir sitenin iki girişine rampa yapılmıştır. A rampasının dikey yüksekliği 40 cm, yatay uzunluğu 200 cm; B rampasının dikey yüksek… | ✓B rampasının eğimi, A rampasınınkinden büyük…
+mat-dd-225 | M.8.2.2.6 | z3 | k2 | Bir ormanda yürüyüş parkurunun haritası koordinat düzleminde hazırlanmıştır. Başlangıç kulübesi orijin (0, 0) noktasıdır; x eksen… | ✓(0, −2)
+mat-dd-301 | M.8.2.2.1 | z3 | k3 | Elif ile Kaan harçlıklarını karşılaştırıyor. Elif'in x TL parası var. Kaan'ın parası, Elif'in parasının [[2|3]] katından 6 TL faz… | ✓54
+mat-dd-302 | M.8.2.2.2 | z3 | k3 | Aşağıdaki koordinat düzlemi bir ilçenin kargo haritasıdır; her birim kare kenarı 100 metreyi göstermektedir. Kurye Selin, depodan… | ✓1400 m
+mat-dd-303 | M.8.2.2.3 | z3 | k3 | Başlangıçta içinde bir miktar su bulunan bir depoya musluk açılıyor ve su düzenli olarak akıyor. Musluk açıldıktan t dakika sonra… | ✓Bağımsız değişken t'dir; ilişki y = 4t + 30 …
+mat-dd-304 | M.8.2.2.4 | z3 | k3 | Bir peyzaj mimarı, koordinat düzleminde denklemi 3x − 4y = 24 olan doğru ile iki koordinat ekseninin sınırladığı üçgen biçimli bö… | ✓24
+mat-dd-305 | M.8.2.2.5 | z3 | k3 | Bir taksi durağında ücret, sabit bir açılış ücreti ile gidilen her kilometre için sabit bir ücretin toplamı olarak hesaplanıyor. … | ✓154
+mat-dd-306 | M.8.2.2.6 | z3 | k3 | Şekildeki rampanın dikey yüksekliği 90 cm, yatay uzunluğu 360 cm'dir. Bir belediye, aynı eğime sahip yeni bir rampa yapacaktır. Y… | ✓600
+mat-dd-307 | M.8.2.2.4 | z3 | k3 | Bir yazılım mühendisi, bir çizim programında koordinat düzleminde aşağıdaki doğruyu çizmiştir. Doğrunun üzerinde işaretlenen iki … | ✓3x − 5y = −10
+mat-dd-308 | M.8.2.2.3 | z3 | k3 | Bir sporcu, 500 ml su dolu matarasından koşu boyunca her dakika aynı miktarda su içmektedir. Matarada kalan suyun, içmeye başladı… | ✓4
+mat-dd-309 | M.8.2.2.5 | z3 | k3 | Deniz ile Mert, bisiklet almak için kumbaralarında para biriktiriyor. Deniz'in kumbarasında başlangıçta 120 TL var ve her ay kumb… | ✓300
+mat-dd-310 | M.8.2.2.2 | z3 | k3 | Bir belediye, paralelkenar biçimli bir park yapacaktır. Parkın köşeleri koordinat düzleminde A, B, C, D sırasıyla işaretlenecekti… | ✓(0, −1)
+mat-dd-311 | M.8.2.2.6 | z3 | k3 | Bir doğa yürüyüşü parkurunda rakım, başlangıç noktasından yatay doğrultuda ilerledikçe düzenli (doğrusal) olarak artmaktadır. Baş… | ✓1160
+mat-dd-312 | M.8.2.2.1 | z3 | k3 | Bir bisikletçi, kenti çevreleyen yolu üç günde tamamlamak istiyor. İlk gün yolun yarısını, ikinci gün yolun üçte birini gitmiştir… | ✓24
+mat-dd-313 | M.8.2.2.5 | z3 | k3 | Deniz, kumbarasına her hafta aynı miktarda para ekliyor. Grafikte x haftayı, y ise kumbaradaki parayı (TL) göstermektedir. Deniz … | ✓9
+mat-dd-314 | M.8.2.2.4 | z3 | k3 | Bir arsanın sınırları, koordinat düzleminde x = −3, x = 5, y = −1 ve y = 4 doğruları ile belirlenmiştir. Koordinat düzleminde 1 b… | ✓520
+mat-dd-315 | M.8.2.2.6 | z3 | k3 | Bir mimarlık öğrencisi iki farklı çatı modeli hazırlamıştır. Şekilde A çatısının dikey yüksekliği 70 cm, yatay uzunluğu 280 cm; B… | ✓A'nın eğimi [[1|4]], B'nin eğimi [[2|5]]'tir…
+mat-dd-316 | M.8.2.2.5 | z4 | k3 | Bir kamp malzemesi kiralama sitesinde iki firma çadır kiralamaktadır. Firmaların ücretleri, kiralama gün sayısına göre aşağıdaki … | ✓20
+mat-dd-317 | M.8.2.2.5 | z4 | k3 | Aşağıdaki grafikte iki depodaki su miktarı (litre), zamana (dakika) göre gösterilmiştir. 1. depodaki su bir vana açılarak düzenli… | ✓200
+mat-dd-318 | M.8.2.2.4 | z4 | k3 | Bir grafik tasarımcı, koordinat düzleminde ax + by = 12 denklemiyle verilen doğruları inceliyor. Burada a ve b pozitif tam sayıla… | ✓3
+mat-dd-319 | M.8.2.2.5 | z4 | k3 | Bir pastanede tanesi 2 TL olan lokum ile tanesi 3 TL olan çikolata satılmaktadır. Aylin, tam 18 TL ödeyerek x tane lokum ve y tan… | ✓2
+mat-dd-320 | M.8.2.2.3 | z4 | k3 | İki mumun boyu, yakıldıktan sonra geçen süreye göre düzenli olarak kısalmaktadır. İki mum aynı anda yakılmıştır. A ve B mumlarına… | ✓14
+mat-dd-321 | M.8.2.2.6 | z4 | k3 | Bir mimar, çizim programının koordinat düzleminde l doğrusunu A(−4, 0) ve B(0, 6) noktalarından geçecek biçimde çizmiştir. Ardınd… | ✓(0, 4)
+mat-dd-322 | M.8.2.2.4 | z4 | k3 | Bir belediye, parkın planını koordinat düzleminde çizmiştir; planda 1 birim gerçekte 5 metreyi göstermektedir. Parkın yürüyüş yol… | ✓120
+mat-dd-323 | M.8.2.2.5 | z4 | k3 | Bir kafe, doğum günü organizasyonu için iki firmadan teklif almıştır. P firması sabit bir hizmet bedeli ile kişi başı ek ücret, Q… | ✓21
+mat-dd-324 | M.8.2.2.6 | z4 | k3 | Bir haritada koordinat düzlemi üzerine yerleştirilen doğrusal bir yolun üzerinde Kale K(−4, −3) ve Müze M(5, 3) bulunmaktadır. Yo… | ✓8
+mat-dd-325 | M.8.2.2.5 | z4 | k3 | Bir okul bahçesine iki fidan dikilmiştir. A fidanının boyu (cm), dikimden sonra geçen haftaya göre tabloda verilmiştir. B fidanın… | ✓Başlangıç boyu daha kısa olan fidan, sonra d…
+mat-dd-001 | M.8.2.2.1 | z1 | k0 | Bir sayının 3 katından 7 çıkarıldığında 11 elde ediliyor. Buna göre bu sayı kaçtır? | ✓6
+mat-dd-002 | M.8.2.2.2 | z1 | k0 | Aşağıdaki noktalardan hangisi koordinat düzleminin III. bölgesindedir? | ✓(−6, −1)
+mat-dd-003 | M.8.2.2.6 | z1 | k0 | Dikey yüksekliği 4 metre, yatay uzunluğu 3 metre olan bir kaydırak modellenmiştir. Bu modelin eğimi kaçtır? | ✓[[4|3]]
+mat-dd-004 | M.8.2.2.1 | z2 | k0 | Bir sayının 2 katının 1 eksiğinin üçte biri 5'tir. Buna göre bu sayı kaçtır? | ✓8
+mat-dd-005 | M.8.2.2.3 | z2 | k0 | Tabloda x ile y arasındaki doğrusal ilişki verilmiştir. Buna göre tablodaki ? yerine hangi sayı gelmelidir? | ✓17
+mat-dd-006 | M.8.2.2.4 | z2 | k0 | Denklemi x = 4 olan doğru için aşağıdakilerden hangisi doğrudur? | ✓y eksenine paraleldir ve (4, 0) noktasından …
+mat-dd-007 | M.8.2.2.5 | z2 | k0 | Bir kargo firması gönderilen her paket için 12 TL sabit ücret ve her kilogram için ayrıca 4 TL almaktadır. Buna göre 7 kg'lık bir… | ✓40
+mat-dd-008 | M.8.2.2.6 | z2 | k0 | Koordinat düzleminde (0, −3) ve (4, 5) noktalarından geçen bir doğru çizilmiştir. Buna göre bu doğrunun eğimi kaçtır? | ✓2
+mat-dd-009 | M.8.2.2.1 | z3 | k0 | Matematik öğretmeni tahtaya şu bulmacayı yazdı: "Bir sayının 1 fazlasının yarısından, bu sayının 2 eksiğinin dörtte biri çıkarıld… | ✓4
+mat-dd-010 | M.8.2.2.2 | z3 | k0 | Haritası koordinat düzlemine yerleştirilen bir kasabada bakkal A(−2, 3) noktasındadır. Okul ise bakkaldan 5 birim sağda ve 4 biri… | ✓(3, −1)
+mat-dd-011 | M.8.2.2.3 | z3 | k0 | Bir fidanın boyu, dikildikten sonra düzenli olarak uzamaktadır. Fidanın boyunun (cm) geçen ay sayısına göre ölçümleri tabloda ver… | ✓94
+mat-dd-012 | M.8.2.2.4 | z3 | k0 | Bir ışık hüzmesi, koordinat düzleminde y = [[2|3]]x + 4 doğrusu boyunca ilerleyip x eksenine ulaşmaktadır. Buna göre hüzmenin x e… | ✓−6
+mat-dd-013 | M.8.2.2.5 | z4 | k0 | Ayşe ve Burak aynı yolda aynı yöne doğru sabit hızlarla gitmektedir. Burak, Ayşe'nin yola çıktığı noktanın 14 km ilerisinden yola… | ✓7
+mat-dd-014 | M.8.2.2.4 | z4 | k0 | Koordinat düzleminde grafiğinin bir parçası verilen doğru, y eksenini A(0, 6) noktasında ve x eksenini B(4, 0) noktasında kesmekt… | ✓6
+mat-dd-015 | M.8.2.2.4 | z4 | k0 | Bir öğrenci y = kx + 4 doğrularını incelemektedir. Burada k, sıfırdan farklı bir tam sayıdır. Öğrenci, doğrunun x eksenini kestiğ… | ✓6

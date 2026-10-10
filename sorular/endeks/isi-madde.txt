@@ -1,0 +1,90 @@
+fen-im-101 | F.8.4.5.1 | z1 | k1 | Isı ile ilgili aşağıdakilerden hangisi doğrudur? | ✓Sıcak cisimden soğuk cisme aktarılan bir ene…
+fen-im-102 | F.8.4.5.1 | z1 | k1 | Bir maddenin sıcaklığını ölçmek için aşağıdaki araçlardan hangisi kullanılır? | ✓Termometre
+fen-im-103 | F.8.4.5.3 | z1 | k1 | Saf bir katı maddenin erimeye başladığı sıcaklığa ne ad verilir? | ✓Erime noktası
+fen-im-104 | F.8.4.5.4 | z1 | k1 | Terleyen bir insan serinlik hisseder. Bu durumun nedeni aşağıdakilerden hangisidir? | ✓Ter buharlaşırken vücuttan ısı alır
+fen-im-105 | F.8.4.5.2 | z1 | k1 | Saf bir madde hâl değiştirirken sıcaklığı nasıl değişir? | ✓Her zaman sabit kalır
+fen-im-106 | F.8.4.5.2 | z1 | k1 | Aşağıdaki hâl değişimlerinden hangisi sırasında madde ısı alır? | ✓Erime
+fen-im-107 | F.8.4.5.1 | z1 | k1 | Bir deneyde araştırmacının bilerek değiştirdiği değişkene ne ad verilir? | ✓Bağımsız değişken
+fen-im-108 | F.8.4.5.4 | z1 | k1 | Limonata dolu bir bardağa atılan buz parçası erirken aşağıdakilerden hangisi gerçekleşir? | ✓Buz, limonatadan ısı alır
+fen-im-109 | F.8.4.5.2 | z1 | k1 | Bir maddenin hâl değiştirmesi için gereken ısı aşağıdakilerden hangisine bağlıdır? | ✓Maddenin cinsine ve kütlesine
+fen-im-110 | F.8.4.5.3 | z1 | k1 | Saf bir katı maddenin ısıtılırken sıcaklığının zamanla değişimi grafikte verilmiştir. Madde grafikte hangi bölümde hâl değiştirme… | ✓L bölümünde
+fen-im-111 | F.8.4.5.4 | z1 | k1 | Soğuk su dolu bir bardağın dış yüzeyinde zamanla su damlacıkları oluşur. Bu olay aşağıdakilerden hangisidir? | ✓Yoğunlaşma
+fen-im-112 | F.8.4.5.1 | z1 | k1 | Öz ısı aşağıdakilerden hangisiyle tanımlanır? | ✓1 gram maddenin sıcaklığını 1 °C değiştirmek…
+fen-im-113 | F.8.4.5.1 | z2 | k1 | Kütleleri eşit olan su ve zeytinyağı, özdeş ısıtıcılarla aynı süre ısıtılıyor. Başlangıç sıcaklıkları aynıdır. Süre sonunda zeyti… | ✓Zeytinyağının öz ısısı suyun öz ısısından kü…
+fen-im-114 | F.8.4.5.1 | z2 | k1 | Zeynep, ısınmanın kütleye bağlı olup olmadığını araştırmak için kütleleri 100 g, 200 g ve 300 g olan su örneklerini özdeş ısıtıcı… | ✓Suyun sıcaklık artışı
+fen-im-115 | F.8.4.5.1 | z2 | k1 | Isı ve sıcaklıkla ilgili üç öğrenci aşağıdaki ifadeleri söylüyor. I. Isı, bir enerji türüdür. II. Sıcaklık, termometre ile ölçülü… | ✓I ve II
+fen-im-116 | F.8.4.5.2 | z2 | k1 | Aynı sıcaklıkta bulunan, kütleleri 100 g ve 300 g olan iki saf buz parçasının tamamen erimesi için gereken ısılar karşılaştırılıy… | ✓300 g'lık buzun erimesi için gereken ısı dah…
+fen-im-117 | F.8.4.5.2 | z2 | k1 | Kütleleri eşit olan K ve L katıları, erime noktalarında özdeş ısıtıcılarla ısıtılıyor. Maddelerin tamamen erimesi için geçen süre… | ✓Yalnız II
+fen-im-118 | F.8.4.5.3 | z2 | k1 | Sıvı hâldeki saf bir madde soğutuluyor ve sıcaklığının zamanla değişimi grafikte verilmiştir. Bu maddenin donma noktası kaç °C'di… | ✓60 °C
+fen-im-119 | F.8.4.5.3 | z2 | k1 | Saf bir katının ısıtılırken sıcaklığının zamanla değişimi grafikte verilmiştir. Madde kaç dakika boyunca hâl değiştirmiştir? | ✓15 dk
+fen-im-120 | F.8.4.5.4 | z2 | k1 | Kış mevsiminde havanın çok soğuk olmadığı günlerde kar yağışı sırasında havanın bir miktar ısındığı hissedilir. Bu durumun nedeni… | ✓Su buharı kar tanesine dönüşürken çevreye ıs…
+fen-im-121 | F.8.4.5.4 | z2 | k1 | Günlük yaşamdan üç olay verilmiştir. I. Islak çamaşırın rüzgârlı havada kuruması II. Kış sabahı otobüs camının iç yüzeyinde buğu … | ✓I ve III
+fen-im-122 | F.8.4.5.2 | z2 | k1 | Elif, hâl değiştirmek için gereken ısının maddenin cinsine bağlı olup olmadığını araştıracaktır. Elif'in aşağıdaki deney düzenekl… | ✓Farklı iki maddenin 100 g'lık örneklerini, e…
+fen-im-123 | F.8.4.5.1 | z2 | k1 | Ayşe, ısınmanın maddenin kütlesine bağlı olup olmadığını araştırmak için tabloda verilen deneylerden ikisini karşılaştıracaktır. … | ✓1 ve 2
+fen-im-124 | F.8.4.5.3 | z2 | k1 | Saf bir katı özdeş bir ısıtıcıyla ısıtılıyor. Sıcaklığın zamanla değişimi grafikte verilmiştir. Grafikteki L noktasında erime baş… | ✓Katı ve sıvı birlikte
+fen-im-125 | F.8.4.5.4 | z2 | k1 | Dolapta duran naftalin tabletleri zamanla küçülür ve dolapta naftalin kokusu hissedilir. Tabletler sıvı hâle geçmeden doğrudan ga… | ✓Süblimleşmedir; naftalin çevresinden ısı alır
+fen-im-201 | F.8.4.5.1 | z2 | k2 | Kütleleri eşit olan alkol, su ve zeytinyağı özdeş ısıtıcılarla 3 dakika ısıtılıp sıcaklık artışları ölçülüyor. I. Isıtma süresi b… | ✓II ve III
+fen-im-202 | F.8.4.5.1 | z2 | k2 | Kütleleri ve başlangıç sıcaklıkları eşit olan K, L ve M sıvıları özdeş ısıtıcılarla 2 dakika ısıtılıyor. Sıvıların sıcaklık artış… | ✓K, M, L
+fen-im-203 | F.8.4.5.1 | z2 | k2 | 100 g su, bir ısıtıcıyla 4 dakika ısıtılınca sıcaklığı 20 °C artıyor. Aynı ısıtıcı ve aynı ortamda 200 g su da 4 dakika ısıtılıyo… | ✓20 °C'den daha az olur
+fen-im-204 | F.8.4.5.2 | z2 | k2 | Özdeş ısıtıcılarla aynı ortamda kaynatılan 1 kg ve 3 kg saf su, kaynama sırasında karşılaştırılıyor. Buna göre aşağıdakilerden ha… | ✓Sıcaklıkları eşittir; 3 kg olan daha geç tam…
+fen-im-205 | F.8.4.5.2 | z2 | k2 | Erime noktasında bulunan saf bir katı madde ısıtılarak eritiliyor. I. Erime sırasında maddenin sıcaklığı sürekli artar. II. Erime… | ✓Yalnız III
+fen-im-206 | F.8.4.5.4 | z2 | k2 | Çok soğuk bir kış gecesi, havadaki su buharı sıvı hâle geçmeden doğrudan buz kristallerine dönüşerek çimleri kaplıyor (kırağı). B… | ✓Gazdan katıya geçiştir; çevresine ısı verir
+fen-im-207 | F.8.4.5.3 | z2 | k2 | Saf bir katı madde özdeş bir ısıtıcıyla sürekli ısıtılıyor. Maddenin sıcaklığının zamanla değişimi grafikte verilmiştir. I. Madde… | ✓Yalnız I
+fen-im-208 | F.8.4.5.3 | z2 | k2 | Aşağıdaki grafikte, özdeş ısıtıcıyla ısıtılan saf bir maddenin sıcaklığının zamanla değişimi verilmiştir. Grafikte maddenin sıcak… | ✓Katı hâldeki maddenin öz ısısı, sıvı hâldeki…
+fen-im-209 | F.8.4.5.4 | z2 | k2 | Bazı günlük olaylar ile bu olayların adları eşleştirilmiştir. I. Kış sabahı camın iç yüzeyinde buğu oluşması: buharlaşma II. Dond… | ✓Yalnız II
+fen-im-210 | F.8.4.5.4 | z2 | k2 | Çiftçiler, don tehlikesi olan gecelerde bazen meyve ağaçlarının dallarına su püskürtür. Suyun dallar üzerinde donması çiçek ve to… | ✓Donan su çevresine ısı verir
+fen-im-211 | F.8.4.5.4 | z2 | k2 | Sıcak çorbayı soğutmak için çorbaya üfleyen Ali, üflerken çorbanın daha çabuk soğuduğunu görüyor. Bu durumun açıklaması aşağıdaki… | ✓Üflemek buharlaşmayı hızlandırır; buharlaşan…
+fen-im-212 | F.8.4.5.4 | z2 | k2 | Günlük yaşamdan üç durum veriliyor. I. Sıcak çorbadan çıkan buhar soğuk kaşıkta yoğunlaşırken kaşığa ısı verir. II. Sıcak limonat… | ✓Yalnız I
+fen-im-213 | F.8.4.5.2 | z2 | k2 | Erime noktası 56 °C, kaynama noktası 214 °C olan saf K maddesi sıvı hâlde iken soğutuluyor. K maddesi donarken sıcaklığı kaç °C'd… | ✓56 °C
+fen-im-214 | F.8.4.5.1 | z3 | k2 | Aşağıdaki tabloda bazı maddelerin öz ısıları verilmiştir. Öğretmen, aynı sıcaklıkta bulunan üç blok hazırlıyor: K bloğu 200 g alü… | ✓L, M, K
+fen-im-215 | F.8.4.5.1 | z3 | k2 | Tabloda bazı maddelerin öz ısıları verilmiştir. I. Eşit kütleli alkol ve alüminyum aynı ısıyı alırsa alkolün sıcaklık artışı daha… | ✓I ve II
+fen-im-216 | F.8.4.5.2 | z3 | k2 | Aynı saf maddenin K ve L örnekleri, aynı ortamda özdeş ısıtıcılarla ayrı ayrı ısıtılıyor. Başlangıç sıcaklıkları eşittir. Örnekle… | ✓L'nin kütlesi daha büyüktür; erime noktaları…
+fen-im-217 | F.8.4.5.2 | z3 | k2 | Kütleleri eşit olan X ve Y saf sıvıları, başlangıç sıcaklıkları eşit iken özdeş ısıtıcılarla ısıtılıyor. Sıvıların sıcaklığının z… | ✓I ve III
+fen-im-218 | F.8.4.5.3 | z3 | k2 | Gaz hâlindeki saf bir madde sürekli soğutuluyor. Maddenin sıcaklığının zamanla değişimi grafikte verilmiştir. Bu maddenin erime v… | ✓40 ve 80
+fen-im-219 | F.8.4.5.3 | z3 | k2 | Gaz hâlindeki saf bir madde sürekli soğutuluyor ve sıcaklığın zamanla değişimi grafikte veriliyor. Maddenin 2-6. dakikalar arasın… | ✓Yoğunlaşır ve çevresine ısı verir
+fen-im-220 | F.8.4.5.3 | z3 | k2 | Tabloda saf K, L ve M maddelerinin erime ve kaynama noktaları verilmiştir. Oda sıcaklığı 25 °C'dir. I. K, oda sıcaklığında gaz hâ… | ✓I, II ve III
+fen-im-221 | F.8.4.5.4 | z3 | k2 | Sıcak bir günde buzlu limonata dolu bir bardak masaya konuyor. Bir süre sonra bardağın içindeki buzlar eriyor, dış yüzeyinde ise … | ✓Yalnız III
+fen-im-222 | F.8.4.5.4 | z3 | k2 | Yaz sıcağında gölgede duran iki kaptan biri gözenekli topraktan yapılmış testi, diğeri cam şişedir. İkisine de 20 °C'de eşit mikt… | ✓Dışa sızan su buharlaşırken testiden ısı alır
+fen-im-223 | F.8.4.5.3 | z3 | k2 | Kütleleri eşit olan K ve L katıları aynı ortamda özdeş ısıtıcılarla ısıtılıyor. Başlangıç sıcaklıkları eşittir. Sıcaklıklarının z… | ✓I ve III
+fen-im-224 | F.8.4.5.4 | z3 | k2 | Sıcak bir yaz gününde Deniz, iki özdeş bardaktaki 30 °C'lik 500 g suyu serinletmek istiyor. K bardağına 0 °C'de 100 g buz, L bard… | ✓II ve III
+fen-im-225 | F.8.4.5.3 | z3 | k2 | Kütlesi m olan saf bir katı, bir ısıtıcıyla ısıtılıyor ve sıcaklığın zamanla değişimi grafikte veriliyor. Deney, aynı ortamda ve … | ✓Erime noktası değişmez; yatay bölüm uzar
+fen-im-301 | F.8.4.5.1 | z3 | k3 | Burak, ısınmanın süreye bağlı olup olmadığını araştırıyor. Üç özdeş kaba 20 °C'ta 200'er gram su koyuyor ve kapları aynı güçte öz… | ✓I ve II
+fen-im-302 | F.8.4.5.1 | z3 | k3 | Fen kulübünde üç sıvının ısınması karşılaştırılıyor. Başlangıç sıcaklığı 20 °C olan eşit kütleli K, L ve M sıvıları özdeş kaplard… | ✓L > M > K
+fen-im-303 | F.8.4.5.3 | z3 | k3 | Katı hâldeki X saf maddesi sabit güçlü bir ısıtıcıyla ısıtılıyor ve sıcaklığı zamana göre ölçülüyor. Elde edilen grafik aşağıda v… | ✓13-20. dakikalar arasında madde sıvı ve gaz …
+fen-im-304 | F.8.4.5.4 | z3 | k3 | Yaz günü sahilde bulunan Deniz, yaşadığı olayları ısı alışverişi açısından yorumluyor. I. Terleyen kişinin vücudundaki ter buharl… | ✓Yalnız II
+fen-im-305 | F.8.4.5.2 | z3 | k3 | Aynı ortamda bulunan iki özdeş kaptan birinde 100 g, diğerinde 300 g saf su kaynamaktadır. Her iki kap da aynı güçte, özdeş ısıtı… | ✓Kaynama noktaları eşittir; 300 g suyun tamam…
+fen-im-306 | F.8.4.5.4 | z3 | k3 | Fen öğretmeni günlük hayattan üç olay söylüyor ve öğrencilerden bu olayları ısı alışverişi açısından değerlendirmelerini istiyor.… | ✓Yalnız III
+fen-im-307 | F.8.4.5.3 | z3 | k3 | Aşağıdaki tabloda dört saf maddenin erime ve kaynama noktaları verilmiştir. Bu maddeler −100 °C sıcaklığında bulunduğunda K, L, M… | ✓sıvı – gaz – katı – katı
+fen-im-308 | F.8.4.5.1 | z3 | k3 | Ayşe, ısınmanın maddenin cinsine bağlı olduğunu deneyle göstermek istiyor. Elinde özdeş kaplar, özdeş ısıtıcılar, su, zeytinyağı … | ✓Kaplara aynı kütlede ve aynı sıcaklıkta fark…
+fen-im-309 | F.8.4.5.4 | z3 | k3 | Fen kulübü öğrencisi Eda, günlük hayatta gözlemlediği dört olayı ısı alışverişi açısından incelemek istiyor. Bunun için önce her … | ✓Tavada sıvılaşan tereyağı – buharlaşma
+fen-im-310 | F.8.4.5.3 | z3 | k3 | Gaz hâldeki Y saf maddesi soğutulurken sıcaklığı zamana göre ölçülüyor ve aşağıdaki grafik çiziliyor. I. 4-8. dakikalar arasında … | ✓I, II ve III
+fen-im-311 | F.8.4.5.1 | z3 | k3 | Zeynep, aynı miktarda su koyduğu üç özdeş kabı sırasıyla siyah, beyaz ve gri kâğıtla sarıp aynı güneşli yerde 30 dakika bekletiyo… | ✓Kâğıdın rengi – suyun sıcaklık artışı – suyu…
+fen-im-312 | F.8.4.5.3 | z3 | k3 | Başlangıç sıcaklıkları eşit olan K ve L sıvıları özdeş kaplarda, özdeş ve aynı güçte ısıtıcılarla ısıtılıyor. Sıvıların kütleleri… | ✓K'nin öz ısısı L'ninkinden küçüktür.
+fen-im-313 | F.8.4.5.4 | z3 | k3 | Fen öğretmeni hâl değişimlerinde ısı alışverişini konuşurken tahtaya şu yargıları yazıyor. I. Donma ve yoğuşma sırasında madde çe… | ✓I ve III
+fen-im-314 | F.8.4.5.2 | z3 | k3 | Okan, 0 °C'taki 200 g buzu ve 0 °C'taki 200 g suyu özdeş kaplara koyup aynı güçte özdeş ısıtıcılarla ısıtıyor. Kapların çevresi y… | ✓İki kap eşit ısı almıştır; buz kabında ısı h…
+fen-im-315 | F.8.4.5.1 | z3 | k3 | Fen kulübü öğrencileri 20 °C'taki farklı miktarlarda suyu özdeş kaplarda, özdeş ısıtıcılarla 4 dakika ısıtıyor ve sonuçları tablo… | ✓Kütle arttıkça aynı ısıyı alan suyun sıcaklı…
+fen-im-316 | F.8.4.5.1 | z4 | k3 | Başlangıç sıcaklıkları eşit olan X, Y ve Z sıvıları özdeş kaplarda, özdeş ve aynı güçte ısıtıcılarla tabloda verilen sürelerce ıs… | ✓Y'nin öz ısısı X'inkinden küçüktür.
+fen-im-317 | F.8.4.5.1 | z4 | k3 | Elif, ısınmayı etkileyen değişkenleri incelemek için üç özdeş kaba 20 °C'taki sıvılardan koyuyor ve özdeş ısıtıcılarla 5 dakika ı… | ✓II ve III
+fen-im-318 | F.8.4.5.3 | z4 | k3 | Başlangıç sıcaklıkları eşit olan K ve L katı maddeleri, aynı güçte ve özdeş ısıtıcılarla ayrı kaplarda ısıtılıyor. Maddelerin küt… | ✓L'nin erime noktası K'ninkinden yüksektir.
+fen-im-319 | F.8.4.5.3 | z4 | k3 | Fen kulübü öğrencileri, aynı cins sıvıdan aldıkları K ve L örneklerini özdeş kaplarda, aynı güçte özdeş ısıtıcılarla 10 dakika ıs… | ✓K'nin kütlesi L'ninkinden küçüktür; çünkü ay…
+fen-im-320 | F.8.4.5.3 | z4 | k3 | Aynı saf katı maddenin kütleleri farklı P, R ve S örnekleri, özdeş ve aynı güçte ısıtıcılarla ayrı kaplarda ısıtılıyor. Üç örneği… | ✓I ve II
+fen-im-321 | F.8.4.5.4 | z4 | k3 | Kış günü balkondaki sıcaklık bütün gün −5 °C ile −2 °C arasında kalıyor. Nazlı sabah yıkadığı çamaşırı balkondaki ipe asıyor. Akş… | ✓Donma – süblimleşme
+fen-im-322 | F.8.4.5.1 | z4 | k3 | Her biri 150 g olan su ve zeytinyağı, 20 °C'ta özdeş kaplarda özdeş ısıtıcılarla 6 dakika ısıtılıyor. Isı kaybı yok sayılıyor. De… | ✓I ve III
+fen-im-323 | F.8.4.5.4 | z4 | k3 | Kış günü sabahtan beri hava çok soğukken kar yağmaya başlayınca Mert havanın biraz ısındığını fark ediyor. Öğleden sonra yağış du… | ✓Yalnız I
+fen-im-324 | F.8.4.5.1 | z4 | k3 | Aynı sıcaklıkta (80 °C) olan K kabında 50 g, L kabında 200 g su bulunuyor. İki kap da 20 °C'lık bir odada bekletiliyor ve ikisini… | ✓L, çevreye daha fazla ısı vermiştir; çünkü s…
+fen-im-325 | F.8.4.5.3 | z4 | k3 | Aynı sıcaklıkta başlayan X ve Y saf sıvıları özdeş kaplarda, aynı güçte özdeş ısıtıcılarla ısıtılıyor. Sıvıların kütleleri bilinm… | ✓5. dakikada X kaynamakta, Y ise ısınmaktadır.
+fen-im-001 | F.8.4.5.1 | z1 | k0 | Isı ile ilgili aşağıdakilerden hangisi doğrudur? | ✓Isı, sıcak cisimden soğuk cisme aktarılan en…
+fen-im-002 | F.8.4.5.3 | z1 | k0 | Saf bir katı madde erirken sıcaklığı için aşağıdakilerden hangisi söylenebilir? | ✓Sabit kalır.
+fen-im-003 | F.8.4.5.4 | z1 | k0 | Eline kolonya döken Mert, elinde serinlik hissediyor. Bu durumun nedeni aşağıdakilerden hangisidir? | ✓Kolonya buharlaşırken elden ısı alır.
+fen-im-004 | F.8.4.5.1 | z2 | k0 | Ela, aynı sıcaklıktaki sudan özdeş kaplara farklı kütlelerde koyup aynı ısıtıcıyla 3 dakika ısıtıyor ve sonra suların sıcaklık ar… | ✓Suyun sıcaklık artışı
+fen-im-005 | F.8.4.5.1 | z2 | k0 | Kütleleri eşit olan K ve L sıvıları özdeş ısıtıcılarla aynı süre ısıtılıyor. K'nin sıcaklığı 15 °C, L'nin sıcaklığı 25 °C artıyor… | ✓K'nin öz ısısı daha büyüktür; çünkü aynı ısı…
+fen-im-006 | F.8.4.5.3 | z2 | k0 | Erime noktası −30 °C, kaynama noktası 70 °C olan X saf maddesi bir laboratuvarda sıcaklığı değiştirilerek inceleniyor. X maddesi … | ✓100 °C
+fen-im-007 | F.8.4.5.2 | z2 | k0 | Aşağıdakilerden hangisi bir saf maddenin miktarına (kütlesine) bağlı değildir? | ✓Erime noktası
+fen-im-008 | F.8.4.5.3 | z2 | k0 | Y saf maddesi sabit güçlü bir ısıtıcıyla ısıtılırken sıcaklığı zamana göre ölçülüyor ve aşağıdaki grafik çiziliyor. Buna göre Y m… | ✓80
+fen-im-009 | F.8.4.5.4 | z3 | k0 | Fen öğretmeni günlük hayattan üç olay yazıyor. I. Sabah çimenlerde oluşan çiğ damlaları oluşurken su buharı çevreden ısı alır. II… | ✓II ve III
+fen-im-010 | F.8.4.5.1 | z3 | k0 | Başlangıç sıcaklıkları ve kütleleri eşit olan K, L, M ve N metal çubuklarına özdeş ısıtıcılarla aynı süre ısı veriliyor. Çubuklar… | ✓K – N
+fen-im-011 | F.8.4.5.3 | z3 | k0 | Saf bir madde için hâl değişimleriyle ilgili şu yargılar veriliyor. I. Erime sırasında madde çevresine ısı verir. II. Bir saf mad… | ✓Yalnız III
+fen-im-012 | F.8.4.5.2 | z3 | k0 | Erime noktalarında bulunan eşit kütleli K ve L katıları, özdeş ısıtıcılarla ısıtılıyor. K 3 dakikada, L ise 5 dakikada tamamen er… | ✓L'nin erimesi için gereken ısı daha fazladır.
+fen-im-013 | F.8.4.5.3 | z4 | k0 | Katı bir maddenin 100 g'ı sabit güçlü bir ısıtıcıyla ısıtılırken sıcaklık-zaman grafiği K eğrisi gibi çiziliyor. Aynı maddeden 20… | ✓Erime noktası değişmez; yatay bölüm uzar.
+fen-im-014 | F.8.4.5.4 | z4 | k0 | Çevreyle ısı alışverişi olmayan yalıtılmış bir kaba önce 0 °C'taki buz parçaları, sonra 40 °C'taki su konuyor. Bir süre sonra kap… | ✓I ve II
+fen-im-015 | F.8.4.5.3 | z4 | k0 | Sıvı hâldeki Z saf maddesi sabit bir ortamda soğutulurken sıcaklığı zamana göre ölçülüyor ve aşağıdaki grafik elde ediliyor. Buna… | ✓Maddenin erime noktası 60 °C'tır.

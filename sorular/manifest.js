@@ -133,5 +133,9 @@ window.LGS_MANIFEST = [
   "deneme-1-inkilap.js",
   "deneme-1-din.js",
   "tur-paragrafta-anlam-49.js",
-  "tur-paragrafta-anlam-50.js"
+  "tur-paragrafta-anlam-50.js",
+  "mat-dogrusal-denklemler-1.js",
+  "mat-dogrusal-denklemler-2.js",
+  "fen-isi-madde-1.js",
+  "fen-isi-madde-2.js"
 ];
