@@ -1,0 +1,90 @@
+ing-u10-101 | E8.10.R1 | z1 | k1 | The ground shakes strongly for a minute. Some old buildings fall down. What is this natural disaster? | ✓earthquake
+ing-u10-102 | E8.10.R1 | z1 | k1 | It doesn't rain for many months. Lakes and rivers become dry. What is this natural event? | ✓drought
+ing-u10-103 | E8.10.R1 | z1 | k1 | Hot, melted rock and smoke come out of a mountain. What is it? | ✓volcano
+ing-u10-104 | E8.10.SI1 | z1 | k1 | Emre: Do you think there will be a water shortage? Lina: Yes. - - - - Emre: Oh no! We must save water. Which completes the dialog… | ✓There won't be enough water.
+ing-u10-105 | E8.10.R1 | z1 | k1 | A very big wave comes from the sea after an earthquake under the sea. What is it? | ✓tsunami
+ing-u10-106 | E8.10.R1 | z1 | k1 | A lot of snow slides down a mountain very fast. What is it? | ✓avalanche
+ing-u10-107 | E8.10.R1 | z1 | k1 | The Earth is getting hotter every year. We call this - - - -. Which completes the sentence? | ✓global warming
+ing-u10-108 | E8.10.R1 | z1 | k1 | In summer, the snow on the mountain starts to - - - - because the weather is warm. Which completes the sentence? | ✓melt
+ing-u10-109 | E8.10.R1 | z1 | k1 | A very strong wind turns round and round and goes across the land. It can lift cars and roofs. What is it? | ✓tornado
+ing-u10-110 | E8.10.SI1 | z1 | k1 | Reporter: How many survivors were there after the flood? Officer: - - - - Which completes the dialogue? | ✓Twelve people were found alive.
+ing-u10-111 | E8.10.SP1 | z1 | k1 | Which sentence is a prediction about the future? | ✓I think there will be a drought next summer.
+ing-u10-112 | E8.10.SI2 | z1 | k1 | We waste too much water. So we should - - - - it. Which completes the sentence? | ✓save
+ing-u10-113 | E8.10.SI1 | z2 | k1 | Defne: Do you think there will be a drought this summer? Kerem: - - - - Defne: Oh no! Then we must save water. Which completes th… | ✓Yes. The summers will be hotter and drier.
+ing-u10-114 | E8.10.R1 | z2 | k1 | Read the note. Why must the students stay away from the road? | ✓Because there may be a landslide on it.
+ing-u10-115 | E8.10.R1 | z2 | k1 | Mr. Kaya is talking about hurricane safety: "Stay inside the house. Close the windows and stay away from them." What should you d… | ✓Stay inside the house.
+ing-u10-116 | E8.10.R1 | z2 | k1 | It rained for three days. Many streets were under water. There was a big - - - - in the city. Which word completes the sentence? | ✓flood
+ing-u10-117 | E8.10.R1 | z2 | k1 | Many scientists say that the temperature of the Earth is rising. The ice in cold places becomes water, so the sea gets higher. Wh… | ✓The sea will get higher.
+ing-u10-118 | E8.10.SI2 | z2 | k1 | Mina: I think there will be serious floods in our city. Tom: - - - - Mina: Because the rain gets heavier every year. Which comple… | ✓Why do you think so?
+ing-u10-119 | E8.10.R1 | z2 | k1 | Look at the table. According to the table, what should you do in a flood? | ✓Go to a high place.
+ing-u10-120 | E8.10.W1 | z2 | k1 | It doesn't rain here for months, - - - - the farmers suffer. Which word completes the sentence? | ✓so
+ing-u10-121 | E8.10.R1 | z2 | k1 | Read the chat. What do we learn from the chat? | ✓Everyone left the island yesterday.
+ing-u10-122 | E8.10.SI1 | z2 | k1 | Berk: Do you think there will be a flood in our town? Zeynep: No. - - - - Berk: Great! We can have the picnic by the river. Which… | ✓There won't be much rain this week.
+ing-u10-123 | E8.10.R1 | z2 | k1 | Which word means "a very bad event that hurts people and breaks houses"? | ✓disaster
+ing-u10-124 | E8.10.W1 | z2 | k1 | Rain and wind carry soil away from the hills. Trees keep the soil in place. What should we do to stop erosion on the hills? | ✓Plant more trees on them.
+ing-u10-125 | E8.10.R1 | z2 | k1 | Look at the poster. What will the students learn on Monday? | ✓What to do in an earthquake.
+ing-u10-201 | E8.10.SI2 | z2 | k2 | Ela: I think there will be serious droughts in the future. Kaan: - - - - Ela: Yes, I do. Rivers are getting smaller every year. W… | ✓Do you really think so?
+ing-u10-202 | E8.10.R1 | z2 | k2 | Read the note. What must Elif do? | ✓Go to her grandmother's flat.
+ing-u10-203 | E8.10.R1 | z2 | k2 | Scientists say the seas will get warmer. They think there will be more - - - - in the future because warm seas make strong storms… | ✓hurricanes
+ing-u10-204 | E8.10.SI2 | z2 | k2 | Ahmet: Why do you think there will be a landslide on this hill? Mira: - - - - Which completes the dialogue? | ✓Because the soil is wet after the heavy rain.
+ing-u10-205 | E8.10.R1 | z2 | k2 | Look at the survey. How many students chose earthquakes or floods? | ✓9
+ing-u10-206 | E8.10.R1 | z2 | k2 | Read the news. Which sentence is true? | ✓Nobody is hurt.
+ing-u10-207 | E8.10.R1 | z2 | k2 | Be careful! The snow on the roof can - - - - down and hit you. Which word completes the sentence? | ✓slide
+ing-u10-208 | E8.10.SI1 | z2 | k2 | Ceren: Do you think there will be a tsunami after the earthquake? Alp: - - - - Ceren: Good. Let's go back to the hotel. Which com… | ✓No. The earthquake was far from the sea.
+ing-u10-209 | E8.10.R1 | z2 | k2 | Look at the programme. What will the students do right after the earthquake drill? | ✓Have lunch.
+ing-u10-210 | E8.10.R1 | z2 | k2 | There was no rain in Kemal's town last summer. The lake became very small and the farmers had no water for their fields. What was… | ✓The farmers had no water for their fields.
+ing-u10-211 | E8.10.W1 | z2 | k2 | Aylin is writing a paragraph. "Soil is very important for plants. - - - - So we should plant more trees on the hills." Which sent… | ✓Without trees, the rain can carry the soil a…
+ing-u10-212 | E8.10.R1 | z2 | k2 | Read the text. Which one is NOT true about volcanoes according to the text? | ✓Volcanoes never send out smoke.
+ing-u10-213 | E8.10.SI2 | z2 | k2 | Mia: I think there will be serious floods because the rain is getting heavier. Ben: - - - - Mia: I agree. We must also keep peopl… | ✓So the city should build strong walls by the…
+ing-u10-214 | E8.10.R1 | z3 | k2 | Read Zeynep's blog. Which one is NOT true? | ✓Zeynep's teacher told the students to use th…
+ing-u10-215 | E8.10.R1 | z3 | k2 | Mr. Orhan: After two days of heavy rain, the river near our school gets very high on the next day. The students must not use the … | ✓Wednesday
+ing-u10-216 | E8.10.SI2 | z3 | k2 | Lale: I think there will be less snow in the future because of global warming. Barış: So the snow on the mountains will melt earl… | ✓So we should keep some water for summer.
+ing-u10-217 | E8.10.R1 | z3 | k2 | Look at the poster. Who can join the camp? | ✓Defne is 13 and she is free from 5 to 7 July.
+ing-u10-218 | E8.10.R1 | z3 | k2 | Read the text. Our school had an earthquake drill this morning. When the bell rang, every student got under their desk and covere… | ✓Every student left the classroom quickly and…
+ing-u10-219 | E8.10.R1 | z3 | k2 | Read the text. Which sentence is true according to the text? | ✓The family spent four days without electrici…
+ing-u10-220 | E8.10.R1 | z3 | k2 | Zeynep lives in a city where it will be hotter and the main risk is drought. Her friend Can lives in a city where there will be m… | ✓Zeynep – Konya, Can – Rize
+ing-u10-221 | E8.10.SI2 | z3 | k2 | Teacher: How can our school save water? Ali: I think we should close the taps after use because we waste too much water. Deniz: -… | ✓I agree. Also, we should teach young student…
+ing-u10-222 | E8.10.R1 | z3 | k2 | Read the news. Which one is NOT true? | ✓The helicopter took the friends to hospital …
+ing-u10-223 | E8.10.R1 | z3 | k2 | Read the text. According to the text, what is the result of long droughts? | ✓Farmers suffer.
+ing-u10-224 | E8.10.R1 | z3 | k2 | Read the chat. Why does Emre's mother think there will be a drought next year? | ✓Because the winter was dry and the snow melt…
+ing-u10-225 | E8.10.R1 | z3 | k2 | Look at the safety list. Which person is doing the right thing? | ✓Selin is charging her phone before the hurri…
+ing-u10-301 | E8.10.SI2 | z3 | k3 | Deniz and Mia are talking about the future of their town. Deniz: I think there will be more floods in the future. Mia: - - - - De… | ✓Why do you think there will be more floods?
+ing-u10-302 | E8.10.R1 | z3 | k3 | Read the two short news reports. Town A: "It has rained day and night since Monday. The river is now in the streets, and many fam… | ✓Town A has a flood, and Town B has a drought.
+ing-u10-303 | E8.10.R1 | z3 | k3 | Mr. Aydın asked his 24 students: "What do you think will happen in 2050?" The table shows their answers. Which one is true accord… | ✓Half of the students think there will be a w…
+ing-u10-304 | E8.10.SI2 | z3 | k3 | Mert and Selin are neighbours. There has been very little rain this year. Mert: I think there will be a drought in the summer. Se… | ✓Yes, so we must stop wasting water at home.
+ing-u10-305 | E8.10.R1 | z3 | k3 | Read the TV news. "A strong earthquake hit the sea near a small island at 3 a.m. A tsunami warning was given, and 2,000 people mo… | ✓Many people were hurt by the waves.
+ing-u10-306 | E8.10.W1 | z3 | k3 | Read Ela's note and choose the best ending. "The summer is very hot, and there is no rain in our town, - - - -." Which one comple… | ✓so I think there will be a drought in our to…
+ing-u10-307 | E8.10.SI1 | z3 | k3 | Aylin and Kerem are talking about water. Aylin: Do you think there will be enough water in 2050? Kerem: - - - - Aylin: Right, so … | ✓No. There won't be enough water for everyone.
+ing-u10-308 | E8.10.R1 | z3 | k3 | There is an earthquake safety poster in the school corridor. Kaan is in his classroom and the ground starts shaking. What should … | ✓He should get under his desk and stay away f…
+ing-u10-309 | E8.10.R1 | z3 | k3 | Read the sentences about global warming. Scientists say that the Earth is getting hotter every year. Because of this heat, the ic… | ✓melts / suffer
+ing-u10-310 | E8.10.SI2 | z3 | k3 | Lina made a cause and result table for her science project. Which sentence is correct according to the table? | ✓It rains heavily and the rivers are full, so…
+ing-u10-311 | E8.10.R1 | z3 | k3 | Read Defne's diary. "Monday, 14 June. We went to Mount Etna with our teacher. It is a volcano in Sicily. We couldn't go to the to… | ✓Defne took photos from a safe place.
+ing-u10-312 | E8.10.SI2 | z3 | k3 | Cem and his father are listening to the radio. Cem: The radio says a hurricane will come to our coast tomorrow. Dad: - - - - Cem:… | ✓So we must close the windows and keep everyt…
+ing-u10-313 | E8.10.W1 | z3 | k3 | Büşra is writing a paragraph about a drought. The first sentence is given. Put the other three sentences in the correct order. "A… | ✓II - III - I
+ing-u10-314 | E8.10.R1 | z3 | k3 | Read the e-mail from Ms. Kaya. "Dear students, Tomorrow we will have an earthquake drill at 10 a.m. When the bell rings, get unde… | ✓Students will go to the garden after one min…
+ing-u10-315 | E8.10.R1 | z3 | k3 | Two friends are talking about a news report about a flood. Arda: The reporter talked to a survivor. Ece: What is a survivor? Arda… | ✓lives after a disaster or a dangerous event
+ing-u10-316 | E8.10.R1 | z4 | k3 | Read the TV news. "Hurricane Lara reached the south coast on Friday morning. The strong wind broke many trees, and the heavy rain… | ✓The wind broke only a few trees.
+ing-u10-317 | E8.10.SI2 | z4 | k3 | Defne and Arda wrote their predictions for the future. Look at the table. Which one is true according to the table? | ✓Defne's prediction is about water, but Arda'…
+ing-u10-318 | E8.10.SP2 | z4 | k3 | Many families in Karaköy use too much water, and the lake near the town is getting smaller every year. Mr. Aksoy thinks the town … | ✓There will be a drought because the lake is …
+ing-u10-319 | E8.10.R1 | z4 | k3 | A rescue team wrote a table about four disasters last year. Which one is true according to the table? | ✓Seaview received more help than Riverside an…
+ing-u10-320 | E8.10.SI2 | z4 | k3 | Emre and Zehra are talking about last week's flood. Emre: There was a big flood in our town last week. Zehra: I know. I think the… | ✓Yes, because the snow melts early and the ri…
+ing-u10-321 | E8.10.R1 | z4 | k3 | A volcano park has a tour poster. Four visitors want to join the tour. Which visitor can join the tour? | ✓Tarık is 14. He has a helmet and strong shoe…
+ing-u10-322 | E8.10.R1 | z4 | k3 | Read Tolga's story. "Last spring, a tornado came to our village in the afternoon. My mother had heard the warning on the radio, s… | ✓The family was safe because they heard the w…
+ing-u10-323 | E8.10.R1 | z4 | k3 | Read the text. "Trees hold the soil with their roots. When people cut too many trees, rain washes the soil away. This is called e… | ✓People cut the trees, so rain washes the soi…
+ing-u10-324 | E8.10.R1 | z4 | k3 | The table shows the summer rain in four towns. Which one is NOT true according to the table? | ✓Seydere may have a drought because it rained…
+ing-u10-325 | E8.10.W1 | z4 | k3 | Kaan is writing a note for his class about a tsunami risk. "Our city is near the sea, and a strong earthquake may cause a tsunami… | ✓So we should learn the way to the hills and …
+ing-u10-001 | E8.10.R1 | z1 | k0 | "A very big wave that comes from the sea after an earthquake." Which word matches the definition? | ✓tsunami
+ing-u10-002 | E8.10.R1 | z1 | k0 | "A lot of snow slides down a mountain very quickly." Which word matches the definition? | ✓avalanche
+ing-u10-003 | E8.10.R1 | z1 | k0 | "Too much water covers the streets and houses after heavy rain." Which word matches the definition? | ✓flood
+ing-u10-004 | E8.10.SI1 | z2 | k0 | Murat and Elif are talking about next summer. Murat: Do you think there will be a water shortage next summer? Elif: - - - - Murat… | ✓No. There will be a lot of rain.
+ing-u10-005 | E8.10.R1 | z2 | k0 | Elif wants to play volleyball outside. She wants a sunny day with no wind. Look at the weather report. Which day is the best for … | ✓Tuesday
+ing-u10-006 | E8.10.R1 | z2 | k0 | Rescue teams found three - - - - under the building after the earthquake. They are alive and now in the hospital. Which word comp… | ✓survivors
+ing-u10-007 | E8.10.R1 | z2 | k0 | Selin got this message from her father. "Hi Selin, there is a flood warning in our area. Don't go to the river. I will come home … | ✓Stay at home and keep her phone close.
+ing-u10-008 | E8.10.R1 | z2 | k0 | Read the news. "A strong earthquake shook the city at 5 a.m. Thirty buildings were damaged, but nobody died. Rescue teams worked … | ✓An earthquake in a city
+ing-u10-009 | E8.10.W1 | z3 | k0 | Mia's school is near a river. Every spring the river becomes very full. She wrote this note. "I think there will be a flood next … | ✓So we should move our books to the upper flo…
+ing-u10-010 | E8.10.R1 | z3 | k0 | Read the paragraph. "Factories and cars send gases into the air. The gases keep the heat around the Earth, so the temperature goe… | ✓Global warming and its results
+ing-u10-011 | E8.10.R1 | z3 | k0 | A town offers safety workshops. Efe is 13 years old and he can only go on Saturday. Which workshops can Efe join? | ✓Earthquake Safety and First Aid
+ing-u10-012 | E8.10.R1 | z3 | k0 | During the long drought, many families in the region - - - - from a lack of water. Which word completes the sentence? | ✓suffer
+ing-u10-013 | E8.10.R1 | z4 | k0 | Read Aylin's blog. "Last summer we visited a village near a volcano. The villagers told us about an eruption twenty years ago. Ev… | ✓The villagers survived because they left bef…
+ing-u10-014 | E8.10.R1 | z4 | k0 | The table shows how four cities prepare for earthquakes. Which one is NOT true according to the table? | ✓Delta has more school drills than Gama.
+ing-u10-015 | E8.10.SP2 | z4 | k0 | Aylin looks at the table about Dry Valley. She wants to write a prediction for 2026 with a reason. Which sentence is the best one? | ✓Because the rain is getting less every year,…
