@@ -1,0 +1,90 @@
+mat-uc-101 | M.8.3.1.1 | z1 | k1 | Aşağıdaki şekilde ikizkenar ABC üçgeninin tepe köşesinden tabana bir dikme indirilmiştir (|AB| = |AC|). Bu dikme ile ilgili aşağı… | ✓Hem kenarortay hem açıortay görevi görür
+mat-uc-102 | M.8.3.1.5 | z1 | k1 | Şekildeki dik üçgenin dik kenarlarının uzunlukları 6 cm ve 8 cm'dir. Hipotenüsün uzunluğu kaç santimetredir? | ✓10
+mat-uc-103 | M.8.3.1.4 | z1 | k1 | Zeynep, aşağıdaki bilgilerden yalnızca birini kullanarak üçgen çizecektir. Hangi bilgi verilirse çizilen üçgenin ölçüleri tek tür… | ✓Kenarları 5 cm, 7 cm ve 9 cm olan üçgen
+mat-uc-104 | M.8.3.1.3 | z1 | k1 | Şekildeki ABC üçgeninin kenar uzunlukları |AB| = 6 cm, |BC| = 8 cm ve |CA| = 9 cm'dir. Bu üçgenin iç açılarının ölçüleri arasında… | ✓m(C) < m(A) < m(B)
+mat-uc-105 | M.8.3.1.2 | z1 | k1 | Kenar uzunlukları 5 cm, 8 cm ve x cm olan bir üçgen çizilecektir. x için aşağıdaki değerlerden hangisi uygundur? | ✓12
+mat-uc-106 | M.8.3.1.5 | z1 | k1 | Aşağıda kenar uzunlukları (cm) verilen üçgenlerden hangisi dik üçgendir? | ✓8, 15, 17
+mat-uc-107 | M.8.3.1.1 | z1 | k1 | Şekildeki ABC eşkenar üçgeninde [AD] yüksekliktir ve |BC| = 12 cm'dir. |BD| kaç santimetredir? | ✓6
+mat-uc-108 | M.8.3.1.5 | z1 | k1 | Boyu 5 m olan bir merdiven, dik bir duvara şekildeki gibi yaslanmıştır. Merdivenin alt ucu duvarın dibinden 3 m uzaktadır. Merdiv… | ✓4
+mat-uc-109 | M.8.3.1.2 | z1 | k1 | Bir üçgenin iki kenarının uzunluğu 4 cm ve 9 cm'dir. Üçüncü kenarın uzunluğu aşağıdakilerden hangisi olamaz? | ✓13
+mat-uc-110 | M.8.3.1.3 | z1 | k1 | ABC üçgeninde m(A) = 70°, m(B) = 50° ve m(C) = 60°'dir. Bu üçgenin kenar uzunlukları arasındaki sıralama aşağıdakilerden hangisid… | ✓|CA| < |AB| < |BC|
+mat-uc-111 | M.8.3.1.5 | z1 | k1 | Şekildeki dik üçgenin hipotenüsü 13 cm, bir dik kenarı 5 cm'dir. Diğer dik kenarın uzunluğu kaç santimetredir? | ✓12
+mat-uc-112 | M.8.3.1.5 | z1 | k1 | Bir dik üçgenin dik kenarlarının uzunlukları 9 cm ve 12 cm'dir. Bu üçgenin hipotenüsü kaç santimetredir? | ✓15
+mat-uc-113 | M.8.3.1.3 | z2 | k1 | ABC üçgeninde |AB| < |AC| ve m(B) = 70°'dir. m(C) aşağıdakilerden hangisi olabilir? | ✓50°
+mat-uc-114 | M.8.3.1.1 | z2 | k1 | Şekildeki ABC ikizkenar üçgeninde |AB| = |AC|, [AD] ⟂ [BC] ve m(BAD) = 35°'dir. m(ABC) kaç derecedir? | ✓55°
+mat-uc-115 | M.8.3.1.2 | z2 | k1 | Bir üçgenin iki kenarının uzunluğu 6 cm ve 11 cm'dir. Üçüncü kenarın uzunluğu santimetre cinsinden bir tam sayıdır. Bu üçgenin çe… | ✓33
+mat-uc-116 | M.8.3.1.4 | z2 | k1 | Üç kenarının uzunluğu |AB| = 5 cm, |BC| = 7 cm ve |CA| = 9 cm olan ABC üçgeni cetvel ve pergel ile çizilecektir. Önce 7 cm'lik [B… | ✓B merkezli 5 cm, C merkezli 9 cm yarıçaplı y…
+mat-uc-117 | M.8.3.1.5 | z2 | k1 | Dikdörtgen biçimli bir televizyon ekranının genişliği 48 cm, yüksekliği 36 cm'dir. Ekranın köşegeni kaç santimetredir? | ✓60
+mat-uc-118 | M.8.3.1.5 | z2 | k1 | Koordinat düzleminde A(1, 1) ve B(5, 4) noktaları işaretlenmiştir. A ile B noktaları arasındaki uzaklık kaç birimdir? | ✓5
+mat-uc-119 | M.8.3.1.3 | z2 | k1 | Bir ABC üçgeninde m(A) = 4x, m(B) = 3x ve m(C) = 2x'tir. Bu üçgenin en uzun kenarının karşısındaki açı kaç derecedir? | ✓80°
+mat-uc-120 | M.8.3.1.2 | z2 | k1 | Bir marangozun elinde 3 cm, 5 cm, 8 cm ve 9 cm uzunluğunda dört çıta vardır. Marangoz bu çıtalardan üçünü seçip uçlarını birleşti… | ✓2
+mat-uc-121 | M.8.3.1.5 | z2 | k1 | Üçgen biçimli bir arsanın kenar uzunlukları 20 m, 21 m ve 29 m'dir. Bu arsa için aşağıdakilerden hangisi doğrudur? | ✓Dik üçgendir; dik açı 29 m'lik kenarın karşı…
+mat-uc-122 | M.8.3.1.1 | z2 | k1 | Şekildeki ABC ikizkenar üçgeninde |AB| = |AC| = 13 cm, |BC| = 10 cm ve [AD] ⟂ [BC]'dir. |AD| kaç santimetredir? | ✓12
+mat-uc-123 | M.8.3.1.5 | z2 | k1 | Bir okulun girişine, yatayda 2 m yer kaplayan ve 1,5 m yüksekliğe ulaşan şekildeki rampa yapılacaktır. Rampanın yüzeyi kaç metre … | ✓2,5
+mat-uc-124 | M.8.3.1.2 | z2 | k1 | Kenarlarından ikisi 7 cm ve 12 cm olan bir üçgenin üçüncü kenarının uzunluğu santimetre cinsinden bir tam sayıdır. Üçüncü kenar k… | ✓13
+mat-uc-125 | M.8.3.1.5 | z2 | k1 | Şekildeki parkta Elif, A noktasından C noktasına önce [AB], sonra [BC] yolundan yürüyor. [AB] ⟂ [BC], |AB| = 40 m ve |BC| = 30 m'… | ✓20
+mat-uc-201 | M.8.3.1.2 | z2 | k2 | Okul atölyesinde çubuklarla üçgen yapılacaktır. Çubuk uzunlukları santimetre cinsinden verilmiştir. Aşağıdaki çubuk gruplarından … | ✓6, 6, 12
+mat-uc-202 | M.8.3.1.1 | z2 | k2 | Şekildeki ABC üçgeninde [BD], B açısının açıortayıdır (D, [AC] üzerinde). m(ABC) = 70° ve m(ACB) = 60°'dir. m(BDC) kaç derecedir? | ✓85°
+mat-uc-203 | M.8.3.1.5 | z2 | k2 | Koordinat düzleminde A(−3, −2) ve B(3, 6) noktaları veriliyor. A ile B noktaları arasındaki uzaklık kaç birimdir? | ✓10
+mat-uc-204 | M.8.3.1.3 | z2 | k2 | ABC üçgeninde |AB| < |AC|'dir. Bu bilgiye göre aşağıdakilerden hangisi kesinlikle doğrudur? | ✓m(B) > m(C)
+mat-uc-205 | M.8.3.1.4 | z2 | k2 | Teknik resim dersinde öğrencilere aşağıdaki ölçülerden biri verilip ABC üçgenini çizmeleri isteniyor. Hangi ölçülerle üçgen çizil… | ✓|AB| = 4 cm, |BC| = 5 cm, |CA| = 10 cm
+mat-uc-206 | M.8.3.1.2 | z2 | k2 | İkizkenar bir üçgenin kenar uzunluklarından ikisi 4 cm ve 9 cm'dir. Bu üçgenin çevresi kaç santimetredir? | ✓22
+mat-uc-207 | M.8.3.1.5 | z2 | k2 | Bir balıkçı teknesi, A limanından tam doğuya 36 km gidip B noktasında tam kuzeye dönüyor ve 15 km daha giderek C noktasına ulaşıy… | ✓39
+mat-uc-208 | M.8.3.1.1 | z2 | k2 | Şekildeki ABC üçgeninde [AD] kenarortaydır (D, [BC] üzerinde). |BD| = (3x − 1) cm ve |DC| = (x + 7) cm'dir. |BC| kaç santimetredi… | ✓22
+mat-uc-209 | M.8.3.1.5 | z2 | k2 | Dikdörtgen biçimli bir tarlanın kenar uzunlukları 15 m ve 8 m'dir. Tarlayı iki üçgene ayırmak için köşegen boyunca tel çekilecekt… | ✓204
+mat-uc-210 | M.8.3.1.3 | z2 | k2 | ABC üçgeninde m(A) = (2x + 10)°, m(B) = (3x)° ve m(C) = (x + 20)°'dir. Bu üçgenin kenar uzunlukları arasındaki sıralama aşağıdaki… | ✓|AB| < |BC| < |AC|
+mat-uc-211 | M.8.3.1.4 | z2 | k2 | Bir kenarı 6 cm olan ve bu kenara komşu iki açısı verilen bir üçgen çizilecektir. Komşu açıların ölçüleri aşağıdakilerden hangisi… | ✓40° ve 120°
+mat-uc-212 | M.8.3.1.5 | z2 | k2 | Elif, yerden 1,5 m yükseklikte tuttuğu makaradan 26 m ip çözerek uçurtma uçuruyor. İp gergin ve doğrusaldır. Uçurtmanın tam altın… | ✓25,5
+mat-uc-213 | M.8.3.1.5 | z2 | k2 | Kenar uzunluğu 12 m olan kare biçimli bir bahçenin karşılıklı iki köşesi arasında düz bir yürüyüş yolu yapılacaktır. Bu yolun uzu… | ✓12√{2}
+mat-uc-214 | M.8.3.1.2 | z3 | k2 | Çevresi 30 cm olan ve kenar uzunlukları tam sayı (cm) olan bir üçgen çizilecektir. Bu üçgenin en uzun kenarı en çok kaç santimetr… | ✓14
+mat-uc-215 | M.8.3.1.5 | z3 | k2 | Boyu 25 m olan bir itfaiye merdiveninin alt ucu, bir binanın duvar dibinden 7 m uzaktadır ve üst ucu duvara dayalıdır. Merdivenin… | ✓8
+mat-uc-216 | M.8.3.1.1 | z3 | k2 | Şekildeki ABC ikizkenar üçgeninde |AB| = |AC| ve [AD] ⟂ [BC]'dir. m(ABC) = (3x + 5)° ve m(DAC) = (2x − 10)°'dir. m(BAC) kaç derec… | ✓56°
+mat-uc-217 | M.8.3.1.5 | z3 | k2 | Düz bir meydanda 9 m ve 14 m yüksekliğinde iki dik direk, birbirinden 12 m uzaklıktadır. Direklerin tepeleri arasına düz bir ışık… | ✓13
+mat-uc-218 | M.8.3.1.3 | z3 | k2 | Şekilde D noktası [BC] üzerindedir. m(ABD) = 50°, m(BAD) = 60° ve m(DAC) = 40°'dir. |AB|, |AC| ve |AD| uzunluklarının sıralaması … | ✓|AD| < |AB| < |AC|
+mat-uc-219 | M.8.3.1.5 | z3 | k2 | Kenar uzunlukları 10 cm, 24 cm ve 26 cm olan üçgen biçimli bir kartonun alanını hesaplayacaksın. Bu kartonun alanı kaç santimetre… | ✓120
+mat-uc-220 | M.8.3.1.2 | z3 | k2 | Bir üçgenin kenar uzunlukları 7 cm, 12 cm ve (2x − 1) cm'dir. x bir tam sayıdır. x kaç farklı değer alabilir? | ✓6
+mat-uc-221 | M.8.3.1.5 | z3 | k2 | Kenar uzunlukları 20 cm, 20 cm ve 24 cm olan ikizkenar üçgen biçiminde bir bayrak yapılacaktır. Bayrağın alanı kaç santimetrekare… | ✓192
+mat-uc-222 | M.8.3.1.1 | z3 | k2 | Şekildeki ABC eşkenar üçgeninin çevresi 36 cm ve [AD] yüksekliktir. |AD| kaç santimetredir? | ✓6√{3}
+mat-uc-223 | M.8.3.1.4 | z3 | k2 | Bir tasarım atölyesinde Ali ve Ayşe, iç açıları 40°, 60° ve 80° olan üçgen biçimli birer etiket çizecektir. Ali'ye ek olarak 80°'… | ✓Ayşe'nin üçgeninde de en uzun kenar 80°'lik …
+mat-uc-224 | M.8.3.1.5 | z3 | k2 | Belediye, dikdörtgen biçimli bir havuzun çevresine bordür döşeyecektir. Havuzun uzun kenarı 24 m, köşegeni 25 m'dir. Bordürün 1 m… | ✓930
+mat-uc-225 | M.8.3.1.2 | z3 | k2 | Kenar uzunlukları tam sayı (cm) olan bir üçgenin iki kenarı 6 cm ve 10 cm'dir. Üçgenin çevresi 5'in tam katıdır. Bu koşulları sağ… | ✓2
+mat-uc-301 | M.8.3.1.5 | z3 | k3 | Bir itfaiye aracının 25 m uzunluğundaki merdiveni, dik bir bina duvarına dayanmıştır. Merdivenin alt ucu duvardan 7 m uzaktayken … | ✓8
+mat-uc-302 | M.8.3.1.2 | z3 | k3 | Kerem, uçurtma iskeleti yapmak için elindeki ince çıtaları üçerli paketlere ayırdı. Paketlerdeki çıtaların uzunlukları (cm) şöyle… | ✓30
+mat-uc-303 | M.8.3.1.3 | z3 | k3 | Bir şehir parkında üçgen biçimli çimlik alanın köşelerine A, B ve C direkleri dikilmiştir. Direkler arasındaki uzaklıklar şekilde… | ✓m(A) > m(B) > m(C)
+mat-uc-304 | M.8.3.1.1 | z3 | k3 | Elif, kenar uzunlukları 13 cm, 13 cm ve 10 cm olan ikizkenar üçgen biçiminde bir karton kesti. Tepe köşesi A ile taban kenarı BC'… | ✓12
+mat-uc-305 | M.8.3.1.5 | z3 | k3 | Bir televizyon ekranı dikdörtgen biçimlidir. Ekranın kısa kenarı 36 cm, köşegeni 60 cm'dir. Ekranın çevresine ve bir köşegeni boy… | ✓228
+mat-uc-306 | M.8.3.1.4 | z3 | k3 | Defne, cetvel, iletki ve pergelle farklı bilgilerle üçgen çizmeyi deniyor. Bazı bilgilerle çizim hiç yapılamıyor, bazılarıyla bir… | ✓Bir kenarı 6 cm; bu kenarın uçlarındaki açıl…
+mat-uc-307 | M.8.3.1.5 | z3 | k3 | Bir inşaat ustası, üçgen biçimli beton kalıpların kenar uzunluklarını (m) ölçmüştür: 1. kalıp: 6, 7, 10 2. kalıp: 8, 15, 17 3. ka… | ✓60
+mat-uc-308 | M.8.3.1.5 | z3 | k3 | Bir marangoz, kitap okuma sehpasının yan yüzünü dik üçgen biçiminde kesmiştir. Sehpanın tabanı 120 cm, arka dikey kenarı 90 cm'di… | ✓360
+mat-uc-309 | M.8.3.1.2 | z3 | k3 | Bir bahçıvan, üçgen biçimli bir çiçeklik yapacak. Çiçekliğin iki kenarını 6 m ve 11 m olarak ayarladı; üçüncü kenarın uzunluğu ta… | ✓5
+mat-uc-310 | M.8.3.1.3 | z3 | k3 | ABC üçgeni biçimli bir arsanın köşelerindeki iç açıların ölçüleri şekilde verilmiştir (x bir pozitif sayıdır). Buna göre arsanın … | ✓|AB| < |BC| < |AC|
+mat-uc-311 | M.8.3.1.1 | z3 | k3 | Kenar uzunluğu 12 cm olan eşkenar üçgen biçimli bir kâğıt, A köşesinden karşı kenarın orta noktası olan D noktasına doğru kesiler… | ✓18 + 6√{3}
+mat-uc-312 | M.8.3.1.5 | z3 | k3 | Mert evinden okula giderken önce doğuya doğru 40 m yürür, sonra kuzeye doğru 9 m yürür. Bugün evi okula doğrusal olarak bağlayan … | ✓8
+mat-uc-313 | M.8.3.1.5 | z3 | k3 | Aşağıdaki koordinat düzleminde bir drone, A noktasından B noktasına düz bir çizgi boyunca uçup aynı yoldan geri dönüyor. Eksenler… | ✓1000
+mat-uc-314 | M.8.3.1.2 | z3 | k3 | Belediye ekipleri, ikizkenar üçgen biçimli bir yön tabelasının kenarlarından ikisini ölçtü: 5 dm ve 11 dm. Ölçümü yapan kişi, bu … | ✓81
+mat-uc-315 | M.8.3.1.4 | z3 | k3 | Cem, pergel ve cetvelle bir üçgen çiziyor. Önce 10 cm uzunluğunda bir KL doğru parçası çiziyor. Sonra pergelini K merkezli 6 cm a… | ✓M köşesindeki açı dik açıdır.
+mat-uc-316 | M.8.3.1.5 | z4 | k3 | Üçgen biçimli bir yelken bezinin kenar uzunlukları 13 dm, 14 dm ve 15 dm'dir. Terzi, bezin alanını bulmak için A köşesinden 14 dm… | ✓84
+mat-uc-317 | M.8.3.1.2 | z4 | k3 | Bir üçgenin iki kenarının uzunluğu 8 cm ve 13 cm'dir. Üçüncü kenarın uzunluğu santimetre cinsinden bir tam sayıdır ve üçgenin çev… | ✓7
+mat-uc-320 | M.8.3.1.5 | z4 | k3 | Düz bir zeminde dik duran bir direğin D noktasındaki tepesinden, zemindeki A ve C noktalarına iki gergi halatı bağlanmıştır. Dire… | ✓21
+mat-uc-318 | M.8.3.1.5 | z4 | k3 | Bir kargo şirketinin kuryesi, aşağıdaki koordinat düzleminde gösterilen A noktasındaki depodan çıkıp sırasıyla B ve C noktalarınd… | ✓20
+mat-uc-319 | M.8.3.1.3 | z4 | k3 | ABC üçgeninde |AB| = 7 cm ve |BC| = 15 cm'dir. Üçgenin iç açıları için m(A) > m(B) > m(C) olduğu biliniyor. |AC| uzunluğu santime… | ✓6
+mat-uc-322 | M.8.3.1.5 | z4 | k3 | Aşağıdaki koordinat düzleminde ABC üçgeni biçimli bir bahçe gösterilmiştir. Eksenlerdeki her birim, gerçekte 10 metreyi göstermek… | ✓320
+mat-uc-321 | M.8.3.1.2 | z4 | k3 | Bir bahçıvan, ABCD dörtgen biçimli çiçek tarlasını iki üçgen parçaya ayırmak için A ile C köşeleri arasına tam sayı metre uzunluk… | ✓5
+mat-uc-324 | M.8.3.1.1 | z4 | k3 | ABC ikizkenar üçgeninde |AB| = |AC| = 10 cm ve |BC| = 12 cm'dir. A köşesinden BC kenarına inen yükseklik AD, B köşesinden AC kena… | ✓9,6
+mat-uc-323 | M.8.3.1.3 | z4 | k3 | ABC üçgeninde m(A) = 70° ve |AB| < |AC| < |BC| olduğu biliniyor. B açısının ölçüsü derece cinsinden bir tam sayıdır. Buna göre m(… | ✓14
+mat-uc-325 | M.8.3.1.2 | z4 | k3 | Kenar uzunlukları santimetre cinsinden x + 2, 2x − 1 ve 11 olan bir üçgen çizilecektir. Burada x bir tam sayıdır. Buna göre x kaç… | ✓10
+mat-uc-001 | M.8.3.1.1 | z1 | k0 | Bir ikizkenar üçgende tepe köşesinden tabana indirilen yükseklik için aşağıdakilerden hangisi söylenebilir? | ✓Tabanı iki eş parçaya böler; tepe açısını da…
+mat-uc-002 | M.8.3.1.5 | z1 | k0 | Dik kenarları 5 cm ve 12 cm olan bir dik üçgenin hipotenüsü kaç santimetredir? | ✓13
+mat-uc-003 | M.8.3.1.3 | z1 | k0 | Açılarının ölçüleri 35°, 50° ve 95° olan bir üçgende en uzun kenarın karşısındaki açı kaç derecedir? | ✓95
+mat-uc-004 | M.8.3.1.5 | z2 | k0 | Bir çadırın ön yüzünde dik duran direğe 5 m uzunluğunda gergin bir halat tutturulmuştur. Halatın öbür ucu, direğin dibinden 3 m u… | ✓4
+mat-uc-005 | M.8.3.1.2 | z2 | k0 | Bir üçgenin iki kenarının uzunluğu 4 cm ve 9 cm'dir. Üçüncü kenarın uzunluğu aşağıdakilerden hangisi olabilir? | ✓8
+mat-uc-006 | M.8.3.1.5 | z2 | k0 | Bir marangoz, masa köşesinin tam dik olup olmadığını denetliyor. Köşeden bir kenar boyunca 60 cm, diğer kenar boyunca 80 cm işare… | ✓100
+mat-uc-007 | M.8.3.1.1 | z2 | k0 | ABC ikizkenar üçgeninde |AB| = |AC| ve m(BAC) = 50°'dir. D noktası BC kenarının orta noktasıdır ve A ile D birleştirilmiştir. Bun… | ✓115
+mat-uc-008 | M.8.3.1.4 | z2 | k0 | Aşağıdaki bilgilerden hangisiyle bir üçgen çizilemez? | ✓Bir kenarı 6 cm; bu kenarın uçlarındaki açıl…
+mat-uc-009 | M.8.3.1.5 | z3 | k0 | Dikdörtgen biçimli bir bahçenin uzun kenarı 21 m, köşegeni 29 m'dir. Bahçenin çevresine iki sıra tel çekilecektir. Teller uç uca … | ✓164
+mat-uc-010 | M.8.3.1.2 | z3 | k0 | Bir terzi, kenarlarından ikisi 7 cm ve 10 cm olan üçgen biçimli bir kumaş parçasının çevresine biye çekecektir. Kumaşın üçüncü ke… | ✓21
+mat-uc-011 | M.8.3.1.3 | z3 | k0 | Bir okulun bayrağı ikizkenar üçgen biçimlidir. Bayrağın A köşesindeki tepe açısı 40°'dir ve |AB| = |AC|'dir. Bayrağın kenarlarınd… | ✓BC kenarı
+mat-uc-012 | M.8.3.1.4 | z3 | k0 | Ece, iki kenarı 6 cm ve 9 cm, bu kenarların arasındaki açı 50° olan bir üçgen çizecektir. Dört arkadaşı çizim adımlarını aşağıdak… | ✓Önce 6 cm'lik bir doğru parçası çizer; bir u…
+mat-uc-013 | M.8.3.1.5 | z4 | k0 | Üçgen biçimli bir arsanın A köşesinden, karşısındaki BC yoluna dik bir patika (AD) yapılmıştır; D noktası BC yolu üzerindedir. Ar… | ✓60
+mat-uc-014 | M.8.3.1.2 | z4 | k0 | Bir üçgenin iki kenarının uzunluğu 9 cm ve 15 cm'dir. Üçüncü kenarın uzunluğu santimetre cinsinden bir tam sayıdır ve üçgenin çev… | ✓3
+mat-uc-015 | M.8.3.1.5 | z4 | k0 | Aşağıdaki koordinat düzleminde bir kargo drone'u A noktasından kalkıp B noktası üzerinden C noktasına düz parçalar hâlinde uçuyor… | ✓46

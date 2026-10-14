@@ -47,5 +47,7 @@ window.LGS_HAP_LISTE = [
   "esitsizlikler.js",
   "adaptasyon.js",
   "soz-sanatlari.js",
-  "besin-zinciri.js"
+  "besin-zinciri.js",
+  "ucgenler.js",
+  "fotosentez-solunum.js"
 ];
