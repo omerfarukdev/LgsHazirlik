@@ -176,5 +176,7 @@ window.LGS_MANIFEST = [
   "mat-ucgenler-1.js",
   "mat-ucgenler-2.js",
   "fen-fotosentez-solunum-1.js",
-  "fen-fotosentez-solunum-2.js"
+  "fen-fotosentez-solunum-2.js",
+  "tur-paragrafta-anlam-61.js",
+  "tur-paragrafta-anlam-62.js"
 ];
