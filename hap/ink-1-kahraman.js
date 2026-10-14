@@ -53,7 +53,7 @@ window.LGS_HAP["ink-1-kahraman"] = {
         "**Mehmet Tevfik Bey** (Manastır'daki tarih öğretmeni): olayların **nedenini** arayan bir gözle tarihe bakmayı öğretti.",
         "**Ömer Naci** (okul arkadaşı): şiire ve etkili konuşmaya, yani hitabete ilgi duymasını sağladı.",
         "**Ali Fethi (Okyar)**: Fransızcasını ilerletmesinde ve Fransız düşünürlerini tanımasında etkili oldu.",
-        "Okudukları: **Namık Kemal** (vatan sevgisi, hürriyet), **Ziya Gökalp** ve **Mehmet Emin Yurdakul** (millet, dil ve kültür birliği), **J. J. Rousseau** ve öteki Fransız düşünürleri (halkın kendi kendini yönetmesi). Bu okumalar onu **millî egemenliğe ve tam bağımsızlığa** dayalı bir yönetim düşüncesine götürdü.",
+        "Okudukları: **Namık Kemal** (vatan sevgisi, hürriyet), **Ziya Gökalp** ve **Mehmet Emin Yurdakul** (millet, dil ve kültür birliği), **J. J. Rousseau** ve öteki Fransız düşünürleri (halkın kendi kendini yönetmesi; Montesquieu ise yasama, yürütme ve yargı güçlerinin ayrılmasını savundu). Bu okumalar onu **millî egemenliğe ve tam bağımsızlığa** dayalı bir yönetim düşüncesine götürdü.",
         "O yıllarda bu eserleri okumak hoş karşılanmıyor, kitaplar öğrenciler arasında gizlice dolaşıyordu.",
         "**Şam yılları (1905-1907):** Çöl köylerinde gördüğü yokluk ona, memleketin derdinin yalnızca düşman olmadığını gösterdi. Arkadaşlarıyla **Vatan ve Hürriyet Cemiyeti**'ni kurdu (1906); Selanik şubesini de açtı."
       ]
