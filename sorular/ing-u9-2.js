@@ -842,27 +842,28 @@ Cevap D.`
   kazanim: "E8.9.R1",
   kademe: 0,
   zorluk: 1,
-  soru: `My brother and his friends - - - - a science project nowadays.
+  soru: `Look! The two scientists - - - - the test tubes in the lab now.
 
 **Which one completes the sentence?**`,
   gorsel: null,
   secenekler: [
-    `are preparing`,
-    `prepared`,
-    `is preparing`,
-    `preparing`
+    `are checking`,
+    `checked`,
+    `is checking`,
+    `checking`
   ],
   dogru: 0,
   hatalar: [
     null,
-    `Zaman hatası: "prepared" geçmiş zamandır; "nowadays" (bu günlerde) şimdiki dönemi gösterir.`,
-    `Özne uyumu hatası: özne "My brother and his friends" çoğuldur; "is" tekil özne için kullanılır.`,
-    `Yardımcı fiil eksikliği: "preparing" tek başına eylemi şimdiki zamanda kuramaz; başına "am/is/are" gerekir.`
+    `Zaman hatası: "checked" geçmiş zamandır; "Look!" ve "now" (şimdi) eylemin şu anda sürdüğünü gösterir.`,
+    `Özne uyumu hatası: özne "The two scientists" çoğuldur; "is" tekil özne için kullanılır.`,
+    `Yardımcı fiil eksikliği: "checking" tek başına eylemi şimdiki zamanda kuramaz; başına "am/is/are" gerekir.`
   ],
-  aciklama: `"Nowadays, these days, currently" gibi sözcükler içinde bulunulan dönemde süren eylemi gösterir. Biçim: özne + am/is/are + eylem-ing.
-Adım 1: "Nowadays" şimdiki dönemi gösteriyor; geçmiş zaman elenir.
-Adım 2: Özne "My brother and his friends" birden fazla kişi; "are" gerekir.
-Adım 3: "are preparing".
+  aciklama: `"Look!, now, at the moment" gibi ifadeler şu anda süren eylemi gösterir. Biçim: özne + am/is/are + eylem-ing.
+Adım 1: "Look!" ve "now" şu anı gösteriyor; geçmiş zaman elenir.
+Adım 2: Özne "The two scientists" birden fazla kişi; "are" gerekir.
+Adım 3: "are checking" (kontrol ediyorlar).
+Sık yapılan hata: Yardımcı fiili unutup yalnızca -ing'li fiili yazmak.
 Cevap A.`
 },
 {

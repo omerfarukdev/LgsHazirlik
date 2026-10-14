@@ -1,0 +1,90 @@
+ing-u9-101 | E8.9.R1 | z1 | k1 | Children get this at the clinic. It protects them from dangerous diseases. What is it? | ✓vaccination
+ing-u9-102 | E8.9.R1 | z1 | k1 | Mina solved the hardest science problem in five minutes. Her teacher says, "Mina is a genius!" What does "genius" mean? | ✓a very clever person
+ing-u9-103 | E8.9.R1 | z1 | k1 | Eda is in the lab. She pours a blue liquid into a long glass tube. What is she using? | ✓a test tube
+ing-u9-104 | E8.9.L1 | z1 | k1 | Mr. Kaya: Wear your glasses and gloves! Do not run in the lab! What is Mr. Kaya talking about? | ✓safety
+ing-u9-105 | E8.9.SI1 | z1 | k1 | Mina: What are you doing in the lab now, Ahmet? Ahmet: - - - - Mina: Great! Can I watch? Which completes the dialogue? | ✓I am doing an experiment.
+ing-u9-106 | E8.9.R1 | z1 | k1 | Scientists are working hard to find a cure for this illness. What do they want to find? | ✓a medicine for the illness
+ing-u9-107 | E8.9.R1 | z1 | k1 | Plants, animals and people are made of very small parts. Each small part is called a - - - -. Which word completes the sentence? | ✓cell
+ing-u9-108 | E8.9.R1 | z1 | k1 | The scientists are - - - - the deep ocean. They want to learn about the animals there. Which word completes the sentence? | ✓exploring
+ing-u9-109 | E8.9.SP1 | z1 | k1 | My brother and his friends - - - - a science project nowadays. Which completes the sentence? | ✓are preparing
+ing-u9-110 | E8.9.SI1 | z1 | k1 | Ela: What kind of books are you reading these days? Bora: - - - - Which completes the dialogue? | ✓I am reading a science fiction novel.
+ing-u9-111 | E8.9.R1 | z1 | k1 | Read the notice on the lab door. What must students do after the experiment? | ✓wash their hands
+ing-u9-112 | E8.9.R1 | z1 | k1 | Archimedes invented the water screw. What did Archimedes do? | ✓He made a new machine.
+ing-u9-113 | E8.9.SI2 | z2 | k1 | Lale: Who discovered gravity? Kaan: - - - - Lale: Right! I know it from my science book. Which completes the dialogue? | ✓Isaac Newton did.
+ing-u9-114 | E8.9.R1 | z2 | k1 | Dear diary, Today we did an experiment in the lab. We put some salt into a glass of water. First, nothing happened. Then we could… | ✓It disappeared in the water.
+ing-u9-115 | E8.9.R1 | z2 | k1 | Zeynep sent this message to Ali. Why does Zeynep want Ali to come to the lab? | ✓To see what happened.
+ing-u9-116 | E8.9.R1 | z2 | k1 | Let's search the Internet to - - - - who invented the telephone. Which phrase completes the sentence? | ✓find out
+ing-u9-117 | E8.9.R1 | z2 | k1 | The balloon was too full, so it - - - - with a loud noise. Which word completes the sentence? | ✓exploded
+ing-u9-118 | E8.9.R1 | z2 | k1 | Dr. Aylin tried many times. Finally, she - - - - and her new medicine worked. Which word completes the sentence? | ✓succeeded
+ing-u9-119 | E8.9.R1 | z2 | k1 | This table shows the Science Club at 4.30 p.m. Which student is not in the lab? | ✓Tom
+ing-u9-120 | E8.9.SI2 | z2 | k1 | Pelin: Which invention is important for you? Murat: - - - - Which completes the dialogue? | ✓I think vaccination is important.
+ing-u9-121 | E8.9.R1 | z2 | k1 | Read the poster. Which information is not given in the poster? | ✓The name of the teacher
+ing-u9-122 | E8.9.R2 | z2 | k1 | Edward Jenner was a doctor. In 1796, he found a way to protect people from a dangerous illness called smallpox. His work was the … | ✓Jenner's work started vaccination.
+ing-u9-123 | E8.9.R1 | z2 | k1 | After the experiment, Ali wrote what he saw in his notebook. He wrote the - - - - of the experiment. Which word completes the sen… | ✓result
+ing-u9-124 | E8.9.R1 | z2 | k1 | Our school has a new high-tech lab. The computers, robots and smart screens there are very modern. What does "high-tech" mean? | ✓using very modern machines
+ing-u9-125 | E8.9.R1 | z2 | k1 | Last week, researchers - - - - some new fossils in the mountains. Now they are working on them in the labs. Which completes the s… | ✓found
+ing-u9-201 | E8.9.SI1 | z2 | k2 | Ali: Where is Sude? Cem: She is in the lab. - - - - Ali: Oh, I see. I will not disturb her now. Which completes the dialogue? | ✓She is doing a test now.
+ing-u9-202 | E8.9.R1 | z2 | k2 | NEWS: Scientists in Istanbul found a new cure for a common illness last year. Now doctors are using it in many hospitals. What ar… | ✓They are using the new cure.
+ing-u9-203 | E8.9.R1 | z2 | k2 | The lab camera shows what the students are doing right now. Which sentence is not true about the picture? | ✓Ada is writing the results.
+ing-u9-204 | E8.9.R1 | z2 | k2 | First, we put water in the tube. Second, we add salt. Third, we wait for ten minutes. Finally, we write the result in our noteboo… | ✓the steps of an experiment
+ing-u9-205 | E8.9.SI2 | z2 | k2 | Defne: Why are scientific achievements important? Onur: - - - - Which completes the dialogue? | ✓Because they change the world.
+ing-u9-206 | E8.9.R2 | z2 | k2 | Marie Curie was a famous scientist. She worked hard in a lab in Paris. She discovered two new substances, radium and polonium. Sh… | ✓She won the Nobel Prize two times.
+ing-u9-207 | E8.9.R1 | z2 | k2 | Ms. Arı sent this e-mail to Class 8B. What can students do at the museum? | ✓watch a robot show
+ing-u9-208 | E8.9.R2 | z2 | k2 | Class 8A answered a questionnaire: "Which science project are you preparing these days?" Which project are the fewest students pr… | ✓Vaccination poster
+ing-u9-209 | E8.9.SP1 | z2 | k2 | Newton discovered gravity in the seventeenth century, and now scientists - - - - the gravity of other planets. Which completes th… | ✓are exploring
+ing-u9-210 | E8.9.R2 | z2 | k2 | In 1903, Orville and Wilbur Wright made the first successful airplane flight. Their first flight was only 12 seconds long. Today,… | ✓The first flight lasted 12 seconds.
+ing-u9-211 | E8.9.R1 | z2 | k2 | Last year, our school had a small lab with old tools. This year, we have a high-tech lab with new computers. Now we are doing exp… | ✓The lab is more modern.
+ing-u9-212 | E8.9.SI1 | z2 | k2 | Emre: Did you do an experiment in the lab last week? Naz: - - - - Emre: What was the result? Which completes the dialogue? | ✓Yes, we did one on Friday.
+ing-u9-213 | E8.9.R2 | z2 | k2 | Students put sugar into three glasses of water and measured the time. Which result is true? | ✓Sugar disappeared fastest in hot water.
+ing-u9-214 | E8.9.R2 | z3 | k2 | Hi Tolga, This week my group is doing a project about vaccination. We are searching for information on the Internet and in the li… | ✓They are doing an experiment now.
+ing-u9-215 | E8.9.SI2 | z3 | k2 | Teacher: Why is safety important in a lab? Zeynep: - - - - Teacher: Exactly! That's why we wear glasses and gloves. Which complet… | ✓Because some experiments can be dangerous.
+ing-u9-216 | E8.9.SP2 | z3 | k2 | Look at the poster about scientific achievements. How many years passed between the first vaccination and the telephone? | ✓80 years
+ing-u9-217 | E8.9.R2 | z3 | k2 | Tuğçe: These days I'm making a water filter. Last week I tested sand in a big bottle. The water became cleaner, but it wasn't cle… | ✓Tuğçe tested sand last week.
+ing-u9-218 | E8.9.R2 | z3 | k2 | Dr. Ömer worked for ten years to find a cure for a rare illness. He did hundreds of experiments in his lab and failed many times,… | ✓Never giving up leads to success.
+ing-u9-219 | E8.9.R1 | z3 | k2 | Burak is 13 years old. He has no project idea. He wants to join the camp. What must he do? | ✓He must pay 50 TL.
+ing-u9-220 | E8.9.SI2 | z3 | k2 | Sinem: Some people say scientific achievements are good for the world. What do you think? Onur: - - - - Sinem: That's a good poin… | ✓I agree, because they protect all of us from…
+ing-u9-221 | E8.9.R2 | z3 | k2 | Our group did an experiment to find out if plants need light to grow. First, we put two identical plants in two boxes. We left on… | ✓Plants need light to grow well.
+ing-u9-222 | E8.9.R2 | z3 | k2 | Dr. Aslı researches cells in a high-tech lab in Ankara. Every morning she puts the cells under a special machine and writes the r… | ✓They are testing a new medicine.
+ing-u9-223 | E8.9.R1 | z3 | k2 | Kaan: Did you read the news about the new robot? Selin: Yes. Scientists in Japan invented it last month. Now they are testing it … | ✓Scientists are testing it in a hospital.
+ing-u9-224 | E8.9.R1 | z3 | k2 | Ms. Sevim sent this message to the class. How many safety rules are there in the message? | ✓Three
+ing-u9-225 | E8.9.SP1 | z3 | k2 | Dr. Mete: Last year, my team - - - - a new kind of cell. These days we - - - - how it works. Which pair completes the sentences? | ✓discovered / are finding out
+ing-u9-301 | E8.9.SI1 | z3 | k3 | Selin and Tom are talking about books. Selin: What kind of books are you reading these days, Tom? Tom: - - - - Selin: Oh, I love … | ✓Currently, I am reading a book about space t…
+ing-u9-302 | E8.9.R1 | z3 | k3 | Read the messages in the group chat. According to the chat, which one is NOT true? | ✓Mia is making the poster.
+ing-u9-303 | E8.9.R2 | z3 | k3 | Dr. Aksoy works in a lab. She puts a little water from the lake into a - - - - and looks at it carefully to find out if the water… | ✓test tube
+ing-u9-304 | E8.9.R2 | z3 | k3 | Read the text. Archimedes lived in Greece more than 2,000 years ago. In his time, farmers carried water from the river to their f… | ✓He wanted to make the farmers' work easier.
+ing-u9-305 | E8.9.SI2 | z3 | k3 | Ms. Kaya is asking a question in the science class. Ms. Kaya: Who discovered gravity, Ela? Ela: - - - - Ms. Kaya: Excellent! In t… | ✓It was Isaac Newton, an English scientist wh…
+ing-u9-306 | E8.9.R1 | z3 | k3 | Here is a sign on the wall of a school lab. Which student is following the lab rules? | ✓Ada is always wearing safety glasses in the …
+ing-u9-307 | E8.9.R1 | z3 | k3 | Read the sentences from a science magazine. Researchers - - - - some new fossils in a cave last summer. Now they - - - - the foss… | ✓found / are studying
+ing-u9-308 | E8.9.R1 | z3 | k3 | Here is a poster at Atlas Middle School. Ceyda wants to listen to a talk about vaccination. Where should she go? | ✓Room 5
+ing-u9-309 | E8.9.SI1 | z3 | k3 | Burcu's teacher is asking about her group's science project. Teacher: What is your group doing for the science project, Burcu? Bu… | ✓We are doing an experiment about how plants …
+ing-u9-310 | E8.9.R2 | z3 | k3 | Read the text. Aziz Sancar is a Turkish scientist. He was born in Savur, Mardin, and later he studied cells in labs in the USA. H… | ✓He is still working as a scientist today.
+ing-u9-311 | E8.9.R2 | z3 | k3 | Dr. Tan is a scientist. She worked in her lab for ten years. At first, the - - - - of her tests were not good. Finally, she found… | ✓results / cure
+ing-u9-312 | E8.9.R1 | z3 | k3 | Class 8-B answered the question "What kind of books are you reading these days?" The results are in the table. Which sentence is … | ✓Science fiction is the most popular kind of …
+ing-u9-313 | E8.9.R2 | z3 | k3 | Read the e-mail. Hi Grandpa, I am writing to you from the school lab. My friends and I are doing an experiment these days. We are… | ✓What beans need to grow.
+ing-u9-314 | E8.9.SI2 | z3 | k3 | Mert and Aylin are doing their homework about famous inventions. Mert: Who invented the printing press, the machine that prints b… | ✓Johannes Gutenberg invented it around 1450.
+ing-u9-315 | E8.9.R2 | z3 | k3 | Read the text. Last Friday, our group did an experiment in the lab. We put a balloon on a bottle with vinegar and baking soda. Th… | ✓It was a useful result and the group should …
+ing-u9-316 | E8.9.R2 | z4 | k3 | Hakan is preparing a poster about scientific achievements. The table shows some of the scientists. Hakan needs a scientist who di… | ✓Wilhelm Röntgen
+ing-u9-317 | E8.9.R1 | z4 | k3 | Here is a table about the Science Club of a school. Which sentence about the Science Club is true? | ✓They built a robot last year and are making …
+ing-u9-318 | E8.9.R2 | z4 | k3 | Zeynep and her friends did an experiment in the lab. These are the steps of the experiment, but they are not in the correct order… | ✓2 – 3 – 1 – 4 – 5
+ing-u9-319 | E8.9.R2 | z4 | k3 | Read the text. Galileo Galilei was an Italian scientist. In 1610, he looked at Jupiter with his telescope and discovered four of … | ✓Scientists are still exploring Jupiter's moo…
+ing-u9-320 | E8.9.SI2 | z4 | k3 | Elif and Can are discussing scientific achievements. Elif: I think the telephone is the most important invention because people c… | ✓I think vaccination is more important becaus…
+ing-u9-321 | E8.9.R1 | z4 | k3 | Aras and his team are testing four paper planes in the school garden. The chart shows how far each plane flew. Which sentence is … | ✓Plane 2 flew 3 meters farther than Plane 1.
+ing-u9-322 | E8.9.R2 | z4 | k3 | Read the text. Marie Curie was born in Poland in 1867. She moved to France to study science. In her lab in Paris, she discovered … | ✓She won her second Nobel Prize ten years aft…
+ing-u9-323 | E8.9.R1 | z4 | k3 | Ece and Barış are in a group chat. They are going to do an experiment together. Which one is true according to the chat? | ✓Barış put his glasses in his bag yesterday a…
+ing-u9-324 | E8.9.R1 | z4 | k3 | Nehir is 13. She wants to do experiments and make a robot at a science camp. She has 500 TL, and she cannot go to a camp before 1… | ✓Camp Nova
+ing-u9-325 | E8.9.SI2 | z4 | k3 | Match the people with the sentences. Which one is the correct matching? | ✓a – 4, b – 2, c – 1, d – 3
+ing-u9-001 | E8.9.R2 | z1 | k0 | Marie is only 14, but she solves difficult science problems very fast. Her teachers say she is a - - - -. Which word completes th… | ✓genius
+ing-u9-002 | E8.9.R2 | z1 | k0 | Doctors give children a - - - - to protect them from diseases. Which word completes the sentence? | ✓vaccination
+ing-u9-003 | E8.9.R1 | z1 | k0 | Look! The two scientists - - - - the test tubes in the lab now. Which one completes the sentence? | ✓are checking
+ing-u9-004 | E8.9.R1 | z2 | k0 | Alexander Fleming - - - - penicillin in 1928. Which one completes the sentence? | ✓discovered
+ing-u9-005 | E8.9.SI1 | z2 | k0 | Ali's mum is in the kitchen. Mum: What are you doing in the kitchen, Ali? Ali: - - - - Mum: Be careful! Don't touch the hot water… | ✓I am doing an experiment about boiling water.
+ing-u9-006 | E8.9.R1 | z2 | k0 | Here is the Saturday schedule of a science fair. Dilara arrives at 12:30. What is the first activity she can watch? | ✓Experiments for kids
+ing-u9-007 | E8.9.R2 | z2 | k0 | Mert measured the temperature of a cup of tea every five minutes and wrote the numbers in a table. The numbers are the - - - - of… | ✓result
+ing-u9-008 | E8.9.SI1 | z2 | k0 | Mr. Demir is checking the students' work. Mr. Demir: What did you do in the lab yesterday? Student: - - - - Mr. Demir: Good. Plea… | ✓We did an experiment with test tubes.
+ing-u9-009 | E8.9.R2 | z3 | k0 | Read the message. Hi Nil, I am at the science museum with my cousins. We are watching a film about the first aeroplane. The Wrigh… | ✓He is watching a film at a museum.
+ing-u9-010 | E8.9.R1 | z3 | k0 | Here is a timeline about space science. Which sentence is NOT true according to the timeline? | ✓Gagarin went to space after people walked on…
+ing-u9-011 | E8.9.R1 | z3 | k0 | Read the messages between Seda and Oğuz. Which one is true? | ✓Seda is doing research at the library now.
+ing-u9-012 | E8.9.R2 | z3 | k0 | Read the text. Scientists in many countries are working together these days. They are doing experiments in labs to find a cure fo… | ✓Scientists are still trying to find a cure.
+ing-u9-013 | E8.9.R1 | z4 | k0 | Here is the morning schedule of Dr. Elif in her lab. It is 10:30 now. Which sentence is true? | ✓She explained the safety rules and is doing …
+ing-u9-014 | E8.9.R2 | z4 | k0 | Read the text. Edward Jenner was an English doctor. In 1796, he made the first vaccination, against a disease called smallpox. At… | ✓Vaccinations protect people from dangerous d…
+ing-u9-015 | E8.9.R2 | z4 | k0 | Read the paragraph. One sentence is missing. In 1903, Wilbur and Orville Wright flew their aeroplane for 12 seconds. - - - - Toda… | ✓It was a short flight, but it showed that pe…

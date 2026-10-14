@@ -104,9 +104,9 @@ window.LGS_HAP["ing-8-chores"] = {
   ],
   yokla: [
     { soru: "\"I don't like it when ...\" kalıbı ne anlama gelir?", cevap: "\"... olunca hoşuma gitmez.\" Olumsuzluk **don't** ile verilir." },
-    { soru: "\"My uncle ___ wake up early for work.\" cümlesine must mı has to mu gelir? Boşluğa doğru yapıyı yaz.", cevap: "\"has to\" gelir (özne tek kişi: he). must da kullanılabilir ama arkasına to almaz; \"must to\" yanlıştır." },
+    { soru: "\"My uncle - - - - wake up early for work.\" cümlesine must mı has to mu gelir? Boşluğa doğru yapıyı yaz.", cevap: "\"has to\" gelir (özne tek kişi: he). must da kullanılabilir ama arkasına to almaz; \"must to\" yanlıştır." },
     { soru: "\"Who is in charge of ...?\" sorusuna hangi tür cevap verilir?", cevap: "Bir kişiyi sorumlu gösteren cevap: \"My brother is in charge of it.\" Yer ya da saat söylemek soruya uymaz." },
-    { soru: "\"in charge ___\" ve \"responsible ___\" boşluklarına hangi edatlar gelir? Arkalarından fiil nasıl yazılır?", cevap: "in charge **of**, responsible **for**. İkisinin de arkasından fiil -ing ile yazılır (in charge of taking out)." },
+    { soru: "\"in charge - - - -\" ve \"responsible - - - -\" boşluklarına hangi edatlar gelir? Arkalarından fiil nasıl yazılır?", cevap: "in charge **of**, responsible **for**. İkisinin de arkasından fiil -ing ile yazılır (in charge of taking out)." },
     { soru: "\"You don't have to come early.\" cümlesi ne anlatır?", cevap: "\"Erken gelmek zorunda değilsin, gerekmez.\" don't / doesn't have to zorunluluğun olmadığını gösterir." },
     { soru: "\"empty the dishwasher\" ile \"load the dishwasher\" arasındaki fark nedir?", cevap: "empty makineyi boşaltmak, load makineyi doldurmaktır. Birbirinin tersidir." }
   ]
