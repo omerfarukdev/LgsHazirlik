@@ -184,5 +184,7 @@ window.LGS_MANIFEST = [
   "fen-fotosentez-solunum-1.js",
   "fen-fotosentez-solunum-2.js",
   "tur-paragrafta-anlam-61.js",
-  "tur-paragrafta-anlam-62.js"
+  "tur-paragrafta-anlam-62.js",
+  "tur-paragrafta-anlam-63.js",
+  "tur-paragrafta-anlam-64.js"
 ];
