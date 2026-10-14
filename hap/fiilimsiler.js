@@ -63,7 +63,8 @@ window.LGS_HAP["fiilimsiler"] = {
         "**Zaman** bildirebilir: Eve **girer girmez** çantasını bıraktı. · Okula **başlayalı** iki hafta oldu. · Ödev **yazarken** müzik dinlemem.",
         "**Durum** bildirebilir: Haberi **gülerek** anlattı. · Merdivenleri **koşa koşa** çıktı. · Soruyu **okumadan** cevapladı.",
         "**Sıra** bildirebilir: Montunu **giyip** dışarı çıktı. (Önce giydi, sonra çıktı.)",
-        "**-dıkça** tekrarlanan ya da artan bir durumu anlatır: Kitap **okudukça** sözcük dağarcığım genişliyor."
+        "**-dıkça** tekrarlanan ya da artan bir durumu anlatır: Kitap **okudukça** sözcük dağarcığım genişliyor.",
+        "**Eş zamanlılık:** “-ken” ve “-arak” iki işin aynı anda sürdüğünü gösterebilir (Müzik **dinlerken** yazdı). “-ınca” ve “-ıp” ise çoğunlukla işlerin **art arda** olduğunu gösterir: önce biri biter, sonra öteki başlar."
       ],
       dikkat: [
         "Zarf-fiil her zaman “Nasıl?” sorusuna cevap vermez. **-ınca, -ken, -alı** ekli zarf-fiiller çoğunlukla “Ne zaman?” sorusuna cevap verir.",
@@ -82,6 +83,7 @@ window.LGS_HAP["fiilimsiler"] = {
       dikkat: [
         "Paragraftaki fiilimsileri **sayarken** en çok üç tür sözcük atlanır: “-ken” ekli zarf-fiiller (**çalışırken**), bir tamlamanın içinde saklanan isim-fiiller (“ödev **yapmanın** keyfi”) ve ek fiille yüklem olmuş isim-fiiller (“işimiz **beklemektir**”).",
         "**“-ki, -deki” bir fiilimsi eki değildir.** Ada gelir ve sıfat yapar: **bahçedeki** kuyu, **masadaki** defter. Sayarken bunları listene alma.",
+        "**Her ek almış sözcük fiilimsi değildir.** Addan türemiş sözcüklerin (**bağlı, güzellik**) kökünde iş yoktur; 1. adımdaki “kökte iş var mı?” sorusu bunları eler. Kökünde iş olsa bile kalıcı bir özellik ya da nesne adı olmuş sözcükler (**çalışkan, gezgin, dondurma**) o anda yapılan bir işi anlatmaz; bunlar da fiilimsi sayılmaz. Sor: “Bu sözcük cümlede bir iş anlatıyor mu, yoksa kalıcı bir ad ya da özellik mi?”",
         "Sayarken kip ve kişi eki almış fiilleri ekleme; her cümledeki yargı sözcüğünü baştan ele."
       ]
     }

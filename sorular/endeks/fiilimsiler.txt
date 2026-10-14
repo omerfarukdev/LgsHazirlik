@@ -85,3 +85,216 @@ tur-fi-322 | T.8.3.9 | z4 | k3 | Aşağıda aynı konuyu iki ayrı açıdan ele 
 tur-fi-323 | T.8.3.9 | z4 | k3 | Okulun çevre kulübü, sahil temizliği etkinliğinden bir fotoğrafı okul panosuna asacak ve altına tek cümlelik bir açıklama yazacak… | ✓Sahilde topladığımız çöpleri ayırmak iki saa…
 tur-fi-324 | T.8.3.9 | z4 | k3 | Bir grup üniversite öğrencisi, köy okullarına ikinci el bilgisayar ulaştıran bir topluluk kurmuş. Bağışlanan cihazları önce atöly… | ✓II. cümledeki fiilimsi, eylemin nasıl yapıld…
 tur-fi-325 | T.8.3.9 | z4 | k3 | Aynı ek, bir cümlede fiili çekimleyebilir, başka bir cümlede fiilimsi kurabilir. Belirleyici olan ekin kendisi değil, sözcüğün cü… | ✓Bahçe kapısı sabahtan beri açılmış. Rüzgârla…
+tur-fi-126 | T.8.3.9 | z1 | k1 | (I) Kapıyı çalan kişi içeri girdi. (II) Bu yaz denizde yüzmeyi öğrenmek istiyorum. (III) Yağmur dinince yola çıktık. (IV) Bu akşa… | ✓II
+tur-fi-127 | T.8.3.9 | z1 | k1 | (I) Sabah yürüyüşe çıkmak bana iyi geliyor. (II) Ders başlamadan sıramıza oturduk. (III) Dün akşam odayı süpürdüm. (IV) Yan sırad… | ✓IV
+tur-fi-128 | T.8.3.9 | z1 | k1 | (I) Çay demlenince bardakları masaya dizdim. (II) Yeni açılan market evimize çok yakın. (III) Ağır çanta taşımak omuzlarımı yoruy… | ✓I
+tur-fi-129 | T.8.3.9 | z1 | k1 | (I) Sınıfa giren öğretmeni ayakta karşıladık. (II) Bilmece çözmek en sevdiğim oyundur. (III) Servis her sabah okulun önünde bekle… | ✓III
+tur-fi-130 | T.8.3.9 | z1 | k1 | Sabahtan akşama çalışan ustalar akşam evlerine döndü. Altı çizili sözcüğün türü aşağıdakilerden hangisidir? | ✓sıfat-fiil
+tur-fi-131 | T.8.3.9 | z1 | k1 | Sabah koşusunda yeni parkurları keşfetmek çok keyifli. Altı çizili sözcüğün türü aşağıdakilerden hangisidir? | ✓isim-fiil
+tur-fi-132 | T.8.3.9 | z1 | k1 | Çorba soğumadan sofraya getirildi. Altı çizili sözcüğün türü aşağıdakilerden hangisidir? | ✓zarf-fiil
+tur-fi-133 | T.8.3.9 | z1 | k1 | Aşağıdaki tabloda dört cümle verilmiştir. Numaralanmış cümlelerin hangisinde iki fiilimsi vardır? | ✓II
+tur-fi-134 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük fiilimsi değildir? | ✓Mutfaktan kavurma kokusu geliyor.
+tur-fi-135 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük bir işin adını bildiren fiilimsidir? | ✓Fideler için çukuru derin kazma işini babam …
+tur-fi-136 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük bir fiilimsi değildir? | ✓Kardeşim yarın okul gezisine gidecek.
+tur-fi-137 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisindeki zarf-fiil, 'Ne zaman?' sorusuna cevap vermez? | ✓Çocuk annesine sarılarak uyudu.
+tur-fi-138 | T.8.3.9 | z1 | k1 | Sınavdan çıkınca kafede oturup sohbet ettik. Bu cümlede kaç tane fiilimsi vardır? | ✓2
+tur-fi-139 | T.8.3.9 | z1 | k1 | (I) Sabah erken kalkmak herkese zor gelir. (II) Eve gelince ellerini yıka. (III) Kapıyı kapatmayın, hava çok sıcak. (IV) Hiç ders… | ✓IV
+tur-fi-140 | T.8.3.9 | z1 | k1 | Dün izlediğim film çok etkileyiciydi. Altı çizili sözcüğün türü aşağıdakilerden hangisidir? | ✓sıfat-fiil
+tur-fi-141 | T.8.3.9 | z1 | k1 | Aşağıdaki tabloda bir konser hazırlığıyla ilgili dört cümle verilmiştir. Numaralanmış cümlelerin hangisinde bir adı niteleyen fii… | ✓III
+tur-fi-142 | T.8.3.9 | z1 | k1 | Aşağıdaki tabloda okul kantiniyle ilgili dört cümle verilmiştir. Numaralanmış cümlelerin hangisinde isim-fiil yoktur? | ✓II
+tur-fi-143 | T.8.3.9 | z1 | k1 | Akşamları kitap okumak kardeşimin hobisidir. Bu cümlede kaç tane fiilimsi vardır? | ✓1
+tur-fi-144 | T.8.3.9 | z1 | k1 | Aşağıdaki sözcüklerin hepsi "gezmek" fiilinden gelir. Bu sözcüklerden hangisi bir fiilimsi değildir? | ✓gezi
+tur-fi-145 | T.8.3.9 | z1 | k1 | Yağmur dinince bahçeye çıkıp çiçekleri sulamak istedim. Bu cümlede kaç tane fiilimsi vardır? | ✓3
+tur-fi-146 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük zarf-fiildir? | ✓Yaz tatili yaklaştıkça deniz hayalleri çoğal…
+tur-fi-147 | T.8.3.9 | z1 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük bir adı niteleyen fiilimsidir (sıfat-fiil)? | ✓Kurumuş yapraklar yerlere dökülmüştü.
+tur-fi-148 | T.8.3.9 | z1 | k1 | (I) Gitar çalarak şarkı söyledik. (II) Gitar çalmak bana büyük keyif verir. (III) Gitar çalan arkadaşım konsere gelecek. (IV) Git… | ✓IV
+tur-fi-149 | T.8.3.9 | z1 | k1 | Aşağıdaki tabloda bir otobüs durağındaki dört durum anlatılmıştır. Numaralanmış cümlelerin hangisinde hem sıfat-fiil hem zarf-fii… | ✓III
+tur-fi-150 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sıfat-fiil, nitelediği adın yerine geçmiştir? | ✓Yarışmayı kazananlar madalyalarını sahnede a…
+tur-fi-151 | T.8.3.9 | z2 | k1 | Bahçemizdeki yaşlı çınar, her sonbaharda yapraklarını döker. Dökülen yaprakları toplamak benim görevim. Rüzgâr esince yapraklar y… | ✓3
+tur-fi-152 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda Efe'nin sabahıyla ilgili dört cümle verilmiştir. Numaralanmış cümlelerin hangisindeki zarf-fiil, eylemin ne zam… | ✓IV
+tur-fi-153 | T.8.3.9 | z2 | k1 | Misafirler kapıyı çalar çalmaz annem mutfaktan koştu. Altı çizili söz cümleye aşağıdakilerden hangisini katmıştır? | ✓Eylemin ne zaman yapıldığını bildirir.
+tur-fi-154 | T.8.3.9 | z2 | k1 | (I) Müzik başlayınca dansçılar sahneye çıktı. (II) Sahnede dans eden çocuklar alkışlandı. (III) Dans etmeyi herkes sevdi. (IV) Mü… | ✓IV
+tur-fi-155 | T.8.3.9 | z2 | k1 | Köyümüzün kenarından akan dere, yaz aylarında küçülür. Kışın yağan kar, ilkbaharda eriyince dere yeniden coşar. Çocuklar kıyıda b… | ✓3
+tur-fi-156 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda yemekle ilgili dört cümle verilmiştir. Her cümlede bir sözcüğün altı çizilmiştir. Numaralanmış cümlelerin hangi… | ✓I
+tur-fi-157 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük sıfat-fiildir? | ✓Servis şoförü bize hep güler yüzle selam ver…
+tur-fi-158 | T.8.3.9 | z2 | k1 | Kentin yakınındaki görülesi bir şelaleyi gezdik. Altı çizili sözcüğün türü aşağıdakilerden hangisidir? | ✓sıfat-fiil
+tur-fi-159 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük bir zarf-fiil değildir? | ✓Sofrayı kurdum, radyoyu açtım.
+tur-fi-160 | T.8.3.9 | z2 | k1 | (I) Bizim işimiz soruları dikkatle okumaktır. (II) Biz soruları dikkatle okuduk. (III) Soruları dikkatle okuyan öğrenci süreyi iy… | ✓I
+tur-fi-161 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda bir otobüs yolculuğuyla ilgili dört cümle verilmiştir. Her cümlede bir sözcüğün altı çizilmiştir. Numaralanmış … | ✓II
+tur-fi-162 | T.8.3.9 | z2 | k1 | Kapıda bekleyen kuryeyi görünce hemen indim. Kutuyu açmak için sabırsızlandım, açarken heyecandan elim titredi. Bu parçadaki fiil… | ✓sıfat-fiil – zarf-fiil – isim-fiil – zarf-fi…
+tur-fi-163 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde iki fiilimsi de aynı türdendir? | ✓Yemeği bitirince bulaşıkları yıkayıp mutfakt…
+tur-fi-164 | T.8.3.9 | z2 | k1 | (I) Kıyıya vuran dalgaların getirdiği deniz kabukları parlıyordu. (II) Dalgaların vurmasını izleyerek sahilde yürüdük. (III) Kabu… | ✓I
+tur-fi-165 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda dört cümle verilmiştir. Cümlelerin her birinde bir fiilimsi vardır. Bu cümlelerin hangisindeki fiilimsi, diğerl… | ✓IV
+tur-fi-166 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük bir işin adını bildiren fiilimsidir? | ✓Kartalın yamaçtan süzülüşünü dürbünle izledi…
+tur-fi-167 | T.8.3.9 | z2 | k1 | Okul bahçesinde top oynamak ya da halat çekmek teneffüsün en güzel yanıdır. Zil çalınca herkes sınıfa koşar, oyun ise ertesi güne… | ✓2
+tur-fi-168 | T.8.3.9 | z2 | k1 | (I) Eve girmek için kapıyı çaldı. (II) Ayakkabılarını çıkarmak ona zor geldi. (III) Eve girince ayakkabılarını çıkarıp kapının ya… | ✓III
+tur-fi-169 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük 'Nasıl?' sorusuna cevap verir? | ✓Kardeşim çorbasını hiç konuşmadan içti.
+tur-fi-170 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda sınıf hazırlıklarıyla ilgili dört cümle verilmiştir. Numaralanmış cümlelerin hangisinde fiilimsi yoktur? | ✓IV
+tur-fi-171 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde birden fazla fiilimsi kullanılmıştır? | ✓Sınıfa girer girmez bizi gören müdür gülümse…
+tur-fi-172 | T.8.3.9 | z2 | k1 | (I) Elmaları toplarken dalların arasından bir kuş uçtu. (II) Sandıkları doldurup kamyona yükledik. (III) Bahçeden toplanan elmala… | ✓III
+tur-fi-173 | T.8.3.9 | z2 | k1 | Aşağıdaki tabloda parktaki sabah koşusuyla ilgili dört cümle verilmiştir. Her cümlede bir sözcüğün altı çizilmiştir. Numaralanmış… | ✓II
+tur-fi-174 | T.8.3.9 | z2 | k1 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük eylemin durumunu bildiren zarf-fiildir? | ✓Çocuklar yamaçtan yuvarlana yuvarlana indi.
+tur-fi-175 | T.8.3.9 | z2 | k1 | Kapıdaki zil çalınca yorganı atıp kapıya koştum. Gelen, bir kargo görevlisiydi. Elindeki paketi imzalamam için bana uzattı. Bu pa… | ✓4
+tur-fi-226 | T.8.3.9 | z2 | k2 | Bir arıcı, kovanlarını bu yıl dağın eteğindeki çam ormanına taşıdı. Bal mevsimi boyunca ormanda küçük bir çadırda kalıyor. Aşağıd… | ✓Çiçekten çiçeğe konan arılar bahçeyi uğultuy…
+tur-fi-227 | T.8.3.9 | z2 | k2 | Aşağıda gündelik hayattan dört cümle verilmiştir. Bu cümlelerin hangisinde zarf-fiil yoktur? | ✓Okuduğum kitap beni derinden etkiledi.
+tur-fi-228 | T.8.3.9 | z2 | k2 | Sahildeki yelken kursuna giden bir öğrenci, gezi notlarına dört cümle yazdı. Cümleler sırayla aşağıdadır. (I) Rüzgâr dinince yelk… | ✓III
+tur-fi-229 | T.8.3.9 | z2 | k2 | Aşağıda mutfak ve bahçeyle ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde isim-fiil yoktur? | ✓Pazardan aldığım karpuz buzdolabında soğuyor.
+tur-fi-230 | T.8.3.9 | z2 | k2 | Aşağıda okuma alışkanlığıyla ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde zarf-fiil vardır? | ✓Cümleyi okur okumaz gülmeye başladı.
+tur-fi-231 | T.8.3.9 | z2 | k2 | Aşağıda Arda'nın bir sabahını anlatan tek bir cümle verilmiştir. Merdivenleri koşarak çıkan Arda, kapıyı çalmadan içeri girdi. Bu… | ✓3
+tur-fi-232 | T.8.3.9 | z2 | k2 | Aşağıda bahçe ve bakımla ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde koyu yazılmış sözcük fiilimsi değildir? | ✓Annem bu sabah çiçekleri sulamış.
+tur-fi-233 | T.8.3.9 | z2 | k2 | Okul kütüphanesinde gönüllü olan öğrenciler, görev günlüğüne dört cümle yazdı. Cümlelerdeki altı çizili sözcükler tabloda gösteri… | ✓III
+tur-fi-234 | T.8.3.9 | z2 | k2 | Bir kamp gecesini anlatan dört cümle aşağıda verilmiştir. Bu cümlelerin hangisinde koyu yazılmış sözcük fiilden türemiş olsa da f… | ✓Kamp ateşini yakmak için çantamdan çakmak çı…
+tur-fi-235 | T.8.3.9 | z2 | k2 | Aşağıda sınıf, sahil ve sofradan dört cümle verilmiştir. Bu cümlelerin hangisinde tam iki fiilimsi vardır? | ✓Sahilde yürürken denizi seyretmeyi sevdim.
+tur-fi-236 | T.8.3.9 | z2 | k2 | Bir öğrenci, bir cümleyi inceleyip hakkında dört yargı yazdı. Cümle şudur: Bahçede oynayan çocukları izlerken eski günleri hatırl… | ✓'hatırladım' sözcüğü bir zarf-fiildir.
+tur-fi-237 | T.8.3.9 | z2 | k2 | Aşağıdaki seçeneklerde her cümlenin yanında, cümledeki fiilimsinin türü yazılmıştır. Buna göre, bu eşleştirmelerden hangisi doğru… | ✓Sınıfı toplarken şarkı mırıldandı. (zarf-fii…
+tur-fi-238 | T.8.3.9 | z2 | k2 | Aşağıda bir yüzme havuzuyla ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde işin adını bildiren bir fiilimsi (isim-fiil) … | ✓Bu yaz yüzmeyi öğrenmek istiyorum.
+tur-fi-239 | T.8.3.9 | z2 | k2 | Zarf-fiiller işlerin sırasını da bildirebilir: bir iş bitmeden ya da bittikten sonra ötekine geçilir. Aşağıda dört cümle verilmiş… | ✓Çantasını alıp kapıdan çıktı.
+tur-fi-240 | T.8.3.9 | z2 | k2 | Aşağıda ayakkabısını onarmaya çalışan birini anlatan tek bir cümle verilmiştir. Eskiyen ayakkabıları atmadan tabanını yapıştırdı.… | ✓2
+tur-fi-241 | T.8.3.9 | z2 | k2 | Aşağıda bir cümle verilmiştir. Dedem, bahçeyi sularken türkü mırıldanır. Bu cümledeki 'sularken' sözcüğü, aşağıdaki sorulardan ha… | ✓Ne zaman türkü mırıldanır?
+tur-fi-242 | T.8.3.9 | z2 | k2 | Bir öğrenci, dört cümledeki fiilimsi sayısını tablodaki gibi yazmıştır. Buna göre, öğrenci hangi cümlenin satırında fiilimsi sayı… | ✓II
+tur-fi-243 | T.8.3.9 | z2 | k2 | '-an' ile biten her sözcük sıfat-fiil değildir. Aşağıda dört cümle verilmiştir ve her birinde '-an' ile biten bir sözcük koyu yaz… | ✓Bayram sabahı meydan çocuklarla doldu.
+tur-fi-244 | T.8.3.9 | z2 | k2 | Zarf-fiillerden bazıları, bir durumun tekrarlandığını ya da giderek arttığını anlatır. Aşağıda dört cümle verilmiştir. Buna göre,… | ✓Kitap okudukça kelime dağarcığım genişliyor.
+tur-fi-245 | T.8.3.9 | z2 | k2 | Aşağıda bir dağ yürüyüşünü anlatan tek bir cümle verilmiştir. Dağ yolunda yürüyen gençler, tepede biriken bulutları gördü. Bu cüm… | ✓bulutları
+tur-fi-246 | T.8.3.9 | z2 | k2 | Bir öğrenci aşağıdaki cümleyi inceleyip üç yargı yazdı. Pazardan aldığımız taze ekmeği yiyerek eve döndük. I. Cümlede üç fiilimsi… | ✓Yalnız II
+tur-fi-247 | T.8.3.9 | z2 | k2 | Aşağıda dört cümle verilmiştir ve her birinde bir sözcük koyu yazılmıştır. Bu sözcüklerden hangisi bir işin adını bildiren fiilim… | ✓Yarın sabah erken kalkma zamanı geldi.
+tur-fi-248 | T.8.3.9 | z2 | k2 | Aşağıda bir cümle verilmiştir. Kitabı bitirince kapağını kapatıp rafa koydu. Buna göre, bu cümleyle ilgili aşağıdakilerden hangis… | ✓Cümledeki iki fiilimsi de zarf-fiildir.
+tur-fi-249 | T.8.3.9 | z2 | k2 | Bir pazar yerini anlatan aşağıdaki cümlede bir sözcük boş bırakılmıştır. Sabah pazarda - - - - taze sebzeler öğlene kadar tükendi… | ✓satılan
+tur-fi-250 | T.8.3.9 | z2 | k2 | '-ma' eki bazen işin adını, bazen olumsuz emri kurar. Aşağıda dört cümle verilmiştir. Bu cümlelerin hangisinde koyu yazılmış sözc… | ✓Bu çiçeği koparma, daha yeni açtı.
+tur-fi-251 | T.8.3.9 | z2 | k2 | Aşağıdaki cümlelerin her birinde koyu yazılmış bir sözcük vardır. Bu sözcüklerden hangisi bir adı niteleyen sıfat-fiildir? | ✓Dedem, bitmez bir sabırla bizi bekledi.
+tur-fi-252 | T.8.3.9 | z3 | k2 | Sekizinci sınıf öğrencileri, mahallelerindeki eski bir fırının tarihini araştırdı. Çalışmalarını bir sunumda toplayacaklar. Sunum… | ✓III
+tur-fi-253 | T.8.3.9 | z3 | k2 | Bir Türkçe öğretmeni, tahtaya şu kuralı yazdı: 'Zarf-fiil, çekimli fiilin anlamını zaman ya da durum yönünden tamamlar; tek başın… | ✓Pazar kurulurken satıcılar tezgâhlarını düze…
+tur-fi-254 | T.8.3.9 | z3 | k2 | Yüzme kursuna yetişmeye çalışan bir öğrenciyi anlatan cümle ve üç yargı aşağıdadır. Okuldan çıkıp kalabalık sokağı geçerek yüzme … | ✓II ve III
+tur-fi-255 | T.8.3.9 | z3 | k2 | Aşağıdaki parçada dört sözcüğün altı çizilmiş ve yanlarına numara verilmiştir. Kış bitince (I) kuşlar yuva yapmak (II) için ağaçl… | ✓II ve IV
+tur-fi-256 | T.8.3.9 | z3 | k2 | Okul bilgisayar laboratuvarında yazıcının nasıl kullanıldığını anlatan bir bilgi panosu hazırlandı. Panodaki dört cümle aşağıdaki… | ✓I
+tur-fi-257 | T.8.3.9 | z3 | k2 | Bir öğrenci, aşağıdaki cümleyi inceleyip üç yargı yazdı. Eve gelen misafirlere çay ikram etmek, annemin en eski alışkanlığıdır. I… | ✓Yalnız III
+tur-fi-258 | T.8.3.9 | z3 | k2 | Aşağıdaki parçada bir balıkçı kasabasında yaşayan Ali anlatılmaktadır. Sahildeki kasabada büyüyen Ali, her sabah teknesine binere… | ✓6
+tur-fi-259 | T.8.3.9 | z3 | k2 | Bir Türkçe öğretmeni, aynı sözcüğün iki ayrı cümlede farklı görevlerde kullanılabileceğini hatırlattı ve öğrencilerden böyle bir … | ✓Bu yıl şehre yeni bir müze açılacak. Açılaca…
+tur-fi-260 | T.8.3.9 | z3 | k2 | Bir öğrenci, dört cümledeki fiilimsileri türlerine göre sayıp tabloya yazmıştır. Buna göre, öğrenci hangi cümlenin satırını yanlı… | ✓II
+tur-fi-261 | T.8.3.9 | z3 | k2 | Bir doğa kulübü, kuş gözlem günü için bir broşür hazırladı. Broşürdeki dört cümle aşağıda verilmiştir. (I) Gözlem kulesine çıkmak… | ✓III
+tur-fi-262 | T.8.3.9 | z3 | k2 | Aşağıda dört cümle verilmiştir ve her birinde iki sözcük koyu yazılmıştır. Buna göre, hangi cümlede koyu yazılmış iki sözcüğün ik… | ✓Sabah erkenden kalkıp parkta yürümeyi alışka…
+tur-fi-263 | T.8.3.9 | z3 | k2 | '-mış, -miş' eki bazen cümleyi bitiren fiilde duyulan geçmiş zaman eki, bazen bir adı niteleyen sıfat-fiil eki olur. Aşağıda dört… | ✓Yağmurda ıslanmış çocuklar kapıda bekliyordu.
+tur-fi-264 | T.8.3.9 | z3 | k2 | Bir Türkçe öğretmeni, öğrencilerinden cümlelerdeki fiilimsi ve çekimli fiil sayılarını karşılaştırmalarını istedi. Aşağıda dört c… | ✓Bahçede oynayan çocukları izleyerek vakit ge…
+tur-fi-265 | T.8.3.9 | z3 | k2 | Bir öğrenci, '-ma, -me' eklerinin farklı görevlerde kullanıldığını fark etti ve bunu cümlelerle denemek istedi. Aşağıda onun yazd… | ✓Ayakkabılarını çıkarmadan salona girdi.
+tur-fi-266 | T.8.3.9 | z3 | k2 | Bir öğrenci, aşağıdaki cümleyi inceleyip üç yargı yazdı. Bahçeyi sulamak için hortumu bağlayan babam, çiçekleri koklayarak güldü.… | ✓I ve II
+tur-fi-267 | T.8.3.9 | z3 | k2 | Bir Türkçe öğretmeni tahtaya iki koşul yazdı: cümlede sıfat-fiil bulunmayacak, ama zarf-fiil bulunacak. Dört öğrenci birer cümle … | ✓Eve girer girmez çantasını yere bıraktı.
+tur-fi-268 | T.8.3.9 | z3 | k2 | Aşağıda sahilde geçen küçük bir olayı anlatan üç cümle verilmiştir. (I) Dalgaları izleyen çocuk, kumdan kale yapmayı çok seviyord… | ✓Üç cümlede toplam altı fiilimsi vardır.
+tur-fi-269 | T.8.3.9 | z3 | k2 | Aşağıdaki parça, bir koşu takımının hedefini anlatmaktadır. Takımımız kupayı kazanmak istiyor. Bunun için her gün çalışarak koşma… | ✓3
+tur-fi-270 | T.8.3.9 | z3 | k2 | Okullar arası bir turnuvada yaşanan dört olay aşağıdaki cümlelerle anlatılmıştır. Buna göre, bu cümlelerin hangisinde koyu yazılm… | ✓Turnuvanın en genç katılımcısı on iki yaşınd…
+tur-fi-271 | T.8.3.9 | z3 | k2 | Aşağıdaki parçada dört sözcüğün altı çizilmiş ve yanlarına numara verilmiştir. Sabah olunca (I) köy canlanır (II). Fırından yayıl… | ✓II
+tur-fi-272 | T.8.3.9 | z3 | k2 | Bir öğrenci, dört cümledeki altı çizili sözcükleri üç sınıftan birine yerleştirmiştir: çekimli fiil, fiilimsi, fiilimsi değil. Bu… | ✓IV
+tur-fi-273 | T.8.3.9 | z3 | k2 | Aşağıdaki parça, bir babanın akşam alışkanlığını anlatmaktadır. Akşamları balkonda oturup çay içmek, babamın vazgeçilmez alışkanl… | ✓4
+tur-fi-274 | T.8.3.9 | z3 | k2 | Bir sınıf, okul bahçesindeki yaşlı çınar ağacıyla ilgili anı defteri hazırlıyor. Defter için öğrencilerin yazdığı cümlelerden dör… | ✓Bu bahçedeki ağaçlara her yaz birlikte tırma…
+tur-fi-275 | T.8.3.9 | z3 | k2 | Bir dil bilgisi alıştırmasında şu koşul verilmiştir: 'Cümlede iki zarf-fiil bulunacak; bunlardan biri işin ne zaman, ötekisi nası… | ✓Ders bitince çantasını toplayarak sınıftan ç…
+tur-fi-326 | T.8.3.9 | z3 | k3 | Doğa yürüyüşü kulübünün gezi günlüğünden dört cümle numaralanmıştır. (I) Dağ yolunda yürüyen gruplar çeşme başındaki ilk durakta … | ✓III
+tur-fi-327 | T.8.3.9 | z3 | k3 | Okul turnuvasının duyurusundan alınan dört cümlede "-acak / -ecek" ekli birer sözcük vardır. (I) Pazartesi yapılacak yarışma için… | ✓I
+tur-fi-328 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde altı çizili bir sözcük vardır. Bu sözcüklerden hangisi bir fiilimsi değildir? | ✓Atölyenin yeni yazıcısı saatte yüz sayfa bas…
+tur-fi-329 | T.8.3.9 | z3 | k3 | Bir grup arkadaş hafta sonu nehir kıyısında balık tutmaya gitti. Gezinin anlatıldığı dört cümle numaralanmıştır. (I) Nehre varınc… | ✓II
+tur-fi-330 | T.8.3.9 | z3 | k3 | Bir okul korosunun yıl sonu konserinde yaşananlar dört cümleyle anlatılmıştır. (I) Konser salonuna girer girmez herkes sustu. (II… | ✓II
+tur-fi-331 | T.8.3.9 | z3 | k3 | I. Adadaki evimize bu vapurla giderdik. II. Hava kararınca lambalar yandı. III. Kaptan, düdüğü çalarak iskeleden ayrıldı. Yukarıd… | ✓II ve III
+tur-fi-332 | T.8.3.9 | z3 | k3 | Köydeki kuyucu ustasının anlattıklarından dört cümle aşağıda verilmiştir. Hepsinde "kaz-" fiilinden türemiş bir sözcük vardır. Bu… | ✓Kuyuyu kazmayı en iyi dedem bilir.
+tur-fi-333 | T.8.3.9 | z3 | k3 | Bir öğrenci defterine dört cümle yazmış ve her cümlede altı çizili sözcüğün türünü yanına not etmiştir. Notlar tabloda verilmişti… | ✓III
+tur-fi-334 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin hangisinde iki sıfat-fiil bir arada kullanılmıştır? | ✓Annemin pişirdiği, babamın çok sevdiği yemeğ…
+tur-fi-335 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde bir zarf-fiil kullanılmıştır. Bu cümlelerin hangisinde zarf-fiil, iki işin aynı anda yapıldığını… | ✓Babam, haberleri izlerken ekmek kızartıyordu.
+tur-fi-336 | T.8.3.9 | z3 | k3 | Sıfat-fiil, nitelediği ad cümleden düştüğünde o adın yerini tutabilir. Buna adlaşma denir. Aşağıdaki cümlelerin hangisinde sıfat-… | ✓Sınavı kazananlar törene davet edildi.
+tur-fi-337 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde "-mış / -miş" ekli bir sözcük vardır. Bu sözcüklerden hangisi, bir adı niteleyen fiilimsidir? | ✓Kırılmış camı usta hemen değiştirdi.
+tur-fi-338 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde altı çizili bir fiilimsi vardır. Bu fiilimsilerden hangisi, eylemin nasıl yapıldığını (durumunu)… | ✓Çocuk, annesine sarılarak ağladı.
+tur-fi-339 | T.8.3.9 | z3 | k3 | Aşağıda birbirinden bağımsız üç cümle verilmiştir. I. Sınıfı toplayan nöbetçi akşama kadar okulda kaldı. II. Sabah evden çıkmadan… | ✓Yalnız III
+tur-fi-340 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde yalnızca bir fiilimsi vardır. Bu cümlelerin hangisindeki fiilimsi, türce ötekilerden farklıdır? | ✓Eve dönmek için akşamı bekledik.
+tur-fi-341 | T.8.3.9 | z3 | k3 | Bir öğrencinin defterinden dört cümle numaralanmıştır. (I) Kuyruğunu sallayan köpek bana doğru yaklaştı. (II) Kitabı bitirince sa… | ✓III
+tur-fi-342 | T.8.3.9 | z3 | k3 | Yüzme kursuna giden bir öğrenci defterine şu cümleyi yazmıştır: “Her gün yüzdükçe omuzlarım biraz daha güçleniyor.” Bu cümledeki … | ✓Eylem tekrarlandıkça sonucun da arttığı anla…
+tur-fi-343 | T.8.3.9 | z3 | k3 | Bir kamp gezisini anlatan cümlede dört fiilimsinin altı çizilmiş ve numaralanmıştır: Nehre ulaşınca (I) ellerimizi yıkayıp (II) s… | ✓IV
+tur-fi-344 | T.8.3.9 | z3 | k3 | Bir öğrenci, tabloda verilen cümlelerdeki fiilimsilerin sayısını sağ sütuna yazmıştır. Öğrenci hangi cümlenin yanına fiilimsi say… | ✓II
+tur-fi-345 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde altı çizili bir sözcük vardır. Bu sözcüklerden hangisi, bir işin adını bildiren fiilimsidir? | ✓Kutuyu taşımayı bana bırak.
+tur-fi-346 | T.8.3.9 | z3 | k3 | Okul çıkışını anlatan iki cümlede boş bırakılan yerlere zarf-fiil getirilecektir. I. Çocuk, annesinin elini sıkıca - - - - karşıd… | ✓tutarak – çalınca
+tur-fi-347 | T.8.3.9 | z3 | k3 | I. “Konuklar akşam gelecek.” cümlesindeki “gelecek”, bir adı niteleyen sıfat-fiildir. II. “Tahtaya yazılan soruyu çözdüm.” cümles… | ✓Yalnız II
+tur-fi-348 | T.8.3.9 | z3 | k3 | Eve girince çantasını fırlatıp koşan kardeşime baktım. Bu cümledeki fiilimsilerin türleri sırasıyla aşağıdakilerden hangisinde do… | ✓Zarf-fiil, zarf-fiil, sıfat-fiil
+tur-fi-349 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde en az bir fiilimsi bulunmaktadır. Bu cümlelerin hangisinde, bir adı niteleyen fiilimsi olumsuz b… | ✓Yıllarca solmayan bir dostluk kurduk.
+tur-fi-350 | T.8.3.9 | z3 | k3 | Aşağıdaki cümlelerin her birinde altı çizili bir fiilimsi vardır. Bu fiilimsilerden hangisi zarf-fiil değildir? | ✓Mektubu getiren kuryeyi kapıda bekledim.
+tur-fi-351 | T.8.3.9 | z3 | k3 | Bazı cümlelerde fiilimsi, sonuna ek fiil getirilerek cümleyi bitirebilir; bu durumda da fiilimsi olmaktan çıkmaz. Aşağıdaki cümle… | ✓Kardeşimin en büyük tutkusu resim yapmaktır.
+tur-fi-352 | T.8.3.9 | z3 | k3 | Sabahları pazar yerine inen balıkçılar, tezgâhlarını kurmadan önce buzları dizer. Gelen müşteriler taze balığı seçerek sepete koy… | ✓5
+tur-fi-353 | T.8.3.9 | z3 | k3 | Bir okulun duyuru panosundan dört cümle numaralanmıştır. Her cümlede yalnızca bir fiilimsi vardır. (I) Hazırlanan listeyi görevli… | ✓III
+tur-fi-354 | T.8.3.9 | z3 | k3 | I. Takımımız bu hafta finale çıkacak. II. Çıkacak sonuçları herkes merakla bekliyor. III. Kalabalık meydandan çoktan dağılmış. Yu… | ✓I ve III
+tur-fi-355 | T.8.3.9 | z3 | k3 | Kapıyı hızla açarak içeri atıldı. Bu cümledeki fiilimsiyle aynı türde bir fiilimsi aşağıdaki cümlelerin hangisinde vardır? | ✓Kapıyı kilitleyip eve gittik.
+tur-fi-356 | T.8.3.9 | z4 | k3 | Bir mahalle sakini, eski sinemanın son gecesini şöyle anlatmıştır: (I) Mahallenin eski sinemasına bu akşam son kez gidiyoruz. (II… | ✓I ve II
+tur-fi-357 | T.8.3.9 | z4 | k3 | Bir yelken kulübüne yeni katılan üyenin anı defterinden dört cümle numaralanmıştır. (I) Yelkeni açmayı da kapatmayı da kaptandan … | ✓IV
+tur-fi-358 | T.8.3.9 | z4 | k3 | Bir müze gezisini anlatan dört cümle verilmiştir. Her cümlede bir zarf-fiil altı çizilmiştir. (I) Rehber, sorularımıza gülümseyer… | ✓I
+tur-fi-359 | T.8.3.9 | z4 | k3 | Bir öğrenci, tabloda verilen cümlelerdeki fiilimsileri bulmaya çalışıyor. Buna göre hangi cümlede tam iki fiilimsi vardır? | ✓III
+tur-fi-360 | T.8.3.9 | z4 | k3 | Köy okuluna açılan kütüphaneyi anlatan dört cümle numaralanmıştır. (I) Köy okulunda kitap okumayı seven çocukların sayısı her yıl… | ✓III
+tur-fi-361 | T.8.3.9 | z4 | k3 | (1) Kasabadaki eski fırın, her sabah ekmek pişirmeye gün doğmadan başlar. (2) Hamuru yoğuran usta, yorgunluğu hiç belli etmez. (3… | ✓I ve II
+tur-fi-362 | T.8.3.9 | z4 | k3 | Bir gökbilim kampının duyurusunda şu cümleler yer almaktadır: (I) Kampa katılacak öğrenciler yarın sabah okulda toplanacak. (II) … | ✓5
+tur-fi-363 | T.8.3.9 | z4 | k3 | Aşağıdaki cümlelerin hangisinde isim-fiil, sıfat-fiil ve zarf-fiil türlerinin üçünden de en az birer örnek bulunmaktadır? | ✓Kitapları okuyup bitirmeyi hedefleyen öğrenc…
+tur-fi-364 | T.8.3.9 | z4 | k3 | Tren kalkar kalkmaz çocuk, ıslık çalarak koridorda dolaştı; yolcular ise çocuk gözden kaybolunca gülümsedi. Bu cümledeki altı çiz… | ✓Zaman – durum – zaman
+tur-fi-365 | T.8.3.9 | z4 | k3 | Esra, tahtaya şu cümleyi yazdı: Okuldan dönerken yolda bulduğum kediyi beslemeyi düşünüyorum. Sınıftan dört öğrenci bu cümle hakk… | ✓Bora
+tur-fi-366 | T.8.3.9 | z4 | k3 | Aşağıdaki cümlelerin her birinde altı çizili bir sözcük vardır. Bu sözcüklerden hangisi, fiilden türediği hâlde fiilimsi değildir? | ✓Hayvanlara duyduğu sevgi onu veteriner olmay…
+tur-fi-367 | T.8.3.9 | z4 | k3 | Aşağıdaki cümlelerin hangisinde fiilimsi sayısı ötekilerden fazladır? | ✓Yazmayı sevmeyen bir öğrenci, ödevini bitiri…
+tur-fi-368 | T.8.3.9 | z4 | k3 | Bir fiilimsi olumsuzluk eki alarak da kullanılabilir. Aşağıdaki cümlelerin hangisinde olumsuz biçimli bir isim-fiil ile olumlu bi… | ✓Haberi duyunca sevinmemek elde değildi.
+tur-fi-369 | T.8.3.9 | z4 | k3 | I. Kışlık giysi kutusunu tavan arasına taşıdık. II. Annem akşam yemeğine dolma yaptı. III. Okulumuzun gezi planı belli oldu. Yuka… | ✓I, II ve III
+tur-fi-370 | T.8.3.9 | z4 | k3 | Bir öğrenci, cümlelerdeki altı çizili sözcüklerle ilgili yargılarını tabloya yazmıştır. Öğrenci hangi cümle için yanlış bir yargı… | ✓II
+tur-fi-371 | T.8.3.9 | z4 | k3 | Dalgın dalgın yürüyen yolcu, tabelayı göremeyince yanındakine sormayı düşündü. Bu cümledeki altı çizili fiilimsilerin türleri sır… | ✓Sıfat-fiil – zarf-fiil – isim-fiil
+tur-fi-372 | T.8.3.9 | z4 | k3 | Bir kano kulübünün sabah programı numaralanmış cümlelerle anlatılmıştır. (I) Kıyıdaki kulübenin önünde yirmi kano sıralanmıştı. (… | ✓I
+tur-fi-373 | T.8.3.9 | z4 | k3 | Planetaryuma girince kubbede parlayan yıldızlar beni büyüledi. Rehber, ışığı kısarak gezegenleri tek tek tanıttı. Yıldızların yer… | ✓Zarf-fiil
+tur-fi-374 | T.8.3.9 | z4 | k3 | Aşağıdaki cümle çiftlerinin hangisinde altı çizili sözcük, birinde çekimli fiil, ötekinde fiilimsi olarak kullanılmıştır? | ✓Film az sonra başlayacak. / Başlayacak filmi…
+tur-fi-375 | T.8.3.9 | z4 | k3 | (1) Dedem, bahçeye fide dikmeyi çok sever. (2) Gün batarken bahçe kapısını kilitler ve eve döner. (3) Kurumuş dalları budamak ona… | ✓5
+tur-fi-013 | T.8.3.9 | z1 | k0 | Bir balıkçının defterinden dört cümle verilmiştir. (I) Balıkçı, sabah erken kalkmayı alışkanlık hâline getirmiş. (II) Ağdaki balı… | ✓I
+tur-fi-014 | T.8.3.9 | z1 | k0 | Akşamüstü yağan sağanak pazar yerini boşalttı. Bu cümledeki fiilimsi hangi türdendir? | ✓Sıfat-fiil
+tur-fi-015 | T.8.3.9 | z1 | k0 | Bir hastane gönüllüsünün günlüğünden dört cümle verilmiştir. (I) Gönüllüler servis arabasının yanında bekliyordu. (II) Koridorda … | ✓III
+tur-fi-016 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde fiilimsi yoktur? | ✓Yolda arabamız bozuldu, yardım çağırdık.
+tur-fi-017 | T.8.3.9 | z1 | k0 | Çarşambadan beri süren yağmur sonunda dindi. Altı çizili sözcük cümlede hangi görevi üstlenmiştir? | ✓Bir adı niteler.
+tur-fi-018 | T.8.3.9 | z1 | k0 | Bir ailenin pazar kahvaltısıyla ilgili dört cümle verilmiştir. (I) Sofrayı kurarken annem bana seslendi. (II) Pazar kahvaltısında… | ✓II
+tur-fi-019 | T.8.3.9 | z1 | k0 | Müzik öğretmeni parçayı bir kez dinleyince notaları ezbere çaldı. Altı çizili fiilimsi, çekimli fiili hangi yönden niteler? | ✓Zamanını (Ne zaman?)
+tur-fi-020 | T.8.3.9 | z1 | k0 | Bir öğrencinin fotoğraf kulübü günlüğünden dört cümle verilmiştir. (I) Fotoğraf çekmek ilk günden hoşuma gitti. (II) Kameranın pi… | ✓I
+tur-fi-021 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde fiilimsi, işin ne zaman yapıldığını bildirir? | ✓Hava kararınca sokak lambaları yandı.
+tur-fi-022 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcük fiilimsi değildir? | ✓Çiftçi toprağı kazma ile havalandırdı.
+tur-fi-023 | T.8.3.9 | z1 | k0 | Bir meyve toplama gününü anlatan dört cümle aşağıdaki tabloda verilmiştir. Numaralanmış cümlelerin hangisinde sıfat-fiil vardır? | ✓I
+tur-fi-024 | T.8.3.9 | z1 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcük çekimli fiildir? | ✓Elif yarın kulübe yeni bir üye getirecek.
+tur-fi-025 | T.8.3.9 | z2 | k0 | Satranç kulübü üyelerinin turnuva notlarından dört cümle verilmiştir. (I) Rakibim vezirini çekince oyun birdenbire değişti. (II) … | ✓II
+tur-fi-026 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisindeki fiilimsi, işin nasıl yapıldığını bildirir? | ✓Torunum şarkı mırıldanarak sofrayı kurdu.
+tur-fi-027 | T.8.3.9 | z2 | k0 | Sabah dağ yoluna çıkınca hava hâlâ serindi. Yürürken çevremizdeki çam kokusunu içimize çektik. Zirveye ulaşmak için dar bir patik… | ✓4
+tur-fi-028 | T.8.3.9 | z2 | k0 | Geceyi mağarada geçiren bir izci grubunun notlarından dört cümle verilmiştir. (I) Lambayı kapatmak için ayağa kalktım. (II) Uyuya… | ✓III
+tur-fi-029 | T.8.3.9 | z2 | k0 | Sıfat-fiiller, nitelediği ad cümleden düşünce o adın yerine geçebilir. Buna göre, aşağıdaki cümlelerin hangisinde sıfat-fiil, bir… | ✓Salona sonradan gelenler ayakta bekledi.
+tur-fi-030 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcük bir fiilimsidir? | ✓Müzede görülecek çok eser var.
+tur-fi-031 | T.8.3.9 | z2 | k0 | Bir ailenin havaalanı yolculuğuyla ilgili dört cümle verilmiştir. (I) Havaalanına yaklaşan taksi birden durdu. (II) Bavulları taş… | ✓III
+tur-fi-032 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisinde "-ken" eki, bir fiil kökünden gelen sözcüğe eklenerek zarf-fiil yapmıştır? | ✓Çay içerken eski fotoğraflara baktık.
+tur-fi-033 | T.8.3.9 | z2 | k0 | Aşağıdaki tabloda orman gezisiyle ilgili dört cümle verilmiştir. Cümlelerin her birinde bir fiilimsi vardır. Buna göre, hangi iki… | ✓I ve III
+tur-fi-034 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcük fiilimsi değildir? | ✓Okulun yeni yazıcısı koridora kuruldu.
+tur-fi-035 | T.8.3.9 | z2 | k0 | Fotoğraf çekmek benim için bir tutkudur. Kamerayı elime almadan önce ışığı gözlerim. Bazen saatlerce beklemeyi göze alırım. Doğru… | ✓2
+tur-fi-036 | T.8.3.9 | z2 | k0 | · Kedi pencerenin pervazında oturuyor. · Kedi sokağı seyrediyor. Bu iki cümle anlamı korunarak birleştirilirse, aşağıdakilerin ha… | ✓Pencerenin pervazında oturan kedi sokağı sey…
+tur-fi-037 | T.8.3.9 | z2 | k0 | Bir sınıfın yazı defterinden dört cümle verilmiştir. (I) Bu kapı soğukta bir türlü açılmaz. (II) Kuşlar sabaha kadar susmaz. (III… | ✓IV
+tur-fi-038 | T.8.3.9 | z2 | k0 | Yağmur yağınca pencereyi kapattım. I. "Yağınca" sözcüğü çekimli bir fiildir. II. "Yağınca" sözcüğü işin ne zaman yapıldığını bild… | ✓Yalnız II
+tur-fi-039 | T.8.3.9 | z2 | k0 | Aşağıdaki tabloda bir öğrenci, fiilimsi türlerini cümlelerle eşleştirmiştir. Buna göre tablonun hangi satırındaki eşleştirme doğr… | ✓II
+tur-fi-040 | T.8.3.9 | z2 | k0 | Akşam olunca köy meydanı canlanır. Çocuklar şarkı söyleyerek oyun alanına gider. Büyükler çay içerek haberleri konuşur. Hava kara… | ✓4
+tur-fi-041 | T.8.3.9 | z2 | k0 | Bayram sabahıyla ilgili dört cümle verilmiştir. (I) Mahallenin çocukları uçarcasına okul bahçesine koştu. (II) Bayram namazına gi… | ✓I
+tur-fi-042 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisinde sıfat-fiil kullanılmamıştır? | ✓Rehber anlatırken biz bütün salonu dolaştık.
+tur-fi-043 | T.8.3.9 | z2 | k0 | Aşağıdaki cümlelerin hangisinde fiilimsi, ad gibi bir çekim eki (hâl ya da iyelik eki) almıştır? | ✓Sınavdan önce biraz dinlenmeyi tercih ettim.
+tur-fi-044 | T.8.3.9 | z2 | k0 | (I) Kardeşim koltukta uyumuş. (II) Havuzun suyu geceden donmuş. (III) Misafirler akşam trenine binmiş. (IV) Uyumuş çocuğu usulca … | ✓IV
+tur-fi-045 | T.8.3.9 | z2 | k0 | Sirenin sesini duyar duymaz herkes toplanma alanına koştu. Altı çizili fiilimsi cümleye aşağıdaki anlamlardan hangisini katmıştır? | ✓İşin hemen ardından başka bir işin yapıldığı…
+tur-fi-046 | T.8.3.9 | z3 | k0 | Dağcılık kulübünün hafta sonu yürüyüşüyle ilgili duyurusundan dört cümle verilmiştir. (I) Kulübün gezisi cumartesi sabahı başlaya… | ✓I
+tur-fi-047 | T.8.3.9 | z3 | k0 | Bir yangın söndürme eğitiminde dağıtılan broşürden dört cümle aşağıdaki tabloda verilmiştir. Cümlelerin her birinde bir fiilimsi … | ✓III
+tur-fi-048 | T.8.3.9 | z3 | k0 | Ahmet Usta, mahallemizde kırk yıldır saat tamir ediyor. Dükkânına giren her müşteriyi içtenlikle karşılar. Bozulan bir saati açma… | ✓6
+tur-fi-049 | T.8.3.9 | z3 | k0 | Bir öğrenci, yazacağı cümle için iki koşul belirlemiştir: · Cümlede bir zarf-fiil bulunacak. · Cümlede bir isim-fiil bulunacak. B… | ✓Sınavı bitirince kitap okumak istedim.
+tur-fi-050 | T.8.3.9 | z3 | k0 | Bir spor şenliğiyle ilgili dört cümle verilmiştir. (I) Sahaya çıkanlar ısınarak maça hazırlandı. (II) Sahaya çıkan oyuncular ısın… | ✓I
+tur-fi-051 | T.8.3.9 | z3 | k0 | Okuduğum kitabı bitirince arkadaşıma verdim. I. "Okuduğum" sözcüğü bir işin adını bildirir. II. "Bitirince" sözcüğü bir adı nitel… | ✓Yalnız III
+tur-fi-052 | T.8.3.9 | z3 | k0 | Aşağıdaki cümlelerin hangisinde "-r" ile biten sözcük bir fiilimsidir? | ✓Akar suyun başında yaşlı bir çınar dururdu.
+tur-fi-053 | T.8.3.9 | z3 | k0 | Bir öğrenci, aşağıdaki cümledeki sözcükleri türlerine göre sayarak tablo hazırlamıştır: Sınıfa giren öğretmen, tahtaya yazılan so… | ✓İsim-fiil
+tur-fi-054 | T.8.3.9 | z3 | k0 | Pazara giderken aldığımız meyveleri yıkamayı unuttum. Bu cümledeki fiilimsilerin türleri, geçiş sırasına göre aşağıdakilerin hang… | ✓Zarf-fiil – sıfat-fiil – isim-fiil
+tur-fi-055 | T.8.3.9 | z3 | k0 | Bir sınıfın yıl sonu gezisiyle ilgili duyuru panosundan dört cümle verilmiştir. (I) Servise binmeden önce yoklama yapılacak. (II)… | ✓II
+tur-fi-056 | T.8.3.9 | z3 | k0 | Kutup ayılarıyla ilgili bir bilgi yazısından dört cümle aşağıda verilmiştir. (I) Kutup ayıları buzulların üzerinde yürüyerek uzun… | ✓III
+tur-fi-057 | T.8.3.9 | z3 | k0 | Bir yüzme okulunun ilk ders anlatımından dört cümle aşağıda verilmiştir. (I) Havuz dersinin ilk gününde eğitmen kuralları anlatır… | ✓II
+tur-fi-058 | T.8.3.9 | z3 | k0 | Aşağıdaki cümlelerin hangisindeki altı çizili fiilimsi, diğerlerinden farklı bir anlam katmıştır? | ✓Küçük kız dondurmasını yalayarak ilerledi.
+tur-fi-059 | T.8.3.9 | z3 | k0 | Annesinin pişirdiği çorbayı içerken televizyon izledi. I. Cümlede üç fiilimsi vardır. II. "İçerken" sözcüğü işin zamanını bildiri… | ✓II ve III
+tur-fi-060 | T.8.3.9 | z3 | k0 | Bir restoran mutfağıyla ilgili dört cümle verilmiştir. Cümlelerin her birinde iki fiilimsi vardır. (I) Şef, çorbayı tadına bakara… | ✓IV
+tur-fi-061 | T.8.3.9 | z3 | k0 | (I) Hedefimiz bu sene yüz kitap okumaktır. (II) Kitapları rafa dizmeden önce ellerimi yıkadım. (III) Raftaki en kalın kitap gözüm… | ✓2
+tur-fi-062 | T.8.3.9 | z3 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcük fiilimsi değildir? | ✓Çocukken bu parkta oynardık.
+tur-fi-063 | T.8.3.9 | z4 | k0 | Okul panosuna asılacak bir cümle için üç koşul belirlenmiştir: · Cümlede toplam üç fiilimsi bulunacak. · Bu fiilimsilerden ikisi … | ✓Pencereyi açıp dışarı bakınca eve gelen misa…
+tur-fi-064 | T.8.3.9 | z4 | k0 | Eski bir çarşıdaki bakırcılar sokağını anlatan yazıdan dört cümle verilmiştir. (I) Eski çarşıda gezerken bakırcı dükkânlarının ön… | ✓III
+tur-fi-065 | T.8.3.9 | z4 | k0 | Bahçemizdeki yaşlı kirazın dalları, rüzgâr esince hafifçe sallanır. Ağaca tırmanmak, çocukluğumun en güzel oyunuydu. Dedem bizi u… | ✓2
+tur-fi-066 | T.8.3.9 | z4 | k0 | Bir öğrenci, deneme sınavında çıkan cümleler üzerine çalışıyor. Çalıştığı dört cümle aşağıda verilmiştir. (I) Hiç dinlenmeyip çal… | ✓II
+tur-fi-067 | T.8.3.9 | z4 | k0 | Bir öğrencinin seramik atölyesi gezisini anlatan yazısından dört cümle aşağıda verilmiştir. (I) Usta, raftaki çömlekleri tek tek … | ✓I
+tur-fi-068 | T.8.3.9 | z4 | k0 | Sınavdan çıkan öğrenciler, konuşarak koridorda beklemeye başladı. I. Cümlede üç farklı türde fiilimsi vardır. II. "Çıkan" sözcüğü… | ✓I ve III
+tur-fi-069 | T.8.3.9 | z4 | k0 | Bir isim-fiil, ek fiil alarak cümlenin sonunda yer alabilir; bu durumda da fiilimsi olmaktan çıkmaz. Buna göre, aşağıdaki cümlele… | ✓Okulumuzun amacı her öğrenciye okumayı sevdi…
+tur-fi-070 | T.8.3.9 | z4 | k0 | Bir öğrenci, aşağıdaki cümlelerdeki fiilimsileri bulup türlerini tabloya yazmıştır. Buna göre öğrenci kaç satırda hata yapmıştır? | ✓2
+tur-fi-071 | T.8.3.9 | z4 | k0 | Aşağıdaki cümlelerin hangisinde altı çizili fiilimsinin türü parantez içinde yanlış verilmiştir? | ✓Yarışa katılanlar salonda toplandı. (isim-fi…
+tur-fi-072 | T.8.3.9 | z4 | k0 | Köyümüzün girişindeki eski çeşme, yazın susayan yolcuların en sevdiği durak olurdu. Soğuk suyu içmek, uzun yolun yorgunluğunu bir… | ✓6
+tur-fi-073 | T.8.3.9 | z4 | k0 | Kapı zili ve sabah telaşıyla ilgili dört cümle verilmiştir. (I) Kapı çalınca sesi duyup uyandım. (II) Kapı çalınca sesi duyup uya… | ✓II
+tur-fi-074 | T.8.3.9 | z4 | k0 | Aşağıdaki cümlelerin hangisinde koyu yazılmış sözcüklerden biri fiilimsi, diğeri fiilimsi değildir? | ✓Ayşe ödevi bilgisayarda yazıp yazıcıdan çıka…
+tur-fi-075 | T.8.3.9 | z4 | k0 | Bir balıkçı köyünde geçen bir günü anlatan yazıdan dört cümle verilmiştir. (I) Kıyıda bekleyen balıkçılar ağlarını onarıyordu. (I… | ✓IV
