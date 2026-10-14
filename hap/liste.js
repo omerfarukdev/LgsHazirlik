@@ -44,5 +44,7 @@ window.LGS_HAP_LISTE = [
   "ing-1-friendship.js",
   "ing-2-teen-life.js",
   "ing-3-kitchen.js",
-  "esitsizlikler.js"
+  "esitsizlikler.js",
+  "adaptasyon.js",
+  "soz-sanatlari.js"
 ];

@@ -162,5 +162,9 @@ window.LGS_MANIFEST = [
   "tur-paragrafta-anlam-57.js",
   "tur-paragrafta-anlam-58.js",
   "tur-paragrafta-anlam-59.js",
-  "tur-paragrafta-anlam-60.js"
+  "tur-paragrafta-anlam-60.js",
+  "fen-adaptasyon-1.js",
+  "fen-adaptasyon-2.js",
+  "tur-soz-sanatlari-1.js",
+  "tur-soz-sanatlari-2.js"
 ];

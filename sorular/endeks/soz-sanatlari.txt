@@ -1,0 +1,90 @@
+tur-ss-101 | T.8.3.7 | z1 | k1 | Hangi cümlede iki şey birbirine benzetilmiştir? | ✓Yüzü, dolunay gibi parlıyordu.
+tur-ss-102 | T.8.3.7 | z1 | k1 | Aşağıdaki cümlelerin hangisinde karşıtlık (tezat) vardır? | ✓Yaz sıcağında kış soğuğunu özlüyordu.
+tur-ss-103 | T.8.3.7 | z1 | k1 | Aşağıdaki cümlelerin hangisinde kişileştirme (teşhis) vardır? | ✓Rüzgâr, yaprakların kulağına bir şey fısılda…
+tur-ss-104 | T.8.3.7 | z1 | k1 | Hangi cümlede bir durum olduğundan çok büyük gösterilmiştir? | ✓Gözyaşından koca bir göl oldu.
+tur-ss-105 | T.8.3.7 | z1 | k1 | Aşağıdaki cümlelerin hangisinde konuşturma (intak) vardır? | ✓Kedi, kapıya dönüp “Beni alın, üşüdüm!” dedi.
+tur-ss-106 | T.8.3.7 | z1 | k1 | Aşağıdaki cümlelerin hangisinde kişileştirme yoktur? | ✓Kuşlar, ağaçların dallarına tek tek kondu.
+tur-ss-107 | T.8.3.7 | z1 | k1 | Aşağıdaki cümlelerin hangisinde benzetme yoktur? | ✓Bahçedeki güller bu yıl erken açtı.
+tur-ss-108 | T.8.3.7 | z1 | k1 | Sana bin kere söyledim, hâlâ dinlemiyorsun. Bu cümlede altı çizili sözde hangi söz sanatı vardır? | ✓Abartma
+tur-ss-109 | T.8.3.7 | z1 | k1 | Sevinçle ağladı, hüzünle güldü. Bu dizede hangi söz sanatı vardır? | ✓Karşıtlık
+tur-ss-110 | T.8.3.7 | z1 | k1 | Dalgalar, kıyıdaki taşları sevgiyle okşuyordu. Bu cümlede hangi söz sanatı vardır? | ✓Kişileştirme
+tur-ss-111 | T.8.3.7 | z1 | k1 | Çeşme, damlaya damlaya şöyle dedi: “Beni kapatın, suyum boşa akıyor.” Bu cümlede konuşturma ile birlikte hangi söz sanatı da kull… | ✓Kişileştirme
+tur-ss-112 | T.8.3.7 | z1 | k1 | Hangi cümlede gerçek dışı bir büyütme yapılmıştır? | ✓Öyle güldü ki sesi bütün şehirden duyuldu.
+tur-ss-113 | T.8.3.7 | z2 | k1 | Hangi cümlede insan olmayan bir varlığa söz söyletilmiştir? | ✓Saksıdaki fesleğen, “Biraz su verin, kurudum…
+tur-ss-114 | T.8.3.7 | z2 | k1 | Aşağıdaki cümlelerin hangisinde karşıtlık vardır? | ✓Kimi öne geçti, kimi geride kaldı bu yarışta.
+tur-ss-115 | T.8.3.7 | z2 | k1 | Aşağıdaki dizelerin hangisinde kişileştirme vardır? | ✓Güz, sarı yapraklarla kapıyı çaldı.
+tur-ss-116 | T.8.3.7 | z2 | k1 | Kardeşim, bahar yağmuru kadar neşelidir. Bu cümlede benzetme yönü aşağıdakilerden hangisidir? | ✓Neşeli
+tur-ss-117 | T.8.3.7 | z2 | k1 | Gözlerinde karanlık, gülüşünde aydınlık var. Bu dizede hangi söz sanatı vardır? | ✓Karşıtlık
+tur-ss-118 | T.8.3.7 | z2 | k1 | Aşağıdaki cümlelerin hangisinde abartma vardır? | ✓Bir lokma ekmekle üç gün yol yürüdük.
+tur-ss-119 | T.8.3.7 | z2 | k1 | (I) Babam, sabah erkenden bahçeye çıkıp ağaçları budadı. (II) Çiçekler, yağmurdan sonra daha canlı görünüyordu. (III) Komşu teyze… | ✓IV
+tur-ss-120 | T.8.3.7 | z2 | k1 | Gece, kara bir yorgan gibi çöktü üstümüze; yıldızlar göz kırptı bize. Bu dizelerde hangi iki söz sanatı birlikte kullanılmıştır? | ✓Benzetme – Kişileştirme
+tur-ss-121 | T.8.3.7 | z2 | k1 | Aşağıdaki cümlelerin hangisinde karşıtlık yoktur? | ✓Dalgalar, kayalara sır fısıldıyor.
+tur-ss-122 | T.8.3.7 | z2 | k1 | Aşağıdaki cümlelerin hangisinde benzetme, benzetme edatı kullanılmadan kurulmuştur? | ✓Okul, bilgi dolu bir bahçedir.
+tur-ss-123 | T.8.3.7 | z2 | k1 | Kardeşim kapıdan çıkalı asırlar geçti, hâlâ dönmedi. Bu cümlede altı çizili sözde hangi söz sanatı vardır? | ✓Abartma
+tur-ss-124 | T.8.3.7 | z2 | k1 | Eski saat, “Yıllardır zamanı sizin için tutuyorum, bana da bir pil verin.” diye yakındı. Bu cümlede hangi söz sanatları birlikte … | ✓Konuşturma – Kişileştirme
+tur-ss-125 | T.8.3.7 | z2 | k1 | Yaşlı çınar, rüzgârın türküsüne kulak verdi. Bu cümlede altı çizili sözde hangi söz sanatı vardır? | ✓Kişileştirme
+tur-ss-201 | T.8.3.7 | z2 | k2 | Aşağıdaki dizelerin hangisinde karşıtlık vardır? | ✓Dün neşeyle başlayan gün, bu akşam hüzünle b…
+tur-ss-202 | T.8.3.7 | z2 | k2 | Aşağıdaki dizelerin hangisinde abartma yoktur? | ✓Çiçekler, yağmuru sevinçle karşılayıp güldü.
+tur-ss-203 | T.8.3.7 | z2 | k2 | Aşağıdaki cümlelerin hangisinde konuşturma yapılmıştır? | ✓Eski köprü, “Yıllardır burada dimdik dururum…
+tur-ss-204 | T.8.3.7 | z2 | k2 | I. Kar, yeryüzüne serilmiş beyaz bir örtüydü. II. Gökyüzü, bulutlarına sarılıp sessizce ağladı. III. Dedemin sesi, eski bir radyo… | ✓I ve III
+tur-ss-205 | T.8.3.7 | z2 | k2 | I. Sabah olunca pencerenin önüne bir serçe kondu. II. Eski dolap, her açılışta gıcırdayarak yakınıyordu. III. Dedem, akşam yemeği… | ✓Yalnız II
+tur-ss-206 | T.8.3.7 | z2 | k2 | Aşağıdaki cümlelerin hangisinde benzetme yoktur? | ✓Kütüphane, sınav haftasında çok kalabalıktı.
+tur-ss-207 | T.8.3.7 | z2 | k2 | (I) Sinema gişesinin önündeki kalabalığa koca bir ülke sığmazdı. (II) Biletler yirmi dakikada tükendi. (III) Salona girince ses, … | ✓I
+tur-ss-208 | T.8.3.7 | z2 | k2 | Ay, yeryüzüne bin yıllık hasretiyle baktı gece boyunca. Bu dizede hangi söz sanatları birlikte kullanılmıştır? | ✓Abartma – Kişileştirme
+tur-ss-209 | T.8.3.7 | z2 | k2 | Işık da karanlık da bizim, hem sevinç hem keder aynı kapıda. Bu dizelerde hangi söz sanatı vardır? | ✓Karşıtlık
+tur-ss-210 | T.8.3.7 | z2 | k2 | Aşağıdaki cümlelerin hangisinde kişileştirme vardır, ama konuşturma yoktur? | ✓Dağ, karlı sırtını güneşe verip uykuya daldı.
+tur-ss-211 | T.8.3.7 | z2 | k2 | I. Dedem üç gün sonra köyden döndü. II. Kardeşim odasını tek başına dört saatte topladı. III. Havuzun suyu öyle soğuktu ki bir da… | ✓Yalnız III
+tur-ss-212 | T.8.3.7 | z2 | k2 | Aşağıdaki cümlelerin hangisinde hem karşıtlık hem kişileştirme vardır? | ✓Gece uykuya çekilirken gündüz kapıyı çaldı.
+tur-ss-213 | T.8.3.7 | z2 | k2 | Yıllar bir nehir gibi aktı gitti, güneş batıda gözlerini yumdu, sevinçle hüzün aynı gözdeydi. Bu dizelerde aşağıdaki söz sanatlar… | ✓Abartma
+tur-ss-214 | T.8.3.7 | z3 | k2 | Okul gazetesinde yayımlanan bir yazıdan: (I) Salı günü okulun bahçesinde kitap pazarı kuruldu ve bütün şehir oraya yığılmıştı. (I… | ✓I
+tur-ss-215 | T.8.3.7 | z3 | k2 | Gündüz gülen sokak, geceleyin ağlar; eski çeşme, “Artık suyum akmıyor.” diye sızlanır. Bu dizelerle ilgili aşağıdakilerden hangil… | ✓II ve III
+tur-ss-216 | T.8.3.7 | z3 | k2 | Yağmur, camı parmaklarıyla tıkırdatırken yüzün sessiz bir gölün aynası gibi duruyordu; ben bütün kentin yükünü sırtıma almıştım. … | ✓Kişileştirme – Benzetme – Abartma
+tur-ss-217 | T.8.3.7 | z3 | k2 | (I) Deniz, ilk kez sınıfın önünde konuşacaktı. (II) Kalbi, kafesten çıkmak isteyen bir kuş gibi çarpıyordu. (III) Konuşması beş d… | ✓IV
+tur-ss-218 | T.8.3.7 | z3 | k2 | Zil, çalıp susunca okul bahçesi boşaldı. Kestane ağacı, dallarını sallayarak “Çocuklar gidince burası ne kadar sessiz kalıyor!” d… | ✓Kestane ağacı
+tur-ss-219 | T.8.3.7 | z3 | k2 | Edebiyat kulübü üyeleri, kendi yazdıkları cümleleri birbirine okuyor. Bu cümlelerden hangisinde bir şey başka bir şeye benzetilmi… | ✓Kitaplıktaki eski romanlar, birer hazine san…
+tur-ss-220 | T.8.3.7 | z3 | k2 | Aşağıdaki cümlelerin yanında söz sanatları belirtilmiştir. Bu eşleştirmelerden hangisi yanlıştır? | ✓Sesi, kırık bir zil gibi çınladı. – Kişileşt…
+tur-ss-221 | T.8.3.7 | z3 | k2 | Bayram öncesi evde hazırlık yapılırken şöyle bir cümle yazılmıştır: Annem, mutfakta bin bir çeşit yemek hazırladı; sofra, bayram … | ✓Abartma – Benzetme
+tur-ss-222 | T.8.3.7 | z3 | k2 | (I) Sabah çiyi her yeri kaplamıştı. (II) Yürümekten bacaklarım yoruldu. (III) Dere, taşların arasından kıkırdayarak aktı. (IV) Ke… | ✓III
+tur-ss-223 | T.8.3.7 | z3 | k2 | Sınıf dergisinin yazı köşesinden dört cümle seçildi. Aşağıdaki cümlelerin hangisinde söz sanatı yoktur? | ✓Akşam olurken balıkçılar ağlarını toplayıp l…
+tur-ss-224 | T.8.3.7 | z3 | k2 | Mahallede herkes Efe'nin yeni bisikletini konuşuyordu. Bisikletin zili bütün şehri uyandıracak kadar gürdü. Bu parçada altı çizil… | ✓Abartma
+tur-ss-225 | T.8.3.7 | z3 | k2 | Bir hikâye yarışmasında dört öğrenci, konuşan varlıklara yer veren cümleler yazdı. Aşağıdaki cümlelerin hangisinde söz söyleyen v… | ✓Duvardaki eski saat, “Kimse bana bakmıyor!” …
+tur-ss-301 | T.8.3.7 | z3 | k3 | Pazar yerinde dolaşan bir öğrenci, gördüklerini dizeler hâlinde yazmış: I. Tezgâhlara kasa kasa domates dizilmişti. II. Satıcı öy… | ✓II
+tur-ss-302 | T.8.3.7 | z3 | k3 | Okul servisinden inen Mert, yarışmayı kazandığını söyleyince anneannesi önce sustu. Sonra sevinçten ağlıyor, gözyaşları arasında … | ✓Karşıtlık
+tur-ss-303 | T.8.3.7 | z3 | k3 | Bir öğrenci, dağ gezisini anlatan günlüğüne şu cümleleri yazmıştır. Bu cümlelerin hangisinde kişileştirme yoktur? | ✓Patika, yamaçta gerilmiş ince bir ip gibi gö…
+tur-ss-304 | T.8.3.7 | z3 | k3 | Bir öğrenci, köyündeki çınarı anlatan şu dizeleri yazmış: I. Çınar, yıllardır köyün yolunu bekler, II. Gölgesi serin bir battaniy… | ✓III
+tur-ss-305 | T.8.3.7 | z3 | k3 | Okul basketbol takımı, maç sonrası toplanıp değerlendirme yaptı. Salon, tam bir kaynayan kazandı. Kaptan Efe, topu alınca rakibi … | ✓Kurnaz olma
+tur-ss-306 | T.8.3.7 | z3 | k3 | Aşağıdaki cümlelerin hangisinde benzetme ve abartma birlikte kullanılmıştır? | ✓Sınav sabahı kalbim kuş gibi çırpındı, sanki…
+tur-ss-307 | T.8.3.7 | z3 | k3 | Eski çanta, kapının eşiğinde bekleyip ev halkının koşuşturmasını izliyor, her sabah derin bir iç çekiyordu. Kimse onu yeniden sır… | ✓Kişileştirme; çantanın unutulmuşluğu canlı b…
+tur-ss-308 | T.8.3.7 | z3 | k3 | Bir öğrenci, aşağıdaki tabloda dizelerin yanına hangi söz sanatını içerdiğini yazmıştır. Bu tabloda yazılan söz sanatlarından han… | ✓II
+tur-ss-309 | T.8.3.7 | z3 | k3 | Sabah olunca liman, uykusundan yeni uyanmış bir çocuk gibi gerindi. Vapurun düdüğü şehrin bütün evlerini sarstı. Martılar balıkçı… | ✓Konuşturma
+tur-ss-310 | T.8.3.7 | z3 | k3 | Kış, sessizce kapımızı çaldı; dışarısı soğuk, içerisi sıcacıktı. Sobanın başında toplandık akşam, çayın buharı pencerelere yazı y… | ✓Kişileştirme ve karşıtlık
+tur-ss-311 | T.8.3.7 | z3 | k3 | Bir öğrenci, kütüphane izlenimlerini şu dizelerle anlatmış: I. Kitaplığın en üst rafında bir sürü sözlük durur. II. Lamba, odanın… | ✓I
+tur-ss-312 | T.8.3.7 | z3 | k3 | Aşağıdaki cümlelerin hangisinde kişileştirme vardır, ancak konuşturma yoktur? | ✓Deniz, kıyıdaki taşları sabırla okşadı.
+tur-ss-313 | T.8.3.7 | z3 | k3 | Türkçe öğretmeni tahtaya dört cümle yazdı. Sınıfa, bu cümlelerden yalnızca birinde benzetmenin "gibi, kadar, sanki" gibi bir edat… | ✓Babaannemin sesi, bu evin en güvenli limanıd…
+tur-ss-314 | T.8.3.7 | z3 | k3 | Dede, bahçeye çıkıp "Bu yıl elmalar erken olgunlaştı." dedi. Ali ise yaşlı ağacın dalına dokunup "Çok güzel meyve verdin." diye f… | ✓Ağaç
+tur-ss-315 | T.8.3.7 | z3 | k3 | Edebiyat öğretmeni, dört öğrencisine karşıtlık içeren bir cümle yazmalarını istedi. Öğrencilerin yazdıklarından yalnızca birinde … | ✓Yıllarca uzaklarda aradığım huzuru, meğer en…
+tur-ss-316 | T.8.3.7 | z4 | k3 | Okulun ilk günü bir öğrenci defterine şunları yazmış: (I) Uzun yaz tatilinin ardından okula döndüğümüzde sınıf, kaynayan bir kaza… | ✓I ve II
+tur-ss-317 | T.8.3.7 | z4 | k3 | I. Köprü, gergin bir yay gibi nehrin üstüne gerildi, II. Dere, taşlara "Beni de yanınıza alın." diye seslendi, III. Gündüz sustu,… | ✓IV. dizede kişileştirme vardır.
+tur-ss-318 | T.8.3.7 | z4 | k3 | Annem gidince ev, bir kuyu kadar derin oldu, bekleyiş boyunca bir dakika bütün bir yıl sürdü. Bu dizelerde birlikte kullanılan sö… | ✓Benzetme ve abartma; evdeki boşluk ile bekle…
+tur-ss-319 | T.8.3.7 | z4 | k3 | Hafta sonu arkadaşlarımla göl kıyısında kamp kurduk. İlk gece çadırın kapısı rüzgârla sallanıp "Beni sıkı bağla." dedi, sabaha do… | ✓Konuşturma - benzetme - abartma
+tur-ss-320 | T.8.3.7 | z4 | k3 | I. Ay, dağın ardına utana utana saklandı. II. Gölün yüzü ayna gibi parlıyordu. III. Yaz sıcağı bütün denizi kaynatmaya yeterdi. I… | ✓II ve III
+tur-ss-321 | T.8.3.7 | z4 | k3 | Bir şair adayı, defterine aşağıdaki dizeleri yazmıştır. Tablodaki dizelerin hangisinde karşıtlık ve abartma birlikte kullanılmışt… | ✓III
+tur-ss-322 | T.8.3.7 | z4 | k3 | (I) Eski terazi, yorgun bir hamal gibi bir yana eğilmişti. (II) Çocuklar tezgâhın başına toplanınca terazi, "Bana çok yük bindirm… | ✓IV. cümlede karşıtlık vardır.
+tur-ss-323 | T.8.3.7 | z4 | k3 | Eski mahallemizdeki incir ağacı, her yaz bize gölgesini kardeşçe paylaştırırdı. Öğle vakti ağacın altı buz gibi serindi. Oyuna da… | ✓Yalnız II
+tur-ss-324 | T.8.3.7 | z4 | k3 | Kıyıdaki eski fener, geceleri gemilere göz kırpıp yol gösteriyordu. Bir fırtına gecesinde fener, denize "Ben buradayım, korkmayın… | ✓Fener hem kişileştirilmiş hem konuşturulmuşt…
+tur-ss-325 | T.8.3.7 | z4 | k3 | Bisiklet yarışının başlangıcında kimi sporcu ileri atılıyor, kimi geride kalıyordu. Kırmızı formalı sporcular, yola dökülmüş bir … | ✓Yalnız III
+tur-ss-001 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde kişileştirme vardır? | ✓Yıldızlar, bizi izleyip göz kırparak gülümse…
+tur-ss-002 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde benzetme vardır? | ✓Sınıfımız arı kovanı gibi gürültülüydü.
+tur-ss-003 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde karşıtlık vardır? | ✓Gülerken ağlıyor, ağlarken gülüyordu.
+tur-ss-004 | T.8.3.7 | z2 | k0 | Aşağıdaki cümlelerin hangisinde abartma vardır? | ✓Bu çanta öyle ağır ki içinde koca bir dağ ta…
+tur-ss-005 | T.8.3.7 | z2 | k0 | Kerem, kış tatilinde dağ evine gitti. Sabah pencereyi açtığında kar, yamaçlara beyaz bir örtü gibi serilmişti. Soğuk havada burnu… | ✓Benzetme
+tur-ss-006 | T.8.3.7 | z2 | k0 | Kütüphanede sessizce çalışırken raflardaki kitaplar birbirine "Bizi yine kimse okumadı." diye fısıldaştı. Ben ise sayfaları çevir… | ✓Konuşturma
+tur-ss-007 | T.8.3.7 | z2 | k0 | Aşağıdaki cümlelerin hangisinde kişileştirme yoktur? | ✓Sabah, sokak kedileri çöpün çevresinde topla…
+tur-ss-008 | T.8.3.7 | z2 | k0 | Öğretmenimizin sesi, sabah çanı gibi bütün koridoru doldurdu. Bu cümlede kendisine benzetilen öge aşağıdakilerden hangisidir? | ✓Sabah çanı
+tur-ss-009 | T.8.3.7 | z3 | k0 | Bir öğrenci, okul bahçesini anlatan şu dizeleri yazmış: I. Okul bahçesinde çınar ağacı yaprak döküyor. II. Zil sesi, bir kuş sürü… | ✓III
+tur-ss-010 | T.8.3.7 | z3 | k0 | Bulut, yorgun bir yolcu gibi dağa yaslandı, güneş ona "Yolun açık olsun." dedi. Bu dizelerde hangi söz sanatları birlikte kullanı… | ✓Benzetme ve konuşturma
+tur-ss-011 | T.8.3.7 | z3 | k0 | Sabah erken saatte vadiye sis çökmüştü. Sis, yamaçları ince bir tül gibi sarmıştı. Pencerenin önündeki dut ağacı "Üşüyorum." diye… | ✓I ve III
+tur-ss-012 | T.8.3.7 | z3 | k0 | Bisikletim yokuşu çıkarken bir kaplan gibi hırlıyordu. Pedallar, yorgun bacaklarıma "Dur artık!" dedi. Eve vardığımda bütün şehri… | ✓Karşıtlık
+tur-ss-013 | T.8.3.7 | z4 | k0 | Aşağıdaki cümlelerin hangisinde karşıtlık ve abartma birlikte kullanılmıştır? | ✓Seni bir kez güldürebilmek için ağlaya ağlay…
+tur-ss-014 | T.8.3.7 | z4 | k0 | I. Sabah, sokaklara gülümseyerek indi, II. Fırından çıkan ekmekler güneş gibi parlıyordu, III. "Kimse uyanmasın!" dedi kaldırımda… | ✓I. dizede kişileştirme, III. dizede konuştur…
+tur-ss-015 | T.8.3.7 | z4 | k0 | Okul bahçesindeki çınar, öğretmenlerimizin bile çocukluğunu görmüş yaşlı bir tanık gibi dimdik duruyordu. Bu cümlede kullanılan b… | ✓Çınarın yıllardır orada olduğunu ve sağlam d…
