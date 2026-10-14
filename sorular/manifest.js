@@ -166,5 +166,7 @@ window.LGS_MANIFEST = [
   "fen-adaptasyon-1.js",
   "fen-adaptasyon-2.js",
   "tur-soz-sanatlari-1.js",
-  "tur-soz-sanatlari-2.js"
+  "tur-soz-sanatlari-2.js",
+  "fen-besin-zinciri-1.js",
+  "fen-besin-zinciri-2.js"
 ];
