@@ -52,5 +52,9 @@ window.LGS_HAP_LISTE = [
   "fotosentez-solunum.js",
   "ing-4-phone.js",
   "ing-5-internet.js",
-  "ing-6-adventures.js"
+  "ing-6-adventures.js",
+  "ing-7-tourism.js",
+  "ing-8-chores.js",
+  "ing-9-science.js",
+  "ing-10-natural-forces.js"
 ];
