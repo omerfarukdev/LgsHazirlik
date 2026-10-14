@@ -287,7 +287,7 @@ function hapMetin(yer, s) {
   if (typeof s !== "string" || !s.trim()) { sorun(yer + ": boş ya da metin değil"); return ""; }
   if (/___/.test(s)) sorun(yer + ": '___' kullanılmış ('__' altı çizili demektir; boşluk için '- - - -')");
   if ((s.match(/\*\*/g) || []).length % 2) sorun(yer + ": kapanmamış '**'");
-  if (/<\s*[a-z]/i.test(s)) dikkat(yer + ": HTML etiketi var; metin alanlarında HTML görünmez, düz yazı olarak basılır");
+  if (/<\/?[a-z]/i.test(s)) dikkat(yer + ": HTML etiketi var; metin alanlarında HTML görünmez, düz yazı olarak basılır");
   return s;
 }
 hapListe.forEach(function (f) {
