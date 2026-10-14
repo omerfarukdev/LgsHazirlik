@@ -88,3 +88,213 @@ mat-ck-325 | M.8.1.1.3 | z4 | k3 | Nehir'in dedesinden kalma ahşap bir akıl oy
 mat-ck-013 | M.8.1.1.2 | z2 | k0 | Bir arıcı, hasat ettiği balı kavanozlara doldurmuş ve şu an elinde 98 kavanoz bal birikmiştir. Arıcının kullandığı iki koli türü … | ✓22
 mat-ck-014 | M.8.1.1.2 | z4 | k0 | Bir çiçekçinin deposunda, sabah halden aldığı laleler durmaktadır. Çiçekçi bu lalelerin tamamını buketler hâlinde bağlayıp vitrin… | ✓4
 mat-ck-015 | M.8.1.1.1 | z4 | k0 | Bir yazılım ekibi, uzun süredir üzerinde çalıştığı mobil oyunu yayımlamaya hazırlanmaktadır. Oyunun toplam 180 bölümü vardır ve b… | ✓9
+mat-ck-126 | M.8.1.1.1 | z1 | k1 | Aşağıdaki sayılardan hangisi 56 sayısının bir çarpanıdır? | ✓14
+mat-ck-127 | M.8.1.1.1 | z1 | k1 | Aşağıdaki sayılardan hangisi asal sayıdır? | ✓31
+mat-ck-128 | M.8.1.1.1 | z1 | k1 | 2 · 3^{2} · 7 çarpımının değeri kaçtır? | ✓126
+mat-ck-129 | M.8.1.1.2 | z1 | k1 | EBOB(16, 40) kaçtır? | ✓8
+mat-ck-130 | M.8.1.1.1 | z1 | k1 | 20'den küçük kaç tane asal sayı vardır? | ✓8
+mat-ck-131 | M.8.1.1.2 | z1 | k1 | EKOK(9, 15) kaçtır? | ✓45
+mat-ck-132 | M.8.1.1.1 | z1 | k1 | Aşağıdaki eşitliklerden hangisi yanlıştır? | ✓45 = 3 · 5^{2}
+mat-ck-133 | M.8.1.1.1 | z1 | k1 | Aşağıdakilerden hangisi 84 sayısının bir çarpanı olamaz? | ✓35
+mat-ck-134 | M.8.1.1.2 | z1 | k1 | Hem 18'i hem 27'yi kalansız bölen en büyük doğal sayı kaçtır? | ✓9
+mat-ck-135 | M.8.1.1.3 | z1 | k1 | Aşağıdaki kesirlerden hangisi sadeleşmez? | ✓[[10|27]]
+mat-ck-136 | M.8.1.1.1 | z1 | k1 | 150 sayısının farklı asal çarpanlarının toplamı kaçtır? | ✓10
+mat-ck-137 | M.8.1.1.2 | z1 | k1 | Aşağıdaki tabloda 24 ve 40 sayılarının ilk beş katı verilmiştir. Buna göre EKOK(24, 40) kaçtır? | ✓120
+mat-ck-138 | M.8.1.1.2 | z1 | k1 | Hem 3'ün hem 4'ün katı olan kaç tane iki basamaklı doğal sayı vardır? | ✓8
+mat-ck-139 | M.8.1.1.1 | z1 | k1 | 2 · 2 · 2 · 3 · 3 · 7 çarpımının üslü gösterimi aşağıdakilerden hangisidir? | ✓2^{3} · 3^{2} · 7
+mat-ck-140 | M.8.1.1.2 | z1 | k1 | Ayşe, uzunlukları 48 cm ve 72 cm olan iki şeridi hiç artmayacak biçimde eşit uzunlukta parçalara ayıracaktır. Parçalar olabildiği… | ✓24
+mat-ck-141 | M.8.1.1.3 | z1 | k1 | Aşağıdaki sayı çiftlerinden hangisi aralarında asal değildir? | ✓13 ve 52
+mat-ck-142 | M.8.1.1.1 | z1 | k1 | 20 sayısının bütün pozitif tam sayı çarpanlarının toplamı kaçtır? | ✓42
+mat-ck-143 | M.8.1.1.2 | z1 | k1 | İki doğal sayının EBOB'u 4, EKOK'u 60'tır. Sayılardan biri 12'dir. Buna göre diğer sayı kaçtır? | ✓20
+mat-ck-144 | M.8.1.1.2 | z1 | k1 | Bir kırtasiyeci, 28 kitap ile 42 defteri, her pakette eşit sayıda kitap ve eşit sayıda defter olacak biçimde ve hiçbir şey artmay… | ✓14
+mat-ck-145 | M.8.1.1.2 | z1 | k1 | 6 ve 10 sayılarının her ikisine de kalansız bölünebilen en büyük iki basamaklı doğal sayı kaçtır? | ✓90
+mat-ck-146 | M.8.1.1.3 | z1 | k1 | Aşağıdaki tabloda dört sayının asal çarpanları verilmiştir. Buna göre hangi iki sayı aralarında asaldır? | ✓30 ve 49
+mat-ck-147 | M.8.1.1.2 | z1 | k1 | A = 2^{3} · 3 · 5 ve B = 2^{2} · 3^{2} sayıları veriliyor. Buna göre EKOK(A, B) kaçtır? | ✓360
+mat-ck-148 | M.8.1.1.3 | z1 | k1 | 24 ile aralarında asal olan en küçük iki basamaklı doğal sayı kaçtır? | ✓11
+mat-ck-149 | M.8.1.1.3 | z1 | k1 | Aralarında asal iki doğal sayının EKOK'u 60'tır. Sayılardan biri 12'dir. Buna göre diğer sayı kaçtır? | ✓5
+mat-ck-150 | M.8.1.1.2 | z2 | k1 | Bir sınıfta öğretmen, tahtaya 12 ve 18 sayılarını yazmış ve öğrencilerden bu iki sayının ortak katı olmayan bir sayıyı seçmelerin… | ✓114
+mat-ck-151 | M.8.1.1.1 | z2 | k1 | Bir fotoğraf stüdyosu, 24 fotoğrafı albüm sayfalarına yerleştirecektir. Her sayfada eşit sayıda fotoğraf bulunacak ve hiç fotoğra… | ✓5
+mat-ck-152 | M.8.1.1.2 | z2 | k1 | Bir kırtasiyede 24 kalemlik bir kutu ile 36 kalemlik bir kutu vardır. İki kutudaki kalemler de hiç kalem artmayacak ve her pakett… | ✓6
+mat-ck-153 | M.8.1.1.3 | z2 | k1 | Bir bahçıvan, fidanları 7 günde bir sulamakta ve 9 günde bir gübrelemektedir. Fidanların bakımına başladığı 1. gün sulama ile güb… | ✓64
+mat-ck-154 | M.8.1.1.1 | z2 | k1 | Üç arkadaş birer doğal sayı tutmuş ve sayılarını aşağıdaki tabloya yazmıştır. Buna göre bu üç sayının pozitif tam sayı çarpanları… | ✓23
+mat-ck-155 | M.8.1.1.2 | z2 | k1 | Bir tiyatro kulübü, süresi 1 saat 30 dakika olan bir oyunla süresi 2 saat 15 dakika olan başka bir oyunu, hiç süre artmayacak biç… | ✓45
+mat-ck-156 | M.8.1.1.2 | z2 | k1 | Bir müzede iki rehber robot vardır. Birincisi 12 dakikada bir, ikincisi 15 dakikada bir sesli anons yapmaktadır. Robotlar saat 10… | ✓3
+mat-ck-157 | M.8.1.1.1 | z2 | k1 | Bir spor okulunda 120 sporcu, her sırada eşit sayıda sporcu olacak biçimde sıralara dizilecektir. Sıra sayısı, 120'nin herhangi b… | ✓16
+mat-ck-158 | M.8.1.1.3 | z2 | k1 | Selin, [[n|40]] biçiminde bir kesir yazmıştır. Burada n, 1'den büyük ve asal olmayan bir doğal sayıdır. Selin'in yazdığı kesir sa… | ✓9
+mat-ck-159 | M.8.1.1.1 | z2 | k1 | Bir tiyatro oyununda 48 kostüm, her askıda eşit sayıda kostüm olacak biçimde askılara asılacaktır. Askı sayısı ile bir askıdaki k… | ✓14
+mat-ck-160 | M.8.1.1.2 | z2 | k1 | Bir manavın elma sayısı 50'den fazladır. Elmalar 6'şarlı kasalara dizildiğinde 5 elma, 8'erli kasalara dizildiğinde de yine 5 elm… | ✓53
+mat-ck-161 | M.8.1.1.1 | z2 | k1 | Bir okulda 1'den 50'ye kadar numaralanmış 50 dolaptan 2, 3 ya da 5'e tam bölünen numaralı dolaplar bakıma alınmıştır. Bakıma alın… | ✓2
+mat-ck-162 | M.8.1.1.2 | z2 | k1 | Uzunlukları 84 m ve 120 m olan iki halat, hiç artmayacak biçimde eşit uzunlukta parçalara kesilecektir. Parçalar olabildiğince uz… | ✓15
+mat-ck-163 | M.8.1.1.3 | z2 | k1 | Dört öğrenci, aralarında asal olma durumu hakkında birer iddia ileri sürmüş ve gerekçelerini aşağıdaki tabloya yazmıştır. Buna gö… | ✓Ali
+mat-ck-164 | M.8.1.1.1 | z2 | k1 | Bir belediye, parka dikeceği 90 fidanı sıralar hâlinde dikecektir. Her sırada eşit sayıda fidan bulunacak ve hiç fidan artmayacak… | ✓5
+mat-ck-165 | M.8.1.1.2 | z2 | k1 | Bir okulda koridor nöbeti ayın 3. gününden başlayarak 5 günde bir, bahçe nöbeti ayın 2. gününden başlayarak 4 günde bir tutulmakt… | ✓18
+mat-ck-166 | M.8.1.1.2 | z2 | k1 | Bir otoparkta araç yerleri 100'den 999'a kadar üç basamaklı sayılarla numaralandırılmıştır. Park yönetimi, numarası hem 4'e hem 6… | ✓996
+mat-ck-167 | M.8.1.1.1 | z2 | k1 | Bir kart oyununda her kartın üzerinde asal bir sayı yazmaktadır. Oyuncu, üzerlerindeki sayıların toplamı 30 olan iki kart seçmeli… | ✓4
+mat-ck-168 | M.8.1.1.2 | z2 | k1 | Bir sağlık ocağında A doktoru 9 günde bir, B doktoru 12 günde bir sahaya çıkmaktadır. İki doktor 5 Mart günü birlikte sahaya çıkm… | ✓10 Nisan
+mat-ck-169 | M.8.1.1.1 | z2 | k1 | Dört öğrenci 180 sayısını asal çarpanlarına ayırmış ve sonuçlarını aşağıdaki tabloya yazmıştır. Buna göre hangi öğrencinin yazdığ… | ✓Deniz
+mat-ck-170 | M.8.1.1.2 | z2 | k1 | Bir sinema salonunda 250 koltuk vardır ve koltuklar 1'den başlayarak numaralandırılmıştır. Numarası hem 9'a hem 12'ye kalansız bö… | ✓3
+mat-ck-171 | M.8.1.1.2 | z2 | k1 | Bir kırtasiyedeki defterler 12'şerli paketlenmek istendiğinde 1 defter eksik kalmaktadır; yani 1 defter daha olsaydı paketler tam… | ✓71
+mat-ck-172 | M.8.1.1.2 | z2 | k1 | Bir istasyondan iki hattın trenleri kalkmaktadır. A hattının trenleri 45 dakikada bir, B hattının trenleri 75 dakikada bir kalkar… | ✓09.55
+mat-ck-173 | M.8.1.1.1 | z2 | k1 | Bir bilgi yarışmasında şu soru sorulmuştur: "Tam olarak üç farklı asal çarpanı olan en küçük üç basamaklı doğal sayı kaçtır?" Bun… | ✓102
+mat-ck-174 | M.8.1.1.3 | z2 | k1 | Zeynep ile Kaan bir sayı oyunu oynamaktadır. Zeynep, aralarında asal olan iki doğal sayı tutmuş ve Kaan'a şu ipucunu vermiştir: "… | ✓5
+mat-ck-175 | M.8.1.1.3 | z2 | k1 | Bir parkta iki aydınlatma lambası vardır. Lambaların yanıp sönme aralıkları saniye cinsinden ardışık iki doğal sayıdır. Lambalar … | ✓12
+mat-ck-226 | M.8.1.1.1 | z2 | k2 | Mina, 180 sayısını önce 10 · 18 çarpımı olarak yazmış, sonra çarpanların her birini kendi içinde asal çarpanlarına ayırmıştır. Bu… | ✓2^{2} · 3^{2} · 5
+mat-ck-227 | M.8.1.1.3 | z2 | k2 | Bir kitabevinin çekilişinde 35 ile aralarında asal olan numaralı bilet kazanacaktır. Aşağıda verilen dört bilet numarasından yaln… | ✓18
+mat-ck-228 | M.8.1.1.2 | z2 | k2 | Matematik öğretmeni, tahtaya dört ayrı durum yazmış ve bunlardan yalnızca birinin EKOK ile çözüldüğünü söylemiştir. Buna göre EKO… | ✓Aynı anda çalan iki zamanlayıcının ilk kez y…
+mat-ck-229 | M.8.1.1.1 | z2 | k2 | Bir bilgi yarışmasında 51, 53, 57, 61, 63 ve 67 numaralı altı kart masaya dizilmiştir. Yarışmacı, üzerinde asal sayı yazan kartla… | ✓3
+mat-ck-230 | M.8.1.1.2 | z2 | k2 | Okul bahçesindeki uzun bir merdivende üç sporcu, 0. basamaktan başlayarak yukarı çıkmaktadır. Ali her adımda 4, Burcu her adımda … | ✓60
+mat-ck-231 | M.8.1.1.1 | z2 | k2 | Ece, sınıf panosunu süslemek için 120 sayısının pozitif tam sayı çarpanlarından yalnızca çift olanlarını seçecek ve her birini ay… | ✓12
+mat-ck-232 | M.8.1.1.3 | z2 | k2 | Mert, defterine dört kesir yazmış ve bunlardan yalnızca birinin sadeleştirilemediğini fark etmiştir: [[24|45]], [[22|45]], [[28|4… | ✓67
+mat-ck-233 | M.8.1.1.2 | z2 | k2 | Bir kütüphaneci, 1'den 99'a kadar numaralanmış rafların arasından, numarası hem 9'a hem 12'ye tam bölünenleri kırmızı etiketle iş… | ✓72
+mat-ck-234 | M.8.1.1.1 | z2 | k2 | Defne, asal çarpanları yalnızca 2 ve 5 olan (ikisini de içeren) iki basamaklı sayıları bir listeye yazmaktadır. Buna göre listede… | ✓80
+mat-ck-235 | M.8.1.1.2 | z2 | k2 | Boyları 45 m ve 75 m olan iki halat, hiç artmayacak biçimde, eşit uzunlukta ve olabildiğince uzun parçalara kesilecektir. Buna gö… | ✓6
+mat-ck-236 | M.8.1.1.1 | z2 | k2 | Bir bulmacada, pozitif tam sayı çarpanlarının sayısı tam 3 olan en küçük iki basamaklı doğal sayı aranmaktadır. Buna göre aranan … | ✓25
+mat-ck-237 | M.8.1.1.3 | z2 | k2 | Bir matematik etkinliğinde dört öğrenciye birer sayı çifti verilmiştir. Bu çiftlerden yalnızca biri aralarında asal değildir. Öğr… | ✓11
+mat-ck-238 | M.8.1.1.2 | z2 | k2 | Bir saat atölyesinde, dişli sayıları 12 ve 18 olan iki çark birbirine geçmiş hâlde dönmektedir. Başlangıçta her çarkın işaretli b… | ✓2
+mat-ck-239 | M.8.1.1.1 | z2 | k2 | Aşağıdaki tabloda dört kartın üzerindeki sayıların asal çarpanlarına ayrılmış biçimleri verilmiştir. Buna göre pozitif tam sayı ç… | ✓Mavi
+mat-ck-240 | M.8.1.1.2 | z2 | k2 | Zeynep, matematik defterine 36 ile 48 sayılarını birlikte kalansız bölen bütün pozitif tam sayıları yazıp bunları toplayacaktır. … | ✓28
+mat-ck-241 | M.8.1.1.1 | z2 | k2 | Bir kodlama oyununda anahtar sayı, asal çarpanlarına ayrılmış biçimi 2^{3} · 3^{2} · 5 olan sayıdır. Oyunun kartlarında bu sayıyl… | ✓240
+mat-ck-242 | M.8.1.1.3 | z2 | k2 | Bir oyunda toplamları 20 olan iki farklı pozitif tam sayıdan oluşan kart çiftleri hazırlanacaktır. Her çiftteki iki sayı araların… | ✓4
+mat-ck-243 | M.8.1.1.2 | z2 | k2 | Bir atölyedeki iki zamanlayıcıdan biri 40 saniyede bir, diğeri 60 saniyede bir sesli uyarı vermektedir. İkisi aynı anda başlatılm… | ✓2
+mat-ck-244 | M.8.1.1.1 | z2 | k2 | Bir okulun gösterisinde 48 balon, her torbada eşit sayıda balon olacak ve hiçbir balon açıkta kalmayacak biçimde torbalara konula… | ✓8
+mat-ck-245 | M.8.1.1.3 | z2 | k2 | Bir kodlama yarışmasında, aralarında asal olan iki doğal sayıdan oluşan bir kart çifti aranmaktadır. Çiftin EKOK'u 140'tır ve say… | ✓7
+mat-ck-246 | M.8.1.1.2 | z2 | k2 | Bir kantinde simit 6 liradan, poğaça 8 liradan satılmaktadır. Selin yalnızca simit, Kerem yalnızca poğaça alacak ve ikisi de en a… | ✓24
+mat-ck-247 | M.8.1.1.1 | z2 | k2 | Bir manav 56 elmayı, her kasada eşit sayıda elma olacak ve hiç elma açıkta kalmayacak biçimde kasalara koyacaktır. Bir kasaya en … | ✓3
+mat-ck-248 | M.8.1.1.2 | z2 | k2 | İki doğal sayının çarpımı 300'dür. Bu sayıların EBOB'u 5, EKOK'u 60'tır ve sayılardan biri 15'tir. Buna göre diğer sayı kaçtır? | ✓20
+mat-ck-249 | M.8.1.1.2 | z2 | k2 | Bir fidanlıkta, sayısı 100'den fazla olan fidanlar 5'erli sıralara dizildiğinde 3 fidan, 8'erli sıralara dizildiğinde de 3 fidan … | ✓123
+mat-ck-250 | M.8.1.1.2 | z2 | k2 | Bir bilgisayar oyununda iki kapının şifreleri, asal çarpanlarına ayrılmış biçimleriyle A = 2^{3} · 3^{2} · 5 ve B = 2^{2} · 3^{4}… | ✓9
+mat-ck-251 | M.8.1.1.2 | z2 | k2 | Uzunlukları 84 m ve 120 m olan iki paralel yürüyüş yolunun her birinin iki ucuna da fidan dikilecek, yol boyunca fidanlar eşit ar… | ✓19
+mat-ck-252 | M.8.1.1.1 | z3 | k2 | Bir güvenlik programı kapı şifresini şu kuralla üretir: Kapı numarası iki asal sayının çarpımı olarak yazılır ve şifre bu iki asa… | ✓24
+mat-ck-253 | M.8.1.1.2 | z3 | k2 | Bir çiçekçi, sardunyaları 3 günde bir, menekşeleri 4 günde bir sulamaktadır. Mayıs ayının 1'inde ikisini de sulamış ve düzenini a… | ✓3
+mat-ck-254 | M.8.1.1.1 | z3 | k2 | Bir kitap kulübünde Elif'in kartında A = 2^{3} · 3, Ali'nin kartında B = 2 · 3^{2} · 5 sayısı yazmaktadır. Kulüp başkanı iki kart… | ✓40
+mat-ck-255 | M.8.1.1.3 | z3 | k2 | Bir bilgisayar oyunu, ekrana gelen sayı çiftlerinden aralarında asal olanlar için puan vermektedir. Oyun yalnızca iki sayının ort… | ✓3
+mat-ck-256 | M.8.1.1.2 | z3 | k2 | Bir belediye, parkın yürüyüş yollarının kenarına çınar, ıhlamur ve akçaağaç fidanı dikecektir. Fidan sayıları tabloda verilmiştir… | ✓10
+mat-ck-257 | M.8.1.1.1 | z3 | k2 | Ada, bir bilgi yarışması için sayı kartı hazırlamaktadır. Kartta sayının asal çarpanlarına ayrılmış biçimi 2^{a} · 3 olarak yazıl… | ✓96
+mat-ck-258 | M.8.1.1.2 | z3 | k2 | Bir tiyatro oyununda iki ışık efekti vardır: A efekti 15 saniyede bir, B efekti 20 saniyede bir çalışır. Oyun başladığı anda ikis… | ✓91
+mat-ck-259 | M.8.1.1.3 | z3 | k2 | Matematik öğretmeni, aralarında asal sayılarla ilgili dört iddia yazmış ve bunlardan yalnızca birinin her durumda doğru olduğunu … | ✓Ardışık iki tek sayı daima aralarında asaldı…
+mat-ck-260 | M.8.1.1.1 | z3 | k2 | Bir okulda 1'den 40'a kadar numaralanmış 40 dolap vardır ve hepsi kapalıdır. Öğrenci kulübü, numarasının pozitif tam sayı çarpanl… | ✓6
+mat-ck-261 | M.8.1.1.2 | z3 | k2 | Bir manav, sepetindeki cevizleri 6'şar 6'şar saydığında 2 ceviz, 8'er 8'er saydığında yine 2 ceviz artırmaktadır. Sepette 50'den … | ✓26
+mat-ck-262 | M.8.1.1.1 | z3 | k2 | Bir sinema salonunda toplam 156 koltuk, dikdörtgensel biçimde sıralar hâlinde yerleştirilmiştir: her sırada eşit sayıda koltuk va… | ✓25
+mat-ck-263 | M.8.1.1.3 | z3 | k2 | Bir koleksiyoncu, 360 pulu bir albüme, her sayfada eşit sayıda pul olacak biçimde yerleştirecektir. Sayfa sayısı ile bir sayfadak… | ✓3
+mat-ck-264 | M.8.1.1.2 | z3 | k2 | Bir terzi, uzunlukları 60 cm, 84 cm ve 108 cm olan üç kumaş şeridi, hiç artmayacak biçimde, eşit uzunlukta ve olabildiğince uzun … | ✓21
+mat-ck-265 | M.8.1.1.1 | z3 | k2 | Deniz, bir sayı oyunu için tam üç farklı asal çarpanı bulunan ve bu asal çarpanların toplamı 10 olan iki basamaklı sayıları liste… | ✓3
+mat-ck-266 | M.8.1.1.2 | z3 | k2 | Üç arkadaş Mart ayının 1'inde kütüphanede buluşmuştur. Ada 6 günde bir, Berk 8 günde bir, Can 12 günde bir kütüphaneye gitmektedi… | ✓25 Mart
+mat-ck-267 | M.8.1.1.1 | z3 | k2 | Bir otoparkta park yerlerinin numaraları 10'dan 99'a kadar iki basamaklı sayılardır. Bir sayının en küçük asal çarpanına o sayını… | ✓6
+mat-ck-268 | M.8.1.1.3 | z3 | k2 | Matematik kulübünde Kaan ile Mina'nın kartlarında birbirinden farklı iki doğal sayı yazmaktadır. İki sayının toplamı 90, EBOB'lar… | ✓4
+mat-ck-269 | M.8.1.1.2 | z3 | k2 | Ela ile Barış, birbirinden farklı birer doğal sayı seçmiştir. Seçilen iki sayının EBOB'u 9, EKOK'u 108'dir. Yarışma sunucusu, iki… | ✓63
+mat-ck-270 | M.8.1.1.1 | z3 | k2 | Aşağıdaki tabloda bir A sayısının çarpan ağacındaki ayrışmalar verilmiştir. Her satırda soldaki sayı, sağdaki iki çarpanın çarpım… | ✓24
+mat-ck-271 | M.8.1.1.2 | z3 | k2 | Bir bilgi yarışmasında gizli, iki basamaklı bir sayı aranmaktadır. Sayı 6'ya, 8'e ve 9'a bölündüğünde her seferinde 5 kalmaktadır… | ✓77
+mat-ck-272 | M.8.1.1.3 | z3 | k2 | Paydası 60 olan, payı 30'dan büyük ve 60'tan küçük doğal sayılardan oluşan [[31|60]], [[32|60]], …, [[59|60]] kesirleri bir tahta… | ✓8
+mat-ck-273 | M.8.1.1.1 | z3 | k2 | Bir bilgi yarışmasının son sorusunda, tam 15 tane pozitif tam sayı çarpanı olan en küçük doğal sayı istenmektedir. Yarışmacılar, … | ✓144
+mat-ck-274 | M.8.1.1.2 | z3 | k2 | Bir yazılım dersinde A = 2^{4} · 3^{2} · 7 ve B = 2^{2} · 3^{3} · 5 · 7 sayıları asal çarpanlarına ayrılmış biçimleriyle verilmiş… | ✓18
+mat-ck-275 | M.8.1.1.2 | z3 | k2 | Bir sayı, 4'e, 5'e ve 6'ya bölündüğünde her seferinde 3 kalıyor; 7'ye ise kalansız bölünüyor. Bu özelliklere uyan sayılar küçükte… | ✓63
+mat-ck-326 | M.8.1.1.2 | z3 | k3 | Bir kütüphanede iki rafın kitap sayıları birbirinden farklıdır ve ikisi de 6'dan fazladır. Bu iki sayının EBOB'u 6, EKOK'u 36'dır… | ✓18
+mat-ck-327 | M.8.1.1.2 | z3 | k3 | Bir kıyı kasabasında iskeleye banliyö treni 15 dakikada bir, vapur 25 dakikada bir gelmektedir. Sabah 08.10'da ikisi iskeleye ayn… | ✓09.25
+mat-ck-328 | M.8.1.1.1 | z3 | k3 | Bir spor merkezinde 180 sporcu, her grupta eşit sayıda sporcu bulunacak biçimde gruplara ayrılacaktır. Antrenör, bir gruptaki spo… | ✓6
+mat-ck-329 | M.8.1.1.3 | z3 | k3 | Bir ödül töreninde 1'den 20'ye kadar numaralanmış 20 koltuk vardır. Numarası 20 ile aralarında asal olan ve 1'den farklı olan kol… | ✓7
+mat-ck-330 | M.8.1.1.2 | z3 | k3 | Bir müzenin girişindeki iki ışıklı tabeladan biri 8 saniyede bir, diğeri 15 saniyede bir yanıp sönmektedir. Saat 12.00'da iki tab… | ✓5
+mat-ck-331 | M.8.1.1.2 | z3 | k3 | Mert ile Selin düz bir çizgi boyunca yürümektedir. Mert'in adımları 45 cm, Selin'in adımları 60 cm uzunluğundadır. İkisi de çizgi… | ✓7
+mat-ck-332 | M.8.1.1.1 | z3 | k3 | Kerem'in şifre kartında 30 yazmaktadır. Kerem, bu sayıyı toplamları 30 olan iki asal sayının toplamı biçiminde yazmak istemektedi… | ✓3
+mat-ck-333 | M.8.1.1.2 | z3 | k3 | Bir okulda iki kulübün üye sayılarından biri 24'tür. Bu iki sayının EBOB'u 6, EKOK'u 120'dir. Buna göre diğer kulübün üye sayısı … | ✓30
+mat-ck-334 | M.8.1.1.2 | z3 | k3 | Bir belediye, iki ayrı düz yürüyüş yolunun kenarına ağaç diktirecektir. Yolların uzunlukları 84 m ve 140 m'dir; yollar birbirine … | ✓10
+mat-ck-335 | M.8.1.1.1 | z3 | k3 | Bir okul, geziye katılan öğrencileri eşit sayıda öğrenci içeren gruplara ayıracaktır; tek grup ya da her öğrencinin ayrı grup olm… | ✓36
+mat-ck-336 | M.8.1.1.2 | z3 | k3 | Bir oyuncakçıda bilyeler 6'şarlı kutulara konulduğunda 5 bilye, 8'erli kutulara konulduğunda da yine 5 bilye artmaktadır. Dükkând… | ✓5
+mat-ck-337 | M.8.1.1.1 | z3 | k3 | Bir yayınevi, 72 broşürü kutulara dağıtacaktır. Her kutuda eşit sayıda broşür bulunacak ve hiçbir broşür artmayacaktır. Kutu sayı… | ✓4
+mat-ck-338 | M.8.1.1.2 | z3 | k3 | Bir apartmanda iki görevli nöbet tutmaktadır. Ali ayın 2. gününde nöbete başlamış ve ondan sonra her 5 günde bir nöbet tutmaktadı… | ✓87
+mat-ck-339 | M.8.1.1.2 | z3 | k3 | Bir fabrikada iki makinenin seri numaraları asal çarpanlarına ayrılarak aşağıdaki tabloya yazılmıştır. Mühendis, bu iki sayının E… | ✓30
+mat-ck-340 | M.8.1.1.2 | z3 | k3 | Bir çiftçi 60 koyunu ve 84 keçiyi ağıllara yerleştirecektir. Her ağılda eşit sayıda koyun ve eşit sayıda keçi bulunacak, hiçbir h… | ✓4
+mat-ck-341 | M.8.1.1.2 | z3 | k3 | Bir kitap kulübünün elinde 84 roman ve 126 hikâye kitabı vardır. Kitaplar, her kolide eşit sayıda roman ve eşit sayıda hikâye kit… | ✓10
+mat-ck-342 | M.8.1.1.1 | z3 | k3 | Bir öğrenci, A sayısını bölen merdiveni ile asal çarpanlarına ayırmıştır. Ayırma işleminin tablosu aşağıda verilmiştir; tablonun … | ✓36
+mat-ck-343 | M.8.1.1.3 | z3 | k3 | Bir anket çalışmasında 126 öğrenciden 84'ü yüzmeyi tercih etmiştir. Bu oran [[84|126]] kesriyle gösterilmiştir. Öğretmen kesri, p… | ✓5
+mat-ck-344 | M.8.1.1.1 | z3 | k3 | Bir depodaki ürünlerin kodları 100'den küçük doğal sayılardır. Kodu, asal çarpanlarına ayrıldığında hem 2'yi hem 5'i bulunduran v… | ✓5
+mat-ck-345 | M.8.1.1.1 | z3 | k3 | Bir matematik kulübünde öğretmen, 150 sayısının bütün pozitif çarpanlarını tahtaya yazmıştır. Ardından Elif, tahtadan önce 1'i, s… | ✓8
+mat-ck-346 | M.8.1.1.3 | z3 | k3 | Defne, tuttuğu x sayısını arkadaşlarına şu ipuçlarıyla anlatmıştır: "x ile 14 aralarında asaldır ve x ile 14'ün EKOK'u 126'dır." … | ✓9
+mat-ck-347 | M.8.1.1.2 | z3 | k3 | Bir otoparkta araçlara 300 ile 500 arasında numaralı biletler verilmiştir (300 ve 500 dâhil). Bilet numarası hem 12'ye hem 18'e t… | ✓468
+mat-ck-348 | M.8.1.1.1 | z3 | k3 | Bir yarışmada 1'den 50'ye kadar numaralanmış kapılar vardır. Sunucu, numarası tam 3 pozitif çarpanı olan kapılardan en büyük numa… | ✓49
+mat-ck-349 | M.8.1.1.3 | z3 | k3 | Bir spor salonunda dolap kartları 2'den 49'a kadar (2 ve 49 dâhil) numaralanmıştır. Görevli, numarası 30 ile aralarında asal olan… | ✓3
+mat-ck-350 | M.8.1.1.2 | z3 | k3 | Bir öğretmen 100 kalem ve 160 silgiyi sınıftaki öğrencilere eşit sayıda dağıtmıştır. Dağıtım bitince hem kalemden hem silgiden 4'… | ✓12
+mat-ck-351 | M.8.1.1.2 | z3 | k3 | Bir bilgi yarışmasında Ela'nın kartında 36 yazmaktadır. Rakibi Kaan'ın kartındaki sayının 100'den küçük bir doğal sayı olduğu ve … | ✓6
+mat-ck-352 | M.8.1.1.2 | z3 | k3 | Bir kantine gelen simitler 10'arlı poşetlere konulduğunda son poşette 7 simit, 15'erli poşetlere konulduğunda ise son poşette 12 … | ✓117
+mat-ck-353 | M.8.1.1.3 | z3 | k3 | Bir matematik kulübünde öğrenciler, paydası 84 olan [[n|84]] biçimindeki kesirleri yazmaktadır. Burada n, 30'dan büyük ve 40'tan … | ✓68
+mat-ck-354 | M.8.1.1.3 | z3 | k3 | Bir yarışmada dört yarışmacının kart numaraları 40, 63, 66 ve 195'tir. Sunucu, kart numaraları aralarında asal olan iki yarışmacı… | ✓40 ve 63
+mat-ck-355 | M.8.1.1.2 | z3 | k3 | Bir pastanede bir günde satılan bütün pastaların [[5|12]]'si çikolatalı, [[7|18]]'i meyvelidir. Geri kalan pastalar başka çeşitle… | ✓[[29|36]]
+mat-ck-356 | M.8.1.1.3 | z4 | k3 | Bir belediye, 360 fidanı bir dikdörtgen düzeninde sıralara dikecektir. Tek sıralı düzen de (1 sıra) kabul edilmektedir. Sıra sayı… | ✓4
+mat-ck-357 | M.8.1.1.1 | z4 | k3 | Bir müzede sergilenen bir eserin envanter numarası 1001'dir. Kataloğu hazırlayan görevli, bu numaranın iki basamaklı pozitif çarp… | ✓3
+mat-ck-358 | M.8.1.1.2 | z4 | k3 | Ayşe 270 sayfalık, Mehmet 450 sayfalık birer kitap okumaktadır. İkisi de her gün aynı sayıda sayfa okuyacak ve kitabını tam bitir… | ✓5
+mat-ck-359 | M.8.1.1.3 | z4 | k3 | Bir bisiklet yarışmasında yarışmacılara 101'den 129'a kadar numaralar verilmiştir (101 ve 129 dâhil). Yarışma sonunda numarası 36… | ✓8
+mat-ck-360 | M.8.1.1.3 | z4 | k3 | Zeynep, iki sayı kartı seçecektir. Kartlardaki sayılar 1'den büyük, birbirinden farklı ve aralarında asaldır. Bu iki sayının EKOK… | ✓75
+mat-ck-361 | M.8.1.1.3 | z4 | k3 | Bir sergide 24 tablo iki salona dağıtılacaktır. Her salonda en az bir tablo bulunacak, iki salondaki tablo sayıları birbirinden f… | ✓4
+mat-ck-362 | M.8.1.1.1 | z4 | k3 | Bir spor kulübünde üç kardeşin yaşları ardışık üç çift sayıdır ve yaşlarının çarpımı 1680'dir. Buna göre üç kardeşin yaşları topl… | ✓36
+mat-ck-363 | M.8.1.1.2 | z4 | k3 | Bir tiyatro kulübünün gardırobunda 504 mavi ve 756 beyaz kostüm bulunmaktadır. Kostümlerin hepsi, her kutuda eşit sayıda mavi ve … | ✓18
+mat-ck-364 | M.8.1.1.1 | z4 | k3 | Bir dans kulübü, üye sayısını tam 10 farklı biçimde eşit sayıda üye içeren gruplara ayırabilmek istemektedir. Tek bir grup oluştu… | ✓48
+mat-ck-365 | M.8.1.1.1 | z4 | k3 | Bir kitapçı, 540 kitabı her rafta eşit sayıda kitap olacak ve hiç kitap açıkta kalmayacak biçimde raflara yerleştirecektir. Kitap… | ✓12
+mat-ck-366 | M.8.1.1.1 | z4 | k3 | Bir müzenin eser kodları 500'den küçük doğal sayılardır. Kodun asal çarpanları arasında hem 2 hem 3 vardır, başka asal çarpan yok… | ✓762
+mat-ck-367 | M.8.1.1.1 | z4 | k3 | Bir matematik yarışmasında Aslı'ya beş kart verilmiştir. Kartlarda 15, 18, 25, 35 ve 40 sayıları yazmaktadır. Aslı, bu beş sayıyı… | ✓4
+mat-ck-368 | M.8.1.1.2 | z4 | k3 | Bir okulun iki servis aracı sabah 06.00'da aynı anda otoparktan çıkmıştır. A servisi her 40 dakikada bir, B servisi her 50 dakika… | ✓5
+mat-ck-369 | M.8.1.1.2 | z4 | k3 | Bir öğretmen 93 çikolata ve 131 şekeri sınıftaki öğrencilere eşit sayıda dağıtmıştır. Dağıtım sonunda çikolatadan 3, şekerden 5 a… | ✓3
+mat-ck-370 | M.8.1.1.1 | z4 | k3 | Bir market, 420 süt kutusunu dikdörtgen düzeninde raflara dizecektir: her rafta eşit sayıda kutu bulunacak ve hiç kutu açıkta kal… | ✓44
+mat-ck-371 | M.8.1.1.1 | z4 | k3 | Bir yarışmada 100'den küçük numaralar kullanılmıştır. Yarışma sunucusu, numarası tam üç farklı asal çarpana sahip olan numaralar … | ✓90
+mat-ck-372 | M.8.1.1.2 | z4 | k3 | Bir apartmanda iki görevli nöbet tutmaktadır. Selim 6 günde bir, Nehir 10 günde bir nöbet tutmaktadır. Bir Pazartesi günü ikisi d… | ✓4
+mat-ck-373 | M.8.1.1.2 | z4 | k3 | Hakan, birbirinden farklı iki doğal sayı yazmıştır. Bu sayıların toplamı 135, EBOB'u 15'tir. Sayıların yazılış sırası önemli deği… | ✓3
+mat-ck-374 | M.8.1.1.2 | z4 | k3 | Bir saat atölyesinde birbirine geçmiş iki dişli çarkın küçüğünde 24, büyüğünde 40 diş vardır. Başlangıçta her çarkın boyayla işar… | ✓20
+mat-ck-375 | M.8.1.1.1 | z4 | k3 | Efe, bir pozitif tam sayının bütün pozitif çarpanlarını küçükten büyüğe doğru bir şeride yazmıştır. Şeridin baş tarafından sayıld… | ✓60
+mat-ck-016 | M.8.1.1.1 | z1 | k0 | 20 ile 40 arasındaki asal sayıların toplamı kaçtır? | ✓120
+mat-ck-017 | M.8.1.1.1 | z1 | k0 | Aşağıdaki sayılardan hangisinin pozitif tam sayı çarpanlarının sayısı en fazladır? | ✓12
+mat-ck-018 | M.8.1.1.1 | z1 | k0 | 675 sayısı asal çarpanlarına ayrılıp üslü biçimde yazıldığında 5'in üssü kaç olur? | ✓2
+mat-ck-019 | M.8.1.1.1 | z1 | k0 | 2^{2} · 3 · 7 sayısının pozitif tam sayı çarpanı olan sayı aşağıdakilerden hangisidir? | ✓28
+mat-ck-020 | M.8.1.1.1 | z1 | k0 | Aşağıdaki sayılardan hangisi asal sayıdır? | ✓61
+mat-ck-021 | M.8.1.1.2 | z1 | k0 | Aşağıdaki sayılardan hangisi hem 15'in hem 20'nin katıdır? | ✓60
+mat-ck-022 | M.8.1.1.2 | z1 | k0 | Aşağıdaki sayılardan hangisi hem 42'nin hem 56'nın böleni değildir? | ✓21
+mat-ck-023 | M.8.1.1.2 | z1 | k0 | İki doğal sayının EBOB'u 3, EKOK'u 18'dir. Bu iki sayının çarpımı kaçtır? | ✓54
+mat-ck-024 | M.8.1.1.2 | z1 | k0 | 28 ile 42 sayılarının en büyük ortak böleni (EBOB) kaçtır? | ✓14
+mat-ck-025 | M.8.1.1.2 | z1 | k0 | 9 ve 15 sayılarının en küçük ortak katı (EKOK) kaçtır? | ✓45
+mat-ck-026 | M.8.1.1.3 | z1 | k0 | Aşağıdaki sayı çiftlerinden hangisi aralarında asal değildir? | ✓12 ve 21
+mat-ck-027 | M.8.1.1.3 | z1 | k0 | Aşağıdaki sayılardan hangisi 30 ile aralarında asaldır? | ✓49
+mat-ck-028 | M.8.1.1.1 | z2 | k0 | Defne, 90 sayısının pozitif tam sayı çarpanlarının her birini ayrı bir kâğıda yazmıştır. Daha sonra yalnızca tek sayı yazılı olan… | ✓78
+mat-ck-029 | M.8.1.1.1 | z2 | k0 | Ceren, 48 sayısının pozitif tam sayı çarpanlarını, çarpımı 48 olan çiftler hâlinde tabloya yazmaktadır. Tabloya yalnızca üç çifti… | ✓33
+mat-ck-030 | M.8.1.1.1 | z2 | k0 | Bir çiçekçi, 72 gülü her buketteki gül sayısı eşit olacak ve hiç gül artmayacak biçimde buketlere ayıracaktır. Çiçekçi, buket say… | ✓6
+mat-ck-031 | M.8.1.1.1 | z2 | k0 | Bir depoda raf numaraları, etikete asal çarpanlarına ayrılmış biçimiyle de yazılmaktadır. Bir etiketin üzerinde 168 numarası ile … | ✓3
+mat-ck-032 | M.8.1.1.1 | z2 | k0 | Elif'in tuttuğu iki asal sayının çarpımı 91'dir. Buna göre bu iki asal sayının toplamı kaçtır? | ✓20
+mat-ck-033 | M.8.1.1.1 | z2 | k0 | Beyza, 240 sayısını asal çarpanlarına ayırmak için önce 24 · 10 biçiminde iki çarpana ayırmıştır. Sonra 24'ü 2 · 2 · 2 · 3, 10'u … | ✓2^{4} · 3 · 5
+mat-ck-034 | M.8.1.1.1 | z2 | k0 | Matematik öğretmeni, pozitif tam sayı çarpanlarının sayısı tam 4 olan bir sayı söyleyen ilk öğrenciye rozet vereceğini duyurmuştu… | ✓26
+mat-ck-035 | M.8.1.1.2 | z2 | k0 | Bir terzi atölyesinde uzunlukları 36 m ve 60 m olan iki kumaş şerit, hiç artık kalmayacak biçimde ve birbirine eşit uzunlukta, ol… | ✓6
+mat-ck-036 | M.8.1.1.2 | z2 | k0 | Bir iskeleden iki vapur hattının seferleri aşağıdaki tabloda verilen aralıklarla yapılmaktadır. İki hattın vapurları saat 08.00'd… | ✓5
+mat-ck-037 | M.8.1.1.2 | z2 | k0 | Selim, tahtaya iki doğal sayı yazmıştır. Sayılardan biri 12'dir. İki sayının EBOB'u 4, EKOK'u 60'tır. Buna göre tahtaya yazılan d… | ✓20
+mat-ck-038 | M.8.1.1.2 | z2 | k0 | Bir koleksiyoncunun pulları 6'şarlı sıralandığında da 8'erli sıralandığında da 5 pul artmaktadır. Koleksiyoncunun 100'den az pulu… | ✓77
+mat-ck-039 | M.8.1.1.2 | z2 | k0 | Bir okulda 1'den 100'e kadar numaralanmış 100 dolap vardır. Numarası 9'un katı olan dolapların kapağına kırmızı, numarası 12'nin … | ✓2
+mat-ck-040 | M.8.1.1.2 | z2 | k0 | Bir fotoğraf stüdyosunda 48 portre ve 72 manzara fotoğrafı bulunmaktadır. Stüdyo, bu fotoğrafları her albümde eşit sayıda portre … | ✓8
+mat-ck-041 | M.8.1.1.2 | z2 | k0 | Okul kütüphanesinde görevli Nehir Hanım her 9 günde bir, okul hizmetlisi Kemal Bey her 15 günde bir kütüphanenin zemin temizliğin… | ✓20 Aralık
+mat-ck-042 | M.8.1.1.2 | z2 | k0 | Aysel'in kasasının şifresi üç basamaklı bir sayıdır. Şifre hem 8'e hem 20'ye kalansız bölünmektedir. Buna göre Aysel'in şifresi e… | ✓120
+mat-ck-043 | M.8.1.1.2 | z2 | k0 | Bir bilgisayar oyununda kapı, aşağıdaki tabloda asal çarpanlarına ayrılmış biçimleri verilen A ve B sayılarının EKOK'u girildiğin… | ✓2700
+mat-ck-044 | M.8.1.1.3 | z2 | k0 | Bir yarışmada 40'tan büyük 50'den küçük numaralı yarışmacılar arasından, numarası 12 ile aralarında asal olanlar finale kalmaktad… | ✓4
+mat-ck-045 | M.8.1.1.3 | z2 | k0 | Bir matematik yarışmasında, aşağıdaki sayı çiftlerinden birinin EKOK'unun, çiftteki iki sayının çarpımına eşit olduğu bilinmekted… | ✓9 ve 16
+mat-ck-046 | M.8.1.1.3 | z2 | k0 | Dört arkadaş, çözdükleri soru sayısının toplam soru sayısına oranını kesir olarak yazmıştır: Ali [[14|21]], Bora [[16|27]], Cem [… | ✓Bora
+mat-ck-047 | M.8.1.1.3 | z2 | k0 | Bir bulmacada aranan sayı şu koşulları sağlamaktadır: 17'den büyüktür, 29'dan küçüktür, asal sayı değildir ve 15 ile aralarında a… | ✓3
+mat-ck-048 | M.8.1.1.1 | z3 | k0 | Bir bilgi yarışmasında sunucu, bir sayıyı aşağıdaki tabloda verilen beş ipucuyla tarif etmiştir. Yarışmacı Ece, beş ipucunun heps… | ✓70
+mat-ck-049 | M.8.1.1.1 | z3 | k0 | Kerem bir sayı tutmuştur. Tuttuğu sayı tek sayıdır (çift değildir) ve tam 6 pozitif tam sayı çarpanı vardır. Kerem'in tuttuğu say… | ✓45
+mat-ck-050 | M.8.1.1.1 | z3 | k0 | Bir yazılım şirketinin ürün kodlarından biri, asal çarpanlarına ayrılmış biçimde 2^{2} · 3 · 5^{2} olarak yazılmaktadır. Şirketin… | ✓5
+mat-ck-051 | M.8.1.1.1 | z3 | k0 | Ayşe, bir takvim yaprağında ardışık üç günün tarihini çarpmış ve sonucu 504 bulmuştur. Buna göre bu üç tarihin toplamı kaçtır? | ✓24
+mat-ck-052 | M.8.1.1.1 | z3 | k0 | Bir kargo firması, paketlerin takip kodunu 2^{x} · 3^{2} sayısı olarak üretmektedir. Bu takip kodunun tam 18 pozitif tam sayı çar… | ✓5
+mat-ck-053 | M.8.1.1.2 | z3 | k0 | Bir okul, aşağıdaki tabloda sayıları verilen öğrenci ve velilerle bir gezi düzenleyecektir. Her minibüste eşit sayıda öğrenci ve … | ✓6
+mat-ck-054 | M.8.1.1.2 | z3 | k0 | Bir balkondaki kaktüs ve sardunya, aşağıdaki tabloda verilen düzende sulanmaktadır. Günler yılbaşından itibaren 1, 2, 3, … diye n… | ✓3
+mat-ck-055 | M.8.1.1.2 | z3 | k0 | Bir okul, öğrencilere eşit sayıda kalem ve eşit sayıda silgi dağıtmak üzere 98 kalem ve 138 silgi almıştır. Her öğrenciye aynı sa… | ✓12
+mat-ck-056 | M.8.1.1.2 | z3 | k0 | Bir mekanik saatte iç içe geçmiş iki dişli çarktan büyüğünün 30, küçüğünün 18 dişi vardır. Başlangıçta çarkların işaretli birer d… | ✓12
+mat-ck-057 | M.8.1.1.2 | z3 | k0 | Bir belediye, 360 m uzunluğundaki düz bir yürüyüş yolunun iki ucu dâhil olmak üzere kenarına çınar ve çam fidanı dikecektir. Çına… | ✓11
+mat-ck-058 | M.8.1.1.2 | z3 | k0 | Bir konserde sıraya giren 120 kişi, geliş sırasına göre 1'den 120'ye kadar numaralanmıştır. Numarası 5'in katı olan kişilere bile… | ✓36
+mat-ck-059 | M.8.1.1.2 | z3 | k0 | Bir hayvanat bahçesinde yunus ve fok gösterileri, aşağıdaki tabloda verilen aralıklarla tekrarlanmaktadır. İki gösteri sabah 09.0… | ✓13.30
+mat-ck-060 | M.8.1.1.2 | z3 | k0 | Seda'nın bilyeleri 12'şerli sıralandığında 10, 18'erli sıralandığında 16 bilye artmaktadır. Seda'nın bilye sayısı üç basamaklıdır… | ✓106
+mat-ck-061 | M.8.1.1.3 | z3 | k0 | Bir kitapta ardışık iki sayfa numarasının en küçük ortak katı 306'dır. Buna göre bu iki sayfa numarasının toplamı kaçtır? | ✓35
+mat-ck-062 | M.8.1.1.3 | z3 | k0 | Elif ile Kaan birer doğal sayı tutmuştur. İkisi de tuttuğu sayının 1'den büyük olduğunu söylemiştir. Sayıların çarpımı 72'dir ve … | ✓17
+mat-ck-063 | M.8.1.1.3 | z3 | k0 | Tuna, tahtaya 84 ve x sayılarını yazmıştır. İki sayı da bu iki sayının EBOB'una bölündüğünde bölümler sırasıyla 3 ve 5 çıkmıştır.… | ✓140
+mat-ck-064 | M.8.1.1.1 | z4 | k0 | Bir şirket, ürün kodlarını şu kurala göre üretmektedir: Kod iki basamaklı bir doğal sayıdır ve tam 3 farklı asal çarpanı vardır. … | ✓8
+mat-ck-065 | M.8.1.1.1 | z4 | k0 | Bir spor şenliğine katılan 180 öğrenci, her takımda eşit sayıda öğrenci olacak ve hiçbir öğrenci açıkta kalmayacak biçimde takıml… | ✓10
+mat-ck-066 | M.8.1.1.1 | z4 | k0 | Bir oyunun gizli odasına girmek için, 100'den küçük ve tam 3 pozitif tam sayı çarpanı olan her sayı ayrı bir anahtar kartına yazı… | ✓4
+mat-ck-067 | M.8.1.1.1 | z4 | k0 | Tolga'nın tuttuğu sayı 20'dir ve 20'nin tam 6 pozitif tam sayı çarpanı vardır. Tolga, tuttuğu sayıyı k ile çarparak yeni bir sayı… | ✓3
+mat-ck-068 | M.8.1.1.2 | z4 | k0 | Bir fen laboratuvarındaki saksı sayıları aşağıdaki tabloda verilmiştir. Saksılar sergi masalarına şu kurallara göre dizilecektir:… | ✓4
+mat-ck-069 | M.8.1.1.2 | z4 | k0 | Kerem, iki basamaklı bir b sayısı tutmuştur. Bu sayı ile 60'ın en büyük ortak böleni 12'dir. Buna göre Kerem'in tuttuğu sayı kaç … | ✓7
+mat-ck-070 | M.8.1.1.2 | z4 | k0 | Dairesel bir koşu pistinde kırmızı, mavi ve yeşil formalı üç koşucu, aşağıdaki tabloda verilen sürelerde birer tur atmaktadır. He… | ✓6
+mat-ck-071 | M.8.1.1.2 | z4 | k0 | Mert ve Ayla birer iki basamaklı doğal sayı yazmıştır. Yazdıkları iki sayı birbirinden farklıdır; EBOB'ları 8, EKOK'ları 48'dir. … | ✓40
+mat-ck-072 | M.8.1.1.2 | z4 | k0 | Bir apartmanda temizlik görevlisi Murat Bey 10 günde bir, bahçıvan Selma Hanım 15 günde bir apartmana uğramaktadır. İkisi bir sal… | ✓Pazartesi
+mat-ck-073 | M.8.1.1.3 | z4 | k0 | Elif'in şifresi iki basamaklı bir x sayısıdır. Şifre hakkında şu bilgiler verilmiştir: x ile 28 aralarında asaldır; x ile 45'in e… | ✓3
+mat-ck-074 | M.8.1.1.3 | z4 | k0 | Bir satranç kulübünde formaları 2'den 9'a kadar numaralanmış 8 öğrenci vardır. Eğitmen, forma numaraları aralarında asal olan iki… | ✓19
+mat-ck-075 | M.8.1.1.3 | z4 | k0 | Deniz'in tuttuğu sayı üç basamaklıdır, asal sayı değildir ve 30 ile aralarında asaldır. Buna göre Deniz'in tuttuğu sayı en az kaç… | ✓119

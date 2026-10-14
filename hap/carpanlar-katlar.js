@@ -25,7 +25,7 @@ window.LGS_HAP["carpanlar-katlar"] = {
         "**Çarpan ağacı:** Sayıyı iki çarpana ayır, asal olmayan dalları ayırmayı sürdür. Her sayı altındaki ikilinin **çarpımıdır**; hangi ikiliyle başlarsan başla uçlarda aynı asallar çıkar.",
         "Tekrarlanan asalları **üslü** yaz: 2 · 2 · 3 · 3 · 3 · 5 = 2^{2} · 3^{3} · 5.",
         "**Farklı asal çarpanlar** tekrarlar sayılmadan yazılır: 2^{2} · 3^{3} · 5 sayısının farklı asal çarpanları 2, 3 ve 5'tir. Her çarpanı da bu asallardan, üslerini aşmadan kurulur: 2 · 3^{2} = 18 çarpandır, 7 çarpanı olamaz.",
-        "**Çarpan sayısı için üsleri birer artırıp çarp:** 2^{2} · 3^{3} · 5 sayısının (2 + 1) · (3 + 1) · (1 + 1) = 24 pozitif tam sayı çarpanı vardır. Çarpan çiftleri bunu doğrulamak için kullanılır."
+        "**Çarpan sayısı için üsleri birer artırıp çarp:** 2^{2} · 3^{3} · 5 sayısının (2 + 1) · (3 + 1) · (1 + 1) = 24 pozitif tam sayı çarpanı vardır. Çarpan çiftleri bunu doğrulamak için kullanılır. Çarpan sayısı tek olan sayılar bir sayının kendisiyle çarpımıdır (a · a). Tam 3 çarpanı olan sayı, (2 + 1) = 3 olduğundan bir asalın karesidir: 25 → 1, 5, 25."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Sayı</th><th>Asal bölen</th></tr><tr><td>540</td><td>2</td></tr><tr><td>270</td><td>2</td></tr><tr><td>135</td><td>3</td></tr><tr><td>45</td><td>3</td></tr><tr><td>15</td><td>3</td></tr><tr><td>5</td><td>5</td></tr><tr><td>1</td><td>–</td></tr></table>",
       ornekler: [
@@ -63,7 +63,8 @@ window.LGS_HAP["carpanlar-katlar"] = {
         "**En az birinde olanları sayma:** Bir aralıkta a'nın ya da b'nin katı olanları sayarken ikisine birden uyanları bir kez say: (a'nın katları) + (b'nin katları) − (EKOK'un katları). 1-60 arasında 4'ün ya da 6'nın katı olan 15 + 10 − 5 = 20 sayı vardır.",
         "Gün sorularında gün sayısını 7'ye böl, kalana bak; 7 gün sonra yine aynı gündür.",
         "**Kesim ve dikim:** Düz bir ipten n parça çıkarmak için n − 1 kesim yeter. İki ucuna da direk dikilen açık yolda direk sayısı aralık sayısından 1 fazla, kapalı bir hatta ise aralık sayısına eşittir.",
-        "**Kalanlı sorular:** 10'a da 15'e de bölününce 4 artan sayı, “30'un katının 4 fazlası”dır: 34, 64, 94, … Kalanlar farklı ama tam bölünmeye eksik aynıysa (10'a 7, 15'e 12 kalan) sayı “30'un katının 3 eksiği”dir: 27, 57, 87, …"
+        "**Kalanlı sorular:** 10'a da 15'e de bölününce 4 artan sayı, “30'un katının 4 fazlası”dır: 34, 64, 94, … Kalanlar farklı ama tam bölünmeye eksik aynıysa (10'a 7, 15'e 12 kalan) sayı “30'un katının 3 eksiği”dir: 27, 57, 87, …",
+        "**Kalanlı EBOB:** Bölünce artan kalanı önce çıkar, sonra kalan sayıların EBOB'unu al; bölen, kalandan büyük olmalıdır. 50 ve 62 bir sayıya bölününce ikisinde de 2 artıyorsa 48 ile 60'ın ortak bölenlerine bakılır: EBOB 12, bölenler 3, 4, 6, 12; kalan 2 olduğundan bölen 2'den büyüktür."
       ],
       tablo: "<table class=\"tablo\"><tr><th></th><th>EBOB</th><th>EKOK</th></tr><tr><td>Eylem</td><td>Bölüyorsun</td><td>Buluşturuyorsun</td></tr><tr><td>Tipik kök</td><td>“en uzun parça”, “en çok grup”</td><td>“ilk kez birlikte”, “en az kaç tane”</td></tr><tr><td>Sonuç</td><td>Sayılardan büyük değil</td><td>Sayılardan küçük değil</td></tr><tr><td>Durum</td><td>Kesme, eşit gruplar</td><td>Servisler, ışıklar</td></tr></table>",
       ornekler: [
