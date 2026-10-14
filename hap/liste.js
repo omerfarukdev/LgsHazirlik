@@ -56,5 +56,7 @@ window.LGS_HAP_LISTE = [
   "ing-7-tourism.js",
   "ing-8-chores.js",
   "ing-9-science.js",
-  "ing-10-natural-forces.js"
+  "ing-10-natural-forces.js",
+  "eslik-benzerlik.js",
+  "madde-donguleri.js"
 ];
