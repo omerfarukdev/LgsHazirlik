@@ -160,5 +160,7 @@ window.LGS_MANIFEST = [
   "mat-esitsizlikler-1.js",
   "mat-esitsizlikler-2.js",
   "tur-paragrafta-anlam-57.js",
-  "tur-paragrafta-anlam-58.js"
+  "tur-paragrafta-anlam-58.js",
+  "tur-paragrafta-anlam-59.js",
+  "tur-paragrafta-anlam-60.js"
 ];
