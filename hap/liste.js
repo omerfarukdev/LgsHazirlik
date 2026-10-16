@@ -58,5 +58,7 @@ window.LGS_HAP_LISTE = [
   "ing-9-science.js",
   "ing-10-natural-forces.js",
   "eslik-benzerlik.js",
-  "madde-donguleri.js"
+  "madde-donguleri.js",
+  "anlatim-bozukluklari.js",
+  "metin-turleri.js"
 ];

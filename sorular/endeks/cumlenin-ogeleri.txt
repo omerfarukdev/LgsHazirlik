@@ -83,3 +83,218 @@ tur-og-007 | T.8.4.18 | z1 | k0 | Kasabanın en eski çınarını, şu kalın g�
 tur-og-008 | T.8.4.18 | z1 | k0 | Gemi, ilk yolcularını sisli bir sabahta limandan aldı. Bu cümlede "limandan" sözü cümlenin hangi ögesidir? | ✓yer tamlayıcısı
 tur-og-009 | T.8.4.18 | z2 | k0 | Çarşıdaki küçük kuyumcu, bozulan saatleri de onarıyor. Aşağıdaki cümle beş ögeden oluşmaktadır: Kuyumcu, tamir ettiği saatleri he… | ✓vitrine
 tur-og-010 | T.8.4.18 | z3 | k0 | Şehrin eski garında yıllardır bekleyen bir lokomotif, geçen yıl küçük bir müzeye dönüştürüldü. Ziyaretçiler hem kabine çıkabiliyo… | ✓Rehber, çocukları makinist kabinine tek tek …
+tur-og-126 | T.8.4.18 | z1 | k1 | Küçük kaplumbağa güneşli kıyıya ağır ağır yürüdü. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓yürüdü
+tur-og-127 | T.8.4.18 | z1 | k1 | Dün gece balkondaki saksıya kuru yapraklar düştü. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓kuru yapraklar
+tur-og-128 | T.8.4.18 | z1 | k1 | Müzik öğretmenimiz yeni şarkıyı sınıfa öğretti. Bu cümlenin nesnesi aşağıdakilerden hangisidir? | ✓yeni şarkıyı
+tur-og-129 | T.8.4.18 | z1 | k1 | Nöbetçi öğrenci tebeşirleri dolaptan aldı. Bu cümlenin yer tamlayıcısı (dolaylı tümleç) aşağıdakilerden hangisidir? | ✓dolaptan
+tur-og-130 | T.8.4.18 | z1 | k1 | Yolcular peronda sabırla bekledi. Bu cümlenin zarf tamlayıcısı aşağıdakilerden hangisidir? | ✓sabırla
+tur-og-131 | T.8.4.18 | z1 | k1 | Terzi çırağı düğmeleri tek tek dikti. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓özne
+tur-og-132 | T.8.4.18 | z1 | k1 | (I) Gece boyunca yağmur yağdı. (II) Sınıfın penceresi sabahtan beri açıktı. (III) Kuzenim yarın bize gelecek. (IV) Dedem bahçede … | ✓IV
+tur-og-133 | T.8.4.18 | z1 | k1 | Bahçemizde üç tane incir ağacı var. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓var
+tur-og-134 | T.8.4.18 | z1 | k1 | Sınıfın kapısını yavaşça çaldım. Bu cümlenin gizli öznesi aşağıdakilerden hangisidir? | ✓ben
+tur-og-135 | T.8.4.18 | z1 | k1 | (I) Sabah erkenden marangoz geldi. (II) Sınıf temsilcisi kapıyı kilitledi. (III) Pazar günü bütün aile piknikteydi. (IV) Parkta u… | ✓IV
+tur-og-136 | T.8.4.18 | z1 | k1 | Karıncalar yuvalarını yağmurdan önce kapattı. Bu cümle kaç ögeden oluşmaktadır? | ✓Dört
+tur-og-137 | T.8.4.18 | z1 | k1 | Gökyüzü birden karardı. Bu cümle kaç ögeden oluşmaktadır? | ✓Üç
+tur-og-138 | T.8.4.18 | z1 | k1 | (I) Arılar sabahleyin çiçeklere yöneldi. (II) Ağaçtaki serçe pencerenin pervazına kondu. (III) Kurbağa hızla suya atladı. (IV) Kı… | ✓II
+tur-og-139 | T.8.4.18 | z1 | k1 | Bakkal amca kasaları sabahleyin depodan getirdi. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓belirtili nesne
+tur-og-140 | T.8.4.18 | z1 | k1 | Hasan terlikleri kapının önüne bıraktı. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓yer tamlayıcısı
+tur-og-141 | T.8.4.18 | z1 | k1 | Kuzgun hızla kayalıklara indi. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓zarf tamlayıcısı
+tur-og-142 | T.8.4.18 | z1 | k1 | Çırak her sabah çay demledi. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓belirtisiz nesne
+tur-og-143 | T.8.4.18 | z1 | k1 | Türkçede vurgulanan öge, yüklemden hemen önce gelen ögedir. Mina kitabı rafa dün koydu. Buna göre bu cümlede vurgulanan öge aşağı… | ✓zarf tamlayıcısı
+tur-og-144 | T.8.4.18 | z1 | k1 | Türkçede vurgulanan öge, yüklemden hemen önce gelen ögedir. Parkta yaşlı bir adam gazete okudu. Buna göre bu cümlede vurgulanan ö… | ✓belirtisiz nesne
+tur-og-145 | T.8.4.18 | z1 | k1 | Ara söz, kendinden önce gelen sözü açıklamak için iki virgül arasına alınan sözdür. Kütüphanemizin sorumlusu, Gül Hanım, rafları … | ✓Gül Hanım
+tur-og-146 | T.8.4.18 | z1 | k1 | Ara söz, kendinden önce gelen ögeyi açıklar. Okulun yeni aşçısını, Nermin Hanım'ı, öğrenciler çok sevdi. Bu cümledeki ara söz han… | ✓belirtili nesneyi
+tur-og-147 | T.8.4.18 | z1 | k1 | (I) Kediler öğleye kadar uyudu. (II) Anneannem yün çorapları hızla ördü. (III) Yarınki toplantı oldukça uzun sürecek. (IV) Teknem… | ✓IV
+tur-og-148 | T.8.4.18 | z1 | k1 | (I) Güneş doğdu. (II) Kuşlar sabahleyin ötüyor. (III) Ablam mektubu yazdı. (IV) Dedem sandıktan eski bir fotoğraf çıkardı. Numara… | ✓I
+tur-og-149 | T.8.4.18 | z1 | k1 | (I) Annem dolabı boyadı. (II) Ablam akşamları roman okur. (III) Ali kapıyı açtı. (IV) Babam sofrayı kurdu. Numaralanmış cümleleri… | ✓II
+tur-og-150 | T.8.4.18 | z2 | k1 | Teyzem pazardan taze biber aldı. Bu cümle kaç ögeden oluşmaktadır? | ✓Dört
+tur-og-151 | T.8.4.18 | z2 | k1 | (I) Kutup tilkisi karlı arazide avını bekler. (II) Kürkü kışın bembeyaz olur. (III) Yazın tüyleri kahverengiye döner. (IV) Yuvası… | ✓I
+tur-og-152 | T.8.4.18 | z2 | k1 | (I) Çocuklar havuzdan hızla çıktı. (II) Duvardaki saat gece yarısı durdu. (III) Kargo görevlisi paketi kapıya bıraktı. (IV) Kamyo… | ✓II
+tur-og-153 | T.8.4.18 | z2 | k1 | Hakan sahilde bulduğu kabuğu sakladı. Bu cümle kaç ögeden oluşmaktadır? | ✓Üç
+tur-og-154 | T.8.4.18 | z2 | k1 | (I) Ressam tabloyu atölyesinde bitirdi. (II) Sabaha doğru yağmur durdu. (III) Kuzenim bana mektup yazdı. (IV) Elçin dün akşam ark… | ✓IV
+tur-og-155 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda “Pazarcı taze incirleri sabah erkenden tezgâha dizdi.” cümlesindeki bazı sözler ve bu sözlere verilen öge adlar… | ✓III
+tur-og-156 | T.8.4.18 | z2 | k1 | Nöbetçi öğrenciler panoları - - - - temizledi. Bu cümlede boş bırakılan yere, işin ne zaman yapıldığını bildiren bir söz getirile… | ✓teneffüste
+tur-og-157 | T.8.4.18 | z2 | k1 | Sınıf başkanı - - - - öğretmenimize teslim etti. Bu cümlede boş bırakılan yere getirilecek söz belirtili nesne olacaktır. Buna gö… | ✓yoklama listesini
+tur-og-158 | T.8.4.18 | z2 | k1 | Türkçede vurgulanan öge, yükleme en yakın olan ögedir. Aşağıdaki cümlelerin hangisinde vurgulanan öge öznedir? | ✓Kasayı dün Selin kapattı.
+tur-og-159 | T.8.4.18 | z2 | k1 | Aşağıdaki tabloda bir cümlenin ögeleri ve dizilişi gösterilmiştir. Aşağıdaki cümlelerden hangisi bu öge dizilişine uymaktadır? | ✓Bilgisayarcı odasında kabloyu değiştirdi.
+tur-og-160 | T.8.4.18 | z2 | k1 | Aşağıdaki cümleler bir okulun bir gününü anlatmaktadır. Bu cümlelerin hangisinin öge dizilişi diğerlerinden farklıdır? | ✓Teknisyen bilgisayarı laboratuvara taşıdı.
+tur-og-161 | T.8.4.18 | z2 | k1 | Aşağıdaki cümlelerden hangisi ögelerine doğru ayrılmıştır? | ✓Gece nöbetçisi / sokağın başında / eski bir …
+tur-og-162 | T.8.4.18 | z2 | k1 | Raftaki kitaplar tozlanmıştı. Bu cümlede altı çizili söz aşağıdaki ögelerden hangisidir? | ✓özne
+tur-og-163 | T.8.4.18 | z2 | k1 | Aşağıdaki cümlelerde altı çizili sözler verilmiştir. Bu sözlerden hangisi zarf tamlayıcısıdır? | ✓II
+tur-og-164 | T.8.4.18 | z2 | k1 | Kardeşim kuzenleriyle bu hafta sonu Bursa'ya gidecek. Bu cümle kaç ögeden oluşmaktadır? | ✓Beş
+tur-og-165 | T.8.4.18 | z2 | k1 | (I) Önce unu eledim. (II) Annem yumurtaları kırdı. (III) Karışım yarım saat dinlendi. (IV) Kek fırında kırk dakika pişti. Numaral… | ✓I
+tur-og-166 | T.8.4.18 | z2 | k1 | Kulüp odasında altı satranç takımı vardı. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓altı satranç takımı
+tur-og-167 | T.8.4.18 | z2 | k1 | Ara söz ayrı bir öge sayılmaz. Evimizin küçük misafiri, yani Pamuk, uyudu. Bu cümle kaç ögeden oluşmaktadır? | ✓İki
+tur-og-168 | T.8.4.18 | z2 | k1 | (I) Misafirler akşamüstü sessizce ayrıldı. (II) Çantamı dolaptan çıkardım. (III) Babam çocukları okula bıraktı. (IV) Sabaha kadar… | ✓II
+tur-og-169 | T.8.4.18 | z2 | k1 | (I) Ninem öğle yemeğini gölgeye serdi. (II) Kuzenim traktörü ahırdan çıkardı. (III) Çiftçiler tarlaya erkenden indi. (IV) Sulama … | ✓III
+tur-og-170 | T.8.4.18 | z2 | k1 | Kapıyı çalan çocuk bana bir mektup uzattı. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓Kapıyı çalan çocuk
+tur-og-171 | T.8.4.18 | z2 | k1 | (I) Babam eski halıyı bodrumdan balkona taşıdı. (II) Sınıfa giren öğretmen tahtaya bir soru yazdı. (III) Hemşire hastaya ilacı ve… | ✓I
+tur-og-172 | T.8.4.18 | z2 | k1 | Aşağıdaki cümlelerin hangisinin gizli öznesi “siz”dir? | ✓Bu akşam bize gelirsiniz.
+tur-og-173 | T.8.4.18 | z2 | k1 | Aşağıdaki cümlelerde altı çizili sözler verilmiştir. Bu sözlerden hangisi nesnedir? | ✓IV
+tur-og-174 | T.8.4.18 | z2 | k1 | Hemşire yaşlı hastaya ilacı dikkatle verdi. Bu cümlede “Kime verdi?” sorusunun yanıtı olan öge aşağıdakilerden hangisidir? | ✓yaşlı hastaya
+tur-og-175 | T.8.4.18 | z2 | k1 | (I) Konuklar gece yarısında sessizce ayrıldı. (II) Gezginler akşama doğru köye vardı. (III) Kamyon sabahtan beri yoldan geçmedi. … | ✓I
+tur-og-226 | T.8.4.18 | z2 | k2 | Arıcı Hasan Amca yaz boyunca kovanlara göz kulak oldu. Bu cümlenin yüklemi ile öznesi sırasıyla aşağıdakilerden hangisidir? | ✓göz kulak oldu – Arıcı Hasan Amca
+tur-og-227 | T.8.4.18 | z2 | k2 | (I) Çiftçi Recep sabah erkenden tohum hazırladı. (II) Çocuklar bütün gün bahçeye koştu. (III) Kırlangıçlar tarlanın üstünde sessi… | ✓I
+tur-og-228 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir kamp gününü anlatmaktadır. Bu cümlelerin hangisinin gizli öznesi 'biz'dir? | ✓Akşam yemeğinden sonra göl kıyısında dolaştı…
+tur-og-229 | T.8.4.18 | z2 | k2 | (I) Gökyüzündeki en parlak yıldızlar tepemizde parlıyordu. (II) Öğrenciler teleskopa sırayla baktı. (III) Gece yarısı meteorlar y… | ✓II
+tur-og-230 | T.8.4.18 | z2 | k2 | Fırıncı telaştan unu yere döktü. Bu cümlede altı çizili söz aşağıdakilerden hangisidir? | ✓zarf tamlayıcısı
+tur-og-231 | T.8.4.18 | z2 | k2 | Vurgulanan öge, yüklemden hemen önce gelen ögedir. Aşağıdaki cümlelerin hepsinde aynı sözler kullanılmış, yalnızca sıraları değiş… | ✓Bu sabah fırıncı tezgâha çörekleri dizdi.
+tur-og-232 | T.8.4.18 | z2 | k2 | Ara söz, kendinden önce gelen ögeyi açıklamak için iki virgül arasına alınan sözdür. Aşağıdaki cümlelerin hangisinde ara söz kull… | ✓Müzik öğretmenimiz, Sevgi Hanım, korodaki öğ…
+tur-og-233 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir köyde geçen farklı olayları anlatmaktadır. Bu cümlelerin hangisinde iki yer tamlayıcısı bulunur? | ✓Çiftçi buğdayı ambardan kamyona yükledi.
+tur-og-234 | T.8.4.18 | z2 | k2 | Teyzem pazardan taze nane getirdi. Bu cümlede altı çizili söz hangi ögedir ve yükleme hangi soru sorularak bulunur? | ✓belirtisiz nesne – Ne getirdi?
+tur-og-235 | T.8.4.18 | z2 | k2 | Aşağıda aynı cümlenin ögelere ayrılmış dört biçimi verilmiştir. Eğik çizgiler öge sınırlarını göstermektedir. Kuzenim geçen hafta… | ✓Kuzenim / geçen hafta / dedemin bahçesinden …
+tur-og-236 | T.8.4.18 | z2 | k2 | (I) Teyzem sepete taze kekik koydu. (II) Bahçıvan kuruyan dalları budadı. (III) Aşçı çorbaya biraz nane kattı. (IV) Fırında taze … | ✓IV
+tur-og-237 | T.8.4.18 | z2 | k2 | Aşağıdaki cümlelerin hepsinde ödev konusu geçmektedir. (I) Ayşe ödevini öğretmenine gösterdi. (II) Ayşe ödevini akşama kadar biti… | ✓I
+tur-og-238 | T.8.4.18 | z2 | k2 | "Şehrin eski fırıncısı, Cemal Usta, bu sabah ilk ekmeği fırından çıkardı." cümlesinde 'Cemal Usta' sözü ara sözdür ve ara söz ayr… | ✓5
+tur-og-239 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir şehirde geçen farklı olayları anlatmaktadır. Bu cümlelerin hangisinde yer tamlayıcısı yoktur? | ✓Gece boyunca şiddetli yağmur yağdı.
+tur-og-240 | T.8.4.18 | z2 | k2 | "Bu akşam otobüsle sinemaya gideceğiz." cümlesinde öznenin sözcük olarak yazılmadığı (gizli özne) bilinmektedir. Gizli özne, öge … | ✓zarf tamlayıcısı – zarf tamlayıcısı – yer ta…
+tur-og-241 | T.8.4.18 | z2 | k2 | "Terzi Nuri Usta dükkânının vitrinine gece boyunca yeni bir elbise astı." cümlesindeki bazı sözler ve bu sözlere verilen öge adla… | ✓I
+tur-og-242 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir ailenin gündelik işlerini anlatmaktadır. (I) Ablam bahçedeki fidanları sabahleyin suladı. (II) Annem pazar… | ✓I
+tur-og-243 | T.8.4.18 | z2 | k2 | (I) Ayça apartmanın girişinde bekledi. (II) Mutfağın penceresi sabahtan beri açıktı. (III) Dedem çocukların oyuncaklarını topladı… | ✓III
+tur-og-244 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir mahalle bahçesinde geçen farklı olayları anlatmaktadır. Bu cümlelerin hangisinde hem gizli özne hem belirt… | ✓Balkondaki çiçekleri bütün gün suladık.
+tur-og-245 | T.8.4.18 | z2 | k2 | Dedem hasır şapkasını bahçedeki ağacın dalına astı. Bu cümlede altı çizili söz ile 'hasır şapkasını' sözü sırasıyla aşağıdakilerd… | ✓yer tamlayıcısı – belirtili nesne
+tur-og-246 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir okulun bahçesinde geçen farklı olayları anlatmaktadır. Bu cümlelerin hangisinde hem zamanı hem durumu bild… | ✓Nöbetçi akşama kadar kapıda sabırla bekledi.
+tur-og-247 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir mahalle bahçesinde geçen olayları anlatmaktadır. Bu cümlelerin hangisi bir nesneyle başlamaktadır? | ✓Pencereyi bütün gün rüzgâr zorladı.
+tur-og-248 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler bir okulun spor etkinliklerinde geçen olayları anlatmaktadır. Bu cümlelerin hangisinin öge sayısı diğerlerinde… | ✓Kaptan topu bugün sahaya hızla attı.
+tur-og-249 | T.8.4.18 | z2 | k2 | Aşağıdaki cümleler farklı günlerde yaşanan olayları anlatmaktadır. Bu cümlelerin hangisinin yüklemi birden fazla sözcükten oluşma… | ✓Takım kaptanı herkese söz verdi.
+tur-og-250 | T.8.4.18 | z2 | k2 | Aşağıda aynı cümlenin ögelerine ayrılmış dört biçimi verilmiştir. Eğik çizgiler öge sınırlarını göstermektedir. Kardeşim kütüphan… | ✓Kardeşim / kütüphaneden aldığı kitabı / heme…
+tur-og-251 | T.8.4.18 | z2 | k2 | "Babam akşamleyin çimleri suladı." cümlesinde altı çizili söz belirtili nesnedir. Aşağıdaki cümlelerin hangisinde altı çizili söz… | ✓Kuzenim yeni aldığı gömleği bugün giydi.
+tur-og-252 | T.8.4.18 | z3 | k2 | Dar bir körfezin girişinde duran eski bir deniz fenerinde görevli bekçi, geceleri ışığın hiç sönmemesi için çalışır. Bekçinin ve … | ✓II
+tur-og-253 | T.8.4.18 | z3 | k2 | Bir köyde hasat günleri başlamıştır. Köylüler sabahtan akşama kadar çalışmakta, çocuklar da büyüklerine yardım etmektedir. Hasatl… | ✓I
+tur-og-254 | T.8.4.18 | z3 | k2 | Orman kıyısında kurulan yaz kampında geçen günler, katılımcıların defterlerine aşağıdaki cümlelerle yazılmıştır. (I) Rehber bize … | ✓IV
+tur-og-255 | T.8.4.18 | z3 | k2 | Aşağıdaki cümleler farklı günlerde yaşanmış olaylardan alınmıştır. Bu cümlelerin hangisi en çok ögeden oluşmaktadır? | ✓Genç kemancı dün akşam salonda çırağına bir …
+tur-og-256 | T.8.4.18 | z3 | k2 | Bir satranç turnuvasıyla ilgili şu cümleler yazılmıştır. Ara sözler ayrı bir öge sayılmaz. (I) Kulüp başkanımız, kırk yıllık bir … | ✓II
+tur-og-257 | T.8.4.18 | z3 | k2 | Vurgulanan öge, yüklemden hemen önce gelen ögedir. Cemre, arkadaşı Ece'ye "Doğum günü pastasını nereye koydun?" diye soruyor. Ece… | ✓Pastayı dün akşam dolaba koydum.
+tur-og-258 | T.8.4.18 | z3 | k2 | Aşağıdaki cümlelerin hepsinde "ile" sözcüğü ya da "-la, -le" eki ile kurulmuş bir söz bulunmaktadır. Bu cümlelerin hangisinde bu … | ✓Kar ile tipi gece köy yolunu kapattı.
+tur-og-259 | T.8.4.18 | z3 | k2 | "Ne?" sorusu hem öznenin hem belirtisiz nesnenin bulunmasında kullanılabilir. Bu yüzden önce işi yapanı bulmak gerekir. Aşağıdaki… | ✓Annem bayram için baklava yaptı.
+tur-og-260 | T.8.4.18 | z3 | k2 | Bir tamirhanede çalışan ustalar, işlerini hızlı yapabilmek için araçlarını özenle seçerler. Aşağıdaki cümlelerin her birinde "-la… | ✓Usta kapının kilidini tornavidayla söktü.
+tur-og-261 | T.8.4.18 | z3 | k2 | Aşağıdaki tabloda bir cümlenin öge dizilişi gösterilmiştir. Buna göre aşağıdaki cümlelerin hangisinin ögeleri bu sırayla dizilmiş… | ✓Çukurun kenarına işçiler kum döktü.
+tur-og-262 | T.8.4.18 | z3 | k2 | Aşağıdaki cümlelerde altı çizili sözlerden üçü ara sözdür. Bu cümlelerin hangisinde altı çizili söz ara söz değildir? | ✓Marangoz kapıyı, pencereyi, dolabı ve sandığ…
+tur-og-263 | T.8.4.18 | z3 | k2 | Aşağıdaki cümleler eski bir mahallenin sokaklarında geçen farklı olayları anlatmaktadır. Bu cümlelerin hangisi iki ögeden oluşmak… | ✓Kapının yanındaki kırık sandalye devrildi.
+tur-og-264 | T.8.4.18 | z3 | k2 | Fiilimsiler tek başına yüklem olamaz, ancak ek fiil alırsa yüklem olabilir. Aşağıdaki cümlelerin hangisinde altı çizili söz yükle… | ✓Kampın en büyük kuralı çöpleri doğaya atmama…
+tur-og-265 | T.8.4.18 | z3 | k2 | Aşağıdaki cümleler bir mahallede geçen sıradan bir günü anlatmaktadır. (I) Bahçedeki kediler bütün gün çimenlerde uyudu. (II) Mek… | ✓II
+tur-og-266 | T.8.4.18 | z3 | k2 | Okulun kütüphanesinde yaşanan olaylarla ilgili şu cümleler yazılmıştır. (I) Kütüphaneci bizi kapının önünde bekledi. (II) Öğretme… | ✓IV
+tur-og-267 | T.8.4.18 | z3 | k2 | Aşağıdaki cümleler bir ailenin hafta sonu yaptığı işleri anlatmaktadır. (I) Kamp ateşini akşamleyin yaktık. (II) Kardeşim kapıyı … | ✓III
+tur-og-268 | T.8.4.18 | z3 | k2 | "Kardeşim kütüphaneden aldığı romanı hafta sonunda bitirdi." cümlesindeki bazı sözler ve bu sözlere verilen öge adları aşağıdaki … | ✓II
+tur-og-269 | T.8.4.18 | z3 | k2 | Vurgulanan öge, yüklemden hemen önce gelen ögedir. "Geçen yaz dedemin köyünde, Karadeniz'in en güzel kasabalarından birinde, bir … | ✓Ara söz yer tamlayıcısını açıklar; vurgulana…
+tur-og-270 | T.8.4.18 | z3 | k2 | Bir hayvan belgeselinde anlatılanlardan alınan aşağıdaki cümleler numaralanmıştır. (I) Kartallar yüksek kayalıklara yuvalarını öz… | ✓IV
+tur-og-271 | T.8.4.18 | z3 | k2 | Görselde bir cümlenin öge dizilişi gösterilmiştir. Aşağıdaki cümlelerden hangisinin ögeleri bu sırayla dizilmiştir? | ✓Akşamleyin bakıcı hayvanları ahıra aldı.
+tur-og-272 | T.8.4.18 | z3 | k2 | Aşağıdaki cümleler bir evde geçen farklı olayları anlatmaktadır. (I) Ağabeyim dün çarşıdan siyah ayakkabı aldı. (II) Dedem bu sab… | ✓I
+tur-og-273 | T.8.4.18 | z3 | k2 | Aşağıdaki cümlelerin hepsinde "-e, -de, -den" ekli ya da bu eklerle kurulmuş zaman bildiren sözler bulunmaktadır. (I) Antrenör he… | ✓II
+tur-og-274 | T.8.4.18 | z3 | k2 | Aşağıda dört cümle numaralanarak verilmiştir. (I) Ablam sabahleyin fırına gitti. (II) Bütün oyuncular antrenmandan sonra soyunma … | ✓II ve III
+tur-og-275 | T.8.4.18 | z3 | k2 | Okulun kütüphane gönüllüleri, yıl sonunda yaptıkları çalışmaları anlatan kısa notlar yazmıştır. Aşağıda bu notlardan dört cümle v… | ✓Dün akşam okulun kütüphanesinde, yeni açılan…
+tur-og-326 | T.8.4.18 | z3 | k3 | Mahalledeki bir bisiklet atölyesi, hafta sonları çocukların bisikletlerini ücretsiz onarıyor. Aşağıdaki tabloda bu atölyeden dört… | ✓III
+tur-og-327 | T.8.4.18 | z3 | k3 | Okulun astronomi kulübü, şehirdeki planetaryuma bir gezi düzenledi. Öğrenciler gezide gördüklerini defterlerine cümlelerle not al… | ✓Planetaryumun kubbesinde yıldız kümelerini d…
+tur-og-328 | T.8.4.18 | z3 | k3 | Bir mozaik müzesinde çalışan restoratörleri anlatan aşağıdaki cümle, ögelerine ayrılarak incelenmiştir: Restoratör / kırık mozaik… | ✓Rehber, yeni gelen ziyaretçileri içtenlikle …
+tur-og-329 | T.8.4.18 | z3 | k3 | Kentin eski saat kulesi bu yıl onarımdan geçiyor. Kuleyi onaran saatçi, defterine şu cümleyi yazmış ve bir söz öbeğinin altını çi… | ✓yer tamlayıcısı
+tur-og-330 | T.8.4.18 | z3 | k3 | Bir çocuk orkestrasının konserinden sonra gazetede çıkan haberde şu cümle yer aldı: Çocuk orkestrasındaki genç kemancılar bu akşa… | ✓Altı
+tur-og-331 | T.8.4.18 | z3 | k3 | Eylülde bağ bozumu başlayınca köylüler pekmez kaynatmak için kazanları ateşe koyar. Aşağıdaki cümleler bu işi anlatmaktadır. Bu c… | ✓Köylüler büyük kazanda taze üzüm kaynattı.
+tur-og-332 | T.8.4.18 | z3 | k3 | Okulun nöbetçi öğrencileri ders başlangıcını zille duyurur. Aşağıdaki cümlelerde sözlerin yeri değiştirilerek farklı ögeler vurgu… | ✓Nöbetçi öğrenci pazartesi sabahı bahçede zil…
+tur-og-333 | T.8.4.18 | z3 | k3 | Bir mahalle derneği, sonbaharda parkları temizlemek için gönüllüler topluyor. Zarf tamlayıcısı, doğrudan yükleme bağlanan ve işin… | ✓Gönüllüler yaprak torbalarını el arabasıyla …
+tur-og-334 | T.8.4.18 | z3 | k3 | Tarihî bir hamamı onaran ekip, çalışmalarını günlüğe işlemiştir. Aşağıdaki tabloda günlükten dört cümle verilmiş, her cümlede bir… | ✓II
+tur-og-335 | T.8.4.18 | z3 | k3 | Dağ köyünde kış bu yıl çok erken geldi. Köyde yaşayan bir çocuk, günlüğüne şu cümleyi yazdı: Yağmıştı gece boyunca dağlara ilk ka… | ✓ilk kar
+tur-og-336 | T.8.4.18 | z3 | k3 | Bir ilk yardım kursunda öğrenciler yaralıya müdahaleyi uygulamalı olarak öğreniyor. Aşağıdaki cümleler kurstaki bir günü anlatmak… | ✓Kursiyer, korkudan elindeki bandajı yere düş…
+tur-og-337 | T.8.4.18 | z3 | k3 | Bir vadide düzenlenen balon festivalinde pilotlar ve yolcular gün doğarken buluşuyor. Aşağıdaki cümleler festivalden alınmıştır. … | ✓Deneyimli pilot kırmızı balonu vadiye yavaşç…
+tur-og-338 | T.8.4.18 | z3 | k3 | Bir kutup belgeselinde araştırmacıların çalışmaları anlatılıyor. Belgeselin anlatıcı metninden alınan aşağıdaki cümleler incelene… | ✓Araştırmacılar, kutup gecesi boyunca çadırda…
+tur-og-339 | T.8.4.18 | z3 | k3 | Dedemin çatı katındaki eski sandığı, ailenin her yaz merakla karıştırdığı bir hazine gibidir. Aşağıdaki cümleler bu sandıkla ilgi… | ✓Çatı katındaki sandığın içinde eski mektupla…
+tur-og-340 | T.8.4.18 | z3 | k3 | Belediye, yaz sıcaklarında mahallelere su sebilleri yerleştirdi. Aşağıdaki tabloda bu sebillerle ilgili dört cümle verilmiş, her … | ✓I
+tur-og-341 | T.8.4.18 | z3 | k3 | Bir ilçe kütüphanesi, sınav haftasında geceleri de açık kalıyor. Görevliler her gece iade edilen kitaplarla ilgileniyor. Aşağıdak… | ✓I
+tur-og-342 | T.8.4.18 | z3 | k3 | Dağ yolundaki eski su değirmeni yıllar sonra yeniden çalışmaya başladı. Değirmenle ilgili bir haberden alınan cümle şudur: Değirm… | ✓Beş
+tur-og-343 | T.8.4.18 | z3 | k3 | Mahalle bostanında yetişen sebzeler cumartesi sabahları toplanır. Bir öğrenciye "Bostanın domateslerini bu sabah sepetlere kim do… | ✓Domatesleri bu sabah sepetlere Lale doldurdu.
+tur-og-344 | T.8.4.18 | z3 | k3 | İpek Yolu üzerindeki bir kervansaray, bugün otel olarak hizmet vermektedir. Otelin tanıtım yazısından alınan cümle şudur: Kervans… | ✓Kervansaraydaki yorgun yolcular / geceyi / a…
+tur-og-345 | T.8.4.18 | z3 | k3 | Bir mahallenin gönüllüleri, kışın sokak hayvanları için kulübe yerleştiriyor. Aşağıdaki tabloda bu çalışmayla ilgili dört cümle v… | ✓I
+tur-og-346 | T.8.4.18 | z3 | k3 | Bir ailenin çatı katındaki dolap, yıllardır açılmamış eşyalarla doludur. Aşağıdaki tabloda bu dolapla ilgili dört cümle verilmiş,… | ✓III
+tur-og-347 | T.8.4.18 | z3 | k3 | Bir jeoloji gezisinde rehber, öğrencilere bölgenin kayalarını tanıtıyor. Aşağıdaki cümleler gezide söylenenlerden alınmıştır. Bu … | ✓Rehber, kayanın yaşını yüksek sesle tahmin e…
+tur-og-348 | T.8.4.18 | z3 | k3 | Okul radyosu her sabah teneffüste öğrencilere duyuru yapar. Aşağıdaki tabloda bu radyoyla ilgili dört cümle verilmiştir. Ara söz,… | ✓III
+tur-og-349 | T.8.4.18 | z3 | k3 | Türkçe öğretmeni, tahtaya yazdığı dört cümlede bazı sözlerin altını çizmiş ve öğrencilerden bu sözlerin ögesini yazmalarını istem… | ✓III
+tur-og-350 | T.8.4.18 | z3 | k3 | Bir dalış kulübü, batık bir geminin çevresinde gezi düzenliyor. Kulübün gezi raporundan alınan cümle şudur: Dalgıçlar, batığın iç… | ✓özne – yer tamlayıcısı – nesne – yüklem
+tur-og-351 | T.8.4.18 | z3 | k3 | Kuzenim her sabah okul servisiyle okula gidiyor. Aşağıdaki cümleler onun bir haftasından alınmıştır ve her birinde bir söz altı ç… | ✓Kuzenim arkadaşını okul kapısında bekledi.
+tur-og-352 | T.8.4.18 | z3 | k3 | Mahallemizin marangozu, komşularının eski eşyalarını onarmayı sever. Aşağıdaki cümleler onun bir haftalık işlerini anlatmaktadır.… | ✓Marangoz, komşusunun sandalyelerini yeniden …
+tur-og-353 | T.8.4.18 | z3 | k3 | Ela, kışlık hazırlıklar için kilerini düzenliyor. Aşağıdaki tabloda bu düzenleme sırasında kurduğu dört cümle verilmiş, her cümle… | ✓I
+tur-og-354 | T.8.4.18 | z3 | k3 | Bir çadır kampına katılan kuzenim, kampta yaşadıklarını anlatan cümleler yazdı. Aşağıdaki tabloda bu cümlelerden dördü verilmiş, … | ✓III
+tur-og-355 | T.8.4.18 | z3 | k3 | Bir fotoğraf sergisinde görevli olan arkadaşlarımız, ziyaretçilerle ilgilendi. Bir öğrenci, sergide yaşananları anlatan cümleler … | ✓Sergideki fotoğrafları ziyaretçilere tek tek…
+tur-og-356 | T.8.4.18 | z4 | k3 | Kentin eski sineması geçen yıl yeniden açıldı. Bir yerel gazetede şu cümle yer aldı: Perdesi sararan eski sinemayı belediye geçen… | ✓Dört
+tur-og-357 | T.8.4.18 | z4 | k3 | Park bahçesinde gözlem yapan bir öğrenci, defterine şu cümleyi yazmış ve iki söz öbeğinin altını çizmiştir: Bahçede toprağı eşele… | ✓nesne – yer tamlayıcısı
+tur-og-358 | T.8.4.18 | z4 | k3 | Bit pazarında eski eşya satan bir tamirci, pazardan aldığı eşyaları onarıp yeniden satıyor. Aşağıda onunla ilgili iki cümle veril… | ✓I. cümlede II. cümleden bir öge eksik vardır.
+tur-og-359 | T.8.4.18 | z4 | k3 | Fen laboratuvarında yeni görev alan sorumlu için okulda küçük bir karşılama töreni düzenlendi. Aşağıdaki tabloda bu törenle ilgil… | ✓I
+tur-og-360 | T.8.4.18 | z4 | k3 | Bir köy kahvesinde sohbet eden büyüklerin anlattıklarından dört cümle seçilmiş ve tabloya yazılmıştır. Her cümlede bir söz öbeği … | ✓II
+tur-og-361 | T.8.4.18 | z4 | k3 | Bir köy okulunun yaz etkinliği sırasında tutulan günlükten dört cümle aşağıda verilmiştir. Bu cümlelerin hangisinin ögeleri diğer… | ✓Gölün kıyısında yürüyen öğretmen öğrencilere…
+tur-og-362 | T.8.4.18 | z4 | k3 | Bir hayvanat bahçesinde çalışan bakıcılar, hayvanların bakımını sırayla paylaşıyor. Aşağıdaki tabloda bahçeyle ilgili dört cümle … | ✓II
+tur-og-363 | T.8.4.18 | z4 | k3 | Bir doğa yürüyüşü kulübü, ilkbaharda vadiye düzenlediği gezileri defterine cümlelerle kaydediyor. Aşağıdaki cümlelerin hangisinde… | ✓Akşama kadar vadide hızla yürüdük.
+tur-og-364 | T.8.4.18 | z4 | k3 | Şehrin yeni tiyatro binası bugün açıldı. Bir gazetede çıkan haberden alınan cümle şudur: Mimar Aylin, şehrin en genç mimarı, yeni… | ✓Mimar Aylin, şehrin en genç mimarı, / yeni b…
+tur-og-365 | T.8.4.18 | z4 | k3 | Yazları ailecek dağdaki kamp alanına gideriz. Günlüğümde bununla ilgili şu cümle yazılıdır: Dedem, eski bir orman bekçisi, her ya… | ✓Beş
+tur-og-366 | T.8.4.18 | z4 | k3 | Apartman teraslarında sebze yetiştiren komşular, hasat zamanını sabırsızlıkla bekliyor. Aşağıdaki cümleler bu hasatla ilgilidir. … | ✓Teras bahçesinde yetişen domatesleri komşula…
+tur-og-367 | T.8.4.18 | z4 | k3 | Bir yazar, doğa gözlemlerini anlattığı günlüğünde "gece" sözcüğünü farklı cümlelerde kullanmıştır. Aşağıdaki cümlelerin hangisind… | ✓Gece, ovanın üstüne ağır ağır çöktü.
+tur-og-368 | T.8.4.18 | z4 | k3 | Mahalle parkında her sabah kuşları besleyen yaşlı bir adam var. Onu anlatan yazıdan şu cümle alınmıştır: Parktaki kuşlara bayat s… | ✓Dört
+tur-og-369 | T.8.4.18 | z4 | k3 | Aşağıdaki tabloda farklı konulardan dört cümle verilmiştir. Her cümlede iki virgül arasına alınmış bir ara söz vardır. Buna göre … | ✓IV
+tur-og-370 | T.8.4.18 | z4 | k3 | Mahallenin gül bahçesine bakan bahçıvanı anlatan dört cümle aşağıdaki tabloda verilmiştir. Buna göre bu cümlelerin hangisinde hem… | ✓II
+tur-og-371 | T.8.4.18 | z4 | k3 | Mahalledeki eski okul binası, gençlik merkezine dönüştürülüyor. Aşağıdaki tabloda bu dönüşümle ilgili dört cümle verilmiştir. Bun… | ✓I ve III
+tur-og-372 | T.8.4.18 | z4 | k3 | Dağ köyünün evlerine içme suyu şebekesi kuruldu. Bir köy gazetesinde şu cümle yer aldı: Ulaştı sonunda köydeki bütün evlere temiz… | ✓Üç
+tur-og-373 | T.8.4.18 | z4 | k3 | Sonbaharda ormana giden kardeşim, topladığı mantarlarla ilgili cümleler yazdı. Her cümlede bir söz altı çizilmiştir. Buna göre bu… | ✓Kardeşim, ormanda toplanan mantarları ayıkla…
+tur-og-374 | T.8.4.18 | z4 | k3 | Aşağıdaki tabloda farklı konulardan dört cümle verilmiştir. Buna göre bu cümlelerin hangisi diğerlerinden daha fazla ögeden oluşm… | ✓II
+tur-og-375 | T.8.4.18 | z4 | k3 | Dedemin atölyesinde duran eski radyo, ailemizin en sevdiği eşyalardan biridir. Radyoyla ilgili aşağıdaki cümleler kurulmuştur. Bu… | ✓Yıllardır susan eski radyo dün gece birden ç…
+tur-og-011 | T.8.4.18 | z1 | k0 | Yeni komşumuz dün akşam bize sıcak bir kek getirdi. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓getirdi
+tur-og-012 | T.8.4.18 | z1 | k0 | Küçük kız parkın köşesindeki bankta kitap okudu. Bu cümlenin öznesi aşağıdakilerden hangisidir? | ✓Küçük kız
+tur-og-013 | T.8.4.18 | z1 | k0 | Aşağıda bir köy okulunun bahçesinde yapılan çalışmalarla ilgili dört cümle verilmiştir. Bu cümlelerin hangisinde nesne vardır? | ✓Öğrenciler sebze tohumlarını toprağa ekti.
+tur-og-014 | T.8.4.18 | z1 | k0 | Misafirlerimiz çayı terasta içti. Bu cümlede yükleme sorulan "Nerede?" sorusunun yanıtı aşağıdakilerden hangisidir? | ✓terasta
+tur-og-015 | T.8.4.18 | z1 | k0 | Kapıcı merdivenleri her sabah süpürür. Bu cümlenin zarf tamlayıcısı aşağıdakilerden hangisidir? | ✓her sabah
+tur-og-016 | T.8.4.18 | z1 | k0 | Küçük kardeşim yemeği keyifle yedi. Bu cümle kaç ögeden oluşmaktadır? | ✓dört
+tur-og-017 | T.8.4.18 | z1 | k0 | (I) Ablam tatilde kitap okudu. (II) Misafirler çayı bitirdi. (III) Fırıncı ekmekleri taşıdı. (IV) Pazar günü balkona çıktık. Aşağ… | ✓IV
+tur-og-018 | T.8.4.18 | z1 | k0 | (I) Şoför lastiği kontrol etti. (II) Öğretmen yazılıyı dağıttı. (III) Gemi limana yaklaştı. (IV) Annem yorganı yıkadı. Numaralanm… | ✓III
+tur-og-019 | T.8.4.18 | z1 | k0 | Cümlede vurgulanan öge, yüklemden hemen önce gelen ögedir. Selin ödevini dün akşam bitirdi. Buna göre bu cümlede vurgulanan öge a… | ✓dün akşam
+tur-og-020 | T.8.4.18 | z1 | k0 | Kuzenim Elif, sınıfımızın en hızlı koşucusu, birinciliği kazandı. Bu cümledeki ara söz aşağıdakilerden hangisidir? | ✓sınıfımızın en hızlı koşucusu
+tur-og-021 | T.8.4.18 | z1 | k0 | Çıktı sonunda güneş bulutların arkasından. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓Çıktı
+tur-og-022 | T.8.4.18 | z1 | k0 | Kedimiz battaniyenin altında uyuyakaldı. Altı çizili söz cümlenin hangi ögesidir? | ✓yer tamlayıcısı
+tur-og-023 | T.8.4.18 | z1 | k0 | (I) Öğrenciler dün müzeye gitti. (II) Ahmet bisikleti onardı. (III) Çocuk sabahleyin yürüdü. (IV) Hava karardı. Aşağıdaki cümlele… | ✓IV
+tur-og-024 | T.8.4.18 | z2 | k0 | Aşağıdaki cümlelerin hangisinde "-de" ekini almış söz zarf tamlayıcısıdır? | ✓Fırtına gece yarısında şiddetini artırdı.
+tur-og-025 | T.8.4.18 | z2 | k0 | Kuzenim geçen kış dağ evinde sobayı ustaca yaktı. Bu cümle kaç ögeden oluşmaktadır? | ✓altı
+tur-og-026 | T.8.4.18 | z2 | k0 | Aşağıdaki cümlelerin hangisinin gizli öznesi "sen"dir? | ✓Sınavdan önce notlarını bir daha gözden geçi…
+tur-og-027 | T.8.4.18 | z2 | k0 | Türkçede vurgulanan öge, yüklemden hemen önce gelir. Buna göre aşağıdaki cümlelerin hangisinde vurgulanan öge belirtili nesnedir? | ✓Ahmet bu sabah müdürün odasında duyuruyu oku…
+tur-og-028 | T.8.4.18 | z2 | k0 | Ara söz, kendinden önce gelen ögeyi açıklar ve ayrı bir öge sayılmaz. Elif kitabını rafa, en üst bölmeye, kaldırdı. Buna göre bu … | ✓yer tamlayıcısını
+tur-og-029 | T.8.4.18 | z2 | k0 | Bir öğrenci, aşağıdaki tabloda bir öge dizilişi göstermiştir. Aşağıdaki cümlelerin hangisinin ögeleri bu sırayla dizilmiştir? | ✓Akşamleyin balonları bahçeye taşıdık.
+tur-og-030 | T.8.4.18 | z2 | k0 | "Çocuklar yağmurdan sonra bahçedeki su birikintilerine atladı." cümlesindeki bazı sözler ve bu sözlere verilen öge adları aşağıda… | ✓III
+tur-og-031 | T.8.4.18 | z2 | k0 | Aşağıdaki cümlelerin hangisinde altı çizili söz "Niçin?" sorusunun yanıtıdır? | ✓Nöbetçi öğrenci soğuktan titredi.
+tur-og-032 | T.8.4.18 | z2 | k0 | (I) Fırıncı sabah erkenden ekmek pişirdi. (II) Tepsideki börekler soğudu. (III) Bahçede gül açtı. (IV) Sofrada çorba var. Numaral… | ✓I
+tur-og-033 | T.8.4.18 | z2 | k0 | Bahçe kapısının anahtarı çekmecedeydi. Bu cümlenin yüklemi aşağıdakilerden hangisidir? | ✓çekmecedeydi
+tur-og-034 | T.8.4.18 | z2 | k0 | Aşağıdaki cümlelerin hangisinde özne yüklemden sonra gelmiştir? | ✓Girdi odaya sessizce Sevgi.
+tur-og-035 | T.8.4.18 | z2 | k0 | (I) Tren sabah yedide kalktı. (II) Kaptan haritayı masaya serdi. (III) Yolcular peronda sabırla bekledi. (IV) Biletçi vagona çıkt… | ✓I
+tur-og-036 | T.8.4.18 | z2 | k0 | (I) Ayşe sabah erkenden kalktı. (II) Çiçekler susuzluktan soldu. (III) Bu çocuk bu yıl çok büyüdü. (IV) Sürücü virajı dikkatle dö… | ✓III
+tur-og-037 | T.8.4.18 | z2 | k0 | Çocuklar kumsalda kum kalesi yaptı. Bu cümlenin ögeleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir? | ✓özne – yer tamlayıcısı – nesne – yüklem
+tur-og-038 | T.8.4.18 | z2 | k0 | Elçin balkondaki saksıyı - - - - çevirdi. Bu cümlede boş bırakılan yere aşağıdakilerden hangisi getirilirse cümleye bir yer tamla… | ✓güneşe
+tur-og-039 | T.8.4.18 | z2 | k0 | Aşağıdaki cümlelerin hangisinde yer tamlayıcısı yoktur? | ✓Çekmecedeki mektupları yıllar sonra bulduk.
+tur-og-040 | T.8.4.18 | z2 | k0 | (I) Yazın deniz kıyısında sıcak bir rüzgâr esiyor. (II) Kapının önünde küçük bir paket vardı. (III) Müzeden yaşlı bir rehber çıkt… | ✓IV
+tur-og-041 | T.8.4.18 | z2 | k0 | Genç ressam cuma günü resimlerini sergiye taşıdı. Bu cümlenin ögeleri aşağıdakilerin hangisinde eğik çizgilerle doğru ayrılmıştır? | ✓Genç ressam / cuma günü / resimlerini / serg…
+tur-og-042 | T.8.4.18 | z2 | k0 | (I) Rehber turistleri müzenin girişinde bekledi. (II) Sürücü aracı garaja yavaşça çekti. (III) Kızımız ödevini dün tamamladı. (IV… | ✓IV
+tur-og-043 | T.8.4.18 | z2 | k0 | (I) Yaşlı dedem eski sandalyeyi bahçede onardı. (II) Komşumuzun küçük oğlu kırmızı topu hızla attı. (III) Annem dün pazardan taze… | ✓III
+tur-og-044 | T.8.4.18 | z2 | k0 | Türkçede vurgulanan öge, yüklemden hemen önce gelen ögedir. (I) Teyzem gülleri akşam suladı. (II) Mert dün ödevini okula götürdü.… | ✓II
+tur-og-045 | T.8.4.18 | z2 | k0 | (I) Yolda arkadaşlarımla karşılaştım. (II) Kapıdaki paketi mutfağa taşıdınız. (III) Ormanda mantar topladılar. (IV) Akşam yemeğin… | ✓IV
+tur-og-046 | T.8.4.18 | z3 | k0 | Mahalledeki boş arsada çocuklar ve yaşlılar birlikte küçük bir bostan kurdu. Bostanın bakımını herkes sırayla üstleniyor ve çalış… | ✓IV
+tur-og-047 | T.8.4.18 | z3 | k0 | Okulun müzik kulübü, yıl sonu konserine hazırlanıyor. Kulüp defterine yazılan cümlelerden biri şöyledir: Orkestra şefimiz, emekli… | ✓beş
+tur-og-048 | T.8.4.18 | z3 | k0 | Bir fotoğraf sanatçısı, dağlarda çektiği görüntüleri günlüğüne cümlelerle de anlatmıştır. Günlükten alınan aşağıdaki cümlelerde b… | ✓Fotoğrafçı dağın ardında batan güneşi uzun s…
+tur-og-049 | T.8.4.18 | z3 | k0 | Okulumuzun sosyal sorumluluk kulübü, hafta sonu bir kitap kermesi düzenledi. Kulüp başkanının tuttuğu notlardan alınan dört cümle… | ✓I
+tur-og-050 | T.8.4.18 | z3 | k0 | Okulun kış şenliğinde yapılan etkinlikler dört cümleyle anlatılmıştır. (I) Sınıfımız panoyu cumartesi günü süsledi. (II) Öğretmen… | ✓II ve IV
+tur-og-051 | T.8.4.18 | z3 | k0 | Bir dağ kampında geçen bir günü anlatan dört cümle aşağıda verilmiştir. Bu cümlelerin her birinde "-e" ekini almış bir söz bulunm… | ✓I
+tur-og-052 | T.8.4.18 | z3 | k0 | Bir köy evinin bahçesinde sonbahar işleri yapılıyor. Aşağıda bu işlerle ilgili dört cümle verilmiştir. (I) Çocuklar toplanan elma… | ✓II
+tur-og-053 | T.8.4.18 | z3 | k0 | Okulumuzun voleybol takımı, ilçe turnuvasında birinci oldu. Törenle ilgili haberi yazan öğrenci, vurgunun nerede olduğunu denemek… | ✓Kupayı törende okulun voleybol takımı aldı.
+tur-og-054 | T.8.4.18 | z3 | k0 | Belediye, şehrin eski gar binasını kültür merkezine dönüştürmek için bir proje hazırladı. Projeyi hazırlayan ekibin yazışmalarınd… | ✓II
+tur-og-055 | T.8.4.18 | z3 | k0 | Ara söz, kendinden önce gelen bir ögeyi açıklamak için iki virgül arasına alınan sözdür ve ayrı bir öge sayılmaz. Aşağıdaki cümle… | ✓Pazartesi günü, yağmura rağmen, kıyıdaki kay…
+tur-og-056 | T.8.4.18 | z3 | k0 | Aşağıda bir okulun gezi günlüğünden alınan dört cümle verilmiştir. (I) Yağmurda ıslanan çocuklar eve koştu. (II) Ayşe dün akşam e… | ✓IV
+tur-og-057 | T.8.4.18 | z3 | k0 | Bir kütüphane gönüllüsü, tuttuğu notlarda bazı cümleleri devrik yazmıştır. Devrik cümlede yüklem cümlenin sonunda değildir. Aşağı… | ✓Dizdik raflara yeni kitapları sabaha kadar.
+tur-og-058 | T.8.4.18 | z3 | k0 | Bir sınıf, "Hemşire ilacı hazırladı." cümlesini farklı sözlerle genişletmiştir. Bir sözün cümleye yeni bir öge katması için kendi… | ✓Nöbetçi genç hemşire dolapta duran ilacı haz…
+tur-og-059 | T.8.4.18 | z3 | k0 | Bir öğrenci, aşağıdaki şemada bir cümlenin öge dizilişini göstermiştir. Aşağıdaki cümlelerin hangisinin ögeleri bu sırayla dizilm… | ✓Yeni kurulan şirketin mühendisleri şantiyede…
+tur-og-060 | T.8.4.18 | z3 | k0 | Kasabanın meydanındaki eski çeşme, belediyenin çalışmalarıyla ilgili haberlerde sık sık anılıyor. Haberlerden alınan dört cümlede… | ✓Kasabanın en eski çeşmesi meydanın ortasında…
+tur-og-061 | T.8.4.18 | z3 | k0 | Okulun yemekhanesinde çalışan aşçılar, öğle yemeğini sabahın erken saatlerinde hazırlamaya başlıyor. Aşağıda mutfaktaki bir günde… | ✓III
+tur-og-062 | T.8.4.18 | z3 | k0 | Bir turizm dergisi, gezginlerin anlattığı anılardan oluşan bir bölüm yayımladı. Bölümden alınan dört cümle aşağıda verilmiştir. (… | ✓III
+tur-og-063 | T.8.4.18 | z4 | k0 | Bir kasabada her yıl sıcak hava balonu festivali yapılır. Festivalin ilk gününden alınan dört cümle aşağıda numaralandırılarak ve… | ✓iki
+tur-og-064 | T.8.4.18 | z4 | k0 | Bir köyün yıllardır kapalı kalan okulu, belediye tarafından yeniden açıldı. Köy gazetesindeki haberin cümlelerinden biri şöyledir… | ✓dört
+tur-og-065 | T.8.4.18 | z4 | k0 | Bir ailenin eski eşyalarını toplayıp ayırdığı bir gün anlatılıyor. Günün anlatımından alınan dört cümle aşağıda verilmiştir. Ara … | ✓IV
+tur-og-066 | T.8.4.18 | z4 | k0 | Bir teknik servis, okulun arızalı eşyalarını onarıyor. Servisin iş kayıtlarından alınan dört cümle aşağıdadır. (I) Teknisyenler s… | ✓I
+tur-og-067 | T.8.4.18 | z4 | k0 | Okulumuzdaki eski depoyu sergi alanına çevirmek için gönüllüler çalıştı. Duyuru panosundaki cümlelerden biri şöyledir: Sergi alan… | ✓zarf tamlayıcısı – belirtili nesne
+tur-og-068 | T.8.4.18 | z4 | k0 | Bir sanat atölyesinin tanıtım yazısında şu cümle yer almaktadır: Yaşlı ressam atölyesindeki eski resimleri müzeye bağışladı. Bir … | ✓geçen yıl
+tur-og-069 | T.8.4.18 | z4 | k0 | Okul bahçesinin düzenlenmesinden sonra Beyza ile Mert konuşuyor. Beyza: Dün akşam okulun bahçesine fidanları kim dikti? Türkçede … | ✓Fidanları dün akşam okulun bahçesine Mert di…
+tur-og-070 | T.8.4.18 | z4 | k0 | Bir öğrenci, sınıf başkanıyla birlikte hazırladıkları gezi programını günlüğüne yazmıştır. Günlükten alınan cümlelerde bir söz al… | ✓Sınıf başkanı gezi programının ayrıntılarını…
+tur-og-071 | T.8.4.18 | z4 | k0 | Aşağıda farklı haber metinlerinden alınmış dört cümle verilmiştir. Fiilimsi öbekleri tek bir ögedir. (I) Yeni gelen öğretmen bize… | ✓I
+tur-og-072 | T.8.4.18 | z4 | k0 | Bir dil bilgisi kitabı, öge dizilişini anlatırken şu bilgiyi veriyor: Türkçede yüklem çoğunlukla sondadır ama başa ya da ortaya g… | ✓I
+tur-og-073 | T.8.4.18 | z4 | k0 | Okulun sinema kulübü, yıl sonunda bir gösterim yapacak. Kulüp üyelerinin hazırladığı notlardan dört cümle aşağıda numaralandırıla… | ✓üç
+tur-og-074 | T.8.4.18 | z4 | k0 | Okulun yeni kitaplığını düzenleyen gönüllü öğrenciler, günlüklerine yazdıkları cümlelerin ögelerini bir tabloya göre denetlemekte… | ✓Gönüllü öğrenciler yeni kitapları dün sınıf …
+tur-og-075 | T.8.4.18 | z4 | k0 | "Okulun kapısında bekleyen servis şoförü bizi akşama doğru evlerimize bıraktı." cümlesindeki bazı sözler ve bu sözlere verilen ög… | ✓bir

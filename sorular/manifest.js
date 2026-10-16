@@ -71,6 +71,10 @@ window.LGS_MANIFEST = [
   "tur-cumlenin-ogeleri-1.js",
   "tur-cumlenin-ogeleri-2.js",
   "tur-cumlenin-ogeleri-3.js",
+  "tur-cumlenin-ogeleri-4.js",
+  "tur-cumlenin-ogeleri-5.js",
+  "tur-cumlenin-ogeleri-6.js",
+  "tur-cumlenin-ogeleri-7.js",
   "tur-paragrafta-anlam-13.js",
   "tur-paragrafta-anlam-14.js",
   "tur-paragrafta-anlam-15.js",
@@ -208,5 +212,9 @@ window.LGS_MANIFEST = [
   "mat-eslik-benzerlik-1.js",
   "mat-eslik-benzerlik-2.js",
   "fen-madde-donguleri-1.js",
-  "fen-madde-donguleri-2.js"
+  "fen-madde-donguleri-2.js",
+  "tur-anlatim-bozukluklari-1.js",
+  "tur-anlatim-bozukluklari-2.js",
+  "tur-metin-turleri-1.js",
+  "tur-metin-turleri-2.js"
 ];

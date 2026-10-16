@@ -9,7 +9,7 @@ window.LGS_HAP["cumlenin-ogeleri"] = {
         "Yüklem, cümlenin yargısını taşıyan ögedir; iş, oluş ya da durum bildirir, zaman ve kişi bilgisini üstlenir. Öge bulmaya **her zaman yüklemden** başla, çünkü öbür ögelerin hepsini yükleme soru sorarak bulursun.",
         "Yüklem çekimli bir fiil olabilir (**kurdu**, **bekleyeceğiz**) ya da ek fiil almış bir söz olabilir: “Kuyunun suyu **buz gibiydi**.” · “Dolapta iki kavanoz reçel **vardı**.”",
         "Birden çok sözcükten oluşan yüklem bölünmez: **söz verdi**, **birinci oldu**, **göz kulak oldu** tek ögedir.",
-        "Yüklem çoğunlukla sondadır ama başta ya da ortada da bulunabilir; sonrasında kalan sözler de cümlenin ögesidir: “**Açıldı** sonunda sergi salonunun kapıları.”",
+        "Yüklem çoğunlukla sondadır ama başta ya da ortada da bulunabilir; sonrasında kalan sözler de cümlenin ögesidir: “**Açıldı** sonunda sergi salonunun kapıları.” Yüklemi sonda olmayan bu cümlelere **devrik cümle** denir.",
         "Örnek cümle: “Babam cumartesi sabahı bizi göl kenarına arabayla götürdü.” Ögeleri tabloda ayrılmıştır."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Öge</th><th>Yükleme sorulan soru</th><th>Nasıl tanırsın?</th><th>Örnekteki karşılığı</th></tr><tr><td><strong>Yüklem</strong></td><td>— (ilk onu bul)</td><td>Yargıyı taşır; zaman ve kişi bildirir</td><td>götürdü</td></tr><tr><td><strong>Özne</strong></td><td>Kim? Ne?</td><td>İşi yapan ya da oluşu üstlenen</td><td>Babam</td></tr><tr><td><strong>Nesne</strong></td><td>Neyi? Kimi? Ne?</td><td>İşten etkilenen; “-ı, -i, -u, -ü” alır ya da hiç ek almaz</td><td>bizi</td></tr><tr><td><strong>Yer tamlayıcısı</strong> (dolaylı tümleç)</td><td>Nereye? Nerede? Nereden? Kime? Kimde? Kimden? Neye? Neyde? Neyden?</td><td>Yalnızca “-e, -de, -den” eklerinden birini alır</td><td>göl kenarına</td></tr><tr><td><strong>Zarf tamlayıcısı</strong> (zarf tümleci)</td><td>Nasıl? Ne zaman? Ne kadar? Niçin? Neyle?</td><td>Durum, zaman, miktar, sebep ya da araç bildirir</td><td>cumartesi sabahı · arabayla</td></tr></table>",
@@ -48,7 +48,7 @@ window.LGS_HAP["cumlenin-ogeleri"] = {
       baslik: "Yer tamlayıcısı mı, zarf tamlayıcısı mı?",
       maddeler: [
         "**Yer tamlayıcısı**, işin yöneldiği, yapıldığı ya da başladığı yeri gösterir; yalnızca “-e, -de, -den” eklerinden birini alır: “Teleferik **zirveye** ulaştı.” · “Kalemlerini **çantada** unuttu.” · “Arılar **kovandan** çıktı.”",
-        "Yer tamlayıcısı bir kişiyi de gösterebilir: “Bu haberi **komşumuzdan** duyduk.” (Kimden duyduk?)",
+        "Yer tamlayıcısı bir kişiyi de gösterebilir: “Bu haberi **komşumuzdan** duyduk.” (Kimden duyduk?) Zamirler de ek alınca öge olur: **bana** (Kime?), **benden** (Kimden?) yer tamlayıcısıdır.",
         "Bir cümlede iki yer tamlayıcısı bulunabilir: “Balıkları **akvaryumdan** **leğene** aktardık.”",
         "**Zarf tamlayıcısı**, işin nasıl, ne zaman, ne kadar, niçin ve neyle yapıldığını bildirir: **yavaşça** indi (Nasıl?) · **akşamleyin** döndük (Ne zaman?) · **iki saat** bekledik (Ne kadar?) · **soğuktan** titredi (Niçin?) · **zımparayla** düzeltti (Neyle?).",
         "Farklı sorulara cevap veren iki tamlayıcı iki ayrı ögedir: “**Dün** **telaşla** çıktı.”"
