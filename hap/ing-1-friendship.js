@@ -20,7 +20,7 @@ window.LGS_HAP["ing-1-friendship"] = {
       baslik: "Kabul etme",
       maddeler: [
         "Kabul ederken olumlu ve istekli bir cevap verilir. Cevabın **ne tür** bir teklife verildiğine uyması gerekir.",
-        "Davete: **Sure, that sounds fun! / Sure, it sounds great. / Yeah, why not. / I'd love to.**",
+        "Davete: **Sure, that sounds fun! / Sure, it sounds great. / Yeah, why not. / I'd love to. / Count me in!** (Beni de say!)",
         "İkrama: **Yes, please. / Yes, I'd love some. / Yeah, that would be great.** Sonuncusu “Olur, harika olur” anlamıyla bir planı kabul ederken de kullanılır.",
         "Kabul eden kişi çoğu zaman **saat, yer ya da ayrıntı** ister (“What time?”) ya da plan yapar: “I'll text our friends to come over at seven, then.” Bu satırlar kabul ipucudur."
       ],
@@ -50,6 +50,7 @@ window.LGS_HAP["ing-1-friendship"] = {
         "**Don't worry.** bir özür değil, **teselli** ifadesidir. Özür dileyen “I'm sorry.” der, teselli eden “Don't worry.” der.",
         "Özür, çoğunlukla bir **gerekçe** ile birlikte gelir: “I'm sorry I'm late. The traffic was heavy.”",
         "**Teşekkür:** Thanks a lot! / Thank you for the invitation. Cevap: **You're welcome.** Teşekkür özür değildir; “That's OK.” ile karşılanmaz.",
+        "**İyi dilek kalıpları:** Get well soon! (Geçmiş olsun!), Good luck! (Bol şans!), Have a nice trip! (İyi yolculuklar!). Karşılığı genellikle teşekkürdür: Thanks! / Thank you.",
         "**That's a pity. / What a pity.** (Ne yazık!) bir ret duyan kişinin üzüntü ifadesidir; özür değildir."
       ],
       dikkat: [
