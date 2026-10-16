@@ -274,5 +274,9 @@ window.LGS_MANIFEST = [
   "ink-u6-1.js",
   "ink-u6-2.js",
   "ink-u7-1.js",
-  "ink-u7-2.js"
+  "ink-u7-2.js",
+  "din-u5-1.js",
+  "din-u5-2.js",
+  "mat-geometrik-cisimler-1.js",
+  "mat-geometrik-cisimler-2.js"
 ];
