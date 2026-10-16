@@ -10,7 +10,7 @@ window.LGS_HAP["karekoklu-ifadeler"] = {
         "√{a}, karesi a olan negatif olmayan sayıdır: √{81} = 9, çünkü 9^{2} = 81. Kare almakla karekök almak birbirinin tersidir.",
         "Alanı A olan karenin bir kenarı √{A}, çevresi 4 · √{A}'dır. Kare biçimli bir dizilimde de toplamın karekökü bir kenardaki nesne sayısını verir.",
         "Bir sayının tam kare olup olmadığını asal çarpanlarından anlarsın: bütün üsler çiftse tam karedir. 324 = 2^{2} · 3^{4} tam karedir; 48 = 2^{4} · 3 değildir.",
-        "Kenar k katına çıkarsa alan k^{2} katına çıkar."
+        "Kenar k katına çıkarsa alan k^{2} katına çıkar. Tersi: iki karenin alanları oranı a ise kenarları oranı √{a}'dır."
       ],
       dikkat: [
         "**Karekök almak ikiye bölmek değildir.** √{64} = 8'dir, 32 değil. Sağlama için sonucun karesini al.",
@@ -101,6 +101,7 @@ window.LGS_HAP["karekoklu-ifadeler"] = {
       ],
       dikkat: [
         "**Ondalık görünen her kök irrasyonel değildir.** √{1,96} = 1,4 rasyoneldir; √{1,6} ise irrasyoneldir, çünkü 1,6 = [[160|100]] ve 160 tam kare değildir.",
+        "**Sonsuza giden her ondalık irrasyonel değildir.** 0,333… devirlidir ve [[1|3]] yazılır; rasyoneldir. İrrasyonelde devir de yoktur.",
         "**[[22|7]] ve 3,14 sayıları π'ye eşit değildir;** ikisi de rasyoneldir."
       ]
     }
