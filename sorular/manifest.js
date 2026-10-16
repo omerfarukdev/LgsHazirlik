@@ -222,5 +222,9 @@ window.LGS_MANIFEST = [
   "tur-anlatim-bozukluklari-1.js",
   "tur-anlatim-bozukluklari-2.js",
   "tur-metin-turleri-1.js",
-  "tur-metin-turleri-2.js"
+  "tur-metin-turleri-2.js",
+  "mat-donusum-geometrisi-1.js",
+  "mat-donusum-geometrisi-2.js",
+  "fen-elektriklenme-1.js",
+  "fen-elektriklenme-2.js"
 ];

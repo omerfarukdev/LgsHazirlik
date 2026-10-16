@@ -60,5 +60,7 @@ window.LGS_HAP_LISTE = [
   "eslik-benzerlik.js",
   "madde-donguleri.js",
   "anlatim-bozukluklari.js",
-  "metin-turleri.js"
+  "metin-turleri.js",
+  "donusum-geometrisi.js",
+  "elektriklenme.js"
 ];
