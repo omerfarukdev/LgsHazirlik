@@ -228,5 +228,9 @@ window.LGS_MANIFEST = [
   "mat-donusum-geometrisi-1.js",
   "mat-donusum-geometrisi-2.js",
   "fen-elektriklenme-1.js",
-  "fen-elektriklenme-2.js"
+  "fen-elektriklenme-2.js",
+  "din-u4-1.js",
+  "din-u4-2.js",
+  "ink-u5-1.js",
+  "ink-u5-2.js"
 ];
