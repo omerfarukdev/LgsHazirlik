@@ -727,7 +727,7 @@ Cevap B.`
 • İp kutusu alt rafın sol ucundaki bölmeye konmayacak.
 • Yapıştırıcı kutusu, makas kutusunun tam altına konmayacak.
 **Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 400 230" role="img" aria-label="İki raflı, her rafta üç bölmeli dolap">
+  gorsel: `<svg viewBox="-1 0 401 236" role="img" aria-label="İki raflı, her rafta üç bölmeli dolap">
 <rect x="70" y="14" width="300" height="196" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
 <line x1="70" y1="112" x2="370" y2="112" stroke="currentColor" stroke-width="3"/>
 <line x1="170" y1="14" x2="170" y2="210" stroke="currentColor" stroke-width="2"/>
