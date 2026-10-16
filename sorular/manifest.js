@@ -250,5 +250,9 @@ window.LGS_MANIFEST = [
   "din-u4-1.js",
   "din-u4-2.js",
   "ink-u5-1.js",
-  "ink-u5-2.js"
+  "ink-u5-2.js",
+  "ink-u6-1.js",
+  "ink-u6-2.js",
+  "ink-u7-1.js",
+  "ink-u7-2.js"
 ];
