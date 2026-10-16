@@ -6,7 +6,7 @@ window.LGS_HAP["iklim-hava-hareketleri"] = {
     {
       baslik: "Hava olayı mı, iklim mi?",
       maddeler: [
-        "**Hava olayları**, bir yerde kısa sürede — saatler ya da günler içinde — gözlenen olaylardır: sıcaklık değişimi, yağmur, kar, rüzgâr, nem, sis, don, fırtına.",
+        "**Hava olayları**, bir yerde kısa sürede — saatler ya da günler içinde — gözlenen olaylardır: sıcaklık değişimi, yağmur, kar, rüzgâr, nem, sis, don, kırağı, dolu, fırtına.",
         "**İklim**, geniş bir bölgede **uzun yıllar** boyunca tekrarlanan ortalama hava koşullarıdır. On yıllar içinde çok yavaş değişir.",
         "İkisi de aynı büyüklükleri ölçer: sıcaklık, yağış, rüzgâr, nem. Aralarındaki farkı ölçülen şey değil, **verinin kapsadığı süre** kurar.",
         "Bir ölçüm ancak uzun yıllar **düzenli ve kesintisiz** toplandığında iklim verisi olur. Bir ortalamanın iklim değeri sayılabilmesi için **en az 30 yıllık** kayıt aranır; tablolarda 1961-1990, 1991-2020 gibi dönemleri bu yüzden görürsün.",
@@ -64,7 +64,7 @@ window.LGS_HAP["iklim-hava-hareketleri"] = {
     {
       baslik: "İklim tek bir sayı değildir",
       maddeler: [
-        "Bir yerin iklimini anlatmak için birçok ölçüt kullanılır: yıllık ortalama sıcaklık, en sıcak ve en soğuk ay ortalaması, yıllık toplam yağış, yağışın mevsimlere dağılımı, yağışlı gün sayısı, don günü sayısı, çok sıcak gün sayısı, nem, rüzgâr.",
+        "Bir yerin iklimini anlatmak için birçok ölçüt kullanılır: yıllık ortalama sıcaklık, en sıcak ve en soğuk ay ortalaması, yıllık toplam yağış, yağışın mevsimlere dağılımı, yağışlı, karla örtülü, güneşli, don günü ve çok sıcak gün sayıları (yıllara yayılan sayımlar iklim ölçütüdür), nem, rüzgâr.",
         "Bu yüzden **yıllık ortalama sıcaklıkları eşit olan iki yerin iklimi aynı olmak zorunda değildir.** Birinde yaz ile kış arasındaki fark küçük, öbüründe çok büyük olabilir; yağışları da bambaşka olabilir.",
         "Yağışta **ne kadar** yağdığı kadar **nasıl dağıldığı** da önemlidir. Toplam değişmeden yağışlı gün sayısı azalırsa yağış yoğunlaşmış demektir; bu da taşkın riskini artırır."
       ],
