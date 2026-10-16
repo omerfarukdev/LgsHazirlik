@@ -65,7 +65,7 @@ window.LGS_HAP["uslu-ifadeler"] = {
         "Çözümlemede her rakam, basamağının 10'un kuvvetiyle çarpılır ve terimler toplanır. Birler basamağı 10^{0}'dır; sola doğru üs birer artar, sağa doğru birer azalır.",
         "Rakamı 0 olan basamağın terimi yazılmaz; ama sayıyı geri yazarken o basamağa 0 koymayı unutma.",
         "Komşu iki basamağın basamak değerleri arasında **10 kat** fark vardır; iki basamak uzaktaysa 100 kat, üç basamak uzaktaysa 1000 kat. Kaç kat olduğunu bulmak için aradaki basamak sayısını say.",
-        "Birim çevirmede de aynı basamaklar işe yarar: 1 m = 10^{2} cm = 10^{3} mm, 1 g = 10^{3} mg."
+        "Birim çevirmede de aynı basamaklar işe yarar: 1 m = 10^{2} cm = 10^{3} mm, 1 g = 10^{3} mg. Küçük birime geçerken sayı büyür, büyük birime geçerken küçülür; 1 μm = 10^{−6} m ise metreyi μm'ye çevirmek için 10^{−6}'ya böl."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Basamak</th><th>Kuvvet</th><th>Değeri</th></tr><tr><td>onlar</td><td>10<sup>1</sup></td><td>10</td></tr><tr><td>birler</td><td>10<sup>0</sup></td><td>1</td></tr><tr><td>onda birler</td><td>10<sup>−1</sup></td><td>0,1</td></tr><tr><td>yüzde birler</td><td>10<sup>−2</sup></td><td>0,01</td></tr><tr><td>binde birler</td><td>10<sup>−3</sup></td><td>0,001</td></tr></table>",
       ornekler: [
@@ -85,6 +85,7 @@ window.LGS_HAP["uslu-ifadeler"] = {
         "**Denge kuralı:** Baştaki sayı 10 katına çıkarsa üs 1 azalır; 10'a bölünürse üs 1 artar. Virgül kaç basamak kayarsa üs o kadar değişir.",
         "**Bilimsel gösterim** a · 10^{n} biçimidir; burada n bir tam sayı, a ise 1 ile 10 arasında (1 dahil, 10 hariç) pozitif bir sayıdır. a sayısına **başkatsayı** denir.",
         "1'den büyük sayılarda üs pozitif, 1'den küçük pozitif sayılarda negatiftir: 52 000 = 5,2 · 10^{4}; 0,0071 = 7,1 · 10^{−3}.",
+        "**Ondalık gösterime dönüş:** Üs pozitifse virgül o kadar basamak sağa, negatifse sola kayar: 3,8 · 10^{−5} = 0,000038. Üssü n olan a · 10^{n} sayısının tam kısmı n + 1 basamaklıdır: 5,2 · 10^{4} = 52 000 (5 basamak).",
         "**Karşılaştırma:** Önce 10'un üssüne bak, üssü büyük olan büyüktür; üsler eşitse başkatsayıya bak. 9,9 · 10^{5} sayısı 1,1 · 10^{6} sayısından küçüktür. Değerler farklı birimlerde verilmişse (mm, cm, m) önce hepsini aynı birime çevir, üslere ondan sonra bak.",
         "**Çarpma-bölme:** Baştaki sayıları kendi arasında çarp ya da böl, 10'un kuvvetlerini kurala göre birleştir, sonra baştaki sayıyı 1 ile 10 arasına getir: (4 · 10^{5}) · (5 · 10^{3}) = 20 · 10^{8} = 2 · 10^{9}.",
         "**Toplama-çıkarma:** Önce iki sayıyı aynı kuvvete getir: 2,6 · 10^{6} + 7 · 10^{5} = 2,6 · 10^{6} + 0,7 · 10^{6} = 3,3 · 10^{6}."
