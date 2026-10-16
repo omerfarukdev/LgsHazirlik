@@ -21,7 +21,7 @@ window.LGS_HAP["dna-genetik-kod"] = {
       maddeler: [
         "**Gen**, DNA üzerinde bir özelliği (örneğin bir kedinin tüy rengini) belirleyen **anlamlı nükleotid dizisidir**; yani DNA'nın bir bölümüdür. Bir DNA molekülü üzerinde binlerce gen bulunur.",
         "**DNA**, iki nükleotid zincirinden oluşan ve kalıtsal bilgiyi taşıyan moleküldür. Bitki ve hayvan hücrelerinde **çekirdekte** bulunur.",
-        "**Kromozom**, DNA'nın **proteinlerle birlikte** sıkıca sarılıp paketlenmiş hâlidir. Çok uzun olan DNA bu sayede çekirdeğe sığar. Kromozomlar hücre bölünürken belirginleşir; mikroskopta koyu renkli, çubuk ya da X biçiminde görünen yapılar olarak görülür.",
+        "**Kromozom**, DNA'nın **proteinlerle birlikte** sıkıca sarılıp paketlenmiş hâlidir. Çok uzun olan DNA bu sayede çekirdeğe sığar. Bölünmeyen hücrede DNA ince, dağınık iplikçikler hâlindedir; kromozomlar hücre bölünürken belirginleşir; mikroskopta koyu renkli, çubuk ya da X biçiminde görünen yapılar olarak görülür.",
         "Bir kromozomun üzerinde de binlerce gen bulunur. **Kromozom sayısı gen sayısı değildir:** 20 kromozomlu bir hücrede binlerce gen vardır.",
         "Büyükten küçüğe sıra: **kromozom – DNA – gen – nükleotid**. Kromozom DNA'yı, DNA genleri, gen de nükleotidleri içerir."
       ],
@@ -38,7 +38,7 @@ window.LGS_HAP["dna-genetik-kod"] = {
       baslik: "DNA'nın yapısı: sarmal bir merdiven",
       maddeler: [
         "DNA **iki zincirden** oluşur ve bu zincirler birbirinin çevresine sarılarak **sarmal** (burgu) biçimi oluşturur.",
-        "Sarmalı düzleştirirsen bir **merdivene** benzer: **kenarları** sırayla dizilmiş **fosfat ve şekerler**, **basamakları** karşılıklı eşleşmiş **organik bazlar** oluşturur.",
+        "Sarmalı düzleştirirsen bir **merdivene** benzer: **kenarları** sırayla dizilmiş **fosfat ve şekerler** (fosfat–şeker–fosfat–şeker…), **basamakları** karşılıklı eşleşmiş **organik bazlar** oluşturur.",
         "İki zinciri bir arada tutan, karşılıklı gelen **organik bazların eşleşmesidir**. Fosfatlar ve şekerler kenarda kalır, karşı zincire uzanmaz.",
         "Bütün canlılarda DNA'nın yapısı aynıdır: aynı fosfat, aynı şeker, aynı dört baz. Canlıları ve bireyleri ayıran, bazların **dizilim sırasıdır**.",
         "DNA çok küçük olduğu için yapısı doğrudan gözle görülerek değil, dolaylı verilerden yararlanılarak kurulan **modellerle** açıklanmıştır. Derste yaptığın maketler de birer modeldir."
@@ -75,7 +75,7 @@ window.LGS_HAP["dna-genetik-kod"] = {
         "**3. adım:** Sonunda birbirinin aynısı **iki DNA** oluşur. Bu DNA'ların her birinde **bir eski, bir yeni zincir** bulunur.",
         "Eşlenmeyle hücredeki DNA miktarı iki katına çıkar; bölünmede kopyalar iki hücreye paylaştırılır ve miktar eski değerine döner. Böylece yeni hücrelerin kalıtsal bilgisi ve kromozom sayısı ana hücreyle **aynı** olur.",
         "Büyüme, yaraların iyileşmesi, tek hücreli canlıların çoğalması hücre bölünmesiyle olur; her birinin öncesinde eşlenme vardır.",
-        "Eşlenme sırasında bir bazın karşısına kural dışı bir baz yerleşebilir. Hücre bu hataların çoğunu **onarır**; onarılmayan hata yeni DNA'da kalır ve bölünmeyle oluşan hücreye aktarılır."
+        "Eşlenme sırasında bir bazın karşısına kural dışı bir baz yerleşebilir. Hücre bu hataların çoğunu **onarır**: hatalı baz çıkarılır, yerine kurala uygun eşi konur. Hata yeni kurulan zincirde olur; kalıp zincir doğru kabul edilir ve onarımda değişmez. Onarılmayan hata yeni DNA'da kalır ve bölünmeyle oluşan hücreye aktarılır."
       ],
       dikkat: [
         "**Yeni zincir, kalıbın kopyası değil eşidir.** Kalıpta A – G varsa karşısına T – C kurulur. Bu yüzden yeni zincirin dizilimi, kalıbın ayrıldığı öbür eski zincirle aynı olur.",
