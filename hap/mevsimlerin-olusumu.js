@@ -25,6 +25,7 @@ window.LGS_HAP["mevsimlerin-olusumu"] = {
         "Dik gelen ışık demeti **dar**, eğik gelen aynı demet **geniş** bir alana yayılır. Toplam enerji aynı kalsa da dar alanda her metrekareye daha çok enerji düşer.",
         "Birim yüzeye çok enerji düşen yer **daha çok ısınır**: kar erir, buharlaşma artar, güneş paneli daha çok elektrik üretir.",
         "**Yön de önemlidir.** Kuzey Yarım Küre'de Güneş öğle vakti güneydedir, tam tepeye çıkmaz. Bu yüzden güneye bakan yamaç, duvar ve pencereler ışınları daha dik alır; kuzeye bakanlar çok eğik alır ya da hiç almaz. Güney Yarım Küre'de tersi olur.",
+        "**Dünya küre biçimlidir**, Güneş ışınları ise paralel gelir. Bu yüzden aynı anda Ekvator çevresine dik, kutuplara hep eğik düşer; kutuplar yıl boyunca az enerji alır.",
         "**Gölge ipucu:** Işınlar dikleştikçe cisimlerin öğle gölgesi kısalır, eğikleştikçe uzar. Kısa gölge = dik ışın = birim yüzeye çok enerji."
       ],
       ornekler: [
@@ -53,7 +54,7 @@ window.LGS_HAP["mevsimlerin-olusumu"] = {
       baslik: "Dört önemli tarih",
       maddeler: [
         "**Dönence**, ışınların öğle vakti tam dik (90°) düştüğü en kuzeydeki ve en güneydeki çizgidir: kuzeyde **Yengeç**, güneyde **Oğlak Dönencesi**. Türkiye bu kuşağın dışındadır; ülkemizde ışınlar hiçbir zaman tam dik düşmez.",
-        "21 Mart ve 23 Eylül'de iki yarım küre ışınları eşit açıyla alır; Dünya'nın **her yerinde** gece ile gündüz yaklaşık 12'şer saattir.",
+        "21 Mart ve 23 Eylül'de iki yarım küre ışınları eşit açıyla alır; Dünya'nın **her yerinde** gece ile gündüz yaklaşık 12'şer saattir (bu tarihlere **ekinoks** denir).",
         "21 Haziran'da Kuzey Kutup Dairesi'nin içinde Güneş 24 saat boyunca ufkun altına inmez; aynı gün Güney Kutup Dairesi'nin içinde hiç doğmaz. 21 Aralık'ta durum tersine döner.",
         "Türkiye'de öğle gölgesi 21 Haziran'da yılın en kısa, 21 Aralık'ta yılın en uzun hâlindedir."
       ],
