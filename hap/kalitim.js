@@ -18,6 +18,7 @@ window.LGS_HAP["kalitim"] = {
       dikkat: [
         "**Genotip ile fenotipi karıştırma.** “Dd” bir genotiptir; “uzun boylu” bir fenotiptir.",
         "**Çekinik fenotip her zaman saftır.** Kısa boylu bitki kesinlikle dd'dir. Baskın fenotipli bitki ise saf da (DD) melez de (Dd) olabilir; yalnızca görünüşüne bakarak ayıramazsın.",
+        "**Baskın gen, en yaygın gen demek değildir.** Baskınlık etkinin görünmesiyle ilgilidir; bir topluluktaki bireylerin çoğu çekinik özellikte olabilir.",
         "**Baskın gen çekinik geni yok etmez.** Melez bitkide çekinik gen vardır, yalnızca etkisi görünmez; yavrulara aktarılabilir.",
         "**Gen yalnızca özelliğin görüldüğü organda bulunmaz.** Örneğin bir kök hücresi de çiçek rengi genlerini taşır. Bütün vücut hücreleri tek bir hücrenin bölünmesiyle oluştuğu için aynı genleri taşır."
       ]
@@ -75,7 +76,7 @@ window.LGS_HAP["kalitim"] = {
       ],
       dikkat: [
         "**Anne cinsiyeti belirlemez.** Anne her çocuğa X verir; fark yaratan, babanın X mi Y mi verdiğidir.",
-        "**Erkeğin Y'si babasından, X'i annesinden gelir.** Kızın bir X'i annesinden, bir X'i babasından gelir; iki X'ini de tek ebeveynden almaz.",
+        "**Erkeğin Y'si babasından, X'i annesinden gelir.** Y kromozomu yalnızca erkek çocuklara geçer. Kızın bir X'i annesinden, bir X'i babasından gelir; iki X'ini de tek ebeveynden almaz.",
         "**Vücut kromozomlarını da yarıya indir.** Üreme hücresi 44 + X değil, 22 + X taşır. Cinsiyeti vücut kromozomları değil, eşey kromozomları belirler."
       ]
     },
