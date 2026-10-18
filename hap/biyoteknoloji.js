@@ -6,7 +6,7 @@ window.LGS_HAP["biyoteknoloji"] = {
     {
       baslik: "Biyoteknoloji ve genetik mühendisliği",
       maddeler: [
-        "**Biyoteknoloji**, canlılardan ya da onların yapılarından yararlanarak insanlık için yararlı ürün ve yöntemler geliştiren uygulamaların genel adıdır. Mayayla ekmek yapmak da bakterilere ilaç ürettirmek de biyoteknolojidir.",
+        "**Biyoteknoloji**, canlılardan ya da onların yapılarından yararlanarak insanlık için yararlı ürün ve yöntemler geliştiren uygulamaların genel adıdır. Mayayla ekmek ya da bakterilerle yoğurt yapmak da bakterilere ilaç ürettirmek de biyoteknolojidir.",
         "**Genetik mühendisliği**, genler üzerinde laboratuvarda doğrudan çalışarak canlılara yeni özellik kazandıran ya da bozuk bir genin işlevini düzelten bilim dalıdır. Biyoteknolojinin genlerle çalışan koludur; biyoteknoloji onun bilgi ve yöntemlerinden yararlanarak ürün elde eder.",
         "**GDO** (genetiği değiştirilmiş organizma), genleri genetik mühendisliği yöntemleriyle değiştirilerek yeni bir özellik kazanmış canlıdır.",
         "Kullanım alanları: **tıp** (ilaç, tedavi), **tarım ve hayvancılık** (verim, dayanıklılık, besin değeri), **çevre** (kirliliğin temizlenmesi).",
@@ -22,7 +22,7 @@ window.LGS_HAP["biyoteknoloji"] = {
     {
       baslik: "Islah (yapay seçilim)",
       maddeler: [
-        "**Islah**, istenen özellikteki bireyleri seçip çaprazlamayı kuşaklar boyunca sürdürerek verimi ya da niteliği artırmaktır. Seçimi doğa değil insan yaptığı için **yapay seçilim** de denir. Seçim sürdükçe istenen özelliği sağlayan genler toplulukta çoğalır.",
+        "**Islah**, istenen özellikteki bireyleri seçip çaprazlamayı kuşaklar boyunca sürdürerek verimi ya da niteliği artırmaktır. Seçimi doğa değil insan yaptığı için **yapay seçilim** de denir; **doğal seçilimde** ise hangi bireylerin hayatta kalıp yavru bırakacağını çevre koşulları belirler. Seçim sürdükçe istenen özelliği sağlayan genler toplulukta çoğalır.",
         "Yavrular iki atanın genlerinin **yeni bir birleşimini** taşır, atalardan birinin kopyası olmaz. İki çeşidin ayrı ayrı sahip olduğu iyi özellikler böylece tek çeşitte toplanabilir.",
         "Islah yalnızca **birbiriyle çaprazlanabilen** canlılar (aynı türün çeşitleri, çiftleşebilen akraba türler) arasında yapılır. Laboratuvar gerekmez ama sonuç çoğunlukla uzun yıllar alır."
       ],
@@ -38,7 +38,7 @@ window.LGS_HAP["biyoteknoloji"] = {
       baslik: "Aşılama",
       maddeler: [
         "**Aşılama**, bir bitkiden alınan dal parçasının (**kalem**) ya da tomurcuğun (**göz**) başka bir bitkinin gövdesine eklenip onunla kaynaştırılmasıdır. Kökü ve gövdenin alt kısmını sağlayan bitkiye **anaç** denir.",
-        "Kalemden gelişen dalların çiçek ve meyveleri **kalemin alındığı çeşidin** özelliklerini taşır. Anaç kaleme su ve besin taşır ama **gen taşımaz**; kök hastalıklarına dayanıklılık ya da ağacın boyu gibi köke bağlı özellikler anaçtan etkilenebilir.",
+        "Kalemden gelişen dalların çiçek ve meyveleri **kalemin alındığı çeşidin** özelliklerini taşır. Anaç kaleme su ve besin taşır ama **gen taşımaz**; kök hastalıklarına dayanıklılık ya da ağacın boyu gibi köke bağlı özellikler anaçtan etkilenebilir. Aşı noktasının **altında anaçtan çıkan sürgün** anacın özelliklerini taşır.",
         "**Neden aşılama?** Çekirdek tozlaşma ve döllenmeyle oluşur, genlerinin bir kısmı polenden gelir; bu yüzden çekirdekten yetişen fidan farklı meyve verebilir. Kalem ise alındığı ağacın genlerini aynen korur.",
         "Aşılama güçlü kök ile lezzetli meyveyi tek ağaçta birleştirir; farklı kalemlerle birkaç çeşit meyve veren ağaç da elde edilir."
       ],
@@ -56,7 +56,7 @@ window.LGS_HAP["biyoteknoloji"] = {
         "**Gen aktarımı**, bir canlıdan alınan genin başka bir canlının kalıtım maddesine eklenmesidir. Geni alan canlı o genin sağladığı **yeni özelliği** kazanır ve GDO olur.",
         "En bilinen örnek: İnsana ait insülin geni bakterilere aktarılır; bakteriler **insan insülininin aynısını** üretir, şeker hastaları bunu ilaç olarak kullanır. Eskiden insülin kesilen hayvanların pankreasından elde edilirdi; miktarı sınırlıydı ve yapısı insan insülininden biraz farklıydı. Bakteriler hızla çoğaldığı için üretim kolayca artırılır.",
         "Eklenen gen **kalıtsaldır**: bakteride bölünmeyle, bitkide tohumla yeni bireylere geçer.",
-        "Başka örnekler: zararlı böceklere dayanıklı bitkiler, besin değeri artırılmış ürünler, kirliliği parçalayan mikroorganizmalar.",
+        "Başka örnekler: sütü katılaştıran peynir mayası enzimini (eskiden buzağı midesinden alınırdı) üreten genin bir mikroorganizmaya eklenip enzimin ona ürettirilmesi, zararlı böceklere dayanıklı bitkiler, besin değeri artırılmış ürünler, kirliliği parçalayan mikroorganizmalar.",
         "**Islaha göre üstünlüğü:** Çaprazlanamayan türlerin genleri de kullanılabilir (bakteri geni bitkiye, insan geni bakteriye) ve sonuç daha kısa sürede alınır. Buna karşılık laboratuvar ve uzun güvenlik testleri gerekir."
       ],
       dikkat: [
@@ -68,7 +68,7 @@ window.LGS_HAP["biyoteknoloji"] = {
     {
       baslik: "Klonlama",
       maddeler: [
-        "**Klonlama**, bir canlıyla genetik yapısı aynı olan yeni bir birey elde etmektir. **Klon**, hücresi alınan bireyin kalıtsal kopyasıdır. Yetişkin bir hayvanın vücut hücresinden klonlanan ilk memeli, 1996'da doğan **Dolly** adlı koyundur.",
+        "**Klonlama**, bir canlıyla genetik yapısı aynı olan yeni bir birey elde etmektir. **Klon**, hücresi alınan bireyin kalıtsal kopyasıdır. Kalıtım bilgisi hücre çekirdeğindeki DNA'da olduğundan, vücut hücresinin çekirdeği, çekirdeği çıkarılmış bir yumurta hücresine aktarılarak klon elde edilir. Yetişkin bir hayvanın vücut hücresinden klonlanan ilk memeli, 1996'da doğan **Dolly** adlı koyundur.",
         "Klonlamada yeni gen eklenmez, iki bireyin genleri de karışmaz; bu yüzden **yeni özellik ya da yeni gen birleşimi oluşmaz**.",
         "Bitkilerde dal, filiz ya da yumruyla çoğaltma da kalıtsal kopya verir; tohumla çoğaltma vermez.",
         "Klonlama değerli bir bireyin (çok verimli bir hayvan, soyu tükenmekte olan bir türün bireyi) genetik yapısını sürdürür. Ancak klonlardan oluşan toplulukta **kalıtsal çeşitlilik** azalır: biri bir hastalığa dayanıksızsa hepsi dayanıksızdır."
