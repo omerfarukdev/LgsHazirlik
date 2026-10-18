@@ -288,5 +288,9 @@ window.LGS_MANIFEST = [
   "din-u5-1.js",
   "din-u5-2.js",
   "mat-geometrik-cisimler-1.js",
-  "mat-geometrik-cisimler-2.js"
+  "mat-geometrik-cisimler-2.js",
+  "fen-elektrik-yuklu-cisimler-1.js",
+  "fen-elektrik-yuklu-cisimler-2.js",
+  "fen-elektrik-enerjisi-donusumu-1.js",
+  "fen-elektrik-enerjisi-donusumu-2.js"
 ];

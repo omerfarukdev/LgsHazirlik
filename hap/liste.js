@@ -68,5 +68,7 @@ window.LGS_HAP_LISTE = [
   "ink-6-dis-politika.js",
   "ink-7-olum-sonrasi.js",
   "din-5-kuran.js",
-  "geometrik-cisimler.js"
+  "geometrik-cisimler.js",
+  "elektrik-yuklu-cisimler.js",
+  "elektrik-enerjisi-donusumu.js"
 ];
