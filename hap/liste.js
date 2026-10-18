@@ -70,5 +70,6 @@ window.LGS_HAP_LISTE = [
   "din-5-kuran.js",
   "geometrik-cisimler.js",
   "elektrik-yuklu-cisimler.js",
-  "elektrik-enerjisi-donusumu.js"
+  "elektrik-enerjisi-donusumu.js",
+  "surdurulebilir-kalkinma.js"
 ];

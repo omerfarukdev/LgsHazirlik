@@ -292,5 +292,7 @@ window.LGS_MANIFEST = [
   "fen-elektrik-yuklu-cisimler-1.js",
   "fen-elektrik-yuklu-cisimler-2.js",
   "fen-elektrik-enerjisi-donusumu-1.js",
-  "fen-elektrik-enerjisi-donusumu-2.js"
+  "fen-elektrik-enerjisi-donusumu-2.js",
+  "fen-surdurulebilir-kalkinma-1.js",
+  "fen-surdurulebilir-kalkinma-2.js"
 ];
