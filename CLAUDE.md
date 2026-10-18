@@ -69,16 +69,18 @@ Dosya adı `sorular/<ders öneki>-<konu-id>-<sıra>.js`. Bir konu testinde sorul
 | Havuz (kademe 0) | **75** | `001`–`075` |
 | **Konu başına toplam** | **300** | |
 
-**Kademe yedeği (10 Ekim 2026 kararı).** Bir test her zaman 25 sorudur. **1. deneme:** kademenin ana 25 sorusu (kimlikte sıra 01-25). **2. deneme** (1. denemeyi bitirip geçemediyse): 25 sorunun hepsi yeni, kademenin **yedeğinden** (sıra 26-75); öğrenci yanlışlarının çözümünü az önce okuduğu için aynı soruları hemen sormak puanı hatırlamayla şişirirdi. **3. deneme ve sonrası:** son denemenin yanlış ve boşları yine gelir, doğruların yerine hiç görmediği sorular konur (önce yedek, o bitince havuz; kademenin zorluk aralığında). Örnek: 2. denemede 11 yanlış → 3. deneme o 11 yanlış + 14 yeni. Geçene kadar 4., 5. deneme de böyle sürer. Uygulama yeni soruyu, çıkan sorunun zorluğuna en yakın olandan seçer. Bu yüzden yedek soru yazarken:
+**Test 15 sorudur (18 Ekim 2026 kararı; önceden 25'ti, öğrenciye fazla geldi).** Yazım düzeni değişmez: her kademeye yine 25 ana soru (sıra 01-25) yazılır. Uygulama bu 25'ten **15'ini zorluk karmasını koruyarak** seçer (Kavrama 7 düzey 1 + 8 düzey 2, Pekiştirme 8 düzey 2 + 7 düzey 3, LGS Ayarı 9 düzey 3 + 6 düzey 4; her zorluk grubunun içinden eşit aralıklarla, kazanımlar dağılsın diye). **Teste girmeyen 10 ana soru havuza katılır:** ünite denemesi, aylık değerlendirme ve tekrar testi onları havuz sorusu gibi kullanır. Ayar: `js/ayar.js` → `konuTestBoyu`. Seçim kodu: `js/app.js` → `anaSecim`, `havuzMu`.
+
+**Kademe yedeği (10 Ekim 2026 kararı).** **1. deneme:** ana sorulardan seçilen 15 soru. **2. deneme** (1. denemeyi bitirip geçemediyse): 15 sorunun hepsi yeni, kademenin **yedeğinden** (sıra 26-75); öğrenci yanlışlarının çözümünü az önce okuduğu için aynı soruları hemen sormak puanı hatırlamayla şişirirdi. **3. deneme ve sonrası:** son denemenin yanlış ve boşları yine gelir (en çok 15), kalan yerlere hiç görmediği sorular konur (önce yedek, sonra teste girmeyen ana sorular, o da bitince havuz; kademenin zorluk aralığında). Örnek: 2. denemede 9 yanlış → 3. deneme o 9 yanlış + 6 yeni. Geçene kadar 4., 5. deneme de böyle sürer. Uygulama yeni soruyu, yerine geçtiği sorunun zorluğuna en yakın olandan seçer. Bu yüzden yedek soru yazarken:
 - Yedek, kademenin zorluk karmasını korur (Kavrama düzey 1-2, Pekiştirme 2-3, LGS Ayarı 3-4; aşağıdaki tablodaki oranlarla) ve ana sorularla aynı kazanımları **farklı kurgularla** yoklar. Ana sorunun sayıları değiştirilmiş hâli yedek olamaz.
 - Yedek sorular birbirinden bağımsız durmalıdır: hangi ikisinin aynı teste düşeceği bilinmez, bu yüzden hiçbir yedek soru başka bir sorunun cevabını vermemeli ve iki yedek aynı kaynak metni paylaşmamalı.
 - Dosya içindeki sıra ve şık dengesi kuralları yedek için de geçerlidir (art arda 3'ten fazla aynı harf yok, her şık ~%25).
 
-Havuz 75 soruya çıkar (karma 15/25/20/15); ünite denemesi, aylık değerlendirme ve tekrar testi önce havuzdan çeker, kademe yedeğine dokunmaz. Var olan konular sırayla bu boyuta tamamlanır; tamamlama dosyaları konunun sıradaki dosya numarasını alır (ör. `-3.js` kademe 1-2 yedeği, `-4.js` kademe 3 yedeği + havuz eki).
+Havuz 75 soruya çıkar (karma 15/25/20/15); teste girmeyen 3 × 10 ana soruyla birlikte uygulamada konu başına 105 havuz sorusu olur. Ünite denemesi, aylık değerlendirme ve tekrar testi önce havuzdan çeker, kademe yedeğine dokunmaz. Var olan konular sırayla bu boyuta tamamlanır; tamamlama dosyaları konunun sıradaki dosya numarasını alır (ör. `-3.js` kademe 1-2 yedeği, `-4.js` kademe 3 yedeği + havuz eki).
 
-**12 soruluk bir test, test değildir** — öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 75 soru çözmüş olur.
+**15 soru alt sınırdır** — daha kısa testte öğrenci tempo kuramaz, şans faktörü büyür, sonuç yüzdesi güvenilmez olur. Bir konuyu bitiren öğrenci üç kademede toplam 45 soru çözmüş olur.
 
-Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplamı), yani 25 soruluk Kavrama testi yaklaşık 25 dakika, LGS Ayarı testi yaklaşık 50 dakika sürer.
+Süre kendiliğinden hesaplanır (zorluğa göre soru başı saniyelerin toplamı), yani 15 soruluk Kavrama testi yaklaşık 15 dakika, Pekiştirme 23 dakika, LGS Ayarı yaklaşık 32 dakika sürer.
 
 Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden devam eder** (ör. `mat-ck-113` … `mat-ck-125`); yayımlanmış kimlikler değişmez.
 
@@ -86,10 +88,9 @@ Var olan bir konuyu bu boyuta tamamlarken **yeni kimlikler kaldığı yerden dev
 
 | Tür | Nereden çıkar | İçeriği | Kaydı |
 |---|---|---|---|
-| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 ana 25 sorusu, kolaydan zora. **Kademe tekrarı:** geçemeden yeniden açılırsa 2. deneme tamamen yeni 25 soru (kademe yedeği), 3. denemeden itibaren son denemenin yanlışları + yeni sorular ("Test boyutu" bölümü) | `tur: "konu"`, kademe ilerletir |
-| Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
+| Konu testi | Ders ekranı, kademe düğmeleri | O konunun `kademe` 1/2/3 ana sorularından zorluk karmasıyla seçilen 15 soru, kolaydan zora. **Kademe tekrarı:** geçemeden yeniden açılırsa 2. deneme tamamen yeni 15 soru (kademe yedeği), 3. denemeden itibaren son denemenin yanlışları + yeni sorular ("Test boyutu" bölümü) | `tur: "konu"`, kademe ilerletir || Günün paragrafı | Ana sayfa | `paragrafta-anlam` havuzundan, öğrencinin son 40 sorusundaki başarısına göre karma, kolaydan zora | `tur: "paragraf"` |
 | Tekrar testi | Ana sayfa (zamanı gelince) | Yanlış defteri + tekrar zamanı gelen konular | `tur: "tekrar"` |
-| Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz (kademe 0) sorularından, konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
+| Ünite denemesi | Ünitedeki soruları hazır konuların hepsi geçilince | O konuların havuz sorularından (kademe 0 + konu testine girmeyen ana sorular), konular arası dengeli | `tur: "unite"`, `unite: "<ünite id>"` |
 | Aylık değerlendirme | 28 günde bir (aylık deneme açıkken ya da son 28 günde çözüldüyse çıkmaz) | İşlenmiş bütün konulardan, LGS'deki soru sayıları oranında 30 soru | `tur: "aylik"` |
 | Aylık deneme | Bilgi dosyasındaki açılış gününden itibaren ana sayfada | Gerçek LGS düzeni: sözel oturum (Türkçe 20, İnkılap 10, Din 10, İngilizce 10; 75 dk) + sayısal oturum (Matematik 20, Fen 20; 80 dk). Süre dolunca oturum biter, net = D − Y/3, karne ağırlıklı neti (270 üzerinden) gösterir | `tur: "deneme"`, `deneme: "<id>"`, `oturum: 0/1` |
 
@@ -134,7 +135,7 @@ Her ay okulda o tarihe kadar işlenen konulardan bir deneme yazılır (1. deneme
 | 3 | LGS ortalaması | 3-4 adım, 60-110 sözcük günlük hayat senaryosu, veri kısmen görselde, şıklar birbirine yakın |
 | 4 | LGS ayırt edici (en zor %15-20) | 4-6 adım, iki kazanım birleşir, "en az / en fazla / olamaz / kaç farklı değer" kökü, sınır durumu kritik, 100-170 sözcük |
 
-Kademe karması (25 soruluk test için):
+Kademe karması (yazılan 25 ana soru için; uygulama bunlardan 15'ini aynı oranla seçer):
 
 | Kademe | Düzey 1 | Düzey 2 | Düzey 3 | Düzey 4 |
 |---|---|---|---|---|

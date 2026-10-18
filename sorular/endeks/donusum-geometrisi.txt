@@ -1,0 +1,90 @@
+mat-dg-101 | M.8.3.2.1 | z1 | k1 | Bir şekil, öteleme dönüşümüyle başka bir konuma taşınıyor. Bu dönüşüm için aşağıdakilerden hangisi doğrudur? | ✓Şeklin her noktası aynı yönde ve aynı miktar…
+mat-dg-102 | M.8.3.2.2 | z1 | k1 | Bir şeklin, bir simetri doğrusuna göre yansıması çiziliyor. Şekil üzerindeki bir nokta ile onun görüntüsü için aşağıdakilerden ha… | ✓Doğruya eşit uzaklıktadırlar ve doğrunun kar…
+mat-dg-103 | M.8.3.2.1 | z1 | k1 | Koordinat düzleminde A(2, 3) noktası verilmiştir. A noktası 4 birim sağa ve 1 birim yukarı ötelenerek A' noktası elde ediliyor. A… | ✓(6, 4)
+mat-dg-104 | M.8.3.2.2 | z1 | k1 | Şekilde koordinat düzleminde B(3, 2) noktası verilmiştir. B noktasının y eksenine göre yansıması hangi noktadır? | ✓(−3, 2)
+mat-dg-105 | M.8.3.2.2 | z1 | k1 | Şekilde koordinat düzleminde C(3, −4) noktası verilmiştir. C noktasının x eksenine göre yansıması hangi noktadır? | ✓(3, 4)
+mat-dg-106 | M.8.3.2.1 | z1 | k1 | Kareli kâğıtta ABC üçgeni ötelenerek A'B'C' üçgeni elde edilmiştir. Bu öteleme nasıl tanımlanır? | ✓5 birim sağa, 2 birim yukarı
+mat-dg-107 | M.8.3.2.2 | z1 | k1 | Kareli kâğıtta A noktası ve d simetri doğrusu verilmiştir. A noktasının d doğrusuna göre yansıması A' noktasıdır. |AA'| kaç birim… | ✓6
+mat-dg-108 | M.8.3.2.1 | z1 | k1 | Koordinat düzleminde A(1, 1) ve B(3, 2) noktalarını birleştiren [AB] doğru parçası 2 birim sağa ve 3 birim yukarı ötelenerek [A'B… | ✓(5, 5)
+mat-dg-109 | M.8.3.2.3 | z1 | k1 | Kareli kâğıtta, aynı büyüklükteki iki üçgen çizilmiştir. 2 numaralı üçgen, 1 numaralı üçgenden hangi dönüşümle elde edilmiştir? | ✓Dikey bir doğruya göre yansıma
+mat-dg-110 | M.8.3.2.2 | z1 | k1 | ABC üçgeninin bir simetri doğrusuna göre yansıması A'B'C' üçgenidir. ABC üçgeninde m(B) = 110°'dir. m(B') kaç derecedir? | ✓110
+mat-dg-111 | M.8.3.2.3 | z1 | k1 | Kareli kâğıtta, bir çini motifinin iki tekrarı gösterilmiştir. 2 numaralı motif, 1 numaralı motiften hangi dönüşümle elde edilmiş… | ✓Yukarı doğru öteleme
+mat-dg-112 | M.8.3.2.3 | z1 | k1 | Bir çokgene önce bir öteleme, ardından bir yansıma uygulanarak son çokgen elde ediliyor. Son çokgen için aşağıdakilerden hangisi … | ✓Kenar uzunlukları, ilk çokgenin kenar uzunlu…
+mat-dg-113 | M.8.3.2.1 | z2 | k1 | Bir öteleme sonucunda A(−2, 1) noktası A'(3, −1) noktasına gelmiştir. Aynı öteleme, B(0, 4) noktasına uygulanıyor. B noktasının g… | ✓(5, 2)
+mat-dg-114 | M.8.3.2.1 | z2 | k1 | Kareli kâğıtta ABCD dikdörtgeninin kenar uzunlukları |AB| = 5 birim ve |BC| = 3 birimdir. Bu dikdörtgen 6 birim sola ötelenerek A… | ✓16
+mat-dg-115 | M.8.3.2.1 | z2 | k1 | Şekilde ABC üçgeni ötelenerek A'B'C' üçgeni elde edilmiştir. |AA'| = 6 cm, |AB| = 4 cm ve |BC| = 5 cm'dir. |BB'| + |CC'| kaç sant… | ✓12
+mat-dg-116 | M.8.3.2.3 | z2 | k1 | Şekildeki ABC dik üçgeninin dik kenar uzunlukları |AB| = 9 cm ve |BC| = 12 cm'dir. Bu üçgen önce 5 cm sağa ötelenip ardından dike… | ✓54
+mat-dg-117 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde P(2, −4) noktası ve denklemi y = 1 olan d doğrusu verilmiştir. P noktasının d doğrusuna göre yansıması hangi… | ✓(2, 6)
+mat-dg-118 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde A(5, 3) ve B(1, −2) noktalarını birleştiren [AB] doğru parçası, denklemi x = 2 olan d doğrusuna göre yansıtı… | ✓(3, −2)
+mat-dg-119 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde A(−3, 4) noktası önce x eksenine göre yansıtılıyor. Elde edilen nokta ardından y eksenine göre yansıtılarak … | ✓(3, −4)
+mat-dg-120 | M.8.3.2.2 | z2 | k1 | Kareli kâğıtta ABC üçgeninin d doğrusuna göre yansıması A'B'C' üçgenidir. A, B ve C noktalarının d doğrusuna uzaklıkları sırasıyl… | ✓12
+mat-dg-121 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde köşeleri A(3, 3), B(0, 1) ve C(0, 5) olan ABC üçgeninin y eksenine göre yansıması A'BC üçgenidir. Bu iki üçg… | ✓12
+mat-dg-122 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde A(1, 2) ve C(5, 5) noktalarını birleştiren [AC] doğru parçası x eksenine göre yansıtılıyor ve görüntüsü [A'C… | ✓5
+mat-dg-123 | M.8.3.2.3 | z2 | k1 | Bir çini şeridinde yan yana dizilen 1, 2 ve 3 numaralı motifler kareli kâğıtta gösterilmiştir. Bu motifler arasındaki geçişler ha… | ✓1 → 2: öteleme, 2 → 3: öteleme
+mat-dg-124 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde A(−2, 1) noktası önce 4 birim sağa ve 3 birim yukarı, ardından 6 birim sola ve 1 birim aşağı ötelenerek A'' … | ✓(−4, 3)
+mat-dg-125 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde A(3, 2) noktası önce y eksenine göre yansıtılıyor, ardından elde edilen nokta 4 birim sağa ötelenerek A'' no… | ✓(1, 2)
+mat-dg-201 | M.8.3.2.1 | z2 | k2 | Bir bilgisayar oyununda karakter, koordinat düzleminde A(−3, −2) noktasından başlayıp 7 birim sağa ve 4 birim yukarı hareket ediy… | ✓8
+mat-dg-202 | M.8.3.2.1 | z2 | k2 | Şekildeki A'B'C' üçgeni, ABC üçgeninin 4 birim sola ve 3 birim yukarı ötelenmesiyle elde edilmiştir. A' köşesi A'(2, 5) noktasınd… | ✓(6, 2)
+mat-dg-203 | M.8.3.2.1 | z2 | k2 | Bir çini ustası, aynı yönde duran bir motifi her seferinde bir öncekinin 6 cm sağına öteleyerek yan yana 7 motif diziyor. 1. moti… | ✓36
+mat-dg-204 | M.8.3.2.2 | z2 | k2 | Bir bilgisayar oyununun ekranı koordinat düzlemi olarak tasarlanmıştır. Oyundaki karakter A(3, −1) noktasında durmaktadır. Ekrand… | ✓6
+mat-dg-205 | M.8.3.2.2 | z2 | k2 | Koordinat düzleminde denklemi x = 1 olan d doğrusu çizilmiştir. Aşağıdaki noktalardan hangisi, d doğrusuna göre yansıtıldığında y… | ✓(1, −3)
+mat-dg-206 | M.8.3.2.2 | z2 | k2 | Kareli kâğıtta |AB| = 5 birim ve |BC| = 3 birim olan ABCD dikdörtgeninin AB kenarı, d yatay simetri doğrusu üzerindedir. Bu dikdö… | ✓22
+mat-dg-207 | M.8.3.2.2 | z2 | k2 | Koordinat düzleminde P(3, −2) noktası, denklemi x = −1 olan d doğrusu ve K, L, M, N noktaları verilmiştir. P noktasının d doğrusu… | ✓K
+mat-dg-208 | M.8.3.2.2 | z2 | k2 | Sakin bir gölün kıyısındaki bir ağacın dibi su yüzeyinden 2 m, tepesi su yüzeyinden 9 m yüksektedir. Ağaç suya yansıyor ve su yüz… | ✓18
+mat-dg-209 | M.8.3.2.3 | z2 | k2 | Bir halı dokumacısı, kilimin kenar süsünü bayrak biçimli bir motifle oluşturuyor. Yan yana dizilen 1, 2 ve 3 numaralı motifler ka… | ✓Önce yansıma, sonra öteleme
+mat-dg-210 | M.8.3.2.3 | z2 | k2 | Koordinat düzleminde ABC üçgeni önce x eksenine göre yansıtılarak A'B'C' üçgeni, sonra A'B'C' üçgeni 3 birim sağa ve 1 birim yuka… | ✓(1, −3)
+mat-dg-211 | M.8.3.2.3 | z2 | k2 | Koordinat düzleminde A(2, 1) noktası önce 3 birim sola ve 2 birim yukarı ötelenip, ardından y eksenine göre yansıtılıyor. Elde ed… | ✓(1, 3)
+mat-dg-212 | M.8.3.2.3 | z2 | k2 | Bir şekil önce 4 birim sağa ve 1 birim aşağı, ardından 2 birim sağa ve 5 birim yukarı ötelenmiştir. Şekli bu iki ötelemeyle aynı … | ✓6 birim sağa, 4 birim yukarı
+mat-dg-213 | M.8.3.2.3 | z2 | k2 | Koordinat düzleminde A(0, 2) noktası önce denklemi x = 1 olan k doğrusuna göre, elde edilen nokta ardından denklemi x = 4 olan l … | ✓(6, 2)
+mat-dg-214 | M.8.3.2.1 | z3 | k2 | Bir tasarımcı, kareli çalışma masasında dikdörtgen biçimli şeffaf bir asetatla çalışıyor. Asetatın yatay kenarı 6 birim, dikey ke… | ✓12
+mat-dg-215 | M.8.3.2.1 | z3 | k2 | Bir oyun tasarımcısı, koordinat düzleminde köşeleri A(−3, −2), B(2, −2) ve C(−1, 3) olan üçgen biçimli bir karakteri ekranın sağ … | ✓4 birim sağa, 3 birim yukarı
+mat-dg-216 | M.8.3.2.1 | z3 | k2 | Bir çit tasarımında, kareli planda A(1, 1) ve B(5, 1) noktaları arasındaki 4 birimlik yatay bir tahta [AB] ile gösteriliyor. Taht… | ✓12
+mat-dg-217 | M.8.3.2.2 | z3 | k2 | Bir sahne ışık tasarımcısı, koordinat düzleminde köşeleri A(−1, 1), B(2, 1) ve C(0, 4) olan üçgen biçimli bir ışık demetini, denk… | ✓7
+mat-dg-218 | M.8.3.2.2 | z3 | k2 | Bir peyzaj mimarı, koordinat düzleminde köşeleri A(−2, 1), B(4, 1) ve C(1, −4) olan üçgen biçimli bir çiçek tarhının planını çizi… | ✓(4, 2)
+mat-dg-219 | M.8.3.2.2 | z3 | k2 | Kareli kâğıtta, dik üçgen biçimli ABC bahçesinin dik kenarları |AB| = 8 birim ve |BC| = 6 birimdir. [BC] kenarı, d simetri doğrus… | ✓36
+mat-dg-220 | M.8.3.2.3 | z3 | k2 | Bir fayans ustası, koordinat düzleminde gösterilen 1 numaralı motifi önce 4 birim sağa öteliyor, sonra ötelenen motifi dikey bir … | ✓x = 9
+mat-dg-221 | M.8.3.2.3 | z3 | k2 | Koordinat düzleminde A(1, 2) noktasına iki farklı işlem dizisi uygulanıyor. 1. dizi: önce 5 birim sağa öteleme, sonra y eksenine … | ✓10
+mat-dg-222 | M.8.3.2.3 | z3 | k2 | Bir seramik karo desenindeki 1, 2, 3 ve 4 numaralı motifler kareli kâğıtta gösterilmiştir. Desenin ustası, bu dört motifi yalnızc… | ✓4 numaralı motif, 2 numaralı motifin yatay b…
+mat-dg-223 | M.8.3.2.3 | z3 | k2 | Bir animasyon programında köşeleri A(1, 1), B(4, 1) ve C(2, 3) olan üçgen önce y eksenine göre yansıtılıyor. Elde edilen üçgen ar… | ✓8
+mat-dg-224 | M.8.3.2.3 | z3 | k2 | Bir uzaktan kumandalı araç, koordinat düzleminde P(3, 2) noktasından başlıyor. Araç önce bir doğruya göre yansıtılıyor, sonra 4 b… | ✓y eksenine göre
+mat-dg-225 | M.8.3.2.3 | z3 | k2 | Bir oyunda karakter, koordinat düzleminde A(−2, 3) noktasında duruyor. Oyun, karakteri önce x eksenine göre yansıtıyor; ardından … | ✓5
+mat-dg-301 | M.8.3.2.1 | z3 | k3 | Ceren, evlerinin bahçesine üçgen biçimli bir çiçek tarhı yapacaktır. Tarhın planını koordinat sisteminde A(−5, 1), B(−2, 1) ve C(… | ✓(6, 1)
+mat-dg-302 | M.8.3.2.1 | z3 | k3 | Bir apartmanın çocuk parkında üçgen biçimli bir kum havuzu bulunmaktadır. Havuzun planı koordinat sisteminde A(−6, 1), B(−2, 1) v… | ✓5
+mat-dg-303 | M.8.3.2.1 | z3 | k3 | Bir halı atölyesinde üçgen biçimli bir motifin planı, koordinat sisteminde A(−6, 1), B(−2, 1) ve C(−4, 4) köşeli ABC üçgeni olara… | ✓12
+mat-dg-304 | M.8.3.2.1 | z3 | k3 | Bir mimar, K(−6, 3), L(−3, 3) ve M(−6, 5) köşeli üçgen biçimli cam bir çatı parçasının planını koordinat sistemine çizmiştir. Par… | ✓15
+mat-dg-305 | M.8.3.2.2 | z3 | k3 | Elif, çizim programında A(−4, 5) ve B(2, 1) noktalarını birleştiren AB doğru parçasını çizmiştir. Programın ayna aracı, çizilen ş… | ✓(−1, −3)
+mat-dg-306 | M.8.3.2.2 | z3 | k3 | Bir sınıf panosuna dikdörtgen biçimli bir afiş asılacaktır. Afişin planı koordinat sisteminde A(−5, 1), B(−1, 1), C(−1, 4) ve D(−… | ✓12
+mat-dg-307 | M.8.3.2.2 | z3 | k3 | Ayna gibi çalışan bir çizim aracı, bir şekli yatay bir doğruya göre yansıtmaktadır. Araç, çizimdeki A(−2, 5) noktasını A′(−2, −1)… | ✓(1, 9)
+mat-dg-308 | M.8.3.2.2 | z3 | k3 | Kareli kâğıda çizilen KLM dik üçgeninin köşeleri K(1, 1), L(4, 1) ve M(4, 5) noktalarıdır; KL kenarı y = 1 doğrusu üzerindedir. S… | ✓18
+mat-dg-309 | M.8.3.2.2 | z3 | k3 | Bir harita uygulamasında konumlar koordinat sistemiyle gösteriliyor. Uygulama, kullanıcının işaretlediği A(2a − 1, 3) konumunun y… | ✓5
+mat-dg-310 | M.8.3.2.3 | z3 | k3 | Bir çini ustası, şekildeki L biçimli motifleri yan yana dizerek şerit bir desen hazırlıyor. Desende 1, 2, 3 ve 4 numaralı motifle… | ✓4. motif, 1. motifin 2 ile 3 arasındaki dike…
+mat-dg-311 | M.8.3.2.3 | z3 | k3 | Bir mobil oyunda ABC üçgeni biçimli bir uzay gemisi iki hamle yapıyor. Önce 5 birim sağa ve 2 birim aşağı, ardından 8 birim sola … | ✓(2, −1)
+mat-dg-312 | M.8.3.2.3 | z3 | k3 | Seda ve Ali, koordinat sisteminde K(3, 2) noktasına iki işlemi farklı sırayla uyguluyor. Seda önce K noktasını y eksenine göre ya… | ✓8
+mat-dg-313 | M.8.3.2.3 | z3 | k3 | Bir kumaş baskısında üçgen biçimli bir motif, önce m: x = 1 dikey doğrusuna göre, ardından elde edilen görüntü n: x = 5 dikey doğ… | ✓8
+mat-dg-314 | M.8.3.2.3 | z3 | k3 | Bir halı atölyesinde, dik üçgen biçimli bir motifle uzun bir şerit desen dokunuyor. Şekilde desenin ilk dört motifi görülmektedir… | ✓(31, 1)
+mat-dg-315 | M.8.3.2.3 | z3 | k3 | Bir ekran koruyucu animasyonunda KLM üçgeni, iki ardışık dönüşümle K″L″M″ üçgenine dönüşüyor. Üçgenlerin köşe konumları koordinat… | ✓Önce y eksenine göre yansıtma, sonra 3 birim…
+mat-dg-316 | M.8.3.2.3 | z4 | k3 | Bir halı tasarımcısı, bilgisayarında ABC üçgeni biçimli bir motifi iki adımda yerleştiriyor. Önce motifi y eksenine göre yansıtıy… | ✓(4, −3)
+mat-dg-317 | M.8.3.2.3 | z4 | k3 | Bir tekstil atölyesinde, koordinat sistemine benzeyen bir desen levhasında A(3, 2) ve B(3, 6) noktalarını birleştiren AB iplik şe… | ✓A″ noktasının y koordinatı, seçilen öteleme …
+mat-dg-318 | M.8.3.2.1 | z4 | k3 | Bir ressam, kenar uzunluğu 4 birim olan kare biçimli şeffaf bir asetatı koordinat sistemine K(1, 1), L(5, 1), M(5, 5) ve N(1, 5) … | ✓26
+mat-dg-319 | M.8.3.2.3 | z4 | k3 | Koordinat sisteminde köşeleri A(2, 5), B(2, 2) ve C(5, 2) olan ABC üçgeni verilmiştir. Üçgen önce y = 1 doğrusuna göre yansıtılıy… | ✓10
+mat-dg-320 | M.8.3.2.2 | z4 | k3 | Koordinat sisteminde köşeleri K(−7, 1), L(−3, 2), M(−2, 5) ve N(−6, 4) olan KLMN dörtgeni, y eksenine göre yansıtılarak K′L′M′N′ … | ✓KK′ ile NN′ doğru parçalarının uzunlukları t…
+mat-dg-321 | M.8.3.2.1 | z4 | k3 | Şekildeki KLMN dikdörtgeni şeffaf bir plastikten kesilmiştir. Plastik, koordinat sisteminde K(−3, −1), L(3, −1), M(3, 3) ve N(−3,… | ✓(1, 3)
+mat-dg-322 | M.8.3.2.3 | z4 | k3 | Bir seramik atölyesinde 4 karoluk bir pano hazırlanıyor. Her karoda aynı L biçimli motif bulunuyor; yan yana ve alt alta karolar … | ✓Önce 1 ile 2 arasındaki dikey doğruya, sonra…
+mat-dg-323 | M.8.3.2.2 | z4 | k3 | Koordinat sisteminde K(1, 5) ve L(−3, 0) noktaları işaretlenmiştir. M noktası x ekseni üzerinde ve L'nin sağındadır. KLM üçgenini… | ✓13
+mat-dg-324 | M.8.3.2.3 | z4 | k3 | Bir halı desenini bilgisayarda hazırlayan tasarımcı, motif köşelerini her adımda önce belirli bir miktar öteliyor, sonra dikey bi… | ✓(3, 2)
+mat-dg-325 | M.8.3.2.3 | z4 | k3 | Bir masa oyununda taş, koordinat sisteminde T(2, 3) noktasındadır. Oyuncu her turda iki hamle yapmak zorundadır. 1. hamlede taşı … | ✓3
+mat-dg-001 | M.8.3.2.1 | z1 | k0 | Koordinat sisteminde A(2, 5) noktası 3 birim sağa ve 4 birim aşağı ötelenirse hangi noktaya gelir? | ✓(5, 1)
+mat-dg-002 | M.8.3.2.2 | z1 | k0 | B(−4, 3) noktasının y eksenine göre yansıması aşağıdakilerden hangisidir? | ✓(4, 3)
+mat-dg-003 | M.8.3.2.2 | z1 | k0 | Şekilde KLM üçgeni ve bu üçgenin m doğrusuna göre yansıması olan K′L′M′ üçgeni çizilmiştir. Buna göre aşağıdakilerden hangisi doğ… | ✓K′L′M′ üçgeninin çevresi, KLM üçgeninin çevr…
+mat-dg-004 | M.8.3.2.2 | z2 | k0 | Bir haritada bir dinlenme tesisi P(5, −2) noktasıyla gösterilmiştir. Harita, x eksenine göre yansıtılarak ters çevrilmiş bir kopy… | ✓4
+mat-dg-005 | M.8.3.2.1 | z2 | k0 | Bir doğru parçası ötelenirken K(−1, 2) noktası K′(4, −1) noktasına gelmiştir. Doğru parçasının diğer ucu L(3, 4) noktasıdır ve öt… | ✓(8, 1)
+mat-dg-006 | M.8.3.2.2 | z2 | k0 | Koordinat sisteminde A(1, 4) noktası işaretlenmiştir ve x = 3 doğrusu çizilmiştir. A noktası bu doğruya göre yansıtıldığında A′ n… | ✓(5, 4)
+mat-dg-007 | M.8.3.2.3 | z2 | k0 | Bir şekil önce 2 birim sağa ve 3 birim yukarı, ardından 5 birim sola ve 1 birim aşağı ötelenmiştir. Bu iki ardışık öteleme tek bi… | ✓3 birim sola, 2 birim yukarı
+mat-dg-008 | M.8.3.2.3 | z2 | k0 | Bir noktaya önce x eksenine göre, ardından elde edilen noktaya y eksenine göre yansıma uygulanıyor. İşlemler (−2, 5) noktasıyla b… | ✓(2, −5)
+mat-dg-009 | M.8.3.2.2 | z3 | k0 | Kareli kâğıda çizilen ABCD dikdörtgeninin köşeleri A(1, 1), B(4, 1), C(4, 6) ve D(1, 6) noktalarıdır. Dikdörtgen, BC kenarının bu… | ✓22
+mat-dg-010 | M.8.3.2.1 | z3 | k0 | Koordinat sisteminde ABCD dikdörtgeninin köşeleri A(−3, 1), B(2, 1), C(2, 4) ve D(−3, 4) noktalarıdır. Dikdörtgen ötelenirken B k… | ✓(1, 0)
+mat-dg-011 | M.8.3.2.2 | z3 | k0 | Koordinat sisteminde P(4, 3) ve Q(−2, −5) noktaları işaretlenmiştir. Bu iki nokta y = −1 doğrusuna göre yansıtılarak P′ ve Q′ nok… | ✓10
+mat-dg-012 | M.8.3.2.3 | z3 | k0 | Bir dokuma şeridinde dik üçgen biçimli bir motif soldan sağa doğru dizilmiştir. Şekilde ilk üç motif görülmektedir. 2 numaralı mo… | ✓Önce 1 ile 2 arasındaki dikey doğruya göre y…
+mat-dg-013 | M.8.3.2.3 | z4 | k0 | Bir bulmaca oyununda A(−2, 3) noktasına önce m birim sağa öteleme, ardından y eksenine göre yansıma uygulanıyor. Sonunda nokta A″… | ✓8
+mat-dg-014 | M.8.3.2.2 | z4 | k0 | Bir çizim programında K(4, a + 1) noktasının y = 2 doğrusuna göre simetriği K′(b − 1, 7) olarak veriliyor. Programı kullanan Efe,… | ✓1
+mat-dg-015 | M.8.3.2.3 | z4 | k0 | Koordinat sisteminde köşeleri A(1, 1), B(7, 1) ve C(1, 9) olan ABC dik üçgeni verilmiştir. Üçgen önce x eksenine göre yansıtılıyo… | ✓48

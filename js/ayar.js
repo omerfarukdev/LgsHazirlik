@@ -16,6 +16,9 @@ window.LGS_AYAR = {
   gecmeEsigi: 0.6,
   // Bu oranın üstü "sağlam" (yeşil), altı "zayıf" (sarı) sayılır.
   saglamEsigi: 0.8,
+  // Konu testinin soru sayısı. 18 Ekim 2026'da 25'ten 15'e indirildi (25 soru fazla geldi).
+  // Kademenin 25 ana sorusundan bu kadarı zorluk karmasıyla seçilir; artanlar havuza katılır.
+  konuTestBoyu: 15,
 
   // Günlük paragraf rutini. Paragraf, LGS'nin en yüksek getirili konusu ve bütün
   // derslerin okuma hızını belirleyen beceri; bu yüzden ayrı bir günlük hedefi var.

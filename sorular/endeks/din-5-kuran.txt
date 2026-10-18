@@ -1,0 +1,90 @@
+din-u5-101 | DKAB.8.5.1 | z1 | k1 | İslam dininin temel kaynakları aşağıdakilerden hangisinde doğru verilmiştir? | ✓Kur'an ve sünnet
+din-u5-102 | DKAB.8.5.3 | z1 | k1 | Kur'an-ı Kerim'in adlarından biri olan "furkan" sözcüğü ne anlama gelir? | ✓Hak ile batılı ayıran
+din-u5-103 | DKAB.8.5.4 | z1 | k1 | Hz. Nuh (a.s.) kavmini aşağıdakilerden hangisine davet etmiştir? | ✓Yalnız Allah'a kulluk etmeye
+din-u5-104 | DKAB.8.5.2 | z1 | k1 | Allah'ın varlığı ve birliği, melekler, ahiret gibi esasları konu alan Kur'an ana konusu aşağıdakilerden hangisidir? | ✓İnanç
+din-u5-105 | DKAB.8.5.3 | z1 | k1 | Ece, okuduğu bir ayette şu soruyu görüyor: "De ki: Kör ile gören bir olur mu? Hâlâ düşünmüyor musunuz?" (En'âm suresi, 50. ayet m… | ✓Aklını kullanmaya yöneltmesine
+din-u5-106 | DKAB.8.5.1 | z1 | k1 | Hz. Muhammed'in (s.a.v.) sözlerine ne ad verilir? | ✓Hadis
+din-u5-107 | DKAB.8.5.4 | z1 | k1 | Hud suresine göre Allah, Hz. Nuh'a (a.s.) vahyiyle neyi yapmasını emretmiştir? | ✓Gemi yapmasını
+din-u5-108 | DKAB.8.5.2 | z1 | k1 | "Muamelat" sözcüğü, Kur'an'ın ana konuları arasında aşağıdakilerden hangisini ifade eder? | ✓İnsanlar arası ilişkilerle ilgili kuralları
+din-u5-109 | DKAB.8.5.1 | z1 | k1 | Hz. Muhammed (s.a.v.), Kur'an'daki "Namazı kılın." emrini uygulayarak sahabesine namazın nasıl kılınacağını göstermiştir. Bu duru… | ✓Kur'an'ı uygulamayla göstermesi
+din-u5-110 | DKAB.8.5.3 | z1 | k1 | "İşte o kitap; onda hiçbir şüphe yoktur. Allah'a karşı gelmekten sakınanlar için bir yol göstericidir." (Bakara suresi, 2. ayet m… | ✓Yol göstermesine
+din-u5-111 | DKAB.8.5.4 | z1 | k1 | Hz. Nuh (a.s.) kavmine "Ben size gönderilmiş apaçık bir uyarıcıyım." demiştir (Hud suresi, 25. ayet meali). Bu söz onun hangi gör… | ✓Kavmini tevhide çağırmak
+din-u5-112 | DKAB.8.5.1 | z1 | k1 | Aşağıdakilerden hangisi sünnete örnektir? | ✓Hz. Muhammed'in sahabeye abdest alışını göst…
+din-u5-113 | DKAB.8.5.2 | z2 | k1 | Mina, Ramazan ayında tuttuğu orucun Kur'an'daki dayanağını arıyor ve şu ayeti buluyor: "Ey iman edenler! Oruç, sizden öncekilere … | ✓İbadet
+din-u5-117 | DKAB.8.5.3 | z2 | k1 | Din kültürü dersinde şu ayetin meali okunuyor: "Biz sana Kitab'ı, her şeyin açıklayıcısı olarak indirdik." (Nahl suresi, 89. ayet… | ✓Açıklayıcı olması
+din-u5-114 | DKAB.8.5.2 | z2 | k1 | Sınıf panosuna şu ayetin meali asılıyor: "Ey iman edenler! Bir topluluk, başka bir topluluğu alaya almasın; belki alay edilenler … | ✓Ahlak
+din-u5-118 | DKAB.8.5.1 | z2 | k1 | "De ki: Eğer Allah'ı seviyorsanız bana uyun ki Allah da sizi sevsin ve günahlarınızı bağışlasın." (Âl-i İmrân suresi, 31. ayet me… | ✓Allah sevgisinin gereği olduğu
+din-u5-115 | DKAB.8.5.2 | z2 | k1 | Okulun ekonomi kulübü, Kur'an'daki alışveriş ilkelerini araştırırken şu ayeti buluyor: "Allah alım satımı helal, faizi haram kıld… | ✓Sosyal hayat
+din-u5-119 | DKAB.8.5.4 | z2 | k1 | Hz. Nuh'un (a.s.) davetine karşı kavminin ileri gelenleri şöyle demiştir: "Biz seni ancak bizim gibi bir insan olarak görüyoruz."… | ✓Onun kendileri gibi bir insan olması
+din-u5-116 | DKAB.8.5.2 | z2 | k1 | Bir ders sunumunda şu ayet gösteriliyor: "Şüphesiz biz her şeyi bir kader (ölçü) ile yarattık." (Kamer suresi, 49. ayet meali) Bu… | ✓İnanç
+din-u5-120 | DKAB.8.5.3 | z2 | k1 | Bir sınıf etkinliğinde şu ayetin meali inceleniyor: "Allah'ın haram kıldığı cana, haklı bir sebep olmadıkça kıymayın." (İsrâ sure… | ✓Kötülüklerden sakındırmasına
+din-u5-121 | DKAB.8.5.4 | z2 | k1 | Tufan olayını anlatan ayetlerde Hz. Nuh'un (a.s.) kavminden bir kısmının boğulduğu, bir kısmının ise kurtulduğu bildirilir. Yunus… | ✓Hz. Nuh ve onunla birlikte olanlar
+din-u5-122 | DKAB.8.5.2 | z2 | k1 | Din kültürü dersinde ayetlerin ana konuları belirleniyor. Sıra şu ayete geliyor: "Firavun'a git; çünkü o, azmıştır." (Tâhâ suresi… | ✓Kıssalar
+din-u5-123 | DKAB.8.5.2 | z2 | k1 | Burcu, ayetleri Kur'an'ın ana konularına göre şöyle eşleştirmiştir: I. "Gücü yetenlerin Kâbe'yi haccetmesi, Allah'ın insanlar üze… | ✓I ve III
+din-u5-124 | DKAB.8.5.1 | z2 | k1 | İslam'ın temel kaynaklarından sünnetle ilgili şu cümleler verilmiştir: I. Sünnet, Kur'an'ın yerine geçen ikinci bir kitaptır. II.… | ✓Yalnız II
+din-u5-125 | DKAB.8.5.3 | z2 | k1 | Komşusu kendisine kötü davranan Emre'ye annesi şu ayeti hatırlatıyor: "İyilik ile kötülük bir olmaz. Sen kötülüğü en güzel olan d… | ✓İyiye ve güzele yönlendirmesine
+din-u5-201 | DKAB.8.5.1 | z2 | k2 | Bir öğretmen tahtaya şu ayeti yazıyor: "Peygamber size ne verdiyse onu alın, size neyi yasakladıysa ondan sakının." (Haşr suresi,… | ✓Bildirdiği her şeyi almalı, yasakladığından …
+din-u5-202 | DKAB.8.5.2 | z2 | k2 | Esra, borç ilişkilerinin Kur'an'da nasıl ele alındığını araştırırken şu ayeti okuyor: "Ey iman edenler! Belirli bir süreye kadar … | ✓Sosyal hayat
+din-u5-203 | DKAB.8.5.3 | z2 | k2 | "Ramazan ayı, insanlara yol gösterici ve hak ile batılı ayıran açık deliller olarak Kur'an'ın indirildiği aydır." (Bakara suresi,… | ✓Doğruyu yanlıştan ayırt etmesi
+din-u5-204 | DKAB.8.5.4 | z2 | k2 | Hz. Nuh (a.s.) kavmine şöyle demiştir: "Yüz çevirirseniz (bilin ki) ben sizden bir ücret istemedim. Benim ücretim ancak Allah'a a… | ✓Karşılık beklemeden davet ettiğini
+din-u5-205 | DKAB.8.5.3 | z2 | k2 | "Göklerin ve yerin yaratılışında, gece ile gündüzün birbirini izlemesinde akıl sahipleri için deliller vardır." (Âl-i İmrân sures… | ✓Evren üzerinde düşündürmesine
+din-u5-206 | DKAB.8.5.1 | z2 | k2 | Eren, sabah namazının iki, akşam namazının üç rekât olduğunu öğreniyor ve bu bilgilerin Müslümanlara hangi yolla ulaştığını merak… | ✓Hz. Muhammed'in (s.a.v.) uygulamalarıyla
+din-u5-207 | DKAB.8.5.2 | z2 | k2 | Sınıf panosunda Kur'an ayetleri ana konularına göre ayrılacaktır. Öğrenciler panoya şu ayeti asmak istiyor: "İnsanlardan kibirle … | ✓Ahlak
+din-u5-208 | DKAB.8.5.3 | z2 | k2 | "Şüphesiz Allah adaleti, iyilik yapmayı ve akrabaya yardım etmeyi emreder; hayasızlığı, kötülüğü ve azgınlığı yasaklar." (Nahl su… | ✓İyiye yönlendirmesi ve kötülüklerden sakındı…
+din-u5-209 | DKAB.8.5.1 | z2 | k2 | "Andolsun, Allah'ın Resulünde sizin için, Allah'ı ve ahiret gününü umanlar için güzel bir örnek vardır." (Ahzâb suresi, 21. ayet … | ✓Her Müslüman için örnek bir hayat sunduğunu
+din-u5-210 | DKAB.8.5.4 | z2 | k2 | Hz. Nuh (a.s.) kavmine şöyle demiştir: "Eğer aranızda durmam ve Allah'ın ayetlerini hatırlatmam size ağır geliyorsa, ben Allah'a … | ✓Yalnız Allah'a dayanarak davetine devam etti…
+din-u5-211 | DKAB.8.5.2 | z2 | k2 | Kur'an kursunda ayetler konularına göre sınıflandırılıyor. Sıra şu ayete geliyor: "Peygamber, Rabbinden kendisine indirilene iman… | ✓İnanç
+din-u5-212 | DKAB.8.5.3 | z2 | k2 | Bir ödevde Kur'an'ın yol gösterici olduğunu vurgulayan ayet meali bulunması isteniyor. Aşağıdaki ayet meallerinden hangisi bu öde… | ✓"Şüphesiz bu Kur'an, en doğru yola iletir." …
+din-u5-213 | DKAB.8.5.4 | z2 | k2 | Tarih kulübü Ankebut suresinin 14. ayetinin meâlini inceliyor: "Andolsun, Nuh'u kavmine gönderdik de içlerinde elli yıl eksik bin… | ✓Hz. Nuh kavmini uzun bir süre davet etmiştir
+din-u5-214 | DKAB.8.5.2 | z3 | k2 | Selin, ayetleri Kur'an'ın ana konularına göre sınıflandırırken şu eşleştirmeleri yapmıştır: I. "De ki: O, Allah'tır, bir tektir."… | ✓II ve III
+din-u5-215 | DKAB.8.5.1 | z3 | k2 | Ela, Kur'an'daki ahlak ilkelerini araştırırken Hucurât suresinin 11. ayetinde bir topluluğun başka bir topluluğu alaya almaması g… | ✓Sünnet, Kur'an'daki ilkeyi sözle desteklemek…
+din-u5-216 | DKAB.8.5.3 | z3 | k2 | Emir, Kur'an-ı Kerim'in özellikleri konulu sunumuna şu cümleleri yazmıştır: I. Kur'an'a "furkan" denmesi, hukuk kuralları içermes… | ✓Yalnız III
+din-u5-217 | DKAB.8.5.2 | z3 | k2 | Selim, aşağıdaki tabloda numaralandırdığı ayet mealleri arasından aynı ana konu başlığı altında toplanabilecek iki ayeti bulmak i… | ✓1 ve 2
+din-u5-218 | DKAB.8.5.1 | z3 | k2 | "Kim Peygambere itaat ederse Allah'a itaat etmiş olur." (Nisâ suresi, 80. ayet meali) Kerem, bu ayeti ve sünnetin Kur'an karşısın… | ✓I ve II
+din-u5-219 | DKAB.8.5.4 | z3 | k2 | Kavminin ileri gelenleri Hz. Nuh'a (a.s.) şöyle demiştir: "Biz seni ancak bizim gibi bir insan olarak görüyoruz; sana içimizden e… | ✓Hz. Nuh, inananları toplumsal konumlarına ba…
+din-u5-220 | DKAB.8.5.2 | z3 | k2 | Burak, ayetleri Kur'an'ın ana konularına göre şöyle sınıflandırmıştır: I. "Yetimlerin mallarını kendilerine verin." (Nisâ, 2) aye… | ✓I ve III
+din-u5-221 | DKAB.8.5.1 | z3 | k2 | Zeynep, Hz. Muhammed'in (s.a.v.) hayatından şu örnekleri not ediyor: vakit girince cemaatle namaz kılması; verdiği sözü her zaman… | ✓Hayatın bütün alanlarını kapsadığını
+din-u5-222 | DKAB.8.5.3 | z3 | k2 | Ahmet, Kur'an'ın insanı düşünmeye ve aklını kullanmaya yönelttiğini gösteren ayetleri seçmeye çalışıyor ve şu meallere ulaşıyor: … | ✓Yalnız II
+din-u5-223 | DKAB.8.5.2 | z3 | k2 | Edebiyat öğretmeni Yusuf suresinin 3. ayetini okutuyor: "Biz sana bu Kur'an'ı vahyetmekle kıssaların en güzelini anlatıyoruz." Ar… | ✓Geçmiş toplumlardan ibret ve ders aldırmak
+din-u5-224 | DKAB.8.5.1 | z3 | k2 | Dört arkadaş bilgilerini nereden öğrendiklerini anlatıyor: Aslı: "Hud suresindeki ayetlerden Hz. Nuh'un gemi yaptığını öğrendim."… | ✓Bora ve Deniz
+din-u5-225 | DKAB.8.5.4 | z3 | k2 | Hud suresindeki Nuh kıssasını okuyan Tuna aşağıdaki cümleleri yazıyor: I. Hz. Nuh gemiyi yaparken kavminin ileri gelenleri onunla… | ✓I ve II
+din-u5-301 | DKAB.8.5.1 | z3 | k3 | Kur'an-ı Kerim'de “Namazı dosdoğru kılın.” emri verilir; ancak namazın rekât sayıları ve kılınışı ayrıntılı biçimde anlatılmaz. M… | ✓Kur'an'daki emirleri açıklayıp uygulamalı ol…
+din-u5-302 | DKAB.8.5.2 | z3 | k3 | Selim, sınıf grubunda bir arkadaşı hakkında konuşulduğunu fark eder. Konuşanlar, o kişinin yokluğunda onun eksiklerini sıralamakt… | ✓Ahlak
+din-u5-303 | DKAB.8.5.3 | z3 | k3 | Hatice, ders çalışırken şu ayetin mealini okur: “Şüphesiz bu Kur'an, en doğru yola iletir ve iyi işler yapan müminlere büyük bir … | ✓İnsanlara doğru yolu göstermesi
+din-u5-304 | DKAB.8.5.4 | z3 | k3 | Nuh suresinde Hz. Nuh'un (a.s.) kavmine şöyle seslendiği bildirilir: “Ey kavmim! Ben size gönderilmiş apaçık bir uyarıcıyım. Alla… | ✓Tevhidi, yani yalnızca Allah'a kulluğu yaymak
+din-u5-305 | DKAB.8.5.2 | z3 | k3 | Bir din kültürü kulübünde öğrenciler, aşağıdaki ayet meallerini Kur'an'ın ana konularına göre ayırıyor. I. “Ey iman edenler! Oruç… | ✓II ve III
+din-u5-306 | DKAB.8.5.1 | z3 | k3 | Fatma, sünnetle ilgili bir ders sunumu hazırlıyor ve sunuma koyacağı örnekleri belirliyor. I. Hz. Muhammed'in (s.a.v.) abdestin n… | ✓I ve II
+din-u5-307 | DKAB.8.5.3 | z3 | k3 | Kur'an-ı Kerim'de şöyle buyrulur: “Onunla (gökten indirilen suyla) sizin için ekin, zeytin, hurma, üzüm ve her türlü meyveyi biti… | ✓Aklı kullanmaya ve düşünmeye yöneltmesi
+din-u5-308 | DKAB.8.5.2 | z3 | k3 | Ali ile Mehmet, aralarındaki bir borç ilişkisini yazılı hâle getirirken Ali'nin dedesi şu ayetin mealini hatırlatır: “Ey iman ede… | ✓Sosyal hayat (muamelat)
+din-u5-309 | DKAB.8.5.4 | z3 | k3 | Hûd suresinde Hz. Nuh'un (a.s.) davetine kavminin ileri gelenlerinin verdiği karşılık şöyle aktarılır: “Biz seni ancak bizim gibi… | ✓Onu sıradan bir insan sayıp ona uyanları küç…
+din-u5-310 | DKAB.8.5.1 | z3 | k3 | Kur'an-ı Kerim'de şöyle buyrulur: “Peygamber size ne verdiyse onu alın, size neyi yasakladıysa ondan sakının.” (Haşr suresi, 7. a… | ✓Kur'an ve sünnet birbirini tamamlayan temel …
+din-u5-311 | DKAB.8.5.3 | z3 | k3 | Lokman suresinde Lokman'ın oğluna verdiği öğütler aktarılırken şöyle denir: “Yüzünü insanlardan çevirme ve yeryüzünde böbürlenere… | ✓Kötü davranışlardan sakındırması
+din-u5-312 | DKAB.8.5.4 | z3 | k3 | Hûd suresinde, Allah'ın Hz. Nuh'a (a.s.) “Gözlerimizin önünde ve vahyimize göre gemiyi yap.” buyurduğu bildirilir. Hz. Nuh (a.s.)… | ✓Alay edilmesine rağmen Allah'ın emrini yerin…
+din-u5-313 | DKAB.8.5.2 | z3 | k3 | Rana, ayet defterinde “kıssalar” bölümüne yazacağı ayetleri seçiyor. Önündeki ayet mealleri şunlardır: I. “Allah alım satımı hela… | ✓Yalnız II
+din-u5-314 | DKAB.8.5.4 | z3 | k3 | Yunus suresinde Hz. Nuh'un (a.s.) kavmiyle ilgili şöyle buyrulur: “Onu yalanladılar. Biz de onu ve gemide beraber bulunanları kur… | ✓Yalanlayanlar suda boğulmuş, gemidekiler kur…
+din-u5-315 | DKAB.8.5.1 | z3 | k3 | Aşağıdaki tabloda bazı bilgiler ve İslam dininin temel kaynaklarından hangisine ait oldukları eşleştirilmiştir. Buna göre hangi b… | ✓Hastanın ziyaret edilmesi
+din-u5-316 | DKAB.8.5.2 | z4 | k3 | Bir din kültürü öğretmeni, tahtaya ayet mealleri ile bunların ait olduğu düşünülen ana konuları yazarak öğrencilerden eşleştirmel… | ✓3
+din-u5-317 | DKAB.8.5.1 | z4 | k3 | Kur'an-ı Kerim'de şöyle buyrulur: “Andolsun ki sizin için, Allah'ın Resulünde güzel bir örnek vardır.” (Ahzâb suresi, 21. ayet) S… | ✓Yalnız III
+din-u5-318 | DKAB.8.5.3 | z4 | k3 | Bir okulda “Kur'an ve Hayat” haftasında dört öğrenci, Kur'an'ın özelliklerinden birini yansıtan davranışlarını anlatıyor. Davranı… | ✓Deniz
+din-u5-319 | DKAB.8.5.4 | z4 | k3 | Aşağıda Hz. Nuh'un (a.s.) tevhide daveti hakkında Kur'an-ı Kerim'den üç alıntı verilmiştir. • “Ey kavmim! Ben bunun karşılığında … | ✓Kavminin tamamı daveti kabul ettiği için gem…
+din-u5-320 | DKAB.8.5.2 | z4 | k3 | Bir öğrenci, defterine yazdığı altı ayet mealini Kur'an'ın ana konularına (inanç, ibadet, ahlak, sosyal hayat ve kıssalar) göre a… | ✓5
+din-u5-321 | DKAB.8.5.1 | z4 | k3 | Kur'an-ı Kerim'de Hz. Muhammed'e (s.a.v.) şöyle seslenilir: “Sana da Zikr'i (Kur'an'ı) indirdik ki insanlara indirileni açıklayas… | ✓I ve III
+din-u5-322 | DKAB.8.5.3 | z4 | k3 | Kur'an-ı Kerim'de şöyle buyrulur: “Ramazan ayı, insanlar için bir hidayet rehberi ve doğruyu yanlıştan ayıran (furkan) açık delil… | ✓Kur'an yalnızca Ramazan ayında okunabilir
+din-u5-323 | DKAB.8.5.4 | z4 | k3 | Aşağıda Hz. Nuh'un (a.s.) kıssasında geçen dört olay karışık verilmiştir. I. Gemidekilerin kurtulup yalanlayanların suda boğulmas… | ✓III – IV – II – I
+din-u5-324 | DKAB.8.5.2 | z4 | k3 | Bir din kültürü öğretmeni şu ayetin mealini yazar: “Allah'a kulluk edin ve O'na hiçbir şeyi ortak koşmayın; anne babaya, akrabaya… | ✓İnanç – Ahlak
+din-u5-325 | DKAB.8.5.4 | z4 | k3 | Nuh suresinde Hz. Nuh'un (a.s.) kavmine şöyle dediği bildirilir: “Rabbinizden bağışlanma dileyin. Çünkü O, çok bağışlayandır. (Ba… | ✓Bağışlanma dileyenlere bolluk ve destek müjd…
+din-u5-001 | DKAB.8.5.1 | z1 | k0 | İslam dininin temel kaynakları aşağıdakilerden hangisinde doğru verilmiştir? | ✓Kur'an ve sünnet
+din-u5-002 | DKAB.8.5.2 | z1 | k0 | Namaz, oruç, zekât ve hac gibi görevler Kur'an-ı Kerim'in ana konularından birine girer. Buna göre bu görevler hangi ana konuya a… | ✓İbadet
+din-u5-003 | DKAB.8.5.3 | z1 | k0 | Kur'an-ı Kerim insanları iyiye ve güzele yönlendirir. Aşağıdakilerden hangisi bu özelliğe uygun bir davranıştır? | ✓Bir arkadaşının ders eksiğini giderirken ona…
+din-u5-004 | DKAB.8.5.4 | z2 | k0 | Hûd suresinde şöyle buyrulur: “...Emrimiz gelip tandır kaynadığında dedik ki: 'Her cinsten bir çift, ailenden hakkında hüküm veri… | ✓İman edenler kavmin içinde azınlıkta kalmışt…
+din-u5-005 | DKAB.8.5.2 | z2 | k0 | Bir öğretmen tahtaya şu ayetin mealini yazar: “Ey iman edenler! Allah'a, Resulüne, Resulüne indirdiği kitaba ve daha önce indirdi… | ✓İnanç
+din-u5-006 | DKAB.8.5.1 | z2 | k0 | Tuğba, derste sünnetle ilgili örnekler araştırıyor ve bunları Kur'an'dan ayırmaya çalışıyor. Aşağıdakilerden hangisi sünnete örne… | ✓Peygamberimizin (s.a.v.) bir ibadeti uygulam…
+din-u5-007 | DKAB.8.5.3 | z2 | k0 | Kur'an-ı Kerim'de şöyle buyrulur: “İşte o kitap, onda şüphe yoktur; Allah'a karşı gelmekten sakınanlara yol göstericidir.” (Bakar… | ✓Yol göstermesine (hidayet)
+din-u5-008 | DKAB.8.5.2 | z2 | k0 | Mert, ailesiyle alışveriş konusunu konuşurken şu ayetin mealini hatırlar: “Ey iman edenler! Mallarınızı aranızda haksız yollarla … | ✓Sosyal hayat (muamelat)
+din-u5-009 | DKAB.8.5.1 | z3 | k0 | Meryem, Kur'an-ı Kerim'de şu ayetin mealini okur: “Kim Peygamber'e itaat ederse Allah'a itaat etmiş olur.” (Nisa suresi, 80. ayet… | ✓Sünneti örnek almak, Allah'a itaat anlamı da…
+din-u5-010 | DKAB.8.5.2 | z3 | k0 | Bir öğrenci, aşağıdaki ayet meallerini “ahlak” ana konusuna göre ayırıyor. I. “Namazı dosdoğru kılın.” (Bakara suresi, 43. ayet) … | ✓II ve III
+din-u5-011 | DKAB.8.5.3 | z3 | k0 | Kur'an-ı Kerim'de şöyle buyrulur: “Biz sana Kitab'ı, her şeyi açıklayan; Müslümanlar için bir hidayet, rahmet ve müjde olarak ind… | ✓Açıklayıcı olmasına
+din-u5-012 | DKAB.8.5.4 | z3 | k0 | Hûd suresinde Hz. Nuh'un (a.s.) kavmine şöyle seslendiği bildirilir: “Ey kavmim! Ben bunun karşılığında sizden bir mal istemiyoru… | ✓Davet karşılığında maddi bir beklenti içine …
+din-u5-013 | DKAB.8.5.2 | z4 | k0 | Aşağıdaki tabloda bazı ayet mealleri ile ana konuları eşleştirilmiştir. Buna göre hangi ayetin ana konusu yanlış verilmiştir? | ✓Mâide suresi, 2. ayet
+din-u5-014 | DKAB.8.5.3 | z4 | k0 | Muhammed suresinde şöyle buyrulur: “Hâlâ Kur'an'ı gereği gibi düşünmezler mi? Yoksa kalplerinin üzerinde kilitler mi var?” (Muham… | ✓Bir konuyu yalnızca herkes söylüyor diye sor…
+din-u5-015 | DKAB.8.5.4 | z4 | k0 | Hz. Nuh'un (a.s.) tevhide daveti hakkında Kur'an-ı Kerim'den üç alıntı verilmiştir. • “Hani kavmine demişti ki: 'Ey kavmim! Benim… | ✓İman edenleri ileri gelenler için kovduğuna

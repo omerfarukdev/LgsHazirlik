@@ -103,3 +103,198 @@ mat-kk-027 | M.8.1.3.3 | z4 | k0 | Bir bahçe merdiveninin basamakları aşağı
 mat-kk-028 | M.8.1.3.1 | z4 | k0 | Bir salonun zemini kare biçimindedir ve bir kenarı 30 cm olan kare fayanslarla, hiçbir fayans kesilmeden ve boşluk kalmadan kapla… | ✓4,8
 mat-kk-029 | M.8.1.3.2 | z4 | k0 | Kare biçiminde bir bahçenin alanı 540 m²'den büyük, 600 m²'den küçüktür. Bahçenin bir kenar uzunluğu tam sayı metredir. Buna göre… | ✓576
 mat-kk-030 | M.8.1.3.8 | z4 | k0 | Kare biçiminde bir sebze bahçesinin alanı 18 m²'dir. Buna göre bu bahçenin bir kenar uzunluğu ile ilgili aşağıdakilerden hangisi … | ✓4 ile 5 metre arasında olan irrasyonel bir s…
+mat-kk-126 | M.8.1.3.1 | z1 | k1 | Bir pul koleksiyoncusunun kare biçimli pulunun bir kenarı 13 mm'dir. Buna göre bu pulun alanı kaç mm²'dir? | ✓169
+mat-kk-127 | M.8.1.3.5 | z1 | k1 | √{45} − √{20} işleminin sonucu aşağıdakilerden hangisidir? | ✓√{5}
+mat-kk-128 | M.8.1.3.7 | z1 | k1 | Bir öğrenci defterine √{0,0049} işlemini yazmıştır. Buna göre bu işlemin sonucu kaçtır? | ✓0,07
+mat-kk-129 | M.8.1.3.2 | z1 | k1 | Aşağıdaki sayılardan hangisi 5 ile 6 arasındadır? | ✓√{28}
+mat-kk-130 | M.8.1.3.8 | z1 | k1 | Aşağıdaki sayılardan hangisi rasyonel sayıdır? | ✓√{16}
+mat-kk-131 | M.8.1.3.4 | z1 | k1 | 2√{3} · 4√{3} işleminin sonucu aşağıdakilerden hangisidir? | ✓24
+mat-kk-132 | M.8.1.3.3 | z1 | k1 | √{108} ifadesinin en sade biçimi aşağıdakilerden hangisidir? | ✓6√{3}
+mat-kk-133 | M.8.1.3.6 | z1 | k1 | Aşağıdaki çarpımlardan hangisinin sonucu bir doğal sayıdır? | ✓√{5} · √{20}
+mat-kk-134 | M.8.1.3.1 | z1 | k1 | Aşağıdaki doğal sayılardan hangisi tam kare değildir? | ✓245
+mat-kk-135 | M.8.1.3.4 | z1 | k1 | √{10} · √{14} işleminin sonucu aşağıdakilerden hangisidir? | ✓2√{35}
+mat-kk-136 | M.8.1.3.2 | z1 | k1 | √{105} sayısına en yakın doğal sayı aşağıdakilerden hangisidir? | ✓10
+mat-kk-137 | M.8.1.3.8 | z1 | k1 | √{14} sayısı ile ilgili aşağıdakilerden hangisi doğrudur? | ✓İrrasyonel bir sayıdır.
+mat-kk-138 | M.8.1.3.5 | z1 | k1 | 6√{2} − 2√{2} + √{2} işleminin sonucu aşağıdakilerden hangisidir? | ✓5√{2}
+mat-kk-139 | M.8.1.3.7 | z1 | k1 | Aşağıdaki sayılardan hangisinin karekökü sonlu bir ondalık sayıdır? | ✓0,25
+mat-kk-140 | M.8.1.3.3 | z1 | k1 | Bir öğrenci 5√{2} ifadesini √{n} biçiminde yazmıştır. Buna göre n kaçtır? | ✓50
+mat-kk-141 | M.8.1.3.1 | z1 | k1 | Kenar uzunluğu a olan bir karenin kenarları 3 katına çıkarılarak yeni bir kare elde ediliyor. Buna göre yeni karenin alanı, ilk k… | ✓9
+mat-kk-142 | M.8.1.3.6 | z1 | k1 | 3√{5} ifadesi aşağıdaki sayılardan hangisiyle çarpılırsa sonuç bir doğal sayı olur? | ✓√{5}
+mat-kk-143 | M.8.1.3.6 | z1 | k1 | √{72 · a} ifadesinin değerinin bir doğal sayı olması için a'nın alabileceği en küçük sıfırdan farklı doğal sayı değeri kaçtır? | ✓2
+mat-kk-144 | M.8.1.3.2 | z1 | k1 | Kare biçimli bir fotoğrafın alanı 150 cm²'dir. Buna göre bu fotoğrafın bir kenar uzunluğu hangi iki ardışık doğal sayı arasındadı… | ✓12 ile 13
+mat-kk-145 | M.8.1.3.4 | z1 | k1 | 15√{14} ÷ 5√{7} işleminin sonucu aşağıdakilerden hangisidir? | ✓3√{2}
+mat-kk-146 | M.8.1.3.7 | z1 | k1 | Bir sensörün ölçtüğü değer √{6,25} birimdir. Buna göre ölçülen değer kaç birimdir? | ✓2,5
+mat-kk-147 | M.8.1.3.3 | z1 | k1 | √{245} sayısı aşağıdakilerden hangisine eşittir? | ✓7√{5}
+mat-kk-148 | M.8.1.3.8 | z1 | k1 | Aşağıdaki ifadelerden hangisi doğrudur? | ✓Her irrasyonel sayı bir gerçek sayıdır.
+mat-kk-149 | M.8.1.3.5 | z1 | k1 | √{32} − √{2} işleminin sonucu aşağıdakilerden hangisidir? | ✓3√{2}
+mat-kk-150 | M.8.1.3.2 | z2 | k1 | Bir matematik kulübünde, kareköklerinin 6 ile 7 arasında olduğu doğal sayılar için birer kart hazırlanmaktadır. Her doğal sayıya … | ✓12
+mat-kk-151 | M.8.1.3.7 | z2 | k1 | Bir el sanatları atölyesinde, kenar uzunluğu √{0,64} metre olan kare biçimli bir nakış işi hazırlanmıştır. Nakışın dört kenarı bo… | ✓3,2
+mat-kk-152 | M.8.1.3.1 | z2 | k1 | Bir çiftlikte kare biçimli iki sera bulunmaktadır. Seraların alanları aşağıdaki şekilde verilmiştir. Buna göre büyük seranın çevr… | ✓24
+mat-kk-153 | M.8.1.3.3 | z2 | k1 | Kare biçimli bir çıkartmanın bir kenarı √{72} cm'dir. Bu kenar uzunluğu a√{b} biçiminde yazılmıştır; burada a ve b doğal sayıdır … | ✓8
+mat-kk-154 | M.8.1.3.6 | z2 | k1 | Bir sayı makinesine girilen sayı, makinenin içindeki gizli sayıyla çarpılarak çıkış ekranına yazılmaktadır. Makineye 2√{3} girild… | ✓2√{3}
+mat-kk-155 | M.8.1.3.1 | z2 | k1 | Bir sergide kutular 31'den 199'a kadar numaralandırılmıştır. Numarası tam kare olan kutuların üzerine kırmızı etiket yapıştırılac… | ✓9
+mat-kk-156 | M.8.1.3.8 | z2 | k1 | Bir matematik kulübü, aşağıdaki tabloda gösterilen beş kartı 'rasyonel' ve 'irrasyonel' olarak ayıracaktır. Buna göre bu kartlard… | ✓2
+mat-kk-157 | M.8.1.3.2 | z2 | k1 | Üç ip parçasının uzunlukları √{40} cm, 7 cm ve √{50} cm'dir. Buna göre bu ip parçalarının uzunlukları küçükten büyüğe doğru aşağı… | ✓√{40} < 7 < √{50}
+mat-kk-158 | M.8.1.3.4 | z2 | k1 | 8√{40} ÷ 2√{10} işleminin sonucu aşağıdakilerden hangisidir? | ✓8
+mat-kk-159 | M.8.1.3.7 | z2 | k1 | Kare biçimli bir deney levhasının alanı 0,36 m²'dir. Buna göre bu levhanın bir kenarı kaç santimetredir? | ✓60
+mat-kk-160 | M.8.1.3.1 | z2 | k1 | Kare biçimli bir satranç tahtası, her birinin kenarı 4 cm olan 64 eş kareden oluşmaktadır. Buna göre tahtanın bir kenar uzunluğu … | ✓32
+mat-kk-161 | M.8.1.3.5 | z2 | k1 | Bir bitkinin boyu dün √{48} dm, bugün √{75} dm olarak ölçülmüştür. Buna göre bitki bir günde kaç dm uzamıştır? | ✓√{3}
+mat-kk-162 | M.8.1.3.1 | z2 | k1 | Kenar uzunluğu 20 cm olan kare biçimli bir kâğıdın bir köşesine, alanı 225 cm² olan kare biçimli bir parça kenarları çakışacak bi… | ✓5
+mat-kk-163 | M.8.1.3.4 | z2 | k1 | Dikdörtgenler prizması biçimindeki bir kutunun ayrıt uzunlukları şekilde verilmiştir. Buna göre bu kutunun hacmi kaç dm³'tür? | ✓12
+mat-kk-164 | M.8.1.3.6 | z2 | k1 | Bir sayı oyununda ekranda √{24} sayısı görünmektedir. Dört oyuncu, tabloda gösterilen çarpanlardan birini seçip ekrandaki sayıyı … | ✓Deniz
+mat-kk-165 | M.8.1.3.4 | z2 | k1 | Dikdörtgen biçimli bir güneş panelinin alanı ve bir kenarının uzunluğu şekilde verilmiştir. Buna göre panelin diğer kenarı kaç dm… | ✓5√{7}
+mat-kk-166 | M.8.1.3.3 | z2 | k1 | 3√{2} sayısı aşağıdaki hangi iki ardışık doğal sayı arasındadır? | ✓4 ile 5
+mat-kk-167 | M.8.1.3.2 | z2 | k1 | √{30} ile √{60} sayıları bir sayı doğrusu üzerinde işaretlenmiştir. Buna göre bu iki sayı arasında kaç tane tam sayı vardır? | ✓2
+mat-kk-168 | M.8.1.3.5 | z2 | k1 | Bir kurbağa, bir sıçrayışında √{98} cm, bir sonraki sıçrayışında √{32} cm ilerlemiştir. Buna göre kurbağa iki sıçrayışta toplam k… | ✓11√{2}
+mat-kk-169 | M.8.1.3.2 | z2 | k1 | Dört öğrenci, tabloda verilen sayıların hangi iki ardışık doğal sayı arasında olduğunu tahmin etmiştir. Buna göre hangi öğrencini… | ✓Aslı
+mat-kk-170 | M.8.1.3.6 | z2 | k1 | Bir atölyede, bir kenarı √{50} dm olan dikdörtgen biçimli beş farklı pano üretilmiştir. Panoların diğer kenar uzunlukları tabloda… | ✓4
+mat-kk-171 | M.8.1.3.3 | z2 | k1 | Bir hesap makinesi, bir doğal sayının karekökünü 4√{5} biçiminde göstermiştir. Buna göre bu doğal sayı kaçtır? | ✓80
+mat-kk-172 | M.8.1.3.5 | z2 | k1 | Üçgen biçimli bir yelkenin kenar uzunlukları şekilde verilmiştir. Yelkenin kenarlarına, çevresi boyunca bir takviye şeridi dikile… | ✓12√{2}
+mat-kk-173 | M.8.1.3.7 | z2 | k1 | Dikdörtgen biçimli bir katılım sertifikasının kenar uzunlukları şekilde verilmiştir. Buna göre bu sertifikanın alanı kaç dm²'dir? | ✓0,35
+mat-kk-174 | M.8.1.3.3 | z2 | k1 | Bir öğretmen tahtaya dört karşılaştırma yazmış ve öğrencilerden doğru olanı bulmalarını istemiştir. Buna göre aşağıdaki karşılaşt… | ✓2√{11} < 7
+mat-kk-175 | M.8.1.3.4 | z2 | k1 | Dikdörtgen biçimli bir posterin kenar uzunlukları şekilde verilmiştir. Buna göre posterin alanı en sade biçimde kaç dm²'dir? | ✓12√{5}
+mat-kk-226 | M.8.1.3.1 | z2 | k2 | Bir satranç kulübü, 8 × 8 = 64 eş kareden oluşan kare biçimli bir tahta yaptırmıştır. Tahtanın tamamının alanı aşağıdaki şekilde … | ✓3
+mat-kk-227 | M.8.1.3.2 | z2 | k2 | Bir matematik öğretmeni tahtaya 9'un katı olan dört sayı yazmış ve bunlardan hangisinin karekökünün 8 ile 9 arasında olduğunu sor… | ✓72
+mat-kk-228 | M.8.1.3.3 | z2 | k2 | Bir robot kolunun uzunluğu √{288} cm olarak ölçülmüştür. Robotun yazılımı bu uzunluğu a√{2} cm biçiminde göstermektedir. Buna gör… | ✓12
+mat-kk-229 | M.8.1.3.4 | z2 | k2 | Bir uçurtma yarışmasında kullanılan uzun ipin boyu √{150} m, kısa ipin boyu √{6} m'dir. İplerin boyları aşağıdaki şekilde gösteri… | ✓5
+mat-kk-230 | M.8.1.3.5 | z2 | k2 | Bir bahçıvan, çitin ilk bölümü için √{45} m, ikinci bölümü için √{80} m uzunluğunda hazır panel kullanmıştır. Paneller uç uca ekl… | ✓7√{5}
+mat-kk-231 | M.8.1.3.6 | z2 | k2 | Mert, kartında yazan √{50} sayısını kendi seçtiği başka bir kareköklü sayıyla çarpıp sonucun doğal sayı çıkıp çıkmadığına bakmakt… | ✓√{20}
+mat-kk-232 | M.8.1.3.7 | z2 | k2 | Bir atölyede kare biçimli ahşap tencere altlıkları üretilmektedir. Bir altlığın alanı aşağıdaki şekilde verilmiştir. Buna göre bu… | ✓13
+mat-kk-233 | M.8.1.3.8 | z2 | k2 | Ayşe, defterine dört kareköklü sayı yazmıştır. Buna göre bu sayılardan hangisi rasyonel sayıdır? | ✓√{0,16}
+mat-kk-234 | M.8.1.3.1 | z2 | k2 | Bir pizzacı, kare biçimli kapağının alanı 16 dm² olan kutularını yeni modelde büyütecektir. Yeni modelde kapağın her kenarı, eski… | ✓144
+mat-kk-235 | M.8.1.3.2 | z2 | k2 | Kare biçimli bir ilan panosunun alanı 29 dm²'dir. Pano, çevresi boyunca ince bir ışıklı şeritle çevrilecektir. Buna göre gereken … | ✓21 ile 22 arasında
+mat-kk-236 | M.8.1.3.3 | z2 | k2 | Bir kumaş satıcısı, uzunluğu 6 metreden fazla olan parçayı vitrine koyacaktır. Dört parçanın uzunlukları metre cinsinden aşağıdak… | ✓2√{10}
+mat-kk-237 | M.8.1.3.4 | z2 | k2 | Bir dekorasyon atölyesinde 12√{20} cm uzunluğundaki bir şerit, her biri 3√{5} cm olan eş parçalara bölünecektir. Buna göre bu şer… | ✓8
+mat-kk-238 | M.8.1.3.5 | z2 | k2 | Bir bahçıvan 3√{12} metre uzunluğundaki çite √{27} metre eklemiş, daha sonra çitin √{48} metrelik bölümünü sökmüştür. Buna göre ç… | ✓5√{3}
+mat-kk-239 | M.8.1.3.6 | z2 | k2 | Zeynep'in bilgisayar oyununda ekranda √{54} sayısı belirir. Oyuncu bu sayıyı, pozitif bir tam sayı olan k için √{k} ile çarpar; ç… | ✓6
+mat-kk-240 | M.8.1.3.6 | z2 | k2 | Emre, aşağıdaki dört çarpma işleminden sonucu bir doğal sayı olanı bulmaya çalışmaktadır. Buna göre hangi işlemin sonucu doğal sa… | ✓√{8} · √{18}
+mat-kk-241 | M.8.1.3.7 | z2 | k2 | Bir seramik atölyesi, kare biçimli fayansları yan yana tek sıra dizerek bir şerit oluşturacaktır. Fayansların her birinin alanı ş… | ✓2,5
+mat-kk-242 | M.8.1.3.7 | z2 | k2 | Bir resim sergisinde kare biçimli iki tablo vardır. Büyük tablonun alanı 1,69 m², küçük tablonun alanı 0,49 m²'dir. Buna göre iki… | ✓0,6
+mat-kk-243 | M.8.1.3.8 | z2 | k2 | Bir öğrenci, sayı kartlarının üzerine şu sayıları yazmıştır: √{5}, π, 0,25, √{36}, [[22|7]] ve √{0,81}. Buna göre bu sayılardan k… | ✓2
+mat-kk-244 | M.8.1.3.1 | z2 | k2 | Alanı 256 m² olan kare biçimli bir bahçenin çevresi boyunca, köşelerde de birer direk bulunacak ve ardışık iki direk arası 2 m ol… | ✓32
+mat-kk-245 | M.8.1.3.2 | z2 | k2 | Aşağıdaki sayı doğrusunda 6 ile 7 arasında bir P noktası işaretlenmiştir. P noktası 7'ye, 6'dan daha yakındır. Buna göre P noktas… | ✓√{46}
+mat-kk-246 | M.8.1.3.3 | z2 | k2 | Üç dalgıç aynı gün farklı derinliklere inmiştir. İndikleri derinlikler metre cinsinden 4, 3√{2} ve 2√{5} olarak kaydedilmiştir. B… | ✓4 < 3√{2} < 2√{5}
+mat-kk-247 | M.8.1.3.4 | z2 | k2 | Alanı 20 cm² olan dikdörtgen biçimli bir kitap kapağının genişliği √{5} cm'dir (şekil). Buna göre kapağın uzunluğu kaç santimetre… | ✓4√{5}
+mat-kk-248 | M.8.1.3.5 | z2 | k2 | Eşkenar üçgen biçimli bir arsanın bir kenarı √{75} metredir. Arsanın çevresi boydan boya tel örgüyle çevrilecektir (şekil). Buna … | ✓15√{3}
+mat-kk-249 | M.8.1.3.6 | z2 | k2 | Bir terzi, dikdörtgen biçimli bir kumaş parçası kesmiştir. Parçanın bir kenarı √{18} cm, diğer kenarı √{k} cm ve alanı 12 cm²'dir… | ✓8
+mat-kk-250 | M.8.1.3.7 | z2 | k2 | Üç kare biçimli plakanın kenar uzunlukları metre cinsinden a = √{0,49}, b = √{0,64} ve c = 0,75 olarak verilmiştir. Buna göre bu … | ✓a < c < b
+mat-kk-251 | M.8.1.3.8 | z2 | k2 | Bir sayı doğrusu etkinliğinde öğrencilerden 3 ile 4 arasında bulunan irrasyonel sayıyı seçmeleri istenmiştir. Buna göre öğrencile… | ✓√{14}
+mat-kk-252 | M.8.1.3.1 | z3 | k2 | Bir tiyatro salonunda 196 koltuk, sıra sayısı ile her sıradaki koltuk sayısı eşit olacak biçimde kare düzende yerleştirilmiştir. … | ✓52
+mat-kk-253 | M.8.1.3.1 | z3 | k2 | Kare biçimli bir sahnenin alanı 144 m²'dir. Sahnenin dört kenarı boyunca eşit genişlikte halı serilecektir. Sahne ve halı birlikt… | ✓2
+mat-kk-254 | M.8.1.3.1 | z3 | k2 | Bir okulun 500 öğrencisi, sıra sayısı ile her sıradaki öğrenci sayısı eşit olacak biçimde kare düzende gösteri yapacaktır. Düzen,… | ✓16
+mat-kk-255 | M.8.1.3.2 | z3 | k2 | Dört arkadaş, aşağıdaki tabloda yer alan kareköklü sayılar için hangi iki doğal sayı arasında olduklarını ve hangisine daha yakın… | ✓Deniz
+mat-kk-256 | M.8.1.3.2 | z3 | k2 | Bir ip makarasında 10 metre ip bulunmaktadır. Bu makaradan √{50} metre ip kesilerek bir pakete sarılmıştır. Buna göre makarada ka… | ✓2 ile 3
+mat-kk-257 | M.8.1.3.2 | z3 | k2 | Sayı doğrusunda A noktası √{40} sayısına, B noktası √{90} sayısına karşılık gelmektedir. Buna göre A ile B noktaları arasında kaç… | ✓3
+mat-kk-258 | M.8.1.3.3 | z3 | k2 | Bir oyunda oyuncunun girdiği x doğal sayısı, 3√{2} sayısından büyük ve 4√{3} sayısından küçükse kapı açılmaktadır. Buna göre kapı… | ✓2
+mat-kk-259 | M.8.1.3.3 | z3 | k2 | Bir mimari çizim programı, uzunluğu √{450} metre olan bir duvarı a√{b} biçiminde göstermektedir. Burada b, mümkün olan en küçük p… | ✓17
+mat-kk-260 | M.8.1.3.3 | z3 | k2 | Bir bulmaca oyununda iki gizli doğal sayı vardır: a ve b. Oyun bu sayıları doğrudan göstermez; yalnızca √{a} = 6√{2} ve √{b} = 2√… | ✓50
+mat-kk-261 | M.8.1.3.4 | z3 | k2 | Bir atölyede, bir kenarı 2√{6} cm olan kare biçimli bir levha, alanı değişmeyecek biçimde dikdörtgen biçimli bir levhaya dönüştür… | ✓2√{3}
+mat-kk-262 | M.8.1.3.4 | z3 | k2 | Dikdörtgen biçimli bir panonun genişliği √{3} dm, uzunluğu ise (√{27} − √{12}) dm'dir (şekil). Buna göre panonun alanı kaç dm²'di… | ✓3
+mat-kk-263 | M.8.1.3.4 | z3 | k2 | Bir robot, saniyede √{6} metre hızla sabit giderek 18√{2} metrelik bir parkuru tamamlamaktadır. Buna göre robot parkuru kaç saniy… | ✓6√{3}
+mat-kk-264 | M.8.1.3.4 | z3 | k2 | Bir kafenin terası dikdörtgen biçimlidir; kenar uzunlukları 6√{2} m ve 4√{2} m'dir. Teras, kenarı √{2} m olan kare biçimli karola… | ✓24
+mat-kk-265 | M.8.1.3.5 | z3 | k2 | Kenar uzunlukları √{12} m, √{27} m ve √{48} m olan üçgen biçimli bir yelkenin her kenarına koruyucu bir şerit dikilecektir (şekil… | ✓9√{3}
+mat-kk-266 | M.8.1.3.5 | z3 | k2 | Bir tasarımcı, uzunluğu 8√{2} cm olan bir şeridi iki parçanın uç uca eklenmesiyle oluşturacaktır. Birinci parça √{50} cm, ikinci … | ✓18
+mat-kk-267 | M.8.1.3.5 | z3 | k2 | Çevresi 14√{3} cm olan dikdörtgen biçimli bir kartın kısa kenarı 2√{3} cm'dir (şekil). Buna göre kartın uzun kenarı kaç santimetr… | ✓5√{3}
+mat-kk-268 | M.8.1.3.6 | z3 | k2 | Bir şifre oyununda ekranda √{72} sayısı vardır. Oyuncu iki basamaklı bir k doğal sayısı seçip √{72} · √{k} çarpımını hesaplar; ça… | ✓5
+mat-kk-269 | M.8.1.3.6 | z3 | k2 | √{48} sayısı, 2√{k} sayısıyla çarpılacak ve çarpımın bir doğal sayı olması istenmektedir. k, bunu sağlayan en küçük pozitif doğal… | ✓24
+mat-kk-270 | M.8.1.3.6 | z3 | k2 | Aşağıdaki sayılar, √{8} sayısıyla çarpılacaktır: √{2}, √{12}, √{18}, √{27}, √{32}, 3√{2} ve √{50}. Buna göre bu sayılardan kaç ta… | ✓5
+mat-kk-271 | M.8.1.3.7 | z3 | k2 | Alanı 1,44 m² olan kare biçimli bir masanın çevresine, 0,3 m uzunluğunda eş dantel parçaları dikilecektir. Parçalar uç uca eklene… | ✓16
+mat-kk-272 | M.8.1.3.7 | z3 | k2 | Bir tasarım atölyesinde kare biçimli iki plaka kesilecektir. Büyük plakanın kenarı √{0,16} dm, küçük plakanın kenarı √{0,0025} dm… | ✓8
+mat-kk-273 | M.8.1.3.8 | z3 | k2 | Dört öğrenci, aşağıdaki tabloda gerçek sayılarla ilgili birer cümle kurmuştur. Buna göre hangi öğrencinin cümlesi doğrudur? | ✓Ada
+mat-kk-274 | M.8.1.3.8 | z3 | k2 | Bir yarışmada 1'den 30'a kadar (1 ve 30 dahil) numaralandırılmış kartlar vardır. Yarışmacılar, üzerindeki numaranın karekökü irra… | ✓25
+mat-kk-275 | M.8.1.3.8 | z3 | k2 | Bir öğretmen tahtaya dört işlem yazmış ve öğrencilerden her işlemin sonucunu en sade biçime getirip sonucun rasyonel mi irrasyone… | ✓√{20} ÷ √{5}
+mat-kk-326 | M.8.1.3.7 | z3 | k3 | Bir terzi, kare biçimli bir mendil kumaşının dört kenarına dantel dikecektir. Kumaşın alanı ve dantelin fiyatı şekilde verilmişti… | ✓84
+mat-kk-327 | M.8.1.3.1 | z3 | k3 | Bir okulun gösteri ekibi 225 öğrenciden oluşmaktadır. Öğrenciler, sıra sayısı ile her sıradaki öğrenci sayısı birbirine eşit olac… | ✓135
+mat-kk-328 | M.8.1.3.8 | z3 | k3 | Bir sayı avı oyununda oyuncular, ellerindeki dört işlem kartından sonucu iki tam sayının oranı biçiminde yazılabilen kartı bulmay… | ✓√{8} · √{18}
+mat-kk-329 | M.8.1.3.2 | z3 | k3 | Bir sürücü kursunun kare biçimli deneme alanının büyüklüğü şekilde verilmiştir. Kurs müdürü, alanın dört kenarı boyunca iki sıra … | ✓112
+mat-kk-330 | M.8.1.3.3 | z3 | k3 | Bir mimar, bir yapı maketindeki sütunun yüksekliğini hesaplamış ve sonucu √{300} cm olarak bulmuştur. Maketi yapacak usta, ölçüyü… | ✓13
+mat-kk-331 | M.8.1.3.5 | z3 | k3 | Bir mağazanın vitrininde, uzunlukları şekilde verilen üç ışıklı şerit uç uca, aralarında boşluk kalmayacak biçimde eklenecektir. … | ✓9√{3}
+mat-kk-332 | M.8.1.3.4 | z3 | k3 | Bir kaykay parkında dikdörtgen biçimli bir rampanın tabanının alanı ve bir kenarı şekilde verilmiştir. Park yönetimi, tabanın tam… | ✓6√{3}
+mat-kk-333 | M.8.1.3.6 | z3 | k3 | Bir terzi, dikdörtgen biçimli bir kumaş parçası kesecektir. Kumaşın bir kenarı √{45} dm, diğer kenarı √{k} dm olacaktır; burada k… | ✓5
+mat-kk-334 | M.8.1.3.2 | z3 | k3 | Bir belediye, alanı 150 m² olan kare biçimli boş bir arsayı park olarak düzenleyecektir. Proje çizilirken arsanın bir kenar uzunl… | ✓12 ile 13 arasında, 12'ye daha yakın
+mat-kk-335 | M.8.1.3.8 | z3 | k3 | Yarıçapı 14 m olan dairesel bir koşu pistinin çevresi, 2 · π · r bağıntısıyla hesaplanacaktır. Hesap yapan teknisyen, π yerine [[… | ✓Çevre 88 m bulunur ve bu değer pistin gerçek…
+mat-kk-336 | M.8.1.3.1 | z3 | k3 | Bir belediye, kare biçimli iki boş arsayı park olarak düzenleyecektir. Arsaların alanları şekilde verilmiştir. Küçük arsanın çevr… | ✓32
+mat-kk-337 | M.8.1.3.4 | z3 | k3 | Bir müzik odasının duvarına dikdörtgen biçimli bir ses yalıtım paneli asılacaktır. Panelin kenar uzunlukları şekilde verilmiştir.… | ✓12√{2}
+mat-kk-338 | M.8.1.3.3 | z3 | k3 | Bir marangoz atölyesinde üç ahşap çıtanın uzunlukları desimetre cinsinden aşağıdaki tabloda verilmiştir. Usta, çıtaları kısa olan… | ✓K < L < M
+mat-kk-339 | M.8.1.3.5 | z3 | k3 | Bir elektrikçi, bir odaya çekeceği kabloyu hazırlamaktadır. İlk kabloyla başlayacak, bu kablodan bir parça kesecek ve kalan kısmı… | ✓9√{2}
+mat-kk-340 | M.8.1.3.6 | z3 | k3 | Bir bulmaca kartında √{98} sayısı yazılıdır. Çocuk, kartındaki sayıyı kök içi doğal sayı olan √{k} biçiminde bir sayıyla çarparak… | ✓28
+mat-kk-341 | M.8.1.3.7 | z3 | k3 | Bir mutfak atölyesinde, alanı şekilde verilen kare biçimli bakır plakalar kenarları aynı doğru üzerinde olacak biçimde, aralarınd… | ✓18
+mat-kk-342 | M.8.1.3.8 | z3 | k3 | Bir matematik kulübünde öğrenciler, tahtaya yazılan yedi ifadenin değerini hesaplamakta ve sonucu iki tam sayının oranı biçiminde… | ✓4
+mat-kk-343 | M.8.1.3.5 | z3 | k3 | Bir dağcılık kulübünde iki halat kullanılmaktadır. Halatların uzunlukları şekilde verilmiştir. Kulüp eğitmeni, uzun halatın kısa … | ✓1
+mat-kk-344 | M.8.1.3.5 | z3 | k3 | Bir matematik öğretmeni tahtaya dört eşitlik yazmış ve öğrencilerden doğru olan tek eşitliği bulmalarını istemiştir. Hesap makine… | ✓√{18} + √{8} = √{50}
+mat-kk-345 | M.8.1.3.1 | z3 | k3 | Bir müzede sergilenen tabloların numaraları 10'dan 300'e kadar (10 ve 300 dâhil) ardışık doğal sayılardır. Müze müdürü, numarası … | ✓14
+mat-kk-346 | M.8.1.3.4 | z3 | k3 | Bir okul laboratuvarında dikdörtgenler prizması biçiminde bir malzeme kutusu kullanılmaktadır. Kutunun taban kenarları ile yüksek… | ✓12
+mat-kk-347 | M.8.1.3.7 | z3 | k3 | Bir tasarımcı, kare biçimli üç mukavva levhanın alanlarını desimetrekare cinsinden aşağıdaki tabloya yazmıştır. Tasarımcı, birinc… | ✓1,8
+mat-kk-348 | M.8.1.3.2 | z3 | k3 | Bir alışveriş merkezinde indirim kartları dağıtılmaktadır. Üzerinde k doğal sayısı yazılı olan bir kart, √{3k} ifadesinin değeri … | ✓58
+mat-kk-349 | M.8.1.3.3 | z3 | k3 | Bir sporcu kulübünde üç ipin uzunlukları metre cinsinden aşağıdaki tabloda verilmiştir. Antrenör, iplerin uzunluklarını karşılaşt… | ✓K = L < M
+mat-kk-350 | M.8.1.3.6 | z3 | k3 | Bir bulmaca kitabındaki bir etkinlikte √{x} · √{20} çarpımının bir doğal sayı olması istenmektedir. Burada x iki basamaklı bir do… | ✓20
+mat-kk-351 | M.8.1.3.5 | z3 | k3 | Bir doğa yürüyüşü rotasında birinci gün √{32} km yürünmüştür. İkinci gün, birinci günden √{8} km fazla yürünmüştür. Rotayı hazırl… | ✓10√{2}
+mat-kk-352 | M.8.1.3.8 | z3 | k3 | Bir matematik yarışmasında yarışmacılara dört işlem kartı verilmiştir. Yarışmacıdan, sonucu 3 ile 4 arasında olan bir irrasyonel … | ✓√{3} · √{5}
+mat-kk-353 | M.8.1.3.4 | z3 | k3 | Bir robot, düz bir parkurda iki aşamada ilerlemektedir. Her aşamadaki sabit hızı ve ilerleme süresi aşağıdaki tabloda verilmiştir… | ✓32
+mat-kk-354 | M.8.1.3.7 | z3 | k3 | Bir baskı atölyesinde kare biçimli büyük bir karton ile üzerine yapıştırılacak kare biçimli küçük bir mühür bulunmaktadır. Karton… | ✓1,43
+mat-kk-355 | M.8.1.3.2 | z3 | k3 | Bir seramik atölyesinde alanı 17 cm² olan kare biçimli fayanslar üretilmektedir. Ustanın tablosunda bazı ondalık sayıların karele… | ✓41
+mat-kk-356 | M.8.1.3.1 | z4 | k3 | Bir sergi salonunun zemini kare biçimlidir ve alanı şekilde verilmiştir. Salonun tam ortasına, kenarları salonun kenarlarına para… | ✓168
+mat-kk-357 | M.8.1.3.2 | z4 | k3 | Bir spor salonunda her üyenin kart numarası bir k doğal sayısıdır. Salon yönetimi, üyeleri grup antrenmanlarına yerleştirirken √{… | ✓14
+mat-kk-358 | M.8.1.3.3 | z4 | k3 | Bir bilgi yarışmasının final turunda iki kartın üzerinde 2√{10} ve 5√{6} sayıları yazılıdır. Yarışmacıdan, bu iki sayının arasınd… | ✓6
+mat-kk-359 | M.8.1.3.4 | z4 | k3 | Bir parkta dikdörtgen biçimli bir çim alanın kenar uzunlukları şekilde verilmiştir. Belediye, çim alanın dört kenarı boyunca, çim… | ✓60
+mat-kk-360 | M.8.1.3.5 | z4 | k3 | Bir marangoz, uzunluğu 5√{12} desimetre olan bir çıtayı, her biri √{27} desimetre uzunluğunda eş parçalara ayıracaktır. Marangoz … | ✓√{3}
+mat-kk-361 | M.8.1.3.4 | z4 | k3 | Bir elektronik fabrikasında dikdörtgen biçimli bir devre kartı üretilmektedir. Kartın alanı ve bir kenarı şekilde verilmiştir. Ka… | ✓10√{2} + 12√{3}
+mat-kk-362 | M.8.1.3.6 | z4 | k3 | Bir kart oyununda altı kartın üzerinde sırasıyla √2, √3, √6, √8, √18 ve √32 sayıları yazılıdır. Oyuncu, kartlardan birbirinden fa… | ✓6
+mat-kk-363 | M.8.1.3.7 | z4 | k3 | Bir çiçekçi, alanı şekilde verilen kare biçimli bir sergi tezgâhının üst yüzünü, kenarı 20 cm olan kare biçimli mozaik parçalarıy… | ✓24
+mat-kk-364 | M.8.1.3.8 | z4 | k3 | Bir bilim şenliğindeki sayı makinesinin ekranında üç değer tanımlanmıştır. Ziyaretçilerden, bu değerlerden hangilerinin iki tam s… | ✓Yalnızca L rasyoneldir.
+mat-kk-365 | M.8.1.3.1 | z4 | k3 | Bir bahçede kare biçimli iki çiçek tarhı bulunmaktadır. Büyük tarhın alanı, küçük tarhın alanının 9 katıdır. Bahçıvan, iki tarhın… | ✓36
+mat-kk-366 | M.8.1.3.2 | z4 | k3 | Bir sitede kapı numaraları 10'dan 99'a kadar iki basamaklı doğal sayılardır. Site yönetimi, kapı numarasının karekökü 7 ile 9 ara… | ✓10
+mat-kk-367 | M.8.1.3.3 | z4 | k3 | Bir ışıklı panoda her yarışmacıya, kartında √{n} biçiminde bir sayı verilmektedir; burada n bir doğal sayıdır. Yarışmanın kuralın… | ✓8
+mat-kk-368 | M.8.1.3.6 | z4 | k3 | Bir parke ustası, uzunlukları √{24} m ve √{150} m olan iki dikdörtgen biçimli zemin parçasını döşeyecektir. İki parçanın da geniş… | ✓42
+mat-kk-369 | M.8.1.3.4 | z4 | k3 | Bir bilim kulübünde bir deneyde üç ölçüm alınmıştır. Ölçümlerin sonuçları metre cinsinden aşağıdaki tabloda verilmiştir. Kulüp ba… | ✓3√{3}
+mat-kk-370 | M.8.1.3.5 | z4 | k3 | Bir resim atölyesinde kare biçimli bir resmin kenarı 3√{8} cm'dir. Atölye, resmin dört kenarına eşit genişlikte, kare bir çerçeve… | ✓216
+mat-kk-371 | M.8.1.3.7 | z4 | k3 | Bir mimar, kare biçimli iki levhayı birer kenarları aynı doğru üzerinde olacak biçimde, aralarında boşluk bırakmadan yan yana yer… | ✓7,8
+mat-kk-372 | M.8.1.3.2 | z4 | k3 | Bir fotoğraf stüdyosunda kare biçimli baskılar alınmaktadır. Her baskının bir kenarı 5,5 cm'den uzun ve 6,5 cm'den kısadır. Stüdy… | ✓12
+mat-kk-373 | M.8.1.3.6 | z4 | k3 | Bir güvenlik kasasının şifre ekranı iki aşamalıdır. Birinci aşamada ekranda görünen √{54} sayısı bir x sayısıyla çarpılır ve kasa… | ✓12
+mat-kk-374 | M.8.1.3.8 | z4 | k3 | Yarıçapı √{12} m olan dairesel bir havuzun alanı π · r^{2} ve çevresi 2 · π · r bağıntılarıyla hesaplanacaktır. Hesap yapan mühen… | ✓Yalnızca L irrasyoneldir.
+mat-kk-375 | M.8.1.3.1 | z4 | k3 | Bir sanatçı, 500 küçük kare cam parçasıyla kare biçimli bir mozaik pano yapmak istemektedir. Pano, sıra sayısı ile her sıradaki p… | ✓16
+mat-kk-031 | M.8.1.3.1 | z1 | k0 | √{225} − √{49} işleminin sonucu kaçtır? | ✓8
+mat-kk-032 | M.8.1.3.2 | z1 | k0 | Aşağıdaki sayılardan hangisi 12 ile 13 arasındadır? | ✓√{150}
+mat-kk-033 | M.8.1.3.3 | z1 | k0 | (√{7})^{2} işleminin sonucu aşağıdakilerden hangisidir? | ✓7
+mat-kk-034 | M.8.1.3.5 | z1 | k0 | 5√{7} + 3√{7} − 2√{7} işleminin sonucu aşağıdakilerden hangisidir? | ✓6√{7}
+mat-kk-035 | M.8.1.3.4 | z1 | k0 | √{6} · √{24} işleminin sonucu aşağıdakilerden hangisidir? | ✓12
+mat-kk-036 | M.8.1.3.7 | z1 | k0 | √{0,36} işleminin sonucu aşağıdakilerden hangisidir? | ✓0,6
+mat-kk-037 | M.8.1.3.8 | z1 | k0 | Aşağıdaki sayılardan hangisi irrasyonel sayıdır? | ✓√{18}
+mat-kk-038 | M.8.1.3.6 | z1 | k0 | √{8} · √{k} = 12 eşitliğini sağlayan k doğal sayısı kaçtır? | ✓18
+mat-kk-039 | M.8.1.3.2 | z1 | k0 | √{27} sayısı aşağıdaki doğal sayılardan hangisine en yakındır? | ✓5
+mat-kk-040 | M.8.1.3.1 | z2 | k0 | Alanı 324 m² olan kare biçimli bir arsanın çevresi, kazıklar üzerinden boydan boya 3 sıra dikenli telle çevrilecektir. Köşelerde … | ✓216
+mat-kk-041 | M.8.1.3.2 | z2 | k0 | Bir kültür merkezinde kare biçimli bir sahne yapılacaktır. Sahnenin alanı 70 m² olacaktır. Buna göre sahnenin bir kenar uzunluğu … | ✓8 m ile 9 m arasındadır ve 8 m'ye daha yakın…
+mat-kk-042 | M.8.1.3.3 | z2 | k0 | Bir ahşap atölyesinde dört çıtanın uzunlukları ölçülmüş ve desimetre cinsinden aşağıdaki tabloya yazılmıştır. Buna göre hangi çıt… | ✓M çıtası
+mat-kk-043 | M.8.1.3.4 | z2 | k0 | Bir tiyatro sahnesinin dikdörtgen biçimli arka perdesinin ölçüleri şekilde verilmiştir. Buna göre perdenin alanı kaç m²'dir? | ✓72
+mat-kk-044 | M.8.1.3.5 | z2 | k0 | Bir yelken yarışının rotası iki ayaktan oluşmaktadır. Birinci ayak √{98} km, ikinci ayak √{32} km uzunluğundadır. Buna göre rotan… | ✓11√{2}
+mat-kk-045 | M.8.1.3.6 | z2 | k0 | √{50} ifadesi aşağıdakilerden hangisiyle çarpılırsa sonuç bir doğal sayı olur? | ✓3√{2}
+mat-kk-046 | M.8.1.3.7 | z2 | k0 | Kare biçimli bir tablonun alanı 0,64 m²'dir. Aynı büyüklükte üç tablo, aralarında boşluk bırakılmadan bir duvara yan yana asılaca… | ✓240
+mat-kk-047 | M.8.1.3.1 | z2 | k0 | Berk aklından bir doğal sayı tutmuştur. Bu sayıdan 25 çıkarıldığında sonuç, karekökü 12 olan sayıya eşit olmaktadır. Buna göre Be… | ✓13
+mat-kk-048 | M.8.1.3.3 | z2 | k0 | Bir bilgisayar oyununda karakterin ilerlediği yol √{n} birimdir ve bu yol 5√{12} birime eşittir. Buna göre n kaçtır? | ✓300
+mat-kk-049 | M.8.1.3.5 | z2 | k0 | Bir bisiklet turunun üç etabı vardır. Birinci gün √{75} km, ikinci gün √{12} km, üçüncü gün √{3} km yol gidilmiştir. Buna göre bi… | ✓2√{3}
+mat-kk-050 | M.8.1.3.2 | z2 | k0 | Karekökü 11 ile 12 arasında olan ve 9'un katı olan en büyük doğal sayı kaçtır? | ✓135
+mat-kk-051 | M.8.1.3.8 | z2 | k0 | Yarıçapı 10 cm olan daire biçimli bir tepsinin çevresini bir öğrenci, π yerine 3,14 alarak 62,8 cm bulmuştur. Buna göre bu sonuç … | ✓Çevre yaklaşık 62,8 cm'dir; çünkü gerçek çev…
+mat-kk-052 | M.8.1.3.4 | z2 | k0 | Bir kurye, √{300} km uzunluğundaki güzergâhı 2√{3} saatte sabit hızla tamamlamıştır. Buna göre kuryenin hızı kaç km/saattir? | ✓5
+mat-kk-053 | M.8.1.3.7 | z2 | k0 | Kare biçimli bir aynanın alanı şekilde verilmiştir. Buna göre aynanın bir kenarı kaç santimetredir? | ✓12
+mat-kk-054 | M.8.1.3.6 | z2 | k0 | √{12} · √{k} çarpımının bir doğal sayı olması istenmektedir. Buna göre k üç basamaklı bir doğal sayıysa k'nin en küçük değeri kaç… | ✓108
+mat-kk-055 | M.8.1.3.1 | z3 | k0 | Bir tiyatro gösterisinde 484 dansçı, sıra sayısı ile her sıradaki dansçı sayısı birbirine eşit olacak biçimde kare düzende dizilm… | ✓396
+mat-kk-056 | M.8.1.3.2 | z3 | k0 | Bir ses teknikeri, uzunluğu 4,5 m'ye en yakın olan kabloyu satın alacaktır. Mağazadaki dört kablonun uzunlukları metre cinsinden … | ✓4. kablo
+mat-kk-057 | M.8.1.3.3 | z3 | k0 | Bir belediye, üç farklı kaldırım taşı seçeneğini incelemektedir. Taşların kenar uzunlukları desimetre cinsinden tabloda verilmişt… | ✓a < c < b
+mat-kk-058 | M.8.1.3.4 | z3 | k0 | Bir bahçıvan, kenar uzunlukları şekilde verilen dikdörtgen biçimli bir çiçek tarhıyla alanı aynı olan kare biçimli yeni bir tarh … | ✓6
+mat-kk-059 | M.8.1.3.5 | z3 | k0 | Aşağıdaki ikizkenar üçgen biçimli yelkenin kenar uzunlukları desimetre cinsinden şekilde verilmiştir. Yelkenin üç kenarı boyunca … | ✓10√{5}
+mat-kk-060 | M.8.1.3.6 | z3 | k0 | Bir kasanın şifresi, √{72} · √{k} çarpımının doğal sayı olmasını sağlayan iki basamaklı k doğal sayılarından biridir. Buna göre ş… | ✓5
+mat-kk-061 | M.8.1.3.7 | z3 | k0 | Alanı şekilde verilen kare biçimli bir fotoğrafın dört kenarına, her kenarda 0,5 dm genişliğinde çerçeve takılacaktır. Buna göre … | ✓6,25
+mat-kk-062 | M.8.1.3.8 | z3 | k0 | Dört öğrenci, öğretmenin tahtaya yazdığı işlemleri yapmış ve sonuçlarını bulmuştur. İşlemler aşağıdaki tabloda verilmiştir. Buna … | ✓Burak ve Deniz
+mat-kk-063 | M.8.1.3.2 | z3 | k0 | Alanı 130 cm² olan kare biçimli bir kartondan, kenar uzunluğu tam sayı santimetre olan en büyük kare parça kesilmiştir. Buna göre… | ✓9
+mat-kk-064 | M.8.1.3.3 | z3 | k0 | Bir tasarım atölyesinde kare biçimli iki levha üretilmiştir. Levhaların kenar uzunlukları şekilde verilmiştir. Buna göre iki levh… | ✓30
+mat-kk-065 | M.8.1.3.4 | z3 | k0 | Dikdörtgen biçimli birinci kartın boyu √{72} cm, eni √{2} cm; dikdörtgen biçimli ikinci kartın boyu √{3} cm, eni √{12} cm'dir. Bu… | ✓2
+mat-kk-066 | M.8.1.3.1 | z3 | k0 | Bir müzenin sergisinde küp biçimli kutular kare düzeninde dizilmiştir. Bu kare düzenine bir kenar boyunca bir sıra ve ona dik kom… | ✓144
+mat-kk-067 | M.8.1.3.1 | z4 | k0 | Alanı 2 025 m² olan kare biçimli bir parkın çevresine, her köşede de bir ağaç bulunacak ve ardışık iki ağaç arasındaki uzaklık 3 … | ✓60
+mat-kk-068 | M.8.1.3.2 | z4 | k0 | Bir kolide x tane kalem ve y tane defter vardır. x ve y doğal sayılardır; 4 < √{x} < 5 ve 2 < √{y} < 3'tür. Buna göre koli içinde… | ✓11
+mat-kk-069 | M.8.1.3.3 | z4 | k0 | Ela'nın çektiği sayı kartındaki n doğal sayısı için 5√{2} < √{n} < 6√{2} olduğu bilinmektedir. Buna göre n kaç farklı değer alabi… | ✓21
+mat-kk-070 | M.8.1.3.4 | z4 | k0 | Alanı 12 cm² olan dikdörtgen biçimli bir kartın kenar uzunlukları √{a} cm ve √{b} cm'dir. a ve b birbirinden farklı doğal sayılar… | ✓7
+mat-kk-071 | M.8.1.3.5 | z4 | k0 | Bir elektrik tesisatçısı, uzunlukları √{8} m ve √{18} m olan iki kabloyu, üçüncü bir kabloyla uç uca ekleyerek toplam 10√{2} m uz… | ✓50
+mat-kk-072 | M.8.1.3.6 | z4 | k0 | Bir sayı oyununda n doğal sayısı seçiliyor ve √{180n} sayısının bir doğal sayı olup olmadığına bakılıyor. Buna göre √{180n} sayıs… | ✓145
+mat-kk-073 | M.8.1.3.7 | z4 | k0 | Bir duvarın bir kenarına, aralarında boşluk bırakmadan, dönüşümlü olarak önce büyük sonra küçük kare karo gelecek biçimde (büyük,… | ✓24
+mat-kk-074 | M.8.1.3.8 | z4 | k0 | a = √{12}, b = √{27} ve c = √{48} sayıları veriliyor. Buna göre aşağıdaki ifadelerden hangisi yanlıştır? | ✓a · b · c sayısı rasyoneldir.
+mat-kk-075 | M.8.1.3.2 | z4 | k0 | x = 2√{12} + √{27} + √{3} olarak veriliyor. Buna göre x sayısı için aşağıdakilerden hangisi doğrudur? | ✓13 ile 14 arasındadır ve 14'e daha yakındır.

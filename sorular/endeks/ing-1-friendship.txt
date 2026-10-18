@@ -88,3 +88,213 @@ ing-u1-012 | E8.1.R1 | z3 | k0 | Ela: My little brother says he has no friends a
 ing-u1-013 | E8.1.R2 | z3 | k0 | Two students want to go to the Friendship Concert together. According to the poster, what is the cheapest way? | ✓One friends' ticket
 ing-u1-014 | E8.1.R1 | z4 | k0 | Some people think that having hundreds of online friends is great. I don't agree. Last month I had a problem at home, so I wrote … | ✓Real friends are the ones who help you.
 ing-u1-015 | E8.1.R2 | z4 | k0 | Deniz and Emel are planning to study together. Their messages are in the table. Where will the friends study together? | ✓At the café next to the library
+ing-u1-126 | E8.1.R1 | z1 | k1 | Alper and I have been friends for ten years. He is my - - - - friend. Which word completes the sentence? | ✓close
+ing-u1-127 | E8.1.SI1 | z1 | k1 | Tarık: How about playing table tennis after school? Jale: - - - - I'm free until six. Which completes the dialogue? | ✓Sure, it sounds great.
+ing-u1-128 | E8.1.R1 | z1 | k1 | Ahmet and I tell each other everything. We have no secrets, and we - - - - each other. Which completes the sentence? | ✓trust
+ing-u1-129 | E8.1.SI1 | z1 | k1 | Dylan: I'm sorry, Chloe. I broke your pencil case. Chloe: - - - - I have another one. Which completes the dialogue? | ✓That's okay. Never mind.
+ing-u1-130 | E8.1.R2 | z1 | k1 | Esin reads this card on the school notice board. What time does the chess club start? | ✓15.00
+ing-u1-131 | E8.1.SI1 | z1 | k1 | Vera: Would you like some soup, Zafer? Zafer: - - - - I'm very hungry. Which completes the dialogue? | ✓Yes, please. Thank you.
+ing-u1-132 | E8.1.R2 | z1 | k1 | Dilara puts this card in her friends' school bags. What should the guests bring? | ✓a kite
+ing-u1-133 | E8.1.R1 | z1 | k1 | Onur is very funny. He always makes us - - - -. Which word completes the sentence? | ✓laugh
+ing-u1-134 | E8.1.R2 | z1 | k1 | Taylan sends this note to his classmate. Where is Taylan? | ✓in the garden
+ing-u1-135 | E8.1.SP1 | z1 | k1 | Ufuk: Would you like to come to the cinema with us? Yaren: I'm sorry, but I can't come - - - - I have a swimming lesson. Which wo… | ✓because
+ing-u1-136 | E8.1.R1 | z1 | k1 | Which word is closest in meaning to "buddy"? | ✓friend
+ing-u1-137 | E8.1.SI1 | z1 | k1 | Hüseyin: How about going for a bike ride on Sunday? Gül: - - - - I love riding my bike. Which completes the dialogue? | ✓Yeah, why not? Let's go.
+ing-u1-138 | E8.1.R2 | z1 | k1 | The school clubs meet on different days. The timetable is below. Which club meets on Wednesday? | ✓Drama club
+ing-u1-139 | E8.1.R1 | z1 | k1 | Çağla: Why can't you come to the picnic, Doğa? Doğa: I'm sorry. I have to study for my maths exam. Why can't Doğa come to the pic… | ✓She has to study.
+ing-u1-140 | E8.1.R2 | z1 | k1 | Nazlı writes this note to Mete. When is the meeting? | ✓tomorrow at 4
+ing-u1-141 | E8.1.R1 | z1 | k1 | Tuba shares her notes with me. She is very - - - -. Which word completes the sentence? | ✓helpful
+ing-u1-142 | E8.1.SI1 | z1 | k1 | Gökçe: Would you like to come over for dinner on Saturday? Selim: - - - - What time? Which completes the dialogue? | ✓I'd love to.
+ing-u1-143 | E8.1.SI1 | z1 | k1 | Which sentence refuses an invitation? | ✓Sorry, but I can't come.
+ing-u1-144 | E8.1.R2 | z1 | k1 | Students read this poster on the school notice board. What can students do at this event? | ✓share their books
+ing-u1-145 | E8.1.SI1 | z1 | k1 | Neslihan: I'm sorry, Onur. I can't come to your party. I'm ill. Onur: - - - - Get well soon. Which completes the dialogue? | ✓That's a pity.
+ing-u1-146 | E8.1.R1 | z1 | k1 | Zeki and Barlas are always together. They get on well - - - - each other. Which word completes the sentence? | ✓with
+ing-u1-147 | E8.1.R2 | z1 | k1 | Meltem sends this message to Tülin. What does Meltem ask Tülin to do? | ✓cheer for the team
+ing-u1-148 | E8.1.SI1 | z1 | k1 | Okan: Are you busy on Sunday morning? Lerzan: - - - - I'm free. Which completes the dialogue? | ✓No, not at all.
+ing-u1-149 | E8.1.R1 | z1 | k1 | Melda is very shy. She doesn't talk much in class. She is a - - - - girl. Which word completes the sentence? | ✓quiet
+ing-u1-150 | E8.1.SI1 | z2 | k1 | Liam: Would you like to come to my house on Saturday afternoon? We can play video games. Noah: - - - - I have my tennis course on… | ✓I'd love to, but I can't.
+ing-u1-151 | E8.1.R2 | z2 | k1 | Leyla and Oğuz are planning to go ice-skating. When will Leyla and Oğuz go ice-skating? | ✓On Saturday afternoon
+ing-u1-152 | E8.1.W1 | z2 | k1 | Gökhan writes an invitation to his classmate. Dear Esra, We are having a farewell party for our English teacher on Friday at 15.0… | ✓Would you like to come?
+ing-u1-153 | E8.1.R1 | z2 | k1 | My best friend is Beril. We sit at the same desk. She is a bit shy, but she is very honest. She never says nice things when they … | ✓Beril always tells the truth.
+ing-u1-154 | E8.1.SP1 | z2 | k1 | Asya: Why didn't you come to the school trip yesterday, Ferhat? Ferhat: - - - - My grandfather was in hospital. Asya: Oh, I hope … | ✓I'm sorry, I couldn't come.
+ing-u1-155 | E8.1.R2 | z2 | k1 | Ceylan invites four friends to a nature walk on Saturday. Their replies are in the table below. Which friend can't come because o… | ✓Kübra
+ing-u1-156 | E8.1.R1 | z2 | k1 | Ceren has a problem with her group. Her best friend Ada is on her side. Ada always - - - - Ceren. Which completes the sentence? | ✓backs up
+ing-u1-157 | E8.1.SP1 | z2 | k1 | Berna invites you to her party on Saturday at six o'clock. You can't go because you have a football match at the same time. Which… | ✓I have a match at six on Saturday.
+ing-u1-158 | E8.1.R2 | z2 | k1 | Four friends are sharing the work for the class picnic in their group chat. Who will bring the cake? | ✓Anna
+ing-u1-159 | E8.1.R1 | z2 | k1 | Cüneyt: Did you see Süha's new bike? It's really cool! Berke: Yes, it is. I want a bike like that, too. What does "cool" mean in … | ✓great
+ing-u1-160 | E8.1.R2 | z2 | k1 | A Science Evening invitation card is below. How long does the event last? | ✓two hours
+ing-u1-161 | E8.1.SI1 | z2 | k1 | Nur: Hi Orkan! Are you busy tomorrow evening? Orkan: No, not really. Why? Nur: - - - - We can have pizza afterwards. Which comple… | ✓How about playing basketball?
+ing-u1-162 | E8.1.R1 | z2 | k1 | When Elçin lost the race, her friends stood next to her and said, "We are with you." They - - - - her. Which completes the senten… | ✓supported
+ing-u1-163 | E8.1.R2 | z2 | k1 | Rabia leaves this note for her classmate. Why can't Rabia come to the reading club today? | ✓Her mother is ill.
+ing-u1-164 | E8.1.SI1 | z2 | k1 | Murat: I'm sorry, Aslı. I forgot your book at home. I can bring it tomorrow. Aslı: - - - - I don't need it today. Which completes… | ✓That's all right.
+ing-u1-165 | E8.1.R2 | z2 | k1 | Baran and Ilay are planning to study together. What time will they study? | ✓6.30
+ing-u1-166 | E8.1.SP1 | z2 | k1 | Rabia writes to her classmate. Hi Taner, I'm sorry, but I can't play basketball today. - - - - I'll text you tomorrow. Which sent… | ✓I have a dentist appointment.
+ing-u1-167 | E8.1.R2 | z2 | k1 | Barkın wants to join one weekend workshop. He has a swimming course on Saturday from 9.00 to 16.00 and a guitar lesson on Sunday … | ✓Coding
+ing-u1-168 | E8.1.R1 | z2 | k1 | On Saturday I met my close friend Mira at the park. We went for a walk and talked for an hour. She told me a secret about her new… | ✓The friends played tennis.
+ing-u1-169 | E8.1.W1 | z2 | k1 | Ayça wants to invite her friend to a picnic. Which invitation includes the day, time and place? | ✓Would you like to come to a picnic in the pa…
+ing-u1-170 | E8.1.R2 | z2 | k1 | Ms Hale sends this e-mail to her students. What time does the bus come back? | ✓16.00
+ing-u1-171 | E8.1.SI1 | z2 | k1 | Kıvanç: Thanks a lot for your help, Cansel. I passed the exam! Cansel: - - - - I'm so happy for you. Which completes the dialogue? | ✓You're welcome.
+ing-u1-172 | E8.1.R2 | z2 | k1 | Mr Ateş asked 30 students "How do you spend time with your friends?" The answers are in the table below. Which sentence is true? | ✓Playing games is the most popular activity.
+ing-u1-173 | E8.1.R1 | z2 | k1 | Yelda trusts Seher. She tells her all her secrets because Seher always - - - - them. Which word completes the sentence? | ✓keeps
+ing-u1-174 | E8.1.R2 | z2 | k1 | Bengü sends this e-mail to Çiğdem. What does Bengü want Çiğdem to do before Wednesday? | ✓text her
+ing-u1-175 | E8.1.SI1 | z2 | k1 | The sentences below are from a conversation, but they are not in order. I. Yes, I'd love to. Where is it? II. Would you like to c… | ✓II – I – III – IV
+ing-u1-226 | E8.1.R1 | z2 | k2 | Selim never tells other people my secrets. I can trust him. What does "trust" mean? | ✓to feel sure about someone
+ing-u1-227 | E8.1.SI1 | z2 | k2 | Asya: How about going to the library after school? Mete: - - - - I need a new book anyway. Which one completes the dialogue? | ✓Yeah, why not.
+ing-u1-228 | E8.1.SP1 | z2 | k2 | İrem: I'm really sorry, Barış. I broke your pencil case. Barış: - - - - I have another one. Which one completes the dialogue? | ✓Never mind. It's OK.
+ing-u1-229 | E8.1.R2 | z2 | k2 | Nilay gives this card to her friends. According to the card, what should the guests bring? | ✓some popcorn
+ing-u1-230 | E8.1.SI1 | z2 | k2 | Mrs. Aydın: Would you like some more soup, Tim? Tim: - - - - I'm full. Which one completes the dialogue? | ✓No, thanks.
+ing-u1-231 | E8.1.R1 | z2 | k2 | My friend Derya is always there for me. I can - - - - her when I need help. Which one completes the sentence? | ✓count on
+ing-u1-232 | E8.1.R1 | z2 | k2 | Dila: Is Ali a good friend? Orhan: Yes. He is very honest. He tells me the truth, even when it is hard. What does "honest" mean? | ✓someone who tells the truth
+ing-u1-233 | E8.1.R1 | z2 | k2 | Hi! I'm Jack. My pen friend Emma lives in Canada. We write e-mails to each other every Sunday. I want to visit her next summer. H… | ✓Every Sunday
+ing-u1-234 | E8.1.SI1 | z2 | k2 | Ayla: Would you like to come over after school? We can do our homework together. Cem: - - - - I'll call my mother first. Which on… | ✓Yes, I'd love to.
+ing-u1-235 | E8.1.R2 | z2 | k2 | From: Naz · To: Hugo Hi Hugo! We are going camping in the forest next weekend. We will leave on Friday at 17.00 and come back on … | ✓The camp is in a forest.
+ing-u1-236 | E8.1.R1 | z2 | k2 | Mr. Tarım asked 22 students "What is the most important quality in a friend?" The answers are in the table. How many students cho… | ✓14 students
+ing-u1-237 | E8.1.SP1 | z2 | k2 | Tuna: Why didn't you come to the match, Ela? Ela: I'm sorry. I couldn't come - - - - I had a bad headache. Which one completes th… | ✓because
+ing-u1-238 | E8.1.R2 | z2 | k2 | Gökay and Leyla are texting. What will Leyla bring on Thursday? | ✓her gloves
+ing-u1-239 | E8.1.R1 | z2 | k2 | Our teacher never shouts, and she is never in a hurry. She is very laid-back. What does "laid-back" mean? | ✓calm
+ing-u1-240 | E8.1.SI1 | z2 | k2 | Mina: Are you busy tomorrow afternoon? Selim: Yes, I am. - - - - Which one completes the dialogue? | ✓I have a swimming lesson.
+ing-u1-241 | E8.1.R2 | z2 | k2 | The school club puts this poster on the notice board. How long is the book swap? | ✓one hour
+ing-u1-242 | E8.1.R1 | z2 | k2 | Berna is shy, but she is a good friend. She supports me before my piano exams, and she keeps my secrets. According to the text, w… | ✓She supports the writer before exams.
+ing-u1-243 | E8.1.SI1 | z2 | k2 | Burcu: Can you come to the cinema with us on Friday? Dilan: - - - - What time does the film start? Which one completes the dialog… | ✓Yeah, that would be great.
+ing-u1-244 | E8.1.R2 | z2 | k2 | Hi Selin! I'm sorry, but I can't come to the study group today because I have a dentist appointment at four. Can you send me your… | ✓To explain why he can't join the group
+ing-u1-245 | E8.1.R1 | z2 | k2 | Four friends want to go to the cinema together on Saturday. The table shows what each friend likes and who is free. Which two fri… | ✓Ayla and Doruk
+ing-u1-246 | E8.1.SP1 | z2 | k2 | Which sentence gives a reason for refusing an invitation? | ✓I have a violin lesson.
+ing-u1-247 | E8.1.R2 | z2 | k2 | Three friends join the run together. How much do they pay in total? | ✓90 TL
+ing-u1-248 | E8.1.R1 | z2 | k2 | Cem has a problem at school, so he asks Kerem for help. Kerem always backs him up. What does "backs him up" mean? | ✓supports him
+ing-u1-249 | E8.1.SI1 | z2 | k2 | Ece: Would you like to join our study group? Nil: Sure, that sounds fun! When do you meet? Ece: - - - - Which one completes the d… | ✓Every Tuesday at five.
+ing-u1-250 | E8.1.R2 | z2 | k2 | Hi Yaren, thanks for your invitation to the school concert. I'd love to come, but my cousin is visiting us that evening. Can we g… | ✓No, because his cousin is visiting him.
+ing-u1-251 | E8.1.R1 | z2 | k2 | Alp and I have been mates since primary school. We get on well, and we never argue. Which one is true according to the text? | ✓Alp and the writer are good friends.
+ing-u1-252 | E8.1.R2 | z3 | k2 | Tuğba sends this invitation card to her classmates. According to the card, which one is NOT true? | ✓The marathon will end at 14.00.
+ing-u1-253 | E8.1.SI1 | z3 | k2 | Selim has a chess tournament on Saturday morning. His friend Naz invites him to a picnic. Naz: We are going on a picnic on Saturd… | ✓I'm sorry, but I can't. I have a chess tourn…
+ing-u1-254 | E8.1.R1 | z3 | k2 | My blog — My cousin Ayça Ayça is only one year older than me, but she is more than a cousin; she is my true friend. When I moved … | ✓Ayça and the writer go to the same school.
+ing-u1-255 | E8.1.R2 | z3 | k2 | Gamze invites four friends to a bowling evening on Friday from 18.00 to 20.00. The table shows their plans on Friday evening. Who… | ✓Berk
+ing-u1-256 | E8.1.SI1 | z3 | k2 | The sentences below are from a conversation between two friends, but they are not in order. 1. Sure, that sounds great. What time… | ✓2 – 3 – 4 – 1
+ing-u1-257 | E8.1.R1 | z3 | k2 | Hugo: A good friend listens to me carefully. My friend Mia asks me questions when I am sad, and she doesn't give me quick advice.… | ✓Mia and Noah help their friends in different…
+ing-u1-258 | E8.1.SI1 | z3 | k2 | Rabia asks her friend, "Would you like to come to my house for dinner on Friday?" Which reply is NOT suitable? | ✓No, not at all. Why?
+ing-u1-259 | E8.1.R2 | z3 | k2 | Notice from Mr. Aksoy Dear students, the drama club will not meet on Tuesday because the school hall is closed. We will meet on T… | ✓On Thursday in Room 12
+ing-u1-260 | E8.1.R1 | z3 | k2 | Four students describe their friendships. Ali: "I can't keep quiet when I think my friend is wrong. I always speak up." Banu: "I … | ✓Banu
+ing-u1-261 | E8.1.R2 | z3 | k2 | The school student council prepares this poster. According to the poster, which one is true? | ✓The photo booth opens after the cake sale.
+ing-u1-262 | E8.1.SI1 | z3 | k2 | Lina is at her friend Hakan's house. Hakan: Would you like to come over to my room and play board games, Lina? Lina: - - - - I ha… | ✓I'm sorry, but I can't.
+ing-u1-263 | E8.1.R1 | z3 | k2 | Last year I joined the school basketball team and I didn't know anybody. Everybody was friendly, but Deniz was different. After e… | ✓Deniz helped the writer feel welcome.
+ing-u1-264 | E8.1.R2 | z3 | k2 | From: Gülşen · To: Kerim Hi Kerim, our class is planting trees in the park on Saturday, 5 April. We will meet at the school gate … | ✓Sure, I'd love to. See you at the gate at ni…
+ing-u1-265 | E8.1.R1 | z3 | k2 | Twenty students chose the quality they like most in a friend. The results are in the chart. According to the chart, which one is … | ✓Honest is twice as popular as helpful.
+ing-u1-266 | E8.1.SI1 | z3 | k2 | Doğan and Yasemin are texting. Doğan: Hi Yasemin! Are you free this afternoon? Yasemin: Yes, I am. Why? Doğan: I'm going to the s… | ✓Would you like to come with us?
+ing-u1-267 | E8.1.R2 | z3 | k2 | Message from Mrs. Işık Hi everyone! Our class is going to the science fair on Friday. The bus leaves at 8.30 a.m. and returns at … | ✓The trip lasts about five hours.
+ing-u1-268 | E8.1.R1 | z3 | k2 | Cenk and Dila answered four questions about friendship. Their answers are in the table. According to the table, which one is true? | ✓Cenk and Dila both share their snacks.
+ing-u1-269 | E8.1.SP1 | z3 | k2 | Gonca: Oh no! I spilled juice on your jacket, Bülent. - - - - Bülent: Never mind. It's washable. Which one completes the dialogue… | ✓I'm so sorry. I'll wash it.
+ing-u1-270 | E8.1.R1 | z3 | k2 | My best friend Yaren and I are very different. I love noisy parties, but she prefers reading at home. I am always late, but she i… | ✓Friends can learn from their differences.
+ing-u1-271 | E8.1.R2 | z3 | k2 | Asya is organising a picnic. She writes, "Everyone brings a different thing. We need sandwiches, drinks, fruit and dessert." The … | ✓Dessert
+ing-u1-272 | E8.1.SI1 | z3 | k2 | Hira: Are you busy on Friday evening? Gökhan: No, not at all. Why? Hira: - - - - Gökhan: Sure, that sounds fun! What time? Which … | ✓Would you like to watch a film with me?
+ing-u1-273 | E8.1.SI1 | z3 | k2 | The sentences below are from a conversation, but they are not in order. 1. That's a pity. How about next Saturday? 2. I'm sorry, … | ✓3 – 2 – 1 – 4
+ing-u1-274 | E8.1.R2 | z3 | k2 | Deniz got an e-mail about Skate Day. He says, "I can come at 10.00, but I have to leave at 12.00." Which event can Deniz join fro… | ✓The skating lesson
+ing-u1-275 | E8.1.R2 | z3 | k2 | Zeynep invites her classmates to a picnic. Her message says: "The picnic is on Saturday at the lake from 11.00 to 15.00. Please t… | ✓Kemal
+ing-u1-326 | E8.1.SI1 | z3 | k3 | Ahmet: Our school chess club meets on Wednesdays after lunch. We play for an hour and drink tea together. Would you like to join … | ✓Sure, I'd love to, but I can't play.
+ing-u1-327 | E8.1.R2 | z3 | k3 | Pelin gets this card from the school library. Which one is true according to the card? | ✓Visitors take a different book home.
+ing-u1-328 | E8.1.SP1 | z3 | k3 | Yasemin: Can you come to the kite festival on Sunday, Barış? We will fly our kites at the beach, and there will be a competition … | ✓I have to study for my math exam.
+ing-u1-329 | E8.1.R1 | z3 | k3 | Sevda: Last Monday my bike broke down on the way to school. I was very worried because I had an exam at 8.30. Then my neighbour K… | ✓to trust and rely on
+ing-u1-330 | E8.1.R2 | z3 | k3 | From: Turgut · To: The cycling group Hi everyone! The weather report says it will rain on Saturday morning, so we have to change … | ✓The start time and the meeting place
+ing-u1-331 | E8.1.R1 | z3 | k3 | My true friend Sema is honest and patient. She never lies to me, and when I talk about my problems, she listens carefully, even i… | ✓She buys gifts for friends.
+ing-u1-332 | E8.1.SI1 | z3 | k3 | Nur: Would you like to watch a film at my house tonight, Sinan? My mum is making popcorn. Sinan: - - - - How about tomorrow? Nur:… | ✓I'm sorry, but I can't tonight. I have a tes…
+ing-u1-333 | E8.1.R2 | z3 | k3 | The photo club walks through the old town on Saturday. The walk starts at 10.00 and finishes at 13.00. The four friends in the ta… | ✓Cem
+ing-u1-334 | E8.1.R1 | z3 | k3 | Dilek: My older brother is very laid-back. He never hurries, and he never gets angry. When our bus is late, he just listens to mu… | ✓calm and relaxed
+ing-u1-335 | E8.1.SI1 | z3 | k3 | Mine: How about going to the zoo on Saturday, Cemal? We can see the new baby elephant. Cemal: - - - - But I can't stay long. I ha… | ✓Yeah, why not? That sounds good.
+ing-u1-336 | E8.1.R2 | z3 | k3 | Hülya gets this invitation card from her class. What should the guests do before Friday? | ✓Tell Esra if they can come
+ing-u1-337 | E8.1.SP1 | z3 | k3 | Hasan: We are cleaning the animal shelter on Sunday morning, and we need helpers. Can you join us, Songül? Songül: I'd love to, b… | ✓I have a family breakfast then.
+ing-u1-338 | E8.1.R1 | z3 | k3 | Kutay lent his new headphones to Batuhan. Batuhan lost one of them on the bus, but he said nothing for a week. Then he felt bad, … | ✓Kutay values honesty more than the headphone…
+ing-u1-339 | E8.1.R2 | z3 | k3 | Luka, 14, lives in Zagreb. He is looking for a pen friend. He writes: "I like chess and basketball. I can write in English, but I… | ✓Naz
+ing-u1-340 | E8.1.R1 | z3 | k3 | Zehra is my true friend. We have been in the same class since the first grade, and I always feel safe with her. I can - - - - (1)… | ✓(1) count on – (2) secret
+ing-u1-341 | E8.1.R2 | z3 | k3 | Ayla and Yağız are planning a trip on their phones. According to the messages, which one is true? | ✓Yağız asks to meet later because of his dog.
+ing-u1-342 | E8.1.SP1 | z3 | k3 | Kübra: I'm making pizza at home today. Would you like to come over, Burcu? Burcu: Thanks, but I have a headache. - - - - Kübra: O… | ✓Maybe I can come next time.
+ing-u1-343 | E8.1.R1 | z3 | k3 | Yesterday Ceylan told me she was sorry for forgetting my birthday. At first I was upset and didn't want to talk to her. Then she … | ✓Ceylan told the writer why she forgot.
+ing-u1-344 | E8.1.R2 | z3 | k3 | Selma and Taner want to join the same course at the Youth Centre. Selma: I have an English lesson every Monday and Tuesday after … | ✓Painting
+ing-u1-345 | E8.1.SP1 | z3 | k3 | Alper: Can you come to the park at five, Özlem? Özlem: I'm sorry, but I can't. (1) Alper: Oh, I see. How about tomorrow at the sa… | ✓(1) I have a violin lesson. – (2) Yes, that …
+ing-u1-346 | E8.1.R1 | z3 | k3 | Our new neighbour is really cool. He shares his games with the children in the building, helps old people carry their bags, and n… | ✓great, very good
+ing-u1-347 | E8.1.SI1 | z3 | k3 | Gaye: We are making a short film for the school festival. Would you like to be in it, Mete? Mete: Yeah, why not? - - - - Gaye: It… | ✓What is the film about?
+ing-u1-348 | E8.1.R2 | z3 | k3 | Gonca and her friends read this poster at school. Which one is NOT mentioned on the poster? | ✓Who will bake the cakes
+ing-u1-349 | E8.1.R1 | z3 | k3 | Dila: Last week I told Eda about my fear of speaking in public. She didn't laugh. She gave me some tips, and she promised not to … | ✓Dila told Eda about her fear.
+ing-u1-350 | E8.1.SI1 | z3 | k3 | Utku: Do you want to come to my place to study for the English exam, Işıl? Işıl: - - - - I have to take my cat to the vet. Utku: … | ✓Sorry, I can't make it today.
+ing-u1-351 | E8.1.R1 | z3 | k3 | Eylül: I don't let my friends copy my homework. When they don't understand, I sit with them and explain the question step by step… | ✓Eylül explains the homework, but Gaye lets f…
+ing-u1-352 | E8.1.SI1 | z3 | k3 | Ufuk: How about going for a walk by the lake after school? Aslıhan: Sure, it sounds great. - - - - Ufuk: At the school gate at 3.… | ✓Where shall we meet?
+ing-u1-353 | E8.1.R1 | z3 | k3 | Meltem and Zerrin started a "kind words" notebook. Every Friday, they write one good thing about each other, and on Monday they r… | ✓A Friendly Way to Cheer Each Other Up
+ing-u1-354 | E8.1.R2 | z3 | k3 | Three classmates water the plants in the classroom. Their days are in the table. Then Burak sends this message: "Hi Asu! I'm ill … | ✓Burak on Monday, Asu on Wednesday
+ing-u1-355 | E8.1.SP1 | z3 | k3 | Rıza: Why are you smiling, Kıvanç? You look so happy this morning. Kıvanç: - - - - Rıza: Oh, well done! Your coach will be so pro… | ✓Because I won the swimming race.
+ing-u1-356 | E8.1.R2 | z4 | k3 | The Robotics Club invites all students to its Open Day. The card is below. Four friends read the card and write their plans. They… | ✓Derya
+ing-u1-357 | E8.1.R1 | z4 | k3 | Dear Aunt Sevil, My best friend Rabia often cancels our plans at the last minute. She says sorry every time, but I feel sad and I… | ✓Rabia has told the writer why she cancels.
+ing-u1-358 | E8.1.SI1 | z4 | k3 | Kaya: Are you doing anything on Saturday afternoon, Neşe? Neşe: (1) Why? Kaya: There is a free workshop at the town library. We c… | ✓(1) No, not at all. – (2) What time does it …
+ing-u1-359 | E8.1.R1 | z4 | k3 | Asya: I lend my things to my best friends, but I always say, "Please be careful." If something breaks, I don't get angry, because… | ✓Only II
+ing-u1-360 | E8.1.R2 | z4 | k3 | The Youth Camp has four activities this weekend. Mehmet and Gülsüm want to do one activity together. Mehmet: "I'm free only on Sa… | ✓Archery on Saturday
+ing-u1-361 | E8.1.R2 | z4 | k3 | Tarkan sends this card to three friends. Their answers are below. Havva: "Thanks, Tarkan! I'll be there at six, but I have to lea… | ✓Havva will miss the last part of the maratho…
+ing-u1-362 | E8.1.R2 | z4 | k3 | Aysel puts this poster on the school board. Berna sends her a message: "Hi Aysel! I'll come and I'll bring my brother. He loves b… | ✓II and III
+ing-u1-363 | E8.1.R2 | z4 | k3 | E-mail from Tuğba: "Hi all! We were in Mrs. Hale's class five years ago. Let's meet at Güneş Café on 20 December at 15.00. Everyb… | ✓How many people will come
+ing-u1-364 | E8.1.R1 | z4 | k3 | Baran writes to Levent: "Dear Levent, I'm sorry I didn't come to your match. I told you I'd cheer for you, but my exam ran late t… | ✓I and III
+ing-u1-365 | E8.1.R2 | z4 | k3 | The students of classes 8-A and 8-B (30 students in each class) were asked: "What do you usually do with your best friend after s… | ✓Going for a walk is twice as popular in 8-B …
+ing-u1-366 | E8.1.R1 | z4 | k3 | Gamze: When my friend broke my glasses, I was angry for a whole day. Then she said sorry and paid for the new ones. For me, a rea… | ✓A friend's mistake can be forgiven.
+ing-u1-367 | E8.1.R2 | z4 | k3 | Hazan, Nihat and Ravza want to see a show at the Children's Theatre together. The programme is in the table. Then they write to e… | ✓City Mice
+ing-u1-368 | E8.1.R2 | z4 | k3 | Cem and Sevil are trying to find a time and a place for their project work. They send messages to each other. What have they deci… | ✓To meet at the café at 5.00
+ing-u1-369 | E8.1.R1 | z4 | k3 | Sümeyye is the quietest student in our class. She never speaks first, so some classmates thought she didn't like them. Then Koray… | ✓Sümeyye's parents wanted her to join the clu…
+ing-u1-370 | E8.1.SI1 | z4 | k3 | Fulya: Where were you yesterday, Selçuk? I waited for you at the bus stop for half an hour. Selçuk: (1) Fulya: That's OK. But nex… | ✓(1) I'm sorry, my phone died. – (2) How abou…
+ing-u1-371 | E8.1.R2 | z4 | k3 | Hilal invites her friends to a housewarming party at her new flat: "Hi! We have moved to 45 Lale Street. The party is on Sunday a… | ✓The 15.20 bus
+ing-u1-372 | E8.1.R1 | z4 | k3 | Before the exam, Yaren gave her notes to Tamer, who was ill. Tamer lost them on the bus. Instead of hiding the problem, he called… | ✓She accepts it was an honest mistake.
+ing-u1-373 | E8.1.R2 | z4 | k3 | Poster at the school gate: "BEACH CLEAN-UP DAY — Saturday, 8.00. Meet at the pier. Gloves and bags are free. Please bring your ow… | ✓How long the cleaning takes
+ing-u1-374 | E8.1.R2 | z4 | k3 | Candan invites four friends to the book club at the library. The club starts at 16.00. Their answers are in the table. According … | ✓Two friends will come, one of them late.
+ing-u1-375 | E8.1.R2 | z4 | k3 | Hi Gül, I'm sorry I couldn't join your hiking day on Sunday. My cousins came from Ankara, and my mother wanted me to stay at home… | ✓I really wanted to be with you all.
+ing-u1-016 | E8.1.R1 | z1 | k0 | Nora and Leyla have known each other since kindergarten. They tell each other everything and they never argue. What is Leyla to N… | ✓her best friend
+ing-u1-017 | E8.1.SI1 | z1 | k0 | Taner: Let's go to the new ice-cream shop after school. Hira: - - - - I have a dentist appointment. Which completes the dialogue? | ✓I'm sorry, but I can't.
+ing-u1-018 | E8.1.SP1 | z1 | k0 | Kenan: Oh no! I dropped your pencil case. I'm so sorry, Mia. Mia: - - - - Which completes the dialogue? | ✓That's okay. It isn't broken.
+ing-u1-019 | E8.1.R1 | z1 | k0 | Omar tells Selim his secrets because he trusts him. Selim never tells them to other people. What does Selim do? | ✓He keeps Omar's secrets.
+ing-u1-020 | E8.1.R2 | z1 | k0 | This card is on the school notice board. What should the guests bring? | ✓a pillow
+ing-u1-021 | E8.1.R2 | z1 | k0 | Tuana sends this message to her friend Baran. Why can't Tuana come to the match? | ✓She has a bad cold.
+ing-u1-022 | E8.1.R1 | z1 | k0 | Look at Jack's new bike! It is red and very fast. It is really - - - -. I want one, too. Which completes the sentence? | ✓cool
+ing-u1-023 | E8.1.SI1 | z1 | k0 | Lara: How about playing table tennis after lunch? Emma: - - - - I'll bring my racket. Which completes the dialogue? | ✓Sure, it sounds great.
+ing-u1-024 | E8.1.R2 | z1 | k0 | Cemil sees this poster at school. When does the English Corner meet? | ✓On Wednesdays at 2.20
+ing-u1-025 | E8.1.SP1 | z1 | k0 | Dara is not at school today - - - - she has a fever. Which completes the sentence? | ✓because
+ing-u1-026 | E8.1.R2 | z1 | k0 | Nisa gets this note from her classmate Pelin. Why does Pelin write to Nisa? | ✓To invite Nisa to her club
+ing-u1-027 | E8.1.R2 | z1 | k0 | Ali writes about his best mate. What do Ali and Tarkan do every Sunday? | ✓They play chess.
+ing-u1-028 | E8.1.SP1 | z2 | k0 | Yasin: Why didn't you answer my message last night, Ceylan? Ceylan: I'm really sorry, Yasin. - - - - Yasin: Oh, I see. Don't worr… | ✓My phone had no battery.
+ing-u1-029 | E8.1.R2 | z2 | k0 | Berkay gets this e-mail from his classmate Ayla. What does Ayla ask Berkay to do? | ✓To play in the school team
+ing-u1-030 | E8.1.SI1 | z2 | k0 | Hüseyin: I'm sorry, Gamze, but I can't come to your party. I'm visiting my grandparents in Izmir that weekend. Gamze: - - - - Tel… | ✓That's a pity. Have a nice trip!
+ing-u1-031 | E8.1.R1 | z2 | k0 | Rüzgar's best friend Bengü moved to another city last month. They live far away now, but they text every night. When Rüzgar faile… | ✓She still supports Rüzgar.
+ing-u1-032 | E8.1.R2 | z2 | k0 | Yaren gives this card to her friends. How long is the party? | ✓two hours
+ing-u1-033 | E8.1.SI1 | z2 | k0 | Kemal: Hi Ilke! How about going out for pizza tonight? Ilke: I'd love to, but my mum says I must stay at home today. Kemal: No pr… | ✓I'll come over with a pizza.
+ing-u1-034 | E8.1.R2 | z2 | k0 | Cansın reads this e-mail from his friend Mehtap. Which one is NOT mentioned in the e-mail? | ✓Mehtap's mother will make the popcorn.
+ing-u1-035 | E8.1.R2 | z2 | k0 | Dila, Eren and Gül want to study together after school. The table shows the days they are free or busy. On which day can all thre… | ✓Tuesday
+ing-u1-036 | E8.1.SI1 | z2 | k0 | Tuana: Would you like to come to the picnic on Sunday, Okan? Okan: I'd love to, but I must ask my parents first. Tuana: - - - - P… | ✓OK, no problem.
+ing-u1-037 | E8.1.R1 | z2 | k0 | Zeliha is my teammate. When I can't do an exercise, she explains it again and again. She never gets angry or tired. Which word de… | ✓patient
+ing-u1-038 | E8.1.R2 | z2 | k0 | A group of friends is planning a game for tomorrow. Why can't Oya come? | ✓She is visiting her aunt.
+ing-u1-039 | E8.1.SI1 | z2 | k0 | Elvan invites Çağan to the cinema. Çağan gives one of the replies below. Which reply is NOT a refusal? | ✓Yeah, why not? What time?
+ing-u1-040 | E8.1.R1 | z2 | k0 | This is a page from Aysu's diary. Which one is NOT mentioned in the diary? | ✓Aysu and Ryan had an argument.
+ing-u1-041 | E8.1.SI1 | z2 | k0 | Zeki: Let's study at the library at three. Kübra: I'm sorry, I can't. Zeki: - - - - Kübra: Because I have a swimming lesson at fo… | ✓Why can't you come?
+ing-u1-042 | E8.1.R2 | z2 | k0 | Güler gives this invitation to her classmates. What must the guests do before Friday? | ✓Tell Güler whether they can come
+ing-u1-043 | E8.1.R1 | z2 | k0 | Nida says, "Buse never tells lies, and she always says what she really thinks. I respect her." So, Buse is a very - - - - friend.… | ✓honest
+ing-u1-044 | E8.1.SI1 | z2 | k0 | Zehra: I want to go to the school concert on Friday, but I don't have a ticket. Barlas: - - - - Zehra: Really? That's great! Than… | ✓Don't worry. I have an extra one for you.
+ing-u1-045 | E8.1.R1 | z2 | k0 | Arzu told her sister her friend's secret. When her friend found out, she said, "I can't trust you any more." What happened? | ✓Arzu lost her friend's trust.
+ing-u1-046 | E8.1.R2 | z2 | k0 | Ahmet and Cüneyt are planning to meet. When will they meet? | ✓6.30 p.m.
+ing-u1-047 | E8.1.R2 | z2 | k0 | Sinan is free on Saturday morning and Sunday afternoon. Tuba is free on Sunday afternoon and Monday. The weekend events are in th… | ✓The film
+ing-u1-048 | E8.1.R2 | z3 | k0 | Volkan gives this invitation card to his classmates. Which one is true according to the card? | ✓If it rains, the event will be on Sunday.
+ing-u1-049 | E8.1.SI1 | z3 | k0 | Tamer: Hi Reyhan! Are you busy this weekend? Reyhan: Not on Saturday. Why? Tamer: My cousin is in town, and we are going to the a… | ✓Yeah, why not? I'm free after my lesson.
+ing-u1-050 | E8.1.R1 | z3 | k0 | My blog — Two kinds of friends I have two kinds of friends. My football buddies are cool and funny, but we only see each other at… | ✓She helps the writer after a bad exam.
+ing-u1-051 | E8.1.R2 | z3 | k0 | Ufuk usually goes to the English Club at 15.30 in Room 8. He can come at the new time. He reads this notice. What must Ufuk do on… | ✓Go to Room 3 at 16.30
+ing-u1-052 | E8.1.SI1 | z3 | k0 | Sema: I have two tickets for Saturday's basketball match. Would you like to come with me, Koray? Koray: - - - - Sema: Oh, I see. … | ✓I'd love to, but I have a family dinner on S…
+ing-u1-053 | E8.1.R1 | z3 | k0 | Three classmates talk about sharing notes. Recep: I share my notes with everybody, because friends should help each other. Bilal:… | ✓Recep and Bilal share their notes with every…
+ing-u1-054 | E8.1.R2 | z3 | k0 | Gonca and Levent are planning an evening out. When will they meet at the café? | ✓9.30 p.m.
+ing-u1-055 | E8.1.R1 | z3 | k0 | When Metin joined our class, he was very shy. Our teacher asked me to sit next to him. At first we didn't talk much. Then I found… | ✓Sharing an interest helped Metin make friend…
+ing-u1-056 | E8.1.R2 | z3 | k0 | Tülin gets this e-mail from her friend Mira. Why does Mira mention Hans? | ✓To show that she has found a supportive frie…
+ing-u1-057 | E8.1.R2 | z3 | k0 | Four friends play table tennis for two hours on Friday. How much do they pay in total? | ✓160 TL
+ing-u1-058 | E8.1.SI1 | z3 | k0 | Which dialogue is the most suitable? | ✓How about going for a walk? - Yeah, why not?
+ing-u1-059 | E8.1.R2 | z3 | k0 | Emirhan reads Gökçe's invitation and writes a reply. What is the earliest time Emirhan can arrive at the party? | ✓7.45 p.m.
+ing-u1-060 | E8.1.R1 | z3 | k0 | Dear Diary, Today Ilayda asked me to keep a secret: she is moving to Izmir in June, and she wants to tell the others herself. I f… | ✓She kept Ilayda's secret.
+ing-u1-061 | E8.1.R2 | z3 | k0 | Rıza has plans on Saturday. His friends send him four invitations. The tables show his plans and the invitations. Which invitatio… | ✓Ece's film
+ing-u1-062 | E8.1.R1 | z3 | k0 | Işık and Lütfi are very different. Işık loves sports and she is noisy; Lütfi prefers reading and he is quiet. However, they never… | ✓Friends do not always need the same hobbies.
+ing-u1-063 | E8.1.SP1 | z3 | k0 | It is a sunny day in the school garden. Kadir sees his friend Esra alone under a tree. Kadir: Why are you sitting under the tree,… | ✓I'm thirsty because I forgot my bottle.
+ing-u1-064 | E8.1.R2 | z4 | k0 | Four friends are planning a surprise for their football coach. The possible times are in the table. Their messages are below. Kay… | ✓Saturday at 15.00
+ing-u1-065 | E8.1.R1 | z4 | k0 | Neslihan: My friend Gül told me that she skips breakfast every day and feels dizzy at school. She asked me to keep it a secret. I… | ✓A friend with a problem needs help.
+ing-u1-066 | E8.1.R2 | z4 | k0 | Gökhan, Ryan and Nisa want to go on a trip together. The options are in the table. Gökhan: "I can't go on Sunday." Ryan: "I only … | ✓The Kite Hill trip
+ing-u1-067 | E8.1.SI1 | z4 | k0 | Tuğba: Hi Fatih! Do you have any plans for Saturday? Fatih: Not really. Why? Tuğba: Our class is preparing a surprise for Mr Kara… | ✓I have a dentist appointment until noon.
+ing-u1-068 | E8.1.R1 | z4 | k0 | Many students say that best friends must be alike. I don't agree. My best friend Ceylin and I are very different. I am talkative … | ✓Ceylin helped the writer when he lost someth…
+ing-u1-069 | E8.1.R1 | z4 | k0 | Dear Hasan, Next week I am moving to another city, so this is my goodbye letter. When I was new at school, you shared your books … | ✓supported - close - trust
+ing-u1-070 | E8.1.SI1 | z4 | k0 | Özgür: Would you like to come to the Comic Book Fair with me on Saturday? It is open from 10 to 6. Melike: I'd love to, but I hav… | ✓Could I come in the afternoon, after my exam?
+ing-u1-071 | E8.1.R1 | z4 | k0 | Engin: I have many friends: classmates, teammates, neighbours. I get on well with all of them and we have fun together. But I hav… | ✓A close friend is important.
+ing-u1-072 | E8.1.R2 | z4 | k0 | Six students go to the rooftop cinema together. All of them buy student tickets and they buy one large popcorn. How much do they … | ✓234 TL
+ing-u1-073 | E8.1.R1 | z4 | k0 | Class 8-C is talking about how to support a friend. Four students tell what they did last week. Aslıhan: I helped my friend Elçin… | ✓Doğan's action
+ing-u1-074 | E8.1.SI1 | z4 | k0 | Yelda: Would you like to come over and bake cookies tomorrow? Mazlum: I'd love to, but I can't. I'm going to the dentist at four.… | ✓Never mind. How about baking them in the mor…
+ing-u1-075 | E8.1.R2 | z4 | k0 | Four friends tell when they will be at the farewell picnic. Soner: "I'll be there from the beginning, but I'll leave at 3 p.m." Y… | ✓Kayra

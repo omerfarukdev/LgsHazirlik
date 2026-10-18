@@ -88,3 +88,213 @@ fen-dn-325 | F.8.2.1.2 | z4 | k3 | Bir öğrenci, dört basamaklı bir DNA böl�
 fen-dn-013 | F.8.2.1.2 | z2 | k0 | Bir DNA molekülünün iki zinciri, aralarında basamaklar oluşturacak biçimde karşı karşıya durur. Buna göre bu iki zinciri bir arad… | ✓Karşılıklı gelen organik bazların eşleşmesi
 fen-dn-014 | F.8.2.1.1 | z3 | k0 | Bir öğrenci, pazarda sarı ve mor taneli mısır koçanları görmüş, tane renginin genlerle belirlendiğini öğrenmiştir. Konuyu araştır… | ✓I ve III
 fen-dn-015 | F.8.2.1.1 | z4 | k0 | Bir araştırmacı, bir canlının iki ayrı hücresinden aldığı DNA örneklerini incelemiş ve bazların dizilim sırasının iki örnekte de … | ✓Taşıdıkları genler birbirinin aynısıdır.
+fen-dn-126 | F.8.2.1.1 | z1 | k1 | Fen öğretmeni, DNA'yı oluşturan organik bazların çeşit sayısını öğrencilere sormuştur. Buna göre DNA'da kaç çeşit organik baz bul… | ✓4 çeşit
+fen-dn-127 | F.8.2.1.1 | z1 | k1 | Nükleotid, gen, DNA ve kromozom kavramlarından biri, diğer üçünü de içinde barındıran en büyük yapıdır. Buna göre bu yapı aşağıda… | ✓Kromozom
+fen-dn-128 | F.8.2.1.1 | z1 | k1 | Bir bitkinin çiçek rengini belirleyen gen incelendiğinde bu genin kendisinin de daha küçük birimlerden oluştuğu görülmüştür. Buna… | ✓Nükleotidlerin
+fen-dn-129 | F.8.2.1.1 | z1 | k1 | Kerem, kromozom, DNA, gen ve nükleotid arasındaki ilişkiyi anlatan dört cümle yazmıştır. Buna göre Kerem'in cümlelerinden hangisi… | ✓Kromozom, genin içinde yer alır.
+fen-dn-130 | F.8.2.1.1 | z1 | k1 | Bir hayvanat bahçesinde yaşayan beş penguenin aynı türden olduğu belirlenmiş ve vücut hücrelerindeki kromozomlar sayılmıştır. Bun… | ✓Bütün penguenlerde birbirine eşittir.
+fen-dn-131 | F.8.2.1.1 | z1 | k1 | Bir kurbağanın göz hücresi ile bacak kası hücresi aynı kurbağadan alınarak incelenmiştir. Buna göre bu iki hücrenin kalıtsal bilg… | ✓Her ikisinde de bütün genler bulunur.
+fen-dn-132 | F.8.2.1.1 | z1 | k1 | Defne'nin arkadaşı "Gen ile DNA aynı şeydir." demiştir. Buna göre Defne'nin arkadaşına vereceği doğru yanıt aşağıdakilerden hangi… | ✓Yanlış, çünkü gen DNA'nın bir özelliği belir…
+fen-dn-133 | F.8.2.1.1 | z1 | k1 | Bir zebra ile bir sığırın DNA'ları karşılaştırıldığında ikisinde de aynı dört çeşit organik baz bulunduğu görülmüştür. Buna göre … | ✓Organik bazların dizilim sırası
+fen-dn-134 | F.8.2.1.1 | z1 | k1 | Nükleotid modeli yapan bir öğrenci, fosfat ile organik bazı doğrudan birbirine bağlamamış; ikisini de ortadaki üçüncü bir parçaya… | ✓Deoksiriboz şekeri
+fen-dn-135 | F.8.2.1.1 | z1 | k1 | Bir DNA molekülünün üzerinde çok sayıda - - - - bulunur. Buna göre cümledeki boşluğa aşağıdakilerden hangisi getirilmelidir? | ✓Gen
+fen-dn-136 | F.8.2.1.2 | z1 | k1 | DNA modeli hazırlayan Tuna, bir zincirdeki timin bazının karşısına gelecek eşini yerleştirecektir. Buna göre Tuna hangi bazı yerl… | ✓Adenin
+fen-dn-137 | F.8.2.1.2 | z1 | k1 | Bir bilim kulübünde, verilen DNA zincirinin karşısına gelen zinciri yazma yarışması yapılmaktadır. Yarışmada verilen zincirin baz… | ✓C – T – T – G
+fen-dn-138 | F.8.2.1.2 | z1 | k1 | Berk, DNA'yı anlatan bir poster hazırlarken molekülü kaç nükleotid zinciriyle çizmesi gerektiğini düşünmektedir. Buna göre Berk, … | ✓2 zincir
+fen-dn-139 | F.8.2.1.2 | z1 | k1 | Bir bilim kulübünde hazırlanan DNA modelinin dört basamağı tabloda verilmiştir. Basamaklardan yalnızca birinde karşılıklı bazlar … | ✓3. basamak
+fen-dn-140 | F.8.2.1.2 | z1 | k1 | Aşağıda dört öğrenci, DNA'daki baz eşleşmesini açıklamıştır. Buna göre hangi öğrencinin açıklaması doğrudur? | ✓Mert: "Adenin timinle, guanin sitozinle eşle…
+fen-dn-141 | F.8.2.1.2 | z1 | k1 | Ada, DNA modelini iki kenarı ve aralarındaki basamaklarıyla düz bir merdiven gibi yapmıştır. Öğretmeni, modelin gerçek DNA molekü… | ✓Merdiveni kendi ekseni etrafında burarak sar…
+fen-dn-142 | F.8.2.1.2 | z1 | k1 | Bir öğrenci DNA'yı düzleştirilmiş bir merdivene benzetmiştir. Buna göre bu merdivenin basamaklarını DNA'da aşağıdakilerden hangis… | ✓Eşleşmiş organik bazlar
+fen-dn-143 | F.8.2.1.2 | z1 | k1 | Bir hücrenin DNA'sında bazı hatalar meydana gelmiştir. Buna göre hücrenin bu hatalarla ilgili durumu aşağıdakilerden hangisidir? | ✓Hataların çoğu onarılır.
+fen-dn-144 | F.8.2.1.3 | z1 | k1 | Bir ağacın kök ucundaki bir hücrede bölünmeden önce DNA kendini eşlemiş ve bir DNA'dan birbirinin aynısı iki DNA oluşmuştur. Buna… | ✓Biri eski, biri yeni zincirdir.
+fen-dn-145 | F.8.2.1.3 | z1 | k1 | DNA kendini eşlerken iki zincir birbirinden ayrılır ve açıkta kalan her zincirin karşısına yeni bir zincir kurulur. Buna göre yen… | ✓Açıkta kalan eski zincir
+fen-dn-146 | F.8.2.1.3 | z1 | k1 | Bölünmeye hazırlanan bir kök ucu hücresinde DNA kendini eşlemiştir. Buna göre eşlenme sonunda hücredeki toplam DNA miktarı nasıl … | ✓İki katına çıkmıştır.
+fen-dn-147 | F.8.2.1.3 | z1 | k1 | Bir öğrenci hücre bölünmesi ile DNA'nın kendini eşlemesi olaylarını sıralamaya çalışmaktadır. Buna göre bu iki olay için aşağıdak… | ✓Önce DNA kendini eşler, sonra hücre ikiye bö…
+fen-dn-148 | F.8.2.1.3 | z1 | k1 | Eşlenen bir DNA'da yeni kurulan zincirin bazları G – A – T biçimindedir. Buna göre bu zincirin kalıbı olan eski zincirin bazları … | ✓C – T – A
+fen-dn-149 | F.8.2.1.3 | z1 | k1 | Bir hücrede DNA kendini eşlemiştir. Buna göre bu olayın sonucunda aşağıdakilerden hangisi gerçekleşmez? | ✓Hücrede yeni bir gen çeşidi ortaya çıkar.
+fen-dn-150 | F.8.2.1.1 | z2 | k1 | Bir domates bitkisinin vücut hücrelerinde 24 kromozom bulunmaktadır. Öğrencilerden biri "Bu hücrelerde toplam 24 gen vardır." dem… | ✓Yanlıştır, çünkü her kromozomda çok sayıda g…
+fen-dn-151 | F.8.2.1.2 | z2 | k1 | Görselde bir DNA modelinin beş basamağı verilmiştir. Karşılıklı bazlar birbirine bağlıdır; X, Y ve Z ile gösterilen bazlar yazılm… | ✓X: G, Y: T, Z: A
+fen-dn-152 | F.8.2.1.3 | z2 | k1 | Bir hücrede DNA kendini eşlemeye başlamış ve DNA'nın K ile L zincirleri birbirinden ayrılmıştır. K zincirinin bazları A – C – C –… | ✓Bazları T – G – G – A olur ve L zinciriyle a…
+fen-dn-153 | F.8.2.1.1 | z2 | k1 | Pınar, nükleotid, gen, DNA ve kromozom kavramlarıyla ilgili şu notları yazmıştır. I. Bir DNA molekülü, çok sayıda kromozomun birl… | ✓Yalnız II
+fen-dn-154 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, kalıtsal yapıların adlarını gizleyip bu yapıları tablodaki gibi K, L ve M harfleriyle göstermiştir. Buna göre K, L v… | ✓K: Kromozom, L: Gen, M: Nükleotid
+fen-dn-155 | F.8.2.1.2 | z2 | k1 | DNA modeli üzerinde çalışan üç öğrenci, DNA'nın yapısı hakkında şu yorumları yapmıştır. I. Merdiven biçimindeki modelde kenarları… | ✓II ve III
+fen-dn-156 | F.8.2.1.3 | z2 | k1 | Bir kavun filizinin uç kısmındaki hücreler art arda bölünerek filizin boyunu uzatmaktadır. Fen öğretmeni, bu hücrelerde gerçekleş… | ✓Yalnız III
+fen-dn-157 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, mikroskopta bölünmeyen bir bitki hücresinin çekirdeğini incelemiş ve çubuk biçimli koyu yapılar görmemiştir. Öğrenci… | ✓Doğrudur, çünkü kromozomlar yalnızca bölünme…
+fen-dn-158 | F.8.2.1.3 | z2 | k1 | Bir hücrede DNA kendini eşlerken kalıp zincirdeki guaninin karşısına, yeni zincirde yanlışlıkla timin yerleşmiştir. Hücre bu hata… | ✓Yeni zincirdeki timin, sitozinle değiştirili…
+fen-dn-159 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, hücrenin kalıtsal yapılarıyla ilgili üç yargı yazmıştır. I. Kromozomlar, DNA'nın proteinlerle birlikte sarılıp paket… | ✓I ve II
+fen-dn-160 | F.8.2.1.3 | z2 | k1 | Bir DNA molekülünün P ve R zincirleri eşlenme sırasında birbirinden ayrılmıştır. P zincirinin karşısında S, R zincirinin karşısın… | ✓P–S ve R–T ikilileri oluşur; iki DNA aynıdır.
+fen-dn-161 | F.8.2.1.2 | z2 | k1 | Tabloda bir DNA bölümünün dört basamağı verilmiştir. Karşılıklı bazlar eşleşmektedir; X ve Y bazları yazılmamıştır. Öğrenciler ta… | ✓I ve III
+fen-dn-162 | F.8.2.1.1 | z2 | k1 | Bir öğrenci, nükleotidlerle ilgili üç not yazmıştır. I. Nükleotidler, taşıdıkları organik bazın çeşidine göre adlandırılır. II. D… | ✓Yalnız I
+fen-dn-163 | F.8.2.1.3 | z2 | k1 | Eşlenme sırasında ayrılan iki eski zincirden biri parçalanmış, öbürü kalıp olarak kullanılmıştır. Buna göre bu durumda oluşan DNA… | ✓Bir eski, bir yeni zincirden oluşan bir DNA …
+fen-dn-164 | F.8.2.1.3 | z2 | k1 | Tabloda, eşlenmekte olan bir DNA'nın kalıp görevi gören eski zinciri ile bu zincirin karşısında kurulan yeni zincirin bazları ver… | ✓Yalnız II
+fen-dn-165 | F.8.2.1.1 | z2 | k1 | Aşağıdaki cümlelerin birinde "gen" sözcüğü yerine "kromozom" sözcüğü yazılırsa cümle doğru olur. Buna göre bu cümle hangisidir? | ✓Gen, DNA'nın proteinlerle paketlenmiş hâlidi…
+fen-dn-166 | F.8.2.1.2 | z2 | k1 | DNA modelini yeni öğrenen üç arkadaş, DNA'nın yapısıyla ilgili şu çıkarımları yapmıştır. I. İki zincirin baz dizilimi birbirinin … | ✓Yalnız III
+fen-dn-167 | F.8.2.1.2 | z2 | k1 | Bir sınıfta şifre oyunu oynanmaktadır. Bir DNA zincirinin bazları T – A – G – C – C – A biçiminde verilmiş ve öğrencilerden karşı… | ✓Timin ve guanin
+fen-dn-168 | F.8.2.1.1 | z2 | k1 | Okul panosunda hücrenin kalıtsal yapılarıyla ilgili şu bilgiler yer almaktadır. I. Bir nükleotid; fosfat, deoksiriboz şekeri ve o… | ✓I, II ve III
+fen-dn-169 | F.8.2.1.3 | z2 | k1 | Tabloda, bölünen bir hücrenin farklı evrelerindeki DNA miktarı verilmiştir. Öğrenciler tabloyu inceleyip şu yorumları yapmıştır. … | ✓Yalnız II
+fen-dn-170 | F.8.2.1.1 | z2 | k1 | X ve Y canlılarının vücut hücrelerinin her birinde 48'er kromozom bulunduğu belirlenmiştir. Buna göre bu iki canlı için aşağıdaki… | ✓İkisinin DNA'sında da aynı dört organik baz …
+fen-dn-171 | F.8.2.1.3 | z2 | k1 | Bir fındık fidanının gövde ucundaki hücreler art arda bölünerek fidanı uzatmaktadır. Fen öğretmeni, bu hücrelerde gerçekleşen DNA… | ✓II ve III
+fen-dn-172 | F.8.2.1.2 | z2 | k1 | Tabloda bir DNA zincirinin bazları verilmiştir. Öğrenciler, bu zincirin karşısında yer alan 2. zincirle ilgili şu yorumları yapmı… | ✓I ve II
+fen-dn-173 | F.8.2.1.1 | z2 | k1 | Bir hücrede K, L ve M yapıları iç içe bulunmaktadır: K yapısı L'nin, L yapısı da M'nin içinde yer almaktadır. K bir nükleotid, M … | ✓Gen
+fen-dn-174 | F.8.2.1.2 | z2 | k1 | Bir bitkinin ve bir kuşun DNA'larının yapısı karşılaştırılmış, öğrenciler de karşılaştırmayla ilgili şu yorumları yapmıştır. I. İ… | ✓II ve III
+fen-dn-175 | F.8.2.1.3 | z2 | k1 | Bir elma ağacının tomurcuğundaki bir hücre bölünerek iki yeni hücre oluşturmuştur. Araştırmacılar, bölünmeden önce hücrede buluna… | ✓Bölünmeden önce DNA'nın eşlenmesi ve kopyala…
+fen-dn-226 | F.8.2.1.1 | z2 | k2 | Bir öğrenci, nükleotid modelini üç renkli kartonla yapmıştır: kırmızı kart fosfat grubunu, mavi kart deoksiriboz şekerini, yeşil … | ✓Deoksiriboz şekerini
+fen-dn-227 | F.8.2.1.2 | z2 | k2 | Bir öğrenci, DNA'nın 1. zincirindeki baz dizilimini görseldeki gibi yazmış, 2. zincirin bazlarını ise henüz yazmamıştır. Buna gör… | ✓C – T – A – G – G – A
+fen-dn-228 | F.8.2.1.3 | z2 | k2 | Nuray, yıldız biçimli bir mum kalıbına eritilmiş mum dökerek yıldız şeklinde mumlar yapıyor. Her mum, içine döküldüğü kalıbın biç… | ✓Birbirinden ayrılmış eski zincirlerin her bi…
+fen-dn-229 | F.8.2.1.1 | z2 | k2 | Aşağıdaki tabloda DNA ile ilgili dört yapı K, L, M ve N harfleriyle gösterilmiş ve her birinin tanımı yazılmıştır. Buna göre bu y… | ✓L – M – N – K
+fen-dn-230 | F.8.2.1.3 | z2 | k2 | Hücre bölünmeden önce eşlenen bir DNA molekülünden iki DNA oluşmuştur. Görselde bu DNA'lardan birinin yeni zincirinin baz dizilim… | ✓A – T – G – G – C
+fen-dn-231 | F.8.2.1.1 | z2 | k2 | Bir öğrenci, DNA'nın yapısında bulunan üç nükleotidin bölümlerini tabloya yazmıştır. I. K, L ve M birbirinden farklı üç nükleotid… | ✓I, II ve III
+fen-dn-232 | F.8.2.1.2 | z2 | k2 | Görselde bir öğrencinin yaptığı DNA modelinin dört basamağı verilmiştir. Öğrenci, basamakların eşleşme kuralına uyup uymadığını k… | ✓1. basamak
+fen-dn-233 | F.8.2.1.3 | z2 | k2 | Bir kuzu, birkaç ay içinde hızla büyümüştür. Veteriner, bu büyümenin vücut hücrelerinin art arda bölünmesiyle gerçekleştiğini söy… | ✓II ve III
+fen-dn-234 | F.8.2.1.1 | z2 | k2 | Bir fen kulübü, doğada gözlemlediği K, L, M ve N canlılarının vücut hücrelerindeki kromozom sayılarını araştırıp tabloya yazmıştı… | ✓K ile N farklı türlerdendir.
+fen-dn-235 | F.8.2.1.2 | z2 | k2 | Görselde eşlenme sırasında alt zincirde bir hata oluşmuş bir DNA bölümü verilmiştir. Üst zincirdeki bazların doğru olduğu bilinme… | ✓T
+fen-dn-236 | F.8.2.1.3 | z2 | k2 | Bir domates bitkisinin yaprak hücresi bölünmeye hazırlanmaktadır. Hücrede, meyve rengini belirleyen bir gen bulunmaktadır. I. DNA… | ✓I ve III
+fen-dn-237 | F.8.2.1.1 | z2 | k2 | Bir öğrenci, gen ve kromozomun özelliklerini karşılaştıran bir tablo hazırlamıştır. Öğretmeni tablodaki satırların yalnızca birin… | ✓2. satır
+fen-dn-238 | F.8.2.1.2 | z2 | k2 | Selin, DNA'daki baz eşleşmesini öğrenmek için dört domino taşı hazırlamış; her taşın iki ucuna birer organik bazın adını yazmıştı… | ✓2 taş
+fen-dn-239 | F.8.2.1.3 | z2 | k2 | Görselde eşlenmeden önceki bir DNA bölümü verilmiştir. Eşlenme sırasında 1. zincir kalıp olarak kullanılmış ve karşısına yeni bir… | ✓2. zincirle aynıdır, 1. zincirden farklıdır.
+fen-dn-240 | F.8.2.1.1 | z2 | k2 | Bir gül çeşidinde taç yaprak rengini belirleyen bir gen bulunmaktadır. Bu gen, gülün DNA'sı üzerinde yer almaktadır. I. Taç yapra… | ✓Yalnız III
+fen-dn-241 | F.8.2.1.3 | z2 | k2 | Bir DNA molekülünün kendini eşlemesi sırasında gerçekleşen üç olay, karışık sırayla kartlara yazılmıştır. K: Açılan eski zincirle… | ✓L – K – M
+fen-dn-242 | F.8.2.1.1 | z2 | k2 | Dört arkadaş, DNA ile ilgili birer yapıyı tanımlayan ipucu vermiştir. Ece: "Hücre bölünürken mikroskopta çubuk biçiminde görünürü… | ✓Kromozom – Nükleotid – Gen – DNA
+fen-dn-243 | F.8.2.1.2 | z2 | k2 | Eda, iki renkli sarmal telle bir DNA modeli yapmıştır. Modelini sınıfta anlatırken aşağıdaki yargıları söylemiştir. I. Zincirleri… | ✓Yalnız II
+fen-dn-244 | F.8.2.1.1 | z2 | k2 | Bezelye bitkisinin vücut hücrelerinde 14 kromozom bulunur. Bir öğrenci bu sayıdan yola çıkarak bezelye hücresindeki genlerle ilgi… | ✓Her kromozomun üzerinde çok sayıda gen bulun…
+fen-dn-245 | F.8.2.1.2 | z2 | k2 | Bir öğrenci, üç DNA bölümünün 1. zincirlerindeki baz dizilimini tabloya yazmıştır; 2. zincirleri henüz yazmamıştır. Buna göre öğr… | ✓K ile M'nin 1. zincirleri aynı dizilişte old…
+fen-dn-246 | F.8.2.1.1 | z2 | k2 | Bir ormanda yaşayan tek bir sincaptan üç farklı hücre alınarak incelenmiştir. Hücrelerin görevleri ve şekilleri tabloda verilmişt… | ✓Hücrelerin taşıdığı genler
+fen-dn-247 | F.8.2.1.2 | z2 | k2 | Bir öğrenci, DNA modelinin dört basamaklı bir bölümünü çizmiş, ancak üç bazı X, Y ve Z harfleriyle göstermiştir. Diğer bazlar eşl… | ✓A – T – C
+fen-dn-248 | F.8.2.1.3 | z2 | k2 | Fen kulübü üyeleri, DNA'nın kendini eşlemesiyle ilgili bir sunum hazırlamış ve slayta dört cümle yazmıştır. Sunumu inceleyen öğre… | ✓Açılan eski zincirler parçalanarak yeni nükl…
+fen-dn-249 | F.8.2.1.1 | z2 | k2 | Bir fidanlıkta etiketleri silinen üç elma fidanından (K, L, M) yaprak örnekleri alınmıştır. Örneklerden elde edilen DNA'nın aynı … | ✓K ile M'nin DNA'ları birbirinden farklıdır.
+fen-dn-250 | F.8.2.1.2 | z2 | k2 | Bir öğrenci, DNA'nın bir bölümünün iki zincirini görseldeki gibi yazmıştır. I. İki zincirin baz dizilimleri birbirinin aynısıdır.… | ✓II ve III
+fen-dn-251 | F.8.2.1.3 | z2 | k2 | Burak, bilim kulübü sunumunda DNA'nın kendini eşlemesiyle ilgili aşağıdaki cümleleri slayta yazmıştır. I. Eşlenme sırasında kalıp… | ✓Yalnız II
+fen-dn-252 | F.8.2.1.1 | z3 | k2 | Bir doğa kulübü, kutup tilkisinin bir kromozomunu ve bu kromozomdaki DNA üzerinde işaretlenmiş K, L ve M bölümlerini görseldeki g… | ✓Yalnız II
+fen-dn-253 | F.8.2.1.1 | z3 | k2 | Bir öğrenci, kromozom, DNA, gen ve nükleotid yapılarının özelliklerini tabloda "Evet" ya da "Hayır" olarak işaretlemiş, yapıların… | ✓Gen – Kromozom – DNA – Nükleotid
+fen-dn-254 | F.8.2.1.2 | z3 | k2 | Bir bilim merkezindeki DNA maketinin dört basamaklı bölümü görselde verilmiştir. Maketi inceleyen öğrenciler şu yorumları yapmışt… | ✓Yalnız III
+fen-dn-255 | F.8.2.1.3 | z3 | k2 | Bir araştırmacı, akvaryumda yetiştirdiği bir balığın hücresinde DNA'nın eşlenmesini incelemiştir. Eşlenmeden önceki DNA'nın zinci… | ✓X: T – C – G – A – A; Y: A – G – C – T – T
+fen-dn-256 | F.8.2.1.1 | z3 | k2 | Bir doğa belgeselinde tanıtılan K, L ve M canlılarının vücut hücrelerindeki kromozom sayıları tabloda verilmiştir. Belgeseli izle… | ✓I, II ve III
+fen-dn-257 | F.8.2.1.2 | z3 | k2 | Eşlenme sırasında bir DNA bölümünün alt zincirinde iki kural dışı eşleşme oluşmuştur. Üst zincirdeki bazların doğru olduğu bilinm… | ✓C – A – T – G – C – T
+fen-dn-258 | F.8.2.1.3 | z3 | k2 | Bir tırtıl, birkaç hafta içinde vücut hücrelerinin art arda bölünmesiyle büyümüştür. Bir biyolog, bu büyüme sırasında gerçekleşen… | ✓I ve II
+fen-dn-259 | F.8.2.1.1 | z3 | k2 | Bir DNA molekülünün bir bölümünde 1. zincirdeki organik bazlar soldan sağa A – T – T – G – A – C – A – G sırasıyla dizilmiştir. K… | ✓Bölümde 16 nükleotid vardır ve bunlar 4 fark…
+fen-dn-260 | F.8.2.1.2 | z3 | k2 | Bir bilim şenliğinde, her bazın harfle yazıldığı ışıklı bir DNA panosu sergilenmiştir. Panonun dört basamaklı bölümü görselde ver… | ✓I ve III
+fen-dn-261 | F.8.2.1.3 | z3 | k2 | Bir hücrede DNA'nın eşlenmesi incelenirken, eşlenmeden önceki DNA'nın zincirlerinden birinin baz dizilimi T – T – A – G – C olara… | ✓Biri A – A – T – C – G, diğeri T – T – A – G…
+fen-dn-262 | F.8.2.1.1 | z3 | k2 | Bir öğrenci, DNA'nın yapısındaki üç farklı nükleotidi görseldeki gibi çizmiştir. Çizimi inceleyen arkadaşları şu yargıları ileri … | ✓II ve III
+fen-dn-263 | F.8.2.1.2 | z3 | k2 | Bir öğrenci, dört DNA bölümünün zincirlerini tabloya yazmıştır. Bu bölümlerden yalnızca birinde zincirler birbirini eşleşme kural… | ✓K bölümü
+fen-dn-264 | F.8.2.1.1 | z3 | k2 | Bir bilim dergisindeki infografikte, DNA ile ilgili yapıların büyüklükleri karşılaştırılmıştır. Dergiyi okuyan bir öğrenci aşağıd… | ✓Yalnız I
+fen-dn-265 | F.8.2.1.2 | z3 | k2 | Bir öğrenci, DNA modelinin beş basamaklı bir bölümünü görseldeki gibi çizmiş ve modelin eşleşme kuralına uygun olup olmadığını ar… | ✓Karşılıklı bütün bazlar A – T ve G – C çifti…
+fen-dn-266 | F.8.2.1.2 | z3 | k2 | Bir hücrede DNA eşlenirken bir basamakta kural dışı bir eşleşme oluşmuştur. Hücrenin bu hatayı onarmaya çalıştığı, ancak hatalı b… | ✓II ve III
+fen-dn-267 | F.8.2.1.1 | z3 | k2 | Bir öğrenci, bir kediden ve bir elma ağacından alınan DNA örneklerinin aynı uzunluktaki birer bölümünü inceleyerek bazların dizil… | ✓İki DNA'da da aynı dört organik baz bulunur,…
+fen-dn-268 | F.8.2.1.3 | z3 | k2 | Bir araştırmacı, besiyerinde üretilen deri hücrelerine hücre bölünmesini engelleyen bir ilaç vermiştir. İlacın DNA'nın eşlenmesin… | ✓I ve II
+fen-dn-269 | F.8.2.1.3 | z3 | k2 | Bir hücre bölünmesi incelenirken üç hücre örneklenmiştir. Örneklerin durumu tabloda verilmiştir. Buna göre hangi hücrelerde her g… | ✓K ve M
+fen-dn-270 | F.8.2.1.1 | z3 | k2 | Ayşe, fen projesinde bir salatalık hücresinin çekirdeğinin mikroskop görüntüsünü incelemiştir. Hücre çekirdeği çok küçüktür; anca… | ✓I ve III
+fen-dn-271 | F.8.2.1.3 | z3 | k2 | Görselde bir DNA molekülünün kendini eşlemesi sırasındaki bir an gösterilmiştir. Düz çizgiler eski zincirleri, kesikli çizgiler y… | ✓K ile N'nin baz dizilimleri aynıdır.
+fen-dn-272 | F.8.2.1.1 | z3 | k2 | Bir tarım fuarında ayçiçeğinin kalıtsal özelliklerini belirleyen üç gen (K, L ve M), bulundukları kromozomlarla birlikte tabloda … | ✓Yalnız III
+fen-dn-273 | F.8.2.1.2 | z3 | k2 | Bir bulmaca kitabında DNA'nın iki zincirli bir bölümü semboller kullanılarak verilmiştir. Semboller organik bazları temsil etmekt… | ✓▲ ★ ● ◆
+fen-dn-274 | F.8.2.1.3 | z3 | k2 | Bir bilim dergisi, hücre bölünmesiyle gerçekleşen üç olayı tabloda listelemiştir. Okurlar bu olaylarla DNA'nın kendini eşlemesi a… | ✓I, II ve III
+fen-dn-275 | F.8.2.1.1 | z3 | k2 | Bir öğrenci, evcil hayvanlarından aldığı dört hücreyi inceleyip tabloya yazmıştır. Pamuk ve Boncuk iki ayrı tavşan, Çil ise bir m… | ✓K, L ve M
+fen-dn-326 | F.8.2.1.1 | z3 | k3 | Bölünmeye hazırlanmayan, yani DNA'sı eşlenmemiş bir insan vücut hücresinin çekirdeğinde K: nükleotidler, L: genler, M: DNA molekü… | ✓K > L > M = N
+fen-dn-327 | F.8.2.1.2 | z3 | k3 | Bir öğrenci, DNA modelinin dört basamaklı bir bölümünü görseldeki gibi çizmiştir. Basamaklar yukarıdan aşağıya doğru numaralanmış… | ✓I ve II
+fen-dn-328 | F.8.2.1.3 | z3 | k3 | Bir araştırmacı, hücrede hazır bulunan nükleotidler arasında sitozin nükleotidi bulunmayan varsayımsal bir hücre tasarlamıştır. B… | ✓G bazlarının karşısı boş kalır, diğer basama…
+fen-dn-329 | F.8.2.1.1 | z3 | k3 | Bir öğrenci, hücrede bulunan dört yapıyı K, L, M ve N olarak adlandırıp neyden oluştuklarını tabloya yazmıştır. Buna göre K, L, M… | ✓Nükleotid – DNA – Kromozom – Gen
+fen-dn-330 | F.8.2.1.1 | z3 | k3 | Bir ansiklopedide dört canlı türünün vücut hücrelerindeki kromozom sayıları tablodaki gibi verilmiştir. Bir öğrenci tabloya bakar… | ✓II ve III
+fen-dn-331 | F.8.2.1.2 | z3 | k3 | Bir araştırmacı, bir DNA bölümünün dört basamağını incelemiştir. Her basamakta bir baz 1. zincirde, bir baz 2. zincirde bulunmakt… | ✓G – T – C – G
+fen-dn-332 | F.8.2.1.1 | z3 | k3 | Görselde, bir DNA zincirinin üç nükleotidi gösterilmiştir. Fosfat daire, şeker beşgen, organik baz ise dikdörtgenle çizilmiştir. … | ✓Yalnız I
+fen-dn-333 | F.8.2.1.2 | z3 | k3 | Bir bilim fuarında dört öğrenci, DNA'nın yapısını gösteren birer model hazırlamıştır. Modeller görselde K, L, M ve N ile gösteril… | ✓Yalnızca M
+fen-dn-334 | F.8.2.1.3 | z3 | k3 | Görselde, kendini eşlemeye başlamadan önceki bir DNA bölümü verilmiştir. Eşlenme tamamlanınca iki DNA oluşmuş; bunlardan biri 1. … | ✓I ve III
+fen-dn-335 | F.8.2.1.1 | z3 | k3 | Bir bilim haberinde şu bilgiler yer almıştır: "Araştırmacılar, nadir bir kelebek türünün vücut hücrelerinde 30 kromozom saydı. Ay… | ✓I ve III
+fen-dn-336 | F.8.2.1.2 | z3 | k3 | Bir kuş gözlemcisi, üç ayrı tüy örneğinden (K, L ve M) DNA elde etmiş ve DNA'nın aynı bölgesindeki altı basamaklı bir kesitin bir… | ✓Yalnız II
+fen-dn-337 | F.8.2.1.3 | z3 | k3 | Görselde, kendini eşlemekte olan bir DNA'nın açılmış bölümü verilmiştir. Üstteki eski zincir kalıp olarak kullanılmaktadır. Altta… | ✓C – C – T
+fen-dn-338 | F.8.2.1.1 | z3 | k3 | Bir öğrenci, bir kurbağanın bacak kası, göz ve karaciğer hücrelerinden aldığı örnekleri mikroskopta incelemiş ve sonuçları tabloy… | ✓II ve III
+fen-dn-339 | F.8.2.1.2 | z3 | k3 | Bir öğrenci kâğıttan bir DNA modeli hazırlamış, ancak bazı basamaklarını eşleşme kuralına uygun yapmamıştır. Modelin altı basamağ… | ✓3 baz
+fen-dn-340 | F.8.2.1.3 | z3 | k3 | Görselde, bir hücrenin yaşamında gerçekleşen üç aşama karışık sırayla (K, L, M) gösterilmiştir. Hücrelerin içindeki renkli çubukl… | ✓II ve III
+fen-dn-341 | F.8.2.1.1 | z3 | k3 | Bir sınıf panosunda, meyve sineği ile arpa bitkisinin vücut hücrelerindeki kromozom sayıları gösterilmiştir. Fen öğretmeni, "Bir … | ✓Meyve sineği hücresindeki gen sayısı 8'den f…
+fen-dn-342 | F.8.2.1.2 | z3 | k3 | Bir öğrenci, altı basamaklı bir DNA modelinde bazı bazların yerini boş bırakmış ve bunları soru işaretiyle (?) göstermiştir. Boşl… | ✓Yalnız III
+fen-dn-343 | F.8.2.1.3 | z3 | k3 | Bir öğrenci, DNA'nın kendini eşlemesi sonunda oluşan iki DNA molekülünün baz dizilimlerinin, birbirinin ve ilk DNA'nın aynısı old… | ✓Her yeni zincirin baz dizilimi, kalıp olmaya…
+fen-dn-344 | F.8.2.1.2 | z3 | k3 | Bir bilim merkezindeki DNA maketinde organik bazlar renkli toplarla, fosfat ve şeker zincirleri iki uzun şeritle, bazlar arasında… | ✓Yalnız I
+fen-dn-345 | F.8.2.1.3 | z3 | k3 | Dört öğrenci, bir DNA molekülünün kendini eşlemesi sonunda oluşan iki DNA'yı K, L, M ve N şemalarıyla göstermiştir. Şemalarda koy… | ✓M şeması
+fen-dn-346 | F.8.2.1.2 | z3 | k3 | Bir hücrede DNA'nın kendini eşlemesi tamamlanmıştır. Görselde, oluşan DNA'lardan birinin altı basamaklı bir bölümü verilmiştir. Ü… | ✓Üst: C — Alt: G
+fen-dn-347 | F.8.2.1.3 | z3 | k3 | Dört öğrenci, DNA'nın kendini eşlemesiyle ilgili birer yargı ileri sürmüştür: Aslı: "Eşlenme bitince eski zincirler yıkılır ve ik… | ✓Doruk
+fen-dn-348 | F.8.2.1.1 | z3 | k3 | Bir bitki bilimci, domates hücrelerinin DNA'sını incelerken genler hakkında üç çıkarım yapmıştır. Buna göre; I. Bir gen, birden ç… | ✓Yalnız II
+fen-dn-349 | F.8.2.1.1 | z3 | k3 | Bir öğrenci, hücredeki yapılar arasındaki ilişkiyi kavram haritasında oklarla göstermiştir. Okların yönü, okun çıktığı yapının ok… | ✓L ile gösterilen ilişki
+fen-dn-350 | F.8.2.1.3 | z3 | k3 | Bir fen öğretmeni, DNA'nın kendini eşlemesiyle ilgili tahtaya üç yargı yazmış ve öğrencilerden bunların doğruluğunu değerlendirme… | ✓Yalnız III
+fen-dn-351 | F.8.2.1.1 | z3 | k3 | Bir öğrenci, DNA'daki nükleotidleri tanıtmak için dört kart hazırlamıştır. Kartlarda fosfat daire, şeker beşgen, organik baz ise … | ✓N kartı
+fen-dn-352 | F.8.2.1.2 | z3 | k3 | Bir kodlama oyununda DNA'nın organik bazları renklerle temsil edilmektedir. Bir öğrenci, DNA'nın bir zincirinin baz sırasını renk… | ✓mavi – sarı – yeşil – kırmızı – kırmızı
+fen-dn-353 | F.8.2.1.3 | z3 | k3 | Dizini sıyıran bir çocuğun yara bölgesinde birkaç gün içinde yeni deri hücreleri oluşmuş ve yara kapanmıştır. Yeni hücrelerin her… | ✓I ve II
+fen-dn-354 | F.8.2.1.2 | z3 | k3 | Görselde, eşlenmesi yeni tamamlanmış bir DNA'nın beş basamaklı bir bölümü verilmiştir. Üst zincir kalıp olarak kullanılan eski zi… | ✓Yalnız I
+fen-dn-355 | F.8.2.1.1 | z3 | k3 | Bir öğrenci, hücre bölünmesi sırasında kromozom oluşumunu araştırırken DNA ile ilgili yapıları defterine alt alta yazmıştır. Hücr… | ✓Kromozomda DNA'yı saran proteinler
+fen-dn-356 | F.8.2.1.3 | z4 | k3 | Bir hücrede DNA'nın kendini eşlemesi yeni tamamlanmıştır. Görselde, oluşan iki DNA'nın (K ve L) üç basamaklı birer bölümü verilmi… | ✓Kural dışı baz çifti yalnızca ikinci yavru h…
+fen-dn-357 | F.8.2.1.1 | z4 | k3 | Bir öğrenci, DNA ile ilgili ödevi için bir model hazırlamıştır. Modelde, dört farklı renkte boncuğun tek bir ipe dizilmesiyle yap… | ✓I ve II
+fen-dn-358 | F.8.2.1.2 | z4 | k3 | Bir hücrede DNA'nın beş basamaklı dört ayrı bölümü (K, L, M ve N) eşlenmiş; her bölümde bir basamakta kural dışı bir baz çifti ol… | ✓K bölümü
+fen-dn-359 | F.8.2.1.3 | z4 | k3 | Bir hücrenin DNA'sının iki zinciri K ve L'dir. DNA kendini eşlediğinde K ve L ayrılmış, ikisi de kalıp olarak kullanılmış ve iki … | ✓Yalnız III
+fen-dn-360 | F.8.2.1.1 | z4 | k3 | Bir öğrenci, nükleotid, gen, DNA ve kromozom kavramlarından üçünü K, L ve M harfleriyle kodlamıştır. Kodlarla ilgili defterine şu… | ✓K: DNA, L: Gen, M: Nükleotid
+fen-dn-361 | F.8.2.1.2 | z4 | k3 | Bir öğrenci, DNA'nın yapısını göstermek için iki model (X ve Y) hazırlamıştır. Modellerin beş basamaklı bölümleri görselde verilm… | ✓Yalnız II
+fen-dn-362 | F.8.2.1.3 | z4 | k3 | Görselde, bir DNA'nın kendini eşlemeden önceki hâli ile eşlenme sonunda oluşan DNA 1 ve DNA 2 verilmiştir. Eşlenmeden önceki DNA'… | ✓I ve II
+fen-dn-363 | F.8.2.1.1 | z4 | k3 | Bir öğrenci, nükleotid, gen, DNA ve kromozom yapılarında hangi bileşenlerin bulunduğunu araştırmış ve sonuçları tabloya işlemişti… | ✓I, II ve III
+fen-dn-364 | F.8.2.1.2 | z4 | k3 | Bir araştırmacı, iki farklı örnekten (K ve L) elde ettiği DNA'nın aynı bölgesindeki altı basamağı incelemiştir. Üst zincirlerin b… | ✓Alt zincirlerin yalnızca 5. basamağı farklıd…
+fen-dn-365 | F.8.2.1.3 | z4 | k3 | Bir DNA molekülünün 1. zincirinde adenin, guanin ve sitozin bazları bulunmakta; timin bazı bulunmamaktadır. Bu DNA kendini eşlemi… | ✓I ve III
+fen-dn-366 | F.8.2.1.1 | z4 | k3 | Bir araştırmacı, bir sahilden topladığı yedi deri örneğinin en az kaç farklı canlıdan alınmış olabileceğini belirlemek istemekted… | ✓4
+fen-dn-367 | F.8.2.1.3 | z4 | k3 | Bir araştırmacı, bir doku kültüründeki hücrelerin yaşamları boyunca DNA miktarını izlemektedir. Dinlenme hâlindeki bir hücrenin D… | ✓Bölünmeye başlamamış bazı hücrelerde DNA mik…
+fen-dn-368 | F.8.2.1.1 | z4 | k3 | Bir bitki bilimci, üzerinde çalıştığı bir bitkinin hücresindeki kromozomları incelemiş ve ilgilendiği dört geni tablo hâlinde düz… | ✓G1 ile G2'nin nükleotid dizilimleri birbirin…
+fen-dn-369 | F.8.2.1.1 | z4 | k3 | Bir fen kulübü üyesi, hücredeki yapıların boyut ilişkisini bir posterde göstermek istemektedir. Posterde yapılar iç içe geçen çer… | ✓K – L – M – N – P
+fen-dn-370 | F.8.2.1.2 | z4 | k3 | Bir bilim kulübünde "gizli yazı" oyunu oynanmaktadır. Oyunun kuralına göre bir mesajın her harfi DNA'daki eşiyle değiştirilerek ş… | ✓G – A – T – C – C – A
+fen-dn-371 | F.8.2.1.1 | z4 | k3 | Bir araştırmacı, birden fazla bitkiden aldığı beş vücut hücresinin (K, L, M, N ve P) kromozom sayılarını sayarak tabloya yazmıştı… | ✓Yalnız II
+fen-dn-372 | F.8.2.1.1 | z4 | k3 | Bir araştırmacı, bir DNA zincirinden aldığı altı yapıyı (1–6) incelemiş ve her yapıda fosfat, şeker ve organik bazın bulunup bulu… | ✓2 ve 6 numaralı yapılar eksiksiz nükleotiddi…
+fen-dn-373 | F.8.2.1.1 | z4 | k3 | Bir araştırmacı, bir bitki hücresindeki tek bir DNA molekülünü incelemiş ve bu molekül üzerinde G1, G2 ve G3 adlı üç gen belirlem… | ✓I ve III
+fen-dn-374 | F.8.2.1.3 | z4 | k3 | Bir öğrenci, soya fidesinin kökünde uç kısımdan yukarıya doğru üç bölgeden hücre örnekleri almıştır. Her bölgede DNA'sını eşlemiş… | ✓Eşlenme bölünmeden önce gerçekleştiği için, …
+fen-dn-375 | F.8.2.1.2 | z4 | k3 | Bir öğrenci, DNA modeli üzerinde çalışırken bir DNA bölümünün üst zincirinin bazlarını yukarıdan aşağıya doğru T – A – C – C – G … | ✓C – G – G – T – A
+fen-dn-016 | F.8.2.1.1 | z1 | k0 | Öğretmen, DNA'daki dört organik bazı simgeleyen harfleri tahtaya yazmış ve öğrencilerden bazların adlarını harfleriyle eşleştirme… | ✓Timin – T
+fen-dn-017 | F.8.2.1.2 | z1 | k0 | Bir öğrenci, DNA modelinde karşılıklı gelebilecek dört baz çiftini ayrı kartlara yazmıştır. Buna göre bu kartlardan hangisindeki … | ✓Guanin – Sitozin
+fen-dn-018 | F.8.2.1.3 | z1 | k0 | Tek bir DNA molekülü kendini bir kez eşlemiştir. Buna göre eşlenme sonunda aşağıdakilerden hangisi gerçekleşir? | ✓Birbirinin aynısı iki DNA molekülü oluşur.
+fen-dn-019 | F.8.2.1.1 | z1 | k0 | Bir gül bahçesinde çalışan Reyhan Hanım, gülün kırmızı renkli olmasını sağlayan DNA bölümünü araştırmıştır. Buna göre Reyhan Hanı… | ✓Art arda dizilmiş nükleotidlerden oluşur.
+fen-dn-020 | F.8.2.1.2 | z1 | k0 | Bir DNA bölümünün 1. zincirinde bazlar yukarıdan aşağıya doğru A, C ve T sırasıyla dizilmiştir. Şekilde 2. zincirdeki bazlar henü… | ✓T, G, A
+fen-dn-021 | F.8.2.1.1 | z1 | k0 | Bir hediyelik eşya dükkânında satılan matruşka bebeklerde en büyük bebek, içindeki diğer bebekleri barındırır. Bir öğrenci, DNA i… | ✓Kromozom
+fen-dn-022 | F.8.2.1.2 | z1 | k0 | Bir hücredeki DNA'da, eşleşme kuralına uymayan bir baz çifti oluşmuştur. Buna göre hücrenin bu hataya tepkisi için aşağıdakilerde… | ✓Hatalı bölgelerin çoğu hücre tarafından onar…
+fen-dn-023 | F.8.2.1.3 | z1 | k0 | Bir DNA molekülü kendini eşlemiş ve iki DNA molekülü oluşmuştur. Buna göre oluşan DNA moleküllerinin her biri için aşağıdakilerde… | ✓Bir zinciri eski, bir zinciri yenidir.
+fen-dn-024 | F.8.2.1.1 | z1 | k0 | Bir kelebek türünün vücut hücrelerinin çekirdeğinde 62 kromozom bulunmaktadır. Bir öğrenci bu kelebeğin kanat ve bacak hücrelerin… | ✓İkisi de 62 kromozom taşır.
+fen-dn-025 | F.8.2.1.2 | z1 | k0 | Bilim insanları DNA'nın yapısını doğrudan gözlemek yerine bir model üzerinden açıklamıştır. Buna göre modelin kullanılmasının ası… | ✓DNA çok küçük olduğu için yapısı doğrudan gö…
+fen-dn-026 | F.8.2.1.3 | z1 | k0 | DNA kendini eşlerken ayrılan her eski zincir, yeni zincirin kurulmasında bir görev üstlenir. Buna göre eski zincirin bu olaydaki … | ✓Yeni zincirin baz dizilimi için kalıp olmak
+fen-dn-027 | F.8.2.1.1 | z1 | k0 | Bir hücre bölünürken çekirdeğinde çubuk biçimli kromozomlar görülmektedir. Bir öğrenci kromozomun yalnızca DNA'dan oluştuğunu düş… | ✓Kromozom, DNA'nın proteinlerle paketlenmiş h…
+fen-dn-028 | F.8.2.1.1 | z2 | k0 | Okulun bilim şenliğinde bir öğrenci, DNA ile ilgili kavramları anlatan bir pano hazırlamıştır. Panoda şu ifadeler yer almıştır. I… | ✓Yalnız II
+fen-dn-029 | F.8.2.1.2 | z2 | k0 | Bir öğrenci, DNA'nın beş basamaklı bir bölümünü modellemiş ve basamakları yukarıdan aşağıya doğru 1'den 5'e kadar numaralandırmış… | ✓3 ve 5
+fen-dn-030 | F.8.2.1.3 | z2 | k0 | Bir çikolata atölyesinde usta, eritilmiş çikolatayı bir kalıba dökmektedir. Çikolata soğuyunca kalıptaki çukurların tam tersi bir… | ✓Kalıp: Eski zincir – Çikolata: Yeni zincir
+fen-dn-031 | F.8.2.1.1 | z2 | k0 | Bir DNA molekülü, binlerce nükleotidin art arda dizilmesiyle oluşmuştur. Bir öğrenci bu nükleotidlerin çeşitleri ve birbirinden n… | ✓Dört çeşittir; taşıdıkları organik baza göre…
+fen-dn-032 | F.8.2.1.2 | z2 | k0 | Bir öğrenci, DNA'nın üç basamaklı bir bölümünü görseldeki gibi modellemiş ve modeli inceleyerek şu yargıları yazmıştır. I. Her ba… | ✓I ve III
+fen-dn-033 | F.8.2.1.3 | z2 | k0 | Fen dersinde öğretmen, DNA'nın kendini eşlemesinin hücre bölünmesinden önce gerçekleştiğini anlatmıştır. Daha sonra öğrencilerden… | ✓II ve III
+fen-dn-034 | F.8.2.1.1 | z2 | k0 | Bir zürafanın boynundaki kas hücresi ile bacağındaki deri hücresi, görevleri farklı olsa da tek bir hücrenin art arda bölünmesiyl… | ✓İkisi de aynı genleri taşır.
+fen-dn-035 | F.8.2.1.2 | z2 | k0 | Bir öğrenci, DNA'nın dört basamaklı bir bölümünü modellerken bazı bazları K, L ve M harfleriyle göstermiştir ve aşağıdaki yargıla… | ✓II ve III
+fen-dn-036 | F.8.2.1.3 | z2 | k0 | Bir kunduzun vücut hücrelerinden birinde, belirli bir özelliği belirleyen gen bölünmeden önce DNA ile birlikte eşlenmiştir. Eşlen… | ✓Genin birbirinin aynısı iki kopyası bulunmak…
+fen-dn-037 | F.8.2.1.1 | z2 | k0 | Bir öğrenci, kromozom, DNA, gen ve nükleotid arasındaki ilişkiyi defterine yazarken aşağıdaki yargıları kullanmıştır. I. Kromozom… | ✓I ve II
+fen-dn-038 | F.8.2.1.2 | z2 | k0 | Bir müzedeki sergide yosun, sinek ve insan DNA'larının modelleri yan yana durmaktadır. Bir ziyaretçi, bu modellerin yapısında tem… | ✓Her birinde aynı dört organik baz bulunur.
+fen-dn-039 | F.8.2.1.3 | z2 | k0 | Bir kiraz fidanının boyu bir yıl içinde uzamıştır. Boy uzamasında fidanın gövdesindeki hücrelerin sayısı artmıştır. Buna göre bu … | ✓DNA'nın kendini eşlemesi – Hücrenin ikiye bö…
+fen-dn-040 | F.8.2.1.1 | z2 | k0 | Bir öğrenci, üç canlıdan (K, L ve M) alınan vücut hücrelerinin çekirdeğindeki kromozom sayılarını tabloya yazmış ve tabloya bakar… | ✓Yalnız III
+fen-dn-041 | F.8.2.1.2 | z2 | k0 | Bir öğrenci, DNA modelinde karşılıklı gelen bazları dört kart üzerinde göstermiştir. Kartlarda 1. zincirdeki baz solda, 2. zincir… | ✓K ve L
+fen-dn-042 | F.8.2.1.3 | z2 | k0 | Bir öğrenci, DNA'nın kendini eşlemesini şöyle özetlemiştir: "DNA'nın iki zinciri ayrılır. Eski zincirlerden biri hücrede yok olur… | ✓İki eski zincir de korunur ve her biri yeni …
+fen-dn-043 | F.8.2.1.1 | z2 | k0 | Bir hücrenin çekirdeğinde 16 kromozom bulunmaktadır. Bir fen kulübü, bu hücredeki toplam gen sayısı ile kromozom sayısını karşıla… | ✓Gen sayısı kromozom sayısından çoktur.
+fen-dn-044 | F.8.2.1.2 | z2 | k0 | Eşlenmekte olan bir DNA'nın modelinde 1. zincir eski, 2. zincir yeni kurulan zincirdir. Modelin 3. basamağında eşleşme kuralına u… | ✓G
+fen-dn-045 | F.8.2.1.3 | z2 | k0 | Bir öğrenci, DNA'nın kendini eşlemesini üç aşamada çizmiş ve çizimleri karışık sırada K, L ve M harfleriyle göstermiştir. Çizimle… | ✓M – L – K
+fen-dn-046 | F.8.2.1.1 | z2 | k0 | Bir öğrenci, DNA ile ilgili dört kavramı tabloya yazmıştır. Tablodaki satırlardan birinde yanlış bilgi vardır. Buna göre tablodak… | ✓1. satır
+fen-dn-047 | F.8.2.1.2 | z2 | k0 | Bir öğrenci, DNA'nın dört basamaklı bir bölümündeki bazları tabloya yazmış ve tabloya bakarak aşağıdaki yargıları söylemiştir. I.… | ✓II ve III
+fen-dn-048 | F.8.2.1.1 | z3 | k0 | Bir araştırmacı, bir ormanda bulduğu üç ayrı tüy örneğinden (K, L ve M) DNA elde etmiş ve her örnekte DNA'nın aynı bölgesindeki b… | ✓L'nin DNA'sı M'ninkinden farklıdır.
+fen-dn-049 | F.8.2.1.2 | z3 | k0 | Bir öğrenci, DNA'nın dört basamaklı bir modelini yapmıştır. Modelin 1. zincirinde ilk iki basamakta art arda adenin bazı yer alma… | ✓Yalnızca 2. basamak hatalıdır; çünkü karşılı…
+fen-dn-050 | F.8.2.1.3 | z3 | k0 | Bir kaplumbağa embriyosunda bir hücre bölünmeden önce DNA'sını eşlemiştir. Eşlenme sırasında yeni zincirlerden birine, kalıbıyla … | ✓II ve III
+fen-dn-051 | F.8.2.1.1 | z3 | k0 | Bir öğrenci, nükleotid modelini üç renkli parçayla yapmıştır. Mavi parça, kırmızı ve sarı parçaların her birine bağlanmıştır; kır… | ✓Deoksiriboz şekeri – Fosfat – Organik baz
+fen-dn-052 | F.8.2.1.1 | z3 | k0 | Bir müzik öğretmeni, yalnızca dört notanın (do, re, mi, fa) bulunduğu bir parçada notaların sırasını değiştirerek iki farklı melo… | ✓Nükleotidlerin dizilim sırasının farklı olma…
+fen-dn-053 | F.8.2.1.1 | z3 | k0 | Bir öğrenci, kromozom, gen ve nükleotid yapılarını oluşturan maddeleri karşılaştırmak için aşağıdaki yargıları yazmıştır. I. Krom… | ✓I ve III
+fen-dn-054 | F.8.2.1.2 | z3 | k0 | Bir hücrede DNA'nın her iki zincirinde de birer baz zarar görerek okunamaz hâle gelmiştir. X, 1. zincirin 2. basamağındaki; Y ise… | ✓X: Sitozin – Y: Guanin
+fen-dn-055 | F.8.2.1.3 | z3 | k0 | Bir öğrenci, DNA'nın kendini eşleme adımlarını ayrı kartlara yazmış ve kartları karıştırmıştır. K: Kalıba bakılarak yeni nükleoti… | ✓K
+fen-dn-056 | F.8.2.1.1 | z3 | k0 | Bir öğrenci, bir kiraz ağacının filiz ucundan hazırladığı preparatı mikroskopta incelemiştir. Bazı hücrelerin çekirdeğinde çubuk … | ✓Çubuk biçimli yapılar bölünen hücrelerdedir;…
+fen-dn-057 | F.8.2.1.2 | z3 | k0 | Bir öğrenci, DNA'nın beş basamaklı bir bölümünü tabloya yazmış ve bazı bazların yerine K, L ve M harflerini koymuştur. Tabloda ka… | ✓K: T, L: A, M: G
+fen-dn-058 | F.8.2.1.3 | z3 | k0 | Bir deniz yıldızının kopan kolu zamanla yeniden gelişmektedir. Bu gelişme sırasında hücreler bölünerek çoğalmaktadır. Bir öğrenci… | ✓I ve II
+fen-dn-059 | F.8.2.1.1 | z3 | k0 | Bir fen kulübü, DNA ile ilgili bir afiş hazırlamıştır. Afişteki dört ifadeden biri yanlıştır. Buna göre aşağıdakilerden hangisi a… | ✓Bir kromozom, yalnızca tek bir genden oluşur.
+fen-dn-060 | F.8.2.1.2 | z3 | k0 | Bir mimar, DNA'dan esinlenerek iki kolu birbirine sarılan bir kule tasarlamıştır. Kulenin kolları ve bu kolları birbirine bağlaya… | ✓Kollar: Fosfat ve şeker – Basamaklar: A–T ve…
+fen-dn-061 | F.8.2.1.3 | z3 | k0 | Aşağıdaki görselde bir DNA molekülünün kendini eşlemesi sonunda oluşan iki DNA gösterilmiştir. Eşlenmeden önceki DNA'nın iki zinc… | ✓K ile N; L ile M
+fen-dn-062 | F.8.2.1.2 | z3 | k0 | Bir öğrenci, DNA'nın üç basamaklı bir bölümü için dört farklı model hazırlamıştır. Her modelde 1. zincirin baz dizilimi aynıdır, … | ✓1. zincir: A – G – T, 2. zincir: T – C – A
+fen-dn-063 | F.8.2.1.3 | z3 | k0 | Bir öğrenci, DNA'nın kendini eşlemesini şöyle anlatmıştır: "Eşlenmede yeni zincir, kalıp zincirin aynı baz dizilimiyle kurulur. Ö… | ✓Yeni zincirde sırayla T – C – G bulunur; çün…
+fen-dn-064 | F.8.2.1.2 | z4 | k0 | Bir öğrenci, DNA'nın beş basamaklı bir bölümünde bazı bazların yerine K, L, M ve N harflerini koymuştur. Bu harfler dışındaki baz… | ✓Yalnız I
+fen-dn-065 | F.8.2.1.3 | z4 | k0 | Bir hücrede DNA kendini eşlerken oluşan bir modelde 1. zincir eski (kalıp), 2. zincir yeni kurulan zincirdir. Model, eşleşme kura… | ✓I ve III
+fen-dn-066 | F.8.2.1.1 | z4 | k0 | Bir biyoloji kulübü, bir DNA bölümünün baz dizilimini inceleyerek bölüm için bir kimlik kartı hazırlamaktadır. Kulüp üyeleri, 1. … | ✓Yalnızca timin ve sitozin nükleotidleri bulu…
+fen-dn-067 | F.8.2.1.1 | z4 | k0 | Bir araştırmacı, bir ormanda bulduğu ve hangi türe ait olduğunu bilmediği üç canlıdan (K, L ve M) vücut hücresi örnekleri almıştı… | ✓L ile M farklı türlerdendir.
+fen-dn-068 | F.8.2.1.1 | z4 | k0 | Bir okul gazetesinde DNA ile ilgili bir yazı yayımlanmıştır. Yazıdaki cümlelerden üçü aşağıda verilmiştir. I. "Hücre bölünürken D… | ✓II ve III
+fen-dn-069 | F.8.2.1.3 | z4 | k0 | Bir araştırmacı, bölünmeye hazırlanan bir hücrenin üç aşamasında hücredeki DNA miktarını ölçmüş ve sonuçları tabloya yazmıştır. A… | ✓3. aşamadaki hücrenin kalıtsal bilgisi, 1. a…
+fen-dn-070 | F.8.2.1.3 | z4 | k0 | Bir öğrenci, DNA'nın kendini eşlemesini anlatan aşağıdaki paragrafı tamamlayacaktır. Boş bırakılan yerler 1, 2, 3 ve 4 ile numara… | ✓karşılıklı bazlarından – kalıp – A–T ve G–C …
+fen-dn-071 | F.8.2.1.3 | z4 | k0 | Bir hücrede DNA kendini eşlerken kalıp olarak kullanılan eski zincirin bazları yukarıdan aşağıya G, T, A ve C şeklindedir. Yeni z… | ✓C – A – T – A; hatalı basamak 4. basamaktır.
+fen-dn-072 | F.8.2.1.1 | z4 | k0 | Bir öğrenci, DNA'nın tek bir zincirinden alınan iki ardışık nükleotidi görseldeki gibi çizmiş ve parçaları K, L ve M harfleriyle … | ✓I ve III
+fen-dn-073 | F.8.2.1.2 | z4 | k0 | Bir öğrenci, DNA modelinde bazları sayılarla kodlamıştır: adenin 1, timin 2, guanin 3, sitozin 4. Eşlenmeden önceki DNA'nın 1. zi… | ✓3 – 1 – 4 – 1 – 2
+fen-dn-074 | F.8.2.1.3 | z4 | k0 | Bir akvaryumda yetiştirilen tek hücreli bir yosun, ikiye bölünerek çoğalmıştır. Yosunun hücresinde incelenen DNA molekülü, bölünm… | ✓İki yeni yosunun DNA'sında da bütün basamakl…
+fen-dn-075 | F.8.2.1.1 | z4 | k0 | Bir öğrenci, hücre çekirdeğinin içindeki DNA'yı anlatmak için uzun bir ipi birkaç küçük makaranın çevresine sararak bir yumak haz… | ✓Makaraların her biri, DNA'nın yapı birimi ol…
