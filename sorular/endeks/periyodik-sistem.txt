@@ -225,7 +225,7 @@ fen-ps-359 | F.8.4.1.2 | z4 | k3 | Bir bilgi yarışmasında dört element kart�
 fen-ps-360 | F.8.4.1.2 | z4 | k3 | X ve Y elementleri periyodik sistemin aynı periyodunda yer almaktadır. Y bir metaldir ve X'in atom numarası Y'ninkinden küçüktür.… | ✓X bir metaldir.
 fen-ps-361 | F.8.4.1.1 | z4 | k3 | X ve Y elementleri periyodik sistemin aynı grubunda yer almaktadır. X, 2. periyotta yer alan ve 4A, 5A, 6A ya da 7A gruplarından … | ✓Yalnız I
 fen-ps-362 | F.8.4.1.2 | z4 | k3 | X, Y ve Z elementleri periyodik sistemin 2. ya da 3. periyodundan birinde, aynı satırda yer almaktadır. X o periyodun soygazıdır.… | ✓Y bir ametaldir.
-fen-ps-363 | F.8.4.1.1 | z4 | k3 | Bir kimya sınıfında, periyodik sistemin ilk dört periyodu 18 sütunlu biçimde çizilmiş ve dört kutu X, Y, Z ve T harfleriyle işare… | ✓Yalnız III
+fen-ps-363 | F.8.4.1.1 | z4 | k3 | Bilim fuarındaki bir panoda periyodik sistemin ilk dört periyodu 18 sütunlu olarak gösterilmiş, dört kutu X, Y, Z ve T harfleriyl… | ✓Yalnız III
 fen-ps-364 | F.8.4.1.1 | z4 | k3 | X elementi periyodik sistemin 2. periyodunda, 7A grubunda yer almaktadır. Y elementi X'in hemen altındaki kutuda, Z elementi ise … | ✓II ve III
 fen-ps-365 | F.8.4.1.1 | z4 | k3 | Atom numarası 7 olan elementin hemen altındaki kutudaki element Y, Y'nin hemen solundaki kutudaki element ise Z'dir. Periyodik si… | ✓14; yarı metal
 fen-ps-366 | F.8.4.1.2 | z4 | k3 | Bir bulmacada şu ipuçları verilmiştir: Z elementi, periyodik sistemin 2. periyodunda yer alan yarı metaldir. T elementi, Z'nin he… | ✓Atom numarası 13'tür ve metaldir.
