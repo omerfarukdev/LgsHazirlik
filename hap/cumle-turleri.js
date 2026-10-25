@@ -20,7 +20,7 @@ window.LGS_HAP["cumle-turleri"] = {
         "**İsim cümlesi:** yüklemi isim soylu bir sözcüktür (isim, sıfat, zamir ya da bunlardan kurulu bir öbek); çoğunlukla ek fiil alır (-dır, -ydı, -ymış) ya da ek fiil söylenmez. “Bu yokuş çok engebeliydi.” → yüklem **engebeliydi** (sıfat + ek fiil). “Konserin en güzel bölümü finaldi.” → yüklem **finaldi**.",
         "Ek fiilin söylenmediği cümlelerde yüklem yine vardır: “Bu sokak çok sessiz.” → **sessiz**. Çekimli fiil bulamayınca “yüklem yok” deme; isim cümlesidir.",
         "Edat + ek fiil, **var**, **yok** ve **değil** de isim soylu yüklem kurar: “Yürüyüşümüz bir maraton gibiydi.” · “Salonda kimse yok.” · “Bu kalem benim değil.” Bunlar isim cümlesidir.",
-        "Fiilimsi + ek fiil de isim soylu yüklemdir: “Tek isteği iyi bir takımda oynamak.” → yüklem **oynamak** (isteği oynamaktır). Bu cümle isim cümlesidir; fiilimsi çekimli fiil gibi kip ve zaman bildirmez, ek fiille isim soylu yüklem olur."
+        "Fiilimsi + ek fiil de isim soylu yüklemdir: “Tek isteği iyi bir takımda oynamak.” → yüklem **oynamak** (isteği oynamaktır). Bu cümle isim cümlesidir; fiilimsi çekimli fiil gibi kip ve zaman bildirmez, ek fiille isim soylu yüklem olur. Ek fiil çoğu zaman söylenmez: “Amacım sınavı kazanmak.” cümlesinde “kazanmak” ek fiilsiz de yüklemdir (isim cümlesi). Fiilimsi cümlenin ortasında kalırsa yüklem değil, yan yargı kurar."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Yüklem</th><th>Ne bildirir?</th><th>Tür</th></tr><tr><td>bastırdı, çıkacağız, bekliyor</td><td>İş, oluş</td><td>Fiil cümlesi</td></tr><tr><td>engebeliydi, sessiz, finaldi, benim değil, yok</td><td>Durum, özellik, kimlik, varlık</td><td>İsim cümlesi</td></tr></table>",
       dikkat: [

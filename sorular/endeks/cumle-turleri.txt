@@ -88,3 +88,213 @@ tur-ct-012 | T.8.4.19 | z3 | k0 | Aşağıdaki cümlelerden hangisi anlamca olum
 tur-ct-013 | T.8.4.19 | z4 | k0 | Bir öğrenci, sınav gününü anlatan bir yazı yazarken cümlelerin dizilişini değiştirerek aynı olayı farklı biçimlerde ifade etmeye … | ✓Sınav bitince çıkmadı salondan kimse.
 tur-ct-014 | T.8.4.19 | z4 | k0 | Bir öğrencinin okul gazetesi için yazdığı yazıdan alınan metinde cümleler numaralandırılmıştır. (1) Okulumuzun bahçesindeki ağaçl… | ✓Yalnız I
 tur-ct-015 | T.8.4.19 | z4 | k0 | Bir öğrenci, cümlelerin yapısını ve yüklemin yerini birlikte inceleyen bir çalışma yaptı. Aşağıdaki beş cümle numaralandırılmıştı… | ✓3
+tur-ct-126 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi isim cümlesidir? | ✓Peronun ucundaki bank oldukça eskiydi.
+tur-ct-127 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi devrik cümledir? | ✓Uçtu uçurtma gökyüzüne doğru.
+tur-ct-128 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi olumsuzdur? | ✓Akvaryumun ışığı bugün yanmıyor.
+tur-ct-129 | T.8.4.19 | z1 | k1 | Aşağıdakilerden hangisi soru cümlesidir? | ✓Kapıyı bu sabah kim açtı?
+tur-ct-130 | T.8.4.19 | z1 | k1 | Aşağıdakilerden hangisi basit cümledir? | ✓Halının üstüne küçük bir vazo koydum.
+tur-ct-131 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi birleşik cümledir? | ✓Montunu giyerek hemen bahçeye çıktı.
+tur-ct-132 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi sıralı cümledir? | ✓Çay demlendi, bardaklar masaya dizildi.
+tur-ct-133 | T.8.4.19 | z1 | k1 | Aşağıdakilerden hangisi bağlı cümledir? | ✓Takımımız çok çalıştı fakat maçı kaybetti.
+tur-ct-134 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi fiil cümlesidir? | ✓Dedem pastayı bahçede kesti.
+tur-ct-135 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi kurallı cümledir? | ✓Belediye eski köprüyü bu yaz onardı.
+tur-ct-136 | T.8.4.19 | z1 | k1 | "Odanın penceresi bahçeye bakıyor." cümlesi için aşağıdakilerden hangisi doğrudur? | ✓Fiil cümlesidir, kurallıdır.
+tur-ct-137 | T.8.4.19 | z1 | k1 | Aşağıdakilerden hangisi olumlu cümledir? | ✓Kardeşim bisikleti kendi başına sürdü.
+tur-ct-138 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi soru cümlesi değildir? | ✓Maçın kaçta başlayacağını öğrendim.
+tur-ct-139 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi devrik cümle değildir? | ✓Antrenör sporculara yeni bir oyun öğretti.
+tur-ct-140 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi birleşik cümledir? | ✓Öyle yorgundu ki hemen uyudu.
+tur-ct-141 | T.8.4.19 | z1 | k1 | "Hava soğursa montumu giyerim." cümlesi yapısına göre aşağıdakilerden hangisidir? | ✓Birleşik cümle
+tur-ct-142 | T.8.4.19 | z1 | k1 | Aşağıdakilerden hangisi olumsuz cümledir? | ✓Bu hikâyedeki olay gerçek değil.
+tur-ct-143 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi isim cümlesi değildir? | ✓Öğretmen tahtaya bir soru yazdı.
+tur-ct-144 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerin hangisinde yüklem, cümlenin sonunda değildir? | ✓Kayboldu sis sabahın ilk ışıklarıyla.
+tur-ct-145 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi birleşik cümle değildir? | ✓Kar yağdı, yollar kapandı.
+tur-ct-146 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi olumlu bir soru cümlesidir? | ✓Bu akşam bize gelecek misin?
+tur-ct-147 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi isim cümlesidir? | ✓Evde bugün hiç ekmek yok.
+tur-ct-148 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi basit cümledir? | ✓Ayşe ve Ceren dün akşam sinemaya gitti.
+tur-ct-149 | T.8.4.19 | z1 | k1 | Aşağıdaki cümlelerden hangisi kurallı cümledir? | ✓Kapıyı çalan çocuk mektubu postacıya verdi.
+tur-ct-150 | T.8.4.19 | z2 | k1 | Bir kayak gezisi şöyle anlatılıyor: (I) İndi kardeşim yamaçtan ustaca. (II) Telesiyej bizi yavaş yavaş tepeye taşıdı. (III) Çok s… | ✓I
+tur-ct-151 | T.8.4.19 | z2 | k1 | Bir hayvan barınağında yaşananlar şöyle anlatılıyor: I. Gönüllüler köpekleri bahçede gezdirdi. II. Barınağın en sevimli sakini kü… | ✓Yalnız II
+tur-ct-152 | T.8.4.19 | z2 | k1 | Küçük bir saat tamircisinin dükkânı anlatılıyor: (I) Tamirci camı kaldırdı, saatin içine baktı. (II) Dişliler paslanmıştı fakat y… | ✓II
+tur-ct-153 | T.8.4.19 | z2 | k1 | "Sabah erken kalkarsan treni kaçırmazsın." cümlesi için aşağıdakilerden hangisi doğrudur? | ✓Birleşik cümledir, olumsuzdur.
+tur-ct-154 | T.8.4.19 | z2 | k1 | Bir parkta yapılan etkinlik anlatılıyor: (I) Öğretmen yarın yağmur yağmazsa gezinin yapılacağını söyledi. (II) Parkta oynayan çoc… | ✓III
+tur-ct-155 | T.8.4.19 | z2 | k1 | Bir öğrenci dört cümleyi yüklemin türüne ve yerine göre tabloda sınıflandırmıştır. Tabloda hangi satırdaki sınıflama yanlıştır? | ✓I
+tur-ct-156 | T.8.4.19 | z2 | k1 | Okul çıkışı şöyle anlatılıyor: I. Tüm sınıf sırayla kapıdan çıktı. II. Defterimi çantaya koydum, kalemliği masada unuttum. III. Z… | ✓Yalnız III
+tur-ct-157 | T.8.4.19 | z2 | k1 | Bir deniz kıyısı gezisi anlatılıyor: (I) Dalgalar kıyıya vurunca kumlar ıslandı. (II) Hava güzeldi ama deniz çok soğuktu. (III) M… | ✓III
+tur-ct-158 | T.8.4.19 | z2 | k1 | Bir sınav sonrasında konuşulanlar şöyle yazılmıştır: (I) Bu soru hiç de zor değil. (II) Sınavda kimse kopya çekmedi. (III) Sonuçl… | ✓I
+tur-ct-159 | T.8.4.19 | z2 | k1 | Eski bir köy evi şöyle anlatılıyor: (I) Evin bahçesindeki ceviz ağacı çok yaşlıydı. (II) Bahar gelince açardı pencereleri dedem. … | ✓II
+tur-ct-160 | T.8.4.19 | z2 | k1 | Okulda bir nöbet günü anlatılıyor: I. Nöbetçi öğrenciler bahçeyi sabah süpürdü. II. Doldu çöp kutuları teneffüste. III. Yoruldu n… | ✓II ve III
+tur-ct-161 | T.8.4.19 | z2 | k1 | Bir öğrenci dört cümleyi yapılarına göre tabloda sınıflandırmıştır. Aşağıdaki tabloda hangi cümlenin yapısı yanlış belirtilmiştir? | ✓IV
+tur-ct-162 | T.8.4.19 | z2 | k1 | Bir sınıf toplantısında konuşulanlar şöyle yazılmıştır: (I) Toplantıya kimin geleceğini henüz bilmiyoruz. (II) Afişi hangi arkada… | ✓I
+tur-ct-163 | T.8.4.19 | z2 | k1 | "Bahçedeki çocuklar topu kaleye atınca herkes alkışladı." cümlesi için aşağıdakilerden hangisi doğrudur? | ✓Fiil cümlesidir, birleşik cümledir.
+tur-ct-164 | T.8.4.19 | z2 | k1 | Bir sınıf gezisi anlatılıyor: (I) Gezinin en eğlenceli yeri hayvanat bahçesiydi. (II) Rehber bize hayvanların beslenme saatini an… | ✓II
+tur-ct-165 | T.8.4.19 | z2 | k1 | Bir öğrenci günün özetini yazıyor: I. Bu akşam hiçbir arkadaşımıza ulaşamadım. II. Ödevimi dün akşam bitirdim. III. Ödevin cevapl… | ✓I ve III
+tur-ct-166 | T.8.4.19 | z2 | k1 | Bir bostan gezisi anlatılıyor: (I) Domatesler olgunlaşınca sepetlere doldurulur. (II) Kış gelirse bostan boş kalır. (III) Bostan … | ✓III
+tur-ct-167 | T.8.4.19 | z2 | k1 | Bir öğrenci kulüp çalışmasını anlatıyor: (I) Bu işi başarabilecek miyim? (II) Bu işi tek başıma başaramadım. (III) Bu işi sonunda… | ✓IV
+tur-ct-168 | T.8.4.19 | z2 | k1 | Bir öğrenci hasat gününü anlatıyor: I. Tarlada çalıştık ama hiç yorulmadık. II. Çalışırken türkü söyledik. III. Çuvallar doldurul… | ✓Yalnız I
+tur-ct-169 | T.8.4.19 | z2 | k1 | Bir dağ köyü anlatılıyor: (I) Kar yağarsa köyün yolları çok kaygan. (II) Köylüler kar yağarsa evlerinde oturur. (III) Köyün yolla… | ✓I
+tur-ct-170 | T.8.4.19 | z2 | k1 | Bir öğrenci dört cümleyi yüklemin türüne ve yerine göre tabloda sınıflandırmıştır. Tabloda hangi satırdaki sınıflamanın her iki b… | ✓III
+tur-ct-171 | T.8.4.19 | z2 | k1 | Bir öğrenci sabah manzarasını anlatıyor: (I) Uyandı ormanın kuşları. (II) Gökyüzü pembeye döndü. (III) Çok serindi sabahın ilk sa… | ✓2
+tur-ct-172 | T.8.4.19 | z2 | k1 | Bir öğrenci sınıf yaşantısını anlatıyor: I. Ceren sınıfın en çalışkan öğrencisi. II. Kapının önünde uzun bir kuyruk vardı. III. C… | ✓I ve II
+tur-ct-173 | T.8.4.19 | z2 | k1 | Bir yürüyüşün sonunda yazılan not şöyle: (I) Yağmur durdu, bulutlar dağıldı. (II) Hava açılınca yola koyulduk. (III) Yollar çamur… | ✓I
+tur-ct-174 | T.8.4.19 | z2 | k1 | "Misafirler gelmeden önce odayı toplayacak mısın?" cümlesi için aşağıdakilerden hangisi doğrudur? | ✓Fiil cümlesidir; birleşik cümledir; soru cüm…
+tur-ct-175 | T.8.4.19 | z2 | k1 | Yaz kampı için yapılan duyuruda şunlar söyleniyor: (I) Kamp başlamadan bütün çantalar hazırlanacak. (II) Kampa yazlık kıyafetler … | ✓II
+tur-ct-226 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi hem isim cümlesi hem de devrik cümledir? | ✓Çok heyecanlıydı satranç salonundaki izleyic…
+tur-ct-227 | T.8.4.19 | z2 | k2 | Bir yüzme kursunda geçen sabah şöyle anlatılıyor: (I) Havuzun derin kısmı çocuklar için uygun değil. (II) Antrenör bugün bize yen… | ✓I
+tur-ct-228 | T.8.4.19 | z2 | k2 | Coğrafya dersinde yapılan bir rota çalışması şöyle anlatılıyor: (I) Haritayı masaya yayan çocuk yolu parmağıyla gösterdi. (II) Ka… | ✓IV
+tur-ct-229 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi yapısına göre sıralı cümledir? | ✓Konser bitti, ışıklar yandı, seyirciler çıkt…
+tur-ct-230 | T.8.4.19 | z2 | k2 | Bir ders başlangıcı şöyle anlatılıyor: (I) Çanta ve defter sıranın üstünde duruyor. (II) Ders başladı ama öğretmen henüz sınıfa g… | ✓II
+tur-ct-231 | T.8.4.19 | z2 | k2 | Evdeki eski bir saatin bozulması şöyle anlatılıyor: (I) Duvardaki saat dün akşam durdu. (II) Saat durunca herkes zamanı telefonda… | ✓I
+tur-ct-232 | T.8.4.19 | z2 | k2 | Sahilde uçurtma uçuran bir grup şöyle anlatılıyor: (I) Uçurtmayı rüzgâra bıraktık. (II) Rüzgâr bu sabah çok güçlü. (III) Yükseldi… | ✓III
+tur-ct-233 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi biçimce olumsuz, anlamca olumludur? | ✓Bu işin altından kalkamayacak değilsin.
+tur-ct-234 | T.8.4.19 | z2 | k2 | Okul bahçesinin bir köşesi şöyle anlatılıyor: (I) Müdür bahçedeki ağaçları inceledi. (II) Çocuklar öğle arasında top oynadı. (III… | ✓IV
+tur-ct-235 | T.8.4.19 | z2 | k2 | Spor salonu çıkışında konuşulanlar şöyle aktarılıyor: (I) Kapıda seni bekleyen kim? (II) Toplantıda neler konuşulduğunu bana anla… | ✓I
+tur-ct-236 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi hem sıralı hem olumsuz bir cümledir? | ✓Telefonu açmadım, mesajlara bakmadım.
+tur-ct-237 | T.8.4.19 | z2 | k2 | Bir yaz akşamı balkonda geçen birkaç dakika şöyle anlatılıyor: (1) Güneş batarken sokak lambaları yandı. (2) Balkonda oturduk, ça… | ✓I ve III
+tur-ct-238 | T.8.4.19 | z2 | k2 | Bir öğrenci kıyıdaki bir gözlemini şu cümleyle anlattı: "Çekildi yavaşça deniz kıyıdan." Bu cümle için aşağıdakilerden hangisi do… | ✓Fiil cümlesidir, devriktir.
+tur-ct-239 | T.8.4.19 | z2 | k2 | Bir öğrencinin okul çıkışı sonrasındaki akşamı şöyle anlatılıyor: (I) Dün okuldan eve doğruca döndüm. (II) Çantamı odama bıraktım… | ✓IV
+tur-ct-240 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi hem isim cümlesi hem devrik cümledir? | ✓Çok kalabalıktı sahil dün akşam.
+tur-ct-241 | T.8.4.19 | z2 | k2 | Bir öğrencinin maç akşamı şöyle anlatılıyor: (I) Maçı izleyemedim çünkü ödevim bitmemişti. (II) Maçı izlemeye giderken ödevimi ça… | ✓I
+tur-ct-242 | T.8.4.19 | z2 | k2 | Evde pasta yapılan bir akşam şöyle anlatılıyor: (I) Pasta henüz sıcak. (II) Annem fırından yeni bir tepsi çıkardı. (III) Mutfağın… | ✓II
+tur-ct-243 | T.8.4.19 | z2 | k2 | Bir öğrenci, tatil hazırlığıyla ilgili dört cümleyi yüklemin türüne ve yerine göre sınıflayarak aşağıdaki tabloya yazmıştır. Bu t… | ✓II
+tur-ct-244 | T.8.4.19 | z2 | k2 | Gözlemevine yapılan bir ziyaret şöyle anlatılıyor: (1) Gözlemevinin kubbesi gece açıldı ve teleskop gökyüzüne çevrildi. (2) Gökyü… | ✓Yalnız III
+tur-ct-245 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin hangisi birleşik cümledir? | ✓Kardeşim sütünü içmeyi hiç sevmez.
+tur-ct-246 | T.8.4.19 | z2 | k2 | Bir sirk gösterisi şöyle anlatılıyor: (I) Hokkabaz topları havaya fırlattı. (II) Coşkuluydu seyircilerin alkışı. (III) Alkışladı … | ✓I
+tur-ct-247 | T.8.4.19 | z2 | k2 | Bir dağ gezisi şöyle anlatılıyor: (I) Hava açarsa dağa tırmanırız. (II) Zirvede bekleyen rehber bize el salladı. (III) Zirveye çı… | ✓IV
+tur-ct-248 | T.8.4.19 | z2 | k2 | Aşağıdaki cümlelerin sonuna gerekli noktalama işareti konulduğunda hangisi soru cümlesi olmaz? | ✓Kaç kişinin geleceğini henüz bilmiyoruz
+tur-ct-249 | T.8.4.19 | z2 | k2 | Bir köy okulunun bahçesinde geçen bir sabah şöyle anlatılıyor: (1) Dalda öten kuşlar sabaha kadar susmadı. (2) Rüzgâr esti, yapra… | ✓I ve II
+tur-ct-250 | T.8.4.19 | z2 | k2 | Bir okul gezisi günü şöyle anlatılıyor: (1) Gezi için hazırlanan öğrenciler servisi bekledi. (2) Yolcular ne yapacağını bilemedi.… | ✓Birleşik cümledir, olumsuzdur.
+tur-ct-251 | T.8.4.19 | z2 | k2 | Bir öğrencinin okulda geçen gününden dört cümle numaralandırılmıştır: (I) Göremedim seni bugün okulda. (II) Seni bugün okulda gör… | ✓I
+tur-ct-252 | T.8.4.19 | z3 | k2 | Tarih kulübünün ilk toplantısını anlatan bir yazıdan dört cümle numaralandırılmıştır. Cümlelerin bir kısmı isim cümlesi, bir kısm… | ✓IV
+tur-ct-253 | T.8.4.19 | z3 | k2 | Bir öğrenci, fırtınalı bir günün ardından limanda tuttuğu notlardan beş cümle numaralandırdı: (1) Çıkmadı bugün hiçbir tekne deni… | ✓2
+tur-ct-254 | T.8.4.19 | z3 | k2 | Okulda yapılacak bir kitap fuarının duyurusu şöyle okunuyor: (1) Okulumuzda yarın kitap fuarı açılıyor, sınıflar sırayla gezecek.… | ✓Yalnız I
+tur-ct-255 | T.8.4.19 | z3 | k2 | Bir öğrenci, tarla ve pazar ziyaretini anlatan dört cümleyi yüklemin türü, anlam ve yapı bakımından sınıflayıp aşağıdaki tabloya … | ✓III
+tur-ct-256 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisi yapısına göre bağlıdır ve iki yüklemi de isim soyludur? | ✓Gökyüzü açık ama yollar hâlâ kaygan.
+tur-ct-257 | T.8.4.19 | z3 | k2 | Okulun tasarım atölyesinde yapılan bir çalışma anlatılırken dört cümle numaralandırılmıştır. Cümlelerden üçü yapı bakımından aynı… | ✓II
+tur-ct-258 | T.8.4.19 | z3 | k2 | Bir öğrenci, mahalledeki bir olayı anlatırken şu cümleyi kurdu: "Biz varmadan çoktan kapanmıştı dükkân." Bu cümle için aşağıdakil… | ✓Fiil cümlesidir, devriktir, birleşiktir.
+tur-ct-259 | T.8.4.19 | z3 | k2 | Bir öğrenci, kamp gecesinde olanları farklı dizilişlerle yazdı. Cümlelerin bir kısmı devrik, bir kısmı birleşiktir. (I) Bitti yiy… | ✓I
+tur-ct-260 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisi hem isim cümlesi hem olumsuz cümledir? | ✓Bahçedeki çanta kardeşimin değil.
+tur-ct-261 | T.8.4.19 | z3 | k2 | Bir sınıfta geçen ilk ders şöyle anlatılıyor: (1) Sınıfa giren öğretmen yoklama aldı. (2) Öğrencilerin çoğu defterini getirmedi. … | ✓II ve III
+tur-ct-262 | T.8.4.19 | z3 | k2 | Bir ailenin evine gelen kargo şöyle anlatılıyor: (I) Kapıyı çalan kuryeyi içeri aldık. (II) Kargodaki paket babamın doğum günü he… | ✓IV
+tur-ct-263 | T.8.4.19 | z3 | k2 | Bir öğrenci, gezdiği bilim fuarını anlatan notlarından beş cümle numaralandırdı: (1) Fuarın girişindeki uzun kuyruk saatlerce bek… | ✓1
+tur-ct-264 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisi basit cümle değildir? | ✓Kıyıya yaklaşan balıkçı teknesi demir attı.
+tur-ct-265 | T.8.4.19 | z3 | k2 | Bir ailenin pazar sabahı şöyle anlatılıyor: (1) Sabah erken kalkıp kahvaltı hazırladım. (2) Ablam sofrayı kurdu, babam çayı demle… | ✓Yalnız II
+tur-ct-266 | T.8.4.19 | z3 | k2 | Bilim kampının hazırlık konuşmasından dört cümle numaralandırılmıştır: (I) Yarınki gezinin toplanma yeri neresi? (II) Toplanma ye… | ✓I
+tur-ct-267 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisi bağlı cümle değildir? | ✓Annem ve babam sabah erkenden çıktı.
+tur-ct-268 | T.8.4.19 | z3 | k2 | Bir öğrenci, dört cümleyi yüklemin yerine ve anlama göre sınıflayıp aşağıdaki tabloya yazmıştır. Bu tabloda numaralanmış satırlar… | ✓III
+tur-ct-269 | T.8.4.19 | z3 | k2 | Yağmurlu bir akşam yürüyüşü şöyle anlatılıyor: (I) Yürüyüşe çıkınca hava yağmura döndü. (II) Çok sessizdi sokağın bu yanı. (III) … | ✓II
+tur-ct-270 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisinde bağlaç çıkarılıp yerine virgül konulduğunda cümle sıralıya dönüşür? | ✓Sınıfa girdim ama ışıklar yanmıyordu.
+tur-ct-271 | T.8.4.19 | z3 | k2 | Bir mahallede elektrik kesintisi şöyle anlatılıyor: (I) Elektrikler kesildi; evlerde mumlar yakıldı. (II) Elektrikler kesilince e… | ✓I
+tur-ct-272 | T.8.4.19 | z3 | k2 | Yağmurlu bir okul sabahı şöyle anlatılıyor: (1) Servis geç kalınca öğrenciler kapıda bekledi. (2) Öğretmenler toplantıya gitti, n… | ✓(1) ve (4)
+tur-ct-273 | T.8.4.19 | z3 | k2 | Bir arkadaş grubunun konuşmalarından dört cümle numaralandırılmıştır: (I) Bu konuda daha fazla beklememiz gerekmiyor. (II) Hiç dü… | ✓II
+tur-ct-274 | T.8.4.19 | z3 | k2 | Aşağıdaki cümlelerin hangisi isim cümlesi değildir? | ✓Bahçede çalışan işçiler öğle arasında dinlen…
+tur-ct-275 | T.8.4.19 | z3 | k2 | Okulun voleybol turnuvası hakkında yazılmış dört cümle numaralandırılmıştır. Cümlelerin bir kısmı soru, bir kısmı birleşik, bir k… | ✓IV
+tur-ct-326 | T.8.4.19 | z3 | k3 | Bir yaz kampına katılan öğrenciler, kamp defterlerine yazdıkları dört cümleyi sınıfta okudu. Cümleler aşağıda numaralandırılmıştı… | ✓III
+tur-ct-327 | T.8.4.19 | z3 | k3 | Bir köy muhtarı, kışın köy yoluyla ilgili hazırladığı bilgi notuna dört cümle yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cü… | ✓I
+tur-ct-328 | T.8.4.19 | z3 | k3 | Bir balıkçı kasabasında geçen kısa bir yazıdan dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerden hangi… | ✓IV
+tur-ct-329 | T.8.4.19 | z3 | k3 | Aşağıda bir kasabayla ilgili kısa bir metin verilmiştir. (1) Akşama doğru gökyüzü kızıllaştı. (2) Meydandaki çınar kasabanın en y… | ✓Yalnız II
+tur-ct-330 | T.8.4.19 | z3 | k3 | Bir bisiklet turuna katılan arkadaşlar, tur sonunda gün boyu başlarından geçenlerle ilgili dört cümle yazdı. Cümleler aşağıda num… | ✓II
+tur-ct-331 | T.8.4.19 | z3 | k3 | Bir müze gezisi sırasında duyulan dört cümle not defterine yazılmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hang… | ✓IV
+tur-ct-332 | T.8.4.19 | z3 | k3 | Bir okulun öğrencileri, okul bahçesiyle ilgili gözlemlerini dört cümleyle sınıf panosuna yazdı. Cümleler aşağıda numaralandırılmı… | ✓I
+tur-ct-333 | T.8.4.19 | z3 | k3 | Bir okul gazetesinin köşe yazısından dört cümle seçilmiştir. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hangisi anlamca… | ✓III
+tur-ct-334 | T.8.4.19 | z3 | k3 | Bir pazar yerinde geçen bir yazıdan dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hangisi yapıca bi… | ✓III
+tur-ct-335 | T.8.4.19 | z3 | k3 | Bir öğrenci, yaz tatilinde duyduğu cümleleri çözümleyip aşağıdaki tabloya yazdı. Bu tabloda hangi satırdaki iki bilgi de doğrudur? | ✓I
+tur-ct-336 | T.8.4.19 | z3 | k3 | Bir sinema salonunda yan yana oturan arkadaşların konuşmalarından dört cümle seçilmiştir. Cümleler aşağıda numaralandırılmıştır. … | ✓IV
+tur-ct-337 | T.8.4.19 | z3 | k3 | Bir sporcu, kamp günlüğüne dört cümle yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerden kaç tanesinin yüklemi isim soy… | ✓2
+tur-ct-338 | T.8.4.19 | z3 | k3 | Bir sınıfta öğrenciler, grup çalışmasıyla ilgili bir metin yazdı. Metindeki üç cümle şöyledir. (1) Proje sunumunun hazırlığı saba… | ✓Yalnız I
+tur-ct-339 | T.8.4.19 | z3 | k3 | Bir spor müsabakasını izleyen bir gazeteci, notlarına dört cümle yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hang… | ✓IV
+tur-ct-340 | T.8.4.19 | z3 | k3 | Bir okulun bahçe düzenleme çalışmasını anlatan yazıdan dört cümle seçilmiştir. Cümleler aşağıda numaralandırılmıştır. Bu cümleler… | ✓III
+tur-ct-341 | T.8.4.19 | z3 | k3 | Bir deniz kenarı kasabasında yaşanan olayla ilgili dört cümle yazılmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin h… | ✓II
+tur-ct-342 | T.8.4.19 | z3 | k3 | Bir tren yolculuğunu anlatan metinden üç cümle alınmıştır. (1) Tren istasyondan hareket edince yolcular yerlerine oturdu. (2) Kom… | ✓II ve III
+tur-ct-343 | T.8.4.19 | z3 | k3 | Bir kitap kulübünde üyeler, okudukları öykülerden dört cümle seçti. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hangisi … | ✓I
+tur-ct-344 | T.8.4.19 | z3 | k3 | Bir öğrenci, ders çalışırken karşılaştığı dört cümleyi not defterine yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin … | ✓III
+tur-ct-345 | T.8.4.19 | z3 | k3 | Bir havuz kuralları panosundaki dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin kaç tanesi yapıca birleşiktir? | ✓4
+tur-ct-346 | T.8.4.19 | z3 | k3 | Aşağıda tek bir cümle verilmiştir. Yağmur başlayınca dağıldı pazar yerindeki kalabalık. Bu cümlenin yüklemin türü, yüklemin yeri,… | ✓Fiil cümlesi, devrik, olumlu, birleşik
+tur-ct-347 | T.8.4.19 | z3 | k3 | Bir öğrenci, sınavdan önce çözümleme yaptığı cümleleri sıraya dizdi. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerden kaç ta… | ✓1
+tur-ct-348 | T.8.4.19 | z3 | k3 | Bir deniz tatilinden dönen öğrenciler, yaşadıklarını dört cümleyle anlattı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin … | ✓III
+tur-ct-349 | T.8.4.19 | z3 | k3 | Bir müzeyi gezen öğrencilerin notlarından üç cümle alınmıştır. (1) Müzenin giriş katında eski sikkeler sergileniyor. (2) Salonun … | ✓Yalnız III
+tur-ct-350 | T.8.4.19 | z3 | k3 | Bir göl kenarındaki çay bahçesini anlatan yazıdan dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin han… | ✓I
+tur-ct-351 | T.8.4.19 | z3 | k3 | Bir öğrenci, ertesi günkü yürüyüş hazırlığını anlatan dört cümle yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hang… | ✓IV
+tur-ct-352 | T.8.4.19 | z3 | k3 | Aşağıda tek bir cümle verilmiştir. Kim açtı bu kapıyı gece yarısı? Bu cümlenin yüklemin türü, yüklemin yeri, anlam ve yapı bakımı… | ✓Fiil cümlesi, devrik, soru, basit
+tur-ct-353 | T.8.4.19 | z3 | k3 | Bir akşam yemeğine ilişkin yazılan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisi hem soru cümlesi hem de anlamca… | ✓III
+tur-ct-354 | T.8.4.19 | z3 | k3 | Bir evde yapılan temizlik işlerini anlatan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisinde 've' bağlacı iki yar… | ✓I
+tur-ct-355 | T.8.4.19 | z3 | k3 | Bir okul serasını anlatan metinden üç cümle alınmıştır. (1) Serada kızarmaya başladı domatesler. (2) Bu sezon seranın verimi çok … | ✓I ve III
+tur-ct-356 | T.8.4.19 | z4 | k3 | Bir konser çıkışında dinleyicilerin sözlerinden dört cümle derlenmiştir. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin han… | ✓II
+tur-ct-357 | T.8.4.19 | z4 | k3 | Bir havaalanında yazılan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisi hem soru cümlesi hem yüklemin yerine göre… | ✓IV
+tur-ct-358 | T.8.4.19 | z4 | k3 | Bir öğrenci, seçtiği cümlelerin yapısını aşağıdaki tabloda belirtti. Bu tabloda hangi satırdaki bilgi yanlıştır? | ✓IV
+tur-ct-359 | T.8.4.19 | z4 | k3 | Bir havalimanı görevlisi, yolcu not defterinden dört cümleyi çözümleyip tabloya yazdı. Bu tabloda hangi satırdaki bilgi yanlıştır? | ✓I
+tur-ct-360 | T.8.4.19 | z4 | k3 | Bir köy yoluyla ilgili metinden üç cümle alınmıştır. (1) Kış bastırınca köy yolları günlerce kapalı kalır. (2) Muhtar her sabah y… | ✓I ve II
+tur-ct-361 | T.8.4.19 | z4 | k3 | Bir öğrencinin ödev defterinden dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerden kaç tanesi hem isim … | ✓2
+tur-ct-362 | T.8.4.19 | z4 | k3 | Bir ders çalışma kitapçığındaki dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisi hem isim cümlesi hem sıralı hem de… | ✓I
+tur-ct-363 | T.8.4.19 | z4 | k3 | Bir feribot seferinin aksamasını anlatan metinden dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerden ha… | ✓III
+tur-ct-364 | T.8.4.19 | z4 | k3 | Bir grup, kaybolduğu yürüyüş yolunu anlatan dört cümle yazdı. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hangisi hem ya… | ✓IV
+tur-ct-365 | T.8.4.19 | z4 | k3 | Bir şirketin tanıtım broşüründen dört cümle alınmıştır. Cümleler aşağıda numaralandırılmıştır. Bu cümlelerin hangisi hem isim cüm… | ✓II
+tur-ct-366 | T.8.4.19 | z4 | k3 | Bir yüzme havuzu bildirisinden üç cümle alınmıştır. (1) Gelmedi mi servis hâlâ? (2) Yol açılınca yürüyüş başlayacak. (3) Havuz bu… | ✓2. cümle yüklemin türüne göre fiil, yapıca b…
+tur-ct-367 | T.8.4.19 | z4 | k3 | Bir okulda yapılan deprem tatbikatını anlatan metinden üç cümle alınmıştır. (1) Tatbikat başlar başlamaz öğrenciler sıraların alt… | ✓Yalnız III
+tur-ct-368 | T.8.4.19 | z4 | k3 | Bir öğrenci, cümlelerin yüklemlerini bulup aşağıdaki tabloya yazdı. Bu tabloda hangi cümlenin yüklemi yanlış gösterilmiştir? | ✓IV
+tur-ct-369 | T.8.4.19 | z4 | k3 | Aşağıda tek bir cümle verilmiştir. Sabahları erken kalkmak sağlıklı bir alışkanlıktır. Bu cümlenin yüklemin türü, yüklemin yeri, … | ✓İsim cümlesi, kurallı, olumlu, birleşik
+tur-ct-370 | T.8.4.19 | z4 | k3 | Bir öğrenci, çalıştığı cümleleri aşağıdaki gibi sıraladı. Cümleler numaralandırılmıştır. Bu cümlelerden kaç tanesi hem yüklemin y… | ✓3
+tur-ct-371 | T.8.4.19 | z4 | k3 | Bir spor salonunu anlatan metinden üç cümle alınmıştır. (1) Salonun kapısı açılınca içeri serin bir hava doldu. (2) Soyunma odala… | ✓I, II ve III
+tur-ct-372 | T.8.4.19 | z4 | k3 | Bir uzun yolculuğu anlatan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisi, yüklemlerinin ikisi de isim soylu olan… | ✓IV
+tur-ct-373 | T.8.4.19 | z4 | k3 | Bir öğrenci, seçtiği cümlelerin yapısını aşağıdaki tabloda belirtti. Bu tabloda hangi satırdaki bilgi yanlıştır? | ✓II
+tur-ct-374 | T.8.4.19 | z4 | k3 | Bir hava durumu raporundan üç cümle alınmıştır. (1) Yağışlı değildi bu haftaki hava. (2) Bu haftaki hava hiç yağışlı değildi. (3)… | ✓I ve III
+tur-ct-375 | T.8.4.19 | z4 | k3 | Bir okul servisini bekleyen öğrenciler, duydukları cümleleri dört ölçüte göre çözümleyip aşağıdaki tabloya yazdı. Bu tabloda hang… | ✓I
+tur-ct-016 | T.8.4.19 | z1 | k0 | Şenlikten dört cümle: (I) Gökyüzü rengârenk uçurtmalarla doldu. (II) Çocuklar iplerini sıkı tuttu. (III) Rüzgâr o sabah çok sertt… | ✓III. cümle
+tur-ct-017 | T.8.4.19 | z1 | k0 | Akvaryumdan dört cümle: (I) Küçük bir balık yüzdü camın önünde. (II) Çocuklar hayranlıkla bekledi. (III) Rehber adları tek tek sö… | ✓I. cümle
+tur-ct-018 | T.8.4.19 | z1 | k0 | Turnuvadan dört cümle: (I) Turnuva cumartesi başlayacak. (II) Ayşe ilk hamlesini yaptı. (III) Rakibi saate bakıyordu. (IV) Kimse … | ✓IV. cümle
+tur-ct-019 | T.8.4.19 | z1 | k0 | Barınaktan dört cümle: (I) Barınaktaki kediler yemeği bekledi. (II) Kapıyı açan gönüllü mamaları getirdi. (III) Küçük bir yavru k… | ✓II. cümle
+tur-ct-020 | T.8.4.19 | z1 | k0 | Sınıftan dört cümle: (I) Sınıfta üç kutu duruyor. (II) Kâğıtları mavi kutuya attık, camları yeşile yerleştirdik. (III) Nöbetçiler… | ✓II. cümle
+tur-ct-021 | T.8.4.19 | z1 | k0 | Tatbikattan dört cümle: (I) Tatbikat sabah onda başladı. (II) Öğrenciler sırasıyla bahçeye indi. (III) Müdür yardımcısı alanda be… | ✓IV. cümle
+tur-ct-022 | T.8.4.19 | z1 | k0 | Şenlikten dört cümle: (I) Bu akşamki gösteriye kimler gelecek? (II) Deney masaları salona kuruldu. (III) Volkan maketi herkesin i… | ✓I. cümle
+tur-ct-023 | T.8.4.19 | z1 | k0 | Kumbarayla ilgili dört cümle: (I) Kumbarama bu ay para atmadım. (II) Yeni bisiklet için yeterince biriktirmedim. (III) Annem bana… | ✓III. cümle
+tur-ct-024 | T.8.4.19 | z1 | k0 | Havuzdan dört cümle: (I) Havuza girmeden önce duş aldık. (II) Yüzmeyi öğrenen çocuklar rozet kazandı. (III) Hava soğuk olursa hav… | ✓IV. cümle
+tur-ct-025 | T.8.4.19 | z1 | k0 | Tren garından dört cümle: (I) Tren peronda yavaşça durdu. (II) Yolcular vagonlara bindi. (III) Peronun ucundaki bank bomboştu. (I… | ✓III. cümle
+tur-ct-026 | T.8.4.19 | z1 | k0 | Maket kursundan dört cümle: (I) Yarın hava güzel olursa maketi uçuracağız. (II) Maketin kanatları balsa ağacından yapıldı. (III) … | ✓I. cümle
+tur-ct-027 | T.8.4.19 | z1 | k0 | Sirkten dört cümle: (I) Güldü çocuklar palyaçoya. (II) Gösteri akşam yedide sona erdi. (III) Seyirciler alkışladı sonuna kadar. (… | ✓II. cümle
+tur-ct-028 | T.8.4.19 | z2 | k0 | Arıcılık atölyesini anlatan bir yazıda dört cümle yer alıyor: (I) Arıcı yaklaştı kovanlara yavaşça. (II) Arılar çiçekten çiçeğe u… | ✓I. cümle
+tur-ct-029 | T.8.4.19 | z2 | k0 | Hafta sonu hazırlığı sırasında aile içinde geçen dört cümle: (I) Bu kitabı gerçekten okudun mu? (II) Çayı kim demledi? (III) Deft… | ✓IV. cümle
+tur-ct-030 | T.8.4.19 | z2 | k0 | Hayvanat bahçesini anlatan bir yazıdan üç cümle: (1) Bakıcı sabahları kafesi temizledi ve yem kaplarını doldurdu. (2) Zürafaların… | ✓Yalnız II
+tur-ct-031 | T.8.4.19 | z2 | k0 | Müze gezisini anlatan bir yazıdan dört cümle: (I) Elif ve Deniz müzeye birlikte gitti. (II) Dinozor iskeletini gördük, yanından s… | ✓III. cümle
+tur-ct-032 | T.8.4.19 | z2 | k0 | Çiftlik gezisini anlatan dört cümle: (I) Tavuklar yumurtlamayı bitirince çiftçi onları saydı. (II) Çiftlikte ineklere ve koyunlar… | ✓III. cümle
+tur-ct-033 | T.8.4.19 | z2 | k0 | Kuş gözlemi gezisinden dört cümle: (I) Dürbünle ağaç tepelerine baktık. (II) Çınar ağacındaki yuva boştu. (III) Kuşlar sabah erke… | ✓Bir
+tur-ct-034 | T.8.4.19 | z2 | k0 | Pul koleksiyonunu anlatan bir yazıdan üç cümle: (1) Dedemin pul koleksiyonu yüzlerce ülkeden pul içeriyor. (2) Değerlidir dedemin… | ✓II ve III
+tur-ct-035 | T.8.4.19 | z2 | k0 | Orman yürüyüşünün anlatıldığı yazıdan dört cümle: (I) Ormanda telefonlar hiç çekmiyordu. (II) Haritaya bakmadan yolu bulamadık. (… | ✓II. cümle
+tur-ct-036 | T.8.4.19 | z2 | k0 | Bir öğrenci, kamp gecesini anlatan dört cümleyi aşağıdaki tabloda dört ölçüte göre çözümlemiştir. Tablodaki hangi satırda verilen… | ✓II. satır
+tur-ct-037 | T.8.4.19 | z2 | k0 | Seramik atölyesinden dört cümle: (I) Çamuru yoğurunca şekil vermek kolaylaşıyor. (II) Elleri ıslak tutan öğrenci kapları düzgün ç… | ✓III. cümle
+tur-ct-038 | T.8.4.19 | z2 | k0 | Doğum günü hazırlığı sırasında söylenen dört cümle: (I) Bu akşam evde kimse yok. (II) Dolapta yeterli yiyecek bulunmuyor. (III) K… | ✓I. cümle
+tur-ct-039 | T.8.4.19 | z2 | k0 | Bir balon şenliğini anlatan yazıdan üç cümle: (1) Gökyüzüne bırakılan balonlar rüzgârla uzaklaştı. (2) Çocuklar uzun süre gökyüzü… | ✓I ve III
+tur-ct-040 | T.8.4.19 | z2 | k0 | Okul bahçesindeki fidan dikme çalışmasından dört cümle: (I) Fidanları diktik ve suladık. (II) Toprak kuruydu ama fideler canlıydı… | ✓IV. cümle
+tur-ct-041 | T.8.4.19 | z2 | k0 | Sinema gününe ilişkin dört cümle: (I) Okuldan sonra sinemaya gidecek misin? (II) Bitirdin mi ödevini? (III) Bu filmi kim izlemiş?… | ✓II. cümle
+tur-ct-042 | T.8.4.19 | z2 | k0 | Bir öğrenci sınav sabahını anlatırken şu cümleyi kurmuştur: "Sınav kâğıtları dağıtılınca sınıfa derin bir sessizlik çöktü." Bu cü… | ✓Fiil cümlesi, kurallı, birleşik
+tur-ct-043 | T.8.4.19 | z2 | k0 | Konuk ağırlamaya hazırlanan bir ailede söylenen dört cümle: (I) Paketi kimin getirdiğini henüz bilmiyoruz. (II) Bu paketi kim get… | ✓I. cümle
+tur-ct-044 | T.8.4.19 | z2 | k0 | Yüzme yarışmasını anlatan bir yazıdan dört cümle: (I) Yüzücüler son turda hızlandı ancak birinciliği kaçırdı. (II) Takım çalışmas… | ✓I. cümle
+tur-ct-045 | T.8.4.19 | z2 | k0 | Gökyüzü gözlemine ilişkin bir yazıdan üç cümle: (1) Gece yarısı gökyüzünde onlarca meteor göründü. (2) Kimse teleskobun başından … | ✓Yalnız III
+tur-ct-046 | T.8.4.19 | z2 | k0 | Kar günü anlatan dört cümle: (I) Karlar yavaş yavaş eridi. (II) Çocuklar kardan adam yaptı ve evlerine döndü. (III) Sokaktaki kar… | ✓IV. cümle
+tur-ct-047 | T.8.4.19 | z2 | k0 | Gece yolculuğunu anlatan dört cümle: (I) Otobüs gece yarısı terminalden ayrıldı. (II) Yol boyunca camlar buğuluydu. (III) Yolcula… | ✓II. cümle
+tur-ct-048 | T.8.4.19 | z3 | k0 | Bir öğrenci, dedesiyle çıktığı balık avını anlatan yazıdan dört cümle seçti: (I) Dedemle sabaha karşı iskeleye gittik. (II) Çok s… | ✓III. cümle
+tur-ct-049 | T.8.4.19 | z3 | k0 | Bir öğrenci günlüğüne yorucu bir günü anlatan dört cümle yazdı: (I) Öyle yoruldum ki dersi dinleyemedim. (II) Dünkü maçtan sonra … | ✓I. cümle
+tur-ct-050 | T.8.4.19 | z3 | k0 | Bisiklet tamirci dükkânında geçen bir sabahı anlatan beş cümle: (1) Bisiklet tamircisi lastiği şişirdi. (2) Söküldü zincir bir an… | ✓İki
+tur-ct-051 | T.8.4.19 | z3 | k0 | Bir öğrenci, gösteri salonuna ait cümleleri aşağıdaki tabloda çözümlemiş, son satırı boş bırakmıştır. Boş bırakılan III. satıra, … | ✓İsim cümlesi, devrik, birleşik
+tur-ct-052 | T.8.4.19 | z3 | k0 | Bir gökbilim kulübü, gözlem gecesini şöyle anlattı: (I) Rehber teleskopu ayarladı dikkatle. (II) Gökyüzü bu gece bulutsuz. (III) … | ✓IV. cümle
+tur-ct-053 | T.8.4.19 | z3 | k0 | Bir öğrenci sınıf günlüğüne dört cümle yazdı: (I) Murat ve Selin ödevlerini birlikte bitirdi. (II) Sınıf hâlâ gürültülüydü çünkü … | ✓II. cümle
+tur-ct-054 | T.8.4.19 | z3 | k0 | Okullar arası bir müsabaka gününün sabahını anlatan dört cümle: (I) Zil çalmadan sınıf boşaldı. (II) Unutmamıştı kimse bu önemli … | ✓Fiil cümlesi, devrik, olumsuz
+tur-ct-055 | T.8.4.19 | z3 | k0 | Robot yarışmasını anlatan bir yazıdan üç cümle: (1) Robotun kolu sıkışınca yarışma bir an durdu. (2) Seyirciler hiç sesini çıkarm… | ✓I ve II
+tur-ct-056 | T.8.4.19 | z3 | k0 | Yağmurlu bir günü anlatan bir yazıdan dört cümle: (I) Bahçedeki gül fidanları dünkü yağmurla canlandı. (II) Öyle çok yağdı ki sok… | ✓I. cümle
+tur-ct-057 | T.8.4.19 | z3 | k0 | Pınar'ın sabahını anlatan dört cümle: (I) Pınar kapıda sabırsızca bekledi. (II) Çantasında eksik bir şey bırakmayan Pınar sevinçl… | ✓IV. cümle
+tur-ct-058 | T.8.4.19 | z3 | k0 | Okul kantininden dört cümle: (I) Dilek simit aldı ve Berk'e ikram etti. (II) Simit yiyen çocuklar bahçeye çıktı. (III) Dilek ve B… | ✓III. cümle
+tur-ct-059 | T.8.4.19 | z3 | k0 | Bir öğrenci defterine bir cümlenin özelliklerini tabloyla özetlemiştir. Aşağıdaki cümlelerden hangisi tabloda verilen özellikleri… | ✓Hiç kolay değildir bu yolculuk.
+tur-ct-060 | T.8.4.19 | z3 | k0 | Bulmaca yarışmasından dört cümle: (I) Kimse bulmacayı çözemedi. (II) Sonunda bütün kutular doldu. (III) Hiçbir ipucu işe yaramadı… | ✓II. cümle
+tur-ct-061 | T.8.4.19 | z3 | k0 | Konser hazırlığını anlatan dört cümle: (I) Konser günü yaklaşıyor. (II) Biletleri sabah erkenden aldık. (III) Bu yılki konser bil… | ✓III. cümle
+tur-ct-062 | T.8.4.19 | z3 | k0 | Bir öğrenci, köy gezisini anlatan yazısında bazı cümlelerin yüklemini başa almıştır: (I) Geldi mi arkadaşın bu akşam? (II) Çok se… | ✓IV. cümle
+tur-ct-063 | T.8.4.19 | z3 | k0 | Sessiz bir akşamı anlatan beş cümle: (1) Kapıyı açtım, ışığı yaktım. (2) Sofra kuruldu ve herkes yerine oturdu. (3) Dışarıda rüzg… | ✓Bir
+tur-ct-064 | T.8.4.19 | z4 | k0 | Bir öğrenci, okul gezisini anlatan yazısını cümle türleri bakımından incelemektedir. Yazıdan alınan altı cümle numaralanmıştır. (… | ✓Dört
+tur-ct-065 | T.8.4.19 | z4 | k0 | Okulda yapılan yangın tatbikatı sırasında bir öğrencinin tuttuğu notlardan dört cümle aşağıda numaralandırılmıştır. Cümlelerden b… | ✓I. cümle
+tur-ct-066 | T.8.4.19 | z4 | k0 | Bir öğrenci, eski bir kuleye çıkışını anlatan bir yazı yazmış ve cümlelerini numaralandırmıştır. (I) Kuleye sabah onda vardık. (I… | ✓Anlamca olumludur.
+tur-ct-067 | T.8.4.19 | z4 | k0 | Bir müzik topluluğunun konser provasını anlatan yazıdan dört cümle aşağıda numaralandırılmıştır. (I) Işıklar sönünce salon bir an… | ✓II. cümle bağlı cümledir.
+tur-ct-068 | T.8.4.19 | z4 | k0 | Bir yaz akşamını anlatan yazıdan dört cümle numaralandırılmıştır. (I) Hava kararınca çocuklar eve döndü. (II) Güneş batarken sahi… | ✓I ve III
+tur-ct-069 | T.8.4.19 | z4 | k0 | Bir öğrencinin dedesinden dinlediği hikâyeyi anlatan yazıdan üç cümle: (1) Kimse inanmadı bu olağanüstü hikâyeye. (2) Dedem anlat… | ✓I, II ve III
+tur-ct-070 | T.8.4.19 | z4 | k0 | Bir öğrenci, okul hayatından aldığı dört cümleyi yapı bakımından sınıflandıracaktır. (I) Öğrenci tahtaya yazılanı defterine geçir… | ✓III. cümle
+tur-ct-071 | T.8.4.19 | z4 | k0 | Bir öğrenci, harita okuma çalışmasında geçen cümlelerde 've' bağlacının neyi bağladığını incelemektedir. Aşağıdaki dört cümle num… | ✓I. cümle
+tur-ct-072 | T.8.4.19 | z4 | k0 | Bir öğrenci, sınıf içinde duyduğu altı cümleyi numaralandırarak yüklemin yerine göre inceleyecektir. (1) Sınıfın camını kim açtı?… | ✓2 ve 4
+tur-ct-073 | T.8.4.19 | z4 | k0 | Bir öğrenci, sınav sonuçlarının açıklandığı günü anlatırken altı cümle yazdı. (1) Dünkü sınavın sonuçları bugün açıklandı. (2) So… | ✓Üç
+tur-ct-074 | T.8.4.19 | z4 | k0 | Bir öğrenci, günlük konuşmalardan topladığı cümleleri anlam bakımından sınıflandırmaktadır. Cümleler aşağıda numaralandırılmıştır… | ✓IV. cümle
+tur-ct-075 | T.8.4.19 | z4 | k0 | Bir öğrenci, patenle ilk gezisini anlatan yazısından dört cümleyi numaralandırmıştır. (I) Parka sabah erkenden gittik. (II) Hava … | ✓Fiil cümlesi, devrik, olumlu, birleşik
