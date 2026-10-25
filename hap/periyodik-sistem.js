@@ -36,7 +36,7 @@ window.LGS_HAP["periyodik-sistem"] = {
         "1. periyot 1-2, 2. periyot 3-10, 3. periyot 11-18, 4. periyot 19-36 numaralı elementlerden oluşur. Bir periyodun ilk elementi her zaman **1A grubundadır**.",
         "Önce atom numarasından periyodun bittiği sayıları çıkar; kalan sayı, elementin o periyottaki **kaçıncı kutuda** olduğunu verir. 2. ve 3. periyotlarda kaçıncı kutu, A grubu numarasına eşittir.",
         "**Çözümlü örnek:** Atom numarası 16 olan elementin yeri? Adım 1: 1. periyotta 2, 2. periyotta 8 element var; 16 − 2 − 8 = 6. Adım 2: 16, 3. periyoda geçer ve o periyodun 6. elementidir. Yeri: **3. periyot, 6A grubu**.",
-        "**Alttaki komşu:** 2. periyottaki bir elementin 3. periyottaki alt komşusunun atom numarası, **8 fazladır** (2. periyotta 8 element olduğu için). Aynı grupta alt alta duran iki element benzer özellik gösterir.",
+        "**Alttaki komşu:** 2. periyottaki bir elementin 3. periyottaki alt komşusunun atom numarası, **8 fazladır** (2. periyotta 8 element olduğu için). Aynı grupta alt alta duran iki element benzer özellik gösterir. 3. periyottan 4. periyoda inerken 1A ve 2A gruplarında fark yine 8'dir (Na 11 → K 19). 3A-8A gruplarında ise araya 10 geçiş elementi girdiği için fark **18** olur; örneğin Al (13) ile Ga (31).",
         "**4. periyot (19-36):** K (19) ve Ca (20), sonra 10 kutuluk B grupları (21-30), sonra 3A-8A: Ga (31), Ge (32), As (33), Se (34), Br (35), Kr (36). Yani 4. periyotta 3A grubu 21 değil **31** numaralıdır; periyodun soygazı kriptondur.",
         "İlk 20 elementi adlarıyla sırayla bil: hidrojen (H), helyum (He); lityum (Li), berilyum (Be), bor (B), karbon (C), azot (N), oksijen (O), flor (F), neon (Ne); sodyum (Na), magnezyum (Mg), alüminyum (Al), silisyum (Si), fosfor (P), kükürt (S), klor (Cl), argon (Ar); potasyum (K), kalsiyum (Ca)."
       ],
@@ -86,7 +86,7 @@ window.LGS_HAP["periyodik-sistem"] = {
   yokla: [
     { soru: "Periyot ile grup arasındaki fark nedir? Kaç tane periyot ve grup vardır?", cevap: "Periyot yatay sıradır, 7 tanedir; grup dikey sütundur, 18 tanedir. Aynı gruptaki elementlerin kimyasal özellikleri benzerdir." },
     { soru: "Atom numarası 18 olan elementin periyodunu, grubunu ve sınıfını nasıl bulursun?", cevap: "18 − 2 − 8 = 8; 3. periyodun 8. elementidir, yani 3. periyot, 8A grubundadır; 8A olduğu için soygazdır. Üst komşusunun atom numarası 18 − 8 = 10'dur." },
-    { soru: "İlk 20 elementten hangileri yarımetal, hangileri soygazdır?", cevap: "Yarımetaller bor ve silisyumdur. Soygazlar helyum, neon ve argondur; hepsi 8A grubundadır." },
+    { soru: "İlk 20 elementten hangileri yarımetal, hangileri soygazdır?", cevap: "Yarımetaller (yarı metal diye de yazılır) bor ve silisyumdur. Soygazlar helyum, neon ve argondur; hepsi 8A grubundadır." },
     { soru: "Hidrojen 1A grubunda olduğuna göre metal midir?", cevap: "Hayır, ametaldir. 1A grubundaki tek ametaldir; öteki elementler metaldir. Sınıf için sütuna değil bölgeye bak." },
     { soru: "Helyum atom numarası 2 olduğu için 2A grubunda mıdır?", cevap: "Hayır. 1. periyotta yalnızca iki kutu vardır; helyum en sağdaki kutuda, yani 8A grubunda yer alan bir soygazdır." }
   ]

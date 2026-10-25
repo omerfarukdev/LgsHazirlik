@@ -88,3 +88,213 @@ fen-ps-012 | F.8.4.1.1 | z3 | k0 | Ali, periyodik sistemin ilk dört periyodunu 
 fen-ps-013 | F.8.4.1.2 | z4 | k0 | Aşağıdaki dikey kesit, periyodik sistemin ilk dört periyodundan alınmıştır. Kesitteki X, Y ve Z elementleri periyodik sistemdeki … | ✓I, II ve III
 fen-ps-014 | F.8.4.1.2 | z4 | k0 | Bir kutu oyununda oyuncular, ellerindeki ipucu kartlarına bakarak gizli X elementini bulmaya çalışmaktadır. X'in atom numarası 1 … | ✓5A grubunda yer alması
 fen-ps-015 | F.8.4.1.2 | z4 | k0 | Ece, periyodik sistemin ilk üç periyodundan, aynı periyotta yer alan ve atom numaraları ardışık olan üç element seçecektir. Seçec… | ✓2
+fen-ps-126 | F.8.4.1.1 | z1 | k1 | Okul laboratuvarındaki periyodik tablo posterinde her kutuda elementin sembolünün yanında bir atom numarası yazmaktadır. Atom num… | ✓Çekirdekteki proton sayısını
+fen-ps-127 | F.8.4.1.2 | z1 | k1 | Bir müzenin element panosunda argon (Ar) kartı, periyodik tablonun 3. periyodunun son elementi olarak gösterilecektir. Argonun at… | ✓En sağdaki sütunda
+fen-ps-128 | F.8.4.1.1 | z1 | k1 | Fen laboratuvarındaki periyodik tablo posterinde 3. periyot, sol baştan sağ başa doğru parmakla izlenmektedir. Bir periyotta sold… | ✓Artar.
+fen-ps-129 | F.8.4.1.2 | z1 | k1 | Bir bilim fuarı standında alüminyum (Al) elementi tanıtılmaktadır. Alüminyum, periyodik tablonun 3. periyodunda, 3A grubunda yer … | ✓Metal
+fen-ps-130 | F.8.4.1.2 | z1 | k1 | Bilim fuarındaki element kartı oyununda bir öğrenciden "ametal" kartını seçmesi istenmiştir. Masada dört kart vardır. Aşağıdaki k… | ✓Kükürt (S)
+fen-ps-131 | F.8.4.1.1 | z1 | k1 | Bir ders kitabı etkinliğinde sodyum (Na), klor (Cl) ve argon (Ar) elementlerinin periyodik tabloda aynı yatay sırada yer aldığı g… | ✓Aynı periyottadırlar.
+fen-ps-132 | F.8.4.1.1 | z1 | k1 | Atom numarası 1 olan hidrojen, periyodik tablodaki ilk kutuyu oluşturur. Hidrojenin periyodik tablodaki yeri aşağıdakilerden hang… | ✓1. periyot, 1A grubu
+fen-ps-133 | F.8.4.1.2 | z1 | k1 | Bir öğrenci, periyodik tabloda element sınıflarının yerlerini poster üzerinde eşleştirmektedir. Aşağıdaki eşleştirmelerden hangis… | ✓Soygazlar – en sağdaki sütun
+fen-ps-134 | F.8.4.1.2 | z1 | k1 | Bir öğrenci, atom numarası 1 ile 20 arasındaki elementlerden yarımetal olanların adlarını bir kartın üzerine yazacaktır. Kartın ü… | ✓Bor ve silisyum
+fen-ps-135 | F.8.4.1.1 | z1 | k1 | Periyodik tablonun 3. periyodu, atom numarası 11 olan sodyumla başlar ve atom numarası 18 olan argonla biter. 3. periyotta kaç el… | ✓8
+fen-ps-136 | F.8.4.1.1 | z1 | k1 | Bir element kartları oyununda lityum (Li), sodyum (Na) ve potasyum (K) kartları aynı destede toplanmıştır. Bu kartların aynı dest… | ✓Aynı grupta bulunmaları
+fen-ps-137 | F.8.4.1.1 | z1 | k1 | Bir öğrenci, element sembollerini yazdığı dört kart dizisini periyodik tablodaki sıraya göre dizmiştir. Aşağıdaki dizilerden hang… | ✓Na – Mg – Al
+fen-ps-138 | F.8.4.1.2 | z1 | k1 | Kripton (Kr) bir soygazdır. Aşağıdaki elementlerden hangisi kriptonla aynı element sınıfındadır? | ✓Helyum (He)
+fen-ps-139 | F.8.4.1.1 | z1 | k1 | Fen öğretmeni, panodaki periyodik tablonun ilk üç periyodunda yalnızca A gruplarının bulunduğunu, tablonun ortasındaki B grupları… | ✓4. periyot
+fen-ps-140 | F.8.4.1.1 | z1 | k1 | Şekilde periyodik tablonun ilk üç periyodunun A grupları gösterilmiş, bir element X harfiyle işaretlenmiştir. (X gerçek bir eleme… | ✓3. periyot, 6A grubu
+fen-ps-141 | F.8.4.1.2 | z1 | k1 | Şekilde periyodik tablonun ilk üç periyodunun A grupları gösterilmiş ve dört kutu harflerle işaretlenmiştir. (Harfler gerçek elem… | ✓L
+fen-ps-142 | F.8.4.1.1 | z1 | k1 | Bir öğrenci, atom numarası 8 olan oksijenin periyodik tablodaki grubunu bulacaktır. Periyodik tablonun 1. periyodunda 2, 2. periy… | ✓6A grubu
+fen-ps-143 | F.8.4.1.1 | z1 | k1 | Berilyum (Be), magnezyum (Mg) ve kalsiyum (Ca) periyodik tablonun 2A grubunda yukarıdan aşağıya doğru bu sırayla dizilir. Sodyum … | ✓Kalsiyum (Ca)
+fen-ps-144 | F.8.4.1.1 | z1 | k1 | Bir öğrenci, periyodik tablodaki her periyodun hangi gruptaki elementle başladığını araştırmaktadır. Her periyot hangi gruptaki e… | ✓1A grubu
+fen-ps-145 | F.8.4.1.2 | z1 | k1 | Bir kart oyununda iki ametal kartı eşleştiren oyuncu puan kazanmaktadır. Oyuncunun elinde dört kart çifti vardır. Aşağıdaki kart … | ✓Oksijen – Flor
+fen-ps-146 | F.8.4.1.2 | z1 | k1 | Bir öğrenci, periyodik tablodaki bazı elementlerin sınıflarıyla ilgili dört cümle yazmıştır. Bu cümlelerden hangisi doğrudur? | ✓Magnezyum bir metaldir.
+fen-ps-147 | F.8.4.1.1 | z1 | k1 | Bir bilim müzesinde periyodik tablonun düzenini anlatan bir pano hazırlanmaktadır. Günümüzde periyodik tabloda elementlerin sıral… | ✓Atomların çekirdeğindeki proton sayısı
+fen-ps-148 | F.8.4.1.2 | z1 | k1 | Periyodik tablodaki bazı elementlerle ilgili aşağıdaki yargılar verilmiştir. I. Lityum bir metaldir. II. Karbon bir ametaldir. II… | ✓I ve II
+fen-ps-149 | F.8.4.1.1 | z1 | k1 | Şekilde periyodik tablonun ilk üç periyodunun A grupları gösterilmiş ve dört kutu harflerle işaretlenmiştir. (Harfler gerçek elem… | ✓V
+fen-ps-150 | F.8.4.1.1 | z2 | k1 | Bir fen kitabındaki periyodik tablo kesitinde dört element D, E, G ve J harfleriyle gösterilmiştir. (Harfler gerçek element sembo… | ✓II ve III
+fen-ps-151 | F.8.4.1.2 | z2 | k1 | Bir kutu oyununda öğrencilere "Atom numarası 16 olan elementin kartını bulun." görevi verilmiştir. Kartların üzerinde elementin y… | ✓3. periyot, 6A grubu, ametal
+fen-ps-152 | F.8.4.1.1 | z2 | k1 | Bir maden suyu şişesinin etiketinde magnezyum (Mg, 12), kalsiyum (Ca, 20), sodyum (Na, 11) ve kükürt (S, 16) elementlerinin adı y… | ✓Magnezyum ve kalsiyum
+fen-ps-153 | F.8.4.1.2 | z2 | k1 | Bitki gübrelerinde sık kullanılan azot (N), fosfor (P) ve potasyum (K) elementlerinin atom numaraları sırasıyla 7, 15 ve 19'dur. … | ✓Yalnız II
+fen-ps-154 | F.8.4.1.2 | z2 | k1 | Alüminyum (atom numarası 13) ve klor (atom numarası 17) elementleriyle ilgili aşağıdaki yargılar verilmiştir. Periyodik tablonun … | ✓Yalnız I
+fen-ps-155 | F.8.4.1.2 | z2 | k1 | Fen laboratuvarında dört element tüpü, sınıflarına göre dört ayrı rafa yerleştirilecektir: metal, yarımetal, ametal ve soygaz. Tü… | ✓Be: metal, Si: yarımetal, N: ametal, Ne: soy…
+fen-ps-156 | F.8.4.1.1 | z2 | k1 | Q, R ve S elementleri periyodik tablonun ilk üç periyodunda yer almaktadır. Q elementi 2. periyodun 6A grubunda, R elementi 3. pe… | ✓I ve II
+fen-ps-157 | F.8.4.1.1 | z2 | k1 | Bir kutu oyununda her kartta bir elementin yeri verilmiş ve elementin atom numarası sorulmuştur. Bir oyuncunun çektiği kartta "3.… | ✓13
+fen-ps-158 | F.8.4.1.1 | z2 | k1 | Sodyum (Na), potasyum (K) ve kalsiyum (Ca) elementlerinin atom numaraları sırasıyla 11, 19 ve 20'dir. Periyodik tablonun 1. periy… | ✓I ve II
+fen-ps-159 | F.8.4.1.2 | z2 | k1 | Şekilde periyodik tablonun ilk üç periyodundan alınan dört elementin sembolü ve atom numarası verilmiştir. I. C ile Si aynı grupt… | ✓I, II ve III
+fen-ps-160 | F.8.4.1.2 | z2 | k1 | Bir bilim fuarı posterinde 2. periyotta yer alan lityum (Li), bor (B) ve oksijen (O) elementleri soldan sağa bu sırayla dizilmiş,… | ✓Metal – yarımetal – ametal
+fen-ps-161 | F.8.4.1.2 | z2 | k1 | 3. periyotta atom numarası 11'den 18'e kadar sekiz element vardır: sodyum, magnezyum, alüminyum, silisyum, fosfor, kükürt, klor v… | ✓3
+fen-ps-162 | F.8.4.1.1 | z2 | k1 | Fosfor (P) elementinin atom numarası 15'tir. Periyodik tablonun 2. ve 3. periyotlarında 8'er element bulunur. Fosforun periyodik … | ✓Azot (N)
+fen-ps-163 | F.8.4.1.1 | z2 | k1 | Müzedeki bir elementler sergisinde atom numaraları 4, 12 ve 20 olan üç element yan yana sergilenmektedir. Periyodik tablonun 1. p… | ✓Aynı gruptadırlar ve kimyasal özellikleri be…
+fen-ps-164 | F.8.4.1.2 | z2 | k1 | Fen kulübü, atom numarası 1 ile 20 arasındaki elementlerden alınan altı elementi sınıflandırmaktadır: karbon, silisyum, hidrojen,… | ✓4
+fen-ps-165 | F.8.4.1.2 | z2 | k1 | Şekilde periyodik tablonun ilk üç periyodunun A grupları gösterilmiştir. Tablodaki iki kutu ★ ve ■ sembolleriyle işaretlenmiştir.… | ✓★: metal, ■: ametal
+fen-ps-166 | F.8.4.1.1 | z2 | k1 | Bir sayı kartı oyununda iki kart çekilmekte ve kartlardaki atom numaralarına ait elementlerin aynı grupta olup olmadığı sorulmakt… | ✓7 ve 15
+fen-ps-167 | F.8.4.1.2 | z2 | k1 | Bir fen öğretmeni periyodik tabloyla ilgili dört cümle yazmış ve öğrencilerinden yanlış olanı bulmalarını istemiştir. Aşağıdaki c… | ✓Yalnızca A gruplarındaki elementler metaldir.
+fen-ps-168 | F.8.4.1.1 | z2 | k1 | Periyodik tablonun 4. periyodunda 19 ve 20 numaralı iki element (1A ve 2A) bulunur; bunlardan sonra 10 tane B grubu elementi (21'… | ✓31
+fen-ps-169 | F.8.4.1.2 | z2 | k1 | Şekilde periyodik tablonun ilk üç periyodunun A grupları gösterilmiş ve dört kutu U, W, Y ve Z harfleriyle işaretlenmiştir. (Harf… | ✓I ve III
+fen-ps-170 | F.8.4.1.2 | z2 | k1 | Bir öğrenci, periyodik tablodaki element gruplarıyla ilgili dört yargı yazmıştır. Bu yargılardan hangisi doğrudur? | ✓Bütün B grubu elementleri metaldir.
+fen-ps-171 | F.8.4.1.2 | z2 | k1 | Bir bilim kulübü, 3. periyotta yer alan bir ametali tanıtan bir element kartı hazırlamaktadır. Aşağıdaki elementlerden hangisi bu… | ✓Fosfor (P)
+fen-ps-172 | F.8.4.1.1 | z2 | k1 | Defne, "Klor ve argon aynı periyotta olduğu için kimyasal özellikleri birbirine benzerdir." demiştir. Defne'nin yargısındaki hata… | ✓Benzer özellik, aynı periyotta değil aynı gr…
+fen-ps-173 | F.8.4.1.2 | z2 | k1 | Bir öğrenci, periyodik tablodaki dört elementin yerini aşağıdaki tabloya yazmıştır. (Harfler gerçek element sembolleri değildir.)… | ✓R
+fen-ps-174 | F.8.4.1.2 | z2 | k1 | Bir bilmece oyununda her ipucu kartında bir element sınıfı ve bir periyot yazmaktadır. Kartın yalnızca tek bir elementi anlatması… | ✓Yarımetal ve 3. periyot
+fen-ps-175 | F.8.4.1.2 | z2 | k1 | Bir öğrenci, laboratuvardaki element tüplerinin etiketlerini inceledikten sonra aşağıdaki yargıları yazmıştır. I. Kükürt bir yarı… | ✓II ve III
+fen-ps-226 | F.8.4.1.1 | z2 | k2 | Bir bilim müzesinin duvar panosunda periyodik sistemin ilk üç periyodu gösterilmiş, beş elementin yeri harflerle işaretlenmiştir.… | ✓N
+fen-ps-227 | F.8.4.1.2 | z2 | k2 | Bir element kartı oyununda Selin'in çektiği kartta yalnızca "Atom numarası: 15" yazmaktadır. Selin'in puan alması için bu element… | ✓3. periyot, 5A grubu – ametal
+fen-ps-228 | F.8.4.1.1 | z2 | k2 | Bilim fuarındaki bir standın panosunda periyodik sistemin ilk üç periyodu gösterilmiş ve dört kutu X, Y, Z ve T harfleriyle işare… | ✓Yalnız II
+fen-ps-229 | F.8.4.1.2 | z2 | k2 | Bir jeoloji kampında eğitmen, kayada bulunan elementlerden dördünün periyodik sistemdeki yerini şekilde harflerle göstermiştir. Ö… | ✓Q
+fen-ps-230 | F.8.4.1.1 | z2 | k2 | Bir fen laboratuvarındaki periyodik sistem posterinde 1. periyot 2, 2. periyot 8, 3. periyot 8 elementten oluşmaktadır. Bir öğren… | ✓13
+fen-ps-231 | F.8.4.1.1 | z2 | k2 | Bir okul laboratuvarındaki gaz tüplerinin etiketlerinde helyum (He), neon (Ne) ve argon (Ar) yazmaktadır. Bu elementlerin periyod… | ✓Yalnız I
+fen-ps-232 | F.8.4.1.2 | z2 | k2 | Bir müzenin "Elementler" bölümünde dört elementin sınıfını gösteren bir levha sergilenmektedir. Levhadaki bilgilerden yalnızca bi… | ✓Silisyum
+fen-ps-233 | F.8.4.1.1 | z2 | k2 | Bir bilim şenliğinde dört element kartı dağıtılmıştır. Kartlarda yalnızca elementin periyodik sistemdeki yeri yazılıdır (ilk üç p… | ✓T > R > Q > S
+fen-ps-234 | F.8.4.1.1 | z2 | k2 | Periyodik sistemin 1. periyodunda 2, 2. ve 3. periyotlarında 8'er element bulunur; 4. periyot atom numarası 19 olan elementle baş… | ✓4. periyot, 2A grubu
+fen-ps-235 | F.8.4.1.2 | z2 | k2 | Bir mobil bilim oyununda oyuncuya periyodik sistemin ilk üç periyodu gösterilmiş ve dört kutu L, M, R ve T harfleriyle işaretlenm… | ✓II ve III
+fen-ps-236 | F.8.4.1.2 | z2 | k2 | Bir ders kitabı etkinliğinde 18 sütunlu periyodik sistemin ilk dört periyodu verilmiş, taralı kutuların yarımetal olduğu belirtil… | ✓X
+fen-ps-237 | F.8.4.1.1 | z2 | k2 | Zeynep, atom numaraları 11, 12, 13, 14, 15, 16, 17 ve 18 olan sekiz element kartını periyodik sistemin boş bir şablonuna yerleşti… | ✓Aynı yatay sıraya, soldan sağa doğru
+fen-ps-238 | F.8.4.1.2 | z2 | k2 | Bir bilim şenliğinde bir oyun standında dört element kartı bulunmaktadır. Kartlarda yalnızca elementin periyodik sistemdeki yeri … | ✓L ve N
+fen-ps-239 | F.8.4.1.1 | z2 | k2 | Cem, periyodik sistemin ilk üç periyodunu gösteren şekle bakarak defterine bazı yargılar yazmıştır. Şekilde dört kutu Q, R, S ve … | ✓I ve III
+fen-ps-240 | F.8.4.1.2 | z2 | k2 | Bir bilim fuarında yarışmacıya şu ipucu verilmiştir: "Aklımdaki element periyodik sistemin 3. periyodunda yer alıyor ve bir soyga… | ✓18
+fen-ps-241 | F.8.4.1.1 | z2 | k2 | Aşağıdaki tabloda periyodik sistemin ilk dört periyodundan seçilen dört elementin yeri verilmiştir. (Harfler gerçek element sembo… | ✓Yalnız III
+fen-ps-242 | F.8.4.1.2 | z2 | k2 | Bir müzedeki rehber, ziyaretçilere periyodik sistemde elementlerin sınıflara göre nasıl dağıldığını anlatmaktadır. Rehberin anlat… | ✓B gruplarındaki elementlerin hepsi metaldir.
+fen-ps-243 | F.8.4.1.1 | z2 | k2 | Bir element kartı eşleştirme oyununda her kartın üzerinde yalnızca atom numarası yazmaktadır. Oyunun kuralı, periyodik sistemde a… | ✓12 ve 20
+fen-ps-244 | F.8.4.1.2 | z2 | k2 | Ece, periyodik sistemin ilk üç periyodu üzerinde üç elementin yerini P, R ve S harfleriyle işaretlemiş ve sınıfları hakkında şu y… | ✓I ve II
+fen-ps-245 | F.8.4.1.1 | z2 | k2 | Bir fen etkinliğinde öğrencilere atom numarası 14 olan elementin periyodik sistemdeki grubu sorulmuştur. Periyodik sistemin 1. pe… | ✓4A
+fen-ps-246 | F.8.4.1.2 | z2 | k2 | Sude, periyodik sistemin 1., 2. ve 3. periyotlarının son elementlerinin adlarını sırasıyla bir kartın üzerine yazmıştır. Sude'nin… | ✓Helyum, neon, argon
+fen-ps-247 | F.8.4.1.1 | z2 | k2 | Alüminyumun atom numarası 13'tür. Periyodik sistemin 1. periyodunda 2, 2. ve 3. periyotlarında 8'er element bulunur. Bir öğrenci,… | ✓5
+fen-ps-248 | F.8.4.1.2 | z2 | k2 | Bir öğrenci, atom numaraları 2, 10, 17 ve 18 olan dört elementin kartını bir kutuya koymuştur. Periyodik sistemin 1. periyodunda … | ✓3
+fen-ps-249 | F.8.4.1.1 | z2 | k2 | Aşağıdaki şekilde periyodik sistemin ilk üç periyodunda üç elementin yeri D, E ve G harfleriyle gösterilmiştir. (Harfler gerçek e… | ✓Yalnız III
+fen-ps-250 | F.8.4.1.2 | z2 | k2 | Bir bilim kulübü üyesi, atom numarası 1'den 20'ye kadar olan elementler arasından, yarımetal sınıfında yer alan iki elementi bir … | ✓Bor ve silisyum
+fen-ps-251 | F.8.4.1.1 | z2 | k2 | Bir bilgi yarışmasında X elementinin periyodik sistemde 2. periyot, 5A grubunda yer aldığı söylenmiştir. Y elementi ise X ile ayn… | ✓9
+fen-ps-252 | F.8.4.1.1 | z3 | k2 | Bir sergide 18 sütunlu periyodik sistemin ilk dört periyodu duvara çizilmiş ve ziyaretçilerden dört kutuya çıkartma yapıştırmalar… | ✓I ve II
+fen-ps-253 | F.8.4.1.2 | z3 | k2 | Aysel, ilk üç periyodun A gruplarını gösteren bir tahtada beş kutuyu K, L, M, N ve P harfleriyle işaretlemiştir. Arkadaşı Tuna'da… | ✓L ve N
+fen-ps-254 | F.8.4.1.2 | z3 | k2 | Bir dijital bilim oyununda öğrenciler, periyodik sistemin ilk üç periyodunu içeren bir tahtada dört elementi M, N, P ve R harfler… | ✓I ve II
+fen-ps-255 | F.8.4.1.1 | z3 | k2 | Bir okul laboratuvarının duvarındaki periyodik sistem posterinde dört element işaretlenmiş ve işaretli kutulara elementlerin semb… | ✓I, II ve III
+fen-ps-256 | F.8.4.1.1 | z3 | k2 | Bir bilim fuarında dört element kartı hazırlanmıştır. Kartlarda element adı yoktur; yalnızca K, L, M ve N harfleriyle birlikte at… | ✓K ve M
+fen-ps-257 | F.8.4.1.2 | z3 | k2 | Şekilde 18 sütunlu periyodik sistemin ilk dört periyodu verilmiştir. Taralı kutular yarımetallerin yerini göstermektedir. Dört ku… | ✓Yalnız I
+fen-ps-258 | F.8.4.1.1 | z3 | k2 | Bir öğrenci, periyodik sistemin 4. periyodunda 3A grubunda bulunan elementin atom numarasını bulmaya çalışmaktadır. 4. periyot at… | ✓31
+fen-ps-259 | F.8.4.1.2 | z3 | k2 | Bir hafıza kartı oyununda her kartın bir yüzünde elementin periyodik sistemdeki yeri yazılıdır (ilk üç periyodun A grupları). Kar… | ✓II ve III
+fen-ps-260 | F.8.4.1.2 | z3 | k2 | Bir fen kulübünde, atom numarası 1'den 20'ye kadar olan elementlerin her biri için birer kart hazırlanmıştır. Kartlar; metal, yar… | ✓7
+fen-ps-261 | F.8.4.1.1 | z3 | k2 | Periyodik sistemin ilk üç periyodunu gösteren şekilde dört kutu Q, R, S ve T harfleriyle işaretlenmiştir. Bu şekle bakan bir öğre… | ✓Yalnız I
+fen-ps-262 | F.8.4.1.2 | z3 | k2 | Şekilde periyodik sistemin ilk üç periyodunda yedi kutu X, Y, Z, T, P, R ve U harfleriyle işaretlenmiştir. Sütunların üstünde gru… | ✓2
+fen-ps-263 | F.8.4.1.2 | z3 | k2 | Bir sınıf etkinliğinde dört element kartı dağıtılmıştır; kartlarda yalnızca elementin periyodik sistemdeki yeri yazılıdır (ilk üç… | ✓I ve III
+fen-ps-264 | F.8.4.1.2 | z3 | k2 | Bir bilgi yarışmasında şu ipucu verilmiştir: "X elementi periyodik sistemin 2. periyodunda yer alan bir ametaldir ve atom numaras… | ✓3
+fen-ps-265 | F.8.4.1.1 | z3 | k2 | Bir müzede ziyaretçilere dört element kartı gösterilmiştir. Kartlarda elementlerin atom numaraları yazılıdır. Periyodik sistemin … | ✓Yalnız III
+fen-ps-266 | F.8.4.1.2 | z3 | k2 | Bir bilim kulübünde iki arkadaş element tahmin oyunu oynamaktadır. Doğa, "X elementinin hemen altındaki kutuda atom numarası 16 o… | ✓2. periyot, 6A grubu – ametal
+fen-ps-267 | F.8.4.1.2 | z3 | k2 | Aşağıdaki şekilde periyodik sistemin ilk üç periyodunda dört element işaretlenmiş; kutulara elementlerin sembolleri ile atom numa… | ✓I, II ve III
+fen-ps-268 | F.8.4.1.1 | z3 | k2 | Periyodik sistemde X ve Y elementleri aynı gruptadır ve X'in atom numarası Y'ninkinden küçüktür. Elementlerin hangi grupta ya da … | ✓X, tabloda Y'nin üstünde yer alır.
+fen-ps-269 | F.8.4.1.2 | z3 | k2 | Cem, defterine atom numaraları 5, 9, 14 ve 18 olan dört elementle ilgili şu yargıları yazmıştır. Periyodik sistemin 1. periyodund… | ✓I ve III
+fen-ps-270 | F.8.4.1.2 | z3 | k2 | Elif, ilk üç periyodun A gruplarında yer alan dört kutunun sınıfını bir çizelgeye yazmıştır. Öğretmeni, çizelgenin yalnızca bir s… | ✓1. satır
+fen-ps-271 | F.8.4.1.1 | z3 | k2 | Aşağıdaki tabloda periyodik sistemin ilk üç periyodunda yer alan üç elementin yeri verilmiştir. (Harfler gerçek element semboller… | ✓I ve II
+fen-ps-272 | F.8.4.1.2 | z3 | k2 | Şekilde 18 sütunlu periyodik sistemin ilk üç periyodu verilmiştir. Taralı kutular yarımetallerin yerini göstermektedir. Beş kutu … | ✓P ve T
+fen-ps-273 | F.8.4.1.1 | z3 | k2 | Periyodik sistemin ilk üç periyodunu gösteren şekilde dört kutu Q, R, S ve T harfleriyle işaretlenmiştir. Fen bilimleri öğretmeni… | ✓II ve III
+fen-ps-274 | F.8.4.1.1 | z3 | k2 | Bir kutu oyununda iki ipucu kartı çekilmiştir: "X ve Y elementleri periyodik sistemin aynı grubundadır. X, 2. periyotta yer alır;… | ✓6A
+fen-ps-275 | F.8.4.1.2 | z3 | k2 | Aşağıdaki tabloda dört element kartının üzerindeki bilgiler verilmiştir (ilk üç periyodun A grupları). Kartlardaki elementlerin s… | ✓Yalnız I
+fen-ps-326 | F.8.4.1.1 | z3 | k3 | Bilim kulübü, sergi panosuna periyodik sistemin ilk üç periyodunu çizmiş ve dört kutuyu X, Y, Z ve T harfleriyle işaretlemiştir. … | ✓I ve III
+fen-ps-327 | F.8.4.1.2 | z3 | k3 | Bir element kartları oyununda altı oyuncu, ilk üç periyodu gösteren oyun tahtasına birer kart koymuştur. Kartların yerleri K, L, … | ✓5
+fen-ps-328 | F.8.4.1.1 | z3 | k3 | Gizem'in kutu oyununda her oyuncu, atom numarası 8 olan elementin kutusunu bulmakta; bu kutunun hemen altındaki kutunun atom numa… | ✓25
+fen-ps-329 | F.8.4.1.2 | z3 | k3 | Bir müzenin "Elementler" panosunda, periyodik sistemin 2. ve 3. periyotlarından alınmış bir kesit gösterilmektedir. Kutulara elem… | ✓II ve III
+fen-ps-330 | F.8.4.1.1 | z3 | k3 | Bilim şenliğinde bir ziyaretçiye, atom numaraları aşağıdaki tabloda verilen dört element kartı dağıtılmıştır. Kartlar X, Y, Z ve … | ✓Yalnız II
+fen-ps-331 | F.8.4.1.2 | z3 | k3 | Okul laboratuvarındaki çalışma kâğıdında periyodik sistemin ilk üç periyodu çizilmiş ve dört kutu K, L, M ve N harfleriyle işaret… | ✓K ile L aynı gruptadır ve ikisi de metaldir.
+fen-ps-332 | F.8.4.1.2 | z3 | k3 | Kimya laboratuvarındaki bir bilmece kartında şu soru yazmaktadır: "Atom numarası 14 olan elementle aynı grupta bulunan ve 2. peri… | ✓Ametal
+fen-ps-333 | F.8.4.1.1 | z3 | k3 | Bir eğitim yazılımı, periyodik sistemin ilk dört periyodunu 18 sütunlu biçimde göstermektedir. Yazılım dört kutuyu X, Y, Z ve T h… | ✓II ve III
+fen-ps-334 | F.8.4.1.2 | z3 | k3 | Bir ders kitabının etkinliğinde, periyodik sistemin 2. ve 3. periyotlarından bir kesit verilmiştir. Kesitte bazı elementlerin ger… | ✓Ametaldir; azotla aynı gruptadır.
+fen-ps-335 | F.8.4.1.1 | z3 | k3 | Defne, atom numaraları ardışık olan üç elementin kartını hazırlamıştır. Kartlar, atom numarası en küçük olandan başlayarak X, Y v… | ✓II ve III
+fen-ps-336 | F.8.4.1.2 | z3 | k3 | Bir bilim şenliğinde periyodik sistemin ilk üç periyodu bir panoya çizilmiş ve üç kutu K, L ve M harfleriyle işaretlenmiştir. Pan… | ✓Yalnız III
+fen-ps-337 | F.8.4.1.1 | z3 | k3 | Bir element kartında yalnızca atom numarası yazılıdır: 34. Periyodik sistemin 4. periyodu 19 numaralı elementle başlar. Bu periyo… | ✓6A
+fen-ps-338 | F.8.4.1.2 | z3 | k3 | Okul bilim şenliğinde bir öğrenci, "aynı grupta olduğu hâlde farklı sınıflarda yer alan iki element" örneği bulmaya çalışmaktadır… | ✓Karbon – silisyum
+fen-ps-339 | F.8.4.1.1 | z3 | k3 | Bilim yarışmasında periyodik sistemin ilk üç periyodunda beş kutu X, Y, Z, T ve R harfleriyle işaretlenmiştir. Yarışmacılardan, e… | ✓Y
+fen-ps-340 | F.8.4.1.2 | z3 | k3 | Kerem, periyodik sistemde atom numarası 12 olan elementi bulmuş ve şu notu yazmıştır: "X elementi, atom numarası 12 olan elementl… | ✓Yalnız I
+fen-ps-341 | F.8.4.1.2 | z3 | k3 | Bir okul sergisinde periyodik sistemin ilk dört periyodu 18 sütunlu biçimde gösterilmiştir. Beş kutu X, Y, Z, T ve R harfleriyle … | ✓Metal, metal, yarı metal, ametal, soygaz
+fen-ps-342 | F.8.4.1.2 | z3 | k3 | Kimya öğretmeni tahtaya atom numaraları 6, 13, 16 ve 18 olan dört elementi yazmış ve öğrencilerden bu elementlerin sınıflarını bu… | ✓Ametal, metal, ametal, soygaz
+fen-ps-343 | F.8.4.1.2 | z3 | k3 | Sude, periyodik sistemin ilk üç periyodunu çizip aşağıdaki gibi bir bölgeyi taramıştır. Taralı bölge için şu yargıları yazmıştır:… | ✓I ve II
+fen-ps-344 | F.8.4.1.2 | z3 | k3 | Bir ders kitabı etkinliğinde şu soru sorulmuştur: "Periyodik sistemin ilk üç periyodundaki 18 elementin kaç tanesi ametaldir?" Et… | ✓8
+fen-ps-345 | F.8.4.1.2 | z3 | k3 | Bir yayınevi, periyodik sistemde grupları 1'den 18'e kadar numaralayan bir poster hazırlamıştır. Posterde "17. grup, 2. periyot",… | ✓Ametal, yarı metal, soygaz
+fen-ps-346 | F.8.4.1.1 | z3 | k3 | Bir bilim dergisindeki bulmacada, periyodik sistemin ilk üç periyodundan alınan bir kesitte bazı kutuların yalnızca atom numarala… | ✓14; yarı metal
+fen-ps-347 | F.8.4.1.2 | z3 | k3 | Bir ipucu oyununda şu bilgi verilmiştir: "Periyodik sistemin 3. periyodundayım ve bir soygazım." Oyuncudan, bu elementin hemen üs… | ✓Neon
+fen-ps-348 | F.8.4.1.1 | z3 | k3 | Duru, periyodik sistemin 1A grubundaki ilk üç kutuyu X, Y ve Z harfleriyle işaretlemiş ve bu kutular için şu yargıları yazmıştır:… | ✓Yalnız II
+fen-ps-349 | F.8.4.1.2 | z3 | k3 | Bir bilim merkezinde ziyaretçilerden, periyodik sistemin ilk üç periyodunda işaretli kutulardan yararlanarak bir eşleştirme yapma… | ✓P ve R
+fen-ps-350 | F.8.4.1.1 | z3 | k3 | Bir kimya sınıfında, periyodik sistemin ilk dört periyodu 18 sütunlu biçimde çizilmiş ve dört kutu X, Y, Z ve T harfleriyle işare… | ✓I ve III
+fen-ps-351 | F.8.4.1.1 | z3 | k3 | Eda, ilk 20 element arasından beş elementin periyodik sistemdeki yerini aşağıdaki tabloya yazmıştır. Öğretmeni, periyodu ve grubu… | ✓3
+fen-ps-352 | F.8.4.1.2 | z3 | k3 | Bir fen laboratuvarında, oda koşullarında gaz hâlinde bulunan yedi elementin kartı hazırlanmıştır. Kartlarda yalnızca atom numara… | ✓3
+fen-ps-353 | F.8.4.1.1 | z3 | k3 | Z elementi periyodik sistemin 2. periyodunda, 8A grubunda yer almaktadır. T elementinin atom numarası, Z'ninkinden 1 fazladır. (H… | ✓3. periyot, 1A
+fen-ps-354 | F.8.4.1.1 | z3 | k3 | Bir okul sergisinde periyodik sistemin ilk üç periyodunda dört kutu K, L, M ve N harfleriyle işaretlenmiştir. Bir öğrenci işaretl… | ✓Yalnız II
+fen-ps-355 | F.8.4.1.2 | z3 | k3 | Bir bilim kulübü, periyodik sistemin ilk üç periyodunu gösteren bir pano hazırlamış ve beş kutuyu A, B, C, D ve E harfleriyle işa… | ✓D ile E aynı periyottadır ve ikisi de ametal…
+fen-ps-356 | F.8.4.1.2 | z4 | k3 | Okul bilim şenliğinde periyodik sistemin 2. ve 3. periyotlarından bir kesit sergilenmiştir. Kesitte B, C, O, Al ve S gerçek eleme… | ✓Yalnız II
+fen-ps-357 | F.8.4.1.1 | z4 | k3 | Bir kaçış odası oyununda kasanın şifresi, Y, X ve Z ile gösterilen kutulardaki elementlerin atom numaralarının toplamıdır. Kutula… | ✓41
+fen-ps-358 | F.8.4.1.2 | z4 | k3 | Bilim şenliğinde periyodik sistemin ilk üç periyodunda yedi kutu A, B, C, D, E, F ve G harfleriyle işaretlenmiştir. Ziyaretçilerd… | ✓A ile G aynı gruptadır; ikisi de soygazdır v…
+fen-ps-359 | F.8.4.1.2 | z4 | k3 | Bir bilgi yarışmasında dört element kartı çekilmiştir. Kartlarda elementlerin adı yoktur; yalnızca periyodik sistemdeki periyot v… | ✓Ametal; metal
+fen-ps-360 | F.8.4.1.2 | z4 | k3 | X ve Y elementleri periyodik sistemin aynı periyodunda yer almaktadır. Y bir metaldir ve X'in atom numarası Y'ninkinden küçüktür.… | ✓X bir metaldir.
+fen-ps-361 | F.8.4.1.1 | z4 | k3 | X ve Y elementleri periyodik sistemin aynı grubunda yer almaktadır. X, 2. periyotta yer alan ve 4A, 5A, 6A ya da 7A gruplarından … | ✓Yalnız I
+fen-ps-362 | F.8.4.1.2 | z4 | k3 | X, Y ve Z elementleri periyodik sistemin 2. ya da 3. periyodundan birinde, aynı satırda yer almaktadır. X o periyodun soygazıdır.… | ✓Y bir ametaldir.
+fen-ps-363 | F.8.4.1.1 | z4 | k3 | Bir kimya sınıfında, periyodik sistemin ilk dört periyodu 18 sütunlu biçimde çizilmiş ve dört kutu X, Y, Z ve T harfleriyle işare… | ✓Yalnız III
+fen-ps-364 | F.8.4.1.1 | z4 | k3 | X elementi periyodik sistemin 2. periyodunda, 7A grubunda yer almaktadır. Y elementi X'in hemen altındaki kutuda, Z elementi ise … | ✓II ve III
+fen-ps-365 | F.8.4.1.1 | z4 | k3 | Atom numarası 7 olan elementin hemen altındaki kutudaki element Y, Y'nin hemen solundaki kutudaki element ise Z'dir. Periyodik si… | ✓14; yarı metal
+fen-ps-366 | F.8.4.1.2 | z4 | k3 | Bir bulmacada şu ipuçları verilmiştir: Z elementi, periyodik sistemin 2. periyodunda yer alan yarı metaldir. T elementi, Z'nin he… | ✓Atom numarası 13'tür ve metaldir.
+fen-ps-367 | F.8.4.1.2 | z4 | k3 | Bir öğrenci, periyodik sistemin ilk üç periyodunu çizip 2. ve 3. periyotlardaki 3A, 4A, 5A ve 6A gruplarının kutularını aşağıdaki… | ✓1 metal, 2 yarı metal, 5 ametal
+fen-ps-368 | F.8.4.1.1 | z4 | k3 | Bilim şenliğinde periyodik sistemin ilk üç periyodunda dört kutu X, Y, Z ve T harfleriyle işaretlenmiştir. Periyodik sistemin 1. … | ✓X ile Z aynı gruptadır ve X'in atom numarası…
+fen-ps-369 | F.8.4.1.2 | z4 | k3 | X ve Y elementleri periyodik sistemin 2. ya da 3. periyodunda, aynı satırda yer almaktadır. X bir ametaldir ve Y'nin atom numaras… | ✓Y bir soygaz olabilir.
+fen-ps-370 | F.8.4.1.2 | z4 | k3 | Atom numarası 20 olan element, periyodik sistemin 4. periyodunun 2A grubunda yer alır. Bu elementle aynı grupta bulunan ve 2. ile… | ✓16; metal
+fen-ps-371 | F.8.4.1.1 | z4 | k3 | Bir kimya sınıfında periyodik sistemin ilk dört periyodu 18 sütunlu biçimde çizilmiş ve dört kutu X, Y, Z ve T harfleriyle işaret… | ✓2
+fen-ps-372 | F.8.4.1.2 | z4 | k3 | Bir element kartları oyununda oyunculardan, ilk üç periyottaki işaretli kutulardan "aynı periyotta bulunan ve aynı sınıfta olan" … | ✓A ve B
+fen-ps-373 | F.8.4.1.2 | z4 | k3 | X elementi periyodik sistemin 3. periyodunun 8A grubunda yer almaktadır. Y elementi X ile aynı periyotta ve X'in iki kutu solunda… | ✓8; ametal
+fen-ps-374 | F.8.4.1.2 | z4 | k3 | X elementi periyodik sistemin 3. periyodunda yer alan bir metaldir. Periyodik sistemin 1. periyodunda 2, 2. ve 3. periyotlarında … | ✓X, 1A, 2A ya da 3A grubundan birindedir.
+fen-ps-375 | F.8.4.1.1 | z4 | k3 | Bir kimya sınıfında periyodik sistemin ilk dört periyodu 18 sütunlu biçimde çizilmiş ve dört kutu X, Y, Z ve T harfleriyle işaret… | ✓X ile Z aynı periyottadır ve Z'nin atom numa…
+fen-ps-016 | F.8.4.1.1 | z1 | k0 | Bilim müzesindeki dev periyodik tablo panosunda, 11 numaralı sodyum kutusundan başlayıp sağa doğru uzanan bir ışık şeridi yanmakt… | ✓Bir periyodun bütün kutuları boyunca
+fen-ps-017 | F.8.4.1.2 | z1 | k0 | Okul laboratuvarındaki gaz tüplerinden birinin üzerinde "Ne" yazmaktadır. Ne, neon elementinin sembolüdür. Neon, periyodik tablon… | ✓En sağdaki 8A sütununda
+fen-ps-018 | F.8.4.1.2 | z1 | k0 | Element kartı oyununda Ceren'in elindeki kartta bor (B) yazmaktadır. Bor, 2. periyodun 3A grubunda ve metallerle ametalleri ayıra… | ✓Yarımetal
+fen-ps-019 | F.8.4.1.1 | z1 | k0 | Bilim fuarındaki periyodik tablo maketinde kutular, atom numarası 1'den başlayarak soldan sağa ve yukarıdan aşağıya doğru artacak… | ✓Lityum
+fen-ps-020 | F.8.4.1.2 | z1 | k0 | Şekilde periyodik tablonun ilk üç periyodu gösterilmiş, dört kutu Q, T, V ve Y harfleriyle işaretlenmiştir. (Harfler gerçek eleme… | ✓V
+fen-ps-021 | F.8.4.1.1 | z1 | k0 | Okul laboratuvarındaki periyodik tablo posterinde potasyum (K) elementi 4. periyodun ilk kutusunda yer almaktadır. Potasyumun gru… | ✓1A
+fen-ps-022 | F.8.4.1.2 | z1 | k0 | Hastanelerde solunum desteği için kullanılan oksijen (O), periyodik tablonun 2. periyodunda, 6A grubunda yer alan bir elementtir.… | ✓Ametal
+fen-ps-023 | F.8.4.1.1 | z1 | k0 | Müzedeki bir element kartında "Atom numarası: 6" yazmaktadır. Elementler periyodik tabloda bu sayıya göre sıralanmıştır. Atom num… | ✓Çekirdekteki proton sayısını
+fen-ps-024 | F.8.4.1.2 | z1 | k0 | Şekilde periyodik tablonun ilk üç periyodu gösterilmiş, bir kutu X harfiyle işaretlenmiştir. (X gerçek bir element sembolü değild… | ✓Soygaz
+fen-ps-025 | F.8.4.1.2 | z1 | k0 | Öğretmen tahtaya periyodik tablonun 3. periyodunu çizip alüminyum (Al) elementinin kutusunu işaretlemiştir. Alüminyum, 3A grubund… | ✓Metal
+fen-ps-026 | F.8.4.1.1 | z1 | k0 | Eylül, 1. periyodu defterine çizerken bu periyodun kutu sayısını bulmak istemiştir. Bu periyot hidrojenle başlayıp helyumla bitme… | ✓2
+fen-ps-027 | F.8.4.1.1 | z1 | k0 | Bilim kulübü üyeleri, soygazlar için bir pano hazırlamıştır. Panoda helyum, neon ve argon yer almaktadır. Bu üç elementin periyot… | ✓1, 2, 3
+fen-ps-028 | F.8.4.1.1 | z2 | k0 | Bir müzenin "Elementler Galerisi" bölümündeki ışıklı panoda, periyodik tablonun ilk üç periyodunda dört kutu D, E, G ve J harfler… | ✓Yalnız I
+fen-ps-029 | F.8.4.1.2 | z2 | k0 | Fen kulübü, ilk 20 element arasından seçtiği dört elementin atom numaralarını aşağıdaki tabloya yazmıştır. (Harfler gerçek elemen… | ✓E
+fen-ps-030 | F.8.4.1.1 | z2 | k0 | Kübra, 3. periyodun 7A grubunda yer alan elementin atom numarasını bulmaya çalışmaktadır. Periyodik tablonun 1. periyodunda 2, 2.… | ✓17
+fen-ps-031 | F.8.4.1.2 | z2 | k0 | Bir bilim şenliğinin "element sepeti" standında dört etiket vardır: kalsiyum, bor, kükürt ve neon. Standa gelen Hakan, bu element… | ✓II ve III
+fen-ps-032 | F.8.4.1.1 | z2 | k0 | Duru, klor (atom numarası 17) elementinin tablodaki yerini inceliyor. Klor, 3. periyodun 7A grubundadır. Duru, klorun hemen üstün… | ✓9
+fen-ps-033 | F.8.4.1.2 | z2 | k0 | Bir öğrenci, ilk 20 elementin hepsini tek tek kartlara yazıp dört sınıfa ayırmak istemektedir. Soygaz ve yarımetal kartlarını ayn… | ✓5
+fen-ps-034 | F.8.4.1.1 | z2 | k0 | Şekilde periyodik tablonun ilk üç periyodu gösterilmiş, üç kutu X, Y ve Z harfleriyle işaretlenmiştir. Ayşe, bu kutulara bakarak … | ✓II ve III
+fen-ps-035 | F.8.4.1.2 | z2 | k0 | Laboratuvar sorumlusu, çekmecelere element örneklerini üçerli gruplar hâlinde yerleştirmiştir. Üzerinde "metal" yazan çekmeceye, … | ✓Sodyum, alüminyum, kalsiyum
+fen-ps-036 | F.8.4.1.1 | z2 | k0 | Aşağıdaki şekilde periyodik tablonun ilk dört periyodu, gruplar 1'den 18'e kadar numaralandırılarak gösterilmiştir. Dört kutu X, … | ✓X ve Y
+fen-ps-037 | F.8.4.1.2 | z2 | k0 | Gökhan, element kartlarını eşleştirirken karbon, silisyum, bor, alüminyum, hidrojen ve helyum kartlarını kullanarak şu yargıları … | ✓Yalnız II
+fen-ps-038 | F.8.4.1.1 | z2 | k0 | Kerem, sınıf panosundaki periyodik tabloda magnezyumun (Mg) kutusundan başlayıp aynı sırada sağa doğru dört kutu ilerlemiştir. Ma… | ✓Kükürt
+fen-ps-039 | F.8.4.1.2 | z2 | k0 | Soygazlarla ilgili aşağıdaki yargılar verilmiştir. I. Her periyot bir soygazla sona erer. II. 8A grubunda soygaz olmayan hiçbir e… | ✓I ve II
+fen-ps-040 | F.8.4.1.2 | z2 | k0 | 3. periyotta sodyum, magnezyum, alüminyum, silisyum, fosfor, kükürt, klor ve argon bulunur. Çınar, bu periyodu inceleyip metal ol… | ✓5
+fen-ps-041 | F.8.4.1.2 | z2 | k0 | Fen dersinde ekrana yansıtılan periyodik tablonun ilk üç periyodunda üç kutu R, S ve T harfleriyle işaretlenmiştir. (Harfler gerç… | ✓Yalnız II
+fen-ps-042 | F.8.4.1.1 | z2 | k0 | Kalsiyum (Ca), kemik yapısı için gerekli bir elementtir ve atom numarası 20'dir. Periyodik tablonun 1. periyodunda 2, 2. ve 3. pe… | ✓4. periyot, 2A grubu
+fen-ps-043 | F.8.4.1.1 | z2 | k0 | Fen kulübü yarışmasında ilk 20 elementle ilgili dört yargı verilmiştir. Bu yargılardan hangisi yanlıştır? | ✓Magnezyum ile kalsiyum aynı periyottadır.
+fen-ps-044 | F.8.4.1.2 | z2 | k0 | Bilim fuarındaki sunumunda Burak, hidrojenle ilgili şu yargıları öne sürmüştür: I. Hidrojen, 1A grubunda yer alır. II. Hidrojen, … | ✓I ve III
+fen-ps-045 | F.8.4.1.1 | z2 | k0 | Işıklı reklam tabelalarında kullanılan neonun atom numarası 10'dur ve 2. periyot neonla sona erer. Atom numarası 11 olan element … | ✓3. periyodun ilk elementidir ve bir metaldir.
+fen-ps-046 | F.8.4.1.2 | z2 | k0 | Sınıf asistanı Mina, ilk 20 element arasından seçtiği dört elementi harflerle kodlamış ve atom numaralarını aşağıdaki tabloya yaz… | ✓II ve III
+fen-ps-047 | F.8.4.1.2 | z2 | k0 | İkinci periyodun elementleri lityum, berilyum, bor, karbon, azot, oksijen, flor ve neondur. Aylin, bu elementlerden metal ya da y… | ✓3
+fen-ps-048 | F.8.4.1.1 | z3 | k0 | Okul koridoruna asılan periyodik sistem posterinde ilk dört periyot, gruplar 1'den 18'e kadar numaralanarak gösterilmiş ve dört k… | ✓Yalnız II
+fen-ps-049 | F.8.4.1.2 | z3 | k0 | Kimya dolabının kapağına, ilk dört periyodu gösteren aşağıdaki şema yapıştırılmıştır. Gruplar 1'den 18'e kadar numaralanmış, dört… | ✓I ve III
+fen-ps-050 | F.8.4.1.1 | z3 | k0 | Boyama etkinliğinde öğretmen, boş bir periyodik tablonun 2. periyodunda lityum ile neon arasında kalan kutuların ve 3. periyodund… | ✓12
+fen-ps-051 | F.8.4.1.2 | z3 | k0 | Gülay, fen defterine dört elementin periyot ve grup bilgilerini aşağıdaki tabloya yazmıştır. (Harfler gerçek element sembolleri d… | ✓R ve V
+fen-ps-052 | F.8.4.1.1 | z3 | k0 | Fen yazılısında, ilk 20 element arasından seçilen dört elementin atom numaraları aşağıdaki tabloda verilmiştir. (Harfler gerçek e… | ✓Yalnız I
+fen-ps-053 | F.8.4.1.2 | z3 | k0 | Zeynep ile Ali "Kesin mi?" oyunu oynamaktadır. Zeynep, aynı periyotta yer alan X ve Y elementlerinden X'in Y'nin solunda bulunduğ… | ✓X de bir metaldir.
+fen-ps-054 | F.8.4.1.1 | z3 | k0 | Periyodik tablo bingosu oynayan Selin, ilk üç periyodu gösteren kartında X, Y, Z ve T kutularını işaretlemiştir. Oyun yöneticisi … | ✓Yalnız III
+fen-ps-055 | F.8.4.1.1 | z3 | k0 | Arda, kodlama etkinliğinde X ve Y elementlerinin atom numaralarını toplayıp programa girecektir. X, 2. periyodun 2A grubundaki; Y… | ✓16
+fen-ps-056 | F.8.4.1.2 | z3 | k0 | Fen öğretmeni çıkış kartında periyotlardaki sınıf dağılımıyla ilgili şu yargıları vermiştir: I. 2. periyotta metal, yarımetal, am… | ✓I, II ve III
+fen-ps-057 | F.8.4.1.1 | z3 | k0 | Bilim kulübü, periyodik tablonun 3. ve 4. periyotlarını duvara çizmektedir. 3. periyot, atom numarası 11 olan sodyumla başlar ve … | ✓22
+fen-ps-058 | F.8.4.1.2 | z3 | k0 | Bir öğrenci, periyodik tablonun ilk 18 elementini metal, yarımetal, ametal ve soygaz olarak sınıflandırmış ve her sınıftaki eleme… | ✓Yarımetal
+fen-ps-059 | F.8.4.1.2 | z3 | k0 | Aşağıdaki şekilde periyodik tablonun ilk dört periyodu, gruplar 1'den 18'e kadar numaralanarak gösterilmiştir. Altı kutu Q, R, S,… | ✓3
+fen-ps-060 | F.8.4.1.1 | z3 | k0 | Mert, ders notuna şöyle yazmıştır: "X ve Y elementleri aynı gruptadır ve X'in atom numarası Y'ninkinden küçüktür." (Harfler gerçe… | ✓X, Y'den daha üstte (daha küçük numaralı per…
+fen-ps-061 | F.8.4.1.2 | z3 | k0 | Mina, kodlama etkinliğinde dört elementin atom numaralarından metal olanları bulup bunların atom numaralarını toplayacaktır. Elem… | ✓15
+fen-ps-062 | F.8.4.1.1 | z3 | k0 | Klor (atom numarası 17), 3. periyodun 7A grubunda yer alır. 4. periyot, atom numarası 19 olan potasyumla başlar; ardından 2A grub… | ✓35
+fen-ps-063 | F.8.4.1.2 | z3 | k0 | Fen öğretmeni çıkış bileti olarak şu soruyu sormuştur: İlk üç periyodun elementleri (hidrojen–argon) incelendiğinde hangi grupta … | ✓1A
+fen-ps-064 | F.8.4.1.2 | z4 | k0 | Kartlı bir oyunda X, Y ve Z kartları, periyodik tablonun ilk üç periyodundan seçilmiş, aynı periyotta bulunan ve atom numaraları … | ✓2
+fen-ps-065 | F.8.4.1.1 | z4 | k0 | X ve Y elementleri periyodik tablonun ilk üç periyodunda ve aynı grubunda yer almaktadır. Y'nin atom numarası X'inkinden 8 fazlad… | ✓Yalnız II
+fen-ps-066 | F.8.4.1.1 | z4 | k0 | 2., 3. ve 4. periyotlarda sırasıyla 8, 8 ve 18 element bulunur; 4. periyotta 2A grubundan sonra 10 sütunluk B grupları gelir. Bu … | ✓10
+fen-ps-067 | F.8.4.1.2 | z4 | k0 | Mina, ilk 20 elementi metal, yarımetal, ametal ve soygaz olarak sınıflandırdıktan sonra sınıfların element sayılarını karşılaştır… | ✓II ve III
+fen-ps-068 | F.8.4.1.1 | z4 | k0 | Okul gazetesinin bulmaca köşesinde periyodik tabloyla ilgili şu ipuçları verilmiştir: • X, 3. periyodun 2A grubunda yer alır. • Y… | ✓6
+fen-ps-069 | F.8.4.1.2 | z4 | k0 | X, periyodik tablonun 3. periyodunda yer alan bir ametaldir. (X gerçek bir element sembolü değildir.) I. X'in atom numarası 16'dı… | ✓II ve III
+fen-ps-070 | F.8.4.1.2 | z4 | k0 | Ayten, ilk 20 elementi atom numarası sırasıyla yan yana dizmiştir. Dizide art arda gelen ve hiçbiri metal olmayan (yarımetal, ame… | ✓6
+fen-ps-071 | F.8.4.1.2 | z4 | k0 | X ve Y elementleri periyodik tablonun ilk üç periyodundan seçilmiştir ve aynı periyotta yer almaktadır. X bir metal, Y ise bir ya… | ✓I ve II
+fen-ps-072 | F.8.4.1.1 | z4 | k0 | Aynı A grubunda, 2., 3. ve 4. periyotlarda alt alta bulunan üç elementin atom numaralarının toplamı 36'dır. 2. ve 3. periyotlarda… | ✓2A
+fen-ps-073 | F.8.4.1.2 | z4 | k0 | X ve Y, periyodik tablonun ilk 20 elementi arasından seçilmiş iki elementtir. X bir yarımetaldir ve Y, X'in hemen altındaki kutud… | ✓Yalnız III
+fen-ps-074 | F.8.4.1.1 | z4 | k0 | Öğretmenin tahtaya çizdiği periyodik tablonun ilk üç periyodu silgiyle kısmen silinmiş; yalnızca iki kutudaki atom numarası kalmı… | ✓22
+fen-ps-075 | F.8.4.1.2 | z4 | k0 | Bir torbada ilk 20 elementin her biri için birer kart bulunmaktadır. Hakan, torbadan kartları görmeden çekecek ve çektiği kartlar… | ✓13
