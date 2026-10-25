@@ -409,7 +409,7 @@ Cevap A.`
     "Toplamı yanlış hesaplama: 1. nesilde 30 + 90 = 120, 7. nesilde 100 + 20 = 120'dir; toplam değişmemiştir."
   ],
   aciklama: `Grafikteki sayıları okuyup kıyaslarız.
-Adım 1: Kısa boylu bitkiler 30'dan 100'e çıkmıştır; 100 / 30 yaklaşık 3,3 olduğundan sayı 3 kattan fazla artmıştır. C doğrudur.
+Adım 1: Kısa boylu bitkiler 30'dan 100'e çıkmıştır; 100 / 30 yaklaşık 3,3 olduğundan sayı üç katından fazlasına çıkmıştır. C doğrudur.
 Adım 2: 5. nesilde kısa boylu 70, uzun boylu 40'tır; 70, 40'ın iki katı (80) değildir. 3. nesilde uzun boylu 70, kısa boylu 45'tir; uzun boylular hâlâ fazladır. Toplam 1. nesilde 30 + 90 = 120, 7. nesilde 100 + 20 = 120'dir; değişmemiştir.
 Adım 3: Keçiler uzun boylu otları yediği için kısa boylu bitkiler daha çok tohum bırakmış, boy kalıtsal olduğu için oranları artmıştır. Hiçbir bitkinin boyu değişmemiştir.
 Sağlama: Kısa boylular 100 − 30 = 70 artmış, uzun boylular 90 − 20 = 70 azalmıştır; toplam sabittir.

@@ -31,7 +31,8 @@ window.LGS_HAP["biyoteknoloji"] = {
       ],
       dikkat: [
         "**Bakımla kazanılan özellik yavruya geçmez.** Gübreyle irileşen bir bitkinin tohumları bu iriliği taşımaz; ıslahta işe yarayan, genlerle gelen özelliktir.",
-        "**Metinde “gen” geçmesi yöntemi gen aktarımı yapmaz.** “Dayanıklılık geni taşıyan bir çeşitle çaprazlama” yine ıslahtır."
+        "**Metinde “gen” geçmesi yöntemi gen aktarımı yapmaz.** “Dayanıklılık geni taşıyan bir çeşitle çaprazlama” yine ıslahtır.",
+        "**Seçim istenmeyen özelliği de yaygınlaştırabilir.** Yalnızca görünüşüne göre seçilen bir ırkta, o görünüşle birlikte gelen bir sağlık sorunu da kuşaktan kuşağa artabilir."
       ]
     },
     {
@@ -71,6 +72,7 @@ window.LGS_HAP["biyoteknoloji"] = {
         "**Klonlama**, bir canlıyla genetik yapısı aynı olan yeni bir birey elde etmektir. **Klon**, hücresi alınan bireyin kalıtsal kopyasıdır. Kalıtım bilgisi hücre çekirdeğindeki DNA'da olduğundan, vücut hücresinin çekirdeği, çekirdeği çıkarılmış bir yumurta hücresine aktarılarak klon elde edilir. Yetişkin bir hayvanın vücut hücresinden klonlanan ilk memeli, 1996'da doğan **Dolly** adlı koyundur.",
         "Klonlamada yeni gen eklenmez, iki bireyin genleri de karışmaz; bu yüzden **yeni özellik ya da yeni gen birleşimi oluşmaz**.",
         "Bitkilerde dal, filiz ya da yumruyla çoğaltma da kalıtsal kopya verir; tohumla çoğaltma vermez.",
+        "Klonlama zor bir işlemdir: hazırlanan çok sayıda yumurta hücresinden yalnızca birkaçı sağlıklı bir yavruya dönüşür. Gen aktarılmış bir hayvan klonlanırsa klon da aynı geni taşır; yani o da GDO'dur.",
         "Klonlama değerli bir bireyin (çok verimli bir hayvan, soyu tükenmekte olan bir türün bireyi) genetik yapısını sürdürür. Ancak klonlardan oluşan toplulukta **kalıtsal çeşitlilik** azalır: biri bir hastalığa dayanıksızsa hepsi dayanıksızdır."
       ],
       ornekler: [
@@ -85,6 +87,7 @@ window.LGS_HAP["biyoteknoloji"] = {
       maddeler: [
         "**Gen tedavisi**, kalıtsal bir hastalığa yol açan bozuk genin, hastanın hücrelerinde sağlamıyla değiştirilmesi ya da işlevinin düzeltilmesidir. Genellikle genin sağlam bir kopyası ilgili hücrelere verilir; hücreler eksik maddeyi kendileri üretmeye başlar.",
         "Yeni birey elde edilmez, başka türün özelliği de kazandırılmaz: verilen gen insana aittir, amaç eksik işlevi tamamlamaktır.",
+        "Etkisi bazı hastalarda zamanla azalabilir. Tek seferlik maliyeti çok yüksektir; bu yüzden ömür boyu sürecek ilaç masrafıyla karşılaştırılarak değerlendirilir.",
         "**Vücut hücresi mi, üreme hücresi mi?** Vücut hücrelerindeki değişiklik yalnızca tedavi edilen kişide kalır, çocuklarına geçmez; çünkü genler çocuklara üreme hücreleriyle aktarılır. Üreme hücrelerindeki değişiklik sonraki kuşaklara da geçer; bu yüzden insan üreme hücrelerinde gen değişikliği birçok ülkede yasaktır."
       ],
       dikkat: [
@@ -99,6 +102,7 @@ window.LGS_HAP["biyoteknoloji"] = {
         "**Kanıtı görüşten ayır.** Ölçüme ya da deneye dayanan bulgu kanıttır; “bence” diye başlayan görüş, reklam ya da tek bir kişinin anlattığı olay kanıt değildir.",
         "**Olası zarar kanıtlanmış zarar değildir.** “Geçebilir, henüz bilinmiyor” diyen metinden “kesinlikle zarar verir” ya da “hiç etkilemez” sonucu çıkmaz. Bir konuda yararlı olmak da her konuda zararsız olmak demek değildir.",
         "**Önlem zarar değildir.** Güvenlik testi, kapalı ortamda üretim ve ürün etiketi riski azaltır ya da tüketicinin bilerek seçmesini sağlar.",
+        "**Gen bankası**, tohum ve doku örneklerinin ileride kullanılmak üzere saklandığı yerdir; kalıtsal çeşitliliğin korunmasına yardım eder.",
         "**Gelecek tahmini** bilimsel bilgiyle çelişmemelidir. Tahminin yöntemini ve alanını (tıp, tarım-hayvancılık, çevre) bul, sonucunu abartma. Doğada çözünen plastik üreten bakteriler buna uygun bir tahmindir. Canlılar bir maddeyi yoktan var edemez, yok da edemez: zehirli bir metali emen bitki onu yalnızca bünyesinde biriktirir.",
         "Alanı canlının türü değil, çalışmanın **amacı** belirler: verimi artıran bitki tarım, hastalıktan koruyan bitki tıp örneğidir. Genlerle ya da canlılarla ilgisi olmayan teknolojik gelişme (robot, yeni makine) bu konunun tahmini değildir."
       ],
@@ -111,6 +115,7 @@ window.LGS_HAP["biyoteknoloji"] = {
   lgs: [
     "Bir senaryo verilir, yöntem sorulur. Tuzaklar: metinde “gen” geçti diye ıslahı gen aktarımı sanmak, aşılamayı aşı sanmak.",
     "Öncüllü (I, II, III) sorularda yöntemin sonucu sorulur: özellik kalıtsal mı, yeni gen birleşimi oluşur mu, klon her yönüyle aynı mı? Tablo ya da grafikte yalnızca veride görüneni söyle.",
+    "Deney sorularında düzene bak: tek değişken değiştirilir, öteki koşullar eşit tutulur ve karşılaştırma için uygulamanın yapılmadığı bir grup bulunur.",
     "İkilem sorularında iki görüş, bir ölçüt listesi ya da yarar-zarar tablosu verilir. “Kesinlikle” kökünde metinde dayanağı olmayan yargılar elenir. “Tamamen, hiç” gibi sözcükler tek başına eleme nedeni değildir; veri destekliyorsa o şık doğrudur."
   ],
   yokla: [

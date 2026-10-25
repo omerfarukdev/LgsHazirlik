@@ -163,6 +163,8 @@ window.LGS_MANIFEST = [
   "fen-biyoteknoloji-1.js",
   "fen-biyoteknoloji-2.js",
   "fen-biyoteknoloji-3.js",
+  "fen-biyoteknoloji-4.js",
+  "fen-biyoteknoloji-5.js",
   "fen-biyoteknoloji-6.js",
   "tur-paragrafta-anlam-33.js",
   "tur-paragrafta-anlam-34.js",
