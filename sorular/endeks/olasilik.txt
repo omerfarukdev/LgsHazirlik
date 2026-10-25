@@ -93,7 +93,7 @@ mat-ol-127 | M.8.5.1.2 | z1 | k1 | Bir sınıfın öğrenci listesinde 14 kız v
 mat-ol-128 | M.8.5.1.3 | z1 | k1 | Bir torbada büyüklükleri ve dokuları aynı olan, 1'den 9'a kadar numaralanmış 9 bilye vardır. Torbadan bakmadan bir bilye çekilece… | ✓[[1|9]]
 mat-ol-129 | M.8.5.1.4 | z1 | k1 | Bir kutuda yalnızca yeşil renkte 8 boncuk vardır. Kutudan bakmadan bir boncuk alınacaktır. Buna göre alınan boncuğun yeşil olması… | ✓Kesin bir olaydır ve olasılığı 1'dir.
 mat-ol-130 | M.8.5.1.5 | z1 | k1 | Bir torbadaki toplar şekilde gösterilmiştir. Torbadan rastgele bir top çekilecektir. Buna göre çekilen topun mavi olma olasılığı … | ✓[[3|10]]
-mat-ol-131 | M.8.5.1.5 | z1 | k1 | Hilesiz bir zar bir kez atılacaktır. Zarın üst yüzüne asal sayı gelme olasılığı kaçtır? | ✓[[1|2]]
+mat-ol-131 | M.8.5.1.5 | z1 | k1 | 1'den 10'a kadar numaralanmış 10 eş dilimli bir çark bir kez çevrilecektir. Okun asal sayı yazılı bir dilimde durma olasılığı kaç… | ✓[[2|5]]
 mat-ol-132 | M.8.5.1.5 | z1 | k1 | Bir okulda 8. sınıf şubelerinin mevcutları aşağıdaki tabloda verilmiştir. Okul müdürü bu öğrencilerden birini rastgele seçip konu… | ✓[[7|20]]
 mat-ol-133 | M.8.5.1.3 | z1 | k1 | Ayşe'nin bir sınavdan 90 ve üzeri puan alma olasılığı 0,05; Burak'ın aynı sınavdan 90 ve üzeri puan alma olasılığı 0,40 olarak he… | ✓Burak'ın 90 ve üzeri puan alma şansı, Ayşe'n…
 mat-ol-134 | M.8.5.1.4 | z1 | k1 | Bir basketbolcunun serbest atış çizgisinden attığı topun potaya girme olasılığı %60 olarak hesaplanmıştır. Buna göre bu atışın po… | ✓%40

@@ -93,17 +93,12 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "M.8.5.1.5",
   kademe: 1,
   zorluk: 1,
-  soru: "Hilesiz bir zar bir kez atılacaktır.\n**Zarın üst yüzüne asal sayı gelme olasılığı kaçtır?**",
+  soru: "1'den 10'a kadar numaralanmış 10 eş dilimli bir çark bir kez çevrilecektir.\n**Okun asal sayı yazılı bir dilimde durma olasılığı kaçtır?**",
   gorsel: null,
-  secenekler: ["[[1|6]]","[[1|3]]","[[1|2]]","[[2|3]]"],
-  dogru: 2,
-  hatalar: [
-    "Asal sayılardan yalnızca birini saydın. Zarda 2, 3 ve 5 olmak üzere üç asal sayı vardır.",
-    "2 ve 3'ü saydın, 5'i unuttun. 5 de asal sayıdır.",
-    null,
-    "1'i de asal saydın. 1'in tek böleni kendisidir, asal sayı değildir."
-  ],
-  aciklama: "Asal sayı, yalnızca 1'e ve kendisine bölünen, 1'den büyük sayıdır.\nAdım 1: Olası durumlar 1, 2, 3, 4, 5, 6'dır; olası durum sayısı 6.\nAdım 2: Bunlardan asal olanlar 2, 3 ve 5'tir. İstenen durum sayısı 3.\nAdım 3: Olasılık = [[3|6]] = [[1|2]].\nSık yapılan hata: 1'i asal saymak ya da 5'i unutmak. Asal sayıları sırayla yaz: 2, 3, 5, 7…\nCevap C."
+  secenekler: ["[[3|10]]","[[2|5]]","[[1|2]]","[[3|5]]"],
+  dogru: 1,
+  hatalar: ["2'yi unuttun: 2 de asal sayıdır; hem en küçük asal hem de tek çift asal sayıdır.",null,"1'i de asal saydın. 1'in tek böleni kendisidir; asal sayı değildir.","Asal olmayan sayıların olasılığını buldun: 1, 4, 6, 8, 9 ve 10 gelmesi [[6|10]] = [[3|5]] eder."],
+  aciklama: "Asal sayı, yalnızca 1'e ve kendisine bölünebilen, 1'den büyük doğal sayıdır.\nAdım 1: Olası durumlar 1'den 10'a kadar 10 dilimdir. Dilimler eş olduğu için her birinin şansı eşittir.\nAdım 2: Bu sayılardan asal olanlar 2, 3, 5 ve 7'dir; 4 tane.\nAdım 3: Olasılık = [[4|10]] = [[2|5]].\nSağlama: Asal olmayanlar 1, 4, 6, 8, 9 ve 10'dur (6 tane); [[4|10]] + [[6|10]] = 1.\nSık yapılan hata: 1'i asal saymak ya da 2'nin asal olduğunu unutmak.\nCevap B."
 },
 {
   id: "mat-ol-132",
