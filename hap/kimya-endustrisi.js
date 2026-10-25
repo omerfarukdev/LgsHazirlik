@@ -27,6 +27,8 @@ window.LGS_HAP["kimya-endustrisi"] = {
         "**Dış ticaret dengesi:** ihracat ithalattan fazlaysa fazla, ithalat ihracattan fazlaysa **açık** vardır; açık, ithalattan ihracat çıkarılarak bulunur. Tabloda ürün ürün bak; bir üründeki durum bütün ülke için genelleme yapmaya yetmez.",
         "Üretim ve tüketim verilmişse ve stok değişmiyorsa, tüketimin üretimden fazla kısmı dışarıdan karşılanır; üretim fazlası dışarıya gider (**net fark**). Net fark sıfır olsa bile hiç dış ticaret yapılmadığı sonucu çıkmaz.",
         "Hammaddeyi tamamen kendi sınırları içinde üretmek zorunlu değildir. Doğal kaynağı az olan ülke de hammaddeyi alıp işleyerek ürün satabilir; işlenmiş ürün hammaddeden daha değerlidir (**katma değer**).",
+        "**Bor:** Türkiye'nin dünya rezervlerinde büyük paya sahip olduğu bir madendir. Bor bileşikleri cam, seramik ve deterjan üretiminde kullanılır. Hammaddeyi ham satmak yerine işleyip ürüne çevirmek, aynı miktardan daha fazla gelir sağlar (katma değer).",
+        "**Dışa bağımlılık:** bir hammaddenin ya da ürünün ihtiyacının büyük kısmını ithalatla karşılamaktır. Oran, ithalat miktarının toplam tüketime bölünmesiyle yüzde olarak bulunur.",
         "Yerli üretim başlayınca o ürüne duyulan ithalat ihtiyacı azalabilir; ama “hiçbir koşulda azaltmaz” ya da “tamamen sıfırlar” demek kesin değildir.",
         "Hammaddede dışa bağımlılık maliyet sorunu yaratır: fiyat artınca ürün pahalanır. Daha çok ithalat bağımlılığı azaltmaz. Çözüm; yerli hammadde için Ar-Ge, geri dönüşüm ve alternatif hammaddedir.",
         "Tablo ya da grafik **kurgusal** verilebilir; yalnızca verilen sayılara dayan, veride olmayan bilgiyi ekleme."

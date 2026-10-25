@@ -26,7 +26,7 @@ window.LGS_HAP["yazim-kurallari"] = {
       baslik: "Kesme işareti: hangi eke konur, hangisine konmaz?",
       maddeler: [
         "Özel adlara gelen ekler kesmeyle ayrılır: Mersin'e, Zeynep'in, Ağrı Dağı'nda, Mor Balon'u (kitap). Kişi adından sonraki saygı sözüne gelen ek de ayrılır: Nihat Bey'e, Zehra Hanım'dan.",
-        "**Kurum ve kuruluş adlarına** gelen ekler kesmeyle **ayrılmaz**: Sağlık Bakanlığına, Akasya Ortaokulunun, Çocuk Esirgeme Kurumundan. Kurumun kısaltmasına gelen ek ise ayrılır: Türk Standartları Enstitüsüne → TSE'ye.",
+        "**Kurum ve kuruluş adlarına** gelen ekler kesmeyle **ayrılmaz**: Sağlık Bakanlığına, Akasya Ortaokulunun, Çocuk Esirgeme Kurumundan. Kurumun kısaltmasına gelen ek ise ayrılır: Türk Standardları Enstitüsüne → TSE'ye.",
         "**Yapım ekleri** (-li, -ce, -lik gibi yeni sözcük türeten ekler) ve onlardan sonra gelen ekler kesme almaz: Mersinli, Avrupalılar, Türkçenin, Japoncada.",
         "Özel addan sonra gelen ama adın parçası olmayan sözcüğe (il, ilçe, köy…) gelen ek kesme almaz: Bursa ilinde, Rize kıyılarında."
       ],

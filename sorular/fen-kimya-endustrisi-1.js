@@ -90,7 +90,7 @@ Cevap A.`
   secenekler: [
     "Devlet Su İşleri",
     "Türkiye Futbol Federasyonu",
-    "Türk Standartları Enstitüsü (TSE)",
+    "Türk Standardları Enstitüsü (TSE)",
     "Devlet Hava Meydanları İşletmesi"
   ],
   dogru: 2,
@@ -100,7 +100,7 @@ Cevap A.`
     null,
     "Kurum karıştırma: Hava meydanlarının işletilmesi standart belgelendirmesi değildir."
   ],
-  aciklama: `Türk Standartları Enstitüsü (TSE), ürün ve hizmetlerin belirlenmiş standartlara uygunluğunu denetler ve belgelendirir.
+  aciklama: `Türk Standardları Enstitüsü (TSE), ürün ve hizmetlerin belirlenmiş standartlara uygunluğunu denetler ve belgelendirir.
 Adım 1: Soru "standart" ve "belge" sözcükleriyle doğrudan bir kurumu işaret ediyor.
 Adım 2: Diğer kuruluşların görev alanları su, spor ve havacılıktır.
 Sık yapılan hata: Adı tanıdık gelen kurumu görev alanına bakmadan seçmek.
@@ -597,7 +597,7 @@ Cevap A.`
   gorsel: null,
   secenekler: [
     "Orman Genel Müdürlüğü",
-    "Türk Standartları Enstitüsü (TSE)",
+    "Türk Standardları Enstitüsü (TSE)",
     "TÜBİTAK",
     "Devlet Meteoroloji İşleri Genel Müdürlüğü"
   ],
