@@ -87,7 +87,7 @@ window.LGS_HAP["veri-analizi"] = {
         "**Grafik ↔ tablo:** Değerleri eksenden tek tek oku, sırayı koru. Doğru grafikte hem kategorilerin yeri hem ölçek doğrudur; sütunların biçimi doğru ama eksendeki sayılar yanlışsa grafik yanlıştır.",
         "İki gösterim aynı veriyi veriyorsa değeri ve açısı bilinen bir kategori, bir birimin kaç derece olduğunu söyler; eksik ya da yanlış sütunu böyle bulursun.",
         "Daire grafiği yalnızca bir alt grubu (örneğin yalnızca sabah gelen müşterileri) gösterebilir; bütün, o alt grubun toplamıdır.",
-        "**Yanıltıcı grafik:** Dikey eksen 30'dan başlarsa 40 ve 60 değerli sütunlar 3 kat farklı görünür; gerçek oran 60 ÷ 40 = 1,5'tir. Oranı sütun boyundan değil, eksendeki sayılardan hesapla."
+        "**Yanıltıcı grafik:** Dikey eksen 30'dan başlarsa 40 ve 60 değerli sütunlar 3 kat farklı görünür; gerçek oran 60 ÷ 40 = 1,5'tir. Oranı sütun boyundan değil, eksendeki sayılardan hesapla. Eksende “kırık” (zikzak) işareti ya da 0 yerine başka bir sayıyla başlayan ilk çizgi varsa eksen kesilmiştir; bu durumda sütunların görünen boyları değerlerle orantılı değildir. Fazlalık yüzdesi de eksendeki değerlerle bulunur."
       ],
       dikkat: [
         "**Bir dilime ekleme yapınca toplam da artar.** Öteki dilimler 90 kişiyse ve hedef dilim 90° olacaksa ötekiler bütünün dörtte üçüdür; hedef dilim 90 ÷ 3 = 30 kişi olmalıdır."

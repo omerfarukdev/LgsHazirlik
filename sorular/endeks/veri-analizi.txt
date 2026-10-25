@@ -88,3 +88,213 @@ mat-va-012 | M.8.4.1.1 | z3 | k0 | Bir marangoz atölyesinde hafta içi beş gü
 mat-va-013 | M.8.4.1.1 | z4 | k0 | Bir ilçe halk kütüphanesinin okuma salonu pazartesi günleri kapalıdır. Salonu geçen hafta kullanan öğrenci ve yetişkin sayıları a… | ✓95
 mat-va-014 | M.8.4.1.2 | z4 | k0 | Bir sitenin yönetimi, ortak bahçede ne yapılacağını belirlemek için site sakinleriyle bir anket yapmıştır. Her katılımcı tek bir … | ✓6
 mat-va-015 | M.8.4.1.2 | z4 | k0 | Bir kitap fuarı salı günü açılmış, cumartesi günü kapanmıştır. Grafik 1'de fuarı her gün ziyaret eden kişi sayısı, Grafik 2'de cu… | ✓40
+mat-va-126 | M.8.4.1.1 | z1 | k1 | Bir okul kantininde bir günde satılan ürünlerin sayısı aşağıdaki sütun grafiğinde verilmiştir. Buna göre en çok satılan ürün ile … | ✓35
+mat-va-127 | M.8.4.1.2 | z1 | k1 | Bir turizm ofisi, 2026 yılında beş ilçeyi ziyaret eden turist sayılarını ilçeleri tek bakışta birbiriyle karşılaştırabilmek için … | ✓Sütun grafiği
+mat-va-128 | M.8.4.1.1 | z1 | k1 | Atletizmde uzun atlama çalışan Mina'nın beş denemede atladığı mesafeler aşağıdaki çizgi grafiğinde verilmiştir. Buna göre Mina en… | ✓4. deneme
+mat-va-129 | M.8.4.1.2 | z1 | k1 | Bir mahalledeki 120 hanenin ısınmak için kullandığı yöntemler aşağıdaki daire grafiğinde yüzde olarak verilmiştir. Her hane tek b… | ✓18
+mat-va-130 | M.8.4.1.1 | z1 | k1 | İki seranın dört gün boyunca topladığı domates kasası sayıları aşağıdaki grafikte verilmiştir. Buna göre hangi gün iki seradan to… | ✓Salı
+mat-va-131 | M.8.4.1.2 | z1 | k1 | Bir kitabevinde müşterilere hangi türde kitap okumayı tercih ettikleri sorulmuştur. Her müşteri tek bir tür söylemiştir ve müşter… | ✓108
+mat-va-132 | M.8.4.1.1 | z1 | k1 | Bir göl kıyısındaki Doğu ve Batı iskelelerinden dört gün boyunca kiralanan kayıkların sayısı aşağıdaki çizgi grafiğinde verilmişt… | ✓2
+mat-va-133 | M.8.4.1.2 | z1 | k1 | Bir çay ocağında dört günde satılan çay bardağı sayıları aşağıdaki tabloda verilmiştir. Bu veriler sütun grafiğiyle gösterilecek … | ✓4
+mat-va-134 | M.8.4.1.1 | z1 | k1 | Bir ilçedeki Gül, Çınar ve Bahçe mahallelerinin üç farklı yıldaki nüfusları aşağıdaki sütun grafiğinde verilmiştir. Buna göre Çın… | ✓6
+mat-va-135 | M.8.4.1.2 | z1 | k1 | Bir sınıftaki 40 öğrencinin en sevdiği meyve aşağıdaki daire grafiğinde öğrenci sayılarıyla verilmiştir. Her öğrenci tek bir meyv… | ✓108
+mat-va-136 | M.8.4.1.1 | z1 | k1 | Bir evin beş gün boyunca tükettiği elektrik miktarı aşağıdaki çizgi grafiğinde verilmiştir. Buna göre 3. günden 4. güne geçerken … | ✓4
+mat-va-137 | M.8.4.1.2 | z1 | k1 | Bir okulun dergisini hazırlayan öğrenciler, topladıkları verilerden birini daire grafiğiyle göstermek istemektedir. Buna göre aşa… | ✓Bir okuldaki 300 öğrencinin okula geliş biçi…
+mat-va-138 | M.8.4.1.1 | z1 | k1 | Bir kentte kış aylarında yağışlı geçen gün sayıları aşağıdaki sütun grafiğinde verilmiştir. Buna göre bu dört ayda toplam kaç gün… | ✓80
+mat-va-139 | M.8.4.1.2 | z1 | k1 | Bir bayide bir haftada satılan 80 yayının türlere göre dağılımı aşağıdaki daire grafiğinde yüzde olarak verilmiştir. Bu veriler b… | ✓20
+mat-va-140 | M.8.4.1.1 | z1 | k1 | Bir ilde güneş, rüzgâr ve hidroelektrik santrallerinden ilk dört ayda elde edilen elektrik enerjisi aşağıdaki çizgi grafiğinde ve… | ✓40
+mat-va-141 | M.8.4.1.2 | z1 | k1 | Bir bahçedeki ağaçların türlere göre dağılımı aşağıdaki daire grafiğinde yüzde olarak verilmiştir. Bahçede bu dört türün dışında … | ✓10
+mat-va-142 | M.8.4.1.1 | z1 | k1 | Bir otogarda cuma, cumartesi ve pazar günlerinde sabah ve akşam seferlerine binen yolcu sayıları aşağıdaki sütun grafiğinde veril… | ✓80
+mat-va-143 | M.8.4.1.1 | z1 | k1 | Cemre, balkonunda yetiştirdiği ayçiçeği fidesinin boyunu beş hafta boyunca ölçmüş ve aşağıdaki çizgi grafiğini hazırlamıştır. Bun… | ✓1. ile 2. hafta arasında
+mat-va-144 | M.8.4.1.2 | z1 | k1 | Bir sınıftaki 36 öğrencinin en sevdiği renk aşağıdaki sütun grafiğinde verilmiştir. Her öğrenci tek bir renk söylemiştir. Bu veri… | ✓120
+mat-va-145 | M.8.4.1.1 | z1 | k1 | Bir yüzücünün üç gün boyunca yüzdüğü mesafeler aşağıdaki sütun grafiğinde verilmiştir. Buna göre yüzücünün çarşamba günü yüzdüğü … | ✓3
+mat-va-146 | M.8.4.1.2 | z1 | k1 | Bir müzik platformunda dinleyicilere en çok dinledikleri tür sorulmuş, sonuçlar aşağıdaki daire grafiğinde yüzde olarak verilmişt… | ✓40
+mat-va-147 | M.8.4.1.1 | z1 | k1 | Bir şehirde K ve L duraklarından binen yolcu sayıları dört farklı saatte ölçülmüş ve aşağıdaki çizgi grafiğinde gösterilmiştir. B… | ✓300
+mat-va-148 | M.8.4.1.2 | z1 | k1 | Bir okulun yönetimi, son sekiz yılda okulun öğrenci sayısının nasıl değiştiğini göstermek için bir gösterim hazırlayacaktır. Buna… | ✓Daire grafiği
+mat-va-149 | M.8.4.1.1 | z1 | k1 | Dört köyün nüfusları aşağıdaki sütun grafiğinde verilmiştir. Buna göre Çınarlı köyünün nüfusu kaçtır? | ✓250
+mat-va-150 | M.8.4.1.1 | z2 | k1 | Bir sitedeki A ve B bloklarının ocak–nisan aylarında tükettiği elektrik miktarları aşağıdaki sütun grafiğinde verilmiştir. Site y… | ✓100
+mat-va-151 | M.8.4.1.2 | z2 | k1 | Bir turizm şirketi, tatil bölgesi seçen 72 müşterisinin tercihlerini aşağıdaki daire grafiğiyle göstermiştir. Her müşteri tek bir… | ✓12
+mat-va-152 | M.8.4.1.1 | z2 | k1 | Doğu ve Batı barajlarındaki su miktarı altı ay boyunca her ayın ilk günü ölçülmüş ve aşağıdaki çizgi grafiğinde gösterilmiştir. B… | ✓1
+mat-va-153 | M.8.4.1.2 | z2 | k1 | Bir sınıf kitaplığındaki 60 kitabın türlere göre sayısı aşağıdaki sütun grafiğinde verilmiştir. Bu veriler daire grafiğiyle göste… | ✓108
+mat-va-154 | M.8.4.1.1 | z2 | k1 | Ayşe, elektrikli scooter'ının pil yüzdesini yola çıktığı andan başlayarak her saat sonunda kaydetmiş ve aşağıdaki çizgi grafiğini… | ✓60
+mat-va-155 | M.8.4.1.2 | z2 | k1 | Bir spor salonundaki üyelerin kayıtlı olduğu sporlara göre sayısı aşağıdaki tabloda verilmiştir. Salon sorumlusu bu verileri sütu… | ✓Yüzme
+mat-va-156 | M.8.4.1.1 | z2 | k1 | Bir şehirde üç otobüs hattının perşembeden pazara kadar taşıdığı yolcu sayıları aşağıdaki sütun grafiğinde verilmiştir. Buna göre… | ✓Cuma
+mat-va-157 | M.8.4.1.2 | z2 | k1 | Bir tatil köyünün konukları kahvaltıda en çok içtikleri içeceği belirtmiş; sonuçlar aşağıdaki daire grafiğinde gösterilmiştir. He… | ✓38
+mat-va-158 | M.8.4.1.1 | z2 | k1 | Bir ilin Kuzey ve Güney ilçelerinde son dört yılda doğan bebek sayıları aşağıdaki çizgi grafiğinde verilmiştir. Buna göre iki ilç… | ✓2023
+mat-va-159 | M.8.4.1.2 | z2 | k1 | Bir okul gazetesinin yazı kurulu, topladığı verileri uygun grafiklerle göstermek istemektedir. Kurul üyeleri veriler için aşağıda… | ✓Bir mahallede 80 evin ısınma türüne göre dağ…
+mat-va-160 | M.8.4.1.1 | z2 | k1 | Bir okuldaki 7-A ve 7-B sınıflarının ocak–nisan aylarında okuduğu kitap sayıları aşağıdaki sütun grafiğinde verilmiştir. Okul küt… | ✓185
+mat-va-161 | M.8.4.1.2 | z2 | k1 | Bir mandıranın günlük 80 litre sütünün hangi hayvandan elde edildiği aşağıdaki daire grafiğinde yüzde olarak verilmiştir. Buna gö… | ✓44
+mat-va-162 | M.8.4.1.1 | z2 | k1 | Bir bilim merkezini hafta içi beş gün boyunca ziyaret eden kişi sayıları aşağıdaki çizgi grafiğinde verilmiştir. Buna göre bu mer… | ✓40
+mat-va-163 | M.8.4.1.2 | z2 | k1 | Bir ilkokuldaki 30 öğrencinin okula geliş biçimi aşağıdaki sütun grafiğinde verilmiştir. Her öğrenci tek bir biçim kullanmaktadır… | ✓Veli aracı
+mat-va-164 | M.8.4.1.1 | z2 | k1 | Bir belediyenin üç spor kulübüne kayıtlı üye sayıları 2025 ve 2026 yıllarında aşağıdaki sütun grafiğinde verilmiştir. Buna göre ü… | ✓300
+mat-va-165 | M.8.4.1.2 | z2 | k1 | Bir spor kompleksinde 400 kişi en çok yaptığı sporu söylemiş, sonuçlar aşağıdaki daire grafiğinde yüzde olarak gösterilmiştir. He… | ✓7
+mat-va-166 | M.8.4.1.1 | z2 | k1 | Bir şehirdeki Çam, Gül ve Lale parklarının ocak–mayıs aylarında ağırladığı ziyaretçi sayıları aşağıdaki çizgi grafiğinde verilmiş… | ✓Mart ile nisan arasında
+mat-va-167 | M.8.4.1.2 | z2 | k1 | Bir alışveriş sitesinde bir ayda verilen 600 siparişin kategorilere göre dağılımı aşağıdaki daire grafiğinde dilimlerin merkez aç… | ✓240
+mat-va-168 | M.8.4.1.1 | z2 | k1 | Bir ortaokulda dört 6. sınıf şubesindeki kız ve erkek öğrenci sayıları aşağıdaki sütun grafiğinde verilmiştir. Buna göre dört şub… | ✓40
+mat-va-169 | M.8.4.1.2 | z2 | k1 | Bir otelin 36 çalışanının görev birimlerine göre dağılımı aşağıdaki daire grafiğinde merkez açılarıyla verilmiştir. Her çalışan t… | ✓Mutfak: 14, Kat hizmetleri: 10, Resepsiyon: …
+mat-va-170 | M.8.4.1.1 | z2 | k1 | Bir kapta ısıtılan suyun sıcaklığı her dakikanın sonunda ölçülmüş ve aşağıdaki çizgi grafiğinde gösterilmiştir. Buna göre suyun s… | ✓15
+mat-va-171 | M.8.4.1.2 | z2 | k1 | Bir meyve suyu fabrikasında bir günde üretilen meyve sularının türlere göre dağılımı aşağıdaki daire grafiğinde yüzde olarak veri… | ✓3
+mat-va-172 | M.8.4.1.1 | z2 | k1 | K, L ve M şehirlerinde bir haftanın ilk dört günü ölçülen en yüksek sıcaklıklar aşağıdaki sütun grafiğinde verilmiştir. Buna göre… | ✓Çarşamba
+mat-va-173 | M.8.4.1.2 | z2 | k1 | Bir manava sabah gelen 50 kasa meyvenin türlere göre sayısı aşağıdaki sütun grafiğinde verilmiştir. Bu veriler daire grafiğiyle g… | ✓36
+mat-va-174 | M.8.4.1.1 | z2 | k1 | Bir giyim mağazasında kazak ve mont satışlarının dört hafta boyunca haftalara göre değişimi aşağıdaki çizgi grafiğinde verilmişti… | ✓4. hafta
+mat-va-175 | M.8.4.1.1 | z2 | k1 | Bir ilin beş ilçesinin yıllık yağış miktarları aşağıdaki sütun grafiğinde verilmiştir. Buna göre hangi iki ilçenin yıllık yağış m… | ✓Akçay ve Dere
+mat-va-226 | M.8.4.1.1 | z2 | k2 | Bir kuruyemişçinin bir haftada sattığı kuruyemiş miktarları aşağıdaki sütun grafiğinde verilmiştir. Kuruyemişçi, bir sonraki haft… | ✓30
+mat-va-227 | M.8.4.1.2 | z2 | k2 | Bir ortaokulun 8-A, 8-B, 8-C ve 8-D sınıflarının matematik sınavı ortalamaları bulunmuştur. Matematik öğretmeni, sınıfların ortal… | ✓Sütun grafiği
+mat-va-228 | M.8.4.1.1 | z2 | k2 | Aynı gün dikilen K ve L fidelerinin dört hafta boyunca her haftanın sonunda ölçülen boyları aşağıdaki çizgi grafiğinde verilmişti… | ✓1. haftanın sonunda
+mat-va-229 | M.8.4.1.2 | z2 | k2 | Bir sınıftaki 30 öğrencinin okula geliş şekilleri aşağıdaki tabloda verilmiştir. Her öğrenci yalnızca bir şekilde gelmektedir. Bu… | ✓72
+mat-va-230 | M.8.4.1.1 | z2 | k2 | Bir rüzgâr santralinin yılın ilk altı ayında ürettiği elektrik miktarı aşağıdaki çizgi grafiğinde verilmiştir. Santral yöneticile… | ✓20
+mat-va-231 | M.8.4.1.2 | z2 | k2 | Bir müzik uygulaması, 240 kullanıcıya en çok dinledikleri müzik türünü sormuştur. Her kullanıcı tek bir tür söylemiştir. Sonuçlar… | ✓132
+mat-va-232 | M.8.4.1.1 | z2 | k2 | Bir kafede dört gün boyunca satılan çay ve kahve sayıları aşağıdaki grafikte verilmiştir. Kafe sahibi, hangi içeceğin bu dört gün… | ✓20
+mat-va-233 | M.8.4.1.2 | z2 | k2 | Okul kermesinde satılan ürünlerin sayıları aşağıdaki sütun grafiğinde verilmiştir. Kermesi düzenleyen öğrenciler, bu verileri dai… | ✓72
+mat-va-234 | M.8.4.1.1 | z2 | k2 | Bir kafenin bir gün içinde saat başlarında ölçülen müşteri sayısı aşağıdaki çizgi grafiğinde verilmiştir. Kafe sahibi, personel p… | ✓20
+mat-va-235 | M.8.4.1.2 | z2 | k2 | Bir matematik öğretmeni, öğrencilerinden verilen veriler arasında daire grafiğiyle göstermeye uygun olanı seçmelerini istemiştir.… | ✓Bir okulda öğrencilerin geliş şekillerine gö…
+mat-va-236 | M.8.4.1.1 | z2 | k2 | Bir otogardaki üç otobüs firmasının üç farklı günde çıkardığı sefer sayıları aşağıdaki grafikte verilmiştir. Buna göre her gün en… | ✓63
+mat-va-237 | M.8.4.1.2 | z2 | k2 | Bir köy pazarında bir günde elde edilen 800 TL gelirin satılan ürünlere göre dağılımı aşağıdaki daire grafiğinde verilmiştir. Diğ… | ✓240
+mat-va-238 | M.8.4.1.1 | z2 | k2 | Bir hastanenin üç polikliniğine pazartesiden perşembeye gelen hasta sayıları aşağıdaki çizgi grafiğinde verilmiştir. Buna göre sa… | ✓25
+mat-va-239 | M.8.4.1.1 | z2 | k2 | Bir su bayisinde dört gün boyunca satılan damacana sayıları aşağıdaki sütun grafiğinde verilmiştir. Bayi sahibi, satışların gün g… | ✓4
+mat-va-240 | M.8.4.1.2 | z2 | k2 | Bir hayvanat bahçesinde ziyaretçilere en çok sevdikleri bölüm sorulmuştur. Her ziyaretçi tek bir bölüm söylemiştir ve sonuçlar aş… | ✓240
+mat-va-241 | M.8.4.1.1 | z2 | k2 | Bir süt fabrikası, yılın ilk beş ayında işlediği sütün aylık ortalamasının 36 ton olduğunu açıklamıştır. Aşağıdaki sütun grafiğin… | ✓48
+mat-va-242 | M.8.4.1.1 | z2 | k2 | Bir giyim firmasının Merkez, Çarşı ve Sahil mağazalarının hafta sonu günlük gelirleri aşağıdaki grafikte verilmiştir. Buna göre c… | ✓5
+mat-va-243 | M.8.4.1.2 | z2 | k2 | Bir müzede bir günde satılan biletlerin türlere göre sayısı aşağıdaki tabloda verilmiştir. Bu veriler daire grafiğiyle gösterilec… | ✓60°, 120°, 180°
+mat-va-244 | M.8.4.1.1 | z2 | k2 | Bir basketbol okulunun yılın ilk dört ayındaki üye sayısı aşağıdaki sütun grafiğinde verilmiştir. Okul müdürü, kayıt kampanyasını… | ✓%20
+mat-va-245 | M.8.4.1.2 | z2 | k2 | Bir okuldaki öğrencilerin katıldığı atölyeler aşağıdaki daire grafiğinde gösterilmiştir. Her öğrenci tek bir atölyeye katılmaktad… | ✓18
+mat-va-246 | M.8.4.1.1 | z2 | k2 | Bir tiyatro salonunda pazartesiden perşembeye kadar dört günde toplam 330 bilet satılmıştır. Satılan biletlerin günlere göre sayı… | ✓60
+mat-va-247 | M.8.4.1.2 | z2 | k2 | Bir okul yönetimi, okul gezisinin müzeye yapılıp yapılmaması konusunda öğrencilerin görüşünü almıştır. Her öğrenci tek bir cevap … | ✓234
+mat-va-248 | M.8.4.1.1 | z2 | k2 | Bir şehirdeki üç otoparkın hafta içi her gün öğle saatinde ölçülen araç sayıları aşağıdaki çizgi grafiğinde verilmiştir. Buna gör… | ✓1
+mat-va-249 | M.8.4.1.2 | z2 | k2 | Bir reçel atölyesinin bir günde hazırladığı kavanoz sayıları: kayısı 40, elma 30, armut 25, kiraz 15'tir. Atölye bu verileri aşağ… | ✓Armut sütunu
+mat-va-250 | M.8.4.1.1 | z2 | k2 | Bir sınıftaki 20 öğrencinin bu ay okuduğu kitap sayısı aşağıdaki grafikte verilmiştir. Grafikte yatay eksen okunan kitap sayısını… | ✓36
+mat-va-251 | M.8.4.1.2 | z2 | k2 | Bir bakkal zinciri, reklamında üç mağazasının aylık satış miktarlarını aşağıdaki sütun grafiğiyle göstermiştir. Grafiğe bakan bir… | ✓1,5
+mat-va-252 | M.8.4.1.1 | z3 | k2 | Bir ilin A ve B havalimanlarının yılın beş ayında karşıladığı yolcu sayısı aşağıdaki çizgi grafiğinde verilmiştir. Havalimanları … | ✓60
+mat-va-253 | M.8.4.1.2 | z3 | k2 | Bir okul kütüphanesindeki 45 kitabın türlere göre dağılımı aşağıdaki daire grafiğinde verilmiştir. Kütüphaneye yeni şiir kitaplar… | ✓18
+mat-va-254 | M.8.4.1.1 | z3 | k2 | Bir çay bahçesinde 2025 ve 2026 yıllarında mevsimlere göre satılan çay miktarı aşağıdaki sütun grafiğinde gösterilmiştir. İşletme… | ✓Sonbaharda satılan çay miktarı, iki yılda da…
+mat-va-255 | M.8.4.1.2 | z3 | k2 | Bir yaz kampına katılan 40 öğrencinin seçtiği etkinliklere göre sayıları şöyledir: resim 15, müzik 10, dans 5, spor 10. Kamp yöne… | ✓D grafiği
+mat-va-256 | M.8.4.1.1 | z3 | k2 | Bir kitapçı, yılın ilk beş ayındaki aylık cirosunun ortalamasını en az 42 bin TL yapmak istemektedir. İlk dört ayın cirosu aşağıd… | ✓60
+mat-va-257 | M.8.4.1.2 | z3 | k2 | Bir ülkenin iki şehrinde ulaşım tercihi anketi yapılmıştır. A şehrinde 240 kişi, B şehrinde 300 kişi ankete katılmış ve her kişi … | ✓160
+mat-va-258 | M.8.4.1.1 | z3 | k2 | Bir belediye, üç mahallede açılması planlanan parkla ilgili halkın görüşünü almıştır. Ankete katılan her kişi "evet" ya da "hayır… | ✓%60
+mat-va-259 | M.8.4.1.2 | z3 | k2 | 8-A sınıfında 30 öğrenci vardır ve bunlardan 12'si erkektir. Sınıftaki kız öğrenciler okulun üç kulübünden yalnızca birine yazılm… | ✓5
+mat-va-260 | M.8.4.1.1 | z3 | k2 | 8-A, 8-B ve 8-C sınıflarının üç matematik sınavında aldığı sınıf ortalamaları aşağıdaki sütun grafiğinde verilmiştir. Matematik ö… | ✓15
+mat-va-261 | M.8.4.1.2 | z3 | k2 | Bir matematik sınıfında öğrenciler, sütun, çizgi ve daire grafiklerinin hangi veri türlerine uygun olduğunu ve hangi bilgileri ve… | ✓Daire grafiğinde bir dilimin merkez açısı, o…
+mat-va-262 | M.8.4.1.1 | z3 | k2 | Bir ilçede 2025 ve 2026 yıllarında yetiştirilen meyvelerin ton cinsinden miktarları aşağıdaki sütun grafiğinde verilmiştir. Tarım… | ✓%25
+mat-va-263 | M.8.4.1.2 | z3 | k2 | Bir sınıftaki öğrencilere en çok katılmak istedikleri etkinlik sorulmuştur. Her öğrenci tek bir etkinlik seçmiştir ve sonuçlar aş… | ✓12
+mat-va-264 | M.8.4.1.1 | z3 | k2 | Bir çocuk bilim müzesinin bir hafta içinde her gün kaç kişi tarafından ziyaret edildiği aşağıdaki çizgi grafiğinde gösterilmiştir… | ✓%50
+mat-va-265 | M.8.4.1.2 | z3 | k2 | Bir dağ evinde bir günde satılan 200 içeceğin türlere göre dağılımı aşağıdaki daire grafiğinde verilmiştir. Çayın fiyatı 15 TL, k… | ✓900
+mat-va-266 | M.8.4.1.1 | z3 | k2 | Ece, Fatih ve Gül'ün dört hafta boyunca her hafta okuduğu sayfa sayısı aşağıdaki çizgi grafiğinde verilmiştir. Türkçe öğretmeni, … | ✓Ece'nin okuduğu sayfa sayısı her hafta bir ö…
+mat-va-267 | M.8.4.1.2 | z3 | k2 | Bir dil kursuna katılan öğrencilerin seçtiği dillere göre dağılımı Grafik 1'de verilmiştir. Kurs yöneticisi aynı veriyi Grafik 2'… | ✓26
+mat-va-268 | M.8.4.1.1 | z3 | k2 | Bir ilçenin dört mahallesinin nüfusları aşağıdaki sütun grafiğinde bin kişi cinsinden verilmiştir. Belediye, yeni bir sağlık merk… | ✓%70
+mat-va-269 | M.8.4.1.2 | z3 | k2 | Bir turizm ofisi, şehri ziyaret eden turistlere en çok ilgi çeken yeri sormuştur. Her turist tek bir yeri seçmiştir ve sonuçlar a… | ✓20
+mat-va-270 | M.8.4.1.1 | z3 | k2 | Bir zeytinyağı fabrikasında sezon başından itibaren her günün sonunda, o güne kadar işlenen toplam zeytin miktarı ölçülmüş ve aşa… | ✓30
+mat-va-271 | M.8.4.1.2 | z3 | k2 | Bir sitede yaşayanların yaş gruplarına göre dağılımı aşağıdaki daire grafiğinde gösterilmiştir. Grafikte kişi sayıları yazılmamış… | ✓18 yaş ve altındakilerin sayısı, 41-60 yaş a…
+mat-va-272 | M.8.4.1.1 | z3 | k2 | K ve L markalı iki telefonun yılın ilk üç ayında satılan adetleri aşağıdaki sütun grafiğinde bin adet cinsinden gösterilmiştir. K… | ✓3
+mat-va-273 | M.8.4.1.2 | z3 | k2 | Bir kuş gözlemcisi, bir gölde yıl boyunca saydığı kuşların türlere göre dağılımını daire grafiğiyle gösterecektir. Yıl içindeki t… | ✓60
+mat-va-274 | M.8.4.1.1 | z3 | k2 | Eda'nın cüzdanındaki para, başlangıçta ve beş gün boyunca her günün sonunda ölçülmüş ve aşağıdaki çizgi grafiğinde gösterilmiştir… | ✓140
+mat-va-275 | M.8.4.1.2 | z3 | k2 | Bir okulda öğrencilere en sevdikleri ders sorulmuş, her öğrenci tek bir ders söylemiştir. Sonuçlar aşağıdaki daire grafiğinde ver… | ✓36
+mat-va-326 | M.8.4.1.1 | z3 | k3 | Bir ilçe kütüphanesi, bir hafta boyunca ödünç verilen roman ve hikâye kitaplarının günlük sayılarını aşağıdaki grafikte göstermiş… | ✓20
+mat-va-327 | M.8.4.1.1 | z3 | k3 | Bir rüzgâr çiftliğindeki A ve B türbinlerinin ocak–haziran aylarında ürettikleri elektrik miktarı grafikte gösterilmiştir. Çiftli… | ✓130
+mat-va-328 | M.8.4.1.1 | z3 | k3 | Bir deniz otobüsü işletmesi A, B ve C hatlarında yaz boyunca yolcu taşımaktadır. Hatların haziran–eylül aylarında taşıdığı yolcu … | ✓30
+mat-va-329 | M.8.4.1.2 | z3 | k3 | Bir köy kooperatifi bu yıl hasat ettiği meyvelerin kütlece dağılımını daire grafiğiyle göstermiştir. Dilimlerin merkez açıları gr… | ✓1 680
+mat-va-330 | M.8.4.1.1 | z3 | k3 | Hakan, tableti sabah tam doluyken (%100) kullanmaya başlamıştır. Pil yüzdesini her saat başı not eden Hakan'ın verileri grafikte … | ✓100
+mat-va-331 | M.8.4.1.1 | z3 | k3 | Bir tiyatro salonunda hafta içi beş günde satılan bilet sayıları grafikte gösterilmiştir. Çarşamba gününe ait sütun silinmiştir. … | ✓60
+mat-va-332 | M.8.4.1.2 | z3 | k3 | Bir ortaokulda 400 öğrencinin okula geliş biçimleri daire grafiğiyle gösterilmiştir. Bisikletle gelenlerle diğer biçimlerle gelen… | ✓60
+mat-va-333 | M.8.4.1.1 | z3 | k3 | Bir ilin havalimanından 2022–2026 yıllarında yararlanan yolcu sayıları (bin kişi) grafikte gösterilmiştir. Havalimanı müdürlüğü, … | ✓2024
+mat-va-334 | M.8.4.1.1 | z3 | k3 | Bir sınıftaki 29 öğrenciye bu ay sinemada kaç film izledikleri sorulmuştur. Cevaplar, her film sayısını söyleyen öğrenci sayısı o… | ✓3
+mat-va-335 | M.8.4.1.2 | z3 | k3 | Bir hayvan barınağındaki 60 hayvanın türlere göre dağılımı daire grafiğinde verilmiştir. Barınak çalışanı, bu verileri sütun graf… | ✓C
+mat-va-336 | M.8.4.1.1 | z3 | k3 | Bir hava durumu sitesi, üç ilin hafta içi öğle saatlerinde ölçülen sıcaklıklarını aşağıdaki grafikte vermiştir. Bir turizm şirket… | ✓Çarşamba
+mat-va-337 | M.8.4.1.1 | z3 | k3 | Okul çıkışındaki bir kafede dört gün boyunca satılan çay ve kahve fincanı sayıları grafikte gösterilmiştir. Kafe sahibi, "çay sat… | ✓Çarşamba
+mat-va-338 | M.8.4.1.2 | z3 | k3 | İki ortaokulda öğrencilere en çok hangi etkinliği sevdikleri sorulmuş, her öğrenci tek bir etkinlik söylemiştir. A okulundaki 240… | ✓%22
+mat-va-339 | M.8.4.1.1 | z3 | k3 | Bir okulun kütüphane görevlisi, 8-A, 8-B ve 8-C sınıflarının ilk dört haftada öğrenci başına haftalık ortalama okuma sürelerini k… | ✓20
+mat-va-340 | M.8.4.1.2 | z3 | k3 | Bir ortaokulun matematik kulübü, topladığı dört farklı veriyi panoda göstermek için her veriye uygun grafik türünü seçecektir. Ve… | ✓K: çizgi, L: sütun, M: daire, N: çizgi
+mat-va-341 | M.8.4.1.1 | z3 | k3 | Bir sıcak hava balonu festivalinde A ve B balonlarının yerden yükseklikleri (metre), sabah 08.00'den 13.00'e kadar her saat başı … | ✓100
+mat-va-342 | M.8.4.1.2 | z3 | k3 | Bir okuldaki 36 kulüp üyesinin kulüplere göre dağılımı daire grafiğinde verilmiştir. Her üye yalnızca bir kulüptedir. Yeni dönemd… | ✓165
+mat-va-343 | M.8.4.1.1 | z3 | k3 | Bir okulun mini futbol turnuvasında Kırmızı, Mavi ve Yeşil takımların ilk üç haftada attıkları gol sayıları grafikte gösterilmişt… | ✓%25
+mat-va-344 | M.8.4.1.1 | z3 | k3 | Bir baraj gölünün su yüksekliği (metre) ocaktan haziran ayına her ayın ilk günü ölçülmüş ve grafikte gösterilmiştir. Baraj mühend… | ✓4
+mat-va-345 | M.8.4.1.1 | z3 | k3 | Bir atletizm kulübünde Ali, Bora ve Can adlı sporcuların dört yüksek atlama denemesindeki sıçrama yükseklikleri grafikte gösteril… | ✓10
+mat-va-346 | M.8.4.1.2 | z3 | k3 | Bir reklam afişinde K, L ve M markalarının aylık satışları (bin adet) aşağıdaki sütun grafiğiyle gösterilmiştir. Grafiğin dikey e… | ✓%50
+mat-va-347 | M.8.4.1.2 | z3 | k3 | Bir doğa kulübü, dört günlük bisiklet turunda her gün gittiği mesafeyi tabloda göstermiştir. Kulüp başkanı bu verileri sütun graf… | ✓D
+mat-va-348 | M.8.4.1.2 | z3 | k3 | Bir kırtasiyenin mart ayında sattığı ürünlerin adetleri Grafik 1'de sütun grafiğiyle, bu ürünlerden elde edilen gelirin ürünlere … | ✓Silginin gelirdeki payı, satış adedindeki pa…
+mat-va-349 | M.8.4.1.1 | z3 | k3 | Bir iş hanının otoparkına hafta içi günlerde giren otomobil ve motosiklet sayıları grafikte gösterilmiştir. Otopark görevlisi, ot… | ✓20
+mat-va-350 | M.8.4.1.2 | z3 | k3 | Bir çiftçi, tarlalarında yetiştirdiği ürünlerin ekili alanlarının dağılımını daire grafiğiyle göstermiştir. Dört ürünün merkez aç… | ✓40
+mat-va-351 | M.8.4.1.1 | z3 | k3 | Ece ve Naz, LGS hazırlığı için bir hafta boyunca her gün çözdükleri soru sayısını grafikte göstermiştir. İkisi, "Ece'nin çözdüğü … | ✓5
+mat-va-352 | M.8.4.1.2 | z3 | k3 | Bir müzik kursunda 150 öğrencinin her biri yalnızca bir çalgıyı seçmiştir. Seçimlerin dağılımı daire grafiğinde gösterilmiştir. F… | ✓24
+mat-va-353 | M.8.4.1.1 | z3 | k3 | Bir balıkçı, hafta içi ve cumartesi olmak üzere altı günde sattığı kasa balık sayısını grafikte göstermiştir. Balıkçı, satışı bu … | ✓2
+mat-va-354 | M.8.4.1.1 | z3 | k3 | Bir evin çatısındaki A, B ve C güneş panellerinin dört gün boyunca ürettikleri elektrik miktarları (kWh) grafikte gösterilmiştir.… | ✓2. gün
+mat-va-355 | M.8.4.1.2 | z3 | k3 | Bir bisiklet kulübünün 60 üyesinden her biri yaz turu için yalnızca bir rota seçmiştir. Seçimlerin dağılımı daire grafiğinde veri… | ✓12
+mat-va-356 | M.8.4.1.2 | z4 | k3 | Bir ortaokulun yıl sonu kermesinde beş ayrı tezgâhtan gelir elde edilmiştir. Tezgâhların gelirinin toplam gelir içindeki payı Gra… | ✓1 200
+mat-va-357 | M.8.4.1.1 | z4 | k3 | Bir tatil otelinin yöneticisi, yaz aylarındaki enerji verimliliğini incelemektedir. Otelin aylık elektrik tüketimi (bin kWh) Graf… | ✓Haziran
+mat-va-358 | M.8.4.1.2 | z4 | k3 | Bir okulun müzik öğretmeni, öğrencilere en çok dinlemeyi sevdikleri müzik türünü sormuştur. Her öğrenci tek bir tür söylemiştir. … | ✓D
+mat-va-359 | M.8.4.1.2 | z4 | k3 | Bir parkta yetişen lale, gül ve papatya çiçeklerinin sayılarının dağılımı daire grafiğinde gösterilmiştir. Grafikte merkez açılar… | ✓3
+mat-va-360 | M.8.4.1.2 | z4 | k3 | Bir kültür merkezinin çocuk atölyesine kayıtlı 48 çocuğun atölyelere göre dağılımı daire grafiğinde verilmiştir. Merkez, seramik … | ✓24
+mat-va-361 | M.8.4.1.2 | z4 | k3 | Bir okulun bahçesindeki çam, kayın ve meşe ağaçlarının dağılımı daire grafiğinde verilmiştir; grafikte merkez açılar yazılıdır. B… | ✓35
+mat-va-362 | M.8.4.1.1 | z4 | k3 | Bir kırtasiye zincirinin A, B ve C şubelerinin beş haftada sattığı defter sayıları (yüz adet) grafikte verilmiştir. Zincir yöneti… | ✓3
+mat-va-363 | M.8.4.1.1 | z4 | k3 | Bir kargo firmasının M ve N şubelerinin hafta içi beş günde dağıttığı paket sayıları (yüz adet) grafikte gösterilmiştir. M şubesi… | ✓10
+mat-va-364 | M.8.4.1.2 | z4 | k3 | Bir mahalle parkının oyun alanını bir gün boyunca kullanan çocukların oyuncaklara göre dağılımı daire grafiğinde verilmiştir; her… | ✓A
+mat-va-365 | M.8.4.1.1 | z4 | k3 | Bir belediye, iki gönüllü ekibin beş gün süren fidan dikme etkinliğinde o güne kadar diktikleri toplam fidan sayısını grafikte gö… | ✓40
+mat-va-366 | M.8.4.1.2 | z4 | k3 | Bir kafenin bir gün içindeki müşterilerinin seçtiği içecekler Grafik 1'de daire grafiğiyle, aynı veriler Grafik 2'de sütun grafiğ… | ✓Salep
+mat-va-367 | M.8.4.1.1 | z4 | k3 | Bora ve Can, okul voleybol takımında oynamaktadır. İkisinin ilk beş maçta attığı sayılar grafikte gösterilmiştir. Antrenör, altın… | ✓21
+mat-va-368 | M.8.4.1.2 | z4 | k3 | Bir okul kantininde dört hafta boyunca satılan simit ve poğaça sayıları tabloda verilmiştir. Kantin görevlisi bu verileri çizgi g… | ✓D
+mat-va-369 | M.8.4.1.1 | z4 | k3 | Bir okul kantininde simit, poğaça ve tost tezgâhlarının hafta içi her gün sattığı ürün sayıları grafikte gösterilmiştir. Kantin s… | ✓30
+mat-va-370 | M.8.4.1.2 | z4 | k3 | Bir mağazanın kış sezonunda sattığı aksesuarların adetçe dağılımı Grafik 1'de daire grafiğiyle, satış adetlerinin bir bölümü Graf… | ✓72
+mat-va-371 | M.8.4.1.1 | z4 | k3 | Bir şehirde A, B ve C otobüs hatlarının hafta içi günlerde taşıdığı yolcu sayıları (yüz kişi) grafikte gösterilmiştir. Ulaşım müd… | ✓A hattının yolcu sayısı her gün bir önceki g…
+mat-va-372 | M.8.4.1.1 | z4 | k3 | Bir okulun tiyatro kursuna kayıtlı kız ve erkek öğrencilerin 8-A, 8-B, 8-C ve 8-D şubelerine göre sayıları grafikte verilmiştir. … | ✓Yalnızca 8-C şubesinde kız öğrenci sayısı er…
+mat-va-373 | M.8.4.1.2 | z4 | k3 | Bir okuldaki öğrencilere en çok okudukları kitap türü sorulmuştur; her öğrenci tek bir tür söylemiştir. Sonuçlar daire grafiğinde… | ✓Romanı seçen öğrenci sayısı, şiiri seçen öğr…
+mat-va-374 | M.8.4.1.2 | z4 | k3 | Bir yaz okulunda kurslara katılan öğrencilerin dağılımı Grafik 1'de daire grafiğiyle verilmiştir; her öğrenci yalnızca bir kursa … | ✓108 öğrenci; 80°
+mat-va-375 | M.8.4.1.1 | z4 | k3 | İki oyun uygulamasının (A ve B) yayınlandıktan sonraki ilk beş haftada günlük ortalama kullanıcı sayıları (bin kişi) grafikte gös… | ✓70
+mat-va-016 | M.8.4.1.1 | z1 | k0 | Bir otogarın gişesinde bir haftada günlere göre satılan bilet sayıları aşağıdaki sütun grafiğinde verilmiştir. Buna göre salı ve … | ✓40 bilet
+mat-va-017 | M.8.4.1.2 | z1 | k0 | Bir sınıftaki 36 öğrencinin okula ulaşım biçimleri aşağıdaki daire grafiğinde gösterilmiştir. Buna göre okula servisle gelen öğre… | ✓18 öğrenci
+mat-va-018 | M.8.4.1.1 | z1 | k0 | Bir rüzgâr santralindeki türbinin saatlik elektrik üretimi aşağıdaki çizgi grafiğinde verilmiştir. Buna göre türbinin üretimi kaç… | ✓2 saat
+mat-va-019 | M.8.4.1.2 | z1 | k0 | Bir öğrenci, farklı verileri uygun grafiklerle göstermek istiyor. Aşağıdaki verilerden hangisi çizgi grafiğiyle göstermeye en uyg… | ✓Bir şehirde yıl boyunca her ay ölçülen ortal…
+mat-va-020 | M.8.4.1.2 | z1 | k0 | Bir ilçedeki toplu taşıma yolcularının %20'si öğrencidir. Bu bilgi bir daire grafiğinde gösterilecektir. Buna göre öğrenci dilimi… | ✓72°
+mat-va-021 | M.8.4.1.1 | z1 | k0 | Bir pazarda iki manavın dört gün boyunca sattığı domates kasalarının sayısı aşağıdaki sütun grafiğinde verilmiştir. Buna göre sal… | ✓20 kasa
+mat-va-022 | M.8.4.1.1 | z1 | k0 | Bir okul kütüphanesinde eylülden ocağa kadar her ay ödünç verilen kitap sayısı aşağıdaki çizgi grafiğinde gösterilmiştir. Buna gö… | ✓40 kitap
+mat-va-023 | M.8.4.1.2 | z1 | k0 | Bir sınıftaki 30 öğrencinin en sevdiği mevsim aşağıdaki sütun grafiğinde verilmiştir. Bu veriler daire grafiğiyle gösterilecektir… | ✓72°
+mat-va-024 | M.8.4.1.1 | z1 | k0 | Bir barajın doluluk oranı, Mart ayından Temmuz ayına kadar her ayın sonunda ölçülmüş ve aşağıdaki çizgi grafiğinde gösterilmiştir… | ✓50 puan
+mat-va-025 | M.8.4.1.2 | z1 | k0 | Bir köydeki tarım alanlarının ürünlere göre dağılımı aşağıdaki daire grafiğinde gösterilmiştir. Buna göre diğer ürünlerin ekildiğ… | ✓%25
+mat-va-026 | M.8.4.1.1 | z1 | k0 | K ve L şehirlerinde aynı gün saat 08.00'den 16.00'ya kadar iki saatte bir ölçülen hava sıcaklıkları aşağıdaki çizgi grafiğinde ve… | ✓16 °C
+mat-va-027 | M.8.4.1.2 | z1 | k0 | Bir öğrenci, aşağıdaki verilerden birini daire grafiğiyle göstermek istiyor. Buna göre hangisi daire grafiğiyle göstermeye en uyg… | ✓Bir köydeki 200 hanenin ısınma yöntemlerine …
+mat-va-028 | M.8.4.1.1 | z2 | k0 | Bir fabrikanın iki üretim hattında dört gün boyunca harcanan elektrik miktarı aşağıdaki sütun grafiğinde verilmiştir. Fabrika yön… | ✓140 kWh
+mat-va-029 | M.8.4.1.1 | z2 | k0 | Elektrikli bir aracın pil yüzdesi, sabah 09.00'dan 14.00'e kadar her saat başında ölçülmüş ve aşağıdaki çizgi grafiğinde gösteril… | ✓16 puan
+mat-va-030 | M.8.4.1.2 | z2 | k0 | Bir lokantada bir günde servis edilen 240 çorbanın çeşitlere göre dağılımı aşağıdaki daire grafiğinde verilmiştir. Grafikte her d… | ✓40 porsiyon
+mat-va-031 | M.8.4.1.1 | z2 | k0 | Bir köprüden geçen otomobil, minibüs ve otobüs sayıları, üç gün boyunca aynı saatlerde sayılmış ve aşağıdaki sütun grafiğinde gös… | ✓2 katı
+mat-va-032 | M.8.4.1.2 | z2 | k0 | Bir marketin bir günde sattığı 120 litre sütün çeşitlere göre dağılımı aşağıdaki tabloda verilmiştir. Veriler daire grafiğiyle gö… | ✓36°
+mat-va-033 | M.8.4.1.1 | z2 | k0 | K ve L kasabalarının nüfusu 2020'den 2024'e kadar her yıl sayılmış ve aşağıdaki çizgi grafiğinde gösterilmiştir. Buna göre iki ka… | ✓30 bin
+mat-va-034 | M.8.4.1.2 | z2 | k0 | Bir ormandaki ağaçların türlere göre dağılımı aşağıdaki daire grafiğinde yüzdelerle gösterilmiştir. Ormandaki kayın ağaçlarının s… | ✓160 ağaç
+mat-va-035 | M.8.4.1.1 | z2 | k0 | Bir turizm acentesinin bir ayda düzenlediği beş şehir turuna katılan toplam kişi sayısı 130'dur. Katılımcıların turlara göre dağı… | ✓40 kişi
+mat-va-036 | M.8.4.1.2 | z2 | k0 | Bir öğrenci, iki köyün 2019'dan 2024'e kadar her yıl sonundaki nüfusunu göstermek istiyor. Hem nüfusların yıllara göre değişimi h… | ✓İki köyün nüfusunu aynı eksende iki ayrı çiz…
+mat-va-037 | M.8.4.1.1 | z2 | k0 | Bir nehir kıyısındaki üç kamp alanında mayıstan eylüle kadar her ay kurulan çadır sayısı aşağıdaki çizgi grafiğinde verilmiştir. … | ✓120 çadır
+mat-va-038 | M.8.4.1.1 | z2 | k0 | Bir araç kiralama firmasının haziran–eylül aylarında kiraladığı otomobil ve minibüs sayıları aşağıdaki sütun grafiğinde verilmişt… | ✓3 katı
+mat-va-039 | M.8.4.1.2 | z2 | k0 | Bir tarım kooperatifinin bir günde sattığı meyve kasalarının türlere göre sayısı aşağıdaki sütun grafiğinde verilmiştir. Bu veril… | ✓60°
+mat-va-040 | M.8.4.1.1 | z2 | k0 | Bir kap su, ocakta eşit hızla ısıtılmıştır. Suyun sıcaklığı ilk 6 dakika boyunca iki dakikada bir ölçülmüş ve aşağıdaki çizgi gra… | ✓80 °C
+mat-va-041 | M.8.4.1.2 | z2 | k0 | Bir manavda satılan portakal, elma ve armut kilogramlarının dağılımı daire grafiğinde gösterilmiştir. Grafikte her dilimin merkez… | ✓90 kg
+mat-va-042 | M.8.4.1.1 | z2 | k0 | 8-A ve 8-B sınıflarının dört hafta boyunca okuduğu kitap sayıları aşağıdaki sütun grafiğinde verilmiştir. Buna göre 8-A'nın 8-B'd… | ✓30 kitap
+mat-va-043 | M.8.4.1.1 | z2 | k0 | Bir yürüyüşçünün çıktığı yolda her saatin sonuna kadar yürüdüğü toplam yol aşağıdaki çizgi grafiğinde verilmiştir. Buna göre yürü… | ✓10 km
+mat-va-044 | M.8.4.1.2 | z2 | k0 | 72 kişilik bir gezi grubunun gezmek istediği müzeler daire grafiğinde gösterilmiştir. Grafikte iki dilimin merkez açısı yazılıdır… | ✓33 kişi
+mat-va-045 | M.8.4.1.1 | z2 | k0 | Aslan ve Boğaz kafelerinin ocaktan nisana kadar her ay sattığı kahve fincanı sayıları (yüzlerce) aşağıdaki sütun grafiğinde veril… | ✓Aslan kafesi her ay Boğaz kafesinden daha fa…
+mat-va-046 | M.8.4.1.1 | z2 | k0 | Bir yazlık sitenin beş haftada tükettiği su miktarı aşağıdaki sütun grafiğinde verilmiştir. Buna göre sitenin bu beş haftadaki ha… | ✓40 ton
+mat-va-047 | M.8.4.1.2 | z2 | k0 | Bir ilçe kütüphanesine dört gün boyunca gelen kişi sayıları aşağıdaki tabloda verilmiştir. Bu veriler, eksenindeki her çizgi aral… | ✓3 aralık
+mat-va-048 | M.8.4.1.1 | z3 | k0 | Bir sitenin A, B ve C bloklarında ocak–nisan aylarında tüketilen elektrik miktarı aşağıdaki sütun grafiğinde verilmiştir. Site yö… | ✓3 ay
+mat-va-049 | M.8.4.1.1 | z3 | k0 | Bir ihracat firmasının K ve L fabrikalarından ocak–haziran aylarında yaptığı ihracat aşağıdaki çizgi grafiğinde verilmiştir. Firm… | ✓120 ton
+mat-va-050 | M.8.4.1.2 | z3 | k0 | Bir ilçedeki A ve B ortaokullarında her öğrenci yalnızca bir kulübe üyedir. A Ortaokulunda 200, B Ortaokulunda 300 öğrenci kulüpl… | ✓60 öğrenci
+mat-va-051 | M.8.4.1.1 | z3 | k0 | Dört çiftlikte 2023 ve 2024 yıllarında elde edilen süt miktarları aşağıdaki sütun grafiğinde verilmiştir. Bir yatırımcı, üretimi … | ✓K çiftliği
+mat-va-052 | M.8.4.1.2 | z3 | k0 | Bir okulun kermesinde satılan 120 ürünün türlere göre dağılımı aşağıdaki daire grafiğinde verilmiş, dilimlerin merkez açıları yaz… | ✓2350 TL
+mat-va-053 | M.8.4.1.1 | z3 | k0 | Bir pazarcının dört hafta boyunca sattığı elma miktarı Grafik 1'de, her haftaki 1 kilogram elma fiyatı Grafik 2'de verilmiştir. B… | ✓1000 TL
+mat-va-054 | M.8.4.1.1 | z3 | k0 | Üç köyün 2021–2024 yıllarındaki nüfusları (yüz kişi olarak) aşağıdaki çizgi grafiğinde verilmiştir. Bir belediye, A ve B köylerin… | ✓180
+mat-va-055 | M.8.4.1.2 | z3 | k0 | Bir çiftçinin tarlasındaki ekim alanının ürünlere göre dağılımı aşağıdaki daire grafiğinde verilmiştir; dilimlerin merkez açıları… | ✓60 dönüm
+mat-va-056 | M.8.4.1.1 | z3 | k0 | Bir okulun ön ve arka kapılarından hafta içi her gün giren öğrenci sayıları aşağıdaki sütun grafiğinde verilmiştir. Okul yönetimi… | ✓3 gün
+mat-va-057 | M.8.4.1.2 | z3 | k0 | Bir okuldaki 36 üyeli spor kulübünün üyelerinin branşlara göre dağılımı aşağıdaki daire grafiğinde verilmiştir; dilimlerin merkez… | ✓140°
+mat-va-058 | M.8.4.1.1 | z3 | k0 | Bir dalgıcın dalış sırasında iki dakikada bir ölçülen derinliği aşağıdaki çizgi grafiğinde gösterilmiştir. Dalgıç, derinliğin art… | ✓15 m
+mat-va-059 | M.8.4.1.2 | z3 | k0 | Bir anket sonucunda katılımcıların en sevdiği renk sorulmuş ve yanıtlar aşağıdaki daire grafiğinde yüzdelerle gösterilmiştir. Ank… | ✓Kırmızı diliminin merkez açısı 90°'dir.
+mat-va-060 | M.8.4.1.1 | z3 | k0 | Bir ilde dört gün boyunca otobüs, tren ve vapurla yolculuk edenlerin sayısı aşağıdaki sütun grafiğinde verilmiştir. İl müdürlüğü,… | ✓60 bin
+mat-va-061 | M.8.4.1.1 | z3 | k0 | Selin'in cüzdanındaki para, pazartesiden cumaya her akşam sayılmış ve aşağıdaki çizgi grafiğinde gösterilmiştir. Selin, çarşamba … | ✓90 TL
+mat-va-062 | M.8.4.1.2 | z3 | k0 | Bir okuma kulübünün üyelerinin en çok okudukları türe göre dağılımı 2025 yılında Grafik 1'de, 2026 yılında Grafik 2'de gösterilmi… | ✓70 üye
+mat-va-063 | M.8.4.1.2 | z3 | k0 | Bir çiftlikte bir yılda elde edilen 200 ton ürünün türlere göre miktarı aşağıdaki tabloda verilmiştir. Bu veriler daire grafiğiyl… | ✓36°
+mat-va-064 | M.8.4.1.1 | z4 | k0 | Bir meteoroloji istasyonu, K, L ve M şehirlerinde altı gün boyunca öğle saatinde ölçülen sıcaklıkları aşağıdaki çizgi grafiğinde … | ✓3 gün
+mat-va-065 | M.8.4.1.2 | z4 | k0 | Bir kafede bir gün boyunca gelen müşterilerin her biri çay, kahve ya da soğuk içeceklerden yalnızca birini seçmiştir. Seçimlerin … | ✓18 müşteri
+mat-va-066 | M.8.4.1.1 | z4 | k0 | Ece ile Deniz, altı hafta boyunca her hafta sonunda kumbaralarındaki toplam parayı sayıp aşağıdaki çizgi grafiğinde göstermiştir.… | ✓3 hafta
+mat-va-067 | M.8.4.1.2 | z4 | k0 | Bir spor salonunun üyelerinin üyelik türlerine göre dağılımı aşağıdaki daire grafiğinde yüzdelerle gösterilmiştir. Her üye yalnız… | ✓100 üye
+mat-va-068 | M.8.4.1.1 | z4 | k0 | K ve L kitabevlerinin ocak–haziran aylarında sattığı kitap sayıları (yüzlerce) aşağıdaki çizgi grafiğinde verilmiştir. Bir yayıne… | ✓160
+mat-va-069 | M.8.4.1.1 | z4 | k0 | Yaz okulundaki Yıldız, Ay ve Güneş takımlarının dört hafta süren bir futbol turnuvasında ilk üç haftada attıkları gol sayıları aş… | ✓2 gol
+mat-va-070 | M.8.4.1.1 | z4 | k0 | Bir hayvanat bahçesinin açık olduğu ilk beş gündeki ziyaretçi sayıları aşağıdaki sütun grafiğinde verilmiştir. Müdür, bahçenin il… | ✓58 kişi
+mat-va-071 | M.8.4.1.1 | z4 | k0 | Bir spor ekipmanı satıcısı, beş günde sattığı ürünleri internet sitesinden ve mağazadan satılanlar olarak ayırmış ve aşağıdaki sü… | ✓150 ürün
+mat-va-072 | M.8.4.1.2 | z4 | k0 | K ve L şehirlerinde yapılan ankette her katılımcıya en çok kullandığı ulaşım aracı sorulmuş, yanıtlar iki daire grafiğinde yüzdel… | ✓84 kişi
+mat-va-073 | M.8.4.1.2 | z4 | k0 | Bir mobilya mağazasının ocak–haziran aylarında sattığı koltuk sayıları aşağıdaki çizgi grafiğinde verilmiştir. Mağaza sahibi, bu … | ✓90°
+mat-va-074 | M.8.4.1.2 | z4 | k0 | Bir halde bir günde satılan meyve kasaları aşağıdaki sütun grafiğinde verilmiştir. Hal müdürü, bu verileri bir daire grafiğine dö… | ✓Nar diliminin merkez açısı 135°'dir.
+mat-va-075 | M.8.4.1.2 | z4 | k0 | Bir doğa yürüyüşü grubundaki her kişi, A, B ya da C rotalarından yalnızca birini seçmiştir. Seçimler aşağıdaki daire grafiğinde g… | ✓108 kişi
