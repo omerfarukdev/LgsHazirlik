@@ -1,6 +1,8 @@
 // 2026-2027 haftalık konu takvimi. Kaynak: MEB yıllık planları (planlama/kaynaklar/plan-*.txt).
 // Okuldan okula 1-2 hafta kayabilir; uygulama bunu "yaklaşık" olarak kullanır.
-// hafta: { no, bas: "YYYY-MM-DD", bit: "YYYY-MM-DD", tatil?: true, konu: { ders: konuId | null } }
+// hafta: { no, bas: "YYYY-MM-DD", bit: "YYYY-MM-DD", tatil?: true, konu: { ders: konuId | [konuId, …] | null } }
+// Aynı hafta iki konu işleniyorsa ve ikincisi takvimde başka hiçbir haftada yoksa dizi yazılır
+// (8. hafta Fen: MEB planında Mutasyon ile Adaptasyon aynı hafta; Adaptasyon başka haftada geçmiyor).
 //
 // no: takvimdeki sıra (1..40), tatil haftaları dâhil. Planlardaki "13. Hafta" numarası
 // tatiller sayılmadığı için 3 hafta geride kalır; eşleşme tarihe göre yapılmalıdır.
@@ -28,7 +30,7 @@ window.LGS_TAKVIM = [
       turkce: "cumlenin-ogeleri", matematik: "karekoklu-ifadeler", fen: "kalitim",
       inkilap: "ink-2-milli-uyanis", din: "din-1-kader", ingilizce: "ing-3-kitchen" } },
   { no: 8, bas: "2026-11-02", bit: "2026-11-06", konu: {
-      turkce: "cumlenin-ogeleri", matematik: "karekoklu-ifadeler", fen: "mutasyon-modifikasyon",
+      turkce: "cumlenin-ogeleri", matematik: "karekoklu-ifadeler", fen: ["mutasyon-modifikasyon", "adaptasyon"],
       inkilap: "ink-2-milli-uyanis", din: "din-2-zekat-sadaka", ingilizce: "ing-3-kitchen" } },
   { no: 9, bas: "2026-11-09", bit: "2026-11-13", konu: {
       turkce: "cumlenin-ogeleri", matematik: "karekoklu-ifadeler", fen: "biyoteknoloji",

@@ -616,6 +616,12 @@ var App = (function () {
     }
     return null;
   }
+  // Bir haftada bir dersin konuları. Takvimde değer tek konu ya da (aynı hafta iki konu işleniyorsa,
+  // ör. 8. hafta Fen: Mutasyon + Adaptasyon) konu listesi olabilir; her zaman dizi döner.
+  function haftaKonulari(x, dersId) {
+    var k = x && x.konu && x.konu[dersId];
+    return !k ? [] : Array.isArray(k) ? k : [k];
+  }
   // Bir dersin bu haftadan itibaren sırayla işleyeceği konular (tekrarsız)
   function takvimSirasi(dersId) {
     var h = buHafta();
@@ -623,14 +629,13 @@ var App = (function () {
     var sira = [], gorulen = {};
     (window.LGS_TAKVIM || []).forEach(function (x) {
       if (x.no < h.no || x.tatil) return;
-      var k = x.konu && x.konu[dersId];
-      if (k && !gorulen[k]) { gorulen[k] = 1; sira.push(k); }
+      haftaKonulari(x, dersId).forEach(function (k) { if (!gorulen[k]) { gorulen[k] = 1; sira.push(k); } });
     });
     return sira;
   }
+  // Okulda bu hafta işlenen konular (dizi)
   function okuldaBuHafta(dersId) {
-    var h = buHafta();
-    return (h && h.konu && h.konu[dersId]) || null;
+    return haftaKonulari(buHafta(), dersId);
   }
 
   // ================= Bugünün konu testi =================
@@ -644,8 +649,7 @@ var App = (function () {
     (window.LGS_TAKVIM || []).forEach(function (x) {
       if (x.no > h.no || x.tatil || !x.konu) return;
       Object.keys(x.konu).forEach(function (d) {
-        var k = x.konu[d];
-        if (k && !gor[k]) { gor[k] = 1; liste.push(k); }
+        haftaKonulari(x, d).forEach(function (k) { if (!gor[k]) { gor[k] = 1; liste.push(k); } });
       });
     });
     return liste;
@@ -728,7 +732,7 @@ var App = (function () {
       u.konular.forEach(function (konu) {
         var durum = konuDurum(konu.id);
         var hazir = bank(konu.id).length > 0;
-        var simdiki = okuldaBuHafta(d.id) === konu.id;
+        var simdiki = okuldaBuHafta(d.id).indexOf(konu.id) >= 0;
         html += '<div class="konu-kart' + (hazir ? "" : " pasif") + (simdiki ? " simdiki" : "") + '">' +
           (simdiki ? '<div class="simdiki-etiket">Okulda bu hafta</div>' : "") +
           '<div class="konu-ust"><span class="konu-ad">' + esc(konu.ad) + '</span><span class="cipler">' +
