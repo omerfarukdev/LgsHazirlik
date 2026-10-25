@@ -112,7 +112,7 @@ var Panel = (function () {
     function al(k, def) { try { return JSON.parse(kopya.veri["lgs_" + k]) || def; } catch (e) { return def; } }
     return {
       ts: kopya.ts, gecmis: al("gecmis", []), konuDurum: al("konuDurum", {}), bildirim: al("bildirim", []),
-      aktif: al("aktif", null), hap: al("hap", {})
+      aktif: al("aktif", null), hap: al("hap", {}), hatirlat: al("hatirlat", {})
     };
   }
   function yukle() {
@@ -354,10 +354,17 @@ var Panel = (function () {
       d.uniteler.forEach(function (u) {
         u.konular.forEach(function (k) {
           var kd = veri.konuDurum[k.id], hp = veri.hap[k.id];
-          if (!kd && !hp) return;
+          // Test içinde açılan terim hatırlatma kartları (app.js "Terim hatırlatma kartı"); özetin konusunun satırında
+          var hr = Object.keys(veri.hatirlat || {}).map(function (id) { return veri.hatirlat[id]; })
+            .filter(function (x) { return x && x.hap === k.id; });
+          if (!kd && !hp && !hr.length) return;
           // Konu özeti (hap bilgi) okuma kaydı: kaç kez, son okumada kaç dakika
           var ozetCip = hp ? '<span class="cip" title="Konu özetini ' + hp.kez + ' kez okudu, en son ' + tarihSaat(hp.son) + '">Özet · ' +
             (hp.sure ? dk(hp.sure) : "okundu") + (hp.kez > 1 ? " · " + hp.kez + " kez" : "") + '</span>' : "";
+          ozetCip += hr.map(function (x) {
+            return '<span class="cip" title="' + esc(x.ad) + ' hatırlatma kartı: ' + x.kez + ' kez açıldı, ' + (x.don || 0) +
+              ' kez okuyup soruya döndü, en son ' + tarihSaat(x.son) + '">' + esc(x.ad) + ' kartı · ' + x.kez + ' kez · ' + dk(x.toplam || 0) + '</span>';
+          }).join("");
           satirlar += '<div class="kh-satir"><span class="kh-ad">' + esc(k.ad) + '</span><span class="kh-cipler">' + ozetCip + (kd ? [1, 2, 3].map(function (n) {
             var x = kd.k[n];
             return '<span class="rozet ' + (x ? sinif(x.enIyi) : "bos") + '" title="' + KADEME_AD[n] + (x ? " · " + x.deneme + " deneme" : "") + '">' +

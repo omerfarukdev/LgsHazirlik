@@ -903,6 +903,15 @@ var App = (function () {
     (h.yokla || []).forEach(function (y) { m.push(y.soru, y.cevap); });
     return m.join(" ").split(/\s+/).filter(Boolean).length;
   }
+  // Özetin bir bölümü (özet ekranında numaralı; hatırlatma kartında numarasız)
+  function hapBolumHtml(b, no) {
+    return '<section class="hap-bolum"><h2>' + (no ? '<span class="hap-no">' + no + "</span>" : "") + bicim(b.baslik) + "</h2>" +
+      hapListe(b.maddeler, "hap-madde") +
+      (b.tablo ? '<div class="hap-tablo">' + b.tablo + "</div>" : "") +
+      (b.ornekler && b.ornekler.length ? '<div class="hap-kutu hap-ornek"><strong>Örnek</strong>' + hapListe(b.ornekler) + "</div>" : "") +
+      (b.dikkat && b.dikkat.length ? '<div class="hap-kutu hap-dikkat"><strong>Dikkat</strong>' + hapListe(b.dikkat) + "</div>" : "") +
+      "</section>";
+  }
   // devam: özetten sonra ne açılacak — kademe numarası (o kademenin test ekranı) ya da "p" (paragraf turu)
   function hapEkrani(konuId, devam) {
     var kb = KONU[konuId], h = window.LGS_HAP && window.LGS_HAP[konuId];
@@ -915,14 +924,7 @@ var App = (function () {
       '<span class="hap-ust">' + (devam && !o ? "Teste başlamadan önce" : "Hap bilgi") + " · yaklaşık " + okumaDk + " dakikalık okuma</span>" +
       "<p>" + bicim(h.giris) + "</p>" +
       (o ? '<p class="soluk kucuk">Bu özeti daha önce ' + o.kez + " kez okudun, en son " + fmtTarih(o.son) + ".</p>" : "") + "</div>";
-    (h.bolumler || []).forEach(function (b, i) {
-      html += '<section class="hap-bolum"><h2><span class="hap-no">' + (i + 1) + "</span>" + bicim(b.baslik) + "</h2>" +
-        hapListe(b.maddeler, "hap-madde") +
-        (b.tablo ? '<div class="hap-tablo">' + b.tablo + "</div>" : "") +
-        (b.ornekler && b.ornekler.length ? '<div class="hap-kutu hap-ornek"><strong>Örnek</strong>' + hapListe(b.ornekler) + "</div>" : "") +
-        (b.dikkat && b.dikkat.length ? '<div class="hap-kutu hap-dikkat"><strong>Dikkat</strong>' + hapListe(b.dikkat) + "</div>" : "") +
-        "</section>";
-    });
+    (h.bolumler || []).forEach(function (b, i) { html += hapBolumHtml(b, i + 1); });
     if (h.lgs && h.lgs.length) {
       html += '<section class="hap-bolum hap-lgs"><h2>Sınavda karşına böyle çıkar</h2>' + hapListe(h.lgs, "hap-madde") + "</section>";
     }
@@ -946,6 +948,63 @@ var App = (function () {
     var kb = KONU[konuId];
     if (devam === "p") return paragrafBaslat();
     git(devam ? "#/hazir/" + konuId + "/" + devam : kb.konu.rutin ? "#/" : "#/ders/" + kb.ders.id);
+  }
+
+  // ================= Terim hatırlatma kartı =================
+  // 25 Ekim 2026: öğrenci düşünceyi geliştirme yolları ve anlatım biçimi sorularının neredeyse hepsini
+  // boş geçiyordu (17-25 Ekim'de 27 sorunun 26'sı boş); terimleri bilmiyor. Bu kazanımlardan bir soruyu
+  // boş bırakıp başka soruya geçmek isteyince, konu özetinin ilgili bölümü test içinde bir pencerede açılır.
+  // Her soru için bir kez; yalnızca alıştırma testlerinde (deneme, aylık değerlendirme ve ünite denemesi
+  // ölçme amaçlı olduğu için açılmaz). Kart metni özetten gelir; özet güncellenince kart da güncellenir.
+  // Kayıt lgs_hatirlat: { <id>: { hap, ad, kez, don, sure, toplam, son } } — kez: açılış sayısı,
+  // don: "Soruya dön" sayısı, sure: son açılışta pencerede geçen saniye. Panel, özetin konusunun satırında
+  // gösterir. Test kaydına da `hatirlat: [soru id…]` (kartın açıldığı sorular) yazılır.
+  var HATIRLAT = {
+    "T.8.3.34": { id: "dgy", hap: "paragrafta-anlam", bolum: /düşünceyi geliştirme/i, ad: "Düşünceyi geliştirme yolları",
+      giris: "Bu soru, yazarın düşüncesini **hangi yolla** desteklediğini soruyor. Altı yolu hatırla, sonra soruya dön ve metinde bunlardan hangisinin izini bulduğuna bak." },
+    "T.8.3.11": { id: "ab", hap: "paragrafta-anlam", bolum: /anlatım biçim/i, ad: "Anlatım biçimleri",
+      giris: "Bu soru, metnin **anlatım biçimini** soruyor: açıklama, öyküleme, betimleme ya da tartışma. Aşağıyı bir dakikada oku, sonra soruya dön." }
+  };
+  var OLCME_TURU = { deneme: 1, aylik: 1, unite: 1 };
+  var hatirlatAcilis = null;
+  function hatirlatBolum(h) {
+    var hp = window.LGS_HAP && window.LGS_HAP[h.hap];
+    return (hp && (hp.bolumler || []).filter(function (b) { return h.bolum.test(b.baslik); })[0]) || null;
+  }
+  // Şu anki soru boşsa ve kart bu soruda henüz açılmadıysa kartın tanımını döndürür
+  function hatirlatGerekli() {
+    if (!S || OLCME_TURU[S.tur]) return null;
+    var qid = S.sorular[S.idx], q = soruBul(qid), h = q && HATIRLAT[q.kazanim];
+    if (!h || S.cevap[qid] !== undefined || (S.hatirlat && S.hatirlat[qid]) || !hatirlatBolum(h)) return null;
+    return h;
+  }
+  // hedef: öğrenci "Yine de geç" derse gidilecek soru numarası
+  function hatirlatAc(h, hedef) {
+    var qid = S.sorular[S.idx];
+    S.hatirlat = S.hatirlat || {};
+    S.hatirlat[qid] = true;
+    Store.set("aktif", S);
+    var t = Store.get("hatirlat", {}), x = t[h.id] || { hap: h.hap, ad: h.ad, kez: 0, don: 0, toplam: 0 };
+    x.kez++; x.son = Date.now();
+    t[h.id] = x;
+    Store.set("hatirlat", t);
+    hatirlatAcilis = { id: h.id, ts: Date.now() };
+    modal('<div class="hatirlat"><span class="hap-ust">Kısa hatırlatma</span><p>' + bicim(h.giris) + "</p>" +
+      hapBolumHtml(hatirlatBolum(h)) + "</div>" +
+      '<div class="modal-btn"><button class="btn" onclick="App.hatirlatKapat(' + hedef + ')">Yine de geç</button>' +
+      '<button class="btn birincil" onclick="App.hatirlatKapat(-1)">Soruya dön</button></div>', "genis");
+  }
+  function hatirlatKapat(hedef) {
+    var t = Store.get("hatirlat", {}), a = hatirlatAcilis, x = a && t[a.id];
+    if (x) {
+      x.sure = Math.min(1800, Math.round((Date.now() - a.ts) / 1000));
+      x.toplam = (x.toplam || 0) + x.sure;
+      if (hedef < 0) x.don = (x.don || 0) + 1;
+      Store.set("hatirlat", t);
+    }
+    hatirlatAcilis = null;
+    modalKapat();
+    if (hedef >= 0) gitNo(hedef);
   }
 
   // ================= Test =================
@@ -1588,6 +1647,8 @@ var App = (function () {
   function ileri(delta) { gitNo(S.idx + delta); }
   function gitNo(i) {
     if (i < 0 || i >= S.sorular.length) return;
+    var h = i !== S.idx && hatirlatGerekli();
+    if (h) return hatirlatAc(h, i);
     S.idx = i;
     Store.set("aktif", S);
     testCiz();
@@ -1653,6 +1714,7 @@ var App = (function () {
       sorular: S.sorular, cevap: S.cevap, sureSoru: S.sureSoru, neden: {}
     };
     if (yarim) kayit.yarim = true;
+    if (S.hatirlat) kayit.hatirlat = Object.keys(S.hatirlat);
     if (S.tur === "deneme") { kayit.deneme = S.deneme; kayit.oturum = S.oturum; }
     var gecmis = Store.get("gecmis", []);
     gecmis.push(kayit);
@@ -2075,11 +2137,11 @@ var App = (function () {
   }
 
   // ================= Modal =================
-  function modal(html) {
+  function modal(html, sinif) {
     modalKapat();
     var el = document.createElement("div");
     el.id = "modal";
-    el.innerHTML = '<div class="modal-ic">' + html + '</div>';
+    el.innerHTML = '<div class="modal-ic' + (sinif ? " " + sinif : "") + '">' + html + '</div>';
     el.addEventListener("click", function (e) { if (e.target === el) modalKapat(); });
     document.body.appendChild(el);
   }
@@ -2398,7 +2460,7 @@ var App = (function () {
     isaretle: isaretle, bitir: bitir, bitirOnay: bitirOnay, filtrele: filtrele,
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
-    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti,
+    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti, hatirlatKapat: hatirlatKapat,
     uniteBaslat: uniteBaslat, aylikBaslat: aylikBaslat, denemeBaslat: denemeBaslat,
     araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, yarimKapat: yarimKapat, yarimKapatOnay: yarimKapatOnay,
     raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,
