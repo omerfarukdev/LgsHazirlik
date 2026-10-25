@@ -250,6 +250,7 @@ window.LGS_MANIFEST = [
   "fen-adaptasyon-2.js",
   "fen-adaptasyon-3.js",
   "fen-adaptasyon-4.js",
+  "fen-adaptasyon-5.js",
   "fen-adaptasyon-6.js",
   "tur-soz-sanatlari-1.js",
   "tur-soz-sanatlari-2.js",
