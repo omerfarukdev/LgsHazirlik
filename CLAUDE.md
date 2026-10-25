@@ -104,6 +104,10 @@ Her ay okulda o tarihe kadar işlenen konulardan bir deneme yazılır (1. deneme
 - `sorular/deneme-N-<ders>.js`: yeni sorular, `window.LGS_DENEME["deneme-N"]` dizisine push edilir. Konu bankası biçiminin aynısı; farkı: `kademe` alanı yok, `ders` (konular.js ders id'si) ve `konu` (konu id'si) alanları zorunlu. id: `dnN-<ders kısaltması>-<2 haneli sıra>` (`dn1-tur-01`, `dn1-mat-20`). Yayımlanmış deneme id'si de değişmez.
 - Deneme soruları konu havuzlarına KARIŞMAZ; yalnızca denemede, sonuç incelemesinde ve yanlış defterinde görünür. Sorular TAMAMEN YENİ yazılır: `node dogrula.js` deneme sorularını aynı konunun bankasıyla karşılaştırır ve benzerini uyarır.
 - Zorluk gerçek LGS karması: 20 soruluk derste 5 düzey 2 + 10 düzey 3 + 5 düzey 4; 10 soruluk derste 2/5/3. Okulda henüz işlenmemiş konu sorulmaz (`js/takvim.js`).
+- **Bankadan dinamik deneme (25 Ekim 2026 kararı, 2. denemeden itibaren).** Her derste yalnızca 3-5 yeni soru yazılır (iki konuyu ya da kazanımı birleştiren, zorluk 3-4 LGS tipi); gerisini uygulama açılışta öğrencinin hiç cevaplamadığı banka sorularından seçer. Bilgi dosyasında:
+  - `dinamik: { <ders>: { <konu-id>: adet } }` — her ders için yeni + `bankadan` + dinamik toplamı LGS soru sayısına (20/10) eşit olmalı (`node dogrula.js` denetler).
+  - `kazanimSiniri: { <konu-id>: [kazanım…] }` — okulda yarıda kalan konuda yalnızca o tarihe kadar işlenen kazanımlar (MEB yıllık planı, `planlama/kaynaklar/plan-*.txt`). Son hafta başlayan konu ya da kazanım girmez.
+  - Seçim önceliği: geçilmiş kademenin yedeği → havuz (kademe 0) → konu testine girmeyen ana soru. Konu testinin 15 sorusuna ve geçilmemiş kademenin yedeğine dokunulmaz; düzey 1 girmez. Zorluk karması dersin LGS karmasından yeni soruların zorluğu düşülerek kurulur. Seçim deneme ve oturum kimliğiyle tohumlanır, oturum başlayınca sabitlenir. Kod: `js/app.js` → `denemeDinamik`.
 - Deneme dosyaları da üretim prosedüründen geçer (kör doğrulama, düzeltme, ana kontrol) ve `sorular/manifest.js`'e ancak doğrulandıktan sonra, açılış gününden önce eklenir.
 
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)

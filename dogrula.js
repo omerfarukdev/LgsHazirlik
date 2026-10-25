@@ -188,6 +188,42 @@ Object.keys(window.LGS_DENEME || {}).forEach(function (dId) {
   console.log("  📝 " + dId + ": " + a.length + " yeni soru + " + ((bilgi && bilgi.bankadan) || []).length + " bankadan  (" +
     Object.keys(dersSay).map(function (d) { return d + " " + dersSay[d]; }).join(", ") + ")");
 });
+// 3c) Dinamik deneme planı (bilgi.dinamik: { ders: { konu: adet } }): uygulama açılışta öğrencinin görmediği
+// banka sorularıyla doldurur. Konu dersine ait olmalı; yeni + bankadan + dinamik = dersin LGS soru sayısı;
+// her konunun aday havuzu (kademe 0) istenen sayının en az iki katı olmalı (öğrenci bir kısmını görmüş olabilir).
+var DERS_SORU = {};
+(window.LGS_KONULAR || []).forEach(function (d) { DERS_SORU[d.id] = d.soru; });
+Object.keys(window.LGS_DENEME_BILGI || {}).forEach(function (dId) {
+  var bilgi = window.LGS_DENEME_BILGI[dId];
+  if (!bilgi.dinamik) return;
+  var say = {}, din = 0;
+  ((window.LGS_DENEME || {})[dId] || []).forEach(function (q) { say[q.ders] = (say[q.ders] || 0) + 1; });
+  (bilgi.bankadan || []).forEach(function (id) { if (ids[id] && KONU[ids[id]]) say[KONU[ids[id]].id] = (say[KONU[ids[id]].id] || 0) + 1; });
+  Object.keys(bilgi.dinamik).forEach(function (d) {
+    if (!DERS_SORU[d]) { sorun(dId + ': dinamik planda bilinmeyen ders "' + d + '"'); return; }
+    Object.keys(bilgi.dinamik[d]).forEach(function (k) {
+      var adet = bilgi.dinamik[d][k];
+      if (!KONU[k]) { sorun(dId + ': dinamik planda konu "' + k + '" js/konular.js içinde yok'); return; }
+      if (KONU[k].id !== d) sorun(dId + ": dinamik planda " + k + " konusu " + d + " dersine ait değil (" + KONU[k].id + ")");
+      if (!(adet > 0) || adet !== Math.round(adet)) sorun(dId + ": dinamik planda " + k + " adedi pozitif tam sayı olmalı");
+      var sinir = (bilgi.kazanimSiniri || {})[k];
+      var havuz = ((window.LGS_BANK || {})[k] || []).filter(function (q) { return q.kademe === 0 && (!sinir || sinir.indexOf(q.kazanim) >= 0); }).length;
+      if (havuz < 2 * adet) dikkat(dId + ": " + k + " için havuz " + havuz + " soru, plan " + adet + " istiyor (en az iki katı olmalı)");
+      say[d] = (say[d] || 0) + adet; din += adet;
+    });
+  });
+  Object.keys(bilgi.kazanimSiniri || {}).forEach(function (k) {
+    var plan = bilgi.dinamik[KONU[k] && KONU[k].id];
+    if (!plan || !plan[k]) sorun(dId + ": kazanimSiniri'ndaki " + k + " dinamik planda yok");
+    var var_ = {};
+    ((window.LGS_BANK || {})[k] || []).forEach(function (q) { var_[q.kazanim] = 1; });
+    bilgi.kazanimSiniri[k].forEach(function (z) { if (!var_[z]) sorun(dId + ": kazanimSiniri'nda " + k + " için " + z + " bankada hiç geçmiyor"); });
+  });
+  Object.keys(DERS_SORU).forEach(function (d) {
+    if ((say[d] || 0) !== DERS_SORU[d]) sorun(dId + ": " + d + " toplamı " + (say[d] || 0) + ", LGS'de " + DERS_SORU[d] + " olmalı (yeni + bankadan + dinamik)");
+  });
+  console.log("  🎲 " + dId + ": dinamik " + din + " soru (" + Object.keys(say).map(function (d) { return d + " " + say[d]; }).join(", ") + ")");
+});
 
 // 4) Doğru cevap konumu dengesi (dosya bazında)
 console.log("\nŞık dengesi kontrolü yapılıyor…");

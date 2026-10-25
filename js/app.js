@@ -1351,15 +1351,103 @@ var App = (function () {
     var kb = KONU[soruKonusu(q.id)];
     return kb ? kb.ders.id : null;
   }
-  // Oturumun soruları ders sırasıyla: önce denemeye özel yazılanlar, sonra bilgi dosyasında
-  // bankadan seçilenler (İngilizce üretimi durdurulduğu için İngilizce soruları bankadan gelir)
+  // Bankadan dinamik deneme (25 Ekim 2026 kararı; ilk kez 2. denemede). Bilgi dosyasındaki
+  // `dinamik: { <ders>: { <konu-id>: adet } }` bölümü, denemeye özel yazılan az sayıda sorunun yanını
+  // öğrencinin hiç cevaplamadığı banka sorularıyla doldurur. Kaynak önceliği: geçilmiş kademelerin
+  // yedekleri (kademe tekrarında artık gerekmez) → havuz (kademe 0) → konu testine girmeyen ana sorular.
+  // Konu testinin 15 sorusuna ve geçilmemiş kademenin yedeğine dokunulmaz. Zorluk gerçek LGS karmasıyla
+  // dağılır (20 soruluk ders 5/10/5, 10 soruluk 2/5/3 düzey 2/3/4); denemeye özel soruların zorluğu bu
+  // karmadan düşülür. Seçim deneme ve oturum kimliğiyle tohumlanır: aynı durumda hep aynı sorular çıkar
+  // (ekrandaki sayı ile başlayan test tutar); oturum başlayınca sorular aktif teste yazılıp sabitlenir.
+  var DENEME_KARMA = { 20: { 2: 5, 3: 10, 4: 5 }, 10: { 2: 2, 3: 5, 4: 3 } };
+  function tohumluKaristir(dizi, tohum) {
+    var h = 2166136261, a = dizi.slice();
+    for (var i = 0; i < tohum.length; i++) { h ^= tohum.charCodeAt(i); h = Math.imul(h, 16777619); }
+    function rnd() {
+      h = (h + 0x6D2B79F5) | 0;
+      var t = Math.imul(h ^ (h >>> 15), h | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    }
+    for (var j = a.length - 1; j > 0; j--) { var k = Math.floor(rnd() * (j + 1)), x = a[j]; a[j] = a[k]; a[k] = x; }
+    return a;
+  }
+  // Konunun denemeye girebilecek banka soruları; o: 0 geçilmiş kademenin yedeği, 1 havuz, 2 teste girmeyen ana soru
+  function denemeAdaylari(konuId, tohum) {
+    var durum = konuDurum(konuId), fazla = {}, liste = [];
+    [1, 2, 3].forEach(function (k) { anaSecim(konuId, k).fazla.forEach(function (q) { fazla[q.id] = 1; }); });
+    bank(konuId).forEach(function (q) {
+      var gecti = durum.k[q.kademe] && durum.k[q.kademe].enIyi >= AYAR.gecmeEsigi;
+      var o = q.kademe === 0 ? 1 : fazla[q.id] ? 2 : (!anaSoru(q) && gecti) ? 0 : -1;
+      if (o >= 0) liste.push({ q: q, o: o });
+    });
+    return tohumluKaristir(liste, tohum + "|" + konuId)
+      .map(function (x, i) { return { q: x.q, o: x.o, i: i }; })
+      .sort(function (a, b) { return (a.o - b.o) || (a.i - b.i); });
+  }
+  function denemeDinamik(id, o) {
+    var bilgi = denemeBilgi(id);
+    if (!bilgi || !bilgi.dinamik || !OTURUMLAR[o]) return [];
+    var gorulen = Store.get("gorulen", {}), alindi = {}, secilen = [], tohum = id + "|" + o;
+    var sabit = ((window.LGS_DENEME || {})[id] || []).concat((bilgi.bankadan || []).map(soruBul).filter(Boolean));
+    sabit.forEach(function (q) { alindi[q.id] = 1; });
+    OTURUMLAR[o].dersler.forEach(function (d) {
+      var plan = bilgi.dinamik[d];
+      if (!plan) return;
+      var konular = Object.keys(plan).filter(function (k) { return KONU[k] && plan[k] > 0; }), kota = {}, adet = 0, aday = {};
+      // kazanimSiniri: okulda yarıda kalan konuda yalnızca o tarihe kadar işlenen kazanımlar (MEB yıllık planı)
+      konular.forEach(function (k) {
+        var sinir = (bilgi.kazanimSiniri || {})[k];
+        kota[k] = plan[k]; adet += plan[k];
+        aday[k] = denemeAdaylari(k, tohum).filter(function (x) { return !sinir || sinir.indexOf(x.q.kazanim) >= 0; });
+      });
+      // Zorluk hedefi: dersin LGS karmasından denemeye özel soruların zorluğu düşülür
+      var karma = {}, temel = DENEME_KARMA[(dersBul(d) || {}).soru] || DENEME_KARMA[10], yuvalar = [];
+      Object.keys(temel).forEach(function (z) { karma[z] = temel[z]; });
+      sabit.forEach(function (q) { if (soruDersi(q) === d && karma[q.zorluk] > 0) karma[q.zorluk]--; });
+      [4, 3, 2].forEach(function (z) { for (var i = 0; i < (karma[z] || 0); i++) yuvalar.push(z); });
+      while (yuvalar.length > adet) yuvalar.splice(yuvalar.indexOf(3) >= 0 ? yuvalar.indexOf(3) : yuvalar.length - 1, 1);
+      while (yuvalar.length < adet) yuvalar.push(3);
+      // Yuva yuva doldur: en zor yuvalar önce (az bulunur); kotası en çok kalan konudan, önce görülmemiş
+      // ve tam zorluktaki, sonra bir düzey yakın, en sonda (banka tükenirse) en eski görülen soru.
+      function bul(zler, gorulmemis) {
+        var sirali = konular.filter(function (k) { return kota[k] > 0; })
+          .sort(function (a, b) { return kota[b] - kota[a]; });
+        for (var i = 0; i < sirali.length; i++) {
+          var k = sirali[i], adaylar = aday[k].filter(function (x) {
+            return !alindi[x.q.id] && zler.indexOf(x.q.zorluk) >= 0 && (gorulmemis ? !gorulen[x.q.id] : !!gorulen[x.q.id]);
+          });
+          if (!gorulmemis) adaylar.sort(function (a, b) { return gorulen[a.q.id] - gorulen[b.q.id]; });
+          if (adaylar.length) return { k: k, q: adaylar[0].q };
+        }
+        return null;
+      }
+      yuvalar.forEach(function (z) {
+        var yakin = [z + 1, z - 1].filter(function (x) { return x >= 2 && x <= 4; }); // düzey 1 denemeye girmez
+        var b = bul([z], true) || bul(yakin, true) || bul([z], false) || bul(yakin, false);
+        if (!b) return;
+        alindi[b.q.id] = 1; kota[b.k]--;
+        secilen.push(b.q);
+      });
+    });
+    return secilen;
+  }
+  // Oturumun soruları ders sırasıyla: denemeye özel yazılanlar, bilgi dosyasında bankadan sabit seçilenler
+  // (1. denemenin İngilizcesi) ve dinamik seçilenler. Dinamik denemede her dersin soruları kolaydan zora dizilir.
   function denemeOturumSorulari(id, o) {
     var bilgi = denemeBilgi(id);
     if (!bilgi || !OTURUMLAR[o]) return [];
-    var hepsi = ((window.LGS_DENEME || {})[id] || []).concat((bilgi.bankadan || []).map(soruBul).filter(Boolean));
+    var hepsi = ((window.LGS_DENEME || {})[id] || []).concat((bilgi.bankadan || []).map(soruBul).filter(Boolean))
+      .concat(denemeDinamik(id, o));
     var liste = [];
     OTURUMLAR[o].dersler.forEach(function (d) {
-      hepsi.forEach(function (q) { if (soruDersi(q) === d) liste.push(q); });
+      var ders = hepsi.filter(function (q) { return soruDersi(q) === d; });
+      if (bilgi.dinamik) {
+        ders = ders.map(function (q, i) { return { q: q, i: i }; })
+          .sort(function (a, b) { return ((a.q.zorluk || 0) - (b.q.zorluk || 0)) || (a.i - b.i); })
+          .map(function (x) { return x.q; });
+      }
+      liste = liste.concat(ders);
     });
     return liste;
   }
