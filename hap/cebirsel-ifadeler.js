@@ -26,7 +26,7 @@ window.LGS_HAP["cebirsel-ifadeler"] = {
     {
       baslik: "İfade kurma, toplama ve çıkarma",
       maddeler: [
-        "Sözel bir durumu önce terimlere böl: “fiyatı p TL olan 3 defter” 3p; “yaşı t olan kişiden 5 yaş büyük” t + 5; “t'nin 2 katından 1 eksik” 2t − 1.",
+        "Sözel bir durumu önce terimlere böl: “fiyatı p TL olan 3 defter” 3p; “yaşı t olan kişiden 5 yaş büyük” t + 5; “t'nin 2 katından 1 eksik” 2t − 1; ardışık tek (ya da çift) sayılar ikişer ikişer artar: 2n − 1, 2n + 1, 2n + 3.",
         "Sık kullanılan bağıntılar: tutar = adet × birim fiyat, yol = hız × süre, dikdörtgenin alanı = kenarların çarpımı, çevresi = komşu kenarların toplamının 2 katı. Kenarlar ya da fiyatlar cebirsel ifade olunca bağıntı aynı kalır, işlem ifadelerle yapılır.",
         "Toplamada parantez olduğu gibi açılır: (3a + 2) + (a − 5) = 4a − 3.",
         "**Çıkarmada eksi işareti parantezin her terimine dağıtılır, işaretler değişir:** (3a + 2) − (a − 5) = 3a + 2 − a + 5 = 2a + 7.",
@@ -60,7 +60,7 @@ window.LGS_HAP["cebirsel-ifadeler"] = {
         "**Tam kare açılımı:** (a + b)^{2} = a^{2} + 2ab + b^{2} ve (a − b)^{2} = a^{2} − 2ab + b^{2}. Ortadaki terim her zaman **iki katı çarpım** (2ab) olur; son terim her zaman artıdır.",
         "**İki kare farkı:** a^{2} − b^{2} = (a − b)(a + b). Çarpımda ortadaki iki terim birbirini götürür.",
         "**Alan modeli:** Kenarı (a + b) olan kare; a^{2} alanlı bir kare, b^{2} alanlı bir kare ve ab alanlı iki dikdörtgenden oluşur. Bu yüzden ortada 2ab vardır.",
-        "Katsayılı terimlerde terimin hepsinin karesi alınır: (5p − 2)^{2} = (5p)^{2} − 2 · 5p · 2 + 2^{2} = 25p^{2} − 20p + 4.",
+        "Başı eksi olan ifadede kare aynıdır: (−y + 4)^{2} = (y − 4)^{2} = y^{2} − 8y + 16. Katsayılı terimlerde terimin hepsinin karesi alınır: (5p − 2)^{2} = (5p)^{2} − 2 · 5p · 2 + 2^{2} = 25p^{2} − 20p + 4.",
         "a ve b iki terimli bir ifade de olabilir: (3x + 4)^{2} − (x + 2)^{2} = [(3x + 4) − (x + 2)] · [(3x + 4) + (x + 2)] = (2x + 2)(4x + 6). Birinci köşeli parantezde eksi, parantezdeki her terimi etkiler."
       ],
       tablo: "<table class=\"tablo\"><tr><th>İfade</th><th>Açılımı</th><th>Orta terim</th></tr><tr><td>(m + 6)<sup>2</sup></td><td>m<sup>2</sup> + 12m + 36</td><td>2 · m · 6 = +12m</td></tr><tr><td>(m − 6)<sup>2</sup></td><td>m<sup>2</sup> − 12m + 36</td><td>−12m</td></tr><tr><td>(m − 6)(m + 6)</td><td>m<sup>2</sup> − 36</td><td>yok (götürülür)</td></tr></table>",
@@ -77,6 +77,8 @@ window.LGS_HAP["cebirsel-ifadeler"] = {
         "**2) İki kare farkı:** İki terim, ikisi de bir ifadenin karesi ve aralarında eksi varsa: 9k^{2} − 64 = (3k)^{2} − 8^{2} = (3k − 8)(3k + 8).",
         "**3) Tam kare:** Üç terimden ilk ve son terim birer karedir ve ortadaki terim, işaretine bakmadan, köklerin çarpımının 2 katıdır: k^{2} − 14k + 49 = (k − 7)^{2}; ortadaki terimin işareti parantezdeki işareti belirler.",
         "**Sıra:** Önce ortak çarpan var mı bak, sonra kalan ifadeye kare farkı ya da tam kare uygula: 3p^{2} − 27 = 3(p^{2} − 9) = 3(p − 3)(p + 3). İşin sonunda parantez çarpılınca ilk ifadeyi bulmalısın (sağlama).",
+        "**Bilinmeyen sayı bulma:** x^{2} + kx + 81 tam kare ise 81 = 9^{2} olduğundan ortadaki terim ±2 · x · 9 olmalı; k = 18 (ya da −18). Ortadaki terim verilip son terim sorulursa ortadaki terimin yarısının karesi alınır: t^{2} − 22t + k için k = 11^{2} = 121.",
+        "**Ortak çarpan notları:** Başta eksi varsa eksi de dışarı alınabilir: −5x − 15 = −5(x + 3); parantez içindeki işaretler değişir. Bir terim ortak çarpanın kendisiyse parantezde 1 kalır: 6a^{2} + 6a = 6a(a + 1). Harfli ortak çarpanda her harfin en küçük üssü alınır: 6p^{2}q − 9pq^{2} = 3pq(2p − 3q). **Çarpan**, çarpımı oluşturan her ifadedir: 5(y − 3)(y + 3) ifadesinin çarpanları 5, y − 3 ve y + 3'dir.",
         "Çarpanlara ayrılmış biçim hesabı kolaylaştırır: 61^{2} − 39^{2} = (61 − 39)(61 + 39) = 22 · 100 = 2200. Ya da 99^{2} = (100 − 1)^{2} = 10000 − 200 + 1 = 9801. Bir ifadenin değerini sorarlarsa önce çarpanlara ayır, sonra sayıyı yaz: x^{2} − 8x + 16 = (x − 4)^{2} olduğundan x = 84 için 80^{2} = 6400.",
         "Ortak çarpan, çarpanlardan birinin içine katılabilir: 3(x − 2)(x + 2) = (3x − 6)(x + 2). Alan ya da gelir ifadesi çarpanlarına ayrılınca bilinen kenarın (ya da adedin) dışında kalan çarpanlar diğer kenarı (ya da fiyatı) verir."
       ],
@@ -92,8 +94,8 @@ window.LGS_HAP["cebirsel-ifadeler"] = {
         "Alan bir karenin alanıysa kenar o ifadenin kareköküdür; çevre bu kenarın 4 katıdır. Dikdörtgende çevre, komşu iki kenar toplamının 2 katıdır.",
         "**Çerçeve ve şerit:** Çerçeve her yanda k birim kalınlıktaysa dış kenar iç kenardan 2k fazladır (iki karşılıklı yan). Yalnızca iki komşu kenara şerit eklenirse kenar k kadar artar. Köşelerdeki küçük kareleri unutma.",
         "**Kısaltıp uzatma:** Karenin bir kenarını k kısaltıp komşu kenarını k uzatırsan çevre değişmez ama alan k^{2} azalır: (a − k)(a + k) = a^{2} − k^{2}.",
-        "**Toplam ve çarpım verilince:** a + b = 10 ve ab = 21 ise a^{2} + b^{2} = (a + b)^{2} − 2ab = 100 − 42 = 58. Denklem çözmeden yalnızca özdeşlik kullanırsın.",
-        "Büyük bir sayının karesi gelirse sayıyı yuvarlak sayı ile küçük sayıya ayır: 62^{2} = (60 + 2)^{2} = 3600 + 240 + 4 = 3844.",
+        "**Toplam ve çarpım verilince:** a + b = 10 ve ab = 21 ise a^{2} + b^{2} = (a + b)^{2} − 2ab = 100 − 42 = 58. Denklem çözmeden yalnızca özdeşlik kullanırsın. Fark ve çarpım verilirse a − b = 7, ab = 8 için a^{2} + b^{2} = (a − b)^{2} + 2ab = 49 + 16 = 65 olur. Toplam ve fark verilirse a^{2} − b^{2} = (a − b)(a + b) doğrudan çarpılır.",
+        "İki çarpanı bir yuvarlak sayıya göre yazıp kare farkı kur: 97 · 103 = (100 − 3)(100 + 3) = 10000 − 9 = 9991. Büyük bir sayının karesi gelirse sayıyı yuvarlak sayı ile küçük sayıya ayır: 62^{2} = (60 + 2)^{2} = 3600 + 240 + 4 = 3844.",
       ],
       dikkat: [
         "**Alan farkını kenar farkıyla karıştırmak.** 12^{2} − 8^{2} = (12 − 8)(12 + 8) = 80'dir; (12 − 8)^{2} = 16 değildir."
