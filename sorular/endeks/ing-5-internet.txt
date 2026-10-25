@@ -88,3 +88,213 @@ ing-u5-012 | E8.5.R1 | z3 | k0 | Meltem uses the Internet to learn English. She 
 ing-u5-013 | E8.5.R2 | z4 | k0 | This is the schedule of the online clubs at a school. According to the schedule, which one is NOT true? | ✓The drawing club meets after the coding club.
 ing-u5-014 | E8.5.R2 | z4 | k0 | Bora's laptop is broken, so he uses a computer in the school library after lessons. He can stay there for only 30 minutes because… | ✓Bora does his research with a search engine …
 ing-u5-015 | E8.5.SP1 | z4 | k0 | The sentences below are from a dialogue between Aylin and Deniz. They are mixed up. I. Yes. It isn't working properly. II. What d… | ✓IV - III - II - I
+ing-u5-126 | E8.5.R2 | z1 | k1 | Yusuf wants his family to see his holiday video on a website. He needs to - - - - it. Which completes the sentence? | ✓upload
+ing-u5-127 | E8.5.SP1 | z1 | k1 | Pelin: Would you like to watch a music video with me? Tarık: - - - - I love that singer. Which completes the dialogue? | ✓Good idea! Let's watch it now.
+ing-u5-128 | E8.5.R2 | z1 | k1 | Rüya types a website address in the address bar at the top of the page. The program she uses is a - - - -. Which completes the se… | ✓browser
+ing-u5-129 | E8.5.R1 | z1 | k1 | Ayten chooses a long password. She changes it often and never tells it to anyone. What does Ayten do with her password? | ✓She changes it often.
+ing-u5-130 | E8.5.SI1 | z1 | k1 | You want to find out how many hours your cousin chats online each day. Which question should you ask? | ✓How long do you chat online?
+ing-u5-131 | E8.5.R2 | z1 | k1 | The video stops every few seconds because Melek's Internet - - - - is very slow. Which completes the sentence? | ✓connection
+ing-u5-132 | E8.5.SP1 | z1 | k1 | Taylan: Why don't we play a quiz game online after dinner? Lale: - - - - I have to help my mother. Which completes the dialogue? | ✓I'm sorry, but I can't.
+ing-u5-133 | E8.5.R2 | z1 | k1 | Orhan deletes some old photos from his tablet. What does "delete" mean? | ✓to remove
+ing-u5-134 | E8.5.R1 | z1 | k1 | Bahar uses the Internet to listen to music and to read e-books. She doesn't shop online. What does Bahar do on the Internet? | ✓She reads e-books.
+ing-u5-135 | E8.5.SP1 | z1 | k1 | Elif: Why don't we study together on a video call? Noah: - - - - I need help with maths. Which completes the dialogue? | ✓Good idea! Let's start at six.
+ing-u5-136 | E8.5.R2 | z1 | k1 | Berk wants to read his e-mails. His mother says, "Then you must log - - - - first." Which completes the sentence? | ✓on
+ing-u5-137 | E8.5.R2 | z1 | k1 | Maya says: "It is a place on the Internet where you can chat with friends and share photos." What is it? | ✓a social networking site
+ing-u5-138 | E8.5.R2 | z1 | k1 | Asya wants to listen to a song without the Internet. She saves it from a music website to her phone. She - - - - the song. Which … | ✓downloads
+ing-u5-139 | E8.5.SP1 | z1 | k1 | Barış: Would you like to see my new website? Melek: - - - - I want to see it now. Which completes the dialogue? | ✓Sure. I'd love to.
+ing-u5-140 | E8.5.SI1 | z1 | k1 | You want to learn why your uncle uses the Internet. Which question should you ask? | ✓What do you use the Internet for?
+ing-u5-141 | E8.5.R1 | z1 | k1 | Gonca's grandfather lives in another city. They talk on a video call on Sundays. How often do they talk? | ✓Once a week
+ing-u5-142 | E8.5.R2 | z1 | k1 | Meryem wants to join a new reading website. She does not have an account there, so she must - - - - first. Which completes the se… | ✓register
+ing-u5-143 | E8.5.SP1 | z1 | k1 | Nehir: Would you like to watch a film online with me tonight? Ravi: - - - - Why don't we watch it tomorrow? Which completes the d… | ✓Sorry, but I can't tonight.
+ing-u5-144 | E8.5.R1 | z1 | k1 | Işıl checks the news on the Internet every morning. She reads it on her phone. What does Işıl do every morning? | ✓She reads the news.
+ing-u5-145 | E8.5.W1 | z1 | k1 | I like online games, - - - - I don't play them every day. Which completes the sentence? | ✓but
+ing-u5-146 | E8.5.R1 | z1 | k1 | Vedat wants to go to the library. He types its address into a map website on his phone and sees the way. What does Vedat use the … | ✓To find a place
+ing-u5-147 | E8.5.R2 | z1 | k1 | First, I open my browser. Then I - - - - the website address in the box. Finally, I press Enter. Which completes the sentences? | ✓type
+ing-u5-148 | E8.5.SI2 | z1 | k1 | Mia: I can't see the pictures. Noah: What do you mean? Do you mean the photos in the e-mail? Mia: - - - - Which completes the dia… | ✓Yes. They don't open.
+ing-u5-149 | E8.5.SP1 | z1 | k1 | Tolga: Would you like to join my online chess game? Sevgi: - - - - I have a piano lesson now. Which completes the dialogue? | ✓I'd love to, but I can't.
+ing-u5-150 | E8.5.R2 | z2 | k1 | The chart shows what 20 students do online after school. Each student chose one activity. How many more students chose homework t… | ✓2
+ing-u5-151 | E8.5.SP1 | z2 | k1 | Ismail invites Nazlı to a video call with his cousins on Saturday evening. Nazlı has a school trip on that day, so she wants to r… | ✓Thanks, but I have a school trip.
+ing-u5-152 | E8.5.R1 | z2 | k1 | Last month I started an online Spanish course. Every evening I watch two short lessons and do the exercises on the course website… | ✓To learn a language
+ing-u5-153 | E8.5.R2 | z2 | k1 | The table shows how often four students do some things on the Internet. Who always makes video calls and never plays online games? | ✓Pınar
+ing-u5-154 | E8.5.L2 | z2 | k1 | Notice in the school computer room: "Dear students, many of you use these computers every day. When you finish your work, please … | ✓log off from
+ing-u5-155 | E8.5.R1 | z2 | k1 | Forum post by Ravi: "My tablet is very slow. Sometimes the screen goes blank when I open a video." Reply by Ayça: "Delete some ol… | ✓To delete some old files
+ing-u5-156 | E8.5.SI2 | z2 | k1 | Cansu: My e-mail isn't working. I can read my messages. Mustafa: What do you mean? Do you mean you can't send them? Cansu: - - - … | ✓Yes. My replies don't go out.
+ing-u5-157 | E8.5.W1 | z2 | k1 | I. Then I write a short message. II. Finally, I click the "Send" button. III. First, I log in to my e-mail account. IV. After tha… | ✓III – I – IV – II
+ing-u5-158 | E8.5.R2 | z2 | k1 | Hilal is signing up for an online book club. She reads the steps on the website. Which one is NOT true according to the steps? | ✓You can tell your password to a friend.
+ing-u5-159 | E8.5.SP1 | z2 | k1 | Kemal's cousin lives in Germany. Kemal invites him to a video call at five on Sunday. His cousin is at a football match until six… | ✓Sorry, but I can't. I'm at a match until six.
+ing-u5-160 | E8.5.R1 | z2 | k1 | From: Yeliz | To: Mr. Kılıç | Subject: Missing homework Dear Mr. Kılıç, I sent my homework yesterday, but I think it didn't arriv… | ✓To answer when the homework arrives
+ing-u5-161 | E8.5.R2 | z2 | k1 | Zafer has exactly 4 MB of free space on his tablet. He wants to download one e-book from the list. Which e-book can he download? | ✓Mountain Days
+ing-u5-162 | E8.5.SI1 | z2 | k1 | Kıvanç wrote four questions for a school survey about Internet habits. Gülşah read one of them and answered: "About an hour after… | ✓How long do you go online every day?
+ing-u5-163 | E8.5.R1 | z2 | k1 | School news: Last week the students of 8-C made a website about their city. They wrote the texts and took the photos themselves. … | ✓Their teacher
+ing-u5-164 | E8.5.L1 | z2 | k1 | According to the chat, which one is true? | ✓Selva can't go online at her aunt's house.
+ing-u5-165 | E8.5.W1 | z2 | k1 | Naz's phone is full of games and music. She doesn't need anything new. She says: "My phone has a lot of games, - - - - I don't ne… | ✓so
+ing-u5-166 | E8.5.R2 | z2 | k1 | The graph shows which device each of 24 students uses most to go online. Which one is true according to the graph? | ✓Half of the students use a phone.
+ing-u5-167 | E8.5.SI2 | z2 | k1 | Ayşegül and her teacher are talking about the school website. Teacher: Please put the poster on the Internet tomorrow. Ayşegül: W… | ✓Yes. Everyone can see it there.
+ing-u5-168 | E8.5.L2 | z2 | k1 | Our school has a new - - - -. You can read the club news and see the lunch menu on it. Many students open it on their phones befo… | ✓website
+ing-u5-169 | E8.5.R1 | z2 | k1 | Doruk's mother does not use the Internet much. She only talks to her sister in Canada on video calls. She doesn't read the news o… | ✓She uses the Internet only for video calls.
+ing-u5-170 | E8.5.R2 | z2 | k1 | Zerrin wants to ask the school office a question about the exam day. She opens the school website. Which button should she click? | ✓Contact
+ing-u5-171 | E8.5.SP1 | z2 | k1 | Mr. Polat asks his neighbour Rabia for help with his new e-mail account. Rabia has a swimming lesson on Saturday morning, so she … | ✓Sorry, but I'm busy in the morning.
+ing-u5-172 | E8.5.L2 | z2 | k1 | Ayhan's school has an online library. Each student has an account. Students can choose e-books and - - - - them to their tablets.… | ✓download
+ing-u5-173 | E8.5.R2 | z2 | k1 | Seda is looking at her inbox. She wants to open the e-mail with an attachment that came on Tuesday. Which e-mail is it? | ✓Holiday photos
+ing-u5-174 | E8.5.R1 | z2 | k1 | When I was ten, I had no idea how to use the Internet. Now I use it for my lessons, for music and for chatting. My neighbour is d… | ✓The writer's neighbour uses the Internet onl…
+ing-u5-175 | E8.5.R2 | z2 | k1 | Dear parents, our school will hold an online meeting about Internet safety on Thursday at 7 p.m. You can join with a phone, a tab… | ✓the name of the speaker
+ing-u5-226 | E8.5.L2 | z2 | k2 | Which word means "to look through different pages on the Internet"? | ✓browse
+ing-u5-227 | E8.5.SP1 | z2 | k2 | Yiğit: Why don't we watch the concert video online tonight? Defne: - - - - Defne has to visit her grandmother tonight. Which one … | ✓Sorry, I have to visit my grandmother tonigh…
+ing-u5-228 | E8.5.R2 | z2 | k2 | Nazlı is using her phone. The screen shows the message below. What is happening to the video? | ✓It is being sent from the phone to the site.
+ing-u5-229 | E8.5.R2 | z2 | k2 | The graph shows what the students in Class 8-E use the Internet for. How many more students read e-books than shop online? | ✓7
+ing-u5-230 | E8.5.R1 | z2 | k2 | My grandfather lives in a small village. Last summer, I showed him how to use an online map on my tablet. Now he looks at the new… | ✓How the writer's grandfather uses online maps
+ing-u5-231 | E8.5.SI1 | z2 | k2 | Reporter: How long do you watch videos online every day? Pelin: - - - - Which one completes the dialogue? | ✓For about forty minutes.
+ing-u5-232 | E8.5.SP1 | z2 | k2 | Nehir: Do you want to join the online book club on Sunday? Sinan: - - - - Sinan loves e-books and is free on Sunday. Which one co… | ✓Yes, sure. I'll read the book before Sunday.
+ing-u5-233 | E8.5.R1 | z2 | k2 | Duru writes in her diary: "I never use my phone at dinner, but I always check my messages before bed. On Saturdays, I sometimes w… | ✓She always checks her messages before bed.
+ing-u5-234 | E8.5.W1 | z2 | k2 | My connection is very slow at home, - - - - I do my online lessons at the library. Which one completes the sentence? | ✓so
+ing-u5-235 | E8.5.R2 | z2 | k2 | Which one is allowed in the library? | ✓Watching a video for 30 minutes
+ing-u5-236 | E8.5.L2 | z2 | k2 | It is a place on the Internet where people share photos, write comments and chat with friends. What is it? | ✓a social networking site
+ing-u5-237 | E8.5.R1 | z2 | k2 | From: Orhan | To: Gül | Subject: Homework file Hi Gül, I can't download the homework file from the school site. It says "Error". … | ✓To send the file to him by e-mail
+ing-u5-238 | E8.5.SI2 | z2 | k2 | Tarkan: My screen is blank. Lale: What do you mean? Do you mean the tablet screen? Tarkan: - - - - Which one completes the dialog… | ✓No. I mean the computer screen.
+ing-u5-239 | E8.5.R2 | z2 | k2 | The table shows four e-books in an online shop. Which is the cheapest e-book with more than 200 pages? | ✓Old Castle
+ing-u5-240 | E8.5.R2 | z2 | k2 | What should you do when a stranger sends you a friend request? | ✓Do not confirm it.
+ing-u5-241 | E8.5.SP1 | z2 | k2 | Aslı: Why don't we make a video call about the project at four? Rüya: - - - - Rüya has a cold and must rest today. Which one comp… | ✓I'd love to, but I have to rest today.
+ing-u5-242 | E8.5.L1 | z2 | k2 | Duygu is talking to her dad in a family chat. When is Duygu free for a video call? | ✓After 6:00
+ing-u5-243 | E8.5.R1 | z2 | k2 | A school in Bursa has started a new website. Students can borrow e-books from the school library on it. Last month, 120 students … | ✓A new website for school e-books
+ing-u5-244 | E8.5.L2 | z2 | k2 | My grandmother's video call keeps stopping because her phone has a bad - - - - . Which one completes the sentence? | ✓connection
+ing-u5-245 | E8.5.R2 | z2 | k2 | Sibel is free only on Saturday afternoons. Which online course can she join? | ✓Science
+ing-u5-246 | E8.5.W1 | z2 | k2 | Emel sends a photo to her cousin by e-mail. The sentences about it are mixed up. I. Then, she writes a short message. II. Finally… | ✓III – I – IV – II
+ing-u5-247 | E8.5.R2 | z2 | k2 | I follow a travel blog. The writer posts photos of old cities and shares tips about cheap hotels. She also replies to every comme… | ✓Maps of famous museums
+ing-u5-248 | E8.5.SI1 | z2 | k2 | Which question asks about the purpose of using the Internet? | ✓What do you use the Internet for?
+ing-u5-249 | E8.5.R1 | z2 | k2 | Hi Pınar, sorry that I didn't reply yesterday. My tablet had no battery and I couldn't find my charger. I'm writing from my fathe… | ✓His tablet had no battery.
+ing-u5-250 | E8.5.SP1 | z2 | k2 | Tarık: Why don't we chat online at seven? Selma: - - - - Selma is at her grandmother's house and there is no Internet there. Whic… | ✓Sorry, I can't. There is no Internet here.
+ing-u5-251 | E8.5.R2 | z2 | k2 | The table shows how many hours three students were online from Monday to Wednesday. Who spends the same amount of time online eve… | ✓Beste
+ing-u5-252 | E8.5.R2 | z3 | k2 | From: Ms. Arslan | To: All 8th grade students | Subject: Online quiz night Dear students, our school will hold an online quiz on … | ✓Students with no account should register bef…
+ing-u5-253 | E8.5.SP1 | z3 | k2 | Berk: Would you like to join my video call at six? Ayça: - - - - Ayça has a dance lesson until 6:30. She is free from seven. Whic… | ✓Sorry, but I can't. I have a dance lesson un…
+ing-u5-254 | E8.5.R2 | z3 | k2 | Four users wrote about a music website. Who thinks the music site is easy to use but expensive? | ✓Fırat
+ing-u5-255 | E8.5.R1 | z3 | k2 | Online shopping is practical. I can compare prices in minutes and I never stand in a queue. However, I can't try the clothes on, … | ✓Online shopping has advantages, but it needs…
+ing-u5-256 | E8.5.W1 | z3 | k2 | My parents don't allow online games on school days, so I - - - - play them from Monday to Friday. Which one completes the sentenc… | ✓never
+ing-u5-257 | E8.5.L2 | z3 | k2 | Onur wants to share his holiday photos with his cousin Elif. First, he must - - - - the photos to the website. Then Elif can - - … | ✓upload – download
+ing-u5-258 | E8.5.R2 | z3 | k2 | Kaan has a student card. He stays at the Internet café for three hours and prints four pages. How much does he pay? | ✓28 TL
+ing-u5-259 | E8.5.SI2 | z3 | k2 | Ferhat: What is a search engine? Gonca: - - - - Which one completes the dialogue? | ✓It's a website that finds pages for the word…
+ing-u5-260 | E8.5.R2 | z3 | k2 | Subject: Password change Dear Ms. Tekin, we got a request to change the password of your account. If it was you, please confirm b… | ✓Delete the e-mail.
+ing-u5-261 | E8.5.W1 | z3 | k2 | I use the Internet to improve my English. - - - - . For example, I watch short films with English subtitles. I also chat with a p… | ✓It helps me to practise the language outside…
+ing-u5-262 | E8.5.R2 | z3 | k2 | The table shows how many minutes four students use each device every day. Who uses the computer longer than the phone and the tab… | ✓İrem
+ing-u5-263 | E8.5.R1 | z3 | k2 | Teenagers need rules for the Internet. In my family, we don't use phones at dinner, and I must finish my homework before I go onl… | ✓They are useful.
+ing-u5-264 | E8.5.SP1 | z3 | k2 | Somebody says: "Why don't we make a video call with Grandma on Sunday?" Which one is NOT a suitable reply? | ✓I'm fine, thanks. And you?
+ing-u5-265 | E8.5.R2 | z3 | k2 | Nilay wrote down what she did on the computer yesterday. How long was Nilay online? | ✓75 minutes
+ing-u5-266 | E8.5.R1 | z3 | k2 | Nalan checks her e-mail once a week, but her brother Rıza checks his every hour. Nalan thinks e-mails are not urgent, but Rıza is… | ✓Rıza checks his e-mails more often than Nala…
+ing-u5-267 | E8.5.R2 | z3 | k2 | Hande is on the sign-up page of a quiz site. The page shows these rules. Which user name can Hande use? | ✓handes21
+ing-u5-268 | E8.5.L2 | z3 | k2 | Under my post, a friend wrote "Nice photo!" I want to - - - - her comment with a "Thank you." Which one completes the sentence? | ✓reply to
+ing-u5-269 | E8.5.R2 | z3 | k2 | The table shows four videos on a website. Which video has the most comments among the videos with fewer than 1,000 views? | ✓Cooking
+ing-u5-270 | E8.5.SI1 | z3 | k2 | Barış takes an online English course twice a week. Each lesson takes one hour. Reporter: How often do you take online lessons? Ba… | ✓Twice a week, for an hour each time.
+ing-u5-271 | E8.5.R2 | z3 | k2 | Which student can join the club? | ✓Kuzey is 14, has a tablet and will register …
+ing-u5-272 | E8.5.W1 | z3 | k2 | Ceyda is writing about how she buys things online. Her sentences are mixed up. I. Finally, I pay and wait for the package. II. Fi… | ✓II – IV – III – I
+ing-u5-273 | E8.5.R2 | z3 | k2 | Dad's note: Anıl, the Internet will be off from nine to eleven because of repairs. Download your documents before nine, so you ca… | ✓Save his documents on the computer
+ing-u5-274 | E8.5.R2 | z3 | k2 | The table shows what 20 students in a class visit most on the Internet. Each student chose only one kind of site. How many studen… | ✓7
+ing-u5-275 | E8.5.R1 | z3 | k2 | Some e-mails say that you won a prize. They ask for your name, address and password. Real companies don't ask for your password b… | ✓To warn readers about fake e-mails
+ing-u5-326 | E8.5.SP1 | z3 | k3 | Yusuf: Would you like to join our video call with my grandparents tonight at seven? Elif has a piano lesson at seven. What does E… | ✓Thanks, but I can't. I have a piano lesson a…
+ing-u5-327 | E8.5.R2 | z3 | k3 | The table shows how many hours each student spends online in a week. Who spends the most time online in total? | ✓Pelin
+ing-u5-328 | E8.5.R1 | z3 | k3 | My grandfather loves reading, but his eyes are weak. Last month I gave him an e-book reader. I downloaded twenty books to it and … | ✓The grandfather has to sign up on the librar…
+ing-u5-329 | E8.5.R2 | z3 | k3 | The chart shows what the students of Class 8-D mostly use the Internet for. Each student chose only one purpose. How many more st… | ✓9
+ing-u5-330 | E8.5.SI2 | z3 | k3 | Noah: Hi Lena! My video call doesn't work. I can hear you very well. Lena: What do you mean? Do you mean the picture? Noah: - - -… | ✓Yes, I mean the picture. The screen is blank.
+ing-u5-331 | E8.5.R2 | z3 | k3 | Which one is true for a person who is not a library member? | ✓They must register at the desk first.
+ing-u5-332 | E8.5.W1 | z3 | k3 | Online shopping is popular - - - - it saves time. - - - -, you must be careful and never give your password to a shop you don't k… | ✓because – However
+ing-u5-333 | E8.5.R1 | z3 | k3 | Aslı's Music Blog Last year I listened to music only on the radio. Then my cousin showed me a music website. I registered, made a… | ✓Her phone memory is full.
+ing-u5-334 | E8.5.R2 | z3 | k3 | Dear Class 8-C, The online science test is on Thursday at 10:00. Log in to the school website with your own account ten minutes b… | ✓Upload the answer sheet to the site
+ing-u5-335 | E8.5.SP1 | z3 | k3 | Sophie: Why don't we study for the exam together online at six? Ahmet: - - - - Sophie: Seven? OK, that is fine for me. Which one … | ✓Sorry, but I can't. I have dinner at six. Wh…
+ing-u5-336 | E8.5.R2 | z3 | k3 | Kübra wants to learn drawing in an online class. She is free only after 5:00 p.m. on Tuesdays and Thursdays. Which class can she … | ✓Drawing on Tuesday at 17:30
+ing-u5-337 | E8.5.L1 | z3 | k3 | My mother had never used the Internet. Last month I showed her how to make a video call. Now she calls my aunt in Germany every S… | ✓My Mother's New Online Habit
+ing-u5-338 | E8.5.SI1 | z3 | k3 | Jack: What do you use the Internet for, Mira? Mira: - - - - Jack: And how long do you do that? Mira: For about forty minutes a da… | ✓To watch cooking videos.
+ing-u5-339 | E8.5.R2 | z3 | k3 | Which one is true according to the survey? | ✓Most students keep their password secret.
+ing-u5-340 | E8.5.R2 | z3 | k3 | Dear Mr. Tan, Thank you for your order. Your headphones will arrive on Friday. To change your delivery address, log in to your ac… | ✓Log in and open "My orders"
+ing-u5-341 | E8.5.L1 | z3 | k3 | A school in Bursa has started an Internet Safety Club. Every Tuesday, the students meet and practise how to make strong passwords… | ✓To help students use the Internet safely
+ing-u5-342 | E8.5.SP1 | z3 | k3 | Derya: Would you like to join our class group on the messaging app? Tarık: - - - - My parents don't let me have a phone. Which on… | ✓I'm sorry, but I can't join the group.
+ing-u5-343 | E8.5.L2 | z3 | k3 | Dilan doesn't have an account on the school website yet. First she must - - - -. After that, she can - - - - and read her message… | ✓sign up – log in
+ing-u5-344 | E8.5.R2 | z3 | k3 | The school's online book fair opens on Monday. You can browse the books on the fair's website, but you must register first. After… | ✓Emir, who logs in with his student number
+ing-u5-345 | E8.5.R1 | z3 | k3 | Last year I checked my phone fifty times a day. In January I deleted the social networking app, and now I visit the site on my co… | ✓She visits the site only on Saturdays.
+ing-u5-346 | E8.5.SI2 | z3 | k3 | Carlos: Which website do you use to learn English, Anna? Anna: I use a free site called Word Garden. You must sign up first. Carl… | ✓No, you don't. I mean you must sign up first.
+ing-u5-347 | E8.5.R2 | z3 | k3 | The chart shows how many minutes Naz spent on the Internet each day last week. On how many days did Naz spend at least 60 minutes… | ✓6
+ing-u5-348 | E8.5.SP1 | z3 | k3 | Mia: Would you like to watch the football match online with us on Friday? Oscar: - - - - Mia: That's OK. Say hello to your grandm… | ✓Thanks, but I have to visit my grandmother.
+ing-u5-349 | E8.5.R2 | z3 | k3 | Yaren wants to watch a video that shows how to make a kite step by step. Which website should she open? | ✓Kite Workshop
+ing-u5-350 | E8.5.R1 | z3 | k3 | Hi Liam, Thanks for your e-mail. You asked about my Internet habits. I go online twice a week at the town library because we don'… | ✓She doesn't have a computer at home.
+ing-u5-351 | E8.5.R2 | z3 | k3 | Hira got four notifications on her phone today. When will the online English lesson start? | ✓5:00
+ing-u5-352 | E8.5.SI1 | z3 | k3 | Ravi: How long do you use the Internet every day, Sema? Sema: - - - - Ravi: That's quite long! What do you do online for so long?… | ✓For about three hours.
+ing-u5-353 | E8.5.R2 | z3 | k3 | Ruya wrote under a music video: "Where can I download this song?" Which comment answers her question? | ✓Berk's comment
+ing-u5-354 | E8.5.W1 | z3 | k3 | I go online every evening. My cousins live in Germany, - - - - we can't meet often. We talk on a video call every Sunday. I also … | ✓so
+ing-u5-355 | E8.5.L2 | z3 | k3 | Tuna is signing up on a website. The page shows these messages. What should he do to finish signing up? | ✓Write a longer password and type it again
+ing-u5-356 | E8.5.SP1 | z4 | k3 | Orhan invited his friends to an online cooking class. The chat is below. Who accepts the invitation after first saying no? | ✓Naz
+ing-u5-357 | E8.5.R2 | z4 | k3 | Class 8-E answered the survey below. Then two students talked about the result. Gizem: "More than half of the students use Pixy."… | ✓Both Gizem and Alp are right.
+ing-u5-358 | E8.5.SI2 | z4 | k3 | The sentences below are from a dialogue between two friends. They are mixed up. I. Good idea! I'll log in and start tonight. II. … | ✓III – II – IV – I
+ing-u5-359 | E8.5.R2 | z4 | k3 | Ms. Aras sent this e-mail: "The online speaking club meets every Tuesday and Thursday at 5:00 p.m. Please log in five minutes ear… | ✓Duru
+ing-u5-360 | E8.5.R1 | z4 | k3 | Every evening at nine, Kerim's family puts all their phones in a basket. In the first week, his sister Alina found it hard and ch… | ✓Kerim's sister plays board games online.
+ing-u5-361 | E8.5.SI1 | z4 | k3 | A teacher asked four students about their Internet habits and wrote the answers in the table. Later, the students talked to a rep… | ✓Sofia
+ing-u5-362 | E8.5.R2 | z4 | k3 | Hira wants an online dictionary that is free, doesn't need registration, and can be downloaded. Which dictionary site should she … | ✓Termly
+ing-u5-363 | E8.5.SP1 | z4 | k3 | Ozan has football training only on Mondays and Fridays. Dilara: Would you like to join my online art class on Monday? Ozan: Sorry… | ✓Yes, sure. Wednesday is free. That sounds gr…
+ing-u5-364 | E8.5.R2 | z4 | k3 | The table shows how many people visited the school website each month. In which month did the number of visitors increase the mos… | ✓April
+ing-u5-365 | E8.5.R1 | z4 | k3 | Selin wrote this on her blog. I live in a small village, and there is no music school here. Last winter I decided to learn the gu… | ✓She bought a guitar from an online shop.
+ing-u5-366 | E8.5.R2 | z4 | k3 | The Science Museum sells tickets on its website. Aras is 14 and his sister is 6. They want to go with their mother and father. Wh… | ✓90 TL
+ing-u5-367 | E8.5.R2 | z4 | k3 | Volkan's phone shows how many GB of mobile data he used each month. His monthly limit is 10 GB. In which month did he go above hi… | ✓April
+ing-u5-368 | E8.5.SP1 | z4 | k3 | Cansu invited her friends to play an online game on Saturday. The chat is below. How many friends will play with Cansu on Saturda… | ✓3
+ing-u5-369 | E8.5.R2 | z4 | k3 | Nehir signed up for the school library site ten minutes ago. She wrote her e-mail address correctly, but she hasn't got an e-mail… | ✓Look in the spam folder or ask for a new link
+ing-u5-370 | E8.5.R2 | z4 | k3 | Mr. Kılıç asked 20 students how they use the Internet. The table shows the answers. Which one is true according to the table? | ✓More than half of the students never read th…
+ing-u5-371 | E8.5.R1 | z4 | k3 | Maple Town Library has started a free class for people over sixty. Every Wednesday, students from a nearby school teach them how … | ✓Students from a school teach the older peopl…
+ing-u5-372 | E8.5.SI2 | z4 | k3 | Hiro: Ms. Park, I sent my video project this morning. Did you get it? Ms. Park: I opened your e-mail, but there is no file in it.… | ✓Then your e-mail had no file. Upload the vid…
+ing-u5-373 | E8.5.R2 | z4 | k3 | Zehra reads the safety poster at school. Then she gets four messages. Which message can she follow without breaking the rules on … | ✓Message 3
+ing-u5-374 | E8.5.R2 | z4 | k3 | A teacher asked two classes if they have a social networking account. The table shows the results. Which one is true? | ✓A larger share of 8-A than of 8-B has an acc…
+ing-u5-375 | E8.5.R1 | z4 | k3 | A school reporter wrote down four students' Internet habits. One of them said: "I go online every day, but only for thirty minute… | ✓Derin
+ing-u5-016 | E8.5.R2 | z1 | k0 | Lale uses a program to open websites on her computer. The program is called a - - - - . Which completes the sentence? | ✓browser
+ing-u5-017 | E8.5.SP1 | z1 | k0 | Pelin: Would you like some help with your online homework? Sam: - - - - I can do it by myself. Which completes the dialogue? | ✓I'm fine, thanks.
+ing-u5-018 | E8.5.R2 | z1 | k0 | Zehra doesn't have an account on a music website yet. She wants to listen to songs there. What must she do first? | ✓Register on the site.
+ing-u5-019 | E8.5.R1 | z1 | k0 | Emma goes online on Tuesdays and Saturdays. She reads the news and watches football videos. How often does Emma go online? | ✓Twice a week
+ing-u5-020 | E8.5.SI1 | z1 | k0 | Anna: - - - - Tim: For about an hour. Which question completes the dialogue? | ✓How long do you watch videos?
+ing-u5-021 | E8.5.R2 | z1 | k0 | Berk takes a photo with his phone. He wants everybody to see it on a photo-sharing site, so he - - - - it to the site. Which comp… | ✓uploads
+ing-u5-022 | E8.5.SP1 | z1 | k0 | Maya: Would you like to come to my house and play a board game? Furkan: - - - - I must help my father. Which completes the dialog… | ✓Sorry, but I can't.
+ing-u5-023 | E8.5.R2 | z1 | k0 | Mia is making a video call to her grandmother, but the picture keeps stopping. Her Internet - - - - is very slow. Which completes… | ✓connection
+ing-u5-024 | E8.5.SI2 | z1 | k0 | Sophie: I can't connect to the Wi-Fi. Oliver: Do you mean the password? Sophie: - - - - Which completes the dialogue? | ✓Yes, I forgot it.
+ing-u5-025 | E8.5.R2 | z1 | k0 | Nora wrote a wrong comment under a photo. She clicks "Delete" to remove it. What does "delete" mean? | ✓to remove something
+ing-u5-026 | E8.5.R1 | z1 | k0 | Today there is no Internet at school, so the computer lab is closed. The students are reading books in the library. Where are the… | ✓In the library
+ing-u5-027 | E8.5.R1 | z1 | k0 | Mia loves cooking. Every Sunday she watches recipe videos on the Internet and cooks with her mother. What does Mia do on Sundays? | ✓She watches videos and cooks.
+ing-u5-028 | E8.5.R2 | z2 | k0 | Under Duru's cooking video, Ravi writes: "How do you make this cake?" Duru wants to answer his question. What should Duru do? | ✓Reply to his comment.
+ing-u5-029 | E8.5.SP1 | z2 | k0 | Jack: Why don't we meet online on Friday and finish the group project? Emma: - - - - Jack: Oh, you have a swimming lesson? OK, th… | ✓Sorry, but I can't. I have a swimming lesson.
+ing-u5-030 | E8.5.R2 | z2 | k0 | Alper wants to buy a headset online. He wants the cheapest one that arrives in three days or less. Which shop should he choose? | ✓Blue Shop
+ing-u5-031 | E8.5.R1 | z2 | k0 | From Yusuf's blog: "Yesterday my screen was blank and I couldn't open my e-mails. I was afraid that my laptop was broken. My uncl… | ✓A cable wasn't connected.
+ing-u5-032 | E8.5.SP1 | z2 | k0 | Hira: Would you like to watch the online concert with us? It starts at nine in the evening on Saturday. Ravi has a football match… | ✓Yes, sure. I'm free in the evening.
+ing-u5-033 | E8.5.R2 | z2 | k0 | The graph shows the favourite online activity of 20 students. Which one is true according to the graph? | ✓Games and news together equal music in numbe…
+ing-u5-034 | E8.5.W1 | z2 | k0 | I want to buy a book online, - - - - I don't have an account on the shopping site. First I must register. Which completes the sen… | ✓but
+ing-u5-035 | E8.5.R1 | z2 | k0 | Posted by Cihan: "My computer is very old and slow. I want to watch online lessons, but the videos keep freezing. Does anybody kn… | ✓To ask for help with his computer.
+ing-u5-036 | E8.5.SI1 | z2 | k0 | Zehra: - - - - Kemal: I go online to listen to music and to do my homework. Which question completes the dialogue? | ✓What do you use the Internet for?
+ing-u5-037 | E8.5.R2 | z2 | k0 | From: Mr. Arslan | To: Class 8-A | Subject: Online reading club Dear students, our online reading club starts next Monday. Please… | ✓The students will send Mr. Arslan the first …
+ing-u5-038 | E8.5.L2 | z2 | k0 | Our teacher said: "To send me your homework, first write my e-mail address in the box. Then click the paper-clip button and choos… | ✓It adds a file to the e-mail.
+ing-u5-039 | E8.5.R2 | z2 | k0 | Class 8-C has 30 students. The table shows how they find information for their homework. How many students do NOT use a search en… | ✓13
+ing-u5-040 | E8.5.SP1 | z2 | k0 | Yusuf: Do you want to listen to the new podcast with me? Nora: - - - - My Internet isn't working today. Can we listen tomorrow? W… | ✓I'm sorry, but I can't.
+ing-u5-041 | E8.5.R1 | z2 | k0 | Mr. Orhan is 70 years old. His grandson Emir showed him how to use a tablet last month. Now Mr. Orhan reads the news every mornin… | ✓He uses the Internet to read the news.
+ing-u5-042 | E8.5.SI2 | z2 | k0 | Hira: The page isn't working properly. Tim: Do you mean the Internet connection? Hira: - - - - Which completes the dialogue? | ✓No, I mean the website. It is blank.
+ing-u5-043 | E8.5.R2 | z2 | k0 | Oliver tries to register on a game website, but the message "Your registration is not complete" appears. The table shows what he … | ✓The two passwords are different.
+ing-u5-044 | E8.5.R1 | z2 | k0 | Last summer we went to a village near Izmir. My father didn't know the roads, so he used an online map on his phone. It showed th… | ✓The Internet connection was slow there.
+ing-u5-045 | E8.5.R2 | z2 | k0 | At the library, Kerem reads his e-mails on a computer. When he finishes, he forgets to log off. The next person can see his messa… | ✓Log off from his account when he finishes.
+ing-u5-046 | E8.5.SP1 | z2 | k0 | Barış: My computer is very slow. Pelin: Why don't you delete the old files? Barış: - - - - Which completes the dialogue? | ✓Good idea! I'll do it now.
+ing-u5-047 | E8.5.R1 | z2 | k0 | Hi! I'm Nehir. I go online every day, but I don't watch videos or play games. I use the Internet only to read e-books because I l… | ✓She never plays online games.
+ing-u5-048 | E8.5.R2 | z3 | k0 | The table shows how many hours a week four students spend on three online activities. Which student spends the most time on video… | ✓Eda
+ing-u5-049 | E8.5.R1 | z3 | k0 | From a teacher's post: "Last week a student got a friend request from a person she didn't know. The person wrote, 'I'm your class… | ✓We should be careful with requests from unkn…
+ing-u5-050 | E8.5.R2 | z3 | k0 | Ayten is free on Tuesdays and Thursdays after 5 p.m. She wants to join the cheapest online class that fits her days and time. Whi… | ✓Web Pages
+ing-u5-051 | E8.5.SP1 | z3 | k0 | Lucas: Why don't we play a quiz game online this evening? Elif has an English exam tomorrow and needs to study this evening. Elif… | ✓Sorry, I can't. I have an English exam tomor…
+ing-u5-052 | E8.5.R2 | z3 | k0 | Wi-Fi rules at Blue Cup Café 1. Ask for the password at the counter. 2. You can stay online for two hours. 3. Please don't downlo… | ✓Customers can use the Wi-Fi for two hours.
+ing-u5-053 | E8.5.R1 | z3 | k0 | Our school blog started three months ago. At first only the teachers wrote on it. Then students began to send their stories as at… | ✓The school blog has become more popular over…
+ing-u5-054 | E8.5.SP1 | z3 | k0 | Kemal: Do you want to see my new video game at my house after school? Barış has to look after his little sister at home, so he ca… | ✓Sorry, I can't. Why don't we play online at …
+ing-u5-055 | E8.5.R2 | z3 | k0 | Four students wrote comments under a video lesson. Zoe: Great video, but the sound was too low. Doruk: I downloaded the notes. Th… | ✓Sevgi
+ing-u5-056 | E8.5.L1 | z3 | k0 | Zoe and Ian are chatting. According to the chat, which one is true? | ✓Ian will be online at six.
+ing-u5-057 | E8.5.R1 | z3 | k0 | Orkun goes online every day. On weekdays he spends one hour on homework websites. On each weekend day he watches videos for two h… | ✓Three hours
+ing-u5-058 | E8.5.R2 | z3 | k0 | The table shows how many comments four posts of the school blog got in three weeks. Which post got the most comments in total? | ✓Science fair
+ing-u5-059 | E8.5.SP1 | z3 | k0 | Mum: Could you send me the photos from the trip, please? I want to print them. Cem: - - - - Mum: Thank you. Please send them as a… | ✓Sure. I'll send them in a minute.
+ing-u5-060 | E8.5.R1 | z3 | k0 | Dear parents, our school is starting a new online homework system next week. Every student will get a user name and a password. P… | ✓Students will pay money for the system.
+ing-u5-061 | E8.5.R2 | z3 | k0 | A website gives these tips: "A strong password has at least eight characters. It mixes letters, numbers and symbols. Don't use yo… | ✓Tg7!rk29Lp
+ing-u5-062 | E8.5.W1 | z3 | k0 | The sentences below describe how to download a file. They are mixed up. I. Finally, I open the file on my computer. II. Then I cl… | ✓III - II - I
+ing-u5-063 | E8.5.SI2 | z3 | k0 | Teacher: Please share your project on the school website. Doruk: Do you mean I should send it by e-mail? Teacher: - - - - Which c… | ✓No, I mean you should upload it to the site.
+ing-u5-064 | E8.5.R2 | z4 | k0 | E-mail 1 (Monday): Dear students, our online science lesson will be on Wednesday at four o'clock. Please log on ten minutes early… | ✓Thursday at 4:50
+ing-u5-065 | E8.5.SP1 | z4 | k0 | Tara: Would you like to join our video call with the teacher on Monday morning? Uğur has a piano lesson on Monday morning, but he… | ✓(1) Sorry, but I can't. I have a lesson. (2)…
+ing-u5-066 | E8.5.R2 | z4 | k0 | In an online quiz of 20 questions, each correct answer gives 5 points, each wrong answer takes away 2 points and an empty answer … | ✓Eda
+ing-u5-067 | E8.5.R1 | z4 | k0 | Rana: I go online every day for about two hours. I mostly watch cooking videos and sometimes write comments under them. I never p… | ✓They both watch videos.
+ing-u5-068 | E8.5.L2 | z4 | k0 | Voice message: "Hello, this is Mr. Aksu from Star Net. Your Internet connection isn't working because of a problem in your street… | ✓Wait at home between ten and twelve.
+ing-u5-069 | E8.5.R2 | z4 | k0 | The graph shows how many students were online at different hours. Between which two hours did the number of online students incre… | ✓5 p.m. and 6 p.m.
+ing-u5-070 | E8.5.R1 | z4 | k0 | I thought that online shopping was only for adults. Last month I wanted a birthday present for my mother, but I didn't have time … | ✓She had a good experience buying a present.
+ing-u5-071 | E8.5.SP1 | z4 | k0 | Sevgi: Would you like to chat online with my cousin from Canada on Sunday? Which of the following is NOT a suitable reply to Sevg… | ✓Yes, I have a cousin in Canada too.
+ing-u5-072 | E8.5.R2 | z4 | k0 | Nina wants to join an online workshop at the weekend. It must start after 3 p.m., she doesn't have a camera, and she wants the sh… | ✓Drawing
+ing-u5-073 | E8.5.R1 | z4 | k0 | In the past, people wrote letters to their friends and waited for days for an answer. Today we send an e-mail in a second, and we… | ✓She thinks slowly written messages are speci…
+ing-u5-074 | E8.5.W1 | z4 | k0 | I want to learn cooking, - - - - (1) I don't have a cookbook at home. I watch recipe videos on a website - - - - (2) I can see ev… | ✓(1) but (2) because (3) and then
+ing-u5-075 | E8.5.L1 | z4 | k0 | Doğa: Shall we make the project video at my house on Saturday at 3? Max: I can't come at 3. I have a football match. Can we start… | ✓Max will bring a laptop and a camera.

@@ -60,6 +60,7 @@ window.LGS_HAP["ing-5-internet"] = {
         "Hesaba girerken **user name** (kullanıcı adı) ve **password** (şifre) yazılır. Şifre kimseyle paylaşılmaz: **Choose a long password and change it often.** (Uzun bir şifre seç ve sık sık değiştir.)",
         "**Post** sitedeki paylaşım, **share** paylaşmak, **message** mesaj, **chat** sohbet etmek, **go online** çevrimiçi olmaktır. **Link** tıklanan bağlantı, **file** dosyadır; adres **type** edilir (yazılır), bağlantıya **click** edilir (tıklanır).",
         "Tanımadığın kişiden (**stranger**) gelen **friend request**'i (arkadaşlık isteği) ya da attachment'ı hemen kabul etme. **Online safety** çevrimiçi güvenliktir.",
+        "Birkaç yardımcı sözcük daha: **offline** (çevrimdışı; **online**'ın tersi), **subscribe** (bir kanala abone olmak), **playlist** (oynatma listesi), **spam folder** (istenmeyen postaların klasörü), **mobile data** (mobil veri, GB ile ölçülür), **video call** (görüntülü görüşme), **paper-clip** (ataç simgesi; e-postada attachment eklemek için kullanılır).",
         "Sorunları anlatırken: **broken** (bozuk), **slow** (yavaş), **freeze** (donmak), **blank screen** (boş ekran). Örnek: **The video keeps freezing.** (Video sürekli donuyor.)"
       ],
       dikkat: [
