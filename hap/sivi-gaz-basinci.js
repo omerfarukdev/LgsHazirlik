@@ -7,12 +7,13 @@ window.LGS_HAP["sivi-gaz-basinci"] = {
       baslik: "Sıvı basıncı neye bağlıdır?",
       maddeler: [
         "**Sıvı basıncı**, sıvının ağırlığından doğar. **Basınç**, birim yüzeye dik etki eden kuvvettir.",
-        "Sıvı basıncı iki değişkene bağlıdır: **derinlik** ve **sıvının cinsi**. Derinlik, sıvının açık yüzeyinden noktaya kadar **aşağı doğru** ölçülür; derinlik arttıkça basınç artar.",
+        "Sıvı basıncı iki değişkene bağlıdır: **derinlik** ve **sıvının cinsi**. Derinlik, sıvının açık yüzeyinden noktaya kadar **aşağı doğru** ölçülür; derinlik arttıkça basınç artar. Sorularda yoğunluk çoğu kez **d** harfiyle yazılır (d_{1}, d_{K} gibi); d büyükse sıvı daha yoğundur.",
         "**Yoğunluk**, bir maddenin birim hacminin kütlesidir. Aynı derinlikte yoğun sıvının basıncı büyüktür. Zeytinyağı, ayçiçek yağı ve alkol sudan daha az yoğun; tuzlu su ve gliserin sudan daha yoğundur.",
         "**Çözümlü örnek:** 1. sıvı 2. sıvıdan yoğundur, ama ne kadar yoğun olduğu bilinmiyor. A noktası 2. sıvıda 16 cm; B ve C 1. sıvıda 16 cm ve 8 cm derinliktedir. Adım 1: A ile B aynı derinlikte, B'nin sıvısı yoğun; B'nin basıncı büyüktür. Adım 2: B ile C aynı sıvıda, B daha derin; B'nin basıncı büyüktür. Adım 3: A ile C'de etkenler ters yönde (A daha derin, C'nin sıvısı daha yoğun); hangisinin büyük olduğu **kesin söylenemez**. Etkenler aynı yönde olsaydı sonuç kesin olurdu."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Değişken</th><th>Sıvı basıncını değiştirir mi?</th></tr><tr><td>Derinlik</td><td><strong>Evet</strong>: artarsa basınç artar</td></tr><tr><td>Sıvının cinsi (yoğunluk)</td><td><strong>Evet</strong>: aynı derinlikte yoğun sıvıda büyüktür</td></tr><tr><td>Kabın şekli, genişliği, taban alanı</td><td>Hayır</td></tr><tr><td>Sıvının miktarı (hacmi)</td><td>Hayır</td></tr><tr><td>Yön, yatay konum, süre</td><td>Hayır</td></tr></table>",
       dikkat: [
+        "**Derinlik düşey ölçülür.** Eğik tutulmuş bir borunun boyu derinlik değildir; derinlik, noktanın su yüzeyinin hizasından düşey uzaklığıdır.",
         "**Derinliği tabandan ölçme.** Aynı kapta tabandan daha yüksekte duran nokta yüzeye daha yakındır, basıncı daha küçüktür.",
         "**Derinliği noktanın tam üstündeki sıvıya göre ölçme.** Derinlik, sıvının açık yüzeyinin hizasından ölçülür. Kapalı bir tavanın altında kalan noktada da basınç sıfır olmaz. Aynı sıvıda aynı yatay düzeydeki noktaların basınçları, üstlerindeki sıvı ne kadar olursa olsun eşittir.",
         "**“Çok su, çok basınç” yanlıştır.** Eşit miktarda su dar kapta yükseğe çıkar, geniş kapta alçakta kalır; eşit miktar, eşit derinlik demek değildir."
@@ -35,7 +36,7 @@ window.LGS_HAP["sivi-gaz-basinci"] = {
       maddeler: [
         "**Basıncı görmek:** Zarlı huniye bağlı U borusundaki düzey farkı, ucu zarlı borudaki zarın çökmesi ve basınç ölçerin gösterdiği değer, basınç arttıkça büyür. İki sıvıyı ayıran esnek zar, basıncı **küçük** olan tarafa doğru şişer.",
         "**Bağımsız değişken** senin değiştirdiğin, **bağımlı değişken** ölçtüğün, **kontrol değişkenleri** sabit tuttuğun koşullardır. Yalnızca sınadığın değişkeni değiştirirsin. Kabın biçimini sınarken sıvının miktarını değil, **yüksekliğini** eşit tutarsın.",
-        "**Veri okumak:** Tabloda yalnızca bir koşulu farklı olan iki satırı karşılaştır. Derinlik–basınç grafiğinde aynı derinlikte daha büyük basınç gösteren çizgi daha yoğun sıvıya aittir. Farklı derinliklerde aynı basınç ölçülmüşse daha sığdaki sıvı daha yoğundur. Taban basıncı, kaba eklenen suya değil, o andaki su yüksekliğine bağlıdır.",
+        "**Veri okumak:** Tabloda yalnızca bir koşulu farklı olan iki satırı karşılaştır. Derinlik–basınç grafiğinde aynı derinlikte daha büyük basınç gösteren çizgi (yani daha dik doğru) daha yoğun sıvıya aittir. Farklı derinliklerde aynı basınç ölçülmüşse daha sığdaki sıvı daha yoğundur. Taban basıncı, kaba eklenen suya değil, o andaki su yüksekliğine bağlıdır.",
         "**Hipotez**, test edilebilir bir tahmindir; sonuç ona uyarsa desteklenir, uymazsa desteklenmez. Hatalı kurulan bir deney bir bilgiyi çürütmez, yalnızca kanıtlayamaz."
       ],
       dikkat: [
@@ -63,6 +64,7 @@ window.LGS_HAP["sivi-gaz-basinci"] = {
         "**Yükseldikçe azalır**, çünkü üstte kalan hava tabakası incelir ve hava seyrekleşir. Bu yüzden deniz kıyısındaki açık hava basıncı, yüksek bir dağın tepesindekinden büyüktür. Birkaç on santimetrelik yükselme ise açık hava basıncını fark edilir biçimde değiştirmez.",
         "Ağzı sıkıca kapalı esnek bir kap yükseğe çıkınca kabarır, alçağa inince büzülür (uçakta folyo kapaklı yoğurt kabının kapağı kabarır). İçine hava girip çıkmaz; değişen, dışarıdaki basınçtır. Hızla yükselip alçalırken kulakların da bu yüzden tıkanır.",
         "**Pipet, vantuz, damlalık:** İçerideki hava azaltılır, böylece içerideki basınç dışarıdakinden küçük olur. Sıvıyı pipete ya da damlalığa iten, vantuzu yüzeye bastıran dışarıdaki açık hava basıncıdır. Ucu parmakla kapatılan pipetteki suyu da açık hava basıncı aşağıdan yukarı iterek tutar. Kapalı bir kaba delik açılıp içeri hava girince içerideki basınç yeniden dışarıdakine yaklaşır.",
+        "**Ters çevrilmiş dolu kap:** Ağzı sıvıya batık ters damacana (su sebili), kuş suluğu ve kartonla kapatılıp ters çevrilen bardakta sıvıyı tutan, açık sıvı yüzeyine ya da kartona etki eden açık hava basıncıdır. Sıvı azalıp ağız havaya açılınca içeri hava girer, sıvı akar. Kapalı bir şişeden sıvı çekildikçe içerideki gaz seyrekleşir ve basıncı azalır.",
         "Su yüzeyindeki açık hava basıncı suyun içine de iletilir. Su altındaki bir noktaya etki eden toplam basınç, açık hava basıncı ile suyun basıncının toplamıdır."
       ],
       dikkat: [
