@@ -9,6 +9,7 @@ window.LGS_HAP["isi-madde"] = {
         "**Isı**, sıcaklıkları farklı iki madde arasında aktarılan bir **enerjidir.** Kendiliğinden her zaman **sıcak** olandan **soğuk** olana akar.",
         "**Sıcaklık**, bir maddenin ne kadar sıcak ya da soğuk olduğunun ölçüsüdür. **Termometre** ile ölçülür. Termometre ısıyı değil sıcaklığı gösterir.",
         "Sıcaklıkları eşitlenince ısı akışı durur. Sıcak madde ısı verdiği için soğur, soğuk madde ısı aldığı için ısınır.",
+        "Farklı sıcaklıktaki iki madde temas edip dışarıyla ısı alışverişi olmazsa (yalıtılmışsa) **ortak sıcaklık iki başlangıç sıcaklığının arasında** bir değerde kurulur. Sıcak olanın verdiği ısı soğuk olanın aldığı ısıya eşittir; ama iki maddenin sıcaklık değişimleri eşit olmak zorunda değildir.",
         "“Soğuk” diye bir şey maddeden maddeye geçmez. Soğuyan madde ısı **kaybeder**; ısı kaybı = soğuma.",
         "Ölçü araçlarını karıştırma: **dinamometre** kuvvet, **barometre** basınç, **eşit kollu terazi** kütle ölçer. Sıcaklığı ölçen tek araç termometredir."
       ],
@@ -23,7 +24,7 @@ window.LGS_HAP["isi-madde"] = {
       maddeler: [
         "Aynı ısıyı alan maddelerin sıcaklık artışı üç şeye bağlıdır: **maddenin cinsi, kütlesi ve alınan ısı.**",
         "**Kütle:** Cins ve alınan ısı aynıysa **kütlesi büyük olan daha az ısınır.** 5 kg su, 2 kg sudan aynı ısıyla daha az ısınır.",
-        "**Isı (süre):** Özdeş ısıtıcılar eşit sürede eşit ısı verir. Süre uzadıkça alınan ısı artar; cins ve kütle aynıysa sıcaklık artışı da artar. Isı iki katına çıkınca sıcaklık artışı iki katına çıkar.",
+        "**Isı (süre):** Özdeş ısıtıcılar eşit sürede eşit ısı verir. Süre uzadıkça alınan ısı artar; cins ve kütle aynıysa sıcaklık artışı da artar. Isı iki katına çıkınca sıcaklık artışı iki katına çıkar. **Isıtıcı gücü** büyükse aynı sürede daha çok ısı verir; süreyi uzatmakla benzer etki yapar. Kütle ve alınan ısı **aynı oranda** artarsa (örneğin ikisi de 2 katına çıkarsa) sıcaklık artışı değişmez; iki etki birbirini dengeler.",
         "**Sıcaklık artışı** = son sıcaklık − başlangıç sıcaklığı. Başlangıç sıcaklıkları farklıysa son sıcaklığa değil **artışa** bak; daha yüksekte biten, daha çok ısınan demek değildir.",
         "**Cins (öz ısı):** Kütle ve alınan ısı aynıysa her madde farklı ısınır. Bu farkı **öz ısı** belirler.",
         "**Öz ısı:** 1 gram maddenin sıcaklığını 1 °C değiştirmek için gereken ısıdır. Maddeye özgüdür, **ayırt edici özelliktir**; kütleye ve süreye bağlı değildir.",
@@ -45,7 +46,7 @@ window.LGS_HAP["isi-madde"] = {
         "Madde ısı alarak ya da vererek hâl değiştirir. **Katıdan gaza giden yön ısı alır, gazdan katıya giden yön ısı verir.**",
         "**Erime** (katı → sıvı), **buharlaşma** (sıvı → gaz, kaynama dahil) ve **süblimleşme** (katı → gaz) **ısı alarak** olur.",
         "**Donma** (sıvı → katı), **yoğuşma** (gaz → sıvı; bazı kaynaklarda yoğunlaşma) ve **kırağılaşma** (gaz → katı) **ısı vererek** olur.",
-        "**Erime ve donma noktası aynı sıcaklıktır** (ör. su için 0 °C).",
+        "**Erime ve donma noktası aynı sıcaklıktır** (ör. su için 0 °C). Kaynama ve yoğuşma noktası da aynı sıcaklıktır (ör. su için 100 °C).",
         "**Ayırt edici özellikler** (erime noktası, kaynama noktası, öz ısı, özkütle) madde miktarına bağlı değildir: 1 g buz da 1 kg buz da 0 °C'ta erir; 2 kg su da 5 kg su da aynı sıcaklıkta kaynar. Kütle, hacim ve hâl değiştirmek için gereken ısı ise miktarla artar.",
         "Hâl değiştirmek için gereken ısı **maddenin cinsine ve kütlesine** bağlıdır; kütle büyükse hâl değiştirecek tanecik sayısı fazladır.",
         "Eşit kütleli iki katı, erime noktalarında özdeş ısıtıcıyla farklı sürede eriyorsa **farklı maddelerdir.** Erime noktaları verilmemişse hangisinin yüksek olduğu söylenemez.",
@@ -54,7 +55,7 @@ window.LGS_HAP["isi-madde"] = {
       tablo: "<table class=\"tablo\"><tr><th>Hâl değişimi</th><th>Yön</th><th>Isı</th></tr><tr><td>Erime</td><td>Katı → sıvı</td><td>Alır</td></tr><tr><td>Buharlaşma</td><td>Sıvı → gaz</td><td>Alır</td></tr><tr><td>Süblimleşme</td><td>Katı → gaz</td><td>Alır</td></tr><tr><td>Donma</td><td>Sıvı → katı</td><td>Verir</td></tr><tr><td>Yoğuşma</td><td>Gaz → sıvı</td><td>Verir</td></tr><tr><td>Kırağılaşma</td><td>Gaz → katı</td><td>Verir</td></tr></table>",
       dikkat: [
         "**Hâl değişimini yanlış adlandırma.** Çikolatanın avucunda sıvılaşması **erimedir**; buharlaşmada ürün gazdır.",
-        "**Kaynama noktasını kütleye bağlama.** Kütle büyüyünce kaynama noktası değişmez; yalnızca gereken ısı artar."
+        "**Kaynama noktasını kütleye bağlama.** Kütle büyüyünce kaynama noktası değişmez; yalnızca gereken ısı artar. Güçlü ısıtıcı ya da ikinci bir özdeş ısıtıcı da kaynama noktasını yükseltmez; yalnızca kaynama süresini kısaltır."
       ]
     },
     {
@@ -115,6 +116,7 @@ window.LGS_HAP["isi-madde"] = {
         "**Kar yağarken hava biraz ısınır:** su buharı kar tanesine dönüşürken (gaz → katı) çevreye ısı verir. Karlar erirken çevreden ısı alır ve hava soğur.",
         "**Soğuk bardağın dışındaki damlacıklar** havadaki su buharının yoğuşmasıdır; bardak sızdırmaz.",
         "**Üflemek / rüzgâr:** yüzeydeki buharı uzaklaştırıp buharlaşmayı hızlandırır; madde çevreden daha çok ısı çeker, daha çabuk soğur.",
+        "**Kaynar suyla buhar:** ikisi de 100 °C olsa da su buharı ele ya da kumaşa değince önce yoğuşur ve ısı verir, sonra 100 °C'lık sıvı olarak soğur. Bu yüzden buhar, aynı kütledeki kaynar sudan daha çok yakar.",
         "**Soğuk gecede suyun donması** çevreye ısı verir; bu ısı hassas bitkilerin hemen donmasını geciktirir.",
         "**Naftalin, kuru buz, kış günü donmuş çamaşırın kuruması** süblimleşme örnekleridir (katı → gaz): sıvı hâl oluşmaz."
       ],
