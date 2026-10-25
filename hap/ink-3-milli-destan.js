@@ -33,7 +33,7 @@ window.LGS_HAP["ink-3-milli-destan"] = {
     {
       baslik: "Savaş sürerken devlet kurmak",
       maddeler: [
-        "**Teşkilat-ı Esasiye:** “Egemenlik kayıtsız şartsız milletindir.” Yasama ve yürütme Mecliste toplandı (**güçler birliği**). Padişahtan ve halifeden söz edilmedi, ama bu makamlar **kaldırılmadı**. (Osmanlı'nın anayasası 1876 tarihli Kanun-i Esasi idi.)",
+        "**Teşkilat-ı Esasiye:** “Egemenlik kayıtsız şartsız milletindir.” Yasama ve yürütme Mecliste toplandı (**güçler birliği**). Padişahtan ve halifeden söz edilmedi, ama bu makamlar **kaldırılmadı**. (Osmanlı'nın anayasası 1876 tarihli Kanun-i Esasi idi; orada egemenlik **padişaha** aitti, Teşkilat-ı Esasiye onu **millete** verdi.)",
         "**Londra:** İtilaf Devletleri Sevr'i değişikliklerle kabul ettirmek için İstanbul'la birlikte Ankara'yı da çağırdı; İstanbul heyeti sözü Ankara heyetine bıraktı. TBMM heyeti **Misakımillî**'yi savundu, konferans **sonuçsuz** kaldı. Heyet başkanı Bekir Sami Bey'in ekonomik ayrıcalık tanıyan ayrı anlaşmalarını **Meclis onaylamadı**: tam bağımsızlık, **ekonomik bağımsızlığı** da kapsar.",
         "**Afganistan** ile iki ülke birbirinin bağımsızlığını tanıdı. Doğu milletlerinin bağımsızlık hakkı vurgulandı, birine yapılan saldırı ötekine de yapılmış sayılacaktı: **sömürgeciliğe karşı dayanışma**. Türkiye öğretmen ve subay gönderecekti. **Moskova**'da Sovyet Rusya Misakımillî'yi tanıdı, Sevr'i tanımayacağını bildirdi, Çarlık dönemi antlaşmalarını geçersiz saydı, kapitülasyonlardan vazgeçti."
       ],
@@ -60,9 +60,9 @@ window.LGS_HAP["ink-3-milli-destan"] = {
       maddeler: [
         "**Sakarya Meydan Savaşı (23 Ağustos-13 Eylül 1921)** 22 gün 22 gece sürdü. Kaburgası kırık Mustafa Kemal savaşı cepheden yönetti. Emri: “Hatt-ı müdafaa yoktur, sath-ı müdafaa vardır. O satıh bütün vatandır.” Savunma bir **çizgiye** değil bütün **alana** dayanır; hat yarılsa da direniş sürer.",
         "Yunan ordusu Sakarya'nın batısına çekildi; **1683 Viyana bozgunundan beri süren geri çekilme durdu**. Ama düşmanı izleyecek güç yoktu; bir yıl hazırlık yapıldı. Meclis Mustafa Kemal'e **mareşal rütbesi ve gazi unvanı** verdi (19 Eylül 1921).",
-        "**Büyük Taarruz** **gizlilikle** hazırlandı: birlikler gece yürüdü; Ankara'da Mustafa Kemal'in davet vereceği haberi yayıldı, oysa o cephedeydi. **26 Ağustos 1922** Kocatepe'den taarruz → **30 Ağustos** Başkomutan Meydan Muharebesi (Dumlupınar) → **1 Eylül** “Ordular! İlk hedefiniz Akdeniz'dir. İleri!” → **9 Eylül** İzmir → 18 Eylül Batı Anadolu kurtuldu."
+        "**Büyük Taarruz** **gizlilikle** hazırlandı: birlikler gece yürüdü; Ankara'da Mustafa Kemal'in davet vereceği haberi yayıldı, oysa o cephedeydi. **26 Ağustos 1922** Kocatepe'den taarruz → **30 Ağustos** Başkomutan Meydan Muharebesi (Dumlupınar; adı, Mustafa Kemal'in muharebeyi bizzat yönetmesinden gelir) → **1 Eylül** “Ordular! İlk hedefiniz Akdeniz'dir. İleri!” → **9 Eylül** İzmir → 18 Eylül Batı Anadolu kurtuldu."
       ],
-      tablo: "<table class=\"tablo\"><tr><th>Antlaşma</th><th>Taraf</th><th>Önemi</th></tr><tr><td><strong>Ankara</strong> (20 Ekim 1921)</td><td>Fransa</td><td>Fransa TBMM'yi tanıdı, Güney Cephesi kapandı; Hatay özel yönetimle sınır dışında kaldı; İtilaf birliği bozuldu</td></tr><tr><td><strong>Mudanya Ateşkesi</strong> (11 Ekim 1922)</td><td>İngiltere, Fransa, İtalya (Yunanistan sonra kabul etti)</td><td>Masada İstanbul Hükûmeti değil TBMM vardı. Meriç'e kadar Doğu Trakya, Edirne dâhil, <strong>savaşmadan</strong> alındı. İstanbul'un yönetimi TBMM'ye bırakıldı; İtilaf askerleri ve Boğazların kesin durumu barışa kaldı.</td></tr></table>",
+      tablo: "<table class=\"tablo\"><tr><th>Antlaşma</th><th>Taraf</th><th>Önemi</th></tr><tr><td><strong>Ankara</strong> (20 Ekim 1921)</td><td>Fransa</td><td>Fransa TBMM'yi tanıdı, Güney Cephesi kapandı; Hatay özel yönetimle sınır dışında kaldı; İtilaf birliği bozuldu</td></tr><tr><td><strong>Mudanya Ateşkesi</strong> (11 Ekim 1922)</td><td>İngiltere, Fransa, İtalya (Yunanistan sonra kabul etti)</td><td>Masada İstanbul Hükûmeti değil TBMM vardı; Mondros (30 Ekim 1918) ise yenik Osmanlı'nın ateşkesiydi. Meriç'e kadar Doğu Trakya, Edirne dâhil, <strong>savaşmadan</strong> alındı. İstanbul'un yönetimi TBMM'ye bırakıldı; İtilaf askerleri ve Boğazların kesin durumu barışa kaldı.</td></tr></table>",
       dikkat: [
         "Fransa'yı masaya getiren **Sakarya zaferidir**; bir olay, kendinden sonraki bir olayla açıklanamaz. Mudanya **ateşkestir**, barış Lozan'dır."
       ]
@@ -76,7 +76,7 @@ window.LGS_HAP["ink-3-milli-destan"] = {
       ],
       tablo: "<table class=\"tablo\"><tr><th>Konu</th><th>Sevr (1920)</th><th>Lozan (1923)</th></tr><tr><td>Kapitülasyonlar</td><td>Genişletilecek</td><td><strong>Tamamen kaldırıldı</strong></td></tr><tr><td>Boğazlar</td><td>İtilaf komisyonu yönetecek</td><td>Askersiz; geçişi başkanı Türk uluslararası komisyon denetleyecek</td></tr><tr><td>Ordu</td><td>50.700 kişiyle sınırlı</td><td>Sınır yok</td></tr><tr><td>İzmir, Doğu Anadolu</td><td>Yunanistan'a, Ermenistan'a</td><td>Türkiye'de</td></tr></table>",
       dikkat: [
-        "**Kapitülasyon** yabancılara tanınan ticaret ve vergi ayrıcalığıdır; kaldırılması **ekonomik bağımsızlık** demektir. **Düyun-ı Umumiye** borçları toplayan yabancı denetimli idaredir. **Azınlık hakkı** ülkenin kendi vatandaşına tanınır.",
+        "**Kapitülasyon** yabancılara tanınan ticaret, vergi ve **yargı** ayrıcalığıdır (suç işleyen yabancı kendi **konsolosluk mahkemesinde** yargılanırdı); kaldırılması **ekonomik ve yargı bağımsızlığı** demektir. **Düyun-ı Umumiye** borçları toplayan yabancı denetimli idaredir. **Azınlık hakkı** ülkenin kendi vatandaşına tanınır.",
         "Lozan Misakımillî'yi **büyük ölçüde** gerçekleştirdi. Çözümü sonraya kalanlar: **Musul** (İngiltere ile görüşmeye bırakıldı) ve **Hatay**."
       ]
     },
