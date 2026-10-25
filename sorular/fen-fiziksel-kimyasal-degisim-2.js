@@ -182,19 +182,9 @@ Cevap A.`
   soru: `Ayten Hanım, aynı miktarda un, su ve tuzla iki hamur yoğurmuştur. Birinci hamura bir tatlı kaşığı maya katmış, ikincisine maya katmamıştır. İki hamur da aynı sıcaklıktaki odada üç saat bekletildiğinde yalnızca birinci hamurun hacmi iki katına çıkmış, içinde küçük gaz boşlukları oluşmuş ve hamur ekşimsi bir koku yaymıştır.
 **Buna göre birinci hamurdaki değişimle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Hamurdaki su buharlaşarak gaza dönüşmüştür; bu bir fiziksel değişimdir ve hamuru kabartır.",
-    "Maya, hamurdaki besinlerden gaz gibi yeni maddeler oluşturmuştur; bu bir kimyasal değişimdir.",
-    "Hamurun içindeki hava ısınarak genleşmiştir; bu bir fiziksel değişimdir ve hamuru kabartır.",
-    "Maya hamurda çözünmüştür; bu bir fiziksel değişimdir ve koku çözünmeden kaynaklanır."
-  ],
+  secenekler: ["Hamurdaki su buharlaşarak gaza dönüşmüştür; bu bir fiziksel değişimdir ve hamuru kabartır.","Maya, hamurdaki besinlerden gaz gibi yeni maddeler oluşturmuştur; bu bir kimyasal değişimdir.","Hamurun içindeki hava ısınarak genleşmiştir; bu bir fiziksel değişimdir ve hamuru kabartır.","Maya hamurda çözünmüş ve yeni madde oluşmamıştır; koku çözünmeden kaynaklanır."],
   dogru: 1,
-  hatalar: [
-    "Kabarmayı buharlaşma sanma: iki hamur da aynı ortamda bekletilmiştir; fark yalnızca mayadan kaynaklanır ve maya yeni maddeler oluşturur.",
-    null,
-    "Kabarmayı hava genleşmesi sanma: ortam sıcaklığı iki hamur için de aynıdır; kabaran hamurda ekşi koku ve yeni gaz oluşmuştur.",
-    "Mayayı çözünen madde sanma: maya hamurda canlı hücreler olarak çalışır ve besinleri kullanarak yeni maddeler üretir."
-  ],
+  hatalar: ["Kabarmayı buharlaşma sanma: iki hamur da aynı ortamda bekletilmiştir; fark yalnızca mayadan kaynaklanır ve maya yeni maddeler oluşturur.",null,"Kabarmayı hava genleşmesi sanma: ortam sıcaklığı iki hamur için de aynıdır; kabaran hamurda ekşi koku ve yeni gaz oluşmuştur.","Mayayı çözünen madde sanma: maya hamurda canlı hücreler olarak çalışır ve besinleri kullanarak yeni maddeler üretir."],
   aciklama: `Mayalanma, mayanın besinleri kullanarak gaz ve başka yeni maddeler oluşturduğu kimyasal bir değişimdir.
 Adım 1: İki hamur aynı ortamda bekletilmiş, tek fark mayadır. Kabarma yalnızca mayalı hamurda görüldüğüne göre değişimin nedeni mayadır.
 Adım 2: Hamurun içinde oluşan gaz boşlukları ve ekşimsi koku, yeni maddelerin oluştuğunu gösterir. Mayasız hamurda bu ipuçları yoktur.
@@ -363,19 +353,9 @@ Cevap A.`
   soru: `Kaan, bir parça ekmeği ağzında uzun süre çiğnerken ekmeğin önce tatsız olduğunu, sonra yavaş yavaş tatlanmaya başladığını fark etmiştir. Öğretmeni bunun nedenini, tükürükteki bir enzimin ekmekteki nişastayı şekere dönüştürmesi olarak açıklamıştır.
 **Buna göre ağızda gerçekleşen olaylarla ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Ufalanma ve tatlanma fiziksel sindirimdir; çünkü ikisinde de ekmeğin cinsi aynı kalır.",
-    "Ufalanma kimyasal, tatlanma fiziksel sindirimdir; çünkü tat değişimi yalnızca bir duyu olayıdır.",
-    "Ufalanma ve tatlanma kimyasal sindirimdir; çünkü ikisinde de ekmeğin görünümü değişir.",
-    "Ufalanma fiziksel, tatlanma kimyasal sindirimdir; çünkü tatlanmada nişasta yeni madde oluşturur."
-  ],
+  secenekler: ["Ufalanma ve tatlanma fiziksel sindirimdir; çünkü ikisinde de ekmeğin cinsi aynı kalır.","Ufalanma kimyasal, tatlanma fiziksel sindirimdir; çünkü ufalanmada yeni madde oluşur.","Ufalanma ve tatlanma kimyasal sindirimdir; çünkü ikisinde de ekmeğin görünümü değişir.","Ufalanma fiziksel, tatlanma kimyasal sindirimdir; çünkü tatlanmada nişasta yeni madde oluşturur."],
   dogru: 3,
-  hatalar: [
-    "Enzim etkisini gözden kaçırma: nişasta şekere dönüşürken yeni bir madde oluşur; bu kimyasal sindirimdir.",
-    "Rolleri ters çevirme: dişlerle ufalama maddenin cinsini değiştirmez, fizikseldir; tatlanma ise yeni madde oluşumudur.",
-    "Görünüm değişimini yeni madde sanma: ufalanan ekmek yine ekmektir; yalnızca parçaları küçülmüştür.",
-    null
-  ],
+  hatalar: ["Enzim etkisini gözden kaçırma: nişasta şekere dönüşürken yeni bir madde oluşur; bu kimyasal sindirimdir.","Rolleri ters çevirme: dişlerle ufalama maddenin cinsini değiştirmez, yeni madde oluşturmaz; tatlanma ise nişastanın şekere dönüşmesiyle yeni madde oluşumudur.","Görünüm değişimini yeni madde sanma: ufalanan ekmek yine ekmektir; yalnızca parçaları küçülmüştür.",null],
   aciklama: `Fiziksel (mekanik) sindirimde besin yalnızca parçalanır ve ezilir; besinin cinsi değişmez. Kimyasal sindirimde ise enzimler besinleri daha küçük yapı taşlarına ayırır; yeni maddeler oluşur.
 Adım 1: Dişler ekmeği küçük parçalara ayırır. Parçalar küçülse de ekmek ekmek olarak kalır; bu fiziksel sindirimdir.
 Adım 2: Tükürükteki enzim ekmekteki nişastayı şekere dönüştürür. Şeker, nişastadan farklı özelliklere sahip yeni bir maddedir; bu kimyasal sindirimdir.
@@ -631,19 +611,9 @@ Cevap C.`
   soru: `Ayşe, Burak, Cem ve Derya, tereyağıyla yapılan iki işlemi karşılaştırmıştır. Birinci işlemde bir parça tereyağı tavada hafif ısıda eritilmiş; sıvı yağ soğutulunca ilk tereyağıyla aynı özellikte sarımsı katı elde edilmiştir. İkinci işlemde aynı tereyağı tavada çok yüksek ısıda tutulmuş; yağ dumanlanıp kararmış, geriye keskin kokulu, acımsı ve siyaha yakın bir madde kalmıştır.
 **Buna göre öğrencilerden hangisinin yargısı doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Ayşe: Eritme fiziksel, yüksek ısıda tutma kimyasal değişimdir; çünkü ikincisinde tereyağından farklı yeni bir madde oluşur.",
-    "Burak: Eritme ve yüksek ısıda tutma fiziksel değişimdir; çünkü ikisinde de ısıtılan madde yağdır ve cinsini korur.",
-    "Cem: Eritme kimyasal, yüksek ısıda tutma fiziksel değişimdir; çünkü eriyen yağ, ilk hâlinden çok farklı görünür.",
-    "Derya: Eritme ve yüksek ısıda tutma kimyasal değişimdir; çünkü ikisinde de yağın rengi ve katılığı değişir."
-  ],
+  secenekler: ["Ayşe: Eritme fiziksel, yüksek ısıda tutma kimyasal değişimdir; çünkü ikincisinde tereyağından farklı yeni bir madde oluşur.","Burak: Eritme ve yüksek ısıda tutma fiziksel değişimdir; çünkü ikisinde de ısıtılan madde yağdır ve cinsini korur.","Cem: Eritme kimyasal, yüksek ısıda tutma fiziksel değişimdir; çünkü yeni madde yalnızca eritmede oluşur.","Derya: Eritme ve yüksek ısıda tutma kimyasal değişimdir; çünkü ikisinde de yağın rengi ve katılığı değişir."],
   dogru: 0,
-  hatalar: [
-    null,
-    "İkinci işlemi fiziksel sanma: yüksek ısıda kararan, keskin kokulu ve acımsı olan madde tereyağından farklıdır; yeni madde oluşmuştur.",
-    "Eriyen yağı yeni madde sanma: sıvı yağ soğuyunca ilk tereyağıyla aynı özellikte katıya döndüğüne göre madde aynı kalmıştır.",
-    "Görünüm ve katılık değişimini kimyasal sanma: eritmede yağın yalnızca hâli değişir; yeni madde yalnızca ikinci işlemde oluşur."
-  ],
+  hatalar: [null,"İkinci işlemi fiziksel sanma: yüksek ısıda kararan, keskin kokulu ve acımsı olan madde tereyağından farklıdır; yeni madde oluşmuştur.","Rolleri ters çevirme: sıvı yağ soğuyunca ilk tereyağıyla aynı özellikte katıya döndüğüne göre eritmede yeni madde oluşmamıştır; yeni madde yüksek ısıda tutmada oluşur.","Görünüm ve katılık değişimini kimyasal sanma: eritmede yağın yalnızca hâli değişir; yeni madde yalnızca ikinci işlemde oluşur."],
   aciklama: `Fiziksel değişimde maddenin kimliği değişmez, yeni madde oluşmaz; yalnızca hâli, biçimi ya da görünümü değişir. Kimyasal değişimde ise maddenin kimliği değişir ve başlangıçtaki maddelerden farklı özelliklere sahip yeni maddeler oluşur.
 Adım 1 (eritme): Tereyağı hafif ısıda eriyip sıvı olmuş, soğutulunca ilk tereyağıyla aynı özellikte katıya dönmüştür. Yağ başka bir maddeye dönüşmemiştir; hâl değişimidir, fizikseldir.
 Adım 2 (yüksek ısı): Yüksek ısıda tutulan yağ kararmış, keskin kokulu ve acımsı bir madde kalmıştır. Bu özellikler tereyağında yoktur; yeni madde oluşmuştur. Kimyasal değişimdir.
@@ -862,19 +832,9 @@ Cevap B.`
   soru: `Tek kullanımlık bir el ısıtıcı poşet, plastik kılıfından çıkarılıp havaya açılınca yarım saat boyunca ısınmıştır. Poşetin içindeki gri demir tozu bu sürede kahverengileşmiş ve topaklanmıştır. Isınma bitince tozun yeniden gri hâle döndürülemediği görülmüştür.
 **Bu poşette gerçekleşen değişimle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Demir tozu havayı soğurarak ısınır; bu fiziksel değişim ısı açığa çıkarır ve rengi değiştirir.",
-    "Demir tozu havada çözünerek kahverengileşir; bu fiziksel bir değişimdir ve ısı verir.",
-    "Demir tozu havadaki oksijenle birleşip yeni madde oluşturur; bu kimyasal değişim ısı verir.",
-    "Demir tozu ısınınca erir ve kahverengi bir sıvıya dönüşür; bu bir kimyasal değişimdir."
-  ],
+  secenekler: ["Demir tozu havayı soğurarak ısınır; bu fiziksel değişim ısı açığa çıkarır ve rengi değiştirir.","Demir tozu havada çözünerek kahverengileşir; yeni madde oluşmaz ve ısı açığa çıkar.","Demir tozu havadaki oksijenle birleşip yeni madde oluşturur; bu kimyasal değişim ısı verir.","Demir tozu ısınınca erir ve kahverengi bir sıvıya dönüşür; bu bir kimyasal değişimdir."],
   dogru: 2,
-  hatalar: [
-    "Isınmayı fiziksel değişim sanma: renk değişimi ve geri döndürülememe, demirin yeni bir maddeye dönüştüğünü gösterir.",
-    "Çözünme sanma: demir tozu havada çözünmez; kahverengi madde demirden farklı yeni bir maddedir (pas).",
-    null,
-    "Isınmayı erime sanma: poşetteki toz sıvıya dönüşmemiş, kahverengileşip topaklanmıştır. Kategori doğru olsa da neden yanlıştır."
-  ],
+  hatalar: ["Isınmayı fiziksel değişim sanma: renk değişimi ve geri döndürülememe, demirin yeni bir maddeye dönüştüğünü gösterir.","Çözünme sanma: demir tozu havada çözünmez; kahverengi madde demirden farklı yeni bir maddedir (pas).",null,"Isınmayı erime sanma: poşetteki toz sıvıya dönüşmemiş, kahverengileşip topaklanmıştır. Kategori doğru olsa da neden yanlıştır."],
   aciklama: `Fiziksel değişimde maddenin kimliği değişmez, yeni madde oluşmaz; yalnızca hâli, biçimi ya da görünümü değişir. Kimyasal değişimde ise maddenin kimliği değişir ve başlangıçtaki maddelerden farklı özelliklere sahip yeni maddeler oluşur.
 Adım 1: Poşet havaya açılınca demir tozu havadaki oksijenle birleşir ve paslanır. Kahverengi pas, demirden farklı yeni bir maddedir.
 Adım 2: Renk değişimi ve eski hâline döndürülememe, yeni madde oluştuğunu gösterir. Isı açığa çıkması da bu kimyasal değişimin bir sonucudur.
@@ -954,19 +914,9 @@ Cevap D.`
   soru: `Bir miktar süt, yoğurt mayasıyla karıştırılıp ılık bir ortamda bekletilmiştir. Birkaç saat sonra süt koyulaşmış, ekşimsi bir tat kazanmış ve yoğurda dönüşmüştür. Bu yoğurt tekrar ısıtılıp soğutulsa da süte dönmemektedir.
 **Bu olayla ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Süt donarak yoğurt hâline geldiği için bu bir kimyasal değişimdir.",
-    "Süt ile maya karıştığı için yalnızca bir karışım oluşmuştur ve olay fizikseldir.",
-    "Sütün koyulaşması hâl değişimi olduğundan olay fiziksel değişimdir ve süt aynı kalır.",
-    "Sütün yoğurda dönüşmesinde yeni maddeler oluşur; bu bir kimyasal değişimdir."
-  ],
+  secenekler: ["Süt donarak yoğurt hâline geldiği için bu bir kimyasal değişimdir.","Süt ile maya yalnızca karışmıştır; yeni madde oluşmadığı için olay fizikseldir.","Sütün koyulaşması hâl değişimi olduğundan olay fiziksel değişimdir ve süt aynı kalır.","Sütün yoğurda dönüşmesinde yeni maddeler oluşur; bu bir kimyasal değişimdir."],
   dogru: 3,
-  hatalar: [
-    "Yanlış gerekçe: süt donmamıştır ve donma zaten hâl değişimidir (fizikseldir). Değişim kimyasaldır; ama nedeni ekşi tat ve geri dönememe gibi yeni madde oluşumudur.",
-    "Karışım sanma: karışımda maddeler özelliklerini korur; burada ekşi tat gibi süte ait olmayan özellikler ortaya çıkmıştır.",
-    "Koyulaşmayı hâl değişimi sanma: süt sıvı hâlden katı hâle geçmemiş, kimyasal değişimle yeni maddeler oluşmuştur.",
-    null
-  ],
+  hatalar: ["Yanlış gerekçe: süt donmamıştır ve donma zaten hâl değişimidir (fizikseldir). Değişim kimyasaldır; ama nedeni ekşi tat ve geri dönememe gibi yeni madde oluşumudur.","Karışım sanma: karışımda maddeler özelliklerini korur; burada ekşi tat gibi süte ait olmayan özellikler ortaya çıkmıştır.","Koyulaşmayı hâl değişimi sanma: süt sıvı hâlden katı hâle geçmemiş, kimyasal değişimle yeni maddeler oluşmuştur.",null],
   aciklama: `Fiziksel değişimde maddenin kimliği değişmez, yeni madde oluşmaz; yalnızca hâli, biçimi ya da görünümü değişir. Kimyasal değişimde ise maddenin kimliği değişir ve başlangıçtaki maddelerden farklı özelliklere sahip yeni maddeler oluşur.
 Adım 1: Yoğurt mayası sütteki besinleri kullanarak yeni maddeler üretir. Ekşimsi tat, süte ait olmayan yeni bir özelliktir.
 Adım 2: Yoğurt ısıtılıp soğutulsa da süte dönmez. Bu, değişimin hâl değişimi gibi geri dönebilen bir değişim olmadığını gösterir.

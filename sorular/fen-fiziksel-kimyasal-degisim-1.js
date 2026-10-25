@@ -1179,19 +1179,9 @@ Cevap A.`
   soru: `Su dolu bir kaba elektrik akımı verilince iki elektrotta da gaz kabarcıkları çıkıyor ve akım sürdükçe kaptaki su seviyesi azalıyor. Gazlar ayrı tüplerde toplanıyor ve yanan bir çöp tüplere yaklaştırılıyor. Gözlemler tabloda verilmiştir.
 **Buna göre bu deneyle ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: `<table class="tablo"><tr><th>Tüp</th><th>Yanan çöp yaklaştırılınca</th></tr><tr><td>K</td><td>Çöp daha parlak yandı</td></tr><tr><td>L</td><td>Gaz hafif bir patlama sesiyle yandı</td></tr></table>`,
-  secenekler: [
-    "Su, özellikleri birbirinden farklı yeni maddelere dönüşmüştür",
-    "Su, hâl değiştirerek yalnızca gaz hâline geçmiştir",
-    "Suyun tanecikleri birbirinden uzaklaşmış, kimlikleri değişmemiştir",
-    "Akım, suda önceden çözünmüş gazları dışarı çıkarmıştır"
-  ],
+  secenekler: ["Su, özellikleri birbirinden farklı yeni maddelere dönüşmüştür","Su, yeni madde oluşmadan yalnızca gaz hâline geçmiştir","Suyun tanecikleri birbirinden uzaklaşmış, kimlikleri değişmemiştir","Akım, suda önceden çözünmüş gazları dışarı çıkarmıştır"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Hâl değişimi sanma: iki tüpteki gazlar çöpe farklı tepki veriyor, yani farklı maddeler; su buharı olsaydı iki tüpte aynı sonuç alınırdı.",
-    "Tanecik türü değişmedi sanma: iki farklı özellikte gaz oluştuğuna göre tanecik türü değişmiştir.",
-    "Çözünmüş gaz yanılgısı: çözünmüş gazlar çok az olur ve kısa sürede biter; akım sürdükçe gaz çıkışı ve su azalması devam ediyor."
-  ],
+  hatalar: [null,"Hâl değişimi sanma: iki tüpteki gazlar çöpe farklı tepki veriyor, yani farklı maddeler; su buharı olsaydı iki tüpte aynı sonuç alınırdı.","Tanecik türü değişmedi sanma: iki farklı özellikte gaz oluştuğuna göre tanecik türü değişmiştir.","Çözünmüş gaz yanılgısı: çözünmüş gazlar çok az olur ve kısa sürede biter; akım sürdükçe gaz çıkışı ve su azalması devam ediyor."],
   aciklama: `Maddeyi tanımanın yolu özellikleridir. İki gazın özellikleri birbirinden ve sudan farklıysa yeni maddeler oluşmuştur.
 Adım 1: K tüpündeki gaz çöpün daha parlak yanmasını sağlıyor, L tüpündeki gaz ise kendisi yanıyor. İki gazın özellikleri farklı.
 Adım 2: Su buharı yanmayı ne parlatır ne de kendisi yanar. Demek ki bu gazlar su buharı değildir.
