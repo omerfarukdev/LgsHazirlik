@@ -348,6 +348,8 @@ window.LGS_MANIFEST = [
   "tur-paragrafta-anlam-92.js",
   "tur-paragrafta-anlam-93.js",
   "tur-paragrafta-anlam-94.js",
+  "tur-paragrafta-anlam-95.js",
+  "tur-paragrafta-anlam-96.js",
   "mat-eslik-benzerlik-1.js",
   "mat-eslik-benzerlik-2.js",
   "fen-madde-donguleri-1.js",
