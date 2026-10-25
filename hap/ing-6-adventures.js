@@ -28,7 +28,8 @@ window.LGS_HAP["ing-6-adventures"] = {
         "**Uzun sıfatlar** (iki ve daha çok heceli): önüne **more** gelir: dangerous → **more dangerous**, exciting → **more exciting**, challenging → **more challenging**, popular → **more popular**.",
         "**Daha az** anlamı için sıfat uzun ya da kısa olsun **less + sıfat + than** kullanılır: **Chess is less dangerous than boxing.**",
         "Düzensizler: good → **better**, bad → **worse**. Eşitlik için **as ... as** (kadar) kullanılır; bu kalıp \"than\" almaz. En üstünlük **the most / the least** ile kurulur: **the least popular sport** (en az sevilen spor).",
-        "Görüş bildirirken **I think ...** (Bence ...) ya da **In my opinion, ...** kullanılır."
+        "Görüş bildirirken **I think ...** (Bence ...) ya da **In my opinion, ...** kullanılır. **Opinion** (görüş) kişiden kişiye değişir; **fact** (gerçek) herkes için doğrudur ve kanıtlanabilir: \"Rafting is exciting.\" görüştür, \"Rafting is done on a river.\" gerçektir.",
+        "**too + sıfat** (fazla, ... -ecek kadar fazla) olumsuz bir sonuç doğurur: **The water is too cold for swimming.** **sıfat + enough** (yeterince) ise olumlu yeterliliği bildirir: **He is tall enough to ride.** Para ya da zaman için **enough money / enough time** kullanılır; **not enough** yetersizliği anlatır. **as much as** (... kadar çok) da eşitlik kalıbıdır."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Sıfat</th><th>Karşılaştırma</th><th>Kural</th></tr><tr><td>heavy (ağır)</td><td><strong>heavier</strong> than</td><td>-y → -ier</td></tr><tr><td>fascinating (büyüleyici)</td><td><strong>more fascinating</strong> than</td><td>uzun: more</td></tr><tr><td>dangerous (tehlikeli)</td><td><strong>less dangerous</strong> than</td><td>daha az: less</td></tr><tr><td>good (iyi)</td><td><strong>better</strong> than</td><td>düzensiz</td></tr></table>",
       dikkat: [
@@ -71,7 +72,9 @@ window.LGS_HAP["ing-6-adventures"] = {
         "Tercih ve karşılaştırmayı birleştirirsin: **I prefer painting to football because it is more relaxing.**",
         "Görüşe katılırken **I agree.** (Katılıyorum.), katılmazken **I don't think so.** (Sanmıyorum.) dersin; ardından görüşünü **I find X more entertaining.** (Bence X daha eğlenceli.) ile söylersin. Davette kabul **Sure! / I would love to, but ...** (Tabii! / Çok isterdim ama ...), ret **No, thanks.** biçimindedir.",
         "Mini paragraf sırası: tercih, **because** ile neden, **than** ile karşılaştırma, kısa sonuç. Örnek: **I think diving is more fascinating than swimming in a pool. I would rather dive than stay at the shore.**",
-        "Sıralama ve bağlantı sözcükleri: **First, ... Then, ... Finally, ...** (Önce, sonra, en sonunda), **However,** (Ancak, karşıtlık), **Therefore,** (Bu nedenle, sonuç), **For example,** (Örneğin)."
+        "Sıralama ve bağlantı sözcükleri: **First, ... Then, ... Finally, ...** (Önce, sonra, en sonunda), **However,** (Ancak, karşıtlık), **Therefore,** (Bu nedenle, sonuç), **Because of that,** (Bu yüzden, sonuç; öncesinde neden vardır), **For example,** (Örneğin). **Because of + isim** da neden bildirir: **Because of the rain, the match is cancelled.**",
+        "**Kural ve öneri:** **must / have to** zorunluluğu (**Guests must show their ticket.**), **should** öneriyi (**You should wear a helmet.**), **can't / must not** yasağı bildirir. Mesaj ve afişte \"What must / should ...?\" sorusunun cevabı metindeki bu cümledir.",
+        "Bazı macera sözcükleri soruda ipucuyla verilir: **trekking** (doğa yürüyüşü), **scuba diving** (tüplü dalış), **zip-lining** (hatta kayma), **rock climbing** (kaya tırmanışı), **ice skating** (buz pateni), **go-kart**, **life jacket** (can yeleği), **instructor** (eğitmen), **torch** (el feneri). Bilmediğin sözcüğü çevresindeki ipuçlarından çıkar."
       ],
       dikkat: [
         "**Gerekçe tercihi haklı çıkarmalı.** \"I prefer the beach because it is far away and tiring\" tutarsızdır; tercih ve gerekçe aynı yönü göstermiyorsa şık yanlıştır.",

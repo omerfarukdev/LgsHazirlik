@@ -171,7 +171,7 @@ ing-u2-255 | E8.2.SP2 | z3 | k2 | Teacher: How much sport do you do, Mira? Mira:
 ing-u2-256 | E8.2.R1 | z3 | k2 | Look at the timetable of a teen library club. I. The club meets every weekday. II. There is an evening activity on Friday. III. T… | ✓II and III
 ing-u2-257 | E8.2.SI1 | z3 | k2 | 1. "Then why don't we meet at the library at four?" 2. "Do you want to study for the maths exam together?" 3. "Good idea. See you… | ✓2-4-1-3
 ing-u2-258 | E8.2.R1 | z3 | k2 | From: Burcu To: Jade Hi Jade, You asked about my weekends. My brother Poyraz and I are very different! He is keen on gaming and s… | ✓Both of them help their mother on Sundays.
-ing-u2-259 | E8.2.SP1 | z3 | k2 | Three students talk about online friends. Emre: I think making friends online is great. I have friends in four countries. Su: In … | ✓Emre
+ing-u2-259 | E8.2.SP1 | z3 | k2 | Four students talk about online friends. Emre: I think making friends online is great. I have friends in four countries. Su: In m… | ✓Emre
 ing-u2-260 | E8.2.R1 | z3 | k2 | Gizem wants to join a weekend activity. She can't stand water sports, and she is busy on Saturday morning because she has a violi… | ✓the forest hike
 ing-u2-261 | E8.2.R1 | z3 | k2 | This table shows how many times Mert did some activities last month (30 days). I. He usually goes to the cinema. II. He never goe… | ✓Only II
 ing-u2-262 | E8.2.SP2 | z3 | k2 | Ali reads books on Monday, Tuesday, Thursday, Friday and Sunday. Sena reads only on Wednesday and Saturday. Sena reads books - - … | ✓less often than

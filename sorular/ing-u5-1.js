@@ -954,20 +954,11 @@ Cevap C.`
   zorluk: 3,
   soru: `Defne uses about 8 GB of Internet in a month. She wants the cheapest package that has enough GB.
 **Which package should she choose?**`,
-  gorsel: `<table class="tablo"><tr><th>Package</th><th>Internet</th><th>Price</th></tr><tr><td>A</td><td>10 GB</td><td>100 TL</td></tr><tr><td>B</td><td>20 GB</td><td>150 TL</td></tr><tr><td>C</td><td>5 GB</td><td>60 TL</td></tr></table>`,
-  secenekler: ["Package A", "Package B", "Package C", "None of them"],
+  gorsel: "<table class=\"tablo\"><tr><th>Package</th><th>Internet</th><th>Price</th></tr><tr><td>A</td><td>10 GB</td><td>100 TL</td></tr><tr><td>B</td><td>20 GB</td><td>150 TL</td></tr><tr><td>C</td><td>5 GB</td><td>60 TL</td></tr><tr><td>D</td><td>15 GB</td><td>130 TL</td></tr></table>",
+  secenekler: ["Package A","Package B","Package C","Package D"],
   dogru: 0,
-  hatalar: [
-    null,
-    "B de yeterli ama A'dan pahalı; en ucuz olan isteniyor.",
-    "C en ucuz ama 5 GB, ihtiyaç olan 8 GB'ı karşılamıyor.",
-    "A ve B yeterli; hiçbiri uygun değil denemez."
-  ],
-  aciklama: `Adım 1: En az 8 GB gerekiyor. A (10 GB) ve B (20 GB) yeterli; C (5 GB) yetmiyor.
-Adım 2: Yeterli olanlar arasında en ucuz olan A: 100 TL (B 150 TL).
-Adım 3: C daha ucuz ama yetersiz olduğu için elenir.
-Sağlama: A hem yeterli hem en ucuz.
-Cevap A.`
+  hatalar: [null,"B de yeterli ama A'dan pahalı; en ucuz olan isteniyor.","C en ucuz ama 5 GB, ihtiyaç olan 8 GB'ı karşılamıyor.","D de yeterli (15 GB) ama A'dan pahalı (130 TL); yeterli paketler içinde en ucuzu isteniyor."],
+  aciklama: "Adım 1: En az 8 GB gerekiyor. A (10 GB), B (20 GB) ve D (15 GB) yeterli; C (5 GB) yetmiyor.\nAdım 2: Yeterli olanlar arasında en ucuz olan A: 100 TL (D 130 TL, B 150 TL).\nAdım 3: C daha ucuz ama yetersiz olduğu için elenir.\nSağlama: A hem yeterli hem en ucuz.\nCevap A."
 },
 {
   id: "ing-u5-219",

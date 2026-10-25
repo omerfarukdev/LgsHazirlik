@@ -895,29 +895,12 @@ Cevap C.`
   kazanim: "E8.2.SP1",
   kademe: 2,
   zorluk: 3,
-  soru: `Three students talk about online friends.
-Emre: I think making friends online is great. I have friends in four countries.
-Su: In my opinion, online friends aren't real friends. I prefer meeting people face to face.
-Ata: I agree with Su. I can't stand chatting with strangers.
-**Which student has a different opinion from the other two?**`,
+  soru: "Four students talk about online friends.\nEmre: I think making friends online is great. I have friends in four countries.\nSu: In my opinion, online friends aren't real friends. I prefer meeting people face to face.\nAta: I agree with Su. I can't stand chatting with strangers.\nLale: Me too. For me, real friendship needs face-to-face meetings.\n**Which student has a different opinion from the other three?**",
   gorsel: null,
-  secenekler: [
-    "Emre",
-    "Su",
-    "Ata",
-    "None of them"
-  ],
+  secenekler: ["Emre","Su","Ata","Lale"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Su çevrimiçi arkadaşları gerçek saymıyor; Ata da onunla aynı fikirde, ikisi birbirine yakın.",
-    "Ata, Su ile aynı fikirde olduğunu açıkça söylüyor; farklı görüş sahibi değil.",
-    "Emre'nin görüşü diğer ikisinden açıkça farklı; bu yüzden \"hiçbiri\" olmaz."
-  ],
-  aciklama: `Adım 1: Görüşleri yaz. Emre: çevrimiçi arkadaşlık harika. Su: çevrimiçi arkadaşlar gerçek değil, yüz yüze görüşmeyi tercih ediyor. Ata: Su ile aynı fikirde, yabancılarla sohbete dayanamıyor.
-Adım 2: Su ve Ata benzer düşünüyor; Emre ters görüşte.
-Sağlama: "I agree with Su" cümlesi Ata'nın Su'yla aynı tarafta olduğunu kanıtlar.
-Cevap A.`
+  hatalar: [null,"Su çevrimiçi arkadaşları gerçek saymıyor; Ata ve Lale de onunla aynı fikirde, üçü birbirine yakın.","Ata, Su ile aynı fikirde olduğunu açıkça söylüyor; farklı görüş sahibi değil.","Lale \"Me too\" diyerek Su ve Ata'ya katılıyor; o da yüz yüze arkadaşlığı savunuyor."],
+  aciklama: "Adım 1: Görüşleri yaz. Emre: çevrimiçi arkadaşlık harika. Su: çevrimiçi arkadaşlar gerçek değil, yüz yüze görüşmeyi tercih ediyor. Ata: Su ile aynı fikirde, yabancılarla sohbete dayanamıyor. Lale: o da gerçek arkadaşlığın yüz yüze görüşmeyle olacağını düşünüyor.\nAdım 2: Su, Ata ve Lale benzer düşünüyor; Emre ters görüşte.\nSağlama: \"I agree with Su\" ve \"Me too\" cümleleri Ata ile Lale'nin Su'yla aynı tarafta olduğunu kanıtlar.\nCevap A."
 },
 {
   id: "ing-u2-260",

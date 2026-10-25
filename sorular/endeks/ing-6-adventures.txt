@@ -88,3 +88,213 @@ ing-u6-012 | E8.6.R1 | z3 | k0 | Read the poster of an adventure camp. ADVENTURE
 ing-u6-013 | E8.6.SI2 | z4 | k0 | Three students ordered three sports from the most liked to the least liked. Which sentence is true according to the table? | ✓Beste would rather go rafting than caving.
 ing-u6-014 | E8.6.R1 | z4 | k0 | Read the text. My parents say skateboarding is more dangerous than people think. Last month I fell and hurt my arm. I was really … | ✓He will keep skating but be careful.
 ing-u6-015 | E8.6.R1 | z4 | k0 | Berk wants an activity that is more exciting than canoeing, less dangerous than paragliding and not on water. Look at the table. … | ✓Caving
+ing-u6-126 | E8.6.R1 | z1 | k1 | Cem stands on a board with four wheels. He rides down the street and does tricks. What is Cem doing? | ✓skateboarding
+ing-u6-127 | E8.6.R1 | z1 | k1 | Lena jumps from a high hill with a big parachute. Then she flies slowly in the sky. Which sport is Lena doing? | ✓paragliding
+ing-u6-128 | E8.6.SI2 | z1 | k1 | Aslı is tired and it is very hot outside. She would rather - - - - than go rafting today. Which completes the sentence? | ✓stay at home
+ing-u6-129 | E8.6.SP1 | z1 | k1 | A motorbike is - - - - than a bicycle. Which completes the sentence? | ✓faster
+ing-u6-130 | E8.6.R1 | z1 | k1 | The new video game was too short and too easy. Kerim finished it in two hours. He felt very - - - - . Which completes the sentenc… | ✓disappointed
+ing-u6-131 | E8.6.R1 | z1 | k1 | Everyone shouted and jumped from their seats when the player scored in the last minute. The match was - - - - . Which completes t… | ✓exciting
+ing-u6-132 | E8.6.L2 | z1 | k1 | Read Efe's message. What time does the lesson start? | ✓At 4:00.
+ing-u6-133 | E8.6.L2 | z1 | k1 | Read the message from the teacher. What should the students bring? | ✓Their lunch.
+ing-u6-134 | E8.6.SI1 | z1 | k1 | Defne: Which do you prefer, trekking or scuba diving? Okan: - - - - Which completes the dialogue? | ✓I prefer trekking to scuba diving.
+ing-u6-135 | E8.6.SP1 | z1 | k1 | Kaan thinks zipline is as exciting - - - - bungee-jumping. Which completes the sentence? | ✓as
+ing-u6-136 | E8.6.R1 | z1 | k1 | Which one is an extreme sport? | ✓hang-gliding
+ing-u6-137 | E8.6.R1 | z1 | k1 | Bungee-jumpers take risks. What does "take risks" mean? | ✓to do something dangerous
+ing-u6-138 | E8.6.R1 | z1 | k1 | Reyhan climbs the wall of a rocky mountain with a rope and a helmet. She uses her hands and feet. What is Reyhan doing? | ✓rock climbing
+ing-u6-139 | E8.6.SI2 | z1 | k1 | My brother prefers - - - - to swimming. Which completes the sentence? | ✓running
+ing-u6-140 | E8.6.R1 | z1 | k1 | Mina is 9 years old. Which activity can she do? | ✓skateboarding
+ing-u6-141 | E8.6.SI1 | z1 | k1 | Ceyda: Why do you like kayaking? Poyraz: - - - - Which completes the dialogue? | ✓Because it is very exciting.
+ing-u6-142 | E8.6.R1 | z1 | k1 | Read the sign. When does the ice rink close? | ✓At 8 p.m.
+ing-u6-143 | E8.6.SI2 | z1 | k1 | Merve says, "Bungee-jumping looks scary. I would rather not - - - - it." Which completes the sentence? | ✓try
+ing-u6-144 | E8.6.R1 | z1 | k1 | The mountain path is very steep. You need strength and skill to walk on it. It is a - - - - path. Which completes the sentence? | ✓challenging
+ing-u6-145 | E8.6.SI2 | z1 | k1 | Cenk: Would you rather go canoeing or kayaking? Sude: I would rather go canoeing - - - - kayaking. Which completes the dialogue? | ✓than
+ing-u6-146 | E8.6.SP1 | z1 | k1 | Zeynep is 1.60 m tall. Defne is 1.55 m tall. Zeynep is - - - - than Defne. Which completes the sentence? | ✓taller
+ing-u6-147 | E8.6.R1 | z1 | k1 | Which word has the opposite meaning of "safe"? | ✓dangerous
+ing-u6-148 | E8.6.W1 | z1 | k1 | First, put on your helmet. - - - - , check the rope. Finally, start the jump. Which completes the instructions? | ✓Then
+ing-u6-149 | E8.6.SI2 | z1 | k1 | I prefer cycling to driving. Which sentence has the same meaning? | ✓I would rather cycle than drive.
+ing-u6-150 | E8.6.R1 | z2 | k1 | Read Jasmine's blog. Why did the group stay in the hall on Tuesday? | ✓The weather was bad.
+ing-u6-151 | E8.6.SI2 | z2 | k1 | Sinem: Let us try rock climbing today! Emre: No, thanks. I am afraid of heights, so - - - - . Which completes the dialogue? | ✓I would rather go hiking than climb.
+ing-u6-152 | E8.6.R1 | z2 | k1 | Look at the table. Which sentence is true according to the table? | ✓Scuba diving is longer and more expensive th…
+ing-u6-153 | E8.6.SI1 | z2 | k1 | Can: Are you going to the ice rink on Saturday? Pelin: - - - - Can: Oh, that is a pity. Maybe next weekend. Which completes the d… | ✓I would love to, but I have a violin lesson.
+ing-u6-154 | E8.6.W1 | z2 | k1 | Taner is writing about his day. The sentences are mixed up. 1. Then we put on our helmets. 2. First, the guide showed us the boat… | ✓2 - 1 - 3
+ing-u6-155 | E8.6.R1 | z2 | k1 | Read Kemal's postcard. Which one is NOT mentioned in the postcard? | ✓Kemal had a lesson from a guide.
+ing-u6-156 | E8.6.L2 | z2 | k1 | Read the coach's message. When is the new practice? | ✓On Thursday at 4:00.
+ing-u6-157 | E8.6.SI2 | z2 | k1 | Which sentence is NOT correct? | ✓Canoeing is more easier than rafting.
+ing-u6-158 | E8.6.R1 | z2 | k1 | Forty students chose their favourite holiday activity. Which sentence is true according to the survey? | ✓Scuba diving is the least popular activity.
+ing-u6-159 | E8.6.SP1 | z2 | k1 | A bike costs 800 TL, a skateboard costs 500 TL and a scooter costs 300 TL. The skateboard is - - - - than the bike but - - - - th… | ✓cheaper / more expensive
+ing-u6-160 | E8.6.R1 | z2 | k1 | Which sentence is correct? | ✓The flight was exciting, so we felt excited.
+ing-u6-161 | E8.6.SI2 | z2 | k1 | Ayhan: I prefer ice skating to skateboarding. The rink is indoors, so I can skate even when it rains. Why does Ayhan prefer ice s… | ✓He can skate even on rainy days.
+ing-u6-162 | E8.6.L2 | z2 | k1 | Read the school message. What must the parents do? | ✓Sign the form and send it.
+ing-u6-163 | E8.6.R1 | z2 | k1 | Read the text. Many people think skateboarding is only for teenagers, but this is not true. Last Sunday, I saw a 60-year-old man … | ✓Skateboarding is not only for teenagers.
+ing-u6-164 | E8.6.SI1 | z2 | k1 | Burcu: I think motor-racing is more dangerous than skateboarding. Tarık: - - - - Cars are much faster than boards. Which complete… | ✓I agree.
+ing-u6-165 | E8.6.W1 | z2 | k1 | Ada wants to join the canoe race. - - - - she cannot swim well, she will wear a life jacket. Which completes the sentence? | ✓Because
+ing-u6-166 | E8.6.R1 | z2 | k1 | Read the poster. Which one is true according to the poster? | ✓Lunch is included in the price.
+ing-u6-167 | E8.6.SI2 | z2 | k1 | Orhan cannot swim well and he is afraid of deep water. Mum: Why would you rather go to the skate park than the water park? Orhan:… | ✓Because I feel safer when I am not in water.
+ing-u6-168 | E8.6.R1 | z2 | k1 | Read the rules at the climbing centre. Which person is following the rules? | ✓Sibel, a beginner, never climbs without an i…
+ing-u6-169 | E8.6.L2 | z2 | k1 | Read Duru's message to Berk. Why can Berk not go to the skate park on Monday? | ✓The park is closed for repairs.
+ing-u6-170 | E8.6.SI1 | z2 | k1 | Nehir: Which do you find more entertaining, the cinema or the amusement park? Alp: - - - - Everyone laughs a lot on the rides. Wh… | ✓I find the amusement park more entertaining …
+ing-u6-171 | E8.6.R1 | z2 | k1 | Twenty-four students chose their favourite adventure activity. Which sentence is true according to the chart? | ✓Kayaking is the most popular activity.
+ing-u6-172 | E8.6.SI2 | z2 | k1 | The lines of a dialogue are mixed up. 1. Because it is faster and more fun. 2. Which do you prefer, hiking or cycling? 3. Why? 4.… | ✓2 - 4 - 3 - 1
+ing-u6-173 | E8.6.W1 | z2 | k1 | My best holiday activity is kayaking. I prefer it to canoeing because it is more exciting. - - - - , I will go kayaking again nex… | ✓Therefore
+ing-u6-174 | E8.6.R1 | z2 | k1 | Read Selma's diary. Why were the students disappointed? | ✓The flights were cancelled.
+ing-u6-175 | E8.6.SI2 | z2 | k1 | Pınar gets cold easily and she dislikes wet clothes. Yağmur: Would you rather go kayaking or skateboarding? Pınar: - - - - Which … | ✓I would rather go skateboarding than kayakin…
+ing-u6-226 | E8.6.R1 | z2 | k2 | Kaya watched a film about deep-sea animals. The colours and the creatures were so interesting that he could not stop watching. Th… | ✓fascinating
+ing-u6-227 | E8.6.SI2 | z2 | k2 | Pelin: Shall we walk to the lake? It is two kilometres. Cem: It is raining. I would rather - - - - a taxi than walk in the rain. … | ✓take
+ing-u6-228 | E8.6.R1 | z2 | k2 | Read Nehir's message to Duru. "There is a new zipline park near our town. You fly over the trees with a rope and a safety belt. I… | ✓She likes high places and wants to feel like…
+ing-u6-229 | E8.6.SP1 | z2 | k2 | Paragliding needs a lot of training. Trekking needs very little training. So trekking is - - - - than paragliding. Which complete… | ✓easier
+ing-u6-230 | E8.6.R1 | z2 | k2 | Look at the table. Which sentence is true according to the table? | ✓Rock climbing is cheaper than scuba diving.
+ing-u6-231 | E8.6.SI1 | z2 | k2 | Sinem: Do you prefer trekking or skateboarding? Hasan: - - - - I can walk for hours in the forest, but I fall off the board all t… | ✓I prefer trekking to skateboarding.
+ing-u6-232 | E8.6.R1 | z2 | k2 | Kaan puts on special shoes and a harness. He uses his hands and feet to go up a tall wall of rock. What is Kaan doing? | ✓rock climbing
+ing-u6-233 | E8.6.SI2 | z2 | k2 | Selma: Why do you prefer kayaking to rafting? Orhan: I prefer kayaking - - - - it is calmer and I can paddle alone. Which word co… | ✓because
+ing-u6-234 | E8.6.L2 | z2 | k2 | Read the message from the guide. "Hi team! Because of the storm, the caving trip moves from Saturday to Sunday. Meet at the schoo… | ✓A torch and a helmet
+ing-u6-235 | E8.6.R1 | z2 | k2 | Read Tara's blog. "Last week I went to the mountains and tried paragliding for the first time. My instructor, Mr Polat, checked m… | ✓How much she paid
+ing-u6-236 | E8.6.R1 | z2 | k2 | The skate park has a new rail. Even professional skaters fall many times before they can jump it. It needs a lot of practice and … | ✓challenging
+ing-u6-237 | E8.6.SI2 | z2 | k2 | Mum: Shall we go to the ice rink tonight? Defne: I'd rather - - - - tonight because I have an exam tomorrow. Which completes the … | ✓not go
+ing-u6-238 | E8.6.R1 | z2 | k2 | Read Emre's text. "Scuba diving is expensive and you need a trainer, but it is the most relaxing sport for me. Under the sea, eve… | ✓It is always quiet and relaxing for him.
+ing-u6-239 | E8.6.SI1 | z2 | k2 | Kerem: How was the motor-racing show? Ada: - - - - The cars were slow and the tickets were expensive. Which completes the dialogu… | ✓It was disappointing.
+ing-u6-240 | E8.6.W1 | z2 | k2 | Hang-gliding is not cheap. You need special equipment and a trainer. - - - - , many teenagers choose cheaper sports. Which comple… | ✓Therefore
+ing-u6-241 | E8.6.R1 | z2 | k2 | Aras puts on a mask, flippers and an air tank. Then he goes down to see the fish under the sea. Which activity is Aras doing? | ✓scuba diving
+ing-u6-242 | E8.6.SI2 | z2 | k2 | Ela: Do you prefer cycling or riding a go-kart? Tan: I prefer riding a go-kart to cycling because it is faster and more entertain… | ✓He thinks go-karts are more entertaining tha…
+ing-u6-243 | E8.6.R1 | z2 | k2 | Tuğba watched the rafting race and shouted all the time. She was very - - - - . Which completes the sentence? | ✓excited
+ing-u6-244 | E8.6.R1 | z2 | k2 | Look at the chart. Which sentence is true according to the chart? | ✓Zipline is more popular than ice skating.
+ing-u6-245 | E8.6.SI1 | z2 | k2 | Ece: Would you like to go zip-lining with us on Saturday? Murat: - - - - I have a swimming lesson at that time. Maybe next weeken… | ✓I would love to, but I can't come.
+ing-u6-246 | E8.6.R1 | z2 | k2 | Cenk never takes risks. He always checks the weather, wears a helmet and listens to his guide. What does "takes risks" mean? | ✓does things that may be dangerous
+ing-u6-247 | E8.6.SI2 | z2 | k2 | Mia: I prefer skateboarding to canoeing. Which sentence has the same meaning? | ✓I would rather go skateboarding than canoein…
+ing-u6-248 | E8.6.R1 | z2 | k2 | Look at the poster. Kemal is 10 years old and he has 100 TL. What can he do at the event? | ✓Go ice skating and drink hot chocolate.
+ing-u6-249 | E8.6.SP1 | z2 | k2 | Deniz: Is bungee-jumping safer than hiking? Ayla: No. Bungee-jumping is - - - - than hiking. You can get hurt more easily. Which … | ✓more dangerous
+ing-u6-250 | E8.6.SI2 | z2 | k2 | Rüzgar: I would rather go rock climbing than play basketball. Lale: Why? Rüzgar: - - - - Which is the best reply for Rüzgar? | ✓Because I can try harder walls and learn new…
+ing-u6-251 | E8.6.R1 | z2 | k2 | Read the text. "Caving is not for everybody. It is dark, cold and sometimes wet. However, cavers say that it is the most fascinat… | ✓A guide always leads the way for cavers.
+ing-u6-252 | E8.6.R1 | z3 | k2 | Read Yusuf's blog. "Last summer my cousin Gül and I joined a kayaking course. I was excited, but Gül was afraid of deep water. Th… | ✓Gül liked the last day better than the other…
+ing-u6-253 | E8.6.SI2 | z3 | k2 | Look at the table. Which sentence is true according to the table? | ✓Tom prefers caving to hang-gliding because i…
+ing-u6-254 | E8.6.R1 | z3 | k2 | Irmak is 12 years old and has 150 TL. She does not want an activity on water, and she wants the most expensive one that she can j… | ✓Zipline
+ing-u6-255 | E8.6.L2 | z3 | k2 | Read the message from the camp leader. "Dear campers, the rafting trip is not on Friday now. Because the river is very high, we w… | ✓Take the bus at 8 and bring spare clothes.
+ing-u6-256 | E8.6.SI2 | z3 | k2 | Which sentence is NOT correct? | ✓I prefer rafting than kayaking.
+ing-u6-257 | E8.6.R1 | z3 | k2 | Read Mia's and Leo's messages. Mia: "I tried paragliding at Sun Valley last summer. It was more expensive than I expected, but th… | ✓Mia liked the view although the price was hi…
+ing-u6-258 | E8.6.SI1 | z3 | k2 | Cem: I have a ticket for the motor-racing finals. İpek: Really? Do you prefer motor-racing to football? Cem: - - - - Football is … | ✓Yes, I do. I find motor-racing more entertai…
+ing-u6-259 | E8.6.R1 | z3 | k2 | Look at the table. Which sentence is true according to the table? | ✓Hang-gliding is the least safe and the most …
+ing-u6-260 | E8.6.SP1 | z3 | k2 | Teenagers gave scores (out of 10) to three activities. Which sentence is true according to the table? | ✓Kayaking is as expensive as zipline.
+ing-u6-261 | E8.6.SI2 | z3 | k2 | Teacher: Would you rather do a team sport or an individual sport? Burcu: I'd rather do an individual sport than a team sport - - … | ✓because I can choose my own speed and goals
+ing-u6-262 | E8.6.R1 | z3 | k2 | Read the brochure. "Come to Green Lake Adventure Park! You can try canoeing, zip-lining and rock climbing. All guides are trained… | ✓What time the park opens
+ing-u6-263 | E8.6.L2 | z3 | k2 | Read the chat. Sude: Are we still going trekking tomorrow? Onur: The forecast says rain in the morning, so let's start at 2 p.m. … | ✓Meet at the lake car park at 2 p.m.
+ing-u6-264 | E8.6.W1 | z3 | k2 | I think trekking in the forest is more relaxing than walking in the city. - - - - . That is why I would rather trek than walk on … | ✓In the forest, I can hear the birds and nobo…
+ing-u6-265 | E8.6.R1 | z3 | k2 | Read the text. "Ayça was scared of heights. When she stood on the platform for the bungee jump, her heart beat fast and her legs … | ✓She thought it was scary but exciting.
+ing-u6-266 | E8.6.SI2 | z3 | k2 | Ece: Which do you prefer, canoeing or paragliding? Yiğit: I prefer canoeing to paragliding. I am afraid of heights, - - - - canoe… | ✓so
+ing-u6-267 | E8.6.SP1 | z3 | k2 | Look at the chart. Which sentence is true according to the chart? | ✓Paragliding costs more than all the other sp…
+ing-u6-268 | E8.6.R1 | z3 | k2 | Read the rules of a climbing wall. "Ages 8-11: only with an adult. Ages 12 and older: alone after the safety lesson. Everyone wea… | ✓Mira, 9, climbs with her father at 5 p.m.
+ing-u6-269 | E8.6.R1 | z3 | k2 | Read the text. "Many people think that motor-racing is only about speed. In fact, drivers need strong bodies and quick minds. A r… | ✓Motor-racing is more demanding than it seems.
+ing-u6-270 | E8.6.SI1 | z3 | k2 | Alp: I think rafting is more entertaining than canoeing. Elif: I don't think so. - - - - Which completes Elif's reply? | ✓I find canoeing more entertaining than rafti…
+ing-u6-271 | E8.6.W1 | z3 | k2 | The sentences of a short paragraph are mixed up. 1. However, it is more expensive because you have to rent skates. 2. I think ice… | ✓2 - 4 - 1 - 3
+ing-u6-272 | E8.6.R1 | z3 | k2 | Look at the information about two camps. Which sentence is true? | ✓Pine Forest Camp costs less and has a lower …
+ing-u6-273 | E8.6.L2 | z3 | k2 | Read the note from Aunt Selma. "Hi Tarık, I will pick you up from the canoe club at 5 p.m. on Thursday, not Wednesday. Your cousi… | ✓Aunt Selma will call Tarık if it rains.
+ing-u6-274 | E8.6.R1 | z3 | k2 | Read the clues. "It is not on water. It is less dangerous than hang-gliding, but it is more challenging than hiking. You need rop… | ✓rock climbing
+ing-u6-275 | E8.6.SI2 | z3 | k2 | Emre and Aslı are choosing an activity for Saturday. Emre says, "I would rather not go on water." Aslı says, "I prefer an activit… | ✓caving
+ing-u6-326 | E8.6.SI1 | z3 | k3 | Yusuf is afraid of deep water, but he loves speed on land. His friend Sinem is asking him about his weekend plans. Sinem: Which d… | ✓I prefer skateboarding to rafting because I …
+ing-u6-327 | E8.6.R1 | z3 | k3 | Here is the information board of an activity park. According to the board, which one is true? | ✓A 12-year-old can go rock climbing, but he c…
+ing-u6-328 | E8.6.W1 | z3 | k3 | Rock climbing needs strong arms and a lot of practice. Trekking only needs good shoes and a map. So, for a beginner, trekking is … | ✓less challenging than
+ing-u6-329 | E8.6.R1 | z3 | k3 | Read Irmak's blog. Last summer I tried scuba diving in Kaş. I waited for this day for months, and I wanted to see hundreds of col… | ✓She could not see many fish.
+ing-u6-330 | E8.6.SP1 | z3 | k3 | The chart shows the number of visitors to a zipline park on Sunday, by age group. Which sentence about the chart is true? | ✓The 14–17 group is smaller than the 10–13 gr…
+ing-u6-331 | E8.6.L2 | z3 | k3 | Read the message from Mr Kılıç, the leader of a school trip. Hello everyone! The zipline trip is on Sunday, not on Saturday, beca… | ✓Sports shoes and a lunch box
+ing-u6-332 | E8.6.SI2 | z3 | k3 | Read the dialogue. Naz: I would rather go ice skating than skiing. It is cheaper. Liam: You are right about the price, but I pref… | ✓They agree that skiing is more expensive.
+ing-u6-333 | E8.6.R1 | z3 | k3 | Read the brochure of a cave tour. LITTLE CAVE TOUR Our guide gives every visitor a helmet and a torch. Tours start every hour fro… | ✓The cave is cool all year.
+ing-u6-334 | E8.6.R1 | z3 | k3 | Read Arda's comparison of two water sports. I tried both last summer. Canoeing is slower but more comfortable because you sit on … | ✓Which sport is safer
+ing-u6-335 | E8.6.SI1 | z3 | k3 | Daniel is asking Maya about her first day at a zipline park. Daniel: Was it as exciting as you expected? Maya: - - - - Which one … | ✓Not really. It was too short, so it was disa…
+ing-u6-336 | E8.6.R1 | z3 | k3 | Here are the rules of a kayak centre. Which one is allowed according to the rules? | ✓An 11-year-old goes out with her father.
+ing-u6-337 | E8.6.SI2 | z3 | k3 | My sister would rather play chess than do bungee-jumping. Which sentence has the same meaning as the sentence above? | ✓My sister prefers playing chess to bungee-ju…
+ing-u6-338 | E8.6.SP1 | z3 | k3 | Arda and Cem are talking about two sports. Arda: I think skateboarding is - - - - dangerous - - - - ice skating. Cem: You are rig… | ✓more / than
+ing-u6-339 | E8.6.R1 | z3 | k3 | Read the notice at a paragliding school. SKYWING PARAGLIDING – WEATHER RULES We cancel the flight if the wind is stronger than 25… | ✓Neslihan, who has low clouds above the park …
+ing-u6-340 | E8.6.R1 | z3 | k3 | Read Oscar's message to his cousin. Tomorrow is the last day of the camp, and we can choose between motor-racing, bungee-jumping … | ✓Canoeing
+ing-u6-341 | E8.6.SI2 | z3 | k3 | Su is telling her friend why she likes canoeing. Su: I would rather go canoeing than go rafting, - - - - the lake is near my hous… | ✓because / so
+ing-u6-342 | E8.6.R1 | z3 | k3 | Here is a table about two air sports. Which sentence is true according to the table? | ✓Hang-gliding is more expensive than paraglid…
+ing-u6-343 | E8.6.SI1 | z3 | k3 | Hira is asking her cousin about her free-time activities. Hira: Why do you prefer trekking to motor-racing, Duygu? Duygu: - - - -… | ✓Because it is quieter and more relaxing.
+ing-u6-344 | E8.6.R1 | z3 | k3 | Read Tom's blog. Why I stopped bungee-jumping I jumped from a 40-metre bridge twice. The first time was fascinating, but the seco… | ✓He can control every step.
+ing-u6-345 | E8.6.L2 | z3 | k3 | Read the chat of two friends. Irmak: The kayaks are ready from 10.00. Berk: The bus leaves school at 9.20 and the trip takes 40 m… | ✓10.20
+ing-u6-346 | E8.6.W1 | z3 | k3 | Read the short paragraph. (1) Scuba diving is more expensive than rafting. (2) It is also more challenging, because you need spec… | ✓Sentence 4
+ing-u6-347 | E8.6.SP1 | z3 | k3 | A reporter is interviewing Nisa at a mountain camp. Reporter: - - - - Nisa: I would rather go ziplining than climb the mountain, … | ✓Would you rather climb the mountain or go zi…
+ing-u6-348 | E8.6.R1 | z3 | k3 | Read the text about a new skate park. The new skate park opened in March. Its track is 200 metres long, but the track of the old … | ✓The new park is more fun than the old one.
+ing-u6-349 | E8.6.SI2 | z3 | k3 | Read the dialogue. Ayşe: Do you prefer scuba diving to skiing, Berk? Berk: Honestly, I would rather go skiing than dive. Diving i… | ✓Skiing is cheaper.
+ing-u6-350 | E8.6.R1 | z3 | k3 | Look at the price list of an ice rink. How much does a student with a student card pay if he rents skates? | ✓50 TL
+ing-u6-351 | E8.6.L2 | z3 | k3 | Read the announcement. Attention, rafting team! The day is still Saturday. But instead of the school gate, we now meet at the bus… | ✓II and III
+ing-u6-352 | E8.6.SI1 | z3 | k3 | Which question and answer pair is correct? | ✓What do you prefer doing? – I prefer trekkin…
+ing-u6-353 | E8.6.R1 | z3 | k3 | Read the story. Kaan loves fast cars. On his twelfth birthday, his father took him to a go-kart track. At first he was scared bec… | ✓From scared to happy
+ing-u6-354 | E8.6.SI2 | z3 | k3 | Which sentence is NOT correct? | ✓Ryan prefers trekking than staying at home.
+ing-u6-355 | E8.6.R1 | z3 | k3 | Visitors rated three adventure parks. Which sentence is true according to the table? | ✓Red Lake is safer than Pine Hill.
+ing-u6-356 | E8.6.SI2 | z4 | k3 | Duru and Eren want to do an activity together. Read their messages and look at the table. Duru: I'd rather be outside than inside… | ✓Canoeing
+ing-u6-357 | E8.6.R1 | z4 | k3 | Read the camp programme and Liam's diary. Liam's diary Monday: I was a bit afraid, but canoeing was easier than I expected. Tuesd… | ✓Liam wants to go zipline again.
+ing-u6-358 | E8.6.SI2 | z4 | k3 | Ela, Fatih and Gaye choose one activity each from the table. Each person chooses a different one. Read what they say. Ela: I hate… | ✓Ela – paragliding, Fatih – caving, Gaye – ra…
+ing-u6-359 | E8.6.W1 | z4 | k3 | Read the paragraph. (1) Kayaking and rafting are two popular river sports. (2) In a kayak you sit alone or with one friend, but a… | ✓Sentence 5
+ing-u6-360 | E8.6.R1 | z4 | k3 | In a school survey, students chose their favourite sport. The table shows the results in percentages. Which of the following are … | ✓Only III
+ing-u6-361 | E8.6.SI2 | z4 | k3 | Read Zehra's message. I prefer kayaking to canoeing because it is faster. I would rather go with a friend than alone; it is safer… | ✓Only II
+ing-u6-362 | E8.6.SI2 | z4 | k3 | Gizem and Ryan are talking about water sports. Gizem: Why do you prefer canoeing to rafting? Rafting is more exciting. Ryan: It i… | ✓I am afraid of fast water, so canoeing is ca…
+ing-u6-363 | E8.6.SP1 | z4 | k3 | Teenagers gave points (1 = low, 5 = high) to four activities. Which sentence is true according to the table? | ✓Zipline is as exciting as scuba diving, but …
+ing-u6-364 | E8.6.R1 | z4 | k3 | Read the two reviews of the same adventure park. Kemal: Pine Valley Park was too crowded, and the zipline was disappointing. It l… | ✓The zipline was short.
+ing-u6-365 | E8.6.R1 | z4 | k3 | The chart shows the favourite sports of girls and boys in a school. Which sentence is true according to the chart? | ✓Rafting is the only sport that more girls th…
+ing-u6-366 | E8.6.R1 | z4 | k3 | Read Leyla's message to her cousin. I prefer trekking to cycling, but I would rather stay at home than go to the mountains on Sun… | ✓To the park in the city
+ing-u6-367 | E8.6.R1 | z4 | k3 | Read the sentences about prices. - Scuba diving is more expensive than zipline. - Trekking is cheaper than zipline. - Hang-glidin… | ✓Ice skating
+ing-u6-368 | E8.6.SI2 | z4 | k3 | Irem wants to convince her mother to let her go to the skate park instead of the shopping mall. Her mother is worried about safet… | ✓I would rather go skateboarding than go shop…
+ing-u6-369 | E8.6.R1 | z4 | k3 | Read the rule of a zipline park. If the wind is faster than 40 km/h, the long line is closed. If it is faster than 60 km/h, the w… | ✓Only Group Y can go.
+ing-u6-370 | E8.6.SI1 | z4 | k3 | The lines of a dialogue are mixed up. 1. Really? I would rather go to a quiet beach than spend my holiday under water. 2. I am th… | ✓2 – 4 – 3 – 1
+ing-u6-371 | E8.6.R1 | z4 | k3 | Look at the posters of two camps. Which sentence is true? | ✓Mountain Camp costs more per day than Lake C…
+ing-u6-372 | E8.6.SI2 | z4 | k3 | Tuğçe is asking Furkan about his paragliding trip. Tuğçe: Did you enjoy the trip? Furkan: Well, the view was - - - -, but the fli… | ✓fascinating / disappointed
+ing-u6-373 | E8.6.W1 | z4 | k3 | Mehmet is writing about his camp. He needs a conclusion sentence. Last summer I went to a camp and tried rafting, caving and hang… | ✓So, next summer I would rather go rafting th…
+ing-u6-374 | E8.6.L2 | z4 | k3 | Read the chat. Kaya: Shall we go trekking on Saturday morning? Sena: I'd rather go in the afternoon than in the morning. I have a… | ✓12.00
+ing-u6-375 | E8.6.SP1 | z4 | k3 | Mira and Tarkan are talking about two water sports. Mira: I think rafting is more exciting than canoeing. Tarkan: I don't agree. … | ✓In my opinion, canoeing is as exciting as ra…
+ing-u6-016 | E8.6.R1 | z1 | k0 | Tom: Let's go kayaking on Sunday morning. Emma: Sorry, I can't. I have a violin lesson at ten. Why can't Emma go kayaking on Sund… | ✓She has a music lesson.
+ing-u6-017 | E8.6.SI2 | z1 | k0 | Which sentence is correct? | ✓I would rather climb than skate.
+ing-u6-018 | E8.6.SP1 | z1 | k0 | Zehra's bike is old and heavy. Liam's bike is new and light. Liam rides to school in ten minutes, but Zehra needs twenty. Liam's … | ✓faster
+ing-u6-019 | E8.6.R1 | z1 | k0 | Sophie read a book about a desert in Africa. She learned amazing facts about its animals and plants, and she wanted to read more … | ✓fascinating
+ing-u6-020 | E8.6.SI1 | z1 | k0 | Arda: Which do you prefer, ice skating or skiing? Naz: - - - - Which completes the dialogue? | ✓I prefer skiing to ice skating.
+ing-u6-021 | E8.6.R1 | z1 | k0 | Read the note. "Dear Cem, the zipline park opens at 9 a.m. and closes at 5 p.m. Children under ten can't ride. Wear closed shoes.… | ✓Riders must wear closed shoes.
+ing-u6-022 | E8.6.SI2 | z1 | k0 | Yusuf: Shall we go rock climbing on Saturday? Irmak: I would rather watch a film at home than go rock climbing because I am afrai… | ✓heights
+ing-u6-023 | E8.6.W1 | z1 | k0 | Ravi is afraid of heights, - - - - he never goes bungee-jumping. Which word completes the sentence? | ✓so
+ing-u6-024 | E8.6.L2 | z1 | k0 | Read the note on the school board. "Hi Pınar, this is Volkan. The ice skating trip is on Friday, not Thursday. We will meet at th… | ✓at the school gate
+ing-u6-025 | E8.6.R1 | z1 | k0 | Look at the weekly plan of an adventure club. Which activity is on Wednesday? | ✓caving
+ing-u6-026 | E8.6.SI1 | z1 | k0 | Tara: I think bungee-jumping is the most exciting sport. Ahmet: - - - - I think it is too scary. Which completes the dialogue? | ✓I don't agree with you.
+ing-u6-027 | E8.6.R1 | z1 | k0 | Many people think ice skating is easy, but Sinem fell ten times on her first day. She now says it needs much more practice than s… | ✓It is harder than she expected.
+ing-u6-028 | E8.6.R1 | z2 | k0 | Lina wrote this in her holiday blog. "Last summer, my uncle took me scuba diving for the first time. At the beginning my hands we… | ✓She felt nervous.
+ing-u6-029 | E8.6.SI2 | z2 | k0 | Kemal: Why do you prefer ice skating to skiing? Anna: - - - - Which is the best answer? | ✓Because it is cheaper and closer to home.
+ing-u6-030 | E8.6.R1 | z2 | k0 | Look at the table of a nature club. Which sentence is true according to the table? | ✓Trekking is more expensive than cycling.
+ing-u6-031 | E8.6.SI1 | z2 | k0 | Gizem: I think rock climbing is more tiring than cycling. Hilal: - - - - I climbed for two hours and my arms still hurt. Which co… | ✓I agree. It makes my arms very tired.
+ing-u6-032 | E8.6.SP1 | z2 | k0 | One hour of ice skating costs 80 TL. One hour of skateboarding lessons costs 80 TL, too. So ice skating is - - - - skateboarding.… | ✓as expensive as
+ing-u6-033 | E8.6.W1 | z2 | k0 | Kemal wanted to go caving. - - - - , the cave was closed because of the heavy rain, so he went kayaking instead. Which word compl… | ✓However
+ing-u6-034 | E8.6.R1 | z2 | k0 | Read the text. "The Green Trail club organises a trekking day every month. Members walk about 12 km in the forest, and a guide te… | ✓the price of the trekking day
+ing-u6-035 | E8.6.SI2 | z2 | k0 | Which sentence means the same as "I prefer rafting to kayaking"? | ✓I would rather go rafting than kayaking.
+ing-u6-036 | E8.6.R1 | z2 | k0 | Derya trained for the skateboarding contest every day for six months, but she finished last. She felt very - - - - after the cont… | ✓disappointed
+ing-u6-037 | E8.6.L2 | z2 | k0 | Read the message that Oğuz left for his friend. "Hi Efe, the paragliding lesson starts at nine, not at ten. The instructor says w… | ✓a jacket
+ing-u6-038 | E8.6.R1 | z2 | k0 | Twenty students at a summer camp voted for their favourite activity. Which sentence is true according to the chart? | ✓More students chose zipline than trekking an…
+ing-u6-039 | E8.6.SI2 | z2 | k0 | Tara likes quiet places and hates crowds. Which sentence is most likely true about Tara? | ✓She prefers going caving with two friends to…
+ing-u6-040 | E8.6.SI1 | z2 | k0 | Rüya: Would you like to try scuba diving with us this summer? Cem: - - - - I never take risks. Which completes the dialogue? | ✓Sorry, I would rather not.
+ing-u6-041 | E8.6.R1 | z2 | k0 | Here is a poster at a lake. According to the poster, which one is true? | ✓Life jackets are given free of charge.
+ing-u6-042 | E8.6.W1 | z2 | k0 | Sophie is writing about two sports. "Canoeing is slow and quiet, but it is not dangerous. Motor-racing is fast and loud. I think … | ✓less dangerous than
+ing-u6-043 | E8.6.R1 | z2 | k0 | Read Arda's message to his friend. "Hi Baran! Thanks for inviting me to the rafting day. Unfortunately, I would rather not come. … | ✓He can't swim well.
+ing-u6-044 | E8.6.SI2 | z2 | k0 | Liam: Shall we go paragliding on Saturday? Zehra: Not really. I would rather - - - - than fly above the hills. Which completes Ze… | ✓go to the cinema
+ing-u6-045 | E8.6.SP1 | z2 | k0 | A cycling lesson costs 100 TL, but a paragliding flight costs 900 TL. Ravi: Is cycling as expensive as paragliding? Pınar: Of cou… | ✓much less
+ing-u6-046 | E8.6.R1 | z2 | k0 | Read Kerim's e-mail to his friend Aslı. "Dear Aslı, I'm back from the mountain camp. I thought archery would be boring, but I was… | ✓It was disappointing.
+ing-u6-047 | E8.6.L2 | z2 | k0 | Read the message that Elif sends to her team. "Team, our canoeing trip is cancelled on Saturday because of the storm. The new dat… | ✓tell Mark the new date
+ing-u6-048 | E8.6.R1 | z3 | k0 | Lina's 11-year-old sister wants to book one of the activities in the table. Their money limit is 160 TL and she has only two hour… | ✓Rock climbing
+ing-u6-049 | E8.6.SI2 | z3 | k0 | Efe: Which do you prefer, motor-racing or ice skating, Irmak? Irmak: - - - - It is less dangerous, and I can do it with my friend… | ✓I prefer ice skating to motor-racing.
+ing-u6-050 | E8.6.R1 | z3 | k0 | Read the blog post. "My brother Kaya and I disagree about hobbies. He thinks skateboarding is more entertaining than ice skating … | ✓Ice skating is safer than skateboarding.
+ing-u6-051 | E8.6.SI1 | z3 | k0 | Yusuf jumped from a 50-metre bridge last summer and wants to jump again. Reporter: What do you think about bungee-jumping? Yusuf:… | ✓I think it is fascinating, and I want to jum…
+ing-u6-052 | E8.6.R1 | z3 | k0 | Read the safety rules of a caving park. "1. Everyone must wear a helmet. 2. Take two torches, because one may stop working. 3. Be… | ✓Every visitor needs a helmet and more than o…
+ing-u6-053 | E8.6.SP1 | z3 | k0 | Students gave points (1 = low, 5 = high) to three activities. Which sentence is true according to the table? | ✓Rock climbing is more challenging than zipli…
+ing-u6-054 | E8.6.SI2 | z3 | k0 | Oğuz and his friend Cansu are choosing between hang-gliding and skateboarding. Oğuz is afraid of heights and hates spending money… | ✓He prefers skateboarding to hang-gliding bec…
+ing-u6-055 | E8.6.R1 | z3 | k0 | Read Hilal's diary. "Saturday. Today we went zip-lining for the first time. At the top, my legs were shaking, but our instructor,… | ✓The instructor checked Hilal's belt more tha…
+ing-u6-056 | E8.6.W1 | z3 | k0 | Scuba diving needs expensive equipment and a trained instructor. Swimming only needs a swimsuit and a pool. - - - - . Which sente… | ✓So scuba diving is more expensive than swimm…
+ing-u6-057 | E8.6.L2 | z3 | k0 | Read the message from the club leader. "Hi everyone! Our caving day is moved to Sunday because it will rain a lot on Saturday. Me… | ✓a jacket and 50 TL
+ing-u6-058 | E8.6.R1 | z3 | k0 | Read the text. "The first skateboards were simple wooden boards with roller-skate wheels. Surfers in California made them in the … | ✓Because surfers wanted to ride on land when …
+ing-u6-059 | E8.6.SI2 | z3 | k0 | Ahmet has saved 2,000 TL this year. His cousin wants to buy a new phone with her money, but Ahmet thinks differently. He says, "I… | ✓He prefers spending his savings on a trip to…
+ing-u6-060 | E8.6.R1 | z3 | k0 | Forty students gave feedback about four camp activities. Which sentence is true according to the table? | ✓Archery was liked by the fewest students and…
+ing-u6-061 | E8.6.SI1 | z3 | k0 | Jake: I want to try hang-gliding, but it looks scary. Selma: Don't worry. - - - - Which completes the dialogue? | ✓Beginners always fly with an instructor.
+ing-u6-062 | E8.6.R1 | z3 | k0 | Read the teacher's note. "Class 8B went to Adventure Valley yesterday. The students first tried the zip line. Most of them though… | ✓Sevgi preferred archery to the zip line.
+ing-u6-063 | E8.6.SI2 | z3 | k0 | Derya says, "I'd rather go caving than rafting. If caving is cancelled, I would rather go trekking than rafting." What is Derya's… | ✓trekking
+ing-u6-064 | E8.6.R1 | z4 | k0 | The Yıldız family has two adults, a 12-year-old girl and a 7-year-old boy. They have 1,000 TL in total. Everybody must join the s… | ✓Lake Camp
+ing-u6-065 | E8.6.SI2 | z4 | k0 | Baran is a careful boy who never takes risks. Selma: Which do you prefer, ice climbing or skiing? Baran: I (1) - - - - skiing (2)… | ✓(1) prefer (2) to (3) less
+ing-u6-066 | E8.6.W1 | z4 | k0 | Read the paragraph. (I) Cycling and swimming are both good summer sports. (II) Swimming is less tiring for the legs than cycling,… | ✓Sentence III
+ing-u6-067 | E8.6.R1 | z4 | k0 | Read the two reviews of Cloud Valley Zipline Park. Hira: "The zipline was longer than I expected, and the view was fascinating. H… | ✓the fascinating view
+ing-u6-068 | E8.6.R1 | z4 | k0 | The table shows the favourite sports of 50 younger and 50 older students. Which sentence is NOT true according to the table? | ✓Hang-gliding is more popular among the older…
+ing-u6-069 | E8.6.SI2 | z4 | k0 | Sinem says: "I prefer kayaking to rafting. I would rather go rafting than go caving. I like ice skating less than caving." Which … | ✓kayaking – rafting – caving – ice skating
+ing-u6-070 | E8.6.L2 | z4 | k0 | Read the voice message that Mark left for Duru. "Hi Duru, it's Mark. The plan has changed again. The kayaking trip is not at the … | ✓The price is lower because the river is clos…
+ing-u6-071 | E8.6.R1 | z4 | k0 | Read the text. "Many parents think motor-racing is too dangerous for teenagers. Young drivers usually start with small go-karts o… | ✓Young racers have protection, but accidents …
+ing-u6-072 | E8.6.SI1 | z4 | k0 | Volkan: I think zip-lining is less dangerous than skateboarding. Elif: - - - - Falling from a zip line is rare, but skaters fall … | ✓I agree. Skateboarders fall more often.
+ing-u6-073 | E8.6.R1 | z4 | k0 | Read the e-mail from a camp organiser. "Dear parents, because of the heavy rain this week, we had to change the programme. The ra… | ✓make a film about the camp
+ing-u6-074 | E8.6.W1 | z4 | k0 | The sentences about Naz are mixed up. 1. However, she changed her mind after her first visit to a cave. 2. At first, Naz thought … | ✓2 – 1 – 4 – 3
+ing-u6-075 | E8.6.SI2 | z4 | k0 | Three friends are at an adventure park. They can do bungee-jumping, rafting or caving. Cansu: I'd rather go rafting than go cavin… | ✓Anna would rather watch her friends than go …
