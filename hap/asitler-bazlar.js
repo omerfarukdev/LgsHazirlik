@@ -86,7 +86,7 @@ window.LGS_HAP["asitler-bazlar"] = {
         "**Etiketi oku:** kullanım ve önlemler orada yazar.",
         "**Karıştırma:** Çamaşır suyu (baz) ile kireç çözücüyü (asit) **birlikte kullanma**; zehirli gaz çıkabilir.",
         "**pH ve uyarı etiketi:** pH'ı 7'den çok uzak ürünler (yaklaşık 0-2 ya da 12-14) güçlü asit ya da güçlü bazdır; cilde, göze ve kumaşa zarar verir. Eldiven, gözlük ve havalandırma uyarısı bu ürünlerde beklenir.",
-        "**Eldiven ve gözlük** tak; **pencereyi aç**, kabı koklama.",
+        "**Eldiven ve gözlük** tak; **pencereyi aç**, kabı koklama. Ürünün buharı solunum yollarını tahriş edebilir. Göze ya da cilde sıçrarsa **hemen bol suyla yıka**; kuvvetli asit de kuvvetli baz da aynı önlemi gerektirir.",
         "**Saklama:** Ürünü kendi etiketli kabında, çocukların ulaşamayacağı yerde tut; içecek şişesine koyma, çünkü başkası içebilir."
       ],
       dikkat: [

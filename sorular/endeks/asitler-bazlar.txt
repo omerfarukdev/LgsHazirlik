@@ -88,3 +88,213 @@ fen-ab-012 | F.8.4.4.5 | z3 | k0 | Bir fen öğretmeni asit ve bazların etkiler
 fen-ab-013 | F.8.4.4.7 | z4 | k0 | Bir gölün farklı yerlerinden alınan su örneklerinin pH değerleri aşağıdaki tabloda verilmiştir. Gölde yaşayan X balık türü pH değ… | ✓Yalnız D
 fen-ab-014 | F.8.4.4.6 | z4 | k0 | Bir temizlik ürünleri tablosunda üç ürünün pH değerleri ve etiket uyarıları verilmiştir. Aylin, banyoda iki ürünü aynı kovada kar… | ✓K ile L karıştırılmamalıdır; etiket uyarılar…
 fen-ab-015 | F.8.4.4.7 | z4 | k0 | Bir şehirde mermer yapılar aşınmakta, göllerin suyu giderek asitlenmektedir. Bilim insanları bu durumun nedeninin, fosil yakıtlar… | ✓Enerji tasarrufu yapıp fosil yakıt kullanımı…
+fen-ab-126 | F.8.4.4.1 | z1 | k1 | Aşağıdakilerden hangisi bazlar için söylenemez? | ✓Mavi turnusol kâğıdını kırmızıya çevirir
+fen-ab-127 | F.8.4.4.4 | z1 | k1 | Aşağıdaki maddelerin sulu çözeltilerinden hangisinin pH değerinin 7'den büyük çıkması beklenir? | ✓Sabun
+fen-ab-128 | F.8.4.4.2 | z1 | k1 | Aşağıdakilerden hangisi mide özsuyuyla aynı grupta (asit – baz sınıflamasında) yer alır? | ✓Ayran
+fen-ab-129 | F.8.4.4.3 | z1 | k1 | Mor renkli kırmızı lahana suyu bir sıvıya damlatılıyor ve karışımın rengi mor kalıyor. Bu sıvı için aşağıdakilerden hangisi söyle… | ✓Nötrdür; pH değeri 7'dir
+fen-ab-130 | F.8.4.4.3 | z1 | k1 | Kırmızı lahana suyu bir sıvıya damlatıldığında karışım mavimsi yeşil renk alıyor. Bu sıvı için aşağıdakilerden hangisi söylenir? | ✓Baz özelliği gösterir
+fen-ab-131 | F.8.4.4.4 | z1 | k1 | Bir asit çözeltisinin pH değeri 6'dan 2'ye düşürülüyor. Bu çözeltinin asitliği için aşağıdakilerden hangisi söylenir? | ✓Artar
+fen-ab-132 | F.8.4.4.6 | z1 | k1 | Bir temizlik ürününü ilk kez kullanacak kişi önce aşağıdakilerden hangisini yapmalıdır? | ✓Üzerindeki etiketi okumak
+fen-ab-133 | F.8.4.4.1 | z1 | k1 | Kırmızı turnusol kâğıdı bir asit çözeltisine batırılıyor. Kâğıdın rengi için aşağıdakilerden hangisi söylenir? | ✓Kırmızı renkte hiç değişmeden kalır
+fen-ab-134 | F.8.4.4.5 | z1 | k1 | Yemek yerken tişörtüne yağ damlatan Barış, lekeyi çıkarmak için aşağıdaki sıvılardan birini kullanacaktır. Yağ lekesini en iyi çö… | ✓Deterjanlı su
+fen-ab-135 | F.8.4.4.4 | z1 | k1 | pH değeri 5 olan bir çözeltiyle ilgili aşağıdakilerden hangisi doğrudur? | ✓Mavi turnusolu kırmızıya çevirir
+fen-ab-136 | F.8.4.4.5 | z1 | k1 | Pamuklu bir kumaşın üzerine kuvvetli bir asit çözeltisi damlıyor. Bir süre sonra kumaşta aşağıdakilerden hangisi gözlenir? | ✓Kumaş incelir ve delinir
+fen-ab-137 | F.8.4.4.2 | z1 | k1 | Bir çiftçi, toprağının asitliğini azaltmak için toprağa baz özellikli bir madde katacaktır. Bunun için aşağıdakilerden hangisi ku… | ✓Kireç
+fen-ab-138 | F.8.4.4.3 | z1 | k1 | Demli çayın bulunduğu bardağa bir sıvı damlatılınca çayın rengi açılıyor. Damlatılan sıvı için aşağıdakilerden hangisi söylenir? | ✓Asit özelliği gösterir
+fen-ab-139 | F.8.4.4.4 | z1 | k1 | Saf suyun pH değeri aşağıdakilerden hangisidir? | ✓7
+fen-ab-140 | F.8.4.4.6 | z1 | k1 | Bir kişi, kireç çözücüyü boş bir meşrubat şişesine aktarıp mutfak masasında bırakıyor. Bu davranışın en büyük riski aşağıdakilerd… | ✓Başkasının içecek sanıp içmesi
+fen-ab-141 | F.8.4.4.7 | z1 | k1 | Asit yağmurlarını azaltmak için aşağıdakilerden hangisi yapılabilir? | ✓Bacalara gaz tutucu filtre takmak
+fen-ab-142 | F.8.4.4.1 | z1 | k1 | Bir asit çözeltisini bir baz çözeltisinden ayırt etmek için aşağıdakilerden hangisi kullanılamaz? | ✓Elektrik iletkenliğine bakmak
+fen-ab-143 | F.8.4.4.4 | z1 | k1 | Dört çözeltinin pH değerleri 2, 4, 6 ve 9'dur. Bu çözeltilerden hangisi kırmızı turnusolu maviye çevirir? | ✓pH değeri 9 olan
+fen-ab-144 | F.8.4.4.6 | z1 | k1 | Etiketinde pH değeri 13 yazan bir gider açıcı kullanılacaktır. Bu sırada aşağıdaki önlemlerden hangisi alınmalıdır? | ✓Eldiven takıp pencereyi açmak
+fen-ab-145 | F.8.4.4.2 | z1 | k1 | Aşağıdakilerden hangisi asit de baz da değildir, nötrdür? | ✓Saf su
+fen-ab-146 | F.8.4.4.3 | z1 | k1 | Bir çözeltiye batırılan pH kâğıdı bir renk alıyor. Bu kâğıdın rengine bakılarak çözeltinin aşağıdakilerden hangisi belirlenir? | ✓pH değeri
+fen-ab-147 | F.8.4.4.7 | z1 | k1 | Aşağıdakilerden hangisi havaya kükürt ve azot oksitleri karıştırmaz? | ✓Rüzgâr enerjisi santrali
+fen-ab-148 | F.8.4.4.7 | z1 | k1 | Aşağıdakilerden hangisi asit yağmurlarının sonuçlarından biridir? | ✓Mermer heykelin yüzeyinin aşınması
+fen-ab-149 | F.8.4.4.1 | z1 | k1 | Tadı acı olan ve ele kayganlık hissi veren bir sıvı veriliyor. Bu sıvı turnusol kâğıtlarını nasıl etkiler? | ✓Kırmızı turnusolu maviye çevirir
+fen-ab-150 | F.8.4.4.3 | z2 | k1 | Kırmızı lahana suyu, asit ortamda kırmızı, nötr ortamda mor, baz ortamda mavimsi yeşil renk alır. Üç sıvıya lahana suyu damlatıld… | ✓L, K, M
+fen-ab-151 | F.8.4.4.4 | z2 | k1 | Aşağıdaki pH ölçeğinde K, L, M ve N maddelerinin yerleri gösterilmiştir. Bu maddelerden hangisi mavi turnusol kâğıdını kırmızıya … | ✓K
+fen-ab-152 | F.8.4.4.5 | z2 | k1 | Aynı asit çözeltisinin bulunduğu iki tüpten birine magnezyum şerit, diğerine altın yüzük bırakılıyor. Magnezyum şeritten gaz kaba… | ✓Asitte gaz çıkışı vermeyen en az bir metal v…
+fen-ab-153 | F.8.4.4.1 | z2 | k1 | Asit ve bazların genel özellikleriyle ilgili aşağıdaki ifadeler veriliyor. I. Bazların sulu çözeltileri kırmızı turnusolu maviye … | ✓I ve III
+fen-ab-154 | F.8.4.4.3 | z2 | k1 | Bir öğrenci X sıvısına zerdeçal kâğıdını ve mavi turnusol kâğıdını ayrı ayrı batırıyor. Zerdeçal kâğıdı sarı kalıyor, mavi turnus… | ✓Nötr özelliktedir
+fen-ab-155 | F.8.4.4.6 | z2 | k1 | Fatma Hanım evdeki üç temizlik ürününü saklayacaktır. Aşağıdakilerden hangisi doğru saklama biçimidir? | ✓Etiketli kaplarında, çocukların ulaşamayacağ…
+fen-ab-156 | F.8.4.4.7 | z2 | k1 | Bir ilçede kömür kullanımının yıllara göre azaltıldığı ve yağmur suyunun pH değerinin ölçüldüğü tablo verilmiştir. Bu verilere gö… | ✓Kömür tüketimi azaldıkça yağmurun asitliği a…
+fen-ab-157 | F.8.4.4.2 | z2 | k1 | Ceren, ayran, kabartma tozu, portakal suyu ve diş macunu maddelerini asit ve baz olarak iki gruba ayıracaktır. Doğru gruplama aşa… | ✓Asit: ayran, portakal suyu — Baz: kabartma t…
+fen-ab-158 | F.8.4.4.4 | z2 | k1 | K, L ve M çözeltilerinin pH değerleri tabloda verilmiştir. I. K çözeltisi kırmızı turnusolu maviye çevirir. II. L çözeltisi turnu… | ✓Yalnız II
+fen-ab-159 | F.8.4.4.4 | z2 | k1 | Bir mutfakta beş sıvının pH değerleri ölçülerek tabloya yazılmıştır. Bu sıvılardan kaç tanesi mavi turnusolu kırmızıya çevirir? | ✓4
+fen-ab-160 | F.8.4.4.5 | z2 | k1 | Fen kulübünde üç tüpe birer damla zeytinyağı konuyor. Tüplere tabloda yazılı sıvılar ekleniyor ve tüpler çalkalanıyor. Sonuçlar t… | ✓Yağı çözen iki sıvı da baz özelliğindedir
+fen-ab-161 | F.8.4.4.3 | z2 | k1 | Bir bardak demli çaya K sıvısı damlatıldığında çayın rengi koyulaşıyor. Aynı K sıvısına bu kez kırmızı lahana suyu damlatılıyor. … | ✓Mavimsi yeşil
+fen-ab-162 | F.8.4.4.7 | z2 | k1 | Aşağıdakilerden hangisi asit yağmurlarını kaynağında önleyen bir çözümdür? | ✓Toplu taşıma kullanımını yaygınlaştırmak
+fen-ab-163 | F.8.4.4.2 | z2 | k1 | Günlük hayattaki maddelerle ilgili aşağıdaki ifadeler veriliyor. I. Yoğurt baz özelliği gösterir. II. Diş macunu baz özelliği gös… | ✓II ve III
+fen-ab-164 | F.8.4.4.5 | z2 | k1 | Mermer bir zemini temizleyecek olan Hülya, mermere zarar vermeyecek bir temizleyici seçmek istiyor. Aşağıdakilerden hangisi merme… | ✓Sirkeli su
+fen-ab-165 | F.8.4.4.4 | z2 | k1 | Dört sıvının pH değerleri tabloda verilmiştir. Bu tabloya göre aşağıdaki yargılardan hangisi doğrudur? | ✓Yalnızca kabartma tozu çözeltisi kırmızı tur…
+fen-ab-166 | F.8.4.4.7 | z2 | k1 | Bir dağ eteğindeki çam ormanında ağaçların yaprakları sararıyor ve toprağın pH değerinin 7'den 4,5'e düştüğü görülüyor. Bu durumu… | ✓Fosil yakıt kaynaklı kükürt ve azot oksitleri
+fen-ab-167 | F.8.4.4.5 | z2 | k1 | Asit ve bazların maddeler üzerindeki etkileriyle ilgili aşağıdaki yargılar veriliyor. I. Asit çözeltileri bütün metallerle tepkim… | ✓Yalnız III
+fen-ab-168 | F.8.4.4.3 | z2 | k1 | Bir öğrenci, Z ayracının asit, nötr ve baz ortamlardaki renklerini tabloda gösteriyor. Daha sonra K sıvısına Z ayracını damlatıyo… | ✓Asit ya da nötr özelliktedir
+fen-ab-169 | F.8.4.4.5 | z2 | k1 | Plastik bir kapta bekletilen sirkenin kapta herhangi bir değişikliğe yol açmadığı görülüyor. Bu gözlem için aşağıdakilerden hangi… | ✓Plastik asitten etkilenmez; bu sirkenin asit…
+fen-ab-170 | F.8.4.4.5 | z2 | k1 | Aşağıdaki gözlemlerden hangisi bir sıvının baz özelliği gösterdiğini destekler? | ✓Lahana suyunun mavimsi yeşile dönmesi
+fen-ab-171 | F.8.4.4.1 | z2 | k1 | Dört öğrenci asit ve bazlarla ilgili birer cümle söylüyor. Ada: “Asitlerin tadı ekşidir.” Bora: “Bazlar mavi turnusolu kırmızıya … | ✓Ada
+fen-ab-172 | F.8.4.4.7 | z2 | k1 | Asit yağmurlarıyla ilgili aşağıdaki yargılar veriliyor. I. Fosil yakıtların yanmasıyla havaya karışan gazlar yağmur suyuyla birle… | ✓I ve II
+fen-ab-173 | F.8.4.4.7 | z2 | k1 | Kömürlü ısınmanın yaygın olduğu bir kentte, kışın yağan yağmurun pH değeri 4,6; yazın yağan yağmurun pH değeri 5,8 ölçülüyor. Bu … | ✓Kışın ısınmak için yakılan kömür miktarının …
+fen-ab-174 | F.8.4.4.4 | z2 | k1 | K, L, M ve N çözeltilerinin pH değerleri sırasıyla 5, 9, 2 ve 7 olarak ölçülmüştür. Bu çözeltiler asitlik özelliği en fazla oland… | ✓M, K, N, L
+fen-ab-175 | F.8.4.4.6 | z2 | k1 | Banyo temizliği yapan Mert, elindeki iki farklı temizlik ürününü aynı kovada karıştırırsa temizliğin daha etkili olacağını düşünü… | ✓Tehlikelidir; zehirli gaz çıkabilir, ürünler…
+fen-ab-226 | F.8.4.4.2 | z2 | k2 | Hakan, ailesiyle çıktığı pikniğe ayran ve kola götürüyor. Yemekten sonra elindeki yağı da sabunlu suyla temizliyor. Hakan'ın kull… | ✓Ayran ve kola asit, sabun baz özelliği göste…
+fen-ab-227 | F.8.4.4.1 | z2 | k2 | Bir fen kulübü etkinliğinde iki renksiz çözelti inceleniyor. K çözeltisi eldivenli elde kayganlık hissi veriyor ve yağlı bir taba… | ✓K baz, L asit özelliği gösterir
+fen-ab-228 | F.8.4.4.4 | z2 | k2 | Aşağıdaki pH ölçeğinde dört maddenin yeri işaretlenmiştir. Bu ölçeğe göre aşağıdakilerden hangisi doğrudur? | ✓L, K'den daha zayıf asittir
+fen-ab-229 | F.8.4.4.3 | z2 | k2 | Bir öğrenci renksiz bir sıvıya zerdeçal çözeltisi damlatıyor ve rengin sarı kaldığını görüyor. Aynı sıvıdan alıp kırmızı lahana s… | ✓pH değeri 7'dir
+fen-ab-230 | F.8.4.4.4 | z2 | k2 | Bir kafede sunulan dört içeceğin pH değerleri tabloda verilmiştir. Bu içeceklerden hangisi asit özelliği gösterir ve asitliği en … | ✓Süt
+fen-ab-231 | F.8.4.4.5 | z2 | k2 | Ali, aynı boyuttaki bir çinko parçasını ve bir altın yüzüğü, aynı asit çözeltisi dolu iki ayrı tüpe atıyor. Çinko dolu tüpte gaz … | ✓Asit, çinkoyla tepkimeye girerken altınla gi…
+fen-ab-232 | F.8.4.4.6 | z2 | k2 | Eda, aldığı gider açıcının etiketinde "Cilde ve gözle temas ettirmeyiniz. Çocukların ulaşamayacağı yerde saklayınız." uyarısını g… | ✓Eldivenle kullanıp etiketli kabını çocuklard…
+fen-ab-233 | F.8.4.4.7 | z2 | k2 | Bir okulun çevre kulübü, asit yağmurlarına yol açan gazların havaya salımını azaltmak için öğrencilere bir davranış önerisi hazır… | ✓Kısa yolculuklarda yürümeyi seçmek
+fen-ab-234 | F.8.4.4.4 | z2 | k2 | Dört sıvının pH değerleri çubuk grafikte gösterilmiştir. Bu sıvılardan kaç tanesi mavi turnusol kâğıdını kırmızıya çevirir? | ✓1
+fen-ab-235 | F.8.4.4.3 | z2 | k2 | Bir öğrenci, K, L ve M sıvılarına ayrı ayrı pH kâğıdı batırıyor. Kâğıt K'de turuncu, L'de mavi, M'de mor renk alıyor. Kâğıdın ren… | ✓M, L'den daha kuvvetli baz özelliği gösterir
+fen-ab-236 | F.8.4.4.1 | z2 | k2 | Fen kulübünde öğrenciler asit ve bazlarla ilgili aşağıdaki yargıları yazmıştır. I. Asit ve baz çözeltilerinin hiçbiri elektrik ak… | ✓II ve III
+fen-ab-237 | F.8.4.4.6 | z2 | k2 | Etiketinde "kuvvetli asit içerir" yazan bir tuvalet temizleyicisi kullanılacaktır. I. Kullanırken eldiven ve gözlük takılmalıdır.… | ✓I ve III
+fen-ab-238 | F.8.4.4.4 | z2 | k2 | X, Y ve Z çözeltilerinin pH değerleri sırasıyla 2, 7 ve 11'dir. I. X çözeltisi kırmızı turnusolu maviye çevirir. II. Y çözeltisi … | ✓Yalnız II
+fen-ab-239 | F.8.4.4.7 | z2 | k2 | Bir çevre dersinde asit yağmurlarıyla ilgili aşağıdaki yargılar yazılıyor. I. Asit yağmurları yalnızca doğal olaylardan kaynaklan… | ✓Yalnız III
+fen-ab-240 | F.8.4.4.2 | z2 | k2 | Mutfakta bulunan şu altı maddeden bazıları baz özelliği gösterir: turşu suyu, ayran, sabunlu su, diş macunu, kola ve kabartma toz… | ✓3
+fen-ab-241 | F.8.4.4.5 | z2 | k2 | Zeynep, yağlı bir tavayı temizlemek için pH değerleri tabloda verilen K, L, M ve N çözeltilerinden birini kullanacaktır. Zeynep'i… | ✓L
+fen-ab-242 | F.8.4.4.7 | z2 | k2 | Bir çevre mühendisi, bir ilçedeki enerji kullanım yöntemlerini asit yağmurlarına yol açan gazlar açısından inceliyor. Aşağıdaki y… | ✓Rüzgâr türbinleriyle elektrik üretimi
+fen-ab-243 | F.8.4.4.4 | z2 | k2 | Fen dersinde öğretmen tahtaya portakal suyu, saf su ve çamaşır suyu yazıp öğrencilerden bu üç maddeyi pH değerlerine göre sıralam… | ✓Portakal suyu < saf su < çamaşır suyu
+fen-ab-244 | F.8.4.4.5 | z2 | k2 | Bir öğrenci mermer bir parçayı renksiz bir sıvıya batırıp on dakika bekliyor ve parçanın yüzeyinde köpürme ya da aşınma gözlemiyo… | ✓Sıvı asit değildir, baz ya da nötr olabilir
+fen-ab-245 | F.8.4.4.6 | z2 | k2 | Okulun temizlik görevlisi, banyolarda kullanılacak güçlü bir temizleyiciyle çalışmaya başlıyor. Ürünün etiketinde kullanım önleml… | ✓Kokusu yayılmasın diye pencereyi kapalı tutm…
+fen-ab-246 | F.8.4.4.7 | z2 | k2 | Bir şehirde yağmur suyunun asitleşmesi sorun olmuştur. Belediye çözüm önerilerini kaynağında önleme ve zararı sonradan giderme ol… | ✓Bacalara gaz tutucu filtre takmak
+fen-ab-247 | F.8.4.4.3 | z2 | k2 | Bir öğrenci, bir bitki özütünün asit, nötr ve baz ortamlarında aldığı renkleri tabloya yazıyor. Daha sonra renksiz bir sıvıya bu … | ✓Mavi turnusolu kırmızıya çevirir; pH değeri …
+fen-ab-248 | F.8.4.4.1 | z2 | k2 | Fen laboratuvarında bir öğrenci, içinde ne olduğu bilinmeyen renksiz bir sıvının asit mi baz mı olduğunu anlamak istiyor. Bu öğre… | ✓Turnusol kâğıdının rengindeki değişime bakmak
+fen-ab-249 | F.8.4.4.2 | z2 | k2 | Nilay, mutfaktaki dört renksiz sıvıyı asit, baz ve nötr gruplarına ayırmak için mavi ve kırmızı turnusol kâğıdıyla deniyor. Gözle… | ✓Şekerli su
+fen-ab-250 | F.8.4.4.3 | z2 | k2 | Tabloda iki ayracın asit, nötr ve baz ortamlarında aldığı renkler verilmiştir. Renksiz bir sıvıya kırmızı lahana suyu damlatıldığ… | ✓Kırmızımsı kahverengi
+fen-ab-251 | F.8.4.4.5 | z2 | k2 | Bir öğrenci aynı asit çözeltisinden dört tüpe eşit miktarda koyup tüplere magnezyum şerit, mermer, cam ve plastik parçalar atıyor… | ✓Magnezyum ve mermer asitle tepkime verirken …
+fen-ab-252 | F.8.4.4.4 | z3 | k2 | Dört sıvının pH değerleri çubuk grafikte verilmiştir. I. Süt, portakal suyundan daha kuvvetli asittir. II. Süt ve saf su, kırmızı… | ✓II ve III
+fen-ab-253 | F.8.4.4.7 | z3 | k2 | Bir kasabadaki yağmur suyunun pH değeri yıllar boyunca ölçülmüş ve kasabanın elektriğinin kömürle çalışan santralden gelen payıyl… | ✓Kömür payı azaldıkça yağmurun asitliği azalm…
+fen-ab-254 | F.8.4.4.1 | z3 | k2 | Fen kulübü sunumunda asit ve bazlarla ilgili üç yargı tahtaya yazılmıştır. I. Hiçbir sıvının tadına bakılarak asit ya da baz oldu… | ✓I ve II
+fen-ab-255 | F.8.4.4.5 | z3 | k2 | Bir öğrenci, etiketsiz K, L ve M sıvılarından üçer örnek alıyor. Örneklere ayrı ayrı çinko parçası, mermer parçası ve yağlı bez d… | ✓Asit - baz - nötr
+fen-ab-256 | F.8.4.4.3 | z3 | k2 | Bir öğrenci, K, L ve M sıvılarından aldığı örneklere ayrı ayrı demli çay ve zerdeçal çözeltisi ekliyor. Çay; asitte rengi açılan,… | ✓Çay, K ile M'yi birbirinden ayırt edebilir
+fen-ab-257 | F.8.4.4.6 | z3 | k2 | Eliz'in ailesi, pH değeri 1 olan bir tuvalet temizleyicisi ile pH değeri 13 olan bir gider açıcı satın alıyor. İki ürünün etiketi… | ✓Eldivenle ayrı ayrı kullanmak; etiketli kapl…
+fen-ab-258 | F.8.4.4.7 | z3 | k2 | Termik santralin bulunduğu bir ilçede yağmur suyunun pH değeri 4,4 ölçülmüş ve belediye, asit yağmurlarını azaltmak için üç öneri… | ✓Yalnız II
+fen-ab-259 | F.8.4.4.2 | z3 | k2 | Eda, mutfağından ve banyosundan topladığı maddeleri üç kutuya yerleştirmiştir. 1. kutu (asit): portakal suyu, turşu suyu, kola 2.… | ✓Mandalina suyu
+fen-ab-260 | F.8.4.4.3 | z3 | k2 | Bir öğrenciye, birisi asit, birisi baz, birisi nötr olan üç renksiz sıvı veriliyor. Öğrenci her sıvıdan aldığı örnekte yalnızca t… | ✓Kırmızı lahana suyu
+fen-ab-261 | F.8.4.4.4 | z3 | k2 | Bir öğrenci, evdeki beş maddenin pH değerlerini ölçüp tabloya yazmıştır. I. Tuvalet temizleyici, portakal suyundan daha kuvvetli … | ✓Yalnız I
+fen-ab-262 | F.8.4.4.5 | z3 | k2 | Bir temizlik şirketi, pH değeri 1 olan güçlü bir temizleyiciyle çalışmaya başlamadan önce yüzeylerin bu ürüne dayanıklılığını inc… | ✓I ve III
+fen-ab-263 | F.8.4.4.7 | z3 | k2 | Bir sanayi kentinde şu olaylar yaşanmıştır: I. Termik santral bacalarından kükürt ve azot oksitlerinin havaya karışması II. Yağmu… | ✓I → II → III
+fen-ab-264 | F.8.4.4.6 | z3 | k2 | Bir okulda güvenlik sunumunda temizlik ürünleriyle ilgili üç yargı paylaşılmıştır. I. Güçlü baz içeren gider açıcı da güçlü asit … | ✓I ve II
+fen-ab-265 | F.8.4.4.1 | z3 | k2 | Bir öğrenci K, L ve M sulu çözeltilerini ampullü bir devreye bağlıyor ve ardından her birine mavi ve kırmızı turnusol kâğıdı batı… | ✓K baz, L asit özelliği gösterir; M ne asit n…
+fen-ab-266 | F.8.4.4.3 | z3 | k2 | Bir öğrenci, pH aralıklarına göre renk değiştiren bir bitki özütünün renklerini tabloya yazıyor. Daha sonra K, L, M ve N sıvıları… | ✓N sıvısı
+fen-ab-267 | F.8.4.4.4 | z3 | k2 | Aşağıdaki pH ölçeğinde K, L, M, N ve P maddelerinin yeri işaretlenmiştir. Bu ölçeğe göre aşağıdakilerden hangisi doğrudur? | ✓M ve N, mavi turnusolun rengini değiştirmez
+fen-ab-268 | F.8.4.4.5 | z3 | k2 | Bir fen öğretmeni asit ve bazların etkileriyle ilgili aşağıdaki yargıları yazıyor. I. Asit çözeltisine atılan her metal parçasınd… | ✓Yalnız III
+fen-ab-269 | F.8.4.4.4 | z3 | k2 | Dört sıvının pH değerleri çubuk grafikte verilmiştir. Bu grafiğe göre aşağıdakilerden hangisi doğrudur? | ✓Yalnızca yemek sodalı su ile sabunlu su kırm…
+fen-ab-270 | F.8.4.4.1 | z3 | k2 | Bir öğrenciye, birinin asit diğerinin baz olduğu bilinen iki renksiz çözelti (K ve L) veriliyor. Hangisinin asit olduğunu belirle… | ✓Her ikisine mavi turnusol kâğıdı batırıp ren…
+fen-ab-271 | F.8.4.4.2 | z3 | k2 | Bir öğrenci, günlük hayatta kullandığı sıvıları ekşi tat, kayganlık gibi bilinen özelliklerine göre asit ve baz gruplarına ayırıy… | ✓Asit: yoğurt, kola; baz: sabun, diş macunu
+fen-ab-272 | F.8.4.4.4 | z3 | k2 | Bir öğrenci, evdeki yedi sıvının pH değerlerini ölçüp tabloya yazmıştır. Bu sıvılardan kaç tanesi mavi turnusol kâğıdının rengini… | ✓4
+fen-ab-273 | F.8.4.4.5 | z3 | k2 | Bir öğrenci yaptığı deneylerden şu çıkarımları yazmıştır. I. Mermer parçasına damlatılan sıvıda köpürme gözleniyorsa sıvı asit öz… | ✓I, II ve III
+fen-ab-274 | F.8.4.4.7 | z3 | k2 | Bir çevre kulübü, bir sanayi kentindeki asit yağmurlarını azaltmak için öğrencilerden öneri ve gerekçe yazmalarını istiyor. Aşağı… | ✓Yalıtım yapmak; çünkü yakıt tüketimi ve gaz …
+fen-ab-275 | F.8.4.4.7 | z3 | k2 | Üç şehirde yağan yağmurların pH değerleri ve şehirlerdeki taşıt sayıları tabloda verilmiştir. Taşıt egzozundan azot oksitleri çık… | ✓Taşıt sayısı en çok olan şehirde yağmur en a…
+fen-ab-326 | F.8.4.4.2 | z3 | k3 | Bir diş hekimi, tatlı ve ekşi yiyeceklerden sonra ağız ortamının asidik hâle geldiğini ve bunun diş minesine zarar verdiğini anla… | ✓pH değerinin 7'den büyük olması, çünkü baz ö…
+fen-ab-327 | F.8.4.4.1 | z3 | k3 | Bir öğrenci, aynı pil ve ampulle kurduğu devrede iki ayrı kaba sırayla K ve L çözeltilerini koyuyor. K çözeltisi kaba konduğunda … | ✓Yalnız I
+fen-ab-328 | F.8.4.4.4 | z3 | k3 | Bir öğrenci, mutfak ve banyodan aldığı dört sıvının pH değerlerini pH kâğıdıyla ölçüp tabloya yazıyor. Tablodaki verilere göre aş… | ✓I, II ve III
+fen-ab-329 | F.8.4.4.3 | z3 | k3 | Zerdeçal asit ve nötr ortamda sarı, baz ortamda kırmızımsı kahverengi olur. Kırmızı lahana suyu ise asitte kırmızı, nötrde mor, b… | ✓Yalnız II
+fen-ab-330 | F.8.4.4.5 | z3 | k3 | Bir mücevher atölyesinde etiketi silinmiş bir sıvıya, aynı anda bir altın yüzük ve bir çinko levha parçası batırılıyor. Bir süre … | ✓Çinkodaki gaz çıkışı sıvının asit olduğunu g…
+fen-ab-331 | F.8.4.4.6 | z3 | k3 | Bir kireç çözücü ürününün etiketinde şu bilgiler yer alıyor: "pH: 1. Cilde ve göze temas ettirmeyiniz. Eldiven ve gözlük kullanın… | ✓Kuvvetli asit özelliğindedir, eldiven ve göz…
+fen-ab-332 | F.8.4.4.7 | z3 | k3 | Dağ eteğindeki bir kasabada evler kükürt oranı yüksek kömürle ısınıyor. Yıllar içinde kasabadaki mermer çeşmelerin yüzeyi aşınmış… | ✓Bacalara kükürt gazını tutan bir filtre takm…
+fen-ab-333 | F.8.4.4.4 | z3 | k3 | Bir öğrenci, dört sıvının pH değerlerini ölçüp sonuçları pH ölçeği üzerinde gösteriyor. P tuvalet temizleyicisini, R kahveyi, S s… | ✓II ve III
+fen-ab-334 | F.8.4.4.2 | z3 | k3 | Fen kulübü öğrencileri evden getirdikleri sıvıları kırmızı ve mavi turnusol kâğıtlarıyla test edecek. Deneyden önce her öğrenci b… | ✓Kabartma tozlu su: kırmızı turnusolu maviye …
+fen-ab-335 | F.8.4.4.3 | z3 | k3 | Elif, pH kâğıdının farklı pH değerlerinde aldığı renkleri tabloya yazıyor. Daha sonra dört sıvıya pH kâğıdı batırıyor: K sıvısınd… | ✓N, K'den daha kuvvetli asittir; L nötrdür; M…
+fen-ab-336 | F.8.4.4.1 | z3 | k3 | Fen öğretmeni, asit ve bazların genel özellikleriyle ilgili öğrencilerin hazırladığı dört bilgi kartını okuyor ve kartlardan biri… | ✓Sulu çözeltisi elektrik akımını ileten her m…
+fen-ab-337 | F.8.4.4.5 | z3 | k3 | Ayşe, yağ ve yemek artıklarıyla kirlenmiş fırın camını temizlemek için pH değeri 13 olan bir fırın temizleyiciyle pH değeri 3 ola… | ✓Yalnız III
+fen-ab-338 | F.8.4.4.4 | z3 | k3 | Bir öğrencinin elinde yalnızca kırmızı turnusol kâğıdı var. K, L, M ve N çözeltilerinin pH değerleri tabloda verilmiştir. Öğrenci… | ✓M ve N
+fen-ab-339 | F.8.4.4.7 | z3 | k3 | Bir kentin yakınındaki çam ormanında ağaçların yaprakları sararıp dökülmüş, orman toprağı da zamanla asitleşmiştir. Kentte kömürl… | ✓II ve III
+fen-ab-340 | F.8.4.4.6 | z3 | k3 | Bir sitenin yönetimi, yüzme havuzunun kenarlarını temizlemek için pH değeri 1 olan bir temizleyici alıyor. Temizlik görevlisine v… | ✓I ve III
+fen-ab-341 | F.8.4.4.1 | z3 | k3 | Bir öğrenci, pil ve ampulden oluşan bir devrenin arasına sırayla dört çözeltiyi koyuyor. Çözeltilerin pH değerleri ve ampulün dur… | ✓Ampulün yanması türü göstermez; tür pH ya da…
+fen-ab-342 | F.8.4.4.3 | z3 | k3 | Etiketleri düşmüş üç bardakta limon suyu, saf su ve sabunlu su bulunuyor. Öğrenci her bardaktan aldığı örneğe yalnızca bir çeşit … | ✓Kırmızı lahana suyu; asitte kırmızı, nötrde …
+fen-ab-343 | F.8.4.4.5 | z3 | k3 | Bir apartmanın mermer basamaklarındaki lekeleri çıkarmak isteyen görevli, pH değeri 2 olan bir temizleyici kullanıyor. Basamaklar… | ✓Temizleyici asit olduğu için mermeri aşındır…
+fen-ab-344 | F.8.4.4.4 | z3 | k3 | Bir öğrenci, beş sıvının pH değerlerini ölçüp sonuçları aşağıdaki pH ölçeği üzerinde gösteriyor. Daha sonra her sıvıdan alınan ör… | ✓2 ve 2
+fen-ab-345 | F.8.4.4.2 | z3 | k3 | Bir öğrenci evden getirdiği altı ürünün sulu çözeltilerini, asit, baz ve nötr olmak üzere üç gruba ayırıyor ve sonucu tabloya yaz… | ✓I, II ve III
+fen-ab-346 | F.8.4.4.3 | z3 | k3 | Bir öğrenci, dört sıvının pH değerlerini ölçüyor. Ardından her sıvıdan alınan örneklere hem mavi turnusol kâğıdı hem de zerdeçal … | ✓Sirke ve süt
+fen-ab-347 | F.8.4.4.6 | z3 | k3 | Bir sitenin yeni temizlik görevlisi için hazırlanan güvenlik kartında, kuvvetli asit ya da baz içeren temizlik ürünleriyle ilgili… | ✓Ortam havalandırılmalıdır, çünkü ürünün buha…
+fen-ab-348 | F.8.4.4.7 | z3 | k3 | Sanayi bölgesindeki bir ilçede yağmur suyunun pH değeri 4 olarak ölçülüyor. Bölgedeki tarım arazilerinin toprağı da asitleşmiş du… | ✓Asitleşen tarım arazisine kireç katılması
+fen-ab-349 | F.8.4.4.2 | z3 | k3 | Okul kantininde bir öğrenci, satılan sekiz ürünü asit, baz ve nötr özelliğine göre sınıflandırmak istiyor. Ürünlerin sulu çözelti… | ✓4
+fen-ab-350 | F.8.4.4.5 | z3 | k3 | Aylin, "asitler mermeri aşındırır" hipotezini sınamak için bir deney tasarlıyor. Elinde aynı büyüklükte mermer ve plastik parçala… | ✓İki kaba aynı büyüklükte mermer koyup birine…
+fen-ab-351 | F.8.4.4.3 | z3 | k3 | Mehmet, evdeki doğal ayraçların davranışını önceden tahmin etmek istiyor. Demli çayın rengi asit ortamda açılır, nötr ortamda değ… | ✓Çayın rengi koyulaşır, zerdeçal sarı kalır
+fen-ab-352 | F.8.4.4.4 | z3 | k3 | Burcu, pH değerleri ölçülen dört sıvıyı tabloda asit, baz ve nötr olarak sınıflamış. Öğretmeni sınıflamanın yalnızca bir satırınd… | ✓Süt
+fen-ab-353 | F.8.4.4.7 | z3 | k3 | Bir ilçede 2010 yılında çalışan kömürlü termik santral 2015'te kapatılmış, yerine rüzgâr türbinleri kurulmuştur. İlçede ölçülen y… | ✓Yalnız II
+fen-ab-354 | F.8.4.4.5 | z3 | k3 | Bir öğrenci, K, L ve M sıvılarının mermer, magnezyum şerit ve yağ lekesi üzerindeki etkisini deneyle inceliyor. Gözlemlerini tabl… | ✓L > M > K
+fen-ab-355 | F.8.4.4.4 | z3 | k3 | Bir öğrenci, mutfaktaki altı sıvının pH değerlerini ölçüp tabloya yazıyor. Daha sonra mavi turnusolu kırmızıya çeviren ve pH değe… | ✓Kahve
+fen-ab-356 | F.8.4.4.3 | z4 | k3 | Demli çay asit ortamda açılır, nötr ortamda değişmez, baz ortamda koyulaşır. Zerdeçal kâğıdı ise asit ve nötr ortamda sarı kalır,… | ✓K çözeltisi asit, L çözeltisi nötr, M çözelt…
+fen-ab-357 | F.8.4.4.3 | z4 | k3 | Bir kimya öğrencisi, tam sayı pH değerine sahip K, L ve M çözeltilerine Y ve Z ayraçlarını uyguluyor. Ayraçların farklı pH aralık… | ✓6 - 7, 3 - 5, 9 - 14
+fen-ab-358 | F.8.4.4.4 | z4 | k3 | K, L, M ve N çözeltilerinin pH değerleri tabloda verilmiştir. Bir öğrenci her çözeltiden alınan örneklere mavi turnusol, kırmızı … | ✓L çözeltisinde mavi turnusol kırmızıya döner…
+fen-ab-359 | F.8.4.4.5 | z4 | k3 | Bir öğrenci, pH değerleri tabloda verilen K, L, M, N ve P sıvılarının her birinden alınan örneklere ayrı ayrı mermer parçası, mag… | ✓K
+fen-ab-360 | F.8.4.4.7 | z4 | k3 | Bir ülkede kömürlü bir termik santralin bacaları 50 metreden 200 metreye çıkarılıyor. Santralin yaktığı kömür miktarı ve kömürün … | ✓Gaz miktarı azalmadan daha geniş alana yayıl…
+fen-ab-361 | F.8.4.4.6 | z4 | k3 | Bir apartman yönetimi, ortak kullanılan dört temizlik ürününün etiket bilgilerini bir tabloda topluyor. Tabloya göre her satırda … | ✓Çamaşır suyu
+fen-ab-362 | F.8.4.4.1 | z4 | k3 | Bir öğrenci, etiketi okunmayan K ve L çözeltileriyle deneyler yapıyor. K çözeltisini pil ve ampulden oluşan devreye koyduğunda am… | ✓Yalnız II
+fen-ab-363 | F.8.4.4.2 | z4 | k3 | Mide ekşimesi yaşayan bir kişi ile bahçesindeki toprağın asitleştiğini fark eden bir çiftçi, sorunlarını gidermek için aynı özell… | ✓Baz özellikli, kabartma tozlu su
+fen-ab-364 | F.8.4.4.4 | z4 | k3 | Kırmızı lahana suyu asit ortamda kırmızı, nötr ortamda mor, baz ortamda mavimsi yeşil renk verir. Kırmızı turnusol kâğıdı yalnızc… | ✓M
+fen-ab-365 | F.8.4.4.5 | z4 | k3 | Bir öğrenci K, L, M ve N sıvılarını mavi turnusol, kırmızı turnusol ve mermer parçasıyla sınıyor. Gözlemlerini deftere yazdıktan … | ✓M
+fen-ab-366 | F.8.4.4.6 | z4 | k3 | Bir apartman yöneticisi, temizlik görevlisine iki ürün veriyor. Ürünlerin pH değerleri tabloda verilmiştir. Görevli, banyoyu hızl… | ✓Yalnız I
+fen-ab-367 | F.8.4.4.4 | z4 | k3 | Bir öğrenci, pH değeri 0 ile 14 arasında bir tam sayı olan bir çözeltiyi inceliyor. Çözelti kırmızı turnusol kâğıdının rengini de… | ✓8
+fen-ab-368 | F.8.4.4.7 | z4 | k3 | Bir kentte kömürle çalışan bir termik santral, yoğun bir taşıt trafiği ve asitleşen tarım arazileri bulunuyor. Kent yönetimi soru… | ✓Yalnız II
+fen-ab-369 | F.8.4.4.3 | z4 | k3 | Bir öğrenci üç kaptan birinde zayıf bir asit, birinde nötr bir sıvı, birinde kuvvetli bir baz olduğunu biliyor ama hangisinin han… | ✓Zerdeçal ve kırmızı turnusol
+fen-ab-370 | F.8.4.4.5 | z4 | k3 | Bir laboratuvarda etiketi okunmayan K sıvısı inceleniyor. K sıvısı çinko şeritle tepkimeye girip gaz kabarcığı çıkarıyor ve mavi … | ✓Yalnız I
+fen-ab-371 | F.8.4.4.7 | z4 | k3 | Bir fen öğretmeni, asit yağmurlarını anlatırken tahtaya "neden, sonuç ve çözüm" üçlüsünü yazan dört farklı kart asıyor. Kartların… | ✓Neden: fosil yakıtların yanması, sonuç: göl …
+fen-ab-372 | F.8.4.4.2 | z4 | k3 | Bir öğrenci, etiketleri düşmüş üç kaptan birinde ayran, birinde kabartma tozlu su, birinde sofra tuzu çözeltisi olduğunu biliyor.… | ✓Ayran, kabartma tozlu su, sofra tuzu çözelti…
+fen-ab-373 | F.8.4.4.4 | z4 | k3 | Beş sıvıyla yapılan deneylerde şu bilgiler elde ediliyor: K ve N sıvıları mavi turnusolu kırmızıya çeviriyor; N sıvısı, K sıvısın… | ✓N < K < L < M < P
+fen-ab-374 | F.8.4.4.1 | z4 | k3 | Bir öğrenci, etiketi okunmayan bir çözeltiyle dört ayrı deney yapıyor ve her deneyin sonucunu ayrı bir kâğıda yazıyor. Amacı, kâğ… | ✓Mavi turnusol kâğıdı kırmızıya döndü
+fen-ab-375 | F.8.4.4.7 | z4 | k3 | Bir araştırmacı, dört şehirde ölçtüğü yağmur suyu pH değerlerini, şehirlerde termik santral bulunup bulunmadığıyla ve trafik yoğu… | ✓Santrali olan şehirlerin yağmur suyu, santra…
+fen-ab-016 | F.8.4.4.1 | z1 | k0 | Bir öğrenci, kırmızı turnusol kâğıdını sabunlu suya batırdığında kâğıdın maviye döndüğünü görüyor. Bu gözlem sabunlu su için aşağ… | ✓Baz özelliği gösterdiğini
+fen-ab-017 | F.8.4.4.2 | z1 | k0 | Bir market alışveriş listesinde ürünler ikişerli yazılmıştır. Aşağıdaki ürün çiftlerinden hangisinde iki ürün de baz özelliği gös… | ✓Sabun – çamaşır suyu
+fen-ab-018 | F.8.4.4.4 | z1 | k0 | Aşağıdaki pH ölçeğinde N sıvısının yeri gösterilmiştir. Buna göre N sıvısı için aşağıdakilerden hangisi söylenir? | ✓Mavi turnusol kâğıdını kırmızıya çevirir.
+fen-ab-019 | F.8.4.4.3 | z1 | k0 | Bir öğrenci pH kâğıdını bir sıvıya batırıyor. Kâğıdın rengi, kutudaki renk skalasında pH 13'e karşılık gelen renge dönüyor. Bu sı… | ✓Güçlü bir bazdır.
+fen-ab-020 | F.8.4.4.5 | z1 | k0 | Bir öğrenci, seyreltik bir asit çözeltisi dolu üç kaba sırayla mermer parçası, plastik bir kapak ve magnezyum şerit atıyor. Hangi… | ✓Mermer parçasında ve magnezyum şeritte
+fen-ab-021 | F.8.4.4.6 | z1 | k0 | Etiketinde “Çocukların ulaşamayacağı yerde saklayınız.” yazan güçlü bir temizlik sıvısı kullanıldıktan sonra saklanacaktır. Bu ür… | ✓Etiketli kendi kabında, kilitli bir dolapta
+fen-ab-022 | F.8.4.4.7 | z1 | k0 | Bir ilçede dört farklı tesis çalışmaktadır. Bu tesislerden hangisi asit yağmurlarına yol açan gazları havaya karıştırmaz? | ✓Hiç yakıt yakmayan rüzgâr santrali
+fen-ab-023 | F.8.4.4.4 | z1 | k0 | Tabloda dört sıvının pH değerleri verilmiştir. Bu sıvılardan hangisi en kuvvetli baz özelliği gösterir? | ✓Çamaşır suyu
+fen-ab-024 | F.8.4.4.3 | z1 | k0 | Zerdeçal kâğıdı, asit ve nötr ortamda sarı kalır; yalnızca baz ortamda kırmızımsı kahverengi olur. Bir sıvıya batırılan zerdeçal … | ✓Baz özelliği göstermez.
+fen-ab-025 | F.8.4.4.5 | z1 | k0 | Bir öğrenci mermer parçasını sırayla dört sıvıya batırıyor. Mermer parçasının köpürerek aşındığı sıvı hangisidir? | ✓Seyreltik kireç çözücü
+fen-ab-026 | F.8.4.4.2 | z1 | k0 | Ceren kahvaltıda ayran içiyor, sonra diş macunuyla dişlerini fırçalıyor. Ayran ve diş macunu için aşağıdakilerden hangisi söylene… | ✓Ayran asit, diş macunu baz özelliği gösterir.
+fen-ab-027 | F.8.4.4.7 | z1 | k0 | Bir kasabada kömürlü sobaların yerine elektrikli ve güneş enerjili ısıtma sistemleri kullanılmaya başlanıyor. Bu değişimin asit y… | ✓Yağmur suyunun asitliği azalır.
+fen-ab-028 | F.8.4.4.1 | z2 | k0 | M çözeltisi mavi turnusol kâğıdını kırmızıya, P çözeltisi kırmızı turnusol kâğıdını maviye çeviriyor. Bu çözeltilerle ilgili aşağ… | ✓M mermeri aşındırır, P mermeri aşındırmaz.
+fen-ab-029 | F.8.4.4.4 | z2 | k0 | Aşağıdaki pH ölçeğinde K, L, M ve N sıvılarının yerleri gösterilmiştir. Buna göre aşağıdakilerden hangisi doğrudur? | ✓K, N'den daha kuvvetli asit özelliği gösteri…
+fen-ab-030 | F.8.4.4.3 | z2 | k0 | Kırmızı lahana suyu asit ortamda kırmızı, nötr ortamda mor, baz ortamda mavimsi yeşil renk alır. Özdeş üç bardağa eşit miktarda k… | ✓Kırmızı – mor – mavimsi yeşil
+fen-ab-031 | F.8.4.4.5 | z2 | k0 | Bir kuyumcu, aynı seyreltik asit çözeltisinin içine bir çinko şerit ve bir altın yüzük atıyor. Çinko şeritten gaz kabarcıkları çı… | ✓Çinko asitle tepkime verirken altın hiç verm…
+fen-ab-032 | F.8.4.4.6 | z2 | k0 | Cemile Hanım, etiketinde “Cilde ve göze zarar verebilir. Havalandırılan ortamda kullanınız.” yazan gider açıcıyı banyoda kullanac… | ✓Eldiven ve gözlük takıp banyo penceresini aç…
+fen-ab-033 | F.8.4.4.7 | z2 | k0 | Bir belediye, hava kirliliğini ve asit yağmurlarını azaltmak için dört öneriyi değerlendiriyor. Bu önerilerden hangisi asit yağmu… | ✓Termik santral bacalarına filtre takmak
+fen-ab-034 | F.8.4.4.4 | z2 | k0 | Dört çözeltinin pH değerleri tabloda verilmiştir. Buna göre aşağıdakilerden hangisi doğrudur? | ✓K'nin asitliği L'nin asitliğinden fazladır.
+fen-ab-035 | F.8.4.4.2 | z2 | k0 | Günlük hayatta kullanılan maddelerle ilgili şu yargılar veriliyor: I. Yoğurt ve ayran baz özelliği gösterir. II. Sabun ve deterja… | ✓II ve III
+fen-ab-036 | F.8.4.4.3 | z2 | k0 | Bahçıvan Selim, üç saksıdaki toprağın süzülmüş sulu çözeltisine pH kâğıdı batırarak K saksısında pH 5, L saksısında pH 7, M saksı… | ✓M'nin çözeltisine batırılan kırmızı turnusol…
+fen-ab-037 | F.8.4.4.1 | z2 | k0 | Bir öğrenci üç sıvıyla deney yapıyor. R sıvısı saf sudur. Sonuçlar tabloda verilmiştir. Bu sonuçlara göre aşağıdakilerden hangisi… | ✓N asit, P baz, R nötrdür.
+fen-ab-038 | F.8.4.4.5 | z2 | k0 | Bir öğrenci üç sıvının mermer, kumaş ve yağ üzerindeki etkisini tabloya yazıyor. Bu sonuçlara göre aşağıdakilerden hangisi söylen… | ✓R asit, P bazdır; S asit değildir.
+fen-ab-039 | F.8.4.4.4 | z2 | k0 | Bir sıvının pH değeri 4 olarak ölçülmüştür. I. Bu sıvı kırmızı turnusol kâğıdını maviye çevirir. II. Bu sıvı mavi turnusol kâğıdı… | ✓Yalnız II
+fen-ab-040 | F.8.4.4.6 | z2 | k0 | Okulun temizlik deposunda kireç çözücü ve çamaşır suyu aynı rafta, yan yana duruyor. Okul müdürü deponun güvenli kullanımı için b… | ✓Ürünlerin etiketli kapalı kaplarında, ayrı r…
+fen-ab-041 | F.8.4.4.7 | z2 | k0 | Bir şehirde havadaki azot oksitlerinin büyük bölümü taşıt egzozlarından gelmektedir. Asit yağmuru riskini azaltmak için en etkili… | ✓Toplu taşımayı yaygınlaştırmak
+fen-ab-042 | F.8.4.4.3 | z2 | k0 | Zerdeçal kâğıdı ve kırmızı lahana suyu ayraç olarak kullanılarak üç sıvı sınanıyor. Sonuçlar tabloda verilmiştir. Bu sıvılar sıra… | ✓K nötr, L asit, M baz özelliği gösterir.
+fen-ab-043 | F.8.4.4.4 | z2 | k0 | Aşağıdaki çubuk grafikte dört sıvının pH değerleri gösterilmiştir. Buna göre aşağıdakilerden hangisi doğrudur? | ✓Kabartma tozu çözeltisi, deterjanlı sudan da…
+fen-ab-044 | F.8.4.4.5 | z2 | k0 | Seyreltik bir asit çözeltisine bir mermer parçası ile bir plastik kapak atılıyor. I. Mermer parçasının yüzeyi köpürerek aşınır. I… | ✓Yalnız I
+fen-ab-045 | F.8.4.4.2 | z2 | k0 | Bir deterjanın ele kayganlık hissi verdiği, yağlı kapları kolayca temizlediği ve kırmızı turnusol kâğıdını maviye çevirdiği belir… | ✓Baz özelliği gösterir, pH değeri 7'den büyük…
+fen-ab-046 | F.8.4.4.7 | z2 | k0 | Bir bölgede toplanan yağmur suyunun pH değeri 4,2 ölçülüyor. Bu sonuçla ilgili aşağıdakilerden hangisi söylenebilir? | ✓Yağmur suyu asidiktir; fosil yakıtlardan çık…
+fen-ab-047 | F.8.4.4.1 | z2 | k0 | Fen öğretmeni, asit ve bazların ortak özelliğini sorunca dört öğrenci şu yanıtları veriyor: Ela: “İkisinin de sulu çözeltisi elek… | ✓Ela
+fen-ab-048 | F.8.4.4.4 | z3 | k0 | Dört sıvıya turnusol kâğıtları batırıldığında tablodaki sonuçlar alınıyor. Aynı sıvıların pH değerleri 2, 7, 9 ve 13 olarak ölçül… | ✓9 – 2 – 7 – 13
+fen-ab-049 | F.8.4.4.3 | z3 | k0 | Fen kulübü öğrencileri, pH değerleri K = 3, L = 7 ve M = 11 olan üç sıvıyı tek bir ayraçla birbirinden ayırt etmek istiyor. Ayrı … | ✓Kırmızı lahana suyu
+fen-ab-050 | F.8.4.4.5 | z3 | k0 | Yağ lekeli üç kumaş parçası ayrı kaplara bırakılıyor: K kabında sabunlu su (pH 10), L kabında saf su, M kabında sirke bulunuyor. … | ✓I ve II
+fen-ab-051 | F.8.4.4.1 | z3 | k0 | Etiketi kaybolan K sıvısının baz olduğuna karar vermek isteyen öğrenci, sıvının tadına bakmadan iki gözlem yapıyor. Aşağıdaki göz… | ✓Kırmızı turnusolu maviye çevirmesi ve mermer…
+fen-ab-052 | F.8.4.4.7 | z3 | k0 | Bir bölgedeki termik santrallerin bacalarına 2008 yılında filtre takılmıştır. Bölgede toplanan yağmur sularının pH değerleri tabl… | ✓Filtre takıldıktan sonra yağmur suyunun asit…
+fen-ab-053 | F.8.4.4.4 | z3 | k0 | Aşağıdaki pH ölçeğinde K, L, M, N ve P sıvılarının yerleri gösterilmiştir. Buna göre aşağıdakilerden hangisi doğrudur? | ✓M ve P mavi turnusolu kırmızıya çevirir; M d…
+fen-ab-054 | F.8.4.4.6 | z3 | k0 | Cansu, evde temizlik yapmadan önce güvenliği için iki davranış belirleyecektir. Aşağıdaki davranış çiftlerinden hangisi tamamen g… | ✓Eldiven takmak ve pencereyi açıp havalandırm…
+fen-ab-055 | F.8.4.4.3 | z3 | k0 | Kırmızı lahana suyunun pH aralığına göre aldığı renkler tabloda verilmiştir. K sıvısına damlatılan lahana suyu pembe, L sıvısına … | ✓K < M < L
+fen-ab-056 | F.8.4.4.5 | z3 | k0 | Aynı seyreltik asit çözeltisi dolu üç tüpe sırayla çinko şerit, plastik kapak ve mermer parçası atılıyor. I. Üç tüpte de gaz kaba… | ✓Yalnız III
+fen-ab-057 | F.8.4.4.7 | z3 | k0 | Bir sanayi kentinde mermer sütunların yüzeyi pürüzlenmiş, metal korkuluklar çabuk aşınmış ve yakındaki gölün suyunun pH değeri za… | ✓Kükürt ve azot oksitlerinin yağmur suyuyla b…
+fen-ab-058 | F.8.4.4.4 | z3 | k0 | Aşağıdaki çubuk grafikte K, L, M ve N sıvılarının pH değerleri gösterilmiştir. Kesikli çizgi pH 7'yi gösterir. Buna göre aşağıdak… | ✓M ve N kırmızı turnusolu maviye çevirir; N d…
+fen-ab-059 | F.8.4.4.2 | z3 | k0 | Bir aile mutfak, banyo ve bahçe için sirke, diş macunu, kireç tozu ve turşu suyu almıştır. I. Sirke ve turşu suyu baz özelliği gö… | ✓Yalnız II
+fen-ab-060 | F.8.4.4.2 | z3 | k0 | Bir öğrenci mutfak ve banyodaki maddeleri iki kutuya ayırıyor. Asit kutusuna portakal suyu, kola ve mide ilacını; baz kutusuna bu… | ✓Mide ilacı
+fen-ab-061 | F.8.4.4.6 | z3 | k0 | Bir temizlik ürününün etiketinde şu uyarılar yer alıyor: “Başka ürünlerle karıştırmayınız.”, “Havalandırılan ortamda kullanınız.”… | ✓Zehirli gaz çıkabilir – buharı solunum yolla…
+fen-ab-062 | F.8.4.4.5 | z3 | k0 | Üç sıvının mermer, magnezyum şerit ve yağ lekesi üzerindeki etkileri tabloda verilmiştir. I. L sıvısı baz özelliği gösterir. II. … | ✓II ve III
+fen-ab-063 | F.8.4.4.3 | z3 | k0 | Bir sıvıya batırılan mavi ve kırmızı turnusol kâğıtlarının ikisinin de rengi değişmiyor. Aynı sıvıda zerdeçal kâğıdı sarı kalıyor… | ✓7
+fen-ab-064 | F.8.4.4.7 | z4 | k0 | Bir ülkenin dört şehrinde bir yıl boyunca havaya karışan kükürt oksitlerinin miktarı ile aynı şehirlerde toplanan yağmur sularını… | ✓Salımı fazla olan şehirde yağmur suyunun pH …
+fen-ab-065 | F.8.4.4.4 | z4 | k0 | Dört sıvının pH değerleri tabloda verilmiştir. Öğrenciler, bu sıvılara mavi turnusol kâğıdı batırıp zerdeçal kâğıdı damlatarak yo… | ✓Yalnız II
+fen-ab-066 | F.8.4.4.3 | z4 | k0 | Kırmızı turnusol, mavi turnusol, zerdeçal kâğıdı ve çay ayraç olarak kullanılıyor. pH değerleri K = 2, L = 7 ve M = 12 olan üç sı… | ✓I ve III
+fen-ab-067 | F.8.4.4.5 | z4 | k0 | Bir öğrenci, P ve M sıvılarının her birine çinko şerit, altın küpe, plastik kapak ve mermer parçası atıyor. P sıvısında çinko şer… | ✓P asittir; M asit değildir.
+fen-ab-068 | F.8.4.4.6 | z4 | k0 | Bir temizlik şirketinin çırağı, “Çamaşır suyu (pH 12,5) ile kireç çözücüyü (pH 1,5) aynı kovada karıştırırsam iki ürünün etkisi t… | ✓Asit ve baz özellikli ürünler karışınca zehi…
+fen-ab-069 | F.8.4.4.4 | z4 | k0 | Tabloda altı sıvının pH değerleri verilmiştir. Bir öğrenci her sıvıya kırmızı turnusol kâğıdı batıracaktır. Bu sıvılardan kaç tan… | ✓4
+fen-ab-070 | F.8.4.4.7 | z4 | k0 | Bir şehirde havaya karışan azot oksitlerinin kaynaklara göre payı tabloda verilmiştir. Şehir yönetimi asit yağmurlarını azaltmak … | ✓Yalnız III
+fen-ab-071 | F.8.4.4.3 | z4 | k0 | Dört sıvının zerdeçal kâğıdı, çay ve kırmızı lahana suyu ile sınanma sonuçları tabloda verilmiştir. Buna göre aşağıdakilerden han… | ✓K ve N aynı türdendir; L ve M farklı türlerd…
+fen-ab-072 | F.8.4.4.1 | z4 | k0 | Etiketleri kaybolan R ve P çözeltileriyle şu deneyler yapılıyor: Ampullü devrede ikisi de ampulü yaktırıyor. R çözeltisi mavi tur… | ✓I, II ve III
+fen-ab-073 | F.8.4.4.4 | z4 | k0 | Laboratuvarda etiketi silinmiş bir şişedeki çözeltiye kırmızı turnusol kâğıdı batırılıyor ve kâğıdın maviye döndüğü görülüyor. pH… | ✓3
+fen-ab-074 | F.8.4.4.5 | z4 | k0 | Pamuklu kumaş parçaları ayrı kaplardaki K, L ve M sıvılarına bırakılıyor. K'nin pH değeri 1, L'nin 7, M'nin 13'tür. Bir süre sonr… | ✓K güçlü asit, M güçlü bazdır; ikisi de kumaş…
+fen-ab-075 | F.8.4.4.6 | z4 | k0 | Okul temizlik kulübü üyeleri, güvenlik kuralları için dört cümle yazıyor: Ece: “Kireç çözücüyü kullandıktan sonra kovayı durulama… | ✓1
