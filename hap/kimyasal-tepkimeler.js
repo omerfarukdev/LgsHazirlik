@@ -10,7 +10,9 @@ window.LGS_HAP["kimyasal-tepkimeler"] = {
         "Tepkimeye **giren** maddelere **girenler** (başlangıç maddeleri), tepkime sonunda oluşan yeni maddelere **ürünler** denir.",
         "Tepkime **sözcüklerle** gösterilir; ok girenleri ürünlerden ayırır. Örnek: **karbon + oksijen → karbondioksit**. Okun solu girenler, sağı ürünlerdir; ok “tepkimeyle dönüşür” demektir. (Bu düzeyde formül kullanılmaz.)",
         "Giren sayısı ile ürün sayısı eşit olmak zorunda değildir. İki giren tek ürün verebilir; tek giren iki ürüne ayrılabilir.",
-        "Girenlerin hepsi tepkimeye girmeyebilir. Bir madde **artabilir**; artan madde tepkimeye girmemiştir ve ürün sayılmaz."
+        "Girenlerin hepsi tepkimeye girmeyebilir. Bir madde **artabilir**; artan madde tepkimeye girmemiştir ve ürün sayılmaz.",
+        "Tek girenin ısıyla ya da elektrikle birkaç ürüne ayrılmasına **ayrışma** denir (örnek: kalsiyum karbonat ısınınca kalsiyum oksit ve karbondioksit verir). Yanma, paslanma, gümüşün kararması, bitkide fotosentez ve mayalanma da kimyasal tepkimedir; çoğunda girenlerden biri havadaki oksijendir.",
+        "**Fiziksel değişimde** madde yalnızca hâl, biçim ya da görünüş değiştirir (erime, çözünme, buharlaşma); yeni madde oluşmaz. Renk değişimi, gaz çıkışı ve ısı ya da ışık yayılması tepkime ipucudur ama kanıt **yeni madde oluşmasıdır**."
       ],
       dikkat: [
         "**Girenle ürünü karıştırma.** Mum yanarken mumun buharı ve oksijen girendir; karbondioksit ve su buharı üründür. “Başta var, sonra yok” giren, “başta yok, sonra var” üründür."
@@ -58,7 +60,8 @@ window.LGS_HAP["kimyasal-tepkimeler"] = {
         "**Açık kapta** gaz kaptan çıkabilir, havadan gaz da kaba girebilir. Terazi bu ikisinin farkını gösterir: çıkan gaz fazlaysa **azalır**, giren gaz (örneğin oksijen) fazlaysa **artar**, eşitse değişmez.",
         "Azalma ya da artış kütlenin kaybolduğu veya yoktan var olduğu anlamına **gelmez**. Gazın kütlesini de hesaba katarsan **toplam kütle korunmuştur**. Terazi yalnızca kapta kalan maddeyi tartar.",
         "**Korunumu sınama düzeneği:** Kap kapalı olmalı, hiç açılmamalı ve tepkimeden önce ve sonra bütün içeriğiyle tartılmalıdır.",
-        "Kütle korunur; ama **hacim, molekül sayısı ve özellikler** korunmak zorunda değildir. Isı ya da ışık çıkması da kütleyi kaybettirmez; madde enerjiye dönüşüp yok olmaz."
+        "Kütle korunur; ama **hacim, molekül sayısı ve özellikler** korunmak zorunda değildir. Isı ya da ışık çıkması da kütleyi kaybettirmez; ısı ve ışık **enerjidir, madde değildir**; madde enerjiye dönüşüp yok olmaz. Pistonlu ya da hacmi değişen kapalı kapta gaz oluşunca hacim artabilir, kütle yine aynı kalır.",
+        "Terazi bazen kabın kütlesini göstermeyecek biçimde sıfırlanır; okunan değer yalnızca içindekilerin kütlesidir ve korunum aynı işler."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Düzenek</th><th>Gaz ne olur?</th><th>Terazi</th><th>Toplam kütle</th></tr><tr><td>Kapalı kap</td><td>Kapta kalır</td><td>Değişmez</td><td>Korunur</td></tr><tr><td>Balonlu kap</td><td>Balona dolar, kapta kalır</td><td>Değişmez</td><td>Korunur</td></tr><tr><td>Açık kap, gaz çıkıyor</td><td>Havaya karışır</td><td>Azalır</td><td>Korunur (gaz hesaba katılırsa)</td></tr><tr><td>Açık kap, havadan gaz giriyor</td><td>Havadan katılır</td><td>Artar</td><td>Korunur (gaz hesaba katılırsa)</td></tr></table>",
       dikkat: [

@@ -88,3 +88,213 @@ fen-kt-012 | F.8.4.3.1 | z3 | k0 | Bir öğrenci, ağzı açık bir kapta gaz ç
 fen-kt-013 | F.8.4.3.1 | z4 | k0 | Aşağıdaki modelde kükürt ile oksijen gazının tepkimesi ve tepkime bittiğinde ortamda kalan tanecikler gösterilmiştir. Bu modele g… | ✓Ortamda 1 kükürt atomu artmıştır; çünkü 2 kü…
 fen-kt-014 | F.8.4.3.1 | z4 | k0 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek M maddesini oluşturmuştur. Maddelerin kütleleri tepkimeden önce ve sonra tabl… | ✓M: 32 g; artan madde: L (8 g)
 fen-kt-015 | F.8.4.3.1 | z4 | k0 | Üç öğrenci kimyasal tepkimelerle ilgili aşağıdaki yorumları yapmıştır. I. Bir tepkimede girenlerin sayısı ile ürünlerin sayısı ke… | ✓Yalnız II
+fen-kt-126 | F.8.4.3.1 | z1 | k1 | Alüminyum ile oksijen tepkimeye girerek alüminyum oksit oluşturuyor. Bu tepkimede girenler hangileridir? | ✓Alüminyum ve oksijen
+fen-kt-127 | F.8.4.3.1 | z1 | k1 | Gümüş kaşık havada bir süre kalınca kararır; yüzeyde gümüş sülfür adlı yeni bir madde oluşur. Bu olayla ilgili aşağıdakilerden ha… | ✓Kimyasal tepkimedir; yeni bir madde oluşmuşt…
+fen-kt-128 | F.8.4.3.1 | z1 | k1 | Kireçtaşı güçlü biçimde ısıtılınca kalsiyum oksit ve karbondioksit oluşur. Bu tepkimenin ürünleri hangileridir? | ✓Kalsiyum oksit ve karbondioksit
+fen-kt-129 | F.8.4.3.1 | z1 | k1 | Kalsiyum sülfür bileşiği hangi iki elementin tepkimesiyle oluşur? | ✓Kalsiyum ve kükürt
+fen-kt-130 | F.8.4.3.1 | z1 | k1 | Fen laboratuvarında kapalı bir kapta 13 g çinko ile 7 g kükürt tamamen tepkimeye girerek yalnızca çinko sülfür oluşturuyor. Oluşa… | ✓20 g
+fen-kt-131 | F.8.4.3.1 | z1 | k1 | Kapalı bir kapta alüminyum ile oksijen tamamen tepkimeye girerek 17 g alüminyum oksit oluşturuyor. Tepkimeye giren alüminyum 9 g'… | ✓8 g
+fen-kt-132 | F.8.4.3.1 | z1 | k1 | Kapalı bir şişede şekerli suya maya katılıyor ve karışım karbondioksit gazı çıkararak köpürüyor. Şişe başlangıçta 210 g geliyor. … | ✓210 g; çünkü kap kapalıdır ve madde giriş çı…
+fen-kt-133 | F.8.4.3.1 | z1 | k1 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Açık ve koyu daireler farklı atomları göstermektedir. Bu tepkimede ürünlerin t… | ✓6
+fen-kt-134 | F.8.4.3.1 | z1 | k1 | Bir kimyasal tepkimede girenlerde toplam 6 oksijen atomu bulunuyor. Ürünlerdeki oksijen atomu sayısı için aşağıdakilerden hangisi… | ✓6'dır; çünkü her tepkimede atom sayısı korun…
+fen-kt-135 | F.8.4.3.1 | z1 | k1 | Aşağıdaki mutfak işlemlerinden hangisinde kimyasal tepkime gerçekleşir? | ✓Kek hamurunun fırında pişmesi
+fen-kt-136 | F.8.4.3.1 | z1 | k1 | Sobada doğal gaz yanarken tepkime sözcüklerle şöyle gösterilir: metan + oksijen → karbondioksit + su Bu tepkimede oksijen için aş… | ✓Girendir; tepkime sırasında harcanır
+fen-kt-137 | F.8.4.3.1 | z1 | k1 | Odun sobada yanınca geriye kalan kül, yanan odundan çok daha hafiftir. Bu durumun nedeni aşağıdakilerden hangisidir? | ✓Yanma sırasında oluşan gazların havaya karış…
+fen-kt-138 | F.8.4.3.1 | z1 | k1 | Bir tabakta bakır tozu ile kükürt tozu ısıtılmadan karıştırılıyor. Karışımda iki tozun da kendi rengini koruduğu görülüyor. Bu ka… | ✓Karışımdır; maddeler kendi özelliklerini kor…
+fen-kt-139 | F.8.4.3.1 | z1 | k1 | Kapalı bir kapta 17 g hidrojen peroksit ayrışarak 9 g su ve oksijen gazı oluşturuyor. Oluşan oksijen gazı kaç gramdır? | ✓8 g
+fen-kt-140 | F.8.4.3.1 | z1 | k1 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Açık ve koyu daireler farklı atomları göstermektedir. Bu modele göre ürün mole… | ✓İki farklı cins atomdan oluşan bir bileşik m…
+fen-kt-141 | F.8.4.3.1 | z1 | k1 | Kapalı bir kapta ısıtılan civa oksit, ayrışarak 25 g sıvı civa ve 2 g oksijen gazı oluşturuyor. Başka madde oluşmamıştır. Isıtıla… | ✓27 g
+fen-kt-142 | F.8.4.3.1 | z1 | k1 | Bitkiler fotosentezde karbondioksit ve suyu kullanır. Tepkime sözcüklerle şöyle gösterilir: karbondioksit + su → glikoz + oksijen… | ✓Glikoz ve oksijen
+fen-kt-143 | F.8.4.3.1 | z1 | k1 | Kütlenin korunumu ile ilgili aşağıdakilerden hangisi doğrudur? | ✓Girenlerin toplam kütlesi, her tepkimede ürü…
+fen-kt-144 | F.8.4.3.1 | z1 | k1 | Şekilde dört farklı molekül gösterilmiştir. Açık ve koyu daireler farklı atomları göstermektedir. Bu moleküllerden hangisi bir bi… | ✓M molekülü
+fen-kt-145 | F.8.4.3.1 | z1 | k1 | Bir öğrenci, kapalı bir kapta bir tepkime başlatıyor. Tepkime boyunca terazi hep 96 g gösteriyor. Öğrencinin bu gözleme dayanarak… | ✓Tepkime gerçekleşmiş olabilir; çünkü kapalı …
+fen-kt-146 | F.8.4.3.1 | z1 | k1 | Kapalı bir kapta K ve L maddeleri tamamen tepkimeye girerek yalnızca M maddesini oluşturuyor. Tepkimeden önceki ve sonraki kütlel… | ✓17 g
+fen-kt-147 | F.8.4.3.1 | z1 | k1 | Kapalı bir kapta hidrojen ile oksijen tamamen tepkimeye girerek 54 g su oluşturuyor. Tepkimeye giren oksijen 48 g'dır. Tepkimeye … | ✓6 g
+fen-kt-148 | F.8.4.3.1 | z1 | k1 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Açık ve koyu daireler farklı atomları göstermektedir. Bu modele göre aşağıdaki… | ✓Molekül sayısı azalmıştır; atom sayısı korun…
+fen-kt-149 | F.8.4.3.1 | z1 | k1 | Su, elektrik akımıyla hidrojen ve oksijene ayrışır. Tepkime sözcüklerle şöyle gösterilir: su → hidrojen + oksijen Bu tepkimede gi… | ✓Giren sudur; ürünler hidrojen ve oksijendir
+fen-kt-150 | F.8.4.3.1 | z2 | k1 | Bir fen kulübü, kapalı bir tüpte X ve Y toz maddelerini ısıtarak yalnızca Z maddesinin oluştuğu bir tepkime gerçekleştiriyor. Tep… | ✓24 g
+fen-kt-151 | F.8.4.3.1 | z2 | k1 | Bir öğrenci, ağzı açık bir cam kapta gaz çıkışıyla ilerleyen bir tepkime yapıyor ve tepkime sonunda terazinin 6 g azaldığını görü… | ✓150 g
+fen-kt-152 | F.8.4.3.1 | z2 | k1 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Büyük ve küçük daireler farklı atomları göstermektedir. Ürünler kutusunda yaln… | ✓Büyük atomlardan 2 tane artmıştır
+fen-kt-153 | F.8.4.3.1 | z2 | k1 | Bir fen öğretmeni, ağzı açık bir porselen kapta 40 g kabartma tozunu ısıtıyor. Isıtma bitince kapta 34 g beyaz bir katı kalıyor. … | ✓6 g
+fen-kt-154 | F.8.4.3.1 | z2 | k1 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Açık ve koyu daireler farklı atomları göstermektedir. Bu tepkimeyle ilgili aşa… | ✓Girenler bileşik, ürünler element moleküldür
+fen-kt-155 | F.8.4.3.1 | z2 | k1 | Bir öğrenci, kapalı bir kapta bakır tozunu kükürt tozuyla ısıtarak bakır sülfür elde ediyor ve şu yargıları yazıyor: I. Bakır sül… | ✓Yalnız II
+fen-kt-156 | F.8.4.3.1 | z2 | k1 | Bir fen öğretmeni, ağzı açık bir kapta 12 g çinko parçasını kızdırıyor. Çinko, havadaki oksijenle tepkimeye girerek çinko okside … | ✓3 g
+fen-kt-157 | F.8.4.3.1 | z2 | k1 | Öğrenciler kimyasal tepkimelerle ilgili şu yargılarda bulunuyor: I. Girenlerdeki atom sayısı, ürünlerdeki atom sayısından her zam… | ✓Yalnız III
+fen-kt-158 | F.8.4.3.1 | z2 | k1 | Magnezyum, oksijenle tepkimeye girerek magnezyum oksit bileşiğini oluşturur. Bu üç maddenin bazı özellikleri tabloda verilmiştir.… | ✓Magnezyum oksidin rengi ve elektriği iletme …
+fen-kt-159 | F.8.4.3.1 | z2 | k1 | Bir öğrenci, kimyasal tepkimelerin tanecik modellerini inceliyor. Bir tepkimenin tanecik modelinde aşağıdakilerden hangisinin gör… | ✓Ürünlerde girenlerde hiç bulunmayan yeni bir…
+fen-kt-160 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta Q ve R maddeleri tamamen tepkimeye girerek yalnızca S ve T maddelerini oluşturuyor. Kaptaki maddelerin kütleleri… | ✓14 g
+fen-kt-161 | F.8.4.3.1 | z2 | k1 | Şekilde, kapalı bir kapta tepkimeye girecek taneciklerin başlangıç hâli verilmiştir. Büyük daireler A atomlarını, küçük daireler … | ✓Her biri 1 A ve 1 B atomundan oluşan 4 molek…
+fen-kt-162 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta A, B ve C maddeleri bulunuyor. A ile B tepkimeye girerek D maddesini oluşturuyor; D maddesinin tamamı da C ile t… | ✓28 g
+fen-kt-163 | F.8.4.3.1 | z2 | k1 | Aşağıda bazı bileşiklerin adları verilmiştir: I. Kalsiyum oksit II. Potasyum klorür III. Çinko oksit Bu bileşiklerden hangilerini… | ✓I ve III
+fen-kt-164 | F.8.4.3.1 | z2 | k1 | Ağzı açık bir kapta gaz çıkışıyla ilerleyen bir tepkimede kap ve içindekilerin toplam kütlesi 4 g azalıyor. Havadan kaba gaz girm… | ✓II ve III
+fen-kt-165 | F.8.4.3.1 | z2 | k1 | Kapalı kaplarda yapılan iki deneyde A ve B maddeleri tamamen tepkimeye girerek yalnızca C maddesini oluşturuyor. Deney 2'de kulla… | ✓20 g
+fen-kt-166 | F.8.4.3.1 | z2 | k1 | Bir öğrenci demirin paslanmasıyla ilgili şu yargıları yazıyor: I. Pasın özellikleri demirin özelliklerinden farklıdır. II. Ağzı a… | ✓I ve III
+fen-kt-167 | F.8.4.3.1 | z2 | k1 | Fen kulübü, içinde yeterli oksijen bulunan kapalı bir cam kavanozda bir parça fosforu yakıyor. Yanma sırasında yoğun ışık ve ısı … | ✓200 g; çünkü kütle ışığa ve ısıya dönüşmez, …
+fen-kt-168 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta 20 g P ile 10 g R karıştırılıyor. Tepkimede R'nin tamamı harcanıyor ve yalnızca 24 g S oluşuyor. Tepkime bittiği… | ✓6 g
+fen-kt-169 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta 4 g metan ile 16 g oksijen tamamen tepkimeye girerek yalnızca karbondioksit ve su oluşturuyor. Oluşan karbondiok… | ✓9 g
+fen-kt-170 | F.8.4.3.1 | z2 | k1 | Bir kimya mühendisi, kapalı bir kapta 28 g sönmemiş kireci (kalsiyum oksit) 9 g su ile tepkimeye sokuyor. Her iki madde de tamame… | ✓37 g
+fen-kt-171 | F.8.4.3.1 | z2 | k1 | Bir otomobil yol aldıkça deposundaki benzin azalır. Benzin yanarken egzozdan karbondioksit ve su buharı çıkar. Yanan benzinin ato… | ✓Egzoz gazlarındaki moleküllerin içinde yer a…
+fen-kt-172 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta gerçekleşen tepkimede P ve R maddeleri harcanarak S ve T maddeleri oluşuyor. Maddelerin tepkimeden önceki ve son… | ✓3 g
+fen-kt-173 | F.8.4.3.1 | z2 | k1 | Kapalı bir kapta X ve Y maddeleri tepkimeye girerek yalnızca Z maddesini oluşturuyor. Maddelerin kütleleri zamanla ölçülmüş ve ta… | ✓Y; 8 g
+fen-kt-174 | F.8.4.3.1 | z2 | k1 | Kapalı bir cam şişede 25 g X katısı ısıtılıyor. X'in tamamı harcanıyor ve 15 g Y katısı ile Z gazı oluşuyor. Boş şişe 80 g'dır ve… | ✓95 g
+fen-kt-175 | F.8.4.3.1 | z2 | k1 | Üç öğrenci kütlenin korunumuyla ilgili şu yorumları yapıyor: Ali: Gaz oluşan her tepkimede terazi azalır. Ece: Kapalı kapta gerçe… | ✓Yalnızca Ece
+fen-kt-226 | F.8.4.3.1 | z2 | k2 | Kireç taşı güçlü bir şekilde ısıtılınca kalsiyum karbonat ayrışarak kalsiyum oksit ve karbondioksit oluşturur. Bu olay sözcüklerl… | ✓Tek giren ayrışarak iki farklı ürün oluşturm…
+fen-kt-227 | F.8.4.3.1 | z2 | k2 | Bir deneyde ağzı kapalı bir kapta 13 g çinko ile 6 g kükürt tamamen tepkimeye giriyor ve yalnızca çinko sülfür oluşuyor. Oluşan ç… | ✓19 g
+fen-kt-228 | F.8.4.3.1 | z2 | k2 | Gümüş çatal-bıçak takımı, havadaki kükürtlü bileşiklerle temas edince zamanla kararır. Kararan yüzeydeki siyah tabaka gümüş sülfü… | ✓Gümüş ile kükürt tepkimeye girmiş ve yeni bi…
+fen-kt-229 | F.8.4.3.1 | z2 | k2 | Bir öğrenci üç ayrı kapta yapılan tepkimelerin ürünlerinin adlarını defterine not ediyor: kalsiyum oksit, kalsiyum sülfür ve çink… | ✓Kalsiyum ve kükürt ikişer tepkimede kullanıl…
+fen-kt-230 | F.8.4.3.1 | z2 | k2 | Bir öğrenci, kimyasal tepkimeler konusunu tekrar ederken aşağıdaki yargıları yazmıştır. I. Tepkimede bir elementin atomu başka bi… | ✓I ve III
+fen-kt-231 | F.8.4.3.1 | z2 | k2 | Şekilde bir tepkimenin tanecik modeli verilmiştir. X ve Y farklı atomları göstermektedir. Bu modele göre aşağıdakilerden hangisi … | ✓Molekül sayısı artmış olsa da atom sayısı de…
+fen-kt-232 | F.8.4.3.1 | z2 | k2 | Cam bir kavanozun içine bir parça kırmızı fosfor konuyor, kavanozun kapağı sıkıca kapatılıyor ve kavanoz terazide tartılıyor (98 … | ✓Dışarıyla madde alışverişi olmadığı için küt…
+fen-kt-233 | F.8.4.3.1 | z2 | k2 | Ağzı açık bir kapta bir katı ısıtılıyor. Tepkime sırasında kaptan 3 g gaz çıkıyor, havadan kaba 5 g gaz katılıyor. Tepkimeden önc… | ✓82 g
+fen-kt-234 | F.8.4.3.1 | z2 | k2 | Bir öğrenci toz hâlindeki çinko ile sarı renkli kükürt tozunu bir kapta karıştırıyor; mercekle bakınca iki ayrı toz tanesi seçili… | ✓Isıtmadan sonraki toz, çinko ve kükürtten fa…
+fen-kt-235 | F.8.4.3.1 | z2 | k2 | Kapalı bir kapta 36 g K katısı ısıtılıyor. K tamamen ayrışarak yalnızca L katısı ile M gazını oluşturuyor ve kaptan hiçbir madde … | ✓21 g
+fen-kt-236 | F.8.4.3.1 | z2 | k2 | Bir öğrenci, defterine yazdığı aşağıdaki sözcüklü gösterimi yorumlayarak yargılar yazmıştır. hidrojen + oksijen → su I. Su, bu gö… | ✓II ve III
+fen-kt-237 | F.8.4.3.1 | z2 | k2 | Bir öğrenci kapalı kapta fosfor ile oksijeni iki ayrı deneyde tepkimeye sokuyor. İki deneyde de yalnızca fosfor oksit oluşuyor. 1… | ✓Fosfor, 2 g
+fen-kt-238 | F.8.4.3.1 | z2 | k2 | Şekilde bir tepkimenin tanecik modeli verilmiştir. X ve Y farklı atomları göstermektedir. Bu modele göre aşağıdakilerden hangisi … | ✓Girenlerden bir YY molekülü tepkimeye girmed…
+fen-kt-239 | F.8.4.3.1 | z2 | k2 | Ağzı açık bir kapta 24 g bakır tel havada ısıtılıyor. Bakır, havadaki oksijenle tepkimeye girerek yalnızca siyah renkli bakır oks… | ✓6 g
+fen-kt-240 | F.8.4.3.1 | z2 | k2 | Bir öğrenci bileşik ve karışım konusunda aşağıdaki yargıları yazmıştır. I. Bileşiğin özellikleri, onu oluşturan elementlerin özel… | ✓Yalnız III
+fen-kt-241 | F.8.4.3.1 | z2 | k2 | Yaprağın içinde gerçekleşen fotosentez olayı, ışık enerjisi kullanılarak şu şekilde gösterilir: karbondioksit + su → glikoz + oks… | ✓Karbondioksit ve su girenlerdir.
+fen-kt-242 | F.8.4.3.1 | z2 | k2 | Bir öğrenci kapalı kapta alüminyum ile kükürdü iki ayrı deneyde tepkimeye sokuyor. İki deneyde de yalnızca alüminyum sülfür oluşu… | ✓25 g
+fen-kt-243 | F.8.4.3.1 | z2 | k2 | Şekilde bir tepkimenin tanecik modeli verilmiştir. X ve Y farklı atomları göstermektedir. Buna göre girenlerdeki element molekülü… | ✓Giren: 1 element, ürün: 2 bileşik molekülü
+fen-kt-244 | F.8.4.3.1 | z2 | k2 | Bir öğrenci, laboratuvar etiketlerindeki bileşik adlarına bakarak bu bileşiklerin hangi iki maddenin tepkimesiyle oluştuğunu tahm… | ✓I ve III
+fen-kt-245 | F.8.4.3.1 | z2 | k2 | Üç öğrenci, terazi kullanılan tepkime deneyleriyle ilgili aşağıdaki yorumları yapmıştır. I. Açık kapta gerçekleşen tepkimede tera… | ✓Yalnız II
+fen-kt-246 | F.8.4.3.1 | z2 | k2 | Kapalı bir kapta K maddesi ile 9 g L maddesi tamamen tepkimeye girerek yalnızca 25 g M maddesini oluşturuyor. Tepkimeye giren K m… | ✓16 g
+fen-kt-247 | F.8.4.3.1 | z2 | k2 | Aşağıdakilerden hangisi kimyasal tepkimeyle oluşan bir bileşiğe örnektir? | ✓Alüminyum folyonun yüzeyinde havadaki oksije…
+fen-kt-248 | F.8.4.3.1 | z2 | k2 | Kapalı bir kapta 20 g K ile 12 g L karıştırılıp tepkime başlatılıyor. Tepkime sonunda L tamamen harcanıyor, K'den 8 g artıyor ve … | ✓24 g
+fen-kt-249 | F.8.4.3.1 | z2 | k2 | Şekilde kapalı bir kapta gerçekleşen bir tepkimenin başlangıç durumu ve oluşan ürünler gösterilmiştir. X ve Y farklı atomları gös… | ✓1 XX molekülü
+fen-kt-250 | F.8.4.3.1 | z2 | k2 | Kapalı bir kapta 9 g K ile 11 g L tamamen tepkimeye girerek yalnızca M ve N maddelerini oluşturuyor. M'nin kütlesi 14 g'dır. N ma… | ✓6 g
+fen-kt-251 | F.8.4.3.1 | z2 | k2 | Çakmaklarda yakıt olarak kullanılan bütan gazı yandığında karbondioksit ve su oluşur. Kapalı bir kapta 29 g bütan ile 104 g oksij… | ✓45 g
+fen-kt-252 | F.8.4.3.1 | z3 | k2 | Boş kütlesi 120 g olan bir şişeye 40 g su ve 12 g efervesan (köpüren) tablet konuyor ve şişenin kapağı hemen sıkıca kapatılıyor. … | ✓6 g
+fen-kt-253 | F.8.4.3.1 | z3 | k2 | Ağzı kapalı bir şişenin içinde kireç taşı parçası ile sirke tepkimeye giriyor; kabarcıklar çıkarak şişeyi gazla dolduruyor. Şişe,… | ✓I ve II
+fen-kt-254 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor. Grafik, üç maddenin kütlesinin zamanla deği… | ✓Tepkimede L maddesinden 4 g harcanmıştır.
+fen-kt-255 | F.8.4.3.1 | z3 | k2 | Şekilde bir tepkimenin tanecik modeli verilmiştir. X ve Y farklı atomları göstermektedir. I. Girenlerin ikisi de element molekülü… | ✓II ve III
+fen-kt-256 | F.8.4.3.1 | z3 | k2 | Bir öğrenci, gaz çıkaran aynı tepkimeyi üç ayrı düzenekte yapıyor. Üç düzenek de tepkimeden önce 150 g geliyor ve tepkimede 4 g g… | ✓1: 146 g, 2: 150 g, 3: 150 g
+fen-kt-257 | F.8.4.3.1 | z3 | k2 | Bir öğrenci kapalı kapta kalsiyum ile klor gazını üç ayrı deneyde tepkimeye sokuyor. Her deneyde yalnızca kalsiyum klorür oluşuyo… | ✓2. deney: 11 g, 3. deney: 11 g
+fen-kt-258 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta 20 g K katısı ısıtılıyor ve tamamen ayrışarak 12 g L katısı ile M gazını oluşturuyor. Daha sonra oluşan L katısı… | ✓M ve R; 26 g
+fen-kt-259 | F.8.4.3.1 | z3 | k2 | Ağzı açık bir kapta 90 g glikoz (üzüm şekeri), maya ile tamamen tepkimeye girerek etil alkol ve karbondioksit oluşturuyor. Tepkim… | ✓44 g
+fen-kt-260 | F.8.4.3.1 | z3 | k2 | Kapalı bir cam kapta kurşun tozu ile kükürt tozu karıştırılıp kap hiç açılmadan ısıtılıyor. Kap, ısıtmadan önce ve soğuduktan son… | ✓Yalnız III
+fen-kt-261 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta 14 g demir tozu ile 12 g kükürt tozu karıştırılıp ısıtılıyor. Demirin tamamı harcanıyor ve yalnızca 22 g demir s… | ✓4 g
+fen-kt-262 | F.8.4.3.1 | z3 | k2 | Şekilde bir kapta bulunan maddeler gösterilmiştir. X ve Y farklı atomları göstermektedir. Bu maddeler tepkimeye girerek yalnızca … | ✓3 ürün molekülü; 1 Y atomu artar
+fen-kt-263 | F.8.4.3.1 | z3 | k2 | Ağzı açık bir kapta bir katı ısıtılıyor; kap ile içindekiler ısıtmadan önce 90 g, ısıtma bittikten sonra 94 g geliyor. Isıtma sır… | ✓II ve III
+fen-kt-264 | F.8.4.3.1 | z3 | k2 | Bir öğrenci kapalı kapta magnezyum ile oksijeni üç ayrı deneyde tepkimeye sokuyor. Her deneyde yalnızca magnezyum oksit oluşuyor.… | ✓10 g oluşur; 2 g oksijen artar
+fen-kt-265 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta kıvılcımla başlatılan bir yanma tepkimesi sırasında ısı ve ışık açığa çıkıyor. Kap, yanmadan önce ve tamamen soğ… | ✓Yalnız I
+fen-kt-266 | F.8.4.3.1 | z3 | k2 | Aşağıdaki olaylardan hangisinde bir bileşik oluşmaz? | ✓Sıvı oksijenin ısınarak oksijen gazına dönüş…
+fen-kt-267 | F.8.4.3.1 | z3 | k2 | Ağzı açık bir kapta bulunan çinko tozu havada ısıtılınca beyaz bir toza (çinko oksit) dönüşüyor ve terazinin gösterdiği değer art… | ✓Yalnız II
+fen-kt-268 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta 16 g A ile 4 g B tamamen tepkimeye girerek yalnızca C maddesini oluşturuyor. Daha sonra oluşan C maddesinin tama… | ✓4 g
+fen-kt-269 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta yalnızca K maddesi ısıtılarak ayrıştırılıyor ve ürün olarak L ile M maddeleri oluşuyor. Grafik, üç maddenin kütl… | ✓2. dakikada kapta bulunan maddelerin toplam …
+fen-kt-270 | F.8.4.3.1 | z3 | k2 | Kapalı bir kapta 34 g hidrojen peroksit tamamen ayrışarak 18 g su ve oksijen gazı oluşturuyor. I. Oluşan oksijen gazının kütlesi … | ✓I ve II
+fen-kt-271 | F.8.4.3.1 | z3 | k2 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Bu model kütlenin korunumuna uygun değildir. X ve Y farklı atomları göstermekt… | ✓Bir Y atomu
+fen-kt-272 | F.8.4.3.1 | z3 | k2 | Bir öğrenci kapalı kapta X ve Y maddelerini üç ayrı deneyde tepkimeye sokuyor. Her deneyde yalnızca Z maddesi oluşuyor. 1. deneyd… | ✓28 g
+fen-kt-273 | F.8.4.3.1 | z3 | k2 | Hacmi değişebilen, sızdırmaz ve pistonlu bir kapta 16 g kükürt ile 16 g oksijen tamamen tepkimeye girerek kükürt dioksit gazını o… | ✓Hacim değişse de tepkimeden önce ve sonra kü…
+fen-kt-274 | F.8.4.3.1 | z3 | k2 | Bir kamp ateşinde yakılan 5 kg odundan geriye yalnızca 0,2 kg kül kalıyor. Bu olayla ilgili aşağıdakilerden hangisi söylenebilir? | ✓Odunun büyük kısmı gaz ürünlere dönüşüp hava…
+fen-kt-275 | F.8.4.3.1 | z3 | k2 | Ağzı açık bir kapta 20 g K katısı ile 10 g L sıvısı karıştırılıyor. K tamamen harcanıyor, L'den 4 g artıyor; tepkimede yalnızca M… | ✓20 g
+fen-kt-326 | F.8.4.3.1 | z3 | k3 | Bir laboratuvar defterine şu not düşülmüştür: "Gri renkli çinko tozu havada ısıtıldığında yanarak beyaz renkli çinko oksit tozuna… | ✓çinko + oksijen → çinko oksit
+fen-kt-327 | F.8.4.3.1 | z3 | k3 | Parlak bir alüminyum folyo havada bırakıldığında yüzeyinde fark edilmeyecek kadar ince, renksiz bir alüminyum oksit tabakası oluş… | ✓II ve III
+fen-kt-328 | F.8.4.3.1 | z3 | k3 | Şekilde X ve Y atomlarından oluşan bir tepkimenin kürelerle hazırlanmış modeli verilmiştir. Bu modele göre aşağıdakilerden hangis… | ✓Atomların toplam sayısı korunmuştur; molekül…
+fen-kt-329 | F.8.4.3.1 | z3 | k3 | Kireç taşı güçlü ısıtıldığında beyaz renkli sönmemiş kireç katısına ve karbondioksit gazına ayrışır. Ağzı açık bir kapta 25 g kir… | ✓Yalnız III
+fen-kt-330 | F.8.4.3.1 | z3 | k3 | Kurşun tozu ile kükürt tozu birlikte ısıtıldığında kurşun sülfür adlı bir madde oluşmaktadır. Bu üç maddenin görünümleri tabloda … | ✓Kurşun sülfür, kurşun ile kükürdün tepkimesi…
+fen-kt-331 | F.8.4.3.1 | z3 | k3 | Bir öğrenci, içinde sirke bulunan bir şişenin ağzına, içine kabartma tozu konmuş bir balon geçiriyor ve düzeneği terazide tartıyo… | ✓Yalnız II
+fen-kt-332 | F.8.4.3.1 | z3 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor. Grafikte üç maddenin kütlesinin zamanla değ… | ✓L maddesi, 4 g
+fen-kt-333 | F.8.4.3.1 | z3 | k3 | Bir öğretmen, öğrencilerinden bileşik adlarına bakarak o bileşiği oluşturan girenleri yazmalarını istemiştir. Bir öğrencinin ceva… | ✓1. ve 2. satırlar
+fen-kt-334 | F.8.4.3.1 | z3 | k3 | Şekilde bir bileşiğin, tepkimeyle başka maddelere ayrışması kürelerle modellenmiştir. I. Tepkimeden sonraki molekül sayısı, tepki… | ✓Yalnız I
+fen-kt-335 | F.8.4.3.1 | z3 | k3 | Mayalı hamur, ağzı açık bir kapta terazide tartılmış ve 2 saat boyunca bekletilmiştir. Maya hamurdaki şekeri kullanırken karbondi… | ✓I, II ve III
+fen-kt-336 | F.8.4.3.1 | z3 | k3 | Bir öğrenci, açık bir kapta katı bir madde ile bir sıvıyı karıştırıp gaz çıkışıyla ilerleyen bir tepkime başlatıyor ve kabı iki d… | ✓Girenlerden biri tükendiği için tepkime sona…
+fen-kt-337 | F.8.4.3.1 | z3 | k3 | Bir öğrenci, sözcüklerle gösterilen üç tepkimenin tablosunu doldururken K, L ve M yerlerini boş bırakmıştır. Buna göre K, L ve M … | ✓K: karbondioksit, L: hidrojen, M: oksijen
+fen-kt-338 | F.8.4.3.1 | z3 | k3 | Üç ayrı kapalı kapta farklı maddelerle üç tepkime yapılmıştır. Her tepkimede girenlerin tamamı harcanmış, kaptan madde ayrılmamış… | ✓19
+fen-kt-339 | F.8.4.3.1 | z3 | k3 | Bir bitkinin yaprağı ışık alırken karbondioksit ve su tepkimeye girer; glikoz ve oksijen oluşur. Kapalı bir düzenekte yapılan bir… | ✓45
+fen-kt-340 | F.8.4.3.1 | z3 | k3 | Üç ayrı açık kapta farklı maddeler havada yakılmış ve kaplar yanmadan önce ve sonra tartılmıştır. Yanma sonunda oluşan katı ürünl… | ✓Yalnızca çinko tozunda
+fen-kt-341 | F.8.4.3.1 | z3 | k3 | Çinko tozu ile kükürt tozu karıştırılıp suya atıldığında kükürt su yüzeyinde kalır, çinko ise dibe çöker. Aynı karışım ısıtıldığı… | ✓İlk örnek karışımdır; ikinci örnekte yeni bi…
+fen-kt-342 | F.8.4.3.1 | z3 | k3 | Şekilde X ve Y atomlarından oluşan girenler verilmiştir. Bu girenler tam olarak tepkimeye girmiş ve yalnızca X ile Y atomlarını b… | ✓Her biri 1 X ve 2 Y atomundan oluşan 2 molek…
+fen-kt-343 | F.8.4.3.1 | z3 | k3 | Çakmaktaki bütan gazı açık havada yanarken oksijenle tepkimeye girer; karbondioksit ve su buharı oluşur. Oluşan gazlar havaya kar… | ✓Ürünlerin toplamı 29 + 104 = 133 g'dır; gazl…
+fen-kt-344 | F.8.4.3.1 | z3 | k3 | Yeşil renkli bakır karbonat tozu ısıtıldığında siyah renkli bakır oksite ve karbondioksit gazına ayrışır. 40 g'lık boş bir kaba 3… | ✓71 g ve 60 g
+fen-kt-345 | F.8.4.3.1 | z3 | k3 | Suyun elektrik akımıyla hidrojen ve oksijen gazlarına ayrıştırıldığı bir deneyde 36 g su tamamen ayrışmış ve 4 g hidrojen toplanm… | ✓28
+fen-kt-346 | F.8.4.3.1 | z3 | k3 | Gümüş çatal-bıçak takımları havada uzun süre bırakıldığında yüzeyleri kararır. Kararan tabakanın adı gümüş sülfürdür; bu tabaka, … | ✓Tabaka gümüşün kükürtle birleşmesiyle oluşur…
+fen-kt-347 | F.8.4.3.1 | z3 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor. Kaptaki maddelerin kütlelerinin zamanla değ… | ✓28
+fen-kt-348 | F.8.4.3.1 | z3 | k3 | Bir araştırmacı, X ve Y maddelerinin kapalı kapta tepkimeye girerek yalnızca Z maddesini oluşturmasını inceliyor. İki deney yapıy… | ✓Y maddesi, 3 g
+fen-kt-349 | F.8.4.3.1 | z3 | k3 | Şekilde üç kapta bulunan maddelerin tanecik modelleri verilmiştir. Buna göre K, L ve M kaplarındaki maddeler için aşağıdakilerden… | ✓K element, L bileşik, M karışımdır
+fen-kt-350 | F.8.4.3.1 | z3 | k3 | Bir tavada şeker ısıtılınca önce erir, sonra kararır ve buhar çıkarır; geriye siyah bir katı kalır. Ağzı açık bir kapta 57 g şeke… | ✓9
+fen-kt-351 | F.8.4.3.1 | z3 | k3 | Bir öğrenci, dört bileşiğin adlarını tabloya yazmıştır. Bu bileşiklerin her biri, adında geçen iki elementin tepkimesiyle oluşur.… | ✓M ve N
+fen-kt-352 | F.8.4.3.1 | z3 | k3 | Yumurta kabuğu parçaları, içinde sirke bulunan ağzı açık bir bardağa bırakılıyor ve kabuğun yüzeyinde kabarcıklar çıkıyor. Bardak… | ✓148 g ve 4 g
+fen-kt-353 | F.8.4.3.1 | z3 | k3 | Kapalı bir kapta iki madde tepkimeye girerken ışık ve ısı yayılıyor; kabın dışı ısınıyor ve kabın içinde parlak bir alev görülüyo… | ✓Işık ve ısı yayılması kütle kaybı anlamına g…
+fen-kt-354 | F.8.4.3.1 | z3 | k3 | Kapalı bir kapta 17 g K maddesi ile 7 g L maddesi tamamen tepkimeye girerek yalnızca M ve N maddelerini oluşturuyor. Oluşan M'nin… | ✓8
+fen-kt-355 | F.8.4.3.1 | z3 | k3 | Bir öğrenci, kapalı bir kapta iki renksiz sıvıyı karıştırıyor; sıvı bir anda sarıya dönüyor ve kap elle hissedilecek kadar ısınıy… | ✓Yanlıştır; renk değişimi ve ısınma tepkimeye…
+fen-kt-356 | F.8.4.3.1 | z4 | k3 | Bir öğrenci dört deneyi sırayla yapmış ve kapları tepkimeden önce ve sonra tartmıştır. Deneylerin yalnızca birinde ölçüm hatalı y… | ✓M deneyinde
+fen-kt-357 | F.8.4.3.1 | z4 | k3 | Bir tepkimede A ve B maddeleri kapalı kapta birleşerek yalnızca C maddesini oluşturuyor. 1. deneyde girenlerin tamamı harcanmıştı… | ✓32
+fen-kt-358 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta 14 g K ile 6 g L tamamen tepkimeye girerek yalnızca M maddesini oluşturuyor (1. tepkime). Ardından kaba 12 g P m… | ✓23
+fen-kt-359 | F.8.4.3.1 | z4 | k3 | Aşağıda X atomları ile YY molekülleri arasındaki bir tepkime ve tepkime bittiğinde ortamda bulunan tanecikler gösterilmiştir. Bun… | ✓Tepkimeye girmeyen 1 X atomu ortamda kalmışt…
+fen-kt-360 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor. Grafikte üç maddenin kütlesinin zamanla değ… | ✓I, II ve III
+fen-kt-361 | F.8.4.3.1 | z4 | k3 | Bir öğrenci eşit kütlede magnezyum şerit ile bakır teli ayrı ayrı açık kaplarda havada ısıtıyor. Magnezyum parlak beyaz bir alevl… | ✓I ve II
+fen-kt-362 | F.8.4.3.1 | z4 | k3 | K ve L maddeleri kapalı kapta tepkimeye girerek yalnızca M maddesini oluşturuyor. Üç deneyin sonuçları tabloda verilmiştir; K ve … | ✓32
+fen-kt-363 | F.8.4.3.1 | z4 | k3 | Üç öğrenci, ağzı açık özdeş kaplarda aynı miktarda bakır tozunu havada ısıtmıştır. Bakır tozu havadaki oksijenle birleşerek siyah… | ✓Fuat, 4 g
+fen-kt-364 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta 10 g K ile 6 g L tamamen tepkimeye girerek yalnızca M maddesini oluşturuyor (1. tepkime). Ardından kaba 4 g P ma… | ✓M: 8 g, R: 12 g
+fen-kt-365 | F.8.4.3.1 | z4 | k3 | Aşağıda XX ve YY molekülleri arasındaki bir tepkime ve tepkime bittiğinde ortamda bulunan tanecikler gösterilmiştir. Buna göre bu… | ✓2 XX ve 1 YY
+fen-kt-366 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M ve N maddelerini oluşturuyor. Grafikte dört maddenin kütlesinin za… | ✓Yalnız II
+fen-kt-367 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M ve N maddelerini oluşturuyor. Tepkimeden önceki ve sonraki kütlele… | ✓17
+fen-kt-368 | F.8.4.3.1 | z4 | k3 | Tabloda X, Y ve bu iki maddenin tepkimesiyle oluşan Z maddesinin bazı özellikleri verilmiştir. Kapalı bir kapta 15 g X ile 8 g Y … | ✓Z 20 g'dır; kapta kalan X gri, parlak ve ele…
+fen-kt-369 | F.8.4.3.1 | z4 | k3 | Bir öğrenci dört deney yapmış ve kapları tepkimeden önce ve sonra tartmıştır. Deneylerin yalnızca birinde ölçüm hatalı yapılmıştı… | ✓L deneyinde, 88 g
+fen-kt-370 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor (1. tepkime). M daha sonra tamamen ayrışarak… | ✓Kapta yalnızca N ve P bulunur; P 10 g'dır ve…
+fen-kt-371 | F.8.4.3.1 | z4 | k3 | Şekilde XX ve YY moleküllerinin tepkimeye girerek iki farklı bileşik oluşturması kürelerle modellenmiştir. I. Tepkimeden önceki m… | ✓II ve III
+fen-kt-372 | F.8.4.3.1 | z4 | k3 | K ve L maddeleri kapalı kapta tepkimeye girerek yalnızca M maddesini oluşturuyor. Üç deneyin sonuçları tabloda verilmiştir; 1. ve… | ✓K maddesi, 4 g
+fen-kt-373 | F.8.4.3.1 | z4 | k3 | Kapalı bir kapta K ve L maddeleri tepkimeye girerek yalnızca M maddesini oluşturuyor. Grafikte üç maddenin kütlesinin zamanla değ… | ✓K'den 12 g harcanmıştır ve tepkime L tükenin…
+fen-kt-374 | F.8.4.3.1 | z4 | k3 | Bir öğrenci, her birinde 20 g nemli demir tozu bulunan iki özdeş kap hazırlıyor; boş kapların kütlesi 30 g'dır. Kaplardan birinin… | ✓I ve II
+fen-kt-375 | F.8.4.3.1 | z4 | k3 | Şekilde XX ve YY moleküllerinin tepkimeye girmesi ve tepkime bittiğinde ortamda bulunabilecek tanecikler için K, L, M ve N ile gö… | ✓L modeli
+fen-kt-016 | F.8.4.3.1 | z1 | k0 | Bir öğrenci bir tepkimeyi sözcüklerle şöyle yazıyor: alüminyum + oksijen → alüminyum oksit Bu gösterimde tepkimeye giren maddeler… | ✓Alüminyum ve oksijen
+fen-kt-017 | F.8.4.3.1 | z1 | k0 | Bileşiklerin adları, onları oluşturan elementler hakkında ipucu verir. Nikel sülfür adlı bileşik, nikelin hangi elementle tepkime… | ✓Kükürt
+fen-kt-018 | F.8.4.3.1 | z1 | k0 | Magnezyum klorür adlı bileşik hangi iki elementin tepkimesiyle oluşur? | ✓Magnezyum ve klor
+fen-kt-019 | F.8.4.3.1 | z1 | k0 | Bir öğrenci, ağzı sıkıca kapatılmış bir kapta bazı maddeleri tepkimeye sokuyor. Tepkimeye giren maddelerin toplam kütlesi 30 g'dı… | ✓30 g
+fen-kt-020 | F.8.4.3.1 | z1 | k0 | Kapalı bir kapta gerçekleşen bir tepkimenin girenlerinde toplam 6 oksijen atomu bulunuyor. Tepkime tamamlandığında ürünlerde topl… | ✓6
+fen-kt-021 | F.8.4.3.1 | z1 | k0 | Elementlerin tepkimesiyle oluşan bir bileşiğin özellikleri için aşağıdakilerden hangisi doğrudur? | ✓Özellikleri girenlerinkinden farklıdır; fizi…
+fen-kt-022 | F.8.4.3.1 | z1 | k0 | Bir öğrenci bir kaba kum ve ince tuz koyup karıştırıyor. Oluşan karışım için aşağıdakilerden hangisi doğrudur? | ✓Tepkimeye girmezler ve kendi özelliklerini k…
+fen-kt-023 | F.8.4.3.1 | z1 | k0 | Ağzı açık bir kapta 50 g odun tartılıp yakılıyor. Odun yandıktan sonra kapta yalnızca 2 g kül kalıyor. Kapta ölçülen kütledeki bu… | ✓Oluşan gazların açık kaptan havaya karışması
+fen-kt-024 | F.8.4.3.1 | z1 | k0 | Kireç taşı kuvvetle ısıtıldığında kalsiyum oksit ve karbondioksit oluşur. Bu tepkime sözcüklerle şöyle gösterilir: kireç taşı → k… | ✓Bir giren madde, iki ürün
+fen-kt-025 | F.8.4.3.1 | z1 | k0 | Şekilde K, L ve M ile gösterilen üç farklı molekülün modeli verilmiştir. Bu moleküllerden hangileri bileşik molekülüdür? | ✓K ve M
+fen-kt-026 | F.8.4.3.1 | z1 | k0 | Kapalı bir kapta E ve F maddeleri tamamen tepkimeye girerek yalnızca 40 g G maddesini oluşturuyor. Tepkimede 30 g E harcanıyor. H… | ✓10 g
+fen-kt-027 | F.8.4.3.1 | z1 | k0 | Bir tepkime sonunda kapta artan madde için aşağıdakilerden hangisi doğrudur? | ✓Tepkimeye girmeden kapta kalmıştır
+fen-kt-028 | F.8.4.3.1 | z2 | k0 | Şekilde bir tepkimenin tanecik modeli verilmiştir. Bu tepkimeyle ilgili aşağıdakilerden hangisi doğrudur? | ✓Giren bileşiktir, ürünler elementtir; atom s…
+fen-kt-029 | F.8.4.3.1 | z2 | k0 | Gümüş bir kaşık, havadaki kükürt içeren gazlarla tepkimeye girdiğinde yüzeyi kararır. Kararan yüzeydeki siyah tabakanın gümüş sül… | ✓Gümüş ve kükürtten oluşan, özellikleri farkl…
+fen-kt-030 | F.8.4.3.1 | z2 | k0 | Ağzı açık bir deney tüpünde 30 g yeşil renkli bakır karbonat ısıtılıyor. Tepkimede yalnızca siyah renkli bakır oksit katısı ve ka… | ✓18 g
+fen-kt-031 | F.8.4.3.1 | z2 | k0 | Hava; oksijen, azot ve başka gazların karışımıdır. Bu gazlar birbiriyle tepkimeye girmemiştir. Havadaki oksijen gazı için aşağıda… | ✓Tepkimeye girmediği için kendi özelliklerini…
+fen-kt-032 | F.8.4.3.1 | z2 | k0 | Elif, kapalı bir kapta sarı renkli bir çözeltiyle renksiz bir çözeltiyi karıştırıyor. Çözelti kırmızıya dönüyor ve kap ısınıyor. … | ✓Yanlıştır; çünkü kapalı kapta tepkime olsa d…
+fen-kt-033 | F.8.4.3.1 | z2 | k0 | Bir öğrenci aşağıdaki bileşikleri elementlerinden elde etmek istiyor ve bileşiklerin adlarından yararlanıyor. Elde etmek için oks… | ✓Kurşun oksit
+fen-kt-034 | F.8.4.3.1 | z2 | k0 | Bir öğrenci, kapalı bir kapta gerçekleşen bir tepkimeyi inceleyerek aşağıdaki yargılara ulaşıyor. I. Girenlerdeki atomların bir k… | ✓Yalnız II
+fen-kt-035 | F.8.4.3.1 | z2 | k0 | Kapalı bir kapta X ve Y maddeleri tepkimeye girerek yalnızca Z maddesini oluşturuyor. Grafikte üç maddenin kütlesinin zamanla değ… | ✓44 g
+fen-kt-036 | F.8.4.3.1 | z2 | k0 | Kapalı kaplarda yapılan iki deneyin verileri tabloda verilmiştir. Her iki deneyde de M ve N yalnızca P maddesini oluşturmuştur. 1… | ✓N, 3 g
+fen-kt-037 | F.8.4.3.1 | z2 | k0 | Sıkıca kapatılmış bir ışık çubuğu bükülünce içindeki iki sıvı karışıp tepkimeye giriyor ve çubuk ışık yayarak parlıyor. Çubuk, bü… | ✓18 g; çünkü kapalı kapta atomlar korunur
+fen-kt-038 | F.8.4.3.1 | z2 | k0 | Bir öğrenci elementlerden bileşik oluşumunu inceleyerek aşağıdaki yargılara ulaşıyor. I. Bileşiğin özellikleri, onu oluşturan ele… | ✓II ve III
+fen-kt-039 | F.8.4.3.1 | z2 | k0 | Sıkıca kapatılmış bir şişede 20 g X katısı kuvvetle ısıtılıyor. X katısının tamamı bozunarak 9 g Y katısı ve Z gazı oluşturuyor; … | ✓11 g
+fen-kt-040 | F.8.4.3.1 | z2 | k0 | Bir çakmakta bütan gazı yanarken havadaki oksijenle tepkimeye girer; tepkime sonunda karbondioksit ve su buharı oluşur. Bu tepkim… | ✓Girenler bütan ve oksijen, ürünler karbondio…
+fen-kt-041 | F.8.4.3.1 | z2 | k0 | Şekilde K, L ve M kaplarındaki maddelerin tanecik modelleri verilmiştir. Bu maddelerin sınıflandırılması aşağıdakilerden hangisin… | ✓K element, L bileşik, M karışım
+fen-kt-042 | F.8.4.3.1 | z2 | k0 | Açık bir kapta 26 g çinko tozu havada ısıtılıyor. Havadaki oksijenin 6 g'ı tepkimeye katılıyor ve çinko tamamen çinko oksit adlı … | ✓32 g
+fen-kt-043 | F.8.4.3.1 | z2 | k0 | Kapalı bir kapta A ve B maddeleri tepkimeye girerek yalnızca C ve D maddelerini oluşturuyor. Maddelerin kütlelerinin tepkimeden ö… | ✓12 g
+fen-kt-044 | F.8.4.3.1 | z2 | k0 | Kimyasal tepkimelerle ilgili aşağıdaki yargılar veriliyor. I. Kapalı kapta gerçekleşen bir tepkimede girenlerin toplam kütlesi, ü… | ✓I, II ve III
+fen-kt-045 | F.8.4.3.1 | z2 | k0 | Bir öğrenci, kapalı bir kapta gerçekleşen bir tepkimenin girenlerindeki ve ürünlerindeki atom ve molekül sayılarını tabloya yazıy… | ✓4
+fen-kt-046 | F.8.4.3.1 | z2 | k0 | Şekilde bir kapta bulunan girenler ve tepkimede oluşacak ürün molekülü gösterilmiştir. Tepkime, Y atomlarının tamamı harcanıncaya… | ✓4
+fen-kt-047 | F.8.4.3.1 | z2 | k0 | Bir tesiste kapalı bir reaktörde 5000 g A maddesi ile bir miktar B maddesi tamamen tepkimeye girerek 9 kg ürün veriyor. Tepkimeye… | ✓4000 g
+fen-kt-048 | F.8.4.3.1 | z3 | k0 | Kapalı kaplarda C ve D maddelerinden yalnızca E maddesi oluşuyor. 1. deneyde C ve D tamamen harcanmıştır. Deney verileri tabloda … | ✓20 g E; 2 g D artar
+fen-kt-049 | F.8.4.3.1 | z3 | k0 | Ece, ağzı açık bir erlene yumurta kabuğu parçaları ve sirke koyup kabı terazide tartıyor. Kabarcıklar çıkarken terazi 210 g'dan 2… | ✓Yalnız III
+fen-kt-050 | F.8.4.3.1 | z3 | k0 | Dört kapta birer tepkime gerçekleştirilmiştir. Kapların ağız durumları ve tepkimelerdeki gaz hareketleri tabloda verilmiştir. Her… | ✓Yalnızca L ve M
+fen-kt-051 | F.8.4.3.1 | z3 | k0 | Aynı tepkime üç kapta yapılıyor. 1. ve 2. kaplardaki madde miktarları aynıdır; 3. kaptaki madde miktarları bunların iki katıdır. … | ✓148 g
+fen-kt-052 | F.8.4.3.1 | z3 | k0 | Bir öğrenci çinko tozu ile kükürt tozunu karıştırıyor (K). Karışımı ısıtınca bir tepkime gerçekleşiyor ve çinko sülfür adlı yeni … | ✓I ve II
+fen-kt-053 | F.8.4.3.1 | z3 | k0 | Şekilde bir kapta bulunan girenler ve tepkimede oluşacak ürün molekülü gösterilmiştir. Tepkime, girenlerden biri tükenene kadar s… | ✓4 ürün molekülü oluşur, 2 Y atomu artar
+fen-kt-054 | F.8.4.3.1 | z3 | k0 | Kapalı bir kapta 18 g A ve 12 g B maddeleri karıştırılıyor. Tepkime sonunda A'dan hiç kalmıyor, B'den 4 g artıyor ve yalnızca C i… | ✓I ve III
+fen-kt-055 | F.8.4.3.1 | z3 | k0 | Kapalı bir kapta P ve Q maddeleri tepkimeye girerek yalnızca R maddesini oluşturuyor. Maddelerin kütlelerinin tepkimeden önceki v… | ✓P artmıştır; R'nin kütlesi 22 g'dır
+fen-kt-056 | F.8.4.3.1 | z3 | k0 | Bir öğrenci, dört kapta yapılan tepkimeleri tabloya yazıyor. Oluşan bileşiklerin adlarını doğru yazmış; ancak bir kapta tepkimeye… | ✓2. kap; kükürt yerine oksijen yazılmalı
+fen-kt-057 | F.8.4.3.1 | z3 | k0 | Kalsiyum ile klor tepkimeye girerek kalsiyum klorür bileşiğini oluşturur. Bu üç maddenin bazı özellikleri tabloda verilmiştir. I.… | ✓II ve III
+fen-kt-058 | F.8.4.3.1 | z3 | k0 | Kapalı bir kapta 8 g A ile 10 g B karıştırılıyor. A tamamen harcanarak yalnızca C maddesi oluşuyor ve B'den 2 g artıyor. Sonra ka… | ✓22 g
+fen-kt-059 | F.8.4.3.1 | z3 | k0 | Bir öğrenci, tanecik modelini kullanarak bir tepkimeyi inceliyor. Girenler yalnızca iki X atomlu X molekülleri ile iki Y atomlu Y… | ✓2 X molekülü ve 6 Y molekülü
+fen-kt-060 | F.8.4.3.1 | z3 | k0 | Aynı kireç taşı örneği (kalsiyum karbonat) üç kapta ısıtılıyor. Kireç taşı kalsiyum oksit katısına ve karbondioksit gazına ayrışı… | ✓Yalnız II
+fen-kt-061 | F.8.4.3.1 | z3 | k0 | Parlak bir alüminyum folyo havada bekletildiğinde yüzeyi matlaşıyor. Matlaşan ince tabakanın alüminyum oksit adlı beyaz bir madde… | ✓Tepkime olmuştur; çünkü farklı özellikli yen…
+fen-kt-062 | F.8.4.3.1 | z3 | k0 | Pistonu serbestçe hareket edebilen kapalı bir düzenekte bir katı ile bir sıvı tepkimeye giriyor ve gaz oluşuyor; piston yukarı çı… | ✓Terazi 75 g'dır; hacim artmıştır
+fen-kt-063 | F.8.4.3.1 | z3 | k0 | Bir öğrenci, X−X ve Y−Y molekülleri arasındaki bir tepkimenin modelini çiziyor. Öğrencinin çizdiği model kütlenin korunumuna uygu… | ✓Bir X atomu çıkarılıp bir Y atomu eklenmeli
+fen-kt-064 | F.8.4.3.1 | z4 | k0 | Bir kimya kulübünde kapalı kaplarda P ve R maddelerinden yalnızca S maddesi elde ediliyor. 1. deneyde P ve R tamamen harcanmıştır… | ✓6 g
+fen-kt-065 | F.8.4.3.1 | z4 | k0 | Ağzı açık bir kapta bir metal tozu havada ısıtılıyor ve metal tamamen oksit adlı bir bileşiğe dönüşüyor. Kap ve içindekiler tepki… | ✓II ve III
+fen-kt-066 | F.8.4.3.1 | z4 | k0 | Ağzı açık bir kapta bir katı ısıtılıyor. Kap ve içindekiler tepkimeden önce 64 g, tepkime bittikten sonra 59 g geliyor. Tepkime s… | ✓Kaptan çıkan gaz, havadan giren gazdan 5 g f…
+fen-kt-067 | F.8.4.3.1 | z4 | k0 | Kapalı bir kapta X ve Y maddeleri tepkimeye girerek yalnızca Z maddesini oluşturuyor. Grafikte üç maddenin kütlesinin zamanla değ… | ✓Yalnız I
+fen-kt-068 | F.8.4.3.1 | z4 | k0 | Bir öğrenci kapalı bir kapta art arda iki tepkime gerçekleştiriyor. 1. aşamada A ve B maddeleri tepkimeye girerek yalnızca C madd… | ✓30 g
+fen-kt-069 | F.8.4.3.1 | z4 | k0 | Bir laboratuvarda kapalı bir kapta 39 g potasyum metali ile 50 g klor gazı karıştırılıyor. Tepkime bittiğinde kapta potasyumdan h… | ✓Potasyum klorürün kütlesi 74 g'dır; artan kl…
+fen-kt-070 | F.8.4.3.1 | z4 | k0 | Şekilde bir kapta gerçekleşen tepkimenin tanecik modeli verilmiştir. I. Tepkime sonunda kapta X atomu kalmamıştır. II. Y atomları… | ✓Yalnız III
+fen-kt-071 | F.8.4.3.1 | z4 | k0 | Ağzı açık bir kapta bir metal tozu ısıtılıyor. Isıtma sırasında kapta birden fazla olay aynı anda gerçekleşebilmektedir; gaz alış… | ✓4 dakika boyunca giren gaz, çıkan gazdan 3 g…
+fen-kt-072 | F.8.4.3.1 | z4 | k0 | Ağzı açık bir alkol lambası terazinin üzerinde yanarken terazinin gösterdiği değer 3 dakikada 142 g'dan 139 g'a iniyor. Yanma sır… | ✓Yalnız II
+fen-kt-073 | F.8.4.3.1 | z4 | k0 | Aynı maddelerden aynı miktarda alınıp özdeş iki kapta tepkimeye sokuluyor; tepkimede gaz oluşuyor. 1. kap sıkıca kapalıdır, 2. ka… | ✓111 g
+fen-kt-074 | F.8.4.3.1 | z4 | k0 | Hava dolu, sıkıca kapatılmış bir cam şişenin içinde 12 g magnezyum şeridi dışarıdan odaklanan ışıkla yakılıyor. Şerit parlak bir … | ✓I ve III
+fen-kt-075 | F.8.4.3.1 | z4 | k0 | Bir öğrenci, katı bir madde ile bir sıvının tepkimesinde gaz oluştuğunu biliyor. Tepkimeyi ağzı açık bir kapta yapıyor; havadan k… | ✓36 g
