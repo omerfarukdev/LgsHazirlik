@@ -26,6 +26,7 @@ window.LGS_HAP["dogrusal-denklemler"] = {
       maddeler: [
         "**Koordinat sistemi**, birbirine dik iki sayı doğrusundan oluşur: yatay **x ekseni**, dikey **y ekseni**. Kesişim noktası **orijin** O(0, 0)'dır.",
         "Her nokta bir **sıralı ikili** (x, y) ile gösterilir. **İlk sayı yatay**, ikinci sayı **dikey** konumu verir. Sıra önemlidir: (2, 5) ile (5, 2) farklı noktalardır.",
+        "Sıralı ikilinin birinci bileşenine **apsis**, ikincisine **ordinat** denir: (−4, 3) noktasının apsisi −4, ordinatı 3'tür. Bir noktanın **y eksenine uzaklığı** apsisinin, **x eksenine uzaklığı** ordinatının işaretsiz değeridir. Nokta **y ekseni üzerindeyse apsisi 0**, **x ekseni üzerindeyse ordinatı 0**'dır.",
         "Konum için orijinden başla: x pozitifse sağa, negatifse sola; y pozitifse yukarı, negatifse aşağı git. (−4, 3) orijinin 4 birim solunda, 3 birim yukarısındadır.",
         "Eksenler düzlemi **4 bölgeye** ayırır; numaralama **saatin tersi yönündedir**. Eksenler üzerindeki noktalar hiçbir bölgede sayılmaz.",
         "Aynı yatay (ya da dikey) doğru üzerindeki iki noktanın uzaklığı koordinatların farkıdır: (−1, 2) ile (5, 2) arası 5 − (−1) = 6 birimdir. Harita ve oturma planında **1 birimin kaç metre** olduğuna bak.",
