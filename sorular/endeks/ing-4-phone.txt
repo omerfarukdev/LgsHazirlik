@@ -88,3 +88,213 @@ ing-u4-012 | E8.4.L1 | z3 | k0 | Ben called Gül's mobile three times, but the l
 ing-u4-013 | E8.4.R1 | z4 | k0 | Ms. Sevgi, a school director, reads this memo and calls Mr. Tan. Ms. Sevgi: Hello! This is Sevgi Aras calling. May I speak to Mr.… | ✓She will be at school when the desks arrive.
 ing-u4-014 | E8.4.R1 | z4 | k0 | The school secretary wrote these memos on Monday. Which one is NOT true according to the memos? | ✓Mr. Aksoy called Ms. Bal and Mr. Cin at the …
 ing-u4-015 | E8.4.L2 | z4 | k0 | It is 4.20 pm. Hasan calls his friend Burcu's house. Hasan: Hello! This is Hasan calling. Is Burcu in? Mrs. Er: She is at her pia… | ✓5.05
+ing-u4-126 | E8.4.SI1 | z1 | k1 | Zehra calls her friend Oliver. Oliver's father answers the phone. Zehra: Hello! This is Zehra calling. - - - - Father: Sure. Hang… | ✓May I speak to Oliver, please?
+ing-u4-127 | E8.4.R1 | z1 | k1 | The phone is ringing in Nehir's room. She wants to answer it, so she - - - - the phone. Which completes the sentence? | ✓picks up
+ing-u4-128 | E8.4.L1 | z1 | k1 | The secretary says to the caller, "I'm afraid Mr Polat is on another line." What does the secretary mean? | ✓He is talking to someone.
+ing-u4-129 | E8.4.R1 | z1 | k1 | Operator: Please - - - - the line. I'll check if Mr Soner is available. Which completes the sentence? | ✓hold
+ing-u4-130 | E8.4.SP1 | z1 | k1 | Pınar: It's very dark in the hall. Onur: - - - - Which completes the dialogue? | ✓I'll turn on the light.
+ing-u4-131 | E8.4.L1 | z1 | k1 | Ms Ilgın says to a caller, "I'm busy now. Please call back later." What does the caller need to do? | ✓Phone again later.
+ing-u4-132 | E8.4.R1 | z1 | k1 | Bülent's mother leaves a note on the table: "Bülent, Grandpa called. Please call him back after school." This note is a - - - -. … | ✓memo
+ing-u4-133 | E8.4.SI1 | z1 | k1 | Ms Rose's phone rings and she picks it up herself. Caller: Hello. May I speak to Ms Rose, please? Ms Rose: - - - - Which complete… | ✓Speaking. How can I help you?
+ing-u4-134 | E8.4.L2 | z1 | k1 | Onur calls Irmak's house. Irmak's brother answers: "Irmak is at the swimming pool. She will be back at six." Where is Irmak now? | ✓At the swimming pool.
+ing-u4-135 | E8.4.R1 | z1 | k1 | Mr Kurt is not - - - - now. He is in a meeting, so he can't talk on the phone. Which completes the sentence? | ✓available
+ing-u4-136 | E8.4.L1 | z1 | k1 | Rana says to her friend before the summer holiday, "Let's keep in touch!" What does Rana want? | ✓To call or write to each other.
+ing-u4-137 | E8.4.R1 | z1 | k1 | Tamer calls the cinema line and listens to the phone menu. He wants to learn what time the film starts. Which number should he pr… | ✓Press 2
+ing-u4-138 | E8.4.SP1 | z1 | k1 | Teacher: It's very hot in the classroom. Student: - - - - Which completes the dialogue? | ✓I'll open the window.
+ing-u4-139 | E8.4.SI1 | z1 | k1 | Duru calls the city library to ask about its opening hours. The librarian gives her the information. Duru: Thank you for your hel… | ✓Goodbye. Have a nice day.
+ing-u4-140 | E8.4.L2 | z1 | k1 | Leo calls Mia, but her brother answers: "Mia is washing her hair. She'll call you back in twenty minutes." Leo: OK, thanks. Who w… | ✓Mia
+ing-u4-141 | E8.4.R1 | z1 | k1 | Pınar finds a note from Grandma: "Pınar, I called you, but you were at school. Please call me before dinner. I'm at home." What s… | ✓Call Grandma before dinner.
+ing-u4-142 | E8.4.SP1 | z1 | k1 | Selen calls Can. Can says, "The football match is cancelled because of the rain." Selen: Oh, that's a pity. - - - - Which complet… | ✓We'll play next Sunday, then.
+ing-u4-143 | E8.4.R1 | z1 | k1 | Cansu reads this sign in a train. What should passengers do on the phone? | ✓Always speak in a quiet voice.
+ing-u4-144 | E8.4.R1 | z1 | k1 | Cenk dials a number, but a stranger answers. Cenk says, "Sorry, I think I have dialled the wrong - - - -." Which completes the se… | ✓number
+ing-u4-145 | E8.4.L2 | z1 | k1 | Nalan calls her teacher. Mrs Ak: Sorry, I'm driving now. I'll call you when I get home. Why will Mrs Ak call later? | ✓She is driving now.
+ing-u4-146 | E8.4.SI1 | z1 | k1 | Receptionist: Good evening, Palm Hotel. Caller: Hello. I'd like to speak to the manager, please. Receptionist: - - - - Which comp… | ✓Of course. I'll connect you.
+ing-u4-147 | E8.4.W1 | z1 | k1 | Ahmet wants to call his grandfather. I. The phone rings. II. Ahmet dials the number. III. Grandpa picks up the phone. Which is th… | ✓II – I – III
+ing-u4-148 | E8.4.SP1 | z1 | k1 | Jade can't talk now because her lesson starts. She tells her friend she will call again. Which sentence is correct? | ✓I'll call you later.
+ing-u4-149 | E8.4.R1 | z1 | k1 | Ulaş writes to his friend: "I'm at the cinema, so my phone is off. Send me a message. I'll answer after the film." When will Ulaş… | ✓After the film.
+ing-u4-150 | E8.4.SI1 | z2 | k1 | Yeşim calls Moda Hair Salon. Receptionist: Hello, Moda Hair Salon. Yeşim: Hello! This is Yeşim calling. I'd like an appointment f… | ✓Is eleven o'clock OK for you?
+ing-u4-151 | E8.4.R1 | z2 | k1 | Mrs Çelik's class reads this note about tomorrow's school bus. What time will the school bus leave tomorrow? | ✓6.45
+ing-u4-152 | E8.4.R1 | z2 | k1 | Işıl was in her swimming lesson until 5.00 p.m. and could not answer her phone. She reads her call list. Which missed call did sh… | ✓Ada
+ing-u4-153 | E8.4.SP1 | z2 | k1 | Ceren's grandmother calls and says, "My TV remote is broken, and I can't change the channel." Ceren: Don't worry, Grandma. - - - … | ✓I'll come and look at it.
+ing-u4-154 | E8.4.L2 | z2 | k1 | Mehmet calls Green Pharmacy in the evening and hears this recording: "Thank you for calling Green Pharmacy. We are closed now and… | ✓Callers can dial another number for help.
+ing-u4-155 | E8.4.R1 | z2 | k1 | Mr Taş: I tried to - - - - you yesterday, but I couldn't reach you. Please give me your new number. Which completes the sentence? | ✓contact
+ing-u4-156 | E8.4.SI1 | z2 | k1 | Meral dials a number from an old list and asks for Mr Aras. Nobody called Aras lives at that house. Meral: Hello. Is Mr Aras ther… | ✓Sorry, nobody called Aras lives here.
+ing-u4-157 | E8.4.L2 | z2 | k1 | Mrs Ünal calls her son's school. Mrs Ünal: Hello, this is Mrs Ünal. Can I speak to Mr Dinç, please? Secretary: I'm afraid he is t… | ✓Mr Dinç will phone Mrs Ünal.
+ing-u4-158 | E8.4.R1 | z2 | k1 | Ahmet can't use his phone at school, so he can call only after 3.00 p.m. on school days. This table shows when Ms Lena is availab… | ✓Wednesday at 3.30 p.m.
+ing-u4-159 | E8.4.SP1 | z2 | k1 | Gizem calls Sude: "I forgot the time of the meeting." Sude: - - - - Which completes the dialogue? | ✓I'll text you the time now.
+ing-u4-160 | E8.4.L1 | z2 | k1 | Receptionist: Hang on a minute. I'll find the file. Which phrase has the same meaning as "hang on"? | ✓hold on
+ing-u4-161 | E8.4.R1 | z2 | k1 | Mr Taner returns to his desk and finds this note. Why did Mr Arda call? | ✓To say the posters are ready.
+ing-u4-162 | E8.4.L2 | z2 | k1 | Nilay calls Orhan's house. Orhan's sister: Orhan is at football practice. He will be home at 8.00. Nilay: I go to bed at 9.00. Pl… | ✓Between 8.00 and 9.00
+ing-u4-163 | E8.4.SI1 | z2 | k1 | Customer: May I speak to Ms Koç in accounting? Operator: Yes, she is at her desk. Her extension is 17. - - - - Customer: Thank yo… | ✓Hold on, I'll connect you.
+ing-u4-164 | E8.4.R1 | z2 | k1 | Gökçe finds this e-mail from her aunt. "Hi Gökçe, I rang your home twice this evening, but nobody picked up. Are you OK? Please r… | ✓Gökçe should phone her.
+ing-u4-165 | E8.4.SP1 | z2 | k1 | Neslihan and Zeki plan a picnic in the park. At noon it starts to rain. Neslihan: It's raining. We can't have the picnic outside.… | ✓We'll have it at my house, then.
+ing-u4-166 | E8.4.L2 | z2 | k1 | Mrs Aksu works for a flower shop. She calls Mr Alp's office. Mrs Aksu: Hello, can I speak to Mr Alp? Receptionist: He is at lunch… | ✓The flowers will come on Friday.
+ing-u4-167 | E8.4.R1 | z2 | k1 | Efsun calls a company's help line on Saturday at 10 a.m. The phone menu gives these opening hours. Which department is open at th… | ✓Support
+ing-u4-168 | E8.4.W1 | z2 | k1 | Ayça calls a tailor's shop. These sentences are from the conversation, but they are mixed. I. Yes, please. Tell her I called. II.… | ✓IV – III – II – I
+ing-u4-169 | E8.4.SI1 | z2 | k1 | A guest in Room 214 calls the reception of Sea View Hotel. Guest: Hello. The TV in my room doesn't work. Receptionist: - - - - Wh… | ✓I'm sorry to hear that. I'll send someone.
+ing-u4-170 | E8.4.R1 | z2 | k1 | Kemal calls his mother, but her voice keeps breaking. Kemal: Mum, I can't hear you well. Mum: The - - - - is bad here. I'll call … | ✓line
+ing-u4-171 | E8.4.L2 | z2 | k1 | It is 4.15 p.m. Tom has sent Nora a text: "I'm free from 4.30. Call me then." Nora replies: "OK, but I'll call you in an hour." A… | ✓5.15
+ing-u4-172 | E8.4.SI1 | z2 | k1 | Receptionist: Mr Say's office. Caller: Is Mr Say in, please? Receptionist: He is out until two. - - - - Caller: Yes, please. Coul… | ✓May I take a message?
+ing-u4-173 | E8.4.R1 | z2 | k1 | Ozan reads this text from his father: "I'll be late for dinner. Please don't call me because I'm in a meeting. Send me a message … | ✓Dad will read messages at break.
+ing-u4-174 | E8.4.L2 | z2 | k1 | Faruk calls a furniture shop. Faruk: Hello, this is Faruk Aydın. I ordered a bookcase last week, but it hasn't arrived. Shop: I'm… | ✓Faruk's address is wrong.
+ing-u4-175 | E8.4.R1 | z2 | k1 | Zeynep starts a summer job at a call centre. She reads this poster on the wall. Which one is true according to the poster? | ✓Workers always say their name first.
+ing-u4-226 | E8.4.SI1 | z2 | k2 | Yaren calls her classmate Gizem to ask about the homework. Gizem's father answers the phone. Yaren: Hello! This is Yaren calling.… | ✓Can you hold on a moment? I'll get her.
+ing-u4-227 | E8.4.R1 | z2 | k2 | Mete is in class and his phone suddenly makes a loud noise. Everybody looks at him. He says, "Sorry, my phone just - - - -. I for… | ✓rang
+ing-u4-228 | E8.4.L2 | z2 | k2 | Volkan calls the office of a sports club. Volkan: Hello! This is Volkan calling. May I speak to Ms Aydın, please? Receptionist: I… | ✓She is talking to someone else.
+ing-u4-229 | E8.4.SP1 | z2 | k2 | Nehir calls her friend Cansu one hour before her sister's birthday party. Nehir: Oh no! I forgot to buy a card for my sister, and… | ✓No problem. I'll lend you some colour pens.
+ing-u4-230 | E8.4.R1 | z2 | k2 | Kerim's swimming coach left this phone memo for him. Kerim reads it at home. What time is the training today? | ✓4.00 p.m.
+ing-u4-231 | E8.4.SI1 | z2 | k2 | Sinem calls the customer line of a mobile phone company. Agent: Hello, Fast Mobile. How can I help you? Sinem: Hello. My phone do… | ✓I'll check your line. Can you hold on?
+ing-u4-232 | E8.4.L2 | z2 | k2 | At the end of a summer camp, Mia says to her new friend Leyla, "Let's keep in touch after the camp. I'll send you my phone number… | ✓To stay in contact with Leyla
+ing-u4-233 | E8.4.R1 | z2 | k2 | Beyza calls her school at 3.45 p.m. because her brother is not feeling well. The offices are shown in the table. The operator say… | ✓38
+ing-u4-234 | E8.4.SP1 | z2 | k2 | Leo is very hungry. He wants to order a pizza by phone, but the pizza shop's line is engaged. Leo: The line is engaged again! I c… | ✓OK, let's wait. I'll try again in five minut…
+ing-u4-235 | E8.4.W1 | z2 | k2 | These sentences are from a phone conversation between Hugo and a sports centre, but they are mixed. I. Hello, Green Sports Centre… | ✓I – III – II – IV
+ing-u4-236 | E8.4.L1 | z2 | k2 | Sema called her grandfather ten times, but nobody picked up. What does "picked up" mean here? | ✓answered the call
+ing-u4-237 | E8.4.R1 | z2 | k2 | Pınar sends this message to her friends. Hi everyone, My old phone broke last week, so my number has changed. Please delete my ol… | ✓To tell them about her new number
+ing-u4-238 | E8.4.L2 | z2 | k2 | Derya calls her teacher Mr Aras at home to ask about the exam. Mr Aras: Hello? Derya: Hello, Mr Aras. This is Derya calling. When… | ✓Call her teacher again tomorrow
+ing-u4-239 | E8.4.SI1 | z2 | k2 | Omar left his school bag on a bus. He calls the lost property office of the bus company. Officer: Hello, City Buses. I'm afraid t… | ✓Yes, please. Could you ask him to call me ba…
+ing-u4-240 | E8.4.L1 | z2 | k2 | Sena is talking to her aunt on the phone. Suddenly Sena says, "My battery is low. I'll call you back." Her aunt says, "Wait! Don'… | ✓Sena should not end the call yet.
+ing-u4-241 | E8.4.SP1 | z2 | k2 | Zehra calls her friend Berk because she doesn't understand the science homework. Zehra: I read the question three times, but I st… | ✓Don't worry. I'll come to your house after d…
+ing-u4-242 | E8.4.R1 | z2 | k2 | Dad's book has arrived at the library. A neighbour took this phone memo for him. Which one is TRUE according to the memo? | ✓Dad can collect the book before closing time…
+ing-u4-243 | E8.4.L2 | z2 | k2 | Lucy dials a number. A man answers. Man: Hello, Daisy Bakery. Lucy: Oh, hello. I'd like to speak to Dr Moore, please. Man: I'm so… | ✓Lucy called the wrong place.
+ing-u4-244 | E8.4.R1 | z2 | k2 | When you call a big company, a person called the - - - - may answer first and connect you to the right department. Which complete… | ✓operator
+ing-u4-245 | E8.4.W1 | z2 | k2 | Zeynep's little brother is learning how to make a phone call. His sister writes these steps, but they are mixed. I. Dial the numb… | ✓I – III – II – IV
+ing-u4-246 | E8.4.L2 | z2 | k2 | Peter calls Dan at 4.50 p.m. to ask about the football match. Peter: Are you coming to the match on Saturday? Dan: I'm not sure. … | ✓5.00 p.m.
+ing-u4-247 | E8.4.L1 | z2 | k2 | Ozan calls his uncle's shop. A woman answers: "I'm sorry, Mr Alp isn't available at the moment. He is with a customer. He can cal… | ✓He cannot come to the phone now
+ing-u4-248 | E8.4.SI1 | z2 | k2 | Ayşe calls a language school. Ayşe: Hello. May I speak to Mr Yıldız, please? Mr Yıldız: - - - - Ayşe: Oh, hello Mr Yıldız. I'm ca… | ✓Speaking. How can I help you?
+ing-u4-249 | E8.4.SP1 | z2 | k2 | Julia calls Omar to invite him to a picnic. Julia: We are having a picnic in the park on Sunday. Would you like to come? Omar: - … | ✓Great! I'll bring some sandwiches.
+ing-u4-250 | E8.4.R1 | z2 | k2 | Eylül sees this on her phone screen. When should Eylül call her mum? | ✓After 6.00 p.m.
+ing-u4-251 | E8.4.SI1 | z2 | k2 | Ali's teacher tells the class to be polite when they call someone on the phone. Which sentence is the most polite way to ask for … | ✓Hello. May I speak to Mr Ak, please?
+ing-u4-252 | E8.4.R1 | z3 | k2 | Mr Demir was out all morning. His neighbour took this phone memo for him at the tailor's request. Which one is TRUE according to … | ✓Mr Demir must collect his jacket by 6 p.m. t…
+ing-u4-253 | E8.4.SI1 | z3 | k2 | Nina calls a dance course to cancel her Thursday lesson. Receptionist: Hello, Moonlight Dance Course. Nina: Hello! This is Nina B… | ✓Would you like to leave a message, then?
+ing-u4-254 | E8.4.L2 | z3 | k2 | Hugo calls Ms Reis, the school canteen manager, about the class party. Hugo: Hello! This is Hugo from 8-B calling. May I speak to… | ✓Hugo needs Ms Reis's speakers for the music.
+ing-u4-255 | E8.4.SP1 | z3 | k2 | Okan ordered a football shirt online. It was going to arrive on Monday, but today is Wednesday. He calls the shop. Okan: Hello! T… | ✓Let me look at the system and call you back.
+ing-u4-256 | E8.4.R1 | z3 | k2 | A school has a homework help line. Mete has football training until 4.30 p.m. every weekday, so he can only phone after that. He … | ✓Wednesday at 4.45 p.m.
+ing-u4-257 | E8.4.W1 | z3 | k2 | Eylül wants to join the school chess club. She calls the club teacher. These sentences are from the phone conversation, but they … | ✓III – II – IV – I – V
+ing-u4-258 | E8.4.R1 | z3 | k2 | A summer camp office sends this notice to the parents. Dear parents, You can contact the camp office by phone between 9.00 a.m. a… | ✓Call after 10.00 a.m. or write an e-mail
+ing-u4-259 | E8.4.L1 | z3 | k2 | The word "hold" has different meanings in different sentences. In which sentence does "hold" mean "wait on the phone"? | ✓Can you hold, please? I'll put you through t…
+ing-u4-260 | E8.4.SI1 | z3 | k2 | Mark has a question about the science homework, so he wants to call his teacher, Mr Ray. He dials a number, but he makes a mistak… | ✓I'm afraid you have the wrong number.
+ing-u4-261 | E8.4.SP1 | z3 | k2 | Selim calls his friend Cansu. They plan to do their English project together. Selim: Can we meet at my house at four? Cansu: I'm … | ✓I'll come to your house at four, then.
+ing-u4-262 | E8.4.L2 | z3 | k2 | Lale left her umbrella at a cinema. She calls the cinema on Saturday morning. Lale: Hello! This is Lale calling. I left a blue um… | ✓Call the cinema again on Sunday
+ing-u4-263 | E8.4.R1 | z3 | k2 | Ms Gür sends this e-mail to Ayla's father. Dear Mr Polat, I'm Ayla's English teacher. I phoned your home at 4.00 p.m. yesterday, … | ✓Mr Polat can dial 22 before 5 p.m. tomorrow.
+ing-u4-264 | E8.4.SI1 | z3 | k2 | Mr Berk calls his bank because he lost his bank card yesterday. He talks to an operator. Operator: Good morning, Blue Bank. How c… | ✓Please hold the line. I'll put you through t…
+ing-u4-265 | E8.4.R1 | z3 | k2 | Mum comes home at 11.30 a.m. and reads three messages on the fridge. She wants to make the calls in the best order. Which order i… | ✓Mr Ay – the school – Aunt Hale
+ing-u4-266 | E8.4.L2 | z3 | k2 | Rüzgar's mother phones the football club at 5.00 p.m. to ask about training times. Mother: Hello. I'd like to ask about training … | ✓She won't be at home at 6.30.
+ing-u4-267 | E8.4.SP1 | z3 | k2 | Aslıhan's teacher phones her about a maths competition on Saturday. Teacher: Can you take part in the maths competition on Saturd… | ✓Let me ask them tonight; I'll call you back.
+ing-u4-268 | E8.4.R1 | z3 | k2 | Ozan finds this card. It is Wednesday, 7.30 p.m., and he must talk to Ms Yurt today about tomorrow's exam. How can Ozan contact M… | ✓By calling her mobile number
+ing-u4-269 | E8.4.L2 | z3 | k2 | Tarık phoned Yasemin at 5.00 p.m., but her phone was off. At 5.30 p.m., Yasemin saw a missed call from Tarık and phoned him back,… | ✓Yasemin tried to call Tarık at 5.30 p.m.
+ing-u4-270 | E8.4.W1 | z3 | k2 | Emma calls her friend's house to ask if Sara can come to the cinema. These sentences are from the phone conversation, but they ar… | ✓V – III – I – II – IV
+ing-u4-271 | E8.4.R1 | z3 | k2 | A school uses a phone chain to tell students about snow days. Ms Kaya calls Ahmet; each student then calls the people listed next… | ✓Ahmet
+ing-u4-272 | E8.4.SI1 | z3 | k2 | Ms Işıl calls a travel agency in the morning. Agent: Hello, Sun Travel. How can I help you? Ms Işıl: Hello. I need some informati… | ✓He'll be free at eleven. Can you call back?
+ing-u4-273 | E8.4.L1 | z3 | k2 | Ela calls Dr Özer's clinic. The receptionist is looking for a free time in the appointment book and wants Ela to stay on the line… | ✓Could you call again tomorrow?
+ing-u4-274 | E8.4.SP1 | z3 | k2 | Cem is at school and it is raining heavily. He calls his father from the school office. Cem: Dad, it's raining and I don't have a… | ✓Stay there. I'll come and pick you up in the…
+ing-u4-275 | E8.4.L2 | z3 | k2 | Zehra phones Mr Orhan's office at 9.00 a.m. She hears a recorded voice. "Hello. You have reached Mr Orhan's office. We are open f… | ✓Call Mr Orhan's mobile phone.
+ing-u4-326 | E8.4.L2 | z3 | k3 | Lara calls her classmate Orhan to ask about the maths homework. Orhan's older brother answers the phone. Lara: Hello! This is Lar… | ✓He is in the shower now. Can I take a messag…
+ing-u4-327 | E8.4.R1 | z3 | k3 | Ms. Polat teaches literature. She comes back from her class at 11.00 and finds this memo on her desk. What should Ms. Polat do? | ✓Call Mr. Reed before four o'clock.
+ing-u4-328 | E8.4.SP1 | z3 | k3 | Tolga calls Pınar, but the line is very noisy. Tolga: I can't hear you well. The line is bad. Pınar: - - - - Tolga: Great. I'll w… | ✓I'll hang up and call you back now.
+ing-u4-329 | E8.4.L1 | z3 | k3 | The phone on the school secretary's desk rang eight times, but nobody picked it up. When the ringing stopped, the secretary came … | ✓answered the call
+ing-u4-330 | E8.4.SI1 | z3 | k3 | Ruby lost her blue scarf at the library yesterday. She calls the library to ask about it. Librarian: Hello, City Library. Ruby: H… | ✓Can you hold on a moment, please? I'll check…
+ing-u4-331 | E8.4.R1 | z3 | k3 | Ozan's father works until three o'clock on weekdays and cannot use his phone at work. He wants to call the clinic to make an appo… | ✓Friday at 15.45
+ing-u4-332 | E8.4.W1 | z3 | k3 | Hülya calls a vet about her cat. These sentences are from the conversation, but they are mixed. I. Thank you. II. Sure. Can you h… | ✓III – IV – II – I
+ing-u4-333 | E8.4.L2 | z3 | k3 | Noah calls his friend Mia, but her father answers. Noah: Hello! This is Noah calling. Is Mia in? Father: She is at swimming pract… | ✓Noah will phone Mia in the evening.
+ing-u4-334 | E8.4.SP1 | z3 | k3 | Yasemin and Sam planned a picnic for Saturday. On Friday evening, Yasemin phones him. Yasemin: Good news! The weather forecast ha… | ✓Great! We'll have the picnic at the park at …
+ing-u4-335 | E8.4.R1 | z3 | k3 | Yusuf's mother leaves this note on the kitchen table. Yusuf, Dad's mobile phone is off because the battery is dead. If you need h… | ✓Call Dad's office and dial extension 52.
+ing-u4-336 | E8.4.L1 | z3 | k3 | A nurse answers the phone at a health centre. Caller: Hello. I'd like to speak to Dr. Mine, please. Nurse: Hang on, please. I'll … | ✓Please stay on the line.
+ing-u4-337 | E8.4.SI1 | z3 | k3 | Selim calls Mr. Arda's office. He is in a hurry because his bus is coming. Receptionist: Mr. Arda is on another line. Can you hol… | ✓Sorry, I can't hold on. Could you ask him to…
+ing-u4-338 | E8.4.R1 | z3 | k3 | Four campers at Pine Valley read the rules and then make phone calls. Which camper follows the rules? | ✓Mert calls his sister from the office phone …
+ing-u4-339 | E8.4.L2 | z3 | k3 | Tolga phones his friend Irmak in the evening. Tolga: I called you at five, but your line was engaged. Irmak: Yes, I was talking t… | ✓Ask her mother, then phone Tolga.
+ing-u4-340 | E8.4.R1 | z3 | k3 | Jake wants to talk to Grandpa about Sunday's lunch. He has been trying all afternoon. Look at his phone. Which sentence is true? | ✓Grandpa's line was engaged both times.
+ing-u4-341 | E8.4.L2 | z3 | k3 | Oscar wants to call his football coach. The correct number is 555 0128, but he dials 555 0182 by mistake. A woman answers. Oscar:… | ✓He dialled the last two digits in the wrong …
+ing-u4-342 | E8.4.SP1 | z3 | k3 | Ozan and his sister Derya are in the kitchen. The phone rings, but Ozan's hands are covered with flour. Ozan: Derya, the phone is… | ✓Don't worry. I'll take that.
+ing-u4-343 | E8.4.L2 | z3 | k3 | Ayla calls Sunrise Sports Hall on Sunday and hears this recorded message. "You have reached Sunrise Sports Hall. We are closed to… | ✓Call back on Monday after nine o'clock.
+ing-u4-344 | E8.4.L1 | z3 | k3 | On the last day of summer camp, Leo gives Kim a piece of paper with his phone number. Leo is going back to İzmir, and Kim lives i… | ✓To stay in contact with Kim.
+ing-u4-345 | E8.4.R1 | z3 | k3 | Mr. Okan reads this memo at noon. What should he do if four o'clock is not suitable for him? | ✓Call Mr. Park on extension 36.
+ing-u4-346 | E8.4.SI1 | z3 | k3 | Ms. Dinç calls a bank to ask about her credit card. The operator connects her to the wrong department. Operator: Good morning, Ea… | ✓Sorry, I asked for the card department. Coul…
+ing-u4-347 | E8.4.L2 | z3 | k3 | Nora calls her aunt's flat at 7 pm, but her cousin Hakan answers the phone. Nora: Hello! This is Nora calling. Is Aunt Sevil ther… | ✓Because she is busy cooking.
+ing-u4-348 | E8.4.R1 | z3 | k3 | Melis gets this text message from her swimming club at 3.00 pm. "Hello Melis. Your lesson is at 5.30 pm today. If you can't come,… | ✓Melis can leave a message if nobody picks up.
+ing-u4-349 | E8.4.R1 | z3 | k3 | Derya reads this memo on her desk. At what time will the call probably end? | ✓3.45
+ing-u4-350 | E8.4.SI1 | z3 | k3 | Mr. Ugur calls a travel office about a school trip. The phone is answered by Ms. Aral herself. Mr. Ugur: Hello! This is Ugur call… | ✓Speaking. How can I help you?
+ing-u4-351 | E8.4.L2 | z3 | k3 | Duru and Leo are texting after school. Duru: Where are you? I called you twice. Leo: Sorry! My phone was on silent. I was at the … | ✓Leo missed Duru's calls.
+ing-u4-352 | E8.4.SP1 | z3 | k3 | Ada phones her classmate Emir in the evening. Ada: Hi Emir. Are you coming to the maths class tomorrow? Emir: No, I have a cold, … | ✓I'm sorry to hear that. I'll send you the no…
+ing-u4-353 | E8.4.R1 | z3 | k3 | Mr. Kemal lost his phone on bus 14 and writes this notice for the bus station. Dear Sir / Madam, I lost my black mobile phone on … | ✓After 6 pm, on 555 0133.
+ing-u4-354 | E8.4.R1 | z3 | k3 | Read the notice at a school office. "The school number is 555 0100. To speak to a teacher, - - - - this number and then ask the s… | ✓dial / contact
+ing-u4-355 | E8.4.L1 | z3 | k3 | "I'm afraid Ms. Rose is not available at the moment. She is in a meeting." In which sentence does "available" have the SAME meani… | ✓Coach Mete is available after training.
+ing-u4-356 | E8.4.R1 | z4 | k3 | On Tuesday morning, Mrs. Çelik reads the memo below. At 10.05 she calls Mr. Ward. Mrs. Çelik: Hello! This is Çelik calling. May I… | ✓Mr. Ward will call Mrs. Çelik at 10.30.
+ing-u4-357 | E8.4.W1 | z4 | k3 | Sofia calls her friend Ivy's house about a lost cap. These sentences are from the conversation, but they are mixed. I. Yes, pleas… | ✓II – IV – V – I – III
+ing-u4-358 | E8.4.R1 | z4 | k3 | Nehir and Volkan want to work on their history project for one hour, from 16.00 to 17.00, on the first possible day. They look at… | ✓Thursday
+ing-u4-359 | E8.4.L2 | z4 | k3 | Ms. Sert calls her son's school. Ms. Sert: Hello! This is Ms. Sert calling. May I speak to Mr. Tunç, my son's teacher? Secretary:… | ✓The secretary will call Ms. Sert at 5 pm.
+ing-u4-360 | E8.4.R1 | z4 | k3 | It is 10.30 and Mr. Ravi reads these memos. He has a meeting from 11.00 to 12.30 and cannot use his phone during it. Which person… | ✓Mr. Fenn
+ing-u4-361 | E8.4.SP1 | z4 | k3 | Read the four mini-dialogues. Only one of them has no mistake in meaning or wording. Which mini-dialogue is correct? | ✓"The sales line is engaged." – "OK, I'll cal…
+ing-u4-362 | E8.4.W1 | z4 | k3 | Kemal calls his friend Tara's house to change a plan. These sentences are from the conversation, but they are mixed. I. Hello! Th… | ✓IV – I – III – II – V – VI
+ing-u4-363 | E8.4.L2 | z4 | k3 | Selim calls a sports hall on Friday evening. Selim: Hello. I'd like to book the basketball court for Sunday at 10.00. Receptionis… | ✓The sports hall is closed on Monday morning.
+ing-u4-364 | E8.4.R1 | z4 | k3 | Ms. Kara, the receptionist, wrote these notes on Monday morning. According to the notes, who will phone whom this afternoon? | ✓Mr. Doğan will call the office, and Ms. Hart…
+ing-u4-365 | E8.4.R1 | z4 | k3 | Melis bought a pair of boots online, but they are too small. It is Saturday, 10.00 am. She calls the shop and hears this menu. Wh… | ✓Press 2 and ask about returns.
+ing-u4-366 | E8.4.L2 | z4 | k3 | Irem, Zafer and Lena are planning a surprise party. They send each other these messages. Irem to Zafer (4.00 pm): I'll call Lena … | ✓Lena called Zafer before 4.45.
+ing-u4-367 | E8.4.SI1 | z4 | k3 | Mrs. Yaz calls a school to speak to the head teacher. Secretary: Good afternoon, Green Valley School. (1) - - - - Mrs. Yaz: Hello… | ✓(1) How can I help you? (2) Can you hold on …
+ing-u4-368 | E8.4.R1 | z4 | k3 | Taner's father sends him this e-mail. Hi Taner, My phone is in the repair shop until Friday, so I can't answer calls. If it is an… | ✓Send Dad an e-mail before four o'clock.
+ing-u4-369 | E8.4.R1 | z4 | k3 | Cenk leaves this message on Pelin's phone. "Hi Pelin, it's Cenk. I called you three times, but your line was engaged. I need the … | ✓Pelin was probably talking to someone on the…
+ing-u4-370 | E8.4.L2 | z4 | k3 | Mr. Lowe calls a company at 6.10 pm. Operator: Hello. Which department, please? Mr. Lowe: May I speak to the manager, Ms. Reyes? … | ✓7.00
+ing-u4-371 | E8.4.R1 | z4 | k3 | Ms. Yaman calls Mr. Colt's office at 11.00. The secretary answers. Secretary: Colt Travel, good morning. Ms. Yaman: Hello! This i… | ✓The time to call back
+ing-u4-372 | E8.4.SP1 | z4 | k3 | Rıza and Tuba are planning a trip to see Rıza's grandmother. Rıza: I've bought the train tickets for Saturday. The train leaves a… | ✓(1) Then I'll meet you at the station at 8.3…
+ing-u4-373 | E8.4.R1 | z4 | k3 | It is Saturday, 11.00 am. Rafi lost his notebook in the library on Friday. He also wants to reserve a study room for Sunday after… | ✓He can reserve the room today, but he can't …
+ing-u4-374 | E8.4.R1 | z4 | k3 | Mr. Ode leaves this voice message for Ms. Lark. Look at the school phone list, too. "Hello, Ms. Lark. This is Mr. Ode from the ar… | ✓Mr. Ode has a class at 3 pm.
+ing-u4-375 | E8.4.R1 | z4 | k3 | Ms. Ayaz was in a meeting until noon. She finds these two memos on her desk at 12.15. What should she do? | ✓Wait for Mr. Lund's call at 1 pm.
+ing-u4-016 | E8.4.SI1 | z1 | k0 | Orhan calls the vet's office and speaks to the doctor. Orhan: Hello! This is Orhan calling. - - - - Dr. Pınar: Speaking. Which co… | ✓May I speak to Dr. Pınar, please?
+ing-u4-017 | E8.4.R1 | z1 | k0 | Gizem's phone rings. She - - - - the phone and says, "Hello?" Which completes the sentence? | ✓picks up
+ing-u4-018 | E8.4.L1 | z1 | k0 | Nehir calls her teacher's office. The secretary says, "Please hang on. I'll put you through." Which one means the same as "hang o… | ✓hold on
+ing-u4-019 | E8.4.SP1 | z1 | k0 | Irmak is at the kitchen table with a jar of jam. Irmak: I can't open this jar. It is too tight. Father: - - - - Which completes t… | ✓I'll open it for you.
+ing-u4-020 | E8.4.L1 | z1 | k0 | Zeki calls his friend Levent, but nobody answers. He hears a short beep and then a recorded voice: "The line is engaged. Please t… | ✓Someone is using the line.
+ing-u4-021 | E8.4.R1 | z1 | k0 | Pelin writes a note for her brother: "Mum phoned at five. Please call her back." What should her brother do? | ✓Phone Mum.
+ing-u4-022 | E8.4.L1 | z1 | k0 | Operator: Thank you for calling Sun Bank. I'll put you through to Mr. Kara. What will the operator do? | ✓Connect the caller with Mr. Kara.
+ing-u4-023 | E8.4.R1 | z1 | k0 | Yusuf wants to phone the flower shop. He reads its phone hours. On which day will nobody answer the phone? | ✓Sunday
+ing-u4-024 | E8.4.L2 | z1 | k0 | Anna dials a number, but a stranger answers. Man: Hello? Anna: Hello! May I speak to Julia? Man: Sorry, you have the wrong number… | ✓Check the number and dial again.
+ing-u4-025 | E8.4.SP1 | z1 | k0 | Zehra and Kübra are talking on the phone. Zehra: Kübra, I can hear you for a second, and then nothing. The line keeps cutting off… | ✓I'll call you again.
+ing-u4-026 | E8.4.R1 | z1 | k0 | Dr. Aksoy is - - - - on Monday and Tuesday. You can make an appointment on these days. Which completes the sentence? | ✓available
+ing-u4-027 | E8.4.L2 | z1 | k0 | Caller: Is Mr. Taş there? Secretary: He is in a meeting. Would you like to leave a message? What does the secretary offer? | ✓To take a message
+ing-u4-028 | E8.4.SI1 | z2 | k0 | Nur calls the pharmacy to ask about her grandmother's medicine. Pharmacist: Hello, Moon Pharmacy. Nur: Hello. This is Nur calling… | ✓What is the patient's name, please?
+ing-u4-029 | E8.4.L2 | z2 | k0 | Mrs. Taner: Hello? Berk: Hello! This is Berk Aydın calling. I'm in your daughter's class. Is Gamze there? Mrs. Taner: Hang on, I'… | ✓Gamze's mother
+ing-u4-030 | E8.4.R1 | z2 | k0 | Mr. Kaya was out of the office. His assistant left this memo on his desk. What should Mr. Kaya do? | ✓Phone Mr. Dinç before noon.
+ing-u4-031 | E8.4.SP1 | z2 | k0 | It starts to rain on the way to school. Yiğit looks into his bag. Yiğit: Oh no! It's raining and my umbrella is at home. Selma: -… | ✓I'll share mine with you.
+ing-u4-032 | E8.4.R1 | z2 | k0 | Hi Kerim, I called you at five, but your line was engaged. I'm at my swimming course now. I'll be home at seven, so call me after… | ✓Call Sarp after seven.
+ing-u4-033 | E8.4.L1 | z2 | k0 | The receptionist says, "I'm afraid Dr. Metin is not available today." What does "I'm afraid" mean here? | ✓I am sorry to say.
+ing-u4-034 | E8.4.W1 | z2 | k0 | Nehir phones the Lost Property Office. These sentences are from the conversation, but they are mixed. I. Is it blue with a white … | ✓II – III – I – IV
+ing-u4-035 | E8.4.SI1 | z2 | k0 | Mr. Oral calls Mrs. Dağ to ask about the school trip. She gives him all the information. Mr. Oral: Thank you very much for your h… | ✓You're welcome. Goodbye.
+ing-u4-036 | E8.4.L2 | z2 | k0 | Tülin works at a computer repair shop. She calls a customer. Tülin: Hello, may I speak to Mr. Çelik? Mr. Çelik: Speaking. Tülin: … | ✓To tell Mr. Çelik his laptop is ready
+ing-u4-037 | E8.4.R1 | z2 | k0 | Aunt Rukiye was out. Her neighbour wrote this message. Which one is TRUE? | ✓Mr. Genç left a message for Aunt Rukiye.
+ing-u4-038 | E8.4.SP1 | z2 | k0 | Liam and Maria are talking on the phone about their science project. Liam: I'm busy on Sunday. Can we do the project on Monday? M… | ✓We'll start it on Monday, then.
+ing-u4-039 | E8.4.L2 | z2 | k0 | Kübra called Aras three times, but the line was engaged every time. Later Aras called her back. Aras: Sorry, Kübra. I was talking… | ✓He was talking to his teacher.
+ing-u4-040 | E8.4.SI1 | z2 | k0 | Read the sentences from four different phone calls. Which one is said by the person who makes the call? | ✓Hello! This is Rıza calling. Is Dr. Aksu in?
+ing-u4-041 | E8.4.R1 | z2 | k0 | Hi Melis, I'm having a picnic at the lake on Saturday at eleven. Call me by Thursday if you can come. My number is 555 0160. Aslı… | ✓Call Aslıhan by Thursday.
+ing-u4-042 | E8.4.L2 | z2 | k0 | It is 4.10 pm. Zeki calls his swimming coach about tomorrow's training. Coach: Hello, Zeki. I'm at the pool now. I'll get back to… | ✓4.30 pm
+ing-u4-043 | E8.4.R1 | z2 | k0 | Ms. Ural is a teacher. She wants to book a museum visit for 30 students, so she reads the museum's phone guide. Which extension s… | ✓18
+ing-u4-044 | E8.4.SP1 | z2 | k0 | Rana calls Mr. Kurt's office. Secretary: Mr. Kurt is in a meeting until noon. Would you like to leave a message? Rana: No, thank … | ✓I'll call again after twelve.
+ing-u4-045 | E8.4.L1 | z2 | k0 | Yağmur is talking to her grandmother on the phone. Suddenly she says, "Wait, Grandma! Don't hang up. I want to tell you something… | ✓Grandma to stay on the line
+ing-u4-046 | E8.4.SP1 | z2 | k0 | Tülin: Oh no! I forgot Aunt Zehra's birthday, and it's today! Father: Don't worry. - - - - Which completes the dialogue? | ✓We'll call her this evening.
+ing-u4-047 | E8.4.R1 | z2 | k0 | Hi Emel, I called your house twice today, but nobody answered. I wanted to ask about the maths homework. I'll try again at six. I… | ✓Emel must call him back this evening.
+ing-u4-048 | E8.4.R1 | z3 | k0 | Gül is at a chess tournament from 1.00 pm to 4.30 pm and her phone is off. At 4.45 pm she checks her missed calls. Which caller c… | ✓Her grandmother
+ing-u4-049 | E8.4.L2 | z3 | k0 | Receptionist: Good morning, Anatolia Language School. Mr. Yalın: Good morning. This is Mr. Yalın calling. I'd like to speak to th… | ✓Mr. Yalın asked for a call after lunch.
+ing-u4-050 | E8.4.SP1 | z3 | k0 | Zafer's mother calls him from her office. Mum: Zafer, I can't pick up Elif from her piano lesson at four. My meeting is still goi… | ✓I'll pick her up on my way home.
+ing-u4-051 | E8.4.SI1 | z3 | k0 | Mr. Ekin calls a taxi company. Operator: City Taxi, good evening. Mr. Ekin: Good evening. I need a taxi to the airport at 6 am to… | ✓May I take your phone number, please?
+ing-u4-052 | E8.4.R1 | z3 | k0 | Meral calls Aqua Bank at 2.10 pm and hears this message on her phone. When will an operator answer Meral? | ✓2.30 pm
+ing-u4-053 | E8.4.L1 | z3 | k0 | Mr. Er is going into a long meeting. He says to his secretary, "If anyone calls, tell them I'm not available. Take their messages… | ✓Take messages from the callers
+ing-u4-054 | E8.4.R1 | z3 | k0 | Hi Cansu, I'm at my grandparents' village this week and the signal is very weak, so please don't call my mobile. If it is urgent,… | ✓Simge will check her messages at the shop.
+ing-u4-055 | E8.4.L2 | z3 | k0 | Hira: Hello, Ulaş. This is Hira. Are we still meeting at the library at five? Ulaş: Hi Hira. I'm sorry, I can't. My mother called… | ✓Tomorrow at seven.
+ing-u4-056 | E8.4.SI1 | z3 | k0 | Mr. Arı calls a restaurant to book a table. Waiter: Hello, Blue Fish Restaurant. Mr. Arı: Good evening. I'd like to book a table … | ✓I'm afraid we don't have a table at eight.
+ing-u4-057 | E8.4.W1 | z3 | k0 | Taha calls a language course. These sentences are from the phone conversation, but they are mixed. I. I'm afraid she is in a less… | ✓II – IV – I – III – V
+ing-u4-058 | E8.4.R1 | z3 | k0 | Tuğba finishes school at 4.30 pm on Thursday. She wants to phone one of the teachers on the same day. She reads the phone hours. … | ✓Mr. Boz
+ing-u4-059 | E8.4.SP1 | z3 | k0 | Reha is at his friend's house for a group project. It is getting dark and it is raining. His mother calls him. Mum: Reha, Dad is … | ✓I'll take a taxi, Mum.
+ing-u4-060 | E8.4.L2 | z3 | k0 | Receptionist: Good morning, Rose Hotel. Caller: Good morning. I'd like to speak to the guest in Room 12, please. Receptionist: I'… | ✓The guest's child
+ing-u4-061 | E8.4.R1 | z3 | k0 | These are the rules of a school library. 1. Keep your phone on silent. 2. Phone calls are allowed only in the garden. 3. Never us… | ✓Take the call in the garden
+ing-u4-062 | E8.4.SI1 | z3 | k0 | Dilek is calling Sun Travel because she wants to ask about a school trip. The receptionist answers the phone, but Mr. Ay, the tra… | ✓Hello! This is Dilek calling. May I speak to…
+ing-u4-063 | E8.4.R1 | z3 | k0 | Mr. Reha reads this memo on his desk. What is the latest time Mr. Reha can call Dr. Naz back? | ✓5.00 pm
+ing-u4-064 | E8.4.R1 | z4 | k0 | Ada, Berkay and Cansu want to talk in one phone call this afternoon. The call will take 30 minutes. This chart shows when each fr… | ✓6.00 pm
+ing-u4-065 | E8.4.L2 | z4 | k0 | Mr. Yurt is in a meeting. His assistant, Ms. Ay, answers the phone. Ms. Ay: Hello, Mr. Yurt's office. Ms. Cin: Hello. This is Ms.… | ✓Ms. Cin, at 3.30
+ing-u4-066 | E8.4.W1 | z4 | k0 | Cenk calls an online shop about his order. These sentences are from the phone conversation, but they are mixed. I. Hello! This is… | ✓IV – I – III – II – V – VI
+ing-u4-067 | E8.4.R1 | z4 | k0 | Selim sends an e-mail to a call centre on Friday at 4.30 pm and asks for a phone call. He gets this answer. "Thank you for your e… | ✓Monday at 9.15 am
+ing-u4-068 | E8.4.SI1 | z4 | k0 | Ms. Kara calls a vet about her dog. Receptionist: Happy Paws Vet, good morning. Ms. Kara: Good morning. This is Ms. Kara calling.… | ✓(1) May I speak to Dr. Aslan? (2) Yes, pleas…
+ing-u4-069 | E8.4.SP1 | z4 | k0 | Nazlı phones Barkın about the school fair. Nazlı: Are you coming to the fair on Saturday? Barkın: Yes. We're going to sell cakes.… | ✓I'll ask my mum to make some, too.
+ing-u4-070 | E8.4.R1 | z4 | k0 | The table shows the phone calls of three students last week. "Missed" calls are calls that a student received but did not answer.… | ✓Tarık spoke for as many minutes as Oya.
+ing-u4-071 | E8.4.R1 | z4 | k0 | Mrs. Çam, a teacher, put this notice on the school door: "Phone hours: Monday and Wednesday, before 10.00 am or after 2.00 pm. Tu… | ✓Monday at 2.30 pm
+ing-u4-072 | E8.4.L2 | z4 | k0 | Ceren, Mum and Dad are at home. Ceren: Mum, Aunt Sibel called while you were out. She wants to know if we are coming on Sunday. M… | ✓Mum is busy and Ceren's phone is dead.
+ing-u4-073 | E8.4.L2 | z4 | k0 | Ceylan lost her bag on a bus. She calls the bus company. Operator: Hello, Metro Bus Company. Ceylan: Hello. This is Ceylan Doğru … | ✓Ceylan lost her bag on bus 12.
+ing-u4-074 | E8.4.SP1 | z4 | k0 | Ms. Tezer, a teacher, calls the father of one of her students. Ms. Tezer: Hello, Mr. Aksoy. Your son Poyraz forgot his lunch and … | ✓I'll ask my sister to take them to school no…
+ing-u4-075 | E8.4.R1 | z4 | k0 | Ms. Nur reads two memos about Mr. Rowan's visit. When and where will Mr. Rowan come? | ✓Room 5, at 4.30 pm
