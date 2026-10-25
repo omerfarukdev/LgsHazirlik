@@ -24,7 +24,7 @@ window.LGS_HAP["olasilik"] = {
         "**n olası durum eş olasılıklıysa her birinin olasılığı [[1|n]]'dir.** 8 eş dilimli çarkta belirli bir dilimin gelme olasılığı [[1|8]]'dir.",
         "**Bir olayın olasılığı = [[istenen durum sayısı|olası tüm durum sayısı]].** Pay istenen olayın durumlarını, payda bütün durumları sayar.",
         "Sonucu sadeleştirilmiş kesir olarak yazabilirsin: [[6|8]] ile [[3|4]] aynı olasılıktır. Yüzde ya da ondalık gösterim de aynı değeri verir: [[3|4]] = 0,75 = %75.",
-        "**Eşit şans yoksa durumları saymak yetmez.** Eş olmayan dilimlerde merkez açıya bakılır: açısı 90° olan dilimin olasılığı [[90|360]] = [[1|4]]'tür. Tersine, olasılığı P olan dilimin açısı P · 360°'dir. Parçalar eş değilse önce eş parçalara ayır.",
+        "**Eşit şans yoksa durumları saymak yetmez.** Eş olmayan dilimlerde merkez açıya bakılır: açısı 90° olan dilimin olasılığı [[90|360]] = [[1|4]]'tür. Tersine, olasılığı P olan dilimin açısı P · 360°'dir. Parçalar eş değilse önce eş parçalara ayır. Yarım daire 180°, çeyrek daire 90°'dir; açılar oranla verilmişse (2 : 3 : 4 gibi) 360°'yi oran toplamına (9) böl, her birim 40° eder.",
         "**Kaydedilen sonuçlar eş şanslı olmayabilir.** Zarın yüzlerine 1, 1, 1, 2, 3, 3 yazılmışsa sonuçlar 1, 2 ve 3'tür; ama 1'in şansı [[3|6]], 2'ninki [[1|6]]'dır. Sonuçları eş saymadan önce her sonucun kaç nesneden geldiğini say."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Deney</th><th>Olası durum sayısı</th><th>Bir olayın olasılığı</th></tr><tr><td>Hilesiz zar atmak</td><td>6</td><td>Çift gelmesi: [[3|6]] = [[1|2]]</td></tr><tr><td>Her harfi ayrı karta yazılmış “KAYAK” sözcüğünden kart çekmek</td><td>5</td><td>A harfi gelmesi: [[2|5]] (iki ayrı A kartı var)</td></tr></table>",
@@ -44,6 +44,7 @@ window.LGS_HAP["olasilik"] = {
       ],
       dikkat: [
         "**Olasılığı 0 olan olay ile az olasılıklı olayı karıştırma.** Torbada 1 kırmızı, 99 mavi top varsa kırmızı çekme olasılığı [[1|100]]'dür; küçüktür ama 0 değildir, çünkü olay olabilir.",
+        "**Olasılığı kesinlik sanma.** Yağmur olasılığı %35 ise “yağmur kesinlikle yağmaz” ya da “100 günün 35'inde kesin yağar” denemez; yağma olasılığı 0 ile 1 arasında bir orandır, yağmama olasılığı da %65'tir. “En az bir kırmızı ve en az bir mavi top var” bilgisi olasılığın ne 0 ne 1 olduğunu söyler.",
         "**Kesin olayı bul, tahmin etme.** “Kesin” için bütün durumlar olayın içinde olmalı. Zarın 1'den büyük gelmesi kesin değildir; 1 gelirse gerçekleşmez ([[5|6]])."
       ]
     },
@@ -65,8 +66,9 @@ window.LGS_HAP["olasilik"] = {
         "**Çözümlü örnek (torba):** Bir torbada 5 siyah, 7 turuncu ve 3 gri top vardır; biri rastgele çekilecek. Adım 1: Toplam 5 + 7 + 3 = 15 top, yani 15 olası durum. Adım 2: Turuncu olmayan topların sayısı 5 + 3 = 8. Adım 3: Olasılık [[8|15]]. Sağlama: turuncu olasılığı [[7|15]], olmama olasılığı 1 − [[7|15]] = [[8|15]] olur.",
         "**Çözümlü örnek (sayı kartları):** 3'ten 22'ye kadar (3 ve 22 dâhil) her sayı ayrı karta yazılmış. Adım 1: Kart sayısı 22 − 3 + 1 = 20. Adım 2: 5'in katları 5, 10, 15, 20; 4 tane. Adım 3: Olasılık [[4|20]] = [[1|5]]. Uçları dâhil olan aralıkta kart sayısı **son − ilk + 1**'dir.",
         "**Tablo ve grafik:** Önce istenen değeri okuyup bütünü bul. Tabloda 6 kız, 9 erkek varsa bütün 15'tir; kız olasılığı [[6|15]] = [[2|5]]. Sütun ve çizgi grafiğinde değerleri toplayıp bütünü, koşula uyanları ayrı sayıp payı bul; ortalamayla karşılaştırma varsa önce ortalamayı hesapla. Daire grafiğinde dilimin olasılığı açısı ÷ 360°'dir.",
-        "**Koşullu seçim:** “Hem 3'e hem 4'e bölünen” sayılar 12'nin katlarıdır (ortak kat). “Asal”, “bölen”, “kat”, “tam kare” gibi koşulları önce tek tek kartlar üzerinde işaretle, sonra say.",
-        "**Olasılıktan sayı bulma:** P = [[2|7]] ve toplam 35 ise istenen durum sayısı 35 ÷ 7 · 2 = 10'dur. Toplam bilinmiyorsa durum sayıları sadeleşmiş kesrin katlarıdır: P = [[2|7]] ise toplam 7, 14, 21, … ve istenen durum 2, 4, 6, … olur; “30'dan az” gibi bir koşul uygun katı seçtirir. İki olasılık verilmişse toplam paydaların ortak katıdır."
+        "**Koşullu seçim:** “Hem 3'e hem 4'e bölünen” sayılar 12'nin katlarıdır (ortak kat). “Asal”, “bölen”, “kat”, “tam kare” gibi koşulları önce tek tek kartlar üzerinde işaretle, sonra say. Asal sayılar 2, 3, 5, 7, 11, 13, … dir (**1 asal değildir**, 2 tek çift asaldır); tam kareler 1, 4, 9, 16, 25, 36, 49, … dir. Harf kartlarında sesli (ünlü) harfler a, e, ı, i, o, ö, u, ü'dür; sözcükte aynı harften kaç kart varsa o kadar durum sayılır.",
+        "**Koşullu seçim:** “Yalnızca 9'un katı olan kutulardan biri seçilecek” gibi bir koşul, olası durumları baştan o sayılarla sınırlar. Önce koşula uyan çıktıları tek tek say, sonra olasılığı hesapla.",
+        "**Olasılıktan sayı bulma:** P = [[2|7]] ve toplam 35 ise istenen durum sayısı 35 ÷ 7 · 2 = 10'dur. Toplam bilinmiyorsa durum sayıları sadeleşmiş kesrin katlarıdır: P = [[2|7]] ise toplam 7, 14, 21, … ve istenen durum 2, 4, 6, … olur; “30'dan az” gibi bir koşul uygun katı seçtirir. Eş dilimli çarkta P = [[1|4]] ise dilim sayısı 4'ün katıdır (8, 12, 16, …). İki olasılık verilmişse toplam paydaların ortak katıdır (P = [[1|4]] ve [[3|10]] ise toplam 20'nin katıdır). Olasılıkların hepsi verilirse toplamları 1 eder: mavi 0,35, kırmızı %40 ise kalan renk 1 − 0,75 = 0,25'tir. “Birinin olasılığı ötekinin 4 katı” gibi koşullarda bütün olasılıklar toplamı 1'dir: x + 4x = 1, x = [[1|5]]."
       ],
       dikkat: [
         "**Sınırı doğru say.** “6'dan büyük” 6'yı içermez; “6 ya da daha büyük” içerir. Sınırı yanlış kapsayınca pay 1 kayar.",
@@ -79,7 +81,7 @@ window.LGS_HAP["olasilik"] = {
         "Bir değişiklikten sonra **hem pay hem payda değişebilir**: eklenen top istenen renkteyse ikisi birden artar, başka renkteyse yalnızca payda artar.",
         "**Çözümlü örnek:** Bir kutuda 3 mor ve 5 pembe boncuk var. Mor boncuk çekme olasılığının [[1|2]] olması için kaç mor boncuk eklenmelidir? Adım 1: x ekleyelim: mor x + 3, toplam 8 + x. Adım 2: (3 + x) = (8 + x) ÷ 2, yani 6 + 2x = 8 + x, x = 2. Sağlama: 5 mor, 5 pembe; [[5|10]] = [[1|2]].",
         "Yöntem: değişiklik sonrası **yeni payı ve yeni paydayı** yaz, olasılığa eşitle. Burada hâlâ tek çekim vardır; ardışık çekim yoktur.",
-        "Çıkarılan ya da daha önce kullanılan öğeler artık seçilemez; olası durumları yeniden say. Bir rengin hepsi çıkarılırsa o rengin olasılığı 0, geri kalan tek renk ise o rengin olasılığı 1 olur."
+        "Çıkarılan ya da daha önce kullanılan öğeler artık seçilemez; olası durumları yeniden say. Bir kısım topun yerine başka renk konursa toplam aynı kalır, yalnızca sayılar değişir. Bir rengin hepsi çıkarılırsa o rengin olasılığı 0, geri kalan tek renk ise o rengin olasılığı 1 olur."
       ],
       dikkat: [
         "**Ekleneni yalnızca paya ya da yalnızca paydaya katma.** İstenen renkten eklenen top hem paya hem paydaya girer.",
