@@ -250,7 +250,7 @@ mat-dd-024 | M.8.2.2.5 | z1 | k0 | Bir sinema salonunda her sırada 14 koltuk va
 mat-dd-025 | M.8.2.2.5 | z1 | k0 | Selin, daha önce 20 sayfasını okuduğu bir kitabı bugünden itibaren her gün 8 sayfa okuyarak sürdürüyor. Bugünden sonraki gün sayı… | ✓y = 8x + 20
 mat-dd-026 | M.8.2.2.6 | z1 | k0 | Bir yokuşta yatayda 100 m ilerlendiğinde 7 m yükseliniyor. Bu yokuşun eğimi kaçtır? | ✓[[7|100]]
 mat-dd-027 | M.8.2.2.6 | z1 | k0 | Koordinat düzleminde O(0, 0) ve B(6, 2) noktalarından geçen doğrunun eğimi kaçtır? | ✓[[1|3]]
-mat-dd-028 | M.8.2.2.1 | z2 | k0 | 2(x + 3) = 3x − 4 denkleminin çözümü olan x değeri kaçtır? | ✓10
+mat-dd-028 | M.8.2.2.1 | z2 | k0 | 3(x − 2) − x = 14 denkleminin çözümü olan x değeri kaçtır? | ✓10
 mat-dd-029 | M.8.2.2.1 | z2 | k0 | Bir kargo deposunda toplam 120 koli vardır. Raf bölümündeki koli sayısı, zemin bölümündeki koli sayısının 2 katından 6 fazladır. … | ✓38
 mat-dd-030 | M.8.2.2.1 | z2 | k0 | [[2x − 1|3]] + 1 = [[x + 4|2]] denkleminin çözümü olan x değeri kaçtır? | ✓8
 mat-dd-031 | M.8.2.2.1 | z2 | k0 | Bir şişedeki limonatanın [[2|5]]'si içildiğinde şişede 90 mL limonata kalıyor. Şişede başlangıçta kaç mL limonata vardı? | ✓150

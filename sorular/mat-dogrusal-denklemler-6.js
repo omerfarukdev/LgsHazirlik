@@ -151,12 +151,12 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "M.8.2.2.1",
   kademe: 0,
   zorluk: 2,
-  soru: "**2(x + 3) = 3x − 4 denkleminin çözümü olan x değeri kaçtır?**",
+  soru: "**3(x − 2) − x = 14 denkleminin çözümü olan x değeri kaçtır?**",
   gorsel: null,
-  secenekler: ["−10","2","7","10"],
+  secenekler: ["4","5","8","10"],
   dogru: 3,
-  hatalar: ["−x = −10 buldun ama eksi işaretini sonuca taşıyıp x = −10 yazdın; iki taraf −1 ile çarpılır.","−4'ü karşıya geçirirken işareti değiştirmedin: 6 − 4 = x yazdın.","Parantezi açarken 2'yi yalnız x ile çarptın: 2x + 3 yazdın.",null],
-  aciklama: "Adım 1: Parantezi dağıt: 2x + 6 = 3x − 4.\nAdım 2: x'li terimleri bir tarafa, sayıları öbür tarafa topla: 6 + 4 = 3x − 2x, yani x = 10.\nSağlama: Sol taraf 2 · (10 + 3) = 26, sağ taraf 3 · 10 − 4 = 26 olur.\nSık yapılan hata: parantezdeki ikinci terimi çarpmayı unutmak.\nCevap D."
+  hatalar: ["Karşıya geçirirken işaret hatası: −6'yı karşıya +6 olarak geçirmelisin; 2x = 14 + 6 = 20 olur, 14 − 6 değil.","Parantezden sonraki −x'i +x aldın: 3x − 6 − x = 2x − 6 olur; 4x − 6 değil.","Dağılmayı eksik yaptın: 3(x − 2) = 3x − 6'dır; yalnızca x'i 3 ile çarpıp 3x − 2 yazdın.",null],
+  aciklama: "Birinci dereceden bir bilinmeyenli denklemde amaç x'i yalnız bırakmaktır; eşitliğin iki yanına aynı işlem yapılır.\nAdım 1: Parantezi aç: 3(x − 2) = 3x − 6. Denklem 3x − 6 − x = 14 olur.\nAdım 2: Benzer terimleri topla: 3x − x = 2x; denklem 2x − 6 = 14.\nAdım 3: −6'yı karşıya +6 olarak geçir: 2x = 20.\nAdım 4: İki yanı 2'ye böl: x = 10.\nSağlama: 3(10 − 2) − 10 = 24 − 10 = 14.\nSık yapılan hata: Parantezi açarken yalnızca ilk terimi çarpmak.\nCevap D."
 },
 {
   id: "mat-dd-029",
