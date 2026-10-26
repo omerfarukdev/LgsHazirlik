@@ -88,3 +88,213 @@ fen-el-012 | F.8.7.1.3 | z3 | k0 | İki özdeş balon aynı yün kazağa sürtü
 fen-el-013 | F.8.7.1.2 | z4 | k0 | Yalıtkan iplerle asılı K, L ve M kürelerinden K'nin negatif yüklü olduğu biliniyor. Küreler ikişer ikişer yaklaştırıldığında K il… | ✓Yalnız III
 fen-el-014 | F.8.7.1.3 | z4 | k0 | Bir öğrenci şişirilmiş plastik balonu kuru saçına sürtüyor; balon negatif, saç pozitif yükleniyor. Sonra balonu, yalıtkan bir mas… | ✓I ve III
 fen-el-015 | F.8.7.1.2 | z4 | k0 | Yalıtkan iplerle asılı K, L, M ve N kürelerinden K'nin negatif yüklü olduğu biliniyor. Küreler ikişer ikişer yaklaştırıldığında g… | ✓L negatif, M pozitif, N pozitif yüklüdür.
+fen-el-126 | F.8.7.1.2 | z1 | k1 | İpe asılı iki pozitif yüklü özdeş küre yan yana bırakılıyor. Küreler için aşağıdakilerden hangisi doğrudur? | ✓Küreler birbirinden uzaklaşır
+fen-el-127 | F.8.7.1.1 | z1 | k1 | Sentetik tüylü bir toz alma fırçası, mobilyanın üzerinde gezdirilirken tozları kendine çekiyor. Bunun nedeni aşağıdakilerden hang… | ✓Fırçanın sürtünmeyle yüklenmesi
+fen-el-128 | F.8.7.1.3 | z1 | k1 | Nötr bir cisim hangi yolla pozitif yüklenir? | ✓Yalnızca elektron kaybederek
+fen-el-129 | F.8.7.1.1 | z1 | k1 | Bulutlarda biriken elektrik yükleri boşalırken ışık ve ses oluşur. Bu olayla ilgili aşağıdakilerden hangisi doğrudur? | ✓Işığa şimşek, sese gök gürültüsü denir
+fen-el-130 | F.8.7.1.2 | z1 | k1 | Atomun çekirdeğinde bulunan pozitif yüklü tanecik aşağıdakilerden hangisidir? | ✓Proton
+fen-el-131 | F.8.7.1.3 | z1 | k1 | Yüklü bir metal küre, nötr bir metal küreye dokundurulup ayrılıyor. İki küre için aşağıdakilerden hangisi doğrudur? | ✓İkisi de aynı cins yüklü olur
+fen-el-132 | F.8.7.1.1 | z1 | k1 | Sentetik giysiler kurutma makinesinden çıkarılırken birbirine yapışıyor. Bu yapışmanın nedeni aşağıdakilerden hangisidir? | ✓Giysilerin sürtünmeyle zıt cins yüklenmesi
+fen-el-133 | F.8.7.1.2 | z1 | k1 | Pozitif yüklü bir küre, ipe asılı nötr hafif bir küreye yaklaştırılıyor. Nötr küre için aşağıdakilerden hangisi gözlenir? | ✓Yüklü küreye doğru çekilir
+fen-el-134 | F.8.7.1.3 | z1 | k1 | Yüklü bir çubuk, nötr bir metal küreye değdirilerek küreyi yüklüyor. Bu elektriklenme çeşidi aşağıdakilerden hangisidir? | ✓Dokunma ile elektriklenme
+fen-el-135 | F.8.7.1.2 | z1 | k1 | İki cisim birbirine yaklaştırıldığında birbirini itiyor. Bu gözlemden aşağıdakilerden hangisi kesin olarak çıkarılır? | ✓İkisi de yüklü ve aynı cinstir
+fen-el-136 | F.8.7.1.1 | z1 | k1 | Elektrostatik boyama tabancasından çıkan boya damlacıkları aynı cins yüklenir. Bu durumda damlacıklar birbirine karşı nasıl davra… | ✓Birbirini iterek ince sis oluşturur
+fen-el-137 | F.8.7.1.2 | z1 | k1 | K ve L kürelerinin ikisi de yüklüdür. K küresi pozitiftir. Küreler yaklaştırıldığında tablodaki gözlem elde ediliyor. Buna göre L… | ✓Pozitif
+fen-el-138 | F.8.7.1.3 | z1 | k1 | Yalıtkan ayaklı nötr bir metal küreye negatif yüklü bir çubuk dokunmadan yaklaştırılıyor. Daha sonra çubuk küreden uzaklaştırılıy… | ✓Yeniden nötr olur
+fen-el-139 | F.8.7.1.2 | z1 | k1 | Aşağıdaki cisim çiftlerinden hangisi birbirini iter? | ✓Negatif yüklü – negatif yüklü
+fen-el-140 | F.8.7.1.3 | z1 | k1 | Fırtına bulutlarındaki su damlacıkları ve buz kristalleri, güçlü hava akımlarıyla birbirine sürtünerek yüklenir. Bulutlardaki bu … | ✓Sürtünme ile elektriklenme
+fen-el-141 | F.8.7.1.1 | z1 | k1 | Saçına sürtülen balon, nötr duvara yaklaştırılınca duvara yapışıyor. Bu yapışmanın nedeni aşağıdakilerden hangisidir? | ✓Yüklü balonun nötr duvarı çekmesi
+fen-el-142 | F.8.7.1.1 | z1 | k1 | Lazer yazıcıda toner tozu, yüklenmiş yüzeye yapışıyor. Bu yapışmayı sağlayan etki aşağıdakilerden hangisidir? | ✓Zıt cins yüklerin birbirini çekmesi
+fen-el-143 | F.8.7.1.3 | z1 | k1 | Plastik bir tarak saça sürtülünce tarağın yükü yalnızca sürtünen bölgesinde kalıyor. Bu durum aşağıdakilerden hangisiyle açıklanı… | ✓Plastikte elektronların serbestçe hareket ed…
+fen-el-144 | F.8.7.1.2 | z1 | k1 | Bir cismin nötr olması aşağıdakilerden hangisi anlamına gelir? | ✓Elektron sayısının proton sayısına eşit olma…
+fen-el-145 | F.8.7.1.1 | z1 | k1 | Sentetik halıda ayakkabısını sürterek yürüyen Mert, elini metal kapı koluna yaklaştırınca küçük bir kıvılcım görüyor. Kıvılcım sı… | ✓Biriken yüklerin boşalması
+fen-el-146 | F.8.7.1.1 | z1 | k1 | Fabrika bacalarına yerleştirilen elektrostatik filtreler, duman içindeki kurum ve toz parçacıklarını havaya karışmadan tutar. Bu … | ✓Parçacıklar yüklenir ve zıt cins yüklü plaka…
+fen-el-147 | F.8.7.1.3 | z1 | k1 | Aşağıdakilerden hangisi elektriklenme çeşitlerinden biri değildir? | ✓Isıtma ile elektriklenme
+fen-el-148 | F.8.7.1.3 | z1 | k1 | Elektriklenme çeşitlerinin bazılarında yüklenecek nötr cisme önceden yüklü bir cisim değdirilir ya da yaklaştırılır. Bu işlem han… | ✓Dokunma ve etkide
+fen-el-149 | F.8.7.1.3 | z1 | k1 | Negatif yüklü bir çubuk, yalıtkan saplı nötr bir metal küreye dokundurulup uzaklaştırılıyor. Bu işlemden sonra çubuğun yük durumu… | ✓Negatif yüklü kalır
+fen-el-150 | F.8.7.1.1 | z2 | k1 | Fırtına bulutunun alt yüzünde negatif yük birikmiştir. Bulut yere dokunmadığı hâlde bulutun altındaki yer yüzeyi de yüklenir. Yer… | ✓Pozitif; elektronlar buluttan uzağa itilir
+fen-el-151 | F.8.7.1.2 | z2 | k1 | Tuna, negatif yüklü bir plastik cetveli ipe asılı hafif K ve L kürelerine ayrı ayrı yaklaştırıyor. K küresi cetvele doğru hareket… | ✓K pozitif ya da nötrdür, L negatiftir
+fen-el-152 | F.8.7.1.3 | z2 | k1 | Plastik bir cetvel kâğıt havluya sürtülüyor ve cetvel negatif yükleniyor. Sürtünmeden önce ikisi de nötrdü. Sürtünmeden sonra cet… | ✓Her zaman eşit miktarda ve zıt işaretlidir
+fen-el-153 | F.8.7.1.3 | z2 | k1 | İpe asılı, yüzeyi metalle kaplı nötr bir pinpon topuna negatif yüklü bir çubuk yaklaştırılınca top çubuğa doğru hareket ediyor. T… | ✓Yalnız II
+fen-el-154 | F.8.7.1.1 | z2 | k1 | Bir atölyede metal bisiklet kadroları elektrostatik yöntemle boyanıyor. Tabancadan çıkan boya damlacıkları negatif yüklenmektedir… | ✓Pozitif yüklü olmalı; damlacıkları çekmeli
+fen-el-155 | F.8.7.1.2 | z2 | k1 | K, L ve M kürelerinin üçü de yüklüdür. Küreler ikişer ikişer yaklaştırıldığında tablodaki gözlemler elde ediliyor. Buna göre L ve… | ✓Birbirlerini çekerler
+fen-el-156 | F.8.7.1.3 | z2 | k1 | Pozitif yüklü K metal küresi, nötr L metal küresine dokundurulup ayrılıyor. Dört öğrenci dokunma sırasında olanları şöyle yorumlu… | ✓Ceren
+fen-el-157 | F.8.7.1.2 | z2 | k1 | Pozitif yüklü K küresi ile L küresi birbirini çekiyor. L küresi ile M küresi ise birbirini itiyor. Buna göre L ve M küreleri için… | ✓İkisi de negatif yüklüdür
+fen-el-158 | F.8.7.1.1 | z2 | k1 | Fırtına sırasında iki bulut arasında yük boşalması gerçekleşiyor. Birinci bulut negatif, ikinci bulut pozitif yüklüdür. Boşalma s… | ✓Negatif buluttan pozitif buluta elektronlar
+fen-el-159 | F.8.7.1.1 | z2 | k1 | Kuru bir kış gününde sentetik montunu çıkaran Arda çıtırtı duyuyor. Aynı montu yağmurlu ve nemli bir günde çıkardığında çıtırtı ç… | ✓Havadaki nemin biriken yükleri uzaklaştırması
+fen-el-160 | F.8.7.1.2 | z2 | k1 | Pozitif yüklü bir çubuk, ipe asılı K ve L kürelerine ayrı ayrı yaklaştırılıyor. K küresi çubuğa doğru çekiliyor, L küresi ise çub… | ✓II ve III
+fen-el-161 | F.8.7.1.3 | z2 | k1 | Plastik bir çubuk kürk parçasına sürtülünce çubuk negatif yükleniyor. Sürtünmeden önce ikisi de nötrdü. I. Kürk pozitif yüklenmiş… | ✓I ve II
+fen-el-162 | F.8.7.1.3 | z2 | k1 | Boş bir pet şişe yün bir atkıya sürtülünce atkı pozitif yükleniyor. Sürtünmeden önce ikisi de nötrdü. I. Pet şişe negatif yüklenm… | ✓Yalnız I
+fen-el-163 | F.8.7.1.1 | z2 | k1 | Fen dersinde öğretmen, yüklü bir cismin nötr bir cismi çekmesine günlük hayattan örnek veriyor. Aşağıdakilerden hangisi bu duruma… | ✓Sürtülmüş cetvelin kâğıt parçalarını çekmesi
+fen-el-164 | F.8.7.1.2 | z2 | k1 | Bir öğrenci atom ve yük kavramlarıyla ilgili şu yargıları yazıyor. I. Nötr bir cisimde pozitif ve negatif yük miktarları eşittir.… | ✓I ve III
+fen-el-165 | F.8.7.1.2 | z2 | k1 | Şekilde K, L ve M cisimlerindeki proton (+) ve elektron (−) sayıları gösterilmiştir. Buna göre K, L ve M cisimlerinin yük durumla… | ✓Nötr, pozitif, negatif
+fen-el-166 | F.8.7.1.2 | z2 | k1 | K, L, M ve N cisimlerindeki proton ve elektron sayıları tabloda verilmiştir. Bu cisimlerden hangi ikisi birbirine yaklaştırıldığı… | ✓L ve N
+fen-el-167 | F.8.7.1.3 | z2 | k1 | Fen kulübü öğrencileri, yalıtkan ayaklı nötr bir metal kürenin etki ile elektriklenmesini gözlemlemek istiyor. Bu amaçla aşağıdak… | ✓Yüklü çubuğu küreye değdirmeden yaklaştırmal…
+fen-el-168 | F.8.7.1.2 | z2 | k1 | Bir metal kürede proton sayısı elektron sayısından fazladır. Bu küre ile ilgili aşağıdakilerden hangisi doğrudur? | ✓Elektron kaybetmiştir
+fen-el-169 | F.8.7.1.3 | z2 | k1 | Nötr X, Y ve Z cisimleri ikişer ikişer sürtülüyor ve pozitif yüklenen cisim tabloya yazılıyor. Daha sonra X ve Z cisimleri de ayn… | ✓Hangisinin pozitif olacağı bilinemez
+fen-el-170 | F.8.7.1.2 | z2 | k1 | K küresi pozitif, L küresi negatif yüklüdür; M ve N küreleri nötrdür. Küreler ikişer ikişer birbirine dokunmadan yaklaştırılıyor.… | ✓M ve N
+fen-el-171 | F.8.7.1.2 | z2 | k1 | Bir öğrenci yüklü cisimlerin etkileşimi için şu yargıları yazıyor. I. İki pozitif yüklü cisim birbirini iter. II. Negatif yüklü b… | ✓I ve II
+fen-el-172 | F.8.7.1.3 | z2 | k1 | Negatif yüklü K küresi, nötr L küresine dokundurulup ayrılıyor. K ve L kürelerinin toplam yükü, dokundurmadan önceki ve ayrıldıkt… | ✓Her zaman aynı kalır
+fen-el-173 | F.8.7.1.3 | z2 | k1 | Yalıtkan ayaklı nötr bir metal küreye negatif yüklü bir çubuk dokunmadan yaklaştırılıyor. I. Kürenin toplam yükü negatif olur. II… | ✓Yalnız III
+fen-el-174 | F.8.7.1.2 | z2 | k1 | Şekilde K ve L kürelerindeki proton (+) ve elektron (−) sayıları gösterilmiştir. Küreler birbirine dokunmadan yaklaştırılıyor. Bu… | ✓Birbirlerini çekerler
+fen-el-175 | F.8.7.1.3 | z2 | k1 | Pozitif yüklü bir cam çubuk, yalıtkan saplı nötr bir metal küreye dokundurulup ayrılıyor. Daha sonra yüklenen bu küre, ipe asılı … | ✓Dokunma ile; kâğıt parçasını çeker
+fen-el-226 | F.8.7.1.2 | z2 | k2 | Pozitif yüklü bir plastik çubuk, yük durumu bilinmeyen X cismine yaklaştırılıyor. Öğrenci, X cisminin pozitif yüklü olduğunu kanı… | ✓X’in çubuktan uzağa hareket etmesi
+fen-el-227 | F.8.7.1.2 | z2 | k2 | Yalıtkan bir iple asılı, hafif ve nötr metal kaplı bir küreye pozitif yüklü bir plastik çubuk dokundurulmadan yaklaştırılıyor. Bi… | ✓II ve III
+fen-el-228 | F.8.7.1.1 | z2 | k2 | Halıda terlikle yürüyen Cem, kuru bir kış gününde metal kapı koluna dokununca küçük bir elektrik çarpması hissediyor. Aynı halıda… | ✓Nemli havada biriken yüklerin havaya kaçması
+fen-el-229 | F.8.7.1.3 | z2 | k2 | Plastik bir cetvel yünlü bir bezle bir süre ovuluyor. Sonra cetvel ile bez birbirinden ayrılıp birbirine yaklaştırılıyor ve ikisi… | ✓Cetvelin ve bezin zıt cins yüklenmesi
+fen-el-230 | F.8.7.1.2 | z2 | k2 | Yalıtkan iplerle asılı A, B ve C çubuklarından A pozitif yüklüdür. Çubuklar ikişer ikişer yaklaştırıldığında A ile B’nin birbirin… | ✓Pozitif yüklü değildir
+fen-el-231 | F.8.7.1.3 | z2 | k2 | Nötr olan K ve L yalıtkan cisimleri birbirine sürtülüyor. Sürtünmeden sonra K’nin pozitif, L’nin negatif yüklü olduğu görülüyor. … | ✓Toplam yük sıfırdır; elektronlar yalnızca el…
+fen-el-232 | F.8.7.1.1 | z2 | k2 | Çamaşır kurutma makinesinden çıkarılan sentetik çorapların birbirine yapıştığı görülüyor. Bu yapışmanın nedeni aşağıdakilerden ha… | ✓Çorapların zıt cins yüklenerek birbirini çek…
+fen-el-233 | F.8.7.1.2 | z2 | k2 | Nötr bir metal küre için bir öğrenci şu yargıları yazıyor. I. Küre üzerinde hiç yük bulunmaz. II. Küredeki pozitif ve negatif yük… | ✓Yalnız II
+fen-el-234 | F.8.7.1.3 | z2 | k2 | Şekilde yalıtkan ayaklı nötr bir metal silindire, yük cinsi bilinmeyen X çubuğu dokunmadan yaklaştırılmıştır. Silindirin uçlarınd… | ✓X pozitiftir; silindirin toplam yükü sıfırdır
+fen-el-235 | F.8.7.1.3 | z2 | k2 | Plastik bir çubuğun yalnızca bir ucu yünlü kumaşa sürtülüyor. Çubuğun sürtülen ucu ve sürtülmeyen ucu sırayla küçük kâğıt parçala… | ✓Yalıtkan çubukta yükün sürtülen yerde kalması
+fen-el-236 | F.8.7.1.2 | z2 | k2 | Pozitif yüklü büyük bir K küresi ile negatif yüklü küçük bir L küresi birbirine yaklaştırılıyor. Bir öğrenci “Büyük yüklü K küres… | ✓Yanlıştır; K ve L birbirini çeker
+fen-el-237 | F.8.7.1.1 | z2 | k2 | Fırtınalı bir havada bulutun alt kısmı negatif yüklenmiş, bulutun altındaki yer yüzeyi ise etkiyle pozitif yüklenmiştir. Bulut il… | ✓Buluttan yere; bulut elektron fazlalığına sa…
+fen-el-238 | F.8.7.1.3 | z2 | k2 | Özdeş iki metal küre birbirine dokundurulup ayrılıyor. Ayrıldıktan sonra kürelerin birbirini ittiği görülüyor. Buna göre dokundur… | ✓Kürelerden en az biri kesinlikle yüklüydü
+fen-el-239 | F.8.7.1.2 | z2 | k2 | Yalıtkan ipliklerle asılı K, L, M ve N cisimlerindeki proton ve elektron sayıları tabloda verilmiştir. Bu cisimler ikişer ikişer … | ✓K ve M
+fen-el-240 | F.8.7.1.3 | z2 | k2 | Yalıtkan ayaklı nötr bir metal silindire, negatif yüklü bir çubuk dokunmadan yaklaştırılıyor. Bir süre sonra çubuk silindirden uz… | ✓İki ucu da yeniden nötr olur
+fen-el-241 | F.8.7.1.1 | z2 | k2 | Bir atölyede metal bisiklet çerçeveleri elektrostatik tabancayla boyanıyor. Tabanca, boya damlacıklarını aynı cins yükle yükleyer… | ✓Damlacıkların birbirini iterek düzgün dağılm…
+fen-el-242 | F.8.7.1.2 | z2 | k2 | Fen dersinde elektriklenmeyle ilgili üç yargı tahtaya yazılıyor. I. Elektron alan cisim pozitif yüklenir. II. Sürtünmeyle yüklene… | ✓Yalnız III
+fen-el-243 | F.8.7.1.3 | z2 | k2 | Nötr bir cam çubuk, nötr bir yünlü kumaşa sürtülünce cam çubuk pozitif yükleniyor. Bu olay sırasında cam çubuğun ve kumaşın proto… | ✓Çubuğun elektron sayısı azalır, kumaşınki ar…
+fen-el-244 | F.8.7.1.2 | z2 | k2 | Yalıtkan iplerle asılı K, L ve M kürelerinden K ile L’nin birbirini ittiği, K ile M’nin ise birbirini çektiği görülüyor. Buna gör… | ✓Birbirlerini çekerler
+fen-el-245 | F.8.7.1.3 | z2 | k2 | Bir fen öğretmeni üç elektriklenme çeşidini sürtünme, dokunma ve etki olarak adlandırıyor ve öğrencilerden bu çeşitlere birer örn… | ✓Pozitif yüklü çubuğa değen metal kürenin yük…
+fen-el-246 | F.8.7.1.1 | z2 | k2 | Elektrostatik toz bezi, camı silerken cam ile sürtündüğü için yüklenir. Bu bez, cam üzerindeki toz taneciklerini kolayca topluyor… | ✓Yüklü bezin nötr toz taneciklerini çekmesi
+fen-el-247 | F.8.7.1.2 | z2 | k2 | Negatif yüklü bir çubuk, yalıtkan iplerle asılı K, L ve M kürelerine ayrı ayrı yaklaştırılıyor. K küresi çubuktan uzaklaşıyor; L … | ✓I ve II
+fen-el-248 | F.8.7.1.3 | z2 | k2 | Yalıtkan saplı özdeş K ve L metal küreleri veriliyor. K pozitif yüklü, L nötrdür. K ile L birbirine dokundurulup ayrılıyor. Ayrıl… | ✓K pozitif kalır ama yükü azalır; L pozitif y…
+fen-el-249 | F.8.7.1.1 | z2 | k2 | Karanlık bir odada sentetik montunu çıkaran Selin, montun üzerinde küçük kıvılcımlar görüyor ve hafif bir çıtırtı duyuyor. Bu ola… | ✓Bulutlar arasında şimşek çakmasının
+fen-el-250 | F.8.7.1.3 | z2 | k2 | Yalıtkan ayaklı nötr bir metal küreye, negatif yüklü bir çubuk dokundurulmadan yaklaştırılıyor. Çubuk yerinde dururken kürenin to… | ✓Değişmez; çünkü elektronlar yer değiştirir
+fen-el-251 | F.8.7.1.2 | z2 | k2 | Yalıtkan iplerle asılı K, L ve M küreleri ikişer ikişer yaklaştırılıyor. K ile M’nin birbirini ittiği, L ile K’nin ve L ile M’nin… | ✓K ve M ile aynı cins yüklü değildir
+fen-el-252 | F.8.7.1.2 | z3 | k2 | Fen kulübünde Beyza, yalıtkan iplerle asılı K ve L kürelerini kullanıyor. Yük durumu bilinmeyen X çubuğunu önce K’ye, sonra L’ye … | ✓X ile zıt cins yüklü ya da nötrdür
+fen-el-253 | F.8.7.1.3 | z3 | k2 | Nesrin, yalıtkan saplı özdeş K, L, M ve N metal küreleriyle çalışıyor. Başlangıçta yalnızca K negatif yüklüdür; diğer üç küre nöt… | ✓K ve L
+fen-el-254 | F.8.7.1.1 | z3 | k2 | Fırtına bulutlarında yıldırım oluşumu sırasında aşağıdaki olaylar gerçekleşir. I. Bulut ile yer arasında elektronlar boşalır ve y… | ✓II – III – I
+fen-el-255 | F.8.7.1.3 | z3 | k2 | Yalıtkan A ve B cisimleri birbirine sürtülüyor ve A cismi negatif yükleniyor. Daha sonra A cismi nötr bir K metal küresine, B cis… | ✓K negatif, L pozitif yüklenir; birbirlerini …
+fen-el-256 | F.8.7.1.2 | z3 | k2 | Yalıtkan iplerle asılı K, L, M ve N kürelerinin ikişer ikişer yaklaştırılmasıyla elde edilen gözlemler tabloda verilmiştir. Bir ö… | ✓II ve III
+fen-el-257 | F.8.7.1.3 | z3 | k2 | Başlangıçta nötr olan özdeş K ve L metal küreleri yalıtkan saplarla tutuluyor. Küreler nötr iken her birinin elektron sayısı N’di… | ✓İkisininki de N’den azdır
+fen-el-258 | F.8.7.1.1 | z3 | k2 | Bir lazer yazıcıda dönen silindirin yüzeyi önce pozitif yüklenir. Lazer ışığı, yazı çıkmayacak bölgelerdeki yükü ortadan kaldırır… | ✓I ve II
+fen-el-259 | F.8.7.1.2 | z3 | k2 | Şekilde tavandan yalıtkan iplerle asılı K, L ve M küreleri dengede görülmektedir. K küresi negatif yüklüdür. K ile L birbirini it… | ✓Yalnız I
+fen-el-260 | F.8.7.1.3 | z3 | k2 | Başlangıçta nötr olan özdeş K ve L metal küreleri yalıtkan saplarla tutuluyor. Bir öğrenci, elindeki negatif yüklü bir çubuğu kul… | ✓Küreler birbirine dokundurulur; negatif çubu…
+fen-el-261 | F.8.7.1.2 | z3 | k2 | Pozitif yüklü P çubuğu, negatif yüklü N çubuğu ve yalıtkan iplerle asılı, yük durumu bilinmeyen K ile L küreleri veriliyor. N çub… | ✓K’yi de L’yi de iter
+fen-el-262 | F.8.7.1.3 | z3 | k2 | Yalıtkan saplarla tutulan aynı boydaki nötr bir metal çubuk ile nötr bir plastik çubuk veriliyor. Negatif yüklü bir çubuk, bu iki… | ✓Metal çubuğun her yeri çeker; plastik çubuk …
+fen-el-263 | F.8.7.1.1 | z3 | k2 | Defne, plastik bir kaydıraktan birkaç kez kayıyor ve her seferinde saç telleri birbirinden ayrılıp havalanıyor. Defne’nin saç tel… | ✓Saç telleri elektron vererek pozitif yükleni…
+fen-el-264 | F.8.7.1.2 | z3 | k2 | Yalıtkan iplerle asılı K, L, M ve N kürelerine ikişer ikişer yaklaştırma yapılıyor ve şu gözlemler elde ediliyor: K ile L, L ile … | ✓2
+fen-el-265 | F.8.7.1.3 | z3 | k2 | Şekildeki gibi birbirine paralel yerleştirilmiş yalıtkan ayaklı iki metal plakadan soldaki pozitif, sağdaki negatif yüklüdür. Pla… | ✓Sol plakadan itilir, sağ plakaya gider; pozi…
+fen-el-266 | F.8.7.1.2 | z3 | k2 | Yalıtkan iplerle asılı K ve L küreleri birbirine yaklaştırıldığında birbirini çekiyor. Öğrenciler bu gözlemden yola çıkarak K ve … | ✓K pozitifse L negatif ya da nötrdür
+fen-el-267 | F.8.7.1.1 | z3 | k2 | Aşağıdaki tabloda dört olayın açıklaması verilmiştir. Bir öğrenci açıklamalardan birini yanlış yazmıştır. Buna göre hangi olayın … | ✓Araba kapısına dokununca çarpılma
+fen-el-268 | F.8.7.1.3 | z3 | k2 | Pozitif yüklü bir cam çubuk, yalıtkan saplarla tutulan nötr ve özdeş K ve L metal kürelerine şu sırayla dokundurulup ayrılıyor: ö… | ✓K ile L birbirini iter; çubuk pozitif yüklü …
+fen-el-269 | F.8.7.1.2 | z3 | k2 | Pozitif yüklü P çubuğu, negatif yüklü N çubuğu ve yalıtkan iplerle asılı K ile L küreleri veriliyor. Bir öğrenci, K ve L küreleri… | ✓P, K’yi iter ve L’yi çeker; N, K’yi çeker ve…
+fen-el-270 | F.8.7.1.3 | z3 | k2 | Nötr P, Q ve R yalıtkan cisimleri ikişerli sürtülünce pozitif yüklenen cisimler tabloda verilmiştir. Daha sonra yeniden nötr hâle… | ✓M pozitif, N negatif yüklenir; birbirlerini …
+fen-el-271 | F.8.7.1.1 | z3 | k2 | Fen kulübü öğrencileri “Havadaki nem, elektriklenmeyi azaltır.” hipotezini sınamak istiyor. Ellerinde özdeş plastik balonlar, yün… | ✓Özdeş iki balon aynı kumaşa aynı sayıda sürt…
+fen-el-272 | F.8.7.1.3 | z3 | k2 | Fen kulübünde özdeş K, L ve M metal küreleri yalıtkan saplarla tutuluyor. Küreler nötr iken her birinin elektron sayısı N’dir. Ön… | ✓K ve L’ninki N’den fazla, M’ninki N’den azdır
+fen-el-273 | F.8.7.1.2 | z3 | k2 | Kuru bir odada Barış, şişirilmiş bir balonu yünlü kazağına sürtüyor ve balonu tavana bırakıyor. Balon, düşmeden tavanda asılı kal… | ✓Balon kesinlikle yüklüdür; tavan nötr ya da …
+fen-el-274 | F.8.7.1.1 | z3 | k2 | Bir fabrikada toz filtresinin verimi, plakaların ve toz taneciklerinin yük cinsi değiştirilerek dört durumda ölçülüyor. Sonuçlar … | ✓Tozlarla zıt cins; zıt yükler birbirini çeker
+fen-el-275 | F.8.7.1.2 | z3 | k2 | Negatif yüklü Y çubuğu ve yük durumu bilinmeyen X çubuğu veriliyor. X çubuğu Y çubuğuna yaklaştırıldığında ikisi birbirini çekiyo… | ✓Yalnız II
+fen-el-326 | F.8.7.1.1 | z3 | k3 | Kuru bir kış gününde yalıtkan kumaşlı koltuğa sürtünen kazağıyla arabadan inen Burak, metal kapı koluna dokunurken küçük bir kıvı… | ✓Kazak ile koltuk zıt cins yüklenir; boşalma …
+fen-el-327 | F.8.7.1.2 | z3 | k3 | Bir öğrenci yalıtkan iplerle asılı üç metal küreyle deney yapıyor. Negatif yüklü olduğunu bildiği S küresini önce P'ye, sonra R'y… | ✓I ve III
+fen-el-328 | F.8.7.1.3 | z3 | k3 | Nötr bir PVC boru, nötr bir yün atkıya sürtülüyor. Sürtünme sonunda atkı pozitif yükleniyor. Daha sonra boru ile atkı birbirinden… | ✓Elektronlar atkıdan boruya geçmiştir; boru i…
+fen-el-329 | F.8.7.1.1 | z3 | k3 | Fırtınalı bir akşam gökyüzünü izleyen Ceren, bazı yük boşalmalarının iki bulut arasında, bazılarının ise bulut ile yer yüzeyi ara… | ✓II ve III
+fen-el-330 | F.8.7.1.2 | z3 | k3 | Yalıtkan iplerle asılı K, L ve M kürelerinden K’nin negatif yüklü olduğu biliniyor. Küreler iki ayrı denemede ikişer ikişer yakla… | ✓Pozitif yüklü ya da nötrdür.
+fen-el-331 | F.8.7.1.3 | z3 | k3 | Yalıtkan ayak üzerindeki nötr bir metal silindirin sol ucu K, sağ ucu L ile adlandırılıyor. Pozitif yüklü bir çubuk, silindirin K… | ✓II ve III
+fen-el-332 | F.8.7.1.1 | z3 | k3 | Yünlü halının üzerinde terlikle yürüyen Ece, metal kapı koluna dokunduğunda küçük bir çarpılma hissediyor. Ece’nin vücudundaki yü… | ✓Kuru saça sürtülen plastik tarağın negatif y…
+fen-el-333 | F.8.7.1.2 | z3 | k3 | Negatif yüklü bir plastik çubuk, yalıtkan iplerle asılı K, L ve M kürelerine sırayla yaklaştırılıyor. K küresi çubuktan uzaklaşıy… | ✓I ve III
+fen-el-334 | F.8.7.1.3 | z3 | k3 | Nötr, metal bir K küresi yalıtkan sapından tutuluyor. Öğrenci, yüklü bir çubuk kullanarak K küresini negatif yüklemek istiyor. Bu… | ✓Negatif yüklü çubuğu K’ye dokundurup çekmek
+fen-el-335 | F.8.7.1.1 | z3 | k3 | Fen öğretmeni, öğrencilerden günlük hayatta karşılaştıkları olayları elektriklenmeyle ilişkilendirmelerini istiyor. Öğrencilerin … | ✓II ve III
+fen-el-336 | F.8.7.1.3 | z3 | k3 | Bir öğrenci, yalıtkan K, L, M ve N cisimlerini ikişer ikişer birbirine sürtüp hangi cismin negatif yüklendiğini tabloya yazıyor. … | ✓L pozitif, M negatif yüklenir; elektronlar L…
+fen-el-337 | F.8.7.1.1 | z3 | k3 | Kuru bir bezle sürtülen plastik kalemin masadaki nötr ince kâğıt şeritlerini kendine çektiğini gören Mina, nedenini şu yargılarla… | ✓Yalnız III
+fen-el-338 | F.8.7.1.3 | z3 | k3 | Başlangıçta nötr olan, yalıtkan K ve L cisimleriyle bir işlem yapılıyor. İşlem sonunda cisimler birbirinden ayrı duruyor; K’nin p… | ✓K ile L birbirine sürtülüp ayrılmış; elektro…
+fen-el-339 | F.8.7.1.2 | z3 | k3 | Yalıtkan ipe asılı bir L küresinin yük durumu araştırılıyor. Negatif yüklü bir çubuk L küresine yaklaştırıldığında küre çubuğa do… | ✓Yalnız II
+fen-el-340 | F.8.7.1.1 | z3 | k3 | Kış aylarında Selim, her sabah aynı yün kazağı çıkarırken duyduğu çıtırtıyı not ediyor ve odanın nem oranını da ölçüyor. Sonuçlar… | ✓Nem arttıkça biriken yük havaya kaçar ve çıt…
+fen-el-341 | F.8.7.1.3 | z3 | k3 | Yalıtkan ayak üzerindeki nötr metal silindirin sol ucu K, sağ ucu L ile gösterilmiştir. Negatif yüklü bir balon, silindirin sağ t… | ✓K negatif, L pozitif olur; silindir balona d…
+fen-el-342 | F.8.7.1.2 | z3 | k3 | Pozitif yüklü bir çubuk, yalıtkan iplerle asılı K ve L kürelerine ayrı ayrı yaklaştırıldığında K küresi çubuğa doğru, L küresi is… | ✓Birbirlerini kesinlikle çekerler.
+fen-el-343 | F.8.7.1.1 | z3 | k3 | Bir öğrenci, günlük hayattaki olayları elektriklenme çeşitleriyle eşleştiriyor. I. Montu çıkarırken çıtırtı duyulması: sürtünme i… | ✓I ve II
+fen-el-344 | F.8.7.1.3 | z3 | k3 | Fen laboratuvarında plastik bir cetvelin yalnızca bir ucu yünlü kumaşa sürtülüyor. Cetvel nötr kâğıt parçalarına yaklaştırıldığın… | ✓Plastik bir yalıtkandır; elektronlar rahat h…
+fen-el-345 | F.8.7.1.1 | z3 | k3 | Fen kulübü öğrencileri, televizyon ve bilgisayar ekranlarının çabuk tozlandığını fark ediyor. Ekran çalışırken yüzeyi yüklenir ve… | ✓I ve III
+fen-el-346 | F.8.7.1.2 | z3 | k3 | Şekilde K, L, M ve N cisimlerindeki yük taneciklerinin sayısı gösterilmiştir. Artı işaretleri protonları, eksi işaretleri elektro… | ✓L ile N
+fen-el-347 | F.8.7.1.3 | z3 | k3 | Negatif yüklü bir çubuk, yalıtkan saplı nötr bir metal küreye önce dokunmadan yaklaştırılıyor. Sonra çubuk küreye dokundurulup uz… | ✓Yalnız III
+fen-el-348 | F.8.7.1.1 | z3 | k3 | Fen öğretmeni, kış gününde kazağını çıkarırken çıtırtı duyan bir öğrencinin yaşadığı olayı, fırtınalı havada gökyüzünde çakan şim… | ✓İkisinde de biriken yükler ani biçimde boşal…
+fen-el-349 | F.8.7.1.2 | z3 | k3 | Yalıtkan iplerle asılı K, L ve M kürelerinin yük durumları araştırılıyor. Küreler ikişer ikişer yaklaştırıldığında gözlemler tabl… | ✓K ile M kesinlikle aynı cins yüklüdür.
+fen-el-350 | F.8.7.1.1 | z3 | k3 | Çamaşır kurutma makinesinden çıkan sentetik giysilerin birbirine yapıştığını gören Aylin, olayı araştırıp şu yargıları yazıyor. I… | ✓Yalnız I
+fen-el-351 | F.8.7.1.3 | z3 | k3 | Şekilde nötr X ve Y cisimlerinin birbirine sürtülmeden önceki ve sürtüldükten sonraki hâli gösterilmiştir. Artı işaretleri proton… | ✓X pozitif yüklenmiştir; iki elektron X’ten Y…
+fen-el-352 | F.8.7.1.2 | z3 | k3 | Yalıtkan iplerle asılı P, R ve S kürelerine önce negatif yüklü, sonra pozitif yüklü bir çubuk yaklaştırılıyor. Küre çubuğa doğru … | ✓II ve III
+fen-el-353 | F.8.7.1.3 | z3 | k3 | Etki ile elektriklenme konusunu çalışan bir öğrenci, dokunmadan yaklaştırılan yüklü bir çubuk ve nötr bir metal küre için not alı… | ✓Çubuk küreye dokunmadığı hâlde çubuktan küre…
+fen-el-354 | F.8.7.1.1 | z3 | k3 | Kış mevsiminde sentetik kazağını çıkaran Kerem, sürtünme nedeniyle negatif yükleniyor. Kerem ahşap kapı koluna dokunduğunda hiçbi… | ✓Metal iletkendir; Kerem’de biriken yük, elek…
+fen-el-355 | F.8.7.1.3 | z3 | k3 | Fen öğretmeni, kuru saça sürtülen plastik bir tarağın kâğıt parçalarıyla etkileşimini gösteriyor. Tarak saça sürtüldükten sonra k… | ✓Sürtünme, etki, dokunma
+fen-el-356 | F.8.7.1.2 | z4 | k3 | Bir laboratuvar masasında dört metal küre ipek ipliklerle asılıdır ve K küresinin pozitif yüklü olduğu ölçülmüştür. Öğretmen küre… | ✓I, II ve III
+fen-el-357 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı K, L ve M kürelerine pozitif yüklü bir çubuk yaklaştırıldığında K ve M küreleri çubuğa doğru, L küresi ise… | ✓Negatif, pozitif, negatif
+fen-el-358 | F.8.7.1.3 | z4 | k3 | Yalıtkan saplı, nötr bir K metal küresine negatif yüklü bir çubuk dokundurulup çekiliyor. Ardından pozitif yüklü bir P çubuğu, K … | ✓I ve II
+fen-el-359 | F.8.7.1.3 | z4 | k3 | P yalıtkan çubuğu R kumaşına sürtülüyor ve sürtünme sırasında R kumaşından P çubuğuna elektron geçiyor. Sonra P çubuğu, yalıtkan … | ✓Çeker, iter
+fen-el-360 | F.8.7.1.1 | z4 | k3 | Elektriklenmeden yararlanan bazı teknolojiler ve çalışma ilkeleri eşleştiriliyor. Bu eşleştirmelerden hangisi yanlıştır? | ✓Baca filtresi: Yüklenen toz tanecikleri, ken…
+fen-el-361 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı K, L ve M kürelerinden her ikili birbirine yaklaştırıldığında üç ikilinin de birbirini çektiği gözleniyor:… | ✓Biri nötr, diğer ikisi zıt yüklüdür.
+fen-el-362 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı P, R, S ve T kürelerinin yük durumları araştırılıyor. Küreler ikişer ikişer yaklaştırıldığında gözlemler t… | ✓Yalnız II
+fen-el-363 | F.8.7.1.1 | z4 | k3 | Bir fabrikada plastik film rulosu üretilirken film silindirlere sürtünerek yüklenir ve havadaki nötr toz tanecikleri filme yapışa… | ✓I ve III
+fen-el-364 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı X, Y ve Z kürelerinin yük durumları araştırılıyor. Küreler ikişer ikişer birbirine yaklaştırıldığında gözl… | ✓X yüklüdür; Y ve Z kesinlikle nötrdür.
+fen-el-365 | F.8.7.1.3 | z4 | k3 | Özdeş K ve L metal küreleri nötrdür ve yalıtkan ayaklar üzerinde durmaktadır. Pozitif yüklü bir çubukla dört ayrı işlem uygulanıy… | ✓Değen K ve L’ye çubuk dokunmadan yaklaştırıl…
+fen-el-366 | F.8.7.1.1 | z4 | k3 | Elektriklenme konusunu tekrar eden bir öğrenci, aşağıdaki cümleleri yazıyor. I. Pozitif yüklenen cisim, proton kazanmış olandır. … | ✓II ve III
+fen-el-367 | F.8.7.1.3 | z4 | k3 | Yalıtkan X çubuğu P kumaşına, yalıtkan Z çubuğu da R kumaşına sürtülüyor. Sürtünmeden önce hepsi nötrdür. Sürtünme sırasında X çu… | ✓X ile R birbirini iter; Z ile P birbirini it…
+fen-el-368 | F.8.7.1.2 | z4 | k3 | Yalıtkan ipe asılı S küresinin yük durumu araştırılırken yapılan dört ayrı gözlem şunlardır. I. Negatif yüklü bir çubuk S’yi çeki… | ✓I ve III
+fen-el-369 | F.8.7.1.3 | z4 | k3 | Bir öğrenci, dört ayrı deneyin sonucunu tabloya yazıyor. Metal küre kullanılan deneylerde küreler özdeştir ve yalıtkan saplarla t… | ✓4. deney
+fen-el-370 | F.8.7.1.1 | z4 | k3 | Bir fırtınada bulutun alt kısmı negatif, bulutun altındaki yer yüzeyi ise pozitif yüklüdür. Bulut ile yer yüzeyi arasında yıldırı… | ✓Bulutun negatif yükü azalır; yer yüzeyinin p…
+fen-el-371 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı K, L ve M kürelerinin yük durumları araştırılıyor. Küreler ikişer ikişer yaklaştırıldığında gözlemler tabl… | ✓M, K ile aynı cins yüklüdür.
+fen-el-372 | F.8.7.1.3 | z4 | k3 | Elinde yalnızca negatif yüklü bir çubuk ve yalıtkan ayaklar üzerinde duran, nötr ve özdeş K ve L metal küreleri bulunan Doruk, bu… | ✓K pozitif, L pozitif
+fen-el-373 | F.8.7.1.1 | z4 | k3 | Kuru bir kış gününde yalıtkan plastik kaydıraktan kayarak inen Nehir’in saçları havalanıyor. Nehir kaydıraktan indikten sonra met… | ✓Nehir’in negatif yükünün miktarı, kaydırağın…
+fen-el-374 | F.8.7.1.3 | z4 | k3 | Nötr K ve L balonları, aynı yünlü kumaşa art arda sürtülüyor. Her sürtünmede balon, kumaştan elektron alıyor. Sürtünmeden sonra b… | ✓İter, çeker, çeker
+fen-el-375 | F.8.7.1.2 | z4 | k3 | Yalıtkan iplerle asılı altı küre, üç çift hâlinde birbirine yaklaştırılıyor ve gözlemler tabloda verilmiştir. Buna göre bu altı k… | ✓5
+fen-el-016 | F.8.7.1.2 | z1 | k0 | Pozitif yüklü bir balon nötr bir duvara yaklaştırılınca duvara yapışıyor. Bu durum aşağıdakilerden hangisiyle açıklanır? | ✓Yüklü cisim nötr cismi çeker
+fen-el-017 | F.8.7.1.3 | z1 | k0 | Bir cisim elektron kaybederse bu cismin yük durumu için aşağıdakilerden hangisi doğrudur? | ✓Pozitif yüklü olur
+fen-el-018 | F.8.7.1.1 | z1 | k0 | Fırtına bulutu ile yer yüzeyi arasında gerçekleşen elektrik boşalmasına ne ad verilir? | ✓Yıldırım
+fen-el-019 | F.8.7.1.2 | z1 | k0 | Bir cismin nötr olması aşağıdakilerden hangisi anlamına gelir? | ✓Pozitif ve negatif yüklerinin eşit olması
+fen-el-020 | F.8.7.1.3 | z1 | k0 | Sürtünme ile elektriklenen iki cismin yükleri için aşağıdakilerden hangisi doğrudur? | ✓Zıt cins ve eşit miktarda yüklenirler
+fen-el-021 | F.8.7.1.3 | z1 | k0 | Kuru saçlar plastik bir tarakla tarandıktan sonra tarağın negatif yüklendiği görülüyor. Sürtünmeden sonra saç için aşağıdakilerde… | ✓Pozitif yüklenir
+fen-el-022 | F.8.7.1.1 | z1 | k0 | Aşağıdaki hava koşullarının hangisinde sürtünmeyle elektriklenme olayları daha belirgin gözlenir? | ✓Kuru ve soğuk
+fen-el-023 | F.8.7.1.2 | z1 | k0 | Pozitif yüklü bir çubuk, yalıtkan iple asılı nötr bir küreye dokunmadan yaklaştırılıyor. Nötr küre için aşağıdakilerden hangisi g… | ✓Çubuğa doğru hareket eder
+fen-el-024 | F.8.7.1.3 | z1 | k0 | Aşağıdaki elektriklenme çeşitlerinden hangisinde yüklü cisim, nötr cisme dokunmadan yaklaştırılır? | ✓Etki ile elektriklenme
+fen-el-025 | F.8.7.1.1 | z1 | k0 | Aşağıdakilerden hangisi elektriklenmeyle açıklanamaz? | ✓Mıknatısın demir tozlarını çekmesi
+fen-el-026 | F.8.7.1.3 | z1 | k0 | Ebonit bir çubuk kürk kumaşa sürtülünce elektronlar kumaştan çubuğa geçiyor. Buna göre ebonit çubuk hangi cins yükle yüklenir? | ✓Negatif
+fen-el-027 | F.8.7.1.1 | z1 | k0 | Fırtına bulutlarında elektrik yükleri nasıl birikir? | ✓Buz ve su taneciklerinin birbirine sürtünmes…
+fen-el-028 | F.8.7.1.1 | z2 | k0 | Ali, sentetik kazağını önce kuru ve ısıtılmış odasında, sonra yoğun buharlı banyoda çıkarıyor. Yalnızca odada çıtırtı duyuyor. Bu… | ✓Nemli havada sürtünmeyle biriken yükler hava…
+fen-el-029 | F.8.7.1.3 | z2 | k0 | Bir öğrenci, nötr bir naylon çorabı nötr bir plastik tarağa sürtüyor. Sürtünme sonunda çorap negatif yükleniyor. Buna göre bu ola… | ✓Tarak pozitif yüklenir; elektronlar taraktan…
+fen-el-030 | F.8.7.1.2 | z2 | k0 | Bir öğrenci, ipe asılı hafif bir tüyü iki farklı çubukla deniyor. P çubuğu tüye yaklaştırılınca tüy P'ye doğru hareket ediyor; R … | ✓I ve II
+fen-el-031 | F.8.7.1.1 | z2 | k0 | Sentetik tüylü bir toz alma fırçası cam bir yüzeye birkaç kez sürtüldükten sonra tozlu rafa yaklaştırılınca tozları kendine çekiy… | ✓Fırça sürtünmeyle yüklenmiş ve nötr tozları …
+fen-el-032 | F.8.7.1.3 | z2 | k0 | Yalıtkan saplı özdeş metal kürelerden K pozitif yüklü, L ve M nötrdür. K küresi L ile dokundurulup ayrılıyor; ardından L küresi M… | ✓Önce L'den K'ye, sonra M'den L'ye geçer; üç …
+fen-el-033 | F.8.7.1.2 | z2 | k0 | Bir öğrenci, yük durumları bilinmeyen X ve Y cisimleriyle deney yapıyor. X cismi nötr bir ip parçasını kendine çekiyor; X ile Y c… | ✓Yalnız II
+fen-el-034 | F.8.7.1.1 | z2 | k0 | Sentetik halıda ayakkabılarını sürterek yürüyen Elif'in vücudu negatif yükleniyor. Elif, metal kapı koluna parmağını yaklaştırırk… | ✓Elif'ten kapı koluna elektron geçer
+fen-el-035 | F.8.7.1.3 | z2 | k0 | Birbirine sürtülen nötr yalıtkan P ve R cisimleri yüklenerek ayrılıyor. Daha sonra P ve R, birbirinden bağımsız olarak nötr ve ip… | ✓P yaklaşınca da R yaklaşınca da çekilir
+fen-el-036 | F.8.7.1.2 | z2 | k0 | Şekilde yalıtkan iplerle asılı K ve L küreleri birbirini çekmektedir. K küresi pozitif yüklüdür. I. L küresi pozitif değildir. II… | ✓Yalnız I
+fen-el-037 | F.8.7.1.1 | z2 | k0 | Fırtınalı bir havada bulutlarda biriken yükler boşalırken ışık ve ses oluşuyor. Bir öğrenci bu olay için şu yargıları yazıyor. I.… | ✓II ve III
+fen-el-038 | F.8.7.1.3 | z2 | k0 | Yalıtkan ayaklı nötr bir metal silindirin K ucuna, pozitif yüklü bir balon dokunmadan yaklaştırılıyor. Balon yerinde dururken ele… | ✓L ucundan K ucuna; toplam yük sıfırdır
+fen-el-039 | F.8.7.1.2 | z2 | k0 | Pozitif yüklü A küresi ile ipe asılı B küresi birbirini itiyor. Daha sonra B küresi ile ipe asılı C küresi birbirini çekiyor. Bun… | ✓C küresi negatif yüklüdür ya da nötrdür
+fen-el-040 | F.8.7.1.3 | z2 | k0 | Bir öğrenci, elinde tuttuğu metal çubuğu yünlü kumaşa sürterek çubuğu yüklemeye çalışıyor ama çubuk yüklenmiyor. Aynı çubuğu plas… | ✓Metal iletkendir; yük elden vücuda geçer ve …
+fen-el-041 | F.8.7.1.2 | z2 | k0 | Bir öğrenci, yük durumları bilinmeyen K, L ve M kürelerini ikişerli yaklaştırarak aralarındaki etkiyi tabloya yazıyor. I. M küres… | ✓Yalnız III
+fen-el-042 | F.8.7.1.3 | z2 | k0 | Sürtünme ile elektriklenme için bir öğrenci şu yargıları yazıyor. I. Sürtünen iki cisim de yalıtkan olabilir. II. Sürtünen cisiml… | ✓I, II ve III
+fen-el-043 | F.8.7.1.2 | z2 | k0 | Yük durumu bilinmeyen A cismi, ipe asılı hafif B cismine yaklaştırılıyor. Aşağıdaki gözlemlerden hangisi A cisminin kesinlikle yü… | ✓B cismi A'dan uzaklaşır
+fen-el-044 | F.8.7.1.3 | z2 | k0 | Bir öğrenci aşağıdaki işlemleri yapıyor. I. Plastik bir tarağı kuru saça sürtmek II. Pozitif yüklü bir çubuğu nötr bir metal küre… | ✓I ve III
+fen-el-045 | F.8.7.1.1 | z2 | k0 | Yünlü kazağa sürtülen bir balon, nötr duvara bırakıldığında duvara yapışıp kalıyor. Bu olayın nedeni aşağıdakilerden hangisidir? | ✓Duvarın balona bakan yüzünde zıt cins yük to…
+fen-el-046 | F.8.7.1.1 | z2 | k0 | Çamaşır kurutma makinesinden çıkan sentetik bir tişört ile havlu birbirine yapışıyor. Bu yapışmanın nedeni aşağıdakilerden hangis… | ✓Sürtünmeyle zıt cins yüklenmişlerdir; zıt ci…
+fen-el-047 | F.8.7.1.2 | z2 | k0 | Nötr olduğu bilinen K cismine ipe asılı L cismi yaklaştırıldığında L, K'ye doğru hareket ediyor; ipe asılı M cismi yaklaştırıldığ… | ✓II ve III
+fen-el-048 | F.8.7.1.1 | z3 | k0 | Bir öğrenci günlük hayattan şu olayları listeliyor. I. Mıknatısın çivileri çekmesi II. Yünlü eldivenle okşanan kedinin tüylerinin… | ✓Yalnız II
+fen-el-049 | F.8.7.1.2 | z3 | k0 | Yalıtkan iplerle asılı pozitif yüklü A küresi ile nötr B küresi birbirine yaklaştırılıyor. Buna göre aşağıdakilerden hangisi gözl… | ✓A, B'yi çeker; B de A'yı çeker ve küreler bi…
+fen-el-050 | F.8.7.1.3 | z3 | k0 | Şekilde yalıtkan saplı özdeş K ve L metal kürelerinden K negatif yüklü, L nötrdür. Küreler birbirine dokundurulup ayrıldıktan son… | ✓Elektronlar K'den L'ye geçer; küreler birbir…
+fen-el-051 | F.8.7.1.1 | z3 | k0 | Bir fotokopi makinesinde döner silindirin yüzeyi önce pozitif yüklenir. Belgedeki beyaz bölgelerden gelen ışık, silindirin o bölg… | ✓Negatif yüklüdür; zıt cins yükler birbirini …
+fen-el-052 | F.8.7.1.2 | z3 | k0 | Aynı noktadan yalıtkan iplerle asılan K, L ve M küreleri şekildeki gibi dengede duruyor; her küre diğer ikisini itmektedir. K kür… | ✓İkisi de negatif yüklüdür
+fen-el-053 | F.8.7.1.3 | z3 | k0 | Plastik bir çubuğun ucu yün kumaşa sürtülünce çubuğun bu ucu negatif yükleniyor. Çubuğun yüklü ucu, ipe asılı nötr bir metal küre… | ✓Çubuk iter, yün kumaş çeker
+fen-el-054 | F.8.7.1.2 | z3 | k0 | Yük durumları bilinmeyen K, L ve M kürelerinden K ile L birbirine yaklaştırıldığında ne itme ne de çekme gözleniyor. M küresi ise… | ✓I ve II
+fen-el-055 | F.8.7.1.1 | z3 | k0 | Sentetik kumaş kaplı koltuktan kayarak arabadan inen Zeynep, aracın metal kapı çerçevesine dokunurken çıtırtı duyuyor. Aynı Zeyne… | ✓Plastik yalıtkandır; elektronlar plastikte r…
+fen-el-056 | F.8.7.1.2 | z3 | k0 | Nötr K küresi ile pozitif yüklü L küresi veriliyor. Yük durumu bilinmeyen M küresi, L tarafından itiliyor ve K tarafından çekiliy… | ✓M küresi kesinlikle pozitif yüklüdür
+fen-el-057 | F.8.7.1.3 | z3 | k0 | Bir öğrenci elektriklenme çeşitlerini tabloda özetliyor. Buna göre tabloda hangi elektriklenme çeşidi için verilen sonuç yanlıştı… | ✓Etki
+fen-el-058 | F.8.7.1.1 | z3 | k0 | Bir öğrenci, plastik bir pipeti her gün aynı yünlü kumaşa sürterek küçük kâğıt parçalarına yaklaştırıyor. Pipete yapışan kâğıt pa… | ✓Nem arttıkça biriken yük havaya kaçar ve yap…
+fen-el-059 | F.8.7.1.3 | z3 | k0 | Yalıtkan ayaklı nötr bir metal küreye pozitif yüklü bir çubuk dokunmadan yaklaştırılıyor. Bir öğrenci bu olay için şu yargıları y… | ✓Yalnız I
+fen-el-060 | F.8.7.1.2 | z3 | k0 | A çubuğu pozitif, B çubuğu negatif yüklüdür. Yük durumu bilinmeyen ve ipe asılı K küresine A çubuğu yaklaştırıldığında K küresi A… | ✓Kesinlikle negatif yüklüdür
+fen-el-061 | F.8.7.1.3 | z3 | k0 | Pozitif yüklü bir çubuk, yalıtkan iple asılı nötr bir metal küreye yaklaştırılınca küre çubuğa doğru hareket ediyor. Küre çubuğa … | ✓Küre çubuğa elektron verip çubukla aynı cins…
+fen-el-062 | F.8.7.1.3 | z3 | k0 | Bir öğrenci yalıtkan A, B ve C cisimlerini ikişerli sürterek sonuçları tabloya yazıyor. Buna göre aşağıdakilerden hangisi kesinli… | ✓B, hem A'ya hem C'ye sürtülünce negatif yükl…
+fen-el-063 | F.8.7.1.3 | z3 | k0 | Nötr P ve R yalıtkan cisimleri birbirine sürtülünce P pozitif, R negatif yükleniyor. Daha sonra R cismi, nötr bir metal L küresin… | ✓Sıfırdır; sistem yüksüz başlamıştır ve yük k…
+fen-el-064 | F.8.7.1.2 | z4 | k0 | Yük durumları bilinmeyen K ve L küreleri birbirini çekmektedir. Her küre pozitif, negatif ya da nötr olabilir. Buna göre K ve L k… | ✓6
+fen-el-065 | F.8.7.1.3 | z4 | k0 | Yalıtkan ayaklar üzerinde birbirine değen özdeş K ve L metal küreleri nötrdür. Negatif yüklü bir çubuk K küresine dokunmadan yakl… | ✓M pozitif, L negatif yüklüdür; birbirini çek…
+fen-el-066 | F.8.7.1.1 | z4 | k0 | Fen kulübü öğrencileri, kuru bir günde plastik bir kaydıraktan kayan Emre'nin saçlarının havalandığını gözlüyor. Emre kaydıraktan… | ✓I ve II
+fen-el-067 | F.8.7.1.2 | z4 | k0 | Üçü de yüklü olan K, L ve M küreleri ikişerli yaklaştırılarak aralarındaki etki gözleniyor. Buna göre aşağıdaki gözlem üçlülerind… | ✓K–L itme, L–M itme, K–M çekme
+fen-el-068 | F.8.7.1.3 | z4 | k0 | Bir öğrenci elektriklenmeyle ilgili şu yargıları yazıyor. a) Pozitif yüklü bir metal küre, nötr bir metal küreye dokundurulup ayr… | ✓3
+fen-el-069 | F.8.7.1.3 | z4 | k0 | Şekilde negatif yüklü plastik bir cetvel ve pozitif yüklü bir yün parçası, yalıtkan ayaklı nötr bir metal silindirin iki ucuna ay… | ✓K ucu pozitif, L ucu negatif
+fen-el-070 | F.8.7.1.3 | z4 | k0 | Yalıtkan saplı, özdeş K ve L metal küreleri eşit miktarda zıt yük taşıyor; K pozitif, L negatiftir. Küreler birbirine dokundurulu… | ✓Elektronlar L'den K'ye geçer; iki küre de çu…
+fen-el-071 | F.8.7.1.2 | z4 | k0 | K küresi pozitif yüklüdür. Yük durumları bilinmeyen L, M ve N küreleriyle yapılan ikişerli yaklaştırma gözlemleri tabloda verilmi… | ✓İkisi de kesinlikle negatif yüklüdür
+fen-el-072 | F.8.7.1.2 | z4 | k0 | Yalıtkan iplerle asılı K, L, M ve N kürelerinin yük durumları bilinmiyor. Küreler ikişerli yaklaştırıldığında şekilde gösterilen … | ✓2
+fen-el-073 | F.8.7.1.1 | z4 | k0 | Bir fabrikanın bacasında kül tutan elektrostatik bir filtre vardır. Dumandaki kül parçacıkları özel bir bölmede yüklenir, sonra p… | ✓Yalnız II
+fen-el-074 | F.8.7.1.1 | z4 | k0 | Bir öğrenci doğa olayları ve teknolojiyle ilgili şu yargıları yazıyor. a) Elektrostatik toz filtresinde toz parçacıkları yüklenir… | ✓4
+fen-el-075 | F.8.7.1.1 | z4 | k0 | Deniz, karanlık bir odada sentetik bir battaniyeyi yatağın üzerinden hızla çekip alırken küçük kıvılcımlar görüyor ve çıtırtı duy… | ✓II ve III

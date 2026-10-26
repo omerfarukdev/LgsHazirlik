@@ -14,7 +14,8 @@ window.LGS_HAP["elektriklenme"] = {
         "Bir cisimde pozitif ve negatif yük miktarı **eşitse cisim nötrdür.** Nötr, \"yüksüz\" demek değildir: yükler vardır ama eşit olduğu için etkileri birbirini dengeler. Elektron sayısı proton sayısından **fazlaysa cisim negatif**, **azsa pozitif** yüklüdür.",
         "**Aynı cins yükler birbirini iter, farklı cins yükler birbirini çeker.** Kuvvet karşılıklıdır: A, B'yi iterse B de A'yı iter.",
         "Yüklü bir cisim, **nötr hafif cisimleri** (kâğıt parçacığı, ince tüy, ince su akıntısı) de **çeker.** Nedenini \"Etki ile elektriklenme\" bölümünde göreceksin.",
-        "Yük cinsini anlamak için gözleme bak: **itme, iki cismin de yüklü ve aynı cins olduğunu kanıtlar.** Çekme ise tek başına kesin kanıt değildir."
+        "Yük cinsini anlamak için gözleme bak: **itme, iki cismin de yüklü ve aynı cins olduğunu kanıtlar.** Çekme ise tek başına kesin kanıt değildir.",
+        "**İki nötr cisim birbirini çekmez de itmez;** birbirini etkilemeyen iki cisim nötr olabilir."
       ],
       "tablo": "<table class=\"tablo\"><tr><th>Cisimler</th><th>Etki</th><th>Ne anlaşılır?</th></tr><tr><td>+ ile +</td><td>İtme</td><td>İkisi de pozitif</td></tr><tr><td>− ile −</td><td>İtme</td><td>İkisi de negatif</td></tr><tr><td>+ ile −</td><td>Çekme</td><td>Zıt cins yüklü</td></tr><tr><td>+ ile nötr</td><td>Çekme</td><td>Yüklü cisim nötrü çeker</td></tr></table>",
       "dikkat": [
@@ -28,7 +29,8 @@ window.LGS_HAP["elektriklenme"] = {
         "Yüklenme sırasında **yalnızca elektronlar hareket eder.** Protonlar çekirdekte durur; cisimler arasında geçmez.",
         "Bir cisim **elektron kazanırsa negatif**, **elektron kaybederse pozitif** yüklenir. Pozitif yüklenmek proton almak demek değildir, elektron eksikliği demektir.",
         "**Yük korunur:** Yük yoktan var olmaz, vardan yok olmaz; yalnızca bir yerden başka yere geçer. Kapalı bir düzenekte toplam yük değişmez.",
-        "Elektronların rahatça hareket ettiği maddelere **iletken** (örneğin metaller), hareket edemediği maddelere **yalıtkan** (örneğin plastik, cam) denir. Deneylerde kürelerin ipi ya da sapı yalıtkan seçilir ki yük kaçmasın."
+        "Elektronların rahatça hareket ettiği maddelere **iletken** (örneğin metaller), hareket edemediği maddelere **yalıtkan** (örneğin plastik, cam) denir. Deneylerde kürelerin ipi ya da sapı yalıtkan seçilir ki yük kaçmasın.",
+        "**Yalıtkanda yük yayılmaz,** sürtülen ya da dokunulan yerde kalır; **iletkende ise** elektronlar hareket edebildiği için yük cismin her yerine dağılır."
       ],
       "dikkat": [
         "**Pozitif yükün hareket ettiğini sanma.** Soruda \"pozitif yük K'den L'ye geçti\" gibi bir ifade görürsen şüphelen: gerçekte elektronlar L'den K'ye geçmiştir.",
@@ -97,6 +99,7 @@ window.LGS_HAP["elektriklenme"] = {
       "maddeler": [
         "**Şimşek ve yıldırım:** Bulutlarda buz taneciklerinin ve su damlacıklarının sürtünmesiyle yük birikir; fırtına bulutunun alt kısmı negatif olur. Bu bulut yere değmeden yer yüzeyini **etkiyle** pozitif yükler. Yükler bulutlar arasında ya da bulut ile yer arasında **boşalır:** elektronlar negatif bölgeden pozitif bölgeye geçer. Boşalmanın ışığı şimşek, sesi gök gürültüsüdür; bulut ile yer arasındaki boşalmaya yıldırım denir.",
         "**Kuru havada kıvılcım ve çıtırtı:** Sentetik bir montu çıkarırken ya da halıda yürüyüp metal kapı koluna dokunurken olur. Sürtünmeyle biriken zıt yükler arasında elektronlar atlar; bu geçiş ışık (kıvılcım) ve ses (çıtırtı) olarak görülür. **Nem** yükü havaya kaçırdığı için bu olay kuru havada belirgindir.",
+        "**Benzer günlük örnekler:** çamaşır kurutma makinesinde kumaşların birbirine yapışması, plastik kaydıraktan kayan çocuğun saçlarının havalanması, toz alma fırçasının tozu çekmesi hep sürtünmeyle yüklenmedir. Sentetik iplik atölyelerinde havanın nemlendirilmesi, yük birikmesini önlemek içindir.",
         "**Saçların havalanması:** Tarak ya da şapka saça sürtünce saç telleri aynı cins yüklenir ve birbirini iter.",
         "**Ekranın toz çekmesi:** Çalışan ekranın yüzeyi yüklenir ve çevredeki nötr toz taneciklerini çeker.",
         "**Fotokopi makinesi ve lazer yazıcı:** Yüklü bir yüzeyde ışık gelen bölgelerin yükü kalkar, görüntüye karşılık gelen bölgeler yüklü kalır. Toner tozu bu bölgelerin yüküne **zıt cins** yüklüdür; çekilip yapışır, sonra kâğıda aktarılır.",
