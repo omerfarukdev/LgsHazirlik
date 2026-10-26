@@ -43,6 +43,7 @@ window.LGS_HAP["elektrik-enerjisi-donusumu"] = {
         "**Dinamo ve jeneratör** dönme hareketini **elektriğe** çevirir. Motorun tersidir: motor elektrik harcayıp hareket üretir, jeneratör hareket harcayıp elektrik üretir.",
         "Küçük jeneratöre **dinamo** denir. Bisiklet farı ya da kolu çevrilen pilsiz fener böyle çalışır. Dönme durunca elektrik de durur; dinamo **ne kadar hızlı çevrilirse** lamba o kadar parlak yanar.",
         "**Model tasarlarken** önce hedef dönüşümü yaz, sonra parçayı seç: elektrik → ısı için ince metal tel, elektrik → ışık için ampul, elektrik → hareket için motor, hareket → elektrik için dinamo.",
+        "**Pil şarj edilirken** prizdeki elektrik pilde **kimyasal enerjiye** dönüşür; pil çalışırken kimyasal enerji yeniden elektriğe, sonra motorda harekete dönüşür. Zincir: elektrik → kimyasal → elektrik → hareket. Motor ile dinamo aynı yapıdadır: motorun mili elle çevrilirse küçük bir jeneratör gibi elektrik üretebilir.",
         "Bir parçayı pille döndüreceksen listede **motor** bulunmalıdır; pil ve kablo tek başına hareket üretmez. Pilsiz elektrik gerekiyorsa kaynak dinamodur."
       ],
       "dikkat": [
@@ -90,6 +91,7 @@ window.LGS_HAP["elektrik-enerjisi-donusumu"] = {
         "Elektrik santrallerde yakıt, emek ve para harcanarak üretilir. Gereksiz tüketim hem **ailenin faturasını** hem **ülkenin kaynaklarını** boşa harcar.",
         "**Enerji verimliliği:** Aynı işi **daha az enerjiyle** yapabilmektir. Aynı ışığı veren LED ampul eski ampulden az elektrik tüketir. İşi hiç yapmamak verimlilik değildir.",
         "**Enerji sınıfı:** **A sınıfı en tasarruflu** gruptur; harf ilerledikçe verim düşer. Amaç \"en az elektrik tüketimi\" ise fiyat değil tüketim sütununa bak. Tüketim **kWh** (kilovatsaat) ile verilir; hesap gerekmez, çıkarma ve karşılaştırma yeter.",
+        "**Enerji = güç × süre.** Güç W, süre saat ise sonuç Wh olur; **1 kWh = 1000 Wh.** Örnek: 800 W gücündeki cihaz 2 saat çalışırsa 1600 Wh = 1,6 kWh harcar. Tasarruf, iki tüketimin farkıdır; en çok tasarruf için gücü büyük olan cihazın süresini kısmak gerekir.",
         "**Evde tasarruf:** Gün ışığı varken lambayı söndürmek, boş odanın ışığını kapatmak, LED ampul ve A sınıfı cihaz seçmek, makineleri tam dolu çalıştırmak, sıcak yemeği soğutup buzdolabına koymak, buzdolabı kapağını uzun açık tutmamak, ütüyü açık unutmamak, kullanılmayan cihazı **fişten çekmek.**",
         "**Bekleme modu:** Kumandayla kapatılan cihaz prizde kalırsa az da olsa elektrik tüketir. Tüketim cihaza göre değişir; aynı süre bekleyen iki cihaz aynı kadar tüketmek zorunda değildir.",
         "**Kaçak elektrik:** Sayaç atlatılsa da elektrik santralde üretilmiş ve taşınmıştır; üretim azalmış sayılmaz. Bedeli ödenmeyen bu kayıp **ülke ekonomisine zarar verir**, maliyet ödeme yapan kullanıcılara da yansır. Şebekeye verilen ile faturalanan elektrik arasındaki fark kayıp ve kaçak miktarını gösterir.",

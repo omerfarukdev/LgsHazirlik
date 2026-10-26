@@ -88,3 +88,213 @@ fen-ed-012 | F.8.7.3.2 | z3 | k0 | Ayşe, pil kullanmadan çalışan bir fener t
 fen-ed-013 | F.8.7.3.5 | z4 | k0 | Bir ülkede şebekeye verilen elektrik enerjisi ile faturalandırılan elektrik enerjisi üç yıl boyunca kaydedilmiştir. İkisi arasınd… | ✓Kayıp ve kaçak miktarının en az olduğu yıl 2…
 fen-ed-014 | F.8.7.3.4 | z4 | k0 | Bir vadide planlanan barajlı hidroelektrik santralin projesi tartışılıyor. Proje raporunda baraj gölünün vadideki tarım arazileri… | ✓I, II ve III
 fen-ed-015 | F.8.7.3.6 | z4 | k0 | Bir aile çamaşır makinesi ve bekleme modu alışkanlıklarının haftalık elektrik tüketimine etkisini araştırıyor. Dört hafta boyunca… | ✓2. ve 3. hafta
+fen-ed-126 | F.8.7.3.1 | z1 | k1 | Bir çamaşır makinesinin tamburunu döndüren motorda elektrik enerjisi esas olarak hangi enerjiye dönüşür? | ✓Hareket enerjisine
+fen-ed-127 | F.8.7.3.3 | z1 | k1 | Bir rüzgâr santralinde elektrik enerjisinin oluştuğu parça aşağıdakilerden hangisidir? | ✓Türbine bağlı jeneratör
+fen-ed-128 | F.8.7.3.4 | z1 | k1 | Aşağıdakilerden hangisi barajlı bir hidroelektrik santralin avantajlarından biridir? | ✓Yakıt satın almadan elektrik üretir
+fen-ed-129 | F.8.7.3.5 | z1 | k1 | Elektriğin bilinçli ve tasarruflu kullanılması kimlere yarar sağlar? | ✓Aile bütçesine ve bütün ülke ekonomisine
+fen-ed-130 | F.8.7.3.1 | z1 | k1 | Sigortayla ilgili aşağıdakilerden hangisi doğrudur? | ✓Aşırı akım geçince devreyi keserek koruma sa…
+fen-ed-131 | F.8.7.3.3 | z1 | k1 | Aşağıdakilerden hangisi güç santrallerinin ortak özelliğidir? | ✓Türbine bağlı jeneratörle elektrik üretmeleri
+fen-ed-132 | F.8.7.3.4 | z1 | k1 | Aşağıdakilerden hangisi nükleer santralin dezavantajlarından biridir? | ✓Kullanılmış yakıt radyoaktif atık olarak kal…
+fen-ed-133 | F.8.7.3.6 | z1 | k1 | Bir çamaşır makinesi için aşağıdaki kullanım biçimlerinden hangisi elektrik tasarrufu sağlar? | ✓Tam dolu hâlde çalıştırmak
+fen-ed-134 | F.8.7.3.1 | z1 | k1 | Bir okul koridorundaki floresan lamba yanarken elektrik enerjisi esas olarak hangi enerjiye dönüşür? | ✓Işık enerjisine
+fen-ed-135 | F.8.7.3.3 | z1 | k1 | Termik santralde yakıtın yakılmasının amacı aşağıdakilerden hangisidir? | ✓Suyu buhara çevirecek ısıyı elde etmek
+fen-ed-136 | F.8.7.3.2 | z1 | k1 | Pille çalışan bir oyuncak helikopterin pervanesini döndürmek için modele aşağıdaki parçalardan hangisi eklenmelidir? | ✓Elektrik motoru
+fen-ed-137 | F.8.7.3.4 | z1 | k1 | Termik santrallerde kullanılan doğal gaz neden yenilenemeyen bir kaynak sayılır? | ✓Oluşması çok uzun sürdüğü için kullandıkça t…
+fen-ed-138 | F.8.7.3.3 | z1 | k1 | Bir nükleer santralde suyu buhara çevirecek ısı hangi enerjiden elde edilir? | ✓Uranyumun çekirdek enerjisinden
+fen-ed-139 | F.8.7.3.1 | z1 | k1 | Elektrikli bir su ısıtıcısı çalışırken elektrik enerjisi esas olarak hangi enerjiye dönüşür? | ✓Isı enerjisine
+fen-ed-140 | F.8.7.3.5 | z1 | k1 | Kaçak elektrik kullanımıyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Ödenmeyen elektriğin maliyeti topluma ve eko…
+fen-ed-141 | F.8.7.3.6 | z1 | k1 | Elektrikli ütüyle çalışırken elektrik tasarrufu sağlamak için en doğru davranış hangisidir? | ✓Çamaşırları biriktirip tek seferde ütülemek
+fen-ed-142 | F.8.7.3.3 | z1 | k1 | Bir jeotermal santralde türbini aşağıdakilerden hangisi döndürür? | ✓Yer altından gelen sıcak buhar
+fen-ed-143 | F.8.7.3.4 | z1 | k1 | Aşağıdaki santrallerden hangisi yenilenemeyen bir kaynağı kullanır? | ✓Nükleer santral
+fen-ed-144 | F.8.7.3.5 | z1 | k1 | Bir fabrika, eski motorlarını aynı işi daha az elektrikle yapan yeni motorlarla değiştiriyor. Bu uygulama aşağıdakilerden hangisi… | ✓Enerji verimliliği çalışmasına
+fen-ed-145 | F.8.7.3.1 | z1 | k1 | Aşağıdaki cihazlardan hangisinde elektrik enerjisi esas olarak ışık enerjisine dönüşür? | ✓LED el feneri
+fen-ed-146 | F.8.7.3.3 | z1 | k1 | Hidroelektrik santralde su neden yüksekten akıtılır? | ✓Türbini döndürecek hareket enerjisini elde e…
+fen-ed-147 | F.8.7.3.4 | z1 | k1 | Aşağıdakilerden hangisi rüzgâr santralinin avantajlarından biridir? | ✓İşletmede hiç sera gazı salmadan elektrik ür…
+fen-ed-148 | F.8.7.3.5 | z1 | k1 | Elektrikli ısıtıcıyla ısınan bir evde enerji verimliliğini artırmak için aşağıdakilerden hangisi yapılmalıdır? | ✓Duvar ve pencerelere ısı yalıtımı yaptırmak
+fen-ed-149 | F.8.7.3.6 | z1 | k1 | Sıcak yemeği buzdolabına koymadan önce oda sıcaklığına gelene kadar bekletmek neden elektrik tasarrufu sağlar? | ✓Dolabın soğutucusu daha az çalıştığı için
+fen-ed-150 | F.8.7.3.1 | z2 | k1 | Fanlı bir elektrikli ısıtıcı çalışırken içindeki tel ısınıyor, fan da dönerek sıcak havayı odaya yayıyor. Isıtıcıda başka bir par… | ✓Isı ve hareket enerjisine
+fen-ed-151 | F.8.7.3.3 | z2 | k1 | Şekilde bir jeotermal santralde enerjinin izlediği yol gösterilmiştir. Şekildeki ? ile gösterilen kutuya aşağıdakilerden hangisi … | ✓Hareket enerjisi
+fen-ed-152 | F.8.7.3.4 | z2 | k1 | Bir ilçedeki kömürlü termik santral için öğrenciler şu yargıları yazıyor. Bu yargılardan hangileri doğrudur? I. Kullanılan kömür … | ✓Yalnız I
+fen-ed-153 | F.8.7.3.5 | z2 | k1 | Bir otel yönetimi enerji verimliliğini artırmak istiyor. Bu amaç için aşağıdakilerden hangisi yapılmalıdır? | ✓Boş odalarda elektriği otomatik kesmek
+fen-ed-154 | F.8.7.3.6 | z2 | k1 | Bir ailenin evinde dört odanın her birinde aynı ışığı veren birer akkor ampul kullanılıyor. Bir akkor ampul ayda 12 kWh, aynı ışı… | ✓36 kWh
+fen-ed-155 | F.8.7.3.1 | z2 | k1 | Bir öğrenci, evdeki cihazların enerji dönüşümleri için şu yargıları yazıyor. Bu yargılardan hangileri doğrudur? I. Saç düzleştiri… | ✓Yalnız II
+fen-ed-156 | F.8.7.3.3 | z2 | k1 | Bir fen kulübü rüzgâr santralinin maketini hazırlıyor. Öğrenciler, gerçek bir rüzgâr santralinde bulunan parçaları listeleyip bul… | ✓Suyu ısıtan kazan
+fen-ed-157 | F.8.7.3.2 | z2 | k1 | Kerem, pille çalışan ve odayı aydınlatan bir gece lambası modeli tasarlıyor. Modelin amacı elektrik enerjisini ışık enerjisine dö… | ✓Pil, kablo ve LED
+fen-ed-158 | F.8.7.3.3 | z2 | k1 | Bir öğretmen tahtaya santrallerle ilgili üç yargı yazıyor. Bu yargılardan hangileri doğrudur? I. Hidroelektrik santralde türbini … | ✓II ve III
+fen-ed-159 | F.8.7.3.4 | z2 | k1 | Bir bölgede barajlı bir hidroelektrik santral bulunuyor. Bölgede iki yıldır yağış çok az düşüyor ve baraj gölünün seviyesi düşüyo… | ✓Barajda su azalacağı için üretim azalabilir
+fen-ed-160 | F.8.7.3.5 | z2 | k1 | Bir elektrik dağıtım şirketinin broşüründe kaçak elektrik kullanımının ülke ekonomisine zarar verdiği belirtiliyor. Aşağıdakilerd… | ✓Sayacı atlatarak elektrik kullanmak
+fen-ed-161 | F.8.7.3.5 | z2 | k1 | Bir okulun enerji verimliliği panosunda şu yargılar yazılıdır. Bu yargılardan hangileri doğrudur? I. Daha çok elektrik tüketen ci… | ✓Yalnız III
+fen-ed-162 | F.8.7.3.1 | z2 | k1 | Bir çiftlikte elektrik panosundaki sigorta sık sık atıyor. Çiftçi sigortayı bir telle köprüleyip devre dışı bırakmak istiyor. Bu … | ✓Kablolar aşırı akımla ısınabilir ve yangın ç…
+fen-ed-163 | F.8.7.3.3 | z2 | k1 | Bir belediye, sahil kenarındaki yeni mahallesinin elektriğini karşılamak için bir santral kurmak istiyor. Bölgede yıl boyu güçlü … | ✓Rüzgâr santrali
+fen-ed-164 | F.8.7.3.2 | z2 | k1 | Pille çalışan bir oyuncak vincin makarasını döndürmek isteyen Ada, tasarımıyla ilgili şu yargıları yazıyor. Bu yargılardan hangil… | ✓I ve II
+fen-ed-165 | F.8.7.3.6 | z2 | k1 | Dört öğrenci evlerinde farklı davranışlar sergiliyor. Bu öğrencilerden hangisinin davranışı elektrik tasarrufunu en fazla sağlar? | ✓Ece: Odadan çıkarken ışığı söndürüp televizy…
+fen-ed-166 | F.8.7.3.1 | z2 | k1 | Pille çalışan bir oyuncak araba, düğmeye basılınca ileri doğru hareket ediyor. Bu sırada enerji dönüşümleri hangi sırayla gerçekl… | ✓Kimyasal → elektrik → hareket
+fen-ed-167 | F.8.7.3.4 | z2 | k1 | Bir belediye uzmanı, santral türleri hakkında bilgi veriyor. Aşağıdaki yargılardan hangileri doğrudur? I. Rüzgâr santralinin elek… | ✓I ve III
+fen-ed-168 | F.8.7.3.5 | z2 | k1 | Bir okulda gereksiz yanan lambaları kapatmak için bir kampanya başlatılıyor. Kampanya sonrasında 6 sınıfın her birinde günlük tük… | ✓120 kWh
+fen-ed-169 | F.8.7.3.6 | z2 | k1 | Bir aile odalarında kullanacağı ampulü seçecektir. Aynı ışığı veren dört ampulün bilgileri tabloda verilmiştir. Ailenin tek amacı… | ✓L ampulünü
+fen-ed-170 | F.8.7.3.6 | z2 | k1 | Bir ailede elektrik tasarrufu konusunda şu yargılar öne sürülüyor. Bu yargılardan hangileri doğrudur? I. Kumandayla kapatılan tel… | ✓II ve III
+fen-ed-171 | F.8.7.3.4 | z2 | k1 | Bir enerji raporunda bir santralin iki özelliği şöyle belirtiliyor: Kullandığı yakıt yenilenemeyen bir kaynaktır ve işletme sıras… | ✓Nükleer santral
+fen-ed-172 | F.8.7.3.2 | z2 | k1 | Mert, pille çalışan bir robot kol modelinin kolunu elektrik enerjisinden hareket enerjisi elde ederek döndürmek istiyor. Malzeme … | ✓Dinamo yerine motor yazılmalıdır; elektrikte…
+fen-ed-173 | F.8.7.3.3 | z2 | k1 | Bir fen kulübü santrallerle ilgili şu yargıları tartışıyor. Bu yargılardan hangileri doğrudur? I. Rüzgâr santralinde türbini su b… | ✓Yalnız II
+fen-ed-174 | F.8.7.3.4 | z2 | k1 | Bir fen öğretmeni, rüzgâr santrali ile barajlı hidroelektrik santralin karşılaştırmasını yapıyor. Bu iki santralin ortak özelliği… | ✓İşletmede hiç yakıt yakmamaları
+fen-ed-175 | F.8.7.3.2 | z2 | k1 | Bir sera sahibi, pille çalışan bir havalandırma modelinde pervanenin dönmesini istiyor. Öğrencisi çizimde pili, anahtarı ve perva… | ✓Elektrik motoru; elektrik hareket enerjisine…
+fen-ed-226 | F.8.7.3.1 | z2 | k2 | Bir evde dört cihaz çalışıyor: ütü, blender, abajur ve vantilatör. Cihazların hepsi çalışırken bir miktar ısınıyor. Öğretmen, her… | ✓Ütü
+fen-ed-227 | F.8.7.3.3 | z2 | k2 | Bir nükleer santralde zincir şöyle işliyor: reaktörde elde edilen ısı suyu buhara çevirir, buhar türbini döndürür, türbin de jene… | ✓Buhar oluşmaz; türbin ve jeneratör durur, el…
+fen-ed-228 | F.8.7.3.6 | z2 | k2 | Bir aile, aydınlatma ve buzdolabı kaynaklı elektrik tüketimini azaltmak için ampulleri LED ile değiştirmiş ve eski buzdolabının y… | ✓50
+fen-ed-229 | F.8.7.3.4 | z2 | k2 | Bir bölgede kurulacak enerji tesisleri için hidroelektrik ve rüzgâr santralleri karşılaştırılıyor. Bu iki santralle ilgili aşağıd… | ✓I ve III
+fen-ed-230 | F.8.7.3.1 | z2 | k2 | Dağ evinin elektrik tesisatı projelendirilirken bir mühendis, devreye mutlaka sigorta konulması gerektiğini söylüyor. Öğrencilerd… | ✓Kablolar aşırı ısınır, yangın ve cihaz hasar…
+fen-ed-231 | F.8.7.3.6 | z2 | k2 | Bir ailenin çamaşır makinesi, yarım dolu da tam dolu da çalışsa her yıkamada 2 kWh elektrik tüketiyor. Aile haftada 8 yarım dolu … | ✓32
+fen-ed-232 | F.8.7.3.2 | z2 | k2 | Kübra, bilim fuarı için pille çalışan küçük bir oyuncak araba tasarlıyor. Taslağında pil, kablo ve anahtar çizmiş; arabanın teker… | ✓Pilden akım alan küçük bir motor
+fen-ed-233 | F.8.7.3.3 | z2 | k2 | Bir ilçedeki rüzgâr santralinde kanatlar, kulenin içindeki jeneratöre bağlı bir milin ucundadır. Rüzgâr kanatları döndürdükçe mil… | ✓Jeneratörde; mildeki dönme hareketinin çevri…
+fen-ed-234 | F.8.7.3.1 | z2 | k2 | Robotik kulübünde üretilen bir robotun tekerlekleri pille çalışan motorlarla dönüyor, gözleri ise iki küçük LED'dir. Kulüp üyeler… | ✓I ve II
+fen-ed-235 | F.8.7.3.5 | z2 | k2 | Bir okulun kütüphanesinde her biri 50 W gücündeki 2 akkor ampul, aynı ışığı veren ve her biri 10 W gücündeki 2 LED ampulle değişt… | ✓240
+fen-ed-236 | F.8.7.3.4 | z2 | k2 | Bir fen öğretmeni, tahtaya santral ve dezavantaj eşleştirmeleri yazıyor ve öğrencilerden doğru olanı bulmalarını istiyor. Aşağıda… | ✓Nükleer santral: Kullanılmış yakıtın radyoak…
+fen-ed-237 | F.8.7.3.1 | z2 | k2 | Kamp alanında elle çevrilen kolla çalışan, pilsiz bir şarj aleti kullanılıyor. Kol çevrildikçe aletin içindeki dinamo dönüyor ve … | ✓Yalnız III
+fen-ed-238 | F.8.7.3.2 | z2 | k2 | Fen kulübü, okul serasındaki fidelerin gece üşümemesi için pille çalışan küçük bir ısıtma modeli tasarlıyor. Öğrenciler dört fark… | ✓Pil, kablo, anahtar ve ince metal tel
+fen-ed-239 | F.8.7.3.3 | z2 | k2 | Bir ilçede yer altından çıkarılan sıcak su ve buharla çalışan bir jeotermal santral kuruluyor. Mühendis, ziyaretçilere santralin … | ✓Yer altındaki sıcak suyun oluşturduğu buhar
+fen-ed-240 | F.8.7.3.4 | z2 | k2 | Bir vadide kurulan barajlı hidroelektrik santralin yöreye etkileri tartışılıyor. Bu santralle ilgili aşağıdaki yargılardan hangil… | ✓II ve III
+fen-ed-241 | F.8.7.3.5 | z2 | k2 | Bir mahallede bazı evlerin sayaç kullanmadan elektrik hattına bağlandığı belirlendi. Mahalle muhtarı, bu durumun ülke ekonomisine… | ✓Üretilip taşındığı hâlde bedeli ödenmediği i…
+fen-ed-242 | F.8.7.3.6 | z2 | k2 | Bir ailede elektrik faturasını düşürmek için üç öneri sıralanıyor. Bu önerilerden hangileri evde elektrik tasarrufu sağlar? I. Sı… | ✓Yalnız II
+fen-ed-243 | F.8.7.3.1 | z2 | k2 | Bir apartmanın asansöründe kabini yukarı çıkaran bir motor, kabinin içini aydınlatan bir lamba ve havayı dolaştıran küçük bir fan… | ✓Motor: hareket; lamba: ışık; fan: hareket
+fen-ed-244 | F.8.7.3.3 | z2 | k2 | Kıyıdaki bir rüzgâr santralinde sabah saatlerinde rüzgâr tamamen kesiliyor ve kanatlar duruyor. Santral mühendisi, bu sırada üret… | ✓Jeneratör hiç döndürülmediği için elektrik ü…
+fen-ed-245 | F.8.7.3.2 | z2 | k2 | Defne, hem dönen hem de ışık veren pilli bir oyuncak vantilatör modeli tasarlıyor. Pervane dönecek, pervanenin ucundaki küçük lam… | ✓Bir elektrik motoru ve bir LED
+fen-ed-246 | F.8.7.3.5 | z2 | k2 | Bir belediye enerji verimliliği çalışmaları başlatıyor ve halkı bilgilendirmek için bir broşür hazırlıyor. Aşağıdakilerden hangis… | ✓Cihazların bekleme modunda prizde sürekli ka…
+fen-ed-247 | F.8.7.3.3 | z2 | k2 | Fen kulübü öğrencileri iki ayrı düzenek kuruyor. Birinde musluktan akan su bir çarkı, diğerinde vantilatörün oluşturduğu hava akı… | ✓Hidroelektrik ve rüzgâr santralleri
+fen-ed-248 | F.8.7.3.4 | z2 | k2 | Bir ülkenin enerji planlamacıları, yakıtı yenilenemez olduğu hâlde işletme sırasında karbondioksit salmayan bir santral türü arıy… | ✓Nükleer santral
+fen-ed-249 | F.8.7.3.1 | z2 | k2 | Fan destekli bir elektrikli fırında üstte ve altta ısıtıcı teller, havayı dolaştıran bir fan ve içeriyi aydınlatan küçük bir lamb… | ✓Fan motoru: elektrik → hareket
+fen-ed-250 | F.8.7.3.6 | z2 | k2 | Bir evde televizyon, oyun konsolu ve ses sistemi tek bir çoklu prize takılmıştır. Cihazlar kumandayla kapatılıyor ama prizde kalı… | ✓Düğme kapatılınca prize bağlı bütün cihazlar…
+fen-ed-251 | F.8.7.3.5 | z2 | k2 | Bir dağıtım şirketi, iki mahalleye verdiği elektrik enerjisi ile bu mahallelerde faturalandırılan elektrik enerjisini tabloda gös… | ✓Çamlık'taki kayıp ve kaçak Yalı'dakinin üç k…
+fen-ed-252 | F.8.7.3.1 | z3 | k2 | Bir kafede kullanılan filtre kahve makinesinde suyu ısıtan bir ısıtıcı tel, suyu üst bölüme taşıyan küçük bir pompa motoru ve mak… | ✓I ve III
+fen-ed-253 | F.8.7.3.3 | z3 | k2 | Bir nükleer santralde elektrik üretilirken enerji, şekildeki kutularda gösterilen biçimlere dönüşür. Kutulardaki enerji türlerind… | ✓Çekirdek, ısı, hareket
+fen-ed-254 | F.8.7.3.4 | z3 | k2 | Bir ülke, yakıt yakan termik santrallerin payını azaltıp nükleer santral kurmayı düşünüyor. Konuyu inceleyen bir öğrenci bu iki s… | ✓I, II ve III
+fen-ed-255 | F.8.7.3.3 | z3 | k2 | Dört santralde türbini döndüren etki ve etkinin kaynağı tabloda verilmiştir. Tabloya göre K, L, M ve N santralleri sırasıyla aşağ… | ✓Hidroelektrik, rüzgâr, jeotermal, termik
+fen-ed-256 | F.8.7.3.1 | z3 | k2 | Fen kulübü, sigortanın çalışmasını gösteren bir model hazırlıyor. Pile bağlı devreye ince bir metal tel (sigorta teli) yerleştiri… | ✓Tel eriyip devreyi açar ve akımı keser; diğe…
+fen-ed-257 | F.8.7.3.4 | z3 | k2 | Bir ülkede iki santralin aynı gün içindeki elektrik üretimi grafikte verilmiştir (değerler kurgusaldır). İki santral de talebe gö… | ✓K: rüzgâr santrali; L: nükleer santral
+fen-ed-258 | F.8.7.3.2 | z3 | k2 | Okul bahçesine, pedal çevrildikçe hem bir LED'in yandığı hem de ince bir telin ısındığı bir model yapılacaktır. Modelde pil kulla… | ✓Pedala bağlı dinamo, LED ve ısıtıcı tel
+fen-ed-259 | F.8.7.3.3 | z3 | k2 | Bir fen kulübü, hidroelektrik santral ile kömürlü termik santralin karşılaştırıldığı bir afiş hazırlıyor. Afişte iki santralin or… | ✓İkisinde de türbine bağlı jeneratör hareketi…
+fen-ed-260 | F.8.7.3.5 | z3 | k2 | Bir belediye, 20 sokak lambasını daha verimli lambalarla yeniliyor. Eski lambaların her biri günde 3 kWh, yenilerinin her biri gü… | ✓400
+fen-ed-261 | F.8.7.3.6 | z3 | k2 | Bir aile, iki ay boyunca elektrik tüketimini ve alışkanlıklarını tabloya yazmıştır. Aile, Aralık ayında iki alışkanlığını birden … | ✓Azalma iki uygulamanın birlikte etkisi olabi…
+fen-ed-262 | F.8.7.3.3 | z3 | k2 | Dört santralin elektrik üretirken izlediği enerji dönüşüm zincirleri tabloda verilmiştir. Tabloya göre aşağıdaki yargılardan hang… | ✓Dört zincirde de elektrik enerjisi hareket e…
+fen-ed-263 | F.8.7.3.4 | z3 | k2 | Bir ilde kömürlü termik, nükleer, barajlı hidroelektrik ve jeotermal santraller birlikte çalışıyor. İlde art arda iki yıl boyunca… | ✓Barajlı hidroelektrik santral
+fen-ed-264 | F.8.7.3.1 | z3 | k2 | Bir saç kurutma makinesinde havayı üfleyen bir fan motoru ve havayı ısıtan bir ısıtıcı tel bulunuyor. Makine, 15 dakikalık bir ku… | ✓6 ve 10
+fen-ed-265 | F.8.7.3.3 | z3 | k2 | Fen öğretmeni, santraller konusunu tekrar ederken dört ifade yazıyor ve öğrencilerden yanlış olanı bulmalarını istiyor. Aşağıdaki… | ✓Hidroelektrik santralde türbini yakıtın ısıs…
+fen-ed-266 | F.8.7.3.4 | z3 | k2 | Bir belediye, rüzgâr santrali (K) ile termik santralin (L) maliyetlerini karşılaştırıyor. Kurulum maliyeti bir kez ödenir; yakıt … | ✓4 yıl sonunda iki santralin toplam maliyeti …
+fen-ed-267 | F.8.7.3.2 | z3 | k2 | Meyve kurutma modeli yapan bir öğrenci, pille çalışan modelin hem ısı vermesini hem de hava akımı oluşturmasını istiyor; çünkü me… | ✓Pervaneli bir elektrik motoru ve ısıtıcı tel
+fen-ed-268 | F.8.7.3.4 | z3 | k2 | Bir ülkede termik, jeotermal ve rüzgâr santralleri birlikte kullanılıyor. Bir öğrenci bu üç santralle ilgili yargılar yazıyor. Bu… | ✓I ve III
+fen-ed-269 | F.8.7.3.5 | z3 | k2 | Bir otelin 20 odasındaki eski televizyonların her biri 150 W gücündedir. Otel yönetimi, bunları aynı görüntü kalitesini veren ve … | ✓9
+fen-ed-270 | F.8.7.3.3 | z3 | k2 | Bir öğrenci, kömürlü bir termik santralde enerjinin izlediği yolu şekildeki gibi çizmiştir. Öğretmeni, iki kutunun yerinin yanlış… | ✓Jeneratör ile Türbin
+fen-ed-271 | F.8.7.3.1 | z3 | k2 | Tabloda dört cihazın elektrik enerjisini esas olarak hangi enerjilere çevirdiği 'Evet' ve 'Hayır' ile gösterilmiştir. Buna göre P… | ✓Fanlı elektrikli ısıtıcı, LED lamba, blender…
+fen-ed-272 | F.8.7.3.6 | z3 | k2 | Bir evde televizyon (4 W), kablolu yayın alıcısı (10 W) ve ses sistemi (6 W), kumandayla kapatıldıktan sonra günde ortalama 20 sa… | ✓4
+fen-ed-273 | F.8.7.3.3 | z3 | k2 | Öğrenciler, rüzgârla dönen kanatlara bağlı bir dinamo ve bir LED'den oluşan rüzgâr santrali maketiyle deney yapıyor. Amaçları, ka… | ✓Deney 1 ve 3; çünkü ikisinde de yalnız kanat…
+fen-ed-274 | F.8.7.3.4 | z3 | k2 | Bir öğrenci, 'Yenilenebilir kaynak kullanan santrallerin çevreye hiçbir olumsuz etkisi yoktur.' diyor. Öğretmeni, bu görüşün yanl… | ✓Rüzgâr santrali: Kanatlar kuş göç yollarını …
+fen-ed-275 | F.8.7.3.5 | z3 | k2 | Bir sitedeki üç apartmanda enerji verimliliği çalışmaları yapılmış; çalışmalardan önceki yıl ile sonraki yıla ait toplam elektrik… | ✓Deniz
+fen-ed-326 | F.8.7.3.1 | z3 | k3 | Bir seracının bitki yetiştirme odasında üç elektrikli cihaz çalışıyor: akım geçince ısınan bir ısıtıcı tel, havayı dolaştıran bir… | ✓II ve III
+fen-ed-327 | F.8.7.3.3 | z3 | k3 | Bir kıyı kasabasındaki rüzgâr santralinde jeneratör arızalanıp devre dışı kalıyor; türbin kanatları ise güçlü rüzgârla dönmeye de… | ✓I ve II
+fen-ed-328 | F.8.7.3.4 | z3 | k3 | Bir ülkenin enerji kurumu, üç farklı santral türünün özelliklerini K, L ve M harfleriyle gösterilen bir tabloda toplamıştır. Buna… | ✓Termik, nükleer, hidroelektrik
+fen-ed-329 | F.8.7.3.1 | z3 | k3 | Berk'in pilli oyuncak arabasında düğmeye basılınca ön farlar yanıyor ve tekerlekler dönüyor. Berk, tekerleklerin dönmesini sağlay… | ✓Kimyasal → elektrik → hareket
+fen-ed-330 | F.8.7.3.5 | z3 | k3 | Bir okulun enerji kulübü, okuldaki elektrik tüketimini düşürmek için üç öneri hazırlıyor. Bu önerilerden hangileri elektrik tasar… | ✓I ve III
+fen-ed-331 | F.8.7.3.2 | z3 | k3 | Zeynep, elektrik enerjisini ışık enerjisine dönüştüren bir gece lambası modeli tasarlıyor ve iki sürüm çiziyor. 1. sürümde bir pi… | ✓Yalnız I
+fen-ed-332 | F.8.7.3.6 | z3 | k3 | Harcanan elektrik enerjisi, cihazın gücü ile çalışma süresinin çarpımına eşittir. Bir ailenin evindeki dört cihazın gücü ve günlü… | ✓Isıtıcı
+fen-ed-333 | F.8.7.3.3 | z3 | k3 | Bir fen kulübü, termik, nükleer ve jeotermal santrallerin üçünü birden tanıtan bir pano hazırlıyor. Panoya bu üç santralin ortak … | ✓Türbini yüksek basınçlı su buharı döndürür
+fen-ed-334 | F.8.7.3.4 | z3 | k3 | Bir bölgede jeotermal santral kurulması tartışılıyor. Santral mühendisi, bu santrale ilişkin şu yargıları öne sürüyor. Bu yargıla… | ✓Yalnız II
+fen-ed-335 | F.8.7.3.5 | z3 | k3 | Bir belediye, ilçede enerji verimliliği kampanyası yürütüyor. Kampanya kapsamında üç çalışma planlanıyor. Bu çalışmalardan hangil… | ✓II ve III
+fen-ed-336 | F.8.7.3.4 | z3 | k3 | Dağlık bir bölgede yeni bir santral kurulacaktır. Bölgede yıl boyu su taşıyan ve eğimi yüksek bir nehir vardır; rüzgâr çoğu gün z… | ✓Hidroelektrik santral
+fen-ed-337 | F.8.7.3.1 | z3 | k3 | Bir elektrik tamircisi, evdeki sigortanın görevini çırağına anlatırken şu yargıları söylüyor. Bu yargılardan hangileri doğrudur? … | ✓I ve III
+fen-ed-338 | F.8.7.3.2 | z3 | k3 | Ekin, esen rüzgârla dönen bir pervaneyi dinamoya, dinamoyu da bir LED lambaya bağlayarak pilsiz bir aydınlatma modeli yapıyor. Mo… | ✓Dinamonun hareket enerjisi alamayıp elektrik…
+fen-ed-339 | F.8.7.3.3 | z3 | k3 | Bir öğrenci, üç aletin çalışırken aldığı ve esas olarak verdiği enerji türlerini tabloya yazmıştır. Aletler tabloda X, Y ve Z har… | ✓X: bisiklet dinamosu, Y: mikser motoru, Z: L…
+fen-ed-340 | F.8.7.3.6 | z3 | k3 | Bir evdeki koridor lambasında gücü 40 W olan eski bir ampul kullanılıyor ve ampul her gün 5 saat yanıyor. Aile, aynı ışığı veren … | ✓15 kWh
+fen-ed-341 | F.8.7.3.1 | z3 | k3 | Aynı ışık düzeyini veren iki ampulden biri eski tip (60 W), diğeri LED (9 W) ampuldür. İkisi de aynı süre yanmaktadır. Bir öğrenc… | ✓I ve II
+fen-ed-342 | F.8.7.3.4 | z3 | k3 | Bir ülke elektriğinin büyük bölümünü barajlı hidroelektrik santrallerden ve rüzgâr santrallerinden sağlıyor. Ülkede iki haftadır … | ✓Her iki tür santralde de üretim azalabilir
+fen-ed-343 | F.8.7.3.5 | z3 | k3 | Bir mahallede 200 ev, elektrik tasarrufu çalışması yapıyor. Çalışmadan önce her evin aylık ortalama tüketimi 150 kWh, çalışmadan … | ✓4 000 kWh
+fen-ed-344 | F.8.7.3.6 | z3 | k3 | Bir ailede elektrik tasarrufu konuşulurken çocuklar şu yargıları söylüyor. Bu yargılardan hangileri doğrudur? I. Kumandayla kapat… | ✓Yalnız III
+fen-ed-345 | F.8.7.3.3 | z3 | k3 | Bir enerji fuarındaki panoda dört santralin enerji dönüşüm zincirlerinin ilk basamağı yazılıdır; santral adları K, L, M ve N harf… | ✓Termik, nükleer, hidroelektrik, jeotermal
+fen-ed-346 | F.8.7.3.3 | z3 | k3 | Bir öğrenci, bisikletin farını yakan dinamoyu bir hidroelektrik santraldeki jeneratörle karşılaştırıp ortak bir özellik bulmaya ç… | ✓İkisinde de dönme hareketi elektrik enerjisi…
+fen-ed-347 | F.8.7.3.1 | z3 | k3 | Bir evde dört cihaz bulunuyor: blender (bıçakları döndürerek meyveyi ezer), tost makinesi (ekmeği kızartır), kurutma makinesi (ta… | ✓Kurutma makinesi
+fen-ed-348 | F.8.7.3.4 | z3 | k3 | Küçük bir ada ülkesinde hastane ve fabrikalar için yeni bir santral kurulacaktır. Santralden iki şey beklenmektedir: mevsimden ve… | ✓Nükleer santral
+fen-ed-349 | F.8.7.3.3 | z3 | k3 | Bir dağ eteğinde, yer altından çıkarılan sıcak su ve buharla elektrik üreten bir santral var. Bu santralde yakıt yakılmıyor ve ur… | ✓Isı → hareket → elektrik
+fen-ed-350 | F.8.7.3.2 | z3 | k3 | Bir bilim fuarında Kerem, musluktan akan suyla dönen bir çarkın miline bağlı bir düzenekle pil kullanmadan bir LED lamba yakacak … | ✓Çark, dinamo, kablo, LED lamba
+fen-ed-351 | F.8.7.3.1 | z3 | k3 | Bir fen öğretmeni, öğrencilerden hareket enerjisinin elektrik enerjisine dönüştüğü düzenekleri bulmalarını istiyor. Öğrenciler üç… | ✓Yalnız II
+fen-ed-352 | F.8.7.3.3 | z3 | k3 | Bir hidroelektrik santralde baraj kapakları kapatılıyor ve türbine su gelmesi kesiliyor. Santral mühendisi bu durumun sonuçlarını… | ✓Yalnız I
+fen-ed-353 | F.8.7.3.4 | z3 | k3 | Bir tabloda dört santralin yakıt yakıp yakmadığı ve kullandığı kaynağın yenilenebilir olup olmadığı verilmiştir. Yalnızca tabloda… | ✓Yakıt yakan hiçbir santral yenilenebilir kay…
+fen-ed-354 | F.8.7.3.5 | z3 | k3 | Bir ilçede kaçak elektrik kullanımı yaygınlaşıyor; sayaçtan geçmeden kullanılan elektrik miktarı artıyor. Bu durumda şebekeye ver… | ✓Fark artar; bedeli ödenmeyen kayıp ülke ekon…
+fen-ed-355 | F.8.7.3.6 | z3 | k3 | Bir ailenin aylık elektrik tüketimi, aldığı tasarruf önlemlerinden sonra 150 kWh'tan 110 kWh'a düşmüştür. 1 kWh elektriğin bedeli… | ✓120 TL
+fen-ed-356 | F.8.7.3.1 | z4 | k3 | Bir atölyede iki ayrı hat vardır ve her hat kendi sigortasına bağlıdır. 1. hatta su ısıtıcısı ile tost makinesi, 2. hatta ise mat… | ✓Yalnızca ısı dönüşümleri durur; hareket ve ı…
+fen-ed-357 | F.8.7.3.2 | z4 | k3 | Bir ada okulunda fen kulübü, pil kullanmadan esen rüzgârla bir LED lambayı yakacak bir model yapıyor. Adada akarsu yoktur. Öğrenc… | ✓N
+fen-ed-358 | F.8.7.3.3 | z4 | k3 | Üç santralde elektrik üretilirken enerjinin izlediği yol tabloda verilmiştir. Santraller X, Y ve Z harfleriyle gösterilmiştir. Ta… | ✓Üç santralde de elektrikten önceki basamak h…
+fen-ed-359 | F.8.7.3.4 | z4 | k3 | Dağlık bir bölgedeki belediye, iki santral kurarak yıl boyunca elektrik üretimini sürdürmek istiyor; iki santralin birbirinin eks… | ✓Hidroelektrik santral ve rüzgâr santrali
+fen-ed-360 | F.8.7.3.5 | z4 | k3 | Bir bölgedeki dört ilçeye şebekeden verilen ve ilçelerde faturalanan elektrik enerjisi tabloda verilmiştir (milyon kWh). Aradaki … | ✓N ve L
+fen-ed-361 | F.8.7.3.6 | z4 | k3 | Harcanan elektrik enerjisi, gücün çalışma süresiyle çarpımına eşittir. Bir evdeki dört cihazın gücü ve günlük kullanım süreleri t… | ✓Isıtıcıyı yalnızca 1 saat daha az çalıştırmak
+fen-ed-362 | F.8.7.3.1 | z4 | k3 | Kablosuz bir matkabın pili, prize takılan bir şarj cihazıyla dolduruluyor. Daha sonra matkap pille çalıştırılıp bir tahta delinir… | ✓Elektrik → kimyasal → elektrik → hareket
+fen-ed-363 | F.8.7.3.3 | z4 | k3 | Şekilde bir santralde elektrik üretilirken enerjinin izlediği yol gösterilmiştir. K kutusunda santralin ısı enerjisini elde ettiğ… | ✓Yalnız I
+fen-ed-364 | F.8.7.3.4 | z4 | k3 | Bir öğrenci, yenilenebilir kaynak kullanan santraller (hidroelektrik, rüzgâr, jeotermal) için dört yargı yazıyor. Bu yargılardan … | ✓Hiçbirinde yakıt yakılarak ısı elde edilmez
+fen-ed-365 | F.8.7.3.1 | z4 | k3 | Bir robotik kulübünün robot kolu, kaldırabileceğinden çok ağır bir cismi kaldırmaya çalışınca motorlardan geçen akım güvenli sını… | ✓Devre kesilince motora elektrik gitmez, elek…
+fen-ed-366 | F.8.7.3.4 | z4 | k3 | Bir bölgedeki bir rüzgâr santralinin ve bir jeotermal santralin dört günlük elektrik üretimi tabloda verilmiştir. Tabloya göre aş… | ✓Jeotermal santralin günlük ortalama üretimi,…
+fen-ed-367 | F.8.7.3.5 | z4 | k3 | Bir aile, aynı iç hacimli iki buzdolabından birini alacaktır. Aile, buzdolabını 8 yıl kullanacak ve 8 yıllık toplam gideri (satın… | ✓Y; 1 200 TL
+fen-ed-368 | F.8.7.3.2 | z4 | k3 | Şekilde bir öğrencinin tasarım çizimi verilmiştir: esen rüzgâr pervaneyi döndürüyor, pervane dinamoyu döndürüyor ve dinamo bir ıs… | ✓Yalnızca son basamak değişir: ısı yerine ışı…
+fen-ed-369 | F.8.7.3.4 | z4 | k3 | Hidroelektrik ve jeotermal santraller için bir öğrenci şu yargıları yazıyor. Bu yargılardan hangileri her iki santral için de doğ… | ✓I ve II
+fen-ed-370 | F.8.7.3.3 | z4 | k3 | Şekilde kömürlü bir termik santralde elektrik üretiminin aşamaları gösterilmiştir. K, kömürün yakıldığı kazanı; L, türbini; M ise… | ✓I ve III
+fen-ed-371 | F.8.7.3.1 | z4 | k3 | Bir fabrikada pille çalışan bir taşıyıcı robot, tekerleklerini döndüren motorla yükü bir yerden başka yere götürüyor. Robotun üst… | ✓Motorda elektrik enerjisi esas olarak ısıya …
+fen-ed-372 | F.8.7.3.3 | z4 | k3 | Bir ildeki dört santralin enerji kaynağı tabloda verilmiştir. Her santralde elektrik, türbine bağlı jeneratörde üretilmektedir. B… | ✓K ve L; su buharı
+fen-ed-373 | F.8.7.3.4 | z4 | k3 | Fen kulübü öğrencileri, santral türlerini karşılaştıran bir pano hazırlıyor ve panoya dört karşılaştırma yazıyorlar. Bu karşılaşt… | ✓Nükleer santralin yakıtı yenilenemez, işletm…
+fen-ed-374 | F.8.7.3.5 | z4 | k3 | Bir dağıtım şirketi, bir mahallede kaçak kullanımı azaltmak için denetim başlatıyor. Denetimden önceki ve sonraki ayda mahalleye … | ✓Kayıp-kaçak miktarı yarıya inmiştir
+fen-ed-375 | F.8.7.3.1 | z4 | k3 | Bir öğrenci, pille çalışan bir elektrik motorunun milini bir dinamoya bağlıyor ve dinamonun uçlarına bir LED lamba takıyor. Pil b… | ✓Kimyasal → elektrik → hareket → elektrik → ı…
+fen-ed-016 | F.8.7.3.3 | z1 | k0 | Nükleer santralde suyu buhara çeviren ısı, aşağıdakilerden hangisinden elde edilir? | ✓Uranyum çekirdeklerinden alınan enerjiden
+fen-ed-017 | F.8.7.3.4 | z1 | k0 | Aşağıdakilerden hangisi hidroelektrik santrallerin bir avantajıdır? | ✓Yakıt satın almadan elektrik üretebilmesi
+fen-ed-018 | F.8.7.3.1 | z1 | k0 | Bir çiftlikteki kuluçka makinesi, içindeki ısıtıcı sayesinde yumurtaları sıcak tutuyor. Bu ısıtıcıda gerçekleşen enerji dönüşümü … | ✓Elektrik enerjisi → ısı enerjisi
+fen-ed-019 | F.8.7.3.4 | z1 | k0 | Aşağıdaki santral çiftlerinden hangisinin ikisi de yenilenebilir kaynak kullanır? | ✓Rüzgâr – Jeotermal
+fen-ed-020 | F.8.7.3.5 | z1 | k0 | Aşağıdakilerden hangisi kaçak elektrik kullanımına örnektir? | ✓Sayacı atlatarak elektrik kullanmak
+fen-ed-021 | F.8.7.3.1 | z1 | k0 | Bir apartmanda asansör kabini yukarı çıkarken kabini çeken makinenin elektrik motoru çalışır. Bu motorda esas olarak hangi enerji… | ✓Elektrik enerjisi → hareket enerjisi
+fen-ed-022 | F.8.7.3.3 | z1 | k0 | Hidroelektrik santralde baraj gölünün görevi aşağıdakilerden hangisidir? | ✓Suyu yüksekte biriktirip türbine akıtmak
+fen-ed-023 | F.8.7.3.2 | z1 | k0 | Eylül, kolu çevrilince çalışan pilsiz bir radyo modeli tasarlıyor. Modelde elektrik enerjisini üretmek için hangi parçayı kullanm… | ✓Dinamo
+fen-ed-024 | F.8.7.3.4 | z1 | k0 | Aşağıdaki santrallerden hangisi işletmesi sırasında havaya karbondioksit salar? | ✓Termik santral
+fen-ed-025 | F.8.7.3.5 | z1 | k0 | Bir ülkede elektrik tasarrufu yaygınlaşıyor. Bu durumun ülke ekonomisine etkisi aşağıdakilerden hangisinde doğru verilmiştir? | ✓Santral ihtiyacı azalır; kaynak harcaması az…
+fen-ed-026 | F.8.7.3.3 | z1 | k0 | Rüzgâr santralinde elektrik enerjisinin oluştuğu bölüm aşağıdakilerden hangisidir? | ✓Türbine bağlı jeneratör
+fen-ed-027 | F.8.7.3.6 | z1 | k0 | Deniz, evde elektrik faturasını azaltmak istiyor. Deniz aşağıdaki davranışlardan hangisini yapmalıdır? | ✓Odadan çıkarken ışığı söndürmelidir
+fen-ed-028 | F.8.7.3.3 | z2 | k0 | Ege kıyısındaki bir tepede kurulan santralde yakıt yakılmıyor ve su buharı kullanılmıyor; santralin kanatlarını tepeye esen hava … | ✓Hareket enerjisi – elektrik enerjisi
+fen-ed-029 | F.8.7.3.1 | z2 | k0 | Şehirde kullanılan elektrikli bir bisikletin motoru tekerleği döndürüyor, ön far da yanıyor. Bu bisiklette elektrik enerjisi, tek… | ✓Hareket – ışık
+fen-ed-030 | F.8.7.3.5 | z2 | k0 | Bir aile, eski çamaşır makinesini, aynı miktarda çamaşırı aynı temizlikte yıkayan ve enerji verimi yüksek yeni bir makineyle deği… | ✓Yıkama işi aynı kalır; elektrik tüketimi aza…
+fen-ed-031 | F.8.7.3.4 | z2 | k0 | Bir ilçede termik santral yerine hidroelektrik santral kurulması düşünülüyor. Yatırımcı iki santralin işletme dönemini karşılaştı… | ✓I ve II
+fen-ed-032 | F.8.7.3.2 | z2 | k0 | Teknoloji atölyesinde Emre, aynı pille hem dönen bir fan hem de yanan bir LED içeren bir model tasarlıyor; fan hareket, LED ışık … | ✓Motor ve LED
+fen-ed-033 | F.8.7.3.3 | z2 | k0 | Yer altından çıkarılan sıcak buharla çalışan bir santrali gezen öğrenciler, santralde kazan ve kömür deposu bulunmadığını fark ed… | ✓Buhar, yer altında doğal olarak hazır bulund…
+fen-ed-034 | F.8.7.3.6 | z2 | k0 | Hasan'ın ailesi elektrik faturasını azaltmak için aşağıdaki davranışları planlıyor. I. Bulaşık makinesini tam dolduktan sonra çal… | ✓Yalnız I
+fen-ed-035 | F.8.7.3.1 | z2 | k0 | Ayşe'nin akvaryumunda suyu ısıtan bir çubuk, havayı suya basan bir pompa ve içeriyi aydınlatan bir LED şerit çalışıyor. Bu üç par… | ✓Isı – hareket – ışık
+fen-ed-036 | F.8.7.3.3 | z2 | k0 | Bir müze, santrallerde yakıtın rolünü anlatan bir pano hazırlıyor ve panoya şu ifadeleri yazıyor. I. Nükleer santralde suyu buhar… | ✓Yalnız III
+fen-ed-037 | F.8.7.3.4 | z2 | k0 | Bir mühendis, rüzgâr santrali ile hidroelektrik santralin işletme dönemini karşılaştırıyor. Bu iki santral için aşağıdakilerden h… | ✓Kullandıkları kaynak kullanımla tükenmez
+fen-ed-038 | F.8.7.3.2 | z2 | k0 | Bir bilim fuarında rüzgârla dönen pervane, ucundaki küçük dinamoyu çeviriyor ve dinamoya bağlı LED yanıyor. Bu modelde enerji dön… | ✓Hareket – elektrik – ışık
+fen-ed-039 | F.8.7.3.5 | z2 | k0 | Bir bölgede şebekeye verilen elektrik enerjisi 500 birim, faturalandırılan elektrik enerjisi 440 birimdir. Aradaki 60 birimin bir… | ✓Elektrik üretilip taşındığı hâlde bedeli alı…
+fen-ed-040 | F.8.7.3.1 | z2 | k0 | Bir su ısıtıcısı çalışırken suyun sıcaklığı artıyor ve cihazın üzerindeki küçük gösterge ışığı yanıyor. Suyun ısınması ve gösterg… | ✓Isı – ışık
+fen-ed-041 | F.8.7.3.6 | z2 | k0 | Bir aile, elektrik tasarrufu için aşağıdaki davranışları öneriyor. I. Sıcak yemeği soğuduktan sonra buzdolabına koymak II. Odadan… | ✓I ve III
+fen-ed-042 | F.8.7.3.3 | z2 | k0 | Bir okul gezisinde öğrenciler, kömürlü bir termik santralin baca, kazan, türbin ve jeneratör bölümlerini gezdi. Bu bölümlerden ha… | ✓Kazan
+fen-ed-043 | F.8.7.3.4 | z2 | k0 | Bir şirket jeotermal santral kurmayı düşünüyor. Mühendis, santral hakkında şu yargıları yazıyor. I. Jeotermal santral yer altı sı… | ✓Yalnız II
+fen-ed-044 | F.8.7.3.5 | z2 | k0 | Bir dağ evindeki dört cihazın saatlik elektrik tüketimi ve günlük çalışma süresi tabloda verilmiştir. Aile faturayı azaltmak için… | ✓Elektrikli soba
+fen-ed-045 | F.8.7.3.1 | z2 | k0 | Drone atölyesindeki öğrenciler, drone'un pervanesini döndüren motorun çalışırken ısındığını fark ediyor. Bu ısınmanın nedeni aşağ… | ✓Elektrik enerjisinin bir bölümünün ısıya dön…
+fen-ed-046 | F.8.7.3.3 | z2 | k0 | Bir ilçedeki üç santralin özellikleri tabloda verilmiştir. Buna göre K, L ve M santralleri sırasıyla aşağıdakilerden hangisidir? | ✓Hidroelektrik – Termik – Rüzgâr
+fen-ed-047 | F.8.7.3.4 | z2 | k0 | Bir ülke, elektrik üretiminin yağış ya da rüzgâr gibi doğa koşullarına bağlı olmaması için termik ve nükleer santral kurmayı terc… | ✓Yakıtlarının yenilenemeyen kaynaklardan sağl…
+fen-ed-048 | F.8.7.3.1 | z3 | k0 | Sinan, atölyesinde akülü bir matkap, bir havya ve LED bir çalışma lambası kullanıyor. Matkap çalışırken motorunun bir miktar ısın… | ✓Yalnız II
+fen-ed-049 | F.8.7.3.3 | z3 | k0 | Bir rüzgâr santralinde rüzgâr güçlü esmesine rağmen bir arıza nedeniyle kanatlar ve türbin mili dönmüyor. Santral mühendisi, bu d… | ✓Jeneratör, dönme hareketi almadığı için elek…
+fen-ed-050 | F.8.7.3.4 | z3 | k0 | Bir okulun çevre kulübü, santral türlerinin özelliklerini anlatan bir panel hazırlıyor ve panoya şu yargıları yazıyor. I. Termik … | ✓Yalnız III
+fen-ed-051 | F.8.7.3.1 | z3 | k0 | Bir atölyede dört cihaz bir gün boyunca tabloda verilen güçte ve sürelerde çalışmıştır. Bir cihazın harcadığı elektrik enerjisi, … | ✓10 kWh
+fen-ed-052 | F.8.7.3.2 | z3 | k0 | Köy okulundaki öğrenciler, kış aylarında bahçedeki kuşlar için suyun donmasını önleyen, pille çalışan bir kuş suluğu modeli tasar… | ✓Pil, anahtar, akım geçince ısınan ince tel v…
+fen-ed-053 | F.8.7.3.3 | z3 | k0 | Dağlık bölgedeki bir okulda enerji haftası etkinliği düzenleniyor. Öğrenciler santrallerin türbinini neyin döndürdüğünü gösteren … | ✓II ve III
+fen-ed-054 | F.8.7.3.5 | z3 | k0 | Bir elektrik dağıtım şirketi, dört ilçede bir ay boyunca şebekeye verilen ve faturalandırılan elektrik miktarlarını tabloya yazmı… | ✓M ilçesinde
+fen-ed-055 | F.8.7.3.6 | z3 | k0 | Bir fabrikanın deposundaki eski lambalar toplam saatte 4 kWh, aynı aydınlatmayı sağlayan LED lambalar toplam saatte 1 kWh elektri… | ✓120 kWh
+fen-ed-056 | F.8.7.3.4 | z3 | k0 | Bir rüzgâr santralinin altı aylık elektrik üretimi grafikte verilmiştir. Santral yöneticisi grafiğe bakarak şu yargıları yazıyor.… | ✓I ve III
+fen-ed-057 | F.8.7.3.1 | z3 | k0 | Bir mutfaktaki elektrikli fırında ısıtıcı teller, bir iç lamba ve sıcak havayı fırının içinde dolaştıran bir fan bulunuyor. Fırın… | ✓Elektrik enerjisi; ısı ve ışık enerjisine dö…
+fen-ed-058 | F.8.7.3.3 | z3 | k0 | Bir termik santralde kazandan türbine giden borunun birleşim yerinden buharın bir bölümü dışarı kaçmaya başlıyor. Kazandaki yakıt… | ✓Türbine ulaşan buhar azalır; elektrik üretim…
+fen-ed-059 | F.8.7.3.4 | z3 | k0 | Bir ülkenin bir gündeki elektrik üretimi santral türlerine göre tabloda verilmiştir (toplam 100 birim). Ülke yönetimi, yenilenebi… | ✓45 birim
+fen-ed-060 | F.8.7.3.5 | z3 | k0 | Bir okulda düzenlenen enerji verimliliği haftasında öğrenciler, elektriğin bilinçli kullanımıyla ilgili şu yargıları yazıyor. I. … | ✓I, II ve III
+fen-ed-061 | F.8.7.3.2 | z3 | k0 | Bir fen kulübünde dört tasarımın amacı ve malzemeleri tabloda verilmiştir. Bu tasarımlardan hangi ikisinin amacı, elektrik enerji… | ✓K ve N
+fen-ed-062 | F.8.7.3.1 | z3 | k0 | Bir kamp alanında karavanın elektrik girişindeki sigorta, çay makinesi, ısıtıcı ve ütü aynı anda çalışınca atıyor. Kamp sorumlusu… | ✓I ve II
+fen-ed-063 | F.8.7.3.3 | z3 | k0 | Şekilde bir nükleer santraldeki enerji dönüşüm zinciri verilmiştir; kutulardaki enerji türleri K, L ve M harfleriyle gösterilmişt… | ✓Çekirdek – ısı – hareket
+fen-ed-064 | F.8.7.3.4 | z4 | k0 | Küçük bir adanın belediyesi, adanın elektriğini karşılamak için yeni bir santral kurmak istiyor. Belediye üç ölçüt belirlemiştir:… | ✓Jeotermal santrali
+fen-ed-065 | F.8.7.3.3 | z4 | k0 | Bir öğrenci, üç farklı santralin elektrik üretim zincirini şöyle yazmıştır. K santrali: Hareket → Hareket → Elektrik L santrali: … | ✓I ve II
+fen-ed-066 | F.8.7.3.1 | z4 | k0 | Bir dairede elektrikli soba, ütü, tost makinesi, vantilatör, blender ve LED avize aynı anda çalışırken elektrik panosundaki sigor… | ✓3 cihaz; aşırı akımda devreyi açarak kablola…
+fen-ed-067 | F.8.7.3.6 | z4 | k0 | Bir aile, elektrik faturasını düşürmek için dört önlemi değerlendiriyor. Her önlemin evde sağlayacağı günlük elektrik tasarrufu t… | ✓70 kWh
+fen-ed-068 | F.8.7.3.4 | z4 | k0 | Bir ülke, elektrik ihtiyacının bir bölümünü yakıtı ithal edilen doğal gazlı santrallerden karşılıyor. Yakıt harcamasını azaltmak … | ✓II ve III
+fen-ed-069 | F.8.7.3.1 | z4 | k0 | Bir oyuncak yarışı atölyesinde hazırlanan pilli yarış aracında tekerlekleri döndüren elektrik motorları ve aracın önünü aydınlata… | ✓I ve II
+fen-ed-070 | F.8.7.3.5 | z4 | k0 | Bir ilçede elektrik tasarrufu kampanyası, 4. yılın başında başlamıştır. İlçenin yıllık elektrik tüketimi grafikte verilmiştir. Be… | ✓Kampanyadan sonraki her yılda tüketim bir ön…
+fen-ed-071 | F.8.7.3.2 | z4 | k0 | Yaz bilim kampındaki öğrenciler, suyun akışıyla dönen bir çarkın miline bağlı bir dinamoyla bir LED'i yakan, pil içermeyen bir mo… | ✓Yalnız II
+fen-ed-072 | F.8.7.3.4 | z4 | k0 | Bir ülkedeki üç santralin işletme dönemine ilişkin bilgiler tabloda verilmiştir. K, L ve M santrallerinin türleri tabloda belirti… | ✓K ve M santrallerinde türbini su buharı dönd…
+fen-ed-073 | F.8.7.3.6 | z4 | k0 | Bir otelin çamaşırhanesindeki eski kurutma makinesi bir çevrimde 4 kWh, yeni A sınıfı kurutma makinesi aynı işi bir çevrimde 3 kW… | ✓300 kWh; %25
+fen-ed-074 | F.8.7.3.3 | z4 | k0 | Meryem, pilli bir oyuncak arabanın küçük elektrik motorunu söküp pili çıkarıyor ve motorun uçlarına bir LED bağlıyor. Ardından mo… | ✓Türbinin jeneratörün milini döndürmesine
+fen-ed-075 | F.8.7.3.1 | z4 | k0 | Aynı iş için iki elektrik motoru karşılaştırılıyor. K motoru aldığı her 100 birim elektrik enerjisinin 80 birimini, L motoru ise … | ✓300 birim; ısı olarak çevreye yayılır
