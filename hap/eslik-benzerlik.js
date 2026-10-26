@@ -27,7 +27,8 @@ window.LGS_HAP["eslik-benzerlik"] = {
         "Kenarın iki ucunu da çevir: [AB]'nin karşılığı [DE], [BC]'nin karşılığı [EF], [CA]'nın karşılığı [FD]'dir. Açı da aynı: m(A) = m(D), m(B) = m(E), m(C) = m(F). Dörtgende de kural aynı: ABCD ~ KLMN ise |CD| kenarının karşılığı |MN|'dir.",
         "Şekil döndürülmüş, ters çevrilmiş ya da harfler farklı yerlerde yazılmış olabilir. Karşılığı **konuma göre değil harf sırasına göre** bul.",
         "Harf sırası verilmemişse **eşit açılara** bak: eşit açıların köşeleri karşılık gelir; **en uzun kenar** en uzun kenarın, **en kısa kenar** en kısa kenarın karşılığıdır.",
-        "**Eksik açı için yardımcı bilgiler:** üçgende iç açılar toplamı 180°, dörtgende 360°'dir. Paralelkenarda (eşkenar dörtgende de) karşılıklı açılar eşit, komşu açıların toplamı 180°'dir. İkizkenar üçgende taban açıları eşittir."
+        "**Eksik açı için yardımcı bilgiler:** üçgende iç açılar toplamı 180°, dörtgende 360°'dir. Paralelkenarda (eşkenar dörtgende de) karşılıklı açılar eşit, komşu açıların toplamı 180°'dir. İkizkenar üçgende taban açıları eşittir. **İkizkenar yamukta** iki bacak eşittir ve aynı tabana komşu açılar eşittir; paralel tabanlar arasındaki komşu açıların toplamı 180°'dir (66° + 114° = 180°).",
+        "Şekillerde **eşit açılar aynı sayıda yayla** işaretlenir; aynı sayıda yay taşıyan köşeler karşılık gelir."
       ],
       "ornekler": [
         "PRS ~ TUV, m(P) = 40°, m(U) = 90° ise m(V) = 180° − 40° − 90° = 50°'dir. P↔T, R↔U, S↔V olduğundan m(S) = m(V) = 50°.",
@@ -81,6 +82,9 @@ window.LGS_HAP["eslik-benzerlik"] = {
       "maddeler": [
         "**Eksik kenar şekilde yoksa** dik üçgende (dikdörtgenin köşegeni de dik üçgen oluşturur) Pisagor ile bul: a^{2} + b^{2} = c^{2}; c en uzun kenardır. Sonra oranı uygula. Sık üçlüler: 3-4-5, 5-12-13, 8-15-17 ve katları.",
         "**x'li ifade verilmişse:** eşlikte karşılık gelen iki ifadeyi eşitle (3x − 1 = 14). Benzerlikte açıları yine eşitle; kenarlarda sayıyla verilen çiftten oranı bul, ifadeyi oranla ilişkilendir. Örnek: oran 2, 5x − 1 = 2 · (x + 4) → 3x = 9, x = 3.",
+        "**Maket ve ölçek:** \"maketteki her uzunluk gerçeğin [[1|25]]'i\" demek, gerçek uzunluğun maketin 25 katı olması demektir. Maketteki 14 cm gerçekte 14 · 25 = 350 cm = 3,5 m'dir. Oranı alırken iki uzunluğu **aynı birime** çevir (m ↔ cm).",
+        "**Üçgen eşitsizliği:** üçgende bir kenar, diğer ikisinin farkından büyük, toplamından küçüktür. Kenarları 7 ve 12 olan üçgende üçüncü kenar 5 < x < 19'dur. Benzerlik sorusunda tam sayı koşulu varsa karşılık gelen kenarı da oranla denetle.",
+        "**İki bilinmeyen:** iki ayrı kenar çifti ya da iki açı ifadesi verilmişse iki eşitlik yazıp x ve y'yi sırayla bul.",
         "**Oranı m ile yaz:** dikdörtgenin kısa ÷ uzun kenar oranı [[2|3]] ise kenarlar 2m ve 3m'dir. Kenarlar tam sayıysa m tam sayıdır; çevre 2 · (2m + 3m) = 10m, yani 10'un katıdır.",
         "**Benzerlik geçişlidir:** ABC ~ DEF ve DEF ~ KLM ise ABC ~ KLM. Art arda gelen oranlar çarpılır: ilk büyütme 2, ikincisi [[3|2]] ise toplam oran 3'tür.",
         "**Bütün açıları dik L ve merdiven biçimlerinde** (içe oyuk girmeyen şekiller) çevre, şekli saran dikdörtgenin çevresine eşittir. U gibi oyuklu şekillerde oyuğun duvarlarını da ekle."

@@ -88,3 +88,213 @@ mat-eb-012 | M.8.3.3.2 | z3 | k0 | Bir matbaada A afişi 6 cm × 9 cm ölçüler
 mat-eb-013 | M.8.3.3.2 | z4 | k0 | ABCD ve EFGH dikdörtgenleri benzerdir ve ABCD ~ EFGH'dir. ABCD dikdörtgeninde AB = 12 cm ve köşegen AC = 20 cm'dir. EFGH dikdörtg… | ✓12
 mat-eb-014 | M.8.3.3.2 | z4 | k0 | Kareli kâğıda çizilen K, L, M, N ve P şekilleri U biçimindedir. Bütün açılar diktir ve karelerin kenarı 1 birimdir. Bu şekillerde… | ✓90
 mat-eb-015 | M.8.3.3.2 | z4 | k0 | ABC dik üçgeninde B köşesi diktir, AB = 5 cm ve BC = 12 cm'dir. DEF üçgeni ABC'ye benzerdir (ABC ~ DEF) ve DEF üçgeninin en uzun … | ✓60
+mat-eb-126 | M.8.3.3.1 | z1 | k1 | Bir kutu oyununda iki üçgen karton parça üst üste konduğunda tam olarak örtüşüyor. Bu parçalar için aşağıdakilerden hangisi kesin… | ✓Karşılık gelen bütün kenarları ve açıları eş…
+mat-eb-127 | M.8.3.3.1 | z1 | k1 | Cem, defterine PRS ≅ TUV yazdı. Bu yazılış aşağıdakilerden hangisi gibi okunur? | ✓PRS üçgeni TUV üçgenine eştir.
+mat-eb-128 | M.8.3.3.1 | z1 | k1 | Bir tişört baskısında kenarları 3 cm ve 7 cm olan iki kare desen kullanılacaktır. Bu iki kare desen için aşağıdakilerden hangisi … | ✓Benzerdir ama eş değildir; çünkü kenarları o…
+mat-eb-129 | M.8.3.3.1 | z1 | k1 | Bir sahne dekorunda kullanılan KLM ve PRS üçgen panelleri eştir (KLM ≅ PRS). Panellerden biri şekilde ters çevrilmiş olarak durma… | ✓6
+mat-eb-130 | M.8.3.3.1 | z1 | k1 | Aynı kalıptan kesilen iki puzzle parçası dörtgen biçimlidir ve ABCD ≅ KLMN'dir. ABCD dörtgeninde m(C) = 100°'dir. m(M) kaç derece… | ✓100
+mat-eb-131 | M.8.3.3.1 | z1 | k1 | Bir origami katlamasında oluşan KLM ve PRS üçgenleri benzerdir (KLM ~ PRS) ve benzerlik oranı 3'tür. KLM üçgeninde m(K) = 45°'dir… | ✓45
+mat-eb-132 | M.8.3.3.2 | z1 | k1 | Bir logoda kullanılan eşkenar üçgenin kenarı 4 cm, aynı logonun reklam panosundaki büyütülmüş hâlinde ise 20 cm'dir. Benzerlik or… | ✓[[1|5]]
+mat-eb-133 | M.8.3.3.2 | z1 | k1 | Birbirine benzer iki pencere çiziminden büyüğünde bir kenar 36 cm'dir. Küçük çizimin büyük çizime benzerlik oranı [[1|3]]'tür. Kü… | ✓12
+mat-eb-134 | M.8.3.3.1 | z1 | k1 | ABCDE ~ KLMNP olduğu biliniyor. |DE| kenarının karşılık geldiği kenar aşağıdakilerden hangisidir? | ✓|NP|
+mat-eb-135 | M.8.3.3.1 | z1 | k1 | ABCD ~ EFGH olduğu biliniyor. Aşağıdaki açı eşitliklerinden hangisi doğrudur? | ✓m(C) = m(G)
+mat-eb-136 | M.8.3.3.2 | z1 | k1 | Birbirine benzer iki üçgen biçimli bahçe tarhından büyüğünün küçüğe benzerlik oranı 3'tür. Küçük tarhın çevresi 14 m'dir. Büyük t… | ✓42
+mat-eb-137 | M.8.3.3.1 | z1 | k1 | Aşağıdaki şekil çiftlerinden hangisi her zaman eştir? | ✓Kenar uzunluğu 5 cm olan iki kare
+mat-eb-138 | M.8.3.3.2 | z1 | k1 | Büyük bir çokgenin küçük çokgene benzerlik oranı [[4|3]]'tür. Küçük çokgenin büyük çokgene benzerlik oranı kaçtır? | ✓[[3|4]]
+mat-eb-139 | M.8.3.3.2 | z1 | k1 | Bir dergi, aynı sayının küçük ve büyük baskı kapaklarını şekildeki ölçülerde dikdörtgen biçiminde hazırlıyor. İki kapak benzerdir… | ✓[[3|2]]
+mat-eb-140 | M.8.3.3.1 | z1 | k1 | Eşkenar üçgenlerle ilgili aşağıdakilerden hangisi doğrudur? | ✓İki eşkenar üçgen her zaman benzerdir.
+mat-eb-141 | M.8.3.3.2 | z1 | k1 | Bir fotoğrafın genişliği 10 cm'dir. Fotoğraf bozulmadan büyütülünce genişliği 25 cm oluyor. Büyütülen fotoğrafın asıl fotoğrafa b… | ✓[[5|2]]
+mat-eb-142 | M.8.3.3.1 | z1 | k1 | Dikdörtgen biçimli bir oyun kartının kenarları 3 cm ve 5 cm'dir. Aynı oyunun yedek kartı bu karta eş olacak biçimde basılacaktır.… | ✓3 cm ve 5 cm
+mat-eb-143 | M.8.3.3.1 | z1 | k1 | Bir kilim motifinde kullanılan ABCD ve KLMN paralelkenarları eştir (ABCD ≅ KLMN). KLMN şekilde yan yatmış olarak gösterilmiştir. … | ✓5
+mat-eb-144 | M.8.3.3.1 | z1 | k1 | Bir çokgen, fotokopi makinesiyle aynı biçimde büyütülüyor. Bu büyütmede aşağıdakilerden hangisi gerçekleşir? | ✓Açılar aynı kalır, kenarlar aynı oranda büyü…
+mat-eb-145 | M.8.3.3.2 | z1 | k1 | Bir çıkartma serisinin küçük ve büyük baskıları birbirine benzer çokgenlerdir. Karşılık gelen kenarları tabloda santimetre cinsin… | ✓18
+mat-eb-146 | M.8.3.3.1 | z1 | k1 | ABCD ve EFGH dörtgenleri eştir (ABCD ≅ EFGH) ve |CD| = 7 cm'dir. Aşağıdaki uzunluklardan hangisi kesinlikle 7 cm'dir? | ✓|GH|
+mat-eb-147 | M.8.3.3.1 | z1 | k1 | İki benzer çokgenin benzerlik oranı 1'dir. Bu çokgenler için aşağıdakilerden hangisi doğrudur? | ✓Karşılık gelen kenarları eşittir; çokgenler …
+mat-eb-148 | M.8.3.3.1 | z1 | k1 | Aşağıdaki şekil çiftlerinden hangisi benzerdir ama eş değildir? | ✓Kenarları 4 × 6 cm ve 6 × 9 cm olan iki dikd…
+mat-eb-149 | M.8.3.3.1 | z1 | k1 | Bir karo ustası, kareli kâğıda çizdiği T biçimli R parçasıyla aynı büyüklükte ve aynı biçimde bir parça arıyor. Kâğıtta K, L, M v… | ✓M şekli
+mat-eb-150 | M.8.3.3.2 | z2 | k1 | Kenar uzunlukları 6 cm, 8 cm ve 10 cm olan KLM üçgeni bir çatı kirişi taslağıdır. Kirişin PRS üçgeni biçimindeki benzerinde en uz… | ✓15
+mat-eb-151 | M.8.3.3.2 | z2 | k1 | Şekilde ABC ve DEF üçgenleri benzerdir (ABC ~ DEF). ABC üçgeninin kenar uzunlukları ve |DE| şekil üzerinde verilmiştir. DEF üçgen… | ✓44
+mat-eb-152 | M.8.3.3.1 | z2 | k1 | Bir tasarım defterinde ABC ve DEF üçgenleri benzer olarak çizilmiştir (ABC ~ DEF). m(B) = (2x + 10)° ve m(E) = 70°'dir. x kaçtır? | ✓30
+mat-eb-153 | M.8.3.3.1 | z2 | k1 | Bir kapı süsü atölyesinde kenarları 8 cm ve 15 cm olan ABCD dikdörtgenine eş bir EFGH dikdörtgeni kesiliyor (ABCD ≅ EFGH). EFGH d… | ✓17
+mat-eb-154 | M.8.3.3.2 | z2 | k1 | Kenarları 18 cm ve 30 cm olan dikdörtgen biçimli bir okul panosunun benzeri olan ikinci bir pano yapılacaktır. Aşağıdaki boyutlar… | ✓24 cm × 40 cm
+mat-eb-155 | M.8.3.3.1 | z2 | k1 | Kenarları 6 cm ve 10 cm olan dikdörtgen biçimli bir kitap ayracının her kenarı 3 cm uzatılarak yeni bir ayraç elde ediliyor. Yeni… | ✓Benzer değildir; çünkü [[6|10]] ≠ [[9|13]].
+mat-eb-156 | M.8.3.3.2 | z2 | k1 | Kareli kâğıtta artı biçimli R şekli ile birlikte K, L, M ve N şekilleri çizilmiştir. Bu şekillerden hangisi R'ye benzerdir ama R'… | ✓K şekli
+mat-eb-157 | M.8.3.3.2 | z2 | k1 | Kareli kâğıtta K dikdörtgeni çizilmiştir. K'ye benzer bir L dikdörtgeni çizilecek ve L'nin kısa kenarı 6 birim olacaktır. L dikdö… | ✓9
+mat-eb-158 | M.8.3.3.2 | z2 | k1 | İki benzer tarlanın çevresine çekilecek tel miktarları 24 m ve 40 m'dir. Büyük tarlanın küçük tarlaya benzerlik oranı kaçtır? | ✓[[5|3]]
+mat-eb-159 | M.8.3.3.2 | z2 | k1 | Küçük bir çokgenin büyük çokgene benzerlik oranı [[2|5]]'tir. Büyük çokgenin çevresi 90 cm'dir. Küçük çokgenin çevresi kaç santim… | ✓36
+mat-eb-160 | M.8.3.3.1 | z2 | k1 | Bir parkta yan yana yerleştirilen iki paralelkenar biçimli çiçek tarhı eştir (PRST ≅ KLMN). PRST paralelkenarında m(P) = 70°'dir.… | ✓110
+mat-eb-161 | M.8.3.3.2 | z2 | k1 | Bir ışıklı reklam panosunun paralelkenar biçimli iki parçası şekilde verilmiştir ve ABCD ~ EFGH'dir. |FG| kaç santimetredir? | ✓6
+mat-eb-162 | M.8.3.3.2 | z2 | k1 | Bir bina cephesinin dikdörtgen biçimli maketi 30 cm × 20 cm ölçülerindedir. Maket, gerçek cepheye benzerdir ve maketteki 20 cm'li… | ✓6
+mat-eb-163 | M.8.3.3.1 | z2 | k1 | Aynı kalıptan kesilen ABC ve DEF üçgen levhaları eştir (ABC ≅ DEF). |AB| = (x + 3) cm ve |DE| = (2x − 1) cm'dir. x kaçtır? | ✓4
+mat-eb-164 | M.8.3.3.1 | z2 | k1 | Bir uçurtma atölyesinde ABC ve DEF üçgen kanatları eştir (ABC ≅ DEF). |AB| = 7 cm, |BC| = 9 cm ve |DF| = 12 cm'dir. DEF üçgeninin… | ✓28
+mat-eb-165 | M.8.3.3.1 | z2 | k1 | Bir tasarım defterinde ABCD ~ EFGH dörtgenleri çizilmiştir. ABCD dörtgeninde m(A) = 80°, m(B) = 75° ve m(C) = 105°'dir. m(H) kaç … | ✓100
+mat-eb-166 | M.8.3.3.1 | z2 | k1 | Birbirine benzer iki paralelkenar biçimli pano ABCD ve EFGH'dir (ABCD ~ EFGH). ABCD'de m(B) = 105°'tir. m(E) kaç derecedir? | ✓75
+mat-eb-167 | M.8.3.3.1 | z2 | k1 | Kenarları 10 cm ve 24 cm olan dikdörtgen biçimli bir kâğıt, uzun kenarlarının orta noktaları birleşecek biçimde katlanıp katlama … | ✓Parçalar birbirine eştir ve kâğıda benzer de…
+mat-eb-168 | M.8.3.3.2 | z2 | k1 | Benzerlik oranı (büyük / küçük) 3 olan iki üçgen biçimli çatı penceresinin çevreleri arasındaki fark 20 cm'dir. Küçük pencerenin … | ✓10
+mat-eb-169 | M.8.3.3.2 | z2 | k1 | Şekilde ABC ve DEF dik üçgenleri benzerdir (ABC ~ DEF); B ve E köşeleri diktir. Bazı kenar uzunlukları verilmiştir. |DF| kaç sant… | ✓10
+mat-eb-170 | M.8.3.3.2 | z2 | k1 | Bir parktaki yamuk biçimli iki oyun alanı birbirine benzerdir (ABCD ~ EFGH). |AB| = 9 m, |EF| = 15 m, |CD| = (2x + 1) m ve |GH| =… | ✓7
+mat-eb-171 | M.8.3.3.2 | z2 | k1 | Bir oyuncak model araba, gerçek aracına benzerdir ve benzerlik oranı (model / gerçek) [[1|40]]'tır. Gerçek aracın uzunluğu 4 m'di… | ✓10
+mat-eb-172 | M.8.3.3.2 | z2 | k1 | ABC üçgeninin kenar uzunlukları |AB| = 4 cm, |BC| = 5 cm ve |CA| = 6 cm'dir. DEF üçgeni ABC'ye benzerdir (ABC ~ DEF) ve DEF üçgen… | ✓15
+mat-eb-173 | M.8.3.3.2 | z2 | k1 | Kenarları 6 cm ve 9 cm olan dikdörtgen biçimli bir defter kapağının benzeri olan büyük kapağın çevresi 60 cm'dir. Büyük kapağın k… | ✓12
+mat-eb-174 | M.8.3.3.2 | z2 | k1 | Şekilde ABC ve PRS dik üçgenleri benzerdir (ABC ~ PRS); B ve R köşeleri diktir. PRS üçgeni yan yatmış olarak gösterilmiştir. |RS|… | ✓24
+mat-eb-175 | M.8.3.3.2 | z2 | k1 | Bir kırtasiyede satılan bütün kartpostallar birbirine benzer dikdörtgenlerdir ve kartpostalların kısa kenarının uzun kenarına ora… | ✓18
+mat-eb-226 | M.8.3.3.1 | z2 | k2 | Mert, defterine MNP ~ XYZ yazmıştır. Öğretmeni bu yazılışın ne anlama geldiğini soruyor. Buna göre aşağıdaki yorumlardan hangisi … | ✓MNP üçgeni XYZ üçgenine benzerdir; m(N) = m(…
+mat-eb-227 | M.8.3.3.2 | z2 | k2 | Bir tişört baskı atölyesi, 8 cm × 10 cm ölçülerindeki dikdörtgen biçimli bir logoyu aynı biçimde büyüterek 40 cm × 50 cm ölçüleri… | ✓5
+mat-eb-228 | M.8.3.3.1 | z2 | k2 | Bir vitray atölyesinde aynı kalıptan iki dörtgen cam kesiliyor ve ABCD ≅ KLMN oluyor. ABCD camında m(A) = 100°, m(B) = 115° ve m(… | ✓55
+mat-eb-229 | M.8.3.3.2 | z2 | k2 | Bir yayınevi, 12 cm × 18 cm ölçülerindeki dikdörtgen biçimli kitap kapağının benzeri olan bir cep boy kapak hazırlıyor. Cep boy k… | ✓12
+mat-eb-230 | M.8.3.3.1 | z2 | k2 | Bir perde atölyesinde aynı kalıptan iki dikdörtgen biçimli kumaş kesiliyor ve ABCD ≅ KLMN oluyor. ABCD kumaşında |AB| = 15 cm ve … | ✓44
+mat-eb-231 | M.8.3.3.1 | z2 | k2 | Şekilde ABC ~ DEF'dir; B ve E köşeleri dik açıdır. Üçgenlerin bazı kenar uzunlukları santimetre cinsinden verilmiştir. x = |DE| k… | ✓6
+mat-eb-232 | M.8.3.3.1 | z2 | k2 | Kareli kâğıtta R dikdörtgeni ile birlikte K, L, M ve N dikdörtgenleri çizilmiştir. Karelerin kenarı hepsinde aynı uzunluktadır. A… | ✓N dikdörtgeni
+mat-eb-233 | M.8.3.3.2 | z2 | k2 | Bir okulda kare biçimli iki duyuru panosu vardır. Küçük panonun çevresi 48 cm, büyük panonun çevresi 80 cm'dir. Büyük panonun küç… | ✓[[5|3]]
+mat-eb-234 | M.8.3.3.1 | z2 | k2 | Bir tasarımcı, kenar uzunlukları 6 cm ve 9 cm olan iki eşkenar üçgen biçimli logo hazırlıyor. Bu iki logo için aşağıdakilerden ha… | ✓Benzerdirler; küçüğün büyüğe benzerlik oranı…
+mat-eb-235 | M.8.3.3.2 | z2 | k2 | Bir origami atölyesinde kesilen ABCDE ve KLMNP beşgenleri benzerdir (ABCDE ~ KLMNP). |AB| = 6 cm, |KL| = 14 cm ve ABCDE beşgenini… | ✓98
+mat-eb-236 | M.8.3.3.1 | z2 | k2 | Bir çiftçi, çevreleri eşit iki dikdörtgen biçimli bahçe için tel çit alıyor. Birinin kenarları 3 m ve 9 m, diğerinin kenarları 6 … | ✓Eş değildirler ve benzer de değildirler.
+mat-eb-237 | M.8.3.3.1 | z2 | k2 | Bir okul şenliğinde asılan iki üçgen flama, ABC ve KLM, birbirine benzerdir (ABC ~ KLM). ABC flamasında |AB| = |AC| olup KLM flam… | ✓65
+mat-eb-238 | M.8.3.3.2 | z2 | k2 | Bir oyuncak firması, gerçek yüksekliği 1,5 m ve uzunluğu 4,5 m olan bir otomobilin benzeri olan bir model araba üretiyor. Model a… | ✓15
+mat-eb-239 | M.8.3.3.1 | z2 | k2 | Kareli kâğıtta R şekli ile birlikte K, L, M ve N şekilleri çizilmiştir. Karelerin kenarı hepsinde aynı uzunluktadır. Bu şekillerd… | ✓L şekli
+mat-eb-240 | M.8.3.3.2 | z2 | k2 | Şekildeki ABCD ve KLMN uçurtma biçimli iki levha benzerdir (ABCD ~ KLMN). Her uçurtmada iki komşu kenar çifti ayrı ayrı eşittir: … | ✓10
+mat-eb-241 | M.8.3.3.2 | z2 | k2 | Şekildeki ABC ve DEF üçgen levhaları benzerdir (ABC ~ DEF). Bazı kenar uzunlukları santimetre cinsinden verilmiştir. x = |DE| kaç… | ✓8
+mat-eb-242 | M.8.3.3.1 | z2 | k2 | Matematik öğretmeni tahtaya dört şekil çifti yazdı ve öğrencilerden benzer olan çifti bulmalarını istedi. Hangi çift benzerdir? | ✓Kenarları 6 cm ve 9 cm olan dikdörtgen ile k…
+mat-eb-243 | M.8.3.3.1 | z2 | k2 | Bir karo üreticisi, paralelkenar biçimli ABCD karosunun büyütülmüş benzeri olan KLMN karosunu üretiyor (ABCD ~ KLMN). ABCD karosu… | ✓260
+mat-eb-244 | M.8.3.3.2 | z2 | k2 | Bir tabela atölyesinde ikizkenar üçgen biçimli iki levha kesiliyor: ABC küçük, DEF büyük levhadır ve ABC ~ DEF'dir. ABC levhasınd… | ✓30
+mat-eb-245 | M.8.3.3.1 | z2 | k2 | Bir seramik atölyesi aynı kalıptan iki üçgen biçimli karo kesiyor ve ABC ≅ KLM oluyor. ABC karosunda |AB| = 6 cm, KLM karosunda i… | ✓26
+mat-eb-246 | M.8.3.3.2 | z2 | k2 | Dört arkadaş, dikdörtgen biçimli çıkartmalarını bilgisayarda farklı yöntemlerle büyütüyor. Asıl ve büyütülmüş çıkartmaların kısa … | ✓Banu
+mat-eb-247 | M.8.3.3.1 | z2 | k2 | Bir sahne dekoru için aynı kalıptan iki dikdörtgen panel kesiliyor ve ABCD ≅ EFGH oluyor. ABCD panelinde |AB| = 8 cm ve |BC| = 15… | ✓17
+mat-eb-248 | M.8.3.3.1 | z2 | k2 | Bir sahne dekorunda kullanılacak iki L biçimli panel aynı kalıptan kesilmiştir (ABCDEF ≅ KLMNPR). ABCDEF panelinin kenar uzunlukl… | ✓7
+mat-eb-249 | M.8.3.3.2 | z2 | k2 | Bir elektronik mağazasında dikdörtgen biçimli iki televizyon ekranı birbirine benzerdir. Büyük ekranın eni 80 cm, boyu 45 cm; küç… | ✓27
+mat-eb-250 | M.8.3.3.1 | z2 | k2 | Bir atölyede aynı kalıptan kesilen iki üçgen levha için ABC ≅ DEF olduğu biliniyor. Buna göre aşağıdaki ifadelerden hangisi yanlı… | ✓|BC| = |DF|
+mat-eb-251 | M.8.3.3.2 | z2 | k2 | Bir tepsi üreticisi, aynı biçimdeki tepsiyi üç boyda üretiyor: küçük, orta ve büyük. Orta tepsinin küçük tepsiye benzerlik oranı … | ✓[[5|2]]
+mat-eb-252 | M.8.3.3.1 | z3 | k2 | Bir kırtasiyede dikdörtgen biçimli altı farklı defter kapağı satılıyor. Kapakların kısa ve uzun kenar uzunlukları tabloda santime… | ✓6
+mat-eb-253 | M.8.3.3.2 | z3 | k2 | Bir ahşap atölyesinde dikdörtgen biçimli iki levha kesiliyor: ABCD küçük, EFGH büyük levhadır ve ABCD ~ EFGH'dir. Levhaların bazı… | ✓36
+mat-eb-254 | M.8.3.3.2 | z3 | k2 | Bir pano atölyesi, kısa kenarının uzun kenarına oranı [[2|3]] olan ve kenar uzunlukları santimetre cinsinden tam sayı olan dikdör… | ✓10
+mat-eb-255 | M.8.3.3.1 | z3 | k2 | Kareli kâğıtta artı biçimli beş şekil çizilmiştir. Karelerin kenarı hepsinde aynı uzunluktadır ve her şeklin dört kolu birbirinin… | ✓N şekli
+mat-eb-256 | M.8.3.3.2 | z3 | k2 | Bir cam atölyesinde dörtgen biçimli ABCD camının büyütülmüş benzeri olan EFGH camı üretiliyor (ABCD ~ EFGH). |AB| = 9 cm ve |EF| … | ✓36
+mat-eb-257 | M.8.3.3.1 | z3 | k2 | Zeynep, eş ve benzer çokgenlerle ilgili çalışırken defterine dört ifade yazdı. Bunlardan yalnızca birinin her zaman doğru olduğun… | ✓Benzerlik oranı 1 olan iki çokgen birbirine …
+mat-eb-258 | M.8.3.3.1 | z3 | k2 | Bir mimar, dört farklı projede dörtgen biçimli birer küçük ve büyük pencere çifti çiziyor. Tabloda her çift için karşılık gelen a… | ✓4. çift
+mat-eb-259 | M.8.3.3.2 | z3 | k2 | Bir sanayi sitesinde H harfi biçimli iki tabela asılacaktır. Tabelalar benzerdir ve bütün açıları diktir. Küçük tabelada uzunluğu… | ✓80
+mat-eb-260 | M.8.3.3.2 | z3 | k2 | Bir çerçeve atölyesinde dörtgen biçimli iki ahşap pano kesiliyor. Usta, KLMN panosunu ABCD panosunun her ölçüsünü aynı oranda büy… | ✓10
+mat-eb-261 | M.8.3.3.1 | z3 | k2 | Bir mobilya atölyesinde aynı kalıptan iki üçgen raf kesiliyor ve ABC ≅ DEF oluyor. ABC rafında açıların ölçüleri m(A) = 2x°, m(B)… | ✓80
+mat-eb-262 | M.8.3.3.2 | z3 | k2 | Bir atölyede kenar uzunlukları 8 cm, 10 cm ve 12 cm olan ABC üçgen levhasına benzer bir KLM üçgen levhası yapılacaktır (ABC ~ KLM… | ✓45
+mat-eb-263 | M.8.3.3.1 | z3 | k2 | Dilara, beşgen biçimli iki bahçe planı çiziyor (ABCDE ~ KLMNP). KLMNP planının ABCDE planına benzerlik oranı [[3|2]]'dir. ABCDE p… | ✓|MN| = 21 cm
+mat-eb-264 | M.8.3.3.1 | z3 | k2 | Bir cam atölyesinde ikizkenar yamuk biçimli iki cam kesiliyor: ABCD küçük, KLMN büyük camdır ve ABCD ~ KLMN'dir. Her iki yamukta … | ✓180
+mat-eb-265 | M.8.3.3.2 | z3 | k2 | Bir matbaada dikdörtgen biçimli A, B ve C afişleri basılıyor. Afişlerin üçü de birbirine benzerdir. B afişinin A afişine benzerli… | ✓[[9|2]]
+mat-eb-266 | M.8.3.3.1 | z3 | k2 | İki mozaik pano, ABCD ve EFGH dörtgenleri biçimindedir ve ABCD ~ EFGH'dir. Panoların çevreleri birbirine eşittir. ABCD panosunda … | ✓32
+mat-eb-267 | M.8.3.3.2 | z3 | k2 | Bir belediye, üçgen biçimli iki parkın çevresine çit çektirecektir. İki park birbirine benzerdir. Küçük parkın en kısa kenarı 40 … | ✓7200
+mat-eb-268 | M.8.3.3.1 | z3 | k2 | Kenarları 6 cm ve 8 cm olan dikdörtgen biçimli bir kâğıt, bir köşegeni boyunca kesilerek iki üçgene ayrılıyor. Elif, oluşan iki p… | ✓Eştirler; her birinin çevresi 24 cm'dir.
+mat-eb-269 | M.8.3.3.2 | z3 | k2 | Bir atölyede ABC ve DEF üçgen levhaları aynı kalıptan kesilmiştir (ABC ≅ DEF). KLM levhası ise DEF levhasının büyütülmüş benzerid… | ✓36
+mat-eb-270 | M.8.3.3.1 | z3 | k2 | Bir atölyede üç üçgen şablon hazırlanıyor. Şablonlar için ABC ~ DEF ve DEF ~ MKL olduğu biliniyor. Ustabaşı, şablonların açıları … | ✓m(B) = m(K)
+mat-eb-271 | M.8.3.3.2 | z3 | k2 | Bir oyun parkında ikizkenar üçgen biçimli iki gölgelik yapılacaktır. ABC ve DEF gölgelikleri benzerdir (ABC ~ DEF). ABC gölgeliği… | ✓26
+mat-eb-272 | M.8.3.3.1 | z3 | k2 | Kareli kâğıtta L biçimli dört şekil çizilmiştir: K, L, M ve N. Karelerin kenarı hepsinde aynı uzunluktadır. Melis, şekilleri kesi… | ✓M ile N
+mat-eb-273 | M.8.3.3.2 | z3 | k2 | Bir mimar, üçgen biçimli iki teras tasarlıyor ve terasların benzer olduğunu belirtiyor (ABC ~ KLM). ABC terasında kenar uzunlukla… | ✓40
+mat-eb-274 | M.8.3.3.1 | z3 | k2 | Bir mozaik atölyesinde dörtgen biçimli ABCD panosunun büyütülmüş benzeri olan EFGH panosu üretiliyor (ABCD ~ EFGH). ABCD panosund… | ✓85
+mat-eb-275 | M.8.3.3.2 | z3 | k2 | Bir yazılım firması, kenarları 36 mm ve 48 mm olan dikdörtgen biçimli bir etikete benzer, kenar uzunlukları milimetre cinsinden t… | ✓14
+mat-eb-326 | M.8.3.3.2 | z3 | k3 | Bir yayınevi, 16 cm × 24 cm boyutundaki dikdörtgen biçimli bir romanın cep boy baskısını hazırlıyor. Cep boy kapağın resmi bozulm… | ✓10 cm × 15 cm
+mat-eb-327 | M.8.3.3.2 | z3 | k3 | Bir tasarımcı, ABC üçgeni biçimindeki bir logoyu büyüterek DEF logosunu elde ediyor (ABC ~ DEF). Büyütülen logo, şekilde ters çev… | ✓20
+mat-eb-328 | M.8.3.3.2 | z3 | k3 | Bir oyuncak firması, gerçek bir otomobilin görünümünü bozmadan küçülterek modelini üretiyor; model ile otomobil benzerdir. Gerçek… | ✓10
+mat-eb-329 | M.8.3.3.1 | z3 | k3 | Bir mobilya atölyesi, paralelkenar biçimli iki sehpa tablası tasarlamıştır. ABCD tablasında |AB| = 6 cm, |BC| = 9 cm ve m(A) = 70… | ✓Karşılık gelen açılar eşit olmadığından tabl…
+mat-eb-330 | M.8.3.3.2 | z3 | k3 | Kareli kâğıda dik üçgen biçimli K, L, M, N ve P şekilleri çizilmiştir. Karelerin kenarı hepsinde 1 birimdir. Zeynep, K üçgeninin … | ✓N şekli
+mat-eb-331 | M.8.3.3.1 | z3 | k3 | Bir peyzaj firması, aynı kalıptan iki dörtgen biçimli yapay çim levhası kesiyor (ABCD ≅ KLMN). ABCD levhasının kenar uzunlukları … | ✓40
+mat-eb-332 | M.8.3.3.2 | z3 | k3 | Bir okul gösterisinde sahnenin iki yanına dikdörtgen biçimli iki resim panosu konacaktır. Büyük pano, küçük panonun bozulmadan bü… | ✓15
+mat-eb-333 | M.8.3.3.2 | z3 | k3 | Bahçıvan Şener Usta, üçgen biçimli iki çiçeklik hazırlıyor. ABC çiçekliği küçük, DEF çiçekliği büyük olandır ve ABC ~ DEF'dir. Kü… | ✓27
+mat-eb-334 | M.8.3.3.1 | z3 | k3 | Bir çadır firması, ön yüzü ikizkenar üçgen biçimli ABC çadırının büyütülmüş modelini (DEF) üretiyor. ABC üçgeninde |AB| = |AC| ve… | ✓30
+mat-eb-335 | M.8.3.3.2 | z3 | k3 | Hazal, 24 cm × 36 cm boyutlarındaki dikdörtgen biçimli bir ders notunu fotokopi makinesinde art arda iki kez kopyalıyor. Makine ö… | ✓20 cm × 30 cm
+mat-eb-336 | M.8.3.3.1 | z3 | k3 | Bir çıkartma tasarımcısı, haç biçimli bir çıkartmanın (R) farklı boylarını kareli kâğıda çizmiştir. Karelerin kenarı hepsinde 1 b… | ✓M şekli
+mat-eb-337 | M.8.3.3.2 | z3 | k3 | Bir oyuncak yapımcısı, B köşesi dik açı olan ABC dik üçgeni biçimindeki bir rampanın küçültülmüş modelini (DEF) yapıyor ve ABC ~ … | ✓10
+mat-eb-338 | M.8.3.3.1 | z3 | k3 | Bir yapboz tasarımcısı, basamaklı R parçasının kalıbını kareli kâğıda çizmiş; ardından R'nin yanına dört parça daha çizmiştir. Ka… | ✓M şekli
+mat-eb-339 | M.8.3.3.2 | z3 | k3 | Bir elektronik mağazası, dikdörtgen biçimli iki tablet ekranını tanıtıyor. Ekranlar benzerdir. Küçük ekranın kenarları 16 cm ve 1… | ✓140
+mat-eb-340 | M.8.3.3.1 | z3 | k3 | Elif, benzerlik konusunu çalışırken bazı şekil çiftlerini karşılaştırıyor. Aşağıdaki şekil çiftlerinden hangisi için "bu iki şeki… | ✓Kenar uzunlukları farklı olan iki düzgün beş…
+mat-eb-341 | M.8.3.3.1 | z3 | k3 | Bir okul rozeti ABC üçgeni biçimindedir ve ABC ~ DEF olacak biçimde büyütülerek DEF rozeti yapılıyor. ABC üçgeninde m(A) = 80°, m… | ✓36
+mat-eb-342 | M.8.3.3.2 | z3 | k3 | Kareli kâğıda çizilen K dik yamuğunun kenarları kare çizgileri üzerindedir, eğik kenarı ise iki köşeyi birleştirmektedir. Kareler… | ✓54
+mat-eb-343 | M.8.3.3.1 | z3 | k3 | Kenarları 8 cm ve 6 cm olan dikdörtgen biçimli bir origami kâğıdı, AC köşegeni boyunca kesilerek iki üçgen parçaya ayrılıyor; bu … | ✓48
+mat-eb-344 | M.8.3.3.2 | z3 | k3 | Bir okulda kütüphane binasının maketi yapılıyor. Maket, binaya benzerdir ve maketteki her uzunluk, binadaki karşılığının [[1|50]]… | ✓42
+mat-eb-345 | M.8.3.3.2 | z3 | k3 | Bir reklam firması, üçgen biçimli iki tabela hazırlıyor ve ABC ~ DEF'dir. ABC tabelasının DEF tabelasına benzerlik oranı [[4|3]]'… | ✓36
+mat-eb-346 | M.8.3.3.1 | z3 | k3 | Kareli kâğıtta karelerin kenarı 1 birimdir. ABC üçgeni ve EF kenarı çizilmiştir. Esra, ABC ≅ EFG olacak biçimde G köşesini P, R, … | ✓R noktası
+mat-eb-347 | M.8.3.3.1 | z3 | k3 | Okul kulübü, KLM üçgeni biçimindeki amblemi büyüterek PRS amblemini elde ediyor (KLM ~ PRS). Amblemlerin bazı kenar uzunlukları s… | ✓3
+mat-eb-348 | M.8.3.3.1 | z3 | k3 | Deniz, 24 cm × 36 cm boyutlarındaki dikdörtgen biçimli bir kartonu, kısa kenara paralel iki kesikle üç şeride ayırıyor (şekil). K… | ✓Şeritler birbirine eştir ancak asıl kartona …
+mat-eb-349 | M.8.3.3.2 | z3 | k3 | Kareli kâğıda çizilen K merdiven biçimli şeklinin bütün açıları diktir ve karelerin kenarı 1 birimdir. Bir sticker firması bu şek… | ✓48
+mat-eb-350 | M.8.3.3.1 | z3 | k3 | Bir atölyede aynı kalıptan iki üçgen levha kesilmiştir (ABC ≅ DEF). Levhaların kenarları |AB| = (2x − 3) cm, |BC| = (x + 4) cm ve… | ✓12
+mat-eb-351 | M.8.3.3.1 | z3 | k3 | Bir cam atölyesi, aynı kalıptan iki ikizkenar yamuk biçimli cam parçası kesiyor (ABCD ≅ EFGH). ABCD parçasında AB // DC ve |AD| =… | ✓32
+mat-eb-352 | M.8.3.3.2 | z3 | k3 | Bir park yönetimi, beşgen biçimli iki süs havuzu yaptırıyor. Havuzlar birbirine benzerdir ve çevreleri 40 m ile 60 m'dir. Küçük h… | ✓18
+mat-eb-353 | M.8.3.3.1 | z3 | k3 | Bir matematik öğretmeni, benzerlik ve eşlikle ilgili dört cümle yazmış ve öğrencilerden yanlış olanı bulmalarını istemiştir. Aşağ… | ✓Karşılık gelen açıları eşit olan iki dörtgen…
+mat-eb-354 | M.8.3.3.2 | z3 | k3 | Bir tişört baskı atölyesi, kenarları 6 cm ve 9 cm olan dikdörtgen biçimli bir deseni bozmadan büyüterek çevresi 90 cm olan bir ba… | ✓18
+mat-eb-355 | M.8.3.3.1 | z3 | k3 | Bir mozaik atölyesinde aynı kalıptan iki çokgen parça kesilmiştir; parçalar birbirine eştir. Bu parçaların çevreleri santimetre c… | ✓31
+mat-eb-356 | M.8.3.3.1 | z4 | k3 | Okul müzikali için üçgen biçimli bir dekor parçası (ABC) büyütülerek DEF dekoru yapılıyor ve ABC ~ DEF'dir. Dekorların bazı kenar… | ✓10
+mat-eb-357 | M.8.3.3.2 | z4 | k3 | Bir pencere ustası, kenarları 12 dm ve 15 dm olan dikdörtgen biçimli bir pencere camına benzer yeni bir cam kestirecektir. Yeni c… | ✓41
+mat-eb-358 | M.8.3.3.2 | z4 | k3 | Bir matbaa, kenarları 12 cm ve 20 cm olan dikdörtgen biçimli bir afişe benzer afişler basacaktır. Yeni afişlerin kenar uzunluklar… | ✓11
+mat-eb-359 | M.8.3.3.2 | z4 | k3 | Bir yelken kulübü, kenarları 6 m, 8 m ve 12 m olan üçgen biçimli bir flamaya benzer flamalar hazırlayacaktır. Yeni flamaların ken… | ✓52
+mat-eb-360 | M.8.3.3.1 | z4 | k3 | Bir seramik ustası, ikizkenar yamuk biçimli ABCD karosunu büyüterek EFGH karosunu yapıyor ve ABCD ~ EFGH'dir. İkizkenar yamuk ABC… | ✓85
+mat-eb-361 | M.8.3.3.1 | z4 | k3 | Bir okul tiyatrosunda dörtgen biçimli ABCD dekoru, aynı biçimde büyütülerek PRST dekoru yapılıyor (ABCD ~ PRST). PRST dekoru şeki… | ✓24
+mat-eb-362 | M.8.3.3.2 | z4 | k3 | ABC dik üçgeninde B köşesi diktir, |AB| = 6 cm ve |BC| = 8 cm'dir. DEF üçgeni ABC'ye benzerdir (ABC ~ DEF) ve E köşesi diktir. DE… | ✓60
+mat-eb-363 | M.8.3.3.1 | z4 | k3 | ABC üçgeninin kenar uzunlukları |AB| = 6 cm, |BC| = 10 cm ve |CA| = x cm'dir; x bir tam sayıdır. DEF üçgeni ABC'ye benzerdir (ABC… | ✓5
+mat-eb-364 | M.8.3.3.2 | z4 | k3 | Aynı biçimli iki L şekli, farklı kareli kâğıtlara çizilmiştir. K şekli, karelerin kenarı 1 cm olan kâğıda; L şekli ise karelerin … | ✓3
+mat-eb-365 | M.8.3.3.2 | z4 | k3 | Bir belediye, üçgen biçimli iki çiçek tarhı yapıyor. Tarhlar benzerdir ve büyük tarhın küçük tarha benzerlik oranı [[5|3]]'tür. B… | ✓45
+mat-eb-366 | M.8.3.3.1 | z4 | k3 | Bir tasarımcı, ikizkenar yamuk biçimli KLMN ayna çerçevesini büyütülmüş PRST çerçevesine dönüştürüyor (KLMN ~ PRST). KLMN'de KL /… | ✓18
+mat-eb-367 | M.8.3.3.2 | z4 | k3 | Bir sergi atölyesi, kenarları 60 cm ve 80 cm olan dikdörtgen biçimli bir halı desenini önce [[3|4]] oranında küçülterek bir sergi… | ✓56
+mat-eb-368 | M.8.3.3.2 | z4 | k3 | ABC üçgeninin kenar uzunlukları 6 cm, 8 cm ve 10 cm'dir. DEF üçgeni ABC'ye benzerdir ve DEF üçgeninin en kısa kenarı 9 cm'dir. DE… | ✓8
+mat-eb-369 | M.8.3.3.1 | z4 | k3 | ABC dik üçgeninde B köşesi diktir, |AB| = 8 cm ve |AC| = 17 cm'dir. DEF üçgeni ABC'ye benzerdir (ABC ~ DEF), E köşesi diktir ve D… | ✓12
+mat-eb-370 | M.8.3.3.2 | z4 | k3 | K, L ve M üç benzer çokgendir. K'nin L'ye benzerlik oranı [[2|3]], M'nin L'ye benzerlik oranı [[4|3]]'tür. M çokgeninin bir kenar… | ✓12
+mat-eb-371 | M.8.3.3.2 | z4 | k3 | Bir kartpostal atölyesi, dikdörtgen biçimli beş kart tasarlamıştır. Kartlardan bazıları yatay, bazıları dikey tutularak ölçüldüğü… | ✓4
+mat-eb-372 | M.8.3.3.1 | z4 | k3 | KLM üçgeninde m(K) = 30° ve m(L) = 70°'dir. PRS üçgeninde m(P) = 80° ve m(R) = 30°'dir. Bu iki üçgen birbirine benzerdir ve karşı… | ✓KLM ~ RSP
+mat-eb-373 | M.8.3.3.1 | z4 | k3 | Bir oyuncak fabrikası, aynı kalıptan iki dörtgen biçimli parça üretiyor (ABCD ≅ EFGH). ABCD parçasında |AB| = (2x + y) cm ve |BC|… | ✓20
+mat-eb-374 | M.8.3.3.1 | z4 | k3 | Bir ayna atölyesi, yamuk biçimli ABCD aynasını büyüterek EFGH aynasını yapıyor ve ABCD ~ EFGH'dir. ABCD'de AB // DC'dir. Aynaları… | ✓20
+mat-eb-375 | M.8.3.3.2 | z4 | k3 | Bir okulun bahçesinde dörtgen biçimli iki çiçek tarhı vardır: ABCD ve KLMN. Tarhlar benzerdir (ABCD ~ KLMN). ABCD tarhının çevres… | ✓24
+mat-eb-016 | M.8.3.3.1 | z1 | k0 | Aynı kalıptan çıkarılan iki mühür birbirine eştir (≅). Bu iki mühür için aşağıdakilerden hangisi doğrudur? | ✓Karşılık gelen kenarların uzunlukları eşitti…
+mat-eb-017 | M.8.3.3.1 | z1 | k0 | Ayça, defterine ≅ ve ~ işaretlerinin anlamlarını yazıyor. Aşağıdakilerden hangisi bu işaretlerin doğru tanımıdır? | ✓≅ işareti eşliği, ~ işareti benzerliği göste…
+mat-eb-018 | M.8.3.3.1 | z1 | k0 | PRS ~ TUV olduğu biliniyor. m(S) açısına eşit olan açı aşağıdakilerden hangisidir? | ✓m(V)
+mat-eb-019 | M.8.3.3.2 | z1 | k0 | Bir bina maketinde giriş kapısının yüksekliği 5 cm, gerçek binadaki kapının yüksekliği 200 cm'dir. Gerçek bina ile maketi benzerd… | ✓[[1|40]]
+mat-eb-020 | M.8.3.3.2 | z1 | k0 | Bir tasarımcı, genişliği 5 cm olan bir logoyu tişört baskısı için büyütüyor. Baskıdaki logo asıl logoya benzerdir ve benzerlik or… | ✓30
+mat-eb-021 | M.8.3.3.1 | z1 | k0 | Kenar uzunlukları 4 cm ve 9 cm olan iki eşkenar üçgen kâğıttan kesiliyor. Bu iki üçgen için aşağıdakilerden hangisi doğrudur? | ✓Benzerdirler, ancak eş değildirler.
+mat-eb-022 | M.8.3.3.1 | z1 | k0 | ABCD ≅ KLMN dörtgenlerinde m(B) = 110°'dir. m(L) kaç derecedir? | ✓110
+mat-eb-023 | M.8.3.3.1 | z1 | k0 | Şekilde PRS ≅ TUV'dir. PRS üçgeninin kenar uzunlukları verilmiştir; TUV üçgeni farklı bir konumda çizilmiştir. |UV| kaç santimetr… | ✓6
+mat-eb-024 | M.8.3.3.2 | z1 | k0 | Kareli kâğıtta çizilen dik üçgenlerden P ile birlikte K, L, M ve N verilmiştir. Karelerin kenarı 1 birimdir. Bu şekillerden hangi… | ✓L şekli
+mat-eb-025 | M.8.3.3.1 | z1 | k0 | Benzer iki çokgenin karşılık gelen bütün kenar çiftlerinde oran 1 bulunuyor. Bu çokgenler için aşağıdakilerden hangisi doğrudur? | ✓Çokgenler birbirine eştir.
+mat-eb-026 | M.8.3.3.2 | z1 | k0 | Bir kitap kapağının baskısı 30 cm genişliğindedir. Aynı kapağın küçük baskısı, ona benzer olacak biçimde küçültülüyor ve benzerli… | ✓6
+mat-eb-027 | M.8.3.3.1 | z1 | k0 | Şekilde ABCD ~ PRST dörtgenleri verilmiştir; PRST dörtgeni farklı bir konumda çizilmiştir. |AB| kenarının karşılığı aşağıdakilerd… | ✓|PR|
+mat-eb-028 | M.8.3.3.2 | z2 | k0 | Şekilde ikizkenar iki üçgen verilmiştir ve ABC ~ KLM'dir. Bazı kenar uzunlukları şekil üzerinde yazılıdır. x kaç santimetredir? | ✓18
+mat-eb-029 | M.8.3.3.1 | z2 | k0 | Bir pencere tasarımında ABCD ~ EFGH dörtgenleri kullanılıyor. ABCD dörtgeninde m(A) = 80°, m(B) = 100° ve m(C) = 70°'dir. m(H) ka… | ✓110
+mat-eb-030 | M.8.3.3.2 | z2 | k0 | Bir tablet ekranının genişliği ile yüksekliği 16 : 9 oranındadır. Bu ekrana benzer biçimde, genişliği 48 cm olan bir ekran hazırl… | ✓27
+mat-eb-031 | M.8.3.3.2 | z2 | k0 | Bir okulun panosuna A ve B adlı iki dikdörtgen duyuru kartı asılacaktır. B kartı, A kartına benzerdir. Kartların ölçüleri tabloda… | ✓9
+mat-eb-032 | M.8.3.3.2 | z2 | k0 | Üçgen biçimli iki çıkartma benzerdir (ABC ~ DEF). ABC çıkartmasının çevresi 54 cm, DEF çıkartmasının çevresi 36 cm'dir ve |AB| = … | ✓10
+mat-eb-033 | M.8.3.3.2 | z2 | k0 | ABC ~ KLM olan iki üçgen flamada |BC| = 8 cm, |LM| = 12 cm, |AB| = (x + 2) cm ve |KL| = (2x + 1) cm'dir. x kaçtır? | ✓4
+mat-eb-034 | M.8.3.3.1 | z2 | k0 | ABC üçgeninde |AB| = |AC| ve m(A) = 80°'dir. ABC ~ DEF olduğuna göre m(E) kaç derecedir? | ✓50
+mat-eb-035 | M.8.3.3.2 | z2 | k0 | Kareli kâğıtta dik kenarları 3 ve 4 birim olan bir dik üçgen çizilmiştir. Bu üçgene benzer ve benzerlik oranı 2 olan yeni bir dik… | ✓24
+mat-eb-036 | M.8.3.3.1 | z2 | k0 | Dört öğrenci, ölçülerini verdikleri iki dikdörtgenin benzer olduğunu savunuyor. Hangi öğrencinin verdiği dikdörtgenler gerçekten … | ✓Banu: 6 cm × 8 cm ve 9 cm × 12 cm
+mat-eb-037 | M.8.3.3.1 | z2 | k0 | Kareli kâğıtta ev biçimli P şekli ile birlikte K, L, M ve N şekilleri çizilmiştir. Karelerin kenarı 1 birimdir. Bu şekillerden ha… | ✓K şekli
+mat-eb-038 | M.8.3.3.2 | z2 | k0 | ABC ~ DEF'dir ve DEF üçgeninin ABC üçgenine benzerlik oranı 3'tür. Bu bilgiye göre aşağıdakilerden hangisi doğrudur? | ✓|DE| = 3 · |AB|
+mat-eb-039 | M.8.3.3.1 | z2 | k0 | Aynı kalıptan kesilen iki oyun kartı paralelkenar biçimindedir (ABCD ≅ KLMN). ABCD paralelkenarında m(A) = 70°'dir. m(M) kaç dere… | ✓70
+mat-eb-040 | M.8.3.3.2 | z2 | k0 | Şekilde ABCD ~ EFGH paralelkenarlarının bazı kenar uzunlukları verilmiştir. x kaç santimetredir? | ✓12
+mat-eb-041 | M.8.3.3.2 | z2 | k0 | Bir oyuncak model arabanın uzunluğu 10 cm'dir. Gerçek araba 4 m uzunluğunda ve 1,6 m yüksekliğindedir. Model araba, gerçek arabay… | ✓4
+mat-eb-042 | M.8.3.3.1 | z2 | k0 | Selin, "Karşılık gelen açıları eşit olan iki çokgen her zaman benzerdir." diyor. Aşağıdaki çiftlerden hangisi Selin'in bu iddiası… | ✓3 cm × 5 cm ve 4 cm × 8 cm ölçülü iki dikdör…
+mat-eb-043 | M.8.3.3.2 | z2 | k0 | Kareli kâğıtta K ve L artı biçimleri çizilmiştir ve bu iki şekil benzerdir. K şeklinin çevresi 12 birimdir. L şeklinin çevresi ka… | ✓24
+mat-eb-044 | M.8.3.3.2 | z2 | k0 | Dikdörtgen biçimli A havuzunun kenar uzunlukları 8 m ve 14 m'dir. B havuzu A havuzuna benzerdir ve çevresi 66 m'dir. B havuzunun … | ✓21
+mat-eb-045 | M.8.3.3.2 | z2 | k0 | 20 cm × 30 cm ölçülerindeki dikdörtgen biçimli bir kâğıt, fotokopi makinesiyle ona benzer olacak biçimde [[3|2]] oranında büyütül… | ✓150
+mat-eb-046 | M.8.3.3.1 | z2 | k0 | Şekilde ABCD ≅ KLMN dörtgenleri verilmiştir; ABCD dörtgeninin kenar uzunlukları yazılıdır. KLMN dörtgeni farklı bir konumda çizil… | ✓4
+mat-eb-047 | M.8.3.3.2 | z2 | k0 | Kısa kenarı 3 cm, uzun kenarı 5 cm olan bir dikdörtgen çizilmiştir. Bu dikdörtgene benzer ikinci bir dikdörtgende uzun kenar, kıs… | ✓64
+mat-eb-048 | M.8.3.3.2 | z3 | k0 | Bir kafenin dikdörtgen biçimli menü tahtasının kısa kenarı 60 cm, uzun kenarı 90 cm'dir. Bu tahtaya benzer olarak hazırlanan küçü… | ✓20
+mat-eb-049 | M.8.3.3.2 | z3 | k0 | Bir logoda dikdörtgen biçimli iç şekil, dış dikdörtgenin tam ortasına yerleştirilmiştir: sağ ve sol boşluklar birbirine, üst ve a… | ✓4
+mat-eb-050 | M.8.3.3.1 | z3 | k0 | ABC ≅ DEF olan iki üçgen levhada |AB| = (2x + 1) cm, |DE| = 11 cm, |BC| = (y + 3) cm ve |EF| = (2y − 4) cm'dir. x · y çarpımı kaç… | ✓35
+mat-eb-051 | M.8.3.3.1 | z3 | k0 | Kareli kâğıtta yamuk biçimli P, K, L, M ve N şekilleri çizilmiştir. Karelerin kenarı 1 birimdir. Aşağıdaki şekil çiftlerinden han… | ✓P ile L
+mat-eb-052 | M.8.3.3.2 | z3 | k0 | ABC ≅ DEF ve DEF ~ KLM'dir. KLM üçgeninin DEF üçgenine benzerlik oranı [[2|3]]'dir ve ABC üçgeninin çevresi 36 cm'dir. KLM üçgeni… | ✓24
+mat-eb-053 | M.8.3.3.1 | z3 | k0 | ABCD ~ EFGH dörtgenlerinin karşılık gelen kenar uzunlukları tabloda verilmiştir. Aşağıdaki ifadelerden hangisi kesinlikle yanlışt… | ✓m(C) = 120° ise m(G) = 80° olur.
+mat-eb-054 | M.8.3.3.2 | z3 | k0 | Şekilde ABC ~ DEF'dir. ABC üçgeninin kenar uzunlukları ve DEF üçgeninin bir kenar uzunluğu verilmiştir. DEF üçgeninin çevresi, AB… | ✓12
+mat-eb-055 | M.8.3.3.1 | z3 | k0 | Kenar uzunlukları 6 cm ve 12 cm olan A dikdörtgenine benzer bir B dikdörtgeninin çevresi, A dikdörtgeninin çevresine eşittir. B d… | ✓6
+mat-eb-056 | M.8.3.3.2 | z3 | k0 | Her karesinin kenarı 1,5 birim olan kareli kâğıda H biçimli K ve L şekilleri çizilmiştir ve bu iki şekil benzerdir. L şeklinin çe… | ✓24
+mat-eb-057 | M.8.3.3.2 | z3 | k0 | Bir tasarımcı, 21 cm uzunluğundaki bir çizimi önce benzerlik oranı 2 olacak biçimde büyütüyor, ardından büyüttüğü çizimi benzerli… | ✓14
+mat-eb-058 | M.8.3.3.1 | z3 | k0 | Aynı kalıptan kesilen iki parke taşı paralelkenar biçimindedir (ABCD ≅ EFGH). |AB| = (3x − 2) cm, |EF| = (x + 8) cm ve |BC| = 9 c… | ✓44
+mat-eb-059 | M.8.3.3.2 | z3 | k0 | Dik kenarları 8 cm ve 15 cm olan dik üçgen biçimli bir tahta destek yapılmıştır. Bu desteğe benzer ikinci bir desteğin hipotenüsü… | ✓120
+mat-eb-060 | M.8.3.3.1 | z3 | k0 | Aynı kalıptan kesilen iki dikdörtgen kapı tabelası için ABCD ≅ KLMN'dir. ABCD tabelasında |AB| = 5 cm ve köşegen uzunluğu |AC| = … | ✓34
+mat-eb-061 | M.8.3.3.1 | z3 | k0 | Bir mimar, dörtgen biçimli iki pencere çiziyor (ABCD ~ EFGH). ABCD dörtgeninde m(A) : m(B) : m(C) : m(D) = 2 : 3 : 4 : 3'tür. m(G… | ✓120
+mat-eb-062 | M.8.3.3.1 | z3 | k0 | Şekildeki iki üçgen benzerdir. Eşit açılar aynı sayıda yay ile işaretlenmiştir ve bazı kenar uzunlukları şekil üzerinde yazılıdır… | ✓16
+mat-eb-063 | M.8.3.3.2 | z3 | k0 | Dikdörtgen biçimli bir fotoğraf albümü kapağı, aynı biçimde [[3|2]] oranında büyütülerek yeni baskı hazırlanıyor. Yeni baskı kapa… | ✓60
+mat-eb-064 | M.8.3.3.2 | z4 | k0 | Birbirine benzer dikdörtgen kartların kısa kenarının uzun kenarına oranı [[3|4]]'tür ve kartların kenar uzunlukları tam sayı sant… | ✓90
+mat-eb-065 | M.8.3.3.2 | z4 | k0 | 4 cm × 6 cm ölçülerindeki dikdörtgene benzer, kenar uzunlukları tam sayı santimetre olan ve çevresi 100 cm'den küçük olan etiketl… | ✓8
+mat-eb-066 | M.8.3.3.1 | z4 | k0 | Bir tasarımcı, dikdörtgen biçimli üç pano çiziyor: ABCD ≅ EFGH ve EFGH ~ KLMN'dir. KLMN panosunun EFGH panosuna benzerlik oranı 2… | ✓5
+mat-eb-067 | M.8.3.3.2 | z4 | k0 | Kısa kenarın uzun kenara oranı [[5|8]] olan dikdörtgenlere benzer ve kenar uzunlukları tam sayı santimetre olan tabelalar yapılac… | ✓78
+mat-eb-068 | M.8.3.3.1 | z4 | k0 | ABC ~ DEF üçgenlerinde |AB| = (x + 4) cm, |DE| = (2x + 3) cm, |BC| = 12 cm, |EF| = 18 cm ve |CA| = 14 cm'dir. DEF üçgeninin çevre… | ✓54
+mat-eb-069 | M.8.3.3.2 | z4 | k0 | Bir marangoz, kenar uzunlukları 6 cm, 10 cm ve x cm olan üçgen biçimli bir şablon çiziyor (x tam sayı). Bu şablonu benzerlik oran… | ✓7
+mat-eb-070 | M.8.3.3.1 | z4 | k0 | Kareli kâğıtta E biçimli K, L, M ve N şekilleri çizilmiştir. Karelerin kenarı 1 birimdir. Aşağıdaki ifadelerden hangisi doğrudur? | ✓K ile L eştir; K ile M benzerdir ama eş deği…
+mat-eb-071 | M.8.3.3.1 | z4 | k0 | K ve L dikdörtgen biçimli iki yazı tahtasıdır ve birbirine benzerdir. K tahtasının kenarları (x + 2) m ve (x + 8) m, L tahtasının… | ✓32
+mat-eb-072 | M.8.3.3.1 | z4 | k0 | Bir belediyenin haritasında yamuk biçimli iki park gösteriliyor (ABCD ~ EFGH). ABCD yamuğunda [AB] // [DC]'dir. m(A) = (3x + 10)°… | ✓70
+mat-eb-073 | M.8.3.3.2 | z4 | k0 | Dik kenarları 5 cm ve 12 cm olan bir dik üçgene benzer, bütün kenar uzunlukları tam sayı santimetre olan ve hipotenüsü 50 cm'den … | ✓90
+mat-eb-074 | M.8.3.3.1 | z4 | k0 | Bir kâğıt uçurtma tasarımında ABC ve DEF üçgenleri benzer çizilmiştir (ABC ~ DEF). ABC üçgeninde |AB| = |BC|'dir. DEF üçgeninde y… | ✓62
+mat-eb-075 | M.8.3.3.2 | z4 | k0 | Bir bahçıvan, kenar uzunlukları 6 m, 10 m ve a m olan (a tam sayı) üçgen biçimli bir çiçeklik yapmıştır. Bu çiçekliğe benzer DEF … | ✓45
