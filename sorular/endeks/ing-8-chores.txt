@@ -88,3 +88,213 @@ ing-u8-012 | E8.8.SI1 | z3 | k0 | Furkan's father has a shop. His aunt is asking
 ing-u8-013 | E8.8.R1 | z4 | k0 | The students of 8-B take turns to clean the classroom. This is the duty chart. Which one is NOT true according to the chart? | ✓Mina is responsible for the plants on Wednes…
 ing-u8-014 | E8.8.R1 | z4 | k0 | Read the messages between Berkay and his mother. What must Berkay do to get his pocket money on Friday evening? | ✓He must empty the dishwasher again tomorrow.
 ing-u8-015 | E8.8.R1 | z4 | k0 | Read the table about two siblings. Which one is true according to the table? | ✓Poyraz gets upset when his sister uses his t…
+ing-u8-126 | E8.8.R1 | z1 | k1 | Nilay's bedroom floor is full of toys and clothes. She puts the toys in a box and the clothes in the wardrobe. What is she doing? | ✓tidying up
+ing-u8-127 | E8.8.R1 | z1 | k1 | The dishwasher stopped a few minutes ago. Oliver takes the clean plates out of it and puts them in the cupboard. What is he doing? | ✓emptying the dishwasher
+ing-u8-128 | E8.8.SI1 | z1 | k1 | Yaren: Do you have to wash the dishes every evening? Tarık: - - - - Yaren: You are lucky! Which completes the dialogue? | ✓No, I don't. My brother does them.
+ing-u8-129 | E8.8.SP1 | z1 | k1 | Which sentence uses must to talk about an obligation? | ✓We must keep the park clean.
+ing-u8-130 | E8.8.R1 | z1 | k1 | Read the sign in a school garden. What does the sign ask visitors to do? | ✓to leave the flowers alone
+ing-u8-131 | E8.8.L2 | z1 | k1 | In a short talk about family life, Jack says, "I don't like it when my little brother breaks my toys." What does Jack dislike? | ✓when his brother breaks his toys
+ing-u8-132 | E8.8.SP1 | z1 | k1 | I'm responsible - - - - the plants in our classroom. Which completes the sentence? | ✓for watering
+ing-u8-133 | E8.8.R1 | z1 | k1 | Look at the camp duty list. Who tidies up the tent? | ✓Emma
+ing-u8-134 | E8.8.SI2 | z1 | k1 | Teacher: Who is responsible for the fish tank this week? Onur: - - - - Teacher: Good. Please remind her to feed the fish. Which c… | ✓Pelin is responsible for it.
+ing-u8-135 | E8.8.R1 | z1 | k1 | Gizem told her mom, "I will tidy up the garden after school." After school, she tidied up the garden. Gizem - - - - her promise. | ✓kept
+ing-u8-136 | E8.8.R1 | z1 | k1 | Taner holds a hot iron. A white shirt is on the board in front of him. What is he doing? | ✓ironing the shirt
+ing-u8-137 | E8.8.R1 | z1 | k1 | Our teacher says, "We must respect each other." What does she want us to do? | ✓to be kind to each other
+ing-u8-138 | E8.8.SI1 | z1 | k1 | Leyla: Does your brother have to clean the garage? Güney: - - - - Leyla: I see. It is a big job. Which completes the dialogue? | ✓Yes, he does. He cleans it on Sundays.
+ing-u8-139 | E8.8.SP1 | z1 | k1 | Our neighbour is old, so my brother - - - - help her carry the bags. Which completes the sentence? | ✓has to
+ing-u8-140 | E8.8.R1 | z1 | k1 | The film starts at 6.00 p.m. Ryan arrives at the cinema at 6.30 p.m. Which sentence is true? | ✓Ryan is late for the film.
+ing-u8-141 | E8.8.R1 | z1 | k1 | The flowers on the balcony are dry. Taylan fills a can with water and pours it on them. What chore is he doing? | ✓watering the plants
+ing-u8-142 | E8.8.L2 | z1 | k1 | Read the head teacher's short talk. "Good morning, students. I have two requests for you. First, you must arrive on time. Second,… | ✓school rules
+ing-u8-143 | E8.8.SP1 | z1 | k1 | Which sentence is correct? | ✓Hakan is in charge of taking out the garbage.
+ing-u8-144 | E8.8.R1 | z1 | k1 | Read the notice in an apartment building. What does the notice ask people to do after 10 p.m.? | ✓to keep quiet
+ing-u8-145 | E8.8.SI1 | z1 | k1 | Pelin: Do you like it when your dad cooks dinner? Mustafa: - - - - Pelin: Mine too! Mine makes great soup. Which completes the di… | ✓Yes, I do. His soup is delicious.
+ing-u8-146 | E8.8.R1 | z1 | k1 | Look at Su's pet care chart. What does Su do on Thursday? | ✓She cleans the tank.
+ing-u8-147 | E8.8.W1 | z1 | k1 | Ada is writing about her evening routine. Her sentences are not in order. (1) Then I set the table. (2) First, I come home from s… | ✓2 - 1 - 3
+ing-u8-148 | E8.8.R1 | z1 | k1 | Read Ipek's note to her friend. "Dear Mia, I can't come to the park today. I must finish my homework and tidy up my room first. C… | ✓She has things to do at home.
+ing-u8-149 | E8.8.SI2 | z1 | k1 | Which question asks about responsibility? | ✓Who is in charge of the garden?
+ing-u8-150 | E8.8.R1 | z2 | k1 | The school basketball team shares some jobs before every match. Look at the table. Who is responsible for washing the shirts for … | ✓Cansu
+ing-u8-151 | E8.8.SI1 | z2 | k1 | Onur: Do you have to go to the dentist tomorrow? Su: - - - - Onur: Then you can play football with us. Which completes the dialog… | ✓No, I don't. It is on Friday.
+ing-u8-152 | E8.8.R1 | z2 | k1 | Read the blog post. "In summer, my sister and I stay at Grandma's house in the village. I water the garden every morning. My sist… | ✓collect the eggs
+ing-u8-153 | E8.8.L2 | z2 | k1 | Read a part of a radio talk. "Hello, listeners. Today Mr. Sezer talks about children and housework. 'Children don't have to do ev… | ✓Children must help at home.
+ing-u8-154 | E8.8.L2 | z2 | k1 | Ayşe's mom says, "You don't have to tidy up your room today. You can do it tomorrow." What does this mean? | ✓Ayşe can tidy up her room later.
+ing-u8-155 | E8.8.R1 | z2 | k1 | Read the coach's message. "Hi team, tomorrow's match is at 10.00 a.m. Please arrive on time, bring your own water and don't forge… | ✓tidy up the gym
+ing-u8-156 | E8.8.SI2 | z2 | k1 | Neighbour: Who is in charge of taking out the trash in your building? Dilara: - - - - Neighbour: Thanks. I will ask him. Which co… | ✓Mr. Salih is in charge of it.
+ing-u8-157 | E8.8.R1 | z2 | k1 | Read the table about a family. Who gets upset when someone is late for dinner? | ✓Mom
+ing-u8-158 | E8.8.W1 | z2 | k1 | Noah is writing a paragraph about his family. "In my family, everybody has a chore. Dad is in charge of washing the car. Mom is r… | ✓In this way, we share the housework.
+ing-u8-159 | E8.8.R1 | z2 | k1 | Read the pool rules. What must you do near the baby pool? | ✓Keep quiet.
+ing-u8-160 | E8.8.SI1 | z2 | k1 | Grandma: Don't forget to feed the cat before you leave, Tuğçe. Tuğçe: - - - - Grandma: Good girl. Have a nice day. Which complete… | ✓Don't worry, Grandma. I will do it.
+ing-u8-161 | E8.8.R1 | z2 | k1 | Read part of an e-mail. "Hi Ben, thanks for your message. In my house, Mom is in charge of cooking and Dad is responsible for the… | ✓the writer's brother
+ing-u8-162 | E8.8.SP1 | z2 | k1 | Your friend invites you to the cinema, but you must look after your little brother. What do you say? | ✓I'd love to, but I must look after my brothe…
+ing-u8-163 | E8.8.R1 | z2 | k1 | Read Ceren's note to her dad. "Dad, I couldn't wash the dishes because I had a lot of homework. I'll do them tomorrow morning. Pl… | ✓to wash the dishes in the morning
+ing-u8-164 | E8.8.SI2 | z2 | k1 | Sue: Don't you think it is necessary to obey the school rules? Barış: - - - - Sue: Good point. Which completes the dialogue? | ✓Yes, I do. Rules keep us safe.
+ing-u8-165 | E8.8.R1 | z2 | k1 | Look at the chart. Who spends the most time on chores each day? | ✓Sude
+ing-u8-166 | E8.8.SI1 | z2 | k1 | Mom: Güney, it is time to do the laundry. Güney: - - - - Mom: Thanks. Put your socks in the machine too. Which completes the dial… | ✓OK, Mom. I'll bring my clothes.
+ing-u8-167 | E8.8.R1 | z2 | k1 | Read Ozan's message to his cousin. "Hi Gizem, the party was great! I was in charge of the cake and I like it when everybody enjoy… | ✓when the kitchen is a mess
+ing-u8-168 | E8.8.R1 | z2 | k1 | Read Aunt Hülya's note. "Dear Naz, I've gone to the market. Please water the flowers on the balcony first. The soup is on the sto… | ✓turn off the soup
+ing-u8-169 | E8.8.SP1 | z2 | k1 | I don't like it when my brother - - - - my room without asking. Which completes the sentence? | ✓enters
+ing-u8-170 | E8.8.R1 | z2 | k1 | Read the schedule for Park Clean-up Day. Which sentence is true? | ✓Group B starts after Group A.
+ing-u8-171 | E8.8.L2 | z2 | k1 | Read the part of a podcast. "Today's question is: Who has the most chores in your family? Ela says her brother has the most. He m… | ✓Four
+ing-u8-172 | E8.8.W1 | z2 | k1 | Read the paragraph. "I like cooking. I'm responsible for dinner on Sundays. - - - - I don't like it when I must wash the dishes a… | ✓But
+ing-u8-173 | E8.8.R1 | z2 | k1 | Read the advertisement. Which one is a requirement for the job? | ✓to like animals
+ing-u8-174 | E8.8.SI2 | z2 | k1 | Coach: Who can be responsible for bringing the balls to the match? Kuzey: - - - - Coach: Thank you, Kuzey. Please bring them by n… | ✓I can. I'll be in charge of them.
+ing-u8-175 | E8.8.R1 | z2 | k1 | Read the note on the neighbour's door. "Dear Mr. Aksoy, we are going on holiday for a week. Could you please water our plants eve… | ✓Ege
+ing-u8-226 | E8.8.R1 | z2 | k2 | Sinem's white blouse is clean. Before the school photo, her mother moves a hot iron over it. What is her mother doing? | ✓ironing the blouse
+ing-u8-227 | E8.8.SI1 | z2 | k2 | Tolga: Do you have to look after your little brother after school, Asya? Asya: - - - - Tolga: I see. So you can't come to the par… | ✓Yes, I do. I have to pick him up at four.
+ing-u8-228 | E8.8.SP1 | z2 | k2 | Mia: - - - - your brother have to make his bed every morning? Emir: Yes. Mom checks it before school. Which completes Mia's quest… | ✓Does
+ing-u8-229 | E8.8.SI2 | z2 | k2 | Teacher: Who is responsible for watering the plants this week? Leyla: - - - - Teacher: Good. Please do not forget the plant near … | ✓I am. I will water them after lunch.
+ing-u8-230 | E8.8.R1 | z2 | k2 | Irmak writes her plan for Saturday. What must she do at ten o'clock? | ✓Return the books
+ing-u8-231 | E8.8.R1 | z2 | k2 | Read the camp rules. What must the campers do after ten o'clock in the evening? | ✓Keep quiet in the camp
+ing-u8-232 | E8.8.W1 | z2 | k2 | Pınar leaves a note on the fridge for her brother. Hi Kuzey, I'm at the library. - - - - the dishes before Mom comes home. Thanks… | ✓Don't forget to wash
+ing-u8-233 | E8.8.R1 | z2 | k2 | Emma has a dog called Rex. She is responsible for feeding him twice a day and walking him after school. Her brother Noah only cle… | ✓Noah cleans Rex's bowl once a week.
+ing-u8-234 | E8.8.R1 | z2 | k2 | Oğuz plays in the school chess team. He says, "I like it when my team wins an important match, but I get upset when my sister use… | ✓when his sister takes his computer without a…
+ing-u8-235 | E8.8.SI1 | z2 | k2 | Ravi: Do you have to wear a uniform at your school, Maya? Maya: - - - - Ravi: Lucky you! I wear a uniform and a tie every day. Wh… | ✓No, I don't. We wear our own clothes.
+ing-u8-236 | E8.8.SI2 | z2 | k2 | Aunt: Don't you think it is necessary to tidy up the garden before the guests come, Kuzey? Kuzey: - - - - Aunt: Great. I'll bring… | ✓You are right. Let's start now.
+ing-u8-237 | E8.8.SP1 | z2 | k2 | Our drama club has a leader, Selin. She - - - - the costumes after every rehearsal. Which completes the sentence? | ✓is in charge of collecting
+ing-u8-238 | E8.8.L2 | z2 | k2 | Tara left a voice message for her cousin Leo. This is what she said. "Hi Leo! I can't come to the cinema today. I have to look af… | ✓She has some things she must do.
+ing-u8-239 | E8.8.R1 | z2 | k2 | Look at the chore chart. Sara says, "I fed the cat yesterday, and today I water the plants." What does Liam do today? | ✓He dries the dishes.
+ing-u8-240 | E8.8.SP1 | z2 | k2 | Dilara plays the piano. She gets upset when her brother makes noise during her practice. Which sentence can Dilara say? | ✓I don't like it when my brother makes noise.
+ing-u8-241 | E8.8.R1 | z2 | k2 | Ms. Yeşim sent this e-mail to the music club members. "Hello everybody! Our rehearsal is on Thursday at four o'clock. Please arri… | ✓Put the instruments in the cupboard
+ing-u8-242 | E8.8.SI1 | z2 | k2 | Zoe: What do you like about weekends, Omar? Omar: I like it when my dad cooks breakfast for us. Zoe: - - - - Omar: Nice! Does she… | ✓Me too. I like it when my grandma cooks lunc…
+ing-u8-243 | E8.8.R1 | z2 | k2 | Grandpa has a vegetable garden. Every Saturday I help him. I give the tomatoes some water, he cuts the grass, and Grandma picks t… | ✓waters the tomatoes
+ing-u8-244 | E8.8.R1 | z2 | k2 | Read the table about the Eco Club. Which one is not true? | ✓Duru feeds the fish on Friday.
+ing-u8-245 | E8.8.SI2 | z2 | k2 | Father: It is time to take out the garbage, Tolga. The truck comes at eight. Tolga: - - - - Father: Thanks. And please close the … | ✓Sure. Where is the garbage bag?
+ing-u8-246 | E8.8.R1 | z2 | k2 | Meral's mother left a note. What must Meral do second? | ✓Set the table for four people.
+ing-u8-247 | E8.8.SI1 | z2 | k2 | Jack: Can you help me with my to-do list, Sara? I have to wash the car, buy bread and return a book. Sara: Of course. - - - - Jac… | ✓I can buy bread and return the book.
+ing-u8-248 | E8.8.R1 | z2 | k2 | Our school Book Club has three jobs. Lucy is in charge of choosing the books, Omar is responsible for sending reminders, and Tara… | ✓Omar reminds the members about the meetings.
+ing-u8-249 | E8.8.R1 | z2 | k2 | Aras has long hair. He is ready to swim in the school pool. What must he do? | ✓Wear a swimming cap
+ing-u8-250 | E8.8.SP1 | z2 | k2 | Eda's friend asks her to go cycling, but Eda must help her parents because her grandparents are coming for dinner. What does Eda … | ✓I have to help my parents today.
+ing-u8-251 | E8.8.W1 | z2 | k2 | Sevil is writing in her diary about her feelings. She is not happy because her classmates leave the classroom messy after lunch. … | ✓I don't like it when my classmates leave the…
+ing-u8-252 | E8.8.R1 | z3 | k2 | Read the kitchen duty chart of a summer camp. Which sentence is true? | ✓Group Blue cooks only once.
+ing-u8-253 | E8.8.SI1 | z3 | k2 | Lucy: Dad says we have to clean the garage before the party. Tim: I can sweep the floor, but I don't like it when the dust gets i… | ✓No problem. I'll sweep the floor instead.
+ing-u8-254 | E8.8.SI2 | z3 | k2 | Manager: Who is in charge of feeding the puppies at the shelter today? Ilgaz: Tuğçe was, but she is ill. Manager: - - - - Ilgaz: … | ✓Then who can be in charge of feeding them?
+ing-u8-255 | E8.8.R1 | z3 | k2 | Read the blog post. Last weekend we moved to a new flat. I like it when the whole family works together, and everybody had a job.… | ✓Dad's repeated warning about the box
+ing-u8-256 | E8.8.L2 | z3 | k2 | This is a short part of a podcast. Host: Welcome to Teen Talk! Today's question is: "Do teenagers have to do housework?" Barış fr… | ✓Nilay washes the dishes twice a week.
+ing-u8-257 | E8.8.SP1 | z3 | k2 | My brother is only four. He - - - - tidy up his toys, but I - - - - set the table every evening. Which completes the sentence? | ✓doesn't have to / have to
+ing-u8-258 | E8.8.R1 | z3 | k2 | Read the ad on the school board. Mr. Sezer is 75 years old. He wants the club members to carry his shopping bags and water his pl… | ✓5 TL
+ing-u8-259 | E8.8.R1 | z3 | k2 | Read Tim's message to his grandfather. "Hi Grandpa, I can't call you at five today. Dad is in charge of dinner on Wednesdays, so … | ✓Tim plans to call his grandpa after dinner.
+ing-u8-260 | E8.8.SI1 | z3 | k2 | Pınar: I'm making my to-do list for Sunday. Do you have to do anything special? Mehmet: - - - - Pınar: Then let's meet at the par… | ✓Only my homework. I'll finish it by three.
+ing-u8-261 | E8.8.R1 | z3 | k2 | Twenty students with pets answered the question "Who feeds the pet at home?" Here are the results. Which sentence is true? | ✓In six homes, a brother or sister feeds it, …
+ing-u8-262 | E8.8.SI2 | z3 | k2 | Dilara: Mom says everybody must do the same number of chores, but my sister is only seven. Oğuz: - - - - Dilara: Good idea! I'll … | ✓Don't you think it is necessary to give her …
+ing-u8-263 | E8.8.R1 | z3 | k2 | Read the story. Last Sunday, Ravi promised his mother that he would clean the kitchen after lunch. He started at two, but his fri… | ✓Ravi forgot his promise for an hour.
+ing-u8-264 | E8.8.W1 | z3 | k2 | Hana is writing a short paragraph about her evening job. Her sentences are mixed up. 1. Then I load the dishwasher. 2. In the eve… | ✓2 - 3 - 1 - 4
+ing-u8-265 | E8.8.L2 | z3 | k2 | Read part of an interview. "Mr. Taş, you have three children. What do you like and dislike at home?" "Well, I like it when the ch… | ✓when the children leave their shoes at the d…
+ing-u8-266 | E8.8.R1 | z3 | k2 | Read the letter to a pen friend. Dear Chris, Today was a long day. After school, I helped Grandma in her garden, and then I took … | ✓ironing the clothes
+ing-u8-267 | E8.8.R1 | z3 | k2 | Read the art club's duty roster. Which one is true? | ✓Ece washes the brushes only on Monday.
+ing-u8-268 | E8.8.R1 | z3 | k2 | Four students talk about their chores. Who doesn't have to do a chore? | ✓Gizem
+ing-u8-269 | E8.8.R1 | z3 | k2 | In the Yılmaz family, Dad is in charge of washing the car and Mom is responsible for cooking. Ilgaz and his sister empty the dish… | ✓II and III
+ing-u8-270 | E8.8.R1 | z3 | k2 | Leyla is thirteen. She arrives at the community garden at twelve o'clock, waters her tomatoes, and puts her tools back in the she… | ✓She didn't water at the right time.
+ing-u8-271 | E8.8.R1 | z3 | k2 | Kıvanç likes sports, but he doesn't like cleaning. His father is in charge of the kitchen, and his mother is responsible for the … | ✓He doesn't like it when it smells bad.
+ing-u8-272 | E8.8.R1 | z3 | k2 | Read the table about two families. Which sentence is true for both families? | ✓Everyone tidies up their own bedroom.
+ing-u8-273 | E8.8.R1 | z3 | k2 | Kerem, Nehir and Tuna look after the class hamster from Monday to Wednesday. Each of them is in charge of it for one day. Rüya is… | ✓Tuna
+ing-u8-274 | E8.8.R1 | z3 | k2 | Read the text. Clean-up Day in Our Street. On Saturday, the people in our street met at nine o'clock. Mr. Orhan was in charge of … | ✓Mira helped the children collect trash.
+ing-u8-275 | E8.8.R1 | z3 | k2 | Read the notice for the school canteen volunteers. Every volunteer must wear gloves and arrive ten minutes early. Volunteers don'… | ✓I only
+ing-u8-326 | E8.8.R1 | z3 | k3 | Read the rules on the wall of a youth hostel. Tolga's group left the hostel at 9.45 a.m. They washed their own plates after break… | ✓Keep quiet after 10.00 p.m.
+ing-u8-327 | E8.8.SI1 | z3 | k3 | Pelin and Oğuz are talking after school. Pelin: Does your sister have to wash the dishes every night? Oğuz: - - - - Pelin: Oh, th… | ✓No, she doesn't. My dad washes them on Tuesd…
+ing-u8-328 | E8.8.L2 | z3 | k3 | Irmak's mother left a voice message. This is the text of the message. "Irmak, it's Mom. I'm at the market and Dad is at work unti… | ✓Bring in the laundry and fold it.
+ing-u8-329 | E8.8.R1 | z3 | k3 | Read the text about the children of Apartment 12. Every Saturday morning, the children of Apartment 12 help Mrs. Tan, who has a b… | ✓Rana walks Mrs. Tan's little dog.
+ing-u8-330 | E8.8.SI2 | z3 | k3 | Barış's dog Max stayed inside all day. His mother is talking to him. Mom: It is time to walk Max, Barış. He is waiting at the doo… | ✓OK, Mom. I'll put on my shoes and go now.
+ing-u8-331 | E8.8.SP1 | z3 | k3 | Maria is a guest at our house, so she - - - - help with the dishes. She helps only because she likes it. Which completes the sent… | ✓doesn't have to
+ing-u8-332 | E8.8.R1 | z3 | k3 | Sibel looks after her neighbours' pets while they are away. This is the list they left for her. Sibel arrives at 5.30 p.m. and le… | ✓Feed the cat and take the dog out.
+ing-u8-333 | E8.8.R1 | z3 | k3 | Read Doruk's blog. Hi, I'm Doruk. I live in the city, but I spend every summer on my grandparents' farm. I like it when I collect… | ✓when it rains and he can't work outside
+ing-u8-334 | E8.8.W1 | z3 | k3 | Gizem is writing a note to her roommate Sude. Choose the best sentence for the gap. Dear Sude, I am in charge of the kitchen this… | ✓Could you wash the dishes for me tonight?
+ing-u8-335 | E8.8.SI1 | z3 | k3 | Eda has a lot to do this evening. Her friend Tarık sees her. Eda: I have a lot of homework, and I must also fold all these clothe… | ✓Don't worry. I can fold them for you.
+ing-u8-336 | E8.8.R1 | z3 | k3 | The Green Club at school shares its jobs in the table below. Umut can't come to school on Wednesday. Which job needs a new person? | ✓watering the school garden
+ing-u8-337 | E8.8.SP1 | z3 | k3 | In our football team, Cüneyt is in charge - - - - bringing the balls and Alp is responsible - - - - cleaning the dressing room. W… | ✓of / for
+ing-u8-338 | E8.8.R1 | z3 | k3 | Read about Daniel's visit to the library. I took my cousin Daniel, who is visiting from Germany, to the new town library. At the … | ✓Daniel has to return the books by 25 March.
+ing-u8-339 | E8.8.SI2 | z3 | k3 | A teacher is checking the class library. Teacher: Don't you think it is necessary to put the books in order every Friday? Student… | ✓Yes, I do. I can do it after school on Frida…
+ing-u8-340 | E8.8.R1 | z3 | k3 | Read the text. The Doğan family is moving to a new flat next week. Dad is responsible for loading the boxes into the van. Mom is … | ✓Poyraz doesn't have to carry anything.
+ing-u8-341 | E8.8.R1 | z3 | k3 | Sophie is staying with a Turkish family for two weeks. These are the notes on the fridge. Sophie finds Barış's headphones on the … | ✓Ask Barış before she uses them.
+ing-u8-342 | E8.8.SI1 | z3 | k3 | Rana is inviting Taner to the park. Rana: Do you have to be home before dark, Taner? Taner: - - - - Rana: I see. So you can't joi… | ✓Yes, I do. Dad says I must be home by seven.
+ing-u8-343 | E8.8.R1 | z3 | k3 | Read the text about the plant corner in class 8-D. Our classroom has a plant corner. On Mondays, Gülşen waters the plants. On Wed… | ✓Each student must buy plant food.
+ing-u8-344 | E8.8.R1 | z3 | k3 | Read the notice at the entrance of Building 5. Four neighbours did these things yesterday. Who broke a rule? | ✓Mr. Pala left a box on the stairs for an hou…
+ing-u8-345 | E8.8.SP1 | z3 | k3 | Sevil's little brother plays the drums at midnight. She - - - - he does that, so she asks him to stop. Which completes the senten… | ✓doesn't like it when
+ing-u8-346 | E8.8.R1 | z3 | k3 | Read Kübra's message to her brother Alp. "Alp, Mom and Dad are at the wedding until late on Saturday, so we are home alone. I mus… | ✓Kübra will load the dishwasher tonight.
+ing-u8-347 | E8.8.W1 | z3 | k3 | Tess is writing a short paragraph about her mornings. The sentences are mixed up. (1) First, I make my bed. (2) Every morning I g… | ✓2 – 1 – 4 – 3
+ing-u8-348 | E8.8.SI2 | z3 | k3 | A coach is checking the equipment before the bus leaves. Coach: Volkan, it is time to put the equipment in the bus. Volkan: - - -… | ✓OK, Coach. I'll carry the cones and the ball…
+ing-u8-349 | E8.8.R1 | z3 | k3 | Fatma, Grandpa and Sarp work on their grandparents' farm every morning. This is their morning plan. Which sentence is true? | ✓Fatma does the first and the last job.
+ing-u8-350 | E8.8.L2 | z3 | k3 | This is the text of an announcement at a summer school. "Good morning, students. There are some changes today. The cleaning team … | ✓The dining hall group has to come earlier th…
+ing-u8-351 | E8.8.R1 | z3 | k3 | Read about the Karakaya family's dishes rule. In the Karakaya family, the person who cooks dinner doesn't have to wash the dishes… | ✓Dad
+ing-u8-352 | E8.8.SI1 | z3 | k3 | Zeki is asking Pınar about her afternoons. Zeki: What do you do after school, Pınar? Pınar: - - - - Zeki: Wow, you are very busy!… | ✓I have to look after my brother and do the l…
+ing-u8-353 | E8.8.W1 | z3 | k3 | Naz is writing an e-mail to her pen friend Liam. Choose the best sentence for the gap. Hi Liam, Thanks for your e-mail. In my fam… | ✓My sister is four, so she doesn't have to do…
+ing-u8-354 | E8.8.SI2 | z3 | k3 | Two friends are talking about the housework at home. Hilal: Don't you think it is necessary to share the chores in our house? Yiğ… | ✓Yes, I think so. We all must help at home.
+ing-u8-355 | E8.8.R1 | z3 | k3 | Read the story. Oya promised to water her grandmother's flowers on the balcony for a week. On the third day it rained, so Oya tho… | ✓She stopped watering them without checking.
+ing-u8-356 | E8.8.R1 | z4 | k3 | Nil and Onur have these chores from Monday to Wednesday. Onur sends Nil a message: "I have a basketball match on Tuesday evening.… | ✓On Tuesday, Nil does both chores.
+ing-u8-357 | E8.8.R1 | z4 | k3 | Read the house rules and Sophie's message to her mother. Sophie's message: "Hi Mom! Yesterday I helped set the table. I didn't kn… | ✓Mr. Güler was angry about the phone.
+ing-u8-358 | E8.8.SI1 | z4 | k3 | The sentences of a dialogue between two friends are mixed up. (1) Yes, I do. I have to feed the fish and set the table. (2) Four?… | ✓3 – 1 – 4 – 2
+ing-u8-359 | E8.8.R1 | z4 | k3 | The school garden club shares three jobs on Monday, Wednesday and Friday. Irmak has an exam on Wednesday, so she doesn't have to … | ✓On Wednesday, Barış waters the plants and cl…
+ing-u8-360 | E8.8.R1 | z4 | k3 | Read the rules on the wall of a school dormitory. Last Sunday, Ece didn't make her bed in the morning. She came back to the dormi… | ✓Ece broke the kitchen rule, but not the bed …
+ing-u8-361 | E8.8.SI2 | z4 | k3 | A teacher is interviewing Hakan about the chores in his house. The table shows who does what. Teacher: Who is in charge of the sh… | ✓My dad is. He is in charge of shopping.
+ing-u8-362 | E8.8.R1 | z4 | k3 | Three groups of four students share the kitchen work on a three-day school trip. Every day, one group cooks, one group sets the t… | ✓It is Day 2, and Group C is cooking.
+ing-u8-363 | E8.8.R1 | z4 | k3 | The students of 8-A take turns to help in the school cafeteria. This is their duty table. Which sentence does not match the table? | ✓Mira doesn't have to work on Friday.
+ing-u8-364 | E8.8.L2 | z4 | k3 | This is the text of Mom's voice message to Hakan and Nil. "Hi, kids, it's Mom. There is a change of plans. Aunt Sevil is coming a… | ✓Nil doesn't have to clean the balcony.
+ing-u8-365 | E8.8.R1 | z4 | k3 | Read Zehra's diary. Saturday. Our cousins stayed with us this weekend. Mom is responsible for cooking, so she cooked a big pot of… | ✓The cousins stayed for two weeks.
+ing-u8-366 | E8.8.SP1 | z4 | k3 | At the pool, you - - - - run near the water because it is dangerous, but swimmers with short hair - - - - wear a swimming cap. Wh… | ✓mustn't / don't have to
+ing-u8-367 | E8.8.R1 | z4 | k3 | Three students volunteer at an animal shelter on Saturday. They must share the three jobs in the table. Nora: "I must leave at 11… | ✓Pınar walks the dogs, Nora cleans the cages,…
+ing-u8-368 | E8.8.R1 | z4 | k3 | Rüya wrote a diary about the care of the family rabbits. Read the chart and the diary. Rüya's diary: "Every Saturday I clean the … | ✓Dad buys their food on Fridays.
+ing-u8-369 | E8.8.SI1 | z4 | k3 | Asya is asking her friend Doruk about the chores in his room. This is Doruk's chart. Asya: Do you have to make the beds every day… | ✓No, I don't. I make them on Tuesdays and Thu…
+ing-u8-370 | E8.8.R1 | z4 | k3 | Read the rules of the school cooking club. Four members were in the kitchen yesterday. Who broke a rule? | ✓Gökçe cut carrots with a knife while the tea…
+ing-u8-371 | E8.8.R1 | z4 | k3 | Read about the Dinç family. In the Dinç family, Kuzey is two years older than Sude, and Sude is three years older than Tuna. The … | ✓Sude takes out the garbage.
+ing-u8-372 | E8.8.SI2 | z4 | k3 | Dad is checking the weekend chart with Nur. Dad: Who is responsible for the plants tomorrow? It is Sunday. Nur: - - - - Dad: OK. … | ✓I am. I'm responsible for watering them.
+ing-u8-373 | E8.8.R1 | z4 | k3 | Read the poster of the neighbourhood garden. Four people were in the garden yesterday. Who obeyed all the rules? | ✓Emir, 13, watered his tomatoes at 6.30 p.m. …
+ing-u8-374 | E8.8.R1 | z4 | k3 | Alara's mother left this to-do list on the fridge. Dinner is at 7.00 p.m. tonight, and every chore must be finished by the time i… | ✓Dad can start cooking at 6.30 p.m.
+ing-u8-375 | E8.8.R1 | z4 | k3 | Ceyhan's mother leaves him a message. Then Ceyhan tells his friend what the message says. Mom's message: "Ceyhan, you don't have … | ✓I don't have to cook, I have to buy bread, a…
+ing-u8-016 | E8.8.R1 | z1 | k0 | Nil holds a hose and pours water on the tomatoes and the flowers in the garden. Which chore is she doing? | ✓She is watering the plants.
+ing-u8-017 | E8.8.SI1 | z1 | k0 | Tarık and Pelin are talking. Tarık: Do you have to take out the garbage at home? Pelin: - - - - It is my job every evening. Which… | ✓Yes, I do. I must take it out.
+ing-u8-018 | E8.8.R1 | z1 | k0 | Gizem finds a note from her mom on the fridge: "Gizem, please feed the cat before school. Thanks!" What must Gizem do? | ✓She must feed the cat.
+ing-u8-019 | E8.8.SP1 | z1 | k0 | Hakan wants to say that he feels happy when his grandmother tells stories at night. Which sentence can he say? | ✓I like it when my grandmother tells stories.
+ing-u8-020 | E8.8.R1 | z1 | k0 | Read the notice in a museum: "Please keep quiet. Don't touch the pictures." What must visitors do? | ✓They must keep quiet in the rooms.
+ing-u8-021 | E8.8.L2 | z1 | k0 | You hear a girl say to her brother: "I don't like it when you leave your socks on the floor." What does the girl dislike? | ✓Her brother leaves his socks on the floor.
+ing-u8-022 | E8.8.R1 | z1 | k0 | Ela sprays some liquid on the big glass doors of the balcony and wipes them with a cloth. What is she doing? | ✓She is cleaning the windows.
+ing-u8-023 | E8.8.SI1 | z1 | k0 | Leyla and Umut are talking about the family dog. Leyla: Who is in charge of the dog? Umut: - - - - Which completes the dialogue? | ✓My father is in charge of it.
+ing-u8-024 | E8.8.SP1 | z1 | k0 | Your teacher asks, "Do you have to help at home?" You set the table every evening. Which answer can you give? | ✓Yes, I do. I must set the table.
+ing-u8-025 | E8.8.R1 | z1 | k0 | A notice on a school bus says: "Arrive on time. Wear your seat belt." Which rule is on the notice? | ✓Be at the bus stop on time.
+ing-u8-026 | E8.8.SI2 | z1 | k0 | Mom is asking about the chores this week. Mom: What are you responsible for this week, Naz? Naz: - - - - Mom: Thanks. That is a b… | ✓I'm responsible for setting the table.
+ing-u8-027 | E8.8.R1 | z1 | k0 | Sude promised to call her grandmother every Sunday. But she never calls her. Sude - - - - her promise. | ✓breaks
+ing-u8-028 | E8.8.R1 | z2 | k0 | Read the camp duty list. Which sentence is true? | ✓Ozan washes up on Wednesday.
+ing-u8-029 | E8.8.SI1 | z2 | k0 | Doruk and Vera are talking about Vera's sister. Doruk: Does your sister have to wash the dishes every day? Vera: - - - - Doruk: I… | ✓No, she doesn't. She does it twice a week.
+ing-u8-030 | E8.8.SI2 | z2 | k0 | Emir plays in a school football team. The coach is talking to him before the match. Coach: Who is in charge of the water bottles … | ✓I am, Coach. I'll fill them now.
+ing-u8-031 | E8.8.R1 | z2 | k0 | Read Kübra's blog. I live with my grandparents. Grandma is in charge of the shopping and I walk the dog every day. Grandpa cooks … | ✓Grandma is responsible for the shopping.
+ing-u8-032 | E8.8.R1 | z2 | k0 | Read Suna's message to her brother. Mehmet, I can't take out the garbage tonight because I have a piano lesson. Can you do it? I'… | ✓To wash the dishes tomorrow.
+ing-u8-033 | E8.8.SP1 | z2 | k0 | Your friend asks what you dislike about housework. You don't like it when your brother leaves dirty plates in the sink. Which sen… | ✓I don't like it when my brother leaves dirty…
+ing-u8-034 | E8.8.R1 | z2 | k0 | The table shows who looks after the pet rabbit. Who does both rabbit chores on the same day, and on which day? | ✓Onur on Sunday
+ing-u8-035 | E8.8.L2 | z2 | k0 | You hear Dilara say: "I must finish my homework before dinner, so I can't set the table. My brother has to do it today." What doe… | ✓Set the table.
+ing-u8-036 | E8.8.R1 | z2 | k0 | Read the librarian's e-mail to the volunteers. Dear volunteers, On Monday, please return the books to the shelves. On Tuesday, ti… | ✓Write a list of new books.
+ing-u8-037 | E8.8.SI2 | z2 | k0 | Mom and Pınar are looking at Pınar's room. Mom: Don't you think it is necessary to tidy up your room, Pınar? It looks messy. Pına… | ✓You're right, Mom. I'll tidy it up now.
+ing-u8-038 | E8.8.R1 | z2 | k0 | Bora and Sofia help their neighbour, Mrs. Aydın. This is their list. Which one is true? | ✓Sofia reads to Mrs. Aydın on Saturdays.
+ing-u8-039 | E8.8.SP1 | z2 | k0 | Your mom says you must be at home by 8 p.m. A friend invites you to the cinema at 9 p.m. What can you say? | ✓I can't come. I must be at home by eight.
+ing-u8-040 | E8.8.R1 | z2 | k0 | Read Grandma's list for Saturday at her village house. 8.00 – Feed the chickens 9.00 – Collect the eggs 10.00 – Water the garden … | ✓Water the garden.
+ing-u8-041 | E8.8.SI1 | z2 | k0 | Cansu is asking Arda about his little brother. Cansu: Does your brother have to tidy up his room? Arda: - - - - Cansu: Oh, I see.… | ✓No, he doesn't. I tidy it up for him.
+ing-u8-042 | E8.8.W1 | z2 | k0 | Read the paragraph and choose the best sentence for the blank. Chores are not always fun, but they are important. I tidy up my ro… | ✓I'm also responsible for taking out the garb…
+ing-u8-043 | E8.8.R1 | z2 | k0 | These are the rules in Jack's house. 1. Take off your shoes at the door. 2. Put your phone in the basket at dinner. 3. Knock befo… | ✓Jack opens his sister's diary and reads it.
+ing-u8-044 | E8.8.R1 | z2 | k0 | Read Emma's e-mail to her pen friend. Hi Liam, In my house we share the work. My dad is in charge of cooking, and my mum is respo… | ✓Emma's brother doesn't have to do chores.
+ing-u8-045 | E8.8.SI2 | z2 | k0 | Dad is checking the chores for this week. Dad: Who is responsible for the laundry this week, Toprak? Toprak: - - - - Dad: Good. T… | ✓I am, Dad. I'll do the laundry now.
+ing-u8-046 | E8.8.R1 | z2 | k0 | Mia and Ben wrote what they like and don't like. Read the table. Which sentence is true? | ✓Ben likes it when his mom plays chess with h…
+ing-u8-047 | E8.8.R1 | z2 | k0 | Read the notice of the school drama club. Drama Club – this week Yaren is in charge of the costumes. Kaya is responsible for the … | ✓Arrive on time.
+ing-u8-048 | E8.8.R1 | z3 | k0 | Read the table about the helpers in the school gym. Which sentence is true? | ✓Hugo tidies up the room on Tuesday and clean…
+ing-u8-049 | E8.8.SI1 | z3 | k0 | Selma and Yusuf are talking about Selma's chores. Yusuf: Do you and your sister have to wash the dishes every day? Selma: No, we … | ✓My sister has to wash them.
+ing-u8-050 | E8.8.R1 | z3 | k0 | Read the blog post. Last summer we got a puppy. At first, everybody wanted to look after him, but after two weeks nobody did. The… | ✓Cleaning the puppy's bed.
+ing-u8-051 | E8.8.R1 | z3 | k0 | Read the notice at the community garden. Volunteers must wear gloves. Children under 10 don't have to carry water, but they must … | ✓Only II
+ing-u8-052 | E8.8.SI2 | z3 | k0 | The coach is talking to Rüzgar before training. Coach: Rüzgar, you are in charge of the cones, but they are still in the bag. Rüz… | ✓I'm sorry, Coach. I'll put them out right no…
+ing-u8-053 | E8.8.SP1 | z3 | k0 | Zehra's mother says she can watch TV only after she finishes her homework and tidies up her room. Her friend calls and asks, "Can… | ✓Not yet. I have to finish my homework and ti…
+ing-u8-054 | E8.8.R1 | z3 | k0 | The chart shows how many chores four cousins did last month. They get 2 TL pocket money for each chore. Which sentence is true? | ✓Bahar earns 6 TL more than Lina.
+ing-u8-055 | E8.8.R1 | z3 | k0 | Read the rules of the apartment where Yağız lives. 1. Keep quiet after 10 p.m. 2. Take out the garbage before 8 a.m. 3. Don't lea… | ✓He wants to take out the garbage at 7.30 a.m.
+ing-u8-056 | E8.8.W1 | z3 | k0 | Read the story. Last night Sinem went to the kitchen for a glass of water. She saw that the dishwasher was full of clean plates. … | ✓She emptied it quietly and went to bed.
+ing-u8-057 | E8.8.R1 | z3 | k0 | Read Mom's message. Kids, I'm going to work. Tolga, you have a football match tonight, so you don't have to cook. Duru, you must … | ✓I and III
+ing-u8-058 | E8.8.SI1 | z3 | k0 | Read the class duty table and the dialogue. Teacher: Doruk, today is Tuesday. Is it your turn to clean the board? Doruk: - - - - … | ✓Yes, it is. I'm in charge of the board today.
+ing-u8-059 | E8.8.SI2 | z3 | k0 | Two students are on the school radio. Presenter: Today our guest is Leyla from the recycling team. Leyla, what are you in charge … | ✓I'm in charge of emptying the paper bins.
+ing-u8-060 | E8.8.R1 | z3 | k0 | Read Orhan's letter to a magazine. In my family, I have to clean the bathroom, iron the shirts and walk the dog. My sister is the… | ✓He does more chores than his sister but gets…
+ing-u8-061 | E8.8.R1 | z3 | k0 | Read the information about the school canteen. On Fridays, eight students run the canteen in two groups. Group 1 must arrive at 9… | ✓Both groups must wear aprons.
+ing-u8-062 | E8.8.L1 | z3 | k0 | You hear a short talk. "Hello, everyone. I'd like to tell you about the chores in my family. My mum is in charge of cooking, my d… | ✓Everybody in the family has a job at home.
+ing-u8-063 | E8.8.R1 | z3 | k0 | The poster in Class 8-F says: "A desk wins the prize only if it has three 'Yes' answers." The table shows the results. Which one … | ✓Ege's desk is the only desk that wins the pr…
+ing-u8-064 | E8.8.R1 | z4 | k0 | Read the family chore chart. Which one is NOT true according to the chart? | ✓Dad cooks on three days and does the dishes …
+ing-u8-065 | E8.8.R1 | z4 | k0 | Kübra and Kemal share the chores. This is their chart. Then Kemal sends Kübra a message, and Kübra agrees. Kemal: I have a chess … | ✓Monday: dishes; Tuesday: dishes and garbage
+ing-u8-066 | E8.8.R1 | z4 | k0 | Read Mia's e-mail from her cousin. Hi Mia, My aunt is staying with us this week, so our chores have changed. Dad has to cook for … | ✓II and III
+ing-u8-067 | E8.8.SI2 | z4 | k0 | Ayşe sees that Onur is angry. Ayşe: Why are you angry, Onur? Onur: I must cook dinner, wash the dishes and take out the garbage, … | ✓Don't you think it is necessary to share the…
+ing-u8-068 | E8.8.L2 | z4 | k0 | You hear a radio programme. "I asked three students about chores. Alp said he likes it when the whole family cooks together, but … | ✓Nisa dislikes dishes in the sink but enjoys …
+ing-u8-069 | E8.8.R1 | z4 | k0 | Read the rules of the school garden club. 1. Arrive on time (3.30). 2. Every member is responsible for one job. 3. A member who m… | ✓Gökhan can't join the trip, but Lale and Pın…
+ing-u8-070 | E8.8.R1 | z4 | k0 | Three cousins share three chores: cooking, setting the table and washing the dishes. Each cousin does one chore. Nobody does a ch… | ✓Lale cooks and Gökçe sets the table.
+ing-u8-071 | E8.8.R1 | z4 | k0 | Read the volunteer sheet of Paws Animal Shelter. Mornings: Volunteers feed the dogs at 8.00 and clean the cages at 9.00. Afternoo… | ✓She can walk the dogs at 2.00 with an adult.
+ing-u8-072 | E8.8.W1 | z4 | k0 | Read the paragraph. (1) Our class has a duty list for the bulletin board. (2) Deniz writes the weekly news on it every Monday. (3… | ✓Sentence 4
+ing-u8-073 | E8.8.R1 | z4 | k0 | Read two forum messages about chores. Writer 1: I think kids must do chores, even on school days. It teaches responsibility. I'm … | ✓Only Writer 2 thinks kids don't have to do s…
+ing-u8-074 | E8.8.SI2 | z4 | k0 | Dad is talking to a neighbour before the holiday. Dad: Mr. Kılıç, we are going to Antalya next week. Could you look after our cat… | ✓You're in charge of feeding him and cleaning…
+ing-u8-075 | E8.8.L3 | z4 | k0 | You hear a short talk on the school radio. "Welcome to our school radio. I planned to begin with the canteen, but the library new… | ✓library – canteen – gym

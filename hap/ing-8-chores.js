@@ -27,12 +27,14 @@ window.LGS_HAP["ing-8-chores"] = {
         "**have to** = \"-mek zorunda olmak\". I, you, we, they ile **have to**; he, she, it ile **has to** kullanılır. Arkasından yine yalın fiil gelir.",
         "Soru ve olumsuz: **Do you have to ...?** / **Does he have to ...?**; olumsuz **don't have to / doesn't have to** (zorunda değil, gerekmiyor).",
         "Kısa cevaplar: **Yes, I do. / No, I don't.** (he, she için **Yes, he does. / No, she doesn't.**). Ardından çoğu zaman **görevi söylersin**: **Yes, I do. I must set the table.** Sadece \"Yes\" demek ya da konuyla ilgisiz bir şey söylemek diyaloğu tamamlamaz.",
-        "Saygı ve kurallarla ilgili kalıp: **We must respect the elderly / each other.** (Yaşlılara / birbirimize saygı göstermeliyiz.)"
+        "Saygı ve kurallarla ilgili kalıp: **We must respect the elderly / each other.** (Yaşlılara / birbirimize saygı göstermeliyiz.)",
+        "**mustn't** = \"-memeli, yasak\" (**must not**'ın kısası). **You mustn't swim in the lake.** (Gölde yüzmen yasak.) **Don't forget to ...** gibi, **mustn't forget to ...** da \"... unutmamalısın\" demektir."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Kalıp</th><th>Örnek cümle</th><th>Türkçesi</th></tr><tr><td><strong>must + yalın fiil</strong></td><td>You must wear a helmet.</td><td>Kask takmalısın.</td></tr><tr><td><strong>have to / has to</strong></td><td>My cousin has to get up early.</td><td>Kuzenim erken kalkmak zorunda.</td></tr><tr><td><strong>Do / Does ... have to?</strong></td><td>Does she have to wash the car?</td><td>Arabayı yıkamak zorunda mı?</td></tr><tr><td><strong>don't / doesn't have to</strong></td><td>You don't have to come early.</td><td>Erken gelmek zorunda değilsin (gerekmez).</td></tr></table>",
       dikkat: [
         "**\"must to\" yoktur.** Doğrusu **I must go**, yanlışı \"I must to go\". Kuralı: must'tan sonra **to yok**, has to / have to'da **to var**.",
         "**have to / has to seçimi özneye bağlıdır.** Özne **he, she, it** ya da tek kişiyse (my uncle, our teacher) **has to**; I, you, we, they ise **have to** olur.",
+        "**mustn't ile don't have to aynı değildir.** **You mustn't enter** = girmen yasak; **You don't have to enter** = girmek zorunda değilsin, istersen girebilirsin. \"Serbest, gerekmez\" ipucu varsa **don't have to**, \"yasak, tehlikeli\" ipucu varsa **mustn't** seç.",
         "**Olumsuzda anlam değişir:** **don't have to** \"gerekmez, zorunda değilsin\" demektir. Cümlede \"küçük olduğu için serbest, mecbur değil\" gibi bir ipucu görürsen **don't / doesn't have to** ararsın; özne he, she ise **doesn't**, I, you, we, they ise **don't** olur."
       ]
     },
@@ -88,6 +90,8 @@ window.LGS_HAP["ing-8-chores"] = {
         "İsteğe cevap: **OK. I will do it now. / I'll do it now.** (Tamam, şimdi yaparım.) **You are right.** (Haklısın.) **I'm sorry.** (Özür dilerim.) **Don't worry.** (Merak etme.) Cevabı seçerken **sonraki satırdaki** tepkiye bak (Thanks, Great, Good).",
         "**Please + yalın fiil** (Lütfen ...), **Don't forget to + yalın fiil** (... unutma), **I can + yalın fiil** (yapabilirim, yardım teklifi). **Don't forget to lock the door.**",
         "Zaman ve sıra sözcükleri: **first** (önce), **then** (sonra), **after dinner** (yemekten sonra), **before dinner** (yemekten önce), **every day except Sunday** (pazar dışında her gün). Geçmiş zamanlı cümle (**did, emptied**) işin bittiğini, **I'll ...** ise sonra yapılacağını gösterir.",
+        "Rica ve katılma: **Could you ... for me?** (Benim için ... yapar mısın?) nazik bir rica kalıbıdır; **in return** (karşılığında), **in your place** (senin yerine) mesajlarda geçer. Karşındakine katılırken olumlu cümleye **Me too.** (Ben de.), olumsuz cümleye **Me neither.** (Ben de değil.) dersin.",
+        "Bağlaçlar: **but** (ama), **so** (bu yüzden), **because** (çünkü), **then** (sonra). Zaman ayrımı için **on weekdays** (hafta içi), **at the weekend** (hafta sonu).",
         "Sayı ve çoğunluk: **twice** (iki kez), **twice as many as** (iki katı kadar), **most of the students** (öğrencilerin çoğu, yarıdan fazlası), **the same number** (aynı sayı). Tablodan sayıları topla, karşılaştır, sonra cümleyi seç."
       ],
       dikkat: [
