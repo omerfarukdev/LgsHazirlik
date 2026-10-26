@@ -88,3 +88,213 @@ fen-yc-012 | F.8.7.2.2 | z3 | k0 | Topraklamanın bazı uygulamaları ve amaçla
 fen-yc-013 | F.8.7.2.2 | z4 | k0 | Özdeş iletken K ve L kürelerinden K'de 3 tane + ve 9 tane −, L'de 9 tane + ve 3 tane − sembol vardır. İki küre iletken telle birb… | ✓Yük alışverişi olmaz; çünkü küreler zaten nö…
 fen-yc-014 | F.8.7.2.2 | z4 | k0 | Bir gaz dolum tesisinde tüpler doldurulurken sürtünmeyle yük birikebilir. Güvenlik sorumlusu uygulanan önlemlerle ilgili şu yargı… | ✓I ve III
 fen-yc-015 | F.8.7.2.1 | z4 | k0 | Özdeş iletken K, L ve M kürelerinin pozitif (+) ve negatif (−) yük sembollerinin sayısı tabloda verilmiştir. Küreler ikişer ikişe… | ✓L ve M
+fen-yc-126 | F.8.7.2.1 | z1 | k1 | Nötr bir yün kumaş, plastik bir çubuğa sürtüldükten sonra 4 elektron kaybediyor. Kumaşın son durumu için aşağıdakilerden hangisi … | ✓Elektronu protonundan az olan pozitif bir ci…
+fen-yc-127 | F.8.7.2.1 | z1 | k1 | Üzerinde 9 tane + ve 9 tane − yük sembolü bulunan bir cisim için aşağıdakilerden hangisi söylenebilir? | ✓Nötrdür; çünkü pozitif ve negatif yükler ayn…
+fen-yc-128 | F.8.7.2.2 | z1 | k1 | Bir caminin minaresine paratoner takılmış ve paratonerin kablosu toprağa bağlanmıştır. Minareye yıldırım düşerse yıldırımın yükü … | ✓Kablodan geçerek toprağa iletilir
+fen-yc-129 | F.8.7.2.1 | z1 | k1 | Yaprakları kapalı olan nötr bir elektroskobun topuzuna bir cisim dokundurulduğunda yapraklar kapalı kalıyor. Buna göre bu cisim i… | ✓Nötrdür
+fen-yc-130 | F.8.7.2.2 | z1 | k1 | Bir benzin istasyonunda akaryakıt pompasının metal boruları ve tabancası toprak hattına bağlıdır. Bu bağlantının amacı aşağıdakil… | ✓Yakıt akarken oluşan yükün birikmesini önlem…
+fen-yc-131 | F.8.7.2.1 | z1 | k1 | İki negatif yüklü cisim birbirine yaklaştırıldığında aralarındaki etkileşim nasıl olur? | ✓Birbirini iter
+fen-yc-132 | F.8.7.2.2 | z1 | k1 | Aşağıdakilerden hangisi bir topraklama uygulaması değildir? | ✓Elektrik kablolarının plastik kılıfla kaplan…
+fen-yc-133 | F.8.7.2.1 | z1 | k1 | Pozitif yüklü bir cisim nötr bir cisme yaklaştırıldığında aralarındaki etkileşim nasıl olur? | ✓Cisimler birbirini çeker
+fen-yc-134 | F.8.7.2.2 | z1 | k1 | Bir tahıl silosunda çalışan Burak, iletken (antistatik) tabanlı ayakkabı giyiyor. Bu ayakkabının amacı aşağıdakilerden hangisidir? | ✓Vücutta biriken yükü toprağa aktarmak
+fen-yc-135 | F.8.7.2.1 | z1 | k1 | 15 protonu ve 12 elektronu bulunan bir cisim nasıl yüklüdür? | ✓Pozitif yüklü
+fen-yc-136 | F.8.7.2.1 | z1 | k1 | Şekilde yük durumları verilen cisimlerden hangisi nötrdür? | ✓M
+fen-yc-137 | F.8.7.2.2 | z1 | k1 | Nötr bir cisim iletken bir telle toprağa bağlanırsa aşağıdakilerden hangisi gerçekleşir? | ✓Yük geçişi olmaz; nötr kalır
+fen-yc-138 | F.8.7.2.1 | z1 | k1 | Aşağıdaki cisimlerden hangisi pozitif yüklüdür? | ✓9 proton, 5 elektron
+fen-yc-139 | F.8.7.2.2 | z1 | k1 | Yere değen metal zincirli bir tanker yolda giderken sürtünmeyle oluşan yük için aşağıdakilerden hangisi söylenebilir? | ✓Yük oluşur; zincir onu toprağa aktarır
+fen-yc-140 | F.8.7.2.1 | z1 | k1 | Elektriklenmede (yük geçişinde) cisimler arasında yer değiştiren tanecikler aşağıdakilerden hangisidir? | ✓Yalnızca elektronlar
+fen-yc-141 | F.8.7.2.2 | z1 | k1 | Şekilde K, L ve M binalarının çatılarına sivri metal uçlu paratonerler takılmıştır. Kablo bağlantıları şekilde gösterilmiştir. Bu… | ✓Yalnız K
+fen-yc-142 | F.8.7.2.2 | z1 | k1 | Aşağıdakilerden hangisi, boru hatlarında sürtünmeyle biriken yükün toprağa aktarılmasına yönelik bir uygulamadır? | ✓Metal boruları toprak hattına bağlamak
+fen-yc-143 | F.8.7.2.1 | z1 | k1 | Yalıtkan saplarla tutulan özdeş iletken iki küreden biri pozitif yüklü, öteki nötrdür. Küreler birbirine dokundurulup ayrılıyor. … | ✓İkisi de pozitif yüklü olur
+fen-yc-144 | F.8.7.2.2 | z1 | k1 | Topraklamayla ilgili aşağıdaki bilgilerden hangisi yanlıştır? | ✓Topraklama bağlantısı, yükün geçişini engell…
+fen-yc-145 | F.8.7.2.1 | z1 | k1 | Şekilde yük durumu verilen T cisminde kaç tane fazla elektron vardır? | ✓4
+fen-yc-146 | F.8.7.2.2 | z1 | k1 | Şekilde X cismi, iletken bir telle toprağa yaklaştırılmıştır; ancak telin ucu toprağa değmemiştir. Buna göre X cismi için aşağıda… | ✓Topraklanmamıştır; yüklü kalır
+fen-yc-147 | F.8.7.2.2 | z1 | k1 | Mustafa, buzdolabının üç uçlu fişini iki delikli prize takabilmek için topraklama ucunu kırıyor. Bu durumda buzdolabının metal gö… | ✓Yük toprağa gidemez ve gövdede birikir
+fen-yc-148 | F.8.7.2.2 | z1 | k1 | Bir marangoz atölyesinde talaş emme kanalları metaldir ve toprak hattına bağlanmıştır. Bu uygulama sonucunda kanalda aşağıdakiler… | ✓Oluşan yük birikmeden toprağa geçer
+fen-yc-149 | F.8.7.2.2 | z1 | k1 | Pozitif yüklü bir cisim iletken bir telle toprağa bağlandığında cismin son durumu nasıl olur? | ✓Nötr olur
+fen-yc-150 | F.8.7.2.1 | z2 | k1 | Yalıtkan iplerle asılı X ve Y küreleri birbirini itiyor. Bir öğrenci “Bu iki küreden biri nötr olabilir.” diyor. Öğrencinin bu ya… | ✓Yanlıştır; iki küre de aynı cins yüklüdür
+fen-yc-151 | F.8.7.2.1 | z2 | k1 | Yalıtkan ipler yardımıyla asılan K ve L kürelerinin durumu şekilde verilmiştir. K küresi negatif yüklüdür ve küreler birbirini çe… | ✓Pozitif yüklü ya da nötrdür
+fen-yc-152 | F.8.7.2.2 | z2 | k1 | Fen laboratuvarında öğretmen, yüklü metal kürelerle ilgili şu bilgileri veriyor. I. Yüklü metal küreye, yere basan bir kişi elle … | ✓I ve II
+fen-yc-153 | F.8.7.2.1 | z2 | k1 | Pozitif ve negatif yükleri eşit sayıda (7’şer tane) olan nötr bir cisim, başka bir cisimden 4 elektron alıyor. Buna göre cismin s… | ✓Negatif yüklü; 4 fazla elektron var
+fen-yc-154 | F.8.7.2.1 | z2 | k1 | Bir öğrenci elektroskopla ilgili şu yargıları yazıyor. I. Elektroskop, yük cinsini her zaman kesin olarak gösterir. II. Yapraklar… | ✓Yalnız II
+fen-yc-155 | F.8.7.2.2 | z2 | k1 | Yalıtkan sehpa üzerindeki metal bir küre iletken telle toprağa bağlanıyor. Bağlantı sırasında küreden toprağa 4 elektron geçiyor … | ✓Negatif yüklü; 4 elektron fazlası var
+fen-yc-156 | F.8.7.2.2 | z2 | k1 | Bir öğrenci topraklamayla ilgili şu cümleleri yazıyor. I. Naylon iple toprağa bağlanan yüklü cisim nötr olur. II. Topraklanan yük… | ✓Yalnız III
+fen-yc-157 | F.8.7.2.2 | z2 | k1 | Şekilde X cismi iletken bir telle toprağa bağlanmıştır. Bağlantı sırasında elektronların topraktan X cismine doğru geçtiği gözlen… | ✓Pozitif yüklü
+fen-yc-158 | F.8.7.2.1 | z2 | k1 | Yalıtkan ipler yardımıyla asılan K, L ve M kürelerinden K negatif yüklüdür. K ile L birbirini çekmekte, L ile M birbirini itmekte… | ✓II ve III
+fen-yc-159 | F.8.7.2.1 | z2 | k1 | Yalıtkan saplarla tutulan özdeş iletken K ve L kürelerinden K’de 4 fazla pozitif yük, L’de 4 fazla negatif yük vardır. Küreler bi… | ✓Birbirini ne çeker ne iter
+fen-yc-160 | F.8.7.2.2 | z2 | k1 | Bir fabrikada plastik taşıma bandı, makaralar üzerinde dönerken sürtünmeyle yüklenir. Bandın üzerine hafifçe değen iletken bir fı… | ✓Banttaki yükü toprağa iletmek
+fen-yc-161 | F.8.7.2.1 | z2 | k1 | Kuru bir plastik tarak yün kazağa sürtülürken tarak, kazaktan elektron alıyor. Bir öğrenci bu olayla ilgili şu yargıları yazıyor.… | ✓I ve III
+fen-yc-162 | F.8.7.2.1 | z2 | k1 | Şekilde K cisminin bir işlemden önceki ve sonraki yük durumu verilmiştir. Buna göre K cismi bu işlemde ne yapmıştır? | ✓3 elektron almıştır
+fen-yc-163 | F.8.7.2.2 | z2 | k1 | Bir apartmanın çatısındaki uydu çanağının metal gövdesi, bakır bir kabloyla binanın toprak hattına bağlanmıştır. Çanağa yıldırım … | ✓Yükün çanaktan toprağa geçmesi
+fen-yc-164 | F.8.7.2.1 | z2 | k1 | Yük durumuyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Nötr cismin proton ve elektron sayıları kesi…
+fen-yc-165 | F.8.7.2.2 | z2 | k1 | Mahalledeki elektrik dağıtım trafosunun metal kasası, toprağa gömülü iletkenlere bağlıdır. Bu bağlantının amacı aşağıdakilerden h… | ✓Kasaya geçen yükü toprağa iletmek
+fen-yc-166 | F.8.7.2.2 | z2 | k1 | Bir belgeselde yıldırım ve topraklama anlatılırken şu yargılar sunuluyor. I. Yıldırım, bulutlarda biriken yükün büyük bir boşalma… | ✓Yalnız I
+fen-yc-167 | F.8.7.2.2 | z2 | k1 | Bir veri merkezindeki metal sunucu dolapları birbirine iletken bağlantılarla eklenmiş ve toprak hattına bağlanmıştır. Bu uygulama… | ✓Zarar verebilecek yük birikimini önlemek
+fen-yc-168 | F.8.7.2.1 | z2 | k1 | Nötr olduğu bilinen M cismi ile yüklü olup olmadığı bilinmeyen N cismi birbirine yaklaştırıldığında birbirini çekiyor. Buna göre … | ✓Pozitif ya da negatif yüklüdür
+fen-yc-169 | F.8.7.2.2 | z2 | k1 | Metal tabanlı bir ütünün fişi topraklı prize takılıdır. Bir öğrenci bu durumla ilgili şu yargıları yazıyor. I. Topraklama ucu, üt… | ✓II ve III
+fen-yc-170 | F.8.7.2.2 | z2 | k1 | Bir evin banyosundaki elektrikli şofbenin metal gövdesi, binanın toprak hattına bağlıdır. Şofbenin içindeki bir kablonun yalıtımı… | ✓Toprak hattından toprağa geçer
+fen-yc-171 | F.8.7.2.2 | z2 | k1 | Topraklama sırasında toprağın davranışı için aşağıdakilerden hangisi doğrudur? | ✓Gerektiğinde elektron alır ya da verir
+fen-yc-172 | F.8.7.2.1 | z2 | k1 | Şekilde yük durumu verilen X cismi için bir öğrenci şu yargıları yazıyor. I. X pozitif yüklüdür. II. X’in nötr olması için 3 elek… | ✓I ve II
+fen-yc-173 | F.8.7.2.1 | z2 | k1 | Yalıtkan ipe asılı K ve L cisimleri birbirine yaklaştırılıyor ve aralarında hiçbir etkileşim gözlenmiyor. K cisminin nötr olduğu … | ✓Nötrdür
+fen-yc-174 | F.8.7.2.1 | z2 | k1 | Şekilde yük durumları verilen cisimlerden hangi ikisi birbirine yaklaştırılırsa birbirini iter? | ✓K ve L
+fen-yc-175 | F.8.7.2.2 | z2 | k1 | Bir kimya laboratuvarında yanıcı bir çözücü, metal bir bidondan başka bir metal bidona aktarılırken bidonlar iletken bir telle bi… | ✓Oluşan yük bidonlarda birikir; kıvılcım risk…
+fen-yc-226 | F.8.7.2.1 | z2 | k2 | Bir fen laboratuvarında, bir cismin 18 protonu ve 21 elektronu olduğu not ediliyor. Buna göre bu cisim için aşağıdakilerden hangi… | ✓Negatif yüklüdür; çünkü elektron sayısı prot…
+fen-yc-227 | F.8.7.2.1 | z2 | k2 | Şekilde yük durumları verilen A, B, C ve D cisimleri için bir öğrenci şu yargıları yazıyor. I. A ile B birbirini çeker. II. A ile… | ✓I ve III
+fen-yc-228 | F.8.7.2.1 | z2 | k2 | Fen kulübünde bir öğrenci, K cisminden 3 elektron uzaklaştırıldıktan sonra cismin yük durumunu 8+ 5− olarak yazıyor. Buna göre K … | ✓8+ 8− ile nötr
+fen-yc-229 | F.8.7.2.2 | z2 | k2 | Bir bodrum katında metal gövdeli buzdolabının üç uçlu fişi, iki delikli eski bir uzatma kablosuna adaptörle takılıyor. Adaptörün … | ✓Yük toprağa geçemez; gövdede birikir ve kişi…
+fen-yc-230 | F.8.7.2.2 | z2 | k2 | Bir ilçedeki eski caminin minaresinin tepesine paratoner takılıyor. Paratonerin ucu minarenin en yüksek noktasına, kalın bakır şe… | ✓Düşen yıldırımın yükünü minareye zarar verme…
+fen-yc-231 | F.8.7.2.1 | z2 | k2 | Özdeş ve nötr üç elektroskopun topuzuna K, L ve M cisimleri ayrı ayrı dokundurulup uzaklaştırılıyor. Elektroskopların son durumu … | ✓II ve III
+fen-yc-232 | F.8.7.2.1 | z2 | k2 | Yalıtkan saplarla tutulan özdeş iletken K ve L küreleri şekildeki gibi yüklüdür. K ile L birbirine dokundurulup yeniden ayrılıyor… | ✓İkisi de negatif yüklü olur.
+fen-yc-233 | F.8.7.2.2 | z2 | k2 | Başlangıçta nötr olan bir balon, yün kazağa sürtülünce 8 elektron kazanıyor. Daha sonra balon iletken bir telle toprağa bağlanıyo… | ✓Balondan toprağa 8 elektron geçer; balon nöt…
+fen-yc-234 | F.8.7.2.1 | z2 | k2 | Fen kulübünde yüklü cisimlerin birbirine etkisiyle ilgili dört ifade tahtaya yazılıyor. Buna göre bu ifadelerden hangisi yanlıştı… | ✓Birbirini çeken iki cisim her zaman zıt cins…
+fen-yc-235 | F.8.7.2.2 | z2 | k2 | K, L, M ve N kürelerinin hepsi negatif yüklüdür. Küreler şekilde görüldüğü gibi farklı malzemelerle toprağa bağlanmak isteniyor. … | ✓K ve M
+fen-yc-236 | F.8.7.2.1 | z2 | k2 | Bir öğrenci, elektrik yüklü cisimlerle ilgili üç not alıyor. I. Aynı cins yüklü iki cisim birbirini çeker. II. Nötr bir cisim, yü… | ✓Yalnız II
+fen-yc-237 | F.8.7.2.2 | z2 | k2 | Bir hastanenin ameliyathanesinde kullanılan bazı gazlar yanıcı olabileceğinden zemin, iletken bir kaplamayla toprak hattına bağla… | ✓Sürtünmeyle biriken yükün zemin yoluyla topr…
+fen-yc-238 | F.8.7.2.1 | z2 | k2 | Fen dersinde yük kavramı konuşulurken öğretmen tahtaya dört ifade yazıyor. Buna göre bu ifadelerden hangisi yanlıştır? | ✓Nötr bir cisimde hiç yük bulunmaz.
+fen-yc-239 | F.8.7.2.2 | z2 | k2 | Bir mühendis, yeni yapılan bir okul binasına takılan paratonerle ilgili açıklama yapıyor. Öğrenciler şu yargıları yazıyor. I. Par… | ✓Yalnız III
+fen-yc-240 | F.8.7.2.1 | z2 | k2 | Aşağıdaki tabloda yalıtkan iplerle asılı dört cismin pozitif (+) ve negatif (−) yük sembollerinin sayısı verilmiştir. Cisimler ik… | ✓K ile N
+fen-yc-241 | F.8.7.2.2 | z2 | k2 | Yalıtkan bir sehpa üzerindeki K küresinde 9 tane + ve 4 tane − yük sembolü vardır. Küre önce naylon bir iple, sonra bakır bir tel… | ✓Yalnız bakır telle topraktan K’ye 5 elektron…
+fen-yc-242 | F.8.7.2.1 | z2 | k2 | Başlangıçta nötr olan K ve L cisimleri birbirine sürtülüyor. Sürtünme öncesi ve sonrası yük durumları tabloda verilmiştir. Buna g… | ✓K’den L’ye 2 elektron geçmiştir; K pozitif, …
+fen-yc-243 | F.8.7.2.1 | z2 | k2 | Nötr bir elektroskopun topuzuna K cismi dokundurulup uzaklaştırıldığında yapraklar açık kalıyor. Ardından topuza parmakla dokunul… | ✓K yüklüdür; ancak cinsi bu bilgiyle belli ol…
+fen-yc-244 | F.8.7.2.2 | z2 | k2 | Okulun kimya laboratuvarına aseton dolu iletken metal bir bidon getiriliyor. Sıvı aktarılırken bidon sürtünmeyle yüklenebilir ve … | ✓Bidonda biriken yük toprağa geçer; kıvılcım …
+fen-yc-245 | F.8.7.2.1 | z2 | k2 | Aşağıdaki tabloda dört cismin pozitif (+) ve negatif (−) yük sembollerinin sayısı verilmiştir. Buna göre hangi cismin negatif yük… | ✓M
+fen-yc-246 | F.8.7.2.2 | z2 | k2 | Yalıtkan bir sehpa üzerindeki nötr metal küre iletken bir telle toprağa bağlanıyor. Buna göre bu bağlantı sırasında aşağıdakilerd… | ✓Küre ile toprak arasında yük geçişi olmaz; k…
+fen-yc-247 | F.8.7.2.1 | z2 | k2 | Yün kazağa sürtülerek negatif yüklenen plastik tarak, masanın üzerindeki nötr kâğıt parçacıklarına yaklaştırılıyor. Buna göre kâğ… | ✓Tarağa doğru çekilir; çünkü yüklü cisim nötr…
+fen-yc-248 | F.8.7.2.2 | z2 | k2 | K, L ve M cisimlerinin pozitif (+) ve negatif (−) yük sembollerinin sayısı tabloda verilmiştir. Cisimler ayrı ayrı iletken bir te… | ✓K ve M
+fen-yc-249 | F.8.7.2.1 | z2 | k2 | Yün kazağa sürtülen iki özdeş balon, yalıtkan iplerle yan yana asılınca birbirinden uzaklaşıyor. Buna göre bu olay için aşağıdaki… | ✓Balonlar aynı cins yüklenmiştir; aynı cins y…
+fen-yc-250 | F.8.7.2.2 | z2 | k2 | Aynı model, metal gövdeli üç ütü üç farklı evde kullanılıyor. Evlerin priz ve ütü fişi durumları tabloda verilmiştir. Üç evde de … | ✓B ve C
+fen-yc-251 | F.8.7.2.2 | z2 | k2 | Akaryakıt tankerinin arkasında yere değen metal zincir, yolda bir çukura çarpınca kopuyor ve zincirin kalan kısmı yere değmez hâl… | ✓Biriken yük toprağa geçemez; tankerde biriki…
+fen-yc-252 | F.8.7.2.1 | z3 | k2 | Yalıtkan iplerle asılı K, L, M ve N cisimlerindeki pozitif (+) ve negatif (−) yük sembollerinin sayısı tabloda verilmiştir. Cisim… | ✓II ve III
+fen-yc-253 | F.8.7.2.1 | z3 | k2 | Yalıtkan iple asılı hafif metal bir top nötrdür. Negatif yüklü bir çubuk topa yaklaştırılıyor; top çubuğa değiyor ve bir süre değ… | ✓Önce çeker; değince top negatif yüklenir ve …
+fen-yc-254 | F.8.7.2.2 | z3 | k2 | Şekilde yük durumları verilen X ve Y cisimleri ayrı ayrı iletken tellerle toprağa bağlanıyor. Buna göre topraklama sonunda toprak… | ✓15
+fen-yc-255 | F.8.7.2.1 | z3 | k2 | Yalıtkan saplı özdeş iletken K ve L küreleri şekilde görüldüğü gibi yüklüdür. K ile L birbirine dokundurulup yeniden ayrılıyor. B… | ✓I ve II
+fen-yc-256 | F.8.7.2.2 | z3 | k2 | Metal gövdeli bir elektrikli fırının fişi üç uçludur. Fırın, topraklama hattı bulunan bir prize takılıyor. Bir usta fişle ilgili … | ✓Yalnız I
+fen-yc-257 | F.8.7.2.1 | z3 | k2 | Yalıtkan iplerle asılı A, B, C ve D cisimlerinden A’nın negatif yüklü olduğu biliniyor. Cisimler ikişer ikişer yaklaştırılınca şu… | ✓B negatif, C pozitif, D pozitif yüklüdür.
+fen-yc-258 | F.8.7.2.2 | z3 | k2 | K, L ve M cisimlerinin pozitif (+) ve negatif (−) yük sembollerinin sayısı tabloda verilmiştir. Cisimler ayrı ayrı iletken telle … | ✓I ve III
+fen-yc-259 | F.8.7.2.1 | z3 | k2 | Yalıtkan saplı özdeş iletken K ve L küreleri vardır. K küresi pozitif yüklü, L küresi nötrdür. K ile L birbirine dokundurulup ayr… | ✓M çubuğu K’yi de L’yi de çeker.
+fen-yc-260 | F.8.7.2.2 | z3 | k2 | Bir elektrik ustası, evin topraklama hattının ucundaki bakır çubuğu toprağa çakmadan önce çubuğu kalın bir plastik boruyla kaplıy… | ✓Topraklama çalışmaz; çünkü plastik yükün top…
+fen-yc-261 | F.8.7.2.1 | z3 | k2 | Başlangıçta 8 tane + ve 3 tane − yük sembolü bulunan K cismi, önce 4 elektron alıyor, sonra 2 elektron veriyor. Buna göre K cismi… | ✓8+ 5− ile pozitif yüklü
+fen-yc-262 | F.8.7.2.2 | z3 | k2 | Yaprakları açık duran negatif yüklü bir elektroskopun topuzuna çıplak elle dokunuluyor. Bir öğrenci bu olayla ilgili şu yargıları… | ✓Yalnız II
+fen-yc-263 | F.8.7.2.1 | z3 | k2 | X ve Y çubukları yalıtkan saplarla tutuluyor. İki çubuk birbirine yaklaştırıldığında birbirini itiyor. Nötr ve hafif bir metal to… | ✓X ve Y aynı cins yüklüdür.
+fen-yc-264 | F.8.7.2.2 | z3 | k2 | Havaalanında yakıt ikmali yapılacak bir uçağın metal gövdesi ile ikmal tankeri arasına iletken bir kablo bağlanıyor; kablonun diğ… | ✓Biriken yük kablodan geçip toprağa aktarıldı…
+fen-yc-265 | F.8.7.2.2 | z3 | k2 | Negatif yüklü bir K küresine (4+ 9−), P, R, S ve T malzemelerinden yapılmış eşit boyutlu çubuklarla ayrı ayrı toprağa bağlanıyor.… | ✓R ve T
+fen-yc-266 | F.8.7.2.2 | z3 | k2 | Fen kulübü öğrencileri, biriken yükü güvenli yoldan toprağa gönderen düzenekleri sınıf panosuna ekliyor. I. Çatıya konan ve topra… | ✓I ve III
+fen-yc-267 | F.8.7.2.2 | z3 | k2 | Bir öğrenci defterine şu notu yazıyor: “9 tane + ve 3 tane − yük sembolü bulunan K cismi topraklanırsa K’den toprağa 6 proton geç… | ✓Yük geçişini protonlar değil elektronlar yap…
+fen-yc-268 | F.8.7.2.2 | z3 | k2 | Bir veri merkezinin sunucu odasında yük birikimine karşı önlemler alınıyor. Teknisyen önlemlerle ilgili şu yargıları yazıyor. I. … | ✓II ve III
+fen-yc-269 | F.8.7.2.2 | z3 | k2 | Bir öğrenci “Topraklı prize takılan cihazın gövdesine yük asla geçmez.” diyor. Fen öğretmeni bu yargıyı değerlendiriyor. Buna gör… | ✓Yanlıştır; yük gövdeye geçebilir ama toprak …
+fen-yc-270 | F.8.7.2.2 | z3 | k2 | Kışın sentetik halı serili bir odada yürüyen Deniz, topraklı metal radyatöre dokunduğunda küçük bir kıvılcım görüyor. Öğretmen ol… | ✓I, II ve III
+fen-yc-271 | F.8.7.2.2 | z3 | k2 | Şekilde K cisminin topraklama sonrasındaki yük durumu verilmiştir. Topraklama sırasında K’den toprağa 3 elektron geçmiştir. Buna … | ✓8+ 11− ile negatif yüklü
+fen-yc-272 | F.8.7.2.1 | z3 | k2 | Yalıtkan saplı özdeş iletken kürelerin dokunma yoluyla yüklenmesiyle ilgili bir öğrenci şu yargıları yazıyor. I. Dokunma sonunda … | ✓II ve III
+fen-yc-273 | F.8.7.2.2 | z3 | k2 | Tabloda bazı topraklama uygulamalarında yükün kaynağı ve gideceği yer verilmiştir. Buna göre hangi uygulamada yükün gideceği yer … | ✓Tanker zinciri
+fen-yc-274 | F.8.7.2.2 | z3 | k2 | Yalıtkan saplı özdeş iletken K ve L küreleri vardır. K küresinde 6 tane + ve 2 tane − yük sembolü bulunur, L küresi nötrdür. K il… | ✓Birbirini çeker; çünkü K pozitif yüklü, L nö…
+fen-yc-275 | F.8.7.2.1 | z3 | k2 | Grafikte P, R, S ve T cisimlerinin pozitif (+) ve negatif (−) yük sembollerinin sayısı verilmiştir. Buna göre hangi cisim 4 elekt… | ✓S
+fen-yc-326 | F.8.7.2.1 | z3 | k3 | Fen laboratuvarında yalıtkan sehpalar üzerine yerleştirilen A, B, C ve D cisimlerinin yük sembollerinin sayısı tabloda verilmişti… | ✓A ile D
+fen-yc-327 | F.8.7.2.2 | z3 | k3 | Bir caminin minaresinin en yüksek noktasına metal bir uç yerleştirilmiş ve bu uç, kalın bir bakır kabloyla toprağa gömülü metal p… | ✓Yalnız II
+fen-yc-328 | F.8.7.2.1 | z3 | k3 | Aşağıdaki tabloda K, L ve M cisimlerinin yük sembollerinin sayısı verilmiştir. Üç cisim de nötr hâle getirilecektir. Buna göre bu… | ✓K 4 elektron alır, L 5 elektron verir, M değ…
+fen-yc-329 | F.8.7.2.2 | z3 | k3 | Bir benzin istasyonunda yakıt pompasının metal tabancası, metal hortum ve gövde aracılığıyla toprak hattına bağlanmıştır. Araca y… | ✓Yükü toprağa aktarıp kıvılcım çıkmasını önle…
+fen-yc-330 | F.8.7.2.1 | z3 | k3 | Yalıtkan iplerle asılı K ve L küreleri birbirine yaklaştırıldığında birbirini itiyor. L küresinde 3 tane + ve 8 tane − sembol bul… | ✓Negatif yüklüdür.
+fen-yc-331 | F.8.7.2.2 | z3 | k3 | Bir buzdolabının fişindeki üçüncü uç (topraklama ucu) kırılmıştır; fiş, topraklama bağlantısı bulunmayan bir adaptörle prize takı… | ✓Yük toprağa iletilemediğinden gövdede biriki…
+fen-yc-332 | F.8.7.2.1 | z3 | k3 | Başlangıçta nötr olan bir plastik kalem ile yün kazak birbirine sürtülüyor. Sürtünmeden önceki ve sonraki yük sembollerinin sayıs… | ✓Kalem kazaktan 3 elektron almıştır; kalem ne…
+fen-yc-333 | F.8.7.2.2 | z3 | k3 | Yalıtkan sehpa üzerindeki X küresi, şekildeki gibi iletken bir telle toprağa bağlanıyor. Bağlantı sırasında elektronların hareket… | ✓Başlangıçta pozitif yüklüdür; topraklanınca …
+fen-yc-334 | F.8.7.2.1 | z3 | k3 | Tabloda P, R ve S cisimlerinin pozitif ve negatif yük sembollerinin sayısı verilmiştir. Pozitif sembol proton, negatif sembol ele… | ✓Yalnız III
+fen-yc-335 | F.8.7.2.2 | z3 | k3 | Yanıcı gaz kullanılan bir ameliyathanede zemin iletken bir malzemeden yapılmış ve toprak hattına bağlanmıştır. Çalışanlar da taba… | ✓Yükün zemin yoluyla toprağa gitmesini sağlay…
+fen-yc-336 | F.8.7.2.1 | z3 | k3 | Yalıtkan iplerle asılı K ve L küreleri, şekilde görüldüğü gibi birbirine doğru çekilmiş durumdadır. K küresinin yük sembolleri şe… | ✓Pozitif yüklüdür ya da nötrdür.
+fen-yc-337 | F.8.7.2.2 | z3 | k3 | Bir deneyde yalıtkan sehpalar üzerindeki K, L ve M kürelerinin yük durumları ve toprağa bağlanma malzemeleri tabloda verilmiştir.… | ✓L ve M
+fen-yc-338 | F.8.7.2.2 | z3 | k3 | Fen kulübünde öğrenciler, yalıtkan sehpa üzerindeki metal kürelerin iletken telle toprağa bağlanmasını inceliyor ve şu yargıları … | ✓II ve III
+fen-yc-339 | F.8.7.2.1 | z3 | k3 | Yalıtkan bir iple asılı hafif K küresine, negatif yüklü bir çubuk dokundurulmadan yaklaştırılıyor. K küresi çubuğa doğru hareket … | ✓Negatif yüklü değildir.
+fen-yc-340 | F.8.7.2.2 | z3 | k3 | Bir kamp alanındaki servis binasının çatısında bir paratoner vardır. Fırtınadan önce paratonerin kablosunun toprağa gömülü plakad… | ✓Yıldırımın yükü toprağa iletilemez; binada y…
+fen-yc-341 | F.8.7.2.1 | z3 | k3 | Tabloda K, L ve M cisimlerinin pozitif ve negatif yük sembollerinin sayısı verilmiştir. Bir öğrenci bu cisimlerin birbirine etkis… | ✓I ve II
+fen-yc-342 | F.8.7.2.2 | z3 | k3 | Plastik bir kaydıraktan kayan Efe'nin vücudu, elektron kaybederek pozitif yüklenmiştir. Efe merdivenden inerken topraklı metal ko… | ✓Elektronlar korkuluktan Efe'ye geçer ve Efe …
+fen-yc-343 | F.8.7.2.1 | z3 | k3 | Yalıtkan saplı özdeş iletken K ve L kürelerinin yük sembolleri şekilde verilmiştir. K ile L birbirine dokundurulup yeniden ayrıld… | ✓Birbirini iter; ikisi de negatif yüklüdür.
+fen-yc-344 | F.8.7.2.2 | z3 | k3 | Şekildeki paratoner düzeneğinde K metal uç, L bakır kablo, M ise toprağa gömülü metal plakadır. Yıldırım K ucuna düşüyor. Buna gö… | ✓K → L → M yönünde; yük kablodan toprağa gide…
+fen-yc-345 | F.8.7.2.1 | z3 | k3 | Bir öğrenci cisimlerin elektriklenmesiyle ilgili şu yargıları yazıyor. I. Cisimler yüklenirken yer değiştiren tanecikler elektron… | ✓Yalnız I
+fen-yc-346 | F.8.7.2.2 | z3 | k3 | Bir tekstil fabrikasında sentetik iplik, makaralara sarılırken sürtünmeyle yüklenmektedir. İplik yolunda pamuk tozu da bulunmakta… | ✓İpliğin yükünü toprağa aktarır; kıvılcım ris…
+fen-yc-347 | F.8.7.2.1 | z3 | k3 | Başlangıçta nötr olan X ve Y cisimlerinin yük sembolleri tabloda verilmiştir. Bir işlemle X cisminden Y cismine 3 elektron aktarı… | ✓X pozitif, Y negatif yüklenir; birbirini çek…
+fen-yc-348 | F.8.7.2.2 | z3 | k3 | Bir kimya laboratuvarında yanıcı sıvı eter, metal bir huniden plastik şişeye boşaltılırken akan sıvı sürtünmeyle yüklenebilir. Gö… | ✓Yük huni üzerinde biriktiğinden kıvılcım ris…
+fen-yc-349 | F.8.7.2.2 | z3 | k3 | Bir tiner dolum tesisinde yanıcı sıvıyı taşıyan metal borular birbirine iletken parçalarla eklenmiş ve toprak hattına bağlanmıştı… | ✓I ve III
+fen-yc-350 | F.8.7.2.1 | z3 | k3 | Yalıtkan saplı özdeş iletken K ve L kürelerinin yük sembolleri şekilde verilmiştir. K ile L birbirine dokundurulduğunda ikisi de … | ✓L'den K'ye 6 elektron geçer; ikisi de nötr o…
+fen-yc-351 | F.8.7.2.2 | z3 | k3 | Bir kömür madeninde kömürü taşıyan konveyör bant, makaralara sürtünerek yüklenir. Bandın metal çerçevesi, parçaları iletken bağla… | ✓Çerçeve yük biriktirir; kömür tozu kıvılcıml…
+fen-yc-352 | F.8.7.2.2 | z3 | k3 | Yalıtkan sehpa üzerindeki nötr bir metal küre iletken telle toprağa bağlanıyor ve bir süre sonra tel kaldırılıyor. Daha sonra kür… | ✓Yalnız II
+fen-yc-353 | F.8.7.2.1 | z3 | k3 | Fen öğretmeni, yük ölçümünde kullanılan elektroskopla ilgili dört bilgi yazıyor. Buna göre bu bilgilerden hangisi yanlıştır? | ✓Yaprakları açıldığında topuza dokunan cismin…
+fen-yc-354 | F.8.7.2.2 | z3 | k3 | Yalıtkan sehpa üzerindeki K küresine bağlanan iletken telin diğer ucu, şekilde görüldüğü gibi toprağa değmeden havada kalmıştır. … | ✓Elektron geçişi olmaz; K pozitif yüklü kalır.
+fen-yc-355 | F.8.7.2.1 | z3 | k3 | Tabloda K cisminin proton ve elektron sayısı verilmiştir. Bir öğrenci K cismine elektron eklenmesiyle ilgili şu yargıları yazıyor… | ✓II ve III
+fen-yc-356 | F.8.7.2.1 | z4 | k3 | Alüminyum folyo ile kaplı hafif bir top yalıtkan iple asılıdır ve nötrdür. Top, yalıtkan saplı negatif yüklü bir metal çubuğa yak… | ✓I ve II
+fen-yc-357 | F.8.7.2.2 | z4 | k3 | Yalıtkan saplı özdeş iletken X ve Y kürelerinin yük sembolleri şekilde verilmiştir. Önce X küresi iletken telle toprağa bağlanıp … | ✓X pozitif, Y pozitif yüklüdür.
+fen-yc-358 | F.8.7.2.1 | z4 | k3 | Yalıtkan sehpalar üzerindeki K, L, M ve N cisimlerinin pozitif ve negatif yük sembollerinin sayısı tabloda verilmiştir. Bir öğren… | ✓Yalnız III
+fen-yc-359 | F.8.7.2.2 | z4 | k3 | Bir mühendis, topraklamanın yapılmadığı durumlarda doğabilecek sonuçları sıralıyor. Buna göre aşağıdakilerden hangisinde uygulama… | ✓Metal boru hattının toprağa bağlanmaması → Y…
+fen-yc-360 | F.8.7.2.1 | z4 | k3 | Yalıtkan saplı özdeş iletken K ve L kürelerinin ve yalıtkan iple asılı M küresinin yük sembolleri şekilde verilmiştir. Önce K ile… | ✓I ve II
+fen-yc-361 | F.8.7.2.1 | z4 | k3 | Yalıtkan iplerle asılı K, L ve M küreleri ikişer ikişer yaklaştırıldığında şu gözlemler yapılıyor: K ile L birbirini itiyor, L il… | ✓I ve II
+fen-yc-362 | F.8.7.2.2 | z4 | k3 | Yalıtkan sehpalar üzerindeki K ve L kürelerinin yük sembolleri tabloda verilmiştir. Küreler ayrı ayrı iletken telle toprağa bağla… | ✓Birbirine etki etmez; ikisi de nötrdür.
+fen-yc-363 | F.8.7.2.2 | z4 | k3 | Yün halı üzerinde yürüyen Ece'nin vücudu sürtünmeyle yüklenmiştir. Ece önce plastik bir kapı koluna dokunuyor ve hiçbir şey hisse… | ✓Plastik kol yalıtkandır, yük geçişi olmaz; t…
+fen-yc-364 | F.8.7.2.2 | z4 | k3 | Tabloda K, L ve M cisimlerinin pozitif ve negatif yük sembollerinin sayısı verilmiştir. Üç cisim de iletken telle ayrı ayrı topra… | ✓II ve III
+fen-yc-365 | F.8.7.2.1 | z4 | k3 | Yalıtkan iplerle asılı K, L, M ve N küreleri ikişer ikişer yaklaştırılıyor. K'nin negatif yüklü olduğu biliniyor. Gözlemler şöyle… | ✓Pozitif yüklüdür.
+fen-yc-366 | F.8.7.2.2 | z4 | k3 | Şekilde K, L ve M cisimleri iletken tellerle ayrı ayrı toprağa bağlanmıştır. Topraklama sırasında elektronların hareket yönü okla… | ✓K negatif, L pozitif, M nötrdür.
+fen-yc-367 | F.8.7.2.2 | z4 | k3 | Bir sıvı yakıt dolum tesisinde yakıtın akıtıldığı metal boru hattı toprak hattına bağlıdır. Bakım sırasında hattın ortasındaki me… | ✓Sürtünmeyle oluşan yük bu bölümde birikir; k…
+fen-yc-368 | F.8.7.2.1 | z4 | k3 | Yalıtkan saplı özdeş iletken P ve R kürelerinden P'de 8 tane + ve 2 tane − sembol bulunmaktadır; R nötrdür. P ile R dokundurulup … | ✓Yalnız II
+fen-yc-369 | F.8.7.2.2 | z4 | k3 | Yalıtkan sehpa üzerindeki K küresi iletken telle toprağa bağlanıyor. Bağlantı sırasında topraktan K küresine 6 elektron geçiyor v… | ✓Pozitif yüklüydü: 9+ 3−
+fen-yc-370 | F.8.7.2.1 | z4 | k3 | Başlangıçta nötr olan cam çubuk ile ipek kumaş birbirine sürtülüyor ve cam çubuk pozitif yükleniyor. Sonra çubuk, yalıtkan sehpa … | ✓Kumaş ile M birbirini çeker; kumaş negatif y…
+fen-yc-371 | F.8.7.2.2 | z4 | k3 | Bir mühendis, topraklamayla ilgili uygulamalar için şu yargıları yazıyor. I. Üç uçlu fişin topraklama ucu, cihazın metal gövdesin… | ✓I, II ve III
+fen-yc-372 | F.8.7.2.1 | z4 | k3 | Başlangıçta nötr olan özdeş X, Y ve Z cisimlerinin yük sembolleri tabloda verilmiştir. Önce X ile Y sürtülüyor ve X'ten Y'ye 2 el… | ✓X pozitif, Y pozitif, Z negatiftir.
+fen-yc-373 | F.8.7.2.2 | z4 | k3 | Bir elektronik atölyesinde teknisyen, devre kartlarına dokunmadan önce kablosu toprak hattına bağlı bir metal bileklik takıyor. S… | ✓Bileklik iletkendir; yük toprağa gider, böyl…
+fen-yc-374 | F.8.7.2.1 | z4 | k3 | Bir öğrenci elektroskopla ilgili şu yargıları yazıyor. I. Nötr bir cisim, nötr elektroskopun yapraklarını açar. II. Elektroskop y… | ✓Yalnız III
+fen-yc-375 | F.8.7.2.2 | z4 | k3 | Yalıtkan saplı özdeş iletken K ve L kürelerinin yük sembolleri şekilde verilmiştir. Önce L küresi iletken telle toprağa bağlanıp … | ✓Birbirini iter; ikisi de negatif yüklüdür.
+fen-yc-016 | F.8.7.2.1 | z1 | k0 | Şekilde yük durumu verilen R cismi nasıl yüklüdür? | ✓Negatif yüklü
+fen-yc-017 | F.8.7.2.1 | z1 | k0 | Üzerinde 9 proton ve 9 elektron bulunan bir cisim için aşağıdakilerden hangisi söylenebilir? | ✓Nötrdür
+fen-yc-018 | F.8.7.2.1 | z1 | k0 | İpe asılı, negatif yüklü iki özdeş küre birbirine yaklaştırılıyor. Buna göre küreler arasındaki etkileşim aşağıdakilerden hangisi… | ✓Birbirini iterler
+fen-yc-019 | F.8.7.2.1 | z1 | k0 | Pozitif yüklü bir plastik çubuk, masanın üzerindeki nötr kâğıt parçalarına dokundurulmadan yaklaştırılıyor. Buna göre kâğıt parça… | ✓Çubuğa doğru çekilirler
+fen-yc-020 | F.8.7.2.2 | z1 | k0 | Bulutlarda biriken yükün büyük bir boşalmasıyla oluşan ve gök gürültüsüyle birlikte görülen doğa olayı aşağıdakilerden hangisidir? | ✓Yıldırım
+fen-yc-021 | F.8.7.2.1 | z1 | k0 | Elektriklenme sırasında cisimler arasında yer değiştiren tanecikler aşağıdakilerden hangisidir? | ✓Elektronlar
+fen-yc-022 | F.8.7.2.2 | z1 | k0 | Nötr bir metal küre, iletken bir telle toprağa bağlanıyor. Buna göre küre için aşağıdakilerden hangisi söylenebilir? | ✓Hiçbir yük geçişi olmaz, küre nötr kalır
+fen-yc-023 | F.8.7.2.2 | z1 | k0 | Benzin istasyonlarında yakıt pompalarının metal gövdeleri, toprak hattına bağlı iletkenlerle birleştirilir. Bu uygulamanın amacı … | ✓Yükü gövdeden uzaklaştırıp kıvılcımı önlemek
+fen-yc-024 | F.8.7.2.2 | z1 | k0 | Yanıcı toz bulunan bir fabrikada çalışanlara, tabanı iletken malzemeden yapılmış antistatik ayakkabılar veriliyor. Bu ayakkabılar… | ✓Vücutta biriken yükü zemin yoluyla toprağa i…
+fen-yc-025 | F.8.7.2.1 | z1 | k0 | K cisminde 5 pozitif ve 5 negatif yük bulunuyor. Bir öğrenci “K cisminde hiç yük yoktur.” diyor. Öğrencinin bu yargısı için aşağı… | ✓Yanlıştır; K'de eşit sayıda + ve − yük vardır
+fen-yc-026 | F.8.7.2.2 | z1 | k0 | Pozitif yüklü iletken bir küre, iletken bir telle toprağa bağlı olan bir metal çubuğa dokundurulur. Buna göre küre için aşağıdaki… | ✓Nötr hâle gelir
+fen-yc-027 | F.8.7.2.2 | z1 | k0 | Ev aletlerinin topraklanmasıyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Gövdeye geçen yükün kişiye geçme riskini aza…
+fen-yc-028 | F.8.7.2.1 | z2 | k0 | Şekilde yük durumları verilen X ve Y cisimleri, yalıtkan saplarla tutularak birbirine yaklaştırılıyor. Buna göre X ve Y cisimleri… | ✓Birbirini çekerler
+fen-yc-029 | F.8.7.2.1 | z2 | k0 | Negatif yüklü bir çubuk, ipe asılı K küresine yaklaştırıldığında K küresi çubuktan uzaklaşıyor. Buna göre K küresi için aşağıdaki… | ✓Negatif yüklüdür
+fen-yc-030 | F.8.7.2.1 | z2 | k0 | Yalıtkan saplarla tutulan özdeş iletken M ve N kürelerinin yükleri şekilde gösterilmiştir. M ile N birbirine dokundurulup ayrılıy… | ✓M ve N negatif yüklüdür; birbirini iterler
+fen-yc-031 | F.8.7.2.1 | z2 | k0 | Üzerinde 11 proton ve 14 elektron bulunan bir cisim nötr hâle getirilecektir. Buna göre cismin kaç elektron vermesi gerekir? | ✓3
+fen-yc-032 | F.8.7.2.1 | z2 | k0 | Yaprakları kapalı nötr bir elektroskopun topuzuna L cismi dokundurulunca yapraklar açılıyor. Buna göre L cismi için aşağıdakilerd… | ✓Pozitif ya da negatif yüklüdür; hangisi oldu…
+fen-yc-033 | F.8.7.2.1 | z2 | k0 | Bir öğrenci yüklü cisimlerin etkileşimiyle ilgili şu cümleleri yazıyor. I. Birbirini iten iki cisim aynı cins yüklüdür. II. Birbi… | ✓I ve III
+fen-yc-034 | F.8.7.2.1 | z2 | k0 | Plastik bir tarak yün kazağa sürtülünce tarak negatif yükleniyor. Buna göre bu olayla ilgili aşağıdakilerden hangisi doğrudur? | ✓Kazaktan tarağa elektron geçmiştir; kazak po…
+fen-yc-035 | F.8.7.2.1 | z2 | k0 | Şekilde yük durumları verilen K, L, M ve N cisimlerinden ikisi, yalıtkan saplarla tutularak birbirine yaklaştırılıyor. Buna göre … | ✓K ve M
+fen-yc-036 | F.8.7.2.2 | z2 | k0 | Bir cami minaresinin tepesine paratoner takılmış, ancak paratonerden inen kablonun alt ucu toprağa bağlanmadan duvarın dibinde ha… | ✓Yük hiç toprağa geçemez ve yapıda birikir
+fen-yc-037 | F.8.7.2.2 | z2 | k0 | Bir kişi, bulaşık makinesinin üç uçlu fişini iki delikli bir prize takabilmek için fişin ortadaki toprak ucunu kesiyor. Makinenin… | ✓Gövdedeki yük toprağa gidemez, dokunan kişiy…
+fen-yc-038 | F.8.7.2.2 | z2 | k0 | Şekilde yük durumu verilen Y cismi, iletken bir telle toprağa bağlanıyor. Buna göre topraklama tamamlandığında Y cisminde kaç poz… | ✓10 pozitif, 10 negatif
+fen-yc-039 | F.8.7.2.2 | z2 | k0 | Negatif yüklü bir elektroskopun yaprakları açıktır. Topuza parmakla dokunulunca yapraklar kapanıyor. Buna göre bu olayla ilgili a… | ✓Elektronlar elektroskoptan toprağa geçmiş, e…
+fen-yc-040 | F.8.7.2.2 | z2 | k0 | Bir akaryakıt tankeri yol alırken yakıtın çalkalanması ve sürtünme yüzünden gövdesinde yük birikebilir. Bu yüzden tankerin arkası… | ✓II ve III
+fen-yc-041 | F.8.7.2.2 | z2 | k0 | Bir öğrenci, yüklü bir metal küreyi dört deneyde farklı bağlantılarla toprağa bağlamaya çalışıyor. Bağlantı malzemeleri ve duruml… | ✓1 ve 4
+fen-yc-042 | F.8.7.2.2 | z2 | k0 | Şekilde üç binanın çatısı ve çevresi gösterilmiştir. K ve L binalarına paratoner takılmıştır, M binasında paratoner yoktur. Üç bi… | ✓Yalnızca K binasında
+fen-yc-043 | F.8.7.2.1 | z2 | k0 | Bir öğrenci elektriklenmeyle ilgili şu cümleleri yazıyor. I. Elektron veren cisim negatif yüklenir. II. Elektron alan cisim negat… | ✓Yalnız II
+fen-yc-044 | F.8.7.2.2 | z2 | k0 | Şekilde yük durumu verilen P cismi, iletken bir telle toprağa bağlanıyor. Buna göre topraklama sırasında P cisminden toprağa kaç … | ✓7
+fen-yc-045 | F.8.7.2.2 | z2 | k0 | Topraklamayla ilgili aşağıdaki bilgilerden hangisi yanlıştır? | ✓Sürtünme sırasında yük oluşmasını tamamen en…
+fen-yc-046 | F.8.7.2.2 | z2 | k0 | Bir iplik fabrikasında iplikler makaralardan hızla geçerken sürtünmeyle yükleniyor ve makinelere yaklaştıklarında küçük kıvılcıml… | ✓Gövdedeki yük uzaklaştığı için kıvılcım risk…
+fen-yc-047 | F.8.7.2.1 | z2 | k0 | Üzerinde 15 proton bulunan bir cisim negatif yüklüdür ve elektron sayısı proton sayısından 4 fazladır. Buna göre bu cisimde kaç e… | ✓19
+fen-yc-048 | F.8.7.2.1 | z3 | k0 | Şekilde yük durumları verilen K, L ve M cisimleri, yalıtkan saplarla tutularak ikişer ikişer birbirine yaklaştırılıyor. Bir öğren… | ✓Yalnız III
+fen-yc-049 | F.8.7.2.2 | z3 | k0 | Bir elektronik atölyesinde teknisyen, hassas devre kartlarıyla çalışırken bileğine, ucu toprak hattına bağlı iletken bir bileklik… | ✓Yalnız I
+fen-yc-050 | F.8.7.2.2 | z3 | k0 | Yanıcı toz bulunan bir fabrikada zemin toprak hattına bağlıdır. Dört işçinin ayakkabı tabanı ve bastığı zeminin malzemesi tabloda… | ✓Yalnız K
+fen-yc-051 | F.8.7.2.1 | z3 | k0 | İpe asılı K, L ve M küreleri ikişer ikişer birbirine yaklaştırılıyor. K ile L birbirini çekiyor, L ile M birbirini itiyor. M küre… | ✓L negatif yüklüdür; K pozitif yüklü ya da nö…
+fen-yc-052 | F.8.7.2.2 | z3 | k0 | Şekilde yük durumları verilen iletken K, L ve M cisimleri ayrı ayrı iletken birer telle toprağa bağlanıyor. Buna göre hangi cisim… | ✓L ve M
+fen-yc-053 | F.8.7.2.1 | z3 | k0 | Başlangıçta nötr olan K ve L cisimlerinin yük durumları, K cisminin sürtünmeden sonraki durumuyla birlikte şekilde gösterilmiştir… | ✓4 pozitif, 7 negatif
+fen-yc-054 | F.8.7.2.1 | z3 | k0 | Aynı yünlü kazağa sürtülen iki özdeş balon, ipe asılıp yan yana tutulduğunda birbirinden uzaklaşıyor. Balonlardan biri nötr bir d… | ✓I ve II
+fen-yc-055 | F.8.7.2.1 | z3 | k0 | Yalıtkan saplarla tutulan özdeş iletken K ve L kürelerinin yük durumları şekilde verilmiştir. K ile L birbirine dokundurulup ayrı… | ✓L’den K’ye elektron geçer; küreler birbirini…
+fen-yc-056 | F.8.7.2.2 | z3 | k0 | Şekilde yük durumları verilen P, R ve S cisimleri ayrı ayrı iletken tellerle toprağa bağlanıyor. Buna göre bu cisimlerden hangile… | ✓Yalnız R
+fen-yc-057 | F.8.7.2.1 | z3 | k0 | Bir öğrenci ipe asılı K, L ve M küreleriyle deney yapıp gözlemlerini tabloya yazıyor. Kürelerden hiçbirinin yük durumu önceden bi… | ✓Birbirini çekerler
+fen-yc-058 | F.8.7.2.2 | z3 | k0 | Yalıtkan sehpa üzerindeki nötr metal K küresine, pozitif yüklü bir çubuk dokundurulmadan yaklaştırılıyor. Çubuk yerindeyken K kür… | ✓Negatif yüklüdür; topraktan küreye elektron …
+fen-yc-059 | F.8.7.2.2 | z3 | k0 | Metal K cismi 7 pozitif ve 3 negatif yük taşımaktadır. K cismi iletken bir telle toprağa bağlanıyor, daha sonra tel kaldırılıyor … | ✓K nötr olduğu için yapraklar hiç açılmaz
+fen-yc-060 | F.8.7.2.2 | z3 | k0 | Bir öğrenci, elinde tuttuğu metal çubuğu yünlü kumaşa sürtüp nötr kâğıt parçalarına yaklaştırıyor; kâğıt parçaları çubuğa çekilmi… | ✓Metal çubukta oluşan yük, el ve vücut yoluyl…
+fen-yc-061 | F.8.7.2.2 | z3 | k0 | Nötr K cismi (8 pozitif, 8 negatif yük) yüne sürtülünce 3 elektron veriyor. Daha sonra K cismi iletken bir telle toprağa bağlanıy… | ✓Topraktan K’ye 3 elektron geçer
+fen-yc-062 | F.8.7.2.2 | z3 | k0 | Şekilde yük durumu verilen L cismi iletken bir telle toprağa bağlanıyor. Tel kaldırıldıktan sonra L cismi, başka bir cisimden 2 e… | ✓Negatif yüklü; 2 elektron fazla
+fen-yc-063 | F.8.7.2.2 | z3 | k0 | Kış aylarında araç koltuğundan kalkan sürücünün giysileri ile koltuk arasındaki sürtünme nedeniyle sürücünün vücudunda yük biriki… | ✓Vücutta biriken yükü topraklı pompa yoluyla …
+fen-yc-064 | F.8.7.2.1 | z4 | k0 | Fen kulübünde bir öğrenci X cismiyle ilgili şu bilgileri veriyor. - Başlangıçta yalnızca pozitif yük sayısı bilinmektedir: 9 pozi… | ✓Pozitif yüklü; 5 elektron eksik
+fen-yc-065 | F.8.7.2.2 | z4 | k0 | Şekilde yük durumları verilen K ve L cisimleri iletken birer telle aynı anda toprağa bağlanıyor. Topraklama tamamlandığında iki c… | ✓2
+fen-yc-066 | F.8.7.2.1 | z4 | k0 | Şekilde başlangıçta nötr olan K, L ve M cisimlerinin yük durumları gösterilmiştir. Önce K ile L birbirine sürtülüyor ve K’den L’y… | ✓Yalnız K ile L arasında
+fen-yc-067 | F.8.7.2.2 | z4 | k0 | Yalıtkan sehpa üzerindeki nötr metal K küresine, negatif yüklü bir çubuk dokundurmadan yaklaştırılıyor. Çubuk yerindeyken K küres… | ✓Nötrdür; çubuk uzaklaşırken topraktan elektr…
+fen-yc-068 | F.8.7.2.1 | z4 | k0 | Bir cismin üzerinde toplam 12 yük sembolü bulunuyor. Cismin üzerinde hem pozitif (+) hem de negatif (−) semboller var. Cisim pozi… | ✓5
+fen-yc-069 | F.8.7.2.2 | z4 | k0 | Yanıcı plastik tozunun bulunduğu bir fabrikada, küçük plastik granüller uzun boru hatlarında hızla taşınırken boru yüzeyine sürtü… | ✓Boru hattını, ucu havada kalan bakır telle t…
+fen-yc-070 | F.8.7.2.1 | z4 | k0 | İpe asılı K, L ve M küreleri ikişer ikişer birbirine yaklaştırılıyor. K ile L birbirini çekiyor, L ile M birbirini çekiyor, K ile… | ✓II ve III
+fen-yc-071 | F.8.7.2.2 | z4 | k0 | Bir öğrenci topraklamayla ilgili şu yargıları yazıyor. I. Topraklanan her cisim topraktan elektron alır. II. Topraklamada yük geç… | ✓Yalnız II
+fen-yc-072 | F.8.7.2.2 | z4 | k0 | Şekilde yük durumları verilen özdeş iletken K ve L küreleri yalıtkan saplarla tutuluyor. Önce K ile L birbirine dokundurulup ayrı… | ✓İkisi de pozitiftir; birbirini iterler
+fen-yc-073 | F.8.7.2.1 | z4 | k0 | Yalıtkan saplarla tutulan özdeş iletken K, L ve M kürelerinin yük durumları şekilde verilmiştir. Önce K ile L birbirine dokunduru… | ✓K ve L
+fen-yc-074 | F.8.7.2.2 | z4 | k0 | Yalıtkan saplı iletken K küresi 10 pozitif ve 4 negatif yük taşımaktadır. K küresi önce topraklı büyük bir metal levhaya dokundur… | ✓K, levhadan 6 elektron alır; K ve L birbirin…
+fen-yc-075 | F.8.7.2.2 | z4 | k0 | Elektron sayısı 11 olan bir cismin proton sayısı, 2’den büyük ve 10’dan küçük bir tam sayıdır. Cisim iletken bir telle toprağa ba… | ✓7
