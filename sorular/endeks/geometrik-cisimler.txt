@@ -88,3 +88,213 @@ mat-gc-012 | M.8.3.4.5 | z3 | k0 | Bir hediye kutusu tasarımcısı, kartondan d
 mat-gc-013 | M.8.3.4.3 | z4 | k0 | Bir silindirin yan yüzünün açınımı, çevresi 72 cm olan bir dikdörtgendir. Bu dikdörtgenin taban çevresine karşılık gelen kenarı 2… | ✓384 cm²
 mat-gc-014 | M.8.3.4.4 | z4 | k0 | Taban yarıçapı 10 cm, yüksekliği 15 cm olan silindir biçimli bir kapta 10 cm yüksekliğinde su vardır. Taban yarıçapı 5 cm, yüksek… | ✓2
 mat-gc-015 | M.8.3.4.1 | z4 | k0 | Hacmi 36 cm³ olan ve ayrıtlarının uzunlukları santimetre cinsinden birer tam sayı olan bir dikdörtgenler prizması düşünülüyor. Bu… | ✓40 cm
+mat-gc-126 | M.8.3.4.1 | z1 | k1 | Tabanı yedigen olan bir dik prizma düşünelim. Bu prizmanın kaç ayrıtı vardır? | ✓21
+mat-gc-127 | M.8.3.4.1 | z1 | k1 | Şekilde tabanı düzgün altıgen olan bir dik prizma görülmektedir. Bu prizmanın kaç köşesi vardır? | ✓12
+mat-gc-128 | M.8.3.4.1 | z1 | k1 | Tabanı dokuzgen olan bir dik prizma düşünelim. Bu prizmanın kaç yüzü vardır? | ✓11
+mat-gc-129 | M.8.3.4.1 | z1 | k1 | Şekildeki açınım katlanarak bir cisim yapılıyor. Oluşan cisim aşağıdakilerden hangisidir? | ✓Üçgen tabanlı dik prizma
+mat-gc-130 | M.8.3.4.1 | z1 | k1 | Aşağıdaki cisimlerden hangisinin iki tabanı da çokgendir? | ✓Dik prizma
+mat-gc-131 | M.8.3.4.2 | z1 | k1 | Şekilde bir dik dairesel silindirin açınımı verilmiştir. Dikdörtgenin dairelere değen kenarı 42 cm'dir. π yerine 3 alınız. Bu sil… | ✓7
+mat-gc-132 | M.8.3.4.2 | z1 | k1 | Şekildeki açınımda dairelerin yarıçapı 3 cm, dikdörtgenin dairelere değen kenarı 18 cm, diğer kenarı 5 cm'dir. π yerine 3 alınız.… | ✓5
+mat-gc-133 | M.8.3.4.2 | z1 | k1 | Şekilde taban yarıçapı 5 cm, yüksekliği 4 cm olan bir dik dairesel silindir verilmiştir. Silindirin yanal yüzü açıldığında bir di… | ✓4
+mat-gc-134 | M.8.3.4.2 | z1 | k1 | Taban yarıçapı 3 cm olan silindir biçimli bir bisküvi tüpünün ağzının çevresine bir tur dolanacak renkli bir şerit sarılacaktır. … | ✓18
+mat-gc-135 | M.8.3.4.3 | z1 | k1 | Şekildeki dik dairesel silindirin taban yarıçapı 4 cm, yüksekliği 5 cm'dir. Bu silindirin yanal yüzünün alanı kaç cm²'dir? | ✓40π
+mat-gc-136 | M.8.3.4.3 | z1 | k1 | Silindir biçimli bir kurabiye kutusunun kapağına, kapağı tam kaplayan daire biçiminde bir etiket yapıştırılacaktır. Kapağın yarıç… | ✓108
+mat-gc-137 | M.8.3.4.3 | z1 | k1 | Silindir biçimli bir turşu kavanozunun taban çevresi 15 cm'dir. Kavanozun yan yüzünü baştan sona saran etiketin alanı 60 cm²'dir.… | ✓4
+mat-gc-138 | M.8.3.4.3 | z1 | k1 | Şekildeki açınımda dairelerin yarıçapı 5 cm, dikdörtgenin dairelere değen kenarı 30 cm, diğer kenarı 3 cm'dir. π yerine 3 alınız.… | ✓90
+mat-gc-139 | M.8.3.4.4 | z1 | k1 | Şekildeki kibrit kutusu dikdörtgenler prizması biçimindedir; tabanının kenarları 5 cm ve 3 cm, yüksekliği 6 cm'dir. Bu kutunun ha… | ✓90
+mat-gc-140 | M.8.3.4.4 | z1 | k1 | Şekildeki silindir biçimli saksının taban yarıçapı 3 cm, yüksekliği 10 cm'dir. π yerine 3 alınız. Bu saksının hacmi kaç cm³'tür? | ✓270
+mat-gc-141 | M.8.3.4.4 | z1 | k1 | Hacmi 54 cm³ olan silindir biçimli bir kabın taban alanı 9 cm²'dir. Bu kabın yüksekliği kaç cm'dir? | ✓6
+mat-gc-142 | M.8.3.4.4 | z1 | k1 | Şekildeki silindir biçimli havuzun taban yarıçapı 5 m, derinliği 2 m'dir. Havuz ağzına kadar suyla doludur. Havuzdaki suyun hacmi… | ✓50π
+mat-gc-143 | M.8.3.4.4 | z1 | k1 | Silindir biçimli bir çöp kovasının hacmi 7500 cm³'tür. (1 litre = 1000 cm³) Bu kova kaç litre çöp alır? | ✓7,5
+mat-gc-144 | M.8.3.4.4 | z1 | k1 | Taban alanı 40 cm² olan silindir biçimli bir kapta 5 cm yüksekliğinde su vardır. Kaptaki suyun hacmi kaç cm³'tür? | ✓200
+mat-gc-145 | M.8.3.4.5 | z1 | k1 | Şekilde tabanı düzgün altıgen olan bir dik piramit görülmektedir. Bu piramidin kaç yüzü vardır? | ✓7
+mat-gc-146 | M.8.3.4.5 | z1 | k1 | Şekilde bir dik piramit ve üzerinde dört doğru parçası a, b, c, d harfleriyle gösterilmiştir. Piramidin yüksekliğini gösteren doğ… | ✓a
+mat-gc-147 | M.8.3.4.6 | z1 | k1 | Bir dik koninin yanal yüzü açıldığında düz bir yüzey elde ediliyor. Koninin açınımı hangi şekillerden oluşur? | ✓Bir daire ve bir daire dilimi
+mat-gc-148 | M.8.3.4.6 | z1 | k1 | Şekilde koni biçimli bir kum kalesi kalıbı görülüyor. Kalıbın taban yarıçapı 7 cm, ana doğrusu 25 cm'dir. Bu kalıbın yüksekliği k… | ✓24
+mat-gc-149 | M.8.3.4.6 | z1 | k1 | Bir dik koninin tepe noktası, taban çemberi üzerindeki noktalara doğru parçalarıyla birleştiriliyor. Bu doğru parçalarına ana doğ… | ✓Hepsinin uzunluğu birbirine eşittir.
+mat-gc-150 | M.8.3.4.1 | z2 | k1 | Şekildeki üçgen prizma biçimli çikolata kutusunun tabanı dik üçgendir; üçgenin kenarları 3 cm, 4 cm ve 5 cm, prizmanın yüksekliği… | ✓132
+mat-gc-151 | M.8.3.4.1 | z2 | k1 | Bir maket atölyesinde yüz sayısı 11 olan bir dik prizma yapılacaktır. Bu prizmanın kaç köşesi vardır? | ✓18
+mat-gc-152 | M.8.3.4.1 | z2 | k1 | Tabanı düzgün beşgen olan, taban kenarı 6 cm ve yüksekliği 9 cm olan dik prizma biçimli bir kutunun yan yüzleri renkli kâğıtla ka… | ✓270
+mat-gc-153 | M.8.3.4.1 | z2 | k1 | Tabanı kare olan dik prizma biçimli bir fener iskeleti, bütün ayrıtları için ince çubuklar kesilerek yapılacaktır ve çubuktan hiç… | ✓10
+mat-gc-154 | M.8.3.4.2 | z2 | k1 | Zeynep, 30 cm × 8 cm boyutlu dikdörtgen biçimli bir kartonu, 30 cm'lik kenarı taban çevresi olacak biçimde üst üste bindirmeden y… | ✓75
+mat-gc-155 | M.8.3.4.2 | z2 | k1 | Şekilde bir silindirin açınımı verilmiştir. Silindirin yüksekliği, taban yarıçapının 2 katıdır. Dikdörtgenin dairelere değen kena… | ✓16
+mat-gc-156 | M.8.3.4.3 | z2 | k1 | Silindir biçimli bir gazoz kutusunun taban yarıçapı 3 cm, yüksekliği 7 cm'dir. Kutunun kapağı dâhil dış yüzeyinin tamamına folyo … | ✓60π
+mat-gc-157 | M.8.3.4.3 | z2 | k1 | Silindir biçimli bir tahıl silosunun taban yarıçapı 2 m, yüksekliği 5 m'dir. Silonun yalnızca yan yüzü boyanacak, tabanlar boyanm… | ✓1200
+mat-gc-158 | M.8.3.4.3 | z2 | k1 | Silindir biçimli kapalı bir şeker kutusunun taban yarıçapı 4 cm, yüzey alanı 168 cm²'dir. π yerine 3 alınız. Bu kutunun yüksekliğ… | ✓3
+mat-gc-159 | M.8.3.4.3 | z2 | k1 | Bir silindirin taban yarıçapı ve yüksekliği ikişer katına çıkarılıyor. Silindirin yanal yüzünün alanı kaç katına çıkar? | ✓4
+mat-gc-160 | M.8.3.4.3 | z2 | k1 | Şekildeki açınımdan, kapakları dâhil kapalı bir silindir yapılacaktır. Dairelerin yarıçapı 2 cm, dikdörtgenin dairelere değen ken… | ✓84
+mat-gc-161 | M.8.3.4.3 | z2 | k1 | Boyu 2 m, dış yarıçapı 5 cm olan silindir biçimli bir borunun dış yüzeyi yalıtım bandıyla sarılacaktır. Boru uçları açıktır; yaln… | ✓6000
+mat-gc-162 | M.8.3.4.4 | z2 | k1 | Taban alanı 100 cm² olan silindir biçimli şeffaf bir ölçü kabına 2 litre su dökülüyor. (1 litre = 1000 cm³) Kaptaki su yüksekliği… | ✓20
+mat-gc-163 | M.8.3.4.4 | z2 | k1 | Şekildeki kek kalıbı silindir biçimlidir. Kalıbın taban çapı 10 cm, yüksekliği 12 cm'dir. π yerine 3 alınız. Bu kalıbın hacmi kaç… | ✓900
+mat-gc-164 | M.8.3.4.4 | z2 | k1 | Bir çikolata kutusu, tabanı kare olan dik prizma biçimindedir. Kutunun hacmi 144 cm³, yüksekliği 9 cm'dir. Kutunun taban kenarı k… | ✓4
+mat-gc-165 | M.8.3.4.4 | z2 | k1 | Şekilde dikdörtgenler prizması biçimindeki bir yüzme havuzunun ölçüleri verilmiştir. Havuz ağzına kadar doldurulacaktır. (1 m³ = … | ✓60000
+mat-gc-166 | M.8.3.4.4 | z2 | k1 | Şekilde yüksekliği 10 cm olan iki cisim görülüyor: taban kenarı 6 cm olan kare dik prizma ile taban yarıçapı 3 cm olan dik silind… | ✓90
+mat-gc-167 | M.8.3.4.4 | z2 | k1 | Bir bahçıvan, silindir biçimli sulama tankının alabileceği su miktarını yaklaşık olarak tahmin etmek istiyor. Tankın taban yarıça… | ✓135
+mat-gc-168 | M.8.3.4.4 | z2 | k1 | Silindir biçimli bir saksının hacmi 108 cm³, derinliği 4 cm'dir. π yerine 3 alınız. Saksının taban yarıçapı kaç cm'dir? | ✓3
+mat-gc-169 | M.8.3.4.5 | z2 | k1 | Şekildeki dik piramidin tabanı kenar uzunluğu 10 cm olan bir karedir ve yüksekliği 12 cm'dir. Tepe noktasını bir taban kenarının … | ✓13
+mat-gc-170 | M.8.3.4.5 | z2 | k1 | Tabanı düzgün altıgen olan bir dik prizma ile tabanı aynı altıgen olan bir dik piramit karşılaştırılıyor. Prizmanın ayrıt sayısı,… | ✓6
+mat-gc-171 | M.8.3.4.5 | z2 | k1 | Bir dik piramidin açınımı, bir taban çokgeni ile bu çokgenin kenarlarına bağlı 7 üçgenden oluşmaktadır. Bu piramidin kaç köşesi v… | ✓8
+mat-gc-172 | M.8.3.4.5 | z2 | k1 | Bir dik piramidin köşe sayısı ile yüz sayısının toplamı 12'dir. Bu piramidin tabanı kaç kenarlıdır? | ✓5
+mat-gc-173 | M.8.3.4.6 | z2 | k1 | Bir koninin yanal yüzü açıldığında şekildeki daire dilimi elde ediliyor. Dilimin yarıçapı 20 cm, yay uzunluğu 30 cm'dir. π yerine… | ✓5
+mat-gc-174 | M.8.3.4.6 | z2 | k1 | Şekildeki koni biçimli çadır maketinin taban çapı 40 cm, ana doğrusu 29 cm'dir. Bu maketin yüksekliği kaç cm'dir? | ✓21
+mat-gc-175 | M.8.3.4.6 | z2 | k1 | Taban yarıçapı 7 cm, ana doğrusu 14 cm olan dik koninin yanal yüzü açıldığında bir daire dilimi elde ediliyor. Dilimin yarıçapı k… | ✓[[1|2]]
+mat-gc-226 | M.8.3.4.1 | z2 | k2 | Bir ahşap atölyesinde, bütün yüzlerinin sayısı 8 olan, dik prizma biçiminde bir kalemlik yapılacaktır. Bu prizmanın kaç köşesi va… | ✓12
+mat-gc-227 | M.8.3.4.5 | z2 | k2 | Bir seramik atölyesinde, köşe sayısı 11 olan dik piramit biçiminde bir süs yapılacaktır. Bu piramidin ayrıt sayısı kaçtır? | ✓20
+mat-gc-228 | M.8.3.4.2 | z2 | k2 | Şekilde, silindir biçimli bir çöp kovasının yan yüzü ile iki tabanının açınımı verilmiştir. Dikdörtgenin dairelere değen kenarı 5… | ✓18
+mat-gc-229 | M.8.3.4.4 | z2 | k2 | Şekildeki silindir biçimli çocuk havuzunun taban yarıçapı 2 m, derinliği 1 m'dir. Havuz ağzına kadar suyla doldurulacaktır. (π ye… | ✓12000
+mat-gc-230 | M.8.3.4.3 | z2 | k2 | Şekildeki silindir biçimli, iki ucu açık metal borunun taban yarıçapı 5 cm, uzunluğu 40 cm'dir. Borunun dış yüzeyi (yalnızca yan … | ✓1200
+mat-gc-231 | M.8.3.4.6 | z2 | k2 | Şekildeki antrenman konisi dik koni biçimindedir. Taban çapı 32 cm, yüksekliği 30 cm'dir. Koninin ana doğrusu kaç cm'dir? | ✓34
+mat-gc-232 | M.8.3.4.1 | z2 | k2 | Tabanı düzgün sekizgen olan, taban kenarı 3 cm ve yüksekliği 10 cm olan dik prizma biçimli bir deniz feneri maketinin yan yüzeyle… | ✓240
+mat-gc-233 | M.8.3.4.4 | z2 | k2 | Silindir biçimli bir çiçek saksısı ağzına kadar toprakla doldurulunca 540 cm³ toprak almaktadır. Saksının yüksekliği 5 cm'dir. (π… | ✓6
+mat-gc-234 | M.8.3.4.2 | z2 | k2 | Taban yarıçapı 5 cm, yüksekliği 9 cm olan bir dik dairesel silindirin açınımı çiziliyor. (π yerine 3 alınız.) Bu açınım için aşağ… | ✓Dikdörtgenin çevresi 39 cm'dir.
+mat-gc-235 | M.8.3.4.1 | z2 | k2 | Şekilde ölçüleri verilen, üstü açık ve dikdörtgenler prizması biçimli cam saklama kutusunun tabanı ve dört yan yüzü camdan yapıla… | ✓118
+mat-gc-236 | M.8.3.4.5 | z2 | k2 | Tabanı beşgen olan bir dik prizma ile tabanı beşgen olan bir dik piramit karşılaştırılıyor. Bu iki cisim için aşağıdakilerden han… | ✓Prizmanın yüz sayısı, piramidin yüz sayısınd…
+mat-gc-237 | M.8.3.4.3 | z2 | k2 | Şekildeki silindir biçimli, kapalı kutunun taban yarıçapı 3 cm, yüksekliği 5 cm'dir. Bu kutunun bütün yüzeyinin alanı kaç cm²'dir… | ✓48π
+mat-gc-238 | M.8.3.4.4 | z2 | k2 | Deniz, silindir biçimli bir şişenin taban yarıçapını yaklaşık 2,9 cm, yüksekliğini yaklaşık 10,2 cm ölçüyor. Şişenin hacmini, π y… | ✓270
+mat-gc-239 | M.8.3.4.6 | z2 | k2 | Dik dairesel koni ile dik piramit karşılaştırılıyor. Aşağıdakilerden hangisi her ikisi için de doğrudur? | ✓İkisinin de bir tepe noktası vardır.
+mat-gc-240 | M.8.3.4.1 | z2 | k2 | Şekildeki açınım, çizgileri boyunca katlanarak bir dik prizma yapılıyor. Açınım üç dikdörtgen ve iki eşkenar üçgenden oluşmaktadı… | ✓20
+mat-gc-241 | M.8.3.4.2 | z2 | k2 | Şekilde bir dik dairesel silindirin açınımı verilmiştir. Silindirin yan yüzünü oluşturan dikdörtgenin dairelere değen kenarı bili… | ✓20π + 16
+mat-gc-242 | M.8.3.4.4 | z2 | k2 | Aşağıdaki tabloda, bir marketin sattığı süt ambalajlarından kare tabanlı dik prizma biçimli olanın ve silindir biçimli olanın ölç… | ✓500
+mat-gc-243 | M.8.3.4.3 | z2 | k2 | Silindir biçimli, kapakları kapalı bir metal fıçının taban yarıçapı 2 m, yüksekliği 5 m'dir. Fıçının dış yüzeyinin tamamı kaplana… | ✓840
+mat-gc-244 | M.8.3.4.5 | z2 | k2 | Şekilde, kare tabanlı bir dik piramidin bir yan yüzü olan ikizkenar üçgen verilmiştir. Taban kenarı 16 cm, yan ayrıtlar 17 cm'dir… | ✓15
+mat-gc-245 | M.8.3.4.6 | z2 | k2 | Bir koninin yan yüzünün açınımı, yarıçapı 18 cm olan bir yarım dairedir. Bu yarım daire kıvrılıp uçları birleştirilerek koni oluş… | ✓9
+mat-gc-246 | M.8.3.4.3 | z2 | k2 | Aşağıdaki tabloda silindir biçimli iki bidonun ölçüleri verilmiştir. (π yerine 3 alınız.) Bu bidonların yan yüzeylerinin alanları… | ✓Yan yüzeylerinin alanları eşittir; B'nin hac…
+mat-gc-247 | M.8.3.4.4 | z2 | k2 | Şekildeki silindir biçimli kabın taban yarıçapı 10 cm, yüksekliği 40 cm'dir. Kapta 12 cm yüksekliğinde su vardır. (π yerine 3 alı… | ✓8400
+mat-gc-248 | M.8.3.4.1 | z2 | k2 | Tabanı 8 cm × 6 cm olan dikdörtgenler prizması biçimli bir fener iskeleti, bütün ayrıtları birer tel parçasıyla yapılarak hazırla… | ✓16
+mat-gc-249 | M.8.3.4.4 | z2 | k2 | Dört silindirin taban yarıçapları ve yükseklikleri tabloda verilmiştir. (π yerine 3 alınız.) Hangi iki silindirin hacmi birbirine… | ✓K ile M
+mat-gc-250 | M.8.3.4.5 | z2 | k2 | Şekildeki açınım bir düzgün altıgen ve altı eş ikizkenar üçgenden oluşmaktadır. Açınım katlanarak bir dik piramit yapılıyor. Oluş… | ✓5
+mat-gc-251 | M.8.3.4.3 | z2 | k2 | Taban yarıçapı 2 cm olan, kapağı kapalı ve silindir biçimli hediyelik bir teneke kutunun bütün yüzeyinin alanı 108 cm²'dir. (π ye… | ✓7
+mat-gc-252 | M.8.3.4.1 | z3 | k2 | Bir mimarlık öğrencisi, dik prizma biçiminde bir bina maketi tasarlıyor. Maketin yüz sayısı ile ayrıt sayısının toplamı 26'dır. B… | ✓12
+mat-gc-253 | M.8.3.4.6 | z3 | k2 | Bir inşaat alanındaki koni biçimli kum yığınının tepe noktasından yamaç boyunca zemine olan uzaklığı (ana doğru) 26 m, yüksekliği… | ✓60
+mat-gc-254 | M.8.3.4.3 | z3 | k2 | Taban yarıçapı 6 cm olan dik dairesel bir silindirin yan yüzünün alanı, iki tabanının alanları toplamının 2 katıdır. Buna göre bu… | ✓12
+mat-gc-255 | M.8.3.4.4 | z3 | k2 | Taban yarıçapı 6 cm olan silindir biçimli bir kapta 15 cm yüksekliğinde su vardır; kabın yüksekliği 20 cm'dir. Taban yarıçapı 3 c… | ✓2
+mat-gc-256 | M.8.3.4.2 | z3 | k2 | Yüksekliği, taban yarıçapına eşit olan bir dik dairesel silindirin yan yüzü açılıp bir dikdörtgen elde ediliyor (şekle bakınız). … | ✓6
+mat-gc-257 | M.8.3.4.5 | z3 | k2 | Kare tabanlı dik piramit biçimindeki bir süs ışığının taban kenarı 30 cm'dir. Bir yan yüzdeki ikizkenar üçgenin tepe noktasından … | ✓220
+mat-gc-258 | M.8.3.4.1 | z3 | k2 | Şekildeki gibi tabanı kare olan, taban kenarı a cm ve yüksekliği (a + 3) cm olan dik prizma biçimli bir ışıklı çerçeve yapılıyor.… | ✓324
+mat-gc-259 | M.8.3.4.4 | z3 | k2 | Bir silindirin yüksekliği %50 artırılıyor ve taban yarıçapı yarıya indiriliyor; başka bir değişiklik yapılmıyor. Buna göre silind… | ✓[[3|8]]
+mat-gc-260 | M.8.3.4.3 | z3 | k2 | Şekildeki boru silindir biçimlidir ve içi boştur. Borunun dış yarıçapı 6 cm, iç yarıçapı 4 cm, uzunluğu 10 cm'dir. Borunun dış yü… | ✓720
+mat-gc-261 | M.8.3.4.5 | z3 | k2 | Bir maket yarışmasında, ayrıt sayısı ile köşe sayısının toplamı 16 olan bir cisim yapılması isteniyor. Aşağıdaki cisimlerden hang… | ✓Tabanı beşgen olan dik piramit
+mat-gc-262 | M.8.3.4.1 | z3 | k2 | Boyutları 10 cm, 6 cm ve 4 cm olan dikdörtgenler prizması biçimli bir tahta kalas, 10 cm'lik ayrıtlarına dik olacak biçimde tam o… | ✓48
+mat-gc-263 | M.8.3.4.4 | z3 | k2 | Kenar uzunluğu 10 cm olan küp biçimli bir ahşap bloğun ön yüzünden arka yüzüne kadar, tam ortasından, çapı 4 cm olan silindir biç… | ✓880
+mat-gc-264 | M.8.3.4.2 | z3 | k2 | Bir silindirin açınımı şekildeki gibidir: bir dikdörtgen ve onun karşılıklı iki uzun kenarına dışarıdan değen eş iki daire. Daire… | ✓624
+mat-gc-265 | M.8.3.4.6 | z3 | k2 | Şekildeki daire diliminin yarıçapı 29 cm, yay uzunluğu 120 cm'dir. Bu daire diliminin iki yarıçapı birleştirilerek bir dik konini… | ✓21
+mat-gc-266 | M.8.3.4.3 | z3 | k2 | Bir firma, silindir biçimli kapalı kutusunun taban yarıçapını 3 cm'den 6 cm'ye çıkarıyor; yüksekliği 8 cm olarak değiştirmiyor. (… | ✓306
+mat-gc-267 | M.8.3.4.4 | z3 | k2 | Taban yarıçapı 10 cm olan silindir biçimli bir kabın yüksekliğinin [[2|5]]'si kadar su vardır. Kaba 1800 cm³ su daha eklenince ka… | ✓10
+mat-gc-268 | M.8.3.4.1 | z3 | k2 | Kare tabanlı dik prizma biçimli bir çikolata kutusunun açınımı şekilde verilmiştir: dört eş dikdörtgenden oluşan şeridin boyu 40 … | ✓680
+mat-gc-269 | M.8.3.4.5 | z3 | k2 | Yan yüzlerinin sayısı 5 olan bir dik piramit ile tabanı bu piramidin tabanıyla aynı olan bir dik prizma düşünülüyor. Bu prizmanın… | ✓4
+mat-gc-270 | M.8.3.4.3 | z3 | k2 | Şekilde, taban yarıçapı 4 cm ve yüksekliği 3 cm olan bir silindirin üzerine, taban yarıçapı 2 cm ve yüksekliği 5 cm olan bir sili… | ✓228
+mat-gc-271 | M.8.3.4.4 | z3 | k2 | Taban çevresi 12π cm ve yüksekliği 5 cm olan dik dairesel silindir biçiminde bir mum yapılıyor. Bu mumun hacmi kaç cm³'tür? | ✓180π
+mat-gc-272 | M.8.3.4.2 | z3 | k2 | Bir silindirin açınımında, yan yüzü oluşturan dikdörtgenin köşegeni 50 cm, dairelere değen kenarı 48 cm'dir (şekle bakınız). (π y… | ✓22
+mat-gc-273 | M.8.3.4.6 | z3 | k2 | Bir kamp alanında koni biçimli bir tipi çadırın taban yarıçapı 9 dm'dir. Çadırın ana doğrusu, yüksekliğinden 1 dm uzundur. Buna g… | ✓40
+mat-gc-274 | M.8.3.4.4 | z3 | k2 | Silindir biçimli bir yağmur suyu tankının taban çapı 4 m, yüksekliği 3 m'dir. Boş olan tank, saatte 400 litre su veren bir pompay… | ✓90
+mat-gc-275 | M.8.3.4.6 | z3 | k2 | Yarıçapı 30 cm olan bir dairenin [[3|5]]'ü olan daire dilimi şekildeki gibidir. Bu dilimin iki yarıçapı birleştirilerek bir dik k… | ✓24
+mat-gc-326 | M.8.3.4.1 | z3 | k3 | Bir çikolata atölyesinde boncuk ve logodan oluşan toplam 75 süs parçası vardır. Atölye, tabanı düzgün altıgen olan dik prizma biç… | ✓15
+mat-gc-327 | M.8.3.4.5 | z3 | k3 | Bir ahşap atölyesi, tabanı düzgün sekizgen olan dik piramit biçiminde 2 çardak maketi yapıyor. Maketlerin her ayrıtı için bir çub… | ✓6
+mat-gc-328 | M.8.3.4.3 | z3 | k3 | Dış yarıçapı 5 cm, boyu 40 cm olan silindir biçimli iki özdeş borunun yalnızca dış yan yüzeyi yalıtım bandıyla kaplanacaktır (bor… | ✓2400
+mat-gc-329 | M.8.3.4.4 | z3 | k3 | Taban çapı 12 cm, yüksekliği 15 cm olan silindir biçimli bir çiçek saksısına, toprak üst kenardan 5 cm aşağıda kalacak biçimde to… | ✓1080
+mat-gc-330 | M.8.3.4.2 | z3 | k3 | Şekildeki açınımda dikdörtgenin dairelere değen kenarı 30 cm, diğer kenarı 7 cm'dir. Açınım katlanarak bir dik dairesel silindir … | ✓12
+mat-gc-331 | M.8.3.4.1 | z3 | k3 | Şekildeki peynir ambalajı, tabanı dik üçgen olan bir dik prizma biçimindedir. Ambalajın bütün yüzeyi kartondan yapılacak; birleşt… | ✓132
+mat-gc-332 | M.8.3.4.4 | z3 | k3 | Taban yarıçapı 2 m, derinliği 1 m olan silindir biçimli şişme bir havuz boşken, dakikada 200 litre su akıtan bir hortumla ağzına … | ✓60
+mat-gc-333 | M.8.3.4.6 | z3 | k3 | Şekildeki koni biçimli huninin ağız çapı 16 cm, yüksekliği 15 cm'dir. Huninin iç yüzeyine, ağız kenarından uç noktasına kadar düz… | ✓68
+mat-gc-334 | M.8.3.4.3 | z3 | k3 | Silindir biçimli, üstü açık bir çöp kovasının dış yüzeyi (yan yüzey ve alt taban) boyanacaktır. Kovanın taban yarıçapı 20 cm, yük… | ✓5
+mat-gc-335 | M.8.3.4.4 | z3 | k3 | Şekilde taban kenarı 6 cm, yüksekliği 9 cm olan kare dik prizma biçimli bir tahta blok ile taban yarıçapı 3 cm olan silindir biçi… | ✓12
+mat-gc-336 | M.8.3.4.1 | z3 | k3 | Bir dik prizmanın ayrıt sayısı, köşe sayısından 9 fazladır. Buna göre bu prizmanın yüz sayısı kaçtır? | ✓11
+mat-gc-337 | M.8.3.4.5 | z3 | k3 | Şekilde bir düzgün altıgenin her kenarına eş birer ikizkenar üçgen yapışık olan bir açınım görülüyor. Bu açınım katlanarak bir ci… | ✓18 ayrıtı vardır.
+mat-gc-338 | M.8.3.4.3 | z3 | k3 | Silindir biçimli bir tahıl silosunun taban çapı 6 m, yüksekliği 10 m'dir. Silonun zeminde duran alt tabanı dışındaki bütün yüzeyi… | ✓207
+mat-gc-339 | M.8.3.4.4 | z3 | k3 | Taban çapı 4 m, yüksekliği 5 m olan silindir biçimli bir su arıtma tankı boşken, her seferinde 6 m³ su getiren bir tankerle doldu… | ✓10
+mat-gc-340 | M.8.3.4.6 | z3 | k3 | Şekildeki daire dilimi, bir dik koninin yanal yüzünün açınımıdır. Dilimin yarıçapı 15 cm, yay uzunluğu 54 cm'dir. π yerine 3 alın… | ✓12
+mat-gc-341 | M.8.3.4.1 | z3 | k3 | Şekildeki dik prizmanın tabanı, kenarları 5 cm, 5 cm ve 6 cm olan bir ikizkenar üçgendir; prizmanın yüksekliği 8 cm'dir. Üçgenin … | ✓128
+mat-gc-342 | M.8.3.4.2 | z3 | k3 | Bir silindirin yüksekliği, taban yarıçapının 4 katıdır. Yanal yüzünün açınımındaki dikdörtgenin dairelere değen kenarı 24 cm'dir … | ✓384
+mat-gc-343 | M.8.3.4.4 | z3 | k3 | Silindir biçimli bir termosun içi 1,5 litre su alıyor ve iç yüksekliği 20 cm'dir. π yerine 3 alınız. (1 litre = 1000 cm³) Bu term… | ✓10
+mat-gc-344 | M.8.3.4.3 | z3 | k3 | Silindir biçimli bir ahşap kütüğün yan yüzeyinin alanı 540 cm², yüksekliği 15 cm'dir. Kütüğün üst ve alt yüzeyi de dâhil bütün yü… | ✓756
+mat-gc-345 | M.8.3.4.4 | z3 | k3 | Taban yarıçapı 2 cm, boyu 50 cm olan silindir biçimli bir demir milin her 1 cm³'ünün kütlesi 8 gramdır. π yerine 3 alınız. (1 kg … | ✓4,8
+mat-gc-346 | M.8.3.4.1 | z3 | k3 | Bir dik prizmanın yüz sayısı 10'dur. Bu prizmanın iskeleti, bütün ayrıtları 4 cm olacak biçimde çubuklarla yapılacaktır. Bu iskel… | ✓96
+mat-gc-347 | M.8.3.4.2 | z3 | k3 | Şekilde bir dik dairesel silindirin açınımı verilmiştir. Dairelerden birinin alanı 75 cm², dikdörtgenin dairelere değmeyen kenarı… | ✓360
+mat-gc-348 | M.8.3.4.3 | z3 | k3 | Bir dik dairesel silindirin yarıçapı 2 katına çıkarılıp yüksekliği yarıya indiriliyor. Buna göre silindirin yanal alanı ve hacmi … | ✓Yanal alanı değişmez; hacmi 2 katına çıkar.
+mat-gc-349 | M.8.3.4.3 | z3 | k3 | Yükseklikleri 6 cm olan iki dik silindirden birinin taban yarıçapı 2 cm, diğerinin 4 cm'dir. π yerine 3 alınız. Küçük silindirin … | ✓[[2|5]]
+mat-gc-350 | M.8.3.4.4 | z3 | k3 | Çapı 20 cm, boyu 1,5 m olan silindir biçimli bir beton kolonun tamamı dökülecektir. π yerine 3 alınız. (1 litre = 1000 cm³) Bu ko… | ✓45
+mat-gc-351 | M.8.3.4.2 | z3 | k3 | Aşağıda dört açınım verilmiştir. Her açınımda iki daire ve bir dikdörtgen vardır; daireler dikdörtgenin üstteki ve alttaki kenarl… | ✓D açınımı
+mat-gc-352 | M.8.3.4.4 | z3 | k3 | Şekildeki iki katlı doğum günü pastasının alt katı taban yarıçapı 4 cm, üst katı taban yarıçapı 2 cm olan birer silindirdir; iki … | ✓300
+mat-gc-353 | M.8.3.4.1 | z3 | k3 | Tabanı kenar uzunluğu 3 cm olan düzgün sekizgen, yüksekliği 10 cm olan dik prizma biçimli bir lamba kafesinin bütün ayrıtları ışı… | ✓4
+mat-gc-354 | M.8.3.4.5 | z3 | k3 | Şekilde tabanı kenarı 6 cm olan eşkenar üçgen, yan ayrıtları 8 cm olan bir dik piramidin açınımı verilmiştir. Açınım, dış sınırı … | ✓48
+mat-gc-355 | M.8.3.4.4 | z3 | k3 | Silindir biçimli bir su ısıtıcısının iç taban yarıçapı 10 cm, iç yüksekliği 20 cm'dir. İçine 4,5 litre su konulmuştur. π yerine 3… | ✓5
+mat-gc-356 | M.8.3.4.4 | z4 | k3 | Bir firma, tabanının çevresi 24 cm olan iki ambalaj üretiyor: biri tabanı kare olan dik prizma, diğeri dik dairesel silindir biçi… | ✓120
+mat-gc-357 | M.8.3.4.4 | z4 | k3 | A kabı taban yarıçapı 8 cm olan silindir biçimlidir ve içinde 18 cm yüksekliğinde su vardır. Bu suyun tam yarısı, taban yarıçapı … | ✓16
+mat-gc-358 | M.8.3.4.3 | z4 | k3 | Silindir biçimli kapalı bir sprey kutusunun taban yarıçapı 5 cm, yüksekliği 12 cm'dir. Yan yüzeyi etiketle (1 cm² için 2 kuruş), … | ✓13,20
+mat-gc-359 | M.8.3.4.1 | z4 | k3 | Tabanı n kenarlı bir dik piramidin ayrıt sayısı 30'dan fazla değildir. Tabanı yine n kenarlı bir dik prizmanın yüz sayısı ise 12'… | ✓6
+mat-gc-360 | M.8.3.4.2 | z4 | k3 | Şekilde bir dik dairesel silindirin açınımı görülüyor. Her bir dairenin alanı 48 cm²'dir ve dairelerin değdiği kenar, dikdörtgeni… | ✓3456
+mat-gc-361 | M.8.3.4.3 | z4 | k3 | Bir dik dairesel silindirin yan yüzünün alanı, iki taban alanının toplamına eşittir. Bu silindirin hacmi 24 cm³'tür. π yerine 3 a… | ✓48
+mat-gc-362 | M.8.3.4.4 | z4 | k3 | Taban yarıçapı 1 m, yüksekliği 2 m olan silindir biçimli bir yağmur suyu deposunun [[1|4]]'ü doludur. Depo, dakikada 25 litre su … | ✓3
+mat-gc-363 | M.8.3.4.5 | z4 | k3 | Tabanı aynı çokgen olan bir dik prizma ile bir dik piramit vardır. Prizmanın ayrıt sayısı ile piramidin köşe sayısının toplamı 49… | ✓37
+mat-gc-364 | M.8.3.4.5 | z4 | k3 | Bir dik piramidin açınımında tabanı da dâhil toplam 11 çokgen vardır. Bu piramidin iskeleti yapılacak; her ayrıt için 5 cm uzunlu… | ✓20
+mat-gc-365 | M.8.3.4.5 | z4 | k3 | Bir cismin yüz sayısı ile ayrıt sayısının toplamı 25'tir. Bu cisim aşağıdakilerden hangisi olabilir? | ✓Tabanı sekizgen olan dik piramit
+mat-gc-366 | M.8.3.4.6 | z4 | k3 | Yarıçapı 20 cm olan daire biçimli bir kartonun, tam dairenin [[3|5]]'ine karşılık gelen daire dilimi kesiliyor ve kenarları birbi… | ✓16
+mat-gc-367 | M.8.3.4.6 | z4 | k3 | Koni biçimli bir tipi çadırın yüksekliği 8 m, taban çapı 12 m'dir. Tepe noktasından taban çemberi üzerindeki 6 noktaya, çadırın y… | ✓99
+mat-gc-368 | M.8.3.4.6 | z4 | k3 | Koni biçimli bir bayram şapkasının ana doğrusu, taban yarıçapının [[5|3]] katıdır; yüksekliği 12 cm'dir. Şapkanın ağız kenarına b… | ✓69
+mat-gc-369 | M.8.3.4.6 | z4 | k3 | Şekildeki kule maketinin gövdesi taban yarıçapı 6 cm ve yüksekliği 20 cm olan bir silindir; çatısı ise yüksekliği 8 cm olan, taba… | ✓12
+mat-gc-370 | M.8.3.4.1 | z4 | k3 | Tabanı düzgün çokgen olan dik prizmalar, köşe sayısı ile yüz sayısının toplamı 40'ı geçmeyecek biçimde üretiliyor. Bu prizmaların… | ✓72
+mat-gc-371 | M.8.3.4.1 | z4 | k3 | Kenarı 4 cm olan dört özdeş küp biçimli ahşap blok, birer yüzleri tam çakışacak biçimde yapıştırılarak tek bir cisim oluşturuluyo… | ✓288
+mat-gc-372 | M.8.3.4.2 | z4 | k3 | Bir dik dairesel silindirin yüksekliği, taban çapına eşittir. Bu silindirin yan yüzünün açınımındaki dikdörtgenin çevresi 96 cm'd… | ✓216
+mat-gc-373 | M.8.3.4.3 | z4 | k3 | Taban yarıçapı 6 cm, yüksekliği 15 cm olan silindir biçimli 7 kutunun yan yüzeyleri etiketle kaplanacaktır. Etiketler, her biri 1… | ✓3
+mat-gc-374 | M.8.3.4.4 | z4 | k3 | Silindir biçimli bir su sebilinin iç taban çapı 20 cm'dir. Sebilin [[4|5]]'ü doludur; üzerine 1,2 litre su eklenince tamamen dolm… | ✓20
+mat-gc-375 | M.8.3.4.4 | z4 | k3 | Çapı 40 cm, boyu 2,5 m olan silindir biçimli 12 betonarme kolon dökülecektir. Bir beton mikseri 1 m³ beton taşımaktadır. π yerine… | ✓4
+mat-gc-016 | M.8.3.4.1 | z1 | k0 | Tabanı üçgen olan dik prizma biçimindeki bir çadırın zemini dâhil bütün yüzleri kumaştan yapılmıştır. Bu çadırın kaç yüzü vardır? | ✓5
+mat-gc-017 | M.8.3.4.1 | z1 | k0 | Tabanı düzgün sekizgen olan dik prizma biçimindeki bir kalem kutusunun maketi, bütün ayrıtları ince çubuklarla gösterilerek yapıl… | ✓24
+mat-gc-018 | M.8.3.4.2 | z1 | k0 | Silindir biçimli bir kutunun yan yüzü açıldığında, bir kenarı taban çemberinin uzunluğuna eşit olan ve bu kenarı 18 cm olan bir d… | ✓3
+mat-gc-019 | M.8.3.4.2 | z1 | k0 | Yüksekliği 10 cm, taban çevresi 30 cm olan silindir biçimli bir kutunun yan yüzü açılıp düz bir dikdörtgen elde ediliyor. Bu dikd… | ✓80
+mat-gc-020 | M.8.3.4.3 | z1 | k0 | Taban çevresi 20 cm, yüksekliği 6 cm olan silindir biçimli bir kutunun yan yüzünü tam saran dikdörtgen biçimli bir etiket vardır.… | ✓120
+mat-gc-021 | M.8.3.4.3 | z1 | k0 | Taban yarıçapı 5 cm olan, silindir biçimli bir kutunun alt ve üst kapakları birer dairedir. π yerine 3 alınız. Bu iki kapağın ala… | ✓150
+mat-gc-022 | M.8.3.4.4 | z1 | k0 | Silindir biçimli bir kek kalıbının hacmi 90 cm³, yüksekliği 6 cm'dir. Bu kalıbın taban alanı kaç cm²'dir? | ✓15
+mat-gc-023 | M.8.3.4.4 | z1 | k0 | Hacmi 3 m³ olan bir su deposu ağzına kadar suyla doludur. Depoda kaç litre su vardır? | ✓3000
+mat-gc-024 | M.8.3.4.5 | z1 | k0 | Aşağıdakilerden hangisi bir dik piramidin özelliği değildir? | ✓İki tabanı birbirine eş ve paraleldir.
+mat-gc-025 | M.8.3.4.5 | z1 | k0 | Tabanı düzgün sekizgen olan dik piramit biçimli bir saat kulesi maketi yapılmıştır. Bu maketin kaç yüzü vardır? | ✓9
+mat-gc-026 | M.8.3.4.6 | z1 | k0 | Dik koni biçimli bir hediye kutusunun tabanı dâhil bütün yüzeyi kesilip düz bir masaya seriliyor. Serilen şekil hangi parçalardan… | ✓Bir daire ve bir daire dilimi
+mat-gc-027 | M.8.3.4.6 | z1 | k0 | Aşağıdaki nesnelerden hangisi dik koni biçimine en çok benzer? | ✓Sivri uçlu kâğıt külah
+mat-gc-028 | M.8.3.4.1 | z2 | k0 | Bir fener maketinin iskeleti, tabanı kenar uzunluğu 6 cm olan düzgün üçgen, yüksekliği 10 cm olan dik prizma biçimindedir. Maketi… | ✓66
+mat-gc-029 | M.8.3.4.1 | z2 | k0 | Açınımı çizilen bir dik prizmanın toplam yüz sayısı (iki taban ve yan yüzler dâhil) 8'dir. Bu prizmanın köşe sayısı kaçtır? | ✓12
+mat-gc-030 | M.8.3.4.1 | z2 | k0 | Şekildeki çikolata kutusu, tabanı dik üçgen olan dik prizma biçimindedir. Dik üçgenin dik kenarları 3 cm ve 4 cm, hipotenüsü 5 cm… | ✓132
+mat-gc-031 | M.8.3.4.2 | z2 | k0 | Bir silindirin yan yüzü açıldığında kenarları 30 cm ve 8 cm olan bir dikdörtgen elde ediliyor. 30 cm'lik kenar, taban çemberinin … | ✓75
+mat-gc-032 | M.8.3.4.2 | z2 | k0 | Taban yarıçapı 4 cm, yüksekliği 9 cm olan bir silindirin yan yüzü açılıp düz bir dikdörtgen elde ediliyor. Sonucu π cinsinden bul… | ✓16π + 18
+mat-gc-033 | M.8.3.4.3 | z2 | k0 | Silindir biçimli bir su borusu parçasının iki ucu açıktır ve yüksekliği 15 cm'dir. Borunun dış yüzeyinin tamamı boyandığında boya… | ✓6
+mat-gc-034 | M.8.3.4.3 | z2 | k0 | İki bisküvi kutusu silindir biçimlidir. A kutusunun taban yarıçapı 3 cm, yüksekliği 8 cm; B kutusunun taban yarıçapı 4 cm, yüksek… | ✓24
+mat-gc-035 | M.8.3.4.4 | z2 | k0 | Silindir biçimli bir su borusu parçasının iç yarıçapı 5 cm, uzunluğu 40 cm'dir. Parça ağzına kadar suyla dolduruluyor. π yerine 3… | ✓3
+mat-gc-036 | M.8.3.4.4 | z2 | k0 | Silindir biçimli bir kavanozun yerine, taban yarıçapı 3 katı, yüksekliği yarısı olan yeni bir kavanoz tasarlanıyor. Yeni kavanozu… | ✓4,5
+mat-gc-037 | M.8.3.4.4 | z2 | k0 | Şekildeki silindir biçimli cam vazonun taban yarıçapı 10 cm, yüksekliği 30 cm'dir. Vazoda 12 cm yüksekliğinde su vardır. π yerine… | ✓3,6
+mat-gc-038 | M.8.3.4.4 | z2 | k0 | Aynı yüksekliğe (8 cm) sahip iki saklama kabından biri, tabanı kenarı 10 cm olan kare biçiminde dik prizma; diğeri taban yarıçapı… | ✓200
+mat-gc-039 | M.8.3.4.5 | z2 | k0 | Tabanı kenar uzunluğu 4 cm olan düzgün altıgen, yan ayrıtları 9 cm olan bir dik piramidin iskeleti ince tellerle yapılacaktır. Bu… | ✓78
+mat-gc-040 | M.8.3.4.5 | z2 | k0 | Şekilde, tabanı düzgün beşgen olan bir dik piramidin açınımı verilmiştir. Açınım katlanarak piramit oluşturulacaktır. Oluşan pira… | ✓10
+mat-gc-041 | M.8.3.4.5 | z2 | k0 | Bir mimarlık öğrencisi, köşe sayısı 7 olan bir dik piramit maketi yapıyor. Bu maketin ayrıt sayısı kaçtır? | ✓12
+mat-gc-042 | M.8.3.4.6 | z2 | k0 | Koni biçimli bir huninin ağız yarıçapı 8 cm, ana doğrusu (tepe noktasından ağız çemberindeki bir noktaya olan uzaklık) 17 cm'dir.… | ✓15
+mat-gc-043 | M.8.3.4.6 | z2 | k0 | Şekilde yüksekliği 12 cm, taban yarıçapı 9 cm olan bir dik koni gösterilmiştir. Koninin yanal yüzü kesilip açıldığında bir daire … | ✓18π
+mat-gc-044 | M.8.3.4.6 | z2 | k0 | Bir fen kulübü, dik koni biçimli bir model hazırlıyor. Modelin tepe noktası T, taban çemberinin merkezi O, taban çemberi üzerinde… | ✓TA doğru parçası, TOA dik üçgeninin bir dik …
+mat-gc-045 | M.8.3.4.3 | z2 | k0 | Taban yarıçapı 4 cm, yüksekliği 10 cm olan, kapakları kapalı silindir biçimli bir teneke şeker kutusunun bütün dış yüzeyi kaplana… | ✓112π
+mat-gc-046 | M.8.3.4.3 | z2 | k0 | Silindir biçimli, iki ucu açık bir su borusunun yarıçapı 0,5 m, boyu 4 m'dir. Borunun dış yüzeyinin tamamı boyanacak ve 1 m² yüze… | ✓240
+mat-gc-047 | M.8.3.4.4 | z2 | k0 | Yüksekliği 6 cm olan bir silindirin hacmi 96π cm³'tür. Bu silindirin taban yarıçapı kaç cm'dir? | ✓4
+mat-gc-048 | M.8.3.4.1 | z3 | k0 | Bir maket atölyesinde yapılan dik prizma biçimli bir kulenin ayrıt sayısı, köşe sayısından 9 fazladır. Bu kulenin ayrıt sayısı ka… | ✓27
+mat-gc-049 | M.8.3.4.1 | z3 | k0 | Tabanı 6 cm × 5 cm olan dikdörtgenler prizması biçimli bir hediye kutusunun hacmi 150 cm³'tür. Kutunun bütün yüzeyi renkli kâğıtl… | ✓170
+mat-gc-050 | M.8.3.4.1 | z3 | k0 | Bir dik prizmanın yan yüzleri açınımda yan yana dizilerek tek bir dikdörtgen şerit oluşturuyor. Şeridin uzunluğu 60 cm, genişliği… | ✓15
+mat-gc-051 | M.8.3.4.2 | z3 | k0 | Şekilde, taban yarıçapı 3 cm ve yüksekliği 5 cm olan bir dik silindirin açınımı verilmiştir. Daireler dikdörtgenin 18 cm'lik kena… | ✓306
+mat-gc-052 | M.8.3.4.2 | z3 | k0 | Taban yarıçapı 4 cm olan silindir biçimli bir direğin etrafına, ışıklı bir şerit eşit aralıklarla 4 tam tur dolanarak sarılacaktı… | ✓100
+mat-gc-053 | M.8.3.4.3 | z3 | k0 | Bahçede çim ezmek için kullanılan silindir biçimli bir merdanenin taban çapı 60 cm, genişliği (yüksekliği) 100 cm'dir. Merdane dü… | ✓18
+mat-gc-054 | M.8.3.4.3 | z3 | k0 | Silindir biçimli bir teneke boya kutusunun taban yarıçapı 5 cm, yüksekliği 10 cm'dir. Yalnızca yan yüzü etiketle kaplanan 50 kutu… | ✓600
+mat-gc-055 | M.8.3.4.3 | z3 | k0 | Yüksekliği, taban yarıçapının 3 katı olan bir silindirin yan yüzünün alanı 162 cm²'dir. π yerine 3 alınız. Bu silindirin iki taba… | ✓216
+mat-gc-056 | M.8.3.4.4 | z3 | k0 | Silindir biçimli bir bardağın taban yarıçapı 4 cm, yüksekliği 10 cm'dir. Bardaklar, hacimlerinin [[3|4]]'ü kadar doldurularak ser… | ✓8
+mat-gc-057 | M.8.3.4.4 | z3 | k0 | Taban yarıçapı 10 cm olan silindir biçimli bir sebilden 1,5 litre su alınıyor. π yerine 3 alınız. (1 litre = 1000 cm³) Sebildeki … | ✓5
+mat-gc-058 | M.8.3.4.4 | z3 | k0 | Çocuk havuzu silindir biçimlidir; taban yarıçapı 1,5 m, derinliği 0,4 m'dir. Havuz boşken, dakikada 30 litre su akıtan bir musluk… | ✓90
+mat-gc-059 | M.8.3.4.4 | z3 | k0 | Silindir biçimli bir demir çubuğun taban yarıçapı 2 cm, uzunluğu 50 cm'dir. Bu demirin her 1 cm³'ü 8 gramdır. π yerine 3 alınız. … | ✓4,8
+mat-gc-060 | M.8.3.4.4 | z3 | k0 | Şekildeki A ve B kapları silindir biçimlidir ve ölçüleri üzerlerinde verilmiştir. π yerine 3 alınız. B kabı, A kabından kaç cm³ d… | ✓27
+mat-gc-061 | M.8.3.4.5 | z3 | k0 | Bir dik piramidin yüz sayısı ile ayrıt sayısının toplamı 22'dir. Bu piramidin tabanı kaç kenarlıdır? | ✓7
+mat-gc-062 | M.8.3.4.6 | z3 | k0 | Yüksekliği 12 cm, ana doğrusu 13 cm olan bir dik koninin yanal yüzü kesilip açıldığında yarıçapı 13 cm olan bir daire dilimi elde… | ✓[[5|13]]
+mat-gc-063 | M.8.3.4.6 | z3 | k0 | Bir dik koninin tepe noktası ile taban çemberi üzerindeki bir nokta arasındaki uzaklık 25 cm, koninin yüksekliği 24 cm'dir. Bu ko… | ✓14π
+mat-gc-064 | M.8.3.4.1 | z4 | k0 | Tabanı n kenarlı bir dik prizmanın ayrıt sayısı, tabanı (n + 2) kenarlı bir dik piramidin ayrıt sayısına eşittir. Buna göre bu pr… | ✓14
+mat-gc-065 | M.8.3.4.1 | z4 | k0 | Dikdörtgenler prizması biçimindeki bir kutunun bir köşesinde birleşen üç yüzünün alanları 12 cm², 15 cm² ve 20 cm²'dir. Kutunun b… | ✓48
+mat-gc-066 | M.8.3.4.2 | z4 | k0 | Şekildeki silindir biçimli teneke kutunun taban yarıçapı 4 cm, yüksekliği 5 cm'dir. Alt tabandaki A noktasında bulunan bir karınc… | ✓13
+mat-gc-067 | M.8.3.4.3 | z4 | k0 | Şekildeki heykel kaidesi, taban yarıçapı 4 cm ve yüksekliği 6 cm olan bir silindirin üzerine, taban yarıçapı 2 cm ve yüksekliği 5… | ✓300
+mat-gc-068 | M.8.3.4.3 | z4 | k0 | Taban yarıçapı 2 cm, yüksekliği 9 cm olan, kapakları kapalı silindir biçimli bir kutunun yerine, yan yüzünün alanı aynı kalacak b… | ✓72
+mat-gc-069 | M.8.3.4.4 | z4 | k0 | Silindir biçimli bir kabın hacmi 1,08 litre, yüksekliği 10 cm'dir. π yerine 3 alınız. (1 litre = 1000 cm³) Bu kabın yan yüzünün a… | ✓360
+mat-gc-070 | M.8.3.4.4 | z4 | k0 | Taban yarıçapı 30 cm, yüksekliği 40 cm olan silindir biçimli bir deterjan tankı ağzına kadar doludur. Tanktaki deterjan, taban ya… | ✓400
+mat-gc-071 | M.8.3.4.4 | z4 | k0 | Bir mühendis, yüksekliği sabit tutulan silindirlerde yarıçap ile hacim arasındaki ilişkiyi aşağıdaki tabloda göstermiştir. π yeri… | ✓540
+mat-gc-072 | M.8.3.4.4 | z4 | k0 | Taban yarıçapı 10 cm, yüksekliği 30 cm olan silindir biçimli bir kapta 24 cm yüksekliğinde su vardır. Kabın içine, taban yarıçapı… | ✓450
+mat-gc-073 | M.8.3.4.5 | z4 | k0 | Tabanı düzgün altıgen olan bir dik prizmanın üst tabanına, tabanı aynı altıgen olan bir dik piramit tam çakışacak biçimde yapıştı… | ✓50
+mat-gc-074 | M.8.3.4.6 | z4 | k0 | Taban yarıçapı 6 cm, yüksekliği 8 cm olan bir dik koninin yanal yüzü kesilip açıldığında bir daire dilimi elde ediliyor. Bu daire… | ✓216
+mat-gc-075 | M.8.3.4.6 | z4 | k0 | Merkez açısı 288° ve yarıçapı 25 cm olan bir daire diliminin iki yarıçapı birleştirilerek dik koni elde ediliyor. Bu koninin yüks… | ✓15

@@ -10,7 +10,7 @@ window.LGS_HAP["geometrik-cisimler"] = {
         "**Dik dairesel silindir:** iki tabanı eş ve paralel dairedir. **Yarıçap** (r) taban merkeziyle çember arasındaki uzaklık, **çap** yarıçapın iki katıdır. **Yanal yüz**, iki taban arasındaki eğri yüzeydir.",
         "**Dik piramit:** tabanı düzgün çokgendir ve tek tabanı vardır; yan yüzleri tepe noktasında birleşen eş ikizkenar üçgenlerdir. **Yükseklik**, tepeden tabana inen diktir ve taban merkezine ulaşır; yan yüzün yüksekliğiyle karıştırılmaz.",
         "**Dik dairesel koni:** tabanı bir dairedir ve bir tepe noktası vardır. **Yükseklik** (h) tepeden taban merkezine inen diktir. **Ana doğru** (ℓ) tepeyi taban çemberinin herhangi bir noktasına bağlar; yüksekliğe eşit değil, ondan uzundur.",
-        "**Koninin üç uzunluğu** dik üçgen oluşturur: yükseklik ile yarıçap dik kenar, ana doğru hipotenüstür. Bu yüzden ℓ² = h² + r² yazılır (Pisagor). Kare tabanlı dik piramitte de benzer bir dik üçgen vardır: yükseklik ile taban kenarının yarısı dik kenar, yan yüz yüksekliği hipotenüstür. Sık çıkan üçlüler: 3-4-5, 5-12-13, 8-15-17, 7-24-25 (ve katları)."
+        "**Koninin üç uzunluğu** dik üçgen oluşturur: yükseklik ile yarıçap dik kenar, ana doğru hipotenüstür. Bu yüzden ℓ² = h² + r² yazılır (Pisagor). Kare tabanlı dik piramitte de benzer bir dik üçgen vardır: yükseklik ile taban kenarının yarısı dik kenar, yan yüz yüksekliği hipotenüstür. Kare piramitte yan ayrıt da böyle bulunur: yan yüz yüksekliği ile yarım taban dik kenar, yan ayrıt hipotenüstür. Dikdörtgenin **köşegeni** de Pisagorla bulunur (köşegen² = uzun kenar² + kısa kenar²). Sık çıkan üçlüler: 3-4-5, 5-12-13, 8-15-17, 7-24-25 (ve katları; 15-20-25 gibi)."
       ],
       "tablo": "<table class=\"tablo\"><tr><th>Cisim</th><th>Taban</th><th>Yanal yüz</th><th>Tepe noktası</th></tr><tr><td>Dik prizma</td><td>2 (çokgen)</td><td>Dikdörtgenler</td><td>Yok</td></tr><tr><td>Silindir</td><td>2 (daire)</td><td>Eğri yüzey</td><td>Yok</td></tr><tr><td>Dik piramit</td><td>1 (çokgen)</td><td>Üçgenler</td><td>Var</td></tr><tr><td>Dik koni</td><td>1 (daire)</td><td>Eğri yüzey</td><td>Var</td></tr></table>",
       "dikkat": [
@@ -25,7 +25,8 @@ window.LGS_HAP["geometrik-cisimler"] = {
         "**Çubuk ya da tel iskelet** sorusunda cismin bütün ayrıtlarının uzunlukları toplanır; yan ayrıtlar ile taban kenarları ayrı ayrı hesaplanır."
       ],
       "ornekler": [
-        "Tabanı kare, taban kenarı 5 cm, yan ayrıtı 9 cm olan piramidin iskeleti: 4 · 5 + 4 · 9 = 56 cm tel ister."
+        "Tabanı kare, taban kenarı 5 cm, yan ayrıtı 9 cm olan piramidin iskeleti: 4 · 5 + 4 · 9 = 56 cm tel ister.",
+        "Tabanları çakışacak biçimde yapıştırılmış iki eş n tabanlı piramitte ortak taban içeride kalır: köşe n + 2, ayrıt 3n (iki piramidin yan ayrıtları 2n, ortak tabanın n kenarı), yüz 2n olur. Tabanı altıgen olan çift piramit: 8 köşe, 18 ayrıt, 12 yüz."
       ],
       "dikkat": [
         "**Piramidin ayrıtını prizma gibi saymak.** Piramidin üst tabanı yoktur; ayrıtı 2n'dir, 3n değil."
@@ -35,15 +36,16 @@ window.LGS_HAP["geometrik-cisimler"] = {
       "baslik": "Açınımlar",
       "maddeler": [
         "**Açınım**, cismin yüzeylerinin kesilip düz bir yüzeye serilmiş hâlidir. Katlayınca cisim yeniden oluşmalıdır.",
-        "**Dik prizma:** iki eş taban ve dikdörtgen yan yüzler. Yan yüz dizisinin uzunluğu taban çevresine, genişliği yüksekliğe eşittir. Yüzey alanı açınımın alanıdır: 2 · taban alanı + taban çevresi · yükseklik. Dikdörtgenler prizmasında bu 2(ab + bc + ac) olur.",
-        "**Silindir:** iki eş daire ve bir dikdörtgen. Dikdörtgenin bir kenarı taban çevresi olan **2πr**, öbür kenarı yükseklik **h**'dir. Daireler dikdörtgenin 2πr'lik kenarına değer; bu kenar daireyi tam saracak uzunlukta olmalıdır.",
+        "**Dik prizma:** iki eş taban ve dikdörtgen yan yüzler. Yan yüz dizisinin uzunluğu taban çevresine, genişliği yüksekliğe eşittir. Yüzey alanı açınımın alanıdır: 2 · taban alanı + taban çevresi · yükseklik. Dikdörtgenler prizmasında bu 2(ab + bc + ac) olur. Taban üçgen ise taban alanı (taban × yükseklik) ÷ 2 alınır; ikiye bölmeyi unutma.",
+        "**Silindir:** iki eş daire ve bir dikdörtgen. Dikdörtgenin bir kenarı taban çevresi olan **2πr**, öbür kenarı yükseklik **h**'dir. Daireler dikdörtgenin 2πr'lik kenarına değer; bu kenar daireyi tam saracak uzunlukta olmalıdır. Açınımı çevreleyen en küçük dikdörtgen kartonun genişliği 2πr, yüksekliği h + 2 · çap (= h + 4r) olur; çünkü iki daire, yan yüzün altına ve üstüne ayrı ayrı gelir.",
         "**Dik piramit:** bir taban çokgeni ve çevresinde n üçgen. Üçgenler tabanın kenarlarına yapışık durur. Katlayınca dış köşeler tek bir tepe noktasında buluşur.",
         "**Dik koni:** bir daire (taban) ve bir **daire dilimi** (yanal yüz). Dilimin yarıçapı koninin **ana doğrusu** ℓ'dir. Dilimin **yay uzunluğu**, taban çemberinin uzunluğu olan 2πr'ye eşittir.",
-        "Dilimin tam çemberi 2πℓ olduğundan dilimin dairedeki payı [[r|ℓ]] kadardır; ℓ = 2r ise dilim yarım dairedir."
+        "Dilimin tam çemberi 2πℓ olduğundan dilimin dairedeki payı [[r|ℓ]] kadardır; ℓ = 2r ise dilim yarım dairedir. Dilimin **merkez açısı = 360° · [[r|ℓ]]** olur."
       ],
       "ornekler": [
         "3 × 4 × 5 cm'lik kutunun yüzey alanı: 2(12 + 15 + 20) = 94 cm².",
-        "Taban yarıçapı 3 cm, ana doğrusu 9 cm olan koni: dilimin yarıçapı 9 cm, yay uzunluğu 2π · 3 = 6π cm, dilimin payı [[3|9]] = [[1|3]] yani dairenin üçte biridir."
+        "Taban yarıçapı 3 cm, ana doğrusu 9 cm olan koni: dilimin yarıçapı 9 cm, yay uzunluğu 2π · 3 = 6π cm, dilimin payı [[3|9]] = [[1|3]] yani dairenin üçte biridir.",
+        "Yarıçapı 5 cm, ana doğrusu 8 cm olan koni: dilimin merkez açısı 360° · [[5|8]] = 225°."
       ],
       "dikkat": [
         "**Dilimin yarıçapını taban yarıçapı sanmak.** Dilimin yarıçapı ana doğrudur (ℓ); taban yarıçapı r ayrıdır.",
@@ -58,7 +60,9 @@ window.LGS_HAP["geometrik-cisimler"] = {
         "**Toplam yüzey alanı = 2πr² + 2πrh.** Yani iki taban ile yanal yüzün toplamı.",
         "**Üstü açık** (kapaksız) kap için yalnızca bir taban eklenir: πr² + 2πrh. Etiket ya da boru yüzeyi yalnızca yanal yüzdür; alanı 2πrh'dır.",
         "**Yapıştırma:** birleştirilen iki cismin değen yüzleri dışarıda kalmaz; bu yüzlerin alanı toplamdan düşülür.",
-        "**Ters problem:** alan verilip r veya h sorulabilir; formülü yaz, bilinenleri koy, bilinmeyeni çek."
+        "**Ters problem:** alan verilip r veya h sorulabilir; formülü yaz, bilinenleri koy, bilinmeyeni çek.",
+        "**Yuvarlanan silindir** (boya merdanesi, yol silindiri): bir tam turda yanal yüz kadar alanı boyar ya da ezer. Boyanan alan = yanal alan × tur sayısı.",
+        "**En kısa yol:** silindirin yüzeyinde iki nokta arasındaki en kısa yolu bulmak için yanal yüzü aç; yol dikdörtgenin içinde bir doğru parçası olur ve Pisagorla bulunur. Tabanın çevresi 18 cm olan, 12 cm yüksekliğindeki silindirde karşı noktaya yarım turla giden karıncanın yolu: 9 ve 12 dik kenar, yol 15 cm. Direğe sarılan şeritte de her turda yatay uzunluk çevre, dikey uzunluk tur başına yükseliş olur; bir turluk şerit boyu bu ikisinin hipotenüsüdür."
       ],
       "ornekler": [
         "r = 6 cm, h = 5 cm, π = 3: yanal alan 2 · 3 · 6 · 5 = 180 cm², iki taban 2 · 3 · 36 = 216 cm², toplam 396 cm².",
@@ -77,6 +81,10 @@ window.LGS_HAP["geometrik-cisimler"] = {
         "**Yarıçap hacme karesiyle etki eder.** Yarıçap 2 katına çıkarsa hacim 4 katına çıkar; yükseklik 2 katına çıkarsa hacim yalnızca 2 katına çıkar.",
         "**Boşluk ya da fark:** kabın içindeki cismin dışında kalan kısım, kap hacmi eksi cisim hacmidir. İçi oyuk borunun malzemesi, dış silindir eksi iç boşluktur.",
         "**Su yüksekliği:** kaptaki suya bir cisim batırılırsa yükselen su hacmi cismin hacmine eşittir. Su yükselmesi = batan hacim ÷ kabın taban alanı.",
+        "**Taşma:** kabın boş kısmı kadar su sığar; batan hacim boşluktan büyükse fazlası taşar. Taşan hacim = batan hacim − kabın boş hacmi. Bir çubuğun ya da cismin kabın tabanına yerleşmesi gerekiyorsa batan hacmi cismin kendi hacmiyle hesapla.",
+        "**Kütle:** birim hacmin kütlesi verilmişse (ör. 1 cm³ demir 8 g) kütle = hacim × bu değerdir.",
+        "**Tablo okuma:** yükseklik sabitken hacim r² ile orantılıdır. Tabloda yarıçap 2 katına çıkarsa hacim 4, 3 katına çıkarsa 9 katına çıkar; bu ilişkiyi bozan değer hatalı satırdır.",
+        "**Dikdörtgenler prizmasında üç yüzün alanı:** bir köşede birleşen yüzlerin alanları ab, ac, bc verilirse üçünün çarpımı (abc)² eder; abc = hacim bulunur, her ayrıt hacmi öbür iki alandan birine bölerek çıkar. Örnek: ab = 20, ac = 28, bc = 35 ise (abc)² = 19600, abc = 140; a = 140 ÷ 35 = 4, b = 140 ÷ 28 = 5, c = 140 ÷ 20 = 7.",
         "**Doluluk oranı:** kabın [[3|5]]'i dolu ise su hacmi, kabın hacminin [[3|5]]'idir.",
         "**Akış:** borunun kesit alanı × akış hızı, birim zamanda akan hacmi verir. Süre = toplam hacim ÷ bu değerdir.",
         "**Hacim korunur:** su bir kaptan öbürüne aktarılınca ya da mum eritilip kalıba dökülünce hacim değişmez; taban alanı küçüldükçe yükseklik artar.",
