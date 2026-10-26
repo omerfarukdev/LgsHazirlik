@@ -121,7 +121,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 },
 {
   id: "tur-pa-9808",
-  kazanim: "T.8.3.21",
+  kazanim: "T.8.3.25",
   kademe: 0,
   zorluk: 2,
   soru: "Okulun düzenlediği gök gözlemi gecesine büyük bir heyecanla katıldım; teleskopla Satürn'ün halkalarını göreceğimi sanıyordum. Sıramı yarım saat bekledim. Gözümü teleskoba yaklaştırdığımda görüntü bulanıktı, gezegen küçük bir nokta gibi duruyordu. Arkadaşlarım “Harika!” diye bağırdılar; ben ise ne gördüğümü anlamadım. Öğretmenimiz gözün karanlığa alışması gerektiğini söyledi, ama ben telefonumun ışığına bakıp durdum. O gece bir daha sıraya girmedim. Eve dönerken gökyüzünü seyretmenin bana göre olmadığına karar verdim.\n\n**Bu parçadan anlatıcıyla ilgili aşağıdakilerden hangisi çıkarılabilir?**",
