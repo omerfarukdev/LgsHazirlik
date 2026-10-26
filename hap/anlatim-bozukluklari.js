@@ -42,6 +42,7 @@ window.LGS_HAP["anlatim-bozukluklari"] = {
         "**Tamlama yanlışlığı:** Tamlayan ve tamlanan ekleri birlikte gelmelidir. “Annemin çanta” bozuk, “annemin çantası” doğrudur. Zincirde ortadaki sözcük iki ek de alır: “Dedemin bahçesinin kapısı”. Belirtisiz tamlamada (kayısı reçeli, öğrenci sayısı) tamlayan yalın kalır, çoğul eki almaz. “Sınava girenler getirmesi gerekir.” da bozuktur: “girenlerin getirmesi”.",
         "**Çatı uyuşmazlığı:** Ortak özneye bağlı yüklemler **aynı çatıda** olmalıdır: “Mektup yazıldı ve postaya verdik.” → “Mektubu yazdık ve postaya verdik.” **“-tarafından”** işi yapanı gösterir, edilgen yüklemle kullanılır: “Yemek, aşçı tarafından hazırladı.” → “hazırlandı”.",
         "**Bağlaç ve edat yanlışlığı:** “-dığı için, bu yüzden, nedeniyle” neden bildirir; “sayesinde” olumlu, “yüzünden” olumsuz sonuç bekletir. “Rağmen, -dığı hâlde, ama” karşıtlık bildirir; aynı cümlede “rağmen” ile “bu yüzden” bir arada olmaz. “Çünkü” kendinden önce sonucu, sonra nedeni getirir. Gereksiz ikinci bağlaç da bozukluktur: “Hava çok sıcak olduğundan ama denize girdik.”",
+        "**Çift bağlaçlar eşleriyle gelir:** “hem … hem de”, “ya … ya da”, “ne … ne de”. Eşlerinden biri değiştirilirse bozukluk olur: “Ya havuza girdik hem de kumda oynadık.” → “Ya havuza girdik ya da kumda oynadık.”",
         "**Zarf-fiil ve “ve”:** “-arak, -ıp” eylemleri zaten bağlar; yanlarına “ve” koymak bozukluktur: “Pencereyi açarak ve odayı havalandırdı.”"
       ]
     },
@@ -50,7 +51,8 @@ window.LGS_HAP["anlatim-bozukluklari"] = {
       maddeler: [
         "**Gereksiz sözcük:** Aynı anlamı iki kez veren sözcükler ya da öbekler. “Geriye geri döndü.”, “hemen derhal”, “birlikte beraber” → bir tanesi yeter.",
         "**Anlamca çelişen sözcükler:** Birbirini yok eden sözler. “Kimse gelmedi ama salon tıklım tıklım doluydu.”",
-        "**Yanlış anlamda sözcük:** Sözcüğün anlamı bağlamla uyuşmaz; fiilin yönü de karışabilir (alma/verme, getirme/götürme). “Kitabımı arkadaşıma ödünç aldım.” (Verdiğin için “ödünç verdim” olmalı.)",
+        "**Yanlış anlamda sözcük:** Sözcüğün anlamı bağlamla uyuşmaz; fiilin yönü de karışabilir (alma/verme, getirme/götürme). “Kitabımı arkadaşıma ödünç aldım.” (Verdiğin için “ödünç verdim” olmalı.) Aynı karışıklık “teslim etmek” (vermek) ile “teslim almak” (almak), “yenmek” (rakibi) ile “kazanmak” (maçı, ödülü) arasında da olur.",
+        "**Deyimin anlamına aykırı kullanım:** Deyim bağlamdaki anlamıyla uyuşmalıdır. “Uyarıyı kulak ardı etti, hemen dediğini yaptı.” bozuktur: “kulak ardı etmek” önemsememektir, cümlenin devamı tersini söyler.",
         "**Mantık hatası:** Neden-sonuç ilişkisi tutmaz. “Hiç çalışmadığı için sınavda birinci oldu.” Cümle ya da metnin devamıyla çelişen sonuç da mantık hatasıdır."
       ],
       dikkat: [
