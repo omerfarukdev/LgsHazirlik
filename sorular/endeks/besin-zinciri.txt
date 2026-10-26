@@ -88,3 +88,213 @@ fen-bz-012 | F.8.6.1.1 | z3 | k0 | Bir çiftçi, besin zincirinde üst basamakla
 fen-bz-013 | F.8.6.1.1 | z4 | k0 | Bir adada ot, tavşan, fare, tilki ve kartaldan oluşan bir besin ağı vardır. Otu tavşan ve fare yer. Tilki yalnızca tavşan ve fare… | ✓Yalnız II
 fen-bz-014 | F.8.6.1.1 | z4 | k0 | Bir sulak alanda yıllarca kullanılan bir böcek ilacı (DDT), canlıların vücudunda parçalanmadığı ve vücuttan atılmadığı için besin… | ✓İlaç miktarının en yüksek değerinin zincirin…
 fen-bz-015 | F.8.6.1.1 | z4 | k0 | Bir kıyı ekosisteminde canlıların beslenme ilişkileri tabloda verilmiştir. Tabloda yazılan canlılar yalnızca belirtilen besinlerl… | ✓Midye
+fen-bz-126 | F.8.6.1.1 | z1 | k1 | Aşağıdaki canlılardan hangisi etçil bir tüketicidir? | ✓Leopar
+fen-bz-127 | F.8.6.1.1 | z1 | k1 | Bir denizde su yosunu → karides → levrek besin zinciri vardır. Oklar enerjinin akış yönünü gösterir. Bu zincire göre aşağıdakiler… | ✓Karides su yosununu yer
+fen-bz-128 | F.8.6.1.1 | z1 | k1 | Bir çayırda ot → çekirge → kurbağa → yılan besin zinciri vardır. Bu zincirde canlılara ulaşan enerji miktarı en fazla hangi canlı… | ✓Ot
+fen-bz-129 | F.8.6.1.1 | z1 | k1 | Marmara Denizi'nde fitoplankton → hamsi → palamut → yunus besin zinciri vardır. Denize karışan cıva, canlıların vücudundan atılam… | ✓Yunus
+fen-bz-130 | F.8.6.1.1 | z1 | k1 | Aşağıdaki ifadelerden hangisi doğrudur? | ✓Her besin zincirinin ilk halkası bir üretici…
+fen-bz-131 | F.8.6.1.1 | z1 | k1 | Bir ormanda devrilen bir ağacın gövdesi yıllar içinde çürüyerek küçük parçalara ayrılıyor. Bu süreçte ağacın bedenindeki maddeler… | ✓Toprağa karışır, bitkiler tekrar kullanır
+fen-bz-132 | F.8.6.1.1 | z1 | k1 | Bir akarsuda yaşayan canlıların enerji piramidi gösterilmiştir. Her basamağın genişliği, o basamağa ulaşan enerji miktarıyla oran… | ✓Su samuru
+fen-bz-133 | F.8.6.1.1 | z1 | k1 | Bir sebze bahçesinde salyangozlar marul yapraklarını yiyerek beslenmektedir. Salyangozlar için aşağıdakilerden hangisi doğrudur? | ✓Otçul tüketicidir
+fen-bz-134 | F.8.6.1.1 | z1 | k1 | Antarktika'da yaşayan canlıların besin zinciri gösterilmiştir. Kril, algleri yiyen küçük bir deniz canlısıdır ve mavi balina kril… | ✓2
+fen-bz-135 | F.8.6.1.1 | z1 | k1 | Besin zincirindeki enerji aktarımı için aşağıdakilerden hangisi doğrudur? | ✓Her basamakta enerjinin bir kısmı ısı olarak…
+fen-bz-136 | F.8.6.1.1 | z1 | k1 | Karadeniz'deki bir kestane ormanında yaşayan dört canlının beslenme bilgileri tabloda verilmiştir. Bu canlılardan hangisi 1. basa… | ✓Sincap
+fen-bz-137 | F.8.6.1.1 | z1 | k1 | Aşağıdaki canlılardan hangisi bir besin zincirinde üretici olarak yer alır? | ✓Ladin ağacı
+fen-bz-138 | F.8.6.1.1 | z1 | k1 | Çölde yaşayan bir kemirgen olan çöl faresi, tohum ve kuru otların yanında böcekleri de yer. Çöl faresi için aşağıdakilerden hangi… | ✓Hepçil bir tüketicidir
+fen-bz-139 | F.8.6.1.1 | z1 | k1 | Antarktika'da alg → kril → pengen → leopar foku besin zinciri vardır. Bu zincirde birey sayısının en az olması beklenen canlı han… | ✓Leopar foku
+fen-bz-140 | F.8.6.1.1 | z1 | k1 | Bir öğrenci kahvaltıda yalnızca zeytin, domates ve tam buğday ekmeği yiyor. Öğrenci bu kahvaltıyla besin zincirinde hangi basamak… | ✓1. basamak tüketici
+fen-bz-141 | F.8.6.1.1 | z1 | k1 | Bir orman ekosistemindeki canlılar ekoloji piramidi biçiminde gösterilecektir. Bu piramidin en geniş basamağında hangi canlı grub… | ✓Üreticiler
+fen-bz-142 | F.8.6.1.1 | z1 | k1 | Bir çiftçi ayçiçeği hasadından sonra tarlada kalan sap ve yaprakları toprağa karıştırıyor. Birkaç ay sonra bu artıklar ufalanıp t… | ✓Bakteri ve mantar
+fen-bz-143 | F.8.6.1.1 | z1 | k1 | Bir orman ekosisteminde her basamaktaki canlılara ulaşan toplam enerji miktarı sütun grafiğiyle gösterilmiştir. Grafiğe göre aşağ… | ✓Basamak yükseldikçe ulaşan enerji azalır
+fen-bz-144 | F.8.6.1.1 | z1 | k1 | Denizlerde yaşayan fitoplanktonlar besinlerini kendileri üretir ve zooplanktonlar tarafından yenir. Fitoplanktonların besin zinci… | ✓Üretici
+fen-bz-145 | F.8.6.1.1 | z1 | k1 | Tundrada otlar → lemming → kutup tilkisi besin zinciri vardır. Lemming otlarla, kutup tilkisi ise lemmingle beslenir. Kutup tilki… | ✓2. basamak tüketici, etçil
+fen-bz-146 | F.8.6.1.1 | z1 | k1 | Besin ağıyla ilgili aşağıdakilerden hangisi doğrudur? | ✓Bir canlı birden çok zincirde yer alabilir
+fen-bz-147 | F.8.6.1.1 | z1 | k1 | Bir dağ çayırında çimen → koyun → kurt besin zinciri vardır. Ölen canlıların bedenleri mantar ve bakteriler tarafından parçalanır… | ✓Ayrıştırıcıdırlar, tüketici basamağı almazlar
+fen-bz-148 | F.8.6.1.1 | z1 | k1 | Mantar ve bakteri gibi ayrıştırıcılarla ilgili aşağıdaki ifadelerden hangisi doğrudur? | ✓Yalnızca ölü canlı ve atıklarla beslenirler
+fen-bz-149 | F.8.6.1.1 | z1 | k1 | Bir tarlada buğday, fare ve baykuş yaşamaktadır. Fare buğdayla, baykuş fareyle beslenmektedir. Oklar enerjinin yenen canlıdan yiy… | ✓Buğday → fare → baykuş
+fen-bz-150 | F.8.6.1.1 | z2 | k1 | Bursa'daki Uludağ ormanlarında canlıların beslenme ilişkisi şemada gösterilmiştir. Canlılar yalnızca şemada oklarla gösterilen ca… | ✓Yaban domuzu
+fen-bz-151 | F.8.6.1.1 | z2 | k1 | Van Gölü'nde alg → inci kefali → martı besin zinciri vardır. Bu zincirdeki canlıların birey sayılarının çoktan aza doğru sıralanı… | ✓Alg, inci kefali, martı
+fen-bz-152 | F.8.6.1.1 | z2 | k1 | Bir çam ormanında çam ağacının iğne yapraklarını çam kese tırtılı yer. Tırtılı guguk kuşu, guguk kuşunu da atmaca yer. I. Çam kes… | ✓Yalnız III
+fen-bz-153 | F.8.6.1.1 | z2 | k1 | Bir göl ekosisteminde ardışık dört canlı grubunun oluşturduğu tek bir besin zincirinde, gruplara ulaşan enerji miktarları tabloda… | ✓R
+fen-bz-154 | F.8.6.1.1 | z2 | k1 | Bir çölde canlıların beslenme ilişkisi şemada gösterilmiştir. Canlılar yalnızca şemada oklarla gösterilen canlılarla beslenmekted… | ✓Yılan
+fen-bz-155 | F.8.6.1.1 | z2 | k1 | Bir göl kıyısında yapılan gözlemde alg, su mercimeği, su piresi, kurbağa, balıkçıl ve ayrıştırıcı bakterilerin yaşadığı belirlenm… | ✓3
+fen-bz-156 | F.8.6.1.1 | z2 | k1 | Bir çiftlikte otlayan sığır, yediği otun enerjisini farklı biçimlerde kullanır ve ayırır. I. Yediği otun enerjisinin tamamı vücud… | ✓II ve III
+fen-bz-157 | F.8.6.1.1 | z2 | k1 | Konya Ovası'ndaki bir bozkırda ot → yer sincabı → çakal → kartal besin zinciri vardır ve her canlı yalnızca kendinden bir önceki … | ✓Yer sincabı
+fen-bz-158 | F.8.6.1.1 | z2 | k1 | Bir gölde alg → su piresi → sazan → turna balığı besin zinciri vardır. Bu zincirdeki canlıların birey sayısı piramidi gösterilmiş… | ✓Sayıca azdır, vücudu daha büyüktür
+fen-bz-159 | F.8.6.1.1 | z2 | k1 | Bir akarsuda yapılan gözlemde canlıların neyle beslendiği tabloda verilmiştir. Canlılar yalnızca tabloda yazılan canlılarla besle… | ✓3
+fen-bz-160 | F.8.6.1.1 | z2 | k1 | Afrika savanında eşit miktardaki otun enerjisi iki ayrı besin zincirine aktarılıyor. Zincir 1: ot → zebra → aslan Zincir 2: ot → … | ✓Aslana ulaşan enerji daha fazladır, çünkü zi…
+fen-bz-161 | F.8.6.1.1 | z2 | k1 | Kaçkar Dağları'ndaki bir yaylada canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya… | ✓Kurt → koyun
+fen-bz-162 | F.8.6.1.1 | z2 | k1 | Bir mercimek tarlasında mercimek → çekirge → sığırcık besin zinciri vardır. Çekirge yalnızca mercimekle, sığırcık yalnızca çekirg… | ✓Çekirge sayısı artar, mercimek verimi azalır
+fen-bz-163 | F.8.6.1.1 | z2 | k1 | Bir elma bahçesinde elma ağacının yapraklarını yaprak bitleri yer. Kirpi, hem yaprak bitlerini hem de yere düşen elmaları yiyerek… | ✓Yalnız II
+fen-bz-164 | F.8.6.1.1 | z2 | k1 | Bir sarıçam ormanında yaşayan canlıların yediği besinler tabloda verilmiştir. Canlılar yalnızca tabloda yazılan besinlerle beslen… | ✓Sincap ve karaca
+fen-bz-165 | F.8.6.1.1 | z2 | k1 | Munzur Vadisi'nde canlıların beslenme ilişkisi şemada gösterilmiştir. Canlılar yalnızca şemada oklarla gösterilen canlılarla besl… | ✓2. ve 3. basamak
+fen-bz-166 | F.8.6.1.1 | z2 | k1 | Bir volkan patlaması sonucu küçük bir adadaki bitkilerin tamamı kül altında kalıp ölüyor ve yeni bitki yetişmiyor. Adada otçul bö… | ✓Bütün tüketicilerin besin kaynağı zamanla az…
+fen-bz-167 | F.8.6.1.1 | z2 | k1 | Bir kıyıda yaşayan canlıların birey sayısı piramidi gösterilmiştir. Piramit basamaklarının genişliği birey sayısıyla orantılıdır.… | ✓I ve III
+fen-bz-168 | F.8.6.1.1 | z2 | k1 | Bir ayçiçeği tarlasında yapılan sayımda dört canlının birey sayıları tabloda verilmiştir. Bu canlılar tek bir besin zincirini olu… | ✓Ayçiçeği → tırtıl → serçe → atmaca
+fen-bz-169 | F.8.6.1.1 | z2 | k1 | Bir botanik bahçesinin bir bölümünde toprağa mantar ve bakterileri öldüren bir madde uygulanıyor. Bu bölümde ölen bitkiler ve dök… | ✓II ve III
+fen-bz-170 | F.8.6.1.1 | z2 | k1 | Amerika'daki bir çölde kaktüs → kanguru faresi → yılan → şahin besin zinciri vardır. Bu zincirde hem başka bir canlı tarafından y… | ✓2
+fen-bz-171 | F.8.6.1.1 | z2 | k1 | Bir pamuk tarlasında kullanılan ilacın etkin maddesi canlıların vücudundan atılamamaktadır. Tarlada pamuk → pamuk kurdu → bülbül … | ✓Yalnız I
+fen-bz-172 | F.8.6.1.1 | z2 | k1 | Bir çalılıkta canlıların beslenme ilişkisi şemada gösterilmiştir. Canlılar yalnızca şemada oklarla gösterilen canlılarla beslenme… | ✓Böğürtlen
+fen-bz-173 | F.8.6.1.1 | z2 | k1 | Doğadaki besin zincirlerinde halka sayısı genellikle beş ya da altıyı geçmez. Bu durumun nedeni aşağıdakilerden hangisidir? | ✓Üst basamaklara ulaşan enerjinin giderek aza…
+fen-bz-174 | F.8.6.1.1 | z2 | k1 | Malatya'daki bir kayısı bahçesinde kayısı ağacının yapraklarını yaprak kurtları yer, yaprak kurtlarını da sığırcıklar yer. Sığırc… | ✓I ve II
+fen-bz-175 | F.8.6.1.1 | z2 | k1 | Bir meradaki canlıların ilişkisi şemada gösterilmiştir. Düz oklar yenen canlıdan yiyen canlıya enerji akışını gösterir; mantara g… | ✓Ölü canlıların kalıntılarının mantara geçişi…
+fen-bz-226 | F.8.6.1.1 | z2 | k2 | Antarktika kıyılarında yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya a… | ✓Fitoplankton – penguen
+fen-bz-227 | F.8.6.1.1 | z2 | k2 | Karadeniz ormanlarında canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yönü… | ✓Baştankara, tırtıllarla beslenir
+fen-bz-228 | F.8.6.1.1 | z2 | k2 | Hazar Gölü kıyısında gözlem yapan öğrenciler, dört canlının yediği besinleri tabloya yazıyor. Canlılar tabloda yazılanların dışın… | ✓Sazan
+fen-bz-229 | F.8.6.1.1 | z2 | k2 | Bir çiftçi hasattan sonra tarlada kalan mısır saplarını toprağa karıştırıyor. Birkaç ay sonra sapların ufalanarak toprağa karıştı… | ✓Ayrıştırıcılardır; sapları parçalayıp maddel…
+fen-bz-230 | F.8.6.1.1 | z2 | k2 | Bir çayırdaki canlıların birey sayısı piramidi şekilde gösterilmiştir. Piramit, çayır otu → çekirge → kurbağa → yılan zincirine a… | ✓Yılan, kurbağadan sayıca az, vücut büyüklüğü…
+fen-bz-231 | F.8.6.1.1 | z2 | k2 | Bir sulak alana karışan tarım ilacının, su yosunu → su piresi → sazan → pelikan zincirindeki canlıların dokularında bulunan mikta… | ✓İlaç vücuttan atılamadığı için üst basamakla…
+fen-bz-232 | F.8.6.1.1 | z2 | k2 | Bir ormanda yaşayan geyik, yediği bitkilerin enerjisinin bir bölümünü koşmak ve vücut sıcaklığını korumak için kullanır, bir bölü… | ✓Geyiğin vücudunda depolanan enerji
+fen-bz-233 | F.8.6.1.1 | z2 | k2 | Açık denizde yaşayan canlıların enerji piramidi şekilde gösterilmiştir. Her basamağın genişliği, o basamağa ulaşan enerji miktarı… | ✓Orkinosa ulaşan enerji, sardalyaya ulaşandan…
+fen-bz-234 | F.8.6.1.1 | z2 | k2 | Bir çam ormanında yere düşen kozalaklar ve yapraklar zamanla ufalanarak toprağa karışıyor. Bu işi yapan canlılar mantarlar ve top… | ✓I ve III
+fen-bz-235 | F.8.6.1.1 | z2 | k2 | Munzur Çayı'nda yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yön… | ✓II ve III
+fen-bz-236 | F.8.6.1.1 | z2 | k2 | Bir kişi kahvaltıda zeytin, öğle yemeğinde nohutlu pilav, akşam yemeğinde ızgara hindi eti yiyor. Hindi yalnızca mısır ve diğer t… | ✓1. ve 2. basamak tüketici
+fen-bz-237 | F.8.6.1.1 | z2 | k2 | Bir sazlıkta su piresi yalnızca algle, sazan yalnızca su piresiyle beslenir. Balıkçıl ise yalnızca sazanla beslenir. Bir hastalık… | ✓Artar – azalır
+fen-bz-238 | F.8.6.1.1 | z2 | k2 | Bir akarsuda su yosunu → su böceği → kara balık → balıkçıl besin zinciri bulunmaktadır. I. Balıkçıla ulaşan enerji, su yosunundak… | ✓Yalnız I
+fen-bz-239 | F.8.6.1.1 | z2 | k2 | Bir buğday tarlasında şu gözlemler yapılıyor: Çekirge buğday yapraklarını yer. Tarla kuşu hem buğday tanelerini hem de çekirgeyi … | ✓Tarla kuşu → çekirge
+fen-bz-240 | F.8.6.1.1 | z2 | k2 | Bir tarım bölgesinde kullanılan dört farklı maddenin (K, L, M ve N) canlı vücudundaki durumu araştırılmıştır. Sonuçlar tabloda ve… | ✓N
+fen-bz-241 | F.8.6.1.1 | z2 | k2 | Bir bahçıvan, her sonbahar bahçesine düşen ölü yaprakları ve kuru dalları toplayıp bahçeden uzaklaştırıyor. Yıllar geçtikçe topra… | ✓Ayrıştırıcıların kalıntı bulamaması
+fen-bz-242 | F.8.6.1.1 | z2 | k2 | Bir çam ormanında sincap yalnızca çam tohumlarıyla beslenir. Karga hem çam tohumu hem çekirge yer. Çekirge yalnızca otlarla besle… | ✓Yalnız III
+fen-bz-243 | F.8.6.1.1 | z2 | k2 | Bir gölette yaşayan canlıların beslenme ilişkisi tabloda verilmiştir. Canlılar yalnızca tabloda yazılan besinlerle beslenmektedir… | ✓Yalnızca yeşil kurbağa ve kerevit
+fen-bz-244 | F.8.6.1.1 | z2 | k2 | Aşağıdaki dört besin zincirinin hepsinde, zincirin başındaki ot aynı miktarda enerji içermektedir. Hangi zincirin son halkasındak… | ✓Ot → tavşan
+fen-bz-245 | F.8.6.1.1 | z2 | k2 | Bir deniz çayırı ekosisteminde deniz çayırı → yeşil deniz kaplumbağası → kaplan köpekbalığı besin zinciri için ekoloji piramidi ç… | ✓Yalnız II
+fen-bz-246 | F.8.6.1.1 | z2 | k2 | Ege kıyısındaki bir koyda fitoplankton → midye → çipura → martı zincirindeki canlıların dokularında bulunan kurşun miktarı grafik… | ✓Martının dokusunda çipuradakinden fazla kurş…
+fen-bz-247 | F.8.6.1.1 | z2 | k2 | Kayalık bir kıyıda yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış … | ✓2
+fen-bz-248 | F.8.6.1.1 | z2 | k2 | Bir adada çimen, tavşan ve çakal yaşamaktadır. Çakallar yalnızca tavşan, tavşanlar yalnızca çimen yer. Adada çakal sayısının tavş… | ✓Avcılara ulaşan enerji avlarına ulaşandan az…
+fen-bz-249 | F.8.6.1.1 | z2 | k2 | Rize'deki bir çay bahçesinde yaprak bitlerine karşı kullanılan ilaç, canlıların vücudunda parçalanmıyor ve atılamıyor. Bahçede ça… | ✓Atmaca
+fen-bz-250 | F.8.6.1.1 | z2 | k2 | Kuzey Kutbu tundrasında yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya … | ✓Kar baykuşunun ve kutup tilkisinin besini az…
+fen-bz-251 | F.8.6.1.1 | z2 | k2 | Bir çayırda yaşayan canlıların beslendiği besinler tabloda verilmiştir. Canlılar yalnızca tabloda yazılan besinlerle beslenmekted… | ✓4
+fen-bz-252 | F.8.6.1.1 | z3 | k2 | Sahra Çölü'nde yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yönü… | ✓3
+fen-bz-253 | F.8.6.1.1 | z3 | k2 | Bir sulak alanın çevresindeki fabrikalardan suya P ve R adlı iki madde karışmıştır. Araştırmacılar, alandaki alg → sivrisinek lar… | ✓P birikim yapmıştır; R hiçbir basamakta biri…
+fen-bz-254 | F.8.6.1.1 | z3 | k2 | Afrika savanında ot → zebra → aslan zinciri için çizilen enerji piramidi şekilde gösterilmiştir. Her basamağın genişliği, o basam… | ✓II ve III
+fen-bz-255 | F.8.6.1.1 | z3 | k2 | Bir milli parkta çalışan biyologlar, bölgedeki hayvan sayılarını her yıl aynı mevsimde sayıyor. Bölgede vaşaklar yalnızca yaban t… | ✓3. yıldaki bol tavşan, 4. yılda vaşak sayısı…
+fen-bz-256 | F.8.6.1.1 | z3 | k2 | Ege kıyısındaki bir koyda fitoplankton → zooplankton → hamsi → orkinos zinciri bulunmaktadır. Koya karışan bir sanayi atığı, canl… | ✓Orkinos tüketen aile; cıva üst basamaklarda …
+fen-bz-257 | F.8.6.1.1 | z3 | k2 | Bir deniz biyoloğu, Karadeniz'de yaptığı gözlemlerle bölgedeki canlıların beslenme ilişkisini şemada özetlemiştir. Oklar enerjini… | ✓Zooplankton çok azalırsa hamsi, palamut ve y…
+fen-bz-258 | F.8.6.1.1 | z3 | k2 | Bir ekosistemde tek bir besin zincirini oluşturan dört canlının (K, L, M ve N) birey sayıları ile ortalama vücut kütleleri tablod… | ✓I ve II
+fen-bz-259 | F.8.6.1.1 | z3 | k2 | Bir doğa fotoğrafçısı, yaprak döken bir ormanda hayvanların ne yediğini bir yıl boyunca izleyip kaydetmiştir. Kayıtlar tabloda ve… | ✓Böcek larvası
+fen-bz-260 | F.8.6.1.1 | z3 | k2 | Van Gölü'ne karışan bir tarım ilacı, canlıların vücudunda parçalanmıyor ve atılamıyor. Gölde fitoplankton → zooplankton → inci ke… | ✓I, II ve III
+fen-bz-261 | F.8.6.1.1 | z3 | k2 | Antarktika'da iki ayrı besin zinciri vardır. Birinci zincir: fitoplankton → krill → kambur balina. İkinci zincir: fitoplankton → … | ✓Balinaya daha çok enerji ulaşır; leopar foku…
+fen-bz-262 | F.8.6.1.1 | z3 | k2 | Bir adadaki besin zinciri ot → fare → yılan → kartal şeklindedir. Birinci senaryoda adadaki otların tamamı büyük bir kuraklıkta y… | ✓Birincide bütün tüketiciler etkilenir; ikinc…
+fen-bz-263 | F.8.6.1.1 | z3 | k2 | Bir adaya bırakılan keçiler, adadaki yerli ot türlerini yiyerek hızla çoğalıyor. Adada daha önce yalnızca bu otlarla beslenen yab… | ✓I ve III
+fen-bz-264 | F.8.6.1.1 | z3 | k2 | Araştırmacılar, bir sulak alandan numune toplayarak dört canlının (K, L, M ve N) birey sayılarını belirlemiş ve grafikte göstermi… | ✓Zararlı madde en çok L canlısında birikir
+fen-bz-265 | F.8.6.1.1 | z3 | k2 | Bir çiftçi, tarlasının kenarında tavuk beslemektedir ve tarlaya zaman zaman tilki girmektedir. Bu yaşam alanındaki canlıların bes… | ✓1. ve 2. basamak – 2. ve 3. basamak
+fen-bz-266 | F.8.6.1.1 | z3 | k2 | Kuzey Pasifik'teki bir kelp (dev kahverengi alg) ormanında deniz kestanesi yalnızca kelple, deniz samuru yalnızca deniz kestanesi… | ✓Samur artar, kestane azalır, kelp artar
+fen-bz-267 | F.8.6.1.1 | z3 | k2 | Kuzey Kutbu'ndaki bir denizde yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen ca… | ✓3. basamak – 4. basamak
+fen-bz-268 | F.8.6.1.1 | z3 | k2 | Bir ovada uzun süre gözlem yapan araştırmacılar, canlıların neyle beslendiğini kaydederek tabloya aktarmıştır. Ovada tabloda yazı… | ✓3. ve 4. basamak
+fen-bz-269 | F.8.6.1.1 | z3 | k2 | Bir orman kenarını inceleyen öğrenciler, orada yaşayan canlıların birbirini yiyerek oluşturduğu ilişkileri şemaya aktarmıştır. Ok… | ✓3
+fen-bz-270 | F.8.6.1.1 | z3 | k2 | Bir bölgede uzun süre kullanılan bir tarım ilacı, canlıların vücudunda parçalanmıyor ve atılamıyor. Sonraki yıllarda atmacaların … | ✓İlacın üst basamaktaki canlılarda daha yükse…
+fen-bz-271 | F.8.6.1.1 | z3 | k2 | Bir nehre karışan civa, canlıların vücudunda parçalanmıyor ve atılamıyor. Nehirde su yosunu → su salyangozu → levrek zinciri bulu… | ✓I ve III
+fen-bz-272 | F.8.6.1.1 | z3 | k2 | Bir çayırı inceleyen öğrenci grubu, orada yaşayan canlıların beslenme ilişkisini şemada göstermiştir. Oklar enerjinin yenen canlı… | ✓Kurbağa sayısı kesinlikle azalır
+fen-bz-273 | F.8.6.1.1 | z3 | k2 | Bir çayırda ot → çekirge → kertenkele zinciri vardır. Çayıra dışarıdan bir şahin geliyor ve yalnızca kertenkelelerle beslenmeye b… | ✓II ve III
+fen-bz-274 | F.8.6.1.1 | z3 | k2 | Bir göle karışan bir tarım ilacı, canlıların vücudunda parçalanmıyor ve atılamıyor. Gölde alg → su piresi → sazan → balıkçıl zinc… | ✓Sazan, su piresinden daha az enerji alır ama…
+fen-bz-275 | F.8.6.1.1 | z3 | k2 | Bir lagünde yaşayan canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yönünü … | ✓Yalnız II
+fen-bz-326 | F.8.6.1.1 | z3 | k3 | Van Gölü kıyısında çalışan bir gözlemci, gölde yaşayan dört canlının neyle beslendiğini tabloya yazıyor. Tabloda yalnızca gözleml… | ✓Martı, hem bitkisel hem hayvansal besin yedi…
+fen-bz-327 | F.8.6.1.1 | z3 | k3 | Karadeniz'in nemli ormanlarında yapılan bir inceleme sonunda birbirinden bağımsız iki besin zinciri belirlenmiştir. Oklar enerjin… | ✓Tırtıl – sincap
+fen-bz-328 | F.8.6.1.1 | z3 | k3 | Marmara Denizi'nde fitoplankton → zooplankton → istavrit → palamut besin zinciri bulunmaktadır. Oklar enerjinin yenen canlıdan yi… | ✓II ve III
+fen-bz-329 | F.8.6.1.1 | z3 | k3 | Bir çölde yapılan çalışmada canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış… | ✓Engerek, kertenkele sayesinde besinsiz kalma…
+fen-bz-330 | F.8.6.1.1 | z3 | k3 | Afrika savanlarını anlatan bir belgeselde şu gözlemler aktarılıyor: Otlar fotosentezle besin üretir. Zebralar otlarla, aslanlar z… | ✓Bakteriler, kalıntılardaki maddeleri toprağa…
+fen-bz-331 | F.8.6.1.1 | z3 | k3 | Bir bozkırda canlıların beslenme ilişkisi şemada gösterilmiştir. Tarla kuşu hem otun tohumunu hem de çekirgeyi yer. Oklar enerjin… | ✓Hepçil olduğundan ağda hem 1. hem 2. basamak…
+fen-bz-332 | F.8.6.1.1 | z3 | k3 | Antarktika kıyısındaki bir ekosistem için çizilen enerji piramidinde, bir basamağa ulaşan enerji azaldıkça basamak daha dar çizil… | ✓Yalnız II
+fen-bz-333 | F.8.6.1.1 | z3 | k3 | Meriç Deltası'ndaki bir sulak alanda canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar enerjinin yenen canlıdan yiy… | ✓4
+fen-bz-334 | F.8.6.1.1 | z3 | k3 | Tundrada bir lemming, bodur söğüt yapraklarını yiyor. Yediği besinin enerjisi üç yere gidiyor: bir bölümü koşma, ısınma gibi yaşa… | ✓Yalnızca lemmingin vücudunda depolanan bölüm
+fen-bz-335 | F.8.6.1.1 | z3 | k3 | Bir akarsuda yosun → su böceği larvası → alabalık → su samuru zinciri vardır. Akarsuya karışan bir tarım ilacı, canlıların vücudu… | ✓Yalnız III
+fen-bz-336 | F.8.6.1.1 | z3 | k3 | Antarktika'da iki ayrı besin zinciri vardır. Birinci zincirde fitoplankton → krill → mavi balina, ikinci zincirde fitoplankton → … | ✓Mavi balinaya, leopar fokuna ulaşandan daha …
+fen-bz-337 | F.8.6.1.1 | z3 | k3 | Kuzey Anadolu'daki bir ormanda meşe fidanı → geyik → kurt beslenme ilişkisi vardır. Geyik yalnızca meşe fidanlarıyla, kurt yalnız… | ✓Kurtlar yok olunca geyik sayısı artmış, bu y…
+fen-bz-338 | F.8.6.1.1 | z3 | k3 | Bir araştırmacı, Fırat Nehri'nin bir kolunda parçalanmayan ve atılamayan bir ağır metalin canlılardaki miktarını ölçüp tabloya ya… | ✓Zooplankton
+fen-bz-339 | F.8.6.1.1 | z3 | k3 | Sultan Sazlığı'ndaki bir su kanalında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar enerjinin yenen canlıdan yi… | ✓Sinek larvası
+fen-bz-340 | F.8.6.1.1 | z3 | k3 | Arktik bölgede fitoplankton → zooplankton → kutup morinası → halka foku → kutup ayısı zinciri vardır. Fokların ve ayıların yaşadı… | ✓Yalnız I
+fen-bz-341 | F.8.6.1.1 | z3 | k3 | Uludağ yaylasında canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yönünü gö… | ✓2. ve 3. basamak
+fen-bz-342 | F.8.6.1.1 | z3 | k3 | Trakya'daki bir ayçiçeği tarlasında ayçiçeği → çekirge → tarla kuşu → şahin zinciri vardır. Çekirge yalnızca ayçiçeğiyle, tarla k… | ✓Çekirge artar, ayçiçeği azalır, şahin azalır.
+fen-bz-343 | F.8.6.1.1 | z3 | k3 | Kızıldeniz'deki bir mercan resifinde fitoplankton → zooplankton → resif balığı → barakuda zinciri vardır. Zincirdeki canlıların b… | ✓I ve III
+fen-bz-344 | F.8.6.1.1 | z3 | k3 | Gediz Deltası'ndaki bir sulak alanda canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar enerjinin yenen canlıdan yiy… | ✓4
+fen-bz-345 | F.8.6.1.1 | z3 | k3 | Kars'taki bir çayırda yaşayan canlıların yediği besinler tabloda verilmiştir. Tabloda yazan besinlerin dışında besin tüketilmemek… | ✓4
+fen-bz-346 | F.8.6.1.1 | z3 | k3 | Açık denizde fitoplankton → zooplankton → sardalya → ton balığı → orka besin zinciri bulunmaktadır. Bölgeye, canlıların vücudunda… | ✓Ton balığına ulaşan enerji sardalyadakinden …
+fen-bz-347 | F.8.6.1.1 | z3 | k3 | Akdeniz çevresindeki bir makilikte yakalanan canlıların mide içerikleri incelenmiş ve tabloya yazılmıştır. Canlıların mide içeriğ… | ✓I ve II
+fen-bz-348 | F.8.6.1.1 | z3 | k3 | Bir bataklıkta yaşayan K, L, M, N ve P canlılarının beslenmesi şöyle belirlenmiştir: M besinini kendisi üretir. K yalnızca M ile … | ✓Etçildir ve hem 2. hem 4. basamak tüketicisi…
+fen-bz-349 | F.8.6.1.1 | z3 | k3 | Toros Dağları'nın yüksek kesimindeki bir alpin çayırda bir sayım yapılmıştır. Piramitte her basamak bir canlı grubunu gösterir; b… | ✓Kartala ulaşan enerji, kertenkeleye ulaşanda…
+fen-bz-350 | F.8.6.1.1 | z3 | k3 | Isparta'daki bir elma bahçesinde elma çiçeği → arı → arıkuşu → atmaca zinciri belirlenmiştir. Arı çiçeğin nektarını toplar. Oklar… | ✓Elif: Arıkuşu, arıyı yediği için 2. basamak …
+fen-bz-351 | F.8.6.1.1 | z3 | k3 | Amazon yağmur ormanında yaşayan altı canlının yediği besinler tabloda verilmiştir. Tabloda yazılanlar dışında besin tüketilmediği… | ✓Maymun ve jaguar
+fen-bz-352 | F.8.6.1.1 | z3 | k3 | Kayalık bir kıyıda fitoplanktonla beslenen midyeler ve midyeleri yiyen deniz yıldızları yaşar. Bir araştırmacı, aynı büyüklükteki… | ✓Deniz yıldızı bulunmayan bölümde midye sayıs…
+fen-bz-353 | F.8.6.1.1 | z3 | k3 | Bir kayalık kıyıda yosun → salyangoz → yengeç → ahtapot zinciri vardır. Her canlı yalnızca kendinden önceki halkayla beslenir. Aş… | ✓II ve III
+fen-bz-354 | F.8.6.1.1 | z3 | k3 | Kaz Dağları'ndaki bir ormanda kayın palamudunu fare ve sincap yer. Sincabı ve fareyi baykuş, fareyi ayrıca tilki avlar. Oklar ene… | ✓Fareyle beslenen canlı olarak yalnızca bayku…
+fen-bz-355 | F.8.6.1.1 | z3 | k3 | Bir bahçede kullanılan ilaç, canlıların vücudunda parçalanmamakta ve atılamamaktadır. Bahçedeki elma yaprağı → tırtıl → ardıç kuş… | ✓Basamak yükseldikçe enerji azalmış, ilaç der…
+fen-bz-356 | F.8.6.1.1 | z4 | k3 | Afrika savanında ot, çekirge, kertenkele, kartal, zebra ve aslandan oluşan bir besin ağı incelenmiştir. Çekirge ve zebra yalnızca… | ✓Kertenkele artar, çekirge azalır, ot artar.
+fen-bz-357 | F.8.6.1.1 | z4 | k3 | Çıldır Gölü'nde alg → su piresi → sazan → karabatak zinciri vardır. Göle karışan bir tarım ilacı, canlıların vücudunda parçalanma… | ✓Sazana ulaşan enerji su piresindekinden azdı…
+fen-bz-358 | F.8.6.1.1 | z4 | k3 | Amazon yağmur ormanında bir ağacın meyvesini maymunlar ve papağanlar yer. Jaguar yalnızca maymunlarla, harpy kartalı ise hem maym… | ✓Yalnız II
+fen-bz-359 | F.8.6.1.1 | z4 | k3 | Açık denizde fitoplankton → zooplankton → ringa balığı → fok zincirinde üç farklı maddenin (X, Y, Z) canlıların dokularındaki mik… | ✓Yalnızca Z; çünkü miktarı basamak yükseldikç…
+fen-bz-360 | F.8.6.1.1 | z4 | k3 | Bir dağ akarsuyunda canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış y… | ✓2., 3. ve 4. basamak
+fen-bz-361 | F.8.6.1.1 | z4 | k3 | Aynı büyüklükteki iki gölette alg, su piresi ve küçük balık yaşar. Su piresi algle, küçük balık su piresiyle beslenir. X göletind… | ✓Turnanın yokluğu küçük balıkları artırmış, b…
+fen-bz-362 | F.8.6.1.1 | z4 | k3 | Konya Ovası'ndaki bir buğday tarlasında buğday → çekirge → kurbağa → leylek zinciri vardır. Her canlı yalnızca kendinden önceki h… | ✓Yalnız III
+fen-bz-363 | F.8.6.1.1 | z4 | k3 | Bir orman fidanlığında kayın fidanları dört farklı düzenekte yetiştiriliyor. Düzeneklerin hepsinde ışık, su ve sıcaklık aynıdır. … | ✓Ayrıştırıcılar fidan boyunu yalnızca ölü yap…
+fen-bz-364 | F.8.6.1.1 | z4 | k3 | Bir bozkırda, kendi aralarında tek bir besin zinciri oluşturan K, L, M ve N canlılarının birey sayıları ve kendilerine ulaşan gör… | ✓2. basamak tüketicidir; N'yi yer, M tarafınd…
+fen-bz-365 | F.8.6.1.1 | z4 | k3 | Işığın hiç girmediği bir mağaranın derin bölümünde bitki ve alg yaşamaz. Bu bölümde yaşayan böcekler yarasa dışkısı ve ölü böcek … | ✓Mağara dışındaki bitkilerin ürettiği besin
+fen-bz-366 | F.8.6.1.1 | z4 | k3 | Bir lagünde alg → karides → levrek → pelikan zinciri vardır. Lagüne karışan bir ağır metal canlıların vücudunda parçalanmamakta v… | ✓I ve III
+fen-bz-367 | F.8.6.1.1 | z4 | k3 | Bir mercan resifinde yapılan çalışmada beslenme ilişkileri şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya ak… | ✓Papağan balığı besinini tümüyle kaybeder.
+fen-bz-368 | F.8.6.1.1 | z4 | k3 | Bir çayırda üç alan hazırlanıyor. A alanı açık bırakılıyor. B alanı, tilkilerin girmesini engelleyen bir çitle çevriliyor. C alan… | ✓Tilkilerin uzak tutulması tavşan sayısını ar…
+fen-bz-369 | F.8.6.1.1 | z4 | k3 | Yağmur ormanında ağaç yaprakları, tırtıllar ve tembel hayvanlar tarafından yenir. Kurbağa yalnızca tırtılla beslenir; yılan hem k… | ✓I ve II
+fen-bz-370 | F.8.6.1.1 | z4 | k3 | Hazar Gölü'nde canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar enerjinin yenen canlıdan yiyen canlıya akış yönünü göste… | ✓Turna, ağda hem 3. hem 4. basamak tüketicisi…
+fen-bz-371 | F.8.6.1.1 | z4 | k3 | Afrika savanında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Ağda ot ve akasya iki farklı üreticidir. Oklar enerjin… | ✓6
+fen-bz-372 | F.8.6.1.1 | z4 | k3 | Bir sebze bahçesinde lahana yapraklarını tırtıllar yer. Tırtılları serçeler, serçeleri de atmacalar avlar. Her canlı yalnızca ken… | ✓II ve III
+fen-bz-373 | F.8.6.1.1 | z4 | k3 | Karadeniz'de atılamayan bir ağır metalle kirlenmiş bir kıyıda, beş canlının beslenmesi ve ortalama kütleleri tabloda verilmiştir.… | ✓Lüfer
+fen-bz-374 | F.8.6.1.1 | z4 | k3 | Bir çölde kış yağmurlarının ardından beş ay boyunca çöl çalısı yoğunluğu, çekirge ve kertenkele sayıları ölçülmüştür. Çöl çalısı … | ✓Çekirge ve kertenkele sayıları, besinlerinin…
+fen-bz-375 | F.8.6.1.1 | z4 | k3 | Orta Anadolu bozkırında ot tohumu → tarla faresi → tilki zinciri vardır. Her canlı yalnızca kendinden önceki halkayla beslenir. B… | ✓Yalnız II
+fen-bz-016 | F.8.6.1.1 | z1 | k0 | Antarktika kıyılarında fitoplankton fotosentezle besin üretir. Krill adlı küçük kabuklular fitoplanktonla, penguenler de krillle … | ✓Fitoplanktonla beslenir, penguene besin olur.
+fen-bz-017 | F.8.6.1.1 | z1 | k0 | Bir çölde kum faresi çöl bitkilerinin tohumlarıyla, çöl yılanı da kum faresiyle beslenir. Çöl yılanının kullandığı besin enerjisi… | ✓Çöl bitkisinin ürettiği besin
+fen-bz-018 | F.8.6.1.1 | z1 | k0 | Karadeniz ormanlarında ölen bir maralın bedeni, aylar içinde mantar ve bakterilerce parçalanır. Parçalanma sonunda ortaya çıkan m… | ✓Toprağa karışır ve bitkilerce yeniden kullan…
+fen-bz-019 | F.8.6.1.1 | z1 | k0 | Tundrada otlar ren geyikleriyle, ren geyikleri de kurtlarla beslenir. Ot → ren geyiği → kurt zincirinde kurt kaçıncı basamak tüke… | ✓İkinci
+fen-bz-020 | F.8.6.1.1 | z1 | k0 | Bir meşe ormanında yaban domuzu meşe palamudu, bitki kökü ve solucan yiyerek beslenir. Yaban domuzunun beslenme türü aşağıdakiler… | ✓Hepçil tüketici
+fen-bz-021 | F.8.6.1.1 | z1 | k0 | Ardahan yaylalarında bir çayırdaki canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canl… | ✓Çakal
+fen-bz-022 | F.8.6.1.1 | z1 | k0 | Bir dağ akarsuyuna karışan cıva canlıların vücudundan atılamaz. Akarsuda su yosunu, yosunla beslenen böcek larvası, larvayla besl… | ✓Su samuru
+fen-bz-023 | F.8.6.1.1 | z1 | k0 | Bir pamuk tarlasında canlıların birey sayısı piramidi gösterilmiştir. Her basamağın genişliği birey sayısıyla orantılıdır. Pamuk … | ✓Bülbül sayısı, pamuk kurdu sayısından azdır.
+fen-bz-024 | F.8.6.1.1 | z1 | k0 | Marmara Denizi'nde fitoplankton, zooplankton, hamsi ve lüfer tek bir besin zincirini oluşturur. Bu canlılara ulaşan enerji miktar… | ✓Fitoplankton → Zooplankton → Hamsi → Lüfer
+fen-bz-025 | F.8.6.1.1 | z1 | k0 | Bir bahçede marul yapraklarını salyangozlar yer. Bu bahçedeki kirpi yalnızca salyangozla beslenmektedir. Bahçe sahibi ilaç kullan… | ✓Marul artar, kirpi azalır.
+fen-bz-026 | F.8.6.1.1 | z1 | k0 | Munzur Dağları'nda çalı, yaban keçisi ve kurttan oluşan bir besin zinciri gözlenmiştir. Şekildeki oklar enerjinin akış yönünü gös… | ✓Enerji yaban keçisinden kurda aktarılır.
+fen-bz-027 | F.8.6.1.1 | z1 | k0 | Afrika savanında bir zürafa akasya yapraklarıyla beslenir. Zürafanın yediği yapraklardaki besin enerjisi için aşağıdakilerden han… | ✓Bir bölümü ısıya dönüşüp çevreye yayılır.
+fen-bz-028 | F.8.6.1.1 | z2 | k0 | Kuzey Atlantik'te bir deniz bölgesinde canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen … | ✓Yalnız II
+fen-bz-029 | F.8.6.1.1 | z2 | k0 | Fen kulübü öğrencileri bir çalılıkta gözledikleri dört canlının yediği besinleri tabloya yazmıştır. Tabloda yalnızca gözlemlenen … | ✓M
+fen-bz-030 | F.8.6.1.1 | z2 | k0 | Van Gölü'nde fitoplanktonla zooplankton, zooplanktonla inci kefali, inci kefaliyle de martılar beslenir. Bu bölgedeki martılar ya… | ✓Zooplanktonun sayısı azalır.
+fen-bz-031 | F.8.6.1.1 | z2 | k0 | Arktik bir koyda sanayi atığıyla suya karışan bir kimyasal madde canlıların vücudundan atılamamaktadır. Koyda alg, zooplankton, m… | ✓II ve III
+fen-bz-032 | F.8.6.1.1 | z2 | k0 | Bir çayırda canlılara ulaşan enerji miktarı piramitle gösterilmiştir. Her basamağın genişliği, o basamağa ulaşan enerji miktarıyl… | ✓Enerji azalır, tüketicilerin vücut büyüklüğü…
+fen-bz-033 | F.8.6.1.1 | z2 | k0 | Kaz Dağları'ndaki bir ormanın kenarında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan… | ✓Böcek
+fen-bz-034 | F.8.6.1.1 | z2 | k0 | Uludağ eteklerindeki bir göknar ormanında, bir hastalık yüzünden ayrıştırıcı mantar ve bakterilerin sayısı çok azalmıştır. Ormand… | ✓Yalnız III
+fen-bz-035 | F.8.6.1.1 | z2 | k0 | Bir çalılıkta canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya akış yönünü… | ✓Bülbül, hem böğürtlenle hem de çekirgeyle be…
+fen-bz-036 | F.8.6.1.1 | z2 | k0 | Baltık Denizi'nde zooplanktonla ringa, ringayla da gri fok beslenir. Bu bölgedeki fokların yalnızca ringayla beslendiği varsayılm… | ✓Ringa çoğalır, zooplankton azalır.
+fen-bz-037 | F.8.6.1.1 | z2 | k0 | Kıyıdaki kayalıklarda yengeç, midye yiyerek beslenir. Midye, yediği besinin enerjisinin bir bölümünü yaşamsal olaylarında kullanı… | ✓I ve II
+fen-bz-038 | F.8.6.1.1 | z2 | k0 | Bir kiraz bahçesinde kiraz ağacının meyvesini hem sığırcıklar hem de kiraz sinekleri yer. Sığırcıklar kiraz sineklerini de yer. K… | ✓1. ve 2. basamakta
+fen-bz-039 | F.8.6.1.1 | z2 | k0 | İki ayrı çayırda baykuşa ulaşan enerji karşılaştırılıyor. A çayırında ot → fare → baykuş, B çayırında ot → böcek → kertenkele → b… | ✓A çayırında daha fazladır; zincir kısa, ener…
+fen-bz-040 | F.8.6.1.1 | z2 | k0 | Bir ormanda yıllar boyunca tavşan ve tilki sayıları izlenmiş, sonuçlar grafikte gösterilmiştir. Tilkiler yalnızca tavşanla beslen… | ✓I ve III
+fen-bz-041 | F.8.6.1.1 | z2 | k0 | Meriç Nehri'ne karışan bir ağır metal canlıların vücudundan atılamamaktadır. Nehirde su yosunu, sazan, turna ve karabatak tek bir… | ✓Enerji daha azdır, derişim daha yüksektir.
+fen-bz-042 | F.8.6.1.1 | z2 | k0 | Bir koyda yaşayan dört canlının beslenme biçimleri tabloda verilmiştir. Tabloda yazılanlar canlıların yalnızca yediği besinlerdir… | ✓II ve III
+fen-bz-043 | F.8.6.1.1 | z2 | k0 | Bir kişi bir gün içinde marulu ve fitoplankton → sardalya → ton balığı zincirinin son halkası olan ton balığını yiyor. Bu kişi ön… | ✓1. ve 3. basamak
+fen-bz-044 | F.8.6.1.1 | z2 | k0 | Bir çayırda ot, çekirge, serçe ve atmacadan oluşan bir besin zincirinde canlıların birey sayısı tabloda verilmiştir. I. Yukarı çı… | ✓Yalnız I
+fen-bz-045 | F.8.6.1.1 | z2 | k0 | Doğu Karadeniz ladin ormanlarında kabuk böcekleri ladin ağacının kabuğuyla, ağaçkakanlar kabuk böcekleriyle, şahinler de ağaçkaka… | ✓Ağaçkakan ↓ → kabuk böceği ↑ → ladin ↓
+fen-bz-046 | F.8.6.1.1 | z2 | k0 | Bir gölde fitoplankton → su piresi → sazan → karabatak zinciri vardır. Gölün yüzeyi bir kirlilik nedeniyle uzun süre ışığı geçirm… | ✓Bütün tüketicilerin enerji girişi azalır, sa…
+fen-bz-047 | F.8.6.1.1 | z2 | k0 | Bir orman ekosisteminde canlıların ilişkisi şemada gösterilmiştir. Düz oklar, enerjinin yenen canlıdan yiyen canlıya akışını; kes… | ✓Yalnız II
+fen-bz-048 | F.8.6.1.1 | z3 | k0 | Büyük Menderes Deltası'nda canlıların beslenme ilişkisi şemada gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya akış… | ✓I ve II
+fen-bz-049 | F.8.6.1.1 | z3 | k0 | Bir tarla ve çevresindeki canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya… | ✓3
+fen-bz-050 | F.8.6.1.1 | z3 | k0 | Bir baraj gölüne X ve Z adlı iki madde karışmıştır. Gölde fitoplankton, su piresi, sazan ve balıkçıl tek bir besin zinciri oluştu… | ✓Yalnız III
+fen-bz-051 | F.8.6.1.1 | z3 | k0 | İki ayrı göle, canlıların vücudundan atılamayan bir madde karışmıştır. Birinci gölde alg → su piresi → sazan, ikinci gölde alg → … | ✓Birinci gölün sazanı
+fen-bz-052 | F.8.6.1.1 | z3 | k0 | Bir kent parkında sonbaharda dökülen yapraklar her hafta süpürülüp uzaklaştırılıyor. Parkın yanındaki ormanda ise yapraklar yerde… | ✓Parkta ayrıştırıcılara ulaşan ölü madde azal…
+fen-bz-053 | F.8.6.1.1 | z3 | k0 | Fen kulübü öğrencileri, aynı koşullarda iki akvaryum hazırlıyor. Su pireleri algle, balık ise yalnızca su pireleriyle beslenmekte… | ✓II ve III
+fen-bz-054 | F.8.6.1.1 | z3 | k0 | Bir ekosistemde B bitkisi ve dört tüketici canlı (K, L, M, N) vardır. Tüketicilerin yediği besinler tabloda verilmiştir. Canlılar… | ✓N
+fen-bz-055 | F.8.6.1.1 | z3 | k0 | Bir sulak alanda kullanılan bir tarım ilacı, canlıların vücudundan atılamamaktadır. Alanda alg → salyangoz → ördek → tilki zincir… | ✓I, II ve III
+fen-bz-056 | F.8.6.1.1 | z3 | k0 | Bir ormanın kenarında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Tilki ve baykuş yalnızca şemada gösterilen canlıl… | ✓Baykuş
+fen-bz-057 | F.8.6.1.1 | z3 | k0 | Toros Dağları'nda bir ormanda canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen can… | ✓Tilkinin tavşanlardan aldığı enerji azalır.
+fen-bz-058 | F.8.6.1.1 | z3 | k0 | Bolu Dağları'ndaki bir çam ormanında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yi… | ✓Yalnız II
+fen-bz-059 | F.8.6.1.1 | z3 | k0 | Bir ekosistemde K, L, M, N ve P canlıları bir besin ağı oluşturuyor. K, besinini kendisi üretir. L ve P yalnızca K ile, N yalnızc… | ✓N
+fen-bz-060 | F.8.6.1.1 | z3 | k0 | Bir sazlıkta canlıların birey sayısı piramidi gösterilmiştir. Her basamağın genişliği birey sayısıyla orantılıdır. Çekirge sazlık… | ✓I ve III
+fen-bz-061 | F.8.6.1.1 | z3 | k0 | Bir koruma alanında üç yıl boyunca ot, tavşan ve tilki miktarı ölçülüyor, sonuçlar tabloda veriliyor. Tavşanlar otla, tilkiler ya… | ✓Tilkilerin hastalık nedeniyle azalması
+fen-bz-062 | F.8.6.1.1 | z3 | k0 | Bir adadaki canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya akış yönünü g… | ✓Yalnız III
+fen-bz-063 | F.8.6.1.1 | z3 | k0 | Fen öğretmeni, besin zincirleri ve besin ağlarıyla ilgili dört yargı yazıyor. Bu yargılardan hangisi yanlıştır? | ✓Üretici dışındaki her canlı, besin zincirind…
+fen-bz-064 | F.8.6.1.1 | z4 | k0 | Şekilde bir besin ağındaki P, K, L, M ve N canlıları gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya akış yönünü gö… | ✓2. ve 4.
+fen-bz-065 | F.8.6.1.1 | z4 | k0 | Karadeniz'de fitoplanktonla zooplankton, zooplanktonla hamsi, hamsiyle lüfer, lüferle de yunus beslenir. Canlılara ulaşan enerji … | ✓II ve III
+fen-bz-066 | F.8.6.1.1 | z4 | k0 | Şekilde bir göl ekosistemindeki P, L, M, K ve N canlılarının beslenme ilişkisi gösterilmiştir. Oklar, enerjinin yenen canlıdan yi… | ✓2
+fen-bz-067 | F.8.6.1.1 | z4 | k0 | Bir baraj gölünde dört yıl boyunca alg, su piresi ve sazan miktarı ölçülmüş, sonuçlar tabloda verilmiştir. Su pireleri algle, saz… | ✓3. yıldan 4. yıla algin artması, su pireleri…
+fen-bz-068 | F.8.6.1.1 | z4 | k0 | Rize'deki bir çay bahçesinde yaprak pireleri çay yapraklarının özsuyunu emerek zarar vermektedir. Pireleri örümcekler, örümcekler… | ✓I ve II
+fen-bz-069 | F.8.6.1.1 | z4 | k0 | Antarktika'da fitoplankton fotosentezle besin üretir. Fitoplanktonla krill, krille penguenler, penguenlerle de leopar fokları bes… | ✓Fitoplanktonun sayısı azalır.
+fen-bz-070 | F.8.6.1.1 | z4 | k0 | K, L, M, N ve P canlıları tek bir besin zinciri oluşturur. Canlılara ulaşan enerji miktarları şöyledir: N'ye ulaşan enerji en faz… | ✓K, ikinci basamak tüketicidir.
+fen-bz-071 | F.8.6.1.1 | z4 | k0 | Bir ekosistemde P üreticisi ile L, M, K ve N tüketicilerinin yediği besinler tabloda verilmiştir. Canlılar yalnızca tabloda yazıl… | ✓4
+fen-bz-072 | F.8.6.1.1 | z4 | k0 | Bir çalılıkta yaşayan beş canlının beslenme biçimleri tabloda verilmiştir. Tabloda yazılanlar canlıların yalnızca yediği besinler… | ✓Yalnız I
+fen-bz-073 | F.8.6.1.1 | z4 | k0 | Bir sulak alanda canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen canlıdan yiyen canlıya akış yön… | ✓3
+fen-bz-074 | F.8.6.1.1 | z4 | k0 | Kastamonu'daki Küre Dağları'nın bir ormanında canlıların beslenme ilişkisi besin ağıyla gösterilmiştir. Oklar, enerjinin yenen ca… | ✓4
+fen-bz-075 | F.8.6.1.1 | z4 | k0 | Bir koyda alg, midye, yengeç, ahtapot ve orfoz tek bir besin zinciri oluşturur. Zincirdeki canlıların birey sayısı piramitle göst… | ✓Yengeç
