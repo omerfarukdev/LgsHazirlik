@@ -88,3 +88,213 @@ tur-fc-012 | T.8.4.20 | z3 | k0 | Okul çıkışındaki bir olayı anlatan şu c
 tur-fc-013 | T.8.4.20 | z4 | k0 | Bir sokak köşesinde olanları anlatan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisinde iş karşılıklı yapılmıştır … | ✓I
 tur-fc-014 | T.8.4.20 | z4 | k0 | Bir ressamın sergisini anlatan şu cümleler yazılmıştır: (1) Ressam, tabloyu sergiye göndermeden önce çerçeveletti. (2) Sergi salo… | ✓(4). cümlede işi yapan belli değildir.
 tur-fc-015 | T.8.4.20 | z4 | k0 | Bir okul gezisini anlatan altı cümlelik metin aşağıda numaralandırılmıştır. (1) Müzedeki rehber ziyaretçilere eski aletleri tanıt… | ✓3
+tur-fc-126 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde işi yapan belli değildir? | ✓Okulun giriş holüne yeni bir pano asıldı.
+tur-fc-127 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde iş karşılıklı yapılmıştır? | ✓Yan yana oturan iki yolcu kısa sürede tanışt…
+tur-fc-128 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemi dönüşlü çatılıdır? | ✓Tuna idmandan sonra soğuk suyla yıkandı.
+tur-fc-129 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde özne işi kendisi yapmamış, başkasına yaptırmıştır? | ✓Amcam dükkânın tabelasını tanıdık bir ressam…
+tur-fc-130 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemi nesne almaz? | ✓Garson akşam kalabalığında mutfağa koştu.
+tur-fc-131 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde işi yapan özne cümlede yazılıdır? | ✓Bahçıvan bahçenin köşesine bir su deposu yer…
+tur-fc-132 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemine "neyi?" ya da "kimi?" diye sorulabilir? | ✓Kuşlar sabaha karşı ağaçtaki meyveleri yedi.
+tur-fc-133 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde yüklem, işin birbirine karşı yapıldığını bildirir? | ✓Yokuşun başında bisikletli iki çocuk yarıştı.
+tur-fc-134 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemi edilgen çatılıdır? | ✓Kapının önüne gece bir koli bırakıldı.
+tur-fc-135 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde işi yapan ile işten etkilenen aynı kişidir? | ✓Kız kar yağınca kalın bir battaniyeye sarınd…
+tur-fc-136 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde özne, işin yapıcısı değil yaptırıcısıdır? | ✓Kerem berberde sakalını kestirdi.
+tur-fc-137 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerden hangisinin yüklemi geçişsizdir? | ✓Çiftçi yağmur başlayınca eve döndü.
+tur-fc-138 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde özne, işi yapan konumundadır? | ✓Rüzgâr sabaha kadar pencerenin kepengini sal…
+tur-fc-139 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde yüklemin nesnesi vardır? | ✓Mehmet sabah erkenden gazeteyi okudu.
+tur-fc-140 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde özne yazılmadığı hâlde işi yapanın kim olduğu yüklemden anlaşılır? | ✓Çuvalları pazar yerine sabahtan taşıdık.
+tur-fc-141 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde iki kişinin işi birbirine karşı yaptığı anlatılmaktadır? | ✓Kardeşim ile dayım yaz boyunca mektuplaştı.
+tur-fc-142 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde özne işi kendi üzerine yapmıştır? | ✓Çocuklar yağmurdan kaçınca çatının altına sa…
+tur-fc-143 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemi yaptırma anlamı taşır? | ✓Aşçı yeni menüyü yardımcısına hazırlattı.
+tur-fc-144 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde nesnenin olmaması, fiilin nesne almamasından kaynaklanır? | ✓Bebek annesinin kucağında ağladı.
+tur-fc-145 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde yükleme "neyi?" ya da "kimi?" diye sorulamaz? | ✓Kamyoncu gece yarısı kasabaya vardı.
+tur-fc-146 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde yüklem edilgendir? | ✓Köprünün demir korkulukları geçen yaz boyand…
+tur-fc-147 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde iş iki taraf arasında karşılıklı yapılmaktadır? | ✓İki öğrenci ödev konusunda tartıştı.
+tur-fc-148 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinde iş, özne tarafından başka birine yaptırılmıştır? | ✓Nazlı kamp alanına bir tahta masa yaptırdı.
+tur-fc-149 | T.8.4.20 | z1 | k1 | Aşağıdaki cümlelerin hangisinin yüklemi geçişlidir? | ✓Misafirler yeni evin odalarını gezdi.
+tur-fc-150 | T.8.4.20 | z2 | k1 | Satranç turnuvasından alınan cümleler: (I) Turnuvanın iki finalisti salonun girişinde karşılaştı. (II) Hakem oyun kurallarını yük… | ✓I. cümle
+tur-fc-151 | T.8.4.20 | z2 | k1 | Bir arıcının gününü anlatan cümleler: (I) Arıcı kovanların kapaklarını açtı. (II) Petekleri tek tek kontrol etti. (III) Dolan çer… | ✓IV. cümle
+tur-fc-152 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklem hem işteş hem de olumsuzdur? | ✓Küs kardeşler bayramda bile selamlaşmadı.
+tur-fc-153 | T.8.4.20 | z2 | k1 | Bir fotoğraf kursunun ilk gününü anlatan cümleler: (I) Kursiyerler fotoğraf makinelerini çantalardan çıkardı. (II) Murat doğa çek… | ✓II. cümle
+tur-fc-154 | T.8.4.20 | z2 | k1 | Bir yüzme havuzu hakkında şu cümleler yazılmıştır: I. Antrenör çocuklara dalış tekniğini gösterdi. II. Havuzun zemini sabaha kada… | ✓II ve III
+tur-fc-155 | T.8.4.20 | z2 | k1 | Bir tiyatro provasını anlatan cümleler: I. Tiyatrocular provada metni defalarca okudu. II. Oyuncular perde açılmadan sahneye çıkt… | ✓Yalnız II
+tur-fc-156 | T.8.4.20 | z2 | k1 | Bir okul kütüphanesinden alınan cümleler: (I) Müdür kütüphanenin kapısına yeni bir levha astırdı mı? (II) Kütüphaneye bu yıl kaç … | ✓I. cümle
+tur-fc-157 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklem, anlam bozulmadan "kendini ..." diye açıklanabilir? | ✓Ece güneşten korunmak için şapkayla örtündü.
+tur-fc-158 | T.8.4.20 | z2 | k1 | Bir resim sergisinin açılışını anlatan cümleler: (I) Salona dün akşam yeni tablolar yerleştirildi. (II) Sergi, belediye başkanı t… | ✓II. cümle
+tur-fc-159 | T.8.4.20 | z2 | k1 | Bir fotoğraf sergisinin hazırlığını anlatan cümleler: I. Fotoğrafçı sanatçının portresini çekti. II. Salonun tavanına yeni lambal… | ✓I ve III
+tur-fc-160 | T.8.4.20 | z2 | k1 | Bir kırtasiyenin yenilenmesini anlatan cümleler: (I) Kırtasiyeci vitrine renkli defterler yerleştirdi. (II) Kırtasiyeci dükkânın … | ✓II. cümle
+tur-fc-161 | T.8.4.20 | z2 | k1 | Bir çiftlikte geçen bir günü anlatan cümleler: (1) Çiftçi buğdayları ambara taşıdı. (2) Yağmur akşama doğru dindi. (3) Kadınlar e… | ✓Üç
+tur-fc-162 | T.8.4.20 | z2 | k1 | "Bora kar yağınca hemen kalın giyindi." cümlesindeki yüklemle aynı çatıda olan yüklem, aşağıdaki cümlelerin hangisinde vardır? | ✓Yorgun yolcu uyanınca uzun uzun gerindi.
+tur-fc-163 | T.8.4.20 | z2 | k1 | Sel sonrası yaşananları anlatan cümleler: (I) Sel suları çekilince köprü onarıldı. (II) Bir çoban sürüsünü yamaca çıkardı. (III) … | ✓IV. cümle
+tur-fc-164 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklem işteş (karşılıklı ya da ortaklaşa) bir iş bildirmez? | ✓Pazar yerinde iki komşu ıslak zeminde düştü.
+tur-fc-165 | T.8.4.20 | z2 | k1 | Bir lokantadaki hazırlığı anlatan cümleler: I. Salata, aşçıbaşı tarafından hazırlandı. II. Garsonlar masaları erkenden donattı. I… | ✓Yalnız III
+tur-fc-166 | T.8.4.20 | z2 | k1 | Nihal'in annesi ilk kez gördüğü yeğenini sevinçle öptü; yeğeni de onu öptü. Bu durum tek cümlede anlatılırsa "Nihal'in annesi ile… | ✓öpüştü
+tur-fc-167 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklem hem devrik hem de iş başkasına yaptırılmıştır? | ✓Yaptırdı bahçeye bir kulübe dedem.
+tur-fc-168 | T.8.4.20 | z2 | k1 | Bir öğrenci, aşağıdaki tabloda cümlelerin yüklemlerinin anlam özelliklerini yazmıştır. Bu tablodaki hangi satırda yanlışlık vardı… | ✓II. satır
+tur-fc-169 | T.8.4.20 | z2 | k1 | Bir sirk gösterisini anlatan cümleler: (I) Sirkin yeni gösterisi akşam saatlerinde duyuruldu. (II) Palyaço sahneye usulca çıktı. … | ✓III. cümle
+tur-fc-170 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde nesne yazılmadığı hâlde yüklem geçişlidir? | ✓Ayşe akşam yemeğinden sonra uzun uzun okudu.
+tur-fc-171 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklemde -t ya da -dır eki bulunmasına rağmen özne işi başkasına yaptırmayıp kendisi yapmıştır? | ✓Halterci ağır demiri tek hamlede kaldırdı.
+tur-fc-172 | T.8.4.20 | z2 | k1 | Bir gezi yazısında şu iki cümle yer almaktadır: (1) Gezginler dere kenarında yıkandı. (2) Halılar dere kenarında yıkandı. Bu cüml… | ✓Birincide iş özneye döner; ikincide özne işi…
+tur-fc-173 | T.8.4.20 | z2 | k1 | Aşağıdaki cümlelerin hangisinde yüklem hem dönüşlü hem de olumsuzdur? | ✓Kerem sabah soğuk olmasına rağmen kalın giyi…
+tur-fc-174 | T.8.4.20 | z2 | k1 | Sınıf panosuna asılan bir yazıdan alınan cümleler: (I) Genç kız düğün öncesi aynanın karşısında özenle süslendi. (II) Tablo sergi… | ✓I. cümle
+tur-fc-175 | T.8.4.20 | z2 | k1 | Bir toplantı hazırlığıyla ilgili şu cümleler yazılmıştır: (I) Toplantı neden ertelendi? (II) Salonu kim hazırladı? (III) Misafirl… | ✓IV. cümle
+tur-fc-226 | T.8.4.20 | z2 | k2 | Bir balıkçı kasabasının sabahını anlatan yazıda dört cümle yer almaktadır. Bu cümlelerin hangisinde işi yapan belli değildir? | ✓Tekneler sabaha karşı limandan denize çıkarı…
+tur-fc-227 | T.8.4.20 | z2 | k2 | Okul tiyatro kulübünün prova gününü anlatan yazıdan alınan dört cümle aşağıdadır. Bu cümlelerin hangisinde iş karşılıklı yapılmış… | ✓Küsen iki oyuncu prova arasında barıştı.
+tur-fc-228 | T.8.4.20 | z2 | k2 | Dedemin eski duvar saati bozulunca yaşananlar dört cümleyle anlatılmıştır. Bu cümlelerin hangisinde iş başkasına yaptırılmıştır? | ✓Dedem eski duvar saatini ustaya onarttı.
+tur-fc-229 | T.8.4.20 | z2 | k2 | Bir doğa yürüyüşünü anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi nesne almaz (geçişsizdir)? | ✓Yorulan yürüyüşçüler gölgeli bir kayanın üst…
+tur-fc-230 | T.8.4.20 | z2 | k2 | Yüzme kursuna giden bir çocuğun gününü anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde iş, özne tarafından kendi üzerine … | ✓Gösteri günü çocuk aynanın karşısında özenle…
+tur-fc-231 | T.8.4.20 | z2 | k2 | Bir sitenin duyuru panosuna asılan notlardan dört cümle şöyledir. Bu cümlelerin hangisinin yüklemi hem edilgen hem olumsuzdur? | ✓Aidat artışı toplantıda kabul edilmedi.
+tur-fc-232 | T.8.4.20 | z2 | k2 | Okul servisinde yapılan bir sohbetten alınan dört cümle aşağıdadır. Bu cümlelerden hangisi hem soru cümlesidir hem de iş karşılık… | ✓Dün akşam hangi arkadaşlar okul çıkışında gö…
+tur-fc-233 | T.8.4.20 | z2 | k2 | Bir apartmandaki yaşamı anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde nesne yazılmamış olmasına rağmen yüklem geçişlidi… | ✓Deniz her akşam yatmadan önce okur.
+tur-fc-234 | T.8.4.20 | z2 | k2 | “Abla bayram öncesi kıyafetini terziye diktirdi.” cümlesi için aşağıdakilerden hangisi doğrudur? | ✓Diken terzidir; iş özne tarafından başkasına…
+tur-fc-235 | T.8.4.20 | z2 | k2 | Okulun yıl sonu hazırlığı şu üç cümleyle anlatılmıştır: I. Sınıf başkanı yıl sonu panosunu hazırladı. II. Pencerelerin camları dü… | ✓II ve III
+tur-fc-236 | T.8.4.20 | z2 | k2 | Bir futbol takımının antrenman gününü anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde yüklemdeki -n eki, işin özneye dönd… | ✓Futbolcu maçtan önce soyunma odasında giyind…
+tur-fc-237 | T.8.4.20 | z2 | k2 | Bayram sabahını anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi hem işteş hem olumsuzdur? | ✓Küsen iki komşu bayram sabahı selamlaşmadı.
+tur-fc-238 | T.8.4.20 | z2 | k2 | Bir kargo şubesinin gününü anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi edilgendir? | ✓Sabah gelen paketler öğleden önce teslim edi…
+tur-fc-239 | T.8.4.20 | z2 | k2 | Bir sitenin giriş kapısındaki hareketliliği anlatan dört cümle aşağıdadır. Bu cümlelerin hangisi hem devrik hem de yüklemi geçişs… | ✓Geldi servis tam vaktinde okulun önüne.
+tur-fc-240 | T.8.4.20 | z2 | k2 | Bir çarşıdaki esnafın gününü anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde yüklemden önce “birbiriyle” sözü getirilirse… | ✓Dükkân sahipleri kira konusunda sonunda anla…
+tur-fc-241 | T.8.4.20 | z2 | k2 | Bir lokantadaki bir günü anlatan dört cümlede bazı sözlerin altı çizilmiştir. Bu cümlelerin hangisinde altı çizili söz yüklemin n… | ✓Garson siparişleri masaya taşıdı.
+tur-fc-242 | T.8.4.20 | z2 | k2 | Sabah hazırlıklarını anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi hem dönüşlü hem olumsuzdur? | ✓Bora servis gelene kadar hazırlanmadı.
+tur-fc-243 | T.8.4.20 | z2 | k2 | Bir ailenin hafta sonu temizliği şu üç cümleyle anlatılmıştır: I. Kardeşim ödevini bu akşam kendisi bitirdi. II. Annem eski halıy… | ✓Yalnız II
+tur-fc-244 | T.8.4.20 | z2 | k2 | Bir Türkçe öğretmeni, tahtadaki cümlelerin yüklemlerinin özelliklerini tabloya yazdırmıştır. Bu tabloda hangi satırdaki açıklama … | ✓1. satır
+tur-fc-245 | T.8.4.20 | z2 | k2 | Yeni eve taşınan bir ailenin sohbetinden alınan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi hem yaptırma anlamı taşır… | ✓Pencerelerin camlarını ustaya sildirdin mi?
+tur-fc-246 | T.8.4.20 | z2 | k2 | Mahallenin fırınında sabah işleri erkenden başladı. Usta kapıyı açtı. Tepsideki simitler tezgâha dizildi. İlk müşteriyi güler yüz… | ✓dizildi
+tur-fc-247 | T.8.4.20 | z2 | k2 | Bir mahalle yaşamını anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde yüklemdeki “-ş” harfi işteşlik eki değil, kökün parç… | ✓Yarışmacılardan biri son virajda yere düştü.
+tur-fc-248 | T.8.4.20 | z2 | k2 | Mahallenin tarihini anlatan bir yazıdan dört cümle alınmıştır. Bu cümlelerin hangisinin yüklemi fiil olmadığı için çatı bakımında… | ✓Mahallemizin en eski çınarı bu meydandadır.
+tur-fc-249 | T.8.4.20 | z2 | k2 | Okulun yıl sonu şenliği şu üç cümleyle anlatılmıştır: I. Öğrenciler bahçeye sırayla çıktı. II. Yarışmacılar bitiş çizgisine doğru… | ✓Yalnız III
+tur-fc-250 | T.8.4.20 | z2 | k2 | “Efe, Derya’ya mesaj gönderdi; Derya da Efe’ye mesaj gönderdi.” anlatımı anlam kaybı olmadan aşağıdakilerden hangisiyle özetleneb… | ✓Efe ile Derya mesajlaştı.
+tur-fc-251 | T.8.4.20 | z2 | k2 | Bir öğrencinin defterinden alınan dört cümle aşağıdadır. Bu cümlelerin hangisi hem devrik hem etken çatılıdır? | ✓Gezdi köyün bütün sokaklarını Aylin.
+tur-fc-252 | T.8.4.20 | z3 | k2 | Okulun gökbilim kulübü akşam gözlem yapmak için gözlemevine gitti. Kulüp üyelerinden biri gezi notlarına şu dört cümleyi yazdı: (… | ✓(3). cümle
+tur-fc-253 | T.8.4.20 | z3 | k2 | Bir köy gazetesinde şu cümle yer almaktadır: “Göletin suyu sabaha karşı boşaltıldı.” Yazının devamında boşaltmanın nedenleri ve s… | ✓“Göletin suyu” sözü yüklemin nesnesidir.
+tur-fc-254 | T.8.4.20 | z3 | k2 | Okul sinema kulübünün çekim gününü anlatan üç cümle şöyledir: (1) Dekor, çekimden bir gün önce atölyede hazırlandı. (2) Oyuncular… | ✓II ve III
+tur-fc-255 | T.8.4.20 | z3 | k2 | Soğuk bir kış gününü anlatan dört cümleden üçünün yüklemi aynı çatıdadır. Çatı bakımından diğerlerinden farklı olan cümle hangisi… | ✓Kar yağınca eve giren Emre sıcak odada soyun…
+tur-fc-256 | T.8.4.20 | z3 | k2 | Bir öğrenci, hafta sonu gözlemlerini şu dört cümleyle anlatmış ve bazı sözlerin altını çizmiştir: (1) Öğrenciler otobüse sırayla … | ✓Bir
+tur-fc-257 | T.8.4.20 | z3 | k2 | Türkçe öğretmeni tahtaya “Gezi duyurusu panoya asılmadı.” cümlesini yazıp öğrencilerden yüklemin çatısını yorumlamalarını istemiş… | ✓Emre ve Eda
+tur-fc-258 | T.8.4.20 | z3 | k2 | Bir kafenin akşamını anlatan üç cümle şöyledir: (1) Garson, yeni gelen müşterilere menüyü getirdi. (2) Mutfaktan sıcak bir koku y… | ✓I ve III
+tur-fc-259 | T.8.4.20 | z3 | k2 | Okulun yıl sonu kermesi bahçede kuruldu. Kitaplar, el emeği takılar ve kek tabakları masalara dizildi. Yıllardır görüşmeyen iki e… | ✓Üç
+tur-fc-260 | T.8.4.20 | z3 | k2 | Nehir’in doğum günü hazırlığını anlatan bir yazıda “Nehir, doğum günü pastasını dün gece kendi yaptı.” cümlesi yer almaktadır. Ne… | ✓Nehir, doğum günü pastasını dün gece pastacı…
+tur-fc-261 | T.8.4.20 | z3 | k2 | Kıyıdaki bir kano yarışını anlatan dört cümle şöyledir: (1) Üç kanocu son virajda başa baş yarıştı. (2) Kıyıdaki şemsiyeler akşam… | ✓İşin karşılıklı ya da birlikte yapılıp yapıl…
+tur-fc-262 | T.8.4.20 | z3 | k2 | Bir okulun hazırlık haftasını anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinde yaptırma anlamı vardır ve yüklem cümlenin s… | ✓Diktirdi ceketini terziye, sınıf başkanı Ber…
+tur-fc-263 | T.8.4.20 | z3 | k2 | Bir öğrenci, dört cümlede işi yapanın belli olup olmadığını tabloya işaretlemiştir. Tablodaki bir satır hatalıdır. Hatalı işaretl… | ✓4. satır
+tur-fc-264 | T.8.4.20 | z3 | k2 | Bir mahalle haberinden alınan üç cümle şöyledir: (1) İki komşu bahçe sınırı konusunda sonunda anlaştı. (2) Servis yolcuları kapıy… | ✓I ve II
+tur-fc-265 | T.8.4.20 | z3 | k2 | Bora’nın hafta sonunu anlatan dört cümle aşağıdadır: (1) Bora arabayı yıkadı. (2) Bora havuz başında yıkandı. (3) Bora arabayı yı… | ✓(2). cümle
+tur-fc-266 | T.8.4.20 | z3 | k2 | Kış yaklaşırken çiftçi bir ailenin hazırlıklarını anlatan yazıda şu cümle yer almaktadır: “Kış gelmeden ev halkı yakacağı ambara … | ✓Etkendir, geçişlidir; iş başkasına yaptırılm…
+tur-fc-267 | T.8.4.20 | z3 | k2 | Bir okulun yönetim haftasını anlatan dört cümle şöyledir. Bu cümlelerin hangisinin yüklemi hem etken hem geçişsiz hem de olumsuzd… | ✓Yeni müdür toplantıya hiç geç kalmadı.
+tur-fc-268 | T.8.4.20 | z3 | k2 | Bir yerel gazetenin editörü, mahalle parkının yenilenmesiyle ilgili haberin başlığını yazarken dikkati işi yapanın kim olduğuna d… | ✓Kent merkezindeki park, uzun bir aradan sonr…
+tur-fc-269 | T.8.4.20 | z3 | k2 | Bir spor salonunda yaşananları anlatan dört cümle aşağıdadır. Bu cümlelerin hangisinin yüklemi, “kendini” sözü getirilerek (“kend… | ✓Antrenmandan çıkan kız duşta bol köpükle sab…
+tur-fc-270 | T.8.4.20 | z3 | k2 | Bir okul kitaplığına rafların takılışını anlatan yazıda “Marangoz yeni rafı kitaplığın üst bölümüne yerleştirdi.” cümlesi yer alm… | ✓Yeni raf kitaplığın üst bölümüne yerleştiril…
+tur-fc-271 | T.8.4.20 | z3 | k2 | Aşağıdaki tabloda dört kişinin hafta sonu evde hangi işleri isteyip bu işleri kimin yaptığı gösterilmiştir. Bu tabloya göre aşağı… | ✓Esra, camları sildi.
+tur-fc-272 | T.8.4.20 | z3 | k2 | Okulun resim yarışmasının ödül töreni şu üç cümleyle anlatılmıştır: (1) Yarışmada birinci olan öğrenciye büyük bir madalya takıld… | ✓Yalnız I
+tur-fc-273 | T.8.4.20 | z3 | k2 | Bir ilçe spor şenliğini anlatan yazıdan dört cümle alınmıştır: (1) Yarışmanın son turunda iki sporcu başa baş yarıştı. (2) Salonu… | ✓işteş - edilgen - dönüşlü - yaptırma
+tur-fc-274 | T.8.4.20 | z3 | k2 | Türkçe öğretmeni tahtaya “Ayşe ile Kaan sokakta yürüdü.” cümlesini yazıp öğrencilerden yüklemin işteş olup olmadığını yorumlamala… | ✓Yalnız Sena
+tur-fc-275 | T.8.4.20 | z3 | k2 | Bir ailenin pazar akşamını anlatan dört cümle numaralandırılmıştır: (1) Anneannem saksıları pencere kenarına dizdi. (2) İki kuzen… | ✓(3) ve (4)
+tur-fc-326 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinin yüklemi hem etken hem de geçişsizdir? | ✓Konuklar konser salonuna ağır ağır ve sessiz…
+tur-fc-327 | T.8.4.20 | z3 | k3 | Satranç kulübü, yıllık turnuvanın ardından o günü anlatan kısa bir yazı yayımladı. Yazıdan alınan cümleler şöyledir: (1) Finale k… | ✓(1). cümle
+tur-fc-328 | T.8.4.20 | z3 | k3 | Çocuk kitabı fuarını anlatan bir haberde şu cümleler yer alıyor: (1) Fuarın açılışı belediye başkanı tarafından yapıldı. (2) Fuar… | ✓II ve III
+tur-fc-329 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinin yüklemi, nesnesi yazılmamış olsa da geçişlidir? | ✓Ada her akşam yemekten sonra bahçede uzun uz…
+tur-fc-330 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinin yüklemi yaptırma anlamı taşır? | ✓Aslı ceketin eskiyen düğmelerini terziye yen…
+tur-fc-331 | T.8.4.20 | z3 | k3 | Aşağıdaki tabloda dört cümle numaralandırılmıştır. Bu cümlelerin hangisinde özne, yaptığı işten kendisi etkilenmektedir? | ✓IV
+tur-fc-332 | T.8.4.20 | z3 | k3 | Murat, okulun ilk gününü günlüğüne şöyle yazdı. Bazı fiillerin altı çizilmiştir: Okul kapısından içeri girdi. Koridordaki duyurul… | ✓girdi
+tur-fc-333 | T.8.4.20 | z3 | k3 | Okul gözlem gününü anlatan bir yazıdan alınan cümleler şöyledir: (1) Öğrenciler teleskobun merceğini yumuşak bir bezle sildi. (2)… | ✓Yalnız II
+tur-fc-334 | T.8.4.20 | z3 | k3 | Okul gazetesinin editörü, şu cümleyi haber yazısına koyacaktı: "Nöbetçi öğrenci koridorun ışığını dün akşam söndürdü." Ancak kimi… | ✓Koridorun ışığı dün akşam saat sekizde söndü…
+tur-fc-335 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde işi yapan cümlede belirtilmiş olduğu hâlde yüklem edilgendir? | ✓Salonun ortasındaki heykel genç bir sanatçı …
+tur-fc-336 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde yüklem, -t ya da -dır eki taşıdığı hâlde yaptırma anlamı taşımaz? | ✓Rehber ziyaretçilere kalenin tarihini ayrınt…
+tur-fc-337 | T.8.4.20 | z3 | k3 | Okul tiyatrosunun prova gününü anlatan dört cümle aşağıdaki tabloda numaralandırılmıştır. Bu cümlelerin hangisinin yüklemi hem dö… | ✓IV
+tur-fc-338 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde 'yıkandı' fiili, diğerlerinden farklı bir çatıdadır? | ✓Yüzücü havuzdan çıkar çıkmaz soğuk suyla yık…
+tur-fc-339 | T.8.4.20 | z3 | k3 | Evin yenilenmesini anlatan dört cümle aşağıdaki tabloda numaralandırılmıştır. Bu cümlelerin hangisi hem soru cümlesidir hem de yü… | ✓III
+tur-fc-340 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde özne çoğul olduğu hâlde iş karşılıklı ya da ortak yapılmamıştır? | ✓Yorgun yolcular sabaha karşı küçük kasabaya …
+tur-fc-341 | T.8.4.20 | z3 | k3 | Bir çiftlik gezisini anlatan yazıdan alınan cümleler şöyledir: (1) Ahırın kapısı sabah erkenden açıldı. (2) Çiftçi koyunların yün… | ✓(2). cümle
+tur-fc-342 | T.8.4.20 | z3 | k3 | Bir konser gününü anlatan yazıdan alınan cümleler şöyledir: (1) Orkestra şefi müzisyenlerle prova arasında uzun uzun tartıştı. (2… | ✓Yalnız III
+tur-fc-343 | T.8.4.20 | z3 | k3 | Okul gazetesinde aynı durumu anlatan iki cümle yer aldı: Cümle 1: Kimse sınıfın kapısını açmadı. Cümle 2: Sınıfın kapısı açılmadı… | ✓İkinci cümlede özne, işi yapan değil işten e…
+tur-fc-344 | T.8.4.20 | z3 | k3 | Yarış gününü anlatan dört cümle aşağıdaki tabloda numaralandırılmıştır. Bu cümlelerin hangisi hem soru cümlesidir hem de yüklemi … | ✓II
+tur-fc-345 | T.8.4.20 | z3 | k3 | Aynı kökten türeyen iki fiille kurulmuş şu cümleler verilmiştir: (1) Hemşire uyuyan hastanın üstünü hafifçe örttü. (2) Hasta üşüy… | ✓(1)'de iş başkasına yönelir, (2)'de özne işt…
+tur-fc-346 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde yüklem nesne almaz (geçişsizdir)? | ✓Okulun bahçe kapısı sabahın ilk saatinde kil…
+tur-fc-347 | T.8.4.20 | z3 | k3 | Okulun robotik kulübü, yarışma hazırlıklarını anlatan bir yazı yayımladı. Yazıdan alınan cümleler şöyledir: (1) Ekip, pili tamaml… | ✓(4). cümle
+tur-fc-348 | T.8.4.20 | z3 | k3 | Bir yazarın romanını ve okurunu anlatan dört cümle aşağıda numaralandırılmıştır: (1) Yazar romanını bir yılda tamamladı. (2) Genç… | ✓(3). cümle
+tur-fc-349 | T.8.4.20 | z3 | k3 | Kapadokya'daki küçük bir pansiyonun yenilenmesini anlatan yazıdan alınan cümleler şöyledir: (1) Pansiyon sahibi çatıdaki sızıntıy… | ✓İki
+tur-fc-350 | T.8.4.20 | z3 | k3 | Bir müze bülteninde şu cümle yer almıştır: "Müzedeki vazo, koruma görevlileri tarafından özenle taşındı." Bu cümlenin yüklemi etk… | ✓Koruma görevlileri müzedeki vazoyu özenle ta…
+tur-fc-351 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinin yüklemi hem dönüşlü hem de devriktir? | ✓Giyindi küçük oyuncu, sahneye çıkmadan önce …
+tur-fc-352 | T.8.4.20 | z3 | k3 | Bir bahçenin bakımını anlatan yazıdan alınan cümleler şöyledir: (1) Bahçe sahibi gül fidanlarını bahçıvana budattı. (2) Gül fidan… | ✓I ve III
+tur-fc-353 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde özne çoğul olduğu hâlde yüklem dönüşlüdür? | ✓Tiyatrocular perde açılmadan önce kulislerde…
+tur-fc-354 | T.8.4.20 | z3 | k3 | Aşağıdaki cümlelerin hangisinde 'kendi' ya da 'kendisi' sözü geçtiği hâlde yüklem dönüşlü değildir? | ✓Elif ödevini kimseye yaptırmadan kendisi haz…
+tur-fc-355 | T.8.4.20 | z3 | k3 | Aşağıdaki dört cümlede 'yaz-' kökünden türeyen fiiller kullanılmıştır: (1) İki arkadaş yaz tatilinde sık sık yazıştı. (2) Edebiya… | ✓(1). cümle
+tur-fc-356 | T.8.4.20 | z4 | k3 | Dağ yürüyüşüne çıkan bir grubu anlatan yazıdan alınan cümleler şöyledir: (1) Rehber haritayı yürüyüşten önce herkese gösterdi. (2… | ✓(3). cümle
+tur-fc-357 | T.8.4.20 | z4 | k3 | Bir okul bahçesinin düzenlenmesini anlatan yazıdan alınan cümleler şöyledir: (1) Okul müdürü bahçedeki fidanları gönüllülere dikt… | ✓(4). cümle
+tur-fc-358 | T.8.4.20 | z4 | k3 | Eski bir çarşının bir gününü anlatan yazıdan alınan cümleler şöyledir: (1) Esnaf, çarşının girişindeki tabelayı yeniletti. (2) Dü… | ✓I ve II
+tur-fc-359 | T.8.4.20 | z4 | k3 | 'kes-' kökünden türeyen fiillerle kurulmuş şu cümleler verilmiştir: (1) Kavşakta iki sokak dik açıyla kesişti. (2) Marangoz tahta… | ✓(1) işteş, (2) etken, (3) yaptırma, (4) edil…
+tur-fc-360 | T.8.4.20 | z4 | k3 | Yeni açılan bir köprüyü anlatan haberden alınan cümleler şöyledir: (1) Köprü, bir inşaat firması tarafından yapıldı. (2) Köprünün… | ✓Üç
+tur-fc-361 | T.8.4.20 | z4 | k3 | Okul müdürü, toplantıda "Bahçedeki camlar kırıldı." diye konuştu. Toplantıdan çıkan bir öğrenci, bu sözü arkadaşlarına "Bahçedeki… | ✓Müdürün belirtmediği bir kişi, işi yapan ola…
+tur-fc-362 | T.8.4.20 | z4 | k3 | Okuma alışkanlığı üzerine yazılmış bir yazıdan alınan cümleler şöyledir: (1) Selin otobüste sessizce okudu. (2) Kitabın son bölüm… | ✓(1). cümle
+tur-fc-363 | T.8.4.20 | z4 | k3 | Okul gazetesi, "Müdür, pano için yeni bir çerçeve yaptı." cümlesini yayımlamıştı. Sonradan müdürün çerçevenin yapılmasını bir mar… | ✓Müdür, pano için yeni bir çerçeveyi marangoz…
+tur-fc-364 | T.8.4.20 | z4 | k3 | Aşağıdaki cümlelerde yüklemler cümlenin başına alınmıştır: (1) Yırtıldı ceketin kolu, sert rüzgârda. (2) Onarttı eski kemanını us… | ✓(2). cümle
+tur-fc-365 | T.8.4.20 | z4 | k3 | Bir haber metninde şu cümle yer almıştır: "Barajın kapakları sabaha karşı açıldı." Haberi yazan gazeteci burada edilgen çatılı bi… | ✓Kapakları açan kişinin öne çıkarılıp sorumlu…
+tur-fc-366 | T.8.4.20 | z4 | k3 | Bir yüzme kursunu anlatan yazıdan alınan cümleler şöyledir: (1) Kursa gelen çocuklar havuza girmeden önce soyundu. (2) Eğitmen ço… | ✓Üç
+tur-fc-367 | T.8.4.20 | z4 | k3 | Aşağıdaki cümlelerin hangisinde yükleme "birbiriyle" sözü eklenince anlam bozulmaz ve iş karşılıklı yapılmış olur? | ✓Ece ile Mine kantinde uzun uzun görüştü.
+tur-fc-368 | T.8.4.20 | z4 | k3 | Bir yemek yarışmasını anlatan yazıdan alınan cümleler şöyledir: (1) Yarışmacılar mutfağa girmeden önce takım arkadaşlarıyla yardı… | ✓I, II ve III
+tur-fc-369 | T.8.4.20 | z4 | k3 | Bir sanat galerisinin açılışını anlatan yazıdan alınan cümleler şöyledir: (1) Ressam yeni tuvalleri ustaya yaptırdı. (2) Galeri s… | ✓(4). cümle
+tur-fc-370 | T.8.4.20 | z4 | k3 | Hava durumu yüzünden yaşanan bir aksaklığı anlatan dört cümle aşağıdaki tabloda numaralandırılmıştır. Bu cümlelerin hangisinin yü… | ✓III
+tur-fc-371 | T.8.4.20 | z4 | k3 | Bir öğrenci, cümlelerin yüklemlerini inceleyip çatı özelliklerini aşağıdaki tabloya yazmıştır. Öğrenci tabloda bir satırı yanlış … | ✓II
+tur-fc-372 | T.8.4.20 | z4 | k3 | "Ahmet çatıyı onarmadı." cümlesinin yüklemi yaptırma anlamlı yapılacak, onarma işini yapan kişi "usta" sözüyle gösterilecek ve cü… | ✓Ahmet çatıyı ustaya onartmadı.
+tur-fc-373 | T.8.4.20 | z4 | k3 | Bayram sabahı yaşananları anlatan dört cümle aşağıda numaralandırılmıştır: (1) Eski komşular bu bayramda kucaklaştı mı? (2) Eski … | ✓(4). cümle
+tur-fc-374 | T.8.4.20 | z4 | k3 | Bir akşam yemeğini anlatan yazıdan alınan cümleler şöyledir: (1) Misafirler akşam geç saatte geldi. (2) Ev sahibi sofraya sıcak ç… | ✓Dört
+tur-fc-375 | T.8.4.20 | z4 | k3 | "Sınıfın penceresi yağmur başlamadan kapatılmamıştı." cümlesindeki yüklemle aynı çatıda olan yüklem, aşağıdaki cümlelerin hangisi… | ✓Sınıfın perdesi yağmur başlamadan çekilmiş m…
+tur-fc-016 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisindeki yüklem, “kendini …” diye açıklanabilir? | ✓Serçe, yağmurdan sonra su birikintisinde yık…
+tur-fc-017 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinde işi yapan kişi ile işi yaptıran kişi farklıdır? | ✓Ressam, portre için tuvali marangoza hazırla…
+tur-fc-018 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinin yüklemine “neyi?” ya da “kimi?” diye sorulabilir? | ✓Kaptan, iskeleye yanaşınca kalın halatı bağl…
+tur-fc-019 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisindeki yüklem, “birbirini” ya da “birbirine” sözüyle açıklanabilir? | ✓Bisiklet turunun iki birincisi bitiş çizgisi…
+tur-fc-020 | T.8.4.20 | z1 | k0 | (I) Gelinin arkadaşları kapıyı süsledi. (II) Aşçılar yemek pişirdi. (III) Davetiyeler dağıtıldı. (IV) Çocuklar meydanda oynadı. N… | ✓III. cümle
+tur-fc-021 | T.8.4.20 | z1 | k0 | (I) Yüzücü büyük bir havluyla kurulandı. (II) Antrenör süreleri ölçtü. (III) Havuzun suyu yenilendi. (IV) Çocuklar sırayla bekled… | ✓I. cümle
+tur-fc-022 | T.8.4.20 | z1 | k0 | “Kapı boyandı.” cümlesinin etken çatıya çevrilmiş biçimi aşağıdakilerden hangisidir? | ✓Usta kapıyı boyadı.
+tur-fc-023 | T.8.4.20 | z1 | k0 | (I) Dedem satranç taşlarını dizdi. (II) Dedemle komşusu oyunun kuralı yüzünden tartıştı. (III) Komşusu tahtayı masaya getirdi. (I… | ✓II. cümle
+tur-fc-024 | T.8.4.20 | z1 | k0 | (I) Annem çamaşırları makineye yerleştirdi. (II) Çamaşırlar balkonda asıldı. (III) Çocuklar çamaşırları odaya taşıdı. (IV) Annem … | ✓IV. cümle
+tur-fc-025 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinde işi yapan, cümlede açıkça yazılı olan öznedir? | ✓Gökbilimci, teleskopla gezegenin fotoğrafını…
+tur-fc-026 | T.8.4.20 | z1 | k0 | “Dedem bahçeyi kazdı.” cümlesinin yüklemi, işi başkasına yaptırdığını gösterecek biçimde değiştirilirse aşağıdakilerden hangisi o… | ✓Dedem bahçeyi kazdırdı.
+tur-fc-027 | T.8.4.20 | z1 | k0 | (I) Bahçenin duvarı yeniden örüldü. (II) Rüzgâr fidanları sarstı. (III) Yeni bir çardak yapıldı. (IV) Bahçeye sulama borusu döşen… | ✓II. cümle
+tur-fc-028 | T.8.4.20 | z2 | k0 | Bir ailenin akşamı şu cümlelerle anlatılmıştır: (I) Kardeşi, akşam yemeğinden sonra odasında uyudu. (II) Ece, akşam yemeğinden so… | ✓II. cümle
+tur-fc-029 | T.8.4.20 | z2 | k0 | Bir müzik atölyesinde şu cümle yazılmıştır: “Salona yeni bir piyano getirildi.” Bu cümleyle ilgili şu yargılar verilmiştir: I. Yü… | ✓II ve III
+tur-fc-030 | T.8.4.20 | z2 | k0 | Bir havalimanında yaşananlar şu cümlelerle anlatılmıştır: (I) Uçuş, yoğun sis nedeniyle iptal edildi. (II) Havalimanı çalışanları… | ✓I. cümle
+tur-fc-031 | T.8.4.20 | z2 | k0 | “Hasta, hemşire tarafından odasına götürüldü.” cümlesi etken çatıya çevrilirse aşağıdakilerden hangisi olur? | ✓Hemşire hastayı odasına götürdü.
+tur-fc-032 | T.8.4.20 | z2 | k0 | Bir çiftlikte yaşananlar şu cümlelerle anlatılmıştır: (I) Çiftlikteki yavru kuzular otlakta koşuştu. (II) Çiftçi kuzuları akşam ü… | ✓I. cümle
+tur-fc-033 | T.8.4.20 | z2 | k0 | Aşağıdaki cümlelerin hangisinin yüklemi -n ekli olduğu hâlde dönüşlü değildir? | ✓Odanın duvarları geçen hafta sarıya boyandı.
+tur-fc-034 | T.8.4.20 | z2 | k0 | Bir mutfak atölyesinde şu cümle yazılmıştır: “Annem akşam yemeği için mantı hamurunu açtı.” Bu cümleyle ilgili şu yargılar verilm… | ✓I ve II
+tur-fc-035 | T.8.4.20 | z2 | k0 | Bir hastanede yaşananlar şu cümlelerle anlatılmıştır: (I) Hasta, kolundaki alçıyı hemşireye çıkarttı. (II) Hastane müdürü, yeni b… | ✓III. cümle
+tur-fc-036 | T.8.4.20 | z2 | k0 | Bir dükkânın yeni tabelası üzerine konuşulurken şu cümleler söylenmiştir: (I) Tabelayı ustaya yaptırdık. (II) Dükkânın tabelasını… | ✓II. cümle
+tur-fc-037 | T.8.4.20 | z2 | k0 | Bir gazetede aynı haber iki farklı başlıkla verilmiştir: Başlık 1: Eski meşe ağaçları kesildi. Başlık 2: Belediye eski meşe ağaçl… | ✓Yalnızca ikinci başlıkta kesme işini yapan b…
+tur-fc-038 | T.8.4.20 | z2 | k0 | Bir oto tamirhanesinde geçen bir gün şu cümlelerle anlatılmıştır: (I) Tamirci, iş çıkışında lavaboda uzun uzun yıkandı. (II) Çıra… | ✓I. cümle
+tur-fc-039 | T.8.4.20 | z2 | k0 | Bir çiçek serasında şu cümle yazılmıştır: “Fidan saksıları serada raflara dizildi.” Bu cümleyle ilgili şu yargılar verilmiştir: I… | ✓Yalnız II
+tur-fc-040 | T.8.4.20 | z2 | k0 | Aşağıdaki seçeneklerin hangisinde altı çizili söz, cümlenin nesnesidir? | ✓Postacı mektubu komşuya verdi.
+tur-fc-041 | T.8.4.20 | z2 | k0 | Eski mahalle sokağında yaşananlar şu cümleyle anlatılmıştır: “Eski komşular yıllar sonra sokakta karşılaştı.” Bu cümleyle ilgili … | ✓I ve III
+tur-fc-042 | T.8.4.20 | z2 | k0 | Bir esnafın akşam kapanışı dört ayrı cümleyle yazılmıştır: (I) Kapatıldı kepenkler, gün batar batmaz. (II) Esnaf akşam olunca kep… | ✓IV. cümle
+tur-fc-043 | T.8.4.20 | z2 | k0 | Aşağıdaki cümle çiftlerinden hangisinde ikinci cümlenin yüklemi, birincinin yüklemine göre işi başkasına yaptırma anlamı taşır? | ✓Çocuk mektubu yazdı. / Çocuk mektubu ağabeyi…
+tur-fc-044 | T.8.4.20 | z2 | k0 | Dağ yürüyüşüne çıkan bir grup şu cümlelerle anlatılmıştır: (I) Rehber, haritayı çantasından çıkardı. (II) Kafile, sabaha karşı zi… | ✓II. cümle
+tur-fc-045 | T.8.4.20 | z2 | k0 | Bir kavşakta yaşananlar şu cümlelerle anlatılmıştır: (I) Yolcular otobüsten sırayla ve sessizce indi. (II) Çocuklar kavşakta yeşi… | ✓IV. cümle
+tur-fc-046 | T.8.4.20 | z2 | k0 | Bir parkın girişindeki levhada “Çimlere basılmaz.” yazmaktadır. Levhada edilgen çatılı bir yüklem kullanılmasının amacı aşağıdaki… | ✓Uyarıyı yapanı değil, yasağın kendisini öne …
+tur-fc-047 | T.8.4.20 | z2 | k0 | Aşağıdaki cümlelerin hangisinin yüklemi etken çatılıdır? | ✓Çiftçi, buğdayları yarın sabah hasat edecek.
+tur-fc-048 | T.8.4.20 | z3 | k0 | Bir mahalle şenliğinin hazırlıkları anlatılırken şu cümleler yazılmıştır: (1) Gönüllüler, meydana renkli flamalar astı. (2) Sahne… | ✓Yalnız III
+tur-fc-049 | T.8.4.20 | z3 | k0 | Mahalle bakkalının bir sabahı şu cümlelerle anlatılmıştır: (I) Bakkal ile simitçi dükkânın önünde selamlaştı. (II) Açıldı dükkânı… | ✓IV. cümle
+tur-fc-050 | T.8.4.20 | z3 | k0 | Bir takımın kaptanı, kaybedilen maçın ardından basın toplantısında şöyle demiştir: “Son dakikada topu ben kaçırdım.” Kaptanın “To… | ✓Hatayı kimin yaptığını açıkça belli ederek s…
+tur-fc-051 | T.8.4.20 | z3 | k0 | Bir bilim kulübü öğretmeni, tahtaya yazdığı cümlelerin yüklemlerini çatı özelliklerine göre sınıflandırıp tabloya yazmıştır. Bu t… | ✓III. satır
+tur-fc-052 | T.8.4.20 | z3 | k0 | Bir gençlik orkestrasının konser gecesi şu cümlelerle özetlenmiştir: I. Piyanist, konser biter bitmez soyunma odasındaki koltukta… | ✓I ve II
+tur-fc-053 | T.8.4.20 | z3 | k0 | “Duvara afişler yapıştırılmadı.” cümlesi, olumsuzluğu korunarak etken çatıya çevrilirse aşağıdakilerden hangisi olur? | ✓Gönüllüler duvara afişleri yapıştırmadı.
+tur-fc-054 | T.8.4.20 | z3 | k0 | Türkçe öğretmeni tahtaya “Bahçıvan, çitleri ustaya boyattı.” cümlesini yazıp öğrencilerden yüklemin çatısını yorumlamalarını iste… | ✓Hakan
+tur-fc-055 | T.8.4.20 | z3 | k0 | Bir sınıf başkanı, ders sonunda tahtaya şu cümleyi yazmıştır: “Ali kutuları depoya taşıdı.” Öğretmen, yüklemi “taşıttı” biçiminde… | ✓Taşıma işini artık Ali değil başka biri yapa…
+tur-fc-056 | T.8.4.20 | z3 | k0 | Bir çiftlik gezisini anlatan altı cümle şöyledir: (1) Çiftçi, tarlasının sulama kanalını ustalara açtırdı. (2) Rehber, çiftliğin … | ✓Dört
+tur-fc-057 | T.8.4.20 | z3 | k0 | Bir köy meydanının geçmişi şu cümlelerle anlatılmıştır: (I) Köyün meydanı, yıllar boyunca haftalık bir pazar yeriydi. (II) Muhtar… | ✓I. cümle
+tur-fc-058 | T.8.4.20 | z3 | k0 | Bir mimarlık ofisinde yaşananlar şu cümlelerle anlatılmıştır: (1) Mimar, binanın planını masaya serdi. (2) Plan, inşaat ustaların… | ✓I, II ve III
+tur-fc-059 | T.8.4.20 | z3 | k0 | Bir öğrenci, yaz tatilinde dedesinin köyünde geçirdiği bir günü şöyle anlatmıştır: “Sabah horozun ötmesiyle uyandım. Dedem, kapıd… | ✓onarttı
+tur-fc-060 | T.8.4.20 | z3 | k0 | Soğuk bir kış gecesini anlatan cümleler şunlardır: (I) Soba sabaha kadar bir an bile yanmadı. (II) Üşüyen çocuk, battaniyeye hiç … | ✓II. cümle
+tur-fc-061 | T.8.4.20 | z3 | k0 | Bir köy muhtarının toplantı günü şu cümlelerle anlatılmıştır: (I) Muhtar, toplantı salonuna geç vardı. (II) Muhtar, toplantı salo… | ✓II. cümle
+tur-fc-062 | T.8.4.20 | z3 | k0 | Tuba ile Murat, duvardaki resmi gösterip şunları söylemiştir: Tuba: “Bu duvar resmini ablam çizdi.” Murat: “Bu duvar resmi çizild… | ✓Murat'ın cümlesinde resmi kimin çizdiği bell…
+tur-fc-063 | T.8.4.20 | z3 | k0 | Karlı bir gecenin ardından çiftlikte yaşananlar şu cümlelerle anlatılmıştır: (1) Kuzu, kar yağınca ahıra girdi. (2) Çobanlar, ahı… | ✓Yalnız I
+tur-fc-064 | T.8.4.20 | z4 | k0 | Dağ evinde kışı geçiren bir ailenin günlüğünden alınan beş cümle şunlardır: (I) Odunlar yaz boyunca kuru bir yerde saklandı. (II)… | ✓I ve IV
+tur-fc-065 | T.8.4.20 | z4 | k0 | Tatile çıkan bir komşunun balkon çiçekleri şu cümlelerle anlatılmıştır: (1) Balkondaki çiçekler, tatil boyunca komşu tarafından h… | ✓Yalnız II
+tur-fc-066 | T.8.4.20 | z4 | k0 | Arıcılık yapan Nuri Amca, bir söyleşide şunları anlatmıştır: “Sabah güneş doğmadan kovanlarımın kapaklarını açtım. Eski kovanlar … | ✓etken – edilgen – yaptırma – işteş
+tur-fc-067 | T.8.4.20 | z4 | k0 | Bir sanayi sitesinde gece nöbeti şu cümlelerle anlatılmıştır: (I) Kapılar sabaha kadar bir türlü kilitlenmedi. (II) Kilitlenmedi … | ✓II. cümle
+tur-fc-068 | T.8.4.20 | z4 | k0 | Bir çiftlikte yaşananları anlatan cümleler ve bu cümlelerin yüklemleri hakkında verilen bilgiler tabloda gösterilmiştir. Bu tablo… | ✓III. satır
+tur-fc-069 | T.8.4.20 | z4 | k0 | Bir balıkçı limanında yaşananlar şu cümlelerle anlatılmıştır: (1) Gece yarısı fırtına çıkınca balıkçılar limana döndü. (2) Usta b… | ✓İki
+tur-fc-070 | T.8.4.20 | z4 | k0 | Aşağıdaki cümle çiftlerinden hangisinde birinci cümlenin yüklemi dönüşlü, ikinci cümlenin yüklemi edilgendir? | ✓Gelin, aynanın karşısında kendi başına taran…
+tur-fc-071 | T.8.4.20 | z4 | k0 | Bir sinema salonunun yenilenmesi şu cümlelerle anlatılmıştır: (1) Salonun tavanındaki lambalar geçen hafta değiştirildi. (2) Yöne… | ✓Yalnız II
+tur-fc-072 | T.8.4.20 | z4 | k0 | Bir konser gecesinde yaşananlar şu cümlelerle anlatılmıştır: (I) Konser salonuna yetişmek için herkes merdivenlere koştu. (II) Es… | ✓II. cümle
+tur-fc-073 | T.8.4.20 | z4 | k0 | Bir iş yerinde yaşananlar şu cümlelerle anlatılmıştır: (I) Müdür, eski dolapları tamirciye söktürdü. (II) Eski dolaplar, tamirci … | ✓IV. cümle
+tur-fc-074 | T.8.4.20 | z4 | k0 | Bir köyün onarım çalışmaları şu cümlelerle anlatılmıştır: (I) Köydeki evin çatısı geçen yıl yeniden onarıldı. (II) Çiftçi, yeni a… | ✓I. cümle
+tur-fc-075 | T.8.4.20 | z4 | k0 | Bir pazarlık görüşmesi dört ayrı cümleyle yazılmıştır: (I) Anlaştı iki arkadaş sonunda fiyat konusunda. (II) İki arkadaş bir türl… | ✓III. cümle

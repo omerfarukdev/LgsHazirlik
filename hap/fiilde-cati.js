@@ -91,7 +91,8 @@ window.LGS_HAP["fiilde-cati"] = {
         "Sınavda çatı çoğu zaman **olumsuzluk, soru ya da devrik yüklem** ile birleşir. Her ölçütü ayrı denetle; olumsuzluk, soru ve devrik yüklem çatıyı değiştirmez.",
         "**Olumsuz:** yüklemde -ma/-me vardır ya da iş yapılmamıştır. “Yarışmacılar el sıkışmadı.” hem işteş hem olumsuzdur; “Mektup gönderilmedi.” hem edilgen hem olumsuzdur.",
         "**Soru:** cümle yanıt bekler (mi, kim, ne, hangi, neden…). “Gezi neden iptal edildi?” hem soru hem edilgendir.",
-        "**Devrik:** yüklem cümlenin sonunda değildir. “Kapatıldı yol kar yüzünden.” hem devrik hem edilgendir."
+        "**Devrik:** yüklem cümlenin sonunda değildir. “Kapatıldı yol kar yüzünden.” hem devrik hem edilgendir.",
+        "**İsim cümlesinde çatı aranmaz.** Yüklemi fiil olmayan (ad ya da ek-fiille kurulmuş) cümlede iş bildiren bir fiil yoktur; bu yüzden etken, edilgen, işteş gibi çatı özelliklerinden söz edilmez. “Kütüphane sessizdi.” ya da “Sınav çok kolaydı.” cümlelerinin yüklemi için çatı sorulamaz. Çatı yalnızca **fiil yüklemlerde** aranır."
       ]
     }
   ],
