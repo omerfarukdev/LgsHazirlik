@@ -98,11 +98,17 @@ window.LGS_HAP["donusum-geometrisi"] = {
         "**Şekil ile yansımasını birleştirme:** simetri doğrusu bir kenar üzerindeyse iki şekil o kenarı paylaşır. Birleşik şeklin alanı, bir şeklin alanının iki katıdır; ortak kenar içeride kalır, dış çevreye girmez.",
         "**Ortak bölge:** dikdörtgen yatayda a, dikeyde b birim ötelenirse asıl ile görüntünün ortak bölgesi yine dikdörtgendir; eni (en − a), boyu (boy − b) olur. Boyanan toplam alan = iki alanın toplamı − ortak bölge.",
         "**Uzaklık:** aynı yatay ya da dikey hizadaki iki nokta arası, farklı olan koordinatların farkıdır: (−3, 2) ile (4, 2) arası 7 birimdir. Hem yatay hem dikey fark varsa bu iki fark dik kenar olur, uzaklık hipotenüstür (**Pisagor**).",
-        "**Sınır koşulu:** \"koordinatlar pozitif olmalı, eksenler üzerinde olmamalı\" denirse sıfır olamaz; en küçük koordinat 1 olacak biçimde kaydır."
+        "**Sınır koşulu:** \"koordinatlar pozitif olmalı, eksenler üzerinde olmamalı\" denirse sıfır olamaz; en küçük koordinat 1 olacak biçimde kaydır.",
+        "**Bölgeler:** eksenler düzlemi dört bölgeye ayırır. **1. bölge:** x > 0, y > 0. **2. bölge:** x < 0, y > 0. **3. bölge:** x < 0, y < 0. **4. bölge:** x > 0, y < 0. Eksenler üzerindeki noktalar hiçbir bölgede sayılmaz. \"En az / en çok tam sayı\" sorularında önce eşitsizliği yaz, sonra sınırı dışarıda bırak (x > 0 ise en küçük tam sayı 1'dir).",
+        "**Orta nokta:** iki noktanın orta noktasının apsisi, apsislerin toplamının yarısıdır; ordinatı da ordinatların toplamının yarısıdır. Öteleme ve yansıma orta noktayı da aynı kuralla taşır: önce uçları dönüştürüp sonra orta noktayı bulabilir ya da orta noktayı bulup dönüştürebilirsin.",
+        "**Yansımayla en kısa yol:** bir doğru üzerindeki P noktasından geçerek iki noktaya giden yolun en kısası için noktalardan birinin doğruya göre yansımasını al. Yansıma uzunluğu koruduğundan |AP| = |A′P| olur; |A′P| + |PB| toplamı en az |A′B| kadardır (doğru parçası en kısa yoldur). A ve B doğrunun aynı yanındaysa bu yöntem işe yarar.",
+        "**Köşegen ve paralelkenar:** dikdörtgenin köşegeni, kenarları dik kenar kabul eden Pisagor hipotenüsüdür. Öteleme sonunda köşeleri görüntülerine bağlayan parçalar paralel ve eşit olduğundan şekil, görüntüsü ve bu parçalar paralelkenar oluşturur; paralelkenarın alanı taban × yüksekliktir."
       ],
       "ornekler": [
         "**Alan:** Bir dik üçgenin dik kenarları 7 ve 10 cm'dir ve 10 cm'lik kenarı simetri doğrusu üzerindedir. Üçgenle yansıması birleşince tabanı 2 · 7 = 14 cm, yüksekliği 10 cm olan üçgen oluşur. Alan = [[14 · 10|2]] = 70 cm². Sağlama: 2 · [[7 · 10|2]] = 70.",
         "**Ortak bölge:** 7 × 5 birimlik dikdörtgen 2 birim sağa, 1 birim yukarı ötelenir. Ortak bölge (7 − 2) · (5 − 1) = 20 birimkaredir; boyanan alan 35 + 35 − 20 = 50 birimkaredir.",
+        "**Orta nokta:** A(−4, 9) ve B(12, −3) noktalarının orta noktası ((−4 + 12) : 2, (9 + (−3)) : 2) = (4, 3) olur.",
+        "**En kısa yol:** Kıyı x ekseni, evler R(0, 1) ve S(6, 7) ise R′(0, −1) alınır. |R′S| için yatay fark 6, dikey fark 8; en kısa yol 10 birimdir.",
         "**Uzaklık:** (−1, 2) ile (8, 14) arasında yatay fark 9, dikey fark 12'dir; uzaklık 15 birimdir (9² + 12² = 15²)."
       ],
       "dikkat": [

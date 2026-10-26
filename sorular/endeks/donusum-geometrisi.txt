@@ -88,3 +88,213 @@ mat-dg-012 | M.8.3.2.3 | z3 | k0 | Bir dokuma şeridinde dik üçgen biçimli bi
 mat-dg-013 | M.8.3.2.3 | z4 | k0 | Bir bulmaca oyununda A(−2, 3) noktasına önce m birim sağa öteleme, ardından y eksenine göre yansıma uygulanıyor. Sonunda nokta A″… | ✓8
 mat-dg-014 | M.8.3.2.2 | z4 | k0 | Bir çizim programında K(4, a + 1) noktasının y = 2 doğrusuna göre simetriği K′(b − 1, 7) olarak veriliyor. Programı kullanan Efe,… | ✓1
 mat-dg-015 | M.8.3.2.3 | z4 | k0 | Koordinat sisteminde köşeleri A(1, 1), B(7, 1) ve C(1, 9) olan ABC dik üçgeni verilmiştir. Üçgen önce x eksenine göre yansıtılıyo… | ✓48
+mat-dg-126 | M.8.3.2.1 | z1 | k1 | Bir oyun ekranında kedi simgesi, koordinat düzleminde K(−2, 3) noktasındadır. Simge 5 birim sağa ötelenecektir. Öteleme sonunda s… | ✓(3, 3)
+mat-dg-127 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde B(−4, 5) noktası verilmiştir. B noktasının y eksenine göre yansıması aşağıdakilerden hangisidir? | ✓(4, 5)
+mat-dg-128 | M.8.3.2.1 | z1 | k1 | Bir çizim uygulamasında P(−3, −1) noktası 4 birim yukarı ötelenmiştir. Noktanın yeni konumu aşağıdakilerden hangisidir? | ✓(−3, 3)
+mat-dg-129 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde D(−6, −2) noktası verilmiştir. D noktasının x eksenine göre yansıması aşağıdakilerden hangisidir? | ✓(−6, 2)
+mat-dg-130 | M.8.3.2.3 | z1 | k1 | Oyuncak bir tren, yatay raylarda önce 2 birim sağa, ardından aynı yönde 5 birim daha gitmiştir. Bu iki hareket tek bir öteleme ol… | ✓7 birim sağa
+mat-dg-131 | M.8.3.2.1 | z1 | k1 | Bir okul panosundaki üçgen biçimli afişin çevresi 36 cm, alanı 54 cm²'dir. Afiş, öteleme yapılarak panonun başka bir köşesine taş… | ✓Çevre 36 cm, alan 54 cm²
+mat-dg-132 | M.8.3.2.2 | z1 | k1 | Deniz, düz bir duvar aynasının 4 m önünde durmaktadır. Deniz ile aynadaki görüntüsü arasındaki uzaklık kaç metredir? | ✓8 m
+mat-dg-133 | M.8.3.2.1 | z1 | k1 | Koordinat düzleminde B(1, −4) noktası 3 birim sola ve 2 birim yukarı ötelenmiştir. Noktanın yeni konumu aşağıdakilerden hangisidi… | ✓(−2, −2)
+mat-dg-134 | M.8.3.2.3 | z1 | k1 | Bir şekil önce bir d doğrusuna göre yansıtılmış, elde edilen şekil yine aynı d doğrusuna göre yansıtılmıştır. Son şekil için aşağ… | ✓Son şekil, asıl şekille aynı konumdadır.
+mat-dg-135 | M.8.3.2.2 | z1 | k1 | K noktası, d simetri doğrusunun üzerindedir. K noktasının d doğrusuna göre yansıması K′ için aşağıdakilerden hangisi doğrudur? | ✓K′ noktası, d doğrusu üzerindedir ve K nokta…
+mat-dg-136 | M.8.3.2.1 | z1 | k1 | Kareli kâğıtta çizilen bir oyun planında kırmızı fiş, öteleme ile R konumundan R′ konumuna taşınmıştır. Fişin gittiği yol kesikli… | ✓4 birim sağa, 3 birim yukarı
+mat-dg-137 | M.8.3.2.2 | z1 | k1 | Kareli kâğıtta A noktası ve yatay d doğrusu çizilmiştir. K, L, M ve N noktalarından biri A noktasının d doğrusuna göre yansımasıd… | ✓K
+mat-dg-138 | M.8.3.2.3 | z1 | k1 | Bir bilgisayar oyununda 1 numaralı bloğun karşısına 2 numaralı blok yerleştirilmiştir. İki blok kareli kâğıtta gösterilmiştir. 2 … | ✓Dikey bir doğruya göre yansıma
+mat-dg-139 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde P(1, 3) noktası ve denklemi x = 4 olan d doğrusu çizilmiştir. P noktasının d doğrusuna göre yansıması aşağıd… | ✓(7, 3)
+mat-dg-140 | M.8.3.2.3 | z1 | k1 | Bir parke döşemesinde yan yana duran 1 ve 2 numaralı F biçimli taşlar kareli kâğıtta gösterilmiştir. 2 numaralı taş, 1 numaralı t… | ✓Sağa doğru bir öteleme
+mat-dg-141 | M.8.3.2.3 | z1 | k1 | Bir halı kenarında 1 ve 2 numaralı F biçimli motifler alt alta dizilmiştir. Motifler ve aralarındaki yatay d doğrusu kareli kâğıt… | ✓Yatay bir doğruya göre yansıma
+mat-dg-142 | M.8.3.2.1 | z1 | k1 | ABC üçgeni, öteleme ile A′B′C′ üçgenine taşınmıştır. [AA′], [BB′] ve [CC′] doğru parçaları için aşağıdakilerden hangisi doğrudur? | ✓Üç parça da birbirine paraleldir ve eş uzunl…
+mat-dg-143 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde P(−3, 2) noktasının bir d doğrusuna göre yansıması P′(5, 2) noktasıdır. d doğrusunun denklemi aşağıdakilerde… | ✓x = 1
+mat-dg-144 | M.8.3.2.3 | z1 | k1 | Dikdörtgen biçimli bir kâğıdın sol üst köşesine yıldız çizilmiştir. Kâğıt, alt kenarından geçen yatay bir d doğrusuna göre yansıt… | ✓Sol alt köşede
+mat-dg-145 | M.8.3.2.3 | z1 | k1 | Koordinat düzleminde köşeleri K(−4, −1), L(−1, −1) ve M(−1, −5) olan KLM üçgeni y eksenine göre yansıtılıyor. Görüntü üçgenin M′ … | ✓(1, −5)
+mat-dg-146 | M.8.3.2.3 | z1 | k1 | Oyuncak bir araba, yatay bir yolda önce 6 birim sola, ardından 6 birim sağa gitmiştir. Arabanın son konumu için aşağıdakilerden h… | ✓Başlangıç konumunun üzerindedir.
+mat-dg-147 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde A(−4, −5) noktası ve denklemi y = −1 olan d doğrusu verilmiştir. A noktasının d doğrusuna göre yansıması aşa… | ✓(−4, 3)
+mat-dg-148 | M.8.3.2.2 | z1 | k1 | Koordinat düzleminde S(6, 0) noktası x ekseni üzerindedir. S noktasının x eksenine göre yansıması aşağıdakilerden hangisidir? | ✓(6, 0)
+mat-dg-149 | M.8.3.2.3 | z1 | k1 | Koordinat düzleminde PQR üçgeni ile P′Q′R′ üçgeni çizilmiştir. P′Q′R′ üçgeni, PQR üçgeninden hangi dönüşümle elde edilmiştir? | ✓y eksenine göre yansıma
+mat-dg-150 | M.8.3.2.1 | z2 | k1 | Koordinat düzleminde köşeleri A(2, −1), B(5, −1) ve C(3, 2) olan ABC üçgeni ötelenerek A′B′C′ üçgeni elde edilmiştir. A noktasını… | ✓(−2, 0)
+mat-dg-151 | M.8.3.2.2 | z2 | k1 | Bir harita uygulaması, haritayı denklemi x = 1 olan d doğrusuna göre yansıtarak gösteriyor. Haritada Q(−5, 3) noktasında bir kafe… | ✓(7, 3)
+mat-dg-152 | M.8.3.2.1 | z2 | k1 | Bir robot kol, bir parçayı A(2, 5) noktasından B noktasına 3 birim sola ve 4 birim aşağı ötelemiştir. Parçayı B noktasından A nok… | ✓3 birim sağa, 4 birim yukarı
+mat-dg-153 | M.8.3.2.2 | z2 | k1 | Bir çizim programında R(−3, −4) noktası ve denklemi y = 1 olan yatay d doğrusu verilmiştir. R noktasının d doğrusuna göre yansıma… | ✓(−3, 6)
+mat-dg-154 | M.8.3.2.1 | z2 | k1 | Kareli bir arazi planında bir drone, A noktasından 9 birim sağa ve 12 birim yukarı ötelenerek B noktasına ulaşıyor (1 birim = 1 m… | ✓15
+mat-dg-155 | M.8.3.2.2 | z2 | k1 | Bir giyim mağazasında dikdörtgen biçimli bir pano, dikey bir duvar aynasının (d doğrusu) önündedir. Panonun yatay genişliği 4 bir… | ✓14
+mat-dg-156 | M.8.3.2.3 | z2 | k1 | Bir sayı doğrusunun 0 noktasındaki kurbağa, her sıçrayışta bulunduğu yerden 2 birim sağa ya da 2 birim sola ötelenmektedir. Kurba… | ✓3
+mat-dg-157 | M.8.3.2.1 | z2 | k1 | Bir oyun ekranında P(a, 4) noktası 2 birim sağa ve 3 birim aşağı ötelendiğinde P′(6, b) noktasına geliyor. a + b toplamı kaçtır? | ✓5
+mat-dg-158 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde A(1, 5) ve B(5, 1) noktalarını birleştiren [AB] doğru parçası, denklemi y = 3 olan d doğrusuna göre yansıtıl… | ✓(3, 3)
+mat-dg-159 | M.8.3.2.3 | z2 | k1 | Kareli kâğıtta 1 numaralı L biçimli karo ile 2 numaralı karo gösterilmiştir. 2 numaralı karo, 1 numaralı karodan iki dönüşümle el… | ✓Yatay bir doğruya göre yansıma, ardından sağ…
+mat-dg-160 | M.8.3.2.1 | z2 | k1 | Bir kafenin vitrinindeki 8 × 6 birimlik dikdörtgen biçimli reklam levhasının bir kopyası, öteleme ile 3 birim sağa ve 2 birim yuk… | ✓20
+mat-dg-161 | M.8.3.2.2 | z2 | k1 | Kareli kâğıtta ABC üçgeni ve dikey d doğrusu çizilmiştir. 1, 2, 3 ve 4 numaralı üçgenlerden biri, ABC üçgeninin d doğrusuna göre … | ✓4
+mat-dg-162 | M.8.3.2.3 | z2 | k1 | Bir çizim programında N(−2, 5) noktasına iki işlem uygulanabiliyor: "y eksenine göre yansıma" ve "4 birim sola öteleme". Ayşe önc… | ✓8
+mat-dg-163 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde P(a, 3) noktasının x eksenine göre yansıması P′(−4, b) noktasıdır. a + b toplamı kaçtır? | ✓−7
+mat-dg-164 | M.8.3.2.1 | z2 | k1 | Koordinat düzleminde ABC üçgeni ötelenerek A′B′C′ üçgeni elde edilmiştir. Aynı öteleme D(−2, −1) noktasına uygulanırsa D noktası … | ✓(3, 1)
+mat-dg-165 | M.8.3.2.3 | z2 | k1 | Bir tasarım programında bir noktaya önce 3 birim sağa öteleme, ardından x eksenine göre yansıma uygulanmıştır. Son nokta (4, −2) … | ✓(1, 2)
+mat-dg-166 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde A(4, 3) noktasının x eksenine göre yansıması B, y eksenine göre yansıması C noktasıdır. |BC| uzunluğu kaç bi… | ✓10
+mat-dg-167 | M.8.3.2.3 | z2 | k1 | Bir çini bordüründe F biçimli 3 motif soldan sağa dizilmiştir. 2. motif, 1. motifin 4 birim sağa ötelenmişidir; 3. motif ise 2. m… | ✓1. ve 2. motifler aynı yöne bakar, 3. motif …
+mat-dg-168 | M.8.3.2.2 | z2 | k1 | k > 0 olmak üzere A(4, k) noktasının x eksenine göre yansıması A′ noktasıdır. |AA′| = 14 birim olduğuna göre k kaçtır? | ✓7
+mat-dg-169 | M.8.3.2.3 | z2 | k1 | Kareli kâğıtta çizilen k ve m doğruları paraleldir. PQR üçgeni önce k doğrusuna göre, elde edilen üçgen ardından m doğrusuna göre… | ✓12
+mat-dg-170 | M.8.3.2.2 | z2 | k1 | Koordinat düzleminde K(2a − 1, b + 2) noktasının y eksenine göre yansıması K′(−7, 5) noktasıdır. a · b çarpımı kaçtır? | ✓12
+mat-dg-171 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde P(−2, 3) noktasına önce 1 birim sağa ve 4 birim aşağı öteleme, ardından y eksenine göre yansıma uygulanıyor.… | ✓5
+mat-dg-172 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde ABC üçgeni, iki ardışık dönüşümle A″B″C″ üçgenine dönüştürülmüştür. Bu dönüşümler aşağıdakilerden hangisidir? | ✓y eksenine göre yansıma, ardından 2 birim aş…
+mat-dg-173 | M.8.3.2.3 | z2 | k1 | Köşeleri A(−1, 2), B(3, 2) ve C(1, 5) olan ABC üçgeni önce x eksenine göre yansıtılıyor, elde edilen üçgen ardından 4 birim aşağı… | ✓−21
+mat-dg-174 | M.8.3.2.3 | z2 | k1 | Koordinat düzleminde köşeleri A(−2, 1), B(4, 1) ve C(1, 5) olan ABC üçgeni önce 3 birim sağa ve 2 birim aşağı, ardından 5 birim s… | ✓(−1, 7)
+mat-dg-175 | M.8.3.2.3 | z2 | k1 | Köşeleri A(−5, 2), B(−1, 2) ve C(−2, 5) olan ABC üçgeni, tam sayı birim sağa ötelenecektir. Öteleme sonunda üçgenin hiçbir köşesi… | ✓6
+mat-dg-226 | M.8.3.2.1 | z2 | k2 | Bir satranç tahtasının kareli yüzeyi koordinat düzlemi olarak alınmıştır. Şekildeki T taşı T(2, 2) noktasındadır. Taş 5 birim sağ… | ✓(7, 6)
+mat-dg-227 | M.8.3.2.1 | z2 | k2 | Bir alışveriş merkezindeki ışıklı panonun planı koordinat düzleminde çizilmiştir. Panonun sol alt köşesi A(−1, −2) noktasındadır.… | ✓(−7, 3)
+mat-dg-228 | M.8.3.2.1 | z2 | k2 | Rüzgârda savrulan bir uçurtmanın K noktası, 3 birim sola ve 2 birim aşağı kayarak şekildeki K'(−1, 4) noktasına gelmiştir (ötelem… | ✓(2, 6)
+mat-dg-229 | M.8.3.2.1 | z2 | k2 | Sahilde yürüyen bir kişinin ayak izi, kumun üzerine çizilmiş kareli bir ızgarada gösteriliyor. Aynı iz, bir adım sonra dönmeden v… | ✓(3, 0)
+mat-dg-230 | M.8.3.2.2 | z2 | k2 | Bir müzenin salon planı koordinat düzlemi olarak çizilmiştir. Salondaki ayna duvar, denklemi x = −2 olan d doğrusu üzerindedir. S… | ✓(1, 3)
+mat-dg-231 | M.8.3.2.1 | z2 | k2 | Bir ebru ustası, tekne içinde suyun üzerine damlattığı boyayı bir fırçayla belli bir yönde kaydırıyor. Planda boyanın merkezi D(−… | ✓(5, −6)
+mat-dg-232 | M.8.3.2.2 | z2 | k2 | Bir bahçenin planında iki kuyu K(−3, 4) ve K'(5, 4) noktalarıyla gösterilmiştir. Bahçeyi ikiye ayıran çit, d doğrusu üzerindedir … | ✓x = 1
+mat-dg-233 | M.8.3.2.2 | z2 | k2 | Bir tarım dronunun uçuş planı, eksenlerle dört bölgeye ayrılmış bir koordinat düzleminde çiziliyor. Dron, planda işaretlenen bir … | ✓(−3, −5)
+mat-dg-234 | M.8.3.2.1 | z2 | k2 | Işıklı bir tabelanın KLMN dikdörtgeni biçimindeki yüzeyi, koordinat düzleminde şekildeki gibi çizilmiştir. Tabela kaydırılarak (ö… | ✓(1, 1)
+mat-dg-235 | M.8.3.2.2 | z2 | k2 | Bir mozaik panosunun planında P(5, −2) noktası ve denklemi x = −1 olan d doğrusu çizilmiştir. P noktasının d doğrusuna göre yansı… | ✓12
+mat-dg-236 | M.8.3.2.3 | z2 | k2 | Bir dron, koordinat düzleminde D(−3, −1) noktasından havalanıyor. Önce 4 birim sağa ve 2 birim yukarı, ardından 1 birim sola ve 3… | ✓(0, 4)
+mat-dg-237 | M.8.3.2.2 | z2 | k2 | Köşeleri P(−3, 2), Q(0, 4), R(3, 2) ve S(0, 0) olan elmas biçimli bir cam parçası, denklemi y = 2 olan d doğrusuna göre yansıtılı… | ✓P ile R
+mat-dg-238 | M.8.3.2.2 | z2 | k2 | Bir spor kulübünün logosunda köşeleri A(1, 1), B(5, 1) ve C(5, 4) olan dik üçgen biçimli bir parça kullanılıyor. Parça, x eksenin… | ✓6
+mat-dg-239 | M.8.3.2.2 | z2 | k2 | Bir ışıklı çerçevenin K noktası, denklemi y = 2 olan d doğrusuna göre yansıtılınca şekildeki K'(−1, 7) noktasına gelmiştir. K nok… | ✓(−1, −3)
+mat-dg-240 | M.8.3.2.1 | z2 | k2 | Kenarı 5 birim olan kare biçimli şeffaf bir cam levha (1), kareli zeminde 2 birim sağa ve 3 birim yukarı kaydırılarak (ötelenerek… | ✓44
+mat-dg-241 | M.8.3.2.2 | z2 | k2 | Bir giyim markasının etiketindeki üçgen biçimli logo, koordinat düzleminde köşeleri A(−2, 2), B(1, 5) ve C(1, 1) olan ABC üçgeni … | ✓(8, 2)
+mat-dg-242 | M.8.3.2.2 | z2 | k2 | Kareli kâğıtta çizilen ABC üçgeni, d doğrusuna göre yansıtılmış ve görüntüsü olan A'B'C' üçgeni kesikli çizgilerle gösterilmiştir… | ✓[AA'] ve [BB'] doğru parçaları birbirine par…
+mat-dg-243 | M.8.3.2.3 | z2 | k2 | Bir çini şeridinde 3 birim genişliğindeki yönlü bir motif, yan yana ve bitişik olarak dizilmiştir. 1. motif soldan başlar; sonrak… | ✓6 birim
+mat-dg-244 | M.8.3.2.3 | z2 | k2 | Bir lazer gösterisinde P(3, 2) noktasına düşen ışın izi önce y eksenine göre yansıtılıyor. Elde edilen noktaya sonra n birim sağa… | ✓6
+mat-dg-245 | M.8.3.2.2 | z2 | k2 | Kareli kâğıtta F harfi biçimli bir tabela ve d doğrusu çizilmiştir. Ayna yazısı hazırlayan bir tasarımcı, harfin d doğrusuna göre… | ✓3 numaralı çizim
+mat-dg-246 | M.8.3.2.3 | z2 | k2 | Bir linolyum baskı atölyesinde damganın ucu, koordinat düzleminde Q(5, 2) noktasındadır. Baskıda desen önce y eksenine göre yansı… | ✓(−8, −2)
+mat-dg-247 | M.8.3.2.3 | z2 | k2 | Bir sergi salonunun zemin planı koordinat düzlemidir. Salonda iki ayna şeridi, m: y = −1 ve n: y = 3 doğruları üzerindedir. P(2, … | ✓(2, 5)
+mat-dg-248 | M.8.3.2.3 | z2 | k2 | Bir kilim şeridine basamaklı motifler dokunuyor. Kareli kâğıtta gösterilen şeritte motifler soldan sağa 1, 2 ve 3 numarasıyla gös… | ✓3 numaralı motif, 1 numaralı motifin 10 biri…
+mat-dg-249 | M.8.3.2.2 | z2 | k2 | Bir bulmaca kitabında şu bilgi veriliyor: A(a + 3, 2b) noktasının x eksenine göre yansıması A'(5, −6) noktasıdır. a + b toplamı k… | ✓5
+mat-dg-250 | M.8.3.2.3 | z2 | k2 | Koordinat düzleminde B(−3, 4) noktası önce x eksenine göre yansıtılıyor ve B' noktası elde ediliyor. Ardından B' noktası y ekseni… | ✓10
+mat-dg-251 | M.8.3.2.3 | z2 | k2 | Bir tabağın süslemesinde yelkenli motifi, kareli kâğıtta gösterildiği gibi üç yere yerleştirilmiştir. Motiflerin hepsi aynı ölçüd… | ✓Önce yatay bir doğruya göre yansıma, sonra 6…
+mat-dg-252 | M.8.3.2.3 | z3 | k2 | Bir lojistik deposunun haritası koordinat düzlemi olarak çizilmiştir. Kargo robotu, haritada gösterilen R noktasından yola çıkıyo… | ✓13
+mat-dg-253 | M.8.3.2.1 | z3 | k2 | Bir ressam, kareli bir tuval üzerinde çalışıyor ve uzunluğu 4 birim olan yatay [AB] fırçasını, fırçanın yönü değişmeyecek biçimde… | ✓16
+mat-dg-254 | M.8.3.2.2 | z3 | k2 | Bir sanatçı, bir kâğıdı ortadan katlayıp kanat biçimli bir süs kesiyor ve süsü bir vitrine asacak. Katlama çizgisi y eksenidir. K… | ✓24
+mat-dg-255 | M.8.3.2.1 | z3 | k2 | Bir fabrikada robotik kol, montaj hattındaki üçgen biçimli bir parçayı tutuyor. Parçanın konumu, hattın planında koordinat düzlem… | ✓(4, −4)
+mat-dg-256 | M.8.3.2.3 | z3 | k2 | Bir mobil oyunda oyuncu, ekranda A(2, 1) noktasındaki karakteri bir kapıya ulaştırmaya çalışıyor. Kapı A''(−6, 1) noktasındadır. … | ✓Önce y eksenine göre yansıma, sonra 4 birim …
+mat-dg-257 | M.8.3.2.2 | z3 | k2 | Bir sergi salonunda yatay bir ayna şeridi, denklemi y = b olan d doğrusu üzerindedir. Planda A noktasının bu şeride göre yansımas… | ✓(−2, 0)
+mat-dg-258 | M.8.3.2.1 | z3 | k2 | Bir mimar, çizim programında bir pencere çerçevesinin köşe noktasını A(2a + 1, 3) olarak işaretlemiştir. Çerçeve, planda döndürül… | ✓2
+mat-dg-259 | M.8.3.2.3 | z3 | k2 | Bir çizgi film stüdyosunda çizer, bir yıldız simgesini ekranın bir noktasına yerleştiriyor. Program simgeye önce x eksenine göre … | ✓7
+mat-dg-260 | M.8.3.2.2 | z3 | k2 | Bir kumaş baskı atölyesinde ABC üçgeni biçimli bir desen, kumaşın ortasındaki dikey bir ayna çizgisine (d doğrusuna) göre yansıtı… | ✓x = 1
+mat-dg-261 | M.8.3.2.3 | z3 | k2 | Bir bilim müzesindeki ayna labirentinin planı koordinat düzlemi olarak çizilmiştir. Bir ışık kaynağı, A(−2, 4) noktasından yola ç… | ✓(8, −4)
+mat-dg-262 | M.8.3.2.2 | z3 | k2 | Bir köprünün kemer tasarımında, yapının orta ekseni olan dikey d doğrusunun iki yanına simetrik süslemeler yapılacaktır. A ve B n… | ✓21
+mat-dg-263 | M.8.3.2.3 | z3 | k2 | Bir drone gösterisinde iki farklı koreografi programı denenecektir. İki programda da aynı başlangıç noktasındaki A(2, 3) dronuna … | ✓10
+mat-dg-264 | M.8.3.2.2 | z3 | k2 | Bir tasarım yazılımında ekran, koordinat düzlemi olarak çizilmiştir. Ekranın 1. bölgesi (apsisi ve ordinatı pozitif noktalar) güv… | ✓y ekseni
+mat-dg-265 | M.8.3.2.1 | z3 | k2 | Bir mobil uygulamada A(2, 3) noktasındaki simge, ekranda kaydırılarak (ötelenerek) A' noktasına getiriliyor. Simge 6 birim sola k… | ✓(−7, −4)
+mat-dg-266 | M.8.3.2.1 | z3 | k2 | Bir çiftçi, ABCD paralelkenarı biçimindeki tarlasının planını koordinat düzleminde çiziyor. Tarlanın üç köşesi A(−4, −1), B(0, −1… | ✓(2, 4)
+mat-dg-267 | M.8.3.2.2 | z3 | k2 | Bir mağazanın vitrin planında yatay bir cam, denklemi y = b olan d doğrusu üzerinde duracaktır. Planda P(3, 7) noktasında duran b… | ✓14
+mat-dg-268 | M.8.3.2.3 | z3 | k2 | Bir ayna odasının zemin planında iki dikey ayna şeridi, m: x = 1 ve n: x = k doğruları üzerindedir (k > 1). A(3, 2) noktasındaki … | ✓x = 5
+mat-dg-269 | M.8.3.2.3 | z3 | k2 | Bir cam sanatçısı, KLMN dikdörtgenini [KL] kenarı y = 1 doğrusu üzerinde kalacak biçimde çiziyor ve bu doğruya göre yansıtıp iki … | ✓36
+mat-dg-270 | M.8.3.2.3 | z3 | k2 | Bir tişört baskı programında KLM üçgeni biçimli bir motif önce y eksenine göre yansıtılıyor, ardından yalnızca yukarı doğru tam s… | ✓3
+mat-dg-271 | M.8.3.2.3 | z3 | k2 | Bir fotoğraf düzenleme programında kullanıcı, A(5, 1) noktasındaki etiketi önce m birim sola kaydırıyor (öteliyor). Ardından prog… | ✓7
+mat-dg-272 | M.8.3.2.3 | z3 | k2 | Bir marangoz, bir çatı kirişinin üçgen biçimli ABC kesitini çizim programında köşeleri A(1, 1), B(7, 1) ve C(4, 5) olacak biçimde… | ✓28
+mat-dg-273 | M.8.3.2.3 | z3 | k2 | Bir robot süpürgenin telefon uygulamasında evin planı koordinat düzlemi olarak gösteriliyor. Planda A(m, 3) noktasındaki robot si… | ✓4
+mat-dg-274 | M.8.3.2.3 | z3 | k2 | Bir masa oyununda taş, koordinat düzleminde P(3, 1) noktasındadır. Oyuncu iki hamle yapar. 1. hamlede taşı ya x eksenine göre yan… | ✓3
+mat-dg-275 | M.8.3.2.2 | z3 | k2 | Bir gölün kıyısındaki P noktasında duran bir kuşun, durgun göl yüzeyinde ters bir görüntüsü oluşuyor. Göl yüzeyini koordinat düzl… | ✓15
+mat-dg-326 | M.8.3.2.1 | z3 | k3 | Bir ahşap oyma ustası, kareli planda gösterilen ABC üçgeni biçimli kabartmayı döndürmeden ve ters çevirmeden A′B′C′ konumuna kayd… | ✓10 cm
+mat-dg-327 | M.8.3.2.1 | z3 | k3 | Bir dekor atölyesinde, koordinat düzleminde köşeleri K(−6, −1), L(−2, −1), M(−2, 2) ve N(−6, 2) olan dikdörtgen biçimli bir panel… | ✓(1, 7)
+mat-dg-328 | M.8.3.2.1 | z3 | k3 | Bir halı mağazasında 8 × 5 birimlik dikdörtgen biçimli bir kumaş serilmiş, ardından kumaşın tıpatıp aynı bir kopyası kareli pland… | ✓65
+mat-dg-329 | M.8.3.2.1 | z3 | k3 | Bir mimar, yamuk biçimli KLMN tezgâhını bir ötelemeyle K′L′M′N′ konumuna taşımıştır (şekil). Aynı öteleme, tezgâhın yanında duran… | ✓(−3, 1)
+mat-dg-330 | M.8.3.2.1 | z3 | k3 | Bir kaykay parkının planında, A(−3, 4) ve B(5, −2) noktalarındaki iki direği birleştiren [AB] korkuluğu çizilmiştir. Korkuluk, A … | ✓(4, −3)
+mat-dg-331 | M.8.3.2.1 | z3 | k3 | Bir bilgisayar oyununda hazine sandığı, koordinat düzleminde A(2m + 1, n + 3) noktasındadır. Oyuncu sandığı 3 birim sola ve 5 bir… | ✓6
+mat-dg-332 | M.8.3.2.1 | z3 | k3 | Bir mimar, koordinat düzleminde A(−4, −3) ve B(1, −3) noktaları arasına bir halat germiştir. Halat aynı biçimde A′(2, 5) ve B′(7,… | ✓30
+mat-dg-333 | M.8.3.2.2 | z3 | k3 | Kareli kâğıtta F biçimli bir motif ile dikey bir d doğrusu çizilmiştir. Bir tasarımcı, motifin d doğrusuna göre yansımasını (ayna… | ✓2. çizim
+mat-dg-334 | M.8.3.2.2 | z3 | k3 | Bir bulmaca oyununda, gizli bir ayna doğrusu K(−4, 5) noktasındaki taşı K′(8, 5) noktasına yansıtıyor. Oyun aynı ayna doğrusuyla … | ✓(−3, −3)
+mat-dg-335 | M.8.3.2.2 | z3 | k3 | Bir çatı katı planında dik üçgen biçimli ABC kirişinin dik açısı B köşesindedir; |AB| = 5 m ve |BC| = 12 m olup [BC] kenarı d doğ… | ✓36
+mat-dg-336 | M.8.3.2.2 | z3 | k3 | Bir çizim programında A(2a − 3, b + 4) noktası x eksenine göre yansıtılınca A′(5, 3b − 8) noktası elde ediliyor. Buna göre a · b … | ✓4
+mat-dg-337 | M.8.3.2.2 | z3 | k3 | Mert, bir spor salonunun boydan boya aynasının karşısında, aynaya 6 m uzaklıkta duruyor (şekil). Mert aynaya doğru yürüyor ve ken… | ✓2 m
+mat-dg-338 | M.8.3.2.2 | z3 | k3 | Bir spor kulübünün logosunda direği ve üçgen biçimli sancağı olan bir bayrak vardır. Tasarımcı, logonun yatay d doğrusuna göre ya… | ✓1. çizim
+mat-dg-339 | M.8.3.2.2 | z3 | k3 | Bir robot süpürgenin haritasında köşeleri K(1, 1), L(9, 1) ve M(9, 7) olan üçgen biçimli bir oda gösterilmiştir. Harita, y ekseni… | ✓10 m
+mat-dg-340 | M.8.3.2.2 | z3 | k3 | Bir sergi salonunda ABCD paralelkenarı biçimli bir tablo, zemindeki y = −1 doğrusu boyunca uzanan bir ayna şeridine yansıtılıyor.… | ✓(1, −5)
+mat-dg-341 | M.8.3.2.2 | z3 | k3 | Bir tiyatro sahnesinin planı koordinat düzleminde çizilmiştir. Perde çizgisi dikey bir doğrudur ve simetri doğrusu gibi davranır:… | ✓3
+mat-dg-342 | M.8.3.2.2 | z3 | k3 | Bir kumaş desenini hazırlayan atölyede ABC üçgeni biçimli bir motif, dikey bir simetri doğrusuna göre yansıtılarak A′B′C′ motifi … | ✓x = 1
+mat-dg-343 | M.8.3.2.3 | z3 | k3 | Bir animasyonda bir kuş, önce y eksenine göre yansıtılıp ardından 3 birim sola ve 4 birim aşağı kaydırılarak A″(2, −5) noktasına … | ✓(−5, −1)
+mat-dg-344 | M.8.3.2.3 | z3 | k3 | Bir robot süpürge, kareli zeminde A noktasından yola çıkıyor. Önce 9 m sağa ve 2 m yukarı, ardından 3 m sola ve 6 m yukarı gidere… | ✓10 m
+mat-dg-345 | M.8.3.2.3 | z3 | k3 | Bir kilim şeridinde F motifleri soldan sağa dizilmiştir. Her motif, kendisinden önceki motifin, iki motifin tam ortasından geçen … | ✓Tek bir öteleme: 40 birim sağa
+mat-dg-346 | M.8.3.2.3 | z3 | k3 | Bir bahçe haritasında P(5, 3) noktası önce denklemi x = 2 olan doğruya göre, elde edilen nokta da ardından denklemi y = −1 olan d… | ✓(−1, −5)
+mat-dg-347 | M.8.3.2.3 | z3 | k3 | Bir dijital sanat programında P(4, −2) noktasındaki bir piksel, iki ardışık işlemle P′(−7, −1) noktasına taşınmıştır. Aşağıdakile… | ✓Önce y eksenine göre yansıtma, sonra 3 birim…
+mat-dg-348 | M.8.3.2.3 | z3 | k3 | Bir parke ustası, dik üçgen biçimli karoları kareli bir zemine şekildeki gibi dört konumda döşemiştir. Karoların hepsi eştir. Bun… | ✓Dikey bir doğruya göre ve yatay bir doğruya …
+mat-dg-349 | M.8.3.2.3 | z3 | k3 | Bir pencere kafesinin tasarımında koordinat düzleminde O(0, 0), A(3, 0) ve B(0, 4) köşeli OAB üçgeni önce y eksenine göre yansıtı… | ✓20 dm
+mat-dg-350 | M.8.3.2.3 | z3 | k3 | Ayşe ve Can, çizim programında P(2, 3) noktasına aynı iki işlemi farklı sırayla uyguluyor. Ayşe önce noktayı y eksenine göre yans… | ✓10
+mat-dg-351 | M.8.3.2.3 | z3 | k3 | Bir tiyatro dekorunda köşeleri şekildeki gibi olan KLM üçgeni biçimli bir perde, önce 4 birim sağa ve 2 birim aşağı kaydırılıyor;… | ✓(1, −2)
+mat-dg-352 | M.8.3.2.3 | z3 | k3 | Bir tasarım yazılımı, seçilen noktalara önce y eksenine göre yansıma, ardından kullanıcıya gösterilmeyen sabit bir öteleme uygulu… | ✓(4, 2)
+mat-dg-353 | M.8.3.2.3 | z3 | k3 | Bir karo baskı makinesi, şekildeki KLM üçgeni biçimli kalıbı önce m doğrusuna göre yansıtıyor, ardından bir ötelemeyle K″L″M″ kon… | ✓1 birim sola, 3 birim yukarı
+mat-dg-354 | M.8.3.2.3 | z3 | k3 | Bir oyunda karakter koordinat düzleminde A(−3, 5) noktasında duruyor. Oyun, karakteri önce x eksenine göre yansıtıyor, ardından 8… | ✓2 m
+mat-dg-355 | M.8.3.2.3 | z3 | k3 | Bir fayans ustası, kenarı 4 birim olan kare biçimli 1 numaralı fayansı yerleştiriyor. 2 numaralı fayansı 1 numaralıyı 3 birim sağ… | ✓42
+mat-dg-356 | M.8.3.2.1 | z4 | k3 | Bir oyun tasarımcısı, ABC üçgeni biçimli karakteri a birim sağa ve b birim yukarı kaydıracaktır (a ve b pozitif tam sayıdır). Kar… | ✓11
+mat-dg-357 | M.8.3.2.1 | z4 | k3 | Bir robot, koordinat düzleminde başlangıç noktasından hareket ediyor. Robot iki ardışık hamle yapacaktır ve her hamlede şu üç öte… | ✓6
+mat-dg-358 | M.8.3.2.1 | z4 | k3 | Bir matbaada 5 × 3 birimlik dikdörtgen biçimli bir etiket, kareli kâğıtta gösterilen konumda basılmıştır. Aynı etiket, döndürülme… | ✓6 birim
+mat-dg-359 | M.8.3.2.1 | z4 | k3 | Şekildeki ABC üçgeni bir ötelemeyle A′B′C′ üçgenine dönüştürülüyor. Öteleme sonunda B′ noktası x ekseni üzerinde, C′ noktası ise … | ✓(−4, 0)
+mat-dg-360 | M.8.3.2.2 | z4 | k3 | Bir harita çalışmasında denklemi y = 2 olan yatay doğru, bir kanalın ekseni olarak çizilmiştir. Kanalın kıyısındaki bir fener bu … | ✓7
+mat-dg-361 | M.8.3.2.2 | z4 | k3 | Kareli kâğıtta 7 × 4 birimlik ABCD dikdörtgeni ve dikey bir d doğrusu çizilmiştir. Dikdörtgenin sol kenarı d doğrusunun 2 birim s… | ✓40
+mat-dg-362 | M.8.3.2.2 | z4 | k3 | Bir harita uygulamasında K(2a + 3, 3b − 4) konumu, denklemi x = 3 olan doğruya göre yansıtılıyor ve görüntüsü K′(5 − a, b + 2) ol… | ✓8 km
+mat-dg-363 | M.8.3.2.2 | z4 | k3 | Bir dans salonunda Mina, uzun bir aynadan 4 m uzaklıkta, Zeynep ise aynı doğrultuda ve aynı tarafta aynadan 9 m uzaklıkta duruyor… | ✓16 m
+mat-dg-364 | M.8.3.2.2 | z4 | k3 | Koordinat düzleminde köşeleri A(1, 1), B(7, 1), C(7, 5) ve D(1, 5) olan ABCD dikdörtgeninin [AB] kenarı, denklemi y = 1 olan d do… | ✓10 cm
+mat-dg-365 | M.8.3.2.2 | z4 | k3 | Bir atölyede şekildeki ABCD dikdörtgeni biçimli bir levha, denklemi x = a olan dikey bir d doğrusuna göre yansıtılacaktır. d doğr… | ✓8
+mat-dg-366 | M.8.3.2.3 | z4 | k3 | Bir seramik atölyesinde dik üçgen biçimli bir karo önce d doğrusuna göre yansıtılıyor, ardından yansıyan karo 2 birim sağa kaydır… | ✓1. çizim
+mat-dg-367 | M.8.3.2.3 | z4 | k3 | Bir animasyon programında A(2m − 1, n + 3) noktası önce denklemi y = 2 olan doğruya göre yansıtılıyor, ardından 3 birim sola kayd… | ✓8
+mat-dg-368 | M.8.3.2.3 | z4 | k3 | ABC üçgeni önce denklemi x = −1 olan doğruya, ardından denklemi y = 1 olan doğruya göre yansıtılarak şekildeki A″B″C″ üçgenine dö… | ✓(2, 4)
+mat-dg-369 | M.8.3.2.3 | z4 | k3 | Bir kumaş baskı makinesi, şekildeki üçgen kalıbı önce denklemi y = −1 olan doğruya, ardından denklemi y = 4 olan doğruya göre yan… | ✓10 birim yukarı öteleme
+mat-dg-370 | M.8.3.2.3 | z4 | k3 | Bir tasarımcı, koordinat düzleminin birinci bölgesindeki F biçimli bir motifi önce x eksenine göre, ardından elde edilen motifi y… | ✓2. çizim
+mat-dg-371 | M.8.3.2.3 | z4 | k3 | Bir masa oyununda oyuncu, P(3, 1) noktasındaki taşını iki turda oynatıyor. 1. turda taşı ya 6 birim sola öteleyebilir ya da y eks… | ✓3
+mat-dg-372 | M.8.3.2.3 | z4 | k3 | Bir fayans desenindeki karolar, kenarı 4 birim olan karelerdir. Her karodaki F motifi, yanındaki ve üstündeki karonun motifinin, … | ✓Dikey bir doğruya göre yansıma, ardından 16 …
+mat-dg-373 | M.8.3.2.3 | z4 | k3 | Bir hesap makinesi programında 1. işlem dizisi, her noktaya önce 5 birim sağa öteleme, sonra y eksenine göre yansıma uygular. 2. … | ✓5 birim sola
+mat-dg-374 | M.8.3.2.3 | z4 | k3 | Bir bahçe yolunda dik üçgen biçimli dört taş şekildeki gibi döşenmiştir. 2 numaralı taş, 1 numaralı taşın yatay d doğrusuna göre … | ✓Önce yatay bir doğruya göre yansıma, sonra 5…
+mat-dg-375 | M.8.3.2.3 | z4 | k3 | Bir oyunda A(a, −2) noktasındaki karakter önce 5 birim sola kaydırılıyor, ardından y eksenine göre yansıtılıyor. Son noktanın üçü… | ✓7
+mat-dg-016 | M.8.3.2.1 | z1 | k0 | Bir çokgen, öteleme ile başka bir konuma taşınıyor. Bu dönüşümde çokgenin aşağıdakilerden hangisi değişir? | ✓Köşelerinin koordinatları
+mat-dg-017 | M.8.3.2.2 | z1 | k0 | Bir nokta, bir simetri doğrusunun üzerinde bulunuyor. Bu noktanın o doğruya göre yansıması için aşağıdakilerden hangisi doğrudur? | ✓Nokta yerinde kalır; görüntüsü kendisidir.
+mat-dg-018 | M.8.3.2.1 | z1 | k0 | Kumsalda yürüyen bir çocuğun bıraktığı ilk iz, koordinat sisteminde K(−5, 3) noktasındadır. Bir sonraki iz, K'nın 7 birim sağında… | ✓(2, 3)
+mat-dg-019 | M.8.3.2.2 | z1 | k0 | Bir çizim programı, Q(−7, 5) noktasını y eksenine göre yansıtıyor. Elde edilen Q′ noktasının koordinatları nedir? | ✓(7, 5)
+mat-dg-020 | M.8.3.2.3 | z1 | k0 | Bir kilim şeridinde aynı motif iki kez dokunmuştur. Motifler kareli kâğıtta 1 ve 2 numaralarıyla gösterilmiştir. 2 numaralı motif… | ✓Sağa doğru öteleme
+mat-dg-021 | M.8.3.2.2 | z1 | k0 | Kareli kâğıtta dikey d doğrusu ve A noktası verilmiştir. A noktası d doğrusuna 5 birim uzaktadır. A noktası ile d doğrusuna göre … | ✓10 birim
+mat-dg-022 | M.8.3.2.2 | z1 | k0 | Bir üçgen, bir d doğrusuna göre yansıtılıyor. Üçgen ile görüntüsü için aşağıdakilerden hangisi doğrudur? | ✓Görüntünün alanı, üçgenin alanına eşit olur.
+mat-dg-023 | M.8.3.2.1 | z1 | k0 | Bir kargo takip ekranında araç simgesi, koordinat düzleminde A(−3, −6) noktasındayken yukarı doğru 9 birim ilerliyor. Simgenin va… | ✓(−3, 3)
+mat-dg-024 | M.8.3.2.3 | z1 | k0 | Bir seramik duvarda basamak biçimli motif, d doğrusunun iki yanına dizilmiştir. Motifler kareli kâğıtta 1 ve 2 numaralarıyla göst… | ✓d doğrusuna göre yansıma
+mat-dg-025 | M.8.3.2.1 | z1 | k0 | Bir öteleme sonucunda A(1, 4) noktası A′(6, 4) noktasına gelmiştir. Bu öteleme aşağıdakilerden hangisidir? | ✓5 birim sağa
+mat-dg-026 | M.8.3.2.1 | z1 | k0 | Çevresi 24 cm olan kare biçimli bir fayans, masanın üzerinde 5 birim sola kaydırılıyor. Kaydırılan fayansın çevresi kaç santimetr… | ✓24 cm
+mat-dg-027 | M.8.3.2.2 | z1 | k0 | Kareli kâğıtta yatay d doğrusu ve K noktası verilmiştir. L, M, N ve P noktalarından biri K'nın d doğrusuna göre yansımasıdır. K n… | ✓N
+mat-dg-028 | M.8.3.2.1 | z2 | k0 | Bir harita uygulamasında robot R(4, −3) noktasından yola çıkıyor; önce 6 birim sola, sonra 5 birim yukarı giderek K noktasına var… | ✓6 birim sağa, 5 birim aşağı
+mat-dg-029 | M.8.3.2.1 | z2 | k0 | Dama tahtasında bir taş, 5. sütun 6. sıradaki kareden başlayarak 3 sütun sola ve 2 sıra aşağı kaydırılıyor. Karelerin konumu (süt… | ✓(2, 4)
+mat-dg-030 | M.8.3.2.1 | z2 | k0 | Bir tarlada otomatik sulama aracı, A(a, 3) noktasından 4 birim sağa ve 2 birim yukarı hareket edince A′(5, b) noktasına geliyor. … | ✓6
+mat-dg-031 | M.8.3.2.1 | z2 | k0 | Koordinat düzleminde köşeleri A(−5, 2), B(−1, 2), C(−2, 4) ve D(−4, 4) olan yamuk biçimli bir kulüp flaması ötelenerek A′(2, 1) n… | ✓(5, 3)
+mat-dg-032 | M.8.3.2.2 | z2 | k0 | Bir oyun ekranında y = −3 doğrusu su yüzeyidir ve ekran her nesnenin su yüzeyindeki yansımasını da çizer. Bir kuş, B(−4, 1) nokta… | ✓(−4, −7)
+mat-dg-033 | M.8.3.2.2 | z2 | k0 | Bir çizim programı, P(4, 2k + 1) noktasını x eksenine göre yansıtıyor ve P′(4, −9) noktasını elde ediyor. Buna göre k kaçtır? | ✓4
+mat-dg-034 | M.8.3.2.2 | z2 | k0 | Koordinat düzleminde A(−5, 4) noktasının bir doğruya göre yansıması A′(3, 4) noktasıdır. Bu doğrunun denklemi aşağıdakilerden han… | ✓x = −1
+mat-dg-035 | M.8.3.2.2 | z2 | k0 | Bir mağazada dikey bir ayna duvarının önüne, aynaya 2 birim uzaklıkta, 3 birim genişliğinde bir dolap konmuştur (üstten görünüş).… | ✓10 birim
+mat-dg-036 | M.8.3.2.2 | z2 | k0 | Bir emlak şirketinin ev biçimli logosunun köşeleri A(2, 1), B(6, 1), C(6, 4), D(4, 6) ve E(2, 4) noktalarıdır. Logo y eksenine gö… | ✓5 birim
+mat-dg-037 | M.8.3.2.2 | z2 | k0 | Aşağıdaki dört çizimin her birinde soldaki F biçimli motif, dikey bir d aynası ve aynanın sağında bir aday şekil görülmektedir. D… | ✓L
+mat-dg-038 | M.8.3.2.3 | z2 | k0 | Bir parke döşemesinde P biçimli taşlar, kareli planda d doğrusunun iki yanına dizilmiştir. Taşlar 1 ve 2 numaralarıyla gösterilmi… | ✓Yatay bir doğruya göre yansıma
+mat-dg-039 | M.8.3.2.3 | z2 | k0 | Bir halının kenarında, bayrak biçimli motif ikinci kez dokunurken biraz yukarı kaydırılmıştır. Motifler kareli kâğıtta 1 ve 2 num… | ✓7 birim sağa, 2 birim yukarı öteleme
+mat-dg-040 | M.8.3.2.3 | z2 | k0 | Bir yelken logosunun köşeleri koordinat düzleminde K(1, 1), L(5, 1) ve M(1, 4) noktalarıdır. Logo önce 3 birim sola ve 2 birim yu… | ✓(−2, −6)
+mat-dg-041 | M.8.3.2.3 | z2 | k0 | Bir kamera robotu koordinat düzleminde A(2, −1) noktasından yola çıkıyor. Önce 4 birim sağa ve 3 birim yukarı gidiyor, ardından b… | ✓5 birim sola, 3 birim yukarı
+mat-dg-042 | M.8.3.2.3 | z2 | k0 | Kenar uzunluğu 5 birim olan kare biçimli bir kumaşın bir kenarı, kareli kâğıtta d doğrusu üzerindedir. Kumaş d doğrusuna göre yan… | ✓30 birim
+mat-dg-043 | M.8.3.2.3 | z2 | k0 | Bir navigasyon ekranında bisiklet simgesi, koordinat düzleminde T(3, −5) noktasındadır. Ekran, simgeyi önce y eksenine göre yansı… | ✓(−9, −3)
+mat-dg-044 | M.8.3.2.3 | z2 | k0 | Efe bir noktayı önce x eksenine, sonra y eksenine göre yansıtıyor. Selin aynı noktayı önce y eksenine, sonra x eksenine göre yans… | ✓İkisi de aynı noktaya, (4, −2) noktasına var…
+mat-dg-045 | M.8.3.2.2 | z2 | k0 | Kareli kâğıtta köşeleri K, L, M ve N olan dikdörtgen çizilmiştir (karelerin bir kenarı 1 birimdir). Dikdörtgen, dikey d doğrusuna… | ✓12 birimkare
+mat-dg-046 | M.8.3.2.3 | z2 | k0 | Bir çini şeridinde F biçimli motifler, m ve n dikey doğrularına göre aynalanarak dizilmiştir. Motifler soldan sağa 1, 2 ve 3 numa… | ✓Sağa doğru 10 birim öteleme
+mat-dg-047 | M.8.3.2.3 | z2 | k0 | ABC dik üçgeninde m(C) = 90°, |AC| = 6 cm ve |BC| = 8 cm'dir. [BC] kenarı d doğrusu üzerindedir. Üçgen d doğrusuna göre yansıtılı… | ✓32 cm
+mat-dg-048 | M.8.3.2.1 | z3 | k0 | Bir drone, harita ekranında A(−2, 1) konumundan havalanıyor. Önce yalnızca sağa doğru 6 birim, ardından yalnızca yukarı doğru 8 b… | ✓10 birim
+mat-dg-049 | M.8.3.2.1 | z3 | k0 | Bir bahçıvan, kenarları eksenlere paralel olan dikdörtgen biçimli bir çiçeklik planlıyor. Planda çiçekliğin köşegen uçları A(1, 1… | ✓(2, 4)
+mat-dg-050 | M.8.3.2.1 | z3 | k0 | Bir oyunda karakter A(1, 2) noktasından yola çıkıyor. Önce a birim sağa ve 2 birim yukarı, ardından 3 birim sola ve b birim aşağı… | ✓13
+mat-dg-051 | M.8.3.2.2 | z3 | k0 | Bir parkta iki çeşme, dikey bir cam duvarın iki yanına birbirinin yansıması olacak biçimde konmuştur. Koordinat düzleminde birinc… | ✓(8, 5)
+mat-dg-052 | M.8.3.2.2 | z3 | k0 | Bir sanat galerisinde, yan görünüşü koordinat düzleminde verilen salonun zemini y = −4, tavanı y = 8 doğrusudur. Yatay bir cam yü… | ✓(5, −3)
+mat-dg-053 | M.8.3.2.2 | z3 | k0 | Bir nehir, koordinat düzleminde x = 3 doğrusu olarak çizilmiştir. Nehrin sol yakasındaki P gözetleme kulesi ile sağ yakadaki P′ k… | ✓−2
+mat-dg-054 | M.8.3.2.2 | z3 | k0 | Koordinat düzleminde A(2, 3) noktası veriliyor. Selin, A noktasını x = 5 doğrusuna göre yansıtıp A_{1} noktasını elde ediyor. Den… | ✓10 birim
+mat-dg-055 | M.8.3.2.2 | z3 | k0 | Bir kelebek logosunun kanatlarından biri, koordinat düzleminde köşeleri A(3, 1), B(3, 7) ve C(7, 4) olan üçgendir. Diğer kanat, b… | ✓20 birim
+mat-dg-056 | M.8.3.2.2 | z3 | k0 | Bir okul kulübü, koordinat düzleminde x = −2 doğrusunun çizildiği bir oyun haritası hazırlıyor. Dört arkadaş, bu doğruya göre bir… | ✓Ceren: (−7, 2) ve (3, 2)
+mat-dg-057 | M.8.3.2.3 | z3 | k0 | Bir seramik atölyesi, F biçimli motifleri 2 × 2 düzende dizerek bir pano hazırlıyor. Alt sıradaki 1 ve 2 numaralı motifler aynı y… | ✓Önce 6 birim sağa öteleme, sonra d doğrusuna…
+mat-dg-058 | M.8.3.2.3 | z3 | k0 | Bir çizgi film stüdyosunda, üçgen biçimli bir dekor parçası önce y = −1 doğrusuna, ardından y = 3 doğrusuna göre yansıtılıyor. Pa… | ✓8 birim yukarı
+mat-dg-059 | M.8.3.2.3 | z3 | k0 | Bir tabela ustası, panoya yapıştıracağı rozetin merkezini koordinat düzleminde K(−2, 3) noktasına yerleştirmiştir. Rozet önce 5 b… | ✓9 birim
+mat-dg-060 | M.8.3.2.3 | z3 | k0 | Bir çiftçinin tarlası, koordinat düzleminde köşeleri P(1, 2), Q(6, 2), R(6, 5), S(3, 7) ve T(1, 5) olan beşgendir. Çiftçi tarlanı… | ✓2
+mat-dg-061 | M.8.3.2.3 | z3 | k0 | Bir çini ustası, bir motifi önce 5 birim sağa ve 3 birim yukarı ötelemiş, ardından x eksenine göre yansıtarak deseni tamamlamıştı… | ✓Önce x eksenine göre yansıtmalı, sonra 5 bir…
+mat-dg-062 | M.8.3.2.3 | z3 | k0 | Bir halı atölyesinde, 8 birim eninde ve 5 birim boyunda dikdörtgen bir motif kareli kâğıtta boyanıyor. Ardından aynı motif, 3 bir… | ✓65 birimkare
+mat-dg-063 | M.8.3.2.3 | z3 | k0 | Bir logo tasarımcısı, F biçimli bir motifi kareli kâğıda çiziyor ve yanına bir kopyasını yerleştiriyor. Motifler 1 ve 2 numaralar… | ✓Önce dikey, sonra yatay bir doğruya göre yan…
+mat-dg-064 | M.8.3.2.1 | z4 | k0 | Bir bilgisayar oyununun ekranı, kareli kâğıtta köşeleri (0, 0), (8, 0), (8, 6) ve (0, 6) olan dikdörtgen bölgedir. Oyundaki nesne… | ✓10
+mat-dg-065 | M.8.3.2.1 | z4 | k0 | Bir tekstil atölyesinde, köşeleri K(−6, −3), L(−1, −3), M(−2, 0) ve N(−5, 0) olan yamuk biçimli bir kumaş deseni koordinat düzlem… | ✓28
+mat-dg-066 | M.8.3.2.2 | z4 | k0 | P(a, 3) noktası, kareli kâğıtta x = 4 doğrusuna göre yansıtılarak P′ noktası elde ediliyor. P noktasının apsisi pozitif bir tam s… | ✓7
+mat-dg-067 | M.8.3.2.2 | z4 | k0 | Bir pano tasarımında raptiye, koordinat düzleminde P(−6, 2) noktasındadır. Tasarım programı raptiyeyi x = a doğrusuna göre yansıt… | ✓−2
+mat-dg-068 | M.8.3.2.2 | z4 | k0 | Düz bir dere kıyısı, koordinat düzleminde x ekseni olarak alınmıştır. Dere kıyısının aynı yakasında iki çiftlik evi vardır: K(−2,… | ✓10 birim
+mat-dg-069 | M.8.3.2.2 | z4 | k0 | Köşeleri A(1, 2), B(4, 2) ve C(1, 5) olan ABC üçgeni, y = k doğrusuna göre yansıtılarak A′B′C′ üçgeni elde ediliyor. k, 0 ile 8 a… | ✓5
+mat-dg-070 | M.8.3.2.3 | z4 | k0 | Bir bulmaca oyununda taş, koordinat düzleminde T(3, 1) noktasındadır. Oyuncu her turda iki hamle yapar. 1. hamlede taşı ya 3 biri… | ✓2
+mat-dg-071 | M.8.3.2.3 | z4 | k0 | Bir animasyon programında bir noktaya önce y eksenine göre yansıma, ardından 4 birim sola ve 3 birim aşağı öteleme uygulanıyor. S… | ✓6
+mat-dg-072 | M.8.3.2.3 | z4 | k0 | Bir çini bordüründe F biçimli motifler dizilmiştir. 1. motif, kareli kâğıtta x = 0 ile x = 4 arasındadır. Ayna doğruları m_{1}: x… | ✓x = 22 doğrusuna göre yansıma
+mat-dg-073 | M.8.3.2.3 | z4 | k0 | Bir oyunda karakter, koordinat düzleminde A(2, 5) noktasından başlıyor. Önce 3 birim sağa ve 1 birim aşağı hareket ediyor. Ardınd… | ✓2
+mat-dg-074 | M.8.3.2.3 | z4 | k0 | Kenarları 8 birim ve 6 birim olan dikdörtgen biçimli bir kumaş kareli kâğıda serilmiştir. Kumaşın bir kopyası, aslına göre sağa a… | ✓2
+mat-dg-075 | M.8.3.2.3 | z4 | k0 | Bir depoda otonom taşıyıcı robot, depo planının koordinat düzleminde T(4, −3) noktasından başlıyor. Robot her turda iki hamle yap… | ✓(−6, 3)
