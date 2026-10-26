@@ -88,3 +88,213 @@ din-u5-012 | DKAB.8.5.4 | z3 | k0 | Hûd suresinde Hz. Nuh'un (a.s.) kavmine ş�
 din-u5-013 | DKAB.8.5.2 | z4 | k0 | Aşağıdaki tabloda bazı ayet mealleri ile ana konuları eşleştirilmiştir. Buna göre hangi ayetin ana konusu yanlış verilmiştir? | ✓Mâide suresi, 2. ayet
 din-u5-014 | DKAB.8.5.3 | z4 | k0 | Muhammed suresinde şöyle buyrulur: “Hâlâ Kur'an'ı gereği gibi düşünmezler mi? Yoksa kalplerinin üzerinde kilitler mi var?” (Muham… | ✓Bir konuyu yalnızca herkes söylüyor diye sor…
 din-u5-015 | DKAB.8.5.4 | z4 | k0 | Hz. Nuh'un (a.s.) tevhide daveti hakkında Kur'an-ı Kerim'den üç alıntı verilmiştir. • “Hani kavmine demişti ki: 'Ey kavmim! Benim… | ✓İman edenleri ileri gelenler için kovduğuna
+din-u5-126 | DKAB.8.5.1 | z1 | k1 | Hz. Muhammed'in (s.a.v.) bir davranışı görüp ona karşı çıkmayarak uygun bulmasına ne ad verilir? | ✓Onay
+din-u5-127 | DKAB.8.5.2 | z1 | k1 | Zekât vermek, Kur'an-ı Kerim'in ana konularından hangisine girer? | ✓İbadet
+din-u5-128 | DKAB.8.5.3 | z1 | k1 | “Bu, insanları Rablerinin izniyle karanlıklardan aydınlığa, Allah'ın yoluna çıkarman için sana indirdiğimiz bir kitaptır.” (İbrah… | ✓Doğru yolu göstermesine
+din-u5-129 | DKAB.8.5.4 | z1 | k1 | Tufan başladığında Hz. Nuh'un (a.s.) oğlu “Beni sudan koruyacak bir dağa sığınırım.” demiştir (Hud suresi, 43. ayet meali). Aynı … | ✓Dalgalar arasında boğulanlardan olmuştur
+din-u5-130 | DKAB.8.5.1 | z1 | k1 | Aşağıdakilerden hangisi sünnetin Kur'an karşısındaki konumlarından biridir? | ✓Kur'an'ı açıklaması
+din-u5-131 | DKAB.8.5.2 | z1 | k1 | “Ey iman edenler! Allah'tan korkun ve doğrularla beraber olun.” (Tevbe suresi, 119. ayet meali) Bu ayetin “doğrularla beraber olu… | ✓Ahlak
+din-u5-132 | DKAB.8.5.3 | z1 | k1 | “Kim zerre kadar hayır işlerse onu görür.” (Zilzâl suresi, 7. ayet meali) Bu ayet Kur'an-ı Kerim'in hangi özelliğine örnektir? | ✓İyiye ve güzele yönlendirmesine
+din-u5-133 | DKAB.8.5.1 | z1 | k1 | Hz. Muhammed (s.a.v.), hac için gelen sahabesine “Hac ibadetinin uygulamalarını benden öğrenin.” buyurmuştur. Bu söz sünnetin Kur… | ✓Hac emrinin nasıl yapılacağını göstermesini
+din-u5-134 | DKAB.8.5.2 | z1 | k1 | “Ey iman edenler! Cuma günü namaz için çağrıldığınızda Allah'ı anmaya koşun ve alışverişi bırakın.” (Cuma suresi, 9. ayet meali) … | ✓İbadet
+din-u5-135 | DKAB.8.5.3 | z1 | k1 | “Saçıp savurma. Çünkü saçıp savuranlar şeytanların kardeşleridir.” (İsrâ suresi, 26-27. ayetler meali) Bu ayet Kur'an-ı Kerim'in … | ✓Kötülüklerden sakındırmasına
+din-u5-136 | DKAB.8.5.4 | z1 | k1 | Hz. Nuh (a.s.) kavmine şöyle seslenmiştir: “Ey kavmim! Allah'a kulluk edin. Sizin için O'ndan başka ilah yoktur.” (A'râf suresi, … | ✓Tevhide
+din-u5-137 | DKAB.8.5.2 | z1 | k1 | “Hani Yusuf babasına: ‘Babacığım! Ben rüyada on bir yıldız, güneşi ve ayı gördüm; onları bana secde ederken gördüm.’ demişti.” (Y… | ✓Kıssalar
+din-u5-138 | DKAB.8.5.3 | z1 | k1 | “Andolsun, biz apaçık ayetler indirdik.” (Nûr suresi, 46. ayet meali) Bu ayet Kur'an-ı Kerim'in hangi özelliğine vurgu yapar? | ✓Açıklayıcı olmasına
+din-u5-139 | DKAB.8.5.1 | z1 | k1 | Aşağıdakilerden hangisi sünneti doğru tanımlar? | ✓Hz. Muhammed'in Kur'an'ı açıklayan ve uygula…
+din-u5-140 | DKAB.8.5.2 | z1 | k1 | “Yetimlerin mallarını haksız yere yiyenler, karınlarına ancak ateş doldurmuş olurlar.” (Nisâ suresi, 10. ayet meali) Bu ayet Kur'… | ✓Sosyal hayat
+din-u5-141 | DKAB.8.5.3 | z1 | k1 | “İnsan, yediği yemeğe bir baksın.” (Abese suresi, 24. ayet meali) Bu ayet Kur'an-ı Kerim'in hangi özelliğine örnektir? | ✓Düşünmeye yöneltmesine
+din-u5-142 | DKAB.8.5.4 | z1 | k1 | Aşağıdakilerden hangisi Hz. Nuh (a.s.) kıssasında yer alan bir olaydır? | ✓Gemi yapılması ve tufan
+din-u5-143 | DKAB.8.5.2 | z1 | k1 | “O'nun benzeri hiçbir şey yoktur.” (Şûrâ suresi, 11. ayet meali) Bu ayet Kur'an'ın hangi ana konusuna girer? | ✓İnanç
+din-u5-144 | DKAB.8.5.3 | z1 | k1 | “De ki: O (Kur'an), iman edenler için bir hidayet ve şifadır.” (Fussilet suresi, 44. ayet meali) Bu ayet Kur'an-ı Kerim'in hangi … | ✓Yol göstermesine
+din-u5-145 | DKAB.8.5.1 | z1 | k1 | Hz. Muhammed (s.a.v.) hasta olan kişileri ziyaret etmiş, onlara moral vermiştir. Bu davranış sünnetin hangi yönüne örnektir? | ✓Davranışlarına
+din-u5-146 | DKAB.8.5.2 | z1 | k1 | “Onlar öfkelerini yutanlar ve insanları affedenlerdir.” (Âl-i İmrân suresi, 134. ayet meali) Bu ayet Kur'an'ın hangi ana konusuna… | ✓Ahlak
+din-u5-147 | DKAB.8.5.3 | z1 | k1 | “De ki: Hiç bilenlerle bilmeyenler bir olur mu?” (Zümer suresi, 9. ayet meali) Bu ayet Kur'an-ı Kerim'in hangi özelliğine örnekti… | ✓Düşünmeye yöneltmesine
+din-u5-148 | DKAB.8.5.1 | z1 | k1 | “Kur'an” sözcüğü ne anlama gelir? | ✓Okunan
+din-u5-149 | DKAB.8.5.4 | z1 | k1 | Hz. Nuh (a.s.) şöyle demiştir: “Rabbim! Ben kavmimi gece gündüz davet ettim.” (Nuh suresi, 5. ayet meali) Bu söz onun davetteki h… | ✓Davetini her zaman, bıkmadan sürdürdüğünü
+din-u5-150 | DKAB.8.5.1 | z2 | k1 | Bir öğrenci, Hz. Muhammed'in (s.a.v.) görevini araştırırken şu ayetle karşılaşıyor: “Allah, müminlere kendi içlerinden, onlara ay… | ✓Müminlere Kitab'ı öğretip açıkladığı
+din-u5-151 | DKAB.8.5.4 | z2 | k1 | Hz. Nuh (a.s.) kavmine şöyle demiştir: “Size ‘Allah'ın hazineleri yanımdadır.’ demiyorum; gaybı da bilmem; ‘Ben bir meleğim.’ de … | ✓Allah'ın elçisi olan bir insan olarak
+din-u5-152 | DKAB.8.5.2 | z2 | k1 | Tuna, çevrim içi oyun sohbetinde kendisine hakaret eden birine cevap vermeyip konuşmayı bırakıyor. Annesi bu davranışının güzel o… | ✓Ahlak
+din-u5-153 | DKAB.8.5.1 | z2 | k1 | Sünnetle ilgili şu cümleler verilmiştir: I. Sünnet, Kur'an'daki bir hükmü kaldırabilir. II. Hz. Muhammed'in (s.a.v.) uygulamaları… | ✓Yalnız III
+din-u5-154 | DKAB.8.5.3 | z2 | k1 | Elif, sınıf arkadaşı hakkında duyduğu ve doğru olup olmadığını bilmediği bir söylentiyi sınıf grubuna yaymak üzereyken babası onu… | ✓Kötülüklerden sakındırmasına
+din-u5-155 | DKAB.8.5.2 | z2 | k1 | Bir ders sunumunda şu ayet gösteriliyor: “Bir karınca dedi ki: Ey karıncalar! Yuvalarınıza girin; Süleyman ve ordusu farkında olm… | ✓Kıssalar
+din-u5-156 | DKAB.8.5.2 | z2 | k1 | Ayşe, ayetleri Kur'an'ın ana konularına göre şöyle eşleştirmiştir: I. “Musa'nın annesine: ‘Onu emzir’ diye vahyettik.” (Kasas, 7)… | ✓II ve III
+din-u5-157 | DKAB.8.5.4 | z2 | k1 | Hz. Nuh (a.s.) Rabbine şöyle demiştir: “Sonra ben onları açıktan çağırdım. Sonra hem açıkça söyledim hem de gizli gizli söyledim.… | ✓Hem açıktan hem gizlice kavmine seslenerek
+din-u5-158 | DKAB.8.5.1 | z2 | k1 | Hz. Muhammed (s.a.v.) komşularının haklarına dikkat etmiş, verdiği sözü tutmuş ve herkese güler yüzle davranmıştır. Din kültürü ö… | ✓Hayatın her alanında örnek olmasını
+din-u5-159 | DKAB.8.5.2 | z2 | k1 | Din kültürü dersinde ölen bir kişinin bıraktığı malın hak sahipleri arasında paylaşılmasıyla ilgili şu ayet inceleniyor: “Anne ba… | ✓Sosyal hayat
+din-u5-160 | DKAB.8.5.3 | z2 | k1 | Basketbol maçını kaybeden takımın kaptanı Kerim, rakip takımın oyuncularına “Güzel oynadınız, sizi kutlarım.” diyor. Antrenörü bu… | ✓İyiye ve güzele yönlendirmesine
+din-u5-161 | DKAB.8.5.2 | z2 | k1 | Kur'an'ın ana konularıyla ilgili şu cümleler verilmiştir: I. Kur'an'ın ana konuları inanç, ibadet, ahlak, sosyal hayat ve kıssala… | ✓I ve II
+din-u5-162 | DKAB.8.5.3 | z2 | k1 | Selin, ayetleri Kur'an'ın özelliklerine göre şöyle eşleştirmiştir: I. “Rahmân'ın yaratmasında hiçbir uyumsuzluk göremezsin. Gözün… | ✓Yalnız II
+din-u5-163 | DKAB.8.5.4 | z2 | k1 | Hz. Nuh (a.s.), iman edenlere gemiyi göstererek şöyle demiştir: “Ona binin! Onun yürümesi de durması da Allah'ın adıyladır.” (Hud… | ✓Geminin yürümesinin ve durmasının Allah'ın a…
+din-u5-164 | DKAB.8.5.1 | z2 | k1 | Sınıfta sünnetin Kur'an'la ilişkisi tartışılıyor ve dört öğrenci şunları söylüyor. Öğrencilerden hangisinin söylediği doğrudur? | ✓Selin: “Sünnet, Kur'an'ı açıklar ve Müslüman…
+din-u5-165 | DKAB.8.5.1 | z2 | k1 | Sünnetle ilgili şu cümleler veriliyor: I. Hz. Muhammed'in (s.a.v.) sözleri ve davranışları, Kur'an'dan sonra İslam'ın temel kayna… | ✓Yalnız I
+din-u5-166 | DKAB.8.5.2 | z2 | k1 | Din kültürü öğretmeni, ayet mealleriyle ana konuları eşleştiren aşağıdaki tabloyu hazırlıyor. Buna göre hangi satırdaki ana konu … | ✓4. satır
+din-u5-167 | DKAB.8.5.3 | z2 | k1 | Kur'an kursunda hoca, öğrencilerden şu ayetin neyi vurguladığını bulmalarını istiyor: “Ayetleri, bilen bir toplum için Arapça bir… | ✓Açıklayıcı olmasına
+din-u5-168 | DKAB.8.5.4 | z2 | k1 | Hud suresinde Nuh kıssası anlatıldıktan sonra şöyle buyrulur: “Bunlar gayb haberlerindendir; onları sana vahyediyoruz. (…) Sabret… | ✓İbret alıp sabretmesini sağlamak
+din-u5-169 | DKAB.8.5.4 | z2 | k1 | Hz. Nuh (a.s.) kıssasıyla ilgili şu cümleler veriliyor: I. Hz. Nuh, kendisine uyanları kovmasını isteyenlere “Ben iman edenleri k… | ✓I ve III
+din-u5-170 | DKAB.8.5.2 | z2 | k1 | Zeynep, balkonda yıldızlı gökyüzünü seyrederken büyükbabası ona şu ayeti okuyor: “O, ilktir, sondur, açıktır, gizlidir. O, her şe… | ✓İnanç
+din-u5-171 | DKAB.8.5.1 | z2 | k1 | Okul kütüphanesinde Kur'an ve sünnetle ilgili bir bilgi panosu hazırlanıyor. Panoya yazılan bilgilerden hangisi doğrudur? | ✓Zikr, Kur'an'ın adlarından biridir.
+din-u5-172 | DKAB.8.5.3 | z2 | k1 | Okulun gökyüzü gözlem etkinliğinde teleskopla yıldızları inceleyen öğrenciler, öğretmenlerinden şu ayeti dinliyor: “De ki: Gökler… | ✓Düşünmeye yöneltmesine
+din-u5-173 | DKAB.8.5.2 | z2 | k1 | Emre, annesinin kendisine aynı şeyi ikinci kez hatırlatmasına bozulup sesini yükseltiyor. Babası ona şu ayeti hatırlatıyor: “Onla… | ✓Ahlak
+din-u5-174 | DKAB.8.5.4 | z2 | k1 | Kavmi Hz. Nuh'a (a.s.) şöyle demiştir: “Ey Nuh! Bizimle tartıştın, hem de çok tartıştın. Eğer doğru söyleyenlerdensen bizi tehdit… | ✓Uyarılara meydan okuduklarını
+din-u5-175 | DKAB.8.5.2 | z2 | k1 | Hz. Yusuf kıssasının anlatıldığı surenin sonunda şöyle buyrulur: “Andolsun, onların kıssalarında akıl sahipleri için ibret vardır… | ✓Okuyanlara ibret ve ders vermek
+din-u5-226 | DKAB.8.5.1 | z2 | k2 | Hz. Muhammed (s.a.v.) bir gün sahabeden birinin yaptığı davranışı görmüş, ona karşı çıkmamış ve bu davranışı uygun bulduğunu bell… | ✓Onay yönüne
+din-u5-227 | DKAB.8.5.2 | z2 | k2 | Pazar tezgâhından sebze alan Nehir, satıcının terazisini görünce annesinin hatırlattığı şu ayetin mealini düşünüyor: “Ölçtüğünüz … | ✓Sosyal hayat
+din-u5-228 | DKAB.8.5.3 | z2 | k2 | Bir ödevde Kur'an'ın özelliklerini gösteren ayetler araştırılıyor. Hazal şu ayetin mealini buluyor: “...Biz sana gerçeği ve en gü… | ✓Açıklayıcı olmasına
+din-u5-229 | DKAB.8.5.4 | z2 | k2 | Hz. Nuh (a.s.) Rabbine şöyle seslenir: “Ne zaman onları bağışlaman için davet ettimse parmaklarını kulaklarına tıkadılar, elbisel… | ✓Daveti duymamak için direndiklerini
+din-u5-230 | DKAB.8.5.1 | z2 | k2 | Kur'an kursunda öğretmen şu cümleyi okuyor: “Sizin en hayırlınız Kur'an'ı öğrenen ve öğretendir.” (Buhârî) Bu cümle hakkında aşağ… | ✓Hadistir; çünkü Hz. Muhammed'in (s.a.v.) söz…
+din-u5-231 | DKAB.8.5.2 | z2 | k2 | Mahalle yardım derneğinde gönüllü çalışan Kerem, ihtiyaç sahiplerine yardım dağıtırken şu ayetin mealini okuyor: “Namazı kılın, z… | ✓İbadet
+din-u5-232 | DKAB.8.5.3 | z2 | k2 | Doğa gezisine çıkan sınıf, rehber öğretmenin okuduğu şu ayetin mealini dinliyor: “De ki: Yeryüzünde gezip dolaşın da Allah'ın yar… | ✓Aklını kullanmaya yöneltmesine
+din-u5-233 | DKAB.8.5.4 | z2 | k2 | Okul tiyatrosunda Hz. Nuh (a.s.) kıssasını canlandıran Arda, gemiye binme sahnesinde şu ayetin mealini seslendiriyor: “(Nuh) dedi… | ✓Yolculuğu yalnızca Allah'a güvenerek başlatt…
+din-u5-234 | DKAB.8.5.1 | z2 | k2 | Din kültürü öğretmeni, sünnetle ilgili örnekleri sorarken tahtaya şu seçenekleri yazıyor. Aşağıdakilerden hangisi sünnete örnek d… | ✓Hz. Muhammed'e (s.a.v.) vahiyle bildirilen F…
+din-u5-235 | DKAB.8.5.2 | z2 | k2 | Sınav gecesi kaygılanan Mert'e babası şu ayetin mealini okuyor: “Andolsun, insanı biz yarattık ve nefsinin ona neler fısıldadığın… | ✓İnanç
+din-u5-236 | DKAB.8.5.3 | z2 | k2 | Arkadaşının paylaştığı videonun altına yorum yazmak üzere olan Duru'ya ablası şu ayetin mealini hatırlatıyor: “İnsanlara güzel sö… | ✓İyiye ve güzele yönlendirmesine
+din-u5-237 | DKAB.8.5.4 | z2 | k2 | Kur'an-ı Kerim'de Hz. Nuh'un (a.s.) kavmine “Ey kavmim! Allah'a kulluk edin; sizin için O'ndan başka ilah yoktur.” dediği bildiri… | ✓Tevhid çağrısının bütün peygamberlerde ortak…
+din-u5-238 | DKAB.8.5.1 | z2 | k2 | Dedesiyle sohbet eden Eymen şunu öğreniyor: Kur'an'da “Zekâtı verin.” emri vardır; ancak hangi malın ne kadarının verileceği gibi… | ✓Kur'an'daki genel emrin ayrıntısını gösterme…
+din-u5-239 | DKAB.8.5.2 | z2 | k2 | Finali kazanan voleybol takımının kaptanı Yağmur, sahada coşkuyla kutlama yapan arkadaşlarına Furkan suresinden bir ayetin mealin… | ✓Ahlak
+din-u5-240 | DKAB.8.5.3 | z2 | k2 | Din kültürü dersinde başkalarının değerlerine saygı konusu işlenirken öğretmen şu ayetin mealini okuyor: “Allah'tan başka taptıkl… | ✓Kötülüklerden sakındırmasına
+din-u5-241 | DKAB.8.5.2 | z2 | k2 | Okul dergisi için ayetleri konularına göre ayıran Zeynep, şu ayetin mealini buluyor: “(Allah) dedi ki: Ey ateş! İbrahim'e karşı s… | ✓Kıssalar
+din-u5-242 | DKAB.8.5.4 | z2 | k2 | Hz. Nuh'un (a.s.) tufan kıssasından söz eden Ankebût suresinde şöyle buyrulur: “Biz onu ve gemidekileri kurtardık ve bunu âlemler… | ✓Âlemlere ibret olmasını sağlamak
+din-u5-243 | DKAB.8.5.2 | z2 | k2 | Büşra, ev ödevi için şu ayetin mealini inceliyor: “Rabbin, yalnızca O'na kulluk etmenizi ve anne babaya iyilik etmenizi kesin ola… | ✓Ahlak
+din-u5-244 | DKAB.8.5.3 | z2 | k2 | Okul kütüphanesinde araştırma yapan Kaan'ın karşısına şu ayetin meali çıkıyor: “De ki: Hiç bilenlerle bilmeyenler bir olur mu? An… | ✓Aklını kullanmaya yöneltmesine
+din-u5-245 | DKAB.8.5.1 | z2 | k2 | Din kültürü dersinde İslam'ın temel kaynakları konuşuluyor. Öğretmen tahtaya şu üç başlığı yazıyor: I. Toplumun yaygın adetleri I… | ✓II ve III
+din-u5-246 | DKAB.8.5.4 | z2 | k2 | Hz. Nuh (a.s.) Rabbine kavmini nasıl davet ettiğini anlatırken şöyle der: “Sonra onları açıktan davet ettim. Sonra hem açıkça hem… | ✓Daveti açık ve gizli yollarla sürdürdüğüne
+din-u5-247 | DKAB.8.5.2 | z2 | k2 | Edebiyat kulübü “Kur'an'daki Anlatılar” panosunu hazırlarken ayet meallerini ana konularına göre ayırıyor. Aşağıdaki ayet mealler… | ✓“Yusuf babasına: ‘Babacığım! Rüyamda on bir …
+din-u5-248 | DKAB.8.5.3 | z2 | k2 | Kamp gecesinde yolunu şaşıran grup, pusulayla doğru yönü bulunca Elif arkadaşlarına şu ayetin mealini hatırlatıyor: “Allah, onunl… | ✓Yol göstermesine
+din-u5-249 | DKAB.8.5.1 | z2 | k2 | Hz. Muhammed (s.a.v.) “Ben ancak güzel ahlakı tamamlamak için gönderildim.” buyurmuştur. (Ahmed b. Hanbel) Bu hadis, sünnetin kap… | ✓İbadetlerin yanında ahlakı da örneklediğini
+din-u5-250 | DKAB.8.5.2 | z2 | k2 | Mahalle yardım kutusunu hazırlayan Utku'ya babası, yetimlerin hakkını koruyan şu ayetin mealini okuyor: “Yetimin malına, erginlik… | ✓“Ana babanın bıraktığından erkeklere de kadı…
+din-u5-251 | DKAB.8.5.3 | z2 | k2 | Kur'an-ı Kerim'in adlarından biri “Furkan”dır. Furkan suresinin ilk ayetinde şöyle buyrulur: “Âlemlere uyarıcı olsun diye kuluna … | ✓Doğruyu eğriden ayıran bir kitap olduğunu
+din-u5-252 | DKAB.8.5.2 | z3 | k2 | Selin, ayet meallerini ana konulara göre düzenlerken aşağıdaki ayetlerden hangilerinin “sosyal hayat (muamelat)” bölümüne yazılac… | ✓Yalnız III
+din-u5-253 | DKAB.8.5.1 | z3 | k2 | Dilara, sünnetle ilgili hazırladığı sunuma şu üç cümleyi yazmıştır: I. Sünnet, Kur'an'daki emirlerin nasıl uygulanacağını gösteri… | ✓I ve II
+din-u5-254 | DKAB.8.5.3 | z3 | k2 | Bir öğretmen, ayet meallerinin Kur'an'ın hangi özelliğine örnek olduğunu soruyor. Öğrenciler şu ayetleri ele alıyor. I. “Islah ed… | ✓Yalnız II
+din-u5-255 | DKAB.8.5.4 | z3 | k2 | Hûd suresinde Hz. Nuh'un (a.s.) tufan başlarken oğluna “Yavrucuğum, bizimle beraber bin, kâfirlerle beraber olma.” diye seslendiğ… | ✓Kurtuluşun iman ve iyi davranışa bağlı olduğu
+din-u5-256 | DKAB.8.5.1 | z3 | k2 | Bir tartışmada Cenk “Kur'an varken sünnete gerek yok.” diyor. Din kültürü öğretmeni Cenk'e şu ayetin mealini okuyor: “Ey iman ede… | ✓Sünneti kaynak sayma, Kur'an'ın kendi emrine…
+din-u5-257 | DKAB.8.5.2 | z3 | k2 | Okul kütüphanesinde herkes sessizce ders çalışırken telefonla yüksek sesle konuşan bir öğrenciye görevli öğretmen, Lokman suresin… | ✓Ahlak
+din-u5-258 | DKAB.8.5.3 | z3 | k2 | Okul basketbol takımında iki oyuncu, hakemin göremeyeceği bir hareketle rakibi sakatlamayı konuşuyor. Kaptan Rüzgâr onlara şu aye… | ✓İyiye yönlendirme, sonra kötülüklerden sakın…
+din-u5-259 | DKAB.8.5.4 | z3 | k2 | Tarih kulübü, Kur'an'daki peygamber kıssalarını gösteren bir pano hazırlıyor. Hz. Nuh'un (a.s.) kıssasından bir olay yazacak olan… | ✓Hûd suresinde anlatılan, vahye göre yapılan …
+din-u5-260 | DKAB.8.5.1 | z3 | k2 | Hz. Muhammed'in (s.a.v.) sünneti; söz, davranış ve onay olmak üzere üç yönden incelenir. Öğretmen, aşağıdaki durumları tahtaya ya… | ✓II ve III
+din-u5-261 | DKAB.8.5.2 | z3 | k2 | Hatice, aşağıdaki ayetleri Kur'an'ın ana konularına göre ayırırken “ahlak” bölümüne yazılacakları belirlemeye çalışıyor. I. “Ey i… | ✓II ve III
+din-u5-262 | DKAB.8.5.3 | z3 | k2 | Ceren, sınıf grubuna düşen “Yarın okul tatil!” haberini doğrulamadan herkese ileten arkadaşına şu ayetin mealini gönderiyor: “Ey … | ✓Ayetin haberi araştırıp doğrulamayı istemesi
+din-u5-263 | DKAB.8.5.2 | z3 | k2 | Tâhâ suresinde Allah'ın Hz. Musa'ya (a.s.) “Sağ elindeki nedir, ey Musa?” diye sorduğu; Hz. Musa'nın da “O benim asamdır; ona day… | ✓Kıssalar; çünkü bir peygamberin yaşadığı ola…
+din-u5-264 | DKAB.8.5.1 | z3 | k2 | Kütüphane görevlisi Nazlı, kaynak kartlarına bilgilerin İslam'ın hangi temel kaynağına ait olduğunu yazıyor. Aşağıdaki kartlardan… | ✓Hz. Muhammed'in (s.a.v.) yetim sevmesi – Sün…
+din-u5-265 | DKAB.8.5.3 | z3 | k2 | Okul kantininde yemeğinin yarısını çöpe atan arkadaşını gören Defne, ona İsrâ suresinden şu ayetlerin mealini hatırlatıyor: “Akra… | ✓İyiye yönlendirmesini ve kötülüklerden sakın…
+din-u5-266 | DKAB.8.5.4 | z3 | k2 | Hûd suresinin 40. ayetinde, Allah'ın emri gelip tandır kaynadığında Hz. Nuh'a (a.s.) “Her cinsten bir çift ve iman edenleri gemiy… | ✓I ve II
+din-u5-267 | DKAB.8.5.2 | z3 | k2 | Hukuk fakültesinde okuyan ağabeyinin masasında bir ayet mealini gören Hira, okuyor: “Anneler, çocuklarını tam iki yıl emzirirler.… | ✓Sosyal hayat
+din-u5-268 | DKAB.8.5.3 | z3 | k2 | “Kur'an ve Hayat” haftasında dört öğrenci, davranışlarının Kur'an'ın hangi özelliğiyle ilgili olduğunu anlatıyor. Buna göre hangi… | ✓Deniz, iyilik öğütlerinden etkilenip yaşlı k…
+din-u5-269 | DKAB.8.5.1 | z3 | k2 | Kur'an kursunda dört öğrenci, orucla ilgili bilgilerini nereden öğrendiklerini anlatıyor. Öğretmen, Kur'an'da orucun farz kılındı… | ✓Ali: “Orucun farz olduğunu Kur'an'dan, sahur…
+din-u5-270 | DKAB.8.5.4 | z3 | k2 | Hz. Nuh'un (a.s.) tevhide daveti ile ilgili ayetler incelenirken şu cümleler yazılıyor. I. Hz. Nuh, kavmini atalarının yolunu sür… | ✓Yalnız III
+din-u5-271 | DKAB.8.5.2 | z3 | k2 | Bir din kültürü öğrencisi, ayet mealleri ile Kur'an'ın ana konularını eşleştirdiği tabloyu öğretmenine kontrol ettiriyor. Buna gö… | ✓3
+din-u5-272 | DKAB.8.5.1 | z3 | k2 | Okul servisinde küçük bir öğrenciye yerini veren Tuna'ya arkadaşı “Bunu neden yaptın?” diye soruyor. Tuna, Hz. Muhammed'in (s.a.v… | ✓Davranışı sünnete uygundur; çünkü Hz. Muhamm…
+din-u5-273 | DKAB.8.5.3 | z3 | k2 | Emre, aşağıdaki ayet meallerini Kur'an'ın özelliklerine göre inceliyor. I. “Hâlâ Kur'an'ı gereği gibi düşünmezler mi?” (Nisâ sure… | ✓I ve III
+din-u5-274 | DKAB.8.5.4 | z3 | k2 | Ayşe, mahallesindeki parkı temizlemek için bir kampanya başlatır. İlk haftalarda kimse ilgilenmez, bazı arkadaşları da onunla ala… | ✓Reddedilse de daveti hiç bırakmadan sürdürme…
+din-u5-275 | DKAB.8.5.2 | z3 | k2 | Okul panosuna “Sabreden derviş muradına ermiş.” atasözü yazılmıştır. Din kültürü öğretmeni, bu atasözünde öğütlenen değerin Kur'a… | ✓Ahlak
+din-u5-326 | DKAB.8.5.2 | z3 | k3 | Cuma günü okul çıkışında ezan sesini duyan Ali, arkadaşlarıyla oynadığı oyunu bırakıp camiye yöneliyor. Arkadaşı bu davranışın da… | ✓İbadet
+din-u5-327 | DKAB.8.5.1 | z3 | k3 | Hacca gidecek olan Kerem'e dedesi şunları anlatıyor: “Kur'an'da hac emredilir ancak haccın bütün ayrıntıları ayetlerde tek tek sı… | ✓Kur'an'daki emri açıklayıp uygulayarak göste…
+din-u5-328 | DKAB.8.5.3 | z3 | k3 | Kur'an kursuna yeni başlayan Defne, “Kur'an çok yüce bir kitap; ben onu anlayabilir miyim?” diye endişeleniyor. Hocası ona anlamı… | ✓Anlaşılır ve açıklayıcı olması
+din-u5-329 | DKAB.8.5.4 | z3 | k3 | Okul basketbol takımının kaptanı Arda, antrenman düzenini uygulamaya çalışırken bazı arkadaşları onunla alay edince morali bozulu… | ✓Alay edilmesine rağmen gemiyi yapmayı sürdür…
+din-u5-330 | DKAB.8.5.2 | z3 | k3 | Mahalle maçından sonra rakip takımın taraftarları Berk'e laf atıyor. Berk sinirlenmeden yoluna devam ediyor. Arkadaşı bu tavrın K… | ✓Ahlak
+din-u5-331 | DKAB.8.5.3 | z3 | k3 | Bir oyun platformunda sahte hesaplarla arkadaşlarına değersiz eşyalar satıp onları kandıran Mert'i, ağabeyi uyarır ve şu ayeti ok… | ✓Kötülüklerden ve zararlı davranışlardan sakı…
+din-u5-332 | DKAB.8.5.1 | z3 | k3 | Din kültürü öğretmeni, sünnetin söz, davranış ve onay yönlerini göstermek için tahtaya aşağıdaki örnekleri yazıyor. Buna göre num… | ✓IV
+din-u5-333 | DKAB.8.5.2 | z3 | k3 | Dedesinin vefatından sonra Zeynep'in ailesi mirasın paylaşımı için bir uzmana danışıyor. Zeynep, kız çocuklarının da mirastan pay… | ✓Sosyal hayat
+din-u5-334 | DKAB.8.5.4 | z3 | k3 | Nuh suresinde Hz. Nuh'un (a.s.) Rabbine şöyle seslendiği bildirilir: “Rabbim! Ben kavmimi gece gündüz (Sana) çağırdım. Ama benim … | ✓Sonuç görünmese de çağrısını gece gündüz sür…
+din-u5-335 | DKAB.8.5.3 | z3 | k3 | Robotik kodlama kulübüne giden Ela'ya bir akrabası “Bu kadar bilgiyi öğrenmenin ne faydası var?” diyor. Ela'nın dedesi araya gire… | ✓Düşünmeye yöneltmesi
+din-u5-336 | DKAB.8.5.2 | z3 | k3 | Sınavda yanındaki arkadaşının kâğıdına bakmayı düşünen Emre, bundan vazgeçince babasına nedenini anlatıyor. Babası ona, Allah'ın … | ✓İnanç
+din-u5-337 | DKAB.8.5.1 | z3 | k3 | Din kültürü dersinde İslam dininin temel kaynakları işleniyor. Öğretmen, öğrencilerden bu konuyla ilgili ifadeleri değerlendirmel… | ✓Atasözleri ve gelenekler de Kur'an ve sünnet…
+din-u5-338 | DKAB.8.5.4 | z3 | k3 | Hûd suresinde tufan sırasında Hz. Nuh'un (a.s.) oğluna “Yavrucuğum, bizimle beraber bin, kâfirlerle beraber olma.” diye seslendiğ… | ✓Kurtuluş, Allah'ın emrine ve rahmetine bağlı…
+din-u5-339 | DKAB.8.5.3 | z3 | k3 | Sınıfta iki arkadaşın küs olduğunu fark eden Melis, ikisini konuşturup barıştırmak istiyor. Annesi ona şu ayeti hatırlatıyor: “Mü… | ✓İyiye, doğruya ve güzele yönlendirmesi
+din-u5-340 | DKAB.8.5.2 | z3 | k3 | Mahalle kütüphanesini düzenleyen gönüllü gençlerden Can, arkadaşlarına “Birlikte çalışırsak işimiz daha çabuk biter.” der. Gönüll… | ✓Ahlak
+din-u5-341 | DKAB.8.5.1 | z3 | k3 | Kur'an ve sünnet konusunu çalışan Nehir, defterine şu ifadeleri yazıyor: I. Hz. Muhammed'in (s.a.v.) hadisleri de Kur'an gibi All… | ✓II ve III
+din-u5-342 | DKAB.8.5.3 | z3 | k3 | Hayatında kararsız kalan Hakan'ın dedesi, ona Kur'an'dan şu ayeti okuyor: “Allah, onunla rızasına uyanları esenlik yollarına ilet… | ✓İnsanlara doğru yolu göstermesi
+din-u5-343 | DKAB.8.5.2 | z3 | k3 | Tarih kulübünün gezisinde rehber, Hz. İbrahim'le ilgili anlatımı sırasında Kur'an'dan şu ayeti okuyor: “Dedik ki: Ey ateş! İbrahi… | ✓Kıssalar
+din-u5-344 | DKAB.8.5.1 | z3 | k3 | Mert, arkadaşıyla tartışırken “Ben yalnızca Kur'an'da yazanlara uyarım; Peygamber'in söylediklerine uymam gerekmez.” diyor. Arkad… | ✓Peygamber'e uymanın Kur'an'ın kendi emri old…
+din-u5-345 | DKAB.8.5.4 | z3 | k3 | Hz. Nuh'un (a.s.) gemiyi yapmasıyla ilgili Hûd suresinde şöyle buyrulur: “Gözlerimizin önünde ve vahyimize göre gemiyi yap...” (H… | ✓Gemiyi kavminin isteğine göre biçimlendirmiş…
+din-u5-346 | DKAB.8.5.3 | z3 | k3 | Ela, Kur'an'ın özelliklerini ayet örnekleriyle eşleştirmiştir: I. “Saçıp savuranlar şeytanların kardeşleridir.” (İsrâ, 27) ayeti … | ✓Yalnız II
+din-u5-347 | DKAB.8.5.2 | z3 | k3 | Babasını kaybeden yeğeninin mallarını yönetmekle görevlendirilen Kadir Amca, bu işin sorumluluğunu araştırırken şu ayetle karşıla… | ✓Sosyal hayat
+din-u5-348 | DKAB.8.5.1 | z3 | k3 | Sevda, “Kur'an'da zekâtın hangi malın ne kadarının verileceği ayrıntılı yazılmadığı hâlde Müslümanlar bunu nasıl biliyor?” sorusu… | ✓Yalnız III
+din-u5-349 | DKAB.8.5.2 | z3 | k3 | Selin, Kur'an ayetlerini ana konularına göre şöyle eşleştirmiştir: I. “Namazlara ve orta namaza devam edin.” (Bakara, 238) ayeti … | ✓I, II ve III
+din-u5-350 | DKAB.8.5.4 | z3 | k3 | Ankebut suresinde Hz. Nuh (a.s.) ve gemidekilerin kurtarılması anlatıldıktan sonra şöyle buyrulur: “Biz onu ve gemidekileri kurta… | ✓Bütün âlemlere ibret ve ders olması için
+din-u5-351 | DKAB.8.5.3 | z3 | k3 | Sokak hayvanları için bahçesine su ve mama kapları koyan Yağmur'a komşusu “Bunlarla neden uğraşıyorsun?” diye soruyor. Yağmur'un … | ✓İyiye, doğruya ve güzele yönlendirmesi
+din-u5-352 | DKAB.8.5.1 | z3 | k3 | Bir sosyal medya hesabında Hz. Muhammed'in (s.a.v.) “Kolaylaştırın, güçleştirmeyin; müjdeleyin, nefret ettirmeyin.” (Buhârî, Müsl… | ✓Kur'an ayetleri arasında yer alır.
+din-u5-353 | DKAB.8.5.2 | z3 | k3 | Gökbilim kulübünde evrenin oluşumunu inceleyen Kerem'in arkadaşı “Her şey nasıl var oldu?” diye soruyor. Kerem'in öğretmeni cevap… | ✓İnanç
+din-u5-354 | DKAB.8.5.4 | z3 | k3 | Kavminin Hz. Nuh'un (a.s.) davetine tepkisini inceleyen Tuna, Hûd suresinden şu ayetlerin mealini okuyor: “Nuh'a şöyle vahyolundu… | ✓I ve II
+din-u5-355 | DKAB.8.5.3 | z3 | k3 | Okul kantininde yemek yerken sofra adabını anlatan Elif'in öğretmeni, Abese suresinden şu ayeti hatırlatıyor: “İnsan, yiyeceğine … | ✓Düşünmeye ve aklını kullanmaya yöneltmesi
+din-u5-356 | DKAB.8.5.1 | z4 | k3 | Kur'an-ı Kerim'de “Sizden kim Ramazan ayına ulaşırsa onda oruç tutsun.” (Bakara suresi, 185. ayet meali) buyrulur. Hz. Muhammed (… | ✓II ve III
+din-u5-357 | DKAB.8.5.2 | z4 | k3 | Okul kulübü, koridor panosu için ayet mealleri seçmiş ve her birinin altına ait olduğunu düşündüğü ana konuyu yazmıştır. Öğretmen… | ✓3
+din-u5-358 | DKAB.8.5.3 | z4 | k3 | Okulda düzenlenen “Kur'an ve Hayat” haftasında dört öğrenci, davranışlarının dayandığı Kur'an özelliğini anlatıyor. Davranışlar v… | ✓Ayşe
+din-u5-359 | DKAB.8.5.4 | z4 | k3 | Tarih kulübü, Hz. Nuh (a.s.) kıssasındaki dört olayı kronolojik sırayla panoya asacaktır. Kulüp başkanı olayları şöyle özetliyor:… | ✓II - III - I - IV
+din-u5-360 | DKAB.8.5.2 | z4 | k3 | Lokman suresinde Lokman'ın oğluna verdiği öğütler anlatılır. Sınıfta bu öğütlerden üçü ana konularına göre ayrılıyor: • “Yavrucuğ… | ✓Sosyal hayat
+din-u5-361 | DKAB.8.5.1 | z4 | k3 | Kur'an kursunda hocası, öğrencilerine Hz. Muhammed'in (s.a.v.) görevini anlatırken şu ayeti okuyor: “Allah, müminlere kendi içler… | ✓I ve III
+din-u5-362 | DKAB.8.5.3 | z4 | k3 | Mahalledeki gençlik derneğinin kuruluş toplantısında bir konuşmacı, derneğin amacını anlatırken Kur'an'dan şu ayeti okuyor: “Sizd… | ✓İyiye yönlendirmesi ve kötülüklerden sakındı…
+din-u5-363 | DKAB.8.5.2 | z4 | k3 | Din kültürü dersinde öğretmen, dört öğrencinin günlük hayattaki durumlarını bir tabloda toplamış ve her durumu bir ayet meali ve … | ✓Burak
+din-u5-364 | DKAB.8.5.4 | z4 | k3 | Hz. Nuh'un (a.s.) davetiyle ilgili Hûd suresinden üç alıntı verilmiştir: • “Ben size gönderilmiş apaçık bir uyarıcıyım. Allah'tan… | ✓Hz. Nuh, kavminin isteğiyle ona uyanları yan…
+din-u5-365 | DKAB.8.5.3 | z4 | k3 | Kur'an kursunda sunum hazırlayan Sude, ayetleri Kur'an'ın özelliklerine göre şöyle eşleştirmiştir: I. “Allah adaleti, iyilik yapm… | ✓II ve III
+din-u5-366 | DKAB.8.5.1 | z4 | k3 | Bir dijital oyunda rakibinin hakaretleri yüzünden sinirlenen Kaan, karşılık yazmak üzereyken babasından şu ayet ve hadisi dinliyo… | ✓İbadetler gibi ahlakta ve ilişkilerde de örn…
+din-u5-367 | DKAB.8.5.2 | z4 | k3 | Bir öğrenci, defterine yazdığı ayet mealini ana konularına göre şöyle ayırmıştır: I. “Borçlu darda ise eli genişleyene kadar ona … | ✓I ve II
+din-u5-368 | DKAB.8.5.3 | z4 | k3 | Arkadaş grubunda Eren, uzay uygulamasından aldığı bir gökyüzü fotoğrafını paylaşıyor ve altına Kur'an'dan iki ayet mealini yazıyo… | ✓(a) Düşünmeye yöneltmesi, (b) Kötülüklerden …
+din-u5-369 | DKAB.8.5.4 | z4 | k3 | Hz. Nuh (a.s.) kıssasını işleyen Defne, ayetlerden şu özetleri çıkarıyor: Gemi yapılırken ileri gelenler Hz. Nuh'la alay etmiştir… | ✓I ve III
+din-u5-370 | DKAB.8.5.1 | z4 | k3 | Bir sosyal medya sayfası “Bilgi Köşesi” başlığıyla dört ifade paylaşıyor: I. “Sakla samanı, gelir zamanı.” (atasözü) II. “Mümin, … | ✓II ve III
+din-u5-371 | DKAB.8.5.2 | z4 | k3 | Okulun e-posta bülteninde “Sosyal hayat (muamelat)” köşesi için bir ayet mealine yer verilecektir. Bülten editörü Aslı, dört ayet… | ✓“Alışveriş yaptığınız zaman şahit tutun.” (B…
+din-u5-372 | DKAB.8.5.1 | z4 | k3 | Sınıf grubunda “Kur'an ve sünnet” konusunu tekrar eden dört öğrenci şunları yazıyor: Ayla: “Kur'an, Allah'ın Hz. Muhammed'e (s.a.… | ✓Bora
+din-u5-373 | DKAB.8.5.3 | z4 | k3 | Bir din kültürü öğretmeni, Kur'an'ın özelliklerini ayet örnekleriyle eşleştirdiği bir tablo hazırlamıştır. Öğrencilerden eşleştir… | ✓3
+din-u5-374 | DKAB.8.5.2 | z4 | k3 | Ayet kartları hazırlayan bir öğrenci, kartların arkasına ait oldukları ana konuyu şöyle yazıyor: I. “Allah alışverişi helâl, faiz… | ✓Yalnız I
+din-u5-375 | DKAB.8.5.4 | z4 | k3 | Okul gazetesinin çevrim içi sayfasında Hz. Nuh (a.s.) kıssası işlenirken Kur'an'dan üç alıntı veriliyor: • “Allah'a kulluk edin, … | ✓2
+din-u5-016 | DKAB.8.5.1 | z1 | k0 | Eda, tarih ödevi için Hz. Muhammed'in (s.a.v.) komşularıyla ilişkisini araştırıyor. Kaynakta Peygamber'in hasta komşusunu ziyaret… | ✓Sünnete
+din-u5-017 | DKAB.8.5.2 | z1 | k0 | Aylin, Kur'an kursunda ayetleri ana konularına göre ayırıyor. Elindeki ayetin meali şöyle: “Allah, kendisinden başka ilah olmayan… | ✓İnanç
+din-u5-018 | DKAB.8.5.3 | z1 | k0 | Yağmur'un sınıfı, mahalledeki yaşlı komşular için alışveriş yardımı grubu kurdu. Din kültürü öğretmeni bu davranışı, “İyilik ve t… | ✓İyiye ve güzele yönlendirmesi
+din-u5-019 | DKAB.8.5.4 | z1 | k0 | Tuna, Nuh suresinde Hz. Nuh'un (a.s.) şu sözünü okuyor: “Sonra onları açıkça çağırdım. Sonra hem açıktan açığa hem de gizlice söy… | ✓Hem açıktan hem gizlice çağırmıştır
+din-u5-020 | DKAB.8.5.2 | z1 | k0 | Kur'an kursunda ayetler ana konularına göre ayrılırken öğretmen şu ayetin mealini okudu: “Yusuf babasına: ‘Babacığım, ben rüyada … | ✓Kıssalar
+din-u5-021 | DKAB.8.5.3 | z1 | k0 | Selin, sınıf mesaj grubunda bir arkadaşı hakkında alaycı yazılar yazıldığını fark etti. Din kültürü öğretmeni ona şu ayeti hatırl… | ✓Kötülüklerden sakındırması
+din-u5-022 | DKAB.8.5.1 | z1 | k0 | Berk, arkadaşına “Kur'an varken Peygamber'e uymaya ne gerek var?” diye sordu. Arkadaşı ona şu ayeti gösterdi: “Allah'a ve Peygamb… | ✓Peygamber'e uymanın Kur'an'da emredildiğini
+din-u5-023 | DKAB.8.5.2 | z1 | k0 | Salih Amca'nın bakkalında ölçü ve tartı aletleri her zaman doğru çalışır. Torunu Hira, dedesinin bu titizliğini şu ayetle ilişkil… | ✓Sosyal hayat
+din-u5-024 | DKAB.8.5.3 | z1 | k0 | Doğa gezisinde sınıf, dağ yamacındaki kuş ve böcek çeşitliliğine bakıyor. Öğretmen şu ayeti okuyor: “Göklerin ve yerin yaratılışı… | ✓İnsanı düşünmeye yöneltmesi
+din-u5-025 | DKAB.8.5.2 | z1 | k0 | Okul takımının kaptanı Mert, antrenman öncesi arkadaşlarına şu ayetin mealini okudu: “Namazı kılın, zekâtı verin.” (Bakara suresi… | ✓İbadet
+din-u5-026 | DKAB.8.5.1 | z1 | k0 | Berk'in kuzeni, “Kur'an yeterli; sünnete gerek yok.” dedi. Din kültürü öğretmeni bu sözü ele alırken sünnetin Kur'an'la ilişkisin… | ✓Kur'an'ı açıklar ve uygulayarak gösterir
+din-u5-027 | DKAB.8.5.4 | z1 | k0 | Tarih kulübünde Hûd suresindeki gemi bölümü okunuyor. Hz. Nuh (a.s.), iman edenlere gemiye binmelerini söylerken şöyle der: “Bini… | ✓Gemiyi yürüten ve durduranın Allah olduğuna …
+din-u5-028 | DKAB.8.5.3 | z2 | k0 | Zeynep, Kur'an kursunda bir ayeti ezberlerken kursun hocası ona şöyle dedi: “Bu ayet, Kur'an'ın insanlara ne yaptığını bildiren a… | ✓Yol göstermesi
+din-u5-029 | DKAB.8.5.2 | z2 | k0 | Basketbol takımının kaptanı Emir, rakip tribünden gelen laf atmalara karşılık verip tartışmak yerine sakin kalarak selam verdi ve… | ✓Ahlak
+din-u5-030 | DKAB.8.5.1 | z2 | k0 | Ela, sünnetin Kur'an karşısındaki konumuyla ilgili sınıf panosuna şu cümleleri yazdı: I. Hz. Muhammed (s.a.v.), bazı ayetlerin hü… | ✓II ve III
+din-u5-031 | DKAB.8.5.4 | z2 | k0 | Hz. Nuh'un (a.s.) kavmi, ona “Biz seni bizim gibi bir insan olarak görüyoruz.” demişti. Nuh da onlara şöyle seslendi: “Ben size, … | ✓Allah'ın gönderdiği insan bir elçi olarak
+din-u5-032 | DKAB.8.5.3 | z2 | k0 | Hüseyin'in sınıfında kul hakkı konusu işleniyor. Öğretmen yetim haklarını anlatırken şu ayetin mealini okuyor: “Yetimlerin mallar… | ✓Kötülüklerden sakındırması
+din-u5-033 | DKAB.8.5.2 | z2 | k0 | Selin'in annesi, komşusuna borç verdiğinde miktarı ve geri ödeme tarihini bir kâğıda yazıp ikisi birlikte imzalıyor. Selin, annes… | ✓Sosyal hayat
+din-u5-034 | DKAB.8.5.1 | z2 | k0 | Din kültürü dersinde İslam'ın temel kaynakları işleniyor. Öğretmen tahtaya dört örnek yazıp öğrencilerden, bir tanesinin temel ka… | ✓Bir yörede uzun yıllardır sürdürülen âdetler
+din-u5-035 | DKAB.8.5.2 | z2 | k0 | Kur'an kursunda hoca, öğrencilere şu ayetin hangi ana konuya girdiğini soruyor: “Biz, ‘Ey ateş! İbrahim'e karşı serin ve selamet … | ✓Kıssalar
+din-u5-036 | DKAB.8.5.4 | z2 | k0 | Tarih kulübünde Nuh suresinin 4. ayeti okunuyor: “(Böyle yaparsanız) Allah sizin günahlarınızı bağışlar ve sizi belirli bir sürey… | ✓Allah'ın belirlediği süre gelince ertelenmed…
+din-u5-037 | DKAB.8.5.3 | z2 | k0 | Tuğçe, okulun düzenlediği arı kovanı gezisinde bal arılarının çalışmasını izledi. Dönüşte din kültürü öğretmeni şu ayetin mealini… | ✓İnsanı düşünmeye yöneltmesi
+din-u5-038 | DKAB.8.5.1 | z2 | k0 | Burcu, sünnetle ilgili hazırladığı sunumda şu cümleleri kullandı: I. Kur'an'da namaz emredilir; Müslümanlar namazın nasıl kılınac… | ✓Yalnız I
+din-u5-039 | DKAB.8.5.2 | z2 | k0 | Okul meclisi seçimlerinde adaylar konuşma yapıyor. Din kültürü öğretmeni, doğru sözlü olmanın önemini vurgulamak için şu ayeti ok… | ✓Ahlak
+din-u5-040 | DKAB.8.5.4 | z2 | k0 | Hz. Nuh (a.s.), kavmine şöyle seslenmiştir: “Ey kavmim! Ya ben Rabbimden gelen apaçık bir delile dayanıyorsam ve O bana katından … | ✓Kavmini zorlamadan, anlatarak çağırdığı
+din-u5-041 | DKAB.8.5.3 | z2 | k0 | Arapçayı bilmeyen Defne, Kur'an'ı anlayarak okumak için meal okumaya başladı. Kur'an kursu hocası ona şu ayetin mealini gösterdi:… | ✓Açıklayıcı olması
+din-u5-042 | DKAB.8.5.1 | z2 | k0 | Sınıfta sünnetin Kur'an karşısındaki konumu tartışılırken Cansu, Nahl suresinin 44. ayetini okudu: “Sana da bu Zikir'i (Kur'an'ı)… | ✓Kur'an'ı insanlara açıklamasına
+din-u5-043 | DKAB.8.5.2 | z2 | k0 | Esnaf Ali Amca, Cuma günü ezan okunduğunda dükkânını kapatıp camiye gidiyor. Torunu bunun nedenini sorunca Ali Amca şu ayeti okuy… | ✓İbadet
+din-u5-044 | DKAB.8.5.4 | z2 | k0 | Hz. Nuh (a.s.), Rabbine kavminin tutumunu şöyle anlatır: “Ne zaman onları bağışlaman için çağırdıysam parmaklarını kulaklarına tı… | ✓Çağrıya hiç kulak vermeyip direnmişlerdir
+din-u5-045 | DKAB.8.5.3 | z2 | k0 | Hira, Kur'an'ın özelliklerini öğrenmek için ayetleri özelliklere göre eşleştirdi: I. “Çocuklarınızı yoksulluk korkusuyla öldürmey… | ✓I, II ve III
+din-u5-046 | DKAB.8.5.2 | z2 | k0 | Ela, ayet defterine şu ayetin mealini yazıyor: “Senden önce hiçbir peygamber göndermedik ki ona ‘Benden başka ilah yoktur; öyleys… | ✓İnanç
+din-u5-047 | DKAB.8.5.1 | z2 | k0 | Rana, Hz. Muhammed'in (s.a.v.) “Ameller niyetlere göredir.” sözünü okuyunca bunu bir Kur'an ayeti sandı. Arkadaşı Deniz ona yanıl… | ✓Bu söz bir hadistir; Peygamber'in sözü olduğ…
+din-u5-048 | DKAB.8.5.2 | z3 | k0 | Okulun “Ayetlerle Hayat” kulübünde öğrenciler, ayetlerin hangi ana konuya girdiğini tartışıyor. Elif, tahtaya şu ayetin mealini y… | ✓Ahlak
+din-u5-049 | DKAB.8.5.3 | z3 | k0 | Okulda düzenlenen “Kur'an ve Hayat” haftasında dört öğrenci, aynı ayetleri okuduktan sonra neler yaptıklarını anlatıyor. Din kült… | ✓Kerem, ayette anılan yağmurun oluşumunu araş…
+din-u5-050 | DKAB.8.5.1 | z3 | k0 | Şehir kütüphanesi, “Kur'an ve Sünnet” konulu bir sergi hazırlıyor. Sergi görevlisi, panolara şu bilgileri yazıyor: I. Hz. Muhamme… | ✓I ve III
+din-u5-051 | DKAB.8.5.4 | z3 | k0 | Tarih kulübü, Hûd suresindeki Nuh kıssasını inceliyor. Kavminin ileri gelenleri, Hz. Nuh'a (a.s.) şöyle demiştir: “Ey Nuh! Biziml… | ✓Kavim, azabı getirmesini isteyerek meydan ok…
+din-u5-052 | DKAB.8.5.2 | z3 | k0 | Ders sunumuna hazırlanan Burcu, aşağıdaki ayet mealleri arasından “kıssalar” ana konusuna girenleri bulmak istiyor. I. “De ki: Hi… | ✓Yalnız II
+din-u5-053 | DKAB.8.5.3 | z3 | k0 | Din kültürü öğretmeni, Kur'an'ın özelliklerini pekiştirmek için tahtaya dört eşleştirme yazdı ve sınıftan birinin yanlış olduğunu… | ✓“Zannın çoğundan sakının.” (Hucurât, 12) → İ…
+din-u5-054 | DKAB.8.5.1 | z3 | k0 | Efe, namaz ibadetini öğrenirken Kur'an'da “Namazı dosdoğru kılın.” (Bakara suresi, 43. ayet meali) emrinin bulunduğunu, ancak rek… | ✓Namazın kılınışı sünnetten öğrenilir; sünnet…
+din-u5-055 | DKAB.8.5.2 | z3 | k0 | Kur'an kursunda hoca, bir ayetin mealini yazdırdı: “Kitaptan sana vahyedileni oku ve namazı dosdoğru kıl. Şüphesiz namaz, hayasız… | ✓İbadet
+din-u5-056 | DKAB.8.5.3 | z3 | k0 | Mina, Kur'an'ın “açıklayıcı olması” özelliğine örnek ayetleri bulmak için üç ayet meali seçti: I. “Yürüyüşünde ölçülü ol, sesini … | ✓Yalnız III
+din-u5-057 | DKAB.8.5.4 | z3 | k0 | Hz. Nuh (a.s.), tufan sırasında oğlu için Rabbine yalvarınca ona şu karşılık verilir: “Ey Nuh! O senin ailenden değildir. Çünkü o… | ✓Akrabalığın tek başına kurtuluş sağlamadığına
+din-u5-058 | DKAB.8.5.1 | z3 | k0 | Mahallede oturan Ayşe Teyze, babası vefat eden bir çocuğun okul masraflarına destek oluyor. Komşuları ona nedenini sorunca Ayşe T… | ✓Müslümanlara örnek olmasıyla
+din-u5-059 | DKAB.8.5.2 | z3 | k0 | Kur'an kursunda hoca, Kehf suresinden bir ayetin mealini okuyor: “De ki: Ben ancak sizin gibi bir insanım; bana, ilahınızın tek b… | ✓İnanç
+din-u5-060 | DKAB.8.5.3 | z3 | k0 | Arapça bilmeyen Elif, Kur'an'ın açıklayıcı olması özelliğinden yararlanmak istiyor. Ayetleri okurken ne anlattıklarını kavramakta… | ✓Ayetlerin anlamını meallerden öğrenip hayatı…
+din-u5-061 | DKAB.8.5.2 | z3 | k0 | Tarih dersi ödevinde Kur'an'daki kıssaları okuyan Deniz, kıssaları “geçmişin kronolojik kayıtları” sanıyor ve bunun için Hz. Süle… | ✓Geçmişten ibret alınmasını ve ders çıkarılma…
+din-u5-062 | DKAB.8.5.1 | z3 | k0 | Mina, oruç ibadetinin dayanaklarını araştırıyor. Kur'an'da orucun müminlere farz kılındığını bildiren “Ey iman edenler! Oruç, siz… | ✓Oruç emri Kur'an'da, sahur öğüdü ise sünnett…
+din-u5-063 | DKAB.8.5.4 | z3 | k0 | Hz. Nuh (a.s.) kıssasının anlatıldığı Hûd suresinde, kıssanın sonunda şu ayet yer alır: “İşte bunlar sana vahyettiğimiz gayb habe… | ✓Sakınanların güzel sonuca ulaşacağının vurgu…
+din-u5-064 | DKAB.8.5.2 | z4 | k0 | Seher, din kültürü ödevi için dört ayet meali seçti ve bunları Kur'an'ın ana konularına göre sınıflandırarak tabloya yazdı. Öğret… | ✓1. satır
+din-u5-065 | DKAB.8.5.3 | z4 | k0 | Sınıfta bir öğrenci, notu düşük bir arkadaşıyla alay etmeyi önerdi: “Hep birlikte onunla dalga geçelim.” Zeynep teklife katılmadı… | ✓İyiye yönlendirme ve kötülükten sakındırma
+din-u5-066 | DKAB.8.5.1 | z4 | k0 | Din kültürü dersinde öğrenciler, Hz. Muhammed'in (s.a.v.) uygulamalarını sünnetin üç konumuyla eşleştiriyor. Konumlar şunlardır: … | ✓Defne'nin
+din-u5-067 | DKAB.8.5.2 | z4 | k0 | Furkan, Kur'an kursunda üç ayet mealini ana konularına göre eşleştirdi: I. “Oruç tutmanız sizin için daha hayırlıdır.” (Bakara su… | ✓II ve III
+din-u5-068 | DKAB.8.5.4 | z4 | k0 | Edebiyat öğretmeni, Nuh suresindeki şu ayetlerin mealini okutuyor: “Oysa sizi çeşitli aşamalardan geçirerek yaratmıştır. Allah'ın… | ✓Yaratılıştaki delillerle düşünmeye çağırdığı
+din-u5-069 | DKAB.8.5.3 | z4 | k0 | Sınıf sunumuna hazırlanan Zeynep, Kur'an'dan seçtiği dört ayet mealini inceliyor ve her birinin Kur'an'ın hangi özelliğine örnek … | ✓Bir
+din-u5-070 | DKAB.8.5.1 | z4 | k0 | Kerem, Hz. Muhammed'in (s.a.v.) “Müslüman, Müslümanın kardeşidir; ona zulmetmez, onu düşmana teslim etmez.” sözünü okuyor. Aynı k… | ✓Söz, sünnete girer ve ayetteki ilkeyi açıkla…
+din-u5-071 | DKAB.8.5.2 | z4 | k0 | Edebiyat ve din kültürü derslerinin ortak etkinliğinde, öğrenciler Kur'an'dan seçtikleri beş ayet mealini aşağıdaki tabloya yazdı… | ✓1 ve 5
+din-u5-072 | DKAB.8.5.3 | z4 | k0 | Bir okulun Kur'an kursunda yapılan anket çalışmasında öğrencilere Kur'an'ın özellikleriyle ilgili üç yargı sunuldu: I. Kur'an, ba… | ✓I ve II
+din-u5-073 | DKAB.8.5.1 | z4 | k0 | Zehra, İslam'ın temel kaynaklarını anlatan bir çalışma kâğıdı hazırlıyor ve şu cümleleri yazıyor: I. “Kim Peygamber'e itaat eders… | ✓I ve III
+din-u5-074 | DKAB.8.5.3 | z4 | k0 | Okulda hazırlanan “Kur'an ve Ahlak” sunumunda, Kur'an'ın kötülüklerden sakındırması özelliğinin insanların davranışlarına etkisi … | ✓Kerem, gece gökyüzündeki yıldızların düzenin…
+din-u5-075 | DKAB.8.5.2 | z4 | k0 | Edebiyat ve din kültürü derslerini birleştiren bir etkinlikte öğrenciler şu ayetlerin mealini inceliyor: “Rabbinin fil sahiplerin… | ✓Kıssalar
