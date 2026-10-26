@@ -977,27 +977,12 @@ Cevap D.`
   kazanim: "İTA.8.4.5",
   kademe: 0,
   zorluk: 3,
-  soru: `Aşağıdaki tabloda bazı ülkelerde kadınlara milletvekili seçme ve seçilme hakkının tanındığı yıllar verilmiştir.
-**Bu tabloya göre aşağıdakilerden hangisi söylenebilir?**`,
-  gorsel: `<table class="tablo"><tr><th>Ülke</th><th>Yıl</th></tr><tr><td>Almanya</td><td>1918</td></tr><tr><td>Türkiye</td><td>1934</td></tr><tr><td>Fransa</td><td>1944</td></tr><tr><td>İtalya</td><td>1945</td></tr><tr><td>İsviçre</td><td>1971</td></tr></table>`,
-  secenekler: [
-    "Türkiye, bu hakkı kadınlara tanıyan ilk ülkedir.",
-    "İsviçre, bu hakkı Türkiye'den önce tanımıştır.",
-    "Fransa ile İtalya, bu hakkı Türkiye'den sonra tanımıştır.",
-    "Almanya, bu hakkı Türkiye'den 16 yıl sonra tanımıştır."
-  ],
+  soru: "Aşağıda Türk kadınına siyasi hakların tanınmasıyla ilgili bazı gelişmeler karışık sırayla verilmiştir.\nI. Muhtarlık ve ihtiyar heyeti seçimlerinde seçme ve seçilme hakkı\nII. Milletvekili seçme ve seçilme hakkı\nIII. Belediye seçimlerinde seçme ve seçilme hakkı\nIV. Kadın milletvekillerinin ilk kez Meclis'e girmesi\n**Bu gelişmelerin eskiden yeniye doğru sıralanışı aşağıdakilerden hangisidir?**",
+  gorsel: null,
+  secenekler: ["I – III – II – IV","III – II – I – IV","III – I – II – IV","III – I – IV – II"],
   dogru: 2,
-  hatalar: [
-    "Tabloya aykırı: tabloda Almanya 1918'dir, Türkiye'den önce tanımıştır. \"İlk ülke\" demek tabloyla çelişir.",
-    "Tabloya aykırı: İsviçre 1971'dir; Türkiye 1934'te tanıdı, yani İsviçre sonradır.",
-    null,
-    "Sıra hatası: Almanya 1918'de tanıdı; Türkiye'den 16 yıl önce, sonra değil."
-  ],
-  aciklama: `Tablodan okuyup küçük yıl önce, büyük yıl sonra demektir.
-Adım 1: Türkiye 1934'tür. Fransa 1944 ve İtalya 1945 olduğundan ikisi de 1934'ten büyüktür, yani Türkiye'den sonra tanımıştır.
-Adım 2: Almanya (1918) Türkiye'den 16 yıl önce, İsviçre (1971) Türkiye'den sonra tanımıştır. A, B ve D bu yüzden hatalıdır.
-Sağlama: Türkiye bu hakkı Almanya'dan sonra ama Fransa, İtalya ve İsviçre'den önce tanımıştır.
-Cevap C.`
+  hatalar: ["Sıra hatası: muhtarlık hakkı (1933), belediye hakkından (1930) sonra gelmiştir; ilk hak belediye seçimlerindedir.","Sıra hatası: milletvekili hakkı (1934), muhtarlık hakkından (1933) sonra tanınmıştır.",null,"Hak ile uygulamayı karıştırma: kadın milletvekilleri Meclis'e ancak hak tanındıktan (1934) sonra, 1935 seçimleriyle girebilmiştir."],
+  aciklama: "Türk kadınının siyasi hakları yerel yönetimlerden başlayıp milletvekilliğine doğru genişlemiştir.\nAdım 1: Belediye seçimlerinde seçme ve seçilme hakkı 1930'da tanındı (III).\nAdım 2: Muhtarlık ve ihtiyar heyeti seçimlerindeki hak 1933'te geldi (I).\nAdım 3: Milletvekili seçme ve seçilme hakkı 5 Aralık 1934'te tanındı (II).\nAdım 4: Bu hakla yapılan 1935 seçimlerinde kadın milletvekilleri ilk kez Meclis'e girdi (IV).\nSağlama: Bir hak tanınmadan o hakla seçilmek mümkün olmadığından IV, II'den sonra gelmelidir.\nSık yapılan hata: Kadınların ilk siyasi hakkının milletvekilliği olduğunu sanmak.\nCevap C."
 },
 {
   id: "ink-u4-052",

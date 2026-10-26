@@ -273,7 +273,7 @@ ink-u4-047 | İTA.8.4.8 | z2 | k0 | Kurgusal bir müze sergi etiketi: "Mustafa K
 ink-u4-048 | İTA.8.4.9 | z3 | k0 | Bir okulun düzenlediği kompozisyon yarışmasında kurgusal bir öğrenci şunları yazmıştır: "Millî Mücadele sonunda sınırlarımızı ken… | ✓Ülke bütünlüğü
 ink-u4-049 | İTA.8.4.2 | z3 | k0 | Bir öğrenci, saltanatın kaldırılmasıyla ilgili defterine üç not yazmıştır. Bu notlardan hangileri doğrudur? I. Saltanatın kaldırı… | ✓II ve III
 ink-u4-050 | İTA.8.4.1 | z3 | k0 | Bir öğretmen, Atatürk ilkelerini tanıtmak için üç kart hazırlamıştır: Kart 1: "Köylü, kentli, zengin, yoksul… herkes aynı kanunla… | ✓Halkçılık – Cumhuriyetçilik – Laiklik
-ink-u4-051 | İTA.8.4.5 | z3 | k0 | Aşağıdaki tabloda bazı ülkelerde kadınlara milletvekili seçme ve seçilme hakkının tanındığı yıllar verilmiştir. Bu tabloya göre a… | ✓Fransa ile İtalya, bu hakkı Türkiye'den sonr…
+ink-u4-051 | İTA.8.4.5 | z3 | k0 | Aşağıda Türk kadınına siyasi hakların tanınmasıyla ilgili bazı gelişmeler karışık sırayla verilmiştir. I. Muhtarlık ve ihtiyar he… | ✓III – I – II – IV
 ink-u4-052 | İTA.8.4.4 | z3 | k0 | Kurgusal bir dergi röportajı (1934): Muhabir: "Yeni üniversitede neler değişti?" Profesör: "Avrupa'dan gelen meslektaşlarımızla b… | ✓Üniversite Reformu – Bilime önem verme
 ink-u4-053 | İTA.8.4.6 | z3 | k0 | Kurgusal bir diyalog (1931): Fındık üreticisi: "Giresun'daki bahçemizden bu yıl bol ürün aldık ama fındığın fiyatı yarıya düştü. … | ✓Dünya Ekonomik Bunalımı – Devletin sanayiye …
 ink-u4-054 | İTA.8.4.3 | z3 | k0 | Türk Medeni Kanunu ile ilgili aşağıdakilerden hangileri doğrudur? I. Çok eşlilik yasaklanmıştır. II. Kadınlara milletvekili seçme… | ✓I ve III
