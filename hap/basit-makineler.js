@@ -45,9 +45,10 @@ window.LGS_HAP["basit-makineler"] = {
         "**Kuvvet kolu yük kolundan uzunsa** az kuvvetle yük dengelenir, yani kuvvetten kazanç olur. Destek yüke **yaklaştıkça** ya da kuvvet desteğe **uzaklaştıkça** gereken kuvvet azalır.",
         "Karşılığında kuvvetin uygulandığı nokta, yükten **daha uzun yol** alır. Kuvvet kolu kısaysa kuvvet büyür, kazanç olmaz; bu kez kuvvetin uygulandığı nokta yükten **daha kısa yol** alır.",
         "İki kol eşitse kuvvet yüke, yol da yola eşittir; ne kuvvetten ne yoldan kazanç vardır.",
+        "**Denge:** Tahterevallide eşit ağırlıklar desteğe **eşit uzaklıkta** oturunca denge kurulur. Ağırlıklar farklıysa ağır olan desteğe **yaklaşır**, hafif olan uzaklaşır.",
         "Kaldıraçlar üç düzende olur; **hangisi olduğunu ortada kalan nokta belirler**. Yük ortadaysa kuvvet kolu hep uzundur, kuvvetten kazanç vardır. Kuvvet ortadaysa kuvvet kolu kısadır, kuvvet büyür; bu araçlar ince ve duyarlı iş için kullanılır. Destek ortadaysa kazanç, kolların uzunluğuna bağlıdır:"
       ],
-      tablo: "<table class=\"tablo\"><tr><th>Ortadaki nokta</th><th>Örnekler</th></tr><tr><td>Destek ortada</td><td>Makas, pense, tahterevalli, levye</td></tr><tr><td>Yük ortada</td><td>El arabası, fındık kıracağı, şişe açacağı</td></tr><tr><td>Kuvvet ortada</td><td>Cımbız, maşa, olta, kürek</td></tr></table>",
+      tablo: "<table class=\"tablo\"><tr><th>Ortadaki nokta</th><th>Örnekler</th></tr><tr><td>Destek ortada</td><td>Makas, pense, tahterevalli, levye, çekiçle çivi sökme (çekicin kafası destek; çivi bir yanda, sap öbür yanda)</td></tr><tr><td>Yük ortada</td><td>El arabası, fındık kıracağı, şişe açacağı</td></tr><tr><td>Kuvvet ortada</td><td>Cımbız, maşa, olta, kürek</td></tr></table>",
       ornekler: [
         "Kalın bir dalı budama makasının ağzının ucunda değil, menteşeye yakın yerinde kesersen yük kolu kısalır ve kesmek kolaylaşır. Saplar uzunsa kuvvet kolu da uzar; kesmek daha da kolaylaşır, ama elin daha çok yol alır."
       ],
@@ -65,6 +66,7 @@ window.LGS_HAP["basit-makineler"] = {
         "Aynı yüksekliğe çıkarken **eğim azaldıkça** gereken kuvvet **azalır**, ama alınan yol **uzar**. Eğim arttıkça kuvvet artar, yol kısalır.",
         "Aynı yüksekliğe çıkarken rampanın boyu uzunsa eğim küçüktür. Uzun rampayla çıkmak kolaydır ama daha çok yol alınır.",
         "Rampaların **boyu eşit, yükseklikleri farklıysa** yüksekliği fazla olan rampa daha diktir; orada gereken kuvvet daha çoktur. Cisim ise iki rampada da rampa boyu kadar yol alır.",
+        "Rampaların hem boyu hem yüksekliği farklıysa eğime yüksekliğin boya oranıyla bak: **boyuna göre yüksekliği az olan** rampa daha az eğimlidir. En uzun rampa her zaman en az kuvvet demek değildir; yüksekliğine de bak.",
         "Dik bir yamacı tırmanmak yerine uzun ve hafif eğimli bir patikayı izlemek bu yüzden daha rahattır: yol uzar, eğim azalır, kuvvet azalır.",
         "Eğik düzlemde iş değişmez; yalnızca kuvvet küçülür, yol büyür."
       ],
