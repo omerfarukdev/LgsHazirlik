@@ -27,7 +27,7 @@ window.LGS_HAP["yazim-kurallari"] = {
       maddeler: [
         "Özel adlara gelen ekler kesmeyle ayrılır: Mersin'e, Zeynep'in, Ağrı Dağı'nda, Mor Balon'u (kitap). Kişi adından sonraki saygı sözüne gelen ek de ayrılır: Nihat Bey'e, Zehra Hanım'dan.",
         "**Kurum ve kuruluş adlarına** gelen ekler kesmeyle **ayrılmaz**: Sağlık Bakanlığına, Akasya Ortaokulunun, Çocuk Esirgeme Kurumundan. Kurumun kısaltmasına gelen ek ise ayrılır: Türk Standardları Enstitüsüne → TSE'ye.",
-        "**Yapım ekleri** (-li, -ce, -lik gibi yeni sözcük türeten ekler) ve onlardan sonra gelen ekler kesme almaz: Mersinli, Avrupalılar, Türkçenin, Japoncada.",
+        "**Yapım ekleri** (-li, -ce, -lik gibi yeni sözcük türeten ekler) ve onlardan sonra gelen ekler kesme almaz: Mersinli, Avrupalılar, Türkçenin, Japoncada. Dil adına gelen ek de kesmesizdir: Fransızcayı, Almancadan.",
         "Özel addan sonra gelen ama adın parçası olmayan sözcüğe (il, ilçe, köy…) gelen ek kesme almaz: Bursa ilinde, Rize kıyılarında."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Doğru</th><th>Yanlış</th><th>Neden?</th></tr><tr><td>Sağlık Bakanlığına yazdık.</td><td>Sağlık Bakanlığı'na yazdık.</td><td>Kurum adı</td></tr><tr><td>Mersinli bir arkadaşım var.</td><td>Mersin'li bir arkadaşım var.</td><td>Yapım eki</td></tr><tr><td>İtalyancayı öğreniyor.</td><td>İtalyanca'yı öğreniyor.</td><td>“-ca” yapım eki</td></tr><tr><td>Burak da geldi.</td><td>Burak'da geldi.</td><td>“da” ek değil, bağlaç</td></tr></table>",
@@ -55,11 +55,11 @@ window.LGS_HAP["yazim-kurallari"] = {
     {
       baslik: "“de/da”, “ki”, “mi”: ek mi, ayrı sözcük mü?",
       maddeler: [
-        "**“de/da” bağlacı** ayrı yazılır, cümleye “dahi, ayrıca, bile” anlamı katar. Asla “te/ta” olmaz: kitap da, sepet de.",
+        "**“de/da” bağlacı** ayrı yazılır, cümleye “dahi, ayrıca, bile” anlamı katar. Asla “te/ta” olmaz: kitap da, sepet de. “Hem de, ne de, yine de” kalıplarında da bağlaç ayrı yazılır: “Hem gülüyor hem de ağlıyordu.”",
         "**“-de/-da” bulunma eki** bitişik yazılır, yer ya da zaman bildirir; sert ünsüzden sonra “-te/-ta” olur: bahçede, sokakta.",
         "Sınama: Sözcüğü çıkar; cümle bozulmuyorsa bağlaçtır: “Komşumuz da sevindi.” → “Komşumuz sevindi.” Bozuluyorsa ektir: “Komşumuz bahçede.” → “Komşumuz bahçe.” olmaz.",
         "**“ki” bağlacı** ayrı yazılır; iki yargıyı bağlar: “Öyle üşüdüm ki ellerim dondu.” · “Demek ki bilet kalmamış.”",
-        "**“-ki” eki** bitişik yazılır: “bulunan” anlamı verir (kutudaki, evdeki), zamana ait olmayı bildirir (sabahki, geceki, bugünkü) ya da zamir yapar (seninki, bizimkiler).",
+        "**“-ki” eki** bitişik yazılır: “bulunan” anlamı verir (kutudaki, evdeki), zamana ait olmayı bildirir (sabahki, geceki, bugünkü, dünkü) ya da zamir yapar (seninki, bizimkiler).",
         "TDK'ye göre kalıplaşıp bitişik yazılanlar: **belki, çünkü, hâlbuki, mademki, meğerki, oysaki, sanki**. “Demek ki, öyle ki” gibi kalıplar bu listede yoktur, ayrı yazılır.",
         "**“mi” soru eki** her zaman ayrı yazılır ve önündeki sözcüğün ünlüsüne uyar: geldin mi, okul mu, dün mü. Kendisinden sonra gelen ekler ona bitişir: gelecek misin, hazır mıydı. Soru anlamı taşımasa da ayrıdır: “Sıcak mı sıcak bir gün.”"
       ],
@@ -73,12 +73,12 @@ window.LGS_HAP["yazim-kurallari"] = {
       baslik: "Birleşik sözcükler: bitişik mi, ayrı mı?",
       maddeler: [
         "Genel ölçüt: İki sözcük de anlamını koruyorsa çoğunlukla ayrı yazılır (hafta sonu, doğum günü). Anlam kayması varsa bitişik yazılır (kuşburnu, keçiboynuzu, gökkuşağı).",
-        "Tür adıyla (balığı, kuşu, fıstığı…) kurulan hayvan ve bitki adlarında ikinci sözcük anlamını korur, ayrı yazılır: kılıç balığı, saka kuşu, çam fıstığı.",
+        "Tür adıyla (balığı, kuşu, fıstığı…) kurulan hayvan ve bitki adlarında ikinci sözcük anlamını korur, ayrı yazılır: kılıç balığı, saka kuşu, çam fıstığı. Anlam kayması olan bitki adları ise bitişiktir: ayçiçeği, karabiber, kuşkonmaz.",
         "“etmek, olmak” ile kurulan birleşik fiilde ses düşer ya da türerse bitişik yazılır: kayıp + etmek → kaybetmek, af + etmek → affetmek. Ses değişmezse ayrı: fark etmek, yardım etmek, kabul etmek.",
         "Yeterlik (-ebil), tezlik (-iver) ve donup kalma (-akal) bildiren fiiller bitişik yazılır: okuyabilir, yazıverdi, bakakaldı. “okuya bilir” yanlıştır.",
-        "“ev” ile kurulanlar bitişik: kitabevi, huzurevi. “üstü, altı” somut bir yer bildirmiyorsa bitişik: ayaküstü, öğleüstü, olağanüstü, bilinçaltı.",
+        "“ev” ile kurulanlar bitişik: kitabevi, huzurevi. “üstü, altı” somut bir yer bildirmiyorsa bitişik: ayaküstü, öğleüstü, olağanüstü, bilinçaltı. Aynı ilkeyle gökyüzü, akşamüstü bitişik; seyretmek de bitişik yazılan birleşik fiildir.",
         "Fiilden kalıplaşan birleşik sözcükler de bitişik yazılır: cankurtaran, okuryazar, gecekondu.",
-        "İkilemeler ayrı yazılır (yavaş yavaş, çoluk çocuk); pekiştirmeli sözcükler bitişik yazılır (bambaşka, masmavi, tertemiz)."
+        "İkilemeler ayrı yazılır (yavaş yavaş, çoluk çocuk); pekiştirmeli sözcükler bitişik yazılır (bambaşka, masmavi, tertemiz). Ayrı yazılan ikilemeler: tek tek, uzun uzun, sıra sıra."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Sözcük</th><th>Bitişik</th><th>Ayrı</th></tr><tr><td>bir</td><td>birçok, birkaç, birtakım, biraz, birbiri, birdenbire</td><td>bir an, bir gün, bir şey, bir süre, bir daha, bir türlü</td></tr><tr><td>her</td><td>herkes, herhangi</td><td>her gün, her şey, her biri, her zaman</td></tr><tr><td>hiç</td><td>hiçbir, hiçbiri</td><td>hiç kimse</td></tr><tr><td>pek</td><td>–</td><td>pek çok</td></tr></table>",
       dikkat: [
