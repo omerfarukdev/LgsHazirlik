@@ -88,3 +88,213 @@ ing-u9-012 | E8.9.R2 | z3 | k0 | Read the text. Scientists in many countries are
 ing-u9-013 | E8.9.R1 | z4 | k0 | Here is the morning schedule of Dr. Elif in her lab. It is 10:30 now. Which sentence is true? | ✓She explained the safety rules and is doing …
 ing-u9-014 | E8.9.R2 | z4 | k0 | Read the text. Edward Jenner was an English doctor. In 1796, he made the first vaccination, against a disease called smallpox. At… | ✓Vaccinations protect people from dangerous d…
 ing-u9-015 | E8.9.R2 | z4 | k0 | Read the paragraph. One sentence is missing. In 1903, Wilbur and Orville Wright flew their aeroplane for 12 seconds. - - - - Toda… | ✓It was a short flight, but it showed that pe…
+ing-u9-126 | E8.9.R1 | z1 | k1 | Scientists use careful tests and measurements in a scientific study. What does "scientific" mean? | ✓related to science
+ing-u9-127 | E8.9.R1 | z1 | k1 | A scientist from our city - - - - a machine that cleans sea water. It is a brand-new tool. Which word completes the sentence? | ✓invented
+ing-u9-128 | E8.9.R1 | z1 | k1 | Making paper from old boxes is a long - - - -. It has many steps and takes many days. Which word completes the sentence? | ✓process
+ing-u9-129 | E8.9.SP1 | z1 | k1 | At the moment, our class - - - - an experiment in the lab. Which completes the sentence? | ✓is doing
+ing-u9-130 | E8.9.R1 | z1 | k1 | Never put a closed can in the fire! It can - - - - and hurt you. Which word completes the sentence? | ✓explode
+ing-u9-131 | E8.9.SI1 | z1 | k1 | Nora: Are you doing your homework at the moment, Jack? Jack: - - - - Nora: OK, I will wait for you in the garden. Which completes… | ✓Yes, I am writing my science report.
+ing-u9-132 | E8.9.R1 | z1 | k1 | Yesterday, the students - - - - a small model of a cell. Now they are painting it. Which completes the sentence? | ✓made
+ing-u9-133 | E8.9.L1 | z1 | k1 | You hear this announcement at school. "Attention, students! The Science Club meeting is not on Monday. It is on Wednesday at 4.00… | ✓a change of the club day
+ing-u9-134 | E8.9.R1 | z1 | k1 | Hasan is reading books and visiting websites about the Moon. He wants to learn more about it. What is he doing? | ✓He is doing research.
+ing-u9-135 | E8.9.SP1 | z1 | k1 | Look! Ece - - - - a picture of a cell on the board. Which completes the sentence? | ✓is drawing
+ing-u9-136 | E8.9.R1 | z1 | k1 | In 1895, Wilhelm Röntgen - - - - X-rays in his lab in Germany. Which completes the sentence? | ✓discovered
+ing-u9-137 | E8.9.R1 | z1 | k1 | Our new classroom has smart boards, 3D printers and robots. It is a - - - - classroom. Which word completes the sentence? | ✓high-tech
+ing-u9-138 | E8.9.SI1 | z1 | k1 | Ravi: What are the scientists doing in the photo? Sofia: - - - - They are wearing white coats. Which completes the dialogue? | ✓They are looking at a cell.
+ing-u9-139 | E8.9.SI2 | z1 | k1 | Yusuf: I think science is important for our lives. Nazlı: - - - - It helps us to understand the world. Which completes the dialog… | ✓I agree with you.
+ing-u9-140 | E8.9.R1 | z1 | k1 | This table shows the lab timetable of four classes. Which class uses the lab on Wednesday? | ✓8C
+ing-u9-141 | E8.9.R1 | z1 | k1 | The woman is wearing a white coat, glasses and gloves. She is holding a test tube. Where is she probably? | ✓in a lab
+ing-u9-142 | E8.9.SI1 | z1 | k1 | Teacher: Are your friends doing an experiment now, Pınar? Pınar: - - - - They are making a volcano model. Which completes the dia… | ✓Yes, they are.
+ing-u9-143 | E8.9.SP1 | z1 | k1 | Eren - - - - in the lab at the moment. He is in the library. Which completes the sentence? | ✓isn't working
+ing-u9-144 | E8.9.R1 | z1 | k1 | The experiment - - - - at nine o'clock yesterday. Which completes the sentence? | ✓began
+ing-u9-145 | E8.9.W1 | z1 | k1 | Selim is writing a short paragraph about Alexander Fleming. Which sentence is correct? | ✓Fleming discovered penicillin in 1928.
+ing-u9-146 | E8.9.R1 | z1 | k1 | Last week, the students - - - - a small rocket from a plastic bottle. Now they are testing it. Which completes the sentence? | ✓built
+ing-u9-147 | E8.9.SP2 | z1 | k1 | In 1876, Alexander Graham Bell - - - - the telephone. Which completes the sentence? | ✓invented
+ing-u9-148 | E8.9.SI2 | z1 | k1 | Lucas: Do you think robots are important for hospitals? Emma: - - - - They help doctors a lot. Which completes the dialogue? | ✓Yes, I think so.
+ing-u9-149 | E8.9.SP2 | z1 | k1 | Today I want to talk about Johannes Gutenberg. He - - - - the printing press around 1450. Which completes the sentence? | ✓invented
+ing-u9-150 | E8.9.R1 | z2 | k1 | Workers found a huge fossil in a field near our town last month. Now scientists are carefully cleaning it in the museum workshop.… | ✓They are cleaning the fossil.
+ing-u9-151 | E8.9.SI1 | z2 | k1 | Hugo: Did you visit the science center on Sunday? Leyla: - - - - We watched a film about the Moon. Which completes the dialogue? | ✓Yes, I did.
+ing-u9-152 | E8.9.R1 | z2 | k1 | Read the rules on the wall of the school lab. What should a student do if a test tube breaks? | ✓Tell the teacher at once.
+ing-u9-153 | E8.9.R2 | z2 | k1 | In 1895, Wilhelm Röntgen worked in his lab in Germany. He noticed a strange light that could pass through paper. Soon he saw that… | ✓Röntgen's discovery helps doctors today.
+ing-u9-154 | E8.9.R1 | z2 | k1 | Two days ago, our class - - - - to the science museum. Today, we are writing a report about the visit. Which completes the senten… | ✓went
+ing-u9-155 | E8.9.R2 | z2 | k1 | Science Club Blog Our club is making a robot hand these days. At first, nothing worked. Yesterday we found a mistake in the progr… | ✓The robot's fingers are moving now.
+ing-u9-156 | E8.9.SI2 | z2 | k1 | Berk: Do you think scientists should work in teams? Ayşe: - - - - One person cannot know everything. Which completes the dialogue? | ✓Yes, I agree.
+ing-u9-157 | E8.9.R1 | z2 | k1 | Look at the timeline of inventions. Which sentence is true according to the timeline? | ✓The telephone is older than the first powere…
+ing-u9-158 | E8.9.R2 | z2 | k1 | Many students think science is only for geniuses. Last week, our club showed the opposite. Nobody in the club is a genius, but we… | ✓All students can do science with patience.
+ing-u9-159 | E8.9.SP1 | z2 | k1 | Nil and I - - - - research for our project these days. Which completes the sentence? | ✓are doing
+ing-u9-160 | E8.9.W1 | z2 | k1 | Tuna wants to write a short paragraph about Tim Berners-Lee. These are his sentences. 1. In 1989, he invented the World Wide Web.… | ✓3 - 1 - 2
+ing-u9-161 | E8.9.R1 | z2 | k1 | Read the e-mail. What are the club members doing today? | ✓changing the program
+ing-u9-162 | E8.9.L1 | z2 | k1 | You hear this at the beginning of a podcast. "Welcome to Science Today! In this episode, we talk about bees. We learn how they ma… | ✓bees and why they are important
+ing-u9-163 | E8.9.SI1 | z2 | k1 | Derya: What did your group find out about the plants? Murat: - - - - Derya: Interesting! So light is very important for them. Whi… | ✓All of them grew faster in the light.
+ing-u9-164 | E8.9.R2 | z2 | k1 | In 1928, Alexander Fleming came back to his lab after a holiday. He saw mould on one of his dishes, and the bacteria near the mou… | ✓Fleming saw dead bacteria near the mould.
+ing-u9-165 | E8.9.R1 | z2 | k1 | A leaf is made of millions of cells. Cells are so small that we need a microscope to see them. Why do we need a microscope to see… | ✓Cells are very small.
+ing-u9-166 | E8.9.R2 | z2 | k1 | Dr. Kemal's team started its study two years ago. At first, the new medicine failed in every test. Last month, they changed one s… | ✓The team changed a step last month.
+ing-u9-167 | E8.9.SI2 | z2 | k1 | Jack: Some people think space research costs too much money. What do you think, Sofia? Sofia: - - - - It gives us new technology … | ✓I think it is worth the money.
+ing-u9-168 | E8.9.R2 | z2 | k1 | Last summer, Deniz joined a fossil dig with his uncle. On the first day, he found only small stones and felt sad. On the third da… | ✓Good results can need patience.
+ing-u9-169 | E8.9.SP1 | z2 | k1 | Last Sunday, Tuğba and her father - - - - a small telescope. Now they - - - - the Moon through it. Which pair completes the sente… | ✓made / are watching
+ing-u9-170 | E8.9.R2 | z2 | k1 | Project diary, Friday This morning our straw bridge broke under a small book, and at first I felt sad. Then my partner and I chec… | ✓We can always learn from a failed test.
+ing-u9-171 | E8.9.SP2 | z2 | k1 | Hugo is giving a short talk about the achievements of Dr. Reyes's team. Which sentence is correct for his talk? | ✓In 2021, the team invented a water cleaner.
+ing-u9-172 | E8.9.R2 | z2 | k1 | Last month, engineers at a space agency built a small robot called Orbi. Yesterday, Orbi took pictures of rocks in a desert test … | ✓to learn if Orbi can work on another planet
+ing-u9-173 | E8.9.L1 | z2 | k1 | You hear a teacher in the lab. "First, wash your hands. Then put on your gloves and glasses. Do not touch any liquid before I say… | ✓how to work safely in the lab
+ing-u9-174 | E8.9.SI2 | z2 | k1 | Ece: In my opinion, scientists must find cures first. Can: - - - - Space research is also useful for us. Which completes the dial… | ✓I see your point, but I think both are impor…
+ing-u9-175 | E8.9.SP1 | z2 | k1 | These days, my aunt and her team - - - - for a cure for a dangerous illness. Which completes the sentence? | ✓are searching
+ing-u9-226 | E8.9.R1 | z2 | k2 | Making paper from old newspapers is a long process. First, workers cut the paper. Then they put it in water. Finally, they dry it… | ✓a series of steps to make something
+ing-u9-227 | E8.9.SI1 | z2 | k2 | Pınar: What is your brother doing these days, Kerem? Kerem: - - - - Pınar: Wow, that sounds exciting! Which completes the dialogu… | ✓He is helping scientists at an observatory.
+ing-u9-228 | E8.9.SP1 | z2 | k2 | Hurry up! Dr. Yılmaz - - - - the results at the moment. Which completes the sentence? | ✓is explaining
+ing-u9-229 | E8.9.R1 | z2 | k2 | Dr. Lena - - - - a new machine that cleans ocean water last year. Which completes the sentence? | ✓invented
+ing-u9-230 | E8.9.L1 | z2 | k2 | Voice message from Dr. Tuna: "Hi Mert, the experiment starts at 3.45 now, not at 3.15. We are using Lab 4 because Lab 2 is closed… | ✓In Lab 4 at 3.45
+ing-u9-231 | E8.9.R1 | z2 | k2 | Read the rules on the wall. Which sentence is true according to the rules? | ✓Everyone must wear goggles in the lab.
+ing-u9-232 | E8.9.SI2 | z2 | k2 | Reporter: Why are you studying cells these days, Dr. Kaya? Dr. Kaya: - - - - Reporter: Thank you for your time! Which completes t… | ✓Because cells help us understand illnesses.
+ing-u9-233 | E8.9.R1 | z2 | k2 | Before the rocket test, the engineers checked every part twice. They always put - - - - first. Which word completes the sentence? | ✓safety
+ing-u9-234 | E8.9.R2 | z2 | k2 | Alexander Graham Bell invented the telephone in 1876. With this machine, people talked to each other from different cities. Later… | ✓an invention that helped people talk
+ing-u9-235 | E8.9.SP1 | z2 | k2 | Last summer, Elif's team - - - - a robot. These days they - - - - it at school. Which pair completes the sentences? | ✓built / are testing
+ing-u9-236 | E8.9.R1 | z2 | k2 | This is the timetable of the Science Club. Which activity starts the earliest in the afternoon? | ✓Cell drawing
+ing-u9-237 | E8.9.SI1 | z2 | k2 | Mehmet: Is your sister working in the lab at the moment? Begüm: - - - - Mehmet: OK, I will look for her there. Which completes th… | ✓No, she isn't. She is in the library.
+ing-u9-238 | E8.9.R1 | z2 | k2 | Tim Berners-Lee - - - - the World Wide Web in 1989. Which completes the sentence? | ✓invented
+ing-u9-239 | E8.9.R1 | z2 | k2 | Read the note from a fossil site. Dear Ms. Aydın, our team is digging near the river this week. Yesterday we found a big bone. To… | ✓some soft brushes
+ing-u9-240 | E8.9.SI2 | z2 | k2 | Dilek: Why did you wear gloves in the lab yesterday? Selçuk: - - - - Dilek: I see. Safety is really important. Which completes th… | ✓Because the liquid was dangerous for skin.
+ing-u9-241 | E8.9.R2 | z2 | k2 | The Hope Observatory is on a hill near Izmir. On clear nights, visitors can look at the stars through a big telescope. The observ… | ✓People can see the stars when the sky is cle…
+ing-u9-242 | E8.9.R1 | z2 | k2 | Students measured the height of four plants on Day 1 and Day 7. Which plant grew the most in six days? | ✓Bean
+ing-u9-243 | E8.9.SP2 | z2 | k2 | Yesterday, Nuri - - - - a strange bird near the lab and took a photo of it. Which completes the sentence? | ✓saw
+ing-u9-244 | E8.9.SP2 | z2 | k2 | The space film - - - - at six o'clock yesterday, and the club members took their seats at once. Which completes the sentence? | ✓began
+ing-u9-245 | E8.9.R1 | z2 | k2 | Burak: Hi Ceren, are you in the lab? Ceren: Not now. I took the bus an hour ago, and now I'm at the museum. My class is watching … | ✓At the museum
+ing-u9-246 | E8.9.SI1 | z2 | k2 | Fatma: Did your team succeed in the experiment last Friday? Eren: - - - - Fatma: Oh, don't worry. Try again! Which completes the … | ✓No, we didn't. The liquid exploded.
+ing-u9-247 | E8.9.W1 | z2 | k2 | Ece is writing a report about her experiment. First, we put some ice in two cups. Second, we added salt to one cup. - - - - Final… | ✓Third, we waited for fifteen minutes.
+ing-u9-248 | E8.9.R1 | z2 | k2 | I do not know when people made the first telephone call. Let's - - - - the Internet to find out. Which word completes the sentenc… | ✓search
+ing-u9-249 | E8.9.R2 | z2 | k2 | The Robotics Club is organizing an Open Day on 14 May. Students can show their robots between 10 a.m. and 2 p.m. Visitors can wat… | ✓The name of the club teacher
+ing-u9-250 | E8.9.SP2 | z2 | k2 | Two days ago, the students - - - - their projects, and today they are presenting them to the class. Which completes the sentence? | ✓finished
+ing-u9-251 | E8.9.L1 | z2 | k2 | Teacher's announcement: Class, listen carefully. Tomorrow we are going to the Science Museum. The bus leaves from the school gate… | ✓their phones
+ing-u9-252 | E8.9.R2 | z3 | k2 | Dr. Seda Arıkan studies tiny sea animals at a research station on the Aegean coast. Ten years ago, she started to collect water s… | ✓She began collecting samples ten years ago.
+ing-u9-253 | E8.9.SI1 | z3 | k2 | Elif is talking to her uncle on the phone. Elif: Uncle Murat, what are you doing at the moment? Uncle: - - - - Elif: Good luck, U… | ✓I am searching for information about comets.
+ing-u9-254 | E8.9.R1 | z3 | k2 | Kerem: Is everyone ready for the test? Sevgi: Not yet. Defne is looking for her goggles. Kerem: Please wait. Nobody can start wit… | ✓put on goggles and gloves
+ing-u9-255 | E8.9.SP1 | z3 | k2 | Currently, our team - - - - new pictures from the satellite. Two weeks ago, it - - - - a storm over the ocean. Which pair complet… | ✓is studying / photographed
+ing-u9-256 | E8.9.R1 | z3 | k2 | Read the museum labels. Label 1: This tool is a new machine. A Turkish engineer made it from metal in 1980. Label 2: These bones … | ✓invented / discovered
+ing-u9-257 | E8.9.SI2 | z3 | k2 | Cenk: Some people say robots are dangerous for our jobs. What do you think, Ayşe? Ayşe: - - - - Cenk: Hmm, I see your point, but … | ✓I disagree, because robots help people do ha…
+ing-u9-258 | E8.9.R1 | z3 | k2 | This table is about a hospital research unit. Which sentence is true according to the table? | ✓Dr. Cem tested a medicine and is writing a r…
+ing-u9-259 | E8.9.R2 | z3 | k2 | In 1895, the German scientist Wilhelm Röntgen was working in his lab with a glass tube and electricity. One day, he saw a strange… | ✓X-rays help doctors see inside the body.
+ing-u9-260 | E8.9.SI1 | z3 | k2 | Tolga: Where did the scientists find these fossils? Sena: - - - - Tolga: Amazing! Are they working on them now? Sena: Yes, they a… | ✓They found them in a cave.
+ing-u9-261 | E8.9.R1 | z3 | k2 | Science Talk Podcast Listeners! Last week we talked about robots. This week our guest, Mr. Barış Ak, is explaining how vaccines w… | ✓The guest is talking about vaccines this wee…
+ing-u9-262 | E8.9.R2 | z3 | k2 | Karan wrote this blog post. Last Saturday, my robot did not work. The wheels turned, but the robot did not move. I was upset. The… | ✓Checking every part helps to find small prob…
+ing-u9-263 | E8.9.SP1 | z3 | k2 | A student is writing about a space agency. Which sentence is correct? | ✓Currently, scientists are searching for wate…
+ing-u9-264 | E8.9.R1 | z3 | k2 | Read the rules of a fossil dig. What must a student do right after taking a photo of a bone? | ✓write its place in the notebook
+ing-u9-265 | E8.9.SI2 | z3 | k2 | Teacher: Why do scientists do the same experiment many times? Baran: - - - - Teacher: Exactly. One result can be a mistake. Which… | ✓Because they want to check the results.
+ing-u9-266 | E8.9.R2 | z3 | k2 | Dr. Nergis Aral grew up in a small village near Konya. As a child, she watched the stars every night with an old telescope. At un… | ✓How many satellites she built
+ing-u9-267 | E8.9.R1 | z3 | k2 | Four ice cubes of the same size were put in four cups. The table shows what happened. Which is true according to the table? | ✓The ice next to the heater melted first.
+ing-u9-268 | E8.9.SP1 | z3 | k2 | Mum: Where is Ahmet? Dad: He - - - - in the garage at the moment. He - - - - a small rocket for the club these days. Which pair c… | ✓is working / is building
+ing-u9-269 | E8.9.R2 | z3 | k2 | Hi Mum, Day 3 at Space Camp! Yesterday we looked at Saturn through a big telescope. Today we are making small rockets. I'm in a t… | ✓Because the nights at the camp are cold.
+ing-u9-270 | E8.9.SI1 | z3 | k2 | Teacher: Why isn't Kaan in the lab today? He was here yesterday. Sude: - - - - Teacher: I see. I hope he gets better soon. Which … | ✓He is ill today, so he is at home.
+ing-u9-271 | E8.9.R1 | z3 | k2 | Notice: The Science Club is moving! Last year, the club met in Room 12. This year, it meets in the new high-tech lab on the secon… | ✓The club meets on the second floor now.
+ing-u9-272 | E8.9.R2 | z3 | k2 | Every morning, Mr. Aksoy opens his small museum in Ankara. The museum has only old scientific tools: a broken microscope, a heavy… | ✓Old Tools, New Questions
+ing-u9-273 | E8.9.SI2 | z3 | k2 | Defne: I think museums are boring. Science lessons are enough. What do you think, Emir? Emir: - - - - Defne: Maybe you are right.… | ✓I disagree. Museums let us see real inventio…
+ing-u9-274 | E8.9.W1 | z3 | k2 | Dear Hakan, This week I am staying at my uncle's house. He is a scientist. Two days ago, he showed me his lab. Yesterday, we plan… | ✓At the moment, we are measuring the plants t…
+ing-u9-275 | E8.9.L1 | z3 | k2 | Announcement at a science center: Good morning, visitors. Please listen carefully. Today the space show is moving from Hall A to … | ✓In Hall C at 11.30
+ing-u9-326 | E8.9.L1 | z3 | k3 | School speaker: Good morning, students. The Science Fair starts at ten o'clock in the main hall. Please bring your projects to th… | ✓bring their projects to the hall
+ing-u9-327 | E8.9.SI1 | z3 | k3 | Aslı: Is Kerem in the robotics lab now? Berk: Yes. - - - - Aslı: Then I will wait for him outside. Which completes the dialogue? | ✓He is testing his new robot.
+ing-u9-328 | E8.9.SI2 | z3 | k3 | Duru: Do you think the telephone changed people's lives? Emir: - - - - Duru: Me too. We call our families every day. Which comple… | ✓Yes, I do. People can talk to each other fro…
+ing-u9-329 | E8.9.R1 | z3 | k3 | Saturday, 8 March Dear diary, Today our science club went to the observatory. A guide showed us a huge telescope, and we looked a… | ✓looked at the Moon through a telescope
+ing-u9-330 | E8.9.SP1 | z3 | k3 | The table shows what some people are doing at the Space Agency at 11.00 a.m. Which sentence describes the table correctly? | ✓Jonas and Mei are repairing a robot arm in t…
+ing-u9-331 | E8.9.R1 | z3 | k3 | Last year, engineer Deniz Aras - - - - a small robot that cleans windows. Today, thousands of families - - - - it at home. Which … | ✓invented / are using
+ing-u9-332 | E8.9.R2 | z3 | k3 | At a children's hospital, scientists are testing a new game. Children wear small sensors and play for twenty minutes. The scienti… | ✓Scientists test a game to help children feel…
+ing-u9-333 | E8.9.SI1 | z3 | k3 | Teacher: Did you finish your report on the weather station, Ilgaz? Ilgaz: Not yet. - - - - Teacher: That's fine. Bring it on Mond… | ✓I wrote two pages last night, and now I am w…
+ing-u9-334 | E8.9.W1 | z3 | k3 | Karan is writing a short paragraph about a scientist. One sentence is missing. Wilhelm Röntgen was a German scientist. In 1895, h… | ✓This discovery helped doctors see inside the…
+ing-u9-335 | E8.9.R1 | z3 | k3 | Making paper from old newspapers is a long - - - -. First, we cut the paper into small pieces. Then we mix them with water. The f… | ✓process / result
+ing-u9-336 | E8.9.SP2 | z3 | k3 | Naz is presenting the history of Dr. Arda's research team to her class. Which sentence is correct according to the table? | ✓In 2024, they tested the device in a hospita…
+ing-u9-337 | E8.9.R1 | z3 | k3 | NEWS: A team of young engineers from Izmir built a solar-powered boat last spring. They tested it on a lake in May, but the boat … | ✓changing the boat's battery
+ing-u9-338 | E8.9.SI2 | z3 | k3 | Hande: Which is more useful for people, the telephone or the airplane? Murat: - - - - Hande: I see. But I think they are both use… | ✓I think the airplane, because it takes peopl…
+ing-u9-339 | E8.9.R2 | z3 | k3 | Defne wrote this blog post after her kitchen experiment. Last Saturday, I baked two cakes to find out what baking soda does. I us… | ✓The cake with baking soda was tall and soft.
+ing-u9-340 | E8.9.R1 | z3 | k3 | Mr. Aras is writing a sentence for each card at the school science museum. He wants to use invented or discovered correctly. Whic… | ✓Ravi invented a robot arm for hospitals.
+ing-u9-341 | E8.9.SI1 | z3 | k3 | Journalist: Elif, your team won a prize last year. What are you working on currently? Elif: - - - - Journalist: That sounds great… | ✓Currently, we are building a robot for old p…
+ing-u9-342 | E8.9.R1 | z3 | k3 | Selen is 11 years old. She is free on Tuesdays and Saturdays from 5.00 p.m. to 7.30 p.m. Which activity can Selen join? | ✓Moon watching on Tuesday
+ing-u9-343 | E8.9.SP1 | z3 | k3 | Mina is describing a photo to her friend. “Look at this photo! Two girls - - - - a model of the solar system at the moment, and a… | ✓are making / is taking
+ing-u9-344 | E8.9.R1 | z3 | k3 | A hospital poster says: “A cure helps people who are already ill. A vaccination protects people before they get ill.” Mr. Kılıç i… | ✓a vaccination against the flu
+ing-u9-345 | E8.9.L1 | z3 | k3 | Podcast: Hello, listeners! Welcome to Science in Ten Minutes. Today we are talking about a school in Bursa. The students there ar… | ✓Students at a school are building a weather …
+ing-u9-346 | E8.9.R1 | z3 | k3 | Last Saturday, 120 students joined the science fair at Güneş Middle School. Zeynep's group showed a water filter, and it cleaned … | ✓The names of the judges
+ing-u9-347 | E8.9.SP1 | z3 | k3 | At the space camp, each student writes a sentence under a photo of Hira. Which sentence is correct? | ✓At the moment, Hira is looking at the stars …
+ing-u9-348 | E8.9.W1 | z3 | k3 | Nil wrote four sentences about a doctor, but they are not in order. 1. Then she searched for the cause of the illness for many ye… | ✓2 - 4 - 1 - 3
+ing-u9-349 | E8.9.R2 | z3 | k3 | Many people think a genius works alone. Stories often show one person with one bright idea. Real science is different. Most scien… | ✓Scientific achievements usually come from te…
+ing-u9-350 | E8.9.R1 | z3 | k3 | Read the advertisement. Which sentence is true according to the advertisement? | ✓Delivery is free for all orders over 300 TL.
+ing-u9-351 | E8.9.SI2 | z3 | k3 | Cem: I don't think safety rules are important in our lab. We only mix water and salt. İpek: - - - - Cem: Oh, I didn't think about… | ✓I disagree, Cem. Even a simple experiment ca…
+ing-u9-352 | E8.9.R1 | z3 | k3 | In 1928, Alexander Fleming came back to his lab after a holiday. He looked at one of his dishes and saw a green mould. The bacter… | ✓All the bacteria around a green mould were d…
+ing-u9-353 | E8.9.SP2 | z3 | k3 | Burak is presenting the table in his science class. Which sentence presents the information correctly? | ✓Dr. Berg invented a drinking water machine i…
+ing-u9-354 | E8.9.R1 | z3 | k3 | Kaan wants to - - - - how a battery works. These days, he - - - - the Internet and the library for information. Which pair comple… | ✓find out / is searching
+ing-u9-355 | E8.9.R1 | z3 | k3 | Dear Mr. Soylu, Our class cannot come to the lab on Wednesday because we have an exam. Can we come on Thursday at the same time? … | ✓The class wants to continue its plant experi…
+ing-u9-356 | E8.9.R1 | z4 | k3 | Read the program of the Science Fair and Aras's message. Aras: Hi Tuna! I am at the fair now. The robot show started ten minutes … | ✓35 minutes
+ing-u9-357 | E8.9.R2 | z4 | k3 | Read the text and the table about Dr. Leyla Sönmez. Leyla grew up in Konya. As a child she loved taking radios apart. She studied… | ✓How much money the team spent on the device
+ing-u9-358 | E8.9.R2 | z4 | k3 | Read the diary page. Friday, 11 April Dear diary, Three days ago, we visited the science museum with our class. Last year, I only… | ✓The writer wrote a report with a friend.
+ing-u9-359 | E8.9.R2 | z4 | k3 | Why do scientists repeat their experiments? When a scientist does an experiment and gets an interesting result, she does not shou… | ✓Repeating experiments helps people trust the…
+ing-u9-360 | E8.9.SI1 | z4 | k3 | The sentences below are from a dialogue between Selin and Ozan, but they are not in order. 1. That's wonderful! What are you doin… | ✓2 - 3 - 1 - 4
+ing-u9-361 | E8.9.SP1 | z4 | k3 | Mrs. Aydın is showing the school lab to some guests. “Last year, we - - - - this lab. Now, my students - - - - on a robot, and th… | ✓opened / are working / are writing
+ing-u9-362 | E8.9.R1 | z4 | k3 | Last month, the Marine Science Centre shared two exciting news stories. First, engineer Pınar Ece - - - - a robot that collects p… | ✓invented / discovered
+ing-u9-363 | E8.9.R1 | z4 | k3 | NEWS: The Orbit Space Agency sent a small robot to an asteroid called Kora-7 last year. The robot landed last month. It moves slo… | ✓Scientists found water in all the rocks they…
+ing-u9-364 | E8.9.W1 | z4 | k3 | Kerem is writing a short paragraph about an invention. His sentences are not in order. 1. Today, people are using smartphones, an… | ✓2 - 4 - 3 - 1
+ing-u9-365 | E8.9.SI1 | z4 | k3 | Radio host: Welcome to our show, Dr. Karan! Is your team working on something new these days? Dr. Karan: - - - - Radio host: How … | ✓Yes, we are. We are building a second, small…
+ing-u9-366 | E8.9.SP2 | z4 | k3 | Ayşe is presenting the history of her school's robotics club. Which sentence is NOT correct according to the table? | ✓The students built their first robot after t…
+ing-u9-367 | E8.9.R2 | z4 | k3 | Mia: These days, robots are working in many hospitals. They carry medicine and clean the rooms, so nurses have more time for pati… | ✓Robots are useful for some jobs in hospitals.
+ing-u9-368 | E8.9.SI2 | z4 | k3 | Ayla: Some people say that every successful scientist is a born genius. Do you agree? Barış: - - - - Ayla: You are right. Many sc… | ✓No, I do not. I think hard work is more impo…
+ing-u9-369 | E8.9.R1 | z4 | k3 | The table compares last year's Science Fair with this year's fair. Which sentence is true according to the table? | ✓There are 15 more projects this year than la…
+ing-u9-370 | E8.9.R2 | z4 | k3 | Inventors and discoverers often work in different ways. An inventor makes something that did not exist before, such as a phone or… | ✓Inventing and discovering are different but …
+ing-u9-371 | E8.9.SP1 | z4 | k3 | Mr. Kuru is describing what three students did yesterday and what they are doing right now. Which sentence is correct? | ✓Cenk broke a test tube yesterday, and now he…
+ing-u9-372 | E8.9.R2 | z4 | k3 | Message from Pelin to the Science Club group Hi everyone! Last week, Mr. Tuna asked us to choose a project for the science fair. … | ✓to ask the members for ideas and invite them…
+ing-u9-373 | E8.9.L1 | z4 | k3 | Podcast: Welcome to Lab Talk. Today I am at a school in Eskişehir. The students here are exploring whether folded paper is strong… | ✓Students are still checking if folding makes…
+ing-u9-374 | E8.9.SI1 | z4 | k3 | Teacher: What did you do in the lab yesterday, Gül? Gül: - - - - Teacher: And what are you doing now? Gül: - - - - Which pair com… | ✓I made a water filter. / I am making a poste…
+ing-u9-375 | E8.9.R1 | z4 | k3 | Read the text and the table about Zeynep Aral. Zeynep loved machines as a child. Her teacher says, “She was a genius even at the … | ✓18 years old
+ing-u9-016 | E8.9.SP1 | z1 | k0 | Our robotics club members - - - - a small robot right now. Which completes the sentence? | ✓are building
+ing-u9-017 | E8.9.L1 | z1 | k0 | Come to the Space Museum! You can see real rocks from space and touch a piece of a meteorite. Students enter free. What is this t… | ✓an advertisement for a space exhibition
+ing-u9-018 | E8.9.SI1 | z1 | k0 | Host: What are you recording at the moment, Defne? Defne: - - - - Host: Wonderful! Our listeners love space stories. Which comple… | ✓I am recording a story about stars.
+ing-u9-019 | E8.9.SI1 | z1 | k0 | Nil: What did you do at the science camp last summer? Onur: - - - - Nil: That sounds exciting! Which completes the dialogue? | ✓I made a small rocket.
+ing-u9-020 | E8.9.SP1 | z1 | k0 | Our science teacher - - - - an interesting book about the human body these days. Which completes the sentence? | ✓is reading
+ing-u9-021 | E8.9.R1 | z1 | k0 | LAB RULES 1. Wear safety glasses. 2. Wash your hands after the experiment. 3. Do not run. Which one is NOT a rule on the sign? | ✓Students must eat their lunch in the lab.
+ing-u9-022 | E8.9.R1 | z1 | k0 | Isaac Newton - - - - gravity a long time ago. Which completes the sentence? | ✓discovered
+ing-u9-023 | E8.9.W1 | z1 | k0 | Marie Curie worked in her lab in Paris a long time ago. Which sentence about her achievement is written correctly? | ✓Marie Curie discovered radium and polonium.
+ing-u9-024 | E8.9.L1 | z1 | k0 | SCIENCE FAIR Friday, 10.00 a.m. School garden When does the science fair start? | ✓At 10.00 on Friday
+ing-u9-025 | E8.9.SI2 | z1 | k0 | Ela: I think vaccination is important. Can: - - - - Ela: Exactly! It protects people from many illnesses. Which completes the dia… | ✓I agree with you.
+ing-u9-026 | E8.9.R1 | z1 | k0 | Dr. Kara tested the new medicine on 20 patients. The result was not good: the medicine did not help them. What was the result? | ✓The medicine did not help them.
+ing-u9-027 | E8.9.SP1 | z1 | k0 | We - - - - research in the library now. Please be quiet. Which completes the sentence? | ✓are doing
+ing-u9-028 | E8.9.R1 | z2 | k0 | The Star Observatory is open every evening. Last month, visitors looked at the moon through the big telescope. This month, they a… | ✓They are watching Saturn.
+ing-u9-029 | E8.9.SI1 | z2 | k0 | Yağmur: Did you visit the science museum last Saturday? Berk: - - - - Yağmur: Great! What did you see there? Which completes the … | ✓Yes, I did. I went with my class.
+ing-u9-030 | E8.9.R2 | z2 | k0 | Welcome to Science Today! This week, we talk about three young inventors. A boy made a solar-powered lamp. A girl invented a chea… | ✓Young inventors can start useful projects at…
+ing-u9-031 | E8.9.SP1 | z2 | k0 | Two weeks ago, our class - - - - a paper bridge. Now we are testing it with small weights. Which completes the sentence? | ✓built
+ing-u9-032 | E8.9.W1 | z2 | k0 | Wilhelm Röntgen was a German scientist. In 1895, he discovered X-rays. - - - - Today, doctors use them to look inside the body. W… | ✓This discovery changed medicine.
+ing-u9-033 | E8.9.L1 | z2 | k0 | Hi class, tomorrow is our trip to the hospital research unit. Please bring a notebook and a pen. Do not bring your phones. We lea… | ✓Students need a notebook and a pen.
+ing-u9-034 | E8.9.SI2 | z2 | k0 | Aylin: Why do you think the Internet is important? Tarık: - - - - Aylin: Good point! Which completes the dialogue? | ✓Because people can find information quickly.
+ing-u9-035 | E8.9.SP2 | z2 | k0 | Look at the poster about scientific achievements. Which sentence about the poster is correct? | ✓Aziz Sancar won the Nobel Prize in Chemistry…
+ing-u9-036 | E8.9.R1 | z2 | k0 | Dear diary, Today is my first day at the space agency. Yesterday I only read about rockets, but today I am helping the engineers.… | ✓The writer is helping to test an engine.
+ing-u9-037 | E8.9.SI1 | z2 | k0 | Murat: What kind of podcasts are you listening to these days, Zeynep? Zeynep: - - - - Murat: Interesting! Please send me the name… | ✓These days, I am listening to space podcasts.
+ing-u9-038 | E8.9.SP1 | z2 | k0 | Currently, our class - - - - a model of a human cell. Which completes the sentence? | ✓is making
+ing-u9-039 | E8.9.R1 | z2 | k0 | Welcome to the Hall of Inventions. In this room, you can see machines that people made, like old telephones and a printing press … | ✓In the Hall of Discoveries
+ing-u9-040 | E8.9.SP2 | z2 | k0 | Ceren put ice cubes of the same size into two cups. One cup had warm water and the other had cold water. The ice melted in 4 minu… | ✓The ice melted faster in the warm water.
+ing-u9-041 | E8.9.SI2 | z2 | k0 | Emir: Do you think robots can help doctors? Lale: - - - - Emir: Really? Tell me more. Which completes the dialogue best? | ✓Yes, I think so, because they never get tire…
+ing-u9-042 | E8.9.R2 | z2 | k0 | Ms. Ece is a science teacher at a school in Bursa. Every day, her students check the water in the school pond. Last year, they fo… | ✓A new test gives results more quickly.
+ing-u9-043 | E8.9.L1 | z2 | k0 | Hi team! Last Friday, we built the robot's arms. Now we are programming its eyes. Please bring your laptops to room 12. Which inf… | ✓who won the robot competition
+ing-u9-044 | E8.9.SP1 | z2 | k0 | Look at the picture of the science camp. Which sentence describes the picture correctly? | ✓Mert is drawing a cell.
+ing-u9-045 | E8.9.W1 | z2 | k0 | Put the sentences in order to make a paragraph. I. He saw that the mould killed the bacteria around it. II. Alexander Fleming was… | ✓II – IV – III – I
+ing-u9-046 | E8.9.R1 | z2 | k0 | Making paper from old newspapers is a long - - - -. First, you cut the paper into small pieces. Then you put the pieces in water.… | ✓process
+ing-u9-047 | E8.9.SI1 | z2 | k0 | Ms. Arı: What are you doing in the lab, Mert? Mert: - - - - Ms. Arı: Great. Please show me the report when you finish. Which comp… | ✓We tested a model yesterday, and now we are …
+ing-u9-048 | E8.9.R1 | z3 | k0 | Last month, a team at the Kayra Mountain Observatory discovered a new comet. They saw it on a clear night with a large telescope.… | ✓The astronomers are measuring the comet's pa…
+ing-u9-049 | E8.9.SI2 | z3 | k0 | Hande: Some people say we should spend money on exploring space. Others say we should cure illnesses first. What is your opinion,… | ✓I think curing illnesses should come first, …
+ing-u9-050 | E8.9.R2 | z3 | k0 | Dr. Mira Soylu is a marine scientist. Last summer, her team explored a deep cave under the sea and collected many water samples. … | ✓They are studying the new creatures.
+ing-u9-051 | E8.9.R1 | z3 | k0 | Last Saturday, Defne and her friends tested four battery brands in a toy car. The table shows how long the car moved with each ba… | ✓The Blue battery lasted longer than the Yell…
+ing-u9-052 | E8.9.SP1 | z3 | k0 | Last month, our science club - - - - a small greenhouse. These days, we - - - - the plants in it every morning. Which pair comple… | ✓made / are watering
+ing-u9-053 | E8.9.SI1 | z3 | k0 | Reporter: What are you inventing these days, Deren? Deren: - - - - Reporter: Wow! And what did you invent last year? Deren: A tal… | ✓I am making a robot that waters plants.
+ing-u9-054 | E8.9.R1 | z3 | k0 | LAB REPORT Question: Does salt water freeze as quickly as pure water? Steps: Pelin put 200 ml of pure water in cup A and 200 ml o… | ✓Only cup A was ice at 5.00 p.m.
+ing-u9-055 | E8.9.SI2 | z3 | k0 | Volkan: I think high-tech devices make students lazy. Ayla: - - - - Volkan: That is a good reason. I did not think about it. Whic… | ✓I disagree, because they help us learn faste…
+ing-u9-056 | E8.9.R2 | z3 | k0 | Alexander Graham Bell was a scientist who taught deaf students. He was very interested in sound and wanted to send voices through… | ✓how Bell invented the telephone
+ing-u9-057 | E8.9.R1 | z3 | k0 | This is the weekly plan of the podcast Science Waves. Which sentence is correct? | ✓The space travel episode is the longest one,…
+ing-u9-058 | E8.9.W1 | z3 | k0 | Johannes Gutenberg lived in Germany. Around 1450, he invented the printing press. - - - - Before it, people copied books by hand.… | ✓With it, people made many books quickly.
+ing-u9-059 | E8.9.SP1 | z3 | k0 | Mr. Çetin is describing the picture of his lab to the class: "Right now, two students - - - - at the board, and one student - - -… | ✓are writing / is drawing
+ing-u9-060 | E8.9.SP2 | z3 | k0 | Selin is giving a talk about the poster below. Which sentence is NOT correct according to the poster? | ✓Jenner discovered X-rays.
+ing-u9-061 | E8.9.R1 | z3 | k0 | Yusuf: I was in the lab at 3 o'clock. Our experiment exploded! Naz: Oh no! Are you OK? Yusuf: Yes. The teacher says we mixed too … | ✓The group mixed too much in the experiment.
+ing-u9-062 | E8.9.R2 | z3 | k0 | The Aurora Space Agency has a new project. Last year, its engineers built a small satellite that takes pictures of forests. The s… | ✓to see where trees are disappearing
+ing-u9-063 | E8.9.SI1 | z3 | k0 | Cem: What kind of experiments did you do at the science camp? İpek: - - - - Cem: Cool! Are you doing any experiments these days? … | ✓We did experiments about water and electrici…
+ing-u9-064 | E8.9.R1 | z4 | k0 | Lale arrives at the observatory at 8.30 p.m. She must leave at 9.45 p.m. She wants to look through the telescope for at least 20 … | ✓She can use the telescope for 30 minutes and…
+ing-u9-065 | E8.9.R2 | z4 | k0 | Dr. Nalan Uçar works in a university lab. Ten years ago, nobody knew why some patients got sick again after treatment. Her team c… | ✓A team found a cell change and is now making…
+ing-u9-066 | E8.9.SI2 | z4 | k0 | Reporter: Some people say all scientific achievements help the world. Others say we must be careful. What do you think, Dr. Güneş… | ✓I think not all of them help, because some c…
+ing-u9-067 | E8.9.R1 | z4 | k0 | This is the project diary of Group 8-D. Which sentence is NOT true according to the diary? | ✓The group talked to a scientist three days b…
+ing-u9-068 | E8.9.SP2 | z4 | k0 | Selen is giving a presentation about the table. Which sentence is correct? | ✓Bell invented the telephone 27 years before …
+ing-u9-069 | E8.9.W1 | z4 | k0 | Okan is writing a short paragraph about a scientist. Which paragraph is written best? | ✓Tim Berners-Lee is a British scientist. In 1…
+ing-u9-070 | E8.9.R2 | z4 | k0 | Our school robotics club is not new, but its work is. Five years ago, the members only built toy cars. Two years ago, they starte… | ✓The club now asks about people's needs first.
+ing-u9-071 | E8.9.R1 | z4 | k0 | Read the sentences from a science magazine. I. Last week, a team of divers found a new kind of coral. II. Three years ago, the sa… | ✓II – I – IV – III
+ing-u9-072 | E8.9.SI1 | z4 | k0 | Presenter: Welcome to Science Hour! What are you working on at the moment, Dr. Aras? Dr. Aras: - - - - Presenter: And when did yo… | ✓I am working on a project about ocean plasti…
+ing-u9-073 | E8.9.SI2 | z4 | k0 | Nur: I think the most important invention is the telephone. Kerem: I disagree. I think vaccination is more important because it s… | ✓Tuna agrees with Kerem but also values the t…
+ing-u9-074 | E8.9.SP1 | z4 | k0 | Two years ago, my cousin Eren's team - - - - a machine that cleans dust from old bones. Last summer, they - - - - a new kind of b… | ✓invented / found / are studying
+ing-u9-075 | E8.9.R2 | z4 | k0 | In the lab of Güneş University, scientists are working on a simple filter that cleans river water for villages. Two years ago, th… | ✓All ten repeated experiments gave dirty wate…
