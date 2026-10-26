@@ -11,7 +11,7 @@ window.LGS_HAP["madde-donguleri"] = {
       "baslik": "Su döngüsü",
       "maddeler": [
         "Su, Dünya'da **yok olmaz**; sürekli hâl değiştirerek dolaşır. Bunun enerjisini Güneş sağlar.",
-        "**Buharlaşma:** deniz, göl, nehir ve toprak yüzeyindeki sıvı suyun gaza (su buharına) geçmesidir.",
+        "**Buharlaşma:** deniz, göl, nehir ve toprak yüzeyindeki sıvı suyun gaza (su buharına) geçmesidir. Deniz suyu buharlaşırken tuz geride kalır; bu yüzden buharlaşıp yoğunlaşan su tatlıdır, yağmur tuzsuzdur.",
         "**Terleme:** bitkilerin yapraklarındaki gözeneklerden su buharı vermesidir. Canlıdan kaynaklandığı için buharlaşmadan ayrı adlandırılır; ikisi de atmosfere su buharı katar.",
         "**Yoğunlaşma:** su buharının soğuyunca sıvı damlacıklara dönüşmesidir. Bulutlar, sis ve çiy bu şekilde oluşur. Sıcak duştan sonra banyo aynasında beliren buğu da aynı olaydır.",
         "**Yağış:** bulutlardaki suyun yağmur, kar ya da dolu olarak yeryüzüne düşmesidir. Yoğunlaşma bulutu **oluşturur**, yağış ise suyu **düşürür**; ikisi aynı şey değildir.",
