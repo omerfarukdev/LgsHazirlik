@@ -13,9 +13,11 @@ window.LGS_HAP["ucgenler"] = {
       "baslik": "Kenarortay, açıortay, yükseklik",
       "maddeler": [
         "**Kenarortay:** bir köşeyi karşı kenarın **orta noktasına** birleştirir; kenarı iki **eşit** parçaya böler. Parçalar eşitlenerek denklem kurulur.",
-        "**Açıortay:** köşedeki açıyı **iki eşit açıya** ayırır (80° → 40° + 40°). Açı toplamıyla birlikte kullanılır: B = 64°, C = 50° ise B'nin açıortayının [AC]'yi kestiği D için m(BDC) = 180° − 32° − 50° = 98°.",
+        "**Açıortay:** köşedeki açıyı **iki eşit açıya** ayırır (80° → 40° + 40°). Açı toplamıyla birlikte kullanılır: B = 64°, C = 50° ise B'nin açıortayının [AC]'yi kestiği D için m(BDC) = 180° − 32° − 50° = 98°. Açıortayın kenarı kestiği noktada oluşan iki açı doğrusal çifttir (toplamları 180°).",
         "**Yükseklik:** köşeden karşı kenara (gerekirse uzantısına) inen **dikme**dir, kenarla 90° yapar.",
-        "**İkizkenar üçgende** tepeden tabana inen doğru parçası aynı anda yükseklik, kenarortay ve açıortaydır: tabanı ve tepe açısını ikiye böler, tabanla 90° yapar. Taban açıları eşittir.",
+        "**Yüksekliğin yeri:** dar açılı üçgende üç yükseklik de içeridedir; dik üçgende dik kenarlar birbirinin yüksekliğidir. **Geniş açılı üçgende** yalnızca geniş açının köşesinden inen yükseklik içeride kalır; öbür iki köşeden inenler kenar uzantısına düşer, yani üçgenin dışındadır.",
+        "**Kenarortay alanı yarıya böler:** kenarortayla ayrılan iki üçgenin tabanları eşit, yükseklikleri ortaktır; alanları eşittir (alanı 40 olan üçgende her parça 20).",
+        "**İkizkenar üçgende** tepeden tabana inen doğru parçası aynı anda yükseklik, kenarortay ve açıortaydır: tabanı ve tepe açısını ikiye böler, tabanla 90° yapar. Taban açıları eşittir. Tepe açısı 60°'den küçükse taban, kollardan kısadır; 60°'den büyükse uzundur (büyük açının karşısında büyük kenar).",
         "**Eşkenar üçgende** bu özellik her köşe için geçerlidir; bütün açılar 60°'dir. Yükseklik tabanı a/2 + a/2 böler; Pisagorla bulunur (kenar 10 ise 5√{3}).",
         "**Alan** = taban × yükseklik ÷ 2. Alan iki yoldan yazılarak bilinmeyen yükseklik bulunur: dik kenarları 9, 12, hipotenüsü 15 ise 9 · 12 = 15 · h, h = 7,2. İkizkenarda önce yüksekliği Pisagorla bul."
       ],
