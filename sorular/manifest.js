@@ -467,5 +467,9 @@ window.LGS_MANIFEST = [
   "fen-elektrik-enerjisi-donusumu-1.js",
   "fen-elektrik-enerjisi-donusumu-2.js",
   "fen-surdurulebilir-kalkinma-1.js",
-  "fen-surdurulebilir-kalkinma-2.js"
+  "fen-surdurulebilir-kalkinma-2.js",
+  "fen-surdurulebilir-kalkinma-3.js",
+  "fen-surdurulebilir-kalkinma-4.js",
+  "fen-surdurulebilir-kalkinma-5.js",
+  "fen-surdurulebilir-kalkinma-6.js"
 ];

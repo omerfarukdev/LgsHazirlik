@@ -9,12 +9,13 @@ window.LGS_HAP["surdurulebilir-kalkinma"] = {
         "**Sürdürülebilir yaşam,** bugünkü ihtiyaçlarımızı karşılarken doğal kaynakları gelecek kuşakların da kullanabileceği şekilde korumaktır.",
         "Su, elektrik, kâğıt ve yiyecek **sınırlı kaynaklardan** elde edilir. Tasarruf, ihtiyacın altında yaşamak değil **gereksiz tüketimi** bırakmaktır; para kadar kaynağı ve doğayı da korur.",
         "Davranışları değerlendirirken şunu sor: **Bu davranış kaynağı boşa harcıyor mu, yoksa aynı işi daha az kaynakla mı yapıyor?**",
-        "Faturası yükselen bir evde ilk adım **gizli kaybı** aramaktır: damlatan musluk ve sızdıran tesisat fark edilmeden çok su kaybettirir. Lavabo ve duştan çıkan, ağır kirli olmayan **gri su** bahçe sulamada yeniden kullanılabilir."
+        "Faturası yükselen bir evde ilk adım **gizli kaybı** aramaktır: damlatan musluk ve sızdıran tesisat fark edilmeden çok su kaybettirir. Evde hiçbir musluk ve cihaz kullanılmıyorken **su sayacı** hâlâ ilerliyorsa gizli bir kaçak vardır. Lavabo ve duştan çıkan, ağır kirli olmayan **gri su** bahçe sulamada yeniden kullanılabilir."
       ],
-      tablo: "<table class=\"tablo\"><tr><th>Kaynak</th><th>Tasarruflu davranış</th><th>İsraf sayılan davranış</th></tr><tr><td>Su</td><td>Kovayla araba yıkamak; fırçalarken musluğu kapatmak; perlatör (suyu havayla karıştıran uç) takmak; bahçeyi sabah erken ya da akşam sulamak; yağmur suyunu biriktirmek; makineyi dolu çalıştırmak</td><td>Hortumu ve musluğu açık bırakmak; bahçeyi öğle sıcağında sulamak (su buharlaşır); yarım dolu makine</td></tr><tr><td>Elektrik ve ısıtma</td><td>LED ampul; kullanılmayan cihazı fişten çekmek; gün ışığından yararlanmak; hareket sensörlü lamba; ütüyü biriktirip tek seferde kullanmak</td><td>Boş odada ışık ve cihaz açık bırakmak; ısıtılan odada pencereyi saatlerce açık tutmak</td></tr><tr><td>Kâğıt</td><td>İki yüzü kullanmak; taslağın boş yüzünü kullanmak</td><td>Boş yaprağı kalan defteri atmak</td></tr><tr><td>Yiyecek</td><td>İhtiyaç listesiyle almak; artanı saklayıp tüketmek; eski tarihli ürünü öne koymak</td><td>Fazla alıp çöpe atmak; hafif ezik meyveyi atmak</td></tr></table>",
+      tablo: "<table class=\"tablo\"><tr><th>Kaynak</th><th>Tasarruflu davranış</th><th>İsraf sayılan davranış</th></tr><tr><td>Su</td><td>Kovayla araba yıkamak; fırçalarken musluğu kapatmak; perlatör (suyu havayla karıştıran uç) takmak; bahçeyi sabah erken ya da akşam sulamak; yağmur suyunu biriktirmek; makineyi dolu çalıştırmak; suyu bitki köküne damlatan **damla sulama** ve zamanı dolunca kapanan sulama zamanlayıcısı kullanmak; sensörlü musluk</td><td>Hortumu ve musluğu açık bırakmak; bahçeyi öğle sıcağında sulamak (su buharlaşır); yarım dolu makine</td></tr><tr><td>Elektrik ve ısıtma</td><td>LED ampul; kullanılmayan cihazı fişten çekmek; gün ışığından yararlanmak; hareket sensörlü lamba; **ısı yalıtımı** (pencere-kapı aralığını kapatmak, çatıyı yalıtmak) ile ısı kaçağını ve yakıtı azaltmak; ütüyü biriktirip tek seferde kullanmak</td><td>Boş odada ışık ve cihaz açık bırakmak; ısıtılan odada pencereyi saatlerce açık tutmak</td></tr><tr><td>Kâğıt</td><td>İki yüzü kullanmak; taslağın boş yüzünü kullanmak</td><td>Boş yaprağı kalan defteri atmak</td></tr><tr><td>Yiyecek</td><td>İhtiyaç listesiyle almak; artanı saklayıp tüketmek; eski tarihli ürünü öne koymak</td><td>Fazla alıp çöpe atmak; hafif ezik meyveyi atmak</td></tr></table>",
       dikkat: [
         "**Cihazı kapalı sanma.** Bekleme modundaki cihaz da elektrik çeker; tasarruf için fişten çekmek gerekir.",
-        "**Yeniden kullanımı ve azaltmayı geri dönüşümle karıştırma.** Aynı şişeyi tekrar doldurmak **yeniden kullanım**, daha az şişe almak **azaltma**dır. **Geri dönüşüm** ise atığın işlenip yeni ürünün hammaddesi olmasıdır. Önce azalt, sonra yeniden kullan, en sonda geri dönüştür."
+        "**Yeniden kullanımı ve azaltmayı geri dönüşümle karıştırma.** Aynı şişeyi tekrar doldurmak **yeniden kullanım**, daha az şişe almak **azaltma**dır. **Geri dönüşüm** ise atığın işlenip yeni ürünün hammaddesi olmasıdır. Önce azalt, sonra yeniden kullan, en sonda geri dönüştür. Takas pazarında eşya değiş tokuş etmek de yeniden kullanımdır.",
+        "**Verimli cihaz tasarruf sağlar, ama eskisini de çalıştırırsan toplam tüketim artar.** Yeni cihazı almak kadar eskisini bırakmak da gerekir."
       ]
     },
     {
@@ -70,7 +71,7 @@ window.LGS_HAP["surdurulebilir-kalkinma"] = {
       maddeler: [
         "Önce **başlığa, birime ve eksenlere** bak. Sonra her öncülü tek tek veriyle karşılaştır.",
         "**Yalnızca verinin desteklediği** sonucu çıkar. \"Geri dönüşüm arttıkça ithalat azaldı\" doğru olabilir; \"tek neden geri dönüşümdür\" ya da \"o olmasaydı ne olurdu\" için veri yetmez.",
-        "**Tasarruf = önceki kullanım − sonraki kullanım.** **Yüzde azalma = azalan miktar ÷ ilk miktar × 100.** Toplam kazanç için birim kazancı miktarla **çarp**.",
+        "**Tasarruf = önceki kullanım − sonraki kullanım.** **Yüzde azalma = azalan miktar ÷ ilk miktar × 100.** Toplam kazanç için birim kazancı miktarla **çarp**. **Yüzde artış** %100 ise miktar **iki katına** çıkmıştır; oran %20'den %40'a çıkarsa 20 **yüzde puan** artmış, oran iki katına çıkmıştır. Tüketim her yıl belli bir miktar artıyorsa yıllık toplam, yılları tek tek toplayarak bulunur. Bir yatırımın **geri ödeme süresi** = kurulum bedeli ÷ yıllık net kazançtır (net kazanç = gelir − işletme gideri).",
         "Gruplar eşit büyüklükte değilse toplamı değil **birim başına** değeri (kişi, hane, kutu başına) karşılaştır. Farklı oranlı iki grubun birleşik oranı basit ortalama değildir; her grubun payını ayrı hesaplayıp topla.",
         "İki yöntem **birlikte** uygulanmışsa her birinin tek başına etkisini ayıramazsın. Her yıl aynı miktar artıyorsa **eğilim** sürer; sonraki yılı bu farkla bulursun.",
         "**Çözüm önerisi** veriden çıkar: oranı en düşük tür için ayrı kutu artırılır, çöpe giden miktarı en büyük tür için yatırım yapılır.",
@@ -78,6 +79,7 @@ window.LGS_HAP["surdurulebilir-kalkinma"] = {
       ],
       ornekler: [
         "Bir mahallede pil toplama kutuları konduktan sonra çöpteki pil sayısı azalmışsa, bu değişim kutuların etkisini **destekler**; ama **tek neden** olduğunu **kanıtlamaz**.",
+        "Bir okul 840 TL'lik su kısıcı alıyor, yılda 280 TL net kazanıyor: geri ödeme 840 ÷ 280 = 3 yıl.",
         "Haftalık kâğıt kullanımı 300 yapraktan 225 yaprağa inmiş: azalma 75, 75 ÷ 300 = 0,25, yani **%25**."
       ],
       dikkat: [
