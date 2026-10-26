@@ -12,7 +12,7 @@ window.LGS_HAP["esitsizlikler"] = {
         "**-den az değildir, -den az olmamalı** demek “≥” demektir; **-den büyük değildir, -den fazla olmamalı** demek “≤” demektir. Olumsuzu çevirirken sembolün tersini al, ardından eşitliği ekle: “az” (<) → tersi > → eşitlikle birlikte ≥.",
         "**İki sınır birlikte** verilirse (“2 kg'dan az olmamalı ve 9 kg'ı aşmamalı”) her sınırı ayrı çevir, sonra küçükten büyüğe birleştir: 2 ≤ m ≤ 9.",
         "Cümleyi parçala: önce işlemi yaz (“bir sayının 3 katının 2 fazlası” → 3x + 2), sonra sınır sembolünü ekle. Sözcük sırasına dikkat et: “x'in 1 eksiğinin üçte biri” → [[x − 1|3]]; “x'in üçte birinin 1 eksiği” → [[x|3]] − 1. Sorudaki “toplam, kalan, ödenecek tutar” sözleri hangi niceliğin sınırlandığını gösterir.",
-        "Formüller de cümleye girer: çevre (kare için 4a), kâr = gelir − gider, yol = hız · süre, doğru-yanlış puanında yanlış sayısı = toplam soru − doğru sayısı."
+        "Formüller de cümleye girer: çevre (kare için 4a), kâr = gelir − gider, yol = hız · süre, doğru-yanlış puanında yanlış sayısı = toplam soru − doğru sayısı. Bir kenarı duvara yaslanan dikdörtgen alanda tel yalnızca diğer üç kenara gider: 2 kısa + 1 uzun kenar."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Cümlede</th><th>Sembol</th><th>Sınır dahil mi?</th></tr><tr><td>en az 8</td><td>x ≥ 8</td><td>evet</td></tr><tr><td>en fazla 8, 8'i aşmamalı</td><td>x ≤ 8</td><td>evet</td></tr><tr><td>8'den çok, 8'i geçen</td><td>x &gt; 8</td><td>hayır</td></tr><tr><td>8'den az</td><td>x &lt; 8</td><td>hayır</td></tr><tr><td>8'den az değil</td><td>x ≥ 8</td><td>evet</td></tr><tr><td>8'den büyük değil</td><td>x ≤ 8</td><td>evet</td></tr></table>",
       ornekler: [
@@ -32,6 +32,7 @@ window.LGS_HAP["esitsizlikler"] = {
         "**Ok sağa** gidiyorsa değerler sınırdan büyüktür; **ok sola** gidiyorsa küçüktür. Kalın çizgi çözüm kümesinin bulunduğu bölgeyi gösterir.",
         "**Çift taraflı** eşitsizlik, iki sınırı birden verir: −3 ≤ t < 7 demek t'nin −3 ile 7 arasında olduğunu, −3'ün dahil, 7'nin dahil olmadığını söyler. İki uç ayrı ayrı okunur: sol uçta dolu yuvarlak, sağ uçta boş yuvarlak.",
         "Eşitsizliği yazarken sayıları **küçükten büyüğe** sırala: a < x ≤ b. Soldaki sayı hep sağdakinden küçüktür.",
+        "**Sayı doğrusuyla ilgili sorularda** bölgenin dışında kalan sayılar, yalnızca bir gösterime uyan sayılar (iki sayı doğrusunu karşılaştırıp A'da olup B'de olmayanı ayır) ve ondalık sayılar (2,5 gibi) da sorulabilir. Hepsinde önce sınırların dolu mu boş mu olduğuna bak.",
         "**İki gösterimin ortak kısmı** (kesişim), iki koşulu birden sağlayan değerlerdir. İki sayı doğrusunu üst üste düşün; ikisinin de boyalı olduğu bölge ortak çözümdür."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Eşitsizlik</th><th>Sayı doğrusu</th></tr><tr><td>x ≥ −1</td><td>−1'de dolu yuvarlak, ok sağa</td></tr><tr><td>a < 1</td><td>1'de boş yuvarlak, ok sola</td></tr><tr><td>−3 ≤ t < 7</td><td>−3'te dolu, 7'de boş; arası kalın</td></tr></table>",
@@ -49,6 +50,7 @@ window.LGS_HAP["esitsizlikler"] = {
         "**Negatif sayıyla** çarpmak ya da bölmek **yönü ters çevirir**: < olan > olur, ≤ olan ≥ olur. Nedeni: 2 < 5 iken her ikisini −1 ile çarpınca −2 > −5 olur.",
         "Çözümün sonucu bir **aralık** olur. “x > 3” demek 3'ten büyük sonsuz sayıda değer demektir. Soru “en küçük tam sayı” ya da “kaç tam sayı” diyorsa sınır dahil mi diye bakıp tam sayıları tek tek yaz.",
         "**Çift taraflı** eşitsizlikte üç parçanın hepsine aynı işlemi uygula. Negatife bölersen üç parçayı çevir ve sırayı düzelt: −6 < −2x ≤ 4 → böl (−2): 3 > x ≥ −2 → −2 ≤ x < 3.",
+        "**Denk eşitsizlikler** aynı çözüm kümesine sahip olanlardır. Karşılaştırırken her birini ayrı çöz. Genel kural: p < q iken her iki yana aynı sayıyı eklersen (p + 6 < q + 6) yön korunur; negatif sayıyla çarparsan (−4p > −4q) yön döner.",
         "**Sağlama** yap: bulduğun aralıktan bir sayıyı ve sınırı eşitsizlikte yerine koy. Sınır sayı ≤ ya da ≥ ise eşitsizlik sağlanır (eşitlik olur); < ya da > ise sağlanmaz."
       ],
       ornekler: [
@@ -72,6 +74,7 @@ window.LGS_HAP["esitsizlikler"] = {
         "**Ortalama sorusu:** ortalama toplamın sayıya bölümüdür. İlk iki sınav notu 66 ve 78 olan öğrencinin üçüncü sınav notu x olsun; üç sınav ortalamasının en az 75 olması için [[66 + 78 + x|3]] ≥ 75 → 144 + x ≥ 225 → x ≥ 81.",
         "**Sabit ücret + birim ücret** (abonelik, tarife) toplam = sabit + birim · adet olarak kurulur. Kalan paranın sınırı varsa başlangıç tutarından harcama çıkarılır.",
         "**Kesişim:** iki koşul birlikte aranıyorsa her birini ayrı çöz, sayı doğrularını üst üste koy, ortak bölgeyi al.",
+        "**Sayı doğrusunda x aralığı verilmiş, x'li bir ifadenin değeri soruluyorsa** (ör. −2 ≤ x ≤ 3 iken 10 − 3x): önce x'in tam sayı değerlerini yaz, ifadeyi her birinde hesapla; negatif katsayıda en büyük x en küçük değeri verir (x = 3 için 1, x = −2 için 16).",
         "**Çözüm kümesi verilmiş, katsayı aranıyorsa** (a − 3x ≤ 6 ve çözüm x ≥ 1 gibi; sonuç a = 9): eşitsizliği önce x için a cinsinden çöz, bulduğun sınırı sayı doğrusundaki sınıra eşitle ve a'yı bul."
       ],
       ornekler: [
@@ -81,6 +84,7 @@ window.LGS_HAP["esitsizlikler"] = {
       dikkat: [
         "**Boş ucu saymak.** −3 < x ≤ 2 için −3 sayılmaz; tam sayılar −2, −1, 0, 1, 2 olur (5 tane).",
         "**Yuvarlama yönünü karıştırmak.** “En fazla kaç adet?” sorusunda 7,14 değerini 8 yapma; 8 adet sınırı aşar.",
+        "**Hatalı çözümde ilk hatayı aramak.** Çözüm adımları verilip hata sorulursa adımları sırayla kendin çöz: genellikle sabiti karşı tarafa geçirirken işaret değişmemiştir ya da negatife bölünce yön çevrilmemiştir.",
         "**Soruyu bitirmeden durmak.** Çözümü x ≤ 9 bulmak “kaç tam sayı” sorusunun cevabı değildir; sayılar sayılmalı."
       ]
     }

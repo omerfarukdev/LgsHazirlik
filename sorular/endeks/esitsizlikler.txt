@@ -88,3 +88,213 @@ mat-es-322 | M.8.2.3.3 | z4 | k3 | Bir alışveriş merkezinin katları −4'ten
 mat-es-323 | M.8.2.3.1 | z4 | k3 | Bir pastane, tanesini 18 TL'ye sattığı pastadan günde x adet satıyor. Günlük sabit gideri 540 TL'dir. Pastane sahibi, günlük kârı… | ✓80
 mat-es-324 | M.8.2.3.2 | z4 | k3 | Öğretmen tahtaya −4 < 2x + a ≤ 10 çift taraflı eşitsizliğini yazıyor (a bir tam sayı) ve bu eşitsizliğin çözüm kümesini aşağıdaki… | ✓2
 mat-es-325 | M.8.2.3.3 | z4 | k3 | Eda 150 sayfalık bir kitabı her gün 12 sayfa okuyarak bitirmeyi planlıyor; t gün sonra kalan sayfa sayısı 150 − 12t olur (t tam s… | ✓9
+mat-es-126 | M.8.2.3.1 | z1 | k1 | Bir sinema salonunda yaşı 13'ten küçük olanlar çocuk bileti alıyor. Yaşı y olan bir kişinin çocuk bileti alabilmesi aşağıdaki eşi… | ✓y < 13
+mat-es-127 | M.8.2.3.1 | z1 | k1 | Bir otoparkın girişindeki levhada 'Araç yüksekliği 2 metreden fazla olmamalıdır.' yazıyor. Bir aracın yüksekliği h metre ise otop… | ✓h ≤ 2
+mat-es-128 | M.8.2.3.1 | z1 | k1 | Bir burs sınavında bursu kazanmak için en az 70 puan almak gerekir. Bir adayın puanı p ise bursu kazanması aşağıdaki eşitsizlikle… | ✓p ≥ 70
+mat-es-129 | M.8.2.3.1 | z1 | k1 | Bir telefon tarifesinde aylık konuşma süresi 500 dakikayı aşarsa ek ücret alınıyor. Bir abonenin bir ayda konuştuğu süre s dakika… | ✓s > 500
+mat-es-130 | M.8.2.3.1 | z1 | k1 | Bir müzeye 7 yaş ve altındaki çocuklar ücretsiz giriyor. Yaşı y olan bir çocuğun müzeye ücretsiz girmesi aşağıdaki eşitsizliklerd… | ✓y ≤ 7
+mat-es-131 | M.8.2.3.1 | z1 | k1 | Bir kütüphanede üyeler aynı anda 5'ten fazla kitap ödünç alamaz. Bir üyenin aynı anda aldığı kitap sayısı k ise kurala uygun duru… | ✓k ≤ 5
+mat-es-132 | M.8.2.3.1 | z1 | k1 | Bir sağlık merkezinde aşı dolabının sıcaklığı 8 °C'nin altında tutulmalıdır. Dolabın sıcaklığı s °C ise bu kural hangi eşitsizlik… | ✓s < 8
+mat-es-133 | M.8.2.3.1 | z1 | k1 | Bir kentteki yarı maratona katılmak için yaşın 18'den küçük olmaması gerekir. Katılımcının yaşı y ise bu koşul hangi eşitsizlikle… | ✓y ≥ 18
+mat-es-134 | M.8.2.3.2 | z1 | k1 | x ≥ −2 eşitsizliği sayı doğrusunda gösterilirken −2'deki yuvarlak ve okun yönü için aşağıdakilerden hangisi doğrudur? | ✓Yuvarlak dolu, ok sağa doğru
+mat-es-135 | M.8.2.3.2 | z1 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Aşağıdakilerden hangisi gösterilen bölgede yer alır? | ✓1
+mat-es-136 | M.8.2.3.2 | z1 | k1 | Aşağıdaki eşitsizliklerden hangisi sayı doğrusunda gösterilirken sınırdaki sayının üzerine boş yuvarlak çizilir? | ✓x > 1
+mat-es-137 | M.8.2.3.2 | z1 | k1 | x < −2 eşitsizliği sayı doğrusunda gösterilirken aşağıdakilerden hangisi doğrudur? | ✓−2'de boş yuvarlak çizilir, ok sola gider.
+mat-es-138 | M.8.2.3.2 | z1 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Aşağıdaki sayılardan hangisi x'in değeri olamaz? | ✓5
+mat-es-139 | M.8.2.3.2 | z1 | k1 | Aşağıdaki sayı doğrusunda bir kentteki sabah sıcaklığının (t °C) alabileceği değerler gösterilmiştir. Bu gösterim hangi eşitsizli… | ✓t ≥ −1
+mat-es-140 | M.8.2.3.2 | z1 | k1 | Sayı doğrusunda 5'te dolu yuvarlak çizilmiş ve ok sola doğru gitmiştir. Bu gösterim aşağıdaki cümlelerden hangisini anlatır? | ✓x, 5'e eşit ya da 5'ten küçüktür.
+mat-es-141 | M.8.2.3.3 | z1 | k1 | x − 7 ≥ 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ 9
+mat-es-142 | M.8.2.3.3 | z1 | k1 | [[x|3]] > 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > 6
+mat-es-143 | M.8.2.3.3 | z1 | k1 | 6 + x ≥ 10 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ 4
+mat-es-144 | M.8.2.3.3 | z1 | k1 | 2x ≥ −10 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ −5
+mat-es-145 | M.8.2.3.3 | z1 | k1 | x + 3 ≤ 10 eşitsizliğini sağlayan en büyük tam sayı kaçtır? | ✓7
+mat-es-146 | M.8.2.3.3 | z1 | k1 | Aşağıdaki sayılardan hangisi x − 4 > 1 eşitsizliğini sağlar? | ✓6
+mat-es-147 | M.8.2.3.3 | z1 | k1 | Aşağıdaki eşitsizliklerden hangisi x > 4 ile aynı çözüm kümesine sahiptir? | ✓x + 2 > 6
+mat-es-148 | M.8.2.3.3 | z1 | k1 | −8 + x < −3 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < 5
+mat-es-149 | M.8.2.3.3 | z1 | k1 | Aşağıdakilerden hangisi 2x < 10 eşitsizliğinin çözüm kümesinde bulunmaz? | ✓5
+mat-es-150 | M.8.2.3.1 | z2 | k1 | Kenarları 6 m ve x m olan dikdörtgen biçimindeki bir bostanın çevresine en fazla 40 m çit çekilecektir. Bu durum aşağıdaki eşitsi… | ✓2(6 + x) ≤ 40
+mat-es-151 | M.8.2.3.1 | z2 | k1 | Bir telefonun belleğinde 22 GB boş yer vardır. Telefona her biri 4 GB olan videolardan v tane indirilecek ve bellekte en az 10 GB… | ✓22 − 4v ≥ 10
+mat-es-152 | M.8.2.3.1 | z2 | k1 | Bir belediye, parktaki 15 fidana ek olarak her sırasında 8 fidan bulunan s sıra fidan daha dikecektir. Parktaki toplam fidan sayı… | ✓15 + 8s ≤ 100
+mat-es-153 | M.8.2.3.1 | z2 | k1 | Bir x sayısının 5 fazlasının 3 katının 24'ten küçük olması aşağıdaki eşitsizliklerden hangisiyle gösterilir? | ✓3(x + 5) < 24
+mat-es-154 | M.8.2.3.1 | z2 | k1 | Kantinde simit 6 TL, ayran 4 TL'dir. Arda 2 simit ve a tane ayran alacaktır. Arda'nın 30 TL'si vardır ve alışveriş sonunda en az … | ✓30 − (12 + 4a) ≥ 5
+mat-es-155 | M.8.2.3.1 | z2 | k1 | Bir oyunda tamamlanan her bölüm 40 puan getiriyor, yapılan her yanlış hareket ise 3 puan götürüyor. Selim 3 bölümü tamamladı ve h… | ✓120 − 3h ≥ 100
+mat-es-156 | M.8.2.3.1 | z2 | k1 | Bir seranın sıcaklığı sabah 14 °C'dir ve her saat 3 °C artmaktadır. Sıcaklığın t saat sonra 35 °C'yi geçmemesi isteniyor. Bu duru… | ✓14 + 3t ≤ 35
+mat-es-157 | M.8.2.3.1 | z2 | k1 | Bir sayının 3 eksiğinin 4 katı, bu sayının 2 katından fazla değildir. Bu sayıya x dersek bu durum aşağıdaki eşitsizliklerden hang… | ✓4(x − 3) ≤ 2x
+mat-es-158 | M.8.2.3.2 | z2 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen aralıktaki tam sayıların toplamı kaçtır? | ✓35
+mat-es-159 | M.8.2.3.2 | z2 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Bu aralıktaki tam sayıların toplamı kaçtır? | ✓5
+mat-es-160 | M.8.2.3.2 | z2 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. x bir asal sayı olduğuna göre x kaç farklı değer alabilir? | ✓4
+mat-es-161 | M.8.2.3.2 | z2 | k1 | Bir mağazada yapılan alışveriş tutarı t TL olmak üzere, hediye çekilişine katılabilen müşterilerin tutarları aşağıdaki sayı doğru… | ✓Çekilişe yalnızca tutarı 150 TL'den fazla ol…
+mat-es-162 | M.8.2.3.2 | z2 | k1 | Aşağıdaki sayı doğrusunda A ve B gösterimleri verilmiştir. x, hem A'yı hem B'yi sağlayan bir tam sayıdır. Buna göre x kaç farklı … | ✓6
+mat-es-163 | M.8.2.3.2 | z2 | k1 | Aşağıdaki çift taraflı eşitsizliklerden hangisinde 0 sayısı çözüm kümesinde yer alır? | ✓−3 < x ≤ 0
+mat-es-164 | M.8.2.3.2 | z2 | k1 | −4 < x ≤ 1 eşitsizliği sayı doğrusunda gösterilirken aşağıdakilerden hangisi doğrudur? | ✓−4'te boş yuvarlak, 1'de dolu yuvarlak çizil…
+mat-es-165 | M.8.2.3.2 | z2 | k1 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Aşağıdakilerden hangisi gösterilen bölgede bulunmaz? | ✓2,1
+mat-es-166 | M.8.2.3.3 | z2 | k1 | 4x − 3 ≥ 13 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ 4
+mat-es-167 | M.8.2.3.3 | z2 | k1 | 2x + 7 < 1 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < −3
+mat-es-168 | M.8.2.3.3 | z2 | k1 | −3x − 4 < 5 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > −3
+mat-es-169 | M.8.2.3.3 | z2 | k1 | [[x|5]] + 3 > 1 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > −10
+mat-es-170 | M.8.2.3.3 | z2 | k1 | x tam sayı olmak üzere 5 − 2x ≥ 1 eşitsizliğini sağlayan en büyük x değeri kaçtır? | ✓2
+mat-es-171 | M.8.2.3.3 | z2 | k1 | 2x − 3 < 9 eşitsizliğini sağlayan kaç doğal sayı vardır? | ✓6
+mat-es-172 | M.8.2.3.3 | z2 | k1 | Bir okuldan 110 öğrenci gezi için 12 kişilik minibüslerle gidecektir. Bu öğrencilerden 8'i geziye kendi imkânıyla ulaşacaktır. Mi… | ✓9
+mat-es-173 | M.8.2.3.3 | z2 | k1 | −[[x|2]] > 3 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < −6
+mat-es-174 | M.8.2.3.3 | z2 | k1 | x tam sayı olmak üzere −3x + 1 > −8 eşitsizliğini sağlayan en büyük x değeri kaçtır? | ✓2
+mat-es-175 | M.8.2.3.3 | z2 | k1 | Bir x tam sayısının 5 katının 4 fazlası 19'dan büyük değildir. Buna göre x en çok kaçtır? | ✓3
+mat-es-226 | M.8.2.3.1 | z2 | k2 | Bir derin dondurucunun kullanım kılavuzunda şu uyarı yazılıdır: 'İç sıcaklık −18 °C'den yüksek olmamalıdır.' İç sıcaklığı s °C ol… | ✓s ≤ −18
+mat-es-227 | M.8.2.3.2 | z2 | k2 | Bir kütüphane, bir üyenin aynı anda en fazla 5 kitap ödünç almasına izin veriyor. Ödünç alınan kitap sayısı k ile gösterildiğinde… | ✓5'te dolu yuvarlak, ok sola
+mat-es-228 | M.8.2.3.3 | z2 | k2 | 7 − 2x ≥ 1 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≤ 3
+mat-es-229 | M.8.2.3.1 | z2 | k2 | Naz'ın 500 TL'si var. Tanesi 90 TL olan tiyatro biletlerinden x tane alacak ve ayrıca 35 TL'lik bir program kitapçığı satın alaca… | ✓90x + 35 ≤ 500
+mat-es-230 | M.8.2.3.2 | z2 | k2 | Bir banka, hesap bakiyesi (bin TL cinsinden) b olan müşterilere, aşağıdaki sayı doğrusunda boyalı bölgede kalan değerler için kam… | ✓4
+mat-es-231 | M.8.2.3.3 | z2 | k2 | −3x − 4 < 11 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > −5
+mat-es-232 | M.8.2.3.1 | z2 | k2 | Bir dikdörtgen biçimindeki panonun kısa kenarı x cm, uzun kenarı ise kısa kenardan 3 cm fazladır. Panonun çevresinin en az 40 cm … | ✓4x + 6 ≥ 40
+mat-es-233 | M.8.2.3.2 | z2 | k2 | Bir basketbol maçında A takımının skor farkı (A'nın sayısı − rakibin sayısı), maç boyunca aşağıdaki sayı doğrusunda boyalı aralık… | ✓6
+mat-es-234 | M.8.2.3.3 | z2 | k2 | Kerem, −5x < 20 eşitsizliğini çözerken şu adımları yazmıştır: Adım 1: İki tarafı −5'e böldü. Adım 2: x < −4 buldu. Kerem'in çözüm… | ✓Negatif sayıya böldüğü hâlde yönü çevirmemiş…
+mat-es-235 | M.8.2.3.1 | z2 | k2 | Bir telefon operatörü iki internet tarifesi sunuyor. A tarifesinde aylık 20 TL sabit ücret ve her GB için 3 TL ödenir. B tarifesi… | ✓20 + 3x < 5x
+mat-es-236 | M.8.2.3.2 | z2 | k2 | Bir akvaryumdaki su sıcaklığı t °C için 2 < t ≤ 9 koşulu belirlenmiş ve bu koşul sayı doğrusunda gösterilecektir. 2 < t ≤ 9 eşits… | ✓2'de boş, 9'da dolu yuvarlak; arası boyalı
+mat-es-237 | M.8.2.3.3 | z2 | k2 | [[−x|3]] + 1 > 3 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < −6
+mat-es-238 | M.8.2.3.1 | z2 | k2 | Berk'in b tane defteri vardır. Tuna'nın defter sayısı, Berk'in defter sayısının 2 katından 5 eksiktir. Tuna'nın en az 20 defteri … | ✓2b − 5 ≥ 20
+mat-es-239 | M.8.2.3.2 | z2 | k2 | Bir jeoloji öğrencisi, deniz seviyesine göre yüksekliği h metre olan (h tam sayı) ölçüm noktalarını aşağıdaki sayı doğrusunda boy… | ✓−2
+mat-es-240 | M.8.2.3.3 | z2 | k2 | −2x + 1 > −5 eşitsizliğini sağlamayan sayı aşağıdakilerden hangisidir? | ✓3
+mat-es-241 | M.8.2.3.1 | z2 | k2 | Defne'nin kumbarasında x TL vardır. Defne bu paranın yarısını harcıyor, sonra kumbaraya 3 TL ekliyor. Bu işlemlerin sonunda kumba… | ✓[[x|2]] + 3 < x
+mat-es-242 | M.8.2.3.2 | z2 | k2 | Bir tren hattında istasyonlar, merkez istasyondan batıya doğru negatif, doğuya doğru pozitif tam sayılarla numaralandırılmıştır (… | ✓5
+mat-es-243 | M.8.2.3.3 | z2 | k2 | 2x − 5 < 9 eşitsizliğini sağlayan kaç tane doğal sayı vardır? | ✓7
+mat-es-244 | M.8.2.3.1 | z2 | k2 | Bir sinema salonunun kapasitesi 120 kişidir. Salonda x kişi varken 15 kişi dışarı çıkıyor, ardından 22 kişi içeri giriyor. Bu işl… | ✓x − 15 + 22 ≤ 120
+mat-es-245 | M.8.2.3.2 | z2 | k2 | Bir bilgi yarışmasında yarışmacıların numaraları k ile gösteriliyor ve numaralar aşağıdaki sayı doğrusunda boyalı aralıkta yer al… | ✓9
+mat-es-246 | M.8.2.3.3 | z2 | k2 | [[2x|3]] ≤ 8 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≤ 12
+mat-es-247 | M.8.2.3.1 | z2 | k2 | Cansu bir bisiklet turunda ilk 6 km'yi yürüyerek tamamladı. Sonrasında saatte 12 km hızla t saat bisiklet sürecek. Cansu'nun bütü… | ✓6 + 12t ≥ 30
+mat-es-248 | M.8.2.3.3 | z2 | k2 | Elif, 7 − 3x ≤ 22 eşitsizliğini şöyle çözmüştür: Adım 1: İki taraftan 7 çıkardı: −3x ≤ 15. Adım 2: İki tarafı −3'e bölüp yönü çev… | ✓15 ÷ (−3) işleminin sonucunu −5 yerine 5 bul…
+mat-es-249 | M.8.2.3.3 | z2 | k2 | 9 − 2x < 3 eşitsizliğini sağlayan en küçük tam sayı kaçtır? | ✓4
+mat-es-250 | M.8.2.3.3 | z2 | k2 | 3x + 1 < 20 eşitsizliğini sağlayan kaç tane pozitif tam sayı vardır? | ✓6
+mat-es-251 | M.8.2.3.3 | z2 | k2 | Bir okul gezisi için otobüs kirası 600 TL sabit ücrettir. Ayrıca her öğrenci için 40 TL yemek ücreti ödenecektir. Okulun bu gezi … | ✓22
+mat-es-252 | M.8.2.3.1 | z3 | k2 | Bir deneme sınavında 30 soru vardır ve boş bırakılan soru yoktur. Net, doğru sayısından yanlış sayısının üçte birinin çıkarılması… | ✓d − [[30 − d|3]] ≥ 18
+mat-es-253 | M.8.2.3.2 | z3 | k2 | Bir kargo firması, kütlesi t kg olan paketlerden 5t + 10 TL ücret alıyor. Firmanın kampanyası yalnızca kütlesi aşağıdaki sayı doğ… | ✓15
+mat-es-254 | M.8.2.3.3 | z3 | k2 | 2x + 9 > −5 eşitsizliğini sağlayan kaç tane negatif tam sayı vardır? | ✓6
+mat-es-255 | M.8.2.3.1 | z3 | k2 | Bir çiçek bahçesindeki çiçeklerin sayısı x'tir. Bu çiçeklerin üçte biri laledir. Lale olmayan çiçeklerin sayısı 30'dan fazladır. … | ✓x − [[x|3]] > 30
+mat-es-256 | M.8.2.3.2 | z3 | k2 | Aşağıdaki sayı doğrusunda bir eşitsizliğin çözüm kümesi gösterilmiştir. Bu gösterim aşağıdaki eşitsizliklerden hangisinin çözümün… | ✓−3x ≥ 6
+mat-es-257 | M.8.2.3.3 | z3 | k2 | Bir okulun fotokopi odasında 480 yaprak kâğıt vardır ve her gün 35 yaprak kâğıt kullanılmaktadır. Kâğıt stoku 100 yaprağın altına… | ✓10
+mat-es-258 | M.8.2.3.1 | z3 | k2 | Bir okul kantininde bir menü, fiyatı x TL olan bir sandviç ile fiyatı 12 TL olan bir içecekten oluşuyor. Öğretmenler bir grup içi… | ✓4(x + 12) + 15 ≤ 200
+mat-es-259 | M.8.2.3.2 | z3 | k2 | Mert, 2x − 1 < 7 eşitsizliğini çözüp çözüm kümesini sayı doğrusunda göstermek istiyor. Mert'in çözüm kümesini doğru gösteren ifad… | ✓4'te boş yuvarlak, ok sola
+mat-es-260 | M.8.2.3.3 | z3 | k2 | [[x − 4|3]] < −2 eşitsizliğini sağlayan en büyük tam sayı kaçtır? | ✓−3
+mat-es-261 | M.8.2.3.1 | z3 | k2 | Bir kütüphanede üç gün art arda ödünç verilen kitap sayıları ardışık üç doğal sayıdır: her gün bir önceki günden tam 1 kitap fazl… | ✓x + (x + 1) + (x + 2) ≥ 2x + 20
+mat-es-262 | M.8.2.3.2 | z3 | k2 | Aşağıdaki sayı doğrusunda x pozitif tam sayısının alabileceği değerler gösterilmiştir. Bu değerlerden seçilen iki farklı sayının … | ✓6
+mat-es-263 | M.8.2.3.3 | z3 | k2 | −6x ≤ 15 eşitsizliğini sağlayan en küçük tam sayı kaçtır? | ✓−2
+mat-es-264 | M.8.2.3.1 | z3 | k2 | Bir otoparkta ilk 2 saat için sabit 10 TL alınır. 2 saati aşan her saat için ise 4 TL eklenir. Bir araç t saat (t > 2) park ediyo… | ✓10 + 4(t − 2) ≤ 34
+mat-es-265 | M.8.2.3.2 | z3 | k2 | Aşağıdaki sayı doğrusunda yalnızca bazı sayılar yazılmıştır; küçük çizgiler birer birim aralığı gösterir. Bir bilet fiyatı olan t… | ✓8
+mat-es-266 | M.8.2.3.3 | z3 | k2 | Ceren'in ilk üç matematik denemesindeki doğru sayıları 16, 19 ve 22'dir. Ceren dördüncü denemede yapacağı doğru sayısına x diyor … | ✓23
+mat-es-267 | M.8.2.3.1 | z3 | k2 | Zeynep'in yaşı, kardeşinin yaşının 2 katından 3 eksiktir. Kardeşinin yaşı k'dır. Zeynep'in 5 yıl sonraki yaşının 20'yi geçmemesi … | ✓2k − 3 + 5 ≤ 20
+mat-es-268 | M.8.2.3.2 | z3 | k2 | Aşağıdaki sayı doğrusunda bir k tam sayısının alabileceği değerler boyalı gösterilmiştir. Her k değeri için 3k − 2 ifadesinin değ… | ✓−2
+mat-es-269 | M.8.2.3.3 | z3 | k2 | 5 − 2x > −9 eşitsizliğini sağlayan en büyük tam sayı ile 3x − 4 ≤ 8 eşitsizliğini sağlayan en büyük tam sayının toplamı kaçtır? | ✓10
+mat-es-270 | M.8.2.3.1 | z3 | k2 | Bir yürüyüşçü, üç günde attığı adım sayılarını bin adım olarak kaydediyor. İlk iki gün 7 ve 9 bin adım atan yürüyüşçü, üçüncü gün… | ✓[[7 + 9 + x|3]] ≥ 8
+mat-es-271 | M.8.2.3.2 | z3 | k2 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. 2x − 1 ifadesinin asal sayı olduğu kaç farklı x de… | ✓4
+mat-es-272 | M.8.2.3.3 | z3 | k2 | 3x − 7 ≤ 8 eşitsizliğini sağlayan pozitif tam sayıların toplamı kaçtır? | ✓15
+mat-es-273 | M.8.2.3.1 | z3 | k2 | Bir dağ evinin termometresi sabah 6 °C göstermektedir. Gün boyunca sıcaklık her saat 2 °C düşmektedir. t saat sonra sıcaklığın −8… | ✓6 − 2t ≥ −8
+mat-es-274 | M.8.2.3.2 | z3 | k2 | Bir kargo aracı, kütlesi m kg olan kolilerden yalnızca aşağıdaki sayı doğrusunda boyalı aralıkta olanları taşıyabilir. Tabloda be… | ✓54
+mat-es-275 | M.8.2.3.3 | z3 | k2 | a bir tam sayı olmak üzere 2x − a < 5 eşitsizliğinin çözüm kümesi x < 7 şeklindedir. Buna göre a kaçtır? | ✓9
+mat-es-326 | M.8.2.3.3 | z3 | k3 | Bir x tam sayısının 2 katı 7'den çıkarılınca elde edilen sonuç 3'ten küçük çıkıyor. Buna göre x en az kaç olabilir? | ✓3
+mat-es-327 | M.8.2.3.1 | z3 | k3 | Bir okul gezisi için her biri 45 kişilik 3 otobüs kiralanmıştır. Gezide n öğrenci ve 6 öğretmen bulunacaktır ve yolcu sayısı 3 ot… | ✓n + 6 ≤ 135
+mat-es-328 | M.8.2.3.2 | z3 | k3 | Bir doğa kampına katılabilecek çocukların yaşı y ile gösterilmiştir. Katılım koşulu aşağıdaki sayı doğrusunda verilmiştir ve yaşl… | ✓14
+mat-es-329 | M.8.2.3.1 | z3 | k3 | Kapasitesi 300 litre olan bir su deposunda şimdilik 140 litre su vardır. Depoya her dakika 8 litre su akıtılacaktır ve deponun ta… | ✓140 + 8d ≤ 300
+mat-es-330 | M.8.2.3.3 | z3 | k3 | x sayısının −3 katının 5 fazlası, 14'ten küçük değildir. Buna göre x tam sayısı en çok kaç olabilir? | ✓−3
+mat-es-331 | M.8.2.3.2 | z3 | k3 | Bir otoyolda, hızı (v, km/saat) aşağıdaki sayı doğrusunda gösterilen değerlerde olan araçlara ek denetim uygulanmaktadır. Aşağıda… | ✓Hızı 40 km/saatten az olmayan araçlara denet…
+mat-es-332 | M.8.2.3.3 | z3 | k3 | −7, −4, −3 ve 0 sayıları veriliyor. Bu sayıların kaç tanesi 3 − 2x > 9 eşitsizliğinde x yerine yazılınca eşitsizliği sağlar? | ✓2
+mat-es-333 | M.8.2.3.1 | z3 | k3 | Bir oyunda her tamamlanan seviye 40 puan getirir, her can kaybı ise 15 puan götürür. Yağmur 3 can kaybetmiş ve s seviye tamamlamı… | ✓40s − 45 ≥ 200
+mat-es-334 | M.8.2.3.2 | z3 | k3 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. Bu değerler arasında 3'ün katı olan kaç tam sayı v… | ✓5
+mat-es-335 | M.8.2.3.3 | z3 | k3 | Aşağıdaki eşitsizliklerden hangisinin çözüm kümesi 2x − 6 ≤ 4 eşitsizliğinin çözüm kümesiyle aynıdır? | ✓x − 3 ≤ 2
+mat-es-336 | M.8.2.3.1 | z3 | k3 | Bir tiyatroda 4 kişilik bir grup, kişi başı b TL olan biletlerden alacaktır. Biletlere ek olarak toplam 20 TL hizmet bedeli ödene… | ✓4b + 20 ≤ 360
+mat-es-337 | M.8.2.3.2 | z3 | k3 | Aslı, aşağıdaki sayı doğrusunda x için bir çözüm kümesi göstermiştir. Bu gösterim aşağıdaki eşitsizliklerden hangisinin çözüm küm… | ✓5 − 2x ≥ −3
+mat-es-338 | M.8.2.3.3 | z3 | k3 | Bir kırtasiyede 6 öğrenci için aynı boyama seti alınacaktır. Bir setin fiyatı s TL (tam sayı) olup ayrıca toplam 30 TL'lik hediye… | ✓75
+mat-es-339 | M.8.2.3.1 | z3 | k3 | Aylin 38 yaşındadır ve kızı Sude x yaşındadır. Aylin ile Sude arasındaki yaş farkı 28'den fazladır. Bu durumu gösteren eşitsizlik… | ✓38 − x > 28
+mat-es-340 | M.8.2.3.2 | z3 | k3 | Bir oyunda bir turda alınan puan p tam sayıdır ve aşağıdaki sayı doğrusunda gösterilen aralıktadır. Buna göre p kaç farklı değer … | ✓7
+mat-es-341 | M.8.2.3.3 | z3 | k3 | a ve b birer gerçek sayıdır ve a < b'dir. Buna göre aşağıdaki eşitsizliklerden hangisi her zaman doğrudur? | ✓4 − a > 4 − b
+mat-es-342 | M.8.2.3.1 | z3 | k3 | Bir burs sınavının toplam puanı, birinci oturum puanı ile ikinci oturum puanının 2 katının toplamı olarak hesaplanıyor. Ela birin… | ✓46 + 2x ≥ 150
+mat-es-343 | M.8.2.3.2 | z3 | k3 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. Elif, gösterimdeki iki yuvarlağın türünü değiştiri… | ✓9
+mat-es-344 | M.8.2.3.3 | z3 | k3 | Bir kargo firması, 3 koliyi aynı paletle birlikte taşıyacaktır. Her kolinin kütlesi e kg (tam sayı) ve boş palet 8 kg'dır. Taşıma… | ✓14
+mat-es-345 | M.8.2.3.1 | z3 | k3 | Bir dağcılık kulübü iki sırt çantasını birlikte kamp alanına taşıtacaktır. Her çantaya ayrıca 3 kg'lık bir battaniye konacaktır. … | ✓2(e + 3) ≤ 40
+mat-es-346 | M.8.2.3.2 | z3 | k3 | Aşağıdaki sayı doğrusunda x için boyalı bir bölge gösterilmiştir. Boyalı bölgenin dışında kalan en küçük tam sayı kaçtır? | ✓5
+mat-es-347 | M.8.2.3.3 | z3 | k3 | Barış'ın kumbarasında 240 TL vardır. Her ay kumbaradan 35 TL harcayacak ve kumbarada en az 40 TL kalmasını istiyor. Barış en fazl… | ✓5
+mat-es-348 | M.8.2.3.1 | z3 | k3 | Bir otoparkta ilk saat için 15 TL, ilk saatten sonraki her saat için 6 TL alınmaktadır. Bir sürücü, ilk saatten sonra k saat daha… | ✓15 + 6k ≤ 63
+mat-es-349 | M.8.2.3.2 | z3 | k3 | Bir deneyde bir sıvının sıcaklığı t °C ile gösterilmiştir. Sıvının alabileceği sıcaklık değerleri aşağıdaki sayı doğrusunda veril… | ✓−0,9
+mat-es-350 | M.8.2.3.3 | z3 | k3 | 4 − [[x|3]] > 1 eşitsizliğini sağlayan en büyük tam sayı kaçtır? | ✓8
+mat-es-351 | M.8.2.3.1 | z3 | k3 | Dikdörtgen biçimli bir bahçenin kısa kenarı 8 m, uzun kenarı x m'dir. Bahçenin çevresi en az 60 m olmalıdır. Bu durum aşağıdaki e… | ✓2(8 + x) ≥ 60
+mat-es-352 | M.8.2.3.2 | z3 | k3 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. Bu değerlerden 5'ten küçük olanlar kaç tanedir? | ✓7
+mat-es-353 | M.8.2.3.3 | z3 | k3 | Kaan, −4x + 8 < 20 eşitsizliğini aşağıdaki satırlarla çözmüştür: 1. satır: −4x < 20 − 8 2. satır: −4x < 12 3. satır: x < 12 ÷ (−4… | ✓3. satır
+mat-es-354 | M.8.2.3.1 | z3 | k3 | Bir kamp alanında her çadırda 4 kişi kalacaktır. Kamp alanında kalacak toplam kişi sayısı en az 25, en fazla 40 olacaktır. Çadır … | ✓25 ≤ 4c ≤ 40
+mat-es-355 | M.8.2.3.3 | z3 | k3 | 2x − 5 < 15 eşitsizliğini sağlayan pozitif çift tam sayılar kaç tanedir? | ✓4
+mat-es-356 | M.8.2.3.1 | z4 | k3 | Şehirlerarası bir otobüs, 440 km uzaklıktaki bir şehre gidecektir. Şoför yolun ilk 2 saatinde saatte 60 km hızla ilerleyecek, ard… | ✓107
+mat-es-357 | M.8.2.3.3 | z4 | k3 | Bir yarışma sınavında 30 soru vardır. Her doğru cevap 3 puan getirir, her yanlış cevap 1 puan götürür, boş bırakılan sorular puan… | ✓21
+mat-es-358 | M.8.2.3.2 | z4 | k3 | Bir sayı oyununda x tam sayısı için iki kural verilmiştir. Kuralların her biri aşağıdaki sayı doğrularında gösterilmiştir. Her ik… | ✓5
+mat-es-359 | M.8.2.3.3 | z4 | k3 | [[−x|4]] − 2 ≤ 1 eşitsizliğini sağlayan en küçük tam sayı kaçtır? | ✓−12
+mat-es-360 | M.8.2.3.1 | z4 | k3 | Okul kantininin kasasında akşam sayımı yapılmıştır. Kasada 20 TL'lik x adet ve 50 TL'lik 6 adet banknot vardır; başka para yoktur… | ✓32
+mat-es-361 | M.8.2.3.3 | z4 | k3 | Yük taşıyan bir kamyonetin taşıyabileceği toplam kütle 500 kg'dır. Kamyonette 80 kg olan şoför ve 40 kg olan bir sandık bulunmakt… | ✓31
+mat-es-362 | M.8.2.3.2 | z4 | k3 | Aşağıdaki sayı doğrularında x tam sayısı için iki koşul gösterilmiştir. −6 ile 2 arasındaki (bu sayılar dahil) tam sayılardan kaç… | ✓6
+mat-es-363 | M.8.2.3.1 | z4 | k3 | Bir telefon şirketinin iki tarifesi vardır. A tarifesinde aylık sabit ücret 30 TL, her 1 GB için 5 TL alınır. B tarifesinde aylık… | ✓30 + 5g < 50 + 3g
+mat-es-364 | M.8.2.3.3 | z4 | k3 | Bir kütüphane, yıllık üyelik ücreti olarak 90 TL almakta ve ödünç alınan her kitap için ayrıca 5 TL işlem bedeli almaktadır. Yeni… | ✓13
+mat-es-365 | M.8.2.3.2 | z4 | k3 | 2x − a > 4 eşitsizliğinin çözüm kümesi aşağıdaki sayı doğrusunda gösterilmiştir (a bir tam sayıdır). Buna göre a kaçtır? | ✓6
+mat-es-366 | M.8.2.3.1 | z4 | k3 | Onur'un ilk üç matematik sınavından aldığı notlar 72, 80 ve 68'dir. Dördüncü sınavdan alacağı not y'dir. Dört sınavın not ortalam… | ✓[[72 + 80 + 68 + y|4]] ≥ 75
+mat-es-367 | M.8.2.3.3 | z4 | k3 | Bir bisiklet kiralama noktasında ilk saat için 12 TL, ilk saatten sonraki her tam saat için 5 TL alınmaktadır. Yasin'in bisiklet … | ✓12
+mat-es-368 | M.8.2.3.2 | z4 | k3 | Aşağıdaki sayı doğrularında x tam sayısı için iki koşul gösterilmiştir. Her iki koşula da uyan tam sayıların toplamı kaçtır? | ✓2
+mat-es-369 | M.8.2.3.1 | z4 | k3 | Bir kargo firması, gönderi ücretini sabit 12 TL ile her kilogram için 4 TL'nin toplamı olarak hesaplamaktadır. Firmanın bir kampa… | ✓30 ≤ 12 + 4k ≤ 60
+mat-es-370 | M.8.2.3.3 | z4 | k3 | Bir oyunda a, oyuncunun elindeki kart sayısını göstermektedir (a bir doğal sayıdır). Oyun kuralı gereği 4 − 3a > −8 eşitsizliği s… | ✓4
+mat-es-371 | M.8.2.3.2 | z4 | k3 | Kerem, aklından bir x tam sayısı tutuyor ve şu iki ipucunu veriyor: 1. ipucu: x, −4'ten küçük değildir. 2. ipucu: x'in alabileceğ… | ✓7
+mat-es-372 | M.8.2.3.1 | z4 | k3 | Selma bugün x yaşındadır. 5 yıl önceki yaşının 2 katı, 3 yıl sonraki yaşından fazla değildir. Bu durum aşağıdaki eşitsizliklerden… | ✓2(x − 5) ≤ x + 3
+mat-es-373 | M.8.2.3.3 | z4 | k3 | Defne'nin spor için ayırdığı bütçe 130 TL'dir. A salonu aylık 45 TL sabit üyelik ücreti ve katılınan her ders için 8 TL, B salonu… | ✓1
+mat-es-374 | M.8.2.3.2 | z4 | k3 | Aşağıdaki sayı doğrularında x tam sayısı için iki koşul gösterilmiştir. A koşuluna uyup B koşuluna uymayan kaç farklı tam sayı va… | ✓6
+mat-es-375 | M.8.2.3.3 | z4 | k3 | Bir çiftçi, dikdörtgen biçimli bir ekim alanının uzun kenarlarından birini bir duvara yaslayacak ve duvara yaslanan kenar dışında… | ✓14
+mat-es-016 | M.8.2.3.1 | z1 | k0 | Bir otoparkın girişinde şu uyarı yazılıdır: 'Araç yüksekliği 2 metreyi geçmemelidir.' Yüksekliği h metre olan bir aracın otoparka… | ✓h ≤ 2
+mat-es-017 | M.8.2.3.2 | z1 | k0 | Aşağıdaki sayı doğrusunda y değerleri gösterilmiştir. Aşağıdakilerden hangisi y'nin alabileceği değerlerden biridir? | ✓−1
+mat-es-018 | M.8.2.3.3 | z1 | k0 | x + 4 ≥ 3 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ −1
+mat-es-019 | M.8.2.3.1 | z1 | k0 | Bir x sayısının 3 katı 15'ten küçük değildir. Bu cümle aşağıdaki eşitsizliklerden hangisiyle gösterilir? | ✓3x ≥ 15
+mat-es-020 | M.8.2.3.2 | z1 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Aşağıdaki sayılardan hangisi x'in alabileceği değerlerden biridir? | ✓−5
+mat-es-021 | M.8.2.3.3 | z1 | k0 | 5x < 35 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < 7
+mat-es-022 | M.8.2.3.1 | z1 | k0 | Bir bilgisayar oyununda 80 puanı geçen oyuncular bir sonraki seviyeye geçiyor. Bir oyuncunun puanı p ise seviye atlama koşulu han… | ✓p > 80
+mat-es-023 | M.8.2.3.2 | z1 | k0 | x ≥ 1 eşitsizliğinin sayı doğrusundaki gösterimi aşağıdaki çizimlerden hangisidir? | ✓D çizimi
+mat-es-024 | M.8.2.3.3 | z1 | k0 | x + 6 < 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x < −4
+mat-es-025 | M.8.2.3.1 | z1 | k0 | Bir havayolu şirketi, yolcuların el bagajının kütlesinin en fazla 8 kg olabileceğini bildirmiştir. Bir el bagajının kütlesi b kg … | ✓b ≤ 8
+mat-es-026 | M.8.2.3.2 | z1 | k0 | Bir öğretmen, x ≥ 4 eşitsizliğini sayı doğrusunda göstermelerini istiyor. Bu gösterimde 4'ün üzerine konan yuvarlak ve okun yönü … | ✓İçi dolu yuvarlak, ok sağa
+mat-es-027 | M.8.2.3.3 | z1 | k0 | [[x|4]] > 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > 8
+mat-es-028 | M.8.2.3.1 | z2 | k0 | Bir tren vagonunda 56 koltuk vardır ve vagonda şu anda 38 yolcu bulunmaktadır. Vagona yeni binecek yolcu sayısı n'dir. Yolcu sayı… | ✓38 + n ≤ 56
+mat-es-029 | M.8.2.3.2 | z2 | k0 | Ece, sayı doğrusunda boyadığı bölgenin x'in alabileceği değerleri gösterdiğini söylüyor. Buna göre aşağıdaki sayılardan hangisi b… | ✓2
+mat-es-030 | M.8.2.3.3 | z2 | k0 | 4x + 3 ≤ 19 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≤ 4
+mat-es-031 | M.8.2.3.1 | z2 | k0 | Bir köprüden geçen araçların yükü dahil toplam kütlesi 20 tonu geçemez. Boş kütlesi 8 ton olan bir kamyon, her biri 2 ton gelen k… | ✓8 + 2k ≤ 20
+mat-es-032 | M.8.2.3.2 | z2 | k0 | Bir yaz kampına katılım koşulu, çocuğun yaşını gösteren y için aşağıdaki sayı doğrusunda gösterilmiştir. Bu gösterim aşağıdaki cü… | ✓Katılımcı 12 yaşından küçük olmamalıdır.
+mat-es-033 | M.8.2.3.3 | z2 | k0 | −6x < 18 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > −3
+mat-es-034 | M.8.2.3.1 | z2 | k0 | Bir x sayısının yarısının 4 eksiği, −1'den büyüktür. Bu cümle aşağıdaki eşitsizliklerden hangisiyle gösterilir? | ✓[[x|2]] − 4 > −1
+mat-es-035 | M.8.2.3.2 | z2 | k0 | −2 < x ≤ 1 çift taraflı eşitsizliğinin sayı doğrusundaki gösterimi aşağıdaki çizimlerden hangisidir? | ✓C çizimi
+mat-es-036 | M.8.2.3.3 | z2 | k0 | [[x|3]] + 2 ≤ 5 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≤ 9
+mat-es-037 | M.8.2.3.1 | z2 | k0 | Derya, öğrenci bileti tanesi 18 TL olan bir sinemaya gidecek ve ayrıca 20 TL'lik bir mısır alacaktır. Derya'nın 100 TL'si vardır … | ✓18b + 20 ≤ 100
+mat-es-038 | M.8.2.3.2 | z2 | k0 | Bir kütüphanenin çocuk üyeliği için yaş koşulu, yaşı y olan çocuklar için aşağıdaki sayı doğrusunda gösterilmiştir. Aşağıdaki yaş… | ✓6
+mat-es-039 | M.8.2.3.3 | z2 | k0 | 8 − 2x < 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > 3
+mat-es-040 | M.8.2.3.1 | z2 | k0 | Dikdörtgen biçimli bir bahçenin kısa kenarı 8 m, uzun kenarı a m'dir. Bahçenin çevresi en az 40 m olmalıdır. Bu koşul aşağıdaki e… | ✓2(8 + a) ≥ 40
+mat-es-041 | M.8.2.3.2 | z2 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen aralıktaki en küçük tam sayı ile en büyük tam sayının çarpımı ka… | ✓−8
+mat-es-042 | M.8.2.3.3 | z2 | k0 | 2x − 9 ≥ 3 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x ≥ 6
+mat-es-043 | M.8.2.3.1 | z2 | k0 | Bir okulun satranç turnuvasına en fazla 64 öğrenci katılabilir. Şimdiye kadar 40 öğrenci kayıt yaptırmıştır. Kalan s sınıfın her … | ✓40 + 4s ≤ 64
+mat-es-044 | M.8.2.3.2 | z2 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen aralıkta kaç tane çift tam sayı vardır? | ✓5
+mat-es-045 | M.8.2.3.3 | z2 | k0 | −x + 3 < −7 eşitsizliğinin çözümü aşağıdakilerden hangisidir? | ✓x > 10
+mat-es-046 | M.8.2.3.1 | z2 | k0 | Bir otoparkta ilk saat için 10 TL, ilk saatten sonraki her saat için 5 TL alınmaktadır. Dilara'nın ödeyeceği ücret 40 TL'yi geçme… | ✓10 + 5s ≤ 40
+mat-es-047 | M.8.2.3.2 | z2 | k0 | Aşağıda iki farklı eşitsizliğin sayı doğrusundaki gösterimi verilmiştir. Bu gösterimlerle ilgili aşağıdakilerden hangisi doğrudur? | ✓2, yalnızca 1. gösterimde çözümdür.
+mat-es-048 | M.8.2.3.3 | z3 | k0 | Ela bir konser için bilet alacaktır. Biletlerin tanesi 30 TL'dir; ayrıca satın alma işlemi başına tek seferlik 25 TL hizmet bedel… | ✓7
+mat-es-049 | M.8.2.3.1 | z3 | k0 | Bir kargo firması, kütlesi 10 kg'dan az olmayan ve 25 kg'ı geçmeyen paketlere 'orta boy' demektedir. Kütlesi p kg olan bir paketi… | ✓10 ≤ p ≤ 25
+mat-es-050 | M.8.2.3.2 | z3 | k0 | Hakan, 2x − 3 > 5 eşitsizliğini çözmüş ve çözüm kümesini sayı doğrusunda göstermek istemektedir. Hakan'ın çözümünün doğru gösteri… | ✓D çizimi
+mat-es-051 | M.8.2.3.3 | z3 | k0 | Tahtada −4x − 3 < 9 eşitsizliği yazılıdır. Bu eşitsizliğin çözüm kümesindeki en küçük tam sayı kaçtır? | ✓−2
+mat-es-052 | M.8.2.3.1 | z3 | k0 | Bir fıçıdaki suyun üçte biri kullanıldıktan sonra fıçıda kalan suyun 30 litreden fazla olması isteniyor. Fıçıdaki ilk su miktarı … | ✓[[2v|3]] > 30
+mat-es-053 | M.8.2.3.2 | z3 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen aralıkta 3'ün katı olan kaç tam sayı vardır? | ✓5
+mat-es-054 | M.8.2.3.3 | z3 | k0 | x pozitif bir tam sayıdır ve 2x − 5 < 9 eşitsizliğini sağlamaktadır. Buna göre x'in alabileceği değerlerin toplamı kaçtır? | ✓21
+mat-es-055 | M.8.2.3.1 | z3 | k0 | Bir müzik uygulamasının aboneliğinde ilk ay ücretsizdir; sonraki her ay için 25 TL ödenir. Ece m ay abone kalacaktır ve toplam öd… | ✓25(m − 1) ≤ 150
+mat-es-056 | M.8.2.3.2 | z3 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen x değerleri için aşağıdaki eşitsizliklerden hangisi her zaman do… | ✓x + 2 > 0
+mat-es-057 | M.8.2.3.3 | z3 | k0 | Hüseyin 250 sayfalık bir kitabı okuyacaktır. İlk gün 40 sayfa okumuştur. Sonraki günlerin her birinde 25 sayfa okuyacaktır. Hüsey… | ✓9
+mat-es-058 | M.8.2.3.1 | z3 | k0 | Bir x sayısının 5 fazlasının 2 katı 30'u geçmez. Bu cümle aşağıdaki eşitsizliklerden hangisiyle gösterilir? | ✓2(x + 5) ≤ 30
+mat-es-059 | M.8.2.3.2 | z3 | k0 | Selin, −3 ≤ x < 2 çift taraflı eşitsizliğini aşağıdaki sayı doğrusunda göstermiştir. Selin'in çiziminin eşitsizliği doğru gösterm… | ✓−3'teki yuvarlak doldurulmalı, 2'deki yuvarl…
+mat-es-060 | M.8.2.3.3 | z3 | k0 | −3x + 2 ≤ 14 eşitsizliğini sağlayan en küçük tam sayı kaçtır? | ✓−4
+mat-es-061 | M.8.2.3.1 | z3 | k0 | Elif'in bugünkü yaşı x'tir. Elif'in 3 yıl sonraki yaşının yarısı 8'den küçüktür. Bu durum aşağıdaki eşitsizliklerden hangisiyle g… | ✓[[x + 3|2]] < 8
+mat-es-062 | M.8.2.3.2 | z3 | k0 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. Buna göre 3 − x ifadesinin alabileceği en büyük de… | ✓5
+mat-es-063 | M.8.2.3.3 | z3 | k0 | Bir kafede ilk kahve 30 TL, sonraki her kahve 20 TL'dir. Gizem'in 160 TL'si vardır. Gizem en fazla kaç kahve alabilir? | ✓7
+mat-es-064 | M.8.2.3.1 | z4 | k0 | Bir belediye, dikdörtgen biçimli bir arsayı çitle çevirecektir. Arsanın kısa kenarı x metredir, uzun kenarı ise kısa kenardan 6 m… | ✓40 ≤ 2(2x + 6) ≤ 60
+mat-es-065 | M.8.2.3.2 | z4 | k0 | a bir tam sayı olmak üzere a − 3x < 10 eşitsizliğinin çözüm kümesi aşağıdaki sayı doğrusunda gösterilmiştir. Buna göre a kaçtır? | ✓7
+mat-es-066 | M.8.2.3.3 | z4 | k0 | Cem'in ilk beş matematik sınavından aldığı notların toplamı 385'tir. Altıncı sınavdan alacağı not tam sayıdır ve 100'ü geçemez. C… | ✓6
+mat-es-067 | M.8.2.3.1 | z4 | k0 | Bir x sayısının 4 katının 6 fazlası, 5'ten küçük değildir ancak 25'ten küçüktür. Bu durum aşağıdaki eşitsizliklerden hangisiyle g… | ✓5 ≤ 4x + 6 < 25
+mat-es-068 | M.8.2.3.2 | z4 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Bu gösterim aşağıdaki eşitsizliklerden hangisinin çözüm kümesine aittir? | ✓x + 4 < 6
+mat-es-069 | M.8.2.3.3 | z4 | k0 | Gizem, 4 − 3x ≥ 16 eşitsizliğini şöyle çözmüştür: 1. adım: −3x ≥ 16 − 4 2. adım: −3x ≥ 12 3. adım: x ≥ −4 Gizem'in çözümünde ilk … | ✓3. adım
+mat-es-070 | M.8.2.3.1 | z4 | k0 | Bir kargo firması, dış ölçüleri alındığında üç ayrıt uzunluğunun toplamı 150 cm'yi aşmayan kutuları kabul etmektedir. Ayşe'nin ku… | ✓3x + 36 ≤ 150
+mat-es-071 | M.8.2.3.2 | z4 | k0 | Aşağıdaki sayı doğrusunda x tam sayısının alabileceği değerler gösterilmiştir. m = 2x − 1 olduğuna göre m'nin alabileceği kaç far… | ✓7
+mat-es-072 | M.8.2.3.3 | z4 | k0 | 5 − [[x|3]] ≥ 2 eşitsizliğini sağlayan kaç tane doğal sayı vardır? | ✓10
+mat-es-073 | M.8.2.3.1 | z4 | k0 | Ela x yaşındadır. Kardeşi Ela'dan 4 yaş küçüktür; babasının yaşı ise Ela'nın yaşının 4 katından 6 fazladır. Üçünün yaşları toplam… | ✓x + (x − 4) + (4x + 6) ≤ 86
+mat-es-074 | M.8.2.3.2 | z4 | k0 | Aşağıdaki sayı doğrusunda x değerleri gösterilmiştir. Gösterilen aralıkta tam olarak 9 tane tam sayı vardır. Buna göre m kaçtır? | ✓6
+mat-es-075 | M.8.2.3.3 | z4 | k0 | 7 − 2x < 15 eşitsizliğini sağlayan en küçük tam sayı a, 4x − 3 ≤ 17 eşitsizliğini sağlayan en büyük tam sayı b'dir. Buna göre a +… | ✓2
