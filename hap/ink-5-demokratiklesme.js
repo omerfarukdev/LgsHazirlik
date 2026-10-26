@@ -52,7 +52,7 @@ window.LGS_HAP["ink-5-demokratiklesme"] = {
         "**Şeyh Sait İsyanı** (Şeyh Said diye de yazılır), 13 Şubat 1925'te Genç çevresinde, Doğu Anadolu'da, halifeliğin kaldırılmasından (1924) sonra çıktı. İsyancılar dinî duyguları kullanarak halkı **laik Cumhuriyet düzenine karşı** ayaklandırmak istedi; ayrılıkçı bir yönü de vardı. İsyan Nisan 1925'te bastırıldı ve Şeyh Sait yakalandı; Diyarbakır İstiklal Mahkemesi'nde yargılanıp idam edildi.",
         "**Takrir-i Sükûn Kanunu (4 Mart 1925)**: “huzur ve düzenin sağlanması” demektir. Hükûmete düzeni bozduğu düşünülen örgüt ve yayınları **kapatma** yetkisi verdi; isyan sürerken çıktı.",
         "Hükûmet bu yetkiyle hükûmeti eleştiren bazı gazeteleri de kapattı. Ayrıca ilk kez Millî Mücadele sırasında kurulmuş olan **İstiklal Mahkemeleri** (Ankara ve Diyarbakır) yeniden kuruldu. Olağanüstü durumda **özgürlükler geçici olarak sınırlandı**.",
-        "Kanun, isyana karşı yumuşak davrandığı eleştirilen Fethi Bey Hükûmeti'nin istifasından (2 Mart) ve İsmet Paşa Hükûmeti'nin kurulmasından (3 Mart) hemen sonra çıktı.",
+        "İsyan, Musul sorunu üzerine dış görüşmelerin sürdüğü sırada çıktığından Türkiye'nin elini zayıflatabilirdi; hükûmetin isyanı hızla bastırmak istemesinin nedenlerinden biri de budur. Kanun, isyana karşı yumuşak davrandığı eleştirilen Fethi Bey Hükûmeti'nin istifasından ve İsmet Paşa Hükûmeti'nin kurulmasından (3 Mart) hemen sonra çıktı.",
         "Terakkiperver Cumhuriyet Fırkası da bu dönemde, **Haziran 1925**'te kapatıldı. Sıra şöyledir: isyan (Şubat) → kanun (Mart) → isyanın bastırılması (Nisan) → fırkanın kapatılması (Haziran)."
       ]
     },
@@ -61,13 +61,13 @@ window.LGS_HAP["ink-5-demokratiklesme"] = {
       maddeler: [
         "**İzmir Suikastı girişimi (Haziran 1926)**: Mustafa Kemal'in İzmir'e yapacağı ziyaret sırasında onun hayatına kastetme planıdır. Plan **uygulanamadan** ortaya çıkarıldı; saldırı olmadı. Sanıklar **İstiklal Mahkemesi**'nde yargılandı.",
         "Soruşturma Ankara'da sürdü; kapatılmış muhalefet partisinin bazı eski yöneticileri de yargılandı. Kâzım Karabekir ve Ali Fuat Cebesoy gibi isimler için delil bulunamadı ve **beraat ettiler**; bir kısım sanık idam dâhil ağır cezalar aldı. Atatürk Nutuk'ta girişimi, rejime karşı çıkan çevrelerin birlikte hareket ettiği siyasi bir plan olarak anlatır. Sonuç: muhalefetin siyasi etkisi büyük ölçüde azaldı ve çok partili denemeye ancak 1930'da yeniden dönüldü.",
-        "**Menemen Olayı (23 Aralık 1930)**: Derviş Mehmet kendisini mehdi ilan etti; yeşil bayrak açan yandaşlarıyla şeriat düzeni isteyerek ayaklandı. Olayı bastırmaya giden **Yedek Subay Teğmen Mustafa Fehmi Kubilay** ile iki bekçi şehit edildi. Olay kısa sürede bastırıldı. **Sıkıyönetim** (olağanüstü durumda yönetimin askerî makamlarca yürütülmesi) ilan edildi ve sanıklar **Divan-ı Harp**'te (askerî mahkeme) yargılandı. Kubilay'ın adı Cumhuriyet'e bağlılığın simgesi oldu; her yıl anılır.",
+        "**Menemen Olayı (23 Aralık 1930)**: Derviş Mehmet kendisini mehdi ilan etti; yeşil bayrak açan yandaşlarıyla şeriat düzeni isteyerek ayaklandı. Olayı bastırmaya giden **Yedek Asteğmen Mustafa Fehmi Kubilay** ile iki bekçi şehit edildi. Olay kısa sürede bastırıldı. **Sıkıyönetim** (olağanüstü durumda yönetimin askerî makamlarca yürütülmesi) ilan edildi ve sanıklar **Divan-ı Harp**'te (askerî mahkeme) yargılandı. Kubilay'ın adı **Cumhuriyet'e ve laik düzene bağlılığın** simgesi oldu; her yıl anılır.",
         "Menemen Olayı, **laik düzene karşı gerici bir ayaklanma girişimidir**; Serbest Fırka'nın feshinden **bir ay sonradır**."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Olay</th><th>Tarih</th><th>Amaç</th><th>Sonuç</th></tr><tr><td>Şeyh Sait İsyanı</td><td>1925</td><td>Dinî gerekçelerle laik düzene karşı ayaklanma</td><td>Takrir-i Sükûn, İstiklal Mahkemeleri</td></tr><tr><td>İzmir Suikastı girişimi</td><td>1926</td><td>Mustafa Kemal'in hayatına kastetmek</td><td>İstiklal Mahkemesi, muhalefetin zayıflaması</td></tr><tr><td>Menemen Olayı</td><td>1930</td><td>Şeriat düzeni istemek</td><td>Sıkıyönetim, Divan-ı Harp</td></tr></table>",
       dikkat: [
         "**Ayıran** özellik sorulursa önce iki olayın ortak noktalarını ele (rejime yönelmek, İstiklal Mahkemesi'nde yargılanmak). İzmir Suikastı'na özgü olan, doğrudan **kişiye yönelmesidir**; dinî gerekçeyle ayaklanma ise isyan ve Menemen'in özelliğidir.",
-        "“Suikast **girişimi**” demek saldırının gerçekleştiği anlamına gelmez; plan yakalandı."
+        "“Suikast **girişimi**” demek saldırının gerçekleştiği anlamına gelmez; plan yakalandı. **Plan** önceden hazırlanmış iştir, **girişim** işi yapmak için gösterilen çabadır (tamamlanması gerekmez), **eylem** işin fiilen yapılmasıdır; burada eylem hiç gerçekleşmedi."
       ]
     },
     {
