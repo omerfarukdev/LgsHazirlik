@@ -996,7 +996,7 @@ var App = (function () {
     modal('<div class="hatirlat"><span class="hap-ust">Kısa hatırlatma</span><p>' + bicim(h.giris) + "</p>" +
       hapBolumHtml(hatirlatBolum(h)) + "</div>" +
       '<div class="modal-btn"><button class="btn" onclick="App.hatirlatKapat(' + hedef + ')">Yine de geç</button>' +
-      '<button class="btn birincil" onclick="App.hatirlatKapat(-1)">Soruya dön</button></div>', "genis");
+      '<button class="btn birincil" onclick="App.hatirlatKapat(-1)">Soruya dön</button></div>', "genis", true);
   }
   function hatirlatKapat(hedef) {
     var t = Store.get("hatirlat", {}), a = hatirlatAcilis, x = a && t[a.id];
@@ -2229,12 +2229,13 @@ var App = (function () {
   }
 
   // ================= Modal =================
-  function modal(html, sinif) {
+  // kilitli: pencere dışına tıklamak kapatmaz; yalnızca penceredeki düğmeler kapatır
+  function modal(html, sinif, kilitli) {
     modalKapat();
     var el = document.createElement("div");
     el.id = "modal";
     el.innerHTML = '<div class="modal-ic' + (sinif ? " " + sinif : "") + '">' + html + '</div>';
-    el.addEventListener("click", function (e) { if (e.target === el) modalKapat(); });
+    el.addEventListener("click", function (e) { if (e.target === el && !kilitli) modalKapat(); });
     document.body.appendChild(el);
   }
   function modalKapat() {

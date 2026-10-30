@@ -11,7 +11,7 @@
 - `sorular/manifest.js`: yüklenecek soru dosyalarının listesi. Burada olmayan dosya görünmez.
 - `hap/<konu-id>.js`: konu özetleri (hap bilgi), `window.LGS_HAP["<konu-id>"]`. `hap/liste.js` yüklenecek özetlerin listesidir. Öğrenci bir konunun testine ilk kez girerken özet test ekranından önce kendiliğinden açılır (aşağıda "Konu özeti").
 - `panel.html` + `js/panel.js`: abinin ilerleme paneli. Veriyi `rapor/Kod.gs` (abinin Google hesabındaki Apps Script + E-Tablo) üzerinden okur. Apps Script adresi depoya YAZILMAZ; uygulamadaki "Panel bağlantısı" ile tarayıcıya kaydedilir. `js/app.js` içindeki kayıt yapısını (`gecmis`, `konuDurum`, `bildirim`, `aktif`, `hap`, `hatirlat`) değiştirirsen paneli de güncelle.
-- **Terim hatırlatma kartı (25 Ekim 2026):** öğrenci düşünceyi geliştirme yolları (`T.8.3.34`) ve anlatım biçimi (`T.8.3.11`) sorularını boş bırakıp geçmek isteyince, paragraf özetinin ilgili bölümü test içinde bir pencerede açılır (her soruda bir kez; deneme, aylık değerlendirme ve ünite denemesinde açılmaz). Kart metni `hap/paragrafta-anlam.js` içindeki "Anlatım biçimleri ve düşünceyi geliştirme yolları" bölümünden gelir; o bölümün başlığını değiştirme. Yeni kazanım eklemek için `js/app.js` → `HATIRLAT`. Kayıt `lgs_hatirlat`, panelde konunun satırında görünür.
+- **Terim hatırlatma kartı (25 Ekim 2026):** öğrenci düşünceyi geliştirme yolları (`T.8.3.34`) ve anlatım biçimi (`T.8.3.11`) sorularını boş bırakıp geçmek isteyince, paragraf özetinin ilgili bölümü test içinde bir pencerede açılır (her soruda bir kez; deneme, aylık değerlendirme ve ünite denemesinde açılmaz). Kart metni `hap/paragrafta-anlam.js` içindeki "Anlatım biçimleri ve düşünceyi geliştirme yolları" bölümünden gelir; o bölümün başlığını değiştirme. Yeni kazanım eklemek için `js/app.js` → `HATIRLAT`. Kart yalnızca düğmeyle kapanır, pencere dışına tıklamak kapatmaz (30 Ekim 2026: düğmeler ekranın altında kalıyordu, kart 32 açılışın hepsinde dışarı tıklanıp geçilmişti). Kayıt `lgs_hatirlat`, panelde konunun satırında görünür.
 - Yarım kalan test (`lgs_aktif`) de bulut yedeğine girer ve panelde "Yarım kalan test" olarak görünür. Öğrenci "Testi bitir"e basmadan çıkabilir; çözdükleri kaybolmamalı, panelden görünmelidir.
 - `dogrula.js`: `node dogrula.js` şema, id çakışması, kopya ve şık dengesi kontrolü yapar.
 - Öğrencinin verisi tarayıcıda (localStorage, `lgs_` öneki) durur; depoda kişisel veri YOKTUR.
@@ -156,7 +156,7 @@ Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de meti
 
 ### Paragraf havuzu (özel kural)
 
-`paragrafta-anlam` konusu diğerleri gibi "bitirilen" bir konu değildir; **günlük rutindir**. Ana sayfadaki "Günün paragrafı" kartı her gün bu konunun `kademe: 0` sorularından 5 tanesini çeker. Bu yüzden:
+`paragrafta-anlam` konusu diğerleri gibi "bitirilen" bir konu değildir; **günlük rutindir**. Ana sayfadaki "Günün paragrafı" kartı her gün bu konunun `kademe: 0` sorularından 25 soruluk turlar çeker (`js/ayar.js`: `paragrafSetBoyutu` 25, günlük hedef `paragrafHedefi` 50; gerçek tüketim günde yaklaşık 15-20 taze soru). Bu yüzden:
 
 - Paragraf havuzu **sürekli büyütülür**; hedef 48 soru değil, birkaç yüzdür. Havuz tükenirse uygulama en eski görülenleri geri döndürür — bu kabul edilebilir ama istenmeyen durumdur.
 - Yeni paragraf partileri `sorular/tur-paragrafta-anlam-<N>.js` dosyalarına yazılır; id aralığı `tur-pa-1001`'den başlayıp partiler arasında çakışmayacak şekilde ilerler (dörder haneli).
