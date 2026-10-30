@@ -88,3 +88,213 @@ tur-sm-012 | T.8.3.25 | z3 | k0 | Oya, Pars, Rüya, Sıla ve Toprak sinemada yan
 tur-sm-013 | T.8.3.25 | z4 | k0 | Okulun 5 × 100 metre bayrak yarışı takımında Atlas, Bera, Ceyda, Doğa ve Ekin koşacaktır. Her koşucu bir kez koşacak; bayrağı 1. … | ✓6
 tur-sm-014 | T.8.3.25 | z4 | k0 | Ayla, Berk, Cem ve Dilan bir doğa kampında kırmızı, mavi, yeşil ve sarı renkli dört çadırın her birinde ayrı ayrı kalmaktadır. He… | ✓Berk – temizlik yapmak
 tur-sm-015 | T.8.3.25 | z4 | k0 | Eda, Fatih, Gonca ve Harun bir proje gününde uzay, deniz, orman ve çöl konularından farklı birini sunacaktır. Sunumlar art arda y… | ✓Gonca ilk sunumu yapar.
+tur-sm-126 | T.8.3.25 | z1 | k1 | Bir pazarcı tezgâhına soldan sağa doğru dört kasa dizecektir: elma, armut, üzüm ve incir. • Üzüm kasası en soldadır. • Elma kasas… | ✓4. sırada
+tur-sm-127 | T.8.3.32 | z1 | k1 | Bir bilgisayar oyununda karakterlerin yetenekleri tabloda gösterilmiştir. ✓ işareti yeteneğin var olduğunu, ✗ işareti yok olduğun… | ✓Ejder
+tur-sm-128 | T.8.3.25 | z1 | k1 | Bir okulda voleybol maçının yeri hava durumuna göre belirlenmektedir. Okulun kuralı şudur: "Yağmur yağarsa maç spor salonunda oyn… | ✓Bugün gün boyunca hiç yağmur yağmamıştır.
+tur-sm-129 | T.8.3.32 | z1 | k1 | Okul kantininde bazı ürünlerin fiyatları tabloda verilmiştir. Kantinin kuralı şudur: "Tost ile birlikte herhangi bir içecek alan … | ✓27 TL
+tur-sm-130 | T.8.3.25 | z1 | k1 | Gül, Efe, Hakan ve İlke bir basketbol takımının oyuncularıdır. Dördü de farklı renkte forma giymektedir: kırmızı, mavi, sarı ve y… | ✓Yeşil
+tur-sm-131 | T.8.3.25 | z1 | k1 | Bir okulun gezi kuralı şöyledir: "İzin kâğıdını getiren veya velisi yanında olan öğrenci gezi otobüsüne binebilir." Bu iki koşuld… | ✓İzin kâğıdını unutmuş, velisi de gelmemiş ol…
+tur-sm-132 | T.8.3.32 | z1 | k1 | Bir okulun fen laboratuvarında bir haftalık görev çizelgesi hazırlanmıştır. Her gün bir nöbetçi öğrenci ve bir yardımcı öğrenci g… | ✓Pazartesi
+tur-sm-133 | T.8.3.25 | z1 | k1 | Bir spor salonunda üç dambıl vardır. Mor dambıl, turuncu dambıldan ağırdır. Yeşil dambıl da turuncu dambıldan ağırdır. Buna göre … | ✓Turuncu dambıl, en hafif dambıldır.
+tur-sm-134 | T.8.3.25 | z1 | k1 | Sinemada yan yana dört koltuk soldan sağa 1'den 4'e kadar numaralanmıştır. Kerem, Lale, Mert ve Nur bu koltuklara birer kişi olar… | ✓2 numaralı koltuk
+tur-sm-135 | T.8.3.32 | z1 | k1 | Bir basketbol atış oyununda içeriden atılan sayı 2 puan, dışarıdan atılan sayı 3 puan getirmektedir. Ela'nın bu oyunda attığı say… | ✓14 puan
+tur-sm-136 | T.8.3.25 | z1 | k1 | Bir spor kulübündeki bütün öğrenciler futbol ya da basketbol oynamaktadır. Aylin bu kulübün öğrencisidir ve futbol oynamamaktadır… | ✓Aylin, futbol oynamayıp basketbol oynayan öğ…
+tur-sm-137 | T.8.3.32 | z1 | k1 | Bir müzenin giriş ücretleri yaş aralıklarına göre tabloda verilmiştir. Selin 13, kardeşi Kemal 7, kuzenleri Poyraz ise 5 yaşındad… | ✓30 TL
+tur-sm-138 | T.8.3.25 | z1 | k1 | Bir voleybol takımında Pınar, Rıza'dan uzundur. Rıza, Sevgi'den uzundur. Tamer de Pınar'dan uzundur. Buna göre takımın en kısa oy… | ✓Sevgi
+tur-sm-139 | T.8.3.32 | z1 | k1 | Bir gençlik merkezinde dört öğrencinin katıldığı kurslar tabloda gösterilmiştir. ✓ işareti kursa katıldığını, ✗ işareti katılmadı… | ✓Bade
+tur-sm-140 | T.8.3.25 | z1 | k1 | Bir okul kütüphanesinin kuralı şudur: "Elinde süresi geçmiş kitap bulunan öğrenci yeni kitap ödünç alamaz." Burak bugün kütüphane… | ✓Burak'ın elinde süresi geçmiş hiçbir kitap y…
+tur-sm-141 | T.8.3.32 | z1 | k1 | 8. sınıfların bir günlük gezi programı tabloda verilmiştir. Program, saatlerine göre sırayla uygulanmıştır. Buna göre öğle yemeği… | ✓Müze gezisi
+tur-sm-142 | T.8.3.25 | z1 | k1 | Bir asansörde en fazla 8 kişi taşınabilmektedir. Asansörde şu anda 5 kişi bulunmaktadır. Buna göre asansöre en fazla kaç kişi dah… | ✓3 kişi
+tur-sm-143 | T.8.3.25 | z1 | k1 | Selma, Tuna ve Ümit sınıf görevlerini paylaşmıştır: tahta silme, çiçek sulama ve pano düzenleme. Üçünün görevi birbirinden farklı… | ✓Selma tahta silmektedir.
+tur-sm-144 | T.8.3.32 | z1 | k1 | Bir sınıfta en sevilen meyveyi belirlemek için oylama yapılmıştır. Her öğrenci yalnızca bir meyveye oy vermiştir. Sonuçlar tablod… | ✓Muz ile üzümün oy toplamı 17'dir.
+tur-sm-145 | T.8.3.25 | z1 | k1 | Bir kitapçının kampanyası şöyledir: "Satın alınan her 3 kitap için 1 kitap hediye verilir." (Hediye kitaplar kampanya hesabına ka… | ✓12 kitap
+tur-sm-146 | T.8.3.25 | z1 | k1 | Üç arkadaş bir bisiklet turunu farklı sıralarla bitirmiştir. Ali, Bora'dan önce; Bora da Cem'den önce bitirmiştir. Buna göre aşağ… | ✓Cem birinci bitirmiştir.
+tur-sm-147 | T.8.3.32 | z1 | k1 | Bir okulda sınav puanlarına göre verilen değerlendirme tabloda gösterilmiştir. Ece 59, Fatih 60, Gül 80, Hasan 39 puan almıştır. … | ✓Fatih
+tur-sm-148 | T.8.3.25 | z1 | k1 | Spor salonunu pazartesiden perşembeye kadar her gün bir sınıf kullanacaktır. 8/A, 8/B, 8/C ve 8/D sınıflarının her biri farklı bi… | ✓Perşembe
+tur-sm-149 | T.8.3.32 | z1 | k1 | Bir spor salonunda şu kural uygulanmaktadır: "Bir ayda en az 8 gün salona gelen üyeye 'Düzenli üye' rozeti verilir." Dört üyenin … | ✓Yalnızca Berna ve Deniz
+tur-sm-150 | T.8.3.25 | z2 | k1 | Okulun bahçesindeki çiçekleri pazartesiden perşembeye kadar her gün bir öğrenci sulayacaktır. Ayşe, Bora, Cansu ve Doruk'un her b… | ✓Cansu perşembe günü sulayacaktır.
+tur-sm-151 | T.8.3.32 | z2 | k1 | Bir spor salonunun giriş ücretleri tabloda verilmiştir. Salonun kuralı şudur: "14 yaşından küçük olanlar, kendi ücretinin yarısın… | ✓55 TL
+tur-sm-152 | T.8.3.25 | z2 | k1 | Deniz, Emre ve Fulya havuzda bir yüzme müsabakasını farklı sıralarla bitirmiştir. Emre, Deniz'den önce bitirmiştir. Fulya birinci… | ✓Emre birinci bitirmiştir.
+tur-sm-153 | T.8.3.25 | z2 | k1 | Nur, Oğuz, Pelin ve Rıza'nın her biri farklı bir kursa gitmektedir: resim, satranç, tiyatro ve yüzme. • Rıza yüzme kursuna gitmek… | ✓Resim
+tur-sm-154 | T.8.3.32 | z2 | k1 | Okul spor deposunda malzeme ödünç verme kuralları şunlardır: • Bir öğrenci aynı anda en fazla 2 malzeme alabilir. • Raket yalnızc… | ✓Eren
+tur-sm-155 | T.8.3.25 | z2 | k1 | Kırmızı, mavi, yeşil ve sarı kapaklı dört kavanoz bir rafa soldan sağa art arda dizilmiştir. • Kırmızı kapaklı kavanoz, mavi kapa… | ✓Kırmızı kapaklı kavanoz en sağdadır.
+tur-sm-156 | T.8.3.32 | z2 | k1 | Bir okulun dört servis hattının kalkış ve okula varış saatleri tabloda verilmiştir. Dersler 08.15'te başlamaktadır. Ceyda evden e… | ✓B hattı
+tur-sm-157 | T.8.3.25 | z2 | k1 | Bir yıldız gözlem kampında şu kurallar uygulanmaktadır: • Hava açıksa gece teleskopla gözlem yapılır. • Gece teleskopla gözlem ya… | ✓Dün gece hava açık değildi, teleskopla gözle…
+tur-sm-158 | T.8.3.25 | z2 | k1 | Ela, Fırat ve Gül konser bileti için tek sıra hâlinde kuyruğa girecektir. Ela ile Fırat birbirinin hemen yanında duracaktır. Buna… | ✓4 farklı biçimde
+tur-sm-159 | T.8.3.32 | z2 | k1 | Bir turnuvada dört takım 4'er maç yapmıştır. Galibiyet 3 puan, beraberlik 1 puan, mağlubiyet 0 puan getirmektedir. Takımların son… | ✓Dalga ve Fırtına
+tur-sm-160 | T.8.3.25 | z2 | k1 | Robotik kulübüne katılmak isteyen öğrenciden şu koşul aranmaktadır: "Matematik notu en az 80 olmalı ya da bir bilim fuarına katıl… | ✓Alp, Bade ve Derya
+tur-sm-161 | T.8.3.25 | z2 | k1 | Bir tiyatro gösterisinde Aras, Berna, Cemre, Deniz ve Emir aynı sırada yan yana beş koltuğa oturmuştur. Koltuklar soldan sağa 1'd… | ✓Deniz
+tur-sm-162 | T.8.3.32 | z2 | k1 | Bir kargo şirketinin paket ücretleri ağırlığa göre tabloda verilmiştir. Bir kişi ağırlıkları 1 kg, 3 kg ve 4 kg olan üç paketi ay… | ✓105 TL
+tur-sm-163 | T.8.3.25 | z2 | k1 | Bir bilgisayar oyununun 5 bölümü vardır. Oyuncu her bölümde en az 1, en fazla 3 yıldız kazanır. Kemal ilk dört bölümde toplam 9 y… | ✓12
+tur-sm-164 | T.8.3.25 | z2 | k1 | Havalimanında dört bavul tartılmıştır. Mavi bavul, kırmızı bavuldan ağırdır. Kırmızı bavul, yeşil bavuldan ağırdır. Sarı bavul da… | ✓Mavi bavul, sarı bavuldan ağırdır.
+tur-sm-165 | T.8.3.32 | z2 | k1 | Bir kart oyununda kartların puanları birinci tabloda, dört oyuncunun çektiği kartlar ikinci tabloda verilmiştir. Oyunu en yüksek … | ✓Deniz
+tur-sm-166 | T.8.3.25 | z2 | k1 | Aylin, Buse, Cem ve Deniz farklı renkte tişört giymiştir: kırmızı, mavi, yeşil ve sarı. Aylin, mavi tişört giyenden uzundur. Buse… | ✓Cem
+tur-sm-167 | T.8.3.32 | z2 | k1 | Bir su parkının giriş ücretleri, ziyaret gününe ve bilet türüne göre tabloda verilmiştir. Zeynep ile annesi çarşamba günü; Zeynep… | ✓195 TL
+tur-sm-168 | T.8.3.25 | z2 | k1 | Kare şeklindeki bir masanın kuzey, güney, doğu ve batı kenarlarının her birine birer kişi oturmuştur: Ada, Barış, Ceren ve Deniz.… | ✓Doğu
+tur-sm-169 | T.8.3.25 | z2 | k1 | Bir okul kantininde Ali, Berna ve Cem'den en az ikisinin her gün çalışması gerekmektedir. Bugün Ali izinlidir. Buna göre aşağıdak… | ✓Berna ve Cem'in ikisi de çalışmaktadır.
+tur-sm-170 | T.8.3.32 | z2 | k1 | Bir kitapçıda her kitap 40 TL'dir. Alınan kitap sayısına göre toplam tutardan düşülen indirim tabloda verilmiştir. Sevgi 4 kitap,… | ✓325 TL
+tur-sm-171 | T.8.3.25 | z2 | k1 | Ece, Ferit, Gül, Hakan ve İpek bir kantin kuyruğunda tek sıra hâlinde beş sıraya girmiştir. Sıralar önden arkaya 1'den 5'e kadar … | ✓Ferit
+tur-sm-172 | T.8.3.25 | z2 | k1 | Bir kargo otomatı paketleri şu sırayla işlemektedir: 1. Paket kırmızı etiketliyse "Acil" bölmesine gider ve işlem biter. 2. Kırmı… | ✓Acil, Ağır, Normal
+tur-sm-173 | T.8.3.32 | z2 | k1 | Bir yaz okulunda etkinlikler hava durumuna göre tabloda gösterildiği gibi belirlenmektedir. Cumartesi günü hava rüzgârlı, pazar g… | ✓Satranç ve Atölye
+tur-sm-174 | T.8.3.25 | z2 | k1 | Bir sınıftaki öğrencilerin hepsi en az bir kulübe üyedir. Bu sınıfta en az bir öğrenci iki kulübe üyedir. Buna göre aşağıdakilerd… | ✓Sınıfta hiçbir kulübe üye olmayan bir öğrenc…
+tur-sm-175 | T.8.3.25 | z2 | k1 | Bir okulun yangın sisteminde şu kurallar uygulanmaktadır: • Duman algılanırsa alarm çalar. • Alarm çalarsa kapılar kendiliğinden … | ✓Duman algılanmıştır.
+tur-sm-226 | T.8.3.25 | z2 | k2 | Bir pazarda domates, biber, patlıcan ve kabak satan dört tezgâh yan yana kurulmuştur. Tezgâh yerleri soldan sağa 1'den 4'e kadar … | ✓Domates ile kabak tezgâhı arasında en az bir…
+tur-sm-227 | T.8.3.32 | z2 | k2 | Bir bilgisayar oyununda oyuncunun seviyesi, topladığı madalyon sayısına göre aşağıdaki tabloyla belirlenir. Ayrıca gizli kapıyı b… | ✓Efe
+tur-sm-228 | T.8.3.25 | z2 | k2 | Bir otobüsün arka sırasında yan yana dört koltuk vardır. Koltuklar soldan sağa 1'den 4'e kadar numaralıdır. Ayşe, Bora, Cem ve De… | ✓Defne en soldaki koltukta oturmuştur.
+tur-sm-229 | T.8.3.32 | z2 | k2 | Bir okulun yaz robotik kursuna kayıt için şu iki koşulun birlikte sağlanması gerekir: • Not ortalaması en az 70 olmalıdır. • Veli… | ✓Okan
+tur-sm-230 | T.8.3.25 | z2 | k2 | Kemal, Leyla, Melis ve Nuri fen laboratuvarında beyaz, mavi, yeşil ve sarı renkli önlüklerden farklı birer tanesini giymiştir. Ta… | ✓Melis beyaz önlük giymiştir.
+tur-sm-231 | T.8.3.25 | z2 | k2 | Bir okul, dört günlük bir gezi programı hazırlıyor. Müze, park, kütüphane ve sinema etkinliklerinin her biri farklı bir günde yap… | ✓9
+tur-sm-232 | T.8.3.25 | z2 | k2 | Okul orkestrasının gösteri kadrosu için şu kurallar belirlenmiştir: • Ayça gösteriye katılırsa Barış da katılır. • Barış gösteriy… | ✓Deniz gösteriye katılmıştır.
+tur-sm-233 | T.8.3.32 | z2 | k2 | Bir okulda teneffüsler, şu iki koşul birlikte sağlandığında bahçede yapılır: yağış olmaması ve sıcaklığın en az 8 °C olması. Aksi… | ✓Perşembe
+tur-sm-234 | T.8.3.32 | z2 | k2 | Bir manav, terazide meyveleri ikişerli karşılaştırmış ve sonuçları tabloya yazmıştır. Dört meyvenin ağırlıkları birbirinden farkl… | ✓Elma, kirazdan daha ağırdır.
+tur-sm-235 | T.8.3.32 | z2 | k2 | Bir okul yemekhanesinde bir hafta boyunca günlük tüketilen çorba, salata ve tatlı porsiyonları tabloda verilmiştir. Tabloya göre … | ✓Çarşamba günü çorba ve salata toplamı 200 po…
+tur-sm-236 | T.8.3.25 | z2 | k2 | Bir radyo programcısı, dört şarkıyı art arda 1'den 4'e kadar numaralı sıralarda çalacaktır: Rüzgâr, Deniz, Orman ve Yağmur. Her ş… | ✓Deniz 2. sırada çalınır.
+tur-sm-237 | T.8.3.25 | z2 | k2 | Sınıfın tebeşir kutusunu dört arkadaştan yalnızca biri düşürmüştür. Öğretmen onlara sorunca şu cevapları almıştır. Dört cevaptan … | ✓Deniz
+tur-sm-238 | T.8.3.32 | z2 | k2 | Okulun spor malzemeleri, öğrencilere tabloda yazan en fazla gün sayısı kadar ödünç verilir. Kullanım süresi, alış gününden iade g… | ✓Dila
+tur-sm-239 | T.8.3.25 | z2 | k2 | Sınıf panosunun haber, ödev ve duyuru bölümlerinden her birini Ela, Faruk ve Gül'den yalnızca biri düzenleyecektir. Her öğrenci b… | ✓3
+tur-sm-240 | T.8.3.32 | z2 | k2 | Bir okulda kulüp üyelikleri için şu kurallar vardır: 1. Bir öğrenci en fazla iki kulübe üye olabilir. 2. Satranç ile robotik kulü… | ✓Gül
+tur-sm-241 | T.8.3.25 | z2 | k2 | Hilal, Işık, Jale ve Kerem; iki kişilik kırmızı takım ve iki kişilik mavi takım oluşturacaktır. Her öğrenci yalnızca bir takımda … | ✓Jale, Hilal ile aynı takımdadır.
+tur-sm-242 | T.8.3.32 | z2 | k2 | Bir yüzme kulübünde dört sporcunun haftada üç gün (pazartesi, çarşamba, cuma) yaptığı antrenmanların süreleri dakika olarak tablo… | ✓Aslı ile Doruk'un üç günlük toplam süreleri …
+tur-sm-243 | T.8.3.32 | z2 | k2 | Okul nöbet çizelgesinde Akın, Belma, Cevat ve Derya öğretmenlerin haftalık nöbet günleri ● işaretiyle gösterilmiştir. Boş hücre, … | ✓Cevat ile Derya yalnızca perşembe günü birli…
+tur-sm-244 | T.8.3.25 | z2 | k2 | Bir kamp ateşi akşamında Sema, Taner, Ulaş ve Vildan birer kez hikâye anlatacaktır. Anlatma sırası 1'den 4'e kadar numaralıdır ve… | ✓Taner, Ulaş'tan önce anlatır.
+tur-sm-245 | T.8.3.32 | z2 | k2 | Bir okulda ders zili 08.30'da çalar. 08.30 ve öncesinde okula gelen öğrenci geç sayılmaz; 08.31 ve sonrasında gelen öğrenci geç s… | ✓Fulya
+tur-sm-246 | T.8.3.25 | z2 | k2 | Bilgisayar sınıfında yan yana dört bilgisayar vardır ve soldan sağa 1'den 4'e kadar numaralandırılmıştır. Ayla, Berk ve Cenk bire… | ✓Cenk 1. bilgisayardadır.
+tur-sm-247 | T.8.3.25 | z2 | k2 | Selim, Tuna, Umut ve Volkan'ın boyları birbirinden farklıdır. Boyları karşılaştıran Aslı şu sonuçları not etmiştir: • Selim, Tuna… | ✓Volkan, Umut'tan uzundur.
+tur-sm-248 | T.8.3.25 | z2 | k2 | Bilim şenliğinde Ekin, Funda, Gaye ve Hakan birer deney gösterisi yapacaktır. Gösteriler 1'den 4'e kadar numaralı sıralarda art a… | ✓Gaye 3. sırada gösteri yapacaktır.
+tur-sm-249 | T.8.3.32 | z2 | k2 | Bir sınıfta başkanlık seçimi şu kurallara göre yapılmıştır: • Disiplin cezası olan aday seçilemez. • Cezası olmayan adaylar arası… | ✓Emir
+tur-sm-250 | T.8.3.25 | z2 | k2 | Ayten, Burcu, Cenk, Doğan ve Elif sinema salonunda aynı sıradaki beş koltuğa oturmuştur. Koltuklar soldan sağa 1'den 5'e kadar nu… | ✓Doğan, Elif'in hemen sağındaki koltuktadır.
+tur-sm-251 | T.8.3.32 | z2 | k2 | Bir okul kütüphanesinde grup çalışma masaları, saat başı birer çalışma grubuna verilir. Aynı masa aynı saatte iki gruba verilemez… | ✓Kartal ile Doğan
+tur-sm-252 | T.8.3.25 | z3 | k2 | Bir parkta kayın, çam, meşe, ıhlamur ve kavak fidanları, soldan sağa 1'den 5'e kadar numaralandırılmış çukurlara birer tane dikil… | ✓Kavak fidanının çukuru, çam fidanının çukuru…
+tur-sm-253 | T.8.3.25 | z3 | k2 | Okul gazetesinin bilim, spor, kitap, sanat ve gezi köşelerini Alp, Bilge, Cüneyt, Derin ve Eren yazacaktır. Her öğrenci yalnızca … | ✓Alp, spor köşesini yazacaktır.
+tur-sm-254 | T.8.3.25 | z3 | k2 | Bir okul şenliğinde kırmızı, mavi, sarı, yeşil ve beyaz renkli beş bayrak, bir ipe soldan sağa 1'den 5'e kadar numaralı yerlere b… | ✓8
+tur-sm-255 | T.8.3.25 | z3 | k2 | Bir sınıfta bir gün içinde matematik, Türkçe, fen, İngilizce ve müzik dersleri, 1'den 5'e kadar numaralı ders saatlerinde birer k… | ✓Matematik dersi, müzik dersinden önce işleni…
+tur-sm-256 | T.8.3.25 | z3 | k2 | Yazılı sınavdan sonra Meltem, Tolga ve Selin'in parka gidip gitmediğiyle ilgili kurallar tabloda verilmiştir. Sınav sonrasında Me… | ✓Tolga parka gitmiştir.
+tur-sm-257 | T.8.3.32 | z3 | k2 | Bir okulun dönem sonu etkinlik rozeti için puanlama kuralları şunlardır: • Katıldığı her etkinlik için 2 puan verilir. • Dönem bo… | ✓Cem
+tur-sm-258 | T.8.3.32 | z3 | k2 | Ali, Beril ve Can bir dondurmacıda çikolata, vanilya, çilek ve limon tatlarından farklı birer dondurma alacaktır; tatlardan biri … | ✓5
+tur-sm-259 | T.8.3.32 | z3 | k2 | Bir proje yarışmasında üçer kişilik gruplar yarışabilir. Bir grubun yarışmaya katılabilmesi için grupta çizim, yazı ve teknik bec… | ✓Deniz, Elif, Faruk
+tur-sm-260 | T.8.3.25 | z3 | k2 | Bir bilgisayar oyununda Arda, Bade, Can ve Dila; savaşçı, büyücü, okçu ve şifacı karakterlerinden farklı birer tanesini seçmiştir… | ✓Arda, büyücü karakterini seçmiştir.
+tur-sm-261 | T.8.3.25 | z3 | k2 | Bir kitap kulübü, roman, şiir, tiyatro, deneme ve öykü türlerinden birer kitabı 1'den 5'e kadar numaralı haftalarda, her hafta bi… | ✓Öykü, romandan önce okunur.
+tur-sm-262 | T.8.3.25 | z3 | k2 | Kırmızı, mavi, yeşil ve sarı renkli dört kutudan yalnızca birinin içinde sürpriz hediye vardır. Her kutunun kapağında bir etiket … | ✓Mavi kutu
+tur-sm-263 | T.8.3.32 | z3 | k2 | Bir okulun kütüphanesinden bir ay boyunca dört sınıfın ödünç aldığı roman, şiir ve öykü kitaplarının sayısı tabloda verilmiştir. … | ✓8C sınıfı, öykü türünde 8A sınıfından 5 kita…
+tur-sm-264 | T.8.3.25 | z3 | k2 | Bir okul bahçesinde K, L, M ve N adlı dört lamba vardır. Lambaların açık ya da kapalı olmasıyla ilgili kurallar tabloda verilmişt… | ✓L ve N lambaları birlikte açıktır.
+tur-sm-265 | T.8.3.25 | z3 | k2 | Müzik odasındaki bir rafta davul, gitar, keman, flüt ve org soldan sağa 1'den 5'e kadar numaralı bölmelere birer tane yerleştiril… | ✓Flüt 1. bölmededir.
+tur-sm-266 | T.8.3.32 | z3 | k2 | Bir kırtasiye, hediye kampanyasında şu iki koşulu birlikte sağlayan müşterilere hediye çanta verecektir: • Sepette en az 1 defter… | ✓Hasan
+tur-sm-267 | T.8.3.25 | z3 | k2 | Bir okul yarışmasında finale kalmak için iki koşulun birlikte sağlanması gerekir: ön eleme puanının en az 60 olması ve jüri değer… | ✓Finale kalan öğrenci sayısı 2'dir.
+tur-sm-268 | T.8.3.25 | z3 | k2 | Aras, Beren ve Can, okulun robotik atölyesine salı, çarşamba, perşembe ve cuma günlerinden farklı birer günde gidecektir. Bir gün… | ✓12
+tur-sm-269 | T.8.3.32 | z3 | k2 | Bir okuldaki dört kulübün 5., 6., 7. ve 8. sınıflardan kaç öğrenciye sahip olduğu tabloda verilmiştir. Tabloya göre aşağıdakilerd… | ✓Satranç kulübünün üye sayısı, sınıf düzeyi a…
+tur-sm-270 | T.8.3.25 | z3 | k2 | Yuvarlak bir masanın çevresinde, saat yönünde 1'den 5'e kadar numaralı beş sandalye vardır; 5. sandalye ile 1. sandalye de yan ya… | ✓Ceyda, 3. ya da 4. sandalyede oturur.
+tur-sm-271 | T.8.3.25 | z3 | k2 | Dört takımlı bir turnuvada her takım, diğer üç takımla birer maç yapacaktır. Beraberlik yoktur; her maçı bir takım kazanır. İlk g… | ✓Kırmızı takım, Sarı takımdan fazla galibiyet…
+tur-sm-272 | T.8.3.32 | z3 | k2 | Bir kargo şirketinin ücret tarifesi birinci tabloda verilmiştir. Kırılabilir eşya içeren her koli için ücrete 6 lira eklenir. Ayn… | ✓34
+tur-sm-273 | T.8.3.25 | z3 | k2 | Bir bilim şenliğinde mıknatıs, ışık, elektrik, ses ve su deneyleri pazartesiden cumaya kadar her gün bir deney olacak biçimde yap… | ✓Mıknatıs deneyi salı günü yapılır.
+tur-sm-274 | T.8.3.25 | z3 | k2 | Bir okulda tören için 8-A, 8-B, 8-C, 8-D ve 8-E sınıfları, bayrak direğinin önünde soldan sağa 1'den 5'e kadar numaralı yerlerde … | ✓8-D sınıfı 2. yerde durur.
+tur-sm-275 | T.8.3.25 | z3 | k2 | Aslı, Bora, Cemre, Deniz ve Efe tiyatro bileti kuyruğunda 1'den 5'e kadar numaralı sıralarda durmaktadır; her sırada bir kişi var… | ✓Efe
+tur-sm-326 | T.8.3.25 | z3 | k3 | Kütüphanenin okuma salonunda Arda, Beril, Can ve Dilara, soldan sağa 1'den 4'e kadar numaralanmış yan yana dört koltuğa birer kiş… | ✓Can
+tur-sm-327 | T.8.3.32 | z3 | k3 | Bir pazar tezgâhında satılan ürünlerin türleri Tablo 1'de, dört müşterinin tezgâhtan aldığı ürünler Tablo 2'de verilmiştir. Tezgâ… | ✓Gül
+tur-sm-328 | T.8.3.25 | z3 | k3 | Okul satranç turnuvasını Ali, Bora, Cem, Deniz ve Ece tamamlamıştır. Berabere kalan olmamış, her öğrenci 1'den 5'e kadar farklı b… | ✓Son sırada Ali ya da Cem vardır.
+tur-sm-329 | T.8.3.32 | z3 | k3 | Okulun robotik atölyesine giriş kuralları şunlardır: • Atölyeye kayıtlı öğrenciler girebilir. • Kayıtlı olmayan bir öğrenci, yaln… | ✓Vildan
+tur-sm-330 | T.8.3.25 | z3 | k3 | Bir okul, pazartesiden cumaya kadar her gün farklı bir yere olacak biçimde müze, hayvanat bahçesi, tiyatro, kale ve botanik bahçe… | ✓Müze gezisi çarşamba günü yapılır.
+tur-sm-331 | T.8.3.25 | z3 | k3 | Gökçe, Hasan, İrem ve Jale, büyüyünce pilot, doktor, mimar ve öğretmen olmak isteyen dört arkadaştır. Her meslek yalnızca bir kiş… | ✓Jale, mimar olmak istemektedir.
+tur-sm-332 | T.8.3.32 | z3 | k3 | Fen laboratuvarında Kerem, Lale, Mert ve Nil; mikroskop, terazi, büyüteç ve pusuladan birer tanesini kullanmaktadır. Her alet yal… | ✓Pusula, Lale ya da Mert'tedir.
+tur-sm-333 | T.8.3.25 | z3 | k3 | Bilim fuarında Efe, Gaye, Hülya ve Ilgaz; pazartesiden perşembeye kadar farklı günlerde, volkan, mıknatıs, ses ve bitki konuların… | ✓Çarşamba
+tur-sm-334 | T.8.3.32 | z3 | k3 | Dört oyuncu bir hazine toplama oyunu oynamıştır. Oyunun puanlama kuralları ve oyuncuların topladıkları nesneler aşağıda verilmişt… | ✓Bora
+tur-sm-335 | T.8.3.25 | z3 | k3 | Okul servisi Emel, Ahmet, Derya, Bahar ve Cemil'i evlerinin önünde birer birer indirecektir. Her öğrenci ayrı bir durakta iner ve… | ✓5
+tur-sm-336 | T.8.3.25 | z3 | k3 | Okul yüzme yarışmasının finalinde Ali, Berk ve Cem; 1., 2. ve 3. olmuştur. Duru, Efe ve Gül sonuçları önceden şöyle tahmin etmişt… | ✓Ali, Berk, Cem
+tur-sm-337 | T.8.3.32 | z3 | k3 | Okul kütüphanesinden bir hafta boyunca 8. sınıfların ödünç aldığı roman ve öykü kitaplarının sayısı aşağıdaki çizelgede verilmişt… | ✓Roman sayısı en az olan sınıf 8-B'dir.
+tur-sm-338 | T.8.3.25 | z3 | k3 | Okulun spor şenliğinde hız, bulmaca, hafıza ve denge yarışmaları birbiri ardına, her biri bir kez olacak biçimde yapılacaktır. Ya… | ✓6
+tur-sm-339 | T.8.3.25 | z3 | k3 | Fotoğraf stüdyosunda Ali, Berna, Cem ve Derya birer kez fotoğraf çektirecektir. Çekim sırasıyla ilgili bilinenler: • Ali, Berna'd… | ✓Cem ilk sırada çektirecektir.
+tur-sm-340 | T.8.3.32 | z3 | k3 | Okulun okuma kampanyasında dört sınıfın bir ayda okuduğu kitap sayısı grafikte, sınıfların öğrenci sayıları ise tabloda verilmişt… | ✓8-B
+tur-sm-341 | T.8.3.25 | z3 | k3 | Sınıf pikniğine Deniz, Ela, Fırat ve Gül'ün katılıp katılmayacağı konusunda şunlar bilinmektedir. (Her öğrenci ya katılır ya katı… | ✓Deniz ile Fırat'tan en az biri katılmaz.
+tur-sm-342 | T.8.3.25 | z3 | k3 | Okulun bilgi yarışması takımı için Kutay, Leyla, Metin ve Nesrin'in seçilip seçilmediği konusunda şunlar bilinmektedir. (Her öğre… | ✓Kutay seçilmiştir, Metin seçilmemiştir.
+tur-sm-343 | T.8.3.32 | z3 | k3 | Okulun bilgisayar sınıfı için rezervasyon taleplerinde aşağıdaki kurallar uygulanmaktadır. Dört öğrencinin talebi tabloda verilmi… | ✓Dilek
+tur-sm-344 | T.8.3.25 | z3 | k3 | Mina, Naz, Onur ve Pınar okul lokantasında birer yemek (çorba, pilav, makarna, salata) ve birer içecek (ayran, su, limonata, çay)… | ✓Pilav ve su
+tur-sm-345 | T.8.3.32 | z3 | k3 | Okulun dört öğretmeni Ayten, Burhan, Cavit ve Dilek, pazartesiden perşembeye kadar bahçe ve kapı nöbetlerini aşağıdaki çizelgeye … | ✓Salı günü bahçe nöbetini Dilek tutar.
+tur-sm-346 | T.8.3.25 | z3 | k3 | Okul bahçesindeki çiçek tarhına Berk, Cansu, Doğa ve Emre; lale, sümbül, nergis ve papatyadan birer tür dikmiştir. Her kişi bir t… | ✓Sümbülü Berk ya da Emre dikmiştir.
+tur-sm-347 | T.8.3.25 | z3 | k3 | Ayşe, Bora, Ceren, Deniz ve Emir'in çantalarının ağırlıkları birbirinden farklıdır. Çantalar karşılaştırılmış ve şunlar görülmüşt… | ✓Ayşe'nin çantası Ceren'inkinden ağırdır.
+tur-sm-348 | T.8.3.32 | z3 | k3 | Bir doğa parkındaki teleferik biletleri için indirim kuralları ve dört grubun ziyaret günleriyle yaşları aşağıda verilmiştir. • 1… | ✓Mavi grup
+tur-sm-349 | T.8.3.25 | z3 | k3 | Bir kitap standında iki raf vardır: üst rafta ve alt rafta soldan sağa 1., 2. ve 3. yerler bulunur. Atlas, Bilmece, Çizgi roman, … | ✓Çizgi roman
+tur-sm-350 | T.8.3.25 | z3 | k3 | Okul orkestrasında Alp, Betül, Cihan ve Duygu; keman, flüt, davul ve gitardan birer tanesini çalmaktadır. Her kişi bir enstrüman,… | ✓Gitarı Alp ya da Cihan çalmaktadır.
+tur-sm-351 | T.8.3.32 | z3 | k3 | Bir yaz kampında üç gün boyunca kano, tırmanış ve yüzme etkinlikleri yapılmıştır. Tablodaki "?" işaretli kutular bilinmemektedir;… | ✓Üç günde en az katılımcı yüzme etkinliğine g…
+tur-sm-352 | T.8.3.25 | z3 | k3 | Hakan, İpek, Ela, Gül ve Fırat proje ödevlerini öğretmene birer kez, farklı sıralarda teslim edecektir. Sıra 1'den 5'e kadar numa… | ✓9
+tur-sm-353 | T.8.3.25 | z3 | k3 | Okul gösterisinin gişesinde Oya, Murat, Kadir, Nuray ve Lamia birer kez, tek sıra hâlinde bilet alacaktır. Sıra 1'den 5'e kadar n… | ✓5. sırada Kadir ya da Murat bilet alacaktır.
+tur-sm-354 | T.8.3.32 | z3 | k3 | Okul kantininde öğrenciler bir ana yemek, bir içecek ve bir tatlıdan oluşan tepsi hazırlar. Ürünlerin fiyatları (TL) Tablo 1'de, … | ✓Ada
+tur-sm-355 | T.8.3.25 | z3 | k3 | Okul gazetesinin yazı kurulundaki Meral, Nuri, Orhan ve Pelin'in bu haftaki toplantıya katılıp katılmayacağı konusunda şunlar bil… | ✓Meral ile Pelin'den en az biri katılmaz.
+tur-sm-356 | T.8.3.25 | z4 | k3 | Okul tiyatrosunun kostüm provasına Feray, Arda, Dila, Can, Eren ve Bade birer kez, tek sıra hâlinde girecektir. Sıra 1'den 6'ya k… | ✓Arda
+tur-sm-357 | T.8.3.25 | z4 | k3 | Bilim kulübünün kamp gezisine Barış, Duru, Efe, Sinan ve Tolga'nın katılıp katılmayacağı konusunda şunlar bilinmektedir. (Her öğr… | ✓Duru katılırsa Efe katılır.
+tur-sm-358 | T.8.3.32 | z4 | k3 | Bir bilgisayar oyununda oyuncular, seviyelerine ve görev sayılarına göre ödül sandıkları açabilir. Sandık kuralları ve beş oyuncu… | ✓2
+tur-sm-359 | T.8.3.25 | z4 | k3 | Okul spor odasında Gökhan, Hande, Aslı, Fırat, Ceren ve Deniz birer kez, tek sıra hâlinde malzeme ödünç alacaktır. Sıra 1'den 6'y… | ✓8
+tur-sm-360 | T.8.3.25 | z4 | k3 | Rehberlik servisinde Sinan, Mina, Tuğba, Orhan, Rüya ve Pınar birer kez, tek sıra hâlinde görüşmeye girecektir. Sıra 1'den 6'ya k… | ✓Rüya 4. sıradaysa 6. sırada Orhan ya da Tuğb…
+tur-sm-361 | T.8.3.25 | z4 | k3 | Okul balosuna Ayşe, Burak, Cem, Dilek ve Ertan'ın katılıp katılmayacağı konusunda şunlar bilinmektedir. (Her öğrenci ya katılır y… | ✓Ayşe katılır, Cem katılmaz.
+tur-sm-362 | T.8.3.32 | z4 | k3 | Okulun voleybol şenliğinde Kırmızı, Mavi, Yeşil ve Sarı takımlar tek salonda birer maç yapacaktır. Maçlar 09.00, 10.00, 11.00 ve … | ✓Yeşil takım 11.00'de oynar.
+tur-sm-363 | T.8.3.25 | z4 | k3 | Okul şiir dinletisine Naz, Oğuz, Pınar, Rıza ve Sude'nin katılıp katılmayacağı konusunda şunlar bilinmektedir. (Her öğrenci ya ka… | ✓Pınar katılırsa Rıza katılır.
+tur-sm-364 | T.8.3.25 | z4 | k3 | Ece, Fırat, Gizem, Hakan ve İlkay; resim, müzik, satranç, yüzme ve tiyatro kurslarından birer tanesine yazılmıştır. Her kurs haft… | ✓Resim – çarşamba
+tur-sm-365 | T.8.3.32 | z4 | k3 | Bir yaz kampının kayıt kuralları ve altı çocuğun bilgileri aşağıda verilmiştir. Çocukların yaşı, kampın yapıldığı 2026 yılından d… | ✓2
+tur-sm-366 | T.8.3.25 | z4 | k3 | Okulun doğa gezisine Ayla, Berk, Can, Dilan ve Ekin'in katılıp katılmayacağı konusunda şunlar bilinmektedir. (Her öğrenci ya katı… | ✓Ayla ile Ekin'den en az biri katılmaz.
+tur-sm-367 | T.8.3.25 | z4 | k3 | Matematik dersinde Vedat, Rana, Nehir, Selim, Onur ve Tülay birer kez, tek sıra hâlinde tahtaya kalkacaktır. Sıra 1'den 6'ya kada… | ✓14
+tur-sm-368 | T.8.3.25 | z4 | k3 | Okul müdürünün odasının camı kırılmıştır. Camı Ada, Bora, Ceren ve Deniz'den yalnızca biri kırmıştır. Dört öğrenci şunları söylem… | ✓Ceren
+tur-sm-369 | T.8.3.32 | z4 | k3 | Dört öğrencinin katıldığı bir bilgi yarışmasında dört tur yapılmıştır. Her turdaki sıralamalar tabloda, puanlama kuralları aşağıd… | ✓Ada
+tur-sm-370 | T.8.3.25 | z4 | k3 | Okul bisiklet turunun bitiş çizgisini Umay, Yağmur, Zeki, Asya, Berkay ve Ceylin farklı sıralarda geçecektir; aynı anda geçen olm… | ✓6. sırada Asya ya da Ceylin bitiş çizgisini …
+tur-sm-371 | T.8.3.25 | z4 | k3 | Okul koro seçmelerinde Selin, Taner, Umut, Volkan ve Yusuf'un seçilip seçilmeyeceği konusunda şunlar bilinmektedir. (Her öğrenci … | ✓Selin seçilirse Umut seçilmez.
+tur-sm-372 | T.8.3.32 | z4 | k3 | Okul spor salonunda dört takım hafta içi pazartesiden perşembeye antrenman yapmaktadır. Aşağıdaki çizelgede takımların antrenman … | ✓Hentbol takımı pazartesi günü antrenman yapa…
+tur-sm-373 | T.8.3.25 | z4 | k3 | Okul tiyatro oyununun kadrosuna Fatih, Gamze, Hakan, İlayda ve Jale'nin seçilip seçilmeyeceği konusunda şunlar bilinmektedir. (He… | ✓Hakan da Jale de seçilir.
+tur-sm-374 | T.8.3.25 | z4 | k3 | Hafıza oyununa Ufuk, Pars, Yaren, Sarp, Reyhan ve Tuba birer kez, tek sıra hâlinde katılacaktır. Sıra 1'den 6'ya kadar numaraland… | ✓9
+tur-sm-375 | T.8.3.32 | z4 | k3 | Bilgi yarışmasında Kırmızı, Mavi, Yeşil ve Sarı takımlar üç tur yarışmıştır. Her turda 0, 1, 2 ve 3 puanın her biri farklı bir ta… | ✓Mavi takım 1. turda 3 puan almıştır.
+tur-sm-016 | T.8.3.32 | z1 | k0 | Zeynep, pazar yerinde annesi için hem elma hem armut almak istemektedir. Tabloda dört tezgâhta hangi meyvenin satıldığı (✓) ya da… | ✓Tezgâh 3
+tur-sm-017 | T.8.3.25 | z1 | k0 | Bir spor salonunun girişinde şu kural asılıdır: "Salona girmek için üyelik kartını okutmak ve spor ayakkabısı giymek gerekir." Dö… | ✓Gül
+tur-sm-018 | T.8.3.32 | z1 | k0 | Okulun bilim kulübündeki teleskop, üyelere en fazla 14 gün ödünç verilmektedir. Dört üyenin teleskobu kaç gün elinde tuttuğu tabl… | ✓Rıza
+tur-sm-019 | T.8.3.25 | z1 | k0 | Bir futsal turnuvasında galibiyet 3, beraberlik 1, mağlubiyet 0 puan getirmektedir. Yıldızlar takımı 4 maç oynamış; 2 maçı kazanm… | ✓7 puan
+tur-sm-020 | T.8.3.25 | z1 | k0 | Bir ormanlık alanda dört ağaç türünün boyları karşılaştırılmıştır. • Çam, meşeden kısadır. • Çam, ladinden uzundur. • Kayın, ladi… | ✓Kayın
+tur-sm-021 | T.8.3.32 | z1 | k0 | Okul kantininde bir haftanın ilk dört gününde satılan simit sayıları grafikte gösterilmiştir. Buna göre aşağıdakilerden hangisi d… | ✓En az simit salı günü satılmıştır.
+tur-sm-022 | T.8.3.25 | z1 | k0 | Bir okulun gezi planında şu kurallar yazılıdır: • Hava yağmurluysa piknik salonda yapılır. • Hava yağmurlu değilse piknik bahçede… | ✓Hava yağmurlu değildir.
+tur-sm-023 | T.8.3.25 | z1 | k0 | Okul yemekhanesindeki masalarda en az 3, en fazla 5 öğrenci oturabilir. Beş masada oturan öğrenci sayıları şöyledir: 1. masada 2,… | ✓3
+tur-sm-024 | T.8.3.32 | z1 | k0 | Bir okul gezisinin program çizelgesi aşağıda verilmiştir. Buna göre öğle yemeğinden hemen sonra yapılacak etkinlik hangisidir? | ✓Botanik bahçesi gezisi
+tur-sm-025 | T.8.3.25 | z1 | k0 | Bir kutu oyununda iki zar birlikte atılır. Kurala göre iki zar aynı sayıyı gösterirse oyuncu bir kez daha zar atar. Dört oyuncunu… | ✓Ali ile Cem
+tur-sm-026 | T.8.3.32 | z1 | k0 | Okul kırtasiyesindeki ürünlerin fiyatları tabloda verilmiştir. Mira'nın cebinde tam 25 TL vardır ve bu parayı tam olarak harcayac… | ✓Defter ve kalem
+tur-sm-027 | T.8.3.25 | z1 | k0 | Okul servisinde iki kişilik bir koltukta Kaan ile Lale yan yana oturmaktadır. Kaan cam kenarındadır. Buna göre aşağıdakilerden ha… | ✓Lale koridor tarafındadır.
+tur-sm-028 | T.8.3.25 | z2 | k0 | Bir sınıfta şu kurallar bilinmektedir: • Kar yağarsa okul tatil edilir. • Okul tatil edilirse Deniz sinemaya gider. Deniz bugün s… | ✓Bugün kar yağmamıştır.
+tur-sm-029 | T.8.3.32 | z2 | k0 | Fen laboratuvarında pazartesiden cumaya her gün bir öğrenci nöbet tutar. Nöbet kuralları şunlardır: • Hiçbir öğrenci üst üste iki… | ✓Deniz
+tur-sm-030 | T.8.3.25 | z2 | k0 | Okul panosuna gezi, sınav, kermes ve yarışma duyuruları soldan sağa 1'den 4'e kadar numaralı bölmelere birer tane asılacaktır. • … | ✓Yarışma duyurusu, sınav duyurusunun solundad…
+tur-sm-031 | T.8.3.32 | z2 | k0 | Bir spor salonunun üyelik paketleri tabloda gösterilmiştir. Buna göre aşağıdakilerden hangisi kesinlikle doğrudur? | ✓Havuz hakkı olan her paket haftada en az 4 g…
+tur-sm-032 | T.8.3.25 | z2 | k0 | Bir bilgisayar oyununda puanlar şöyle hesaplanır: • Her altın toplamak 4 puan kazandırır. • Her anahtar bulmak 10 puan kazandırır… | ✓51
+tur-sm-033 | T.8.3.25 | z2 | k0 | Pazarda dört satıcıdan her biri bal, zeytin, peynir ve reçelden farklı birini satmaktadır. • Ali ile Berna ne bal ne de zeytin sa… | ✓2
+tur-sm-034 | T.8.3.32 | z2 | k0 | Bir okulda satranç ve tiyatro kulüpleri vardır. Altı öğrencinin bu kulüplere katılıp katılmadığı tabloda gösterilmiştir (✓: katıl… | ✓5
+tur-sm-035 | T.8.3.25 | z2 | k0 | Bilgi yarışmasında Efe, Gül, Hira ve İsa; birinci, ikinci, üçüncü ve dördüncü olmuştur. Hiçbirinin sırası diğeriyle aynı değildir… | ✓Hira birinci olmuştur.
+tur-sm-036 | T.8.3.32 | z2 | k0 | Sınıf başkanlığı seçiminde 8-A ve 8-B şubelerinde kullanılan oylar tabloda verilmiştir. İki şubedeki toplam oyu en çok olan aday … | ✓Barış
+tur-sm-037 | T.8.3.25 | z2 | k0 | Bir kantinde şu kampanya uygulanmaktadır: • Bir müşteri 3 ya da daha fazla tost alırsa 1 ayran hediye edilir. • Bir müşteri 6 ya … | ✓Cemre
+tur-sm-038 | T.8.3.25 | z2 | k0 | Kaan, Lale, Mert ve Nur okul bahçesindeki bir sıranın dört yerine, soldan sağa 1'den 4'e kadar yan yana oturmuştur. • Kaan, Mert'… | ✓II ve III
+tur-sm-039 | T.8.3.32 | z2 | k0 | Bir sınıfın haftalık ders programından ilk üç ders aşağıdaki tabloda verilmiştir. Buna göre hem fen hem Türkçe dersi olan ve ilk … | ✓Perşembe
+tur-sm-040 | T.8.3.25 | z2 | k0 | Üç arkadaş okul koşusunda yarışmış, aynı anda bitiren olmamıştır. Kerem, Leyla'dan önce bitirmiştir. Buna göre aşağıdaki bilgiler… | ✓Melis birinci bitirmiştir.
+tur-sm-041 | T.8.3.25 | z2 | k0 | Kargo şirketinde dört koli tartılmıştır; hiçbirinin ağırlığı bir diğerine eşit değildir. • Pembe koli, mavi koliden ağırdır. • Ma… | ✓Sarı koli, mavi koliden ağırdır.
+tur-sm-042 | T.8.3.32 | z2 | k0 | Drama kulübü, okul salonunu aralıksız iki saat süreyle kullanmak istemektedir. Salonun bu hafta bazı günlerdeki saatlik doluluk d… | ✓Çarşamba
+tur-sm-043 | T.8.3.25 | z2 | k0 | Bilgi yarışması için Ali, Bora, Cem ve Deniz arasından iki kişilik bir ekip kurulacaktır. Ekip için şu kurallar belirlenmiştir: •… | ✓Deniz
+tur-sm-044 | T.8.3.25 | z2 | k0 | Bir botanik parkında bilet ücretleri yaşa göre belirlenmiştir: • 0-6 yaş arası ziyaretçiler ücretsiz girer. • 7-12 yaş arası ziya… | ✓Davut (13 yaşında)
+tur-sm-045 | T.8.3.32 | z2 | k0 | İki şehirde ilk dört ayda ölçülen yağış miktarları (mm) tabloda verilmiştir. Buna göre her iki şehirde de yağış miktarının 50 mm'… | ✓Ocak
+tur-sm-046 | T.8.3.25 | z2 | k0 | Ece, Fırat, Gül ve Halil, soldan sağa 1'den 4'e kadar numaralanmış dört sandalyeye birer kişi olacak biçimde oturmuştur. • Ece il… | ✓Gül ile Halil yan yana oturmamaktadır.
+tur-sm-047 | T.8.3.25 | z2 | k0 | Bir okul kütüphanesi, ayırtılan kitapları ayırtma gününden sonraki 2. iş gününde teslime hazır etmektedir. Cumartesi ve pazar iş … | ✓Ceren
+tur-sm-048 | T.8.3.25 | z3 | k0 | Bir yaz spor okulunda yüzme, tenis, basketbol ve jimnastik branşları vardır. Okulun kayıt kuralları şunlardır: • Bir öğrenci en ç… | ✓Berk
+tur-sm-049 | T.8.3.25 | z3 | k0 | Bir pazar yerinde balık, sebze, peynir, bal ve baharat tezgâhları soldan sağa 1'den 5'e kadar numaralı beş yere birer tane kurula… | ✓Peynir tezgâhı 3. yerdedir.
+tur-sm-050 | T.8.3.32 | z3 | k0 | Meryem'in evi Park durağının yanındadır. Okula ulaşmak için hem Park hem Okul durağına uğrayan ve 08:00'den önce kalkan bir servi… | ✓Hat 1
+tur-sm-051 | T.8.3.25 | z3 | k0 | Kırmızı, Mavi, Yeşil ve Sarı takımlar bir robot parkurunu farklı sürelerde bitirmiştir; hiçbir iki takım aynı anda bitirmemiştir.… | ✓Yalnız III
+tur-sm-052 | T.8.3.25 | z3 | k0 | Bir bilgisayar oyununda karakter, yeteneklerini açarken şu kurallara uymak zorundadır: • Ateş yeteneği açıksa güç yeteneği de açı… | ✓Güç, ateş, buz, hız
+tur-sm-053 | T.8.3.32 | z3 | k0 | Okullar arası bir zekâ oyunları liginde her takım 7 maç oynamıştır. Galibiyet 2, beraberlik 1, mağlubiyet 0 puan getirmektedir. M… | ✓Kaplan
+tur-sm-054 | T.8.3.25 | z3 | k0 | Okul şenliğinde sahne, ses, kayıt ve ikram görevleri dört arkadaşa dağıtılacaktır: Eda, Faruk, Gizem ve Hakan. Her görevi tam ola… | ✓4
+tur-sm-055 | T.8.3.25 | z3 | k0 | Bir kış gününde şu bilgiler bilinmektedir: • Hava soğuksa Mert eşarp takar. • Mert eşarp takarsa Nil de eşarp takar. • Nil eşarp … | ✓Hava soğuk değildir.
+tur-sm-056 | T.8.3.32 | z3 | k0 | Yaz okulundaki kursların kontenjanları ve başvuru sayıları tabloda verilmiştir. Kayıt kuralları şunlardır: • Başvuru sayısı konte… | ✓17
+tur-sm-057 | T.8.3.25 | z3 | k0 | Ayşe, Burak ve Ceren; salı, çarşamba ve perşembe günlerinin her birinde farklı birer ders almaktadır. Dersler piyano, yüzme ve re… | ✓Burak, perşembe günü derse gider.
+tur-sm-058 | T.8.3.32 | z3 | k0 | Bir vakfın burs kuralı şöyledir: "Matematik, fen ve Türkçe sınavlarının en az ikisinden 80 ya da üzeri puan almış ve hiçbirinden … | ✓Ada
+tur-sm-059 | T.8.3.25 | z3 | k0 | Ela, Fikret, Gönül ve Hasan; İspanyolca, Almanca, Fransızca ve İtalyancadan farklı birini öğrenmektedir. • Ela ne Almanca ne de İ… | ✓Yalnız II
+tur-sm-060 | T.8.3.25 | z3 | k0 | Bir kültür merkezinde pazartesiden perşembeye her gün bir film gösterilecektir. Filmler komedi, macera, belgesel ve animasyondur;… | ✓7
+tur-sm-061 | T.8.3.32 | z3 | k0 | Bir giysi mağazasının dört haftalık satış adetleri tabloda verilmiştir. Buna göre aşağıdakilerden hangisi doğrudur? | ✓Tişört satışı her hafta ceket satışından faz…
+tur-sm-062 | T.8.3.25 | z3 | k0 | Altı arkadaş (Ada, Berk, Cem, Deniz, Ece ve Fulya), yuvarlak bir masanın etrafındaki 1'den 6'ya kadar numaralı koltuklara görseld… | ✓Fulya, Berk'in yanındaki koltuklardan birind…
+tur-sm-063 | T.8.3.25 | z3 | k0 | Bir kargo firması ücretleri şu kurallarla hesaplamaktadır (paketlerin ağırlığı tam sayıdır): • 0-2 kg arası paketler için 20 TL, … | ✓3 kg, şehir dışına giden, kırılacak eşyasız …
+tur-sm-064 | T.8.3.25 | z4 | k0 | Bir tiyatro oyununun sonunda altı oyuncu, sahnede soldan sağa 1'den 6'ya kadar numaralı yerlere tek sıra hâlinde dizilecektir. • … | ✓Deniz, 4. sıradadır.
+tur-sm-065 | T.8.3.25 | z4 | k0 | Bir müzik grubu konserinde beş şarkıyı (Rüzgâr, Deniz, Yağmur, Orman ve Dağ) farklı sıralarda, 1'den 5'e kadar sırayla çalacaktır… | ✓4
+tur-sm-066 | T.8.3.32 | z4 | k0 | Bir şehirdeki beş müzeyi gezmek isteyen Selin, hepsine girebilmek için tam iki paket bilet satın alacaktır. Beş paketin hangi müz… | ✓3
+tur-sm-067 | T.8.3.25 | z4 | k0 | Ada, Bora, Ceyda, Deniz ve Efe; fen projesi için su, rüzgâr, güneş, toprak ve ses konularından farklı birini seçmiştir. • Ada, su… | ✓Efe su konusunu seçmiştir.
+tur-sm-068 | T.8.3.25 | z4 | k0 | Bir bilgi yarışmasında 6 soru sorulmuştur. Her soru için doğru cevap 4 puan, boş bırakılan soru 1 puan, yanlış cevap 0 puan getir… | ✓Ela en az bir soruyu yanlış cevaplamıştır.
+tur-sm-069 | T.8.3.25 | z4 | k0 | Bir lokantada menü; bir ana yemek (köfte, tavuk, balık), bir garnitür (pilav, makarna, salata) ve bir içecek (ayran, limonata) se… | ✓14
+tur-sm-070 | T.8.3.32 | z4 | k0 | Bir kültür merkezinde pazartesi günü yapılan altı kursun saatleri tabloda verilmiştir. Bir kursun bittiği anda başka bir kurs baş… | ✓3
+tur-sm-071 | T.8.3.25 | z4 | k0 | Ayla, Berkay, Canan ve Deniz, okul bahçesine pazartesiden perşembeye farklı günlerde fidan dikecektir; her gün yalnızca biri fida… | ✓I ve III
+tur-sm-072 | T.8.3.25 | z4 | k0 | Resim atölyesinde bir boya kutusunun kapağı açık bırakılmıştır. Kapağı beş öğrenciden yalnızca biri açık bırakmıştır. Öğrenciler … | ✓Arda
+tur-sm-073 | T.8.3.25 | z4 | k0 | Okul bahçesinde küçük bir sebze bahçesi kurulacaktır. Altı iş birer kez yapılacak ve aynı anda yalnızca biri yürütülecektir: topr… | ✓16
+tur-sm-074 | T.8.3.32 | z4 | k0 | Bir bilim fuarında Ada, Bora, Ceyda, Deniz ve Efe pazartesiden cumaya kadar her gün biri olmak üzere rehberlik yapacaktır; herkes… | ✓5
+tur-sm-075 | T.8.3.25 | z4 | k0 | Bir belediyenin oyun alanında şu kurallar uygulanmaktadır: • Oyun alanına yalnızca 3-12 yaş arası (3 ve 12 dahil) çocuklar girebi… | ✓2
