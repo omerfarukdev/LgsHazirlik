@@ -674,12 +674,7 @@ Cevap C.`
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
   gorsel: null,
-  secenekler: [
-    "Bekleyen hastanın durumu kötüleşirse yeniden değerlendirilir.",
-    "Hafif şikâyetle gelen hastalar muayene edilmeden eve gönderilir.",
-    "Muayene sırası, yalnızca hastanın geliş saatine göre belirlenir.",
-    "Triyaj değerlendirmesi, hastanın tüm tahlilleri bittikten sonra yapılır."
-  ],
+  secenekler: ["Bekleyen hastanın durumu kötüleşirse yeniden değerlendirilir.","Hafif şikâyetle gelen hastalar muayene edilmeden eve gönderilir.","Muayene sırası, hastanın geliş saatine göre belirlenir.","Triyaj değerlendirmesi, hastanın tüm tahlilleri bittikten sonra yapılır."],
   dogru: 0,
   hatalar: [
     null,

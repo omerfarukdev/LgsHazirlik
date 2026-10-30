@@ -406,7 +406,7 @@ Cevap D.`
 
 **Bu parçadaki yardımcı fikirlerden biri aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Kahvaltı yapan her öğrenci derslerde başarılı olur.","Beyin, uykudan sonra yeniden enerji ister.","Ara öğün, kahvaltının yerini tutabilir.","Dikkat dağınıklığı yalnızca ilk derslerde görülür."],
+  secenekler: ["Kahvaltı yapan her öğrenci derslerde başarılı olur.","Beyin, uykudan sonra yeniden enerji ister.","Ara öğün, kahvaltının yerini tamamen tutabilir.","Dikkat dağınıklığı yalnızca ilk derslerde görülür."],
   dogru: 1,
   hatalar: [
     "Aşırı genelleme: parça kahvaltının derse katılımı artırdığını söyler; 'her öğrenci başarılı olur' demez.",
