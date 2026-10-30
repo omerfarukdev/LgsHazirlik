@@ -10,7 +10,8 @@ window.LGS_HAP["gorsel-grafik-okuma"] = {
         "**Eksenleri oku.** Yatay eksende çoğu zaman gruplar ya da zaman (gün, ay, yıl), dikey eksende ölçülen miktar olur.",
         "**Birimi bul.** Kilogram mı, adet mi, yüzde mi, bin kişi mi? “Bin kişi” yazan grafikte 12 çizgisi 12.000 demektir.",
         "**Ölçeğe bak.** Eksendeki çizgiler kaçar kaçar artıyor?",
-        "**Göstergeyi (renk açıklamasını) oku.** İki renkli çubuk ya da iki çizgi varsa her rengin neyi temsil ettiğini karıştırma."
+        "**Göstergeyi (renk açıklamasını) oku.** İki renkli çubuk ya da iki çizgi varsa her rengin neyi temsil ettiğini karıştırma.",
+        "**Yığılmış sütun grafikte** her sütun üst üste konmuş parçalardan oluşur. Üstteki parçanın değeri, sütunun tepesinin eksendeki yüksekliği değil, o parçanın üzerinde yazan sayıdır. Parçalar sayıyla yazılıysa sütunun toplamı için parçaları topla."
       ],
       tablo: "<table class=\"tablo\"><tr><th>Görsel türü</th><th>Ne için kullanılır?</th><th>İlk bakacağın yer</th></tr><tr><td><strong>Çubuk grafik</strong></td><td>Grupları karşılaştırmak</td><td>Dikey eksenin ölçeği ve sıfırdan başlayıp başlamadığı</td></tr><tr><td><strong>Çizgi grafik</strong></td><td>Zaman içindeki değişimi göstermek</td><td>Çizginin nerede yükselip nerede düştüğü, en yüksek ve en düşük nokta</td></tr><tr><td><strong>Daire grafik</strong></td><td>Bir bütünün parçalara dağılımını göstermek</td><td>Yüzdeler ve toplamın verilip verilmediği</td></tr><tr><td><strong>Tablo / çizelge</strong></td><td>Birden çok bilgiyi satır-sütun düzeninde vermek</td><td>Satır ve sütun başlıkları</td></tr></table>",
       dikkat: [
@@ -25,6 +26,7 @@ window.LGS_HAP["gorsel-grafik-okuma"] = {
         "**Daire grafikte yüzdeyi sayıya çevir:** sayı = toplam × yüzde. Toplam 300 kişi, dilim %15 ise 300 × [[15|100]] = 45 kişi.",
         "Kesir ile yüzdeyi eşle: yarısı = %50, dörtte biri = %25, beşte biri = %20, onda biri = %10.",
         "**Dikey eksen sıfırdan başlamıyorsa** çubukların boyu seni yanıltır. Eksen 500'den başlıyorsa 520 ile 560 değerli iki çubuktan biri ötekinin üç katı uzun görünür ama gerçek fark yalnızca 40'tır. Boya değil, eksendeki sayıya bak.",
+        "**Birlikte yürüyen işlerde** (aynı anda başlayıp ayrı kollarda ilerleyen süreçler) toplam süreyi **en uzun süren kol** belirler; süreleri toplama. Gelir sorularında gelir = satılan miktar × birim fiyattır; “GB başına ücret” gibi birim fiyatı önce bul.",
         "**Toplamlar farklıysa “başına düşen” değeri bul.** Verimi karşılaştırmak için ürünü ağaç sayısına böl: 900 kg ürün veren 30 ağaçta ağaç başına 30 kg, 500 kg veren 20 ağaçta 25 kg düşer.",
         "**“Bilgilere uygun grafik hangisidir?” sorusu:** Metindeki her koşulu (en çok, eşit, yarısı kadar, yarısından az) ayrı ayrı yaz, sonra her grafiği koşul koşul sına. Bir koşulu bozan grafiği hemen ele; çoğu çeldirici tek bir koşulu bozar."
       ],
