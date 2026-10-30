@@ -385,7 +385,7 @@ Cevap C.`
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
   gorsel: null,
-  secenekler: ["Uykusuz kalan öğrenciler sabah derse yetişemez.","Uyku sırasında beyin, gün içinde öğrenilenleri düzenler.","Sınav öncesi geceyi çalışarak geçirmek öğrenmeyi artırır.","Ergenler için yeterli uyku süresi altı saattir."],
+  secenekler: ["Uykusuz kalan öğrenciler sabah derse hiç yetişemez.","Uyku sırasında beyin, gün içinde öğrenilenleri düzenler.","Sınav öncesi geceyi çalışarak geçirmek öğrenmeyi artırır.","Ergenler için yeterli uyku süresi altı saattir."],
   dogru: 1,
   hatalar: [
     "Aşırı genelleme: metin, uykusuz ergenin derse yetişmesinin 'zor olacağını' söyler; 'hiç yetişemez' demez.",
@@ -698,7 +698,7 @@ Cevap A.`
 
 **Bu parçadan hareketle anlatıcının ücretsiz ürünlere bakışı için aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
-  secenekler: ["Reklam içeren uygulamalardan uzak durulmasını savunmaktadır.","Parasız ürünlerin her zaman kazançlı olduğunu düşünmektedir.","Reklam izlemekten pişman olmuş ama oyunu sürdürmüştür.","Ücretsiz görünen ürünlerin başka bir bedeli olduğunu düşünmektedir."],
+  secenekler: ["Reklam içeren bütün uygulamalardan uzak durulmasını savunmaktadır.","Parasız ürünlerin her zaman kazançlı olduğunu düşünmektedir.","Reklam izlemekten pişman olmuş ama oyunu sürdürmüştür.","Ücretsiz görünen ürünlerin başka bir bedeli olduğunu düşünmektedir."],
   dogru: 3,
   hatalar: [
     "Aşırı genelleme: anlatıcı bu oyundan vazgeçmiştir, ama reklam içeren 'bütün' uygulamaları reddettiği söylenmez; yalnızca bedeli sorgular.",
