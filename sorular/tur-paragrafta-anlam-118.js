@@ -117,7 +117,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   gorsel: null,
   secenekler: ["Elle yazının klavyeden daha hızlı olduğunu savunmaları","Notların sınav öncesi çalışmada işe yaradığını vurgulamaları","Not tutmanın sınıfta yapılması gerektiğini söylemeleri","Hızlı not tutmanın dinlemeyi kolaylaştırdığını belirtmeleri"],
   dogru: 1,
-  hatalar: ["Ters yön: II. metin hız konusunda klavyeyi öne çıkarır; I. metin ise hızdan hiç söz etmez.", null, "Aşırı genelleme: Her iki metin de notların sınavdan önce kullanılmasından söz eder; “yalnızca sınıf içinde” gibi bir sınırlama yapmaz.", "Metinde var ama ilgisiz: Hızlı yazı yalnızca II. metinde geçer; I. metinde yoktur, bu yüzden ortak yön olamaz."],
+  hatalar: ["Ters yön: II. metin hız konusunda klavyeyi öne çıkarır; I. metin ise hızdan hiç söz etmez.",null,"Aşırı genelleme: Her iki metin de notların sınavdan önce kullanılmasından söz eder; sınıfta yapılması gerektiği gibi bir sınırlama getirmez.","Metinde var ama ilgisiz: Hızlı yazı yalnızca II. metinde geçer; I. metinde yoktur, bu yüzden ortak yön olamaz."],
   aciklama: "Adım 1: Karşılaştırma sorusunda önce her metnin söylediğini ayrı ayrı yaz. I: elle yazmak notların daha iyi hatırlanmasını sağlar. II: klavye hızlıdır, notlar sınavdan önce taranabilir.\nAdım 2: Ortak yönü bul: İkisi de tuttuğumuz notların sınav öncesi çalışmada işe yaradığını söylüyor.\nAdım 3: “Metinde var ama ilgisiz” tuzağı: D yalnızca II. metinde geçer. “Şık iki metinde de var mı?” diye iki kez sor.\nSık yapılan hata: Yalnızca tek metinde geçen bir ayrıntıyı ortak yön saymak.\nCevap B."
 },
 {
@@ -297,7 +297,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   gorsel: null,
   secenekler: ["Tahmin yönteminin eğitimle öğrenildiğini belirtmeleri","Tahminlerin uzun vadede de kesinlikle doğru çıktığını belirtmeleri","Tahminde uydu görüntülerinden de yararlanıldığını belirtmeleri","Tahminin gözleme ya da ölçüme dayandığını belirtmeleri"],
   dogru: 3,
-  hatalar: ["Aşırı genelleme: I. metin deneyimle aktarılan bilgiden, II. metin uzmanlardan söz eder; ama hiçbiri yöntemin yalnızca eğitimle öğrenildiğini söylemez.", "Ters yön: I. metin her tahminin tutmadığını, II. metin süre uzadıkça hata payının büyüdüğünü söyler; ikisi de kesin doğruluğu reddeder.", "Metinde var ama ilgisiz: Uydular yalnızca II. metinde geçer; I. metinde yoktur, bu yüzden ortak görüş olamaz.", null],
+  hatalar: ["Aşırı genelleme: I. metin deneyimle aktarılan bilgiden, II. metin uzmanlardan söz eder; ama hiçbiri yöntemin eğitimle öğrenildiğini söylemez.","Ters yön: I. metin her tahminin tutmadığını, II. metin süre uzadıkça hata payının büyüdüğünü söyler; ikisi de kesin doğruluğu reddeder.","Metinde var ama ilgisiz: Uydular yalnızca II. metinde geçer; I. metinde yoktur, bu yüzden ortak görüş olamaz.",null],
   aciklama: "Adım 1: Her metni ayrı özetle. I: çiftçi gökyüzünü izleyerek (gözlem) tahmin yapar, tahminin hata payı vardır. II: uydu ve istasyon ölçümleri modellere girer, süre uzadıkça hata payı büyür.\nAdım 2: Ortak noktayı bul: İkisinde de tahmin, gözleme ya da ölçüme dayanıyor; ikisi de hata payını kabul ediyor.\nAdım 3: “Metinde var ama ilgisiz” tuzağı: C yalnızca II. metinde geçer. Ortak görüş sorusunda her şıkka sor: “I. metin bunu söylüyor mu? II. metin söylüyor mu?” İkisine de evet diyebildiğin tek şık D’dir.\nSık yapılan hata: Tek metne ait ayrıntıyı ortak görüş sanmak.\nCevap D."
 }
 );

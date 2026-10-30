@@ -213,7 +213,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   gorsel: null,
   secenekler: ["Çiftçiler her yıl en verimli bitkinin tohumunu ayırıp ekmiştir.","Çeşitlerin azalması, bitki hastalıkları sorununu ortadan kaldırmıştır.","Tohum bankaları, azalan çeşitleri koruyarak güvence sağlar.","Tohum bankalarında hastalıklı bitkilerin tohumu saklanır."],
   dogru: 2,
-  hatalar: ["Metinde var ama ilgisiz: Bu cümle parçanın başında sorunun nedenini anlatır; ana düşünce değildir.", "Ters yön: Parça, çeşidin azalmasının hastalık riskini artırdığını söylüyor.", null, "Ters yön: Bankalarda yerel çeşitlerin ve dirençli çeşitlerin tohumu saklanır; yalnızca hastalıklı bitkiler saklanmaz."],
+  hatalar: ["Metinde var ama ilgisiz: Bu cümle parçanın başında sorunun nedenini anlatır; ana düşünce değildir.","Ters yön: Parça, çeşidin azalmasının hastalık riskini artırdığını söylüyor.",null,"Ters yön: Bankalarda yerel çeşitlerin ve dirençli çeşitlerin tohumu saklanır; hastalıklı bitkilerin saklandığı söylenmez."],
   aciklama: "Adım 1: Parçanın düzeni: sorun (çeşit azalması ve hastalık riski), çözüm (tohum bankaları). Ana düşünce, çözümle sorunu birlikte özetler: Tohum bankaları çeşitleri koruyarak güvence sağlar.\nAdım 2: C bu özeti veriyor. B sorunun tersini söylüyor, D ise bankalarda neyin saklandığını yanlış aktarıyor.\nAdım 3: “Metinde var ama ilgisiz” tuzağı: A birinci cümlede açıkça yazıyor. “Şık metinde geçiyor mu?” yetmez; “Bu şık parçanın vardığı sonucu mu söylüyor, yoksa başlangıç bilgisini mi?” diye sor.\nSık yapılan hata: Parçanın başındaki bilgiyi ana düşünce sanmak.\nCevap C."
 },
 {
