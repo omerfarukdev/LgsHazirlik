@@ -54,6 +54,7 @@ window.LGS_HAP["soz-sanatlari"] = {
         "**Karşıtlık:** Birbirine **zıt kavramların** anlamı güçlendirmek için aynı sözde, aynı dizede ya da yan yana cümlelerde birlikte kullanılmasıdır.",
         "Zıt kavram çiftlerine örnek: gece – gündüz, ağlamak – gülmek, sıcak – soğuk, yakın – uzak, doğmak – ölmek.",
         "Örnek: “Evim yakın, yolum uzun.” Yakınlık ile uzaklık yan yana konmuş, bir çelişki duygusu yaratılmış.",
+        "Karşıtlık bazen **“kimi … kimi …”** kalıbıyla kurulur: “Kimi sevindi, kimi üzüldü.” Sevinmek ile üzülmek zıt olduğundan karşıtlık vardır.",
         "Tanıma sorusu: **“Anlamca birbirinin karşıtı iki kavram var mı ve bu anlam etkisi için birlikte kullanılmış mı?”**"
       ],
       dikkat: [
