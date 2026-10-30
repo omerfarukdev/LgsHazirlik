@@ -15,6 +15,7 @@ window.LGS_HAP["cumlede-anlam"] = {
       dikkat: [
         "**“İçin” iki ilişkiyi de kurabilir.** Ölçüt: “için”den önceki eylem **ulaşılmak istenen bir hedefse AMAÇ**; **var olan, gerçekleşmiş ya da önceden belli olmuş bir durumsa NEDEN** bildirir. “Fotoğraf çekmek için tepeye çıktık.” (hedef: amaç) · “Ödevini erken bitirdiği için parka gitti.” (olmuş durum: neden). Sağlama: “için” yerine “amacıyla” koy; anlam bozulmuyorsa amaçtır.",
         "**Gelecek zaman eki amaç demek değildir.** “Yarın sınav olacağı için erken yattı.” Sınav henüz yapılmadı ama erken yatmanın hedefi değil, önceden belli olan sebebidir: neden. “Kutu ağır olduğu için ikimiz taşıdık.” da var olan bir duruma dayanır: neden.",
+        "**“Diye” de iki ilişkiyi kurabilir.** Aynı ölçüt geçerli: “Çocuklar uyanmasın diye sesi kıstı.” (ulaşılmak istenen hedef: amaç) · “Yarın bayram diye çarşı kalabalıktı.” (önceden belli durum: neden).",
         "Bir addan sonra gelen “için” de neden bildirebilir: “Yardımın için teşekkür ederim.” Yardım zaten yapılmıştır; bu neden bildirir.",
         "**“-sa da” koşul değildir.** “Yorgun olsa da maçı sonuna kadar izledi.” cümlesinde şart yok; beklenenin tersine gerçekleşen bir durum var.",
         "**“-ınca” çoğu zaman zaman bildirir:** “Işıklar sönünce film başladı.” (Ne zaman?) Yalnızca “Niçin?” sorusuna cevap veriyorsa neden sayılır."
@@ -40,7 +41,8 @@ window.LGS_HAP["cumlede-anlam"] = {
         "Nesnel sayılmak için yargının **doğru çıkması gerekmez**; doğru olup olmadığının kontrol edilebilmesi yeter. “Kulüp toplantısı perşembe saat üçte yapılacak.” geleceğe aittir ama sınanabilir, bu yüzden nesneldir.",
         "Bir kural ya da zorunluluk (“Havuza girmeden önce duş almak gerekir.”) denetlenebildiği için nesneldir. Ama bir şeyi övmek, önermek ya da beğendiğini söylemek kişisel tutumdur, özneldir.",
         "Kendi yaşadığını anlatmak her zaman nesnellik değildir. “Salon bana çok soğuk geldi.” kişisel bir izlenimdir, öznel sayılır.",
-        "**Abartma**, bir durumu olduğundan çok büyük ya da küçük göstermektir: “Bu çanta bin kilo gelmiş!” · “Kuyruk dünyanın öbür ucuna kadar uzanıyordu.” Abartılı söz ölçülemez; bu yüzden öznel sayılır."
+        "**Abartma**, bir durumu olduğundan çok büyük ya da küçük göstermektir: “Bu çanta bin kilo gelmiş!” · “Kuyruk dünyanın öbür ucuna kadar uzanıyordu.” Abartılı söz ölçülemez; bu yüzden öznel sayılır.",
+        "**“Öyle … ki / o kadar … ki” kalıbı tek başına abartma değildir.** Sonuca bak: gerçekleşebiliyorsa abartma yoktur (“Öyle yorulmuştum ki hemen uyudum.”); gerçekte olamayacak bir ölçüye varıyorsa abartmadır (“Öyle güldük ki bina yerinden oynadı.”)."
       ],
       dikkat: [
         "**“Bence” yoksa hemen nesnel deme.** Değerlendirme sözcükleri gizli olabilir: “yılın en başarılı kitabı”, “inanılmaz lezzetli”. Her cümleye sor: “Bunu herkes aynı biçimde doğrulayabilir mi?”",
@@ -61,6 +63,18 @@ window.LGS_HAP["cumlede-anlam"] = {
         "**Tanım ile örneği ayır:** Tek bir örneği anlatan cümle “-dır” ile bitse de tanım değildir; tanım kavramın bütününü açıklar.",
         "**Her olumsuz değerlendirme ön yargı değildir.** Denedikten sonra verilen olumsuz yargı eleştiridir; ön yargıda belirleyici olan, yargının denemeden verilmesidir.",
         "Kararlılık için gelecek zaman yetmez: Kişi **kendi** kararını ve vazgeçmeyeceğini söylemelidir. Başkasının planını aktarmak bilgi vermektir."
+      ]
+    },
+    {
+      baslik: "Yazarın bakışı ve ayrıntının işlevi",
+      maddeler: [
+        "Yazar görüşünü çoğu zaman açıkça söylemez; **seçtiği sözcükler ve ayrıntılarla** sezdirir. Sor: “Yazar bunu iyi mi, kötü mü gösteriyor? Hangi sözcük bunu belli ediyor?” (“Dere yatağı betona gömülüp susturuldu” olumsuz, “Dere yatağı yeniden gün yüzüne çıktı” olumlu bakış taşır.)",
+        "**Ayrıntı soruları** “Bu ayrıntı neyi gösteriyor?” diye sorar. Davranıştan özelliği çıkar: Çırağı makası yanlış tutunca elini bırakıp yeniden gösteren berber sabırlıdır. Ayrıntının **doğrudan** dayandığı özelliği seç; dayanağı olmayan özelliği (cömert, hızlı…) seçme.",
+        "Yazar bir görüşü **sayı, örnek, gözlem ya da karşılaştırmayla** destekler. Sor: “Yazar görüşünü neyle güçlendiriyor?”",
+        "**İki yazar ya da iki cümle** karşılaştırılırken şuna bak: Biri olguyu aktarıyor (sayı, tarih, olay), öbürü değerlendirme ve duygu katıyor mu? Ya da biri yararı, öbürü zararı mı öne çıkarıyor? Haber gibi olguya dayanan bir metne kişisel değerlendirme (“gerçekten harika”) giren cümle nesnelliği bozar."
+      ],
+      dikkat: [
+        "**Yazarın bakışı ile anlatılan kişinin duygusu aynı şey değildir.** Kimin ağzından söylendiğine bak."
       ]
     },
     {
@@ -91,6 +105,7 @@ window.LGS_HAP["cumlede-anlam"] = {
       dikkat: [
         "**Ters yön:** “Bu bayram da bütün aile toplandı.” diyen, ailenin ilk kez toplandığını değil, önceki bayramlarda da toplandığını söyler.",
         "**Metinde olmayanı çıkarma:** Akla yatkın ama metinde dayanağı olmayan yargı çıkarılamaz. Her seçeneğe sor: “Bunu metindeki hangi sözcük gösteriyor?”",
+        "**“Yalnızca” bir yönü kapatır, öbür yönü açmaz.** “Kursa yalnızca yazılı sınavı geçenler girer.” → Sınavı geçemeyen giremez. Ama sınavı geçen herkesin gireceği çıkmaz; kontenjan gibi başka şartlar da olabilir. “Yalnızca” ile “her” ayrı şeylerdir.",
         "**Aşırı genelleme ve olasılık:** Bir kez olanı “her zaman” sanma. Kök “kesin olarak” diyorsa “olabilir” düzeyindeki yargıyı ele, metnin zorunlu kıldığını seç."
       ]
     },
@@ -111,6 +126,7 @@ window.LGS_HAP["cumlede-anlam"] = {
     "Dört cümle ya da numaralanmış cümleler verilir; “hangisinde amaç-sonuç ilişkisi vardır” gibi sorulur. Çeldiricilerin çoğu “için” içeren neden cümlesi ya da “-sa da, -ınca” gibi koşula benzeyen yapılardır.",
     "Zor sorularda iki ölçüt birleşir: “hem nesnel hem neden-sonuç” ya da “hem koşul hem öznel”. Yalnızca bir ölçütü sağlayan yarım doğru şıkları tek tek ele.",
     "Bir konuşma ya da kısa metin verilir, “hangisi çıkarılabilir / kesin olarak söylenebilir / çıkarılamaz” diye sorulur. Tuzaklar: ters yön, metinde olmayan bilgi, aşırı genelleme, olasılığı kesinlik sanma.",
+    "Bir yazı ya da iki kısa metin verilir; “yazar nasıl bakıyor”, “bu ayrıntı neyi gösteriyor”, “hangisi nesnelliği bozar” diye sorulur. Cevap, metindeki sözcük ve ayrıntıya dayanmalıdır.",
     "Metinde bir ya da iki boşluk bırakılır; sırasıyla hangi geçiş ifadelerinin geleceği ya da altı çizili ifadenin metne katkısı sorulur."
   ],
   yokla: [
