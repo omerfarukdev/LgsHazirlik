@@ -124,23 +124,12 @@ Cevap A.`
   kazanim: "M.8.5.1.2",
   kademe: 2,
   zorluk: 2,
-  soru: `Bir kavanozda aynı büyüklükte sakızlar vardır: 8 çilekli, 6 naneli, 8 limonlu ve 4 portakallı. Zeynep kavanozdan bakmadan bir sakız alacaktır.
-**Buna göre hangi iki çeşit sakızın alınma olasılığı birbirine eşittir?**`,
-  gorsel: null,
-  secenekler: ["Naneli ile limonlu sakız", "Çilekli ile limonlu sakız", "Çilekli ile naneli sakız", "Limonlu ile portakallı sakız"],
-  dogru: 1,
-  hatalar: [
-    "Naneli sakızlar 6, limonlu sakızlar 8 tanedir. Sayılar eşit olmadığı için olasılıklar da eşit değildir.",
-    null,
-    "Çilekli sakızlar 8, naneli sakızlar 6 tanedir. Sayılar eşit olmadığı için olasılıklar da eşit değildir.",
-    "Limonlu sakızlar 8, portakallı sakızlar 4 tanedir. Sayılar eşit olmadığı için olasılıklar da eşit değildir."
-  ],
-  aciklama: `Aynı kavanozdan seçimde sayıları eşit olan çeşitlerin olasılıkları da eşittir.
-Adım 1: Sakız sayılarını yaz: çilekli 8, naneli 6, limonlu 8, portakallı 4.
-Adım 2: Sayısı aynı olan çeşitleri bul: çilekli ve limonlu (ikisi de 8).
-Sağlama: Toplam 26 sakız vardır; çilekli ve limonlu için olasılık [[8|26]] = [[4|13]] olur.
-Sık yapılan hata: Yalnızca ilk iki çeşidi ya da yan yana yazılan çeşitleri karşılaştırmak.
-Cevap B.`
+  soru: "Bir okulda düzenlenen kitap çekilişine katılan öğrencilerin sınıflara ve cinsiyetlere göre sayıları tabloda verilmiştir. Katılan her öğrencinin adı birer kâğıda yazılıp aynı torbaya atılıyor ve torbadan rastgele bir kâğıt çekiliyor.\n**Buna göre aşağıdakilerden hangisi doğrudur?**",
+  gorsel: "<table class=\"tablo\"><tr><th>Sınıf</th><th>Kız</th><th>Erkek</th></tr><tr><td>8-A</td><td>12</td><td>9</td></tr><tr><td>8-B</td><td>9</td><td>12</td></tr></table>",
+  secenekler: ["Çekilen adın 8-B sınıfından bir kız öğrenciye ait olma olasılığı, 8-A sınıfından bir kız öğrenciye ait olma olasılığına eşittir.","Çekilen adın bir kız öğrenciye ait olma olasılığı, bir erkek öğrenciye ait olma olasılığından daha fazladır.","Çekilen adın 8-A sınıfından bir öğrenciye ait olma olasılığı ile 8-B sınıfından bir öğrenciye ait olma olasılığı eşittir.","Çekilen adın 8-A sınıfından bir erkek öğrenciye ait olma olasılığı, 8-B sınıfından bir erkek öğrenciye ait olma olasılığından daha fazladır."],
+  dogru: 2,
+  hatalar: ["Sayıları karıştırdın: 8-B'de 9, 8-A'da 12 kız var. Kâğıt sayıları farklıysa olasılıklar eşit olmaz.","Yalnızca 8-A satırına baktın. Torbada bütün okulun kâğıtları var: 12 + 9 = 21 kız, 9 + 12 = 21 erkek; iki olasılık eşittir.",null,"Tabloyu ters okudun: 8-A'da 9, 8-B'de 12 erkek var; 8-A'dan erkek çıkma olasılığı daha azdır."],
+  aciklama: "Adım 1: Torbada her öğrencinin kâğıdı bir kez bulunduğu için bir olayın olasılığı, o olaya uyan kâğıt sayısıyla karşılaştırılır: kâğıt sayısı çoksa olasılık daha fazla, eşitse olasılıklar eşittir.\nAdım 2: Sınıf toplamlarını bul: 8-A'da 12 + 9 = 21, 8-B'de 9 + 12 = 21 öğrenci. Kâğıt sayıları eşit olduğundan 8-A'dan ve 8-B'den çıkma olasılıkları eşittir. C seçeneği doğrudur.\nAdım 3: Öbür seçenekleri de kontrol et. Kız toplamı 12 + 9 = 21, erkek toplamı 9 + 12 = 21: eşit, B yanlış. 8-B'de 9 kız, 8-A'da 12 kız: eşit değil, A yanlış. 8-A'da 9 erkek, 8-B'de 12 erkek: 8-A'nınki daha az, D yanlış.\nSağlama: Torbada toplam 42 kâğıt var; 21 + 21 = 42.\nSık yapılan hata: Tablonun tek bir satırına ya da sütununa bakıp karar vermek. Sorulan grubun toplamını bütün tablodan çıkar.\nCevap C."
 },
 {
   id: "mat-ol-232",

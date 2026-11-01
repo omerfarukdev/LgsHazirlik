@@ -200,7 +200,7 @@ mat-eb-334 | M.8.3.3.1 | z3 | k3 | Bir çadır firması, ön yüzü ikizkenar ü
 mat-eb-335 | M.8.3.3.2 | z3 | k3 | Hazal, 24 cm × 36 cm boyutlarındaki dikdörtgen biçimli bir ders notunu fotokopi makinesinde art arda iki kez kopyalıyor. Makine ö… | ✓20 cm × 30 cm
 mat-eb-336 | M.8.3.3.1 | z3 | k3 | Bir çıkartma tasarımcısı, haç biçimli bir çıkartmanın (R) farklı boylarını kareli kâğıda çizmiştir. Karelerin kenarı hepsinde 1 b… | ✓M şekli
 mat-eb-337 | M.8.3.3.2 | z3 | k3 | Bir oyuncak yapımcısı, B köşesi dik açı olan ABC dik üçgeni biçimindeki bir rampanın küçültülmüş modelini (DEF) yapıyor ve ABC ~ … | ✓10
-mat-eb-338 | M.8.3.3.1 | z3 | k3 | Bir yapboz tasarımcısı, basamaklı R parçasının kalıbını kareli kâğıda çizmiş; ardından R'nin yanına dört parça daha çizmiştir. Ka… | ✓M şekli
+mat-eb-338 | M.8.3.3.1 | z3 | k3 | Bir okulun bahçesine, şekildeki gibi birbirine benzer iki dik üçgen biçiminde gölgelik tente gerilecektir. Şekilde eşit açılar ay… | ✓9
 mat-eb-339 | M.8.3.3.2 | z3 | k3 | Bir elektronik mağazası, dikdörtgen biçimli iki tablet ekranını tanıtıyor. Ekranlar benzerdir. Küçük ekranın kenarları 16 cm ve 1… | ✓140
 mat-eb-340 | M.8.3.3.1 | z3 | k3 | Elif, benzerlik konusunu çalışırken bazı şekil çiftlerini karşılaştırıyor. Aşağıdaki şekil çiftlerinden hangisi için "bu iki şeki… | ✓Kenar uzunlukları farklı olan iki düzgün beş…
 mat-eb-341 | M.8.3.3.1 | z3 | k3 | Bir okul rozeti ABC üçgeni biçimindedir ve ABC ~ DEF olacak biçimde büyütülerek DEF rozeti yapılıyor. ABC üçgeninde m(A) = 80°, m… | ✓36

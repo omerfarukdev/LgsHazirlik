@@ -410,30 +410,12 @@ Cevap D.`
   kazanim: "İTA.8.3.3",
   kademe: 3,
   zorluk: 3,
-  soru: `Aşağıdaki tabloda Temmuz 1921'de yaşanan iki gelişme verilmiştir. Kongrenin ertelenmesi önerilmiş, ancak Mustafa Kemal buna razı olmamıştır.
-**Bu bilgilere göre Mustafa Kemal'in kongrenin ertelenmesine razı olmaması aşağıdakilerden hangisini gösterir?**`,
-  gorsel: `<table class="tablo"><tr><th>Tarih</th><th>Gelişme</th></tr><tr><td>10-24 Temmuz 1921</td><td>Kütahya-Eskişehir Muharebeleri'nde Türk ordusu yenilerek Sakarya'nın doğusuna çekildi.</td></tr><tr><td>16 Temmuz 1921</td><td>Maarif Kongresi Ankara'da toplandı; açılışı Mustafa Kemal yaptı.</td></tr></table>`,
-  secenekler: [
-    "Askerî yenilginin önemsenmediğini",
-    "Millî Mücadele'yi eğitimin de belirleyeceği düşüncesini",
-    "Eğitim konularının savaş bittikten sonra ele alınacağını",
-    "Kongrenin yalnızca asker yetiştirmek için toplandığını"
-  ],
+  soru: "Aşağıdaki zaman şeridinde 1921 yılının Temmuz ayında yaşanan bazı gelişmeler gösterilmiştir.\nKongrenin açılış konuşmasında Mustafa Kemal, savaşın en sıkıntılı günlerinde bile eğitim meselesinin ertelenemeyeceğini belirtmiş; eski eğitim yöntemlerinin geri kalmışlığın önemli nedenlerinden olduğunu, yeni eğitimin millî ve tarihî karakterimize uygun, hurafelerden ve yabancı etkilerden uzak, çağın gereklerine göre düzenlenmesi gerektiğini söylemiştir.\n**Buna göre aşağıdaki yargılardan hangilerine ulaşılabilir?**\nI. Askerî bakımdan kritik bir dönemde bile eğitim sorunlarına öncelik verilmiştir.\nII. Maarif Kongresi'nde alınan kararlar Kütahya-Eskişehir Muharebeleri'nin seyrini değiştirmiştir.\nIII. Mustafa Kemal, eğitimi millî temellere dayanan ve çağdaş bir anlayışla yeniden kurmak istemiştir.",
+  gorsel: "<svg viewBox=\"0 0 560 150\" xmlns=\"http://www.w3.org/2000/svg\" font-size=\"14\" font-family=\"sans-serif\">\n  <text x=\"14\" y=\"22\" fill=\"currentColor\" font-weight=\"bold\">1921</text>\n  <line x1=\"20\" y1=\"80\" x2=\"536\" y2=\"80\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <polygon points=\"536,74 548,80 536,86\" fill=\"currentColor\"/>\n  <line x1=\"100\" y1=\"70\" x2=\"100\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">10 Temmuz</text>\n  <text x=\"100\" y=\"41\" text-anchor=\"middle\" fill=\"currentColor\">Kütahya-Eskişehir</text>\n  <text x=\"100\" y=\"59\" text-anchor=\"middle\" fill=\"currentColor\">Muharebeleri başladı</text>\n  <line x1=\"270\" y1=\"70\" x2=\"270\" y2=\"90\" stroke=\"var(--vurgu)\" stroke-width=\"3\"/>\n  <text x=\"270\" y=\"112\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">16 Temmuz</text>\n  <text x=\"270\" y=\"131\" text-anchor=\"middle\" fill=\"currentColor\">Maarif Kongresi Ankara'da açıldı</text>\n  <line x1=\"420\" y1=\"70\" x2=\"420\" y2=\"90\" stroke=\"currentColor\" stroke-width=\"2\"/>\n  <text x=\"420\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">25 Temmuz</text>\n  <text x=\"420\" y=\"41\" text-anchor=\"middle\" fill=\"currentColor\">Ordu, Sakarya'nın</text>\n  <text x=\"420\" y=\"59\" text-anchor=\"middle\" fill=\"currentColor\">doğusuna çekildi</text>\n</svg>",
+  secenekler: ["Yalnız I","I ve III","II ve III","I, II ve III"],
   dogru: 1,
-  hatalar: [
-    "Yanlış çıkarım: ordu yenilmişken kongreyi sürdürmek, yenilginin önemsenmediğini değil, eğitimin yenilgiye rağmen vazgeçilmez görüldüğünü gösterir.",
-    null,
-    "Ters yön: Mustafa Kemal'in ertelemeye razı olmaması, eğitimi savaştan sonraya bırakmadığını gösterir.",
-    "Metinde olmayan bilgi: kongrenin amacı millî ve çağdaş eğitimdir; asker yetiştirmekle sınırlı değildir."
-  ],
-  aciklama: `Bir karar, kararın verildiği koşullarla birlikte yorumlanır; zor koşulda alınan karar, önemsenen değeri daha net gösterir.
-Adım 1: Koşulu bul. Kongrenin toplandığı günlerde ordu Kütahya-Eskişehir'de yenilmiş, Sakarya'nın doğusuna çekilmiştir.
-Adım 2: Kararı bul. Mustafa Kemal ertelemeye razı olmamış, açılışı kendisi yapmıştır.
-Adım 3: İkisini birleştir. Savaşın en zor gününde bile eğitimi bırakmamak, eğitimi savaşın bir parçası saymaktır. Cehaletle savaş, düşmanla savaştan az önemli değildir.
-Adım 4: B bu çıkarımı verir. C ters yöndedir.
-Sağlama: Kongreden iki hafta sonra Tekâlif-i Millîye Emirleri çıktı; yani hem cephe hem cephe gerisi birlikte yürütüldü.
-Sık yapılan hata: Zor zamanda eğitimi "lüks" saymak.
-Cevap B.`
+  hatalar: ["III. yargıyı atladın. Konuşmadaki 'millî ve tarihî karakterimize uygun' ve 'çağın gereklerine göre' ifadeleri, eğitimin millî ve çağdaş temellerde kurulmak istendiğini gösterir.",null,"I. yargıyı atlayıp II'yi doğru saydın. Zaman şeridi kongrenin muharebeler sürerken toplandığını gösterir; kongre kararlarının savaşı etkilediğine dair hiçbir bilgi yoktur. Ordu 25 Temmuz'da Sakarya'nın doğusuna çekilmiştir.","II. yargıyı doğru saydın. Kongre eğitim konulu bir toplantıdır; aynı aya denk gelmesi, kararlarının muharebelerin seyrini değiştirdiği anlamına gelmez."],
+  aciklama: "Adım 1: Zaman şeridini oku: Yunan taarruzu 10 Temmuz'da başlıyor, kongre 16 Temmuz'da savaş sürerken açılıyor, ordu 25 Temmuz'da geri çekiliyor. Yani kongre, cephede durumun en zor olduğu günlerde toplanmıştır.\nAdım 2: I. yargı: Savaşın en sıkıntılı günlerinde kongre ertelenmemiş, Mustafa Kemal 'eğitim meselesi ertelenemez' demiştir. Eğitime öncelik verildiği hem şeritten hem konuşmadan çıkar. Ulaşılır.\nAdım 3: II. yargı: Belgelerde kongre kararlarının cepheyle bir ilişkisi anlatılmıyor; kongre eğitim üzerinedir. Üstelik ordu, kongreden dokuz gün sonra geri çekilmiştir. Bu yargı belgeye eklenmiş bir sonuçtur. Ulaşılamaz.\nAdım 4: III. yargı: 'millî ve tarihî karakterimize uygun' sözü millî eğitimi, 'hurafelerden uzak, çağın gereklerine göre' sözü çağdaş eğitimi anlatır. Ulaşılır.\nSağlama: Kazanım da bunu söyler: Millî Mücadele'nin zor bir döneminde Maarif Kongresi'ni toplayan Atatürk, millî ve çağdaş eğitime önem vermiştir.\nSık yapılan hata: Aynı zaman diliminde olan iki olayı neden-sonuç ilişkisiyle bağlamak.\nCevap B."
 },
 {
   id: "ink-u3-340",

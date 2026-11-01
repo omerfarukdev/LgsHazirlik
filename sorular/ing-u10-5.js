@@ -713,30 +713,12 @@ Cevap D.`
   kazanim: "E8.10.R1",
   kademe: 3,
   zorluk: 3,
-  soru: `The table shows the main risks in four towns for the year 2040.
-
-**Which one is true according to the table?**`,
-  gorsel: `<table class="tablo"><tr><th>Town</th><th>Main risk in 2040</th><th>Reason</th></tr><tr><td>Seaside Town</td><td>flood</td><td>The sea level will rise.</td></tr><tr><td>Hill Village</td><td>landslide</td><td>There will be fewer trees.</td></tr><tr><td>Green Valley</td><td>drought</td><td>There will be less rain.</td></tr><tr><td>Snowy Peak</td><td>avalanche</td><td>There will be heavy snow.</td></tr></table>`,
-  secenekler: [
-    `Hill Village will have a drought because there will be less rain.`,
-    `Snowy Peak will have avalanches because there will be heavy snow.`,
-    `Green Valley will have a flood because the sea level will rise.`,
-    `Seaside Town will have an avalanche because there will be fewer trees.`
-  ],
-  dogru: 1,
-  hatalar: [
-    `Satırları karıştırma: "less rain" nedeni ve drought riski Green Valley'e ait; Hill Village'in riski toprak kayması.`,
-    null,
-    `İki satırı birleştirme: sel ve deniz seviyesi Seaside Town'a, kuraklık Green Valley'e aittir.`,
-    `Karışık eşleşme: Seaside Town'ın riski sel; ağaç azlığı Hill Village'in nedenidir.`
-  ],
-  aciklama: `Tablo sorularında şıktaki **kasaba adı + risk + neden** üçlüsünü ilgili satırla karşılaştır.
-Adım 1: Seaside Town: flood, deniz seviyesi yükselecek. Hill Village: landslide, ağaçlar azalacak.
-Adım 2: Green Valley: drought, yağmur azalacak. Snowy Peak: avalanche, çok kar yağacak.
-Adım 3: A'da Hill Village'e Green Valley'in riski verilmiş. C ve D'de de risk ya da neden başka satırdan alınmış.
-Adım 4: B'de Snowy Peak, avalanche ve heavy snow aynı satırda; tamamen doğru.
-Sık yapılan hata: Satır adını okumadan yalnızca risk ya da nedene bakmak.
-Cevap B.`
+  soru: "A news website published the table below about the natural disasters of last year.\n**According to the table, which of the following is NOT true?**",
+  gorsel: "<table class=\"tablo\"><tr><th>Place</th><th>Disaster</th><th>Month</th><th>What happened</th></tr><tr><td>Green Valley</td><td>Flood</td><td>March</td><td>300 houses were under water; roads were closed for a week.</td></tr><tr><td>Snowy Hills</td><td>Avalanche</td><td>January</td><td>Two skiers were injured; the ski resort was closed for ten days.</td></tr><tr><td>Sunny Coast</td><td>Drought</td><td>July – August</td><td>Farmers lost half of their corn because there was no rain for two months.</td></tr><tr><td>Windy Town</td><td>Tornado</td><td>September</td><td>Many roofs were damaged, but nobody was hurt.</td></tr></table>",
+  secenekler: ["The tornado in Windy Town killed some people.","The avalanche happened in winter and two people were injured.","Farmers in Sunny Coast suffered because of the dry weather.","The flood in Green Valley happened two months after the avalanche."],
+  dogru: 0,
+  hatalar: [null,"Tabloda doğru: Avalanche (çığ) January (Ocak, kış) ayında olmuş ve 'two skiers were injured' yazıyor; bu cümle doğrudur, aranan yanlış cümle değildir.","Tabloda doğru: Drought (kuraklık) ve 'no rain for two months' ifadesi, 'dry weather' ile aynı anlama gelir; çiftçiler mısırlarının yarısını kaybetmiş (suffered).","Tabloda doğru: Avalanche January, flood March; Ocak'tan iki ay sonra Mart gelir."],
+  aciklama: "Adım 1: Soru 'NOT true' diyor; tablodaki bilgiyle çelişen tek cümleyi arıyorsun. Her seçeneği tablonun ilgili satırıyla karşılaştır.\nAdım 2: A: Windy Town satırında 'nobody was hurt' (kimse yaralanmadı) yazıyor; 'killed some people' (bazı insanları öldürdü) bununla çelişir. Yanlış cümle budur.\nAdım 3: B: January kış ayıdır, 'two skiers were injured' tabloda var; doğru. C: 'no rain for two months' = dry weather; çiftçiler ürün kaybettiği için 'suffered'; doğru. D: January → March arası iki ay; doğru.\nSağlama: Doğru bulduğun cümleleri tabloda altını çizerek göster; A için gösterebildiğin bilgi tam tersini söylüyor.\nSık yapılan hata: 'NOT' sözcüğünü atlayıp tabloya uyan ilk cümleyi işaretlemek. Anahtar sözcükler: injured = yaralı, hurt = incinmiş/yaralı, drought = kuraklık, damaged = hasar görmüş.\nCevap A."
 },
 {
   id: "ing-u10-349",

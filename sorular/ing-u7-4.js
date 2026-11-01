@@ -182,26 +182,12 @@ Cevap A.`
   "kazanim": "E8.7.R1",
   "kademe": 2,
   "zorluk": 2,
-  "soru": `**Which person is probably staying in an all-inclusive hotel?**`,
+  "soru": "Read the postcard.\nDear Ela,\nGreetings from Mardin! We arrived two days ago. The old stone houses on the hill are fascinating, and the view of the plain at sunset is incredible. Yesterday we visited an ancient monastery outside the city. The weather is really hot, so we walk around in the mornings and rest in the afternoons. We are staying at a small bed and breakfast in the old town; I'd rather stay here than in a big hotel because the owners cook delicious local food. Tomorrow we are going to a local market to buy some gifts.\nSee you soon,\nZeynep\n**According to the postcard, Zeynep - - - -.**",
   "gorsel": null,
-  "secenekler": [
-    `Leyla has dinner in a restaurant in town every night.`,
-    `Omar pays extra money for each meal at the hotel.`,
-    `Nina has all her meals at the hotel and pays nothing extra.`,
-    `Pablo buys food from a market and cooks it in his room.`
-  ],
-  "dogru": 2,
-  "hatalar": [
-    `Leyla yemeği şehirdeki lokantada yiyor ve ayrıca ödüyor; her şey dahil olsaydı otelde yerdi.`,
-    `Omar her öğün için ek para ödüyor; bu, her şey dahil olmadığını gösterir.`,
-    null,
-    `Pablo yemeğini kendisi alıp pişiriyor; otelin fiyatına yemek dahil değil.`
-  ],
-  "aciklama": `Adım 1: "All-inclusive" = her şey dahil. Yemek ve içecek otel fiyatının içindedir.
-Adım 2: Bu yüzden misafir yemeklerini otelde yer ve ayrıca para ödemez.
-Adım 3: Yalnız Nina'nın cümlesi bunu söylüyor. Diğerleri yemek için ayrıca para harcıyor.
-Sağlama: "pays nothing extra" = ek para ödemiyor.
-Cevap C.`
+  "secenekler": ["prefers big hotels to bed and breakfasts","thinks the stone houses are fascinating","is going to visit the monastery tomorrow","complains about the cold weather"],
+  "dogru": 1,
+  "hatalar": ["Ters okudun: 'I'd rather stay here than in a big hotel' cümlesi küçük pansiyonu (bed and breakfast) tercih ettiğini söylüyor.",null,"Zamanı karıştırdın: Manastırı dün (yesterday) ziyaret etmişler; yarın (tomorrow) pazara gidecekler.","Hava 'really hot' (çok sıcak); kartta soğuktan şikâyet yok."],
+  "aciklama": "Adım 1: Kartta belirli bir bilgiyi bulman isteniyor; her seçeneği kartta ara ve zaman sözcüklerine (yesterday, tomorrow) dikkat et.\nAdım 2: B: 'The old stone houses on the hill are fascinating' cümlesi doğrudan kartta var. Doğru.\nAdım 3: A: 'I'd rather stay here than in a big hotel' → büyük oteli değil pansiyonu tercih ediyor; tersi. C: Manastır 'yesterday' ziyaret edilmiş, yarınki plan 'local market'; zaman yanlış. D: 'really hot' yazıyor; soğuk değil, sıcak.\nSağlama: Doğru seçeneğin sözcükleri kartta neredeyse aynen geçiyor: stone houses, fascinating.\nSık yapılan hata: 'I'd rather X than Y' kalıbında tercih edileni (X) ve edilmeyeni (Y) karıştırmak.\nCevap B."
 },
 {
   "id": "ing-u7-234",

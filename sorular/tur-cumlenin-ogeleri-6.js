@@ -517,31 +517,12 @@ Cevap B.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 3,
-  soru: `Mahalle bostanında yetişen sebzeler cumartesi sabahları toplanır. Bir öğrenciye "Bostanın domateslerini bu sabah sepetlere kim doldurdu?" sorusu sorulmuş ve öğrenci aşağıdaki cümlelerle cevap vermiştir. Türkçede sorulan öge, cevapta yükleme yaklaştırılır.
-**Buna göre bu cevaplardan hangisinde sorunun cevabı olan öge vurgulanmıştır?**`,
+  soru: "(I) Pazarcılar sabahın ilk ışıklarında tezgâhlarını kurdu. (II) Meydandaki çınarın gölgesi öğleye doğru iyice kısaldı. (III) Komşumuz Hatice Teyze kasasını dolduran kirazları küçük sepetlere boşalttı. (IV) Çocuklar simitçiyi her zamanki gürültüyle karşıladı.\n**Bu metinde numaralanmış cümlelerin hangisinde yer tamlayıcısı vardır?**",
   gorsel: null,
-  secenekler: [
-    `Lale bu sabah sepetlere domatesleri doldurdu.`,
-    `Lale domatesleri bu sabah sepetlere doldurdu.`,
-    `Lale domatesleri sepetlere bu sabah doldurdu.`,
-    `Domatesleri bu sabah sepetlere Lale doldurdu.`
-  ],
-  dogru: 3,
-  hatalar: [
-    `Nesneyi vurgulanmış sanma: bu cümlede yükleme en yakın söz 'domatesleri'dir; vurgulanan öge nesnedir; sorulan 'kim' ise özneyi ister.`,
-    `Yer tamlayıcısını vurgulanmış sanma: bu cümlede yükleme en yakın söz 'sepetlere'dir; vurgulanan öge yer tamlayıcısıdır.`,
-    `Zarf tamlayıcısını vurgulanmış sanma: bu cümlede yükleme en yakın söz 'bu sabah'tır; vurgulanan öge zarf tamlayıcısıdır.`,
-    null
-  ],
-  aciklama: `Soruda sorulan öge "kim" ile özneyi ister. Cevapta bu ögenin yükleme en yakın yerde durması, sorulanın vurgulandığını gösterir.
-Adım 1: Soru "kim" ile başlıyor; aranan öge öznedir: 'Lale'.
-Adım 2: Her cümlede yüklemden hemen önceki sözü bul.
-Adım 3: 'Lale bu sabah sepetlere domatesleri doldurdu.' → yüklemden önce 'domatesleri' var: vurgu nesnede.
-Adım 4: 'Lale domatesleri bu sabah sepetlere doldurdu.' → yüklemden önce 'sepetlere' var: vurgu yer tamlayıcısında.
-Adım 5: 'Lale domatesleri sepetlere bu sabah doldurdu.' → yüklemden önce 'bu sabah' var: vurgu zarf tamlayıcısında.
-Adım 6: 'Domatesleri bu sabah sepetlere Lale doldurdu.' → yüklemden önce 'Lale' var: vurgu öznede. Aradığın cümle budur.
-Sağlama: Sorunun cevabı olan 'Lale' sözü yükleme yaklaştırıldığında cümle bu soruya verilmiş doğal bir cevap olur.
-Cevap D.`
+  secenekler: ["I","II","III","IV"],
+  dogru: 2,
+  hatalar: ["'sabahın ilk ışıklarında' sözü '-de' eki almış ama 'Ne zaman kurdu?' sorusuna cevap verir; zaman bildirdiği için zarf tamlayıcısıdır. Eke değil, soruya bak.","'Meydandaki' sözü '-ki' ekiyle sıfat olmuş, 'çınarın gölgesi'ni niteler ve öznenin içinde kalır; 'öğleye doğru' ise 'Ne zaman?' sorusuna cevap veren zarf tamlayıcısıdır.",null,"'her zamanki gürültüyle' sözü 'Nasıl karşıladı?' sorusuna cevap verir; '-le' ekiyle durum bildiren bu söz zarf tamlayıcısıdır."],
+  aciklama: "Adım 1: Yer tamlayıcısı, yükleme sorulan 'Nereye? Nerede? Nereden? Kime? Kimde? Kimden?' sorularına cevap veren ve yalnızca '-e, -de, -den' eklerinden birini alan ögedir. Ölçüt ek değil, sorudur: '-de' ekli bir söz zaman bildiriyorsa zarf tamlayıcısı olur.\nAdım 2: I. cümle: 'kurdu' yüklem; 'Kim kurdu?' pazarcılar (özne); 'Neyi?' tezgâhlarını (nesne); 'sabahın ilk ışıklarında' → 'Ne zaman?' → zarf tamlayıcısı. Yer tamlayıcısı yok.\nAdım 3: II. cümle: 'kısaldı' yüklem; 'Ne kısaldı?' meydandaki çınarın gölgesi (özne; 'meydandaki' sıfattır, öznenin içinde kalır); 'öğleye doğru' → 'Ne zaman?'; 'iyice' → 'Ne kadar?' → zarf tamlayıcıları. Yer tamlayıcısı yok.\nAdım 4: III. cümle: 'boşalttı' yüklem; 'Kim?' komşumuz Hatice Teyze (özne); 'Neyi?' kasasını dolduran kirazları (nesne; fiilimsi öbeği bölünmez); 'Nereye boşalttı?' küçük sepetlere → yer tamlayıcısı. Var.\nAdım 5: IV. cümle: 'karşıladı' yüklem; 'Kim?' çocuklar; 'Kimi?' simitçiyi; 'Nasıl?' her zamanki gürültüyle → zarf tamlayıcısı. Yer tamlayıcısı yok.\nSağlama: 'küçük sepetlere' sözünü cümleden çıkarınca 'Nereye?' sorusu cevapsız kalıyor; o öge yer tamlayıcısıdır.\nSık yapılan hata: '-de, -den' eki alan her sözü yer tamlayıcısı sanmak. 'ışıklarında' zaman, 'meydandaki' sıfat, 'gürültüyle' durum bildirir.\nCevap C."
 },
 {
   id: "tur-og-344",

@@ -68,30 +68,12 @@ Cevap A.`
   kazanim: "F.8.2.1.3",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir araştırmacı, hücrede hazır bulunan nükleotidler arasında sitozin nükleotidi bulunmayan varsayımsal bir hücre tasarlamıştır. Bu hücrede adenin, timin ve guanin nükleotidleri bol miktarda vardır. Hücre bölünmeye hazırlanırken DNA'nın bir bölümünde iki zincir ayrılmış ve eski zincirlerden biri kalıp olarak kullanılmaya başlamıştır. Kalıp olan zincirin bazları şöyledir:
-Eski zincir: A – G – C – T – G – T
-**Buna göre bu zincirin karşısında yeni zincirin kurulmasıyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
-  gorsel: null,
-  secenekler: [
-    "A bazlarının karşısı boş kalır, diğer basamaklar tamamlanır.",
-    "C bazlarının karşısı boş kalır, diğer basamaklar tamamlanır.",
-    "Yeni zincirin bütün basamakları tamamlanır.",
-    "G bazlarının karşısı boş kalır, diğer basamaklar tamamlanır."
-  ],
-  dogru: 3,
-  hatalar: [
-    "Eşleşmeyi yanlış kurma: adeninin karşısına timin gelir ve timin nükleotidi bol bulunur; bu basamaklar tamamlanır.",
-    "Kalıptaki baz ile karşısına gelecek nükleotidi karıştırma: C bazının karşısına guanin nükleotidi gelir, o da ortamda vardır.",
-    "Eksik nükleotidi hesaba katmama: guaninin karşısına gelmesi gereken sitozin nükleotidi hücrede bulunmadığı için bazı basamaklar tamamlanamaz.",
-    null
-  ],
-  aciklama: `Eşlenmede kalıp zincirin her bazının karşısına eşi olan baz gelir: A – T, G – C. Karşıya gelecek nükleotid hazır bulunmuyorsa o basamak boş kalır.
-Adım 1: Kalıbın karşısına gelecek yeni zinciri yaz: A → T, G → C, C → G, T → A, G → C, T → A. Yeni zincir T – C – G – A – C – A olmalıdır.
-Adım 2: Hücrede sitozin nükleotidi yok. Yeni zincirde sitozinin gerekli olduğu basamakları bul: 2. ve 5. basamaklar.
-Adım 3: Bu basamaklar, kalıpta guaninin bulunduğu basamaklardır. Çünkü guaninin eşi sitozindir.
-Adım 4: Timin, guanin ve adenin nükleotidleri bol olduğu için diğer basamaklar tamamlanır.
-Sık yapılan hata: Eksik olan nükleotid (sitozin) ile kalıptaki bazı (C) karıştırmak. Kalıpta C varsa karşısına gelecek nükleotid guanindir ve o vardır.
-Cevap D.`
+  soru: "Bir öğrenci, DNA'nın kendini eşlemesini modellemek için üzerine organik baz harfleri yazılmış iki kırmızı kâğıt şerit hazırlıyor. Şeritler karşılıklı eşleşmiş hâlde bir DNA molekülünü temsil ediyor. Öğrenci iki kırmızı şeridi birbirinden ayırıyor; sonra her kırmızı şeridin karşısına, harflerini kendisinin yazdığı birer mavi şerit yerleştiriyor. Şeritlerdeki harf dizilimleri tabloda verilmiştir.\n**Buna göre bu modelle ilgili aşağıdaki yargılardan hangileri doğrudur?**\nI. Mavi şeritler yerleştirilirken kırmızı şeritlerin üzerindeki harfler yeni harflerle değiştirilmiştir.\nII. 1 numaralı kırmızı şerit ile karşısına konan mavi şerit, eşleşme kuralına uygun bir DNA modeli oluşturur.\nIII. 2 numaralı kırmızı şeridin karşısındaki mavi şeritte beşinci basamak eşleşme kuralına aykırıdır; hücrede eşlenme sırasında ortaya çıkan böyle hatalar çoğunlukla onarılır.",
+  gorsel: "<table class=\"tablo\"><tr><th>Şerit</th><th>Harf dizilimi</th></tr><tr><td>Kırmızı 1</td><td>A – T – G – C – C – A</td></tr><tr><td>Kırmızı 2</td><td>T – A – C – G – G – T</td></tr><tr><td>Kırmızı 1'in karşısına konan mavi şerit</td><td>T – A – C – G – G – T</td></tr><tr><td>Kırmızı 2'nin karşısına konan mavi şerit</td><td>A – T – G – C – G – A</td></tr></table>",
+  secenekler: ["Yalnız II","I ve II","II ve III","I, II ve III"],
+  dogru: 2,
+  hatalar: ["III. yargıyı yanlış saydın. Kırmızı 2'nin beşinci harfi G, karşısındaki mavi şeridin beşinci harfi de G; G'nin karşısına C gelmeliydi. Hücre eşlenme hatalarının çoğunu onarır.","I. yargıyı doğru saydın. Eşlenmede eski zincirler kalıp olarak kullanılır, harfleri değişmez; tabloda kırmızı şeritler başlangıçtaki hâliyle duruyor.",null,"I. yargıyı doğru saydın. Yeni zincir, eski zincirin karşısına kurulur; eski zincirin harflerine dokunulmaz."],
+  aciklama: "Adım 1: DNA kendini eşlerken iki zincir birbirinden ayrılır, her eski zincir kalıp olur ve karşısına eşleşme kuralına (A – T, G – C) göre yeni bir zincir kurulur. Sonunda her DNA'da bir eski, bir yeni zincir bulunur.\nAdım 2: I. yargı: Kalıp zincirin harfleri değişmez; tabloda da kırmızı şeritlerin dizilimi başlangıçtaki gibidir. Yanlış.\nAdım 3: II. yargı: Kırmızı 1'deki A – T – G – C – C – A dizisinin karşısına sırayla T – A – C – G – G – T gelmelidir; mavi şerit tam olarak budur. Kurala uygun. Doğru.\nAdım 4: III. yargı: Kırmızı 2'deki T – A – C – G – G – T dizisinin karşısında A – T – G – C – C – A olmalıydı. Mavi şeritte beşinci basamak G; G'nin karşısına G konmuş, bu kurala aykırıdır. Hücrede eşlenme sırasında yanlış yerleşen bazların çoğu çıkarılıp doğrusuyla değiştirilir, yani onarılır. Doğru.\nSağlama: Doğru yapılsaydı iki mavi şerit birbirinin aynısı değil, karşıdaki eski şeritlerin aynısı olurdu: mavi 1 = kırmızı 2, mavi 2 = kırmızı 1.\nSık yapılan hata: Yeni zincirin kalıbın kopyası olduğunu sanmak; yeni zincir kalıbın eşidir.\nCevap C."
 },
 {
   id: "fen-dn-329",

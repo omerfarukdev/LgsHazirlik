@@ -210,7 +210,7 @@ ing-u10-344 | E8.10.L1 | z3 | k3 | Read what a TV reporter says about a village 
 ing-u10-345 | E8.10.L1 | z3 | k3 | A guide at a nature park is speaking to a group of students. "Look at this hill. There are no trees on it. When it rains, the wat… | ✓erosion
 ing-u10-346 | E8.10.R1 | z3 | k3 | Look at the camp rules. Emma's tent is next to a river. It starts to rain heavily at night, but the wind is not strong. What shou… | ✓Move her tent away from the river.
 ing-u10-347 | E8.10.R1 | z3 | k3 | Read Ines's blog. "My grandfather's village is in the mountains. When he was young, there was snow from November to April. Now th… | ✓The river is almost dry in August.
-ing-u10-348 | E8.10.R1 | z3 | k3 | The table shows the main risks in four towns for the year 2040. Which one is true according to the table? | ✓Snowy Peak will have avalanches because ther…
+ing-u10-348 | E8.10.R1 | z3 | k3 | A news website published the table below about the natural disasters of last year. According to the table, which of the following… | ✓The tornado in Windy Town killed some people.
 ing-u10-349 | E8.10.R1 | z3 | k3 | Read the news. "Mount Karan, a volcano near the village of Ardel, started to send smoke into the sky on Tuesday. The scientists s… | ✓All the tourists left the hotel on Tuesday.
 ing-u10-350 | E8.10.R1 | z3 | k3 | Read the e-mail. "Hi Tuna, I'm writing from my uncle's farm. The river came into the fields last night after the heavy rain. The … | ✓A flood covered the vegetable fields.
 ing-u10-351 | E8.10.R1 | z3 | k3 | Read the brochure. "TSUNAMI SAFETY. A tsunami can come after an earthquake under the sea. When the ground shakes strongly near th… | ✓Swimming away from the coast

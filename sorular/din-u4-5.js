@@ -460,29 +460,12 @@ Cevap A.`
   kazanim: "DKAB.8.4.2",
   kademe: 3,
   zorluk: 3,
-  soru: `Hz. Muhammed (s.a.v.), Mekke'nin fethinde güçlü bir konumdayken, kendisine yıllarca eziyet edenlere genel af ilan etmiştir.
-Sınıf başkanlığı seçimini kazanan Yağmur'u, geçen yıl sürekli dışlayan Efe bu durumdan çekinmektedir.
-**Yağmur'un Hz. Muhammed'in (s.a.v.) tutumuna en uygun davranışı aşağıdakilerden hangisidir?**`,
+  soru: "Hz. Muhammed (s.a.v.), hata yapan kişileri azarlamak yerine onlara doğruyu nazikçe öğretmiş; kendisine kötülük edenleri, güç elindeyken bile bağışlamıştır.\nMahalle bakkalı Nuri Amca bir akşam, dükkânından çikolata alıp parasını ödemeden çıkmaya çalışan bir çocuğu fark eder. Bağırmaz; çocuğu yanına çağırıp sakince konuşur. Çocuğun o gün hiçbir şey yemediğini öğrenince ona bir sandviç hazırlar. Sonra izinsiz bir şey almanın yanlış olduğunu anlatır ve olayı ailesine ya da komşulara söylemeyeceğini belirtir. Çocuktan, bir saat dükkânda rafların düzenlenmesine yardım etmesini ister; ayrılırken de \"Bir daha acıktığında gelir, söylersin.\" der.\n**Nuri Amca'nın tutumuyla ilgili aşağıdakilerden hangisi __söylenemez__?**",
   gorsel: null,
-  secenekler: [
-    "Efe'yi, dışlandığı süre kadar etkinliklerden uzak tutmak",
-    "Efe'nin geçmiş davranışını herkese hatırlatıp özür dilemesini şart koşmak",
-    "Efe'yi geçmişteki davranışı yüzünden cezalandırmadan bütün sınıf çalışmalarına katmak",
-    "Efe'yle konuşmayı bırakıp görevlerini başkasına vermek"
-  ],
+  secenekler: ["Hatayı görmezden gelmeden bağışlamıştır.","Merhametini, çocuğun ihtiyacını fark ederek göstermiştir.","Çocuğun yaptığını hoş görmüş, karşılığında hiçbir şey istememiştir.","Affetmeyi, yanlışı düzeltme çabasıyla birlikte uygulamıştır."],
   dogru: 2,
-  hatalar: [
-    "İntikam alma: Hz. Muhammed güçlüyken bile karşılık vermemiş, genel af ilan etmiştir; aynı süre dışlamak öç almaktır.",
-    "Affı şarta bağlama ve küçük düşürme: genel af, geçmişin herkese hatırlatılmasını ve özür şartını içermez.",
-    null,
-    "Görmezden gelme: konuşmayı kesmek ve görev dışında bırakmak affetmek değil, cezalandırmanın başka biçimidir."
-  ],
-  aciklama: `Af, güç elindeyken de karşılık vermeyip bağışlamaktır. Hz. Muhammed (s.a.v.) Mekke'nin fethinde, güçlüyken, yıllarca eziyet edenlere genel af ilan etmiş ve şehirde büyük bir çatışma çıkmadan barış sağlanmıştır.
-Adım 1: Yağmur artık güçlü konumdadır; Efe de geçmişte onu dışlamıştır. Durum fetihteki durumla benzerdir.
-Adım 2: Öç almak (A), küçük düşürmek (B) ve soğuk davranmak (D) affın karşıtıdır.
-Adım 3: Cezalandırmadan eşit biçimde katmak, fetihteki genel af anlayışının günlük hayattaki karşılığıdır.
-Sağlama: Af, ilişkiyi onarır ve barışı sağlar.
-Cevap C.`
+  hatalar: ["Olayda var: Nuri Amca hem 'izinsiz almak yanlış' demiş hem de olayı kimseye söylememiş; yani hatayı görmezden gelmemiş ama bağışlamış.","Olayda var: Çocuğun aç olduğunu öğrenince ona yemek hazırlaması, merhametini ihtiyaca göre göstermesidir.",null,"Olayda var: Yanlışı anlatması ve rafta yardım istemesi, affı düzeltme çabasıyla birleştirdiğini gösterir."],
+  aciklama: "Adım 1: Affetmek, yapılan kötülüğü bağışlamak ve karşılık vermemektir; merhamet ise başkasının sıkıntısını fark edip ona şefkatle yaklaşmaktır. Hz. Muhammed (s.a.v.) hata yapanı azarlamadan doğruyu öğretmiş, affı yanlışı onaylamak olarak görmemiştir.\nAdım 2: Olaydaki davranışları ayır: bağırmamak ve olayı kimseye söylememek → af; aç olduğunu öğrenip yemek vermek → merhamet; yanlış olduğunu anlatmak ve rafta yardım istemek → hatayı düzeltme, sorumluluk verme.\nAdım 3: A, B ve D bu davranışlarla birebir örtüşür. C ise iki noktada olayla çelişir: Nuri Amca davranışı hoş görmemiş, 'yanlış' demiştir; üstelik karşılığında bir saat yardım istemiştir. 'Hiçbir şey istememiştir' yargısı olayı aşar.\nSağlama: Af ile hoş görme aynı şey değildir: Nuri Amca çocuğu cezalandırmadı ama yaptığının doğru olduğunu da söylemedi.\nSık yapılan hata: Bağışlayan kişinin yanlışı onayladığını düşünmek. Hz. Muhammed (s.a.v.) de bedevîyi azarlamamış ama mescidin ne için olduğunu ona anlatmıştır.\nCevap C."
 },
 {
   id: "din-u4-344",

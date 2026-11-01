@@ -222,7 +222,7 @@ mat-dd-356 | M.8.2.2.1 | z4 | k3 | Bir sınıftaki öğrenciler sıralara oturtu
 mat-dd-357 | M.8.2.2.5 | z4 | k3 | Bir müzeye girişte iki seçenek vardır: K, önce bir müze kartı alıp sonra her girişte indirimli ücret ödemek; B, her girişte tek b… | ✓9
 mat-dd-358 | M.8.2.2.3 | z4 | k3 | Aşağıdaki tabloda x'in aynı değerleri için iki farklı doğrusal ilişkiye ait y değerleri verilmiştir. x = 8 iken bu iki ilişkinin … | ✓70
 mat-dd-359 | M.8.2.2.2 | z4 | k3 | A(3a − 9, 2a − 2) noktası x ekseni üzerinde, B(b + 4, b + 8) noktası ise y ekseni üzerindedir. Orijin O noktası olmak üzere koord… | ✓12
-mat-dd-360 | M.8.2.2.6 | z4 | k3 | Bir dağ yolunun ilk bölümünün eğimi [[3|40]], ikinci bölümünün eğimi [[1|20]]'dir. İlk bölümün yatay uzunluğu 3 km, ikinci bölümü… | ✓325
+mat-dd-360 | M.8.2.2.6 | z4 | k3 | Bir belediye, zemin ile üst geçit platformu arasına şekildeki gibi iki rampa parçası ve bu parçaların arasında yatay bir dinlenme… | ✓140
 mat-dd-361 | M.8.2.2.4 | z4 | k3 | 2x + 3y = 30 doğrusu üzerindeki noktalardan koordinatlarının ikisi de pozitif tam sayı olan kaç tanesi vardır? | ✓4
 mat-dd-362 | M.8.2.2.1 | z4 | k3 | Ardışık üç tek sayının toplamı, bu sayıların en küçüğünün 4 katından 11 eksiktir. Buna göre bu sayıların en büyüğü kaçtır? | ✓21
 mat-dd-363 | M.8.2.2.5 | z4 | k3 | Bir çocuk havuzunda başlangıçta 200 litre su vardır. Havuzu doldurmak için açılan musluk dakikada 120 litre su akıtmaktadır. Aynı… | ✓10

@@ -625,24 +625,12 @@ Cevap C.`
   kazanim: "F.8.2.2.3",
   kademe: 2,
   zorluk: 2,
-  soru: `Sağlıklı olan bir anne ile babanın ilk çocuğu, çekinik bir genle aktarılan kalıtsal bir hastalıkla doğmuştur.
-**Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
+  soru: "Bir ülkenin sağlık kayıtlarına göre çekinik bir genle aktarılan kalıtsal bir hastalık, anne ve babası akraba olan çocuklarda her 1000 doğumda 8, anne ve babası akraba olmayan çocuklarda ise her 1000 doğumda 1 görülmektedir.\n**Bu veriden hareketle aşağıdakilerden hangisi söylenebilir?**",
   gorsel: null,
-  secenekler: ["Anne ve babanın her ikisi de hastalık genini taşımaktadır.", "Hastalık geni çocuğa yalnızca anneden geçmiştir.", "Anne ve babadan biri hastalık genini taşımakta, diğeri taşımamaktadır.", "Çiftin sonraki çocukları kesinlikle hasta doğacaktır."],
-  dogru: 0,
-  hatalar: [
-    null,
-    "Genin tek ebeveynden geldiğini sanma: çekinik hastalığın görülmesi için çocuğun hastalık genini hem anneden hem babadan alması gerekir.",
-    "Tek taşıyıcıyla hastalığı açıklama: bir ebeveyn geni taşımıyorsa çocuk ondan hastalık geni alamaz; iki hastalık geni gerekir.",
-    "Olasılığı kesinlik sanma: iki taşıyıcının her çocuğu için hasta doğma olasılığı vardır ama kesin değildir; sonraki çocuklar sağlıklı da olabilir."
-  ],
-  aciklama: `Çekinik bir genle aktarılan hastalığın çocukta görülmesi için çocuğun hastalık genini hem anneden hem babadan alması gerekir.
-Adım 1: Çocuk hasta olduğuna göre iki hastalık geni taşır; biri anneden, biri babadan gelmiştir.
-Adım 2: Anne ve baba sağlıklıdır ama ikisi de hastalık genini taşımaktadır; çekinik gen baskın genin yanında etkisini göstermez.
-Adım 3: "Yalnızca anneden geçmiştir" ya da "yalnızca biri taşıyor" seçenekleri iki gen kuralına uymaz.
-Adım 4: Sonraki çocukların hasta olması ya da olmaması olasılığa bağlıdır; kesin olarak hasta doğacakları söylenemez.
-Sık yapılan hata: Bir çocuğun hasta olmasından sonraki çocukların da hasta doğacağı sonucunu çıkarmak.
-Cevap A.`
+  secenekler: ["Anne ve babası akraba olan her çocukta bu hastalık görülür.","Akraba olmayan anne babaların çocuklarında bu hastalığın görülme olasılığı yoktur.","Akraba evliliği, çocukta daha önce var olmayan yeni hastalık genleri oluşturur.","Akraba olan eşlerin aynı çekinik hastalık genini taşıma olasılığı daha yüksektir."],
+  dogru: 3,
+  hatalar: ["Olasılığı kesinlik sandın. 1000 çocuktan 8'inde görülüyor, hepsinde değil; akraba evliliği hastalığı garanti etmez, olasılığı artırır.","Veriyi ters okudun. 1000'de 1 de olsa hastalık, akraba olmayan anne babaların çocuklarında da görülebilir; iki taşıyıcı akraba olmak zorunda değildir.","Akraba evliliği gen üretmez ve geni değiştirmez; var olan aynı çekinik genin iki kopyasının bir çocukta buluşma olasılığını artırır.",null],
+  aciklama: "Adım 1: Çekinik genle aktarılan bir hastalığın çocukta görülmesi için çocuğun hastalık genini hem anneden hem babadan alması gerekir. Tek gen taşıyan kişi hasta olmaz ama geni aktarabilir; buna taşıyıcı denir.\nAdım 2: Akrabaların genleri ortak atalardan geldiği için birbirine benzer. Bu yüzden akraba eşlerin ikisinin de aynı çekinik geni taşıma olasılığı, akraba olmayan eşlere göre yüksektir. Verideki 8'e 1 fark bunu yansıtır. D doğrudur.\nAdım 3: A, 8/1000'i 'her çocuk' diye genelliyor; B, 1/1000'i 'hiç' sayıyor; C, akrabalığın gen oluşturduğunu söylüyor. Üçü de veriyle ya da kalıtım bilgisiyle çelişir.\nSağlama: Verideki iki sayı da sıfırdan büyük ve 1000'den küçüktür; yani hastalık iki grupta da görülebilir ama hiçbirinde kesin değildir.\nSık yapılan hata: 'Daha sık görülür' ile 'kesinlikle görülür' ifadelerini karıştırmak.\nCevap D."
 },
 {
   id: "fen-kl-252",

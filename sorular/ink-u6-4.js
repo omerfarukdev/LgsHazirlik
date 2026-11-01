@@ -412,27 +412,12 @@ Cevap C.`
   kazanim: "İTA.8.6.1",
   kademe: 2,
   zorluk: 2,
-  soru: `Bir hukuk öğretmeni egemenliği şöyle anlatıyor: "Egemenlik, bir devletin kendi sınırları içinde karar ve denetimi elinde tutmasıdır." Öğrenciler, bu tanıma göre hangi durumun devletin egemenlik haklarını eksiksiz kullandığını gösterdiğini tartışıyor.
-**Aşağıdaki durumlardan hangisi Türkiye'nin egemenlik haklarını eksiksiz kullandığını gösterir?**`,
+  soru: "Türkiye'nin 1920'li yıllarda bir devletle imzaladığı ticaret sözleşmesinin bir maddesinin özeti şöyledir:\n\"Taraflardan her biri, diğerinin gemilerine kendi limanlarında, kendi gemilerine tanıdığı kolaylıkların aynısını tanıyacaktır. Bir tarafın vatandaşları, diğer tarafın ülkesinde ticaret yaparken o ülkenin vatandaşlarıyla aynı vergi koşullarına bağlı olacaktır.\"\n**Bu madde, Atatürk Dönemi Türk dış politikasının temel ilkelerinden hangisine örnektir?**",
   gorsel: null,
-  secenekler: [
-    "Yabancı vatandaşların davalarının kendi ülkelerinin mahkemelerinde de görülebilmesi",
-    "Boğazlar'ın denetiminin uluslararası bir komisyona bırakılması",
-    "Yabancı okulların kendi ülkelerinin mevzuatıyla yönetilmesine izin verilmesi",
-    "Yabancı vatandaşların davalarının yalnızca Türk mahkemelerinde görülmesi"
-  ],
-  dogru: 3,
-  hatalar: [
-    "Durum yanlış seçildi: Yabancılara kendi mahkemelerinde yargılanma hakkı tanımak kapitülasyon düzenidir; Türk yargı yetkisini sınırlar.",
-    "Durum yanlış seçildi: Boğazlar'ı komisyona bırakmak Lozan'daki sınırlamadır; Türk egemenliğini eksik bırakır.",
-    "Durum yanlış seçildi: Okulların yabancı mevzuatla yönetilmesi denetimin Türkiye'de olmadığını gösterir.",
-    null
-  ],
-  aciklama: `Egemenliğin eksiksiz kullanılması, karar ve denetimin yabancı devletlere bırakılmamasıdır.
-Adım 1: Yabancıların kendi mahkemelerine de gidebilmesi, okulların yabancı mevzuatla yönetilmesi ve Boğazlar'ın komisyona bırakılması denetimin Türkiye'de olmadığını gösterir.
-Adım 2: Yabancıların davalarının yalnızca Türk mahkemelerinde görülmesi, Lozan'da kapitülasyonların kaldırılmasının sonucudur ve yargı yetkisinin eksiksiz Türkiye'de olduğunu gösterir.
-Sağlama: Doğru şıkta karar yetkisi Türk makamlarındadır; diğer üçünde yabancı devletlerde ya da bir komisyondadır.
-Cevap D.`
+  secenekler: ["Mütekabiliyet","Gerçekçilik","Barış","Tam bağımsızlık"],
+  dogru: 0,
+  hatalar: [null,"Gerçekçilik, hedefleri ülkenin gücüne ve dünya koşullarına göre belirlemektir; maddede bir imkân ya da koşul değerlendirmesi yok.","Barış, sorunları savaşsız ve görüşmeyle çözmektir; madde bir çatışmanın çözümünden değil, iki tarafa tanınan eşit haklardan söz ediyor.","Tam bağımsızlık, egemenlik haklarını her alanda eksiksiz kullanmaktır; maddede ayrıcalıkların kaldırılması değil, her iki tarafa aynı hakların tanınması esastır."],
+  aciklama: "Adım 1: Mütekabiliyet (karşılıklılık), devletlerin birbirine aynı ve eşit biçimde davranmasıdır. Tanıma ipucu: 'karşılıklı', 'aynı hak', 'her iki taraf' ifadeleridir.\nAdım 2: Maddede 'taraflardan her biri ... aynısını tanıyacaktır' ve 'o ülkenin vatandaşlarıyla aynı vergi koşullarına' ifadeleri var: Türkiye karşı tarafa hangi hakkı tanıyorsa aynısını kendi gemileri ve vatandaşları için istiyor. Bu, mütekabiliyettir.\nAdım 3: Öbür ilkeleri ele: Gerçekçilik güce göre hedef belirleme, barış savaşsız çözüm, tam bağımsızlık egemenliğin eksiksiz kullanımıdır; maddenin özü bunlar değil, eşit ve karşılıklı davranıştır.\nSağlama: Maddenin bir yarısını silip yalnızca tek tarafa hak tanınsaydı mütekabiliyet olmazdı; ilkeyi yaratan, hakların iki yönlü olmasıdır.\nSık yapılan hata: Her olumlu dış politika adımını 'barış' ya da 'tam bağımsızlık' ilkesine bağlamak. Sorunun kökü hangi yönü soruyorsa o ilkeyi seç.\nCevap A."
 },
 {
   id: "ink-u6-242",

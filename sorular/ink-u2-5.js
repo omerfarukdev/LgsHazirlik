@@ -972,21 +972,12 @@ Cevap C.`
   kazanim: "İTA.8.2.3",
   kademe: 3,
   zorluk: 4,
-  soru: `Aşağıda iki kaynak verilmiştir.
-Kaynak I (Mondros Ateşkes Antlaşması'ndan): Osmanlı ordusu terhis edilecek; telgraf, demir yolu ve limanlar İtilaf Devletlerinin denetimine girecektir.
-Kaynak II: Tabloda ateşkese karşı iki tarafın tutumu verilmiştir.
-**Bu iki kaynağa göre aşağıdakilerden hangisine __ulaşılamaz__?**`,
-  gorsel: `<table class="tablo"><tr><th>Taraf</th><th>Tutum</th></tr><tr><td>Mustafa Kemal</td><td>Terhise itiraz etti, silahların saklanması için komutanlarla haberleşti.</td></tr><tr><td>Halk</td><td>Miting düzenledi, telgraf çekti, cemiyet kurdu.</td></tr></table>`,
-  secenekler: ["Mustafa Kemal'in ateşkes hükümlerine uyarak silahların teslimini istediğine","Ateşkesin ordunun dağıtılmasını öngördüğüne","Mustafa Kemal'in ateşkes hükümleri karşısında direnişten yana olduğuna","Halkın ateşkesin sonuçlarına tepki gösterdiğine"],
-  dogru: 0,
-  hatalar: [null,"Kaynak I'de ordunun terhis edileceği yazıyor; bu yargıya ulaşılabilir.","Mustafa Kemal terhise itiraz etmiş ve silahların saklanmasını istemiştir; bu yargıya ulaşılabilir.","Halkın miting, telgraf ve cemiyet kurma gibi eylemleri bir tepkidir; bu yargıya ulaşılabilir."],
-  aciklama: `Terhis, orduyu dağıtıp askerleri evlerine göndermektir. Mondros bunu zorunlu kılmış, Mustafa Kemal ve halk ise buna direnmiştir.
-Adım 1: Soru "ulaşılamaz" diyor; kaynakların tersini söyleyen ya da kaynaklarda olmayan şıkkı arıyoruz.
-Adım 2: Kaynak II'ye göre Mustafa Kemal terhise itiraz ediyor ve silahların saklanmasını istiyor. "Silahların teslimini istedi" yargısı bu bilgiyle çelişir.
-Adım 3: Diğer şıkları doğrula: ordunun dağıtılması Kaynak I'de, Mustafa Kemal'in direnişten yana oluşu ve halkın tepkisi Kaynak II'de vardır.
-Sağlama: "Saklanması" ile "teslimi" birbirinin zıddıdır; tablo ilkini söylüyor.
-Sık yapılan hata: Köktaki olumsuzluğu atlayıp doğru şıkkı seçmek. Önce kökü, sonra şıkları oku.
-Cevap A.`
+  soru: "Mondros Ateşkes Antlaşması'nın (30 Ekim 1918) imzalanmasından sonraki aylara ait üç belgenin özeti tabloda verilmiştir.\n**Bu belgelere göre aşağıdaki yargılardan hangisine __ulaşılamaz__?**",
+  gorsel: "<table class=\"tablo\"><tr><th>Belge</th><th>İçeriğin özeti</th></tr><tr><td>İstanbul Hükûmeti'nin bir valiliğe gönderdiği yazı (Kasım 1918)</td><td>Ateşkes hükümlerine eksiksiz uyulacak, İtilaf Devletleri'nin isteklerine karşı konulmayacak, işgal girişimleri yalnızca yazılı olarak hükûmete bildirilecektir.</td></tr><tr><td>Mustafa Kemal'in Adana'dan İstanbul'a çektiği telgraf (Kasım 1918)</td><td>Ateşkesin 7. maddesi, İtilaf Devletleri'ne istedikleri her yeri işgal etme yolunu açmaktadır. İskenderun'un işgaline izin verilmesini kabul etmiyorum; birliklerime silahlarını teslim etmemelerini bildirdim.</td></tr><tr><td>Bir Ege kasabasında düzenlenen mitingin karar metni (Mayıs 1919)</td><td>İşgal hiçbir biçimde kabul edilemez. Vatanın savunulması için kasabamızda bir cemiyet kurulmuş, gönüllülerden silahlı birlikler oluşturulmasına karar verilmiştir.</td></tr></table>",
+  secenekler: ["İstanbul Hükûmeti, işgal girişimlerine karşı koymak yerine ateşkes hükümlerine uymayı seçmiştir.","Mustafa Kemal, ateşkesin bazı maddelerinin işgallere gerekçe oluşturacağını daha ilk günlerde fark etmiştir.","Halk, vatanın savunulmasını yalnızca devletin görevi saymamış, kendi örgütlenmesini kurmuştur.","İtilaf Devletleri, Mustafa Kemal'in itirazları üzerine işgal planlarından vazgeçmiştir."],
+  dogru: 3,
+  hatalar: ["Belgede var: Birinci belgedeki 'hükümlerine eksiksiz uyulacak' ve 'karşı konulmayacak' ifadeleri bu yargıyı doğrudan destekler.","Belgede var: İkinci belge Kasım 1918 tarihli; 7. maddenin işgal yolu açtığı daha ateşkesin ilk ayında söyleniyor.","Belgede var: Üçüncü belgede halkın cemiyet kurduğu ve silahlı birlik oluşturduğu yazıyor; kurtuluşu yalnız devletten beklemediği anlaşılıyor.",null],
+  aciklama: "Adım 1: 'Ulaşılamaz' sorusunda her yargıyı belgelerle karşılaştır; belgelerde dayanağı olmayan ya da belgeye sonuç ekleyen yargı cevaptır. Tablo üç tarafın tutumunu gösteriyor: İstanbul Hükûmeti, Mustafa Kemal ve halk.\nAdım 2: A: Birinci belge hükümlere uyulacağını, İtilaf Devletleri'nin isteklerine karşı konulmayacağını söylüyor. Hükûmetin karşı koymak yerine uymayı seçtiği buradan çıkar. Ulaşılır.\nAdım 3: B: İkinci belge Kasım 1918 tarihli, yani ateşkesin hemen ardından. Mustafa Kemal 7. maddenin 'her yeri işgal etme yolunu' açtığını söylüyor. Tehlikeyi erken fark ettiği buradan çıkar. Ulaşılır.\nAdım 4: C: Üçüncü belgede halk cemiyet kuruyor ve gönüllülerden silahlı birlik oluşturuyor; yani savunmayı devlete bırakmıyor. Bu, millî birlik ve vatanseverlik anlayışının bir göstergesidir. Ulaşılır.\nAdım 5: D: Belgelerin hiçbiri İtilaf Devletleri'nin ne yaptığını anlatmıyor; Mustafa Kemal'in itiraz ettiği yazıyor, itirazın sonuç verdiği yazmıyor. Tarihsel olarak da İskenderun işgal edilmiş, Mustafa Kemal İstanbul'a çağrılmıştır. Ulaşılamaz.\nSağlama: Üç belge üç farklı tutumu anlatır: uyum, itiraz, örgütlenme. 'Vazgeçme' bu tutumların hiçbirinin sonucu olarak belgede yer almaz.\nSık yapılan hata: Bir belgedeki itirazı, karşı tarafın geri adım attığı biçiminde tamamlamak; belgede olmayan sonucu eklemek.\nCevap D."
 },
 {
   id: "ink-u2-373",

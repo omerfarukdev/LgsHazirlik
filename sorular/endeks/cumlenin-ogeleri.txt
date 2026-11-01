@@ -200,7 +200,7 @@ tur-og-339 | T.8.4.18 | z3 | k3 | Dedemin çatı katındaki eski sandığı, ail
 tur-og-340 | T.8.4.18 | z3 | k3 | Belediye, yaz sıcaklarında mahallelere su sebilleri yerleştirdi. Aşağıdaki tabloda bu sebillerle ilgili dört cümle verilmiş, her … | ✓I
 tur-og-341 | T.8.4.18 | z3 | k3 | Bir ilçe kütüphanesi, sınav haftasında geceleri de açık kalıyor. Görevliler her gece iade edilen kitaplarla ilgileniyor. Aşağıdak… | ✓I
 tur-og-342 | T.8.4.18 | z3 | k3 | Dağ yolundaki eski su değirmeni yıllar sonra yeniden çalışmaya başladı. Değirmenle ilgili bir haberden alınan cümle şudur: Değirm… | ✓Beş
-tur-og-343 | T.8.4.18 | z3 | k3 | Mahalle bostanında yetişen sebzeler cumartesi sabahları toplanır. Bir öğrenciye "Bostanın domateslerini bu sabah sepetlere kim do… | ✓Domatesleri bu sabah sepetlere Lale doldurdu.
+tur-og-343 | T.8.4.18 | z3 | k3 | (I) Pazarcılar sabahın ilk ışıklarında tezgâhlarını kurdu. (II) Meydandaki çınarın gölgesi öğleye doğru iyice kısaldı. (III) Komş… | ✓III
 tur-og-344 | T.8.4.18 | z3 | k3 | İpek Yolu üzerindeki bir kervansaray, bugün otel olarak hizmet vermektedir. Otelin tanıtım yazısından alınan cümle şudur: Kervans… | ✓Kervansaraydaki yorgun yolcular / geceyi / a…
 tur-og-345 | T.8.4.18 | z3 | k3 | Bir mahallenin gönüllüleri, kışın sokak hayvanları için kulübe yerleştiriyor. Aşağıdaki tabloda bu çalışmayla ilgili dört cümle v… | ✓I
 tur-og-346 | T.8.4.18 | z3 | k3 | Bir ailenin çatı katındaki dolap, yıllardır açılmamış eşyalarla doludur. Aşağıdaki tabloda bu dolapla ilgili dört cümle verilmiş,… | ✓III

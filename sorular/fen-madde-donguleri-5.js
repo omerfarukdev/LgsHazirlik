@@ -922,22 +922,12 @@ window.LGS_BANK = window.LGS_BANK || {};
   "kazanim": "F.8.6.3.2",
   "kademe": 3,
   "zorluk": 4,
-  "soru": "Aynı bölgede yan yana bulunan, eğimi ve yağışı eşit iki yamaçtan K ormanlı, L ormansızdır. Bir yılda yamaçlara düşen yağış suyunun dağılımı tabloda verilmiştir.\n**Yalnızca tablodaki verilere göre aşağıdakilerden hangisi doğrudur?**",
-  "gorsel": "<table class=\"tablo\"><tr><th>Yamaç</th><th>Yağış (mm)</th><th>Yüzeyden akan (mm)</th><th>Toprağa sızan (mm)</th><th>Terleme ve buharlaşma (mm)</th></tr><tr><td>K (ormanlı)</td><td>800</td><td>120</td><td>350</td><td>330</td></tr><tr><td>L (ormansız)</td><td>800</td><td>480</td><td>100</td><td>220</td></tr></table>",
-  "secenekler": [
-    "Ormansız L yamacında yüzeyden akan su fazladır; yeraltı suyuna sızan su K yamacına göre azdır",
-    "Ormansız L yamacında hem yüzeyden akan hem sızan su, K yamacına göre fazladır",
-    "Ormanlı K yamacında yüzeyden akan su fazladır; terleme ve buharlaşma L yamacına göre azdır",
-    "İki yamaçta da yağışın aynı oranı toprağa sızmıştır; fark yalnızca yüzeyden akıştadır"
-  ],
-  "dogru": 0,
-  "hatalar": [
-    null,
-    "Sızmayı da artmış sanma: toprağa sızan su K'de 350, L'de 100 mm'dir; L'de azdır.",
-    "Yamaçları ters okuma: yüzeyden akan su K'de 120, L'de 480 mm'dir; terleme ve buharlaşma ise K'de 330, L'de 220 mm olup K'de fazladır.",
-    "Farkı tek kalemde sanma: sızan su K'de 350, L'de 100 mm'dir; sızma oranları da farklıdır."
-  ],
-  "aciklama": "Adım 1: İki yamaçta da yağış 800 mm'dir. Su üç yolla dağılır: yüzeyden akış, sızma, terleme ve buharlaşma. Her satırın toplamı 800 mm eder (K: 120 + 350 + 330; L: 480 + 100 + 220).\nAdım 2: Ormansız L yamacında bitki örtüsü yağmur suyunu tutmaz; yüzeyden akan su 480 mm ile fazladır, sızan su 100 mm ile azdır.\nAdım 3: Ormanlı K yamacında yüzeyden akış az (120), sızma çok (350), terleme ve buharlaşma da fazladır (330).\nSağlama: Ormansızlaşma yüzey akışını artırır, yeraltı suyunu besleyen suyu ve terlemeyi azaltır.\nCevap A."
+  "soru": "Bir araştırma grubu, dışarıyla hava alışverişi olmayan kapalı bir vadideki karbon döngüsünü bir yıl boyunca izliyor. Vadide karbonun atmosferden alınmasına ve atmosfere verilmesine yol açan bütün olaylar ile bu olaylarla bir yılda taşınan karbon miktarları (birim) tabloda verilmiştir.\n**Buna göre aşağıdaki yargılardan hangileri kesinlikle doğrudur?**\nI. Yıl sonunda vadi atmosferindeki karbondioksit miktarı, yıl başındakinden fazladır.\nII. Diğer olaylar aynı kalmak şartıyla fosil yakıt yakılması tamamen durdurulursa vadi atmosferindeki karbondioksit miktarı azalmaya başlar.\nIII. Ayrışma ile atmosfere verilen karbon, canlıların solunumuyla verilenden fazla olduğu için ayrıştırıcılar karbon döngüsünü bozan canlılardır.",
+  "gorsel": "<table class=\"tablo\"><tr><th>Olay</th><th>Atmosferden alınan karbon</th><th>Atmosfere verilen karbon</th></tr><tr><td>Fotosentez</td><td>120</td><td>–</td></tr><tr><td>Canlıların solunumu</td><td>–</td><td>60</td></tr><tr><td>Ölü kalıntıların ayrışması</td><td>–</td><td>55</td></tr><tr><td>Fosil yakıtların yakılması</td><td>–</td><td>10</td></tr></table>",
+  "secenekler": ["Yalnız I","I ve II","II ve III","I, II ve III"],
+  "dogru": 1,
+  "hatalar": ["II. yargıyı 'fosil yakıt payı küçük, etkisi olmaz' diye yanlış saydın. Fosil yakıt durursa verilen 125 − 10 = 115 birim olur; alınan 120'den az olduğu için atmosferdeki karbondioksit azalmaya başlar.",null,"I. yargıyı atladın, III'ü doğru saydın. Alınan 120 < verilen 125 olduğundan artış vardır. Tabloda ayrışma (55) solunumdan (60) azdır; ayrıca ayrıştırıcılar döngüyü bozmaz, ölü kalıntıdaki karbonu atmosfere döndürerek döngüyü tamamlar.","III. yargıyı tabloyla karşılaştırmadın: 55 < 60. Üstelik ayrışma olmasaydı ölü kalıntılardaki karbon atmosfere dönemez, döngü kesilirdi; ayrıştırıcılar döngünün gerekli halkasıdır."],
+  "aciklama": "Adım 1: Madde döngüsünde bir maddenin miktarı, alınan ile verilenin karşılaştırılmasıyla izlenir. Önce toplamları bul: atmosferden alınan 120 birim; atmosfere verilen 60 + 55 + 10 = 125 birim.\nAdım 2: I. yargı: Verilen (125), alınandan (120) fazla olduğu için yıl sonunda atmosferde 5 birim daha fazla karbon, yani daha fazla karbondioksit vardır. Vadi kapalı olduğundan dışarıdan başka bir akış yoktur. Doğru.\nAdım 3: II. yargı: Fosil yakıt yakılması durursa verilen 125 − 10 = 115 birim olur. Alınan 120 > 115 olduğundan atmosferdeki karbondioksit azalmaya başlar. Koşul açıkça 'diğer olaylar aynı kalırsa' dediği için bu sonuç kesindir. Doğru.\nAdım 4: III. yargı: Tabloda ayrışma 55, solunum 60; ayrışma daha azdır, yargının dayanağı yanlıştır. Kavram olarak da yanlıştır: ayrıştırıcılar ölü kalıntılardaki karbonu atmosfere geri vererek döngüyü sürdürür; onlar olmasaydı kalıntılar birikir, karbon döngüde dolaşamazdı. Yanlış.\nSağlama: Döngüde bir halka (ayrışma) silinirse verilen 125 − 55 = 70'e düşer; bu, döngünün dengesini bozar ama 'ayrıştırıcılar döngüyü bozar' demek tam tersini söylemektir.\nSık yapılan hata: Sayıları karşılaştırmadan, küçük görünen bir payın (10 birim) etkisiz olduğunu varsaymak.\nCevap B."
 },
 {
   "id": "fen-md-370",

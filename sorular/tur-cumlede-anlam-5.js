@@ -1105,28 +1105,12 @@ Cevap C.`
   kazanim: "T.8.3.21",
   kademe: 3,
   zorluk: 4,
-  soru: `Köy okulunun penceresinden dışarı bakan öğretmen, kar yağdığını görünce yol kapanmadan evlerine yetişebilsinler diye çocuklardan defterlerini toplamalarını istedi. Ancak çocuklar çantalarını toplarken bile gözlerini kar tanelerinden ayıramadı.
-**Yazar, son cümledeki ayrıntıyla aşağıdakilerden hangisini vurgulamak istemiştir?**`,
+  soru: "Kasabamızın girişindeki taş köprüden her geçişimde adımlarımı ister istemez yavaşlatırım. Kemer taşının üzerindeki yazıya göre köprü 1890'da yapılmış; yani yüz otuz yılı aşkın süredir aynı dereyi aşıyor. Kemerlerin kıvrımına bakınca dönemin ustalarının ne kadar sabırla çalıştığını düşünmeden edemiyorum. Köprüyü ayakta tutan, taşların ağırlığından çok onu her gün görenlerin ilgisidir sanki. Ne var ki köprü yıllardır bakım görmüyor; geçen kışki taşkında ayaklarından birindeki birkaç taş yerinden oynayınca köprü araçlara kapatıldı. Belediye, gereken ödeneği bu yıl ayırabilirse köprünün yaz sonuna kadar araçlara yeniden açılabileceğini duyurdu. Açıkçası bu sözlere ihtiyatla yaklaşıyorum; benzer duyuruları daha önce de dinledik. Kasabanın öbür ucuna geçen yıl yapılan beton köprü hızlı ve geniş, orası doğru; ama üzerinden geçerken üç saniye bile durmak gelmiyor içimden. Uzmanlar, iyi bakıldığında taş köprülerin beton köprülerden çok daha uzun ömürlü olduğunu söylüyor. Belki de asıl soru, köprüyü onarıp onaramayacağımız değil, ona neden bu kadar geç baktığımızdır.\n**Bu metnin yazarıyla ilgili aşağıdakilerden hangisine __ulaşılamaz__?**",
   gorsel: null,
-  secenekler: [
-    "Çocuklar, öğretmenin sözünü dinlememektedir.",
-    "Çocuklar, yağan kara karşı büyük bir coşku duymaktadır.",
-    "Öğretmen, çocuklara öfkelenmektedir.",
-    "Yolun kapanma tehlikesi çocukları korkutmaktadır."
-  ],
+  secenekler: ["Köprünün yapım tarihi bilgisini bir kanıta dayandırmaktadır.","Beton köprünün sağladığı yararları tümüyle yok saymaktadır.","Belediyenin verdiği sözün yerine getirileceğinden emin değildir.","Köprünün bugünkü durumundan kasaba halkının ilgisizliğini de sorumlu tutmaktadır."],
   dogru: 1,
-  hatalar: [
-    "Ayrıntıyı olumsuz okuma: çocuklar çantalarını topluyor, yani öğretmeni dinliyor; gözlerini kardan ayıramamaları bir itaatsizlik değil.",
-    null,
-    "Parçada olmayan duyguyu çıkarma: öğretmenin öfkelenmesini gösteren bir söz yok.",
-    "Ayrıntıyı ters yönde okuma: çocukların gözlerini kar tanelerinden ayıramaması korkuyu değil, hoşlanmayı ve ilgiyi gösterir."
-  ],
-  aciklama: `Metni yorumlarken yazarın bir ayrıntıyı neden seçtiğini bulmak gerekir.
-Adım 1: Öğretmen çocuklardan çantalarını toplamalarını istiyor ve çocuklar topluyor; yani sözü dinliyorlar. Fakat toplarken bile gözlerini kar tanelerinden ayıramıyorlar.
-Adım 2: Bu ayrıntı, çocukların kara duyduğu hayranlığı ve coşkuyu vurgulamak için seçilmiş. Yazar bunu açıkça söylemez, bir davranışla sezdirir.
-Adım 3: A, C ve D'yi parçadaki hiçbir söz desteklemez.
-Sağlama: “Ancak” sözcüğü, çocukların davranışının öğretmenin beklentisine biraz ters düştüğünü, ama bunun kötü niyetten değil, kara duydukları ilgiden geldiğini gösterir.
-Cevap B.`
+  hatalar: ["Metinde var: 'Kemer taşının üzerindeki yazıya göre' ifadesi tarihi bir kanıta dayandırır; bu yargıya ulaşılır.",null,"Metinde var: 'bu sözlere ihtiyatla yaklaşıyorum' ve 'benzer duyuruları daha önce de dinledik' cümleleri yazarın emin olmadığını gösterir.","Metinde var: son cümle 'ona neden bu kadar geç baktığımızdır' diyerek sorumluluğu 'biz'e, yani kasaba halkına da yüklüyor."],
+  aciklama: "Adım 1: 'Ulaşılamaz' sorusunda dört yargıyı tek tek metinle karşılaştır; metnin söylediğini aşan ya da çarpıtan yargıyı ara. Metnin yazarı, görüşlerini açıkça belli eden öznel bir anlatıcıdır; ama bazı yerlerde karşı görüşü de kabul eder.\nAdım 2: A: Yazar yapım tarihini 'kemer taşının üzerindeki yazıya göre' veriyor; tarih bir kanıta dayandırılmış. Ulaşılır.\nAdım 3: B: Yazar beton köprüyü sevmiyor; ancak 'hızlı ve geniş, orası doğru' diyerek yararlarını kabul ediyor. Beğenmemek ile yararı 'tümüyle yok saymak' aynı şey değildir. Bu yargı metni aşan bir genellemedir; ulaşılamaz.\nAdım 4: C: 'İhtiyatla yaklaşıyorum', 'benzer duyuruları daha önce de dinledik' sözleri sözün tutulacağından emin olmadığını gösterir. Ulaşılır. D: Son cümledeki 'neden bu kadar geç baktığımızdır' ifadesi, yazarın kendisi dâhil kasaba halkını da sorumlu tuttuğunu gösterir. Ulaşılır.\nSağlama: B dışındaki üç yargının her biri için metinden bir cümle gösterebiliyorsun; B için gösterebildiğin cümle tam tersini söylüyor.\nSık yapılan hata: Yazarın bir şeyi beğenmemesini, o şeyin hiçbir değeri olmadığını düşündüğü biçiminde abartmak.\nCevap B."
 },
 {
   id: "tur-ca-368",

@@ -233,7 +233,7 @@ mat-gc-367 | M.8.3.4.6 | z4 | k3 | Koni biçimli bir tipi çadırın yüksekliğ
 mat-gc-368 | M.8.3.4.6 | z4 | k3 | Koni biçimli bir bayram şapkasının ana doğrusu, taban yarıçapının [[5|3]] katıdır; yüksekliği 12 cm'dir. Şapkanın ağız kenarına b… | ✓69
 mat-gc-369 | M.8.3.4.6 | z4 | k3 | Şekildeki kule maketinin gövdesi taban yarıçapı 6 cm ve yüksekliği 20 cm olan bir silindir; çatısı ise yüksekliği 8 cm olan, taba… | ✓12
 mat-gc-370 | M.8.3.4.1 | z4 | k3 | Tabanı düzgün çokgen olan dik prizmalar, köşe sayısı ile yüz sayısının toplamı 40'ı geçmeyecek biçimde üretiliyor. Bu prizmaların… | ✓72
-mat-gc-371 | M.8.3.4.1 | z4 | k3 | Kenarı 4 cm olan dört özdeş küp biçimli ahşap blok, birer yüzleri tam çakışacak biçimde yapıştırılarak tek bir cisim oluşturuluyo… | ✓288
+mat-gc-371 | M.8.3.4.1 | z4 | k3 | Ayşe, kartondan dik üçgen prizma biçiminde bir kutu yapmak için şekildeki açınımı çiziyor. Açınımda üç dikdörtgen yan yana durmak… | ✓72
 mat-gc-372 | M.8.3.4.2 | z4 | k3 | Bir dik dairesel silindirin yüksekliği, taban çapına eşittir. Bu silindirin yan yüzünün açınımındaki dikdörtgenin çevresi 96 cm'd… | ✓216
 mat-gc-373 | M.8.3.4.3 | z4 | k3 | Taban yarıçapı 6 cm, yüksekliği 15 cm olan silindir biçimli 7 kutunun yan yüzeyleri etiketle kaplanacaktır. Etiketler, her biri 1… | ✓3
 mat-gc-374 | M.8.3.4.4 | z4 | k3 | Silindir biçimli bir su sebilinin iç taban çapı 20 cm'dir. Sebilin [[4|5]]'ü doludur; üzerine 1,2 litre su eklenince tamamen dolm… | ✓20

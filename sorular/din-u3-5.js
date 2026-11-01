@@ -322,30 +322,12 @@ Cevap C.`
   kazanim: "DKAB.8.3.2",
   kademe: 3,
   zorluk: 3,
-  soru: `“…Allah'ın haram kıldığı cana, haklı bir sebep olmadıkça kıymayın…” (İsrâ suresi, 33. ayet)
-Okul bahçesinde Berk, oyun olsun diye arkadaşı Selim'i merdivenin başında omuzlayarak itmiş; Selim dengesini kaybedip düşmüş ve kolunu kırmıştır. Berk, “Ben sadece şaka yaptım, kırmak istemedim.” demiştir.
-**Ayet ve bu olay birlikte değerlendirildiğinde aşağıdakilerden hangisi söylenebilir?**`,
+  soru: "İslam dini; canın, neslin, aklın, malın ve dinin korunmasını temel hedefler olarak belirlemiştir.\nMobilya atölyesi sahibi Salih Usta, atölyesinde şu kuralları uygular:\n• Makine kullanan herkes koruyucu gözlük ve eldiven takar.\n• Satılacak üründe bir kusur varsa müşteriye satıştan önce söylenir.\n• Çıraklar hafta içi akşam okuluna devam eder; mesai saatleri buna göre düzenlenir.\n• Atölyede sigara ve bağımlılık yapan hiçbir madde kullanılamaz.\n**Salih Usta'nın uygulamalarıyla ilgili aşağıdakilerden hangisi __söylenemez__?**",
   gorsel: null,
-  secenekler: [
-    "Niyet kötü olmadığından olayda can emniyetine aykırı bir durum söz konusu değildir",
-    "Zarar giderilebildiği için olay yalnızca mal emniyetini ilgilendiren bir durumdur",
-    "Başkasını tehlikeye atan davranış, şaka da olsa her zaman can emniyetine aykırıdır",
-    "Can emniyeti, ancak ölüm gerçekleştiğinde ihlal edilmiş sayılan bir ilkedir"
-  ],
-  dogru: 2,
-  hatalar: [
-    "Niyeti sonucun yerine koyma: kötü niyet olmasa da başkasının bedenini tehlikeye atmak can emniyetine aykırıdır.",
-    "Alanı yanlış belirleme: kırılan şey bir mal değil, Selim'in bedenidir; konu can emniyetidir.",
-    null,
-    "Canı yalnızca ölümle sınırlama: sağlığı ve beden bütünlüğünü tehlikeye atmak da can emniyetinin kapsamındadır."
-  ],
-  aciklama: `Can emniyeti, yalnızca ölümü değil, insanın sağlığını ve beden bütünlüğünü de koruma altına alır. Kimse başkasını tehlikeye atma hakkına sahip değildir.
-Adım 1: Olayı çöz: Berk merdiven başında Selim'i itmiş, Selim düşüp kolunu kırmıştır. Bedensel zarar doğmuştur.
-Adım 2: Berk'in gerekçesine bak: “şaka yaptım”. Bu, niyetin kötü olmadığını söyler ama davranışın tehlikesini ortadan kaldırmaz.
-Adım 3: Başkasını tehlikeye atan davranış, niyeti ne olursa olsun can emniyetine aykırıdır.
-Sağlama: Kırık kol bir mal kaybı değil, beden bütünlüğüne zarardır; ölüm gerçekleşmemiş olması ihlali ortadan kaldırmaz.
-Sık yapılan hata: “Kasıt yoksa sorun yok” demek. Tehlikeli davranışın sorumluluğu vardır.
-Cevap C.`
+  secenekler: ["Koruyucu gözlük ve eldiven kuralı canın korunmasına yöneliktir.","Kusurun önceden söylenmesi, haksız kazançtan kaçınarak malın korunmasına örnektir.","Çırakların okula devamının desteklenmesi aklın korunması kapsamında değerlendirilebilir.","Bağımlılık yapan madde yasağı yalnızca atölyedeki malzemenin korunmasını amaçlamaktadır."],
+  dogru: 3,
+  hatalar: ["Söylenebilir: İş sağlığı ve güvenliği önlemleri canı korur; bu kural o kapsamdadır.","Söylenebilir: Kusuru gizleyip satmak aldatma, yani haksız kazançtır; önceden söylemek müşterinin malını korur.","Söylenebilir: Öğrenmek ve düşünme gücünü geliştirmek aklın korunması kapsamındadır.",null],
+  aciklama: "Adım 1: Beş temel değeri hatırla: can (sağlık ve güvenlik), mal (helal kazanç, hileden uzak ticaret), akıl (öğrenme, zararlı alışkanlıklardan uzak durma), nesil (aile), din (inanç özgürlüğü). Her kuralı 'hangi değeri koruyor?' diye sor.\nAdım 2: Koruyucu gözlük ve eldiven iş kazalarını önler → canın korunması; A söylenebilir. Kusuru satıştan önce söylemek, aldatmayla haksız kazanç elde etmeyi engeller → malın korunması; B söylenebilir. Çırakların okula gitmesi öğrenmeyi, düşünme gücünü geliştirir → aklın korunması; C söylenebilir.\nAdım 3: Sigara ve bağımlılık yapan madde yasağı, öncelikle insanın aklını ve sağlığını korur; Mâide suresi 90. ayet de sarhoşluk veren şeyleri aklı koruma amacıyla yasaklar. Bu yasağı 'yalnızca malzemenin korunması' amacına bağlamak hem kapsamı daraltır hem asıl amacı atlar. D söylenemez.\nSağlama: D'deki 'yalnızca' sözcüğü, olayda olmayan bir daraltma getiriyor; metinde malzemeyle ilgili bir gerekçe de yok.\nSık yapılan hata: Bir kuralın en görünür sonucunu (yangın riskinin azalması gibi) asıl amacı sanmak.\nCevap D."
 },
 {
   id: "din-u3-339",

@@ -556,22 +556,12 @@ window.LGS_BANK = window.LGS_BANK || {};
   "kazanim": "F.8.6.2.1",
   "kademe": 3,
   "zorluk": 3,
-  "soru": "Çok az ışık alan bir oda köşesinde aylardır duran saksı bitkisinin yaprakları küçülüyor, gövdesi inceliyor ve bitki giderek zayıflıyor. Bitki düzenli olarak sulanıyor; odanın sıcaklığı ve havası uygundur.\n**Bu durum aşağıdakilerden hangisiyle açıklanır?**",
-  "gorsel": null,
-  "secenekler": [
-    "Bitki ışık azlığında solunum yapamadığı için enerji elde edemez.",
-    "Bitki yalnızca topraktan aldığı maddelerle beslendiği için topraktaki besin tükenmiştir.",
-    "Az ışıkta fotosentez hızı artar ve solunum hızı azalır, bu yüzden bitki zayıflar.",
-    "Fotosentezle ürettiği besin solunumda harcadığından az olduğu için depo besinleri azalır."
-  ],
-  "dogru": 3,
-  "hatalar": [
-    "Solunumu ışığa bağlama: solunum ışığa bağlı değildir, bitki az ışıkta da solunum yapar.",
-    "Besini topraktan alındığını sanma: bitki besinini fotosentezle kendisi üretir; toprak su ve mineral sağlar.",
-    "Ters yön: ışık azalınca fotosentez hızı artmaz, düşer.",
-    null
-  ],
-  "aciklama": "Bitkinin kütlesi, fotosentezle üretilen besin ile solunumda harcanan besin arasındaki farka bağlıdır; üretilen azsa bitki depo besinini harcayıp zayıflar.\nAdım 1: Az ışıkta fotosentez hızı düşer, üretilen besin azalır.\nAdım 2: Solunum ışığa bağlı değildir; bitki enerji gereksinimi için besin harcamayı sürdürür.\nAdım 3: Harcanan besin üretilenden fazla olunca depo besin azalır; yapraklar küçülür, gövde incelir.\nSık yapılan hata: Bitkinin besinini topraktan aldığını sanmak. Toprak yalnızca su ve mineral verir.\nCevap D."
+  "soru": "Bir öğrenci, aynı türden ve aynı büyüklükte üç saksı bitkisini (K, L, M) üç gün boyunca aynı sıcaklıktaki ortamlarda tutuyor ve hepsine eşit miktarda su veriyor. K bitkisini güneş gören bir pencerenin önüne, L bitkisini hiç ışık almayan bir dolabın içine, M bitkisini ise güneş görmeyen başka bir dolapta sürekli yanan bir LED lambanın altına yerleştiriyor. Üçüncü günün sonunda her bitkiden birer yaprak koparıp klorofilini gideriyor ve yaprakların üzerine iyot çözeltisi damlatıyor. (İyot çözeltisi, nişasta bulunan yaprağı mavi-mor renge boyar.) Sonuçlar tabloda verilmiştir.\n**Buna göre aşağıdaki yargılardan hangilerine ulaşılabilir?**\nI. Fotosentez yalnızca güneş ışığında gerçekleşir.\nII. Bitkinin besin üretebilmesi için ışık gereklidir.\nIII. L bitkisinin yaprağında nişasta bulunmaması, bitkinin karbondioksit alamamasından kaynaklanır.",
+  "gorsel": "<table class=\"tablo\"><tr><th>Bitki</th><th>Ortam</th><th>İyot damlatılan yaprak</th></tr><tr><td>K</td><td>Güneş ışığı</td><td>Mavi-mor</td></tr><tr><td>L</td><td>Karanlık</td><td>Renk değişimi yok</td></tr><tr><td>M</td><td>LED lamba ışığı</td><td>Mavi-mor</td></tr></table>",
+  "secenekler": ["Yalnız II","Yalnız III","I ve II","II ve III"],
+  "dogru": 0,
+  "hatalar": [null,"II'yi atlayıp III'ü doğru saydın. Deneyde karbondioksitle ilgili bir değişiklik yapılmamıştır; L'nin M'den tek farkı ışıksız kalmasıdır.","I'i doğru saydın. M bitkisi güneş görmeden, LED ışığı altında nişasta üretti; fotosentez yapay ışıkta da gerçekleşir.","III'ü doğru saydın. Bitkiler arasındaki tek fark ışık koşuludur; deneyde karbondioksitle ilgili bir değişiklik yapılmamıştır."],
+  "aciklama": "Adım 1: Fotosentez, bitkinin ışık enerjisini kullanarak karbondioksit ve sudan besin (glikoz) ve oksijen üretmesidir. Üretilen besinin fazlası yaprakta nişasta olarak depolanır; iyot testi bu nişastayı gösterir.\nAdım 2: Deneyde sıcaklık, su ve bitki türü sabit tutulmuş; yalnızca ışık koşulu değiştirilmiştir. Bu yüzden sonuçlardaki fark ışığa bağlanır.\nAdım 3: I. yargı: M bitkisi güneş ışığı almadan, LED lamba altında nişasta üretmiştir. Demek ki fotosentez yapay ışıkta da olur; 'yalnızca güneş ışığında' ifadesi yanlıştır.\nAdım 4: II. yargı: Işık alan K ve M nişasta üretmiş, karanlıktaki L üretememiştir. Besin üretimi için ışık gereklidir. Doğru.\nAdım 5: III. yargı: Deneyde karbondioksitle ilgili bir değişiklik yapılmamıştır. Üstelik dolapta duran M bitkisi de nişasta üretmiştir; L'deki eksikliğin nedeni ışıksızlıktır. Yanlış.\nSağlama: Tek yargı doğru olduğundan cevap 'Yalnız II' olmalı.\nSık yapılan hata: Sonucu, deneyde değiştirilmeyen bir etkene (karbondioksit) bağlamak. Hangi etkenin değiştirildiğine bak.\nCevap A."
 },
 {
   "id": "fen-fs-352",
