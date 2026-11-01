@@ -112,21 +112,21 @@ Cevap B.`
 **Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
   gorsel: `<table class="tablo"><tr><th>Ölçüm</th><th>Değer</th></tr><tr><td>21 Haziran öğle gölgesi (1 m'lik çubuk)</td><td>2,5 m</td></tr><tr><td>21 Aralık öğle gölgesi (1 m'lik çubuk)</td><td>0,4 m</td></tr><tr><td>Temmuz ayı ortalama sıcaklığı (1991-2020)</td><td>6,5 °C</td></tr><tr><td>Temmuz ayı ortalama sıcaklığı (2024)</td><td>3,8 °C</td></tr></table>`,
   secenekler: [
-    "K, Kuzey Yarım Küre'dedir ve 2024 temmuzu K'nin ikliminin soğuduğunu gösterir.",
-    "K, Kuzey Yarım Küre'dedir ve 2024 temmuzu tek başına K'nin iklimi hakkında karar vermeye yetmez.",
-    "K, Güney Yarım Küre'dedir ve 2024 temmuzu K'nin ikliminin soğuduğunu gösterir.",
-    "K, Güney Yarım Küre'dedir ve 2024 temmuzu tek başına K'nin iklimi hakkında karar vermeye yetmez."
+    "K, Kuzey Yarım Küre'dedir ve 2024 Temmuzu K'nin ikliminin soğuduğunu gösterir.",
+    "K, Kuzey Yarım Küre'dedir ve 2024 Temmuzu tek başına K'nin iklimi hakkında karar vermeye yetmez.",
+    "K, Güney Yarım Küre'dedir ve 2024 Temmuzu K'nin ikliminin soğuduğunu gösterir.",
+    "K, Güney Yarım Küre'dedir ve 2024 Temmuzu tek başına K'nin iklimi hakkında karar vermeye yetmez."
   ],
   dogru: 3,
   hatalar: [
     "Gölgeyi ters okuma ve tek yılı iklim sanma: haziranda gölge uzunsa ışınlar eğik gelir, yani K'de haziran kış mevsimidir; K Güney Yarım Küre'dedir. Üstelik tek yılın ölçümü iklim değişikliği kanıtı sayılmaz.",
     "Gölgeyi ters okuma: Kuzey Yarım Küre'de ışınlar haziranda en dik gelir ve gölge en kısadır. Burada haziran gölgesi uzun olduğu için K Güney Yarım Küre'dedir. Tek yılın iklimle ilişkisini doğru kurmuşsun.",
-    "Tek yılı iklim sanma: iklim uzun yıllar ortalamasıdır; 2024 temmuzunun soğuk geçmesi o yılın hava durumudur. Yarım küreyi doğru bulmuşsun.",
+    "Tek yılı iklim sanma: iklim uzun yıllar ortalamasıdır; 2024 Temmuzunun soğuk geçmesi o yılın hava durumudur. Yarım küreyi doğru bulmuşsun.",
     null
   ],
   aciklama: `İki ayrı bilgiyi birlikte kullanacaksın. Işınlar yüzeye ne kadar dik gelirse gölge o kadar kısa olur. İklim ise bir yerde uzun yıllar boyunca görülen hava olaylarının ortalamasıdır; tek bir yılın ölçümü iklimi belirlemez.
 Adım 1: K'de 21 Haziran gölgesi 2,5 m, 21 Aralık gölgesi 0,4 m'dir. Gölge aralıkta daha kısa olduğu için Güneş ışınları K'ye aralıkta daha dik gelir. Işınların haziranda en dik geldiği yer Kuzey Yarım Küre, aralıkta en dik geldiği yer Güney Yarım Küre'dir. K orta enlemde olduğuna göre Güney Yarım Küre'dedir. Seçenekleri bu bilgiyle ikiye ayır: C ve D kalır.
-Adım 2: K'de temmuz ayında kış yaşanır. 2024 temmuzunun ortalaması (3,8 °C) uzun yıllar ortalamasından (6,5 °C) düşüktür, ancak tek bir yılın değeridir. İklim hakkında karar vermek için uzun yıllara ait ölçümler gerekir. Bu yüzden "iklimi soğudu" demek doğru olmaz; bu değer o yıl yaşanan bir hava durumu farkıdır.
+Adım 2: K'de temmuz ayında kış yaşanır. 2024 Temmuzunun ortalaması (3,8 °C) uzun yıllar ortalamasından (6,5 °C) düşüktür, ancak tek bir yılın değeridir. İklim hakkında karar vermek için uzun yıllara ait ölçümler gerekir. Bu yüzden "iklimi soğudu" demek doğru olmaz; bu değer o yıl yaşanan bir hava durumu farkıdır.
 Sağlama: Güney Yarım Küre'de haziran-temmuz kıştır; temmuz ortalamasının düşük olması da bu mevsimle uyumludur.
 Sık yapılan hata: Bir yılın sıcaklığına bakıp "iklim değişti" demek.
 Cevap D.`

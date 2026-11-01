@@ -215,10 +215,10 @@ Cevap D.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir robot atölyesinde iki uyarı robotu test edilmektedir. A robotu 36 saniyede bir, B robotu ise b saniyede bir ışığını yakmaktadır; b bir doğal sayıdır. Test sırasında iki robotun ışığı aynı anda yakılarak süre başlatılmış, robotların ayarları test boyunca değiştirilmemiş ve kontrol ekranına aşağıdaki bilgiler yansımıştır.
-Robotların ışıkları her seferinde yalnızca bir an yanıp sönmektedir. Atölye sorumlusu Tuna, B robotunun ayarını not etmeyi unutmuştur. Test tutanağına yalnızca kontrol ekranındaki bütün bilgilerle uyuşan değerler yazılabildiğinden Tuna, ekrandaki notu da dikkate alarak b'nin alabileceği değerlerin tamamını belirlemek istemektedir.
+  soru: `Bir fabrikanın üretim hattında iki uyarı lambası test edilmektedir. A lambası 36 saniyede bir, B lambası ise b saniyede bir yanıp sönmektedir; b bir doğal sayıdır. Test sırasında iki lamba aynı anda yakılarak süre başlatılmış, lambaların ayarları test boyunca değiştirilmemiş ve kontrol ekranına aşağıdaki bilgiler yansımıştır.
+Lambalar her seferinde yalnızca bir an yanıp sönmektedir. Hat sorumlusu Sedat, B lambasının ayarını not etmeyi unutmuştur. Test tutanağına yalnızca kontrol ekranındaki bütün bilgilerle uyuşan değerler yazılabildiğinden Sedat, ekrandaki notu da dikkate alarak b'nin alabileceği değerlerin tamamını belirlemek istemektedir.
 **Buna göre, b'nin alabileceği kaç farklı değer vardır?**`,
-  gorsel: `<table class="tablo"><tr><th colspan="2">Kontrol ekranı</th></tr><tr><td>A robotu</td><td>36 saniyede bir ışık yakıyor</td></tr><tr><td>B robotu</td><td>b saniyede bir ışık yakıyor</td></tr><tr><td>Işıkların yeniden aynı anda yandığı <b>ilk</b> an</td><td>180. saniye</td></tr><tr><td>Not</td><td>B robotu, A robotundan daha sık ışık yakıyor.</td></tr></table>`,
+  gorsel: `<table class="tablo"><tr><th colspan="2">Kontrol ekranı</th></tr><tr><td>A lambası</td><td>36 saniyede bir yanıp sönüyor</td></tr><tr><td>B lambası</td><td>b saniyede bir yanıp sönüyor</td></tr><tr><td>Lambaların yeniden aynı anda yandığı <b>ilk</b> an</td><td>180. saniye</td></tr><tr><td>Not</td><td>B lambası, A lambasından daha sık yanıp sönüyor.</td></tr></table>`,
   secenekler: ["4", "5", "7", "9"],
   dogru: 1,
   hatalar: [
@@ -227,10 +227,10 @@ Robotların ışıkları her seferinde yalnızca bir an yanıp sönmektedir. At�
     "36'dan küçük 5'in katlarının hepsini saydın (5, 10, 15, 20, 25, 30, 35). 25 ve 35, 180'in çarpanı değildir; örneğin EKOK(36, 25) = 900 olur.",
     "'Daha sık' koşulunu uygulamadın: 45, 60, 90 ve 180 de EKOK'u 180 yapar ama bunlar 36'dan büyüktür."
   ],
-  aciklama: `Işıkların yeniden aynı anda yandığı ilk an, iki sürenin EKOK'udur: EKOK(36, b) = 180. EKOK, iki sayının asal çarpanlarının en büyük üslülerinin çarpımıdır.
+  aciklama: `Lambaların yeniden aynı anda yandığı ilk an, iki sürenin EKOK'udur: EKOK(36, b) = 180. EKOK, iki sayının asal çarpanlarının en büyük üslülerinin çarpımıdır.
 Adım 1: 36 = 2^{2} · 3^{2} ve 180 = 2^{2} · 3^{2} · 5. EKOK'taki 5 çarpanı 36'da yok; öyleyse 5 mutlaka b'den gelmelidir. Yani b, 5'in katıdır.
 Adım 2: b, EKOK'u böleceği için 180'in bir çarpanıdır. 180'in 5'e bölünen çarpanları: 5, 10, 15, 20, 30, 45, 60, 90, 180.
-Adım 3: B robotu daha sık ışık yaktığına göre süresi daha kısadır: b < 36. Geriye 5, 10, 15, 20, 30 kalır.
+Adım 3: B lambası daha sık yanıp söndüğüne göre süresi daha kısadır: b < 36. Geriye 5, 10, 15, 20, 30 kalır.
 Adım 4: Tek tek doğrula: EKOK(36, 5) = 180, EKOK(36, 10) = 180, EKOK(36, 15) = 180, EKOK(36, 20) = 180, EKOK(36, 30) = 180. Beş değerin hepsi uygundur.
 Sık yapılan hata: 36'dan küçük her 5'in katını saymak. b'nin 180'i bölmesi gerekir; 25 ve 35 bölmez.
 Cevap B.`
@@ -240,12 +240,12 @@ Cevap B.`
   kazanim: "M.8.1.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir kodlama atölyesinde öğrenciler "Asal Avcısı" adlı bir oyun programlamıştır. Oyunun kuralları şöyledir:
+  soru: `Bir bilişim kulübünde öğrenciler "Asal Avcısı" adlı bir oyun programlamıştır. Oyunun kuralları şöyledir:
 • Oyun, ekrana yazılan bir başlangıç sayısıyla başlar.
 • Oyuncu her hamlede ekrandaki sayıyı, o sayının asal çarpanlarından birine böler ve ekrana bölüm yazılır. Hangi asal çarpana böleceğine her hamlede oyuncu kendisi karar verir.
 • Ekrandaki sayı 1 olduğunda oyun biter.
 Başlangıç sayısı 12 olan örnek bir oyun aşağıda gösterilmiştir; bu oyun 3 hamle sürmüştür.
-Atölyede düzenlenecek turnuvada başlangıç sayısı **üç basamaklı** olacak ve bu sayının **tam iki farklı asal çarpanı** bulunacaktır. Defne, bu koşullara uyan ve oyunun olabildiğince çok hamle sürmesini sağlayan başlangıç sayısını aramaktadır.
+Kulüpte düzenlenecek turnuvada başlangıç sayısı **üç basamaklı** olacak ve bu sayının **tam iki farklı asal çarpanı** bulunacaktır. Defne, bu koşullara uyan ve oyunun olabildiğince çok hamle sürmesini sağlayan başlangıç sayısını aramaktadır.
 **Buna göre, turnuvada en fazla hamle süren oyunun başlangıç sayısı aşağıdakilerden hangisidir?**`,
   gorsel: `<svg viewBox="0 0 540 150" role="img" aria-label="Örnek oyun: 12 bölü 2 eşittir 6, 6 bölü 2 eşittir 3, 3 bölü 3 eşittir 1. Toplam 3 hamle."><g font-size="20" text-anchor="middle" fill="currentColor"><rect x="20" y="50" width="80" height="50" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="60" y="82">12</text><rect x="160" y="50" width="80" height="50" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="200" y="82">6</text><rect x="300" y="50" width="80" height="50" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><text x="340" y="82">3</text><rect x="440" y="50" width="80" height="50" rx="8" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/><text x="480" y="82">1</text></g><g stroke="currentColor" stroke-width="2"><line x1="104" y1="75" x2="150" y2="75"/><line x1="244" y1="75" x2="290" y2="75"/><line x1="384" y1="75" x2="430" y2="75"/></g><g fill="currentColor"><polygon points="150,69 158,75 150,81"/><polygon points="290,69 298,75 290,81"/><polygon points="430,69 438,75 430,81"/></g><g font-size="15" text-anchor="middle" fill="currentColor"><text x="130" y="40">1. hamle</text><text x="130" y="122">÷ 2</text><text x="270" y="40">2. hamle</text><text x="270" y="122">÷ 2</text><text x="410" y="40">3. hamle</text><text x="410" y="122">÷ 3</text></g></svg>`,
   secenekler: ["512", "768", "864", "972"],
@@ -412,21 +412,21 @@ Cevap C.`
   kazanim: "M.8.1.1.2",
   kademe: 0,
   zorluk: 2,
-  soru: `Bir limanın girişindeki iki deniz fenerinden biri 45 saniyede bir, diğeri 60 saniyede bir ışık çakmaktadır. Bir gemi kaptanı, iki fenerin aynı anda ışık çaktığını görmüştür.
+  soru: `Bir limanın girişindeki iki deniz fenerinden biri 40 saniyede bir, diğeri 72 saniyede bir ışık çakmaktadır. Bir gemi kaptanı, iki fenerin aynı anda ışık çaktığını görmüştür.
 **Buna göre, iki fener bu andan kaç dakika sonra ilk kez yeniden aynı anda ışık çakar?**`,
   gorsel: null,
-  secenekler: ["3", "15", "105", "180"],
+  secenekler: ["6", "8", "112", "360"],
   dogru: 0,
   hatalar: [
     null,
-    "EBOB ile EKOK'u karıştırdın: EBOB(45, 60) = 15 bulup cevap sandın. Yeniden buluşma ortak **kat** ile bulunur.",
-    "Süreleri topladın (45 + 60 = 105). 105. saniyede ikinci fener ışık çakmaz; çünkü 105, 60'ın katı değildir.",
-    "EKOK'u doğru buldun (180 saniye) ama dakikaya çevirmedin. Soru dakika soruyor: 180 : 60 = 3."
+    "EBOB ile EKOK'u karıştırdın: EBOB(40, 72) = 8 bulup cevap sandın. Yeniden buluşma ortak **kat** ile bulunur.",
+    "Süreleri topladın (40 + 72 = 112). 112. saniyede iki fener de ışık çakmaz; çünkü 112 ne 40'ın ne de 72'nin katıdır.",
+    "EKOK'u doğru buldun (360 saniye) ama dakikaya çevirmedin. Soru dakika soruyor: 360 : 60 = 6."
   ],
   aciklama: `İki olayın yeniden aynı ana denk gelmesi için geçen süre her iki sürenin de katı olmalıdır; bunların en küçüğü EKOK'tur.
-Adım 1: 45 = 3^{2} · 5 ve 60 = 2^{2} · 3 · 5. EKOK = 2^{2} · 3^{2} · 5 = 180 saniye.
-Adım 2: Soru dakika soruyor: 180 : 60 = 3 dakika.
-Sağlama: 180 saniyede birinci fener 180 : 45 = 4 kez, ikinci fener 180 : 60 = 3 kez ışık çakar; ikisi de tam sayı.
+Adım 1: 40 = 2^{3} · 5 ve 72 = 2^{3} · 3^{2}. EKOK = 2^{3} · 3^{2} · 5 = 360 saniye.
+Adım 2: Soru dakika soruyor: 360 : 60 = 6 dakika.
+Sağlama: 360 saniyede birinci fener 360 : 40 = 9 kez, ikinci fener 360 : 72 = 5 kez ışık çakar; ikisi de tam sayı.
 Sık yapılan hata: Sonucu sorulan birime çevirmemek. Kökte istenen birimi her zaman kontrol et.
 Cevap A.`
 },
@@ -533,7 +533,7 @@ Cevap D.`
   kademe: 0,
   zorluk: 3,
   soru: `Ekranların en-boy oranı, genişlik ve yükseklikteki piksel sayıları sadeleştirilerek a : b biçiminde yazılır; burada a ile b **aralarında asal** doğal sayılardır. Örneğin genişliği 1920 piksel, yüksekliği 1080 piksel olan bir ekranın en-boy oranı 16 : 9'dur.
-Bir kodlama atölyesine yeni alınan monitörün genişlik ve yüksekliğindeki piksel sayıları aşağıdaki şekilde verilmiştir. Bu monitörün en-boy oranı a : b'dir.
+Okulun bilgisayar laboratuvarına yeni alınan monitörün genişlik ve yüksekliğindeki piksel sayıları aşağıdaki şekilde verilmiştir. Bu monitörün en-boy oranı a : b'dir.
 **Buna göre, a + b kaçtır?**`,
   gorsel: `<svg viewBox="0 0 520 300" role="img" aria-label="Monitör: genişlik 1680 piksel, yükseklik 1050 piksel."><rect x="70" y="30" width="336" height="210" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="3"/><rect x="218" y="240" width="40" height="22" fill="none" stroke="currentColor" stroke-width="2"/><line x1="178" y1="264" x2="298" y2="264" stroke="currentColor" stroke-width="3"/><text x="238" y="142" font-size="16" text-anchor="middle" fill="currentColor">Monitör</text><line x1="70" y1="16" x2="406" y2="16" stroke="var(--vurgu)" stroke-width="2"/><line x1="70" y1="10" x2="70" y2="22" stroke="var(--vurgu)" stroke-width="2"/><line x1="406" y1="10" x2="406" y2="22" stroke="var(--vurgu)" stroke-width="2"/><text x="238" y="52" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Genişlik: 1680 piksel</text><line x1="424" y1="30" x2="424" y2="240" stroke="var(--vurgu)" stroke-width="2"/><line x1="418" y1="30" x2="430" y2="30" stroke="var(--vurgu)" stroke-width="2"/><line x1="418" y1="240" x2="430" y2="240" stroke="var(--vurgu)" stroke-width="2"/><text x="238" y="222" font-size="16" text-anchor="middle" fill="currentColor" font-weight="bold">Yükseklik: 1050 piksel</text></svg>`,
   secenekler: ["13", "26", "39", "210"],
@@ -558,8 +558,8 @@ Cevap A.`
   kazanim: "M.8.1.1.2",
   kademe: 0,
   zorluk: 4,
-  soru: `Bir kodlama atölyesinde Defne, girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplayıp ekrana yazan bir program hazırlamıştır. Arkadaşı Kaan, programı denemek için iki doğal sayı girmiş; ancak hangi sayıları girdiğini Defne'ye söylememiştir. Program, sayıların yazıldığı kutuları sonuç ekranında gizlemektedir; girilen iki sayı birbirinden farklı da olabilir, aynı da olabilir. Programın verdiği sonuçlar aşağıdaki ekran görüntüsünde yer almaktadır.
-Defne, ekrandaki sonuçlara bakarak Kaan'ın girmiş olabileceği sayıları araştırmış ve bu sonuçları veren birden fazla sayı çifti bulunduğunu görmüştür. Defne, bulduğu her sayı çiftini programa yeniden girerek sonuçların gerçekten aynı çıkıp çıkmadığını da denetlemiştir.
+  soru: `Beren, bilişim dersi ödevi olarak girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplayıp ekrana yazan bir program hazırlamıştır. Arkadaşı Kaan, programı denemek için iki doğal sayı girmiş; ancak hangi sayıları girdiğini Beren'e söylememiştir. Program, sayıların yazıldığı kutuları sonuç ekranında gizlemektedir; girilen iki sayı birbirinden farklı da olabilir, aynı da olabilir. Programın verdiği sonuçlar aşağıdaki ekran görüntüsünde yer almaktadır.
+Beren, yalnızca ekrandaki sonuçlara bakarak Kaan'ın girmiş olabileceği bütün sayı çiftlerini belirlemek istemektedir.
 **Buna göre, Kaan'ın girdiği iki sayının toplamı en az kaçtır?**`,
   gorsel: `<svg viewBox="0 0 460 190" role="img" aria-label="Program ekranı: birinci sayı gizli, ikinci sayı gizli, EBOB eşittir 5, EKOK eşittir 180."><rect x="20" y="15" width="420" height="160" rx="12" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g font-size="17" fill="currentColor"><text x="45" y="52">1. sayı: ■■■</text><text x="250" y="52">2. sayı: ■■■</text><text x="45" y="105" font-weight="bold">EBOB = 5</text><text x="45" y="145" font-weight="bold">EKOK = 180</text></g><line x1="40" y1="70" x2="420" y2="70" stroke="currentColor" stroke-width="1"/></svg>`,
   secenekler: ["60", "65", "75", "100"],
@@ -587,8 +587,8 @@ Cevap B.`
   soru: `Bora, bisiklet kilidinin iki basamaklı kodunu unutmamak için defterine şu iki ipucunu yazmıştır:
 • Kod, bir asal sayı __değildir__.
 • Kod ile 90 aralarında asaldır.
-Bir süre sonra kodu unutan Bora'ya kardeşi Ada yardım etmiştir. Kilit, yanlış denemelerde kilitlenmediği için istenildiği kadar deneme yapılabilmektedir. Ada, ipuçlarına uyan birden fazla sayı bulunduğunu fark etmiş ve denemelere bu sayıların en büyüğünden başlamaya karar vermiştir. Bunun için önce 90'ı asal çarpanlarına ayırmış, ardından 99'dan başlayıp geriye doğru giderek sayıları tek tek incelemiştir. Ada, incelediği her sayı için iki ipucunu da ayrı ayrı denetlemiş ve uygun ilk sayıyı bulunca durmuştur.
-**Buna göre, iki ipucuna da uyan en büyük sayı kaçtır?**`,
+Bir süre sonra kodu unutan Bora'ya kardeşi Ada yardım etmiştir. Ada, ipuçlarına uyan birden fazla sayı bulunduğunu fark etmiş ve denemelere bu sayıların en büyüğünden başlamaya karar vermiştir.
+**Buna göre, Ada'nın ilk deneyeceği sayı, yani iki ipucuna da uyan en büyük sayı kaçtır?**`,
   gorsel: null,
   secenekler: ["77", "89", "91", "97"],
   dogru: 2,

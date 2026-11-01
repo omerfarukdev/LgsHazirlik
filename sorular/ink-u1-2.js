@@ -14,7 +14,7 @@ window.LGS_BANK = window.LGS_BANK || {};
   gorsel: null,
   secenekler: [
     "Savunma, bölgeye denizden gönderilen düzenli birliklerin gücüne dayandırılmıştır.",
-    "Savunma, bölgeye gizlice giden subayların yerel halkı örgütlemesiyle yürütülmüştür.",
+    "Savunma, yalnızca gizlice giden subaylar ile onların örgütlediği yerel halka dayandırılmıştır.",
     "Savunma, Mısır'daki Osmanlı ordusunun cepheye kaydırılmasıyla sağlanmıştır.",
     "Savunma, Avrupa devletlerinin gönderdiği silah yardımıyla ayakta tutulmuştur."
   ],
@@ -29,7 +29,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 Adım 1: Metnin verdiği bilgileri sırala. Subaylar üniformasız ve belgesiz yola çıkmış, sivil kılıkta ve ayrı ayrı yollardan gitmiştir. Bu, devletin bölgeye açıkça asker sevk edemediğini gösterir.
 Adım 2: Cephede bulunanlara bak. Ne bir tümen ne de cephane deposu vardır. Yani bölgede hazır bekleyen düzenli bir ordu yoktur.
 Adım 3: Savunmanın gücünün ne olduğunu bul. Metne göre elde kalan tek güç kabile beyleri ve köylülerdir. Subaylar onlara siper kazmayı ve baskın vermeyi öğretmiştir. Bu tam olarak "yerel halkı örgütlemek" demektir.
-Adım 4: Bu üç bilgiyi birleştiren seçenek, savunmanın gizlice giden subaylarla yerel halkın örgütlenmesine dayandığını söyleyen seçenektir.
+Adım 4: Bu üç bilgiyi birleştiren seçenek, savunmanın yalnızca gizlice giden subaylarla onların örgütlediği yerel halka dayandığını söyleyen seçenektir. Buradaki "yalnızca" sözcüğünü metindeki "elimizdeki tek güç" sözü doğrular; mutlak bir ifade, metin destekliyorsa doğru olabilir.
 Sağlama: Trablusgarp'ta Osmanlı Devleti'nin bölgeyle kara ve deniz bağlantısı yoktu; bu yüzden savaş, gönüllü subaylarla bölge halkının birlikte yürüttüğü bir direniş biçiminde geçti.
 Sık yapılan hata: Anıda adı geçen bir yeri (Mısır) Osmanlı'nın askerî üssü sanmak. Metinde Mısır yalnızca geçilen bir güzergâhtır.
 Cevap B.`
@@ -124,8 +124,8 @@ Cevap A.`
   kazanim: "İTA.8.1.4",
   kademe: 3,
   zorluk: 3,
-  soru: "Aşağıdaki şemada Osmanlı Devleti'nin 1911-1913 yılları arasında uğradığı toprak kayıpları bölgelere göre gösterilmiştir.\n**Buna göre aşağıdakilerden hangisine ulaşılabilir?**",
-  gorsel: `<svg viewBox="0 0 560 300" role="img" aria-label="Rumeli, Akdeniz ve Kuzey Afrika bölgelerindeki 1912-1913 toprak kayıplarını gösteren şema"><rect x="20" y="16" width="520" height="78" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="20" y="108" width="520" height="66" rx="8" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="7 5"/><rect x="20" y="188" width="520" height="78" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="16" font-weight="bold"><text x="34" y="40">RUMELİ (BALKANLAR)</text><text x="34" y="132">AKDENİZ</text><text x="34" y="212">KUZEY AFRİKA</text></g><g fill="currentColor" font-size="15"><text x="34" y="62">Selanik · Manastır · Üsküp</text><text x="34" y="154">Oniki Ada</text><text x="34" y="234">Trablusgarp ve Bingazi</text></g><g fill="var(--vurgu)" font-size="15" font-weight="bold"><text x="300" y="62">1913'te Balkan devletlerinde kaldı</text><text x="300" y="154">1912'de İtalya'nın denetimine girdi</text><text x="300" y="234">1912'de İtalya'ya bırakıldı</text></g><text x="34" y="288" fill="var(--vurgu2)" font-size="15">Not: Edirne ve Kırklareli 1913'te geri alınmıştır.</text></svg>`,
+  soru: "Aşağıdaki şemada Osmanlı Devleti'nin 1912-1913 yıllarında uğradığı toprak kayıpları bölgelere göre gösterilmiştir.\n**Buna göre aşağıdakilerden hangisine ulaşılabilir?**",
+  gorsel: "<svg viewBox=\"0 0 560 280\" role=\"img\" aria-label=\"Rumeli, Akdeniz ve Kuzey Afrika bölgelerindeki 1912-1913 toprak kayıplarını gösteren şema\"><rect x=\"20\" y=\"16\" width=\"520\" height=\"78\" rx=\"8\" fill=\"var(--dolgu)\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"20\" y=\"108\" width=\"520\" height=\"66\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"20\" y=\"188\" width=\"520\" height=\"78\" rx=\"8\" fill=\"var(--dolgu)\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\" font-size=\"16\" font-weight=\"bold\"><text x=\"34\" y=\"40\">RUMELİ (BALKANLAR)</text><text x=\"34\" y=\"132\">AKDENİZ</text><text x=\"34\" y=\"212\">KUZEY AFRİKA</text></g><g fill=\"currentColor\" font-size=\"15\"><text x=\"34\" y=\"62\">Selanik · Manastır · Üsküp</text><text x=\"34\" y=\"154\">Oniki Ada</text><text x=\"34\" y=\"234\">Trablusgarp ve Bingazi</text></g><g fill=\"var(--vurgu)\" font-size=\"15\" font-weight=\"bold\"><text x=\"262\" y=\"62\">1913'te Balkan devletlerinde kaldı</text><text x=\"262\" y=\"154\">1912'de İtalya'nın denetimine girdi</text><text x=\"262\" y=\"234\">1912'de İtalya'ya bırakıldı</text></g></svg>",
   secenekler: [
     "Devlet, kaybettiği toprakların tamamını kısa sürede antlaşmalarla geri almıştır.",
     "Devlet, aynı dönemde birbirinden uzak iki bölgede birden savunma yapmak zorunda kalmıştır.",
@@ -134,7 +134,7 @@ Cevap A.`
   ],
   dogru: 1,
   hatalar: [
-    "Tek bir kazanımı bütüne yayma: şemaya göre yalnızca Edirne ve Kırklareli geri alınmış, diğer topraklar geri alınamamıştır.",
+    "Şemada olmayan bir sonuç ekleme: şemadaki üç bölge de başka devletlerin eline geçmiş olarak gösterilmiştir; geri alındığına ilişkin bir bilgi yoktur.",
     null,
     "İki savaşın taraflarını karıştırma: Kuzey Afrika'daki topraklar Balkan devletlerine değil İtalya'ya bırakılmıştır.",
     "Antlaşmaları birbirine karıştırma: İtalya ile yapılan antlaşma Trablusgarp ve Bingazi'yi kapsar; Rumeli toprakları Balkan Savaşları sonunda kaybedilmiştir."
@@ -144,7 +144,7 @@ Adım 1: Kuzey Afrika satırını oku. Trablusgarp ve Bingazi 1912'de İtalya'ya
 Adım 2: Rumeli satırını oku. Selanik, Manastır ve Üsküp 1913'te Balkan devletlerinde kalmıştır.
 Adım 3: Tarihleri karşılaştır. 1912 ile 1913 birbirine çok yakındır. Yani devlet, Kuzey Afrika'daki savaş sürerken Rumeli'de de savaşmak durumunda kalmıştır. Bu iki bölge birbirinden binlerce kilometre uzaktır.
 Adım 4: Öyleyse şemadan çıkan sonuç, aynı dönemde birbirinden uzak iki bölgede birden savunma yapma zorunluluğudur.
-Sağlama: Şemadaki not yalnızca Edirne ve Kırklareli'nin geri alındığını söyler; bu, kayıpların tamamının geri alındığı anlamına gelmez.
+Sağlama: Şemadaki üç bölge de başka devletlerde kalmıştır; "kayıpların tamamı geri alındı" yargısını destekleyen hiçbir bilgi yoktur.
 Sık yapılan hata: Trablusgarp Savaşı ile Balkan Savaşları'nın taraflarını karıştırmak. Kuzey Afrika'da karşı taraf İtalya, Rumeli'de Balkan devletleridir.
 Cevap B.`
 },
@@ -184,7 +184,7 @@ Cevap A.`
   soru: "Aşağıda aynı yıla ait iki belgeden alınan bölümler verilmiştir.\n**Buna göre aşağıdakilerden hangisine __ulaşılamaz__?**",
   gorsel: `<table class="tablo"><tr><th>Belge</th><th>Belgeden alınan bölüm</th></tr><tr><td>I<br>Bir Avrupa şirketinin<br>1903 tarihli yıllık raporu</td><td>Anadolu'da döşediğimiz demir yolunun iki yanındaki pamuk, bu yıl limana yirmi günde indi; eskiden deve kervanıyla iki ay sürerdi. Aynı hat, fabrikalarımızın dokuduğu bezi iç bölgelerdeki pazarlara aynı hızla taşıyor. Hükûmetten aldığımız izin, hattın iki yanındaki madenleri işletme hakkını da kapsıyor.</td></tr><tr><td>II<br>Aynı yıl bir sancaktan<br>merkeze gönderilen yazı</td><td>Kasabamızın dokuma tezgâhlarından on yedisi kapandı; halk, ucuz olduğu için limandan gelen bezi almaktadır. Tezgâh sahiplerinin bir bölümü toprak işlemeye döndü. Onlar da pamuğu şirketin belirlediği fiyattan satmak zorunda kalıyor.</td></tr></table>`,
   secenekler: [
-    "Demir yolu izninin yalnızca yolcu taşımacılığıyla sınırlı bir hak verdiğine",
+    "Demir yolunun yerli tezgâhlarda dokunan bezi limana taşıdığına",
     "Ulaşımdaki hızlanmanın ham maddenin limana taşınmasını kolaylaştırdığına",
     "Dışarıdan gelen ucuz kumaşın yerli tezgâhların kapanmasında etkili olduğuna",
     "Üreticinin ürününün fiyatını belirlemekte serbest davranamaz duruma geldiğine"
@@ -200,7 +200,7 @@ Cevap A.`
 Adım 1: Seçenekleri tek tek belgelerde ara. "Ulaşımdaki hızlanma" için Belge I'e bak: pamuk eskiden iki ayda, şimdi yirmi günde limana iniyor. Bu seçeneğe ulaşılır.
 Adım 2: "Ucuz kumaş ve kapanan tezgâhlar" için Belge II'ye bak: on yedi tezgâh kapanmış, halk limandan gelen ucuz bezi almaktadır. Bu seçeneğe de ulaşılır.
 Adım 3: "Üreticinin fiyatı belirleyememesi" için yine Belge II'ye bak: pamuk, şirketin belirlediği fiyattan satılmak zorundadır. Bu seçeneğe de ulaşılır.
-Adım 4: Geriye demir yolu izni kalıyor. Belge I, iznin hattın iki yanındaki madenleri işletme hakkını da kapsadığını söylüyor. Yani izin yolcu taşımacılığıyla sınırlı değildir; tam tersi yazılıdır. Ulaşılamayan yargı budur.
+Adım 4: Geriye yerli tezgâh bezinin limana taşınması kalıyor. Belge I'de demir yolu pamuğu limana, fabrikaların dokuduğu bezi ise iç bölgelere taşıyor; Belge II'de tezgâh ürününün limana götürüldüğüne ilişkin tek bir söz yok, tam tersine tezgâhlar kapanıyor. "Bez taşındı" diye bakınca bu seçenek doğru gibi görünür; ama taşınan yerli tezgâh bezi değil, fabrika bezidir ve yönü limana değil iç bölgelere doğrudur. Ulaşılamayan yargı budur.
 Sağlama: Elemeyi bitirince her seçeneğin karşısına hangi belgenin hangi cümlesinden çıktığını yaz. Karşısına cümle yazamadığın tek seçenek cevaptır.
 Sık yapılan hata: "Ulaşılamaz" sorusunda metinde geçen doğru bir bilgiyi işaretlemek. Aranan, metne uymayan ya da metinde bulunmayan yargıdır.
 Cevap A.`
@@ -211,35 +211,35 @@ Cevap A.`
   kademe: 3,
   zorluk: 4,
   soru: `Aşağıdaki kronoloji şeridinde Mustafa Kemal'in Birinci Dünya Savaşı öncesindeki bazı görevleri verilmiştir.
-I. Meşrutiyet yönetimine karşı çıkan bir ayaklanmanın bastırılmasında görev almıştır.
+I. Selanik'teki göreve, meşrutiyet yönetimine karşı çıkan ayaklanmanın bastırılmasından sonra başlamıştır.
 II. Trablusgarp'taki göreve başladığı yıl ile Balkan Savaşları'ndaki göreve başladığı yıl arasında iki yıldan kısa bir süre vardır.
-III. Balkan Savaşları'ndan sonra askerlik mesleğinden ayrılarak sivil bir göreve geçmiştir.
+III. Sofya'daki göreve, Trablusgarp'taki göreve başlamasından iki yıl sonra başlamıştır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<svg viewBox="0 0 560 300" role="img" aria-label="Mustafa Kemal'in 1905-1913 arasındaki görevlerini gösteren dikey kronoloji şeridi"><line x1="120" y1="26" x2="120" y2="268" stroke="currentColor" stroke-width="3"/><g fill="var(--vurgu)" stroke="currentColor" stroke-width="2"><circle cx="120" cy="40" r="8"/><circle cx="120" cy="86" r="8"/><circle cx="120" cy="132" r="8"/><circle cx="120" cy="178" r="8"/><circle cx="120" cy="220" r="8"/><circle cx="120" cy="262" r="8"/></g><g fill="currentColor" font-size="15" font-weight="bold" text-anchor="end"><text x="104" y="45">1905</text><text x="104" y="91">1907</text><text x="104" y="137">1909</text><text x="104" y="183">1911</text><text x="104" y="219">1912-</text><text x="104" y="236">1913</text><text x="104" y="267">1913</text></g><g fill="currentColor" font-size="14"><text x="138" y="45">Şam'da 5. Ordu'da göreve başladı.</text><text x="138" y="91">Selanik'te 3. Ordu'ya atandı.</text><text x="138" y="130">31 Mart Olayı'nı bastıran Hareket</text><text x="138" y="147">Ordusu'nda görev aldı.</text><text x="138" y="183">Trablusgarp'ta Derne ve Tobruk'ta savaştı.</text><text x="138" y="225">Balkan Savaşları'nda Bolayır'da görev yaptı.</text><text x="138" y="256">Sofya'da ataşemiliter (elçilikteki askerî</text><text x="138" y="273">görevli) oldu.</text></g></svg>`,
   secenekler: ["Yalnız II", "I ve II", "I ve III", "II ve III"],
-  dogru: 1,
+  dogru: 3,
   hatalar: [
-    "I. yargıyı atlama: 31 Mart Olayı, II. Meşrutiyet yönetimine karşı çıkan bir ayaklanmadır; şeritte bu ayaklanmayı bastıran orduda görev aldığı yazılıdır.",
-    null,
-    "Ataşemiliterliği sivil bir görev sanma: ataşemiliter, bir devletin başka bir ülkedeki elçiliğinde görevlendirdiği askerdir; Mustafa Kemal ordudan ayrılmamıştır.",
-    "Hem I'i yanlış hem III'ü doğru sayma: 31 Mart Olayı meşrutiyete karşı bir ayaklanmadır ve Sofya'daki görev askerî bir görevdir."
+    "III. yargıyı hesaplamadan eleme: şeride göre Trablusgarp'taki görev 1911'de, Sofya'daki görev 1913'te başlamıştır; arada tam iki yıl vardır, yargı doğrudur.",
+    "I. yargıda sırayı ters okuma: Selanik'e 1907'de atanmış, meşrutiyete karşı çıkan 31 Mart Olayı'nı bastıran orduda ise 1909'da görev almıştır; Selanik görevi ayaklanmadan öncedir, sonra değil.",
+    "I. yargıyı doğru, II. yargıyı yanlış sayma: Selanik görevi (1907) ayaklanmanın bastırılmasından (1909) öncedir; Trablusgarp (1911) ile Balkan Savaşları (1912) arasında ise bir yıl vardır, bu iki yıldan kısadır.",
+    null
   ],
-  aciklama: `Kronoloji şeridinden çıkarım yaparken iki şeye bakılır: şeritte yazılı bilgi ve o bilginin anlamını açan kavram bilgisi.
-Adım 1: I. yargıyı kontrol et. Şeritte 1909'da 31 Mart Olayı'nı bastıran Hareket Ordusu'nda görev aldığı yazılıdır. 31 Mart Olayı, 1908'de ilan edilen II. Meşrutiyet yönetimine karşı çıkan bir ayaklanmadır. Öyleyse yargı doğrudur.
+  aciklama: `Kronoloji şeridinden çıkarım yaparken iki şeye bakılır: şeritte yazılı tarihlerin sırası ve o bilginin anlamını açan kavram bilgisi.
+Adım 1: I. yargıyı kontrol et. "Meşrutiyet yönetimine karşı çıkan ayaklanma", 1908'de ilan edilen II. Meşrutiyet'e karşı çıkan 31 Mart Olayı'dır; şeritte bunu bastıran Hareket Ordusu'nda 1909'da görev aldığı yazılıdır. Selanik'e atanması ise 1907'dedir. Yani Selanik görevi ayaklanmadan önce başlamıştır, sonra değil. Yanlıştır.
 Adım 2: II. yargıyı kontrol et. Şeride göre Trablusgarp'taki göreve 1911'de, Balkan Savaşları'ndaki göreve 1912'de başlamıştır. İki başlangıç yılı arasındaki süre bir yıldır, yani iki yıldan kısadır. Doğrudur.
-Adım 3: III. yargıyı kontrol et. Şeritte 1913'te Sofya'da ataşemiliter olduğu yazılı ve parantez içinde bunun elçilikteki askerî görevli anlamına geldiği belirtilmiştir. Askerî bir görev, sivil göreve geçiş değildir. Yanlıştır.
-Adım 4: Doğru yargılar I ve II'dir.
-Sağlama: Şeritteki bütün görevler ordu içindedir; hiçbirinde ordudan ayrılma bilgisi yoktur.
-Sık yapılan hata: Yurt dışındaki her görevi sivil bir görev sanmak. Ataşemiliterlik, subay olarak sürdürülen bir askerî görevdir.
-Cevap B.`
+Adım 3: III. yargıyı kontrol et. Trablusgarp'taki görev 1911'de, Sofya'daki ataşemiliterlik görevi 1913'te başlamıştır. 1913 − 1911 = 2 yıl. Doğrudur.
+Adım 4: Doğru yargılar II ve III'tür.
+Sağlama: Şeritte 1913 iki kez geçer; biri Balkan Savaşları'nın bitişi, biri Sofya görevinin başlangıcıdır. III. yargı için Sofya satırındaki 1913'e bakmalısın.
+Sık yapılan hata: I. yargıda "ayaklanma" sözünü görüp şeritteki 31 Mart satırını bulduktan sonra tarihleri karşılaştırmadan "doğru" demek. Hangi görevin önce, hangisinin sonra olduğunu şeritten oku.
+Cevap D.`
 },
 {
   id: "ink-u1-309",
   kazanim: "İTA.8.1.2",
   kademe: 3,
   zorluk: 4,
-  soru: "Aşağıda Mustafa Kemal'in çocukluk ve öğrenim yıllarına ilişkin iki anıdan alınan bölümler verilmiştir.\n**Buna göre Mustafa Kemal'in kişilik özellikleriyle ilgili aşağıdakilerden hangisine __ulaşılamaz__?**",
-  gorsel: `<table class="tablo"><tr><th>Anı</th><th>Anıdan alınan bölüm</th></tr><tr><td>I<br>Selanik'ten<br>bir komşu</td><td>Ali Rıza Bey ile Zübeyde Hanım oğullarının hangi okula gideceğini günlerce konuştu. Sonunda çocuk törenle mahalle mektebine başladı; birkaç gün sonra da yeni usulle ders veren Şemsi Efendi'nin mektebine geçti. Böylece iki taraf da gönül rızasıyla razı edilmiş oldu.</td></tr><tr><td>II<br>Askerî rüştiyeden<br>bir sınıf arkadaşı</td><td>Askerî rüştiyenin sınavına annesine haber vermeden girdiğini bize sonradan anlattı; "Bu yolu ben seçtim." demişti. Sınıfta bir tartışma çıktığında hemen ortaya atılmaz, herkes konuşup bitirsin diye bekler, en sona kalan sözü kendisi söylerdi.</td></tr></table>`,
+  soru: "Aşağıda Mustafa Kemal'in çocukluk ve öğrenim yıllarına ilişkin iki anıdan alınan bölümler verilmiştir.\n**Buna göre Mustafa Kemal'le ilgili aşağıdakilerden hangisine __ulaşılamaz__?**",
+  gorsel: `<table class="tablo"><tr><th>Anı</th><th>Anıdan alınan bölüm</th></tr><tr><td>I<br>Selanik'ten<br>bir komşu</td><td>Ali Rıza Bey ile Zübeyde Hanım oğullarının hangi okula gideceğini günlerce konuştu. Sonunda çocuk törenle mahalle mektebine başladı; birkaç gün sonra da yeni usulle ders veren Şemsi Efendi'nin mektebine geçti. Böylece iki tarafın da gönlü oldu.</td></tr><tr><td>II<br>Askerî rüştiyeden<br>bir sınıf arkadaşı</td><td>Askerî rüştiyenin sınavına annesine haber vermeden girdiğini bize sonradan anlattı; "Bu yolu ben seçtim." demişti. Sınıfta bir tartışma çıktığında hemen ortaya atılmaz, herkes konuşup bitirsin diye bekler, en sona kalan sözü kendisi söylerdi.</td></tr></table>`,
   secenekler: [
     "Geleceğiyle ilgili kararı kendisi vermeye istekli olduğuna",
     "Tartışmalarda sözünü söylemek için sırasını beklediğine",
@@ -351,7 +351,7 @@ Cevap C.`
   gorsel: `<table class="tablo"><tr><th>Belge</th><th>Belgeden alınan bölüm</th></tr><tr><td>I<br>(1838)</td><td>Vergiyi toplayan kişi, kimin ne kadar ödeyeceğini kendi bildiği gibi yazardı; itiraz edenin sözü dinlenmezdi.</td></tr><tr><td>II<br>(1841)</td><td>Artık her kasabada kurulan mecliste vergi defteri açıkça okunuyor; adı yazılan kişi itirazını bu mecliste söyleyebiliyor.</td></tr></table>`,
   secenekler: [
     "Vergi toplama işi tümüyle kaldırılarak devletin gelirleri azaltılmıştır.",
-    "Vergi toplama işinde kişisel karar yerine kurallı bir işleyişe geçilmiştir.",
+    "Vergi toplama işi her kasabada kişisel karar yerine kurallı bir işleyişe bağlanmıştır.",
     "Vergi toplama işi yalnızca büyük şehirlerde yürütülür duruma gelmiştir.",
     "Vergi toplama işi yabancı devletlerin görevlendirdiği memurlara bırakılmıştır."
   ],
@@ -365,7 +365,7 @@ Cevap C.`
   aciklama: `Tanzimat Fermanı (1839), devlet işlerinin kişilerin kendi kararına göre değil, önceden belirlenmiş kanunlara göre yürütülmesini amaçlayan bir düzenlemedir.
 Adım 1: Belge I'i oku. Vergiyi toplayan kişi miktarı kendi bildiği gibi yazıyor, itiraz da dinlenmiyor. Yani karar tek kişinin isteğine kalmış.
 Adım 2: Belge II'yi oku. Defter mecliste açıkça okunuyor ve adı yazılan kişi itiraz edebiliyor. Yani karar, herkesin gördüğü bir düzen içinde veriliyor.
-Adım 3: Aradaki farkı adlandır: kişisel karardan kurallı bir işleyişe geçilmiştir.
+Adım 3: Aradaki farkı adlandır: her kasabada kurulan meclis yoluyla kişisel karardan kurallı bir işleyişe geçilmiştir. "Her kasabada" sözü Belge II'de açıkça yazdığı için bu seçenekteki "her" ifadesi metinle desteklenir.
 Sağlama: İki belgenin tarihleri 1838 ve 1841'dir; arada 1839'da ilan edilen Tanzimat Fermanı vardır.
 Sık yapılan hata: Değişikliği "kaldırma" sanmak. Değişen, verginin varlığı değil toplanma biçimidir.
 Cevap B.`
@@ -383,22 +383,22 @@ Cevap B.`
     "Edirne, savaşlar boyunca Osmanlı Devleti'nin elinde kalmıştır.",
     "Bölge halkı, çarpışmalar sırasında yaşadığı yerde kalabilmiştir.",
     "Kaybedilen topraklardan bir bölümü sonradan geri alınabilmiştir.",
-    "Şehre geri dönüş, savaşın kazanılmasının ardından gerçekleşmiştir."
+    "Şehre geri dönüş, barış antlaşmasının imzalanmasından sonra gerçekleşmiştir."
   ],
   dogru: 2,
   hatalar: [
     "Çekilme ayrıntısını atlama: anı, önce Edirne'den çekilindiğini, yani şehrin bir süre elden çıktığını anlatıyor.",
     "Yollardaki göç görüntüsünü gözden kaçırma: kağnısına yorganını yükleyip yürüyen aileler, halkın yaşadığı yerde kalmadığını gösterir.",
     null,
-    "Bir şehrin geri alınmasını savaşın kazanılması sayma: anıda savaşın nasıl sonuçlandığına ilişkin tek bir bilgi yoktur."
+    "Metinde olmayan bir olayı ekleme: anıda herhangi bir antlaşmadan söz edilmiyor; asker, ordusuyla aynı yoldan dönüp şehre girdiğini anlatıyor."
   ],
   aciklama: `Anı metinlerinde olayların sırası çıkarımın anahtarıdır. Önce ne olmuş, sonra ne olmuş, bunu ayır.
 Adım 1: Metnin ilk cümlesini oku. Asker Edirne'den çekilmektedir; yollar göç eden ailelerle doludur. Demek ki şehir elden çıkmıştır ve halk yaşadığı yerde kalmamıştır.
 Adım 2: İkinci cümleyi oku. Yaklaşık bir yıl sonra aynı yoldan geri dönülmüş ve şehre girilmiştir. Demek ki şehir geri alınmıştır.
 Adım 3: Bu ikisini birleştir: kaybedilen topraklardan bir bölümü sonradan geri alınabilmiştir. Anının doğrudan gösterdiği sonuç budur.
-Adım 4: En çok kandıran seçeneği ele. Geri dönüşü savaşın kazanılmasına bağlayan seçenek, anıda yazmayan bir sonucu metne ekler; anı yalnızca bir şehre geri dönüldüğünü söyler, savaşın nasıl bittiğini söylemez.
-Sağlama: I. Balkan Savaşı'nda kaybedilen Edirne ve Kırklareli, II. Balkan Savaşı sırasında geri alınmıştır. Selanik ve Manastır gibi yerler ise geri alınamamıştır; bu yüzden seçenekte "bir bölümü" denmiştir.
-Sık yapılan hata: Bir şehrin geri alınmasını savaşın tümünün kazanılması saymak. Metinde yazmayan bir sonucu seçeneğe taşıma.
+Adım 4: En çok kandıran seçeneği ele. Geri dönüşü bir barış antlaşmasına bağlayan seçenek, anıda yazmayan bir olayı metne ekler; anı yalnızca ordunun bir yıl kadar sonra şehre girdiğini söyler, bir antlaşmadan söz etmez.
+Sağlama: I. Balkan Savaşı'nda kaybedilen Edirne ve Kırklareli, II. Balkan Savaşı sırasında ordunun ilerlemesiyle geri alınmış, antlaşma bundan sonra imzalanmıştır. Selanik ve Manastır gibi yerler ise geri alınamamıştır; bu yüzden seçenekte "bir bölümü" denmiştir.
+Sık yapılan hata: Şehre geri dönüşü, metinde geçmeyen bir antlaşmaya ya da savaşın sonucuna bağlamak. Metinde yazmayan bir olayı seçeneğe taşıma.
 Cevap C.`
 },
 {
@@ -437,7 +437,7 @@ Cevap A.`
   zorluk: 2,
   soru: `Aşağıdaki tabloda Osmanlı Devleti'nin son döneminde etkili olan dört fikir akımı ve temel düşünceleri verilmiştir.
 Bir yazar 1912'de şunları yazmıştır:
-"Okullarımızda okutulacak kitapları kendi dilimizin ölçüleriyle yazmalı, çocuklarımıza önce kendi tarihimizi öğretmeliyiz. Bir milleti ayakta tutan, dilinin ve geçmişinin ortaklığıdır."
+"Çocuklarımıza okulda önce kendi destanlarımızı ve türkülerimizi öğretmeliyiz. Bir milleti ayakta tutan, atalarının sözünü anlaması ve onların geçmişini bilmesidir."
 **Buna göre yazarın görüşü tabloda verilen akımlardan hangisiyle örtüşmektedir?**`,
   gorsel: `<table class="tablo"><tr><th>Fikir akımı</th><th>Temel düşüncesi</th></tr><tr><td>Batıcılık</td><td>Batı'nın bilim, teknik ve kurumlarını alarak ilerlemek</td></tr><tr><td>İslamcılık</td><td>Bütün Müslümanları halifenin çevresinde toplamak</td></tr><tr><td>Osmanlıcılık</td><td>Devletin bütün unsurlarını ortak bir vatandaşlıkta birleştirmek</td></tr><tr><td>Türkçülük</td><td>Türkleri dil, tarih ve kültür ortaklığıyla birleştirmek</td></tr></table>`,
   secenekler: ["Batıcılık", "İslamcılık", "Osmanlıcılık", "Türkçülük"],
@@ -449,8 +449,8 @@ Bir yazar 1912'de şunları yazmıştır:
     null
   ],
   aciklama: `Bir metni fikir akımıyla eşleştirirken metnin "birleştirici ögesi" olarak neyi gösterdiğine bakılır: din mi, ortak vatandaşlık mı, dil ve tarih mi, yoksa Batı'nın kurumları mı?
-Adım 1: Alıntıdaki anahtar sözleri bul: "kendi dilimiz", "kendi tarihimiz", "dilinin ve geçmişinin ortaklığı".
-Adım 2: Bu ögeleri tablodaki akımlarla karşılaştır. Tabloya göre dil, tarih ve kültür ortaklığını esas alan akım Türkçülüktür.
+Adım 1: Alıntıdaki anahtar sözleri bul: "kendi destanlarımız ve türkülerimiz", "atalarının sözünü anlaması", "geçmişini bilmesi". Destan ve türkü bir milletin dilinin ve kültürünün ürünüdür; "atalarının sözü" dile, "geçmişi" tarihe işaret eder.
+Adım 2: Bu ögeleri tablodaki akımlarla karşılaştır. Alıntı birleştirici öge olarak dil, kültür ve tarihi gösteriyor; tabloya göre bu ortaklığı esas alan akım Türkçülüktür.
 Adım 3: Diğerlerini ele. Batıcılıkta ölçüt Batı'nın bilim ve kurumlarıdır; alıntıda yoktur. İslamcılıkta ölçüt dindir; alıntıda din geçmez. Osmanlıcılıkta ölçüt devletin bütün unsurlarını kapsayan ortak vatandaşlıktır; alıntı ise yalnızca dili ve tarihi ortak olanlardan söz eder.
 Adım 4: Öyleyse yazarın görüşü Türkçülükle örtüşür.
 Sık yapılan hata: Eğitim ve okul sözcüklerini görünce doğrudan Batıcılığı işaretlemek. Akımı belirleyen konu değil, metnin birleştirici olarak gösterdiği ögedir.
@@ -465,9 +465,9 @@ Cevap D.`
   gorsel: `<svg viewBox="0 0 560 280" role="img" aria-label="Trablusgarp'a deniz ve kara yollarını ve bu yolların engellenme durumunu gösteren şema"><rect x="18" y="118" width="104" height="46" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="438" y="118" width="110" height="46" rx="8" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g fill="currentColor" font-size="15" font-weight="bold" text-anchor="middle"><text x="70" y="147">İstanbul</text><text x="493" y="147">Trablusgarp</text></g><polyline points="122,130 250,58 438,130" fill="none" stroke="var(--vurgu)" stroke-width="3"/><polyline points="122,152 220,240 360,240 438,152" fill="none" stroke="var(--vurgu2)" stroke-width="3"/><g stroke="currentColor" stroke-width="3"><line x1="240" y1="48" x2="264" y2="72"/><line x1="264" y1="48" x2="240" y2="72"/><line x1="278" y1="228" x2="302" y2="252"/><line x1="302" y1="228" x2="278" y2="252"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="252" y="30">Deniz yolu (Akdeniz)</text><text x="252" y="96">İtalyan donanması yolu kesti.</text><text x="290" y="216">Kara yolu (Suriye - Mısır)</text><text x="290" y="274">Mısır, İngiltere'nin denetimindedir.</text></g></svg>`,
   secenekler: [
     "Bölge halkının Osmanlı yönetimine karşı ayaklanmış olması",
-    "Deniz ve kara yollarının başka devletlerin denetiminde olması",
+    "Deniz ve kara yollarının her ikisinin de başka devletlerin elinde olması",
     "Bölgede görev alacak gönüllü subay bulunamamış olması",
-    "İtalya'nın savaşı bildirmeden ve habersizce başlatmış olması"
+    "İtalya'nın savaşı önceden bildirmeden ansızın başlatmış olması"
   ],
   dogru: 1,
   hatalar: [
@@ -479,7 +479,7 @@ Cevap D.`
   aciklama: `Bir orduyu cepheye götürmek için ya denizden ya karadan bir yol gerekir. Şema, 1911'de bu iki yolun da durumunu gösteriyor.
 Adım 1: Üstteki yolu incele. İstanbul'dan Akdeniz üzerinden giden deniz yolunun üzerinde çarpı işareti ve "İtalyan donanması yolu kesti." notu vardır. Bu yol kapalıdır.
 Adım 2: Alttaki yolu incele. Suriye üzerinden Mısır'a uzanan kara yolunun üzerinde de çarpı işareti ve "Mısır, İngiltere'nin denetimindedir." notu vardır. Bu yol da kapalıdır.
-Adım 3: İki notun ortak noktasını bul. Her iki yol da başka devletlerin denetimindedir. Aranan güçlük budur.
+Adım 3: İki notun ortak noktasını bul. Deniz yolunu İtalya, kara yolunu İngiltere tutmaktadır; yani her iki yol da başka devletlerin elindedir. Şemada iki çarpı işareti olduğu için "her ikisi de" ifadesi veriyle desteklenir. Aranan güçlük budur.
 Sağlama: Bu yüzden Trablusgarp'a ancak sivil kılıkta ve gizlice giden gönüllü subaylar ulaşabilmiş, savunma yerel halkla birlikte yürütülmüştür.
 Sık yapılan hata: Şemada yazmayan bir nedeni (halkın tutumu, subay eksikliği, savaşın ilan biçimi) seçmek. Görsel soruda cevap, görselde gösterilen veriden çıkar.
 Cevap B.`

@@ -38,20 +38,20 @@ Cevap A.`
   secenekler: [
     "Eski cihazları onarmak, hem parayı hem de doğayı korur.",
     "Lehim makinesinin çalışması, kapının önünden bile duyuluyor.",
-    "Kartların temizlenmesi, işin en uzun ve en sıkıcı bölümüdür.",
+    "Gönüllüler, kartların temizlenmesini işin en sıkıcı bölümü sayıyor.",
     "Atölyeye gelen cihazların çoğu yalnızca küçük bir arıza taşıyor."
   ],
   dogru: 3,
   hatalar: [
     "'onarmak' sözcüğünü çekimli fiil sanma: kip ve kişi eki almamıştır, işin adını bildirir; bu bir isim-fiildir.",
     "'çalışması' sözcüğünü iyelik eki aldığı için ad sanma: yine işin adını bildirir; bu da isim-fiildir.",
-    "'temizlenmesi' sözcüğünü yapım ekiyle türemiş bir ad sanma: işin adını bildirdiği için isim-fiildir.",
+    "'temizlenmesini' sözcüğünü yapım ekiyle türemiş bir ad sanma: 'neyi en sıkıcı bölüm sayıyor?' sorusunun karşılığıdır, işin adını bildirdiği için isim-fiildir.",
     null
   ],
   aciklama: `Fiilimsinin türünü ek değil, sözcüğün cümledeki görevi belirler: işin adını bildiriyorsa isim-fiil, bir varlığı niteliyorsa sıfat-fiil, işin nasıl-ne zaman yapıldığını bildiriyorsa zarf-fiildir.
 Adım 1: A'daki 'onarmak' → 'ne korur?' sorusunun karşılığıdır, bir işin adıdır: isim-fiil.
 Adım 2: B'deki 'çalışması' → 'ne duyuluyor?' sorusunun karşılığıdır, yine bir işin adıdır: isim-fiil.
-Adım 3: C'deki 'temizlenmesi' → 'en uzun bölüm nedir?' sorusunun karşılığıdır: isim-fiil.
+Adım 3: C'deki 'temizlenmesini' → 'neyi en sıkıcı bölüm sayıyor?' sorusunun karşılığıdır; nesne görevinde olsa da yine bir işin adıdır: isim-fiil.
 Adım 4: D'deki 'gelen' → 'hangi cihazlar?' sorusuna cevap verir; 'cihazlar' adını niteler. Bu bir sıfat-fiildir ve diğer üçünden farklıdır.
 Sağlama: A, B ve C'deki fiilimsileri cümleden çıkarırsan cümle 'neyi/nesi' sorusunun karşılığını kaybeder; D'dekini çıkarırsan 'cihazlar' adı niteliksiz kalır.
 Cevap D.`
@@ -85,13 +85,13 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 3,
-  soru: `Ayşe Teyze, köyündeki küçük serada yıl boyunca sebze yetiştiriyor. Sera, iki yıl önce ilçe tarım müdürlüğünün desteğiyle kuruldu. Ayşe Teyze sabah altıda seraya gider, akşama kadar orada kalır. Ürünlerini de pazartesi günleri ilçe pazarına götürür. Aşağıda onun bir gününden dört cümle verilmiştir.
+  soru: `Ayşe teyze, köyündeki küçük serada yıl boyunca sebze yetiştiriyor. Sera, iki yıl önce ilçe tarım müdürlüğünün desteğiyle kuruldu. Ayşe teyze sabah altıda seraya gider, akşama kadar orada kalır. Ürünlerini de pazartesi günleri ilçe pazarına götürür. Aşağıda onun bir gününden dört cümle verilmiştir.
 **Bu cümlelerin hangisinde birden fazla fiilimsi vardır?**`,
   gorsel: null,
   secenekler: [
     "Serada yetişen domatesler, sabah erkenden toplanıyor.",
-    "Ayşe Teyze, fideleri dikerken eldiven takmayı hiç ihmal etmiyor.",
-    "Ayşe Teyze, toprağın nemini ölçmek için küçük bir aygıt kullanıyor.",
+    "Ayşe teyze, fideleri dikerken eldiven takmayı hiç ihmal etmiyor.",
+    "Ayşe teyze, toprağın nemini ölçmek için küçük bir aygıt kullanıyor.",
     "Camlara vuran yağmurun sesi serada yankılanıyordu."
   ],
   dogru: 1,
@@ -115,27 +115,27 @@ Cevap B.`
   kademe: 3,
   zorluk: 3,
   soru: `Sekizinci sınıflar, şehirdeki bilim müzesini gezdi. Müzede uzay, fosiller ve basit deneyler için ayrı salonlar var. Öğrenciler her salonda yirmişer dakika kaldı, sonunda da birer gezi notu yazdı. Aşağıda bir öğrencinin defterinden dört cümle verilmiştir.
-(I) Uzay bölümüne girmek, ziyaretin en heyecanlı anıydı.
-(II) Müzenin ilk salonundaki dev pusula, çocukların en çok ilgisini çekiyor.
-(III) Vitrindeki fosilleri inceleyen ziyaretçiler, rehberi soru yağmuruna tuttu.
+(I) Müzenin ilk salonundaki dev pusula, bu yılki gezinin en çok konuşulan parçasıydı.
+(II) Vitrindeki fosiller, yüz yıl önce bir kömür ocağında bulunmuş.
+(III) Uzay bölümünde astronot giysisini denememiz, ziyaretin en heyecanlı anıydı.
 (IV) Rehber, deneyi anlatırken gönüllü bir öğrenci seçti.
 **Buna göre, numaralanmış cümlelerin hangisinde isim-fiil kullanılmıştır?**`,
   gorsel: null,
   secenekler: ["I", "II", "III", "IV"],
-  dogru: 0,
+  dogru: 2,
   hatalar: [
+    "'gezinin' ya da 'konuşulan' sözcüğünü isim-fiil sanma: 'gezi' yapım ekiyle kalıcı ad olmuştur, 'konuşulan' ise 'hangi parça?' sorusuna cevap veren sıfat-fiildir.",
+    "Her cümlede mutlaka fiilimsi bulunur sanma: 'bulunmuş' sözcüğündeki -mış eki duyulan geçmiş zaman ekidir, sözcük cümlenin çekimli fiilidir; II. cümlede fiilimsi yoktur.",
     null,
-    "Her cümlede mutlaka fiilimsi bulunur sanma: II. cümlede fiilimsi yoktur, 'çekiyor' kip eki almış çekimli fiildir.",
-    "'inceleyen' sözcüğünü isim-fiil sanma: 'hangi ziyaretçiler?' sorusuna cevap verir, bu bir sıfat-fiildir.",
     "'anlatırken' sözcüğünü isim-fiil sanma: 'ne zaman seçti?' sorusuna cevap verir, bu bir zarf-fiildir."
   ],
-  aciklama: `İsim-fiil, bir işi varlık gibi adlandırır; cümlede 'ne?' sorusunun karşılığı olur ve yerine bir ad koyabilirsin.
-Adım 1: I → 'En heyecanlı an neydi?' Cevap: 'uzay bölümüne girmek'. Yerine 'giriş' gibi bir ad koyabilirsin; bu bir isim-fiildir.
-Adım 2: II → Sözcükleri tara: 'pusula', 'ilgisini', 'çekiyor'. Fiil kökenli tek sözcük 'çekiyor'dur ve kip ekiyle çekimlenmiştir; cümlede fiilimsi yoktur.
-Adım 3: III → 'inceleyen' sözcüğü 'ziyaretçiler' adını niteler: sıfat-fiil.
+  aciklama: `İsim-fiil, bir işi varlık gibi adlandırır; cümlede 'ne?' sorusunun karşılığı olur ve iyelik, hâl gibi ad çekim eklerini alabilir. Yapım ekiyle kalıcı ad olmuş sözcükler ise fiilimsi değildir.
+Adım 1: I → Fiil kökenli iki sözcük var: 'gezinin' ve 'konuşulan'. 'gezi', tıpkı 'yazı' ya da 'gözlem' gibi yapım ekiyle türemiş kalıcı bir addır; 'konuşulan' ise 'hangi parça?' sorusuna cevap verir, sıfat-fiildir. İsim-fiil yok.
+Adım 2: II → Fiil kökenli tek sözcük 'bulunmuş'tur; cümleyi bitirir, yargı bildirir. Buradaki -mış duyulan geçmiş zaman ekidir, sözcük çekimli fiildir. Fiilimsi yok.
+Adım 3: III → 'Ziyaretin en heyecanlı anı neydi?' Cevap: 'astronot giysisini denememiz'. Bir işin adıdır ve iyelik eki almıştır; cümleden çıkarırsan 'en heyecanlı an'ın ne olduğu belirsiz kalır. İsim-fiil.
 Adım 4: IV → 'anlatırken' sözcüğü işin ne zaman yapıldığını bildirir: zarf-fiil.
-Sık yapılan hata: III ve IV'te fiilimsi bulunduğunu görüp türünü kontrol etmeden işaretlemek. Soru 'fiilimsi var mı' değil, 'isim-fiil var mı' diye soruyor.
-Cevap A.`
+Sık yapılan hata: İsim-fiili yalnızca -mak/-mek ekinde aramak ve fiilden türeyen her sözcüğü ('gezi' gibi) fiilimsi saymak. Ölçüt ek değil görevdir: 'denememiz' bir işi adlandırır, 'gezi' ise artık bir varlığın adıdır.
+Cevap C.`
 },
 {
   id: "tur-fi-306",
@@ -260,7 +260,7 @@ Cevap A.`
   gorsel: `<table class="tablo"><tr><th>Saat</th><th>Güzergâh</th><th>Yolculuk süresi</th><th>Durum</th></tr><tr><td>07.10</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>Kalktı</td></tr><tr><td>09.45</td><td>Sinop</td><td>4 sa</td><td>Doldu</td></tr><tr><td>12.30</td><td>Amasya</td><td>2 sa 50 dk</td><td>Boş koltuk var</td></tr><tr><td>16.15</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>İptal</td></tr></table>`,
   secenekler: [
     "En kısa yolculuk, saat 12.30'da kalkan otobüsle yapılıyor.",
-    "Kastamonu seferlerinden biri iptal edilince bugün tek sefer kaldı.",
+    "Kastamonu seferlerinden biri iptal edilince bugün yalnızca sabahki sefer işliyor.",
     "Sinop otobüsü, boş koltuklarını satamadan yola çıkacak.",
     "Amasya seferinde boş koltuk bulmak artık mümkün değildir."
   ],
@@ -273,7 +273,7 @@ Cevap A.`
   ],
   aciklama: `Bu soruda iki koşul birden aranıyor: cümledeki bilgi panoya uyacak ve cümlede zarf-fiil bulunacak. İki koşulu ayrı ayrı denetle.
 Adım 1: A'yı denetle. Süreler 3 sa 20 dk, 4 sa, 2 sa 50 dk ve 3 sa 20 dk'dır; en kısası 2 sa 50 dk, yani 12.30 Amasya seferidir. Bilgi doğrudur. Ama 'kalkan' sözcüğü 'hangi otobüs?' sorusuna cevap verir: sıfat-fiildir. İkinci koşul sağlanmaz.
-Adım 2: B'yi denetle. Panoda iki Kastamonu seferi vardır (07.10 ve 16.15); 16.15 iptal edildiğine göre geriye tek sefer kalır. Bilgi doğrudur. 'iptal edilince' sözü 'ne zaman tek sefer kaldı?' sorusuna cevap verir: zarf-fiildir. İki koşul da sağlanır.
+Adım 2: B'yi denetle. Panoda iki Kastamonu seferi vardır (07.10 ve 16.15); 16.15 iptal edildiğine göre bugün bu güzergâhta yalnızca sabahki sefer işler. Bilgi doğrudur. 'iptal edilince' sözü 'hangi durumda yalnızca sabahki sefer işliyor?' sorusuna cevap verir: zarf-fiildir. İki koşul da sağlanır.
 Adım 3: C'yi denetle. Panoya göre Sinop otobüsünün durumu 'Doldu'dur; cümle bunun tersini söyler. Zarf-fiil ('satamadan') bulunsa da bilgi yanlıştır.
 Adım 4: D'yi denetle. Panoda Amasya seferi için 'Boş koltuk var' yazar; bilgi yanlıştır. Ayrıca 'bulmak' bir isim-fiildir.
 Sağlama: Yalnızca B, iki koşulu birden karşılar.
@@ -541,7 +541,7 @@ Cevap B.`
     "Tohumları zamanında ekmek, verimi doğrudan etkiliyor.",
     "Bu makine, mısırı sıralar hâlinde ekmek için tasarlanmış.",
     "Nadasa bırakılan tarlaya bu yıl arpa ekmek gerekiyor.",
-    "Kahvaltıda köy fırınından aldığımız ekmek çok lezzetliydi."
+    "Köyde buğdayı öğütüp ekmek yapmak için ortak bir fırın kuruldu."
   ],
   dogru: 3,
   hatalar: [
@@ -554,9 +554,9 @@ Cevap B.`
 Adım 1: A → 'Verimi ne etkiliyor?' Cevap: 'tohumları zamanında ekmek'. Ortada yapılan bir iş vardır: isim-fiil.
 Adım 2: B → 'Makine ne için tasarlanmış?' Cevap: 'mısırı ekmek için'. Yine bir iş: isim-fiil.
 Adım 3: C → 'Ne gerekiyor?' Cevap: 'arpa ekmek'. Yine bir iş: isim-fiil.
-Adım 4: D → 'ekmek' burada yapılan bir işi değil, fırından alınan bir yiyeceği karşılar. Sözcük fiilden türemiş olsa da kalıcı bir ad hâline gelmiştir; fiilimsi değildir.
+Adım 4: D → 'ekmek' burada yapılan bir işi değil, fırında pişirilen bir yiyeceği karşılar; 'buğdayı öğütüp ekmek yapmak' sözünde yapılan iş 'yapmak'tır. Sözcük fiilden türemiş olsa da kalıcı bir ad hâline gelmiştir; fiilimsi değildir. Cümlede fiilimsi vardır ('öğütüp' zarf-fiil, 'yapmak' isim-fiil) ama bunlar 'ekmek' sözcüğü değildir.
 Sağlama: A, B ve C'de 'ekmek' yerine 'ekme işi' diyebilirsin; D'de diyemezsin.
-Sık yapılan hata: '-mak/-mek' ekini görünce her sözcüğü isim-fiil saymak. 'ekmek', 'çakmak', 'kaymak' gibi sözcükler bazı cümlelerde varlık adıdır.
+Sık yapılan hata: '-mak/-mek' ekini görünce her sözcüğü isim-fiil saymak ya da cümlede başka fiilimsi görünce sorulan sözcüğü de fiilimsi sanmak. 'ekmek', 'çakmak', 'kaymak' gibi sözcükler bazı cümlelerde varlık adıdır.
 Cevap D.`
 },
 {
@@ -569,20 +569,20 @@ Cevap D.`
   gorsel: null,
   secenekler: [
     "Gölge Dünya'ya ulaşınca ortalık birden karardı.",
-    "Gökyüzüne çıplak gözle bakmak o anlarda çok tehlikeliydi.",
+    "Güneş'e çıplak gözle bakmak tam karanlıktan önce çok tehlikeliydi.",
     "Olayı izleyen kalabalık uzun uzun alkışladı.",
     "Bu görüntüyü çekmek yıllarca beklemeyi gerektirdi."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "'bakmak' sözcüğünün zaman bildirdiğini sanma: işin adını bildiren bir isim-fiildir; zamanı bildiren söz 'o anlarda'dır.",
+    "'bakmak' sözcüğünün zaman bildirdiğini sanma: işin adını bildiren bir isim-fiildir; zamanı bildiren söz 'tam karanlıktan önce'dir ve fiilimsi değildir.",
     "'izleyen' sözcüğünün zaman bildirdiğini sanma: 'hangi kalabalık?' sorusuna cevap veren bir sıfat-fiildir.",
     "'çekmek' ve 'beklemeyi' sözcüklerinin zaman bildirdiğini sanma: ikisi de işin adını bildiren isim-fiildir."
   ],
   aciklama: `Soru, fiilimsinin adını değil işlevini soruyor: işin ne zaman yapıldığını bildiren fiilimsi zarf-fiildir.
 Adım 1: A → 'Ortalık ne zaman karardı?' Cevap: 'gölge Dünya'ya ulaşınca'. İşin zamanını bildirir: zarf-fiil.
-Adım 2: B → 'bakmak' bir işin adıdır; cümlede zamanı 'o anlarda' sözü bildirir, fiilimsi değil.
+Adım 2: B → 'bakmak' bir işin adıdır; cümlede zamanı 'tam karanlıktan önce' sözü bildirir, bu söz fiilimsi değildir ('karanlık' fiilden türememiştir).
 Adım 3: C → 'izleyen' sözcüğü 'kalabalık' adını niteler: sıfat-fiil.
 Adım 4: D → 'çekmek' ve 'beklemeyi' işin adını bildirir: isim-fiil.
 Sık yapılan hata: Cümlede zaman anlamı olan bir söz görünce onu fiilimsi sanmak. Zaman bildiren her söz fiilimsi değildir; fiilimsi olması için fiilden türemiş olması gerekir.
@@ -642,7 +642,7 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 0,
   zorluk: 4,
-  soru: `Bir spor bilimi merkezinde, ameliyat sonrası hastalar için su içinde egzersiz programları uygulanıyor. Aşağıda bu merkezle ilgili dört cümle verilmiştir.
+  soru: `Belediyenin kapalı yüzme havuzunda çocuklara yüzme dersi, bel ağrısı çeken yetişkinlere de su içi egzersiz programı sunuluyor. Aşağıda bu havuzla ilgili dört cümle verilmiştir.
 **Bu cümlelerin hangisinde isim-fiil ile sıfat-fiil bir arada kullanılmıştır?**`,
   gorsel: null,
   secenekler: [

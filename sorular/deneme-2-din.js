@@ -8,7 +8,7 @@ window.LGS_DENEME = window.LGS_DENEME || {};
   konu: "din-1-kader",
   kazanim: "DKAB.8.1.5",
   zorluk: 3,
-  soru: `Kur'an'da bildirildiğine göre Firavun, İsrailoğullarının erkek çocuklarının öldürülmesini emretmiştir (Kasas suresi, 4. ayet). Hz. Musa tam bu dönemde dünyaya gelmiş, ancak Firavun'un ailesi tarafından sudan alınmış ve Firavun'un sarayında yetişmiştir. Din dersinde bu olay kader inancıyla ilişkilendirilerek şu çıkarımlar yapılmıştır:
+  soru: `Kur'an'da bildirildiğine göre Firavun, İsrailoğullarının erkek çocuklarının öldürülmesini emretmiştir (Kasas suresi, 4. ayet). Hz. Musa tam bu dönemde dünyaya gelmiş; annesi onu bir sandık içinde nehre bırakmış, bebeği Firavun'un ailesi sudan alıp sarayda büyütmüştür. Din dersinde bu olay kader inancıyla ilişkilendirilerek şu çıkarımlar yapılmıştır:
 I. Firavun'un aldığı önlem, Allah'ın Hz. Musa için takdir ettiği sonucu değiştirmiştir.
 II. Hz. Musa'nın Firavun'un sarayında yetişmesi, insanların aldığı tedbirlerin Allah'ın ilmini ve takdirini aşamayacağını gösterir.
 III. Allah'ın ilmi her şeyi kuşatsa da Firavun zulmü kendi tercihiyle işlemiş, bu yüzden davranışından sorumludur.
@@ -44,31 +44,31 @@ Cevap C.`
   soru: `Hz. Peygamber şöyle buyurmuştur: "İki kişinin yemeği üç kişiye, üç kişinin yemeği dört kişiye yeter." (Buhârî, Et'ime, 11)
 Bir mahallede, sekiz hane aynı sokakta oturmaktadır. Hanelerden biri akşam yemeğini komşusu yalnız yaşayan Hasan Amca ile paylaşmıştır. Hasan Amca ertesi gün kendi çorbasından iki haneye göndermiş, bu haneler de başka komşularına yemek ulaştırmıştır. Bir hafta sonunda sokaktaki sekiz hane birbirine yemek göndermeye başlamış ve hiçbir haneden "bu hafta yemeğimiz yetmedi" sözü duyulmamıştır. Bu olayla ilgili şu çıkarımlar yapılmıştır:
 I. Hadis, paylaşılan yemeğin bereketlendiğini, bu yüzden az olanın da paylaşılabileceğini düşündürür.
-II. Hadise göre paylaşmanın değeri, paylaşılan şeyin miktarıyla ölçülür.
+II. Olaydaki yardımlaşma, Hasan Amca'nın akşam yemeği ihtiyacı karşılanınca sona ermiştir.
 III. Olayda her hane hem vermiş hem almıştır; bu, yardımlaşmanın karşılıklı olduğunu ve yayıldıkça ihtiyaçların karşılanmasını kolaylaştırdığını gösterir.
-IV. Hanelerin yemek göndermesi, karşılığında yemek alma beklentisiyle yapıldığında değer kazanan bir davranıştır.
+IV. Hadis, bir yemeğin kaç kişiye yeteceğini sofradaki kişi sayısına göre sınırlamak için söylenmiştir.
 **Buna göre bu çıkarımlardan hangileri yapılabilir?**`,
   gorsel: null,
   secenekler: [
     "I ve III",
-    "I ve II",
-    "II ve IV",
-    "III ve IV"
+    "I, III ve IV",
+    "II ve III",
+    "I ve IV"
   ],
   dogru: 0,
   hatalar: [
     null,
-    "II. çıkarımı doğru sanma: hadis değeri miktara bağlamaz; iki kişilik yemeğin üç kişiye yetmesi, azın bile paylaşılabileceğini düşündürür. III. çıkarım da yapılabildiği hâlde dışarıda kalmıştır.",
-    "Hadisin ve olayın tersini söyleme: II. çıkarım paylaşmayı miktara, IV. çıkarım karşılık beklentisine bağlar; oysa paylaşma, bereketi ve içtenliği öne çıkarır. I ve III dışarıda kalmıştır.",
-    "IV. çıkarımı doğru sanma: olayda yemek göndermenin değeri karşılık beklemekten değil, ihtiyacı olana ulaşmaktan gelir. I. çıkarım da yapılabildiği hâlde dışarıda kalmıştır."
+    "IV. çıkarımı doğru sanma: hadis yemeğin kaç kişiye yeteceğini sınırlamaz; tersine, azın çoğa yetebileceğini söyleyerek paylaşmaya teşvik eder. I ve III doğru bulunmuş, IV fazladan eklenmiştir.",
+    "II. çıkarımı doğru sanma: olayda yardımlaşma Hasan Amca'da bitmemiş; ertesi gün onun gönderdiği çorbayla sürmüş ve bir haftada sokağın tamamına yayılmıştır. I. çıkarım da yapılabildiği hâlde dışarıda kalmıştır.",
+    "IV. çıkarımı doğru sanma ve III'ü atlama: hadis sofradaki kişi sayısını sınırlamaz, paylaşmayı özendirir; olayda da her hanenin hem verip hem alması yardımlaşmanın karşılıklı olduğunu gösterir."
   ],
-  aciklama: `İslam, paylaşmayı ve yardımlaşmayı önemli bir değer olarak görür. Paylaşan kişi kaybetmez; paylaşım çoğaldıkça toplumda ihtiyaçlar daha kolay karşılanır. Paylaşmanın değeri miktarında değil, içtenliğinde ve ihtiyacı olana ulaşmasındadır.
-Adım 1: I. çıkarımı sına. Hadiste daha az kişilik yemeğin daha çok kişiye yetebileceği söylenir; bu paylaşmanın bereketini düşündürür. I yapılabilir.
-Adım 2: II. çıkarımı sına. Hadiste önemli olan yemeğin çokluğu değil, paylaşılmasıdır; iki kişilik yemek bile üç kişiye yeter. Değer miktarla ölçülmez. II yapılamaz.
+  aciklama: `İslam, paylaşmayı ve yardımlaşmayı önemli bir değer olarak görür. Paylaşan kişi kaybetmez; paylaşım yayıldıkça toplumda ihtiyaçlar daha kolay karşılanır. Hadisteki sayılar bir sınır koymaz; azın bile paylaşıldığında çoğa yetebileceğini (bereketi) anlatır.
+Adım 1: I. çıkarımı sına. Hadiste daha az kişilik yemeğin daha çok kişiye yetebileceği söylenir; bu paylaşmanın bereketini ve azın da paylaşılabileceğini düşündürür. I yapılabilir.
+Adım 2: II. çıkarımı sına. Olayda yardımlaşma Hasan Amca'da bitmemiştir: ertesi gün Hasan Amca iki haneye çorba göndermiş, onlar da başka komşulara yemek ulaştırmış, bir hafta sonunda sekiz hane birbirine yemek gönderir olmuştur. "Sona ermiştir" metinle çelişir. II yapılamaz.
 Adım 3: III. çıkarımı sına. Olayda her hane hem veriyor hem alıyor; yardımlaşma yayıldıkça hiçbir haneyi yemeksiz bırakmıyor. III yapılabilir.
-Adım 4: IV. çıkarımı sına. Olayda hanelerin amacı ihtiyacı olana ulaşmaktır; karşılığında bir şey almak paylaşmanın şartı değildir. IV yapılamaz.
+Adım 4: IV. çıkarımı sına. Hadis "iki kişinin yemeği üç kişiye yeter" diyerek yemeğin yeteceği kişi sayısını sınırlamaz, tersine genişletir; amacı paylaşmayı özendirmektir. Hadisi sofra kuralı gibi okumak mesajını tersine çevirir. IV yapılamaz.
 Adım 5: I ve III yapılabilir.
-Sık yapılan hata: "Paylaşacak kadar çok şeyim yok" diye düşünüp paylaşmayı ertelemek. Hadis azı bile paylaşmayı öğütler.
+Sık yapılan hata: Hadisi sayı bildiren bir kural sanmak ya da olayı ilk paylaşımda bitmiş gibi okumak. Hadis azı bile paylaşmayı öğütler; olay da paylaşmanın zincir gibi yayıldığını gösterir.
 Cevap A.`
 },
 {
@@ -76,7 +76,7 @@ Cevap A.`
   ders: "din",
   konu: "din-1-kader",
   kazanim: "DKAB.8.1.6",
-  zorluk: 4,
+  zorluk: 3,
   soru: `Din dersinde Ayet el-Kürsi'nin anlamından bazı bölümler seçilmiş ve dört öğrenci bu bölümlerden kader inancıyla ilgili birer sonuç çıkarmıştır. Öğrencilerin ifadeleri tabloda verilmiştir.
 **Buna göre hangi iki öğrencinin çıkardığı sonuç ayete ve kader inancına uygundur?**`,
   gorsel: `<table class="tablo"><tr><th>Öğrenci</th><th>Ayet el-Kürsi'den bölüm</th><th>Çıkardığı sonuç</th></tr><tr><td>Ada</td><td>"O, kulların önlerindekini ve arkalarındakini bilir."</td><td>Allah'ın ilmi her şeyi kuşatır; ama bu bilgi tercihlerimi benim yerime belirlemez.</td></tr><tr><td>Barış</td><td>"Onlar O'nun ilminden, kendisinin dilediği kadarından başka bir şey kavrayamazlar."</td><td>Bilgim sınırlı olduğu için sonucu önceden kestiremem; ancak sonuç Allah'ın takdirinde belli olduğundan hazırlığım ona bir şey katmaz.</td></tr><tr><td>Cem</td><td>"Göklerde ve yerde ne varsa hepsi O'nundur."</td><td>Elimdeki imkânlar Allah'ın verdiği nimetlerdir; bunları nasıl kullandığımdan yine de ben sorumlu olurum.</td></tr><tr><td>Deniz</td><td>"O'nu ne bir uyuklama tutar ne de bir uyku."</td><td>Allah'ın gözetimi kesintisiz olduğuna göre bir işte gösterdiğim özen ile sonucu Allah'a bırakmak birbirine zıt tutumlardır; ikisinden birini seçmeliyim.</td></tr></table>`,

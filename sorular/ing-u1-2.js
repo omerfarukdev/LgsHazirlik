@@ -135,12 +135,12 @@ Cevap A.`
   kazanim: "E8.1.R2",
   kademe: 3,
   zorluk: 3,
-  soru: `From: Melis · To: Ada · Subject: My birthday picnic
+  soru: `From: İpek · To: Ada · Subject: My birthday picnic
 Hi Ada,
 I am going to have a picnic for my birthday on Sunday at 12 o'clock at Green Park. My cousin will bring his guitar, so we can sing together. Would you like to come?
-Melis
+İpek
 
-Hi Melis,
+Hi İpek,
 Thank you for the invitation. - - - - Maybe we can celebrate your birthday next week.
 Ada
 
@@ -155,14 +155,14 @@ Ada
   dogru: 3,
   hatalar: [
     "Son cümledeki ipucunu atlama: \"Maybe we can celebrate your birthday next week.\" diyen biri pazar günkü pikniğe gelmiyor demektir, bu yüzden bir kabul cümlesi boşluğa uymaz.",
-    "Ayrıntıyı yanlış kişiye bağlama: gitarı Ada değil, Melis'in kuzeni getirecektir; ayrıca bu yanıt daveti kabul eder ve son cümleyle çelişir.",
+    "Ayrıntıyı yanlış kişiye bağlama: gitarı Ada değil, İpek'in kuzeni getirecektir; ayrıca bu yanıt daveti kabul eder ve son cümleyle çelişir.",
     "Gerekçenin gününü davetin günüyle karşılaştırmama: piknik pazar günüdür, cumartesi günkü bir maç pazar günü gelememenin gerekçesi olamaz.",
     null
   ],
   aciklama: `Davet e-postalarına verilen yanıtlarda kalıp şudur: teşekkür → kabul ya da özür + gerekçe. Gerekçenin davetin gününe uyması gerekir; başka bir gün için bildirilen engel gerekçe sayılmaz.
-Adım 1: Melis'in e-postasındaki bilgileri çıkar: piknik pazar günü saat 12.00'de Green Park'tadır ve gitarı Melis'in kuzeni getirecektir.
+Adım 1: İpek'in e-postasındaki bilgileri çıkar: piknik pazar günü saat 12.00'de Green Park'tadır ve gitarı İpek'in kuzeni getirecektir.
 Adım 2: Boşluktan önceki cümleye bak: "Thank you for the invitation." Bu, teşekkür bölümüdür; hem kabulde hem rette kullanılır, tek başına ipucu vermez.
-Adım 3: Boşluktan sonraki cümleye bak: "Maybe we can celebrate your birthday next week." Ada başka bir hafta öneriyor, yani pazar günü gelemiyor. Öyleyse boşluğa özür + gerekçe gelmelidir; daveti kabul eden A ve B elenir. B ayrıca ayrıntıyı ters kurar: gitarı Ada değil, Melis'in kuzeni getirecektir.
+Adım 3: Boşluktan sonraki cümleye bak: "Maybe we can celebrate your birthday next week." Ada başka bir hafta öneriyor, yani pazar günü gelemiyor. Öyleyse boşluğa özür + gerekçe gelmelidir; daveti kabul eden A ve B elenir. B ayrıca ayrıntıyı ters kurar: gitarı Ada değil, İpek'in kuzeni getirecektir.
 Adım 4: Geriye iki ret seçeneği kalır ve ikisi de aynı kibar kalıptadır ("I'm sorry, but I can't come because …"). O hâlde ayrımı gerekçe yapar. C'nin gerekçesi cumartesi günü olan bir maçtır; oysa piknik pazar günüdür. Cumartesi meşgul olmak, pazar günkü pikniğe gelememeyi açıklamaz; C elenir.
 Adım 5: D'de gerekçe ayrı bir güne bağlanmadan verilir ("I have a dance show."), yani davetin günü olan pazar için geçerlidir. Hem özür hem gerekçe vardır, hem de "next week" önerisiyle uyumludur. Akışa uyan tek seçenek D'dir.
 Sık yapılan hata: Kibar bir ret kalıbı görür görmez işaretlemek. İki seçenek de "I'm sorry, but I can't come because …" ile başlıyorsa gerekçedeki günü davetin günüyle karşılaştırmalısın.
@@ -357,22 +357,23 @@ Aylin: No problem. Maybe another day.
   secenekler: [
     "I'm sorry, but I can't.",
     "Sure, that sounds fun!",
-    "Yes, I'd love to come.",
+    "No, thanks. I'm full.",
     "Yeah, why not, thanks."
   ],
   dogru: 0,
   hatalar: [
     null,
     "Kabul kalıbını ret yerine kullanma: Poyraz kardeşine bakmak zorundadır, yani daveti kabul edemez.",
-    "\"I'd love to\" kalıbını mazeretle birleştirme: bu kalıp daveti kabul etmek için kullanılır, ardından engel bildirilmez.",
+    "İkram reddini davete verme: \"No, thanks. I'm full.\" yiyecek ikramını geri çevirmek için kullanılır; Aylin yemek değil, eve gelmeyi teklif ediyor ve Poyraz'ın gerekçesi doyması değil, kardeşine bakmasıdır.",
     "\"Yeah, why not\" ifadesini yanlış anlama: bu ifade \"olur, neden olmasın\" demektir, yani kabuldür."
   ],
   aciklama: `"Would you like to …?" bir davet sorusudur. Yanıtı ya kabul ("Sure, that sounds fun!") ya da özürle rettir ("I'm sorry, but I can't.").
 Adım 1: Boşluktan sonraki cümleye bak: "I have to look after my little brother." Poyraz'ın küçük kardeşine bakma zorunluluğu vardır.
 Adım 2: Bu bir engeldir; yani boşluğa bir ret ifadesi gelmelidir.
-Adım 3: B, C ve D seçeneklerinin üçü de kabul kalıbıdır. Bunlardan biri gelirse cümle kendi kendisiyle çelişir.
-Adım 4: A seçeneği "Özür dilerim ama gelemem." demektir; hem engelle hem de Aylin'in "No problem." yanıtıyla uyumludur.
-Sık yapılan hata: "Yeah, why not." ifadesini ret sanmak. Bu ifade Türkçedeki "Olur, neden olmasın." gibidir ve kabul bildirir.
+Adım 3: B ve D seçenekleri kabul kalıbıdır. Bunlardan biri gelirse cümle kendi kendisiyle çelişir.
+Adım 4: C seçeneği de bir rettir ama yiyecek ikramının reddidir: "I'm full." doydum demektir. Aylin yemek ikram etmiyor, evine çağırıyor; üstelik Poyraz'ın gerekçesi doyması değil, kardeşine bakmasıdır. C akışa uymaz.
+Adım 5: A seçeneği "Özür dilerim ama gelemem." demektir; hem engelle hem de Aylin'in "No problem." yanıtıyla uyumludur.
+Sık yapılan hata: "Yeah, why not." ifadesini ret sanmak. Bu ifade Türkçedeki "Olur, neden olmasın." gibidir ve kabul bildirir. Bir de davetin reddi ("I'm sorry, but I can't.") ile ikramın reddini ("No, thanks. I'm full.") karıştırmamalısın.
 Cevap A.`
 },
 {
@@ -439,7 +440,7 @@ Cevap C.`
 },
 {
   id: "ing-u1-005",
-  kazanim: "E8.1.R2",
+  kazanim: "E8.1.R1",
   kademe: 0,
   zorluk: 2,
   soru: `The programme of Friendship Week at school is in the table below. Emir is free only on Tuesday afternoon.
@@ -470,29 +471,29 @@ Cevap B.`
   kazanim: "E8.1.R1",
   kademe: 0,
   zorluk: 3,
-  soru: `A magazine asked 100 students a question. The answers are in the table below.
-**According to the results, which one is __NOT__ true?**`,
-  gorsel: `<table class="tablo"><tr><th>"What do you do when you cannot go to a friend's party?"</th><th>Students</th></tr><tr><td>I call my friend and say sorry.</td><td>42</td></tr><tr><td>I send a message.</td><td>31</td></tr><tr><td>I tell my friend at school.</td><td>19</td></tr><tr><td>I do nothing.</td><td>8</td></tr></table>`,
+  soru: `Last Saturday was my friend Kerem's birthday, but he was ill, so he couldn't have his party. Our class had an idea. We made a short video at school: everybody said a few words to Kerem, and our teacher played the guitar. I sent the video to Kerem at seven o'clock in the evening. He called me ten minutes later. He couldn't talk much because of his sore throat, but he said it was the best birthday gift ever. Next week he is coming back to school, and we are going to bring a cake for him.
+**According to the text, which one is __NOT__ true?**`,
+  gorsel: null,
   secenekler: [
-    "Calling a friend is the most popular answer of all.",
-    "More than half of the students either call or send a message.",
-    "Fewer than ten students do nothing about the invitation.",
-    "Telling at school is more popular than sending a message."
+    "Kerem couldn't have his party because he was ill.",
+    "The class made a video for Kerem at school.",
+    "Kerem called his friend after he watched the video.",
+    "The class is going to take a cake to Kerem's home."
   ],
   dogru: 3,
   hatalar: [
-    "En büyük sayıyı görmeme: 42 ile arayıp özür dilemek en çok verilen yanıttır, bu yüzden A doğrudur.",
-    "Toplama yapmama: 42 + 31 = 73 öğrenci, 100'ün yarısı olan 50'den fazladır; bu yüzden B doğrudur.",
-    "Son satırı atlama: hiçbir şey yapmayan öğrenci sayısı 8'dir, yani 10'dan azdır; bu yüzden C doğrudur.",
+    "İlk cümleyi atlama: \"he was ill, so he couldn't have his party\" bölümü bunu açıkça söyler, bu yüzden A doğrudur.",
+    "Videonun nerede çekildiğini görmeme: \"We made a short video at school\" cümlesi bunu verir, bu yüzden B doğrudur.",
+    "Olayların sırasını karıştırma: video 19.00'da gönderildi, Kerem on dakika sonra aradı ve videodan söz etti; yani videoyu izledikten sonra aramıştır. C doğrudur.",
     null
   ],
-  aciklama: `Sayı içeren anket sorularında her seçeneği ayrı ayrı hesapla. "__NOT__ true" kökü, tabloya uymayan tek cümleyi ister.
-Adım 1: Sayıları yaz: arayıp özür dilemek 42, mesaj göndermek 31, okulda söylemek 19, hiçbir şey yapmamak 8. Toplam 42 + 31 + 19 + 8 = 100.
-Adım 2: A'yı sına. En büyük sayı 42'dir; öyleyse en çok verilen yanıt aramaktır. A doğrudur.
-Adım 3: B'yi sına. 42 + 31 = 73. Yüz öğrencinin yarısı 50'dir ve 73 > 50'dir. B doğrudur.
-Adım 4: C'yi sına. Hiçbir şey yapmayanlar 8 kişidir; 8 < 10 olduğundan C doğrudur.
-Adım 5: D'yi sına. Okulda söyleyenler 19, mesaj gönderenler 31'dir. 19 < 31 olduğundan cümle yanlıştır. Aradığımız seçenek budur.
-Sık yapılan hata: "More popular" ifadesinde hangi satırın hangisiyle karşılaştırıldığını karıştırmak. Cümledeki ilk etkinliğin sayısı ikinciden büyük olmalıdır.
+  aciklama: `Tek olayı anlatan metinlerde kim, nerede, ne zaman sorularının yanıtlarını işaretle; "__NOT__ true" kökü metne uymayan tek cümleyi ister.
+Adım 1: Olayları sıraya koy: Kerem hasta olduğu için doğum günü partisini yapamadı → sınıf okulda bir video çekti → video akşam 19.00'da gönderildi → Kerem on dakika sonra aradı → gelecek hafta okula dönüyor, sınıf ona pasta getirecek.
+Adım 2: A'yı sına. "He was ill, so he couldn't have his party." A doğrudur.
+Adım 3: B'yi sına. "We made a short video at school." B doğrudur.
+Adım 4: C'yi sına. Video 19.00'da gönderildi; Kerem on dakika sonra aradı ve videoya "en iyi doğum günü hediyesi" dedi. Demek ki videoyu izledikten sonra aramıştır. C doğrudur.
+Adım 5: D'yi sına. Metin "Next week he is coming back to school, and we are going to bring a cake for him." diyor. Pasta Kerem'in evine değil, okula getirilecek; çünkü Kerem okula dönüyor. D yanlıştır; aradığımız seçenek budur.
+Sık yapılan hata: "Next week" ve "cake" sözcüklerini metinde görüp D'yi doğru sanmak. Sözcükler aynı olsa da yer bilgisi (ev mi, okul mu) metinle çelişiyorsa cümle yanlıştır.
 Cevap D.`
 },
 {
@@ -532,7 +533,7 @@ Cevap A.`
 },
 {
   id: "ing-u1-008",
-  kazanim: "E8.1.R2",
+  kazanim: "E8.1.R1",
   kademe: 0,
   zorluk: 4,
   soru: `The daily programme of a summer camp is in the table below.

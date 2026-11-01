@@ -13,22 +13,22 @@ I. Yokuşu tırmanan öğrenciler tepede uzun süre dinlendi.
 II. Kamp yerine ulaşınca çadırları hemen kurduk.
 III. Rehberin bize göstereceği patikayı sabırsızlıkla bekliyorduk.
 IV. Kamp yerine ulaşmak, günün en zor işiydi.
-**Bu cümlelerin hangisinde zarf-fiil, cümlenin zarf tümleci içinde yer almıştır?**`,
+**Bu cümlelerin hangisinde fiilimsi, cümlenin zarf tümleci içinde yer almıştır?**`,
   gorsel: null,
   secenekler: ["I", "II", "III", "IV"],
   dogru: 1,
   hatalar: [
-    "Fiilimsiyi görev yönünden ayırmama: 'Tırmanan' sıfat-fiildir ve 'öğrenciler' öznesinin içinde yer alır; zarf-fiil değildir. 'Tepede' ve 'uzun süre' zarf tümlecidir ama fiilimsi içermez.",
+    "Zarf tümlecini görüp fiilimsiyi orada sanma: 'Tepede' ve 'uzun süre' zarf tümlecidir ama fiilimsi içermez. Fiilimsi 'tırmanan'dır ve 'Yokuşu tırmanan öğrenciler' öznesinin içinde yer alır.",
     null,
-    "Zarf tümlecini fiilimsi sanma: 'Sabırsızlıkla' zarf tümlecidir ama fiilden türememiştir; 'göstereceği' ise sıfat-fiildir ve nesnenin içinde yer alır.",
-    "Fiilimsinin türünü karıştırma: 'Ulaşmak' işin adını bildiren isim-fiildir ve öznenin içinde yer alır; zarf-fiil değildir."
+    "Zarf tümlecini görüp fiilimsiyi orada sanma: 'Sabırsızlıkla' zarf tümlecidir ama fiilden türememiştir. Fiilimsi 'göstereceği'dir ve 'Rehberin bize göstereceği patikayı' belirtili nesnesinin içinde yer alır.",
+    "'Kamp yerine' sözünü görüp öbeği zarf tümleci sanma: 'Kamp yerine ulaşmak' öbeği yükleme 'ne?' sorusuyla bağlanır, öznedir. Fiilimsi 'ulaşmak' öznenin içinde yer alır."
   ],
-  aciklama: `Zarf-fiil, fiili zaman, durum ya da yol yönünden tamamlayan fiilimsidir ("-ınca, -erek, -madan" gibi eklerle kurulur). Zarf tümleci ise yükleme "ne zaman, nasıl, nerede" sorularının cevabını veren ögedir. Zarf-fiilli bir söz öbeği bu soruların cevabı oluyorsa zarf tümleci görevindedir.
-Adım 1: Her cümledeki fiilimsiyi bul ve türünü belirle. I'de "tırmanan" sıfat-fiil, III'te "göstereceği" sıfat-fiil, IV'te "ulaşmak" isim-fiildir. Yalnızca II'deki "ulaşınca" zarf-fiildir.
-Adım 2: II'de yükleme "çadırları ne zaman kurduk?" diye sor. Cevap "Kamp yerine ulaşınca"dır. Zarf-fiilli bu söz öbeğinin tamamı zaman bildiren zarf tümlecidir.
-Adım 3: Öteki cümlelerde fiilimsiler başka ögelerin içindedir: I'de "Yokuşu tırmanan öğrenciler" özne, III'te "Rehberin bize göstereceği patikayı" nesne, IV'te "Kamp yerine ulaşmak" özne öbeğidir. Zarf tümleci olan "tepede", "uzun süre" ve "sabırsızlıkla" ise fiilimsi değildir.
-Sağlama: II'deki "Kamp yerine ulaşınca" sözü cümleden çıkarılırsa yükleme "ne zaman?" sorusunun cevabı kalmaz; yani söz öbeği zarf tümlecidir.
-Sık yapılan hata: Cümlede zarf tümleci gördüğü için fiilimsi aramadan karar vermek ya da fiilimsi görünce görevine bakmamak.
+  aciklama: `Fiilimsi, fiilden türeyen ama tek başına yüklem olmayan sözcüktür (isim-fiil, sıfat-fiil, zarf-fiil). Fiilimsi tek başına öge olmaz; içinde bulunduğu söz öbeğiyle birlikte bir öge oluşturur. Bu yüzden önce fiilimsiyi, sonra öbeğinin yükleme hangi soruyla bağlandığını bulursun. Zarf tümleci, yükleme "ne zaman, nasıl, neden" sorularının cevabını veren ögedir.
+Adım 1: Her cümledeki fiilimsiyi bul. I'de "tırmanan" (sıfat-fiil), II'de "ulaşınca" (zarf-fiil), III'te "göstereceği" (sıfat-fiil), IV'te "ulaşmak" (isim-fiil).
+Adım 2: Her fiilimsinin içinde bulunduğu öbeği ve öbeğin görevini bul. I'de "Yokuşu tırmanan öğrenciler": "Kim dinlendi?" → özne. III'te "Rehberin bize göstereceği patikayı": "Neyi bekliyorduk?" → belirtili nesne. IV'te "Kamp yerine ulaşmak": "En zor iş neydi?" → özne.
+Adım 3: II'de yükleme "Çadırları ne zaman kurduk?" diye sor. Cevap "Kamp yerine ulaşınca"dır. Zarf-fiilli bu öbek zaman bildiren zarf tümlecidir.
+Sağlama: I ve III'te de zarf tümleci vardır ("tepede", "uzun süre", "sabırsızlıkla") ama bunlar fiilimsi değildir; o cümlelerdeki fiilimsiler özne ve nesnenin içindedir.
+Sık yapılan hata: Cümlede zarf tümleci görünce fiilimsinin de orada olduğunu sanmak ya da "kamp yerine" sözünü görüp IV'teki öbeği zarf tümleci saymak; o öbek yükleme "ne?" sorusuyla bağlanır, öznedir.
 Cevap B.`
 },
 {
@@ -72,7 +72,7 @@ Cevap D.`
   soru: `Bir fiilimsi, "-idi, -imiş, -dir" gibi ek-fiil alırsa ve cümleyi bitirirse cümlenin yüklemi olabilir. Bir öğrenci, atölye ziyaretinde tuttuğu notlardan dört cümle seçmiş ve bu cümlelerdeki fiilimsileri incelemek istemiştir.
 I. Ustanın tek isteği, çırağının işi sabırla öğrenmesiydi.
 II. Sınavın en zor yanı, süre yetmeden bırakılan sorulardı.
-III. Kapı çalınca köpek, havlayarak bahçeye koştu.
+III. Atölyeye girince ilk gördüğüm şey, köşedeki eski tezgâhtı.
 IV. Bahçede oynayanlar, hava kararınca eve döndü.
 **Bu cümlelerin hangisinde yüklemin kendisi, ek-fiil almış bir fiilimsidir?**`,
   gorsel: null,
@@ -81,15 +81,15 @@ IV. Bahçede oynayanlar, hava kararınca eve döndü.
   hatalar: [
     null,
     "Fiilimsiyi görünce yüklem sanma: 'Yetmeden' zarf-fiil, 'bırakılan' sıfat-fiildir; ancak yüklem 'sorulardı' sözüdür ve bir isimdir ('soru' + ek-fiil).",
-    "Zarf-fiili yüklem sanma: 'Çalınca' ve 'havlayarak' zarf-fiildir; yüklem 'koştu' çekimli fiildir.",
+    "Ek-fiil almış ismi fiilimsi sanma: 'Girince' zarf-fiil, 'gördüğüm' sıfat-fiildir; ancak yüklem 'tezgâhtı' sözüdür ve bir isimdir ('tezgâh' + ek-fiil).",
     "Adlaşmış sıfat-fiili yüklem sanma: 'Oynayanlar' adlaşmış sıfat-fiildir ve özne görevindedir; 'kararınca' zarf-fiildir. Yüklem 'döndü' çekimli fiildir."
   ],
   aciklama: `Yüklem, cümlenin sonunda yer alan ve yargıyı bildiren ögedir. Fiilimsiler tek başına yargı bildirmez; ama bir isim-fiil ek-fiil alırsa ("öğrenmesiydi" gibi) yargıyı o taşır ve yüklem olur.
-Adım 1: Her cümlenin yüklemini bul; yani yargıyı bildiren, sondaki sözü işaretle. I'de "öğrenmesiydi", II'de "sorulardı", III'te "koştu", IV'te "döndü".
+Adım 1: Her cümlenin yüklemini bul; yani yargıyı bildiren, sondaki sözü işaretle. I'de "öğrenmesiydi", II'de "sorulardı", III'te "tezgâhtı", IV'te "döndü".
 Adım 2: Bu sözleri incele. "Öğrenmesiydi" sözü "öğren-me-si-ydi" biçimindedir: isim-fiil ("öğrenme") + iyelik eki + ek-fiil. Yani yüklem bir isim-fiildir.
-Adım 3: Öteki cümlelerdeki yüklemler fiilimsi değildir. "Sorulardı" bir ismin ek-fiil almış hâlidir; "koştu" ve "döndü" çekimli fiillerdir. Bu cümlelerdeki fiilimsiler (yetmeden, bırakılan, çalınca, havlayarak, oynayanlar, kararınca) başka görevlerdedir.
+Adım 3: Öteki cümlelerdeki yüklemler fiilimsi değildir. "Sorulardı" ve "tezgâhtı" birer ismin ek-fiil almış hâlidir; "döndü" çekimli fiildir. Bu cümlelerdeki fiilimsiler (yetmeden, bırakılan, girince, gördüğüm, oynayanlar, kararınca) başka görevlerdedir.
 Sağlama: "Ustanın tek isteği ne idi?" sorusunun cevabı "çırağın işi sabırla öğrenmesi"dir; yüklem bu yargıyı bildiren fiilimsidir.
-Sık yapılan hata: Cümlede çok sayıda fiilimsi görünce yüklemin de fiilimsi olduğunu sanmak; yüklem her zaman cümlenin yargısını taşıyan sondaki sözdür.
+Sık yapılan hata: Yüklem ek-fiil almış diye ya da cümlede çok sayıda fiilimsi var diye yüklemin de fiilimsi olduğunu sanmak; ek-fiili atıp geriye kalan sözün isim mi ("soru", "tezgâh") fiilimsi mi ("öğrenme") olduğuna bak.
 Cevap A.`
 },
 {

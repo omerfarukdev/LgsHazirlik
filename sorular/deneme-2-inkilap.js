@@ -41,26 +41,26 @@ Cevap B.`
 **Bu tabloya göre aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: `<table class="tablo"><tr><th>Hafta</th><th>1-7 Mayıs</th><th>8-14 Mayıs</th><th>15-21 Mayıs</th><th>22-28 Mayıs</th></tr><tr><td>Miting sayısı</td><td>2</td><td>3</td><td>18</td><td>27</td></tr><tr><td>Protesto telgrafı sayısı</td><td>10</td><td>12</td><td>40</td><td>52</td></tr><tr><td>Yeni cemiyet sayısı</td><td>1</td><td>1</td><td>4</td><td>6</td></tr></table>`,
   secenekler: [
-    "İşgalden önceki iki haftada yapılan toplam miting sayısı, aynı haftalardaki protesto telgrafı sayısının yarısından fazladır.",
     "İşgal haftasında kurulan yeni cemiyet sayısı, işgalden önceki iki haftada kurulanların toplamının iki katından fazladır.",
-    "İşgal haftasında protesto telgrafı sayısı bir önceki haftaya göre, miting sayısından daha büyük oranda artmıştır.",
-    "Üç göstergede de işgal haftasındaki değer, işgalden önceki iki haftanın her birindeki değerin en az üç katıdır."
+    "İşgal haftasında miting sayısındaki artış oranı, bir önceki haftaya göre protesto telgrafı sayısındaki artış oranından düşüktür.",
+    "Halk, Mondros'un uygulanmasına İzmir'in işgaline kadar tepki göstermemiş; mitingler ve cemiyetler işgalle birlikte başlamıştır.",
+    "Halk, işgalden sonra tepkisini miting ve telgrafla sınırlı tutmamış; millî cemiyetler kurarak örgütlü bir tutuma da yönelmiştir."
   ],
   dogru: 3,
   hatalar: [
-    "Toplamı yanlış karşılaştırma: ilk iki haftada miting 2 + 3 = 5, telgraf 10 + 12 = 22'dir; 22'nin yarısı 11'dir ve 5 < 11.",
     "Sınırı dahil etme: ilk iki haftada kurulan cemiyet 1 + 1 = 2, iki katı 4'tür; işgal haftasında da 4 cemiyet kurulmuştur. 4, 4'e eşittir, ondan fazla değildir.",
-    "Farkı oranla karıştırma: telgraf 12'den 40'a 28, miting 3'ten 18'e 15 artmıştır; ancak oran olarak telgraf 40 / 12 ≈ 3,3 kat, miting 18 / 3 = 6 kat artmıştır.",
+    "Farkı oranla karıştırma: telgraf 12'den 40'a 28, miting 3'ten 18'e 15 artmıştır; ancak oran olarak miting 18 / 3 = 6 kat, telgraf 40 / 12 ≈ 3,3 kat artmıştır. Mitingin artış oranı daha yüksektir.",
+    "İşgal öncesini tablodan okumama: 1-14 Mayıs'ta 5 miting, 22 telgraf ve 2 cemiyet vardır. Halk, Mondros'un uygulanması ve süren işgaller karşısında İzmir'in işgalinden önce de tepki göstermiştir.",
     null
   ],
-  aciklama: `Mondros'tan sonra işgaller sürdü; 15 Mayıs 1919'da Yunan birlikleri İzmir'e çıktı. Halk bu işgallere mitingler, protesto telgrafları ve millî cemiyetlerle tepki gösterdi. Bu soruda "fark" ile "kat" (oran) kavramlarını ayırman gerekir: kat, iki değerin birbirine bölümüdür; fark ise çıkarmadır.
+  aciklama: `Mondros'tan sonra işgaller sürdü; 15 Mayıs 1919'da Yunan birlikleri İzmir'e çıktı. Halk bu işgallere mitingler, protesto telgrafları ve millî cemiyetler kurarak tepki gösterdi; tepki bireysel kalmadı, cemiyetlerle örgütlü bir biçim de aldı. Bu soruda hem tablodaki sayıları doğru okuman hem de halkın tutumuyla ilgili yargıyı tabloyla sınaman gerekir. "Kat" iki değerin birbirine bölümüdür; "fark" ise çıkarmadır.
 Adım 1: Tablodaki sayıları oku. İşgal haftası 15-21 Mayıs'tır. Ondan önceki iki hafta 1-7 ve 8-14 Mayıs'tır.
-Adım 2: Birinci seçeneği sına. İlk iki haftada miting 2 + 3 = 5, telgraf 10 + 12 = 22'dir. 22'nin yarısı 11'dir ve 5, 11'den küçüktür. Yanlış.
-Adım 3: İkinci seçeneği sına. İlk iki haftada kurulan cemiyet 1 + 1 = 2'dir; iki katı 4 eder. İşgal haftasında kurulan cemiyet sayısı da 4'tür. "Fazladır" için 4'ten büyük olması gerekir, oysa eşittir. Yanlış.
-Adım 4: Üçüncü seçeneği sına. Telgraf 12'den 40'a çıkmıştır: 40 / 12 ≈ 3,3 kat. Miting 3'ten 18'e çıkmıştır: 18 / 3 = 6 kat. Telgrafın farkı daha büyük (28 > 15) ama oranı daha küçüktür. Yanlış.
-Adım 5: Dördüncü seçeneği sına. Her gösterge için ilk iki haftanın en büyük değerini üç ile çarp ve işgal haftasıyla karşılaştır. Miting: 3 · 3 = 9 ≤ 18. Telgraf: 12 · 3 = 36 ≤ 40. Cemiyet: 1 · 3 = 3 ≤ 4. Üçünde de sağlandığı için ifade doğrudur.
-Sağlama: Sınırı en dar olan gösterge telgraftır (36'ya karşı 40); orada da koşul sağlanıyor, yani ifade üç göstergede de geçerlidir.
-Sık yapılan hata: Artışı karşılaştırırken farkla oranı karıştırmak. "Daha çok arttı" sözünün fark mı oran mı istediğini önce belirle.
+Adım 2: Birinci seçeneği sına. İlk iki haftada kurulan cemiyet 1 + 1 = 2'dir; iki katı 4 eder. İşgal haftasında kurulan cemiyet sayısı da 4'tür. "Fazladır" için 4'ten büyük olması gerekir, oysa eşittir. Yanlış.
+Adım 3: İkinci seçeneği sına. Miting 3'ten 18'e çıkmıştır: 18 / 3 = 6 kat. Telgraf 12'den 40'a çıkmıştır: 40 / 12 ≈ 3,3 kat. Telgrafın farkı daha büyük (28 > 15) ama mitingin artış oranı daha yüksektir; "düşüktür" ifadesi yanlıştır.
+Adım 4: Üçüncü seçeneği sına. İşgalden önceki iki haftada da 2 ve 3 miting, 10 ve 12 telgraf, 1'er cemiyet vardır. Halk Mondros'un uygulanmasına İzmir'in işgalinden önce de tepki göstermiştir; "işgalle birlikte başlamıştır" yanlıştır.
+Adım 5: Dördüncü seçeneği sına. İşgal haftasında ve sonrasında miting ve telgrafın yanında yeni cemiyet sayısı da 4'e ve 6'ya çıkmıştır. Halk tepkisini örgütlü biçime (cemiyet kurma) de taşımıştır. Doğru.
+Sağlama: Doğru seçenek hem tabloyla (cemiyet satırı) hem de halkın Mondros sonrası tutumuyla (mitingler, telgraflar, millî cemiyetler) uyumludur; diğer üçü ya sayısal sınırı ya da tarihsel bilgiyi yanlış kurar.
+Sık yapılan hata: "Tepki İzmir'in işgaliyle başladı" sanmak. Mondros'un uygulanması ve ilk işgaller, halkı İzmir'den önce de harekete geçirmiştir; İzmir'in işgali tepkiyi büyütmüştür.
 Cevap D.`
 },
 {
@@ -74,25 +74,25 @@ Cevap D.`
   gorsel: `<table class="tablo"><tr><th>Yıl ve yer</th><th>Durum</th><th>Mustafa Kemal'in tutumu</th></tr><tr><td>1912, Derne</td><td>Bölgede düzenli ordu birliği yoktur. İtalyan kuvvetleri modern silahlara ve topçuya sahiptir.</td><td>Kabile beyleriyle görüşmüş, gönüllüleri bir komuta düzenine sokmuştur. İtalyan ilerleyişi durmuştur.</td></tr><tr><td>25 Nisan 1915, Arıburnu</td><td>Düşman donanması kıyıyı topa tutmaktadır. Karaya çıkan birlikler sayıca üstündür.</td><td>Çıkarmanın asıl yönünü fark edince kesin emir gelmesini beklememiş, bir alayı o yöne sürmüştür. Düşman tepeyi tutamamıştır.</td></tr><tr><td>Kasım 1918, Adana</td><td>Mondros Ateşkes Antlaşması imzalanmış, ordu terhis edilmektedir. İngilizler İskenderun'u işgal etmiştir.</td><td>İşgalin ateşkese aykırı olduğunu bildirerek itiraz etmiş, komutanlardan işgallere karşı direniş hazırlığı yapmalarını istemiştir.</td></tr></table>`,
   secenekler: [
     "Üç görevde de olumsuz koşullar karşısında çaresiz kalmamış, duruma uygun bir önlem almıştır.",
-    "İlk görevinde, düzenli ordu birliklerinin başına geçerek İtalyan ilerleyişini durdurmuştur.",
-    "İkinci görevinde, birinci görevindeki gibi, bölgedeki gönüllüleri bir komuta düzenine sokmuştur.",
-    "Son görevinde, işgalci kuvvetlerle çatışarak İskenderun'un işgaline son vermiştir."
+    "Üç görevde de düşmanın ilerleyişini, komuta ettiği silahlı birliklerle durdurmuştur.",
+    "Üç görevde de sayıca ve silahça üstün düşmana karşı düzenli ordu birliklerine komuta etmiştir.",
+    "Üç görevde de kesin emir gelmesini beklemeden, kendi kararıyla birlikleri düşman üzerine sürmüştür."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "Derne satırını yanlış okuma: bölgede düzenli ordu birliği yoktur; İtalyan ilerleyişi, kabile beyleriyle görüşülüp gönüllüler örgütlenerek durdurulmuştur.",
-    "Arıburnu satırını Derne ile karıştırma: Arıburnu'nda gönüllü örgütleme yoktur; Mustafa Kemal bir alayı düşmanın çıkarma yönüne sürmüştür.",
-    "Adana satırını yanlış okuma: Adana'da çatışma ya da işgali sona erdiren bir sonuç yoktur; yalnızca itiraz ve direniş hazırlığı isteği vardır."
+    "Adana satırını denetlememe: Derne'de gönüllü birlikler, Arıburnu'nda bir alay düşmanı durdurmuştur; ancak Adana'da ordu terhis edilmektedir, silahlı bir durdurma yoktur, yalnızca itiraz ve direniş hazırlığı isteği vardır.",
+    "Derne satırını yanlış okuma: Derne'de düzenli ordu birliği yoktur; Mustafa Kemal kabile beyleriyle görüşüp gönüllüleri örgütlemiştir. 'Üç görevde de' yargısı daha ilk satırda bozulur.",
+    "Arıburnu satırını öbür satırlara taşıma: emir beklemeden birlik sürme yalnızca Arıburnu'ndadır; Adana'da birlik sürülmemiş, işgale itiraz edilip hazırlık istenmiştir."
   ],
-  aciklama: `Böyle sorularda her seçeneği tabloda ilgili satırla tek tek karşılaştır; seçenek "üç görevde de" diyorsa üç satırda da doğrulanmalıdır. Bu tablo, Mustafa Kemal'in askerlik hayatındaki olayların onun kişilik özellikleriyle (inisiyatif alma, örgütleme, cesaret) nasıl ilişkilendirildiğini gösterir.
-Adım 1: Satırları özetle. Derne'de düzenli ordu yok, karşıda modern silahlı İtalyanlar var; Mustafa Kemal gönüllüleri örgütlemiştir. Arıburnu'nda düşman donanma desteğiyle ve sayıca üstündür; Mustafa Kemal emir beklemeden alay sürmüştür. Adana'da ateşkesten sonra işgal sürmektedir; Mustafa Kemal itiraz etmiş ve direniş hazırlığı istemiştir.
-Adım 2: İkinci seçeneği sına. Derne'de düzenli ordu birliği yoktur; Mustafa Kemal gönüllüleri örgütlemiştir. Yanlış.
-Adım 3: Üçüncü seçeneği sına. Gönüllü örgütleme yalnızca Derne satırındadır; Arıburnu'nda bir alay yönlendirilmiştir. Yanlış.
-Adım 4: Dördüncü seçeneği sına. Adana satırında çatışma ya da işgalin sona ermesi yazmaz; itiraz ve direniş hazırlığı isteği vardır. Yanlış.
-Adım 5: Birinci seçeneği sına. Derne'de örgütleme, Arıburnu'nda emir beklemeden alay sevki, Adana'da itiraz ve direniş hazırlığı: her satırda olumsuz koşula karşı bir önlem alınmıştır. Doğru.
-Sağlama: Doğru seçenek üç satırın ortak noktasını söyler; diğerleri tek bir satıra ait ayrıntıyı yanlış satıra ya da yanlış sonuca bağlar.
-Sık yapılan hata: Bir satıra ait ayrıntıyı (gönüllü örgütleme, çatışma) öbür satırlara taşımak.
+  aciklama: `Böyle sorularda "üç görevde de" diyen her seçeneği üç satırda ayrı ayrı sına; bir satırda bile bozuluyorsa seçenek yanlıştır. Bu tablo, Mustafa Kemal'in askerlik hayatındaki olayların onun kişilik özellikleriyle (inisiyatif alma, örgütleme, cesaret) nasıl ilişkilendirildiğini gösterir.
+Adım 1: Satırları özetle. Derne'de düzenli ordu yok, karşıda modern silahlı İtalyanlar var; Mustafa Kemal gönüllüleri örgütlemiştir. Arıburnu'nda düşman donanma desteğiyle ve sayıca üstündür; Mustafa Kemal emir beklemeden alay sürmüştür. Adana'da ateşkesten sonra işgal sürmekte, ordu terhis edilmektedir; Mustafa Kemal itiraz etmiş ve direniş hazırlığı istemiştir.
+Adım 2: İkinci seçeneği sına. Derne ve Arıburnu'nda silahlı birliklerle durdurma vardır; ama Adana'da ordu terhis edilmektedir, düşman silahla durdurulmamıştır. Üçüncü satırda bozulur. Yanlış.
+Adım 3: Üçüncü seçeneği sına. Derne'de düzenli ordu birliği yoktur; Mustafa Kemal gönüllüleri komuta düzenine sokmuştur. Daha ilk satırda bozulur. Yanlış.
+Adım 4: Dördüncü seçeneği sına. Emir beklemeden birlik sürme yalnızca Arıburnu satırında yazar; Adana'da birlik sürülmemiş, itiraz edilmiştir. Yanlış.
+Adım 5: Birinci seçeneği sına. Derne'de örgütleme, Arıburnu'nda emir beklemeden alay sevki, Adana'da itiraz ve direniş hazırlığı: üç satırda da olumsuz koşula karşı o duruma uygun bir önlem alınmıştır. Doğru.
+Sağlama: Yanlış seçeneklerin her biri iki satırda tutup üçüncüsünde bozulur (B Adana'da, C Derne'de, D Adana'da); yalnızca A üç satırda da doğrulanır.
+Sık yapılan hata: Bir satırda doğru olan ayrıntıyı (gönüllü örgütleme, emir beklemeden hareket, silahlı durdurma) üç satır için de geçerli saymak.
 Cevap A.`
 }
 );

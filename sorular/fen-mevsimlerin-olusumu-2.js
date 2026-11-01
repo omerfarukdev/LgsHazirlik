@@ -8,25 +8,25 @@ window.LGS_BANK = window.LGS_BANK || {};
   kademe: 3,
   zorluk: 3,
   soru: `Bir okulun teknoloji atölyesinde öğrenciler, özdeş iki güneş pilini aynı ışık kaynağından çıkan eşit genişlikte birer ışık demetiyle aydınlatmıştır. Demetler pillere farklı açılarla ulaştığı için pillerin üzerinde aydınlanan bölgelerin genişlikleri aşağıdaki gibi ölçülmüştür.
-I. K düzeneğinde aydınlanan bölgenin her santimetrekaresine düşen ışık enerjisi daha fazladır.
+I. L düzeneğinde aydınlanan bölgenin her santimetrekaresine düşen ışık enerjisi daha fazladır.
 II. İki pile ulaşan toplam ışık enerjisi birbirine eşittir.
 III. Işığın yüzeye ulaşma açısı, birim yüzeye düşen enerji miktarını değiştirmez.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<svg viewBox="0 0 520 280" role="img" aria-label="Özdeş iki güneş pilinde aydınlanan bölge genişlikleri: K düzeneğinde 4 cm, L düzeneğinde 8 cm"><g stroke="var(--vurgu)" stroke-width="2" fill="none"><line x1="80" y1="35" x2="80" y2="176"/><line x1="140" y1="35" x2="140" y2="176"/><line x1="200" y1="105" x2="330" y2="180"/><line x1="320" y1="105" x2="450" y2="180"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="55" y="180" width="110" height="12"/><rect x="300" y="180" width="190" height="12"/></g><g stroke="currentColor" stroke-width="2" fill="none"><line x1="80" y1="212" x2="140" y2="212"/><line x1="80" y1="206" x2="80" y2="218"/><line x1="140" y1="206" x2="140" y2="218"/><line x1="330" y1="212" x2="450" y2="212"/><line x1="330" y1="206" x2="330" y2="218"/><line x1="450" y1="206" x2="450" y2="218"/></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="110" y="26">Işık demeti</text><text x="250" y="88">Işık demeti</text><text x="110" y="238">4 cm</text><text x="390" y="238">8 cm</text><text x="110" y="266" font-weight="bold">Düzenek K</text><text x="390" y="266" font-weight="bold">Düzenek L</text></g></svg>`,
-  secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
   dogru: 1,
   hatalar: [
-    "Toplam enerjiyi gözden kaçırma: demetlerin genişliği eşit olduğu için iki pile ulaşan toplam enerji de eşittir; II doğrudur.",
+    "Geniş bölgeyi çok enerji sanma: L'de aydınlanan bölge daha geniştir ama aynı enerji iki kat alana yayıldığı için her santimetrekareye düşen miktar yarıya iner. Ayrıca toplam enerjinin eşit olduğu (II) gözden kaçmış.",
     null,
-    "Birim yüzey ile toplamı karıştırma: toplam enerji eşit olduğu için birim yüzeye düşenin de eşit olduğunu sanma; oysa L'de aynı enerji iki kat geniş bir bölgeye yayılmıştır.",
-    "I ile III'ün birbiriyle çeliştiğini fark etmeme: I, birim yüzeye düşen enerjinin açıya göre değiştiğini söyler; III ise değişmediğini. İkisi aynı anda doğru olamaz."
+    "I ile III'ü birlikte doğru sayma: I, L'de birim yüzeye daha çok enerji düştüğünü söyler; oysa L'de aynı enerji daha geniş alana yayılmıştır. III ise açının etkisiz olduğunu söyler; iki yargı da yanlıştır.",
+    "III'ü doğru sayma: aydınlanan bölgenin genişliğini ışığın geliş açısı belirler; açı değişince birim yüzeye düşen enerji de değişir."
   ],
   aciklama: `Birim yüzeye düşen ışık enerjisi, belirli bir alana (örneğin bir santimetrekareye) düşen enerji miktarıdır. Aynı enerji geniş bir alana yayılırsa birim yüzeye düşen miktar azalır.
 Adım 1 (II'yi incele): İki demet de aynı kaynaktan çıkıyor ve genişlikleri eşit. Bu yüzden pillere ulaşan toplam enerji eşittir. II doğrudur.
-Adım 2 (I'i incele): Aynı enerji K'de 4 cm'lik, L'de 8 cm'lik bir bölgeye yayılmıştır. Bölge iki kat genişlediğine göre L'de bir santimetrekareye düşen enerji yarıya iner. Öyleyse K'de birim yüzeye düşen enerji daha fazladır. I doğrudur.
+Adım 2 (I'i incele): Aynı enerji K'de 4 cm'lik, L'de 8 cm'lik bir bölgeye yayılmıştır. Bölge iki kat genişlediğine göre L'de bir santimetrekareye düşen enerji yarıya iner. Öyleyse birim yüzeye düşen enerji L'de değil K'de daha fazladır. I yanlıştır.
 Adım 3 (III'ü incele): Aydınlanan bölgenin genişliğini belirleyen şey ışığın yüzeye ulaşma açısıdır. Açı değişince birim yüzeye düşen enerji de değişir. III yanlıştır.
-Adım 4: Doğru olanlar I ve II'dir.
-Sağlama: Dünya'da da durum böyledir. Güneş'in yaydığı enerji yıl boyunca aynı kalırken ışınlar yere eğik düştüğünde aynı enerji daha geniş bir alana yayılır, birim yüzey daha az enerji alır ve hava soğur.
+Adım 4: Doğru olan yalnız II'dir.
+Sık yapılan hata: "Daha geniş alan aydınlanıyorsa daha çok enerji alıyor." demek. Toplam enerji aynıdır; alan büyüdükçe her santimetrekareye düşen pay küçülür. Dünya'da da ışınlar yere eğik düştüğünde aynı enerji daha geniş alana yayılır, birim yüzey daha az enerji alır ve hava soğur.
 Cevap B.`
 },
 {
@@ -62,7 +62,7 @@ Cevap A.`
   soru: `Bir havayolu şirketinin uçuş dergisinde, aynı gün iki ayrı şehre yapılan seferler tanıtılmıştır. Yazıda, 21 Aralık günü İstanbul'da kar yağarken Arjantin'in başkenti Buenos Aires'te yolcuların denize girdiği anlatılmaktadır. Buenos Aires Güney Yarım Küre'de yer almaktadır.
 I. İki şehirde aynı anda farklı mevsimlerin yaşanması, Dünya'nın dönme ekseninin eğik olmasıyla açıklanır.
 II. O gün öğle vakti Güneş ışınları Buenos Aires'e İstanbul'dakine göre daha dik düşmektedir.
-III. Dünya'nın Güneş'e olan uzaklığı, iki şehir arasındaki bu mevsim farkının nedenidir.
+III. Dünya'nın dönme ekseninin eğikliği, Buenos Aires için İstanbul'dakinden farklıdır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
   secenekler: ["Yalnız I", "Yalnız II", "I ve II", "I, II ve III"],
@@ -71,14 +71,14 @@ III. Dünya'nın Güneş'e olan uzaklığı, iki şehir arasındaki bu mevsim fa
     "II'yi gözden kaçırma: aralıkta Güney Yarım Küre'de yaz yaşandığına göre Güneş ışınları Buenos Aires'e daha dik düşer.",
     "Eksen eğikliğinin rolünü görmeme: eksen eğik olmasaydı iki yarım kürede aynı anda farklı mevsimler yaşanmazdı.",
     null,
-    "Uzaklık yanılgısı: Dünya'nın Güneş'e uzaklığı aynı anda iki şehir için de aynıdır; aynı uzaklık farklı mevsimleri açıklayamaz."
+    "Eksen eğikliğinin yere göre değiştiğini sanma: Dünya'nın tek bir dönme ekseni vardır ve eğikliği her şehir için aynıdır. Farkı yaratan, bu tek eksenin iki yarım küreyi aynı anda farklı yönlere çevirmesidir."
   ],
   aciklama: `Mevsimler, Güneş ışınlarının yere düşme açısının yıl içinde değişmesiyle oluşur. Açıyı değiştiren de Dünya'nın dönme ekseninin dolanma düzlemine dik olmayışıdır.
 Adım 1 (I): Eksen eğik olduğu için yılın bir bölümünde kuzey kutbu, diğer bölümünde güney kutbu Güneş'e yönelir. Bu yüzden iki yarım kürede aynı anda ters mevsimler yaşanır. I doğrudur.
 Adım 2 (II): Aralıkta güney kutbu Güneş'e yöneliktir. Öyleyse ışınlar Güney Yarım Küre'deki Buenos Aires'e daha dik, Kuzey Yarım Küre'deki İstanbul'a daha eğik düşer. Dik düşen ışınlarda birim yüzeye düşen enerji artar; Buenos Aires sıcaktır. II doğrudur.
-Adım 3 (III): Dünya tek bir gök cismidir; iki şehir aynı anda Güneş'ten aynı uzaklıktadır. Uzaklık ikisi için de aynı olduğuna göre aralarındaki mevsim farkını açıklayamaz. III yanlıştır.
+Adım 3 (III): Dünya tek bir gök cismidir ve tek bir dönme ekseni vardır; eksenin eğikliği İstanbul için de Buenos Aires için de aynıdır. Şehirlerin mevsimi farklıdır ama bunun nedeni eğikliğin farklı olması değil, aynı eğik eksenin bir yarım küreyi Güneş'e doğru, diğerini Güneş'ten uzağa çevirmesidir. III yanlıştır.
 Adım 4: Doğru olanlar I ve II'dir.
-Sık yapılan hata: "Yaz, Dünya Güneş'e yaklaştığı için olur." demek. Bu doğru olsaydı iki yarım kürede aynı anda aynı mevsim yaşanırdı.
+Sık yapılan hata: "Her bölgenin kendi eksen eğikliği vardır." diye düşünmek. Eksen Dünya'nın bütünü için tek bir çizgidir; mevsimi değiştiren, bu çizginin hangi ucunun Güneş'e baktığıdır.
 Cevap C.`
 },
 {
@@ -86,26 +86,26 @@ Cevap C.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir doğa gözlem kulübü, aynı kamp alanına ocak ve temmuz aylarında birer kez gitmiştir. Kulüp üyeleri her iki kampta da öğle vakti 1,5 metre boyundaki aynı direğin gölgesini ölçmüş ve gölgesiz bir noktada toprağın yüzey sıcaklığını kaydetmiştir. Elde ettikleri veriler aşağıdadır.
+  soru: `Bir doğa gözlem kulübü, aynı kamp alanına ocak ve temmuz aylarında birer kez gitmiştir. Kulüp üyeleri her iki kampta da öğle vakti 1,5 metre boyundaki aynı direğin gölgesini ölçmüş ve gölgesiz bir noktada toprağın yüzey sıcaklığını kaydetmiştir. Kulübün gök bilim rehberinde ayrıca Dünya'nın Güneş'e ocak başında yılın en yakın, temmuz başında ise en uzak konumunda bulunduğu yazmaktadır. Elde ettikleri veriler aşağıdadır.
 I. Temmuz kampında Güneş ışınları kamp alanına ocak kampındakine göre daha dik düşmüştür.
 II. Temmuz kampında toprağın birim yüzeyine düşen ışık enerjisi daha fazladır.
-III. İki kamp arasındaki bu farkın nedeni, Dünya'nın dönme ekseninin eğik olmasıdır.
+III. Temmuz kampında Dünya Güneş'e daha uzak olmasına karşın toprağın birim yüzeyi daha çok enerji almıştır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<table class="tablo"><tr><th>Kamp</th><th>1,5 m boyundaki direğin gölge uzunluğu</th><th>Toprağın yüzey sıcaklığı</th></tr><tr><td>Ocak kampı</td><td>3,0 m</td><td>4 °C</td></tr><tr><td>Temmuz kampı</td><td>0,6 m</td><td>38 °C</td></tr></table>`,
   secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
   dogru: 3,
   hatalar: [
-    "Işın açısı ile birim yüzeye düşen enerji arasındaki bağı kuramama: ışınlar dikleştikçe aynı enerji daha küçük bir alana düşer, birim yüzeye düşen enerji artar.",
-    "Farkın nedenini belirleyememe: ışınların düşme açısının yıl içinde değişmesi, Dünya'nın dönme ekseninin eğik olmasından kaynaklanır.",
+    "Işın açısı ile birim yüzeye düşen enerji arasındaki bağı kuramama: ışınlar dikleştikçe aynı enerji daha küçük bir alana düşer, birim yüzeye düşen enerji artar. III de rehberdeki bilgi ve tabloyla uyumludur.",
+    "\"Uzaklık\" geçen her yargıyı yanlış sayma: rehbere göre temmuzda Dünya gerçekten Güneş'e daha uzaktır, tabloya göre de toprak o kampta daha çok ısınmıştır. III, uzaklığı neden göstermiyor; uzaklığa karşın ısınmanın gerçekleştiğini söylüyor ve doğrudur.",
     "Gölge verisini yorumlayamama: gölge kısaldıkça ışınlar dikleşir; temmuzda gölge ocaktakinin beşte biri kadardır, demek ki ışınlar çok daha diktir.",
     null
   ],
   aciklama: `Bir direğin gölgesi, Güneş ışınları dikleştikçe kısalır, eğikleştikçe uzar. Gölge uzunluğu bu yüzden ışınların düşme açısını gösteren bir veridir.
 Adım 1 (I): Aynı direk ocakta 3,0 m, temmuzda 0,6 m gölge vermiştir. Gölge kısaldığına göre temmuzda ışınlar daha dik düşmüştür. I doğrudur.
 Adım 2 (II): Işınlar dik düştüğünde aynı miktar enerji daha küçük bir alana yayılır; birim yüzeye düşen enerji artar. Tablodaki 38 °C'lik yüzey sıcaklığı da bunu destekler. II doğrudur.
-Adım 3 (III): Işınların düşme açısının yıl içinde değişmesinin nedeni, Dünya'nın dönme ekseninin dolanma düzlemine dik olmayışıdır. Eksen dik olsaydı açı yıl boyunca değişmez, iki kampta da aynı gölge ölçülürdü. III doğrudur.
+Adım 3 (III): Rehbere göre temmuz başında Dünya, Güneş'e yılın en uzak konumundadır. Buna karşın tablo, toprağın temmuzda çok daha fazla ısındığını (38 °C) gösterir. Demek ki birim yüzeye düşen enerjiyi belirleyen uzaklık değil, ışınların düşme açısıdır. Yargı tam olarak bunu söylediği için III doğrudur.
 Adım 4: Üç yargı da doğrudur.
-Sık yapılan hata: Sıcaklık farkını Dünya'nın Güneş'e uzaklığıyla açıklamak. Aynı kamp alanında ölçüm yapıldığı hâlde gölge boyunun değişmesi, değişenin uzaklık değil açı olduğunu gösterir.
+Sık yapılan hata: "Uzaklık" sözcüğünü görünce yargıyı okumadan yanlış saymak. Dünya temmuzda Güneş'e daha uzaktır ama Kuzey Yarım Küre'de yazdır; bu, mevsimlerin nedeninin uzaklık olmadığını gösteren en güçlü kanıttır.
 Cevap D.`
 },
 {
@@ -142,26 +142,26 @@ Cevap A.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir spor bilimleri merkezi, açık hava antrenmanlarını planlamak için sporcuların kullandığı sahada yılın dört gününde ölçüm yapmıştır. Her ölçümde öğle vakti Güneş ışınlarının yatay zeminle yaptığı açı ile sahanın bir metrekarelik bölümüne bir saatte düşen ışık enerjisi kaydedilmiştir.
-I. Işınların yatay zeminle yaptığı açı büyüdükçe birim yüzeye düşen enerji artmaktadır.
-II. 21 Aralık ölçümünde sahaya hiç ışık enerjisi ulaşmamıştır.
-III. 21 Mart ile 23 Eylül ölçümlerinde ışınlar sahaya aynı açıyla düşmüştür.
+  soru: `Bir belediyenin park ve bahçeler birimi, açık hava etkinliklerini planlamak için bir meydanda yılın dört gününde ölçüm yapmıştır. Her ölçümde öğle vakti Güneş ışınlarının yatay zeminle yaptığı açı ile meydanın bir metrekarelik bölümüne bir saatte düşen ışık enerjisi kaydedilmiştir.
+I. Işınların yatay zeminle yaptığı açı küçüldükçe aynı miktar enerji daha dar bir alana yayılmaktadır.
+II. Işınların yatay zeminle yaptığı açı büyüdükçe birim yüzeye düşen enerji artmaktadır.
+III. 21 Mart ile 23 Eylül ölçümlerinde ışınlar meydana aynı açıyla düşmüştür.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<table class="tablo"><tr><th>Ölçüm günü</th><th>Işınların yatay zeminle yaptığı açı</th><th>Bir metrekareye bir saatte düşen enerji</th></tr><tr><td>21 Mart</td><td>50°</td><td>3,2 birim</td></tr><tr><td>21 Haziran</td><td>73°</td><td>4,0 birim</td></tr><tr><td>23 Eylül</td><td>50°</td><td>3,2 birim</td></tr><tr><td>21 Aralık</td><td>26°</td><td>1,8 birim</td></tr></table>`,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
+  gorsel: `<table class="tablo"><tr><th>Ölçüm günü</th><th>Işınların yatay zeminle yaptığı açı</th><th>Bir metrekareye bir saatte düşen enerji</th></tr><tr><td>21 Mart</td><td>48°</td><td>3,1 birim</td></tr><tr><td>21 Haziran</td><td>71°</td><td>4,0 birim</td></tr><tr><td>23 Eylül</td><td>48°</td><td>3,1 birim</td></tr><tr><td>21 Aralık</td><td>24°</td><td>1,7 birim</td></tr></table>`,
+  secenekler: ["Yalnız II", "Yalnız III", "II ve III", "I, II ve III"],
   dogru: 2,
   hatalar: [
-    "III'ü gözden kaçırma: tabloda iki tarihte de açı 50°, enerji 3,2 birimdir; bu eşitlik doğrudan okunabilir.",
-    "Açı ile enerji arasındaki ilişkiyi görmeme: tabloda açı büyüdükçe enerji de artmaktadır, ayrıca aralıkta enerji sıfırlanmamıştır.",
+    "III'ü gözden kaçırma: tabloda iki tarihte de açı 48°, enerji 3,1 birimdir; bu eşitlik doğrudan okunabilir.",
+    "II'yi gözden kaçırma: tabloda açı 24°'den 71°'ye büyüdükçe enerji 1,7 birimden 4,0 birime çıkmaktadır; ilişki doğrudan okunur.",
     null,
-    "Azalmayı yoklukla karıştırma: 21 Aralık'ta birim yüzeye 1,8 birim enerji düşmüştür; miktar azalmıştır ama sıfır değildir."
+    "Yayılma yönünü ters kurma: açı küçüldükçe ışınlar yere yatık gelir ve aynı enerji daha dar değil, daha geniş bir alana yayılır. I yanlıştır."
   ],
-  aciklama: `Güneş ışınları yere ne kadar dik düşerse aynı enerji o kadar küçük bir alana yayılır; birim yüzeye düşen enerji artar.
-Adım 1 (I): Tabloda açılar 26°, 50°, 73° olarak büyürken enerji 1,8; 3,2; 4,0 birim olarak artmıştır. I doğrudur.
-Adım 2 (II): 21 Aralık satırında enerji 1,8 birimdir. Bu, yılın en küçük değeridir ama sıfır değildir. Kışın da Güneş ışığı gelir, yalnızca birim yüzeye düşen miktarı azalır. II yanlıştır.
-Adım 3 (III): 21 Mart ve 23 Eylül satırlarında açı da enerji de aynıdır (50° ve 3,2 birim). Öyleyse ışınlar bu iki günde sahaya aynı açıyla düşmüştür. III doğrudur.
-Adım 4: Doğru olanlar I ve III'tür.
-Sık yapılan hata: "Kışın Güneş ısıtmaz." demek. Kışın Güneş yine ışık gönderir; değişen, ışınların eğik gelmesi yüzünden birim yüzeye düşen enerjinin azalmasıdır.
+  aciklama: `Güneş ışınları yere ne kadar dik düşerse aynı enerji o kadar küçük bir alana yayılır; birim yüzeye düşen enerji artar. Işınlar yatıklaştıkça aynı enerji daha geniş bir alana dağılır.
+Adım 1 (I): Açı küçüldüğünde ışınlar zemine yatık gelir. Bir el fenerini duvara eğik tuttuğunda ışık lekesinin büyümesi gibi, aynı enerji daha geniş bir alana yayılır. Yargı "daha dar" dediği için I yanlıştır. Tablo da bunu destekler: en küçük açıda (24°) enerji en düşüktür.
+Adım 2 (II): Tabloda açılar 24°, 48°, 71° olarak büyürken enerji 1,7; 3,1; 4,0 birim olarak artmıştır. II doğrudur.
+Adım 3 (III): 21 Mart ve 23 Eylül satırlarında açı da enerji de aynıdır (48° ve 3,1 birim). Öyleyse ışınlar bu iki günde meydana aynı açıyla düşmüştür. III doğrudur.
+Adım 4: Doğru olanlar II ve III'tür.
+Sık yapılan hata: "Açı küçülünce ışık daha az yere düşer." diye düşünmek. Tam tersi: yatık gelen ışık daha geniş bir alana yayılır; bu yüzden her metrekareye daha az enerji düşer.
 Cevap C.`
 },
 {
@@ -176,7 +176,7 @@ Cevap C.`
     "Ekseni Güneş'e yönelen yarım kürede Güneş ışınları daha dik düşer.",
     "Dünya yörüngede ilerlerken eksenin eğiklik açısı değişmez.",
     "Yarım kürelerin aldığı ışık enerjisi miktarı yıl boyunca değişir.",
-    "Dünya yörüngenin karşı tarafına geçtiğinde eksenin yönü tersine döner."
+    "K ve L konumlarında Güneş'e doğru yönelmiş olan yarım küre aynıdır."
   ],
   dogru: 3,
   hatalar: [
@@ -186,10 +186,11 @@ Cevap C.`
     null
   ],
   aciklama: `Dünya'nın dönme ekseni yörünge boyunca uzayda hep aynı yöne bakar; buna eksenin paralel kalması denir. Görselde K ve L konumlarındaki eksenlerin birbirine paralel çizilmiş olması da bunu gösterir.
-Adım 1: Görselde K konumunda kuzey kutbu Güneş'e doğru, L konumunda Güneş'ten uzağa bakar. Ama iki çizgi de aynı yöne eğiktir; yön değişmemiştir, yalnızca Dünya yörüngede yer değiştirmiştir.
-Adım 2: Öyleyse "eksenin baktığı yön tersine döner" ifadesi hem rehberin sözüne hem de görsele aykırıdır. Bu yargı söylenemez.
+Adım 1: Görselde iki eksen çizgisi de aynı yöne eğiktir; eksenin uzayda baktığı yön değişmemiştir. Ama Güneş, K konumunda Dünya'nın sağında, L konumunda solunda kalır. Bu yüzden K'de kuzey kutbu Güneş'e doğru, L'de Güneş'ten uzağa bakar.
+Adım 2: Öyleyse K'de Kuzey Yarım Küre, L'de Güney Yarım Küre Güneş'e yönelmiştir. "İki konumda da aynı yarım küre yönelmiştir" yargısı görsele aykırıdır; söylenemez.
 Adım 3: Diğer yargıları denetle. Ekseni Güneş'e yönelen yarım küre ışınları daha dik alır; eğiklik açısı sabittir; yarım kürelerin aldığı enerji yıl boyunca değişir. Üçü de söylenebilir.
-Sağlama: Eksenin yönü gerçekten tersine dönseydi hiçbir yarım küre Güneş'e yönelmiş olmazdı ve mevsimler oluşmazdı.
+Sağlama: Eksen yönünü korurken Güneş'e yönelen yarım kürenin yörüngenin karşı tarafında değişmesi, mevsimlerin oluşma nedenidir. Hep aynı yarım küre yönelseydi mevsimler değişmezdi.
+Sık yapılan hata: "Eksen hep aynı yöne bakıyorsa Güneş'e yönelen yarım küre de hep aynıdır." diye düşünmek. Eksen sabittir ama Dünya Güneş'in çevresinde döndüğü için Güneş, eksene göre bir sağda bir solda kalır.
 Cevap D.`
 },
 {
@@ -258,7 +259,7 @@ Cevap C.`
     "P gezegeninde yarım küreler arasında belirgin bir mevsim farkı görülmez.",
     "R gezegeninin ekseni, dolanma düzlemine dik doğrultuyla 24° açı yapar.",
     "S gezegeninde mevsim farkları R gezegenindekinden daha belirgindir.",
-    "S gezegeninde eksenin eğikliği, gezegenin yıldıza uzaklığını değiştirir."
+    "R gezegeninde mevsim farkları Dünya'dakinden çok daha belirgindir."
   ],
   dogru: 3,
   hatalar: [
@@ -271,8 +272,8 @@ Cevap C.`
 Adım 1 (A): P'nin ekseni düzlemle 90° açı yapar, yani diktir. Yıl boyunca iki yarım küre de ışığı aynı açıyla alır; belirgin bir mevsim değişimi görülmez. Doğru.
 Adım 2 (B): Eksen düzlemle 66° açı yapıyorsa düzleme dik doğrultuyla 90° − 66° = 24° açı yapar. Doğru. (Dünya'da bu değer yaklaşık 23,5°'tir.)
 Adım 3 (C): S'nin ekseni düzlemle 45°, dik doğrultuyla 45° açı yapar; R'de bu değer 24°'dir. S'nin eğikliği daha büyük olduğuna göre yarım kürelerin aldığı ışık açısı arasındaki fark da daha büyüktür; mevsim farkları daha belirgindir. Doğru.
-Adım 4 (D): Eksenin eğikliği, gezegenin yıldız çevresindeki yörüngesinin biçimiyle ilgili değildir. Yörüngeler çembere çok yakın olduğuna göre uzaklık zaten pek değişmez; eğiklik uzaklığı belirlemez. Bu yargı yanlıştır.
-Sık yapılan hata: Eksen eğikliğini gezegenin yıldıza uzaklığıyla karıştırmak. Eğiklik, ışığın yüzeye hangi açıyla düştüğünü belirler; uzaklığı değil.
+Adım 4 (D): R'nin ekseni dik doğrultuyla 24° açı yapar; Dünya'nın ekseni ise 23,5°. İki değer neredeyse aynı olduğuna göre R'deki mevsim farkları Dünya'dakine çok benzer; "çok daha belirgin" değildir. Bu yargı yanlıştır.
+Sık yapılan hata: Tablodaki 66° değerini büyük bir eğiklik sanmak. Düzlemle yapılan açı büyüdükçe eksen dikleşir, eğiklik azalır. Mevsim farkını belirleyen, dik doğrultuyla yapılan açıdır; bunu bulmak için 90°'den çıkar.
 Cevap D.`
 },
 {
@@ -285,7 +286,7 @@ I. Yaz aylarında öğle vakti Güneş ışınları gölgeliğe daha dik geldiğ
 II. Kış aylarında öğle vakti ışınlar daha eğik geldiği için gölgeliğin altından geçip araca ulaşır.
 III. Bu tasarımın işe yaraması, Dünya'nın dönme ekseninin dolanma düzlemine dik olmasına bağlıdır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Gölgelik tasarımı: yaz ışınları 73 derece, kış ışınları 26 derece"><line x1="20" y1="210" x2="500" y2="210" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="6" stroke-linecap="round"><line x1="150" y1="210" x2="150" y2="90"/><line x1="150" y1="90" x2="330" y2="90"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="200" y="160" width="110" height="40" rx="8"/><rect x="226" y="138" width="56" height="24" rx="6"/></g><g fill="currentColor"><circle cx="226" cy="204" r="10"/><circle cx="290" cy="204" r="10"/></g><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="350" y1="24" x2="293" y2="210"/></g><g stroke="var(--vurgu2)" stroke-width="2.5"><line x1="420" y1="46" x2="227" y2="140"/></g><g fill="currentColor" font-size="16"><text x="356" y="20">Yaz: 73°</text><text x="428" y="42">Kış: 26°</text></g><text x="240" y="80" fill="currentColor" font-size="16" text-anchor="middle">gölgelik</text></svg>`,
+  gorsel: `<svg viewBox="0 0 520 260" role="img" aria-label="Gölgelik tasarımı: yaz ışınları 73 derece, kış ışınları 26 derece"><line x1="20" y1="210" x2="500" y2="210" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="6" stroke-linecap="round"><line x1="150" y1="210" x2="150" y2="90"/><line x1="150" y1="90" x2="330" y2="90"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="180" y="160" width="110" height="40" rx="8"/><rect x="206" y="138" width="56" height="24" rx="6"/></g><g fill="currentColor"><circle cx="206" cy="204" r="10"/><circle cx="270" cy="204" r="10"/></g><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="350" y1="24" x2="293" y2="210"/></g><g stroke="var(--vurgu2)" stroke-width="2.5"><line x1="430" y1="56" x2="237" y2="150"/></g><g fill="currentColor" font-size="16"><text x="356" y="20">Yaz: 73°</text><text x="438" y="52">Kış: 26°</text></g><text x="240" y="80" fill="currentColor" font-size="16" text-anchor="middle">gölgelik</text></svg>`,
   secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
   dogru: 1,
   hatalar: [
@@ -442,7 +443,7 @@ Cevap B.`
   soru: "Bir öğrenci değişim programıyla temmuz ayında Türkiye'den Avustralya'ya gitmiştir. Bavuluna yazlık kıyafetler koyan öğrenci, indiği havalimanında insanların kaban ve atkıyla dolaştığını görünce şaşırmıştır. Avustralya Güney Yarım Küre'de yer almaktadır.\n**Buna göre bu durumun nedeni aşağıdakilerden hangisidir?**",
   gorsel: null,
   secenekler: [
-    "Avustralya Güney Yarım Küre'de olduğu için ışınları eğik alması",
+    "Temmuzda Güneş ışınlarının Güney Yarım Küre'ye eğik düşmesi",
     "Avustralya'nın Dünya'nın Güneş'e bakmayan yüzünde bulunması",
     "Dünya'nın temmuz ayında Güneş'e en uzak konumda olması",
     "Avustralya'da Dünya'nın dönme ekseninin eğikliğinin az olması"
@@ -493,14 +494,14 @@ Cevap D.`
   gorsel: `<svg viewBox="0 0 520 250" role="img" aria-label="Düz bölüm ve güneye bakan eğimli bölümde ışınların yüzeyle yaptığı açılar"><path d="M40 200 L220 200 L380 120 L490 120 L490 238 L40 238 Z" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><g stroke="var(--vurgu)" stroke-width="2.5"><line x1="10" y1="60" x2="150" y2="200"/><line x1="180" y1="40" x2="300" y2="160"/><line x1="230" y1="30" x2="340" y2="140"/></g><g fill="currentColor" font-size="16"><text x="46" y="42">Güneş ışınları</text><text x="163" y="192">45°</text><text x="308" y="152">72°</text></g><g fill="currentColor" font-size="16" text-anchor="middle"><text x="125" y="224">Düz bölüm</text><text x="432" y="152">Eğimli bölüm</text></g></svg>`,
   secenekler: [
     "Eğimli bölümde ışınlar yüzeye daha dik düştüğü için toprak daha çok ısınır.",
-    "Eğimli bölüm Güneş'e daha yakın olduğu için birim yüzey daha çok enerji alır.",
+    "Eğimli bölümde ışınlar daha geniş bir alana yayıldığı için toprak daha çok ısınır.",
     "Eğimli bölümde gündüz daha uzun sürdüğü için toprak daha çok ısınır.",
     "Eğimli bölüme Güneş daha çok enerji yaydığı için toprak daha çok ısınır."
   ],
   dogru: 0,
   hatalar: [
     null,
-    "Uzaklık yanılgısı: yamacın birkaç metrelik yüksekliği, Dünya ile Güneş arasındaki uzaklığın yanında yok denecek kadar azdır.",
+    "Yayılma ile ısınmayı ters bağlama: ışınlar daha geniş alana yayılırsa birim yüzeye düşen enerji azalır, toprak daha az ısınır. Eğimli bölümde ışınlar dik geldiği için tam tersine daha dar alana düşer.",
     "Işın açısı yerine gündüz süresini neden gösterme: iki bölüm aynı tarladadır, gündüz süreleri de aynıdır.",
     "Güneş'in yaydığı enerjinin yere göre değiştiğini sanma: Güneş her yöne aynı enerjiyi yayar; değişen, birim yüzeye düşen miktardır."
   ],
@@ -508,7 +509,7 @@ Cevap D.`
 Adım 1: Görselde ışınlar düz bölüme 45°, güneye bakan eğimli bölüme 72°'lik açıyla düşmektedir.
 Adım 2: Eğimli bölümde ışınlar yüzeye daha dik geldiği için aynı enerji daha küçük bir alana yayılır.
 Adım 3: Birim yüzeye düşen enerji arttığından toprak daha çok ısınır ve ürünler daha erken olgunlaşır.
-Sık yapılan hata: Yamacın yüksek olmasını "Güneş'e daha yakın" saymak. Dünya ile Güneş arasında yaklaşık 150 milyon kilometre vardır; birkaç metrelik yükseklik farkı hiçbir şeyi değiştirmez. Belirleyici olan açıdır.
+Sık yapılan hata: Geniş alana yayılmayı çok ısınmayla karıştırmak. Aynı enerji ne kadar geniş alana yayılırsa her metrekareye düşen pay o kadar küçülür; ısınmayı artıran, enerjinin dar bir alanda toplanmasıdır. Belirleyici olan açıdır.
 Cevap A.`
 },
 {
@@ -516,26 +517,26 @@ Cevap A.`
   kazanim: "F.8.1.1.1",
   kademe: 0,
   zorluk: 3,
-  soru: `Bir fabrikanın çatısına yerleştirilen güneş panellerinin ürettiği elektrik enerjisi yıl boyunca kaydedilmiştir. Paneller kurulduğu günden beri hiç hareket ettirilmemiş, eğimleri ve yönleri değiştirilmemiştir. Fabrika Kuzey Yarım Küre'dedir.
-I. Temmuzda panellerin birim yüzeyine düşen ışık enerjisi ocaktakinden fazladır.
-II. Üretimdeki bu değişimin nedeni panellerin eğiminin ay ay değiştirilmesidir.
+  soru: `Bir çiftlikteki seranın çatısına yerleştirilen güneş panellerinin ürettiği elektrik enerjisi yıl boyunca kaydedilmiştir. Paneller kurulduğu günden beri hiç hareket ettirilmemiş, eğimleri ve yönleri değiştirilmemiştir. Çiftlik Kuzey Yarım Küre'dedir.
+I. Ekim ayında Güneş ışınları panellere nisan ayındakine göre daha dik düşmüştür.
+II. Temmuzda panellerin birim yüzeyine düşen ışık enerjisi ocaktakinden fazladır.
 III. Ocak ayında Güneş ışınları panellere temmuz ayındakine göre daha eğik düşmüştür.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: `<svg viewBox="0 0 520 310" role="img" aria-label="Aylara göre üretilen elektrik enerjisi sütun grafiği"><g stroke="currentColor" stroke-width="2"><line x1="70" y1="20" x2="70" y2="240"/><line x1="70" y1="240" x2="495" y2="240"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="64" y1="185" x2="70" y2="185"/><line x1="64" y1="130" x2="70" y2="130"/><line x1="64" y1="75" x2="70" y2="75"/></g><g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><rect x="105" y="174" width="55" height="66"/><rect x="200" y="97" width="55" height="143"/><rect x="295" y="42" width="55" height="198"/><rect x="390" y="130" width="55" height="110"/></g><g fill="currentColor" font-size="14" text-anchor="end"><text x="60" y="245">0</text><text x="60" y="190">100</text><text x="60" y="135">200</text><text x="60" y="80">300</text></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="132" y="167">120</text><text x="227" y="90">260</text><text x="322" y="35">360</text><text x="417" y="123">200</text><text x="132" y="262">Ocak</text><text x="227" y="262">Nisan</text><text x="322" y="262">Temmuz</text><text x="417" y="262">Ekim</text><text x="280" y="292">Grafik: Aylık üretilen elektrik enerjisi (kWh)</text></g></svg>`,
-  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "I ve III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
   dogru: 3,
   hatalar: [
-    "III'ü gözden kaçırma: üretimin düşmesi, ışınların daha eğik geldiğini gösterir; grafikte ocak değeri en düşüktür.",
-    "I'i gözden kaçırma: paneller sabit olduğuna göre üretimdeki artış, birim yüzeye düşen enerjinin artmasından gelir.",
-    "Metindeki \"eğimleri değiştirilmemiştir\" bilgisini atlama: paneller hiç hareket ettirilmediğine göre üretim farkının nedeni eğim değişikliği olamaz.",
+    "Grafiği okumadan I'i doğru sayma: ekim üretimi 200 kWh, nisan üretimi 260 kWh'tir; paneller sabit olduğuna göre ekimde ışınlar daha eğik gelmiştir. II ve III de gözden kaçmış.",
+    "III'ü gözden kaçırma: üretimin en düşük olduğu ocakta ışınlar panellere en eğik düşmüştür; grafikte ocak sütunu en kısadır.",
+    "Ekim ile nisanı karıştırma: grafikte ekim sütunu (200) nisan sütunundan (260) kısadır; ışınlar ekimde daha dik değil, daha eğik gelmiştir.",
     null
   ],
-  aciklama: `Sabit duran bir panelin ürettiği elektrik, panelin birim yüzeyine düşen ışık enerjisiyle birlikte artar ya da azalır.
-Adım 1 (I): Grafikte temmuz üretimi 360 kWh, ocak üretimi 120 kWh'tir. Paneller hiç oynatılmadığına göre temmuzda birim yüzeye daha çok enerji düşmüştür. I doğrudur.
-Adım 2 (II): Metinde panellerin eğiminin ve yönünün hiç değiştirilmediği açıkça söylenmiştir. Öyleyse üretim farkının nedeni eğim değişikliği olamaz. II yanlıştır.
+  aciklama: `Sabit duran bir panelin ürettiği elektrik, panelin birim yüzeyine düşen ışık enerjisiyle birlikte artar ya da azalır. Paneller hiç oynatılmadığına göre üretimdeki her değişim, ışınların düşme açısındaki değişimden gelir.
+Adım 1 (I): Grafikte nisan üretimi 260 kWh, ekim üretimi 200 kWh'tir. Ekimde daha az üretim, birim yüzeye daha az enerji düştüğünü, yani ışınların daha eğik geldiğini gösterir. I yanlıştır.
+Adım 2 (II): Temmuz üretimi 360 kWh, ocak üretimi 120 kWh'tir. Paneller sabit olduğuna göre temmuzda birim yüzeye daha çok enerji düşmüştür. II doğrudur.
 Adım 3 (III): Ocakta birim yüzeye düşen enerji en az olduğuna göre ışınlar panellere en eğik o ayda düşmüştür. III doğrudur.
-Adım 4: Doğru olanlar I ve III'tür.
-Sık yapılan hata: Metindeki "değiştirilmemiştir" gibi kısıtlayıcı bilgileri atlamak. Bu tür cümleler, çeldiricilerden birini doğrudan elemek için konur.
+Adım 4: Doğru olanlar II ve III'tür.
+Sık yapılan hata: Nisan ile ekimi "ikisi de ara mevsim" diye eş saymak. Kuzey Yarım Küre'de nisan yaza, ekim kışa doğru giden aydır; grafikte iki sütunun boyu da farklıdır.
 Cevap D.`
 },
 {
@@ -571,24 +572,24 @@ Cevap C.`
   kademe: 0,
   zorluk: 3,
   soru: `Bir bilim müzesinin "Mevsimler" köşesinde ziyaretçiler, bir kolu çevirerek yer kürenin dönme ekseninin eğiklik açısını değiştirebilmektedir. Yer küre, sabit duran bir lambanın çevresinde sürekli dolanmakta ve aynı zamanda kendi ekseni çevresinde dönmektedir. Köşedeki bilgi levhasında "Eğiklik açısını sıfıra getirin ve yarım kürelerin aldığı ışığı izleyin." yazmaktadır.
-I. Eğiklik sıfırlandığında yer kürenin iki yarım küresi yıl boyunca ışığı aynı açıyla alır.
-II. Eğiklik sıfırlandığında yer kürede gece ve gündüz oluşmaz.
+I. Eğiklik sıfırlandığında yer kürede gece ve gündüz oluşmaz.
+II. Eğiklik sıfırlandığında yer kürenin iki yarım küresi yıl boyunca ışığı aynı açıyla alır.
 III. Eğiklik sıfırlandığında yer kürede mevsim değişimi gözlenmez.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız II", "Yalnız III", "I ve II", "I ve III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
   dogru: 3,
   hatalar: [
-    "Yalnızca yanlış öncülü seçme: eğiklik sıfırlandığında yarım küreler ışığı yıl boyunca aynı açıyla alır ve mevsim değişimi görülmez; gece ile gündüz ise dönme sürdüğü için devam eder.",
-    "I'i gözden kaçırma: mevsimlerin ortadan kalkmasının nedeni zaten iki yarım kürenin yıl boyunca ışığı aynı açıyla almasıdır.",
-    "Gece ile gündüzün nedenini eksen eğikliği sanma: eğiklik sıfır olsa bile yer küre kendi ekseni çevresinde dönmeyi sürdürdüğü için gece ve gündüz oluşur.",
+    "Gece ile gündüzün nedenini eksen eğikliği sanma: eğiklik sıfır olsa bile yer küre kendi ekseni çevresinde dönmeyi sürdürdüğü için gece ve gündüz oluşur. II ve III de gözden kaçmış.",
+    "III'ü gözden kaçırma: iki yarım küre yıl boyunca ışığı aynı açıyla alıyorsa birim yüzeye düşen enerji de değişmez; mevsim değişimi görülmez.",
+    "I'i doğru, II'yi yanlış sayma: gece ile gündüzü dönme oluşturur ve eğiklik sıfırlansa da sürer; mevsimlerin ortadan kalkmasının nedeni ise tam da yarım kürelerin ışığı yıl boyunca aynı açıyla almasıdır.",
     null
   ],
   aciklama: `Dünya'nın iki ayrı hareketi vardır: kendi ekseni çevresindeki dönme ve Güneş çevresindeki dolanma. Gece ile gündüzü dönme, mevsimleri ise eksen eğikliğiyle birlikte dolanma oluşturur.
-Adım 1 (I): Eğiklik sıfır olursa eksen dolanma düzlemine dik olur. Yörüngenin hiçbir noktasında bir yarım küre diğerinden daha çok Güneş'e yönelmez; ikisi de yıl boyunca ışığı aynı açıyla alır. I doğrudur.
-Adım 2 (II): Yer küre kendi ekseni çevresinde dönmeyi sürdürdüğüne göre yüzeyin bir bölümü aydınlık, diğer bölümü karanlık olmaya devam eder. Gece ve gündüz oluşmaya devam eder. II yanlıştır.
+Adım 1 (I): Yer küre kendi ekseni çevresinde dönmeyi sürdürdüğüne göre yüzeyin bir bölümü aydınlık, diğer bölümü karanlık olmaya devam eder. Gece ve gündüz eğiklik sıfırken de oluşur. I yanlıştır.
+Adım 2 (II): Eğiklik sıfır olursa eksen dolanma düzlemine dik olur. Yörüngenin hiçbir noktasında bir yarım küre diğerinden daha çok Güneş'e yönelmez; ikisi de yıl boyunca ışığı aynı açıyla alır. II doğrudur.
 Adım 3 (III): Işığın düşme açısı yıl boyunca değişmediğine göre birim yüzeye düşen enerji de değişmez; mevsim değişimi gözlenmez. III doğrudur.
-Adım 4: Doğru olanlar I ve III'tür.
+Adım 4: Doğru olanlar II ve III'tür.
 Sık yapılan hata: Eksen eğikliğini gece ile gündüzün de nedeni sanmak. Eğiklik mevsimleri belirler; gece ile gündüzü Dünya'nın kendi ekseni çevresindeki dönüşü belirler.
 Cevap D.`
 },
@@ -598,25 +599,25 @@ Cevap D.`
   kademe: 0,
   zorluk: 4,
   soru: `Bir okulun teknoloji kulübü, binanın çatısına yerleştirdiği ölçerle yılın altı ayında, her ayın 21'inde öğle vakti bir metrekarelik yatay yüzeye düşen ışık enerjisini ölçmüştür. Ölçüm aletinin yeri ve yönü yıl boyunca hiç değiştirilmemiştir. Sonuçlar grafikte verilmiştir.
-I. Okul Kuzey Yarım Küre'dedir.
-II. Haziran ölçümünde Güneş ışınları çatıya, aralık ölçümündekine göre daha dik düşmüştür.
-III. Haziran ayında Dünya, Güneş'e yılın diğer aylarına göre daha yakındır.
+I. Okul Güney Yarım Küre'dedir.
+II. Nisan ve ekim ölçümlerinde Güneş ışınları çatıya aynı açıyla düşmüştür.
+III. Haziran ölçümünde Güneş ışınları çatıya, aralık ölçümündekine göre daha dik düşmüştür.
 **Buna göre yukarıdaki yargılardan hangileri kesinlikle doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 520 305" role="img" aria-label="Aylara göre bir metrekareye düşen ışık enerjisi çizgi grafiği"><g stroke="currentColor" stroke-width="2"><line x1="70" y1="30" x2="70" y2="240"/><line x1="70" y1="240" x2="495" y2="240"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="64" y1="200" x2="70" y2="200"/><line x1="64" y1="160" x2="70" y2="160"/><line x1="64" y1="120" x2="70" y2="120"/><line x1="64" y1="80" x2="70" y2="80"/><line x1="64" y1="40" x2="70" y2="40"/></g><polyline points="110,180 180,100 250,40 320,80 390,140 460,200" fill="none" stroke="var(--vurgu)" stroke-width="3"/><g fill="var(--vurgu)"><circle cx="110" cy="180" r="5"/><circle cx="180" cy="100" r="5"/><circle cx="250" cy="40" r="5"/><circle cx="320" cy="80" r="5"/><circle cx="390" cy="140" r="5"/><circle cx="460" cy="200" r="5"/></g><g fill="currentColor" font-size="14" text-anchor="end"><text x="60" y="245">0</text><text x="60" y="205">2</text><text x="60" y="165">4</text><text x="60" y="125">6</text><text x="60" y="85">8</text><text x="60" y="45">10</text></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="110" y="262">Şubat</text><text x="180" y="262">Nisan</text><text x="250" y="262">Haziran</text><text x="320" y="262">Ağustos</text><text x="390" y="262">Ekim</text><text x="460" y="262">Aralık</text><text x="280" y="290">Grafik: Bir metrekareye düşen enerji (birim)</text></g><text x="74" y="22" fill="currentColor" font-size="15">Enerji (birim)</text></svg>`,
-  secenekler: ["Yalnız II", "I ve II", "II ve III", "I, II ve III"],
+  gorsel: `<svg viewBox="0 0 520 305" role="img" aria-label="Aylara göre bir metrekareye düşen ışık enerjisi çizgi grafiği"><g stroke="currentColor" stroke-width="2"><line x1="70" y1="30" x2="70" y2="240"/><line x1="70" y1="240" x2="495" y2="240"/></g><g stroke="currentColor" stroke-width="1.5"><line x1="64" y1="200" x2="70" y2="200"/><line x1="64" y1="160" x2="70" y2="160"/><line x1="64" y1="120" x2="70" y2="120"/><line x1="64" y1="80" x2="70" y2="80"/><line x1="64" y1="40" x2="70" y2="40"/></g><polyline points="110,160 180,100 250,40 320,100 390,160 460,200" fill="none" stroke="var(--vurgu)" stroke-width="3"/><g fill="var(--vurgu)"><circle cx="110" cy="160" r="5"/><circle cx="180" cy="100" r="5"/><circle cx="250" cy="40" r="5"/><circle cx="320" cy="100" r="5"/><circle cx="390" cy="160" r="5"/><circle cx="460" cy="200" r="5"/></g><g fill="currentColor" font-size="14" text-anchor="end"><text x="60" y="245">0</text><text x="60" y="205">2</text><text x="60" y="165">4</text><text x="60" y="125">6</text><text x="60" y="85">8</text><text x="60" y="45">10</text></g><g fill="currentColor" font-size="14" text-anchor="middle"><text x="110" y="262">Şubat</text><text x="180" y="262">Nisan</text><text x="250" y="262">Haziran</text><text x="320" y="262">Ağustos</text><text x="390" y="262">Ekim</text><text x="460" y="262">Aralık</text><text x="280" y="290">Grafik: Bir metrekareye düşen enerji (birim)</text></g><text x="74" y="22" fill="currentColor" font-size="15">Enerji (birim)</text></svg>`,
+  secenekler: ["Yalnız II", "Yalnız III", "I ve III", "II ve III"],
   dogru: 1,
   hatalar: [
-    "Yarım küre çıkarımını yapamama: birim yüzeye düşen enerjinin haziranda en yüksek, aralıkta en düşük olması ölçümün Kuzey Yarım Küre'de yapıldığını gösterir.",
+    "Nisan ile ekimi simetrik sanma: grafikte nisan 7, ekim 4 birimdir; iki ayda ışınlar farklı açıyla düşmüştür. Ayrıca III gözden kaçmış.",
     null,
-    "Uzaklık yanılgısı: grafik yalnızca birim yüzeye düşen enerjiyi gösterir; Dünya'nın Güneş'e uzaklığı hakkında hiçbir veri içermez.",
-    "Verilmeyen bir bilgiyi kesin doğru sayma: mevsimleri belirleyen uzaklık değil, ışınların düşme açısıdır; üstelik grafikte uzaklığa ilişkin bir ölçüm yoktur."
+    "Yarım küreyi ters okuma: en yüksek değer haziranda, en düşük değer aralıkta ölçüldüğüne göre okul Güney değil Kuzey Yarım Küre'dedir.",
+    "Grafiği okumadan II'yi doğru sayma: nisan ve ekim ölçümleri eşit değildir (7 ve 4 birim); aynı açıyla düşen ışınlar aynı enerjiyi verirdi."
   ],
-  aciklama: `Bir yerde birim yüzeye düşen ışık enerjisinin yıl içinde nasıl değiştiği, o yerin hangi yarım kürede olduğunu ele verir.
-Adım 1 (I): Grafikte en yüksek değer haziranda (10 birim), en düşük değer aralıkta (2 birim) ölçülmüştür. Kuzey Yarım Küre'de haziranda yaz, aralıkta kış yaşanır; Güney Yarım Küre'de ise tam tersi olurdu. Öyleyse okul Kuzey Yarım Küre'dedir. I kesinlikle doğrudur.
-Adım 2 (II): Ölçüm aletinin yeri ve yönü hiç değişmediğine göre haziranda ölçülen değerin yüksek olması, ışınların çatıya daha dik düştüğünü gösterir. II kesinlikle doğrudur.
-Adım 3 (III): Grafikte yalnızca enerji ölçümleri vardır; Dünya'nın Güneş'e uzaklığıyla ilgili hiçbir veri yoktur. Verilmeyen bir bilgiye dayanan yargı "kesinlikle doğru" sayılamaz. Ayrıca mevsimleri belirleyen uzaklık değil, ışınların düşme açısıdır. III yanlıştır.
-Adım 4: Kesinlikle doğru olanlar I ve II'dir.
-Sık yapılan hata: "Kesinlikle" kökünde verilerin ötesine geçmek. Yalnızca grafikten çıkarılabilen yargılar kesin sayılır.
+  aciklama: `Bir yerde birim yüzeye düşen ışık enerjisinin yıl içinde nasıl değiştiği, o yerin hangi yarım kürede olduğunu ve ışınların hangi ayda daha dik geldiğini ele verir.
+Adım 1 (I): Grafikte en yüksek değer haziranda (10 birim), en düşük değer aralıkta (2 birim) ölçülmüştür. Haziranda ışınların en dik gelmesi Kuzey Yarım Küre'nin özelliğidir; Güney Yarım Küre'de en yüksek değer aralıkta ölçülürdü. Okul Kuzey Yarım Küre'dedir; I yanlıştır.
+Adım 2 (II): Nisan ölçümü 7 birim, ekim ölçümü 4 birimdir. Ölçüm aletinin yeri ve yönü hiç değişmediğine göre farklı değerler, ışınların farklı açıyla düştüğünü gösterir. II yanlıştır. Aynı açıyla düşen aylar, grafikte eşit değer veren nisan ile ağustos ya da şubat ile ekimdir.
+Adım 3 (III): Haziranda ölçülen 10 birim, aralıktaki 2 birimden büyüktür; alet sabit olduğuna göre haziranda ışınlar çatıya daha dik düşmüştür. III kesinlikle doğrudur.
+Adım 4: Kesinlikle doğru olan yalnız III'tür.
+Sık yapılan hata: Nisan ile ekimi "ikisi de ara mevsim" diye eş saymak. Grafik gün dönümlerine göre simetriktir: nisan ağustosla, ekim şubatla eşleşir; nisan ile ekim eşleşmez.
 Cevap B.`
 },
 {
@@ -624,26 +625,20 @@ Cevap B.`
   kazanim: "F.8.1.1.1",
   kademe: 0,
   zorluk: 4,
-  soru: `Bir şirketin iki fabrikası vardır: K fabrikası Kuzey Yarım Küre'de, L fabrikası Güney Yarım Küre'dedir. İki fabrikanın çatısında da özdeş güneş panelleri bulunmaktadır ve paneller aynı eğimle, yıl boyunca hiç oynatılmayacak biçimde sabitlenmiştir. Şirket, her iki fabrikanın ürettiği elektriği aylık olarak kaydetmektedir.
-I. Aralık ayında L fabrikasının bulunduğu bölgede yaz mevsimi yaşanır.
-II. Temmuz ayında K fabrikasının panellerinin birim yüzeyine düşen ışık enerjisi, L'ninkinden fazladır.
-III. İki fabrikanın bir yıl boyunca ürettiği toplam elektrik enerjisi kesinlikle birbirine eşittir.
+  soru: `Bir meteoroloji kurumunun K istasyonu Kuzey Yarım Küre'de, L istasyonu Güney Yarım Küre'de yer almaktadır; iki istasyon da ekvatora eşit uzaklıktadır. İki istasyona da özdeş birer ışık ölçer yerleştirilmiş, ölçerler yıl boyunca hiç oynatılmamıştır. Kurum, her ayın 15'inde öğle vakti bir metrekarelik yatay yüzeye düşen ışık enerjisini iki istasyonda da kaydetmektedir.
+I. Aralık ayında L istasyonunun bulunduğu bölgede yaz mevsimi yaşanır.
+II. Temmuz ölçümünde K istasyonunda birim yüzeye düşen ışık enerjisi, L istasyonundakinden fazladır.
+III. İki istasyonda da yılın en yüksek ölçümü aynı ayda kaydedilir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
   secenekler: ["Yalnız I", "I ve II", "II ve III", "I, II ve III"],
   dogru: 1,
   hatalar: [
-    "II'yi gözden kaçırma: temmuzda kuzey kutbu Güneş'e yöneliktir; ışınlar Kuzey Yarım Küre'deki K fabrikasına daha dik düşer.",
+    "II'yi gözden kaçırma: temmuzda kuzey kutbu Güneş'e yöneliktir; ışınlar Kuzey Yarım Küre'deki K istasyonuna daha dik düşer. İki istasyon ekvatora eşit uzaklıkta olduğu için bu karşılaştırma yapılabilir.",
     null,
-    "I'i eleyip III'ü kabul etme: aralıkta güney kutbu Güneş'e yöneliktir, L'nin bulunduğu bölgede yaz yaşanır. Ayrıca iki fabrikanın enlemi ve hava koşulları bilinmediği için toplam üretimleri eşit sayılamaz.",
-    "Verilmeyen bilgiye dayanarak eşitlik kurma: fabrikaların ekvatora uzaklığı ve bulutlanma gibi koşulları bilinmediğinden yıllık toplam üretimlerinin eşit olduğu kesin olarak söylenemez."
+    "I'i eleyip III'ü kabul etme: aralıkta güney kutbu Güneş'e yöneliktir, L'nin bulunduğu bölgede yaz yaşanır. Ayrıca iki yarım küre zıt mevsim yaşadığı için en yüksek ölçümler altı ay arayla alınır, aynı ayda değil.",
+    "Zıt mevsimleri gözden kaçırma: K'de en yüksek değer haziranda, L'de aralıkta ölçülür; iki istasyonun en yüksek ölçümü aynı aya düşmez."
   ],
-  aciklama: `Kuzey ve Güney Yarım Küre'de aynı anda zıt mevsimler yaşanır. Bunun nedeni, Dünya'nın eğik ekseninin yörüngede hep aynı yöne bakmasıdır.
-Adım 1 (I): Aralık ayında güney kutbu Güneş'e yöneliktir. Işınlar Güney Yarım Küre'ye dik düşer, birim yüzeye düşen enerji artar ve orada yaz yaşanır. L fabrikası Güney Yarım Küre'de olduğuna göre I doğrudur.
-Adım 2 (II): Temmuzda ise kuzey kutbu Güneş'e yöneliktir. Işınlar K fabrikasına daha dik, L fabrikasına daha eğik düşer; K'de birim yüzeye düşen enerji daha fazladır. II doğrudur.
-Adım 3 (III): Fabrikaların ekvatora uzaklığı, yükseltisi ve bulutlanma gibi koşulları verilmemiştir. Bu bilgiler olmadan yıllık toplam üretimlerinin eşit olduğu söylenemez; "kesinlikle eşittir" fazla bir varsayımdır. III yanlıştır.
-Adım 4: Doğru olanlar I ve II'dir.
-Sık yapılan hata: İki yarım kürenin simetrik olmasından yola çıkıp bütün ölçümlerin eşit olacağını varsaymak. Soruda verilmeyen bir bilgi üzerine kesin yargı kurulmaz.
-Cevap B.`
+  aciklama: "Kuzey ve Güney Yarım Küre'de aynı anda zıt mevsimler yaşanır. Bunun nedeni, Dünya'nın eğik ekseninin yörüngede hep aynı yöne bakmasıdır. İki istasyon ekvatora eşit uzaklıkta olduğu için aralarındaki tek fark, bulundukları yarım küredir.\nAdım 1 (I): Aralık ayında güney kutbu Güneş'e yöneliktir. Işınlar Güney Yarım Küre'ye daha dik düşer, birim yüzeye düşen enerji artar ve orada yaz yaşanır. L istasyonu Güney Yarım Küre'de olduğuna göre I doğrudur.\nAdım 2 (II): Temmuzda ise kuzey kutbu Güneş'e yöneliktir. Ekvatora eşit uzaklıktaki iki istasyondan K'ye ışınlar daha dik, L'ye daha eğik düşer; K'de birim yüzeye düşen enerji daha fazladır. II doğrudur.\nAdım 3 (III): K'de ışınlar en dik haziranda, L'de aralıkta düşer. Öyleyse K'nin en yüksek ölçümü haziranda, L'ninki aralıkta kaydedilir; aynı aya düşmezler. III yanlıştır.\nAdım 4: Doğru olanlar I ve II'dir.\nSık yapılan hata: Ekvatora eşit uzaklıktaki iki yerin yıl boyunca aynı ölçümleri vereceğini sanmak. Yıllık değerleri birbirine yakın olabilir ama ayları zıttır: biri yaz yaşarken diğeri kış yaşar.\nCevap B."
 }
 );

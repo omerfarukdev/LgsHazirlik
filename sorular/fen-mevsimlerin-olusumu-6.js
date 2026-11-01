@@ -39,11 +39,12 @@ I. Durum 2'de aydınlanan bölgenin her metrekaresine düşen ışık enerjisi D
 II. Durum 2'de ışık, Durum 1'dekinden daha geniş bir alana yayılır.
 III. Durum 2'de lambanın zemine gönderdiği toplam ışık enerjisi Durum 1'dekinden azdır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 540 250" role="img" aria-label="İki durumda spot lambanın zeminde aydınlattığı bölge: Durum 1 de 1 metre, Durum 2 de 2 metre"><g stroke="currentColor" stroke-width="2" fill="none"><line x1="40" y1="190" x2="240" y2="190"/><line x1="300" y1="190" x2="510" y2="190"/></g>
-<g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="140" cy="36" r="14"/><circle cx="340" cy="36" r="14"/></g>
-<g stroke="var(--vurgu)" stroke-width="2"><line x1="132" y1="48" x2="115" y2="190"/><line x1="148" y1="48" x2="165" y2="190"/><line x1="346" y1="48" x2="360" y2="190"/><line x1="352" y1="46" x2="460" y2="190"/></g>
-<g stroke="currentColor" stroke-width="2"><line x1="115" y1="212" x2="165" y2="212"/><line x1="115" y1="206" x2="115" y2="218"/><line x1="165" y1="206" x2="165" y2="218"/><line x1="360" y1="212" x2="460" y2="212"/><line x1="360" y1="206" x2="360" y2="218"/><line x1="460" y1="206" x2="460" y2="218"/></g>
-<g fill="currentColor" font-size="16" text-anchor="middle"><text x="140" y="238">1 m</text><text x="410" y="238">2 m</text><text x="75" y="24">Durum 1</text><text x="275" y="24">Durum 2</text></g></svg>`,
+  gorsel: `<svg viewBox="0 0 540 250" role="img" aria-label="İki durumda spot lambanın zeminde aydınlattığı bölge: Durum 1 de lamba dik tutulmuş, aydınlanan bölge 1 metre; Durum 2 de lamba yana eğilmiş, aydınlanan bölge 2 metre"><g stroke="currentColor" stroke-width="2" fill="none"><line x1="40" y1="190" x2="235" y2="190"/><line x1="270" y1="190" x2="515" y2="190"/></g>
+<g fill="var(--dolgu)" stroke="currentColor" stroke-width="2"><circle cx="140" cy="36" r="14"/><circle cx="262" cy="36" r="14"/></g>
+<g stroke="currentColor" stroke-width="2"><line x1="140" y1="27" x2="140" y2="45"/><line x1="255.1" y1="30.2" x2="268.9" y2="41.8"/></g>
+<g stroke="var(--vurgu)" stroke-width="2"><line x1="132" y1="48" x2="115" y2="190"/><line x1="148" y1="48" x2="165" y2="190"/><line x1="271.5" y1="46.2" x2="406" y2="190"/><line x1="273.7" y1="43.6" x2="499" y2="190"/></g>
+<g stroke="currentColor" stroke-width="2"><line x1="115" y1="212" x2="165" y2="212"/><line x1="115" y1="206" x2="115" y2="218"/><line x1="165" y1="206" x2="165" y2="218"/><line x1="406" y1="212" x2="499" y2="212"/><line x1="406" y1="206" x2="406" y2="218"/><line x1="499" y1="206" x2="499" y2="218"/></g>
+<g fill="currentColor" font-size="16" text-anchor="middle"><text x="140" y="238">1 m</text><text x="452" y="238">2 m</text><text x="75" y="24">Durum 1</text><text x="340" y="24">Durum 2</text></g></svg>`,
   secenekler: [
     "Yalnız II",
     "Yalnız III",
@@ -341,8 +342,8 @@ Cevap D.`
   zorluk: 3,
   soru: `Hazal, güneş ışığında solan mavi fon kâğıtlarını aynı lambanın altına, lambadan eşit uzaklıkta, kâğıtların yüzeyi ışığa 90°, 60° ve 30° açı yapacak biçimde yerleştirmiştir. Her kâğıt rengi aynı tona gelene kadar bekletilmiş ve solma süreleri 90° için 4 saat, 60° için 6 saat, 30° için 11 saat bulunmuştur.
 I. Bu deneyde değiştirilen değişken, ışığın kâğıda geliş açısıdır.
-II. Bu deneyde sabit tutulan değişkenlerden biri, ışığın kâğıda geliş açısıdır.
-III. Bu deney, birim yüzeye düşen enerjinin lambaya uzaklıkla değiştiğini gösterir.
+II. Bu deneyde solma süresi, sabit tutulan değişkenlerden biridir.
+III. Deney sonuçları, ışık eğik geldikçe kâğıdın birim yüzeyine düşen enerjinin arttığını gösterir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
   secenekler: [
@@ -354,16 +355,16 @@ III. Bu deney, birim yüzeye düşen enerjinin lambaya uzaklıkla değiştiğini
   dogru: 0,
   hatalar: [
     null,
-    "I. yargıyı gözden kaçırma: Hazal yalnızca kâğıtların eğimini değiştirmiştir. II. yargıyı doğru sanma: geliş açısı bilerek değiştirildiği için sabit tutulan değil, değiştirilen değişkendir.",
-    "III. yargıyı doğru sanma: uzaklık sabit tutulduğu için deney uzaklığın etkisini göstermez; solma süresi gösterge olarak açının etkisini yansıtır.",
-    "I. yargıyı gözden kaçırma: Hazal yalnızca kâğıtların eğimini değiştirmiştir. II. yargıyı doğru sanma: geliş açısı bilerek değiştirildiği için sabit tutulan değil, değiştirilen değişkendir. III. yargıyı doğru sanma: uzaklık sabit tutulduğu için deney uzaklığın etkisini göstermez; solma süresi gösterge olarak açının etkisini yansıtır."
+    "I. yargıyı gözden kaçırma: Hazal yalnızca kâğıtların eğimini değiştirmiştir. II. yargıyı doğru sanma: solma süresi sabit tutulmamış, her kâğıtta ayrı ölçülmüştür (4, 6 ve 11 saat); o, deneyin sonucunu veren göstergedir.",
+    "III. yargıyı doğru sanma: ışık eğikleştikçe solma süresi 4 saatten 11 saate uzamıştır; süre uzadıysa kâğıdın birim yüzeyine düşen enerji azalmıştır, artmamıştır.",
+    "I. yargıyı gözden kaçırma: Hazal yalnızca kâğıtların eğimini değiştirmiştir. II. yargıyı doğru sanma: solma süresi sabit tutulmamış, her kâğıtta ayrı ölçülmüştür; o, deneyin sonucunu veren göstergedir. III. yargıyı doğru sanma: süre uzadıysa kâğıdın birim yüzeyine düşen enerji azalmıştır, artmamıştır."
   ],
   aciklama: `Deneyde bilerek değiştirilen büyüklüğe değiştirilen (bağımsız) değişken, aynı tutulanlara sabit tutulan (kontrol) değişken, ölçülerek sonuç veren büyüklüğe de gösterge denir.
-Adım 1 (I. yargı): Hazal yalnızca kâğıtların eğimini değiştirmiştir. I. yargı doğrudur.
-Adım 2 (II. yargı): Geliş açısı bilerek değiştirildiği için sabit tutulan değil, değiştirilen değişkendir. II. yargı yanlıştır.
-Adım 3 (III. yargı): Uzaklık sabit tutulduğu için deney uzaklığın etkisini göstermez; solma süresi gösterge olarak açının etkisini yansıtır. III. yargı yanlıştır.
+Adım 1 (I. yargı): Hazal yalnızca kâğıtların eğimini, yani ışığın geliş açısını değiştirmiştir; uzaklık, lamba ve kâğıt türü aynıdır. I. yargı doğrudur.
+Adım 2 (II. yargı): Solma süresi sabit tutulmamıştır; her kâğıtta ayrı ayrı ölçülmüş ve 4, 6, 11 saat bulunmuştur. Bu büyüklük deneyin sonucunu veren göstergedir. II. yargı yanlıştır.
+Adım 3 (III. yargı): Açı 90°'den 30°'ye indikçe solma 4 saatten 11 saate uzamıştır. Aynı solma için daha uzun süre gerekiyorsa kâğıdın birim yüzeyine her saat daha az enerji düşüyor demektir; eğik ışık enerjiyi artırmaz, azaltır. III. yargı yanlıştır.
 Adım 4: Doğru yargı yalnız I.
-Sık yapılan hata: Sonucu veren (solma süresi) ile değiştirilen büyüklüğü (açı) karıştırmak. Açı sen değiştirirsin, süre ölçülür.
+Sık yapılan hata: Sonucu veren (solma süresi) ile değiştirilen büyüklüğü (açı) karıştırmak ve "süre uzadı, demek ki enerji arttı" demek. Açı sen değiştirirsin, süre ölçülür; süre uzuyorsa enerji azalıyordur.
 Cevap A.`
 },
 {
@@ -613,7 +614,7 @@ Cevap B.`
   zorluk: 3,
   soru: `Bir hava durumu uygulaması, aynı gün iki şehirde Güneş'in yerel saatle doğuş ve batış saatlerini tabloda göstermiştir. Şehirlerden hiçbiri Ekvator üzerinde değildir.
 **Buna göre bu iki şehrin yarım küreleri ve L şehrindeki gece süresi için aşağıdakilerden hangisi söylenebilir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>Güneşin doğuşu</th><th>Güneşin batışı</th></tr><tr><td>K</td><td>05.50</td><td>18.20</td></tr><tr><td>L</td><td>08.10</td><td>16.10</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>Güneş'in doğuşu</th><th>Güneş'in batışı</th></tr><tr><td>K</td><td>05.50</td><td>18.20</td></tr><tr><td>L</td><td>08.10</td><td>16.10</td></tr></table>",
   secenekler: [
     "K ve L aynı yarım kürede bulunur; L'de gece 8 saat sürer.",
     "K ve L farklı yarım kürelerde bulunur; L'de gece 16 saat sürer.",
@@ -642,7 +643,7 @@ Cevap B.`
   soru: `Bir bilim kurgu romanında Dünya'nın hareketlerinden yalnız biri değişmiştir: dönme süresi 24 saatten 12 saate düşmüş; dolanma süresi (365 gün) ve eksen eğikliği (23,5°) aynı kalmıştır.
 I. Romandaki Dünya'da mevsimler oluşmaz.
 II. Romandaki Dünya'da bir yerde gece ile gündüzün her biri ortalama yaklaşık 6 saat sürer.
-III. Romandaki Dünya'da mevsimlerin bir kez tamamlanması yine yaklaşık 365 gün sürer.
+III. Romandaki Dünya'da mevsimlerin bir kez tamamlanması yine bir dolanma süresi kadar sürer.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
   secenekler: [
@@ -733,7 +734,7 @@ Cevap C.`
   zorluk: 3,
   soru: `Fen öğretmeni, mevsimlerin oluşumuyla ilgili dört öğrencinin ifadesini tabloya yazmıştır.
 **Buna göre hangi öğrencinin ifadesi bilimsel olarak doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Öğrenci</th><th>İfadesi</th></tr><tr><td>Ali</td><td>Mevsimler, Dünya'nın kendi ekseni çevresinde dönmesiyle oluşur.</td></tr><tr><td>Bora</td><td>Kuzey Yarım Küre'de kış, Dünya'nın Güneş'e en uzak olduğu dönemde yaşanır.</td></tr><tr><td>Ceren</td><td>Dönme ekseninin yönü yıl içinde değiştiği için yarım küreler sırayla Güneş'e yönelir.</td></tr><tr><td>Duru</td><td>Eksen eğik olduğu için aynı gün iki yarım kürenin öğle ışınları farklı açıyla düşer.</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Öğrenci</th><th>İfadesi</th></tr><tr><td>Ali</td><td>Mevsimler, Dünya'nın kendi ekseni çevresinde dönmesiyle oluşur.</td></tr><tr><td>Bora</td><td>Kuzey Yarım Küre'de kış, Dünya'nın Güneş'ten uzaklaşması nedeniyle yaşanır.</td></tr><tr><td>Ceren</td><td>Dönme ekseninin yönü yıl içinde değiştiği için yarım küreler sırayla Güneş'e yönelir.</td></tr><tr><td>Duru</td><td>Eksen eğik olduğu için aynı gün iki yarım kürenin öğle ışınları farklı açıyla düşer.</td></tr></table>",
   secenekler: [
     "Ali",
     "Bora",
@@ -743,13 +744,13 @@ Cevap C.`
   dogru: 3,
   hatalar: [
     "Dönmeyi mevsim nedeni sanma: dönme gece ile gündüzü oluşturur; mevsimler eğik eksen ve dolanmayla oluşur.",
-    "Uzaklık yanılgısı: Dünya Güneş'e en yakınken, yani ocak başında Kuzey Yarım Küre'de kış yaşanır.",
+    "Uzaklık yanılgısı: mevsimleri Güneş'e uzaklık değil, ışınların düşme açısı belirler. Üstelik Dünya Güneş'e en yakınken, yani ocak başında Kuzey Yarım Küre'de kış yaşanır.",
     "Eksenin yön değiştirdiğini sanma: eksenin eğikliği ve yönü sabittir; değişen Dünya'nın yörüngedeki konumudur.",
     null
   ],
   aciklama: `Her ifadeyi, mevsimlerin nedeniyle karşılaştır: eğik bir eksen ve Güneş çevresinde dolanma.
 Adım 1: Ali'nin ifadesi dönmeyi mevsim nedeni sayıyor; dönme gece-gündüzü oluşturur. Yanlış.
-Adım 2: Bora'nın ifadesinde uzaklık nedeni var. Dünya Güneş'e en yakın konumdayken (ocak başı) Kuzey Yarım Küre'de kış yaşanır. Yanlış.
+Adım 2: Bora kışın nedenini Güneş'ten uzaklaşmaya bağlıyor. Oysa mevsimleri uzaklık değil ışınların düşme açısı belirler; üstelik Dünya Güneş'e en yakın konumdayken (ocak başı) Kuzey Yarım Küre'de kış yaşanır. Yanlış.
 Adım 3: Ceren eksenin yönünün değiştiğini söylüyor; oysa eksen yıl boyunca aynı yöne bakar. Yanlış.
 Adım 4: Duru'nun ifadesi doğrudur: eğik eksen yüzünden iki yarım küre aynı gün Güneş'e farklı yönelir ve ışınlar farklı açıyla düşer.
 Sık yapılan hata: Kulağa mantıklı gelen "yakınlık" ya da "dönme" ifadelerini seçmek.
@@ -953,7 +954,7 @@ Cevap B.`
   secenekler: [
     "Şehir, Kuzey Yarım Küre'de bulunmaktadır.",
     "21 Haziran'da ışınlar 21 Aralık'takinden daha diktir.",
-    "21 Haziran'da Dünya, Güneş'e 21 Aralık'takinden daha yakındır.",
+    "21 Aralık'ta Dünya, Güneş'e 21 Haziran'dakinden daha yakındır.",
     "21 Aralık'ta birim yüzeye düşen enerji 21 Mart'takinden azdır."
   ],
   dogru: 2,
@@ -967,8 +968,8 @@ Cevap B.`
 Adım 1 (A): En uzun gündüz haziranda olduğuna göre şehir Kuzey Yarım Küre'dedir. Çıkarılabilir.
 Adım 2 (B): Haziran gölgesi (30 cm) Aralık gölgesinden (200 cm) kısadır; ışınlar Haziran'da daha diktir. Çıkarılabilir.
 Adım 3 (D): Aralık gölgesi Mart gölgesinden uzundur; ışınlar daha eğiktir, birim yüzeye daha az enerji düşer. Çıkarılabilir.
-Adım 4 (C): Tabloda Dünya-Güneş uzaklığına dair hiçbir veri yoktur; gölge boyu ve gündüz süresi uzaklığı anlatmaz. Üstelik mevsimleri uzaklık belirlemez. Bu sonuca ulaşılamaz.
-Sık yapılan hata: Kısa gölgeyi "Güneş daha yakın" diye yorumlamak. Gölge boyu ışınların açısını anlatır, Güneş'e uzaklığı değil. "Ulaşılamaz" kökünde önce veriyle ne bulunabildiğini listele.
+Adım 4 (C): Tabloda Dünya-Güneş uzaklığına dair hiçbir veri yoktur; gölge boyu ve gündüz süresi ışınların açısını anlatır, uzaklığı değil. Bu cümle gerçekte doğru olsa bile (Dünya, Güneş'e ocak başında en yakındır) tablodaki verilerle bu sonuca ulaşılamaz.
+Sık yapılan hata: Uzun gölgeyi "Güneş daha uzak" diye yorumlamak ya da cümlenin doğru olup olmadığına bakmak. "Ulaşılamaz" kökünde ölçüt doğruluk değil, verilerden çıkarılıp çıkarılamadığıdır; önce veriyle ne bulunabildiğini listele.
 Cevap C.`
 },
 {
@@ -1008,9 +1009,9 @@ Cevap C.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `Kuzey Yarım Küre'de bulunan bir şehirde, 1 m boyundaki bir çubuğun öğle gölgesi ile gündüz süresi 21 Mart, 21 Haziran ve 21 Aralık günlerinde ölçülmüş; ölçümler tarihleri belirtilmeden, sırası karışık olarak tabloya yazılmıştır.
+  soru: `Kuzey Yarım Küre'de bulunan bir şehirde, 1,5 m boyundaki bir çubuğun öğle gölgesi ile gündüz süresi 21 Mart, 21 Haziran ve 21 Aralık günlerinde ölçülmüş; ölçümler tarihleri belirtilmeden, sırası karışık olarak tabloya yazılmıştır.
 **Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Ölçüm</th><th>Gölge boyu</th><th>Gündüz süresi</th></tr><tr><td>1. ölçüm</td><td>200 cm</td><td>9 saat 10 dakika</td></tr><tr><td>2. ölçüm</td><td>30 cm</td><td>14 saat 50 dakika</td></tr><tr><td>3. ölçüm</td><td>84 cm</td><td>12 saat</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Ölçüm</th><th>Gölge boyu</th><th>Gündüz süresi</th></tr><tr><td>1. ölçüm</td><td>255 cm</td><td>9 saat 50 dakika</td></tr><tr><td>2. ölçüm</td><td>33 cm</td><td>14 saat 15 dakika</td></tr><tr><td>3. ölçüm</td><td>109 cm</td><td>12 saat</td></tr></table>",
   secenekler: [
     "2. ölçümün yapıldığı gün birim yüzeye düşen enerji, üç ölçüm içinde en fazladır.",
     "3. ölçümün yapıldığı gün şehirde sonbahar mevsimi başlamaktadır.",
@@ -1021,14 +1022,14 @@ Cevap C.`
   hatalar: [
     null,
     "Tarihi yanlış eşleştirme: 12 saatlik gündüz 21 Mart'a aittir; Kuzey Yarım Küre'de bu tarihte ilkbahar başlar, sonbahar değil.",
-    "Gölge boyunu ters okuma: 200 cm'lik en uzun gölge ışınların en eğik düştüğünü gösterir.",
+    "Gölge boyunu ters okuma: 255 cm'lik en uzun gölge ışınların en eğik düştüğünü gösterir.",
     "Eşitliği yanlış okuma: 3. ölçümde gündüz tam 12 saattir; gece de 12 saattir, biri öbüründen uzun değildir."
   ],
   aciklama: `Üç ölçümden hangisinin hangi tarihe ait olduğunu önce çöz. Sonra her seçeneği o tarihle sına.
-Adım 1: Gündüz süresi 12 saat olan ölçüm 21 Mart'tır (3. ölçüm). En uzun gündüz Kuzey Yarım Küre'de 21 Haziran'dadır (2. ölçüm, 14 saat 50 dakika). En kısa gündüz 21 Aralık'tadır (1. ölçüm, 9 saat 10 dakika).
-Adım 2: Gölgesi en kısa olan ölçüm ışınların en dik olduğu, yani birim yüzeye en çok enerjinin düştüğü ölçümdür: 2. ölçüm (30 cm). A doğrudur.
+Adım 1: Gündüz süresi 12 saat olan ölçüm 21 Mart'tır (3. ölçüm). En uzun gündüz Kuzey Yarım Küre'de 21 Haziran'dadır (2. ölçüm, 14 saat 15 dakika). En kısa gündüz 21 Aralık'tadır (1. ölçüm, 9 saat 50 dakika).
+Adım 2: Gölgesi en kısa olan ölçüm ışınların en dik olduğu, yani birim yüzeye en çok enerjinin düştüğü ölçümdür: 2. ölçüm (33 cm). A doğrudur.
 Adım 3: 3. ölçüm 21 Mart'tır; orada ilkbahar başlar ve gece-gündüz eşittir (B ve D yanlış). 1. ölçümde gölge en uzundur, ışınlar en eğiktir (C yanlış).
-Sağlama: Üç gölge boyunu sıraya dizdiğinde 30 cm < 84 cm < 200 cm olur; bu sıra ışınların dikliğini Haziran > Mart > Aralık gösterir.
+Sağlama: Üç gölge boyunu sıraya dizdiğinde 33 cm < 109 cm < 255 cm olur; bu sıra ışınların dikliğini Haziran > Mart > Aralık gösterir. Çubuk 1,5 m olduğu için gölgeler 1 m'lik çubuğa göre uzun çıkar; sıralama değişmez.
 Cevap A.`
 },
 {
@@ -1128,12 +1129,12 @@ Cevap D.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `K ve L şehirlerinde 21 Mart ile 21 Haziran günlerinde gündüz süreleri ölçülmüş ve aşağıdaki tabloya yazılmıştır. Şehirlerin hangi yarım kürede olduğu belirtilmemiştir.
+  soru: `K ve L şehirlerinde 23 Eylül ile 21 Aralık günlerinde gündüz süreleri ölçülmüş ve aşağıdaki tabloya yazılmıştır. Şehirlerin hangi yarım kürede olduğu belirtilmemiştir.
 I. K şehri Ekvator üzerindedir.
-II. 21 Haziran'da L şehrinde yaz mevsimi başlar.
+II. 21 Aralık'ta K şehrinde yaz mevsimi başlar.
 III. K ve L şehirleri farklı yarım kürelerdedir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>21 Mart</th><th>21 Haziran</th></tr><tr><td>K</td><td>12 saat</td><td>15 saat 10 dakika</td></tr><tr><td>L</td><td>12 saat</td><td>9 saat 5 dakika</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>23 Eylül</th><th>21 Aralık</th></tr><tr><td>K</td><td>12 saat</td><td>9 saat 5 dakika</td></tr><tr><td>L</td><td>12 saat</td><td>15 saat 10 dakika</td></tr></table>",
   secenekler: [
     "Yalnız III",
     "I ve II",
@@ -1143,16 +1144,16 @@ III. K ve L şehirleri farklı yarım kürelerdedir.
   dogru: 0,
   hatalar: [
     null,
-    "I. yargıyı doğru sanma: 21 Mart'ta gündüz her yerde 12 saattir ve K'de 21 Haziran'da gündüz 15 saati geçtiği için K, Ekvator'da olamaz. II. yargıyı doğru sanma: L'de 21 Haziran'da gündüz yılın en kısa süresindedir; orada yaz değil kış başlar. III. yargıyı gözden kaçırma: 21 Haziran'da K'de gündüz uzun, L'de kısadır; bu, iki şehrin zıt yarım kürelerde olduğunu gösterir.",
-    "I. yargıyı doğru sanma: 21 Mart'ta gündüz her yerde 12 saattir ve K'de 21 Haziran'da gündüz 15 saati geçtiği için K, Ekvator'da olamaz.",
-    "II. yargıyı doğru sanma: L'de 21 Haziran'da gündüz yılın en kısa süresindedir; orada yaz değil kış başlar."
+    "I. yargıyı doğru sanma: 23 Eylül'de gündüz her yerde 12 saattir ve K'de 21 Aralık'ta gündüz 9 saate kadar inmiştir; Ekvator'da gündüz yıl boyu 12 saate yakın kalır, K Ekvator'da olamaz. II. yargıyı doğru sanma: K'de 21 Aralık'ta gündüz yılın en kısa süresindedir; orada yaz değil kış başlar. III. yargıyı gözden kaçırma: 21 Aralık'ta K'de gündüz kısa, L'de uzundur; bu, iki şehrin zıt yarım kürelerde olduğunu gösterir.",
+    "I. yargıyı doğru sanma: 23 Eylül'de gündüz her yerde 12 saattir ve K'de 21 Aralık'ta gündüz 9 saate kadar inmiştir; Ekvator'da gündüz yıl boyu 12 saate yakın kalır, K Ekvator'da olamaz.",
+    "II. yargıyı doğru sanma: K'de 21 Aralık'ta gündüz yılın en kısa süresindedir; orada yaz değil kış başlar."
   ],
-  aciklama: `21 Mart'ta gündüz her yerde yaklaşık 12 saattir; asıl ayırt edici tarih 21 Haziran'dır: gündüzü uzun olan yer Kuzey, kısa olan yer Güney Yarım Küre'dedir.
-Adım 1 (I. yargı): 21 Mart'ta gündüz her yerde 12 saattir ve K'de 21 Haziran'da gündüz 15 saati geçtiği için K, Ekvator'da olamaz. I. yargı yanlıştır.
-Adım 2 (II. yargı): L'de 21 Haziran'da gündüz yılın en kısa süresindedir; orada yaz değil kış başlar. II. yargı yanlıştır.
-Adım 3 (III. yargı): 21 Haziran'da K'de gündüz uzun, L'de kısadır; bu, iki şehrin zıt yarım kürelerde olduğunu gösterir. III. yargı doğrudur.
+  aciklama: `23 Eylül'de gündüz her yerde yaklaşık 12 saattir; asıl ayırt edici tarih 21 Aralık'tır: o gün gündüzü kısa olan yer Kuzey, uzun olan yer Güney Yarım Küre'dedir.
+Adım 1 (I. yargı): 23 Eylül'deki 12 saat, Ekvator'a özgü değildir; o gün gündüz her yerde 12 saattir. K'de 21 Aralık'ta gündüz 9 saat 5 dakikaya indiğine göre K Ekvator'da olamaz. I. yargı yanlıştır.
+Adım 2 (II. yargı): K'de 21 Aralık'ta gündüz yılın en kısa süresindedir; demek ki K Kuzey Yarım Küre'dedir ve orada kış başlar. II. yargı yanlıştır.
+Adım 3 (III. yargı): 21 Aralık'ta K'de gündüz kısa, L'de uzundur; bu, iki şehrin zıt yarım kürelerde olduğunu gösterir. III. yargı doğrudur.
 Adım 4: Doğru yargı yalnız III.
-Sık yapılan hata: 21 Mart'taki 12 saatlik gündüzü "Ekvator'dadır" diye yorumlamak. O gün gündüz her yerde 12 saattir; yeri yıl içindeki değişimden bulursun.
+Sık yapılan hata: 23 Eylül'deki 12 saatlik gündüzü "Ekvator'dadır" diye yorumlamak. O gün gündüz her yerde 12 saattir; yeri yıl içindeki değişimden bulursun.
 Cevap A.`
 },
 {
@@ -1193,7 +1194,7 @@ I. 21 Haziran'da bu şehirde gece 8 saat 20 dakika sürmüştür.
 II. 21 Aralık'ta bu şehirde gündüz 9 saat 20 dakika sürmüştür.
 III. Bu şehir Güney Yarım Küre'dedir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Tarih</th><th>Güneşin doğuşu</th><th>Güneşin batışı</th></tr><tr><td>21 Haziran</td><td>05.00</td><td>20.40</td></tr><tr><td>21 Aralık</td><td>07.30</td><td>16.50</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Tarih</th><th>Güneş'in doğuşu</th><th>Güneş'in batışı</th></tr><tr><td>21 Haziran</td><td>05.00</td><td>20.40</td></tr><tr><td>21 Aralık</td><td>07.30</td><td>16.50</td></tr></table>",
   secenekler: [
     "Yalnız I",
     "I ve II",
@@ -1226,21 +1227,21 @@ Cevap B.`
   secenekler: [
     "Gündüz süresi, L kentinde K kentindekinden kısadır.",
     "Birim yüzeye düşen enerji, L kentinde K kentindekinden azdır.",
-    "L kenti, K kentine göre Güneş'e belirgin biçimde daha yakındır.",
+    "Öğle ışınları, L kentine o gün tam dik açıyla düşer.",
     "Öğle ışınları, L kentinde K kentindekinden daha dik düşer."
   ],
   dogru: 3,
   hatalar: [
     "Gündüz süresini ters okuma: 21 Aralık'ta Güney Yarım Küre Güneş'e yönelmiştir; orada yaz başlar ve gündüz K kentindekinden uzundur.",
     "Enerjiyi ters yorumlama: L kentinde ışınlar daha dik düştüğü için aynı enerji daha dar alana yayılır ve birim yüzeye düşen enerji K kentindekinden fazladır.",
-    "Uzaklık yanılgısı: iki kentin Güneş'e uzaklığı arasındaki fark, 150 milyon km'nin yanında yok sayılacak kadar küçüktür; aradaki fark ışınların açısından gelir.",
+    "Kesin olmayanı kesin sanma: 21 Aralık'ta ışınlar yalnız Güney Yarım Küre'deki dönence çevresine tam dik düşer. L'nin Ekvator'a uzaklığı verilmediği için tam dik düştüğü söylenemez; kesin olan, K'ye göre daha dik düştüğüdür.",
     null
   ],
   aciklama: `Güneş'e yönelen yarım kürede ışınlar daha dik düşer ve gündüzler uzar; öbür yarım küre Güneş'ten uzaktadır. İki kent Ekvator'dan eşit uzaklıkta olduğu için aralarındaki fark yalnız hangi yarım kürede olduklarından gelir.
 Adım 1: 21 Aralık'ta Güney Yarım Küre Güneş'e yönelmiştir; L kentinde yaz, K kentinde kış başlar.
 Adım 2: Güneş'e yönelen L kentinde gündüz K kentindekinden uzundur (A yanlış) ve öğle ışınları daha dik düşer (D doğru).
 Adım 3: Işınlar dik düştüğünde aynı enerji daha dar alana dağılır; L kentinde birim yüzeye düşen enerji K kentindekinden fazladır (B yanlış).
-Adım 4: İki kentin Güneş'e uzaklığı arasındaki fark çok küçüktür ve mevsimlerin nedeni değildir (C yanlış).
+Adım 4: Işınların L kentine tam dik düşmesi için L'nin 21 Aralık'ta Güneş'in tam tepede olduğu dönence çizgisi üzerinde olması gerekir. Kentin Ekvator'a uzaklığı verilmediği için bu kesin değildir; "kesinlikle" kökü C'yi eler. Kesin olan, L'de ışınların K'dekinden daha dik düştüğüdür.
 Sağlama: 21 Haziran'da durum tersine döner; K kentinde gündüz daha uzun olur ve ışınlar daha dik düşer.
 Cevap D.`
 },
@@ -1340,7 +1341,7 @@ Cevap B.`
   zorluk: 4,
   soru: `Dünya'nın Güneş çevresindeki yörüngesinde dört konumunu gösteren bir maket hazırlayan öğrenciler, arkadaşlarına aşağıdaki yargıları söylemiştir.
 I. Dünya yörüngenin hangi noktasında olursa olsun eksenin kuzey ucu uzayda aynı yöne bakar.
-II. Dünya Güneş'e en yakın olduğu noktadan geçerken eksenin kuzey ucu Güneş'e doğru eğiktir.
+II. Dünya Güneş'e en yakın olduğu noktadan geçerken iki yarım kürede de yaz mevsimi yaşanır.
 III. Eksenin kuzey ucu Güneş'e doğru eğikken Güney Yarım Küre'de geceler gündüzlerden uzundur.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
@@ -1352,17 +1353,17 @@ III. Eksenin kuzey ucu Güneş'e doğru eğikken Güney Yarım Küre'de geceler 
   ],
   dogru: 1,
   hatalar: [
-    "I. yargıyı gözden kaçırma: eksenin eğikliği ve yönü yıl boyunca sabittir; doğru bir makette bütün eksenler paraleldir. II. yargıyı doğru sanma: Dünya Güneş'e en yakın olduğunda, yani ocak başında, eksenin kuzey ucu Güneş'ten uzağa eğiktir ve Kuzey Yarım Küre'de kış yaşanır. III. yargıyı gözden kaçırma: kuzey ucu Güneş'e eğikken Güney Yarım Küre Güneş'ten uzak kalır, orada kış yaşanır ve gündüzler kısalır.",
+    "I. yargıyı gözden kaçırma: eksenin eğikliği ve yönü yıl boyunca sabittir; doğru bir makette bütün eksenler paraleldir. II. yargıyı doğru sanma: eksen eğik olduğu için yörüngenin her noktasında bir yarım küre Güneş'e yönelikken öbürü uzak kalır; Dünya Güneş'e en yakınken bile iki yarım küre zıt mevsimler yaşar, ikisi birden yaz yaşayamaz. III. yargıyı gözden kaçırma: kuzey ucu Güneş'e eğikken Güney Yarım Küre Güneş'ten uzak kalır, orada kış yaşanır ve gündüzler kısalır.",
     null,
-    "I. yargıyı gözden kaçırma: eksenin eğikliği ve yönü yıl boyunca sabittir; doğru bir makette bütün eksenler paraleldir. II. yargıyı doğru sanma: Dünya Güneş'e en yakın olduğunda, yani ocak başında, eksenin kuzey ucu Güneş'ten uzağa eğiktir ve Kuzey Yarım Küre'de kış yaşanır.",
-    "II. yargıyı doğru sanma: Dünya Güneş'e en yakın olduğunda, yani ocak başında, eksenin kuzey ucu Güneş'ten uzağa eğiktir ve Kuzey Yarım Küre'de kış yaşanır."
+    "I. yargıyı gözden kaçırma: eksenin eğikliği ve yönü yıl boyunca sabittir; doğru bir makette bütün eksenler paraleldir. II. yargıyı doğru sanma: eksen eğik olduğu için yörüngenin her noktasında bir yarım küre Güneş'e yönelikken öbürü uzak kalır; Dünya Güneş'e en yakınken bile iki yarım küre zıt mevsimler yaşar, ikisi birden yaz yaşayamaz.",
+    "II. yargıyı doğru sanma: eksen eğik olduğu için yörüngenin her noktasında bir yarım küre Güneş'e yönelikken öbürü uzak kalır; Dünya Güneş'e en yakınken bile iki yarım küre zıt mevsimler yaşar, ikisi birden yaz yaşayamaz."
   ],
   aciklama: `Eksen yörüngenin her noktasında aynı yöne bakar. Kuzey ucu Güneş'e doğru eğikse Kuzey'de yaz, Güney'de kış yaşanır.
 Adım 1 (I. yargı): Eksenin eğikliği ve yönü yıl boyunca sabittir; doğru bir makette bütün eksenler paraleldir. I. yargı doğrudur.
-Adım 2 (II. yargı): Dünya Güneş'e en yakın olduğunda, yani ocak başında, eksenin kuzey ucu Güneş'ten uzağa eğiktir ve Kuzey Yarım Küre'de kış yaşanır. II. yargı yanlıştır.
+Adım 2 (II. yargı): Eksen eğik olduğu için yörüngenin her noktasında bir yarım küre Güneş'e yönelikken öbürü uzak kalır; Dünya Güneş'e en yakınken bile iki yarım küre zıt mevsimler yaşar, ikisi birden yaz yaşayamaz. II. yargı yanlıştır.
 Adım 3 (III. yargı): Kuzey ucu Güneş'e eğikken Güney Yarım Küre Güneş'ten uzak kalır, orada kış yaşanır ve gündüzler kısalır. III. yargı doğrudur.
 Adım 4: Doğru yargılar I ve III.
-Sık yapılan hata: Güneş'e en yakın konumu eksenin Güneş'e dönük olduğu konum sanmak. Yakınlık ile eksen eğikliğinin yönü ayrı kavramlardır.
+Sık yapılan hata: Güneş'e yakınlığı mevsim nedeni sanmak. Uzaklık bütün Dünya'yı aynı anda etkiler; iki yarım kürenin zıt mevsim yaşamasını yalnız eksen eğikliği açıklar.
 Cevap B.`
 },
 {
@@ -1372,7 +1373,7 @@ Cevap B.`
   zorluk: 4,
   soru: `Türkiye'de yaşayan Ayşe ile başka bir ülkede yaşayan Pablo, bulutsuz havada 21 Mart ve 21 Aralık günlerinde öğle vakti 1 m boyundaki birer çubuğun gölgesini ve gündüz süresini ölçüp birbirine göndermiştir. Ölçümler tabloda verilmiştir; Pablo'nun şehrinin hangi yarım kürede olduğu belirtilmemiştir.
 **Buna göre 21 Mart'tan 21 Aralık'a geçerken aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Kişi</th><th>Tarih</th><th>Gölge boyu</th><th>Gündüz süresi</th></tr><tr><td>Ayşe</td><td>21 Mart</td><td>84 cm</td><td>12 saat</td></tr><tr><td>Ayşe</td><td>21 Aralık</td><td>200 cm</td><td>9 saat 15 dakika</td></tr><tr><td>Pablo</td><td>21 Mart</td><td>70 cm</td><td>12 saat</td></tr><tr><td>Pablo</td><td>21 Aralık</td><td>21 cm</td><td>14 saat 25 dakika</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Kişi</th><th>Tarih</th><th>Gölge boyu</th><th>Gündüz süresi</th></tr><tr><td>Ayşe</td><td>21 Mart</td><td>92 cm</td><td>12 saat</td></tr><tr><td>Ayşe</td><td>21 Aralık</td><td>225 cm</td><td>9 saat 05 dakika</td></tr><tr><td>Pablo</td><td>21 Mart</td><td>70 cm</td><td>12 saat</td></tr><tr><td>Pablo</td><td>21 Aralık</td><td>21 cm</td><td>14 saat 25 dakika</td></tr></table>",
   secenekler: [
     "Ayşe'nin şehrinde gündüz süresi uzar, birim yüzeye düşen enerji artar.",
     "Pablo'nun şehrinde gündüz süresi kısalır, birim yüzeye düşen enerji azalır.",
@@ -1381,13 +1382,13 @@ Cevap B.`
   ],
   dogru: 3,
   hatalar: [
-    "Tabloyu ters okuma: Ayşe'nin gölgesi 84 cm'den 200 cm'e uzamış, gündüzü 12 saatten 9 saat 15 dakikaya inmiştir; ışınlar eğikleşmiş, enerji azalmıştır.",
+    "Tabloyu ters okuma: Ayşe'nin gölgesi 92 cm'den 225 cm'e uzamış, gündüzü 12 saatten 9 saat 05 dakikaya inmiştir; ışınlar eğikleşmiş, enerji azalmıştır.",
     "Pablo'nun verisini Ayşe'ninkiyle karıştırma: Pablo'nun gölgesi 70 cm'den 21 cm'e kısalmış, gündüzü 12 saatten 14 saat 25 dakikaya çıkmıştır.",
     "Yarı doğru okuma: Ayşe'nin gündüzü gerçekten kısalmıştır; ama gölgesi uzadığı için ışınlar eğikleşmiş ve birim yüzeye düşen enerji azalmıştır, artmamıştır.",
     null
   ],
   aciklama: `Kısa gölge, ışınların daha dik düştüğünü ve birim yüzeye daha çok enerji geldiğini gösterir. Gündüz süresi 12 saatten uzunsa o yer ilkbahar ya da yaz yarım küresindedir.
-Adım 1 (Ayşe): Gölge 84 cm'den 200 cm'e uzamıştır; ışınlar eğikleşmiş, birim yüzeye düşen enerji azalmıştır. Gündüz de 12 saatten 9 saat 15 dakikaya inmiştir. A ve C yanlıştır.
+Adım 1 (Ayşe): Gölge 92 cm'den 225 cm'e uzamıştır; ışınlar eğikleşmiş, birim yüzeye düşen enerji azalmıştır. Gündüz de 12 saatten 9 saat 05 dakikaya inmiştir. A ve C yanlıştır.
 Adım 2 (Pablo): Gölge 70 cm'den 21 cm'e kısalmıştır; ışınlar dikleşmiş, birim yüzeye düşen enerji artmıştır. Gündüz 12 saatten 14 saat 25 dakikaya çıkmıştır.
 Adım 3: Pablo'da hem gündüz uzamış hem enerji artmıştır; yani Pablo 21 Aralık'ta yaz yaşayan Güney Yarım Küre'dedir. D doğru, B yanlıştır.
 Sağlama: Aynı dönemde Ayşe'de kış başlamıştır; kısa gündüz ve uzun gölge aynı yarım küreyi gösterir.
@@ -1459,12 +1460,12 @@ Cevap A.`
   kazanim: "F.8.1.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `P ve R şehirlerinde, 21 Haziran ile 21 Aralık günlerinde bulutsuz havada öğle vakti birim yüzeye düşen ışık enerjisi ve gündüz süresi ölçülmüş; sonuçlar tabloya yazılmıştır.
+  soru: `P, R ve S şehirlerinde, 21 Haziran ile 21 Aralık günlerinde bulutsuz havada öğle vakti birim yüzeye düşen ışık enerjisi ve gündüz süresi ölçülmüş; sonuçlar tabloya yazılmıştır.
 I. P ve R şehirleri farklı yarım kürelerdedir.
 II. R şehrinde 21 Aralık'ta öğle ışınları 21 Haziran'dakinden daha dik düşer.
-III. İki şehirde de gündüz süresinin uzun olduğu tarihte birim yüzeye düşen enerji daha fazla ölçülmüştür.
+III. S şehrinde yaz ile kış arasındaki fark, P ve R şehirlerindekinden daha az hissedilir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>Tarih</th><th>Birim yüzeye düşen enerji (birim)</th><th>Gündüz süresi</th></tr><tr><td>P</td><td>21 Haziran</td><td>90</td><td>15 saat</td></tr><tr><td>P</td><td>21 Aralık</td><td>35</td><td>9 saat</td></tr><tr><td>R</td><td>21 Haziran</td><td>30</td><td>9 saat</td></tr><tr><td>R</td><td>21 Aralık</td><td>88</td><td>15 saat</td></tr></table>",
+  gorsel: "<table class=\"tablo\"><tr><th>Şehir</th><th>Tarih</th><th>Birim yüzeye düşen enerji (birim)</th><th>Gündüz süresi</th></tr><tr><td>P</td><td>21 Haziran</td><td>90</td><td>15 saat</td></tr><tr><td>P</td><td>21 Aralık</td><td>35</td><td>9 saat</td></tr><tr><td>R</td><td>21 Haziran</td><td>30</td><td>9 saat</td></tr><tr><td>R</td><td>21 Aralık</td><td>88</td><td>15 saat</td></tr><tr><td>S</td><td>21 Haziran</td><td>87</td><td>12 saat 10 dakika</td></tr><tr><td>S</td><td>21 Aralık</td><td>85</td><td>11 saat 50 dakika</td></tr></table>",
   secenekler: [
     "Yalnız I",
     "Yalnız II",
@@ -1473,17 +1474,17 @@ III. İki şehirde de gündüz süresinin uzun olduğu tarihte birim yüzeye dü
   ],
   dogru: 3,
   hatalar: [
-    "II. yargıyı gözden kaçırma: R'de birim yüzeye düşen enerji Aralık'ta çok olduğundan ışınlar o tarihte daha diktir. III. yargıyı gözden kaçırma: P'de 15 saatlik gündüzle 90, R'de 15 saatlik gündüzle 88 birim ölçülmüştür; uzun gündüz ile fazla enerji birlikte görülür.",
-    "I. yargıyı gözden kaçırma: P'de yaz Haziran'da, R'de yaz Aralık'ta yaşandığından iki şehir zıt yarım kürelerdedir. III. yargıyı gözden kaçırma: P'de 15 saatlik gündüzle 90, R'de 15 saatlik gündüzle 88 birim ölçülmüştür; uzun gündüz ile fazla enerji birlikte görülür.",
-    "III. yargıyı gözden kaçırma: P'de 15 saatlik gündüzle 90, R'de 15 saatlik gündüzle 88 birim ölçülmüştür; uzun gündüz ile fazla enerji birlikte görülür.",
+    "II. yargıyı gözden kaçırma: R'de birim yüzeye düşen enerji Aralık'ta çok olduğundan ışınlar o tarihte daha diktir. III. yargıyı gözden kaçırma: S'de enerji 87 ile 85, gündüz 12 saat 10 dakika ile 11 saat 50 dakika arasında kalır; iki tarih arasındaki fark P ve R'deki büyük farkların yanında çok küçüktür.",
+    "I. yargıyı gözden kaçırma: P'de yaz Haziran'da, R'de yaz Aralık'ta yaşandığından iki şehir zıt yarım kürelerdedir. III. yargıyı gözden kaçırma: S'de enerji 87 ile 85, gündüz 12 saat 10 dakika ile 11 saat 50 dakika arasında kalır; iki tarih arasındaki fark P ve R'deki büyük farkların yanında çok küçüktür.",
+    "III. yargıyı gözden kaçırma: S'de enerji 87 ile 85, gündüz 12 saat 10 dakika ile 11 saat 50 dakika arasında kalır; iki tarih arasındaki fark P ve R'deki büyük farkların yanında çok küçüktür. Fark küçükse mevsimler silik yaşanır.",
     null
   ],
-  aciklama: `Yaz mevsiminde gündüz uzar ve ışınlar daha dik düşer; ikisi birlikte birim yüzeye düşen enerjiyi artırır.
-Adım 1 (I. yargı): P'de yaz Haziran'da, R'de yaz Aralık'ta yaşandığından iki şehir zıt yarım kürelerdedir. I. yargı doğrudur.
-Adım 2 (II. yargı): R'de birim yüzeye düşen enerji Aralık'ta çok olduğundan ışınlar o tarihte daha diktir. II. yargı doğrudur.
-Adım 3 (III. yargı): P'de 15 saatlik gündüzle 90, R'de 15 saatlik gündüzle 88 birim ölçülmüştür; uzun gündüz ile fazla enerji birlikte görülür. III. yargı doğrudur.
+  aciklama: `Yaz mevsiminde gündüz uzar ve ışınlar daha dik düşer; ikisi birlikte birim yüzeye düşen enerjiyi artırır. Yaz ile kış arasındaki fark ne kadar büyükse mevsimler o kadar belirgin yaşanır.
+Adım 1 (I. yargı): P'de enerji ve gündüz Haziran'da, R'de Aralık'ta en yüksektir; yani P'de yaz Haziran'da, R'de yaz Aralık'ta yaşanır. İki şehir zıt yarım kürelerdedir. I. yargı doğrudur.
+Adım 2 (II. yargı): R'de birim yüzeye düşen enerji Aralık'ta (88) Haziran'dakinden (30) çok daha fazladır; aynı enerji daha dar alana düştüğü için ışınlar o tarihte daha diktir. II. yargı doğrudur.
+Adım 3 (III. yargı): S'de enerji iki tarihte 87 ile 85, gündüz 12 saat 10 dakika ile 11 saat 50 dakika arasında kalır; yıl boyunca hemen hemen aynıdır. P ve R'de ise enerji 90'dan 35'e, gündüz 15 saatten 9 saate iner. Fark küçük olduğu için S'de mevsimler P ve R'dekinden daha az hissedilir; S Ekvator'a yakın bir şehirdir. III. yargı doğrudur.
 Adım 4: Doğru yargılar I ve II ve III.
-Sık yapılan hata: Tablodaki verilerden yalnız birini yorumlayıp öbürünü atlamak. Gündüz süresi, enerji ve ışın açısı birbirini destekleyen üç ipucudur.
+Sık yapılan hata: S'nin iki tarihteki değerlerinin "birbirine yakın" olmasını "veri eksik" sanıp III'ü yanlış saymak. Yakın değerler tam da mevsim farkının az olduğunu gösterir.
 Cevap D.`
 },
 {

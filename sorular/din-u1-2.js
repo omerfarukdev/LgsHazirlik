@@ -38,14 +38,14 @@ Selin, kendi kendine öğrenmeye başladığı bağlamayı iyi çalabilmek için
 **Buna göre ayet ile Selin'in tutumundan ortak olarak aşağıdakilerin hangisine ulaşılır?**`,
   gorsel: null,
   secenekler: [
-    "İnsanın harcadığı çaba, kaderini tamamen kendi isteğine göre belirler.",
+    "Çabasının karşılığını alan kişi, bu sonucu kendi gücünden bilmelidir.",
     "İnsanın ulaştığı sonuç, ortaya koyduğu çabayla doğrudan ilişkilidir.",
     "Bir işte istediğini elde edemeyen kişi, o işi bırakıp sonucu kabullenmelidir.",
     "Çalışmanın karşılığı, yalnızca bu dünyada görülebilecek bir kazançtır."
   ],
   dogru: 1,
   hatalar: [
-    "Cüz'î iradeyi küllî irade sanma: insan seçer ve çalışır, ancak sonucu yaratan ve her şeyi ölçüyle belirleyen Allah'tır.",
+    "Sonucu kendi gücüne bağlama: insan seçer ve çalışır, ancak sonucu yaratan Allah'tır; ne ayet ne de Selin'in tutumu sonucu kendinden bilmeyi öğütler.",
     null,
     "Sonucu kadere havale edip çabayı bırakma: ayet çalışmayı över, çalışmaktan vazgeçmeyi değil.",
     "Ayetin \"ileride görülecektir\" kısmını atlama: çalışmanın karşılığı yalnızca dünyayla sınırlı değildir."
@@ -54,7 +54,7 @@ Selin, kendi kendine öğrenmeye başladığı bağlamayı iyi çalabilmek için
 Adım 1: Ayeti sadeleştir. "İnsan için ancak çalıştığının karşılığı vardır." cümlesi, elde edilen sonucun harcanan emekle bağlantılı olduğunu söyler.
 Adım 2: Örnek olaya bak. Selin aylarca düzenli alıştırma yapmış ve topluluğa seçilmiştir. Burada da sonuç, emeğin ardından gelmiştir.
 Adım 3: Ayet ile örnek olayın ortak noktası budur: insanın ulaştığı sonuç, ortaya koyduğu çabayla doğrudan ilişkilidir.
-Adım 4: Diğer seçenekleri ele. İnsanın çabası kaderi "tamamen belirlemez"; çünkü yaratma Allah'a aittir. Ayet, sonucu alamayan kişinin çabayı bırakmasını da söylemez. Ayrıca "çalışması ileride görülecektir" ifadesi, karşılığın yalnızca dünyayla sınırlı olmadığını gösterir.
+Adım 4: Diğer seçenekleri ele. Çaba insanındır, ancak sonucu yaratan Allah'tır; ayet de Selin'in tutumu da sonucu kendi gücünden bilmeyi öğütlemez. Ayet, sonucu alamayan kişinin çabayı bırakmasını da söylemez. Ayrıca "çalışması ileride görülecektir" ifadesi, karşılığın yalnızca dünyayla sınırlı olmadığını gösterir.
 Sağlama: Selin hiç alıştırma yapmasaydı aynı sonuca ulaşması beklenmezdi. Bu, emek ile sonuç arasındaki bağı doğrular.
 Cevap B.`
 },
@@ -70,7 +70,7 @@ Cevap B.`
     "Kendisine bildirilen söze güvenip tedbir almaya gerek duymamasına",
     "Elinden geleni yaptıktan sonra sonucu kendi gücüne bağlamasına",
     "Çocuğunu suya bıraktıktan sonra onu büsbütün gözden çıkarmasına",
-    "Gereken tedbirleri aldıktan sonra sonucu Allah'a bırakmasına"
+    "Verilen söze güvenmekle birlikte çocuğunu koruyacak önlemleri de almasına"
   ],
   dogru: 3,
   hatalar: [
@@ -82,7 +82,7 @@ Cevap B.`
   aciklama: `Tevekkül, gerekli tedbirleri aldıktan sonra sonucu Allah'a bırakmaktır. Tedbirsiz bekleyiş tevekkül değildir.
 Adım 1: Annenin yaptıklarını sırala. Bebeğini emzirmiş, bir sandık hazırlamış, sandığı suya bırakmış, sonra kızını "Onu takip et." diyerek göndermiştir. Bunların hepsi düşünülmüş birer tedbirdir.
 Adım 2: Annenin dayandığı güvene bak. "Korkma, üzülme; biz onu sana geri döndüreceğiz." sözüne inanmıştır. Yani sonucu Allah'a bırakmıştır.
-Adım 3: Bu iki şeyin bir arada olması tevekküldür: önce elinden geleni yapmak, sonra Allah'a güvenmek.
+Adım 3: Bu iki şeyin bir arada olması tevekküldür: verilen söze güvenmek, ama güvenirken çocuğunu koruyacak önlemleri de almak.
 Adım 4: Diğer seçenekleri metinle karşılaştır. Anne tedbir almadan durmamıştır; sandık da suya bırakma da kızını göndermek de birer tedbirdir. Sonucu yalnızca kendi gücüne de bağlamamıştır; dayandığı şey "Korkma, üzülme; biz onu sana geri döndüreceğiz." sözüdür. Çocuğunu gözden çıkarmadığı ise "Onu takip et." demesinden bellidir.
 Sık yapılan hata: Kıssalarda yalnızca sonuca bakıp ona giden adımları atlamak. Burada güvenin yanında hazırlık, hazırlığın yanında da güven vardır; biri olmadan öteki tevekkül olmaz.
 Cevap D.`
@@ -215,7 +215,7 @@ I. Hz. Musa'nın kavmi, deniz kenarında Allah'a duydukları güveni dile getirm
 II. Hz. Musa, güç bir durumda bile Allah'ın yardımından umut kesmemiştir.
 III. Kurtuluş, Hz. Musa'nın kendisine bildirilen emri yerine getirmesinin ardından gerçekleşmiştir.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
-  gorsel: `<svg viewBox="0 0 560 250" role="img" aria-label="Hz. Musa ve kavminin arkasında Firavun'un ordusu, önlerinde deniz"><line x1="20" y1="185" x2="400" y2="185" stroke="currentColor" stroke-width="2"/><rect x="26" y="104" width="112" height="81" rx="6" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/><rect x="216" y="118" width="112" height="67" rx="6" fill="none" stroke="var(--vurgu)" stroke-width="3"/><g stroke="var(--vurgu2)" stroke-width="3" fill="none"><path d="M404 126 q 18 -13 36 0 t 36 0 t 36 0 t 36 0"/><path d="M404 152 q 18 -13 36 0 t 36 0 t 36 0 t 36 0"/><path d="M404 178 q 18 -13 36 0 t 36 0 t 36 0 t 36 0"/><path d="M404 204 q 18 -13 36 0 t 36 0 t 36 0 t 36 0"/></g><g stroke="currentColor" stroke-width="3"><line x1="150" y1="144" x2="204" y2="144"/><line x1="204" y1="144" x2="194" y2="138"/><line x1="204" y1="144" x2="194" y2="150"/></g><g fill="currentColor" font-size="15" text-anchor="middle"><text x="82" y="146" font-weight="bold">Firavun'un</text><text x="82" y="166" font-weight="bold">ordusu</text><text x="272" y="146" font-weight="bold">Hz. Musa</text><text x="272" y="166" font-weight="bold">ve kavmi</text><text x="480" y="232" font-weight="bold">Deniz</text><text x="177" y="130">yaklaşıyor</text><text x="280" y="34">Arkada ordu, önde deniz; geçilecek başka yol yok.</text></g></svg>`,
+  gorsel: null,
   secenekler: ["Yalnız II", "Yalnız III", "I ve II", "II ve III"],
   dogru: 3,
   hatalar: [
@@ -226,7 +226,7 @@ III. Kurtuluş, Hz. Musa'nın kendisine bildirilen emri yerine getirmesinin ard�
   ],
   aciklama: `Bu olayda üç aşama vardır: umutsuzluk, güven ve harekete geçme. Yargıları bu üç aşamaya göre kontrol et.
 Adım 1: I. yargıyı kontrol et. Kavmin sözü "Eyvah, yakalandık!" şeklindedir. Bu bir güven ifadesi değil, umutsuzluk ifadesidir. I. yargı yanlıştır.
-Adım 2: II. yargıyı kontrol et. Hz. Musa aynı anda "Hayır! Rabbim şüphesiz benimledir, bana yol gösterecektir." demiştir. Görselde de görüldüğü gibi arkada ordu, önde deniz vardır; yani durum son derece güçtür. Buna rağmen umut kesmemiştir. II. yargı doğrudur.
+Adım 2: II. yargıyı kontrol et. Hz. Musa aynı anda "Hayır! Rabbim şüphesiz benimledir, bana yol gösterecektir." demiştir. Metne göre arkada ordu, önde deniz vardır; yani durum son derece güçtür. Buna rağmen umut kesmemiştir. II. yargı doğrudur.
 Adım 3: III. yargıyı kontrol et. Deniz kendiliğinden yarılmamıştır; Hz. Musa'ya "Asan ile denize vur." denmiş, o da bunu yapmıştır. Kurtuluş bu adımın ardından gelmiştir. III. yargı doğrudur.
 Adım 4: Doğru yargılar II ve III'tür.
 Sağlama: Bu kıssa tevekkülün iki yanını birlikte gösterir: Allah'a güvenmek ve üzerine düşeni yapmak. Biri olmadan diğeri tam olmaz.
@@ -237,27 +237,12 @@ Cevap D.`
   kazanim: "DKAB.8.1.3",
   kademe: 3,
   zorluk: 4,
-  soru: `Aynı hastalığın teşhisi konulan üç kişinin doktor muayenesinden sonraki tutumları aşağıdaki tabloda verilmiştir.
-I. Yasin'in tutumunda tedbire başvurmak ile şifayı Allah'tan bilmek bir aradadır.
-II. Melike ile Kerem, gerekçeleri farklı olsa da şifa için sebeplere sarılmamıştır.
-III. Bir hastalık için tedavi aramak, kadere razı olmamak anlamına gelir.
-**Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
+  soru: "Kendilerine aynı hastalık teşhisi konulan üç kişinin doktor muayenesinden sonraki tutumları aşağıdaki tabloda verilmiştir.\nI. Yasin'in tutumunda tedbire başvurmak ile şifayı Allah'tan bilmek bir aradadır.\nII. Melike ile Kerem, gerekçeleri farklı olsa da kendilerine verilen tedaviyi uygulamamıştır.\nIII. Bir hastalık için tedavi aramak, kadere razı olmamak anlamına gelir.\n**Buna göre yukarıdaki yargılardan hangileri doğrudur?**",
   gorsel: `<table class="tablo"><tr><th>Kişi</th><th>Teşhisten sonraki tutumu</th></tr><tr><td>Yasin</td><td>Verilen tedaviyi aksatmadan uyguladı; "Şifayı veren Allah'tır, bana düşen sebeplere sarılmaktır." dedi.</td></tr><tr><td>Melike</td><td>"Bu hastalık kaderimde varmış, ilaç kullansam da değişmez." diyerek ilaçlarını bıraktı.</td></tr><tr><td>Kerem</td><td>"İlaç kullanmama gerek yok, dua etmem yeter." diyerek reçetedeki ilaçları hiç kullanmadı.</td></tr></table>`,
   secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
   dogru: 2,
-  hatalar: [
-    "II. yargıyı atlama: Melike ilaçlarını bırakmış, Kerem ise hiç kullanmamıştır; ikisi de şifa için sebeplere sarılmamıştır.",
-    "I. yargıyı yanlış sayma: Yasin hem tedaviyi sürdürmüş hem şifayı Allah'tan bilmiştir; bu, tedbir ile tevekkülün birlikteliğidir.",
-    null,
-    "III. yargıyı doğru sayma: tedavi aramak kadere razı olmamak değildir; Hz. Peygamber \"Ey Allah'ın kulları, tedavi olun.\" buyurmuştur."
-  ],
-  aciklama: `Sağlık ve hastalık, kaderle ilgili kavramlardandır. İslam'a göre şifayı veren Allah'tır; ancak insandan tedaviye başvurması, yani sebeplere sarılması istenir.
-Adım 1: I. yargıyı kontrol et. Yasin tedaviyi aksatmadan uygulamış, aynı zamanda şifayı Allah'tan bilmiştir. Tedbir ile tevekkül onda bir aradadır. Doğrudur.
-Adım 2: II. yargıyı kontrol et. Melike "kaderimde varmış" diyerek ilaçlarını bırakmış, Kerem ise "dua etmem yeter" diyerek ilaçları hiç kullanmamıştır. Gerekçeleri farklıdır, fakat ikisi de aynı yere varmış ve şifa için sebeplere sarılmamıştır. Doğrudur.
-Adım 3: III. yargıyı kontrol et. Tedavi olmak kadere karşı gelmek değildir; Allah her hastalık için bir şifa sebebi yaratmıştır ve insandan bu sebepleri aramasını ister. Bu yargı yanlıştır.
-Adım 4: Doğru yargılar I ve II'dir.
-Sık yapılan hata: Duayı tedbirin yerine koymak. Dua ile tedavi birbirinin alternatifi değildir; birlikte yapılır.
-Cevap C.`
+  hatalar: ["II. yargıyı atlama: Melike ilaçlarını bırakmış, Kerem ise hiç kullanmamıştır; ikisi de kendisine verilen tedaviyi uygulamamıştır.","I. yargıyı yanlış sayma: Yasin hem tedaviyi sürdürmüş hem şifayı Allah'tan bilmiştir; bu, tedbir ile tevekkülün birlikteliğidir.",null,"III. yargıyı doğru sayma: tedavi aramak kadere razı olmamak değildir; Hz. Peygamber \"Ey Allah'ın kulları, tedavi olun.\" buyurmuştur."],
+  aciklama: "Sağlık ve hastalık, kaderle ilgili kavramlardandır. İslam'a göre şifayı veren Allah'tır; ancak insandan tedaviye başvurması, yani sebeplere sarılması istenir.\nAdım 1: I. yargıyı kontrol et. Yasin tedaviyi aksatmadan uygulamış, aynı zamanda şifayı Allah'tan bilmiştir. Tedbir ile tevekkül onda bir aradadır. Doğrudur.\nAdım 2: II. yargıyı kontrol et. Melike \"kaderimde varmış\" diyerek ilaçlarını bırakmış, Kerem ise \"dua etmem yeter\" diyerek ilaçları hiç kullanmamıştır. Gerekçeleri farklıdır, fakat ikisi de aynı yere varmış ve kendisine verilen tedaviyi uygulamamıştır. Kerem'in dua etmesi tedavinin yerini tutmaz. Doğrudur.\nAdım 3: III. yargıyı kontrol et. Tedavi olmak kadere karşı gelmek değildir; Allah her hastalık için bir şifa sebebi yaratmıştır ve insandan bu sebepleri aramasını ister. Bu yargı yanlıştır.\nAdım 4: Doğru yargılar I ve II'dir.\nSık yapılan hata: Duayı tedbirin yerine koymak. Dua ile tedavi birbirinin alternatifi değildir; birlikte yapılır.\nCevap C."
 },
 {
   id: "din-u1-310",
@@ -347,20 +332,20 @@ Cevap A.`
     "Rızık, hiç çalışılmasa da insanın ayağına kendiliğinden gelir.",
     "Helal kazanç için emek harcamak değerli bir davranıştır.",
     "Yalnızca çok kazanan kişiler bereketli bir rızka ulaşabilir.",
-    "Rızkı veren Allah olduğu için çalışmaya gerek duyulmaz."
+    "Beden gücüyle yapılan işler, zihin gücüyle yapılanlardan daha hayırlıdır."
   ],
   dogru: 1,
   hatalar: [
     "Rızkı beklemekle elde edileceğini sanma: hadis, kazancın emekle elde edilmesini över.",
     null,
     "Rızkı kazancın büyüklüğüyle ölçme: hadiste övülen, kazancın miktarı değil emeğe dayanması ve helal olmasıdır.",
-    "Tevekkülü tembellikle karıştırma: rızkı veren Allah'tır, ancak insandan sebeplere sarılması istenir."
+    "\"Elinin emeği\" ifadesini sözcük anlamıyla okuma: bu söz kişinin kendi çalışmasını anlatır; beden işi ile zihin işi arasında bir üstünlük sıralaması yapmaz."
   ],
   aciklama: `Rızkı veren Allah'tır; fakat Allah rızkı çalışma sebebine bağlamıştır. Bu yüzden İslam'da emek ve helal kazanç değerlidir.
 Adım 1: Hadisin anahtar ifadesini bul: "elinin emeğiyle kazandığından daha hayırlı". Burada övülen şey, kazancın emeğe dayanmasıdır.
 Adım 2: Hadis kazancın miktarından değil, kaynağından söz eder. Az ya da çok olması değil, helal yolla ve emekle elde edilmiş olması önemlidir.
 Adım 3: Öyleyse hadisten çıkan sonuç, helal kazanç için emek harcamanın değerli olduğudur.
-Adım 4: Diğer seçenekler hadisin söylediğinin tersine, çalışmayı gereksiz ya da rızkı kazanç miktarına bağlı gösterir.
+Adım 4: Diğer seçenekleri ele. Rızkın çalışmadan geleceğini söylemek hadisin tersidir; rızkı kazancın miktarına bağlamak da hadiste yoktur. "Elinin emeği" sözü ise kişinin kendi çalışmasını anlatır; hadis beden işi ile zihin işi arasında bir üstünlük sıralaması yapmaz.
 Sık yapılan hata: "Rızkı Allah veriyorsa çalışmaya ne gerek var?" demek. Çalışmak, rızkın önüne konan sebeptir; Allah sebeplere sarılmayı emreder.
 Cevap B.`
 },
@@ -457,28 +442,28 @@ Cevap C.`
   kazanim: "DKAB.8.1.1",
   kademe: 0,
   zorluk: 3,
-  soru: `Allah'ın evrene koyduğu değişmez yasalara sünnetullah denir. Bir ayette, "Sen, Allah'ın kanununda hiçbir değişiklik bulamazsın." (Fâtır suresi, 43. ayet) buyrulmaktadır. Aşağıdaki tabloda bu yasalara ait bazı örnekler verilmiştir.
-**Buna göre tablodaki örnekler için aşağıdakilerden hangisi söylenebilir?**`,
+  soru: `Bir ayette, "Sen, Allah'ın kanununda hiçbir değişiklik bulamazsın." (Fâtır suresi, 43. ayet) buyrulmaktadır. Aşağıdaki tabloda, ayette sözü edilen kanuna ait bazı örnekler verilmiştir.
+**Buna göre ayet ve tablodaki örnekler birlikte düşünüldüğünde aşağıdakilerden hangisine ulaşılır?**`,
   gorsel: `<table class="tablo"><tr><th>Örnek</th><th>Yasa türü</th></tr><tr><td>Suyun deniz seviyesinde 100 °C'de kaynaması</td><td>Fiziksel</td></tr><tr><td>Tohumun uygun ısı ve nemde çimlenmesi</td><td>Biyolojik</td></tr><tr><td>Birlik ve dayanışma içindeki toplumların güçlenmesi</td><td>Toplumsal</td></tr></table>`,
   secenekler: [
     "Bu yasalar, insanların istek ve beklentilerine göre değişebilir.",
-    "Bu yasalar, Allah'ın evrene koyduğu ölçünün birer görünümüdür.",
-    "Bu yasalar, yalnızca insanın etkileyemediği olaylarda geçerlidir.",
-    "Bu yasalar, toplum hayatında herhangi bir karşılık bulmamaktadır."
+    "Bu yasalar, doğa olaylarının yanı sıra toplum hayatında da işlemektedir.",
+    "Bu yasalar, canlı varlıklarla ilgili olaylarda geçerli değildir.",
+    "Bu yasalar, yalnızca Allah'a inanan kimseler için geçerli olmaktadır."
   ],
   dogru: 1,
   hatalar: [
-    "Sünnetullahı insanın isteğiyle değişir sanma: ayet, Allah'ın koyduğu yasada değişiklik bulunmayacağını bildirir.",
+    "Sünnetullahı insanın isteğiyle değişir sanma: ayet, Allah'ın kanununda değişiklik bulunmayacağını bildirir.",
     null,
-    "Sünnetullahı doğa olaylarıyla sınırlama: tablodaki üçüncü örnek, insanın içinde yer aldığı toplumsal bir yasayı gösterir.",
-    "Toplumsal yasaları yok sayma: toplumların güçlenmesi de zayıflaması da belli sebeplere bağlıdır."
+    "Sünnetullahı cansız doğayla sınırlama: tablodaki tohumun çimlenmesi canlılarla, toplumların güçlenmesi insanla ilgili birer yasadır.",
+    "Sünnetullahı inananlara özgü sanma: su, inanan için de inanmayan için de aynı sıcaklıkta kaynar; bu yasalar herkes için geçerlidir."
   ],
-  aciklama: `Sünnetullah, Allah'ın evrende geçerli kıldığı değişmez yasalardır. Bu yasalar fiziksel, biyolojik ve toplumsal alanlarda işler. Kader inancı da her şeyin bir ölçüye göre yaratılmış olmasıyla ilgilidir.
-Adım 1: Tablodaki ilk örneği incele. Su, deniz seviyesinde her zaman 100 °C'de kaynar. Bu bir fiziksel yasadır ve kimsenin isteğiyle değişmez.
-Adım 2: İkinci örneği incele. Tohum uygun ısı ve nem bulunca çimlenir. Bu bir biyolojik yasadır.
-Adım 3: Üçüncü örneği incele. Birlik ve dayanışma içindeki toplumlar güçlenir. Bu da toplumsal bir yasadır; demek ki sünnetullah yalnızca doğayla sınırlı değildir.
-Adım 4: Üç örneğin ortak yanı, hepsinin Allah'ın evrene koyduğu ölçü ve yasaların birer görünümü olmasıdır.
-Sağlama: Ayet "hiçbir değişiklik bulamazsın" diyor. Yasaların sürekliliği, evrenin düzenli ve öngörülebilir olmasını sağlar.
+  aciklama: `Allah'ın evrene koyduğu değişmez yasalara sünnetullah denir. Bu yasalar fiziksel, biyolojik ve toplumsal alanlarda işler. Kader inancı da her şeyin bir ölçüye göre yaratılmış olmasıyla ilgilidir.
+Adım 1: Ayeti oku. "Hiçbir değişiklik bulamazsın" ifadesi, bu yasaların kimsenin isteğiyle değişmediğini söyler. Öyleyse A yanlıştır.
+Adım 2: Tablodaki alanları ayır. Suyun kaynaması cansız doğayla, tohumun çimlenmesi canlılarla, toplumların güçlenmesi ise insan topluluklarıyla ilgilidir. Yani yasalar yalnızca cansız doğada işlemez; C yanlıştır.
+Adım 3: Üçüncü satıra dikkat et. Birlik ve dayanışma içindeki toplumların güçlenmesi bir doğa olayı değil, toplumsal bir olaydır. Demek ki bu yasalar toplum hayatında da işler. B'ye ulaşılır.
+Adım 4: D'yi kontrol et. Suyun 100 °C'de kaynaması ya da tohumun çimlenmesi insanın inancına bakmaz; bu yasalar herkes için geçerlidir. Tabloda inanca bağlı bir örnek de yoktur.
+Sağlama: Tablonun "yasa türü" sütunu üç ayrı alan sayar: fiziksel, biyolojik, toplumsal. Üçünü birden kapsayan tek seçenek B'dir.
 Cevap B.`
 },
 {
@@ -487,24 +472,24 @@ Cevap B.`
   kademe: 0,
   zorluk: 4,
   soru: `Bir yazılım yarışmasına aynı takımda katılan İrem ile Tuna, finalde ikinci olmuştur. İrem, "Elimizden gelenin en iyisini yaptık; sonucu Allah'tan bilirim, eksiğimizi gelecek yıl tamamlarız." demiştir. Tuna ise "Ne yapsak boştu; bizim kaderimizde kazanmak yokmuş." demiştir.
-I. İrem, başarıyı da başarısızlığı da insanın çabasından bağımsız görmektedir.
-II. Tuna, sonucun sorumluluğunu tümüyle kadere yüklemektedir.
+I. Tuna, sonucun sorumluluğunu tümüyle kadere yüklemektedir.
+II. İrem, başarıyı da başarısızlığı da insanın çabasından bağımsız görmektedir.
 III. İrem'in sözleri, sonucu kabullenmekle yeniden çalışmayı birlikte barındırmaktadır.
 **Buna göre yukarıdaki yargılardan hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız II", "Yalnız III", "I ve II", "II ve III"],
+  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "I ve III"],
   dogru: 3,
   hatalar: [
     "III. yargıyı atlama: İrem yalnızca sonucu kabullenmemiş, \"eksiğimizi gelecek yıl tamamlarız.\" diyerek çalışmayı sürdüreceğini de söylemiştir.",
-    "II. yargıyı yanlış sayma: Tuna \"Ne yapsak boştu.\" diyerek sonucun sorumluluğunu tümüyle kadere yüklemiştir.",
-    "I. yargıyı doğru sayma: İrem \"Elimizden gelenin en iyisini yaptık.\" diyerek çabanın önemini açıkça vurgulamıştır.",
+    "I. yargıyı yanlış sayma: Tuna \"Ne yapsak boştu.\" diyerek sonucun sorumluluğunu tümüyle kadere yüklemiştir.",
+    "II. yargıyı doğru sayma: İrem \"Elimizden gelenin en iyisini yaptık.\" diyerek çabanın önemini açıkça vurgulamıştır.",
     null
   ],
   aciklama: `Başarı ve başarısızlık kaderle ilgili kavramlardandır. İslam'a göre insan çabasından sorumludur; sonucu ise Allah'tan bilir. Çabayı yok sayıp her şeyi kadere yüklemek yanlış bir anlayıştır.
-Adım 1: I. yargıyı kontrol et. İrem "Elimizden gelenin en iyisini yaptık." diyerek çabaya vurgu yapmıştır. Çabayı önemsizleştirmemiştir; bu yargı yanlıştır.
-Adım 2: II. yargıyı kontrol et. Tuna "Ne yapsak boştu; kaderimizde kazanmak yokmuş." demiştir. Bu söz, sonucun sorumluluğunu tümüyle kadere yükler. Doğrudur.
+Adım 1: I. yargıyı kontrol et. Tuna "Ne yapsak boştu; kaderimizde kazanmak yokmuş." demiştir. Bu söz, sonucun sorumluluğunu tümüyle kadere yükler. Doğrudur.
+Adım 2: II. yargıyı kontrol et. İrem "Elimizden gelenin en iyisini yaptık." diyerek çabaya vurgu yapmıştır. Çabayı önemsizleştirmemiştir; bu yargı yanlıştır.
 Adım 3: III. yargıyı kontrol et. İrem hem "sonucu Allah'tan bilirim" diyerek sonucu kabullenmiş hem de "eksiğimizi gelecek yıl tamamlarız" diyerek çalışmayı sürdüreceğini belirtmiştir. İkisi bir aradadır; doğrudur.
-Adım 4: Doğru yargılar II ve III'tür.
+Adım 4: Doğru yargılar I ve III'tür.
 Sık yapılan hata: Bir yarışmayı kaybedince "kaderimde yokmuş" deyip eksiği araştırmamak. Kadere iman, eksiği görüp gidermeye engel değildir.
 Cevap D.`
 }

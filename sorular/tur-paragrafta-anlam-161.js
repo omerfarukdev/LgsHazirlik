@@ -153,19 +153,19 @@ Cevap A.`
 
 **Bu parçaya aşağıdaki başlıklardan hangisi verilebilir?**`,
   gorsel: null,
-  secenekler: ["Belediyelerin Elektrik Faturası", "Aydınlatmada Eskiye Dönüş", "LED Aydınlatmanın Şehre Katkıları", "Bakım Ekiplerinin Çalışma Düzeni"],
+  secenekler: ["Belediyelerin Elektrik Faturası", "Aydınlatmada Eskiye Dönüş", "LED Aydınlatmanın Şehre Katkıları", "LED Lambaların Uzun Ömrü"],
   dogru: 2,
   hatalar: [
     "Kısmen doğru: fatura düşüşü metinde geçer, ama parçanın yalnızca bir yönüdür; başlık dar kalıyor.",
     "Ters yön: şehirler eski lambaları bırakıp LED'e geçiyor; eskiye dönüş yok.",
     null,
-    "Metinde var ama ilgisiz: bakım ekiplerinin işinin azalması bir ayrıntıdır; parçanın bütününü karşılamaz."
+    "Metinde var ama ilgisiz: ömrün uzun olması yararlardan yalnızca biridir; \"LED\" sözcüğü geçiyor diye başlık bütünü karşılamaz."
   ],
   aciklama: `Adım 1: Önce ana fikri bir cümleyle yaz: "LED lambalara geçmek şehre hem tasarruf hem de başka yararlar sağlıyor."
 Adım 2: Her başlığa sor: "Parçanın tamamını mı karşılıyor, bir parçasını mı? Daha geniş mi, daha dar mı?"
-Adım 3: A (fatura) ve D (bakım ekibi) parçadaki yararlardan yalnızca birini alıyor; dar kalıyor. B parçanın söylediğinin tersini söylüyor.
+Adım 3: A (fatura) ve D (uzun ömür) parçadaki yararlardan yalnızca birini alıyor; dar kalıyor. B parçanın söylediğinin tersini söylüyor.
 Adım 4: C, fatura, bakım ve ışık kirliliği gibi yararların hepsini "şehre katkı" çatısı altında topluyor.
-Sık yapılan hata: Metinde birkaç kez geçen kavramı (elektrik faturası) başlık yapmak. Başlık, ayrıntıyı değil bütünü anlatmalıdır.
+Sık yapılan hata: Metinde geçen bir kavramı (elektrik faturası, uzun ömür) ya da "LED" sözcüğünü taşıyan ilk şıkkı başlık yapmak. Başlık, ayrıntıyı değil bütünü anlatmalıdır.
 Cevap C.`
 },
 {
@@ -197,7 +197,7 @@ Cevap D.`
   kazanim: "T.8.3.18",
   kademe: 0,
   zorluk: 2,
-  soru: `Kan bağışı, hastanelerde tedavi gören pek çok hasta için hayati önem taşır. Ameliyatların ve kazaların arttığı dönemlerde kan ihtiyacı da yükselir. Bağışlanan kan uzun süre saklanamadığından stokların sürekli yenilenmesi gerekir. Bu yüzden bağışçıların belirli aralıklarla düzenli olarak kan vermesi, yalnızca ihtiyaç anında koşan bağışçılardan daha değerlidir. Bağış öncesinde kısa bir sağlık kontrolü yapılır; böylece hem bağışçı hem de kanı alacak hasta korunmuş olur.
+  soru: `Kan bağışı, hastanelerde tedavi gören pek çok hasta için hayati önem taşır. Ameliyatların ve kazaların arttığı dönemlerde kan ihtiyacı da yükselir. Bağışlanan kan uzun süre saklanamadığından stokların sürekli yenilenmesi gerekir. Bu yüzden belirli aralıklarla düzenli olarak kan veren bağışçılar, yalnızca ihtiyaç anında koşanlardan daha değerlidir. Bağış öncesinde kısa bir sağlık kontrolü yapılır; böylece hem bağışçı hem de kanı alacak hasta korunmuş olur.
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biri __değildir__?**`,
   gorsel: null,
@@ -273,18 +273,18 @@ Cevap A.`
 
 **Bu duyuru aşağıdaki amaçlardan hangisiyle hazırlanmıştır?**`,
   gorsel: null,
-  secenekler: ["Bisiklet satışlarını artırmak için ürün tanıtmak", "Kask kullanımı konusunda okurları uyarmak", "Etkinliğe katılım sağlamak için bilgi vermek", "Bisiklet sporunun tarihçesini aktarmak"],
+  secenekler: ["Bisiklet satışlarını artırmak için ürün tanıtmak", "Kask kullanımı konusunda okurları uyarmak", "Etkinliğe katılım sağlamak için bilgi vermek", "Kulübün haftalık rota takvimini okurlara tanıtmak"],
   dogru: 2,
   hatalar: [
     "Metinde var ama ilgisiz: bisiklet ödünç verilmesi geçer, ama satış ya da ürün tanıtımı yoktur.",
     "Kısmen doğru: kask zorunluluğu duyurunun maddelerinden biridir; duyurunun tamamının amacı bu değildir.",
     null,
-    "Aşırı genelleme: duyuruda bisikletin ya da sporun tarihine dair hiçbir bilgi yok."
+    "Metinde var ama ilgisiz: rota takvimi yalnızca son cümlede, gelenlere dağıtılacak bir ek olarak geçer; duyuru takvimi tanıtmıyor."
   ],
   aciklama: `Adım 1: Medya metninde amacı bulmak için şunu sor: "Okur bu metni okuyunca ne yapsın isteniyor?" Duyurunun amacı çoğunlukla okuru bir etkinliğe katılmaya çağırmak ve gerekli bilgiyi vermektir.
 Adım 2: Metinde zaman, yer, ücret, kural ve katılım şartı var. Bunların hepsi bir etkinliğe gelecek kişiye yöneliktir. Bu amaç C'de.
-Adım 3: A'da satış, D'de tarih yok. B'de kask zorunluluğu var, ama bu yalnızca bir maddedir ve duyurunun tamamını açıklamaz.
-Sık yapılan hata: Metindeki tek bir maddeyi (kask) amaç sanmak. Amaç bütünü açıklar.
+Adım 3: A'da satış yok. B'de kask zorunluluğu, D'de rota takvimi var; ama ikisi de yalnızca birer maddedir ve duyurunun tamamını açıklamaz.
+Sık yapılan hata: Metindeki tek bir maddeyi (kask, rota takvimi) amaç sanmak. Amaç bütünü açıklar.
 Cevap C.`
 },
 {
@@ -292,11 +292,11 @@ Cevap C.`
   kazanim: "T.8.3.32",
   kademe: 0,
   zorluk: 2,
-  soru: `Pazarcı Hatice Hanım, tezgâhına gelenlerin cumartesi mi pazar mı daha çok meyve aldığını merak ediyor. Bunun için iki gün boyunca satılan kasa sayısını kaydetti. Kasa sayıları, gün sonunda tezgâhta kalan boş kasalar sayılarak bulundu. Tezgâhta elma, armut, kiraz ve şeftali satılıyor. Cumartesi gününün daha kalabalık geçtiğini düşünüyordu; ama emin olmak için sayıları yazıp karşılaştırmak istedi. Hatice Hanım, kirazın mevsiminin geçmek üzere olduğunu da söylüyor.
+  soru: `Okulun iki gün süren kermesinde meyve standı açan Hatice Hanım, standa gelenlerin cumartesi mi pazar mı daha çok meyve aldığını merak ediyor. Bunun için iki gün boyunca satılan kasa sayısını kaydetti. Kasa sayıları, gün sonunda standda kalan boş kasalar sayılarak bulundu. Standda elma, armut, kiraz ve şeftali satılıyor. Cumartesi gününün daha kalabalık geçtiğini düşünüyordu; ama emin olmak için sayıları yazıp karşılaştırmak istedi. Hatice Hanım, kirazın mevsiminin geçmek üzere olduğunu da söylüyor.
 
 **Metin ve tablo birlikte değerlendirildiğinde aşağıdakilerden hangisine ulaşılabilir?**`,
   gorsel: `<table class="tablo"><tr><th>Meyve</th><th>Cumartesi (kasa)</th><th>Pazar (kasa)</th></tr><tr><td>Elma</td><td>12</td><td>15</td></tr><tr><td>Armut</td><td>8</td><td>8</td></tr><tr><td>Kiraz</td><td>3</td><td>2</td></tr><tr><td>Şeftali</td><td>9</td><td>6</td></tr></table>`,
-  secenekler: ["Mevsimi geçmek üzere olan meyve, iki gün de en az satılandır.", "Cumartesi ve pazar günlerinde en çok satılan meyve armuttur.", "Pazar günü satışı cumartesiye göre artan meyve sayısı ikidir.", "Mevsimi geçmek üzere olan meyvenin satışı pazar günü artmıştır."],
+  secenekler: ["Mevsimi geçmek üzere olan meyve, her iki günde de en az satılandır.", "Cumartesi ve pazar günlerinde en çok satılan meyve armuttur.", "Pazar günü satışı cumartesiye göre artan meyve sayısı ikidir.", "Mevsimi geçmek üzere olan meyvenin satışı pazar günü artmıştır."],
   dogru: 0,
   hatalar: [
     null,
@@ -316,22 +316,22 @@ Cevap A.`
   kazanim: "T.8.3.21",
   kademe: 0,
   zorluk: 2,
-  soru: `Piyano öğretmenim metronomu masaya koyduğunda ona hep kızardım; sanki ritmimi başkası yönetiyordu. Parçayı çok yavaş bir tempoda, her notaya dikkat ederek çalmaya başlayınca hatalarımı ilk kez duydum: sol elim sürekli acele ediyordu. Önceleri bir parçayı üç kez çalıp bitmiş sayardım; şimdi tek bir ölçüyü yirmi kez tekrar etmekten sıkılmıyorum. Artık çalışmaya onunla başlıyorum, tempoyu yavaş yavaş artırıyorum ve defterime hangi hızda hatasız çaldığımı yazıyorum.
+  soru: `Resim öğretmenimiz bir gün herkese iki dakikada bir taslak çizdirdi. İtiraz ettim; bence iyi bir resim saatler isterdi, iki dakika ancak karalama yapmaya yeterdi. Kâğıdı çevirdiğimde şaşırdım: aceleyle çizdiğim figür, haftalarca uğraştığım portreden daha canlı duruyordu. Düzeltecek vaktim olmayınca gördüğümü düşünmeden çizmiştim; uzun çizimlerde ise her çizgiyi silip yeniden çizerken canlılığı yolda bırakıyormuşum. Artık her çalışmaya kısa taslaklarla başlıyorum; uzun çizimler yine var, ama ilk çizgiyi kısa taslaktaki gibi tek seferde atmaya çalışıyorum.
 
-**Anlatıcının metronoma bakışı aşağıdakilerden hangisi gibi özetlenebilir?**`,
+**Anlatıcının kısa taslak çizmeye bakışı aşağıdakilerden hangisiyle özetlenebilir?**`,
   gorsel: null,
-  secenekler: ["Metronomu, çalışması için herhangi bir yarar sağlamayan bir araç olarak görüyor.", "Metronomu, öğretmenin yanında kullanılması gereken bir araç olarak sayıyor.", "Metronomu ilk günden beri çalışmasının vazgeçilmez bir parçası olarak görüyor.", "Metronomu önce engel saymış, sonra gelişimine yardım eden bir araç olarak görüyor."],
+  secenekler: ["Kısa taslağı, uzun çizimlerin yerini tümüyle alması gereken bir yöntem olarak görüyor.", "Kısa taslağı, yalnızca öğretmen istediğinde yapılan bir sınıf ödevi olarak görüyor.", "Kısa taslağı, ilk günden beri resim çalışmasının en yararlı aşaması olarak görüyor.", "Kısa taslağı önce yetersiz saymış, sonra çizimine canlılık katan bir yol olarak görüyor."],
   dogru: 3,
   hatalar: [
-    "Aşırı genelleme: anlatıcı ilk başta böyle düşünüyor, ama sonra fikrini değiştiriyor.",
-    "Metinde var ama ilgisiz: öğretmenin metronomu masaya koyması geçer, ama anlatıcı artık onu kendi çalışmasına da dahil ediyor.",
-    "Ters yön: anlatıcı başta metronoma kızıyor; tutumu sonradan değişiyor.",
+    "Aşırı genelleme: anlatıcı uzun çizimleri bırakmıyor (\"uzun çizimler yine var\"); kısa taslağı başlangıç ve ilk çizgi için kullanıyor.",
+    "Metinde var ama ilgisiz: taslağı öğretmen başlatmış, ama anlatıcı artık her çalışmasına kendi isteğiyle kısa taslakla başlıyor.",
+    "Ters yön: anlatıcı başta itiraz ediyor, iki dakikayı karalamaya yeter sayıyor; tutumu sonradan değişiyor.",
     null
   ],
-  aciklama: `Adım 1: Yazarın tutumunu bulmak için "başta ne düşünüyor, sonra ne düşünüyor?" diye sor. Başta: "ona hep kızardım". Sonra: "hatalarımı ilk kez duydum", "tek bir ölçüyü yirmi kez tekrar etmekten sıkılmıyorum", "çalışmaya onunla başlıyorum".
-Adım 2: Tutum değişmiş. Değişimi doğru anlatan tek şık D.
-Adım 3: A yalnızca başlangıçtaki tutumu söylüyor, C ise başlangıcı yanlış veriyor. B anlatıcının bugünkü alışkanlığıyla (kendi başına çalışması) çelişiyor.
-Sık yapılan hata: Parçanın yalnızca ilk yarısına bakıp tutumun hiç değişmediğini sanmak.
+  aciklama: `Adım 1: Yazarın tutumunu bulmak için "başta ne düşünüyor, sonra ne düşünüyor?" diye sor. Başta: "İtiraz ettim", "iki dakika ancak karalama yapmaya yeterdi". Sonra: "aceleyle çizdiğim figür ... daha canlı duruyordu", "her çalışmaya kısa taslaklarla başlıyorum".
+Adım 2: Tutum değişmiş: önce yetersiz saydı, sonra çizimine canlılık kattığını gördü. Değişimi doğru anlatan tek şık D.
+Adım 3: C başlangıcı yanlış veriyor; anlatıcı ilk günden değil, kâğıdı çevirdikten sonra ikna oldu. A anlatıcının bugünkü alışkanlığıyla çelişiyor: uzun çizimleri bırakmadı. B ise taslağı öğretmene bağlıyor; oysa anlatıcı onu kendi çalışmasına taşımış.
+Sık yapılan hata: Parçanın yalnızca ilk yarısına bakıp tutumun hiç değişmediğini sanmak ya da "artık kısa taslak" sözünü uzun çizimden vazgeçmek diye okumak.
 Cevap D.`
 },
 {
@@ -511,18 +511,18 @@ Cevap C.`
 
 **Anlatıcının İngilizce öğrenme sürecine yaklaşımı aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["Ağır ilerlese de gerçek bir çabayı, rahat bir alışkanlığa tercih ediyor.", "Türkçe altyazıyla dizi izlemeyi, dil öğrenmenin en etkili yolu sayıyor.", "Sözcük defteri tutmanın ilerlemesine katkı sağlamadığını düşünüyor.", "Dizi izlemenin dil öğrenmeye katkısı olmadığını düşünüyor."],
+  secenekler: ["Ağır ilerlese de gerçek bir çabayı, rahat bir alışkanlığa tercih ediyor.", "Türkçe altyazıyla dizi izlemeyi, dil öğrenmenin en etkili yolu sayıyor.", "Sözcükleri her akşam yüksek sesle okumayı, en verimli yöntem olarak öneriyor.", "Altyazısız bütün cümleleri çözebilmeyi, ilerlemenin tek ölçüsü sayıyor."],
   dogru: 0,
   hatalar: [
     null,
     "Ters yön: anlatıcı bir yıl Türkçe altyazıyla izledi ve hiçbir şey yakalayamadığını fark etti; bu yöntemi bırakıyor.",
-    "Ters yön: anlatıcı sözcükleri defterine yazıyor ve tonları ayırt etmeye başlıyor; defteri yararsız saymıyor.",
-    "Aşırı genelleme: anlatıcı yalnızca Türkçe altyazıya güvenmeyi eleştiriyor; diziyi tümden dışlamıyor, İngilizce altyazıyla izlemeye devam ediyor."
+    "Metinde var ama ilgisiz: anlatıcı sözcükleri yüksek sesle okuyor, ama bunu en verimli yöntem diye sunmuyor; soru yaptığı işi değil sürece bakışını soruyor.",
+    "Kısmen doğru: anlatıcı bütün cümleleri çözemediğini söylüyor, ama ilerlemeyi buna bağlamıyor; tonları ayırt edebilmeyi de ilerleme sayıyor ve bundan memnun."
   ],
   aciklama: `Adım 1: Tutumu bulmak için duygu sözcüklerine bak. Başta: "anladığımı sandım" (yanılgı). Sonra: "ilerleme yavaş... beni üzmüyor; çünkü ilk kez bir şeyi anlamaya çalıştığımı hissediyorum."
 Adım 2: Anlatıcı, rahat ama sonuç vermeyen alışkanlığı bırakıp zor ama gerçek bir çabayı seçmiş ve bundan memnun. Bu A'da.
-Adım 3: B bırakılan yöntemi övüyor. C, anlatıcının yaptığı işi yararsız sayıyor. D ise dizi izlemeyi tümden dışlıyor; oysa anlatıcı hâlâ dizi izliyor.
-Sık yapılan hata: "Üç haftadır hâlâ bütün cümleleri çözemiyorum" cümlesine bakıp anlatıcının hayal kırıklığı yaşadığını sanmak. Sonraki cümle tersini söylüyor.
+Adım 3: B bırakılan yöntemi övüyor. C'deki yüksek sesle okuma metinde var, ama anlatıcı onu "en verimli yöntem" diye önermiyor; soru da yaptığı işi değil sürece bakışını soruyor. D ise ilerlemeye tek bir ölçü koyuyor; oysa anlatıcı cümleleri çözemese de tonları ayırt etmeyi ilerleme sayıyor.
+Sık yapılan hata: "Üç haftadır hâlâ bütün cümleleri çözemiyorum" cümlesine bakıp anlatıcının hayal kırıklığı yaşadığını ya da bunu tek ölçü saydığını sanmak. Sonraki cümle tersini söylüyor.
 Cevap A.`
 },
 {
@@ -561,19 +561,19 @@ Cevap C.`
 
 **I. ve II. metinden birlikte aşağıdakilerden hangisi çıkarılabilir?**`,
   gorsel: null,
-  secenekler: ["E-kitaplardaki artış, basılı kitabı önümüzdeki yıllarda bitirecektir.", "Hediye kitap alanlar, seçimlerinde daha çok kitabın fiyatına bakmaktadır.", "Yolculuk eden okurlar, kitapları sadece e-kitap biçiminde okumaktadır.", "Kitap biçimi tercihi, okurun kitabı alma ve okuma amacına göre değişebilir."],
+  secenekler: ["E-kitaplardaki artış, basılı kitabın hediye olarak seçilmesini de azaltmıştır.", "Hediye kitap alanlar, seçimlerinde daha çok kitabın fiyatına bakmaktadır.", "Yolculuk eden okurlar, kitapları sadece e-kitap biçiminde okumaktadır.", "Kitap biçimi tercihi, okurun kitabı alma ve okuma amacına göre farklılık göstermektedir."],
   dogru: 3,
   hatalar: [
-    "Aşırı genelleme: I. metin basılı satışların düştüğünü söylüyor, ama bitmesi çıkarılamaz; II. metin ise basılının hediyede sürdüğünü gösteriyor.",
+    "Ters yön: II. metne göre hediye dönemlerinde satışlar hâlâ basılı kitapta yoğunlaşıyor; I. metindeki artış hediye alımına yansımıyor.",
     "Ters yön: II. metne göre hediye alırken kapak, cilt ve kâğıt kalitesine bakılır; fiyata bakanlar kendisi için alanlardır.",
     "Aşırı genelleme: I. metin artışın en çok yolculuk edenlerden geldiğini söylüyor; hepsinin sadece e-kitap okuduğu çıkmaz.",
     null
   ],
   aciklama: `Adım 1: İki metinden de bir ipucu al. I. metin: e-kitabı yolculuk eden, kısa aralarla okuyan kişiler tercih ediyor (okuma amacı). II. metin: hediye alırken basılı kitap seçiliyor (alma amacı).
 Adım 2: İki ipucu birlikte şunu gösterir: Tercih, kitabın ne için alındığına ve nasıl okunacağına göre değişiyor. Bu D'de.
-Adım 3: A, "bitirecek" diyerek metinlerin ötesine geçiyor; I. metin yalnızca bir eğilimi anlatıyor. B, II. metinde fiyatın kimin için önemli olduğunu karıştırıyor. C, "sadece" ile yolculuk edenlerin hepsini tek biçime bağlıyor.
+Adım 3: A, II. metinle çelişiyor: hediye dönemlerinde satışlar hâlâ basılı kitapta yoğunlaşıyor, yani e-kitaptaki artış hediye alımına yansımamış. B, II. metinde fiyatın kimin için önemli olduğunu karıştırıyor. C, "sadece" ile yolculuk edenlerin hepsini tek biçime bağlıyor.
 Adım 4: İki metinli çıkarımda doğru şık, iki metnin de desteklediği şıktır; tek metne dayanan şık yetmez.
-Sık yapılan hata: Yalnızca ilk metne bakıp e-kitabın basılıyı bitirdiğini sanmak.
+Sık yapılan hata: Yalnızca ilk metne bakıp e-kitaptaki artışı her alışveriş türüne yaymak.
 Cevap D.`
 },
 {

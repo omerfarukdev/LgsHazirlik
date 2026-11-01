@@ -30,21 +30,21 @@ mat-ck-305 | M.8.1.1.2 | z3 | k3 | Bir kodlama atölyesinde çizgi izleyen iki r
 mat-ck-306 | M.8.1.1.1 | z3 | k3 | Bir okulun bilim şenliği için LED'li bir yazı panosu tasarlanmaktadır. Tasarımcının elinde 96 adet LED vardır ve LED'lerin tamamı… | ✓6
 mat-ck-307 | M.8.1.1.2 | z3 | k3 | Bir kargo aktarma merkezine gelen özdeş koliler, araçlara yüklenmeden önce üst üste istiflenmektedir. Merkezdeki sayaç arızalandı… | ✓4
 mat-ck-308 | M.8.1.1.2 | z4 | k3 | Bir belediye, gençlik festivali için dikdörtgen biçimindeki etkinlik alanının çevresine hoparlör direkleri diktirecektir. Alanın … | ✓48
-mat-ck-309 | M.8.1.1.2 | z4 | k3 | Bir robot atölyesinde iki uyarı robotu test edilmektedir. A robotu 36 saniyede bir, B robotu ise b saniyede bir ışığını yakmaktad… | ✓5
-mat-ck-310 | M.8.1.1.1 | z4 | k3 | Bir kodlama atölyesinde öğrenciler "Asal Avcısı" adlı bir oyun programlamıştır. Oyunun kuralları şöyledir: • Oyun, ekrana yazılan… | ✓768
+mat-ck-309 | M.8.1.1.2 | z4 | k3 | Bir fabrikanın üretim hattında iki uyarı lambası test edilmektedir. A lambası 36 saniyede bir, B lambası ise b saniyede bir yanıp… | ✓5
+mat-ck-310 | M.8.1.1.1 | z4 | k3 | Bir bilişim kulübünde öğrenciler "Asal Avcısı" adlı bir oyun programlamıştır. Oyunun kuralları şöyledir: • Oyun, ekrana yazılan b… | ✓768
 mat-ck-311 | M.8.1.1.2 | z4 | k3 | Bir serada iki damla sulama vanası zaman ayarlı çalışmaktadır. A vanası 45 dakikada bir, B vanası 60 dakikada bir açılmakta ve he… | ✓29
 mat-ck-312 | M.8.1.1.3 | z4 | k3 | Bir dosya indirme programı, indirme sürerken ilerlemeyi ekranda kesir olarak göstermektedir. Program, payı indirilen dosya sayısı… | ✓7
 mat-ck-001 | M.8.1.1.1 | z1 | k0 | 126 sayısının asal çarpanlarına ayrılmış biçimi aşağıdakilerden hangisidir? | ✓2 · 3^{2} · 7
 mat-ck-002 | M.8.1.1.3 | z1 | k0 | Aşağıdaki sayı çiftlerinden hangisi aralarında asaldır? | ✓8 ve 15
 mat-ck-003 | M.8.1.1.2 | z1 | k0 | 12 ile 18 sayılarının en küçük ortak katı (EKOK) kaçtır? | ✓36
 mat-ck-004 | M.8.1.1.2 | z2 | k0 | Bir robot atölyesindeki 96 kablo ve 72 sensörün tamamı, özdeş deney setlerine paylaştırılacaktır. Her sette eşit sayıda kablo ve … | ✓7
-mat-ck-005 | M.8.1.1.2 | z2 | k0 | Bir limanın girişindeki iki deniz fenerinden biri 45 saniyede bir, diğeri 60 saniyede bir ışık çakmaktadır. Bir gemi kaptanı, iki… | ✓3
+mat-ck-005 | M.8.1.1.2 | z2 | k0 | Bir limanın girişindeki iki deniz fenerinden biri 40 saniyede bir, diğeri 72 saniyede bir ışık çakmaktadır. Bir gemi kaptanı, iki… | ✓6
 mat-ck-006 | M.8.1.1.1 | z2 | k0 | Aşağıdaki çarpan ağacında her kutudaki sayı, o kutunun altındaki iki kutuda yazan sayıların çarpımına eşittir. En alttaki kutular… | ✓245
 mat-ck-007 | M.8.1.1.3 | z2 | k0 | Mert, 20'den büyük ve 30'dan küçük doğal sayıların her birini ayrı bir karta yazmıştır. Ardından üzerinde 15 ile aralarında asal … | ✓5
 mat-ck-008 | M.8.1.1.2 | z3 | k0 | Veteriner hekim, Zeynep'in kedisi Pamuk için iki ayrı ilaç yazmıştır. İlaçların verilme sıklığı aşağıdaki tabloda gösterilmiştir.… | ✓Perşembe
 mat-ck-009 | M.8.1.1.1 | z3 | k0 | Bir simit fabrikasında sabah üretilen simitlerin sayısı, üretim programının ekranında asal çarpanlarına ayrılmış biçimde 2^{3} · … | ✓48
 mat-ck-010 | M.8.1.1.3 | z3 | k0 | Ekranların en-boy oranı, genişlik ve yükseklikteki piksel sayıları sadeleştirilerek a : b biçiminde yazılır; burada a ile b arala… | ✓13
-mat-ck-011 | M.8.1.1.2 | z4 | k0 | Bir kodlama atölyesinde Defne, girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesaplayı… | ✓65
+mat-ck-011 | M.8.1.1.2 | z4 | k0 | Beren, bilişim dersi ödevi olarak girilen iki doğal sayının en büyük ortak bölenini (EBOB) ve en küçük ortak katını (EKOK) hesapl… | ✓65
 mat-ck-012 | M.8.1.1.3 | z3 | k0 | Bora, bisiklet kilidinin iki basamaklı kodunu unutmamak için defterine şu iki ipucunu yazmıştır: • Kod, bir asal sayı değildir. •… | ✓91
 mat-ck-113 | M.8.1.1.1 | z1 | k1 | Aşağıdaki sayılardan hangisi 48'in pozitif tam sayı çarpanı değildir? | ✓18
 mat-ck-114 | M.8.1.1.1 | z1 | k1 | 2^{3} · 5 çarpımının değeri aşağıdakilerden hangisidir? | ✓40
@@ -192,9 +192,9 @@ mat-ck-326 | M.8.1.1.2 | z3 | k3 | Bir kütüphanede iki rafın kitap sayıları
 mat-ck-327 | M.8.1.1.2 | z3 | k3 | Bir kıyı kasabasında iskeleye banliyö treni 15 dakikada bir, vapur 25 dakikada bir gelmektedir. Sabah 08.10'da ikisi iskeleye ayn… | ✓09.25
 mat-ck-328 | M.8.1.1.1 | z3 | k3 | Bir spor merkezinde 180 sporcu, her grupta eşit sayıda sporcu bulunacak biçimde gruplara ayrılacaktır. Antrenör, bir gruptaki spo… | ✓6
 mat-ck-329 | M.8.1.1.3 | z3 | k3 | Bir ödül töreninde 1'den 20'ye kadar numaralanmış 20 koltuk vardır. Numarası 20 ile aralarında asal olan ve 1'den farklı olan kol… | ✓7
-mat-ck-330 | M.8.1.1.2 | z3 | k3 | Bir müzenin girişindeki iki ışıklı tabeladan biri 8 saniyede bir, diğeri 15 saniyede bir yanıp sönmektedir. Saat 12.00'da iki tab… | ✓5
+mat-ck-330 | M.8.1.1.2 | z3 | k3 | Bir müzenin girişindeki iki ışıklı tabeladan biri 8 saniyede bir, diğeri 15 saniyede bir yanıp sönmektedir. Saat 12.00'de iki tab… | ✓5
 mat-ck-331 | M.8.1.1.2 | z3 | k3 | Mert ile Selin düz bir çizgi boyunca yürümektedir. Mert'in adımları 45 cm, Selin'in adımları 60 cm uzunluğundadır. İkisi de çizgi… | ✓7
-mat-ck-332 | M.8.1.1.1 | z3 | k3 | Kerem'in şifre kartında 30 yazmaktadır. Kerem, bu sayıyı toplamları 30 olan iki asal sayının toplamı biçiminde yazmak istemektedi… | ✓3
+mat-ck-332 | M.8.1.1.1 | z3 | k3 | Kerem'in şifre kartında 30 yazmaktadır. Kerem, bu sayıyı iki asal sayının toplamı biçiminde yazmak istemektedir. Sıralama önemli … | ✓3
 mat-ck-333 | M.8.1.1.2 | z3 | k3 | Bir okulda iki kulübün üye sayılarından biri 24'tür. Bu iki sayının EBOB'u 6, EKOK'u 120'dir. Buna göre diğer kulübün üye sayısı … | ✓30
 mat-ck-334 | M.8.1.1.2 | z3 | k3 | Bir belediye, iki ayrı düz yürüyüş yolunun kenarına ağaç diktirecektir. Yolların uzunlukları 84 m ve 140 m'dir; yollar birbirine … | ✓10
 mat-ck-335 | M.8.1.1.1 | z3 | k3 | Bir okul, geziye katılan öğrencileri eşit sayıda öğrenci içeren gruplara ayıracaktır; tek grup ya da her öğrencinin ayrı grup olm… | ✓36
@@ -210,7 +210,7 @@ mat-ck-344 | M.8.1.1.1 | z3 | k3 | Bir depodaki ürünlerin kodları 100'den kü
 mat-ck-345 | M.8.1.1.1 | z3 | k3 | Bir matematik kulübünde öğretmen, 150 sayısının bütün pozitif çarpanlarını tahtaya yazmıştır. Ardından Elif, tahtadan önce 1'i, s… | ✓8
 mat-ck-346 | M.8.1.1.3 | z3 | k3 | Defne, tuttuğu x sayısını arkadaşlarına şu ipuçlarıyla anlatmıştır: "x ile 14 aralarında asaldır ve x ile 14'ün EKOK'u 126'dır." … | ✓9
 mat-ck-347 | M.8.1.1.2 | z3 | k3 | Bir otoparkta araçlara 300 ile 500 arasında numaralı biletler verilmiştir (300 ve 500 dâhil). Bilet numarası hem 12'ye hem 18'e t… | ✓468
-mat-ck-348 | M.8.1.1.1 | z3 | k3 | Bir yarışmada 1'den 50'ye kadar numaralanmış kapılar vardır. Sunucu, numarası tam 3 pozitif çarpanı olan kapılardan en büyük numa… | ✓49
+mat-ck-348 | M.8.1.1.1 | z3 | k3 | Bir yarışmada 1'den 50'ye kadar numaralanmış kapılar vardır. Sunucu, ödülün numarası 40'tan büyük olan kapılardan birinin arkasın… | ✓49
 mat-ck-349 | M.8.1.1.3 | z3 | k3 | Bir spor salonunda dolap kartları 2'den 49'a kadar (2 ve 49 dâhil) numaralanmıştır. Görevli, numarası 30 ile aralarında asal olan… | ✓3
 mat-ck-350 | M.8.1.1.2 | z3 | k3 | Bir öğretmen 100 kalem ve 160 silgiyi sınıftaki öğrencilere eşit sayıda dağıtmıştır. Dağıtım bitince hem kalemden hem silgiden 4'… | ✓12
 mat-ck-351 | M.8.1.1.2 | z3 | k3 | Bir bilgi yarışmasında Ela'nın kartında 36 yazmaktadır. Rakibi Kaan'ın kartındaki sayının 100'den küçük bir doğal sayı olduğu ve … | ✓6
@@ -231,10 +231,10 @@ mat-ck-365 | M.8.1.1.1 | z4 | k3 | Bir kitapçı, 540 kitabı her rafta eşit sa
 mat-ck-366 | M.8.1.1.1 | z4 | k3 | Bir müzenin eser kodları 500'den küçük doğal sayılardır. Kodun asal çarpanları arasında hem 2 hem 3 vardır, başka asal çarpan yok… | ✓762
 mat-ck-367 | M.8.1.1.1 | z4 | k3 | Bir matematik yarışmasında Aslı'ya beş kart verilmiştir. Kartlarda 15, 18, 25, 35 ve 40 sayıları yazmaktadır. Aslı, bu beş sayıyı… | ✓4
 mat-ck-368 | M.8.1.1.2 | z4 | k3 | Bir okulun iki servis aracı sabah 06.00'da aynı anda otoparktan çıkmıştır. A servisi her 40 dakikada bir, B servisi her 50 dakika… | ✓5
-mat-ck-369 | M.8.1.1.2 | z4 | k3 | Bir öğretmen 93 çikolata ve 131 şekeri sınıftaki öğrencilere eşit sayıda dağıtmıştır. Dağıtım sonunda çikolatadan 3, şekerden 5 a… | ✓3
+mat-ck-369 | M.8.1.1.2 | z4 | k3 | Bir takı atölyesinde 93 kırmızı ve 131 mavi boncuk, birbirinin aynısı kolyelere dizilmiştir. Her kolyede eşit sayıda kırmızı ve e… | ✓3
 mat-ck-370 | M.8.1.1.1 | z4 | k3 | Bir market, 420 süt kutusunu dikdörtgen düzeninde raflara dizecektir: her rafta eşit sayıda kutu bulunacak ve hiç kutu açıkta kal… | ✓44
 mat-ck-371 | M.8.1.1.1 | z4 | k3 | Bir yarışmada 100'den küçük numaralar kullanılmıştır. Yarışma sunucusu, numarası tam üç farklı asal çarpana sahip olan numaralar … | ✓90
-mat-ck-372 | M.8.1.1.2 | z4 | k3 | Bir apartmanda iki görevli nöbet tutmaktadır. Selim 6 günde bir, Nehir 10 günde bir nöbet tutmaktadır. Bir Pazartesi günü ikisi d… | ✓4
+mat-ck-372 | M.8.1.1.2 | z4 | k3 | Bir hastanenin acil servisinde iki hemşire nöbet tutmaktadır. Selim 6 günde bir, Nehir 10 günde bir nöbet tutmaktadır. Bir pazart… | ✓4
 mat-ck-373 | M.8.1.1.2 | z4 | k3 | Hakan, birbirinden farklı iki doğal sayı yazmıştır. Bu sayıların toplamı 135, EBOB'u 15'tir. Sayıların yazılış sırası önemli deği… | ✓3
 mat-ck-374 | M.8.1.1.2 | z4 | k3 | Bir saat atölyesinde birbirine geçmiş iki dişli çarkın küçüğünde 24, büyüğünde 40 diş vardır. Başlangıçta her çarkın boyayla işar… | ✓20
 mat-ck-375 | M.8.1.1.1 | z4 | k3 | Efe, bir pozitif tam sayının bütün pozitif çarpanlarını küçükten büyüğe doğru bir şeride yazmıştır. Şeridin baş tarafından sayıld… | ✓60

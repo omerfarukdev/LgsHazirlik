@@ -101,7 +101,7 @@ Cevap B.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir müzenin girişindeki iki ışıklı tabeladan biri 8 saniyede bir, diğeri 15 saniyede bir yanıp sönmektedir. Saat 12.00'da iki tabela aynı anda yanıp sönmüştür. Bu andan sonraki 10 dakika (12.00 hariç, 12.10 dâhil) izlenmektedir.
+  soru: `Bir müzenin girişindeki iki ışıklı tabeladan biri 8 saniyede bir, diğeri 15 saniyede bir yanıp sönmektedir. Saat 12.00'de iki tabela aynı anda yanıp sönmüştür. Bu andan sonraki 10 dakika (12.00 hariç, 12.10 dâhil) izlenmektedir.
 **Buna göre bu 10 dakikada iki tabela kaç kez aynı anda yanıp söner?**`,
   gorsel: null,
   secenekler: ["75", "40", "6", "5"],
@@ -147,7 +147,7 @@ Cevap A.`
   kazanim: "M.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Kerem'in şifre kartında 30 yazmaktadır. Kerem, bu sayıyı toplamları 30 olan iki asal sayının toplamı biçiminde yazmak istemektedir. Sıralama önemli değildir; yani 7 + 23 ile 23 + 7 aynı yazılış sayılır.
+  soru: `Kerem'in şifre kartında 30 yazmaktadır. Kerem, bu sayıyı iki asal sayının toplamı biçiminde yazmak istemektedir. Sıralama önemli değildir; yani 7 + 23 ile 23 + 7 aynı yazılış sayılır.
 **Buna göre Kerem, 30'u kaç farklı biçimde iki asal sayının toplamı olarak yazabilir?**`,
   gorsel: null,
   secenekler: ["5", "4", "3", "2"],
@@ -363,7 +363,7 @@ Cevap B.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir kitap kulübünün elinde 84 roman ve 126 hikâye kitabı vardır. Kitaplar, her kolide eşit sayıda roman ve eşit sayıda hikâye kitabı bulunacak, hiçbir kitap açıkta kalmayacak biçimde kolilere yerleştirilecektir. Kulüp başkanı, her kolide en az 4 roman olmasını istemekte ve mümkün olan en çok sayıda koli hazırlanmasını istemektedir.
+  soru: `Bir kitap kulübünün elinde 84 roman ve 126 hikâye kitabı vardır. Kitaplar, her kolide eşit sayıda roman ve eşit sayıda hikâye kitabı bulunacak, hiçbir kitap açıkta kalmayacak biçimde kolilere yerleştirilecektir. Kulüp başkanı, her kolide en az 4 roman bulunmasını ve mümkün olan en çok sayıda koli hazırlanmasını istemektedir.
 **Buna göre hazırlanan her kolide toplam kaç kitap bulunur?**`,
   gorsel: null,
   secenekler: ["4", "5", "6", "10"],
@@ -531,22 +531,22 @@ Cevap C.`
   kazanim: "M.8.1.1.1",
   kademe: 3,
   zorluk: 3,
-  soru: `Bir yarışmada 1'den 50'ye kadar numaralanmış kapılar vardır. Sunucu, numarası tam 3 pozitif çarpanı olan kapılardan en büyük numaralısının arkasında ödül bulunduğunu söylemiştir.
+  soru: `Bir yarışmada 1'den 50'ye kadar numaralanmış kapılar vardır. Sunucu, ödülün numarası 40'tan büyük olan kapılardan birinin arkasında bulunduğunu ve bu kapının numarasının tam 3 pozitif çarpanı olduğunu söylemiştir.
 **Buna göre ödül kaç numaralı kapının arkasındadır?**`,
   gorsel: null,
-  secenekler: ["25", "36", "47", "49"],
+  secenekler: ["42", "45", "47", "49"],
   dogru: 3,
   hatalar: [
-    "Daha küçük bir uygun sayıda kalma: 49 = 7^{2} sayısının da tam 3 çarpanı vardır (1, 7, 49).",
-    "Tam kare olmayı yeterli sanma: 36'nın 9 çarpanı vardır, 3 değil.",
+    "Çarpan sayısı ile farklı asal çarpan sayısını karıştırma: 42 = 2 · 3 · 7 sayısının 3 farklı asal çarpanı vardır ama çarpan sayısı 8'dir.",
+    "Asal çarpanlarına ayrılmış biçimdeki asal sayısını çarpan sayısı sanma: 45 = 3 · 3 · 5 yazılır ama 45'in 6 çarpanı vardır (1, 3, 5, 9, 15, 45).",
     "Asal sayıyı seçme: bir asal sayının yalnızca 2 çarpanı vardır (1 ve kendisi).",
     null
   ],
   aciklama: `Çarpan sayısı için üsler birer artırılıp çarpılır. Çarpım 3 (asal) olacağına göre sayı tek bir asalın karesi olmalıdır: (2 + 1) = 3. Yani sayı p^{2} biçimindedir (p asal).
 Adım 1: p = 2, 3, 5, 7 için 4, 9, 25, 49 bulunur. p = 11 için 121 > 50'dir.
-Adım 2: Bunlardan en büyüğü 49'dur.
-Sağlama: 49'un çarpanları 1, 7, 49 olmak üzere tam 3 tanedir.
-Sık yapılan hata: 3 çarpanlı sayıları asal sayılarla karıştırmak. Asal sayının 2, asal sayının karesinin 3 çarpanı vardır.
+Adım 2: Bunlardan 40'tan büyük olan yalnızca 49'dur.
+Sağlama: 49'un çarpanları 1, 7, 49 olmak üzere tam 3 tanedir. 41 ile 50 arasındaki öteki sayılara bak: 41, 43, 47 asaldır (2 çarpan); 42 = 2 · 3 · 7 (8 çarpan), 45 = 3^{2} · 5 (6 çarpan), 48 = 2^{4} · 3 (10 çarpan), 50 = 2 · 5^{2} (6 çarpan).
+Sık yapılan hata: "Tam 3 çarpan" ifadesini "3 asal çarpan" ya da "asal çarpanlarına ayrılınca 3 asal yazılır" diye okumak. Çarpan sayısı, 1 ve sayının kendisi dâhil bütün bölenlerin sayısıdır; asal sayının 2, asal sayının karesinin 3 çarpanı vardır.
 Cevap D.`
 },
 {
@@ -629,20 +629,20 @@ Cevap C.`
   soru: `Bir kantine gelen simitler 10'arlı poşetlere konulduğunda son poşette 7 simit, 15'erli poşetlere konulduğunda ise son poşette 12 simit kalmaktadır. Simit sayısı üç basamaklıdır.
 **Buna göre kantine gelen simit sayısı en az kaçtır?**`,
   gorsel: null,
-  secenekler: ["117", "120", "123", "127"],
-  dogru: 0,
+  secenekler: ["123", "120", "117", "107"],
+  dogru: 2,
   hatalar: [
-    null,
-    "Kalanları unutma: 120, 30'un katıdır; 10'a ve 15'e kalansız bölünür.",
     "Eksik yerine fazla alma: 30'un katının 3 fazlası olan 123, 10'a bölününce 3, 15'e bölününce de 3 kalan verir.",
-    "Yalnızca ilk kalanı kullanma: 127, 10'a bölününce 7 kalan verir ama 15'e bölününce 7 kalır, 12 değil."
+    "Kalanları unutma: 120, 30'un katıdır; 10'a ve 15'e kalansız bölünür.",
+    null,
+    "Yalnızca ilk koşulu kullanma: 107, 10'a bölününce 7 kalan verir ama 15'e bölününce 2 kalır, 12 değil."
   ],
   aciklama: `10'a bölününce 7 kalıyorsa tam bölünmeye 3 eksiktir (10 − 7 = 3); 15'e bölününce 12 kalıyorsa yine 3 eksiktir (15 − 12 = 3). Eksikler eşit olduğundan sayı, ortak katın 3 eksiğidir.
 Adım 1: EKOK(10, 15) = 30. Sayı 30k − 3 biçimindedir: 27, 57, 87, 117, …
 Adım 2: Üç basamaklı en küçük değer k = 4 için 117'dir.
 Sağlama: 117 = 10 · 11 + 7 ve 117 = 15 · 7 + 12.
-Sık yapılan hata: Kalan farklı olduğu için EKOK yöntemini bırakmak. Kalanlar farklı olsa da eksikler eşitse "katın eksiği" olarak çöz.
-Cevap A.`
+Sık yapılan hata: Kalan farklı olduğu için EKOK yöntemini bırakmak ya da yalnızca "10'a bölününce 7 kalan" koşuluna bakıp 107'de durmak. Kalanlar farklı olsa da eksikler eşitse "katın eksiği" olarak çöz.
+Cevap C.`
 },
 {
   id: "mat-ck-353",
@@ -870,22 +870,22 @@ Cevap A.`
   soru: `Bir spor kulübünde üç kardeşin yaşları ardışık üç çift sayıdır ve yaşlarının çarpımı 1680'dir.
 **Buna göre üç kardeşin yaşları toplamı kaçtır?**`,
   gorsel: null,
-  secenekler: ["17", "23", "30", "36"],
-  dogru: 3,
+  secenekler: ["18", "30", "36", "42"],
+  dogru: 2,
   hatalar: [
-    "Farklı asal çarpanları toplama: 2 + 3 + 5 + 7 = 17; bu, yaşlar toplamı değildir.",
-    "Asal çarpanları tekrarlarıyla toplama: 2 + 2 + 2 + 2 + 3 + 5 + 7 = 23; bu, yaşlar toplamı değildir.",
+    "Son adımı atlama: her sayıdan bir 2 çekip 1680 ÷ 8 = 210 = 5 · 6 · 7 bulduktan sonra sayıları yeniden 2 ile çarpmayı unutma: 5 + 6 + 7 = 18.",
     "Yanlış üçlüyü seçme: 8, 10 ve 12'nin toplamı 30'dur ama çarpımları 960'tır, 1680 değil.",
-    null
+    null,
+    "Yanlış üçlüyü seçme: 12, 14 ve 16'nın toplamı 42'dir ama çarpımları 2688'dir, 1680 değil."
   ],
   aciklama: `Çarpımı verilen ardışık sayıları bulmak için çarpımı asal çarpanlarına ayır ve çarpanları birbirine yakın üç sayıya paylaştır.
 Adım 1: 1680 = 2^{4} · 3 · 5 · 7. (1680 ÷ 2 = 840, ÷ 2 = 420, ÷ 2 = 210, ÷ 2 = 105 = 3 · 5 · 7)
 Adım 2: Üç sayı birbirine yakındır; ortadaki sayı 12 civarındadır (12 · 12 · 12 = 1728 sayısı 1680'e yakındır).
 Adım 3: Ardışık çift sayılar olarak 10, 12, 14 denenir: 10 = 2 · 5, 12 = 2^{2} · 3, 14 = 2 · 7 ve çarpım 2^{4} · 3 · 5 · 7 = 1680.
 Adım 4: Yaşlar toplamı: 10 + 12 + 14 = 36.
-Sağlama: 10 · 12 · 14 = 120 · 14 = 1680. Çarpım, sayılar büyüdükçe büyüdüğü için başka üçlü yoktur.
-Sık yapılan hata: Asal çarpanların toplamını (17 ya da 23) cevap sanmak.
-Cevap D.`
+Sağlama: 10 · 12 · 14 = 120 · 14 = 1680. Çarpım, sayılar büyüdükçe büyüdüğü için başka üçlü yoktur: 8 · 10 · 12 = 960 küçük, 12 · 14 · 16 = 2688 büyük kalır.
+Sık yapılan hata: Her sayıdan bir 2 çekip 5, 6, 7 bulduktan sonra 2 ile çarpmayı unutmak (18) ya da çarpımı denetlemeden komşu üçlüyü seçmek.
+Cevap C.`
 },
 {
   id: "mat-ck-363",
@@ -915,16 +915,16 @@ Cevap D.`
   kazanim: "M.8.1.1.1",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir dans kulübü, üye sayısını tam 10 farklı biçimde eşit sayıda üye içeren gruplara ayırabilmek istemektedir. Tek bir grup oluşturmak da, her üyenin ayrı bir grup olması da bu biçimlere dâhildir. Kulüp yönetimi, bu özelliği taşıyan en küçük üye sayısını bulmaya çalışmaktadır.
+  soru: `Bir dans kulübü, üye sayısını tam 10 farklı biçimde eşit sayıda üye içeren gruplara ayırabilmek istemektedir. Tek bir grup oluşturmak da her üyenin ayrı bir grup olması da bu biçimlere dâhildir. Kulüp yönetimi, bu özelliği taşıyan en küçük üye sayısını bulmaya çalışmaktadır.
 **Buna göre kulübün üye sayısı en az kaç olmalıdır?**`,
   gorsel: null,
-  secenekler: ["48", "80", "162", "512"],
-  dogru: 0,
+  secenekler: ["16", "48", "80", "162"],
+  dogru: 1,
   hatalar: [
+    "Yarım bırakma: 2^{4} bulunup ikinci asal (3) ile çarpılmamış; 16'nın yalnızca 5 çarpanı vardır (1, 2, 4, 8, 16).",
     null,
     "İkinci asalı 3 yerine 5 seçme: 2^{4} · 5 = 80 sayısının da 10 çarpanı vardır ama 48'den büyüktür.",
-    "Büyük asalı büyük üsse koyma: 2 · 3^{4} = 162 sayısının da 10 çarpanı vardır ama büyüktür.",
-    "Tek asalla yazma: 2^{9} = 512 sayısının 10 çarpanı vardır ama çok büyüktür."
+    "Büyük asalı büyük üsse koyma: 2 · 3^{4} = 162 sayısının da 10 çarpanı vardır ama büyüktür."
   ],
   aciklama: `Bir sayının çarpan sayısı, asal çarpanlarına ayrılmış biçimde üslerin birer fazlasının çarpımıdır. Çarpan sayısı 10 olmalıdır.
 Adım 1: 10 sayısı iki biçimde yazılır: 10 = 10 ya da 10 = 5 · 2.
@@ -932,8 +932,8 @@ Adım 2: Birinci durumda sayı p^{9} biçimindedir; en küçüğü 2^{9} = 512.
 Adım 3: İkinci durumda sayı p^{4} · q biçimindedir. Sayıyı küçük tutmak için küçük asalı büyük üsse koy: 2^{4} · 3 = 48. (3^{4} · 2 = 162 ve 2^{4} · 5 = 80 daha büyüktür.)
 Adım 4: En küçüğü 48'dir.
 Sağlama: 48'in çarpanları 1, 2, 3, 4, 6, 8, 12, 16, 24, 48 olmak üzere 10 tanedir.
-Sık yapılan hata: 512 gibi tek asallı sayıda durmak ya da büyük asala büyük üs vermek.
-Cevap A.`
+Sık yapılan hata: 2^{4} = 16'da durup 3 ile çarpmamak (16'nın yalnızca 5 çarpanı vardır) ya da büyük asala büyük üs vermek.
+Cevap B.`
 },
 {
   id: "mat-ck-365",
@@ -1038,24 +1038,17 @@ Cevap A.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğretmen 93 çikolata ve 131 şekeri sınıftaki öğrencilere eşit sayıda dağıtmıştır. Dağıtım sonunda çikolatadan 3, şekerden 5 adet artmış; artanlar dağıtılmamıştır.
-**Buna göre sınıf mevcudu kaç farklı değer alabilir?**`,
+  soru: "Bir takı atölyesinde 93 kırmızı ve 131 mavi boncuk, birbirinin aynısı kolyelere dizilmiştir. Her kolyede eşit sayıda kırmızı ve eşit sayıda mavi boncuk vardır. Her kolyeye dizilebilecek en fazla boncuk dizildiğinde kırmızı boncuktan 3, mavi boncuktan 5 tane artmıştır.\n**Buna göre kolye sayısı kaç farklı değer alabilir?**",
   gorsel: null,
   secenekler: ["6", "5", "4", "3"],
   dogru: 3,
   hatalar: [
-    "Kalan koşullarını uygulamama: 18'in bütün bölenleri (1, 2, 3, 6, 9, 18) sayılmış; 1, 2 ve 3 öğrenciyle dağıtımda 5 şeker artamaz.",
-    "Yalnızca 1'i eleme: 2 ve 3 öğrenciyle dağıtımda 5 şeker artamaz, kalan bölenden küçük olmalıdır.",
-    "3'ü de sayma: 3 öğrenciyle dağıtımda 5 şeker artamaz; kalan, bölenden küçük olmalıdır.",
+    "Kalan koşullarını uygulamama: 18'in bütün bölenleri (1, 2, 3, 6, 9, 18) sayılmış; 1, 2 ve 3 kolyeyle dizimde 5 mavi boncuk artamaz.",
+    "Yalnızca 1'i eleme: 2 ve 3 kolyeyle dizimde 5 mavi boncuk artamaz, kalan bölenden küçük olmalıdır.",
+    "3'ü de sayma: 3 kolyeyle dizimde 5 mavi boncuk artamaz; kalan, bölenden küçük olmalıdır.",
     null
   ],
-  aciklama: `Artanlar dağıtıma katılmadığı için dağıtılan çikolata 93 − 3 = 90, şeker 131 − 5 = 126'dır. Öğrenci sayısı bu iki sayıyı da kalansız bölmelidir. Ayrıca kalan her zaman bölenden küçük olduğundan öğrenci sayısı hem 3'ten hem 5'ten büyük olmalıdır; yani 5'ten büyüktür.
-Adım 1: 90 = 2 · 3^{2} · 5 ve 126 = 2 · 3^{2} · 7. EBOB(90, 126) = 2 · 3^{2} = 18.
-Adım 2: Ortak bölenler 18'in çarpanlarıdır: 1, 2, 3, 6, 9, 18.
-Adım 3: 5'ten büyük olanlar: 6, 9, 18 → 3 farklı değer.
-Sağlama: 6 öğrenciyle 93 = 6 · 15 + 3 ve 131 = 6 · 21 + 5.
-Sık yapılan hata: Ortak bölenlerin hepsini sayıp kalanın bölenden küçük olması koşulunu unutmak. İki kalandan büyüğü (5) sınırı belirler.
-Cevap D.`
+  aciklama: "Artanlar çıkarılınca dizilen kırmızı boncuk 93 − 3 = 90, mavi boncuk 131 − 5 = 126'dır. Kolye sayısı bu iki sayıyı da kalansız bölmelidir. Ayrıca kalan her zaman bölenden küçük olduğundan kolye sayısı hem 3'ten hem 5'ten büyük olmalıdır; yani 5'ten büyüktür.\nAdım 1: 90 = 2 · 3^{2} · 5 ve 126 = 2 · 3^{2} · 7. EBOB(90, 126) = 2 · 3^{2} = 18.\nAdım 2: Ortak bölenler 18'in çarpanlarıdır: 1, 2, 3, 6, 9, 18.\nAdım 3: 5'ten büyük olanlar: 6, 9, 18 → 3 farklı değer.\nSağlama: 6 kolyeyle 93 = 6 · 15 + 3 ve 131 = 6 · 21 + 5.\nSık yapılan hata: Ortak bölenlerin hepsini sayıp kalanın bölenden küçük olması koşulunu unutmak. İki kalandan büyüğü (5) sınırı belirler.\nCevap D."
 },
 {
   id: "mat-ck-370",
@@ -1109,22 +1102,22 @@ Cevap C.`
   kazanim: "M.8.1.1.2",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir apartmanda iki görevli nöbet tutmaktadır. Selim 6 günde bir, Nehir 10 günde bir nöbet tutmaktadır. Bir Pazartesi günü ikisi de nöbet tutmuştur ve bu gün "1. ortak nöbet" sayılmıştır. Ortak nöbetler bundan sonra da aynı düzenle sürmektedir.
-**Buna göre bir Pazar gününe denk gelen ilk ortak nöbet kaçıncı ortak nöbettir?**`,
+  soru: `Bir hastanenin acil servisinde iki hemşire nöbet tutmaktadır. Selim 6 günde bir, Nehir 10 günde bir nöbet tutmaktadır. Bir pazartesi günü ikisi de nöbet tutmuştur ve bu gün "1. ortak nöbet" sayılmıştır. Ortak nöbetler bundan sonra da aynı düzenle sürmektedir.
+**Buna göre bir pazar gününe denk gelen ilk ortak nöbet kaçıncı ortak nöbettir?**`,
   gorsel: null,
   secenekler: ["3", "4", "6", "7"],
   dogru: 1,
   hatalar: [
     "30 günü yanlış haftaya çevirme ya da ilk ortak nöbeti saymama: 30 = 4 · 7 + 2 olduğundan ortak nöbetler her seferinde 2 gün ilerler, 3 gün değil.",
     null,
-    "EKOK yerine 6 · 10 = 60 alma: 60 = 8 · 7 + 4 olduğundan her seferinde 4 gün ilerlenir ve Pazar 6. nöbette bulunur; oysa ortak nöbetler 30 günde bir gelir.",
+    "EKOK yerine 6 · 10 = 60 alma: 60 = 8 · 7 + 4 olduğundan her seferinde 4 gün ilerlenir ve pazar 6. nöbette bulunur; oysa ortak nöbetler 30 günde bir gelir.",
     "30 gün sonrasını aynı günden 1 gün ileri sanma: 30 = 4 · 7 + 2 olduğundan ilerleme 2 gündür, 1 gün değil."
   ],
   aciklama: `Önce ortak nöbetler arasındaki gün sayısı EKOK ile bulunur; sonra haftanın günü, geçen günlerin 7'ye bölümünden kalanla ilerler.
 Adım 1: EKOK(6, 10) = 30. Ortak nöbetler 30 günde bir gelir.
 Adım 2: 30 = 4 · 7 + 2 olduğundan her ortak nöbet, bir öncekinden 2 gün ileridedir.
-Adım 3: 1. nöbet Pazartesi. 2. nöbet Çarşamba, 3. nöbet Cuma, 4. nöbet Pazar (Pazartesi + 6 gün).
-Sağlama: 3 · 30 = 90 gün sonra: 90 = 12 · 7 + 6 ve Pazartesi'den 6 gün sonrası Pazar'dır.
+Adım 3: 1. nöbet pazartesi. 2. nöbet çarşamba, 3. nöbet cuma, 4. nöbet pazar (pazartesi + 6 gün).
+Sağlama: 3 · 30 = 90 gün sonra: 90 = 12 · 7 + 6 ve pazartesiden 6 gün sonrası pazardır.
 Sık yapılan hata: EBOB ya da çarpımı (60) EKOK sanmak; 1. ortak nöbeti sayma dışı bırakmak.
 Cevap B.`
 },
