@@ -109,6 +109,7 @@ Her ay okulda o tarihe kadar işlenen konulardan bir deneme yazılır (1. deneme
   - `kazanimSiniri: { <konu-id>: [kazanım…] }` — okulda yarıda kalan konuda yalnızca o tarihe kadar işlenen kazanımlar (MEB yıllık planı, `planlama/kaynaklar/plan-*.txt`). Son hafta başlayan konu ya da kazanım girmez.
   - Seçim önceliği: geçilmiş kademenin yedeği → havuz (kademe 0) → konu testine girmeyen ana soru. Konu testinin 15 sorusuna ve geçilmemiş kademenin yedeğine dokunulmaz; düzey 1 girmez. Zorluk karması dersin LGS karmasından yeni soruların zorluğu düşülerek kurulur. Seçim deneme ve oturum kimliğiyle tohumlanır, oturum başlayınca sabitlenir. Kod: `js/app.js` → `denemeDinamik`.
 - Deneme dosyaları da üretim prosedüründen geçer (kör doğrulama, düzeltme, ana kontrol) ve `sorular/manifest.js`'e ancak doğrulandıktan sonra, açılış gününden önce eklenir.
+- **Yeni deneme soruları Fable ile yazılır (1 Kasım 2026 kararı, 3. denemeden itibaren).** 20 çiftlik kör karşılaştırmada Fable'ın soruları 18 çiftte önde çıktı; fark doğrulukta değil, zorluk etiketine ve gerçek LGS'ye uyumdaydı. Geri kalan bütün yazım Sonnet ile sürer. Fable'ın sorularını da kör doğrulama şarttır (tek geçişte yazdığı 20 sorunun üçünde kusur çıktı); doğrulamayı Sonnet ya da Opus yapar.
 
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)
 
