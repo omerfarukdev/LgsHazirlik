@@ -3,6 +3,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
 {
   id: "tur-pa-9926",
+  yazar: "fable",
   kazanim: "T.8.3.23",
   kademe: 0,
   zorluk: 4,
@@ -15,6 +16,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 },
 {
   id: "tur-pa-9927",
+  yazar: "fable",
   kazanim: "T.8.3.18",
   kademe: 0,
   zorluk: 3,
@@ -27,6 +29,7 @@ window.LGS_BANK = window.LGS_BANK || {};
 },
 {
   id: "tur-pa-9928",
+  yazar: "fable",
   kazanim: "T.8.3.18",
   kademe: 0,
   zorluk: 2,

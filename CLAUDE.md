@@ -109,7 +109,7 @@ Her ay okulda o tarihe kadar işlenen konulardan bir deneme yazılır (1. deneme
   - `kazanimSiniri: { <konu-id>: [kazanım…] }` — okulda yarıda kalan konuda yalnızca o tarihe kadar işlenen kazanımlar (MEB yıllık planı, `planlama/kaynaklar/plan-*.txt`). Son hafta başlayan konu ya da kazanım girmez.
   - Seçim önceliği: geçilmiş kademenin yedeği → havuz (kademe 0) → konu testine girmeyen ana soru. Konu testinin 15 sorusuna ve geçilmemiş kademenin yedeğine dokunulmaz; düzey 1 girmez. Zorluk karması dersin LGS karmasından yeni soruların zorluğu düşülerek kurulur. Seçim deneme ve oturum kimliğiyle tohumlanır, oturum başlayınca sabitlenir. Kod: `js/app.js` → `denemeDinamik`.
 - Deneme dosyaları da üretim prosedüründen geçer (kör doğrulama, düzeltme, ana kontrol) ve `sorular/manifest.js`'e ancak doğrulandıktan sonra, açılış gününden önce eklenir.
-- **Yeni deneme soruları Fable ile yazılır (1 Kasım 2026 kararı, 3. denemeden itibaren).** 20 çiftlik kör karşılaştırmada Fable'ın soruları 18 çiftte önde çıktı; fark doğrulukta değil, zorluk etiketine ve gerçek LGS'ye uyumdaydı. Geri kalan bütün yazım Sonnet ile sürer. Fable'ın sorularını da kör doğrulama şarttır (tek geçişte yazdığı 20 sorunun üçünde kusur çıktı); doğrulamayı Sonnet ya da Opus yapar.
+- **Yeni deneme soruları Fable ile yazılır (1 Kasım 2026 kararı, 3. denemeden itibaren).** 20 çiftlik kör karşılaştırmada Fable'ın soruları 18 çiftte önde çıktı; fark doğrulukta değil, zorluk etiketine ve gerçek LGS'ye uyumdaydı. Paragraf dışındaki yazım Sonnet ile sürer (paragraf partileri 9 Kasım 2026'dan beri Fable ile; "Paragraf havuzu" bölümüne bak). Fable'ın sorularını da kör doğrulama şarttır (tek geçişte yazdığı 20 sorunun üçünde kusur çıktı); doğrulamayı Sonnet ya da Opus yapar.
 
 ### Metin biçimlendirme (soru, şık, hata, açıklama alanlarında)
 
@@ -165,6 +165,7 @@ Ders ders ayrıntılı tarifler (Fen'de öncüllü soru oranı, Türkçe'de meti
 - Metinler **tamamen özgün** yazılır. Alıntı, ders kitabı metni, tanınmış bir eserin yeniden yazımı kabul edilmez. Gerçek bir kişi metnin öznesi yapılmaz. Metindeki her olgusal bilgi doğru olmalıdır.
 - Metin uzunluğu zorluğa bağlıdır: düzey 1 → 40-60 sözcük, 2 → 60-100, 3 → 100-160, 4 → 150-200 (ya da iki metin/metin+tablo).
 - Çeldiriciler dört tipten gelir ve `hatalar` içinde adlandırılır: *metinde var ama ilgisiz*, *aşırı genelleme*, *kısmen doğru*, *ters yön*. Dört şık aynı uzunluk ve biçimde olur.
+- **Fable paragrafları önce gelir (9 Kasım 2026 kararı).** Paragraf partileri artık Fable ile yazılır; kör doğrulama ve son kontrolü Opus yapar. Fable'ın yazdığı her soru `id` satırından sonra `yazar: "fable",` alanı taşır; "Günün paragrafı" bu soruları kendi zorluk kovasında öteki taze sorulardan önce verir (`js/app.js` → `paragrafSorulari`). Zorluk karması ve kolaydan zora sıra değişmez.
 
 **Retorik çeşitlilik (doğrulamanın yakaladığı sistematik kusur).** Bir partideki metinler aynı kalıpta yazılırsa öğrenci metni okumadan doğruyu bulmaya başlar. Örneğin bir partide 20 metnin neredeyse hepsi "görünen kısım asıl iş değildir, asıl iş görünmeyen hazırlıktır" tezini işlemişti; bu durumda "gizli emek" diyen şık her seferinde doğru çıkıyordu. Bir partide şunları karıştır:
 

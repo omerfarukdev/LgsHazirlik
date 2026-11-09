@@ -1145,6 +1145,11 @@ var App = (function () {
     var kova = { 1: [], 2: [], 3: [], 4: [] };
     shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }))
       .forEach(function (q) { (kova[q.zorluk] || kova[2]).push(q); });
+    // Fable ile yazılan sorular (yazar: "fable") kendi zorluk kovasında öne alınır (9 Kasım 2026 kararı)
+    [1, 2, 3, 4].forEach(function (z) {
+      kova[z] = kova[z].filter(function (q) { return q.yazar === "fable"; })
+        .concat(kova[z].filter(function (q) { return q.yazar !== "fable"; }));
+    });
 
     // Hedef adetler (yuvarlama farkı orta düzeye)
     var hedef = {}, toplam = 0;
