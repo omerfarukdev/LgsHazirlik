@@ -62,9 +62,9 @@ Sık yapılan hata: Metinde geçen bir sözcüğü (su, çürüme) taşıyan ba�
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
   gorsel: null,
   secenekler: [
-    "Tahtanın her yarısı yalnızca bir sınıfa ayrılmıştır.",
+    "Tahtanın her yarısı yalnızca bir sınıf için ayrılmıştır.",
     "Büyük öğrenciler küçüklerin bütün derslerini üstlenir.",
-    "İki sınıfa aynı anda aynı konu anlatılır.",
+    "İki sınıfa aynı anda, tek tahtada aynı konu anlatılır.",
     "Birleştirilmiş sınıfta küçük öğrenciler dersten geri kalır."
   ],
   dogru: 0,
@@ -226,7 +226,7 @@ Sık yapılan hata: Alışık olmadığımız bir mesleğe ait gerçek bir işle
   ],
   dogru: 3,
   hatalar: [
-    "Çarpıtma: Metne göre arılar kovanı soğutmak için dereden su taşır, bal değil. Şık cümlenin yalnızca bir sözcüğünü değiştirir.",
+    "Kısmen doğru: Arıların sıcak günlerde kovanı soğutmak için bir şey taşıdığı doğrudur; ama metne göre taşıdıkları dereden aldıkları sudur, bal değil. Şık cümlenin yalnızca bir sözcüğünü değiştirir.",
     "Ters yön: Metne göre bal sıkarak değil, çerçeveler süzme makinesinde döndürülerek alınır; peteği bozan yöntem sıkmaktır.",
     "Ters yön: Metne göre arılar kışın kovanı terk etmez; kovanın içinde kümelenip birbirini ısıtır.",
     null
@@ -334,7 +334,7 @@ Sık yapılan hata: Sorunun sonucuna (motor eksik) çözüm aramak. Çözüm, so
   hatalar: [
     "Kısmen doğru: Bazı müşterilerin gitmesi metinde geçer; ama Mahir isteklerini önemsemez değil, 'Haklılar' diyerek onları anlar. Yalnızca veremeyeceği tadı satmaz.",
     null,
-    "Metinde yok: Kışın domatesli yemeğin yerini kök sebzeli yemekler alır; çeşidin azaldığı söylenmez, yalnızca değiştiği söylenir.",
+    "Kısmen doğru: Kışın menünün değiştiği doğrudur; ama domatesli yemeğin yerini kök sebzeli yemekler alır, yani çeşit azalmaz, değişir. Azalma metinde yoktur.",
     "Ters yön: Menü müşterilerin isteğine göre değil, mevsime göre değişir; müşteriler istese de domatesli yemek kışın listeye girmez."
   ],
   aciklama: `Adım 1: Yorum sorusunda kişi hakkında söylenecek yargı, onun metindeki sözlerinden ve davranışlarından çıkmalıdır. Mahir'in sözünü oku: 'Veremeyeceğim şeyi de satmam.' Davranışını oku: Müşteri kaybetmeyi göze alarak yemeği listeden kaldırır.
@@ -466,12 +466,12 @@ Sık yapılan hata: Boşluktan önceki tek cümleye bakıp karar vermek. 'Olsa b
   hatalar: [
     null,
     "Ters yön: Annesi seslenmesini ister; ama metnin son cümlesine göre Ece sessiz kalmayı sürdürür, boyun eğmez.",
-    "Çarpıtma: Ece ezilen domatesleri satmaz değil, ayrı kasada yarı fiyatına satar; müşteri kaybetmez, akşama doğru eski müşterileri geri gelir.",
+    "Kısmen doğru: Ece'nin ezilen domatesleri ayırdığı doğrudur; ama onları satmaz değil, ayrı kasada yarı fiyatına satar ve müşteri kaybetmez, akşama doğru eski müşterileri geri gelir.",
     "Kısmen doğru: Yan tezgâh yalnızca öğleye kadar daha çok satar; akşama doğru geçen haftanın müşterileri Ece'ye döner. 'Hep' sözcüğü metinle çelişir."
   ],
   aciklama: `Adım 1: Yorum sorusunda kişi hakkında söylenecek yargı, onun metindeki davranışlarından çıkmalıdır. Ece'nin davranışlarını sırala: Bağırmaz; ezik domatesi ayırıp ucuza satar; eksik tartıya domates ekler; bilmediğini söyler; ucuz olan tezgâhı gösterir.
 Adım 2: Bu davranışların ortak noktası nedir? Hepsi müşteriye doğruyu söylemek ve onu aldatmamaktır. Sonuç da metinde verilir: Eski müşteriler doğruca ona gelir. A şıkkı bu davranış ile sonucu birleştirir: Ece bağırmak yerine güven vermeyi seçmiştir.
-Adım 3: B son cümleyi ters çevirir; Ece sessiz kalmayı sürdürür. C 'ezilenleri ayırır' bilgisini 'satmaz' diye çarpıtır. D metnin yalnızca öğle bölümünü alır ve 'hep' diyerek akşam bölümünü siler; kısmen doğrudur.
+Adım 3: B son cümleyi ters çevirir; Ece sessiz kalmayı sürdürür. C 'ezilenleri ayırır' bilgisini 'satmaz' diye çarpıtır; ayırma doğru, satmama yanlıştır, yani kısmen doğrudur. D metnin yalnızca öğle bölümünü alır ve 'hep' diyerek akşam bölümünü siler; o da kısmen doğrudur.
 Sık yapılan hata: Metnin bir bölümündeki olumsuz görünen sonuca (öğleye kadar az satış) bakıp kişiyi başarısız yorumlamak. Yorum, metnin tamamındaki davranış ve sonuçlara göre yapılır. Cevap A.`
 },
 {
@@ -536,8 +536,8 @@ Sık yapılan hata: Metinde en çok yer tutan kişiyi (muhtesip) başlığa taş
   gorsel: null,
   secenekler: [
     "Masa tenisinde hızlı vuruş yapan oyuncu her zaman üstün olur.",
-    "Kesik verilen top masaya değince alçaktan kayar.",
-    "Anlatıcı ilk turnuvasında rakibin güçlü vuruşları yüzünden kaybetmiştir.",
+    "Kesik verilen top masaya değince sıçramak yerine alçaktan kayar.",
+    "Anlatıcı ilk turnuvasını rakibin güçlü vuruşları yüzünden kaybetmiştir.",
     "Anlatıcı, sonraki turnuvada sert vuruş yapmadan kazanmıştır."
   ],
   dogru: 1,
@@ -568,7 +568,7 @@ Sık yapılan hata: Metindeki bir sözcüğü (sert vuruş, turnuva) taşıyan �
   ],
   dogru: 2,
   hatalar: [
-    "Metinde yok: Metin aşamaların zorluğunu karşılaştırmaz; hangisinin en zor olduğu söylenemez.",
+    "Aşırı genelleme: Metin aşamaların zorluğunu karşılaştırmaz; birini 'en zor' ilan etmek metnin söylediğini aşar.",
     "Aşırı genelleme: Çevirme, camın bir yana sarkmasını önler; yer çekimini ortadan kaldırmaz. Metin 'çevrilmeyen boruda sarkar' der, çevrilende etkilenmez demez.",
     null,
     "Ters yön: Metne göre hızlı soğuyan cam daha sert olmaz, iç gerilim nedeniyle çatlar."
@@ -596,14 +596,14 @@ II. Metin: Tarihî dizilerde kurgu ile gerçek iç içe verilir; izleyici ikisin
   dogru: 3,
   hatalar: [
     "Ters yön: II. metin dizilerin gerçeğe dayandığını değil, kurgu ile gerçeği karıştırdığını söyler; kurguyu asıl sorun eden metin II'dir.",
-    "Kısmen doğru ve çarpıtma: I. metin öğretmene kurguyu açıklama görevi verir, önemsiz bulmaz; II. metin yasaklama önermez, düzeltme ister.",
-    "Çarpıtma: İki metin de dizileri öğrenmeyle ilişkilendirir; hiçbiri diziyi yalnızca eğlence aracı saymaz.",
+    "Kısmen doğru: I. metin öğretmene kurguyu açıklama görevi verir, önemsiz bulmaz; II. metin yasaklama önermez, düzeltme ister.",
+    "Ters yön: I. metin diziyi eğlence değil, bilgiyi kalıcı kılan bir öğrenme aracı olarak görür; II. metin de diziyi öğrenmeyle ilişkilendirir. Hiçbiri diziyi yalnızca eğlence aracı saymaz.",
     null
   ],
   aciklama: `Adım 1: Karşılaştırma sorusunda önce her metnin ana yargısını bir cümleyle yaz. I. metin: Diziler merak uyandırır ve bilgiyi kalıcı kılar; kurgu bu yararı bozmaz. II. metin: Diziler kurgu ile gerçeği karıştırır; yararı ancak düzeltme yapılırsa ortaya çıkar.
 Adım 2: Ortak noktaları ayıkla, çünkü fark sorulmuştur. İkisi de dizinin ilgi uyandırdığını ve kurgu içerdiğini kabul eder; ikisi de öğretmenden söz eder. Fark bunlarda değildir.
 Adım 3: Fark, yararın koşula bağlı olup olmamasındadır. I. metinde yarar kendiliğindendir, kurgu 'ortadan kaldırmaz'. II. metinde yarar 'ancak ... düzeltmesiyle ortaya çıkar'. D şıkkı bu farkı tam söyler.
-Adım 4: A, II. metnin tutumunu ters çevirir. B iki metni de abartır; 'tamamen yasaklama' metinde yoktur. C iki metnin de söylemediği bir ayrım kurar.
+Adım 4: A, II. metnin tutumunu ters çevirir. B iki metni de abartır; 'tamamen yasaklama' metinde yoktur, kısmen doğrudur. C, I. metnin tutumunu ters çevirir: I. metin diziyi eğlence değil öğrenme aracı sayar.
 Sık yapılan hata: İki metnin aynı sözcükleri (kurgu, öğretmen) kullanmasına bakıp farkı o sözcüklerde aramak. Fark, sözcüklerde değil yargının koşulundadır: 'kaldırmaz' ile 'ancak ... ortaya çıkar' arasındaki farkı oku. Cevap D.`
 },
 {
@@ -611,21 +611,15 @@ Sık yapılan hata: İki metnin aynı sözcükleri (kurgu, öğretmen) kullanmas
   kazanim: "T.8.3.17",
   kademe: 0,
   zorluk: 4,
-  soru: `Restoratör Ferit, yüz yılı aşkın taş okul binasının onarımını üstlendiğinde ilk işi binaya dokunmamak oldu. İki ay boyunca duvarları fotoğrafladı, her taşın çatlağını çizdi, hangi taşların sonradan değiştirildiğini belirledi. Belediye yetkilileri sabırsızlanıyordu: 'Taşları yenileyin, bina yeni gibi olsun.' Ferit karşı çıktı. Ona göre onarımın amacı binayı yeni gibi göstermek değil, ömrünü uzatırken geçmişinin izlerini korumaktı. Çürüyen taşları aynı ocaktan çıkarılan taşlarla değiştirdi; ama yeni taşların yüzeyini eskilerinden hafifçe farklı işledi ve her birinin yerini bir deftere kaydetti. Böylece elli yıl sonra binaya bakan biri, hangi taşın yüz yıllık, hangisinin elli yıllık olduğunu ayırt edebilecekti. Duvarları temizlerken de basınçlı su yerine yumuşak fırça kullandı; sert temizlik, taşın yüzeyindeki yaşlanma izlerini de götürürdü. Cephedeki eski bir kazımayı da silmedi; 1950'lerde bir öğrencinin taşa kazıdığı adı ince bir camla kapattı. Onarım bitince bina pırıl pırıl görünmüyordu; ama ayakta duruyordu ve geçirdiği yüz yılın her katmanı okunabiliyordu. Belediye başkanı açılışta 'Bina hiç değişmemiş.' dediğinde Ferit, bunu işittiği en iyi övgü saydı.
-**Bu parçanın ana fikri aşağıdakilerden hangisidir?**`,
+  soru: "Restoratör Ferit, yüz yılı aşkın taş okul binasının onarımını üstlendiğinde ilk işi binaya dokunmamak oldu. İki ay boyunca duvarları fotoğrafladı, her taşın çatlağını çizdi, hangi taşların sonradan değiştirildiğini belirledi. Belediye yetkilileri sabırsızlanıyordu: 'Taşları yenileyin, bina yeni gibi olsun.' Ferit karşı çıktı. Ona göre onarımın amacı binayı yeni gibi göstermek değil, ömrünü uzatırken geçmişinin izlerini korumaktı. Çürüyen taşları aynı ocaktan çıkarılan taşlarla değiştirdi; ama yeni taşların yüzeyini eskilerinden hafifçe farklı işledi ve her birinin yerini bir deftere kaydetti. Böylece elli yıl sonra binaya bakan biri, hangi taşın binayla yaşıt, hangisinin sonradan konmuş olduğunu ayırt edebilecekti. Duvarları temizlerken de basınçlı su yerine yumuşak fırça kullandı; sert temizlik, taşın yüzeyindeki yaşlanma izlerini de götürürdü. Cephedeki eski bir kazımayı da silmedi; 1950'lerde bir öğrencinin taşa kazıdığı adı ince bir camla kapattı. Onarım bitince bina pırıl pırıl görünmüyordu; ama ayakta duruyordu ve geçirdiği yüz yılın her katmanı okunabiliyordu. Belediye başkanı açılışta 'Bina hiç değişmemiş.' dediğinde Ferit, bunu işittiği en iyi övgü saydı.\n**Bu parçanın ana fikri aşağıdakilerden hangisidir?**",
   gorsel: null,
-  secenekler: [
-    "İyi bir onarım, yapıyı yenilerken geçmişinin izlerini okunur biçimde korur.",
-    "Tarihî yapılar onarılırken yalnızca aynı ocaktan çıkan taş kullanılmalıdır.",
-    "Onarıma başlamadan önce yapının ayrıntılı biçimde belgelenmesi gerekir.",
-    "Yetkililerle anlaşamayan bir restoratör işini kendi bildiği gibi yapmalıdır."
-  ],
+  secenekler: ["İyi bir onarım, yapının ömrünü uzatırken geçmişinin izlerini okunur biçimde korur.","Tarihî yapılar onarılırken yalnızca aynı ocaktan çıkan taş kullanılmalıdır.","Onarıma başlamadan önce yapının ayrıntılı biçimde belgelenmesi gerekir.","Yetkililerle anlaşamayan bir restoratör işini kendi bildiği gibi yapmalıdır."],
   dogru: 0,
   hatalar: [
     null,
     "Metinde var ama ilgisiz: Aynı ocaktan taş metinde geçer; ama bu, Ferit'in yöntemlerinden yalnızca biridir. Üstelik metin yeni taşları eskilerinden ayırt edilir yaptığını vurgular; 'yalnızca' sözcüğü metinde yoktur.",
     "Metinde var ama ilgisiz: Belgeleme metnin ilk bölümünde anlatılır; ama bu, onarımın bir adımıdır. Parçanın ikinci yarısı (ayırt edilir taşlar, saklanan kazıma, 'hiç değişmemiş' övgüsü) ana düşüncenin izleri korumak olduğunu gösterir.",
-    "Çarpıtma: Ferit yetkililere karşı çıkar; ama metin bunu bir kural olarak sunmaz, onarım anlayışını anlatır."
+    "Aşırı genelleme: Ferit yetkililere karşı çıkar; ama metin bu tek olayı bir kural olarak sunmaz, onarım anlayışını anlatır."
   ],
   aciklama: `Adım 1: Ana fikir, parçanın bütününü özetleyen düşüncedir. Uzun metinde ana fikri bulmak için yazarın kahramana söylettiği ilke cümlesini ara: 'onarımın amacı ... ömrünü uzatırken geçmişinin izlerini korumaktı'.
 Adım 2: Bu ilkenin metnin geri kalanıyla desteklenip desteklenmediğini kontrol et: Yeni taşlar ayırt edilir işlenir, yerleri deftere yazılır, öğrencinin kazıması saklanır, 'hiç değişmemiş' sözü övgü sayılır. Hepsi aynı düşünceyi destekler. A şıkkı bu düşünceyi genel biçimde söyler.
