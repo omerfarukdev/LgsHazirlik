@@ -454,7 +454,7 @@ var App = (function () {
   function anaSayfa() {
     guncellemeKontrol(); // yeni sürüm yayındaysa ana sayfaya dönüşte sessizce yüklenir
     var gecmis = Store.get("gecmis", []);
-    var aktif = Store.get("aktif", null);
+    var aktif = aktifOku();
     var gun = kalanGun();
     var genel = genelIlerleme(); // güneşin yüksekliği geçilen kademe oranına bağlı
     var soz = GUNUN_SOZU[Math.floor(Date.now() / 86400000) % GUNUN_SOZU.length];
@@ -987,7 +987,7 @@ var App = (function () {
     var qid = S.sorular[S.idx];
     S.hatirlat = S.hatirlat || {};
     S.hatirlat[qid] = true;
-    Store.set("aktif", S);
+    if (!aktifYaz()) return;
     var t = Store.get("hatirlat", {}), x = t[h.id] || { hap: h.hap, ad: h.ad, kez: 0, don: 0, toplam: 0 };
     x.kez++; x.son = Date.now();
     t[h.id] = x;
@@ -1648,7 +1648,7 @@ var App = (function () {
         var et = $("#sure-etiket");
         if (et) et.textContent = sureEtiketi();
       }
-      if (S.gecen % 5 === 0) Store.set("aktif", S);
+      if (S.gecen % 5 === 0 && !aktifYaz()) return;
       if (sinirli() && S.gecen >= S.oneri && !S.sureDoldu) {
         S.sureDoldu = true;
         // Süre bitti: ya testi kes (gerçek sınav gibi) ya da aşıma geçip devam et.
@@ -1679,7 +1679,7 @@ var App = (function () {
   }
   function zamanlayiciDurdur() {
     if (sayac) { clearInterval(sayac); sayac = null; }
-    if (S) Store.set("aktif", S);
+    if (S) aktifYaz();
   }
   function testEkrani() {
     testCiz();
@@ -1691,7 +1691,7 @@ var App = (function () {
       S.sorular = S.sorular.filter(function (id) { return !!soruBul(id); });
       if (!S.sorular.length) { S = null; Store.set("aktif", null); return git("#/"); }
       S.idx = Math.min(S.idx, S.sorular.length - 1);
-      Store.set("aktif", S);
+      if (!aktifYaz()) return;
     }
     var q = soruBul(S.sorular[S.idx]);
     var kb = KONU[S.konu], n = S.sorular.length;
@@ -1737,7 +1737,7 @@ var App = (function () {
     var qid = S.sorular[S.idx];
     if (S.cevap[qid] === i) delete S.cevap[qid]; else S.cevap[qid] = i;
     S.son = Date.now();
-    Store.set("aktif", S);
+    if (!aktifYaz()) return;
     Bulut.yedekle(false); // en fazla 2 dakikada bir
     testCiz();
   }
@@ -1747,14 +1747,14 @@ var App = (function () {
     var h = i !== S.idx && hatirlatGerekli();
     if (h) return hatirlatAc(h, i);
     S.idx = i;
-    Store.set("aktif", S);
+    if (!aktifYaz()) return;
     testCiz();
     window.scrollTo(0, 0);
   }
   function isaretle() {
     var qid = S.sorular[S.idx];
     if (S.isaret[qid]) delete S.isaret[qid]; else S.isaret[qid] = true;
-    Store.set("aktif", S);
+    if (!aktifYaz()) return;
     testCiz();
   }
   function bitir() {
@@ -1863,11 +1863,45 @@ var App = (function () {
     return kayit;
   }
 
+  // Başka sekmede biten test geri gelmesin (9 Kasım 2026). Site iki sekmede açıkken öğrenci testi
+  // birinde bitiriyor, açık kalan öbür sekmenin sayacı aynı testi her 5 saniyede "aktif" diye geri
+  // yazıyordu; aynı 25 paragraf 6-9 Kasım arasında 4 kez yeniden açıldı, süreler de 200 dakikayı aştı.
+  // Başladıktan sonra aynı sorularla kaydedilmiş bir sonucu olan test bitmiş sayılır.
+  function testBitti(a) {
+    if (!a || !a.sorular) return false;
+    var anahtar = a.sorular.join(","), bas = a.basla || 0;
+    return Store.get("gecmis", []).some(function (k) {
+      return k.ts >= bas && k.sorular && k.sorular.length === a.sorular.length && k.sorular.join(",") === anahtar;
+    });
+  }
+  function aktifOku() {
+    var a = Store.get("aktif", null);
+    if (a && testBitti(a)) { Store.set("aktif", null); return null; }
+    return a;
+  }
+  // Bu sekmedeki test bitmişse ya da başka sekmede daha yeni bir test başlamışsa test bırakılır.
+  function eskiyseBirak() {
+    if (!S) return true;
+    var kayitli = Store.get("aktif", null);
+    var yeniBasladi = kayitli && kayitli.basla && S.basla && kayitli.basla > S.basla;
+    if (!yeniBasladi && !testBitti(S)) return false;
+    if (!yeniBasladi) Store.set("aktif", null);
+    S = null;
+    if (sayac) { clearInterval(sayac); sayac = null; }
+    if (location.hash.indexOf("#/test") === 0) git("#/");
+    return true;
+  }
+  function aktifYaz() {
+    if (eskiyseBirak()) return false;
+    Store.set("aktif", S);
+    return true;
+  }
+
   // Yarım kalan test varken yenisi başlatılırsa eskisi sessizce silinmesin (eskiden aktif test
   // üzerine yazılıyor, çözülen sorular hiçbir yere kaydedilmeden kayboluyordu). Öğrenciye sorulur.
   var bekleyenBaslat = null;
   function yarimTest() {
-    var a = S || Store.get("aktif", null);
+    var a = S || aktifOku();
     return a && a.cevap && Object.keys(a.cevap).length ? a : null;
   }
   function yarimSor(baslat) {
@@ -1886,12 +1920,12 @@ var App = (function () {
   function yarimDon() {
     modalKapat();
     bekleyenBaslat = null;
-    S = S || Store.get("aktif", null);
+    S = S || aktifOku();
     git("#/test");
   }
   function yarimBitir() {
     modalKapat();
-    S = S || Store.get("aktif", null);
+    S = S || aktifOku();
     if (S) testKaydet(true);
     var f = bekleyenBaslat;
     bekleyenBaslat = null;
@@ -1899,7 +1933,7 @@ var App = (function () {
   }
   // Ana sayfadaki yarım test kartından: testi burada bitir (işaretlenenler kaydedilir).
   function yarimKapat() {
-    var a = S || Store.get("aktif", null);
+    var a = S || aktifOku();
     if (!a) return git("#/");
     var say = Object.keys(a.cevap || {}).length;
     if (!say) { S = null; Store.set("aktif", null); return git("#/"); } // hiç işaretlenmemiş: kaydedecek bir şey yok
@@ -1910,7 +1944,7 @@ var App = (function () {
   }
   function yarimKapatOnay() {
     modalKapat();
-    S = S || Store.get("aktif", null);
+    S = S || aktifOku();
     if (!S) return git("#/");
     var kayit = testKaydet(true);
     incFiltre = "hepsi";
@@ -2469,7 +2503,7 @@ var App = (function () {
     if (p[0] === "yanlislar") return yanlislarEkrani();
     if (p[0] === "deneme" && denemeBilgi(p[1])) return denemeEkrani(p[1], +p[2] || 0);
     if (p[0] === "test") {
-      S = S || Store.get("aktif", null);
+      S = S || aktifOku();
       if (S && soruBul(S.sorular[S.idx])) return testEkrani();
     }
     if (p[0] === "sonuc") {
@@ -2531,7 +2565,7 @@ var App = (function () {
       if (sessionStorage.getItem("lgs_yenilendi") === surum) return;
       sessionStorage.setItem("lgs_yenilendi", surum);
     } catch (e) {}
-    if (S) Store.set("aktif", S);
+    if (S) aktifYaz();
     location.reload();
   }
 
@@ -2540,12 +2574,15 @@ var App = (function () {
     window.addEventListener("hashchange", yonlendir);
     document.addEventListener("keydown", klavye);
     window.addEventListener("beforeunload", zamanlayiciDurdur);
+    window.addEventListener("storage", function (e) {
+      if (S && (e.key === "lgs_gecmis" || e.key === "lgs_aktif")) eskiyseBirak();
+    });
     // Kapak kapanırken / sekme gizlenirken yarım testin son hâli panele gitsin;
     // sekme yeniden görünür olunca yeni sürüm var mı bakılsın
     document.addEventListener("visibilitychange", function () {
       if (document.visibilityState === "visible") return guncellemeKontrol();
       if (!yarimTest()) return;
-      if (S) Store.set("aktif", S);
+      if (S && !aktifYaz()) return;
       if (Date.now() - Bulut.sonYedek > 15000) Bulut.yedekle(true, true);
     });
     yonlendir();
