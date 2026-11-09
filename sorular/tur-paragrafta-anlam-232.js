@@ -1,7 +1,7 @@
 // Türkçe — Paragrafta Anlam | Havuz partisi 232 (tur-pa-7226…7250) | Alan karması: ulaşım, sağlık, okul, kurs, teknoloji, tarih, spor, doğa, tarım, seyahat, meslek, sanat, ekonomi, şehir hayatı
 window.LGS_BANK = window.LGS_BANK || {};
 (window.LGS_BANK["paragrafta-anlam"] = window.LGS_BANK["paragrafta-anlam"] || []).push(
-{ id: "tur-pa-7226", kazanim: "T.8.3.16", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7226", yazar: "fable", kazanim: "T.8.3.16", kademe: 0, zorluk: 1,
   soru: `Bir şehirde otobüs duraklarına geçen ay yeni tabelalar takıldı. Tabelada hangi hattın kaç dakika sonra geleceği yazıyor; bilgi, otobüslerdeki konum cihazından anlık olarak geliyor. Yolcular artık yolun başına çıkıp otobüs gözlemek yerine bankta oturup bekliyor. Tabela, hat yoğun saatlerde gecikirse bunu da kısa bir notla gösteriyor; böylece bekleyenler neyle karşılaşacağını önceden biliyor.
 
 **Bu parçada aşağıdakilerin hangisinden söz edilmektedir?**`,
@@ -17,7 +17,7 @@ Adım 3: Çeldiricileri iki soruyla ele: “Metinde geçiyor mu?” ve “Soru k
 
 Sık yapılan hata: Metinde geçen bir sözcüğü (gecikme, konum cihazı) görüp o sözcüğün bulunduğu şıkkı işaretlemek. Konu, bir sözcüğün değil bütün cümlelerin buluştuğu yerdir. Cevap C.` },
 
-{ id: "tur-pa-7227", kazanim: "T.8.3.17", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7227", yazar: "fable", kazanim: "T.8.3.17", kademe: 0, zorluk: 1,
   soru: `Geçen yaz mahalle kültür merkezinde iki günlük ilk yardım kursuna katıldım. Orada öğrendiğim en önemli şey şuydu: Bir kaza gördüğünde ilk iş yaralıya koşmak değil, ortamın güvenli olup olmadığına bakmak ve 112’yi aramaktır. Yardım etmek isterken kendimi de tehlikeye atabileceğim hiç aklıma gelmemişti. Şimdi yolda bir kaza görünce önce çevreme bakıyor, sonra telefona uzanıyorum.
 
 **Bu parçanın ana fikri aşağıdakilerden hangisidir?**`,
@@ -33,7 +33,7 @@ Adım 3: Çeldiricilere “Metinde geçiyor mu?” değil, “Yazar bunu söylem
 
 Sık yapılan hata: Metnin ilk cümlesindeki bilgiyi ana fikir sanmak. Ana fikir çoğu zaman yazarın “şunu anladım” dediği yerdedir. Cevap B.` },
 
-{ id: "tur-pa-7228", kazanim: "T.8.3.19", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7228", yazar: "fable", kazanim: "T.8.3.19", kademe: 0, zorluk: 1,
   soru: `Bazı sınıflarda pano, yalnızca duyuruların asıldığı bir yer olmaktan çıktı. “Haftanın sorusu” köşesinde her pazartesi bir öğrenci merak ettiği bir soruyu yazıyor; hafta boyunca cevabı bulanlar sorunun altına küçük notlar iliştiriyor. Cuma günü notlar hep birlikte okunuyor; bazıları birbirini tamamlıyor, bazıları düzeltiyor. Soruyu yazan öğrenci en inandırıcı cevabı seçiyor ve neden onu seçtiğini sınıfa anlatıyor.
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
@@ -52,7 +52,7 @@ Adım 2: Her başlığı iki soruyla tart: Metnin tamamını mı, bir parçasın
 
 Sık yapılan hata: Metinde en çok dikkat çeken ayrıntıyı (cuma okuması) başlık sanmak. Başlık bir ayrıntının değil, bütünün adıdır. Cevap D.` },
 
-{ id: "tur-pa-7229", kazanim: "T.8.3.18", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7229", yazar: "fable", kazanim: "T.8.3.18", kademe: 0, zorluk: 1,
   soru: `Halk eğitim merkezinin kapısında yeni bir kurs ilanı asılı: ahşap oyuncak yapımı. İlana göre kurs on iki hafta sürecek; her katılımcı dönem sonunda kendi yaptığı oyuncağı bir anaokuluna bağışlayacak. Malzemeler merkez tarafından karşılanıyor, katılımcıdan yalnızca kendi önlüğünü getirmesi isteniyor. Dersler akşam saatlerinde olduğu için gündüz çalışanlar da katılabiliyor.
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
@@ -68,7 +68,7 @@ Adım 3: Ötekileri ele. B metnin tersini söylüyor (malzeme merkezden). C oyun
 
 Sık yapılan hata: Şıkta tanıdık bir sözcük (anaokulu, malzeme) görünce metni yeniden kontrol etmeden işaretlemek. Yardımcı fikir için şıkkın yalnızca sözcüğü değil, yargısı da metinle tutmalı. Cevap A.` },
 
-{ id: "tur-pa-7230", kazanim: "T.8.3.21", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7230", yazar: "fable", kazanim: "T.8.3.21", kademe: 0, zorluk: 1,
   soru: `Kedimizi aşı için veterinere götürdük. Veteriner, kediyi hemen muayene masasına koymadı; önce bir süre kucağımda bekletti, onunla alçak sesle konuştu, evden getirdiğimiz havluyu masaya serdi. Babam neden bu kadar beklediğimizi sorunca “Acele eden eller korkutur.” dedi. Kedi masaya geçince hiç direnmedi, iğneyi fark etmedi bile.
 
 **Veterinerin “Acele eden eller korkutur.” sözüyle anlatmak istediği aşağıdakilerden hangisidir?**`,
@@ -85,7 +85,7 @@ Adım 4: Çeldiricileri ele. B sözü “uzun sürsün” diye okuyor; oysa ama�
 
 Sık yapılan hata: Sözü tek başına okuyup içindeki bir sözcüğe (korkmak, iğne) yakın şıkkı seçmek. Sözün anlamı, sözün öncesi ve sonrasında saklıdır. Cevap A.` },
 
-{ id: "tur-pa-7231", kazanim: "T.8.3.25", kademe: 0, zorluk: 1,
+{ id: "tur-pa-7231", yazar: "fable", kazanim: "T.8.3.25", kademe: 0, zorluk: 1,
   soru: `(I) İtfaiye araçlarının çoğunun kırmızı olması bir rastlantı değildir. (II) Kırmızı, gün ışığında uzaktan kolay seçilen renklerden biridir. (III) İtfaiyeciler her yıl belirli saatlerde yangın tatbikatı yapmak zorundadır. (IV) Bazı ülkelerde ise araçlar sarı-yeşil renge boyanır; bu renk alacakaranlıkta daha iyi görülür. (V) Hangi renk seçilirse seçilsin amaç aynıdır: aracın yolda hemen fark edilmesi.
 
 **Bu parçada numaralanmış cümlelerden hangisi anlatımın akışını bozmaktadır?**`,
@@ -102,7 +102,7 @@ Adım 4: IV. cümleye dikkat: Farklı bir renkten söz ettiği için bozucu san�
 
 Sık yapılan hata: Konuyla aynı alanda (itfaiye) olan cümleyi konuya ait sanmak. Ölçüt alan değil, metnin işlediği düşüncedir. Cevap C.` },
 
-{ id: "tur-pa-7232", kazanim: "T.8.3.18", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7232", yazar: "fable", kazanim: "T.8.3.18", kademe: 0, zorluk: 2,
   soru: `Eski kentlerde sarnıçlar yağmur suyunu biriktirmek için yapılırdı. Damlardan ve avlulardan toplanan su, taş oluklarla yer altındaki hazneye akardı. Haznenin serin ve karanlık olması, suyun uzun süre bozulmadan kalmasını sağlardı. Bazı sarnıçların tavanı sıra sıra sütunlarla taşınır; bu yüzden içeri inenler kendilerini geniş bir salonda sanırdı. Kurak aylarda mahalle çeşmelerinin suyu azalınca sarnıçlar devreye girer, mahalleli suyu kovalarla buradan çekerdi. Bugün bu yapıların bir bölümü sergi alanı olarak kullanılıyor; ziyaretçiler, suyun yüzyıllar önce ne kadar değerli olduğunu bu serin salonlarda hissediyor.
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biri __değildir__?**`,
@@ -122,7 +122,7 @@ Adım 3: Dikkat: D akla yatkın bir bilgi olabilir; ama soru “doğru mu?” de
 
 Sık yapılan hata: Mantıklı görünen bir bilgiyi metinde varmış gibi kabul etmek. Yardımcı fikir metinden çıkar, genel bilgiden değil. Cevap D.` },
 
-{ id: "tur-pa-7233", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7233", yazar: "fable", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
   soru: `Teknoloji ve Tasarım dersinde okulun üç boyutlu yazıcısıyla bir kalemlik tasarladım. Ekranda kusursuz görünüyordu; köşeleri düzgün, tabanı dümdüz. Yazıcı üç saat çalıştı, ortaya çıkan kalemlik masada yamuk durdu. Tabanı ekrandan bakarak düz sanmış, bir kez bile ölçmemiştim. İkinci denemede her kenarı cetvelle ölçtüm, sayıları dosyaya tek tek girdim, iki parçanın birleştiği yeri kâğıt üzerinde çizip kontrol ettim. Bu kez yazıcı bir saat daha uzun çalıştı ama kalemlik masaya dümdüz oturdu. O günden beri ekranda ne kadar güzel görünürse görünsün, bir tasarımı ölçmeden yazıcıya göndermiyorum.
 
 **Bu parçanın ana fikri aşağıdakilerden hangisidir?**`,
@@ -138,7 +138,7 @@ Adım 3: Çeldiricileri “Metinde geçiyor mu?” değil, “Yazar bunu anlatma
 
 Sık yapılan hata: Metinde geçen doğru bir bilgiyi (kalemlik yapıldı) ana fikir sanmak. Ana fikir “ne yapıldı” değil, “bundan ne anlaşılmalı” sorusuna cevap verir. Cevap A.` },
 
-{ id: "tur-pa-7234", kazanim: "T.8.3.21", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7234", yazar: "fable", kazanim: "T.8.3.21", kademe: 0, zorluk: 2,
   soru: `Son yıllarda yalnızca dinlemek için hazırlanan ses yayınları çoğaldı. Bir tarihçi, bir aşçı ya da bir dağcı mikrofonun karşısına geçip bildiğini saatlerce anlatabiliyor. Kimileri bu yayınların kitabı gereksiz kılacağından kaygılanıyor. Oysa dinlemek ile okumak ayrı zamanların işidir: Biri yolda, mutfakta, otobüste yapılır; öteki masa başında, sessizlikte. Üstelik bu yayınların çoğu dinleyeni sonunda bir kitaba götürüyor: Konuşmacı bir kaynaktan söz ediyor, dinleyen gidip onu arıyor. Kaygılananların gözden kaçırdığı şey, yeni bir alışkanlığın eskisini silmek yerine ona kapı da açabileceği.
 
 **Bu parçanın yazarının ses yayınlarına karşı tutumu için aşağıdakilerden hangisi söylenebilir?**`,
@@ -154,7 +154,7 @@ Adım 3: Çeldiricileri ele. A başkalarının kaygısını yazara yüklüyor. C
 
 Sık yapılan hata: Metnin başındaki görüşü yazarın görüşü sanmak. “Oysa, ancak, ne var ki” gibi sözcükler çoğu zaman yazarın asıl düşüncesinin başladığı yeri gösterir. Cevap B.` },
 
-{ id: "tur-pa-7235", kazanim: "T.8.3.19", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7235", yazar: "fable", kazanim: "T.8.3.19", kademe: 0, zorluk: 2,
   soru: `Belediyenin bu ay kapılara bıraktığı duyuruda, mahalle parkındaki eski çeşmenin yeniden çalıştırılacağı yazıyor. Çeşme on beş yıldır kuru; boruları değiştirilecek, suyu şebekeden değil parkın altındaki eski kuyudan gelecek. Duyuruda dikkat çeken bir ayrıntı daha var: Çeşmenin taş yalağı olduğu gibi korunacak, çünkü üzerindeki tarih mahallenin kuruluş yılını gösteriyor. Yalağın yanına çeşmenin öyküsünü anlatan küçük bir levha konacak. Belediye, açılış gününe gelenlerden eski mahalle fotoğraflarını getirmelerini istiyor; fotoğraflar bir hafta boyunca levhanın yanındaki panoda sergilenecek.
 
 **Bu parçaya en uygun başlık aşağıdakilerden hangisidir?**`,
@@ -173,7 +173,7 @@ Adım 2: Her başlığı iki soruyla tart: Metnin tamamını mı, bir parçasın
 
 Sık yapılan hata: Metnin en somut ayrıntısını (fotoğraf, kuyu) başlık yapmak. Başlık ayrıntının değil bütünün adıdır. Cevap A.` },
 
-{ id: "tur-pa-7236", kazanim: "T.8.3.25", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7236", yazar: "fable", kazanim: "T.8.3.25", kademe: 0, zorluk: 2,
   soru: `Dağ yürüyüşüne çıkmadan önce orman işletmesinden kâğıt harita aldım. Arkadaşlarım güldü; telefondaki harita uygulaması zaten herkeste vardı. Yolun yarısında iki patikanın ayrıldığı yere geldik. Uygulama sağdaki kısa patikayı gösteriyordu; kâğıt haritada ise o patikanın üstünde görevlinin elle çizdiği bir çarpı vardı: Patika geçen haftaki heyelandan sonra kapatılmıştı. Soldan dolaştık, bir saat geç kaldık ama kampa güvenle vardık. Uygulamayı hâlâ kullanıyorum; ancak artık - - - -.
 
 **Bu parçada boş bırakılan yere düşüncenin akışına göre aşağıdakilerden hangisi getirilmelidir?**`,
@@ -190,7 +190,7 @@ Adım 4: Dikkat: Yazarın baştaki kararı (kâğıt harita) doğru çıktı; me
 
 Sık yapılan hata: Metinde geçen çarpıcı bir sözcüğü (heyelan) taşıyan şıkkı seçmek. Tamamlayan cümle sözcük değil, düşünce zincirinin sonucudur. Cevap C.` },
 
-{ id: "tur-pa-7237", kazanim: "T.8.3.20", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7237", yazar: "fable", kazanim: "T.8.3.20", kademe: 0, zorluk: 2,
   soru: `Sabah karanlığında dedemle balıkçı barınağına indik. Deniz çarşaf gibiydi; ama dedem ufuktaki ince bulutlara bakıp öğleden sonra lodosun döneceğini söyledi ve ağları her zamankinden erken toplamaya karar verdi. İki saat açıkta kaldık. Saat on bire doğru rüzgâr gerçekten yön değiştirdi, dalgalar kayığın burnunu dövmeye başladı. Dedem telaşsızca dümeni kıyıya kırdı. Barınağa döndüğümüzde komşu kayık hâlâ açıktaydı; sahibi telefonundaki hava uygulamasına bakıp çıkmıştı. Dedem telsizle barınağa haber verdi; yarım saat sonra o kayık da yedeğe alınıp kıyıya getirildi.
 
 **Bu parçanın hikâye unsurlarıyla ilgili aşağıdakilerden hangisi __söylenemez__?**`,
@@ -210,7 +210,7 @@ Adım 3: Dikkat: Komşu kayığın sahibinin uygulamaya güvenmesini anlatıcıy
 
 Sık yapılan hata: Metinde geçen bir karşıtlığı (dedenin gözlemi ile uygulama) anlatıcının kendi duygusu sanmak. Hikâye unsuru sorusunda her yargıyı metindeki cümleye dayandır; akla yatkın olan değil, yazılı olan geçerlidir. Cevap C.` },
 
-{ id: "tur-pa-7238", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7238", yazar: "fable", kazanim: "T.8.3.17", kademe: 0, zorluk: 2,
   soru: `Bir ilçede boş arsaya park yapılmasına karar verildiğinde plancılar hemen çizime oturmadı. Arsa zaten yıllardır kestirme olarak kullanılıyordu; otların arasında insanların ayaklarıyla açtığı patikalar vardı. Plancılar bir ay boyunca bu patikaları işaretledi, hangisinin sabah, hangisinin akşam kalabalık olduğunu not etti. Parkın yürüyüş yolları, cetvelle çizilmiş düz çizgiler yerine bu patikaların üzerine döküldü. Bankların yeri de patikaların kesiştiği, insanların zaten durup konuştuğu noktalara göre belirlendi. Park açıldığında kimse çimlere basmak zorunda kalmadı; çünkü yollar, insanların gitmek istediği yerden geçiyordu.
 
 **Bu parçanın ana fikri aşağıdakilerden hangisidir?**`,
@@ -226,7 +226,7 @@ Adım 3: Çeldiricilere “Metinde geçiyor mu?” değil, “Metnin bütünü b
 
 Sık yapılan hata: Metinde geçen doğru ve somut bir cümleyi (bankların yeri) ana fikir sanmak. Ana fikir, o somut cümlenin neden söylendiğini açıklayan yargıdır. Cevap D.` },
 
-{ id: "tur-pa-7239", kazanim: "T.8.3.32", kademe: 0, zorluk: 4,
+{ id: "tur-pa-7239", yazar: "fable", kazanim: "T.8.3.32", kademe: 0, zorluk: 4,
   soru: `Bir ilçede her sonbahar halk koşusu düzenleniyor. Koşu uzun yıllar yalnızca 10 kilometrelik parkurda yapıldı; kayıtlar koşu sabahı elden alındı ve katılım ücretsizdi. 2024’te düzenleyiciler iki yenilik yaptı: Kayıtlar bir hafta önceden internetten alınmaya başlandı ve 10 kilometrelik parkurun yanına 5 kilometrelik kısa parkur eklendi. 2025’te bu iki uygulama sürdürüldü; ayrıca ilk kez küçük bir kayıt ücreti alındı ve bu para, bitiş çizgisini geçen herkese verilen madalyaların maliyetine harcandı. Koşunun tarihi ve başlangıç noktası dört yılda değişmedi. Her yıl kayıt yaptıran katılımcı sayısı ile bitiş çizgisini geçenlerin sayısı tabloya işlendi; düzenleyiciler, yeniliklerin ve ücretin etkisini bu sayılara bakarak tartışıyor.
 
 **Metin ve tablo birlikte değerlendirildiğinde aşağıdakilerden hangisine ulaşılabilir?**`,
@@ -244,7 +244,7 @@ Adım 5: Dikkat: “Her” geçen şık her zaman yanlış değildir; A ile B’
 
 Sık yapılan hata: Oran istenen şıkta sayıya, sayı istenen şıkta orana bakmak ve “her” sözcüğünü görür görmez şıkkı elemek. Her yargıyı tabloyla tek tek doğrula. Cevap B.` },
 
-{ id: "tur-pa-7240", kazanim: "T.8.3.23", kademe: 0, zorluk: 4,
+{ id: "tur-pa-7240", yazar: "fable", kazanim: "T.8.3.23", kademe: 0, zorluk: 4,
   soru: `**I. Metin**
 Yolculuğa çıkmadan önce her günün saatini planlayan gezginler vardır. Hangi müzeye kaçta girileceği, hangi lokantada ne yeneceği önceden yazılıdır. Bu gezginler dönüşte “Hiçbir şeyi kaçırmadık.” der ve haklıdırlar; çünkü plan, sınırlı zamanı en çok şeyin sığacağı biçimde böler. Beklenmedik bir yağmur ya da kapalı bir kapı programı bozsa bile ellerinde ikinci bir seçenek hazırdır. Onlara göre plansız gezmek, gidilen yeri değil yalnızca rastlantıları görmektir.
 
@@ -265,7 +265,7 @@ Adım 4: Çeldiricileri “Hangi metin için geçerli?” diye sına. A yalnızc
 
 Sık yapılan hata: Bir metinde doğru olan yargıyı “iki metin de” diye genişletmek. Karşılaştırma sorusunda şıktaki “iki metin de / her iki” ifadesi görülünce her metin ayrı ayrı kontrol edilir. Cevap B.` },
 
-{ id: "tur-pa-7241", kazanim: "T.8.3.32", kademe: 0, zorluk: 2,
+{ id: "tur-pa-7241", yazar: "fable", kazanim: "T.8.3.32", kademe: 0, zorluk: 2,
   soru: `İlçede çocuklara yönelik bir kodlama kursu, yeni dönem kayıtlarını artırmak için üç ay boyunca duyurusunu farklı yerlerde yaptı. Eylülde yalnızca okul çıkışlarında el ilanı dağıtıldı; ekimde yerel radyoda günde iki kez kısa bir reklam yayınlandı; kasımda ise belediyenin aylık bülteninde ilan çıktı. Kurs yöneticisi, kayıt yaptıran her veliye duyuruyu nereden gördüğünü sordu ve yalnızca o ayın duyurusunu gördüğünü söyleyenleri saydı. Üç aya ait sayılar grafikte gösterilmiştir. Her aydaki duyuru için harcanan para birbirine yakındı.
 
 **Metin ve grafik birlikte değerlendirildiğinde aşağıdakilerden hangisine ulaşılabilir?**`,
@@ -282,7 +282,7 @@ Adım 4: Ötekileri sına. A: Toplam tam 60; “aşmıştır” için 61 ve üst
 
 Sık yapılan hata: “Aşmıştır”, “fazladır” gibi sözcükleri eşitlik durumunu düşünmeden kabul etmek ve “en düşük gider” gibi bir yargıyı, metindeki harcama bilgisini grafikle birleştirmeden işaretlemek. Cevap C.` },
 
-{ id: "tur-pa-7242", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7242", yazar: "fable", kazanim: "T.8.3.18", kademe: 0, zorluk: 3,
   soru: `Mahallemizdeki nalburun camına geçen yıl küçük bir yazı asıldı: “Alet ödünç verilir.” Önce şaka sandım; bir nalbur neden sattığı şeyi ödünç versin? Raftaki matkaplara bakarken dükkânın sahibi Cemil Bey anlattı: Yılda bir kez duvara delik açacak biri matkap satın almasın, iki günlüğüne ücretsiz alıp getirsin istiyormuş. Ödünç alan, aletle birlikte bir de kullanım kâğıdı alıyor; geri getirirken kâğıdın arkasına aleti hangi işte kullandığını yazıyor. Cemil Bey bu kâğıtları bir deftere yapıştırıyor; defter, hangi aletin mahallede en çok işe yaradığını gösteriyor. Geçen kış en çok ödünç alınan alet, donan boruları çözmek için kullanılan boru ısıtıcısıymış. Ödünç alınan aletlerden bozulan olursa Cemil Bey onu kendisi tamir ediyor, ücret istemiyor; yalnızca kâğıdın arkasına nasıl bozulduğunun yazılmasını istiyor. Ben matkabı satın almadım; iki gün sonra geri getirdim, kâğıdın arkasına “balkon rafı” yazdım. Şimdi o defterde benim de bir satırım var.
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
@@ -298,7 +298,7 @@ Adım 3: Ötekileri ele. A metne ters: Alet ücretsiz, tamir ücretsiz. B yazar�
 
 Sık yapılan hata: Şıkta geçen “kâğıt”, “ücret” gibi metinde de geçen sözcükleri görünce yargıyı kontrol etmeden işaretlemek. Yardımcı fikirde sözcük değil, cümlenin yargısı metinle tutmalı. Cevap C.` },
 
-{ id: "tur-pa-7243", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7243", yazar: "fable", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
   soru: `Bir kazı alanında bulunan sikkeler, arkeologlar için takvim gibidir. Sikkenin üzerindeki yönetici adı ya da simge, o paranın hangi dönemde basıldığını gösterir; böylece sikkenin çıktığı toprak katmanı için “en erken” bir tarih belirlenir. Ancak bu tarih, katmanın kendi tarihi değildir; çünkü paralar basıldıktan sonra on yıllarca elden ele dolaşabilir. Bu yüzden arkeologlar tek sikkeyle yetinmez, aynı katmandan çıkan sikkelerin en yenisine bakar: Katman, en yeni sikkenin basıldığı tarihten daha eski olamaz. Aşınma da ipucu verir; kenarları silinmiş bir sikke uzun süre kullanılmış demektir. Kazı günlüğüne her sikkenin bulunduğu derinlik ve hemen yanındaki nesneler yazılır. Bir sikkenin kırık çömlek parçalarıyla aynı katmanda bulunması, o çömleğin de yaklaşık tarihini verir.
 
 **Bu parçadan aşağıdakilerden hangisine __ulaşılamaz__?**`,
@@ -318,7 +318,7 @@ Adım 3: Dikkat: Metin bir kuralı (“en erken tarih”) ve hemen ardından sı
 
 Sık yapılan hata: Kökteki “ulaşılamaz” sözcüğünü atlayıp metinde geçen ilk doğru bilgiyi işaretlemek. Olumsuz kökte doğru cevap, metne uymayan tek şıktır. Cevap A.` },
 
-{ id: "tur-pa-7244", kazanim: "T.8.3.17", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7244", yazar: "fable", kazanim: "T.8.3.17", kademe: 0, zorluk: 3,
   soru: `Bir çiftçi, tarlasındaki yabani otlarla yıllarca aynı ilaçla savaştı. İlk yıllarda ilaç otları kolayca kurutuyordu; ancak her yıl aynı ilaç kullanıldıkça dayanıklı otlar çoğaldı ve ilaç eskisi kadar etki etmez oldu. Çiftçi dozu artırdı; bir iki yıl sonuç iyi oldu, sonra aynı durum yeniden yaşandı. Bir ziraat mühendisi nedeni açıkladı: İlaca dayanan birkaç ot tohum bırakıyor, ertesi yıl tarlada çoğunlukla onların torunları bitiyordu. Yani ilaç, kendisine dayanıklı otları farkında olmadan seçip çoğaltıyordu. Mühendisin önerisiyle çiftçi hasattan sonra toprağı çıplak bırakmaktan vazgeçti; araya yonca ve fiğ gibi toprağı örten bitkiler ekti, ektiği ürünü her yıl değiştirdi. Örtü bitkileri güneşi kesince yabani otların çoğu çimlenemedi. Üç yıl sonra ilaç kullanımı başlangıçtakinin yarısına indi; verim ise değişmedi. Değişen tek şey tarlanın görünümüydü: Toprak artık hiçbir mevsim boş kalmıyordu.
 
 **Bu parçanın ana fikri aşağıdakilerden hangisidir?**`,
@@ -334,7 +334,7 @@ Adım 3: Çeldiricilere “Metinde geçiyor mu?” değil, “Metnin tamamı bun
 
 Sık yapılan hata: Metinde açıkça yazan bir cümleyi (dayanıklı otlar tohum bırakıyor) ana fikir sanmak. Metinde geçmesi yetmez; şık, metnin bütününün vardığı yargı olmalı. Cevap B.` },
 
-{ id: "tur-pa-7245", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7245", yazar: "fable", kazanim: "T.8.3.21", kademe: 0, zorluk: 3,
   soru: `Garın bekleme salonuna geçen ay bir piyano konuldu; üstünde “Çalabilen çalsın.” yazan küçük bir kart var. İlk hafta kimse yaklaşmadı; insanlar tuşlara bakıp geçti, ben de öyle yaptım. Sonra bir sabah, elinde bavuluyla bir kadın oturdu, iki dakikalık bir parça çaldı, treni anons edilince kalkıp gitti. Salondakiler alkışlamadı ama o iki dakika boyunca kimse telefonuna bakmadı. O günden beri piyano pek boş kalmıyor: Okul çantalı bir çocuk tek parmakla bir melodi arıyor, yaşlı bir adam her akşam aynı parçayı gözleri kapalı çalıyor, bir hamal paydosta iki tuşa basıp gülerek uzaklaşıyor. Geçen akşam ben de oturdum; bildiğim tek parçayı yarıda kestim. Kimse dönüp bakmadı; ama yanımdaki bankta oturan kadın çıkarken “Devamını öğrenin, bekleriz.” dedi. Bekleme salonu artık yalnızca beklenen yer değil.
 
 **Bu parçada yazarın “Bekleme salonu artık yalnızca beklenen yer değil.” sözüyle anlatmak istediği aşağıdakilerden hangisidir?**`,
@@ -351,7 +351,7 @@ Adım 4: Dikkat: Sözdeki “yalnızca … değil” kalıbı beklemenin bittiğ
 
 Sık yapılan hata: Piyano deyince ustalık ve konser düşünüp A’yı seçmek. Metnin örnekleri tam tersini, acemilerin bile dinlendiğini anlatıyor; şık metnin örnekleriyle sınanmalı. Cevap B.` },
 
-{ id: "tur-pa-7246", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7246", yazar: "fable", kazanim: "T.8.3.25", kademe: 0, zorluk: 3,
   soru: `Bir ortaokulda bu yıl ilk kez işitme taraması yapıldı. Taramadan önce öğretmenlerden, derste sık sık “Efendim?” diyen ya da arka sırada dikkati kolay dağılan öğrencileri listede işaretlemeleri istendi; amaç, taramanın gerçekten gerekli olup olmadığını görmekti. Sonuçlar listeyle örtüşmedi. İşaretlenen öğrencilerin büyük çoğunluğu testi sorunsuz geçti; buna karşılık ön sırada oturan, derse düzenli katılan iki öğrencide tek kulakta hafif işitme kaybı çıktı. Okul hemşiresi bunun şaşırtıcı olmadığını söyledi: Tek kulağıyla iyi duyan çocuk, kendisi bile fark etmeden sesin geldiği yöne dönmeyi öğrenir; sınıfta öne oturur, konuşanın yüzüne bakar, böylece eksiğini kapatır. Belirti göstermemesi, sorunu olmadığı anlamına gelmez. Tarama sonunda okul yönetimi her yıl bütün öğrencilerin taranmasına karar verdi; öğretmen gözlemi de taramayla birlikte sürdürülecek.
 
 **Bu parçadan aşağıdakilerden hangisi çıkarılabilir?**`,
@@ -368,7 +368,7 @@ Adım 4: Dikkat: D’deki “tek başına yeterli değil” ifadesi, gözlemin i
 
 Sık yapılan hata: Metindeki iki örnekten (iki öğrenci) genel bir kural (“ön sırada daha yaygın”) çıkarmak. Çıkarım metnin izin verdiği kadar ileri gider. Cevap D.` },
 
-{ id: "tur-pa-7247", kazanim: "T.8.3.32", kademe: 0, zorluk: 3,
+{ id: "tur-pa-7247", yazar: "fable", kazanim: "T.8.3.32", kademe: 0, zorluk: 3,
   soru: `Sahil kasabasında bir dondurmacı, satışlarının havayla birlikte yükselip alçaldığına inanıyor. Bunu sınamak için bu yaz dört ayın satışını kaydetti ve her ay için kasabanın ortalama sıcaklığını not etti: haziranda 24, temmuzda 29, ağustosta 30, eylülde 23 derece. Dört ayın satışları grafikte bin külah olarak gösterilmiştir. Ağustosun son iki haftasında dükkânın önündeki cadde, su borusu çalışması nedeniyle araç ve yaya geçişine kapatıldı. Dondurmacı en çok ağustosu merak ediyordu; çünkü o ay hem yazın en sıcak ayı hem de caddenin kapalı olduğu aydı. Ayrıca belediyeden, kasabaya gelen ziyaretçi sayısının temmuzda en yüksek olduğunu öğrendi.
 
 **Metin ve grafik birlikte değerlendirildiğinde aşağıdakilerden hangisine ulaşılabilir?**`,
@@ -385,7 +385,7 @@ Adım 4: Dikkat: Metin ağustos için iki olası neden sunuyor (sıcaklık, cadd
 
 Sık yapılan hata: Metinde “cadde kapandı” gibi çarpıcı bir olayı görüp, grafiği kontrol etmeden o ayı “en kötü ay” sanmak. Her yargıyı sayıyla doğrula. Cevap B.` },
 
-{ id: "tur-pa-7248", kazanim: "T.8.3.21", kademe: 0, zorluk: 4,
+{ id: "tur-pa-7248", yazar: "fable", kazanim: "T.8.3.21", kademe: 0, zorluk: 4,
   soru: `Mahalle kültür merkezinde kukla gösterisi olduğunu duyunca gitmeyi aklımdan bile geçirmedim; kukla, bana göre çocuk işiydi. Küçük kuzenimi götürmek zorunda kalınca en arka sıraya oturdum. Perde açıldı; sahnede bir fırıncı kuklasıyla çırağı, hamurun neden kabarmadığını tartışıyordu. Çocuklar gülüyordu, ben saatime bakıyordum. Sonra fırıncı çırağına “Bugün kabarmadı diye yarın mayayı atma.” dedi ve o anda salonda yalnızca yetişkinlerin güldüğünü fark ettim. Oyun aynı anda iki ayrı seyirciye konuşuyordu. O dakikadan sonra kuklaları değil, perdenin arkasını merak etmeye başladım. Gösteri bitince perdenin arkasına geçmemize izin verdiler: İki kuklayı tek bir kişi oynatıyordu; sesini ikiye bölüyor, bir eliyle fırıncıyı, ötekiyle çırağı konuşturuyordu. Üstelik kolları saatlerdir havadaydı, yüzünde yorgunluktan eser yoktu. Kuzenim kuklalara dokunmak istedi; ben kuklacının ellerine bakıyordum. Dönüş yolunda kuzenim “En çok hangisini sevdin?” diye sordu. Fırıncıyı ya da çırağı söylemem gerekiyordu; “İkisini de konuşturan elleri.” dedim. Anlamadı, ben de açıklamadım. Çocuk işi sandığım şey, meğer bir kişinin aynı anda iki kişi olabilmesiymiş. Gelecek ay yine gösteri varmış; bu kez kuzenim olmadan gideceğim.
 
 **Bu parçada yazarın kukla gösterisine karşı tutumundaki değişim için aşağıdakilerden hangisi söylenebilir?**`,
@@ -403,7 +403,7 @@ Adım 5: C ve D’yi ele: C metinde olmayan bir davranış uyduruyor. D yazarın
 
 Sık yapılan hata: Değişimin yönünü doğru bulup nedenini kontrol etmemek. Tutum sorularında “neden” kısmı da metinle tutmalı; metnin yalnızca ilk yarısına dayanan şık eksik kalır. Cevap A.` },
 
-{ id: "tur-pa-7249", kazanim: "T.8.3.18", kademe: 0, zorluk: 4,
+{ id: "tur-pa-7249", yazar: "fable", kazanim: "T.8.3.18", kademe: 0, zorluk: 4,
   soru: `Bir ilçede otuz küçük süt üreticisi, sütlerini yıllarca ayrı ayrı toplayıcılara satıyordu. Fiyatı toplayıcı tek başına belirliyor, üretici kabul etmek zorunda kalıyordu; çünkü süt bekleyemez, akşama kadar satılmazsa bozulur. Beş yıl önce üreticiler bir kooperatif kurdu. İlk iş olarak ortak bir soğutma tankı aldılar; süt artık birkaç gün bekleyebildiği için alıcıyla pazarlık etme imkânı doğdu. İkinci yıl kooperatif, sütün bir bölümünü kendi adıyla peynire dönüştürmeye başladı; böylece fiyat düştüğünde çiğ süt satmak yerine peynir yapmayı seçebiliyorlardı. Kooperatifin kuralları da dikkat çekiyor: Her ortak, kaç ineği olursa olsun yönetimde bir oya sahip; yıl sonu kârı ise teslim edilen süt miktarına göre paylaşılıyor. Ortaklar kârın bir kısmını dağıtmayıp yeni bir makine için biriktiriyor. Tankın yanına küçük bir ölçüm odası da kuruldu: Her ortağın sütü teslimde ölçülüyor, yağ oranı düşük çıkan süte daha az ödeniyor; böylece kimse sulandırılmış sütü ortak tanka karıştıramıyor. Son iki yılda ilçedeki süt fiyatı çevre ilçelerin üzerine çıktı; eskiden fiyatı dayatan toplayıcılar bile artık kooperatifle görüşerek alım yapıyor. Kooperatif yöneticisi en büyük kazancın fiyat değil, “yarın ne olacak” kaygısının azalması olduğunu söylüyor.
 
 **Aşağıdakilerden hangisi bu parçadaki yardımcı fikirlerden biridir?**`,
@@ -420,7 +420,7 @@ Adım 4: B’yi ele: Tankın amacı “süt bekleyebildiği için pazarlık”; 
 
 Sık yapılan hata: Birbirine yakın iki kuralı (oy, kâr) tek kural gibi hatırlamak. Uzun metinde her şıkkı metnin tam cümlesine dönüp kontrol et; hafızaya güvenme. Cevap D.` },
 
-{ id: "tur-pa-7250", kazanim: "T.8.3.32", kademe: 0, zorluk: 4,
+{ id: "tur-pa-7250", yazar: "fable", kazanim: "T.8.3.32", kademe: 0, zorluk: 4,
   soru: `Bir apartmanın yıllardır boş duran arka bahçesi bu yıl sakinlerin isteğiyle dört eşit parsele bölündü ve sebze yetiştirmek isteyenlere açıldı. A parselini dört daire, B parselini iki daire, C ve D parsellerini üçer daire birlikte ekti. Yönetim üç kural koydu: Her parsel ne ekeceğine kendisi karar verecek; sulama ortak sayaçtan yapılacak ve sulama gideri, kullanılan su miktarına ya da hasada bakılmaksızın dört parsele eşit bölünecek; hasat yalnızca o parseli eken dairelere ait olacak. Sezon boyunca toplam sulama gideri 1200 lira oldu. Sezon sonunda yönetim, her parselin ektiği tür sayısını, topladığı toplam ürünü ve ödediği sulama payını aşağıdaki tabloya işledi.
 
 **Metin ve tablo birlikte değerlendirildiğinde aşağıdakilerden hangisine ulaşılabilir?**`,
