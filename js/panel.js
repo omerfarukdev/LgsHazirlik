@@ -426,7 +426,11 @@ var Panel = (function () {
         '<span class="soluk kucuk">' + tarihSaat(t.ts) + '</span></summary>' +
         '<p class="soluk" style="margin:12px 0">' + t.d + " doğru · " + t.y + " yanlış · " + t.b + " boş · net " +
         (Math.round(t.net * 100) / 100).toLocaleString("tr-TR") + " · süre " + dk(t.sure) +
-        (t.asim ? ' · <span class="kotu">' + dk(t.asim) + ' süre aşımı</span>' : t.sureDoldu ? " · süre doldu" : "") + '</p>';
+        (t.asim ? ' · <span class="kotu">' + dk(t.asim) + ' süre aşımı</span>' : t.sureDoldu ? " · süre doldu" : "") +
+        (t.hizUyari ? (function () {
+          var k = Object.keys(t.hizUyari), don = k.filter(function (id) { return t.hizUyari[id] === "don"; }).length;
+          return ' · <span class="kotu">hız uyarısı ' + k.length + '</span> (metne dönüş ' + don + ')';
+        })() : "") + '</p>';
       t.sorular.forEach(function (id, i) {
         var q = soruBul(id), c = t.cevap[id];
         if (!q || c === q.dogru) return;
@@ -434,7 +438,8 @@ var Panel = (function () {
         html += '<details class="yanlis-soru"><summary><strong>Soru ' + (i + 1) + '</strong> <span class="soluk kucuk">' + esc(q.kazanim) + " · düzey " + q.zorluk + '</span> ' +
           (bos ? '<span class="soluk">boş bıraktı</span>' : '<span class="kotu">' + HARFLER[c] + ' dedi</span>, doğrusu ' + HARFLER[q.dogru]) +
           (t.sureSoru && t.sureSoru[id] ? ' <span class="soluk kucuk">· ' + dk(t.sureSoru[id]) + '</span>' : "") +
-          (t.neden && t.neden[id] ? ' <span class="cip">' + NEDEN_AD[t.neden[id]] + '</span>' : "") + '</summary>' +
+          (t.neden && t.neden[id] ? ' <span class="cip">' + NEDEN_AD[t.neden[id]] + '</span>' : "") +
+          (t.hizUyari && t.hizUyari[id] ? ' <span class="cip">hızlı işaretledi' + (t.hizUyari[id] === "don" ? ", metne döndü" : "") + '</span>' : "") + '</summary>' +
           (!bos && q.hatalar && q.hatalar[c] ? '<div class="hata-kutu"><strong>Olası hata:</strong> ' + bicim(q.hatalar[c]) + '</div>' : "") +
           '<div class="soru-metin" style="margin-top:10px">' + bicim(q.soru) + '</div>' + (q.gorsel ? '<div class="gorsel">' + q.gorsel + '</div>' : "") +
           '<ol type="A" class="sik-liste">' + q.secenekler.map(function (s, j) {

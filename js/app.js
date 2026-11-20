@@ -537,6 +537,9 @@ var App = (function () {
     }
     html += '</div>';
 
+    // Okulda işlenip burada hiç açılmamış konular
+    if (!aktif) html += acilmamisKarti(acilmamisKonular());
+
     // Tekrar testi: uygulama kendisi hazırlar, zamanı gelince burada belirir
     if (tekrarIds.length >= 5) {
       html += '<section class="kart tekrar-kart"><div class="tk-ic">' +
@@ -685,6 +688,40 @@ var App = (function () {
   function bugunKonuTestleri() {
     var bugun = tarihKey(new Date());
     return Store.get("gecmis", []).filter(function (g) { return g.tur === "konu" && tarihKey(new Date(g.ts)) === bugun; });
+  }
+  // ================= Okulda işlendi, hiç açmadın =================
+  // 20 Kasım 2026: iki ayda 10 konu testi çözülmüştü, hepsi 4 konudan; Matematikte hiç konu testi yoktu.
+  // "Bugünün konu testi" kartı tek konu gösterdiği için geçiliyordu. Bu kart, okulda işlenmiş (takvim),
+  // soruları hazır ve öğrencinin hiç konu testi açmadığı konuların hepsini listeler: önce Matematik,
+  // sonra katsayısı yüksek dersler; ders içinde okulda daha önce işlenen başta. İngilizce günlük
+  // sıraya girmediği için (GUNLUK_DERSLER) burada da yok. Konu açılınca listeden kendiliğinden düşer.
+  var ACILMAMIS_SIRA = ["matematik", "fen", "turkce", "inkilap", "din"];
+  function acilmamisKonular() {
+    var acilan = {};
+    Store.get("gecmis", []).forEach(function (g) { if (g.tur === "konu" && g.konu) acilan[g.konu] = 1; });
+    return okuldaIslenen().filter(function (konuId) {
+      var kb = KONU[konuId];
+      if (!kb || kb.konu.rutin || acilan[konuId] || ACILMAMIS_SIRA.indexOf(kb.ders.id) === -1) return false;
+      if (!kademeSorulari(konuId, 1).length) return false;
+      return !Object.keys(konuDurum(konuId).k || {}).length;
+    }).map(function (konuId, i) { return { konu: KONU[konuId].konu, ders: KONU[konuId].ders, i: i }; })
+      .sort(function (a, b) { return ACILMAMIS_SIRA.indexOf(a.ders.id) - ACILMAMIS_SIRA.indexOf(b.ders.id) || a.i - b.i; });
+  }
+  function acilmamisKarti(liste) {
+    if (!liste.length) return "";
+    var GOSTER = 8;
+    return '<section class="kart acilmamis-kart"><div class="tk-yazi">' +
+      '<span class="tk-ust">Okulda işlendi, hiç açmadın</span>' +
+      '<h2>' + liste.length + ' konu seni bekliyor</h2>' +
+      '<p class="soluk">Bu konuları okulda işledin ama burada henüz hiç test çözmedin. ' +
+      (liste[0].ders.id === "matematik" ? "Matematikten başla. " : "") +
+      'Her gün birini aç: önce kısa konu özeti gelir, sonra ilk test.</p>' +
+      '<div class="acilmamis-liste">' + liste.slice(0, GOSTER).map(function (x) {
+        return '<button class="cip-btn ders-' + x.ders.id + '" onclick="App.git(\'#/hazir/' + x.konu.id + '/1\')">' +
+          '<span class="soluk">' + esc(x.ders.ad) + ' · </span>' + esc(x.konu.ad) + '</button>';
+      }).join("") + '</div>' +
+      (liste.length > GOSTER ? '<p class="soluk kucuk">+' + (liste.length - GOSTER) + ' konu daha; hepsi aşağıda Dersler bölümünde.</p>' : "") +
+      '</div></section>';
   }
   function konuTestiDugmesi(t, birincil) {
     return '<button class="btn' + (birincil ? " birincil" : "") + '" onclick="App.git(\'#/hazir/' + t.konu.id + "/" + t.k + '\')">' +
@@ -1009,6 +1046,55 @@ var App = (function () {
     hatirlatAcilis = null;
     modalKapat();
     if (hedef >= 0) gitNo(hedef);
+  }
+
+  // ================= Hız uyarısı =================
+  // 20 Kasım 2026: öğrenci paragraf turlarında ilk soruları okuyup sonra 3-5 saniyede işaretlemeye
+  // geçiyor, son 5 soruyu boş bırakıyordu (11-19 Kasım: 30 saniyeden kısa cevapların %31'i doğru,
+  // şans düzeyi %25; 30 saniye ve üstünde %54). Paragraf sorusunda şık, metni okumaya yetmeyecek
+  // kısa sürede seçilirse cevap kaydedilmeden önce pencere açılır: "Metne dön" ya da "Okudum,
+  // işaretle". Her soruda bir kez; ölçme testlerinde (deneme, aylık, ünite) açılmaz. Pencere yalnızca
+  // düğmeyle kapanır. Sınır metin uzunluğuna bağlıdır (AYAR.hizUyariSn, AYAR.hizUyariSozcukSn).
+  // Test kaydına `hizUyari: { <soru id>: "don" | "isaretle" | "acik" }` yazılır; panel gösterir.
+  var hizBekleyen = null;
+  function sozcukSayisi(m) {
+    return String(m || "").replace(/\*\*|__|\[\[|\]\]|[|^_{}√]/g, " ").split(/\s+/)
+      .filter(function (w) { return /[0-9A-Za-zÇĞİÖŞÜçğıöşüâîû]/.test(w); }).length;
+  }
+  function hizEsigi(q) {
+    return Math.max(AYAR.hizUyariSn || 0, Math.round(sozcukSayisi(q.soru) / (AYAR.hizUyariSozcukSn || 5)));
+  }
+  function hizUyariGerekli(qid) {
+    if (!S || OLCME_TURU[S.tur] || !AYAR.hizUyariSn) return false;
+    if (S.cevap[qid] !== undefined || (S.hizUyari && S.hizUyari[qid])) return false;
+    if (soruKonusu(qid) !== PARAGRAF_KONU) return false;
+    var q = soruBul(qid);
+    return !!q && (S.sureSoru[qid] || 0) < hizEsigi(q);
+  }
+  function hizUyariAc(qid, i) {
+    var q = soruBul(qid), sn = Math.max(1, S.sureSoru[qid] || 0);
+    S.hizUyari = S.hizUyari || {};
+    S.hizUyari[qid] = "acik";
+    if (!aktifYaz()) return;
+    hizBekleyen = { qid: qid, i: i };
+    modal('<h3>Metni okumadan işaretledin</h3>' +
+      '<p>Bu soruya <strong>' + sn + ' saniye</strong> baktın; metin ' + sozcukSayisi(q.soru) + ' sözcük. Bu kadar kısa sürede okunmaz.</p>' +
+      '<p>Paragraf sorusunun cevabı metnin içindedir. Okumadan işaretlersen dört şıktan birini şansa seçmiş olursun; ' +
+      'şansla doğru bulma ihtimali dörtte birdir. Metni baştan oku, sonra işaretle.</p>' +
+      '<div class="modal-btn"><button class="btn" onclick="App.hizUyariKapat(true)">Okudum, işaretle</button>' +
+      '<button class="btn birincil" onclick="App.hizUyariKapat(false)">Metne dön</button></div>', "", true);
+  }
+  function hizUyariKapat(isaretle) {
+    var b = hizBekleyen;
+    hizBekleyen = null;
+    modalKapat();
+    if (!S || !b) return;
+    S.hizUyari = S.hizUyari || {};
+    S.hizUyari[b.qid] = isaretle ? "isaretle" : "don";
+    if (isaretle && S.sorular[S.idx] === b.qid) { S.cevap[b.qid] = b.i; S.son = Date.now(); }
+    if (!aktifYaz()) return;
+    if (isaretle) Bulut.yedekle(false);
+    testCiz();
   }
 
   // ================= Test =================
@@ -1735,6 +1821,7 @@ var App = (function () {
   }
   function sec(i) {
     var qid = S.sorular[S.idx];
+    if (hizUyariGerekli(qid)) return hizUyariAc(qid, i);
     if (S.cevap[qid] === i) delete S.cevap[qid]; else S.cevap[qid] = i;
     S.son = Date.now();
     if (!aktifYaz()) return;
@@ -1812,6 +1899,7 @@ var App = (function () {
     };
     if (yarim) kayit.yarim = true;
     if (S.hatirlat) kayit.hatirlat = Object.keys(S.hatirlat);
+    if (S.hizUyari) kayit.hizUyari = S.hizUyari;
     if (S.tur === "deneme") { kayit.deneme = S.deneme; kayit.oturum = S.oturum; }
     var gecmis = Store.get("gecmis", []);
     gecmis.push(kayit);
@@ -2595,7 +2683,7 @@ var App = (function () {
     isaretle: isaretle, bitir: bitir, bitirOnay: bitirOnay, filtrele: filtrele,
     nedenSec: nedenSec, hataBildir: hataBildir, hataGonder: hataGonder,
     modalKapat: modalKapat, yedekAl: yedekAl, yedekYukle: yedekYukle,
-    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti, hatirlatKapat: hatirlatKapat,
+    tekrarBaslat: tekrarBaslat, paragrafBaslat: paragrafBaslat, hapBitti: hapBitti, hatirlatKapat: hatirlatKapat, hizUyariKapat: hizUyariKapat,
     uniteBaslat: uniteBaslat, aylikBaslat: aylikBaslat, denemeBaslat: denemeBaslat,
     araVer: araVer, yarimDon: yarimDon, yarimBitir: yarimBitir, yarimKapat: yarimKapat, yarimKapatOnay: yarimKapatOnay,
     raporAyar: raporAyar, raporKaydet: raporKaydet, bulutYedekYukle: bulutYedekYukle,

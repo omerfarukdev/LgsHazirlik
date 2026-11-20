@@ -32,6 +32,13 @@ window.LGS_AYAR = {
   paragrafSetAdim: 5,
   paragrafSetTavan: 50,
 
+  // Hız uyarısı (20 Kasım 2026): paragraf sorusunda şık, metni okumaya yetmeyecek kısa sürede
+  // seçilirse cevap kaydedilmeden önce "Metni okumadan işaretledin" penceresi açılır.
+  // Sınır: en az hizUyariSn saniye; uzun metinde her hizUyariSozcukSn sözcük için 1 saniye
+  // (5 sözcük/sn = 300 sözcük/dk; bundan hızlısı okuma değil, göz gezdirmedir). 0 yapılırsa kapanır.
+  hizUyariSn: 15,
+  hizUyariSozcukSn: 5,
+
   // Test süresi: her sorunun zorluk düzeyine göre verilen saniyelerin toplamı.
   // Gerçek LGS temposu: sözel 50 soru / 75 dk = 90 sn, sayısal 40 soru / 80 dk = 120 sn.
   // Aşağıdaki değerler bu tempoyu tutturur; sınav yaklaştıkça kısılabilir.
