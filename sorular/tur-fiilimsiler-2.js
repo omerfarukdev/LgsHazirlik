@@ -195,25 +195,25 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkiye'de her yıl yüz binlerce ton cam ambalaj çöpe gider. Oysa cam, sınırsız sayıda yeniden kullanıma uygun bir maddedir. Bu yüzden ülkenin birçok ilinde geri dönüşüm tesisi var. Aşağıda bu tesislerden biriyle ilgili beş cümle sırayla verilmiştir.
-**Buna göre, bu beş cümlede toplam kaç fiilimsi kullanılmıştır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Şehrin kıyısındaki fabrikada her gün binlerce cam şişe yeniden işleniyor.</td></tr><tr><td>II</td><td>Kamyonlardan boşaltılan şişeler, renklerine göre üç bantta ayrılıyor.</td></tr><tr><td>III</td><td>Bantta ilerleyen şişeleri temizlemek için sıcak su kullanılıyor.</td></tr><tr><td>IV</td><td>Kırılan parçalar eritilerek yeni şişelere dönüştürülüyor.</td></tr><tr><td>V</td><td>Fabrika müdürü, bu yıl üretimi yüzde yirmi artıracak.</td></tr></table>`,
-  secenekler: ["3", "4", "5", "6"],
+  soru: `Teyzem her yaz, deniz kaplumbağalarının yumurtladığı bir kumsalda gönüllü olarak çalışır. Dişi kaplumbağalar mayıstan ağustosa kadar geceleri kıyıya çıkar, kumda kazdıkları çukura yüze yakın yumurta bırakır. Yavrular yaklaşık iki ay sonra kumdan çıkar ve denizin parlaklığına doğru yürür; bu yüzden kumsalda geceleri ışık yakılmaz. Gönüllüler gün doğmadan kumsalı tarar, yeni yuvaların üstünü tel kafesle kapatır. Bu yıl bir nöbete ben de katıldım ve gördüklerimi günlüğüme yazdım:
+
+(I) Ekip başkanı, kumda denize doğru uzanan izleri el feneri yakmadan tek tek saydı. (II) Tilkilerin eşelediği bir yuvayı yeniden kumla örtmek, teyzemin yarım saatini aldı. (III) Sabaha karşı ilk yavruyu görmek, gönüllülerin gece boyunca biriken yorgunluğunu bir anda sildi. (IV) Kumdan çıkan yavrular, dalgalara doğru yürümeyi kimseden öğrenmeden başardı.
+
+Türkçe öğretmenim, bu cümlelerden birinde şu iki özelliğin birlikte bulunduğunu söyledi:
+· Cümlenin öznesi, bir isim-fiille kurulmuş söz öbeğidir.
+· Cümlenin nesnesinde, bir adı niteleyen sıfat-fiil vardır.
+
+**Buna göre öğretmenin sözünü ettiği cümle, numaralanmış cümlelerden hangisidir?**`,
+  gorsel: null,
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
-  hatalar: [
-    "Her cümlede en çok bir fiilimsi bulunur sanma: III ve IV. cümlelerin her birinde ikişer fiilimsi vardır.",
-    "IV. cümledeki 'eritilerek' sözcüğünü atlama: işin nasıl yapıldığını bildiren bir zarf-fiildir.",
-    null,
-    "V. cümledeki 'artıracak' sözcüğünü sıfat-fiil sanma: burada -acak eki gelecek zaman ekidir, sözcük cümlenin çekimli fiilidir."
-  ],
-  aciklama: `Sayma sorularında yöntem şudur: her cümlenin çekimli fiilini bul, üstünü çiz; geriye kalan fiil kökenli sözcükler fiilimsidir.
-Adım 1: I → çekimli fiil 'işleniyor'. Başka fiil kökenli sözcük yok. Fiilimsi sayısı 0.
-Adım 2: II → çekimli fiil 'ayrılıyor'. Geriye 'boşaltılan' kalır (hangi şişeler? → sıfat-fiil). Toplam 1.
-Adım 3: III → çekimli fiil 'kullanılıyor'. Geriye 'ilerleyen' (hangi şişeler? → sıfat-fiil) ve 'temizlemek' (ne için? → isim-fiil) kalır. Toplam 2.
-Adım 4: IV → çekimli fiil 'dönüştürülüyor'. Geriye 'Kırılan' (hangi parçalar? → sıfat-fiil) ve 'eritilerek' (nasıl? → zarf-fiil) kalır. Toplam 2.
-Adım 5: V → 'artıracak' cümleyi bitiren, gelecek zamanla çekimlenmiş fiildir; hiçbir adı nitelemez. Fiilimsi sayısı 0.
-Adım 6: Topla: 0 + 1 + 2 + 2 + 0 = 5.
-Sağlama: Bulunan fiilimsiler boşaltılan, ilerleyen, temizlemek, Kırılan, eritilerek. Beş tane.
+  hatalar: ["Yalnızca ikinci özelliği denetleme: nesnede “uzanan” sıfat-fiili vardır ama cümlenin öznesi “ekip başkanı” sözüdür; öznede isim-fiil yoktur.", "Sıfat-fiilin hangi ögede durduğuna bakmama: “eşelediği” sözcüğü öznenin içindeki “yuva” adını niteler; nesne olan “teyzemin yarım saatini” sözünde sıfat-fiil yoktur.", null, "Görevleri ters çevirme: bu cümlede sıfat-fiil öznededir (“çıkan yavrular”), isim-fiil ise nesnededir (“yürümeyi”); istenen bunun tersidir."],
+  aciklama: `Fiilimsi, kendisine bağlı sözcüklerle birlikte bir söz öbeği kurar ve bu öbek cümlede tek bir öge olur. Bu yüzden önce yüklemi bul, sonra yükleme "Ne? Kim?" (özne) ve "Neyi?" (nesne) sorularını sor; fiilimsilere en son bak.
+Adım 1: I → Yüklem "saydı". Kim saydı? "Ekip başkanı" (özne). Neyi saydı? "kumda denize doğru uzanan izleri" (nesne). Nesnede "uzanan" sıfat-fiili var ama öznede isim-fiil yok. Birinci özellik yok.
+Adım 2: II → Yüklem "aldı". Ne aldı? "Tilkilerin eşelediği bir yuvayı yeniden kumla örtmek" (özne). Özne, "örtmek" isim-fiiliyle kurulmuş. Neyi aldı? "teyzemin yarım saatini" (nesne). Bu sözde sıfat-fiil yok; "eşelediği" sıfat-fiili öznenin içinde kalıyor. İkinci özellik yok.
+Adım 3: III → Yüklem "sildi". Ne sildi? "Sabaha karşı ilk yavruyu görmek" (özne; "görmek" isim-fiiliyle kurulmuş). Neyi sildi? "gönüllülerin gece boyunca biriken yorgunluğunu" (nesne). Hangi yorgunluk? "Biriken yorgunluk": sıfat-fiil, nesnenin içinde bir adı niteliyor. İki özellik de var.
+Adım 4: IV → Yüklem "başardı". Kim başardı? "Kumdan çıkan yavrular" (özne; içinde sıfat-fiil var). Neyi başardı? "dalgalara doğru yürümeyi" (nesne; isim-fiille kurulmuş). Görevler istenenin tam tersi.
+Sık yapılan hata: II. cümlede "yuvayı" sözcüğündeki eke bakıp onu cümlenin nesnesi saymak. "Yuvayı", "örtmek" fiilimsisine bağlıdır ve onunla birlikte öznenin içinde yer alır. Cümlenin nesnesini fiilimsiye değil, yükleme soru sorarak bul.
 Cevap C.`
 },
 {
@@ -221,33 +221,19 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir gökbilim ekibi, arşivdeki eski fotoğraflar üzerinde yeniden çalıştı ve önemli bir sonuca ulaştı. Çalışmanın ayrıntıları geçen ay uluslararası bir dergide yayımlandı. Aşağıda bu çalışmayla ilgili dört cümle verilmiştir.
-(I) Gökbilimciler, eski fotoğrafları yeniden incelerken şaşırtıcı bir iz fark etti.
-(II) Bu izi doğrulamak, ekibin o günden sonraki en büyük hedefi oldu.
-(III) Aylarca süren gözlemler sonunda ekibi haklı çıkardı.
-(IV) Görüntüdeki parlak halka, kara deliğin çevresinde dönen gazdan oluşuyor.
-**Buna göre, bu cümlelerle ilgili aşağıdakilerden hangisi __yanlıştır__?**`,
+  soru: `Kapadokya'da sıcak hava balonları gün doğarken havalanır; çünkü sabahın ilk saatlerinde rüzgâr hafiftir. Öğleye doğru ısınan toprak havayı hareketlendirir, uçuş güvenli olmaktan çıkar. Elif ile ailesi kalkış alanına henüz karanlıkta vardı. Görevli megafonla seslendi: “Balonlar birazdan __havalanacak__ (I), yolcular sepetlerin yanına gelsin!” Oysa yerde, henüz __şişirilmemiş__ (II) rengârenk kumaşlar yatıyordu; her biri bir ev büyüklüğündeydi. Bu yolculuğa ilk kez katılanlar biraz tedirgindi; Elif ise yerinde duramıyordu. Bir gece önce heyecandan doğru dürüst uyuyamamış, saat dörtte herkesten önce kalkmıştı. Onun aylardır tek hayali, peribacalarını bir kuş gibi yukarıdan __izlemekti__ (III). Pilot brülörü ateşledi; ısınan hava, yerde yatan kumaşı yavaş yavaş doğrulttu. Az sonra sepet, içindeki yolcuları hiç __sarsmadan__ (IV) yerden kesildi. Brülör arada bir gürlüyor, Elif'in yüzüne sıcak bir dalga çarpıyordu. Aşağıda vadiler, üzüm bağları ve gittikçe küçülen evler kalmıştı. Elif, pilotun balonu sağa sola çeviremediğini, onu alçaltıp yükselterek farklı yönlere esen rüzgârları aradığını o sabah öğrendi.
+
+**Bu metinde numaralanmış sözcüklerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: [
-    "I. cümledeki fiilimsi, bir varlığı nitelemektedir.",
-    "II. cümledeki fiilimsi, bir işin adını bildirmektedir.",
-    "III ve IV. cümlelerdeki fiilimsiler aynı türdendir.",
-    "Cümlelerin dördünde de birer fiilimsi bulunmaktadır."
-  ],
+  secenekler: ["I numaralı sözcük, kendisinden sonraki adı niteleyen bir sıfat-fiildir.", "II numaralı sözcük, olumsuzluk eki almış bir sıfat-fiildir.", "III numaralı sözcük, yüklem görevinde kullanılmış bir isim-fiildir.", "IV numaralı sözcük, işin nasıl gerçekleştiğini bildiren bir zarf-fiildir."],
   dogru: 0,
-  hatalar: [
-    null,
-    "'doğrulamak' sözcüğünü çekimli fiil sanma: 'Ekibin en büyük hedefi neydi?' sorusunun karşılığıdır, bir işin adıdır; yargı doğrudur.",
-    "'süren' ile 'dönen' sözcüklerini farklı tür sanma: ikisi de kendinden sonraki adı niteler, ikisi de sıfat-fiildir; yargı doğrudur.",
-    "'şaşırtıcı' gibi yapım ekiyle türemiş sözcükleri de fiilimsi sayma: her cümlede tam bir fiilimsi vardır, yargı doğrudur."
-  ],
-  aciklama: `Bu soruda her cümlenin fiilimsisini bulup görevini adlandırman, sonra dört yargıyı tek tek denetlemen gerekir.
-Adım 1: I → çekimli fiil 'fark etti'. Fiilimsi 'incelerken'dir ve 'ne zaman fark etti?' sorusuna cevap verir: zarf-fiil. 'şaşırtıcı' sözcüğü ise yapım ekiyle türemiş bir sıfattır, fiilimsi değildir.
-Adım 2: II → çekimli fiil 'oldu'. Fiilimsi 'doğrulamak'tır; işin adını bildirir: isim-fiil.
-Adım 3: III → çekimli fiil 'çıkardı'. Fiilimsi 'süren'dir; 'hangi gözlemler?' sorusuna cevap verir: sıfat-fiil.
-Adım 4: IV → çekimli fiil 'oluşuyor'. Fiilimsi 'dönen'dir; 'hangi gaz?' sorusuna cevap verir: sıfat-fiil.
-Adım 5: Yargıları denetle. B doğrudur (II isim-fiil). C doğrudur (III ve IV sıfat-fiil). D doğrudur (her cümlede birer fiilimsi var). A ise yanlıştır: I. cümledeki fiilimsi bir varlığı nitelemez, işin zamanını bildirir.
-Sık yapılan hata: Zarf-fiil ile sıfat-fiili, sözcüğün yerine bakarak ayırmaya çalışmak. Ayırt etmenin yolu, sözcüğün kendisinden sonra bir adı niteleyip nitelemediğine bakmaktır.
+  hatalar: [null, "“-miş” ekli her sözcüğü çekimli fiil sanma: “şişirilmemiş” yargı bildirmez, “kumaşlar” adını niteler (“Hangi kumaşlar?”); içindeki “-me” olumsuzluk ekidir. Bu yargı doğrudur.", "Yüklem olan her sözcüğü çekimli fiil sanma: “izlemekti” sözcüğünde “izlemek” işin adıdır, sonundaki “-ti” ek fiildir. Bu yargı doğrudur.", "“-ma” sesini görüp sözcüğü isim-fiil ya da olumsuz fiil sanma: “sarsmadan”, sepetin yerden nasıl kesildiğini bildiren zarf-fiildir. Bu yargı doğrudur."],
+  aciklama: `Bir sözcüğün fiilimsi olup olmadığına ekine değil, cümlede yaptığı işe bakarak karar verirsin: kip ve kişi anlamı taşıyıp yargı bildiren sözcük çekimli fiildir; fiilimsi ise ad, sıfat ya da zarf gibi kullanılır.
+Adım 1: I → "Balonlar birazdan havalanacak, yolcular sepetlerin yanına gelsin!" Burada virgülle ayrılmış iki ayrı yargı var. "Havalanacak", "balonlar" öznesinin yüklemidir ve gelecek zaman bildirir; yani çekimli fiildir. Ardından "yolcular" adı gelse de onu nitelemez; sözcük kendi yargısını bitirmiştir. A'daki yargı söylenemez.
+Adım 2: II → "henüz şişirilmemiş rengârenk kumaşlar": Hangi kumaşlar? "Şişirilmemiş" olanlar. Sözcük cümleyi bitirmiyor, yargı bildirmiyor; bir adı niteliyor: sıfat-fiil. İçindeki "-me" de olumsuzluk ekidir. B doğru.
+Adım 3: III → "Tek hayali … izlemekti." Hayali neydi? "İzlemek." Bu bir işin adıdır; sonuna ek fiil ("-ti") alarak yüklem olmuştur. Yüklem olması onu fiilimsi olmaktan çıkarmaz. C doğru.
+Adım 4: IV → "Sepet, yolcuları sarsmadan yerden kesildi." Nasıl kesildi? "Sarsmadan." Çekimli fiili durum yönünden niteleyen zarf-fiildir. D doğru.
+Sık yapılan hata: "-acak" ekli sözcüğün arkasında bir ad görünce onu hemen sıfat-fiil saymak. Önce aradaki virgüle ve anlama bak: sözcük kendi yargısını bitiriyorsa çekimli fiildir, arkasındaki adla tek bir öbek kuruyorsa ("havalanacak balonlar") sıfat-fiildir.
 Cevap A.`
 },
 {
@@ -255,28 +241,21 @@ Cevap A.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Yarıyıl tatilinde akrabalarını ziyaret edecek olan bir grup öğrenci, sabah erkenden otogara geldi. Otogarın dijital panosunda her seferin saati, güzergâhı, yolculuk süresi ve durumu yazılıdır. Bugünkü seferler panoda aşağıdaki gibi görünmektedir.
-**Buna göre, aşağıdaki cümlelerin hangisi hem panodaki bilgiye uyar hem de bir zarf-fiil içerir?**`,
-  gorsel: `<table class="tablo"><tr><th>Saat</th><th>Güzergâh</th><th>Yolculuk süresi</th><th>Durum</th></tr><tr><td>07.10</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>Kalktı</td></tr><tr><td>09.45</td><td>Sinop</td><td>4 sa</td><td>Doldu</td></tr><tr><td>12.30</td><td>Amasya</td><td>2 sa 50 dk</td><td>Boş koltuk var</td></tr><tr><td>16.15</td><td>Kastamonu</td><td>3 sa 20 dk</td><td>İptal</td></tr></table>`,
-  secenekler: [
-    "En kısa yolculuk, saat 12.30'da kalkan otobüsle yapılıyor.",
-    "Kastamonu seferlerinden biri iptal edilince bugün yalnızca sabahki sefer işliyor.",
-    "Sinop otobüsü, boş koltuklarını satamadan yola çıkacak.",
-    "Amasya seferinde boş koltuk bulmak artık mümkün değildir."
-  ],
+  soru: `Ağustos gelince Karadeniz'in yamaçlarında fındık hasadı başlar. Bahçeler çok dik olduğu için buralara makine giremez; dallar elle eğilir, fındıklar tek tek toplanır. Dolu sepetleri sırtta taşımak, en güçlü işçiyi bile akşama kadar yorar. Toplanan fındık, yeşil kabuğuyla birlikte harman yerine serilir ve birkaç gün güneşte soldurulur. Hava kapanınca bütün aile harmana koşar; çünkü yağmur yiyen fındık küflenir. Köylüler, şehirden dönen akrabalarını da yardıma çağırır. Solan yeşil kabuklar, patoz adı verilen makinede ayrılır; geriye kalan sert kabuklu fındık yeniden güneşe çıkarılır. Harmana yayılan taneler kahverengi bir halıyı andırır. Türkiye, dünyadaki fındığın yarısından fazlasını tek başına üretir; bu yüzden birkaç haftalık bu telaş, bölgenin bütün yılını belirler.
+
+Bir öğrenci, bu metindeki dört fiilimsiyi incelemiş; her birinin türünü ve cümlede hangi ögenin içinde yer aldığını aşağıdaki tabloya yazmıştır.
+
+**Bu tabloda numaralanmış satırların hangisinde verilen iki bilgi de doğrudur?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Fiilimsi</th><th>Türü</th><th>İçinde yer aldığı öge</th></tr><tr><td>I</td><td>taşımak</td><td>isim-fiil</td><td>nesne</td></tr><tr><td>II</td><td>kapanınca</td><td>zarf-fiil</td><td>zarf tamlayıcısı</td></tr><tr><td>III</td><td>dönen</td><td>zarf-fiil</td><td>nesne</td></tr><tr><td>IV</td><td>yayılan</td><td>sıfat-fiil</td><td>yer tamlayıcısı</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 1,
-  hatalar: [
-    "Fiilimsinin türünü karıştırma: bilgi panoya uygun olsa da 'kalkan' sözcüğü otobüsü niteleyen bir sıfat-fiildir, zarf-fiil değildir.",
-    null,
-    "Panoyu yanlış okuma: Sinop seferinin durumu 'Doldu'dur, yani boş koltuk kalmamıştır; cümledeki bilgi panoya uymaz.",
-    "Hem panoyu yanlış okuma hem de türü karıştırma: Amasya seferinde boş koltuk vardır, ayrıca 'bulmak' bir isim-fiildir."
-  ],
-  aciklama: `Bu soruda iki koşul birden aranıyor: cümledeki bilgi panoya uyacak ve cümlede zarf-fiil bulunacak. İki koşulu ayrı ayrı denetle.
-Adım 1: A'yı denetle. Süreler 3 sa 20 dk, 4 sa, 2 sa 50 dk ve 3 sa 20 dk'dır; en kısası 2 sa 50 dk, yani 12.30 Amasya seferidir. Bilgi doğrudur. Ama 'kalkan' sözcüğü 'hangi otobüs?' sorusuna cevap verir: sıfat-fiildir. İkinci koşul sağlanmaz.
-Adım 2: B'yi denetle. Panoda iki Kastamonu seferi vardır (07.10 ve 16.15); 16.15 iptal edildiğine göre bugün bu güzergâhta yalnızca sabahki sefer işler. Bilgi doğrudur. 'iptal edilince' sözü 'hangi durumda yalnızca sabahki sefer işliyor?' sorusuna cevap verir: zarf-fiildir. İki koşul da sağlanır.
-Adım 3: C'yi denetle. Panoya göre Sinop otobüsünün durumu 'Doldu'dur; cümle bunun tersini söyler. Zarf-fiil ('satamadan') bulunsa da bilgi yanlıştır.
-Adım 4: D'yi denetle. Panoda Amasya seferi için 'Boş koltuk var' yazar; bilgi yanlıştır. Ayrıca 'bulmak' bir isim-fiildir.
-Sağlama: Yalnızca B, iki koşulu birden karşılar.
+  hatalar: ["Belirtme eki almış sözcüğü cümlenin nesnesi sanma: “sepetleri” sözcüğü “taşımak” fiilimsisine bağlıdır; “Dolu sepetleri sırtta taşımak” öbeği “Ne yorar?” sorusunun cevabıdır, yani öznedir. Tür doğru, öge yanlış.", null, "Sıfat-fiili zarf-fiil sanma: “dönen” sözcüğü “akrabalar” adını niteler, sıfat-fiildir. Öge doğru (nesne), tür yanlış.", "Fiilimsiye bağlı sözcüğü ayrı bir öge sayma: “harmana” sözcüğü “yayılan” fiilimsisine bağlıdır; “Harmana yayılan taneler” öbeğinin tamamı öznedir. Tür doğru, öge yanlış."],
+  aciklama: `Bu soruda her satırda iki şeyi ayrı ayrı denetlemelisin: fiilimsinin türü ve içinde yer aldığı öge. Fiilimsi, kendisine bağlı sözcüklerle birlikte tek bir öge oluşturur; ögeyi bulmak için soruyu fiilimsiye değil, cümlenin yüklemine sor.
+Adım 1: I → "Dolu sepetleri sırtta taşımak, en güçlü işçiyi bile akşama kadar yorar." "Taşımak" bir işin adıdır: isim-fiil, tür doğru. Yüklem "yorar". Ne yorar? "Dolu sepetleri sırtta taşımak." Bu öbek öznedir; cümlenin nesnesi "en güçlü işçiyi bile" sözüdür. Tabloda "nesne" yazıyor: öge yanlış.
+Adım 2: II → "Hava kapanınca bütün aile harmana koşar." Ne zaman koşar? "Hava kapanınca." "Kapanınca" zarf-fiildir ve bu öbek zarf tamlayıcısıdır. İki bilgi de doğru.
+Adım 3: III → "Köylüler, şehirden dönen akrabalarını da yardıma çağırır." Kimi çağırır? "Şehirden dönen akrabalarını." Öbek nesnedir, öge doğru. Ama "dönen", "akrabalar" adını niteler: sıfat-fiildir. Tabloda "zarf-fiil" yazıyor: tür yanlış.
+Adım 4: IV → "Harmana yayılan taneler kahverengi bir halıyı andırır." "Yayılan", "taneler" adını niteler: sıfat-fiil, tür doğru. Ne andırır? "Harmana yayılan taneler." Öbeğin tamamı öznedir. Tabloda "yer tamlayıcısı" yazıyor: öge yanlış.
+Sık yapılan hata: Fiilimsiye bağlı sözcükleri ("sepetleri", "harmana") eklerine bakarak cümlenin ayrı bir ögesi saymak. Bu sözcükler yükleme değil fiilimsiye bağlıdır; öbeği bölmeden bütün olarak düşün.
 Cevap B.`
 },
 {
@@ -284,24 +263,20 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe dersinde fiilimsi konusu işlendikten sonra öğretmen kısa bir alıştırma dağıttı. Alıştırmada müze gezisiyle ilgili dört cümle ve boş bir tablo vardı. Öğrencilerden her cümledeki fiilimsiyi bulup türünü yazmaları istendi. Bir öğrenci tabloyu aşağıdaki gibi doldurmuştur.
-**Buna göre, öğrenci bu dört satırın kaçında hata yapmıştır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Seçilen sözcük</th><th>Yazılan tür</th></tr><tr><td>I</td><td>Sergiyi gezen öğrenciler, panolardaki yazıları ilgiyle okudu.</td><td>gezen</td><td>sıfat-fiil</td></tr><tr><td>II</td><td>Müze görevlisi, vitrinleri silerken ince bir eldiven takıyor.</td><td>silerken</td><td>isim-fiil</td></tr><tr><td>III</td><td>Eski duvar saatlerini onarmak, büyük sabır ister.</td><td>onarmak</td><td>isim-fiil</td></tr><tr><td>IV</td><td>Bahçedeki heykel, geçen yıl baştan aşağı temizlenmiş.</td><td>temizlenmiş</td><td>sıfat-fiil</td></tr></table>`,
-  secenekler: ["1", "2", "3", "4"],
+  soru: `Deniz fenerleri gemilere yalnızca karanın yerini göstermez. Karanlıkta bütün kıyılar birbirine benzer; denizcinin, karşısındaki ışığın hangi fenere ait olduğunu da bilmesi gerekir. Her fenerin kendine özgü bir ışık düzeni vardır: Kimi beş saniyede bir çakar, kimi art arda iki kez parlayıp uzun süre karanlıkta kalır. Kaptan bu düzeni haritadaki bilgiyle karşılaştırır ve hangi burnun açığında bulunduğunu anlar. Eskiden her fenerde bir bekçi yaşar, lambayı akşam yakıp sabah söndürürdü; bugün fenerlerin çoğu güneş enerjisiyle kendiliğinden çalışıyor. Bekçi kulübelerinin birçoğu müzeye ya da kafeye dönüştü. Üstelik uydular, gemilerin yerini dünyanın her köşesinde birkaç metrelik hatayla bildiriyor. Bu gelişmeler fenerlerin devrini kapatmış gibi görünebilir. Oysa elektronik aygıtlar arızalanabilir, fırtınada uydu bağlantısı kesilebilir, ekran bir anda kararabilir. Açık denizde bu, küçük bir aksaklıktır; kaptan beklemeyi göze alabilir. Kayalık bir kıyıda ise böyle bir an, geminin sonunu getirebilir. - - - -
+
+**Bu parçanın sonuna, düşüncenin akışına uygun olan ve içinde hem isim-fiil hem zarf-fiil bulunan aşağıdaki cümlelerden hangisi getirilmelidir?**`,
+  gorsel: null,
+  secenekler: ["Bu yüzden eski fenerleri söküp yerlerine yeni uydu alıcıları kurmak gerekir.", "Bu yüzden denizciler, ekrana bakarken ufuktaki ışığı aramayı da bırakmaz.", "Bu yüzden limana yaklaşan kaptanlar, feneri görünce rahat bir nefes alır.", "Bu yüzden fenerleri korumak, denizi tanıyan insanların ortak sorumluluğudur."],
   dogru: 1,
-  hatalar: [
-    "Yalnızca tür yanlışlarını arama: IV. satırda öğrenci fiilimsi olmayan bir sözcüğü seçmiştir, bu da bir hatadır.",
-    null,
-    "Doğru satırı da yanlış sayma: III. satırda 'onarmak' işin adını bildirir ve isim-fiil olarak doğru yazılmıştır.",
-    "Bütün satırları yanlış sanma: I ve III. satırlarda hem seçilen sözcük hem yazılan tür doğrudur."
-  ],
-  aciklama: `Bu tabloda iki ayrı hata yapılabilir: yanlış sözcüğü seçmek ya da sözcüğün türünü yanlış yazmak. Satırları ikisi için de denetlemelisin.
-Adım 1: I → Cümlenin çekimli fiili 'okudu'dur. 'gezen' sözcüğü 'hangi öğrenciler?' sorusuna cevap verir, yani sıfat-fiildir. Sözcük de tür de doğru.
-Adım 2: II → Çekimli fiil 'takıyor'dur. 'silerken' sözcüğü 'ne zaman takıyor?' sorusuna cevap verir; bu bir zarf-fiildir. Öğrenci isim-fiil yazmış, tür yanlış. (1. hata)
-Adım 3: III → Çekimli fiil 'ister'dir. 'onarmak' bir işin adıdır, isim-fiildir. Sözcük de tür de doğru.
-Adım 4: IV → Cümlenin çekimli fiili zaten 'temizlenmiş'tir; burada -mış eki duyulan geçmiş zaman ekidir, sözcük fiilimsi değildir. Bu cümlenin fiilimsisi 'geçen'dir ve sıfat-fiildir. Öğrenci yanlış sözcüğü seçmiş. (2. hata)
-Adım 5: Hatalı satır sayısı 2'dir.
-Sık yapılan hata: -mış ekini görünce sözcüğü doğrudan sıfat-fiil saymak. 'temizlenmiş heykel' deseydin sıfat-fiil olurdu; burada sözcük cümleyi bitiren yargıdır.
+  hatalar: ["Fiilimsi türlerine bakıp anlamı denetlememe: “söküp” zarf-fiil, “kurmak” isim-fiildir; ama parça elektronik aygıtların yarı yolda bırakabileceğini söylüyor, fenerleri sökmek bu düşünceyle çelişir.", null, "Sıfat-fiili isim-fiil yerine sayma: cümle akışa uyar ama “yaklaşan” bir adı niteleyen sıfat-fiil, “görünce” zarf-fiildir; cümlede isim-fiil yoktur.", "Sıfat-fiili zarf-fiil yerine sayma: cümle akışa uyar ama “korumak” isim-fiil, “tanıyan” sıfat-fiildir; cümlede zarf-fiil yoktur."],
+  aciklama: `İki koşul var: cümle parçanın düşüncesini sürdürecek, ayrıca içinde hem isim-fiil (işin adı) hem zarf-fiil (çekimli fiili zaman ya da durum yönünden niteleyen fiilimsi) bulunacak. İkisini ayrı ayrı denetle.
+Adım 1: Parçanın düşüncesini bul. Fenerler eskimiş gibi görünse de elektronik aygıtlar yarı yolda bırakabilir; öyleyse fenerlere hâlâ gerek vardır. Son cümle bu sonuca bağlanmalı.
+Adım 2: A → "söküp" zarf-fiil, "kurmak" isim-fiil: tür koşulu tamam. Ama fenerleri sökmeyi önermek, parçanın vardığı sonucun tam tersidir. Anlam koşulu sağlanmaz.
+Adım 3: B → "bakarken" (Ne zaman?) zarf-fiil, "aramayı" (Neyi bırakmaz?) isim-fiil: tür koşulu tamam. Denizcilerin ekrana bakarken feneri de gözden kaçırmaması, parçanın sonucuyla örtüşür. İki koşul da sağlanır. "Bırakmaz" ise cümleyi bitiren çekimli fiildir.
+Adım 4: C → "yaklaşan" (Hangi kaptanlar?) sıfat-fiil, "görünce" zarf-fiil. Anlam uygun ama isim-fiil yok.
+Adım 5: D → "korumak" isim-fiil, "tanıyan" (Hangi insanlar?) sıfat-fiil. Anlam uygun ama zarf-fiil yok.
+Sık yapılan hata: Cümlede iki fiilimsi görünce türlerini tek tek adlandırmadan koşulun sağlandığını düşünmek. C ve D'de de ikişer fiilimsi var; onları eleyen, istenen türlerden birinin eksik olmasıdır.
 Cevap B.`
 },
 {
@@ -309,28 +284,23 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Akıllı saatler, gün içindeki hareketleri ve uyku süresini kaydediyor. Bu veriler telefondaki uygulamaya aktarılır ve haftalık bir özet hâline gelir. Sporcular, antrenman yoğunluğunu bu özete göre ayarlar. Son yıllarda cihazlar sağlık araştırmalarında da kullanılıyor. Aşağıda bu cihazlarla ilgili dört cümle verilmiştir.
-(I) Sabah koşusuna çıkan Deniz, saatini şarj etmeyi akşamdan unutmuş.
-(II) Akıllı saat, adım sayısını ölçmek ve uykuyu izlemek için iki algılayıcı kullanır.
-(III) Ekrandaki uyarıyı görünce sporcular hemen su içiyor.
-(IV) Veriyi aktaran uygulama, haftalık grafiği gösterecek bir bölüm de içeriyor.
-**Buna göre, numaralanmış cümlelerin hangisinde farklı türde iki fiilimsi bir arada kullanılmıştır?**`,
+  soru: `Sahaflar, eski kitap ve dergilerin alınıp satıldığı, raflarında yıllar önce basılmış ender eserlerin de bulunduğu dükkânlardır. Aşağıdaki parça, bir sekizinci sınıf öğrencisinin okul dergisine yazdığı “Mahallemizin Sahafı” başlıklı yazıdan alınmıştır.
+
+(I) Dolmuş durağının hemen arkasındaki sahafa dün genç bir yazar uğramış, raflardaki eski çocuk dergilerinin hepsini almış; yarın öbür ciltler için yine gelecekmiş. (II) Dükkânın kırk yıllık sahibi Nuri Bey, bu güzel haberi bize anlatırken bayram sabahındaki küçük bir çocuk gibi seviniyordu. (III) Onun bu daracık, loş dükkânda yıllardır tek amacı, eski kitapları yeni okurlarıyla buluşturmaktır. (IV) Girişteki küçük masada yaz kış her sabah taze çay bulunur, çayın yanında da mutlaka bir tabak kuru yemiş durur. (V) Nuri Bey hiçbir müşterisini acele ettirmez; tozlu raflarda aradığını bulamayana da kendi eliyle yardım eder. (VI) Bu yüzden o yüksek ve dar raflar arasında saatlerce dolaşmak, benim için sıradan bir alışverişten çok eski bir dostu ziyarete benzer.
+
+**Bu parçada numaralanmış cümlelerin hangilerinde fiilimsi __yoktur__?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["I ve IV", "I ve III", "II ve IV", "II ve III"],
   dogru: 0,
-  hatalar: [
-    null,
-    "İki fiilimsiyi görüp türlerini karşılaştırmama: 'ölçmek' ve 'izlemek' işin adını bildirir, ikisi de isim-fiildir.",
-    "Çekimli fiili ikinci bir fiilimsi sanma: 'içiyor' kip eki almıştır; bu cümlede yalnızca 'görünce' fiilimsidir.",
-    "Ekleri farklı diye türleri de farklı sanma: 'aktaran' ve 'gösterecek' kendilerinden sonraki adı niteler, ikisi de sıfat-fiildir."
-  ],
-  aciklama: `Bu soruda önce her cümledeki bütün fiilimsileri bulman, sonra türlerini karşılaştırman gerekir. Cümlenin çekimli fiilini ayırmayı unutma.
-Adım 1: I → Çekimli fiil 'unutmuş'. Geriye 'çıkan' (hangi Deniz? → sıfat-fiil) ve 'etmeyi' (neyi unutmuş? → isim-fiil) kalır. İki fiilimsi, iki farklı tür.
-Adım 2: II → Çekimli fiil 'kullanır'. Geriye 'ölçmek' ve 'izlemek' kalır; ikisi de işin adını bildirir, yani ikisi de isim-fiildir. Türleri aynı.
-Adım 3: III → Çekimli fiil 'içiyor'. Geriye yalnızca 'görünce' kalır: tek fiilimsi.
-Adım 4: IV → Çekimli fiil 'içeriyor'. Geriye 'aktaran' ('uygulama'yı niteler) ve 'gösterecek' ('bölüm'ü niteler) kalır; ikisi de sıfat-fiildir. Türleri aynı.
-Sağlama: Yalnızca I. cümlede iki fiilimsi farklı türdendir.
-Sık yapılan hata: IV. cümledeki 'gösterecek' sözcüğünü gelecek zaman çekimi sanmak. Sözcük cümleyi bitirmiyor, 'bölüm' adını nitelendiriyorsa sıfat-fiildir.
+  hatalar: [null, "Yüklem olan isim-fiili çekimli fiil sanma: III. cümledeki “buluşturmaktır” sözcüğünde “buluşturmak” işin adıdır, “-tır” ek fiildir; bu cümlede fiilimsi vardır. IV. cümledeki “yemiş” ve “giriş” ise kalıcı addır.", "“-ken” ekli zarf-fiili atlama ve kalıcı adları fiilimsi sayma: II. cümlede “anlatırken” zarf-fiildir; I. cümledeki “dolmuş” ile “yazar” ise birer varlığın adıdır, fiilimsi değildir.", "İki gizli fiilimsiyi birden atlama: II. cümlede “anlatırken” zarf-fiil, III. cümlede “buluşturmaktır” yüklem olmuş isim-fiildir; fiilimsi bulunmayan cümleler bunlar değildir."],
+  aciklama: `Fiilimsi ararken iki tuzağı ele: kip ve kişi anlamı taşıyıp yargı bildiren çekimli fiiller ile fiilden türediği hâlde bir varlığın adı olmuş kalıcı adlar fiilimsi değildir.
+Adım 1: I → "uğramış", "almış", "gelecekmiş" sözcüklerinin üçü de yargı bildirir; çekimli fiildir. "Dolmuş" bir taşıtın, "yazar" bir mesleğin adıdır; kalıcı addır. Fiilimsi yok.
+Adım 2: II → Yüklem "seviniyordu". "Anlatırken" sözcüğü "Ne zaman seviniyordu?" sorusuna cevap verir: zarf-fiil. Fiilimsi var.
+Adım 3: III → "Tek amacı … buluşturmaktır." Amacı nedir? "Buluşturmak." Bu bir işin adıdır; sonundaki "-tır" ek fiildir. Yüklem olmuş isim-fiil yine fiilimsidir. ("Okur" ise kitap okuyan kişinin kalıcı adıdır.) Fiilimsi var.
+Adım 4: IV → "bulunur" ve "durur" geniş zamanlı çekimli fiillerdir. "Giriş" bir yerin, "yemiş" bir yiyeceğin adıdır. Fiilimsi yok.
+Adım 5: V → "ettirmez" ve "eder" çekimli fiildir. "Aradığını" (aradığı kitabı) ve "bulamayana" (bulamayan kişiye) adlaşmış sıfat-fiillerdir. Fiilimsi var.
+Adım 6: VI → "Dolaşmak" işin adıdır: isim-fiil. "Benzer" çekimli fiil, "alışveriş" kalıcı addır. Fiilimsi var.
+Sık yapılan hata: I ve IV. cümlelerdeki "dolmuş, yazar, yemiş" gibi sözcükleri eklerine bakarak fiilimsi saymak, buna karşılık "anlatırken" ve "buluşturmaktır" gibi gerçek fiilimsileri atlamak. Her sözcük için sor: cümlede bir iş mi anlatıyor, yoksa bir varlığın adı mı?
 Cevap A.`
 },
 /* ===================== HAVUZ ===================== */

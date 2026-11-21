@@ -492,41 +492,24 @@ Cevap D.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Sınıf panosuna bilim, doğa, kitap, müzik, spor ve tarih konulu altı afiş, soldan sağa 1'den 6'ya kadar numaralandırılmış yerlere birer tane asılacaktır. Sınıf başkanı spor afişini görseldeki gibi 4 numaralı yere asmıştır. Diğer afişler asılırken şu kurallara uyulacaktır:
-• Bilim ve doğa afişleri yan yana olacak.
-• Kitap afişi, müzik afişinin solundaki yerlerden birinde olacak.
-• Tarih afişi panonun uçlarından birinde olacak.
-• Müzik afişi 5 numaralı yere asılmayacak.
-Afişlerin yerleri değiştirildiğinde pano farklı bir biçimde asılmış sayılmaktadır.
-**Buna göre afişler bu kurallara uygun olarak kaç farklı biçimde asılabilir?**`,
-  gorsel: `<svg viewBox="0 0 540 120" role="img" aria-label="Altı yerli pano; 4 numaralı yerde spor afişi">
-<rect x="6" y="10" width="528" height="84" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
-<g fill="none" stroke="currentColor" stroke-width="2">
-<rect x="20" y="22" width="72" height="60"/><rect x="106" y="22" width="72" height="60"/><rect x="192" y="22" width="72" height="60"/>
-<rect x="364" y="22" width="72" height="60"/><rect x="450" y="22" width="72" height="60"/>
-</g>
-<rect x="278" y="22" width="72" height="60" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/>
-<text x="314" y="58" font-size="16" text-anchor="middle" fill="currentColor" font-weight="700">Spor</text>
-<g font-size="15" text-anchor="middle" fill="currentColor">
-<text x="56" y="112">1</text><text x="142" y="112">2</text><text x="228" y="112">3</text><text x="314" y="112">4</text><text x="400" y="112">5</text><text x="486" y="112">6</text>
-</g>
-</svg>`,
-  secenekler: ["2", "4", "8", "10"],
+  soru: `Bir kıyı kasabasındaki gezi teknesi, günübirlik turunda altı koya birer kez uğramaktadır: Çamlık, Fener, İncirli, Kayalı, Martı ve Zeytinli. Tekne sabah limandan ayrılmakta, yolcular her koyda bir süre karaya çıkabilmektedir. Teknenin kaptanı, yeni sezonun durak sırasını belirlerken defterine şu notları yazmıştır:
+
+"Öğle yemeğini her yıl olduğu gibi Zeytinli Koyu'nda vereceğiz; bu yüzden Zeytinli ya üçüncü ya da dördüncü durağımız olmalı. Fener Koyu'ndaki iskele öğleden sonra balıkçılara bırakıldığı için oraya Zeytinli'deki yemek molasından önce uğramak zorundayız. İncirli'de tekneye binecek dalış ekibini Çamlık'ta indireceğimizden İncirli'den ayrılınca doğruca Çamlık'a gideceğiz; araya başka bir koy girmeyecek. Kayalı ile Martı'da yüzme molası veriyoruz. Yolcular üst üste iki kez denize girip yorulmasın diye bu iki koya art arda uğramayacağız; aralarında en az bir başka koy olacak. Martı Koyu akşama doğru sert rüzgâr aldığından turu orada bitirmeyeceğiz, son durağımız başka bir koy olacak."
+
+Bu notların hepsine uyan birden çok durak sırası vardır.
+
+**Buna göre, notlara uyan bütün durak sıraları düşünüldüğünde aşağıdakilerden hangisi kesinlikle doğrudur?**`,
+  gorsel: null,
+  secenekler: ["Fener Koyu, teknenin uğradığı ilk duraktır.", "İncirli Koyu'na Zeytinli'den sonra uğranır.", "Çamlık Koyu, teknenin uğradığı son duraktır.", "Kayalı Koyu'na Martı Koyu'ndan sonra uğranır."],
   dogru: 1,
-  hatalar: [
-    "İkilinin iç düzenini unutma: Bilim ile doğa yan yana iken kendi aralarında yer değiştirebilir; her yerleşim iki farklı asılış verir.",
-    null,
-    "Son kuralı atlama: Müzik afişi 5 numaraya asılamaz; bu kural unutulunca tarih afişinin sağ uca asıldığı yerleşimler de sayılır.",
-    "İkinci kuralı atlama: Kitap afişinin müziğin solunda olması gerekir; bu kural unutulunca kitap ile müziğin yer değiştirdiği düzenler de sayılır."
-  ],
-  aciklama: `Sayma sorularında önce kesin yerleri bul, sonra kalan seçenekleri tek tek yaz.
-Adım 1: Spor 4'tedir. Tarih uçlardadır: 1 ya da 6.
-Adım 2: Tarih 6'da olsun. Boş yerler 1, 2, 3 ve 5. Bilim-doğa ikilisi yan yana iki yer ister: 1-2 ya da 2-3. İkili 1-2'deyse kitap ile müziğe 3 ve 5 kalır; kitap solda olacağı için müzik 5'e düşer, bu yasak. İkili 2-3'teyse 1 ve 5 kalır; müzik yine 5'e düşer. Demek ki tarih 6'da olamaz.
-Adım 3: Tarih 1'dedir. Boş yerler 2, 3, 5 ve 6. Yan yana çiftler 2-3 ve 5-6.
-• İkili 2-3'te: Kitap 5, müzik 6. Kurallar sağlanıyor.
-• İkili 5-6'da: Kitap 2, müzik 3. Kurallar sağlanıyor.
-Adım 4: Her durumda bilim ile doğa kendi aralarında yer değiştirebilir: 2 × 2 = 4 farklı asılış.
-Sağlama: Tarih, Bilim, Doğa, Spor, Kitap, Müzik; Tarih, Doğa, Bilim, Spor, Kitap, Müzik; Tarih, Kitap, Müzik, Spor, Bilim, Doğa; Tarih, Kitap, Müzik, Spor, Doğa, Bilim.
+  hatalar: ["Olası olanı kesin sanma: Fener'in Zeytinli'den önce olması, ilk durak olmasını gerektirmez. Kayalı, Fener, Zeytinli, Martı, İncirli, Çamlık sırası bütün notlara uyar ve Fener ikinci duraktır.", null, "Çoğu sırada doğru olanı kesin sanma: Çamlık çoğu sırada son duraktır ama Fener, Martı, Zeytinli, İncirli, Çamlık, Kayalı sırası da notlara uyar; burada tur Kayalı'da biter.", "Yasağı sıralama sanma: Notlar Kayalı ile Martı'nın art arda olmasını yasaklar, hangisinin önce geleceğini söylemez. Kayalı, Fener, Zeytinli, Martı, İncirli, Çamlık sırasında Kayalı öndedir."],
+  aciklama: `"Kesinlikle doğru" olan ifade, notlara uyan bütün sıralarda doğru kalan ifadedir. Tek bir uygun sırada bile bozuluyorsa kesin değildir.
+Adım 1: Notları kısa koşullara çevir. Zeytinli 3. ya da 4. durak. Fener, Zeytinli'den önce. İncirli'nin hemen ardından Çamlık gelir; bu ikisini "İncirli-Çamlık ikilisi" diye düşün. Kayalı ile Martı art arda değil. Martı son durak değil.
+Adım 2: En çok yer kaplayan parçadan başla: İkili Zeytinli'den önce olabilir mi? Zeytinli 3. duraksa önünde yalnızca iki yer vardır. İkili bu iki yeri doldurur ve Fener'e Zeytinli'den önce yer kalmaz. Olmaz.
+Adım 3: Zeytinli 4. duraksa önünde üç yer vardır; ikili ile Fener bu üç yeri doldurur. Geriye 5. ve 6. duraklar kalır ve bunlar Kayalı ile Martı'ya düşer. Oysa bu iki koya art arda uğranamaz. Bu da olmaz.
+Adım 4: Demek ki İncirli-Çamlık ikilisi her durumda Zeytinli'den sonradır. B şıkkı bütün sıralarda doğrudur.
+Adım 5: Öteki şıkları birer karşı örnekle ele. Kayalı, Fener, Zeytinli, Martı, İncirli, Çamlık sırası bütün notlara uyar; burada Fener ilk durak değildir (A) ve Kayalı'ya Martı'dan önce uğranır (D). Fener, Martı, Zeytinli, İncirli, Çamlık, Kayalı sırası da notlara uyar; burada son durak Çamlık değildir (C).
+Sık yapılan hata: Bulduğun ilk uygun sırada doğru çıkan ifadeyi "kesin" saymak. Bir ifadenin kesin olmadığını göstermek için tek karşı örnek yeter; kesin olduğunu göstermek için ise tersinin hiçbir biçimde kurulamadığını göstermelisin.
 Cevap B.`
 },
 {
@@ -534,28 +517,21 @@ Cevap B.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun yıl sonu gösterisinde koro, keman, piyano, drama ve halk oyunları gösterileri birer kez sahnelenecektir. Sunucu, gösterilerin sırasını şu kurallara göre belirlemiştir:
-• Koro ya ilk ya da son gösteri olacak.
-• Keman gösterisi, piyano gösterisinden önceki sıralardan birinde yer alacak.
-• Drama ile halk oyunları art arda sahnelenmeyecek.
-• Piyano gösterisi üçüncü sırada olmayacak.
-Bu kurallara uyan birden çok sıralama vardır. Prova sırasında halk oyunları ekibinin kostüm değiştirmesi gerektiği anlaşılınca sunucu, bu ekibin dördüncü sırada sahneye çıkmasına karar vermiştir.
-**Bu son karar da dikkate alındığında ikinci sırada hangi gösteri sahnelenir?**`,
+  soru: `Bir seramik atölyesinde Asel, Baran, Ceylin, Demir ve Elçin'in yaptığı birer eser fırınlanacaktır. Eserler bir vazo, bir kâse, bir kupa, bir tabak ve bir saksıdır; her öğrenci bunlardan farklı birini yapmıştır. Fırının alttan üste doğru 1'den 5'e kadar numaralanmış beş rafı vardır ve her rafa tek eser konacaktır. Eserinin hangi rafta pişeceğini merak eden öğrencilere atölye öğretmeni şunları söylemiştir:
+
+"Yerleşimin tamamına yarın karar vereceğim ama bazı şeyler şimdiden belli. Vazo öteki eserlerden uzun olduğu için yalnızca en üstteki rafa sığıyor. Kâseyi Asel yaptı; en alttaki raf çok ısındığından ince kenarlı kâseyi oraya koymayacağım. Kupa ile tabağın sırları birbirine bulaşmasın diye bu ikisini alt alta gelen iki rafa yerleştirmeyeceğim. Baran ile Ceylin eserlerini aynı çamurdan yaptığı için onları birbirinden uzaklaştırmak istemiyorum: Baran'ın eseri, Ceylin'inkinin hemen bir üstündeki rafta duracak. Elçin'in eserini Demir'inkinden daha alttaki raflardan birine koyacağım. Demir'e gelince, saksıyı yapan o değil."
+
+**Öğretmenin söylediklerine uyan yerleşimler düşünüldüğünde aşağıdakilerden hangisi __olamaz__?**`,
   gorsel: null,
-  secenekler: ["Keman", "Piyano", "Halk oyunları", "Drama"],
+  secenekler: ["Demir'in eseri kupadır.", "Elçin'in eseri saksıdır.", "Baran'ın eseri üçüncü raftadır.", "Elçin'in eseri ikinci raftadır."],
   dogru: 3,
-  hatalar: [
-    "Kemanı en erken yere koyup denemeyi bırakma: Keman ikinci olursa drama ile piyanoya 3 ve 5 kalır; piyano 3'e giremez, drama da 3'te halk oyunlarının yanına düşer.",
-    "Keman-piyano kuralını atlama: Piyano ikinci olsaydı keman birinci olmalıydı; o zaman koro sona gider, drama da 3. sırada halk oyunlarının yanına düşer.",
-    "Son kararı dikkate almama: Karardan önce halk oyunları ikinci sırada olabiliyordu; ama artık dördüncü sıradadır.",
-    null
-  ],
-  aciklama: `Adım 1: Halk oyunları 4. sıradadır. Drama onunla art arda olamayacağı için 3. ve 5. sıraya giremez; drama 1 ya da 2'dedir.
-Adım 2: Koro 1 ya da 5'tedir. Koro 5'te olursa 1, 2 ve 3. sıralar drama, keman ve piyanoya kalır. Piyano 3 olamaz; keman piyanodan önce olmalı. O zaman piyano 2, keman 1 olur ve drama 3'e düşer. Drama 3'te halk oyunlarının yanındadır, olmaz.
-Adım 3: Koro 1'dedir. 2, 3 ve 5. sıralar drama, keman ve piyanoya kalır. Drama 2'de olmak zorundadır (3 ve 5 yasak). Piyano 3 olamaz, 5'e gider; keman 3'e yerleşir.
-Sıralama: Koro, Drama, Keman, Halk oyunları, Piyano.
-Sağlama: Koro ilk, keman piyanodan önce, drama ile halk oyunları art arda değil, piyano 3. değil.
-Sık yapılan hata: Ek bilgiyi hesaba katmadan, karardan önceki olası sıralamalardan birine bakarak cevap vermek.
+  hatalar: ["Ender durumu olamaz sanma: Demir çoğu yerleşimde vazonun sahibidir ama bu zorunlu değildir. Alttan üste Elçin tabak, Asel kâse, Demir kupa, Ceylin saksı, Baran vazo yerleşimi bütün koşullara uyar.", "Verilmeyen bir yasağı ekleme: Saksı için tek bilgi, onu Demir'in yapmadığıdır. Alttan üste Elçin saksı, Demir kupa, Asel kâse, Ceylin tabak, Baran vazo yerleşimi bütün koşullara uyar.", "Eksik deneme: Baran 3. rafta olunca Ceylin 2. rafa iner; 1. rafa Elçin, üstteki raflara Asel ile Demir yerleşir. Alttan üste Elçin kupa, Ceylin saksı, Baran tabak, Asel kâse, Demir vazo yerleşimi koşullara uyar.", null],
+  aciklama: `"Olamaz" sorusunda her şıkkı bir varsayım gibi dene. Bütün koşullara uyan tek bir yerleşim bile kurabiliyorsan o şık olabilir demektir.
+Adım 1: Anlatılanları kısa koşullara çevir. Vazo 5. rafta. Kâse Asel'in ve 1. rafta değil. Kupa ile tabak komşu raflarda değil. Baran, Ceylin'in hemen üstünde. Elçin, Demir'den aşağıda. Demir'in eseri saksı değil.
+Adım 2: En alttaki rafa kim gelebilir, onu bul. Asel gelemez (kâse en alta konmaz). Baran gelemez (hemen altında Ceylin olmalı). Demir gelemez (altında Elçin olmalı). Demek ki 1. rafta ya Ceylin ya da Elçin vardır.
+Adım 3: D şıkkını dene: Elçin 2. rafta olsun. O zaman 1. raf Ceylin'e kalır. Ceylin 1. raftaysa Baran onun hemen üstünde, yani 2. rafta olmalıdır. Ama 2. raf Elçin'indir. Çelişki çıktı: Elçin'in eseri 2. rafta olamaz.
+Adım 4: Öteki şıklar için alttan üste birer yerleşim kur. A için: Elçin tabak, Asel kâse, Demir kupa, Ceylin saksı, Baran vazo. B için: Elçin saksı, Demir kupa, Asel kâse, Ceylin tabak, Baran vazo. C için: Elçin kupa, Ceylin saksı, Baran tabak, Asel kâse, Demir vazo. Üçünde de vazo en üstte, kâse en altta değil, kupa ile tabak komşu değil, Baran Ceylin'in hemen üstünde, Elçin Demir'den aşağıda ve saksı Demir'in değil.
+Sık yapılan hata: Bir şık aklına ilk gelen yerleşimde tutmayınca hemen "olamaz" demek. Bir şıkkın olamayacağını söylemek için hiçbir yerleşimin kurulamadığını, Adım 3'teki gibi bir çelişkiyle göstermelisin.
 Cevap D.`
 },
 {
@@ -563,27 +539,23 @@ Cevap D.`
   kazanim: "T.8.3.32",
   kademe: 3,
   zorluk: 4,
-  soru: `Arın, Bora, Cansu ve Dila; yüzme, tenis, basketbol ve voleybol sporlarından farklı birini yapmaktadır. Her biri pazartesiden perşembeye kadarki günlerden farklı birinde antrenmana gitmektedir. Çizelgeye iki bilgi yazılmıştır. Ayrıca şunlar bilinmektedir:
-• Bora yüzmeye gitmez.
-• Cansu voleybol oynamaz.
-• Dila'nın antrenmanı, basketbol oynayan kişinin antrenmanından sonraki günlerin birindedir.
-• Arın tenis oynamaz ve antrenmanı Cansu'nunkinden sonraki günlerin birindedir.
-**Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: `<table class="tablo"><tr><th></th><th>Pazartesi</th><th>Salı</th><th>Çarşamba</th><th>Perşembe</th></tr><tr><th>Kişi</th><td>Bora</td><td>?</td><td>?</td><td>?</td></tr><tr><th>Spor</th><td>?</td><td>?</td><td>Tenis</td><td>?</td></tr></table>`,
-  secenekler: ["Arın perşembe günü antrenman yapar.", "Bora pazartesi günü basketbol oynar.", "Cansu çarşamba günü tenis oynar.", "Dila salı günü antrenman yapar."],
+  soru: `Bir ortaokulun bilim şenliğinde cuma, cumartesi ve pazar günleri, sabah ve öğleden sonra birer oturum olmak üzere toplam altı oturum düzenlenecektir. Altı atölyenin her biri bir kez yapılacak, her oturuma tek atölye konacak ve her atölyeyi tek bir öğretmen yürütecektir. Atölyelerin yürütücüleri ile yapılacakları yerler Tablo 1'de, şenlik çizelgesinin şimdiye kadar doldurulan bölümü Tablo 2'de verilmiştir. Çizelgenin kalanı şu kurallara göre doldurulacaktır:
+• Bir öğretmen aynı gün içinde iki atölye yürütmeyecektir.
+• Bahçe öğleden sonraları başka etkinliklere ayrıldığı için bahçede yapılan atölyeler sabah oturumuna konacaktır.
+• Harita atölyesinde, Mıknatıs atölyesinde yapılan pusulalar kullanılacağından Harita atölyesi Mıknatıs atölyesinden sonraki günlerin birinde yapılacaktır.
+
+**Buna göre çizelgenin tamamlanmış hâliyle ilgili aşağıdakilerden hangisi doğru olabilir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th colspan=\"3\">Tablo 1</th></tr><tr><th>Atölye</th><th>Yürütücü</th><th>Yer</th></tr><tr><td>Drone</td><td>Nevin Öğretmen</td><td>Bahçe</td></tr><tr><td>Fosil</td><td>Tarık Öğretmen</td><td>Laboratuvar</td></tr><tr><td>Harita</td><td>Nevin Öğretmen</td><td>Kütüphane</td></tr><tr><td>Mıknatıs</td><td>Sevgi Öğretmen</td><td>Laboratuvar</td></tr><tr><td>Roket</td><td>Tarık Öğretmen</td><td>Bahçe</td></tr><tr><td>Sabun</td><td>Sevgi Öğretmen</td><td>Laboratuvar</td></tr></table><br><table class=\"tablo\"><tr><th colspan=\"4\">Tablo 2</th></tr><tr><th>Oturum</th><th>Cuma</th><th>Cumartesi</th><th>Pazar</th></tr><tr><th>Sabah</th><td>?</td><td>?</td><td>?</td></tr><tr><th>Öğleden sonra</th><td>?</td><td>Sabun</td><td>?</td></tr></table>",
+  secenekler: ["Harita atölyesi cumartesi, Roket atölyesi cuma günü yapılır.", "Harita atölyesi cumartesi, Drone atölyesi cuma günü yapılır.", "Fosil atölyesi cuma, Roket atölyesi cumartesi günü yapılır.", "Fosil atölyesi cuma, Mıknatıs atölyesi cumartesi günü yapılır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Olası olanı kesin sanma: Bora voleybol da oynayabilir; örneğin Bora voleybol, Cansu basketbol (salı), Dila tenis, Arın yüzme (perşembe) dağılımı bütün bilgilere uyar.",
-    "Olası olanı kesin sanma: Çarşambanın sporu tenistir ama çarşamba günü Cansu yerine Dila da antrenman yapabilir.",
-    "Olası olanı kesin sanma: Dila salı günü de çarşamba günü de antrenman yapabilir."
-  ],
-  aciklama: `Adım 1: Pazartesi Bora'nındır. Salı, çarşamba ve perşembe Arın, Cansu ve Dila'ya kalır.
-Adım 2: Arın, Cansu'dan sonraki bir günde antrenman yapar; demek ki Arın salıda olamaz.
-Adım 3: Arın çarşambada olursa çarşambanın sporu tenistir; ama Arın tenis oynamaz. Bu yüzden Arın perşembededir.
-Adım 4: Cansu ile Dila salı ve çarşambayı paylaşır; çarşambadaki kişi tenis oynar. Dila'nın basketbolcudan sonra gelmesi, Bora'nın yüzmemesi ve Cansu'nun voleybol oynamaması kurallarına uyan dört farklı dağılım vardır.
-Adım 5: Bu dağılımlarda Bora basketbol ya da voleybol, Cansu tenis ya da başka bir spor, Dila salı ya da çarşamba olabilir. Değişmeyen tek bilgi, Arın'ın perşembe günü antrenman yapmasıdır.
-Sağlama: Arın yüzme (perşembe), Bora basketbol, Cansu tenis (çarşamba), Dila voleybol (salı) dağılımı ile Arın voleybol (perşembe), Bora basketbol, Cansu yüzme (salı), Dila tenis (çarşamba) dağılımının ikisi de kurallara uyar; ikisinde de Arın perşembededir.
+  hatalar: [null, "Kalan atölyeleri denetlememe: Harita cumartesi, Drone cuma olunca cumaya Mıknatıs da girer ve pazara Roket ile Fosil kalır. İkisini de Tarık Öğretmen yürüttüğü için aynı güne konamazlar.", "Kalan atölyeleri denetlememe: Fosil cuma, Roket cumartesi olunca cuma Mıknatıs'la, cumartesi Sabun'la dolar ve pazara Drone ile Harita kalır. İkisini de Nevin Öğretmen yürüttüğü için aynı güne konamazlar.", "İki tabloyu birleştirmeme: Tablo 2'ye göre Sabun cumartesi günüdür, Tablo 1'e göre Mıknatıs'ı da Sabun'u da Sevgi Öğretmen yürütür. Mıknatıs cumartesiye konursa aynı öğretmen bir günde iki atölye yürütmüş olur."],
+  aciklama: `"Doğru olabilir" sorusunda şıkkı doğru kabul et, çizelgenin kalanını doldur. Bütün kurallara uyan tek bir çizelge kurabiliyorsan o şık olabilir.
+Adım 1: Tablo 1'den öğretmen çiftlerini çıkar: Drone ile Harita (Nevin Öğretmen), Fosil ile Roket (Tarık Öğretmen), Mıknatıs ile Sabun (Sevgi Öğretmen). Aynı çiftin iki atölyesi aynı güne konamaz.
+Adım 2: Bahçede yapılan Drone ile Roket yalnızca sabah oturumuna girer. Bir günde tek sabah oturumu olduğundan bu ikisi de aynı güne konamaz.
+Adım 3: Mıknatıs'ın gününü bul. Tablo 2'ye göre Sabun cumartesi günüdür; Mıknatıs aynı öğretmenin olduğu için cumartesiye konamaz. Harita'dan önceki bir günde yapılacağı için pazara da konamaz. Mıknatıs cuma günüdür. Bu, D şıkkını eler.
+Adım 4: A şıkkını dene: Roket cuma sabah, Mıknatıs cuma öğleden sonra, Harita cumartesi sabah. Pazara Drone (sabah) ile Fosil (öğleden sonra) kalır. Cuma günü Tarık ve Sevgi, cumartesi günü Nevin ve Sevgi, pazar günü Nevin ve Tarık Öğretmen görevlidir; hiçbir öğretmen bir günde iki atölye yürütmez. Bahçe atölyeleri sabahtadır, Harita Mıknatıs'tan sonraki gündedir. A olabilir.
+Adım 5: B şıkkında cuma Drone ile Mıknatıs'a, cumartesi Harita ile Sabun'a gider; pazara Roket ile Fosil kalır, ikisi de Tarık Öğretmen'indir. C şıkkında cuma Fosil ile Mıknatıs'a, cumartesi Roket ile Sabun'a gider; pazara Drone ile Harita kalır, ikisi de Nevin Öğretmen'indir. İkisi de olamaz.
+Sık yapılan hata: Şıkta adı geçen iki atölyeyi kurallarla karşılaştırıp sorun görmeyince "olabilir" demek. B ile C'de sorun, şıkta adı geçmeyen atölyeler yerleştirilirken ortaya çıkar; çizelgeyi sonuna kadar doldurmalısın.
 Cevap A.`
 },
 {
@@ -591,28 +563,23 @@ Cevap A.`
   kazanim: "T.8.3.32",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir okul serasında çatı penceresi, sisleme sistemi ve fan, sıcaklık ile nem ölçümlerine göre kendiliğinden çalışmaktadır. Sistemin kuralları Tablo 1'de, gün içinde yapılan ölçümler Tablo 2'de verilmiştir. Tablo 1'deki kurallara ek olarak şu kural da geçerlidir: Sıcaklık 27 °C ve üstündeyken nem ne olursa olsun fan çalışır.
-**Buna göre aşağıdakilerin hangisinde, verilen saatte sera sisteminin durumu kurallara __uygun değildir__?**`,
-  gorsel: `<table class="tablo"><tr><th colspan="2">Tablo 1</th></tr><tr><th>Sıcaklık (°C)</th><th>Çatı penceresi</th></tr><tr><td>18 ve altı</td><td>Kapalı</td></tr><tr><td>19-26</td><td>Yarım açık</td></tr><tr><td>27 ve üstü</td><td>Tam açık</td></tr></table><br><table class="tablo"><tr><th>Nem (%)</th><th>Sisleme</th><th>Fan</th></tr><tr><td>60 ve altı</td><td>Çalışır</td><td>Durur</td></tr><tr><td>61-80</td><td>Durur</td><td>Durur</td></tr><tr><td>81 ve üstü</td><td>Durur</td><td>Çalışır</td></tr></table><br><table class="tablo"><tr><th colspan="3">Tablo 2</th></tr><tr><th>Saat</th><th>Sıcaklık (°C)</th><th>Nem (%)</th></tr><tr><td>08.00</td><td>17</td><td>85</td></tr><tr><td>11.00</td><td>24</td><td>58</td></tr><tr><td>14.00</td><td>29</td><td>66</td></tr><tr><td>17.00</td><td>22</td><td>74</td></tr></table>`,
-  secenekler: [
-    "08.00: Pencere kapalı, sisleme durur, fan çalışır.",
-    "11.00: Pencere yarım açık, sisleme çalışır, fan durur.",
-    "14.00: Pencere tam açık, sisleme durur, fan durur.",
-    "17.00: Pencere yarım açık, sisleme durur, fan durur."
-  ],
+  soru: `Bir sahil kentinde belediyenin bisiklet kiralama sisteminde Gar, Meydan ve Sahil adlı üç istasyon vardır. Sistemin mart-haziran dönemini değerlendiren raporda şu bilgilere yer verilmiştir:
+
+"Mart ayında en çok bisiklet Gar istasyonundan kiralanmış, Meydan ile Sahil istasyonlarındaki kiralama sayıları ise birbirine eşit çıkmıştır. Sahil istasyonu nisanda Meydan'ı geride bırakmış, mayısta ise onun gerisine düşmüştür. Üç istasyondan yalnızca birinde kiralama sayısı nisan, mayıs ve haziran aylarının her birinde bir önceki aya göre artmıştır. Gar istasyonu bu dönemdeki en yüksek kiralama sayısına mayıs ayında ulaşmıştır. Havaların ısınmasıyla Sahil istasyonunun haziran ayındaki kiralama sayısı, aynı istasyonun mart ayındaki sayısının iki katını aşmıştır."
+
+**Bu bilgilere göre üç istasyonun aylara göre kiralama sayılarını gösteren tablo aşağıdakilerden hangisi olabilir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th colspan=\"5\">Tablo 1</th></tr><tr><th>İstasyon</th><th>Mart</th><th>Nisan</th><th>Mayıs</th><th>Haziran</th></tr><tr><td>Gar</td><td>50</td><td>60</td><td>80</td><td>85</td></tr><tr><td>Meydan</td><td>30</td><td>45</td><td>60</td><td>55</td></tr><tr><td>Sahil</td><td>30</td><td>50</td><td>45</td><td>70</td></tr></table><br><table class=\"tablo\"><tr><th colspan=\"5\">Tablo 2</th></tr><tr><th>İstasyon</th><th>Mart</th><th>Nisan</th><th>Mayıs</th><th>Haziran</th></tr><tr><td>Gar</td><td>65</td><td>75</td><td>95</td><td>85</td></tr><tr><td>Meydan</td><td>45</td><td>55</td><td>80</td><td>75</td></tr><tr><td>Sahil</td><td>45</td><td>60</td><td>70</td><td>90</td></tr></table><br><table class=\"tablo\"><tr><th colspan=\"5\">Tablo 3</th></tr><tr><th>İstasyon</th><th>Mart</th><th>Nisan</th><th>Mayıs</th><th>Haziran</th></tr><tr><td>Gar</td><td>55</td><td>70</td><td>90</td><td>85</td></tr><tr><td>Meydan</td><td>35</td><td>50</td><td>65</td><td>80</td></tr><tr><td>Sahil</td><td>35</td><td>60</td><td>55</td><td>75</td></tr></table><br><table class=\"tablo\"><tr><th colspan=\"5\">Tablo 4</th></tr><tr><th>İstasyon</th><th>Mart</th><th>Nisan</th><th>Mayıs</th><th>Haziran</th></tr><tr><td>Gar</td><td>60</td><td>75</td><td>95</td><td>80</td></tr><tr><td>Meydan</td><td>40</td><td>60</td><td>85</td><td>70</td></tr><tr><td>Sahil</td><td>40</td><td>70</td><td>70</td><td>100</td></tr></table>",
+  secenekler: ["Tablo 1", "Tablo 2", "Tablo 3", "Tablo 4"],
   dogru: 2,
-  hatalar: [
-    "Uygun olanı aykırı sanma: %85 nem 81 ve üstü aralığındadır; sisleme durur, fan çalışır. 17 °C'de pencere kapalıdır.",
-    "Uygun olanı aykırı sanma: %58 nem 60 ve altı aralığındadır; sisleme çalışır, fan durur. 24 °C'de pencere yarım açıktır.",
-    null,
-    "Uygun olanı aykırı sanma: %74 nem 61-80 aralığındadır; sisleme de fan da durur. 22 °C'de pencere yarım açıktır."
-  ],
-  aciklama: `İki tablo ve bir ek kuralın birlikte uygulandığı sorularda her saat için üç parçayı ayrı ayrı denetle: pencere (sıcaklığa göre), sisleme ve fan (nem ile ek kurala göre).
-Adım 1: 08.00: 17 °C → pencere kapalı. %85 → sisleme durur, fan çalışır. A şıkkı uygun.
-Adım 2: 11.00: 24 °C → yarım açık. %58 → sisleme çalışır, fan durur. Sıcaklık 27'nin altında olduğu için ek kural devreye girmez. B şıkkı uygun.
-Adım 3: 14.00: 29 °C → tam açık. %66 → sisleme durur; tabloya göre fan durur. Ama sıcaklık 27 °C'nin üstünde olduğu için ek kural gereği fan çalışmalıdır. C şıkkında fan duruyor; kurala uygun değil.
-Adım 4: 17.00: 22 °C → yarım açık. %74 → sisleme ve fan durur. D şıkkı uygun.
-Sık yapılan hata: Yalnızca tabloya bakıp metindeki ek kuralı gözden kaçırmak.
+  hatalar: ["Artışı en yüksek değer sanma: Tablo 1'de Gar'ın sayısı mayısta 60'tan 80'e sıçramıştır ama haziranda 85'e çıkmıştır. Gar en yüksek sayısına mayısta değil haziranda ulaşmıştır.", "Sınır değeri dâhil etme: Tablo 2'de Sahil martta 45, haziranda 90'dır. 90, 45'in tam iki katıdır; rapor ise iki katın aşıldığını söyler.", null, "Aynı kalanı artmış sayma: Tablo 4'te Sahil'in sayısı nisanda da mayısta da 70'tir, yani mayısta artmamıştır. Gar ile Meydan da haziranda gerilediği için bu tabloda her ay artan bir istasyon yoktur."],
+  aciklama: `Metinden tabloya geçilen sorularda önce metindeki her bilgiyi kısa bir koşula çevir, sonra her tabloyu bu koşulların hepsiyle tek tek karşılaştır. Tek bir koşula uymayan tablo elenir.
+Adım 1: Koşulları çıkar. (1) Martta en büyük sayı Gar'da, Meydan ile Sahil eşit. (2) Nisanda Sahil, Meydan'dan büyük; mayısta küçük. (3) Her ay artan istasyon sayısı tam bir. (4) Gar'ın en büyük sayısı mayısta. (5) Sahil'in haziran sayısı, mart sayısının iki katından büyük.
+Adım 2: (1) ve (2) dört tabloda da sağlanır; örneğin Tablo 3'te martta 55, 35, 35; nisanda Sahil 60, Meydan 50; mayısta Sahil 55, Meydan 65. Ayırt edici olan son üç koşuldur.
+Adım 3: (3) numaralı koşul için her istasyonun üç geçişine de bak. Tablo 1'de yalnızca Gar (50, 60, 80, 85), Tablo 2'de yalnızca Sahil (45, 60, 70, 90), Tablo 3'te yalnızca Meydan (35, 50, 65, 80) her ay artmıştır. Tablo 4'te Gar ile Meydan haziranda gerilemiştir; Sahil ise 40, 70, 70, 100 diye gider. Nisandan mayısa sayı aynı kaldığı için bu bir artış değildir. Tablo 4'te her ay artan istasyon yoktur; Tablo 4 elenir.
+Adım 4: (4) numaralı koşul: Tablo 1'de Gar'ın en büyük sayısı hazirandaki 85'tir; Tablo 1 elenir. Tablo 2'de (95) ve Tablo 3'te (90) en büyük sayı mayıstadır.
+Adım 5: (5) numaralı koşul: Tablo 2'de 45'in iki katı 90'dır ve haziran sayısı tam 90'dır; "aşmıştır" koşulu sağlanmaz, Tablo 2 elenir. Tablo 3'te 35'in iki katı 70, haziran sayısı 75'tir; koşul sağlanır.
+Sağlama: Tablo 3'te Gar 55, 70, 90, 85 (en büyük mayısta); Meydan 35, 50, 65, 80 (her ay artan tek istasyon); Sahil 35, 60, 55, 75 (mayısta düşmüş, haziranda 70'i aşmış).
+Sık yapılan hata: Sözcüklerin çizdiği sınırı gevşek okumak. "Artmıştır" denmişse aynı kalan sayı artış sayılmaz; "aşmıştır" denmişse tam iki kat yetmez; "en yüksek" denmişse o aydan sonra daha büyük bir sayı gelmemelidir. Tabloyu bu sözcüklere göre denetle.
 Cevap C.`
 },
 {
@@ -620,40 +587,24 @@ Cevap C.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Teneffüste kantin önünde Ada, Berk, Can, Dora, Efe ve Fulya tek sıra hâlinde kuyruğa girmiştir. Kuyruğun en önündeki kişi 1., en arkasındaki kişi 6. sıradadır. Berk'in yeri görselde gösterilmiştir. Kuyrukla ilgili şunlar bilinmektedir:
-• Can, Ada'nın hemen arkasındadır.
-• Efe ne en öndedir ne de en arkadadır.
-• Dora, Fulya'dan daha öndedir.
-• Fulya, Efe'nin hemen önünde değildir.
-**Buna göre aşağıdakilerden hangisi __olamaz__?**`,
-  gorsel: `<svg viewBox="0 0 540 120" role="img" aria-label="Kantin kuyruğu: altı yer; 5. sırada Berk">
-<rect x="6" y="20" width="70" height="64" rx="6" fill="var(--dolgu)" stroke="currentColor" stroke-width="2"/>
-<text x="41" y="57" font-size="15" text-anchor="middle" fill="currentColor">Kantin</text>
-<g fill="none" stroke="currentColor" stroke-width="2">
-<circle cx="116" cy="52" r="26"/><circle cx="186" cy="52" r="26"/><circle cx="256" cy="52" r="26"/><circle cx="326" cy="52" r="26"/><circle cx="466" cy="52" r="26"/>
-</g>
-<circle cx="396" cy="52" r="26" fill="var(--dolgu)" stroke="var(--vurgu)" stroke-width="3"/>
-<g font-size="16" text-anchor="middle" fill="currentColor">
-<text x="116" y="58">?</text><text x="186" y="58">?</text><text x="256" y="58">?</text><text x="326" y="58">?</text><text x="396" y="57" font-size="15" font-weight="700">Berk</text><text x="466" y="58">?</text>
-</g>
-<g font-size="15" text-anchor="middle" fill="currentColor">
-<text x="116" y="110">1.</text><text x="186" y="110">2.</text><text x="256" y="110">3.</text><text x="326" y="110">4.</text><text x="396" y="110">5.</text><text x="466" y="110">6.</text>
-</g>
-</svg>`,
-  secenekler: ["Ada üçüncü sıradadır.", "Dora ikinci sıradadır.", "Efe dördüncü sıradadır.", "Can dördüncü sıradadır."],
+  soru: `Bir okulun bahçesinde akasya, ceviz, çınar, dut, erik ve kestane olmak üzere altı ağaç vardır. Her biri farklı bir yılda dikilen bu ağaçlar dikiliş zamanına göre sıralandığında ilk dikilen 1., son dikilen 6. sırada yer almaktadır. Bu sırayı merak eden öğrenciler, okulun emekli bahçıvanını ziyaret etmiş ve ondan şunları dinlemiştir:
+
+"Hangi ağacı hangi yıl diktiğimi artık çıkaramıyorum ama sıraları dün gibi aklımda. Bahçeye ilk fidanı okulun açıldığı yıl, sonuncusunu da emekli olmadan hemen önce diktim. Dutu diktiğimde çınar da kestane de çoktan bahçedeydi. Kestaneyle eriği art arda diktim, ikisinin arasında başka ağaç dikmedim; yalnız hangisinin önce olduğunu bana sormayın. Kestaneyle ceviz art arda dikilmedi: Birini diktikten sonra araya tek bir ağaç girdi, ardından ötekini diktim. Çınarla akasya için de durum aynıydı, onların arasında da tek bir ağaç var."
+
+Öğrenciler daha sonra okul arşivindeki eski bir fotoğrafı incelemiş; bu fotoğrafta çınarın dikili olduğunu, kestanenin yerinin ise henüz boş durduğunu görmüştür.
+
+**Bütün bu bilgilere göre aşağıdaki ağaçlardan hangisinin kaçıncı sırada dikildiği kesin olarak __belirlenemez__?**`,
+  gorsel: null,
+  secenekler: ["Ceviz", "Çınar", "Dut", "Erik"],
   dogru: 1,
-  hatalar: [
-    "Olabilir olanı olamaz sanma: Dora, Efe, Ada, Can, Berk, Fulya sıralaması bütün bilgilere uyar.",
-    null,
-    "Olabilir olanı olamaz sanma: Ada, Can, Dora, Efe, Berk, Fulya sıralaması bütün bilgilere uyar.",
-    "Olabilir olanı olamaz sanma: Dora, Efe, Ada, Can, Berk, Fulya sıralamasında Can dördüncüdür ve bütün bilgiler sağlanır."
-  ],
-  aciklama: `"Olamaz" sorusunda her şıkkı bir varsayım olarak dene; bütün kurallara uyan bir sıralama kurabiliyorsan o şık olabilir demektir.
-Adım 1: Berk 5. sıradadır. Ada-Can ikilisi art arda iki boş yer ister: 1-2, 2-3 ya da 3-4.
-Adım 2: B şıkkını dene: Dora 2. olsun. O zaman boş yerler 1, 3, 4 ve 6'dır. Art arda olan tek boş çift 3-4'tür; Ada 3'e, Can 4'e gider.
-Adım 3: Efe ile Fulya'ya 1 ve 6 kalır. Oysa Efe ne en önde ne en arkada olabilir. Hiçbir yerleşim kurulamaz; demek ki Dora 2. sırada olamaz.
-Adım 4: Diğer şıklar için birer örnek: Dora, Efe, Ada, Can, Berk, Fulya (Ada 3., Can 4.); Ada, Can, Dora, Efe, Berk, Fulya (Efe 4.). İkisi de bütün kurallara uyar.
-Sık yapılan hata: Bir şıkkı denerken yalnızca bir iki kurala bakıp "olur" demek. Kurduğun sıralamayı bütün kurallarla tek tek karşılaştır.
+  hatalar: ["Yarım bırakılan deneme: Bahçıvan kestaneyle cevizden hangisinin önce dikildiğini söylemez ama kestane 4. sıraya oturunca ceviz için 2 ve 6 kalır; 6. sıra duta ayrıldığından ceviz kesin olarak 2. sıradadır.", null, "Dolaylı kesinleşmeyi görmeme: Dut için yalnızca çınardan ve kestaneden sonra dikildiği söylenir; ama kestane 4., erik 5. sıraya oturunca dut kesin olarak 6. sıradadır.", "Bahçıvanın belirsizliğini sonuca taşıma: Bahçıvan kestaneyle erikten hangisinin önce olduğunu hatırlamaz. Oysa fotoğraftan gelen bilgiyle kestane 4. sıraya oturur, 3. sıra dolu olduğundan erik kesin olarak 5. sıradadır."],
+  aciklama: `Bu soruda bütün sıra tek biçimde belirlenmiyor; senden hangi ağacın yerinin açıkta kaldığı isteniyor. Bunun için bilgilere uyan bütün sıraları bulmalısın.
+Adım 1: Bilgileri kısa koşullara çevir. Dut, çınardan ve kestaneden sonra. Kestane ile erik art arda. Kestane ile ceviz arasında tam bir ağaç var. Çınar ile akasya arasında tam bir ağaç var. Fotoğrafta çınar var, kestane yok; demek ki çınar, kestaneden önce dikilmiş.
+Adım 2: En çok koşulda geçen ağaçtan, kestaneden başla. Kestaneden önce çınar, sonra dut olduğu için kestane 1. ya da 6. olamaz.
+Adım 3: Kestane 2. olsa çınar 1., akasya 3. olur; eriğe kestanenin yanında yer kalmaz. Kestane 3. olsa çınar 1. ya da 2. olur. Çınar 1. ise akasya 3. sıraya, yani kestanenin yerine düşer. Çınar 2. ise akasya 4. olur ve eriğe kestanenin yanında yine yer kalmaz. Kestane 5. olsa dut 6., ceviz 3., erik 4. olur; çınarla akasyaya 1 ve 2 kalır, aralarına ağaç giremez. Bu üç durum da olmaz.
+Adım 4: Demek ki kestane 4. sıradadır. Dut 5. ya da 6., ceviz 2. ya da 6., erik 3. ya da 5. olabilir. Çınar 2. olamaz (akasya 4. sıraya düşerdi). Çınar 1. ise akasya 3. olur; erik 5., dut 6., ceviz 2. sıraya yerleşir. Çınar 3. ise akasya 1. olmak zorundadır (5. olsa eriğe yer kalmazdı); erik 5., dut 6., ceviz 2. olur.
+Adım 5: İki sıra çıktı: çınar, ceviz, akasya, kestane, erik, dut ve akasya, ceviz, çınar, kestane, erik, dut. Ceviz (2.), kestane (4.), erik (5.) ve dut (6.) iki sırada da aynı yerdedir. Çınar ise birinde 1., ötekinde 3. sıradadır.
+Sık yapılan hata: Bahçıvanın "hangisi önce, sormayın" dediği ağaçları belirsiz saymak. Tek başına belirsiz görünen bir bilgi, öteki koşullarla birleşince kesinleşebilir; kararı bütün sıraları çıkardıktan sonra ver.
 Cevap B.`
 },
 {
@@ -661,28 +612,26 @@ Cevap B.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir yaz kampında pazartesiden cumartesiye kadar her gün bir etkinlik yapılacaktır. Etkinlikler kano, tırmanış, okçuluk, bisiklet, yüzme ve doğa yürüyüşüdür. Okçuluk günü çizelgeye yazılmıştır. Kamp sorumlusu programı şu kurallara göre hazırlamıştır:
-• Yüzme ile kano art arda iki günde yapılacak.
-• Tırmanış, bisikletten sonraki günlerin birinde yapılacak.
-• Bisiklet pazartesi günü yapılmayacak.
-• Doğa yürüyüşü ne pazartesi ne de cumartesi günü yapılacak.
-**Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: `<table class="tablo"><tr><th>Pazartesi</th><th>Salı</th><th>Çarşamba</th><th>Perşembe</th><th>Cuma</th><th>Cumartesi</th></tr><tr><td>?</td><td>?</td><td>?</td><td>?</td><td>Okçuluk</td><td>?</td></tr></table>`,
-  secenekler: ["Kano pazartesi günü yapılır.", "Bisiklet perşembe günü yapılır.", "Doğa yürüyüşü çarşamba günü yapılır.", "Tırmanış cumartesi günü yapılır."],
+  soru: `Bir gençlik kampının dağ evinde, koridor boyunca yan yana dizilmiş ve 1'den 6'ya kadar numaralanmış altı oda vardır. Kampa katılan altı izci takımı kendilerine birer kuş adı seçmiştir: Atmaca, Kırlangıç, Leylek, Puhu, Saka ve Turna. Odaların hepsi aynı büyüklüktedir ve her odada tek bir takım kalmaktadır. Kamp sorumlusu odaları dağıtırken takımların alışkanlıklarını göz önünde bulundurmuş ve şunlara dikkat etmiştir:
+• Sabahları en geç kalkan Leylek takımına, kapıları çok kullanılan koridorun iki ucundaki odaları vermemiştir.
+• Kamp ateşi gösterisine birlikte hazırlanan Saka ile Turna takımlarını birbirinden uzağa düşürmemiş, ancak yan yana kalınca geç saatlere kadar konuştukları için bu iki takımın odaları arasında tam bir oda bırakmıştır.
+• Malzemeleri ortak olan Puhu ve Kırlangıç takımlarını yan yana yerleştirmiş, Kırlangıç'a Puhu'nun odasından hemen sonra gelen numarayı vermiştir.
+• Saka takımına hem Kırlangıç'ın hem de Atmaca'nın odasından daha küçük numaralı bir oda vermiştir.
+Bu bilgiler, altı takımın oda numaralarını tek tek bulmaya yetmemektedir; birbirinden farklı birkaç yerleşim bu bilgilerin hepsine uymaktadır.
+
+**Bu bilgilere ek olarak aşağıdakilerden hangisi bilinirse bütün takımların oda numaraları kesin olarak belirlenir?**`,
+  gorsel: null,
+  secenekler: ["Atmaca takımının 4 numaralı odada kaldığı", "Kırlangıç takımının 5 numaralı odada kaldığı", "Saka takımının 3 numaralı odada kaldığı", "Leylek takımının 4 numaralı odada kaldığı"],
   dogru: 3,
-  hatalar: [
-    "İkilinin iç düzenini unutma: Yüzme ile kano pazartesi-salı günlerindedir ama hangisinin önce yapılacağı belli değildir.",
-    "Olası olanı kesin sanma: Bisiklet çarşamba da olabilir, perşembe de; doğa yürüyüşü öteki güne yerleşir.",
-    "Olası olanı kesin sanma: Doğa yürüyüşü çarşamba da olabilir, perşembe de.",
-    null
-  ],
-  aciklama: `"Kesinlikle doğru" olan ifade, kurallara uyan bütün programlarda doğru kalan ifadedir.
-Adım 1: Okçuluk cuma günüdür. Pazartesi günü hangi etkinlik olabilir? Bisiklet olamaz (kural), tırmanış olamaz (bisikletten sonra gelmeli), doğa yürüyüşü olamaz (kural). Geriye yüzme ya da kano kalır.
-Adım 2: Yüzme ile kano art arda olduğuna göre bu ikili pazartesi-salı günlerindedir.
-Adım 3: Çarşamba, perşembe ve cumartesi; tırmanış, bisiklet ve doğa yürüyüşüne kalır. Doğa yürüyüşü cumartesi olamaz. Tırmanış bisikletten sonra olmalı; tırmanış çarşamba olamaz.
-Adım 4: Tırmanış perşembe olursa bisiklet çarşamba olur ve doğa yürüyüşü cumartesiye düşer; bu yasaktır. O hâlde tırmanış cumartesidir.
-Adım 5: Bisiklet ile doğa yürüyüşü çarşamba-perşembe günlerini herhangi bir sırayla paylaşır; kano ile yüzme de pazartesi-salıyı. Toplam dört program vardır ve hepsinde tırmanış cumartesidir.
-Sağlama: Kano, yüzme, bisiklet, doğa yürüyüşü, okçuluk, tırmanış programı bütün kurallara uyar.
+  hatalar: ["Yer değiştirebilen ikiliyi gözden kaçırma: Atmaca 4'teyken Puhu 5'e, Kırlangıç 6'ya, Leylek 2'ye yerleşir; ama Saka ile Turna 1 ve 3 numaralı odaları iki biçimde paylaşabilir.", "Yer değiştirebilen ikiliyi gözden kaçırma: Kırlangıç 5'teyken Puhu 4'e, Atmaca 6'ya, Leylek 2'ye yerleşir; ama Saka ile Turna 1 ve 3 numaralı odaları iki biçimde paylaşabilir.", "Birkaç odayı bulmayı yeterli sanma: Saka 3'teyken Turna 1'e, Leylek 2'ye yerleşir; ama kalan odalar ya Atmaca 4, Puhu 5, Kırlangıç 6 ya da Puhu 4, Kırlangıç 5, Atmaca 6 biçiminde dolabilir.", null],
+  aciklama: `"Hangisi bilinirse kesinleşir" sorusunda önce bilgilere uyan bütün yerleşimleri çıkar, sonra her şıkkın bu yerleşimlerden kaçını bıraktığına bak. Tek yerleşim bırakan şık doğrudur.
+Adım 1: Koşulları yaz. Leylek 1 ve 6 numarada değil. Saka ile Turna arasında tam bir oda var. Kırlangıç, Puhu'dan hemen sonraki numarada. Saka'nın numarası Kırlangıç'ınkinden ve Atmaca'nınkinden küçük.
+Adım 2: Saka'yı yerleştir. Kırlangıç Saka'dan büyük numaradadır; Puhu Kırlangıç'ın hemen önünde olduğu için o da Saka'dan büyük numarada kalır. Atmaca da öyle. Saka'nın sağında en az üç oda olmalıdır; Saka 1, 2 ya da 3 numaradadır. Saka'dan küçük numaralı odalara yalnızca Leylek ile Turna girebilir.
+Adım 3: Saka 2'de olsa 1 numaraya Leylek ya da Turna girmeli. Leylek uçta olamaz; Turna 1'de olsa Saka'yla arasında oda kalmaz. Saka 2'de olamaz.
+Adım 4: Saka 1'deyse Turna 3'tedir. Puhu-Kırlangıç ikilisi 4-5'e girerse Leylek 2, Atmaca 6 olur. İkili 5-6'ya girerse Leylek ile Atmaca 2 ve 4'ü iki biçimde paylaşır. Buradan üç yerleşim çıkar: Saka, Leylek, Turna, Puhu, Kırlangıç, Atmaca; Saka, Leylek, Turna, Atmaca, Puhu, Kırlangıç; Saka, Atmaca, Turna, Leylek, Puhu, Kırlangıç.
+Adım 5: Saka 3'teyse 1 ve 2 numaralar Turna ile Leylek'indir; Leylek uçta olamayacağından Turna 1, Leylek 2'dir. Kalan odalar iki biçimde dolar: Turna, Leylek, Saka, Puhu, Kırlangıç, Atmaca; Turna, Leylek, Saka, Atmaca, Puhu, Kırlangıç. Toplam beş yerleşim vardır.
+Adım 6: Şıkları say. Atmaca 4'te: iki yerleşim. Kırlangıç 5'te: iki yerleşim. Saka 3'te: iki yerleşim. Leylek 4'te: yalnızca Saka, Atmaca, Turna, Leylek, Puhu, Kırlangıç.
+Sık yapılan hata: Ek bilgiyle birkaç takımın odasını bulunca yerleşimin tamamını belirlenmiş saymak. Soruda bütün takımların odası isteniyor; kalan takımların tek biçimde yerleşip yerleşmediğini de denetle.
 Cevap D.`
 },
 {
@@ -690,29 +639,24 @@ Cevap D.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir sınıfta Ege, Figen, Gökay, Hira ve Ilgaz'a birer sınıf görevi verilecektir. Görevler kitaplığı düzenlemek, panoyu düzenlemek, bitkileri sulamak, tahtayı silmek ve ışıkları kapatmaktır. Her öğrenci bir görev alacak, her görev bir öğrenciye verilecektir. Öğretmen dağılımla ilgili şunları söylemiştir:
-• Ege ya panoyu düzenleyecek ya da bitkileri sulayacak.
-• Figen'e kitaplık ve ışık görevleri verilmeyecek.
-• Gökay'a tahta, pano ve kitaplık görevleri verilmeyecek.
-• Hira ya kitaplığı düzenleyecek ya da tahtayı silecek.
-Bu bilgilerle görev dağılımı tek biçimde belirlenememektedir.
-**Bu bilgilere ek olarak aşağıdakilerden hangisi bilinirse her öğrencinin görevi kesin olarak belirlenir?**`,
+  soru: `Bir okulun kutu oyunu kulübünde Azra, Bora, Derin, Güneş, Kerem ve Tuna yuvarlak bir masanın çevresinde oyun oynamaktadır. Masanın çevresine eşit aralıklarla altı sandalye dizilmiş, sandalyeler saat yönünde 1'den 6'ya kadar numaralanmıştır. Bu düzende 6 numaralı sandalye 1 numaralı sandalyeyle yan yanadır; 1 ile 4, 2 ile 5, 3 ile 6 numaralı sandalyeler ise karşı karşıyadır. Kulübün danışman öğretmeni o günkü oturma düzenini defterine şöyle not etmiştir:
+
+"Kuralları yüksek sesle okuyacak olan Kerem, kapıya en yakın sandalyeye, yani 1 numaraya oturdu. Güneş kural kitapçığını onunla birlikte izleyeceği için Kerem'in yanındaki sandalyelerden birine geçti. Azra ile Bora bu oyunda rakip; birbirlerinin hamlelerini rahat görsünler diye karşı karşıya oturdular. Tuna oyunu ilk kez oynuyor; ona yardım edecek olan Azra'nın yanındaki sandalyelerden birinde. Derin ile Kerem yan yana gelince sohbete dalıp oyunu aksatıyor; bu yüzden Derin, Kerem'in yanındaki iki sandalyeye de oturmadı."
+
+Bu notlar oturma düzenini tek biçimde belirlememektedir.
+
+**Buna göre notlara uyan oturma düzenlerinde Derin'in tam karşısındaki sandalyede kaç farklı kişi oturuyor olabilir?**`,
   gorsel: null,
-  secenekler: ["Ege'nin bitkileri suladığı", "Gökay'ın bitkileri suladığı", "Hira'nın tahtayı sildiği", "Figen'in panoyu düzenlediği"],
+  secenekler: ["1", "2", "3", "4"],
   dogru: 1,
-  hatalar: [
-    "Tek kişinin görevini bulmayı yeterli sanma: Ege bitkileri sularsa Gökay'a ışıklar kalır ama Figen, Hira ve Ilgaz için üç farklı dağılım mümkündür.",
-    null,
-    "Eksik deneme: Hira tahtayı silerse Ilgaz'a kitaplık, Gökay'a ışıklar kalır; ama Ege ile Figen pano ve bitkileri iki biçimde paylaşabilir.",
-    "Eksik deneme: Figen panoyu düzenlerse Ege bitkilere, Gökay ışıklara gider; ama Hira ile Ilgaz kitaplık ve tahtayı iki biçimde paylaşabilir."
-  ],
-  aciklama: `"Hangisi bilinirse kesinleşir" sorusunda her şıkkı ek bilgi olarak ekle ve kalan dağılımları say. Tek dağılım bırakan şık doğrudur.
-Adım 1: Gökay tahta, pano ve kitaplık alamaz; Gökay'a ya bitkiler ya da ışıklar kalır.
-Adım 2: B şıkkını dene: Gökay bitkileri sular. Ege'ye pano kalır (bitkiler dolu). Figen kitaplık, ışık ve pano alamaz; Figen tahtayı siler. Hira'ya kitaplık kalır (tahta dolu). Ilgaz ışıkları kapatır. Tek dağılım çıktı.
-Adım 3: A şıkkı: Ege bitkiler, Gökay ışıklar. Figen pano ya da tahta, Hira kitaplık ya da tahta; üç farklı dağılım çıkar.
-Adım 4: C şıkkı: Hira tahta, Ilgaz kitaplık, Gökay ışıklar; Ege ile Figen pano ve bitkileri iki biçimde paylaşır.
-Adım 5: D şıkkı: Figen pano, Ege bitkiler, Gökay ışıklar; Hira ile Ilgaz kitaplık ve tahtayı iki biçimde paylaşır.
-Sağlama: B şıkkıyla kurulan dağılım (Ege pano, Figen tahta, Gökay bitkiler, Hira kitaplık, Ilgaz ışıklar) dört bilginin hepsine uyar.
+  hatalar: ["İlk bulunan düzende durma: Sandalye sırasıyla Kerem, Azra, Tuna, Derin, Bora, Güneş düzeninde Derin'in karşısında Kerem oturur. Ama Kerem, Bora, Derin, Tuna, Azra, Güneş düzeni de notlara uyar ve burada Derin'in karşısında Güneş vardır.", null, "Bir notu hesaba katmama: Güneş'in Kerem'in yanında oturduğu unutulursa Kerem, Bora, Derin, Güneş, Azra, Tuna düzeni de uygun görünür ve Derin'in karşısına Tuna gelir. Oysa bu düzende Güneş 4 numaradadır, Kerem'in yanında değildir.", "Düzen sayısını kişi sayısı sanma: Notlara uyan dört oturma düzeni vardır; ama bunların ikisinde Derin'in karşısında Kerem, ikisinde Güneş oturur. Sorulan düzen sayısı değil, farklı kişi sayısıdır."],
+  aciklama: `Yuvarlak masa sorularında önce yeri kesin olan kişiyi bul, sonra en kısıtlayıcı nottan başlayıp durumlara ayır. Karşı karşıya olan sandalyeler 1 ile 4, 2 ile 5, 3 ile 6'dır; 1 numaranın yanındaki sandalyeler 2 ve 6'dır.
+Adım 1: Notları kısa koşullara çevir. Kerem 1 numarada. Güneş, Kerem'in yanında; yani 2 ya da 6 numarada. Azra ile Bora karşı karşıya. Tuna, Azra'nın yanında. Derin 2 ve 6 numarada değil; yani 3, 4 ya da 5 numarada.
+Adım 2: Azra ile Bora'nın sandalyelerini bul. 1 numarada Kerem oturduğu için ikisi 1 ile 4'te olamaz; ya 2 ile 5'te ya da 3 ile 6'dadır.
+Adım 3: İkisi 2 ile 5'teyse Güneş'e 6 numara kalır; boş kalan 3 ve 4 numaraları Tuna ile Derin paylaşır. Azra 2'deyse Tuna onun yanındaki 3'e, Derin 4'e oturur; Derin'in karşısı 1 numara, yani Kerem'dir. Azra 5'teyse Tuna 4'e, Derin 3'e oturur; Derin'in karşısı 6 numara, yani Güneş'tir.
+Adım 4: İkisi 3 ile 6'daysa Güneş'e 2 numara kalır; boş kalan 4 ve 5 numaraları Tuna ile Derin paylaşır. Azra 3'teyse Tuna 4'e, Derin 5'e oturur; Derin'in karşısı 2 numara, yani Güneş'tir. Azra 6'daysa Tuna 5'e, Derin 4'e oturur; Derin'in karşısı yine Kerem'dir.
+Adım 5: Dört oturma düzeni çıktı. Derin'in karşısında ikisinde Kerem, ikisinde Güneş oturuyor; Azra, Bora ve Tuna hiçbir düzende Derin'in karşısına gelmiyor. Farklı kişi sayısı 2'dir.
+Sık yapılan hata: Bulduğun düzenleri saymak. "Kaç farklı kişi" diye sorulduğunda bütün düzenleri çıkarırsın ama aynı kişiyi yalnızca bir kez sayarsın.
 Cevap B.`
 },
 {
@@ -720,42 +664,28 @@ Cevap B.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Resim öğretmeni sınıf dolabına boya, kil, makas, kâğıt, yapıştırıcı ve ip kutularını yerleştirecektir. Dolapta görseldeki gibi üst ve alt olmak üzere iki raf, her rafta üç bölme vardır; alt raftaki her bölme, üst raftaki bir bölmenin tam altındadır. Her bölmeye bir kutu konacaktır. Öğretmen şu kurallara uyacaktır:
-• Makas kutusu, küçük öğrencilerin ulaşamaması için üst rafta olacak.
-• Kil kutusu, boya kutusunun tam altında olacak.
-• Kâğıt ile yapıştırıcı kutuları aynı rafta ve yan yana olacak.
-• İp kutusu alt rafın sol ucundaki bölmeye konmayacak.
-• Yapıştırıcı kutusu, makas kutusunun tam altına konmayacak.
-**Buna göre aşağıdakilerden hangisi kesinlikle doğrudur?**`,
-  gorsel: `<svg viewBox="-1 0 401 236" role="img" aria-label="İki raflı, her rafta üç bölmeli dolap">
-<rect x="70" y="14" width="300" height="196" rx="6" fill="none" stroke="currentColor" stroke-width="3"/>
-<line x1="70" y1="112" x2="370" y2="112" stroke="currentColor" stroke-width="3"/>
-<line x1="170" y1="14" x2="170" y2="210" stroke="currentColor" stroke-width="2"/>
-<line x1="270" y1="14" x2="270" y2="210" stroke="currentColor" stroke-width="2"/>
-<g font-size="15" fill="currentColor">
-<text x="4" y="68">Üst raf</text><text x="4" y="166">Alt raf</text>
-</g>
-<g font-size="16" text-anchor="middle" fill="currentColor">
-<text x="120" y="68">?</text><text x="220" y="68">?</text><text x="320" y="68">?</text>
-<text x="120" y="166">?</text><text x="220" y="166">?</text><text x="320" y="166">?</text>
-</g>
-<g font-size="14" text-anchor="middle" fill="currentColor">
-<text x="120" y="228">Sol</text><text x="220" y="228">Orta</text><text x="320" y="228">Sağ</text>
-</g>
-</svg>`,
-  secenekler: ["Kil kutusu alt rafın sol ucundadır.", "İp kutusu makas kutusuyla aynı raftadır.", "Makas kutusu üst rafın ortasındadır.", "Kâğıt kutusu yapıştırıcının solundadır."],
+  soru: `Ilgın, Koray, Melis ve Rüzgâr bisikletlerini bakım için aynı tamirciye bırakmıştır. Her çocuğun bisikleti farklı renktedir: Bisikletlerden biri kırmızı, biri mavi, biri sarı, biri yeşildir. Tamirci pazartesi, salı, çarşamba ve perşembe günleri, her gün bir bisiklet olmak üzere bisikletleri sahiplerine teslim edecektir. Tamircinin çırağı teslim günleriyle ilgili şunları not etmiştir:
+• Yalnızca fren ayarı yapılacak olan mavi bisiklet salı günü teslim edilecek.
+• Sarı bisiklet ile Melis'in bisikleti aynı yedek parçayı bekliyor. Parça gelince önce sarı bisiklet, ondan tam bir gün sonra da Melis'in bisikleti teslim edilecek.
+• Ilgın bisikletini Rüzgâr'dan sonraki günlerin birinde alacak.
+• Koray perşembe günü şehir dışında olacağından onun bisikleti o güne bırakılmayacak.
+• Kırmızı bisiklet Koray'ın, yeşil bisiklet Rüzgâr'ın değil.
+Bu notları okuyan bir müşteri şu yargılara varmıştır:
+I. Koray'ın bisikleti Melis'inkinden önce teslim edilir.
+II. Yeşil bisiklet perşembe günü teslim edilir.
+III. Melis bisikletini ya salı ya da perşembe günü alır.
+**Çırağın notlarına göre bu yargılardan hangileri kesinlikle doğrudur?**`,
+  gorsel: null,
+  secenekler: ["Yalnız I", "Yalnız III", "I ve III", "I, II ve III"],
   dogru: 1,
-  hatalar: [
-    "Olası olanı kesin sanma: Kil kutusu alt rafın sağ ucunda da olabilir (ör. üst raf: makas, ip, boya; alt raf: kâğıt, yapıştırıcı, kil).",
-    null,
-    "Olası olanı kesin sanma: Makas üst rafın solunda ya da sağında da olabilir.",
-    "İkilinin iç düzenini sabit sanma: Kâğıt ile yapıştırıcı yan yanadır ama hangisinin solda olduğu yerleşime göre değişir."
-  ],
-  aciklama: `Adım 1: Boya-kil ikilisi bir sütunu kaplar: Boya üstte, kil altta. Kâğıt-yapıştırıcı ikilisi aynı rafta yan yana iki bölme ister.
-Adım 2: Kâğıt ile yapıştırıcı üst rafa konsun. Üst rafta boya da olduğuna göre üst raf boya, kâğıt ve yapıştırıcıyla dolar; makasa yer kalmaz. Oysa makas üst rafta olmalı. Bu durum olmaz.
-Adım 3: Demek ki kâğıt ile yapıştırıcı alt raftadır. Alt raf kil, kâğıt ve yapıştırıcıyla dolar. Üst rafa boya, makas ve ip kalır.
-Adım 4: Böylece ip kutusu her durumda üst rafta, yani makasla aynı raftadır. Kalan kurallar (ip alt rafın solunda değil, yapıştırıcı makasın altında değil) yalnızca bölmelerin yerini sınırlar; dört farklı yerleşim kalır.
-Sağlama: Üst raf boya, makas, ip; alt raf kil, kâğıt, yapıştırıcı yerleşimi beş kuralın hepsine uyar. Bu yerleşimde makas ortada, kil solda; başka yerleşimlerde bunlar değişir.
+  hatalar: ["Çoğu durumda doğru olanı kesin sanma: I. yargı çoğu dağılımda tutar ama Rüzgâr sarı (pazartesi), Melis mavi (salı), Koray yeşil (çarşamba), Ilgın kırmızı (perşembe) dağılımı notlara uyar ve Koray Melis'ten sonradır. Ayrıca kesin olan III bu şıkta yoktur.", null, "Kısmen doğru: III kesindir ama I değildir. Rüzgâr sarı (pazartesi), Melis mavi (salı), Koray yeşil (çarşamba), Ilgın kırmızı (perşembe) dağılımı notlara uyar; burada Koray'ın bisikleti Melis'inkinden sonra teslim edilir.", "Olası olanı kesin sanma: Yalnızca III kesindir. Rüzgâr sarı (pazartesi), Melis mavi (salı), Koray yeşil (çarşamba), Ilgın kırmızı (perşembe) dağılımı notlara uyar; burada Koray Melis'ten sonradır ve yeşil bisiklet çarşamba günü teslim edilir."],
+  aciklama: `Öncüllü "kesinlikle doğrudur" sorusunda her yargıyı ayrı ayrı sına: Notlara uyan tek bir dağılımda bile bozuluyorsa o yargı kesin değildir.
+Adım 1: III. yargıdan başla, çünkü doğrudan notlardan çıkıyor. Sarı bisiklet Melis'inkinden bir gün önce teslim edildiğine göre Melis pazartesi günü olamaz (öncesinde gün yok). Melis çarşamba olsa sarı bisiklet salı günü teslim edilirdi; ama salı günü mavi bisikletindir. Melis'e yalnızca salı ile perşembe kalır. III kesinlikle doğrudur.
+Adım 2: I ve II için karşı örnek ara. Melis'i salıya koy: Melis'in bisikleti mavi olur, sarı bisiklet pazartesi günündedir.
+Adım 3: Pazartesi günü kim olabilir? Ilgın olamaz (Rüzgâr'dan sonra almalı). Koray ya da Rüzgâr olabilir. Rüzgâr'ı seç: Rüzgâr sarı, pazartesi. Çarşamba ile perşembe Koray ve Ilgın'a kalır; Koray perşembe olamayacağından Koray çarşamba, Ilgın perşembe günüdür.
+Adım 4: Kalan renkler kırmızı ile yeşil. Kırmızı Koray'ın olamaz; Koray yeşil, Ilgın kırmızı olur. Dağılım: Rüzgâr sarı (pazartesi), Melis mavi (salı), Koray yeşil (çarşamba), Ilgın kırmızı (perşembe). Beş notun hepsi sağlanıyor.
+Adım 5: Bu dağılımda Koray'ın bisikleti Melis'inkinden sonra teslim ediliyor; I kesin değil. Yeşil bisiklet çarşamba günü teslim ediliyor; II de kesin değil.
+Sık yapılan hata: Yargıyı yalnızca aklına ilk gelen dağılımla sınamak. Örneğin Melis'i perşembeye koyarak kurduğun dağılımların çoğunda I de II de doğru çıkar; ama "kesinlikle" sözü bütün dağılımları kapsar, Melis'in salı olduğu durumu da denemelisin.
 Cevap B.`
 },
 {
@@ -763,44 +693,25 @@ Cevap B.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulda yapılacak bir yazar söyleşisi için beş iş yapılacaktır: afişi tasarlamak, afişi bastırmak, salonu ayırtmak, davetiyeleri göndermek ve sandalyeleri dizmek. Her gün bir iş yapılacak ve işler beş günde bitirilecektir. İşlerin sırasıyla ilgili şunlar bilinmektedir:
-• İlk gün afiş tasarlanacaktır.
-• Afiş, tasarlanmadan bastırılamaz.
-• Davetiyelerde hem afişin baskısı hem de salon bilgisi yer alacağı için davetiyeler, afiş basıldıktan ve salon ayırtıldıktan sonra gönderilecektir.
-• Sandalyeler, salon ayırtıldıktan sonra dizilecektir.
-Görseldeki oklar, hangi işin hangisinden önce yapılması gerektiğini göstermektedir.
-**Buna göre bu beş iş kaç farklı sırayla yapılabilir?**`,
-  gorsel: `<svg viewBox="0 0 540 200" role="img" aria-label="İş sırası şeması: afiş tasarımı, afiş baskısından önce; afiş baskısı ve salon ayırtma, davetiyeden önce; salon ayırtma, sandalye dizmeden önce">
-<g fill="var(--dolgu)" stroke="currentColor" stroke-width="2">
-<rect x="10" y="30" width="130" height="46" rx="8"/><rect x="200" y="30" width="130" height="46" rx="8"/><rect x="200" y="124" width="130" height="46" rx="8"/>
-<rect x="400" y="30" width="130" height="46" rx="8"/><rect x="400" y="124" width="130" height="46" rx="8"/>
-</g>
-<g font-size="15" text-anchor="middle" fill="currentColor">
-<text x="75" y="58">Afiş tasarımı</text><text x="265" y="58">Afiş baskısı</text><text x="265" y="152">Salon ayırtma</text>
-<text x="465" y="58">Davetiye</text><text x="465" y="152">Sandalye dizme</text>
-<text x="75" y="100" fill="var(--vurgu)">1. gün</text>
-</g>
-<g stroke="currentColor" stroke-width="2">
-<line x1="140" y1="53" x2="190" y2="53"/><line x1="330" y1="53" x2="390" y2="53"/><line x1="330" y1="140" x2="392" y2="80"/><line x1="330" y1="147" x2="390" y2="147"/>
-</g>
-<g fill="currentColor">
-<polygon points="200,53 188,47 188,59"/><polygon points="400,53 388,47 388,59"/><polygon points="399,73 386,77 395,86"/><polygon points="400,147 388,141 388,153"/>
-</g>
-</svg>`,
-  secenekler: ["5", "6", "8", "9"],
+  soru: `Okulun fotoğraf kulübü, yıl sonu sergisi için koridordaki panoya altı fotoğraf asacaktır: Çayır, Deniz, İskele, Köprü, Orman ve Pazar. Panoda biri üstte, biri altta olmak üzere iki sıra, her sırada da solda, ortada ve sağda birer yer vardır; üst sıradaki her yerin hemen altında alt sıradan bir yer bulunmaktadır. Kulüp öğretmeni dizilişte şu kurallara uyulmasını istemiştir:
+• İskele ile Pazar fotoğrafları aynı sabah çekilmiştir; birlikte görülsünler diye Pazar, İskele'nin hemen altındaki yere asılacak.
+• Orman ile İskele fotoğrafları ormandan iskeleye inen aynı yürüyüşü anlattığı için bu ikisi aynı sırada yer alacak.
+• Deniz ile Köprü fotoğraflarının ikisinde de mavi ağır bastığından bu ikisi ne yan yana ne de alt alta gelecek.
+• Çayır ile Deniz fotoğraflarını aynı öğrenci çektiği için bu ikisi aynı sırada olmayacak.
+Öğrencilerin hazırladığı ilk diziliş tabloda verilmiştir. Bu dizilişi inceleyen öğretmen bazı kuralların çiğnendiğini görmüş, yalnızca iki fotoğrafın yeri birbiriyle değiştirilerek bütün kurallara uyulabileceğini söylemiştir.
+
+**Buna göre yeri değiştirilecek iki fotoğraftan biri aşağıdakilerden hangisidir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th></th><th>Sol</th><th>Orta</th><th>Sağ</th></tr><tr><th>Üst sıra</th><td>İskele</td><td>Deniz</td><td>Çayır</td></tr><tr><th>Alt sıra</th><td>Pazar</td><td>Orman</td><td>Köprü</td></tr></table>",
+  secenekler: ["Çayır", "Deniz", "İskele", "Köprü"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Bir koşulu atlama: Salon ayırtılmadan davetiye gönderilemez; bu unutulunca salonun davetiyeden sonra ayırtıldığı bir sıra daha sayılır.",
-    "Bir koşulu atlama: Davetiyenin afiş baskısından sonra gelmesi ya da sandalyelerin salondan sonra dizilmesi koşulu unutulunca fazladan sıralar sayılır.",
-    "İlk gün kuralını atlama: Salon ilk gün ayırtılabilir sanılırsa afiş tasarımının ikinci ya da üçüncü güne kaydığı dört sıra daha eklenir."
-  ],
-  aciklama: `Adım 1: İlk gün afiş tasarımıdır. Kalan dört iş (baskı, salon, davetiye, sandalye) 2-5. günlere yerleşir.
-Adım 2: Davetiye hem baskıdan hem salondan sonra gelir; sandalye salondan sonra gelir. Baskı ile salon arasında bir sıra koşulu yoktur.
-Adım 3: 2. gün baskı olursa: 3. gün salon olmak zorundadır (davetiye ve sandalye salondan önce yapılamaz). Kalan davetiye ile sandalye 4-5. günlere iki biçimde yerleşir: 2 sıra.
-Adım 4: 2. gün salon olursa: Kalan baskı, davetiye, sandalye 3-5. günlere yerleşir; davetiye baskıdan sonra gelmeli. Baskı-davetiye-sandalye, baskı-sandalye-davetiye, sandalye-baskı-davetiye: 3 sıra.
-Adım 5: Toplam 2 + 3 = 5 farklı sıra.
-Sağlama: Sıralar şunlardır: T-B-S-D-Sa, T-B-S-Sa-D, T-S-B-D-Sa, T-S-B-Sa-D, T-S-Sa-B-D (T: tasarım, B: baskı, S: salon, D: davetiye, Sa: sandalye).
+  hatalar: [null, "Düzeltirken başka kuralı bozma: Deniz ile Orman yer değiştirirse Orman üst sıraya çıkar, Deniz de Çayır'ın sırasından ayrılır; çiğnenen iki kural düzelir. Ama Deniz alt sırada Köprü'nün yanına düşer, üçüncü kural bozulur.", "Bağlı fotoğrafı yerinden oynatma: İkinci kuralı düzeltmek için İskele'yi alt sıraya indirmek akla gelir. Ama İskele hangi fotoğrafla yer değiştirirse değiştirsin Pazar artık onun hemen altında olmaz, birinci kural bozulur.", "Çiğnenen kuralla ilgisi olmayan fotoğrafı seçme: Köprü'nün adının geçtiği tek kural ilk dizilişte zaten sağlanıyor. Köprü; Orman, Çayır ya da Deniz'le yer değiştirirse Orman yine alt sırada kalır; İskele ya da Pazar'la yer değiştirirse Pazar, İskele'nin altından ayrılır."],
+  aciklama: `Bu tür sorularda önce verilen dizilişte hangi kuralların çiğnendiğini bul, sonra tek bir yer değiştirmenin bunların hepsini birden nasıl düzeltebileceğini düşün. Yeni dizilişi kuralların hepsiyle baştan denetlemeyi de unutma.
+Adım 1: İlk dizilişi dört kuralla karşılaştır. Pazar, İskele'nin hemen altında: birinci kural tamam. Orman alt sırada, İskele üst sırada: ikinci kural çiğnenmiş. Deniz üst sırada ortada, Köprü alt sırada sağda; çapraz duruyorlar, ne yan yana ne alt altalar: üçüncü kural tamam. Çayır ile Deniz üst sırada: dördüncü kural çiğnenmiş.
+Adım 2: İkinci kuralı düşün. Orman ile İskele'nin aynı sıraya gelmesi için biri sıra değiştirmeli. İskele yerinden oynarsa Pazar'ın üstünden ayrılır ve birinci kural bozulur. Demek ki Orman üst sıraya çıkmalı.
+Adım 3: Dördüncü kuralı düşün. Çayır ile Deniz'den biri üst sıradan inmeli.
+Adım 4: Tek bir yer değiştirme hakkı var. Orman üst sıraya çıkarken onun yerine, alt sıranın ortasına Çayır ya da Deniz inmeli. Öteki yer değiştirmeler iki sorunu birden gideremez.
+Adım 5: İki olasılığı dene. Deniz inerse alt sıra Pazar, Deniz, Köprü olur; Deniz ile Köprü yan yana gelir, üçüncü kural bozulur. Çayır inerse üst sıra İskele, Deniz, Orman; alt sıra Pazar, Çayır, Köprü olur. Pazar, İskele'nin hemen altında; Orman ile İskele üst sırada; Deniz ile Köprü çapraz; Çayır alt, Deniz üst sırada. Dört kural da sağlanıyor. Yer değiştirecek fotoğraflar Çayır ile Orman'dır; şıklarda bunlardan Çayır var.
+Sık yapılan hata: Çiğnenen kuralları düzelten ilk değişikliği doğru saymak. Deniz ile Orman'ın yer değiştirmesi de baştaki iki sorunu giderir ama önceden sağlanan bir kuralı bozar. Değişiklikten sonra kuralların hepsini yeniden denetle.
 Cevap A.`
 },
 {
@@ -808,52 +719,22 @@ Cevap A.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Robotik kulübünde, 4 × 4 karelik bir zeminde hareket eden bir robot programlanmaktadır. Robot başlangıçta A1 karesinde, görseldeki gibi yukarı doğru bakmaktadır. Robot şu komutlarla hareket eder:
-• İ: Baktığı yönde bir kare ilerler.
-• S: Olduğu yerde sağa döner. L: Olduğu yerde sola döner.
-Programın iki özel kuralı vardır:
-• İlerleyeceği kare engelliyse ya da zeminin dışındaysa robot o İ komutunu uygulamaz, yerinde kalır.
-• Robot dönüş karesine girdiği anda yüzünü tam ters yöne çevirir.
-Robota sırasıyla şu komutlar verilmiştir: İ, İ, İ, S, İ, İ, İ, L, İ, İ
-**Buna göre bütün komutlar uygulandığında robot hangi karede bulunur?**`,
-  gorsel: `<svg viewBox="0 0 470 300" role="img" aria-label="4x4 zemin: sütunlar A-D, satırlar 1-4; B3 ve D2 engelli, C4 dönüş karesi; robot A1'de yukarı bakıyor">
-<g fill="none" stroke="currentColor" stroke-width="2">
-<rect x="50" y="20" width="240" height="240"/>
-<line x1="110" y1="20" x2="110" y2="260"/><line x1="170" y1="20" x2="170" y2="260"/><line x1="230" y1="20" x2="230" y2="260"/>
-<line x1="50" y1="80" x2="290" y2="80"/><line x1="50" y1="140" x2="290" y2="140"/><line x1="50" y1="200" x2="290" y2="200"/>
-</g>
-<rect x="111" y="81" width="58" height="58" fill="currentColor" opacity="0.35"/>
-<rect x="231" y="141" width="58" height="58" fill="currentColor" opacity="0.35"/>
-<rect x="171" y="21" width="58" height="58" fill="var(--dolgu)" stroke="var(--vurgu2)" stroke-width="3"/>
-<text x="200" y="56" font-size="14" text-anchor="middle" fill="currentColor">Dönüş</text>
-<polygon points="80,212 66,246 94,246" fill="var(--vurgu)"/>
-<g font-size="15" text-anchor="middle" fill="currentColor">
-<text x="80" y="282">A</text><text x="140" y="282">B</text><text x="200" y="282">C</text><text x="260" y="282">D</text>
-<text x="32" y="55">4</text><text x="32" y="115">3</text><text x="32" y="175">2</text><text x="32" y="235">1</text>
-</g>
-<rect x="310" y="40" width="26" height="26" fill="currentColor" opacity="0.35"/>
-<text x="344" y="59" font-size="14" fill="currentColor">Engel</text>
-<rect x="310" y="84" width="26" height="26" fill="var(--dolgu)" stroke="var(--vurgu2)" stroke-width="3"/>
-<text x="344" y="103" font-size="14" fill="currentColor">Dönüş karesi</text>
-<polygon points="323,130 312,154 334,154" fill="var(--vurgu)"/>
-<text x="344" y="148" font-size="14" fill="currentColor">Robot</text>
-</svg>`,
-  secenekler: ["A2", "B2", "B4", "D4"],
+  soru: `Bir okulun çevre kulübü, sınıflardan toplanan atıkları ayırmak için kâğıt, cam ve metal ekipleri kuracaktır. Alper, Bengü, Cemre, Doruk, Esma ve Fuat adlı altı öğrenci bu üç ekibe ikişer kişi olarak dağıtılacak, her öğrenci yalnızca bir ekipte görev alacaktır. Ekipler hafta boyunca okul bahçesindeki ayırma masalarında çalışacaktır. Kulüp başkanı, dağılımı yapacak olan öğretmene arkadaşlarının isteklerini şöyle iletmiştir:
+
+"Alper ile Bengü geçen dönem hep birlikte çalıştı; bu kez ayrı ekiplerde olsunlar. Doruk ile Esma'yı ise ayırmayalım, ikisi aynı ekipte görev alsın. Cemre'nin elinde küçük bir kesik var, onu cam ekibine yazmayalım. Bengü metal kutuları ezerken çıkan sesten rahatsız oluyor, bu yüzden metal ekibinde çalışmak istemiyor. Bir de şuna dikkat edelim: Bengü cam ekibine yazılırsa Alper'in metal ekibinde olması gerekiyor, çünkü cam ile metal ekipleri aynı masayı paylaşacak; böylece ikisi birbirine yardım edebilir. Fuat'ın ise özel bir isteği yok, hangi ekipte gerekirse orada çalışır."
+
+**Bu isteklerin hepsine uyan bütün dağılımlar düşünüldüğünde aşağıdakilerden hangisi kesinlikle doğrudur?**`,
+  gorsel: null,
+  secenekler: ["Bengü kâğıt ekibinde görev alır.", "Alper metal ekibinde görev alır.", "Alper kâğıt ekibinde görev almaz.", "Doruk ile Esma metal ekibinde görev almaz."],
   dogru: 2,
-  hatalar: [
-    "Sağ ile solu karıştırma: A4'te sağa değil sola dönülürse robot zeminin dışına bakar, üç İ komutunda yerinde kalır; sonra aşağı dönüp A2'ye iner.",
-    "Engel kuralını atlama: B4'ten aşağı inerken B3 engellidir; robot bu kareye giremez ve B4'te kalır.",
-    null,
-    "Dönüş karesi kuralını atlama: Robot C4'e girince ters yöne dönmelidir; dönmezse D4'e gider ve orada kalır."
-  ],
-  aciklama: `Kural uygulama sorularında robotun hem yerini hem baktığı yönü her adımda yaz.
-Adım 1: İ, İ, İ: Robot yukarı bakarak A2, A3, A4'e çıkar.
-Adım 2: S: Sağa döner, artık sağa (D sütununa doğru) bakar.
-Adım 3: İ: B4. İ: C4. C4 dönüş karesidir; robot hemen ters yöne, yani sola (A sütununa doğru) döner. İ: B4.
-Adım 4: L: Sola bakarken sola dönen robot aşağı bakar.
-Adım 5: İ: Aşağıdaki kare B3 engellidir; robot yerinde kalır. Son İ için de aynı durum geçerlidir. Robot B4'te kalır.
-Sağlama: On komutun hepsi sayıldı: 3 İ + S + 3 İ + L + 2 İ.
-Sık yapılan hata: Dönüş karesinde robotun yalnızca yön değiştirdiğini, durmadığını unutmak ya da engelin önünde robotu bir sonraki kareye atlatmak.
+  hatalar: ["Çoğu dağılımda doğru olanı kesin sanma: Bengü çoğu dağılımda kâğıt ekibindedir ama kâğıt: Doruk-Esma, cam: Bengü-Fuat, metal: Alper-Cemre dağılımı da bütün isteklere uyar.", "Koşulu kesin bilgi sanma: Alper'in metal ekibinde olması yalnızca Bengü cam ekibine yazılırsa gerekir. Kâğıt: Bengü-Cemre, cam: Alper-Fuat, metal: Doruk-Esma dağılımı bütün isteklere uyar; burada Alper cam ekibindedir.", null, "Eksik deneme: Doruk ile Esma'nın hangi ekipte olacağıyla ilgili bir istek yoktur. Kâğıt: Bengü-Cemre, cam: Alper-Fuat, metal: Doruk-Esma dağılımı bütün isteklere uyar; burada ikisi metal ekibindedir."],
+  aciklama: `"Kesinlikle doğru" olan ifade, isteklere uyan bütün dağılımlarda doğru kalır. Bir ifadenin kesin olduğunu göstermenin yolu, tersini varsayıp çelişki bulmaktır.
+Adım 1: İstekleri kısa koşullara çevir. Alper ile Bengü ayrı ekipte. Doruk ile Esma aynı ekipte. Cemre cam ekibinde değil. Bengü metal ekibinde değil. Bengü cam ekibindeyse Alper metal ekibinde.
+Adım 2: C şıkkının tersini varsay: Alper kâğıt ekibinde olsun. Bengü onunla aynı ekipte olamayacağı için kâğıt ekibine giremez; metal ekibini de istemiyor. Bengü'ye yalnızca cam ekibi kalır.
+Adım 3: Bengü cam ekibine yazılınca son istek devreye girer: Alper metal ekibinde olmalıdır. Oysa Alper'i kâğıt ekibine koymuştuk. Çelişki çıktı; demek ki Alper hiçbir dağılımda kâğıt ekibinde olamaz. C kesinlikle doğrudur.
+Adım 4: Öteki şıklar için karşı örnek kur. Doruk ile Esma'yı kâğıt ekibine koy; ekipler ikişer kişilik olduğu için kâğıt ekibi dolar. Bengü metal ekibini istemediğinden cam ekibine, Alper de metal ekibine gider. Cemre cam ekibine giremediği için Alper'in, Fuat da Bengü'nün yanına geçer. Kâğıt: Doruk-Esma, cam: Bengü-Fuat, metal: Alper-Cemre dağılımı bütün isteklere uyar; burada Bengü kâğıt ekibinde değildir (A).
+Adım 5: Doruk ile Esma'yı bu kez metal ekibine koy. Bengü cam ekibine girerse Alper'in metal ekibinde olması gerekir ama orada yer kalmamıştır; bu yüzden Bengü kâğıt, Alper cam ekibindedir. Cemre kâğıt, Fuat cam ekibine geçer. Kâğıt: Bengü-Cemre, cam: Alper-Fuat, metal: Doruk-Esma dağılımı da isteklere uyar; burada Alper metal ekibinde değildir (B), Doruk ile Esma ise metal ekibindedir (D).
+Sık yapılan hata: "Bengü cam ekibine yazılırsa Alper metal ekibinde olur" cümlesini "Alper metal ekibindedir" diye okumak. Koşul cümlesi yalnızca "-se/-sa" ile verilen durum gerçekleştiğinde bağlayıcıdır; Bengü kâğıt ekibindeyken Alper cam ekibinde de çalışabilir.
 Cevap C.`
 },
 /* ===================== HAVUZ (KADEME 0) ===================== */

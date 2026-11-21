@@ -436,28 +436,18 @@ Cevap D.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Göl kıyısındaki bir kamp alanı, ziyaretçilere dağıttığı broşürde hem kurallara hem de önerilere yer vermiş. Broşürü hazırlayanlar, bazı cümlelerde bilgi vermekle yetinmiş, bazılarında ise kendi beğenilerini de okura aktarmışlar. Aşağıda bu broşürden dört cümle verilmiştir.
-**Bu cümlelerin hangisinde hem koşul-sonuç ilişkisi vardır hem de öznel bir yargı bildirilmiştir?**`,
+  soru: `Satrancı, kuzenimin bana bıraktığı eski bir kitaptan öğrendim. Yaz boyunca her taşın nasıl yürüdüğünü çalıştım: Filin çapraz, kalenin düz gittiğini, atın öteki taşların üstünden atlayabildiğini, piyonun ileri yürüyüp çapraz aldığını defterime çizdim. Okul açıldığında satrancı bildiğimi sanıyordum; arkadaşlarıma kuralları anlatabiliyor, hangi hamlenin geçersiz olduğunu hemen söyleyebiliyordum. Sınıflar arası satranç karşılaşmalarının ilk gününde üst üste dört oyun kaybettim. Rakiplerim benden fazla kural bilmiyordu, yine de dört oyunun dördünde de mat olan bendim. Vezirimi neden erkenden ortaya sürmemem gerektiğini, tahtanın kenarında kalmış bir atın ne kadar az işe yaradığını, tek bir piyonu korumak uğruna bütün düzenimi bozmanın nelere yol açtığını o dört oyunda gördüm. Eve dönerken canım sıkkındı ama kitaba kızgın değildim; tahtadaki her taş, tam da orada yazdığı gibi yürümüştü. __Kitap bana taşların nereye gidebileceğini söylemişti, nereye gitmeleri gerektiğini ise ancak kaybettiğim oyunlar öğretti.__ Şimdi yeni bir açılış öğrenirken kitabı yine açıyorum, sonra kapatıp karşıma oturacak birini arıyorum.
+**Bu metindeki altı çizili cümleye anlamca en yakın olan aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: [
-    "Kamp alanının giriş kapısı, yaz aylarında sabah yedide açılır.",
-    "Gün doğumunu tepeden izlerseniz ömrünüzün en güzel sabahını yaşarsınız.",
-    "Ateş yakmak isterseniz önce kamp görevlisinden izin almanız gerekir.",
-    "Göl kıyısındaki çadırlar, kamp alanının en güzel köşesinde kuruludur."
-  ],
+  secenekler: ["Kitabın kuralları eksik anlattığını, taşların nasıl yürüdüğünü ise kaybettiğim o oyunlarda öğrendiğimi anladım.", "Kitaptan yalnızca yapılabilecek hamleleri öğrenmiştim; hangisinin yerinde olduğunu ise yenilerek kavradım.", "Kitap taşların nereye gidebileceğini öğrettiği için nereye gitmeleri gerektiğini oyunlarda çabucak kavradım.", "Kitaptan öğrendiğim hamleleri, oyun kaybettikçe çok daha iyi kavradığımı ve artık unutmadığımı fark ettim."],
   dogru: 1,
-  hatalar: [
-    "İki ölçütü de karşılamayan cümle: Kapının açılış saati nesnel bir bilgidir ve cümlede şarta bağlanmış bir yargı yoktur.",
-    null,
-    "Yarım doğru: Cümlede koşul-sonuç vardır ama izin almanın gerekmesi kamp alanının kuralıdır; kurallar denetlenebilir, yani yargı nesneldir.",
-    "Yarım doğru: 'En güzel köşe' değerlendirmesi özneldir ama cümlede hiçbir yargı bir şarta bağlanmamıştır."
-  ],
-  aciklama: `İki ölçütlü sorularda her seçeneği iki ayrı soruyla sına: (1) Yargı bir şarta bağlanmış mı? (2) Yargı kişiden kişiye değişen bir değerlendirme mi?
-Adım 1: A: Şart yok; saat bilgisi nesneldir. İki ölçüt de yok.
-Adım 2: B: "izlerseniz … yaşarsınız" → Sonuç, gün doğumunu tepeden izleme şartına bağlı. "Ömrünüzün en güzel sabahı" ise kişiye göre değişen bir değerlendirmedir. İki ölçüt de var.
-Adım 3: C: "isterseniz … gerekir" → Koşul var. Ancak izin alma zorunluluğu kamp alanının kuralıdır; bu kural sorularak doğrulanabilir. Yargı nesneldir.
-Adım 4: D: "en güzel köşesinde" → Öznel. Ancak şart yok.
-Sık yapılan hata: İki ölçütten birini bulunca seçeneği işaretlemek. C ve D, ölçütlerden yalnızca birini karşılayarak tuzak kurar.
+  hatalar: ["Kısmen doğru: Oyunların, kitabın veremediği bir şeyi öğrettiği doğrudur. Ancak cümleye göre taşların nasıl yürüdüğünü, yani kuralları kitap söylemiştir; oyunların öğrettiği şey kural değil, hangi hamlenin yerinde olduğudur.", null, "Metnin ima etmediği yorum: Cümle iki ayrı bilgiyi yan yana koyar, birini ötekinin nedeni yapmaz. 'Ancak kaybettiğim oyunlar öğretti' sözü de çabuk gelen değil, yenilgiyle kazanılan bir öğrenmeyi anlatır.", "Kısmen doğru: Hamlelerin kitaptan öğrenildiği doğrudur. Ancak cümleye göre oyunlar aynı bilgiyi pekiştirmiyor; kitabın vermediği başka bir bilgiyi, taşın nereye gitmesi gerektiğini öğretiyor."],
+  aciklama: `"Anlamca en yakın" sorusunda cümleyi yargılarına ayırırsın; doğru şık bu yargıların hepsini taşır, cümlede olmayan yeni bir yargı da eklemez.
+Adım 1: Altı çizili cümlede iki yargı var. Birincisi: Kitap, taşların nereye gidebileceğini, yani hangi hamlelerin yapılabildiğini bildirdi. İkincisi: Taşların nereye gitmesi gerektiğini, yani hangi hamlenin yerinde olduğunu "ancak" kaybedilen oyunlar öğretti; kitap bunu öğretmedi.
+Adım 2: B'ye bak. "Yalnızca yapılabilecek hamleleri öğrenmiştim" birinci yargıyı ve kitabın sınırını, "hangisinin yerinde olduğunu yenilerek kavradım" ikinci yargıyı karşılıyor. Eklenen ya da eksilen bir yargı yok.
+Adım 3: D, B'ye çok benziyor; ikisi de hamlelerin kitaptan öğrenildiğini söylüyor. Fark ikinci yarıda: D'ye göre oyunlar aynı bilgiyi, yani hamleleri daha iyi kavratmış. Cümleye göre ise oyunlar başka türden bir bilgi vermiş: "gidebilir" ile "gitmeli" aynı şey değildir.
+Adım 4: A, iki bilginin kaynağını karıştırıyor: Taşların nasıl yürüdüğünü kitap söylemişti, oyunlar değil. C ise cümlede bulunmayan bir neden-sonuç ilişkisi kuruyor ve öğrenmenin "çabucak" olduğunu söylüyor; "ancak kaybettiğim oyunlar" sözü bunun tersini düşündürür.
+Sık yapılan hata: İlk yarısı doğru olan şıkkı sonuna kadar okumadan işaretlemek. Birbirine benzeyen iki şıkta farkı yaratan çoğu zaman ikinci yarıdır.
 Cevap B.`
 },
 {
@@ -465,27 +455,25 @@ Cevap B.`
   kazanim: "T.8.3.21",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulumuzun fen kulübü, bir ay boyunca iki saksıdaki fasulye fidelerini izledi. Saksılardan biri güneş alan pencerenin önüne, diğeri ise dolabın gölgesine konmuştu. Kulübün hazırladığı gözlem defterinden şu cümleler alınmıştır:
-(I) Güneş alan saksıdaki fide, gölgedekinden daha fazla yaprak açtı.
-(II) Gölgedeki fide ışıksız kaldığı için bize çok zavallı göründü.
-(III) Fideleri her gün aynı saatte sulamak için telefonumuza hatırlatıcı kurduk.
-(IV) Gölgedeki fide yeterince ışık alamadığı için yaprakları sarardı.
-**Numaralanmış cümlelerin hangisi hem nesnel bir yargı bildirmekte hem de neden-sonuç ilişkisi taşımaktadır?**`,
+  soru: `Bir gezi dergisinin yazarı, gezdiği kentte otuz yıl aradan sonra yeniden hizmete giren tramvay hattını tanıtan yazısında şu cümlelere yer vermiştir:
+(I) Hat, kentin en uzun caddesi boyunca iskele meydanından eski hal binasına kadar 2,4 kilometre uzanıyor ve yedi durakta yolcu alıyor.
+(II) Ahşap kaplamalı iki vagon, yeni döşenen parke taşlarının üzerinde caddeye çok yakışan bir ağırbaşlılıkla ilerliyor.
+(III) Seferler sabah yedide başlıyor ve akşam dokuza kadar on beş dakikada bir yineleniyor; hafta sonları son sefer bir saat geç kalkıyor.
+(IV) Cadde esnafıyla geçen hafta yapılan ankete katılan her on kişiden yedisi, tramvayın çarşıyı güzelleştirdiğini, üçü ise gürültüyü artırdığını söyledi.
+(V) Yolculuk baştan sona on iki dakika sürüyor; ne yazık ki bu süre, pencereden kıyıyı doya doya seyretmeye yetmiyor.
+(VI) Belediyenin açıkladığı sayılara göre hat, ilk haftasında yirmi bine yakın yolcu taşıdı; bu sayı, aynı güzergâhtaki otobüsün bir aylık yolcusuna denk geliyor.
+**Bu cümlelerin hangilerinde yazar, doğrulanabilir bir bilginin yanında kendi kişisel değerlendirmesine de yer vermiştir?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["I ve IV", "II ve VI", "IV ve V", "II ve V"],
   dogru: 3,
-  hatalar: [
-    "Karşılaştırmayı neden-sonuç sanma: I. cümle nesneldir ama iki fideyi kıyaslar; bir durumun nedenini bildirmez.",
-    "Yarım doğru: II. cümlede neden-sonuç vardır ama fidenin 'çok zavallı görünmesi' kişisel bir izlenimdir, yani özneldir.",
-    "Amacı neden sanma: III. cümle nesneldir ama her gün aynı saatte sulamak henüz gerçekleşmemiş bir hedeftir; ilişki amaç-sonuçtur.",
-    null
-  ],
-  aciklama: `Nesnel yargı gözlemle ya da ölçümle doğrulanabilir; neden-sonuç ilişkisinde ise olmuş bir durum, başka bir durumun sebebidir. Soru, iki özelliği birlikte taşıyan cümleyi istiyor.
-Adım 1: I. cümle: Yapraklar sayılabilir; nesneldir. Ancak ilişki karşılaştırmadır, neden bildirilmez.
-Adım 2: II. cümle: "ışıksız kaldığı için" → neden-sonuç var. Ancak "çok zavallı göründü" gözlemcilerin duygusudur; öznel.
-Adım 3: III. cümle: Hatırlatıcı kurma işinin hedefi, düzenli sulamaktır; amaç-sonuç. Nesnel ama neden-sonuç değil.
-Adım 4: IV. cümle: "ışık alamadığı için" → olmuş bir durum sararmanın nedeni. Yaprakların sarardığı gözle görülüp doğrulanabilir. İki özellik de var.
-Sık yapılan hata: II ile IV'ü karıştırmak. İkisinde de "… için" nedeni var; farkı sonuç kısmı yaratır: "sarardı" gözlenebilir, "zavallı göründü" ise bir duygudur.
+  hatalar: ["'En' sözcüğünü ve aktarılan görüşü öznellik sayma: 'Kentin en uzun caddesi' ölçülerek doğrulanır. IV'te 'güzelleştirdiğini' diyenler esnaftır; yazar anketin sonucunu bildirir. İki cümlede de yazarın kendi değerlendirmesi yoktur.", "Karşılaştırmayı değerlendirme sanma: II uygundur. VI'da ise yolcu sayısının otobüsünkiyle kıyaslanması belediyenin sayılarına dayanır; sayılabilen iki şeyi kıyaslamak kişisel değerlendirme değildir.", "Aktarılan görüşü yazarın görüşü sanma: V uygundur ama IV'teki beğeni esnafa aittir; yazar o cümlede kendi değerlendirmesini katmaz.", null],
+  aciklama: `Nesnel yargı ölçümle, sayımla ya da belgeyle doğrulanabilir; öznel yargı ise kişiden kişiye değişen bir beğeni ya da duygudur. Soru, ikisini aynı cümlede birlikte taşıyanları istiyor; üstelik değerlendirmenin yazara ait olması gerekiyor.
+Adım 1: I: Caddenin uzunluğu ve hattın 2,4 kilometre olduğu ölçülebilir. "En uzun" bir beğeni değil, ölçülebilen bir üstünlüktür. Değerlendirme yok.
+Adım 2: II: Vagonların ahşap kaplamalı ve iki tane olduğu doğrulanabilir; "caddeye çok yakışan bir ağırbaşlılıkla" ise yazarın beğenisidir. İkisi birlikte var.
+Adım 3: III ve VI: Saatler, sefer aralığı ve yolcu sayısı denetlenebilir. VI'daki kıyaslama da iki sayıya dayanır; "denk geliyor" sözü bir beğeni değil, hesaplanabilen bir eşitliktir. Değerlendirme yok.
+Adım 4: IV: "Güzelleştirdiğini" sözü bir beğenidir ama bunu söyleyen esnaftır. Yazar "on kişiden yedisi böyle söyledi" demekle yetiniyor; bu, anket kayıtlarından doğrulanabilir. Yazarın kendi değerlendirmesi yok.
+Adım 5: V: Yolculuğun on iki dakika sürdüğü ölçülebilir; "ne yazık ki … yetmiyor" ise yazarın kişisel yakınmasıdır. İkisi birlikte var.
+Sık yapılan hata: İçinde beğeni sözcüğü ya da karşılaştırma geçen her cümleyi öznel saymak. Başkasının görüşünü sayıyla aktaran cümle, aktaran kişi açısından nesneldir.
 Cevap D.`
 },
 {
@@ -493,29 +481,19 @@ Cevap D.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul voleybol takımının antrenörü, deplasmandaki maçtan sonra soyunma odasında oyunculara şöyle seslendi:
-"Bu maçta da ikinci yarıda hızımızı koruyamadık. Antrenmanlara herkes zamanında gelseydi son dakikalarda bu kadar yorulmazdık. Kondisyon çalışmalarını aksatırsak ligin ikinci yarısında da aynı sorunu yaşarız. Yine de savunmada geçen haftaya göre çok daha dikkatliydiniz; bunu gördüm ve sizi kutluyorum."
-**Antrenörün bu sözlerinden aşağıdakilerin hangisi __çıkarılamaz__?**`,
+  soru: `Bir lokantanın mutfağında akşam servisi bitince Nevin Usta, yanında dört aydır çalışan çırağı Tuna'ya döndü. Lokanta o akşam her zamankinden kalabalıktı; son masa kalkınca mutfakta ikisinden başka kimse kalmamıştı. Usta önlüğünü çıkarırken şunları söyledi:
+"Bugün mercimek çorbasını ilk kez baştan sona sana bıraktım, sonuçtan da memnunum. Garsonlar bu akşam çorbadan iki kez ek istedi. Soğanı yine biraz iri doğramışsın ama çorbayı süzgeçten geçirdiğin için bu kez kimse fark etmedi. Tuzunu ben bile daha iyi ayarlayamazdım. Ekmekleri kızartmayı ise yine bana bıraktın; yarın onu da senden bekliyorum. Kepçeyi tencerenin dibine kadar daldırmayı da unutmamışsın; geçen ay bunu sana üç kez hatırlatmam gerekmişti. Yalnız, pencere kenarındaki masada oturan müşteri tabağını yarım bırakmış; sen de nedenini sormadan tabağı kaldırmışsın. Ben senin yaşındayken yarım dönen her tabağın nedenini öğrenmeden mutfağa girmezdim. Yarın ana yemeğin sosunu da sana vereceğim; bugünkü dikkatini gösterirsen onun da üstesinden gelirsin. Bir de sebze siparişini artık son saate bırakma, hal kapanmadan orada ol."
+**Nevin Usta'nın bu sözlerinden aşağıdakilerin hangisi __çıkarılamaz__?**`,
   gorsel: null,
-  secenekler: [
-    "Takım, maçı ikinci yarıda yaptığı hatalar yüzünden kaybetmiştir.",
-    "Takım, önceki maçlarda da ikinci yarıda yavaşlamıştır.",
-    "Bazı oyuncular, antrenmanlara zamanında gelmemiştir.",
-    "Takımın savunması, geçen haftakinden daha iyi olmuştur."
-  ],
+  secenekler: ["Tuna, mercimek çorbasının yapımında ilk kez bugün çalışmıştır.", "Tuna, soğanı önceki günlerde de olması gerekenden iri doğramıştır.", "Nevin Usta, tuz ayarlamada kendi becerisine güvenmektedir.", "Tuna, sebze siparişini daha önce son saate bırakmıştır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Çıkarılabilen yargıyı çıkarılamaz sanma: 'Bu maçta da' sözündeki 'da', aynı sorunun önceki maçlarda da yaşandığını sezdirir.",
-    "Çıkarılabilen yargıyı çıkarılamaz sanma: 'herkes zamanında gelseydi' sözü, bazı oyuncuların geç kaldığını örtülü olarak anlatır.",
-    "Çıkarılabilen yargıyı çıkarılamaz sanma: 'geçen haftaya göre çok daha dikkatliydiniz' sözü bu karşılaştırmayı açıkça yapar."
-  ],
-  aciklama: `"Çıkarılamaz" sorularında her seçeneğin metinde bir dayanağı olup olmadığına bakılır. Dayanak, açık bir söz ya da "da, gelseydi, göre" gibi örtülü anlam taşıyan bir yapı olabilir.
-Adım 1: B: "Bu maçta da" → "da" bağlacı, ikinci yarıda yavaşlamanın daha önce de yaşandığını sezdirir. Çıkarılabilir.
-Adım 2: C: "Herkes zamanında gelseydi" → Gerçekleşmemiş bir şart kuruluyor; demek ki herkes zamanında gelmemiştir. Çıkarılabilir.
-Adım 3: D: "geçen haftaya göre çok daha dikkatliydiniz" → Açık bir karşılaştırma. Çıkarılabilir.
-Adım 4: A: Antrenör hız kaybından ve yorgunluktan söz ediyor ama maçın sonucunu hiç söylemiyor. Takım yorulmuş olsa da maçı kazanmış olabilir. Bu yargının metinde dayanağı yok.
-Sık yapılan hata: Antrenörün eleştirel tonundan maçın kaybedildiği sonucunu çıkarmak. Eleştiri, yenilginin kanıtı değildir.
+  hatalar: [null, "'Yine' sözcüğünü atlama: 'Yine biraz iri doğramışsın' sözü bu durumun daha önce de yaşandığını sezdirir; 'bu kez kimse fark etmedi' sözü de bunu destekler. Yargı çıkarılabilir.", "'Bile' sözcüğünü atlama: 'Ben bile daha iyi ayarlayamazdım' diyen kişi, bu işi en iyi yapması beklenen kişinin kendisi olduğunu kabul eder. Yargı çıkarılabilir.", "'Artık' sözcüğünü atlama: 'Artık son saate bırakma' uyarısı, siparişin daha önce son saate bırakıldığını gösterir. Yargı çıkarılabilir."],
+  aciklama: `Bazı sözcükler, cümlenin açıkça söylemediği bir bilgiyi de sezdirir: "yine, bile, artık, de, ilk kez" bunların başında gelir. "Çıkarılamaz" sorusunda her şıkkın metinde böyle bir dayanağı olup olmadığına bakarsın.
+Adım 1: B: "Soğanı yine biraz iri doğramışsın." → "yine", aynı şeyin daha önce de olduğunu bildirir. Çıkarılabilir.
+Adım 2: C: "Tuzunu ben bile daha iyi ayarlayamazdım." → "bile", konuşanı o işte en üst ölçü olarak gösterir; usta kendi becerisine güveniyor. Çıkarılabilir.
+Adım 3: D: "Siparişi artık son saate bırakma." → "artık", bugüne kadar süren bir durumun bitmesini ister; demek ki sipariş daha önce son saate bırakılmış. Çıkarılabilir.
+Adım 4: A: Usta "ilk kez baştan sona sana bıraktım" diyor. İlk kez olan şey, çorbanın bütünüyle Tuna'ya bırakılmasıdır. Tuna'nın önceki günlerde çorbanın bir aşamasında çalışıp çalışmadığını bu sözden bilemeyiz; kepçeyle ilgili geçen ayki uyarılar da onun tencerenin başında daha önce bulunduğunu düşündürür. Yargının dayanağı yok.
+Sık yapılan hata: "İlk kez" sözünü görüp yanındaki "baştan sona"yı atlamak. Örtük anlam, sözcüğün neyi nitelediğine göre değişir.
 Cevap A.`
 },
 {
@@ -523,28 +501,18 @@ Cevap A.`
   kazanim: "T.8.3.10",
   kademe: 3,
   zorluk: 4,
-  soru: `Çoğumuz yarasaların göremediğini düşünürüz. (I) - - - - yarasaların gözleri vardır ve bazı türlerin görme duyusu oldukça gelişmiştir. Gece avlanan türlerin çoğu ise karanlıkta yolunu seslerle bulur. Bu yarasalar, insan kulağının duyamayacağı kadar yüksek perdeden sesler çıkarır. Sesler bir engele ya da bir böceğe çarpıp geri döner; (II) - - - - hayvan, çevresindeki cismin yerini ve uzaklığını kestirebilir. Bilim insanları bu yeteneği ses dalgalarıyla çalışan cihazları geliştirirken örnek almıştır.
-**Bu metinde numaralanmış yerlere aşağıdakilerden hangileri sırasıyla getirilmelidir?**`,
+  soru: `Dolunay gecelerinde Ay'ın yüzeyindeki koyu lekeler çıplak gözle bile seçilir; dikkatli bakan biri bu lekelerin yerinin aydan aya değişmediğini fark eder. Çünkü gökyüzüne ne zaman baksak Ay'ın hep aynı yüzünü görürüz. Bu yüzden pek çok kişi Ay'ın kendi ekseni etrafında dönmediğini sanır. (I) - - - - Ay hiç dönmeseydi, Dünya'nın çevresindeki bir turu boyunca bize bütün yanlarını sırayla gösterirdi. Ay da tıpkı Dünya gibi kendi ekseni etrafında döner; ancak bu dönüşünü, Dünya'nın çevresindeki bir turunu bitirdiği sürede, yaklaşık yirmi yedi günde tamamlar. İki hareket aynı sürede bittiği için Ay, yörüngesinde ne kadar yol alırsa kendi ekseninde de o kadar döner; (II) - - - - Dünya'ya dönük yanı değişmez. Yeryüzünden görülemeyen öteki yana "karanlık yüz" denmesi ise yanıltıcıdır. O yüz de Güneş'ten ışık alır; hatta yeni ay evresinde, bize dönük yüz karanlıktayken öteki yüz baştan başa aydınlıktır. Buradaki "karanlık" sözü ışıksızlığı değil, bilinmezliği anlatır; (III) - - - - o yüz ışıktan değil, yalnızca bizim bakışımızdan uzaktır.
+**Bu metinde numaralanmış yerlere düşüncenin akışına göre sırasıyla aşağıdakilerden hangileri getirilmelidir?**`,
   gorsel: null,
-  secenekler: [
-    "Üstelik / böylece",
-    "Oysaki / özellikle",
-    "Oysaki / böylece",
-    "Kısaca / başka bir deyişle"
-  ],
+  secenekler: ["Oysaki / böylece / son olarak", "Başka bir deyişle / böylece / başka bir deyişle", "Oysaki / böylece / başka bir deyişle", "Başka bir deyişle / özellikle / son olarak"],
   dogru: 2,
-  hatalar: [
-    "İlk boşlukta ekleme bağlacı: Önceki cümledeki yaygın düşünce ile sonraki bilgi karşıttır; 'Üstelik' aynı yönde ekleme yapar. İkinci boşluk doğrudur.",
-    "İkinci boşlukta vurgulama ifadesi: Sesin geri dönmesiyle hayvanın cismin yerini kestirmesi arasında sonuç ilişkisi var; 'özellikle' bir sonucu bağlamaz. İlk boşluk doğrudur.",
-    null,
-    "İki boşlukta da özetleme ve açıklama ifadesi: Metinde özetlenen ya da yeniden söylenen bir düşünce yok; ilk boşlukta karşıtlık, ikincide sonuç gerekir."
-  ],
-  aciklama: `Geçiş ifadesi seçerken boşluktan önceki ve sonraki cümlelerin ilişkisini adlandır; sonra o ilişkiyi kuran ifadeyi seç. "Oysaki" karşıtlık, "böylece" sonuç, "üstelik" ekleme, "özellikle" vurgulama, "kısaca" özetleme bildirir.
-Adım 1: (I) öncesi: "Yarasaların göremediğini düşünürüz." (I) sonrası: "Yarasaların gözleri vardır ve bazı türler iyi görür." Yaygın düşünce ile gerçek karşıttır → "Oysaki".
-Adım 2: (II) öncesi: "Sesler bir engele çarpıp geri döner." (II) sonrası: "Hayvan cismin yerini kestirebilir." Geri dönen ses bu kestirmeyi sağlar; sonuç ilişkisi → "böylece".
-Adım 3: İki boşluğu da doğru karşılayan tek seçenek C'dir.
-Sağlama: "Sesler geri döner; böylece hayvan cismin yerini kestirebilir." Neden-sonuç zinciri kopmadan okunuyor.
-Sık yapılan hata: Yalnızca bir boşluğa bakıp seçenek işaretlemek. A ve B, boşluklardan birini doğru vererek tuzak kurar.
+  hatalar: ["Son cümleyi sıralamanın son basamağı sanma: (III)'ten sonraki cümle yeni bir bilgi eklemiyor, bir önceki cümleyi başka sözlerle yineliyor. 'Son olarak' ise sıralanan işlerin ya da düşüncelerin sonuncusunu bildirir. İlk iki boşluk doğrudur.", "Karşıt gerçeği yeniden söyleme sanma: (I)'den sonraki cümle 'Ay dönmüyor' sanısını yinelemiyor, çürütüyor: Ay dönmeseydi bütün yanlarını görürdük. Sanı ile gerçek arasına 'oysaki' girer. Öteki iki boşluk doğrudur.", null, "Üç boşlukta da ilişkiyi karıştırma: (I)'de sanı çürütülüyor, yeniden söylenmiyor. (II)'de dönük yanın değişmemesi bir sonuçtur, öne çıkarılan bir parça değildir. (III)'te de sıralama yoktur."],
+  aciklama: `Geçiş ifadesi, iki düşünce arasındaki ilişkiyi adlandırır: "oysaki" karşıtlık, "böylece" sonuç, "başka bir deyişle" aynı düşünceyi yeniden söyleme, "özellikle" bir bütünün içinden bir parçayı öne çıkarma, "son olarak" sıralananların sonuncusunu bildirir. Boşluğa karar vermeden önce iki yanındaki cümlelerin ne söylediğini kendi sözlerinle özetle.
+Adım 1: (I) öncesi: İnsanlar Ay'ın dönmediğini sanır. (I) sonrası: Ay dönmeseydi bize bütün yanlarını gösterirdi; yani hep aynı yüzü görmemiz, sanılanın tersine Ay'ın döndüğünü gösterir. İkinci cümle sanıyı yinelemiyor, çürütüyor → "Oysaki". İki cümlede de "dönme" sözü geçtiği için "başka bir deyişle" çekici görünür ama düşünce aynı değil, karşıttır. B ve D elenir.
+Adım 2: (II) öncesi: Ay, yol aldığı kadar döner. (II) sonrası: Dünya'ya dönük yanı değişmez. İkincisi birincinin doğal sonucu → "böylece". "Özellikle" burada öne çıkaracak bir parça bulamaz.
+Adım 3: (III) öncesi: "Karanlık" sözü ışıksızlığı değil, bilinmezliği anlatır. (III) sonrası: O yüz ışıktan değil, bakışımızdan uzaktır. Aynı düşünce başka sözlerle yineleniyor → "başka bir deyişle". Cümle metnin sonunda diye "son olarak" gelmez; metinde sıralanan basamaklar yok, bu cümle de yeni bir basamak eklemiyor. A elenir.
+Sağlama: Üç ifadeyi yerine koyup metni baştan oku; karşıtlık, sonuç ve yeniden söyleme sırasıyla kopmadan akıyor.
+Sık yapılan hata: İfadeyi cümlenin yerine ya da içindeki sözcüklere bakarak seçmek. Son cümle her zaman "son olarak" istemez; aynı sözcüğün yinelenmesi de düşüncenin yinelendiğini göstermez.
 Cevap C.`
 },
 {
@@ -552,28 +520,19 @@ Cevap C.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `(I) Babaannemin köyündeki taş fırın her sabah beşte yakılır. (II) Hamurun zamanında mayalanması için fırıncı gece yarısı kalkıp hamuru yoğurur. (III) Bence o fırının ekmeği, şehirde yediğim ekmeklerin hepsinden daha lezzetli. (IV) Fırıncı, un fiyatları arttığı için geçen ay ekmeğin fiyatını iki lira yükseltmiş. (V) Keşke şehirdeki mahallemizde de böyle bir fırın olsa.
-**Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
+  soru: `Cam bir eşyaya biçim vermek dakikalar, onu soğutmak ise saatler alır. Kum, soda ve kireç taşı karışımı bin dört yüz dereceyi aşan fırınlarda eriyip bal kıvamına gelir. Camcı, uzun bir demir borunun ucuna bir parça eriyik alır ve boruya üfleyerek birkaç dakika içinde bir bardağı ya da vazoyu ortaya çıkarır; eşyanın ağzı ve tabanı da cam henüz yumuşakken düzeltilir. İşin incelik isteyen bölümü bundan sonra başlar. Açık havada bırakılan sıcak camın dış yüzeyi çabucak soğuyup büzülür, içi ise hâlâ sıcak ve genişlemiş durumdadır; bu çekişme camı içten gerer. __Hızlı soğuyan cam kendiliğinden çatlayabildiğinden camcılar, eşya ağır ağır soğusun diye onu saatlerce tavlama fırınında bekletir.__ Yaklaşık beş yüz dereceye ayarlanan bu fırının sıcaklığı azar azar düşürülür; kalın parçalarda bu iş bir günden uzun sürebilir. Fırından çıkan eşya ancak bundan sonra rafa konur. Tavlanmamış bir bardak ilk bakışta sağlam görünür, oysa günler sonra hafif bir dokunuşla dağılabilir.
+**Altı çizili cümlede bulunan anlam ilişkilerinin ikisi de aşağıdaki cümlelerin hangisinde vardır?**`,
   gorsel: null,
-  secenekler: [
-    "II. cümlede neden-sonuç ilişkisi kurulmuştur.",
-    "III. cümlede öznel bir karşılaştırma yapılmıştır.",
-    "IV. cümlede neden-sonuç ilişkisi kurulmuştur.",
-    "V. cümlede bir dilek dile getirilmiştir."
-  ],
+  secenekler: ["Yayla yolu kışın sık sık kapandığı için köylüler, baharı erzaksız beklememek üzere kilerini güzden doldurur.", "Sis bastırdığından seferler durduruldu; yolcular da gemi kalkmıyor diye geceyi iskeledeki bekleme salonunda geçirdi.", "Fideler dondan zarar görmesin diye bahçıvan, hava soğursa seranın kapaklarını akşamdan sıkıca kapatır.", "Kar erken yağdığından dağ köylerindeki okullar, bu yıl ovadakilerden iki hafta önce yarıyıl tatiline girdi."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Söylenebilen yargıyı seçme: III. cümle köy ekmeğini şehir ekmekleriyle kıyaslıyor ve 'bence … daha lezzetli' diyerek kişisel beğeniye dayanıyor.",
-    "Söylenebilen yargıyı seçme: Un fiyatlarının artması olmuş bir durumdur ve ekmeğin pahalanmasının nedenidir.",
-    "Söylenebilen yargıyı seçme: 'Keşke … olsa' kalıbı, gerçekleşmesi istenen bir dileği dile getirir."
-  ],
-  aciklama: `Neden-sonuç ile amaç-sonucu ayırmanın ölçütü: "için"den önceki eylem olmuş bir durumsa neden, henüz gerçekleşmemiş ve istenen bir hedefse amaçtır.
-Adım 1: II. cümle: Fırıncı gece yarısı kalktığında hamur henüz mayalanmamıştır. Hamurun zamanında mayalanması, kalkıp yoğurma işinin ulaşmak istediği hedeftir. Bu amaç-sonuçtur; A'daki "neden-sonuç" yargısı yanlıştır.
-Adım 2: III. cümle: Köy ekmeği şehir ekmekleriyle kıyaslanıyor; "bence … daha lezzetli" değerlendirmesi kişisel beğeniye dayanıyor. B doğrudur.
-Adım 3: IV. cümle: Un fiyatları artmıştır; bu olmuş durum fiyat artışının nedenidir. C doğrudur.
-Adım 4: V. cümle: "Keşke … olsa" gerçekleşmesi istenen bir dilektir. D doğrudur.
-Sağlama: II. cümlede "amacıyla" dene: "Hamurun zamanında mayalanması amacıyla fırıncı gece yarısı kalkar." Anlam bozulmadı; ilişki amaçtır.
+  hatalar: [null, "'Diye' sözcüğünü hep amaç sanma: 'Gemi kalkmıyor diye' gerçekleşmiş bir durumu, yani nedeni bildirir. Cümlede iki neden-sonuç var, amaç-sonuç yok.", "Yarım doğru: 'Zarar görmesin diye' amaç bildirir ama cümlenin öbür ilişkisi koşuldur ('soğursa'); neden-sonuç yok.", "Yarım doğru: 'Yağdığından' neden bildirir ama cümlenin öbür ilişkisi karşılaştırmadır ('ovadakilerden iki hafta önce'); amaç-sonuç yok."],
+  aciklama: `Neden-sonuçta bir iş, olmuş ya da var olan bir durum yüzünden yapılır. Amaç-sonuçta ise iş, henüz gerçekleşmemiş ve istenen bir hedefe ulaşmak için yapılır. Bu ilişkileri eklere değil, anlama bakarak bulursun.
+Adım 1: Altı çizili cümle: "Hızlı soğuyan cam çatlayabildiğinden" → var olan bir durum; fırında bekletmenin nedeni. "Eşya ağır ağır soğusun diye" → istenen hedef; bekletmenin amacı. Aradığın çift: neden-sonuç + amaç-sonuç.
+Adım 2: A: "Yol kapandığı için" → var olan durum, neden. "Baharı erzaksız beklememek üzere" → hedef, amaç. İki ilişki de var.
+Adım 3: B: "Sis bastırdığından" → neden. "Gemi kalkmıyor diye" → gemi gerçekten kalkmıyor; bu da neden. Amaç yok.
+Adım 4: C: "Zarar görmesin diye" → amaç. "Hava soğursa" → koşul. Neden yok.
+Adım 5: D: "Kar erken yağdığından" → neden. "Ovadakilerden iki hafta önce" → karşılaştırma. Amaç yok.
+Sık yapılan hata: "Diye" ya da "-dığından" gördüğün şıkkı, altı çizili cümleye benziyor diye seçmek. "Soğusun diye" bir isteği, "kalkmıyor diye" ise olmuş bir durumu bildirir; aynı sözcük iki ayrı ilişki kurabilir.
 Cevap A.`
 },
 {
@@ -581,28 +540,23 @@ Cevap A.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul kütüphanesi kulübü, "Kitap Takas Günü" için bir afiş hazırlayacak. Kulüp danışmanı, afiş metninin aşağıdaki üç ölçütü birlikte karşılamasını istiyor. Kulüp üyeleri dört farklı taslak yazmıştır.
-**Buna göre hangi taslak, ölçütlerin üçünü de karşılamaktadır?**`,
-  gorsel: `<table class="tablo"><tr><th>Ölçüt</th><th>Afiş metni…</th></tr><tr><td>1</td><td>etkinliğin gününü ve saatini bildirmeli.</td></tr><tr><td>2</td><td>takastan yararlanmayı bir şarta bağlayan bir cümle içermeli.</td></tr><tr><td>3</td><td>öznel bir yargı içermemeli.</td></tr></table>`,
-  secenekler: [
-    "Kütüphanedeki takas günü yaklaşıyor. Bir kitap getirirsen raftan istediğin bir kitabı alabilirsin.",
-    "Takas günü cuma saat 14.00'te kütüphanede. Bir kitap getirirsen raflardaki harika kitaplardan birini alırsın.",
-    "Takas günü cuma saat 14.00'te kütüphanede. Katılan öğrenciler getirdikleri kitapları raflara kendileri dizecek.",
-    "Takas günü cuma saat 14.00'te kütüphanede. Bir kitap getirirsen raftan istediğin bir kitabı alabilirsin."
-  ],
+  soru: `Geçen kasım, sınıf arkadaşlarımla bir köy kooperatifinin zeytin hasadına gönüllü olarak katıldım. On iki kişiydik; çoğumuz o güne kadar bir zeytin ağacına elini bile sürmemişti. Ağaçlar köyün üst yamacındaydı; şafak sökmeden yola çıktık, gün batarken de son kasaları yağhaneye gidecek kamyona yükledik. Akşam eve dönünce, yorgunluğuma aldırmadan, o günü unutmamak için günlüğüme şu cümleleri yazdım:
+(I) Kooperatif, zeytin dalında fazla beklerse yağın asidinin yükseleceğini söyleyerek hasadı bu yıl iki hafta öne almıştı.
+(II) Taneler toprağa düşüp ezilmesin diye ağaçların altına sabahtan, kenarlarını taşla tutturduğumuz geniş örtüler serdik.
+(III) Öğle yemeğinde ekmeğimi yağa banarken düşündüm: Sofradaki yağı beğenmeyip tabağımı ittiğim günlerde bir şişe yağın ardındaki bu emeği bilseydim keşke.
+(IV) Akşama doğru kollarım öyle yoruldu ki son kasayı bir arkadaşımla iki ucundan tutarak ancak taşıyabildik.
+(V) Gün batarken saydığımız dolu kasalar, kooperatifin defterine göre geçen yılki gönüllülerin iki günde doldurduğundan tam dört fazlaydı.
+**Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
+  gorsel: null,
+  secenekler: ["I. cümlede bir karar, koşula bağlı bir öngörüyle gerekçelendirilmiştir.", "II. cümlede bir önlem, olması istenmeyen bir durumla gerekçelendirilmiştir.", "III. cümlede kişinin kendi davranışından duyduğu pişmanlık dile getirilmiştir.", "V. cümlede iki yılın hasadı, eşit süreler üzerinden karşılaştırılmıştır."],
   dogru: 3,
-  hatalar: [
-    "1. ölçütü atlama: Taslakta koşul var ve öznel yargı yok ama etkinliğin günü ve saati bildirilmemiş.",
-    "3. ölçütü atlama: Gün, saat ve koşul var ama 'harika kitaplar' sözü kişisel bir değerlendirmedir.",
-    "2. ölçütü atlama: Gün ve saat var, öznel yargı yok ama takastan yararlanma hiçbir şarta bağlanmamış.",
-    null
-  ],
-  aciklama: `Ölçütlü sorularda her taslağı ölçütlerin hepsiyle tek tek sına; bir ölçüte takılan taslağı hemen ele.
-Adım 1: A: Gün ve saat yok ("yaklaşıyor" demek yetmez). 1. ölçüt karşılanmıyor.
-Adım 2: B: Gün ve saat var; "getirirsen … alırsın" koşulu var. Ancak "harika kitaplar" kişiye göre değişen bir değerlendirmedir. 3. ölçüt karşılanmıyor.
-Adım 3: C: Gün ve saat var, öznel yargı yok. Ancak ikinci cümle yalnızca yapılacak işi bildiriyor, hiçbir şeyi şarta bağlamıyor. 2. ölçüt karşılanmıyor.
-Adım 4: D: Gün ve saat var (1); "getirirsen … alabilirsin" koşulu var (2); iki cümle de denetlenebilir bilgi veriyor (3). Üç ölçüt de karşılanıyor.
-Sık yapılan hata: B ile D'yi aynı sanmak. İkisi arasındaki tek fark "harika" sözcüğüdür; tek bir değerlendirme sözcüğü cümleyi öznel yapmaya yeter.
+  hatalar: ["Koşulu gözden kaçırma: 'Fazla beklerse … yükseleceğini' koşula bağlı bir öngörüdür; kooperatif, hasadı öne alma kararını bu öngörüyle açıklamıştır. Yargı söylenebilir.", "Amacı tanıyamama: Tanelerin ezilmesi olmuş bir şey değil, olması istenmeyen bir durumdur; örtü serme önlemi bununla gerekçelendirilmiştir. Yargı söylenebilir.", "Pişmanlığı sitemle karıştırma: 'Bilseydim keşke' diyen kişi, yağı beğenmeyip tabağını iten kişinin kendisidir. İnsan kendi davranışı için 'keşke' derse pişmanlık duyar. Yargı söylenebilir.", null],
+  aciklama: `Bu soruda şıklar ilişkilerin adını vermiyor, onları tarif ediyor. Her tarifi önce bildiğin ada çevir, sonra cümleyle sözcük sözcük karşılaştır.
+Adım 1: A: "Koşula bağlı öngörü" = koşul-sonuç. I. cümlede "fazla beklerse asit yükselir" öngörüsü var ve kooperatif hasadı bunu söyleyerek öne almış. Tarif doğru.
+Adım 2: B: "Olması istenmeyen durumla gerekçelendirilen önlem" = amaç-sonuç. II. cümlede örtüler, taneler ezilmesin diye serilmiş; ezilme henüz olmamış, önlenmek istenen bir durum. Tarif doğru.
+Adım 3: C: III. cümlede "keşke … bilseydim" diyen kişi, tabağını iten kişinin ta kendisi. Kendi davranışı için duyulan üzüntü pişmanlıktır; sitem ise başkasının davranışına duyulan kırgınlıktır. Tarif doğru.
+Adım 4: D: V. cümlede bir karşılaştırma gerçekten var: bu yılın kasaları ile geçen yılın kasaları. Ancak süreler eşit değil. Bu yıl kasalar bir günde ("gün batarken saydığımız"), geçen yıl ise "iki günde" doldurulmuş. "Eşit süreler üzerinden" sözü tarifi yanlış yapıyor.
+Sık yapılan hata: Tarifin ilk yarısı tutunca gerisini okumamak. D'de "karşılaştırılmıştır" sözü doğru olduğu için şık doğru sanılır; oysa tarifin her sözcüğü cümleyle örtüşmelidir.
 Cevap D.`
 },
 {
@@ -610,27 +564,18 @@ Cevap D.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Geçen yaz ağabeyimle üç günlük bir bisiklet turuna katıldık. Tur, kıyı boyunca uzanan köy yollarından geçiyordu. Her akşam belirlenen bir kamp alanında konaklıyorduk. Turdan aklımda kalanları şu cümlelerle yazdım:
-(I) İkinci günkü rota, ilk günkünden on kilometre daha uzundu.
-(II) Yokuşta nefesimi toparlamak için bisikletten inip bir süre yürüdüm.
-(III) Kamp alanına diğer gruplardan daha erken varmak için molaları kısa tuttuk.
-(IV) Rüzgâr arkamızdan estiği için dönüş yolu gidişten daha kısa sürdü.
-**Numaralanmış cümlelerin hangisinde hem amaç-sonuç ilişkisi hem de karşılaştırma vardır?**`,
+  soru: `Kasabanın tek saat tamircisi Rauf Usta, dükkânına telaşla giren genci başını kaldırmadan dinledi. Duvarlardaki onlarca saat, her biri kendi sesiyle tıkırdıyordu. Usta otuz yıldır işini aynı sırayla yapardı: önce dinler, sonra açar, en sonunda konuşurdu. Genç, dedesinden kalan cep saatini tezgâha bıraktı; ertesi sabah erkenden yola çıkacağını, saati akşama kadar almak istediğini söyledi. Usta arka kapağı açtı, büyütecini gözüne yerleştirdi. Yayın sağlam, çarklardan birinin dişlerinin ise aşınmış olduğunu gördü. Parçayı yenisiyle değiştirmek bir saatlik işti; ama yeni çarkın ötekilerle uyumlu çalışıp çalışmadığını anlamak için saati en az iki gün kurulu bekletmesi, ne kadar geri kaldığına bakması gerekiyordu. Bunu anlattığında genç omuz silkti: "Çalışsın yeter, gerisini yolda ben ayarlarım." Usta saati avucunda tarttı, sonra kapağını kapatmadan gence uzatıp şöyle dedi: __"Saati acele ettirirsen o da seni hep geç bırakır."__ Genç bir süre elindeki saate baktı; ardından onu yeniden tezgâha koydu ve dönüşte uğrayacağını söyledi.
+**Bu metinde altı çizili sözle anlatılmak istenen aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["Aceleyle onarılan bir saat kısa bir süre çalışır, ardından büsbütün durur.", "Sabırsız müşteriye uyan usta, zamanla işine gösterdiği özeni yitirir.", "Sınanmadan alınan saat, kazandırdığı süreden fazlasını sonra kaybettirir.", "Yola çıkacak kişi, saatini son güne bırakmadan çok önceden onartmalıdır."],
   dogru: 2,
-  hatalar: [
-    "Yarım doğru: I. cümlede iki rota kıyaslanıyor ama bir hedef için yapılan bir iş yok.",
-    "Yarım doğru: II. cümlede amaç-sonuç var ('nefesimi toparlamak için') ama bir kıyaslama yok.",
-    null,
-    "Nedeni amaç sanma: IV. cümlede karşılaştırma var ama rüzgârın arkadan esmesi olmuş bir durumdur; ilişki neden-sonuçtur."
-  ],
-  aciklama: `İki ölçütlü sorularda her cümleyi iki soruyla sına: (1) Bir iş, henüz gerçekleşmemiş istenen bir hedef için mi yapılmış? (2) İki şey kıyaslanmış mı?
-Adım 1: I: Rotalar kıyaslanmış ("-den … daha uzun"). Hedef bildiren bir yapı yok. Yalnızca karşılaştırma.
-Adım 2: II: "nefesimi toparlamak için" → hedef; amaç-sonuç. Kıyas yok.
-Adım 3: III: "daha erken varmak için" → Kamp alanına varmak henüz gerçekleşmemiş, istenen bir hedeftir; amaç-sonuç. Aynı zamanda "diğer gruplardan daha erken" sözü grupları kıyaslıyor; karşılaştırma. İki ölçüt de var.
-Adım 4: IV: "daha kısa sürdü" → karşılaştırma var. "Rüzgâr arkamızdan estiği için" ise olmuş bir durumdur; neden-sonuç.
-Sık yapılan hata: IV'teki "için" sözcüğünü görüp amaç demek. Rüzgârın esmesi kimsenin ulaşmak istediği bir hedef değildir.
+  hatalar: ["Kısmen doğru: Aceleye gelen onarımın sorun çıkaracağı doğrudur ama söz saatin duracağını değil, 'geç bırakacağını', yani geri kalıp sahibine vakit kaybettireceğini söyler.", "Odağı kaydırma: Söz ustanın özeniyle ilgili değildir; aceleyle alınan saatin sahibine ne yapacağını anlatır. Usta aceleye zaten razı olmamıştır.", null, "Metinde var ama sözün anlamı değil: Gencin saati son güne bıraktığı doğrudur; ancak usta 'erken getirmeliydin' demiyor, sınanmadan alınan saatin sonucunu anlatıyor."],
+  aciklama: `Altı çizili bir sözün anlamını bulurken sözü tek başına okumazsın; ondan önce anlatılanlarla birlikte düşünürsün. Burada söz bir koşul-sonuç cümlesi: "acele ettirirsen" koşul, "seni hep geç bırakır" sonuç.
+Adım 1: "Acele ettirmek" neyi karşılıyor? Genç, saatin iki gün sınanmasını beklemeden akşama almak istiyor. Demek ki acele, sınama süresini atlamaktır.
+Adım 2: "Geç bırakmak" neyi karşılıyor? Usta, sınamada saatin "ne kadar geri kaldığına" bakacaktı. Sınanmayan saat geri kalabilir; geri kalan saat de sahibini gideceği yere geç ulaştırır.
+Adım 3: "Hep" sözcüğüne dikkat et: Kazanılan süre bir kezliktir (iki gün), kayıp ise sürekli. Usta, bugün kazanılan zamanın ileride fazlasıyla geri ödeneceğini söylüyor. Bunu veren şık C.
+Adım 4: A saatin duracağını söylüyor; söz durmaktan değil, geç bırakmaktan söz ediyor. B ustanın özenine, D gencin saati ne zaman getirmesi gerektiğine kayıyor; ikisi de sözün koşul-sonuç yapısını karşılamıyor.
+Sık yapılan hata: Sözdeki "acele" sözcüğünü görüp içinde acele geçen ilk şıkkı seçmek. Sözün iki yarısını da (koşul ve sonuç) karşılayan şıkkı aramalısın.
 Cevap C.`
 },
 {
@@ -638,29 +583,24 @@ Cevap C.`
   kazanim: "T.8.3.25",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe öğretmeni, Deren'in "Mahallemizin Unutulan Çeşmesi" başlıklı kompozisyonunu okuduktan sonra kâğıdın altına şu notu yazmış:
-"Paragrafların arasındaki geçişler nihayet akıcı olmuş Deren, tebrik ederim. Keşke yazım kurallarına da bu kadar özen gösterseydin; birkaç sözcüğü yeniden gözden geçirmen gerekiyor."
-Deren notu okuyunca önce sevinmiş, sonra kırmızıyla işaretlenen sözcüklere dikkatle bakmıştır.
-**Öğretmenin notuyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  soru: `Bir ilçenin atletizm kulübü, her nisan ayında düzenlediği bahar koşusunun duyurusunu ilçedeki bütün okullara gönderdi. Geçen yıl kayıt masasında uzun kuyruklar oluşmuş, bazı koşucular da öğle sıcağında zorlanmıştı. Kulüp bu yıl hem parkuru hem de bazı kuralları değiştirdi. Duyuruda yer alan cümlelerden bazıları şöyledir:
+(I) On dört yaşından küçük koşucular, yanlarında bir yetişkin bulunmadıkça yetişkin parkurundan üç kilometre kısa olan gençlik parkuruna da alınmayacaktır.
+(II) Son bölümü dik bir yokuş olsa da bu yılki parkur, baştan sona asfalt olduğu için geçen yılki toprak parkurdan az yorucudur.
+(III) Göğüs numaranızı start saatine kadar kayıt masasından almazsanız koşuya katılamazsınız, ancak seyirci olarak alana girebilirsiniz.
+(IV) Kaydınızı ilk hafta içinde kulübün internet sayfasından yaptırırsanız katılım ücretini, son haftaya kalanların ödeyeceğinin yarısı kadar ödersiniz.
+(V) Koşucular öğle sıcağına kalmasın diye start bu yıl, geçen yılkinden bir saat erken, sabah dokuzda çarşı meydanından verilecektir.
+**Numaralanmış cümlelerin hangilerinde bir yargı koşula bağlanmış, ayrıca bir karşılaştırma da yapılmıştır?**`,
   gorsel: null,
-  secenekler: [
-    "Hem övgü hem de öğrencinin daha önce zorlandığı bir konuya gönderme vardır.",
-    "Hem eleştiri hem de öğrencinin gelecekteki başarısına dair bir tahmin vardır.",
-    "Hem övgü hem de öğrencinin yazım kurallarını bilmediğine dair bir yargı vardır.",
-    "Hem pişmanlık hem de öğrencinin önceki yazılarının kısa olduğuna gönderme vardır."
-  ],
+  secenekler: ["I ve IV", "I ve III", "II ve V", "III ve IV"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Yarım doğru: Notta 'keşke … özen gösterseydin' diye bir eleştiri var ama Deren'in gelecekteki başarısı hakkında hiçbir tahmin yok.",
-    "Aşırı yorum: Öğretmen 'özen gösterseydin' diyor; bu, kuralları bilmediğini değil, dikkat etmediğini anlatır. Övgü kısmı doğrudur.",
-    "Duyguyu yanlış adlandırma: 'Keşke' burada öğretmenin kendi pişmanlığını değil, Deren'e yönelik bir sitemi anlatır; yazıların uzunluğundan da hiç söz edilmez."
-  ],
-  aciklama: `Bir sözdeki anlamı bulurken hem açıkça söyleneni (övgü, eleştiri) hem de örtülü olarak sezdirileni (varsayım) ara. İki parçalı seçeneklerde iki parçanın da doğru olması gerekir.
-Adım 1: "Geçişler … akıcı olmuş, tebrik ederim" → açık bir övgü.
-Adım 2: "nihayet" sözcüğü, bu başarının uzun süredir beklendiğini sezdirir: Deren daha önceki yazılarında paragraf geçişlerinde zorlanıyordu. Bu, örtülü bir gönderme. A'nın iki parçası da doğru.
-Adım 3: B: Eleştiri var ama tahmin yok. C: Övgü var ama "bilmediği" yargısı notta yok; öğretmen özenden söz ediyor. D: "Keşke … gösterseydin" başkasının yaptığı işe yönelik bir sitemdir; pişmanlık, kişinin kendi yaptığı iş için duyduğu üzüntüdür. Uzunluktan da söz edilmez.
-Sık yapılan hata: "Keşke" sözcüğünü her zaman pişmanlık saymak. Kişi kendi eylemi için "keşke" derse pişmanlık, başkasının eylemi için derse sitem ya da eleştiri olur.
+  hatalar: [null, "'Kadar' sözcüğünü karşılaştırma sanma: I uygundur. III'te 'almazsanız' koşul bildirir ama 'start saatine kadar' bir zaman sınırıdır, iki şeyi kıyaslamaz; cümlede karşılaştırma yoktur.", "'-sa da' ve 'diye' sözlerini koşul sanma: İkisinde de karşılaştırma vardır. Ancak II'deki 'olsa da' 'olmasına rağmen' demektir, V'teki 'kalmasın diye' ise amaç bildirir; ikisinde de yargı bir koşula bağlanmamıştır.", "Yarım doğru: IV uygundur. III'te koşul vardır ama karşılaştırma yoktur; 'kadar' sözcüğü IV'te iki ücreti kıyaslar, III'te yalnızca süreyi sınırlar."],
+  aciklama: `Koşul-sonuçta bir yargının gerçekleşmesi başka bir şeyin olmasına bağlıdır ("-se, -medikçe, -diği sürece"). Karşılaştırmada iki varlık ya da durum bir özellik bakımından kıyaslanır ("-den kısa, -e göre, yarısı kadar"). Bu ilişkiler her zaman aynı ekle kurulmaz; her cümleye iki soruyu ayrı ayrı sor.
+Adım 1: I: "Yanlarında bir yetişkin bulunmadıkça … alınmayacaktır" → alınma, yetişkinin bulunmasına bağlı; koşul var. "Yetişkin parkurundan üç kilometre kısa olan" → iki parkur kıyaslanıyor. İkisi de var.
+Adım 2: II: "Geçen yılki toprak parkurdan az yorucu" → karşılaştırma var. "Dik bir yokuş olsa da" sözü "yokuş olmasına rağmen" demektir; parkurun az yorucu olması yokuşa bağlanmıyor. "Asfalt olduğu için" de nedendir. Koşul yok.
+Adım 3: III: "Almazsanız katılamazsınız" → koşul var. "Start saatine kadar" ise bir süre sınırıdır; iki şey kıyaslanmıyor. Karşılaştırma yok.
+Adım 4: IV: "İlk hafta içinde yaptırırsanız" → koşul var. "Son haftaya kalanların ödeyeceğinin yarısı kadar" → iki ücret kıyaslanıyor. İkisi de var.
+Adım 5: V: "Geçen yılkinden bir saat erken" → karşılaştırma var. "Kalmasın diye" → istenen hedef; bu amaç-sonuç. Koşul yok.
+Sık yapılan hata: "-sa" ekini gördüğün her yerde koşul, "kadar" sözcüğünü gördüğün her yerde karşılaştırma aramak. "Olsa da" koşul değil karşıtlık bildirir; "saatine kadar" ile "yarısı kadar" da aynı görevi yapmaz.
 Cevap A.`
 },
 {
@@ -668,32 +608,19 @@ Cevap A.`
   kazanim: "T.8.3.21",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun düzenlediği fidan dikme etkinliğinden sonra dört arkadaş bahçede şöyle konuşuyor:
-Arda: "Bugün okul bahçesine otuz iki fidan diktik."
-Buse: "Fidanlar kök salsın diye çevrelerindeki toprağı iyice sıkıştırdık."
-Cem: "Bence en güzel köşe, çınar fidanını diktiğimiz kapı önü oldu."
-Duru: "Bu fidanlar büyüyünce bahçenin yarısı gölgede kalacak."
-**Bu konuşmayla ilgili aşağıdakilerden hangisi doğrudur?**`,
-  gorsel: null,
-  secenekler: [
-    "Arda'nın sözü hem nesneldir hem de koşul-sonuç ilişkisi taşır.",
-    "Buse'nin sözü hem nesneldir hem de amaç-sonuç ilişkisi taşır.",
-    "Cem'in sözü hem özneldir hem de neden-sonuç ilişkisi taşır.",
-    "Duru'nun sözü hem nesneldir hem de karşılaştırma içerir."
-  ],
+  soru: `Sekizinci sınıf öğrencisi Aras, Türkçe dersinde okudukları bir gezi yazısından dört cümle seçti. Yazının yazarı, bir kasabanın yakınındaki eski bir hanı gezmiş ve gördüklerini anlatmıştı. Aras, seçtiği her cümlenin öznel mi nesnel mi olduğuna karar verdi, kararının gerekçesini de yanına yazdı. Tabloyu inceleyen öğretmeni, Aras'ın iki satırda yanlış yargıya vardığını, bir satırda ise yargısı doğru olduğu hâlde gerekçesinin yanlış olduğunu söyledi.
+**Buna göre Aras'ın değerlendirmelerinden hangisinde hem yargı hem de gerekçe doğrudur?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>Satır</th><th>Yazıdan alınan cümle</th><th>Aras'ın değerlendirmesi</th></tr><tr><td>1</td><td>Kapının üstündeki kitabeye göre han, on üçüncü yüzyılda kervanların konaklaması için yaptırılmış.</td><td>Özneldir; çünkü \"-mış\" ekiyle biten cümleler kesinlik taşımaz, yazarın tahminini bildirir.</td></tr><tr><td>2</td><td>Avluya inen kırk iki basamaklı taş merdiven, insana hiç bitmeyecekmiş gibi geliyor.</td><td>Özneldir; çünkü basamaklar sayılabilse de merdivenin insana nasıl geldiği kişiden kişiye değişir.</td></tr><tr><td>3</td><td>Avludaki taş işçiliği, bugüne dek gezdiğim bütün hanlardakinden daha zarifti.</td><td>Nesneldir; çünkü yazar öteki hanları da gezmiş, yargısını kendi gözlemine dayandırmış.</td></tr><tr><td>4</td><td>Hanın kuzey duvarı, güney duvarından yaklaşık iki metre daha yüksek.</td><td>Nesneldir; çünkü içinde karşılaştırma bulunan cümleler nesnel bir yargı bildirir.</td></tr></table>",
+  secenekler: ["1. satır", "2. satır", "3. satır", "4. satır"],
   dogru: 1,
-  hatalar: [
-    "Yarım doğru: Arda'nın sözü nesneldir ama hiçbir yargı bir şarta bağlanmamıştır.",
-    null,
-    "Yarım doğru: Cem'in sözü özneldir ama bir durumun nedenini bildiren bir yapı yoktur.",
-    "Yarım doğru: Duru'nun sözü, ileride gözlemle sınanabilecek bir tahmin olduğu için nesneldir ama cümlede iki varlık ya da durum kıyaslanmıyor; 'bahçenin yarısı' bir miktar bildirir, karşılaştırma değildir."
-  ],
-  aciklama: `Nesnel yargı sınanabilen yargıdır; doğru çıkması gerekmez. Geleceğe ait bir tahmin de zamanı gelince kontrol edilebildiği için nesnel sayılır. "diye" sözcüğü, henüz gerçekleşmemiş istenen bir hedefe bağlandığında amaç bildirir.
-Adım 1: Arda: Fidanlar sayılabilir; nesnel. Ama şart yok. A yanlış.
-Adım 2: Buse: "kök salsın diye" → Fidanların kök salması henüz gerçekleşmemiş, istenen bir hedeftir; amaç-sonuç. Toprağın sıkıştırıldığı da görülüp doğrulanabilir; nesnel. B doğru.
-Adım 3: Cem: "Bence en güzel" → öznel; ama neden bildiren bir yapı yok. C yanlış.
-Adım 4: Duru: Bir tahmin var. Gölgenin oluşup oluşmadığı ileride gözlenebilir; bu yüzden yargı nesnel sayılır. Ancak cümlede hiçbir şey başka bir şeyle kıyaslanmıyor; "bahçenin yarısı" yalnızca bir miktar bildirir. D'nin "karşılaştırma içerir" kısmı yanlış olduğu için D elenir.
-Sık yapılan hata: Henüz olmamış bir şeyi söyleyen her cümleyi öznel saymak. Tahmin ile beğeniyi karıştırma; "gölgede kalacak" sınanır, "güzel olacak" sınanamaz.
+  hatalar: ["Eke bakarak karar verme: Hanın hangi yüzyılda ve ne için yaptırıldığı kitabeden doğrulanabilir. '-mış' eki burada tahmin değil, başka bir kaynaktan öğrenilen bilgiyi bildirir; cümleyi öznel yapmaz. Yargı yanlıştır.", null, "Gözlemi nesnellikle karıştırma: 'Daha zarif' kişiden kişiye değişen bir beğenidir; yazarın yapıyı kendi gözüyle görmesi yargıyı nesnel yapmaz. Yargı yanlıştır.", "Doğru yargı, yanlış gerekçe: Cümle ölçülebildiği için nesneldir. Ancak karşılaştırma içeren her cümle nesnel olmaz; 3. satırdaki cümle de karşılaştırma içerir ve özneldir."],
+  aciklama: `Nesnel yargı, kim söylerse söylesin ölçümle, sayımla ya da belgeyle doğrulanabilen yargıdır. Öznel yargı ise kişinin beğenisine, duygusuna dayanır. Ölçüt, cümlenin hangi ekle bittiği ya da içinde hangi yapının bulunduğu değil, yargının sınanabilir olup olmadığıdır.
+Adım 1: 1. satır: Hanın yapım yüzyılı ve yapılış amacı kitabeden, belgelerden doğrulanabilir. "Yaptırılmış" sözündeki "-mış" eki, yazarın bu bilgiyi kendisi görmeyip kitabeden öğrendiğini gösterir; bir tahmin ya da beğeni bildirmez. Cümle nesneldir; Aras "öznel" demiş. Yargı yanlış.
+Adım 2: 2. satır: Cümlede sayılabilen bir bilgi var (kırk iki basamak) ama cümlenin yargısı bu değil; yargı, merdivenin "hiç bitmeyecekmiş gibi gelmesi". Bu bir izlenimdir, başkasına kısa gelebilir. Cümle özneldir; gerekçe de tam olarak bu ayrımı yapıyor. Yargı ve gerekçe doğru.
+Adım 3: 3. satır: "Daha zarif" bir beğenidir; başkası aynı avluyu görüp öyle bulmayabilir. Cümle özneldir; Aras "nesnel" demiş. Yargı yanlış.
+Adım 4: 4. satır: Duvarların yüksekliği ölçülebilir; cümle nesneldir, yargı doğru. Fakat gerekçe yanlış bir genelleme: 3. satırdaki cümle de karşılaştırma içeriyor ve öznel. Demek ki karşılaştırma, cümleyi kendiliğinden nesnel yapmaz.
+Sağlama: Öğretmen "iki satırda yargı yanlış, bir satırda gerekçe yanlış" demişti: 1 ve 3'te yargı, 4'te gerekçe yanlış çıktı; geriye 2 kaldı.
+Sık yapılan hata: İçinde sayı geçen cümleyi hemen nesnel saymak ya da belli bir eki, belli bir yapıyı gördüğün her cümleye aynı etiketi yapıştırmak. Sayıya, eke ya da yapıya değil, cümlenin asıl yargısına bak.
 Cevap B.`
 },
 {
@@ -701,28 +628,19 @@ Cevap B.`
   kazanim: "T.8.3.10",
   kademe: 3,
   zorluk: 4,
-  soru: `Mahallemizdeki eski sinema salonu yıllardır kapalıydı. Geçen ay bir grup gönüllü, salonu çocuklar için bir sanat atölyesine dönüştürmeye karar verdi. İşe başladıklarında koltukların çoğu kırıktı, perde yırtılmıştı; **üstelik** (I) çatı da yağmurda akıtıyordu. Gönüllüler bu sorunların hepsini bir ayda çözemedi. **Yine de** (II) açılış günü salon, resim yapmak ve kukla oynatmak isteyen çocuklarla doldu.
-**Bu metinde numaralanmış geçiş ifadelerinin metne katkısıyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  soru: `Kasabamızdaki tohum takas şenliği beş yıl önce on iki kişinin bir araya gelmesiyle başlamıştı; bu bahar meydana yüzden fazla tezgâh kuruldu, komşu ilçelerden gelenler bile oldu. İlk yıl tohumlar kese kâğıtlarına konup tek bir masanın üstüne dizilmişti. Şenliğin işleyişi ilk yıldan beri değişmedi. (I) __İlk olarak__ herkes getirdiği tohumu girişteki deftere yazdırıyor. Sonra tezgâhlar dolaşılıyor; yöreye özgü domates, fasulye ve biber tohumları elden ele geçiyor, (II) __özellikle__ yaşlı çiftçilerin yıllardır sakladığı, artık dükkânlarda bulunmayan çeşitler kısa sürede tükeniyor. Sarı kabuklu bir fasulye için öğleden önce sıra oluştuğunu gördüm. Şenlikte para geçmiyor; herkes getirdiği kadar tohum alıp evine dönüyor, ertesi yıl da o tohumdan aldığı ürünün bir avucunu geri getiriyor. Kimin ne getirdiği deftere yazılıyor ama kimse kimseden hesap sormuyor. (III) __Böylece__ unutulmaya yüz tutmuş çeşitler bir bahçeden ötekine geçerek yaşamayı sürdürüyor. (IV) __Kısaca__ bu şenlik, bir alışveriş gününden çok, kasabanın ortak belleğini koruma çabasıdır.
+**Bu metinde numaralanmış ifadelerle ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
-  secenekler: [
-    "I, olumsuzluklara aynı yönde bir yenisini eklemiş; II, beklenenin aksine olan bir durumu bağlamıştır.",
-    "I, önceki durumların nedenini açıklamış; II, anlatılanların sonucunu bildiren bir durumu bağlamıştır.",
-    "I, önceki durumlara karşıt bir durum getirmiş; II, beklenenin aksine olan bir durumu bağlamıştır.",
-    "I, olumsuzluklara aynı yönde bir yenisini eklemiş; II, anlatılanların sonucunu bildiren bir durumu bağlamıştır."
-  ],
+  secenekler: ["III. ifade yerine \"son olarak\" getirilirse çeşitlerin yaşaması, bir sonuç değil, son aşama gibi sunulmuş olur.", "II. ifade yerine \"kısaca\" getirilirse eski çeşitlere gösterilen ilgi, öncekinden çok daha güçlü vurgulanmış olur.", "I. ifade yerine \"özellikle\" getirilirse deftere yazdırma işinin sıralamadaki yeri daha belirgin kılınmış olur.", "IV. ifade yerine \"özellikle\" getirilirse son cümle, anlatılanların tümünü toparlayan bir yargıya dönüşür."],
   dogru: 0,
-  hatalar: [
-    null,
-    "İki ifadeyi de yanlış adlandırma: Akıtan çatı kırık koltukların nedeni değildir; 'yine de' ise sonuç değil, beklenene aykırılık bildirir.",
-    "Yarım doğru: II doğru adlandırılmış ama akıtan çatı, kırık koltuk ve yırtık perdeyle karşıt değil, aynı yönde bir olumsuzluktur.",
-    "Yarım doğru: I doğru adlandırılmış ama sorunlar çözülmemişken salonun dolması beklenen bir sonuç değil, beklenenin aksine olan bir durumdur."
-  ],
-  aciklama: `"Üstelik" önceki düşünceye aynı yönde yeni bir bilgi ekler. "Yine de" ise önceki cümleden beklenenin tersine gerçekleşen bir durumu bağlar.
-Adım 1: I: Önce kırık koltuklar ve yırtık perde sayılıyor; "üstelik" ile bunlara akıtan çatı ekleniyor. Üçü de olumsuzdur; aynı yönde bir ekleme yapılmış.
-Adım 2: II: Önceki cümle: Sorunlar bir ayda çözülemedi. Buradan beklenen, salonun boş kalmasıdır. Sonraki cümle: Salon çocuklarla doldu. Beklenenin tersi gerçekleşmiş; "yine de" bunu bağlıyor.
-Adım 3: İki ifadeyi de doğru adlandıran tek seçenek A'dır.
-Adım 4: C ve D, iki ifadeden yalnızca birini doğru vererek tuzak kurar.
-Sağlama: "Yine de" yerine "bu nedenle" koy: "Sorunlar çözülemedi; bu nedenle salon çocuklarla doldu." Cümle mantıksızlaştı; demek ki ilişki sonuç değil.
+  hatalar: [null, "İfadenin görevini ters çevirme: Eski çeşitleri öne çıkaran, yani vurguyu sağlayan 'özellikle'dir. 'Kısaca' özetler; yerine gelirse vurgu güçlenmez, kaybolur.", "Öne çıkarma ile sıralamayı karıştırma: Deftere yazdırmanın ilk iş olduğunu bildiren 'ilk olarak'tır. 'Özellikle' bir parçayı öne çıkarır ama sıra bildirmez; yerine gelirse işin sıralamadaki yeri belirginleşmez, silikleşir.", "İfadelerin görevini karıştırma: Son cümleyi toparlayıcı yapan zaten 'kısaca'dır. 'Özellikle' bir parçayı öne çıkarır; yerine gelirse cümle özet olma niteliğini yitirir."],
+  aciklama: `Geçiş ifadesi, iki düşünceyi belli bir ilişkiyle bağlar; ifade değişirse ilişki de değişir. "İlk olarak" ve "son olarak" sıralananların başını ve sonunu, "özellikle" bir bütünün içinden öne çıkarılan parçayı, "böylece" sonucu, "kısaca" özeti bildirir.
+Adım 1: A: III'ün öncesinde takasın kuralı anlatılıyor (alan, ertesi yıl geri getiriyor), sonrasında çeşitlerin yaşamayı sürdürdüğü söyleniyor. "Böylece" ile bu, kuralın sonucudur. Yerine "son olarak" koy: Metinde "ilk olarak" ve "sonra" ile başlayan bir sıralama olduğu için cümle, o sıralamanın son basamağı gibi okunur; sonuç anlamı kaybolur. Şıktaki yargı doğru.
+Adım 2: B: II'de "özellikle", bütün tohumlar arasından eski çeşitleri öne çıkarıyor; vurgu ondan geliyor. "Kısaca" gelirse cümle bir özet gibi sunulur, vurgu güçlenmez. Yargı yanlış.
+Adım 3: C: I'de deftere yazdırmanın ilk iş olduğunu "ilk olarak" bildiriyor. "Özellikle" gelirse cümle, işleyişin öne çıkarılan bir parçası gibi okunur; sıra bilgisi güçlenmez, zayıflar. Yargı yanlış.
+Adım 4: D: IV'te son cümle "kısaca" sayesinde zaten toparlayıcıdır. "Özellikle" gelirse cümle bir parçayı öne çıkarıyormuş gibi okunur; toparlayıcı yargıya dönüşmez, o niteliğini yitirir. Yargı yanlış.
+Sağlama: Dört ifadenin görevleri sırasıyla sıralamayı başlatma, öne çıkarma, sonuç ve özet. Yalnızca A, yeni gelen ifadenin ("son olarak" = sıralamanın sonu) görevini doğru tarif ediyor.
+Sık yapılan hata: Şıkta adı geçen yeni ifadeyi cümleye koyup okumadan karar vermek. Her şıkta değişikliği gerçekten yap ve cümleyi yeniden oku.
 Cevap A.`
 },
 /* ===================== HAVUZ (KADEME 0) ===================== */

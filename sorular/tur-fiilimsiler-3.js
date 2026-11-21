@@ -956,31 +956,23 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Şehirde elektrikli otobüs hattı bu yıl hizmete girdi. Otobüsler gece boyunca garajda şarj ediliyor, sabah beşte hatta çıkıyor. Belediyenin hazırladığı bilgilendirme yazısının son cümlesi şöyledir:
+  soru: `Okulumuzun bilim kulübü, mahalledeki anaokuluna bir gösteri götürdü. Defne ile Kaan'ın masasında kilden yapılmış bir yanardağ maketi vardı. İkili, gösteriyi günlerce prova etmişti. Plan basitti: Kaan kraterin içine önceden karbonat koyacak, Defne maketin bölümlerini tek tek tanıtacak, Kaan da sirkeyi ancak arkadaşı sözünü bitirince dökecekti. Böylece “lav”, anlatımın sonunda bir sürpriz gibi fışkıracaktı. Sirkeye birkaç damla kırmızı gıda boyası da katılmıştı. Gösteri günü minikler masanın çevresine doluştu. __Defne, maketin bölümlerini tanıttı. Kaan, sirkeyi kratere boşalttı.__ Kırmızıya boyanmış köpükler yamaçtan aşağı akmaya başladığında Defne daha magma odasını gösteriyordu; cümlesi yarıda kaldı. Çocuklar sevinçle çığlık attı, Kaan ise kıpkırmızı kesildi. Defne bozuntuya vermedi: “Gördüğünüz gibi yanardağlar, konuşmacının sözünü bitirmesini beklemez.” dedi. Sonra köpüğün nereden geldiğini anlattı: Sirke ile karbonat karşılaşınca karbondioksit gazı çıkıyor, bu gaz da karışımı köpürtüp dışarı itiyordu.
 
-Elektrikli otobüsler, - - - - şehrin gürültüsünü de azaltıyor.
+Türkçe öğretmeni, altı çizili iki cümlenin metinde anlatılan olaya uygun biçimde ve bir zarf-fiil kullanılarak tek cümle hâline getirilmesini istemiştir.
 
-**Bu boşluğa, hem cümlenin anlam akışına uygun düşen hem de içinde sıfat-fiil bulunan aşağıdaki sözlerden hangisi getirilmelidir?**`,
+**Buna göre altı çizili cümlelerin yerine aşağıdakilerden hangisi yazılmalıdır?**`,
   gorsel: null,
-  secenekler: [
-    "gece boyunca garajda şarj edilerek",
-    "motorundan yükselen sesi kısarak",
-    "bakımı için ayrılan süreyi uzatarak",
-    "hattaki bütün durakları kullanmak için"
-  ],
+  secenekler: ["Defne maketin bölümlerini tanıtır tanıtmaz Kaan, sirkeyi kratere boşalttı.", "Defne maketin bölümlerini tanıtırken Kaan, sirkeyi kratere boşalttı.", "Defne'nin maketin bölümlerini tanıttığı sırada Kaan, sirkeyi kratere boşalttı.", "Defne'nin maketin bölümlerini tanıtmasından sonra Kaan, sirkeyi kratere boşalttı."],
   dogru: 1,
-  hatalar: [
-    "Yalnızca fiilimsi olup olmadığına bakma: 'edilerek' bir zarf-fiildir, bu sözde sıfat-fiil yoktur; üstelik şarj edilmek gürültüyü azaltmaz.",
-    null,
-    "Yalnızca fiilimsi türüne bakıp anlamı denetlememe: 'ayrılan' gerçekten bir sıfat-fiildir ama bakım süresinin uzaması gürültüyü azaltmaz.",
-    "İsim-fiili sıfat-fiil sanma: 'kullanmak' işin adını bildirir; ayrıca durakları kullanmakla gürültünün azalması arasında bir bağ kurulamaz."
-  ],
-  aciklama: `Bu soruda iki koşul birden aranıyor: söz cümlenin anlamını tamamlayacak ve içinde bir sıfat-fiil bulunacak. İki koşulu ayrı ayrı denetle.
-Adım 1: A'yı denetle. "Edilerek" sözcüğü "Nasıl azaltıyor?" sorusuna bağlanır; zarf-fiildir, sıfat-fiil değildir. Ayrıca bir aracın gece şarj edilmesi, gündüz gürültüyü azaltmasının nedeni olamaz. İki koşul da sağlanmaz.
-Adım 2: B'yi denetle. "Yükselen" sözcüğü arkasındaki "ses" adını niteler: "Hangi ses? Motordan yükselen ses." Sıfat-fiil koşulu sağlandı. Anlam yönünden de tutarlıdır: motor sesinin kısılması doğrudan gürültünün azalması demektir. İki koşul da sağlanır.
-Adım 3: C'yi denetle. "Ayrılan" sözcüğü arkasındaki "süre" adını niteler: "Hangi süre? Bakımı için ayrılan süre." Tür koşulu sağlanıyor. Ama bir aracın bakım süresinin uzaması ile şehrin gürültüsünün azalması arasında bir bağ yoktur. Anlam koşulu sağlanmaz.
-Adım 4: D'yi denetle. "Kullanmak" bir işin adını bildirir: isim-fiildir. Tür koşulu sağlanmadığı gibi anlam bağı da kurulamaz.
-Sağlama: İki koşulu birden karşılayan tek seçenek B'dir.
+  hatalar: ["Planı olmuş gibi aktarma: “tanıtır tanıtmaz” bir zarf-fiildir ama “tanıtma biter bitmez” anlamı verir. Bu, provadaki plandı; gösteride Kaan sirkeyi Defne'nin sözü bitmeden dökmüştür.", null, "Anlamı tutturup türü kaçırma: cümle olayı doğru anlatır ama “tanıttığı” sözcüğü “sıra” adını niteleyen sıfat-fiildir; cümlede zarf-fiil kullanılmamıştır.", "İki koşulu da kaçırma: “tanıtmasından” sözcüğü isim-fiildir; “sonra” sözü de işleri art arda gösterir, oysa Kaan sirkeyi anlatım sürerken dökmüştür."],
+  aciklama: `Zarf-fiil, çekimli fiili zaman ya da durum yönünden niteleyen fiilimsidir. Burada iki koşul var: yeni cümle metindeki olayı doğru anlatacak ve cümleleri bağlayan sözcük zarf-fiil olacak. Altı çizili iki cümle tek başına işlerin sırasını söylemiyor; bunu metnin geri kalanından çıkarmalısın.
+Adım 1: Planı bul. Kaan sirkeyi, Defne sözünü bitirince dökecekti; yani plana göre işler art arda olacaktı.
+Adım 2: Gerçekte ne olduğunu bul. Köpükler akmaya başladığında Defne "daha magma odasını gösteriyordu", cümlesi yarıda kaldı. Demek ki Kaan sirkeyi, Defne anlatmayı sürdürürken döktü. İki iş aynı anda gerçekleşti; plan tutmadı.
+Adım 3: A → "tanıtır tanıtmaz" zarf-fiildir ama "tanıtma işi biter bitmez" demektir. Bu plandaki sıradır, yaşanan olay değildir.
+Adım 4: B → "tanıtırken" sözcüğü "Ne zaman boşalttı?" sorusuna cevap verir: zarf-fiil. "-ken" iki işin aynı anda sürdüğünü bildirir. Anlam da tür de uygun.
+Adım 5: C → Anlam uygun; ama "tanıttığı" sözcüğü arkasındaki "sıra" adını niteliyor (Hangi sırada?): sıfat-fiil. Zarf-fiil koşulu sağlanmaz.
+Adım 6: D → "tanıtmasından" bir işin adıdır: isim-fiil. Üstelik "sonra" sözü işleri art arda gösterir. İki koşul da sağlanmaz.
+Sık yapılan hata: Metni baştan okurken planı aklında tutup A'yı işaretlemek. Metin önce ne yapılmak istendiğini, sonra ne olduğunu anlatıyor; soru senden olanı istiyor. Bir de C'ye dikkat et: "tanıttığı sırada" ile "tanıtırken" aynı anı anlatır; ama birincisi bir adı niteleyen sıfat-fiille, ikincisi zarf-fiille kurulur.
 Cevap B.`
 },
 {
@@ -988,32 +980,23 @@ Cevap B.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Aşağıda aynı konuyu iki ayrı açıdan ele alan iki kısa metin verilmiştir.
+  soru: `Marketlerdeki hazır yoğurtların yanında, evde mayalanan yoğurt da birçok mutfakta yerini koruyor. Yoğurt, sütteki şekerin yararlı bakteriler tarafından ekşi bir aside dönüştürülmesiyle oluşur. Bu bakteriler ılık ortamı sever: Sıcakta ölür, soğukta ise çalışmaz. Evde yoğurt mayalayanlar bu dengeyi çoğu zaman termometresiz, el yordamıyla kurar. Anneannemin mutfağında da iş yıllardır hep aynı sırayla yürür:
 
-**Metin I:** Kışın bahçeye yem koymak, yerli kuşlar için yararlı bir alışkanlıktır. Asılan yemlikler, kuşların kışı sağ salim geçirmesini sağlar. Yemliği doldururken tuzlu ya da bayat ekmek kullanmamalısın.
+(I) Anneannem, sabah köyden gelen taze sütü ağır ateşte kaynatıp geniş ağızlı bakır bir kaba boşaltır. (II) Süt fazla sıcaksa mayadaki bakteriler ölür; bunu bilen anneannem, serçe parmağını süte daldırarak ona kadar sayar. (III) Bir kaşık yoğurdu ılık sütte iyice çözmek için tahta kaşık kullanır, sonra kabın ağzını bir tabakla örterek onu yün bir battaniyeye sıkıca sarar. (IV) Kap dört beş saat boyunca sıcak tutulmadıkça yoğurt o bildiğimiz koyu kıvamı bulmaz.
 
-**Metin II:** Bahçeye yemlik asmanın bir de sakıncası vardır. Düzenli beslenen kuşlar göç etmeyi erteleyebilir. Yemliği birden boşaltırsan alışkanlık edinen sürü zor durumda kalır.
+Sabah kapağı kaldırınca üstte incecik, sarı bir kaymak tabakası görürüz; anneannem ilk kaşığı hep bana uzatır.
 
-**Buna göre, aşağıdakilerden hangisi iki metin için de doğrudur?**`,
+**Bu parçada numaralanmış cümlelerin hangisinde bir zarf-fiil, yüklemde bildirilen işin gerçekleşmesini bir koşula bağlamaktadır?**`,
   gorsel: null,
-  secenekler: [
-    "Her iki metinde de zarf-fiil kullanılmıştır.",
-    "Her iki metinde de üç fiilimsi türü bir arada bulunmaktadır.",
-    "Her iki metinde de sıfat-fiil sayısı isim-fiil sayısından fazladır.",
-    "Her iki metinde de dörder fiilimsi kullanılmıştır."
-  ],
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 3,
-  hatalar: [
-    "Metin II'de zarf-fiil arama: bu metindeki dört fiilimsinin ikisi isim-fiil, ikisi sıfat-fiildir; zarf-fiil yoktur.",
-    "Metin II'de üç türün de bulunduğunu sanma: bu metinde zarf-fiil kullanılmamıştır.",
-    "Sayıları karşılaştırmadan karar verme: Metin I'de 1 sıfat-fiile karşılık 2 isim-fiil, Metin II'de ise her ikisi de 2'şer tanedir.",
-    null
-  ],
-  aciklama: `İki metnin de bütün fiilimsilerini çıkarıp türlerine ayır; ancak ondan sonra yargıları denetleyebilirsin.
-Adım 1: Metin I'i tara. Çekimli fiiller: "alışkanlıktır" (ad + ek fiil), "sağlar", "kullanmamalısın". Geriye dört sözcük kalır. "Koymak" → "Yararlı olan nedir?" İsim-fiil. "Asılan" → "Hangi yemlikler?" Sıfat-fiil. "Geçirmesini" → "Neyi sağlar?" İsim-fiil. "Doldururken" → "Ne zaman?" Zarf-fiil.
-Adım 2: Metin I'in dökümü: 4 fiilimsi; 2 isim-fiil, 1 sıfat-fiil, 1 zarf-fiil.
-Adım 3: Metin II'yi tara. "Asmanın" → "Neyin sakıncası?" İsim-fiil. "Beslenen" → "Hangi kuşlar?" Sıfat-fiil. "Etmeyi" → "Neyi erteleyebilir?" İsim-fiil. "Edinen" → "Hangi sürü?" Sıfat-fiil. Toplam 4: 2 isim-fiil, 2 sıfat-fiil, zarf-fiil yok.
-Adım 4: Yargıları denetle. A yanlıştır, çünkü Metin II'de zarf-fiil yoktur. B yanlıştır, çünkü Metin II'de üç tür bir arada bulunmaz. C yanlıştır, çünkü hiçbir metinde sıfat-fiil sayısı isim-fiil sayısını geçmez. D doğrudur.
+  hatalar: ["Sıra bildiren zarf-fiili koşul sanma: “kaynatıp” işlerin art arda yapıldığını gösterir (önce kaynatır, sonra boşaltır); bir şart bildirmez.", "Koşulu taşıyan sözcüğü yanlış belirleme: bu cümlede koşul “sıcaksa” sözcüğündeki şart ekinden gelir; cümlenin zarf-fiili olan “daldırarak” ise sayma işinin nasıl yapıldığını bildirir.", "Amaç ya da durum anlamını koşul sanma: “çözmek için” amaç bildirir ve isim-fiille kurulmuştur; “örterek” zarf-fiili de sarma işinin nasıl yapıldığını gösterir.", null],
+  aciklama: `Zarf-fiil, çekimli fiili zaman, durum, sıra ya da koşul yönünden niteler. Koşul anlamını yakalamak için cümleyi "… olmazsa … olmaz" kalıbına çevirmeyi dene; sonra bu anlamı hangi sözcüğün taşıdığına bak.
+Adım 1: I → "kaynatıp" zarf-fiildir; önce kaynatma, sonra boşaltma: işlerin sırasını bildirir. Koşul yok.
+Adım 2: II → Cümlede koşul var: "sıcaksa … ölür." Ama bu anlamı taşıyan "sıcaksa" sözcüğü bir fiilimsi değildir; şart eki almıştır. Cümlenin zarf-fiili "daldırarak"tır ve "Nasıl sayar?" sorusuna cevap verir: durum bildirir.
+Adım 3: III → "çözmek için" amaç bildirir ve "çözmek" isim-fiildir. "Örterek" zarf-fiildir ama "Nasıl sarar?" sorusunun cevabıdır: durum bildirir. Koşul yok.
+Adım 4: IV → "Kap sıcak tutulmadıkça yoğurt kıvamı bulmaz." Yani kap sıcak tutulmazsa yoğurt tutmaz. Kıvam bulma işi, kabın sıcak tutulması şartına bağlanmıştır ve bu anlamı "tutulmadıkça" zarf-fiili taşır.
+Sık yapılan hata: II. cümlede hem koşul anlamı hem de bir zarf-fiil bulunduğunu görüp ikisini birbirine bağlamak. Soru, koşulu zarf-fiilin kurmasını istiyor; II'de koşulu kuran "-sa" ekidir.
 Cevap D.`
 },
 {
@@ -1021,31 +1004,22 @@ Cevap D.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun çevre kulübü, sahil temizliği etkinliğinden bir fotoğrafı okul panosuna asacak ve altına tek cümlelik bir açıklama yazacaktır. Kulüp başkanı, bu açıklama cümlesinin aşağıdaki üç koşulu birden sağlamasını istemektedir:
-· Cümlede iki fiilimsi bulunacak.
-· Bu iki fiilimsiden yalnızca biri bir varlığı niteleyecek.
-· Cümlede olumsuzluk eki almış bir fiilimsi bulunmayacak.
-**Buna göre, aşağıdaki cümlelerden hangisi fotoğrafın altına yazılabilir?**`,
+  soru: `Yaz tatilinde, üniversitede arkeoloji okuyan ablamın çalıştığı kazıyı ziyaret ettim. Kazı alanı, bir tepenin yamacındaki çok eski bir yerleşimdi. Toprağın bir metre altında taş temeller, ocak yerleri ve kırık kaplar yatıyordu. Çukurun kenarında, üzerinde geyik __kabartması__ (I) bulunan bir taş duruyordu; ekip onu bir hafta önce çıkarmış. Ben heyecanla taşa uzanınca ablam hemen uyardı: “Sakın çıplak elle __dokunma__ (II)! Üstünde hâlâ boya izleri var, hemen dökülür.” Sonra elime yumuşak bir fırça tutuşturdu. Fırçayı hep aynı yöne, tüy gibi hafif sürmem gerekiyordu. Topraktan yeni çıkan bir çömlek parçasını incitmeden __temizlemeyi__ (III) o gün ondan öğrendim. Parçanın taşınırken __kırılmaması__ (IV) için altına sünger yerleştirdik. Her parça numaralandı, bulunduğu yer deftere işlendi. Kızgın güneşin altında saate hiç __bakmadan__ (V) çalıştık. Akşam olunca üstüm başım toz içindeydi, dizlerim sızlıyordu ama üç bin yıllık bir kabın parçasını elimde tutmuştum.
+
+Bu metinde numaralanmış sözcüklerin hepsinde “-ma / -me” sesleri bulunmaktadır.
+
+**Buna göre numaralanmış sözcüklerden hangi ikisi, bir işin adını bildiren isim-fiildir?**`,
   gorsel: null,
-  secenekler: [
-    "Kumsalı baştan sona temizlemek bütün günümüzü aldı.",
-    "Denize dökülen atıkları toplayan gençler alkışlandı.",
-    "Sahilde topladığımız çöpleri ayırmak iki saatimizi aldı.",
-    "Poşet kullanmamaya söz veren gönüllüler bez torbayla geldi."
-  ],
+  secenekler: ["I ve III", "II ve III", "III ve IV", "III ve V"],
   dogru: 2,
-  hatalar: [
-    "Birinci koşulu denetlememe: bu cümlede tek fiilimsi vardır ('temizlemek'), oysa iki fiilimsi isteniyordu.",
-    "İkinci koşulu denetlememe: 'dökülen' ve 'toplayan' sözcüklerinin ikisi de bir varlığı niteler; oysa yalnızca biri nitelemeliydi.",
-    null,
-    "Üçüncü koşulu denetlememe: 'kullanmamaya' sözcüğü olumsuzluk eki almış bir isim-fiildir; bu koşul açıkça dışarıda bırakılmıştı."
-  ],
-  aciklama: `Üç koşul var; bir cümleyi seçmeden önce üçünü de tek tek denetlemelisin. Bir koşulu bile sağlamayan cümle elenir.
-Adım 1: A → çekimli fiil "aldı". Geriye yalnızca "temizlemek" kalır: tek fiilimsi. Birinci koşul sağlanmaz, elenir.
-Adım 2: B → çekimli fiil "alkışlandı". Geriye "dökülen" ("Hangi atıklar?") ve "toplayan" ("Hangi gençler?") kalır. İki fiilimsi var ama ikisi de bir varlığı niteliyor. İkinci koşul sağlanmaz, elenir.
-Adım 3: D → çekimli fiil "geldi". Geriye "kullanmamaya" (kullan + ma olumsuzluk + ma isim-fiil + ya) ve "veren" ("Hangi gönüllüler?" → sıfat-fiil) kalır. İki fiilimsi var ve yalnızca biri niteliyor; ilk iki koşulu sağladığı için en güçlü çeldirici budur. Ama "kullanmamaya" olumsuzluk eki almış bir fiilimsidir. Üçüncü koşul sağlanmaz, elenir.
-Adım 4: C → çekimli fiil "aldı". Geriye "topladığımız" ("Hangi çöpler? Sahilde topladığımız çöpler." → sıfat-fiil, niteliyor) ve "ayırmak" ("İki saat alan nedir?" → isim-fiil, nitelemiyor) kalır. İki fiilimsi var, yalnızca biri niteliyor, ikisinde de olumsuzluk eki yok. Üç koşul da sağlanır.
-Sık yapılan hata: İlk koşulu sağlayan cümleyi görünce diğer koşulları denetlemeden işaretlemek. B ve D'deki cümleler de iki fiilimsi taşır; onları eleyen ikinci ve üçüncü koşullardır.
+  hatalar: ["Kalıcı adı isim-fiil sanma: “kabartma” burada bir iş değil, taşın üstündeki süslemenin adıdır; sayılabilir bir nesnedir (iki kabartma).", "Olumsuz emri isim-fiil sanma: “dokunma” burada ablanın verdiği emirdir (“Sen dokunma!”); “-ma” olumsuzluk ekidir, sözcük çekimli fiildir.", null, "“-madan” ekli zarf-fiili isim-fiil sanma: “bakmadan” sözcüğü “Nasıl çalıştık?” sorusuna cevap verir; işin adı değil, yapılış biçimidir."],
+  aciklama: `"-ma / -me" üç ayrı iş görebilir: fiili olumsuz yapar (gelme!), bir işin adını kurar (gelmesi) ya da bir nesnenin kalıcı adı olur (dondurma). İsim-fiili bulmak için sözcüğün yerine "bu iş" diyebiliyor musun, ona bak.
+Adım 1: I → "geyik kabartması": taşın üstündeki süslemenin adı. Sayabilirsin (iki kabartma), dokunabilirsin. Bir iş değil, bir nesne: kalıcı ad.
+Adım 2: II → "Sakın dokunma!" Ablası emir veriyor; "-ma" burada olumsuzluk ekidir. Sözcük yargı bildiren çekimli fiildir.
+Adım 3: III → "Temizlemeyi öğrendim." Neyi öğrendim? "Temizleme işini." İşin adı: isim-fiil.
+Adım 4: IV → "Parçanın kırılmaması için…" Sözcükte iki "-ma" var: kırıl-ma-ma-sı. İlki olumsuzluk, ikincisi isim-fiil ekidir. Sözcük "kırılmama işi" anlamında bir ad gibi kullanılmış: isim-fiil.
+Adım 5: V → "Saate bakmadan çalıştık." Nasıl çalıştık? "Bakmadan." Çekimli fiilin durumunu bildirir: zarf-fiil.
+Sık yapılan hata: IV'teki gibi olumsuzluk eki taşıyan sözcüğü "olumsuz fiil" deyip geçmek. Olumsuz olması fiilimsi olmasına engel değildir; ardından gelen ikinci "-ma" ve iyelik eki, sözcüğün ad gibi kullanıldığını gösterir.
 Cevap C.`
 },
 {
@@ -1053,33 +1027,26 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir grup üniversite öğrencisi, köy okullarına ikinci el bilgisayar ulaştıran bir topluluk kurmuş. Bağışlanan cihazları önce atölyede onarıyor, sonra eksik parçalarını tamamlıyorlar. Topluluk geçen yıl yüz kırk bilgisayar dağıtmış. Aşağıda bu çalışmayla ilgili dört cümle verilmiştir.
-(I) Atölyeye gelen cihazların yarısı yalnızca temizlik istiyor.
-(II) Parçaları değiştirmek, onarımın en pahalı bölümü.
-(III) Öğrenciler, kasayı açarken eldiven takmayı ihmal etmiyor.
-(IV) Onarılan bilgisayarlar kutulanıp kargoya veriliyor.
-**Buna göre, bu cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
+  soru: `Köyümüzde kışın topu topu kırk kişi kalır; gençlerin çoğu büyük şehirlerde çalışır. Dayımlar da yıllar önce İzmir'e yerleşti. Kuzenim Ali ile aylarca yalnızca telefonda konuşabiliyoruz; onu __özledikçe__ (I) eski fotoğraflarımıza bakıyorum. Temmuzda ise köy bambaşka bir yer olur. Okullar kapanınca şehirdekiler birer birer yola çıkar. Ninem, arabaların __gelişini__ (II) avludaki dut ağacının altında bekler. Toz bulutu yokuşun başında __görünür görünmez__ (III) biz çocuklar yola koşarız. Ninem ağır ağır yürür, __gelenleri__ (IV) tek tek bağrına basar; sonra herkesi günlerdir hazırladığı sofraya çağırır. Biz köyde kalanlar __özlediklerimize__ (V) ancak böyle, yılda bir kez kavuşuruz. Ağustos sonunda arabalar yeniden yüklenir, kapılar kilitlenir; köy de biz de yeni bir temmuzu beklemeye başlarız.
+
+Üç öğrenci, bu metinde numaralanmış sözlerle ilgili şunları söylemiştir:
+**Aras:** II ile IV aynı fiilden türemiş, ikisi de ad gibi ek almıştır; öyleyse bunlar aynı türden fiilimsidir.
+**Bade:** I ile III birbirine benzemeyen eklerle kurulmuştur ama aynı türden fiilimsidir.
+**Cem:** I ile V aynı fiilden türemiştir ama farklı türden fiilimsidir.
+
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "I ve IV. cümlelerde bir varlığı niteleyen birer fiilimsi vardır.",
-    "III. cümlede farklı türde iki fiilimsi bir arada kullanılmıştır.",
-    "II. cümledeki fiilimsi, eylemin nasıl yapıldığını bildirmektedir.",
-    "IV. cümlede biri sıfat-fiil, biri zarf-fiil olmak üzere iki fiilimsi vardır."
-  ],
+  secenekler: ["Yalnız Bade", "Yalnız Cem", "Bade ve Cem", "Aras, Bade ve Cem"],
   dogru: 2,
-  hatalar: [
-    "Doğru yargıyı söylenemez sanma: 'gelen' cihazları, 'Onarılan' ise bilgisayarları niteler; iki cümlede de niteleyici birer fiilimsi vardır.",
-    "Doğru yargıyı söylenemez sanma: 'açarken' zarf-fiil, 'takmayı' isim-fiildir; türleri birbirinden farklıdır.",
-    null,
-    "Doğru yargıyı söylenemez sanma: 'Onarılan' bilgisayarları niteleyen sıfat-fiil, 'kutulanıp' ise iki eylemi bağlayan zarf-fiildir."
-  ],
-  aciklama: `Önce dört cümlenin bütün fiilimsilerini çıkar ve türlerini yaz; sonra yargıları bu listeyle karşılaştır. "Söylenemez" sorularında üç yargı doğru, biri yanlış olur.
-Adım 1: I → çekimli fiil "istiyor". Geriye "gelen" kalır: "Hangi cihazlar? Atölyeye gelen cihazlar." Sıfat-fiil.
-Adım 2: II → yargıyı "bölümü" sözü kurar. Geriye "değiştirmek" kalır: "En pahalı bölüm nedir? Parçaları değiştirmek." İsim-fiil; işin adını bildirir, eylemin nasıl yapıldığını değil.
-Adım 3: III → çekimli fiil "etmiyor". Geriye "açarken" ("Ne zaman?" → zarf-fiil) ve "takmayı" ("Neyi ihmal etmiyor?" → isim-fiil) kalır. İki fiilimsi, iki farklı tür.
-Adım 4: IV → çekimli fiil "veriliyor". Geriye "Onarılan" ("Hangi bilgisayarlar?" → sıfat-fiil) ve "kutulanıp" ("kutulanıyor ve veriliyor" → zarf-fiil) kalır. İki fiilimsi, biri sıfat-fiil biri zarf-fiil.
-Adım 5: Yargıları denetle. A doğru, B doğru, D doğrudur. C ise yanlıştır: II. cümledeki fiilimsi bir durum değil, bir iş adı bildirir.
-Sık yapılan hata: '-mek' ekli sözcükleri "nasıl" sorusuna bağlamak. "Değiştirmek" yerine "değiştirme işi" diyebiliyorsan sözcük isim-fiildir.
+  hatalar: ["Benzer ek taşıyan sözcükleri aynı türden sayma: “özledikçe” ile “özlediklerimize” birbirine benzese de ilki “Ne zaman bakıyorum?” sorusuna cevap veren zarf-fiil, ikincisi “özlediğimiz kişiler” anlamında bir adın yerini tutan sıfat-fiildir. Cem'in sözü de doğrudur.", "İki sözcüklü zarf-fiili çekimli fiil sanma: “görünür görünmez” geniş zamanlı fiile benzer ama yargı bildirmez; “Ne zaman koşarız?” sorusuna cevap veren zarf-fiildir. “Özledikçe” de zarf-fiildir; Bade'nin sözü de doğrudur.", null, "Ad gibi ek almış her fiilimsiyi isim-fiil sanma: “gelişini” bir işin adıdır (isim-fiil); “gelenleri” ise “gelen akrabaları” demektir, bir adın yerini tutan sıfat-fiildir. Aras'ın sözü yanlıştır."],
+  aciklama: `Bir fiilimsinin türünü ekinin görünüşü ya da hangi fiilden türediği belirlemez; cümlede yaptığı iş belirler. İsim-fiil bir işin adıdır. Sıfat-fiil bir adı niteler ya da nitelediği ad düşünce onun yerini tutar. Zarf-fiil, çekimli fiili zaman ya da durum yönünden niteler. Önce beş sözün türünü bul, sonra üç öğrencinin sözünü denetle.
+Adım 1: I → "Onu özledikçe eski fotoğraflarımıza bakıyorum." Ne zaman bakıyorum? "Özledikçe." Çekimli fiili zaman yönünden niteliyor: zarf-fiil.
+Adım 2: II → "Arabaların gelişini bekler." Neyi bekler? "Gelme işini." Sözcük bir işin adıdır: isim-fiil.
+Adım 3: III → "Toz bulutu görünür görünmez yola koşarız." Ne zaman koşarız? "Görünür görünmez." İki sözcükten oluşsa da tek bir zarf-fiildir; yargı bildirmediği için çekimli fiil değildir.
+Adım 4: IV → "Gelenleri bağrına basar." Kimleri? "Gelen akrabaları." Düşen ad geri konabiliyor: adlaşmış sıfat-fiil.
+Adım 5: V → "Özlediklerimize kavuşuruz." Kimlere? "Özlediğimiz kişilere." Bu da düşen bir adın yerini tutuyor: adlaşmış sıfat-fiil.
+Adım 6: Sözleri denetle. Aras: II isim-fiil, IV sıfat-fiil. Aynı fiilden türemeleri ve ad gibi ek almaları türlerini aynı yapmaz; yanlış. Bade: I ile III'ün ikisi de zarf-fiil; doğru. Cem: ikisi de "özlemek" fiilinden türemiş ama I zarf-fiil, V sıfat-fiil; doğru.
+Sık yapılan hata: Çoğul, iyelik ya da hâl eki almış her fiilimsiyi isim-fiil saymak. Ayırmak için sözcüğün arkasına düşmüş olabilecek adı koymayı dene: "gelen (akrabaları)" olur, "geliş (akrabası)" olmaz. Ad geri konabiliyorsa sözcük sıfat-fiildir.
 Cevap C.`
 },
 {
@@ -1087,32 +1054,23 @@ Cevap C.`
   kazanim: "T.8.3.9",
   kademe: 3,
   zorluk: 4,
-  soru: `Aynı ek, bir cümlede fiili çekimleyebilir, başka bir cümlede fiilimsi kurabilir. Belirleyici olan ekin kendisi değil, sözcüğün cümlede gördüğü iştir.
-**Buna göre, aşağıdaki cümle çiftlerinin hangisinde koyu yazılmış sözcük, iki cümlede farklı görevlerde kullanılmıştır?**`,
+  soru: `Sekizinci sınıflar, geçen hafta bir damlataş mağarasına yaptıkları geziden sonra birer yazı yazmıştır. Aşağıda iki öğrencinin yazısından birer bölüm verilmiştir.
+
+**Selin:** Mağaraya girerken içimi tatlı bir ürperti kapladı. İçerisi dışarıdan en az on derece daha serindi. Işıklandırılmış yolun iki yanında bal rengi taş perdeler uzanıyordu. Tavandan sarkan oluşumlara sarkıt, yerden yükselenlere dikit deniyormuş. Benim o gün en büyük isteğim, bunlara yakından bakmaktı. Rehberimiz, taşlara dokunmayan ziyaretçilere teşekkür etti; çünkü elimizdeki yağ, taşın büyümesini durduruyormuş.
+
+**Emre:** Eskiden mağaralardan korkardım; bu geziye de son anda yazıldım. Girişteki tabelada mağaranın yaşı yazıyordu: iki milyon yıl. Rehberin ilk işi, hepimize birer sarı baret dağıtmaktı. “Sarkıtlara sakın dokunmayın!” uyarısını da üç kez yineledi. Baretim başıma biraz büyüktü, yol boyunca gözümün önüne kaydı. Tavandan damlayan su, binlerce yılda bu dev sütunları örmüş. Mağaranın en büyük salonu bir konser salonu kadar genişti. Dar geçitteki o serinliği daha önce hiçbir yerde hissetmemiştim.
+
+**Bu iki bölümle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    `Bahçe kapısı sabahtan beri **açılmış**.
-Rüzgârla **açılmış** kapıdan içeri yapraklar dolmuş.`,
-    `Sınıfta **konuşan** öğrenciyi öğretmen uyardı.
-Telefonda **konuşan** adam bize doğru baktı.`,
-    `Işıklar **sönünce** salonda derin bir sessizlik oldu.
-Mum **sönünce** odanın içi bir anda karardı.`,
-    `Bisiklete **binmek** çocukların en sevdiği iş.
-Erken **binmek** boş koltuk bulmayı kolaylaştırır.`
-  ],
+  secenekler: ["İki bölümde de yüklem görevinde bir isim-fiil vardır.", "İki bölümde de adlaşmış bir sıfat-fiil kullanılmıştır.", "İki bölümde de olumsuzluk eki almış bir fiilimsi vardır.", "İki bölümde de işin zamanını bildiren bir zarf-fiil vardır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "İki cümlede de aynı görevi gören sözcüğü seçme: 'konuşan' her iki cümlede de kendisinden sonraki adı niteler; ikisi de sıfat-fiildir.",
-    "İki cümlede de aynı görevi gören sözcüğü seçme: 'sönünce' her iki cümlede de işin ne zaman olduğunu bildirir; ikisi de zarf-fiildir.",
-    "İki cümlede de aynı görevi gören sözcüğü seçme: 'binmek' her iki cümlede de işin adını bildirir; ikisi de isim-fiildir."
-  ],
-  aciklama: `Her çiftte koyu yazılmış sözcüğün iki cümledeki görevini ayrı ayrı belirle; görevi değişen çifti seç.
-Adım 1: A'nın birinci cümlesine bak: "Bahçe kapısı sabahtan beri açılmış." Cümlenin yargısını bu sözcük kurar; '-mış' burada duyulan geçmiş zaman ekidir. Sözcük çekimli fiildir, fiilimsi değildir.
-Adım 2: A'nın ikinci cümlesine bak: "Rüzgârla açılmış kapıdan içeri yapraklar dolmuş." Cümlenin çekimli fiili "dolmuş"tur. "Açılmış" ise arkasındaki "kapı" adını niteler: "Hangi kapı?" Sıfat-fiildir. Görev değişmiştir; aranan çift budur.
-Adım 3: B'de "konuşan" sözcüğü iki cümlede de kendisinden sonraki adı niteliyor: "Hangi öğrenci?", "Hangi adam?" İkisi de sıfat-fiildir.
-Adım 4: C'de "sönünce" iki cümlede de "Ne zaman?" sorusunun karşılığıdır; ikisi de zarf-fiildir. D'de "binmek" iki cümlede de işin adını bildirir; ikisi de isim-fiildir.
-Sağlama: Bir sözcüğün çekimli fiil mi fiilimsi mi olduğunu anlamanın en kestirme yolu şudur: cümleyi o sözcük bitiriyorsa çekimli fiildir; başka bir sözcük bitiriyorsa fiilimsi olabilir.
+  hatalar: [null, "Bir adı niteleyen sıfat-fiili adlaşmış sanma: Selin'in bölümünde “yükselenlere” adlaşmıştır; ama Emre'nin bölümündeki “damlayan” sözcüğü hemen arkasındaki “su” adını niteler, adlaşma yoktur.", "Olumsuz çekimli fiili fiilimsi sanma: Emre'nin bölümündeki “dokunmayın” bir emir, “hissetmemiştim” ise yargı bildiren çekimli fiildir; olumsuz fiilimsi (“dokunmayan”) Selin'in bölümündedir.", "Zaman bildiren her sözü zarf-fiil sanma: Selin'in bölümündeki “girerken” zarf-fiildir; ama Emre'nin bölümündeki “eskiden”, “yol boyunca” ve “daha önce” sözleri fiilden türememiştir. Emre'nin bölümünde zarf-fiil yoktur."],
+  aciklama: `Dört yargının her biri iki bölüm için de doğru olmalı. Bu yüzden önce iki bölümün fiilimsilerini çıkar; çekimli fiilleri ve fiilden türememiş sözcükleri listeye alma.
+Adım 1: Selin'in bölümü → "girerken" (Ne zaman? zarf-fiil), "ışıklandırılmış" ("yol" adını niteleyen sıfat-fiil), "sarkan" (sıfat-fiil), "yükselenlere" (yükselen oluşumlara: adlaşmış sıfat-fiil), "bakmaktı" (İsteğim neydi? Bakmak: yüklem olmuş isim-fiil), "dokunmayan" (olumsuz sıfat-fiil), "büyümesini" (isim-fiil).
+Adım 2: Emre'nin bölümü → "dağıtmaktı" (İlk işi neydi? Dağıtmak: yüklem olmuş isim-fiil) ve "damlayan" ("su" adını niteleyen sıfat-fiil). Başka fiilimsi yok.
+Adım 3: Emre'nin bölümündeki tuzakları ele. "Eskiden", "yol boyunca" ve "daha önce" sözleri zaman bildirir ama hiçbiri fiilden türememiştir; zarf-fiil değildir. "Dokunmayın" emir, "hissetmemiştim" yargı bildirir; ikisi de olumsuz çekimli fiildir. "Örmüş", "kaydı" ve "yineledi" de çekimli fiildir.
+Adım 4: Yargıları denetle. A: "bakmaktı" ve "dağıtmaktı" → iki bölümde de var, doğru. B: adlaşmış sıfat-fiil Emre'de yok. C: olumsuz fiilimsi Emre'de yok. D: zarf-fiil Emre'de yok.
+Sık yapılan hata: "bakmaktı" ve "dağıtmaktı" sözcüklerini cümleyi bitirdikleri için çekimli fiil sanıp A'yı elemek. Bu sözcüklerde "bakmak" ve "dağıtmak" işin adıdır; sondaki "-tı" ek fiildir, fiilimsiyi çekimli fiile çevirmez.
 Cevap A.`
 }
 );
