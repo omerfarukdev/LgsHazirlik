@@ -1231,10 +1231,14 @@ var App = (function () {
     var kova = { 1: [], 2: [], 3: [], 4: [] };
     shuffle(havuz.filter(function (q) { return !gorulen[q.id]; }))
       .forEach(function (q) { (kova[q.zorluk] || kova[2]).push(q); });
-    // Fable ile yazılan sorular (yazar: "fable") kendi zorluk kovasında öne alınır (9 Kasım 2026 kararı)
+    // Fable ve Opus ile yazılan sorular (yazar: "fable" / "opus") kendi zorluk kovasında öne alınır
+    // (9 Kasım 2026: Fable; 21 Kasım 2026: Opus da eklendi). Önce Fable, sonra Opus, sonra öteki taze sorular.
+    var YAZAR_SIRA = { fable: 0, opus: 1 };
     [1, 2, 3, 4].forEach(function (z) {
-      kova[z] = kova[z].filter(function (q) { return q.yazar === "fable"; })
-        .concat(kova[z].filter(function (q) { return q.yazar !== "fable"; }));
+      var sira = function (q) { return q.yazar in YAZAR_SIRA ? YAZAR_SIRA[q.yazar] : 2; };
+      kova[z] = [0, 1, 2].reduce(function (dizi, s) {
+        return dizi.concat(kova[z].filter(function (q) { return sira(q) === s; }));
+      }, []);
     });
 
     // Hedef adetler (yuvarlama farkı orta düzeye)
