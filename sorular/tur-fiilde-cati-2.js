@@ -189,120 +189,228 @@ window.LGS_BANK = window.LGS_BANK || {};
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Okul kütüphanesinde görevli bir öğrenci, duyuru panosuna aynı olayı anlatan iki cümle yazdı:\n(1) Kütüphane müdürü yeni gelen romanları vitrine yerleştirdi.\n(2) Yeni gelen romanlar vitrine yerleştirildi.\n**(1). cümleden (2). cümleye geçilirken ögelerde aşağıdakilerden hangisi gerçekleşmiştir?**",
+  soru: `Kaya tırmanışında kimse tek başına çıkmaz. Tırmanan kişinin beline bağlı ip, kayanın tepesindeki halkadan geçip yerde bekleyen arkadaşına iner. “Emniyetçi” denen bu arkadaş ipi elinden bırakmaz; tırmanıcının ayağı kayarsa ipi gerer ve onu havada asılı tutar. Geçen pazar kulübümüzle ilk kez gerçek kayaya gittik. Sıra bana gelince emniyetimi ablam aldı; o iki yıldır tırmanıyor, benimse daha yerdeyken dizlerim titriyordu. Düğümü de benim yerime o atmak istedi ama eğitmenimiz, “Herkes kendi düğümünü atar,” dedi. Ben de ipi belime - - - -; ancak üçüncü denemede becerebildim. Kayanın ortasında sağ ayağım boşa çıktı. Düşmedim; çünkü tam o anda - - - -. İp gevşekti, ablam onu germeye fırsat bile bulamamıştı; parmaklarım kendiliğinden avuç içi kadar bir çıkıntıyı bulup kavramıştı. Aşağıdan ablamın sesi geldi: “Bırak kendini, ip bende!” Bırakmadım; yukarı uzanıp son halkaya dokundum. Ablam beni ipi yavaş yavaş salarak aşağı indirdi. Öğle arasında onu aradım, bulamadım; meğer o da beni arıyormuş. Kayanın arkasındaki dar patikada - - - -; ikimiz de aynı anda gülmeye başladık.
+
+**Bu metinde boş bırakılan yerlere, anlatılanlara göre sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: ["Nesne özneye, \"vitrine\" de nesneye dönüşmüş; özne aynen korunmuştur.","Eski özne düşmüş, nesne özneye dönüşmüş; \"vitrine\" aynen kalmıştır.","Eski özne yükleme dönüşmüş; nesne ise cümleden çıkarılmıştır.","Eski özne korunmuş; nesne ise \"vitrine\" gibi yön bildiren öbeğe dönüşmüştür."],
+  secenekler: ["bağlattım - tutundum - karşıladık", "bağladım - tutundum - karşılaştık", "bağladım - tutuldum - karşıladık", "bağlattım - tutuldum - karşılaştık"],
   dogru: 1,
-  hatalar: ["\"Vitrine\" nesneye dönüşmez, olduğu gibi kalır. Özne de korunmaz: \"kütüphane müdürü\" cümleden çıkmıştır.",null,"Nesne çıkmamıştır; tersine özne olmuştur. Yüklem değişmez, yalnızca çatı eki alır.","Eski özne (\"kütüphane müdürü\") cümlede yoktur ve nesne de özneye dönüşmüştür; \"vitrine\" gibi bir öbeğe dönüşmemiştir."],
-  aciklama: "Etken cümle edilgen yapılınca nesne özneye dönüşür, eski özne cümleden düşer; diğer ögeler (\"vitrine\" gibi yön bildiren öbekler) yerinde kalır.\nAdım 1: (1) → Özne \"kütüphane müdürü\", nesne \"romanları\", yön bildiren öbek \"vitrine\", yüklem \"yerleştirdi\".\nAdım 2: (2) → \"Romanlar\" artık özne (\"yerleştirildi\" işten etkilenir). \"Müdür\" yok. \"Vitrine\" yerinde.\nSağlama: (2)'ye \"Kim yerleştirdi?\" diye soramazsın; çünkü işi yapan belirsizleşmiştir.\nSık yapılan hata: Bütün ögelerin yer değiştirdiğini sanmak; yalnızca özne ve nesne yer değiştirir.\nCevap B."
+  hatalar: ["İlk ve son boşlukta işi kimin yaptığını kaçırma: “bağlattım” düğümü başkasının attığını söyler, oysa eğitmen buna izin vermemiş, anlatıcı düğümü üçüncü denemede kendisi becermiştir; “karşıladık” ise işin karşılıklı yapıldığını bildirmez ve “kimi?” sorusu cevapsız kalır.", null, "Son iki boşlukta çatıyı karıştırma: “tutuldum” anlatıcıyı bir başkasının ya da ipin tuttuğunu söyler, oysa ip gevşektir ve çıkıntıyı kendi parmakları kavramıştır; “karşıladık” da iki kardeşin birbirinin karşısına çıktığını anlatmaz.", "İlk iki boşlukta işi başkasına verme: “bağlattım” düğümü ablanın attığını, “tutuldum” da anlatıcıyı başkasının tuttuğunu söyler; metin ikisinin de tersini anlatır. Yalnızca son sözcük doğrudur."],
+  aciklama: `Aynı kökten türeyen fiiller işi kimin yaptığını değiştirir: “bağladım” (ben yaptım), “bağlattım” (başkasına yaptırdım); “tutundum” (kendim tuttum, iş bana döndü), “tutuldum” (beni başkası tuttu); “karşıladık” (birini karşıladık), “karşılaştık” (birbirimizin karşısına çıktık). Doğru sözcüğü yalnızca boşluğun bulunduğu cümle değil, metnin başka yerlerindeki bilgiler belirler.
+Adım 1: Birinci boşluk → Abla düğümü atmak istiyor ama eğitmen “Herkes kendi düğümünü atar,” diyor. Ardından “ancak üçüncü denemede becerebildim” sözü geliyor. Demek ki düğümü anlatıcı kendisi atmış: “bağladım”. “Bağlattım” deseydi işi ablasına yaptırmış olurdu.
+Adım 2: İkinci boşluk → Sonraki cümleye bak: ip gevşek, abla ipi germeye fırsat bulamamış; çıkıntıyı anlatıcının kendi parmakları kavramış. Onu kimse tutmamış, kendisi tutmuş: “tutundum”. “Tutuldum” deseydi onu başkası tutmuş olurdu.
+Adım 3: Üçüncü boşluk → Anlatıcı ablasını arıyor, ablası da onu. İkisi de ötekinin karşısına çıkıyor; iş iki taraflı. Ayrıca cümlede “kimi karşıladık?” sorusuna cevap verecek bir söz yok. Doğru sözcük “karşılaştık”.
+Adım 4: Sıra “bağladım - tutundum - karşılaştık” olur.
+Sık yapılan hata: Yalnızca boşluğun bulunduğu cümleyi okuyup karar vermek. “İpi belime …” cümlesine iki sözcük de uyar; hangisinin doğru olduğunu bir önceki ve bir sonraki cümle söyler. Çatıyı seçerken “Bu işi gerçekte kim yaptı?” diye metnin tamamına sor.
+Cevap B.`
 },
 {
   id: "tur-fc-317",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Sınıf panosunun yenilenmesini anlatan şu cümleler yazılmıştır:\n(1) Sabah ilk derste sınıf panosu yenilendi.\n(2) Öğrenciler panoya resimlerini astı.\n(3) Panoya bakan misafirler öğrencilerle tokalaştı.\n(4) Panonun altındaki yazılar silindi.\nBu cümlelerle ilgili şu yargılar verilmiştir:\nI. (2). cümle edilgen çatılıdır.\nII. (1). cümlede yüklemin nesnesi \"sınıf panosu\"dur.\nIII. (3). cümlede iş karşılıklı yapılmıştır.\n**Buna göre bu yargılardan hangileri doğrudur?**",
+  soru: `Uluslararası Uzay İstasyonu, yerden yaklaşık 400 kilometre yukarıda dolanır. İçeride her şey havada süzüldüğü için en sıradan işler bile başka türlü yapılır. Su damlaları akmayıp küreler hâlinde uçuştuğundan istasyonda duş yoktur. Her astronot, kendi kabininde ıslak bir havluyla baştan ayağa __silinir__ (I). Saçlar, durulama gerektirmeyen özel bir şampuanla __yıkanır__ (II). Su çok değerlidir; terden ve nefesten havaya karışan nem bile toplanıp yeniden __arıtılır__ (III). Yer çekiminin hissedilmediği ortamda kaslar ve kemikler zayıflar; bu yüzden mürettebat her gün yaklaşık iki saat bisiklet çevirir, bantta __koşar__ (IV). Hafta sonları da astronotlar, aileleriyle görüntülü olarak __görüşür__ (V).
+
+Bu metni okuyan üç öğrenci, numaralanmış fiillerle ilgili şunları söylemiştir:
+Defne: I ile II aynı eki almıştır ama çatıları farklıdır; I'de iş özneye döner, II'de işi yapan söylenmez.
+Kaan: IV ile V'te “ş” sesi vardır ve işi birden çok kişi yapar; öyleyse ikisi de işin karşılıklı yapıldığını bildirir.
+Ela: II ile III aynı çatıdadır; bu fiiller etken yapılırsa şimdiki özneleri nesneye dönüşür.
+
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I","Yalnız II","Yalnız III","II ve III"],
+  secenekler: ["Yalnız Defne", "Defne ve Kaan", "Defne ve Ela", "Kaan ve Ela"],
   dogru: 2,
-  hatalar: ["I yanlıştır: \"astı\" işini yapan \"öğrenciler\"dir; (2) etken çatılıdır. Yargı yanlış olduğu hâlde şık I'i seçmiş.","II yanlıştır: (1) edilgendir, \"sınıf panosu\" nesne değil, işten etkilenen öznedir.",null,"II yanlıştır. \"Sınıf panosu yenilendi\" cümlesinde \"sınıf panosu\" özne durumundadır; edilgen cümlede nesne bulunmaz. Bu şık II'yi doğru sayıyor."],
-  aciklama: "Etken cümlede işi yapan özne belli olur; edilgende nesne gibi görünen söz aslında işten etkilenen öznedir. -ş eki karşılıklı iş bildirir.\nAdım 1: I → (2) \"Öğrenciler astı\": işi yapan belli, etken. Yargı yanlış.\nAdım 2: II → (1) \"Pano yenilendi\": pano işi yapmıyor, işten etkileniyor; özne. Nesne yok, yargı yanlış.\nAdım 3: III → (3) \"Misafirler öğrencilerle tokalaştı\": el sıkma karşılıklı bir iştir. Yargı doğru.\nSonuç: Yalnız III doğru.\nSık yapılan hata: Edilgen cümlede özneyi nesne sanmak. Edilgen yapıda nesne bulunmaz.\nCevap C."
+  hatalar: ["Ela'nın yargısını eksik denetleme: “yıkanır” ve “arıtılır” fiillerinin ikisi de edilgendir; etken yapıldıklarında “saçlar” ve “nem” nesne olur (“saçları yıkar”, “nemi arıtır”). Ela da doğru söylemiştir.", "“ş” sesini görüp fiili işteş sanma: “koşar” fiilinde ş köke aittir; herkes kendi koşusunu yapar, karşılıklılık yoktur. Kaan'ın yargısı “görüşür” için doğru, “koşar” için yanlıştır.", null, "Aynı eki alan fiilleri aynı çatıda sanma: “silinir” fiilinde astronot kendini siler (iş özneye döner), “yıkanır” fiilinde saçları yıkayan söylenmez; Defne doğru söylemiştir. Kaan ise “koşar” fiilindeki ş'yi ek sanmıştır."],
+  aciklama: `Bir fiilin çatısını eki değil, anlamı belirler. Her fiil için üç soru sor: İşi kim yapıyor? İşten kim etkileniyor? İş karşılıklı mı?
+Adım 1: I “silinir” → Silen kim? Astronot. Silinen kim? Yine astronot. İşi yapan ile işten etkilenen aynı; iş özneye dönüyor (dönüşlü).
+Adım 2: II “yıkanır” → Özne “saçlar”. Saçlar yıkama işini yapmaz, işten etkilenir; yıkayanın kim olduğu söylenmemiş (edilgen). I ile II'nin ikisinde de “-n” eki var ama çatıları farklı. Defne doğru söylüyor.
+Adım 3: III “arıtılır” → Özne “nem”. Nem arıtma işini yapmaz; arıtan söylenmemiş (edilgen). II ile III aynı çatıda. Etken yaparsan cümleye bir işi yapan eklenir, eski özne nesne olur: “Astronotlar saçlarını yıkar.”, “Sistem nemi arıtır.” Ela doğru söylüyor.
+Adım 4: IV “koşar” → “Koş-” fiilinin kökünde zaten ş vardır; bu ses ek değildir. Mürettebattaki herkes kendi koşusunu yapar; kimse kimseye bir şey yapmaz. İş karşılıklı değil.
+Adım 5: V “görüşür” → Astronot ailesini görür, ailesi de onu; iş karşılıklıdır (işteş). Kaan'ın sözü V için doğru, IV için yanlış olduğundan yargının tamamı yanlıştır.
+Sık yapılan hata: İçinde iki bilgi bulunan bir yargının yalnızca ilk yarısını denetlemek. “İkisi de…” diye başlayan bir yargı, fiillerden biri için bile tutmuyorsa yanlıştır.
+Cevap C.`
 },
 {
   id: "tur-fc-318",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Yeni yenilenen bir mahalle parkını anlatan dört cümle aşağıda numaralandırılmıştır. Cümlelerin bir kısmında yüklem sondan önce gelmiştir.\n**Bu cümlelerin hangisi hem edilgen çatılı hem de yüklemin yerine göre devriktir?**",
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Oynadı çocuklar akşamüstü parkta.</td></tr><tr><td>II</td><td>Parkın bankları sabah erkenden boyandı.</td></tr><tr><td>III</td><td>Belediye ekipleri parka yeni ağaçlar dikti.</td></tr><tr><td>IV</td><td>Dün gece onarıldı parkın aydınlatma direkleri.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Kasabamızda her nisan ayında, rüzgârın en bol estiği tepede bir uçurtma şenliği yapılır. O gün tepeye çıkan toprak yol daha sabahtan çocuklarla dolar. Şenliğin değişmeyen bir kuralı vardır: Hazır alınmış uçurtma yarışa giremez. Bu yüzden çocuklar haftalar öncesinden işe koyulur; çıtaları kendileri yontar, kuyrukları eski kumaşlardan kendileri keser. (I) Çıtalara gerilen kâğıtlar, şenlikten birkaç gün önce balkonlarda renk renk boyanır. (II) Yarış sabahı her uçurtma, üç kişilik jüri tarafından tek tek tartılıp ölçülür. Düdük çalınca tepenin üstü bir anda renge boğulur. İpi kopan ya da başkasınınkine dolanan uçurtma yarış dışı kalır. Gökyüzünde uçurtmalar azaldıkça tepedeki kalabalık nefesini tutar. (III) Uçurtması havada en son kalan çocuk, tepeden inerken dakikalarca alkışlanır. (IV) O çocuk, kasabanın marangozunun ceviz ağacından yaptığı makarayı kazanır. Geçen yıl makarayı altıncı sınıfa giden bir kız aldı; uçurtmasının kuyruğunu eski bir perdeden kesmiş, gövdesini de tek başına yapıştırmıştı.
+
+Bu parçada numaralanmış cümlelerden üçünün yüklemi aynı çatıdadır.
+
+**Buna göre yüklemi farklı çatıda olan cümleyle ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  gorsel: null,
+  secenekler: ["Özne işi yapmaz; işi yapan cümlede söylenmemiştir.", "Özne işi yapmaz; işi yapan cümlede ayrıca söylenmiştir.", "Özne işi kendisi yapar; iş yine özneye dönmektedir.", "Özne işi kendisi yapar; iş bir nesneye yönelmektedir."],
   dogru: 3,
-  hatalar: ["Devriktir (yüklem başta), ama \"oynadı\" etkendir; işi yapan \"çocuklar\" belli. Edilgen değil.","Edilgendir (\"boyandı\"), ama yüklem sondadır; cümle kurallıdır, devrik değil.","Hem etken hem kurallıdır: \"dikti\" işini yapan \"belediye ekipleri\"dir ve yüklem sondadır.",null],
-  aciklama: "İki ölçüt vardır: fiil edilgen mi (işi yapan belli değil mi)? Yüklem cümlenin sonunda mı?\nAdım 1: I → Yüklem \"oynadı\" başta: devrik. Ama işi yapan \"çocuklar\" belli: etken.\nAdım 2: II → \"Bankları boyandı\": edilgen. Yüklem sonda: kurallı.\nAdım 3: III → \"Belediye ekipleri dikti\": etken ve kurallı.\nAdım 4: IV → \"Onarıldı\": direkleri kimin onardığı belli değil, edilgen. Yüklemden sonra \"parkın aydınlatma direkleri\" geliyor: devrik. İki ölçüt de tutuyor.\nSık yapılan hata: Yalnızca bir ölçüte bakıp karar vermek. İkisini ayrı ayrı denetle.\nCevap D."
+  hatalar: ["Farklı olanı yanlış belirleme: bu söz I ve III. cümlelere uyar; ama onlar II. cümleyle birlikte aynı çatıdaki üç cümleyi oluşturur. Üçünde de özne işi yapmaz; farklı olan cümlede ise özne işi kendisi yapar.", "İşi yapan söylenince çatıyı farklı sanma: II. cümlede “jüri tarafından” sözü işi yapanı bildirir ama özne (uçurtma) yine işi yapmaz; yüklem I ve III'teki gibidir. II. cümle farklı olan değildir.", "“n” sesini görüp işi özneye dönüyor sanma: “kazanır” fiilinde n kökün parçasıdır; çocuk kendini değil makarayı kazanır. III'teki “alkışlanır” da özneye dönmez; çocuk kendini alkışlamaz, onu başkaları alkışlar.", null],
+  aciklama: `Bir cümlede özne işi ya kendisi yapar ya da yapmaz, yalnızca işten etkilenir. Bunu fiildeki eke bakarak değil, “Bu işi kim yapıyor?” diye sorarak anlarsın. İşi yapanın “tarafından” sözüyle bildirilmesi de özneyi işi yapan hâline getirmez.
+Adım 1: I → Yüklem “boyanır”. Özne “kâğıtlar”. Kâğıtlar boyama işini yapmaz; boyayan cümlede söylenmemiş. Özne işten etkileniyor.
+Adım 2: II → Yüklem “ölçülür”. Özne “her uçurtma”. Ölçen jüridir ve “tarafından” ile söylenmiştir; ama özne olan uçurtma işi yapmıyor. Çatı I ile aynı.
+Adım 3: III → Yüklem “alkışlanır”. Özne “çocuk”. Özne bir insan ve fiilde “-n” var diye işin özneye döndüğünü düşünme: çocuk kendini alkışlamaz, onu tepedekiler alkışlar. Özne yine işi yapmıyor. Çatı I ve II ile aynı.
+Adım 4: IV → Yüklem “kazanır”. Kim kazanır? “O çocuk.” Özne işi kendisi yapıyor. Fiilin kökü “kazan-”dır; sondaki n bir ek değildir. Neyi kazanır? “Makarayı.” İş özneye dönmüyor, bir nesneye yöneliyor.
+Adım 5: Üç cümlede özne işi yapmıyor, IV. cümlede yapıyor. Farklı olan IV'tür; onu doğru anlatan seçenek: “Özne işi kendisi yapar; iş bir nesneye yönelmektedir.”
+Sık yapılan hata: II. cümlede işi yapan yazıldığı için bu cümleyi “farklı” saymak. Çatıyı belirleyen, işi yapanın yazılıp yazılmaması değil, öznenin işi yapıp yapmadığıdır.
+Cevap D.`
 },
 {
   id: "tur-fc-319",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir sınıf öğretmeni, ödev takibi için yazdığı dört cümleyi ödev panosuna astı. Cümleler aşağıda numaralandırılmıştır.\n**Bu cümlelerin hangisi hem soru cümlesidir hem anlamca olumsuzdur hem de işi yapanı belli etmez?**",
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Verilen ödevler neden zamanında teslim edilmedi?</td></tr><tr><td>II</td><td>Verilen ödevler zamanında teslim edildi.</td></tr><tr><td>III</td><td>Öğretmen ödevleri neden toplamadı?</td></tr><tr><td>IV</td><td>Ödevleri zamanında teslim ettiniz mi?</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Bir yerel gazetenin genç muhabiri, kent merkezindeki metro kazısında yaşananları yazıp editörüne göndermiştir. Haber ertesi gün birinci sayfada yayımlanacaktır. Editör, haberi şu notla geri yollamıştır: “Okurun gözü mozaikte olsun, kişiler öne çıkmasın.” Muhabir de haberini yeniden yazmıştır.
+
+I. metin (ilk yazılan): Metro kazısında dün sabah saat dokuza doğru, altı metre derinlikte renkli taşlardan yapılmış bir taban mozaiği ortaya çıktı. İşçiler kazıyı hemen durdurdu. Müze uzmanları, mozaiğin üstündeki toprağı yumuşak fırçalarla temizledi. Belediye ekipleri, alanın çevresini panolarla kapattı. Uzmanlar, mozaiğin eski bir hamamın tabanına ait olduğunu düşünüyor.
+
+II. metin (yayımlanan): Metro kazısında dün sabah saat dokuza doğru, altı metre derinlikte renkli taşlardan yapılmış bir taban mozaiği ortaya çıktı. Kazı hemen durduruldu. Mozaiğin üstündeki toprak, müze uzmanları tarafından yumuşak fırçalarla temizlendi. Alanın çevresi panolarla kapatıldı. Uzmanlar, mozaiğin eski bir hamamın tabanına ait olduğunu düşünüyor.
+
+**II. metin I. metinle karşılaştırıldığında aşağıdakilerden hangisi söylenebilir?**`,
+  gorsel: null,
+  secenekler: ["Üç cümlede işi yapan özne olmaktan çıkmış; yalnızca birinde yine söylenmiştir.", "Üç cümlede işi yapan özne olmaktan çıkmış; hiçbirinde yeniden söylenmemiştir.", "Dört cümlede işi yapan özne olmaktan çıkmış; bunların ikisinde söylenmiştir.", "Üç cümlede işi yapan özne olmaktan çıkmış; eski nesneler de yine nesne kalmıştır."],
   dogru: 0,
-  hatalar: [null,"Edilgendir, ama ne soru cümlesidir ne de olumsuzdur; olumlu bir bildirme cümlesidir.","Soru ve olumsuzdur (\"toplamadı\"), ama etkendir; işi yapan \"öğretmen\" cümlede yazılı.","Soru cümlesidir (\"mi\") ve etkendir (\"ettiniz\"); olumsuz da değildir, işi yapan \"siz\" belli."],
-  aciklama: "Üç ölçüt var: soru, anlamca olumsuz, edilgen. Hepsi aynı cümlede olacak.\nAdım 1: II → Soru değil, olumsuz değil. Eleniyor.\nAdım 2: III → Soru + olumsuz (\"toplamadı\"), ama \"öğretmen\" işi yapan olarak yazılı: etken. Eleniyor.\nAdım 3: IV → Soru (\"mi\"), ama olumlu ve etken. Eleniyor.\nAdım 4: I → \"neden\" soru anlamı verir; \"edilmedi\" -me ekiyle olumsuz; \"-l\" eki işi yapanı belirsizleştirir (edilgen). Üç ölçüt de tutuyor.\nSık yapılan hata: Yardımcı fiilli yüklemlerde (\"teslim edilmek\") edilgenliği görememek. \"Teslim etti\" etken, \"teslim edildi\" edilgendir.\nCevap A."
+  hatalar: [null, "Aşırı genelleme: “durduruldu” ve “kapatıldı” yüklemli cümlelerde işi yapan söylenmemiştir ama üçüncü cümlede “müze uzmanları tarafından” sözü işi yapanı bildirir. Üç cümlenin biri bu yargıya uymaz.", "İşi yapanı göremeyince cümleyi değişmiş sanma: ilk cümledeki “ortaya çıktı” iki metinde de aynıdır ve çıkan mozaiktir; son cümle de değişmemiştir. Değişen cümle sayısı üçtür; işi yapan da bunların yalnızca birinde söylenmiştir.", "Öge değişimini kaçırma: “kazıyı”, “toprağı”, “çevresini” sözleri I. metinde nesnedir; II. metinde “kazı”, “toprak”, “çevresi” olarak özneye dönüşmüştür. Öznesi işi yapmayan bu cümlelerde nesne bulunmaz."],
+  aciklama: `Bir cümlenin yüklemi “durdurdu → durduruldu” gibi değiştirilince üç şey olur: işi yapan özne olmaktan çıkar, eski nesne özneye dönüşür, dikkat işi yapandan işin kendisine kayar. İşi yapan yine de bildirilmek istenirse “tarafından” sözü kullanılır; özne yine işi yapmaz (bu çatıya edilgen denir).
+Adım 1: İlk cümle iki metinde de aynıdır: “mozaik ortaya çıktı”. Çıkan mozaiktir; özne işi kendisi yapar ve cümle değişmemiştir.
+Adım 2: “İşçiler kazıyı hemen durdurdu.” → “Kazı hemen durduruldu.” “İşçiler” düşmüş; kimin durdurduğu artık belli değil. “Kazıyı” (nesne) → “kazı” (özne).
+Adım 3: “Müze uzmanları … toprağı … temizledi.” → “Toprak, müze uzmanları tarafından … temizlendi.” Uzmanlar artık özne değil; ama “tarafından” ile yine söylenmiş. “Toprağı” (nesne) → “toprak” (özne).
+Adım 4: “Belediye ekipleri, alanın çevresini … kapattı.” → “Alanın çevresi … kapatıldı.” Kapatan söylenmemiş. “Çevresini” (nesne) → “çevresi” (özne).
+Adım 5: Son cümle iki metinde de aynıdır; “uzmanlar” düşünme işini kendisi yapar.
+Adım 6: Sonuç: üç cümlede işi yapan özne olmaktan çıkmış; yalnızca birinde (müze uzmanları) yine de söylenmiş. Böylece okurun dikkati kişilerden mozaiğe kaymış.
+Sık yapılan hata: “Edilgen cümlede işi yapan hiç bulunmaz.” diye düşünmek. “Tarafından” ile işi yapanı söyleyen cümle de edilgendir; çünkü özne (toprak) işi yapmıyor, işten etkileniyor.
+Cevap A.`
 },
 {
   id: "tur-fc-320",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Soğuk bir kış sabahını anlatan şu cümleler yazılmıştır:\n(1) Hava soğuyunca Deniz kendi kendine kalın giyindi.\n(2) Annesi sobanın yanına çaydanlığı koydu.\n(3) Kapının önünde bekleyen arkadaşları onunla vedalaştı.\n(4) Gün boyunca karlı yollar temizlendi.\nBu cümlelerle ilgili şu yargılar verilmiştir:\nI. (1). cümlede iş özne tarafından kendi üzerine yapılmıştır.\nII. (3). cümlede iş karşılıklı yapılmıştır.\nIII. (4). cümlede işi yapan belli değildir ve yüklem nesne almıştır.\n**Buna göre bu yargılardan hangileri doğrudur?**",
+  soru: `Leylekler kışı Afrika'da geçirir, baharda yuvalarına döner. Bizim köyde yuvalar, elektrik direklerinin tepesine yerleştirilmiş demir platformların üstündedir. Her platformda bir çift yaşar; çiftler çoğu zaman her yıl aynı yuvaya gelir, yuvayı yeni dallarla onarır. Yetişkin leylekler ötmez; seslerini gagalarını takırdatarak çıkarırlar. (I) Yuvada buluşan eşler, başlarını geriye atıp gagalarını takırdatarak uzun uzun selamlaşır. (II) Yağmur dinince leylekler, yuvanın kenarında kanatlarını yarı açıp bir güzel silkinir. Yavrular, yumurtadan çıktıktan iki ay kadar sonra uçmaya başlar. Köye her yaz kuş bilimciler gelir. (III) Haziranda, henüz uçamayan yavruların bacağına numaralı birer halka takılır. Halkanın üstündeki iri rakamlar dürbünle uzaktan bile okunur; böylece kuş yıllar sonra başka bir ülkede görülse de tanınır, hangi yoldan göç ettiği öğrenilir. Yuvaların bakımı da aksatılmaz. (IV) Geçen kış fırtınada eğilen platformu bu bahar elektrik şirketinin ekibi yeniledi. Bizim köyün halkalı yavrularından biri, iki yıl sonra doğduğu direğe geri döndü; numarasını dürbünle ilk okuyan ben oldum.
+
+**Bu parçada numaralanmış cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: ["Yalnız I","I ve II","I ve III","II ve III"],
+  secenekler: ["I. cümlede iş karşılıklı yapılmıştır; bu cümlenin yüklemi nesne almamıştır.", "II. cümlede özne çoğuldur; yüklem, işin karşılıklı yapıldığını bildirir.", "III. cümlede işi yapan söylenmemiştir; işten etkilenen “halka” sözü öznedir.", "IV. cümlede işi yapan söylenmiştir; işten etkilenen “platform” sözü nesnedir."],
   dogru: 1,
-  hatalar: ["II de doğrudur: \"vedalaştı\" fiilindeki -ş eki karşılıklı işi gösterir. Yalnız I demek eksik kalır.",null,"III yanlıştır: (4) edilgendir ve işi yapan belli değildir; ama edilgen cümlede nesne bulunmaz. İki özelliği birden taşımaz.","I de doğrudur: \"kendi kendine giyindi\" ifadesi işin kendi üzerine yapıldığını gösterir. Bu şık I'i dışarıda bırakıyor."],
-  aciklama: "Dönüşlü fiilde iş kişinin kendi üzerine yapılır; -ş ekli fiil karşılıklı iş bildirir; edilgen cümlede işi yapan belli değildir ve nesne bulunmaz.\nAdım 1: I → \"Kendi kendine giyindi\": Deniz hem işi yapan hem işten etkilenen. Yargı doğru.\nAdım 2: II → \"Vedalaştı\": arkadaşları ile Deniz birbiriyle vedalaşıyor. Karşılıklı iş. Yargı doğru.\nAdım 3: III → \"Yollar temizlendi\": işi yapan belli değil (doğru), ama edilgen cümlede nesne yoktur; \"yollar\" özne. Yargı yanlış, çünkü iki parçası birlikte tutmuyor.\nSonuç: I ve II doğru.\nSık yapılan hata: Edilgen cümlenin öznesini nesne sanmak.\nCevap B."
+  hatalar: ["Fiilimsinin nesnesini yüklemin nesnesi sanma: “başlarını” ve “gagalarını” sözleri “atıp” ve “takırdatarak” fiilimsilerine bağlıdır; “selamlaşır” yüklemine “neyi?” diye sorulamaz. Eşler birbirini selamlar. Bu yargı doğrudur.", null, "İşten etkilenen sözü nesne sanma: halkayı takanın kim olduğu cümlede yazılmamıştır; “numaralı birer halka” sözü takma işini yapmaz, işten etkilenir ve cümlenin öznesidir. Bu yargı doğrudur.", "Özneyi yalnızca cümlenin başında arama: “Kim yeniledi?” sorusunun cevabı yüklemden hemen önceki “elektrik şirketinin ekibi” sözüdür; “platformu” sözü de “neyi yeniledi?” sorusunun cevabı olan nesnedir. Bu yargı doğrudur."],
+  aciklama: `Soru “söylenemez” dediği için dört yargıyı da tek tek denetleyip yanlış olanı bulacaksın. Her yargının iki yarısı var; ikisine de bak.
+Adım 1: I → Yüklem “selamlaşır”. Bir eş ötekini, öteki de onu selamlar; iş karşılıklıdır. “Başlarını” ve “gagalarını” sözleri yüklemin değil, “atıp” ve “takırdatarak” sözcüklerinin nesnesidir; “neyi selamlaşır?” diye sorulamaz. Yargı doğru.
+Adım 2: II → Yüklem “silkinir”. Her leylek kendi gövdesini silker; işi yapan da işten etkilenen de kendisidir. İş özneye döner, bir leylekten ötekine gitmez. Özne çoğul olsa da karşılıklılık yoktur; karşılıklı iş için “birbirini” diyebilmen gerekir. Yargının ikinci yarısı yanlış.
+Adım 3: III → Yüklem “takılır”. Halkayı kim takıyor? Bu cümlede yazmıyor. “Numaralı birer halka” takma işini yapmaz, işten etkilenir; özne odur. Yargı doğru.
+Adım 4: IV → Yüklem “yeniledi”. Kim yeniledi? “Elektrik şirketinin ekibi.” İşi yapan söylenmiş; özne cümlenin başında değil, yüklemin hemen önünde duruyor. Neyi yeniledi? “Platformu.” İşten etkilenen bu söz nesnedir. Yargı doğru.
+Adım 5: III ile IV'ü karşılaştır: ikisinde de bir şey işten etkileniyor. Özne işi yapmıyorsa etkilenen söz öznedir (halka); özne işi yapıyorsa etkilenen söz nesnedir (platformu).
+Sık yapılan hata: Özne çoğul olunca işi karşılıklı saymak. “Leylekler silkinir.” cümlesinde herkes kendi işini yapar. Karşılıklı işte iki taraf aynı işi birbirine yapar: “Eşler selamlaşır.”
+Cevap B.`
 },
 {
   id: "tur-fc-321",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir ailenin ev işlerini anlatan dört cümle aşağıda numaralandırılmıştır.\n**Bu cümlelerin hangisinde iş başkasına yaptırılmış, ayrıca cümle anlamca olumsuz olmuştur?**",
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Annem ceketimin düğmelerini kendisi dikti.</td></tr><tr><td>II</td><td>Halam elbisesini terzide diktirdi.</td></tr><tr><td>III</td><td>Elbisenin kolları kısaltıldı.</td></tr><tr><td>IV</td><td>Dedem bu yıl evi boyatmadı.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Ebru, suyun üstünde yapılan bir resim sanatıdır. Tekneye konan su, geven bitkisinden elde edilen kitreyle koyulaştırılır; böylece boyalar dibe çökmez, yüzeyde kalır. Boyalar da suya kolayca yayılsın diye sığır ödüyle karıştırılır. Halk eğitim merkezindeki ebru kursunun ilk dersinde hepimiz teknenin başına toplandık. (I) Toprak boyalar, at kılından yapılmış fırçalarla suyun üstüne damla damla serpildi. (II) Hocamız Nalan Hanım, ince bir tel çubukla sudaki renklere usulca dokundu. Damlalar birkaç hamlede bir laleye dönüştü. (III) Nalan Hanım kâğıdı suyun üstüne, içimizde en heyecanlı olan Elif'e kapattırdı. (IV) Elif'le ben, tekneden çıkan ilk ebruya dakikalarca baktık. O gün eve dönerken parmaklarımızdaki boya lekelerini silmeye kıyamadık.
+
+Bir öğrenci, numaralanmış cümlelerin yüklemlerini incelemiş; işi gerçekte kimin yaptığını ve yüklemin nesnesini aşağıdaki tabloya yazmıştır.
+
+**Bu tabloda numaralanmış satırların hangisinde verilen iki bilgi de doğrudur?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Yüklem</th><th>İşi gerçekte yapan</th><th>Yüklemin nesnesi</th></tr><tr><td>I</td><td>serpildi</td><td>söylenmemiş</td><td>toprak boyalar</td></tr><tr><td>II</td><td>dokundu</td><td>Nalan Hanım</td><td>renklere</td></tr><tr><td>III</td><td>kapattırdı</td><td>Nalan Hanım</td><td>kâğıdı</td></tr><tr><td>IV</td><td>baktık</td><td>Elif ile anlatıcı</td><td>nesne yok</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 3,
-  hatalar: ["Etken ve olumludur: annem işi kendisi yapmıştır. Yaptırma ve olumsuzluk yoktur.","Yaptırma vardır (\"diktirdi\"), ama cümle olumludur; iş gerçekleşmiştir.","Edilgendir (\"kısaltıldı\") ve olumludur. Özne işi başkasına yaptırmış değildir.",null],
-  aciklama: "Yaptırma bildiren fiilde özne işi kendi yapmaz, başkasına yaptırır (-t, -dır eki). Olumsuzluk -ma, -me ekiyle gelir.\nAdım 1: I → \"Kendisi dikti\": işi kendisi yapmış. Eleniyor.\nAdım 2: II → \"Diktirdi\": yaptırma var, ama olumlu. Eleniyor.\nAdım 3: III → \"Kısaltıldı\": edilgen, yaptıran özne yok. Eleniyor.\nAdım 4: IV → \"Boyatmadı\": boyatmak yaptırmadır (-t); \"-ma\" eki yaptırmanın gerçekleşmediğini bildirir. İki ölçüt de tutuyor.\nSağlama: IV'ü \"Dedem evi boyatmadı\" diye düşün: dedem başkasına yaptırmadı. Yaptırma anlamı sürüyor, olumsuzluk üstüne ekleniyor.\nCevap D."
+  hatalar: ["İşten etkilenen özneyi nesne sanma: serpenin kim olduğu cümlede gerçekten söylenmemiştir; ama “toprak boyalar” sözü nesne değil, işten etkilenen öznedir. Öznesi işi yapmayan cümlede nesne bulunmaz.", "“-e” ekli sözü nesne sanma: dokunan Nalan Hanım'dır, bu bilgi doğrudur; ama “renklere” sözü “neye dokundu?” sorusunun cevabıdır. “Neyi dokundu?” diye sorulamaz; yüklemin nesnesi yoktur.", "Yaptıranı işi yapan sanma: kâğıdı suyun üstüne kapatan Elif'tir; Nalan Hanım bu işi ona yaptırmıştır. Nesne (“kâğıdı”) doğrudur ama işi yapan yanlış yazılmıştır.", null],
+  aciklama: `Her satırda iki soru soracaksın: “Bu işi gerçekte kim yaptı?” ve “Yükleme neyi, kimi diye sorunca cevap ne?” Nesne, bu sorunun cevabı olan sözdür; “-e, -de, -den” ekli sözler nesne olmaz.
+Adım 1: I “serpildi” → Boyaları serpen yazılmamış; işi yapan söylenmemiş (doğru). “Toprak boyalar” ise serpme işini yapmıyor, işten etkileniyor; cümlenin öznesidir. Böyle bir cümlede nesne olmaz. İkinci bilgi yanlış.
+Adım 2: II “dokundu” → Dokunan Nalan Hanım (doğru). “Neyi dokundu?” diye sorulamaz; “renklere” sözü “neye?” sorusunun cevabıdır, “-e” eki almıştır. Nesne değildir. İkinci bilgi yanlış.
+Adım 3: III “kapattırdı” → Kâğıdı kapatan Elif'tir. Nalan Hanım işi yapan değil, yaptırandır. Birinci bilgi yanlış. Neyi kapattırdı? “Kâğıdı.” İkinci bilgi doğru.
+Adım 4: IV “baktık” → Bakanlar Elif ile anlatıcı (doğru). “Neyi baktık?” diye sorulamaz; “ebruya” sözü “neye?” sorusunun cevabıdır, nesne değildir. Yüklemin nesnesi yok (doğru).
+Sağlama: II ile IV'ü yan yana koy. İkisinde de yükleme bağlı söz “-e” eklidir (renklere, ebruya). Tablo birine “nesne” demiş, ötekine “nesne yok”; ikisi birden doğru olamaz. Doğru olan “nesne yok” diyen satırdır.
+Sık yapılan hata: Yüklemden önce gelen ve işten etkilenen her sözü nesne saymak. Nesneyi yalnızca “neyi, kimi, ne?” sorusuyla bul; “neye, nereye?” sorusunun cevabı nesne değildir.
+Cevap D.`
 },
 {
   id: "tur-fc-322",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Aşağıdaki cümlelerde bazı söz öbekleri altı çizilmiştir.\n**Altı çizili söz öbeklerinden hangisi, cümlenin şu anki öznesidir ve yüklem etken çatıya çevrildiğinde cümlenin nesnesi olur?**",
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td><u>Sınıfın kapısı</u> rüzgârdan çarptı.</td></tr><tr><td>II</td><td>Müdür <u>öğrencilere</u> törenin saatini duyurdu.</td></tr><tr><td>III</td><td><u>Okulun duvarları</u> yaz boyunca boyandı.</td></tr><tr><td>IV</td><td><u>Yeni gelen öğrenci</u> sınıfa sessizce girdi.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Ağustosun son haftasında anneannemin evinde tarhana telaşı başlar. Mutfak dar geldiği için bütün iş avluda görülür; komşular da gelir, herkes bir ucundan tutar. Domatesler, biberler ve soğanlar bir gün önceden büyük kazanda pişirilir. (I) Avlunun ortasına her yıl __kalaylı büyük bir leğen__ çıkarırız. (II) Pişip soğuyan domatesli, biberli harca __yoğurtla un__ azar azar eklenir. Hamuru yoğurmak teyzemin işidir; anneannem başında durup kıvamına bakar, “Biraz daha un!” diye seslenir. (III) __Üstü bezle örtülen hamur__, ekşimesi için serin kilerde bir hafta kadar bırakılır. Bu süre dolunca hamur ceviz büyüklüğünde parçalara bölünür. (IV) __Loş odadaki çarşaflara serilen parçalar__ ise birkaç günde kurur. Anneanneme göre parçalar ne kadar yavaş kurursa çorba o kadar lezzetli olur; bu yüzden onları güneşe çıkarmayız. Kuruyan parçaları elekten geçirmek biz torunlara kalır. O akşam hepimizin avuçları tarhana kokar; anneannem de kış boyunca içeceğimiz çorbanın ilk tenceresini ocağa koyar.
+
+**Bu parçada altı çizili söz öbeklerinden hangileri, edilgen çatılı bir yüklemin öznesidir?**`,
+  gorsel: null,
+  secenekler: ["I ve II", "I ve IV", "II ve III", "III ve IV"],
   dogru: 2,
-  hatalar: ["Cümle zaten etkendir: kapı kendisi çarpmıştır. Özne olarak kalır, nesne olmaz.","Cümlenin öznesi değildir; \"kime?\" sorusunun yanıtıdır. Etken çatıda da aynı görevde kalır, nesneye dönüşmez.",null,"Cümle zaten etkendir. \"Yeni gelen öğrenci\" özne olarak kalır; nesne olmaz."],
-  aciklama: "Edilgen cümlenin öznesi, cümle etken yapılınca nesne olur. Etken cümlenin öznesi ise özne olarak kalır.\nAdım 1: I → \"Sınıfın kapısı çarptı\": etken; kapı özne. Değişmez.\nAdım 2: II → \"Öğrencilere duyurdu\": özne \"müdür\"dür; altı çizili öbek özne değil, \"kime?\" sorusunun yanıtıdır. Çatı değişmez.\nAdım 3: IV → \"Yeni gelen öğrenci girdi\": etken; özne.\nAdım 4: III → \"Duvarlar boyandı\": edilgen; duvarlar işten etkilenen öznedir. Etken yapınca \"Ustalar okulun duvarlarını boyadı\": duvarlar nesne olur.\nSık yapılan hata: Cümlenin sonunda gelen her öbeği nesne saymak. Soru, çatı değişince özneden nesneye dönüşecek öğeyi istiyor.\nCevap C."
+  hatalar: ["Ek almamış nesneyi özne sanma: I. cümlede çıkaran “biz”dir (çıkarırız); “kalaylı büyük bir leğen” ek almamış nesnedir ve yüklem etkendir. II doğru, I yanlıştır.", "Yüklemin çatısına bakmama: I'deki öbek etken bir yüklemin nesnesidir; IV'teki öbek öznedir ama yüklem (“kurur”) etkendir, parçaları kimse kurutmaz, kendileri kurur. İkisi de aranan öbek değildir.", null, "Öbeğin içindeki fiilimsiye bakıp karar verme: IV'te “serilen” sözcüğü edilgen bir fiilimsidir ama yüklem değildir. Yüklem “kurur” etkendir. III doğru, IV yanlıştır."],
+  aciklama: `Edilgen cümlede özne işi yapmaz, işten etkilenir. Böyle bir özneyi bulmak için iki şeye bakarsın: yüklem edilgen mi, altı çizili öbek o yüklemin öznesi mi?
+Adım 1: I → Yüklem “çıkarırız”. Çıkaran kim? “Biz.” Özne işi kendisi yapıyor; yüklem etken. Ne çıkarırız? “Kalaylı büyük bir leğen.” Öbek ek almamış nesnedir. Uymuyor.
+Adım 2: II → Yüklem “eklenir”. Ekleyen kim? Yazılmamış. Ne eklenir? “Yoğurtla un.” Bu söz ekleme işini yapmıyor, işten etkileniyor; edilgen yüklemin öznesi. Uyuyor.
+Adım 3: III → Yüklem “bırakılır”. Bırakan kim? Yazılmamış. Ne bırakılır? “Üstü bezle örtülen hamur.” Edilgen yüklemin öznesi. Uyuyor.
+Adım 4: IV → Yüklem “kurur”. Ne kurur? “Çarşaflara serilen parçalar.” Öbek öznedir; ama “kurur” edilgen değildir. Parçaları kimse kurutmuyor, kendileri kuruyor; özne işin sahibi. Öbeğin içindeki “serilen” sözcüğü yüklem olmadığı için cümlenin çatısını belirlemez. Uymuyor.
+Sağlama: II ve III'ü etken yap: “Teyzem harca yoğurtla unu ekler.”, “Anneannem hamuru kilerde bırakır.” Altı çizili sözler nesneye dönüştü; demek ki edilgen cümlede özneydiler.
+Sık yapılan hata: Cümlede işi yapan görünmeyince yüklemi hemen edilgen saymak. I. cümlede özne yazılmamış ama yüklemdeki “-ız” eki işi yapanın “biz” olduğunu söylüyor.
+Cevap C.`
 },
 {
   id: "tur-fc-323",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Karlı bir sabahı anlatan şu cümleler yazılmıştır:\n(1) Gece boyunca yağan kar sabaha kadar durmadı.\n(2) Yollardaki kar küreklerle açıldı.\n(3) Komşular sokakta bize yeni bir ev aldıklarını söyledi.\nBu cümlelerle ilgili şu yargılar verilmiştir:\nI. (2). cümlede işi yapan belirtilmemiştir.\nII. (3). cümlede iş karşılıklı yapılmıştır.\nIII. (1). cümlede yüklem nesne almıştır.\n**Buna göre bu yargılardan hangileri doğrudur?**",
+  soru: `Kerem, gençlik merkezinin düzenlediği radyo programı yarışmasına, mahallesindeki son saat tamircisini anlatan on dakikalık bir programla katılacaktı. Tamirciyle dükkânında iki kez konuşup notlar aldı. Metni iki akşamda yazdı. Ablası, “İstersen ben yazayım, sen okursun,” dedi; Kerem istemedi. Ablası yalnızca bitmiş metni dinleyip beğendiğini söyledi. Kerem, kayıt için merkezin stüdyosundan gün aldı. Orada mikrofonun karşısına geçip metnini okudu; kaydı baştan sona stüdyo görevlisi Okan Bey yaptı. Kayıt ancak üçüncü denemede temiz çıktı. Programın başında çalacak kısa bir müzik gerekiyordu. Kerem nota bilmezdi; bunu gitar çalan sınıf arkadaşı İpek'ten rica etti. İpek ezgiyi hafta sonu hazırlayıp gönderdi. Kerem ses dosyalarını evdeki bilgisayarda birleştirdi. Teslimden önceki akşam programı baştan dinleyince müziğin, konuşmasının ilk cümlelerini bastırdığını fark etti. İpek'e art arda üç mesaj yazdı; ama İpek maçtaydı, mesajları gece yarısı gördü ve cevap yazmadan uyudu. Kerem beklemedi; kurgu programını açıp müziğin sesini kendisi kıstı. Sabah okulda İpek özür diledi; Kerem gülüp programı çoktan teslim ettiğini söyledi.
+
+**Bu metinde anlatılanlara göre aşağıdaki cümlelerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I","Yalnız II","I ve III","II ve III"],
+  secenekler: ["Kerem sesini Okan Bey'e kaydettirmiş, metni kendisi yazmıştır.", "Kerem sesini kendisi kaydetmiş, müziği İpek'e hazırlatmıştır.", "Kerem müziği İpek'e hazırlatmış, kusuru da ona düzelttirmiştir.", "Kerem İpek'le o akşam yazışmış, kusuru kendisi düzeltmiştir."],
   dogru: 0,
-  hatalar: [null,"II yanlıştır: \"söyledi\" fiilinde -ş eki yoktur; komşular bize söylüyor, biz onlara aynı işi yapmıyoruz. İş tek yönlüdür. Ayrıca I doğru olduğu hâlde bu şıkta yok.","III yanlıştır: \"durmadı\" fiili geçişsizdir; \"kar\" özne, nesne yoktur. Bu şık III'ü doğru sayıyor.","II ve III yanlıştır; (3). cümlede iş tek yönlüdür, (1). cümlede de nesne yoktur."],
-  aciklama: "Her yargıyı ilgili cümlenin yüklemiyle sına: işi yapan belli mi? iş karşılıklı mı? nesne var mı?\nAdım 1: I → \"Kar küreklerle açıldı\": kimin açtığı yok (\"küreklerle\" araçtır). Edilgen. Yargı doğru.\nAdım 2: II → (3)'te \"söyledi\" etkendir: komşular söylüyor, biz dinliyoruz. İş karşılıklı değil, tek yönlü. Yargı yanlış.\nAdım 3: III → \"Kar durmadı\": \"neyi durmadı?\" sorusu anlamsız; nesne yok. Yargı yanlış.\nSonuç: Yalnız I doğru.\nSık yapılan hata: Cümlede iki taraf (komşular, biz) geçince işi karşılıklı sanmak. Karşılıklı işte fiil -ş ekiyle kurulur ve iki taraf birbirine aynı işi yapar.\nCevap A."
+  hatalar: [null, "Kısmen doğru; işte payı olanı işi yapan sanma: müziği İpek hazırlamıştır, bu yarı doğrudur. Ama Kerem yalnızca metnini okumuş, kaydı Okan Bey yapmıştır; “kendisi kaydetmiş” sözü kayıt işini Kerem'e verir.", "Kısmen doğru; işi yapanı karıştırma: müziği İpek hazırlamıştır, bu yarı doğrudur. Ama müziğin sesini kısan Kerem'in kendisidir; “düzelttirmiştir” sözü düzeltme işini İpek'e verir.", "Kısmen doğru; tek yönlü işi karşılıklı sanma: kusuru Kerem kendisi düzeltmiştir, bu yarı doğrudur. Ama Kerem üç mesaj yazmış, İpek cevap yazmamıştır; “yazışmak” iki tarafın da birbirine yazmasını gerektirir."],
+  aciklama: `Fiilin çatısı, işi kimin yaptığını söyler. “Yazdı” ile “yazdırdı”, “yazdı” ile “yazıştı” aynı işi anlatmaz. Her seçenekte iki bilgi var; ikisini de metindeki ilgili yerle karşılaştır. Seçeneğin doğru olması için iki yarısı da tutmalı.
+Adım 1: Metinden dört işi çıkar. Metni yazan: Kerem (ablası yazmayı önermiş, Kerem istememiş). Kaydı yapan: Okan Bey (Kerem yalnızca okumuş). Müziği hazırlayan: İpek (Kerem rica etmiş). Müziğin sesini kısan: Kerem (İpek'ten cevap gelmemiş).
+Adım 2: A → “kaydettirmiş”: işi özne yapmaz, başkası yapar. Kaydı Okan Bey yapmış; uyuyor. “Metni kendisi yazmış”: uyuyor. İki yarı da doğru.
+Adım 3: B → “kendisi kaydetmiş”: buna göre kaydı yapan Kerem olurdu; oysa Okan Bey yapmış. Birinci yarı yanlış. (“Müziği İpek'e hazırlatmış” yarısı doğrudur.)
+Adım 4: C → “kusuru ona düzelttirmiş”: buna göre düzelten İpek olurdu; oysa Kerem kurgu programını açıp sesi kendisi kısmış. İkinci yarı yanlış.
+Adım 5: D → “yazışmış”: iş karşılıklıdır, iki taraf da birbirine yazmış olmalı. Kerem üç mesaj yazmış, İpek cevap yazmadan uyumuş; iş tek yönlü. Birinci yarı yanlış. (Sabahki özür yüz yüze dilenmiştir.)
+Sık yapılan hata: Seçeneğin doğru yarısını görünce ötekini denetlemeden işaretlemek. B, C ve D'nin birer yarısı metne uyar. Çatı sorularında her fiil için “Bu sözcüğe göre işi kim yapmış?” diye sor, sonra metne dön.
+Cevap A.`
 },
 {
   id: "tur-fc-324",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir belediyenin internet sitesinde aynı olay iki farklı duyuruyla bildirilmiştir:\nDuyuru 1: Belediye ekipleri meydandaki ağaçları budadı.\nDuyuru 2: Meydandaki ağaçlar budandı.\n**Bu iki duyuru karşılaştırıldığında aşağıdakilerden hangisi söylenebilir?**",
+  soru: `Ankara'dan Kars'a giden trene akşamüstü bindim; yolculuk bir günden uzun sürecekti. Kompartımanı üç kişi paylaşıyorduk, ilk saatlerde kimse konuşmadı. Üst ranzadaki üniversiteli genç çoktan kulaklığını takmıştı. (I) Karşımda oturan yaşlı adam, dizindeki deftere Kırıkkale'ye kadar hiç durmadan yazdı. Kalemi kâğıdın üstünde bir an bile beklemiyordu. Merak ettim ama bir şey soramadım. (II) Gece yarısına doğru koridordaki bütün ışıklar kısıldı. Tekerleklerin sesi ninni gibiydi; hemen uyumuşum. Kayseri'yi de Sivas'ı da uykuda geçmişiz; uyandığımda camın dışı bembeyazdı. (III) Sabah, yemekli vagonun garsonu bütün kompartımanlara demli çay getirdi. Bardaklar elden ele dolaşırken sohbet de kendiliğinden başladı. (IV) Tren, öğleye doğru iki yanı karla kaplı dar bir vadiye girdi. Fırat'ın bir kolu rayların hemen yanında, buz tutmuş kıyıların arasından akıyordu. Yaşlı adam defterini yeniden açtı. Hepimiz cama yapıştık; Kars'a varmamıza daha saatler vardı ama artık kimsenin acelesi kalmamıştı.
+
+**Bu parçada numaralanmış cümlelerin yüklemleri, hem işi yapanın belli olup olmamasına hem de nesne alabilen bir fiil olup olmamasına göre incelendiğinde hangi ikisi iki yönden de aynı özelliği taşır?**`,
   gorsel: null,
-  secenekler: ["İkinci duyuruda işi yapan belirsiz bırakılmış, dikkat olayın sonucuna çekilmiştir.","İkinci duyuruda olayın daha önce, ilkinde ise sonra yaşandığı bildirilmiştir.","İlk duyuruda ağaçlar budanmış, ikincisinde ekipler ağaçları birlikte budamıştır.","İkinci duyuruda budama işi, ağaçlar tarafından kendi üzerine yapılmıştır."],
+  secenekler: ["I ve III", "I ve IV", "II ve IV", "III ve IV"],
   dogru: 0,
-  hatalar: [null,"İki cümlede de yüklem geçmiş zamanlıdır; fark zamanda değil çatıdadır.","Fark tam tersidir: ilk duyuruda ekipler vardır, ikincisinde yoktur; ayrıca \"budandı\" birlikte budama anlamı vermez.","Ağaçlar kendilerini budayamaz; bu dönüşlü anlam değildir, \"-n\" eki işi yapanı belirsizleştirir."],
-  aciklama: "Etken duyuruda işi yapan açıkça yazılır; edilgen duyuruda işi yapan belirsizleşir ve vurgu işten etkilenene kayar.\nAdım 1: Duyuru 1'de özne \"belediye ekipleri\"dir; işi yapan açık.\nAdım 2: Duyuru 2'de özne \"ağaçlar\"dır; kimin budadığı yazılmamış.\nAdım 3: İki cümlenin zamanı aynıdır (geçmiş); değişen yalnızca çatıdır.\nSağlama: İkinci duyuruda \"kim?\" sorusunun yanıtı yok; birincide var.\nSık yapılan hata: Çatı farkını zaman farkıyla karıştırmak.\nCevap A."
+  hatalar: [null, "Nesnesi yazılmayan fiili nesne alamaz sanma: I'de “yazdı” yüklemine “neyi yazdı?” diye sorulabilir; nesne yazılmamış olsa da fiil nesne alabilen bir fiildir. IV'teki “girdi” ise nesne alamaz. İkisi yalnızca işi yapanın belli olması yönünden aynıdır.", "Yalnızca nesneye bakma: II ve IV'ün ikisi de nesne almaz; ama II'de işi yapan belli değildir (“ışıklar kısıldı”), IV'te bellidir (“tren girdi”). Birinci yönden farklıdırlar.", "Ek almamış nesneyi görmeme: III'te “Ne getirdi?” sorusunun cevabı “demli çay”dır; yüklem nesne almıştır. IV'teki “girdi” nesne alamaz. İkisi yalnızca işi yapanın belli olması yönünden aynıdır."],
+  aciklama: `Soru iki ölçüt veriyor. Birincisi: İşi yapan belli mi? Özne işi kendisi yapıyorsa belli (etken), özne işi yapmıyor ve yapan söylenmiyorsa belli değil (edilgen). İkincisi: Fiil nesne alabilir mi? Yükleme “neyi, kimi, ne?” diye sorulabiliyorsa alabilir (geçişli), sorulamıyorsa alamaz (geçişsiz). Her cümle için iki soruyu da cevaplayıp sonuçları karşılaştır.
+Adım 1: I “yazdı” → Yazan yaşlı adam; işi yapan belli. “Neyi yazdı?” diye sorulabilir. Cevap cümlede yazılmamış ama fiil nesne alabilen bir fiil. (“Deftere” sözü yön bildirir, nesne değildir.)
+Adım 2: II “kısıldı” → Işıkları kısan söylenmemiş; “ışıklar” işi yapmıyor. İşi yapan belli değil. Böyle bir yüklem nesne de almaz.
+Adım 3: III “getirdi” → Getiren garson; işi yapan belli. Ne getirdi? “Demli çay.” Nesne ek almamış ama cümlede duruyor; fiil nesne alabiliyor.
+Adım 4: IV “girdi” → Giren tren; işi yapan belli. “Neyi girdi?” diye sorulamaz; “vadiye” sözü “nereye?” sorusunun cevabıdır. Fiil nesne alamaz.
+Adım 5: Karşılaştır: I (belli, nesne alabilir) – II (belli değil, nesne almaz) – III (belli, nesne alabilir) – IV (belli, nesne alamaz). İki yönden de aynı olanlar I ve III.
+Sık yapılan hata: Cümlede nesne göremeyince fiili geçişsiz saymak. Geçişlilik fiilin özelliğidir: “yazdı” fiiline “neyi?” diye sorabiliyorsan nesne yazılmamış olsa da fiil geçişlidir.
+Cevap A.`
 },
 {
   id: "tur-fc-325",
   kazanim: "T.8.4.20",
   kademe: 3,
   zorluk: 4,
-  soru: "Köy okulunun yenilenmesini anlatan metin altı cümleden oluşuyor. Cümleler numaralandırılmıştır.\n(1) Köy okulunun onarımı için gerekli para toplandı.\n(2) Gönüllüler duvarları yeniden boyadı.\n(3) Eski tahtalar yenisiyle değiştirildi.\n(4) Veliler bahçedeki çiçekleri özenle suladı.\n(5) Son gün bütün sınıflar temizlendi.\n(6) Açılış töreninde okulun kurdelesi kesildi.\n**Bu metinde, işi yapanı belli etmeyen kaç cümle vardır?**",
+  soru: `Veteriner hekim Selin Hanım'ın kliniğine geçen hafta, bir inşaatın önünde bulunmuş sarı bir kedi getirildi. Onu getiren, yakındaki okulda okuyan bir çocuktu; kediyi montuna sarmıştı. Kedi günlerdir aç kalmıştı; tüyleri birbirine girmişti, ön patisinin üstüne basamıyordu. (1) Kedinin dikenlere takılıp keçeleşen tüyleri, ilk gün geniş dişli bir tarakla tarandı. Ardından patinin röntgeni çekildi; kırık yoktu, pati yalnızca incinmişti. İncinen pati sıkıca sarıldı. (2) Selin Hanım, patideki sargıyı beş gün boyunca her sabah değiştirdi. Kedi kısa sürede toparlandı, mamasını bitirmeye başladı. (3) Karnı doyan kedi, kafesinin köşesinde uzun uzun yalandı. (4) Her akşam, kedi ile onu getiren çocuk cam kapının iki yanından dakikalarca bakıştı. Bir hafta sonra kedi, kendisini bulan çocuğun evine gitti.
+
+Bu parçadaki numaralanmış cümlelerle ilgili şu yargılar verilmiştir:
+I. (1) numaralı cümlede işi yapan söylenmemiştir; (2) numaralı cümlede ise iş başkasına yaptırılmıştır.
+II. (3) numaralı cümlede iş özneye dönmektedir; (4) numaralı cümlede ise iki taraf aynı işi birbirine yapmaktadır.
+III. (2) numaralı cümlenin yüklemi nesne almıştır; (4) numaralı cümlenin yüklemi nesne almamıştır.
+
+**Buna göre bu yargılardan hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["2","3","4","5"],
+  secenekler: ["Yalnız II", "I ve II", "II ve III", "I, II ve III"],
   dogru: 2,
-  hatalar: ["İki cümleyi saymışsın; oysa dörtte işi yapan belli değil. Yüklemlerin çoğundaki -l eki edilgenliği gösterir.","Üç cümleyi saymışsın; bir edilgen cümleyi atlamışsın. (1), (3), (5) ve (6) dört edilgen cümledir.",null,"Beş cümle saymışsın; etken olan (2) ya da (4)'ü de edilgen saymışsın. Bu cümlelerde işi yapan \"gönüllüler\" ve \"veliler\" yazılıdır."],
-  aciklama: "Her cümlenin yüklemine \"kim yaptı?\" diye sor; yanıt cümlede yoksa fiil edilgendir.\nAdım 1: (1) \"para toplandı\" → kim topladı? Belli değil. Edilgen.\nAdım 2: (2) \"Gönüllüler boyadı\" → işi yapan belli. Etken.\nAdım 3: (3) \"tahtalar değiştirildi\" → kim değiştirdi? Belli değil. Edilgen.\nAdım 4: (4) \"Veliler suladı\" → işi yapan belli. Etken.\nAdım 5: (5) \"sınıflar temizlendi\" → belli değil. Edilgen.\nAdım 6: (6) \"kurdele kesildi\" → belli değil. Edilgen.\nSağlama: Edilgen cümleler (1), (3), (5), (6) → 4 tane.\nCevap C."
+  hatalar: ["III. yargıyı eksik denetleme: “Neyi değiştirdi?” sorusunun cevabı “patideki sargıyı” sözüdür, (2) numaralı cümlenin yüklemi nesne almıştır; “bakıştı” yüklemine ise “neyi?” diye sorulamaz. III de doğrudur.", "“-tir” ekini görüp işi başkasına yaptırılmış sanma ve III'ü atlama: (2) numaralı cümlede sargıyı değiştiren Selin Hanım'ın kendisidir; I'in ikinci yarısı yanlıştır. III ise doğrudur.", null, "“-tir” ekini görüp işi başkasına yaptırılmış sanma: I'in ilk yarısı doğrudur (tarayan söylenmemiş) ama ikinci yarısı yanlıştır; sargıyı Selin Hanım kimseye değiştirtmemiş, kendisi değiştirmiştir."],
+  aciklama: `Her yargı iki cümle hakkında birer bilgi veriyor. Yargının doğru olması için iki bilginin de doğru olması gerekir.
+Adım 1: Cümleleri çöz. (1) “tarandı”: tüyleri kimin taradığı yazılmamış; “tüyleri” işten etkilenen özne. (2) “değiştirdi”: değiştiren Selin Hanım; özne işi kendisi yapıyor. (3) “yalandı”: kedi kendini yalıyor; işi yapan da etkilenen de kedi (iş özneye dönüyor). (4) “bakıştı”: kedi çocuğa, çocuk kediye bakıyor; iş karşılıklı.
+Adım 2: I → İlk yarı doğru: (1)'de işi yapan söylenmemiş. İkinci yarı yanlış: “değiştirdi” fiilinde “-tir” var diye yaptırma arama. İş başkasına yaptırılsaydı sargıyı Selin Hanım'dan başka biri değiştirmiş olurdu (“değiştirtti”). Oysa değiştiren odur. Yargı yanlış.
+Adım 3: II → (3)'te iş özneye dönüyor, (4)'te iki taraf birbirine bakıyor. İki yarısı da doğru.
+Adım 4: III → (2): Neyi değiştirdi? “Patideki sargıyı.” Nesne var. (4): “Neyi bakıştı?” diye sorulamaz; nesne yok. İki yarısı da doğru.
+Adım 5: Doğru yargılar II ve III'tür.
+Sık yapılan hata: “-t, -dır, -tir” eklerini gördüğün her fiilde işi başkasına yaptırılmış saymak. “Anlattı”, “değiştirdi” gibi fiillerde özne işi kendisi yapar. Eke değil anlama bak: “Özne bu işi başkasına mı yaptırıyor?”
+Cevap C.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */
 {

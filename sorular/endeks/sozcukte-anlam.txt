@@ -63,16 +63,16 @@ tur-sa-312 | T.8.3.5 | z3 | k3 | Okul panosuna asılan duyuru aşağıda verilmi
 tur-sa-313 | T.8.3.6 | z3 | k3 | Bir futbolcu, takımının sezondaki ilk galibiyetini şöyle anlatıyor: (I) Maç başlamadan önce iki takımın kaptanları orta sahada el… | ✓IV
 tur-sa-314 | T.8.3.5 | z3 | k3 | Akşam ödevimi yaparken bütün mahallenin elektriği birden kesildi. Oda zifirî karanlığa gömüldü; göz gözü görmüyordu. Masanın kena… | ✓Görmeden, yalnızca elleriyle yoklayarak
 tur-sa-315 | T.8.3.6 | z3 | k3 | Sınıfta dört kişilik bir grup, "Mahallemizin Tarihi" sunumunu hazırlıyor. Toplantıda Burak, bütün araştırmayı tek başına yapmayı … | ✓Bu işin ancak birlikte çalışılarak başarılab…
-tur-sa-316 | T.8.3.5 | z4 | k3 | Bir öğrenci, katıldığı öykü yarışmasının ödül töreninde yaşadıklarını anlatıyor: (I) Sonuçlar açıklanmadan önce heyecandan yerimd… | ✓II
-tur-sa-317 | T.8.3.5 | z4 | k3 | Mahallemizin parkındaki çeşme yıllardır kuru duruyordu. Geçen ay belediye, çeşmenin paslanmış borularını yeniledi. Suyun verilece… | ✓Yazılışı aynı, anlamı ilgisiz iki sözcüğe
-tur-sa-318 | T.8.3.5 | z4 | k3 | Yaz tatilinde ilk kez annemin doğduğu köye gittik. Otobüsten indiğimizde köy meydanında bizi bekleyen kalabalığı görünce şaşırdım… | ✓Muhabir, bölgedeki selle ilgili sıcak bilgil…
-tur-sa-319 | T.8.3.6 | z4 | k3 | Müzik kulübümüzün yıl sonu konseri için haftalarca hazırlandık. Konserden bir gün önce ses sistemi bozulunca herkes umudunu yitir… | ✓kolları sıvadı / dili tutuldu
-tur-sa-320 | T.8.3.5 | z4 | k3 | Dedem, köyde herkesin saygı duyduğu (I) vakur bir adamdı; yüksek sesle konuştuğunu, gereksiz yere güldüğünü kimse görmemişti. Ama… | ✓tereddüt etmek: korkudan titremek
-tur-sa-321 | T.8.3.6 | z4 | k3 | I. Metin: Halı dokuyan Hatice Hanım, bir halıyı bitirmek için aylarca tezgâhın başından kalkmaz. Desenin bir yerinde yanlış bir i… | ✓Sabrın sonu selamettir.
-tur-sa-322 | T.8.3.5 | z4 | k3 | Bir öğrencinin günlüğünden alınan cümleler aşağıda numaralandırılmıştır: (I) Matematik sınavındaki düşük notların kökünde dikkats… | ✓IV
-tur-sa-323 | T.8.3.6 | z4 | k3 | Okulumuzun geri dönüşüm kampanyası ilk hafta pek ilgi görmedi. Kampanya sorumlusu Elif, kampanyanın neden ilgi görmediğini (I) in… | ✓III
-tur-sa-324 | T.8.3.5 | z4 | k3 | Bir öğrenci, "çekirdek" sözcüğünün geçtiği cümleleri, sözcüğün gerçek, mecaz ya da terim anlamında kullanılmasına göre aşağıdaki … | ✓I
-tur-sa-325 | T.8.3.6 | z4 | k3 | Mahalle kütüphanemizin girişinde, kütüphaneyi kuran öğretmenin kendi sözünü yazdırdığı bir tabela durur: (I) "Kitap, kapısını çal… | ✓II. söz, habere büyük ilgi gösterildiğini an…
+tur-sa-316 | T.8.3.5 | z4 | k3 | Belediyenin fotoğraf yarışmasında jüri sekreterliğini bu yıl dayım yaptı. Dereceye girenleri törenden bir hafta önce öğrenmişti; … | ✓Sır saklayan, ağzı sıkı
+tur-sa-317 | T.8.3.5 | z4 | k3 | Babamın arkadaşı Nermin Kaptan beni balıkçı teknesine aldığı sabah limanda yaprak kıpırdamıyordu, gökyüzünde de tek bulut yoktu. … | ✓III ile VI, metinde kullanıldıkları anlamlar…
+tur-sa-318 | T.8.3.5 | z4 | k3 | Ağustosun son haftasında doğa kulübündeki arkadaşlarımla yaylada üç gün kamp yaptık. Çadırları eski bir kuyunun yakınına kurduğum… | ✓I ve IV
+tur-sa-319 | T.8.3.6 | z4 | k3 | İlçe voleybol turnuvasının finalinde ilk iki seti kaybettik. Tribündeki ailelerimiz susmuş, yedek kulübesindeki arkadaşlarımız ba… | ✓göz önüne alarak – göze alarak
+tur-sa-320 | T.8.3.5 | z4 | k3 | Güzel sanatlar lisesinin seramik atölyesi, yıl sonu sergisinden önceki iki hafta akşam geç saatlere kadar açık kaldı. Sergiye alt… | ✓el koymak: bir şeyi alıp kullandırmamak
+tur-sa-321 | T.8.3.6 | z4 | k3 | Ekin'in yaz tatilinde tek başına yazdığı bulmaca oyunu, uygulama mağazasında iki ayda elli bin kez indirildi. Okul açıldığında çe… | ✓Dost kara günde belli olur.
+tur-sa-322 | T.8.3.5 | z4 | k3 | Eylülün ilk hafta sonu, bağ bozumuna yardım etmek için teyzemin köyüne gittik. Güneş doğarken (I) bağa vardığımızda sepetler çokt… | ✓Kerem ve İpek
+tur-sa-323 | T.8.3.6 | z4 | k3 | I. Metin: Konserden sonra davulcumuz Onur, şarkının ortasında temponun bozulmasından beni sorumlu tutup sahne arkasında bağırmaya… | ✓I. metinde bir olayla doğrulanmış, II. metin…
+tur-sa-324 | T.8.3.5 | z4 | k3 | Dağ rehberi Yaman'la ilk kez yürüyenler, onun fazla evhamlı olduğunu düşünür. Yaman yürüyüşten önce hava raporuna üç ayrı kaynakt… | ✓tedbirli – kararlı
+tur-sa-325 | T.8.3.6 | z4 | k3 | Yaz tatilinde, ilçemizin yakınındaki höyükte yürütülen kazının gençlik programına kabul edildim. Aylardır beklediğim ilk sabah se… | ✓II. deyim, ekibin isteksiz olduğu için yavaş…
 tur-sa-001 | T.8.3.5 | z1 | k0 | Aşağıdaki cümlelerin hangisinde altı çizili sözcük mecaz anlamda kullanılmıştır? | ✓Bu acı haber bütün sınıfı üzdü.
 tur-sa-002 | T.8.3.6 | z1 | k0 | Aşağıdaki deyimlerden hangisi "çok sevinmek" anlamındadır? | ✓etekleri zil çalmak
 tur-sa-003 | T.8.3.5 | z1 | k0 | Öğretmenin sorusuna verdiği yanıt herkesi şaşırttı. Bu cümlede altı çizili sözcüğün eş anlamlısı aşağıdakilerden hangisidir? | ✓cevap

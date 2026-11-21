@@ -186,122 +186,258 @@ window.LGS_BANK = window.LGS_BANK || {};
 {
   id: "tur-ab-316",
   kazanim: "T.8.3.8",
-  zorluk: 4,
   kademe: 3,
-  soru: "Okul radyosunda okunacak duyurunun numaralı cümleleri aşağıdadır:\n(1) Okulumuzun kitap günleri etkinliği cuma günü başlayacak.\n(2) Etkinlik boyunca her sınıf kendi seçtiği kitabı tanıtacak ve çizdiği afişleri koridora asacaklardır.\n(3) Tanıtım için ayrılan süre sınıf başına on dakikadır.\n(4) Kitap bağışı yapmak isteyen öğrenciler kitaplarını kütüphaneci öğretmene teslim edebilir.\n(5) Etkinliğin sonunda en yaratıcı sunumu yapan sınıf ödüllendirilecek.\n**Bu duyuruda bozukluk bulunan cümle ve bozukluğun giderilme yolu aşağıdakilerden hangisinde doğru verilmiştir?**",
+  zorluk: 4,
+  soru: `Gökyüzü gözlemine meraklı bir öğrenci, ağustos ayında katıldığı gözlem gecesini günlüğüne yazmıştır. Günlükten alınan bölümün cümleleri aşağıda numaralanarak verilmiştir:
+
+(I) Ağustos ortasında dayım, kuzenim Eren'i ve beni kentin ışıklarından uzaktaki, iki bin metre yüksekliğindeki bir yaylaya götürdü; amacımız, her yıl bu günlerde görülen ünlü Perseid meteor yağmurunu izlemekti. (II) Bizden saatler önce gelen gökyüzü meraklıları, çadırlarını çoktan kurmuş, şezlonglarını yan yana dizip kuzeydoğu ufkuna çevirmişti. (III) Dayım, bu meteorların bir kuyruklu yıldızın ardında bıraktığı küçük toz tanelerinin atmosferde yanmasıyla ortaya çıktığını anlattı. (IV) Gece yarısına doğru art arda gökyüzünü çizen meteorlara hayranlıkla baktık ve sabaha kadar tek tek saydık. (V) Meteorlar çoğu kez bir iki saniye parlayıp kayboldu; yalnızca birkaç tanesi arkasında kısa süre görünen parlak bir iz bıraktı. (VI) Dönüş yolunda dayım, gelecek yıl büyük dürbününü de yanında getireceğine ve bizi yine bu yaylaya çıkaracağına söz verdi.
+
+**Bu metinde anlatım bozukluğu bulunan cümle ve bozukluğun nedeni aşağıdakilerin hangisinde doğru verilmiştir?**`,
   gorsel: null,
-  secenekler: ["(1); \"başlayacak\" sözcüğü \"başlayacaklar\" olmalıdır.", "(2); \"asacaklardır\" sözcüğü \"asacaktır\" olmalıdır.", "(4); \"edebilir\" sözcüğü \"edebilirsiniz\" olmalıdır.", "(5); \"ödüllendirilecek\" sözcüğü \"ödüllendirecek\" olmalıdır."],
+  secenekler: ["II; yüklem, özneye sayı bakımından uymamaktadır.", "IV; ikinci yüklemin istediği nesne yazılmamıştır.", "IV; birinci yüklemin istediği tümleç yazılmamıştır.", "VI; sıralanan öğeler aynı hâl ekini almamıştır."],
   dogru: 1,
-  hatalar: ["Özne \"etkinlik\" tekildir ve \"başlayacak\" da tekildir; uyum vardır. Çoğul ek koymak yeni bozukluk yaratır.", null, "Özne \"öğrenciler\" üçüncü çoğul kişidir; \"edebilir\" üçüncü kişiye uyar. İkinci kişi eki özneyle çatışır.", "\"Ödüllendirilecek\" edilgendir ve özne \"sınıf\" ile uyumludur; etken yapınca nesnesiz kalır."],
-  aciklama: "Bu tür sorularda hem bozukluğun yerini hem düzeltme yolunu doğru eşleştirmek gerekir.\nAdım 1: Her cümlede özne-yüklem uyumunu kontrol et. (1): özne \"etkinlik\", yüklem \"başlayacak\" → uyumlu. (3), (4), (5) de uyumlu.\nAdım 2: (2). cümlede özne \"her sınıf\"tır. \"Her\" sözcüğü tekil anlam taşır; yüklem tekil olmalı. Oysa \"asacaklardır\" çoğuldur.\nAdım 3: \"Tanıtacak\" tekil; \"asacaklardır\" çoğul. Aynı özneye bağlı iki yüklem birbirinden farklı sayıda.\nAdım 4: Düzeltme: \"…tanıtacak ve çizdiği afişleri koridora asacaktır.\"\nSık yapılan hata: \"Her sınıf\" öbeğini çoğul sanmak. \"Her + tekil ad\" yapısı tekil yüklem ister.\nCevap B."
+  hatalar: ["Çoğul özneye bağlı tekil yüklemi bozukluk sayma: “gökyüzü meraklıları” üçüncü çoğul kişidir; böyle öznelerde yüklemin çoğul eki alması şart değildir. “kurmuş, … çevirmişti” biçimi kusursuzdur.", null, "Eksik öğeyi yanlış yükleme bağlama: “meteorlara” sözü birinci yüklemin (“baktık”) istediği tümleçtir ve cümlede yazılıdır. Eksik olan, “saydık” yükleminin nesnesidir.", "Sıralanan öğeleri yanlış seçme: “ve” ile bağlanan öğeler “getireceğine” ile “çıkaracağına” sözleridir; ikisi de -e hâlindedir. “dürbününü” ile “yaylaya” sözleri ayrı yan cümlelerin öğeleridir, aynı eki almaları gerekmez."],
+  aciklama: `Bir öğe iki yükleme ortak bağlanıyorsa her yüklemin o öğeyi aynı ekle isteyip istemediğini denetlersin. Ek tutmuyorsa o yüklemin öğesi ayrıca yazılmalıdır; yazılmamışsa öğe eksikliği doğar.
+Adım 1: I → “Eren'i ve beni … götürdü”: sıralanan iki nesne de -ı hâlindedir, yüklem “dayım” öznesine uyar. Kusursuz.
+Adım 2: II → Özne “gökyüzü meraklıları” üçüncü çoğul kişidir. Böyle öznelerde yüklem çoğul eki almak zorunda değildir; “kurmuş, … çevirmişti” doğrudur. A elenir.
+Adım 3: III → “toz tanelerinin … yanmasıyla”, “meteorların … ortaya çıktığını”: tamlamaların ekleri tamdır. Kusursuz.
+Adım 4: IV → İki yüklem var: “baktık” ve “saydık”. “Neye baktık?” → “meteorlara”; birinci yüklemin tümleci yazılıdır, C elenir. “Neyi saydık?” → cevap yok. “meteorlara” sözü -e hâlindedir, “saymak” ise -ı hâlinde bir nesne ister. İkinci yüklemin nesnesi eksiktir. Düzeltme: “… meteorlara hayranlıkla baktık ve onları sabaha kadar tek tek saydık.”
+Adım 5: V → Her yüklemin öznesi yazılıdır (“meteorlar”, “birkaç tanesi”). Kusursuz.
+Adım 6: VI → “ve” ile sıralanan öğeler “getireceğine” ile “çıkaracağına” sözleridir; ikisi de -e hâlindedir ve “söz verdi” yüklemine uyar. “dürbününü” ile “yaylaya” sözleri bu yan cümlelerin kendi öğeleridir; birbirine uymaları gerekmez. D elenir.
+Sık yapılan hata: Bozuk cümleyi bulup eksik öğeyi yanlış yükleme yüklemek. Her yükleme kendi sorusunu ayrı ayrı sor; cevabı cümlede bulunmayan yüklem, öğesi eksik olan yüklemdir.
+Cevap B.`
 },
 {
   id: "tur-ab-317",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Şehir tiyatrosunun çocuk oyununu anlatan bir haberden numaralı cümleler verilmiştir:\n(1) Şehir tiyatrosu, bu yıl çocuklar için yeni bir oyun hazırladı.\n(2) Oyunun sahnelenmesi için yaklaşık olarak tahminen üç aylık bir hazırlık yapıldı.\n(3) Oyunculardan biri, sahneye çıkmadan önce hiç heyecanlanmadığı için ellerinin titrediğini söyledi.\n(4) Oyunu izleyen çocuklar hep birlikte topluca alkışladı.\n(5) Gösterim, çocukların yoğun ilgisi nedeniyle bir hafta daha uzatıldı.\n**Bu cümlelerden hangi ikisindeki bozukluk aynı nedenden kaynaklanmaktadır?**",
+  soru: `İlçemizdeki gölde her bahar, on dört ile on altı yaş arasındaki gençlerin katıldığı bir kürek yarışı düzenlenir. Dört kürekçi ile bir dümenciden oluşan ekipler, iki bin metrelik parkuru en kısa sürede bitirmeye çalışır. Dümenci küreğe dokunmaz; teknenin yönünü ve ekibin temposunu ayarlar. Yerel bir gazetenin bu yılki yarışı anlatan haberinden alınan altı cümle aşağıda numaralanarak verilmiştir:
+
+(I) Teknelerin tamamı, yarıştan bir saat önce iskelede hakemlerce tek tek tartıldı. (II) Başlama işareti, kıyıyı dolduran yüzlerce seyircinin önünde, saat tam onda yarış hakemi tarafından verildi. (III) Teknelerden hiçbiri, rüzgârın sert estiği ilk bin metrede ötekilerin önüne geçemediler. (IV) Kıyıdaki seyirciler, son beş yüz metrede öne geçen kırmızı tekneye yüksek sesli tezahüratla destekledi. (V) Kırmızı tekne temposunu son metreye kadar hiç düşürmedi ve bitiş çizgisine yarım tekne boyu farkla ilk sırada ulaşıldı. (VI) Kupa, akşamüstü göl kıyısında yapılan törende kazanan ekibe kulüp başkanı tarafından verdi.
+
+**Bu haberdeki numaralanmış cümlelerden hangi ikisinde anlatım bozukluğu aynı nedenden kaynaklanmaktadır?**`,
   gorsel: null,
-  secenekler: ["(2) ve (3)", "(3) ve (4)", "(1) ve (5)", "(2) ve (4)"],
+  secenekler: ["I ve III", "II ve VI", "IV ve V", "V ve VI"],
   dogru: 3,
-  hatalar: ["(2) gereksiz sözcük yüzünden, (3) mantık hatası yüzünden bozuktur; ikisi de bozuk ama nedenleri farklıdır.", "(3) mantık hatası yüzünden, (4) gereksiz sözcük yüzünden bozuktur; ikisi de bozuk ama nedenleri farklıdır.", "(1) ve (5) kusursuzdur; ikisinde de bozukluk yoktur.", null],
-  aciklama: "Önce her cümlenin bozukluğunu adlandır, sonra aynı adı taşıyanları eşleştir.\nAdım 1: (1) → kusursuz.\nAdım 2: (2) → \"yaklaşık olarak\" ve \"tahminen\" aynı anlamdadır; gereksiz sözcük.\nAdım 3: (3) → \"heyecanlanmadığı için ellerinin titremesi\" neden-sonuç olarak çelişir; mantık hatası.\nAdım 4: (4) → \"hep birlikte\" ve \"topluca\" aynı anlamı yineler; gereksiz sözcük.\nAdım 5: (5) → kusursuz.\nSonuç: (2) ve (4) aynı nedenle (gereksiz sözcük) bozuktur. (3) de bozuktur ama nedeni farklıdır (mantık hatası); bu yüzden (2) ile (3) ya da (3) ile (4) aynı nedene bağlanamaz.\nSık yapılan hata: İki bozuk cümleyi bulup türlerine bakmadan eşleştirmek.\nCevap D."
+  hatalar: ["Benzer özneye aldanma: I'de “tamamı” tekil özne sayılır ve yüklem tekildir, cümle kusursuzdur. III'te ise “hiçbiri” öznesine çoğul yüklem bağlanmıştır; yalnızca III bozuktur.", "“Tarafından” sözünü bozukluk sanma: II'de “tarafından” edilgen yüklemle (“verildi”) kullanılmıştır, cümle kusursuzdur. VI'da aynı söz etken yüklemle (“verdi”) kullanıldığı için bozukluk vardır.", "Bozuk cümleleri nedenine bakmadan eşleştirme: ikisi de bozuktur ama IV'te hâl eki yanlıştır (“tekneye destekledi”), V'te yüklemlerin çatısı uyuşmaz. Nedenler farklıdır.", null],
+  aciklama: `Önce her cümlenin bozuk olup olmadığına karar ver, sonra bozuk olanların nedenini adlandır. Çatı, yüklemin etken (işi özne yapar: “verdi”) ya da edilgen (işi yapan belli değildir ya da “tarafından” ile verilir: “verildi”) olmasıdır.
+Adım 1: I → “tamamı” tekil özne sayılır, “tartıldı” tekildir. “hakemlerce” sözü de edilgen yüklemle uyumludur. Kusursuz.
+Adım 2: II → “hakem tarafından verildi”: “tarafından” edilgen yüklemle kullanılmış. Kusursuz.
+Adım 3: III → “hiçbiri” tekil özne sayılır ama yüklem “geçemediler” çoğuldur. Neden: özne-yüklem arasında sayı uyumsuzluğu.
+Adım 4: IV → “desteklemek” fiili “Kimi, neyi?” sorusunun cevabını ister: “tekneyi destekledi”. Neden: ek yanlışlığı.
+Adım 5: V → Özne “Kırmızı tekne”. “düşürmedi” etken, “ulaşıldı” edilgendir. Aynı özneye bağlı yüklemler aynı çatıda olmalıdır: “ulaştı”. Neden: çatı uyuşmazlığı.
+Adım 6: VI → “kulüp başkanı tarafından” sözü edilgen yüklem ister, oysa yüklem etkendir: “verdi”. Doğrusu “verildi”. Neden: çatı uyuşmazlığı.
+Sonuç: Dört bozuk cümlenin (III, IV, V, VI) yalnızca ikisinde, V ve VI'da, bozukluk yüklemin çatısından kaynaklanır.
+Sık yapılan hata: Dış görünüşü benzeyen cümleleri eşleştirmek. II ile VI'nın ikisinde de “tarafından” geçer ama biri kusursuzdur; V ile VI birbirine hiç benzemez ama nedenleri aynıdır.
+Cevap D.`
 },
 {
   id: "tur-ab-318",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir belediyenin bisiklet yolu projesini anlatan broşürden dört cümle alınmıştır:\n(1) Şehrimizde bisiklet yollarının sayısı arttıkça işe bisikletle giden insanlar da çoğaldı.\n(2) Bisiklet kullanmak, hem sağlığa hem de çevre kirliliğini azaltır.\n(3) Yeni bisiklet park alanları bu ay içinde yapılacak ve vatandaşların kullanımına açacak.\n(4) Bisiklet kullanımının yaygınlaşması sayesinde şehirdeki hava kirliliği arttı.\n**Bu cümlelerin hangisinde anlatım bozukluğu __yoktur__?**",
+  soru: `Mahalle kütüphanemize geçen ay üç boyutlu bir yazıcı alındı. Yazıcı, erittiği plastiği incecik katmanlar hâlinde üst üste sererek cisimler üretiyor; avuç içi kadar bir anahtarlığın basılması bile yarım saati buluyor. Kütüphanenin duyuru panosuna asılan yazıda yazıcının kullanımıyla ilgili şu cümleler yer alıyor:
+
+(I) Görevlimiz, yazıcıyı ilk kez kullanacak üyeler önce küçük bir deneme baskısı almasını istiyor.
+(II) Tasarım dosyaları en geç bir gün önceden görevliye teslim edilir ve o haftanın baskı sırasına konur.
+(III) Yazıcıyı kullanmak ücretsiz olduğu için üyeler yine de harcadıkları plastiğin parasını öder.
+(IV) Üyeler haftada en çok iki baskı alabilir; bir baskının süresi de iki saati geçemez.
+
+Yazıyı inceleyen üç öğrenci şunları söylemiştir:
+Asya: I. cümledeki bozukluk, “üyeler” sözü “üyelerin” yapılınca giderilir.
+Berk: III. cümledeki bozukluk, karşıtlık bildirmesi gereken yerde neden bildiren bir söz kullanılmasından kaynaklanır.
+Cem: I. cümlede “üyeler” sözü çoğul olduğu için bozukluk, “almasını” sözü “almalarını” yapılınca da giderilir.
+
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
   gorsel: null,
-  secenekler: ["(1). cümle", "(2). cümle", "(3). cümle", "(4). cümle"],
+  secenekler: ["Asya ve Berk", "Asya ve Cem", "Berk ve Cem", "Asya, Berk ve Cem"],
   dogru: 0,
-  hatalar: [null, "Yüklem eksikliği ve ek yanlışlığı vardır: \"sağlığa\" yönelme hâlinde bırakılmış, \"azaltır\" yüklemi ona uymaz; \"sağlığa yarar\" gibi bir yüklem gerekir.", "Çatı uyuşmazlığı vardır: \"yapılacak\" edilgen, \"açacak\" etkendir; ikisi aynı özneye bağlı.", "Anlam bozukluğu vardır: \"yaygınlaşması sayesinde\" olumlu bir sonuç bekletir, ama cümle \"arttı\" diyerek ters bir sonuç bildirir."],
-  aciklama: "Doğru cümlede öğeler birbirine uygun, anlam tutarlıdır.\nAdım 1: (1) → \"arttıkça … çoğaldı\" kalıbında neden ve sonuç aynı yönde ilerliyor. Özne \"insanlar\", yüklem \"çoğaldı\" uyumlu. Kusursuz.\nAdım 2: (2) → \"hem sağlığa hem de çevre kirliliğini azaltır\": ilk öğe -e hâlinde, yükleme uymuyor; ortak yüklem hem öğeye uymuyor.\nAdım 3: (3) → \"yapılacak\" (edilgen) ve \"açacak\" (etken) aynı özneye bağlı; çatı uyuşmazlığı.\nAdım 4: (4) → \"sayesinde\" olumlu sonuç ister; \"arttı\" kirliliğin artışını bildirir, mantık hatası.\nSık yapılan hata: Üç bozuk cümle arasında kusursuz olanı \"şüpheli\" sanıp elemek.\nCevap A."
+  hatalar: [null, "Çoğul ekini tamlayan eki sanma ve bağlaç yanlışını kaçırma: “üyeler … almalarını istiyor” denince de “üyeler” sözü tamlayan ekini almamış olur; Cem yanılır. III. cümlede ise “olduğu için” sözü gerçekten yanlış kullanılmıştır; Berk haklıdır.", "Bozukluğu sayı uyumsuzluğu sanma: I. cümledeki sorun çoğul ekinin değil, tamlayan ekinin eksikliğidir. Bu eksiği Asya'nın önerisi giderir, Cem'in önerisi gidermez.", "Yarım düzeltmeyi yeterli sayma: Asya ile Berk haklıdır ama “almasını” sözü “almalarını” yapıldığında “üyeler” yine eksiz kalır; Cem'in önerisi bozukluğu gidermez."],
+  aciklama: `Bu soruda iki ayrı bozukluğu bulman, sonra önerilen düzeltmeleri cümleye tek tek uygulayıp yeniden okuman gerekir.
+Adım 1: I → Cümlenin öznesi “görevlimiz”, yüklemi “istiyor”. Görevlinin istediği şey “alma” işidir; bu işi kimin yapacağı tamlayan ekiyle gösterilir: “üyelerin … almasını”. “üyeler” sözü eksiz kaldığı için tamlama yanlışlığı vardır.
+Adım 2: Asya'nın önerisini uygula: “Görevlimiz, yazıcıyı ilk kez kullanacak üyelerin önce küçük bir deneme baskısı almasını istiyor.” Bozukluk giderildi. Asya haklıdır.
+Adım 3: Cem'in önerisini uygula: “… üyeler önce küçük bir deneme baskısı almalarını istiyor.” Tamlanan çoğul oldu ama tamlayan yine eksiz: “üyeler almalarını” denmez, “üyelerin almalarını” denir. Bozukluk sürüyor. Cem yanılır.
+Adım 4: II → “teslim edilir” ve “konur” yüklemlerinin ikisi de edilgendir, ikisi de “tasarım dosyaları” sözüne bağlıdır. Kusursuz.
+Adım 5: III → Yazıcıyı kullanmak ücretsizdir ama üyeler plastiğin parasını öder; iki durum arasında karşıtlık var. “-dığı için” ise neden bildirir; ücretsiz olmak, para ödemenin nedeni olamaz. Doğrusu “ücretsiz olduğu hâlde” olmalıdır. Berk haklıdır.
+Adım 6: IV → Her yüklemin kendi öznesi yazılıdır (“üyeler”, “süresi”). Üçüncü çoğul kişide “Üyeler … alabilir” biçimi doğrudur. Kusursuz.
+Sık yapılan hata: “üyeler” çoğul diye sorunu çoğul ekinde aramak. Bir işi kimin yapacağını bildiren söz, “-ması, -mesi” ekli sözün tamlayanıdır; önce tamlayan ekine bak: “öğrencilerin gelmesini bekliyor”.
+Cevap A.`
 },
 {
   id: "tur-ab-319",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Okul bahçesindeki ağaçların bakımını anlatan bir yazıdan numaralı cümleler verilmiştir:\n(1) Okul bahçesindeki ağaçlar yıllar önce öğrenciler tarafından dikildi.\n(2) Ağaçların çoğu bu yaz yaşanan kuraklık nedeniyle yeşerdi.\n(3) Bu durumu fark eden okul idaresi, ağaçların sulanması için bir takvim hazırladı.\n(4) Takvime göre her sınıf haftada bir gün ağaçları sulayacak.\n**Bu yazıdaki bozukluk ve giderilme yolu aşağıdakilerden hangisinde doğru verilmiştir?**",
-  gorsel: null,
-  secenekler: ["(1); \"dikildi\" sözcüğü \"dikti\" olmalıdır.", "(2); \"yeşerdi\" sözcüğü \"kurudu\" olmalıdır.", "(3); \"hazırladı\" sözcüğü \"hazırlandı\" olmalıdır.", "(4); \"sulayacak\" sözcüğü \"sulanacak\" olmalıdır."],
+  soru: `Bir doğa derneğinin gönüllüleri, ilkbaharda İstanbul Boğazı üzerinden geçen leylek sürülerini günlerce izlemiş ve bir gözlem raporu yazmıştır. Rapordan alınan dört cümle ile bu cümlelere ilişkin dört değerlendirme aşağıda karışık olarak verilmiştir. Her değerlendirme yalnızca bir cümleyle eşleşmektedir.
+
+**Buna göre cümleler ile değerlendirmelerin doğru eşleştirilmesi aşağıdakilerden hangisidir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Yuvadaki yavrular ilk haftalarda hem yetişkin leyleklerin getirdiği solucanları hem de gagayla taşınan suyu yer.</td></tr><tr><td>II</td><td>Sürü, karşı kıyıya geçmeden önceki gün boyunca hem dere kıyısındaki sulak çayırlarda hem de yeni sürülmüş tarlalara beslendi.</td></tr><tr><td>III</td><td>Köylüler kış bitmeden hem elektrik direğinin tepesindeki eski yuvayı onardı hem de leyleklerin dönüşünü sabırla bekledi.</td></tr><tr><td>IV</td><td>Hem dernekteki arkadaşlarım hem de ben, yüzlerce leyleğin geçişini sabahtan akşama kadar tepeden izledi.</td></tr></table><table class=\"tablo\"><tr><th></th><th>Değerlendirme</th></tr><tr><td>a</td><td>Yüklem, özneye kişi bakımından uymamaktadır.</td></tr><tr><td>b</td><td>Sıralanan öğelerden biri için gereken yüklem yazılmamıştır.</td></tr><tr><td>c</td><td>Sıralanan öğeler aynı hâl ekini almamıştır.</td></tr><tr><td>d</td><td>Cümlede anlatım bozukluğu yoktur.</td></tr></table>",
+  secenekler: ["I-b, II-c, III-a, IV-d", "I-b, II-c, III-d, IV-a", "I-c, II-b, III-d, IV-a", "I-d, II-b, III-a, IV-c"],
   dogru: 1,
-  hatalar: ["\"Ağaçlar … öğrenciler tarafından dikildi\" cümlesi edilgen ve doğrudur; etken yapınca \"tarafından\" ile çelişir.", null, "Özne \"okul idaresi\" etken yüklem \"hazırladı\"yla uyumlu; edilgen yapmak nesneyi (\"takvim\") özne konumuna sokup anlamı bozar.", "Özne \"her sınıf\" ağaçları sular; edilgen \"sulanacak\" yapmak özneyi ağaçlar gibi gösterir ve cümleyi bozar."],
-  aciklama: "Önce metnin mantık zincirini kur, sonra çelişen halkayı bul.\nAdım 1: Kuraklık ağaçların yeşermesine değil, kurumasına yol açar.\nAdım 2: Metnin devamı bunu doğrular: okul idaresi \"bu durumu fark edip\" ağaçların sulanması için takvim hazırlıyor. Demek ki ağaçlar susuz kalmıştır.\nAdım 3: (2). cümledeki \"yeşerdi\" bu zincirle çelişir; neden-sonuç yanlış kurulmuş. Doğrusu \"kurudu\" ya da \"zarar gördü\" olmalıdır.\nAdım 4: Diğer cümlelerde çatı ve özne uyumu doğrudur.\nSık yapılan hata: Düzeltme seçeneğinde çatıyı değiştirmek; bozukluk dilbilgisel değil anlamsaldır.\nCevap B."
+  hatalar: ["Kusursuz cümleyi bozuk, bozuk cümleyi kusursuz sayma: III'te “Köylüler … onardı … bekledi” doğrudur; üçüncü çoğul kişide yüklem çoğul eki almak zorunda değildir. IV'te ise “arkadaşlarım ve ben” öznesi “biz” demektir, “izledi” yüklemi buna uymaz.", null, "Yüklem eksikliği ile ek uyumsuzluğunu karıştırma: I'de “solucanları” ve “suyu” aynı eki almıştır; sorun “su” için gereken “içer” yükleminin yazılmamasıdır. II'de ise yüklem iki öğeye de yeter, “tarlalara” sözünün eki yanlıştır.", "Cümleleri yüklemle sınamadan karar verme: I'de “suyu yer” denemez, cümle kusursuz değildir. III'te “Köylüler … onardı” biçimi doğrudur. IV'teki sorun ise hâl eki değil, “arkadaşlarım ve ben” öznesine uymayan yüklemdir."],
+  aciklama: `Dört cümle de “hem … hem de” ile kurulmuş; dıştan birbirine benziyor. Böyle cümlelerde üç şeyi sınarsın: sıralanan öğeler aynı eki almış mı, ortak yüklem her birine uyuyor mu, yüklem özneye uyuyor mu?
+Adım 1: I → Sıralanan öğeler “solucanları” ve “suyu”; ikisi de -ı hâlinde, ek sorunu yok. Yüklemi her birine bağla: “solucanları yer” olur, “suyu yer” olmaz. Su için “içer” yüklemi gerekir ama yazılmamış. → b
+Adım 2: II → Sıralanan öğeler “çayırlarda” ve “tarlalara”. “beslendi” yüklemi “Nerede?” sorusunun cevabını ister: “çayırlarda … tarlalarda beslendi”. Biri -de, öbürü -e hâlinde. → c
+Adım 3: III → “yuvayı onardı”, “dönüşünü bekledi”: her yüklemin nesnesi yazılı. Özne “köylüler” üçüncü çoğul kişidir; “onardı, bekledi” biçimi doğrudur. → d
+Adım 4: IV → Özne “arkadaşlarım ve ben”, yani “biz”. Yüklem “izledik” olmalıydı. → a
+Adım 5: Eşleştirme: I-b, II-c, III-d, IV-a.
+Sağlama: I ile II'yi yer değiştirmeyi dene. I'de öğeler aynı eki aldığı için “c” denemez; demek ki eşleştirme tek biçimde kurulabiliyor.
+Sık yapılan hata: III ile IV'ü karıştırmak. Üçüncü çoğul kişide (köylüler, gönüllüler) tekil yüklem kusursuzdur; bozukluk, tekil öznenin çoğul yüklem almasıdır. Özne birinci ya da ikinci kişiyse (arkadaşlarım ve ben) yüklem kişiye uymak zorundadır.
+Cevap B.`
 },
 {
   id: "tur-ab-320",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Hava durumu bültenine ve bir kültür sayfasına ait şu cümleler verilmiştir:\nI. Gün boyu süren yağışın ardından bulutlar dağıldı, akşama doğru güneş göründü.\nII. Bu mevsimde kuzeyden gelen soğuk hava dalgası, sabah saatlerinde etkisini artırdı.\nIII. Yeni açılan müzeyi gezmeyi ve fotoğraf çekmek herkesin hoşuna gitti.\n**Bu cümlelerden hangilerinde anlatım bozukluğu __yoktur__?**",
+  soru: `Kentimizin en işlek caddesinde altmış yıl önce sökülen tramvay hattı, bu bahar yeniden hizmete girdi. Kırmızı vagonlarıyla eski fotoğrafların değişmez süsü olan hat, o yıllarda otomobillere yer açmak için kapatılmıştı. Hattın yeniden kurulması, kent sakinlerinin mahalle toplantılarında dile getirdiği istek üzerine üç yıl önce kararlaştırıldı. Belediyenin aylık bülteninde hatla ilgili şu cümleler yer aldı:
+
+(I) Raylar eski güzergâha sadık kalınarak yeniden döşendi ve vagonlar aslına uygun biçimde kırmızıya boyandı. (II) Tramvay, sabah yediden gece yarısına kadar on dakikada bir meydandan kalkıyor ve iki kilometrelik yolu on beş dakikada alıyor. (III) Tramvayın depoda bekleyen eski vagonların onarımı tam iki yıl sürdü. (IV) Yolcular biletlerini ya meydandaki gişeden hem de vagonun girişindeki makineden alabiliyor. (V) Hat açıldıktan sonra caddedeki dükkânların geliri gözle görülür biçimde arttı ve yeni düzenden memnun olduklarını belirtiyor. (VI) Belediye, önümüzdeki yıl hattı sahile kadar uzatmayı ve iki yeni vagon almak istiyor.
+
+**Aşağıdaki değişikliklerden hangisi bu bültendeki bir anlatım bozukluğunu __gidermez__?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
+  secenekler: ["III. cümlede “vagonların” sözünü “vagonlarının” yapmak", "IV. cümlede “ya” sözünü “hem” yapmak", "V. cümlede “olduklarını” sözünü “olduğunu” yapmak", "VI. cümlede “uzatmayı” sözünü “uzatmak” yapmak"],
   dogru: 2,
-  hatalar: ["II de kusursuzdur: \"soğuk hava dalgası\" özne, \"artırdı\" yüklem; anlam ve çekim tutarlı. Yalnız I demek eksik kalır.", "I de kusursuzdur: yağış-bulutların dağılması-güneş zinciri mantıklı. Yalnız II demek eksik kalır.", null, "III bozuktur: \"gezmeyi\" ile \"fotoğraf çekmek\" aynı yapıda değil; ek uyumsuzluğu vardır."],
-  aciklama: "Her cümleyi ayrı değerlendirip yanıt \"yoktur\" olanları seç.\nAdım 1: I → yağış, bulutların dağılması, güneşin görünmesi zaman sırasıyla ve mantıklı biçimde dizilmiş. Özne-yüklem uyumu da tam. Bozukluk yok.\nAdım 2: II → \"kuzeyden gelen soğuk hava dalgası\" öznesi \"etkisini artırdı\" yüklemiyle uyumlu; anlam bütünlüğü sorunsuz. Bozukluk yok.\nAdım 3: III → \"gezmeyi\" belirtme hâlinde mastar, \"fotoğraf çekmek\" yalın mastar. İki eş görevli öğe aynı yüklemin (\"hoşuna gitti\") öznesi olduğu için aynı biçimde olmalı. Doğrusu: \"gezmek ve fotoğraf çekmek\".\nSonuç: I ve II'de bozukluk yoktur.\nSık yapılan hata: \"Yoktur\" kökünü gözden kaçırıp bozuk olanı işaretlemek.\nCevap C."
+  hatalar: ["Zincirleme tamlamayı sınamama: “tramvayın vagonları” ve “vagonların onarımı” iç içe iki tamlamadır; ortadaki sözcük hem tamlanan hem tamlayan ekini alır. “vagonlarının” yapılınca bozukluk giderilir.", "Çift bağlacın tek yoldan düzeleceğini sanma: “ya … hem de” olmaz ama çifti kurmanın iki yolu vardır. “hem de” sözü “ya da” yapılabildiği gibi “ya” sözü de “hem” yapılabilir; “hem … hem de” kusursuz bir çifttir.", null, "Düzeltmenin yönüne takılma: bozukluk “almak” sözü “almayı” yapılarak giderilebildiği gibi “uzatmayı” sözü “uzatmak” yapılarak da giderilir. İki durumda da sıralanan öğeler aynı biçime girer."],
+  aciklama: `Kök, bozukluğu gidermeyen değişikliği soruyor. Her değişikliği cümleye uygula ve yeniden oku: bozukluk gidiyorsa o seçenek cevap değildir.
+Adım 1: III → “Tramvayın … eski vagonların onarımı”: “vagonlar” sözü hem “tramvayın” sözünün tamlananı hem “onarımı” sözünün tamlayanıdır; iki eki de almalıdır. “Tramvayın depoda bekleyen eski vagonlarının onarımı” doğru olur. A bozukluğu giderir.
+Adım 2: IV → “ya … hem de” olmaz; çift bağlaçlar eşleriyle gelir. Çift iki yoldan kurulabilir: “ya … ya da” ya da “hem … hem de”. B'deki değişiklikle cümle “hem meydandaki gişeden hem de vagonun girişindeki makineden alabiliyor” olur. B bozukluğu giderir.
+Adım 3: V → İki yüklem var: “arttı” ve “belirtiyor”. “Ne arttı?” → “dükkânların geliri”. “Kim belirtiyor?” → cevap yok; gelir bir şey belirtemez. Özne değiştiği hâlde yeni özne yazılmamış: özne eksikliği. Doğrusu: “… geliri gözle görülür biçimde arttı; dükkân sahipleri de yeni düzenden memnun olduklarını belirtiyor.”
+Adım 4: C'deki değişikliği uygula: “… geliri gözle görülür biçimde arttı ve yeni düzenden memnun olduğunu belirtiyor.” “Kim belirtiyor?” sorusu yine cevapsız. Sözcük tekil oldu ama eksik özne yerine gelmedi. C bozukluğu gidermez.
+Adım 5: VI → “uzatmayı ve … almak istiyor”: sıralanan iki öğeden biri -mayı, öbürü -mak biçiminde. “uzatmak ve iki yeni vagon almak istiyor” denince ikisi aynı biçime girer. D bozukluğu giderir.
+Adım 6: I ve II kusursuzdur: I'de iki yüklem de edilgendir ve her birinin öznesi yazılıdır; II'de iki etken yüklem aynı özneye (“tramvay”) bağlıdır.
+Sık yapılan hata: Çoğul bir söz (“olduklarını”) ile tekil bir yüklemi (“belirtiyor”) yan yana görünce sorunu sayı uyumunda aramak. Önce her yükleme “Kim? Ne?” diye sor; öznesi bulunmayan yüklemde sorun ek değil, eksik öznedir.
+Cevap C.`
 },
 {
   id: "tur-ab-321",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Köy hasat şenliğini anlatan bir yazıdan numaralı cümleler verilmiştir:\n(1) Köy meydanında her yıl düzenlenen hasat şenliği bu yıl da büyük ilgi gördü.\n(2) Şenliğe komşu köylerden gelen onlarca aile katıldı.\n(3) Çocuklar bir yandan oyunlar oynadı, bir yandan şarkılar.\n(4) Akşam saatlerinde hep birlikte yemek yenildi.\n**Bu yazıdaki anlatım bozukluğu ve nasıl giderileceği aşağıdakilerden hangisinde doğru verilmiştir?**",
+  soru: `Ebru, geven bitkisinden elde edilen kitreyle koyulaştırılmış suyun yüzeyinde yapılan bir süsleme sanatıdır. Boyalar, gül dalına at kılı bağlanarak yapılmış fırçalarla suya serpilir. Boyaların içine önceden sığır ödü katılır; öd, boyaların dibe çökmesini önler ve yüzeye yayılmasını sağlar. Usta, ince uçlu bir çubukla suyun yüzeyinde desenler oluşturur, ardından kâğıdı teknenin üzerine yatırır.
+
+Bir ebru atölyesini gezen Defne, gördüklerini anlatırken şu cümleyi yazmıştır:
+
+“Usta, suya serptiği boyaları ince uçlu bir çubukla biçim verdi; içlerine öd katıldığı hâlde boyalar dibe çökmedi.”
+
+Cümledeki anlatım bozukluklarını fark eden dört arkadaşı, cümleyi şöyle düzeltmiştir:
+Arda: “Usta, suya serptiği boyaları ince uçlu bir çubukla biçim verdi; içlerine öd katıldığı için boyalar dibe çökmedi.”
+Beril: “Usta, suya serptiği boyalara ince uçlu bir çubukla biçim verdi; içlerine katılan öd yüzünden boyalar dibe çökmedi.”
+Cenk: “Usta, suya serptiği boyalara ince uçlu bir çubukla biçim verdi; içlerine öd katıldığı için boyalar dibe çökmedi.”
+Duru: “Usta, suya serptiği boyaları ince uçlu bir çubukla biçimlendirdi; içlerine katılan öd sayesinde boyalar dibe çökmedi.”
+
+**Buna göre hangi iki öğrencinin yazdığı cümlede anlatım bozuklukları tümüyle giderilmiştir?**`,
   gorsel: null,
-  secenekler: ["(1); \"ilgi gördü\" yerine \"ilgi görüldü\" yazılmalıdır.", "(2); \"katıldı\" yerine \"katılındı\" yazılmalıdır.", "(3); \"oynadı\" sözcüğü \"oynadılar\" olmalıdır.", "(3); \"şarkılar\" sözcüğünden sonra \"söyledi\" eklenmelidir."],
+  secenekler: ["Arda ve Beril", "Arda ve Cenk", "Beril ve Duru", "Cenk ve Duru"],
   dogru: 3,
-  hatalar: ["(1) kusursuzdur; \"görmek\" etkindir ve \"şenlik\" özneyle uyumludur. Düzeltme yeni bozukluk ekler.", "(2) kusursuzdur; \"aile\" özneyle \"katıldı\" uyumludur. \"Katılındı\" kullanımı çatıyı gereksiz değiştirir.", "Özne \"çocuklar\" çoğul olsa da \"oynadı\" biçimi bozukluğun nedeni değildir; asıl eksik, \"şarkılar\" için uygun bir yüklemin olmamasıdır.", null],
-  aciklama: "Yüklem eksikliği, farklı fiil gerektiren öğelerin tek yüklemle bağlanmasıdır.\nAdım 1: (3). cümlede iki öğe var: \"oyunlar\" ve \"şarkılar\". İlk öğe \"oynadı\" ile anlamlı: oyun oynanır.\nAdım 2: Ama şarkılar oynanmaz; şarkı söylenir. İkinci öğe için ayrı bir yüklem gerekli ama eksik.\nAdım 3: Düzeltme: \"…bir yandan oyunlar oynadı, bir yandan şarkılar söyledi.\"\nAdım 4: Diğer cümlelerde yüklemler öğelerle uyumludur.\nSık yapılan hata: Özne çoğul diye yükleme \"-lar\" eklemek; sorun sayı değil, eksik yüklemdir.\nCevap D."
+  hatalar: ["İki yarım düzeltmeyi tam sayma: Arda bağlacı düzeltmiş ama “boyaları … biçim verdi” ek yanlışını bırakmıştır. Beril eki düzeltmiş ama istenen bir sonucu “yüzünden” sözüyle anlatarak yeni bir bozukluk yapmıştır.", "Tek harflik farkı kaçırma: Cenk'in cümlesi kusursuzdur ama Arda'nın cümlesinde “boyaları” sözü olduğu gibi durur. “Biçim vermek” -e hâli ister; “boyaları biçim verdi” denmez.", "“Yüzünden” ile “sayesinde” sözlerini eş sayma: Duru'nun cümlesi kusursuzdur. Beril ise boyaların dibe çökmemesini, yani istenen bir sonucu “yüzünden” sözüyle anlatmıştır; bu söz olumsuz sonuç bekletir.", null],
+  aciklama: `Defne'nin cümlesinde iki ayrı bozukluk var. Düzeltilmiş cümlede ikisinin de giderilmiş olması, yeni bir bozukluğun da eklenmemiş olması gerekir.
+Adım 1: Birinci bozukluk → “boyaları … biçim verdi”. “Biçim vermek” “Neye?” sorusunun cevabını ister: “boyalara biçim verdi”. Ek yanlışlığı var. Bu bozukluk iki yoldan giderilir: ek değiştirilir (“boyalara biçim verdi”) ya da -ı hâli isteyen bir yüklem seçilir (“boyaları biçimlendirdi”).
+Adım 2: İkinci bozukluk → “öd katıldığı hâlde … dibe çökmedi”. “-dığı hâlde” karşıtlık bildirir. Oysa metne göre öd, boyaların dibe çökmesini önler; yani öd katılması çökmemenin nedenidir. Doğrusu “katıldığı için” ya da “öd sayesinde” olmalıdır.
+Adım 3: Arda → Bağlaç düzelmiş (“katıldığı için”) ama “boyaları … biçim verdi” duruyor. Bozukluk yarım giderilmiş.
+Adım 4: Beril → Ek düzelmiş (“boyalara”). Ama “öd yüzünden … çökmedi”: “yüzünden” olumsuz bir sonuç bekletir; boyaların çökmemesi ise istenen bir sonuçtur. Eski bozukluk gitmiş, yenisi gelmiş.
+Adım 5: Cenk → “boyalara … biçim verdi” ve “katıldığı için”: iki bozukluk da giderilmiş.
+Adım 6: Duru → “boyaları … biçimlendirdi” (bu yüklem -ı hâli ister, doğru) ve “öd sayesinde” (olumlu sonuç, doğru): iki bozukluk da başka bir yoldan giderilmiş.
+Sık yapılan hata: Bir bozukluğun tek bir düzeltmesi olduğunu sanmak ya da ilk bozukluğu düzeltince işi bitmiş saymak. Düzeltilmiş cümleyi baştan oku; her yüklemin istediği eki ve her bağlacın anlamını yeniden sına.
+Cevap D.`
 },
 {
   id: "tur-ab-322",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Gıda israfını anlatan bir bilgilendirme yazısından numaralı cümleler verilmiştir:\n(1) Dünyada üretilen gıdaların büyük bir bölümü sofraya ulaşmadan çöpe gidiyor.\n(2) Alışverişe çıkmadan önce evdeki malzemelere bakmayı ve liste yapmak israfı azaltır.\n(3) Artan yemekleri buzdolabında saklamak, ertesi gün tekrar yeniden değerlendirmeyi mümkün kılar.\n(4) Meyve ve sebzeleri doğru koşullarda saklayarak bozulmalarını geciktirebiliriz.\n(5) Gereksiz ürünleri sepetten çıkarmayı ve yalnızca ihtiyacımız olanı almak gerekir.\n**Bu cümlelerden hangi ikisindeki bozukluk aynı nedenden kaynaklanmaktadır?**",
-  gorsel: null,
-  secenekler: ["(2) ve (5)", "(1) ve (4)", "(3) ve (5)", "(2) ve (4)"],
+  soru: `Deniz, yaz tatilinde ailesiyle feribotla bir adaya gitmiş ve bir buçuk saat süren bu yolculuğu bir gençlik dergisi için yazmıştır. Yazısını göndermeden önce taslağını yeniden okumuş, anlatım bozukluğu bulduğu dört cümleyi değiştirmiştir. Ancak yaptığı değişikliklerin bir bölümü amacına ulaşmamıştır. Cümlelerin taslaktaki ve değiştirildikten sonraki hâli aşağıdaki tabloda verilmiştir.
+
+**Buna göre Deniz, hangi cümlede taslaktaki anlatım bozukluğunu giderirken yeni bir anlatım bozukluğu yapmıştır?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Taslaktaki hâli</th><th>Değiştirilmiş hâli</th></tr><tr><td>I</td><td>Kardeşimle ben sabah yedide feribota bindi ve hemen üst güverteye çıktık.</td><td>Kardeşimle ben sabah yedide feribota binip ve hemen üst güverteye çıktık.</td></tr><tr><td>II</td><td>Yolculardan biri, feribotun peşine takılan martılara elindeki simidi uzattılar.</td><td>Yolculardan biri, feribotun peşine takılan martılara elindeki simidi uzattı.</td></tr><tr><td>III</td><td>Öğleye doğru çıkan rüzgâr sayesinde babamın hasır şapkası denize uçtu.</td><td>Öğleye doğru çıkan sert rüzgâr sayesinde babamın hasır şapkası denize uçtu.</td></tr><tr><td>IV</td><td>Adaya varınca ağır valizleri babam, sırt çantalarını biz taşıdık.</td><td>Adaya varınca ağır valizleri babam taşıdı, sırt çantalarını da biz taşıdık.</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 0,
-  hatalar: [null, "(1) ve (4) kusursuzdur; ikisinde de bozukluk yoktur.", "(3) ve (5) bozuktur ama nedenleri farklıdır: (3) gereksiz sözcük, (5) eş görevli öğelerde ek uyumsuzluğu.", "(4) kusursuzdur; (2) ile aynı nedenden bozuk olan cümle (5)'tir."],
-  aciklama: "Bozuk cümleleri bul, sonra nedenlerini karşılaştır.\nAdım 1: (1) ve (4) kusursuz: öğeler yüklemlerle uyumlu.\nAdım 2: (2) → \"bakmayı\" ve \"liste yapmak\" yan yana. İlki belirtme hâlinde, ikincisi yalın mastar; biçimleri farklı. Doğrusu \"bakmayı ve liste yapmayı\".\nAdım 3: (3) → \"tekrar\" ve \"yeniden\" aynı anlamı yineler; gereksiz sözcük. Bu bozukluk (2) ve (5)'tekinden farklıdır.\nAdım 4: (5) → \"çıkarmayı\" belirtme hâlinde, \"almak\" yalın mastar. (2) ile aynı hata.\nAdım 5: Yalnızca (2) ve (5)'te eş görevli öğeler aynı ekle bitmiyor; ek eksikliği (uyumsuzluğu) var.\nSağlama: Eş görevli öğeleri alt alta yaz: bakmayı / yapmak, çıkarmayı / almak. Ekler birbirini tutmuyor.\nCevap A."
+  hatalar: [null, "Doğru düzeltmeyi bozuk sayma: “Yolculardan biri” tekil öznedir; “uzattılar” yüklemi “uzattı” yapılınca sayı uyumsuzluğu giderilmiştir. Yeni cümlede bozukluk yoktur.", "“Giderilmemiş” ile “yeni” bozukluğu karıştırma: bu cümlede eski bozukluk olduğu gibi durur (“sayesinde” olumlu sonuç bekletir). Deniz bozukluğu giderememiştir ama yeni bir bozukluk da eklememiştir.", "Yüklemin yinelenmesini fazlalık sanma: taslakta ortak yüklem “taşıdık”, “babam” öznesine uymuyordu. Her özneye kendi yükleminin yazılması doğru düzeltmedir; yeni cümle kusursuzdur."],
+  aciklama: `Kök iki koşul arıyor: taslaktaki bozukluk giderilmiş olacak ve yeni cümlede başka bir bozukluk bulunacak. Her satırda önce taslaktaki bozukluğu adlandır, sonra yeni cümleyi baştan sına.
+Adım 1: I, taslak → Özne “Kardeşimle ben”, yani “biz”; “bindi” yüklemi kişi bakımından uymuyor. Yeni cümle → “bindi” gitmiş, kişi uyumsuzluğu giderilmiş. Ama “binip ve … çıktık”: “-ıp” eki iki eylemi zaten bağlar, yanına “ve” konmaz. Eski bozukluk gitti, yenisi geldi.
+Adım 2: II, taslak → “Yolculardan biri … uzattılar”: tekil özneye çoğul yüklem. Yeni cümle → “uzattı”. Kusursuz.
+Adım 3: III, taslak → “sayesinde” olumlu bir sonuç bekletir; şapkanın denize uçması olumsuzdur, “yüzünden” gerekir. Yeni cümle → yalnızca “sert” sözü eklenmiş, “sayesinde” duruyor. Eski bozukluk giderilmemiş; yeni bozukluk yok.
+Adım 4: IV, taslak → “valizleri babam … taşıdık”: ortak yüklem “babam” öznesine uymuyor. Yeni cümle → “babam taşıdı, … biz taşıdık”. Her özne kendi yüklemini almış. Kusursuz.
+Adım 5: İki koşulu birlikte sağlayan tek satır I'dir.
+Sık yapılan hata: III'ü işaretlemek. Orada da bozuk bir cümle var ama bozukluk yeni değil, taslaktan kalma. Kökteki “giderirken yeni bir bozukluk” sözünü iki parça hâlinde düşün.
+Cevap A.`
 },
 {
   id: "tur-ab-323",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Okulun spor salonu kuralları duyurusundan numaralı cümleler verilmiştir:\n(1) Spor salonunun zemini bu yaz yenilendi ve yeniden tekrar kullanıma açıldı.\n(2) Yeni zeminde kaymayı önleyen özel bir kaplama kullanıldı.\n(3) Salona girmeden önce ayakkabılarını silmek ve temizlik görevlisine gösterilmelidir.\n(4) Kullanım saatleri sınıflara göre belirlenecek ve panoya asıldı.\n(5) Salonu kullanacak sınıflar, sorumlu öğretmen eşliğinde içeri alınacaktır.\n**Bu cümlelerin kaçında anlatım bozukluğu vardır?**",
+  soru: `Bir gazetenin “Meslekler” köşesinde bu hafta, otuz yıldır dağ köylerinde çalışan bir veteriner hekim tanıtılmıştır. Arazi aracıyla günde yüz kilometreden fazla yol yapan hekim, kışın kardan kapanan yolları kimi zaman köylülerin traktörüyle aşmaktadır. Yazının bir bölümü şöyledir:
+
+(I) Selma Hanım yaz kış sabah altıda kalkar, o gün uğrayacağı ahırların listesini çıkarıp ilaç çantasını özenle hazırlar ve yola koyulur. (II) Çevredeki köylüler, hayvanlar hastalıkları konusunda yıllardır en çok ona güvenir. (III) Selma Hanım geçen kış, tipili bir gecede doğum yapamayan bir ineğe sabaha kadar ilgilendi ve yavrusunu sağ salim kurtardı. (IV) Aşı günlerinde ahırdaki hayvanlar tek tek muayene edilir ve küpe numaralarını kalın bir deftere yazar. (V) Selma Hanım'a göre bu mesleğin en zor yanı uzun yollar ya da soğuk kış geceleri değil, derdini anlatamayan bir canlıyı anlamaya çalışmaktır. (VI) Hekim, emekli olduktan sonra da köylülerin telefonlarına gece gündüz demeden cevap vermeyi sürdüreceğini söylüyor.
+
+**Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: ["1", "2", "3", "4"],
+  secenekler: ["II. cümledeki bozukluk, “hayvanlar” sözü “hayvan” yapılarak giderilir.", "III. cümledeki bozukluk, “ineğe” sözü “inekle” yapılarak giderilir.", "IV. cümledeki bozukluk, “edilir” sözü “eder” yapılarak giderilir.", "V. cümlede herhangi bir anlatım bozukluğu bulunmamaktadır."],
   dogru: 2,
-  hatalar: ["Bozuk cümle sayısı 3'tür; (1), (3) ve (4) bozuktur. 1 demek diğer ikisini kaçırmaktır.", "Bozuk cümle sayısı 3'tür; (1), (3) ve (4) bozuktur. 2 demek bunlardan birini kaçırmaktır.", null, "(2) ve (5) kusursuzdur; 4 demek kusursuz cümleyi bozuk saymaktır."],
-  aciklama: "Beş cümleyi tek tek sına ve bozuk olanları say.\nAdım 1: (1) → \"yeniden\" ve \"tekrar\" aynı anlamda; gereksiz sözcük. Bozuk.\nAdım 2: (2) → \"kaymayı önleyen özel bir kaplama\" anlamlı ve yapı doğru. Kusursuz.\nAdım 3: (3) → \"silmek\" etken mastar, \"gösterilmelidir\" edilgen; aynı özneye bağlı çatı uyuşmazlığı. Bozuk. Doğrusu \"silmek ve görevliye göstermek gerekir.\"\nAdım 4: (4) → \"belirlenecek\" gelecek zaman, \"asıldı\" geçmiş zaman; iki yüklemin zaman uyumu bozuk. Bozuk.\nAdım 5: (5) → özne \"sınıflar\", yüklem \"alınacaktır\" uyumlu. Kusursuz.\nSonuç: (1), (3), (4) bozuktur; sayı 3.\nSağlama: Kusursuz olanlar (2) ve (5); 5 − 2 = 3.\nCevap C."
+  hatalar: ["Tamlamanın türünü ayırt etmeme: “hayvan hastalıkları” belirtisiz ad tamlamasıdır; bu tamlamada tamlayan yalın kalır, çoğul eki almaz. “hayvan” yapılınca bozukluk giderilir. Bu yargı doğrudur.", "Hâl ekini yüklemle sınamama: “ilgilenmek” fiili “Neyle, kiminle?” sorusunun cevabını ister. “inekle … ilgilendi” denince bozukluk giderilir. Bu yargı doğrudur.", null, "Kusursuz cümleden kuşkulanma: V. cümlede özne (“en zor yanı”) ile yüklem (“anlamaya çalışmaktır”) uyumludur, eksik ya da yanlış ekli öğe yoktur. Bu yargı doğrudur."],
+  aciklama: `Kök olumsuz: doğru olan üç yargıyı eleyip yanlış olanı bulacaksın. Düzeltme öneren yargılarda öneriyi cümleye uygula ve cümleyi yeniden oku.
+Adım 1: II → “hayvanlar hastalıkları” olmaz. “Hangi hastalıklar?” → “hayvan hastalıkları”; bu, belirtisiz ad tamlamasıdır. Belirtisiz tamlamada tamlayan yalın kalır, çoğul eki almaz. “Çevredeki köylüler, hayvan hastalıkları konusunda yıllardır en çok ona güvenir.” kusursuzdur. A doğru.
+Adım 2: III → “ineğe … ilgilendi” olmaz; “ilgilenmek” “Kiminle, neyle?” sorusunun cevabını ister. “… bir inekle sabaha kadar ilgilendi ve yavrusunu sağ salim kurtardı.” kusursuzdur. B doğru.
+Adım 3: IV → “muayene edilir” edilgen, “yazar” etken; üstelik “yazar” yükleminin öznesi ortada yok. Çatı uyuşmazlığı var.
+Adım 4: C'deki öneriyi uygula: “Aşı günlerinde ahırdaki hayvanlar tek tek muayene eder ve küpe numaralarını kalın bir deftere yazar.” Şimdi muayene eden de numaraları yazan da “hayvanlar” olmuş! İki yüklem etken oldu ama cümle düzelmedi. Doğru düzeltme, ikinci yüklemi edilgen yapmaktır: “… muayene edilir ve küpe numaraları kalın bir deftere yazılır.” C yanlış.
+Adım 5: V → Özne (“en zor yanı”), yüklem (“anlamaya çalışmaktır”) ve ekler uyumlu. D doğru. (I ve VI da kusursuzdur.)
+Sık yapılan hata: Çatı uyuşmazlığını “iki yüklemi aynı çatıya getir, yeter” diye ezberlemek. Hangi yüklemin değişeceğine özneye bakarak karar verirsin; düzeltmeden sonra “Kim yaptı?” sorusunu yeniden sor.
+Cevap C.`
 },
 {
   id: "tur-ab-324",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Yazı çalışması sırasında öğretmen dört cümleyi tahtaya yazdı ve öğrencilerden bozuk olmayanı bulmalarını istedi.\n**Bu cümlelerin hangisinde anlatım bozukluğu __yoktur__?**",
+  soru: `Mahallemizin gençlik derneği, her ayın ilk pazar günü gönüllülerle birlikte sahili temizliyor. Plastik bir şişenin doğada parçalanması yüzlerce yıl sürebildiği için dernek, toplanan atıkları geri dönüşüme gönderiyor. Etkinliğe katılmak için derneğe üye olmak gerekmiyor. Geçen ayki temizliğe elliden fazla kişi geldi; iki saatte tam kırk torba atık toplandı. Derneğin bülteninde yayımlanmak üzere yazılan altı cümle şöyledir:
+
+(I) Etkinliğe ilk kez katılan gönüllüler topladığı atıklar bile dört torbayı doldurdu. (II) En çok atık, piknik alanının yakınında ve eski balıkçı iskelesinin altından çıktı. (III) Topladığımız atıkların yarısından fazlası market poşetiydi, çünkü gelecek ay mahalledeki her eve bez torba dağıtacağız. (IV) Gönüllüler topladıkları atıkları cam, metal ve plastik diye türlerine göre ayırdı ve renkli kutulara attı. (V) Sen ve arkadaşların da gelecek ay eldivenlerinizi alıp bize katılabilirler. (VI) Derneğimizin gönüllülerinin sayısı her ay artıyor; etkinlik sonuçları da ya internet sayfamızda ya da mahalle panosunda duyuruluyor.
+
+**Bültene girecek bu cümlelerden hangi ikisinde anlatım bozukluğu __yoktur__?**`,
   gorsel: null,
-  secenekler: ["Konserde seslendirilen şarkıları herkes hem beğendi hem de eşlik etti.", "Öğretmenimiz, ödevlerini zamanında tamamlayan öğrencilere ödüllendirdi.", "Dedem, geçmiş zamanlarda yaşanmış eski anılarını bize sık sık tekrar eder.", "Tatilde kitap okumaya, yüzmeye ve dil öğrenmeye çalışıyorum."],
+  secenekler: ["I ve IV", "II ve VI", "III ve V", "IV ve VI"],
   dogru: 3,
-  hatalar: ["Ek eksikliği vardır: \"beğenmek\" nesne (-i), \"eşlik etmek\" yönelme (-e) ister; \"şarkıları\" yalnız birine uyar.", "Ek yanlışlığı vardır: \"ödüllendirmek\" belirtme hâli ister; \"öğrencilere\" yerine \"öğrencileri\" olmalıdır.", "Gereksiz sözcük vardır: \"geçmiş zamanlarda yaşanmış\" ve \"eski\" aynı anlamı yineler.", null],
-  aciklama: "Bu soruda kusursuz olanı bulmak için önce bozuk üçünü ayıkla.\nAdım 1: Birinci cümlede \"şarkıları\" ortak öğe; \"eşlik etmek\" fiili ise yönelme ister. Ek eksikliği.\nAdım 2: İkinci cümlede \"ödüllendirmek\" nesne alır (kimi?). \"Öğrencilere\" yönelme hâlidir; ek yanlışlığı.\nAdım 3: Üçüncü cümlede \"geçmiş zamanlarda yaşanmış\" ve \"eski\" aynı şeyi söylüyor; gereksiz sözcük.\nAdım 4: Dördüncü cümlede üç eş görevli öğe de (okumaya, yüzmeye, öğrenmeye) -e hâlinde ve \"çalışıyorum\" yüklemine uyumlu. Kusursuz.\nSağlama: Üç öğeyi alt alta yaz; ekleri aynı mı?\nCevap D."
+  hatalar: ["Tamlayan ekini aramadan geçme: I'de yüklemin öznesi “atıklar”dır; atıkları toplayanlar “gönüllülerin topladığı atıklar” biçiminde, tamlayan ekiyle gösterilmeliydi. I bozuktur; IV ise kusursuzdur.", "Sıralanan öğelerin ekini karşılaştırmama: II'de “yakınında” sözü -de, “altından” sözü -den hâlindedir; “çıktı” yüklemi ikisinin de -den hâlinde olmasını ister. VI ise kusursuzdur.", "Bağlacın yönünü ve öznenin kişisini sınamama: III'te “çünkü” nedeni değil sonucu getirmiştir; V'te “sen ve arkadaşların” öznesi “siz” demektir, yüklem “katılabilirsiniz” olmalıdır. İkisi de bozuktur.", null],
+  aciklama: `Altı cümlenin dördü bozuk, ikisi kusursuz. Kusursuz cümle “tuhaf durmayan” cümle değil, sınadığında hiçbir kuralı çiğnemeyen cümledir.
+Adım 1: I → “doldurdu” yükleminin öznesi “atıklar”dır. Atıkları toplayanlar ise gönüllülerdir; bu ilişki tamlayan ekiyle kurulur: “gönüllülerin topladığı atıklar”. Tamlayan eki eksik. Bozuk.
+Adım 2: II → “yakınında ve … altından çıktı”: “Nereden çıktı?” sorusuna iki cevap var ama biri -de hâlinde. “yakınından ve … altından” olmalı. Bozuk.
+Adım 3: III → “çünkü” kendinden sonra nedeni getirir. Bez torba dağıtılacak olması, atıkların çoğunun poşet çıkmasının nedeni değil sonucudur: “… market poşetiydi, bu yüzden …” olmalı. Bozuk.
+Adım 4: IV → Burada “gönüllüler” sözü “ayırdı” ve “attı” yüklemlerinin öznesidir; yalın kalması doğrudur. “atıkları ayırdı” (Neyi?), “atıkları kutulara attı” (Neyi? Nereye?): ortak nesne iki yükleme de aynı ekle uyuyor. Kusursuz.
+Adım 5: V → “Sen ve arkadaşların” = “siz”. Yüklem “katılabilirsiniz” olmalı. Bozuk.
+Adım 6: VI → “Derneğimizin gönüllülerinin sayısı”: zincirin ortasındaki sözcük iki eki de almış. “ya … ya da” eşiyle kullanılmış, sıralanan iki öğe de -de hâlinde. Kusursuz.
+Sık yapılan hata: I ile IV'ü aynı sanmak. İkisi de “gönüllüler” sözüyle kurulmuş; ama IV'te gönüllüler cümlenin öznesidir, I'de ise özne “atıklar”dır ve “gönüllüler” sözü tamlayan eki almak zorundadır.
+Cevap D.`
 },
 {
   id: "tur-ab-325",
   kazanim: "T.8.3.8",
   kademe: 3,
   zorluk: 4,
-  soru: "Bir kitaplık düzenleme etkinliğini anlatan yazıda şu cümle bulunmaktadır:\n\"Kütüphaneci, getirilen kitapları kayda aldı ve raflara yerleştirildi.\"\nBu cümleyle ilgili şu yargılar öne sürülmüştür:\nI. Cümlede özne eksikliği vardır.\nII. Bozukluğun kaynağı \"kayda aldı\" sözcükleri arasındaki zaman uyuşmazlığıdır.\nIII. \"Yerleştirildi\" yerine \"yerleştirdi\" yazılırsa bozukluk giderilir.\n**Buna göre bu yargılardan hangileri doğrudur?**",
+  soru: `İpek'in ailesi, on iki yıldır oturduğu evden geçen cumartesi kentin öbür ucundaki yeni evine taşındı. İpek, o günü başka bir kentte yaşayan kuzenine yazdığı mektupta şöyle anlattı:
+
+(1) Taşınma günü erkenden kalktık ve kahvaltıyı ayaküstü yaptık. (2) Annem bardakları tek tek gazete kâğıdına sardı, babam da kitapları numaraladığı kolilere yerleştirdi. (3) Kardeşim oyuncaklarından bir gün bile ayrılmak istemedi, bu yüzden hepsini kendi sırt çantasına doldurdu. (4) Kamyon hareket etmeden önce komşularımız bizi kapıda uğurladı ve yolluk olarak bir tepsi börek verdi. (5) Akşam yeni evde babam hem salonun avizesini taktı hem de odamın halısını. (6) Gece olunca komşularımızın böreğini kolilerin üstünde yedik; yeni evdeki ilk yemeğimiz buydu.
+
+Bu cümlelerle ilgili şu değerlendirmeler yapılmıştır:
+I. (4) numaralı cümledeki bozukluk, “bizi” sözü “bize” yapılarak giderilir.
+II. (5) numaralı cümledeki bozukluk yüklem eksikliğinden kaynaklanmaktadır.
+III. (3) numaralı cümlede “bu yüzden” sözü yerine “çünkü” getirilirse neden-sonuç ilişkisi ters kurulmuş olur.
+
+**Buna göre bu değerlendirmelerden hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "Yalnız III"],
+  secenekler: ["Yalnız I", "Yalnız II", "I ve III", "II ve III"],
   dogru: 3,
-  hatalar: ["I yanlıştır: özne \"kütüphaneci\" cümlede açıkça yazılıdır; özne eksikliği yoktur.", "II yanlıştır: iki yüklem de geçmiş zamandadır (\"aldı\", \"yerleştirildi\"); sorun zaman değil çatıdır.", "I ve II yanlıştır; ikisi de cümleyle uyuşmaz.", null],
-  aciklama: "Bozukluğu önce adlandır, sonra yargıları tek tek sına.\nAdım 1: \"Kütüphaneci\" özne, \"aldı\" etken yüklem. İkinci yüklem \"yerleştirildi\" edilgendir. Aynı özneye bağlı iki yüklem, çatı bakımından uyumsuz.\nAdım 2: I → \"Kütüphaneci\" yazılı olduğu için özne eksikliği yok; yargı yanlış.\nAdım 3: II → İki yüklem de geçmiş zamanda; bozukluk zaman değil çatı kaynaklı; yargı yanlış.\nAdım 4: III → \"Yerleştirdi\" etken olursa iki yüklem de etken, özne \"kütüphaneci\" ile uyumlu; bozukluk giderilir. Yargı doğru.\nSonuç: Yalnız III doğru.\nSık yapılan hata: Her bozukluğu özne ya da zamanla açıklamak; çatıya da bak.\nCevap D."
+  hatalar: ["Bozukluğu başka yere taşıma: “bize” yapılınca “verdi” yüklemi tümlecini bulur ama bu kez “uğurladı” nesnesiz kalır (“bize uğurladı” denmez). I yanlıştır; II ve III ise doğrudur.", "Bağlaç değişikliğini cümleye uygulamama: II doğrudur ama III de doğrudur. “çünkü” kendinden sonra nedeni getirir; oyuncakları çantaya doldurmak, ayrılmak istememenin nedeni değil sonucudur. “Yalnız II” eksik kalır.", "Yarım düzeltmeyi kabul edip yüklem eksikliğini kaçırma: I yanlıştır, çünkü “bize uğurladı” denmez. II ise doğrudur: halı takılmaz, “halısını” sözü için ayrı bir yüklem gerekir.", null],
+  aciklama: `Önce bozuk cümleleri bul, sonra üç değerlendirmeyi tek tek sına.
+Adım 1: (1), (2) ve (6) → Her yüklem kendi öznesini ve nesnesini almış. Kusursuz.
+Adım 2: (4) → “bizi … uğurladı” doğru. “Kime börek verdi?” sorusunun cevabı yok; “bizi” sözü -ı hâlinde olduğu için “verdi” yüklemine uymaz. Tümleç eksik. Doğru düzeltme: “… bizi kapıda uğurladı ve bize yolluk olarak bir tepsi börek verdi.”
+Adım 3: I'i uygula: “… komşularımız bize kapıda uğurladı ve yolluk olarak bir tepsi börek verdi.” Şimdi “verdi” tümlecini buldu ama “bize uğurladı” denmez; “uğurlamak” nesne ister. Bozukluk giderilmedi, yer değiştirdi. I yanlış.
+Adım 4: (5) → “hem salonun avizesini taktı hem de odamın halısını”: yüklemi ikinci öğeye bağla, “halısını taktı” olmaz. Halı için “serdi” gibi ayrı bir yüklem gerekir. II doğru.
+Adım 5: (3) → Kardeşim oyuncaklarından ayrılmak istemedi (neden), bu yüzden hepsini çantasına doldurdu (sonuç); cümle kusursuz. “çünkü” ise kendinden sonra nedeni getirir. “… ayrılmak istemedi, çünkü hepsini kendi sırt çantasına doldurdu.” denirse çantaya doldurmak neden gibi görünür; neden-sonuç ilişkisi ters kurulmuş olur. III doğru.
+Sonuç: II ve III doğrudur.
+Sık yapılan hata: Ortak öğenin ekini değiştirip sorunu çözdüğünü sanmak. Öğe iki yükleme farklı eklerle bağlanıyorsa ek değiştirilmez, ikinci yüklem için öğe ayrıca yazılır.
+Cevap D.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */
 {

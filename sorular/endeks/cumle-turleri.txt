@@ -63,16 +63,16 @@ tur-ct-312 | T.8.4.19 | z3 | k3 | Bir arkadaş grubu, hafta sonu planlarını ko
 tur-ct-313 | T.8.4.19 | z3 | k3 | Bir arkadaş grubunun gün boyu yaptığı konuşmalardan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerde olumsuzluk, biçim ve a… | ✓II
 tur-ct-314 | T.8.4.19 | z3 | k3 | Bir öğrenci, ailesinin evinin bahçesindeki yaşlı ceviz ağacı hakkında küçük bir yazı hazırladı. Yazıda geçen dört cümle aşağıda n… | ✓I
 tur-ct-315 | T.8.4.19 | z3 | k3 | Bir öğrenci, okul müsameresinin sahne gerisinden notlar aldı ve cümlelerini numaralandırdı. (1) Sahne ışıkları yanınca salon sess… | ✓(1) ve (5)
-tur-ct-316 | T.8.4.19 | z4 | k3 | Türkçe öğretmeni, cümle türlerini pekiştirmek için çamaşırların toplanmasını anlatan aynı olayı dört farklı cümleyle yazıp tahtay… | ✓III
-tur-ct-317 | T.8.4.19 | z4 | k3 | Okulun ilk günü yaşananları anlatan bir yazıdan dört cümle alınarak aşağıda numaralandırılmıştır. Cümlelerin bazılarında yer taml… | ✓IV
-tur-ct-318 | T.8.4.19 | z4 | k3 | Bir öğrenci, yaz tatilinde dedesinin köyünde geçirdiği günleri anlatan bir yazı yazdı. Yazıdan alınan bölümde cümleler numaraland… | ✓II ve III
-tur-ct-319 | T.8.4.19 | z4 | k3 | Bir belediye çalışanı, kış hazırlıklarıyla ilgili hazırladığı raporda yolların durumunu dört cümleyle özetledi. Cümleler aşağıda … | ✓III
-tur-ct-320 | T.8.4.19 | z4 | k3 | Bir sinema kulübünün üyeleri, kulüp günlüğüne yazdıkları cümleleri iki ayrı ölçüte göre sınıflandırıyor: anlamına göre (olumlu, o… | ✓I
-tur-ct-321 | T.8.4.19 | z4 | k3 | Bir öğrenci, bir telefon konuşmasını anlatırken aynı olayı dört farklı biçimde yazdı. Cümleler anlam ve yapı bakımından birbirind… | ✓II
-tur-ct-322 | T.8.4.19 | z4 | k3 | Bir okulun robotik kulübü, yıl sonunda kulübün gazetesinde bir yazı yayımladı. Yazıdan alınan bölümde cümleler numaralandırılmışt… | ✓Yalnız II
-tur-ct-323 | T.8.4.19 | z4 | k3 | Bir öğrenci, ablasıyla yaptığı konuşmayı farklı dizilişlerle dört cümle hâlinde yazdı. Cümlelerden bazıları tırnak içinde aktarıl… | ✓I
-tur-ct-324 | T.8.4.19 | z4 | k3 | Bir öğrenci, okul hayatından aldığı beş cümleyi hem yüklemin türüne hem de yapısına göre inceleyecek. Cümleler aşağıda numaraland… | ✓3
-tur-ct-325 | T.8.4.19 | z4 | k3 | Bir müzede açılan sergiyi gezen öğrencilerin anlattıklarından derlenen metinde cümleler numaralandırılmıştır. (1) Sergiyi gezmeye… | ✓Yalnız III
+tur-ct-316 | T.8.4.19 | z4 | k3 | Baraj gölündeki kürek kulübüne bu yaz yazıldım. Dört kürekçi ve bir dümenciden oluşan teknemizle her sabah göle açılıyoruz. İlk h… | ✓Aras ve Cem
+tur-ct-317 | T.8.4.19 | z4 | k3 | Antarktika'yı örten buz tabakasının kalınlığı yer yer dört kilometreyi aşar. Her yıl yağan kar bir öncekinin üstüne biner, zamanl… | ✓Ezilen buzdan çıkan havayı tüplerde toplar a…
+tur-ct-318 | T.8.4.19 | z4 | k3 | Mahalle kütüphanesinin atölyesine bir 3B yazıcı alındı. Bu makine, makaradaki plastik teli eritir ve erittiği plastiği incecik ka… | ✓Sarı kutu
+tur-ct-319 | T.8.4.19 | z4 | k3 | Tuz Gölü, flamingoların Türkiye'deki en önemli üreme alanlarından biridir. Elif, gölde yuva yapan bu kuşları anlatan bir yazı haz… | ✓III
+tur-ct-320 | T.8.4.19 | z4 | k3 | Şehrin en işlek caddesi, iki yıl süren çalışmaların ardından araçlara kapatıldı ve ortasına tramvay rayları döşendi. Dükkân sahip… | ✓III ile V. cümlelerde “ve” aynı görevdedir; …
+tur-ct-321 | T.8.4.19 | z4 | k3 | On iki yıl oturduğumuz evden geçen cumartesi taşındık. Yeni evimiz daha geniş, okuluma da daha yakın; yine de o sabah içimde tuha… | ✓II ve V
+tur-ct-322 | T.8.4.19 | z4 | k3 | Ebru, yoğunlaştırılmış suyun yüzeyine serpilen boyalarla yapılan geleneksel bir kâğıt süsleme sanatıdır. Suya, kitre adı verilen … | ✓II ve III
+tur-ct-323 | T.8.4.19 | z4 | k3 | Yabancı filmlerdeki ve çizgi filmlerdeki karakterleri Türkçe konuşturan kişilere seslendirme sanatçısı denir. Sanatçı, kulaklığın… | ✓Yüklemi isim soylu olan devrik, birleşik cüm…
+tur-ct-324 | T.8.4.19 | z4 | k3 | Toroslar'da bazı Yörük aileleri, baharın sonunda sürülerini sahildeki kışlaklardan serin yaylalara götürür. Günlerce süren bu göç… | ✓III
+tur-ct-325 | T.8.4.19 | z4 | k3 | Okulumuzun doğa kulübü, geçen ay bir cumartesi günü ilçe sahilinde kıyı temizliği düzenledi. Kulüp üyeleri, denize ulaşan plastiğ… | ✓IV
 tur-ct-001 | T.8.4.19 | z1 | k0 | Aşağıdaki cümlelerden hangisi isim cümlesidir? | ✓Bu çorba çok lezzetliydi.
 tur-ct-002 | T.8.4.19 | z1 | k0 | Aşağıdaki cümlelerden hangisi yüklemin yerine göre devrik bir cümledir? | ✓Bozuldu saatimiz dün akşam.
 tur-ct-003 | T.8.4.19 | z1 | k0 | Aşağıdakilerden hangisi olumsuz cümledir? | ✓Telefonum bugün çalışmıyor.

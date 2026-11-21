@@ -63,16 +63,16 @@ tur-sm-312 | T.8.3.25 | z3 | k3 | Beş katlı bir apartmanın her katında bir a
 tur-sm-313 | T.8.3.32 | z3 | k3 | Bir hayvan barınağında pazartesiden perşembeye kadar her gün bir gönüllü çalışacaktır. Gizem, Hakan, İpek ve Kerem'in her biri bu… | ✓Gizem
 tur-sm-314 | T.8.3.32 | z3 | k3 | Okullar arası bilgi yarışmasında dört takım 10'ar soru cevaplamıştır. Yarışmanın puanlama kuralları şunlardır: • Her doğru cevap … | ✓Martı
 tur-sm-315 | T.8.3.25 | z3 | k3 | Okul servisinin arka bölümünde iki sıra hâlinde altı koltuk vardır. Ön sıradaki her koltuğun hemen arkasında, arka sıradan bir ko… | ✓Alp'in sol taraftaki pencere kenarında oturd…
-tur-sm-316 | T.8.3.25 | z4 | k3 | Sınıf panosuna bilim, doğa, kitap, müzik, spor ve tarih konulu altı afiş, soldan sağa 1'den 6'ya kadar numaralandırılmış yerlere … | ✓4
-tur-sm-317 | T.8.3.25 | z4 | k3 | Okulun yıl sonu gösterisinde koro, keman, piyano, drama ve halk oyunları gösterileri birer kez sahnelenecektir. Sunucu, gösterile… | ✓Drama
-tur-sm-318 | T.8.3.32 | z4 | k3 | Arın, Bora, Cansu ve Dila; yüzme, tenis, basketbol ve voleybol sporlarından farklı birini yapmaktadır. Her biri pazartesiden perş… | ✓Arın perşembe günü antrenman yapar.
-tur-sm-319 | T.8.3.32 | z4 | k3 | Bir okul serasında çatı penceresi, sisleme sistemi ve fan, sıcaklık ile nem ölçümlerine göre kendiliğinden çalışmaktadır. Sistemi… | ✓14.00: Pencere tam açık, sisleme durur, fan …
-tur-sm-320 | T.8.3.25 | z4 | k3 | Teneffüste kantin önünde Ada, Berk, Can, Dora, Efe ve Fulya tek sıra hâlinde kuyruğa girmiştir. Kuyruğun en önündeki kişi 1., en … | ✓Dora ikinci sıradadır.
-tur-sm-321 | T.8.3.25 | z4 | k3 | Bir yaz kampında pazartesiden cumartesiye kadar her gün bir etkinlik yapılacaktır. Etkinlikler kano, tırmanış, okçuluk, bisiklet,… | ✓Tırmanış cumartesi günü yapılır.
-tur-sm-322 | T.8.3.25 | z4 | k3 | Bir sınıfta Ege, Figen, Gökay, Hira ve Ilgaz'a birer sınıf görevi verilecektir. Görevler kitaplığı düzenlemek, panoyu düzenlemek,… | ✓Gökay'ın bitkileri suladığı
-tur-sm-323 | T.8.3.25 | z4 | k3 | Resim öğretmeni sınıf dolabına boya, kil, makas, kâğıt, yapıştırıcı ve ip kutularını yerleştirecektir. Dolapta görseldeki gibi üs… | ✓İp kutusu makas kutusuyla aynı raftadır.
-tur-sm-324 | T.8.3.25 | z4 | k3 | Okulda yapılacak bir yazar söyleşisi için beş iş yapılacaktır: afişi tasarlamak, afişi bastırmak, salonu ayırtmak, davetiyeleri g… | ✓5
-tur-sm-325 | T.8.3.25 | z4 | k3 | Robotik kulübünde, 4 × 4 karelik bir zeminde hareket eden bir robot programlanmaktadır. Robot başlangıçta A1 karesinde, görseldek… | ✓B4
+tur-sm-316 | T.8.3.25 | z4 | k3 | Bir kıyı kasabasındaki gezi teknesi, günübirlik turunda altı koya birer kez uğramaktadır: Çamlık, Fener, İncirli, Kayalı, Martı v… | ✓İncirli Koyu'na Zeytinli'den sonra uğranır.
+tur-sm-317 | T.8.3.25 | z4 | k3 | Bir seramik atölyesinde Asel, Baran, Ceylin, Demir ve Elçin'in yaptığı birer eser fırınlanacaktır. Eserler bir vazo, bir kâse, bi… | ✓Elçin'in eseri ikinci raftadır.
+tur-sm-318 | T.8.3.32 | z4 | k3 | Bir ortaokulun bilim şenliğinde cuma, cumartesi ve pazar günleri, sabah ve öğleden sonra birer oturum olmak üzere toplam altı otu… | ✓Harita atölyesi cumartesi, Roket atölyesi cu…
+tur-sm-319 | T.8.3.32 | z4 | k3 | Bir sahil kentinde belediyenin bisiklet kiralama sisteminde Gar, Meydan ve Sahil adlı üç istasyon vardır. Sistemin mart-haziran d… | ✓Tablo 3
+tur-sm-320 | T.8.3.25 | z4 | k3 | Bir okulun bahçesinde akasya, ceviz, çınar, dut, erik ve kestane olmak üzere altı ağaç vardır. Her biri farklı bir yılda dikilen … | ✓Çınar
+tur-sm-321 | T.8.3.25 | z4 | k3 | Bir gençlik kampının dağ evinde, koridor boyunca yan yana dizilmiş ve 1'den 6'ya kadar numaralanmış altı oda vardır. Kampa katıla… | ✓Leylek takımının 4 numaralı odada kaldığı
+tur-sm-322 | T.8.3.25 | z4 | k3 | Bir okulun kutu oyunu kulübünde Azra, Bora, Derin, Güneş, Kerem ve Tuna yuvarlak bir masanın çevresinde oyun oynamaktadır. Masanı… | ✓2
+tur-sm-323 | T.8.3.25 | z4 | k3 | Ilgın, Koray, Melis ve Rüzgâr bisikletlerini bakım için aynı tamirciye bırakmıştır. Her çocuğun bisikleti farklı renktedir: Bisik… | ✓Yalnız III
+tur-sm-324 | T.8.3.25 | z4 | k3 | Okulun fotoğraf kulübü, yıl sonu sergisi için koridordaki panoya altı fotoğraf asacaktır: Çayır, Deniz, İskele, Köprü, Orman ve P… | ✓Çayır
+tur-sm-325 | T.8.3.25 | z4 | k3 | Bir okulun çevre kulübü, sınıflardan toplanan atıkları ayırmak için kâğıt, cam ve metal ekipleri kuracaktır. Alper, Bengü, Cemre,… | ✓Alper kâğıt ekibinde görev almaz.
 tur-sm-001 | T.8.3.25 | z1 | k0 | Sabah okula Zeki, Irmak'tan önce; Irmak, Oya'dan önce; Oya da Selim'den önce gelmiştir. Buna göre okula en son kim gelmiştir? | ✓Selim
 tur-sm-002 | T.8.3.32 | z1 | k0 | Bir oyun parkındaki kaydırağın girişinde şu kural yazılıdır: "Boyu 120 cm'den kısa olan çocuk, yanında bir yetişkin olmadan kaydı… | ✓Ozan
 tur-sm-003 | T.8.3.25 | z1 | k0 | Kitap kulübü bu hafta bir kez toplanacaktır. Toplantı pazartesiden sonra, çarşambadan önceki bir gün yapılacaktır. Buna göre kulü… | ✓Salı

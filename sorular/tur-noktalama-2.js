@@ -424,24 +424,23 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Dedemin çiftliğine vardığımızda güneş batmak üzereydi( ) Uzun yolculuktan sonra hepimizin yüzünde yorgunluk vardı ama çiftliğin kokusunu alınca bunu çabucak unuttuk. Kapıda bizi karşılayan dedem, elindeki feneri başının üstüne kaldırıp sordu( ) “Yol nasıldı, çok yorulmadınız mı( )” Annem gülümsedi( ) arabadan indirdiği çantaları eve taşımaya başladı. Ben ise yıllardır görmediğim eski ahıra koştum.
+  soru: `İlçe yüzme şenliğinin son yarışı bayrak yarışıydı. Geçen yıl bu yarışı tek bir hatalı çıkış yüzünden kaybetmiştik. Tribünler ailelerle, öteki kulüplerin yüzücüleriyle dolmuştu. Çıkıştan önce antrenörümüz Sevda Hanım dördümüzü havuzun başında topladı. Sırayı bir kez daha saydı: önce Derin, sonra Kaan, ardından Elçin, en son ben.
+— Arkadaşı duvara dokunmadan atlayan olursa takım elenir( ) dedi.
+Kaan tedirgindi. Dokunuşu hangi hakemin izlediğini, itirazın kime yapılacağını sordu( ) Sevda Hanım elini onun omzuna koydu:
+— Orasını bana bırak. Sen arkadaşının eline bak. El duvara değdi mi suya öyle atla( )
+İlk üç arkadaşım yarışı ikinci sırada getirdi. Ben suya girdiğimde öndeki takımla aramızda bir kulaç vardı. Son metrelerde yetiştim, duvara neredeyse aynı anda uzandık. Elimi duvara vurduğumda kimin önce dokunduğunu ben de bilmiyordum. Soluk soluğa tabelaya döndüm ama yüzücü gözlüğüm buğulanmıştı. Tam o sırada tribünden biri avazı çıktığı kadar bağırdı( ) “Üçüncü kulvar birinci oldu!” Üçüncü kulvarda biz yüzüyorduk.
 **Bu metinde yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: ["(.) (,) (?) (;)", "(.) (:) (?) (,)", "(,) (:) (!) (,)", "(.) (:) (?) (.)"],
+  secenekler: ["(,) (?) (.) (:)", "(,) (.) (.) (:)", "(,) (.) (?) (:)", "(.) (?) (.) (;)"],
   dogru: 1,
-  hatalar: [
-    "Alıntı öncesini ve sıralı cümleyi yanlış işaretleme: Tırnaklı sözden önce virgül değil iki nokta gelir; içinde virgül olmayan iki kısa cümle noktalı virgülle değil virgülle ayrılır.",
-    null,
-    "Cümle sonunu ve soruyu yanlış işaretleme: Birinci boşluktan sonra 'Uzun' büyük harfle başlar, demek ki cümle biter; 'yorulmadınız mı' sözü 'mı' soru ekiyle bir sorudur.",
-    "Büyük-küçük harf ipucunu kaçırma: Dördüncü boşluktan sonra 'arabadan' küçük harfle başlıyor; araya nokta konamaz, virgül gelir."
-  ],
-  aciklama: `Bu tür sorularda her boşluğu ayrı ayrı çöz ve boşluktan sonraki sözcüğün büyük mü küçük mü harfle başladığına bak.
-Adım 1: "güneş batmak üzereydi( ) Uzun yolculuktan…" Sonraki sözcük büyük harfle başlıyor ve düşünce tamamlanmış. Cümle sonu: nokta (.).
-Adım 2: "sordu( ) “Yol nasıldı…”" Aktarılan sözden önce iki nokta (:) konur.
-Adım 3: "çok yorulmadınız mı( )" "mı" soru ekiyle gerçek bir soru; soru işareti (?) tırnağın içinde kalır.
-Adım 4: "Annem gülümsedi( ) arabadan…" Sonraki sözcük küçük harfle başlıyor; iki sıralı cümle virgülle (,) ayrılır.
-Sağlama: (.) (:) (?) (,) sırası yalnızca B'de var.
-Sık yapılan hata: Son boşluğa nokta koymak. Seçenekler arasında tek fark bu olduğunda cevabı harf ipucu belirler.
+  hatalar: ["Soru sözünü görüp soru cümlesi sanma: “hangi” ve “kime” sözleri var ama cümle bir şey sormuyor, Kaan’ın sorduğunu haber veriyor; sonuna nokta konur.", null, "Soru sormayan “mi”yi soru eki sanma: “değdi mi” burada “değince” demektir; cümle yanıt beklemez, öğüt verir ve noktayla biter.", "“dedi”den önceki sözü noktayla bitirme: konuşma çizgisiyle verilen söz “dedi” ile sürdüğü için sonuna virgül gelir; aktarılan sözden önce de noktalı virgül değil iki nokta konur. 2. boşluktaki cümle de soru sormadığı, Kaan’ın sorduğunu haber verdiği için soru işareti almaz."],
+  aciklama: `Bu tür sorularda her boşluğu ayrı ayrı çöz. Boşluktan sonra gelen sözcüğe ve cümlenin gerçekten yanıt bekleyip beklemediğine bak.
+Adım 1: Birinci boşluk, konuşma çizgisiyle verilen sözün sonunda ve ardından “dedi” geliyor. Tırnak içine alınmadan aktarılan söz “dedi, diye ekledi” gibi bir sözle sürüyorsa sonuna virgül konur: (,). Nokta konursa “dedi” sözcüğü açıkta kalır.
+Adım 2: İkinci boşluğun bulunduğu cümlede “hangi” ve “kime” sözleri var. Ama cümle soru sormuyor; Kaan’ın soru sorduğunu haber veriyor. Yanıt beklemeyen cümlenin sonuna nokta konur: (.).
+Adım 3: Üçüncü boşluktaki “değdi mi” sözü “değince” anlamındadır. Buradaki “mi” soru sormaz, zaman bildirir. Cümle bir öğüttür: (.).
+Adım 4: Dördüncü boşluktan sonra tırnak içinde, tribünden bağıran kişinin sözü geliyor. Aktarılan sözden önce iki nokta konur: (:).
+Sağlama: (,) (.) (.) (:) sırası yalnızca B’de var. A ikinci boşlukta, C üçüncü boşlukta soru işareti kullanıyor. D ise birinci, ikinci ve dördüncü boşlukta yanılıyor.
+Sık yapılan hata: Soru sözünü ya da “mi” ekini görür görmez soru işareti koymak. Kendine “Bu cümle birinden yanıt bekliyor mu?” diye sor; beklemiyorsa soru işareti gelmez.
 Cevap B.`
 },
 {
@@ -449,25 +448,19 @@ Cevap B.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul gazetesinin son sayısında şu yazı yer aldı:
-Sevgili okurlar,(I) bu sayımızda size küçük bir kasabanın büyük hikâyesini anlatacağız. Kasabanın gençleri, yıllardır kullanılmayan tren istasyonunu önce temizlemiş,(II) sonra boyamış ve sonunda bir kütüphaneye dönüştürmüş. Bu,(III) kasabada uzun zamandır yapılan en güzel işti. Kütüphanenin açılış gününde yaşlı bir kadın, raflara bakan çocuklara dönüp şöyle demiş: “Buradaki her kitabı okuyun,(IV) çocuklar.” O günden beri istasyonun bekleme salonu hiç boş kalmıyor.
-**Bu metinde numaralanmış virgüllerden hangi ikisi aynı görevde kullanılmıştır?**`,
+  soru: `Bilim kulübümüzle geçen ay bir meteoroloji istasyonunu gezdik. Öğretmenimiz bu gezi için haftalar önce randevu almıştı. İstasyonun sorumlusu Nevin Hanım,(I) otuz yıldır burada çalışıyormuş,(I) bizi önce bahçedeki ölçüm aletlerinin başına götürdü. Yağışölçeri,(II) rüzgârölçeri ve toprak termometresini tek tek tanıttı. Her alet çitle çevrili çimenlikte ayrı bir direğin üstünde duruyordu. Bizim gözümüz ise köşede duran beyaz balondaydı. Balonun işi basitti:(III) Altına bağlanan küçük kutu yükselirken havanın sıcaklığını, nemini ve basıncını ölçüp yere bildiriyordu. Bu ölçümler -(IV)hava tahminlerinin dayandığı temel veriler-(IV) dünyanın yüzlerce istasyonunda her gün aynı saatlerde yineleniyordu. Balon 25-(V)35 kilometre yüksekliğe çıkınca patlıyor, kutu da küçük bir paraşütle yere iniyordu. Nevin Hanım balonu bırakma işini bize verdi. İpi çözdüğümüzde arkadaşım Tuna heyecanla bağırdı:(VI) “Bakın, bulutlara doğru gidiyor!” Beyaz balon birkaç dakika içinde gri bulutların arasında gözden kayboldu. Dönüş yolunda hepimiz kutunun nereye ineceğini tahmin etmeye çalıştık. Tuna’ya göre kutu çoktan komşu ilin sınırını geçmişti.
+**Bu metinde numaralanmış noktalama işaretleriyle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: ["I ve IV", "I ve III", "II ve III", "II ve IV"],
+  secenekler: ["I ve IV numaralı işaretlerin ikisi de ara sözü cümleden ayırmıştır.", "I ve II numaralı işaretlerin ikisi de eş görevli sözcükleri ayırmıştır.", "III ve VI numaralı işaretlerin ikisi de aktarılan bir sözden önce gelmiştir.", "IV ve V numaralı işaretlerin ikisi de “ile, arasında” anlamı katmıştır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Zamirden sonraki virgülü hitap virgülü sanma: III. virgül 'Bu' zamirinden sonra, sözün sıfat gibi okunmasını önlemek için konmuştur.",
-    "Sıralı cümle virgülü ile zamir virgülünü eşleme: II. virgül sıralı yüklemleri ayırır, III. virgül zamirden sonra gelir; görevleri farklıdır.",
-    "Sıralı cümle virgülünü hitap virgülü sanma: II. virgül 'temizlemiş' ve 'boyamış' eylemlerini ayırır; IV. virgül seslenme sözüyle ilgilidir."
-  ],
-  aciklama: `Aynı işaret bir metinde farklı görevlerde kullanılabilir. Her virgülün neden orada olduğunu tek tek sor.
-Adım 1: I. virgül: "Sevgili okurlar," bir seslenmedir (hitap). Hitap sözlerinden sonra virgül konur.
-Adım 2: II. virgül: "temizlemiş, sonra boyamış" sıralı eylemleri (yüklemleri) birbirinden ayırır.
-Adım 3: III. virgül: "Bu," bir zamirdir. Virgül olmasa "Bu kasabada" diye okunup "bu" sıfat sanılabilirdi; virgül bu karışıklığı önler.
-Adım 4: IV. virgül: "…okuyun, çocuklar." Buradaki "çocuklar" da bir seslenmedir. Hitap cümlenin sonunda da olsa virgülle ayrılır.
-Sağlama: I ve IV aynı görevdedir (hitap).
-Sık yapılan hata: Hitabın yalnızca cümle başında olabileceğini sanmak. Seslenme cümlenin sonunda da yer alabilir.
+  hatalar: [null, "Ara söz virgülünü sıralama virgülü sanma: I numaralı virgüller bir şey sıralamaz, “otuz yıldır burada çalışıyormuş” sözünü cümleden ayırır. Eş görevli sözcükleri ayıran II numaralı virgüldür.", "Büyük harfle başlayan açıklamayı aktarılan söz sanma: III’ten sonraki cümle kimsenin sözü değildir, “Balonun işi basitti” yargısını açıklar. Aktarılan sözden önce gelen VI numaralı iki noktadır.", "Aynı işarete aynı görevi yükleme: V numaralı çizgi iki sayı arasına “ile, arasında” anlamı katar; IV numaralı çizgiler ise araya giren sözü iki yandan ayırır."],
+  aciklama: `Bir işaretin görevini biçimine bakarak değil, o cümlede ne yaptığına bakarak bulursun. Aynı işaret farklı görevler üstlenebilir; farklı iki işaret de aynı görevi yapabilir.
+Adım 1: I numaralı virgüller “otuz yıldır burada çalışıyormuş” sözünü iki yandan sarıyor. Bu sözü çıkar: “Nevin Hanım bizi önce … götürdü.” Cümle bozulmuyor. Cümleye sonradan eklenen, çıkarılınca cümleyi bozmayan söze ara söz denir. Görev: ara sözü ayırma.
+Adım 2: II numaralı virgül “yağışölçeri, rüzgârölçeri ve toprak termometresini” sıralamasında. Görev: eş görevli sözcükleri ayırma.
+Adım 3: III numaralı iki noktadan sonra balonun işinin ne olduğu anlatılıyor. Bu, kimsenin sözü değil; önceki yargının açıklaması. VI numaralı iki noktadan sonra ise Tuna’nın tırnak içindeki sözü geliyor. Görevler farklı: açıklama ve aktarma.
+Adım 4: IV numaralı çizgiler “hava tahminlerinin dayandığı temel veriler” sözünü iki yandan ayırıyor; bu söz de çıkarılınca cümle bozulmuyor. Görev: ara sözü ayırma. V numaralı çizgi “25 ile 35 kilometre arası” demek. Görev: “ile, arasında” anlamı.
+Adım 5: Seçeneklere dön. B’de I yanlış, C’de III yanlış, D’de IV yanlış tanımlanmış. I ile IV ise biri virgül, öbürü kısa çizgi olduğu hâlde aynı işi yapıyor.
+Sık yapılan hata: Aynı görevi yalnızca aynı işaretlerde aramak. Ara söz hem virgülle hem kısa çizgiyle ayrılabilir.
 Cevap A.`
 },
 {
@@ -475,24 +468,21 @@ Cevap A.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Kardeşim odasını topladığını söyleyince kontrol etmeye gittim. Kapıyı açtığımda gördüğüm manzarayı kısaca anlatayım( ) Yatağın üstünde kitaplar, yerlerde oyuncaklar, masada da boş tabaklar duruyordu( ) Kardeşim ise köşedeki koltuğa kurulmuş, gururla gülümsüyordu. Önce bir şey demedim( ) sonra dayanamayıp “Sence bu oda gerçekten toplanmış mı( )” diye sordum. Kardeşim omuz silkti ve “Göründüğünden daha düzenli!” dedi.
-**Bu metinde yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
+  soru: `Bir mahalle derneğinin aylık bülteninde şu haber yayımlandı:
+Yıllardır beklediğimiz tramvay hattı 18. Nisan’da(I) hizmete giriyor. Hattın yapımı üç yıl sürdü. Bu sürede ana cadde iki kez trafiğe kapatıldı. Kıyı Mahallesi’ni(II) otogara bağlayan hatta on durak bulunuyor. Hat sayesinde ilçenin iki ucu arasındaki yolculuk yirmi beş dakikaya inecek. Sarıçay Ulaşım Müdürlüğü’nün(III) duyurusuna göre ilk hafta yolculuklar ücretsiz olacak. Tramvaylar her gün saat 06.00’dan(IV) gece yarısına kadar on dakikada bir kalkacak. Eski otobüs seferleri ise bir ay daha sürecek. Bisikletiyle gelenler için üç durağa bisiklet park yeri yapıldı. Derneğimizin başkanı Aysel Hanım, açılış törenine bütün komşularımızı çağırıyor ve hattın mahalleye ne kazandıracağını şöyle özetliyor: “Çarşıya, hastaneye, sahile artık tek araçla gideceğiz.” Tören sabah saat onda ilk durağın önünde başlayacak. Törene gelen çocuklara ilk yolculuk için birer hatıra bileti dağıtılacak.
+Bülteni yayımlanmadan önce okuyan bir dernek üyesi, numaralanmış yerlerden bazılarında noktalama yanlışı yapıldığını fark etti.
+**Buna göre bu yanlışların giderilmesi için aşağıdakilerden hangisi yapılmalıdır?**`,
   gorsel: null,
-  secenekler: ["(:) (;) (,) (?)", "(;) (.) (,) (!)", "(:) (.) (,) (?)", "(:) (.) (;) (?)"],
+  secenekler: ["I. yerdeki kesme işareti kaldırılmalı, III. yerdeki kesme işareti de kaldırılmalıdır.", "I. yerdeki nokta kaldırılmalı, IV. yerdeki kesme işareti de kaldırılmalıdır.", "I. yerdeki nokta kaldırılmalı, III. yerdeki kesme işareti de kaldırılmalıdır.", "II. yerdeki kesme işareti kaldırılmalı, III. yerdeki kesme işareti de kaldırılmalıdır."],
   dogru: 2,
-  hatalar: [
-    "Noktalı virgülden sonra büyük harfle devam etme: İkinci boşluktan sonra 'Kardeşim' büyük harfle başlıyor; cümle bitmiştir, nokta gerekir.",
-    "Açıklama öncesine noktalı virgül koyma: Ardından ne gördüğünün anlatılacağı sözden sonra iki nokta gelir; tırnak içindeki 'mı' da soru ekidir.",
-    null,
-    "Gereksiz noktalı virgül: 'Önce bir şey demedim' ile 'sonra … sordum' içinde virgül bulunmayan iki kısa sıralı cümledir; virgülle ayrılır."
-  ],
-  aciklama: `İki nokta, kendisinden sonra açıklama geleceğini gösterir. TDK'ye göre iki noktadan sonra cümle gelirse büyük harfle başlar.
-Adım 1: "manzarayı kısaca anlatayım( ) Yatağın üstünde…" Ardından manzaranın ne olduğu açıklanıyor; iki nokta (:) konur. Açıklama bir cümle olduğu için "Yatağın" büyük harfle başlamış.
-Adım 2: "boş tabaklar duruyordu( ) Kardeşim ise…" Sonraki sözcük büyük harfle başlıyor; cümle bitmiş: nokta (.).
-Adım 3: "Önce bir şey demedim( ) sonra…" Küçük harfle devam ediyor; içinde virgül olmayan iki sıralı cümle virgülle (,) ayrılır.
-Adım 4: “Sence bu oda gerçekten toplanmış mı( )” "mı" soru ekiyle soru; soru işareti (?) tırnak içinde kalır.
-Sağlama: (:) (.) (,) (?).
-Sık yapılan hata: Noktalı virgülden sonra büyük harfle yeni cümle başlatmak. Noktalı virgül cümleyi bitirmez, bölümleri ayırır.
+  hatalar: ["Doğru yeri bulup yanlış işareti düzeltme: I. yerde yanlış olan kesme değil noktadır. “18 Nisan” belirli bir tarihtir, ay adına gelen ek kesmeyle ayrılır; gün sayısından sonra ise nokta konmaz.", "Rakama gelen eki kurum adına gelen ekle karıştırma: “06.00’dan” doğru yazılmıştır, rakamla yazılan sayıya gelen ek kesmeyle ayrılır. Bu öneri doğru bir kesmeyi siler, III. yerdeki yanlışı da düzeltmez.", null, "Yer adını kurum adı sanma: “Kıyı Mahallesi” bir yer adıdır, eki kesmeyle ayrılır. Kesmesiz yazılması gereken, kurum adı olan “Sarıçay Ulaşım Müdürlüğü”ne gelen ektir. Bu öneri I. yerdeki noktayı da düzeltmez."],
+  aciklama: `Önce numaralı dört yeri tek tek değerlendir, sonra seçeneklerdeki önerilere bak.
+Adım 1: I. yer → “18. Nisan’da”. Ay adı yazıyla yazılan tarihte gün sayısından sonra nokta konmaz; doğrusu “18 Nisan’da”. Kesme ise yerinde, çünkü belirli bir tarih bildiren ay adına gelen ek kesmeyle ayrılır. Bu yerde yanlış olan noktadır.
+Adım 2: II. yer → “Kıyı Mahallesi’ni”. Mahalle adı bir yer adıdır, yani özel addır. Özel ada gelen hâl eki kesmeyle ayrılır. Yanlış yok.
+Adım 3: III. yer → “Sarıçay Ulaşım Müdürlüğü’nün”. Müdürlük bir kurumdur. Kurum adlarına gelen ekler kesmeyle ayrılmaz; doğrusu “Sarıçay Ulaşım Müdürlüğünün”.
+Adım 4: IV. yer → “06.00’dan”. Rakamla yazılan sayılara gelen ekler kesmeyle ayrılır ve okunuşa uyar (altıdan). Yanlış yok.
+Adım 5: Yapılması gereken iki iş var: I. yerdeki noktayı ve III. yerdeki kesmeyi kaldırmak. A, B ve D doğru yazılmış bir kesmeyi siliyor. İki düzeltmeyi birlikte veren seçenek C’dir.
+Sık yapılan hata: Kesme gördüğün her yerde aynı kuralı aramak. “Mahallesi’ni”, “Müdürlüğü’nün” ve “06.00’dan” sözlerinin üçünde de kesme var; ama biri yer adı, biri kurum adı, biri rakamdır. Kesmeyi kaldıran şey adın kurum adı olmasıdır.
 Cevap C.`
 },
 {
@@ -500,24 +490,18 @@ Cevap C.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe dersinde öğretmenimiz derse “Denizi Seven Çocuk”(I) adlı öyküyle başladı. Öyküyü okuduktan sonra kitabı masaya bıraktı ve “Okumak, başka hayatlara açılan bir penceredir.”(II) dedi. Ardından öyküdeki bir ayrıntıya dikkatimizi çekti: Yazar, denizi korkulacak bir yer olarak değil, bir “yol arkadaşı”(III) olarak anlatıyordu. Dersin son yarım saatinde de aynı yazarın “Kıyıdaki Fener”(IV) adlı şiirini okuduk ve iki metindeki deniz imgesini karşılaştırdık.
-**Bu metinde numaralanmış tırnak işaretlerinden hangi ikisi aynı görevde kullanılmıştır?**`,
+  soru: `İlçe gençlik merkezinin kısa film atölyesi, üç aylık çalışmasını cumartesi akşamı küçük bir gösterimle tamamladı. Atölyeye katılan on dört genç bu sürede senaryo yazdı, çekim yaptı, kurgu öğrendi. Çekimlerin çoğu merkezin bahçesinde ve yakındaki parkta yapıldı. Gösterimde her biri beş dakikayı geçmeyen üç film izlendi: “Son Durak”, “Balkondaki Kedi” ve “Kuyudaki Ses”. Salonu en çok güldüren, bir apartmanın “sessiz” köpeğini anlatan ikinci filmdi. Köpek film boyunca bir an bile susmuyordu. Gösterimi yüzden fazla kişi izledi, salonda ayakta duranlar bile vardı. Filmlerin ardından sahneye çıkan atölye yürütücüsü, gençlerin ilk günkü acemiliğini gülerek anlattı. Sonra ilçe gazetesinde çıkan bir yazıdan şu bölümü okudu: “Bu gençler kamerayı ilk kez ellerine aldı (…) ama izlediklerimiz usta işi gibiydi.” Seyircilerin oylarıyla seçilen film önümüzdeki ay il şenliğinde gösterilecek. Atölyenin yeni dönemi için kayıtlar da aynı akşam başladı. İlk gün yirmi iki genç adını yazdırdı. Yeni dönemde kısa belgeseller çekilecek.
+**Bu metindeki noktalama işaretleriyle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: ["I ve II", "II ve III", "III ve IV", "I ve IV"],
+  secenekler: ["Tırnak işareti hem eser adlarını hem de özel olarak vurgulanan bir sözü göstermek için kullanılmıştır.", "İki nokta hem sıralanan örneklerden hem de aktarılan bir sözden önce kullanılmıştır.", "Virgül hem sıralı cümleleri ayırmak hem de yüklemden uzak düşen özneyi belirtmek için kullanılmıştır.", "Üç nokta hem alıntıda atlanan bölümü hem de tamamlanmamış bir cümleyi göstermek için kullanılmıştır."],
   dogru: 3,
-  hatalar: [
-    "Eser adını alıntı sanma: I. tırnak bir öykünün adını gösterir; II. tırnak ise öğretmenin söylediği sözü olduğu gibi aktarır.",
-    "Alıntı ile vurguyu karıştırma: II. tırnak bir sözü aktarır; III. tırnak ise yazarın denize yüklediği özel anlamı vurgular.",
-    "Vurguyu eser adıyla karıştırma: III. tırnak özel olarak vurgulanan bir sözü gösterir; IV. tırnak bir şiirin adıdır.",
-    null
-  ],
-  aciklama: `Tırnak işaretinin üç temel görevi vardır: başkasının sözünü olduğu gibi aktarmak, özel olarak vurgulanan sözü belirtmek ve kitap, öykü, şiir gibi eserlerin adını göstermek.
-Adım 1: I: “Denizi Seven Çocuk” adlı öykü → bir eser adı.
-Adım 2: II: Öğretmenin söylediği cümle olduğu gibi aktarılıyor → alıntı.
-Adım 3: III: "yol arkadaşı" sözü, yazarın denize yüklediği özel bir anlamı gösteriyor → özel vurgu.
-Adım 4: IV: “Kıyıdaki Fener” adlı şiir → bir eser adı.
-Sağlama: Aynı görevde olanlar I ve IV'tür; ikisinin de ardından "adlı" sözü gelir.
-Sık yapılan hata: Tırnak içindeki her sözü alıntı sanmak. Tek bir sözcük ya da söz öbeği tırnağa alınmışsa vurgu olabilir; ardından "adlı" geliyorsa eser adıdır.
+  hatalar: ["Vurgu tırnağını gözden kaçırma: film adları eser adıdır; “sessiz” sözü ise kimseden aktarılmamıştır, köpeğin hiç susmadığını sezdirmek için özel olarak vurgulanmıştır. İki görev de metinde var.", "İki noktanın ikinci görevini aramama: “üç film izlendi” sözünden sonra örnekler sıralanır, “şu bölümü okudu” sözünden sonra ise gazeteden aktarılan söz gelir. İki görev de metinde var.", "Özneden sonraki virgülü fark etmeme: “senaryo yazdı, çekim yaptı, kurgu öğrendi” sıralı cümledir; “atölye yürütücüsü” sözünden sonraki virgül ise yüklemden uzak düşen özneyi belirtir. İki görev de metinde var.", null],
+  aciklama: `Her seçenek bir işaretin iki görevini birlikte söylüyor. Seçeneğin doğru olması için iki görevin de metinde bulunması gerekir; biri eksikse o yargı söylenemez.
+Adım 1: Tırnak → “Son Durak”, “Balkondaki Kedi” ve “Kuyudaki Ses” film adlarıdır (eser adı). “sessiz” sözünü kimse söylememiş; yazar, hiç susmayan köpek için bu sözü bilerek öne çıkarmış (özel vurgu). A söylenebilir.
+Adım 2: İki nokta → “üç film izlendi:” sözünden sonra filmler sıralanıyor (örnek). “şu bölümü okudu:” sözünden sonra gazetedeki yazı aktarılıyor (aktarılan söz). B söylenebilir.
+Adım 3: Virgül → “senaryo yazdı, çekim yaptı, kurgu öğrendi” bölümünde üç yargı sıralanıyor (sıralı cümle). “Filmlerin ardından sahneye çıkan atölye yürütücüsü,” sözünde ise özne, yüklem olan “anlattı” sözcüğünden uzak düştüğü için virgülle belirtilmiş. C söylenebilir.
+Adım 4: Üç nokta → Metinde üç nokta bir kez geçiyor: gazeteden aktarılan sözün ortasında, ayraç içinde. Bu “(…)” alıntıdan bir bölümün atlandığını gösterir. Metindeki bütün cümleler ise tamamlanmış; yarım bırakılan cümle yok. D’nin ilk yarısı doğru, ikinci yarısı yanlış.
+Sık yapılan hata: Bir yargının ilk yarısı doğru çıkınca gerisini denetlemeden geçmek. “Hem … hem de …” diyen seçenekte iki yarıyı da metinde tek tek bul.
 Cevap D.`
 },
 {
@@ -525,28 +509,25 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Otobüs terminalinde bilet kuyruğu uzadıkça uzuyordu. Sıra bize geldiğinde görevli başını ekrandan kaldırdı.
-— Kaç kişisiniz( )
-Babam üç parmağını kaldırdı( ) görevli ekrana bakıp iç çekti.
-— Son üç koltuk kaldı ama yan yana değil( ) diye ekledi.
-Annem bana dönüp “Yolculuk boyunca kitabını okursun, değil mi( )” diye sordu. Başımı sallayınca biletler hemen kesildi.
-**Bu metinde yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
+  soru: `Deniz, takımıyla katıldığı robot yarışmasını anlatan bir yazı hazırladı ve yazıyı gençlik merkezinin sayfasında yayımlamadan önce üç arkadaşına okuttu:
+(I) Takımımız bu yıl TÜBİTAK’ın desteklediği bölge yarışmasına ilk kez katıldı. (II) Kendi ağırlığının üç katını taşıyabilen küçük robotumuzun adı “Karınca”’ydı. (III) Hakemler her takıma aynı soruyu sordu: “Robotunuz çizgiyi kaybederse ne yapıyor.” (IV) Biz de robotumuzun sensörlerini, motorlarını, ve yazılımını hakemlere tek tek anlattık. (V) İngilizceyi en iyi konuşan arkadaşımızın yaptığı sunumdan sonra yarışmayı otuz takım arasında üçüncü sırada bitirdik.
+Arkadaşları yazıdaki noktalama işaretleriyle ilgili şunları söyledi:
+Irmak: II. cümlede tırnaktan sonraki kesme işareti kaldırılmalı. I. cümledeki kesme işareti ise yerinde, çünkü kısaltmaya gelen ek kesmeyle ayrılır.
+Tolga: III. cümlede tırnak içindeki nokta soru işaretiyle değiştirilmeli. V. cümlede “İngilizceyi” sözcüğündeki ek de kesmeyle ayrılmalı.
+Selen: IV. cümlede “ve”den önceki virgül kaldırılmalı. III. cümledeki iki nokta ise yerinde, çünkü aktarılan sözden önce iki nokta konur.
+**Buna göre Deniz’in arkadaşlarından hangilerinin söylediklerinin tamamı doğrudur?**`,
   gorsel: null,
-  secenekler: ["(?) (;) (.) (?)", "(?) (,) (,) (?)", "(?) (,) (.) (!)", "(!) (,) (,) (?)"],
+  secenekler: ["Yalnız Irmak", "Irmak ve Selen", "Tolga ve Selen", "Irmak, Tolga ve Selen"],
   dogru: 1,
-  hatalar: [
-    "Konuşmadan sonra 'diye' gelirken nokta koyma: Konuşma çizgisiyle verilen söz 'diye ekledi' ile sürüyorsa sözün sonuna virgül konur; ikinci boşluktaki sıralı cümleler de virgülle ayrılır.",
-    null,
-    "'diye' öncesini ve soru ekini yanlış işaretleme: Üçüncü boşlukta cümle 'diye ekledi' ile sürdüğü için virgül gelir; 'değil mi' ise gerçek bir sorudur.",
-    "Soru cümlesini ünlemle bitirme: 'Kaç kişisiniz' sözünde 'kaç' soru sözü var; sonuna soru işareti konur."
-  ],
-  aciklama: `TDK'ye göre konuşma çizgisinden sonra gelen söz "diye sordu, diye ekledi" gibi bir sözle sürüyorsa konuşmanın sonuna virgül konur: "— Bu akşam gidiyor musunuz, diye sordu."
-Adım 1: "— Kaç kişisiniz( )" konuşma burada bitiyor ve "kaç" soru sözü var: soru işareti (?).
-Adım 2: "Babam üç parmağını kaldırdı( ) görevli…" küçük harfle devam ediyor; içinde virgül olmayan iki sıralı cümle virgülle (,) ayrılır.
-Adım 3: "— Son üç koltuk kaldı ama yan yana değil( ) diye ekledi." Söz "diye ekledi" ile sürüyor; konuşmanın sonuna virgül (,) konur.
-Adım 4: “…kitabını okursun, değil mi( )” "değil mi" gerçek bir soru sorar; soru işareti (?) tırnağın içinde kalır.
-Sağlama: (?) (,) (,) (?).
-Sık yapılan hata: Konuşma çizgisiyle başlayan her satırı noktayla bitirmek. Satırın sonunda "diye …" varsa söz henüz bitmemiştir.
+  hatalar: ["Selen’in sözlerini eksik değerlendirme: “ve” bağlacından önce virgül konmaz, aktarılan sözden önce de iki nokta konur. Selen’in iki sözü de doğrudur.", null, "Irmak’ı yanlış, Tolga’yı doğru sayma: tırnak içindeki söze gelen ek kesmeyle ayrılmaz, kısaltmaya gelen ek ayrılır; Irmak haklıdır. Tolga’nın ikinci sözü ise yanlıştır, “İngilizceyi” kesmesiz yazılır.", "Yarısı doğru sözü tam doğru sayma: Tolga’nın ilk sözü yerindedir ama ikincisi yanlıştır. Yapım eki almış özel ada sonradan gelen ek kesmeyle ayrılmaz (İngilizceyi, Almancayı)."],
+  aciklama: `Üç arkadaşın her biri iki şey söylüyor. Sözlerinin tamamı doğru sayılsın diye ikisinin de doğru olması gerekir. Önce cümleleri kendin denetle.
+Adım 1: I. cümle → “TÜBİTAK’ın”. Kısaltmalara gelen ekler kesmeyle ayrılır. Doğru.
+Adım 2: II. cümle → “Karınca”’ydı. Tırnak içindeki söze gelen ek kesmeyle ayrılmaz; sözün bittiği yeri zaten tırnak gösterir. Doğrusu “Karınca”ydı. Yanlış var.
+Adım 3: III. cümle → İki nokta, aktarılan sözden önce geldiği için yerinde. Ama tırnak içindeki “ne yapıyor” bir soru; sonuna nokta değil soru işareti konmalı. Yanlış var.
+Adım 4: IV. cümle → “ve” bağlacından önce de sonra da virgül konmaz. Doğrusu “sensörlerini, motorlarını ve yazılımını”. Yanlış var.
+Adım 5: V. cümle → “İngilizceyi”. Özel ad “-ce” yapım ekini almış; yapım ekinden sonra gelen ekler kesmeyle ayrılmaz. Doğru yazılmış.
+Adım 6: Arkadaşlarının sözlerine dön. Irmak: II’deki kesme kalkmalı (doğru), I’deki kesme yerinde (doğru). Tolga: III’teki nokta soru işareti olmalı (doğru), “İngilizceyi” kesmeyle ayrılmalı (yanlış). Selen: IV’teki virgül kalkmalı (doğru), III’teki iki nokta yerinde (doğru).
+Sık yapılan hata: Özel ad gördüğün her yerde eki kesmeyle ayırmak. “İngiltere’yi” yazılır ama “İngilizceyi” yazılır; araya yapım eki girince kesme kalkar.
 Cevap B.`
 },
 {
@@ -554,27 +535,21 @@ Cevap B.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, dedesinin köyündeki eski çeşmeyi anlattığı yazısını arkadaşına okuttu. Arkadaşı, yazıdaki dört cümlenin altını çizip noktalama bakımından kontrol edilmesi gerektiğini söyledi:
-(I) Köy odasının duvarında çeşmeye ait eski belgeler, fotoğraflar vb asılıydı.
-(II) Çeşmenin kitabesini okumak için Yeşiltepe Muhtarlığı'ndan izin aldık.
-(III) Kitabeyi okuyunca dedem bana dönüp sordu: “Bunu kimin yaptırdığını biliyor musun.”
-(IV) Köy meydanındaki çeşme 1920'de yapılmış, 1974'te de onarılmış.
-**Numaralanmış cümlelerin hangisinde noktalama yanlışı __yoktur__?**`,
-  gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `(I) Avrupa-Afrika göç yolunu kullanan leylekler, ağustos ve eylül aylarında büyük sürüler hâlinde İstanbul Boğazı’nın üzerinden geçer. (II) Bu iri kuşların açık denizden uzak durmasının nedeni basittir: Kanat çırpmadan süzülebilmek için karada ısınıp yükselen havaya ihtiyaç duyarlar. (III) Göç günlerinde tepelere çıkan gözlemciler yanlarına dürbün, sayaç, defter; çocukları için de kuş kartları, boya kalemleri getirir. (IV) Göçü kırk yıldır aynı tepeden izleyen emekli öğretmen Harun Bey, bu yıl ilk büyük sürüyü ağustosun ikinci haftasında gördüğünü söylüyor. (V) Onun her sabah oturduğu taş kulübenin 1960 (?) yılında yapıldığı sanılıyor. (VI) Geçen yıl kulübeye uğrayan pek dikkatli (!) bir ziyaretçi, önünden geçen martıları leylek diye saymış.
+Aşağıdaki tabloda, numaralanmış cümlelerde geçen bazı noktalama işaretlerinin o cümledeki görevi açıklanmıştır.
+**Buna göre tablodaki açıklamalardan hangileri __yanlıştır__?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>Cümle</th><th>İşaret</th><th>Cümledeki görevi</th></tr><tr><td>I</td><td>Kısa çizgi</td><td>İki sözcük arasına “ile, arasında” anlamı katma</td></tr><tr><td>II</td><td>İki nokta</td><td>Kendisinden sonra açıklama geleceğini gösterme</td></tr><tr><td>III</td><td>Noktalı virgül</td><td>Virgülle ayrılmış takımları birbirinden ayırma</td></tr><tr><td>IV</td><td>Virgül</td><td>Ara sözü cümleden ayırma</td></tr><tr><td>V</td><td>Ayraç içindeki soru işareti</td><td>Bilginin kesin olmadığını gösterme</td></tr><tr><td>VI</td><td>Ayraç içindeki ünlem işareti</td><td>Söze şaşma ve hayranlık anlamı katma</td></tr></table>",
+  secenekler: ["I ve IV", "II ve VI", "III ve V", "IV ve VI"],
   dogru: 3,
-  hatalar: [
-    "Kısaltma noktasını gözden kaçırma: 've benzeri' anlamındaki kısaltma noktayla yazılır; doğrusu 'fotoğraflar vb. asılıydı'.",
-    "Kurum adına kesme konmayacağını gözden kaçırma: 'Yeşiltepe Muhtarlığı' bir kurum adıdır; doğrusu 'Muhtarlığından'.",
-    "Alıntıdaki soruyu gözden kaçırma: 'biliyor musun' sözünde 'mu' soru eki var; tırnak içindeki cümle soru işaretiyle bitmelidir.",
-    null
-  ],
-  aciklama: `"Yanlışı yoktur" sorularında üç cümlede birer yanlış bulup elersin; kalan cümle doğrudur.
-Adım 1: I. cümle: "vb." "ve benzeri" sözünün kısaltmasıdır. Kısaltmaların sonuna nokta konur; "vb" yanlış, doğrusu "vb.".
-Adım 2: II. cümle: "Yeşiltepe Muhtarlığı" bir kurumdur. Kurum adlarına gelen ekler kesmeyle ayrılmaz: "Yeşiltepe Muhtarlığından". Yanlış.
-Adım 3: III. cümle: Dedenin sözü "biliyor musun" diye bir soru; tırnak içindeki cümlenin sonuna nokta değil soru işareti konmalı. Yanlış.
-Adım 4: IV. cümle: Rakamla yazılan sayılara gelen ekler kesmeyle ayrılır (1920'de, 1974'te); iki sıralı cümle virgülle ayrılmış. Yanlış yok.
-Sık yapılan hata: Yalnızca bir cümleye bakıp "bu doğru" deyip geçmek. Olumsuz kökte her cümledeki yanlışı tek tek bulman gerekir.
+  hatalar: ["Doğru açıklamayı yanlış sayma: IV’teki açıklama gerçekten yanlıştır ama I doğrudur; “Avrupa-Afrika göç yolu” Avrupa ile Afrika arasındaki yol demektir.", "Açıklama cümlesini başka bir görev sanma: VI’daki açıklama gerçekten yanlıştır ama II doğrudur; iki noktadan sonraki cümle “nedeni basittir” yargısını açıklar.", "Az bilinen doğru kullanımları yanlış sayma: noktalı virgül virgüllü iki takımı ayırır, ayraç içindeki soru işareti de tarihin kesin olmadığını gösterir. İki açıklama da doğrudur.", null],
+  aciklama: `Altı açıklamayı da cümlesiyle karşılaştır. Seçenekler ikili olduğu için tek bir yanlışı bulmak yetmez.
+Adım 1: I → “Avrupa-Afrika göç yolu”, Avrupa ile Afrika arasındaki yol demek. Kısa çizgi “ile, arasında” anlamı katmış. Açıklama doğru.
+Adım 2: II → İki noktadan sonra, leyleklerin neden denizden uzak durduğu anlatılıyor. İki nokta açıklamadan önce gelmiş. Açıklama doğru.
+Adım 3: III → “dürbün, sayaç, defter” bir takım, “kuş kartları, boya kalemleri” başka bir takım. Kendi içinde virgülle ayrılan bu iki takımı noktalı virgül ayırmış. Açıklama doğru.
+Adım 4: IV → Ara söz, cümlenin içine sonradan eklenen ve iki yanından ayrılan sözdür; çıkarılınca cümle bozulmaz. Bu cümlede tek virgül var ve araya giren bir söz yok. “Göçü kırk yıldır aynı tepeden izleyen emekli öğretmen Harun Bey” cümlenin öznesidir; yüklem olan “söylüyor” çok uzakta kaldığı için özneden sonra virgül konmuş. Açıklama yanlış.
+Adım 5: V → Kulübenin yapım yılı kesin bilinmiyor, “sanılıyor”. Ayraç içindeki soru işareti bu kuşkuyu gösterir. Açıklama doğru.
+Adım 6: VI → Martıları leylek diye sayan ziyaretçi dikkatli değildir. Ayraç içindeki ünlem, “dikkatli” sözüne alay anlamı katar; şaşma ya da hayranlık bildirmez. Açıklama yanlış.
+Sık yapılan hata: Ayraç içindeki ünlemi cümle sonundaki ünlemle bir tutmak. Cümle sonundaki ünlem duygu bildirir; ayraç içindeki ünlem sözün tersinin kastedildiğini gösterir.
 Cevap D.`
 },
 {
@@ -582,26 +557,20 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Sevgili Defne,
-Tatilde okumak için üç kitap seçmiştim( ) bir macera romanı, bir gezi kitabı ve bir şiir kitabı. Macera romanını, aylardır sabırsızlıkla beklediğim o kalın kitabı, ilk hafta bitirdim( ) diğer ikisini henüz açmadım. Aslında her akşam okumaya niyetleniyorum ama bir bakıyorum ki( ) Neyse, bunu anlatmasam da olur. Sen bu yaz neler okudun( ) Mektubunu bekliyorum.
-Arkadaşın Ada
-**Bu mektupta yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
+  soru: `Yaz tatilinde tuttuğum gezi defterinden:
+Dün gece heyecandan doğru dürüst uyuyamamıştım. Bu sabah Bozcaada feribotunun ilk seferine yetiştik. Babam adayı yürüyerek gezmek istediği için arabayı iskelede bırakacaktı. Gişedeki görevli bunu bilmediği için bilet keserken sordu: “Aracınızın plakası( )” Babam yaya geçeceğimizi söyleyip dört bilet aldı. Feribot kıyıdan ayrılır ayrılmaz güverteye çıktım. Martılar nasıl da peşimize takılmıştı( ) Kimi direğin tepesine konuyor, kimi yolcuların attığı simit parçalarını havada kapıyordu. Tam o sırada rüzgâr şapkamı başımdan aldı. Yakalamak için korkuluğa doğru atıldım ama( ) Şapka çoktan dalgaların arasındaydı. Yarım saat sonra adanın taş kalesi göründü. Babam iki günde gezeceğimiz yerleri bir bir saydı. Bugün kaleyi, çarşıyı( ) yarın üzüm bağlarını, batı burnundaki feneri görecekmişiz. Kardeşim bunu duyunca yüzünü buruşturdu. O kadar yolu nasıl yürüyeceğini düşünüyordu herhâlde. Annem bağlara bisikletle gidebileceğimizi söyleyince rahatladı. Ben en çok feneri merak ediyorum. Babamın dediğine göre adada gün batımı en güzel oradan izlenirmiş. Akşam yemeğinden sonra iskelede oturup balıkçı teknelerini izledik. Fotoğraf makinemi şimdiden çantama koydum, pilini de az önce doldurdum.
+**Bu metinde yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: ["(:) (,) (…) (?)", "(;) (;) (.) (?)", "(:) (;) (…) (?)", "(,) (;) (…) (!)"],
+  secenekler: ["(?) (?) (…) (;)", "(.) (!) (…) (;)", "(?) (!) (…) (;)", "(?) (!) (.) (,)"],
   dogru: 2,
-  hatalar: [
-    "İçinde virgül bulunan bölümü virgülle ayırma: Birinci bölümde ara söz virgülleri var; iki bölüm arasına virgül konursa hangi sözün nereye ait olduğu karışır, noktalı virgül gerekir.",
-    "Sıralama öncesine noktalı virgül ve yarım cümleye nokta koyma: Kitaplar sıralanmadan önce iki nokta gelir; 'bir bakıyorum ki' sözü yarım kalmıştır, üç nokta gerekir.",
-    null,
-    "Sıralamadan önce virgül koyma ve soruyu ünlemle bitirme: Sıralama iki noktayla başlar; 'neler okudun' sözünde 'neler' soru sözüdür."
-  ],
-  aciklama: `Üç nokta, tamamlanmamış cümlelerin sonuna konur; noktalı virgül ise içinde virgül bulunan sıralı cümleleri ayırır.
-Adım 1: "üç kitap seçmiştim( ) bir macera romanı…" Ardından kitaplar sıralanıyor; iki nokta (:) konur. Sıralanan sözler cümle olmadığı için küçük harfle başlar.
-Adım 2: "Macera romanını, aylardır … o kalın kitabı, ilk hafta bitirdim( ) diğer ikisini…" Birinci bölümde ara sözü ayıran virgüller var. İçinde virgül bulunan bölümden sonraki sıralı cümleye noktalı virgülle (;) geçilir.
-Adım 3: "ama bir bakıyorum ki( ) Neyse…" Cümle yarım bırakılmış, yazar sözü kesmiş. Tamamlanmamış cümleye üç nokta (…) konur.
-Adım 4: "Sen bu yaz neler okudun( )" "neler" soru sözüdür; soru işareti (?) konur.
-Sağlama: (:) (;) (…) (?).
-Sık yapılan hata: Yarım bırakılan cümleye nokta koymak. Nokta, düşüncenin tamamlandığını gösterir; burada söz kesilmiştir.
+  hatalar: ["Duygu bildiren cümleyi soru sanma: “nasıl” sözü var ama cümle bir şey sormuyor; martıların peşe takılmasına duyulan şaşkınlığı bildiriyor. Sonuna ünlem konur.", "Ek taşımayan soruyu bildirme cümlesi sanma: “Aracınızın plakası” sözünde soru eki de soru sözü de yok ama görevli bunu soruyor, babam da yanıtlıyor. Ek taşımayan soru da soru işareti alır.", null, "Yarım cümleyi bitmiş sayma ve takım sınırını kaçırma: “ama” ile kesilen cümle tamamlanmamıştır, sonuna nokta değil üç nokta konur. Kendi içinde virgülle ayrılan iki günün yerleri de birbirinden virgülle değil noktalı virgülle ayrılır."],
+  aciklama: `Dört boşluğu sırayla çöz. Soru sözü olup olmadığına değil, cümlenin ne yaptığına bak: Soruyor mu, duygu mu bildiriyor, yarım mı kalıyor?
+Adım 1: “Aracınızın plakası( )” sözünde “mi” eki de “ne, kaç” gibi bir soru sözü de yok. Ama hemen önünde “sordu” yazıyor ve babam bu söze yanıt veriyor. Ek taşımayan soru da soru işareti alır: (?).
+Adım 2: “Martılar nasıl da peşimize takılmıştı( )” Bu kez tersine, cümlede “nasıl” var ama yazar kimseye bir şey sormuyor, gördüğüne şaşıyor. Şaşma, hayranlık bildiren cümlenin sonuna ünlem konur: (!).
+Adım 3: “Yakalamak için korkuluğa doğru atıldım ama( )” Cümle “ama” sözünde kesiliyor, ne olduğu söylenmiyor; sonraki sözcük de büyük harfle başlıyor. Tamamlanmamış cümlenin sonuna üç nokta konur: (…). Nokta, bitmiş cümlenin işaretidir.
+Adım 4: “Bugün kaleyi, çarşıyı( ) yarın üzüm bağlarını, batı burnundaki feneri…” İki günün gezilecek yerleri kendi içinde virgülle ayrılmış. Virgülle ayrılmış takımları birbirinden noktalı virgül ayırır: (;). Buraya da virgül konursa hangi yerin hangi güne ait olduğu karışır.
+Sağlama: (?) (!) (…) (;) sırası yalnızca C’de var. A ikinci boşlukta, B birinci boşlukta, D son iki boşlukta yanılıyor.
+Sık yapılan hata: Birinci ve ikinci boşluğu soru sözüne bakarak doldurmak. Soru sözü olmayan söz soru olabilir (Aracınızın plakası?), soru sözü olan cümle de soru olmayabilir (Martılar nasıl da peşimize takılmıştı!).
 Cevap C.`
 },
 {
@@ -609,24 +578,20 @@ Cevap C.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Kış tatilinde Kars-(I)Erzurum demir yolu hattında yolculuk yaptık. Tren yola çıktığında istasyondaki termometre -(II)12 °C gösteriyordu. Kompartımanda karşımıza oturan küçük bir çocuk, pencerenin üstündeki “Çıkış” yazısını hecelerine ayırarak okumaya çalışıyordu: “Çı-(III)kış.” Çocuğun dedesi ise bize 1990-(IV)1995 yıllarında bu hatta makinist olarak çalıştığını ve o yıllarda trenin çok daha yavaş gittiğini anlatıyordu. Yolculuk boyunca dedenin anılarını dinlemek, pencereden görünen karlı manzaradan bile güzeldi.
-**Bu metinde numaralanmış kısa çizgilerden hangi ikisi aynı görevde kullanılmıştır?**`,
+  soru: `Amcam geçen ay bize eski bir daktilo getirdi. Makineyi bodrumdaki bir sandıkta bulmuş. Üstü tozla kaplıydı ama tuşlardaki harfler hâlâ okunuyordu. Dedem gençliğinde bir yerel gazetede çalışırmış. O,(I) daktiloyu kırk yıl boyunca çalışma masasından hiç ayırmamış. Makine bize geldiğinde tuşların yarısı takılıyordu,(II) şeridi de çoktan kurumuştu. Kardeşim Emre daktiloyu onarmaya karar verdi. Yedek parça bulmanın çok zor olacağını söyledik. Bu,(III) onu hiç yıldırmadı. Hafta sonu çarşıdaki yaşlı saat tamircisinin dükkânına gitti. Tamirciye tuşları,(IV) kolu ve vidaları tek tek söktürüp temizletti. Yeni şeridi de uzun aramalardan sonra internette buldu. Paket perşembe günü öğleden sonra geldi. Emre akşam ilk mektubunu yazıp babaanneme uzattı. O,(V) mektubu iki kez okudu. Mektup dedemin ağzından yazılmıştı ve “Sevgili Hatice” diye başlıyordu. Babaannem önce güldü, sonra gözlüğünü çıkarıp gözlerini sildi. Daktilo şimdi salonda, dedemin fotoğrafının altında duruyor. Emre her pazar babaanneme yeni bir mektup yazıyor. Babaannem mektupları küçük bir kutuda biriktiriyor.
+**Bu metinde numaralanmış virgüllerle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: ["I ve IV", "I ve III", "II ve IV", "II ve III"],
+  secenekler: ["Özne olan zamirden sonra konan I ve V numaralı virgüller kaldırılırsa cümlelerin anlamı değişir.", "Özne olan zamirden sonra konan I ve III numaralı virgüller kaldırılırsa cümlelerin anlamı değişir.", "Sıralı cümleleri ayıran II ve IV numaralı virgüller kaldırılırsa cümlelerin anlamı değişmez.", "Özne olan zamirden sonra konan III ve V numaralı virgüller kaldırılırsa cümlelerin anlamı değişmez."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Hece çizgisini 'arasında' çizgisiyle eşleme: III. çizgi 'Çı-kış' sözcüğünün hecelerini ayırır; I. çizgi iki şehir arasını gösterir.",
-    "Eksi işaretini tarih aralığıyla eşleme: II. çizgi sıfırın altındaki sıcaklığı gösterir; IV. çizgi iki yıl arasını gösterir.",
-    "Eksi işaretini hece çizgisiyle eşleme: II. çizgi sıfırdan küçük değeri, III. çizgi heceleri gösterir; görevleri farklıdır."
-  ],
-  aciklama: `Kısa çizgi; iki yer ya da iki tarih arasında "ile, arasında" anlamı vermek, sıfırdan küçük değerleri göstermek ve heceleri ayırmak gibi farklı görevlerde kullanılır.
-Adım 1: I: "Kars-Erzurum hattı" = Kars ile Erzurum arasındaki hat → "arasında" anlamı.
-Adım 2: II: "-12 °C" = sıfırın altında on iki derece → eksi değer.
-Adım 3: III: "Çı-kış" → heceleri ayırma.
-Adım 4: IV: "1990-1995 yıllarında" = 1990 ile 1995 arasındaki yıllarda → "arasında" anlamı.
-Sağlama: Çizginin yerine "ile … arası" koy: "Kars ile Erzurum arası", "1990 ile 1995 arası" olur; ötekilerde olmaz.
-Sık yapılan hata: İki sayı arasındaki çizgiyle sayının önündeki çizgiyi aynı sanmak. Önünde tek sayı varsa eksi, iki sayının arasındaysa "arasında" anlamı vardır.
+  hatalar: [null, "Kuralı yarım uygulama: “bu, şu, o”dan sonraki her virgülü anlamı değiştiren virgül sayma. III’te “bu”dan sonra bir ad gelmiyor; “bu onu” diye bir öbek kurulamayacağı için virgül kalksa da “bu” özne olarak kalır.", "Benzer görünen iki görevi karıştırma: II sıralı cümleleri ayırır ama IV eş görevli sözcükleri (tuşları, kolu, vidaları) ayırır. Yargının görevle ilgili yarısı yalnızca II için doğrudur.", "Kısmen doğru: III kalkınca anlam değişmez ama V kalkınca değişir. “O mektubu iki kez okudu.” cümlesinde “o” artık babaannemi göstermez, mektubu niteler; okuyan da Emre gibi anlaşılır."],
+  aciklama: `Her virgül için iki şeye bak: Görevi ne, kaldırılınca cümlenin anlamı değişiyor mu? Zamir, bir adın yerini tutan sözcüktür. Özne olan “bu, şu, o” zamirlerinden sonra virgül konur; konmazsa zamir, kendisinden sonraki adı niteleyen bir sıfat gibi okunabilir.
+Adım 1: I → “O, daktiloyu kırk yıl boyunca … ayırmamış.” “O” dedemin yerini tutuyor ve cümlenin öznesi. Virgülü kaldır: “O daktiloyu … ayırmamış.” Artık “o”, “daktilo” adını niteliyor; cümle “o daktilo”dan söz ediyor ve işi yapanı söylemiyor. Görev: özne olan zamirden sonra. Anlam değişir.
+Adım 2: II → “Tuşların yarısı takılıyordu, şeridi de çoktan kurumuştu.” İki ayrı yargı var. Görev: sıralı cümleleri ayırma. Virgül kalksa da iki yargı aynı kalır. Anlam değişmez.
+Adım 3: III → “Bu, onu hiç yıldırmadı.” “Bu” özne olan bir zamir. Ama ardından bir ad gelmiyor, “onu” geliyor; “bu onu” diye bir öbek kurulamaz. Virgül kalksa da “bu” özne olarak kalır. Görev: özne olan zamirden sonra. Anlam değişmez.
+Adım 4: IV → “Tamirciye tuşları, kolu ve vidaları … temizletti.” Temizletilen üç şey sıralanıyor; ortada tek yargı var. Görev: eş görevli sözcükleri ayırma. Bu virgül sıralı cümleleri ayırmıyor.
+Adım 5: V → “O, mektubu iki kez okudu.” “O” babaannemin yerini tutuyor. Virgülü kaldır: “O mektubu iki kez okudu.” Artık “o mektup” deniyor; okuyan da bir önceki cümlenin öznesi olan Emre gibi anlaşılıyor. Görev: özne olan zamirden sonra. Anlam değişir.
+Adım 6: Seçeneklere dön. B’de III, D’de V yanlış değerlendirilmiş. C’de IV’ün görevi yanlış verilmiş. I ve V için söylenenlerin ikisi de doğru.
+Sık yapılan hata: “Bu, şu, o” sözcüklerinden sonraki her virgülü anlamı değiştiren virgül saymak. Asıl bakman gereken, zamirden hemen sonra onun niteleyebileceği bir ad gelip gelmediğidir: “o mektup” olur, “bu onu” olmaz.
 Cevap A.`
 },
 {
@@ -634,25 +599,26 @@ Cevap A.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Sınıf başkanı, sınıfın mesaj grubuna şu duyuruyu yazdı:
-Sevgili arkadaşlar( ) bu cumartesi sınıfça okulun arka bahçesine fidan dikmeye gidiyoruz. Ne güzel bir haber( ) Fidanları belediye verecek, kürekleri okul sağlayacak( ) eldivenlerinizi, şapkalarınızı ve sularınızı ise kendiniz getireceksiniz. Toplanma yeri okulun ön kapısı, saat 09.00. Dikim yaklaşık üç saat sürecek. Aramızda gelemeyecek olan var mı( ) Varsa bugün öğretmenimize haber verin.
-**Bu duyuruda yay ayraçla ( ) gösterilen yerlere sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
+  soru: `Bir ilçe gazetesinin “Mesleğim” köşesinde bu hafta, hayvanları iyileştirmeye yıllarını vermiş bir veteriner hekim tanıtıldı. Yazının yayımlanmadan önceki hâlinden alınan altı cümle şöyledir:
+(I) Çarşının girişindeki küçük klinikte yirmi yıldır aralıksız çalışan Selma Hanım; ilçedeki hayvanseverlerin zor günde ilk aradığı kişi oluyor.
+(II) Mahalleli; sabırlı, soğukkanlı, güler yüzlü bu hekime sokakta bulduğu yaralı ya da hasta hayvanları gözü kapalı emanet ediyor.
+(III) Kliniğin en yaşlı hastasını (on yedi yaşında bir tekir) aşıları ve kontrolleri için her ayın ilk haftasında on bir yaşındaki sahibi Elif getiriyor.
+(IV) Elif her gelişinde kedisinin kaç yıl daha yaşayacağını soruyor, aldığı cevap ise hiç değişmiyor: “Onu ne kadar seversen o kadar yaşar”.
+(V) Klinik sabah 08.30’da açılıyor ama gece yarısı bir köyden telefon gelince veteriner hekim çantasını kapıp hiç söylenmeden yola düşüyor.
+(VI) Selma Hanım hafta içi klinikte kedi, köpek, kuş; hafta sonu çevredeki köylerde inek, koyun, keçi tedavi ediyor.
+**Buna göre numaralanmış cümlelerin hangilerinde noktalama yanlışı vardır?**`,
   gorsel: null,
-  secenekler: ["(,) (?) (;) (?)", "(,) (!) (;) (?)", "(,) (!) (,) (?)", "(:) (!) (;) (?)"],
+  secenekler: ["I ve II", "I ve IV", "II ve IV", "III ve VI"],
   dogru: 1,
-  hatalar: [
-    "Sevinç cümlesini soru sanma: 'Ne güzel bir haber' bir soru değil, sevinç bildiren bir sözdür; ünlem gerekir.",
-    null,
-    "İçinde virgül bulunan bölümleri virgülle ayırma: 'Fidanları belediye verecek, kürekleri okul sağlayacak' kendi içinde virgül taşıyor; sonraki bölüme noktalı virgülle geçilir.",
-    "Hitaptan sonra iki nokta koyma: Seslenme sözünden sonra virgül konur; iki nokta açıklama ya da alıntıdan önce kullanılır."
-  ],
-  aciklama: `Noktalı virgül, içinde virgül bulunan sıralı cümleleri birbirinden ayırır. Ünlem ise duygu bildiren cümlelerin sonuna konur.
-Adım 1: "Sevgili arkadaşlar( ) bu cumartesi…" Seslenme sözünden sonra virgül (,) konur; sonraki sözcük küçük harfle devam ediyor.
-Adım 2: "Ne güzel bir haber( )" sevinç bildiriyor: ünlem (!).
-Adım 3: "Fidanları belediye verecek, kürekleri okul sağlayacak( ) eldivenlerinizi, şapkalarınızı…" İki bölümün de içinde virgül var. Bölümler noktalı virgülle (;) ayrılır.
-Adım 4: "gelemeyecek olan var mı( )" "mı" soru ekiyle gerçek bir soru: soru işareti (?).
-Sağlama: (,) (!) (;) (?).
-Sık yapılan hata: Üçüncü boşluğa virgül koymak. O zaman okul malzemeleri ile öğrencilerin getireceği eşyalar aynı listede karışır.
+  hatalar: ["Kuralı yarım uygulama: özneden sonraki her noktalı virgülü yanlış sayma. I gerçekten yanlıştır ama II doğrudur; özneden sonra virgülle sıralanan eş değer sözler (sabırlı, soğukkanlı, güler yüzlü) geldiği için noktalı virgül konabilir. IV’teki yanlış da gözden kaçmıştır.", null, "İki noktalı virgülü ters değerlendirme: IV gerçekten yanlıştır ama II doğrudur. Yanlış olan I’dir, çünkü orada özneden sonra virgülle sıralanan sözler gelmiyor.", "Az bilinen doğru kullanımları yanlış sayma: ayraçtan önceki söze gelen ek ayraçtan önce yazılır (hastasını), virgüllü iki takımın arasına da noktalı virgül konur. İki cümle de doğrudur."],
+  aciklama: `Altı cümleyi de tek tek denetle. Bu soruda yanlışlar göze batmıyor; doğru cümlelerin bazıları da ilk bakışta yanlış gibi duruyor.
+Adım 1: I → Özneden (“… çalışan Selma Hanım”) sonra noktalı virgül var. Bu işaret özneden sonra ancak ardından virgülle sıralanan eş değer sözler geliyorsa konabilir. Burada öyle bir sıralama yok; cümlede başka virgül bile yok. Özne yüklemden uzak düştüğü için buraya noktalı virgül değil virgül konmalıydı. Yanlış var.
+Adım 2: II → Yine özneden (“Mahalleli”) sonra noktalı virgül var. Ama bu kez ardından virgülle sıralanan eş değer sözler geliyor: “sabırlı, soğukkanlı, güler yüzlü”. Noktalı virgül öznenin nerede bittiğini gösteriyor. Yanlış yok.
+Adım 3: III → Ayraç, “hasta” sözüyle ilgili ek bilgi veriyor. Ayraçtan önceki söz ek alacaksa ek ayraçtan önce yazılır: “hastasını (on yedi yaşında bir tekir)”. Yanlış yok.
+Adım 4: IV → “soruyor” sözcüğü soru bildirmez, Elif’in sorduğunu haber verir; virgül ve iki nokta yerinde. Ama aktarılan cümlenin kendi noktası tırnağın içinde kalmalıydı: “Onu ne kadar seversen o kadar yaşar.” Nokta tırnağın dışına konmuş. Yanlış var.
+Adım 5: V → “08.30’da” doğru: Rakama gelen ek kesmeyle ayrılır ve okunuşa uyar (otuzda). “gelince” sözünden sonra virgül olmaması da doğru; tek başına duran zarf-fiilden sonra virgül konmaz. Yanlış yok.
+Adım 6: VI → “kedi, köpek, kuş” ile “inek, koyun, keçi” kendi içinde virgülle ayrılan iki takımdır; aralarına noktalı virgül konmuş. Yanlış yok.
+Sık yapılan hata: I ile II’yi aynı saymak. İkisinde de noktalı virgül özneden sonra gelmiş; farkı yaratan, ardından virgülle sıralanan sözlerin gelip gelmemesidir.
 Cevap B.`
 },
 {
@@ -660,25 +626,25 @@ Cevap B.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Bilim kulübü öğretmeni, kulüp üyelerine şu e-postayı gönderdi:
-Merhaba,(I)
-Bu yılki bilim gezimiz 22-(II)24 Nisan tarihlerinde yapılacak. Gezi programında gözlemevi, müze,(III) ve kelebek vadisi var; rehberimiz her durakta kısa bir sunum yapacak. Gözlemevinde gece gözlemi de olacağı için kalın giysiler getirmeyi unutmayın. Katılmak isteyenler velilerine imzalattıkları izin formunu 15 Nisan'a(IV) kadar kulüp dolabına bıraksın. Sorusu olan teneffüslerde bana ulaşabilir.
-**Bu e-postada numaralanmış yerlerin hangisinde noktalama işareti yanlış kullanılmıştır?**`,
+  soru: `Bir doğa sporları kulübü, üyelerine şu duyuruyu gönderdi:
+Sevgili gençler,(I) kulübümüzün bahar oryantiring şenliği bu yıl 5.(II) kez düzenleniyor. Geçen yıl yüz yirmi yarışmacının katıldığı şenliğe bu yıl daha çok başvuru bekliyoruz. Bu sporda yarışmacılar, harita ve pusula yardımıyla arazideki hedef noktalarını en kısa sürede bulmaya çalışır. Şenlik 23 Mayıs’ta Kartepe’nin eteklerindeki ormanda yapılacak. Sabah yeni başlayanlara harita okuma eğitimi verilecek, öğleden sonra takımlar yarışacak. Başvurular kulüp binamızda alınıyor. Adresimiz: Ihlamur Sokağı No.: 6 Kartepe /(III) KOCAELİ. Katılmak isteyenlerin 15.(IV)05.2027 tarihine kadar gelip adını yazdırması gerekiyor. Yürüyüş ayakkabısı, yağmurluk ve su matarası getirmeyi unutmayın. Haritaları ve pusulaları kulübümüz dağıtacak. Yarışmanın sonunda her takıma katılım belgesi verilecek.
+Duyuruyu okuyan dört genç, numaralanmış işaretlerle ilgili birer değişiklik önerdi:
+Arda: I numaralı virgülün yerine iki nokta konabilir.
+Bora: II numaralı nokta kaldırılıp sayıya kesme işaretiyle “-inci” eki getirilebilir.
+Cenk: III numaralı eğik çizginin yerine kısa çizgi konabilir.
+Duru: IV numaralı tarihteki noktaların yerine eğik çizgi konabilir.
+**Buna göre hangi gençlerin önerisi uygulanırsa duyuruda noktalama yanlışı __yapılmamış__ olur?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["Arda ve Cenk", "Arda ve Duru", "Bora ve Duru", "Bora ve Cenk"],
   dogru: 2,
-  hatalar: [
-    "Selamlamadan sonraki virgülü yanlış sanma: Mektup ve e-postalarda seslenme ya da selamlama sözünden sonra virgül konur.",
-    "Tarih aralığındaki kısa çizgiyi yanlış sanma: '22-24 Nisan' 22 ile 24 Nisan arası demektir; kısa çizgi 'arasında' anlamı verir.",
-    null,
-    "Tarihe gelen eki yanlış sanma: '15 Nisan' belirli bir tarihtir; ay adına gelen ek kesmeyle ayrılır."
-  ],
-  aciklama: `TDK'ye göre "ve, veya" bağlaçlarından önce de sonra da virgül konmaz.
-Adım 1: I: "Merhaba," e-postanın seslenme bölümüdür; ardından virgül konur. Doğru.
-Adım 2: II: "22-24 Nisan" 22 ile 24 Nisan arasındaki günlerdir; kısa çizgi "arasında" anlamı verir. Doğru.
-Adım 3: III: "gözlemevi, müze, ve kelebek vadisi" sıralamasında "ve" bağlacından önce virgül konmuş. Bu yanlıştır; doğrusu "gözlemevi, müze ve kelebek vadisi".
-Adım 4: IV: "15 Nisan" belirli bir tarih bildirir; ay adına gelen ek kesmeyle ayrılır: "15 Nisan'a". Doğru.
-Sık yapılan hata: Sıralamanın son ögesinden önce de virgül koymak. Sıralamada son öge "ve" ile bağlanıyorsa "ve"den önce virgül olmaz.
+  hatalar: ["İki yanlış öneriyi doğru sayma: seslenmeden sonra iki nokta değil virgül konur. Adreste semt ile ili eğik çizgi ayırır; kısa çizgi iki adın arasına “ile, arasında” anlamı katar, semtin hangi ilde olduğunu göstermez.", "Yarısı doğru: Duru’nun önerisi yerindedir ama Arda’nınki yanlıştır. Seslenme sözünden sonra iki nokta konmaz; iki nokta açıklamadan ya da aktarılan sözden önce gelir.", null, "Yarısı doğru: Bora’nın önerisi yerindedir ama Cenk’inki yanlıştır. Adreste semtin hangi ilde olduğunu eğik çizgi gösterir; kısa çizgi bu görevi üstlenemez."],
+  aciklama: `Bazı görevleri iki ayrı işaret de yerine getirebilir; bazı görevleri ise tek bir işaret yapar. Dört öneriyi sırayla dene.
+Adım 1: Arda → “Sevgili gençler,” bir seslenmedir. Seslenmeden sonra virgül konur. İki nokta ise açıklamadan ya da aktarılan sözden önce gelir; burada ikisi de yok. Öneri yanlış.
+Adım 2: Bora → “5. kez” sözündeki nokta sıra bildirir. Sıra sayısı iki yolla yazılabilir: sayıdan sonra nokta konur (5.) ya da sıra eki kesmeyle ayrılarak yazılır (5’inci). İkisi birlikte kullanılmaz. Nokta kaldırılıp “5’inci kez” yazılırsa yanlış olmaz. Öneri doğru.
+Adım 3: Cenk → “Kartepe / KOCAELİ” bir adresin sonudur. Adreste semt ile il arasına eğik çizgi konur; bu çizgi semtin hangi ilde olduğunu gösterir. Kısa çizgi ise iki adın arasına “ile, arasında” anlamı katar (Kartepe-Kocaeli yolu gibi). Adreste eğik çizginin yerini tutamaz. Öneri yanlış.
+Adım 4: Duru → “15.05.2027” tek bir günü gösteren tarihtir. Tarihte gün, ay ve yıl noktayla da eğik çizgiyle de ayrılabilir: 15/05/2027. Öneri doğru.
+Adım 5: Doğru öneriler Bora ile Duru’nundur.
+Sık yapılan hata: Kısa çizgi ile eğik çizgiyi birbirinin yerine kullanmak. Cenk de Duru da bir işareti başka bir çizgiyle değiştiriyor; ama eğik çizgi tarihte noktanın yerini tutabilirken kısa çizgi adreste eğik çizginin yerini tutamaz.
 Cevap C.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */

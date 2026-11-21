@@ -170,24 +170,20 @@ Cevap D.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir mahallenin yıllardır bakımsız duran çocuk parkı bu yaz elden geçti. Belediye ekipleri ile mahalleliler işi birlikte yürüttü; kimi boya fırçası tuttu, kimi kırık oyuncakların yerine yenisini taşıdı. Aşağıda bu çalışmayla ilgili dört cümle numaralandırılarak verilmiştir.
-**Buna göre, numaralanmış cümlelerden hangi ikisinin ögeleri aynı sırayla dizilmiştir?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Belediye, çocuk parkını geçen ay yeniledi.</td></tr><tr><td>II</td><td>Kaydırağın boyasını her yıl gönüllüler tazeliyor.</td></tr><tr><td>III</td><td>Küçük çocuklar sabahları kum havuzunu tercih ediyor.</td></tr><tr><td>IV</td><td>Mahalleliler, yeni bankları bu sabah denedi.</td></tr></table>`,
+  soru: `Geleneksel Türk okçuluğunda kiriş başparmakla çekilir; parmağı korumak için de “zihgir” adı verilen bir yüzük takılır. Kısa mesafe atışlarında kullanılan, armut biçimli deri hedefe ise “puta” denir. Geçen pazar şehrimizin eski ok meydanında bir puta yarışması vardı; ben de seyircilerin arasında, en ön sıradaydım. Davulun sesi kesilince yarışma başladı; okçular sırayla atış çizgisine geliyor, her biri üç ok atıyordu. (I) Yarışmanın en genç okçusu, nefesini tutarak okunu putanın tam ortasına yolladı. Meydandan bir alkış koptu; okun putaya saplanırken çıkardığı tok ses bana kadar geldi. (II) Hedefin yanında bekleyen görevli, putaya saplanan okları tek tek sadağa yerleştirdi. Atışlar böyle saatlerce sürdü. (III) Baş hakem, düdüğünü iki kez çalarak bütün atışları öğle arasında durdurdu. Bir saatlik aradan sonra sıra finaldeydi. (IV) Yayını kendi eliyle yapan yaşlı okçu, atış çizgisine gelmeden önce yeni kirişi yayın iki ucuna taktı. Son okunu attığında meydanda çıt çıkmıyordu; kupayı o kazandı.
+
+**Buna göre numaralanmış cümlelerden hangi ikisinin öge dizilişi aynıdır?**`,
+  gorsel: null,
   secenekler: ["I ve II", "I ve IV", "II ve III", "III ve IV"],
   dogru: 1,
-  hatalar: [
-    "I ile II'yi eşleştirmek için 'Kaydırağın boyasını' sözünü özne saydın. Bu söz '-ı' ekini almıştır ve 'Neyi tazeliyor?' sorusunun karşılığıdır; nesnedir. II'nin öznesi 'gönüllüler'dir.",
-    null,
-    "II ile III'ü eşleştirmek için 'Kaydırağın boyasını' ile 'Küçük çocuklar' sözlerini aynı öge saydın. Biri nesne, diğeri öznedir; iki cümlenin sıralanışı farklıdır.",
-    "III ile IV'ü eşleştirirken nesne ve zarf tamlayıcısının yerini karıştırdın. III'te zarf tamlayıcısı nesneden önce, IV'te sonra gelir."
-  ],
-  aciklama: `Ögelerin sıralanışını karşılaştırmak için her cümlede önce yüklemi bul, sonra kalan söz öbeklerine tek tek soru sorarak sırayı yaz.
-Adım 1: I → Yüklem 'yeniledi'. 'Kim yeniledi?' → 'Belediye' (özne). 'Neyi yeniledi?' → 'çocuk parkını' (nesne). 'Ne zaman?' → 'geçen ay' (zarf tamlayıcısı). Sıralanış: özne – nesne – zarf tamlayıcısı – yüklem.
-Adım 2: II → Yüklem 'tazeliyor'. Özne 'gönüllüler', nesne 'Kaydırağın boyasını', zarf tamlayıcısı 'her yıl'. Sıralanış: nesne – zarf tamlayıcısı – özne – yüklem.
-Adım 3: III → Yüklem 'tercih ediyor'. Özne 'Küçük çocuklar', zarf tamlayıcısı 'sabahları', nesne 'kum havuzunu'. Sıralanış: özne – zarf tamlayıcısı – nesne – yüklem.
-Adım 4: IV → Yüklem 'denedi'. Özne 'Mahalleliler', nesne 'yeni bankları', zarf tamlayıcısı 'bu sabah'. Sıralanış: özne – nesne – zarf tamlayıcısı – yüklem.
-Adım 5: I ile IV'ün sıralanışı aynıdır. II ve III hem birbirinden hem de bu ikisinden ayrılır.
-Sık yapılan hata: Cümlenin başındaki her sözü özne sanmak. Baştaki sözde '-ı, -i, -u, -ü' eki varsa o söz nesnedir; özneyi başka yerde aramalısın.
+  hatalar: ["Sırayı denetlememe: I ile II aynı ögeleri taşır ama II'de nesne (“putaya saplanan okları”) zarf tamlayıcısından (“tek tek”) önce gelir; I'de zarf tamlayıcısı (“nefesini tutarak”) nesneden öncedir.", null, "Hem sırayı hem öge türünü gözden kaçırma: II'de nesne zarf tamlayıcısından önce gelir ve cümlede yer tamlayıcısı (“sadağa”) vardır; III'te ise sıra farklıdır ve yer tamlayıcısı yoktur.", "“-de” ekli zaman sözünü yer tamlayıcısı sanma: III'teki “öğle arasında” sözü “Ne zaman durdurdu?” sorusunun cevabıdır, zarf tamlayıcısıdır; IV'teki “yayın iki ucuna” sözü ise yer tamlayıcısıdır."],
+  aciklama: `Öge dizilişini karşılaştırmak için her cümlede önce yüklemi bulur, sonra yükleme sorular sorarsın. Fiilimsiyle kurulan söz öbeği bölünmez; tamamı tek ögedir. İki cümlenin dizilişinin aynı olması için ögelerin hem türü hem sırası tutmalıdır.
+Adım 1: I → Yüklem “yolladı”. Kim yolladı? “Yarışmanın en genç okçusu” (özne). Nasıl yolladı? “nefesini tutarak” (zarf tamlayıcısı). Neyi? “okunu” (nesne). Nereye? “putanın tam ortasına” (yer tamlayıcısı). Diziliş: özne – zarf tamlayıcısı – nesne – yer tamlayıcısı – yüklem.
+Adım 2: II → Yüklem “yerleştirdi”. Özne “Hedefin yanında bekleyen görevli”, nesne “putaya saplanan okları”, zarf tamlayıcısı “tek tek”, yer tamlayıcısı “sadağa”. Diziliş: özne – nesne – zarf tamlayıcısı – yer tamlayıcısı – yüklem. Ögeler I ile aynı, sıra farklı.
+Adım 3: III → Yüklem “durdurdu”. Özne “Baş hakem”, zarf tamlayıcısı “düdüğünü iki kez çalarak”, nesne “bütün atışları”. “öğle arasında” sözü “Ne zaman durdurdu?” sorusunun cevabıdır; “-de” ekini alsa da zarf tamlayıcısıdır. Diziliş: özne – zarf tamlayıcısı – nesne – zarf tamlayıcısı – yüklem.
+Adım 4: IV → Yüklem “taktı”. Özne “Yayını kendi eliyle yapan yaşlı okçu” (öbeğin tamamı). Ne zaman taktı? “atış çizgisine gelmeden önce” (zarf tamlayıcısı). Neyi? “yeni kirişi” (nesne). Nereye? “yayın iki ucuna” (yer tamlayıcısı). Diziliş: özne – zarf tamlayıcısı – nesne – yer tamlayıcısı – yüklem.
+Adım 5: I ile IV'ün dizilişi aynıdır. III bu ikisine çok benzer ama son tamlayıcısı yer değil, zaman bildirir.
+Sık yapılan hata: IV. cümlede “Yayını” ve “atış çizgisine” sözlerini ayrı öge saymak. Biri “yapan”, öbürü “gelmeden” fiilimsisine bağlıdır; yükleme “Nereye taktı?” diye sorduğunda tek cevap “yayın iki ucuna” sözüdür.
 Cevap B.`
 },
 {
@@ -195,28 +191,27 @@ Cevap B.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir belediye, boş duran eski bir binayı el sanatları merkezine çevirdi. Binanın her katında başka bir atölye var: heykel, ahşap oymacılığı, seramik ve desen. Aşağıda bu merkezde geçen bir günden dört cümle verilmiştir.
-**Bu cümlelerin hangisinde 'Ne?' sorusunun karşılığı olan söz, nesne __değildir__?**`,
+  soru: `Her yıl binlerce kişinin gezdiği bir mağaranın girişinde, ziyaretçileri şu bilgi panosu karşılar:
+
+“Mağaramıza hoş geldiniz! Bu mağara, yer altı sularının binlerce yıllık eseridir. Tavandan sarkan oluşumlara sarkıt denir. (I) Tabandan yukarı doğru yükselen kalın oluşumların adı ise dikittir. Sarkıt ile dikit birleşince sütun oluşur. (II) Bu mağaradaki sarkıtların boyu, yüz yılda ancak bir santimetre uzar. (III) Parmak uçlarımızdaki yağ, taşların büyümesine engel olur. (IV) Görevlilerimiz, gişenin önünde bekleyen her ziyaretçiye pamuklu iş eldiveni verir. Lütfen eldivensiz hiçbir yere dokunmayın. (V) Mağaranın içindeki havanın sıcaklığı yaz kış on dört derecedir. Yanınızda ince bir hırka bulunsun. (VI) Büyük salonun yarasaları kasımdan marta kadar derin bir uykudadır. (VII) Fotoğraf makinelerinin flaşı, bu uykunun en büyük düşmanıdır. Lütfen flaş kullanmayın, fısıltıyla konuşun. Hepinize iyi gezmeler dileriz!”
+
+Bu panoyu inceleyen bir öğrenci, numaralanmış yedi cümleyi ögelerine ayırmış ve aşağıdaki ögelerden birinin bu cümlelerde hiç geçmediğini fark etmiştir.
+
+**Buna göre aşağıdaki ögelerden hangisi, numaralanmış cümlelerin hiçbirinde __kullanılmamıştır__?**`,
   gorsel: null,
-  secenekler: [
-    "Genç heykeltıraş, atölyesinde bütün gün kil yoğurdu.",
-    "Ahşap ustası, tezgâhın üstüne ince bir cila sürdü.",
-    "Fırının içinde küçük seramik kâseler yavaşça pişti.",
-    "Kursiyerler, beyaz kâğıdın ortasına kalın bir çizgi çekti."
-  ],
+  secenekler: ["Yer tamlayıcısı", "Zarf tamlayıcısı", "Belirtili nesne", "Belirtisiz nesne"],
   dogru: 2,
-  hatalar: [
-    "A'da 'Ne yoğurdu?' sorusunun karşılığı 'kil'dir. Bu söz işten etkilenen ögedir, yani belirtisiz nesnedir; işi yapan 'Genç heykeltıraş'tır.",
-    "B'de 'Ne sürdü?' sorusunun karşılığı 'ince bir cila'dır; belirtisiz nesnedir. '-e' ekli 'tezgâhın üstüne' sözü ise yer tamlayıcısıdır.",
-    null,
-    "D'de 'Ne çekti?' sorusunun karşılığı 'kalın bir çizgi'dir; belirtisiz nesnedir. İşi yapan özne 'Kursiyerler'dir."
-  ],
-  aciklama: `'Ne?' sorusu hem özneyi hem de belirtisiz nesneyi bulmaya yarar; bu yüzden tek başına yeterli değildir. Doğru yol şudur: önce 'İşi yapan kim/ne?' diye sorup özneyi ayır, geriye kalan 'ne' cevabı nesnedir.
-Adım 1: A → Yüklem 'yoğurdu'. İşi yapan 'Genç heykeltıraş' (özne). 'Ne yoğurdu?' → 'kil'. Kil, yoğurma işinden etkilenir: belirtisiz nesne.
-Adım 2: B → Yüklem 'sürdü'. İşi yapan 'Ahşap ustası'. 'Ne sürdü?' → 'ince bir cila': belirtisiz nesne.
-Adım 3: D → Yüklem 'çekti'. İşi yapan 'Kursiyerler'. 'Ne çekti?' → 'kalın bir çizgi': belirtisiz nesne.
-Adım 4: C → Yüklem 'pişti'. 'Ne pişti?' → 'küçük seramik kâseler'. Bu cümlede pişme işini üstlenen kâselerin kendisidir; cümlede başka bir işi yapan yoktur. Öyleyse bu söz nesne değil, öznedir.
-Sağlama: 'Usta, kâseleri pişirdi.' dersen 'kâseleri' nesne olur, çünkü işi yapan başka biridir. Ama 'kâseler pişti' cümlesinde işi üstlenen kâselerdir; bu yüzden özne olur.
+  hatalar: ["Yer tamlayıcısını yalnızca yer adı sanma: III. cümledeki “taşların büyümesine” sözü “Neye engel olur?”, IV. cümledeki “gişenin önünde bekleyen her ziyaretçiye” sözü “Kime verir?” sorusunun cevabıdır; ikisi de yer tamlayıcısıdır.", "Ekli zaman sözlerini yer tamlayıcısı sayma: “yüz yılda” ve “kasımdan marta kadar” sözleri ile eksiz “yaz kış” sözü “Ne zaman?” sorusunun cevabıdır; II, V ve VI. cümlelerde zarf tamlayıcısı vardır.", null, "İyelik ekini belirtme eki sanma: IV. cümledeki “pamuklu iş eldiveni” sözünün sonundaki “-i” tamlama kuran iyelik ekidir; söz hâl eki almamıştır, “Ne verir?” sorusunun cevabıdır ve belirtisiz nesnedir."],
+  aciklama: `Bir ögenin cümlede bulunup bulunmadığını anlamak için eke değil, yükleme sorduğun soruya bakarsın. Belirtili nesne “Neyi? Kimi?” sorusuna cevap verir ve “-ı, -i, -u, -ü” belirtme ekini alır. Aynı seslerle kurulan iyelik eki (sarkıtların boyu, havanın sıcaklığı) seni yanıltmasın. Yedi cümleyi sırayla ögelerine ayır.
+Adım 1: I → Yüklem “dikittir”. Ne dikittir? “Tabandan yukarı doğru yükselen kalın oluşumların adı” (özne). Başka öge yok.
+Adım 2: II → Yüklem “uzar”. Ne uzar? “Bu mağaradaki sarkıtların boyu” (özne). Ne kadar sürede? “yüz yılda” (zarf tamlayıcısı). Ne kadar? “ancak bir santimetre” (zarf tamlayıcısı).
+Adım 3: III → Yüklem “engel olur”. Ne engel olur? “Parmak uçlarımızdaki yağ” (özne). Neye engel olur? “taşların büyümesine” (yer tamlayıcısı).
+Adım 4: IV → Yüklem “verir”. Kim verir? “Görevlilerimiz” (özne). Kime verir? “gişenin önünde bekleyen her ziyaretçiye” (yer tamlayıcısı). Ne verir? “pamuklu iş eldiveni”. Bu söz hâl eki almamıştır; sondaki “-i”, “iş eldiveni” tamlamasını kuran iyelik ekidir. Belirtme ekini alsaydı “eldivenini” olurdu. Öyleyse belirtisiz nesnedir.
+Adım 5: V → Yüklem “on dört derecedir”. Özne “Mağaranın içindeki havanın sıcaklığı”, zarf tamlayıcısı “yaz kış” (Ne zaman?).
+Adım 6: VI → Yüklem “derin bir uykudadır”. Özne “Büyük salonun yarasaları”, zarf tamlayıcısı “kasımdan marta kadar” (Ne zaman?).
+Adım 7: VII → Yüklem “bu uykunun en büyük düşmanıdır”. Ne, bu uykunun en büyük düşmanıdır? “Fotoğraf makinelerinin flaşı” (özne). Başka öge yok.
+Adım 8: Topla. Yer tamlayıcısı III ve IV'te, zarf tamlayıcısı II, V ve VI'da, belirtisiz nesne IV'te var. “Neyi? Kimi?” sorusuna ise yedi cümlenin hiçbiri cevap vermiyor; belirtili nesne hiç kullanılmamış.
+Sık yapılan hata: “adı, boyu, sıcaklığı, yarasaları, flaşı, iş eldiveni” sözlerinin son sesine bakıp bunları belirtili nesne saymak. Bu sözlerdeki ek iyelik ekidir; ilk beşi öznenin, sonuncusu belirtisiz nesnenin son sözüdür. Yükleme “Neyi?” diye sor: cevap alamıyorsan belirtili nesne yoktur.
 Cevap C.`
 },
 {
@@ -224,23 +219,28 @@ Cevap C.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun yüzme takımı, il birinciliğine hazırlanıyor. Takım, hafta içi her sabah derse girmeden önce bir saat çalışıyor. Aşağıda bir antrenman gününden dört cümle numaralandırılarak verilmiştir.
-**Buna göre, numaralanmış cümlelerin hangisinde özne, nesne, yer tamlayıcısı ve zarf tamlayıcısı bir arada bulunmaktadır?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Yüzme takımı, yeni sezonun ilk antrenmanını sabah erkenden havuzda yaptı.</td></tr><tr><td>II</td><td>Küçük yüzücüler, uzun süre hiç yorulmadı.</td></tr><tr><td>III</td><td>Antrenör, havuzun kenarından herkese tek tek seslendi.</td></tr><tr><td>IV</td><td>Takımın en hızlı sporcusu, dün kendi rekorunu yeniledi.</td></tr></table>`,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `Görme engelli okurlar için hazırlanan sesli kitapların çoğu, gönüllülerin emeğiyle ortaya çıkar. Gönüllü olmak için güzel bir sesten çok sabır gerekir: Üç yüz sayfalık bir romanın kaydı yaklaşık on saat sürer. Bir ilçe kütüphanesinin bodrum katındaki küçük stüdyoda da her hafta yeni bir kitap seslendiriliyor. Gönüllüler kitabı bölüm bölüm okuyor; kayıtlar düzeltildikten sonra üyeler kitapları telefonlarından dinleyebiliyor. Bu stüdyodaki çalışmayı anlatan dört cümle şöyledir:
+
+(I) Duvarları süngerle kaplı odaya giren gönüllü, önündeki romanı ağır ağır okuyor. (II) Ses teknisyeni, kayda karışan öksürükleri yan odada tek tek ayıklıyor. (III) Kütüphane görevlisi, düzeltilen bölümleri akşam olmadan telefon uygulamasına yüklüyor. (IV) Kitabı telefonundan dinleyen bir okur, geçen hafta gönüllülere uzun bir teşekkür mesajı gönderdi.
+
+Bu cümleleri inceleyen üç öğrenci şunları söylemiştir:
+
+**Ilgın:** I. cümlede yer tamlayıcısı yoktur, III. cümlede vardır.
+**Kaan:** II. ve IV. cümleler aynı sayıda ögeden oluşur.
+**Mert:** III. cümlede belirtili nesne, IV. cümlede ise hem belirtili hem belirtisiz nesne vardır.
+
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
+  gorsel: null,
+  secenekler: ["Ilgın ve Kaan", "Ilgın ve Mert", "Kaan ve Mert", "Ilgın, Kaan ve Mert"],
   dogru: 0,
-  hatalar: [
-    null,
-    "II. cümlede 'uzun süre' sözünü nesne sandın. Bu söz 'Ne kadar?' sorusunun karşılığıdır; 'hiç' sözüyle birlikte zarf tamlayıcısıdır. Cümlede nesne de yer tamlayıcısı da yoktur.",
-    "III. cümlede 'herkese' sözünü nesne sandın. '-e' ekli bu söz 'Kime seslendi?' sorusunun karşılığıdır; yer tamlayıcısıdır. Cümlede nesne yoktur.",
-    "IV. cümlede 'dün' sözünü yer tamlayıcısı sandın. Bu söz 'Ne zaman?' sorusunun karşılığıdır; zarf tamlayıcısıdır. Cümlede yer tamlayıcısı yoktur."
-  ],
-  aciklama: `Bir cümlede hangi ögelerin bulunduğunu anlamak için yüklemi bulduktan sonra sırayla şu soruları sorarsın: 'Kim/ne?' (özne), 'Neyi/ne?' (nesne), 'Nereye, nerede, nereden, kime?' (yer tamlayıcısı), 'Ne zaman, nasıl, ne kadar?' (zarf tamlayıcısı).
-Adım 1: I → Yüklem 'yaptı'. Özne 'Yüzme takımı', nesne 'yeni sezonun ilk antrenmanını', zarf tamlayıcısı 'sabah erkenden', yer tamlayıcısı 'havuzda'. Dört öge de var.
-Adım 2: II → Yüklem 'yorulmadı'. Özne 'Küçük yüzücüler'; 'uzun süre' ve 'hiç' zarf tamlayıcısıdır. Nesne ve yer tamlayıcısı yok.
-Adım 3: III → Yüklem 'seslendi'. Özne 'Antrenör'; 'havuzun kenarından' ve 'herkese' yer tamlayıcısı, 'tek tek' zarf tamlayıcısıdır. Nesne yok.
-Adım 4: IV → Yüklem 'yeniledi'. Özne 'Takımın en hızlı sporcusu', nesne 'kendi rekorunu', zarf tamlayıcısı 'dün'. Yer tamlayıcısı yok.
-Sık yapılan hata: '-e' ekli sözleri nesne sanmak. Nesne ya yalın hâldedir ya da '-ı, -i, -u, -ü' ekini almıştır; 'herkese' gibi sözler yer tamlayıcısıdır.
+  hatalar: [null, "Fiilimsi öbeğini bölme: IV. cümledeki “Kitabı” sözü “dinleyen” fiilimsisine bağlıdır ve öznenin içinde kalır; cümlenin tek nesnesi belirtisiz olan “uzun bir teşekkür mesajı”dır. Mert yanılmış, Kaan ise doğru saymıştır.", "Eke bakıp Ilgın'ı yanlış sayma: I. cümledeki “odaya” sözü “giren” fiilimsisine bağlıdır, öznenin içindedir; I'de yer tamlayıcısı gerçekten yoktur. Mert de “Kitabı” sözünü nesne sayarak yanılmıştır.", "Yargının yarısını denetleme: Mert'in III. cümleyle ilgili sözü doğrudur ama IV. cümlede “Kitabı telefonundan dinleyen bir okur” tek ögedir (özne); “Kitabı” cümlenin belirtili nesnesi değildir."],
+  aciklama: `Bir öge, yükleme bağlanan sözün tamamıdır. Fiilimsiyle kurulan söz öbeği bölünmez; içindeki “-ı” ya da “-e” ekli sözler cümlenin ayrı ögesi olmaz. Üç öğrencinin sözünü sınamak için önce dört cümleyi ögelerine ayır.
+Adım 1: I → Yüklem “okuyor”. Özne “Duvarları süngerle kaplı odaya giren gönüllü”, nesne “önündeki romanı”, zarf tamlayıcısı “ağır ağır”. “odaya” sözü “giren” fiilimsisine bağlıdır; yer tamlayıcısı yok.
+Adım 2: II → Yüklem “ayıklıyor”. Özne “Ses teknisyeni”, nesne “kayda karışan öksürükleri”, yer tamlayıcısı “yan odada”, zarf tamlayıcısı “tek tek”. Yüklemle birlikte beş öge.
+Adım 3: III → Yüklem “yüklüyor”. Özne “Kütüphane görevlisi”, belirtili nesne “düzeltilen bölümleri”, zarf tamlayıcısı “akşam olmadan”, yer tamlayıcısı “telefon uygulamasına”.
+Adım 4: IV → Yüklem “gönderdi”. Özne “Kitabı telefonundan dinleyen bir okur”, zarf tamlayıcısı “geçen hafta”, yer tamlayıcısı “gönüllülere”, belirtisiz nesne “uzun bir teşekkür mesajı”. Yüklemle birlikte beş öge.
+Adım 5: Ilgın → I'de yer tamlayıcısı yok, III'te var: doğru. Kaan → II de IV de beş ögeli: doğru. Mert → III'te belirtili nesne var ama IV'te belirtili nesne yok; “Kitabı” sözü öznenin içindedir: yanlış.
+Sık yapılan hata: “-ı” ekini gördüğün her sözü cümlenin nesnesi saymak. “Kitabı” sözüne “Neyi gönderdi?” diye soramazsın; o, “Neyi dinleyen?” sorusunun cevabıdır, yani fiilimsiye bağlıdır.
 Cevap A.`
 },
 {
@@ -248,29 +248,21 @@ Cevap A.`
   kazanim: "T.8.4.18",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe dersinde cümlenin ögeleri konusu işlendi. Öğretmen, okulun bahar şenliğiyle ilgili dört cümleyi tahtaya yazdı ve her cümlede bir söz öbeğini koyu renkle işaretledi. Sonra öğrencilerden bu öbeklerin cümlenin hangi ögesi olduğunu tek tek bulmalarını istedi.
-**Buna göre, aşağıdaki cümlelerin hangisinde koyu yazılmış söz, cümlenin bir ögesi __değildir__?**`,
+  soru: `Vaşak, ormanlarımızın en zor görülen memelilerindendir: Gündüzleri sık çalılıklarda dinlenir, çoğunlukla alaca karanlıkta ve gece avlanır. Bu yüzden araştırmacılar onu gözle değil, fotokapanla izler. Fotokapan, önünden geçen canlının hareketini ve vücut ısısını algılayınca kendiliğinden fotoğraf çeken bir kameradır. Pille çalışır, çektiği kareleri küçük bir hafıza kartına kaydeder. Bir araştırma ekibi, geçen kış bir çam ormanındaki ağaçlara böyle on kamera bağladı. Kameralar, __hafıza kartları dolduğunda__ (I) çekimi kendiliğinden durduruyordu. Ekipteki genç biyolog, __karlar erimeden__ (II) on kartın hepsini topladı. Üçüncü kamera, __pili soğukta çabuk bittiğinden__ (III) tek bir kare bile çekememişti. Öteki kartlarda kar üstünde gezinen tavşanlar, karacalar ve meraklı bir sansar vardı. Dokuzuncu karttaki son karede ise iri bir vaşak, gece yarısından az sonra kameranın bir adım önünde durmuş, doğrudan merceğe bakıyordu. Yöredeki köylüler, yıllardır __bu ormanda vaşak yaşadığından__ (IV) söz ediyordu. Ekip, bunu ilk kez bir fotoğrafla kanıtlamış oldu.
+
+**Bu metindeki altı çizili söz gruplarından hangisinin cümledeki öge görevi diğerlerinden farklıdır?**`,
   gorsel: null,
-  secenekler: [
-    "Şenliğe yeni katılan öğrenciler, **koridordaki masaları** sabah erkenden taşıdı.",
-    "Kermesi düzenleyen veliler, **okulun spor salonunda** iki gün boyunca çalıştı.",
-    "Görevli, kapıda bekleyen konukları **büyük bir nezaketle** karşıladı.",
-    "Bütün mahalle, **bahçe kapısına** asılan afişi merakla okudu."
-  ],
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 3,
-  hatalar: [
-    "A'da 'koridordaki masaları' öbeğini, içindeki '-daki' ekine bakıp bölünmüş saydın. '-daki' eki burada 'masalar'ı niteleyen bir sıfat yapmıştır; öbeğin tamamı 'Neyi taşıdı?' sorusunun karşılığıdır, yani cümlenin nesnesidir.",
-    "B'de 'okulun spor salonunda' sözünü, bir isim tamlaması olduğu için öznenin parçası sandın. Bu söz 'Nerede çalıştı?' sorusunun karşılığıdır; cümlenin yer tamlayıcısıdır.",
-    "C'de 'büyük bir nezaketle' sözünü, yanındaki 'bekleyen' fiilimsisine bağlı sandın. Bu söz öbeğin dışında kalır ve 'Nasıl karşıladı?' sorusuyla doğrudan yükleme bağlanır; cümlenin zarf tamlayıcısıdır.",
-    null
-  ],
-  aciklama: `Bir sözün cümlenin ögesi sayılabilmesi için cümlenin yüklemine sorulan bir sorunun karşılığı olması gerekir. Bir söz yükleme değil de yanındaki fiilimsiye bağlanıyorsa ayrı bir öge olmaz; içinde bulunduğu söz öbeğinin parçası olarak kalır.
-Adım 1: A → Yüklem 'taşıdı'. 'Neyi taşıdı?' → 'koridordaki masaları'. Koyu söz cümlenin nesnesidir. (Bu cümlede öbek içinde kalan söz 'Şenliğe'dir; o, 'katılan' fiilimsisine bağlıdır.)
-Adım 2: B → Yüklem 'çalıştı'. 'Nerede çalıştı?' → 'okulun spor salonunda'. Koyu söz cümlenin yer tamlayıcısıdır.
-Adım 3: C → Yüklem 'karşıladı'. 'Nasıl karşıladı?' → 'büyük bir nezaketle'. Koyu söz cümlenin zarf tamlayıcısıdır. Burada öbek içinde kalan söz 'kapıda'dır; o, 'bekleyen' fiilimsisine bağlıdır.
-Adım 4: D → Yüklem 'okudu'. 'Neyi okudu?' → 'bahçe kapısına asılan afişi'. Koyu yazılan 'bahçe kapısına' sözü bu öbeğin içindedir: afiş bahçe kapısına asılmıştır. Yükleme 'Nereye okudu?' diye sorulamaz; öyleyse bu söz cümlenin ögesi değildir.
-En güçlü çeldirici C'dir: orada da koyu söz bir fiilimsi öbeğinin yanındadır, ama öbeğin dışında kalır ve doğrudan yükleme bağlanır.
-Sık yapılan hata: '-e, -de, -den' ekli her sözü yer tamlayıcısı saymak. Soruyu önce yükleme sor; soru yükleme sorulamıyorsa o söz bir öbeğin içinde kalmış demektir.
+  hatalar: ["Eki farklı olanı seçme: “hafıza kartları dolduğunda” sözü öbürlerinden farklı olarak “-de” ekini taşır ama “Ne zaman durduruyordu?” sorusunun cevabıdır; II ve III gibi zarf tamlayıcısıdır.", "Hâl eki taşımayanı farklı sanma: “karlar erimeden” sözü “Ne zaman topladı?” sorusunun cevabıdır; ekli görünen I ve III de onun gibi zarf tamlayıcısıdır.", "Aynı ekle biten iki sözü karıştırma: “bittiğinden” ile “yaşadığından” aynı eki taşır ama “pili soğukta çabuk bittiğinden” sözü “Niçin çekememişti?” sorusunun cevabıdır; sebep bildirir, I ve II gibi zarf tamlayıcısıdır.", null],
+  aciklama: `Bir söz grubunun hangi öge olduğunu ekine bakarak değil, yükleme sorduğun soruya göre bulursun. Zarf tamlayıcısı işin zamanını, sebebini, nasıl yapıldığını bildirir; yer tamlayıcısı ise “Nereye? Nerede? Nereden? Kime? Neye? Neyden?” sorularına cevap verir. Aynı eki taşıyan iki söz, iki ayrı öge olabilir.
+Adım 1: I → Yüklem “durduruyordu”. Ne zaman durduruyordu? “hafıza kartları dolduğunda”. “-de” ekini almış ama zaman bildiriyor: zarf tamlayıcısı.
+Adım 2: II → Yüklem “topladı”. Ne zaman topladı? “karlar erimeden”. Zaman bildiriyor: zarf tamlayıcısı.
+Adım 3: III → Yüklem “çekememişti”. Niçin çekememişti? “pili soğukta çabuk bittiğinden”. “-den” ekini almış ama sebep bildiriyor: zarf tamlayıcısı.
+Adım 4: IV → Yüklem “söz ediyordu”; birden çok sözcükten oluşan yüklem bölünmez. Neyden söz ediyordu? “bu ormanda vaşak yaşadığından”. Bu söz sebep ya da zaman bildirmiyor; söz etme işinin konusunu gösteriyor ve “Neyden?” sorusuna cevap veriyor: yer tamlayıcısı.
+Adım 5: III ile IV'ü yan yana koy: “Pili bittiğinden çekememişti.” (Niçin? → zarf tamlayıcısı) · “Vaşak yaşadığından söz ediyordu.” (Neyden? → yer tamlayıcısı). Ek aynı, görev farklı.
+Adım 6: I, II ve III zarf tamlayıcısı, IV yer tamlayıcısıdır. Görevi farklı olan IV'tür.
+Sık yapılan hata: Biçime bakıp karar vermek, yani “-de” ekli I. söz grubunu ya da eksiz görünen II. söz grubunu “farklı olan” saymak. Öge görevini biçim değil, sözün yükleme hangi soruyla bağlandığı belirler.
 Cevap D.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */

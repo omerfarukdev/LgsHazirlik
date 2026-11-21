@@ -63,16 +63,16 @@ tur-yk-312 | T.8.4.16 | z3 | k3 | Bazı sözcükler düzeltme işareti (^) alıp
 tur-yk-313 | T.8.4.16 | z3 | k3 | Şehrin halk kütüphanesini tanıtan bir broşürden alınan metin aşağıda verilmiştir: (I) Şehrimizin ilk halk kütüphanesi 1958'de açı… | ✓IV
 tur-yk-314 | T.8.4.16 | z3 | k3 | Baran, hafta sonu yaptıkları aile ziyaretini anlatan bir paragraf yazdı: (I) Hafta sonu Kırşehir'de yaşayan Nermin Teyzemi ziyare… | ✓I
 tur-yk-315 | T.8.4.16 | z3 | k3 | Okul kütüphanesinin gönüllü öğrencileri, panoya asmak için kısa notlar yazdı. Kütüphane öğretmeni, notlardan birinde "ki"nin yanl… | ✓Yarın ki söyleşinin afişlerini koridordaki p…
-tur-yk-316 | T.8.4.16 | z4 | k3 | Defne'nin arkadaşına yazdığı e-posta aşağıda verilmiştir: Sevgili Arda, Geçen hafta anlattığın kitabı ben de aldım. Kitap o kadar… | ✓bitirdin mi — Kent Kütüphanesine
-tur-yk-317 | T.8.4.16 | z4 | k3 | Okul yönetiminin velilere gönderdiği duyuru aşağıda verilmiştir: Değerli Velilerimiz, Okulumuzun geleneksel kitap şenliği 14 Mayı… | ✓Kurum ve kuruluş adlarına gelen ekler kesme …
-tur-yk-318 | T.8.4.16 | z4 | k3 | Aşağıdaki metin, bir öğrencinin "Mahallemizin Unutulmayanları" başlıklı yazısından alınmıştır: Kasabanın tek kitapçısı, meydandak… | ✓III ve IV
-tur-yk-319 | T.8.4.16 | z4 | k3 | Okul gazetesinin muhabiri, kasabanın kültür merkezinde düzenlenen bir halk müziği konserini haberleştirdi. Konsere çevre illerden… | ✓Gecenin sunuculuğunu, Çanakkale Boğazı'nı an…
-tur-yk-320 | T.8.4.16 | z4 | k3 | Okulun fen kulübü, panoya aşağıdaki duyuruyu astı: Bilim şenliğimiz bu dönem her salı saat 15.30'da okulumuzun ikinci katındaki f… | ✓"Velilerde" → "Veliler de": Bağlaç olan "de"…
-tur-yk-321 | T.8.4.16 | z4 | k3 | Türkçe öğretmeni, öğrencilerin kompozisyonlarında sık rastladığı dört cümleyi tabloya yazdı ve her birinin yanına kısa bir not dü… | ✓I
-tur-yk-322 | T.8.4.16 | z4 | k3 | Sınıfça hazırlanan "Sayılarla Ailemiz" panosu için her öğrenci, ailesinin gündelik yaşamından bir ayrıntıyı anlatan kısa bir cüml… | ✓Kırtasiyeden aldığım 45 TL'lık defterin fiya…
-tur-yk-323 | T.8.4.16 | z4 | k3 | Doruk, yaz tatilinde dedesiyle yaptığı Karadeniz gezisini anlatan bir yazı yazdı. Öğretmeni yazıyı okuduktan sonra yalnızca bir c… | ✓II
-tur-yk-324 | T.8.4.16 | z4 | k3 | Okul gazetesine gönderilen bir haber metni aşağıda verilmiştir: Çevre kulübümüz, bu yıl genç doğa gönüllüleri derneği'nin düzenle… | ✓Genç Doğa Gönüllüleri Derneğinin — Doğu Anad…
-tur-yk-325 | T.8.4.16 | z4 | k3 | Nehir, sınıf gezisinin ayrıntılarını arkadaşına bildirmek için bir e-posta yazdı. E-postayı aceleyle gönderdiği için birkaç yazım… | ✓Sayıların yazımı
+tur-yk-316 | T.8.4.16 | z4 | k3 | Okulumuzun kürek takımı, sezonun ilk yarışına Sapanca Gölü'nde hazırlandı. Kampa vardığımız akşam hava serindi ama gölün suyu hal… | ✓I, III ve IV
+tur-yk-317 | T.8.4.16 | z4 | k3 | Bu yaz Rize'de düzenlenen doğa kampına pekçok ilden öğrenci katıldı. Kampın dokuzuncu gününde öğrenciler, Fırtına Deresi'nin üç a… | ✓Aras ve Bade
+tur-yk-318 | T.8.4.16 | z4 | k3 | Bir ortaokulun bilim kulübü, TÜBİTAK'ın desteklediği bir projeyle okul bahçesindeki eski serayı “akıllı” bir seraya dönüştürdü. Ö… | ✓Kısaltmaların yazımı
+tur-yk-319 | T.8.4.16 | z4 | k3 | Aşağıdaki metin, bir öğrencinin doğa günlüğünden alınmıştır: (I) Dayımla nisan sonunda, flamingoların yıl boyunca görülebildiği İ… | ✓V ve VII. cümlelerin her birinde bir yazım y…
+tur-yk-320 | T.8.4.16 | z4 | k3 | Yalıkent Belediyesinin yaptırdığı sahil bisiklet yolu geçen ay hizmete açıldı. Eski tren garının önünden başlayan yol, kıyı boyun… | ✓2 ve 3
+tur-yk-321 | T.8.4.16 | z4 | k3 | Zeynep ile anneannesinin birbirine yazdığı mektuplardan birer bölüm aşağıda verilmiştir: 1. metin Canım Zeynep'im, dün ki telefon… | ✓“ki”nin yazımı
+tur-yk-322 | T.8.4.16 | z4 | k3 | Ebru, su yüzeyine serpilen boyalarla oluşturulan desenin kâğıda geçirildiği, yüzyıllardır yapılan geleneksel bir süsleme sanatıdı… | ✓“kaybolur” düzeltilmeli, “yok olur” olduğu g…
+tur-yk-323 | T.8.4.16 | z4 | k3 | Karabük'ün Yenice ilçesindeki (I) ormanlar, yaz boyunca yüksek kulelerden gözetlenir. Kulelerde Orman Genel Müdürlüğü (OGM) görev… | ✓II ve V
+tur-yk-324 | T.8.4.16 | z4 | k3 | Babam geçen kış gişeden iki adet bilet alıp eve geldi: Doğu Ekspresi'yle Ankara'dan Kars'a gidecektik. Ankara'dan başlayıp ülkeni… | ✓doğusuna – âdet – oysaki
+tur-yk-325 | T.8.4.16 | z4 | k3 | İpek, geçen Kasım'dan beri her hafta sonu ilçe kütüphanesinin ses stüdyosunda gönüllü olarak kitap okuyor. Okuduğu bölümler kayde… | ✓“Kasım'dan” – “kayıp etmiş”
 tur-yk-001 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinde "de"nin yazımıyla ilgili bir yanlış yapılmıştır? | ✓Bende sizinle sinemaya gelmek istiyorum.
 tur-yk-002 | T.8.4.16 | z1 | k0 | Aşağıdaki sözcüklerden hangisinin yazımı yanlıştır? | ✓antreman
 tur-yk-003 | T.8.4.16 | z1 | k0 | Aşağıdakilerin hangisinde sayının yazımı yanlıştır? | ✓yüzelli sayfa

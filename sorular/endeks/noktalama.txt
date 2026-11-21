@@ -63,16 +63,16 @@ tur-nk-312 | T.8.4.16 | z3 | k3 | Bir öğrenci, günlüğünün bir sayfasını
 tur-nk-313 | T.8.4.16 | z3 | k3 | Yay ayraç yalnızca açıklama eklemek için kullanılmaz; içine konan bir işaretle cümleye yeni bir anlam da katabilir. Örneğin yazar… | ✓Bütün gün uyuyan kedimiz çok çalışkan (!) bi…
 tur-nk-314 | T.8.4.16 | z3 | k3 | Bir öğrenci, yaz tatilinde katıldığı gönüllü çalışmayı anlatan yazısında şu cümleleri kullandı: (I) Bu yaz Türkçe'yi yabancılara … | ✓I
 tur-nk-315 | T.8.4.16 | z3 | k3 | Okulun edebiyat kulübü panoya şu duyuruyu astı: Kulübümüzün şiir dinletisi 12/(I)03/2027 tarihinde yapılacak. Dinleti, kulüp üyem… | ✓IV – bina ve daire numarasını ayırma
-tur-nk-316 | T.8.4.16 | z4 | k3 | Dedemin çiftliğine vardığımızda güneş batmak üzereydi( ) Uzun yolculuktan sonra hepimizin yüzünde yorgunluk vardı ama çiftliğin k… | ✓(.) (:) (?) (,)
-tur-nk-317 | T.8.4.16 | z4 | k3 | Okul gazetesinin son sayısında şu yazı yer aldı: Sevgili okurlar,(I) bu sayımızda size küçük bir kasabanın büyük hikâyesini anlat… | ✓I ve IV
-tur-nk-318 | T.8.4.16 | z4 | k3 | Kardeşim odasını topladığını söyleyince kontrol etmeye gittim. Kapıyı açtığımda gördüğüm manzarayı kısaca anlatayım( ) Yatağın üs… | ✓(:) (.) (,) (?)
-tur-nk-319 | T.8.4.16 | z4 | k3 | Türkçe dersinde öğretmenimiz derse “Denizi Seven Çocuk”(I) adlı öyküyle başladı. Öyküyü okuduktan sonra kitabı masaya bıraktı ve … | ✓I ve IV
-tur-nk-320 | T.8.4.16 | z4 | k3 | Otobüs terminalinde bilet kuyruğu uzadıkça uzuyordu. Sıra bize geldiğinde görevli başını ekrandan kaldırdı. — Kaç kişisiniz( ) Ba… | ✓(?) (,) (,) (?)
-tur-nk-321 | T.8.4.16 | z4 | k3 | Bir öğrenci, dedesinin köyündeki eski çeşmeyi anlattığı yazısını arkadaşına okuttu. Arkadaşı, yazıdaki dört cümlenin altını çizip… | ✓IV
-tur-nk-322 | T.8.4.16 | z4 | k3 | Sevgili Defne, Tatilde okumak için üç kitap seçmiştim( ) bir macera romanı, bir gezi kitabı ve bir şiir kitabı. Macera romanını, … | ✓(:) (;) (…) (?)
-tur-nk-323 | T.8.4.16 | z4 | k3 | Kış tatilinde Kars-(I)Erzurum demir yolu hattında yolculuk yaptık. Tren yola çıktığında istasyondaki termometre -(II)12 °C göster… | ✓I ve IV
-tur-nk-324 | T.8.4.16 | z4 | k3 | Sınıf başkanı, sınıfın mesaj grubuna şu duyuruyu yazdı: Sevgili arkadaşlar( ) bu cumartesi sınıfça okulun arka bahçesine fidan di… | ✓(,) (!) (;) (?)
-tur-nk-325 | T.8.4.16 | z4 | k3 | Bilim kulübü öğretmeni, kulüp üyelerine şu e-postayı gönderdi: Merhaba,(I) Bu yılki bilim gezimiz 22-(II)24 Nisan tarihlerinde ya… | ✓III
+tur-nk-316 | T.8.4.16 | z4 | k3 | İlçe yüzme şenliğinin son yarışı bayrak yarışıydı. Geçen yıl bu yarışı tek bir hatalı çıkış yüzünden kaybetmiştik. Tribünler aile… | ✓(,) (.) (.) (:)
+tur-nk-317 | T.8.4.16 | z4 | k3 | Bilim kulübümüzle geçen ay bir meteoroloji istasyonunu gezdik. Öğretmenimiz bu gezi için haftalar önce randevu almıştı. İstasyonu… | ✓I ve IV numaralı işaretlerin ikisi de ara sö…
+tur-nk-318 | T.8.4.16 | z4 | k3 | Bir mahalle derneğinin aylık bülteninde şu haber yayımlandı: Yıllardır beklediğimiz tramvay hattı 18. Nisan’da(I) hizmete giriyor… | ✓I. yerdeki nokta kaldırılmalı, III. yerdeki …
+tur-nk-319 | T.8.4.16 | z4 | k3 | İlçe gençlik merkezinin kısa film atölyesi, üç aylık çalışmasını cumartesi akşamı küçük bir gösterimle tamamladı. Atölyeye katıla… | ✓Üç nokta hem alıntıda atlanan bölümü hem de …
+tur-nk-320 | T.8.4.16 | z4 | k3 | Deniz, takımıyla katıldığı robot yarışmasını anlatan bir yazı hazırladı ve yazıyı gençlik merkezinin sayfasında yayımlamadan önce… | ✓Irmak ve Selen
+tur-nk-321 | T.8.4.16 | z4 | k3 | (I) Avrupa-Afrika göç yolunu kullanan leylekler, ağustos ve eylül aylarında büyük sürüler hâlinde İstanbul Boğazı’nın üzerinden g… | ✓IV ve VI
+tur-nk-322 | T.8.4.16 | z4 | k3 | Yaz tatilinde tuttuğum gezi defterinden: Dün gece heyecandan doğru dürüst uyuyamamıştım. Bu sabah Bozcaada feribotunun ilk seferi… | ✓(?) (!) (…) (;)
+tur-nk-323 | T.8.4.16 | z4 | k3 | Amcam geçen ay bize eski bir daktilo getirdi. Makineyi bodrumdaki bir sandıkta bulmuş. Üstü tozla kaplıydı ama tuşlardaki harfler… | ✓Özne olan zamirden sonra konan I ve V numara…
+tur-nk-324 | T.8.4.16 | z4 | k3 | Bir ilçe gazetesinin “Mesleğim” köşesinde bu hafta, hayvanları iyileştirmeye yıllarını vermiş bir veteriner hekim tanıtıldı. Yazı… | ✓I ve IV
+tur-nk-325 | T.8.4.16 | z4 | k3 | Bir doğa sporları kulübü, üyelerine şu duyuruyu gönderdi: Sevgili gençler,(I) kulübümüzün bahar oryantiring şenliği bu yıl 5.(II)… | ✓Bora ve Duru
 tur-nk-001 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinin sonuna soru işareti konmalıdır? | ✓Bu kitabı daha önce okudun mu
 tur-nk-002 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır? | ✓Sınıfımızdaki Ankaralı'lar öne geçti.
 tur-nk-003 | T.8.4.16 | z1 | k0 | Aşağıdaki cümlelerin hangisinde virgül yanlış kullanılmıştır? | ✓Hava güzel olursa, pikniğe gideriz.

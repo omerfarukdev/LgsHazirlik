@@ -418,36 +418,21 @@ Cevap C.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Defne'nin arkadaşına yazdığı e-posta aşağıda verilmiştir:
+  soru: `Okulumuzun kürek takımı, sezonun ilk yarışına Sapanca Gölü'nde hazırlandı. Kampa vardığımız akşam hava serindi ama gölün suyu __hala__ (I) ılıktı. Kamp için __eylülün__ (II) son haftası seçilmişti; teknelerimiz bizden bir gün önce kamyonla getirilmiş, iskelenin yanındaki kayıkhaneye yerleştirilmişti. Antrenörümüz Sevda Hanım ilk akşam bizi iskelede topladı ve “Teknede __her hangi__ (III) birimiz ritmi kaçırırsa bütün ekip yavaşlar.” dedi. Kıç tarafa en yakın oturan kürekçi tempoyu belirleyecek, ötekiler ona uyacaktı. Ertesi sabah kürekleri __sım sıkı__ (IV) kavradık ama ilk denemede birbirimize çarptık, tekne sağa sola yalpaladı. Kıyıdaki __Sapancalı__ (V) balıkçılar bizi gülümseyerek izliyordu. Dört gün boyunca sabah akşam aynı çalışmayı yineledik; her çıkıştan sonra süremizi iskeledeki tahtaya yazdık. Yarış sabahı göl ayna gibiydi; heyecandan kimse konuşmuyordu. Çıkış işaretiyle küreklere asıldık; 1000 metrelik parkurun yarısında ikinci sıradaydık. Son yüz metrede kollarım titriyordu ama __antrenmanda__ (VI) öğrendiğimiz gibi tempoyu bozmadık ve bitiş çizgisini ilk biz geçtik.
 
-Sevgili Arda,
-Geçen hafta anlattığın kitabı ben de aldım. Kitap o kadar sürükleyici ki cumartesi sabahı başladım, akşamüstü bitirdim. Sen de okuyup bitirdinmi? Bir de sana bir haberim var: Önümüzdeki ay Kent Kütüphanesinde kitabın yazarıyla bir söyleşi yapılacakmış. Söyleşiye katılmak için Kent Kütüphanesi'ne önceden kayıt yaptırmamız gerekiyor. Sence birlikte gidelim mi?
-Sevgiler,
-Defne
-
-Defne, e-postayı göndermeden önce Türkçe öğretmenine gösteriyor. Öğretmen, metinde iki yazım yanlışı olduğunu söylüyor.
-
-**Bu yanlışların düzeltilmiş biçimleri aşağıdakilerin hangisinde birlikte verilmiştir?**`,
+**Bu metinde numaralanmış sözlerden hangilerinin yazımı yanlıştır?**`,
   gorsel: null,
-  secenekler: [
-    "bitirdin mi — Cumartesi",
-    "bitirdin mi — Kent Kütüphanesine",
-    "Sende — Kent Kütüphanesine",
-    "sürükleyiciki — bitirdin mi"
-  ],
+  secenekler: ["I, II ve IV", "I, III ve IV", "I, III ve V", "III, IV ve VI"],
   dogru: 1,
-  hatalar: [
-    "Gün adını her durumda büyük yazmak: 'cumartesi sabahı' belirli bir tarih bildirmez; küçük yazım zaten doğrudur, düzeltilecek yer değildir.",
-    null,
-    "Bağlaç olan 'de'yi ek sanmak: 'Sen de' cümlesindeki 'de' 'sen de, o da' anlamındadır ve ayrı yazılır; düzeltme yanlış bir biçim üretir.",
-    "Bağlaç olan 'ki'yi ek sanmak: 'o kadar sürükleyici ki' cümlesinde 'ki' iki cümleyi bağlar ve ayrı yazılır; bitiştirmek yeni bir yanlış olur."
-  ],
-  aciklama: `Soru eki 'mi' ayrı yazılır. Kurum ve kuruluş adlarına gelen ekler kesme işaretiyle ayrılmaz.
-Adım 1: Metni cümle cümle tara. 'bitirdinmi' sözcüğünde soru eki fiile bitişik yazılmış. Doğrusu 'bitirdin mi'.
-Adım 2: 'Kent Kütüphanesi'ne' ifadesine bak. Kütüphane bir kurumdur; kurum adına gelen ek kesmeyle ayrılmaz. Doğrusu 'Kent Kütüphanesine'. Aynı metnin bir önceki cümlesinde 'Kent Kütüphanesinde' doğru yazılmış; tutarsızlık da bir ipucudur.
-Adım 3: Öteki şıklardaki 'düzeltmeleri' kontrol et. 'cumartesi' belirli tarih bildirmediği için zaten küçük yazılır. 'Sen de' ve 'sürükleyici ki' zaten doğrudur; onları değiştirmek yeni yanlış üretir.
-Adım 4: İki gerçek yanlışın düzeltmesi yalnızca B'de birlikte verilmiştir.
-Sık yapılan hata: Doğru yazılmış bir yeri 'düzeltmek'. Önce kuralı sor: bu 'de' bağlaç mı, bu ay adı belirli bir tarih mi bildiriyor?
+  hatalar: ["Ay adını her durumda büyük yazma: “eylülün son haftası” belirli bir tarih bildirmez, küçük yazım doğrudur; bitişik yazılması gereken “her hangi” ise gözden kaçmıştır.", null, "Yapım eki alan özel ada kesme arama: “Sapancalı” doğru yazılmıştır; pekiştirmeli sözcük olduğu için bitişik yazılması gereken “sım sıkı” ise gözden kaçmıştır.", "Söyleyişe güvenme: TDK'deki biçim “antrenman”dır, “antrenmanda” doğrudur; “henüz” anlamında olduğu hâlde işaretsiz yazılan “hala” ise gözden kaçmıştır."],
+  aciklama: `Numaralanmış altı sözün her birine aynı soruyu sor: Bu söz hangi kurala bağlı?
+Adım 1: I “hala”: Cümlede “henüz, o ana kadar” anlamı var. Bu anlamdaki sözcük düzeltme işaretiyle “hâlâ” yazılır; işaretsiz “hala” babanın kız kardeşidir. Yanlış.
+Adım 2: II “eylülün”: Ay adı, yanında gün sayısı varsa yani belirli bir tarih bildiriyorsa büyük yazılır (28 Eylül). “Eylülün son haftası” belirli bir gün değildir; küçük yazım doğrudur.
+Adım 3: III “her hangi”: “herhangi” kalıplaşmış bir sözcüktür, bitişik yazılır. Yanlış.
+Adım 4: IV “sım sıkı”: Pekiştirmeli sözcükler bitişik yazılır: sımsıkı, masmavi, tertemiz. Yanlış.
+Adım 5: V “Sapancalı”: “-lı” yapım ekidir; yapım eki alan özel ad kesmeyle ayrılmaz. Doğru. VI “antrenmanda”: Sözcüğün TDK'deki biçimi “antrenman”dır. Doğru.
+Adım 6: Yanlış yazılanlar I, III ve IV'tür.
+Sık yapılan hata: Yanlış gibi görünen ama doğru olan sözlere (küçük harfli ay adı, kesmesiz “Sapancalı”) takılıp gerçek yanlışlardan birini atlamak. Şıklara bakmadan önce altı sözün altısını da sına.
 Cevap B.`
 },
 {
@@ -455,32 +440,25 @@ Cevap B.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul yönetiminin velilere gönderdiği duyuru aşağıda verilmiştir:
+  soru: `Bu yaz Rize'de düzenlenen doğa kampına pekçok ilden öğrenci katıldı. Kampın dokuzuncu gününde öğrenciler, Fırtına Deresi'nin üç ayrı noktasında suyun sıcaklığını ve suda çözünmüş oksijen miktarını ölçtü. Sabah erkenden alınan ilk örnekte suyun sıcaklığı 11 derece olarak kaydedildi. Öğleden sonra aynı noktada sıcaklık 15 dereceye çıkmış, oksijen miktarı ise biraz azalmıştı. Kamp sorumlusu Dr. Nevin Hanım, soğuk suyun ılık suya göre daha çok oksijen tuttuğunu, Karadeniz Alabalığının da bu yüzden derelerin serin ve gölgeli kesimlerinde yaşadığını anlattı. Öğrencilerden biri “Aynı ölçümleri kendi şehrimizdeki derede de yapabilirmiyiz?” diye sordu. Nevin Hanım, bunun için bir termometre ile küçük bir ölçüm setinin yeteceğini söyledi.
 
-Değerli Velilerimiz,
-Okulumuzun geleneksel kitap şenliği 14 Mayıs 2027 Cuma günü yapılacaktır. Şenlikte yazarlarımızla söyleşiler, çocuk tiyatrosu gösterileri ve ikinci el kitap satışı yer alacaktır. Satıştan elde edilecek gelirin %30'u, Doğu Anadolu'daki bir köy okulunun kütüphanesine bağışlanacaktır. Şenliğin açılışında Mavi Kalem Okuma Derneği'nin hazırladığı bir sergi de gezilebilecektir. Etkinlik saat 10.00'da başlayıp 16.00'da sona erecektir. Tüm velilerimizi bekliyoruz.
+Bu metni okuyan üç öğrenci şu düzeltmeleri önermiştir:
+**Aras:** “pekçok” yerine “pek çok” yazılmalıdır; çünkü bu söz, “birçok”tan farklı olarak ayrı yazılır.
+**Bade:** “Karadeniz Alabalığının” yerine “Karadeniz alabalığının” yazılmalı, “Fırtına Deresi'nin” ise olduğu gibi kalmalıdır; çünkü ilki bir balık türünün, ikincisi bir yerin adıdır.
+**Cem:** “yapabilirmiyiz” yerine “yapa bilir miyiz” yazılmalıdır; çünkü soru eki kendinden önceki sözcükten ayrı yazılır.
 
-**Bu duyuruda aşağıdaki yazım kurallarından hangisine uyulmamıştır?**`,
+**Buna göre hangi öğrencilerin önerdiği düzeltme doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Kurum ve kuruluş adlarına gelen ekler kesme işaretiyle ayrılmaz.",
-    "Belirli bir tarih bildiren ay ve gün adları büyük harfle başlar.",
-    "Rakamla yazılan sayılara gelen ekler kesme işaretiyle ayrılır.",
-    "Yer adının parçası olan yön sözcükleri büyük harfle başlar."
-  ],
+  secenekler: ["Aras ve Bade", "Aras ve Cem", "Bade ve Cem", "Aras, Bade ve Cem"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Kuralın çiğnendiğini sanma: '14 Mayıs 2027 Cuma' belirli bir tarihtir ve ay ile gün adı büyük yazılmıştır; bu kurala uyulmuştur.",
-    "Kuralın çiğnendiğini sanma: '%30'u', '10.00'da' ve '16.00'da' ifadelerinde ekler kesmeyle ayrılmış ve okunuşa uygun getirilmiştir.",
-    "Kuralın çiğnendiğini sanma: 'Doğu Anadolu' bir bölge adıdır ve 'Doğu' adın parçası olarak büyük yazılmıştır; bu kurala uyulmuştur."
-  ],
-  aciklama: `Bu soru tipinde her kuralı metinde ara: kural uygulanmış mı, çiğnenmiş mi? Kurum, kuruluş, kurul ve iş yeri adlarına gelen ekler kesmeyle ayrılmaz: Türk Dil Kurumuna, Bakanlar Kuruluna.
-Adım 1: A'daki kuralı ara. 'Mavi Kalem Okuma Derneği'nin' ifadesi bir dernek, yani bir kuruluş adıdır. Ek kesmeyle ayrılmış; kural çiğnenmiştir. Doğrusu 'Mavi Kalem Okuma Derneğinin'.
-Adım 2: B'deki kuralı ara. '14 Mayıs 2027 Cuma' belirli tarih; ay ve gün adı büyük yazılmış. Uyulmuş.
-Adım 3: C'deki kuralı ara. '%30'u' ('otuzu'), '10.00'da' ('onda'), '16.00'da' ('on altıda'): kesme var, ek okunuşa uygun. Uyulmuş.
-Adım 4: D'deki kuralı ara. 'Doğu Anadolu'daki' ifadesinde yön sözcüğü bölge adının parçası olarak büyük yazılmış. Uyulmuş.
-Sık yapılan hata: Büyük harfle yazılan her adın ekini kesmeyle ayırmak. Kişi ve yer adları kesme alır; kurum ve kuruluş adları almaz.
+  hatalar: [null, "Kısmen doğru öneriye kanma: Cem'in gerekçesi doğrudur ama önerdiği “yapa bilir” yazımı yeterlik fiilini böler; Bade'nin iki sözü de doğru değerlendiren önerisi ise dışarıda kalmıştır.", "“birçok”a bakıp “pekçok”u doğru sanma: “pek çok” ayrı yazılır, Aras haklıdır; Cem'in önerdiği “yapa bilir miyiz” ise yeni bir yanlış üretir.", "Önerilen biçimi sınamadan gerekçeye güvenme: soru eki ayrı yazılır ama “yapabilir” bitişik kalmalıdır; doğrusu “yapabilir miyiz”dir, Cem'in düzeltmesi yanlıştır."],
+  aciklama: `Bir düzeltme önerisi ancak hem yanlışı doğru gösteriyor hem de doğru biçimi veriyorsa kabul edilir. Üç öneriyi de metne dönerek sına.
+Adım 1: Aras → “birçok” bitişik yazılır ama aynı anlamdaki “pek çok” iki ayrı sözcüktür. Metindeki “pekçok” yanlıştır. Aras'ın önerisi doğru.
+Adım 2: Bade, birinci söz → “Karadeniz alabalığı” bir balık türüdür. Özel adla kurulup bir canlı türünü anlatan adlarda yalnızca özel ad büyük harfle başlar (Van kedisi gibi). “Alabalığının” sözü küçük harfle başlamalıdır.
+Adım 3: Bade, ikinci söz → “Fırtına Deresi” bir yer adıdır. Dere, göl, dağ gibi sözcükler yer adının parçasıdır, büyük harfle başlar; yer adına gelen ek de kesmeyle ayrılır. “Fırtına Deresi'nin” doğrudur. Bade'nin önerisi iki yönüyle de doğru.
+Adım 4: Cem → “mi” soru eki ayrı yazılır, bu doğru. Ama yeterlik bildiren “-ebil” ile kurulan fiil bitişik yazılır: “yapabilir”. Doğru biçim “yapabilir miyiz”dir. Cem'in önerdiği “yapa bilir miyiz” bir yanlışı düzeltirken yenisini yapar.
+Adım 5: Doğru öneriler Aras ile Bade'nindir.
+Sık yapılan hata: Gerekçe doğru diye önerilen yazımı kontrol etmemek. Gerekçeyi değil, önerilen sözü harf harf oku.
 Cevap A.`
 },
 {
@@ -488,27 +466,20 @@ Cevap A.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Aşağıdaki metin, bir öğrencinin "Mahallemizin Unutulmayanları" başlıklı yazısından alınmıştır:
+  soru: `Bir ortaokulun bilim kulübü, TÜBİTAK'ın desteklediği bir projeyle okul bahçesindeki eski serayı “akıllı” bir seraya dönüştürdü. Öğrenciler toprağa nem ölçen algılayıcılar yerleştirdi, bunları küçük bir bilgisayara bağladı. Bilgisayar, algılayıcılardan gelen değerleri on dakikada bir okuyup kaydediyor. Yirmi metre uzunluğundaki serada yüz elli domates fidesi var. Toprak kuruyunca damla sulama kendiliğinden açılıyor, nem yeterli düzeye gelince kapanıyor. Fideler 40 cm'ye ulaştığında iplere bağlandı. Öğrencilerin ölçümlerine göre yeni düzen, elle sulamaya göre daha az su harcadı. Eskiden serayı her akşam üstü okulun bahçıvanı Hasan Amca hortumla sulardı; öğrenciler hafta sonları da nöbetleşe okula gelirdi. Şimdi kimsenin gelmesi gerekmiyor, çünkü bütün değerler telefondaki bir uygulamadan izlenebiliyor. Proje, il genelindeki bilim şenliğinde 3.'üncü oldu. Ödülü ekibe Müdür Kemal Bey verdi. Kulübün sözcüsü Tuna, “Bitkiler sanki ne zaman susadıklarını bize kendileri söylüyor.” dedi. Kulüp, yazdığı programı isteyen okullarla ücretsiz paylaşacak; kurulumu anlatan bir de kılavuz hazırlıyor.
 
-Kasabanın tek kitapçısı, meydandaki eski bir binanın alt katındaydı. Vitrindeki kitaplar her ay değişir, kapının üstündeki küçük zil her müşteride tatlı bir ses çıkarırdı. __Dükkânın__ (I) sahibi Rıza Bey, raflardaki her kitabın __hikâyesini__ (II) bilirdi. Kimin hangi kitabı sevebileceğini birkaç soruyla anlar, önerdiği kitap nadiren yanlış çıkardı. __Birgün__ (III) ona en çok hangi kitabı sevdiğini sordum. Gözlüğünü çıkarıp gülümsedi ve "Bunu __herkez__ (IV) bana sorar ama cevabı her yıl değişir." dedi.
-
-**Bu metinde numaralanmış sözcüklerden hangilerinin yazımı yanlıştır?**`,
+**Bu metinde aşağıdakilerin hangisiyle ilgili bir yazım yanlışı __yoktur__?**`,
   gorsel: null,
-  secenekler: ["I ve II", "I ve III", "II ve IV", "III ve IV"],
+  secenekler: ["Sayıların yazımı", "Birleşik sözcüklerin yazımı", "Büyük harflerin kullanımı", "Kısaltmaların yazımı"],
   dogru: 3,
-  hatalar: [
-    "Düzeltme işaretini gereksiz sanmak: 'dükkân' ve 'hikâye' ince 'k'den sonra gelen 'a' yüzünden işaretli yazılır; I ve II doğrudur.",
-    "Yalnızca bir yanlışı bulup diğerini doğru sanmak: 'Dükkânın' doğrudur; ayrıca 'herkez' de yanlış yazılmıştır.",
-    "Doğru yazılmış 'hikâye'yi yanlış sanıp 'Birgün'ü atlamak: 'hikâye' TDK'deki biçimdir, 'bir gün' ise ayrı yazılır.",
-    null
-  ],
-  aciklama: `Bu soru iki farklı kuralı birlikte yokluyor: birleşik sözcük sanılan söz öbeklerinin ayrı yazılması ve sözcüklerin TDK'deki doğru biçimi.
-Adım 1: I. sözcük 'Dükkânın': ince 'k'den sonra gelen 'a' düzeltme işaretiyle yazılır. Doğru.
-Adım 2: II. sözcük 'hikâyesini': aynı kural; doğru.
-Adım 3: III. sözcük 'Birgün': 'bir gün' kalıplaşmış bir birleşik sözcük değildir; 'bir' sayı sıfatı 'gün'ü niteler. Ayrı yazılır: 'Bir gün'. Yanlış.
-Adım 4: IV. sözcük 'herkez': doğru biçimi 'herkes'tir. Sözcüğün sonu söylenişte 'z' gibi duyulsa da yazıda 's' ile yazılır. Yanlış.
-Adım 5: Yanlış olanlar III ve IV'tür.
-Sık yapılan hata: 'birkaç, birçok, biraz' bitişik olduğu için 'bir gün, bir şey'i de bitiştirmek. 'bir şey' ve 'bir gün' ayrı yazılır.
+  hatalar: ["Noktayla eki birlikte kullanmayı doğru sanma: sıra sayısı rakamla ya “3.” ya da “3'üncü” biçiminde yazılır; “3.'üncü” yanlıştır. Metinde sayıların yazımıyla ilgili bir yanlış vardır.", "Doğru yazılan söze bakıp ötekini atlama: “hafta sonları” ayrı yazılır ve doğrudur; zaman bildiren “akşamüstü” ise bitişik yazılır, “akşam üstü” yanlıştır.", "Akrabalık sözünü makam adıyla bir tutma: “Müdür Kemal Bey” doğrudur ama akrabalık sözü kişi adından sonra da küçük yazılır; “Hasan Amca” yanlıştır.", null],
+  aciklama: `Dört başlığın her biri için metinde o başlığa giren yerleri bul ve tek tek sına. Bir başlıkta tek yanlış bile varsa o şık elenir.
+Adım 1: A, sayılar → “on dakikada”, “Yirmi metre”, “yüz elli” doğru; birden çok sözcükten oluşan sayılar ayrı yazılır. “3.'üncü” ise yanlış: Sıra sayısı rakamla ya noktayla (3.) ya da ekle (3'üncü) yazılır; ikisi birlikte kullanılmaz. Bu başlıkta yanlış var.
+Adım 2: B, birleşik sözcükler → “hafta sonları” ayrı yazılır, doğru. “akşam üstü” ise yanlış: “üstü” burada somut bir yer değil, zaman bildirir; böyle sözler bitişik yazılır: “akşamüstü”. Bu başlıkta yanlış var.
+Adım 3: C, büyük harf → “Müdür Kemal Bey” doğru; kişi adıyla birlikte kullanılan makam adı ve saygı sözü büyük harfle başlar. “Hasan Amca” ise yanlış: Akrabalık sözleri kişi adından sonra da küçük yazılır: “Hasan amca”. Bu başlıkta yanlış var.
+Adım 4: D, kısaltmalar → “TÜBİTAK” sözcük gibi okunan bir kısaltmadır; ek, harfin adına (“ka”) değil sözcüğün okunuşuna uyar: “TÜBİTAK'ın” doğru. “cm” küçük harfli bir ölçü kısaltmasıdır; ek, kısaltılan sözcüğe göre gelir: “santimetreye” → “cm'ye” doğru. Bu başlıkta yanlış yok.
+Adım 5: Yanlış bulunmayan tek başlık kısaltmaların yazımıdır.
+Sık yapılan hata: Yanlış gibi görünen bir doğruya (“cm'ye”, “hafta sonları”, “Müdür Kemal Bey”) takılıp aynı başlıktaki gerçek yanlışı aramadan karar vermek. Bir başlığı “yanlış yok” diye işaretlemeden önce o başlıktaki bütün yerleri sına.
 Cevap D.`
 },
 {
@@ -516,29 +487,25 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul gazetesinin muhabiri, kasabanın kültür merkezinde düzenlenen bir halk müziği konserini haberleştirdi. Konsere çevre illerden gelen konuklar da katılmış, salonda boş yer kalmamıştı. Gazetenin editörü, haberdeki cümlelerin bazılarında hem büyük harf hem de kesme işaretiyle ilgili yanlışlar olduğunu fark etti. Editör, bu iki konuda yanlış bulunmayan tek cümleyi olduğu gibi bıraktı.
+  soru: `Aşağıdaki metin, bir öğrencinin doğa günlüğünden alınmıştır:
 
-**Aşağıdaki cümlelerden hangisi, büyük harflerin ve kesme işaretinin kullanımı bakımından yanlış __içermemektedir__?**`,
+(I) Dayımla nisan sonunda, flamingoların yıl boyunca görülebildiği İzmir Kuş Cenneti'nin güneybatısındaki gözlem kulesine vardığımızda gün yeni ağarıyordu. (II) Dürbünü ilk ben aldım, dayım da fotoğraf makinesini çantasından çıkarıp üç ayaklı sehpaya yerleştirdi; ama lagünün ortasın da tek bir kuş bile görünmüyordu. (III) Çevre öyle sessizdi ki kendi soluğumuzu, uzaktaki dalgaların sesini bile duyabiliyorduk; sanki bütün kıyı da bizimle birlikte bekliyordu. (IV) Dayım termostan iki bardak çay doldurdu; o hiç acele etmiyordu, ben de sabırsızlığımı belli etmemeye çalışıyordum. (V) Yarım saat sonra ufuktaki pembe çizgi kıpırdadı, yüzlerce flamingo birden bire havalanıp başımızın üstünden geçti. (VI) Sürü, kuzeydeki sığlıklara konunca dayım makinesini bırakıp yanıma geldi ve dürbünü birlikte kullanmayı önerdi. (VII) Kulenin girişindeki panoda yavruların gri tüylerle doğduğu, pembe rengin ise kuşların yediği küçük su canlılarından geldiği yazıyordu; bende bunların hepsini unutmamak için hemen defterime yazdım.
+
+**Bu metindeki numaralanmış cümlelerle ilgili aşağıdakilerden hangisi doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Konserin afişlerini Bursalı bir ressam, Türkçe'nin en güzel dizeleriyle süsledi.",
-    "Ayşe Hanım'ın kızı, konsere yetişmek için Tatvan'dan Van gölü'nü geçerek geldi.",
-    "Sahnede ilk olarak Nurhan ablamın öğrencileri, Anadolu Türkülerinden örnekler sundu.",
-    "Gecenin sunuculuğunu, Çanakkale Boğazı'nı anlatan bir belgeselin yönetmeni üstlendi."
-  ],
+  secenekler: ["I ve III. cümlelerin her birinde bir yazım yanlışı vardır.", "II ve VII. cümlelerde “de/da”, bitişik yazılması gerekirken ayrı yazılmıştır.", "V ve VI. cümlelerin ikisinde de yazım yanlışı yoktur.", "V ve VII. cümlelerin her birinde bir yazım yanlışı vardır."],
   dogru: 3,
-  hatalar: [
-    "'Bursalı'nın doğru olduğunu görüp cümlenin tamamını doğru sanmak: 'Türkçe' yapım eki almış bir addır, ondan sonra gelen ek kesmeyle ayrılmaz: 'Türkçenin'.",
-    "'Ayşe Hanım'ın' doğru olduğu için ikinci yeri atlamak: 'Gölü' göl adının parçasıdır ve büyük yazılır: 'Van Gölü'nü'.",
-    "'ablamın'ın küçük yazılmasını doğru bulup ikinci yeri atlamak: 'türkü' bir müzik türüdür, özel ad değildir; 'Anadolu türkülerinden' yazılmalıdır.",
-    null
-  ],
-  aciklama: `Bu soruda her cümlede iki yer denetlenir; bir cümlenin doğru sayılması için ikisinin de doğru olması gerekir.
-Adım 1: A'da 'Bursalı' doğrudur (özel addan türeyen sözcük, büyük ve kesmesiz). Ama 'Türkçe'nin' yanlıştır: yapım eki almış özel addan sonra gelen ekler kesmeyle ayrılmaz, doğrusu 'Türkçenin'.
-Adım 2: B'de 'Ayşe Hanım'ın' doğrudur (saygı sözüne gelen ek kesmeyle ayrılır). Ama 'Van gölü'nü' yanlıştır; göl adının parçası olan 'Gölü' büyük yazılır: 'Van Gölü'nü'.
-Adım 3: C'de 'Nurhan ablamın' doğrudur (akrabalık sözcüğü küçük). Ama 'Anadolu Türkülerinden' yanlıştır; 'türkü' bir tür adıdır ve küçük yazılır.
-Adım 4: D'de 'Çanakkale Boğazı'nı': boğaz adının parçası olan 'Boğazı' büyük, yer adına gelen ek kesmeyle ayrılmış. İki kural da doğru uygulanmış.
-Sık yapılan hata: Bir cümlede doğru bir yer görünce öteki yeri kontrol etmeden cümleyi doğru saymak.
+  hatalar: ["Doğru yazımı yanlış sanma: I. cümledeki “nisan” (belirli tarih değil) ve “güneybatısındaki” (ara yön bitişik, yön bildirdiği için küçük) ile III. cümledeki “sessizdi ki”, “sanki”, “kıyı da” kurala uygundur.", "Yanlışın yönünü ters çevirme: II. cümlede bulunma eki ayrı yazılmıştır (“ortasında” olmalı), VII. cümlede ise tam tersine bağlaç bitişik yazılmıştır (“ben de” olmalı).", "Birleşik sözcüğü gözden kaçırma: V. cümledeki “birden bire” kalıplaşmıştır, “birdenbire” biçiminde bitişik yazılır; yanlışsız olan yalnızca VI. cümledir.", null],
+  aciklama: `Şıkların her biri iki cümle hakkında yargı veriyor; bu yüzden cümleleri tek tek sınaman gerekir. “de/da” için sınama: Sözcüğü çıkar; cümle bozulmuyorsa bağlaçtır (ayrı), bozuluyorsa ektir (bitişik).
+Adım 1: I → “nisan sonunda” belirli tarih değil, küçük yazılır. “güneybatısındaki” ara yöndür, bitişik yazılır; yalnızca yön bildirdiği için küçüktür. Yanlış yok.
+Adım 2: II → “dayım da”: çıkarınca cümle bozulmuyor, bağlaç, ayrı yazılmış: doğru. “lagünün ortasın da”: “da”yı çıkarınca “lagünün ortasın tek bir kuş…” olur, cümle bozulur. Bu bulunma ekidir: “ortasında”. Bir yanlış var.
+Adım 3: III → “öyle sessizdi ki” (bağlaç, ayrı), “uzaktaki” (ek, bitişik), “sanki” (kalıplaşmış, bitişik), “kıyı da” (bağlaç, ayrı). Yanlış yok.
+Adım 4: IV → “ben de sabırsızlığımı…”: “de”yi çıkarınca cümle bozulmuyor; bağlaçtır ve ayrı yazılmış. Yanlış yok.
+Adım 5: V → “birden bire” yanlış; “birdenbire” bitişik yazılır. Bir yanlış var.
+Adım 6: VI → “kuzeydeki” yön bildirir, küçük yazılır. Yanlış yok.
+Adım 7: VII → “bende bunların hepsini … yazdım”: “de”yi çıkarınca “ben bunların hepsini yazdım” kalır, cümle bozulmaz. Bağlaçtır: “ben de”. IV. cümlede aynı söz doğru yazılmıştı; burada bitiştirilmiş. Bir yanlış var.
+Adım 8: Şıklara dön. A yanlış (I ve III'te yanlış yok). B yanlış (II'de ek ayrılmış, VII'de bağlaç bitiştirilmiş; yönler ters). C yanlış (V'te yanlış var). D doğru.
+Sık yapılan hata: “de” yanlışlarını tek tip sanmak. Aynı metinde bir yerde ek ayrılmış, başka bir yerde bağlaç bitiştirilmiş olabilir; her birini çıkarma sınamasıyla ayrı ayrı denetle.
 Cevap D.`
 },
 {
@@ -546,33 +513,22 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun fen kulübü, panoya aşağıdaki duyuruyu astı:
+  soru: `Yalıkent Belediyesinin yaptırdığı sahil bisiklet yolu geçen ay hizmete açıldı. Eski tren garının önünden başlayan yol, kıyı boyunca 12 kilometre ilerleyip deniz fenerinin bulunduğu burunda sona eriyor. Yol üzerindeki dört durakta bisikletliler için tamir istasyonu ve su çeşmesi bulunuyor. Açılış günü yüzlerce aile, çocuklarıyla birlikte pedal çevirdi. Belediye, bisikleti olmayanları da düşündü: Gar ve fener duraklarındaki kiralama noktaları her gün 08.00'de açılıyor, 19.45'de kapanıyor. Kiralık bisikletler için ilk yarım saat ücret alınmıyor, sonraki her saat için 20 Lira ödeniyor. Belediye ayrıca ayda bir, isteyen herkesin katılabileceği rehberli bir bisiklet turu düzenleyecek.
 
-Bilim şenliğimiz bu dönem her salı saat 15.30'da okulumuzun ikinci katındaki fen laboratuvarında yapılacaktır. Şenliğe 6., 7. ve 8. sınıf öğrencileri projeleriyle katılabilir. Velilerde şenliğe davetlidir. Proje özetlerinizi en geç iki hafta içinde fen öğretmeninize teslim ediniz.
+Bu duyuruyu okuyan bir öğrenci, yazım yanlışı olduğunu düşündüğü yerleri ve önerdiği düzeltmeleri aşağıdaki tabloya yazmıştır.
 
-Kulüp başkanı, duyuruda bir yazım yanlışı olduğunu fark etti ve arkadaşlarından yanlışı bulup kuralıyla birlikte açıklamalarını istedi.
-
-**Aşağıdaki açıklamalardan hangisi hem yanlışı hem de düzeltmesini doğru olarak vermektedir?**`,
-  gorsel: null,
-  secenekler: [
-    "\"her salı\" → \"her Salı\": Gün adları cümle içinde büyük harfle başlar.",
-    "\"15.30'da\" → \"15.30'ta\": Saate gelen ek, saatin ilk sayısına uyar.",
-    "\"Velilerde\" → \"Veliler de\": Bağlaç olan \"de\" sözcükten ayrı yazılır.",
-    "\"laboratuvarında\" → \"laboratuarında\": Sözcük, söylendiği gibi yazılır."
-  ],
+**Tablodaki önerilerden hangileri, hem düzeltme hem de gerekçe yönünden doğrudur?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Metindeki yazım</th><th>Önerilen yazım</th><th>Gerekçe</th></tr><tr><td>1</td><td>Belediyesinin</td><td>Belediyesi'nin</td><td>Özel adlara gelen ekler kesme işaretiyle ayrılır.</td></tr><tr><td>2</td><td>19.45'de</td><td>19.45'te</td><td>Saate gelen ek, saatin okunuşuna uyar.</td></tr><tr><td>3</td><td>20 Lira</td><td>20 lira</td><td>Para birimleri küçük harfle başlar.</td></tr><tr><td>4</td><td>08.00'de</td><td>08.00'da</td><td>Saate gelen ek, saatin okunuşuna uyar.</td></tr></table>",
+  secenekler: ["1 ve 3", "1, 2 ve 3", "2 ve 3", "2 ve 4"],
   dogru: 2,
-  hatalar: [
-    "Gün adlarının her zaman büyük yazıldığını sanmak: 'her salı' belirli bir tarih bildirmez; küçük yazım doğrudur.",
-    "Ekin saatin ilk sayısına uyduğunu sanmak: '15.30' 'on beş otuz' diye okunur; ek son sözcük 'otuz'a uyar ve '15.30'da' doğrudur.",
-    null,
-    "Konuşmadaki biçimi yazıya geçirmek: TDK'deki doğru biçim 'laboratuvar'dır; önerilen 'düzeltme' yanlış bir biçim üretir."
-  ],
-  aciklama: `Bağlaç olan 'de, da' ayrı yazılır; bulunma eki '-de, -da' ise sözcüğe bitişir. Bir düzeltme önerisinin doğru olması için hem yanlış yeri hem de uygulanan kuralı doğru göstermesi gerekir.
-Adım 1: 'Velilerde şenliğe davetlidir.' cümlesinde 'de' 'veliler de, onlar da' anlamını veriyor; 'velilerin içinde' anlamı yok. Bu bir bağlaçtır, ayrı yazılmalıdır: 'Veliler de'.
-Adım 2: A'yı dene: 'her salı' tekrar eden bir gündür, belirli tarih değildir; küçük yazım zaten doğrudur.
-Adım 3: B'yi dene: '15.30' 'on beş otuz' diye okunur; ek son sözcüğe uyar, 'otuzda' olduğu için '15.30'da' doğrudur.
-Adım 4: D'yi dene: TDK'deki biçim 'laboratuvar'dır; 'laboratuar' yanlış bir yazılıştır.
-Sağlama: 'de'yi çıkar: 'Veliler şenliğe davetlidir.' Cümle bozulmuyor; demek ki 'de' bağlaçtır ve ayrı yazılır.
+  hatalar: ["Kurum adını öteki özel adlarla bir tutma: “Yalıkent Belediyesi” bir kurumdur, eki kesmeyle ayrılmaz; 1. öneri doğru yazımı bozar. Ayrıca “19.45'de” yanlışını düzelten 2. öneri atlanmıştır.", "Kurum adına kesme koyma: 2. ve 3. öneriler doğrudur ama 1. öneri, kesmesiz yazılması gereken “Belediyesinin” sözünü yanlış biçime çevirir.", null, "Kuralı doğru bilip yanlış uygulama: “08.00” “sekiz” diye okunur, ek “sekizde” olur; 4. öneri doğru yazımı bozar. Para birimini küçük harfe çeviren 3. öneri ise atlanmıştır."],
+  aciklama: `Tablodaki her satırda iki şeyi denetle: Metindeki yazım gerçekten yanlış mı, önerilen biçim doğru mu?
+Adım 1: 1. satır → “Yalıkent Belediyesi” bir kurumdur. Kurum ve kuruluş adlarına gelen ekler kesmeyle ayrılmaz; metindeki “Belediyesinin” doğrudur. Gerekçedeki kural kişi ve yer adları için geçerlidir, kurum adları için değil. Öneri doğru bir sözü bozuyor. Geçersiz.
+Adım 2: 2. satır → “19.45” “on dokuz kırk beş” diye okunur. Ek, son okunan sözcüğe uyar: “beş-te”. Metindeki “19.45'de” yanlış, “19.45'te” doğru. Gerekçe de doğru. Geçerli.
+Adım 3: 3. satır → Para birimleri özel ad değildir, cümle içinde küçük harfle başlar: “20 lira”. Metindeki “20 Lira” yanlış; öneri de gerekçe de doğru. Geçerli.
+Adım 4: 4. satır → Gerekçe 2. satırdakiyle aynı ve doğru bir kural; ama uygulaması yanlış. “08.00” “sekiz” diye okunur: “sekiz-de”. Metindeki “08.00'de” zaten doğrudur. Geçersiz.
+Adım 5: Geçerli öneriler 2 ve 3'tür.
+Sık yapılan hata: Gerekçe cümlesi doğru bir kuralı söylüyor diye öneriyi kabul etmek. 2. ve 4. satırların gerekçesi aynıdır; birini doğru, ötekini yanlış yapan şey sayıyı sesli okuyunca ortaya çıkar.
 Cevap C.`
 },
 {
@@ -580,23 +536,28 @@ Cevap C.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe öğretmeni, öğrencilerin kompozisyonlarında sık rastladığı dört cümleyi tabloya yazdı ve her birinin yanına kısa bir not düştü. Öğrenciler notları okuyunca notlardan birinin kendisinin yanlış olduğunu fark etti.
-**Tablodaki notlardan hangisi TDK yazım kurallarına göre __yanlıştır__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Öğrencinin yazdığı</th><th>Öğretmenin notu</th></tr><tr><td>I</td><td>Dedemin eski saati hala çalışıyor.</td><td>Doğru. "Henüz" anlamındaki bu sözcük düzeltme işaretsiz yazılır.</td></tr><tr><td>II</td><td>Bu romanı sen de okudunmu?</td><td>Yanlış. Soru eki ayrı yazılır: "okudun mu".</td></tr><tr><td>III</td><td>Türkçe'de bu sözcüğün iki anlamı var.</td><td>Yanlış. Yapım eki almış özel addan sonra gelen ek kesmeyle ayrılmaz: "Türkçede".</td></tr><tr><td>IV</td><td>Kardeşim 2024'de doğdu.</td><td>Yanlış. Ek, sayının okunuşuna uyar: "2024'te".</td></tr></table>`,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `Zeynep ile anneannesinin birbirine yazdığı mektuplardan birer bölüm aşağıda verilmiştir:
+
+**1. metin**
+Canım Zeynep'im, dün ki telefon konuşmamızdan beri aklım sende. Sesin yorgundu; derslerin ağır, biliyorum ama kendini fazla yorma. Geçen hafta sana küçük bir koli gönderdim, eline ulaştı mı? Sınavların bitince bayram tatilinde bize gelecekmisiniz? Nermin teyzen de İzmir'den geliyor; sana kendi ördüğü hırkayı getirecekmiş. Ben de boş durmuyorum, bu kış resim kursuna yazıldım. Öyle hevesliyim ki ilk tablomu senin odana asacağım. Deden de selam söylüyor; bahçedeki fındıkları senin için ayırdı.
+
+**2. metin**
+Anneanneciğim, mektubunu okuyunca öyle sevindim ki anlatamam. Geleceğiz tabii; bizim kiler biletleri aldı bile. Bahçedeki salıncağı, senin o güzel mi güzel reçellerini şimdiden özledim. Kardeşimde her akşam “Anneannemlere ne zaman gidiyoruz?” diye soruyor. Tablonu çok merak ediyorum. Matematik sınavım cuma günü; ondan sonraki ilk trene binip yanınıza geliyoruz. Babam, işleri yoluna girerse arabayla da gelebileceğimizi söyledi.
+
+**Bu iki metinde ortak olan yazım yanlışı aşağıdakilerin hangisiyle ilgilidir?**`,
+  gorsel: null,
+  secenekler: ["“ki”nin yazımı", "Soru ekinin yazımı", "“de”nin yazımı", "Büyük harflerin kullanımı"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Doğru bir notu yanlış sanmak: soru eki gerçekten ayrı yazılır; 'okudun mu' düzeltmesi doğrudur.",
-    "'Türkçe'yi bir yer adı gibi düşünmek: 'Türkçe' '-ce' yapım ekiyle türemiştir, bundan sonraki ek kesmeyle ayrılmaz; not doğrudur.",
-    "Ekin yazılışa göre seçileceğini sanmak: '2024' 'iki bin yirmi dört' diye okunur, 'dörtte' olduğu için '2024'te' doğrudur; not doğrudur."
-  ],
-  aciklama: `Bu soruda cümlelerin değil, öğretmenin notlarının doğruluğunu denetliyorsun. Her notu TDK kuralıyla karşılaştır.
-Adım 1: I. not, 'henüz' anlamındaki sözcüğün işaretsiz yazıldığını söylüyor. Oysa 'henüz, şimdi de' anlamındaki sözcük 'hâlâ' diye düzeltme işaretiyle yazılır; işaretsiz 'hala' 'babanın kız kardeşi' demektir. Not yanlıştır.
-Adım 2: II. not: soru eki ayrı yazılır, 'okudun mu'. Doğru.
-Adım 3: III. not: 'Türkçe' özel addan '-ce' yapım ekiyle türemiştir; yapım ekinden sonra gelen ekler kesmeyle ayrılmaz: 'Türkçede'. Doğru.
-Adım 4: IV. not: '2024' 'yirmi dört' diye biter; 'dört'e '-te' gelir: '2024'te'. Doğru.
-Sık yapılan hata: Tabloda 'Doğru' yazan notu sorgulamadan kabul etmek. Olumlu bir not da yanlış olabilir.
+  hatalar: [null, "Doğru yazılmış pekiştirmeyi yanlış sanma: soru eki yanlışı yalnızca 1. metindedir (“gelecekmisiniz”); 2. metindeki “güzel mi güzel” kurala uygundur, çünkü “mi” soru anlamı taşımasa da ayrı yazılır.", "Bulunma ekini bağlaç sanma: “de” yanlışı yalnızca 2. metindedir (“Kardeşimde”); 1. metindeki “aklım sende” sözünde “-de” bulunma ekidir ve bitişik yazımı doğrudur.", "Akrabalık sözünü ve gün adını büyük yazma eğilimi: “Nermin teyzen” ve “cuma günü” küçük harfle doğru yazılmıştır; iki metinde de büyük harf yanlışı yoktur."],
+  aciklama: `Ortak yanlışı bulmak için önce her metnin yanlışlarını ayrı ayrı çıkar, sonra türlerini karşılaştır.
+Adım 1: 1. metin, “dün ki telefon konuşmamız” → “Hangi konuşma?” sorusuna cevap veren “-ki” ektir, bitişik yazılır ve burada “-kü” olur: “dünkü”. Bu bir “ki” yanlışı.
+Adım 2: 1. metin, “gelecekmisiniz” → Soru eki ayrı yazılır: “gelecek misiniz”. Bu bir soru eki yanlışı. Aynı metindeki “ulaştı mı” ise doğru yazılmıştır.
+Adım 3: 1. metnin öteki yerleri doğru: “aklım sende” (bulunma eki, bitişik), “teyzen de”, “Ben de”, “Deden de” (bağlaç, ayrı), “hevesliyim ki” (bağlaç, ayrı), “Nermin teyzen” (akrabalık sözü küçük).
+Adım 4: 2. metin, “bizim kiler” → Zamir yapan “-ki” ektir, bitişik yazılır: “bizimkiler”. Bu da bir “ki” yanlışı.
+Adım 5: 2. metin, “Kardeşimde … soruyor” → “de”yi çıkarınca cümle bozulmuyor; bağlaçtır, ayrı yazılır: “Kardeşim de”. Bu bir “de” yanlışı.
+Adım 6: 2. metnin öteki yerleri doğru: “sevindim ki” (bağlaç), “güzel mi güzel” (“mi” her zaman ayrı), “cuma günü” (belirli tarih değil, küçük), “arabayla da” (bağlaç).
+Adım 7: 1. metin: “ki” + soru eki. 2. metin: “ki” + “de”. İkisinde de bulunan tür “ki”nin yazımıdır.
+Sık yapılan hata: Bir metindeki gerçek yanlışı, öteki metinde yanlış gibi görünen doğru bir yazımla eşleştirmek (“gelecekmisiniz” ile “güzel mi güzel”, “Kardeşimde” ile “aklım sende”).
 Cevap A.`
 },
 {
@@ -604,28 +565,21 @@ Cevap A.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Sınıfça hazırlanan "Sayılarla Ailemiz" panosu için her öğrenci, ailesinin gündelik yaşamından bir ayrıntıyı anlatan kısa bir cümle yazdı. Öğretmen, her cümlede hem bir kısaltmanın hem de rakamla yazılmış bir sayının bulunmasını şart koştu. Panoyu hazırlayan öğrenciler, cümlelerden birinde bir kısaltmaya ya da bir sayıya getirilen ekin yanlış yazıldığını fark etti.
+  soru: `Ebru, su yüzeyine serpilen boyalarla oluşturulan desenin kâğıda geçirildiği, yüzyıllardır yapılan geleneksel bir süsleme sanatıdır. Sanatçı önce tekneyi, kitre denen bitkisel bir zamkla koyulaştırılmış suyla doldurur. At kılından ve gül dalından yapılmış fırçayla boyaları suya serper. Boyalara katılan öd, onların dibe çökmeden yüzeye yayılmasını sağlar. Sanatçı ince bir çubukla bu lekelere biçim verir; o sırada tekne sarsılırsa desen dağılıp yok olur. Sanatçı sonra kağıdı suyun üstüne yatırır. Kâğıt kaldırıldığında desen olduğu gibi ona geçer, suyun yüzeyinden ise kaybolur. Aynı desen bir daha elde edilemez; bu yüzden herbir ebru tektir. UNESCO, ebruyu 2014 yılında insanlığın somut olmayan kültürel mirası listesine aldı. Bolu'da açılan ebru sergisi ay sonuna kadar gezilebilir; sergiye giriş ücretsizdir. Sergide lale ve karanfil desenli ebruların yanında, yanlızca boya damlalarından oluşan sade örnekler de yer alıyor. Serginin atölyesinde her gün öğleden sonra uygulamalı gösteri yapılıyor; önceden kayıt yaptırmak gerekmiyor, gösteriye herkes katılabilir.
 
-**Bu yanlış, aşağıdaki cümlelerin hangisindedir?**`,
+Bu metni yazım yönünden inceleyen bir öğrenci, bazı sözlerin düzeltilmesi, bazılarının ise olduğu gibi kalması gerektiğini söylemiştir.
+
+**Buna göre öğrencinin aşağıdaki değerlendirmelerinden hangisi __yanlıştır__?**`,
   gorsel: null,
-  secenekler: [
-    "Teyzemin gönderdiği koli, THY'nin akşam uçağıyla 18.40'ta İzmir'e ulaştı.",
-    "Ağabeyim NATO'nun tarihini araştırırken antlaşmanın 1949'da imzalandığını öğrendi.",
-    "Kırtasiyeden aldığım 45 TL'lık defterin fiyatı, 2020'de bunun yarısı kadarmış.",
-    "Evimizle okul arasındaki 1,5 km'lik yolu her sabah 25 dakikada yürüyoruz."
-  ],
+  secenekler: ["“kağıdı” düzeltilmeli, “kâğıda” olduğu gibi kalmalıdır.", "“yanlızca” düzeltilmeli, “atölyesinde” olduğu gibi kalmalıdır.", "“kaybolur” düzeltilmeli, “yok olur” olduğu gibi kalmalıdır.", "“herbir” düzeltilmeli, “herkes” olduğu gibi kalmalıdır."],
   dogru: 2,
-  hatalar: [
-    "Son harfin okunuşunu yanlış belirlemek: 'THY' 'teheye' diye okunur, son ses 'ye' olduğu için 'THY'nin' doğrudur; '18.40'ta' da 'kırk'a uyar.",
-    "Sözcük gibi okunan kısaltmayı harf harf okumak: 'NATO' bir sözcük gibi okunur, 'NATO'nun' doğrudur; '1949'da' da 'dokuz'a uyar.",
-    null,
-    "Ölçü kısaltmasına gelen eki harfin okunuşuna göre getirmek: 'km' 'kilometre' diye okunur, 'km'lik' doğrudur; ondalık kesir de virgülle doğru ayrılmıştır."
-  ],
-  aciklama: `Büyük harfli kısaltmalara gelen ekler kısaltmanın son harfinin okunuşuna, sözcük gibi okunan kısaltmalarda ve küçük harfli ölçü kısaltmalarında ise okunuşun kendisine uyar. Rakamla yazılan sayılara gelen ekler sayının okunuşuna uyar.
-Adım 1: C'deki 'TL'lık' ifadesine bak. 'TL' 'tele' diye okunur; son ses 'le' ince ünlüyle biter. Ek de ince olmalıdır: 'TL'lik'.
-Adım 2: Aynı cümlede '2020'de' doğrudur ('yirmi' → 'de'). Yani bu cümlede tek bir yanlış var, o da kısaltmaya gelen ektedir.
-Adım 3: Ötekileri denetle: 'THY'nin' ('ye' → nin), '18.40'ta' ('kırk' → ta); 'NATO'nun' (sözcük gibi okunur), '1949'da' ('dokuz' → da); '1,5 km'lik' ('kilometrelik'), '25 dakikada'. Hepsi doğru.
-Sağlama: Kısaltmayı yüksek sesle oku ve eki o sese ekle: 'tele-lik' → 'TL'lik'.
+  hatalar: ["Doğru değerlendirmeyi yanlış sanma: “kâğıt” sözcüğünde ince okunan k'den sonraki a işaretlenir; işaretsiz “kağıdı” düzeltilmeli, “kâğıda” kalmalıdır.", "Söyleyişe güvenme: sözcüğün TDK'deki biçimi “yalnız”dır, “yanlızca” düzeltilmelidir; “atölyesinde” ise doğru yazılmıştır. Değerlendirme doğrudur.", null, "“her” ile kurulan sözleri tek kurala bağlama: “her bir” ayrı, “herkes” bitişik yazılır. Değerlendirme doğrudur."],
+  aciklama: `Her şıkta aynı kurala bağlı iki söz var: Biri için “düzeltilmeli”, öteki için “kalmalı” deniyor. İkisini de sına; yargılardan biri bile tutmuyorsa değerlendirme yanlıştır.
+Adım 1: A → “kâğıt” sözcüğünde ince okunan “k”den sonra gelen “a” düzeltme işaretiyle yazılır. “kağıdı” işaretsiz kalmış, düzeltilmeli; “kâğıda” doğru. Değerlendirme doğru.
+Adım 2: B → Sözcüğün TDK'deki biçimi “yalnız”dır; “l” ile “n” yer değiştirmez. “yanlızca” düzeltilmeli. “atölye” doğru yazılmıştır. Değerlendirme doğru.
+Adım 3: C → “olmak” ile kurulan birleşik fiilde ses düşerse fiil bitişik yazılır. “kayıp + olmak” birleşirken “ı” düşer: “kaybolur”. Metindeki yazım zaten doğrudur, düzeltilmesi gerekmez. “yok olur”da ses değişmez, ayrı yazılır; o da doğrudur. İlk yargı tutmadığı için değerlendirme yanlış.
+Adım 4: D → “her bir” ayrı yazılır, “herbir” düzeltilmeli. “herkes” kalıplaşmıştır, bitişik yazılır. Değerlendirme doğru.
+Sık yapılan hata: “yok olur” ayrı yazılıyor diye “kaybolur”u da ayırmaya kalkmak. Ölçüt “olmak” fiili değil, birleşirken ses düşüp düşmediğidir.
 Cevap C.`
 },
 {
@@ -633,26 +587,21 @@ Cevap C.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Doruk, yaz tatilinde dedesiyle yaptığı Karadeniz gezisini anlatan bir yazı yazdı. Öğretmeni yazıyı okuduktan sonra yalnızca bir cümlenin kusursuz olduğunu, ötekilerin her birinde birer yazım yanlışı bulunduğunu söyledi.
+  soru: `Karabük'ün __Yenice ilçesindeki__ (I) ormanlar, yaz boyunca yüksek kulelerden gözetlenir. Kulelerde Orman Genel Müdürlüğü (OGM) görevlileri nöbet tutar; Nuri Bey de on dört yıldır bunlardan biridir. Onun kulesi, çevredeki vadilerin hepsini gören çıplak bir tepeye kurulmuştur. İçindeki camlı odada bir harita, bir pusula ve bir telsiz vardır. Nuri Bey yangın mevsiminde her sabah buraya çıkar, ufku dürbünle tarar, gördüğü dumanın yönünü telsizle bildirir. __Yeniceliler'in__ (II) çoğu onu tanır; çünkü piknik ateşini söndürmeden giden olursa bunu ilk o görür. Geçen yaz, bir öğle sıcağında karşı yamaçtan ince bir duman yükseldi. Dumanı ilk gören yine oydu; kısa süre sonra komşu kuledeki görevli de telsizle __Nuri Bey'i__ (III) aradı. İki kuleden bildirilen yönler haritada birleştirilince yangının yeri kesinleşti. __OGM'nin__ (IV) arazözleri hemen yola çıktı ve yirmi dakikada yamaca ulaştı. Araçların giremediği dik kesime ekipler, sırtlarındaki __20 kg'lik__ (V) su pompalarıyla tırmandı. Nuri Bey o sırada rüzgârın yönünü telsizle bildirmeyi sürdürdü. Yangın, akşam olmadan ve büyümeden söndürüldü.
 
-(I) Geçen yaz, dedemle birlikte Karadeniz'in yaylalarını gezdik ve orada bir çok ilginç insanla tanıştık. (II) Uzungöl'de tanıştığımız bir çoban, sürüsünü otuz yıldır aynı yaylada otlattığını anlattı. (III) Rize'ye döndüğümüzde dedem bize kasabanın en eski çay bahçesini gösterdi; oysa ki biz yorgunluktan ayakta duramıyorduk. (IV) Yolculuğun son günü otobüsün egzosundan çıkan dumanlar yüzünden pencereleri kapattık.
-
-**Bu yazıdaki numaralanmış cümlelerin hangisinde yazım yanlışı __yoktur__?**`,
+**Bu metinde numaralanmış sözlerden hangilerinin yazımı yanlıştır?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["I ve IV", "II ve V", "II ve IV", "III ve V"],
   dogru: 1,
-  hatalar: [
-    "'Karadeniz'in' doğru olduğu için cümlenin tamamını doğru sanmak: 'bir çok' yanlıştır; belirsizlik sıfatı 'birçok' bitişik yazılır.",
-    null,
-    "'Rize'ye' doğru olduğu için cümlenin tamamını doğru sanmak: 'oysa ki' yanlıştır; TDK'ye göre 'oysaki' kalıplaşmıştır ve bitişik yazılır.",
-    "Sözcüğü söylendiği gibi yazmak: 'egzos' TDK'deki biçim değildir; doğrusu 'egzoz'dur, 'egzozundan' yazılmalıdır."
-  ],
-  aciklama: `Bu soruda üç cümlede yanlış var, bir cümle ise kusursuz. Her cümlede birden çok yeri denetlemen gerekir.
-Adım 1: I. cümle: 'Karadeniz'in' doğru, ama 'bir çok' yanlış. 'birçok, birkaç, biraz, hiçbir, herhangi' gelenekleşmiş olarak bitişik yazılır: 'birçok'.
-Adım 2: II. cümle: 'Uzungöl' bitişik yazılan bir yer adıdır ve eki kesmeyle ayrılmıştır; 'otuz yıldır' da doğrudur. Bu cümlede yanlış yoktur.
-Adım 3: III. cümle: 'Rize'ye' doğru, ama 'oysa ki' yanlış. 'oysaki', 'belki, çünkü, hâlbuki, mademki, sanki' gibi bitişik yazılan kalıplaşmış sözcüklerdendir.
-Adım 4: IV. cümle: 'egzosundan' yanlış; sözcüğün TDK'deki biçimi 'egzoz'dur.
-Sık yapılan hata: Cümlede bir doğru yeri görünce durmak. 'Yanlış yoktur' sorusunda cümledeki bütün sözcükleri denetlemek gerekir.
+  hatalar: ["Doğru yazımı yanlış sanma: “ilçe” sözü adın parçası olmadığı için “Yenice ilçesindeki” küçük harfle ve kesmesiz yazılır; büyük harfli kısaltmada ek son harfin okunuşuna uyduğu için “OGM'nin” de doğrudur.", null, "Kısaltmanın ekini kurumun açık adına göre seçme: “OGM” “o-ge-me” diye okunur, “OGM'nin” doğrudur; “kilogramlık” diye okunması gereken “20 kg'lik” ise gözden kaçmıştır.", "Saygı sözüne gelen eki yanlış sanma: kişi adından sonraki “Bey” sözüne gelen ek kesmeyle ayrılır, “Nuri Bey'i” doğrudur; yapım ekinden sonra kesme konan “Yeniceliler'in” ise gözden kaçmıştır."],
+  aciklama: `Kesme işareti özel adlara, kısaltmalara ve rakamlara gelen ekleri ayırır; ama her büyük harfli söz kesme almaz, her kısaltma da aynı yolla okunmaz. Beş sözü tek tek sına.
+Adım 1: I “Yenice ilçesindeki”: “Yenice” özel addır ama “ilçe” sözü adın parçası değildir; küçük harfle başlar, ona gelen ek de kesmeyle ayrılmaz. Doğru.
+Adım 2: II “Yeniceliler'in”: “Yenice-li” sözündeki “-li” yapım ekidir. Yapım eki alan özel adda, yapım ekinden sonra gelen ekler de kesmeyle ayrılmaz: “Yenicelilerin”. Yanlış.
+Adım 3: III “Nuri Bey'i”: Kişi adından sonra gelen saygı sözü büyük harfle başlar ve ona gelen ek kesmeyle ayrılır. Doğru.
+Adım 4: IV “OGM'nin”: Büyük harfli kısaltmada ek, kurumun açık adına (Müdürlüğü-nün) göre değil, son harfin okunuşuna göre gelir: “o-ge-me” → “OGM'nin”. Doğru.
+Adım 5: V “20 kg'lik”: Küçük harfli ölçü kısaltmasında ek, kısaltılan sözcüğe göre gelir. “kg” “kilogram” diye okunur: “kilogram-lık” → “20 kg'lık”. Yanlış.
+Adım 6: Yanlış yazılanlar II ve V'tir.
+Sık yapılan hata: İki tür kısaltmayı aynı yolla okumak. Büyük harfli kısaltmada eki harfin adı belirler (OGM → “me” → “-nin”), küçük harfli ölçü kısaltmasında sözcüğün kendisi belirler (kg → kilogram → “-lık”).
 Cevap B.`
 },
 {
@@ -660,32 +609,19 @@ Cevap B.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Okul gazetesine gönderilen bir haber metni aşağıda verilmiştir:
+  soru: `Babam geçen kış gişeden iki adet bilet alıp eve geldi: Doğu Ekspresi'yle Ankara'dan Kars'a gidecektik. Ankara'dan başlayıp ülkenin - - - - (I) uzanan bu hatta yolculuk bir günden uzun sürüyor. Tren perondan ayrıldığında hava çoktan kararmıştı. Yataklı vagondaki odamız küçüktü ama içinde askısından okuma lambasına kadar her şey düşünülmüştü. Gece yarısı tren Kayseri'de kısa bir süre durdu; babam derin derin uyuyordu, ben ise garın ışıklarını izledim. Sabah gözümü açtığımda dar bir vadiden geçiyorduk; dışarıda bembeyaz yamaçlar, yamaçların dibinde de yarı donmuş bir ırmak vardı. Yemekli vagonda kahvaltı ederken yan masadaki emekli bir makinist bize iki bardak çay ısmarladı. Bu hatta yol arkadaşına çay ısmarlamanın eski bir - - - - (II) olduğunu söyledi; otuz yıl bu trenlerde çalışmış, en çok da kış seferlerini sevmişti. Öğleden sonra Erzurum'da bizim vagondan üç aile indi, koridor sessizleşti. Yola çıkarken bunca saatin geçmek bilmeyeceğini düşünmüştüm, - - - - (III) akşam Kars'a vardığımızda yolculuğun bittiğine üzüldüm.
 
-Çevre kulübümüz, bu yıl __genç doğa gönüllüleri derneği'nin__ düzenlediği fidan kampanyasına katıldı. Kulüp üyeleri, sonbahar boyunca okul bahçesinde yetiştirdikleri iki yüz fidanı kampanyaya bağışladı. Fidanlar, kış bastırmadan önce __doğu anadolu'daki__ bir köyün kurak yamaçlarına dikildi. Köyün muhtarı, yamaçların birkaç yıl içinde yeşereceğini umduklarını söyledi. Kulüp danışmanı ise bağışın önümüzdeki yıl da devam edeceğini açıkladı.
-
-Gazetenin editörü, metindeki altı çizili iki söz öbeğinde hem büyük harf hem de kesme işaretiyle ilgili yanlışlar olduğunu belirtti.
-
-**Altı çizili söz öbeklerinin doğru yazılışı, sırasıyla aşağıdakilerin hangisinde birlikte verilmiştir?**`,
+**Bu metinde numaralanmış yerlere, cümlelerin anlamına ve yazım kurallarına uygun olarak sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: [
-    "Genç Doğa Gönüllüleri Derneği'nin — Doğu Anadolu'daki",
-    "Genç Doğa Gönüllüleri Derneğinin — doğu Anadolu'daki",
-    "Genç doğa gönüllüleri derneğinin — Doğu Anadolu'daki",
-    "Genç Doğa Gönüllüleri Derneğinin — Doğu Anadolu'daki"
-  ],
+  secenekler: ["doğusuna – adet – oysa ki", "Doğusuna – âdet – oysa ki", "Doğusuna – adet – oysaki", "doğusuna – âdet – oysaki"],
   dogru: 3,
-  hatalar: [
-    "Büyük harf kuralını uygulayıp kesme kuralını atlamak: dernek bir kuruluştur, kuruluş adına gelen ek kesmeyle ayrılmaz.",
-    "Yön sözcüğünü her durumda küçük yazmak: 'Doğu' burada bölge adının parçasıdır, bu yüzden büyük yazılır.",
-    "Kesme kuralını uygulayıp büyük harf kuralını atlamak: kurum ve kuruluş adlarının her sözcüğü büyük harfle başlar.",
-    null
-  ],
-  aciklama: `Bu soru iki kuralın birlikte uygulanmasını istiyor. Kurum ve kuruluş adlarının her sözcüğü büyük harfle başlar, ama bu adlara gelen ekler kesmeyle ayrılmaz. Yer adlarında adın parçası olan yön sözcükleri büyük yazılır ve yer adına gelen ek kesmeyle ayrılır.
-Adım 1: Birinci söz öbeği bir derneğin adıdır. Her sözcük büyük harfle başlar: 'Genç Doğa Gönüllüleri Derneği'. Ek kesmesiz eklenir: 'Derneğinin'.
-Adım 2: İkinci söz öbeği bir bölge adıdır. 'Doğu' yön değil, adın parçasıdır; büyük yazılır: 'Doğu Anadolu'. Yer adına gelen ek kesmeyle ayrılır: 'Doğu Anadolu'daki'.
-Adım 3: Şıkları iki ölçütle ele: A'da dernek adına kesme konmuş; B'de 'doğu' küçük yazılmış; C'de dernek adı küçük yazılmış. İki öbeği de doğru veren yalnızca D'dir.
-Sık yapılan hata: Kurum adlarını ve yer adlarını aynı kurala bağlamak. İkisi de büyük harfle başlar ama ek alırken ayrılırlar: yer adı kesme alır, kurum adı almaz.
+  hatalar: ["İşareti atlama ve kalıplaşmış sözü ayırma: “gelenek” anlamındaki söz “âdet”tir, işaretsiz “adet” sayı bildirir; “oysaki” de kalıplaşmış olduğu için bitişik yazılır.", "Yön sözünü büyütme ve kalıplaşmış sözü ayırma: “ülkenin doğusu” bir yer adı değildir, yalnızca yön bildirir ve küçük yazılır; “oysaki” de kalıplaşmış olduğu için bitişik yazılır.", "Yön sözünü büyütme ve işareti atlama: “ülkenin doğusu” yalnızca yön bildirir, küçük yazılır; “gelenek” anlamındaki söz de düzeltme işaretiyle “âdet” biçiminde yazılır.", null],
+  aciklama: `Üç boşluğun her birinde iki yazımdan hangisinin doğru olduğunu sözün o cümledeki görevi ve anlamı belirler. Her boşluğu kendi cümlesiyle birlikte oku.
+Adım 1: (I) “ülkenin - - - - uzanan bu hat”: Buradaki söz bir yer adının parçası değildir, yalnızca yön bildirir; küçük harfle başlar: “doğusuna”. Trenin adı olan “Doğu Ekspresi”nde ise “Doğu” özel adın parçasıdır, bu yüzden orada büyüktür. B ve C'deki “Doğusuna” yanlıştır.
+Adım 2: (II) “çay ısmarlamanın eski bir - - - - olduğunu”: Cümlede “gelenek, alışkanlık” anlamı var. Bu anlamdaki sözcük düzeltme işaretiyle yazılır: “âdet”. İşaretsiz “adet” sayı bildirir (iki adet bilet). A ve C'deki “adet” yanlıştır.
+Adım 3: (III) Birbirine ters düşen iki yargıyı bağlayan söz “oysaki”dir. “ki” bağlacı çoğunlukla ayrı yazılır ama kalıplaşmış birkaç sözde bitişiktir: belki, çünkü, sanki, oysaki, mademki, hâlbuki, meğerki. A ve B'deki “oysa ki” yanlıştır.
+Adım 4: A'da (II) ile (III), B'de (I) ile (III), C'de (I) ile (II) yanlıştır. Üç boşluğu da doğru veren tek şık D'dir.
+Sık yapılan hata: Metinde gördüğün bir yazımı boşluğa aynen taşımak. “Doğu Ekspresi” büyük yazıldı diye “doğusuna”yı büyütme, “iki adet bilet” işaretsiz yazıldı diye “âdet”in işaretini atma; önce sözün o cümledeki anlamına bak.
 Cevap D.`
 },
 {
@@ -693,34 +629,20 @@ Cevap D.`
   kazanim: "T.8.4.16",
   kademe: 3,
   zorluk: 4,
-  soru: `Nehir, sınıf gezisinin ayrıntılarını arkadaşına bildirmek için bir e-posta yazdı. E-postayı aceleyle gönderdiği için birkaç yazım yanlışını fark etmedi. E-posta aşağıda verilmiştir:
+  soru: `İpek, geçen Kasım'dan beri her hafta sonu ilçe kütüphanesinin ses stüdyosunda gönüllü olarak kitap okuyor. Okuduğu bölümler kaydediliyor; görme engelli okurlar bu kayıtları telefonlarından ücretsiz dinliyor. Stüdyo, kütüphanenin en üst katındaki küçük ve sessiz bir odadır. İpek oraya ilk girdiği gün heyecandan okuduğu satırı kayıp etmiş, aynı sayfaya üç kez baştan başlamıştı. Sonraki haftalarda acele etmemeyi, virgüllerde soluk almayı kendi kendine öğrendi; bir metni seslendirmeden önce sessizce okuyup anlaması gerektiğini de gördü. İpek şimdi cumartesi sabahları 10.30'da mikrofonun başına geçiyor ve 45'er dakikalık iki kayıt yapıyor. Bugüne kadar baştan sona dört kitap seslendirdi; bunlardan biri, İngilizceden Türkçe'ye yeni çevrilmiş bir çocuk romanıydı. Kitapların her biri onda ayrı bir iz bıraktı ama hiçbiri ilk kaydı kadar zor gelmedi. Dinleyicilerden gelen teşekkür mesajları stüdyonun kapısındaki mantar panoya asılıyor. İpek, hiç tanımadığı birinin gününe sesiyle eşlik etmenin tuhaf ama güzel bir duygu olduğunu söylüyor.
 
-Merhaba Kerem,
-Sınıf gezimizin programı nihayet belli oldu. Gezi üç gün sürecek; ilk gün müzeyi gezip akşam 19.30'da otele yerleşeceğiz. Otobüste herkese ikişer kitap düşecek şekilde bir okuma listesi hazırladık. Hafta sonuna kadar listeyi tamamlaya bilir misin? Bu arada rehberimiz, dükkanlarda alışveriş yapmak için bize fazla zaman kalmayacağını söyledi. Sen de gelecekmisin, yoksa hâlâ kararsız mısın?
-Görüşmek üzere,
-Nehir
-
-**Bu e-postada aşağıdakilerin hangisiyle ilgili bir yazım yanlışı __yapılmamıştır__?**`,
+**Aşağıdakilerin hangisinde, bu metinden alınan sözlerin ikisi de yanlış yazılmıştır?**`,
   gorsel: null,
-  secenekler: [
-    "Soru ekinin yazımı",
-    "Sayıların yazımı",
-    "Birleşik fiillerin yazımı",
-    "Düzeltme işaretinin kullanımı"
-  ],
+  secenekler: ["“İngilizceden” – “Türkçe'ye”", "“Kasım'dan” – “kayıp etmiş”", "“her biri” – “hiçbiri”", "“10.30'da” – “45'er”"],
   dogru: 1,
-  hatalar: [
-    "'mısın'ın doğru yazıldığını görüp öteki soru ekini atlamak: 'gelecekmisin' yanlıştır, doğrusu 'gelecek misin'dir.",
-    null,
-    "'tamamlaya bilir'i doğru sanmak: '-a, -e' zarf-fiil ekinden sonra gelen 'bilmek' fiiliyle kurulan birleşik fiil bitişik yazılır: 'tamamlayabilir'.",
-    "'hâlâ'nın doğru yazıldığını görüp öteki sözcüğü atlamak: 'dükkan' yanlıştır, ince 'k'den sonra gelen 'a' işaretlenir: 'dükkânlarda'."
-  ],
-  aciklama: `Bu soruda metinde yanlışı olan üç konuyu bulup elemen gerekir. Kalan konu, metinde hep doğru uygulanmış olandır.
-Adım 1: Soru eki: 'kararsız mısın' doğru, ama 'gelecekmisin' yanlış. Soru eki ayrı yazılır: 'gelecek misin'. Bu konuda yanlış var.
-Adım 2: Birleşik fiil: 'tamamlaya bilir' yanlış. '-a' zarf-fiil ekinden sonra gelen 'bilmek' fiili bitişik yazılır: 'tamamlayabilir'. Bu konuda da yanlış var.
-Adım 3: Düzeltme işareti: 'hâlâ' doğru, ama 'dükkanlarda' yanlış; doğrusu 'dükkânlarda'. Bu konuda da yanlış var.
-Adım 4: Sayılar: 'üç gün' yazıyla, '19.30'da' saat rakamla ve ek okunuşa uygun ('otuzda'), 'ikişer' üleştirme sayısı yazıyla. Sayılarla ilgili hiçbir yanlış yok.
-Sık yapılan hata: Bir konuda doğru bir örnek görünce o konuyu 'yanlışsız' saymak. Bir konu, metindeki bütün örnekleri doğruysa yanlışsızdır.
+  hatalar: ["Aynı kuralın doğru ve yanlış uygulanışını ayırmama: dil adındaki “-ce” yapım ekidir, sonrasındaki ek kesmeyle ayrılmaz. “İngilizceden” doğru, yalnızca “Türkçe'ye” yanlıştır.", null, "Tutarsız görünen iki doğruyu yanlış sanma: “her biri” ayrı, “hiçbiri” bitişik yazılır; ikisi de kurala uygundur.", "Saat ekini yanlış sanma: “10.30” “on otuz” diye okunur, “10.30'da” doğrudur; yalnızca rakamla yazılan üleştirme sayısı “45'er” yanlıştır (kırk beşer)."],
+  aciklama: `Soru “ikisi de yanlış” diyor; bu yüzden her şıktaki iki sözü de metindeki yerine dönerek sınaman gerekir. Biri doğruysa o şık elenir.
+Adım 1: A → Dil adlarındaki “-ce/-ca” yapım ekidir; yapım ekinden sonra gelen ek kesmeyle ayrılmaz. “İngilizceden” doğru, “Türkçe'ye” yanlış (doğrusu “Türkçeye”). Biri doğru; elenir.
+Adım 2: B → “geçen Kasım'dan beri”: Yanında gün sayısı yok, belirli bir tarih bildirmiyor. Ay adı küçük yazılır ve eki kesmeyle ayrılmaz: “geçen kasımdan beri”. Yanlış. “kayıp etmiş”: “kayıp + etmek” birleşirken ses düşer; fiil bitişik yazılır: “kaybetmiş”. Yanlış. İkisi de yanlış.
+Adım 3: C → “her biri” ayrı, “hiçbiri” bitişik yazılır. İkisi de doğru; elenir.
+Adım 4: D → “10.30” “on otuz” diye okunur: “otuz-da” → “10.30'da” doğru. Üleştirme sayıları rakamla değil yazıyla yazılır: “45'er” yanlış, doğrusu “kırk beşer”. Biri doğru; elenir.
+Adım 5: İki sözün de yanlış olduğu tek şık B'dir.
+Sık yapılan hata: Büyük harf ve kesmeyle yazılmış ay adını (“Kasım'dan”) doğru saymak. Büyük harf ve kesme ancak “9 Kasım'dan” gibi belirli bir tarihte kullanılır.
 Cevap B.`
 },
 /* ===================== HAVUZ (kademe 0) ===================== */

@@ -426,27 +426,18 @@ Cevap C.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, katıldığı öykü yarışmasının ödül töreninde yaşadıklarını anlatıyor:
-(I) Sonuçlar açıklanmadan önce heyecandan yerimde duramıyordum.
-(II) Jüri üyesinin öyküme yönelik sert eleştirileri karşısında yüzüm kızardı.
-(III) Ama sonra bu acı sözlerin öykümü daha iyi bir noktaya taşıyacağını anladım.
-(IV) Eve dönünce çalışma masama oturdum ve kalemi elime aldım.
-**Bu metindeki numaralanmış cümlelerin hangisinde hem bir deyim hem de deyimin dışında mecaz anlamda kullanılmış bir sözcük bulunmaktadır?**`,
+  soru: `Belediyenin fotoğraf yarışmasında jüri sekreterliğini bu yıl dayım yaptı. Dereceye girenleri törenden bir hafta önce öğrenmişti; yarışma kurallarına göre sonuçlar tören günü açıklanacaktı. O hafta bize yemeğe geldiğinde sofradan iki saat kalkamadık. Dayım askerlik anılarından balık tariflerine, mahalle maçlarından eski arabasına kadar her şeyi uzun uzun anlattı. Annem törenin nerede yapılacağını sordu; dayım salonun adresini, hangi kapıdan girileceğini, törenin saat kaçta başlayacağını tek tek söyledi. Kardeşim jüride kimlerin bulunduğunu merak etti; dayım beş üyeyi adlarıyla, meslekleriyle saydı. Yarışmaya katılan ablam ise lafı üç kez sonuçlara getirdi. Dayım her seferinde "O zarflarda ne yazıyordu, inan aklımda kalmamış." deyip gülümsedi ve başka bir anıya geçti. Ablam, dayımın sonuçları gerçekten unuttuğuna inandı. Oysa tören günü zarfların bulunduğu çanta salona geç ulaşınca dayım kürsüye çıktı; on iki ödülün sahibini, fotoğraflarının adlarıyla birlikte, hiçbir kâğıda bakmadan tek tek saydı. Eve dönerken annem ablama güldü: "Boşuna uğraştın. Dayın çocukken de böyleydi, __ketum__ adamdır."
+**Bu metinde altı çizili sözcüğün anlamı aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["Sorulara kaçamak cevap veren", "Sır saklayan, ağzı sıkı", "Öğrendiğini çabuk unutan", "Az konuşan, sözü kısa kesen"],
   dogru: 1,
-  hatalar: [
-    "Tek ölçütle yetinme: I. cümlede 'yerinde duramamak' deyimi var ama deyimin dışında mecaz anlamlı bir sözcük yoktur.",
-    null,
-    "Tek ölçütle yetinme: III. cümlede 'acı' mecaz anlamdadır ama cümlede deyim yoktur.",
-    "Deyim kalıbına benzeyen gerçek anlatımı deyim sanma: kalem gerçekten ele alınıyor; 'ele almak' deyiminin 'incelemek' anlamı burada yoktur."
-  ],
-  aciklama: `İki ölçütlü sorularda her cümleyi iki ölçüte göre ayrı ayrı işaretle: 1) Deyim var mı? 2) Deyimin dışında mecaz anlamlı sözcük var mı? İkisini birden taşıyan cümle doğrudur.
-Adım 1: I. cümle: "Yerinde duramamak" (heyecandan rahat edememek) bir deyimdir. Başka mecaz sözcük yok. Deyim var, mecaz sözcük yok.
-Adım 2: II. cümle: "Sert eleştiri" sözünde "sert", "kırıcı, katı" anlamında mecazdır; eleştiri dokunulan bir nesne değildir. "Yüzü kızarmak" ise "utanmak" anlamında bir deyimdir. İki ölçüt de var.
-Adım 3: III. cümle: "Acı söz" mecazdır; sözün tadı olmaz. Ama cümlede deyim yok.
-Adım 4: IV. cümle: Kalem gerçekten ele alınıyor; bu, "ele almak" deyimi değildir. Masaya oturmak da gerçek anlamdadır.
-Sık yapılan hata: Tek ölçütü karşılayan ilk cümlede durmak. Her cümleyi iki ölçüte göre sonuna kadar denetle.
+  hatalar: ["Kısmen doğru: Dayı, ablanın sorusunu gerçekten geçiştirir. Ancak annenin ve kardeşin sorularını adresine, saatine, adlarına kadar açıkça yanıtlar. Kaçamak konuşmak onun huyu değildir; söylemediği tek şey, tören günü açıklanacak olan sonuçlardır.", null, "Metnin yalanladığı anlam: 'Aklımda kalmamış' sözü dayının soruyu savuşturma yoludur. Tören günü on iki adı kâğıda bakmadan sayması, hiçbir şeyi unutmadığını gösterir.", "Metnin yalanladığı anlam: Dayı sofrada iki saat boyunca her konuyu uzun uzun anlatır, sorulanları da ayrıntısıyla yanıtlar. 'Ketum' sözcüğünü 'az konuşan' sanmak sık yapılan bir yanlıştır."],
+  aciklama: `Bilmediğin bir sözcüğün anlamını bulmak için şıkları sözcüğün yerine koyar, metnin bütün ayrıntılarıyla uyuşan tek şıkkı ararsın.
+Adım 1: Annenin sözünü çöz. "Boşuna uğraştın." diyor; ablanın uğraştığı şey sonuçları öğrenmekti. Demek ki "ketum", dayının sonuçları söylememesiyle ilgili bir niteliktir.
+Adım 2: D'yi sına. Dayı sofrada iki saat boyunca her şeyi uzun uzun anlatıyor. "Az konuşan" olamaz.
+Adım 3: C'yi sına. Dayı "Aklımda kalmamış." diyor ama tören günü on iki adı kâğıda bakmadan sayıyor. Unutmamış, bilerek söylememiş.
+Adım 4: A ile B arasında karar ver. Dayı ablanın sorusunu geçiştiriyor; ama annenin ve kardeşin sorularını adresine, saatine, adlarına kadar açıkça yanıtlıyor. Demek ki kaçamak konuşmak onun huyu değil. Geçiştirdiği tek konu, kurallara göre tören günü açıklanacak olan sonuçlar. Söylememesi gerekeni söylemeyen kişi sır saklıyordur: "ketum", sır saklayan, ağzı sıkı demektir.
+Sık yapılan hata: Kişinin tek bir davranışına bakıp sözcüğe anlam vermek. Dayının hangi soruları yanıtladığını, hangisini yanıtsız bıraktığını birlikte düşünmelisin.
 Cevap B.`
 },
 {
@@ -454,28 +445,18 @@ Cevap B.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Mahallemizin parkındaki çeşme yıllardır kuru duruyordu. Geçen ay belediye, çeşmenin paslanmış borularını yeniledi. Suyun verileceği gün çeşmenin çevresine küçük büyük herkes toplandı. Musluk açılınca önce bulanık bir su aktı, birkaç dakika sonra su berraklaştı. Kalabalığın arasındaki ihtiyar bir komşumuz, çocukluğunda bu çeşmeden su içtiğini anlattı. Yaşlı adamın gözleri, suyun ilk damlalarını görünce parlamıştı. Belediyeden gelen görevli ise alınan örnekte bakteri bulunmadığını, suyun içilebilir olduğunu açıkladı.
-**Bu metinde aşağıdakilerden hangisine örnek __yoktur__?**`,
+  soru: `Babamın arkadaşı Nermin Kaptan beni balıkçı teknesine aldığı sabah limanda yaprak kıpırdamıyordu, gökyüzünde de tek bulut yoktu. (I) __Karadan__ bakınca ayna gibi görünen (II) __durgun__ su, mendireği geçer geçmez tekneyi hafif hafif sallamaya başladı. Kaptan, kıyıya doğru uçan martıları gösterip "Bunlar boşuna dönmez; bugün hava bozar, ağları erken toplarız." dedi. Kıyıdaki evler küçülüp silikleşirken ağları atacağımız yerin daha ileride olduğunu söyledi. Yarım saat sonra (III) __açıktaydık__; kıyı ince bir çizgi gibi kalmıştı. Ağları suya bırakırken ufukta (IV) __kara__ bulutlar belirdi. Az önce pırıl pırıl olan gökyüzü birkaç dakika içinde değişmişti; martılar konusunda kaptan haklı çıkmıştı. Kaptan telsizden gelen uyarıyı dinledi, sonra dümeni (V) __iskeleye__, yani teknenin sol yanına doğru kırıp burnumuzu limana çevirdi. Ağları toplamaya bile zor vakit bulduk. Dönüş yolunda dert yandı: "Bu ay hava çoğu gün böyle (VI) __kapalı__ gitti. Balık az çıkınca haldeki işler de (VII) __durgun__." Sabah bindiğimiz ahşap iskeleye yanaştığımızda ilk damlalar güverteye düşmeye başlamıştı.
+**Bu metindeki numaralanmış sözcüklerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: [
-    "Anlamca birbirinin yerine kullanılabilen iki sözcüğe",
-    "Anlamca birbirinin karşıtı olan iki sözcüğe",
-    "Bir bilim dalına özgü anlam taşıyan bir sözcüğe",
-    "Yazılışı aynı, anlamı ilgisiz iki sözcüğe"
-  ],
+  secenekler: ["I ile IV, yazılışları aynı olan ama aralarında anlam bağı bulunmayan sözcüklerdir.", "II ile VII aynı sözcüktür; sözcük II'de gerçek, VII'de mecaz anlamıyla kullanılmıştır.", "V numaralı sözcük, bir meslek alanına özgü anlamıyla, terim olarak kullanılmıştır.", "III ile VI, metinde kullanıldıkları anlamlarıyla birbirinin karşıtı olan sözcüklerdir."],
   dogru: 3,
-  hatalar: [
-    "Eş anlamlıları gözden kaçırma: 'ihtiyar' ve 'yaşlı' aynı kişi için kullanılmıştır; birbirinin yerine kullanılabilen eş anlamlı sözcüklerdir.",
-    "Zıt anlamlıları gözden kaçırma: 'küçük – büyük' ve 'bulanık – berrak' metinde zıt anlamlı sözcük çiftleridir.",
-    "Terimi gözden kaçırma: 'bakteri' biyoloji bilimine özgü bir terimdir.",
-    null
-  ],
-  aciklama: `Olumsuz köklü sorularda şıkların her biri için metinde örnek ararsın; örneği bulunamayan şık cevaptır.
-Adım 1: A (eş anlamlı): Aynı komşu için önce "ihtiyar", sonra "yaşlı" deniyor. Bu iki sözcük birbirinin yerine kullanılabilir. Örnek var.
-Adım 2: B (zıt anlamlı): "küçük büyük herkes" ve "bulanık bir su aktı ... su berraklaştı". Örnek var.
-Adım 3: C (terim): "Bakteri", biyolojide kullanılan özel bir addır. Örnek var.
-Adım 4: D (eş sesli): Metinde aynı yazılıp anlamı ilgisiz olan iki sözcük aranır. "Su", "çeşme" gibi sözcükler tekrar ediyor ama hep aynı anlamdadır. Örnek yok.
-Sık yapılan hata: Aynı sözcüğün aynı anlamla tekrar etmesini eş seslilik sanmak. Eş seslilikte yazılış aynı, anlam ise tamamen farklı olmalıdır.
+  hatalar: ["Eş sesliliği gözden kaçırma: I'deki 'kara' denizle örtülü olmayan yer, IV'teki 'kara' ise siyah demektir. İki anlam arasında bağ kurulamaz; bunlar eş sesli sözcüklerdir, yargı doğrudur.", "Mecazı gerçek sanma: II'de su gerçekten hareketsizdir. VII'de ise işlerin azaldığı anlatılır; sözcük gerçek anlamından uzaklaşmıştır, mecazdır. Yargı doğrudur.", "Günlük anlamla terimi karıştırma: Son cümledeki ahşap iskele teknelerin yanaştığı yerdir. V'te ise metnin de açıkladığı gibi teknenin sol yanı anlatılır; bu, denizciliğe özgü bir anlamdır. Yargı doğrudur.", null],
+  aciklama: `Bu tür sorularda her yargıyı metne dönüp tek tek sınarsın. Eş sesli sözcükler aynı yazılır ama anlamları arasında bağ yoktur; zıt anlam ise sözcüğün o cümledeki anlamına göre belirlenir.
+Adım 1: A'yı sına. I'de "kara" toprak parçası, IV'te siyah demektir. Aralarında bağ yok: eş sesli. Yargı doğru.
+Adım 2: B'yi sına. II'de su gerçekten hareketsiz. VII'de işlerin azaldığı anlatılıyor; sözcük gerçek anlamından uzaklaşmış: mecaz. Yargı doğru.
+Adım 3: C'yi sına. V'te "iskele", metnin de açıkladığı gibi teknenin sol yanıdır. Bu, denizcilerin kullandığı özel bir anlamdır: terim. Son cümledeki ahşap iskele ise teknelerin yanaştığı yerdir. Yargı doğru.
+Adım 4: D'yi sına. III'te "açık", denizin kıyıdan uzak yeridir; kıyıdaki evlerin küçülmesi bunu gösterir. VI'da "kapalı", bulutlu demektir. "Kapalı hava"nın karşıtı "açık hava"dır ama metinde "açık" bu anlamda kullanılmamıştır. İki sözcük metindeki anlamlarıyla karşıt değildir.
+Sık yapılan hata: Zıt anlamlı diye bildiğin iki sözcüğü, cümledeki anlamlarına bakmadan karşıt saymak. Sözcük çok anlamlıysa her anlamının karşıtı başkadır.
 Cevap D.`
 },
 {
@@ -483,27 +464,21 @@ Cevap D.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Yaz tatilinde ilk kez annemin doğduğu köye gittik. Otobüsten indiğimizde köy meydanında bizi bekleyen kalabalığı görünce şaşırdım; tanımadığım insanlar bana adımla sesleniyordu. Teyzemin komşuları kapı kapı gezip bizi evlerine çağırdı. Girdiğimiz her evde önümüze bir tabak ekmek, bir kâse ayran kondu. Dönüş yolunda annem, köylülerin bu __sıcak__ tavrının yıllar geçse de değişmediğini söyledi.
-**Aşağıdakilerin hangisinde "sıcak" sözcüğü, metindeki anlamından __farklı__ bir anlamda kullanılmıştır?**`,
-  gorsel: null,
-  secenekler: [
-    "Muhabir, bölgedeki selle ilgili sıcak bilgileri canlı yayında aktardı.",
-    "Yeni okulumda beni sıcak bir gülümsemeyle karşılayan ilk kişi nöbetçi öğretmendi.",
-    "Dedemle aramızda yıllardır süren sıcak bir dostluk var.",
-    "Toplantı, iki kulüp başkanının sıcak selamlaşmasıyla başladı."
-  ],
+  soru: `Ağustosun son haftasında doğa kulübündeki arkadaşlarımla yaylada üç gün kamp yaptık. Çadırları eski bir kuyunun yakınına kurduğumuz için üç gün boyunca susuzluk (I) __çekmedik__. Her sabah kovayı iple yukarı (II) __çekip__ mataralarımızı doldurduk. İkinci gün öğleden sonra kısa bir sağanak geçti; ama haftalardır yağmur görmeyen toprak suyu hemen (III) __çekti__, yerde tek bir birikinti kalmadı. Yağmurun ardından hava birden serinledi. Uyku tulumlarımız yazlık olduğundan o gece hepimiz epey (IV) __çektik__; sabaha kadar ateşin başında oturduk. Dönüş günü minibüs durağına inen patika, yokuş aşağı olmasına rağmen bir buçuk saat (V) __çekti__; çünkü ıslak çadırı ben taşıyordum. Durağın yanındaki bakkal merak edip sırt çantamı kantara koydu: Çanta tam on dört kilo (VI) __çekiyordu__.
+Aşağıdaki tabloda "çekmek" sözcüğünün bir sözlükte yer alan anlamlarından beşi verilmiştir.
+**Buna göre metindeki numaralanmış sözcüklerden hangi ikisi, tablodaki aynı anlamla kullanılmıştır?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>\"Çekmek\" sözcüğünün bazı anlamları</th></tr><tr><td>1</td><td>Bir şeyi tutup kendine ya da başka bir yöne doğru getirmek</td></tr><tr><td>2</td><td>İçine almak, emmek</td></tr><tr><td>3</td><td>Hoşa gitmeyen bir duruma uğramak, katlanmak</td></tr><tr><td>4</td><td>Belli bir süre tutmak, sürmek</td></tr><tr><td>5</td><td>Tartıda belli bir ağırlıkta gelmek</td></tr></table>",
+  secenekler: ["I ve IV", "II ve III", "IV ve V", "V ve VI"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Aynı anlamı farklı sanma: 'sıcak gülümseme' içten, candan bir gülümsemedir; metindeki 'samimi' anlamıyla aynıdır.",
-    "Aynı anlamı farklı sanma: 'sıcak dostluk' içten, samimi bir dostluktur; metindeki anlamla aynıdır.",
-    "Aynı anlamı farklı sanma: 'sıcak selamlaşma' candan bir selamlaşmadır; metindeki anlamla aynıdır."
-  ],
-  aciklama: `Bir sözcüğün birden fazla mecaz anlamı olabilir. "Farklı anlam" sorusunda önce metindeki anlamı belirler, sonra her şıkta aynı anlamın olup olmadığını denetlersin.
-Adım 1: Metinde köylüler konukları adıyla çağırıyor, evlerine davet ediyor, ikramda bulunuyor. "Sıcak tavır", "içten, samimi, candan davranış" demektir. Sözcük mecaz anlamdadır; hava sıcaklığıyla ilgisi yoktur.
-Adım 2: B'de gülümseme, C'de dostluk, D'de selamlaşma "sıcak" olarak nitelenmiş. Üçünde de anlam "içten, samimi"dir.
-Adım 3: A'da "sıcak bilgi", "yeni, taze, olayın hemen ardından gelen bilgi" demektir. Bu da mecazdır ama anlamı "samimi" değildir.
-Sağlama: Şıklara "samimi" sözcüğünü koy. "Samimi gülümseme", "samimi dostluk", "samimi selamlaşma" olur; "samimi bilgiler" ise anlamı bozar.
+  hatalar: [null, "Ortak nesneye aldanma: İkisinde de su vardır ama anlam ayrıdır. II'de kova iple tutulup yukarı getirilir (1. anlam), III'te toprak suyu içine alır, emer (2. anlam).", "Bağlama aldanma: V'te ıslak çadırı taşımak yorucudur ama 'çekti' sözcüğünün öznesi patikadır; patika bir buçuk saat sürmüştür (4. anlam). Sıkıntıya katlanma anlamı IV'te vardır, V'te yoktur.", "Ölçü sözcüklerine aldanma: İkisinde de bir sayı ve bir ölçü vardır ama V süreyi (4. anlam), VI ağırlığı (5. anlam) bildirir."],
+  aciklama: `Çok anlamlı bir sözcüğün hangi anlamda kullanıldığını bulmak için tablodaki her anlamı cümlede sözcüğün yerine koyarsın.
+Adım 1: I: "Susuzluk çekmedik." Hoşa gitmeyen bir duruma uğramadık: 3. anlam.
+Adım 2: II: Kova iple tutulup yukarı getiriliyor: 1. anlam. III: Toprak suyu içine alıyor, emiyor: 2. anlam.
+Adım 3: IV: "O gece hepimiz epey çektik." Neyi çektiklerini bir önceki cümle söylüyor: Hava serinlemiş, tulumlar yazlık. Soğuğa katlanmışlar: 3. anlam.
+Adım 4: V: Patika bir buçuk saat sürdü: 4. anlam. VI: Çanta tartıda on dört kilo geldi: 5. anlam.
+Adım 5: Aynı numarayı alan iki kullanım I ile IV'tür.
+Sağlama: I ve IV'te sözcüğün yerine "katlanmak" koy: "susuzluğa katlanmadık", "o gece soğuğa epey katlandık". İkisinde de anlam bozulmuyor.
+Sık yapılan hata: Yanındaki sözcükler benziyor diye iki kullanımı aynı saymak. II ile III'te de su var ama birinde kova yukarı getiriliyor, ötekinde toprak suyu emiyor.
 Cevap A.`
 },
 {
@@ -511,27 +486,18 @@ Cevap A.`
   kazanim: "T.8.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `Müzik kulübümüzün yıl sonu konseri için haftalarca hazırlandık. Konserden bir gün önce ses sistemi bozulunca herkes umudunu yitirdi. Ama Mert (I) - - - - ve iki saat içinde okulun deposundaki eski hoparlörleri çalışır hâle getirdi. Konser günü salon tıklım tıklımdı. Sunucu Nil, sahneye çıkıp bu kalabalığı görünce heyecandan (II) - - - -; birkaç saniye tek kelime edemedi. Sonra derin bir nefes aldı, toparlandı ve açılış konuşmasını yaptı.
-**Bu metinde numaralanmış yerlere sırasıyla aşağıdaki deyimlerden hangileri getirilmelidir?**`,
+  soru: `İlçe voleybol turnuvasının finalinde ilk iki seti kaybettik. Tribündeki ailelerimiz susmuş, yedek kulübesindeki arkadaşlarımız başını öne eğmişti. Antrenörümüz mola aldığında elindeki kâğıt küçük çizgilerle doluydu: Rakibin aldığı sayıları tek tek işaretlemiş, sahada hiçbirimizin fark etmediği bir şeyi, karşı takımın en uzun oyuncusunun arka çizgiye düşen toplara geç kaldığını saptamıştı. Bunu (I) - - - - servis atacak arkadaşlarımıza hedef olarak hep arka çizgiyi gösterdi. Üçüncü ve dördüncü seti, arka çizgiye gönderdiğimiz servislerle aldık. Son setten önce pasörümüz Derin'in bileği şişmişti. Takım doktoru, oynarsa bileğinin haftalarca sargıda kalabileceğini söyledi ama kararı ona bıraktı. Derin bir süre düşündü, doktora iki soru sordu, bileğini sıkıca bantlattı. "Biliyorum, yarın çok ağrıyacak ama bu seti kenardan izleyemem." dedi. İyileşmesinin uzaması tehlikesini (II) - - - - sahaya çıktı. Son sette iki kez yere düştü, ikisinde de acısını belli etmeden kalktı. Kupayı biz kaldırdık; Derin de sonraki üç haftayı gerçekten sargıyla geçirdi.
+**Bu metinde boş bırakılan yerlere düşüncenin akışına göre sırasıyla aşağıdaki deyimlerden hangileri getirilmelidir?**`,
   gorsel: null,
-  secenekler: [
-    "kolları sıvadı / ağzı kulaklarına vardı",
-    "kolları sıvadı / dili tutuldu",
-    "eli kolu bağlandı / dili tutuldu",
-    "havlu attı / gözleri doldu"
-  ],
+  secenekler: ["göz önüne alarak – göz ardı ederek", "göz önüne alarak – göze alarak", "gözden kaçırarak – göze alarak", "gözden kaçırarak – göz ardı ederek"],
   dogru: 1,
-  hatalar: [
-    "İkinci boşluğu kaçırma: 'ağzı kulaklarına varmak' çok sevinmektir; Nil'in ise heyecandan konuşamadığı anlatılıyor.",
-    null,
-    "Birinci boşluğu kaçırma: 'eli kolu bağlanmak' çaresiz kalmaktır; Mert ise hoparlörleri çalıştırarak sorunu çözmüştür.",
-    "İki boşlukta da yanlış seçim: 'havlu atmak' yenilgiyi kabul etmektir, Mert vazgeçmemiştir; 'gözleri dolmak' ağlayacak gibi olmaktır, metinde ise konuşamama anlatılır."
-  ],
-  aciklama: `İki boşluklu sorularda her boşluğu ayrı ayrı çöz, sonra iki cevabı birlikte taşıyan şıkkı seç.
-Adım 1: I. boşluk: Herkes umudunu yitirmişken Mert işe girişiyor ve hoparlörleri çalıştırıyor. "Kolları sıvamak", bir işe girişmek, hazırlanmak demektir. "Eli kolu bağlanmak" (çaresiz kalmak) ve "havlu atmak" (yenilgiyi kabul etmek) ters düşer.
-Adım 2: II. boşluk: Nil heyecanlanıyor ve "birkaç saniye tek kelime edemedi". "Dili tutulmak", heyecan ya da korku yüzünden konuşamaz olmaktır.
-Adım 3: İki boşluğun doğru cevabını birlikte taşıyan tek şık B'dir.
-Sık yapılan hata: Yalnızca birinci boşluğa bakıp A'yı seçmek. İkinci boşluktan sonraki "tek kelime edemedi" ipucu, sevinmeyi değil konuşamamayı anlatır.
+  hatalar: ["Kısmen doğru: Birinci deyim yerindedir. 'Göz ardı etmek' ise gereken önemi vermemektir; Derin tehlikeyi önemsemiş, doktora soru sormuş, bileğini bantlatmış ve 'Biliyorum.' demiştir.", null, "Kısmen doğru: İkinci deyim yerindedir. 'Gözden kaçırmak' ise fark etmemektir; rakibin zayıf yanını fark etmeyenler sahadaki oyunculardır, antrenör onu fark etmiş ve kâğıdına işaretlemiştir.", "İki deyimi de yanlış yere koyma: Antrenör rakibin zayıf yanını gözden kaçırmamış, tersine saptamıştır. Derin de tehlikeyi göz ardı etmemiş; ne olacağını bilerek kabullenmiştir."],
+  aciklama: `Deyim, sözcükleri değişmeyen kalıplaşmış söz öbeğidir; anlamı sözcüklerinin toplamı değildir. Aynı sözcükle kurulan deyimleri karıştırmamak için her birinin anlamını ayrı ayrı bilmelisin.
+Adım 1: Dört deyimin anlamını yaz. Göz önüne almak: hesaba katmak. Göze almak: gelebilecek zararı önceden kabullenmek. Göz ardı etmek: gereken önemi vermemek. Gözden kaçırmak: fark etmemek.
+Adım 2: I. boşluk. Antrenör rakibin zayıf yanını saptamış ve servis hedefini buna göre belirlemiş. Fark ettiği bilgiyi hesaba katıyor: "göz önüne alarak". "Gözden kaçırarak" bunun tersidir; zayıf yanı fark etmeyenler sahadaki oyunculardır, antrenör değil.
+Adım 3: II. boşluk. Derin tehlikeyi biliyor: Doktoru dinliyor, düşünüyor, soru soruyor, bileğini bantlatıyor ve "Biliyorum, yarın çok ağrıyacak." diyor. Tehlikeyi önemsiyor ama kabulleniyor: "göze alarak".
+Adım 4: "Göz ardı ederek" neden olmaz? Tehlikeyi önemsemeyen biri soru sormaz, önlem almaz. Derin ise başına geleceği bilerek sahaya çıkıyor.
+Sık yapılan hata: "Sakat bileğiyle oynadı" bilgisine bakıp hemen "göz ardı etmek" deyimini seçmek. Oynamaya nasıl karar verdiğini anlatan cümleleri de hesaba kat.
 Cevap B.`
 },
 {
@@ -539,28 +505,18 @@ Cevap B.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Dedem, köyde herkesin saygı duyduğu (I) __vakur__ bir adamdı; yüksek sesle konuştuğunu, gereksiz yere güldüğünü kimse görmemişti. Ama torunlarına karşı son derece (II) __müşfik__ davranır, üşüdüğümüzü fark eder etmez ceketini omzumuza örterdi. Bir gün onun yıllardır sakladığı cep saatini düşürüp kırdım. Söylemek için kapısının önünde uzun süre (III) __tereddüt__ ettim; bir adım atıyor, sonra geri çekiliyordum. Sonunda içeri girip olanları anlattım. Dedem kızmadı, yalnızca gülümsedi. O an öyle (IV) __mahcup__ oldum ki başımı kaldıramadım.
-**Bu metindeki numaralanmış sözcüklere bağlamdan hareketle verilen anlamlardan hangisi __yanlıştır__?**`,
+  soru: `Güzel sanatlar lisesinin seramik atölyesi, yıl sonu sergisinden önceki iki hafta akşam geç saatlere kadar açık kaldı. Sergiye altı parçalık bir çay takımıyla katılacak olan Zerrin'in (I) __eli ağırdı__: Bir bardağı tornada biçimlendirmesi arkadaşlarının iki katı sürer ama elinden çıkan parçanın kenarı kâğıt gibi ince olurdu. Atölyeye bu yıl gelen Tuna ise ilk hafta (II) __yerinde saydı__; çamuru tornanın ortasına bir türlü oturtamadı, ilk kâsesini ancak ikinci hafta çıkarabildi. Asıl sorun, atölyedeki tek elektrikli tornaydı. Başında her gün sıra tartışması çıkıyor, kimi öğrenciler tornadan saatlerce kalkmıyordu. Sonunda Nurhan Öğretmen duruma (III) __el koydu__: Kapıya bir çizelge astı, herkese günde kırk beş dakika ayırdı. O günden sonra torna hiç boş kalmadı, tartışmalar da kesildi. Sergiden önce takımın nasıl sunulacağı konuşuldu. Zerrin bardakları beyaz bir örtünün üstüne dizmek istiyordu; arkadaşları koyu renkli, ahşap bir tepsi önerdi. Oylamada tepsiyi isteyenlerin görüşü (IV) __ağır bastı__. Sergi günü açık renkli bardaklar koyu tepsinin üstünde gerçekten daha iyi göründü; takım, daha ilk saatte bir çini ustasına satıldı.
+**Bu metindeki numaralanmış söz gruplarından hangisinin metindeki anlamı karşısında __yanlış__ verilmiştir?**`,
   gorsel: null,
-  secenekler: [
-    "vakur: ağırbaşlı ve saygı uyandıran",
-    "müşfik: şefkatli, sevgiyle koruyan",
-    "tereddüt etmek: korkudan titremek",
-    "mahcup: utanmış, sıkılmış"
-  ],
+  secenekler: ["eli ağır: işini yavaş yapan, geç bitiren", "yerinde saymak: hiçbir ilerleme gösterememek", "el koymak: bir şeyi alıp kullandırmamak", "ağır basmak: ötekinden üstün, etkili olmak"],
   dogru: 2,
-  hatalar: [
-    "Doğru anlamı yanlış sanma: 'yüksek sesle konuşmayan, gereksiz yere gülmeyen, herkesin saygı duyduğu' ipuçları 'vakur'un 'ağırbaşlı' anlamını doğrular.",
-    "Doğru anlamı yanlış sanma: torunlarına ceketini örtmesi, 'müşfik'in 'şefkatli' anlamını doğrular.",
-    null,
-    "Doğru anlamı yanlış sanma: dedesi kızmayınca başını kaldıramaması, 'mahcup'un 'utanmış' anlamını doğrular."
-  ],
-  aciklama: `Bağlamdan anlam çıkarırken her sözcük için metinde bir ipucu cümlesi bulur, tahmini bu ipucuyla sınarsın.
-Adım 1: I (vakur): Ardından gelen açıklama (yüksek sesle konuşmaz, gereksiz yere gülmez, herkes saygı duyar) "ağırbaşlı" anlamını verir. Doğru.
-Adım 2: II (müşfik): Torunlarına ceketini örtmesi sevgi ve koruma gösterir; "şefkatli" anlamı doğrudur.
-Adım 3: III (tereddüt etmek): İpucu "bir adım atıyor, sonra geri çekiliyordum" cümlesidir. Bu, kararsız kalmayı, duraksamayı anlatır. Anlatıcı korkuyor olabilir ama metinde titremekten söz edilmez. "Korkudan titremek" yanlış bir anlamdır.
-Adım 4: IV (mahcup): Dedesi kızmayınca başını kaldıramıyor; "utanmış" anlamı doğrudur.
-Sık yapılan hata: Kişinin duygusunu (korku) sözcüğün anlamı sanmak. İpucu cümlesinin tam olarak neyi anlattığına bak: İleri geri adım atmak kararsızlıktır.
+  hatalar: ["Sözün öbür anlamına takılma: 'Eli ağır' sözü, vurduğunda çok acıtan kişi için de kullanılır. Metinde ise Zerrin'in bir bardağı arkadaşlarının iki katı sürede çıkardığı anlatılır; verilen anlam metne uyar.", "Gerçek anlama takılma: 'Yerinde saymak', ilerlemeden adım atmak demektir; burada mecaz anlamıyla kullanılmıştır. Tuna ilk hafta çamuru tornaya oturtamamış, hiç ilerleyememiştir; verilen anlam metne uyar.", null, "Doğru anlamı yanlış sanma: Oylamadan sonra bardaklar tepsiyle sergilenmiştir; tepsiyi isteyenlerin görüşü öbür görüşten üstün gelmiştir. Verilen anlam metne uyar."],
+  aciklama: `Bazı söz gruplarının birden çok anlamı vardır; hangisinin geçerli olduğunu ancak metne bakarak anlarsın. Verilen anlamı metinde yerine koy, çevresindeki ayrıntılarla uyuşuyor mu diye bak.
+Adım 1: I: Zerrin bir bardağı arkadaşlarının iki katı sürede çıkarıyor. "İşini yavaş yapan" anlamı uyuyor.
+Adım 2: II: Tuna ilk hafta çamuru tornaya oturtamıyor, ilk kâsesini ancak ikinci hafta çıkarıyor. "Hiçbir ilerleme gösterememek" anlamı uyuyor.
+Adım 3: III: Verilen anlamı yerine koy. Öğretmen tornayı alıp kullandırmamış olsaydı kimse çalışamazdı. Oysa öğretmen çizelge asıyor, herkese süre ayırıyor; torna o günden sonra hiç boş kalmıyor. Demek ki burada "el koymak", bir işi yetkisiyle üzerine alıp düzene sokmak anlamındadır. Verilen anlam bu sözün başka bir anlamıdır ("Öğretmen topa el koydu." cümlesindeki gibi); metindeki kullanıma uymuyor.
+Adım 4: IV: Oylamadan sonra bardaklar tepsiyle sergileniyor; tepsiyi isteyenlerin görüşü üstün gelmiş. Verilen anlam uyuyor.
+Sık yapılan hata: Bir sözün bildiğin ilk anlamını görünce metne dönmeden kabul etmek. "Duruma el koymak" ile "bir eşyaya el koymak" aynı şey değildir.
 Cevap C.`
 },
 {
@@ -568,29 +524,18 @@ Cevap C.`
   kazanim: "T.8.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `I. Metin: Halı dokuyan Hatice Hanım, bir halıyı bitirmek için aylarca tezgâhın başından kalkmaz. Desenin bir yerinde yanlış bir ilmek görürse o sırayı söküp yeniden dokur. "Aceleye getirilen halının deseni kayar." der. Yıl sonunda tamamladığı halıyı görenler, renklerin uyumuna hayran kalır.
-II. Metin: Dedem, bahçeye bir ceviz fidanı dikmişti. Yıllar geçti, ağaç büyüdü ama tek bir ceviz vermedi. Komşular kendi bahçelerindeki yavaş büyüyen ağaçları kesip yerlerine hızlı meyve veren fidanlar dikince dedeme de aynısını önerdiler. Dedem onları dinlemedi, beklemeyi seçti. Yedinci yılın sonbaharında ağacın dalları cevizle doldu.
-**Bu iki metinde ortak olarak vurgulanan düşünceyi en iyi karşılayan atasözü aşağıdakilerden hangisidir?**`,
+  soru: `Ekin'in yaz tatilinde tek başına yazdığı bulmaca oyunu, uygulama mağazasında iki ayda elli bin kez indirildi. Okul açıldığında çevresi hiç boş kalmadı: İlkokuldan beri aynı sırayı paylaştığı arkadaşları teneffüslerde yanından ayrılmıyor, oyunun yeni bölümlerinde adlarının geçmesini istiyordu. Kasımda yayımladığı güncelleme, oyuncuların kayıtlı bölümlerini sildi. Yorumlar bir gecede öfkeli şikâyetlerle doldu, oyun mağazadan kaldırıldı. Sınıftan birkaç kişi, şikâyetlerin ekran görüntülerini alaylı notlarla birbirine gönderdi. Ertesi hafta Ekin'in masasına uğrayan olmadı; eski sıra arkadaşlarından biri koridorda arkasından "Elli bin kişiyi küstüren programcı!" diye seslendi. O günlerde yanına yalnızca Nehir geldi. Nehir okula bu dönem başlamıştı, Ekin'le o güne kadar iki üç kez konuşmuştu. "Yedek almadan güncelleme yayımlaman büyük hataydı." dedi, sonra çantasından bilgisayarını çıkardı. Karşılığında bir şey istemedi. Üç hafta boyunca her gün okuldan sonra birlikte çalıştılar; hatayı Nehir'in yazdığı deneme programı buldu. Oyun ocakta mağazaya döndü. Yeni bölümün yapımcılar listesinde artık iki ad vardı.
+**Bu metnin bütününde anlatılanlara en uygun atasözü aşağıdakilerden hangisidir?**`,
   gorsel: null,
-  secenekler: [
-    "Sabrın sonu selamettir.",
-    "Ağaç yaşken eğilir.",
-    "Emek olmadan yemek olmaz.",
-    "Üzüm üzüme baka baka kararır."
-  ],
+  secenekler: ["Dost kara günde belli olur.", "Düşenin dostu olmaz.", "Dost acı söyler.", "Her şeyin yenisi, dostun eskisi."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Metinde geçen sözcüğe takılma: II. metinde ağaç geçer ama bu atasözü eğitimin küçük yaşta verilmesi gerektiğini anlatır.",
-    "Yalnızca bir metne uyan atasözü: I. metindeki emeğe uyar ama II. metinde vurgulanan çalışmak değil, beklemektir.",
-    "Ters yön: bu atasözü insanın çevresinden etkilenmesini anlatır; dede ise komşularından etkilenmemiş, onlara uymamıştır."
-  ],
-  aciklama: `İki metinli sorularda cevap, iki metne birden uymalıdır. Yalnızca birine uyan şık çeldiricidir.
-Adım 1: I. metnin özü: Hatice Hanım aceleye getirmeden, aylarca sabırla çalışır ve güzel bir sonuç alır.
-Adım 2: II. metnin özü: Dede, çevresindekiler önerse de ağacı kesmez, yıllarca bekler ve sonunda ürün alır.
-Adım 3: Ortak düşünce: Sabırla beklemek iyi bir sonuca götürür. "Sabrın sonu selamettir" bunu söyler: Sabreden, sonunda iyi bir sonuca ulaşır.
-Adım 4: "Emek olmadan yemek olmaz" I. metne uyar ama II. metinde dede çalışmıyor, bekliyor. "Ağaç yaşken eğilir" yalnızca sözcük benzerliği taşır. "Üzüm üzüme baka baka kararır" ise II. metne ters düşer.
-Sık yapılan hata: Birinci metni okuyup uyan ilk atasözünü seçmek. Her şıkkı iki metinle ayrı ayrı sına.
+  hatalar: [null, "Kısmen uyan söz: Bu atasözü, durumu bozulan kişiden çevresindekilerin uzaklaştığını anlatır. Metnin ortasına uyar; ama Ekin'in en zor günlerinde Nehir yanına gelmiştir, metnin sonu bu sözle çelişir.", "Metinde var ama asıl düşünce değil: Nehir'in hatayı açıkça söylemesi bu söze uyar. Ancak bu tek bir cümledir; metnin bütünü, zor günde kimin yanında kaldığını anlatır.", "Ters yön: Bu atasözü eski dostun daha değerli olduğunu söyler. Metinde ise eski arkadaşlar uzaklaşmış, yardıma okula yeni gelen Nehir koşmuştur."],
+  aciklama: `Atasözü, deneyimlerden çıkmış bir yargıyı ya da öğüdü bildiren kalıplaşmış sözdür. Metne uygun atasözünü bulmak için önce metnin bütününü bir cümleyle özetler, sonra her atasözünün anlamını bu cümleyle karşılaştırırsın.
+Adım 1: Metni özetle. Ekin başarılıyken çevresi kalabalıktı; işi bozulunca eski arkadaşları uzaklaştı, yanında ona yardım eden Nehir kaldı.
+Adım 2: A: "Dost kara günde belli olur." Gerçek dost, insanın zor gününde yanında olandır. Özetle örtüşüyor.
+Adım 3: B: "Düşenin dostu olmaz." Durumu bozulanın çevresi dağılır. Metnin ortasına uyuyor ama Nehir'in gelişiyle çelişiyor; metnin bütününü karşılamıyor.
+Adım 4: C: "Dost acı söyler." Nehir'in "Büyük hataydı." demesine uyar; ama bu tek bir cümledir. D: "Her şeyin yenisi, dostun eskisi." Eski dostun değerini anlatır; metinde ise eski arkadaşlar uzaklaşmış, yeni gelen Nehir yardım etmiştir.
+Sık yapılan hata: Metnin bir bölümüne uyan atasözünü görünce durmak. Atasözünü metnin başıyla, ortasıyla ve sonuyla ayrı ayrı sına.
 Cevap A.`
 },
 {
@@ -598,27 +543,22 @@ Cevap A.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrencinin günlüğünden alınan cümleler aşağıda numaralandırılmıştır:
-(I) Matematik sınavındaki düşük notların __kökünde__ dikkatsizlik yatıyordu.
-(II) Öğretmenimiz, deney sonuçlarını bir de izleyicinin __açısından__ değerlendirmemizi istedi.
-(III) Kulüp başkanımız, dağılan tartışmanın __odağını__ yeniden projeye çekti.
-(IV) Güneş ışığı, yağmur damlalarından geçerken __kırılarak__ renklerine ayrılır.
-**Bu cümlelerin hangisinde altı çizili sözcük, bir bilim dalına özgü anlamıyla, yani terim olarak kullanılmıştır?**`,
+  soru: `Eylülün ilk hafta sonu, bağ bozumuna yardım etmek için teyzemin köyüne gittik. Güneş doğarken (I) __bağa__ vardığımızda sepetler çoktan asmaların dibine dizilmişti. Daha ilk sırada ayakkabımın (II) __bağı__ çözüldü; eğilip düğümlerken en dolgun salkımı kuzenim kaptı. Öğleye doğru teyzem, komşunun getirdiği iki (III) __bağ__ maydanozun ipini çözdü, yapraklarını yıkayıp salataya doğradı; hepimizi ceviz ağacının gölgesine çağırdı. Sofrada, dedemin bu asmaları kırk yıl önce nasıl diktiğini anlattı. Dinlerken şunu düşündüm: Yılda ancak bir iki kez gelsem de bu köyle aramdaki (IV) __bağ__ hiç kopmamıştı. Akşamüstü son sepeti de römorka yükledik. Teyzem, (V) __bağın__ en yaşlı asmasından kestiği salkımı elime tutuşturdu.
+Bu metni okuyan üç öğrenci, numaralanmış sözcüklerle ilgili şunları söylemiştir:
+Defne: I ile II aynı sözcüğün birbiriyle ilgili iki anlamıdır; sözcük ikisinde de gerçek anlamdadır.
+Kerem: II ile III eş sesli değildir; aynı sözcüğün aralarında ilgi bulunan iki anlamıdır.
+İpek: Sözcük I ile V'te aynı anlamdadır; IV'te ise mecaz anlamda kullanılmıştır.
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["Yalnız Kerem", "Yalnız İpek", "Defne ve İpek", "Kerem ve İpek"],
   dogru: 3,
-  hatalar: [
-    "Bağlama aldanma: cümle matematik sınavından söz etse de 'kök' burada 'asıl neden' anlamında mecazdır; matematikteki kök anlamı yoktur.",
-    "Bağlama aldanma: cümle deneyden söz etse de 'açı' burada 'bakış açısı' anlamında mecazdır; geometrideki açı anlamı yoktur.",
-    "Terim olarak bilinen sözcüğü her yerde terim sanma: 'odak' fizikte bir terimdir ama burada 'ilgi merkezi' anlamında mecaz olarak kullanılmıştır.",
-    null
-  ],
-  aciklama: `Bir sözcüğün terim olarak bilinmesi, her cümlede terim anlamında kullanıldığını göstermez. Terim anlamı, sözcüğün cümlede o bilim dalına özgü anlamı taşımasıyla ortaya çıkar.
-Adım 1: I. cümlede "kök", sorunun asıl nedeni anlamındadır. Cümlede matematik geçmesi seni yanıltmasın; sayının kökü değil, sorunun kaynağı anlatılıyor. Mecaz.
-Adım 2: II. cümlede "açı", "bakış açısı, görüş" anlamındadır; ölçülen bir açı yok. Mecaz.
-Adım 3: III. cümlede "odak", tartışmanın ilgi merkezi anlamındadır. Fizikteki merceğin odağıyla ilgisi yok. Mecaz.
-Adım 4: IV. cümlede "kırılmak", ışığın bir ortamdan ötekine geçerken doğrultu değiştirmesidir. Bu, fizik biliminin özel anlamıdır: terim.
-Sağlama: Cümleyi o bilim dalının dersinde, aynı anlamla kullanabilir misin? "Işık damladan geçerken kırılır." bir fen dersi cümlesidir; öteki üçü değildir.
+  hatalar: ["Yarım bırakma: Kerem haklıdır ama İpek'in söylediği de doğrudur. I ile V'te üzüm bahçesi anlatılır; IV'teki 'bağ' ise elle tutulmayan bir ilgiyi anlatır, mecazdır.", "Çok anlamlılığı eş seslilik sanma: İpek haklıdır ama Kerem de doğru söyler. Ayakkabı bağı bir iptir; 'bir bağ maydanoz' iple bağlanmış demettir. İki anlam arasında bağlama düşüncesi ortaktır.", "Eş sesliliği çok anlamlılık sanma: İpek haklıdır, Defne yanılır. Üzüm bahçesi olan bağ ile ip olan bağ arasında anlam ilgisi kurulamaz; bunlar eş sesli iki ayrı sözcüktür.", null],
+  aciklama: `Çok anlamlı sözcükte anlamlar arasında bir bağ kurulabilir; eş sesli sözcüklerde ise yazılış aynıdır ama anlamlar arasında bağ yoktur. Mecaz anlam, sözcüğün gerçek anlamından uzaklaşarak kazandığı anlamdır.
+Adım 1: Beş kullanımın anlamını yaz. I ve V: üzüm bahçesi. II: ayakkabıyı bağlayan ip. III: bağlanmış demet. IV: kişiyi bir yere bağlayan ilgi, yakınlık.
+Adım 2: Defne'yi sına. Üzüm bahçesi ile ip arasında bir köprü kurabiliyor musun? Kuramazsın. Bunlar aynı sözcüğün iki anlamı değil, eş sesli iki ayrı sözcüktür. İkisinin de gerçek anlamda olması yargıyı kurtarmaz. Defne yanılıyor.
+Adım 3: Kerem'i sına. İp ile demet arasında köprü var: Demet, iple bağlanarak bir araya getirilmiş şeydir; teyzenin maydanozun ipini çözmesi de bunu gösteriyor. Bunlar aynı sözcüğün ilgili iki anlamıdır. Sözlükte de demet anlamı ip anlamıyla aynı maddede, üzüm bahçesi ise ayrı bir madde olarak verilir. Kerem haklı.
+Adım 4: İpek'i sına. I ile V'te anlam aynı. IV'teki "bağ" elle tutulan bir ip değil, bir ilgidir; sözcük mecazdır. İpek haklı.
+Sık yapılan hata: Yazılışı aynı olan her sözcük çiftine aynı etiketi yapıştırmak. Her çift için "Aralarında köprü var mı?" sorusunu yeniden sor.
 Cevap D.`
 },
 {
@@ -626,23 +566,19 @@ Cevap D.`
   kazanim: "T.8.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulumuzun geri dönüşüm kampanyası ilk hafta pek ilgi görmedi. Kampanya sorumlusu Elif, kampanyanın neden ilgi görmediğini (I) __ince eleyip sık dokudu__ ve yeni bir fikir geliştirdi: En çok atık toplayan sınıf, okul bahçesine kendi fidanını dikecekti. Bu haber okulda kısa sürede (II) __ağızdan ağıza dolaştı__; ertesi sabah koridordaki kutular dolmaya başladı. İkinci haftanın sonunda toplanan atık, ilk haftanın dört katına çıkınca Elif'in (III) __gözünden uyku aktı__. Yıl sonundaki törende okul müdürümüz, Elif'in çabasını herkesin önünde (IV) __göklere çıkardı__.
-**Bu metinde numaralanmış deyimlerden hangisi bağlama __uygun kullanılmamıştır__?**`,
+  soru: `I. Metin: Konserden sonra davulcumuz Onur, şarkının ortasında temponun bozulmasından beni sorumlu tutup sahne arkasında bağırmaya başladı. Konserin kaydı telefonumdaydı; hatanın bende olmadığını oracıkta gösterebilirdim. Grubun öteki üyeleri bana bakıyor, bir şey söylememi bekliyordu. Yine de ağzımı açmadım, gitarımı kılıfına koyup çıktım. Akşam kaydı kendisi dinlemiş. Ertesi gün provaya herkesten önce geldi, özür diledi. O akşam karşılık verseydim belki bugün aynı grupta çalmıyorduk. "__Söz gümüşse sükût altındır.__" derler; bunun ne demek olduğunu o gün öğrendim.
+II. Metin: "__Söz gümüşse sükût altındır.__" Bu sözü, öfkeyle söylenip sonradan geri alınamayan cümleler için doğru bulurum. Ne var ki susmanın altın sayılamayacağı zamanlar da vardır. Otobüste yaşlı bir yolcuya kaba davranılırken başını öbür yana çevirenler, kantin sırasında yeri kapılan küçük bir çocuğu görüp sesini çıkarmayanlar altın değerinde bir iş mi yapmış olur? Böyle anlarda susmak, haksızlığa ortak olmaktır. Söylenmesi gerekeni yerinde ve ölçüyle söyleyen kişinin sözü, o sessizlikten çok daha değerlidir.
+**Bu iki metinde altı çizili atasözünün kullanılışıyla ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["I. metinde bir olayın dersini özetlemek, II. metinde savunulan görüşü kanıtlamak için kullanılmıştır.", "I. metinde bir olayla doğrulanmış, II. metinde ise doğru bir yanının bulunmadığı savunulmuştur.", "I. metinde bir olayla doğrulanmış, II. metinde ise geçerli olmadığı durumlar gösterilmiştir.", "I. metinde karşı çıkılan bir görüşü tanıtmak, II. metinde anlatılanları özetlemek için kullanılmıştır."],
   dogru: 2,
-  hatalar: [
-    "Doğru kullanımı yanlış sanma: 'ince eleyip sık dokumak' bir konuyu en küçük ayrıntısına kadar incelemektir; Elif'in sorunun nedenini araştırmasına uyar.",
-    "Doğru kullanımı yanlış sanma: 'ağızdan ağıza dolaşmak' bir haberin kişiden kişiye yayılmasıdır; haberin okulda yayılmasına uyar.",
-    null,
-    "Doğru kullanımı yanlış sanma: 'göklere çıkarmak' birini çok övmektir; müdürün törende Elif'i övmesine uyar."
-  ],
-  aciklama: `Deyimin bağlama uygun olup olmadığını anlamak için deyimin anlamını, metnin o noktada anlatmak istediği durumla karşılaştırırsın.
-Adım 1: I: Elif ilgisizliğin nedenini araştırıyor; "ince eleyip sık dokumak" (en küçük ayrıntısına kadar incelemek) uygundur.
-Adım 2: II: Haber hızla yayılıyor ve kutular doluyor; "ağızdan ağıza dolaşmak" uygundur.
-Adım 3: III: Toplanan atık dört katına çıkıyor; Elif'in bu noktada sevinmesi beklenir. "Gözünden uyku akmak" ise "çok uykusu gelmek" demektir; sevinçle ilgisi yoktur. Uygun değildir. Buraya "ağzı kulaklarına varmak" gibi bir deyim gelmeliydi.
-Adım 4: IV: Müdür, Elif'in çabasını övüyor; "göklere çıkarmak" (çok övmek) uygundur.
-Sık yapılan hata: Deyimin göz, ağız gibi sözcüklerinden yola çıkarak anlam uydurmak. Deyimin sözlükteki anlamını bil ve metindeki duruma koy.
+  hatalar: ["Kısmen doğru: I. metin için söylenen doğrudur. II. metinde ise yazarın savunduğu görüş atasözünün kendisi değildir; yazar, susmanın değerli olmadığı durumları anlatır.", "Aşırıya götürme: İlk yarı doğrudur. Ancak II. metnin yazarı atasözünü öfkeyle söylenen sözler için doğru bulduğunu belirtir; sözü tümüyle reddetmez, sınırını gösterir.", null, "Ters yön: I. metnin anlatıcısı atasözüne karşı çıkmaz, yaşadığı olayla onu doğrular. II. metinde de atasözü bir özet değil, tartışmanın çıkış noktasıdır."],
+  aciklama: `Bir atasözünün metne katkısını bulmak için yazarın o söze katılıp katılmadığına bakarsın: Yazar sözü bir olayla destekleyebilir, tümüyle karşı çıkabilir ya da bir bölümüne katılıp sınırını gösterebilir.
+Adım 1: Atasözünün anlamı: Konuşmak değerlidir ama yerinde susmak daha değerlidir.
+Adım 2: I. metin. Anlatıcı haklı olduğu hâlde susuyor, tartışma büyümüyor, arkadaşı özür diliyor. "Bunun ne demek olduğunu o gün öğrendim." cümlesi, olayın atasözünü doğruladığını gösteriyor.
+Adım 3: II. metin. Yazar önce bu sözü öfkeyle söylenen cümleler için doğru bulduğunu söylüyor; yani sözü tümüyle reddetmiyor. Sonra "Ne var ki" diyerek susmanın yanlış olduğu durumları sıralıyor: haksızlık karşısında sessiz kalmak.
+Adım 4: Şıkları karşılaştır. B ile C'nin ilk yarısı aynı ve doğru. Fark ikinci yarıda: Yazar atasözünün doğru bir yanı bulunmadığını söylemiyor, geçerli olmadığı durumları gösteriyor. A'da II. metin yanlış anlatılmış: Yazarın savunduğu görüş atasözünün kendisi değil. D ise iki metnin tutumunu ters çevirmiş.
+Sık yapılan hata: "Ne var ki, ama" gibi bir sözü görünce yazarın atasözünü bütünüyle reddettiğini sanmak. Bu sözlerden önceki cümleyi de oku.
 Cevap C.`
 },
 {
@@ -650,23 +586,18 @@ Cevap C.`
   kazanim: "T.8.3.5",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, "çekirdek" sözcüğünün geçtiği cümleleri, sözcüğün gerçek, mecaz ya da terim anlamında kullanılmasına göre aşağıdaki tabloda işaretlemiştir.
-**Tabloda hangi cümle için yapılan işaretleme __yanlıştır__?**`,
-  gorsel: `<table class="tablo"><tr><th>No</th><th>Cümle</th><th>Gerçek</th><th>Mecaz</th><th>Terim</th></tr><tr><td>I</td><td>Büyük şehirlerde çekirdek aileler giderek çoğalıyor.</td><td></td><td>✓</td><td></td></tr><tr><td>II</td><td>Karpuzun çekirdeklerini ayıklayıp güneşte kuruttuk.</td><td>✓</td><td></td><td></td></tr><tr><td>III</td><td>Atomun çekirdeğinde proton ve nötronlar bulunur.</td><td></td><td></td><td>✓</td></tr><tr><td>IV</td><td>Bu projenin çekirdeğini üç gönüllü öğrenci oluşturdu.</td><td></td><td>✓</td><td></td></tr></table>`,
-  secenekler: ["I", "II", "III", "IV"],
+  soru: `Dağ rehberi Yaman'la ilk kez yürüyenler, onun fazla evhamlı olduğunu düşünür. Yaman yürüyüşten önce hava raporuna üç ayrı kaynaktan bakar, gruptaki herkesin ayakkabısını tek tek yoklar, çantasında gerekmese de yedek ip ve fazladan bir matara taşır, sis bastırdığında zirveye yüz metre kala bile grubu geri çevirir. Oysa aynı adam çadırını gelişigüzel katlar, yemek kabını çoğu zaman yıkamadan çantasına atar. Geçen kış tipide yolunu kaybeden iki kayakçıyı aramaya da gece yarısı ilk o çıkmıştı. Yaman tehlikeden kaçmaz ama tehlikeyi hafife de almaz, başa gelebilecekleri önceden hesaplar; kısacası (I) - - - - biridir. İkinci özelliği yolda belli olur. Sabah belirlediği rotadan, gruptakiler yorulup söylense de kestirme bir yol önerse de ayrılmaz. "Şuradan insek olmaz mı?" diyenlere kısaca "Olmaz." der, yürümeyi sürdürür; bu yüzden her gezide ona içerleyen birkaç kişi çıkar. Ama geçen yaz, ilerideki köprüyü selin götürdüğünü öğrenince planını on dakikada değiştirmiş, grubu başka bir vadiden indirmişti. Demek ki onu yolundan mızmızlanmalar değil, sağlam bir gerekçe döndürebilir. Bu da Yaman'ın (II) - - - - olduğunu gösterir.
+**Bu metinde boş bırakılan yerlere düşüncenin akışına göre sırasıyla aşağıdakilerden hangisi getirilmelidir?**`,
+  gorsel: null,
+  secenekler: ["tedbirli – kararlı", "tedbirli – dik başlı", "titiz – dik başlı", "titiz – kararlı"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Doğru işaretlemeyi yanlış sanma: karpuzun çekirdeği, sözcüğün ilk ve temel anlamıdır; 'gerçek' işareti doğrudur.",
-    "Doğru işaretlemeyi yanlış sanma: atomun çekirdeği fen bilimlerine özgü bir anlamdır; 'terim' işareti doğrudur.",
-    "Doğru işaretlemeyi yanlış sanma: projenin çekirdeği 'işin temelini oluşturan küçük grup' anlamında mecazdır; işaretleme doğrudur."
-  ],
-  aciklama: `Bir sözcük farklı cümlelerde gerçek, mecaz ya da terim anlamı taşıyabilir. Terim, sözcüğün bir bilim dalında kazandığı özel anlamdır; bu bilim dalı fen olabileceği gibi toplum bilimi gibi bir sosyal bilim de olabilir.
-Adım 1: II: Karpuzun çekirdeği, meyvenin içindeki tohumdur; sözcüğün temel anlamı. Gerçek. İşaretleme doğru.
-Adım 2: III: Atomun çekirdeği, fen bilimlerinde atomun merkezindeki bölümdür. Terim. İşaretleme doğru.
-Adım 3: IV: Projenin çekirdeği, işi başlatan temel grup demektir; tohum anlamından uzaklaşmıştır. Mecaz. İşaretleme doğru.
-Adım 4: I: "Çekirdek aile", toplum biliminde anne, baba ve evlenmemiş çocuklardan oluşan aileyi anlatan bir kavramdır. Bu, terim anlamdır. Öğrenci onu mecaz olarak işaretlemiş; işaretleme yanlış.
-Sık yapılan hata: Terimleri yalnızca fen ve matematikte aramak. Sosyal bilgiler dersinde öğrendiğin "çekirdek aile", "göç", "kültür" gibi kavramlar da terimdir.
+  hatalar: [null, "Kısmen doğru: İlk sözcük yerindedir. Dik başlı kişi ise inatçıdır, haklı bir neden gösterilse de bildiğinden dönmez; Yaman köprünün yıkıldığını öğrenince planını on dakikada değiştirmiştir.", "Ayrıntıların yarısına bakma: 'Titiz', ayakkabıları tek tek yoklamasına uyar ama çadırını gelişigüzel katlamasıyla, kabını yıkamamasıyla çelişir. 'Dik başlı' da sağlam bir gerekçe görünce planını değiştirmesiyle çelişir.", "Yakın anlamı eş anlam sanma: İkinci sözcük yerindedir. 'Titiz' ise her işini özenle yapan kişidir; Yaman çadırını gelişigüzel katlar, kabını yıkamaz. Özeni yalnızca tehlikeyle ilgili işlerdedir."],
+  aciklama: `Anlamca birbirine yakın sözcükler birbirinin yerini her zaman tutmaz. Boşluğa gelecek sözcüğü seçerken o niteliği anlatan bütün ayrıntıları birlikte düşünürsün.
+Adım 1: I. boşluk için ayrıntıları topla. Yaman hava raporuna üç kaynaktan bakıyor, yedek ip taşıyor, siste geri dönüyor. Cümle bunu özetliyor: Tehlikeyi hafife almaz, başa gelebilecekleri önceden hesaplar.
+Adım 2: Sözcükleri sına. "Titiz", her işini özenle yapan kişidir. Ayakkabıları tek tek yoklaması buna uyar gibi görünür; ama aynı adam çadırını gelişigüzel katlıyor, kabını yıkamadan çantasına atıyor. Özeni her işte değil, tehlikeyle ilgili işlerde gösteriyor. Tehlikeye karşı önlemini önceden alan kişi "tedbirli"dir.
+Adım 3: II. boşluk için ayrıntıları topla. Yaman söylenmelere, kestirme önerilerine rağmen rotasını değiştirmiyor; ama köprü yıkılınca planını on dakikada değiştiriyor.
+Adım 4: Sözcükleri sına. Dik başlı kişi inatçıdır; haklı bir neden gösterilse de bildiğinden dönmez. Yaman ise sağlam gerekçeyle dönüyor. Verdiği kararı boş yere değiştirmeyen kişi "kararlı"dır.
+Sık yapılan hata: Ayrıntıların ilk yarısına bakıp sözcük seçmek. "Ama, oysa" ile başlayan cümleler aradığın sözcüğü değiştirir.
 Cevap A.`
 },
 {
@@ -674,28 +605,18 @@ Cevap A.`
   kazanim: "T.8.3.6",
   kademe: 3,
   zorluk: 4,
-  soru: `Mahalle kütüphanemizin girişinde, kütüphaneyi kuran öğretmenin kendi sözünü yazdırdığı bir tabela durur: (I) __"Kitap, kapısını çalana hiç kapanmayan bir evdir."__ Geçen ay kütüphanenin kira sözleşmesi bitince kapanma tehlikesi doğdu. İlk toplantıda bazı komşular "Artık kimse kitap okumuyor." diyerek bu habere (II) __kulak asmadı__. Emekli bir terzi olan Nazan Hanım ise söz alıp (III) __"Komşu komşunun külüne muhtaçtır."__ dedi ve herkesi yardıma çağırdı. Bir hafta içinde mahalleli (IV) __el ele verdi__; kermes düzenlendi, bağışlar toplandı ve kütüphane bir yıl daha açık kaldı.
-**Bu metindeki numaralanmış sözlerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
+  soru: `Yaz tatilinde, ilçemizin yakınındaki höyükte yürütülen kazının gençlik programına kabul edildim. Aylardır beklediğim ilk sabah servisten iner inmez (I) __elim ayağıma dolaştı__: Şapkamı ters taktım, eldivenlerimi serviste unuttum, kazı başkanına adımı iki kez yanlış söyledim. Toprağın altından hemen sikkeler, heykeller çıkacağını sanıyordum. Oysa koca ekip günde ancak bir karış derine iniyor, işi (II) __ağırdan alıyordu__. "Bu hızla yaz biter." diye söylendiğimi duyan başkan nedenini anlattı: Toprağın her katmanı ayrı bir dönemden kalmaydı; hızlı kazılırsa hangi parçanın hangi dönemden kaldığı bir daha öğrenilemezdi. Gerçekten de arkeologlar gün doğarken açmaya iniyor, öğle sıcağında bile fırçalarını bırakmıyor, çıkan her parçanın yerini deftere çiziyordu. Bana düşen iş, kazılan toprağı elekten geçirmekti. Sekiz gün boyunca eleğin dibinde çakıldan başka bir şey kalmadı. Dokuzuncu gün çakılların arasında tırnak büyüklüğünde, mavi bir cam boncuk parlıyordu; (III) __gözlerime inanamadım__. Akşam toplantısında başkan boncuğu herkese gösterdi, bulan kişi olarak adımı kazı defterine yazdı. Deftere bakarken (IV) __gözlerim doldu__. Sikke de heykel de bulamamıştım ama o akşam eve dönen en mutlu kişi bendim.
+**Bu metindeki numaralanmış deyimlerin metne kattığı anlamla ilgili aşağıdakilerden hangisi __söylenemez__?**`,
   gorsel: null,
-  secenekler: [
-    "I. söz, belli bir kişiye ait olan bir özdeyiştir.",
-    "II. söz, habere büyük ilgi gösterildiğini anlatan bir deyimdir.",
-    "III. söz, yardımlaşmanın gereğini vurgulayan bir atasözüdür.",
-    "IV. söz, mahallelinin birlikte çalıştığını anlatan bir deyimdir."
-  ],
+  secenekler: ["I. deyim, anlatıcının heyecandan ne yapacağını şaşırdığını anlatır.", "II. deyim, ekibin isteksiz olduğu için yavaş çalıştığını anlatır.", "III. deyim, anlatıcının beklemediği şeye çok şaşırdığını anlatır.", "IV. deyim, anlatıcının sevinçten gözlerinin yaşardığını anlatır."],
   dogru: 1,
-  hatalar: [
-    "Doğru yargıyı yanlış sanma: metin, bu sözün kütüphaneyi kuran öğretmenin kendi sözü olduğunu belirtir; söyleyeni belli olan, düşündürücü söz özdeyiştir.",
-    null,
-    "Doğru yargıyı yanlış sanma: bu söz halka mal olmuş, söyleyeni bilinmeyen bir atasözüdür ve komşuların birbirine her zaman ihtiyaç duyduğunu anlatır.",
-    "Doğru yargıyı yanlış sanma: 'el ele vermek' birlikte çalışmak, yardımlaşmaktır; kermes ve bağış bunu doğrular."
-  ],
-  aciklama: `Deyim, atasözü ve özdeyişi birbirinden ayırt et: Deyim bir durumu anlatan kalıp söz grubudur, çoğunlukla bir yargı bildirmez. Atasözü, söyleyeni bilinmeyen, öğüt veren kalıplaşmış sözdür. Özdeyiş ise söyleyeni belli olan, düşündürücü sözdür.
-Adım 1: I: Metin, bu sözün kütüphaneyi kuran öğretmenin kendi sözü olduğunu söylüyor. Söyleyeni belli ve bir düşünce bildiriyor: özdeyiş. A doğru.
-Adım 2: II: "Kulak asmamak", bir sözü önemsememek, dikkate almamak demektir. Komşular kapanma haberini önemsemedi. B ise bu sözün habere büyük ilgi gösterildiğini anlattığını söylüyor; bu, metindeki anlamın tam tersidir. Söylenemez.
-Adım 3: III: Söyleyeni bilinmeyen, halka mal olmuş bir sözdür; komşuların birbirine muhtaç olduğunu, yardımlaşmanın gerekli olduğunu vurgular. C doğru.
-Adım 4: IV: "El ele vermek", birlikte çalışmaktır. Kermes ve bağış toplama bunu gösteriyor. D doğru.
-Sık yapılan hata: Olumsuz deyimdeki "-ma" ekini gözden kaçırmak. "Kulak asmak" ile "kulak asmamak" ters anlamlıdır.
+  hatalar: ["Doğru yargıyı yanlış sanma: 'Eli ayağına dolaşmak', telaştan ya da heyecandan ne yapacağını şaşırmaktır. Aylardır beklenen ilk sabah şapkanın ters takılması, adın yanlış söylenmesi bunu gösterir; yargı doğrudur.", null, "Doğru yargıyı yanlış sanma: 'Gözlerine inanamamak', gördüğü şeye çok şaşırmaktır. Sekiz gün çakıldan başka şey kalmayan elekte boncuk görmek beklenmedik bir şeydir; yargı doğrudur.", "Duyguyu yanlış belirleme: 'Gözleri dolmak' her zaman üzüntüyü anlatmaz; ağlayacak kadar duygulanmaktır. Son cümledeki 'en mutlu kişi bendim' sözü duygunun sevinç olduğunu gösterir; yargı doğrudur."],
+  aciklama: `Deyimler çoğu zaman bir duyguyu ya da davranışı anlatır; ama o duygunun, o davranışın nedenini metin belirler. Bir deyimin metne ne kattığını bulmak için çevresindeki cümlelere bakarsın.
+Adım 1: I: "Eli ayağına dolaşmak", telaştan ya da heyecandan ne yapacağını şaşırmaktır. Anlatıcı aylardır beklediği sabah şapkasını ters takıyor, adını yanlış söylüyor. Yargı doğru.
+Adım 2: II: "Ağırdan almak", bir işte acele etmemek demektir; isteksiz davranan kişi için de kullanılır. Burada hangisi? Metne bak: Arkeologlar gün doğarken işe başlıyor, öğle sıcağında bile fırçayı bırakmıyor. İsteksiz değiller; katmanlar karışmasın diye bilerek yavaş kazıyorlar. Yargı, yavaşlığın nedenini yanlış veriyor.
+Adım 3: III: "Gözlerine inanamamak", gördüğü şeye çok şaşırmaktır. Sekiz gün çakıldan başka şey görmeyen anlatıcı boncuğu beklemiyordu. Yargı doğru.
+Adım 4: IV: "Gözleri dolmak", ağlayacak kadar duygulanmaktır. Son cümle duygunun adını koyuyor: "en mutlu kişi bendim". Yargı doğru.
+Sık yapılan hata: Anlatıcının "Bu hızla yaz biter." diye söylenmesine bakıp ekibi isteksiz sanmak. Sabırsız olan anlatıcıdır; ekip özenli olduğu için yavaş çalışır.
 Cevap B.`
 },
 /* ===================== HAVUZ (KADEME 0) ===================== */

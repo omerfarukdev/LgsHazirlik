@@ -63,16 +63,16 @@ tur-ss-312 | T.8.3.7 | z3 | k3 | Aşağıdaki cümlelerin hangisinde kişileşti
 tur-ss-313 | T.8.3.7 | z3 | k3 | Türkçe öğretmeni tahtaya dört cümle yazdı. Sınıfa, bu cümlelerden yalnızca birinde benzetmenin "gibi, kadar, sanki" gibi bir edat… | ✓Babaannemin sesi, bu evin en güvenli limanıd…
 tur-ss-314 | T.8.3.7 | z3 | k3 | Dede, bahçeye çıkıp "Bu yıl elmalar erken olgunlaştı." dedi. Ali ise yaşlı ağacın dalına dokunup "Çok güzel meyve verdin." diye f… | ✓Ağaç
 tur-ss-315 | T.8.3.7 | z3 | k3 | Edebiyat öğretmeni, dört öğrencisine karşıtlık içeren bir cümle yazmalarını istedi. Öğrencilerin yazdıklarından yalnızca birinde … | ✓Yıllarca uzaklarda aradığım huzuru, meğer en…
-tur-ss-316 | T.8.3.7 | z4 | k3 | Okulun ilk günü bir öğrenci defterine şunları yazmış: (I) Uzun yaz tatilinin ardından okula döndüğümüzde sınıf, kaynayan bir kaza… | ✓I ve II
-tur-ss-317 | T.8.3.7 | z4 | k3 | I. Köprü, gergin bir yay gibi nehrin üstüne gerildi, II. Dere, taşlara "Beni de yanınıza alın." diye seslendi, III. Gündüz sustu,… | ✓IV. dizede kişileştirme vardır.
-tur-ss-318 | T.8.3.7 | z4 | k3 | Annem gidince ev, bir kuyu kadar derin oldu, bekleyiş boyunca bir dakika bütün bir yıl sürdü. Bu dizelerde birlikte kullanılan sö… | ✓Benzetme ve abartma; evdeki boşluk ile bekle…
-tur-ss-319 | T.8.3.7 | z4 | k3 | Hafta sonu arkadaşlarımla göl kıyısında kamp kurduk. İlk gece çadırın kapısı rüzgârla sallanıp "Beni sıkı bağla." dedi, sabaha do… | ✓Konuşturma - benzetme - abartma
-tur-ss-320 | T.8.3.7 | z4 | k3 | I. Ay, dağın ardına utana utana saklandı. II. Gölün yüzü ayna gibi parlıyordu. III. Yaz sıcağı bütün denizi kaynatmaya yeterdi. I… | ✓II ve III
-tur-ss-321 | T.8.3.7 | z4 | k3 | Bir şair adayı, defterine aşağıdaki dizeleri yazmıştır. Tablodaki dizelerin hangisinde karşıtlık ve abartma birlikte kullanılmışt… | ✓III
-tur-ss-322 | T.8.3.7 | z4 | k3 | (I) Eski terazi, yorgun bir hamal gibi bir yana eğilmişti. (II) Çocuklar tezgâhın başına toplanınca terazi, "Bana çok yük bindirm… | ✓IV. cümlede karşıtlık vardır.
-tur-ss-323 | T.8.3.7 | z4 | k3 | Eski mahallemizdeki incir ağacı, her yaz bize gölgesini kardeşçe paylaştırırdı. Öğle vakti ağacın altı buz gibi serindi. Oyuna da… | ✓Yalnız II
-tur-ss-324 | T.8.3.7 | z4 | k3 | Kıyıdaki eski fener, geceleri gemilere göz kırpıp yol gösteriyordu. Bir fırtına gecesinde fener, denize "Ben buradayım, korkmayın… | ✓Fener hem kişileştirilmiş hem konuşturulmuşt…
-tur-ss-325 | T.8.3.7 | z4 | k3 | Bisiklet yarışının başlangıcında kimi sporcu ileri atılıyor, kimi geride kalıyordu. Kırmızı formalı sporcular, yola dökülmüş bir … | ✓Yalnız III
+tur-ss-316 | T.8.3.7 | z4 | k3 | Okullar arası atletizm şampiyonasında, sekiz sporcunun yarıştığı sekiz yüz metre finalinde koşan bir öğrenci, yarıştan sonra o gü… | ✓Defne ve Selin
+tur-ss-317 | T.8.3.7 | z4 | k3 | Sarkıtlar, mağara tavanından sızan suyun içinde çözünmüş kirecin damla damla birikmesiyle oluşur. Bu oluşum çok yavaş ilerler; bo… | ✓III. ve V. cümlelerde bir ölçü gerçeğin dışı…
+tur-ss-318 | T.8.3.7 | z4 | k3 | Kış tatilinde arkadaşım Ozan'la, yere çizilen siyah şeridi izleyen küçük bir robot yaptık. Parçaları bir öğleden sonrada birleşti… | ✓IV
+tur-ss-319 | T.8.3.7 | z4 | k3 | Okulumuzun doğa kulübü, ayda bir cumartesi günü belediyenin hayvan barınağında gönüllü çalışıyor. Geçen cumartesi sıra bizim grup… | ✓Kişileştirme III ve IV. cümlelerde; abartma …
+tur-ss-320 | T.8.3.7 | z4 | k3 | Türkçe öğretmeni derste şu açıklamayı yaptı: “Karşıtlık sanatında zıt kavramlar, anlatımı güçlendirmek için bir araya getirilir. … | ✓I, II ve V
+tur-ss-321 | T.8.3.7 | z4 | k3 | Ablası üniversite okumak için başka bir şehre giden Kerem, onun ardından “Ablam Gidince” adlı bir şiir yazmıştır. Şiirde ablasına… | ✓III
+tur-ss-322 | T.8.3.7 | z4 | k3 | I. Metin O cumartesi çömlek atölyesinde benden başka dört öğrenci daha vardı; hepimiz çamura ilk kez dokunuyorduk. Fırına girecek… | ✓Konuşturma
+tur-ss-323 | T.8.3.7 | z4 | k3 | Nuri Bey, otuz yıldır bir dağ kasabasının postacısıdır; kasabada onu tanımayan yoktur. Sabah yedide postaneden çıkar; önce çarşıy… | ✓Getirdiği zarfı açınca kimi güler, kimi ağla…
+tur-ss-324 | T.8.3.7 | z4 | k3 | Geçen yaz dayımın yanına gitmek için ilk kez uçağa bindim. Yolculuk yalnızca bir saat sürecekti, ama ben o bir saati haftalardır … | ✓II ve III
+tur-ss-325 | T.8.3.7 | z4 | k3 | Belediyenin her bahar düzenlediği uçurtma şenliği bu yıl sahildeki çayırda yapıldı. Şenliğe çevre ilçelerden de yüzlerce çocuk ka… | ✓I ve III
 tur-ss-001 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde kişileştirme vardır? | ✓Yıldızlar, bizi izleyip göz kırparak gülümse…
 tur-ss-002 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde benzetme vardır? | ✓Sınıfımız arı kovanı gibi gürültülüydü.
 tur-ss-003 | T.8.3.7 | z1 | k0 | Aşağıdaki cümlelerin hangisinde karşıtlık vardır? | ✓Gülerken ağlıyor, ağlarken gülüyordu.

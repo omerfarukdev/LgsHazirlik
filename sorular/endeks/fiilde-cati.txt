@@ -63,16 +63,16 @@ tur-fc-312 | T.8.4.20 | z3 | k3 | Mahalle kütüphanesini ziyaret eden bir öğr
 tur-fc-313 | T.8.4.20 | z3 | k3 | Bir sınıf öğretmeni, teneffüsten sonra sınıfa girdiğinde yerlerde kâğıt parçaları gördü. Kimseyi suçlamadan öğrencilere şunu söyl… | ✓Dikkati işi yapandan çıkarıp işin yapılmamış…
 tur-fc-314 | T.8.4.20 | z3 | k3 | Bir öğrenci, yaz tatilinde yaşadıklarını ve gördüklerini anlatan dört cümleyi sınıf panosuna astı. Cümlelerin üçü aynı çatıdadır.… | ✓I
 tur-fc-315 | T.8.4.20 | z3 | k3 | Komşuluk ilişkilerini anlatan bir yazıdan alınan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisinin yüklemi hem an… | ✓IV
-tur-fc-316 | T.8.4.20 | z4 | k3 | Okul kütüphanesinde görevli bir öğrenci, duyuru panosuna aynı olayı anlatan iki cümle yazdı: (1) Kütüphane müdürü yeni gelen roma… | ✓Eski özne düşmüş, nesne özneye dönüşmüş; "vi…
-tur-fc-317 | T.8.4.20 | z4 | k3 | Sınıf panosunun yenilenmesini anlatan şu cümleler yazılmıştır: (1) Sabah ilk derste sınıf panosu yenilendi. (2) Öğrenciler panoya… | ✓Yalnız III
-tur-fc-318 | T.8.4.20 | z4 | k3 | Yeni yenilenen bir mahalle parkını anlatan dört cümle aşağıda numaralandırılmıştır. Cümlelerin bir kısmında yüklem sondan önce ge… | ✓IV
-tur-fc-319 | T.8.4.20 | z4 | k3 | Bir sınıf öğretmeni, ödev takibi için yazdığı dört cümleyi ödev panosuna astı. Cümleler aşağıda numaralandırılmıştır. Bu cümleler… | ✓I
-tur-fc-320 | T.8.4.20 | z4 | k3 | Soğuk bir kış sabahını anlatan şu cümleler yazılmıştır: (1) Hava soğuyunca Deniz kendi kendine kalın giyindi. (2) Annesi sobanın … | ✓I ve II
-tur-fc-321 | T.8.4.20 | z4 | k3 | Bir ailenin ev işlerini anlatan dört cümle aşağıda numaralandırılmıştır. Bu cümlelerin hangisinde iş başkasına yaptırılmış, ayrıc… | ✓IV
-tur-fc-322 | T.8.4.20 | z4 | k3 | Aşağıdaki cümlelerde bazı söz öbekleri altı çizilmiştir. Altı çizili söz öbeklerinden hangisi, cümlenin şu anki öznesidir ve yükl… | ✓III
-tur-fc-323 | T.8.4.20 | z4 | k3 | Karlı bir sabahı anlatan şu cümleler yazılmıştır: (1) Gece boyunca yağan kar sabaha kadar durmadı. (2) Yollardaki kar küreklerle … | ✓Yalnız I
-tur-fc-324 | T.8.4.20 | z4 | k3 | Bir belediyenin internet sitesinde aynı olay iki farklı duyuruyla bildirilmiştir: Duyuru 1: Belediye ekipleri meydandaki ağaçları… | ✓İkinci duyuruda işi yapan belirsiz bırakılmı…
-tur-fc-325 | T.8.4.20 | z4 | k3 | Köy okulunun yenilenmesini anlatan metin altı cümleden oluşuyor. Cümleler numaralandırılmıştır. (1) Köy okulunun onarımı için ger… | ✓4
+tur-fc-316 | T.8.4.20 | z4 | k3 | Kaya tırmanışında kimse tek başına çıkmaz. Tırmanan kişinin beline bağlı ip, kayanın tepesindeki halkadan geçip yerde bekleyen ar… | ✓bağladım - tutundum - karşılaştık
+tur-fc-317 | T.8.4.20 | z4 | k3 | Uluslararası Uzay İstasyonu, yerden yaklaşık 400 kilometre yukarıda dolanır. İçeride her şey havada süzüldüğü için en sıradan işl… | ✓Defne ve Ela
+tur-fc-318 | T.8.4.20 | z4 | k3 | Kasabamızda her nisan ayında, rüzgârın en bol estiği tepede bir uçurtma şenliği yapılır. O gün tepeye çıkan toprak yol daha sabah… | ✓Özne işi kendisi yapar; iş bir nesneye yönel…
+tur-fc-319 | T.8.4.20 | z4 | k3 | Bir yerel gazetenin genç muhabiri, kent merkezindeki metro kazısında yaşananları yazıp editörüne göndermiştir. Haber ertesi gün b… | ✓Üç cümlede işi yapan özne olmaktan çıkmış; y…
+tur-fc-320 | T.8.4.20 | z4 | k3 | Leylekler kışı Afrika'da geçirir, baharda yuvalarına döner. Bizim köyde yuvalar, elektrik direklerinin tepesine yerleştirilmiş de… | ✓II. cümlede özne çoğuldur; yüklem, işin karş…
+tur-fc-321 | T.8.4.20 | z4 | k3 | Ebru, suyun üstünde yapılan bir resim sanatıdır. Tekneye konan su, geven bitkisinden elde edilen kitreyle koyulaştırılır; böylece… | ✓IV
+tur-fc-322 | T.8.4.20 | z4 | k3 | Ağustosun son haftasında anneannemin evinde tarhana telaşı başlar. Mutfak dar geldiği için bütün iş avluda görülür; komşular da g… | ✓II ve III
+tur-fc-323 | T.8.4.20 | z4 | k3 | Kerem, gençlik merkezinin düzenlediği radyo programı yarışmasına, mahallesindeki son saat tamircisini anlatan on dakikalık bir pr… | ✓Kerem sesini Okan Bey'e kaydettirmiş, metni …
+tur-fc-324 | T.8.4.20 | z4 | k3 | Ankara'dan Kars'a giden trene akşamüstü bindim; yolculuk bir günden uzun sürecekti. Kompartımanı üç kişi paylaşıyorduk, ilk saatl… | ✓I ve III
+tur-fc-325 | T.8.4.20 | z4 | k3 | Veteriner hekim Selin Hanım'ın kliniğine geçen hafta, bir inşaatın önünde bulunmuş sarı bir kedi getirildi. Onu getiren, yakındak… | ✓II ve III
 tur-fc-001 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinde işi yapan belli değildir? | ✓III
 tur-fc-002 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinde iş karşılıklı yapılmıştır? | ✓I
 tur-fc-003 | T.8.4.20 | z1 | k0 | Aşağıdaki cümlelerin hangisinde yüklem nesne almıştır? | ✓IV

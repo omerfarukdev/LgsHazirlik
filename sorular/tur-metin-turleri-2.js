@@ -397,28 +397,20 @@ Cevap D.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `1. metin: Dünkü yazımda okul kantinlerindeki fiyatları yazmıştım; bugün bir veli aradı: “Simit on beş lira olmuş.” Kantinci Hasan Usta'ya sordum, “Un zamlandı, ne yapayım,” dedi. Haklı olabilir, ama bir çocuğun harçlığı bir simidi bile çıkaramıyorsa bunun adı hayat pahalılığı değil, yetişkinlerin çocuğu unutmasıdır. Bu tabloya hepimiz alışıyoruz; alışmak da bir tür göz yummaktır.
-2. metin: Okul kantinlerinde satılan ürünlerin fiyatları, ürünün maliyeti kadar kantin kirasına ve işletme giderlerine de bağlıdır. Beş ilde yapılan bir incelemede, kirası düşük tutulan kantinlerde ürün fiyatlarının ortalama yüzde 18 daha ucuz olduğu görülmüştür. Bu veri, fiyat denetiminin yanında kira politikasının da belirleyici olduğunu göstermektedir. Dolayısıyla kantin düzenlemeleri, tek bir kalemle değil, maliyetin bütün bileşenleriyle birlikte ele alınmalıdır.
-**Bu iki metni türce birbirinden ayıran en belirgin fark aşağıdakilerden hangisidir?**`,
+  soru: `1. metin: Belediye geçen hafta bir karar aldı: Meydandaki alt geçitte çalgı çalmak isteyen, artık dinleti sınavına girip izin belgesi alacak. İlk sınav dün yapıldı; on yedi müzisyenden dokuzu belgesiz kaldı. Kazananlara yaka kartı, kazanamayanlara “başka bir meydan” tavsiyesi verilmiş. Bana kalırsa bir alt geçidin jürisi, adımını yavaşlatan yolcudur. Kulağımızı düşünenler, keşke önce her sabah o geçitte cızırdayan anons hoparlörünü sınava çekseydi! Belge yerine bir saat çizelgesi asılsa hem müzik susmaz hem esnaf rahat eder.
+2. metin: Alt geçitlerde çalan müzisyenlerin önünden hızla geçemem. Yirmi yıldır aynı geçidi kullanırım; kemancılar değişti, basamaklar aşındı, bendeki duraksama değişmedi. Kimi sabah bir türkünün yarısını merdivenin başında, öbür yarısını ertesi gün dinlerim. Sanırım insan, bilet almadan dinlediği ezgiye borçlu kalıyor. Bu borcun kutuya atılan üç beş bozuklukla ödendiğine hiç inanmadım; belki adımımızı biraz yavaşlatarak öderiz. Yerin altında, onca telaşın ortasında bir ezginin tutunabilmesi bana hep küçük bir mucize gibi görünmüştür.
+**Bu iki metinle ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
-  secenekler: [
-    "1. metin kurmaca kişilerle, 2. metin gerçek kişilerle kurulmuştur.",
-    "1. metin güncel bir olayı yorumlar, 2. metin bir düşünceyi veriyle temellendirir.",
-    "1. metin görüşünü veriyle kanıtlar, 2. metin güncel bir olayı yorumlar.",
-    "1. metin sohbet havasında, 2. metin hikâye anlatır gibi yazılmıştır."
-  ],
+  secenekler: ["1. metin de 2. metin de yazarın kişisel görüşünü içten bir dille anlattığı için deneme türünün birer örneğidir.", "1. metin güncel bir kararı eleştirdiği için fıkra, 2. metin gündemden bağımsız kişisel bir düşünüş olduğu için denemedir.", "1. metin benzetmeli ve içten bir dille yazıldığı için deneme, 2. metin gündelik bir yeri konu edinip anlattığı için fıkradır.", "1. metin görüşünü sayısal verilerle destekleyip kanıtladığı için makale, 2. metin kanıt arama kaygısı taşımadığı için denemedir."],
   dogru: 1,
-  hatalar: [
-    "Gerçeği kurmacayla karıştırma: iki metinde de kurmaca kişi ya da olay örgüsü yok; Hasan Usta bile gündelik bir görüşme aktaran gerçek bir kişi olarak geçiyor.",
-    null,
-    "Ters yön: veriyle kanıtlayan 2. metindir (“yüzde 18 daha ucuz”), güncel olayı yorumlayan ise 1. metindir (“bugün bir veli aradı”).",
-    "Türleri yanlış eşleştirme: 2. metin hikâye değil, nesnel ve veriye dayalı bir anlatımdır; 1. metin de denemedeki gibi gündemden bağımsız bir sohbet değil, güncel bir olay yorumudur."
-  ],
-  aciklama: `Fıkra (köşe yazısı) güncel bir olayı kısa ve akıcı biçimde yorumlar; makale ise bir düşünceyi bilgi ve verilerle nesnel olarak kanıtlar.
-Adım 1: 1. metin “dünkü yazımda”, “bugün bir veli aradı” gibi gündelik gelişmelerle başlıyor ve “bunun adı ... unutmasıdır” gibi yazarın yorumlarını taşıyor. Fıkra.
-Adım 2: 2. metin fiyatları maliyet, kira ve “beş ilde yapılan inceleme” verisiyle açıklıyor; sonuç mantıksal bir bağlantıyla çıkıyor. Makale.
-Adım 3: Fark: 1. metin güncel olayı yorumlar, 2. metin düşünceyi veriyle temellendirir.
-Sağlama: B dışındaki seçeneklerde ya kurmaca ya da ters yön var.
+  hatalar: ["Ortak özelliği tür sanma: İki metinde de yazarın sesi duyulur; ama bu, fıkra ile denemenin ortak yanıdır. 1. metin “geçen hafta” alınan bir karara ve “dün” yapılan sınava bağlıdır, bu uygulamayı iğneleyip çözüm önerir. Bunlar denemenin değil fıkranın işaretleridir.", null, "Ters yön: “Bana kalırsa” sözü ve benzetme 1. metni deneme yapmaz; metin güncel bir kararı yorumluyor. 2. metinde ise güncel bir olay, eleştiri ya da öneri yok; alt geçit yalnızca kişisel bir düşünüşün çıkış noktası.", "Kısmen doğru: 2. metin gerçekten denemedir. Ancak 1. metindeki “on yedi müzisyenden dokuzu” bir araştırma bulgusu değil, dünkü olayın bilgisidir. Dil iğneleyici ve sohbet havasındadır; makalenin ağırbaşlı, kanıtlayan düzeni yoktur."],
+  aciklama: `Fıkra (köşe yazısı), güncel bir olayı sade ve yer yer iğneleyici bir dille yorumlayan kısa yazıdır. Deneme ise yazarın gündemden bağımsız bir konudaki kişisel düşüncesini, kanıtlama kaygısı olmadan anlattığı yazıdır. İkisinde de yazarın sesi duyulduğu için ayrımı “Belirli bir güncel olaya bağlı mı?” sorusu yapar.
+Adım 1: 1. metindeki zaman ifadelerini bul: “geçen hafta bir karar aldı”, “ilk sınav dün yapıldı”. Metin belirli, güncel bir uygulamaya bağlı.
+Adım 2: Yazarın bu uygulamaya tavrına bak: Hoparlörü “sınava çekmek” sözüyle iğneliyor, sonunda “saat çizelgesi asılsa” diye çözüm öneriyor. Güncel olay, eleştiri ve öneri bir aradaysa tür fıkradır.
+Adım 3: 1. metindeki tuzakları ayıkla. “Bana kalırsa” sözü tek başına deneme yapmaz. “On yedi müzisyenden dokuzu” da bir araştırma sonucu değil, olayın bilgisidir; makale yapmaz.
+Adım 4: 2. metne bak: “Yirmi yıldır”, “hızla geçemem”, “hep … görünmüştür”. Belirli bir gün ya da olay yok; yazar bir alışkanlığından yola çıkıp düşünüyor.
+Adım 5: 2. metnin ne yaptığına bak: Yazar bir kararı ya da aksaklığı eleştirmiyor, öneri getirmiyor, kimseyi ikna etmeye çalışmıyor; “borçlu kalmak” üzerine kendi düşüncesini içten bir dille söylüyor. Gündemden bağımsız kişisel düşünüş denemedir.
+Sık yapılan hata: Metinde “bana kalırsa” ya da bir sayı görünce hemen türe karar vermek. Sözcüğe değil, metnin neye bağlandığına ve ne yaptığına bak.
 Cevap B.`
 },
 {
@@ -426,26 +418,19 @@ Cevap B.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `1. metin: Yürümeyi severim; çünkü yürürken düşüncelerim de adım atar. Bunu bilimsel bir gerekçeye bağlamak istemem, belki de yalnızca ayakkabılarımın eskimiş olması beni dışarı atıyordur. Ama sokakta, kafamdaki bir düğümün çözüldüğü anları defalarca yaşadım. Bana kalırsa her güzel fikir, bir yerlerde yürürken bulunmayı bekler.
-2. metin: Yürüyüş ile yaratıcılık arasındaki ilişki, bilimsel çalışmalarla desteklenmektedir. Yapılan bir deneyde yürüyen katılımcıların yaratıcı düşünme testlerinde oturanlara göre daha yüksek puan aldığı bildirilmiştir. Araştırmacılar bu sonucu, hareketin zihni canlandırmasına bağlamıştır. Bu nedenle yaratıcı işlerde çalışanlara düşünce molalarını yürüyüşle geçirmeleri önerilmektedir.
-**Bu iki metin için aşağıdakilerden hangileri söylenebilir?**
-I. 1. metinde yazar kişisel gözleminden söz ederken, 2. metinde deney verisi kullanılmıştır.
-II. Her iki metinde de kurmaca kişiler ve çok olaylı bir örgü vardır.
-III. 2. metin, 1. metne göre daha samimi ve sohbet havasındadır.`,
+  soru: `Ilıman iklimlerde ağaçlar her yıl gövdelerine yeni bir halka ekler. Yağışlı geçen yılın halkası geniş, kurak geçen yılın halkası dar olur; bu yüzden kesilmiş bir gövdeye bakan kişi, ağacın yaşını da gördüğü kuraklıkları da okuyabilir. Halka bir kez oluştuktan sonra değişmez; ağaç ne kadar kalınlaşırsa kalınlaşsın o dar çizgi yerinde durur. Bunu, çocukluğumun sokağındaki çınar kesildiği gün, kütüğün başında ölçüm yapan orman mühendisinden öğrenmiştim. Halkaları onunla birlikte saydık: altmış bir. Kabuğa yakın beş halka, bir tırnak kalınlığına sığacak kadar sıkışıktı. Mühendis, “Susuz geçen yıllar.” dedi, defterine bir not düşüp öbür kütüğe geçti. Oysa ben o yıllarda çınarın altında top oynamış, yapraklarında bir eksiklik görmemiştim. İnsan da böyledir. Zor geçen yıl yüzde değil, içeride bir yerde incecik bir çizgi olarak kalır. Dışarıdan bakan yalnızca gölgeyi görür; darlığı bilmek için gövdenin içine bakmak gerekir, bunu da kimseye yapamayız. Geriye sormak kalıyor. O günden beri bir tanıdığıma “Nasılsın?” dediğimde cevabı biraz daha uzun bekliyorum.
+**Bu metnin türü ve bu türü belirleyen özellik aşağıdakilerin hangisinde doğru verilmiştir?**`,
   gorsel: null,
-  secenekler: ["Yalnız I", "Yalnız II", "I ve II", "II ve III"],
+  secenekler: ["Deneme; çünkü yazar bilimsel bir bilgiyi, kişisel düşüncesine geçmek için bir benzetme olarak kullanmaktadır.", "Deneme; çünkü yazar insanlarla ilgili düşüncesini bir uzmanın sözleriyle kanıtlayıp okuru inandırmaya çalışmaktadır.", "Makale; çünkü yazar bilimsel bir bilgiden ve bir sayım sonucundan yola çıkarak genel bir yargıya ulaşmaktadır.", "Makale; çünkü yazar ağaç halkalarıyla ilgili bilgiyi bir uzmanın açıklamasına dayanarak nesnel bir dille aktarmaktadır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Kurmacayı yanlış yere koyma: iki metinde de kurmaca kişi ve olay örgüsü yok; II. öncül yanlış, doğru olan I.",
-    "II yanlış: iki metinde de kurmaca kişi yok. Bu seçenek yanlış öncülü doğru sayıyor.",
-    "Ters yön: samimi ve sohbet havasındaki 1. metindir (deneme), 2. metin nesnel ve verilidir (makale); III yanlış."
-  ],
-  aciklama: `Deneme kişisel görüşü sohbet havasında, kanıt aramadan anlatır; makale ise düşüncesini veriyle savunur.
-Adım 1: I. öncül: 1. metin kişisel gözlemleri anlatıyor (“kafamdaki düğümün çözüldüğü anlar”), 2. metin deney sonucuna dayanıyor. I doğru.
-Adım 2: II. öncül: İki metinde de kurmaca kişi ya da olay örgüsü yok. II yanlış.
-Adım 3: III. öncül: Samimi ve sohbet havasındaki metin 1. metindir (deneme). 2. metin nesnel (makale). III yanlış.
-Sağlama: Doğru olan yalnızca I.
+  hatalar: [null, "Tür doğru, gerekçe yanlış: Metin denemedir; ama mühendisin sözleri ağacın halkalarıyla ilgilidir, insanlarla ilgili düşünceyi kanıtlamaz. Yazar kanıt sunmuyor; “İnsan da böyledir.” deyip kendi sezgisini anlatıyor. Denemede okuru kanıtla inandırma çabası olmaz.", "Benzetmeyi kanıt sanma: Yazar gerçekten bir bilgiden genel bir yargıya geçiyor; ama halkalarla ilgili bilgi ve “altmış bir” sayısı ağaç için geçerlidir, “İnsan da böyledir.” yargısını kanıtlamaz. Konu ağaçtan insana kayıyor; bu bir benzetmedir. Kanıtlanmadan, kişisel bir sesle söylenen düşünce makaleyi değil denemeyi gösterir.", "Metnin yalnızca başına bakma: İlk iki cümle ve mühendisin açıklaması nesnel bilgidir; ama metnin asıl söylediği ağaçla ilgili değildir. “İnsan da böyledir.” cümlesinden sonra yazar kendi düşüncesini ve alışkanlığını anlatır. Metnin bütününde dil nesnel değil, kişiseldir."],
+  aciklama: `Makale, bir düşünceyi bilgi ve belgeyle kanıtlayan nesnel yazıdır. Deneme, yazarın kişisel düşüncesini kanıtlama kaygısı olmadan, içten bir dille anlattığı yazıdır. İkisi de düşünce yazısı olduğu için ayrımı “Bilgi, yazarın asıl düşüncesini kanıtlıyor mu?” sorusu yapar.
+Adım 1: Metindeki bilgiyi bul: Ağaçlar her yıl bir halka ekler; yağışlı yılın halkası geniş, kurak yılın halkası dardır. Mühendisin açıklaması ve “altmış bir” sayısı da bu bilgiye aittir. Buraya kadar dil nesneldir.
+Adım 2: Yazarın asıl düşüncesini bul: “İnsan da böyledir. Zor geçen yıl yüzde değil, içeride … kalır.” Metnin geri kalanı ağaçla değil, insanla ilgilidir.
+Adım 3: Bilgi bu düşünceyi kanıtlıyor mu? Hayır. Ağacın halkalarının daralması, insanların zor yıllarını içlerinde taşıdığını göstermez. Yazar ağaçtan insana bir benzetmeyle geçiyor; insanlarla ilgili hiçbir ölçüm, araştırma ya da uzman görüşü yok. Kanıt olmadığı için makale değildir (C ve D elenir).
+Adım 4: Metnin sonuna bak: “O günden beri … cevabı biraz daha uzun bekliyorum.” Yazar bir öneriyle ya da kanıtlanmış bir sonuçla değil, kendi alışkanlığıyla bitiriyor. Birinci kişi, anı, benzetme, içten dil: deneme.
+Adım 5: İki “Deneme” şıkkını ayır. B, yazarın düşüncesini uzmanın sözleriyle kanıtladığını söylüyor; mühendis insanlar hakkında tek söz etmiyor. A ise metnin yaptığını tam karşılıyor: Bilimsel bilgi, kişisel düşünceye geçmek için bir benzetmedir.
+Sık yapılan hata: Metinde bilimsel bir bilgi, bir sayı ya da bir uzman görünce “makale” demek. Bilginin geçmesi yetmez; o bilginin yazarın asıl düşüncesini kanıtlayıp kanıtlamadığına bak.
 Cevap A.`
 },
 {
@@ -453,28 +438,21 @@ Cevap A.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `Kara Fırtına'nın ardından yedi boyun ocakları birer birer sönmüş, kış kapıya dayanmıştı. Tuncay Bey halkını toplayıp “Ateş dağın içinde duruyor, onu ben getireceğim,” dedi. Yedi gün yedi gece yalın ayak yürüdü; yanardağın ağzına inip avucunda bir kor taşıdı, kor elini yakmadı. Boylar ateşin başında ant içti, ocaklar yeniden tüttü. Bu olaydan sonra Tuncay'ın adı, kuşaktan kuşağa bir ateş türküsü olarak söylenir oldu.
-**Bu metin bir destan parçası olduğuna göre, aşağıdakilerden hangisi destan türünün özellikleri arasında gösterilemez?**`,
+  soru: `Elvan, yayla evinin eşiğine oturmuş, karşıdaki sivri doruğun kararmasını izliyordu. Akşam serinliği çökmüş, aşağı obalarda ocaklar birer birer yanmıştı; içeriden annesinin oklava sesi geliyordu. Babası kasabadaki inşaatta çalışmaya gideli iki ay olmuştu; yaylada telefon çekmediği için ondan haberi ancak haftada bir, süt toplayan kamyonetin şoföründen alabiliyorlardı. Bu hafta kamyonet gelmemişti. Ninesi yanına çöktü, elindeki yün çorabı örmeyi sürdürerek konuştu:
+“Şu doruğu görüyor musun? Derler ki çok eskiden obanın erleri dağların ardına sefere gitmiş, yedi kış dönmemiş. Bekleyenler umudu kesecekken Koca Ozan kopuzunu alıp o doruğa çıkmış, tele bir kez dokunmuş. Ses yedi dağın ardından duyulmuş; yolunu yitiren erler sese doğru kırk gün kırk gece yürüyüp obaya kavuşmuş.”
+Elvan gülümsedi; ninesinin bunu neden tam bu akşam anlattığını sezdi: Beklemenin de bir sonu olduğunu söylemek istiyordu. İçindeki sıkıntı biraz hafifledi. Tam o sırada alt yoldan bir motor sesi duyuldu; ikisi de başını o yana çevirdi.
+**Bu parçanın alındığı eserin türü ve bu türü belirleyen özellik aşağıdakilerin hangisinde doğru verilmiştir?**`,
   gorsel: null,
-  secenekler: [
-    "Bir toplumu derinden etkileyen olayın anlatılması",
-    "Kahramanın gücünün olağanüstü ögelerle verilmesi",
-    "Olayın kuşaktan kuşağa söylenerek yaşatılması",
-    "Anlatılan olayların tarihî belgelerle bire bir örtüşmesi"
-  ],
+  secenekler: ["Destan; çünkü bir topluluğu etkileyen ayrılık, olağanüstü güçleri olan bir kahramanla birlikte anlatılmaktadır.", "Masal; çünkü olağanüstü olaylar, belirsiz bir geçmiş zamanda ve kalıplaşmış sözlerle okura aktarılmaktadır.", "Anı; çünkü anlatıcı, çocukluğunda yaylada yaşadıklarını yıllar sonra hatırlayarak okura aktarmaktadır.", "Roman; çünkü gerçeğe benzer kişiler, iç dünyaları ve süreceği sezilen olaylarla birlikte anlatılmaktadır."],
   dogru: 3,
-  hatalar: [
-    "Metinde olan özelliği olmayan sanma: ocakların sönmesi yedi boyun tamamını etkiliyor; bu destanın özelliğidir.",
-    "Metinde olan özelliği olmayan sanma: yanardağdan avucunda kor taşıyıp elinin yanmaması olağanüstü bir ögedir.",
-    "Metinde olan özelliği olmayan sanma: “kuşaktan kuşağa bir türkü olarak söylenir oldu” ifadesi bunu açıkça gösteriyor.",
-    null
-  ],
-  aciklama: `Destan, bir toplumu etkileyen olayları kahramanlık ve olağanüstü ögelerle anlatan, kuşaktan kuşağa aktarılan anlatıdır. Gerçek olaylardan esinlenebilir, ama olaylar anlatılırken abartılır ve olağanüstü ögelerle süslenir; belgelerle bire bir örtüşmez.
-Adım 1: Ocakların sönmesi yedi boyun hepsini etkileyen bir olay; A destanın özelliğidir.
-Adım 2: Yanardağdan kor taşıyıp elinin yanmaması olağanüstü bir öge; B destanın özelliğidir.
-Adım 3: Tuncay'ın adının kuşaktan kuşağa türkü olarak söylenmesi; C destanın özelliğidir.
-Adım 4: Olayların belgelerle bire bir örtüşmesi, destanın değil belgeye dayanan yazıların (haber, makale gibi) özelliğidir; destanda olaylar olağanüstü ögelerle anlatılır. D, destanın özelliği değildir.
-Sık yapılan hata: Kökteki “gösterilemez” sözünü gözden kaçırıp doğru özelliği seçmek.
+  hatalar: ["Parçanın bir bölümünü bütünü sanma: Yedi kış dönmeyen erler ve sesi yedi dağın ardından duyulan kopuz, parçadaki olaylar değil, ninenin “derler ki” diyerek aktardığı sözlerdir. Asıl anlatılan dünyada olağanüstü hiçbir şey olmuyor; Elvan da anlatılanı gülümseyerek dinliyor ve ninesinin onu avutmak istediğini seziyor.", "Parçanın bir bölümünü bütünü sanma: “Çok eskiden” ve “kırk gün kırk gece” sözleri yalnızca ninenin konuşmasında geçiyor. Parçanın kendi zamanı ve yeri bellidir: yayla evi, kasabadaki inşaat, süt toplayan kamyonet, çekmeyen telefon. Masalda böyle gündelik ve gerçekçi bir çerçeve olmaz.", "Anlatıcıyı karıştırma: Anıda yaşayan kişi olanları “ben” diye anlatır. Burada anlatıcı olayların dışındadır: “Elvan oturmuş, izliyordu”, “sezdi”. Üstelik anlatıcı Elvan'ın içinden geçenleri de biliyor; bu, kurmaca bir anlatının özelliğidir.", null],
+  aciklama: `Roman, gerçeğe benzer olayları çok kişili ve ayrıntılı bir örgüyle, kişilerin iç dünyasına girerek anlatan uzun kurmacadır. Destan ise bir toplumu etkileyen olayı olağanüstü ögelerle anlatır. Bir parçada olağanüstü bir olay geçmesi yetmez; o olayın parçanın dünyasında gerçekten mi yaşandığına, yoksa bir kişinin anlattığı söz olarak mı kaldığına bakarsın.
+Adım 1: Parçanın çerçevesini bul: Elvan yayla evinde, babası iki aydır kasabada, haber kamyonet şoföründen geliyor. Kişiler sıradan insanlar, yer ve zaman gündelik.
+Adım 2: Olağanüstü olayın yerini belirle: Yedi kış dönmeyen erler, sesi yedi dağın ardından duyulan kopuz, kırk gün kırk gece süren yürüyüş... Bunların hepsi tırnak içinde, ninenin “derler ki” diye başladığı konuşmada geçiyor.
+Adım 3: Parçanın bu anlatıya nasıl baktığını gör: Elvan gülümsüyor ve ninesinin bunu “neden tam bu akşam” anlattığını düşünüyor; anlatılan, ona beklemenin biteceğini söylemek için seçilmiş bir söz. Parçanın kendi dünyasında telefon çekmiyor, haber kamyonetle geliyor. Demek ki anlatılan dünya gerçeğe benzer bir dünya; olağanüstü anlatı onun içinde bir kişinin sözü. Destan ve masal elenir.
+Adım 4: Anlatıcıya bak: “Elvan … izliyordu”, “sezdi”, “içindeki sıkıntı hafifledi”. Anlatıcı “ben” demiyor, olayların dışında; ama Elvan'ın iç dünyasını biliyor. Anı elenir.
+Adım 5: Sona bak: Babadan haber bekleniyor, kamyonet gelmemiş, tam o sırada bir motor sesi duyuluyor. Olay bitmiyor, süreceği seziliyor. Gerçeğe benzer kişiler, iç dünya ve süren olaylar romanı gösterir.
+Sık yapılan hata: Parçada “yedi dağın ardı, kırk gün kırk gece” gibi sözleri görünce hemen destan ya da masal demek. Önce “Bunu kim söylüyor, parçanın dünyasında bu gerçekten oluyor mu?” diye sor.
 Cevap D.`
 },
 {
@@ -482,27 +460,21 @@ Cevap D.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `1. metin: Mimar Leyla Arslan, 1965'te Eskişehir'de doğdu. Çocukluğunda babasının marangoz atölyesinde geçirdiği zaman, onun yapı sanatına olan ilgisinin temelini oluşturdu. 1990'da üniversiteyi bitirdi ve ilk projesini bir köy okulu için hazırladı.
-2. metin: Eskişehir'de doğdum. Çocukluğumun çoğu babamın marangoz atölyesinde geçti; yontulmuş ağaç kokusunu hâlâ unutamam. 1990'da üniversiteyi bitirdiğimde ilk projemi bir köy okulu için çizdim.
-**Bu iki metnin türleriyle ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  soru: `Aşağıdaki metin bir fıkradan (köşe yazısından) alınmış, cümleleri numaralanmıştır.
+(I) Postane, geçen pazartesi mahallemizin meydanına, eski gazete büfesinin yerine kırk gözlü bir kargo dolabı yerleştirdi. (II) Paketler artık kapıya getirilmiyor; alıcı, telefonuna gönderilen altı haneli şifreyi ekrana yazarak paketini dolaptan kendisi alıyor. (III) Dolap günün her saatinde açık; üç gün içinde alınmayan paket gönderene geri yollanıyor. (IV) Yetkililer, ilk haftanın sonunda yaptıkları açıklamada dağıtım süresinin yarıya indiğini ve uygulamanın “çok başarılı” bulunduğunu bildirdi. (V) Belli ki bu başarı hesaplanırken, asansörsüz binanın dördüncü katında oturan Nazmiye teyzenin her paket için dört kat merdiveni inip çıktığı hesaba katılmamış. (VI) Görme engelliler derneği ise dün yaptığı yazılı açıklamada, dolabın ekranında sesli yönlendirme bulunmadığını, üyelerinin şifrelerini bir başkasına söylemek zorunda kaldığını duyurdu. (VII) Kolaylık, ona en çok ihtiyaç duyanın kapısına kadar gitmiyorsa adı yeniden düşünülmeli; hiç değilse isteyene kapıda teslim seçeneği geri verilmeli.
+**Numaralı cümlelerden hangileri çıkarılırsa metin, fıkra olma özelliğini yitirip bir haber metnine dönüşür?**`,
   gorsel: null,
-  secenekler: [
-    "1. metin anı, 2. metin günlüktür; çünkü ikisi de geçmişi aktarmaktadır.",
-    "1. metin otobiyografi, 2. metin biyografidir; çünkü ilkinde yazar kendini anlatmaktadır.",
-    "1. metin biyografi, 2. metin otobiyografidir; çünkü ikincide yazar kendini anlatmaktadır.",
-    "Her ikisi de biyografidir; çünkü ikisinde de aynı kişinin yaşamı anlatılmaktadır."
-  ],
+  secenekler: ["IV ve V", "IV ve VII", "V ve VII", "VI ve VII"],
   dogru: 2,
-  hatalar: [
-    "Türleri yanlış adlandırma: günlük olayın olduğu gün tarihle yazılır; ikinci metinde böyle bir yapı yok, birinci metin ise hatıra değil hayat öyküsü.",
-    "Ters yön: “doğdu, bitirdi” diyen 1. metin kişiyi dışarıdan anlatır (biyografi); “doğdum, çizdim” diyen 2. metin otobiyografidir.",
-    null,
-    "Anlatıcıyı gözden kaçırma: konu aynı kişi olsa da 2. metni yazan, hayatı anlatılan kişinin kendisidir; bu yüzden ikisi aynı tür değil."
-  ],
-  aciklama: `Biyografide bir kişinin hayatını başkası anlatır; otobiyografide kişi kendi hayatını anlatır. İkisinde de gerçek bir hayat öyküsü vardır; fark, anlatıcıdadır.
-Adım 1: 1. metin “doğdu”, “bitirdi”, “hazırladı” gibi üçüncü kişi ekleriyle Leyla Arslan'ı dışarıdan anlatıyor. Biyografi.
-Adım 2: 2. metin “doğdum”, “geçti ... unutamam”, “çizdim” gibi birinci kişi diliyle yazılmış. Yazar kendi hayatını anlatıyor. Otobiyografi.
-Sağlama: İki metinde aynı bilgiler var; ayıran tek şey kimin anlattığı.
+  hatalar: ["Aktarılan sözü yazarın yorumu sanma: IV. cümledeki “çok başarılı” sözü yazarın değil, yetkililerin değerlendirmesidir; yazar yalnızca onların ne açıkladığını bildiriyor. Haber metni de böyle yapar. Üstelik bu şıkta VII. cümle metinde kalıyor; yazarın yorumu ve önerisi sürüyor.", "Kuralı yarım uygulama: VII. cümlenin yorum olduğunu doğru gördün; ama IV. cümle yalnızca yetkililerin açıklamasını aktarıyor, yorum değil. Asıl çıkarılması gereken V. cümle metinde kalıyor: “Belli ki … hesaba katılmamış” sözü yazarın iğnelemesidir.", null, "Olumsuz bilgiyi yorum sanma: VI. cümle bir aksaklığı anlatıyor; ama bunu yazar kendi yargısı olarak söylemiyor, derneğin açıklamasını aktarıyor. Tıpkı IV. cümle gibi doğrulanabilir bir bilgidir; haber metninde de bulunabilir. Yazarın iğnelemesini taşıyan V. cümle ise bu şıkta metinde kalıyor."],
+  aciklama: `Haber metni bir olayı yorum katmadan bildirir. Fıkra (köşe yazısı) ise güncel bir olayı anlattıktan sonra yazarın yorumunu, eleştirisini ve önerisini de katar. Öyleyse bir fıkradan yazarın yorum cümlelerini çıkarırsan geriye haber kalır. Her cümleye şunu sor: “Bu, doğruluğu denetlenebilecek bir bilgi mi, yoksa yazarın kendi yargısı mı?”
+Adım 1: I, II ve III. cümleler dolabın ne zaman, nereye kurulduğunu ve nasıl çalıştığını bildiriyor. Yorum yok.
+Adım 2: IV. cümlede “çok başarılı” sözü geçiyor; ama bunu söyleyen yazar değil, yetkililer. Yazar yalnızca “bildirdi” diye aktarıyor. Bir açıklamanın yapıldığı denetlenebilir bir bilgidir; haber metninde de yer alır.
+Adım 3: V. cümle “Belli ki” diye başlıyor ve başarının eksik hesaplandığını ima ediyor. Bu, yazarın kendi çıkarımı ve iğnelemesidir: yorum.
+Adım 4: VI. cümle bir aksaklığı anlatıyor: sesli yönlendirme yok, görme engelliler şifreyi başkasına söylüyor. Olumsuz bir durum; ama IV. cümledeki gibi bunu da yazar değil, bir kurum (dernek) açıklıyor. Yazar yargı bildirmeden açıklamayı aktarıyor: bilgi.
+Adım 5: VII. cümlede “yeniden düşünülmeli”, “geri verilmeli” deniyor. Yazar hem eleştiriyor hem öneri getiriyor: yorum.
+Adım 6: Yorum taşıyan cümleler V ve VII. Bunlar çıkınca geriye yalnızca olayı bildiren cümleler kalır.
+Sık yapılan hata: İçinde “başarılı” gibi değer bildiren bir söz geçen ya da bir sorunu anlatan her cümleyi yorum saymak. Sözü kimin söylediğine ve yazarın kendi yargısını katıp katmadığına bak: Olumlu açıklama da olumsuz açıklama da aktarıldığında bilgidir.
 Cevap C.`
 },
 {
@@ -510,23 +482,23 @@ Cevap C.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `Aşağıdaki numaralı cümleler, kent gürültüsü üzerine yazılmış farklı yazılardan alınmıştır.
-(I) Kentlerin gürültüsü, yıllardır ölçülen desibel değerleriyle anlatılıyor. (II) Oysa gürültü, kulağa değil huzura sızan sessiz bir misafirdir; kapıyı çalmaz ama gitmeyi de hiç bilmez. (III) İlçemizde yapılan ölçümlerde ses düzeyi, kabul edilen sınır değerin üzerinde bulunmuştur. (IV) Bu durum, yeni düzenlemeler yapılmasını gerekli kılmaktadır.
-**Numaralı cümlelerden hangisi, bir denemeden alınmış olabileceğini en çok düşündürür?**`,
+  soru: `Aşağıda satrançla ilgili üç ayrı yazıdan alınmış parçalar verilmiştir.
+I. Altmış dört kare, otuz iki taş... Satrancı anlatanlar hep bu sayılarla başlar. Oysa bu oyunun asıl öğrettiği, sayıya gelmeyen bir şeydir: beklemek. İyi oyuncu, taşa en hızlı uzanan değil, elini en uzun süre dizinde tutabilendir. Ben bunu kaybettiğim sayısız oyunda öğrendim. Elin taşa uzanmadan önceki o kısa duraksaması, gün içinde kendimize tanıdığımız tek sessizliktir.
+II. İlçe satranç turnuvası cumartesi günü spor salonunda yapıldı. Bu yıl 312 öğrenci başvurmuş; geçen yılın iki katı. Salona yüz masa kurulmuştu; sırası gelmeyen çocukları koridorda, dizlerinin üstündeki kâğıt tahtalarla oynarken gördüm. Ödülleri kaymakam verdi. Açılışta “Satranç ileriyi görmeyi öğretir.” denmişti; anlaşılan bu ders, masaları sayanlara henüz verilmemiş.
+III. Satrancın dikkati geliştirdiğini yıllardır öğretmenlerden duyarım; bu yazıda o kanının ölçümlerle doğrulanıp doğrulanmadığına bakacağım. Bir ilde on iki okulda iki yıl süren izleme çalışmasında, haftada iki saat satranç dersi alan öğrencilerin dikkat testi puanları, bu dersi almayanlarınkinden belirgin biçimde yüksek çıkmıştır. Öğretmenlerin doldurduğu gözlem formları da aynı yöndedir.
+**Bu parçaların alındığı yazıların türleri sırasıyla aşağıdakilerin hangisinde doğru verilmiştir?**`,
   gorsel: null,
-  secenekler: ["I", "II", "III", "IV"],
+  secenekler: ["Deneme – Haber metni – Makale", "Deneme – Fıkra – Makale", "Makale – Fıkra – Deneme", "Makale – Haber metni – Deneme"],
   dogru: 1,
-  hatalar: [
-    "Veriye dayalı cümleyi denemeye ait sanma: I. cümle ölçüm değerlerinden söz eden nesnel bir cümle; kişisel bir bakış içermiyor.",
-    null,
-    "Nesnel veriyi kişisel görüş sanma: III. cümle ölçüm sonucunu bildiriyor; makalede de bulunabilecek bir cümle.",
-    "Sonuç cümlesini denemeye ait sanma: IV. cümle veriden çıkan bir gereklilik bildiriyor; denemede sohbet havasında bir görüş beklenir."
-  ],
-  aciklama: `Deneme, yazarın kişisel görüşünü kanıtlama kaygısı olmadan, sohbet havasında anlattığı yazıdır.
-Adım 1: I. cümle ölçüm değerlerinden söz ediyor; nesnel bir bilgi.
-Adım 2: II. cümlede “huzura sızan sessiz bir misafir” benzetmesi ve “kapıyı çalmaz ama gitmeyi de hiç bilmez” sözü, yazarın kişisel bakışını kanıt göstermeden sohbet eder gibi aktarıyor. Deneme için tipik.
-Adım 3: III. cümle ölçüm sonucu, IV. cümle ise bu sonuçtan çıkan bir gereklilik. İkisi de makale havasında.
-Sağlama: Kişisel görüş yalnız II'de.
+  hatalar: ["Fıkrayı habere benzetme: I ve III doğru; ama II. parça turnuvayı yalnızca bildirmiyor. Yazar “gördüm” diyerek kendini katıyor, son cümlede “bu ders, masaları sayanlara henüz verilmemiş” diye düzenleyenleri iğneliyor. Haber metni olayı yorumsuz bildirir; tek cümle de olsa yorum ve iğneleme varsa tür fıkradır.", null, "Sözcüğe bakıp yapıyı kaçırma: II doğru; ama I ile III yer değiştirmiş. I. parça sayılarla başlıyor ve kesin bir dille konuşuyor, yine de hiçbir yargısını kanıtlamıyor; dayanağı yazarın kendi yaşantısı. III. parça “duyarım”, “bakacağım” diye başlasa da düşünceyi izleme çalışması ve gözlem formlarıyla sınıyor.", "İki hatayı birleştirme: I. parçadaki kesin dil onu makale, III. parçadaki birinci kişi onu deneme yapmaz; kanıt yalnızca III. parçada var. II. parça da son cümlesindeki iğneleme nedeniyle haber metni olamaz."],
+  aciklama: `Makale, deneme ve fıkra gerçek bir konuda düşünce bildirir; üçünü birbirinden ayırmak için sırayla iki soru sorarsın: “Düşünce kanıtla mı destekleniyor?” ve “Belirli bir güncel olaya mı bağlı?” Haber metni ise olayı yorum katmadan bildirir.
+Adım 1: I. parçada sayı var (altmış dört kare, otuz iki taş), ama yazar bunları kanıt olarak kullanmıyor; tersine oyunun asıl öğrettiğinin “sayıya gelmeyen” bir şey olduğunu söylüyor.
+Adım 2: I. parçanın yargılarına bak: “İyi oyuncu … elini en uzun süre dizinde tutabilendir”, “tek sessizliktir”. Dil kesin, ama dayanak yok; tek gerekçe yazarın kendi yaşantısı (“kaybettiğim sayısız oyunda öğrendim”). Belirli bir gün ya da olay da yok. Kanıtsız, kişisel düşünce: deneme.
+Adım 3: II. parçada belirli bir olay var: cumartesi günü yapılan turnuva. 312 başvuru ve yüz masa, bir araştırmanın bulgusu değil, olayın bilgisi. Parçanın büyük bölümü haber gibi okunuyor.
+Adım 4: II. parçanın son cümlesine dikkat et: “Anlaşılan bu ders, masaları sayanlara henüz verilmemiş.” Yazar, 312 başvuruya yüz masa kuranları iğneliyor. Güncel olay ve yazarın yorumu bir aradaysa tür fıkradır; haber metninde yorum olmaz.
+Adım 5: III. parça birinci kişiyle başlıyor (“duyarım”, “bakacağım”); ama yazar kendi duygusunu anlatmıyor, bir kanıyı ölçümlerle sınıyor: on iki okul, iki yıl, dikkat testi puanları, gözlem formları. Düşünce kanıtla destekleniyor: makale.
+Adım 6: Sıra: Deneme – Fıkra – Makale.
+Sık yapılan hata: Kesin konuşan ve sayı veren parçaya makale, “ben” diyen parçaya deneme demek. Sayının ve “ben”in metinde ne iş gördüğüne, yargıların bir dayanağı olup olmadığına bak.
 Cevap B.`
 },
 {
@@ -534,28 +506,23 @@ Cevap B.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `Dün akşam otobüste yarım saat boyunca birinin hoparlörden dizi izlemesine katlanmak zorunda kaldık. Kimse bir şey demedi; herkes bakışlarını camdan dışarı çevirdi. Kulaklık takmak zor değil, ama biz nedense başkasının huzurunu kendi keyfimizden sonra düşünüyoruz. Ses açmak özgürlük sayılıyorsa, sessizlik istemek de hak sayılmalı. Bu küçük nezaket eksikliği, büyük bir saygısızlığın habercisi.
-**Bu yazının bir köşe yazısı (fıkra) olduğu düşünülürse, aşağıdakilerden hangisi yazı için söylenebilir?**`,
+  soru: `Bir tabloya bakmak ile onu görmek aynı şey midir? Kanımca değildir; bu ayrım müzecilik araştırmalarında da karşılık bulmaktadır. Büyük bir sanat müzesinde yapılan gözlemde, ziyaretçilerin bir eserin önünde ortalama yarım dakikadan az durduğu saptanmıştır. Sanat eğitimcilerine göre bu süre resmin konusunu fark etmeye yeter; renk geçişlerini, ışığın yönünü, figürlerin birbirine bakışını seçmeye yetmez. Nitekim bir kentte geçen yıl düzenlenen sergide ziyaretçilerden yalnızca üç eseri onar dakika incelemeleri istenmiş; çıkışta doldurulan formlarda katılımcıların çoğu, bu eserlerdeki ayrıntıları eksiksiz betimleyebilmiştir. Müzelerin artırması gereken, gezilen salon sayısı değil, eserin önünde geçirilen süredir.
+Bu metnin türü üzerine konuşan üç öğrenci şunları söylemiştir:
+Nehir: Yazar söze bir soruyla başlamış, “kanımca” diyerek kendi görüşünü bildirmiş; bu yüzden metin denemedir.
+Onur: Gözlem sonucu ve eğitimcilerin görüşü, öne sürülen düşünceyi kanıtlamak için kullanılmış; metin bu yönüyle makaledir.
+Selin: Sergi, yorumlanan güncel bir olay olarak değil, düşünceyi destekleyen bir örnek olarak anılmış; bu yüzden metin fıkra sayılamaz.
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
   gorsel: null,
-  secenekler: [
-    "Olaylar, kurmaca kişiler aracılığıyla uzun bir örgüde verilmiştir.",
-    "Savunulan düşünce, ölçüm ve istatistiklerle temellendirilmiştir.",
-    "Yazar, görüşünü gündemden bağımsız olarak sohbet havasında anlatmıştır.",
-    "Yazar, günlük yaşamdan bir olayı kendi yorumuyla birlikte aktarmıştır."
-  ],
+  secenekler: ["Yalnız Nehir", "Yalnız Onur", "Nehir ve Selin", "Onur ve Selin"],
   dogru: 3,
-  hatalar: [
-    "Romanın özelliğini fıkraya verme: yazıda kurmaca kişi ya da uzun bir olay örgüsü yok; gerçek bir günlük olay kısaca yorumlanıyor.",
-    "Makalenin özelliğini fıkraya verme: yazıda ölçüm, istatistik ya da kaynak yok; yazar gözlemini ve yorumunu aktarıyor.",
-    "Denemenin özelliğini fıkraya verme: yazı “dün akşam otobüste” yaşanan belli bir olaya bağlı; gündemden bağımsız bir sohbet değil.",
-    null
-  ],
-  aciklama: `Fıkra (köşe yazısı), günlük ya da güncel bir konuyu kısa, sade ve akıcı bir dille yorumlayan yazıdır.
-Adım 1: Seçenekleri metne tek tek uygula. A: Metinde kurmaca kişi ve uzun örgü yok. A söylenemez.
-Adım 2: B: Metinde ölçüm, istatistik ya da kaynak yok; yazar kendi gözlemini yorumluyor. B söylenemez.
-Adım 3: C: Metin “dün akşam otobüste” yaşanan belli bir olaya bağlı, gündemden bağımsız bir sohbet değil. C söylenemez.
-Adım 4: D: Yazar günlük yaşamdan bir olayı (otobüste hoparlörden dizi izlenmesi) aktarıyor ve “nezaket eksikliği” diyerek yorumluyor. D söylenebilir.
-Sık yapılan hata: Kökteki “söylenebilir” sözünü okumadan, bildiğin türün özelliğini işaretlemek. Seçeneği metinle sına.
+  hatalar: ["Sözcüğe bakıp yapıyı kaçırma: “Kanımca” sözü ve soru cümlesi metni deneme yapmaz. Yazar görüşünü hemen ardından gözlem sonucu, eğitimci görüşü ve sergi örneğiyle kanıtlıyor, son cümlede de bir sonuca bağlıyor. Deneme kanıtlama kaygısı taşımaz.", "Kuralı yarım uygulama: Onur'un doğru söylediğini gördün; ama Selin de haklı. Sergi “geçen yıl” yapılmış ve “nitekim” diye, düşünceyi destekleyen bir örnek olarak verilmiş. Yazar o sergiyi yorumlamıyor, eleştirmiyor; metin fıkra değildir.", "Çelişen iki yargıyı birlikte doğru sayma: Selin haklı; ama Nehir'in “deneme” demesi yanlış, çünkü metin düşüncesini kanıtla destekliyor. Onur'un makale tespiti ise bu şıkta dışarıda kalıyor.", null],
+  aciklama: `Makale bir düşünceyi bilgi, belge ve uzman görüşüyle kanıtlar; deneme kişisel görüşü kanıtlama kaygısı olmadan anlatır; fıkra (köşe yazısı) güncel bir olayı yorumlar. Bir metinde bu türlerden birinin işareti görünebilir; karar vermek için metnin bütününe bakarsın.
+Adım 1: Metnin düşüncesini bul: Bir esere bakmak ile onu görmek aynı değildir; görmek için zaman gerekir.
+Adım 2: Bu düşüncenin dayanaklarını say: müzede yapılan gözlem (yarım dakikadan az), sanat eğitimcilerinin görüşü, sergideki uygulamanın sonucu. Son cümle de bunlardan çıkan sonucu söylüyor: Artırılması gereken, eserin önünde geçirilen süredir. Düşünce kanıtlanıyor.
+Adım 3: Nehir'i sına: “Kanımca” sözü ve soru cümlesi var, doğru; ama metin görüşünü kanıtlarla destekliyor. Kanıt varsa deneme olmaz. Nehir yanlış.
+Adım 4: Onur'u sına: Gözlem sonucu ve eğitimci görüşü gerçekten düşünceyi kanıtlamak için kullanılmış. Bu, makalenin özelliği. Onur doğru.
+Adım 5: Selin'i sına: Sergi “geçen yıl” yapılmış; yazar onu “nitekim” diyerek örnek gösteriyor, sergiyi eleştirmiyor ya da espriyle yorumlamıyor. Fıkra güncel olayın kendisini yorumlar; burada sergi yalnızca bir dayanak. Selin doğru.
+Sık yapılan hata: Metinde bir olaydan söz edildiğini görünce fıkra, “kanımca” gibi bir söz görünce deneme demek. Olayın ve sözün metinde ne iş gördüğüne bak.
 Cevap D.`
 },
 {
@@ -563,28 +530,23 @@ Cevap D.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `1. metin: Nermin, apartmanın kapısından çıkarken komşusu Kemal Bey'le göz göze geldi. Üç gündür pencerelerinden ışık sızmayan daireyi hatırladı. Kemal Bey ise cebindeki zarfı sıkıca tuttu; zarfın içindeki mektup, bu mahalledeki herkesin hayatını değiştirebilirdi.
-2. metin: Kara Kurt Han, ordusunu dağın eteğinde topladı. “Bu topraklar atalarımızın kanıyla sulandı,” diye gürledi. Yayını gerip gökyüzüne bir ok fırlattı; ok üç gün üç gece uçtu, düştüğü yerden demir bir kapı yükseldi ve düşman bu kapıyı aşamayıp bozguna uğradı.
-**Bu iki metinde ortak olarak görülen özellik aşağıdakilerden hangisidir?**`,
-  gorsel: null,
-  secenekler: [
-    "Olayların tamamen kurmaca kişilerle anlatılması",
-    "Anlatımda olağanüstü ögelere geniş yer verilmesi",
-    "Bilgilerin belge ve kaynaklarla desteklenmesi",
-    "Anlatıcının kendi yaşantısından parçalar aktarması"
-  ],
+  soru: `Bir gençlik dergisinin editörü, dergiye gönderilen dört yazıdan birini “makale” bölümüne ayırmış ve bu yazı için bir değerlendirme formu doldurmuştur. Form, parçaların altındaki tabloda verilmiştir. Dört yazıdan alınan parçalar şunlardır:
+I. Bir yaz sabahı küçük bir balıkçı barınağında, ağdan çıkan parmak boyu balıkların ölü hâlde denize geri atıldığını gördüm. Asıl sorun avcının özensizliği değil, ağın yavruyu ayıramamasıdır. İki av sezonu boyunca yapılan ölçümlerde, gözleri genişletilen ağlara takılan yavru balık oranı yarıdan fazla azalmıştır. Ağ gözü ölçüleri bu sonuçlara göre yeniden belirlenmelidir.
+II. Bir yaz sabahı küçük bir barınakta, ağ onaran balıkçıları izlemiştim. İğne her düğüme aynı sabırla girip çıkıyordu. Denizle geçinenler acele etmemeyi ağdan öğrenir. O günden beri söküğümü dikerken hep o elleri düşünürüm.
+III. Balık hallerine her sabah binlerce kasa balık girer. Bu hallerde üç yıl boyunca tutulan kayıtlar, tezgâha gelen balıkların ortalama boyunun kısaldığını göstermektedir. Uzmanlar bunu, balıkların üreme çağına gelmeden avlanmasına bağlamaktadır. Bu nedenle av yasağı dönemleri uzatılmalıdır.
+IV. Av yasağı dün sona erdi; sabah ilk iş balık haline koştum. Tezgâhtaki istavritler serçe parmağım kadardı. Satıcı, “Büyüğünü deniz vermiyor.” dedi. Deniz vermiyor değil, biz büyümesini beklemiyoruz. Boyu tutmayan balığı almayalım; yoksa seneye istavriti tezgâhta değil, büyüteç altında arayacağız.
+**Editörün formu, numaralanmış parçalardan hangisinin alındığı yazı için doldurulmuştur?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>Ölçüt</th><th>Editörün işareti</th></tr><tr><td>Yazarın tanık olduğu bir olayla başlıyor.</td><td>Evet</td></tr><tr><td>Olaydan genel bir düşünceye geçiyor.</td><td>Evet</td></tr><tr><td>Düşüncesini ölçüm sonuçlarıyla destekliyor.</td><td>Evet</td></tr><tr><td>Güncel bir gelişmeyi espriyle yorumluyor.</td><td>Hayır</td></tr><tr><td>Bir öneriyle sona eriyor.</td><td>Evet</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 0,
-  hatalar: [
-    null,
-    "Yalnızca bir metne özgü özelliği ortak sanma: okun üç gün üç gece uçup düştüğü yerden demir kapı yükselmesi gibi olağanüstü öge yalnızca 2. metinde var; 1. metin gerçekçi.",
-    "Bilgilendirmeyle karıştırma: iki metin de olay anlatıyor, bilgi ya da belgeye dayanmıyor.",
-    "Anlatıcıyı yanlış belirleme: iki metinde de anlatıcı olayın dışında kalıp kişilerden “o” diye söz ediyor; kendi yaşantısını aktarmıyor."
-  ],
-  aciklama: `Roman ve destan kurmaca anlatılardır. Romanda kişiler ve olaylar gerçekçidir; destanda kahramanlık ve olağanüstü ögeler öne çıkar.
-Adım 1: 1. metin gerçekçi bir mahalle ortamında geçen kurmaca bir olay (Nermin, Kemal Bey, zarf). Roman havası.
-Adım 2: 2. metin Kara Kurt Han, ordu ve yerden yükselen demir kapı gibi olağanüstü bir ögeyle kahramanlık anlatıyor. Destan havası.
-Adım 3: İkisinin ortak noktası kurmaca olmaları. Olağanüstü öge yalnızca 2. metinde var; belge ve anlatıcının kendi yaşantısı hiçbirinde yok.
-Sağlama: Seçenekleri iki metne tek tek uygula; yalnız A ikisinde de doğru.
+  hatalar: [null, "Kısmen doğru: II. parça da yazarın tanık olduğu bir olayla başlıyor ve genel bir düşünceye geçiyor. Ancak yazar düşüncesini kesin bir dille söylese de hiçbir ölçümle desteklemiyor; dayanağı kendi izlenimi. Sonda bir öneri de yok. Bu parça bir denemeden alınmıştır.", "Türe bakıp formu atlama: III. parça tipik bir makale parçasıdır; kayıtlar, uzman görüşü ve öneri var. Ancak formun ilk iki satırı tutmuyor: Parça yazarın tanık olduğu bir olayla değil, genel bir bilgiyle başlıyor.", "Kısmen doğru: IV. parça yazarın tanık olduğu bir olayla başlıyor ve genel bir düşünceye geçiyor. Ancak av yasağının “dün” sona ermesi güncel bir gelişmedir; yazar onu “büyüteç altında arayacağız” diyerek espriyle yorumluyor. Ölçüm sonucu da yok. Bu parça bir fıkradan alınmıştır."],
+  aciklama: `Makale düşüncesini ölçüm, kayıt ve uzman görüşüyle kanıtlar. Deneme kişisel düşünceyi kanıtlamadan anlatır. Fıkra (köşe yazısı) güncel bir olayı yer yer espriyle yorumlar. Formdaki beş satır bu ayrımları tek tek yokluyor; her parçayı beş satırla da sınaman gerekir.
+Adım 1: “Yazarın tanık olduğu bir olayla başlıyor.” I (“gördüm”), II (“izlemiştim”) ve IV (“balık haline koştum”) buna uyar. III genel bir bilgiyle başlar; III elenir.
+Adım 2: “Düşüncesini ölçüm sonuçlarıyla destekliyor.” I. parçada iki av sezonu boyunca yapılan ölçümlerin sonucu var. II. parçada ölçüm yok; yazar düşüncesini kesin bir dille söylüyor ama dayanağı yalnızca kendi izlenimi. IV. parçada da ölçüm yok; “serçe parmağım kadar” bir ölçüm sonucu değil, yazarın o sabahki gözlemidir.
+Adım 3: “Güncel bir gelişmeyi espriyle yorumluyor: Hayır.” IV. parça “dün” sona eren av yasağından söz ediyor, “istavriti … büyüteç altında arayacağız” diye espri yapıyor. Formla çelişir; IV elenir.
+Adım 4: “Bir öneriyle sona eriyor.” I. parça “Ağ gözü ölçüleri … yeniden belirlenmelidir.” diye bitiyor. II. parçada öneri yok; II elenir.
+Adım 5: I. parçayı beş satırla sağla: Olayla başlıyor (barınakta gördükleri), genel düşünceye geçiyor (“Asıl sorun … ağın yavruyu ayıramamasıdır”), ölçümle destekliyor, güncel bir gelişmeyi espriyle yorumlamıyor, öneriyle bitiyor. Beşi de tutuyor.
+Sık yapılan hata: “Makale” sözünü görünce en nesnel görünen III. parçayı seçmek. Soru türü değil, formun doldurulduğu yazıyı soruyor; formun bütün satırlarını sına.
 Cevap A.`
 },
 {
@@ -592,27 +554,26 @@ Cevap A.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `Ege'nin kıyısındaki Foça'ya akşamüstü vardık. Dar taş sokaklarda yürürken fırınlardan yayılan kokuyu, duvarlardaki mor begonvilleri ve balıkçı teknelerinin sallanışını ilk kez bu kadar yakından görüyordum. Rıhtımdaki lokantada yaşlı bir balıkçı bana körfezin mevsimlere göre nasıl rengini değiştirdiğini anlattı. Ertesi sabah kaleye çıkıp kenti tepeden izledik.
-**Bu metin deneme değil, gezi yazısıdır. Bunu en iyi gösteren özellik aşağıdakilerden hangisidir?**`,
+  soru: `Aşağıdaki numaralı cümleler, yön bulma konusunda yazılmış bir makale ile bir denemeden alınmış ve karışık olarak verilmiştir.
+(I) Yön bulma uygulamalarını sık kullanan sürücülerin, gittikleri güzergâhı sonradan kâğıt üzerinde çizmekte zorlandığı, farklı ülkelerde yapılan deneylerle gösterilmiştir.
+(II) Otuz yıldır yollardayım; adres sorduğum yüzlerce insandan yalnızca ikisi beni yanlış sokağa gönderdi, onlara da kızamadım.
+(III) Sorulan her adres, yabancı bir kentte edinilen ilk tanıdıktır; yolunu hiç şaşırmayan kişi, o kentten kimseyle tanışmadan dönmüş sayılır.
+(IV) Araştırmacılar bu sonucu, gözünü ekrandaki oktan ayırmayan kişinin çevresindeki yapılara ve tabelalara dikkat etmemesine bağlamaktadır.
+(V) Yolunu kaybedenlerin nabzının hızlandığını ölçmüşler; benimki de hızlanır ama sanırım korkudan değil, köşeyi dönünce ne göreceğimi bilmemenin sevincinden.
+(VI) İyi bilinen güzergâhlarda uygulamayı kapatmak, yön duygusunu korumanın basit bir yolu olarak önerilmektedir.
+(VII) Belki de bu yüzden yabancı bir kente indiğimde telefonumu ilk iş çantamın dibine yollar, gördüğüm ilk simitçiye yanaşırım.
+**Buna göre makaleden alınan cümleler aşağıdakilerin hangisinde birlikte verilmiştir?**`,
   gorsel: null,
-  secenekler: [
-    "Yazarın bir konuda kanıt aramadan görüşünü anlatması",
-    "Yazarın güncel bir sorunu çözüm önerisiyle yorumlaması",
-    "Yazarın gittiği yeri, gördüklerini ve yaşadıklarını aktarması",
-    "Yazarın kahramanlık içeren olayları olağanüstü ögelerle anlatması"
-  ],
+  secenekler: ["I, II ve IV", "I, V ve VI", "I, IV ve VI", "III, IV ve VI"],
   dogru: 2,
-  hatalar: [
-    "Denemenin özelliğini gezi yazısına verme: metinde yazar bir görüş savunmuyor; gördüklerini anlatıyor.",
-    "Fıkranın özelliğini gezi yazısına verme: metinde güncel bir sorun ya da çözüm önerisi yok.",
-    null,
-    "Destanın özelliğini gezi yazısına verme: metinde kahramanlık ve olağanüstü öge yok; gerçekçi gözlemler var."
-  ],
-  aciklama: `Gezi yazısı, yazarın gittiği yerleri, gördüklerini ve yaşadıklarını yer adlarıyla, gözlemlerine dayanarak anlattığı yazıdır.
-Adım 1: Metinde Foça, Ege kıyısı, rıhtım, kale gibi yer adları ve mekân betimlemeleri var.
-Adım 2: Yazar gördüklerini (taş sokaklar, begonviller, tekneler) ve yaşadıklarını (balıkçıyla sohbet, kaleye çıkış) aktarıyor.
-Adım 3: Metinde bir görüş savunulmuyor, güncel sorun yorumlanmıyor, olağanüstü öge yok. Bu yüzden deneme, fıkra ya da destan değil.
-Sağlama: Yer + gözlem + yaşantı = gezi yazısı.
+  hatalar: ["Sayıyı kanıt sanma: II. cümlede “otuz yıl”, “yüzlerce insan”, “ikisi” gibi sayılar var; ama bunlar bir araştırmanın bulgusu değil, yazarın kendi yaşantısıdır. “Yollardayım”, “kızamadım” diyen cümle denemeye aittir. Makalenin sonuç cümlesi olan VI da dışarıda kalmış.", "Ölçüm sözünü kanıt sanma: V. cümle bir ölçümden söz ediyor, ama yazar onu bir düşünceyi kanıtlamak için kullanmıyor; hemen kendi duygusuna geçiyor: “benimki de hızlanır ama sanırım…”. Bu, denemenin içten ve kesin olmayan dilidir. Makaledeki neden cümlesi IV ise dışarıda kalmış.", null, "“Ben” yoksa nesnel sanma: III. cümlede birinci kişi yok, ama cümle bir benzetmeye dayanıyor (“ilk tanıdıktır”) ve hiçbir dayanağı olmayan kişisel bir yargı bildiriyor. Makaleye değil denemeye aittir. Makalenin deney cümlesi olan I ise dışarıda kalmış."],
+  aciklama: `Makale düşüncesini araştırma ve deney sonuçlarıyla, nesnel bir dille kanıtlar. Deneme kişisel düşünceyi içten bir dille, kanıtlama kaygısı olmadan anlatır. Karışık verilen cümleleri ayırırken iki şeye bakarsın: cümlenin dili ve cümlelerin birbirine nasıl bağlandığı.
+Adım 1: I. cümle “deneylerle gösterilmiştir” diyor: nesnel dil, dayanak var. Makale.
+Adım 2: IV. cümledeki “bu sonucu” sözü I. cümledeki deney sonucunu gösteriyor; “Araştırmacılar … bağlamaktadır” yine nesnel. VI. cümle de I. cümledeki “uygulama”ya dönüyor ve yazarın kendi alışkanlığını değil, genel bir öneriyi nesnel bir dille bildiriyor (“önerilmektedir”). I, IV ve VI birbirine bağlanan bir makale parçası oluşturuyor: bulgu, nedeni, sonuç.
+Adım 3: II. cümlede sayılar var; ama “yollardayım”, “kızamadım” diyen yazar kendi yaşantısını anlatıyor. Kanıt değil, kişisel deneyim: deneme.
+Adım 4: V. cümle “ölçmüşler” diye bir ölçümden söz ediyor; ama hemen “benimki de hızlanır ama sanırım…” diye kendi duygusuna dönüyor. Ölçüm, bir düşünceyi kanıtlamak için kullanılmıyor: deneme.
+Adım 5: III. cümlede “ben” yok; ama “ilk tanıdıktır” benzetmesi ve dayanaksız yargı, makalenin nesnel diline uymaz. VII. cümle de “belki de”, “yanaşırım” diyor. İkisi de deneme.
+Sık yapılan hata: Yalnızca tek bir ipucuna (sayı var mı, “ben” var mı) bakarak karar vermek. Sayı kişisel bir yaşantıyı da anlatabilir; “ben” demeyen bir cümle de kişisel bir yargı olabilir.
 Cevap C.`
 },
 {
@@ -620,28 +581,19 @@ Cevap C.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `1. metin: Üniversiteyi kazandığım günü yıllar sonra bile ayrıntısıyla hatırlarım. Sonuçlar internetten açıklanacaktı; annem sabahtan beri mutfakta bir şeyler yapıyor, ben ise bilgisayarın başında bekliyordum. Adımı gördüğümde annem elindeki tepsiyi düşürdü, ikimiz de güldük.
-2. metin: 20 Ağustos Cuma. Bugün sonuçlar açıklandı! Adımı listede görünce ellerim titredi. Annem elindeki tepsiyi düşürdü, ikimiz de güldük. Akşam babamı aradım, gelecek hafta kutlama yapacağız.
-**Bu iki metinle ilgili aşağıdakilerden hangisi söylenebilir?**`,
+  soru: `O yıl yaz ortasında rüzgâr kesildi. Yedi adanın yelkenlileri kırk gün limandan çıkamadı; ağlar kurudu, ambarlar boşaldı. Balıkçılar her sabah yelkenleri direğe çekti, her akşam rüzgâr yüzü görmeden indirdi. Çocuklar ıslıkla rüzgâr çağırdı, deniz bir ayna gibi kıpırtısız kaldı. Yaşlılar, rüzgârların Dikenli Burun'daki mağarada uyuduğunu, onları uyandırmaya gidenin bir daha dönmediğini söylerdi. Reis kızı Yelda yine de küreklere asıldı. Yola çıkmadan önce halkının önünde, “Rüzgârı getirirsem önce benim yelkenime değil, adaların en küçük kayığına dolsun.” diye ant içti. Üç gün üç gece kürek çekti; avuçları kanadı ama küreği bırakmadı. Dördüncü sabah burnun sivri kayaları sisin içinden göründü. Mağaranın ağzını tutan dev kayayı tek omzuyla yerinden oynattı. Rüzgârların soluğu, mağaranın duvarlarını bir körük gibi şişirip indiriyordu. İçeride uyuyan dört rüzgâra, annesinden öğrendiği ninniyi tersinden söyledi; rüzgârlar birer birer gözlerini açtı. En yaşlıları, “Bizi uyandıran bizimle kalır.” diye gürledi. Yelda, “Halkım doysun, ben kalırım.” dedi. - - - -
+**Bu parçanın sonuna, parçanın türü ve olayların akışı göz önünde bulundurulduğunda aşağıdakilerden hangisi getirilmelidir?**`,
   gorsel: null,
-  secenekler: [
-    "1. metin günlük, 2. metin anıdır; çünkü ilki olay günü yazılmıştır.",
-    "1. metin anı, 2. metin günlüktür; çünkü ilki olaydan sonra yazılmıştır.",
-    "1. metin biyografi, 2. metin günlüktür; çünkü ilki başkasını anlatmaktadır.",
-    "Her ikisi de anıdır; çünkü ikisinde de yazar yaşadığını anlatmaktadır."
-  ],
+  secenekler: ["O akşam hafif bir esinti çıktı; adalılar bunu sonradan mevsimin dönmesine bağladı, Yelda'nın nereye gittiğini ise soran olmadı.", "Rüzgârlar mağaradan boşanıp önce en küçük kayığın yelkenini doldurdu; adalılar o gün bugündür burnu geçerken Yelda'ya seslenir.", "Dört rüzgâr denize yayılıp önce Yelda'nın limandaki yelkenini şişirdi; balıkçılar bugün de o burnun önünden onu selamlayarak geçer.", "Dört rüzgâr denize yayılıp önce en ufak kayığı limandan çıkardı; Yelda da aynı akşam adasına dönüp halkıyla bir sofraya oturdu."],
   dogru: 1,
-  hatalar: [
-    "Ters yön: olay günü tarih atarak yazılan 2. metindir (günlük); 1. metin “yıllar sonra bile hatırlarım” diyerek anı olduğunu gösteriyor.",
-    null,
-    "Anlatıcıyı yanlış okuma: 1. metin başkasını değil, yazarın kendi yaşadığını (“kazandığım gün”) anlatıyor; biyografi değil.",
-    "Ortak özelliği ayırıcı sanma: iki metinde de yazar yaşadığını anlatıyor ama 2. metin tarihli ve olay günü yazılmış; bu onu günlük yapıyor."
-  ],
-  aciklama: `Anı ve günlük, yazarın kendi yaşadıklarını anlattığı türlerdir. Anı aradan zaman geçtikten sonra hatırlanarak, günlük ise olay günü tarih atılarak yazılır.
-Adım 1: 1. metin “yıllar sonra bile ayrıntısıyla hatırlarım” diyor; olay geçmişte kalmış ve sonradan anlatılıyor. Anı.
-Adım 2: 2. metin “20 Ağustos Cuma” diye tarih atıyor, “bugün” diyerek günün olayını yazıyor. Günlük.
-Adım 3: İki metinde de olaylar aynı; ayıran şey, yazılma zamanı ve tarih.
-Sağlama: Tarih ve “bugün” = günlük; “yıllar sonra” = anı.
+  hatalar: ["Türe uymayan cümle: Parça, olağanüstü ögelerle anlatılan bir destandan alınmıştır; rüzgârlar uyuyan, konuşan varlıklardır. Bu cümle rüzgârın dönüşünü gündelik bir nedene (mevsimin dönmesi) bağlıyor ve kahramanı unutturuyor. Destanda olay olağanüstü yolla çözülür, kahraman da kuşaktan kuşağa anılır.", null, "Akışla çelişen cümle: Dili destana uygun, Yelda'nın burunda kalması da doğru. Ancak Yelda, rüzgârın “önce benim yelkenime değil, adaların en küçük kayığına” dolması için ant içmişti. Bu cümlede rüzgâr önce onun yelkenini şişiriyor; ant bozulmuş oluyor.", "Akışla çelişen cümle: Dili destana uygun, rüzgârın önce en küçük kayığa ulaşması da anda uyuyor. Ancak rüzgârlar “Bizi uyandıran bizimle kalır.” demiş, Yelda da “ben kalırım” diye kabul etmişti. Bu cümlede Yelda aynı akşam adasına dönüyor."],
+  aciklama: `Destan, bir toplumu derinden etkileyen olayı kahramanlık ve olağanüstü ögelerle anlatır; kahraman kendisi için değil toplumu için davranır ve anlatılanlar kuşaktan kuşağa yaşatılır. Bir parçayı tamamlarken iki şeyi birlikte gözetirsin: Cümle türe uymalı ve parçadaki ayrıntılarla çelişmemeli.
+Adım 1: Türü belirle: Yedi adayı etkileyen bir sıkıntı, tek omuzla oynatılan dev kaya, uyuyan ve konuşan rüzgârlar, “üç gün üç gece”... Parça bir destandan alınmış.
+Adım 2: Türe uymayan şıkkı ele: A, rüzgârın dönüşünü “mevsimin dönmesi” gibi gündelik bir nedene bağlıyor ve Yelda'yı unutturuyor. Oysa parçanın dünyasında rüzgârlar mağarada uyuyan, konuşan varlıklar; destan kahramanı da unutulmaz, anılır. A elenir.
+Adım 3: Kalan B, C ve D destan diliyle yazılmış. Şimdi akışa bak. Parçada Yelda'nın andı ne? Rüzgâr önce onun yelkenine değil, “adaların en küçük kayığına” dolacak. C'de rüzgâr önce Yelda'nın yelkenini şişiriyor; C elenir.
+Adım 4: Parçanın sonunda ne oluyor? Rüzgârlar “Bizi uyandıran bizimle kalır.” diyor, Yelda “ben kalırım” diye kabul ediyor. Yaşlıların sözü de bunu hazırlamıştı: Giden bir daha dönmüyor. D'de Yelda aynı akşam adasına dönüyor; D elenir.
+Adım 5: B'yi sağla: Rüzgâr önce en küçük kayığa doluyor (ant tutuluyor), Yelda burunda kalıyor ve adalılar onu o gün bugündür anıyor. Hem akışa hem de destanın “kuşaktan kuşağa yaşatılma” özelliğine uyar.
+Sık yapılan hata: Destan diline uyan ilk şıkkı seçip parçanın ortasındaki andı ve sondaki “ben kalırım” sözünü yeniden okumamak. Bu soruda iki ayrıntıyı da şıklarla karşılaştırman gerekir.
 Cevap B.`
 },
 {
@@ -649,28 +601,20 @@ Cevap B.`
   kazanim: "T.8.3.26",
   kademe: 3,
   zorluk: 4,
-  soru: `Tarımda kullanılan suyun büyük bölümü, salma sulama yöntemiyle toprağa verilmektedir. Bu yöntemde suyun önemli kısmı buharlaşma ve sızma yoluyla kaybolur. Damla sulama ise suyu doğrudan bitkinin köküne ulaştırdığı için aynı ürünü çok daha az suyla yetiştirmeye olanak tanır. Bu nedenle su sıkıntısı yaşanan bölgelerde damla sulamanın yaygınlaştırılması gerekir.
-**Bu metnin makale olduğu düşünülürse, aşağıdakilerden hangisi metin için söylenebilir?**`,
+  soru: `1. metin: Derin Yar'ın iki yakasındaki iki boy, dokuz kuşak boyunca birbirine ancak bağırarak haber saldı; düğünler ayrı kuruldu, yaslar ayrı tutuldu. Demirci Tok Temür bir sabah örsünü sırtlayıp uçurumun kıyısına geldi. İki yakadakiler kıyıya dizilip seyretti. Temür dokuz gün dokuz gece çekiç salladı; dövdüğü zincirin ucunu bir atışta karşı yakaya savurdu. Zincir kayaya değer değmez kırk karış genişledi, üstünden atlılar geçer oldu. İki boy o akşam tek sofraya oturdu. Zincirli Geçit'ten bugün de düğün alayları geçer.
+2. metin: Teknisyen Feride, derenin iki yakasındaki mahalleleri bağlayacak asma köprünün ilk halatı gerilirken ellerinin titrediğini kimse görmesin diye eldivenlerini çıkarmadı. Hesabı üç kez yapmış, yine de gece boyunca uyuyamamıştı. Karşı yakadakiler işe baştan beri soğuk bakıyordu; geçen ay toplantıda “Bize köprü değil, yol lazım.” diyen Hamdi Usta ise o sabah halatın ucunu ilk tutan oldu. Akşama doğru iki yakadan gelenler tahtaları birlikte döşedi. Çocuklar Feride'ye “köprücü abla” demeye başlamıştı; o ise yalnızca yorgundu ve aklı, annesine hâlâ açamadığı tayin haberindeydi.
+**Bu iki metinle ilgili aşağıdakilerden hangisi söylenebilir?**`,
   gorsel: null,
-  secenekler: [
-    "Düşünce, karşılaştırma yoluyla ve gerekçelendirilerek savunulmuştur.",
-    "Yazar, kişisel anılarını sohbet havasında aktarmıştır.",
-    "Metin, güncel bir olayın yorumu olarak kaleme alınmıştır.",
-    "Olaylar, kurmaca kişiler aracılığıyla anlatılmıştır."
-  ],
+  secenekler: ["Her ikisinde de iki yakayı birleştirme işi anlatılır; ancak kahramanın iç dünyası yalnızca 2. metinde verilmiştir.", "Her ikisinde de geçit iki yakadakilerin el birliğiyle kurulur; ancak olağanüstü ögeler yalnızca 1. metinde yer almıştır.", "Her ikisinde de yapılan iş sonunda halkça benimsenir; ancak işe karşı çıkanlardan yalnızca 1. metinde söz edilmiştir.", "Her ikisinde de kahraman işini kimseden yardım almadan bitirir; ancak 1. metin destandan, 2. metin romandan alınmıştır."],
   dogru: 0,
-  hatalar: [
-    null,
-    "Denemenin özelliğini makaleye verme: metinde kişisel anı ya da sohbet havası yok; bilgi veren nesnel bir dil var.",
-    "Fıkranın özelliğini makaleye verme: metin belli bir güncel olaya bağlı değil; su kullanımına ilişkin genel bir düşünceyi savunuyor.",
-    "Kurmacayı bilgilendirmeyle karıştırma: metinde kişi, olay örgüsü ya da kurmaca öge yok; bilgi ve gerekçe var."
-  ],
-  aciklama: `Makale, bir düşünceyi bilgi ve örneklerle kanıtlayan, nesnel ve ciddi bir dille yazılan yazıdır.
-Adım 1: Metin salma sulama ile damla sulamayı kıyaslıyor ve “damla sulama yaygınlaştırılmalı” düşüncesini nedenleriyle (su kaybı, tasarruf) savunuyor. A söylenebilir.
-Adım 2: B: Metinde kişisel anı ya da sohbet havası yok. B söylenemez.
-Adım 3: C: Metin belli bir güncel olaya bağlı değil, genel bir düşünceyi savunuyor. C söylenemez.
-Adım 4: D: Kurmaca kişi ya da olay örgüsü yok. D söylenemez.
-Sık yapılan hata: Kökteki “söylenebilir” sözünü okumadan başka bir türün özelliğini işaretlemek. Seçeneği metinle sına.
+  hatalar: [null, "Kısmen doğru: İkinci yarı doğru; olağanüstü ögeler (bir atışta karşıya varan, kayaya değince genişleyen zincir) yalnızca 1. metindedir. Ancak ilk yarı 1. metne uymaz: İki yakadakiler “kıyıya dizilip seyretti”, geçidi Temür tek başına kurdu. El birliği yalnızca 2. metinde var.", "Ters yön: İlk yarı doğru; iki boy tek sofraya oturuyor, çocuklar Feride'ye “köprücü abla” diyor. Ancak işe karşı çıkanlar 2. metindedir: Karşı yakadakiler soğuk bakıyor, Hamdi Usta “Bize köprü değil, yol lazım.” demiş. 1. metinde Temür'e karşı çıkan kimse anlatılmaz.", "Kısmen doğru: Türler doğru verilmiş; 1. metin destandan, 2. metin romandan alınmıştır. Ancak ilk yarı 2. metne uymaz: Halatın ucunu Hamdi Usta tutuyor, tahtaları iki yakadan gelenler birlikte döşüyor. İşini kimseden yardım almadan bitiren yalnızca Temür'dür."],
+  aciklama: `Roman da destan da kurmacadır ve ikisi de bir topluluğu ilgilendiren bir olayı anlatabilir. Farkı şuradan görürsün: Destanda olağanüstü ögeler, abartılı süreler ve toplum adına tek başına davranan bir kahraman vardır; anlatı kuşaktan kuşağa yaşatılır. Romanda olaylar gerçeğe benzer, kahraman sıradan bir insandır, iç dünyası ve çevresiyle ilişkileri anlatılır.
+Adım 1: Ortak noktayı bul: 1. metinde uçurumun iki yakasındaki iki boy, 2. metinde derenin iki yakasındaki iki mahalle birbirine bağlanıyor. İkisinde de iki yakayı birleştirme işi anlatılıyor.
+Adım 2: 1. metni tara: Dokuz gün dokuz gece çekiç sallamak, zinciri bir atışta karşıya savurmak, zincirin kırk karış genişlemesi olağanüstüdür. İki yakadakiler yalnızca “seyretti”; işi Temür tek başına yaptı. Temür'ün ne düşündüğü, ne hissettiği hiç anlatılmıyor. “Bugün de” sözü anlatının yaşatıldığını gösteriyor: destan.
+Adım 3: 2. metni tara: Olağanüstü hiçbir şey yok. Feride'nin elleri titriyor, gece uyuyamamış, yorgun, aklı annesine açamadığı tayin haberinde: iç dünyası veriliyor. Karşı çıkanlar var (karşı yakadakiler, Hamdi Usta); ama sonunda halatı Hamdi Usta tutuyor, tahtaları iki yakadan gelenler birlikte döşüyor: roman.
+Adım 4: Şıkların iki yarısını ayrı ayrı sına. A: iki yarısı da doğru. B: ikinci yarı doğru, ama 1. metinde el birliği yok. C: ilk yarı doğru, ama karşı çıkanlar 1. metinde değil 2. metinde. D: türler doğru, ama Feride işini yardım alarak bitiriyor.
+Adım 5: B ile D'yi yan yana koy: Biri “ikisinde de el birliği”, öbürü “ikisinde de yardımsız” diyor. Doğrusu ikisinin arasında: Temür yardımsız, Feride el birliğiyle.
+Sık yapılan hata: Şıkkın doğru yarısını görüp işaretlemek. B'de “olağanüstü ögeler yalnızca 1. metinde” sözü, D'de türlerin adı doğrudur; ama ikisinin de ilk yarısı metinlerden birine uymaz.
 Cevap A.`
 },
 

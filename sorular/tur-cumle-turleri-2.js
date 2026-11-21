@@ -382,23 +382,29 @@ Cevap D.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Türkçe öğretmeni, cümle türlerini pekiştirmek için çamaşırların toplanmasını anlatan aynı olayı dört farklı cümleyle yazıp tahtaya numaralandırarak astı. Cümleler farklı sözcük dizilişlerine ve farklı yapılara sahiptir. Öğrencilerden bu cümleleri hem yapılarına hem de yüklemin yerine göre incelemeleri istendi.
-**Bu cümlelerin hangisi yapısına göre birleşik, yüklemin yerine göre devrik bir cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Yağmur başlamadan annem çamaşırları topladı.</td></tr><tr><td>II</td><td>Topladı çamaşırları annem yağmurdan önce.</td></tr><tr><td>III</td><td>Yağmur başlamadan toplamıştı çamaşırları annem.</td></tr><tr><td>IV</td><td>Annem çamaşırları topladı ve içeri taşıdı.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Baraj gölündeki kürek kulübüne bu yaz yazıldım. Dört kürekçi ve bir dümenciden oluşan teknemizle her sabah göle açılıyoruz. İlk hafta bu sporun kol gücüyle yapıldığını sanıyordum; antrenörümüz, asıl gücün bacaklardan ve ekip uyumundan geldiğini söyledi. Antrenman günlüğüme yazdıklarımdan beş cümle şöyle:
+
+(I) Tekneyi iskeleden suya dördümüz indiririz, dümenci kıyıda bizi bekler. (II) Suyun en durgun olduğu saat, sabahın altısıdır. (III) Dümenci komut verince kürekler suya aynı anda girer. (IV) Tek bir hata teknenin hızını keser ama kıyıdaki seyirci bunu fark etmez. (V) Dört kişinin tek bir beden gibi çekmesi hiç kolay değildir bu teknede.
+
+Bu cümleleri Türkçe dersinde yüklemin türü, yüklemin yeri ve yapı bakımından inceleyen üç öğrenci şunları söylemiştir:
+
+Aras: “II ile V, yüklemlerinin türü bakımından aynıdır ama yüklemin yeri bakımından birbirinden ayrılır.”
+Bade: “I ile IV'te ikişer yargı vardır, bu yüzden ikisi de sıralı cümledir.”
+Cem: “II, III ve V yapıca birleşiktir ama bunlardan yalnızca III fiil cümlesidir.”
+
+**Buna göre hangi öğrencilerin söyledikleri doğrudur?**`,
+  gorsel: null,
+  secenekler: ["Yalnız Aras", "Yalnız Cem", "Aras ve Cem", "Bade ve Cem"],
   dogru: 2,
-  hatalar: [
-    "I birleşiktir ('başlamadan' fiilimsisi), ama yüklem 'topladı' en sondadır; cümle kurallıdır. İki ölçütten yalnızca birini sağlıyor.",
-    "II devriktir, ama tek yüklemlidir ve fiilimsi yoktur; cümle basittir. İki ölçütten yalnızca birini sağlıyor.",
-    null,
-    "IV bağlı cümledir ('ve' bağlacı) ve yüklem en sondadır; cümle kurallıdır. İki ölçütü de sağlamıyor."
-  ],
-  aciklama: `Bir cümleyi iki ayrı ölçüte göre sınıflandırırken her ölçüt ayrı ayrı denetlenir. Yapıya göre: basit, birleşik (fiilimsi, şart, ki, alıntı), sıralı, bağlı. Yüklemin yerine göre: kurallı (yüklem sonda), devrik (yüklem sonda değil).
-Adım 1: I → 'başlamadan' fiilimsi, yan yargı kurar: birleşik. Yüklem 'topladı' sonda: kurallı. Ölçütlerden biri tutmuyor.
-Adım 2: II → fiilimsi yok, tek yüklem: basit. Yüklem 'topladı' sonda değil: devrik. Birleşik ölçütü tutmuyor.
-Adım 3: IV → 've' bağlaçlı: bağlı. Yüklem sonda: kurallı. İki ölçüt de tutmuyor.
-Adım 4: III → 'başlamadan' fiilimsisi: birleşik. Yüklem 'toplamıştı' ardından 'çamaşırları annem' geliyor: devrik. İki ölçüt de tutuyor.
-Sağlama: III'te 'toplamıştı' yüklemi sonda değildir ve cümlede fiilimsi vardır.
+  hatalar: ["Fiilimsiyi gözden kaçırma: II'deki “olduğu” ve V'teki “çekmesi” yan yargı kurar. Bu cümleleri basit sayınca Cem'in doğru tespitini yanlış sanırsın.", "Yüklemin yerini denetlememe: V'te “kolay değildir” yükleminden sonra “bu teknede” gelir, cümle devriktir; II ise kurallıdır. Aras'ın söylediği de doğrudur.", null, "Sıralı ile bağlıyı karıştırma: IV'te iki yargıyı “ama” bağlacı bağlar, cümle bağlıdır; Bade yanılıyor. Aras'ın tespiti ise doğrudur."],
+  aciklama: `Her cümlede önce yüklemi bul, sonra üç soruyu ayrı ayrı sor: Yüklem isim mi fiil mi? Sonda mı? Kaç yargı var ve bunlar nasıl bağlanmış?
+Adım 1: I → yüklemler “indiririz” ve “bekler”. İki bağımsız yargı bağlaçsız, virgülle dizilmiş: sıralı cümle.
+Adım 2: II → yüklem “sabahın altısıdır” (isim soylu) ve sonda: kurallı. “olduğu” sıfat-fiili yan yargı kurar: birleşik.
+Adım 3: III → yüklem “girer” (fiil) ve sonda. “verince” zarf-fiili yan yargı kurar: birleşik.
+Adım 4: IV → yüklemler “keser” ve “fark etmez”. İki yargı “ama” bağlacıyla bağlanmış: bağlı cümle. Sıralı değil.
+Adım 5: V → yüklem “kolay değildir” (isim soylu); ardından “bu teknede” geldiği için devrik. “çekmesi” isim-fiili yan yargı kurar: birleşik.
+Adım 6: Aras doğru söylüyor: II ve V isim cümlesi; II kurallı, V devrik. Bade yanılıyor: I sıralı ama IV bağlı. Cem doğru söylüyor: II, III ve V birleşik; üçünden yalnızca III'ün yüklemi fiil.
+Sık yapılan hata: İki yargılı her cümleyi sıralı saymak. Yargılar virgülle dizilmişse cümle sıralı, “ama, ve, çünkü” gibi bir bağlaçla bağlanmışsa bağlıdır. Bir de kısa isim cümlesini hemen basit sanma; II'deki “olduğu” gibi bir fiilimsi cümleyi birleşik yapar.
 Cevap C.`
 },
 {
@@ -406,23 +412,25 @@ Cevap C.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Okulun ilk günü yaşananları anlatan bir yazıdan dört cümle alınarak aşağıda numaralandırılmıştır. Cümlelerin bazılarında yer tamlayıcısı (dolaylı tümleç) bulunmakta, bazılarında ise yapı bakımından birleşik cümle özelliği görülmektedir. Öğrencilerden iki özelliği birlikte taşıyan cümleyi bulmaları isteniyor.
-**Bu cümlelerin hangisi hem yer tamlayıcısı (dolaylı tümleç) bulunduran hem de birleşik olan bir cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Zil çalınca herkes sustu.</td></tr><tr><td>II</td><td>Çocuklar parkta salıncakta sallandı.</td></tr><tr><td>III</td><td>Çocuklar bahçeye çıktı ve top oynadı.</td></tr><tr><td>IV</td><td>Öğretmen sınıfa girince öğrenciler ayağa kalktı.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Antarktika'yı örten buz tabakasının kalınlığı yer yer dört kilometreyi aşar. Her yıl yağan kar bir öncekinin üstüne biner, zamanla sıkışıp buza dönüşür; kar taneleri arasındaki hava da küçük kabarcıklar hâlinde buzun içinde hapsolur. Bu kabarcıklar, karın yağdığı dönemin havasından alınmış küçük birer örnek gibidir. En alttaki katmanlar en eski karlardan oluştuğu için matkap derine indikçe zamanda geriye gidilmiş olur. Bilim insanları bu buzu özel matkaplarla delerek “buz çekirdeği” denen uzun silindirler çıkarır ve bunları soğutmalı kaplarda laboratuvara gönderir. - - - - Tüplerdeki bu hava örneklerinde karbondioksit oranı ölçülür; böylece yüz binlerce yıl önceki atmosferin nasıl olduğu, o günlerden kalan havanın kendisine bakılarak öğrenilir.
+
+Bu metni okul dergisi için yazan Zeynep, boş bırakılan yere düşüncenin akışına uyan bir cümle ekleyecektir. Türkçe öğretmeni, eklenecek cümlenin dil bilgisi bakımından şu üç özelliği de taşımasını istemiştir:
+· Yüklemi çekimli bir fiil olacak.
+· Yüklem cümlenin sonunda bulunmayacak.
+· Cümle yapıca birleşik olacak.
+
+**Buna göre boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?**`,
+  gorsel: null,
+  secenekler: ["Kampa uçaklarla taşınır sondajda kullanılan ağır matkaplar.", "Tüplerin içindedir artık ezilen buzdan çıkan o eski hava.", "Uzmanlar, kabarcıklarda saklanan havayı ince tüplere aktarır.", "Ezilen buzdan çıkan havayı tüplerde toplar araştırmacılar."],
   dogru: 3,
-  hatalar: [
-    "I birleşiktir ('çalınca'), ama yüklemi 'sustu' olan ana yargıda yer tamlayıcısı yoktur; iki özelliği birlikte taşımıyor.",
-    "II'de 'parkta' ve 'salıncakta' yer tamlayıcılarıdır, ama cümle tek yüklemlidir ve fiilimsi yoktur; basittir.",
-    "III'te 'bahçeye' yer tamlayıcısıdır, ama cümle 've' ile bağlı iki yargıdan oluşur; birleşik değil bağlıdır.",
-    null
-  ],
-  aciklama: `Yer tamlayıcısı, yükleme 'nereye, nerede, nereden' sorularıyla bulunan ve '-e, -de, -den' eki alan ögedir. Birleşik cümle ise fiilimsi, şart eki, 'ki' ya da alıntıyla kurulur.
-Adım 1: I → 'çalınca' fiilimsisi var: birleşik. Yer tamlayıcısı yok. İki özellik birlikte değil.
-Adım 2: II → 'parkta, salıncakta' yer tamlayıcısı var; ama cümle tek yüklemli, basit. İki özellik birlikte değil.
-Adım 3: III → 'bahçeye' yer tamlayıcısı var; ama cümle 've' ile bağlı. Birleşik değil.
-Adım 4: IV → 'girince' fiilimsisi yan yargı kurar: birleşik. 'Sınıfa girince' 'Nereye girince?' sorusunun yanıtıdır; ayrıca 'ayağa' da yer tamlayıcısıdır. İki özellik birlikte.
-Sık yapılan hata: Yalnızca bir özelliği arayıp ikincisini denetlememek. Önce ikisini ayrı ayrı sorgula.
+  hatalar: ["Yalnızca dil bilgisine bakıp akışı unutma: cümle üç özelliği de taşır ama matkapların taşınmasını anlatır. Sonraki cümledeki “tüplerdeki bu hava örnekleri” sözü karşılıksız kalır.", "Yüklemin türünü denetlememe: cümle akışa uyar, devriktir ve fiilimsi taşır; ama yüklemi “içindedir” isim soyludur, çekimli fiil değildir.", "Yüklemin yerini denetlememe: cümle akışa uyar, yüklemi “aktarır” çekimli fiildir ve “saklanan” fiilimsisiyle birleşiktir; ama yüklem cümlenin sonundadır.", null],
+  aciklama: `Boşluğa gelecek cümle iki sınavdan geçmeli: metnin akışına uymalı ve üç dil bilgisi özelliğini birlikte taşımalı.
+Adım 1: Akışa bak. Boşluktan sonraki cümle “Tüplerdeki bu hava örnekleri” diye başlıyor. Demek ki boşluktaki cümle, havanın buzdan çıkarılıp tüplere alındığını anlatmalı.
+Adım 2: A → yüklem “taşınır” (fiil) ve sonda değil; “kullanılan” sıfat-fiili var. Üç özellik tamam. Ama cümle matkapların kampa taşınmasını anlatıyor; tüplerden de havadan da söz etmiyor. Üstelik metin çekirdeklerin laboratuvara gönderilmesine kadar gelmişken geriye dönüyor. Akışa uymaz.
+Adım 3: B → akışa uyar; “ezilen” ve “çıkan” fiilimsileri var, yüklemden sonra söz geliyor. Ama yüklem “içindedir”: isim soylu. Birinci özellik yok.
+Adım 4: C → akışa uyar; yüklem “aktarır” çekimli fiil, “saklanan” sıfat-fiili de yan yargı kurar. Ama yüklemden sonra hiçbir söz gelmiyor; yüklem cümlenin sonunda. İkinci özellik yok.
+Adım 5: D → akışa uyar. Yüklem “toplar” çekimli fiil; ardından “araştırmacılar” geliyor, yüklem sonda değil. “Ezilen” ve “çıkan” sıfat-fiilleri yan yargı kurar, cümle birleşik. Hepsi tamam.
+Sık yapılan hata: Özelliklerden ikisini bulunca durmak. B ile C akışa uyar ve ikişer özelliği taşır; ama B'nin yüklemi isim soyludur, C'nin yüklemi sondadır. Üç özelliği tek tek işaretle. Bir de yalnızca dil bilgisine bakıp akışı unutma; A üç özelliği taşıdığı hâlde metne oturmaz.
 Cevap D.`
 },
 {
@@ -430,28 +438,25 @@ Cevap D.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, yaz tatilinde dedesinin köyünde geçirdiği günleri anlatan bir yazı yazdı. Yazıdan alınan bölümde cümleler numaralandırılmıştır.
-(1) Dedemin köyüne her yaz otobüsle giderdik. (2) Sabahları horozlar öterdi, biz yataklarımızdan fırlardık. (3) Öğleden sonra ırmağa inip taşlarla köprü kurardık. (4) Güneş batınca evlere dönerdik.
-Bu bölümdeki cümlelerle ilgili şu yargılar verilmiştir:
-I. (1). cümle birleşik cümledir.
-II. (2). cümle sıralı cümledir.
-III. (3). cümle fiil cümlesi olup birleşiktir.
-**Buna göre bu yargılardan hangileri doğrudur?**`,
-  gorsel: null,
-  secenekler: ["Yalnız II","II ve III","I ve III","I, II ve III"],
+  soru: `Mahalle kütüphanesinin atölyesine bir 3B yazıcı alındı. Bu makine, makaradaki plastik teli eritir ve erittiği plastiği incecik katmanlar hâlinde üst üste dizer; ekranda çizilen model böylece elle tutulur bir nesneye dönüşür. Atölyeye katılan Defne, fen projesi için küçük bir köprü maketi bastırdı ve o gün gördüklerini defterine yazdı:
+
+(I) Tabla ısınınca makine kısa bir ses çıkardı, ince uç sola kaydı. (II) Kütüphanedeki yazıcı; anahtarlıkları, vidaları ve küçük dişlileri birkaç saatte üretiyor. (III) İlk baskıda köprünün ayakları biraz eğriydi. (IV) Katman katman yükseldi tablanın üstündeki minik köprü. (V) Epeyce pürüzlüydü köprünün yan yüzeyleri.
+
+Defne, bu cümleleri türlerine göre ayırmak için bir oyun kurdu. Her cümleye aşağıdaki tabloda yer alan soruları 1. adımdan başlayarak sırayla soruyor ve cümleyi ulaştığı kutuya atıyor.
+
+**Buna göre beş cümle de kutulara atıldığında hangi kutu boş kalır?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>Adım</th><th>Soru</th><th>Cevap “evet” ise</th><th>Cevap “hayır” ise</th></tr><tr><td>1</td><td>Cümlede fiilimsi var mı?</td><td>Mavi kutuya at.</td><td>2. adıma geç.</td></tr><tr><td>2</td><td>Cümlede birden fazla çekimli yüklem var mı?</td><td>Sarı kutuya at.</td><td>3. adıma geç.</td></tr><tr><td>3</td><td>Cümlenin yüklemi isim soylu mu?</td><td>Yeşil kutuya at.</td><td>4. adıma geç.</td></tr><tr><td>4</td><td>Yüklemden sonra başka bir söz geliyor mu?</td><td>Kırmızı kutuya at.</td><td>Beyaz kutuya at.</td></tr></table>",
+  secenekler: ["Mavi kutu", "Sarı kutu", "Yeşil kutu", "Kırmızı kutu"],
   dogru: 1,
-  hatalar: [
-    "III'ü de doğru bulmalıydın: (3). cümlenin yüklemi 'kurardık' fiildir ve 'inip' fiilimsisi cümleyi birleşik yapar. Yalnız II demek eksik kalır.",
-    null,
-    "I yanlıştır: (1). cümlede tek yüklem ('giderdik') var ve fiilimsi, şart, ki ya da alıntı yoktur; cümle basittir. II ise doğrudur.",
-    "I yanlıştır; (1). cümle birleşik değil basittir. Üç yargıyı birden doğru saymak için I'in de doğru olması gerekirdi."
-  ],
-  aciklama: `Basit cümle tek yargıdan oluşur; birleşik cümlede fiilimsi, şart eki, 'ki' ya da alıntıyla kurulmuş bir yan yargı bulunur; sıralı cümlede bağımsız yargılar bağlaçsız, virgülle sıralanır.
-Adım 1: I → (1). cümlede tek yüklem ('giderdik') var, fiilimsi yok. Cümle basittir; yargı yanlış.
-Adım 2: II → (2). cümlede 'öterdi' ve 'fırlardık' bağımsız iki yüklem; aralarında bağlaç yok, virgül var. Cümle sıralıdır; yargı doğru.
-Adım 3: III → (3). cümlede 'inip' fiilimsisi (zarf-fiil) var, yüklem 'kurardık' çekimli fiil. Cümle hem fiil cümlesi hem birleşiktir; yargı doğru.
-Adım 4: Doğru yargılar II ve III.
-Sık yapılan hata: 'Her yaz otobüsle' gibi zaman ve araç bildiren sözlere bakıp cümleyi birleşik sanmak. Yan yargı kuran bir yapı yoksa cümle basittir.
+  hatalar: ["Sırayı atlama: I. cümlede iki çekimli yüklemi görüp cümleyi Sarı kutuya attın. İlk soru fiilimsiyi sorar; “ısınınca” yüzünden I. cümle Mavi kutuya gider, Mavi boş kalmaz.", null, "Ek fiil almış sıfatı fiil sanma: “eğriydi” ve “pürüzlüydü” çekimli fiil değil, isim soylu yüklemdir. III ve V. cümleler Yeşil kutuya gider, Yeşil boş kalmaz.", "-ki ekini fiilimsi sanma: IV. cümledeki “üstündeki” sözü yan yargı kurmaz. Cümle 4. adıma kadar gelir ve yüklemden sonra söz bulunduğu için Kırmızı kutuya gider."],
+  aciklama: `Bu oyunda sıra önemlidir: bir cümle “evet” cevabını aldığı ilk adımda kutusuna gider, sonraki sorular ona sorulmaz.
+Adım 1: I → “ısınınca” bir zarf-fiildir, yani fiilimsidir. 1. adımda “evet”: Mavi kutu. İki çekimli yüklemi (“çıkardı”, “kaydı”) olsa da 2. adıma hiç gelmez.
+Adım 2: II → fiilimsi yok (“kütüphanedeki” sözündeki -ki eki fiilimsi eki değildir). Virgüller ve “ve”, art arda sayılan adları ayırıyor; tek çekimli yüklem var: “üretiyor”. Yüklem fiil ve sonda: Beyaz kutu.
+Adım 3: III → fiilimsi yok, tek yüklem var: “eğriydi”. “Eğri” bir sıfattır, ek fiil almıştır; yüklem isim soylu: Yeşil kutu.
+Adım 4: IV → fiilimsi yok (“üstündeki” -ki eklidir), tek yüklem “yükseldi” fiil; ardından “tablanın üstündeki minik köprü” geliyor: Kırmızı kutu.
+Adım 5: V → fiilimsi yok, tek yüklem “pürüzlüydü”. Bu da ek fiil almış bir sıfattır, isim soylu yüklemdir. Yüklemden sonra söz gelse de cümle 4. adıma inmez; 3. adımda “evet” cevabını alır: Yeşil kutu.
+Adım 6: Mavi'de I, Yeşil'de III ile V, Kırmızı'da IV, Beyaz'da II var. Sarı kutuya hiçbir cümle düşmedi.
+Sık yapılan hata: I. cümlede iki çekimli yüklemi görüp cümleyi hemen Sarı kutuya atmak. İlk soru fiilimsiyi soruyor ve “ısınınca” cümleyi 1. adımda Mavi kutuya gönderiyor. II. cümledeki virgüller de seni yanıltmasın; onlar yargıları değil, art arda sayılan adları ayırıyor.
 Cevap B.`
 },
 {
@@ -459,23 +464,21 @@ Cevap B.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir belediye çalışanı, kış hazırlıklarıyla ilgili hazırladığı raporda yolların durumunu dört cümleyle özetledi. Cümleler aşağıda numaralandırılmıştır. Cümlelerin bir kısmında yüklem fiil, bir kısmında isim soyludur; yapıları da birbirinden farklıdır.
-**Bu cümlelerin hangisi yüklemi isim soylu olan birleşik cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Yağmur yağınca yollar kayganlaştı.</td></tr><tr><td>II</td><td>Yollar kaygandı, sokaklar ıssızdı.</td></tr><tr><td>III</td><td>Yağmur yağarsa yollar kaygandır.</td></tr><tr><td>IV</td><td>Yağmur dinince yolları temizledik.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Tuz Gölü, flamingoların Türkiye'deki en önemli üreme alanlarından biridir. Elif, gölde yuva yapan bu kuşları anlatan bir yazı hazırlayıp okul dergisine gönderdi. Derginin yayın kurulu, yazıdaki dört cümleyi küçük değişikliklerle yeniden kurdu. Elif, cümlelerin ilk ve son hâllerini aşağıdaki tabloda yan yana yazdı. Sonra her satırda iki şeye baktı:
+· Cümlenin yapısı (basit, birleşik, sıralı, bağlı) değişmiş mi?
+· Yüklemin türü (isim, fiil) değişmiş mi?
+
+**Buna göre numaralanmış satırların hangisinde yapılan değişiklik, cümlenin hem yapısını hem de yükleminin türünü değiştirmiştir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Elif'in yazdığı cümle</th><th>Dergide yayımlanan cümle</th></tr><tr><td>I</td><td>Yavrular yumurtadan gri tüylerle çıkar ama birkaç yıl içinde pembeleşir.</td><td>Yavrular yumurtadan gri tüylerle çıkar, birkaç yıl içinde pembeleşir.</td></tr><tr><td>II</td><td>Flamingoların pembe rengi, beslendikleri küçük canlılardan gelir.</td><td>Flamingoların pembe renginin kaynağı, beslendikleri küçük canlılardır.</td></tr><tr><td>III</td><td>Göl yazın çekilir, kıyıda bembeyaz bir tuz kabuğu kalır.</td><td>Göl yazın çekilince kıyıda kalan şey bembeyaz bir tuz kabuğudur.</td></tr><tr><td>IV</td><td>Göl erken kurursa kuşlar o yıl yuva yapmaz.</td><td>Göl erken kuruyunca kuşlar o yıl yuva yapmaz.</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
-  hatalar: [
-    "I birleşiktir ('yağınca'), ama yüklem 'kayganlaştı' bir fiildir; isim cümlesi değildir.",
-    "II'nin yüklemleri isim soyludur ('kaygandı', 'ıssızdı'), ama iki bağımsız yargı virgülle sıralanmıştır; cümle sıralıdır, birleşik değildir.",
-    null,
-    "IV birleşiktir ('dinince'), ama yüklem 'temizledik' bir fiildir; isim cümlesi değildir."
-  ],
-  aciklama: `İki ölçüt vardır: yüklem isim soylu mu (isim cümlesi), yapı birleşik mi? İkisi de sağlanmalıdır.
-Adım 1: I → 'yağınca' ile birleşik; yüklem 'kayganlaştı' fiil. İsim cümlesi değil.
-Adım 2: IV → 'dinince' ile birleşik; yüklem 'temizledik' fiil. İsim cümlesi değil.
-Adım 3: II → yüklemler 'kaygandı' ve 'ıssızdı' isim soylu; ama yargılar bağımsız ve virgülle sıralanmış: sıralı. Birleşik değil.
-Adım 4: III → 'yağarsa' şart ekiyle yan yargı kurar: birleşik. Yüklem 'kaygandır' isim soylu ('kaygan' sıfat + ek fiil). İki ölçüt de sağlanıyor.
-Sık yapılan hata: Yüklemin türünü ve cümlenin yapısını karıştırmak. Biri yüklem sözcüğünün türüne, diğeri yargıların bağlanış biçimine bakar.
+  hatalar: ["Yalnızca yapıdaki değişikliği görme: “ama” kalkınca bağlı cümle sıralıya döner, ama iki hâlde de yüklemler fiildir; yüklemin türü değişmemiştir.", "Fiilimsiyi gözden kaçırma: yüklem “gelir”den “canlılardır”a dönüp isim soylu olur, ama “beslendikleri” iki hâlde de yan yargı kurar; yapı birleşik kalır.", null, "Şart ekiyle fiilimsiyi ayrı yapı sanma: “kurursa” da “kuruyunca” da yan yargı kurar; cümle iki hâlde de birleşiktir, yüklem de aynı fiildir."],
+  aciklama: `Her satırda iki hâli ayrı ayrı çözümle: önce yüklemi bul (isim mi, fiil mi), sonra yargıları say (yapı).
+Adım 1: I → ilk hâlde “çıkar” ve “pembeleşir” yüklemleri “ama” ile bağlanmış: bağlı cümle, fiil cümlesi. Son hâlde aynı yargılar virgülle dizilmiş: sıralı cümle, fiil cümlesi. Yapı değişti, yüklemin türü değişmedi.
+Adım 2: II → ilk hâlde yüklem “gelir” (fiil); “beslendikleri” sıfat-fiili var: birleşik. Son hâlde yüklem “canlılardır” (isim soylu); “beslendikleri” yine cümlede: birleşik. Yüklemin türü değişti, yapı değişmedi.
+Adım 3: III → ilk hâlde “çekilir” ve “kalır” yüklemleri virgülle dizilmiş: sıralı cümle, fiil cümlesi. Son hâlde tek yüklem var, “tuz kabuğudur” (isim soylu); “çekilince” ve “kalan” fiilimsileri yan yargı kurar: birleşik. Hem yapı hem yüklemin türü değişti.
+Adım 4: IV → ilk hâlde “kurursa” şart ekiyle yan yargı kurar: birleşik; yüklem “yapmaz” fiil. Son hâlde “kuruyunca” zarf-fiili yan yargı kurar: yine birleşik; yüklem yine “yapmaz”. İkisi de değişmedi.
+Sık yapılan hata: II. satırda cümle baştan kurulduğu için yapının da değiştiğini sanmak. “Beslendikleri” fiilimsisi iki hâlde de durur; cümle iki hâlde de birleşiktir. Yapıya karar verirken sözcüklerin yer değiştirmesine değil, yan yargının kalıp kalmadığına bak.
 Cevap C.`
 },
 {
@@ -483,23 +486,24 @@ Cevap C.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir sinema kulübünün üyeleri, kulüp günlüğüne yazdıkları cümleleri iki ayrı ölçüte göre sınıflandırıyor: anlamına göre (olumlu, olumsuz, soru) ve yüklemin yerine göre (kurallı, devrik). Günlükten alınan dört cümle aşağıda numaralandırılmıştır.
-**Bu cümlelerin hangisi hem soru cümlesi hem de devrik cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Geldin mi dün akşam sinemaya?</td></tr><tr><td>II</td><td>Dün akşam sinemaya kimlerle gittin?</td></tr><tr><td>III</td><td>Gitmedi sinemaya dün akşam kimse.</td></tr><tr><td>IV</td><td>Sinemadan çıkınca doğruca eve döndük.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Şehrin en işlek caddesi, iki yıl süren çalışmaların ardından araçlara kapatıldı ve ortasına tramvay rayları döşendi. Dükkân sahiplerinin bir bölümü, müşteri kaybedeceğini düşünerek başlangıçta bu karara karşı çıkmıştı. Belediyenin sayımına göre caddeden geçen yaya sayısı bir yılda iki katına çıktı. Bugün aynı esnaf, dükkânının önünden geçen kalabalıktan memnun görünüyor. Eskiden korna sesiyle ve egzoz dumanıyla anılan cadde, şimdi şehrin buluşma yeri oldu. Caddedeki değişimi bir yıl sonra anlatan gazete yazısından alınan bölümde cümleler numaralandırılmıştır:
+
+(I) Tramvay hattı açılınca caddeden otomobiller çekildi. (II) Eskisi kadar gürültülü değil cadde artık. (III) Yayalar yolun ortasından yürüyor ve tramvayın zili onları uzaktan uyarıyor. (IV) Hat sahile uzatılırsa cadde hafta sonları daha da kalabalıklaşacak. (V) Esnaf, kaldırıma masa koymanın ve vitrinini yenilemenin yollarını arıyor. (VI) Akşamları gitar sesleri yükselir caddenin iki ucundan.
+
+Türkçe dersinde bu cümleler yüklemin türü, yüklemin yeri, anlam ve yapı bakımından incelenmiş; cümlelerle ilgili dört ifade tahtaya yazılmıştır.
+
+**Buna göre numaralanmış cümlelerle ilgili aşağıdakilerden hangisi __söylenemez__?**`,
+  gorsel: null,
+  secenekler: ["III ile V. cümlelerde “ve” aynı görevdedir; ikisi de yapıca bağlı cümledir.", "I ile IV. cümleler birleşiktir; birinde fiilimsi, ötekinde şart eki vardır.", "II ile VI. cümleler devriktir; bunlardan yalnızca II olumsuz bir isim cümlesidir.", "I, III, IV ve V. cümleler olumlu fiil cümlesidir; hiçbiri devrik değildir."],
   dogru: 0,
-  hatalar: [
-    null,
-    "II soru cümlesidir ('kimlerle'), ama yüklem 'gittin' en sondadır; cümle kurallıdır, devrik değildir.",
-    "III devriktir (yüklem 'gitmedi' sonda değil), ama anlamca olumsuzdur; soru cümlesi değildir.",
-    "IV ne soru cümlesidir ne de devriktir; yüklem 'döndük' en sondadır ve cümle bildirir."
-  ],
-  aciklama: `Soru cümlesi yanıt bekler; devrik cümlede yüklem sonda değildir. Aranan cümlede iki özellik birlikte bulunmalı.
-Adım 1: II → 'kimlerle gittin' soru; yüklem 'gittin' sonda. Kurallı. Devrik değil.
-Adım 2: III → yüklem 'gitmedi' sonda değil: devrik. Ama bildirme (olumsuz) cümlesi, soru değil.
-Adım 3: IV → yüklem 'döndük' sonda: kurallı; soru değil, bildirme.
-Adım 4: I → 'Geldin mi' soru eki taşıyor ve yanıt bekliyor: soru. Yüklem 'geldin' ardından 'dün akşam sinemaya' sözleri geliyor: devrik. İki özellik de var.
-Sık yapılan hata: Soru cümlelerini hep yüklemi sonda sanmak. Soru eki yüklemin hemen arkasına gelir ama cümlenin başka ögeleri yüklemden sonra gelebilir.
+  hatalar: [null, "Şart ekini yan yargı saymama: IV'teki “uzatılırsa” sözü de I'deki “açılınca” gibi yan yargı kurar. İfade doğrudur, söylenebilir.", "“Değil”li yüklemi gözden kaçırma: II'de yüklem “gürültülü değil” isim soylu ve olumsuzdur, VI'da yüklem “yükselir” olumlu bir fiildir; ikisinde de yüklemden sonra söz gelir. İfade doğrudur, söylenebilir.", "Genelleme içeren ifadeyi peşinen yanlış sayma: I, III, IV ve V'in yüklemleri olumsuzluk eki almamış çekimli fiillerdir ve dördünde de yüklem sondadır. “Hiçbiri” sözü burada doğrudur; ifade söylenebilir."],
+  aciklama: `Olumsuz köklü soruda dört ifadeyi de sınaman gerekir; yanlış olan tek ifade cevaptır.
+Adım 1: Yüklemleri bul. I “çekildi”, II “gürültülü değil”, III “yürüyor” ve “uyarıyor”, IV “kalabalıklaşacak”, V “arıyor”, VI “yükselir”.
+Adım 2: B'yi sına. I'de “açılınca” zarf-fiili, IV'te “uzatılırsa” sözündeki şart eki yan yargı kurar. İkisi de birleşik: B söylenebilir.
+Adım 3: C'yi sına. II'de yüklemden sonra “cadde artık”, VI'da “caddenin iki ucundan” geliyor: ikisi de devrik. II'nin yüklemi “gürültülü değil” isim soyludur ve “değil” cümleyi olumsuz yapar; VI'nın yüklemi “yükselir” olumlu bir fiildir. Olumsuz isim cümlesi yalnızca II: C söylenebilir.
+Adım 4: D'yi sına. I, III, IV ve V'in yüklemleri çekimli fiildir; hiçbirinde -ma/-me eki yoktur, dördü de olumludur. Dördünde de yüklem sondadır: D söylenebilir.
+Adım 5: A'yı sına. III'te “ve” iki yargıyı bağlar (yürüyor, uyarıyor): bağlı cümle. V'te ise tek çekimli yüklem vardır: “arıyor”. Buradaki “ve”, “masa koymanın” ile “vitrinini yenilemenin” sözlerini, yani iki isim-fiil öbeğini bağlar. V bağlı değil, fiilimsiyle kurulmuş birleşik bir cümledir. A söylenemez.
+Sık yapılan hata: “ve” gördüğün her cümleyi bağlı saymak. Bağlı cümlede bağlacın iki yanında birer çekimli yüklem bulunur. “ve” sözcükleri ya da fiilimsi öbeklerini bağlıyorsa cümle bağlı olmaz.
 Cevap A.`
 },
 {
@@ -507,23 +511,26 @@ Cevap A.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, bir telefon konuşmasını anlatırken aynı olayı dört farklı biçimde yazdı. Cümleler anlam ve yapı bakımından birbirinden ayrılıyor. Öğretmeni, öğrenciden bu cümleleri anlamına göre ve yapısına göre incelemesini istedi.
-**Bu cümlelerin hangisi anlamca olumsuz, yapıca sıralı bir cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Telefon çaldı, hemen açtım.</td></tr><tr><td>II</td><td>Telefon çalmadı, mesaj gelmedi.</td></tr><tr><td>III</td><td>Telefon çalmadan mesajı gönderdi.</td></tr><tr><td>IV</td><td>Telefon çaldı ama açmadım.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `On iki yıl oturduğumuz evden geçen cumartesi taşındık. Yeni evimiz daha geniş, okuluma da daha yakın; yine de o sabah içimde tuhaf bir burukluk vardı. Kardeşim ise yeni odasını düşünüp seviniyordu. Hepimiz erkenden kalkmıştık; nakliye kamyonu saat yedide sokağın başında göründü. O günü unutmamak için akşam defterime bir şeyler yazdım. Ertesi hafta Türkçe çalışırken bu yazıdan altı cümle seçip numaralandırdım:
+
+(I) Kamyon kapıya yanaşınca babam kolileri tek tek saydı. (II) Bir veda gibiydi boşalan odaların sessizliği. (III) Asansöre sığmadı salondaki büyük koltuk. (IV) Annem perdeleri katladı, ben kitapları kolilere yerleştirdim. (V) Bizim değildi artık anahtarını teslim ettiğimiz bu ev. (VI) Balkondan son kez baktım büyüdüğüm sokağa.
+
+Her cümleyi üç ölçüte göre inceledim: yüklemin türü (isim cümlesi, fiil cümlesi), yüklemin yeri (kurallı, devrik) ve yapı (basit, birleşik, sıralı, bağlı). İnceleyince altı cümleden yalnızca ikisinin üç ölçütte de aynı sonucu verdiğini gördüm.
+
+**Buna göre üç ölçütte de aynı sonucu veren cümleler aşağıdakilerin hangisinde birlikte verilmiştir?**`,
+  gorsel: null,
+  secenekler: ["I ve IV", "II ve V", "III ve VI", "V ve VI"],
   dogru: 1,
-  hatalar: [
-    "I sıralıdır ama olumlu bir cümledir: 'çaldı' ve 'açtım' işlerin gerçekleştiğini bildirir.",
-    null,
-    "III olumsuz biçimli bir fiilimsi ('çalmadan') taşır; cümle birleşiktir, sıralı değildir ve yüklemi olumludur.",
-    "IV bağlı cümledir ('ama' bağlacı); sıralı değildir."
-  ],
-  aciklama: `Sıralı cümle bağlaçsızdır; olumsuz cümlenin yüklemleri '-ma, -me' ya da 'değil' ile olumsuzlanır. İki ölçüt birlikte aranır.
-Adım 1: III → 'çalmadan' fiilimsisi var: birleşik. Yüklem 'gönderdi' olumlu. İki ölçüt de tutmuyor.
-Adım 2: IV → 'ama' bağlacı var: bağlı. Sıralı değil.
-Adım 3: I → iki yüklem virgülle sıralanmış: sıralı. Yüklemler 'çaldı' ve 'açtım' olumlu. Olumsuz değil.
-Adım 4: II → 'çalmadı' ve 'gelmedi' bağımsız iki yüklem, virgülle sıralanmış: sıralı. İkisi de '-ma/-me' eklidir: olumsuz.
-Sık yapılan hata: Cümlenin yapısına bakıp anlamı denetlememek. Önce yapıyı, sonra yüklemin olumlu mu olumsuz mu olduğunu ayrı ayrı sorgula.
+  hatalar: ["Sıralı ile birleşiği karıştırma: ikisi de kurallı fiil cümlesidir ama I'de “yanaşınca” yan yargı kurar (birleşik), IV'te iki bağımsız yargı virgülle dizilmiştir (sıralı).", null, "Fiilimsiyi gözden kaçırma: ikisi de devrik fiil cümlesidir ama VI'da “büyüdüğüm” sıfat-fiili vardır (birleşik); III'te fiilimsi yoktur, “salondaki” -ki eklidir (basit).", "“Değil”li yüklemi fiil sanma: ikisi de devrik ve birleşiktir ama V'in yüklemi “bizim değildi” isim soylu, VI'nın yüklemi “baktım” fiildir."],
+  aciklama: `Altı cümleyi üç ölçüte göre tek tek etiketle, sonra etiketleri karşılaştır.
+Adım 1: I → yüklem “saydı” (fiil) ve sonda (kurallı); “yanaşınca” zarf-fiili var (birleşik).
+Adım 2: II → yüklem “bir veda gibiydi” (“gibi” edatı ek fiil almış, isim soylu); ardından söz geliyor (devrik); “boşalan” sıfat-fiili var (birleşik).
+Adım 3: III → yüklem “sığmadı” (fiil); ardından “salondaki büyük koltuk” geliyor (devrik); fiilimsi yok, “salondaki” -ki eklidir (basit).
+Adım 4: IV → yüklemler “katladı” ve “yerleştirdim” (fiil), sonda (kurallı); iki yargı virgülle dizilmiş (sıralı).
+Adım 5: V → yüklem “bizim değildi” (isim soylu); ardından söz geliyor (devrik); “ettiğimiz” sıfat-fiili var (birleşik).
+Adım 6: VI → yüklem “baktım” (fiil); ardından “büyüdüğüm sokağa” geliyor (devrik); “büyüdüğüm” sıfat-fiili var (birleşik).
+Adım 7: Üç etiketi de aynı olan tek çift II ile V'tir: isim cümlesi, devrik, birleşik. Öteki seçeneklerdeki çiftler iki ölçütte uyuşur, üçüncüde ayrılır.
+Sık yapılan hata: “değildi” ya da “gibiydi” sözünü fiil sanmak. “Değil” de ek fiil almış “gibi” de isim soylu yüklem kurar; II ile V birer isim cümlesidir. Bu yüzden V, VI ile değil II ile eşleşir.
 Cevap B.`
 },
 {
@@ -531,28 +538,27 @@ Cevap B.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir okulun robotik kulübü, yıl sonunda kulübün gazetesinde bir yazı yayımladı. Yazıdan alınan bölümde cümleler numaralandırılmıştır.
-(1) Kulübün kurulduğu ilk günden beri her cumartesi toplanırız. (2) Kulüp başkanımız Elif'tir. (3) Geçen ay yarışmaya katıldık. (4) Birinci olamadık ama çok şey öğrendik. (5) Seneye de katılacağız yarışmaya.
-Bu bölümdeki cümlelerle ilgili şu yargılar verilmiştir:
-I. (1). cümle basit cümledir.
-II. (2). cümle isim cümlesidir.
-III. (5). cümle yüklemin yerine göre kurallıdır.
+  soru: `Ebru, yoğunlaştırılmış suyun yüzeyine serpilen boyalarla yapılan geleneksel bir kâğıt süsleme sanatıdır. Suya, kitre adı verilen bitkisel bir zamk katılarak kıvam verilir. Boyalar suya batmaz, yüzeyde yayılır; sanatçı bu boyalara biçim verir ve ortaya çıkan deseni kâğıda aktarır. Bir ebru atölyesini tanıtan yazıdan alınan bölümde cümleler numaralandırılmıştır:
+
+(1) Sanatçı, at kılından fırçayı boyaya batırıp teknenin üstünde hafifçe silkeler. (2) Suyun yüzeyinde açılan her damla, renkli bir halkadır. (3) Sanatçı ince bir telle halkaları çeker ve yüzeyde lale biçiminde bir desen belirir. (4) Aynı değildir hiçbir ebru bir öncekiyle. (5) Kâğıt suyun üstüne yatırılır, desen birkaç saniyede kâğıda geçer.
+
+Bu cümlelerle ilgili şu yargılar verilmiştir:
+I. (1). cümlede virgülle ayrılmış iki yargı vardır; cümle sıralıdır.
+II. (2) ve (4). cümlelerin yüklemi isim soyludur; bu iki cümleden yalnızca biri devriktir.
+III. (3). cümledeki bağlaç çıkarılıp yerine virgül konursa (3) ile (5). cümleler yapıca aynı türden olur.
+
 **Buna göre bu yargılardan hangileri doğrudur?**`,
   gorsel: null,
-  secenekler: ["Yalnız I","I ve III","II ve III","Yalnız II"],
+  secenekler: ["Yalnız I", "Yalnız III", "I ve II", "II ve III"],
   dogru: 3,
-  hatalar: [
-    "I yanlıştır: (1). cümlede 'kurulduğu' bir fiilimsidir (sıfat-fiil); cümle birleşiktir, basit değildir.",
-    "I ve III yanlıştır: (1). cümle 'kurulduğu' fiilimsisiyle birleşiktir; (5). cümlede yüklem 'katılacağız' sonda değildir, cümle devriktir.",
-    "II doğrudur, ama III yanlıştır: (5). cümlede yüklem 'katılacağız' ardından 'yarışmaya' gelir; cümle devriktir.",
-    null
-  ],
-  aciklama: `Basit cümle tek yargılıdır ve fiilimsi içermez; isim cümlesinin yüklemi isim soyludur; kurallı cümlede yüklem sondadır.
-Adım 1: I → (1). cümlede 'kurulduğu' bir sıfat-fiildir ve 'gün' sözcüğünü niteler; cümle birleşiktir. Yargı yanlış.
-Adım 2: II → (2). cümlenin yüklemi 'Elif'tir'. 'Elif' özel addır ve '-tir' ek fiil ekini almıştır. Yüklem isim soylu, cümle isim cümlesi. Yargı doğru.
-Adım 3: III → (5). cümlenin yüklemi 'katılacağız'dır; ondan sonra 'yarışmaya' yer tamlayıcısı gelmiştir. Yüklem sonda değil, cümle devrik. Yargı yanlış.
-Adım 4: Doğru olan yalnız II'dir.
-Sık yapılan hata: Cümlenin kısa görünmesine bakıp basit saymak. Fiilimsi olup olmadığına bakarak karar ver.
+  hatalar: ["Zarf-fiili yüklem sanma: “batırıp” çekimli değildir; (1). cümlenin tek yüklemi “silkeler”dir ve cümle birleşiktir. I yanlıştır; II ile III ise doğrudur.", "İsim cümlesinde yüklemin yerine bakmama: (4)'ün yüklemi “aynı değildir” isim soyludur ve sonda değildir; (2) ise kurallıdır. III gibi II de doğrudur.", "Zarf-fiili yüklem sanma ve dönüşümü kaçırma: (1) birleşiktir, I yanlıştır. (3)'te “ve” yerine virgül gelince cümle (5) gibi sıralı olur; III doğrudur.", null],
+  aciklama: `Sıralı cümlede bağımsız yargılar virgülle dizilir, bağlı cümlede bağlaçla bağlanır; fiilimsi ise çekimli yüklem değildir, yan yargı kurar ve cümleyi birleşik yapar.
+Adım 1: I. yargı → (1). cümlede tek çekimli yüklem var: “silkeler”. “batırıp” bir zarf-fiildir, yan yargı kurar; virgül de yalnızca özneyi ayırır. Cümle sıralı değil, birleşiktir. I yanlış.
+Adım 2: II. yargı → (2). cümlenin yüklemi “renkli bir halkadır”, (4). cümlenin yüklemi “aynı değildir”; ikisi de isim soylu. (2)'de yüklem sonda (kurallı), (4)'te yüklemden sonra “hiçbir ebru bir öncekiyle” geliyor (devrik). Yalnızca biri devrik. II doğru.
+Adım 3: III. yargı → (3). cümlede “çeker” ve “belirir” yüklemleri “ve” ile bağlanmış: bağlı cümle. Bağlaç çıkıp yerine virgül gelince yargılar bağlaçsız dizilir: cümle sıralı olur.
+Adım 4: (5). cümlede “yatırılır” ve “geçer” yüklemleri virgülle dizilmiş: sıralı cümle. Demek ki değişiklikten sonra (3) ile (5) aynı türden olur. III doğru.
+Adım 5: Doğru yargılar II ve III'tür.
+Sık yapılan hata: “batırıp silkeler” gibi art arda gelen iki işi iki ayrı yüklem saymak. -ıp eki zarf-fiil ekidir; “batırıp” çekimli değildir, yüklem olamaz. Sıralı cümle için en az iki çekimli yüklem gerekir.
 Cevap D.`
 },
 {
@@ -560,23 +566,26 @@ Cevap D.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, ablasıyla yaptığı konuşmayı farklı dizilişlerle dört cümle hâlinde yazdı. Cümlelerden bazıları tırnak içinde aktarılan bir söz içeriyor; bazıları ise yüklemin yeri bakımından birbirinden ayrılıyor. Cümleler aşağıda numaralandırılmıştır.
-**Bu cümlelerin hangisi tırnak içinde aktarılan bir söz bulunduran (alıntı) birleşik cümle olup aynı zamanda devrik bir cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>“Bu akşam erken döneceğim.” dedi ablam.</td></tr><tr><td>II</td><td>Ablam “Bu akşam erken döneceğim.” dedi.</td></tr><tr><td>III</td><td>Erken döndü ablam akşam.</td></tr><tr><td>IV</td><td>Ablam erken dönünce yemeği hazırladı.</td></tr></table>",
-  secenekler: ["I","II","III","IV"],
+  soru: `Yabancı filmlerdeki ve çizgi filmlerdeki karakterleri Türkçe konuşturan kişilere seslendirme sanatçısı denir. Sanatçı, kulaklığından özgün sesi dinlerken gözünü ekrandan ayırmaz; sözlerini karakterin dudak hareketlerine denk getirmeye çalışır. Bu yüzden aynı söz bazen onlarca kez yeniden kaydedilir; tek bir bölümün seslendirilmesi saatler sürebilir. İyi bir seslendirmede izleyici, karakterin aslında başka bir dilde konuştuğunu unutur. Kayıtlar, dışarıdan ses sızdırmayan özel odalarda yapılır. Bir seslendirme stüdyosunu gezen öğrencinin notlarından altı cümle aşağıda numaralandırılmıştır:
+
+(I) Mikrofonun önündeki ince perde, patlayan sesleri tutan bir filtredir. (II) Karakter konuşmaya başlayınca susar stüdyodaki herkes. (III) Bu meslekte kostüm provası yoktur. (IV) Sanatçı metni önceden okur ve zor sözcüklerin altını çizer. (V) Daracık bir yerdir bu kayıt odası. (VI) Yönetmen camın arkasından el sallayınca kayıt başlar.
+
+Öğrenci bu cümleleri yüklemin türü, yüklemin yeri, anlam ve yapı bakımından incelemiş; aşağıdaki özellik gruplarından üçüne birer örnek bulmuş, birine ise örnek bulamamıştır.
+
+**Buna göre aşağıdakilerden hangisinin örneği numaralanmış cümleler arasında __yoktur__?**`,
+  gorsel: null,
+  secenekler: ["Yüklemi isim soylu olan devrik, birleşik cümle", "Yüklemi çekimli fiil olan kurallı, birleşik cümle", "Yüklemi isim soylu olan olumsuz, basit cümle", "Yüklemi çekimli fiil olan kurallı, bağlı cümle"],
   dogru: 0,
-  hatalar: [
-    null,
-    "II alıntılı birleşik cümledir, ama yüklem 'dedi' en sondadır; cümle kurallıdır.",
-    "III devriktir ('döndü' sonda değil), ama tek yargılıdır ve alıntı yoktur; basit cümledir.",
-    "IV birleşiktir ('dönünce'), ama alıntı içermez ve yüklem 'hazırladı' sondadır; kurallıdır."
-  ],
-  aciklama: `Tırnak içinde aktarılan bir söz ile kurulan cümle, iç içe (alıntı) birleşik cümledir. Devrik cümlede yüklem sonda değildir.
-Adım 1: III → alıntı yok, tek yargı: basit. Yüklem 'döndü' sonda değil: devrik. Birleşik ölçütü tutmuyor.
-Adım 2: IV → 'dönünce' ile birleşik; alıntı yok; yüklem 'hazırladı' sonda: kurallı.
-Adım 3: II → alıntılı birleşik cümle; yüklem 'dedi' en sonda: kurallı.
-Adım 4: I → tırnak içinde aktarılan söz var: alıntılı birleşik. Yüklem 'dedi' sonda değil, ardından 'ablam' (özne) geliyor: devrik. İki özellik birlikte.
-Sağlama: I ile II aynı sözlerden kuruludur; yalnızca yüklemin yeri değişmiştir. Devriklik farkını yaratan budur.
+  hatalar: [null, "Fiilimsiyi gözden kaçırma: VI. cümlede yüklem “başlar” fiildir ve sondadır; “sallayınca” zarf-fiili cümleyi birleşik yapar. Bu özelliklerin örneği vardır.", "“Yok” yüklemini tanımama: III. cümlede “yoktur” isim soylu ve olumsuz bir yüklemdir; cümlede fiilimsi de ikinci bir yargı da bulunmaz, cümle basittir. Örneği vardır.", "“ve”nin görevine bakmama: IV. cümlede “ve” iki yargıyı (okur, çizer) bağlar; yüklemler fiildir ve sondadır. Bu özelliklerin örneği vardır."],
+  aciklama: `Önce altı cümleyi etiketle, sonra her seçeneği bu etiketlerle karşılaştır.
+Adım 1: I → yüklem “bir filtredir” (isim soylu) ve sonda (kurallı); “patlayan” ve “tutan” sıfat-fiilleri var (birleşik).
+Adım 2: II → yüklem “susar” (fiil); ardından “stüdyodaki herkes” geliyor (devrik); “konuşmaya” ve “başlayınca” fiilimsileri var (birleşik).
+Adım 3: III → yüklem “yoktur” (isim soylu, olumsuz); tek yargı var, fiilimsi yok (basit). C'nin örneği.
+Adım 4: IV → yüklemler “okur” ve “çizer” (fiil), sonda (kurallı); iki yargı “ve” ile bağlanmış (bağlı). D'nin örneği.
+Adım 5: V → yüklem “daracık bir yerdir” (isim soylu); ardından “bu kayıt odası” geliyor (devrik); fiilimsi yok (basit).
+Adım 6: VI → yüklem “başlar” (fiil) ve sonda (kurallı); “sallayınca” zarf-fiili var (birleşik). B'nin örneği.
+Adım 7: A için isim soylu yüklem, devriklik ve birleşik yapı aynı cümlede olmalı. I isim cümlesi ve birleşik ama kurallı; V isim cümlesi ve devrik ama basit; II devrik ve birleşik ama fiil cümlesi. Üçünü birden taşıyan cümle yok.
+Sık yapılan hata: Üç özellikten ikisini bulunca durmak. I, II ve V'in her biri A'daki özelliklerden ikisini taşır; bu yüzden A'nın örneği varmış gibi görünür. Özellikleri ayrı cümlelerden toplayamazsın; üçü de aynı cümlede olmalı.
 Cevap A.`
 },
 {
@@ -584,25 +593,26 @@ Cevap A.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir öğrenci, okul hayatından aldığı beş cümleyi hem yüklemin türüne hem de yapısına göre inceleyecek. Cümleler aşağıda numaralandırılmıştır. Bazıları isim cümlesi, bazıları fiil cümlesidir; bazıları basit, bazıları birleşiktir.
-**Bu cümlelerden kaç tanesi hem isim cümlesi hem basit cümledir?**`,
-  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th></tr><tr><td>I</td><td>Sınıfımızın en sessiz öğrencisi Mert'tir.</td></tr><tr><td>II</td><td>Çantamdaki kitaplar çok ağırdı.</td></tr><tr><td>III</td><td>Kantinin önündeki kuyruk gittikçe uzuyordu.</td></tr><tr><td>IV</td><td>Bu kitabı okuyunca sen de beğeneceksin.</td></tr><tr><td>V</td><td>Okulun kapısı sabah yedide açıktır.</td></tr></table>",
-  secenekler: ["1","2","3","4"],
+  soru: `Toroslar'da bazı Yörük aileleri, baharın sonunda sürülerini sahildeki kışlaklardan serin yaylalara götürür. Günlerce süren bu göç yürüyerek yapılır; çadırlar ve ev eşyaları develere yüklenir, çocuklar da sürünün ardından yürür. Yüzlerce keçiden oluşan sürü acele ettirilmez; hayvanlar yol boyunca otlayarak ilerler. Kafile gündüz yol alır, akşam olunca bir su kıyısında konaklar. Bu göçün yolları kuşaktan kuşağa aktarılır; aileler her yıl aşağı yukarı aynı geçitleri ve aynı su başlarını kullanır. Göçe eşlik eden bir belgesel yönetmeninin notlarından dört cümle aşağıda numaralandırılmıştır:
+
+(I) Kolay değildir günlerce süren bu yürüyüş. (II) Yolu hiç şaşırmadan bulur kafilenin önündeki yaşlı keçi. (III) Yokuş dikleşince hızlanamaz yük taşıyan develer. (IV) Aileler, akşam çökmeden kurmaz çadırlarını bir su başına.
+
+Bu notları Türkçe dersinde öğrencileriyle inceleyen öğretmen, dört cümlenin birbirine çok benzediğini ama cümlelerden yalnızca birinin şu üç özelliği birlikte taşıdığını söylemiştir:
+· Yüklemi çekimli bir fiildir.
+· Öznesi yüklemden sonra gelmiştir.
+· Anlamca olumsuzdur.
+
+**Buna göre öğretmenin sözünü ettiği cümle aşağıdakilerden hangisidir?**`,
+  gorsel: null,
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 2,
-  hatalar: [
-    "Yalnızca bir cümleyi saymışsın. I, II ve V'in üçünün de yüklemi isim soyludur ve üçü de tek yargılıdır.",
-    "Bir cümleyi atlamışsın. Üç cümlenin ('Mert'tir', 'ağırdı', 'açıktır') yüklemi isim soyludur ve basittir.",
-    null,
-    "III'ü de saymışsın: 'uzuyordu' bir fiildir, cümle fiil cümlesidir; IV ise birleşiktir."
-  ],
-  aciklama: `İsim cümlesi: yüklem isim soylu. Basit cümle: tek yargı, fiilimsi yok. İki ölçüt birlikte aranır.
-Adım 1: I → yüklem 'Mert'tir' (özel ad + ek fiil): isim cümlesi; tek yargı: basit. Sayılır.
-Adım 2: II → yüklem 'ağırdı' (sıfat + ek fiil): isim cümlesi; 'Çantamdaki' sözündeki '-ki' fiilimsi değildir: basit. Sayılır.
-Adım 3: III → yüklem 'uzuyordu' fiil: fiil cümlesi. Sayılmaz.
-Adım 4: IV → 'okuyunca' fiilimsisi: birleşik; ayrıca yüklem 'beğeneceksin' fiil. Sayılmaz.
-Adım 5: V → yüklem 'açıktır' (sıfat + ek fiil): isim cümlesi; tek yargı: basit. Sayılır.
-Adım 6: Sayılanlar I, II, V; yani 3 cümle.
-Sık yapılan hata: '-ki' ekini fiilimsi sanıp II'yi atlamak ya da III'ü yüklemi 'önündeki' gibi bir sözcük sanarak saymak.
+  hatalar: ["“Değil”li yüklemi fiil sanma: özne sonda ve cümle olumsuz, ama yüklem “kolay değildir” isim soyludur; cümle isim cümlesidir.", "Olumsuzluğu yüklemin dışında arama: yüklem fiil ve özne sonda, ama -madan eki “şaşırmadan” zarf-fiilindedir; yüklem “bulur” olumludur.", null, "Yüklemden sonraki sözü özne sanma: cümle olumsuz bir fiil cümlesidir, ama öznesi baştaki “aileler”dir; yüklemden sonra gelen sözler özne değildir."],
+  aciklama: `Üç özelliğin üçü de aynı cümlede olmalı; her cümlede üçünü ayrı ayrı işaretle.
+Adım 1: I → yüklem “kolay değildir”. “Değil” isim soylu yüklem kurar ve cümleyi olumsuz yapar. Ne kolay değildir? “Günlerce süren bu yürüyüş”; özne yüklemden sonra. İkinci ve üçüncü özellik var, ama yüklem çekimli fiil değil; birinci özellik yok.
+Adım 2: II → yüklem “bulur” (fiil). Kim bulur? “Kafilenin önündeki yaşlı keçi”; özne yüklemden sonra. Olumsuzluk yüklemde aranır: “şaşırmadan” sözündeki -madan eki bir zarf-fiil ekidir, yüklemin eki değildir. “Bulur” olumludur; üçüncü özellik yok.
+Adım 3: III → yüklem “hızlanamaz” (fiil). Kim hızlanamaz? “Yük taşıyan develer”; özne yüklemden sonra. Yüklem olumsuzluk eki almış: cümle olumsuz. Üç özellik de var.
+Adım 4: IV → yüklem “kurmaz” (fiil, olumsuz). Kim kurmaz? “Aileler”; özne cümlenin başında. Yüklemden sonra gelen “çadırlarını bir su başına” sözleri özne değildir; “neyi, nereye” sorularının cevabıdır. İkinci özellik yok.
+Sık yapılan hata: Olumsuzluğu cümlenin herhangi bir yerinde aramak. II. cümlede “hiç” ve “şaşırmadan” sözleri olumsuzluk duygusu verir ama yüklem “bulur” olumludur; cümlenin olumlu ya da olumsuz olduğuna yükleme bakarak karar ver. Bir de devrik cümlede yüklemden sonra gelen her sözü özne sayma; özneyi bulmak için yükleme “kim, ne” diye sor.
 Cevap C.`
 },
 {
@@ -610,28 +620,21 @@ Cevap C.`
   kazanim: "T.8.4.19",
   kademe: 3,
   zorluk: 4,
-  soru: `Bir müzede açılan sergiyi gezen öğrencilerin anlattıklarından derlenen metinde cümleler numaralandırılmıştır.
-(1) Sergiyi gezmeye gelen çocuklar rehberi merakla dinledi. (2) Salonun ortasındaki maket çok görkemliydi. (3) Hayran kaldılar maketteki ayrıntılara. (4) Rehber her bölümde kısa bir açıklama yaptı.
-Bu metindeki cümlelerle ilgili şu yargılar verilmiştir:
-I. (1). cümle sıralı cümledir.
-II. (2). cümle isim cümlesi olup birleşik yapılıdır.
-III. (3). cümle fiil cümlesi olup yüklemin yerine göre devriktir.
-**Buna göre bu yargılardan hangileri doğrudur?**`,
-  gorsel: null,
-  secenekler: ["Yalnız II","I ve III","II ve III","Yalnız III"],
+  soru: `Okulumuzun doğa kulübü, geçen ay bir cumartesi günü ilçe sahilinde kıyı temizliği düzenledi. Kulüp üyeleri, denize ulaşan plastiğin yıllarca yok olmadığını ve küçük parçalara ayrılarak balıkların midesine girdiğini fen dersinde öğrenmişti. Etkinliğe öğrencilerin yanı sıra veliler ve mahalle sakinleri de katıldı; toplanan atıklar türlerine göre ayrılıp tartıldı. Çalışma üç saat sürdü; kumsaldan pet şişeler, poşetler, misina parçaları ve binlerce izmarit çıktı.
+
+Kulübün internet sayfasında yayımlanan haberi okuyan Kerem, haberden dört cümle seçmiş ve bu cümleleri yüklemin türü, yüklemin yeri, anlam ve yapı bakımından inceleyip aşağıdaki tabloyu doldurmuştur. Tabloyu denetleyen Türkçe öğretmeni, Kerem'in üç cümlede birer özelliği yanlış yazdığını, yalnızca bir cümlenin dört özelliğini de doğru belirlediğini söylemiştir.
+
+**Buna göre Kerem, numaralanmış cümlelerden hangisinin dört özelliğini de doğru belirlemiştir?**`,
+  gorsel: "<table class=\"tablo\"><tr><th>No</th><th>Cümle</th><th>Yüklemin türü</th><th>Yüklemin yeri</th><th>Anlamı</th><th>Yapısı</th></tr><tr><td>I</td><td>Çuvalları tartan görevli, sonucu kimin açıklayacağını sordu.</td><td>fiil</td><td>kurallı</td><td>soru</td><td>birleşik</td></tr><tr><td>II</td><td>En zoru, kumun arasına karışmış izmaritleri ayıklamaktı.</td><td>fiil</td><td>kurallı</td><td>olumlu</td><td>birleşik</td></tr><tr><td>III</td><td>Kimse izmaritlerin bu kadar çok olduğunu tahmin etmemişti.</td><td>fiil</td><td>kurallı</td><td>olumsuz</td><td>basit</td></tr><tr><td>IV</td><td>Akşama doğru çöpsüz kaldı gönüllülerin temizlediği kumsal.</td><td>fiil</td><td>devrik</td><td>olumlu</td><td>birleşik</td></tr></table>",
+  secenekler: ["I", "II", "III", "IV"],
   dogru: 3,
-  hatalar: [
-    "II yanlıştır: (2). cümlenin yüklemi 'görkemliydi' isim soyludur, ama cümle tek yargılıdır; 'ortasındaki' sözündeki '-ki' fiilimsi değildir, cümle basittir. III ise doğrudur.",
-    "I yanlıştır: (1). cümlede 'gezmeye' ve 'gelen' fiilimsileri bulunur; cümle birleşiktir, bağlaçsız sıralanmış bağımsız yargılardan oluşmaz.",
-    "II yanlıştır: (2). cümle isim cümlesidir ama basittir. Yalnızca III doğrudur.",
-    null
-  ],
-  aciklama: `Sıralı cümle bağımsız yargıların virgülle sıralanmasıdır; birleşik cümlede fiilimsi, şart eki, 'ki' ya da alıntı vardır.
-Adım 1: I → (1). cümlede 'gezmeye' (isim-fiil) ve 'gelen' (sıfat-fiil) var; bağımsız yargılar virgülle sıralanmamış. Cümle birleşiktir, sıralı değildir. Yargı yanlış.
-Adım 2: II → (2). cümlenin yüklemi 'görkemliydi' isim soylu; isim cümlesi. Ama tek yüklemlidir, 'ortasındaki' sözündeki '-ki' bir ilgi ekidir: cümle basittir. 'Birleşik yapılı' demek yanlış. Yargı yanlış.
-Adım 3: III → (3). cümlenin yüklemi 'hayran kaldılar' çekimli bir fiildir: fiil cümlesi. Yüklemden sonra 'maketteki ayrıntılara' gelir: devrik. Yargı doğru.
-Adım 4: Doğru olan yalnız III'tür.
-Sık yapılan hata: Uzun cümleyi birleşik, kısa cümleyi basit saymak. Uzunluk değil, fiilimsi ve yan yargı olup olmadığı önemlidir.
+  hatalar: ["Soru sözcüklü bildirme cümlesini soru sanma: I. cümle “kimin” sözünü taşır ama cevap beklemez, bir soruyu aktarır. Anlamı “soru” değil, “olumlu” olmalıydı.", "Ek fiil almış fiilimsiyi çekimli fiil sanma: II. cümlenin yüklemi “ayıklamaktı” ek fiil almış bir isim-fiildir; böyle bir yüklem isim soyludur. Yüklemin türü “fiil” değil, “isim” olmalıydı.", "Fiilimsiyi gözden kaçırma: III. cümlede tek çekimli yüklem vardır ama “olduğunu” sözü yan yargı kurar. Yapısı “basit” değil, “birleşik” olmalıydı.", null],
+  aciklama: `Her satırda önce yüklemi bul, sonra Kerem'in yazdığı dört özelliği tek tek sına. Bir satırın doğru sayılması için dört özelliğin dördü de tutmalı.
+Adım 1: I → yüklem “sordu” (fiil) ve sonda (kurallı); “tartan” ve “açıklayacağını” fiilimsileri var (birleşik). Buraya kadar doğru. Cümlede “kimin” soru sözcüğü geçiyor ama cümle cevap beklemiyor; görevlinin ne sorduğunu bildiriyor ve nokta ile bitiyor. Bu bir bildirme cümlesidir, anlamı olumludur. Kerem “soru” yazmış: yanlış.
+Adım 2: II → yüklem “ayıklamaktı”. “Ayıklamak” bir isim-fiildir; ek fiil alarak yüklem olmuştur. Fiilimsi çekimli fiil sayılmaz; böyle bir yüklem isim soyludur. Kerem “fiil” yazmış: yanlış. Öteki üç özellik doğru: yüklem sonda, cümle olumlu, “karışmış” sıfat-fiili yüzünden birleşik.
+Adım 3: III → yüklem “tahmin etmemişti” (fiil), sonda (kurallı), olumsuzluk eki almış (olumsuz). Buraya kadar doğru. Ama “olduğunu” sözü bir fiilimsidir ve yan yargı kurar; cümle birleşiktir. Kerem “basit” yazmış: yanlış.
+Adım 4: IV → yüklem “kaldı” (fiil); ardından “gönüllülerin temizlediği kumsal” geliyor (devrik); “temizlediği” sıfat-fiili var (birleşik). “Çöpsüz” sözündeki -süz eki yüklemi olumsuz yapmaz; olumsuzluk yüklemde aranır ve “kaldı” olumludur. Dört özellik de doğru.
+Sık yapılan hata: IV. satırda “çöpsüz” sözüne bakıp cümleyi olumsuz saymak ve doğru satırı elemek. Olumsuzluğu yüklemde ara: -ma/-me eki, “değil” ya da “yok” yoksa cümle olumludur. Bir de I. cümledeki gibi soru sözcüğü taşıyan her cümleyi soru cümlesi sanma; cevap vermeyi dene, veremiyorsan bildirme cümlesidir.
 Cevap D.`
 },
 /* ===================== HAVUZ ===================== */
